@@ -1,0 +1,454 @@
+WEBVTT
+
+1
+00:01:17.550 --> 00:01:18.589
+Francesco Andreoli: What's that meant?
+
+2
+00:01:20.420 --> 00:01:22.119
+Matthew Whitehead: Hey? How are you?
+
+3
+00:01:22.630 --> 00:01:31.999
+Francesco Andreoli: Oh, get a good good, I think. I think the meeting is not happening this what I'm understanding from
+
+4
+00:01:32.690 --> 00:01:37.930
+Francesco Andreoli: from met to Nelson they were mentioning
+
+5
+00:01:38.110 --> 00:01:39.090
+Matthew Whitehead: 5 min.
+
+6
+00:01:39.460 --> 00:01:42.290
+Francesco Andreoli: Oh, no, actually, it's you that
+
+7
+00:01:44.200 --> 00:01:45.350
+Matthew Whitehead: I
+
+8
+00:01:46.110 --> 00:01:47.940
+Matthew Whitehead: I know there's a meeting tomorrow
+
+9
+00:01:48.130 --> 00:01:54.259
+Matthew Whitehead: to this to sort of kick off some of the yeah.
+
+10
+00:01:54.460 --> 00:02:18.070
+Francesco Andreoli: exactly. Exactly. I think. Like he was mentioned. I mean, I think someone mentioned that was actually with the first of July in the States. the schedule moved it and it didn't move to our schedule from our consensus calendar. So I guess we can just we can just keep and go go check out the the the IP ledger. discord. I think they were postponing.
+
+11
+00:02:18.180 --> 00:02:47.590
+Francesco Andreoli: yeah, that's why that's why, like, I didn't know what's what's happening. So you think that the spending today is one. Or I think, no, I think yeah, exactly. No. So today is not happening. Apparently like with the Fourth of July, they moved everything like on 2 days. So we just would check out with with with Matt. Oh, there you are, second Matt in the house. How are you invite? Screwed up? I don't know. I we think this is the wrong week because of the Fourth of July.
+
+12
+00:02:47.830 --> 00:03:01.259
+Matt Nelson: Yeah. So we will. And on the calendar that I see, it's basically we pushed. A week later you go to the basic calendar itself. But there.
+
+13
+00:03:01.540 --> 00:03:29.979
+Matt Nelson: I need to fix it. I was told by Hyper Ledger. Just fix it so I might just fix it. But what's it? What's the fix? The fix it will be postponing to next week or 2 days, one and and anticipating that. Yeah. And then we have the we have the back to back apack meeting. We also have the modularity consensus kick off tomorrow like the modularity off. So I don't really need. I don't think we need the meeting today. Matt to add briefly about like wrapping, like, what we are doing for tomorrow's meeting.
+
+14
+00:03:29.980 --> 00:03:38.209
+Matt Nelson: Yeah, yeah, that's fine with me. and I think I'm gonna move this one a week earlier to next.
+
+15
+00:03:38.580 --> 00:03:58.940
+Francesco Andreoli: And we want to also move the the consensus calendar one also earlier. Then, yeah, I'll move our internal meeting as well. perfect. And you guys prep the meeting for tomorrow. Right?
+
+16
+00:03:58.940 --> 00:04:20.769
+Francesco Andreoli: Yes, yeah. So I think you're good to drop off, Francisco. I know you're alright. let's see. So I'm sorry again about the confusion. Michelle, with this meeting today. It's the Captain Basu
+
+17
+00:04:21.029 --> 00:04:45.840
+Matt Nelson: Hyper Ledger Calendar Updated. But I don't think it updated everyone's individual calendars. we've moved this meeting for the Fourth of July. I don't think it pushed one. So I've moved this specific contributor call to next week. but I think that we can use this time to discuss what we're going to be doing in the modularity. Kick off tomorrow, maybe not the full hour, but like 1020 min. Something like that.
+
+18
+00:04:46.360 --> 00:05:03.739
+Matt Nelson: Okay, yeah. Gary. So so first of all I shared. I shared 2 links in the base of modularity. Channel. there, there! One
+
+19
+00:05:03.830 --> 00:05:10.249
+Matt Nelson: to have you guys seen these 2 links? There's this modular base 2, one
+
+20
+00:05:10.810 --> 00:05:15.750
+Matt Nelson:  and then the kind of implementation planning approach.
+
+21
+00:05:16.200 --> 00:05:24.689
+Matthew Whitehead: Yeah. So I I had a look at these, although I I feel like maybe the first one. There's a bit more in it now than when I first looked.
+
+22
+00:05:25.420 --> 00:05:34.040
+Matt Nelson: Yeah, we offered these well, I updated this yesterday, I guess, but I've we up to these at the beginning or at the end of last week? A little bit?
+
+23
+00:05:35.350 --> 00:05:39.560
+Matthew Whitehead: Oh, yes, it might be. Might be good for me to have a a reread of them.
+
+24
+00:05:42.030 --> 00:06:06.030
+Matt Nelson: Yeah. So I mean, look, what I think we should use the first meeting tomorrow for is to agree upon some design goals and approaches like our goal is not to go into the meeting tomorrow and like fully design a solution that'll be working for everything. What I think is going to be happen is we're going to try to get on the same page around language and around basically just software engineering best practices and then go forward on the
+
+25
+00:06:06.140 --> 00:06:26.509
+Matt Nelson: like. First slice that we have, which we're toying with a few different kind of domain areas that we would be looking at like transaction management, and like to again not starting with this, because consensus might be the topest topic to decouple and to make module. So we're we're
+
+26
+00:06:26.980 --> 00:06:44.079
+Matthew Whitehead: again. You can read these pages, but it's basically our goals are to come in with specific approach on one or more, and then go through what that will look like, I think Justin Florentine on our team will be bringing basically some diagrams about
+
+27
+00:06:44.250 --> 00:06:51.300
+Matt Nelson: like, how would we do the transaction management and validation. Stack in terms of this kind of vertical slice approach.
+
+28
+00:06:51.610 --> 00:06:52.880
+Matt Nelson: So
+
+29
+00:06:53.690 --> 00:07:09.499
+Matt Nelson: yeah, it's it's intended to be a very much so kind of like a design session, and to align ourselves on process not necessarily to come like with a hard and fast rule on what we're gonna do in our approach. Gary, add on this on this point.
+
+30
+00:07:10.070 --> 00:07:11.700
+Gary Schulte: No, I think you covered it pretty well.
+
+31
+00:07:12.050 --> 00:07:23.900
+Matthew Whitehead: Alright. We have more people joining. Unfortunately. Hello, folks, I'm really
+
+32
+00:07:24.560 --> 00:07:30.900
+Matt Nelson: it's quite upsetting that the calendar got all screwed up today.
+
+33
+00:07:31.080 --> 00:07:47.079
+Matt Nelson: but anyway, we're just discussing the kick off for the modularity meeting that we'll be having tomorrow. all are welcome to join. we're discussing modular base suit. There's details on the Wiki page. the Hyper Ledger base, Wiki, that has all the context.
+
+34
+00:07:47.090 --> 00:07:49.450
+Matt Nelson: I think?
+
+35
+00:07:51.470 --> 00:08:04.529
+Matt Nelson: yeah, if if Matt initial, you guys agree on these goals or anything like that, and there's also some discussion in the discord and the basic modularity channel that we are kind of just good to proceed
+
+36
+00:08:10.050 --> 00:08:34.370
+Gary Schulte: cool. You might want to re iterate for us. That the contributor call was moved. It's been pushed one week, and it's just a a calendar. It's not food. Yes, sorry. The The basic calendar did not reflect the movement of this from your call to next week, And then following every following week after that. So apologies on that one
+
+37
+00:08:35.490 --> 00:08:36.750
+Matthew Whitehead: the
+
+38
+00:08:36.770 --> 00:08:42.570
+Matt Nelson: actual me a call will be next week a week from today at the same time.
+
+39
+00:08:43.030 --> 00:08:50.880
+Matt Nelson: But we have the modular base to kick off from the working group tomorrow at this time. As well.
+
+40
+00:08:51.170 --> 00:08:52.260
+yeah.
+
+41
+00:08:52.370 --> 00:09:00.100
+Matthew Whitehead: Yeah. So I guess I guess maybe One thing from my point of view, I guess, is that there are. You know, there's still
+
+42
+00:09:00.310 --> 00:09:05.849
+Matthew Whitehead: there's still quite a few areas of as I've not sort of touched and had to look at in detail. So
+
+43
+00:09:05.940 --> 00:09:19.639
+Matthew Whitehead:  you know, I I guess I'm just keen to be up to country where I can in this in this area. So I might. So I guess that's just heads up. I'm gonna ask some stupid questions as we're going through some of this work.
+
+44
+00:09:20.260 --> 00:09:39.649
+Matt Nelson: Now you're good. We, we feel like, I feel like we always have a tendency to over design and over, get into the implementation details upfront, at least on the consensus team. So stupid questions and like high-level opinions of best practices are kind of exactly what we're looking for.
+
+45
+00:09:40.100 --> 00:09:50.869
+Matt Nelson: like I mentioned we. I think that consensus we will take on the first kind of pieces, just so we can start the ball rolling, get some lessons learned kind of quickly and iterate.
+
+46
+00:09:50.990 --> 00:09:54.369
+Matt Nelson: So any questions that you have that are like.
+
+47
+00:09:54.730 --> 00:10:11.599
+Matthew Whitehead: you know, very straightforward, that is, can only help steer the discussion frankly.
+
+48
+00:10:11.620 --> 00:10:27.529
+Matthew Whitehead: Outside, I guess, of the main line of sort of development, you know, while while some stuff is kicking off sort of in earnest. To begin with, that's that's useful to send, you know, to someone like me that almost like, I guess, almost like a
+
+49
+00:10:27.950 --> 00:10:41.730
+Matthew Whitehead: a learning exercise kind of thing, while some of the main source kicking off. If there's anything that that sort of leaps out in that in that space, then I I guess, feel free to sort of consider throwing stuff my way while while some of the mainline stuff proceeding.
+
+50
+00:10:42.620 --> 00:10:50.359
+Matthew Whitehead: you know, yeah, definitely tend to find getting your head in into a problem helps you learn that area of the code better than just staring at it.
+
+51
+00:10:51.720 --> 00:11:10.929
+Matt Nelson: Got you? I'll have. I'll make sure that we're sharing more information on our approach in basic modularity. The Channel. I think there's a little bit of discussion around how we're going to accomplish this from a technical perspective. So if you're familiar with dependency, injection, tools and stuff like that like dagger, like, we love your opinion.
+
+52
+00:11:11.440 --> 00:11:19.529
+Matt Nelson: just trying to work out the context there. So I I I will share some more material. Any new material that I think of will go into that channel.
+
+53
+00:11:19.540 --> 00:11:21.650
+Matthew Whitehead: Sure. Yeah. And and I think
+
+54
+00:11:21.950 --> 00:11:31.869
+Matthew Whitehead: you know there there any so many, so often you can run the run calls right? So so often. Working on on a channel is is a pretty effective way forward, if you
+
+55
+00:11:31.970 --> 00:11:33.260
+Matthew Whitehead: if you put enough in there.
+
+56
+00:11:34.450 --> 00:11:38.220
+Matt Nelson: Yeah. So we'll be working with that.
+
+57
+00:11:38.550 --> 00:11:39.600
+Matt Nelson: sorry. Go ahead.
+
+58
+00:11:39.660 --> 00:11:46.250
+Nischal Sharma: Yeah, no. I just going through the channel because I didn't look through it. So yeah, I will also go through that channel.
+
+59
+00:11:47.600 --> 00:11:55.800
+Matt Nelson: Yeah, there's some technical discussion. that I think again it's getting a little into the weeds before we've gotten into the actual
+
+60
+00:11:56.850 --> 00:12:05.249
+Matt Nelson: discussion of the goals and stuff. So, you know, takes whatever's in there with a grain of salt. Those are just some approaches that the other maintainers are kicking around.
+
+61
+00:12:05.500 --> 00:12:10.260
+Matt Nelson: but I'll I'll have the team share as much general information as we can to prep everyone for the call tomorrow.
+
+62
+00:12:10.390 --> 00:12:19.159
+Matt Nelson: with the outcome of tomorrow's call, hopefully being a direction on the first couple of modules deciding what they are.
+
+63
+00:12:19.240 --> 00:12:24.160
+Matt Nelson: we're gonna use kind of the rule of threes of abstraction. So if you don't need
+
+64
+00:12:24.410 --> 00:12:40.249
+Matt Nelson: more than one or 2 or more than one or 2 use cases per like module, for example, that's not really worth abstracting or modularizing. So we're going to be picking the kind of business domains in that area. Again, a lot of that stuff is on the implementation approach page where it lays out all of the
+
+65
+00:12:40.380 --> 00:12:45.189
+Matt Nelson:  business logic kind of areas and domains within bay suit.
+
+66
+00:12:45.630 --> 00:12:55.320
+Matt Nelson: and then the the dot, the diagrams that I've shared, the mirror diagram that's in there as well. It's got some more visual representation of what that looks like.
+
+67
+00:12:57.320 --> 00:12:58.560
+Nischal Sharma: That's good. Yeah.
+
+68
+00:12:59.200 --> 00:13:10.859
+Matt Nelson: So I think that of what's most of interest here is the distribution approach. So one of the goals of the modularity work is better distributions. So, Matt, this is what we are talking about. As far as like
+
+69
+00:13:11.130 --> 00:13:24.539
+Matt Nelson: choosing enterprise, release public really public main net release, private network, release, Ebm, release all up, release, etc., etc. So our free goals are basically that resolution of tech debt
+
+70
+00:13:24.630 --> 00:13:45.440
+Matt Nelson: and distribution and better client modification. So we're not necessarily sold on. If the client modification stuff is best to success by plugins or full modularity, i. E. If I need to customize module instead of using the Plugin Api, I rib and replace or alter the module and put it back in. So we we, you know
+
+71
+00:13:45.440 --> 00:13:55.169
+Matt Nelson: again, I think that where, since you guys might not feel as comfortable as these other folks in the code base, you definitely have software engineering experience of bringing more around like
+
+72
+00:13:55.250 --> 00:13:58.950
+Matt Nelson: approach and best practices will help ground the discussion a lot
+
+73
+00:13:59.270 --> 00:14:01.139
+Matt Nelson: like, yeah.
+
+74
+00:14:01.150 --> 00:14:04.489
+Matthew Whitehead: yeah, yeah, that that sounds that sounds great. Yeah.
+
+75
+00:14:06.660 --> 00:14:17.049
+Matt Nelson: Any other stuff like we have. I have time. Now. We're on the phone already. If there's anything else we want to chat about, I think again. Sorry about the screw up with the calendar. We'll resume this
+
+76
+00:14:17.250 --> 00:14:24.160
+Matt Nelson: contributor call next week, which will be good because we can do a little discussion about the modularity thing and all this other stuff. But if there's anything else we
+
+77
+00:14:24.190 --> 00:14:44.779
+Matthew Whitehead: you want to chat about today, I get I one question. I know this is still a modularity, but I guess one thing that There's not a lot of mention of in the at least in the first Wiki page. I don't think the second one either is where it's relative to the current Plugin module
+
+78
+00:14:44.840 --> 00:15:03.900
+Matthew Whitehead: identify. That's because it's it's sort of a given that it's in some respects where where is relevant? It's going to follow the current Plugin architecture pretty closely, or if that hasn't, you know, if that's not a done deal where you see it versus the existing Plugin. Api.
+
+79
+00:15:04.920 --> 00:15:09.749
+Matt Nelson: Yeah. So that's what we have to figure out a little bit right? I don't think the Plugin Api.
+
+80
+00:15:09.830 --> 00:15:20.089
+Matt Nelson: We had some discussion about this the other day internally, and consensus aside. I don't know if our goal is to expand the Plugin Api to be so unwieldy that it
+
+81
+00:15:20.610 --> 00:15:39.029
+Matt Nelson: like is not a useful abstraction anymore, because it's just like everything gets shoved in there. So I think that that falls under the third goal of like client modification. The way I laid it out in my head was the Plugin Api is a much simpler entry point than modifying Basu modules, let's say.
+
+82
+00:15:39.140 --> 00:15:58.599
+Matt Nelson: to modifying the client. So if our goals are around, basically ease of use and developer experience and modular, and then continuing down the route of the Plugin Api is probably valuable if our goals are around maximum customizability reuse of components and like basically basically, you can go anywhere and do anything.
+
+83
+00:15:58.690 --> 00:16:10.709
+Matt Nelson: But there's a lot more like hard work to make that happen. Then I think that that lends itself more to the full modularity approach where we are cleanly interfacing all of the components, and you can swap them in and out. It will.
+
+84
+00:16:10.790 --> 00:16:15.399
+Matt Nelson: So this is what we can discuss right? Like, what are the goals of you all as well like? I don't think that
+
+85
+00:16:15.450 --> 00:16:23.729
+Matt Nelson: I I that's why I, on my side as a product manager for this like. Either way, I can see my team spending effort and having it be valuable.
+
+86
+00:16:24.080 --> 00:16:27.960
+Matt Nelson: But like, I want to find out your guys go to like
+
+87
+00:16:28.060 --> 00:16:38.029
+Matt Nelson: from a modification standpoint. I have a feeling it's better to have a Plugin Api that's easy to work with, and exposes X number of things versus like having to wholesale, modify
+
+88
+00:16:39.540 --> 00:16:50.190
+Matt Nelson: like full modules in the code base kind of on the fly is a little tougher, right? So we that's what we're looking to figure out. I think
+
+89
+00:16:50.820 --> 00:16:56.989
+Matt Nelson: the approaches that we end up taking. I was initially sold on the Plugin first kind of approach.
+
+90
+00:16:57.860 --> 00:17:09.530
+Matt Nelson: I'm sort of back walking out a little bit after we've kind of dug into the technical details, I will let the engineers speak a little bit more about it tomorrow. I think that's a great question that we should note. I'm going to note it on the page as a comment.
+
+91
+00:17:09.619 --> 00:17:19.369
+Matthew Whitehead: Yeah, sorry. Honestly, yeah. I did did see it so mentioned in there. Yeah. so yeah, I think I think that would be useful sending people at me where?
+
+92
+00:17:19.800 --> 00:17:28.079
+Matthew Whitehead: understand this, where you know some of the discussions that have happened that might sway the decision. You know the reasons why.
+
+93
+00:17:28.200 --> 00:17:34.590
+Matthew Whitehead: why some of the engineering team think that the current Plugin separation may be stretching it too far to
+
+94
+00:17:34.670 --> 00:17:55.910
+Matt Nelson: to extend it to the remit that this sort of work groups aiming for any of that that background or discussion. Yeah, that'd be really useful to read. Yeah, gotcha. I mean, it's not. It's mostly just chats. So it works. It's not. It's not. Yeah, I'll I'll ask. I'll ask the team to put in a little bit of that color in this in the modular basis. Page.
+
+95
+00:17:57.000 --> 00:17:58.830
+Matthew Whitehead: Awesome. Yeah, that'd be great.
+
+96
+00:18:01.200 --> 00:18:07.149
+Matt Nelson: all right. Anything else. It can be this, that, or the other thing.
+
+97
+00:18:07.640 --> 00:18:10.359
+Nischal Sharma: Oh, no, nothing from my side.
+
+98
+00:18:10.590 --> 00:18:11.510
+Matt Nelson: Awesome.
+
+99
+00:18:11.850 --> 00:18:27.299
+Matthew Whitehead: I I no, I think just on the the second go the distribution side of things. Did you want to chat separately, Matt, about some of that outside of the modularity workshop called tomorrow.
+
+100
+00:18:27.650 --> 00:18:37.950
+Matt Nelson: yeah, I owe you a review of your document. I still haven't gotten to that. yeah, it's not super long. And it's it's super high level initial questions. So.
+
+101
+00:18:39.670 --> 00:18:40.480
+Matt Nelson: yeah.
+
+102
+00:18:40.590 --> 00:18:58.190
+Matt Nelson: I think you know, this can be accomplished as part of the modularity discussion and separately. So I think, yeah, let's get through the first meeting and then depending on how we decide to approach this, it might be worth starting, like as kind of another track around how
+
+103
+00:18:58.290 --> 00:19:03.930
+Matt Nelson: we reach this goal, whether it's through modules or some other thing.
+
+104
+00:19:04.200 --> 00:19:07.219
+Matt Nelson: I think that that can be kind of similar.
+
+105
+00:19:07.300 --> 00:19:30.219
+Matthew Whitehead: There's multiple ways we can accomplish that. So let's make sure we're considering the other avenues, too. Yeah, yeah. Tedley, yeah, yeah, I think one aim, I guess I have. Is that in that sort of document that talks about, you know, sort of release cycle. What one or 2 used cases, you know, sketch that use cases for a couple of different types of release
+
+106
+00:19:30.400 --> 00:19:32.650
+Matthew Whitehead: might help as a useful sort of
+
+107
+00:19:32.840 --> 00:19:39.540
+Matthew Whitehead: but playing back some of the technical discussion, how? How would that? How those technical outcomes
+
+108
+00:19:39.780 --> 00:19:52.699
+Matthew Whitehead: make easier or make harder, you know, those those release cycle sort of sample use cases, I guess. So. Maybe that's something else for me to try and add into that. that document as well. Yeah.
+
+109
+00:19:53.940 --> 00:20:02.139
+Matt Nelson: sweet, that works for me. I I'll take a review today. I'll give you some comments. It's not very long, so I can. I can get to say for sure.
+
+110
+00:20:03.280 --> 00:20:21.990
+Matt Nelson: All right, folks, I will see you all tomorrow. I'll make sure to share as much as I can in that channel. These documents are living for sure. so if you haven't read them in the last couple of days, definitely, maybe poke in, unfortunately. but yeah, I'll make sure we can get as much detail upfront. I'll have the engineers share some
+
+111
+00:20:22.330 --> 00:20:26.460
+Matt Nelson: if there are any that are pro, and we can go from there.
+
+112
+00:20:27.010 --> 00:20:32.430
+Nischal Sharma: Awesome. Thank you. Thank you. Bye, bye.
+
+113
+00:20:32.530 --> 00:20:34.140
+Matthew Whitehead: Again.
+

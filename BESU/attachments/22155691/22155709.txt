@@ -1,0 +1,19 @@
+00:00:36	Francesco Andreoli:	https://wiki.hyperledger.org/display/BESU/2022-07-05+Contributor+Call
+00:07:36	Karim T.:	looking at the code I think it's more because we are using the object like that. I don't think we are using this fields but not sure
+00:09:40	Grace Hartley:	need to step away for one min. brb!
+00:10:06	Fabio Di Fabio:	agree with Justin
+00:12:22	Grace Hartley:	back
+00:15:20	Karim T.:	it
+00:28:50	Karim T.:	+1
+00:29:06	Ameziane Hamlat:	+1
+00:29:43	Gary Schulte:	bad or empty?
+00:30:08	Karim T.:	bad before the stateroot mismatch fix ?
+00:30:18	Gary Schulte:	on forest though...
+00:30:29	Karim T.:	aah
+00:30:30	Gary Schulte:	but it is pre-stateroot fix
+00:31:16	Fabio Di Fabio:	we need to check if the nodes are running on the new way to manage newPayload blocks
+00:32:57	Justin Florentine:	no, it should have the stateroot fix, he's running latest build as of 20 mins ago
+00:36:36	Nicolas Massart:	\o/
+00:36:37	Karim T.:	🚀
+00:42:46	Francesco Andreoli:	thanks!
+00:42:50	Fabio Di Fabio:	tnx

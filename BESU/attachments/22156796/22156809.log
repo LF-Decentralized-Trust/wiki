@@ -1,0 +1,119 @@
+2024.04.19-14:23:31.397 info  [caliper] [cli-launch-manager] 	Set SUT type: ethereum
+2024.04.19-14:23:32.822 info  [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2024.04.19-14:23:32.823 info  [caliper] [caliper-engine] 	Starting benchmark flow
+2024.04.19-14:23:32.825 info  [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2024.04.19-14:23:33.141 info  [caliper] [caliper-engine] 	Executed "init" step in 0.043 seconds
+2024.04.19-14:23:33.148 info  [caliper] [ethereum-connector] 	Creating contracts...
+2024.04.19-14:23:34.020 info  [caliper] [ethereum-connector] 	Deployed contract simple at 0xEbEF1af22544D1C3a2A50f0c10dD195Ed14EB911
+2024.04.19-14:23:34.021 info  [caliper] [caliper-engine] 	Executed "install" step in 0.874 seconds
+2024.04.19-14:23:34.032 info  [caliper] [monitor.js] 	No resource monitors specified
+2024.04.19-14:23:34.035 info  [caliper] [default-observer] 	Observer interval set to 5000 milliseconds
+2024.04.19-14:23:34.048 info  [caliper] [round-orchestrator] 	Preparing worker connections
+2024.04.19-14:23:34.049 info  [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2024.04.19-14:23:34.068 info  [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2024.04.19-14:23:34.069 info  [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2024.04.19-14:23:34.070 info  [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2024.04.19-14:23:36.109 info  [caliper] [cli-launch-worker] 	Set SUT type: ethereum
+2024.04.19-14:23:38.133 info  [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2024.04.19-14:23:38.133 info  [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2024.04.19-14:23:38.134 info  [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2024.04.19-14:23:39.364 info  [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2024.04.19-14:23:39.365 info  [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2024.04.19-14:23:39.368 info  [caliper] [worker-message-handler] 	Initializing Worker#0...
+2024.04.19-14:23:39.549 info  [caliper] [worker-message-handler] 	Worker#0 initialized
+2024.04.19-14:23:39.550 info  [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2024.04.19-14:23:39.550 info  [caliper] [round-orchestrator] 	Started round 1 (open)
+2024.04.19-14:23:39.553 info  [caliper] [worker-message-handler] 	Preparing Worker#0 for Round#0
+2024.04.19-14:23:39.748 info  [caliper] [caliper-worker] 	Info: worker 0 prepare test phase for round 0 is starting...
+2024.04.19-14:23:39.757 info  [caliper] [caliper-worker] 	Info: worker 0 prepare test phase for round 0 is completed
+2024.04.19-14:23:39.757 info  [caliper] [worker-message-handler] 	Worker#0 prepared for Round#0
+2024.04.19-14:23:39.758 info  [caliper] [worker-orchestrator] 	1 workers prepared, progressing to test phase.
+2024.04.19-14:23:39.759 info  [caliper] [round-orchestrator] 	Monitors successfully started
+2024.04.19-14:23:39.760 info  [caliper] [worker-message-handler] 	Worker#0 is starting Round#0
+2024.04.19-14:23:39.866 info  [caliper] [caliper-worker] 	Worker #0 starting workload loop
+2024.04.19-14:23:44.815 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 322 Succ: 161 Fail:0 Unfinished:161
+2024.04.19-14:23:49.760 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 740 Succ: 479 Fail:0 Unfinished:261
+2024.04.19-14:23:54.761 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 1259 Succ: 1081 Fail:0 Unfinished:178
+2024.04.19-14:23:59.761 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 1784 Succ: 1701 Fail:0 Unfinished:83
+2024.04.19-14:24:04.761 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 2446 Succ: 2144 Fail:0 Unfinished:302
+2024.04.19-14:24:09.761 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 2960 Succ: 2620 Fail:0 Unfinished:340
+2024.04.19-14:24:14.762 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 3548 Succ: 3344 Fail:0 Unfinished:204
+2024.04.19-14:24:19.763 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 4151 Succ: 3914 Fail:0 Unfinished:237
+2024.04.19-14:24:24.764 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 4836 Succ: 4387 Fail:0 Unfinished:449
+2024.04.19-14:24:29.764 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 5231 Succ: 5014 Fail:0 Unfinished:217
+2024.04.19-14:24:34.764 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 5808 Succ: 5724 Fail:0 Unfinished:84
+2024.04.19-14:24:39.765 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 6241 Succ: 6071 Fail:0 Unfinished:170
+2024.04.19-14:24:44.768 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 6831 Succ: 6660 Fail:0 Unfinished:171
+2024.04.19-14:24:49.768 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 7411 Succ: 7307 Fail:0 Unfinished:104
+2024.04.19-14:24:54.769 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 8004 Succ: 7752 Fail:0 Unfinished:252
+2024.04.19-14:24:59.772 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 8646 Succ: 8167 Fail:0 Unfinished:479
+2024.04.19-14:25:04.771 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 9099 Succ: 8649 Fail:0 Unfinished:450
+2024.04.19-14:25:09.771 info  [caliper] [default-observer] 	[open Round 0 Transaction Info] - Submitted: 9816 Succ: 9536 Fail:0 Unfinished:280
+2024.04.19-14:25:13.301 info  [caliper] [worker-message-handler] 	Worker#0 finished Round#0
+2024.04.19-14:25:18.307 info  [caliper] [default-observer] 	Resetting txCount indicator count
+2024.04.19-14:25:18.308 info  [caliper] [report-builder] 	### Test result ###
+2024.04.19-14:25:18.315 info  [caliper] [report-builder] 	
++------+-------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ  | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|-------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 10000 | 0    | 109.9           | 5.63            | 0.21            | 2.44            | 108.3            |
++------+-------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2024.04.19-14:25:18.316 info  [caliper] [round-orchestrator] 	Finished round 1 (open) in 92.436 seconds
+2024.04.19-14:25:18.316 info  [caliper] [monitor.js] 	Stopping all monitors
+2024.04.19-14:25:18.316 info  [caliper] [round-orchestrator] 	Waiting 5 seconds for the next round...
+2024.04.19-14:25:23.322 info  [caliper] [round-orchestrator] 	Started round 2 (transfer)
+2024.04.19-14:25:23.323 info  [caliper] [worker-message-handler] 	Preparing Worker#0 for Round#1
+2024.04.19-14:25:23.422 info  [caliper] [caliper-worker] 	Info: worker 0 prepare test phase for round 1 is starting...
+2024.04.19-14:25:23.423 info  [caliper] [caliper-worker] 	Info: worker 0 prepare test phase for round 1 is completed
+2024.04.19-14:25:23.423 info  [caliper] [worker-message-handler] 	Worker#0 prepared for Round#1
+2024.04.19-14:25:23.428 info  [caliper] [worker-orchestrator] 	1 workers prepared, progressing to test phase.
+2024.04.19-14:25:23.428 info  [caliper] [round-orchestrator] 	Monitors successfully started
+2024.04.19-14:25:23.429 info  [caliper] [worker-message-handler] 	Worker#0 is starting Round#1
+2024.04.19-14:25:23.529 info  [caliper] [caliper-worker] 	Worker #0 starting workload loop
+2024.04.19-14:25:28.430 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 441 Succ: 272 Fail:0 Unfinished:169
+2024.04.19-14:25:33.429 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 995 Succ: 923 Fail:0 Unfinished:72
+2024.04.19-14:25:38.431 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 1545 Succ: 1361 Fail:0 Unfinished:184
+2024.04.19-14:25:43.431 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 2070 Succ: 1813 Fail:0 Unfinished:257
+2024.04.19-14:25:48.431 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 2650 Succ: 2472 Fail:0 Unfinished:178
+2024.04.19-14:25:53.433 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 3189 Succ: 3116 Fail:0 Unfinished:73
+2024.04.19-14:25:58.433 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 3750 Succ: 3572 Fail:0 Unfinished:178
+2024.04.19-14:26:03.435 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 4301 Succ: 4231 Fail:0 Unfinished:70
+2024.04.19-14:26:08.436 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 4851 Succ: 4656 Fail:0 Unfinished:195
+2024.04.19-14:26:13.436 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 5404 Succ: 5332 Fail:0 Unfinished:72
+2024.04.19-14:26:18.438 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 5954 Succ: 5772 Fail:0 Unfinished:182
+2024.04.19-14:26:23.439 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 6494 Succ: 6432 Fail:0 Unfinished:62
+2024.04.19-14:26:28.439 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 7054 Succ: 6872 Fail:0 Unfinished:182
+2024.04.19-14:26:33.439 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 7572 Succ: 7499 Fail:0 Unfinished:73
+2024.04.19-14:26:38.441 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 8155 Succ: 7972 Fail:0 Unfinished:183
+2024.04.19-14:26:43.441 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 8706 Succ: 8632 Fail:0 Unfinished:74
+2024.04.19-14:26:48.443 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 9256 Succ: 9060 Fail:0 Unfinished:196
+2024.04.19-14:26:53.443 info  [caliper] [default-observer] 	[transfer Round 1 Transaction Info] - Submitted: 9806 Succ: 9732 Fail:0 Unfinished:74
+2024.04.19-14:26:57.135 info  [caliper] [worker-message-handler] 	Worker#0 finished Round#1
+2024.04.19-14:27:02.140 info  [caliper] [default-observer] 	Resetting txCount indicator count
+2024.04.19-14:27:02.142 info  [caliper] [report-builder] 	### Test result ###
+2024.04.19-14:27:02.142 info  [caliper] [report-builder] 	
++----------+-------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name     | Succ  | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|----------|-------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| transfer | 10000 | 0    | 110.0           | 2.71            | 0.10            | 1.53            | 108.1            |
++----------+-------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2024.04.19-14:27:02.143 info  [caliper] [round-orchestrator] 	Finished round 2 (transfer) in 92.606 seconds
+2024.04.19-14:27:02.143 info  [caliper] [monitor.js] 	Stopping all monitors
+2024.04.19-14:27:02.143 info  [caliper] [report-builder] 	### All test results ###
+2024.04.19-14:27:02.144 info  [caliper] [report-builder] 	
++----------+-------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name     | Succ  | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|----------|-------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open     | 10000 | 0    | 109.9           | 5.63            | 0.21            | 2.44            | 108.3            |
+|----------|-------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| transfer | 10000 | 0    | 110.0           | 2.71            | 0.10            | 1.53            | 108.1            |
++----------+-------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2024.04.19-14:27:02.155 info  [caliper] [monitor.js] 	Stopping all monitors
+2024.04.19-14:27:02.155 info  [caliper] [worker-orchestrator] 	Sending exit message to connected workers
+2024.04.19-14:27:02.156 info  [caliper] [round-orchestrator] 	Benchmark finished in 202.606 seconds. Total rounds: 2. Successful rounds: 2. Failed rounds: 0.
+2024.04.19-14:27:02.156 info  [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.end" is not present, skipping end command
+2024.04.19-14:27:02.156 info  [caliper] [cli-launch-manager] 	Benchmark successfully finished
+2024.04.19-14:27:02.156 info  [caliper] [worker-message-handler] 	Worker#0 is exiting

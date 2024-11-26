@@ -1,0 +1,606 @@
+WEBVTT
+
+1
+00:00:02.790 --> 00:00:06.270
+Danno Ferrin: This is going to the cloud I don't know if it's gonna be my computer after this or not so.
+
+2
+00:00:08.580 --> 00:00:09.660
+Sally MacFarlane: cloud sounds good.
+
+3
+00:00:11.759 --> 00:00:17.310
+Sally MacFarlane: um okay so starting off with the housekeeping the antitrust tinnitus.
+
+4
+00:00:19.350 --> 00:00:23.160
+Sally MacFarlane: which, hopefully, everyone should be aware of if you're not.
+
+5
+00:00:25.890 --> 00:00:27.570
+Sally MacFarlane: You can go and read it, but.
+
+6
+00:00:29.640 --> 00:00:30.810
+Sally MacFarlane: it's fairly sensible.
+
+7
+00:00:32.100 --> 00:00:41.070
+Sally MacFarlane: This means being recorded me speaking, and I will try and keep an eye on the right hand if you have a question or something to say.
+
+8
+00:00:42.840 --> 00:00:47.220
+Sally MacFarlane: I don't have anything on the general announcements Does anyone want to jump in with anything.
+
+9
+00:00:52.080 --> 00:00:52.320
+Danno Ferrin: No.
+
+10
+00:00:52.350 --> 00:00:52.920
+No.
+
+11
+00:00:53.970 --> 00:00:54.780
+Sally MacFarlane: Okay, so the.
+
+12
+00:00:55.920 --> 00:00:56.700
+Sally MacFarlane: roadmap.
+
+13
+00:00:57.210 --> 00:00:59.280
+Sally MacFarlane: I haven't actually took this recently.
+
+14
+00:01:00.900 --> 00:01:04.770
+Sally MacFarlane: So we have got 24 there 27.
+
+15
+00:01:04.980 --> 00:01:07.320
+Sally MacFarlane: So that's imagine price match cleanup.
+
+16
+00:01:08.340 --> 00:01:09.180
+Sally MacFarlane: And then.
+
+17
+00:01:11.730 --> 00:01:13.500
+Sally MacFarlane: we'd like to look at modulation.
+
+18
+00:01:15.780 --> 00:01:16.350
+Sally MacFarlane: See oh yeah.
+
+19
+00:01:17.460 --> 00:01:27.060
+Sally MacFarlane: i'm release date so 20 270 RC one was completed a weekend a bit ago.
+
+20
+00:01:28.890 --> 00:01:31.620
+Sally MacFarlane: See to his children for the 20th which is like.
+
+21
+00:01:33.570 --> 00:01:35.190
+Sally MacFarlane: The day after tomorrow, no time.
+
+22
+00:01:36.600 --> 00:01:42.330
+Danno Ferrin: yeah it's a it's Monday here so it'll be Wednesday here when I actually do it.
+
+23
+00:01:44.010 --> 00:01:51.780
+Sally MacFarlane: And I think there was some conversation in the basic release channel about particular PR that we're tracking it to so I guess.
+
+24
+00:01:53.340 --> 00:01:55.560
+Danno Ferrin: yeah either get closer attention to that.
+
+25
+00:01:55.590 --> 00:01:57.120
+Danno Ferrin: makes you before I build it.
+
+26
+00:01:57.990 --> 00:02:00.570
+Sally MacFarlane: yeah yeah cool sounds like it's under control.
+
+27
+00:02:02.220 --> 00:02:17.190
+Sally MacFarlane: and work updates I just put in some things here about what my team is working on with peering improvement so we're kind of at the stage where we're testing out a few hypotheses and seeing how they perform in a different test, so I just like to eat needs there.
+
+28
+00:02:18.390 --> 00:02:19.770
+Sally MacFarlane: Nothing set in stone, yet.
+
+29
+00:02:21.840 --> 00:02:22.410
+Sally MacFarlane: Since.
+
+30
+00:02:23.760 --> 00:02:39.780
+Danno Ferrin: I think the last year to work on that was married before she went over to the tech team, so a lot of the stuff in the network code um is all in not many people who know what decisions were made, I mean some of it dates back to Pantheon be honest like pre release Pantheon.
+
+31
+00:02:40.560 --> 00:02:45.270
+Danno Ferrin: yeah so if something doesn't make sense, you want to just rip it out and replace it, I don't think you'll get much pushback.
+
+32
+00:02:46.770 --> 00:03:03.090
+Sally MacFarlane: yeah so um yeah Luckily, we have actually been able to get in touch with meredith and she has given us some input, so we are looking at making some changes there but it's good to get sort of remembrance of the history of you know why certain decisions are made and stuff so.
+
+33
+00:03:03.150 --> 00:03:04.200
+Sally MacFarlane: So that's been quite useful yeah.
+
+34
+00:03:04.860 --> 00:03:07.380
+Danno Ferrin: Its role in our team that are going to be the hard ones to get Ahold of.
+
+35
+00:03:11.070 --> 00:03:14.370
+Sally MacFarlane: Getting back a bit further Okay, and so the next.
+
+36
+00:03:15.240 --> 00:03:16.110
+Danno Ferrin: coach that'll.
+
+37
+00:03:16.620 --> 00:03:23.250
+Danno Ferrin: I mean, in some ways to look at and say that's been that sticky ball is good, but on the other hand, it's smileys becoming the weak spot.
+
+38
+00:03:24.300 --> 00:03:30.330
+Sally MacFarlane: yeah yeah exactly, and so the next item here is looking at this, the five support so.
+
+39
+00:03:31.860 --> 00:03:41.100
+Sally MacFarlane: Basically, basically doesn't support this be five at the moment, we want to add that in because we think it will make peering in general faster.
+
+40
+00:03:42.480 --> 00:03:47.280
+Sally MacFarlane: So we want to start some investigation on how we would actually do that, like what.
+
+41
+00:03:49.410 --> 00:03:51.390
+Sally MacFarlane: How we would plan and sort of design that.
+
+42
+00:03:53.040 --> 00:03:55.080
+Sally MacFarlane: And one scientist by V1.
+
+43
+00:03:56.340 --> 00:04:01.500
+Sally MacFarlane: And as far as I can tell basically doesn't support this wi fi at all right now.
+
+44
+00:04:05.310 --> 00:04:07.080
+Danno Ferrin: That matches my recollection.
+
+45
+00:04:07.680 --> 00:04:10.380
+Danno Ferrin: Do you see with discovery five is there wasn't.
+
+46
+00:04:10.800 --> 00:04:13.320
+Danno Ferrin: It was like it gets research project and never got standardized.
+
+47
+00:04:14.850 --> 00:04:25.290
+Sally MacFarlane: Right, so it seems like the situation with gift right now is before still the default, but they have a cla option we can turn on be five as well.
+
+48
+00:04:27.180 --> 00:04:29.700
+Danno Ferrin: Rather standards are we just working against guess on this.
+
+49
+00:04:30.960 --> 00:04:32.400
+Sally MacFarlane: That is a good question.
+
+50
+00:04:34.950 --> 00:04:37.590
+Sally MacFarlane: I can I see what i'm saying right so.
+
+51
+00:04:38.640 --> 00:04:39.840
+Sally MacFarlane: i've got one is only one.
+
+52
+00:04:41.010 --> 00:04:51.600
+Antoine Toulme: might as well, throw yeah there's a standard, you can go to the github COM slash you feel you themselves def p2p and it's got all the different actionable messages.
+
+53
+00:04:54.060 --> 00:05:06.930
+Antoine Toulme: there's a handshake with this be five and easy for you just you just blasting everybody and trying to get on piers and this the five you're supposed to use a handshake to kind of facilitate your traffic's it cannot be.
+
+54
+00:05:08.460 --> 00:05:17.460
+Antoine Toulme: apparent that you're doing a discovery call over UDP, and so it would allow you to have better censorship resistance, if you were to do that.
+
+55
+00:05:18.150 --> 00:05:35.010
+Antoine Toulme: And that's was headed by the lighthouse folks from looking at the five which apparently was a little too open ended and have a vector of attacks so, unfortunately, that complicates the code quite a bit it's just a little bit more.
+
+56
+00:05:36.660 --> 00:05:37.230
+Sally MacFarlane: yeah.
+
+57
+00:05:37.440 --> 00:05:38.160
+Antoine Toulme: Certain trades.
+
+58
+00:05:39.510 --> 00:05:40.470
+Antoine Toulme: yep then.
+
+59
+00:05:41.370 --> 00:05:55.200
+Sally MacFarlane: So we have, there is a consensus maintained disk be five repository So hopefully that hide some of the complexity there, but I would have to check if that's five dot one.
+
+60
+00:05:57.690 --> 00:05:59.190
+Sally MacFarlane: Ticket already uses.
+
+61
+00:05:59.310 --> 00:06:02.340
+Antoine Toulme: yeah, it has to be first one if it's just political.
+
+62
+00:06:02.940 --> 00:06:03.630
+Sally MacFarlane: Right yeah.
+
+63
+00:06:04.080 --> 00:06:05.370
+Antoine Toulme: it's using nettie.
+
+64
+00:06:08.430 --> 00:06:08.850
+Antoine Toulme: Sorry.
+
+65
+00:06:12.120 --> 00:06:13.200
+Sally MacFarlane: Okay, thanks.
+
+66
+00:06:14.280 --> 00:06:19.710
+Sally MacFarlane: So yeah we would be looking at using that discovery repo that's already there so hopefully a lot of the.
+
+67
+00:06:19.710 --> 00:06:21.120
+Sally MacFarlane: code is already written and we can just.
+
+68
+00:06:21.120 --> 00:06:22.260
+Sally MacFarlane: sort of plug it in.
+
+69
+00:06:23.490 --> 00:06:27.240
+Sally MacFarlane: But that's the investigation that was those starting this week.
+
+70
+00:06:30.450 --> 00:06:32.010
+Sally MacFarlane: Any other comments on on.
+
+71
+00:06:36.180 --> 00:06:47.820
+Sally MacFarlane: Thanks everyone for that extra context and then it's helpful and so the next item here is one that jason's team is working on, so the so called performance improvements, did you want to talk to that one Jason.
+
+72
+00:06:49.620 --> 00:07:02.340
+Jason Frame: Oh yeah I can talk a little bit so like I said look I just started this So the idea is to look at the current performance of ethical compare that against some clients per starship best line and look at different types of.
+
+73
+00:07:03.570 --> 00:07:10.410
+Jason Frame: Contracts because a very act is called what we've been we've been told us this quarter variation depending on what kind of.
+
+74
+00:07:12.000 --> 00:07:19.470
+Jason Frame: If call you're doing look at those and the idea is to start with the very basic kind of as I, as a 20.
+
+75
+00:07:20.820 --> 00:07:32.610
+Jason Frame: bounce call and have a have a look at that and then have a look at other cases there but we're really yeah we're right at the start of this so we don't know exactly.
+
+76
+00:07:34.110 --> 00:07:36.660
+Jason Frame: What potion tech at the moment i've been thinking that based on.
+
+77
+00:07:43.560 --> 00:07:45.150
+Sally MacFarlane: Any other updates.
+
+78
+00:07:47.910 --> 00:07:55.290
+Danno Ferrin: Probably the one I mentioned before the call I took a look at the graph que El specs and the theory of execution api's um.
+
+79
+00:07:56.310 --> 00:08:03.540
+Danno Ferrin: let's look at this, because this is dovetailing some stuff working on doing the data with our json rpc bridge, but I saw they have a graph que El spec in it.
+
+80
+00:08:04.020 --> 00:08:10.500
+Danno Ferrin: it's kind of annoyed that they moved it from the IP into the execution api's without much fanfare and apparently that's going to be the standard spec going forward.
+
+81
+00:08:11.520 --> 00:08:17.940
+Danno Ferrin: Some of the issues are that they don't have a graph que El schema output, they just have the graph que El de js intermediate form in there.
+
+82
+00:08:18.330 --> 00:08:28.350
+Danno Ferrin: So i've got a patch pending to get that fixed in but after that what they've done as a base it off of gets version which is mostly the same there's some minor differences but there's some significant.
+
+83
+00:08:29.100 --> 00:08:33.750
+Danno Ferrin: Standard ads and a couple of quality life that's that I think are good and we needed support for the.
+
+84
+00:08:35.790 --> 00:08:43.740
+Danno Ferrin: Pricing limits the the free market stuff so that went in, and I think that's a good ad and also the access list in.
+
+85
+00:08:44.490 --> 00:08:50.970
+Danno Ferrin: 2930 VIP 2930 for type one and Type two transactions and those I think are absolutely necessary spec ads.
+
+86
+00:08:51.750 --> 00:08:59.340
+Danno Ferrin: The one quality of life that that I like is he also had in getting the raw transaction and block in block header.
+
+87
+00:08:59.820 --> 00:09:07.770
+Danno Ferrin: And receipts our lps is an option to get from that but there's a couple of other changes they put in there, the meats and stuff not knowable and eligible just arbitrarily.
+
+88
+00:09:08.310 --> 00:09:17.820
+Danno Ferrin: And they added a effective tip which no other rpc is us, so I didn't put those in initially i'm gonna have another round of PR is once my PR to.
+
+89
+00:09:18.720 --> 00:09:26.430
+Danno Ferrin: Get the graph to schema into the execution APIs gets accepted emerged and then we'll have another discussion about which get ads are worth keeping in which ones.
+
+90
+00:09:26.820 --> 00:09:31.050
+Danno Ferrin: should be reverted to the VIP level and which one should be have an open discussion in the interim.
+
+91
+00:09:31.830 --> 00:09:37.920
+Danno Ferrin: So, but the PR this other view it's not urgent it's mostly it is just a lot so.
+
+92
+00:09:38.520 --> 00:09:48.900
+Danno Ferrin: Rather than you know, being a good boy working on my day job I said this is going to be fixed and i'm going to do it now, because I don't want to work before I go on vacation on stuff that I can't drop in this is sort of the backdrop and.
+
+93
+00:09:49.980 --> 00:09:51.690
+Danno Ferrin: So this PR is me finally finishing off.
+
+94
+00:09:53.850 --> 00:10:00.600
+Sally MacFarlane: Okay awesome thanks Dan I I don't have the link the PR number but i'll add that, after.
+
+95
+00:10:01.470 --> 00:10:03.420
+Danno Ferrin: yeah Oh, let me find it not drop it in chat.
+
+96
+00:10:04.320 --> 00:10:04.950
+Sally MacFarlane: Okay cool.
+
+97
+00:10:06.180 --> 00:10:13.110
+Sally MacFarlane: um any other worth updates or anton's back now did you have anything else you wanted to add for the discovery be faster.
+
+98
+00:10:14.550 --> 00:10:16.320
+Antoine Toulme: No, no it's all good sorry about that.
+
+99
+00:10:16.380 --> 00:10:19.620
+Sally MacFarlane: yeah that's fine, thank you for that extra context.
+
+100
+00:10:21.090 --> 00:10:21.540
+Danno Ferrin: useful.
+
+101
+00:10:23.190 --> 00:10:30.360
+Sally MacFarlane: OK so moving on to other business there's a PR around at a may get.
+
+102
+00:10:33.060 --> 00:10:35.370
+Sally MacFarlane: I don't know how to say that i've only ever seen it in.
+
+103
+00:10:38.310 --> 00:10:39.270
+Danno Ferrin: Attendance protocol.
+
+104
+00:10:40.110 --> 00:10:40.980
+Sally MacFarlane: There entities yeah.
+
+105
+00:10:41.520 --> 00:10:43.530
+Sally MacFarlane: yeah but how do you say the plp.
+
+106
+00:10:45.090 --> 00:10:45.780
+Danno Ferrin: Somehow.
+
+107
+00:10:51.360 --> 00:10:53.910
+Sally MacFarlane: Okay, so I guess, we can have a discussion if people have.
+
+108
+00:10:53.940 --> 00:11:00.300
+Sally MacFarlane: Strong opinions now, or we can have that discussion I think about whether we should add that badge and he read me.
+
+109
+00:11:03.720 --> 00:11:04.890
+Antoine Toulme: The don't have any value right.
+
+110
+00:11:05.820 --> 00:11:08.040
+Antoine Toulme: there's no monetary value associated with them.
+
+111
+00:11:09.360 --> 00:11:10.140
+Sally MacFarlane: I don't think so.
+
+112
+00:11:11.160 --> 00:11:12.150
+Danno Ferrin: I think they're sold out.
+
+113
+00:11:13.680 --> 00:11:15.840
+Danno Ferrin: There good example of a utility and FT.
+
+114
+00:11:17.520 --> 00:11:18.000
+Antoine Toulme: Okay.
+
+115
+00:11:22.920 --> 00:11:25.740
+Danno Ferrin: I mean you can claim them, whether or not we put it in the.
+
+116
+00:11:26.820 --> 00:11:28.920
+Danno Ferrin: middle we put it in a readme people can claim it.
+
+117
+00:11:29.910 --> 00:11:39.180
+Antoine Toulme: i'll get you and so that's not the who initiated this with it by based routing intuitive someone from gets put up asking.
+
+118
+00:11:43.770 --> 00:11:47.070
+Sally MacFarlane: This person which i'm guessing is from good pop.
+
+119
+00:11:48.330 --> 00:11:49.110
+Antoine Toulme: No okay.
+
+120
+00:11:52.020 --> 00:11:52.350
+Antoine Toulme: Okay.
+
+121
+00:11:54.150 --> 00:11:55.500
+Antoine Toulme: yeah no problem is this.
+
+122
+00:11:56.790 --> 00:11:58.680
+Danno Ferrin: Little think it matters too much.
+
+123
+00:12:00.390 --> 00:12:05.370
+Danno Ferrin: I mean it's It shows membership and the greater Community the last part.
+
+124
+00:12:14.460 --> 00:12:21.600
+Antoine Toulme: Just about this native should be added to the other repository maybe basic docs as just.
+
+125
+00:12:25.470 --> 00:12:28.110
+Sally MacFarlane: As we should yeah I think that's a legit.
+
+126
+00:12:28.170 --> 00:12:28.710
+Danno Ferrin: let's do it.
+
+127
+00:12:30.030 --> 00:12:36.030
+Antoine Toulme: If anything i'd rather have poor Apps for bigfoot damage than good about that.
+
+128
+00:12:42.180 --> 00:12:43.290
+Sally MacFarlane: Why do you say that.
+
+129
+00:12:45.570 --> 00:12:49.380
+Antoine Toulme: Because I think you might not want to have.
+
+130
+00:12:50.640 --> 00:13:04.980
+Antoine Toulme: People chasing fame and fortune going to you and saying hey I found a typo in one of your inner classes, that you know the spells method name that's private that nobody cares about so they can claim it pull up.
+
+131
+00:13:05.700 --> 00:13:21.030
+Antoine Toulme: Whereas if someone makes a documentation update I think that's very valuable all the time, so it's just it's just an opinion, I think it's it's great to have it just seeing that visit docs I think even make sense to have it.
+
+132
+00:13:23.640 --> 00:13:24.000
+So.
+
+133
+00:13:29.760 --> 00:13:30.570
+Sally MacFarlane: Any other thoughts.
+
+134
+00:13:38.850 --> 00:13:40.890
+Jason Frame: Is a encouraged contributors.
+
+135
+00:13:49.620 --> 00:13:59.670
+Danno Ferrin: retro retrospective it's retroactive so we don't encourage contributors specifically to base soup but stuff like this and encourage people to contribute to larger theory and project so.
+
+136
+00:14:00.480 --> 00:14:07.350
+Danno Ferrin: I think I see the value in this is more than just basically we're just a participant in the greater the system there's getting these these poets.
+
+137
+00:14:08.460 --> 00:14:08.730
+Danno Ferrin: yeah.
+
+138
+00:14:09.270 --> 00:14:13.230
+Sally MacFarlane: i'm hot you had your hand up but you've taken it back down, did you want to add something.
+
+139
+00:14:13.530 --> 00:14:19.260
+Hart Montgomery: For sure I was just gonna say that people have usually found that badging systems can have.
+
+140
+00:14:20.940 --> 00:14:23.760
+Hart Montgomery: positive impacts on contributions.
+
+141
+00:14:26.010 --> 00:14:29.970
+Hart Montgomery: So I think adding it to a documentation is a great idea.
+
+142
+00:14:31.200 --> 00:14:33.840
+Hart Montgomery: it's one of the hardest things to get people to contribute to.
+
+143
+00:14:37.980 --> 00:14:38.430
+Sally MacFarlane: The point.
+
+144
+00:15:01.980 --> 00:15:07.020
+Sally MacFarlane: metrics review unless anyone really wants to look at graphs right now.
+
+145
+00:15:09.240 --> 00:15:13.500
+Sally MacFarlane: open for future topics Does anyone want to add.
+
+146
+00:15:14.610 --> 00:15:16.500
+Sally MacFarlane: raise anything right now for either of us.
+
+147
+00:15:26.520 --> 00:15:26.850
+Sally MacFarlane: know.
+
+148
+00:15:32.010 --> 00:15:33.600
+Sally MacFarlane: We can close thanks everyone.
+
+149
+00:15:40.110 --> 00:15:40.440
+Antoine Toulme: All right.
+
+150
+00:15:41.010 --> 00:15:42.330
+Danno Ferrin: bye thanks bye.
+
+151
+00:15:43.140 --> 00:15:43.410
+bye.
+

@@ -1,0 +1,1070 @@
+WEBVTT
+
+1
+00:04:47.670 --> 00:04:48.540
+Grace Hartley: hey guys how's it going.
+
+2
+00:04:50.340 --> 00:04:50.880
+Ry Jones: Fine.
+
+3
+00:04:52.260 --> 00:04:53.430
+Ry Jones: I apologize.
+
+4
+00:04:54.480 --> 00:04:55.530
+Ry Jones: for being late there.
+
+5
+00:04:57.900 --> 00:04:59.580
+Grace Hartley: I think I was later than one.
+
+6
+00:05:01.500 --> 00:05:02.070
+Grace Hartley: yeah.
+
+7
+00:05:02.850 --> 00:05:03.660
+Francesco Andreoli: I don't think that.
+
+8
+00:05:04.020 --> 00:05:04.860
+Grace Hartley: You were no.
+
+9
+00:05:06.360 --> 00:05:09.510
+Grace Hartley: will give just 30 seconds for everyone to join.
+
+10
+00:05:11.100 --> 00:05:14.160
+Grace Hartley: It did update the agenda i'll drop it in the chat.
+
+11
+00:05:15.180 --> 00:05:17.190
+Grace Hartley: and use the one from Tuesday.
+
+12
+00:05:19.380 --> 00:05:23.010
+Ry Jones: Okay you're the host so i'll let you control.
+
+13
+00:05:24.060 --> 00:05:24.780
+Ry Jones: Starting me.
+
+14
+00:05:26.640 --> 00:05:27.750
+Grace Hartley: Recording start.
+
+15
+00:05:29.400 --> 00:05:32.490
+Grace Hartley: hello, I will share my screen.
+
+16
+00:05:33.600 --> 00:05:44.400
+Grace Hartley: Welcome to the basic contributor call in a January 20 lift it back two days thanks for being flexible with that housekeeping.
+
+17
+00:05:46.080 --> 00:05:50.100
+Grace Hartley: here's the antitrust policy re seen it before.
+
+18
+00:05:51.870 --> 00:05:59.940
+Grace Hartley: The meeting will be recorded these middlemen speaking, if you have a question use the raise hand feature and we abide by the code of conduct.
+
+19
+00:06:03.240 --> 00:06:04.290
+Grace Hartley: No worries Daniel.
+
+20
+00:06:05.700 --> 00:06:12.750
+Grace Hartley: Few things on the agenda here kind of pulling in one to 10 on announcements were talking about the incentive program briefly.
+
+21
+00:06:13.530 --> 00:06:32.340
+Grace Hartley: Then we have metrics roadmap, these are two net new items from the conversations we had around continuing to improve the Community engagement and transparency, so I think this is a good so starting to put those in action release updates work updates other business open for future topics.
+
+22
+00:06:33.780 --> 00:06:37.710
+Grace Hartley: Anything I am missing or someone wants to make sure we cover in detail.
+
+23
+00:06:40.530 --> 00:06:43.500
+Danno Ferrin: We do this talk about tracing before we do the general announcements.
+
+24
+00:06:44.730 --> 00:06:46.200
+Danno Ferrin: and other work update trace APIs.
+
+25
+00:06:46.800 --> 00:06:47.640
+Grace Hartley: Sure yeah.
+
+26
+00:06:49.440 --> 00:06:51.300
+Grace Hartley: Are you only topic we could start with that now.
+
+27
+00:06:52.350 --> 00:07:00.660
+Danno Ferrin: i'm just wondering I didn't put it on I hear that there is some work being updated to the tracing api's that had there were also looking at implementing the.
+
+28
+00:07:03.690 --> 00:07:07.290
+Danno Ferrin: The parody style tracing i'm probably just against the library.
+
+29
+00:07:07.860 --> 00:07:09.510
+Danno Ferrin: And I wanted to see if there is any.
+
+30
+00:07:10.140 --> 00:07:19.590
+Danno Ferrin: overlap if we're going to collide, and what we're implementing and if we could collaborate, you know what what the details on what what I guess a Korean step the task I don't know who's got the task there.
+
+31
+00:07:21.060 --> 00:07:30.930
+So currently it's Danielle who is working on that, and some people in Australia, so I sink Sally and someone else from her team.
+
+32
+00:07:35.700 --> 00:07:37.050
+Danno Ferrin: Because it's on the apac column wasn't.
+
+33
+00:07:37.560 --> 00:07:40.890
+Danno Ferrin: Just brushed right over so I guess i'll wait another two weeks and see what they have to say that.
+
+34
+00:07:46.860 --> 00:07:47.700
+Grace Hartley: We can also I mean.
+
+35
+00:07:48.960 --> 00:07:58.110
+Grace Hartley: feel free to text chat message i'm not a lawyer, so I get direct unfortunately sorry but yeah I think feel free to be like was working on this.
+
+36
+00:07:59.940 --> 00:08:03.810
+Grace Hartley: movie order and that will always not delay it for two weeks.
+
+37
+00:08:06.210 --> 00:08:06.540
+Grace Hartley: Okay.
+
+38
+00:08:14.100 --> 00:08:14.880
+Danno Ferrin: Now i'll just tag.
+
+39
+00:08:16.260 --> 00:08:18.270
+Danno Ferrin: Salim Danielle which Daniel.
+
+40
+00:08:19.380 --> 00:08:21.390
+Grace Hartley: Daniel Daniel learner.
+
+41
+00:08:21.570 --> 00:08:24.120
+Danno Ferrin: Daniel larimer in UK okay.
+
+42
+00:08:25.080 --> 00:08:26.400
+Grace Hartley: guys and speed, I think.
+
+43
+00:08:26.910 --> 00:08:30.660
+Danno Ferrin: In Spain Okay, but you're you're basically yeah exactly.
+
+44
+00:08:32.040 --> 00:08:32.310
+Sajida Zouarhi: cool.
+
+45
+00:08:33.720 --> 00:08:45.630
+Grace Hartley: Okay um next one incentive program update so uh the correction our team consensus reviewed at some, but we have to kind of go back to.
+
+46
+00:08:47.340 --> 00:09:02.190
+Grace Hartley: Our team to kind of review it in detail the main action at this point, which is a Walker is hyper ledger and the E, F are working together to figure out what hyper ledger holding the keys would mean and how they would pull that off.
+
+47
+00:09:03.360 --> 00:09:07.170
+Grace Hartley: So that's kind of the so TIM couldn't make this call, he apologizes.
+
+48
+00:09:08.220 --> 00:09:13.020
+Grace Hartley: But that's kind of the the main Action point at this point for the two those two parties to work through.
+
+49
+00:09:14.220 --> 00:09:16.320
+Grace Hartley: That open questions so that we can.
+
+50
+00:09:18.570 --> 00:09:24.030
+Grace Hartley: You know, once we have that answer we're able to kind of move more into the details, but.
+
+51
+00:09:27.060 --> 00:09:28.050
+Grace Hartley: yeah that's about it.
+
+52
+00:09:34.710 --> 00:09:37.260
+Grace Hartley: Then next item is metrics.
+
+53
+00:09:38.940 --> 00:09:43.620
+Grace Hartley: So I dropped the insights in here I don't know if everyone can access this link.
+
+54
+00:09:45.960 --> 00:09:48.900
+Grace Hartley: Can every i'm going to drop in the chat doesn't mind just checking.
+
+55
+00:10:00.030 --> 00:10:08.790
+Grace Hartley: So anyway, so we promise it or we wanted to kind of use data to kind of inform what's going on with and evaluate what's going on with the Community obviously this is an awesome tool that.
+
+56
+00:10:09.060 --> 00:10:20.850
+Grace Hartley: One is foundations pulled together and help us kind of understand how the Community is doing so at this point, I think i'm just going to do kind of a quick pass looking through all of it but we'll kind of iterate over the next.
+
+57
+00:10:21.810 --> 00:10:25.860
+Grace Hartley: Few sessions to figure out what's most interesting to us and then go from there.
+
+58
+00:10:27.330 --> 00:10:31.380
+Grace Hartley: But yeah so we'll just kind of look through this together if that's all right, and then we'll.
+
+59
+00:10:33.180 --> 00:10:46.650
+Grace Hartley: yeah and continue to kind of be like what what's most interesting to us so contributor strength is kind of interesting so it's increased 800% i'm not sure exactly how this is measured here.
+
+60
+00:10:50.430 --> 00:10:52.650
+Grace Hartley: The growth in the aggregate account if you need contributors.
+
+61
+00:10:55.410 --> 00:11:08.850
+Grace Hartley: So it's interesting that we saw a big jump between July and October, but we have not seen quite the jump between October and January 342 378-293-2354 that's that's kind of interesting.
+
+62
+00:11:12.600 --> 00:11:21.420
+Grace Hartley: we'll have to watch that period next contributor growth and retention so total contributors active contributors drifting away contributors.
+
+63
+00:11:22.770 --> 00:11:31.710
+Grace Hartley: want to see, so this is kind of the view of this, so it's kind of interesting because it shows back to them contributors and blue the drifting away contributors and Fred.
+
+64
+00:11:34.290 --> 00:11:35.430
+Grace Hartley: It seems.
+
+65
+00:11:37.740 --> 00:11:48.570
+Grace Hartley: It seems that are active contributors have slowly like a slow trend line going up, maybe again declining between October in January it's kind of interesting over the last three months we've seen kind of a.
+
+66
+00:11:49.350 --> 00:11:56.550
+Grace Hartley: stagnation and then again also seems interesting with drifting away contributors are also somewhat declining.
+
+67
+00:11:58.410 --> 00:11:59.490
+Grace Hartley: look to see him going to like.
+
+68
+00:12:01.410 --> 00:12:01.590
+You.
+
+69
+00:12:02.730 --> 00:12:03.900
+Grace Hartley: just trying to see if I can like.
+
+70
+00:12:05.670 --> 00:12:08.940
+Grace Hartley: Do what that does sorry I should have probably done a test run of this before.
+
+71
+00:12:11.340 --> 00:12:12.540
+Grace Hartley: No that's that's just a photo.
+
+72
+00:12:16.140 --> 00:12:23.880
+Grace Hartley: Return rate is 14 point 26, so I think it'll be interesting, over time, we can kind of look at these and say you know, has you know.
+
+73
+00:12:26.580 --> 00:12:27.360
+Grace Hartley: Is the turn rate.
+
+74
+00:12:28.470 --> 00:12:35.130
+Grace Hartley: Lower higher why or why not we should be asking ourselves those questions to its growth.
+
+75
+00:12:36.810 --> 00:12:46.020
+Grace Hartley: and obviously anyone stop me or ask questions or comments on i'm just going to run through it commits growth, the growth in terms of aggregate account of total number of commits.
+
+76
+00:12:47.730 --> 00:12:51.000
+Grace Hartley: So yeah there's been a growth in the last three years, but.
+
+77
+00:12:52.410 --> 00:12:52.950
+Grace Hartley: I think.
+
+78
+00:12:54.330 --> 00:12:58.440
+Grace Hartley: be interesting to see the last six months what's happened.
+
+79
+00:13:00.180 --> 00:13:01.530
+Grace Hartley: which has been a growth of 10%.
+
+80
+00:13:03.780 --> 00:13:08.220
+Grace Hartley: I don't know if commits are as interesting as contributors, just because you know.
+
+81
+00:13:09.270 --> 00:13:13.140
+Grace Hartley: Depending on how big the commit is but still interesting to see.
+
+82
+00:13:16.200 --> 00:13:19.050
+Grace Hartley: You contributor grow, so this is over the last six months to be clear.
+
+83
+00:13:20.130 --> 00:13:21.930
+Grace Hartley: Total counted new contributors.
+
+84
+00:13:23.220 --> 00:13:25.350
+Grace Hartley: Interesting we had quite a few in September.
+
+85
+00:13:27.750 --> 00:13:33.780
+Grace Hartley: But it's kind of been pretty stagnant now so we could probably do a little better than encouraging those new contributors.
+
+86
+00:13:35.670 --> 00:13:39.090
+Grace Hartley: I wonder what does anyone know what we did in September, where we might have.
+
+87
+00:13:40.020 --> 00:13:41.910
+Danno Ferrin: A tpm and.
+
+88
+00:13:41.940 --> 00:13:47.130
+Danno Ferrin: I think we got a couple contributors from line chain, who were offering some of the changes, and I was approving.
+
+89
+00:13:49.980 --> 00:13:53.220
+Grace Hartley: cool okay that's a good point yeah because yeah it's.
+
+90
+00:13:54.570 --> 00:13:58.920
+Grace Hartley: Has anyone doing anything cool that we can brag about in the next month to.
+
+91
+00:14:00.060 --> 00:14:02.820
+Grace Hartley: To get people to to be to.
+
+92
+00:14:06.930 --> 00:14:08.640
+Danno Ferrin: something to think keeping my next month.
+
+93
+00:14:09.060 --> 00:14:11.130
+Danno Ferrin: yeah yeah yeah a lot of strange stuff.
+
+94
+00:14:11.760 --> 00:14:12.120
+Francesco Andreoli: yeah.
+
+95
+00:14:12.150 --> 00:14:16.980
+Francesco Andreoli: We definitely have the bounties least with this agenda for Denver, or something we kind of push.
+
+96
+00:14:19.080 --> 00:14:19.410
+Grace Hartley: The point.
+
+97
+00:14:27.660 --> 00:14:29.640
+Grace Hartley: commits by new contributors.
+
+98
+00:14:38.580 --> 00:14:39.180
+Grace Hartley: This one out.
+
+99
+00:14:44.370 --> 00:14:45.120
+Grace Hartley: interesting.
+
+100
+00:14:46.230 --> 00:14:50.220
+Grace Hartley: And really spiked who's the new contributor that's done all these comments in the last month.
+
+101
+00:14:53.790 --> 00:14:56.760
+Grace Hartley: Sorry, you just gave my candid thoughts here and then.
+
+102
+00:14:58.350 --> 00:15:01.110
+Grace Hartley: lines of code and it deleted I don't know if.
+
+103
+00:15:02.790 --> 00:15:04.530
+Grace Hartley: This is as interesting to us.
+
+104
+00:15:06.300 --> 00:15:07.740
+Grace Hartley: And the role distribution.
+
+105
+00:15:08.790 --> 00:15:10.350
+Danno Ferrin: September was the vm sykes.
+
+106
+00:15:10.560 --> 00:15:11.010
+Grace Hartley: yeah.
+
+107
+00:15:12.000 --> 00:15:13.410
+Danno Ferrin: it's funny yeah.
+
+108
+00:15:19.980 --> 00:15:27.300
+Grace Hartley: 76, so this is interesting so 77% of pull requests have been reviewed by the core maintainer is during the last.
+
+109
+00:15:29.310 --> 00:15:30.090
+Grace Hartley: Six months.
+
+110
+00:15:37.980 --> 00:15:39.270
+Grace Hartley: So it's kind of an equal distribution.
+
+111
+00:15:45.450 --> 00:15:46.080
+Grace Hartley: The.
+
+112
+00:15:47.400 --> 00:15:48.510
+Grace Hartley: code pipeline.
+
+113
+00:15:52.890 --> 00:16:00.240
+Grace Hartley: This is kind of interesting around like so 11% of risky changes were caught in the review process I don't know if we would want that number to go up or down.
+
+114
+00:16:02.310 --> 00:16:02.730
+Grace Hartley: i'm.
+
+115
+00:16:05.850 --> 00:16:08.310
+Danno Ferrin: interested in other standard for risky changes.
+
+116
+00:16:08.520 --> 00:16:12.210
+Grace Hartley: yeah like i'm not sure how they're defining that actually does anyone have.
+
+117
+00:16:12.870 --> 00:16:15.300
+Danno Ferrin: 100% before it's March, to be honest.
+
+118
+00:16:21.600 --> 00:16:27.660
+Ry Jones: I don't know if the code for this particular part is public or not.
+
+119
+00:16:29.400 --> 00:16:30.900
+Ry Jones: But if you could.
+
+120
+00:16:32.100 --> 00:16:36.390
+Ry Jones: send an email asking your questions about that to the Community architects.
+
+121
+00:16:36.420 --> 00:16:43.590
+Ry Jones: alias I happen to have a two hour meeting with the team that's developing this today, so I will ask on that meeting.
+
+122
+00:16:45.960 --> 00:16:46.260
+Ry Jones: Like.
+
+123
+00:16:46.920 --> 00:16:48.930
+Grace Hartley: yeah because yeah just curious yeah.
+
+124
+00:16:49.950 --> 00:16:50.250
+Ry Jones: yeah.
+
+125
+00:16:50.850 --> 00:16:59.760
+Ry Jones: yeah yeah a lot of the the development is done in in private repos and I don't know what's public and what isn't.
+
+126
+00:17:04.050 --> 00:17:04.500
+Grace Hartley: And then.
+
+127
+00:17:05.490 --> 00:17:15.450
+Grace Hartley: One question so 7% of total changes or verge without any approval during the last six months, are we okay with that should it be zero well what are people's thoughts on that.
+
+128
+00:17:17.370 --> 00:17:17.880
+Justin Florentine: that's.
+
+129
+00:17:18.300 --> 00:17:21.060
+Danno Ferrin: Zero i'd love to know what those changes work.
+
+130
+00:17:21.510 --> 00:17:22.530
+Justin Florentine: yeah yeah Sam.
+
+131
+00:17:27.660 --> 00:17:28.530
+Grace Hartley: there's a way that you.
+
+132
+00:17:28.800 --> 00:17:36.660
+Gary Schulte: might need just like merging of maine and too long the feature branch like that can merge branches merging main into it, that might be that could be some of those.
+
+133
+00:17:38.460 --> 00:17:44.640
+Danno Ferrin: that's i'm thinking i'm thinking is catching more than the main and the release branches it'd be nice if we could put a branch filter on some of these stats.
+
+134
+00:17:46.260 --> 00:17:48.090
+Danno Ferrin: Because merge is basically a collaborative.
+
+135
+00:17:48.090 --> 00:17:48.840
+Danno Ferrin: branch with.
+
+136
+00:17:49.950 --> 00:17:56.430
+Danno Ferrin: Not the same release standards so it's got you know doesn't have the same verge requirements, so I can see how that would impact things.
+
+137
+00:18:04.350 --> 00:18:06.300
+Grace Hartley: Okay, well, maybe ask about that one too right.
+
+138
+00:18:08.550 --> 00:18:12.780
+Grace Hartley: Or if we can get do you know how to actually is there a way for me to extract that just.
+
+139
+00:18:14.820 --> 00:18:15.570
+Ry Jones: don't.
+
+140
+00:18:16.110 --> 00:18:18.900
+Ry Jones: I usually I usually don't use this view.
+
+141
+00:18:20.580 --> 00:18:25.320
+Ry Jones: there's a detail view where you can do all sorts of crazy stuff.
+
+142
+00:18:25.800 --> 00:18:27.390
+Grace Hartley: Okay, so we can get a mess around with it.
+
+143
+00:18:28.260 --> 00:18:32.220
+Ry Jones: yeah if you look at the project reports that are.
+
+144
+00:18:34.680 --> 00:18:39.030
+Ry Jones: submitted to the tasc they usually have a link to the to the detail.
+
+145
+00:18:39.840 --> 00:18:42.870
+Grace Hartley: Okay i'll spend some time okay that, because that is interesting.
+
+146
+00:18:48.060 --> 00:18:49.470
+Grace Hartley: Interesting that.
+
+147
+00:18:54.060 --> 00:19:05.460
+Grace Hartley: 80% of changes submitted for review were approved, I don't also do it because that, obviously, it makes sense that we want to improve everything and that's good that means we're actually reviewing things and not just letting everything go through.
+
+148
+00:19:08.640 --> 00:19:13.500
+Grace Hartley: But I again, I think we should be thinking about what what our target metrics.
+
+149
+00:19:14.550 --> 00:19:18.780
+Grace Hartley: Again we're just getting familiar with it at this point, but that's kind of interesting to.
+
+150
+00:19:21.300 --> 00:19:24.030
+Danno Ferrin: think the most important target metric we should track.
+
+151
+00:19:24.030 --> 00:19:36.480
+Danno Ferrin: Is PRS from non core competitors to make sure those get property view an astronaut, and I think that's we're talking about the funnel of changing users to contributors to maintain owners i'm.
+
+152
+00:19:37.110 --> 00:19:47.070
+Danno Ferrin: Not having your code taken seriously is isn't the barrier to that so if we review it is early you know, reduce the time to at least look at the PR and get some real comments on it.
+
+153
+00:19:47.940 --> 00:19:52.620
+Danno Ferrin: A lot of you know first time contributors their PR won't be you know, up to the standards because they.
+
+154
+00:19:52.950 --> 00:20:01.470
+Danno Ferrin: You know, they may be documented, but they not may not internalize what's going on with what the code standards are for a lot of submissions so the quicker, we can get that process started.
+
+155
+00:20:02.190 --> 00:20:12.000
+Danno Ferrin: The quicker, we can like really minutes I can they get a bite on it on a fishing pole you got to keep reading them, so he looked at by and then you ignore it, for you know, two weeks, the fish is gone.
+
+156
+00:20:13.890 --> 00:20:14.610
+Grace Hartley: So let's look.
+
+157
+00:20:14.760 --> 00:20:15.450
+So.
+
+158
+00:20:16.500 --> 00:20:24.330
+Grace Hartley: Like you know, this is the PR cycle time which is kind of interesting to the total time start to finish his averages 8.92 in the last six months.
+
+159
+00:20:27.480 --> 00:20:30.270
+Grace Hartley: Meeting time to review pull requests, point two two.
+
+160
+00:20:31.980 --> 00:20:35.370
+Grace Hartley: that's pretty good right i'd love to see what say three months.
+
+161
+00:20:36.450 --> 00:20:38.970
+Grace Hartley: Point one nine wow it's even faster.
+
+162
+00:20:43.230 --> 00:20:44.910
+Grace Hartley: That seems pretty good to be right guys.
+
+163
+00:20:50.280 --> 00:20:51.120
+Grace Hartley: off base there.
+
+164
+00:21:02.940 --> 00:21:11.190
+Danno Ferrin: grabbing like to do some differentiation between what the stats to common core contributors, which is 80% of the commits, on the other contributors, we can.
+
+165
+00:21:11.220 --> 00:21:12.060
+Danno Ferrin: differentiate.
+
+166
+00:21:12.540 --> 00:21:17.190
+Danno Ferrin: Is this number high because we have a small group that always reviews each other's PRS.
+
+167
+00:21:17.700 --> 00:21:21.120
+Danno Ferrin: I think that's what can get missed by this overall metric.
+
+168
+00:21:25.980 --> 00:21:26.700
+yeah that's true.
+
+169
+00:21:28.800 --> 00:21:30.360
+Grace Hartley: Like that looks pretty good.
+
+170
+00:21:31.800 --> 00:21:34.320
+Grace Hartley: cool merge efficiency.
+
+171
+00:21:35.640 --> 00:21:40.050
+Grace Hartley: So we're looking at three ones, just to be clear and average of zero changes emerged after a month of being submitted.
+
+172
+00:21:41.340 --> 00:21:42.480
+Grace Hartley: But obviously that see.
+
+173
+00:21:44.340 --> 00:21:47.370
+Grace Hartley: Less than one day time to merge one to seven days.
+
+174
+00:21:49.410 --> 00:21:54.420
+Grace Hartley: More than 30 days so nothing that's good the seven to 30 is pretty low.
+
+175
+00:21:57.000 --> 00:22:02.010
+Grace Hartley: Think we've improved on that too there's been a downward sloping last three months let's look at the last six month you.
+
+176
+00:22:03.420 --> 00:22:03.840
+Grace Hartley: yeah.
+
+177
+00:22:05.700 --> 00:22:13.020
+Grace Hartley: Interesting yeah these are, this is really picked up the review of less than one day, and one to seven days.
+
+178
+00:22:14.100 --> 00:22:14.820
+Grace Hartley: In the last month.
+
+179
+00:22:18.480 --> 00:22:19.050
+Grace Hartley: that's great.
+
+180
+00:22:21.270 --> 00:22:29.880
+Grace Hartley: Then issues number of issues open issues unresolved issues so definitely seen quite a downward trend to be resolved issues over the last few months.
+
+181
+00:22:34.680 --> 00:22:36.450
+Grace Hartley: Okay, I will stop there.
+
+182
+00:22:37.890 --> 00:22:39.780
+Grace Hartley: And we can kind of keep.
+
+183
+00:22:42.600 --> 00:22:44.340
+Grace Hartley: Keep thinking about this and getting better.
+
+184
+00:22:46.410 --> 00:22:57.960
+Grace Hartley: What i'll do is hop back, obviously, if anyone wants to see anything particular will continue to get better at those understanding, but I think it's good to kind of see how the products performing overall it's kind of a fun tool.
+
+185
+00:22:59.550 --> 00:23:00.330
+Grace Hartley: But I know we have.
+
+186
+00:23:01.440 --> 00:23:09.090
+Grace Hartley: So judah has to jump at the end of the 30 minutes, so I wanted to give her two minutes to talk about the roadmap and just discussion on what's you know kind of look at what the Group.
+
+187
+00:23:11.910 --> 00:23:12.480
+Grace Hartley: Yes.
+
+188
+00:23:13.230 --> 00:23:24.390
+Sajida Zouarhi: Okay, so in terms of the roadmap, we have some main topics merge being the first one, and currently it's mainly about getting visual to participate in.
+
+189
+00:23:25.170 --> 00:23:31.500
+Sajida Zouarhi: To support us nets and for people to be able to participate to the nets using visual so we're looking to increase.
+
+190
+00:23:32.430 --> 00:23:39.900
+Sajida Zouarhi: Basically participation out say on these consumer he currently is the name of the destinies are being run.
+
+191
+00:23:40.710 --> 00:23:53.460
+Sajida Zouarhi: And we have a tutorial on how to join, that this nets using base when people were looking to do a turnkey docker compose so that people can even like improve the experience of doing this test that's.
+
+192
+00:23:53.940 --> 00:24:11.490
+Sajida Zouarhi: Using our software so yeah so that's that's I guess what's going on with this topic and then for the day to day details Gary and justin and other in the team can can provide more info on the ips it's been not that.
+
+193
+00:24:12.660 --> 00:24:23.940
+Sajida Zouarhi: Everything is focused on marriage, right now, so we we had some prototyping done but it got delayed because anything that is not emerged related is D prioritize at the moment.
+
+194
+00:24:25.560 --> 00:24:30.090
+Then we have bonsai trees that were expecting to see.
+
+195
+00:24:32.760 --> 00:24:37.110
+Like to become generally be generally generally available soon, but.
+
+196
+00:24:38.190 --> 00:24:46.590
+yeah that's carry might have more info on that and then snapping is been you know progressing quite well lately.
+
+197
+00:24:47.970 --> 00:24:49.410
+and is working fine on glory.
+
+198
+00:24:50.520 --> 00:24:52.800
+Sajida Zouarhi: it's too early to say but earlier.
+
+199
+00:24:54.090 --> 00:24:59.100
+yeah because we didn't do the benchmarking, but it seems to have some interesting performance.
+
+200
+00:25:00.960 --> 00:25:09.360
+Sajida Zouarhi: Results so yeah and then client enhancement is kind of a category to put everything that is not his other topics.
+
+201
+00:25:09.900 --> 00:25:24.330
+Sajida Zouarhi: And currently it's media performance work updates and upgrades tracing things like that, and the last piece is me Vb zoo, which is also linked to a broader discussion that we need to have about.
+
+202
+00:25:25.590 --> 00:25:37.050
+Sajida Zouarhi: modules plugins, and all this kind of stuff, so this is something that we're trying to brainstorm more about at the moment and we will i'll publish something or somebody in the team.
+
+203
+00:25:37.710 --> 00:25:45.030
+Sajida Zouarhi: will publish something on the wiki so that everyone can provide inputs and we can start this discussion because we basically really believe that.
+
+204
+00:25:45.600 --> 00:25:53.640
+Sajida Zouarhi: by enabling by changing business, so that we can enable people to develop plugins and even have some challenges around that.
+
+205
+00:25:54.360 --> 00:26:06.690
+Sajida Zouarhi: can prove contribution and also provide more features, to be able to be just a relevance clients, especially post merge and in meds like the first big topic that we can focus on.
+
+206
+00:26:08.610 --> 00:26:09.120
+that's it.
+
+207
+00:26:14.160 --> 00:26:25.860
+Sajida Zouarhi: So I did not, I did not put any non main that topic on this just because I don't know what's happening on the enterprise side, but if anyone has some input you free to an introduction.
+
+208
+00:26:29.700 --> 00:26:35.220
+Grace Hartley: yeah we can reach out to Sally and others to see if they can and that's the point.
+
+209
+00:26:36.330 --> 00:26:37.110
+Grace Hartley: yeah good idea.
+
+210
+00:26:40.140 --> 00:26:41.280
+Grace Hartley: But thanks for doing this.
+
+211
+00:26:41.760 --> 00:26:46.260
+Grace Hartley: This is great and helpful right so transparency any other questions.
+
+212
+00:26:55.530 --> 00:26:56.100
+Grace Hartley: Okay.
+
+213
+00:26:57.360 --> 00:26:58.650
+Grace Hartley: is enough.
+
+214
+00:27:00.420 --> 00:27:01.860
+Grace Hartley: Release updates.
+
+215
+00:27:03.870 --> 00:27:04.230
+Grace Hartley: Sorry.
+
+216
+00:27:08.730 --> 00:27:10.920
+Grace Hartley: Is this up to date, this is 2010.
+
+217
+00:27:14.970 --> 00:27:19.500
+Danno Ferrin: I think that's mostly up to date, so there was a lot of releases for Jay.
+
+218
+00:27:20.190 --> 00:27:21.810
+Danno Ferrin: And then there was a release for.
+
+219
+00:27:22.320 --> 00:27:31.380
+Danno Ferrin: dependencies I guess one of consensus as clients needed the dependency updates in the line and couldn't wait for the 22 one line release.
+
+220
+00:27:32.040 --> 00:27:42.990
+Danno Ferrin: so that you know just a lot of the scanning um if you're in classic kind of hard work that needed a timely update and if you're in classic they're just getting too aggressive with their work schedules, but.
+
+221
+00:27:44.010 --> 00:27:50.940
+Danno Ferrin: You know diego's willing to deal with it, so we got it out, and then there was a corresponding that was related to 2110 seven release which.
+
+222
+00:27:52.170 --> 00:28:03.090
+Danno Ferrin: When we do this dependency updates that's why I like to have burnin so we can catch these rather than upgrading the dependency and shipping it as possible that's why back when I was still a consensus.
+
+223
+00:28:04.290 --> 00:28:13.530
+Danno Ferrin: During the quarterly updates on the first things we would do is update the dependencies and co operative were no more than one quarter behind any critical security updates so that's.
+
+224
+00:28:14.610 --> 00:28:29.190
+Danno Ferrin: What we got to do when we're against the wall, but that's no, we need to know sale has got a point on the automatic vulnerability scanning down further down the agenda think those are the things we need because we were using sneak before it's nice just not very good i'll just say that.
+
+225
+00:28:38.190 --> 00:28:42.240
+Grace Hartley: Any comments or questions on just the races or anything anyone wants that.
+
+226
+00:28:44.400 --> 00:28:58.950
+Gary Schulte: yeah it will say that the 20 210 we're talking about doing an RC three today we're wanting to kind of invert what we had been doing on the releases for the release candidates, as we were doing, along with feature branches and cherry picking into it.
+
+227
+00:29:00.150 --> 00:29:13.200
+Gary Schulte: And I think that that we had some discussion about it, it seems that it's going to make more sense to cherry pick into the prior final quarterly releases that we need, and then treat our seas just have them come off of main.
+
+228
+00:29:14.250 --> 00:29:27.270
+Gary Schulte: Just because right now we're in a situation where we're not releasing bain and it's not we're not we don't think that it's not really safe to I mean it doesn't seem like it's a wise idea to have both releases be off of.
+
+229
+00:29:29.550 --> 00:29:34.950
+Gary Schulte: Just off of head so there's not a prior release that that's that's viable so it's putting it out there that.
+
+230
+00:29:36.030 --> 00:29:43.890
+Gary Schulte: there's been some discussion about kind of inverting how we've been treating release candidates to have them be off of main instead of long live feature branches and we cherry pick into.
+
+231
+00:29:45.450 --> 00:29:51.870
+Danno Ferrin: Like it that's what I was pushing for a while ago um but one change request as we start calling them betas.
+
+232
+00:29:52.770 --> 00:30:07.230
+Danno Ferrin: And when we do our seas that's RC applies cherry pick so if we start climbing the beta is only switched and quarterly release mode I think that's more reflective of the state and we start doing our season, we cherry pick into it so limit the the.
+
+233
+00:30:08.550 --> 00:30:09.600
+Danno Ferrin: limit to pull into it.
+
+234
+00:30:10.680 --> 00:30:16.830
+Danno Ferrin: That that was always one of my problems, was that the the dot one release was always a super release with a month's worth of minor changes.
+
+235
+00:30:17.820 --> 00:30:18.660
+Gary Schulte: Right yeah.
+
+236
+00:30:23.640 --> 00:30:24.720
+Gary Schulte: yeah I think justin is looking.
+
+237
+00:30:24.720 --> 00:30:26.580
+Gary Schulte: into right now he's looking into.
+
+238
+00:30:27.390 --> 00:30:34.230
+Gary Schulte: Doing release modifications we've got some a devops engineer who's working on some some.
+
+239
+00:30:35.970 --> 00:30:50.580
+Gary Schulte: Release pipeline stuff so it's it's possible that we can make a change from RC to beta as I don't know know what kind of consensus would be necessary to to sort of change that naming but i'm it's functionally functionally it would be you know, just as I described but.
+
+240
+00:30:52.230 --> 00:30:54.060
+Gary Schulte: there's obviously some automation that we have to change but.
+
+241
+00:30:56.370 --> 00:30:56.610
+Justin Florentine: yeah.
+
+242
+00:30:58.650 --> 00:31:03.810
+Justin Florentine: yeah I would say we should just open up a topic on the release improvements wiki page that we've gotten that we've been working on.
+
+243
+00:31:04.260 --> 00:31:17.250
+Justin Florentine: thanks for your participation folks on that it is progressing, but I think you know we're not quite sure what actions are going to come out of it, yet, so I think this is totally reasonable to fold into that.
+
+244
+00:31:18.330 --> 00:31:23.010
+Justin Florentine: Thank you Sasha she just posted the link in the zoom chat to the document I mentioned.
+
+245
+00:31:28.740 --> 00:31:30.060
+Grace Hartley: i'll just send the link in here.
+
+246
+00:31:30.330 --> 00:31:30.690
+folks.
+
+247
+00:31:32.790 --> 00:31:33.360
+Justin Florentine: Thanks Chris.
+
+248
+00:31:45.180 --> 00:31:52.950
+Grace Hartley: Next steps we did the work updates we have follow up with Daniel and Sally so other business.
+
+249
+00:31:58.470 --> 00:32:02.970
+Grace Hartley: looks like there was a change, Mrs guidelines, which was merged any other updating that.
+
+250
+00:32:06.570 --> 00:32:07.290
+Grace Hartley: think so.
+
+251
+00:32:08.460 --> 00:32:24.570
+Grace Hartley: hyper ledger chat task for so we had a meeting this week just for everyone's awareness here and we're putting together a proposal to move to discord were not that is not an approved proposal for the record, but that is.
+
+252
+00:32:25.590 --> 00:32:30.600
+Grace Hartley: it's either stay is is is what it seems like or our booth to discord and.
+
+253
+00:32:31.920 --> 00:32:40.020
+Grace Hartley: So we will keep you posted but hoping to get that finalized in the next couple of weeks, I think, realistically it'll be.
+
+254
+00:32:41.820 --> 00:32:50.610
+Grace Hartley: Part of the goal is to not just you know, have a proposal and say we should move, but also here's the migration path here's how we communicate it here's how we make it easy for everybody to do.
+
+255
+00:32:51.300 --> 00:33:05.040
+Grace Hartley: Just so it's not you know kind of a free for all but getting closer so fingers crossed, and you can all keep me honest because i'm the person asteroids proposal, so if you pastor manifold definitely do it much faster.
+
+256
+00:33:08.220 --> 00:33:08.760
+Grace Hartley: An.
+
+257
+00:33:11.190 --> 00:33:12.030
+Grace Hartley: open forum.
+
+258
+00:33:16.470 --> 00:33:19.440
+Grace Hartley: looks like, there is the automation vulnerability scanning.
+
+259
+00:33:26.550 --> 00:33:31.890
+Grace Hartley: looks like she's provided recommendation on the scan of docker image with TV.
+
+260
+00:33:34.200 --> 00:33:38.160
+Grace Hartley: So if everyone wants to take some time to look at that proposal that would be good.
+
+261
+00:33:39.870 --> 00:33:42.540
+Grace Hartley: Also, if anyone wants to speak to it more than I can do for you.
+
+262
+00:33:50.010 --> 00:33:52.110
+Grace Hartley: All right, anything else any other topics.
+
+263
+00:33:53.400 --> 00:33:54.180
+Grace Hartley: People want to bring up.
+
+264
+00:34:03.600 --> 00:34:08.430
+Grace Hartley: cool let's 29 minutes early thanks everyone for your time we'll have another one of these in the coming weeks.
+
+265
+00:34:09.960 --> 00:34:10.470
+Justin Florentine: Thank you.
+
+266
+00:34:11.040 --> 00:34:11.430
+Grace Hartley: hi all.
+
+267
+00:34:12.570 --> 00:34:12.810
+Justin Florentine: Right.
+

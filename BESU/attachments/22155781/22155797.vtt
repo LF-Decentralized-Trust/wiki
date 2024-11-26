@@ -1,0 +1,1726 @@
+WEBVTT
+
+1
+00:00:02.520 --> 00:00:04.640
+Danno Ferrin: And let me share my screen.
+
+2
+00:00:08.980 --> 00:00:10.030
+Um
+
+3
+00:00:11.160 --> 00:00:14.489
+Danno Ferrin: great. So now that that fun task is over with
+
+4
+00:00:15.740 --> 00:00:17.130
+Francesco Andreoli: um,
+
+5
+00:00:17.570 --> 00:00:31.440
+Francesco Andreoli: welcome to the what is today the thirtieth of August meeting for Hyper Ledger basso. On the housekeeping items. There is a code of conduct, and there is antitrust
+
+6
+00:00:31.450 --> 00:00:40.920
+Danno Ferrin: rules. Learn those and follow those be excellent to each other. You don't do anything where it wouldn't let you do a quick non-minding summary of what those are.
+
+7
+00:00:41.150 --> 00:01:00.670
+Danno Ferrin: Um general announcements in two weeks is going to be the Hyper Ledger Global forum. Um. Some leaks, went on Discord. If you want to attend meetings virtually, that's an option. Now, um travel still kind of not perfect. So there's people who still aren't traveling, So that's why they're one of the reasons they're over putting up the virtual meetings for some of this. Um,
+
+8
+00:01:00.920 --> 00:01:09.309
+Danno Ferrin: there's always, if you want anything in the developer Newsletter that goes out every Saturday. There's a page you can submit. I can put those in the notes.
+
+9
+00:01:09.950 --> 00:01:15.509
+Danno Ferrin: Is there any other general announcements or release updates before we get into work updates that need to go out?
+
+10
+00:01:17.740 --> 00:01:20.790
+Matt Nelson: No, just that me and you are both giving talks. So.
+
+11
+00:01:20.800 --> 00:01:34.170
+Danno Ferrin: Yes, for those that watch the recording. If you're looking for the schedule, both Dan and I will be giving basic related talks, and they're on to Monday.
+
+12
+00:01:35.830 --> 00:01:39.440
+Danno Ferrin: Hg: F. Let's just get
+
+13
+00:01:40.300 --> 00:01:42.319
+Danno Ferrin: I think they're on.
+
+14
+00:01:47.270 --> 00:01:52.930
+Danno Ferrin: So one thousand four hundred and fifty Ireland time. Someone's giving it a talk. Let me put my windows around,
+
+15
+00:01:53.250 --> 00:02:01.909
+Danno Ferrin: not consensus. That's an interesting one. I'm giving my talk at four, thirty on the hedera integration, and then
+
+16
+00:02:03.610 --> 00:02:11.410
+Danno Ferrin: giving you a keynote. That's a It's a big coup right there. Okay,
+
+17
+00:02:11.520 --> 00:02:12.890
+Danno Ferrin: Who else?
+
+18
+00:02:12.900 --> 00:02:18.390
+Danno Ferrin: Mine was? Mine must have fallen off or not. Have the name? Be su in it. But anyway, it's on there. So
+
+19
+00:02:18.400 --> 00:02:25.090
+Danno Ferrin: now here we go. Yeah, from an infant client to an execution engine that's for Bath and Francesca. Yeah.
+
+20
+00:02:25.100 --> 00:02:25.970
+Matt Nelson: Okay,
+
+21
+00:02:26.850 --> 00:02:27.940
+Danno Ferrin: here.
+
+22
+00:02:28.770 --> 00:02:32.150
+Danno Ferrin: So that's yeah. So we got a keynote. That's That's
+
+23
+00:02:32.290 --> 00:02:37.190
+Danno Ferrin: I'm: on the Tsc: And this is the first I've heard about that keynote. So this. This is a big deal,
+
+24
+00:02:38.300 --> 00:02:40.629
+Matt Nelson: but it'll be good to see Tim, that's nice.
+
+25
+00:02:40.640 --> 00:02:44.059
+Danno Ferrin: Yeah, like a day before the merge, which is a huge surprise,
+
+26
+00:02:44.300 --> 00:02:49.110
+Danno Ferrin: right? Yeah, because the merge is becoming earlier. That is kind of a surprise.
+
+27
+00:02:50.220 --> 00:02:53.230
+Danno Ferrin: Okay. So releases. We had um
+
+28
+00:02:54.090 --> 00:03:09.790
+Danno Ferrin: twenty-two seven one went up last week. Um, Everyone should upgrade to that, and I do mean to everyone. Um, there's got some important merge updates um, and so let's go to work updates. I guess Justin's on for merge updates if you want to go ahead and leave us through.
+
+29
+00:03:09.800 --> 00:03:11.130
+Justin Florentine: Hello,
+
+30
+00:03:11.370 --> 00:03:18.389
+Justin Florentine: yeah. So I think you kind of covered it honestly. Two thousand two hundred and seventy. One was our big release before the merge. We want everybody to be running
+
+31
+00:03:19.450 --> 00:03:32.490
+Justin Florentine: So that's that's out there. It's baking in. We're. We're observing it and our local canaries. Here. We're fueling reports from ah folks in the field that have been upgrading to it. We're addressing our issues, et cetera.
+
+32
+00:03:32.500 --> 00:03:50.330
+Justin Florentine: Um! So what we imagine moving forward is that a future release? Two thousand two hundred and seventy two would be things that we find that are relevant to the merge. Um! That's kind of the next topic of discussion. It's like. What would a twenty-seven twenty-two, seven, two release look like, And how do we want it to go.
+
+33
+00:03:51.280 --> 00:04:01.510
+Justin Florentine: Um. So you know, I I think that we probably want to keep things fairly stable, considering it's like the last opportunity for a release before the merge.
+
+34
+00:04:01.820 --> 00:04:04.160
+Justin Florentine: Um, Does that
+
+35
+00:04:04.170 --> 00:04:22.740
+Danno Ferrin: go ahead? I have some. So yeah, yeah, I know um. So I guess the question is, is, you know, do we want to keep this, as you know, merge specific as possible? Or do we want to treat this like any other release that comes off of Maine, and you know, pull in what we would normally pull in for a bi-weekly release.
+
+36
+00:04:23.560 --> 00:04:30.590
+Danno Ferrin: So one of my concerns with making this this would be the second cherry pick release in a row, because two thousand two hundred and seventy one was a cherry. That course
+
+37
+00:04:30.600 --> 00:04:50.380
+Danno Ferrin: not. Every commit that was on me made it into the release which is, which goes against everything we've done for the past several years in releasing this. So what that would mean is that between twenty, two, seven and two thousand and two a distance of over two months, we would not have any mainline releases. Where stuff that gets committed to main is released in a released candidate
+
+38
+00:04:50.390 --> 00:05:04.270
+Danno Ferrin: in the not release candidate in a regular release. And this we're letting the needs of one network dominate the entire project, and I Don't think that's healthy for the project to do. Two cherry-pick releases in a row and then shut down into Rcs.
+
+39
+00:05:05.640 --> 00:05:23.280
+Gary Schulte: I agree that's not fair to the to non-etherium projects. But I mean this is probably one of the largest events in in blockchain history. It's it's probably wise to go and do that. If we. I think if we want to have another mainline release
+
+40
+00:05:23.290 --> 00:05:33.209
+Gary Schulte: following hot on the heels of two thousand two hundred and seventy two, that I think that would be a good compromise that way. We don't have this case where we have two months without a mainline release. But I think that just
+
+41
+00:05:33.220 --> 00:05:43.879
+Gary Schulte: there's an awful lot on the line, and an awful lot of complexity around the merge. I think that it warrants a cherry pick in this case, and I think we can mitigate the two month problem.
+
+42
+00:05:44.420 --> 00:05:55.590
+Justin Florentine: Yeah, I I think I concur with what Gary saying. Maybe we should pull up two thousand two hundred and ten as an Rc. And kind of have two releases that are out there at a time. Would that be an option?
+
+43
+00:05:56.770 --> 00:06:13.810
+Danno Ferrin: So twenty-two set as an Rc. Is Still, it's an Rc. It's not a release. It says user production. It's still stuck in Beta. It doesn't get pushed up to home through. So anything that goes in the main would not be questioned. The home group from August the third, it's August, the nineteenth, unless it passes
+
+44
+00:06:13.820 --> 00:06:17.009
+Danno Ferrin: some network standard of it's good.
+
+45
+00:06:18.720 --> 00:06:21.350
+Gary Schulte: What if we were to just,
+
+46
+00:06:21.630 --> 00:06:25.660
+Gary Schulte: you know, accelerate two thousand two hundred and seventy-three that way.
+
+47
+00:06:25.740 --> 00:06:41.290
+Gary Schulte: We could still have some some expectation of isolation around. You know the future set that's going into the last merge release. But we could also still break this stalemate, this log gem of two months without a main release.
+
+48
+00:06:41.300 --> 00:06:54.879
+Justin Florentine: I think I think the numbering there would be confusing to users gearing if i'm if i'm running twenty, two, seven, one now, and I see a two thousand two hundred and seventy three drop. I'm going to try and run that as opposed to a two thousand two hundred and ten, I get a little bit more about
+
+49
+00:06:54.960 --> 00:06:57.439
+Justin Florentine: indication that this is in the future.
+
+50
+00:06:59.930 --> 00:07:01.660
+Gary Schulte: Yeah, I agree with that.
+
+51
+00:07:01.670 --> 00:07:02.630
+Gary Schulte: Oh,
+
+52
+00:07:02.970 --> 00:07:08.029
+Gary Schulte: what if I mean if this is kind of merge timing dependent. But
+
+53
+00:07:08.320 --> 00:07:13.439
+Gary Schulte: what if we just have a twenty, two, seven, three mainline drop after the merge
+
+54
+00:07:13.740 --> 00:07:16.270
+Gary Schulte: after the big scary event has happened?
+
+55
+00:07:16.280 --> 00:07:18.780
+Gary Schulte: Oh, there you go! There's less risk.
+
+56
+00:07:19.260 --> 00:07:21.559
+Danno Ferrin: And what would that look like on the schedule?
+
+57
+00:07:22.420 --> 00:07:31.590
+Gary Schulte: That's risky. What is the hashtag right where the two thousand two hundred and ten? Rc. One is right. Now
+
+58
+00:07:33.240 --> 00:07:34.840
+Matt Nelson: is the director. Twenty-two.
+
+59
+00:07:34.850 --> 00:07:37.360
+Matt Nelson: Is there any precedent to do like
+
+60
+00:07:37.410 --> 00:07:54.250
+Gary Schulte: kind of a special release? That we would just say like this is for the merge, and then we also put out a twenty, two, seven, two from Maine, and then we just tell users to that effect what is what we've never the releases. It was, as I said, there was a
+
+61
+00:07:54.380 --> 00:08:14.100
+Gary Schulte: There's a a precedent for doing a a prior quarter point release in the same same cadence as a release candidate release, so we could do twenty, two, ten, zero, Rc. One at the same time. We do two thousand two hundred and seventy, three, and potentially accelerate that
+
+62
+00:08:14.470 --> 00:08:16.550
+Gary Schulte: the September the twenty first release.
+
+63
+00:08:22.700 --> 00:08:28.449
+Danno Ferrin: So now that I'm. Editing Rose, what was the specific proposal,
+
+64
+00:08:28.460 --> 00:08:34.360
+Gary Schulte: I just proposed that we were at least twenty, two, seven, three on the same cycle as two thousand two hundred and ten zero Rc. One.
+
+65
+00:08:34.890 --> 00:08:43.649
+Gary Schulte: We could just do the same same way we did the Rc. Release for twenty, two, seven, zero, Rc. One and twenty, two, four.
+
+66
+00:08:43.659 --> 00:08:57.990
+Gary Schulte: When we do where we'll releases in our C's. What we start doing is we start cherry-picking into the old release line, and it only gets cut on demand for bugs we've done that for we did that for the magneto release on etherium classic.
+
+67
+00:08:58.240 --> 00:09:00.420
+Danno Ferrin: And um
+
+68
+00:09:01.630 --> 00:09:05.640
+Danno Ferrin: yeah, we've done we we the cherry that we
+
+69
+00:09:06.460 --> 00:09:10.739
+Danno Ferrin: when we do when we do splits, there's always one that has the main line one that just has cherry picks.
+
+70
+00:09:13.370 --> 00:09:20.570
+Gary Schulte: Yeah, there really wouldn't be any difference at this point between two thousand two hundred and seventy, three, and twenty, two, ten, one zero, or twenty, two, ten, zero, Rc: one
+
+71
+00:09:20.580 --> 00:09:27.080
+Gary Schulte: that doesn't really make a whole lot of sense, does it other than that. It's just going to be a an additional main release.
+
+72
+00:09:27.810 --> 00:09:30.669
+Gary Schulte: It would essentially be identical, as in version number
+
+73
+00:09:36.360 --> 00:09:37.860
+my calendar.
+
+74
+00:09:38.340 --> 00:09:42.470
+Danno Ferrin: Well, it's the two weeks after November the sixteenth. It's not, it's the thirtieth.
+
+75
+00:09:47.740 --> 00:09:50.360
+Danno Ferrin: So what if we shifted this all down one week
+
+76
+00:09:51.580 --> 00:09:52.940
+Danno Ferrin: like that?
+
+77
+00:09:55.910 --> 00:09:57.519
+Gary Schulte: I think that's reasonable
+
+78
+00:10:00.230 --> 00:10:03.499
+Gary Schulte: that one week or one cycle,
+
+79
+00:10:04.590 --> 00:10:09.589
+because we can shift it down fourteen. But that's going to be the day of the release. There's we don't want to do a release on the day of the march.
+
+80
+00:10:09.600 --> 00:10:10.710
+Gary Schulte: There's yeah,
+
+81
+00:10:10.790 --> 00:10:11.810
+Gary Schulte: yeah,
+
+82
+00:10:12.180 --> 00:10:14.060
+Gary Schulte: that would be problematic.
+
+83
+00:10:16.210 --> 00:10:18.080
+Gary Schulte: I think that's reasonable.
+
+84
+00:10:18.270 --> 00:10:24.269
+Danno Ferrin: Okay. And I still just want to get out there that the cherry pick unannounced on two thousand and seven one.
+
+85
+00:10:24.280 --> 00:10:25.390
+Danno Ferrin: That's not cool.
+
+86
+00:10:25.400 --> 00:10:32.500
+Danno Ferrin: If you're going to a cherry pick, you need to announce it publicly and ask for release for for those and make sure everyone's on board with it instead of just doing it.
+
+87
+00:10:38.300 --> 00:10:39.500
+Danno Ferrin: Yeah.
+
+88
+00:10:51.050 --> 00:10:52.310
+Danno Ferrin: Okay.
+
+89
+00:10:52.470 --> 00:10:53.970
+Danno Ferrin: So how does that look?
+
+90
+00:10:55.180 --> 00:10:56.569
+Gary Schulte: No, It's great That will.
+
+91
+00:10:57.720 --> 00:10:58.860
+Danno Ferrin: It's cool.
+
+92
+00:11:01.570 --> 00:11:08.789
+Danno Ferrin: So let's go ahead and update that. What are the two week cycles after? What are the December days? Does anyone have a camera?
+
+93
+00:11:08.800 --> 00:11:13.940
+Matt Nelson: Yeah, I'm looking at it. It is following. The thirtieth is the fourteenth, and then the twenty eighth.
+
+94
+00:11:14.280 --> 00:11:17.590
+Matt Nelson: So the fourteenth uh would be exactly to it.
+
+95
+00:11:17.600 --> 00:11:18.470
+Matt Nelson: Yes,
+
+96
+00:11:18.840 --> 00:11:22.329
+Danno Ferrin: okay. Beneath is kind of a crappy day to do a release. But
+
+97
+00:11:22.520 --> 00:11:26.089
+Gary Schulte: do we to historically release on the kind of end of your holiday?
+
+98
+00:11:26.950 --> 00:11:28.740
+Danno Ferrin: It's two weeks.
+
+99
+00:11:28.830 --> 00:11:32.760
+Gary Schulte: Yeah, there might not be much to release, but it should be mostly automated.
+
+100
+00:11:32.880 --> 00:11:35.480
+Gary Schulte: Okay, What's January? Look like
+
+101
+00:11:35.910 --> 00:11:41.450
+Matt Nelson: after this? Twenty eighth We have the eleventh of January and the twenty fifth of January. The
+
+102
+00:11:42.790 --> 00:11:50.199
+Danno Ferrin: Okay. And February is the eighth of February and twenty second of February.
+
+103
+00:11:56.630 --> 00:12:02.010
+Danno Ferrin: And when do we want to land twenty, three, one What's our target? Date here? Twenty fifth
+
+104
+00:12:03.420 --> 00:12:04.989
+Danno Ferrin: or February eighth,
+
+105
+00:12:08.720 --> 00:12:16.609
+Gary Schulte: twenty fifth, seems. Oh, that makes sense to me. I mean we could. We could do the eleventh and the twenty eighth as the Rc. Candidates here.
+
+106
+00:12:16.620 --> 00:12:17.780
+Justin Florentine: Yep.
+
+107
+00:12:29.510 --> 00:12:38.119
+Gary Schulte: Notice we had a couple of releases where we omitted the zero in the Release Candidate Series is that is that no mission or okay?
+
+108
+00:12:38.590 --> 00:12:40.790
+Danno Ferrin: Yeah, that's just me typing it wrong.
+
+109
+00:12:40.800 --> 00:12:42.599
+Gary Schulte: Okay,
+
+110
+00:12:42.610 --> 00:12:45.990
+Gary Schulte: I think we we briefly had a snapshot version
+
+111
+00:12:46.000 --> 00:12:49.850
+Gary Schulte: with with that with that syntax. I was wondering if that was something that we were.
+
+112
+00:12:50.270 --> 00:12:52.760
+Gary Schulte: I was on the same page for
+
+113
+00:12:52.770 --> 00:12:54.080
+Danno Ferrin: probably a
+
+114
+00:12:54.300 --> 00:12:55.659
+Danno Ferrin: screw up,
+
+115
+00:12:55.940 --> 00:13:00.329
+Danno Ferrin: and I also want to sense of calling these Rcs as we should switch to calling these betas
+
+116
+00:13:00.600 --> 00:13:05.640
+Danno Ferrin: because we're releasing in our C where we're intending on changing more. It's not really really his candidate.
+
+117
+00:13:05.800 --> 00:13:11.190
+Gary Schulte: Yeah, that's a good point. We're Still, if we're releasing from Maine, then it's not really a release candidate that we're going to trade back into.
+
+118
+00:13:14.350 --> 00:13:17.079
+Danno Ferrin: Ooh what we do, beta that our C.
+
+119
+00:13:20.000 --> 00:13:21.310
+Danno Ferrin: That works.
+
+120
+00:13:21.640 --> 00:13:30.540
+Justin Florentine: I think So I think. Yeah. So we just make the set the level set that the Rc. Is emerge as a cherry pick. Only release it,
+
+121
+00:13:48.140 --> 00:13:49.190
+he
+
+122
+00:13:50.030 --> 00:13:51.120
+you!
+
+123
+00:13:54.290 --> 00:13:58.479
+Gary Schulte: But we probably need to document that change somewhere just to so that
+
+124
+00:13:58.820 --> 00:14:06.090
+Gary Schulte: whoever's doing the release at that point is aware. I mean, it's good That the notes column is is probably more than sufficient. But it
+
+125
+00:14:06.200 --> 00:14:09.089
+Danno Ferrin: yeah, I think I need to optimize this process.
+
+126
+00:14:09.100 --> 00:14:13.549
+Gary Schulte: Yeah, and talk about how once we're in a beta cycle, how we can still do
+
+127
+00:14:13.760 --> 00:14:17.029
+Danno Ferrin: point releases from the previous on a cherry-pick basis.
+
+128
+00:14:20.420 --> 00:14:21.690
+Gary Schulte: Look at that
+
+129
+00:14:26.040 --> 00:14:28.190
+Danno Ferrin: it as well as one.
+
+130
+00:14:30.140 --> 00:14:33.660
+Danno Ferrin: You should put on my multiple screens. I want to edit this.
+
+131
+00:14:55.390 --> 00:14:56.650
+Danno Ferrin: Okay,
+
+132
+00:14:57.430 --> 00:14:59.350
+Danno Ferrin: Does that capture what we discussed?
+
+133
+00:15:05.590 --> 00:15:06.720
+Matt Nelson: I think so.
+
+134
+00:15:06.730 --> 00:15:07.390
+Danno Ferrin: Okay,
+
+135
+00:15:07.400 --> 00:15:11.259
+Matt Nelson: Maybe that move to to Beta's as opposed to Rc:
+
+136
+00:15:11.900 --> 00:15:13.419
+Matt Nelson: That's the last note.
+
+137
+00:15:43.990 --> 00:15:45.210
+Danno Ferrin: Okay,
+
+138
+00:15:56.560 --> 00:15:59.159
+problem. Martha needs to be explicitly said
+
+139
+00:16:00.270 --> 00:16:04.489
+Danno Ferrin: that we'll move out the dot zero releases needed based on the Rc. Health.
+
+140
+00:16:06.170 --> 00:16:09.910
+Danno Ferrin: But it's no sooner than two weeks
+
+141
+00:16:11.790 --> 00:16:13.789
+from our C.
+
+142
+00:16:16.900 --> 00:16:26.699
+Gary Schulte: Yeah, I actually really like that, just because sometimes it makes no sense to have a second release candidate. When the first release candidate was successful,
+
+143
+00:16:27.130 --> 00:16:27.890
+Gary Schulte: it's.
+
+144
+00:16:27.900 --> 00:16:29.740
+Gary Schulte: Yes, it makes a lot of sense,
+
+145
+00:16:30.170 --> 00:16:31.560
+Gary Schulte: you know it's clear,
+
+146
+00:16:32.030 --> 00:16:33.310
+Danno Ferrin: cool
+
+147
+00:16:34.160 --> 00:16:35.830
+Danno Ferrin: you
+
+148
+00:16:36.280 --> 00:16:38.010
+Danno Ferrin: any other
+
+149
+00:16:39.100 --> 00:16:40.560
+Danno Ferrin: discussions?
+
+150
+00:16:43.840 --> 00:16:57.009
+Danno Ferrin: I don't think so. Um! We can have the discussion of what's getting cherry-picked into twenty, two, seven, four, two two ah via discord. Yeah. Discords. I think the right place to to coordinate it
+
+151
+00:16:57.770 --> 00:16:59.350
+Danno Ferrin: on their least channel.
+
+152
+00:17:00.110 --> 00:17:05.589
+Danno Ferrin: Cool. Um. Next basic code on our discussion.
+
+153
+00:17:05.640 --> 00:17:07.799
+Danno Ferrin: Yeah, I put this one on here.
+
+154
+00:17:08.089 --> 00:17:19.439
+Danno Ferrin: I'm pretty sure I've shared the document with most of the people on this call. That's not to say everyone. And again, This is also just to reiterate just a proposal. There's kind of
+
+155
+00:17:19.930 --> 00:17:36.309
+Danno Ferrin: it, was a thought on both sides of the aisle. I will be cleaning up and adjudicating a lot of the comments that people put in. But I think that it's good question. So i'm going to leave them, as is the question is, How do we want to Basically, formally socialize this proposal? And you know,
+
+156
+00:17:36.320 --> 00:17:41.139
+Danno Ferrin: with the venue, I don't think we're gonna make any progress on it today. So I was mostly just bringing it back up so that we can
+
+157
+00:17:41.350 --> 00:17:42.849
+Matt Nelson: kind of go off the link.
+
+158
+00:17:42.960 --> 00:17:52.289
+Danno Ferrin: I have the Google Doc Link. I bet maybe the first step is to make a hyper ledger wiki page, and then share within the contributor's discord, and what people have to say
+
+159
+00:17:52.300 --> 00:17:52.910
+Danno Ferrin: the
+
+160
+00:17:55.610 --> 00:17:59.690
+Matt Nelson: but you know, super high level. It's just about increasing
+
+161
+00:17:59.800 --> 00:18:11.019
+Danno Ferrin: potential kind of release quality. And, Dan, I know you had mentioned the Tsc. Is pushing for a strong ownership model things as well. So just basically us in the direction of the
+
+162
+00:18:11.560 --> 00:18:13.670
+Matt Nelson: uh, more review,
+
+163
+00:18:14.020 --> 00:18:29.100
+Matt Nelson: and to kind of hopefully not slow our velocity down. But to make sure that we have the right people reviewing certain changes to high impact code base ah components. So that was really the gist of the Maintainer's thing. I'll set up a
+
+164
+00:18:29.870 --> 00:18:32.179
+Matt Nelson: Wiki page. Um:
+
+165
+00:18:33.060 --> 00:18:38.110
+Matt Nelson: yeah, with basically the Google doc that I've circulated among some folks. And then we can.
+
+166
+00:18:38.810 --> 00:18:52.189
+Matt Nelson: I'll pester people and maybe we discuss on the next contributor call, which is in like a month. I think this is a better post merge discussion, anyway, as we kind of slow down velocity around the merge regardless. So that'll be
+
+167
+00:18:52.400 --> 00:18:57.019
+Matt Nelson: sent in the contributors channel at some point soon. Um!
+
+168
+00:18:57.090 --> 00:19:00.189
+Matt Nelson: Is there any high-level comments from the group on this one
+
+169
+00:19:07.710 --> 00:19:14.869
+Gary Schulte: most market. I'm gonna talk about that just now. Anyway, it's an open link. So anyone with the link should be able to view,
+
+170
+00:19:14.990 --> 00:19:19.240
+Danno Ferrin: and it's just again. Nothing that anyone's ever.
+
+171
+00:19:19.250 --> 00:19:28.549
+Danno Ferrin: Yeah, Diego, You are basically the person you and Antoine and some others were the only folks that I have been meaning to to send it to. But again, there's no decisions being made. We just wanted to support it.
+
+172
+00:19:28.880 --> 00:19:30.030
+Matt Nelson: Your feedback
+
+173
+00:19:38.160 --> 00:19:46.290
+Matt Nelson: it might be better to, I mean, if it's not out of process to keep the link here, just because there's a lot of comments already in the Google Doc.
+
+174
+00:19:48.520 --> 00:19:50.090
+Matt Nelson: But I don't know if
+
+175
+00:19:50.360 --> 00:19:54.219
+Matt Nelson: we I can do whatever is required, move it to Hyper Ledger. I don't really mind
+
+176
+00:19:54.230 --> 00:20:07.589
+Danno Ferrin: um. So eventually the final doc is going to need a little on the Wiki. They had issues with this with um fabric. They posted design docs at Google Docs, and they were company on links. And then somebody left their company. And then the Docs got locked.
+
+177
+00:20:07.600 --> 00:20:08.090
+Matt Nelson: Got it?
+
+178
+00:20:08.100 --> 00:20:15.480
+Matt Nelson: Yeah, Now we will definitely. Once we move to adjudicate on these comments, I can absolutely start a Wiki page.
+
+179
+00:20:15.490 --> 00:20:16.490
+Danno Ferrin: Okay,
+
+180
+00:20:16.980 --> 00:20:19.040
+Gary Schulte: I think, the
+
+181
+00:20:19.120 --> 00:20:30.299
+Gary Schulte: but the collaboration for for building a proposal as as opposed to having, I mean, comments are great, but I think, having an open collaborative process is going to give better results, so that we don't just
+
+182
+00:20:30.310 --> 00:20:48.530
+Gary Schulte: have diametrically opposed sides that you know, thumb up or thumb down a proposal from one side or another, so I think that I would like it. Personally, I would like to front load the process of the code owner's proposal ahead of time before we would put it. It's any kind of formal agreement or a thumbs up thumb down. Vote
+
+183
+00:20:48.690 --> 00:20:50.060
+Danno Ferrin: it's a great it.
+
+184
+00:20:52.150 --> 00:21:01.859
+Gary Schulte: Okay. So I think a good way for it is to continue to work within this Google Doc, and then one by the next contributors call to have a semi-finalized version that we can
+
+185
+00:21:01.900 --> 00:21:07.029
+Matt Nelson: vote on and discuss as far as like, what we actually want to
+
+186
+00:21:07.390 --> 00:21:21.180
+Matt Nelson: come in, because there's still a ton of like. You can see a billion. There's a billion comments in there that I have not had time to go back and try to adjudicate, and I don't want it also to be me. I don't want it just to be my interpretation of the comments, too. So
+
+187
+00:21:22.610 --> 00:21:38.889
+Danno Ferrin: yeah, I I think we just I i'll. I'll try my best to get everyone's comments in. And if if there's areas where there's contention just put in like caveat things here, here, here and then once I have, like a typed up version that makes sense. I'll put it back in the Wiki, and we can discuss Ah, on the next contributor ball.
+
+188
+00:21:43.230 --> 00:21:45.320
+Gary Schulte: Okay, from school.
+
+189
+00:21:45.480 --> 00:21:46.560
+Matt Nelson: Awesome.
+
+190
+00:21:46.890 --> 00:22:10.310
+Matt Nelson: All right. The next thing is in a similar vein. Um, I tried a crack at updated architecture diagrams for base two, I've made three, one for kind of an overall picture in the code base as it is right now, one focused on kind of the you know, public network, execution side and one public focused on private network execution. So
+
+191
+00:22:10.320 --> 00:22:11.350
+I
+
+192
+00:22:11.370 --> 00:22:31.030
+Matt Nelson: would love some feedback from the community. Our Our goal is to get this up into the docs eventually, so that users who are looking for information around the merge, and other things will have the right Um! Ah diagrams! So if you haven't seen already on the latest branch of the bay suit docs. There have been split out into public network and private network
+
+193
+00:22:31.040 --> 00:22:36.639
+Matt Nelson: sections, so that users that want. Each functionality can get into the right space without having to
+
+194
+00:22:36.650 --> 00:23:04.440
+Matt Nelson: get lost in the mix of the docs that Don't relate to what they're doing. Um. But within that process we have not updated the diagram, so I mean, I don't know if we want to, at least just cursorily view them. Now I have a Sigma like Link. I also have pictures, so I don't know what's best to share here, but I can also just share my screen. But regardless, I just wanted to get some feedback on these diagrams. Um, so that I can finalize them, and we can get those up into the Docs
+
+195
+00:23:04.450 --> 00:23:10.980
+Matt Nelson: site. Yeah, i'll just go ahead and share my screen really quickly, and we can take a look at all three.
+
+196
+00:23:13.030 --> 00:23:14.480
+Matt Nelson: Here we go.
+
+197
+00:23:14.640 --> 00:23:18.670
+Matt Nelson: So, yeah is is are folks able to see this at a reasonable size?
+
+198
+00:23:18.710 --> 00:23:29.039
+Danno Ferrin: Yes. So again, just to talk through my thinking, It's just a really an update of what everything looks like, kind of in aggregate. And in addition, we've added kind of
+
+199
+00:23:29.090 --> 00:23:48.400
+Matt Nelson: external consensus clients for certain things. I might reword this just to talk about like external consensus as a whole. But again, this is kind of a cut that it now includes. You know, the tri-storage options that we had had specific eft consensus algorithms and some new kind of
+
+200
+00:23:48.460 --> 00:23:59.259
+Matt Nelson: notions around how we're plugging in consensus. It's not like again. I wanted to find a better way to be able to tie the external consensus to the notion of plausible consensus,
+
+201
+00:23:59.300 --> 00:24:09.410
+Matt Nelson: but I also wanted to not. I might just move this up to the top so that you can. We can kind of tie this all together. But this is the over level overall component. You.
+
+202
+00:24:09.420 --> 00:24:29.430
+Matt Nelson: I will flip back to this, but to really quickly kind of elaborate on what we've done as well. This is kind of just the the public execution, like lean execution format without using private network components where we have kind of global execution partially enabled via the engine. Api, you know. I think we also want to be able to capture the one
+
+203
+00:24:29.440 --> 00:24:36.809
+Matt Nelson: kind of head air. Use face where there's pluggable execution just within the Evm and and other things where we're not exclusively kind of
+
+204
+00:24:37.120 --> 00:24:47.599
+Matt Nelson: removing certain things right. But I wanted to show that it basically is intended to be kind of flexible via these efforts, and I also wanted to kind of te up the
+
+205
+00:24:47.940 --> 00:24:51.999
+Matt Nelson: compartmentalization work that we've been kicking around, but not
+
+206
+00:24:52.210 --> 00:25:11.339
+Matt Nelson: really moves towards quite yet in a way that makes sense. But you know the plug of execution also includes all different kinds of stuff, you know. Proof of state consensus working on. You know the pow consensus potentially working, enable. Roll up consensus. So I want to make sure that everyone's use. Cases are adequately captured.
+
+207
+00:25:11.350 --> 00:25:17.229
+Matt Nelson: Um! And i'll, i'll share these in some format that is commentable uh
+
+208
+00:25:17.500 --> 00:25:26.140
+Matt Nelson: post call, or, you know, during the call, so that folks can go in and actually provide comments. And then, lastly, we have just the private execution.
+
+209
+00:25:26.230 --> 00:25:27.280
+Matt Nelson: Ah,
+
+210
+00:25:28.390 --> 00:25:30.370
+Matt Nelson: environment where you have
+
+211
+00:25:30.410 --> 00:25:49.399
+Matt Nelson: your gaps, and it's pretty typical basso, except instead of luggable consensus around all the different types you have. Pbft, ivf. T. Two Click, W. And you have the inclusion of, you know, optional tasera privacy, stuff, bft, networking, et cetera, et cetera.
+
+212
+00:25:51.430 --> 00:26:02.170
+Matt Nelson: So that's that's what I had to share on this again. I'll share these out in a method that's commentable, so I can collect some feedback for another round of edits, but I just wanted to share what I've been working on this
+
+213
+00:26:03.090 --> 00:26:04.280
+Danno Ferrin: um
+
+214
+00:26:04.680 --> 00:26:19.069
+Danno Ferrin: one question there was a pr that came in that was adding a roll-up method to the engine. Api. Were there any docs as to how we we expected to interact with that from an external provider? Or Is that something from another group of consensus that you weren't aware of?
+
+215
+00:26:20.050 --> 00:26:30.580
+Matt Nelson: Yeah. So we've been discussing kind of what that looks like. We're taking a very very much cautious approach in the short term on how we break that out.
+
+216
+00:26:30.590 --> 00:26:53.890
+Matt Nelson: My personal opinion is that we should externalize kind of all that stuff, and do it through some kind of interface via the engine Api not necessarily extending it directly. Um, we haven't gotten too far down that road, because again, you know, although Basu is open source, and those like you, said other groups at consensus who have an interest in potentially opening up some of those components, we want to be kind of risk averse through the merge.
+
+217
+00:26:53.900 --> 00:26:59.220
+Matt Nelson: But we do want not just to enable, you know, specific role of use cases within consensus, but other.
+
+218
+00:26:59.240 --> 00:27:18.879
+Matt Nelson: Ah! Possible infrastructure providers in the community, you know, thinking like optimism, arbitr um, you know, and some of the Zk Ibm or Zk proof roll ups. Excuse me, i'm getting my words tripped up. And how do we do that? Whether we do we extend the Api be a certain set of updates to the engine. Api, where
+
+219
+00:27:18.890 --> 00:27:32.180
+Matt Nelson: you know these roll ups folks can plug in in a way that directly impacts execution, but it does so in a way that is compatible with role of consensus. You know that's what we have yet to figure out. I think that the
+
+220
+00:27:32.700 --> 00:27:43.389
+Matt Nelson: the short-term vision was to extend the engine. Api. But I think that that's a little bit too like It's not fully baked. That's why we're not putting those prs, or you know none of those Prs have been approved or merged.
+
+221
+00:27:43.400 --> 00:28:02.230
+Danno Ferrin: But yeah, we're definitely thinking through what that would look like, because it's there is interest from community members, including folks outside of consensus to get bas suit in infrastructure for roll-ups, and for some of this other stuff. So I want to make sure that we do this in a thoughtful way. But but this was the first kind of
+
+222
+00:28:02.240 --> 00:28:18.589
+Matt Nelson: thought process here. I think we need to really think about what this pluggable execution actually means for Basu. Does it mean we're interfacing through the engine? Api? Does it mean we're interfacing through something else that goes directly to the Evm? Does it mean we're creating a new interface
+
+223
+00:28:18.600 --> 00:28:34.999
+Matt Nelson: that you know ties even other. You know other things together. But you know essentially, how do we expose access to the Evm in a way that makes sense and doesn't break anything that exists. Now. So the first thought was to use the engineer Api and extend it because it does basically
+
+224
+00:28:35.010 --> 00:28:54.160
+Matt Nelson: allow basically to externalize consensus mechanisms that you would need for a roll up or for something else, anyway. But I think there are risks that come with that that we Haven't explored fully. So at this point in time. It's basically just, you know, create a new Api that can kind of mix in, but again nothing else. There,
+
+225
+00:28:54.170 --> 00:29:00.689
+Matt Nelson: Gary, I don't know if you have anything to add there. I think that was kind of just. It's very. It's too early, like we haven't really discussed that too much. But
+
+226
+00:29:01.140 --> 00:29:02.790
+Danno Ferrin: so
+
+227
+00:29:02.800 --> 00:29:09.620
+Gary Schulte: no, I really don't have too much to add to that. I think that this it's a work in progress, and that's about all we can say at the moment. I think
+
+228
+00:29:10.180 --> 00:29:31.350
+Danno Ferrin: so. Looking at other layer. Two networks out there, I think one thing we also need to consider is the desire to do things like completely top off networking um in like in our which was an arbitrary of our optimism. Um. They don't really do pure discovery as much as they have a centralized um sequencer, so it needs to be a model where there might be a centralized or decentral sequencer in the networking would be significantly different.
+
+229
+00:29:31.360 --> 00:29:58.719
+Danno Ferrin: Um! In the case of like the celestial, they're talking about changing the storage engines to be able to provide, you know. Witness based execution. Um. So I think you know, to to to be um. The best solution for roll ups going forward is to have some of these modular things to be able to chop down. So that was one of my concerns of just going through the interface with the role of the Api, because we're dragging along a lot of features that are unneeded for that style of a by by roll up
+
+230
+00:29:58.730 --> 00:30:15.520
+Danno Ferrin: when what is needed is, you know, someone's going to give you the transactions you process. Dvm: and calculate the settlement layer in a different tree state, or you might have a different networking. With that you might be gathering your transactions through through Cosmos gossip or through some other gossip network.
+
+231
+00:30:15.530 --> 00:30:24.870
+Danno Ferrin: So, as we do this, I think we need to keep those modular concepts in mind, too, so that we could pair off to the bare minimum of what's needed for the roll up.
+
+232
+00:30:24.920 --> 00:30:34.440
+Matt Nelson: Yeah. So let me definitely elaborate on that. I think that this is this is a sort of near-term picture. I fully intend to create a
+
+233
+00:30:34.570 --> 00:30:40.690
+Matt Nelson: kind of vision that looks exactly like what you're describing, where we kind of lean into the modular concept a lot more.
+
+234
+00:30:40.700 --> 00:30:54.539
+Matt Nelson: The problem is that I want to have something that works for now. Um, but I I like Yes, you're correct, and we want to work to that vision where each of these individual boxes will be in theory kind of optional, and you only take what you need and discard the rest.
+
+235
+00:30:54.550 --> 00:31:15.300
+Matt Nelson: Um! But you know that's again. That's like a medium so longer. Term vision post kind of merge context, and I wanted to make sure that we had something that fits this timeline. But yeah, my my intention was absolutely to as we move towards the more environmentalized modular vision to create new versions of these diagrams, and it could even be within the next couple of months right. I just wanted to get something on paper. Now,
+
+236
+00:31:15.310 --> 00:31:17.439
+Danno Ferrin: Okay, yeah, this reflects what we have today.
+
+237
+00:31:17.630 --> 00:31:26.030
+Matt Nelson: Yeah, yeah, to a degree. Yes, right? And And so that's Why, this fox is like kind of a little bit iffy.
+
+238
+00:31:26.550 --> 00:31:42.079
+Matt Nelson: So you know that's where i'm looking for feedback, but it it more reflects what we have today or within the short term, and I want to. As we move towards those modularity discussions to support different kinds of use cases, we will kind of blow up this box once more and do a new one.
+
+239
+00:31:43.170 --> 00:31:44.410
+Danno Ferrin: Yeah,
+
+240
+00:31:49.840 --> 00:31:55.290
+Danno Ferrin: yeah, I don't know how we would get these on the week yet. I don't have a fig, my plugin. You might have to capture images.
+
+241
+00:31:55.300 --> 00:32:06.390
+Matt Nelson: Yeah, I think i'll just. I'll just do a Pdf: i'll share it somewhere, And then people could just put either comments on the thread or put it in the Pdf. It doesn't really matter to me. I already have exports, so it's still
+
+242
+00:32:06.400 --> 00:32:07.190
+Danno Ferrin: carefully.
+
+243
+00:32:07.200 --> 00:32:12.559
+Danno Ferrin: I think the Png or gift exports would be better than the Pdf on the Wiki
+
+244
+00:32:12.570 --> 00:32:14.419
+Matt Nelson: on the waiting. All right, that's fine,
+
+245
+00:32:16.290 --> 00:32:20.189
+Matt Nelson: that's all for me on that, I think the next topic is also me
+
+246
+00:32:22.910 --> 00:32:26.600
+Matt Nelson: yeah distributions. This is again
+
+247
+00:32:26.800 --> 00:32:35.030
+Matt Nelson: just something to put on the radar. I don't think that I have anything to. I have a document around this, but I think it's a little early to share.
+
+248
+00:32:35.250 --> 00:32:45.159
+Matt Nelson: I think we should focus on the code ownership process first, and then this will kind of fall a little bit into that. But within the at least within the consensus team we've discussed,
+
+249
+00:32:45.170 --> 00:33:03.990
+Matt Nelson: You know, how do we Basically, provide different distributions depending on what you need. So it could be public network distributions. It could be an ethereum specific distribution. It could be a private network, specific distribution. Um, and it could be, you know, whatever right, but just an evm distribution. So I think that the the goal here is to
+
+250
+00:33:04.730 --> 00:33:14.670
+Matt Nelson: remove some kind of legacy vestigial code in some of these distributions, and get a little bit more leaner. It's also kind of the first step towards
+
+251
+00:33:14.680 --> 00:33:33.559
+Matt Nelson: the modularization and environmentalization is intentionally decoupling the code, so that we have a release that works just for that network. And I think that the reasoning being is because we would have to ensure that the interfaces don't have dependencies across some of the borders that I showed on the architecture diagram.
+
+252
+00:33:33.580 --> 00:33:35.130
+Matt Nelson: Um!
+
+253
+00:33:35.150 --> 00:33:36.730
+Matt Nelson: And I think that
+
+254
+00:33:36.790 --> 00:33:42.549
+Matt Nelson: this would be a really kind of easy way for also users to not be
+
+255
+00:33:42.560 --> 00:34:10.879
+Matt Nelson: confused about what they're getting for. Users to log issues a lot more efficiently within Github, and for us to much more easily debug issues on public numbers versus private versus non ethereum versus ethereum like it'll, It'll just make our lives a lot easier as code maintainers. So I do have a doc. I think it's again. I think we should focus on code ownership first, and what that looks like, and then I can tie this discussion back to that. I also think this is a lot of a post-merge context,
+
+256
+00:34:10.889 --> 00:34:15.990
+Matt Nelson: because it will be an exercise that will allow us to remove a lot of the merge specific
+
+257
+00:34:16.000 --> 00:34:28.319
+Matt Nelson: code that is only focused on the transition itself. So it'll be a tech that exercise for a number of reasons. And I think again, our goal is here is to
+
+258
+00:34:28.750 --> 00:34:45.889
+Matt Nelson: make sure that everyone has the right distribution at their leaner distributions. We have a lot less intertwining dependencies, and it's step one on the kind of modularity discussion that's going to help enable a lot of those other use cases, you know, because maybe we have a roll-up distro,
+
+259
+00:34:45.900 --> 00:34:51.000
+Matt Nelson: you know, like we we kind of go up and down the stack providing different pieces, for different, you know you,
+
+260
+00:34:51.239 --> 00:34:57.320
+Matt Nelson: or at least some method for users to build what they need. But But yeah, so that's that's the discussion.
+
+261
+00:34:57.490 --> 00:35:12.140
+Matt Nelson: Any thoughts on initially, I I can share the doc now. It's just early. Um! I don't want to provide. I don't want to dump too much on this group of like administrative overhead right now. So whatever you folks think is appropriate, let me know, and I can share this.
+
+262
+00:35:13.610 --> 00:35:26.519
+Danno Ferrin: I think your instinct is right to wait until the Merge lands before we look at the next steps. Because I've also brought in other things in mind. What are we doing about Shanghai? Do we have a plan? Does Shanghai have a plan yet? I don't think you might be awkward dose of
+
+263
+00:35:26.530 --> 00:35:35.629
+Gary Schulte: come back to revisit that. So that's going to be hot on it, because I've got some Ebm stuff that i'm looking to bring in once. It's firm, but it's still too squishy.
+
+264
+00:35:39.290 --> 00:35:45.699
+Gary Schulte: I think there's official markdown for what constitutes Shanghai currently. But
+
+265
+00:35:45.730 --> 00:35:49.100
+Gary Schulte: yeah, there Hasn't been much talk about that since since that was defined.
+
+266
+00:35:49.110 --> 00:35:50.440
+Gary Schulte: Yeah, they had signed it
+
+267
+00:35:50.450 --> 00:36:05.969
+Gary Schulte: every time it gets on the Acg. Again All court Downs agenda. It gets pushed off because of marriage issues, and we haven't had any real Shanghai discussions for six months, and then suddenly it includes dank sharding. And um yeah, the evm stuff is still approved, and
+
+268
+00:36:06.370 --> 00:36:13.679
+Gary Schulte: that are transient things in there. Not but that's not for today. That's for the future, and that's just to put in mind
+
+269
+00:36:21.740 --> 00:36:23.879
+Danno Ferrin: Cool anything else on this.
+
+270
+00:36:28.780 --> 00:36:31.209
+Danno Ferrin: All right, if not,
+
+271
+00:36:31.550 --> 00:36:35.540
+Danno Ferrin: these last two are kind of mine and kind of related
+
+272
+00:36:35.650 --> 00:36:49.960
+Danno Ferrin: um. So one of the things that you know, pushing it out to me exchanges this a bit. I might want to change my plan on this, but a big thing we want to do, and the two thousand two hundred and ten release cycle is to move off of Circle Ci on github actions
+
+273
+00:36:50.650 --> 00:37:10.579
+Danno Ferrin: um on discord. Um ride told us that there might be limited supply of credits left on Circle Ci, and that hyper ledger may not be um topping it off again. I don't know if push comes to show if that's what would happen, but he's kind of nudging us towards doing Github actions,
+
+274
+00:37:10.590 --> 00:37:26.070
+Danno Ferrin: and Auntswan took the time to get. You have actions working with our current build set up. There's still a couple of themes like art Factory publishing is not finished yet, But this is one of the things that I think should be some of the first stuff into the Beta release, because we should try and migrate to get have actions.
+
+275
+00:37:26.330 --> 00:37:45.700
+Danno Ferrin: Um. This also solves another problem in that circle. Ci Isn't Really, Java, seventeen build-based friendly. Right Now the kin of actions is so we can move the build to Java seventeen, and then once we're stable on Java seventeen, we can unlock Javas seventeen language features which we'll.
+
+276
+00:37:45.760 --> 00:37:47.910
+Danno Ferrin: It'll be useful in a number of um.
+
+277
+00:37:47.930 --> 00:38:01.700
+Danno Ferrin: A number of cases. The one I'm most excited about is Java records that solves a lot of our inequality issues. We can change migrate from the immutability library to records which is again going to have
+
+278
+00:38:01.810 --> 00:38:10.080
+Danno Ferrin: much friendlier in Java. Twenty one implications for for a lot of the compilation features that are going to come up with performance-wise.
+
+279
+00:38:10.420 --> 00:38:21.579
+Danno Ferrin: So that's why I have my eye on Java, Seventeen features. Because we've been using records at era, and they're they're pretty amazing for what they are. It's it's really strange writing in twenty five lines of code and twenty four of it is, the
+
+280
+00:38:21.620 --> 00:38:35.010
+Danno Ferrin: you know, twenty-two of it is the license euler plate, and then an import statement, and then one line of a record That's It's kind of weird to get used to it first, but it solves so many um performance and renewability problems. It's it's great,
+
+281
+00:38:35.610 --> 00:38:36.799
+Danno Ferrin: it's
+
+282
+00:38:36.880 --> 00:38:38.700
+Danno Ferrin: so
+
+283
+00:38:39.750 --> 00:38:56.649
+Danno Ferrin: i'm wondering if we should start a uh a ci branch. It only has that that merges everything in from Maine. But does Github action built so we can check and see if things are working. They call that an early two thousand two hundred and ten Beta branch and start that earlier rather than later. What do people think about that?
+
+284
+00:38:59.290 --> 00:39:01.409
+Gary Schulte: I think that seems reasonable.
+
+285
+00:39:01.600 --> 00:39:17.389
+Gary Schulte: I would. I wanted to lodge a but not a complaint, but just an observation that I think this is a good tactical move for Hyper Ledger Basu. But I just I don't think that Github is really
+
+286
+00:39:17.400 --> 00:39:36.270
+Gary Schulte: ah in in line with the permissionless censorship resistance. Ah goals and ethos of hyper, ledger, basu and ethereum in general. So I, although I think this is a good tactical move, I think increasing. Our alliance on Github is not my favorite course of action, given recent
+
+287
+00:39:36.280 --> 00:39:39.620
+Gary Schulte: activity by Microsoft and Github. Specifically
+
+288
+00:39:40.460 --> 00:39:43.080
+Danno Ferrin: i'm a circle, c. I better than that regard
+
+289
+00:39:44.300 --> 00:39:46.470
+Gary Schulte: I didn't b him. Ah,
+
+290
+00:39:46.940 --> 00:39:58.580
+Gary Schulte: they didn't go well and beyond on multiple occasions, like A with the Lib and Vx fiasco, and with the tomato cash, fiasco, and so forth, like
+
+291
+00:39:58.660 --> 00:40:04.390
+Gary Schulte: it's. They seem to be over zealously compliant ahead of any asks
+
+292
+00:40:04.400 --> 00:40:07.050
+Gary Schulte: uh right in in regards to censorship.
+
+293
+00:40:07.450 --> 00:40:08.390
+Gary Schulte: It's
+
+294
+00:40:08.400 --> 00:40:11.389
+Danno Ferrin: You know what I think. I'll drop that stink bomb on the Tsc.
+
+295
+00:40:11.400 --> 00:40:13.439
+Danno Ferrin: Let's see how people think about it.
+
+296
+00:40:14.570 --> 00:40:16.950
+Gary Schulte: Yeah, it is a stink bomb that's for sure.
+
+297
+00:40:17.210 --> 00:40:22.549
+Gary Schulte: Because what's been done is odious. Just just banning code, because
+
+298
+00:40:23.190 --> 00:40:26.319
+Danno Ferrin: without firm public disclosure.
+
+299
+00:40:27.300 --> 00:40:42.580
+Danno Ferrin: Yeah, What right? Because the Tsc. Is only code sourcing right now is Github um. They used to do Garrett, and let people source their own, but They've moved everything to Github. So what alternative would there be to Github to host it? What? Where could I direct that discussion?
+
+300
+00:40:43.080 --> 00:40:52.619
+Gary Schulte: Yeah, there's not a great, not a lot of great options. I've not heard of bit Bucket, or any of the other providers with that type of strong arm behavior,
+
+301
+00:40:52.770 --> 00:41:05.300
+Gary Schulte: but it's still a centralized entity, and still subject to that type of you know, capture in terms of censorship. I just want to raise the issue that I think that
+
+302
+00:41:05.310 --> 00:41:22.089
+Gary Schulte: the platform that we are on in the platform. That we're doubling down on is runs counter to our ethos, and we should be looking at other alternatives, and I don't have great alternatives. I just wanted to raise the issue that I think it could be a long term challenge.
+
+303
+00:41:22.100 --> 00:41:23.499
+Danno Ferrin: How about get left?
+
+304
+00:41:24.420 --> 00:41:28.479
+Gary Schulte: Yeah, you have toaster. I'll get Laverne as good have to the kid. Laughter the hosting.
+
+305
+00:41:29.410 --> 00:41:33.489
+Gary Schulte: I don't know i'd have to look into it. Honestly, I don't know I don't know that any of the other
+
+306
+00:41:33.500 --> 00:41:36.689
+Gary Schulte: you either have as strong a
+
+307
+00:41:36.700 --> 00:41:46.999
+Gary Schulte: you know. Ci. Our actions type of platform that we would be able to leverage. So some some more research. You know we have to do some. We're looking into what alternatives are.
+
+308
+00:41:47.620 --> 00:41:48.879
+Gary Schulte: I would, anyway,
+
+309
+00:41:48.890 --> 00:41:52.370
+Danno Ferrin: right because we would need we would need c. I support him?
+
+310
+00:41:52.380 --> 00:41:56.749
+Danno Ferrin: We would, if we're serious about this. We want a non github alternative for co-hosting
+
+311
+00:41:58.280 --> 00:42:05.539
+Gary Schulte: definitely. Just. I just want to get. I just want to get a battle plan to offer up before I raise this issue with the Tsc.
+
+312
+00:42:05.680 --> 00:42:09.509
+Danno Ferrin: So i'll think about it. You might write something in the Csc. Channel this week,
+
+313
+00:42:09.600 --> 00:42:13.639
+Danno Ferrin: because one of one of my concerns is
+
+314
+00:42:13.650 --> 00:42:34.180
+Gary Schulte: is, they might say, Well, we're We're all in on regulated um on regulated exchanges. So we really want to double down on commitment to regulation friendly people. And so there's one one concern I have is that some some of the the companies might say, Well, we like that. They're super aggressive. So that's one
+
+315
+00:42:34.190 --> 00:42:43.989
+Danno Ferrin: conflict I see is potentially. I don't know if that'll happen. But that's kind of the worst case scenario, by considering how odious the actions were.
+
+316
+00:42:44.450 --> 00:42:46.740
+Danno Ferrin: I think it's worth having the discussion
+
+317
+00:42:49.360 --> 00:43:07.430
+Justin Florentine: so real quick. Um! So going back to the actual actions themselves. Uh, you said that I had um an implementation there. My last uh familiarity with Github actions. Uh said you kind of had to run your own runners where you used Github's action runners.
+
+318
+00:43:07.440 --> 00:43:10.049
+Justin Florentine: Is there a centralization concern there?
+
+319
+00:43:11.080 --> 00:43:12.969
+Danno Ferrin: So um
+
+320
+00:43:13.450 --> 00:43:28.170
+Danno Ferrin: rye has a M. One, Mac, on his desk in his office that he runs a lot of the soling builds off of. We can specify external runners, or we can run it on Github and on their runners. It's about the same centralization risk as Circle Ci:
+
+321
+00:43:28.480 --> 00:43:29.549
+Justin Florentine: Yeah.
+
+322
+00:43:29.620 --> 00:43:31.290
+Justin Florentine: So okay,
+
+323
+00:43:31.300 --> 00:43:42.370
+Danno Ferrin: And i'll often look into that to get more comfortable with where the actual vendors live. So here's a thought experiment. Can we run? Build not on Ci, but on local machines, and verify it
+
+324
+00:43:42.380 --> 00:43:45.949
+Justin Florentine: right? That's what I've seen done in the past?
+
+325
+00:43:48.210 --> 00:43:56.420
+Danno Ferrin: So we're not beholden to us. To a Cdi provider. We can still run our builds. If Circle Ci suddenly decides. We hate cryptocurrency.
+
+326
+00:43:58.360 --> 00:44:05.290
+Gary Schulte: Not that you know, major hosts have decided suddenly No cryptocurrency hosting weeks before the merge
+
+327
+00:44:06.290 --> 00:44:07.960
+Danno Ferrin: just hypothetically
+
+328
+00:44:07.970 --> 00:44:09.509
+Gary Schulte: Right? Yeah,
+
+329
+00:44:10.150 --> 00:44:11.390
+Danno Ferrin: it hurts.
+
+330
+00:44:13.980 --> 00:44:16.959
+Gary Schulte: I mean, we've already had that research plan.
+
+331
+00:44:19.790 --> 00:44:26.919
+Danno Ferrin: But the stuff, Diego put in with the verified hashes, I think, is a step towards reproduced, fully reproducible builds,
+
+332
+00:44:27.340 --> 00:44:30.289
+Gary Schulte: and we have a need to do things like um
+
+333
+00:44:30.700 --> 00:44:38.859
+Danno Ferrin: not put dates in the jars to get fully reproducible jars, because that's one way that impacts the compilation.
+
+334
+00:44:39.340 --> 00:44:47.309
+Danno Ferrin: So that's that's That's past. We would go down if we see things deteriorate. So I think there's a path we can go down if if we need to.
+
+335
+00:44:51.600 --> 00:44:54.470
+Danno Ferrin: All right. This is gonna be like a whole initiative, which is cool.
+
+336
+00:44:54.480 --> 00:45:03.610
+Danno Ferrin: It is, but it's one of those things it's like we have to act, or do we have to be willing to act? You know one of those things. Are we willing to pull the trigger, or do we have to pull the trigger?
+
+337
+00:45:03.990 --> 00:45:15.009
+Gary Schulte: I don't think we have to pull the trigger until we do right. It's one of those inevitability is that, like once it happens. If it happens, it's sudden, and you're so well,
+
+338
+00:45:15.060 --> 00:45:20.709
+Gary Schulte: it's the difference between drafting a lawsuit and filing a lawsuit, and what you said to your party.
+
+339
+00:45:22.400 --> 00:45:25.369
+Justin Florentine: Yeah. Unfortunately, it's the same amount of work.
+
+340
+00:45:26.940 --> 00:45:28.089
+Danno Ferrin: Yeah,
+
+341
+00:45:29.420 --> 00:45:36.079
+Gary Schulte: thanks for agreeing to take that up with the Tsc. Then I think that is the kind of exposure that the topic needs.
+
+342
+00:45:40.110 --> 00:45:46.000
+Danno Ferrin: Let me capture this down uh in terms of my Github Um censorship
+
+343
+00:45:47.930 --> 00:45:49.339
+Danno Ferrin: phrase
+
+344
+00:46:10.710 --> 00:46:16.329
+Danno Ferrin: All right, ten minutes left. These are these American calls are quite busy compared to the Australian calls
+
+345
+00:46:17.730 --> 00:46:19.580
+Danno Ferrin: other business
+
+346
+00:46:19.590 --> 00:46:25.730
+Danno Ferrin: maintainer definition who's Sally Cream and Madeline Aren't on the call? He knows. What is this?
+
+347
+00:46:27.720 --> 00:46:29.660
+Justin Florentine: Um!
+
+348
+00:46:30.430 --> 00:46:47.890
+Gary Schulte: Oh, I think I think I have some context for that like um. The I think this is with relation to the validator program. Are we going to recognize non-code contributors non non-commit based contributions like
+
+349
+00:46:47.900 --> 00:47:06.450
+Gary Schulte: I know, Msian has done a lot of work regarding performance, investigation, discovery, and that type of work that has artifacts. But it's not specifically that work in any way. It is not specifically tied to commits that are trackable in that way like these.
+
+350
+00:47:06.460 --> 00:47:13.379
+Gary Schulte: It's not really a non-code contribution but in terms of the repository. It's a non-code contribution. So I think that that's what that conversation is about.
+
+351
+00:47:16.170 --> 00:47:17.290
+Danno Ferrin: Yeah,
+
+352
+00:47:17.300 --> 00:47:25.710
+Danno Ferrin: and that there's really one that needs. We have a Tim. And ef involved we need all parties on here, especially the decision-makers on it,
+
+353
+00:47:25.770 --> 00:47:31.020
+Danno Ferrin: because I remember some of the discord discussions I had, and there was a big focus on
+
+354
+00:47:31.470 --> 00:47:37.170
+Danno Ferrin: the people who make things work are the more important bits,
+
+355
+00:47:37.510 --> 00:47:40.120
+Danno Ferrin: you know. There was just Yeah, it was it.
+
+356
+00:47:40.280 --> 00:47:48.650
+Danno Ferrin: They went a lot of different directions, and the question is, what's the if willing to fund? So with that, Tim, it's not really discussion that much can be progressed on.
+
+357
+00:47:50.720 --> 00:47:57.159
+Gary Schulte: When do we do? We regularly meet with Tim for the Ef in general about the maintainers.
+
+358
+00:47:57.290 --> 00:47:58.189
+Gary Schulte: No,
+
+359
+00:47:58.200 --> 00:48:02.690
+there's an email thread that i'm on that there's another story that goes along with that I won't share.
+
+360
+00:48:02.700 --> 00:48:21.689
+Danno Ferrin: Um, that's if there's this occasion one days to come up there's not much that goes on with it, just you know. Hey, Can you get your agreements in, and there's no real like centralized discussion about it. Eventually, stuff's going to match me so, and I don't even know what the addresses of our of our validators are. I think that's one thing that I think should be shared. So all those room pretty well.
+
+361
+00:48:21.700 --> 00:48:25.230
+Gary Schulte: I have some updates in that regard.
+
+362
+00:48:26.590 --> 00:48:34.979
+Matt Nelson: Yeah. So the discussions with the Ef, like we we do need to finalize a lot of that stuff as far as agreements or concerns.
+
+363
+00:48:35.040 --> 00:48:44.079
+Matt Nelson: Unfortunately, it's one I've recalled that email thread which is kind of a complete mess at this point in time. We're waiting on some
+
+364
+00:48:44.870 --> 00:48:53.539
+Matt Nelson: hyper ledger legal to provide some comment back. If they have, I know we didn't know. I followed up on this last week, so if you
+
+365
+00:48:54.630 --> 00:49:11.090
+Matt Nelson: and if if if action is not with Hyper ledger, i'll make sure to kind of share with the group. Um. But in the short term we haven't even set up an address around the validator awards. So I also kind of kick started that process, and it will. It will be shared because we need to understand the requirements with the Ef one
+
+366
+00:49:11.100 --> 00:49:19.270
+Matt Nelson: and the split between hyper, ledger and consensus. At the same time, I think the Hyper Ledger Foundation will also need to set up their own
+
+367
+00:49:20.040 --> 00:49:24.720
+Danno Ferrin: like cold wallet situation. Um, it's not about this.
+
+368
+00:49:25.080 --> 00:49:26.209
+Danno Ferrin: I'm sorry
+
+369
+00:49:26.220 --> 00:49:28.689
+they'd know that they need to set it up for almost a year. So
+
+370
+00:49:28.700 --> 00:49:46.040
+Matt Nelson: yeah, So I think that the a lot of the actions are still a hyper ledger, and we will in the short term we will collect the rewards basically to a consensus address. But we can just send them in accordance with the agreement to wherever we need. And then, once we have an an address that's been out for age left, we can
+
+371
+00:49:46.110 --> 00:49:55.189
+Matt Nelson: start diving up their awards because their Ef. Is supposed to put in place a contract which automatically divvies up the rewards. But that doesn't work, if there's no
+
+372
+00:49:55.360 --> 00:49:58.369
+Matt Nelson: address, right? So we need um.
+
+373
+00:50:00.390 --> 00:50:02.580
+Danno Ferrin: It's back in the for the call. Guild splits.
+
+374
+00:50:02.640 --> 00:50:03.589
+Matt Nelson: What's that
+
+375
+00:50:03.600 --> 00:50:05.389
+Danno Ferrin: like the protocol that builds splits the
+
+376
+00:50:05.400 --> 00:50:06.189
+Matt Nelson: contract.
+
+377
+00:50:06.200 --> 00:50:25.959
+Matt Nelson: Yeah, there's there's gonna be a split contract. We need to get all the addresses finalized before we can actually put it in place. In the interim the the rewards will just be sent to an address owned by consensus, and we can just split the rewards of like on the day that the the splitter contract goes into effect. We can just split the rewards up to that point based on the contract.
+
+378
+00:50:25.970 --> 00:50:33.510
+Gary Schulte: Right? So more than just the splitter address I was. But just it, you know. I think I should add access to what the validator numbers are,
+
+379
+00:50:33.520 --> 00:50:43.790
+Gary Schulte: and we There's also in the contract discussions about um. If I needed to get access to the to the um the canary notes in case I need to debug something.
+
+380
+00:50:43.800 --> 00:51:01.059
+Matt Nelson: Yeah, we should discuss. We should set up a meeting with Fabio Um, Gary and the contributors, just so that we can take a look at what the architecture looks like right now. Um, because that's a good point like we want. The Canaries are in theory there for the project, right? So everyone should be able to have access. I think that we intended to have
+
+381
+00:51:01.930 --> 00:51:06.549
+Matt Nelson: like an open thing. But, Gary, we should just double-check on what that would look like.
+
+382
+00:51:06.560 --> 00:51:31.250
+Gary Schulte: So to clarify Dano, do you? Are you talking about access to the canary nodes that are like non-validating nodes, or just participating nodes Or are you more interested in having direct access to the the validator notes the the Ef incentive program validator notes, cause they're they're actually on separate separate authentications and separate separate networks are entirely isolated. So you can have access to either separately,
+
+383
+00:51:31.260 --> 00:51:35.289
+Danno Ferrin: Right? So the first thing is, I want to know what the validator addresses are.
+
+384
+00:51:35.300 --> 00:51:48.430
+Danno Ferrin: Um! What they do show up. If I were to go to be contained. I could look them up and say, Okay, they're happy, cool. Um. And you know we probably don't want to have that spread ranch. That would be Livington's maintainer than their um.
+
+385
+00:51:48.510 --> 00:51:50.200
+Danno Ferrin: What are we calling them
+
+386
+00:51:51.620 --> 00:51:54.090
+Danno Ferrin: uh payment or contributors, or whatever
+
+387
+00:51:54.100 --> 00:52:04.019
+Danno Ferrin: it may not code contributors to the patrons they should be aware of what those are. Those shouldn't necessarily be, you know, posted on, be contained Io. Or reconciliation.
+
+388
+00:52:04.030 --> 00:52:14.699
+Gary Schulte: But I think you know those who participated should be aware of what they are. But as far as the code access, it would only be the canary set that is actually participating in the network,
+
+389
+00:52:14.710 --> 00:52:29.890
+Gary Schulte: because there's one hundred and twenty eight that they're that we're judged against. And then there's thirty-two and they get the numbers right. There's more it's more than that? Um: yeah, it's one hundred and forty, four, total, one hundred and forty, four. Total, right? It's. Yeah, it's one one, or what's being a judge for performance.
+
+390
+00:52:29.900 --> 00:52:34.690
+Gary Schulte: Yeah. And then there's sixteen that are less tightly scrutinized.
+
+391
+00:52:34.700 --> 00:52:48.820
+Danno Ferrin: Yeah, the six sixteen are are, I think they call them the canaries, and the sixteen, I think is what the agreement says that if needed well, that that that the uh the Maintainer should have access to um on the presumption of good behavior. Um
+
+392
+00:52:48.830 --> 00:53:10.790
+Danno Ferrin: um you know I don't know how we would do that, but the the one hundred and twenty-eight it would be reasonable for the node operators to to lock down and say, we don't want to risk it. So I think that you know i'm not asking for the access, but just that there is a way to get it in case there is a change split and a needed but like slides, software. And that's really why I put that question in in case I need to get in there to something. That's why
+
+393
+00:53:10.800 --> 00:53:18.400
+Gary Schulte: I think that what confused me was the collision between the term canaries which you know historically is meant,
+
+394
+00:53:18.490 --> 00:53:28.590
+Gary Schulte: you know, just Ec: two Amazon nodes that are are canaries for different releases on different networks that are not necessarily have any kind of financial liability.
+
+395
+00:53:28.600 --> 00:53:37.190
+Gary Schulte: But yeah, okay, I see what you mean. Currently those I think all one hundred and forty four have the same access control methodologies. That's something. We should talk to Fabio about.
+
+396
+00:53:37.200 --> 00:53:40.209
+Gary Schulte: Yeah. But I mean, really, if there's a problem,
+
+397
+00:53:40.450 --> 00:53:44.550
+Gary Schulte: and there's a change. But I don't think we only want to have
+
+398
+00:53:44.780 --> 00:53:54.490
+Gary Schulte: you know, contributors with access to just the non, you know. Just there's sixteen. I don't know what to call them. I don't want to call them canaries, but I don't remember
+
+399
+00:53:54.500 --> 00:53:59.669
+Gary Schulte: have notes. They were. Yeah. So I think the contractor was written was that
+
+400
+00:53:59.980 --> 00:54:11.950
+Danno Ferrin: the the Node operator couldn't unreasonably deny access to the deaf nodes, but they could deny access to the one hundred and twenty-eight performance nodes without um on their own judgment. So I think that's what the distinguishment between those two were
+
+401
+00:54:11.960 --> 00:54:17.449
+Danno Ferrin: that a main net developer can say, no. I want access to this node to get a look at the log of Yadda Yadda,
+
+402
+00:54:17.460 --> 00:54:24.729
+Danno Ferrin: but at one hundred and twenty eight the Node operator had reasonable cause to say news performance. We're going to. We're going to lock it down to just our devops people.
+
+403
+00:54:24.740 --> 00:54:34.390
+Gary Schulte: Okay, we probably won't have any movement on that until next week, just because Fabio is out and he really is kind of like the the validators are He's really.
+
+404
+00:54:34.400 --> 00:54:42.589
+Gary Schulte: Yeah, it's his baby, and we're all well aware of it. It's not like he's a centralization risk, but he definitely is the subject matter expert.
+
+405
+00:54:42.600 --> 00:54:48.249
+Gary Schulte: I'm not worried about Flop. You go. I'm worried about some vegan cannonade accounting. So that's where my concerns are coming from.
+
+406
+00:54:48.260 --> 00:54:49.089
+Danno Ferrin: So
+
+407
+00:54:49.100 --> 00:54:51.790
+Danno Ferrin: yeah, some in Canada they have yet to hire an accounting.
+
+408
+00:54:53.600 --> 00:54:59.399
+Danno Ferrin: That's where my defense of this comes from. Is the future unknown of accountants and lawyers.
+
+409
+00:55:00.570 --> 00:55:08.570
+Gary Schulte: So so yeah, they're aware that we have a very unique circumstance, as far as like
+
+410
+00:55:08.890 --> 00:55:23.429
+Matt Nelson: consensus nonsense accounting goes like they're also aware that these this is to be like. We. They know what's going on with as far as these splits um to reiterate, though, for the group our performance period doesn't start until a couple months after withdrawals are enabled.
+
+411
+00:55:23.440 --> 00:55:32.679
+Matt Nelson: So we have kind of a long time before we're actually held liable for the performance of these validators. But it's something we should discuss when the time comes, because we
+
+412
+00:55:33.650 --> 00:55:38.040
+Matt Nelson: it's. Yeah, it's going to be a thing right, And it could happen sooner than we think.
+
+413
+00:55:38.270 --> 00:55:56.759
+Danno Ferrin: Should the performance metrics be a standing item in the we in the bi-weekly meetings they should be. They're pretty lenient um it's like ninety five percent participation which most of the basic nodes hover around. But again they hover right. So we need to make sure. Yeah, we we should add that
+
+414
+00:55:56.770 --> 00:56:14.299
+Danno Ferrin: starting probably in twenty twenty-three. Um, because Yeah, so it's it's. I believe the contract spells out some at some period of time following withdrawal enablement is when they'll let us know they'll let us know that it's happening. But we need to make sure that by that point in time that we're meeting the performance criterion, which is like
+
+415
+00:56:14.450 --> 00:56:24.130
+Matt Nelson: some of them are lenient, and some of them are not so lean. So we just need to make sure that we're hitting those targets and It should be kind of a stay-ending point of discussion, because we don't want to lose
+
+416
+00:56:25.120 --> 00:56:28.510
+The risk is just that we lose out on those validator
+
+417
+00:56:28.600 --> 00:56:31.450
+Matt Nelson: keys. Um. So we don't make it doesn't happen
+
+418
+00:56:35.590 --> 00:56:36.700
+Danno Ferrin: cool.
+
+419
+00:56:37.150 --> 00:56:43.790
+Danno Ferrin: I'm like for meeting. Are there any critical things I need to be talking about optimistic support or new editions? Or can those be rolled over to the
+
+420
+00:56:43.800 --> 00:56:46.839
+Danno Ferrin: I. These are olds. I don't.
+
+421
+00:56:46.850 --> 00:56:49.389
+Matt Nelson: But yeah, I think we covered everything we can.
+
+422
+00:56:49.930 --> 00:56:54.609
+Matt Nelson: I've been super bad about discussing the roadmap, but It's very
+
+423
+00:56:55.460 --> 00:56:58.469
+Matt Nelson: in flux right now. Um:
+
+424
+00:56:59.950 --> 00:57:08.449
+Danno Ferrin: yeah. And some of the pairing improvements and stuff are better served by the Oceania call, anyway, because they're done by that team.
+
+425
+00:57:09.330 --> 00:57:10.770
+Danno Ferrin: All right.
+
+426
+00:57:10.780 --> 00:57:11.759
+Danno Ferrin: There we go.
+
+427
+00:57:12.250 --> 00:57:18.009
+Danno Ferrin: Uh, Does it? Do we need a continuous call, or can we end it? Because I've got a meeting? I really need to get to.
+
+428
+00:57:18.650 --> 00:57:19.899
+Justin Florentine: We're good.
+
+429
+00:57:20.100 --> 00:57:21.370
+Gary Schulte: Yep. All good
+
+430
+00:57:21.670 --> 00:57:23.209
+Danno Ferrin: thanks for praying.
+
+431
+00:57:23.600 --> 00:57:26.829
+Gary Schulte: Thanks for coming, of course. Thank you.
+

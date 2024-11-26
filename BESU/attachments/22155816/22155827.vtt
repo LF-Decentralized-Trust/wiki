@@ -1,0 +1,610 @@
+WEBVTT
+
+1
+00:08:58.560 --> 00:09:00.560
+Francesco Andreoli: Algeria her inquiry.
+
+2
+00:09:01.630 --> 00:09:05.189
+Jiri Peinlich: He thinks he thinks. Are you big?
+
+3
+00:09:06.410 --> 00:09:08.340
+Francesco Andreoli: Good! How he's going?
+
+4
+00:09:09.890 --> 00:09:13.640
+Nicolas Massart: Hello, Francisco! A luxury!
+
+5
+00:09:14.070 --> 00:09:15.689
+Francesco Andreoli: Hey, Hey, Jim,
+
+6
+00:09:15.700 --> 00:09:16.950
+Ameziane Hamlat: You
+
+7
+00:09:19.280 --> 00:09:20.500
+Jiri Peinlich: it's
+
+8
+00:09:22.650 --> 00:09:23.970
+Nicolas Massart: I have you?
+
+9
+00:09:24.680 --> 00:09:27.200
+Fabio Di Fabio: Hello! Good morning!
+
+10
+00:09:27.730 --> 00:09:28.800
+Fabio Di Fabio: Good evening.
+
+11
+00:09:30.020 --> 00:09:33.180
+Francesco Andreoli: A number of times when you guys are
+
+12
+00:09:40.120 --> 00:09:41.990
+Jiri Peinlich: good time. Zone,
+
+13
+00:09:43.310 --> 00:09:44.850
+Francesco Andreoli: are you good vibes?
+
+14
+00:10:26.560 --> 00:10:28.570
+Francesco Andreoli: Do we know It's just didn't. Ah,
+
+15
+00:10:32.970 --> 00:10:34.270
+Francesco Andreoli: Charlie!
+
+16
+00:10:34.610 --> 00:10:38.290
+Fabio Di Fabio: Ah, Justin is sick. I think
+
+17
+00:10:38.300 --> 00:10:40.560
+Fabio Di Fabio: he brought that.
+
+18
+00:10:40.600 --> 00:10:46.179
+Fabio Di Fabio: I think so. So He and the family is six on. Probably
+
+19
+00:10:46.310 --> 00:10:48.129
+Fabio Di Fabio: it's not working today.
+
+20
+00:10:48.480 --> 00:10:50.079
+Fabio Di Fabio: See? That is
+
+21
+00:10:58.390 --> 00:11:01.849
+Fabio Di Fabio: Gary Getty's uh
+
+22
+00:11:02.610 --> 00:11:10.150
+Fabio Di Fabio: propped zero week. Of course I get automatic.
+
+23
+00:11:10.380 --> 00:11:11.580
+Fabio Di Fabio: It's.
+
+24
+00:11:11.590 --> 00:11:13.480
+Fabio Di Fabio: I also read the
+
+25
+00:11:13.490 --> 00:11:21.450
+Fabio Di Fabio: I brought something on a biscuit that is not joining. I know he's not going to join you, he said, on this code.
+
+26
+00:11:23.880 --> 00:11:25.659
+Francesco Andreoli: Oh, yeah, I see the message. Now
+
+27
+00:11:26.660 --> 00:11:29.789
+Francesco Andreoli: that's good. We can make make a one. Uh,
+
+28
+00:11:29.940 --> 00:11:35.980
+Francesco Andreoli: I would say, sure. But uh, yeah, welcome everybody to the call. Let me just
+
+29
+00:11:36.030 --> 00:11:37.349
+thank you.
+
+30
+00:11:44.840 --> 00:12:12.740
+Francesco Andreoli: And if you have any question and ah, I think Ah, general announcement, I put that one year because a couple of weeks ago we there we were the apology global for in Dublin, with Ah, with Matt and keen. Dan was over there. And yeah, I was was a good time. We had also like a boot where we literally I spoke with a bunch of other other ah maintainers, and we also had a good opportunity to fill out different different contact for
+
+31
+00:12:12.750 --> 00:12:19.850
+Francesco Andreoli: for us to to to see who is actually running a enterprise infrastructure.
+
+32
+00:12:20.490 --> 00:12:37.669
+Francesco Andreoli: Um! Let's move, I guess, like merge updates. I don't know, like I have always just seen there. But anybody want to give an update or have anything obviously in diverse happens. But I don't know there may be post-merge. Ah, post-merge work also on the basis side
+
+33
+00:12:37.910 --> 00:12:39.150
+Francesco Andreoli: we need to know.
+
+34
+00:12:39.160 --> 00:12:45.509
+Fabio Di Fabio: Yeah, I can start then, if anyone else want to add something else soon
+
+35
+00:12:45.640 --> 00:12:49.629
+Fabio Di Fabio: post-merge. So we did our release
+
+36
+00:12:49.940 --> 00:12:52.009
+Fabio Di Fabio: on the Fridays last week.
+
+37
+00:12:52.220 --> 00:12:58.329
+Fabio Di Fabio: To address some of the more
+
+38
+00:12:58.610 --> 00:13:01.750
+Fabio Di Fabio: annoying back. Also there
+
+39
+00:13:01.820 --> 00:13:04.690
+Fabio Di Fabio: bugs that were reported by
+
+40
+00:13:05.330 --> 00:13:13.399
+Fabio Di Fabio: many, user internally and externally like at the midst of the session timeouts
+
+41
+00:13:13.700 --> 00:13:16.380
+Fabio Di Fabio: and the empty blocks.
+
+42
+00:13:16.670 --> 00:13:26.139
+Fabio Di Fabio: There probably were also other optimizations related to the performance. For example,
+
+43
+00:13:31.570 --> 00:13:34.650
+Fabio Di Fabio: I have enough to
+
+44
+00:13:40.670 --> 00:13:46.339
+Fabio Di Fabio: optimized specifically for this kind of machine,
+
+45
+00:13:47.060 --> 00:13:52.959
+Fabio Di Fabio: And so this went out on Friday, and
+
+46
+00:13:53.190 --> 00:13:59.039
+Fabio Di Fabio: we had some good ah feedback on the
+
+47
+00:14:00.800 --> 00:14:08.909
+Fabio Di Fabio: the reduced number of error for the consensus layer less time out, and
+
+48
+00:14:09.340 --> 00:14:13.340
+Fabio Di Fabio: also some improvement in the
+
+49
+00:14:13.500 --> 00:14:14.750
+Fabio Di Fabio: ah
+
+50
+00:14:15.160 --> 00:14:18.880
+Fabio Di Fabio: at the session that were submitted.
+
+51
+00:14:18.940 --> 00:14:22.520
+Fabio Di Fabio: Uh, but these, as uh narrower
+
+52
+00:14:22.780 --> 00:14:23.960
+Fabio Di Fabio: it's
+
+53
+00:14:24.030 --> 00:14:30.730
+Fabio Di Fabio: an error. Let's say, a memory leak. That was Watson after the
+
+54
+00:14:36.150 --> 00:14:42.150
+Fabio Di Fabio: uh that cause the memory leak uh add more um
+
+55
+00:14:42.610 --> 00:14:46.479
+Fabio Di Fabio: three so more variable, and
+
+56
+00:14:47.650 --> 00:14:50.189
+Fabio Di Fabio: after, let's say some um,
+
+57
+00:14:50.200 --> 00:14:51.909
+Fabio Di Fabio: usually as
+
+58
+00:15:08.300 --> 00:15:10.809
+Fabio Di Fabio: to free the memory, but it was not a
+
+59
+00:15:10.880 --> 00:15:20.259
+Fabio Di Fabio: Of course we do. The memory leak. So after a day we start receiving we
+
+60
+00:15:20.970 --> 00:15:24.660
+Fabio Di Fabio: report about issue, but by so uh
+
+61
+00:15:24.770 --> 00:15:31.829
+Fabio Di Fabio: was not responsive, and so we identified um
+
+62
+00:15:32.360 --> 00:15:34.050
+Fabio Di Fabio: this problem
+
+63
+00:15:34.220 --> 00:15:39.810
+Fabio Di Fabio: on Sunday morning, you of time, and it
+
+64
+00:15:40.980 --> 00:15:45.820
+Fabio Di Fabio: so the the the fix for that was already a
+
+65
+00:15:55.870 --> 00:16:08.189
+Fabio Di Fabio: problem before, and the the Pr. Was not yet a single the unit test. We were not ready to integrate this in the doctrine.
+
+66
+00:16:10.580 --> 00:16:11.760
+Fabio Di Fabio: Get her
+
+67
+00:16:13.340 --> 00:16:24.740
+Fabio Di Fabio: during the weekend. The The fix has been finalized, and so we were able to
+
+68
+00:16:24.770 --> 00:16:33.529
+Fabio Di Fabio: verify that the memory leak, the fix for the memory, leak, work it, and the
+
+69
+00:16:35.030 --> 00:16:53.530
+Fabio Di Fabio: Erez agmoni and the best reasons were fine after that. So we started to communicate the user which was the problem and how to mitigate it. Not really a good mitigation, because basically they had to start when they had this problem.
+
+70
+00:16:54.260 --> 00:17:01.260
+Fabio Di Fabio: And so we started thinking about a not fix that we raised it yesterday. But
+
+71
+00:17:01.290 --> 00:17:09.750
+Fabio Di Fabio: so the dot, for also on the record of many users that were running the snapshot to
+
+72
+00:17:10.390 --> 00:17:22.589
+Fabio Di Fabio: were giving a good feedback on the fix. So we did that. There is also another
+
+73
+00:17:23.300 --> 00:17:26.959
+Fabio Di Fabio: Small speaks to make the
+
+74
+00:17:27.099 --> 00:17:34.249
+Fabio Di Fabio: new option that Asian added for high-speed instances
+
+75
+00:17:34.300 --> 00:17:35.620
+Fabio Di Fabio: to work
+
+76
+00:17:35.660 --> 00:17:44.189
+Fabio Di Fabio: also if this specified in the configuration file, and not only on the command line, so it's very small one,
+
+77
+00:17:44.200 --> 00:17:57.320
+Fabio Di Fabio: and that fix actually has only this two ah fixes, and after the release of dot four this God is much more quiet, and
+
+78
+00:17:57.340 --> 00:18:00.999
+Fabio Di Fabio: we are not seeing, say,
+
+79
+00:18:01.370 --> 00:18:11.969
+Fabio Di Fabio: about the that is not responsive. Of course there are still other issue opened
+
+80
+00:18:12.170 --> 00:18:13.880
+Fabio Di Fabio: more
+
+81
+00:18:23.500 --> 00:18:26.849
+Fabio Di Fabio: with one hundred percent success like
+
+82
+00:18:26.940 --> 00:18:37.459
+Fabio Di Fabio: before, like other clients, do so. And we need to improve when that part. This is mainly related to the
+
+83
+00:18:38.460 --> 00:18:46.890
+Fabio Di Fabio: blocking for times that when they takes more than very few seconds they could go.
+
+84
+00:18:46.960 --> 00:18:54.380
+Fabio Di Fabio: Course timeouts in the consensus ray. Your client and the consensus are your client.
+
+85
+00:19:00.660 --> 00:19:13.760
+Fabio Di Fabio: And so this is uh something that can cause uh, i'm missing at the session or at the session. That is not the testing there.
+
+86
+00:19:14.760 --> 00:19:21.079
+Fabio Di Fabio: The the very last ad since the block is taking too much
+
+87
+00:19:21.280 --> 00:19:22.490
+Fabio Di Fabio: bought themselves.
+
+88
+00:19:22.500 --> 00:19:25.979
+Fabio Di Fabio: Um, I don't know if I missed something, please. Uh
+
+89
+00:19:27.660 --> 00:19:32.940
+Fabio Di Fabio: i'm a jury. Please add something if I miss him,
+
+90
+00:19:32.970 --> 00:19:35.989
+Fabio Di Fabio: that's all. I think.
+
+91
+00:19:42.380 --> 00:19:47.789
+Francesco Andreoli: Um, The Member League was also on the weekends right a bunch of messages on that.
+
+92
+00:19:47.800 --> 00:19:49.990
+Fabio Di Fabio: Yes, it was on the weekend,
+
+93
+00:19:50.000 --> 00:19:54.209
+Fabio Di Fabio: because it's it to appear after one day
+
+94
+00:19:54.650 --> 00:19:59.820
+Fabio Di Fabio: it it was dependent on the amount of
+
+95
+00:20:00.780 --> 00:20:04.959
+Fabio Di Fabio: Java. You reserve it to be so. But usually, after one day
+
+96
+00:20:05.000 --> 00:20:08.180
+Fabio Di Fabio: users started to complain. So yes,
+
+97
+00:20:09.700 --> 00:20:24.420
+Francesco Andreoli: okay, cool. Uh, if there are no other uh updates. Uh, I think Matt was starting the call on a discussion proposal. I don't know. Do we know if there are some, or anybody have an idea? If it is a slash? Where
+
+98
+00:20:24.720 --> 00:20:35.600
+Francesco Andreoli: uh we're maintained? Because I remember, like he pushed um a wiki page. I don't know. Maybe there were some people like having an update on this last week.
+
+99
+00:20:36.110 --> 00:20:38.319
+Francesco Andreoli: Do not? We just want him for the next time
+
+100
+00:20:41.270 --> 00:20:43.990
+Francesco Andreoli: a cool um.
+
+101
+00:20:50.390 --> 00:20:52.679
+Francesco Andreoli: Anybody want to jump on this,
+
+102
+00:20:57.780 --> 00:21:01.100
+Francesco Andreoli: You know. We I think, concerned about Kit.
+
+103
+00:21:01.200 --> 00:21:04.530
+Francesco Andreoli: It obsesses she will race, or with the alternative gitlab.
+
+104
+00:21:04.950 --> 00:21:08.269
+Francesco Andreoli: That's probably a Matt's topic.
+
+105
+00:21:17.530 --> 00:21:22.130
+Francesco Andreoli: Doesn't look like the next top. It was the Java seventeen migration
+
+106
+00:21:22.150 --> 00:21:27.330
+Francesco Andreoli: that was awesome. That's it all. I think that was a topic also from that.
+
+107
+00:21:34.130 --> 00:21:35.740
+Then
+
+108
+00:21:36.670 --> 00:21:45.029
+Francesco Andreoli: I think something is building the petition miracle certificate out a bit with within Java. I don't know anybody wrote this, or is still in all the
+
+109
+00:21:45.450 --> 00:21:47.179
+Francesco Andreoli: an old to be permit
+
+110
+00:21:56.620 --> 00:21:59.740
+Ameziane Hamlat: Many responsive ever exist.
+
+111
+00:21:59.750 --> 00:22:03.150
+Ameziane Hamlat: I I I think there are some old um.
+
+112
+00:22:03.300 --> 00:22:08.979
+Ameziane Hamlat: It's not probably all right. Yeah actions and Java Seventeen, for example, are,
+
+113
+00:22:09.070 --> 00:22:14.079
+Ameziane Hamlat: I think they are already discussed last time. Okay, sounds good. Yeah.
+
+114
+00:22:14.710 --> 00:22:19.370
+Ameziane Hamlat: And for the also, I guess. Also the Maintainer's definition.
+
+115
+00:22:19.380 --> 00:22:21.429
+Ameziane Hamlat: She organized non-code contribution.
+
+116
+00:22:26.210 --> 00:22:31.909
+Francesco Andreoli: Nice. Okay. Cool. So no sounds good. It's definitely like a good point also to uh
+
+117
+00:22:32.350 --> 00:22:43.780
+Francesco Andreoli: make up. And then in terms of Roadmap Review. Optimistic support. Let's keep. I remember, Nicola, you had a
+
+118
+00:22:44.060 --> 00:22:48.430
+Francesco Andreoli: You had a comment, not for this, for another topic.
+
+119
+00:22:49.460 --> 00:22:50.959
+Francesco Andreoli: Do you remember what it
+
+120
+00:22:51.810 --> 00:22:53.220
+Francesco Andreoli: cathedral,
+
+121
+00:22:57.250 --> 00:23:03.450
+Nicolas Massart: just like you check. Yeah, It was perhaps discussion on about hot-fixed release processes.
+
+122
+00:23:03.820 --> 00:23:04.960
+Francesco Andreoli: It's.
+
+123
+00:23:05.120 --> 00:23:15.229
+Nicolas Massart: Yeah, that's. That's this. You're right, because we had this discussion in the release channel, one on the discord, and because we had some
+
+124
+00:23:15.270 --> 00:23:19.620
+Nicolas Massart: uh issues agreeing, you know, with each other, Maybe it would be good to
+
+125
+00:23:21.250 --> 00:23:27.099
+Nicolas Massart: yeah fully state what we can do outside of the regular releases.
+
+126
+00:23:27.290 --> 00:23:28.620
+Francesco Andreoli: Yes,
+
+127
+00:23:34.100 --> 00:23:39.130
+Nicolas Massart: yeah, Probably because we we need more people to discuss that than myself.
+
+128
+00:23:40.490 --> 00:23:50.830
+Francesco Andreoli: Sounds good. Looks like It's a short one today, any other. I don't know discussion. You want to give the team an update or any extra topics.
+
+129
+00:23:54.860 --> 00:23:57.690
+Francesco Andreoli: You're one. Oh, there you go go for it.
+
+130
+00:23:58.560 --> 00:24:14.450
+Diego López León: Yeah, I'm: just okay, everybody. I I join a bit later to the to the meeting. But I want to know if there is some plan for the upcoming releases. I mean, if the next one will be of May, or if there is some other code
+
+131
+00:24:14.640 --> 00:24:17.510
+Diego López León: that fix uh on on queue
+
+132
+00:24:20.350 --> 00:24:21.740
+Fabio Di Fabio: I
+
+133
+00:24:23.660 --> 00:24:32.420
+Fabio Di Fabio: We yesterday. Actually, we released it from rain because Dot three was released from me and
+
+134
+00:24:32.460 --> 00:24:35.179
+Fabio Di Fabio: main there were only
+
+135
+00:24:35.570 --> 00:24:45.360
+Fabio Di Fabio: they ought to fix. Basically So we simplified, and the release of the full domain. We don't have any current
+
+136
+00:24:45.440 --> 00:24:46.980
+Fabio Di Fabio: upfix
+
+137
+00:24:53.970 --> 00:25:00.780
+Fabio Di Fabio: the chat. I don't see any outfix pending, so I think the next one. We
+
+138
+00:25:01.410 --> 00:25:04.690
+Fabio Di Fabio: Ah, we be by a scheduled
+
+139
+00:25:06.360 --> 00:25:11.810
+Diego López León: Okay, awesome. And what's the date? I mean, It's like in two weeks from now.
+
+140
+00:25:13.970 --> 00:25:19.559
+Fabio Di Fabio: Yeah, Usually the the the schedule is. So every two weeks are not wrong. Okay,
+
+141
+00:25:20.440 --> 00:25:21.190
+Diego López León: he.
+
+142
+00:25:21.200 --> 00:25:24.319
+Diego López León: So dot five will be of main. Hopefully.
+
+143
+00:25:25.030 --> 00:25:28.279
+Fabio Di Fabio: Yeah, yeah, I think so. Um.
+
+144
+00:25:28.760 --> 00:25:39.609
+Fabio Di Fabio: But in any case we can discuss this in the Channel if something different will happen during this time. Frame.
+
+145
+00:25:40.890 --> 00:25:41.890
+Diego López León: Okay,
+
+146
+00:25:41.900 --> 00:25:42.770
+thank you.
+
+147
+00:25:57.760 --> 00:25:59.740
+Francesco Andreoli: How do they?
+
+148
+00:26:01.290 --> 00:26:03.640
+Francesco Andreoli: Awesome, good guys? It was a short one.
+
+149
+00:26:03.670 --> 00:26:05.390
+Francesco Andreoli: And yeah
+
+150
+00:26:05.400 --> 00:26:07.629
+Francesco Andreoli: uh, then i'll chat you next time.
+
+151
+00:26:09.400 --> 00:26:11.249
+Nicolas Massart: Keep up the good word thing.
+
+152
+00:26:11.490 --> 00:26:14.699
+Fabio Di Fabio: Thank you, bye, bye, Thank you.
+

@@ -1,0 +1,746 @@
+WEBVTT
+
+1
+00:01:02.930 --> 00:01:04.989
+Gabriel Trintinalia: I saw it.
+
+2
+00:01:19.270 --> 00:01:20.730
+Sally MacFarlane: We'll give everyone a few
+
+3
+00:01:20.960 --> 00:01:21.830
+minutes to join
+
+4
+00:01:22.280 --> 00:01:23.150
+Gabriel Trintinalia: by. Then
+
+5
+00:01:23.280 --> 00:01:25.690
+Sally MacFarlane: we'll give everyone a few more minutes to join.
+
+6
+00:01:25.860 --> 00:01:26.850
+Gabriel Trintinalia: Yeah, sure.
+
+7
+00:01:27.460 --> 00:01:28.679
+Share my screen.
+
+8
+00:01:30.540 --> 00:01:32.000
+Sally MacFarlane: The agenda.
+
+9
+00:02:40.820 --> 00:02:42.860
+Simon (siladu): Hi, Simon!
+
+10
+00:02:43.020 --> 00:02:44.340
+Gabriel Trintinalia: It's time on!
+
+11
+00:02:44.490 --> 00:02:45.379
+Simon (siladu): There they go!
+
+12
+00:02:50.250 --> 00:02:53.260
+Sally MacFarlane: We might kick off, and like
+
+13
+00:02:54.540 --> 00:02:56.550
+Sally MacFarlane: one more minute.
+
+14
+00:03:29.120 --> 00:03:31.380
+Sally MacFarlane: I can't buy my clock. That's one moment
+
+15
+00:03:32.690 --> 00:03:34.240
+I will start
+
+16
+00:03:34.410 --> 00:03:36.570
+Sally MacFarlane: So
+
+17
+00:03:37.700 --> 00:03:40.789
+Sally MacFarlane: I am already sharing my screen. Yes,
+
+18
+00:03:40.910 --> 00:03:49.110
+Sally MacFarlane: agenda housekeeping first off the and I just notice everyone on the call should be already familiar with that. If you're not at the link
+
+19
+00:03:49.730 --> 00:03:57.930
+Sally MacFarlane: anything recorded me just I think we need to worry about the right hand.
+
+20
+00:03:58.150 --> 00:04:00.020
+It's only a handful of people on the call
+
+21
+00:04:00.270 --> 00:04:05.309
+Sally MacFarlane: feel free to interrupt me if you have a question comment.
+
+22
+00:04:06.340 --> 00:04:09.730
+Sally MacFarlane: general announcement, I don't have any.
+
+23
+00:04:09.860 --> 00:04:13.250
+Sally MacFarlane: Does anyone on the call have any general announcement?
+
+24
+00:04:16.790 --> 00:04:18.680
+Simon (siladu):  hmm.
+
+25
+00:04:19.180 --> 00:04:21.709
+Sally MacFarlane: okay,
+
+26
+00:04:22.130 --> 00:04:23.470
+Sally MacFarlane: the roadmap.
+
+27
+00:04:24.200 --> 00:04:27.850
+Sally MacFarlane: I actually don't know, if that's been updated recently.
+
+28
+00:04:32.100 --> 00:04:38.580
+Sally MacFarlane: I think at the moment we're all about. And
+
+29
+00:04:40.610 --> 00:04:42.629
+Sally MacFarlane: yeah, I think that's fairly up today.
+
+30
+00:04:51.760 --> 00:04:55.440
+Sally MacFarlane: okay, release updates, we might actually.
+
+31
+00:04:58.020 --> 00:05:03.000
+Sally MacFarlane: I was, gonna say, skip that and move on wedding for stuff on his doing the ben in. But
+
+32
+00:05:03.220 --> 00:05:15.730
+Sally MacFarlane: we can probably do the updated way. So 23, 4, 2 that, and then on Friday as I understand it, there's an issue with the spot database
+
+33
+00:05:16.460 --> 00:05:23.469
+Sally MacFarlane:  new feature. So there was a no corner exception that fixes already gone in for that this morning.
+
+34
+00:05:23.820 --> 00:05:30.139
+Sally MacFarlane: So the plan is to restart like start an event. And basically
+
+35
+00:05:30.770 --> 00:05:32.160
+Sally MacFarlane: because.
+
+36
+00:05:33.650 --> 00:05:39.369
+Sally MacFarlane: as I, my understanding is that we really want that database to be the
+
+37
+00:05:39.510 --> 00:05:40.839
+Sally MacFarlane: so
+
+38
+00:05:41.600 --> 00:05:46.950
+Sally MacFarlane: key feature in this new release. So without the flat database in those behind an experimental
+
+39
+00:05:47.490 --> 00:05:48.410
+Sally MacFarlane: right
+
+40
+00:05:49.000 --> 00:05:53.040
+Sally MacFarlane: we kind of want that in the release. So we're starting a new burning
+
+41
+00:05:55.510 --> 00:05:58.549
+Sally MacFarlane: today. Any comments on that.
+
+42
+00:06:00.460 --> 00:06:02.779
+Simon (siladu): I think it's
+
+43
+00:06:03.140 --> 00:06:09.770
+Simon (siladu): I. I I'm not too familiar with it. Yeah, but I think it's it's the heel mechanism for the flat database
+
+44
+00:06:10.240 --> 00:06:11.370
+Simon (siladu): rather than
+
+45
+00:06:11.600 --> 00:06:13.550
+Simon (siladu): well, so it's like.
+
+46
+00:06:13.870 --> 00:06:17.290
+Simon (siladu): I think we we've always had the flat database, but it's
+
+47
+00:06:18.100 --> 00:06:21.520
+Simon (siladu): I guess, filling, filling it to
+
+48
+00:06:21.880 --> 00:06:25.350
+Simon (siladu): pretty complete. I think his boss this is doing
+
+49
+00:06:25.470 --> 00:06:26.610
+Sally MacFarlane: right. Gotcha
+
+50
+00:06:26.860 --> 00:06:30.689
+Simon (siladu): but yeah, it looks like it was
+
+51
+00:06:30.800 --> 00:06:36.850
+Simon (siladu): some kind of refactoring was done. This is feature toggle, but there was some refactoring done
+
+52
+00:06:37.930 --> 00:06:51.030
+Simon (siladu): that affected the when the feature was off as well, and that was where the bug was and I think it was. I think there's a point around this around how we
+
+53
+00:06:51.420 --> 00:07:06.790
+Simon (siladu): like review and test Pr, especially big ones. I think what might have happened here is that it was, like all tested, thoroughly tested, and reviewed, and stuff. But then changes remained as a result of the review.
+
+54
+00:07:07.070 --> 00:07:14.280
+Simon (siladu): and some of the re testing was missed. I with the featured like. Oh.
+
+55
+00:07:14.360 --> 00:07:16.330
+Simon (siladu): So I think
+
+56
+00:07:17.780 --> 00:07:25.400
+Simon (siladu): I I mean, ultimately he. The proposal about the change to the release process. But it's
+
+57
+00:07:26.880 --> 00:07:33.969
+Simon (siladu): I think it's it's very owners to have to retest everything. Why not?
+
+58
+00:07:34.140 --> 00:07:39.959
+Simon (siladu): So? I think 1 one thing we could do in the short term is.
+
+59
+00:07:40.190 --> 00:07:52.830
+Simon (siladu): maybe we do most of the Co review before most of the testing, if that makes sense. But you you probably always gonna have to do some some manual test to make sure you think you're ready?
+
+60
+00:07:52.970 --> 00:07:56.890
+Simon (siladu): but maybe we should kind of
+
+61
+00:07:57.090 --> 00:08:02.650
+Simon (siladu): default to like getting the code ready to review before we do like the most extensive
+
+62
+00:08:03.250 --> 00:08:04.809
+Simon (siladu): portion of the test
+
+63
+00:08:06.720 --> 00:08:12.429
+Simon (siladu): that my output I I mean, this is all kind of some ad hoc, and there's no
+
+64
+00:08:12.790 --> 00:08:18.470
+Simon (siladu): all right official process around it, anyway. But it's with probably mentioning in chat about really
+
+65
+00:08:18.600 --> 00:08:27.800
+Simon (siladu):  so like, I guess it's relevant, if like, if you're reviewing the Pr and asking about the testing and stuff like this
+
+66
+00:08:27.990 --> 00:08:41.159
+Simon (siladu): which I've done before, like I think it's probably worth. Be in mind that maybe we should test at the end just before merge, because 1 one small line could break everything.
+
+67
+00:08:41.400 --> 00:08:43.140
+Simon (siladu): the
+
+68
+00:08:44.510 --> 00:08:47.569
+Sally MacFarlane: yeah, it's it's a fair point.
+
+69
+00:08:49.980 --> 00:08:57.440
+Sally MacFarlane: I I'd really like to see more of this automated, because I feel like as long as it's manual. And we're relying on, you know, individual
+
+70
+00:08:59.540 --> 00:09:04.200
+Sally MacFarlane: individuals to to always do the right thing. It's just it's just error. Prime.
+
+71
+00:09:04.440 --> 00:09:12.410
+Simon (siladu): Exactly. Yeah. And and this is well, I I guess. Might as well talk about it. It's kind of related to
+
+72
+00:09:13.210 --> 00:09:27.109
+Simon (siladu): what I'm trying to get out with the burning process changing the is that we like we we are effectively relying on the burning process. Cache things like this which it did, which is good.
+
+73
+00:09:27.430 --> 00:09:31.429
+Simon (siladu): What that means is especially the fact that it was over. The weekend
+
+74
+00:09:31.750 --> 00:09:37.389
+Simon (siladu): means that I think like a release cycle. Well,
+
+75
+00:09:37.510 --> 00:09:52.399
+Simon (siladu): the time, what's the word like lead time for for completing a piece is actually because of that. And I think we got quite lucky with this one. It it was really obvious which committed it was because of the that trace. But
+
+76
+00:09:52.540 --> 00:10:00.939
+Simon (siladu): I think if you have, you know, multiple commits or maybe doing, but it changes. And now.
+
+77
+00:10:01.400 --> 00:10:08.940
+Simon (siladu): relying on the not that they are overlying. But you know, I mean if if you
+
+78
+00:10:09.190 --> 00:10:19.740
+Simon (siladu): and they can be caught. difficult to to find the issue. So basically long winded way of saying, I agree with you, I think we should put time into.
+
+79
+00:10:20.620 --> 00:10:25.650
+Simon (siladu): That's a regression test, which is kind of the point of
+
+80
+00:10:25.720 --> 00:10:27.029
+proposal as well.
+
+81
+00:10:30.960 --> 00:10:33.820
+Sally MacFarlane: So the proposal you're talking about is this one.
+
+82
+00:10:33.910 --> 00:10:34.990
+Simon (siladu): But the
+
+83
+00:10:37.320 --> 00:10:39.769
+Simon (siladu): so yeah,
+
+84
+00:10:41.390 --> 00:10:47.250
+Simon (siladu): maybe I should wait till we get to that.
+
+85
+00:10:48.440 --> 00:10:52.340
+Simon (siladu): Yeah. But basically, I think where we are with this is that
+
+86
+00:10:52.810 --> 00:10:56.609
+Simon (siladu): I don't think this too much puts push back around.
+
+87
+00:10:57.510 --> 00:11:03.039
+Simon (siladu): replacing the quarterly releases with a deprecation policy.
+
+88
+00:11:03.600 --> 00:11:13.030
+Simon (siladu): so I think I'd be happy to kind of do the final call for that bit and and start actioning that after maybe the next
+
+89
+00:11:13.160 --> 00:11:23.300
+Simon (siladu): one of these calls in the other times, and just get one final chance. That piece of it, I think, is is good to go
+
+90
+00:11:23.590 --> 00:11:25.800
+Simon (siladu): and then also
+
+91
+00:11:25.830 --> 00:11:32.569
+Simon (siladu): suggesting about effectively, well, keeping the main that's release full of it says that which would mean
+
+92
+00:11:32.770 --> 00:11:37.959
+Simon (siladu): like. you don't really need a burning, because all the testing has happened before main.
+
+93
+00:11:39.620 --> 00:11:47.930
+Simon (siladu): Not really. We can't obviously do that right away. I think it's too error to to rely on
+
+94
+00:11:48.120 --> 00:11:51.889
+Simon (siladu): the testing and retesting and stuff in Prs to happen.
+
+95
+00:11:52.060 --> 00:11:59.029
+Simon (siladu): I do agree. There was some pushback about, not for me. But I'm processed. I do agree with that.
+
+96
+00:11:59.060 --> 00:12:02.860
+Simon (siladu): but I think it'd be good to get like a commitment.
+
+97
+00:12:03.030 --> 00:12:08.120
+Simon (siladu): But the direction we want to move in is to replace the burning with regression tests.
+
+98
+00:12:10.490 --> 00:12:20.989
+Sally MacFarlane: Yeah, I I like the idea of having the regression tests that would be run on every Pr that would make sure. Yeah, there's no regressions, basically
+
+99
+00:12:21.380 --> 00:12:23.859
+Sally MacFarlane: and then that would definitely
+
+100
+00:12:25.790 --> 00:12:32.859
+Sally MacFarlane: reduce the number of errors that the burning might catch, and maybe maybe it would. Totally.
+
+101
+00:12:33.490 --> 00:12:40.860
+Sally MacFarlane: I don't know. I feel like they they kind of 2 different questions. But yeah, I hey. yeah.
+
+102
+00:12:42.750 --> 00:12:51.379
+Simon (siladu): yeah, it's all about the speed of the feedback L, really, and the but it is quite a reliable and catching some, a lot of bugs.
+
+103
+00:12:51.520 --> 00:13:04.420
+Simon (siladu): Yeah, but it when when something does happen like this, then you see how kind of painfully so it is because it's going to be, you know. Basically a week it's taken. It will have taken us to release by the end of the second round.
+
+104
+00:13:14.090 --> 00:13:18.799
+Sally MacFarlane: Yes. So then, what are the next steps?
+
+105
+00:13:22.110 --> 00:13:27.380
+Simon (siladu): so yeah, it would be good to get kind of point
+
+106
+00:13:27.830 --> 00:13:33.729
+Simon (siladu): purple agreement. But people who are interested to that like we're looking towards.
+
+107
+00:13:34.370 --> 00:13:38.949
+Simon (siladu):  we that every question test and like
+
+108
+00:13:38.960 --> 00:13:43.070
+Simon (siladu): definitely, not in the very back, I guess, would be the the end goal. With that
+
+109
+00:13:43.160 --> 00:13:59.509
+Simon (siladu):  and yeah, we could trial the application. That is thing. As soon as kind of everyone agrees, I guess, but I guess the next step is to not do the next call to the release
+
+110
+00:14:00.490 --> 00:14:06.689
+Simon (siladu): and maybe update the change log with any breaking changes that would have gone in there
+
+111
+00:14:07.760 --> 00:14:19.949
+Simon (siladu): and decide how long they need to be. We need to wait. I think it's what I put in this suggested policy that everybody. you know it's made up to the to decide how long we should wait
+
+112
+00:14:20.120 --> 00:14:23.260
+Simon (siladu): for that change that they want to make.
+
+113
+00:14:28.980 --> 00:14:34.030
+Simon (siladu): So yeah, so formalizing the suggested policy, I guess would be kind of the next step in that. And then.
+
+114
+00:14:38.590 --> 00:14:41.329
+Sally MacFarlane: okay, so
+
+115
+00:14:42.400 --> 00:14:46.729
+Sally MacFarlane: sorry did I miss any next steps. I think it would be good to sort of
+
+116
+00:14:46.990 --> 00:14:49.730
+Simon (siladu): they not catches it. Yeah. Yeah.
+
+117
+00:14:50.870 --> 00:14:52.220
+Sally MacFarlane: Okay. Cool.
+
+118
+00:14:52.610 --> 00:14:53.460
+Sally MacFarlane: Awesome.
+
+119
+00:14:56.830 --> 00:15:00.780
+Sally MacFarlane:  Okay. We might go back up to
+
+120
+00:15:01.860 --> 00:15:02.730
+to leave.
+
+121
+00:15:03.690 --> 00:15:06.149
+Sally MacFarlane: Okay, any anyone comment on the release.
+
+122
+00:15:08.420 --> 00:15:15.710
+Sally MacFarlane: Simon, you did the last release. Do you know, can we update the 23, 4 to release that we already
+
+123
+00:15:16.770 --> 00:15:21.909
+Sally MacFarlane: sort of started? Or do we need to? Does the next one need to be 23
+
+124
+00:15:22.310 --> 00:15:26.410
+Sally MacFarlane: like, can we? Can we patch this really? So doing. Into just go the next one.
+
+125
+00:15:26.840 --> 00:15:32.810
+Simon (siladu):  good question. I think technically, you can
+
+126
+00:15:33.040 --> 00:15:39.089
+Simon (siladu):  think, maybe when this is happening in the past, we bump the version.
+
+127
+00:15:39.430 --> 00:15:47.359
+Sally MacFarlane: Yeah, I feel like it's clear out if we just bump the version, and we say 23, four-two bio, and then the next one's 23, 4, 3.
+
+128
+00:15:49.270 --> 00:15:56.119
+Simon (siladu): I it. Yeah, it won't avoid any any issues, for sure it's not too much that. But
+
+129
+00:15:56.730 --> 00:16:01.789
+Simon (siladu): yeah, I let me take that offline and double check. But
+
+130
+00:16:02.400 --> 00:16:16.210
+Simon (siladu): yeah, I don't know if it's really a huge issue if we can announce it. But it's, you know, technically, people might have pulled the code already, and it's a change from them which isn't great, maybe especially on the docket guys.
+
+131
+00:16:16.590 --> 00:16:17.350
+Sally MacFarlane: Yes.
+
+132
+00:16:17.850 --> 00:16:21.239
+Sally MacFarlane: okay, cool. Thank you. Yeah. I will confirm off on.
+
+133
+00:16:21.540 --> 00:16:27.710
+Sally MacFarlane: okay. So next item on the agenda is about 4 or 4,
+
+134
+00:16:27.770 --> 00:16:30.679
+Sally MacFarlane: the embryo, do you want to give a quick update on that?
+
+135
+00:16:31.080 --> 00:16:32.760
+Gabriel Trintinalia: Yeah.
+
+136
+00:16:33.000 --> 00:16:39.979
+Gabriel Trintinalia: the majority of desks are implemented like the outstanding desks that we had for 7. At 6
+
+137
+00:16:42.070 --> 00:16:46.160
+the pr is marked as ready for reveal.
+
+138
+00:16:46.720 --> 00:16:49.859
+Gabriel Trintinalia: I think the goal is to merge that into main.
+
+139
+00:16:53.120 --> 00:17:00.839
+Gabriel Trintinalia: and the next 6 doesn't seem to be as it's more as it was supposed to be.
+
+140
+00:17:01.260 --> 00:17:04.179
+Gabriel Trintinalia: there were some issues there, and
+
+141
+00:17:04.780 --> 00:17:08.869
+Gabriel Trintinalia: apparently they are kind of different, for its clients are following different forks.
+
+142
+00:17:09.630 --> 00:17:12.590
+Gabriel Trintinalia: But it's being investigated.
+
+143
+00:17:17.690 --> 00:17:21.340
+Sally MacFarlane: And the. it's not just basic right.
+
+144
+00:17:21.890 --> 00:17:25.379
+Gabriel Trintinalia: I don't think it's just based on yes. Now.
+
+145
+00:17:25.910 --> 00:17:27.349
+Sally MacFarlane: yeah. Cool
+
+146
+00:17:27.569 --> 00:17:29.890
+Sally MacFarlane: the way keeping up. Oh, no.
+
+147
+00:17:30.520 --> 00:17:33.510
+Sally MacFarlane: that you know, we're on part with the other clients at the moment.
+
+148
+00:17:33.980 --> 00:17:36.540
+Gabriel Trintinalia: Yeah, yeah, I think we are
+
+149
+00:17:37.260 --> 00:17:37.970
+Sally MacFarlane: cool.
+
+150
+00:17:39.360 --> 00:17:46.669
+Gabriel Trintinalia: Justin is going to investigate on his back tonight.
+
+151
+00:17:47.850 --> 00:17:49.040
+Sally MacFarlane: Okay, cool.
+
+152
+00:17:50.460 --> 00:17:54.439
+Sally MacFarlane: so other business. We kind of covered the
+
+153
+00:17:54.490 --> 00:17:56.690
+Sally MacFarlane: avoid cherry page released
+
+154
+00:17:58.070 --> 00:17:59.980
+Sally MacFarlane: process.
+
+155
+00:18:00.230 --> 00:18:05.940
+Sally MacFarlane: So the next one on the agenda is the debug log improvement proposal.
+
+156
+00:18:07.530 --> 00:18:10.529
+Sally MacFarlane:  I think I have that?
+
+157
+00:18:11.040 --> 00:18:14.800
+Sally MacFarlane: Yeah. So this one is just about basically
+
+158
+00:18:15.330 --> 00:18:20.570
+Sally MacFarlane: making debug level logging use, actually useful for people who are trying to debug stuff. Right?
+
+159
+00:18:20.710 --> 00:18:37.340
+Simon (siladu): Yeah, I I haven't had any kind of disagreement with this. in principle like it might be a big. I just kind of repeat this here to to in this. More people see it, and
+
+160
+00:18:37.350 --> 00:18:40.429
+Simon (siladu): nicely, Charlotte, if you go any objections, and
+
+161
+00:18:40.540 --> 00:18:44.759
+Simon (siladu): as well and hopefully we can.
+
+162
+00:18:44.970 --> 00:18:50.730
+Simon (siladu): I think it's the kind of the fiscal policy. And then we kind of try and stick to this.
+
+163
+00:18:51.530 --> 00:18:54.239
+Sally MacFarlane: Yeah, I I think that might be
+
+164
+00:18:55.200 --> 00:19:03.769
+Simon (siladu): no, this is quite today, still, to the existing books. But that's just yeah.
+
+165
+00:19:05.500 --> 00:19:11.309
+Sally MacFarlane: yes, it works kind of under way on that right? This already. Some pr, and I guess if people
+
+166
+00:19:11.380 --> 00:19:14.380
+Sally MacFarlane: developers, users notice things that are.
+
+167
+00:19:14.880 --> 00:19:18.849
+Sally MacFarlane: you know, to noisy at debug level, we could raise issues.
+
+168
+00:19:19.590 --> 00:19:23.339
+Simon (siladu): Yeah, I mean it. Just I just wanted to kind of.
+
+169
+00:19:23.640 --> 00:19:32.059
+Simon (siladu): I guess. Get an agreement to socialize the thing to aim for for debug, and and then hopefully, it will get picked up in reviews and things. So
+
+170
+00:19:36.380 --> 00:19:41.470
+Sally MacFarlane:  and we sign up for the next steps on that one as well.
+
+171
+00:19:44.410 --> 00:19:51.240
+Simon (siladu): well, I I can't remember if I put it on the agenda for the other time zone.
+
+172
+00:19:51.600 --> 00:19:54.799
+Simon (siladu): Oh, sorry! I'll do it at least once more there and then.
+
+173
+00:19:56.820 --> 00:20:01.200
+Simon (siladu): if no one can. about it.
+
+174
+00:20:19.030 --> 00:20:30.180
+Sally MacFarlane:  What's the best place for people to give like if someone is.
+
+175
+00:20:30.590 --> 00:20:34.330
+Sally MacFarlane: Yes, I agree. What's the best place to do that?
+
+176
+00:20:34.780 --> 00:20:41.360
+Simon (siladu): I guess it's easy to traffic. It's on the proposal itself on the actual proposal.
+
+177
+00:20:41.560 --> 00:20:46.910
+Simon (siladu): I'll be watching discord anyway. So this would work as well.
+
+178
+00:20:48.650 --> 00:20:54.949
+Simon (siladu): Yeah, I haven't particularly mentioned it in discord. I will do before. Kind of finalize it.
+
+179
+00:20:55.470 --> 00:20:57.150
+Simon (siladu): just to make sure everyone's seen it.
+
+180
+00:21:09.020 --> 00:21:09.860
+Sally MacFarlane: Hello!
+
+181
+00:21:14.090 --> 00:21:19.040
+Sally MacFarlane: okay, that's everything that's on the agenda. Anything else anyone wants to raise.
+
+182
+00:21:25.730 --> 00:21:27.700
+Sally MacFarlane: No awesome.
+
+183
+00:21:28.970 --> 00:21:30.570
+Sally MacFarlane: Let's call it done
+
+184
+00:21:30.690 --> 00:21:31.980
+Simon (siladu): here.
+
+185
+00:21:32.000 --> 00:21:33.090
+Sally MacFarlane: Thanks all.
+
+186
+00:21:33.430 --> 00:21:35.440
+Simon (siladu): Thank you.
+

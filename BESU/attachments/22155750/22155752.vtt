@@ -1,0 +1,1346 @@
+WEBVTT
+
+1
+00:00:13.500 --> 00:00:15.780
+Gary Schulte: Good morning from here, anyway.
+
+2
+00:00:26.100 --> 00:00:26.760
+Grace Hartley: hey guys.
+
+3
+00:00:27.480 --> 00:00:31.950
+Grace Hartley: Yes, i'm not sure what the problem was there, I think it was on the hyper.
+
+4
+00:00:31.950 --> 00:00:32.490
+Grace Hartley: ledger side.
+
+5
+00:00:36.300 --> 00:00:36.750
+Francesco Andreoli: here.
+
+6
+00:00:58.110 --> 00:01:05.640
+Grace Hartley: it's like recordings in progress and we've shared the agenda chat so we can.
+
+7
+00:01:06.780 --> 00:01:08.610
+Grace Hartley: get started, maybe if.
+
+8
+00:01:11.220 --> 00:01:13.260
+Grace Hartley: it's really just send a note and say.
+
+9
+00:01:18.990 --> 00:01:20.070
+Grace Hartley: days a week, is working.
+
+10
+00:01:28.620 --> 00:01:31.260
+Grace Hartley: out and we can.
+
+11
+00:01:33.000 --> 00:01:34.260
+Grace Hartley: I will share my screen.
+
+12
+00:01:39.930 --> 00:01:40.620
+Francesco Andreoli: mode squeeze.
+
+13
+00:01:41.220 --> 00:01:42.270
+me great Thank you.
+
+14
+00:01:45.240 --> 00:01:57.270
+Grace Hartley: Great housekeeping into just notice, please follow the antitrust policy this meeting is being recorded, please mute all speaking looks like everyone's doing that great and feel free to use the raise hand feature.
+
+15
+00:02:00.840 --> 00:02:11.550
+Grace Hartley: Besides that, so general announcements, it seems, so we have the CIPS program where we need to go ahead and document, our main contributors.
+
+16
+00:02:16.410 --> 00:02:19.860
+Grace Hartley: It looks like heart just Brian update that there's going to be a.
+
+17
+00:02:22.800 --> 00:02:26.700
+Grace Hartley: Essentially there's going to be a hyper ledger.
+
+18
+00:02:27.720 --> 00:02:35.970
+Grace Hartley: Sub organization to handle the grant money because hyper ledger itself isn't set up to handle the grant money so they're finally setting that up it's.
+
+19
+00:02:37.410 --> 00:02:50.010
+Grace Hartley: Taking a little while but it looks like it's making progress there and then the one thing is the main activity log so I just wanted to like someone remain renamed it a.
+
+20
+00:02:54.060 --> 00:02:56.850
+Grace Hartley: maintainer, or so it looks like.
+
+21
+00:03:02.160 --> 00:03:07.560
+Grace Hartley: sell the team, it looks like everyone's already kind of filled this out, is there any questions or anything that we need to.
+
+22
+00:03:08.850 --> 00:03:14.070
+Grace Hartley: or anyone not know what this is or want to include themselves or thinks they need to update this.
+
+23
+00:03:18.480 --> 00:03:18.750
+Justin Florentine: yeah.
+
+24
+00:03:20.400 --> 00:03:22.800
+Justin Florentine: This is justin I haven't had a nine year old daughter soon as I can.
+
+25
+00:03:23.280 --> 00:03:24.570
+Grace Hartley: cool okay great yeah yeah.
+
+26
+00:03:24.960 --> 00:03:26.040
+Justin Florentine: we'll get through it, it looks like.
+
+27
+00:03:26.100 --> 00:03:26.520
+Grace Hartley: yeah.
+
+28
+00:03:26.940 --> 00:03:30.180
+Grace Hartley: If you don't mind that'd be great otherwise looks like.
+
+29
+00:03:31.500 --> 00:03:41.730
+Grace Hartley: More or less if there's anyone who's not on the call or do you think are missing from this please just you know, give them a friendly reminder to.
+
+30
+00:03:42.150 --> 00:03:52.590
+Grace Hartley: fill this out, we just want to make sure that we're just H1 2022 to be clear, so through July 1 just want to make sure that we're giving everyone credit where credit is due.
+
+31
+00:03:55.740 --> 00:03:58.710
+Grace Hartley: awesome thanks everyone good this is looking really good.
+
+32
+00:04:00.870 --> 00:04:03.900
+Grace Hartley: And then I will go back questions on that.
+
+33
+00:04:05.910 --> 00:04:16.410
+Grace Hartley: Release updates, so I know the RC one for 2022 dot seven, although was delayed, I know Dino is out, I just see a few questions are we.
+
+34
+00:04:17.760 --> 00:04:19.110
+Grace Hartley: What is the latest.
+
+35
+00:04:20.280 --> 00:04:26.340
+Grace Hartley: It looks like it's delayed because of this, have we reschedule this you know, I was, I was looking around but i'm not sure I saw that.
+
+36
+00:04:29.700 --> 00:04:37.440
+Justin Florentine: yeah I think we're aiming for this week I don't think that we've actually put a date down last we talked about it and discord we were thinking this Wednesday so tomorrow.
+
+37
+00:04:38.280 --> 00:04:51.150
+Justin Florentine: I know we have lots of good stuff that's gone in over the last week, so I definitely think we should get something out I wouldn't mind doing one today just so we have an official release that has the support Leah settings baked into it.
+
+38
+00:04:52.350 --> 00:04:58.200
+Justin Florentine: But you know if that's too much of a rush to miles fine to supposed to supposed to merge is tomorrow.
+
+39
+00:04:59.700 --> 00:05:04.530
+Daniel Lehrner: So somebody somebody wrote on, I think it was discouraged that she will do it.
+
+40
+00:05:06.180 --> 00:05:09.720
+Daniel Lehrner: So her Wednesday so in a few hours or something like this.
+
+41
+00:05:09.780 --> 00:05:10.950
+Grace Hartley: yeah it will take this evening.
+
+42
+00:05:12.420 --> 00:05:13.740
+Grace Hartley: This evening, oh sorry.
+
+43
+00:05:15.540 --> 00:05:15.810
+yep.
+
+44
+00:05:16.920 --> 00:05:18.240
+Justin Florentine: That should be fine great.
+
+45
+00:05:20.730 --> 00:05:21.750
+Grace Hartley: Great great great okay.
+
+46
+00:05:23.760 --> 00:05:25.440
+Grace Hartley: Next up.
+
+47
+00:05:29.520 --> 00:05:31.260
+Grace Hartley: i'm not sure, but this one, but.
+
+48
+00:05:32.010 --> 00:05:35.070
+Daniel Lehrner: I put this I can I can get some context.
+
+49
+00:05:36.210 --> 00:05:42.210
+Grace Hartley: For me, we have some tests from the from the FDA or call them have tests.
+
+50
+00:05:42.990 --> 00:05:49.380
+Daniel Lehrner: And one of them, in the end is testing if all the clients are compatible on certain API calls.
+
+51
+00:05:50.580 --> 00:06:08.850
+Daniel Lehrner: And for one of the tests we are failing because we for transaction be returned to extra fields, so they they are not part of the spec so the one is public key and the other one is raw which is like they are being called a transaction.
+
+52
+00:06:11.070 --> 00:06:15.390
+Daniel Lehrner: There was some discussion on the far end this card.
+
+53
+00:06:16.740 --> 00:06:26.310
+Daniel Lehrner: So I can maybe summarize, so there was light client the creator of the test in the end, she was in favor of only returning fields that are in the spec.
+
+54
+00:06:26.970 --> 00:06:34.350
+Daniel Lehrner: This argument was that the client should be or whoever runs the client should be able to treat it as a black box.
+
+55
+00:06:34.770 --> 00:06:50.550
+Daniel Lehrner: So whenever I want to switch out the client I should not need to care which client support which fields and if everybody's following respect it's the case if some clients have some extra fields and others not I cannot do that anymore.
+
+56
+00:06:52.710 --> 00:07:02.610
+Daniel Lehrner: Then the know because he cannot join today he shared also his thoughts and his thoughts were that we should be able to have extra fields.
+
+57
+00:07:04.650 --> 00:07:26.340
+Daniel Lehrner: As arguments word that the spec should not be always too soon for the spec to be frozen, so the client teams should have opportunity to make some improvement to make some experiments whatever and that in the end the test should ignore the extra fields.
+
+58
+00:07:27.900 --> 00:07:30.390
+Daniel Lehrner: His proposal was that it could add.
+
+59
+00:07:31.440 --> 00:07:40.680
+Daniel Lehrner: To life like or a configuration fleck to India and activate like a strict mode, so if we do this, then we only do what the success.
+
+60
+00:07:42.180 --> 00:07:45.690
+Daniel Lehrner: survive I edit this today to the corpus again, so we have to.
+
+61
+00:07:46.740 --> 00:07:54.540
+Daniel Lehrner: To opinions to the Indian so far, well, it, so I wanted to ask the other way of thinking which direction we should go.
+
+62
+00:07:56.910 --> 00:07:57.930
+Karim T.: just looking at.
+
+63
+00:07:57.930 --> 00:08:12.330
+Karim T.: The could seem that we are using subject legs at this object contains of fields, so when we are selling things is object, we have this sheet prisons, but i'm not sure we are really using this field but.
+
+64
+00:08:13.470 --> 00:08:13.710
+Daniel Lehrner: yeah.
+
+65
+00:08:15.300 --> 00:08:25.830
+Daniel Lehrner: I mean, so the two I don't know that the two options, I see Cindy and vote for dinner set so we keep the default, as it is right now, and afterwards we have like.
+
+66
+00:08:27.180 --> 00:08:37.620
+Daniel Lehrner: A config option to go to the to the spec to the to the strict spec i'm just not sure thinking about it last night i'm not sure if this makes sense because would.
+
+67
+00:08:38.190 --> 00:08:50.580
+Daniel Lehrner: anybody really use this option to take things away just to follow the spec so I don't know the other way would be we change the default to only follow the spec.
+
+68
+00:08:51.630 --> 00:08:56.880
+Daniel Lehrner: And we have a config option to add these two fields again for whoever needs them.
+
+69
+00:08:58.770 --> 00:09:06.840
+Karim T.: We are doing lc lc topic breaking Chung so maybe you engine removes this field and to say, if you still want.
+
+70
+00:09:07.140 --> 00:09:08.310
+Karim T.: To see you can use.
+
+71
+00:09:09.540 --> 00:09:11.280
+Karim T.: The new flag on new option.
+
+72
+00:09:15.600 --> 00:09:17.970
+Justin Florentine: yeah I think I disagree with white clients on this one.
+
+73
+00:09:20.100 --> 00:09:32.310
+Justin Florentine: I think you can still treat the client as a black box, you can, if it has extra fields in it like that's one of the big advantages of json and it allows you to do you know migratory path without breaking things if you need to update your API.
+
+74
+00:09:33.510 --> 00:09:36.330
+Justin Florentine: Right so like you could roll out additional field.
+
+75
+00:09:37.650 --> 00:09:50.010
+Justin Florentine: that people could slowly start adopting and then you walk into the spec later like if you don't have a way to do that, then everybody has to be lockstep in their upgrade path I don't really think that's warranted for the rpc is the way it is for the blockchain.
+
+76
+00:09:52.620 --> 00:10:08.130
+Justin Florentine: So I mean, as far as like what do we do now to get us to the tests yeah I think I agree with what Kareem suggested and just get rid of those fields for now documented in the irc and maybe add them back in if people really are upset about it.
+
+77
+00:10:09.360 --> 00:10:11.370
+Justin Florentine: But I don't know I might.
+
+78
+00:10:12.420 --> 00:10:19.440
+Justin Florentine: I might start a broader discussion with this on our end because I don't I don't know that I really like this is the architectural direction anybody else.
+
+79
+00:10:22.170 --> 00:10:32.670
+Gary Schulte: I think the spec has been loose in the past and there's something there's something to be said about having a spec that you can follow and there's not gonna be surprises, if you want to swap clients out.
+
+80
+00:10:33.120 --> 00:10:42.570
+Gary Schulte: especially considering this is now execution clients are are now more modular and part of a part of a spec that's not monoliths anymore.
+
+81
+00:10:43.170 --> 00:10:48.780
+Gary Schulte: I kind of agree with like client that I think that we should have a spec and stick with it, especially if it's going to be relied upon.
+
+82
+00:10:49.230 --> 00:10:58.140
+Gary Schulte: By consensus clients, I mean how many how many weird change things that we dealt with dealing with a web sockets and numbers because it's one of the few.
+
+83
+00:10:58.980 --> 00:11:06.870
+Gary Schulte: Consensus clients that are using web sockets I think that there's there's value in conformity and in this particular case because of how.
+
+84
+00:11:08.760 --> 00:11:14.400
+Gary Schulte: Basically, you know execution clients are now becoming more modular I think that they're going to be more like legos in the future.
+
+85
+00:11:15.660 --> 00:11:25.650
+Justin Florentine: yeah I think so, too, like i'm not actually arguing against the idea of spec i'm just saying that like if there are fields that are returned that are not in the spec that should not be considered a test.
+
+86
+00:11:26.970 --> 00:11:27.900
+Justin Florentine: Like I think I think.
+
+87
+00:11:27.930 --> 00:11:28.680
+Justin Florentine: That that's the.
+
+88
+00:11:29.040 --> 00:11:33.960
+Justin Florentine: json right it's free for them to just very, very like we're not using json schemas.
+
+89
+00:11:35.280 --> 00:11:38.340
+Justin Florentine: If we are then, then I would I would retract retract my argument.
+
+90
+00:11:38.430 --> 00:11:38.760
+Gary Schulte: Right.
+
+91
+00:11:38.850 --> 00:11:39.270
+Justin Florentine: I think.
+
+92
+00:11:39.600 --> 00:11:53.160
+Gary Schulte: I think we do have json the rpc there has been an effort over the last year to take the rpc the rpc spec and put it into json schema there, I believe there is actually a repo that's json schema for it.
+
+93
+00:11:53.850 --> 00:12:00.000
+Justin Florentine: So, then, I would say we should defer the tests that are effectively asking for that until that's widely adopted.
+
+94
+00:12:01.260 --> 00:12:07.020
+Justin Florentine: Back to me seems like the right way to do this if you want to have tightly defined API responses use the schema for it.
+
+95
+00:12:07.770 --> 00:12:08.100
+yeah.
+
+96
+00:12:11.820 --> 00:12:17.280
+Justin Florentine: And then I guess we'll just have to introduce API version, and when we want to make changes which is sucks.
+
+97
+00:12:17.760 --> 00:12:28.350
+Gary Schulte: yeah I think that what what is what's unfortunate is you know there's going to be based to users out there, private networks and so forth, that are going to have they're going to be relying on these fields is just a given.
+
+98
+00:12:28.830 --> 00:12:35.190
+Gary Schulte: That if it's there somebody's going to be using it, and how are we going to communicate this change out effectively.
+
+99
+00:12:35.880 --> 00:12:44.370
+Gary Schulte: yeah it's probably probably a tempest in a teapot but i'm i'm on board with what Kareem said, where we have as soon as we kind of have someone come out of the woodwork who says.
+
+100
+00:12:45.030 --> 00:12:55.980
+Gary Schulte: hey these fields used to be here what happened to them, we can at least say you know we are conforming to spec and you can use this flag to use the prior format for the fields that you might have been relying on.
+
+101
+00:12:57.030 --> 00:12:57.240
+Gary Schulte: I.
+
+102
+00:12:57.750 --> 00:12:59.250
+Justin Florentine: worried that that's going to be a lot of work.
+
+103
+00:12:59.460 --> 00:13:08.280
+Justin Florentine: it's, the only thing like going everywhere and adding all these flags to check whether or not something is enabled I think it could warrant a refactoring.
+
+104
+00:13:08.850 --> 00:13:12.780
+Justin Florentine: You know, like or mime type support right, you can throw it on my type that says hey.
+
+105
+00:13:13.230 --> 00:13:24.150
+Justin Florentine: conforms to spec or doesn't and then I would hope that vertex has some sort of you know serialization plugin system where you can plug in a different spec and it'll use different serialized there's to produce.
+
+106
+00:13:25.500 --> 00:13:44.850
+Justin Florentine: Your output, based on that mind type or whatever it is, but what what i'm worried about is that the value that we get out of this is much less than the cost, it takes of going through all of our api's and wrapping flags around all the additional pieces of information that our users.
+
+107
+00:13:47.370 --> 00:13:53.610
+Gary Schulte: yeah I think these are there's only a couple ones that were identified now but yeah I think there could be a minefield of things that.
+
+108
+00:13:54.180 --> 00:13:55.020
+Gary Schulte: You know.
+
+109
+00:13:55.350 --> 00:13:56.550
+Gary Schulte: we're slightly out of spec on.
+
+110
+00:13:57.750 --> 00:14:09.540
+Justin Florentine: So maybe step one is to actually figure out how bad, it is, and if it's less than like a dozen things don't worry about it, but if it's you know 50 things, then we might have to push back or do some refactoring to accommodate it.
+
+111
+00:14:11.070 --> 00:14:12.300
+Gary Schulte: yeah agreed.
+
+112
+00:14:16.290 --> 00:14:19.050
+Grace Hartley: So who can own the investigation.
+
+113
+00:14:20.220 --> 00:14:23.250
+Grace Hartley: You know how much how big of an impact is this.
+
+114
+00:14:33.090 --> 00:14:37.710
+Justin Florentine: I can, I can own it, but I can't commit to any type of timeline just yet.
+
+115
+00:14:39.840 --> 00:14:42.360
+Justin Florentine: My own I mean it doesn't seem like it's urgent.
+
+116
+00:14:42.390 --> 00:14:45.300
+Grace Hartley: it's important but not urgent it's just.
+
+117
+00:14:47.340 --> 00:14:48.060
+Grace Hartley: I think.
+
+118
+00:14:49.560 --> 00:14:56.970
+Grace Hartley: Does that sound about right like we want to get this right, we want to be able to understand the impact, but it's not like this is a change happening in the next week or two.
+
+119
+00:14:57.540 --> 00:15:06.150
+Karim T.: But if we just if we want to use FC to do this modification, we need to wait too much.
+
+120
+00:15:08.160 --> 00:15:08.460
+Gary Schulte: True.
+
+121
+00:15:09.390 --> 00:15:14.640
+Grace Hartley: As part of my ignorance, there is there and it does have to be done before the merge.
+
+122
+00:15:16.680 --> 00:15:17.490
+Gary Schulte: mean this isn't really.
+
+123
+00:15:18.690 --> 00:15:20.760
+Justin Florentine: that's the that's the short term fix right.
+
+124
+00:15:21.870 --> 00:15:33.390
+Gary Schulte: These are different tests, though these are rpc compatibility tests which aren't the engine API tests so right, I mean, do we really have to pass these for the merge I don't i'm not hurting anybody say we do.
+
+125
+00:15:34.350 --> 00:15:35.520
+Justin Florentine: Oh okay that's fair.
+
+126
+00:15:36.930 --> 00:15:37.260
+Grace Hartley: yeah.
+
+127
+00:15:38.310 --> 00:15:49.170
+Justin Florentine: yeah so that's a good that's a good point right so in the past in the recent past there's been an expectation that all clients pass all hype tests, but this is newly introduced, so we need to get clarity on that.
+
+128
+00:15:52.500 --> 00:15:55.650
+Gary Schulte: But what was your take on that Daniel did in the conversations that you had.
+
+129
+00:15:56.010 --> 00:15:58.380
+Gary Schulte: Was it with anybody specified in these.
+
+130
+00:15:58.410 --> 00:16:09.570
+Daniel Lehrner: High I don't think it's important for the much Indian is more general discussion, you know because Indian texture fields, they don't hurt and so.
+
+131
+00:16:10.980 --> 00:16:14.250
+Daniel Lehrner: If it takes longer for us that's that's okay.
+
+132
+00:16:15.480 --> 00:16:20.130
+Daniel Lehrner: Like lauren said he wanted to be just kept up to date so we're going to decide.
+
+133
+00:16:21.150 --> 00:16:21.300
+Daniel Lehrner: The.
+
+134
+00:16:24.630 --> 00:16:25.260
+Daniel Lehrner: temperature.
+
+135
+00:16:28.200 --> 00:16:44.430
+Grace Hartley: Great Okay, so I think that's helpful to know timeline it's you know this isn't before the merge Francesco if you don't mind, just like noting that and then also noting that justin will be on point to to own the follow up on it, but we're not expecting to.
+
+136
+00:16:45.840 --> 00:16:51.180
+Grace Hartley: update the fields or anything pre merge unless we have our pleasantly surprised.
+
+137
+00:16:53.040 --> 00:16:55.800
+Grace Hartley: But it's not urgent that sense that'd be great.
+
+138
+00:16:59.310 --> 00:17:00.870
+Grace Hartley: Any other comments on this is.
+
+139
+00:17:07.500 --> 00:17:13.050
+Grace Hartley: cool Okay, I think that was a very productive conversation i'm in this check.
+
+140
+00:17:13.710 --> 00:17:15.180
+Grace Hartley: yeah this.
+
+141
+00:17:15.360 --> 00:17:24.420
+Daniel Lehrner: is also me um So can I can give some context there, so when you run between the cluster in the end.
+
+142
+00:17:25.110 --> 00:17:44.160
+Daniel Lehrner: I mean you don't check the logs by hand to see if your note is up and running and healthy or not, but you rely on some automatic system and for doing this we have to API endpoints one is called lifeless the other one is called readiness.
+
+143
+00:17:45.930 --> 00:18:02.580
+Daniel Lehrner: So the readiness is OK, as we have it, the readiness, is in the end, I want to know when the notice ready to receive a request, in our case that's like when we are within two blocks or 40 perceive is the chain head because means we are synced so that's okay.
+
+144
+00:18:03.660 --> 00:18:11.760
+Daniel Lehrner: The likeness is meant to be checked regularly, and this should indicate me when the node has a problem that needs to restart.
+
+145
+00:18:13.800 --> 00:18:20.400
+Daniel Lehrner: This happened, for example, last week, when we had this concurrency issue with bonsai.
+
+146
+00:18:21.690 --> 00:18:36.900
+Daniel Lehrner: Somebody was running based so in a cluster and then the note got stuck but the lightness and points that everything is all white and the reason for that is that our likeness and pointers of stuff so it always says everything is alright.
+
+147
+00:18:39.030 --> 00:18:48.990
+Daniel Lehrner: So the question for me is now do we want to do something more, we want to implement the proper one until the more.
+
+148
+00:18:50.070 --> 00:19:01.770
+Daniel Lehrner: it's also not very easy to save what is lightness in our case, so when does the know really need a restart or when do we know a restart will really help you know.
+
+149
+00:19:04.950 --> 00:19:07.830
+Daniel Lehrner: I don't know if anybody needs more context than this.
+
+150
+00:19:11.040 --> 00:19:17.490
+Gary Schulte: i've always used readiness like an accumulated context as just this Notice up and able to serve rpc traffic.
+
+151
+00:19:18.600 --> 00:19:25.260
+Gary Schulte: Maybe it wouldn't wouldn't reading this be a better that are important to us when we are stuck would have been better than.
+
+152
+00:19:25.260 --> 00:19:35.070
+Daniel Lehrner: Then yeah I mean I I included this definition of lightness readiness, how is defined by rhetoric and at least they are the definition is.
+
+153
+00:19:35.070 --> 00:19:47.520
+Daniel Lehrner: readiness only when I started out, so I carried on in the beginning, then wants to know tells me is ready, I don't worry this one anymore, so this point, I would license.
+
+154
+00:19:49.680 --> 00:19:58.350
+Daniel Lehrner: So many something we can do that is just not how normally how we use the endpoint at least by by this definition.
+
+155
+00:20:06.510 --> 00:20:08.610
+Daniel Lehrner: of us, there was a comment from from Adrian.
+
+156
+00:20:09.720 --> 00:20:18.900
+Daniel Lehrner: So he said in his experience lightness should only do the lifeless should only respond okay whenever you call it.
+
+157
+00:20:20.820 --> 00:20:26.190
+Daniel Lehrner: As a that's not what it says, for example, into the definition that distant beretta.
+
+158
+00:20:28.290 --> 00:20:37.890
+Daniel Lehrner: buddy I mean the decision can also be in our case, to believe it like this, we say Okay, if you want to know noticed kelsey refer to reading.
+
+159
+00:20:39.390 --> 00:20:40.800
+Gary Schulte: I think the.
+
+160
+00:20:42.060 --> 00:20:52.020
+Gary Schulte: Like if we're not live or we need a restart or something to that effect, I mean it's kind of a difficult call to make isn't it that we're in a state that we can't recover from.
+
+161
+00:20:52.710 --> 00:20:59.970
+Daniel Lehrner: yeah I mean that's the source of the thing I mean this this node so normally use more phone number that to.
+
+162
+00:21:01.320 --> 00:21:03.780
+Daniel Lehrner: My database connection fails, then i'm of life and.
+
+163
+00:21:04.620 --> 00:21:08.640
+Daniel Lehrner: In our case i'm business case I mean it's very different because when.
+
+164
+00:21:09.690 --> 00:21:20.730
+Daniel Lehrner: I don't know to really realize that we're stuck This is very hard, because I don't know if we would have a database, corruption or something that just restarted would not even help.
+
+165
+00:21:21.780 --> 00:21:28.500
+Daniel Lehrner: Because you need to fix the database, I mean that's the that's The other thing if really this endpoint makes sense.
+
+166
+00:21:30.480 --> 00:21:35.340
+Daniel Lehrner: But if he decided to not make sense, then maybe we remove it, and we just say okay here is readiness.
+
+167
+00:21:36.480 --> 00:21:44.400
+Daniel Lehrner: Because, if not is confusing for people who are used to, or I mean a normal user expects that that the endpoints.
+
+168
+00:21:46.380 --> 00:21:48.000
+Daniel Lehrner: signal to them in something is wrong.
+
+169
+00:21:57.390 --> 00:21:58.080
+Gary Schulte: i've yet.
+
+170
+00:21:59.490 --> 00:22:02.460
+Gary Schulte: i'm probably in the mind if i'm in the minority on this or not, but.
+
+171
+00:22:04.530 --> 00:22:06.990
+Gary Schulte: The eventual consistency.
+
+172
+00:22:08.340 --> 00:22:10.320
+Gary Schulte: platforms like Cooper 90s, I.
+
+173
+00:22:11.970 --> 00:22:21.210
+Gary Schulte: Personally don't really think the blockchain clients belong in that space so it's kind of hard to make a call about lightness readiness because you've got a complicated.
+
+174
+00:22:23.220 --> 00:22:30.000
+Gary Schulte: life cycle you're trying to manage with too dumb endpoints it just I don't know a.
+
+175
+00:22:31.620 --> 00:22:33.240
+Gary Schulte: competitor companies doesn't really seem like a Greek.
+
+176
+00:22:35.220 --> 00:22:42.660
+Justin Florentine: yeah it's one of those situations where we're using docker containers but we're not really using docker ecosystems and terminology and.
+
+177
+00:22:43.020 --> 00:22:58.530
+Justin Florentine: tooling and all that other stuff that sits on top of that, I think I think i'm on your side Gary and Adrian side, where I would say liveliness is like Okay, you can make a socket connection and get some sort of response and readiness might be like the chain head is progressing.
+
+178
+00:23:01.740 --> 00:23:02.100
+Justin Florentine: I don't know.
+
+179
+00:23:04.500 --> 00:23:10.110
+Justin Florentine: None of none of those are going to none of those are going to tell you like, yes I restart would fix this yeah.
+
+180
+00:23:10.290 --> 00:23:22.050
+Gary Schulte: And that's all it all, I mean I don't know what other what other container systems red hat's special special flavor of communities or whatever, but I mean I think all i've ever seen as they can just restart it that's.
+
+181
+00:23:23.190 --> 00:23:26.580
+Gary Schulte: Generally, all all all it can really happen, it seems, it seems like it's.
+
+182
+00:23:26.760 --> 00:23:27.570
+Gary Schulte: It would be difficult.
+
+183
+00:23:27.660 --> 00:23:30.060
+Gary Schulte: To programmatically give a strong signal.
+
+184
+00:23:30.870 --> 00:23:32.940
+Justin Florentine: That we should or should not right.
+
+185
+00:23:34.680 --> 00:23:39.900
+Justin Florentine: Operating and pods like a microservices like a micro service will have a pod that has lots of different containers that are all.
+
+186
+00:23:40.140 --> 00:23:44.730
+Justin Florentine: a cohesive unit that operate together, and you can do more sophisticated you know stuff with.
+
+187
+00:23:45.420 --> 00:23:46.500
+Gary Schulte: yeah load balancing or.
+
+188
+00:23:46.830 --> 00:23:47.100
+Whatever.
+
+189
+00:23:50.010 --> 00:23:51.150
+Gary Schulte: If you're I would probably.
+
+190
+00:23:53.160 --> 00:24:08.730
+Daniel Lehrner: I mean just this all sorts of the product from from codified you're running some sticking service so they're they're running a lot of facilitators and and, of course, they want to know if all of this validation because in the end, do lose money if that's the case and.
+
+191
+00:24:10.110 --> 00:24:20.790
+Daniel Lehrner: So I mean there, I mean I see I see definitely they use case it's just I also would not know how to have a proper likeness chuck know what.
+
+192
+00:24:26.640 --> 00:24:32.070
+Justin Florentine: I think we're conflating self healing with monitoring honestly I think what they really want is monitoring.
+
+193
+00:24:33.420 --> 00:24:35.730
+Justin Florentine: If they want self healing that's not something we can do.
+
+194
+00:24:41.730 --> 00:24:42.690
+Gary Schulte: yeah then angry.
+
+195
+00:24:43.650 --> 00:24:53.070
+Daniel Lehrner: At least I mean what what I would do is maybe to just make it clear in the documentation the blackness will always respond Okay, so you cannot.
+
+196
+00:24:54.780 --> 00:25:02.580
+Daniel Lehrner: You cannot rely on it to this slide if you want to restart the note on it just to just to make it clear what point is for.
+
+197
+00:25:07.500 --> 00:25:19.860
+Gary Schulte: seems reasonable and maybe maybe we can push back to codify and say is you know what What would you what would you define as lightness and if they have a great definition for life, and so we can consider implementing it, but.
+
+198
+00:25:21.600 --> 00:25:21.870
+Gary Schulte: again.
+
+199
+00:25:23.130 --> 00:25:25.200
+Justin Florentine: Helen or matt problem, maybe they can help.
+
+200
+00:25:37.200 --> 00:25:39.420
+Grace Hartley: So it sounds like this.
+
+201
+00:25:41.100 --> 00:25:49.260
+Grace Hartley: I think this issue, I should do we want to close it do we want to keep it open, but obviously we're not going to resolve it, we can go back to.
+
+202
+00:25:50.670 --> 00:25:55.140
+Grace Hartley: Some consensus stakeholders to be clear to this audience who run.
+
+203
+00:25:57.030 --> 00:26:03.900
+Grace Hartley: staking to get their feedback but it's probably, but at this point, you know we're kind of.
+
+204
+00:26:05.160 --> 00:26:10.890
+Grace Hartley: For Francesco is point with the notes, you know I think blindness is not quite the right way and we want to be defining.
+
+205
+00:26:12.090 --> 00:26:13.260
+Grace Hartley: Our checks, but we can follow up.
+
+206
+00:26:14.460 --> 00:26:17.370
+Grace Hartley: On the consensus, it was a few internal teams.
+
+207
+00:26:17.850 --> 00:26:29.760
+Gary Schulte: I think we could at least close this with a documentation action like if if our decision is to keep things as they are, we should at least be like Daniel said, be clear about what the behavior is and not to expect too much from lightness.
+
+208
+00:26:30.420 --> 00:26:35.400
+Gary Schulte: Not to expect to nuanced of a of an endpoint for that.
+
+209
+00:26:37.710 --> 00:26:37.980
+Grace Hartley: Okay.
+
+210
+00:26:39.420 --> 00:26:40.470
+Grace Hartley: That sounds reasonable to me.
+
+211
+00:26:43.980 --> 00:26:46.230
+Grace Hartley: Daniel can you on that action to.
+
+212
+00:26:47.550 --> 00:26:49.680
+Grace Hartley: Closing and and that update.
+
+213
+00:26:52.080 --> 00:26:52.620
+Daniel Lehrner: To the.
+
+214
+00:26:53.850 --> 00:26:54.240
+Show.
+
+215
+00:26:55.800 --> 00:26:56.130
+Grace Hartley: Thank you.
+
+216
+00:26:58.950 --> 00:26:59.520
+Grace Hartley: Right.
+
+217
+00:27:01.980 --> 00:27:08.970
+Grace Hartley: Along if there's any nothing else on those just looks like broader merge update justin you want to take this.
+
+218
+00:27:09.570 --> 00:27:17.310
+Justin Florentine: sure when last we spoke let's see, I think we were getting ready to do mean that shadow work seven and robson.
+
+219
+00:27:17.670 --> 00:27:24.990
+Justin Florentine: should have worked seven did not go so great, we experienced our and I wrote this up and i'm pretty sure I posted somewhere i'll post it again.
+
+220
+00:27:25.680 --> 00:27:37.830
+Justin Florentine: But I wrote up a detailed explanation, what happened and why it was such a catastrophe, it was the state route mismatch that we run into before on as a known issue and it had been exacerbated and the.
+
+221
+00:27:38.430 --> 00:27:48.450
+Justin Florentine: way that the symptoms presented to us, Dr speak was much more pronounced and quick and happened right around the transition to proof of stake.
+
+222
+00:27:50.280 --> 00:27:55.620
+Justin Florentine: The good news is is that was because we had been making progress on it and we figured out how to make the problem worse, so we could observe it.
+
+223
+00:27:56.610 --> 00:28:07.860
+Justin Florentine: And since then we think we have found the root cause and a fixed for that has been merged yesterday shout out to cream, he was really burning the candle at both ends working really hard on that one.
+
+224
+00:28:08.550 --> 00:28:19.140
+Justin Florentine: The whole team really worked really hard on that, but really appreciate that it was that was frankly guys that was kind of like a worst case scenario for me that's the kind of thing I have nightmares about this like really subtle.
+
+225
+00:28:21.060 --> 00:28:27.930
+Justin Florentine: Really subtle concurrency issue there that you can't reproduce so the fact that we eventually found it and, and we think we fixed it.
+
+226
+00:28:29.250 --> 00:28:33.630
+Justin Florentine: is something we should all be proud of, frankly that's that's a really big really big accomplishment.
+
+227
+00:28:34.350 --> 00:28:45.300
+Justin Florentine: I wouldn't mind, maybe sitting down once we have some distance on this and that we have seen that we're confident that this works, maybe doing a post mortem on how we work, the issue.
+
+228
+00:28:46.170 --> 00:28:51.690
+Justin Florentine: So, if something like this does happen again we've kind of have a playbook of things to analyze data to add.
+
+229
+00:28:53.130 --> 00:28:57.060
+Justin Florentine: Where to look logging statements that were added kind of.
+
+230
+00:28:58.620 --> 00:29:03.300
+Justin Florentine: Just just sort of have a rubric that's ready for analyzing those issues.
+
+231
+00:29:04.980 --> 00:29:06.390
+Justin Florentine: So anyway back to the merge.
+
+232
+00:29:07.440 --> 00:29:14.250
+Justin Florentine: Management 48 happened, I think, was last night, maybe this morning i'm not sure we did great on that.
+
+233
+00:29:15.030 --> 00:29:30.450
+Justin Florentine: Everything proceeded past it everything kept up with the chain, we were running a mix of both bonds I and forest nodes this time to try and diagnose this this issue, it has not presented yet i'm keeping an eye on them, but so far, so good.
+
+234
+00:29:32.070 --> 00:29:39.870
+Justin Florentine: We are proposing bad blocks so that's something that we need to take a look at it does seem to be the forest nodes, which is very unexpected.
+
+235
+00:29:41.220 --> 00:29:44.700
+Justin Florentine: So this is not something that would hurt the network, it would not.
+
+236
+00:29:45.780 --> 00:29:48.060
+Justin Florentine: might cause people to propose bad.
+
+237
+00:29:50.280 --> 00:30:02.400
+Justin Florentine: Gary to answer your question, at least as fork mine has reported them as bad blocks, so we need to kind of look into that and figure out what's what's going on there, but the network is still progressing we're not causing any problems on the network.
+
+238
+00:30:03.990 --> 00:30:08.250
+Justin Florentine: Support Leah slowly that's happening next like tomorrow.
+
+239
+00:30:09.420 --> 00:30:10.980
+Justin Florentine: So that would be.
+
+240
+00:30:13.410 --> 00:30:28.770
+Justin Florentine: i'm not sure what time here and there's a few the bordello wtf you can see an estimate on where hash power is on the network and when it's going to supposedly tip us over to tdd and switch over to proof of stake so that's The next thing for us to keep an eye on.
+
+241
+00:30:30.270 --> 00:30:36.480
+Justin Florentine: But overall, I mean i'm feeling pretty confident about our merge readiness, we still have.
+
+242
+00:30:37.140 --> 00:30:50.130
+Justin Florentine: Some bugs to fix here and there, but nothing major nothing, nothing life threatening and the progress that we made on the State route mismatch was pretty pretty awesome, so I think that's where we're after the merge what kind of questions can I answer.
+
+243
+00:30:54.780 --> 00:31:04.560
+Justin Florentine: hype tester thing that we're still working on, as far as being merged related specifically with regard to the engine APIs those are plotting along we're making good progress on those.
+
+244
+00:31:08.130 --> 00:31:10.230
+Justin Florentine: Like again I don't think i'm forgetting anything now.
+
+245
+00:31:10.710 --> 00:31:17.250
+Gary Schulte: I think, with a couple of PRS from Daniel and Fabio once those emerged, I think the basic will probably be passing.
+
+246
+00:31:18.960 --> 00:31:21.120
+Gary Schulte: More tests than any other execution client.
+
+247
+00:31:23.130 --> 00:31:29.430
+Justin Florentine: Well, I hope so, because arrogance talking smack on Twitter how they've got the most test pass so let's go down.
+
+248
+00:31:29.820 --> 00:31:31.680
+Gary Schulte: When they were 18 last I saw what are they now.
+
+249
+00:31:32.670 --> 00:31:33.390
+Now.
+
+250
+00:31:39.480 --> 00:31:49.260
+Daniel Lehrner: yeah so right now the current status of the PR, including the PR today I open, today we are down to 17 failing.
+
+251
+00:31:51.180 --> 00:32:03.570
+Daniel Lehrner: There are 15 that are like or related which five years working on, I think he said he made good progress, and then there are two more related, which I know i'm working on.
+
+252
+00:32:04.980 --> 00:32:09.750
+Daniel Lehrner: But here we are, we are quite close with with maybe having all of them.
+
+253
+00:32:11.190 --> 00:32:15.360
+Fabio Di Fabio: I can also give an update so for the invalid, the.
+
+254
+00:32:16.620 --> 00:32:17.010
+Fabio Di Fabio: Change.
+
+255
+00:32:19.920 --> 00:32:28.620
+Fabio Di Fabio: Now there are at least 13 a sync with the last PR and working.
+
+256
+00:32:29.910 --> 00:32:33.810
+Fabio Di Fabio: On the last two that need some more.
+
+257
+00:32:34.980 --> 00:32:35.460
+Fabio Di Fabio: work.
+
+258
+00:32:37.530 --> 00:32:41.970
+Daniel Lehrner: Okay, then what will be down to just for failing tests actually.
+
+259
+00:32:46.320 --> 00:32:46.770
+Justin Florentine: wow.
+
+260
+00:32:51.180 --> 00:32:56.490
+Gary Schulte: I just checked in the lowest of any fails right now is 18.
+
+261
+00:32:57.480 --> 00:33:03.150
+Daniel Lehrner: yeah I think Aragon divert 16 but not advocating so they have some regression.
+
+262
+00:33:06.000 --> 00:33:07.620
+Fabio Di Fabio: yeah i'm a whole so.
+
+263
+00:33:10.440 --> 00:33:11.370
+Fabio Di Fabio: Say opening.
+
+264
+00:33:12.540 --> 00:33:40.890
+Fabio Di Fabio: issue on it, because some of our tests are flaky and they pass, but sometimes they will not start, I think, because the test we try to read something before best who is ready so i'm hoping, an issue, and so they can provide that solution.
+
+265
+00:33:51.570 --> 00:33:53.940
+Grace Hartley: So just to equal it just sounds like we're.
+
+266
+00:33:56.220 --> 00:33:59.160
+Grace Hartley: seeing how tomorrow goes no action oh.
+
+267
+00:34:01.200 --> 00:34:04.890
+Grace Hartley: You know the release tonight will with that sally's ronnie will.
+
+268
+00:34:07.500 --> 00:34:14.940
+Grace Hartley: feed into it, but no action at this point um one question that I realized I fell off of this which maybe.
+
+269
+00:34:16.080 --> 00:34:16.620
+Grace Hartley: don't know why.
+
+270
+00:34:18.120 --> 00:34:21.030
+Grace Hartley: Because when you guys were talking about Aragon, having.
+
+271
+00:34:24.270 --> 00:34:26.730
+Grace Hartley: Because what was it the least number of fixing sorry.
+
+272
+00:34:27.150 --> 00:34:28.440
+Justin Florentine: me some bros here.
+
+273
+00:34:28.770 --> 00:34:38.040
+Gary Schulte: yeah the the engine engine API five test suite there's 114 tests and no clients are passing them all so it's a race to the bottom.
+
+274
+00:34:38.580 --> 00:34:43.050
+Grace Hartley: Oh that's exciting okay well if we do, please let me know if you will.
+
+275
+00:34:44.100 --> 00:34:49.290
+Grace Hartley: tweet that out everywhere, but the other thing I know we were kind of competing on was the.
+
+276
+00:34:51.090 --> 00:34:58.740
+Grace Hartley: Like a PDF but we were trying to get done before the merge was a security on it and I don't see that on here and just wanted to follow up on.
+
+277
+00:35:00.000 --> 00:35:07.050
+Grace Hartley: The progress there I know it's been ongoing the last few weeks with to vora but i'm not sure if it's completed just yet.
+
+278
+00:35:13.530 --> 00:35:18.300
+Gary Schulte: i've seen some updates, but I also saw that one of the primary.
+
+279
+00:35:20.070 --> 00:35:30.360
+Gary Schulte: You know the leads on it was on vacation so it's not surprising that I haven't seen any updates lately honestly i've been focused on the merge, but I have seen some some progress and some action activity on that front.
+
+280
+00:35:32.190 --> 00:35:36.000
+Grace Hartley: When is it Andy they're supposed to end if you don't mind me asking.
+
+281
+00:35:37.380 --> 00:35:38.760
+Gary Schulte: i've got to look give me just a minute.
+
+282
+00:35:39.090 --> 00:35:41.220
+Grace Hartley: yeah no worries hey I just want to make sure we're.
+
+283
+00:35:41.670 --> 00:35:48.510
+Grace Hartley: ready if they provide make sense, people are at office you know what June early July, but just want to make sure.
+
+284
+00:35:50.880 --> 00:35:56.730
+Grace Hartley: If there is anything at the end or just kind of making sure the end date lines up with our work to.
+
+285
+00:36:03.810 --> 00:36:11.040
+Gary Schulte: yeah i've got to do the authentication dance and so forth, so it'll take me a little bit to do that, I can I can circle back on in a minute when I have some detail.
+
+286
+00:36:11.460 --> 00:36:16.830
+Grace Hartley: yeah no worries sounds good yeah I just realized that fell off um any other merge updates or.
+
+287
+00:36:18.480 --> 00:36:19.050
+comments.
+
+288
+00:36:23.310 --> 00:36:26.130
+Justin Florentine: I think that's it next steps, polio and i'm really.
+
+289
+00:36:28.470 --> 00:36:30.660
+Grace Hartley: exciting yeah.
+
+290
+00:36:31.860 --> 00:36:32.700
+Grace Hartley: great work guys.
+
+291
+00:36:33.960 --> 00:36:47.040
+Grace Hartley: cool insights we'll just do it, we have a little time and I feel like we've skipped it a few times over, will do just a quick run if anything seems particularly exciting or different let's do the last six months, see if there's any.
+
+292
+00:36:48.120 --> 00:36:53.910
+Grace Hartley: We are computing transfer you're proud just kidding because we're not doing this today looks like it's not working okay.
+
+293
+00:36:55.080 --> 00:36:57.030
+Grace Hartley: I want alright nevermind.
+
+294
+00:36:58.380 --> 00:37:00.420
+Gary Schulte: managed to pull up the most recent.
+
+295
+00:37:01.770 --> 00:37:01.890
+To.
+
+296
+00:37:03.390 --> 00:37:12.840
+Gary Schulte: punish penetration testing status and the target completion date is the 13th of July.
+
+297
+00:37:14.670 --> 00:37:25.500
+Gary Schulte: Evidence review and documentation will begin on the 14th of July and run till August 8 and deliverables do on August 9 okay okay that's good to know.
+
+298
+00:37:26.310 --> 00:37:30.000
+Grace Hartley: Do you need any help with that Gary or anything from the team to just make sure we're.
+
+299
+00:37:31.800 --> 00:37:32.970
+Gary Schulte: Going kind of been running on site I.
+
+300
+00:37:32.970 --> 00:37:42.510
+Gary Schulte: Think yeah that's uh I haven't other than the email updates i've been seeing infrequently I haven't really engaged with it terribly much i've been.
+
+301
+00:37:43.680 --> 00:37:45.360
+Gary Schulte: interested to see what the results are.
+
+302
+00:37:45.990 --> 00:37:50.820
+Grace Hartley: Okay um so when they will just be sure whenever they do share their.
+
+303
+00:37:50.820 --> 00:38:03.390
+Grace Hartley: results, obviously we you know we'll review as a base new team first but feel free to share with the broader group to or you know feel free to lean on us if you need help because it's a crazy month ahead.
+
+304
+00:38:06.300 --> 00:38:07.740
+Grace Hartley: But it's exciting that it's done.
+
+305
+00:38:08.820 --> 00:38:09.930
+Grace Hartley: And the next couple weeks.
+
+306
+00:38:11.430 --> 00:38:20.250
+Grace Hartley: cool roadmap, so I know we talked about the optimistic support last time with matt and I we kind of decided it wasn't.
+
+307
+00:38:21.870 --> 00:38:25.350
+Grace Hartley: super important but a post words conversation or it's important but not urgent.
+
+308
+00:38:26.970 --> 00:38:33.150
+Grace Hartley: And I think it was similar with the period and frequent note operations improvement I don't think there's anything else to add there, we can look the roadmap really quickly, though.
+
+309
+00:38:34.260 --> 00:38:48.570
+Grace Hartley: It looks like this is that last update June 7 so it might be a little out of date, which is 27 here we can see everything that's going on the orange and then, yes, we said optimistically we kind of discussed further out.
+
+310
+00:38:54.720 --> 00:39:00.240
+Grace Hartley: And then maybe the last thing if anyone, no one has any questions or comments on the roadmap updates.
+
+311
+00:39:02.070 --> 00:39:04.590
+Grace Hartley: Give me a chance to speak cool.
+
+312
+00:39:06.630 --> 00:39:18.270
+Grace Hartley: open forum, so it looks like we have the chitchat invite out every week after the contribute call so feel free to jump in there as well, and chat with friends or ask questions.
+
+313
+00:39:22.350 --> 00:39:24.210
+Grace Hartley: Anything else the group wants to talk about.
+
+314
+00:39:31.470 --> 00:39:32.940
+Grace Hartley: cool okay well.
+
+315
+00:39:35.130 --> 00:39:36.090
+Grace Hartley: oops go ahead.
+
+316
+00:39:36.780 --> 00:39:41.250
+Nicolas Massart: No just just wanted to provide an update on the small.
+
+317
+00:39:42.840 --> 00:39:51.450
+Nicolas Massart: discussion I had about the documentation and it was in the previous contribute to a coup in.
+
+318
+00:39:53.250 --> 00:39:54.480
+Nicolas Massart: Seventh of June.
+
+319
+00:39:55.830 --> 00:39:56.310
+Nicolas Massart: and
+
+320
+00:39:57.390 --> 00:40:10.350
+Nicolas Massart: The idea of moving to using good discussion in addition to to discuss on things like that so sadly, we have no consensus yet.
+
+321
+00:40:11.760 --> 00:40:15.630
+Nicolas Massart: I don't really see a good reason to move forward with this.
+
+322
+00:40:16.830 --> 00:40:33.450
+Nicolas Massart: was not a clear that some good arguments in both ways, but nothing very clear about the decision to make so I like to to lead that trust of it, and I will, I will not move forward on this, for the moment.
+
+323
+00:40:35.070 --> 00:40:54.330
+Nicolas Massart: second thing is that consensus sponsored the end kellogg's material theme which is to use for for the duck and the guy who is doing this is very nice and doing a great job and.
+
+324
+00:40:55.740 --> 00:41:13.740
+Nicolas Massart: Sadly, because it's sponsored by consensus on the consensus github organization, we can't use this for hyper ledger because hey brother Joseph the different organizations, so I like to raise the question of.
+
+325
+00:41:15.120 --> 00:41:35.340
+Nicolas Massart: Having the sponsorship from the hyper ledger foundation to this project to it's something like hundred dollars per month it's less than what we pay for the bus man subscription that we barely use so maybe this would be a nice thing to do.
+
+326
+00:41:37.140 --> 00:41:43.470
+Nicolas Massart: I guess I can check back with right I don't know who's the best person in a child to check that.
+
+327
+00:41:48.930 --> 00:41:55.380
+Grace Hartley: show that last bit again NICO you're asking you want to reach out to someone bro just want to clarify that last one.
+
+328
+00:41:56.010 --> 00:42:15.510
+Nicolas Massart: yeah, just to clarify how we can sponsor from the hyper ledger organization on github on a project, so I don't know the only person I have in mind is right, but I like to make sure if he's the right person for that.
+
+329
+00:42:16.950 --> 00:42:21.540
+Grace Hartley: Probably um, but you can email Community architects at hyper ledger.org.
+
+330
+00:42:22.620 --> 00:42:28.440
+Grace Hartley: And right now has at least one other team member that so they're the right team to help you with that for sure.
+
+331
+00:42:29.160 --> 00:42:32.370
+Nicolas Massart: Okay, great cool Thank you.
+
+332
+00:42:35.670 --> 00:42:37.560
+Grace Hartley: All right, anything else.
+
+333
+00:42:42.300 --> 00:42:44.970
+Grace Hartley: Thanks for everyone's time see you on discord.
+
+334
+00:42:46.830 --> 00:42:47.370
+Justin Florentine: yeah.
+
+335
+00:42:47.820 --> 00:42:48.510
+Francesco Andreoli: hi good.
+
+336
+00:42:49.110 --> 00:42:50.580
+Nicolas Massart: Thank you bye.
+

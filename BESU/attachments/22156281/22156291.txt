@@ -1,0 +1,1430 @@
+WEBVTT
+
+1
+00:00:31.250 --> 00:00:32.460
+Ameziane Hamlat: How you everyone.
+
+2
+00:00:33.830 --> 00:00:36.310
+Justin Florentine: Good morning.
+
+3
+00:00:41.370 --> 00:00:42.950
+Diego López León: Hello! Good morning.
+
+4
+00:00:44.790 --> 00:00:46.170
+Nischal Sharma: A
+
+5
+00:01:50.950 --> 00:01:52.830
+Matt Nelson: hello, everyone.
+
+6
+00:01:56.150 --> 00:01:57.560
+Fabio Di Fabio: hey? I know
+
+7
+00:01:58.380 --> 00:01:59.419
+Matt Nelson: if I'm good
+
+8
+00:02:08.050 --> 00:02:09.419
+Matt Nelson: a good mix.
+
+9
+00:02:19.730 --> 00:02:22.420
+Matt Nelson: Give it a few minutes I get started.
+
+10
+00:02:24.190 --> 00:02:27.079
+Matt Nelson: I will share the link to the agenda here.
+
+11
+00:02:28.730 --> 00:02:34.280
+Matt Nelson: There's anything that you want to discuss that is not on the agenda. Totally okay.
+
+12
+00:02:35.290 --> 00:02:39.520
+Matt Nelson: it's a little bit of a rehash from last time and
+
+13
+00:02:41.520 --> 00:02:43.130
+Matt Nelson: some other things.
+
+14
+00:04:05.280 --> 00:04:07.220
+Matt Nelson: Alright, it's 5 after
+
+15
+00:04:07.670 --> 00:04:13.280
+Matt Nelson: we can go through the agenda. I'm just gonna share my screen for the sake of the reporting.
+
+16
+00:04:15.800 --> 00:04:19.199
+Matt Nelson: can folks read this by chance?
+
+17
+00:04:20.730 --> 00:04:21.750
+Fabio Di Fabio: Yeah, they
+
+18
+00:04:24.840 --> 00:04:29.830
+Matt Nelson: too small. I'm gonna call it big enough. Okay, as usual.
+
+19
+00:04:30.050 --> 00:04:34.660
+Matt Nelson: There's antitrust notice or recording the meeting.
+
+20
+00:04:35.240 --> 00:04:40.690
+Matt Nelson: and if you have questions you can use the hand, raise feature, or you can just come off mute. I don't think
+
+21
+00:04:40.980 --> 00:04:52.590
+Matt Nelson: we're gonna have issues talking over each other today. for announcements. I submitted the Q 2 reports for Hyper Ledger Base. So if you're interested in reading that report.
+
+22
+00:04:52.820 --> 00:05:04.910
+Matt Nelson: you can. It's here. The kind of key points that they look to pull out are contributor activity, new contributor. Diversity, health of the project, direction of the project. All that good stuff.
+
+23
+00:05:04.990 --> 00:05:11.000
+Matt Nelson: so If you're interested in that check it out. there's
+
+24
+00:05:12.160 --> 00:05:17.129
+Matt Nelson: more kind of forthcoming information around. Kind of what's next for second half.
+
+25
+00:05:17.170 --> 00:05:27.139
+Matt Nelson: at least from the Consensus Maintainer. So stay tuned. When I have more of those I'll share. I think it's gonna be this week what kind of our roadmap view looks like coming up.
+
+26
+00:05:27.210 --> 00:05:32.139
+Matt Nelson: so definitely want folks input. And ideas. And if there's anything that you
+
+27
+00:05:32.470 --> 00:05:43.970
+Matt Nelson: are interested in working on, or if you see that's missing from the roadmap again, this is just our view of the roadmap. it's a collaborative process, let me know. And we can kind of let's see what that looks like.
+
+28
+00:05:44.730 --> 00:05:48.269
+Matt Nelson: Well, yeah. Q. 2 reports here. I don't know why this got invented
+
+29
+00:05:49.780 --> 00:05:51.160
+Matt Nelson: So check that out
+
+30
+00:05:51.530 --> 00:05:54.510
+Matt Nelson: on release updates. we had
+
+31
+00:05:55.490 --> 00:06:19.069
+Matt Nelson: little bit of a snapping with 23 dot 4 dot 3. So we had kind of scrubbed that release and followed it down with 23 dot port up for. So the this was primarily a bug fixed point release on top of what we already have, with some fixes for the transaction pool. some other items around Sync and Bonzi and our PC, so nice big bug fix releases
+
+32
+00:06:19.110 --> 00:06:24.220
+Matt Nelson: and upcoming, we have 23.7.so our July quarterly release.
+
+33
+00:06:24.590 --> 00:06:34.989
+Matt Nelson: we are discussing, but not necessarily have any strong opinions about setting some new defaults alongside our deprecation items.
+
+34
+00:06:35.130 --> 00:06:37.660
+Matt Nelson: so let's chat about these really quickly.
+
+35
+00:06:37.800 --> 00:06:47.530
+Matt Nelson: We're thinking about making the new layer transaction pool the default for maintenance. I can let Fabio discuss, maybe the results of the test and the bug fixes.
+
+36
+00:06:48.690 --> 00:06:50.910
+Fabio Di Fabio: Yes. so
+
+37
+00:06:50.990 --> 00:06:56.910
+Fabio Di Fabio: then you like. Our transaction pool is now running since
+
+38
+00:06:57.310 --> 00:07:00.679
+Fabio Di Fabio: months on our production
+
+39
+00:07:00.740 --> 00:07:03.760
+Fabio Di Fabio: money that works and it's doing it fine.
+
+40
+00:07:04.440 --> 00:07:07.840
+Fabio Di Fabio:  Also, there
+
+41
+00:07:08.650 --> 00:07:12.149
+Fabio Di Fabio: are some just one
+
+42
+00:07:12.500 --> 00:07:25.149
+Fabio Di Fabio: you should that I have found since now that was enabling the layer at transaction pool on a new note.
+
+43
+00:07:25.670 --> 00:07:39.450
+Fabio Di Fabio: retard, not an error. and this is fixed so it should be fine for the new
+
+44
+00:07:39.610 --> 00:07:45.160
+Fabio Di Fabio: This also address some of the potential
+
+45
+00:07:45.450 --> 00:07:46.640
+Fabio Di Fabio: a box
+
+46
+00:07:47.850 --> 00:07:58.409
+Fabio Di Fabio: on the transaction pool. So it's what to I'm making the by your transaction for the the default, and the keeping the
+
+47
+00:07:58.730 --> 00:08:00.270
+Fabio Di Fabio: the old one
+
+48
+00:08:00.400 --> 00:08:02.360
+Fabio Di Fabio: as
+
+49
+00:08:03.020 --> 00:08:08.280
+Fabio Di Fabio: that can be enabled by a properties. So in case of something.
+
+50
+00:08:08.700 --> 00:08:11.359
+Fabio Di Fabio: that is how? No, at the moment
+
+51
+00:08:12.160 --> 00:08:21.489
+Fabio Di Fabio:  some issue that no, no, we can always use the option to.
+
+52
+00:08:21.690 --> 00:08:35.010
+Fabio Di Fabio: He was one. but I said, we are running this since at least a couple of months on not many different, but it that, or instances also production, without having
+
+53
+00:08:35.100 --> 00:08:38.929
+Fabio Di Fabio: any any issue. And.
+
+54
+00:08:39.669 --> 00:08:48.460
+Fabio Di Fabio: as I said, probably in a previous  the comparison.
+
+55
+00:08:48.540 --> 00:08:57.379
+Fabio Di Fabio: we the and they the existing and a transaction pull is better in any matrix. So
+
+56
+00:08:58.210 --> 00:09:01.629
+Fabio Di Fabio: it also, creates better
+
+57
+00:09:01.690 --> 00:09:04.279
+Fabio Di Fabio: and the block with more value
+
+58
+00:09:05.330 --> 00:09:06.770
+Fabio Di Fabio: compared to those one.
+
+59
+00:09:07.610 --> 00:09:11.490
+Fabio Di Fabio:  yeah, we got.
+
+60
+00:09:11.760 --> 00:09:13.619
+Fabio Di Fabio: Yeah. Sorry. Go ahead, Bobby.
+
+61
+00:09:14.200 --> 00:09:22.200
+Fabio Di Fabio: So for this I'm in. I propose to make this the the fourth on the new.
+
+62
+00:09:23.420 --> 00:09:25.350
+Matt Nelson: Have we had any bunny testing this
+
+63
+00:09:25.440 --> 00:09:46.980
+Matthew Whitehead: around private networks? I know there was some flags that need to be set in order to deal with future. Not stuff. Yeah. The this is my, how that? yeah. So we? We've been running with the new lead pool in some of our performance tests.
+
+64
+00:09:46.980 --> 00:09:57.850
+Matthew Whitehead: We did have to set the we had to increase the default maximum number of transactions per sender from the default. 200. But but once we did that
+
+65
+00:09:57.870 --> 00:10:11.789
+Matthew Whitehead: it was behaving fine. It was stable, and I want to increase that number. The performance was exactly as we had had before we turned on the new pool. So we've been exercising a bit as probably any for a week or 2.
+
+66
+00:10:11.930 --> 00:10:16.439
+Matthew Whitehead: yeah. So that that's the amount that we've given there. Given it a a trial
+
+67
+00:10:16.750 --> 00:10:32.899
+Matthew Whitehead: that's good, though at least to note that it doesn't impact private networks too much without making note of that flag. So what did you have to bump that value to from 200. well, I went from 200 to 500.
+
+68
+00:10:33.230 --> 00:10:43.719
+Matthew Whitehead: I I we we didn't spend ages sort of binary shopping to to see at which point, we we found a sweet spot. But
+
+69
+00:10:43.810 --> 00:10:53.429
+Matthew Whitehead: I it. Putting it to 500, meant, I think, the bottleneck was back in article, because we we've been exercising our own sort of platform.
+
+70
+00:10:53.450 --> 00:11:08.430
+Matthew Whitehead: and I think for 500 min it was back in our call in terms of where the bottlenecks were. 200 was definitely like not maybe a quarter of our performance. We all. Obviously this was all. With a single sender in our performance. Test.
+
+71
+00:11:08.630 --> 00:11:11.130
+Matthew Whitehead: I think
+
+72
+00:11:11.210 --> 00:11:22.890
+Matthew Whitehead: the for we had with the previous pool. If I like, you have to do a bit math to work it out. I think maybe it's 400 on the previous pull. When you set the maximum Tx percent to point
+
+73
+00:11:22.930 --> 00:11:24.040
+Matthew Whitehead: one.
+
+74
+00:11:24.510 --> 00:11:49.389
+Fabio Di Fabio: Yeah. So my guess is, 400 would probably have been fine as well. There is no issue in and the catalog rising. This value actually, this is there not for performance, but for the possibility to mitigate some kind of facts on maintenance, so
+
+75
+00:11:49.390 --> 00:12:00.240
+Fabio Di Fabio: on. Product mentor. If there is enough trust between the peers, it's fine to to rise this even to higher value.
+
+76
+00:12:00.240 --> 00:12:16.399
+Fabio Di Fabio: I'm thinking of also changing this this fault when other mitigation I've been implemented, we'd be implemented in the future. So this could be actually a
+
+77
+00:12:16.690 --> 00:12:29.010
+Fabio Di Fabio: higher value. When we are we? We trust that some kind of a tax not possible, for
+
+78
+00:12:29.330 --> 00:12:49.139
+Matthew Whitehead: we need to avoid
+
+79
+00:12:49.490 --> 00:12:53.840
+Fabio Di Fabio: having this limit for local transaction. So
+
+80
+00:12:53.870 --> 00:12:55.660
+Fabio Di Fabio: local transaction
+
+81
+00:12:56.860 --> 00:13:02.509
+Fabio Di Fabio: could fill the pool without any issue.
+
+82
+00:13:03.530 --> 00:13:06.349
+Fabio Di Fabio: because you.
+
+83
+00:13:06.440 --> 00:13:09.530
+Fabio Di Fabio: basically, you should trust not
+
+84
+00:13:09.780 --> 00:13:13.230
+Fabio Di Fabio: from section centers.
+
+85
+00:13:14.030 --> 00:13:19.329
+Fabio Di Fabio: so this this is my feature that we can add, and this will
+
+86
+00:13:19.630 --> 00:13:34.280
+Fabio Di Fabio: say, remove all the issue we had with private network user reporting that the transaction pool is dropping some of the
+
+87
+00:13:34.610 --> 00:13:37.680
+Fabio Di Fabio: locally sent.
+
+88
+00:13:37.720 --> 00:13:53.919
+Matthew Whitehead: Yeah, I I could certainly see an argument for some sort of something between those where where you might still want to to sort of limit the pool size for local transactions. But you might want a different limit for for remote.
+
+89
+00:13:53.920 --> 00:14:13.889
+Matthew Whitehead: because even with the local node you might still have multiple senders. So, leaving it completely limitless for them to fill the transaction pool might might still be problematic, but having 2 different numbers to tune which still would give you back a bit of control for the the local and remote cases.
+
+90
+00:14:15.120 --> 00:14:20.829
+Fabio Di Fabio: Okay? Good point. yeah. I think it's definitely possible to
+
+91
+00:14:21.080 --> 00:14:30.989
+Fabio Di Fabio: at the flexibility of tune it local and remote limit in a different way. Yes, thanks for the suggestion.
+
+92
+00:14:34.320 --> 00:14:35.160
+Matt Nelson: Cool
+
+93
+00:14:38.460 --> 00:14:39.920
+Matt Nelson: any other comments here.
+
+94
+00:14:44.070 --> 00:14:51.850
+Matt Nelson: Nope, okay, let's keep moving on. The other thing we toyed with was Theonzai as a default. I think this one needs a little more.
+
+95
+00:14:52.510 --> 00:15:02.450
+Matt Nelson: We need to kind of figure out what that looks like in terms of existing nodes and changing things around. but the goal is to move away from forests on main net.
+
+96
+00:15:02.690 --> 00:15:24.910
+Matt Nelson: so we might need a way to flexibly choose the storage format based on the names network you use, or if you use a custom, Genesis go to somewhere else. But the problem is is what you run basso by default on main net or earlier the like. You start up with full sync. Excuse me fast, Sync and Forrest, which is really bad. Ux.
+
+97
+00:15:25.480 --> 00:15:31.879
+Matt Nelson: I'm not proposing to be changes in 23 7, necessarily. But we're gonna do some exploration on the consensus
+
+98
+00:15:32.310 --> 00:15:42.010
+Matt Nelson: software side. where we, you know, we'll we'll kind of do some digging and see what the impacts might be, and I'll probably share some kind of document.
+
+99
+00:15:42.380 --> 00:15:55.730
+Matt Nelson: but I presume that if we change the default that won't matter to too much, because the folks using private networks are likely using custom configs or setting the config manually anyway. but it might cause a little bit of friction. So we're just gonna look, see what that looks like.
+
+100
+00:15:59.640 --> 00:16:00.640
+Matt Nelson: Cool.
+
+101
+00:16:01.890 --> 00:16:05.769
+Matt Nelson: all right. kind of the meat and potatoes part of the
+
+102
+00:16:06.660 --> 00:16:13.670
+Matt Nelson: the call. So no. We discussed last time the consensus mechanism, plugins and modularity
+
+103
+00:16:13.770 --> 00:16:20.270
+Matt Nelson: the links that I have linked here are similar to the one last time
+
+104
+00:16:20.570 --> 00:16:29.040
+Matt Nelson: we have the modular review. This is a  This is work that Justin had done previously
+
+105
+00:16:29.120 --> 00:16:30.740
+Matt Nelson: on the
+
+106
+00:16:31.950 --> 00:16:40.170
+Matt Nelson: basically what we would need to get to a more modular client that has a lot of details as far as like overview potential approaches. And whatnot
+
+107
+00:16:40.180 --> 00:16:47.440
+Matt Nelson: this Mirror board is what Gary and I had worked on regarding what are the components that we would need to potentially lift out
+
+108
+00:16:47.500 --> 00:16:51.670
+Matt Nelson: and the new page that I just created here
+
+109
+00:16:51.800 --> 00:16:55.009
+Matt Nelson: last week is around kind of our approach and working group.
+
+110
+00:16:55.200 --> 00:17:06.480
+Matt Nelson: My suggestion is, we'll need if we want to start working on this at some point soon we will need to start a separate working group and not use these contributor calls to do this.
+
+111
+00:17:07.420 --> 00:17:20.719
+Matt Nelson: And again, I think our suggestion is to start with the proof of work module, just because it's the most straightforward, as far as validation rules and areas where it touches different components throughout the code base.
+
+112
+00:17:20.869 --> 00:17:26.960
+Matt Nelson: Diego, you were not available for the last call where we went over these materials.
+
+113
+00:17:26.980 --> 00:17:32.510
+Matt Nelson:  What
+
+114
+00:17:32.770 --> 00:17:46.090
+Matt Nelson: the kind of overview that we did again was that we walked this mirror board. It had a list of all the components. that we think would be impacted by this kind of work. And then 2 potential approaches on how we could do it.
+
+115
+00:17:46.180 --> 00:17:48.620
+Matt Nelson: We're looking at the Plugin system
+
+116
+00:17:48.800 --> 00:17:59.459
+Matt Nelson: to drive a lot of this modularity work. I don't know your familiarity with that system. you know. Would you want to work on this kind of working group?
+
+117
+00:17:59.480 --> 00:18:09.089
+Matt Nelson: again, our our thought process is to start with proof of work, because it seems the most simple that could be a a naive approach. do you have any comments on this?
+
+118
+00:18:10.060 --> 00:18:21.839
+Diego López León: Well, yeah, absolutely. I think it's a great idea to start with a working group. I I didn't watch the the the videos go, but I can't do it. A job.
+
+119
+00:18:21.890 --> 00:18:27.389
+Diego López León: what we discussed all this. But yeah, thinking about the login system.
+
+120
+00:18:27.760 --> 00:18:29.589
+Diego López León: Okay, sounds great.
+
+121
+00:18:30.440 --> 00:18:40.549
+Matt Nelson: Yeah. I think that the that you can potentially skip the recording and go straight to the mirror and to this document here they we just kind of walk through them.
+
+122
+00:18:41.550 --> 00:18:54.770
+Matt Nelson: so yeah, I think I know. we also had interest from Matt, Whitehead and Michelle on this one. Do you guys think that starting one, a working group in the next couple of weeks. Would you be able to planned and take? You know
+
+123
+00:18:55.160 --> 00:19:01.659
+Matt Nelson: we can lay out a plan. I think that there wouldn't be immediate action on pretty much anyone we would kind of like. I said.
+
+124
+00:19:01.690 --> 00:19:27.180
+Matt Nelson: how we were going to do work and then use that as a template or the other consensus mechanisms. I think frankly, proof of authority will be the most difficult service. Well, yes, I certainly have availability in that sort of timeframe that. Yes, thanks. And yeah. Also like from me and George from the up to labs we working interested in getting involved in this
+
+125
+00:19:27.920 --> 00:19:33.280
+Matt Nelson: cool. So maybe I'll do I'll set something on the Hyper Ledger calendar for
+
+126
+00:19:34.010 --> 00:19:43.689
+Matt Nelson: maybe a week or 2 from now, just to get us coordinated. I'll also share materials on the Plugin system in general. We have a few workshops on like
+
+127
+00:19:43.740 --> 00:19:55.410
+Matt Nelson: how the plugins work, how to use them to extend the client and all that good stuff. It won't get us more. It'll get us kind of most of the way there. And then I think again, we can use that working or to lay out some action items.
+
+128
+00:19:55.460 --> 00:20:05.739
+Matt Nelson: But I think it's just going to have to be kind of hacking away at these consensus as in us consensus software was more than happy to support this initiative.
+
+129
+00:20:05.840 --> 00:20:09.950
+Matt Nelson: but yeah, I definitely recommend reviewing these, I think one.
+
+130
+00:20:10.120 --> 00:20:28.639
+Matt Nelson: Well, I'll I'll something kind of closer towards the end of July will probably be better for everybody. Just knowing some timelines. Justin, is there anything you want to add from your modularity review, or the work that you did. Prior. That might be useful context going into those meetings.
+
+131
+00:20:30.420 --> 00:20:50.849
+Justin Florentine: You know, I'm not sure about anything in particular that needs to be covered. this is an idea that's been around for probably 2 years now, and has made some progress, but not a ton. I would encourage anybody that's interested to just start a discussion. I'm happy to participate. This is an area of interest for me.
+
+132
+00:20:50.850 --> 00:21:03.960
+Justin Florentine: I did a lot of work on introducing dagger into the code base, and I think that's probably going to be Our preferred mechanism of achieving that interoperability with with the modules as we define them.
+
+133
+00:21:04.520 --> 00:21:28.980
+Justin Florentine: So you know, I don't know that I have anything in particular. I'm trusting that everybody here is seasoning software developers and understand what we mean by inversion of control, modularity, etc., etc. So if if those concepts we might be interpreting differently, just reach out to me, and we can. We can discuss that and make sure that we're on the same page.
+
+134
+00:21:29.220 --> 00:21:32.040
+Justin Florentine:  I think that's about it.
+
+135
+00:21:32.060 --> 00:21:33.440
+Justin Florentine: Do you have any other question?
+
+136
+00:21:35.150 --> 00:21:50.259
+Diego López León: Yeah, thank you, Justin? yeah, I just want to know if you were thinking also to move proof of stake to be a part of a plugin or something like that. I mean, everything would be a plugin. I mean, the consensus is make an in every consensus mechanism will be applied.
+
+137
+00:21:50.650 --> 00:21:52.060
+Justin Florentine: Yeah. So
+
+138
+00:21:52.170 --> 00:21:58.620
+Justin Florentine: yeah, we're we're kind of already there, honestly, with the way the engine Api's work. you know. Proof of state
+
+139
+00:21:59.030 --> 00:22:06.210
+Justin Florentine: is a notion that doesn't appear a lot in the base to code base. Honestly. so
+
+140
+00:22:06.410 --> 00:22:18.710
+Justin Florentine: that's definitely Maybe a thing that we clean up a little bit But I don't imagine there's going to be a ton of work. And I think the engine Api is going to end up proving pretty useful to other types of consensus as well.
+
+141
+00:22:19.520 --> 00:22:32.849
+Matt Nelson: Yeah. And and one thing we discussed last time was basically having, like the default, be proof of stake and still ship it with the same template process that we use for the other consensus mechanisms. It's just by default. We like include the proof of stake one.
+
+142
+00:22:33.040 --> 00:22:47.910
+Matt Nelson: and we also include the others. But you have to kind of swap them out essentially, if that makes sense. Our goal was to make it so that all of them could kind of use the same interface but by default they are basically pointed towards proof of stake. And then we have the 3
+
+143
+00:22:47.920 --> 00:22:57.530
+Matt Nelson: or the 2 other kind of Plugin modules, and as you specify proof of work or proof of authority. then it just kind of plugs it in at, you know. Configuration time and at Runtime.
+
+144
+00:22:59.770 --> 00:23:00.660
+Diego López León: Thank you
+
+145
+00:23:02.800 --> 00:23:03.780
+Matt Nelson: awesome?
+
+146
+00:23:03.920 --> 00:23:16.839
+Matt Nelson: Yeah, I will. I'll I'll share an email. maybe not an email. I'll write something in the contributor channel and I'll set a a calendar invite through the hyper ledger basis
+
+147
+00:23:17.070 --> 00:23:18.170
+Matt Nelson: list
+
+148
+00:23:18.570 --> 00:23:24.069
+Matt Nelson: thing. So the thing that creates these calendar invites I'll set up a working group.
+
+149
+00:23:24.120 --> 00:23:44.419
+Matt Nelson: I'll pick an arbitrary date, or maybe I'll do some kind of poll in the discord. But I'm thinking, basically, the last week of July, if folks are around, if not, we can try to find another time. There's no tremendous rush on this. but we will. I'll try to work around people's vacations and summertime plans and whatnot. But I'll I'll I'll
+
+150
+00:23:45.410 --> 00:23:47.660
+Matt Nelson: Matt, I will share this
+
+151
+00:23:48.670 --> 00:23:50.630
+Matt Nelson: in the
+
+152
+00:23:51.660 --> 00:23:53.120
+Matt Nelson: the contributors. Channel.
+
+153
+00:23:55.110 --> 00:23:56.000
+Matt Nelson: Awesome.
+
+154
+00:23:57.310 --> 00:24:02.969
+Matt Nelson: sweet. The next one is around technical documentation quests.
+
+155
+00:24:03.340 --> 00:24:08.630
+Matt Nelson:  we don't have Dana on the call but another
+
+156
+00:24:09.380 --> 00:24:19.620
+Matt Nelson: kind of put out there to try to work with us on documenting the Evm library and some of those features there. We did have some recent document improvements in there. So I think we're getting started on that one which is great.
+
+157
+00:24:19.860 --> 00:24:29.959
+Matt Nelson:  as we modify the plugin system I also want, or if we need to modify the plugin system. But as we use it, I want to make sure that we're documenting
+
+158
+00:24:30.580 --> 00:24:49.820
+Matt Nelson: pain points, challenges and kind of approach from a developer perspective. I'd like to use this exercise with the consensus mechanisms to one identify pain points with the plugins and to identify like just kind of working process. So we can kind of revitalize the docs page. So I'm gonna
+
+159
+00:24:50.200 --> 00:24:53.829
+Matt Nelson: put my name next to this, since I'll be following the
+
+160
+00:24:53.890 --> 00:25:06.180
+Matt Nelson:  the working group with for consensus mechanisms. But again, the goal is to kind of have a new approach around plugins in the second half, to try to encourage folks to look at the plugins for
+
+161
+00:25:06.210 --> 00:25:17.749
+Matt Nelson: client modifications, for other chains and other paradigms. Whatever we need as opposed to kind of working basis or doing some crazy stuff. But in reality, I think the thing is, we need to
+
+162
+00:25:17.810 --> 00:25:20.590
+Matt Nelson: make sure we have better documentation around that. So
+
+163
+00:25:20.610 --> 00:25:24.569
+Matt Nelson: that's part of a kind of Plugin revitalization strategy. That
+
+164
+00:25:25.160 --> 00:25:32.259
+Matt Nelson: isn't much of a strategy as it is. Let's start using the plugins ourselves and kind of dog fooding and then putting more detail back out into the world.
+
+165
+00:25:32.350 --> 00:25:34.829
+Matt Nelson: but but anyway, yeah, I will be
+
+166
+00:25:35.490 --> 00:25:44.210
+Matt Nelson: probably following up with all those folks who use the plugins to get some more notes going forward, and if you' if you have on the call.
+
+167
+00:25:44.240 --> 00:25:50.129
+Matt Nelson:  use these and are having questions or pain points. Maybe what I'll do is create a new.
+
+168
+00:25:50.170 --> 00:25:54.889
+Matt Nelson: a page on the base of the key where we can start to collect feedback around the plugins.
+
+169
+00:25:55.020 --> 00:25:57.669
+Matt Nelson: that's actually a great idea.
+
+170
+00:26:03.000 --> 00:26:06.269
+Matt Nelson: Plug into some feedback and pain points
+
+171
+00:26:07.410 --> 00:26:09.880
+Matt Nelson: and details.
+
+172
+00:26:15.550 --> 00:26:23.070
+Matt Nelson: Again, the goal is to get more people to try to use this as as a modification point for base, as opposed to using either another client or
+
+173
+00:26:23.620 --> 00:26:28.619
+Matt Nelson: trying to for the code base. the try like shipping stuff.
+
+174
+00:26:29.790 --> 00:26:34.809
+Matt Nelson: do we? I think this might not not necessarily as premature.
+
+175
+00:26:34.920 --> 00:26:38.410
+Matt Nelson: but I think we should start to think about this as a part of our
+
+176
+00:26:39.070 --> 00:26:51.450
+Matt Nelson: documentation around the Plugin upgrades is what we can now do. Kind of with some of the State shipping stuff. Gary. This is more a question, not question. But this is more around you and Kareem's work. It's maybe putting some of that back in the documentation.
+
+177
+00:26:53.040 --> 00:27:01.419
+Gary Schulte: Yeah, certainly. I think anytime one of the things that we should consider when we're developing plugins or or extending the Plugin Api is
+
+178
+00:27:01.450 --> 00:27:11.169
+Gary Schulte: documenting specifically what we've what we've moved into the Plugin Api out of the main code base, and you know the motivation. What? What can be done with it?
+
+179
+00:27:11.190 --> 00:27:28.590
+Gary Schulte: and just kind of act as a a point of entry for for the Plugin. Maybe we could do that directly in the code base that defines the Plugin Api via a mark down. Or maybe we need some external repo documentation. But I one of the things that kind of stands out is that
+
+180
+00:27:28.760 --> 00:27:33.720
+Gary Schulte: We could arbitrarily move anything into the Plugin Api.
+
+181
+00:27:34.760 --> 00:27:37.019
+Gary Schulte: Then we probably have some some
+
+182
+00:27:37.080 --> 00:27:49.530
+Gary Schulte: design goals and documentation around that, so that we can all be on the same page about what needs to be in the Plugin, and what the Api could look like that way. This doesn't end up like a kind of a random collection of interfaces. We wanted to export.
+
+183
+00:27:50.570 --> 00:28:02.470
+Karim T.: maybe also holds. The Plugin is a communicating with Bezu, you know, to not have different way for the consensus about another way for shipping or something like that.
+
+184
+00:28:03.010 --> 00:28:04.420
+Gary Schulte: Exactly. Yeah.
+
+185
+00:28:08.200 --> 00:28:20.229
+Matt Nelson: What would be sorry? Can you like repeat that? Just the way the way that the actual Api is interfacing with basic. We need to make sure we're documenting. We had to specify the interface between the Plugin and Basil.
+
+186
+00:28:20.360 --> 00:28:25.009
+Karim T.: who is the 2 component of sharing information or communicating
+
+187
+00:28:25.170 --> 00:28:37.959
+Karim T.: just so just to not have someone using maybe a specific library. And the another plugin is using another way to to make some data. And like that, it'd be just random code for
+
+188
+00:28:38.050 --> 00:28:39.570
+Karim T.: each plug-in. So
+
+189
+00:28:39.680 --> 00:28:40.400
+Matt Nelson: yeah.
+
+190
+00:28:43.270 --> 00:28:46.209
+Matt Nelson: yeah, maybe we can start with the trial shipping is like a
+
+191
+00:28:48.750 --> 00:28:51.549
+Matt Nelson: point that we can use to show, like
+
+192
+00:28:51.880 --> 00:29:02.449
+Matt Nelson: what we should be doing as far as updates is for the interface. Any design goals that, like what are the design goals of expanding the interface to the try logs.
+
+193
+00:29:02.570 --> 00:29:08.270
+Matt Nelson: and basically new documentation changes. I can also start some of this, too, as well, and get some of the
+
+194
+00:29:09.730 --> 00:29:13.620
+Matt Nelson:  you know, technical details from, you know.
+
+195
+00:29:17.090 --> 00:29:19.570
+Matt Nelson: Okay, that's some notes there.
+
+196
+00:29:22.240 --> 00:29:23.990
+Matt Nelson: Any other questions here?
+
+197
+00:29:27.910 --> 00:29:33.290
+Matt Nelson: Cool. yeah. More to come on this. I think
+
+198
+00:29:33.440 --> 00:29:37.589
+Matt Nelson: it's just going to be a moving process, kind of a moving target
+
+199
+00:29:39.310 --> 00:29:42.109
+Matt Nelson: now on to deprecation. So
+
+200
+00:29:42.980 --> 00:29:52.870
+Matt Nelson: we for these don't necessarily all have to go into 23.7. But we're looking to deprecate 3 things, one of which is already committed.
+
+201
+00:29:53.020 --> 00:29:58.829
+Matt Nelson: so in 23.7 0, we're already committed to removing, go forum compatible privacy modes.
+
+202
+00:29:58.960 --> 00:30:07.959
+Matt Nelson: these are not even technically documented in the basic docs. So we're hoping that no users are actually using this but we will be removing
+
+203
+00:30:08.040 --> 00:30:10.280
+Matt Nelson: the go from compatible privacy.
+
+204
+00:30:10.730 --> 00:30:14.050
+Matt Nelson: Kind of interfaces in 23 7 any.
+
+205
+00:30:14.420 --> 00:30:18.589
+Nischal Sharma: Oh, I have that pl, a Pr. link for that.
+
+206
+00:30:18.670 --> 00:30:22.170
+Matt Nelson: Oh, perfect. Yeah, if you could in the chat, I'll throw it down there.
+
+207
+00:30:23.580 --> 00:30:26.659
+Matt Nelson: Oh, here we go. Is it? A yeah. 5607.
+
+208
+00:30:27.320 --> 00:30:29.230
+Matt Nelson: Amazing. Thank you very much.
+
+209
+00:30:29.780 --> 00:30:43.010
+Matt Nelson:  also database version 0. So we currently have versions one and 2, one being for us to being bonds. I, if I have it correct, and database version 0 is kind of a really old legacy
+
+210
+00:30:43.100 --> 00:30:47.469
+Matt Nelson: version that we no longer use. and this is a Pr to clean up
+
+211
+00:30:47.700 --> 00:30:50.300
+Matt Nelson: that version 0
+
+212
+00:30:50.640 --> 00:30:52.510
+Matt Nelson: alongside some other stuff.
+
+213
+00:30:53.230 --> 00:31:02.080
+Karim T.: there is also also a modification in Cpr, so maybe I will split this into 2 in order to have on these
+
+214
+00:31:02.350 --> 00:31:06.630
+Karim T.: version, 0 deprecation in on one pier. So
+
+215
+00:31:07.960 --> 00:31:09.240
+Karim T.: it's going to be, you know.
+
+216
+00:31:11.490 --> 00:31:12.400
+Matt Nelson: Gotcha.
+
+217
+00:31:13.030 --> 00:31:22.609
+Matt Nelson: we're also looking to remove World State pruning on forest nodes. This one might be more of interest to folks on the call on the private network side.
+
+218
+00:31:23.220 --> 00:31:27.509
+Matt Nelson: because the removal of this
+
+219
+00:31:28.150 --> 00:31:36.770
+Matt Nelson: this feature never actually was thoroughly tested and thoroughly worked. Super. Super. Well, but our people using this on their network, you can't really prune
+
+220
+00:31:38.020 --> 00:31:50.940
+Matthew Whitehead: like the Qbft ibft to stuff from what I've gathered. So I don't think any of you are using this, but I'm not sure. And if we just start calling it not
+
+221
+00:31:56.820 --> 00:31:59.880
+Fabio Di Fabio: awesome, this also
+
+222
+00:32:00.390 --> 00:32:05.749
+Fabio Di Fabio: is connected to making the bone side of the phone, because if you want
+
+223
+00:32:06.130 --> 00:32:13.200
+Fabio Di Fabio:  the same space, if your used case is to save space, then
+
+224
+00:32:13.620 --> 00:32:16.440
+Fabio Di Fabio: one size, the preferred solution.
+
+225
+00:32:16.950 --> 00:32:19.659
+Fabio Di Fabio: why, if you use
+
+226
+00:32:19.700 --> 00:32:20.880
+Fabio Di Fabio: all rest.
+
+227
+00:32:21.520 --> 00:32:32.269
+Fabio Di Fabio: you probably want to have also this story, and so running should not be an option for you.
+
+228
+00:32:32.640 --> 00:32:41.880
+Fabio Di Fabio: and I haven't seen recently any discussion about this feature on the
+
+229
+00:32:41.940 --> 00:32:45.780
+Fabio Di Fabio: it's good also. So I you public.
+
+230
+00:32:46.930 --> 00:32:53.880
+Fabio Di Fabio: they appreciate for deprecating to make, maybe if someone is using it. But we are not aware.
+
+231
+00:32:54.340 --> 00:32:58.320
+Fabio Di Fabio:  what do you think we we can
+
+232
+00:33:00.790 --> 00:33:07.709
+Fabio Di Fabio: put a warning or be more aggressive on that. It's a if you want to
+
+233
+00:33:08.080 --> 00:33:10.399
+Fabio Di Fabio: enable tooling, you have to
+
+234
+00:33:12.600 --> 00:33:17.760
+Fabio Di Fabio: past twice the option. Something like that. Go all the wise. Alright.
+
+235
+00:33:18.950 --> 00:33:25.449
+Fabio Di Fabio: yeah, we have all these, these we already have a deprecation. Notice, I think it's okay to
+
+236
+00:33:25.680 --> 00:33:26.590
+Fabio Di Fabio: okay.
+
+237
+00:33:27.140 --> 00:33:29.770
+Karim T.: And these are disabled. Printing will not
+
+238
+00:33:30.350 --> 00:33:33.680
+Karim T.: works. So so database or something like that. So
+
+239
+00:33:34.090 --> 00:33:36.950
+Karim T.: I think we can be aggressive and just.
+
+240
+00:33:37.500 --> 00:33:40.710
+Fabio Di Fabio: we can put the
+
+241
+00:33:41.210 --> 00:33:46.240
+Fabio Di Fabio: in the next. If there are.
+
+242
+00:33:46.860 --> 00:33:53.400
+Fabio Di Fabio: if there is a agreement, we can put a warning if you have this option enabled, so
+
+243
+00:33:53.880 --> 00:34:02.170
+Fabio Di Fabio: notified by warning that these is deprecated and will be removed in a future of the
+
+244
+00:34:05.240 --> 00:34:08.289
+Fabio Di Fabio: okay, I I I can propose a
+
+245
+00:34:09.370 --> 00:34:11.449
+Fabio Di Fabio: up here for that.
+
+246
+00:34:13.270 --> 00:34:14.040
+Fabio Di Fabio: So
+
+247
+00:34:14.400 --> 00:34:18.749
+Fabio Di Fabio: at the warming it will deprecate the
+
+248
+00:34:19.210 --> 00:34:26.790
+Fabio Di Fabio: add, deprecate annotation to the
+
+249
+00:34:30.679 --> 00:34:31.670
+Matt Nelson: sounds good.
+
+250
+00:34:32.020 --> 00:34:36.350
+Matt Nelson: It looks like we have agreement on pushing these all into 23 7.
+
+251
+00:34:39.580 --> 00:34:44.820
+Matt Nelson: And again, we'll have released candidates. So as you test the release candidate if there's any weirdness
+
+252
+00:34:44.830 --> 00:34:49.769
+Matt Nelson: in either tooling or anything else, just let us know, and we can always revert.
+
+253
+00:34:49.830 --> 00:34:53.690
+Matt Nelson: we can always revert them or just have a discussion and figure it out.
+
+254
+00:34:55.150 --> 00:35:00.030
+Gary Schulte: Could you remind me what the tentative schedule is for? 23, 7, 0.
+
+255
+00:35:00.230 --> 00:35:06.789
+Matt Nelson: Yeah. So since we had a since we just had 2,304 like last week. Our goal would be
+
+256
+00:35:07.270 --> 00:35:12.839
+Matt Nelson: a week, probably to start burning either the week of sorry the Friday of next week.
+
+257
+00:35:13.610 --> 00:35:19.980
+Matt Nelson:  the timing is bad with some with each CC. And some other stuff.
+
+258
+00:35:20.970 --> 00:35:27.489
+Matt Nelson: But again, we it's a release candidate, so we can just kind of put it out there and see.
+
+259
+00:35:27.540 --> 00:35:31.380
+Matt Nelson: But I my presumption would be that we would cut something next Friday. Gary.
+
+260
+00:35:32.650 --> 00:35:33.510
+Gary Schulte: perfect.
+
+261
+00:35:36.960 --> 00:35:39.379
+Matt Nelson: Say, just put this in here
+
+262
+00:35:40.420 --> 00:35:44.889
+Matt Nelson: burn in Friday the 20
+
+263
+00:35:46.170 --> 00:35:48.000
+Matt Nelson: first. Hmm.
+
+264
+00:35:49.930 --> 00:35:52.320
+Matt Nelson: what's this? Friday? The eleventh?
+
+265
+00:35:53.590 --> 00:35:55.139
+Matt Nelson: Yeah, it's twenty-first.
+
+266
+00:35:58.650 --> 00:35:59.590
+Matt Nelson: Awesome.
+
+267
+00:36:00.300 --> 00:36:03.810
+Matt Nelson: Hey? The last thing is checker. Justin. This is all you
+
+268
+00:36:08.270 --> 00:36:17.000
+Justin Florentine: okay? but to do so I don't know if folks have been following along on a very large, very long list feature branch for
+
+269
+00:36:17.020 --> 00:36:19.249
+Justin Florentine: E. I. P. 4, 4.
+
+270
+00:36:23.680 --> 00:36:24.769
+Justin Florentine: Thank you, Matt.
+
+271
+00:36:25.890 --> 00:36:27.720
+Justin Florentine: But
+
+272
+00:36:28.060 --> 00:36:35.070
+Justin Florentine: we're introducing some. You know a whole lot of this stuff for a new feature, and one of the things we have now is a data gas.
+
+273
+00:36:35.110 --> 00:36:39.839
+Justin Florentine: new tech gas. which is typically represented with the 64 bit integer.
+
+274
+00:36:40.200 --> 00:36:55.279
+Justin Florentine: Dano makes a point in the Pr, where he's saying that. you know, he got a lot of performance improvements in the past by switching to primitives from more strongly type things that extend by the raise via to any.
+
+275
+00:36:55.520 --> 00:37:04.159
+Justin Florentine: So he kind of raised this as a performance concern. I raised it as a You know the counter to. That is a readability concern. Where, when? The
+
+276
+00:37:04.410 --> 00:37:05.790
+Justin Florentine: excuse me.
+
+277
+00:37:07.060 --> 00:37:26.750
+Justin Florentine: when the reader has a long that they're looking at in Java, they kind of assume that it's assigned long right. and there's no good way to communicate to them that you know they shouldn't add them together. They should be using bitwise operators instead, etc., etc., he suggested, as a compromise, this thing called the checker framework.
+
+278
+00:37:26.930 --> 00:37:40.559
+Justin Florentine:  I don't know if anybody has an experience with this. It has been around for quite some time. It's been around for over 10 years. It is active. there are regular release and commits to it, and so
+
+279
+00:37:40.710 --> 00:37:53.109
+Justin Florentine: I don't really see a problem with introducing this to the code base. I just wanted to, you know, bring it up on a call. So everybody else had a chance to weigh in maybe express any past experiences with it, etc.
+
+280
+00:37:53.230 --> 00:38:02.620
+Justin Florentine: But what this would allow us to do basically is to treat certain logs as sign. Excuse me unsigned integers right?
+
+281
+00:38:03.510 --> 00:38:17.209
+Justin Florentine: And use annotations on them to make sure at pre-compile time that so we're not making any unsafe assumptions about what's in that? 64 bits. So
+
+282
+00:38:17.980 --> 00:38:21.790
+Justin Florentine: questions, comments, concerns, open discussion, etc.
+
+283
+00:38:26.320 --> 00:38:34.300
+Gary Schulte: Is that like a static analysis type tool? Or how is, how would we integrate that in with the existing Ci and tests?
+
+284
+00:38:34.450 --> 00:38:38.949
+Justin Florentine: I think it's like error prone where it's like a set of annotations.
+
+285
+00:38:45.460 --> 00:38:50.589
+Gary Schulte: Sounds good. I mean, it sounds uncontroversial, has there any any downsides to it?
+
+286
+00:38:52.770 --> 00:38:56.200
+Justin Florentine: I've only been reading about it, so I'm not sure but I haven't read any.
+
+287
+00:38:56.940 --> 00:38:58.979
+Justin Florentine: It's not possible to
+
+288
+00:38:59.130 --> 00:39:05.359
+Diego López León: to have a a Pr. Against the the current state of the Evm. Just to see how that will look like
+
+289
+00:39:05.560 --> 00:39:07.670
+Diego López León: before introducing this pr.
+
+290
+00:39:07.910 --> 00:39:13.270
+Justin Florentine: absolutely, I I I would not do it on this. Pr, I don't think because this Pr is massive.
+
+291
+00:39:14.000 --> 00:39:19.200
+Justin Florentine: Okay, so yeah, I I would definitely want to do isolate it somewhere else, not included here.
+
+292
+00:39:20.340 --> 00:39:25.630
+Gary Schulte: So we're we're talking about using the checker framework on. Dan was already
+
+293
+00:39:25.640 --> 00:39:29.469
+Gary Schulte: committed work. We're using primitives in the Vm, right?
+
+294
+00:39:29.980 --> 00:39:31.240
+Diego López León: Exactly. Yep.
+
+295
+00:39:31.590 --> 00:39:32.430
+Gary Schulte: awesome.
+
+296
+00:39:33.530 --> 00:39:37.769
+Gary Schulte: That is a little scary to me. So I I I think checker framework sounds awesome.
+
+297
+00:39:41.650 --> 00:39:42.610
+Justin Florentine: great
+
+298
+00:39:43.610 --> 00:39:49.550
+Justin Florentine: as ever feel free to reach out to me with questions, comments, or concerns. And I think that's all I needed.
+
+299
+00:39:56.970 --> 00:39:57.900
+Matt Nelson: sweet.
+
+300
+00:39:59.620 --> 00:40:04.500
+Matt Nelson: I think we're ahead of time, which means we have open discussion.
+
+301
+00:40:05.270 --> 00:40:08.460
+Matt Nelson: any topics in this kind of open forum
+
+302
+00:40:10.050 --> 00:40:18.570
+Matt Nelson: thing. We could review the metrics, but I don't really want to at any time you can review these metrics. They just show
+
+303
+00:40:19.790 --> 00:40:23.280
+Matt Nelson: that people are using Basil, which is crazy.
+
+304
+00:40:30.010 --> 00:40:30.950
+Nice
+
+305
+00:40:34.910 --> 00:40:39.910
+Matt Nelson: cool. This is some fun data. I don't really know
+
+306
+00:40:40.950 --> 00:40:45.390
+Matt Nelson: any topics, any any open topics? We can also.
+
+307
+00:40:46.010 --> 00:41:02.539
+Nischal Sharma: yeah, also, I have, like a. So we are working on this benchmarking performance of peso using caliber. So this is a mentorship program hypothesis. So basically, one of our mentors working on it. So basically, what we want, or we need to, you know. Add
+
+308
+00:41:02.620 --> 00:41:21.479
+Nischal Sharma: few for close into carrier and then benchmark basically using it. So we did it. And the performance is not that great? right now what we are getting. So let's I just wanted to, you know, get like, if you you are doing this performance like, regularly. So is there a. So just a setup or something
+
+309
+00:41:21.500 --> 00:41:26.790
+Nischal Sharma: that we should stick to? So basically, we are focusing on this. Q bfk, and I b ft.
+
+310
+00:41:28.970 --> 00:41:56.999
+Ameziane Hamlat: so we we didn't like do this kind of load testing on, especially on the networks we like. At some period we tried to implement the caliber test. But we had some some issues. And then we just just gave up. But I I'm definitely interested. What? What? I like the results you had, and and see if I if I can help. And
+
+311
+00:41:57.270 --> 00:42:02.729
+Ameziane Hamlat: yeah. So yes, because because our focus
+
+312
+00:42:02.940 --> 00:42:08.269
+Ameziane Hamlat: like the last mouse was on on main net.
+
+313
+00:42:08.440 --> 00:42:17.110
+Ameziane Hamlat: so, yeah, if you have some results on on, like on previous networks. yeah, I can take a look and and see if you can find something.
+
+314
+00:42:17.660 --> 00:42:19.170
+Nischal Sharma: Okay? Yeah, sure. Sure.
+
+315
+00:42:19.310 --> 00:42:28.499
+Nischal Sharma: So yeah. like, with the result about the repo or resulted report, we will be sending a mail then, or in the basso meaning list.
+
+316
+00:42:30.450 --> 00:42:31.830
+Nischal Sharma: whatever we find.
+
+317
+00:42:31.880 --> 00:42:36.300
+Matt Nelson: I would suggest discord. But I think discord is better.
+
+318
+00:42:36.630 --> 00:42:37.920
+Nischal Sharma: Okay, yeah.
+
+319
+00:42:38.380 --> 00:42:44.740
+Gary Schulte: I think there's probably some some good guidelines around hardware spec performance.
+
+320
+00:42:44.840 --> 00:42:50.459
+Gary Schulte:  there's so some some basic things that might.
+
+321
+00:42:50.940 --> 00:42:58.720
+Gary Schulte: You may or may not be using Nvme, for example. it's a different
+
+322
+00:42:58.970 --> 00:43:10.539
+Gary Schulte: Jvm's. And memory management options that are present. I'm not sure if you have looked into the performance tuning guide that we have, I believe, on the the Wiki currently, but that might be a good place to start for
+
+323
+00:43:10.610 --> 00:43:14.059
+Gary Schulte: the baseline test harness for caliper.
+
+324
+00:43:14.980 --> 00:43:17.089
+Nischal Sharma: Okay, yeah, we'll look into that. Then.
+
+325
+00:43:17.790 --> 00:43:26.949
+Ameziane Hamlat: yeah. Also, we find something very interesting. But we like we, we, we haven't enough time like to dig into the details and like.
+
+326
+00:43:27.170 --> 00:43:40.069
+Ameziane Hamlat: do the real implementation. I just did a box So if I remember correctly, it was on to b ft, and So this is more related to block processing
+
+327
+00:43:40.320 --> 00:43:50.139
+Ameziane Hamlat: and we found that the block is actually processed 3 times so like each time we import the block
+
+328
+00:43:50.180 --> 00:44:00.279
+Ameziane Hamlat: we do it 3 times. So we are doing exactly like the same. We're executing exactly same code, same transactions. But but 3 times so
+
+329
+00:44:00.380 --> 00:44:12.130
+Ameziane Hamlat: I did a like a proof of concept on like just cash some data and avoid doing it 3 times and
+
+330
+00:44:12.410 --> 00:44:15.920
+Ameziane Hamlat: and we had like good improvement instead of
+
+331
+00:44:16.100 --> 00:44:21.580
+Ameziane Hamlat: processing 3 times the block was processed only twice.
+
+332
+00:44:21.880 --> 00:44:31.079
+Ameziane Hamlat: and we had like 33% improvement. So if you guys like have some performance issues, especially on.
+
+333
+00:44:32.060 --> 00:44:40.359
+Ameziane Hamlat: I would say, block processing. I can share some some data and some insight on on that. But if if you have some.
+
+334
+00:44:40.780 --> 00:44:45.089
+Nischal Sharma: yeah, that will be great. Yeah, some point to to to work on that, you know.
+
+335
+00:44:45.480 --> 00:44:49.450
+Nischal Sharma: Yeah, if you could share a Pr, you see a documentation something.
+
+336
+00:44:49.590 --> 00:44:50.410
+Ameziane Hamlat: Okay?
+
+337
+00:44:52.440 --> 00:45:11.099
+Matt Nelson: Yeah, that would be huge. I know that we did a lot of investigation around performance work that definitely trickles over to the proof of the authority side. But we didn't have time, like a Messian said, to like focus on those improvements, but you know, would, if if you could like, take those Pr's and kind of run with it, that would be great. And I think that we should definitely collaborate on that stuff.
+
+338
+00:45:11.790 --> 00:45:13.710
+Nischal Sharma: Yup, Yup, that' be correct. Yeah.
+
+339
+00:45:14.060 --> 00:45:17.680
+Matt Nelson: sweet. I'll include the Pr when I get it.
+
+340
+00:45:18.590 --> 00:45:21.880
+Matt Nelson: Any other questions here folks.
+
+341
+00:45:23.490 --> 00:45:25.229
+Matt Nelson: comments concerns
+
+342
+00:45:37.170 --> 00:45:41.049
+Matt Nelson: awesome. All right. I think we can call it there.
+
+343
+00:45:41.420 --> 00:45:44.039
+Matt Nelson: thank you very much.
+
+344
+00:45:44.190 --> 00:45:48.399
+Matt Nelson: I will share the notes in the contributor channel.
+
+345
+00:45:48.960 --> 00:45:51.380
+Matt Nelson: and we can, you know, have any follow ups there.
+
+346
+00:45:51.870 --> 00:45:56.810
+Matt Nelson: There's a lot of good stuff that came out of this to reiterate. I will send a
+
+347
+00:45:57.360 --> 00:46:09.550
+Matt Nelson: little bit of like a not really a poll. But, like I'll I'll suggest some times where we can have the working group meeting around modular consensus. I'm again looking at the last week of July as our
+
+348
+00:46:09.700 --> 00:46:11.010
+Matt Nelson: likely
+
+349
+00:46:11.140 --> 00:46:14.169
+Matt Nelson: starting point. If that doesn't work for you all.
+
+350
+00:46:14.450 --> 00:46:16.250
+Matt Nelson: maybe we can push into August.
+
+351
+00:46:16.280 --> 00:46:17.610
+Matt Nelson: But
+
+352
+00:46:17.660 --> 00:46:21.640
+Matt Nelson: yeah, there's no giant rush. and we'll do that in discord.
+
+353
+00:46:21.710 --> 00:46:27.010
+Matt Nelson: And please review the materials. that we've shared. They? It's a good starting point.
+
+354
+00:46:27.030 --> 00:46:33.779
+Matt Nelson: and I'll dig up the I'll dig up the Plugin system workshop that's been done and share that as well.
+
+355
+00:46:36.740 --> 00:46:37.670
+Diego López León: Thank you.
+
+356
+00:46:37.930 --> 00:46:40.880
+Matt Nelson: Awesome thanks, everyone.
+
+357
+00:46:41.090 --> 00:46:45.419
+Matthew Whitehead: Thank you.
+

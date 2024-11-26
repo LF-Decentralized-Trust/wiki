@@ -1,0 +1,978 @@
+WEBVTT
+
+1
+00:00:00.120 --> 00:00:00.659
+Jason Frame: today.
+
+2
+00:00:03.570 --> 00:00:04.980
+Jason Frame: Okay, so start recording.
+
+3
+00:00:06.060 --> 00:00:09.990
+Jason Frame: So this is the Antichrist policy do we need to just I just need to mention it.
+
+4
+00:00:10.980 --> 00:00:11.700
+Danno Ferrin: just mention it.
+
+5
+00:00:12.330 --> 00:00:26.010
+Jason Frame: Okay, so there's the antitrust policy if you want to read through that and they mean is recorded and place on the ship speaking, although in this movie and I don't think spending too much of an issue, so the first time we've got on here is the roadmap.
+
+6
+00:00:28.470 --> 00:00:33.720
+Jason Frame: So this my roadmap screen looks like it's been updated recently so there's a few more details in here.
+
+7
+00:00:34.950 --> 00:00:42.810
+Jason Frame: So in the 22.4 see that we've added some details about the improvements that are ongoing at the moment.
+
+8
+00:00:44.790 --> 00:00:52.920
+Jason Frame: did anyone want to speak to this, I think, selling you're on the call, we might be present to the top to what this is.
+
+9
+00:00:54.720 --> 00:00:58.860
+Sally MacFarlane: um yeah so ongoing efforts to.
+
+10
+00:01:01.170 --> 00:01:10.110
+Sally MacFarlane: improve the speed at which we find he is and also kind of managing the peer lists go forward so.
+
+11
+00:01:11.880 --> 00:01:16.440
+Sally MacFarlane: hearings quite a broad sort of topic so we're trying to.
+
+12
+00:01:17.520 --> 00:01:25.260
+Sally MacFarlane: sort of narrow down our investigation and effort into things that are actually going to make a difference, but we're still I guess in.
+
+13
+00:01:26.490 --> 00:01:37.860
+Sally MacFarlane: The discovery phase for a lot of it we haven't had any sort of specific wins just yet, but we're still working on it well, one thing that we are still waiting on a few people have been asking about is.
+
+14
+00:01:40.560 --> 00:01:46.200
+Sally MacFarlane: At the moment, you can end up with duplicate peers in your peers list and.
+
+15
+00:01:48.090 --> 00:01:53.940
+Sally MacFarlane: We are still still sort of checking down the root cause of that it's it's a bit more complicated than it.
+
+16
+00:01:56.700 --> 00:01:57.000
+Sally MacFarlane: Still.
+
+17
+00:02:02.220 --> 00:02:08.340
+Jason Frame: A descriptor the Mediterranean, I think, was here before, but I guess it's worth mentioning that the much focus of.
+
+18
+00:02:09.540 --> 00:02:17.220
+Jason Frame: This relation is to get ready get ready for the merge I know there's been multiple updates for all the different tests so.
+
+19
+00:02:18.300 --> 00:02:22.170
+Jason Frame: I don't really have much to add on that unless anyone else has got some details about what's happened there.
+
+20
+00:02:23.400 --> 00:02:29.040
+Jason Frame: Another was the ttp That was our first employee and they've asked them one release that went out.
+
+21
+00:02:31.590 --> 00:02:33.690
+Danno Ferrin: yeah I think the.
+
+22
+00:02:35.280 --> 00:02:41.190
+Danno Ferrin: contract is out for the beacon nope but I don't think it's going to merge till later this week.
+
+23
+00:02:45.570 --> 00:02:46.830
+Danno Ferrin: We get the details on that.
+
+24
+00:02:48.480 --> 00:02:48.540
+I.
+
+25
+00:02:52.170 --> 00:02:59.130
+Danno Ferrin: Just saw some chatter on Twitter today but it's not supposed to happen until that's just the beacon chain.
+
+26
+00:03:01.350 --> 00:03:08.490
+Danno Ferrin: And then, after this is gourley and then they're going to assess if me NUTS ready or not so it's it's insight.
+
+27
+00:03:09.960 --> 00:03:10.920
+Sally MacFarlane: that's good cool.
+
+28
+00:03:11.160 --> 00:03:11.550
+Jason Frame: with it.
+
+29
+00:03:14.520 --> 00:03:15.420
+Jason Frame: and the last thing.
+
+30
+00:03:15.810 --> 00:03:24.990
+Jason Frame: I want to throw all the rest of the stuff on people's faces light up at the out one more color on the 20th but for some improvements in their brand and the Russians.
+
+31
+00:03:28.080 --> 00:03:39.570
+Jason Frame: Another team i'm working on inside consensus can start looking at a distance in the near future, and this, the main candidate we've got in terms of proving say performances ethical because that's one thing.
+
+32
+00:03:40.920 --> 00:03:44.040
+Jason Frame: Obviously, as we get the if we use most.
+
+33
+00:03:45.090 --> 00:03:47.130
+Jason Frame: In production that we have.
+
+34
+00:03:47.190 --> 00:03:48.540
+Danno Ferrin: About get receipt.
+
+35
+00:03:48.780 --> 00:03:51.990
+Danno Ferrin: Like get transaction received by hash does that one high load.
+
+36
+00:03:55.440 --> 00:04:10.140
+Jason Frame: don't know actually need to look at that I just remember if call going cold out rather but we're right we're not looking to this so yeah to get transaction receipt that's a yeah I haven't looked at that see where that falls in that not sure.
+
+37
+00:04:11.130 --> 00:04:19.050
+Danno Ferrin: yeah it sounds like a call probably is on a publicly facing node will be a high high call one but as far as performance load testing.
+
+38
+00:04:19.530 --> 00:04:25.680
+Danno Ferrin: On the rpc note was actually the limiter on some of the speed tests that we had in our caliper tests and it was mostly.
+
+39
+00:04:26.100 --> 00:04:34.650
+Danno Ferrin: The transaction receipt and I blame part of the harness but we could also perform you know at a higher level, and you know the harnesses doing the wrong things.
+
+40
+00:04:35.010 --> 00:04:38.370
+Danno Ferrin: You know if the artist is doing the wrong things we should you know tune a little bit to it.
+
+41
+00:04:38.880 --> 00:04:46.290
+Danno Ferrin: because some of the the really crazy high numbers we've seen in the tests don't use that on there's like 1000.
+
+42
+00:04:46.860 --> 00:04:51.870
+Danno Ferrin: tps rating in one of the bugs reported, but they weren't getting individually receipts they're getting involved.
+
+43
+00:04:52.770 --> 00:04:58.620
+Danno Ferrin: But the caliper tests will get them individually, which reflects a more accurate high volume.
+
+44
+00:04:59.130 --> 00:05:11.160
+Danno Ferrin: Multi user system, but I think getting involved it's somewhere in between, but I think it's closer to everyone, getting their receipts via get received by hash so that's another one to keep an eye out for.
+
+45
+00:05:11.820 --> 00:05:14.070
+Jason Frame: yeah definitely um we we haven't.
+
+46
+00:05:14.340 --> 00:05:15.750
+Jason Frame: looked into this year with this down.
+
+47
+00:05:15.840 --> 00:05:29.160
+Jason Frame: put this on the roadmap to look at in the future, but yeah we'll have to determine which ones are not do recall ethical being one they, the more important ones, because this is one that can get very slow, depending on what call you're making it can vary a lot.
+
+48
+00:05:30.330 --> 00:05:39.600
+Jason Frame: But yeah that's good transaction receipts sounds like a good one to have as well put together list of what What if he stays to look at in terms of performance now.
+
+49
+00:05:41.160 --> 00:05:48.960
+Jason Frame: it's I think that it's probably it for the right map this out things further out less clear at the moment.
+
+50
+00:05:50.220 --> 00:05:52.830
+Jason Frame: I think these may have been here for a little more.
+
+51
+00:05:54.660 --> 00:05:55.950
+Jason Frame: Is anything else anyone wants to.
+
+52
+00:05:57.360 --> 00:05:59.280
+Jason Frame: Do we need to add to the roadmap or.
+
+53
+00:06:03.660 --> 00:06:04.800
+Jason Frame: Alright i've ever to.
+
+54
+00:06:06.810 --> 00:06:07.530
+Jason Frame: engender that.
+
+55
+00:06:09.120 --> 00:06:09.720
+Jason Frame: So.
+
+56
+00:06:10.890 --> 00:06:13.080
+Jason Frame: 24 points rate is gone out.
+
+57
+00:06:15.480 --> 00:06:15.870
+there.
+
+58
+00:06:18.510 --> 00:06:23.520
+Jason Frame: So this number of small improvements there and some fixes.
+
+59
+00:06:25.890 --> 00:06:28.830
+Jason Frame: yeah I think the coolest part is a great class you had for.
+
+60
+00:06:29.910 --> 00:06:30.420
+Jason Frame: dinner.
+
+61
+00:06:33.000 --> 00:06:42.090
+Jason Frame: And some bug there was a bug fixes to think that was the roll back of that obviously performance issue or I remember not sure that's in here.
+
+62
+00:06:42.780 --> 00:06:50.730
+Jason Frame: From the B roll back there, we had a problem with those a problem hearing remember correctly, that I think they got rolled back before it's really so this is not affected.
+
+63
+00:06:53.010 --> 00:06:55.680
+Jason Frame: Then, if there's anything else anyone with collections release it.
+
+64
+00:06:57.660 --> 00:06:58.290
+Jason Frame: it's like it's okay.
+
+65
+00:06:59.940 --> 00:07:00.180
+Jason Frame: alright.
+
+66
+00:07:02.550 --> 00:07:06.060
+Jason Frame: So next releases coming up pretty soon so you're taking that one dinner.
+
+67
+00:07:08.160 --> 00:07:12.450
+Danno Ferrin: yeah I was we'll talk about work updates as can take because the work update but.
+
+68
+00:07:13.080 --> 00:07:16.260
+Danno Ferrin: that's probably going to be put on hold we'll discuss it and I get to the details.
+
+69
+00:07:16.770 --> 00:07:23.040
+Jason Frame: Yes, you're right, I think, mentioned, I think we need some people to volunteer for the next coming releases.
+
+70
+00:07:24.270 --> 00:07:34.050
+Jason Frame: Is that we need to people who are for the July 13 20.7 RC tune with doing a one of and 20.7 releases.
+
+71
+00:07:35.340 --> 00:07:39.030
+Danno Ferrin: So one open question for Dr Caesar was just gonna be off of mainline.
+
+72
+00:07:39.480 --> 00:07:42.480
+Danno Ferrin: Are we going to maintain two lines and silver at 20 270.
+
+73
+00:07:43.560 --> 00:07:48.780
+Danno Ferrin: i'm okay with either, I just wanted to know before i'd cut the release what I need to set it up for.
+
+74
+00:07:51.570 --> 00:07:54.000
+Jason Frame: Anyone have anything so this was just this discussion, do you think we should.
+
+75
+00:07:55.290 --> 00:07:56.160
+Jason Frame: just go to bit more.
+
+76
+00:07:56.460 --> 00:07:57.810
+Danno Ferrin: Maybe a discussion on discord.
+
+77
+00:07:58.410 --> 00:07:58.980
+Jason Frame: yeah I think so.
+
+78
+00:07:59.820 --> 00:08:03.960
+Danno Ferrin: Unless there's customers that are needing and he's basically if we need to cut a.
+
+79
+00:08:05.670 --> 00:08:10.980
+Danno Ferrin: Do we want to cherry pick fixes in, or do we want to continue doing releases and my concern with.
+
+80
+00:08:13.170 --> 00:08:14.340
+Danno Ferrin: Making the RC.
+
+81
+00:08:16.020 --> 00:08:25.080
+Danno Ferrin: Separate is that accuse up like a month's worth of patches six weeks worth of patches into the dot one, which makes it just as big and just as dangerous, in my opinion, sir.
+
+82
+00:08:27.150 --> 00:08:29.310
+Jason Frame: it's a lot can happen in a few weeks yeah.
+
+83
+00:08:31.290 --> 00:08:35.460
+Jason Frame: sure that discussion in this code and it will be a lot easier to show.
+
+84
+00:08:36.540 --> 00:08:37.470
+Jason Frame: My branch well.
+
+85
+00:08:42.210 --> 00:08:50.970
+Jason Frame: let's let's go discussion so yeah work updates so see this point here about the Colonel that starting pretty soon.
+
+86
+00:08:52.230 --> 00:08:55.500
+Jason Frame: Does anyone know any more than this other than what's in the notes here and.
+
+87
+00:08:56.610 --> 00:08:58.710
+Danno Ferrin: um yeah that's something that I was able to get set up.
+
+88
+00:08:59.820 --> 00:09:00.060
+Jason Frame: Right.
+
+89
+00:09:00.090 --> 00:09:05.790
+Danno Ferrin: The big focus of the audit is going to be the execution engine so mostly, this is just a notice that an audit is going to be coming.
+
+90
+00:09:06.180 --> 00:09:15.420
+Danno Ferrin: And if you get audit related bugs fixed them quick and all your communications will be eventually made public, even though they would be private at the time, so keep that in mind, as you fix it.
+
+91
+00:09:18.090 --> 00:09:21.450
+Jason Frame: With the discussion going to happen for the order is that happening.
+
+92
+00:09:22.770 --> 00:09:24.060
+Danno Ferrin: And there's a channel.
+
+93
+00:09:24.600 --> 00:09:26.790
+Danno Ferrin: i'm on it they're supposed to be for status.
+
+94
+00:09:27.330 --> 00:09:28.860
+Danno Ferrin: And gary's on it.
+
+95
+00:09:29.190 --> 00:09:32.790
+Danno Ferrin: i'm remember who else I don't know if i'm.
+
+96
+00:09:34.260 --> 00:09:34.590
+If.
+
+97
+00:09:37.020 --> 00:09:41.130
+Danno Ferrin: Anyone elses on it that's that's a contract that's a contributor.
+
+98
+00:09:42.300 --> 00:09:50.310
+Danno Ferrin: We can put you on if you want to be on it's mostly going to be boring stuff and if we find you know items to be fixed will bring in the right people so.
+
+99
+00:09:51.330 --> 00:09:54.090
+Danno Ferrin: This is one of those the less you know, the better off it's going type things.
+
+100
+00:09:55.770 --> 00:09:58.590
+Jason Frame: Yes, yeah fair enough, I think that's progress, but then.
+
+101
+00:10:02.070 --> 00:10:05.100
+Jason Frame: In fact, this is mostly on the on the Internet.
+
+102
+00:10:08.010 --> 00:10:09.480
+Danno Ferrin: yeah okay.
+
+103
+00:10:11.130 --> 00:10:12.510
+Jason Frame: And there's a.
+
+104
+00:10:14.640 --> 00:10:17.430
+Jason Frame: he's got the exam i'm going to work update for the Java server migration.
+
+105
+00:10:17.940 --> 00:10:18.660
+Danno Ferrin: it's also me.
+
+106
+00:10:19.320 --> 00:10:20.310
+Jason Frame: that's what a great.
+
+107
+00:10:21.570 --> 00:10:21.990
+Jason Frame: What do you have.
+
+108
+00:10:22.680 --> 00:10:27.930
+Danno Ferrin: um I was going to return this weekend I started a couple weeks ago and going through today.
+
+109
+00:10:28.980 --> 00:10:43.680
+Danno Ferrin: i'm gonna put a status on a yellow and I think we should possibly consider moving into the 20 to 10 releases so that's 22 seven now as far as the code itself the code is fine, we could release it today, the issues comment in the build process and in the build tooling.
+
+110
+00:10:45.780 --> 00:10:51.600
+Danno Ferrin: To notable problems are LGBT and co Q amp l which, at the end of the day, are actually the same.
+
+111
+00:10:52.320 --> 00:11:09.630
+Danno Ferrin: code coverage tool and they're just different packaging so probably want to keep code que El and get rid of LGBT because LDC i'm officially only supports up to Java 14 but kochi well as having issues with its analysis with some very standard Java 16 problems relating to.
+
+112
+00:11:11.250 --> 00:11:14.730
+Danno Ferrin: Where the you know add opens that extends and stuff like that.
+
+113
+00:11:15.750 --> 00:11:18.690
+Danno Ferrin: So I don't think code Q all is ready to move up to 17.
+
+114
+00:11:20.190 --> 00:11:24.540
+Danno Ferrin: So that's if we were to go to 17 we would need to drop one of our code quality tools at a minimum.
+
+115
+00:11:26.550 --> 00:11:33.300
+Danno Ferrin: Another quirk is that the docker images, the images and all those they no longer have a.
+
+116
+00:11:34.620 --> 00:11:45.480
+Danno Ferrin: jdk latest that we can use as easily see where we're handling it, and when we hand roll job at 18 and requires a version of ubuntu that is not signed yet on docker 24.
+
+117
+00:11:46.560 --> 00:11:51.510
+Danno Ferrin: So that to won't work, so we could get rid of jdk latest.
+
+118
+00:11:53.070 --> 00:11:58.410
+Danno Ferrin: But those two things together combined make me think the tooling isn't ready for Java 17 we shouldn't rely on it yet.
+
+119
+00:11:58.950 --> 00:12:09.000
+Danno Ferrin: So while base itself could compile and run there's a couple of code changes get past tests on that are entirely superficial, they just changed the text of an error, we try and detect um.
+
+120
+00:12:10.050 --> 00:12:16.470
+Danno Ferrin: But other than that you know the code compiles runs we just won't get access to the new features like records and some of the other.
+
+121
+00:12:16.920 --> 00:12:22.230
+Danno Ferrin: And multi line strings and switch expression statements which are really nice but ultimately not necessary.
+
+122
+00:12:23.040 --> 00:12:27.570
+Danno Ferrin: The remaining images the rating problems, I think, are just you know, we need to figure out how to make it work within docker.
+
+123
+00:12:28.230 --> 00:12:33.210
+Danno Ferrin: there's a test windows, we just need to make sure there's a windows image that has the right version of the jdk for the doctor.
+
+124
+00:12:33.840 --> 00:12:40.590
+Danno Ferrin: And then there is a couple of tests that rely on, and this is where i'm going to need help from the people who wrote this because I don't know quite what's going on.
+
+125
+00:12:41.340 --> 00:12:52.320
+Danno Ferrin: With the CLS work that was done for the pk I for qb FT and for some of these secure connections and assuming this is coming out of the EA stuff coming out of enterprise requirements.
+
+126
+00:12:52.980 --> 00:13:01.260
+Danno Ferrin: Those don't work quite yet in the Java 17 docker images and i'm not entirely sure why and my concern is going into trying to fix it myself.
+
+127
+00:13:01.650 --> 00:13:06.900
+Danno Ferrin: Is I might just do fixes that might get rid of code algorithms that are there for a purpose.
+
+128
+00:13:07.500 --> 00:13:13.350
+Danno Ferrin: That not quite aware of so i'm losing some context, if I were to go in and fix it and say Oh, we don't need this code algorithm let's get rid of it.
+
+129
+00:13:14.160 --> 00:13:21.090
+Danno Ferrin: Since I didn't write it and wasn't aware of any things that needed to be and they weren't written into the PR that went in and there's no.
+
+130
+00:13:21.660 --> 00:13:32.190
+Danno Ferrin: Real traceability of why those went in what was important about them as far as particulars of the algorithms other than you know fits compliance and maybe that is all requirement is that they need to be the kids compliance once.
+
+131
+00:13:33.210 --> 00:13:38.940
+Danno Ferrin: But because of that i'm not comfortable going in and turning That apart, so there's unit tests that are breaking because.
+
+132
+00:13:40.650 --> 00:13:58.560
+Danno Ferrin: native libraries are not ready for Java 17 so that I think we might be able to get fixed in a week, but a coat ul and you go to images on the docker latest, the latest version, the jdk those to be indicate that we're we would probably be wise to hold it off three months.
+
+133
+00:14:02.940 --> 00:14:03.300
+Jason Frame: yeah.
+
+134
+00:14:03.360 --> 00:14:04.020
+Danno Ferrin: that's that's the.
+
+135
+00:14:04.080 --> 00:14:05.040
+Danno Ferrin: that's why I call it yellow.
+
+136
+00:14:05.910 --> 00:14:06.270
+Okay.
+
+137
+00:14:10.800 --> 00:14:21.660
+Jason Frame: yeah that sounds like a sensible idea and on the picture it bfa stuff and a little bit about there and I think there's probably plenty some help on that actually.
+
+138
+00:14:24.480 --> 00:14:25.020
+Jason Frame: Was that.
+
+139
+00:14:25.050 --> 00:14:31.770
+Danno Ferrin: So i'll keep the PR open PR creating all sorts of wonderful broken builds if you've been following circle ci today so.
+
+140
+00:14:32.550 --> 00:14:39.570
+Danno Ferrin: that the work i've done is out there, so it's stuff that can be built on and i'll go ahead and open up the branch that anyone that wants to commit to the can fix it but.
+
+141
+00:14:40.200 --> 00:14:45.630
+Danno Ferrin: I think for pretend we just need to keep the bridge open the whole time and try and get it to work he states we're ready in October.
+
+142
+00:14:49.950 --> 00:14:52.380
+Sally MacFarlane: I think that makes sense to to push it out to.
+
+143
+00:14:54.720 --> 00:14:55.440
+Jason Frame: reverse this.
+
+144
+00:14:58.440 --> 00:15:01.410
+Danno Ferrin: plus the merge will be done, and will only be doing one major change of the time so.
+
+145
+00:15:04.440 --> 00:15:06.450
+Danno Ferrin: Maybe there will be done not making an announcement.
+
+146
+00:15:12.780 --> 00:15:15.030
+Jason Frame: Work updates anyone wants to talk about.
+
+147
+00:15:23.460 --> 00:15:23.730
+Jason Frame: Okay.
+
+148
+00:15:24.810 --> 00:15:26.310
+Jason Frame: As far as I know.
+
+149
+00:15:27.780 --> 00:15:33.090
+Jason Frame: We haven't got this anything listed under other business is there anything else for the business.
+
+150
+00:15:37.980 --> 00:15:39.270
+Hart Montgomery: Do you mind if I jump in here.
+
+151
+00:15:39.630 --> 00:15:40.440
+Jason Frame: yeah place.
+
+152
+00:15:41.400 --> 00:15:43.830
+Hart Montgomery: Absolutely, so I know.
+
+153
+00:15:45.000 --> 00:15:55.170
+Hart Montgomery: Dan Oh, at least saw the the mail from TIM about the base who crp program so he would like everyone to document.
+
+154
+00:15:55.950 --> 00:16:11.490
+Hart Montgomery: Their main net maintainer were there, there may network, basically, from the beginning of the year and I was wondering what you all thought was the best way to socialize this it looks like Diana and Sally have already done this, but no one else has.
+
+155
+00:16:14.070 --> 00:16:18.120
+Sally MacFarlane: I think what you might have seen that has done Oh, and my name is on it was like a.
+
+156
+00:16:20.580 --> 00:16:29.100
+Sally MacFarlane: yeah first past and it's just put the link in a first pass at the possible format, so it might not be finalized.
+
+157
+00:16:30.090 --> 00:16:33.150
+Danno Ferrin: It may be finalized, but I put in my information so that's reflected.
+
+158
+00:16:33.630 --> 00:16:33.900
+Sally MacFarlane: done.
+
+159
+00:16:34.680 --> 00:16:39.720
+Hart Montgomery: Right so yeah I mean I don't think the format really matters that much as long as that yes, can.
+
+160
+00:16:41.460 --> 00:16:42.840
+Hart Montgomery: You know, can find it.
+
+161
+00:16:43.980 --> 00:16:45.990
+Hart Montgomery: In in can efficiently decide.
+
+162
+00:16:47.400 --> 00:16:50.340
+Hart Montgomery: To whatever you really whatever you want to do is find there.
+
+163
+00:16:51.600 --> 00:16:57.360
+Hart Montgomery: TIM was just requesting it, that would be done in the not too distant future, so I was just wondering about.
+
+164
+00:16:58.620 --> 00:17:00.390
+Hart Montgomery: How we should best go about doing that.
+
+165
+00:17:06.690 --> 00:17:09.420
+Hart Montgomery: Should I just close this quarter something, please do this or.
+
+166
+00:17:11.850 --> 00:17:14.220
+Sally MacFarlane: I think I think do that and just trial this format.
+
+167
+00:17:16.620 --> 00:17:17.130
+Hart Montgomery: or yeah.
+
+168
+00:17:17.580 --> 00:17:26.910
+Hart Montgomery: Fine yeah oh Oh, I will mail TIM with this link and say like hey you know, does this format look okay.
+
+169
+00:17:28.800 --> 00:17:30.300
+Hart Montgomery: And if he says.
+
+170
+00:17:30.390 --> 00:17:32.490
+Hart Montgomery: Yes, then, then we can just go ahead and do it.
+
+171
+00:17:34.110 --> 00:17:35.520
+Hart Montgomery: Does that work for you all.
+
+172
+00:17:37.650 --> 00:17:37.890
+Sally MacFarlane: yeah.
+
+173
+00:17:38.700 --> 00:17:47.460
+Hart Montgomery: Yes, and I will say I had, I had a big long meeting with some lawyers last week and we appear to be in good shape from that left side.
+
+174
+00:17:50.130 --> 00:17:52.290
+Hart Montgomery: So we should be able to move forward there.
+
+175
+00:17:55.710 --> 00:17:56.070
+Danno Ferrin: will be.
+
+176
+00:17:57.240 --> 00:17:59.940
+Hart Montgomery: So yeah thanks and sorry to interrupt the meeting.
+
+177
+00:18:00.960 --> 00:18:03.810
+Jason Frame: I know that's that's great i'll put that in aqua says.
+
+178
+00:18:04.890 --> 00:18:08.400
+Jason Frame: Something girl the details, but i'm the same for now.
+
+179
+00:18:24.210 --> 00:18:26.460
+Sally MacFarlane: Can I ask a question on the.
+
+180
+00:18:26.490 --> 00:18:27.840
+Sally MacFarlane: time frame.
+
+181
+00:18:29.100 --> 00:18:31.410
+Sally MacFarlane: Like is it hey to answer the first person.
+
+182
+00:18:32.340 --> 00:18:35.190
+Hart Montgomery: yeah it's genuinely one through now.
+
+183
+00:18:36.720 --> 00:18:40.200
+Sally MacFarlane: Right, so that should be hey john 2020 that page.
+
+184
+00:18:41.100 --> 00:18:42.270
+Hart Montgomery: yeah that's right.
+
+185
+00:18:43.740 --> 00:18:46.170
+Hart Montgomery: So, but you just made a typo it's not the end of the world.
+
+186
+00:18:52.650 --> 00:18:57.330
+Jason Frame: So you you, you say you're going to have that discussion on this code and TIM and.
+
+187
+00:18:58.650 --> 00:19:12.090
+Hart Montgomery: yeah so i'll just mail TIM, to make sure he's okay with format and then assuming he is you know we'll just ask everybody to document, their main network in a similar format.
+
+188
+00:19:18.840 --> 00:19:19.020
+Jason Frame: Oh.
+
+189
+00:19:24.690 --> 00:19:28.830
+Danno Ferrin: cool i'm sorry to drop off, but I needed to go pick up my son from the airport so.
+
+190
+00:19:29.340 --> 00:19:30.330
+Danno Ferrin: don't think there's anything.
+
+191
+00:19:30.360 --> 00:19:34.770
+Danno Ferrin: else on the agenda that needs my contribution requires it.
+
+192
+00:19:36.540 --> 00:19:37.200
+Jason Frame: Thanks to.
+
+193
+00:19:38.100 --> 00:19:38.640
+Sally MacFarlane: A Santa.
+
+194
+00:19:40.920 --> 00:19:48.870
+Jason Frame: Do we will go through the metro for you and I think last time we scripted the may not be much that goes through their new Does anyone want to get through this door.
+
+195
+00:19:53.670 --> 00:19:55.470
+Jason Frame: I think they'll take a skiff.
+
+196
+00:19:56.670 --> 00:20:00.720
+Jason Frame: Okay, to skip and what else we got here, this is a this is interesting proposal that.
+
+197
+00:20:02.640 --> 00:20:04.200
+Jason Frame: let's go to let me know that's waiting.
+
+198
+00:20:06.240 --> 00:20:08.880
+Jason Frame: Nicholas started, we might not.
+
+199
+00:20:10.680 --> 00:20:15.810
+Jason Frame: I think I think you can do this part right here, I think i'll have the discussion on this tour, to see what people really.
+
+200
+00:20:18.510 --> 00:20:19.740
+Jason Frame: want to do here, but.
+
+201
+00:20:21.630 --> 00:20:26.040
+Jason Frame: yeah they shall I think we have anyone to actually talk to this too much.
+
+202
+00:20:28.470 --> 00:20:39.120
+Jason Frame: But there's a proposal be at that nicholas's may to move some of the make it easier to find quite find answers to questions and make a bit more organized.
+
+203
+00:20:41.790 --> 00:20:51.630
+Jason Frame: So I guess if people can go through here at their comments, Dr Melanie just share this a bit more on i'm not sure if this was shared on what's going on but article.
+
+204
+00:20:53.100 --> 00:20:53.490
+Sally MacFarlane: It was.
+
+205
+00:20:54.300 --> 00:20:55.110
+Jason Frame: It was great.
+
+206
+00:20:55.410 --> 00:20:56.820
+Jason Frame: Okay, so what's paper.
+
+207
+00:20:58.620 --> 00:20:59.490
+Jason Frame: few more comments here.
+
+208
+00:21:03.960 --> 00:21:06.990
+Jason Frame: Let me do this in this meeting on this tomorrow, until we get it.
+
+209
+00:21:09.930 --> 00:21:10.590
+Jason Frame: ever.
+
+210
+00:21:11.700 --> 00:21:12.780
+Jason Frame: smoked a day on this.
+
+211
+00:21:14.010 --> 00:21:15.630
+Jason Frame: list does anyone want to talk to this at all.
+
+212
+00:21:19.980 --> 00:21:20.550
+Sally MacFarlane: Good to get.
+
+213
+00:21:22.440 --> 00:21:24.270
+Sally MacFarlane: people's thoughts on this like there.
+
+214
+00:21:25.500 --> 00:21:30.720
+Sally MacFarlane: Are some things in disco that are really annoying like threaded discussions and it's really hard to search.
+
+215
+00:21:31.740 --> 00:21:32.970
+Sally MacFarlane: For things.
+
+216
+00:21:34.230 --> 00:21:51.540
+Sally MacFarlane: So this proposal is basically to enable github discussion so that we can build up that kind of knowledge base on the github discussion side of things, but it comes with the drawback of then having to so those repositories are two things to keep track of.
+
+217
+00:21:53.220 --> 00:21:54.090
+Constantly.
+
+218
+00:21:55.260 --> 00:21:56.670
+Sally MacFarlane: So yeah it would just be interesting to you.
+
+219
+00:21:58.320 --> 00:21:58.590
+Jason Frame: yeah.
+
+220
+00:22:00.630 --> 00:22:01.050
+Jason Frame: So.
+
+221
+00:22:02.370 --> 00:22:03.480
+Jason Frame: I think we'll just have to.
+
+222
+00:22:04.770 --> 00:22:08.430
+Jason Frame: wait for people to engage in this, because this looks at some feedback here.
+
+223
+00:22:13.980 --> 00:22:19.500
+Jason Frame: A strong, yes, well, not the moment I think both incoming with pros and cons, unfortunately, like I said.
+
+224
+00:22:24.210 --> 00:22:26.430
+Sally MacFarlane: yeah I don't think there's any moving away from.
+
+225
+00:22:26.430 --> 00:22:34.440
+Sally MacFarlane: discord I think described as the point that i'm trying to keep it is it's just whether it makes sense to utilize github discussions alongside.
+
+226
+00:22:35.820 --> 00:22:40.230
+Jason Frame: Here, I think it could be interesting to try and I want you to have discussions and see if it does help.
+
+227
+00:22:41.280 --> 00:22:44.730
+Jason Frame: And people might just start using that as well.
+
+228
+00:22:46.860 --> 00:22:53.400
+Sally MacFarlane: yeah, so I think it has to be more than just enabling it because we enabled it before and knowing, you said that we disabled it.
+
+229
+00:22:54.240 --> 00:23:01.470
+Sally MacFarlane: So I think it's going to be more than just turning it on it's going to be, you know I think Helens last comment that was about.
+
+230
+00:23:02.250 --> 00:23:12.450
+Sally MacFarlane: says maintain is building up that knowledge base, you know, we find that we're answering the same question repeatedly you know, and maybe that's a candidate to add to that kind of knowledge base.
+
+231
+00:23:15.360 --> 00:23:19.650
+Jason Frame: Important so we can probably start triggering the knowledge base they're important people towards them.
+
+232
+00:23:21.060 --> 00:23:22.890
+Jason Frame: In ways from questions and more help.
+
+233
+00:23:27.960 --> 00:23:28.230
+Jason Frame: alright.
+
+234
+00:23:30.810 --> 00:23:38.610
+Jason Frame: later there with that one for now it's just as far as what of what the next step on this is to sneak more.
+
+235
+00:23:41.520 --> 00:23:42.960
+Jason Frame: Some more feedback on this before.
+
+236
+00:23:43.680 --> 00:23:46.170
+Sally MacFarlane: yeah Maybe someone can possibly be guided to.
+
+237
+00:23:47.460 --> 00:23:49.530
+Sally MacFarlane: just remind people to comment.
+
+238
+00:23:54.900 --> 00:23:55.590
+Jason Frame: Good that's a good idea.
+
+239
+00:23:59.580 --> 00:24:04.380
+Jason Frame: that's everything on the agenda was there anything else that anyone wants to come up.
+
+240
+00:24:10.110 --> 00:24:11.880
+Jason Frame: Well, stop the share that.
+
+241
+00:24:14.160 --> 00:24:15.180
+Jason Frame: And that's it for tonight and.
+
+242
+00:24:18.120 --> 00:24:18.480
+Jason Frame: If ever.
+
+243
+00:24:19.320 --> 00:24:19.800
+kids.
+
+244
+00:24:21.180 --> 00:24:22.500
+Hart Montgomery: Right, thank you.
+

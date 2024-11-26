@@ -1,0 +1,2094 @@
+WEBVTT
+
+1
+00:00:03.149 --> 00:00:08.639
+Grace Hartley: housekeeping items, so this is the February 15 basic attributor call.
+
+2
+00:00:10.950 --> 00:00:15.719
+Grace Hartley: i've dropped the link in the chat For those of you who would like to follow on.
+
+3
+00:00:16.890 --> 00:00:18.930
+Grace Hartley: Thanks for everyone who contributed to the agenda.
+
+4
+00:00:21.330 --> 00:00:24.060
+Grace Hartley: The housekeeping there's an address notice.
+
+5
+00:00:25.110 --> 00:00:38.010
+Grace Hartley: follow that please this meeting is being recorded, please mute unless you're being a talking unless you're talking, of course, and then, if you have questions raising in feature that seems to work pretty well.
+
+6
+00:00:40.380 --> 00:00:43.590
+Grace Hartley: I think that's it and then I think there's something about the code of conduct, please follow that.
+
+7
+00:00:47.970 --> 00:00:52.410
+Grace Hartley: I think so just looking at, we have an hour together, so we have probably.
+
+8
+00:00:53.610 --> 00:00:54.420
+Grace Hartley: A few.
+
+9
+00:00:55.530 --> 00:01:02.400
+Grace Hartley: Few updates, I think, of course, will probably take most of the time on the incentive program updates, you know teams here.
+
+10
+00:01:03.780 --> 00:01:18.330
+Grace Hartley: And we can talk about the latest version and feedback comments with the group I think i'm cautiously optimistic that maybe we'll have some time at the end to run through the rest of the items or i'd love to be you maybe 15 minutes at the end.
+
+11
+00:01:19.380 --> 00:01:30.570
+Grace Hartley: To kind of talk about there's like a bunch of open forum items and release updates and I think just you know our regular business that we should probably try to get to as well, so maybe let's let's kind of time boxes for.
+
+12
+00:01:32.220 --> 00:01:33.570
+Grace Hartley: Maximum 45 minutes which I.
+
+13
+00:01:33.570 --> 00:01:36.540
+Grace Hartley: Think should be okay, but correct me if i'm wrong and then.
+
+14
+00:01:37.830 --> 00:01:42.600
+Grace Hartley: Then kind of get out the rest of it that's all right, Daniel go ahead.
+
+15
+00:01:43.500 --> 00:01:56.220
+Daniela Barbosa: Good morning, everyone and good afternoon just wanted to let everybody know that we we made an announcement yesterday or actually last week about our new hyper ledger foundation cto.
+
+16
+00:01:56.910 --> 00:02:02.460
+Daniela Barbosa: In case you missed it we're very happy that hartman Curry who many of you have known.
+
+17
+00:02:02.970 --> 00:02:10.590
+Daniela Barbosa: For many years he's been part of the hyper ledger community and part of the technical steering committee since the beginning, since 2016.
+
+18
+00:02:11.010 --> 00:02:18.120
+Daniela Barbosa: So he's one of the original tasc Members who participated, so he officially starts tomorrow morning.
+
+19
+00:02:18.960 --> 00:02:28.140
+Daniela Barbosa: Here at the Linux foundation as a Linux foundation employee and in his role of hyper ledger certified certified chief technology officer so.
+
+20
+00:02:28.650 --> 00:02:37.200
+Daniela Barbosa: Congratulations to heart, I am so pleased that i'm going to have heart along me leading our Community, he has been briefed.
+
+21
+00:02:37.830 --> 00:02:54.360
+Daniela Barbosa: You know from most of the you know, most of the client incentive program and is an additional resource for us so just wanted to let everybody know that heart is on the phone today and is representing the hyper ledger Foundation and the Linux foundation as an.
+
+22
+00:02:55.860 --> 00:02:56.490
+Daniela Barbosa: Our cto.
+
+23
+00:02:59.640 --> 00:03:05.460
+Daniela Barbosa: Not as a you know and not as a tlc Member or or as a contributor maintainer.
+
+24
+00:03:06.570 --> 00:03:08.370
+Hart Montgomery: So thanks Daniela for the.
+
+25
+00:03:08.400 --> 00:03:09.240
+Hart Montgomery: kind words and.
+
+26
+00:03:09.420 --> 00:03:10.410
+Hart Montgomery: Thank you, everybody.
+
+27
+00:03:12.390 --> 00:03:16.020
+Hart Montgomery: I have to drop off this call a couple minutes early, but I should be able to stay on for most of it.
+
+28
+00:03:19.110 --> 00:03:20.100
+Grace Hartley: Oh well.
+
+29
+00:03:20.400 --> 00:03:26.580
+Grace Hartley: congrats are happy to have you here was happy to have you here as a team Member, but even more happy to have you here as a cto.
+
+30
+00:03:28.110 --> 00:03:30.870
+Grace Hartley: So congrats Sagan except for hyper ledger.
+
+31
+00:03:33.870 --> 00:03:43.140
+Grace Hartley: cool, so the program so maybe, just a quick recap for everybody, because it's been a couple weeks and things seem to fire out quite a bit.
+
+32
+00:03:44.760 --> 00:03:48.390
+Grace Hartley: So we reviewed the proposal number three at the last.
+
+33
+00:03:49.410 --> 00:03:55.350
+Grace Hartley: incident last contributor call meeting, I think we generally agreed but there.
+
+34
+00:03:56.580 --> 00:04:05.910
+Grace Hartley: And we can look at the notes from last time to kind of talk about that further, but I think we generally agreed on a lot of the High Level points like around the transaction fees are on the withdrawal keys.
+
+35
+00:04:07.320 --> 00:04:12.570
+Grace Hartley: And, but the one open question that was kind of still a clear was like the different roles within.
+
+36
+00:04:14.460 --> 00:04:24.390
+Grace Hartley: Within the basic Community and being and being able to participate in this incentive program so TIM kind of own that action item to kind of redo the.
+
+37
+00:04:25.890 --> 00:04:32.430
+Grace Hartley: or add that in kind of talking about what are the different definitions of kind of who's eligible for what and.
+
+38
+00:04:32.880 --> 00:04:46.560
+Grace Hartley: I tried to make that kind of clear in this version for so TIM doesn't make sense to maybe so i'll pause there, maybe hold on quick questions and then maybe i'll talk to this, but any initial questions or comments or anything else we should recap on.
+
+39
+00:04:51.660 --> 00:04:57.180
+Grace Hartley: cool okay tim's floor is yours to kind of just walk through what you did, and how how you kind of come up with this.
+
+40
+00:04:58.320 --> 00:04:59.820
+Grace Hartley: I think tearing system yeah.
+
+41
+00:05:00.150 --> 00:05:02.520
+Tim Beiko: yeah do you mind if I share my screen, just so.
+
+42
+00:05:02.730 --> 00:05:10.590
+Tim Beiko: Because i'm probably going to jump back and forth in the Doc I put the link, so the link is on hyper ledger wiki but then it's like a message link to my hacking the.
+
+43
+00:05:11.250 --> 00:05:18.270
+Tim Beiko: documents that didn't have time to reformat so I posted that in the in the chat directly if people want to follow along.
+
+44
+00:05:18.900 --> 00:05:26.640
+Tim Beiko: High Level yeah there's a couple kind of changes from like the proposal three and 3.5 I guess the way I went about.
+
+45
+00:05:26.910 --> 00:05:37.350
+Tim Beiko: Making those changes is I spent a lot of the past few weeks, talking with the folks involved in this process, so I talked with folks that consensus folks that he left with no allies and and.
+
+46
+00:05:38.010 --> 00:05:44.370
+Tim Beiko: trying to get to a spot and also sorry talk with some folks at the yes and and I think I tried to get to a spot where like we have something that.
+
+47
+00:05:44.700 --> 00:05:56.850
+Tim Beiko: Generally fits with what people want is technically doable and and ideally is legally doable, which is the last kind of open question we have and I guess my goal with this proposal is to get kind of.
+
+48
+00:05:57.270 --> 00:06:12.540
+Tim Beiko: conceptual agreement across the basic Community if this is something that like people are happy with, then the next step would be for us, and he left and consensus that just kind of send it to lawyers and draft like a more formal agreement.
+
+49
+00:06:13.860 --> 00:06:19.470
+Tim Beiko: So yeah, and so this is basically you know kind of think of it as like a design Doc for the grant agreement.
+
+50
+00:06:20.340 --> 00:06:24.210
+Tim Beiko: And in terms of the actual changes, based on the previous proposals.
+
+51
+00:06:25.050 --> 00:06:30.360
+Tim Beiko: one kind of formatting thing is, I tried to like regroup all of the definitions together so that.
+
+52
+00:06:30.720 --> 00:06:35.910
+Tim Beiko: I apologize it kind of changes the flow of the document a lot that means you have to reread the whole thing you can't just get a diff.
+
+53
+00:06:36.360 --> 00:06:50.310
+Tim Beiko: But the goal is that, ideally, things are like only defined once, whereas the previous ones kind of had like double definitions for a bunch of stuff and that can get confusing, so I tried to kind of grouped together and like Ray said, I think the biggest.
+
+54
+00:06:52.170 --> 00:07:02.190
+Tim Beiko: I don't know conceptual changes, just like delineating the different kind of levels of engagement of both individual contributors and organizations and then.
+
+55
+00:07:02.970 --> 00:07:09.420
+Tim Beiko: Technically, this is something that came, you know with talking with the folks at the EFF who have a lot of experience running validators.
+
+56
+00:07:09.690 --> 00:07:15.930
+Tim Beiko: And previous versions of the proposals have this idea where you would send transaction fees like prorated.
+
+57
+00:07:16.350 --> 00:07:22.680
+Tim Beiko: To the different addresses for different validators and there's a lot of just like operational complexities to do that.
+
+58
+00:07:23.280 --> 00:07:29.940
+Tim Beiko: it's probably much simpler to just have a smart contract on chain which, like splits funds and that's a pretty solved problem if you're just dealing with ease.
+
+59
+00:07:30.270 --> 00:07:40.770
+Tim Beiko: And that gives the Nice property to like you can put specific percentages and specific addresses have a claim over that but you don't need to send funds back and forth between different organizations.
+
+60
+00:07:41.100 --> 00:07:49.590
+Tim Beiko: And you only need when you update the kind of splitting contracts can update every single validator at once to the same address it's easy to check that you've done it right um.
+
+61
+00:07:50.370 --> 00:08:00.060
+Tim Beiko: Because of that assuming we went to use a smart contract the you need kind of a distribution of addresses and their share of contributions.
+
+62
+00:08:00.960 --> 00:08:08.880
+Tim Beiko: That sent to so that means you kind of need to look at the previous period, send the current periods rewards, so you kind of have a small offset there.
+
+63
+00:08:09.420 --> 00:08:23.760
+Tim Beiko: um so that's just something to be mindful of um and then I would draw key distribution, basically, is kind of the part that's been a bit more explicit around the different kinds of types of contributors and.
+
+64
+00:08:25.410 --> 00:08:37.020
+Tim Beiko: And yeah so so just just the first section with definition thanks a ton dunno for the main that development I think you've had like the best Chris definition of it and I already copied pasted it into this.
+
+65
+00:08:38.520 --> 00:08:53.310
+Tim Beiko: The bet and I think this is like the most important part, so I tried to really delineate like what type of people or organizations involved in base, you would have access to what type of rewards from the Program.
+
+66
+00:08:54.390 --> 00:09:04.680
+Tim Beiko: and a high level there's like four four buckets first you just have contributors So these are people who write code for basically they're not maintain errs and so these people basically don't get.
+
+67
+00:09:05.430 --> 00:09:09.390
+Tim Beiko: a share of transaction fees validator rewards or withdrawal distributions.
+
+68
+00:09:09.900 --> 00:09:22.440
+Tim Beiko: redraw distributions now they're just contribute and that's it if if basically has paid bounties and stuff like that, obviously, they can be eligible for those but they don't get like any funds flowing from the program directly Center them.
+
+69
+00:09:24.300 --> 00:09:34.050
+Tim Beiko: Then the kind of next level is, you have a maintainer that's working on maintenance, so this is somebody who is listed as an active maintainer there's a list of active maintainer that's kind of base ooh and whose.
+
+70
+00:09:34.410 --> 00:09:48.510
+Tim Beiko: whose work is focused on the theory of mine, and these individuals would be eligible for a share of the transaction fees and validator rewards and we have I haven't tried to change how that's distributed.
+
+71
+00:09:49.380 --> 00:09:55.110
+Tim Beiko: Based on the past proposals but they're not eligible for redraw key distributions yet um.
+
+72
+00:09:55.980 --> 00:10:04.020
+Tim Beiko: And you know the way I think you define the main that maintainer is somebody who has a piece of single substantial contribution to base you during a specific six months period.
+
+73
+00:10:04.740 --> 00:10:10.770
+Tim Beiko: I gave some examples here, I think, at a high level what you want a substantial contribution to be is like either a whole new feature.
+
+74
+00:10:11.820 --> 00:10:14.280
+Tim Beiko: Performance improvement, the security fix.
+
+75
+00:10:15.720 --> 00:10:26.250
+Tim Beiko: I don't have a strong opinion on what's not a significant contributions but off the top of my head like it a single E IP that just change a gas costs or like a new json rpc API that's like it, you know.
+
+76
+00:10:26.850 --> 00:10:36.690
+Tim Beiko: Very close to an existing one that seems not like substantial um, it is a fuzzy line to draw and I don't think I necessarily the best one but.
+
+77
+00:10:37.020 --> 00:10:45.750
+Tim Beiko: um yeah I think at a high level if you've implemented like a large feature to be sued that's relevant to main that within a six month period, you should be eligible.
+
+78
+00:10:47.610 --> 00:10:49.710
+Tim Beiko: The next step, for that is, I think.
+
+79
+00:10:50.100 --> 00:10:57.360
+Justin Florentine: Basically, the caution on that real quick, just so we have our own definition of maintainer right now, as far as like rolling people in.
+
+80
+00:10:57.840 --> 00:11:02.130
+Justin Florentine: yeah do you like us to improve that so it's more in line with this.
+
+81
+00:11:02.970 --> 00:11:03.240
+Tim Beiko: No, no.
+
+82
+00:11:03.540 --> 00:11:07.860
+Justin Florentine: Sorry kill two birds with one stone there if we were like Okay, you made maintainer so.
+
+83
+00:11:09.420 --> 00:11:09.810
+Tim Beiko: You know.
+
+84
+00:11:09.900 --> 00:11:17.550
+Tim Beiko: The challenge, though, is that none of the maintainer is on base, you might never work on maintenance right, and so I think you need this, like other filter.
+
+85
+00:11:18.570 --> 00:11:19.650
+Tim Beiko: that's like a bit.
+
+86
+00:11:21.030 --> 00:11:24.870
+Tim Beiko: This is, I guess the difference between like the basic project and the incentive.
+
+87
+00:11:24.870 --> 00:11:25.260
+Justin Florentine: Right.
+
+88
+00:11:25.380 --> 00:11:34.050
+Tim Beiko: Like if you have somebody you say i'm old my basic knowledge but works on like you know the privacy for like I think it's a Ryan.
+
+89
+00:11:34.650 --> 00:11:39.630
+Justin Florentine: No, I understand that I was just I was more thinking with regard to quantity or size of the contribution as.
+
+90
+00:11:39.630 --> 00:11:43.050
+Justin Florentine: opposed to the type, I think we have a pretty clear idea of what's made them what's not.
+
+91
+00:11:43.740 --> 00:11:52.890
+Tim Beiko: Right right, and I think yeah if if you all want to come with like a better list than that, like I I just don't know how you.
+
+92
+00:11:54.840 --> 00:11:57.930
+Tim Beiko: yeah yeah I think it's I think it's hard like, and I think.
+
+93
+00:11:58.710 --> 00:11:59.430
+Justin Florentine: I good enough.
+
+94
+00:12:00.870 --> 00:12:06.060
+Justin Florentine: Other question you know we mentioned six months here is that is that the is that the period that we're thinking of for the.
+
+95
+00:12:07.950 --> 00:12:08.550
+Justin Florentine: accounting.
+
+96
+00:12:09.090 --> 00:12:19.440
+Tim Beiko: So six months, the reason for that is the rewards will vest every six months right, and so I think it makes sense to update kind of to look at contributions on the same schedule.
+
+97
+00:12:19.560 --> 00:12:22.740
+Tim Beiko: it's like ever that's like a vesting period basically um.
+
+98
+00:12:22.800 --> 00:12:24.150
+Justin Florentine: Yes, yeah yeah.
+
+99
+00:12:26.160 --> 00:12:39.480
+Tim Beiko: And I think okay so, so this is basically for transaction fees validator rewards and I think, then, the question is like who gets access to the withdrawal credentials and actually talking with like a bunch of different people, it seems like.
+
+100
+00:12:41.130 --> 00:12:49.680
+Tim Beiko: This is what's at the highest risk of being very contentious and I think this is probably where it makes sense for the ef to like draw the line.
+
+101
+00:12:50.070 --> 00:13:02.310
+Tim Beiko: And I have some some criteria below, but at a high level how it would work is if you're already a main method maintainer and you'd like to like get access to the the rewards the next step is you basically.
+
+102
+00:13:02.760 --> 00:13:07.950
+Tim Beiko: become like a patron maintainer or a pm, which I know is like a terrible acronym but bear with me.
+
+103
+00:13:09.900 --> 00:13:19.170
+Tim Beiko: Once and then yes basically makes a call on Twitter just maintainer can become a patron maintainer if you are a patient maintainer.
+
+104
+00:13:19.620 --> 00:13:24.060
+Tim Beiko: During the first like vesting period, so the first six months that's your one on.
+
+105
+00:13:24.930 --> 00:13:35.550
+Tim Beiko: Your you vest which all keys, but those go to he left and then, if you want your organization, so your employer to have access to withdraw keys, you would become a patron organization.
+
+106
+00:13:35.790 --> 00:13:43.440
+Tim Beiko: Again, that ef makes a call and then from that point you start investing withdrawal keys directly to your organization and.
+
+107
+00:13:44.490 --> 00:13:51.630
+Tim Beiko: One thing that's nice with this is that it doesn't do any kind of like back waiting of all the contributions, it just looks at every single period.
+
+108
+00:13:52.380 --> 00:14:05.100
+Tim Beiko: That said, one thing I think we wanted in the program is also the reward to some extent, that the the organizations that have been supporting clients, for a long time, so the sort of compromise, there would be that the first period of.
+
+109
+00:14:05.460 --> 00:14:12.870
+Tim Beiko: Which all credentials, you only have consensus and hyper ledger foundation, who are patron organizations and then you can start adding some after that.
+
+110
+00:14:15.000 --> 00:14:22.830
+Tim Beiko: And i'll just scroll right down to like roughly the criteria that you know I think we we we want to have.
+
+111
+00:14:24.750 --> 00:14:33.030
+Tim Beiko: To kind of move containers to picture and maintain errs and organizations that patient organizations and again this Daniel thanks for the help here.
+
+112
+00:14:34.590 --> 00:14:37.560
+Tim Beiko: First it's just like you know how much and how baby.
+
+113
+00:14:38.430 --> 00:14:45.000
+Tim Beiko: Have like was the quantity and the impact of the contributions that, like the the maintainer and the org have done towards base you.
+
+114
+00:14:45.360 --> 00:14:53.550
+Tim Beiko: And I think they're you know we'd like to see several kind of large features set you know the ips have implemented across several network upgrades.
+
+115
+00:14:54.390 --> 00:15:01.320
+Tim Beiko: Consensus critical fixes like really you know these people and these organizations have like contributed significantly to base you.
+
+116
+00:15:02.070 --> 00:15:07.680
+Tim Beiko: I think the other thing, this is a bit more like a soft or like a fuzzy requirement, but like.
+
+117
+00:15:08.280 --> 00:15:20.280
+Tim Beiko: engaging with like the broader theme of my neck Community beyond just like the basic Community itself, and this isn't like doesn't need to be huge, but you know, being in the ether and discord showing up on awkward dabs from time to time.
+
+118
+00:15:21.450 --> 00:15:30.600
+Tim Beiko: No way you know, like being involved in ei P discussions that are relevant to you like we don't expect people to be engaged in every single issue all the time, but like.
+
+119
+00:15:31.560 --> 00:15:37.380
+Tim Beiko: You should have shown up and like generally be aware of what's happening, the broader community.
+
+120
+00:15:38.250 --> 00:15:48.660
+Tim Beiko: And I think the other thing that we'd like to see, and this is more like the organization level than like an individual, but like basically being proactive around improving the three main that's beyond just like writing code.
+
+121
+00:15:49.080 --> 00:15:56.010
+Tim Beiko: for supporting base you and again this is something that you know, like I think organizations have in the past, whether this is like.
+
+122
+00:15:56.460 --> 00:16:06.000
+Tim Beiko: Checking the IP working on an R amp D efforts helping just with testing infrastructure with performance optimizations things like go a bit beyond just like.
+
+123
+00:16:07.020 --> 00:16:11.010
+Tim Beiko: Supporting magnet than being able to sync them enough and.
+
+124
+00:16:11.910 --> 00:16:22.740
+Tim Beiko: And then, a high level how this works is you know, once a if you have a main that maintainer they want to become a patron maintainer and you just ask the E, F, which for now would be me and we make a call on that.
+
+125
+00:16:23.520 --> 00:16:33.000
+Tim Beiko: And then, assuming that like you want to also have your become a patron organization then same thing you just reach out, can we make a call on that as well.
+
+126
+00:16:34.890 --> 00:16:40.740
+Tim Beiko: i'll pause here and I feel this is like the biggest chunk of it and any questions comments.
+
+127
+00:16:49.500 --> 00:16:49.800
+Tim Beiko: Okay.
+
+128
+00:16:50.490 --> 00:16:53.190
+Grace Hartley: i'm so sorry I didn't raise my hand and the words of.
+
+129
+00:16:54.300 --> 00:16:59.490
+Grace Hartley: The and just be clear, like, I think you said this, but just want to restate this to make sure i'm.
+
+130
+00:17:00.660 --> 00:17:03.210
+Grace Hartley: patron eligibility is solely decided by the.
+
+131
+00:17:04.110 --> 00:17:06.960
+Tim Beiko: Yes, and I think this is just a.
+
+132
+00:17:07.350 --> 00:17:07.980
+Grace Hartley: maintainer and.
+
+133
+00:17:08.160 --> 00:17:09.600
+Tim Beiko: i'm not sure who told this to be.
+
+134
+00:17:09.810 --> 00:17:15.930
+Tim Beiko: Probably a lot of people have but like this is so that, like the basic computer calls don't end up being like people arguing.
+
+135
+00:17:15.930 --> 00:17:17.310
+Tim Beiko: about who should be a patron.
+
+136
+00:17:17.670 --> 00:17:28.530
+Tim Beiko: Every two weeks, and I think you know we we want to see base you succeed like we we do want to exercise judgment here, but like we're more than happy.
+
+137
+00:17:28.980 --> 00:17:38.490
+Tim Beiko: Like if you come and you ask us like what do you want to see you know i'm more than happy to like tell you and I kind of highlight you know the the gap between like.
+
+138
+00:17:38.850 --> 00:17:45.330
+Tim Beiko: You know the contributions today and, like what we'd like to see and and yeah so I yeah I.
+
+139
+00:17:45.930 --> 00:17:57.840
+Tim Beiko: You know, we want to help basically succeed here we don't our goal is not to like block everyone from from ever being a patron, but we do want you know it to be like the highest quality maintain errs and organizations and.
+
+140
+00:17:59.100 --> 00:18:00.810
+Tim Beiko: And I think that's probably just mentioned.
+
+141
+00:18:01.200 --> 00:18:02.250
+Tim Beiko: It makes.
+
+142
+00:18:04.500 --> 00:18:20.790
+Grace Hartley: It that makes sense and once I think one thing, just to comment feedback I like about this is that there's kind of a tearing to it, so you know it, you know you become a minute maintainer you become eligible like there's kind of like little benchmarks for everything which I.
+
+143
+00:18:20.790 --> 00:18:21.330
+Grace Hartley: Think is kind.
+
+144
+00:18:22.170 --> 00:18:37.950
+Grace Hartley: Of like you know, once you can become a contributor get started, become a regular maintainer because you've hit your goal, what is it three or five commits Members are guys and then the next level is I mean that maintainer, and that makes you eligible for transaction.
+
+145
+00:18:38.970 --> 00:18:52.110
+Grace Hartley: fees and then, if you get the next benchmark you become a patron maintainer and then like ultimate his organization, where there are multiple patriot, he maintains, which I guess I like that it's kind of a tiered reward system.
+
+146
+00:18:53.310 --> 00:18:56.610
+Grace Hartley: And you kind of like it's a clear path, hopefully for.
+
+147
+00:18:58.200 --> 00:19:05.430
+Grace Hartley: contributors are kind of here's where you kind of can see yourselves and how you continue to like work up in and get there, so just.
+
+148
+00:19:06.090 --> 00:19:06.270
+Right.
+
+149
+00:19:08.070 --> 00:19:09.750
+Tim Beiko: yeah and I think it does make like a.
+
+150
+00:19:09.750 --> 00:19:12.450
+Tim Beiko: cure actually are kind of gap between them um.
+
+151
+00:19:14.850 --> 00:19:20.220
+Tim Beiko: So I guess yeah it sort of maybe going just quickly over to two other kind of changes.
+
+152
+00:19:22.860 --> 00:19:37.620
+Tim Beiko: So transaction fees I didn't change anything except the idea of the ascending the Feast of a smart contract and the main The main reason there is it's just like technologically simpler and also from an accounting perspective.
+
+153
+00:19:38.670 --> 00:19:48.240
+Tim Beiko: I don't have a strong opinion on the contracts like i've used mirror splits in the past and it's worked well and it's it's optimized only for each but the way it works is it.
+
+154
+00:19:49.500 --> 00:19:55.920
+Tim Beiko: And there's a ui for it, which is, which is helpful if it's somebody like me or grace that needs to set it up and not.
+
+155
+00:19:56.940 --> 00:19:57.240
+Tim Beiko: yeah.
+
+156
+00:20:00.060 --> 00:20:03.390
+Tim Beiko: it's not loading okay yeah so basically how this works is like.
+
+157
+00:20:03.960 --> 00:20:10.650
+Tim Beiko: You know you set up, however many recipients you want each recipient has a claim over all the email that sent into the split.
+
+158
+00:20:10.920 --> 00:20:18.900
+Tim Beiko: And so very high level, you know we can say 20% goes to the node operators 20% goes to the hyper ledger pool, so you just have their two addresses with 20%.
+
+159
+00:20:19.350 --> 00:20:27.480
+Tim Beiko: And then, at the end of a period we look at this main that maintainer pool and you just have a list of address for either organizations or individuals and you also add those.
+
+160
+00:20:28.020 --> 00:20:38.190
+Tim Beiko: And this means that, like all the validators with with us this this split contract, as the address two words which they sent transaction fees and then.
+
+161
+00:20:38.790 --> 00:20:45.510
+Tim Beiko: The transaction fees just sit there until somebody who owns like one of the addresses claims them.
+
+162
+00:20:46.230 --> 00:20:53.670
+Tim Beiko: And the caveat is you obviously don't want to lose your key to the address you've put there but that's true of any transaction fee address.
+
+163
+00:20:54.270 --> 00:21:01.170
+Tim Beiko: And then these contracts cost like a little bit deployed you're not super expensive, but basically every six months, you would need to deploy a new one.
+
+164
+00:21:02.610 --> 00:21:10.770
+Tim Beiko: And you can use basically you know fees from like either to hyper ledger pool or somewhere else, if you want to your mark for that to just pay for the gas to deploy.
+
+165
+00:21:12.600 --> 00:21:24.030
+Tim Beiko: There might be others within contracts like again I, this is just the one i've i've used in the past, and like I know has been like audited and and and also use like it in a lot of projects.
+
+166
+00:21:25.230 --> 00:21:37.020
+Tim Beiko: But generally this simplifies and it also removes the need for like if if say consensus is validators got way more transaction fees than the one pointing toward hyper ledger because they just got all the blocks.
+
+167
+00:21:37.320 --> 00:21:40.860
+Tim Beiko: Then they would have needed to like send funds over so This removes the need for that.
+
+168
+00:21:44.460 --> 00:21:46.110
+Tim Beiko: And I see this coming from the chat.
+
+169
+00:21:54.030 --> 00:22:02.370
+Tim Beiko: Right yeah so we want to be a bit mindful about the one we actually deploy this contract and and not pay super high fees if there's an nfc gas or going on.
+
+170
+00:22:03.570 --> 00:22:03.930
+Tim Beiko: um.
+
+171
+00:22:05.730 --> 00:22:16.890
+Tim Beiko: And then, so this is like I guess they're like most complicated section like I invite people to actually read this I rather than just listen to be chatting but like high level, I tried to map the model like.
+
+172
+00:22:17.340 --> 00:22:27.150
+Tim Beiko: What would withdraw the distributions look like in a you know, in a scenario where you have a bunch of other patrons joining your with time.
+
+173
+00:22:27.870 --> 00:22:40.770
+Tim Beiko: Who gets what i'm basically the two I guess important things, there is one, you only look at like a single period, so you don't like look at all of the historical contributions which kind of.
+
+174
+00:22:41.790 --> 00:22:46.740
+Tim Beiko: Wood yeah which makes it, you know kind of reset every time the one caveat is.
+
+175
+00:22:47.490 --> 00:22:55.620
+Tim Beiko: The amount of withdrawal keys might not map directly to like the perfect split of contributions right before giving out 1414 withdrawal keys.
+
+176
+00:22:55.980 --> 00:23:00.330
+Tim Beiko: In my article great, so I think what you want is you want to keep like a running tally of like.
+
+177
+00:23:00.750 --> 00:23:14.550
+Tim Beiko: How much keys what shared keys with people had to it was a perfect Smith and Mike which is they actually get and when we get the spots were like it doesn't line up perfectly we just kind of top up the organization that's far behind what their fair share should have been.
+
+178
+00:23:15.870 --> 00:23:25.860
+Tim Beiko: And so again here's like a scenario, but you can see, after like four periods after four rounds of keys vesting everybody's within like 3% of what they should have gotten.
+
+179
+00:23:26.580 --> 00:23:33.870
+Tim Beiko: So it's it gets pretty close over time and I think if we got the like the last period and there was like a large discrepancy, you can.
+
+180
+00:23:34.320 --> 00:23:42.030
+Tim Beiko: then choose to like liquidate one or two validators and just you know send the eat for them proportionally, so I think you know it.
+
+181
+00:23:42.720 --> 00:23:51.840
+Tim Beiko: In like a six month period there might be times, where like you know some Organization has less withdrawal keys than than the than the they would in somehow a bit more.
+
+182
+00:23:52.920 --> 00:23:57.510
+Tim Beiko: But like, if you look over like yeah three or four period that tends to even out pretty quickly and.
+
+183
+00:23:58.200 --> 00:24:04.560
+Tim Beiko: So, again I I like this spreadsheet there's a whole explanation that kind of walks through what's actually happening.
+
+184
+00:24:05.460 --> 00:24:17.190
+Tim Beiko: Dental cells just show who's a patron organization when red cells show that you've had two little keys relative to your contributions and green shows green cells shown if you had too much.
+
+185
+00:24:20.010 --> 00:24:28.410
+Tim Beiko: And okay sorry and this again was in the in the previous one, but also worth noting, is just that if you liquidate you basically give up your rights to.
+
+186
+00:24:29.190 --> 00:24:36.120
+Tim Beiko: The main net maintainer pool, so the proportional to how much you liquidated liquidate 100% of your validators you can obviously get.
+
+187
+00:24:36.510 --> 00:24:39.840
+Tim Beiko: a share of the transaction fees from everybody else's validators and.
+
+188
+00:24:40.470 --> 00:24:54.030
+Tim Beiko: And if you do liquidated validator we expect you to send all the transaction fees that you've accrued before to liquidation to basically the transaction for you distribution contract, so you can't just like run away with the fees, and this is iniquity.
+
+189
+00:24:57.570 --> 00:24:59.370
+Tim Beiko: And that's pretty much it um.
+
+190
+00:25:00.780 --> 00:25:12.270
+Tim Beiko: I guess like I said at the beginning, you know it would be helpful to know if there's any like strong objections to this from anybody just and if not, I think the next step would be for like.
+
+191
+00:25:12.840 --> 00:25:24.750
+Tim Beiko: He left consensus and the ef disliked working on on just drafting a formal agreement and and and yeah kind of getting getting this getting this done um.
+
+192
+00:25:26.400 --> 00:25:27.240
+Tim Beiko: yeah i'll pause here.
+
+193
+00:25:31.470 --> 00:25:33.450
+Justin Florentine: yeah i've only had a couple days to.
+
+194
+00:25:33.480 --> 00:25:38.520
+Justin Florentine: Look at this, but so far, so good, I appreciate the progress, I definitely see a lot of progress here.
+
+195
+00:25:39.690 --> 00:25:49.290
+Justin Florentine: So it's it's it's looking good I I wouldn't say that I have any objections to it right now i'd like a couple more days to sit on it, but I don't expect to have any.
+
+196
+00:25:56.250 --> 00:26:07.680
+Tim Beiko: cool yeah and I totally yeah totally appreciate that, like I dumped this I think yesterday or Friday I don't forget but yeah very late, and it is a 2000 word document so yes.
+
+197
+00:26:09.390 --> 00:26:09.990
+Tim Beiko: I hope.
+
+198
+00:26:12.420 --> 00:26:22.170
+Hart Montgomery: I tell me I thanks for writing this up and making all that it's as a covenant and chat I really like the way that you wrote this so that it seems to incentivize more contributions.
+
+199
+00:26:23.430 --> 00:26:26.850
+Hart Montgomery: which I assumed should be the goal of the program anyway.
+
+200
+00:26:28.890 --> 00:26:31.800
+Hart Montgomery: So, so thank you for as justin.
+
+201
+00:26:32.940 --> 00:26:35.880
+Hart Montgomery: pointed out driving the document forward.
+
+202
+00:26:37.290 --> 00:26:37.800
+Tim Beiko: Of course yeah.
+
+203
+00:26:39.180 --> 00:26:51.090
+Tim Beiko: yeah I mean Thank you like, I know it's been a process to get here and it didn't start off in the best way like I really appreciate everybody's time and efforts to get this response, where it's it's much, much better.
+
+204
+00:27:00.630 --> 00:27:09.810
+Tim Beiko: cool yeah i'm happy to not hung up your entire contributor call once more, and they let you get back to our regularly scheduled topics if.
+
+205
+00:27:11.280 --> 00:27:12.060
+Grace Hartley: there's nothing else.
+
+206
+00:27:16.320 --> 00:27:17.310
+Grace Hartley: So just maybe to.
+
+207
+00:27:18.870 --> 00:27:20.640
+Grace Hartley: round this out is this final.
+
+208
+00:27:21.690 --> 00:27:23.160
+Grace Hartley: Do we say.
+
+209
+00:27:26.700 --> 00:27:37.440
+Grace Hartley: If there are no objections, or disagreements by let's say into day Friday, this is the final proposal or any questions, just because justin's right like let's get let's give the broader group I know not everyone is on this call.
+
+210
+00:27:38.520 --> 00:27:41.700
+Grace Hartley: Until the end of the week, but if there are no items raised.
+
+211
+00:27:44.340 --> 00:27:52.890
+Grace Hartley: You know I know yeah whatever substantial disagreements or comments, this is the final version with with the caveat that.
+
+212
+00:27:54.000 --> 00:27:56.580
+Grace Hartley: We go parties need to review in detail.
+
+213
+00:27:57.900 --> 00:28:00.630
+Grace Hartley: On the consensus side we've done an initial review.
+
+214
+00:28:02.010 --> 00:28:04.260
+Grace Hartley: But there will, as we said last time.
+
+215
+00:28:04.770 --> 00:28:06.000
+Grace Hartley: The plan is to have.
+
+216
+00:28:07.470 --> 00:28:25.950
+Grace Hartley: You know if there are any changes that are substantial, we will like obviously show the final agreements with this group, but we'll try to keep that process as transparent as possible if if there is a red flag or something that's needs to be changed, based on legal or financial requirements.
+
+217
+00:28:31.530 --> 00:28:37.980
+Hart Montgomery: Or we happy with the maintainer definitions, I know, there was some discussion about that.
+
+218
+00:28:50.400 --> 00:28:52.140
+Danno Ferrin: I can't raise hand when i'm sharing screen.
+
+219
+00:28:54.300 --> 00:29:05.640
+Danno Ferrin: So that's like a deeper discussion of if we want to review maintenance in general, but just there's a difference between a main that maintainer and and Amina maintainer in this documentation that could be worth pulling out but.
+
+220
+00:29:06.120 --> 00:29:13.290
+Danno Ferrin: to become a man that meeting we had to become a base to maintainer and I think the definition of main that excluded things like a theorem classic.
+
+221
+00:29:13.830 --> 00:29:30.540
+Danno Ferrin: kp FT corn compatibility non mean that consensus algorithms that's your primary line of work, so that you know that that could be cleaned up, but I think the substance of contribution definition is going to keep us in line separate.
+
+222
+00:29:30.570 --> 00:29:31.290
+Tim Beiko: Of what.
+
+223
+00:29:31.440 --> 00:29:35.520
+Danno Ferrin: is going on with them the base EU and hyper ledger definitional maintainer.
+
+224
+00:29:37.230 --> 00:29:40.530
+Hart Montgomery: Great and who's making the decision on who is made that.
+
+225
+00:29:40.560 --> 00:29:41.520
+retainer or not.
+
+226
+00:29:46.140 --> 00:29:46.440
+Grace Hartley: Go ahead.
+
+227
+00:29:48.600 --> 00:30:04.470
+Tim Beiko: Sorry, so I guess person that knows points, one thing I would probably highlight, is it feels to me like it's more fluid like like I think we talked about diego's contribution on the last call so i'll use him as an example, again, but say gigolos main job is like working on there and plastic.
+
+228
+00:30:05.640 --> 00:30:14.430
+Tim Beiko: doesn't usually involve making that but it in a period, he does fix a long for Jay issued that's like a security vulnerability and if you remain that as well.
+
+229
+00:30:15.120 --> 00:30:22.080
+Tim Beiko: I personally feel during that period, he should be he should kind of count doesn't mean that the maintainer and it's fine if then he just goes back and.
+
+230
+00:30:22.560 --> 00:30:24.660
+Tim Beiko: Only works on a theorem classic and never does that mean that.
+
+231
+00:30:25.080 --> 00:30:37.680
+Tim Beiko: thing again it's like, so I think it's like a bit more fluid like I could see somebody coming in, for just a period and they don't necessarily do it again Another example is i've been talking with rye who's I believe still maintainer.
+
+232
+00:30:38.370 --> 00:30:40.470
+Tim Beiko: he's working on an e IP and.
+
+233
+00:30:41.340 --> 00:30:49.050
+Tim Beiko: If he came back you know, once he once he's like we're ready to implement the VIP a nice actually implemented it and bases and whatnot like.
+
+234
+00:30:49.230 --> 00:31:04.500
+Tim Beiko: I again, I would have no problem for him being amended maintainer for a period and then just leave it and never contributing again and and like that's fine like so I yeah so so I, whereas like it kind of a basement Pandora feels like a strong binary right like when.
+
+235
+00:31:05.910 --> 00:31:10.680
+Tim Beiko: you're like one or, then you leave and it's kind of hard to even come back, so I think that's a bit more fluid.
+
+236
+00:31:11.880 --> 00:31:15.960
+Tim Beiko: With regards to your question hard like I would hope that the base you.
+
+237
+00:31:17.070 --> 00:31:31.290
+Tim Beiko: Community itself can kind of come to consensus on a user may not maintain or not, I think if if there's cases where that's not possible yeah and he left basically need to make that call.
+
+238
+00:31:33.000 --> 00:31:41.880
+Tim Beiko: But, ideally, in the very large majority, it would just come from like the base ooh community and.
+
+239
+00:31:43.200 --> 00:31:43.440
+Grace Hartley: yeah.
+
+240
+00:31:54.330 --> 00:31:54.960
+Grace Hartley: Alright, go ahead, you.
+
+241
+00:31:55.770 --> 00:31:57.150
+Hart Montgomery: know your first grace actually.
+
+242
+00:32:00.450 --> 00:32:01.200
+Grace Hartley: um.
+
+243
+00:32:01.920 --> 00:32:13.260
+Grace Hartley: I actually don't know if I think the main it maintain or any of these definitions outside of active maintainer, which is the hyper ledger and the basic Community I don't I think.
+
+244
+00:32:14.490 --> 00:32:16.050
+Grace Hartley: Any of these that map.
+
+245
+00:32:18.330 --> 00:32:24.420
+Grace Hartley: For eligibility into the client program I think should be decided by the EFF.
+
+246
+00:32:25.500 --> 00:32:30.600
+Grace Hartley: Just to take it out of the like, because we will spend so much time.
+
+247
+00:32:31.770 --> 00:32:35.310
+Grace Hartley: In our contributor calls like being like does this Gal is this right.
+
+248
+00:32:35.460 --> 00:32:42.990
+Grace Hartley: Is this is this enough like I think anything that makes you eligible for the the clients incentive program should should be.
+
+249
+00:32:44.820 --> 00:32:49.350
+Grace Hartley: It should be easy it shouldn't like an invite I just don't want it, I think it'll just.
+
+250
+00:32:50.760 --> 00:32:51.480
+Grace Hartley: Be too.
+
+251
+00:32:53.880 --> 00:32:54.270
+Hart Montgomery: yeah.
+
+252
+00:32:55.200 --> 00:32:57.120
+Hart Montgomery: I agree with grace here because.
+
+253
+00:32:57.210 --> 00:32:58.020
+Hart Montgomery: I mean so.
+
+254
+00:32:59.580 --> 00:33:07.110
+Hart Montgomery: So I don't know if you all know, Mike dolan from the Linux foundation, but he has a number of cautionary tales, where people.
+
+255
+00:33:07.950 --> 00:33:16.380
+Hart Montgomery: gave money to projects and told the the project maintainer contributors, or whatever to split it up by themselves.
+
+256
+00:33:16.920 --> 00:33:32.310
+Hart Montgomery: And this resulted in essentially the project actually functioning much worse with money than without because people spent the whole time like bickering about who should be awarded for what contributions, rather than actually getting work done.
+
+257
+00:33:34.650 --> 00:33:37.980
+Hart Montgomery: So if there corner cases.
+
+258
+00:33:39.210 --> 00:33:48.180
+Hart Montgomery: Like there are some things that are going to be very easy to decide, but if there are corner cases, ideally, it could be the F that could decide.
+
+259
+00:33:49.620 --> 00:33:59.520
+Hart Montgomery: You know it's your money and we don't want to the real thing is, we don't want the communities to spend time arguing over compensation.
+
+260
+00:34:00.780 --> 00:34:03.210
+Hart Montgomery: Rather than like thinking about the code.
+
+261
+00:34:05.610 --> 00:34:07.290
+Tim Beiko: I think that's a reasonable ask.
+
+262
+00:34:07.380 --> 00:34:10.200
+Tim Beiko: I I just need to double check.
+
+263
+00:34:10.860 --> 00:34:14.310
+Tim Beiko: Internally, if that's if that's an issue and.
+
+264
+00:34:15.360 --> 00:34:16.860
+Tim Beiko: hope that it was your hand raised.
+
+265
+00:34:19.710 --> 00:34:25.800
+Danno Ferrin: So I think one of the things to point out is that for the for the withdrawal keys, a lot of is defined on going to the employer.
+
+266
+00:34:27.360 --> 00:34:32.580
+Danno Ferrin: So the patron organizations, I think that's getting one distinction from typical projects that just to save money.
+
+267
+00:34:32.970 --> 00:34:43.500
+Danno Ferrin: Is it's it's implied the year your employer is going to be the one receiving and then deciding at that point whether backfill is your salary or whether they send the team to Disneyland and that's completely outside of the discretion of the Program.
+
+268
+00:34:48.600 --> 00:34:51.150
+Tim Beiko: Right, like, I think, in general, we would probably the default.
+
+269
+00:34:51.210 --> 00:34:51.690
+to that.
+
+270
+00:34:53.520 --> 00:35:05.610
+Tim Beiko: Like if if somebody even like from a net maintainer is like yeah if you're employed by like an org that's part of hyper ledger will like default setting up your Oregon then if you're not we'll we'll send it to you.
+
+271
+00:35:15.210 --> 00:35:16.500
+Justin Florentine: yeah, are there any like.
+
+272
+00:35:16.650 --> 00:35:17.910
+Justin Florentine: Just thinking this through.
+
+273
+00:35:18.000 --> 00:35:23.760
+Justin Florentine: From an individual contributor, then the split goes to my cut of the split.
+
+274
+00:35:25.110 --> 00:35:25.620
+Justin Florentine: huh.
+
+275
+00:35:26.730 --> 00:35:28.380
+Justin Florentine: Never mind, let me think this through for ask.
+
+276
+00:35:39.660 --> 00:35:41.640
+Justin Florentine: Please, please continue don't wait for me to figure it out.
+
+277
+00:35:45.570 --> 00:35:47.610
+Gary Schulte: haven't had a lot of time to look at the dock.
+
+278
+00:35:47.790 --> 00:35:50.190
+Gary Schulte: To be honest, i'm kind of skimmed it a bit, but.
+
+279
+00:35:51.360 --> 00:35:56.070
+Gary Schulte: Is all are all of these splits going to be via an organization or is a.
+
+280
+00:35:57.810 --> 00:36:01.560
+Gary Schulte: Are unaffiliated contributors, going to be able to participate.
+
+281
+00:36:03.600 --> 00:36:10.200
+Tim Beiko: I yeah so for transaction fees absolutely i'm like if again i'll take rise and example.
+
+282
+00:36:11.370 --> 00:36:22.020
+Tim Beiko: Might telegram chat but like if right it comes in implements like this history expiry VIP and says, this is my address you know for the next period.
+
+283
+00:36:22.440 --> 00:36:33.300
+Tim Beiko: I I think that's totally fine I think for withdrawal credentials is a is it's much, much easier if there is an organization.
+
+284
+00:36:34.230 --> 00:36:50.970
+Tim Beiko: For a bunch of reasons, but like if again let's take rye, as an example right comes back he wants to set up like a one man shop to be like a full time contributor at the base Sue and like hire somebody that worked with him on that and it's you know right Inc and you know I.
+
+285
+00:36:52.350 --> 00:36:54.510
+Tim Beiko: I wouldn't want like I don't want to place like an.
+
+286
+00:36:55.770 --> 00:37:06.960
+Tim Beiko: Administrative overhead you know, on on them if they're doing the good work getting access to the funds but they I suspect it would just probably be easier to be you know incorporated in one way or another.
+
+287
+00:37:08.940 --> 00:37:09.660
+Tim Beiko: Does that make sense.
+
+288
+00:37:11.910 --> 00:37:12.750
+Gary Schulte: I really mean.
+
+289
+00:37:14.580 --> 00:37:25.920
+Tim Beiko: So yeah I guess it's just um if you're just getting the transaction fees or validator rewards there's no need to be an organization a mess and uh.
+
+290
+00:37:26.340 --> 00:37:27.270
+Tim Beiko: Oh yes, are you something.
+
+291
+00:37:27.660 --> 00:37:30.450
+Tim Beiko: Right Jones from its racer yeah.
+
+292
+00:37:30.990 --> 00:37:32.250
+Gary Schulte: yeah yeah right, sir.
+
+293
+00:37:33.840 --> 00:37:36.450
+Tim Beiko: If you just get you here, to have an organization.
+
+294
+00:37:36.810 --> 00:37:45.210
+Gary Schulte: like an umbrella organization that would be responsible for distributing the more difficult to split things cuz transaction fees are simple.
+
+295
+00:37:45.870 --> 00:37:52.590
+Gary Schulte: But the more difficult to split stuff it seems like you would need to have some umbrella organization that would it would manage this sort of splits.
+
+296
+00:37:53.220 --> 00:37:55.740
+Tim Beiko: What is the more difficult things to split.
+
+297
+00:37:56.010 --> 00:38:02.100
+Gary Schulte: Like withdrawals or however that ends up working out for a non org contributor right.
+
+298
+00:38:02.310 --> 00:38:10.050
+Tim Beiko: yeah so that's that's kind of why i'm saying yeah yeah so transaction fees are easy right you send them to a split contract anybody can put an address in it and they can withdraw on their end.
+
+299
+00:38:10.440 --> 00:38:15.960
+Tim Beiko: And there's a there's like a legal question there about like who owns this contract, but it's not like rocket science.
+
+300
+00:38:16.920 --> 00:38:26.550
+Tim Beiko: Withdrawal credentials are a bit harder for that, because we do want to have like the E, F will want an agreement with every one of these like patron organizations and so.
+
+301
+00:38:27.630 --> 00:38:37.860
+Tim Beiko: Again, like we can make agreements with individuals it's probably just easier if there's some sort of incorporated entity but like if that's your problem, like.
+
+302
+00:38:38.940 --> 00:38:44.640
+Tim Beiko: that's not like an unsolvable problem like and i'll be happy to personally work with you too.
+
+303
+00:38:45.840 --> 00:38:49.200
+Gary Schulte: yeah, that is, is the ef willing to.
+
+304
+00:38:50.400 --> 00:39:02.430
+Gary Schulte: kind of become entangled in the governance over this is that something that you have it will make a long term commitment to for talking about having enough decide what is and what isn't a substantive contribution.
+
+305
+00:39:03.900 --> 00:39:12.120
+Tim Beiko: That so at the withdrawal at the withdrawal key level, yes, at the transaction level is that they do need to double check and that's kind of my.
+
+306
+00:39:12.600 --> 00:39:26.220
+Tim Beiko: yeah just my fear is like you know, can we commit to this for years, like definitely for like patron organizations and withdraw credentials, yes, of course, but for transaction fees that's yeah that's just the thing I need to double check.
+
+307
+00:39:30.570 --> 00:39:30.810
+cool.
+
+308
+00:39:38.430 --> 00:39:39.570
+Grace Hartley: So, I guess, my question is.
+
+309
+00:39:41.310 --> 00:39:44.910
+Grace Hartley: I raised my hand here with their hand up is.
+
+310
+00:39:47.220 --> 00:39:51.270
+Grace Hartley: It seems like I think there's only I don't think there any objections, I just want to.
+
+311
+00:39:52.500 --> 00:40:08.850
+Grace Hartley: yeah just want to be mindful of our time box here, I think it sounds like these aren't objections one question, but I think it's clear that a patron maintainer needs to be part of an organization for them to be eligible for the withdrawal key and that's up to you have to decide.
+
+312
+00:40:10.680 --> 00:40:11.280
+Grace Hartley: Then.
+
+313
+00:40:13.650 --> 00:40:18.690
+Grace Hartley: We try that transaction fees is a little simpler for individual contributions, is there any.
+
+314
+00:40:21.090 --> 00:40:32.220
+Grace Hartley: I think the only issue or item that I don't know if we've agreed upon, yet, and thank you again for taking notes is the have we agree that the ef should start in the decision of what is may net.
+
+315
+00:40:33.570 --> 00:40:37.950
+Grace Hartley: maintainer or what is eligibility to be a part of the groups within.
+
+316
+00:40:40.860 --> 00:40:41.430
+Grace Hartley: Within the client.
+
+317
+00:40:41.460 --> 00:40:42.210
+Grace Hartley: incentive Program.
+
+318
+00:40:47.970 --> 00:40:52.740
+Grace Hartley: Do we generally agree that the ef should be the the one making that decision.
+
+319
+00:40:54.180 --> 00:40:55.500
+Grace Hartley: or only say this one, I would disagree.
+
+320
+00:40:57.450 --> 00:41:02.070
+Danno Ferrin: They make the final call for sure it's a question of how involved, we are before he gets involved, I think.
+
+321
+00:41:03.090 --> 00:41:12.420
+Danno Ferrin: And whether we should just do a proposal and time box it and let him do it, whether we should fight it out, or whether we should just let him start from the beginning, I mean those are really the three options.
+
+322
+00:41:13.890 --> 00:41:14.940
+Tim Beiko: yeah I would rather.
+
+323
+00:41:17.370 --> 00:41:25.620
+Tim Beiko: I would rather not have to proactively do it, and the reason is just because otherwise I feel like I might forget.
+
+324
+00:41:26.310 --> 00:41:38.940
+Tim Beiko: I I totally see the argument for like you don't want to spend time arguing about this and i'm happy to check whether the ef Hutton can help there but, like, for example, if you, you know if you sent me a list of like.
+
+325
+00:41:39.390 --> 00:41:46.290
+Tim Beiko: 15 people like there, and like you know 13 out of the 15 are just like a green.
+
+326
+00:41:47.040 --> 00:42:00.270
+Tim Beiko: Like thumbs up like they're good and then there's two that like you're not sure, and you have links to their to PRS or whatever like I think that's kind of the best format from the US perspective is like we could just look at that then like make a call.
+
+327
+00:42:01.830 --> 00:42:09.810
+Tim Beiko: Like if, for example, i'll take you then you know if you've been working on me, nothing like you're still working on main that that, like everybody agrees you're still working on man that's like.
+
+328
+00:42:10.320 --> 00:42:16.650
+Tim Beiko: I would rather not have to like review that every time until there's like a contentious decision or something.
+
+329
+00:42:21.210 --> 00:42:32.100
+Grace Hartley: I think you're not again we're at a time i'm not sure i'm totally aligned effect, but I will follow up and send some notes back to the group and I liked how you kind of outline the three options.
+
+330
+00:42:33.150 --> 00:42:38.220
+Grace Hartley: But I will take that away to kind of make sure we get an answer on this in the next couple of days.
+
+331
+00:42:39.630 --> 00:42:43.230
+Grace Hartley: So we're we're getting closer because yeah i'm not i'm not totally light.
+
+332
+00:42:45.180 --> 00:42:48.750
+Grace Hartley: Okay, so with that that's the one outstanding item.
+
+333
+00:42:50.550 --> 00:43:01.200
+Grace Hartley: That I will own the second, and then there are of course i'm just saying this out loud the there are several obligations on the hyper ledger front that they need to confirm.
+
+334
+00:43:03.120 --> 00:43:09.570
+Grace Hartley: that they will be able to meet to be a part of this program which are listed above.
+
+335
+00:43:10.680 --> 00:43:11.460
+Grace Hartley: And then.
+
+336
+00:43:13.380 --> 00:43:19.980
+Grace Hartley: or for yeah basically it all crux is on that you know if they can't meet those obligations that this agreement.
+
+337
+00:43:21.120 --> 00:43:21.570
+Grace Hartley: can't work.
+
+338
+00:43:23.100 --> 00:43:28.110
+Grace Hartley: But then, so we can follow up on those just to be explicit and then.
+
+339
+00:43:30.390 --> 00:43:36.570
+Grace Hartley: But the idea is that you know with this three options on who decided to mean it maintainer.
+
+340
+00:43:38.610 --> 00:43:45.930
+Grace Hartley: there's no outstanding items unless someone raises it and if we are able to resolve this in the conversations, the next couple of days.
+
+341
+00:43:47.850 --> 00:43:52.290
+Grace Hartley: A sink, we will consider this proposal final sorry that took me a while to get there.
+
+342
+00:43:58.200 --> 00:44:00.240
+Grace Hartley: cool okay let's do the other items.
+
+343
+00:44:01.440 --> 00:44:05.370
+Grace Hartley: What skip roadmap, this time if everyone's okay with that, I think we want to talk about the release updates.
+
+344
+00:44:08.910 --> 00:44:10.650
+Grace Hartley: was a good spot to start writing that.
+
+345
+00:44:17.190 --> 00:44:28.860
+Danno Ferrin: Personally, to unmute um how are we going with a 20 210 release i've seen a little bit of chatter online Is there something I can do to help it along to someone have the action item to actually get the release out.
+
+346
+00:44:30.210 --> 00:44:33.060
+Danno Ferrin: We were halfway through February for was supposed to be our January release.
+
+347
+00:44:35.820 --> 00:44:40.680
+Danno Ferrin: Is there help I could provide or who has the action item on it, or should I take the action item.
+
+348
+00:44:42.300 --> 00:44:55.890
+Justin Florentine: So we started that conversation last week and I think I saw some action on it from sally's perspective, but I don't know if that is actively being worked on at the moment.
+
+349
+00:44:58.260 --> 00:45:08.940
+Justin Florentine: So I would say let's let's sync up with the Australian timezone see what they have done or need to do, and then get something out this week.
+
+350
+00:45:09.690 --> 00:45:17.400
+Danno Ferrin: Okay, so this kind of underscores the concern I have with releases, is that we need ahead of time decide who's got the action to release it I can.
+
+351
+00:45:17.910 --> 00:45:31.140
+Danno Ferrin: propose a rotation i'll go to i'll take the 20 111 release i'm assuming that and also 21 one release, if needed, but I think we need to get a schedule, where we identify specific people who are responsible for driving the release.
+
+352
+00:45:32.730 --> 00:45:41.730
+Danno Ferrin: A year ago, it was always the chupacabra team and TIM was always really good about making sure that it happened, but I think the key here is that there's one person, we can point to and say hey how's it going.
+
+353
+00:45:42.390 --> 00:45:43.350
+Justin Florentine: So I think that's it.
+
+354
+00:45:44.880 --> 00:45:49.290
+Justin Florentine: yeah I agree, I think we have a wiki page that has a scheduled it hasn't been updated in forever.
+
+355
+00:45:49.500 --> 00:45:52.350
+Danno Ferrin: Right its historic reflecting that forward looking.
+
+356
+00:45:55.140 --> 00:45:58.410
+Danno Ferrin: This is the list when the releases should be but it doesn't say.
+
+357
+00:45:58.860 --> 00:46:00.360
+Danno Ferrin: who's driving the release.
+
+358
+00:46:00.450 --> 00:46:01.560
+Justin Florentine: yeah yeah okay.
+
+359
+00:46:03.300 --> 00:46:06.600
+Justin Florentine: Okay, so, then we just need to set that up right.
+
+360
+00:46:08.520 --> 00:46:12.510
+Danno Ferrin: um, are there any volunteers who wants to be on the release rotation list is their names I should put on.
+
+361
+00:46:12.960 --> 00:46:14.070
+Justin Florentine: Here you can put me on there.
+
+362
+00:46:14.580 --> 00:46:21.960
+Danno Ferrin: justin me to Sally want to turn will it Sally i'll i'll write up a note on chat and see if Sally wants to overnight run on it yeah.
+
+363
+00:46:22.710 --> 00:46:25.590
+Justin Florentine: I mean we've got a bunch of people in the European time zone as well.
+
+364
+00:46:26.130 --> 00:46:29.610
+Justin Florentine: Good that are familiar with doing releases and have cut them.
+
+365
+00:46:30.930 --> 00:46:31.560
+Justin Florentine: So.
+
+366
+00:46:32.430 --> 00:46:33.750
+jiri: Good to be included as well.
+
+367
+00:46:37.260 --> 00:46:37.620
+Right.
+
+368
+00:46:47.250 --> 00:46:48.240
+Justin Florentine: So we need to.
+
+369
+00:46:49.440 --> 00:46:52.200
+Justin Florentine: send this would be for all release is not just a quarterly is right.
+
+370
+00:46:53.070 --> 00:46:53.220
+We.
+
+371
+00:46:55.200 --> 00:47:00.270
+Justin Florentine: Are we still going to opportunistically do the two week ones, or do we want to get into more of a cadence on those.
+
+372
+00:47:01.080 --> 00:47:08.040
+Danno Ferrin: I think we need to be on a cadence and I think we only stopped the cadence if there's a an explicit reason not to release because we keep the older versions out.
+
+373
+00:47:08.460 --> 00:47:15.300
+Danno Ferrin: And that's where we were a year ago and it seemed to work well and also made it easy when there was you know regular.
+
+374
+00:47:15.780 --> 00:47:26.640
+Danno Ferrin: One hard fork start happening again, and especially with the case with etc when they did a short notice hard fork it's easier to say hey we have a two week release will get it out, then, which helps release planning, to be honest.
+
+375
+00:47:32.460 --> 00:47:35.760
+Gary Schulte: We want to have a volunteer release coordinator for.
+
+376
+00:47:36.900 --> 00:47:37.260
+Gary Schulte: You know.
+
+377
+00:47:38.730 --> 00:47:47.070
+Gary Schulte: Minor minor releases the the major releases quarterly or is it, are we going to be responsible for individual point releases only.
+
+378
+00:47:48.630 --> 00:47:57.660
+Danno Ferrin: So that's the question, do we split up each beta into a different person, but also we need someone to drive the quarterly the dot zero is going to be a bigger bigger task there so we're going to hit that.
+
+379
+00:47:59.730 --> 00:48:06.000
+Danno Ferrin: April let's try the dot releases and make the call, as we approach the next beta cycle and see how that's going.
+
+380
+00:48:06.750 --> 00:48:08.730
+Gary Schulte: yeah go ahead and put it on the volunteer list, if you would.
+
+381
+00:48:09.300 --> 00:48:09.630
+Okay.
+
+382
+00:48:19.530 --> 00:48:19.920
+Danno Ferrin: Right.
+
+383
+00:48:23.100 --> 00:48:27.840
+Danno Ferrin: cool so that was just my question and concern with the releases need a.
+
+384
+00:48:29.100 --> 00:48:30.750
+Danno Ferrin: more explicit process around it.
+
+385
+00:48:31.230 --> 00:48:42.090
+Gary Schulte: yeah it's a new problem that we've had multiple teams and multiple people that are doing releases so just just some coordination we haven't solved yet it's a good problem to have.
+
+386
+00:48:42.900 --> 00:48:43.470
+yeah.
+
+387
+00:48:48.480 --> 00:48:48.990
+Danno Ferrin: Okay.
+
+388
+00:48:52.320 --> 00:48:56.520
+Danno Ferrin: that's it for my take on releases anyone else got any questions.
+
+389
+00:49:03.690 --> 00:49:08.070
+Gary Schulte: Okay, the one thing that I would say, which just reiterate, as I think there should should be somebody that is.
+
+390
+00:49:09.060 --> 00:49:22.080
+Gary Schulte: A release coordinator is going to be responsible for gathering, which should go into the specific releases on a quarterly basis, but like you said, we can we can approach that as we, as we come to the next quarterly because I think part of the problem with why we haven't gotten a.
+
+391
+00:49:23.220 --> 00:49:29.190
+Gary Schulte: Not out yet is that it's unclear who makes that call what goes into the release what doesn't.
+
+392
+00:49:33.030 --> 00:49:33.300
+Justin Florentine: hmm.
+
+393
+00:49:34.740 --> 00:49:35.370
+Justin Florentine: I mean, I was to.
+
+394
+00:49:35.400 --> 00:49:36.120
+Danno Ferrin: Where it seems wrong.
+
+395
+00:49:36.150 --> 00:49:37.890
+Danno Ferrin: yeah TIM and Madeline are running that a year ago.
+
+396
+00:49:42.060 --> 00:49:42.900
+Justin Florentine: yeah.
+
+397
+00:49:43.710 --> 00:49:46.950
+Gary Schulte: we've had the back and forth with with a release candidates are going to be.
+
+398
+00:49:48.150 --> 00:49:55.110
+Gary Schulte: More beta and alpha is or will are going to be released candidates, because the 22 dot one is a bit of both right now.
+
+399
+00:49:55.620 --> 00:50:01.680
+Danno Ferrin: yeah so there was there was an oracle mirror that collectively made the decision I don't know how things are structured right now inside consensus.
+
+400
+00:50:02.610 --> 00:50:13.950
+Danno Ferrin: But it seems like we need to externalize that process and name a person who has to go no go, or at least a Council, because I know fabric, they have a group of three people, they also only do quarterly releases.
+
+401
+00:50:14.670 --> 00:50:23.790
+Danno Ferrin: That are the no no go no go committee that has to approve all big says so maybe we need to form a release coming like that and tasks.
+
+402
+00:50:28.200 --> 00:50:30.600
+Grace Hartley: Think sorry I second raise my hand.
+
+403
+00:50:34.170 --> 00:50:37.620
+Grace Hartley: I think so, are you able to kind of own this I know this.
+
+404
+00:50:38.850 --> 00:50:41.100
+Grace Hartley: And it kind of at least run it from the.
+
+405
+00:50:42.750 --> 00:50:50.820
+Grace Hartley: I guess consensus side and then coordinate and say what what's the right kind of accepts so we're being transparent and running this.
+
+406
+00:50:51.540 --> 00:50:52.620
+Grace Hartley: yeah and.
+
+407
+00:50:53.940 --> 00:50:58.530
+Grace Hartley: I like dan's point that we should probably be regular releases and just getting that up and running.
+
+408
+00:50:59.130 --> 00:51:00.030
+Sajida Zouarhi: yeah just me.
+
+409
+00:51:00.090 --> 00:51:07.350
+Sajida Zouarhi: Also, I think it's interesting because so last year we had lots of discussion around the release process was there, it should be like.
+
+410
+00:51:07.920 --> 00:51:17.340
+Sajida Zouarhi: A regular frequency, or if it should be featured Raven until we've experienced in various models currently we have stopped doing.
+
+411
+00:51:17.880 --> 00:51:28.350
+Sajida Zouarhi: Regular releases for minor months and just keeping the quarterly but it soon as that discord Tony has been delayed, I think it has to do with how the last.
+
+412
+00:51:29.070 --> 00:51:36.930
+Sajida Zouarhi: couple of weeks when we would love for G shoes and lots of minor releases for customers and specific artwork and stuff like that so we'll get back.
+
+413
+00:51:37.950 --> 00:51:48.270
+Sajida Zouarhi: on track for this, but something that is worth discussing and to Dennis point around the model that we use it's still unclear to me if it should be.
+
+414
+00:51:49.830 --> 00:51:59.730
+Sajida Zouarhi: Just you know, like a model where, for example, every two weeks we release or if it should be feature driven because I know but i'll let the engineers speaks to that.
+
+415
+00:52:00.810 --> 00:52:04.170
+Sajida Zouarhi: Some find this model to be not so not so efficient.
+
+416
+00:52:05.100 --> 00:52:10.500
+Gary Schulte: I like to go no go of release committee idea, but it would be nice if we could just coordinate via discord.
+
+417
+00:52:11.610 --> 00:52:21.780
+Gary Schulte: away it's a sink and it's not like another meeting agenda that we need to prepare and have everybody, the same time zone for it'd be interesting to have a sink go no go committee.
+
+418
+00:52:25.920 --> 00:52:28.920
+Sajida Zouarhi: But, so we have to be on the field as a few basic here on this.
+
+419
+00:52:32.010 --> 00:52:43.770
+Sajida Zouarhi: And I know that the fact that the release process has been a pain points, as also impacted that discussion, because having regular releases when lots of things went wrong and it took a lot of time was also.
+
+420
+00:52:44.220 --> 00:52:57.570
+Sajida Zouarhi: factor that we wanted to try to diminish, but things have changed now, we have more people able to release trying to open up the release process to all contributors so So yes, so this is a again a nice problem to have and.
+
+421
+00:52:58.530 --> 00:53:05.310
+Sajida Zouarhi: And let's discuss how we want to move forward, but from the coordination perspective happy to do it and continue doing it's basically.
+
+422
+00:53:07.980 --> 00:53:16.230
+Gary Schulte: Another thing that we could continue the conversation and discord about it's i'm excited to have a discord and hyper ledger basically contributors.
+
+423
+00:53:20.910 --> 00:53:29.220
+Danno Ferrin: cool so let's do this discord then i'm running out of time, but I just want to put this out here it's not to be something we probably decide this week, we need.
+
+424
+00:53:30.330 --> 00:53:31.590
+Danno Ferrin: input from.
+
+425
+00:53:33.840 --> 00:53:42.450
+Danno Ferrin: Definitely input from the Australian engineers, but one proposal, I want to seriously go towards is to move to Java 17 as a baseline this year part of that is because.
+
+426
+00:53:43.560 --> 00:53:50.220
+Danno Ferrin: He it's already basically out is is not fully supported 11 is going to be going through the deprecation cycle to.
+
+427
+00:53:50.760 --> 00:54:02.460
+Danno Ferrin: The most importantly, there are large number of performance driven functionality that's been added in Java 17 things like seo classes and records that will be able to leverage to get more performance and quality, out of the client.
+
+428
+00:54:03.810 --> 00:54:10.080
+Danno Ferrin: So the process, for that would be at some point we decide we're going to switch to Java 17 on some quarterly release it's probably going to be.
+
+429
+00:54:10.350 --> 00:54:15.840
+Danno Ferrin: July or October at this point, because we need to have a full for something of this line, the public doesn't practice in the past.
+
+430
+00:54:16.170 --> 00:54:21.450
+Danno Ferrin: Is there is a full quarter last time in which job 11 is the baseline there is a full quarter of notice saying hey.
+
+431
+00:54:21.780 --> 00:54:31.260
+Danno Ferrin: The release coming up in July or October whenever we decide we're going to switch the Java 17 so they get a full notice when we do the full breaking change in the quarterly release.
+
+432
+00:54:32.670 --> 00:54:37.380
+Danno Ferrin: And then we switch over and start doing all the neat fancy things that Java 79 logs.
+
+433
+00:54:40.410 --> 00:54:47.760
+Justin Florentine: I love the idea of doing it and quarter to quarter to and i'm terrified of doing it right around the March.
+
+434
+00:54:49.800 --> 00:54:52.290
+Danno Ferrin: yeah and the merger is going to be in July.
+
+435
+00:54:53.760 --> 00:54:55.110
+Justin Florentine: yeah yeah.
+
+436
+00:54:55.140 --> 00:54:59.040
+Danno Ferrin: So that really that's a really strong argument for making it October, to be honest.
+
+437
+00:54:59.610 --> 00:55:00.510
+Justin Florentine: yeah this.
+
+438
+00:55:00.810 --> 00:55:07.860
+Gary Schulte: Is the reluctance around doing it at the merge that it's it introduces some unknown to the code base, because I.
+
+439
+00:55:07.860 --> 00:55:08.280
+Justin Florentine: thought it.
+
+440
+00:55:08.430 --> 00:55:11.460
+Justin Florentine: The it's 100% fight, I have no actual reason for being scared.
+
+441
+00:55:11.940 --> 00:55:24.120
+Gary Schulte: yeah because I think the Java 17 I think it'd be it's more of a concern for enterprise clients because that's they would have infrastructure that might be Java 11 specific and I I don't think that there's.
+
+442
+00:55:24.750 --> 00:55:34.920
+Gary Schulte: Any any other significant base, you can share, I mean that that's a block producing I think there's basically no block producing basin, so it seems like.
+
+443
+00:55:36.150 --> 00:55:42.270
+Gary Schulte: If we managed to capture some part of that it may not it wouldn't be terribly difficult to bootstrap with 17 as opposed to 11.
+
+444
+00:55:44.430 --> 00:55:46.530
+Danno Ferrin: So, will we have.
+
+445
+00:55:48.600 --> 00:55:57.270
+Danno Ferrin: out before or after the marriage, because we can't do it on three we don't have enough notice, I mean can't do dot dot forks we don't have enough notice.
+
+446
+00:55:58.200 --> 00:56:01.860
+Gary Schulte: it's TIM, still on the call I mean I some people still are saying June, but.
+
+447
+00:56:04.440 --> 00:56:09.030
+Danno Ferrin: yeah The next question is, will merge, will the merge be running from mainline base you.
+
+448
+00:56:10.080 --> 00:56:10.890
+Justin Florentine: Yes, who will.
+
+449
+00:56:11.280 --> 00:56:11.580
+Gary Schulte: It will.
+
+450
+00:56:11.640 --> 00:56:12.030
+Okay.
+
+451
+00:56:13.890 --> 00:56:14.550
+Danno Ferrin: um.
+
+452
+00:56:16.620 --> 00:56:23.580
+Danno Ferrin: We could put that it will be merged 17 no sooner, then the dot seven release, so we can make the call closer to seven.
+
+453
+00:56:24.900 --> 00:56:28.560
+Gary Schulte: yeah that sounds good, who start start the communications to.
+
+454
+00:56:30.630 --> 00:56:34.680
+Gary Schulte: The affected parties like probably i'm guessing more of the enterprise type ground.
+
+455
+00:56:43.980 --> 00:56:45.930
+Justin Florentine: started discussion on the mailing list I guess.
+
+456
+00:56:46.920 --> 00:56:47.700
+Gary Schulte: That no later than.
+
+457
+00:56:48.870 --> 00:56:49.800
+Gary Schulte: or no later than.
+
+458
+00:56:50.160 --> 00:56:51.030
+Danno Ferrin: No sooner than.
+
+459
+00:56:51.180 --> 00:56:54.870
+Gary Schulte: No sooner than 20 270 okay so 22 dot one is.
+
+460
+00:56:56.490 --> 00:56:57.210
+Gary Schulte: Okay gotcha.
+
+461
+00:57:01.380 --> 00:57:04.770
+Justin Florentine: Or we could throw some you know experimental builds and.
+
+462
+00:57:06.480 --> 00:57:07.110
+Justin Florentine: Tough for.
+
+463
+00:57:08.160 --> 00:57:19.200
+Danno Ferrin: We could, so we re support building on 717 shifting to 17 really introduces language features and shuts down running on stuff before 17.
+
+464
+00:57:20.070 --> 00:57:25.350
+Danno Ferrin: yep so if we were going to do it in, for we would have to put the notice in the dot for release as it comes out today.
+
+465
+00:57:26.790 --> 00:57:33.480
+Danno Ferrin: or whenever that happens next, and I think it's a bit too early for that if I started this discussion back in November, I think we could have gotten there.
+
+466
+00:57:36.270 --> 00:57:37.230
+Justin Florentine: So.
+
+467
+00:57:42.870 --> 00:57:46.590
+Justin Florentine: I was thinking like we could include it, as we have the debug variant.
+
+468
+00:57:47.730 --> 00:57:56.640
+Justin Florentine: docker image we could have it, make it available treated like an RC candidate that's out there, we still have all the testing burden for it and we have the.
+
+469
+00:57:57.240 --> 00:58:03.600
+Justin Florentine: You know any backwards compatibility stuff that we have to get rid of, but then there's no pressure to introduce any new features that all happens on whatever schedule.
+
+470
+00:58:05.070 --> 00:58:17.010
+Danno Ferrin: I think I set up a jdk latest docker image that we always have out there, anyway, to make sure that it starts up it runs on jdk latest, so we don't need to add it to the debug because we've got one for golf em we've got one for latest jdk.
+
+471
+00:58:17.040 --> 00:58:18.420
+Danno Ferrin: that's right, I remember recently having to.
+
+472
+00:58:18.420 --> 00:58:19.590
+Danno Ferrin: fix it because there was.
+
+473
+00:58:20.190 --> 00:58:23.040
+Danno Ferrin: We have rebuilt, the docker images because there's some security issues.
+
+474
+00:58:25.830 --> 00:58:26.850
+Gary Schulte: yeah this is mostly about.
+
+475
+00:58:27.990 --> 00:58:34.170
+Gary Schulte: deprecating 11 as and new language features as they come, but this is mostly about.
+
+476
+00:58:35.430 --> 00:58:36.210
+Gary Schulte: Making it such that.
+
+477
+00:58:36.900 --> 00:58:43.980
+Danno Ferrin: We don't support 1112 to 16 are already end of life so it's just 11 is the only question.
+
+478
+00:58:45.600 --> 00:58:50.520
+Danno Ferrin: I don't tell that to my current company, because I still have to dig around for Java 14 and Java 16.
+
+479
+00:59:01.200 --> 00:59:06.090
+Danno Ferrin: So I don't think we have enough people and enough exposure to this to act today so i'll take the action.
+
+480
+00:59:06.660 --> 00:59:09.540
+Danno Ferrin: To put an announcement on discord and.
+
+481
+00:59:09.750 --> 00:59:17.010
+Danno Ferrin: Put a post on the mailing list targeting no sooner than 22 seven of things go poorly will slip the 2010.
+
+482
+00:59:18.000 --> 00:59:19.050
+Gary Schulte: The other sounds reasonable.
+
+483
+00:59:19.530 --> 00:59:23.100
+Justin Florentine: And the messaging is just we are deprecating the 11 image it's not going to be.
+
+484
+00:59:23.130 --> 00:59:26.040
+Justin Florentine: continued to work out it's not going to get fixes it's not going to get support.
+
+485
+00:59:26.460 --> 00:59:27.810
+Gary Schulte: will build a movement eventually.
+
+486
+00:59:28.440 --> 00:59:35.850
+Danno Ferrin: don't even build on 17 that's the big thing and we'll build on 17 so I won't build on 11 really build on 17 or later yeah.
+
+487
+00:59:36.930 --> 00:59:37.680
+Danno Ferrin: yeah okay.
+
+488
+00:59:37.740 --> 00:59:38.010
+Justin Florentine: All right.
+
+489
+00:59:40.950 --> 00:59:43.320
+Danno Ferrin: Those are the two big things I wanted to have discussed.
+
+490
+00:59:45.060 --> 00:59:46.230
+Danno Ferrin: run discord.
+
+491
+00:59:46.860 --> 00:59:50.400
+Danno Ferrin: Should we set up a midweek chat sometime next week just set a time.
+
+492
+00:59:51.420 --> 00:59:52.200
+Justin Florentine: yep club.
+
+493
+00:59:52.800 --> 00:59:53.760
+Danno Ferrin: What days work.
+
+494
+00:59:56.760 --> 00:59:58.830
+Justin Florentine: Oh, I don't have much of a life pick one.
+
+495
+01:00:00.420 --> 01:00:03.360
+Danno Ferrin: Should we just do Tuesdays at the same time, this meeting would be.
+
+496
+01:00:05.460 --> 01:00:07.350
+Danno Ferrin: To just be on discord chatter do you want a different time.
+
+497
+01:00:08.160 --> 01:00:08.970
+Justin Florentine: That might actually.
+
+498
+01:00:09.360 --> 01:00:10.140
+Justin Florentine: Be back.
+
+499
+01:00:10.290 --> 01:00:10.860
+Danno Ferrin: and check.
+
+500
+01:00:11.340 --> 01:00:12.690
+Gary Schulte: Out of participants are we targeting.
+
+501
+01:00:14.190 --> 01:00:14.880
+Danno Ferrin: i'm.
+
+502
+01:00:15.360 --> 01:00:18.030
+Danno Ferrin: wants to get on these basically anyone who's.
+
+503
+01:00:18.060 --> 01:00:27.690
+Danno Ferrin: Contributing to basically, I mean we could rotate it, I just want to get some non recorded chit chat going on it's been all the maintainer so we have weekly connection.
+
+504
+01:00:28.440 --> 01:00:31.560
+Karim T.: I think during the show until slots fine.
+
+505
+01:00:33.780 --> 01:00:35.580
+Justin Florentine: That would be this would be this time slot danna.
+
+506
+01:00:36.240 --> 01:00:39.090
+Danno Ferrin: Okay, oh you thought you'd give shout out earlier okay.
+
+507
+01:00:43.590 --> 01:00:46.650
+Danno Ferrin: i'll start a thread on discord as well for this see what people want.
+
+508
+01:00:47.940 --> 01:00:52.260
+Gary Schulte: And like having an eight Pack and an ma would make good sense in a way, you could.
+
+509
+01:00:52.290 --> 01:00:52.740
+Gary Schulte: We could.
+
+510
+01:00:52.980 --> 01:00:56.070
+Gary Schulte: spend the contributing time zones yeah.
+
+511
+01:00:56.100 --> 01:00:56.610
+yeah.
+
+512
+01:01:01.860 --> 01:01:04.170
+Grace Hartley: There are a couple more items on the agenda, I think.
+
+513
+01:01:04.290 --> 01:01:14.400
+Grace Hartley: Diego on his talk about the log for to Jay deprecation the I don't know what the docker image signing one was but anyway let's follow up with these on discord.
+
+514
+01:01:14.610 --> 01:01:15.510
+Danno Ferrin: And we can get.
+
+515
+01:01:15.600 --> 01:01:16.110
+Grace Hartley: up the agenda.
+
+516
+01:01:17.070 --> 01:01:25.860
+Danno Ferrin: I do have a quick update on docker signing that's going to be difficult for the lf to hold keys so that's going to be one major bump there, the way the.
+
+517
+01:01:26.940 --> 01:01:37.110
+Danno Ferrin: fabric does there's key signing for their maven uploads is they trust one engineered to be a nice person and not sure their keys which kind of defeats the purpose and lf.
+
+518
+01:01:37.560 --> 01:01:45.390
+Danno Ferrin: They have a lot more overhead and maintaining keys than a lot of organizations, because they're joining target to be honest, so.
+
+519
+01:01:47.340 --> 01:01:58.890
+Danno Ferrin: So that there's going to be speed bumps there I think it's a good idea, but we're probably going to be leading the charge for some things it'll need to be led in fx so that's just you know, to set expectations on that I think it's a good idea.
+
+520
+01:02:04.140 --> 01:02:05.070
+Justin Florentine: kind of get creative.
+
+521
+01:02:10.380 --> 01:02:19.950
+Grace Hartley: Thanks guys, I think we can call it, I think I listed some next steps and actions in here so we'll share out this as our notes for after call.
+
+522
+01:02:22.260 --> 01:02:26.310
+Grace Hartley: and feel free to read and give me feedback by oh awesome.
+
+523
+01:02:28.050 --> 01:02:28.500
+Justin Florentine: See ya.
+

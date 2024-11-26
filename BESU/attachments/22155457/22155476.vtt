@@ -1,0 +1,1298 @@
+WEBVTT
+
+1
+00:00:23.400 --> 00:00:25.320
+Francesco Andreoli: Basically mission awesome.
+
+2
+00:00:26.340 --> 00:00:28.830
+Francesco Andreoli: cool so awesome welcome everybody to the 15th.
+
+3
+00:00:30.060 --> 00:00:43.290
+Francesco Andreoli: Of the basic intuition calls and quick housekeeping these meetings being recorded, so please mute and speaking until just not is you can find a year, and if you have a question, please raise your hand and we've got to speak.
+
+4
+00:00:44.760 --> 00:00:55.050
+Francesco Andreoli: yeah so because they started so general announcements I don't know if this was updated by grace, but about the incentive program update anybody has any update on that.
+
+5
+00:01:00.720 --> 00:01:01.800
+Danno Ferrin: I don't have any inside.
+
+6
+00:01:01.950 --> 00:01:11.520
+Danno Ferrin: But the last of US spoken, it was going to legal review with hyper ledger consensus and the, which is a big black box that will hear nothing about unless it's accessible.
+
+7
+00:01:12.690 --> 00:01:13.050
+Francesco Andreoli: Oh.
+
+8
+00:01:13.350 --> 00:01:13.680
+Okay.
+
+9
+00:01:15.210 --> 00:01:16.740
+Francesco Andreoli: gotcha thanks for the update.
+
+10
+00:01:18.780 --> 00:01:21.960
+Francesco Andreoli: So I see here from grace was an option to.
+
+11
+00:01:23.010 --> 00:01:29.100
+Francesco Andreoli: For how to resolve remaining container security program that's what you mentioned no thanks.
+
+12
+00:01:32.820 --> 00:01:36.210
+Francesco Andreoli: I guess, we can directly speak on the release updates.
+
+13
+00:01:37.230 --> 00:01:41.850
+Francesco Andreoli: On the 21st that's done I don't want to want to say something about it.
+
+14
+00:01:47.220 --> 00:01:47.880
+Danno Ferrin: I did.
+
+15
+00:01:48.360 --> 00:01:48.930
+Go ahead.
+
+16
+00:01:52.470 --> 00:01:53.400
+Danno Ferrin: Because I hear my ECHO.
+
+17
+00:01:54.000 --> 00:02:04.260
+Danno Ferrin: Oh, I did the 21 dot one release 22 dot one dot one release I did a bit of a different approach on that one instead of doing it on the main line I did it on a.
+
+18
+00:02:05.160 --> 00:02:12.480
+Danno Ferrin: A site bit, so I picked a particular commit and so that didn't wind up shutting down the main that were able to do the release on the side.
+
+19
+00:02:13.050 --> 00:02:20.940
+Danno Ferrin: And then I merged it back in not with the squash merged with a normal merge, so we can track, you know and get it in the same chain, so when you download.
+
+20
+00:02:21.660 --> 00:02:33.480
+Danno Ferrin: The main chain, the main speaking of like a chain, but the main branch for get having the history will have the release history, what do you get the main because it's all dependent on it and that seemed to go fairly boringly.
+
+21
+00:02:34.740 --> 00:02:47.460
+Danno Ferrin: Because was on a side chain, I could wait, you know, half a day to get feedback from other people and approvals on some of these things so that was one advantage is, it was very asynchronously releasable and you can pick any point in history to do your release.
+
+22
+00:02:53.460 --> 00:02:55.170
+Francesco Andreoli: sounds good any comments on that or.
+
+23
+00:02:56.400 --> 00:02:57.420
+Francesco Andreoli: See Gary shutting off.
+
+24
+00:02:57.450 --> 00:02:58.500
+Gary Schulte: yeah i'll say.
+
+25
+00:02:59.010 --> 00:03:00.750
+Gary Schulte: That that's a great strategy.
+
+26
+00:03:01.080 --> 00:03:04.560
+Gary Schulte: Just because it's a lot less coordination and a lot less time pressure.
+
+27
+00:03:05.220 --> 00:03:11.640
+Gary Schulte: i'll also go on to say that you know we were planning to do an off cycle releases 21 dot one.to to release for killing support.
+
+28
+00:03:12.060 --> 00:03:22.800
+Gary Schulte: And we didn't end up doing that off cycle, because we still had some outstanding PRS for that so we're going to stick to the original Friday the 18th scheduled for 21 dot one.to.
+
+29
+00:03:25.650 --> 00:03:26.010
+Gary Schulte: and
+
+30
+00:03:27.480 --> 00:03:33.630
+Gary Schulte: I think Dana you had mentioned that there's some need for us to take up about a week's worth of slack and our release schedule so.
+
+31
+00:03:34.680 --> 00:03:37.170
+Gary Schulte: we'll probably do that with a different release.
+
+32
+00:03:37.680 --> 00:03:43.380
+Danno Ferrin: I think we're there, because if we stick with a release this week, we can use the contributor calm meetings to give an update on.
+
+33
+00:03:43.860 --> 00:03:49.350
+Danno Ferrin: On what needs to go into the release and for people to say hey I need to get this killed update I need to get this edm update.
+
+34
+00:03:49.980 --> 00:03:55.530
+Danno Ferrin: If you do it in the contributor meeting, so I actually liked where it's at right now, so we could do like a Wednesday, Thursday release.
+
+35
+00:03:56.460 --> 00:04:04.440
+Danno Ferrin: You know, as if we're doing a release last week, we still need to get another you know, a few days and it looks like we got there with some of the delays trying to get killed done properly.
+
+36
+00:04:05.700 --> 00:04:16.170
+Danno Ferrin: But my philosophy on off cycle releases is that there's an external event like you know classic four or four four main net that those i'm totally on board with.
+
+37
+00:04:19.320 --> 00:04:19.650
+Gary Schulte: Great.
+
+38
+00:04:19.980 --> 00:04:27.330
+Gary Schulte: That we didn't end up using it this time but it's good to know for the future that that's that's a an escape hatch for the cycle if we need to.
+
+39
+00:04:30.120 --> 00:04:34.080
+Francesco Andreoli: sounds good, so you guys are all set for the for the phone to ring on everybody's.
+
+40
+00:04:34.740 --> 00:04:35.190
+names.
+
+41
+00:04:37.620 --> 00:04:43.560
+Danno Ferrin: yeah can you click on here too I think that's got the names it's got current schedule your.
+
+42
+00:04:44.880 --> 00:04:45.360
+Francesco Andreoli: Nice.
+
+43
+00:04:45.420 --> 00:04:57.450
+Danno Ferrin: So I think frank is set up for the next one, and then we got Stefan Lucas and justin and as we get closer April 13 million volunteers, I can fill in on that one the rcs do tend to be a bit more.
+
+44
+00:04:59.370 --> 00:05:03.960
+Danno Ferrin: Get intensive than your typical emerges your typical releases but it's not to that.
+
+45
+00:05:07.020 --> 00:05:07.680
+Danno Ferrin: sounds good.
+
+46
+00:05:08.910 --> 00:05:09.330
+Danno Ferrin: cool.
+
+47
+00:05:11.220 --> 00:05:12.210
+Francesco Andreoli: I like this rotation.
+
+48
+00:05:13.290 --> 00:05:18.630
+Francesco Andreoli: cool team is working towards research process improvements, so I guess you mentioned that done right.
+
+49
+00:05:20.130 --> 00:05:20.700
+cool.
+
+50
+00:05:22.140 --> 00:05:25.230
+Francesco Andreoli: So should we run some works updates on the tree say actually.
+
+51
+00:05:25.320 --> 00:05:28.440
+Justin Florentine: guys real quick real quick release process improvements.
+
+52
+00:05:29.610 --> 00:05:41.400
+Justin Florentine: Dana Would you mind adding just a brief paragraph to that page that we're including all the release process improvements just describing the commit based approach, I think that would be helpful to capture that there because it does sound like a good improvement.
+
+53
+00:05:43.200 --> 00:05:47.670
+Danno Ferrin: That sounds good, and the best way to ensure that happens is to put my name next with checkmark on that page summer.
+
+54
+00:05:50.040 --> 00:05:50.400
+Justin Florentine: Okay.
+
+55
+00:05:51.960 --> 00:05:52.440
+Nice.
+
+56
+00:05:55.140 --> 00:06:00.270
+Francesco Andreoli: cool so on what was very so Tracy API that's ongoing.
+
+57
+00:06:06.300 --> 00:06:10.110
+Danno Ferrin: I think that's the Australia teams, I saw Sally do some commits with that.
+
+58
+00:06:12.000 --> 00:06:13.590
+Francesco Andreoli: Okay, no I just I guess with.
+
+59
+00:06:15.120 --> 00:06:19.530
+sajz: The chat is disabled, but I was going to drop a comment on this it's actually done.
+
+60
+00:06:22.410 --> 00:06:22.860
+Right.
+
+61
+00:06:25.410 --> 00:06:25.770
+Yes.
+
+62
+00:06:27.210 --> 00:06:29.580
+Francesco Andreoli: It is done and merge or update.
+
+63
+00:06:30.960 --> 00:06:40.200
+Gary Schulte: yeah so vic music is a killer network has launched, and I think like should have merged.
+
+64
+00:06:41.250 --> 00:06:44.460
+Gary Schulte: Within the last couple of minutes or so maybe half hour.
+
+65
+00:06:45.480 --> 00:06:53.340
+Gary Schulte: And the basic version that's been advertised that supports killin is 21 dot one.to snapshot and then, once we.
+
+66
+00:06:54.360 --> 00:07:09.720
+Gary Schulte: there's a lot of sync work that's in progress for backwards sync and for stop saying support and must be get all of that sorted out and release 21 dot one.to that will be our official killing release, but for now we're communicating that 21 dot one.to snapshot is are killing support.
+
+67
+00:07:11.640 --> 00:07:16.350
+Gary Schulte: And that is killing network is the execution spec is.
+
+68
+00:07:18.210 --> 00:07:22.260
+Gary Schulte: version two killed spec version two dot one which is about as close to final.
+
+69
+00:07:24.450 --> 00:07:28.620
+Gary Schulte: bell can't say its final but it's very close to the final merge spec.
+
+70
+00:07:30.780 --> 00:07:31.170
+Nice.
+
+71
+00:07:33.000 --> 00:07:36.810
+Danno Ferrin: How close, are we to getting those in for 22 want to.
+
+72
+00:07:38.850 --> 00:07:42.120
+Danno Ferrin: You know, hold up 20 212 or do we need look in putting in a 20 213.
+
+73
+00:07:45.240 --> 00:07:53.700
+Gary Schulte: Well, we haven't had a stand up yet to discuss that yet, but the I think Kareem and or Uri could probably give an update on.
+
+74
+00:07:55.140 --> 00:07:55.530
+Gary Schulte: The.
+
+75
+00:07:57.120 --> 00:08:01.740
+Gary Schulte: Competing but the to sync strategies that are in the process of merging currently.
+
+76
+00:08:03.780 --> 00:08:06.630
+jiri: yeah i'm doing the big crunching and.
+
+77
+00:08:08.190 --> 00:08:25.680
+jiri: Right now i'm capable of singing properly, it seems like but i'm doing still some testing, so I think there is a chance ever managed until Friday to get it in, there are some tests missing, so I don't have food this coverage will need to work on it and and need to be some cleanup.
+
+78
+00:08:27.270 --> 00:08:27.690
+jiri: I think.
+
+79
+00:08:28.740 --> 00:08:38.790
+Karim T.: I can give some updates regarding snaps think it's not really important for the mouse but i'm still working on snap seeing i'm close to have something working so.
+
+80
+00:08:39.840 --> 00:08:50.850
+Karim T.: Something is working on golly so I need to do some modification for some men that but I started this week to split My big deal into small PA.
+
+81
+00:08:51.390 --> 00:09:02.670
+Karim T.: And I restart two males every time small part of the code to facilitate a review and yes i'm trying to move forward on that so feel free to review.
+
+82
+00:09:03.810 --> 00:09:09.900
+Karim T.: I started to put some small to 1pm this week and I will continue like that during the next week.
+
+83
+00:09:10.860 --> 00:09:12.360
+Danno Ferrin: or either these critical for cal.
+
+84
+00:09:13.710 --> 00:09:15.480
+Gary Schulte: Only the backwards think is critical for again.
+
+85
+00:09:17.160 --> 00:09:25.890
+Gary Schulte: But there's some of that is a little bit of potential merge conflict, so I think that they need to, we need to be communicating as we merge.
+
+86
+00:09:27.120 --> 00:09:27.510
+Danno Ferrin: Okay.
+
+87
+00:09:35.940 --> 00:09:47.580
+Danno Ferrin: You don't want to push these releases out too long, because they have two week releases it's not too much of a release if we need to slip it so but I don't want to be very strict on a deadline either so.
+
+88
+00:09:48.990 --> 00:09:56.250
+Gary Schulte: I mean we already had 10 put out a blog post on the you have you have blog about Kim support and referenced.
+
+89
+00:09:57.090 --> 00:10:02.550
+Gary Schulte: The the different merge ready clients and the the basic version that's communicated is 21 dot one.to snapshot so.
+
+90
+00:10:03.510 --> 00:10:12.480
+Gary Schulte: I don't think that we, we were really kind of pushing to have a release version in that communication and I don't I don't think that we have a.
+
+91
+00:10:13.020 --> 00:10:27.750
+Gary Schulte: Huge pressing need for that to necessarily be a specific release version other clients are using you know branches and not not mainline releases for sure, so I don't think that we're too far off of the norm, therefore, killing support with a snapshot release.
+
+92
+00:10:33.090 --> 00:10:33.480
+cool.
+
+93
+00:10:35.340 --> 00:10:45.060
+Francesco Andreoli: cool then and future backwards from from Dan oh no thanks thanks for tagging yourself in I think that's very useful, then we know.
+
+94
+00:10:45.090 --> 00:10:45.330
+yeah.
+
+95
+00:10:46.530 --> 00:10:53.160
+Danno Ferrin: So the first one is what we discussed a month ago, when I just want to get a grip commit on it, so I can start putting into the change logs.
+
+96
+00:10:53.730 --> 00:11:03.690
+Danno Ferrin: To move to Java 17 and the first release after the middle of the year, so this next quarter we released, we will put a warning and they're saying we're updating our base Java 17.
+
+97
+00:11:04.290 --> 00:11:11.850
+Danno Ferrin: And then the next quarter after it we actually do it so i'm going to get a PR ready for that this week, unless there's an objection to that plan.
+
+98
+00:11:13.320 --> 00:11:23.700
+Danno Ferrin: The next one is i'm stacking up also changes for the next quarterly release to break things that had era in some of our performance tests networks we identified that the.
+
+99
+00:11:24.180 --> 00:11:31.740
+Danno Ferrin: The gas object of using the track gas has there's a lot of short lived objects that are created by that math because it's an immutable object.
+
+100
+00:11:32.340 --> 00:11:46.020
+Danno Ferrin: And, with all the fun things with Java currently where those objects have identity and other interesting things it causes a lot of garbage collection pressure at high volume, so I broke the branch where we replace it with a primitive.
+
+101
+00:11:47.490 --> 00:11:56.640
+Danno Ferrin: And that had an impact on some of the API so it can't just go in this release we're gonna have to wait for quarterly release, so I leaked the PR that goes to it.
+
+102
+00:11:57.150 --> 00:12:07.530
+Danno Ferrin: A couple of interesting things I ran into the gas object was hiding some value Clamping where if a guest value gets too high, it will just return long Max value.
+
+103
+00:12:07.980 --> 00:12:17.640
+Danno Ferrin: When you get the long value for the gas, it was doing some hiding of the values in there, and that is Clamping it to the Max law Max value.
+
+104
+00:12:18.450 --> 00:12:29.130
+Danno Ferrin: is actually consistent with a new VIP that was discussed in the last awkward deb's, or so I think it was two ago actually where gases being limited to to to the 63 minus one.
+
+105
+00:12:30.210 --> 00:12:37.110
+Danno Ferrin: Whether it's a transaction limit or internal limit and a lot of the discussion that went on revealed that a lot of the clients had this limit internally anyway.
+
+106
+00:12:37.860 --> 00:12:45.150
+Danno Ferrin: So going to along isn't going to cause compatibility problems because all the clients will break in the same way in the event we go to.
+
+107
+00:12:45.840 --> 00:12:55.770
+Danno Ferrin: I think it's quintillion gas some 16 quintillion gas, which is an absurdly large number that I don't think you could compute recently with that chewing up a lot of memory.
+
+108
+00:12:56.430 --> 00:13:03.990
+Danno Ferrin: And those are the tests were I ran into for the most part, is where they were allocating ridiculous amounts of memory like you know terabytes of memory.
+
+109
+00:13:05.580 --> 00:13:14.970
+Danno Ferrin: gigabytes or terabytes of memory, and that was breaking the gas calculation so that's where I put the Clamping in so that test it passes all unit tests and all reference tests for reference.
+
+110
+00:13:19.320 --> 00:13:28.680
+Danno Ferrin: So that's what i'm planning up at the end I think there's another one I probably should have pulled in this is for Diego i'm dedicating log for Jay to but we'd rather do that in the open forum.
+
+111
+00:13:30.630 --> 00:13:31.500
+Danno Ferrin: that's up to Diego.
+
+112
+00:13:34.950 --> 00:13:36.990
+Francesco Andreoli: Okay, so you can follow up in the in the chat on that.
+
+113
+00:13:37.950 --> 00:13:39.390
+Danno Ferrin: yeah i'll post it in the chat.
+
+114
+00:13:39.540 --> 00:13:46.860
+Danno Ferrin: And, but it's not going to come in till the April release, so you have to maintain that branch separately with merges.
+
+115
+00:13:47.940 --> 00:13:48.870
+Diego López León: yeah no worries.
+
+116
+00:13:52.140 --> 00:13:53.460
+Francesco Andreoli: cool awesome.
+
+117
+00:13:54.480 --> 00:14:08.940
+Francesco Andreoli: sweet, it is so on in terms of other updates and thanks so much for like commenting I think on the on the request Nicolaides actually that's very useful so on all business is automated security both requests that seal see you then or.
+
+118
+00:14:13.860 --> 00:14:16.710
+Danno Ferrin: yeah that's still me, so this is something I put in, there is a.
+
+119
+00:14:17.760 --> 00:14:25.710
+Danno Ferrin: Security breakout group for the CSC we're talking about security issues relating to hyper ledger blockchains in general into the projects in particular.
+
+120
+00:14:26.670 --> 00:14:34.140
+Danno Ferrin: there's about like three different threads because security's a very, very deep source of thing to pull from one of the.
+
+121
+00:14:34.830 --> 00:14:43.110
+Danno Ferrin: Issues that came up was that the Linux foundation is putting together a security scanner for all Linux foundation projects and hence hyper ledger projects.
+
+122
+00:14:43.770 --> 00:14:50.430
+Danno Ferrin: So if we have anything that we want them to scan now would be a prime time for us to come up with suggestions.
+
+123
+00:14:51.120 --> 00:15:03.390
+Danno Ferrin: And I think one of those might be to look into the actual ship jars and compare those against CDs and have that as one of the heads up, I think, depend upon the number of other tools already do this.
+
+124
+00:15:04.440 --> 00:15:10.140
+Danno Ferrin: If they aggregate that information that's fine if they do it themselves that fine but that's one thing I think we should consider asking them for.
+
+125
+00:15:10.530 --> 00:15:19.380
+Danno Ferrin: But if there's other requests that any of the other engineers who are involved in the security process might have this is an excellent time to to add them.
+
+126
+00:15:21.000 --> 00:15:21.810
+Danno Ferrin: As requests.
+
+127
+00:15:23.820 --> 00:15:24.300
+Danno Ferrin: Anyone.
+
+128
+00:15:25.740 --> 00:15:32.670
+Justin Florentine: The only other one that I can think of it's basically the same thing is depend about is the X Ray stuff through J frog.
+
+129
+00:15:33.810 --> 00:15:38.970
+Justin Florentine: i've i've seen good results with that in the past, but the past is now year and a half ago, so.
+
+130
+00:15:40.470 --> 00:15:44.190
+Justin Florentine: That would be another one that I would throw out there, but i'm not super committed to it.
+
+131
+00:15:46.020 --> 00:15:48.840
+Justin Florentine: um that's artifact very specific though right.
+
+132
+00:15:49.860 --> 00:15:51.030
+Justin Florentine: anybody else familiar with X Ray.
+
+133
+00:15:53.010 --> 00:15:54.660
+Danno Ferrin: yeah I think it is artifact very specific.
+
+134
+00:15:55.230 --> 00:15:55.500
+Ry Jones: Okay.
+
+135
+00:15:55.920 --> 00:15:56.370
+Ry Jones: We got.
+
+136
+00:15:57.030 --> 00:15:58.920
+Ry Jones: The Linux foundation does pay for.
+
+137
+00:15:59.340 --> 00:16:04.110
+Ry Jones: artifacts for hyper ledger so if it is, it should be available.
+
+138
+00:16:04.800 --> 00:16:05.130
+Okay.
+
+139
+00:16:08.220 --> 00:16:09.540
+Justin Florentine: I think it should be on it's a basement.
+
+140
+00:16:09.540 --> 00:16:14.400
+Justin Florentine: And I think you're asking me like what should we have on the list of things for them to evaluate for consideration.
+
+141
+00:16:14.790 --> 00:16:17.160
+Justin Florentine: For static security analysis.
+
+142
+00:16:19.410 --> 00:16:23.010
+Danno Ferrin: Yes, before they commit to features, do we have any asks that they, we should look at.
+
+143
+00:16:25.680 --> 00:16:27.660
+Justin Florentine: I I would I would look at extra yeah.
+
+144
+00:16:35.340 --> 00:16:37.380
+Justin Florentine: i'm also a big fan of depends, but that third in the list.
+
+145
+00:16:38.280 --> 00:16:42.240
+Danno Ferrin: Is there a darker version of X Ray or dependent Bob we might want to ask them for as well.
+
+146
+00:16:47.490 --> 00:16:48.570
+Justin Florentine: That I know of but.
+
+147
+00:16:48.870 --> 00:16:49.230
+again.
+
+148
+00:16:53.040 --> 00:16:57.600
+Danno Ferrin: Okay, if you think of any just post them in the basic contributors just for chat.
+
+149
+00:16:59.910 --> 00:17:00.210
+Danno Ferrin: Okay.
+
+150
+00:17:05.190 --> 00:17:05.970
+Francesco Andreoli: Good points.
+
+151
+00:17:07.020 --> 00:17:12.360
+Francesco Andreoli: So you are Nicholas the one limitation that you mentioned.
+
+152
+00:17:12.900 --> 00:17:14.910
+Nicolas Massart: Yes, sorry I got disconnected.
+
+153
+00:17:15.420 --> 00:17:16.230
+Nicolas Massart: i'm just back.
+
+154
+00:17:17.880 --> 00:17:18.330
+Nicolas Massart: So.
+
+155
+00:17:20.070 --> 00:17:33.540
+Nicolas Massart: We have this it's not a big issue, but we are just a small team for for documenting be zoo on the conservative side and we document many things, and we are just the four of us.
+
+156
+00:17:35.040 --> 00:17:39.390
+Nicolas Massart: And I would like to have I would love to have more contributors and on the duck.
+
+157
+00:17:41.070 --> 00:17:50.490
+Nicolas Massart: And one way to to improve that, in my opinion, is to have something clear about the guidelines and everything and.
+
+158
+00:17:51.690 --> 00:17:56.070
+Nicolas Massart: One way to have better guidelines is to have them updated.
+
+159
+00:17:57.420 --> 00:18:06.270
+Nicolas Massart: And because autumn is a bit small, we would like to see with the Community if it would be a big deal if.
+
+160
+00:18:06.900 --> 00:18:22.650
+Nicolas Massart: A pizza guidelines were centralized I know it's not the right word but centralized into one place where we yeah like Google writing guidelines on Microsoft writing guidelines that we already use.
+
+161
+00:18:23.700 --> 00:18:40.980
+Nicolas Massart: We could have consensus guidelines that could apply to to Beijing duck it will not change contributing process, including this you and everything but it's just about the writing guidelines so if you just click on the top left on the documentation.
+
+162
+00:18:42.900 --> 00:18:44.610
+Nicolas Massart: On the same site here.
+
+163
+00:18:46.020 --> 00:18:50.370
+Nicolas Massart: So on the top left menu, you have documentation.
+
+164
+00:18:52.020 --> 00:18:55.800
+Nicolas Massart: On the Gray left, but the table of content.
+
+165
+00:18:56.910 --> 00:18:57.810
+Francesco Andreoli: or here yeah.
+
+166
+00:18:58.050 --> 00:19:13.320
+Nicolas Massart: yeah on the top on the top you have documentation yeah yeah can you click on this, and so we have contributing to the documentation and contribution workflow that will stay in the wiki here, but, for instance, the anchor docs and margin guides.
+
+167
+00:19:14.490 --> 00:19:18.330
+Nicolas Massart: and be soo documentation style, which are.
+
+168
+00:19:19.440 --> 00:19:29.460
+Nicolas Massart: ways to write the marg on for the Doc is something that we would really benefit in having it into one place.
+
+169
+00:19:30.630 --> 00:19:51.540
+Nicolas Massart: And that was my question, is it acceptable from the hyper ledger point of view, to have this pointing to a consensus guideline because currently honestly we just copying past it's it's really mostly the same, and so we would have on one place to to update.
+
+170
+00:19:52.590 --> 00:19:57.510
+Nicolas Massart: But because it involves pointing to consensus, they want to make sure that's fine.
+
+171
+00:20:05.760 --> 00:20:06.690
+Ry Jones: Please don't do that.
+
+172
+00:20:07.740 --> 00:20:10.230
+Nicolas Massart: I don't know I don't know that's why I asked.
+
+173
+00:20:10.470 --> 00:20:13.200
+Nicolas Massart: yeah it would ease or everyday work.
+
+174
+00:20:13.200 --> 00:20:24.630
+Nicolas Massart: For on the on the consensus ducting perspective but that's why I asked her, I want to make sure that yeah if we do that it's not a surprise for anyone and it's fine.
+
+175
+00:20:25.260 --> 00:20:30.450
+Ry Jones: yeah so we're still we hyper ledger i'm speaking, you know as a hyper ledger employee.
+
+176
+00:20:31.590 --> 00:20:43.620
+Ry Jones: We are still battling the idea in the market that we are IBM employees and anything that happened would happen like this, where official docks were hosted on consensus.
+
+177
+00:20:44.250 --> 00:20:47.190
+Nicolas Massart: brand knows the duck will not be official that would not.
+
+178
+00:20:47.760 --> 00:20:48.030
+Ry Jones: Be.
+
+179
+00:20:48.090 --> 00:20:49.470
+Ry Jones: The guidelines change.
+
+180
+00:20:49.560 --> 00:20:54.630
+Nicolas Massart: yeah just the Gala but the thing we find to Google and Microsoft guidelines, in fact.
+
+181
+00:20:57.420 --> 00:21:03.030
+Ry Jones: Okay, keep it as is for now, and I will ask internally to see, since you are appointed other guidelines.
+
+182
+00:21:03.450 --> 00:21:10.920
+Nicolas Massart: If you look at the link in the Doc on the Left busy documentation style guide the fourth one.
+
+183
+00:21:13.920 --> 00:21:18.060
+Nicolas Massart: Then we already have some links to.
+
+184
+00:21:19.980 --> 00:21:23.490
+Nicolas Massart: scroll down, we have some meetings already to.
+
+185
+00:21:25.680 --> 00:21:30.960
+Nicolas Massart: The writing style Microsoft style guide and Google increases duck writing guides in there that.
+
+186
+00:21:32.520 --> 00:21:33.690
+Ry Jones: Okay, I understand now.
+
+187
+00:21:34.290 --> 00:21:36.180
+Nicolas Massart: It would be the exact same thing.
+
+188
+00:21:36.570 --> 00:21:38.310
+Ry Jones: yeah don't worry about what I said for easily them.
+
+189
+00:21:39.930 --> 00:21:50.280
+Danno Ferrin: So one question I have made right might help with this, or their general writing guidelines that other projects have or Is this something learning materials working group might want to address.
+
+190
+00:21:51.870 --> 00:21:57.420
+Danno Ferrin: Do we want a standard hyper ledger standard or do we want to let each project do its own collection of.
+
+191
+00:21:57.630 --> 00:21:58.110
+question.
+
+192
+00:22:00.630 --> 00:22:02.880
+Ry Jones: that's a good question I don't have an answer for it.
+
+193
+00:22:05.040 --> 00:22:08.190
+Ry Jones: I think that's actually probably reasonable question for the tlc.
+
+194
+00:22:09.270 --> 00:22:09.660
+Danno Ferrin: Okay.
+
+195
+00:22:10.350 --> 00:22:13.350
+Danno Ferrin: hey something to talk about this Thursday that'll be good.
+
+196
+00:22:17.460 --> 00:22:18.180
+Danno Ferrin: And i'll bring it.
+
+197
+00:22:19.050 --> 00:22:30.480
+Nicolas Massart: So I take that as for the moment we don't change anything and let's have this discussion with a more global hyper ledger.
+
+198
+00:22:33.960 --> 00:22:36.240
+Nicolas Massart: instance, and I will.
+
+199
+00:22:37.290 --> 00:22:39.090
+Nicolas Massart: see what what happens next.
+
+200
+00:22:41.700 --> 00:22:49.710
+Danno Ferrin: yeah because i'm sure all the other companies that come in, they use their company style for sure, because i'm sure IBM does i'm sure certainly to does.
+
+201
+00:22:51.630 --> 00:23:01.950
+Danno Ferrin: Because, not because whoever it is that that does um solitude, so this is this is worth discussion even if nothing comes from another tasc I agree with right okay.
+
+202
+00:23:02.790 --> 00:23:05.370
+Nicolas Massart: Great that answers my question.
+
+203
+00:23:07.350 --> 00:23:09.690
+Francesco Andreoli: So done it was, as you see, on that.
+
+204
+00:23:10.770 --> 00:23:15.300
+Francesco Andreoli: Should we check the matrix and the roadmap.
+
+205
+00:23:21.090 --> 00:23:21.570
+Francesco Andreoli: So.
+
+206
+00:23:25.200 --> 00:23:28.950
+Francesco Andreoli: We added the presentation, nothing is from the past.
+
+207
+00:23:30.000 --> 00:23:32.700
+Francesco Andreoli: Contribution calls or anybody has.
+
+208
+00:23:34.620 --> 00:23:35.580
+Francesco Andreoli: anything to say on that.
+
+209
+00:23:38.820 --> 00:23:42.870
+Justin Florentine: Only that i've noticed, you know more new faces in PR so that's fun.
+
+210
+00:23:45.570 --> 00:23:46.470
+Francesco Andreoli: Oh yeah.
+
+211
+00:23:54.840 --> 00:23:56.400
+Francesco Andreoli: After contribution to yeah.
+
+212
+00:24:02.760 --> 00:24:03.960
+Francesco Andreoli: Was this Big Brother which.
+
+213
+00:24:07.290 --> 00:24:10.740
+Justin Florentine: That might have been the hackathon the grace hopper hackathon.
+
+214
+00:24:11.670 --> 00:24:21.240
+Justin Florentine: Oh yeah Open Source day rather wasn't it wasn't really a hackathon, but it was that was the entire point was to get new people introduced to open source and get their first PR submitted.
+
+215
+00:24:22.470 --> 00:24:27.300
+Francesco Andreoli: Nice yeah and I guess also did I pleasure global forum now is normally they can.
+
+216
+00:24:28.320 --> 00:24:30.600
+Francesco Andreoli: win is that I think this year is to happening right.
+
+217
+00:24:31.710 --> 00:24:32.580
+This might be cool.
+
+218
+00:24:38.190 --> 00:24:43.560
+Francesco Andreoli: Okay, so can move to the roadmap, if anyone has anything to say on that.
+
+219
+00:24:45.750 --> 00:24:48.540
+Francesco Andreoli: So you guys modify the roadmap somehow or.
+
+220
+00:24:49.650 --> 00:24:50.460
+Francesco Andreoli: 22 I.
+
+221
+00:24:54.210 --> 00:24:56.610
+Francesco Andreoli: Think, we spoke around ready on there.
+
+222
+00:24:58.680 --> 00:24:58.800
+We.
+
+223
+00:25:02.100 --> 00:25:10.590
+Gary Schulte: could say something that about bonds I removing the experimental flag, I think that that's that's in the works currently.
+
+224
+00:25:11.310 --> 00:25:11.820
+Justin Florentine: Oh yeah.
+
+225
+00:25:12.480 --> 00:25:13.170
+Francesco Andreoli: You want to hurt.
+
+226
+00:25:16.590 --> 00:25:16.890
+Sorry.
+
+227
+00:25:18.450 --> 00:25:20.730
+Justin Florentine: I was just saying that the PR that Gary is referring to is approved.
+
+228
+00:25:28.620 --> 00:25:28.920
+cool.
+
+229
+00:25:30.780 --> 00:25:31.830
+Francesco Andreoli: awesome awesome.
+
+230
+00:25:32.550 --> 00:25:45.300
+Justin Florentine: So the way there's also i'm Dana you wrote a good document sort of at the beginning of the year that had sort of a more of a vision statement there's a little bit broader than a specific roadmap, do we want to.
+
+231
+00:25:46.350 --> 00:25:54.570
+Justin Florentine: kind of just review that and square it with the upcoming roadmap, because I was, I was reading that document is very interesting and I kind of.
+
+232
+00:25:55.020 --> 00:26:09.450
+Justin Florentine: stumbled across the architecture diagram that we currently have posted on read the docs and I was like i'm personally very interested in modular ization and I see a bunch of synergy between all of these things, I wonder if there's an opportunity here for us to take like.
+
+233
+00:26:10.560 --> 00:26:20.310
+Justin Florentine: The roadmap, the vision and the architecture diagram kind of update them all and get them lined up with an eye towards modular ization.
+
+234
+00:26:21.450 --> 00:26:23.520
+Justin Florentine: Is that what do people think about that.
+
+235
+00:26:24.720 --> 00:26:31.080
+Danno Ferrin: um yeah I think that's a good idea for let me get the Doc in there, and so we can talk about it and i'll let other people.
+
+236
+00:26:32.310 --> 00:26:33.090
+Danno Ferrin: speak as well.
+
+237
+00:26:35.280 --> 00:26:35.700
+Justin Florentine: Because I.
+
+238
+00:26:36.780 --> 00:26:45.030
+Justin Florentine: I did I did a bit of a proof of concept with dagger I ended up walking it back back in When did they do that maybe February January i'm not sure.
+
+239
+00:26:45.720 --> 00:26:52.530
+Justin Florentine: But everything that I learned about it, I was pretty happy with and pretty committed to, and I would love to treat that as one of the mechanisms that we use to do that project.
+
+240
+00:26:55.320 --> 00:26:57.930
+Danno Ferrin: We use dagger and had Tara and it's awesome.
+
+241
+00:26:58.680 --> 00:27:01.860
+Justin Florentine: yeah I noticed that we're using in em tool as well.
+
+242
+00:27:02.640 --> 00:27:11.340
+Danno Ferrin: mm hmm I didn't bring it into hedera another engineer brought it into hedera and they did a really good job, so I think it's yeah I think it's got great potential done right.
+
+243
+00:27:13.350 --> 00:27:13.650
+Justin Florentine: Okay.
+
+244
+00:27:15.420 --> 00:27:31.230
+Justin Florentine: So basically what i'm saying is all these these three things I think there is a through line of modular ization that kind of runs through them i'd like to find a way to visualize that through line and illustrate it so it tells a bit of a story for things that we want to do this year.
+
+245
+00:27:32.700 --> 00:27:33.150
+Danno Ferrin: into.
+
+246
+00:27:35.100 --> 00:27:42.630
+Danno Ferrin: A piece of the Doc in chat if people want to look at it do should I do that it's the basis space that's it's not less than speculative.
+
+247
+00:27:47.670 --> 00:27:48.420
+Justin Florentine: sure.
+
+248
+00:27:49.770 --> 00:27:50.100
+Danno Ferrin: Okay.
+
+249
+00:27:50.730 --> 00:27:50.910
+Justin Florentine: i'm.
+
+250
+00:27:51.150 --> 00:27:52.230
+Justin Florentine: down to let's do that.
+
+251
+00:27:59.280 --> 00:28:10.440
+Justin Florentine: Okay, so then i'm going to give myself an action item to kind of reviews three things and who wants to be involved in that no I assume you want to be involved in that because you're kind of wrote that vision document.
+
+252
+00:28:11.070 --> 00:28:11.340
+yeah.
+
+253
+00:28:13.020 --> 00:28:13.950
+Justin Florentine: anyone else.
+
+254
+00:28:14.100 --> 00:28:19.590
+Justin Florentine: i'll make sure that I kind of set up a session for us to kind of just noodles and ideas and.
+
+255
+00:28:20.250 --> 00:28:33.780
+Justin Florentine: tighten things up a little bit i'm not i'm not imagining anything drastic or dramatic It really is just getting those three assets aligned towards there's probably going to be more daggers showing up in the code and there should be things like vertical Spikes.
+
+256
+00:28:35.070 --> 00:28:36.060
+Justin Florentine: To.
+
+257
+00:28:36.720 --> 00:28:39.870
+Justin Florentine: demonstrate how to go back and retrofit existing code to us.
+
+258
+00:28:41.550 --> 00:28:42.900
+Gary Schulte: yeah sign me up for that as well.
+
+259
+00:28:44.400 --> 00:28:46.020
+Karim T.: cool yes so.
+
+260
+00:28:47.640 --> 00:28:48.120
+Justin Florentine: A cream.
+
+261
+00:28:48.210 --> 00:28:48.840
+Right yes.
+
+262
+00:28:49.890 --> 00:28:51.360
+jiri: me in many places.
+
+263
+00:28:53.130 --> 00:28:53.520
+Justin Florentine: Yuri.
+
+264
+00:29:00.090 --> 00:29:00.660
+Justin Florentine: Thanks all.
+
+265
+00:29:02.040 --> 00:29:09.330
+Francesco Andreoli: awesome awesome awesome cool, so I think that's that's already there but efficient on the score, I think.
+
+266
+00:29:09.630 --> 00:29:21.600
+Francesco Andreoli: You guys have any I don't know any comments on you know which channel, should we should we add on the base or that's an offer, should we like close some channels or how he's going with with this court is there anything that we should do.
+
+267
+00:29:25.110 --> 00:29:27.210
+Gary Schulte: I think the channels have been working pretty well, they simply.
+
+268
+00:29:27.600 --> 00:29:29.100
+Gary Schulte: yeah Google segmented.
+
+269
+00:29:30.840 --> 00:29:34.710
+Gary Schulte: not sure i've used basic github yet, but the other ones are have been very useful.
+
+270
+00:29:36.240 --> 00:29:38.460
+Justin Florentine: I find that particular channel way too noisy.
+
+271
+00:29:41.220 --> 00:29:51.210
+Danno Ferrin: yeah I tried turning some stuff off, and I said I got people saying hey I do like that thing you turned off, so I turned it back on um, it is quite the fire hose um.
+
+272
+00:29:52.770 --> 00:29:56.460
+Danno Ferrin: But I don't know how to reasonably segmented with the tools that we have and get up.
+
+273
+00:29:57.090 --> 00:29:57.570
+Danno Ferrin: Because if you.
+
+274
+00:29:57.660 --> 00:29:59.130
+Danno Ferrin: want go ahead.
+
+275
+00:29:59.880 --> 00:30:06.240
+Justin Florentine: I was just gonna say it might be a personal thing for me and i'm just going to keep it muted and pipe in when I need to and it's okay to have a fire hose somewhere yep.
+
+276
+00:30:06.270 --> 00:30:13.320
+Danno Ferrin: that's fine one of the things I really liked about it is when there's been changes like turning on branch protection attorney get off it shows up there.
+
+277
+00:30:13.830 --> 00:30:22.290
+Danno Ferrin: And force pushes so from an admin perspective that's the bare minimum, I wanted their comments are nice to look at to see what's active, but it can become too noisy.
+
+278
+00:30:23.580 --> 00:30:29.310
+Danno Ferrin: And I think we're at an inflection point it gets much more noisy it's going to be quite difficult to us but.
+
+279
+00:30:30.810 --> 00:30:40.230
+Danno Ferrin: we'll see how it goes there but there's there's some key features in in that that I want left on so make sure that there's an audit trail and a hey look here something's happening trail.
+
+280
+00:30:43.650 --> 00:30:46.650
+Danno Ferrin: I mean you can get that from the audit logs inside get hub itself but.
+
+281
+00:30:49.020 --> 00:30:51.360
+Danno Ferrin: Having it more publicly visible increases trust, I think.
+
+282
+00:30:55.320 --> 00:30:59.220
+Gary Schulte: yeah kind of want to, I want to put a filter on that fire hose for those few events.
+
+283
+00:31:06.870 --> 00:31:10.440
+Francesco Andreoli: cool and speaking speaking on on discord like.
+
+284
+00:31:12.600 --> 00:31:20.130
+Francesco Andreoli: You mentioned the off week discord voice chat I think watches are always working well, they just need to be like scheduled, so I don't know if.
+
+285
+00:31:21.180 --> 00:31:24.360
+Francesco Andreoli: Anybody is interested in that that's that's a good idea.
+
+286
+00:31:25.530 --> 00:31:27.540
+Justin Florentine: let's do it, we just got to pick a date and time.
+
+287
+00:31:30.540 --> 00:31:33.660
+Justin Florentine: We are yeah we're we're going to use this same time on the off week.
+
+288
+00:31:38.100 --> 00:31:39.480
+Danno Ferrin: let's do it let's start it.
+
+289
+00:31:41.040 --> 00:31:47.430
+Danno Ferrin: You could also just join chat and hang out it's going to show that you're in there if you're listening so that's always an option to.
+
+290
+00:31:48.060 --> 00:31:54.120
+Gary Schulte: get started, right after the central European summertime switch over That way we don't have the confusion like we did today.
+
+291
+00:31:55.680 --> 00:31:56.340
+Danno Ferrin: Yes.
+
+292
+00:31:56.790 --> 00:31:57.450
+Francesco Andreoli: This month yeah.
+
+293
+00:31:58.890 --> 00:32:02.370
+Francesco Andreoli: sounds good so basically off time and bi weekly.
+
+294
+00:32:04.470 --> 00:32:05.460
+yeah sounds good.
+
+295
+00:32:08.400 --> 00:32:14.400
+Francesco Andreoli: cool and you want to speak on the deprecating log free to Jay Diego I don't know I guess.
+
+296
+00:32:16.920 --> 00:32:33.630
+Diego López León: yeah sure yes um well, basically, I said a PR for changing look for a CIO or an for replacing it with no black and there were some comments about backward compatibility, mostly.
+
+297
+00:32:35.100 --> 00:32:46.170
+Diego López León: On regardless of of supporting the overriding of external with external configurations of the forte look for shape.
+
+298
+00:32:47.100 --> 00:32:59.190
+Diego López León: But in the middle, I don't know there were some concerns, maybe if it's I mean it makes sense to to replace the project too so maybe that's the open discussion here if we really want to.
+
+299
+00:32:59.640 --> 00:33:13.920
+Diego López León: replace look present you with something else, my proposal was loved by because just I don't know it was like a natural path after my grading I mean I mean after introducing SLA for Jay but I don't know.
+
+300
+00:33:15.660 --> 00:33:21.360
+Diego López León: So I think it's an open discussion here for me it's it's a good choice, I think.
+
+301
+00:33:22.380 --> 00:33:31.680
+Diego López León: it's the original team that world look for Shay one, and I think there was some political thing in the middle, for them to to split.
+
+302
+00:33:32.760 --> 00:33:45.810
+Diego López León: start creating log work but yeah and I think in in in the PR I can see it it's a few things that are simpler, like, for example.
+
+303
+00:33:46.770 --> 00:34:06.840
+Diego López León: to detect the environment viable for overriding answer the colors on the output so yeah I think it's it's a PR that we both smoke more lines done those that introduce even if I added a few tests so yeah for me, it makes sense, but I don't know.
+
+304
+00:34:11.790 --> 00:34:25.590
+Gary Schulte: that's one of those ones is kind of hard to get an answer to because it's we're probably only going to hear from the people who have that requirement, where the overriding the log for J configuration after they can no longer do it it's going to be like a reactive thing I imagined.
+
+305
+00:34:31.980 --> 00:34:41.220
+jiri: bank didn't have like a release for like a very long time already, and they still need to support Jaguar 1.6 and older so.
+
+306
+00:34:42.420 --> 00:34:48.000
+jiri: until at least two or something we are basically sitting ourselves.
+
+307
+00:34:49.650 --> 00:34:49.980
+jiri: wants to.
+
+308
+00:34:51.030 --> 00:34:52.650
+jiri: I don't mind i'm just highlighting that.
+
+309
+00:34:57.240 --> 00:34:59.010
+Justin Florentine: We should look into that that's a pretty good point of true.
+
+310
+00:35:00.630 --> 00:35:00.930
+yeah.
+
+311
+00:35:07.980 --> 00:35:12.630
+Francesco Andreoli: This one is basically yeah looking will probably like we speak on the next call.
+
+312
+00:35:15.900 --> 00:35:19.680
+Francesco Andreoli: cool and anybody has any other topics we want to raise.
+
+313
+00:35:25.980 --> 00:35:27.870
+Gary Schulte: Anybody going to death connect Amsterdam.
+
+314
+00:35:30.300 --> 00:35:31.230
+Justin Florentine: I am.
+
+315
+00:35:32.430 --> 00:35:33.930
+Danno Ferrin: Not after international travel right now.
+
+316
+00:35:35.280 --> 00:35:36.120
+Gary Schulte: makes good sense.
+
+317
+00:35:36.570 --> 00:35:37.440
+Karim T.: Let me sorry.
+
+318
+00:35:39.750 --> 00:35:50.850
+Francesco Andreoli: yeah on actually on this point where with with jt and the team were organizing a site event on on base when the merge they might be useful, like that we connect I think.
+
+319
+00:35:51.690 --> 00:36:03.000
+Francesco Andreoli: As you carrion and justin with the would come like some proposal this week for for for supporting this side of and basically like maybe a panel on on base when the merge that might be.
+
+320
+00:36:04.110 --> 00:36:05.250
+Francesco Andreoli: It might be cool if.
+
+321
+00:36:06.630 --> 00:36:11.370
+Francesco Andreoli: If there are so many protocol people in a in Amsterdam, this this week.
+
+322
+00:36:14.310 --> 00:36:21.540
+Francesco Andreoli: cool awesome so I guess, we can wrap up and yeah Thank you Thank you so much, and see you next time.
+
+323
+00:36:22.650 --> 00:36:23.370
+Nicolas Massart: Thanks everyone.
+
+324
+00:36:23.550 --> 00:36:23.940
+Thanks.
+

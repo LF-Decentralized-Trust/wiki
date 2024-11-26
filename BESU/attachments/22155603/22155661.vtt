@@ -1,0 +1,1742 @@
+WEBVTT
+
+1
+00:00:02.580 --> 00:00:04.890
+Grace Hartley: awesome share my screen.
+
+2
+00:00:07.500 --> 00:00:08.130
+Francesco Andreoli: Thanks grace.
+
+3
+00:00:08.820 --> 00:00:13.860
+Grace Hartley: And here we are Francesca Would you mind taking notes, please, thank you.
+
+4
+00:00:15.389 --> 00:00:18.570
+Grace Hartley: cool so June 7 contributor call welcome welcome.
+
+5
+00:00:18.600 --> 00:00:24.480
+Grace Hartley: For basic housekeeping here's the antitrust notice everyone here should be familiar with it, but please follow it.
+
+6
+00:00:25.920 --> 00:00:32.070
+Grace Hartley: As already mentioned, this means be recorded if you don't want to be recorded drop off and you will get the recording later.
+
+7
+00:00:33.120 --> 00:00:38.760
+Grace Hartley: Please mute unless speaking and then please feel free to use the raise hand feature from their.
+
+8
+00:00:40.080 --> 00:00:41.550
+Grace Hartley: General announcements.
+
+9
+00:00:44.700 --> 00:00:54.270
+Grace Hartley: Nothing we have any maybe just couple things with goal, or we don't have anything on the agenda but global forum is September Dublin if anyone's looking at attending that.
+
+10
+00:00:55.500 --> 00:01:00.840
+Grace Hartley: And then the just a brief CDP program update is that.
+
+11
+00:01:02.340 --> 00:01:08.370
+Grace Hartley: Basically, no update since last time contracts are still with legal Linux foundation's legal team.
+
+12
+00:01:09.510 --> 00:01:11.970
+Grace Hartley: But boy, you know heart go ahead.
+
+13
+00:01:13.050 --> 00:01:16.980
+Hart Montgomery: hey so just a quick update on that so TIM wants us to move.
+
+14
+00:01:18.030 --> 00:01:21.450
+Hart Montgomery: within the next couple of weeks on this stuff so i've been trying to.
+
+15
+00:01:23.580 --> 00:01:26.160
+Hart Montgomery: harangue our legal legal team, to put it politely.
+
+16
+00:01:28.350 --> 00:01:30.930
+Hart Montgomery: He also wanted us to start listing the.
+
+17
+00:01:31.560 --> 00:01:38.400
+Hart Montgomery: The main net maintain your contributions, so I was just going to ask if everybody had decided on a.
+
+18
+00:01:39.600 --> 00:01:42.780
+Hart Montgomery: place or format to put those I know we talked about it last time.
+
+19
+00:01:47.940 --> 00:01:51.450
+Hart Montgomery: Like did we want it on the wiki or on the github or what.
+
+20
+00:01:53.610 --> 00:01:57.150
+Danno Ferrin: I think Sally opened up a wiki page but i've been on vacation busy the past.
+
+21
+00:01:57.150 --> 00:01:57.660
+Hart Montgomery: I didn't.
+
+22
+00:01:57.690 --> 00:01:58.230
+Danno Ferrin: Nice.
+
+23
+00:01:58.530 --> 00:02:00.030
+Hart Montgomery: If she did I didn't see it.
+
+24
+00:02:01.500 --> 00:02:02.700
+Danno Ferrin: there's very little on it.
+
+25
+00:02:03.270 --> 00:02:03.630
+OK.
+
+26
+00:02:05.970 --> 00:02:10.260
+Hart Montgomery: I will look for it then perfect, is it there now.
+
+27
+00:02:15.120 --> 00:02:18.630
+Hart Montgomery: Okay there it is perfect alright, well, I will.
+
+28
+00:02:21.330 --> 00:02:25.680
+Hart Montgomery: yeah i'll go through that and I may add it that but but that'll be great so.
+
+29
+00:02:29.310 --> 00:02:34.920
+Hart Montgomery: Thanks yeah and thank you, oh and i'm Sorry, I have to drop by him triple booked for this hour.
+
+30
+00:02:36.300 --> 00:02:36.690
+Grace Hartley: No worries.
+
+31
+00:02:37.200 --> 00:02:38.850
+Hart Montgomery: Have a great rest your day, thank you.
+
+32
+00:02:38.910 --> 00:02:39.750
+Danno Ferrin: Thanks for showing up.
+
+33
+00:02:42.300 --> 00:02:42.690
+Grace Hartley: cool.
+
+34
+00:02:44.460 --> 00:02:45.510
+Grace Hartley: Any other announcements.
+
+35
+00:02:48.090 --> 00:02:49.860
+Grace Hartley: cool release updates.
+
+36
+00:02:51.750 --> 00:02:59.580
+Grace Hartley: I just pulled this it will say the next one is June 14 just in your own point anything we want to discuss or pull this up so we're looking at it.
+
+37
+00:03:01.020 --> 00:03:02.460
+Grace Hartley: In relation to releases.
+
+38
+00:03:02.970 --> 00:03:03.720
+Justin Florentine: I think the only thing.
+
+39
+00:03:03.780 --> 00:03:05.220
+Justin Florentine: Sorry yeah.
+
+40
+00:03:06.000 --> 00:03:08.640
+Justin Florentine: I think the only thing I wanted to throw out there, as I might do this.
+
+41
+00:03:09.570 --> 00:03:24.240
+Justin Florentine: evening time my time because one of the Australian TEAM members wants to be the yes to find has himself listed there as the approval, so I was going to offer to work, his morning my evening to execute that release anybody see any concerns with that.
+
+42
+00:03:26.550 --> 00:03:27.330
+Gary Schulte: What sorry.
+
+43
+00:03:28.500 --> 00:03:31.770
+Gary Schulte: what's the day the week is June 15 it's not Friday.
+
+44
+00:03:35.730 --> 00:03:36.330
+Justin Florentine: Wednesday
+
+45
+00:03:36.630 --> 00:03:38.520
+Gary Schulte: Wednesday yeah that makes sense.
+
+46
+00:03:43.320 --> 00:03:47.490
+Danno Ferrin: What are we going to get the next tdd for the next test net will that be in this release.
+
+47
+00:03:48.630 --> 00:03:53.940
+Justin Florentine: We got it for robson so that is in this release it's actually already merged to me.
+
+48
+00:03:54.870 --> 00:04:08.760
+Gary Schulte: You know my understanding is that friday's a CD call is supposed to be largely about merging may net and and so forth, so i'm guessing will probably maybe see likes a polio or girly tdd possibly.
+
+49
+00:04:09.360 --> 00:04:11.340
+Danno Ferrin: it's a polio is click as well right.
+
+50
+00:04:11.520 --> 00:04:13.170
+Gary Schulte: Now suppose proof of work actually.
+
+51
+00:04:13.470 --> 00:04:13.830
+Okay.
+
+52
+00:04:19.200 --> 00:04:24.330
+Gary Schulte: it'll be nice to get that in under the wire before the release if it's decided on Friday, but if not.
+
+53
+00:04:25.770 --> 00:04:30.510
+Danno Ferrin: Well, now we know that the contracts first before we announce a tdd yeah.
+
+54
+00:04:30.660 --> 00:04:32.190
+Gary Schulte: Right, especially on proof of work.
+
+55
+00:04:39.090 --> 00:04:40.800
+Grace Hartley: Okay, so sounds like you know.
+
+56
+00:04:41.550 --> 00:04:52.620
+Grace Hartley: Barring any surprises, and this week's Friday call it a CD called will be on track for the 15th and no concerns or.
+
+57
+00:04:53.670 --> 00:04:54.060
+Grace Hartley: Issues.
+
+58
+00:04:56.730 --> 00:05:00.420
+Grace Hartley: And, if anything, does change just let the group know and discord from from the radical.
+
+59
+00:05:03.840 --> 00:05:06.570
+Grace Hartley: whoops I don't know I click something sorry.
+
+60
+00:05:10.140 --> 00:05:17.670
+Grace Hartley: Go okay i'm work updates merge update justin I believe you were the one who added this updated.
+
+61
+00:05:18.150 --> 00:05:25.530
+Justin Florentine: I did um so brief synopsis mean that shadow fork six went pretty well.
+
+62
+00:05:26.730 --> 00:05:38.220
+Justin Florentine: Everybody made it through everybody stayed in sync we didn't see any of the areas that we previously saw we were running both bonds and snap sync on all of those notes, so that was fun to have that validated.
+
+63
+00:05:39.600 --> 00:05:45.150
+Justin Florentine: However, we were failing, we were making proposals we weren't including any transactions in them.
+
+64
+00:05:45.690 --> 00:06:03.330
+Justin Florentine: Upon investigation, it turned out that we had a bug with regard to the transaction pool that prevented us from at adding any transactions, if our best here was more than 100 blocks ahead and it turns out when you're on a shadow for that's going to happen.
+
+65
+00:06:04.560 --> 00:06:16.890
+Justin Florentine: So that happened that's been addressed, and it kind of brought up the question on how best to disconnect from the proof of work network so that's kind of where we're at right now.
+
+66
+00:06:17.940 --> 00:06:29.340
+Justin Florentine: There are other teams have this problem as well there's no clear strategy for Disconnecting from the proof of work network and the discussions kind of ongoing in discord.
+
+67
+00:06:30.390 --> 00:06:38.130
+Justin Florentine: So that's just a status update just let people know where we're going that we're feeling pretty good so questions.
+
+68
+00:06:38.160 --> 00:06:39.150
+Justin Florentine: Comments concerns.
+
+69
+00:06:41.580 --> 00:06:50.370
+Gary Schulte: And we merge your PR that disables that following distance for transaction pool the remote transactions inclusion.
+
+70
+00:06:50.400 --> 00:06:55.470
+Justin Florentine: Yes, yes and that's and that has been redeployed to being that shadow work six it.
+
+71
+00:06:56.700 --> 00:07:04.950
+Justin Florentine: sort of works i'm not confident that we found all of the problems with it because the proposals that are coming through a while some of them do have transactions others do not.
+
+72
+00:07:05.340 --> 00:07:15.270
+Justin Florentine: And the ones that do have transactions seem awfully light like they have like four transactions in them which doesn't quite pass the sniff test so that's what i'm investigating today.
+
+73
+00:07:16.770 --> 00:07:19.470
+Gary Schulte: yeah there could be some 1559 dynamics at play there too.
+
+74
+00:07:20.460 --> 00:07:20.820
+huh.
+
+75
+00:07:26.280 --> 00:07:31.950
+Francesco Andreoli: Just do you need any support for the blog posts like terms of I don't know as a.
+
+76
+00:07:34.170 --> 00:07:36.570
+Justin Florentine: blog posts, what do you mean like with regard to the release.
+
+77
+00:07:37.650 --> 00:07:45.600
+Francesco Andreoli: yeah know someone wrote here once ready worked in a blog post and results, I know, let me know if there is anything like an apple.
+
+78
+00:07:46.050 --> 00:07:49.380
+Justin Florentine: Oh Okay, I did not write that but.
+
+79
+00:07:51.750 --> 00:07:53.760
+Justin Florentine: I will reach out to you, if I need help with the partners.
+
+80
+00:07:54.600 --> 00:07:56.580
+Gary Schulte: I think that's about checkpoint sync.
+
+81
+00:07:57.420 --> 00:07:59.070
+Justin Florentine: Yes, oh good.
+
+82
+00:08:04.320 --> 00:08:07.650
+Justin Florentine: All right, does that mean cream is up and we're gonna talk about checkpoints.
+
+83
+00:08:10.530 --> 00:08:12.960
+Karim T.: As I can talk about right yeah.
+
+84
+00:08:13.800 --> 00:08:15.450
+Karim T.: So, so I can give.
+
+85
+00:08:15.450 --> 00:08:22.290
+Karim T.: You an update, so we melcher checkpoint sink on the main branch so it's like this it's the same we have your snapped.
+
+86
+00:08:22.530 --> 00:08:33.870
+Karim T.: sync but the only difference is, we are not downloading the block from the genesys, but we are done and things are blocked from the specific checkpoints, so it can be a month or blog or something like that.
+
+87
+00:08:34.620 --> 00:08:44.160
+Karim T.: The information of these blockages in genesis so if a user wants to verify he can just check the generic directly and it's.
+
+88
+00:08:44.790 --> 00:08:57.660
+Karim T.: Only available for main net rob Stan and golly but it's easy to add this mechanism to Arizona talk We just have to add the checkpoint section insurgencies of the network.
+
+89
+00:08:58.560 --> 00:09:14.850
+Karim T.: So we did some test and with the quran checkpoint and visa current size of the network four minutes less than six hours to synchronize another and for girly it's less it's only one hour.
+
+90
+00:09:15.990 --> 00:09:26.640
+Karim T.: So we will have to update these checkpoints regularly so maybe not for every release but regarding, we need to update these checkpoints and.
+
+91
+00:09:27.570 --> 00:09:39.750
+Karim T.: So we'll have to add background mechanism to do not all of the block before the checkpoint in order to support network, and in order to give this book to those appeals.
+
+92
+00:09:41.790 --> 00:09:42.180
+Karim T.: it's all.
+
+93
+00:09:46.920 --> 00:09:54.720
+Danno Ferrin: So for a little bit of context guess has a similar mechanism, they work off of like clients back where they have a specific.
+
+94
+00:09:56.190 --> 00:10:06.090
+Danno Ferrin: epoch number and they check the state, so this is not like we're creating a new idea of check pointing stuff we're doing some strange all bitcoin chain thing this is something that other big clients do.
+
+95
+00:10:09.210 --> 00:10:09.510
+Karim T.: Is.
+
+96
+00:10:13.350 --> 00:10:13.950
+Gary Schulte: How frequently.
+
+97
+00:10:14.730 --> 00:10:16.080
+Gary Schulte: Doc checkpoint.
+
+98
+00:10:23.100 --> 00:10:23.490
+Helen George: grace.
+
+99
+00:10:23.910 --> 00:10:24.600
+Grace Hartley: Very first.
+
+100
+00:10:25.200 --> 00:10:25.980
+Helen George: Sorry okay.
+
+101
+00:10:26.820 --> 00:10:27.180
+Sorry.
+
+102
+00:10:28.200 --> 00:10:35.910
+Gary Schulte: just wondering how how frequently we think we would need to update the checkpoint that I think that gets checkpoints of further like light stuff I haven't been updated in quite some time right.
+
+103
+00:10:36.270 --> 00:10:37.980
+Gary Schulte: Like they're over over a year and change old.
+
+104
+00:10:38.640 --> 00:10:40.860
+Danno Ferrin: November so.
+
+105
+00:10:41.070 --> 00:10:51.300
+Danno Ferrin: There is a checkpoint is that they track on the main net and that hasn't been updated in quite a while, but they also update in their code itself and the last time they updated, it was in November.
+
+106
+00:10:51.810 --> 00:10:55.560
+Danno Ferrin: I think a like to update their is when they have known security issues.
+
+107
+00:10:56.910 --> 00:11:00.180
+Danno Ferrin: To to encourage people to you know the stuff that might cause breakages.
+
+108
+00:11:04.230 --> 00:11:12.060
+Danno Ferrin: If we don't update it was still getting the same value on that, but I think we should consider it like quarterly or every half million blocks or so, but i'm flexible.
+
+109
+00:11:13.170 --> 00:11:13.470
+Karim T.: yeah.
+
+110
+00:11:15.120 --> 00:11:25.830
+Gary Schulte: that'd be a good like quarterly release strategy like it would make sense that, on every quarterly release we would update the checkpoint checkpoints.
+
+111
+00:11:32.640 --> 00:11:34.500
+Grace Hartley: Do you want to take an action on that or do we want to.
+
+112
+00:11:37.740 --> 00:11:39.690
+Grace Hartley: Just set a reminder somewhere.
+
+113
+00:11:40.050 --> 00:11:42.480
+Matt Nelson: I think we can add it to the release checklist.
+
+114
+00:11:43.380 --> 00:11:43.890
+Grace Hartley: makes sense.
+
+115
+00:11:45.750 --> 00:11:48.900
+Matt Nelson: For you just take a note here, I can track it down and put it there.
+
+116
+00:11:49.800 --> 00:11:52.110
+Grace Hartley: cool Francesco do you mind just tracking that.
+
+117
+00:11:53.250 --> 00:11:56.790
+Grace Hartley: yeah Thank you cool that's good idea, though, good I.
+
+118
+00:11:59.340 --> 00:12:01.890
+Grace Hartley: Make sure keeping up to date cool.
+
+119
+00:12:03.870 --> 00:12:04.770
+Grace Hartley: Anything else.
+
+120
+00:12:06.420 --> 00:12:08.670
+Helen George: Is there a place where we can learn more about it.
+
+121
+00:12:10.530 --> 00:12:12.270
+Karim T.: And not yet, but.
+
+122
+00:12:13.410 --> 00:12:14.130
+Karim T.: Marty.
+
+123
+00:12:15.540 --> 00:12:16.710
+Karim T.: wants to create a blog.
+
+124
+00:12:17.850 --> 00:12:25.080
+Karim T.: Post about that, and maybe we read it so i'm just kind of information on the documentation I don't know if you have more context.
+
+125
+00:12:25.740 --> 00:12:40.830
+Matt Nelson: yeah Now I want to put together, I want to start with the docs and then go to a blog post so i'm going to try to work with the docs team to get that lined up it's like Chris said it's pretty straightforward so it's just a matter of making sure that we outline all of the considerations.
+
+126
+00:12:45.210 --> 00:12:45.900
+Helen George: Any Thank you.
+
+127
+00:12:50.070 --> 00:12:53.400
+Grace Hartley: Sorry, you know you have a question directed over to you.
+
+128
+00:12:56.280 --> 00:12:58.320
+Grace Hartley: Any no other work updates.
+
+129
+00:13:02.730 --> 00:13:11.250
+Grace Hartley: sounds good other business, so I don't think I made security about requesting sure pretty sure this is old and there are no no updates.
+
+130
+00:13:13.470 --> 00:13:14.070
+Danno Ferrin: about the audit.
+
+131
+00:13:16.620 --> 00:13:32.430
+Grace Hartley: A yeah yeah no so just so just wanted to confirm the on this one, we have the list for the containers and on cloud moneychangers I know Sally was owning a bunch of this over the last few weeks, is it was just any action on the on the spirit that the group should discuss.
+
+132
+00:13:32.820 --> 00:13:34.800
+Danno Ferrin: yeah we went with a lightweight process.
+
+133
+00:13:34.890 --> 00:13:38.160
+Danno Ferrin: yeah and the vouching and that's been committed and merged.
+
+134
+00:13:40.020 --> 00:13:41.100
+Grace Hartley: cool cool cool okay.
+
+135
+00:13:43.980 --> 00:13:45.540
+Danno Ferrin: No, I see what's on the agenda there.
+
+136
+00:13:46.350 --> 00:13:48.600
+Grace Hartley: You know Francesca do you mind.
+
+137
+00:13:48.990 --> 00:14:00.330
+Grace Hartley: just maybe adding to the notes just pulling the links from just the decision and confirming that this is where it is and then we'll be sure to remove this from the agenda for the next call.
+
+138
+00:14:02.100 --> 00:14:06.000
+Grace Hartley: Thank you go security audit yes deanna or any other.
+
+139
+00:14:06.630 --> 00:14:07.500
+questions on this one.
+
+140
+00:14:10.980 --> 00:14:12.180
+Grace Hartley: Okay yeah security yet.
+
+141
+00:14:14.340 --> 00:14:14.580
+Danno Ferrin: So.
+
+142
+00:14:14.610 --> 00:14:15.960
+Danno Ferrin: they're going to pick up the audit.
+
+143
+00:14:16.110 --> 00:14:17.460
+On the 17th of June.
+
+144
+00:14:18.570 --> 00:14:19.290
+Danno Ferrin: Which.
+
+145
+00:14:19.350 --> 00:14:22.920
+Danno Ferrin: Even though it's later than expected, we probably will wind up finishing the audit before.
+
+146
+00:14:23.940 --> 00:14:34.260
+Danno Ferrin: The merge actually happens six weeks puts us at the end of July early August, and that is still before when we expect the merge to happen so we'll be able to say we have an audited client before the merge.
+
+147
+00:14:35.670 --> 00:14:39.660
+Danno Ferrin: The the last time they did an audit like this, they found some of the issues like the.
+
+148
+00:14:40.950 --> 00:14:41.310
+Danno Ferrin: The.
+
+149
+00:14:43.230 --> 00:14:53.250
+Danno Ferrin: graph to well they found a denial of service attacks they do some pretty good standard searches on it, the focus on this one is going to be on the audit expose api's as a priority.
+
+150
+00:14:54.390 --> 00:14:56.970
+Danno Ferrin: So yeah there's nothing to report yet, because nothing has happened.
+
+151
+00:14:58.110 --> 00:15:01.320
+Danno Ferrin: If you get a ping to fix an issue it's auto related.
+
+152
+00:15:03.390 --> 00:15:10.230
+Danno Ferrin: will probably let you know how quiet, you need to keep it it'll be all reported in the end, but we're going to fix it as we find out, I think, is a current plan.
+
+153
+00:15:10.800 --> 00:15:20.160
+Danno Ferrin: So yeah treat these like security disclosures if you get bug fixes related to it, which means they will be disclosed so as you write your stuff down realize that there will be an audience.
+
+154
+00:15:26.160 --> 00:15:27.060
+Gary Schulte: Is that they're going to be.
+
+155
+00:15:27.090 --> 00:15:32.130
+Gary Schulte: Communicating on the discord audit channel, or is it going to be mostly via email for the disclosures or.
+
+156
+00:15:32.190 --> 00:15:35.880
+Danno Ferrin: have asked for the discord we'll see what happens when they start every.
+
+157
+00:15:36.330 --> 00:15:40.590
+Danno Ferrin: Every odd it's different if it's email i'll be sure to bring into the discord.
+
+158
+00:15:46.980 --> 00:15:48.420
+Danno Ferrin: i'm hoping it's going to be the discord.
+
+159
+00:15:51.060 --> 00:15:51.540
+Danno Ferrin: Yes.
+
+160
+00:15:51.600 --> 00:15:52.650
+Gary Schulte: definitely better way of.
+
+161
+00:15:53.550 --> 00:15:56.430
+Gary Schulte: Getting attention and throwing them you get another email.
+
+162
+00:15:57.210 --> 00:15:57.750
+Gary Schulte: on fire.
+
+163
+00:16:05.640 --> 00:16:08.610
+Grace Hartley: That sounds good yeah and plus one to discord.
+
+164
+00:16:10.140 --> 00:16:13.920
+Grace Hartley: Any other comments or questions in the security audit concerns.
+
+165
+00:16:18.300 --> 00:16:18.630
+Grace Hartley: Go.
+
+166
+00:16:19.830 --> 00:16:20.580
+Grace Hartley: validate your screen.
+
+167
+00:16:21.900 --> 00:16:22.440
+Grace Hartley: Yet.
+
+168
+00:16:22.710 --> 00:16:24.150
+Matt Nelson: yeah I can talk about this quickly.
+
+169
+00:16:25.740 --> 00:16:35.040
+Matt Nelson: This is in relation to some of the features that we've been developing more recently targeting the kind of post proof of work world for basic adoption.
+
+170
+00:16:35.460 --> 00:16:48.870
+Matt Nelson: So i'm working with some of the hyper ledger marketing folks to try to set up a couple of different workshops and webinars around enterprise staking what it means and basically post merge infrastructure in general.
+
+171
+00:16:50.910 --> 00:16:55.950
+Matt Nelson: So you know nothing, nothing quite complete yet we're looking to basically come up with.
+
+172
+00:16:56.160 --> 00:17:06.180
+Matt Nelson: A framework to engage the folks first and send out some kind of emails or informal feedback requests on like What do people know about the merge, what do they know about public networks and staking.
+
+173
+00:17:06.870 --> 00:17:14.880
+Matt Nelson: And then use that to kind of tailor a set of workshops that we are hoping to do right around the timing of the merge or a little bit soon after.
+
+174
+00:17:15.300 --> 00:17:24.300
+Matt Nelson: So no big updates on this yet, but I wanted to showcase a lot of the hard work that all the teams have been doing around you know the emerging around some of the features related to.
+
+175
+00:17:24.870 --> 00:17:31.560
+Matt Nelson: Proof of stake So hopefully we can get the ball rolling on some more traction with this, and maybe even bring in some of hyper ledger's.
+
+176
+00:17:31.950 --> 00:17:40.110
+Matt Nelson: You know enterprise focused people to be more interested in what's going on in May net and if not, then maybe they'll learn a little bit more about public networks, regardless.
+
+177
+00:17:41.250 --> 00:17:43.980
+Matt Nelson: that's all for that, for now, no, no major updates quite yet.
+
+178
+00:17:48.750 --> 00:17:50.790
+Matt Nelson: If you want to help me make those workshops, let me know.
+
+179
+00:17:52.500 --> 00:17:56.070
+Matt Nelson: I will need some support, but for the most part i'll be handling it with David.
+
+180
+00:17:57.240 --> 00:17:58.500
+Matt Nelson: I can help organizing that.
+
+181
+00:17:58.830 --> 00:17:59.490
+Francesco Andreoli: there's a need.
+
+182
+00:18:00.570 --> 00:18:01.080
+Francesco Andreoli: or something.
+
+183
+00:18:01.710 --> 00:18:02.970
+Francesco Andreoli: thankfulness Francesco.
+
+184
+00:18:05.850 --> 00:18:06.450
+Grace Hartley: yeah be cool.
+
+185
+00:18:07.230 --> 00:18:21.180
+Grace Hartley: um on that note, there is just anton's doing a workshop and I don't remember when it is or if it I feel like it might have been this week or next week, but just on that note, if you have.
+
+186
+00:18:22.530 --> 00:18:24.180
+Grace Hartley: folks that are interested in.
+
+187
+00:18:27.360 --> 00:18:35.430
+Grace Hartley: getting started or kind of learning how to run me soo that workshops probably a great resource apologies I don't have the link, for me, so I don't.
+
+188
+00:18:37.590 --> 00:18:39.240
+Matt Nelson: In the chat I think it's.
+
+189
+00:18:40.350 --> 00:18:43.830
+Matt Nelson: it's coming up in next month actually so there's a little time.
+
+190
+00:18:44.160 --> 00:18:44.850
+Grace Hartley: Other as time.
+
+191
+00:18:47.010 --> 00:18:49.890
+Matt Nelson: passes here but yeah if you.
+
+192
+00:18:50.490 --> 00:18:56.100
+Matt Nelson: want to share this on any of your networks that would be receptive it's specifically around.
+
+193
+00:18:57.690 --> 00:19:06.930
+Matt Nelson: You know, using kind of extensions of basic, but at the same time there's definitely a lot of talks about configuration and setting up a basic network and then talking through.
+
+194
+00:19:07.650 --> 00:19:15.030
+Matt Nelson: extensions to the base to network and using spunk and things like that, but but I basically I pasted the information the chat so you can take a look.
+
+195
+00:19:19.620 --> 00:19:21.060
+Grace Hartley: sounds good, thank you.
+
+196
+00:19:22.680 --> 00:19:24.870
+Justin Florentine: Does anyone know if Anton needs any help that.
+
+197
+00:19:26.880 --> 00:19:28.410
+Justin Florentine: Is it, this is the antwan thing right.
+
+198
+00:19:31.410 --> 00:19:31.650
+Justin Florentine: The one.
+
+199
+00:19:32.760 --> 00:19:36.930
+Grace Hartley: yep that's what he yes it's what he's running I don't know if he needs help with it.
+
+200
+00:19:38.670 --> 00:19:40.200
+Justin Florentine: I figured he would have reached out if he did.
+
+201
+00:19:40.350 --> 00:19:40.710
+But.
+
+202
+00:19:42.030 --> 00:19:45.570
+Justin Florentine: i'm super psyched for it, so you know i'm really looking forward to it.
+
+203
+00:19:48.000 --> 00:19:48.570
+Justin Florentine: yeah.
+
+204
+00:19:50.040 --> 00:19:50.640
+Justin Florentine: Alright, thanks.
+
+205
+00:19:50.670 --> 00:19:58.740
+Grace Hartley: yeah same yeah no I think it'll be really great but yeah I mean feel free to reach out to him, but he hasn't I haven't seen any messages or you know gotten the request.
+
+206
+00:19:59.820 --> 00:20:01.260
+Grace Hartley: If he's looking for specific help.
+
+207
+00:20:05.220 --> 00:20:07.800
+Grace Hartley: cool yeah thanks I thought it, I think I.
+
+208
+00:20:08.970 --> 00:20:11.520
+Grace Hartley: misread that thought it was June 14 2014.
+
+209
+00:20:13.290 --> 00:20:14.070
+Grace Hartley: sounds good.
+
+210
+00:20:16.650 --> 00:20:24.360
+Grace Hartley: metrics if the group doesn't disagree, I might skip that today, and just go right to the roadmap matt you're probably right person for this.
+
+211
+00:20:26.610 --> 00:20:29.400
+Matt Nelson: Yes, let me pull up the roadmap, so I don't make any.
+
+212
+00:20:30.300 --> 00:20:31.110
+mistakes.
+
+213
+00:20:35.820 --> 00:20:47.250
+Matt Nelson: I made just some some quick changes around we we didn't have a slotted in time for cleanup post merge if you scroll down actually varies I think everyone's kind of on board around.
+
+214
+00:20:48.630 --> 00:20:57.810
+Matt Nelson: there's not much change besides kind of full steam ahead on some improvements to the client, as well as just merge related activity and spec spec stuff so.
+
+215
+00:20:58.290 --> 00:21:12.210
+Matt Nelson: that's the bug fixes and testing that we're doing now that's the hive to testing that we're doing with the test suites and other things like that so really just continuing full steam ahead around the merge for 25 and any subsequent releases.
+
+216
+00:21:14.670 --> 00:21:27.630
+Matt Nelson: For 28 the again I added the first bullet here around merging plus merge cleanup I anticipate that there will be a significant period where we need to kind of take a breather and focus on alleviation of some.
+
+217
+00:21:27.960 --> 00:21:36.870
+Matt Nelson: an accumulation of issues i'd say and just going to reinvestigate some of the work that we had done around new specs and functionality to make sure that everything is kind of rock solid.
+
+218
+00:21:37.320 --> 00:21:46.170
+Matt Nelson: So you know we're seeing an uptick in folks that are using basic which is great, so you know we've we've seen significant improvement of network share based on our.
+
+219
+00:21:46.680 --> 00:21:56.640
+Matt Nelson: Previously, small numbers but still, and I want to make sure that all these new folks that continue to start using basic and start testing out have good experiences, and that includes a lot of this cleanup so.
+
+220
+00:21:57.390 --> 00:22:04.050
+Matt Nelson: Focusing some sprints on tech debt reduction, I think, is valuable I think it's what we're going to look to prioritize right after the merge.
+
+221
+00:22:04.680 --> 00:22:13.770
+Matt Nelson: While we do some of the investigation about what's next I don't think we need to rush into anything dramatic following the merge will take a breather it's also going to be.
+
+222
+00:22:14.220 --> 00:22:19.800
+Matt Nelson: Either the end of the summer or the beginning of the fall and I anticipate people will want to take time for themselves as well.
+
+223
+00:22:20.490 --> 00:22:30.510
+Matt Nelson: So looking to again focus on optimizations and improvements for the short term, while we determine kind of what's next, and that also includes some of the upcoming hard forks.
+
+224
+00:22:32.250 --> 00:22:47.520
+Matt Nelson: That are potentially coming down the Pike after the merge there is Shanghai, that is probably not going to be slated for the 22 eight release is just My guess based on the timing Shanghai has been pretty much pushed if you if you scroll down a little bit Greece it's down there.
+
+225
+00:22:49.560 --> 00:22:54.450
+Matt Nelson: And again, supporting some of the different client enhancements that we've been thinking about kind of for a while and now have.
+
+226
+00:22:55.020 --> 00:23:04.680
+Matt Nelson: Time to prioritize while we do general discovery on things like modular ization and some of the other use cases that have cropped up since the previous.
+
+227
+00:23:05.490 --> 00:23:13.710
+Matt Nelson: Focus shifts around the merge so that's that's all I have on the roadmap, I see Helen Helen here is raising her hand and i'm sure she might have some input.
+
+228
+00:23:16.680 --> 00:23:21.330
+Helen George: hey yeah thanks man, so if you kind of like scroll up a bed.
+
+229
+00:23:22.200 --> 00:23:42.120
+Helen George: Under the now section, you might have seen a bit more update they're all kind of took out some other stuff that's been going around like snap sync VOD release it's out there, so remove that part what's added is so there's like two other streams of work that's happening within this shoe.
+
+230
+00:23:43.140 --> 00:23:56.400
+Helen George: So one work Stream is investigating how we might improve peering so The goal is like first like let's come up define what makes a good peer, how do we find them fast.
+
+231
+00:23:57.120 --> 00:24:08.400
+Helen George: Hopefully that's going to allow us to sync faster and to to the accurate state faster so there's a work stream group of engineers containers, you know.
+
+232
+00:24:09.240 --> 00:24:21.180
+Helen George: investigating make how we might do that so that could be like improving pure discovery speed currently experimenting around.
+
+233
+00:24:22.140 --> 00:24:34.860
+Helen George: reputation scoring system So how do we reward versus punish good or bad behaviors from peers, and how does that affect us finding good set of peers so.
+
+234
+00:24:35.640 --> 00:24:45.420
+Helen George: kind of like brainstorming through what that means, and then experimenting there would definitely love to kind of share with the wider community what our experiment results are like and have.
+
+235
+00:24:45.930 --> 00:24:53.700
+Helen George: You know other maintain there's also kind of like chime in how can we make this a bit more robust another work Stream is.
+
+236
+00:24:54.360 --> 00:25:04.950
+Helen George: Improving node operations, so what we realized, there are a bunch of folks who are upgrading nodes so we're kind of calling them node operators.
+
+237
+00:25:05.580 --> 00:25:20.070
+Helen George: And we want to make them help them like scale knows faster since they're like operating bunch of notes together so doing some investigation there as well, trying to like, how can we.
+
+238
+00:25:21.120 --> 00:25:33.960
+Helen George: Help them scale fast with lower costs, perhaps so still in a very early stage it's religious identity through different ideas, but as more kind of ideas as as it.
+
+239
+00:25:34.350 --> 00:25:42.270
+Helen George: gets firmer would love to kind of share more during these calls in the future, and I think matt already touched upon it like.
+
+240
+00:25:43.170 --> 00:25:58.080
+Helen George: In under the next section, the modular ization of issue, I know, like some maintenance have been talking about this a lot so we're still also in the early stage we're trying to understand like what's the benefit what's the pros and cons to it.
+
+241
+00:25:58.710 --> 00:26:05.250
+Helen George: For a minute what's the goal that we like to accomplish as part of this so starting early conversations here.
+
+242
+00:26:06.690 --> 00:26:21.330
+Helen George: And ultimately would love to see the release cycle job for best to and wider adoption of this issue so stay tuned we'll keep y'all posted so yeah Those are the points that I wanted to share.
+
+243
+00:26:27.420 --> 00:26:29.040
+Grace Hartley: Any questions or comments.
+
+244
+00:26:33.600 --> 00:26:34.890
+Gary Schulte: So the question about the roadmap.
+
+245
+00:26:35.460 --> 00:26:41.730
+Gary Schulte: The dot five and eight are we to be go for a different release cadence I just missed that.
+
+246
+00:26:42.090 --> 00:26:52.020
+Matt Nelson: Now I noticed that, too, I think you got screwed up at some point, based on some of the ways that we've moved it around i'll double check against what we have and updated, I think that you're right that it is wrong.
+
+247
+00:26:53.520 --> 00:26:55.260
+Danno Ferrin: i'm not sure what I was expecting seven.
+
+248
+00:26:56.550 --> 00:26:57.240
+Danno Ferrin: one.
+
+249
+00:26:57.600 --> 00:27:02.010
+Matt Nelson: yeah that's what I thought too i'll fix it small small update.
+
+250
+00:27:04.890 --> 00:27:08.700
+Helen George: Sorry, that was me tinkering around, as I was updating it oh.
+
+251
+00:27:08.790 --> 00:27:10.380
+Helen George: How about I increment them all.
+
+252
+00:27:11.790 --> 00:27:12.450
+Helen George: newbie.
+
+253
+00:27:14.220 --> 00:27:15.150
+Helen George: mistake sorry.
+
+254
+00:27:17.850 --> 00:27:19.230
+Matt Nelson: No problem they're tied to the month.
+
+255
+00:27:19.260 --> 00:27:20.400
+Matt Nelson: Helen of the.
+
+256
+00:27:20.430 --> 00:27:22.110
+Helen George: Release of.
+
+257
+00:27:23.100 --> 00:27:25.410
+Helen George: The numbering clever very clever.
+
+258
+00:27:26.130 --> 00:27:29.880
+Gary Schulte: I was wondering if there was some talk about maybe having a.
+
+259
+00:27:29.910 --> 00:27:37.020
+Gary Schulte: Release version system more like tech who does where it's just your month rather than your quarter, but yeah I.
+
+260
+00:27:38.070 --> 00:27:39.870
+Gary Schulte: Thought maybe that had happened and I wasn't aware of it.
+
+261
+00:27:41.250 --> 00:27:44.160
+Danno Ferrin: it's always been your mouth my initial pitch was year dot.
+
+262
+00:27:44.190 --> 00:27:53.850
+Danno Ferrin: Frequency released like Raul, but when you do your Monte make it clear just how current it is, but we did decide at the time to stick with quarterly releases, because we do.
+
+263
+00:27:54.660 --> 00:28:03.360
+Danno Ferrin: At least notionally we do more debugging we have we put more speculative stuff in the quarterly releases and we do the bi weekly releases that gives us a few extra week to shake it out.
+
+264
+00:28:04.590 --> 00:28:16.830
+Danno Ferrin: But I know a lot of projects that they decide their number of the day, they do the release and that determines the day month, so we have that flexibility we had to go to the tasc to get calvary approved, but because calvary is approved.
+
+265
+00:28:17.910 --> 00:28:32.520
+Danno Ferrin: We can you know we don't we're not fixed on the 147 10 we can move it around if we want to if it fits us better we could go to three times a year, we could you know, change the number every month, it really doesn't you know we have a lot of flexibility.
+
+266
+00:28:37.200 --> 00:28:39.750
+Gary Schulte: I personally am good with the 147 10 I like that it.
+
+267
+00:28:39.960 --> 00:28:45.450
+Gary Schulte: aligns with you know kind of ubuntu and release strategy it's kind of a well known.
+
+268
+00:28:46.560 --> 00:28:48.390
+Gary Schulte: calvert sort of strategy.
+
+269
+00:28:55.890 --> 00:28:57.240
+Grace Hartley: cool yeah to call.
+
+270
+00:28:58.560 --> 00:29:02.970
+Grace Hartley: And Helen we can share the calvary and the Caldera like proposal just to.
+
+271
+00:29:04.320 --> 00:29:08.340
+Grace Hartley: Just to be bored why we chose that release cadence.
+
+272
+00:29:09.390 --> 00:29:11.490
+Grace Hartley: Any anything else on the roadmap, I know, foot back.
+
+273
+00:29:19.320 --> 00:29:27.870
+Grace Hartley: yeah we used to do semantic version in how we switched to counter version eight years so you're to a little over a year and a half ago.
+
+274
+00:29:29.250 --> 00:29:29.700
+Grace Hartley: um.
+
+275
+00:29:32.220 --> 00:29:41.820
+Grace Hartley: One thing that I just wanted to call out that just to say good job everybody is it really seems that the new feature that route remix pruning.
+
+276
+00:29:42.840 --> 00:29:51.960
+Grace Hartley: is really popular and that's really exciting and it seems like that's you know, been a big hit for users and just wanted to say that's really cool so congrats.
+
+277
+00:29:54.510 --> 00:29:55.710
+Matt Nelson: yeah people love bonsai.
+
+278
+00:29:56.130 --> 00:29:57.000
+Grace Hartley: yeah yeah.
+
+279
+00:30:01.380 --> 00:30:02.310
+Grace Hartley: yeah awesome work.
+
+280
+00:30:04.950 --> 00:30:08.160
+Grace Hartley: cool man is there, do you want to talk with the roll up.
+
+281
+00:30:09.630 --> 00:30:10.320
+Grace Hartley: Section here.
+
+282
+00:30:11.160 --> 00:30:13.080
+Matt Nelson: Not too much quite yet.
+
+283
+00:30:14.550 --> 00:30:26.160
+Matt Nelson: it's again this is definitely a post merge activity, and this is part of a larger kind of Maltese chain strategy that I wanted to bring up with the contributors, at some point but it's not quite big yet.
+
+284
+00:30:27.570 --> 00:30:36.450
+Matt Nelson: Essentially you know if we move if we do decide to you know, in the in the post merge world to think about modular ization multi chain, more seriously, what does that look like.
+
+285
+00:30:37.680 --> 00:30:49.380
+Matt Nelson: Where does base you fit into that equation, do we choose to support roll ups, we choose to support you know other html ones, you know what does this all look like do we make it modular and then say go to town for other contributors.
+
+286
+00:30:50.160 --> 00:31:07.170
+Matt Nelson: Again it's very early days, but we we do you know I have been discussing with other ecosystem folks around optimistic roll ups at large and there's also a desire for client diversity at the optimistic roll up and probably ck roll up level.
+
+287
+00:31:08.670 --> 00:31:21.240
+Matt Nelson: And you know, since they're using some of the standard api's what you know what could be soo as a you know, an execution client do to support that and again it's a little early but i'm curious what people might think going forward.
+
+288
+00:31:22.470 --> 00:31:23.430
+Matt Nelson: Since we you know.
+
+289
+00:31:24.600 --> 00:31:40.950
+Matt Nelson: We do support multiple chains now, and you know what could it look like to kind of lean into that a little bit, as we see more and more proliferation of these things but pretty early for, especially for 22 seven, this is probably like 2023 target stuff.
+
+290
+00:31:43.560 --> 00:31:56.370
+Danno Ferrin: So i've been not paying attention to roll ups for the past six months, are they still doing custom fraud proofs or is there a standardization, I really haven't painted petition attention to optimistic to optimism, but is there.
+
+291
+00:31:56.400 --> 00:32:04.260
+Danno Ferrin: Some custom we're gonna have to redo our Patricia trees, I mean we're gonna have to redo it for verticals so that's not necessarily a bad thing.
+
+292
+00:32:04.920 --> 00:32:06.540
+Matt Nelson: yeah now, so I mean.
+
+293
+00:32:06.900 --> 00:32:14.400
+Matt Nelson: it's mostly about the the block production aspect they're basically hijacking a lot of the engine api's they're not necessarily doing the fraud proofs.
+
+294
+00:32:14.460 --> 00:32:17.730
+Matt Nelson: Like I don't think we'd have to change much of our state storage paradigm.
+
+295
+00:32:18.150 --> 00:32:26.070
+Matt Nelson: And from what i've gathered there's like four to 500 line difference between what they're using on death and what we have now, so my presumption, is that they haven't rewritten the.
+
+296
+00:32:26.640 --> 00:32:33.360
+Matt Nelson: Like the state storage entirely I needed like I said I need to do a little more discovery on what this actually looks like but from my my understanding.
+
+297
+00:32:34.320 --> 00:32:43.710
+Matt Nelson: It would mostly be around like it wouldn't be outside it would mostly be around block production and certain components within that and using it to.
+
+298
+00:32:44.820 --> 00:32:56.670
+Matt Nelson: You know execute the large number of transactions, but I don't know how it would impact the state storage and stuff like that, and the the fraud proofs but from optimistic roll ups, the answer is probably no because they're they're not really doing it.
+
+299
+00:32:58.680 --> 00:33:03.930
+Matt Nelson: You know that a lot of it's not really it's kind of a social construct, is it as opposed to a state storage construct.
+
+300
+00:33:04.770 --> 00:33:14.550
+Matt Nelson: But, but for Z KPS that from what i've gathered inside of consensus and otherwise, is that there might be some changes, when you do, but for the most part it's just piggybacking off of the engine API.
+
+301
+00:33:15.600 --> 00:33:30.630
+Matt Nelson: and basically pretending it's a cl client and then running a roll up kind of elsewhere and using the execution layer, for you know interaction with the l one and certain other parts of that kind of process.
+
+302
+00:33:31.890 --> 00:33:34.140
+Danno Ferrin: Are optimism and.
+
+303
+00:33:34.380 --> 00:33:39.720
+Danno Ferrin: Arbitrary was still running sequencers they got a plan to get off that yes.
+
+304
+00:33:40.440 --> 00:33:56.130
+Matt Nelson: No plan yet they're still running these you know the beefy centralized sequencers there's some proposals on how to kind of move away, but for now that's the de facto and I don't even know we how we would participate in that process My guess is that we would not.
+
+305
+00:33:56.940 --> 00:34:00.060
+Matt Nelson: But I don't really notice a big barrier to clint diversity is the.
+
+306
+00:34:00.060 --> 00:34:13.440
+Matt Nelson: sequencers yeah and the fact that they're pretty impossible to run as like a normal user just because the machine requirements are like pretty insane but yeah, so this is this is kind of hijacking the discussion, but.
+
+307
+00:34:15.000 --> 00:34:25.080
+Matt Nelson: Definitely, something that I want to engage after the merge, maybe Q4 is a good time to start discovery on this and see what that looks like but it's super it's pretty low priority frankly right now.
+
+308
+00:34:33.960 --> 00:34:35.220
+Matt Nelson: think we can move on grace.
+
+309
+00:34:37.470 --> 00:34:40.140
+Grace Hartley: good to know if it's coming down the pipe but yeah that's.
+
+310
+00:34:41.610 --> 00:34:41.970
+Matt Nelson: cool.
+
+311
+00:34:43.410 --> 00:34:47.880
+Grace Hartley: open forum looks like these are old Francesca can we are moving from the.
+
+312
+00:34:50.220 --> 00:34:52.590
+Grace Hartley: be open forum what what else for the group I.
+
+313
+00:34:54.660 --> 00:34:55.440
+Justin Florentine: Did we put the.
+
+314
+00:34:56.730 --> 00:34:58.680
+Justin Florentine: The chitchat meetup on the calendar.
+
+315
+00:35:02.910 --> 00:35:06.390
+Justin Florentine: Or we were just going to do that ad hoc and the discord voice channel.
+
+316
+00:35:07.980 --> 00:35:09.210
+Danno Ferrin: let's put it on the calendar.
+
+317
+00:35:11.400 --> 00:35:12.030
+Danno Ferrin: Thanks.
+
+318
+00:35:16.290 --> 00:35:19.170
+Justin Florentine: same same time off week right is that was the plan right.
+
+319
+00:35:21.540 --> 00:35:22.110
+Danno Ferrin: I think so.
+
+320
+00:35:25.980 --> 00:35:28.110
+Grace Hartley: tonight to own that Francesco are you.
+
+321
+00:35:29.670 --> 00:35:30.330
+Francesco Andreoli: Sure sure sure.
+
+322
+00:35:31.290 --> 00:35:35.190
+Grace Hartley: Thank you yeah we can add it to like that road your calendar than the basic group that'd be great.
+
+323
+00:35:36.210 --> 00:35:36.690
+Justin Florentine: awesome.
+
+324
+00:35:36.750 --> 00:35:37.500
+Thank you.
+
+325
+00:35:42.060 --> 00:35:42.810
+Grace Hartley: Anything else.
+
+326
+00:35:46.950 --> 00:35:49.860
+Diego López León: hi grace, I think you can remove the deprecating look for.
+
+327
+00:35:49.980 --> 00:35:53.400
+Diego López León: A 2.0 yeah.
+
+328
+00:35:54.540 --> 00:35:55.710
+Grace Hartley: yeah just.
+
+329
+00:35:56.220 --> 00:35:58.350
+Grace Hartley: yeah just realize that Thank you appreciate it.
+
+330
+00:36:05.940 --> 00:36:10.710
+Grace Hartley: Two participants who are they I don't know who was first in your House.
+
+331
+00:36:15.750 --> 00:36:19.920
+Nicolas Massart: Thanks i'm just one small thing.
+
+332
+00:36:20.310 --> 00:36:21.600
+Nicolas Massart: I discussed with.
+
+333
+00:36:22.680 --> 00:36:38.850
+Nicolas Massart: Some colleagues who are doing some Community support on discord and trying to answer questions mainly Doc riders and the told me that it was a bit hard for them to full on the discord.
+
+334
+00:36:39.930 --> 00:36:54.960
+Nicolas Massart: With many things happening very fast and so also the difficulty to find the questions and find the answers, if you are new to the discord or anything like that, and we were wondering if.
+
+335
+00:36:56.070 --> 00:37:03.000
+Nicolas Massart: Like some of the projects we have we could have the github discussion set up.
+
+336
+00:37:04.020 --> 00:37:17.310
+Nicolas Massart: I don't know if we already discussed that I don't know if there's any reason why we don't have it, I just wanted to to raise this question, and because the discussion in this in github really helps categorizing the.
+
+337
+00:37:18.390 --> 00:37:39.480
+Nicolas Massart: Questions and see which one is answered or not, and it may help users, not to ask the same question again and again, so that relieve the discord to be just chatting and not really a knowledge base, which is it's not and it's hard to to handle this way, so I wanted to have your opinion.
+
+338
+00:37:46.110 --> 00:37:50.070
+Gary Schulte: We we had discussions enable that one point rate that we did we disable this.
+
+339
+00:37:51.480 --> 00:37:58.890
+Nicolas Massart: that's that's part of the question I don't remember the story of this and I just wonder if there was some very.
+
+340
+00:38:00.480 --> 00:38:02.400
+Nicolas Massart: Hard drawbacks or something about.
+
+341
+00:38:08.130 --> 00:38:11.250
+Nicolas Massart: That just for an example, we have it on Google chrome.
+
+342
+00:38:12.840 --> 00:38:19.380
+Nicolas Massart: And it seems to work well, so I just wondered if that's an option or not.
+
+343
+00:38:24.780 --> 00:38:32.970
+Justin Florentine: Definitely appreciate the problem I have run into this a lot, where I am forced to use discord as a knowledge base, which is terrible so.
+
+344
+00:38:34.950 --> 00:38:39.030
+Justin Florentine: I agree it's a problem I don't know that I have a solution that I want to propose.
+
+345
+00:38:43.470 --> 00:38:44.400
+Grace Hartley: It good you have any.
+
+346
+00:38:46.260 --> 00:38:48.090
+Grace Hartley: documentation or.
+
+347
+00:38:49.530 --> 00:38:52.500
+Grace Hartley: Maybe a proposal that people can react to to kind of say.
+
+348
+00:38:54.390 --> 00:38:59.820
+Grace Hartley: Yes, no maybe too, because that yeah I think likely, the group agrees with the challenge but.
+
+349
+00:39:00.180 --> 00:39:01.080
+It might be helpful yeah.
+
+350
+00:39:02.160 --> 00:39:06.630
+Nicolas Massart: No, no, I don't I could do that, so we can list.
+
+351
+00:39:07.500 --> 00:39:08.370
+Nicolas Massart: Things if people.
+
+352
+00:39:08.400 --> 00:39:17.760
+Nicolas Massart: already have experience with this and see some major blockers or something so i'm just starting the discussion here.
+
+353
+00:39:19.080 --> 00:39:20.940
+Francesco Andreoli: Maybe quick question, people are maybe.
+
+354
+00:39:21.030 --> 00:39:36.420
+Francesco Andreoli: We can add in the description of discord like you know before discussing any issue would be great if you're creating a github issue, so that you can discuss directly in the link something like that might be helpful for people or and we can redirect the.
+
+355
+00:39:36.480 --> 00:39:41.670
+Nicolas Massart: level that may issue, the issue with issues is that once it's created it's.
+
+356
+00:39:42.870 --> 00:39:56.340
+Nicolas Massart: A landing on the developers plate and it's really I think we should discuss before doing a github issue and that discussion is something separate from the issues because.
+
+357
+00:39:57.630 --> 00:39:59.790
+Nicolas Massart: I tend to think that the issues.
+
+358
+00:40:00.840 --> 00:40:05.040
+Nicolas Massart: implies some necessary action from developers and community.
+
+359
+00:40:06.300 --> 00:40:11.640
+Nicolas Massart: So here is maybe before it may be just about the US age and.
+
+360
+00:40:13.500 --> 00:40:30.840
+Nicolas Massart: Nothing not really an issue, it may just be a question or something and and a question that can be asked multiple times and on this goddess justin said it's very hard to be I don't I think people don't even try to find a similar question on this call, they just ask it again.
+
+361
+00:40:34.380 --> 00:40:35.730
+Gary Schulte: i'd be inclined to.
+
+362
+00:40:36.030 --> 00:40:39.120
+Gary Schulte: enable it and just kind of trial it and if it works.
+
+363
+00:40:41.040 --> 00:40:43.740
+Gary Schulte: You know work it into our processes and documentation, then.
+
+364
+00:40:45.180 --> 00:40:47.010
+Gary Schulte: it's kind of one of those let try and see if we like it.
+
+365
+00:40:47.820 --> 00:41:05.220
+Nicolas Massart: But the thing is that if we activate that then we have to make sure everyone, or at least most people on the discord just direct to this, so I don't know how we can do that easily make sure that people say hey go on the discussion issue of this question and.
+
+366
+00:41:06.570 --> 00:41:08.490
+Nicolas Massart: Without being too rude or whatever.
+
+367
+00:41:09.840 --> 00:41:24.060
+Matt Nelson: We can probably make some kind of discord bots that do something like that, without too much trouble if we determine a process or if they like reference that github link it just is like go talk about it here don't talk about it in the discord.
+
+368
+00:41:25.980 --> 00:41:33.120
+Matt Nelson: I don't know it's it's tough with random questions like that to get people to actually write things down or even just copy and paste.
+
+369
+00:41:36.000 --> 00:41:38.160
+Nicolas Massart: So maybe we can try, by.
+
+370
+00:41:39.630 --> 00:41:43.260
+Nicolas Massart: Doing that manually first if it has some impact and.
+
+371
+00:41:44.700 --> 00:41:48.930
+Nicolas Massart: Then, if we, we are sure it makes sense we automate that.
+
+372
+00:41:51.180 --> 00:41:56.820
+Matt Nelson: yeah I think this could also tie into in general, the fact that the get is a little bit unwieldy right now.
+
+373
+00:41:58.650 --> 00:42:04.080
+Matt Nelson: Because it, you know it's hard for us to find issues, let alone end users who don't know them.
+
+374
+00:42:04.110 --> 00:42:06.900
+Nicolas Massart: yeah but the thing is that it would not be into the.
+
+375
+00:42:06.960 --> 00:42:08.700
+Nicolas Massart: Issues likely would be.
+
+376
+00:42:10.500 --> 00:42:11.280
+Nicolas Massart: Another section.
+
+377
+00:42:11.940 --> 00:42:13.590
+Matt Nelson: All right, I yeah i'm.
+
+378
+00:42:13.950 --> 00:42:16.080
+Nicolas Massart: cool is also not to pollute the shoes.
+
+379
+00:42:16.110 --> 00:42:19.380
+Nicolas Massart: Because, as you said, there's already enough.
+
+380
+00:42:22.920 --> 00:42:31.770
+Nicolas Massart: I tried, I tried to to write something of a sort of proposal and push that to the Community, I think that that's the way.
+
+381
+00:42:37.140 --> 00:42:39.570
+Nicolas Massart: Some sort of action plan or something like that.
+
+382
+00:42:41.340 --> 00:42:43.170
+Justin Florentine: that's what makes me feel like maybe we're not getting the.
+
+383
+00:42:43.170 --> 00:42:45.150
+Justin Florentine: Most mileage out of our listserv either.
+
+384
+00:42:46.500 --> 00:42:48.720
+Justin Florentine: I feel like the the mailing list might.
+
+385
+00:42:49.800 --> 00:42:57.120
+Justin Florentine: might be an easily searchable type of thing that people could go to see questions that have been asked, or discussions that have already had and.
+
+386
+00:42:58.350 --> 00:43:01.860
+Justin Florentine: an engineer they don't do it because we have a fairly low traffic listener right.
+
+387
+00:43:04.290 --> 00:43:05.640
+Nicolas Massart: yeah plus maybe.
+
+388
+00:43:06.720 --> 00:43:11.190
+Nicolas Massart: Everything that's on email now is considered all technology or something either.
+
+389
+00:43:11.460 --> 00:43:12.960
+Gary Schulte: yeah agreed.
+
+390
+00:43:13.530 --> 00:43:15.570
+Gary Schulte: So I got a question and NICO for.
+
+391
+00:43:16.230 --> 00:43:27.750
+Gary Schulte: Your proposal to put a proposal and put it to the Community are we are we asking for permission, are we looking for interest or what is it that we're expecting as the outcome of the proposal, but.
+
+392
+00:43:27.900 --> 00:43:48.330
+Nicolas Massart: I don't think the mission is required, I would more I would expect some feedback and or some experience I don't have much experience in running discussion on github so if there's pitfalls or obvious things we should make sure we we don't new.
+
+393
+00:43:49.440 --> 00:43:52.800
+Nicolas Massart: that's what i'm expecting from some Community feedback.
+
+394
+00:43:54.120 --> 00:43:58.560
+Nicolas Massart: And also make sure these process is fine for everyone.
+
+395
+00:44:01.590 --> 00:44:05.550
+Nicolas Massart: Just a lazy consensus may be enough probably.
+
+396
+00:44:07.500 --> 00:44:10.530
+Gary Schulte: Would you put that on discord or where would Where would you publish that.
+
+397
+00:44:10.620 --> 00:44:15.930
+Nicolas Massart: I would probably make the the proposal on the wiki and then advertise it on this.
+
+398
+00:44:15.930 --> 00:44:16.560
+Nicolas Massart: Call yes.
+
+399
+00:44:18.330 --> 00:44:18.600
+Gary Schulte: cool.
+
+400
+00:44:24.540 --> 00:44:27.480
+Grace Hartley: That sounds good to me yeah and I think I like Gary your idea of like.
+
+401
+00:44:28.500 --> 00:44:28.920
+Grace Hartley: You know.
+
+402
+00:44:30.990 --> 00:44:36.750
+Grace Hartley: giving it a shot so NICO you know don't don't spend hours on a proposal to see oh.
+
+403
+00:44:36.810 --> 00:44:39.510
+Nicolas Massart: No, no, no, it would be just a few lines to explain.
+
+404
+00:44:39.510 --> 00:44:42.510
+Nicolas Massart: yeah reason reasoning for that and.
+
+405
+00:44:42.870 --> 00:44:52.680
+Nicolas Massart: What are the the expected outcomes and what is the process we plan to to put in place that, for instance, we expect people.
+
+406
+00:44:53.190 --> 00:44:58.650
+Nicolas Massart: To compute the link to the discussion whenever they have a question on on discord on something.
+
+407
+00:44:58.650 --> 00:44:58.950
+Nicolas Massart: like that.
+
+408
+00:45:00.150 --> 00:45:00.870
+Nicolas Massart: But that's it.
+
+409
+00:45:03.060 --> 00:45:03.630
+Grace Hartley: just wanted to.
+
+410
+00:45:03.750 --> 00:45:05.730
+Grace Hartley: double check, but you know.
+
+411
+00:45:06.930 --> 00:45:08.880
+Gary Schulte: You could also possibly sit still so.
+
+412
+00:45:09.030 --> 00:45:18.810
+Gary Schulte: The the an answer to the question of why it was enabled and then disabled I kind of recall the Anton enabled it at one point, but I don't know when it was disabled.
+
+413
+00:45:19.230 --> 00:45:20.430
+Gary Schulte: So that might be a good websites.
+
+414
+00:45:20.490 --> 00:45:28.290
+Nicolas Massart: And one of my question, clear if there's something that made us disability i'd like to know why, before doing the same mistake again.
+
+415
+00:45:33.210 --> 00:45:33.480
+Nicolas Massart: yep.
+
+416
+00:45:33.780 --> 00:45:34.440
+Grace Hartley: make sense, you.
+
+417
+00:45:34.530 --> 00:45:39.750
+Grace Hartley: might have some background that Oh well, thank you, Nicole and good good.
+
+418
+00:45:41.310 --> 00:45:44.070
+Grace Hartley: glad you raised this because it sounds like it's worth exploring.
+
+419
+00:45:45.120 --> 00:45:46.920
+Grace Hartley: might give everyone a better experience thanks.
+
+420
+00:45:50.340 --> 00:45:52.770
+Grace Hartley: Any other topics.
+
+421
+00:45:53.400 --> 00:45:56.070
+Nicolas Massart: I think Ellen raised her hand at the same time.
+
+422
+00:45:56.910 --> 00:45:57.750
+Nicolas Massart: Yes, sorry Ellen.
+
+423
+00:45:58.830 --> 00:45:59.820
+Helen George: Oh i'm.
+
+424
+00:46:00.600 --> 00:46:02.190
+Helen George: Just an answer my question.
+
+425
+00:46:02.400 --> 00:46:03.480
+Helen George: In the chat Thank you.
+
+426
+00:46:08.160 --> 00:46:08.730
+Grace Hartley: Anything else.
+
+427
+00:46:15.300 --> 00:46:15.900
+Well, good.
+
+428
+00:46:17.580 --> 00:46:24.240
+Grace Hartley: Great, then we can end here thanks everyone time every time I think this was really productive and we'll see you on discord.
+
+429
+00:46:25.590 --> 00:46:27.150
+Grace Hartley: will go nice oh.
+
+430
+00:46:28.110 --> 00:46:30.180
+Grace Hartley: you'll share the notes of the discord to just in case.
+
+431
+00:46:31.320 --> 00:46:33.090
+Francesco Andreoli: Yes, i'm just a bit in the body just.
+
+432
+00:46:33.150 --> 00:46:34.770
+Grace Hartley: Thank you very much, all right bye all.
+
+433
+00:46:35.430 --> 00:46:36.870
+Nicolas Massart: Right bye everyone take care.
+
+434
+00:46:37.590 --> 00:46:38.880
+Danno Ferrin: bye bye.
+
+435
+00:46:39.210 --> 00:46:39.540
+Karim T.: All right.
+

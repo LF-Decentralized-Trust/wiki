@@ -1,0 +1,1790 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.870
+Gentlemen, the chat.
+
+2
+00:00:01.979 --> 00:00:02.490
+Grace Hartley: Thank you right.
+
+3
+00:00:04.140 --> 00:00:08.849
+Grace Hartley: And I think I think so there's probably one.
+
+4
+00:00:12.570 --> 00:00:14.790
+Grace Hartley: we'll see how far we get but I guess we'll start with the.
+
+5
+00:00:16.260 --> 00:00:21.120
+Grace Hartley: The housekeeping share my screen for go.
+
+6
+00:00:22.440 --> 00:00:23.790
+Grace Hartley: So antitrust notice.
+
+7
+00:00:25.380 --> 00:00:33.330
+Grace Hartley: If you haven't please read the address notice this hybrid call get that the means being recorded, please mute.
+
+8
+00:00:35.010 --> 00:00:39.780
+Grace Hartley: Unless you're speaking and then feel free to use the raise your hand feature, and we can.
+
+9
+00:00:41.280 --> 00:00:43.710
+Grace Hartley: facilitate conversations that way, but also.
+
+10
+00:00:45.000 --> 00:00:47.280
+Grace Hartley: Because it's a little bit bigger group so that sounds good.
+
+11
+00:00:49.050 --> 00:01:00.090
+Grace Hartley: We have one, probably the most important topic, which will be talking to the incentive program if we have time that we have other items we can.
+
+12
+00:01:01.200 --> 00:01:08.250
+Grace Hartley: use, but I think probably we'll see how far we get and be able to talk through that i've invited just I guess.
+
+13
+00:01:09.270 --> 00:01:16.530
+Grace Hartley: i've invited him from the theory and foundation on the call today if you all don't know TIM i'll let him.
+
+14
+00:01:18.060 --> 00:01:19.920
+Grace Hartley: tell you introduce yourself, I guess, and then.
+
+15
+00:01:20.970 --> 00:01:23.640
+Grace Hartley: But then we'll kind of go through the agenda.
+
+16
+00:01:26.880 --> 00:01:41.910
+Tim Beiko: So I can make oh I work at that, yes, what I do there is I run what's called the awkward deb's call where the different trying to get her and talk about changes to a theory previously was a PM on BC so i'm quite familiar with all of this.
+
+17
+00:01:43.440 --> 00:01:48.690
+Grace Hartley: yeah yeah So yes, what's the basis for a long time.
+
+18
+00:01:50.160 --> 00:02:02.370
+Grace Hartley: At consensus so definitely very, very natural space, but yeah, so I think you know as we've had some conversations going on the Twitter chat and submit send the mailing list.
+
+19
+00:02:03.060 --> 00:02:18.570
+Grace Hartley: Just to, I guess, maybe kick off the discussion, I think there was some confusion and around the announcement last week from the ash around the incentive program they're, starting with the during clients, I think there was also some mixed.
+
+20
+00:02:19.740 --> 00:02:34.230
+Grace Hartley: understandings and I think i'd like to apologize that we didn't really the consensus side, we were involved in some of the conversations, but we didn't bring into broader base community which understand, we should have, but I think.
+
+21
+00:02:35.490 --> 00:02:44.130
+Grace Hartley: But I appreciate everyone joining up to this call right now and dialing in wherever you are having the conversation with us, I think that's really exciting and very.
+
+22
+00:02:44.460 --> 00:02:54.690
+Grace Hartley: grateful that everyone's here to kind of discuss how we move forward as a group, I think you know i've asked him to come here to maybe explain in detail as maybe a starting point.
+
+23
+00:02:55.950 --> 00:03:14.040
+Grace Hartley: Just kind of what is the incentive program, how will work just to kind of get everyone up to speed on the on the program itself, and so, everyone has the same knowledge and understanding from that perspective and then but also you know we want you know I think you know.
+
+24
+00:03:15.240 --> 00:03:24.270
+Grace Hartley: You know I think what's important is that we want basically to be an open collaborative inclusive community, and I personally am very committed to that and want to keep.
+
+25
+00:03:25.170 --> 00:03:37.680
+Grace Hartley: Driving and striving for that, so I think this is a good step in the right direction and I appreciate everyone, you know participating and being a part of this conversation, because I know it's very, very, very important so much appreciate it.
+
+26
+00:03:39.180 --> 00:03:47.730
+Grace Hartley: With that I guess any comments or questions are we okay to let TIM kind of explain the program and then we can kind of have a discussion as a group of kind of what are the right next steps.
+
+27
+00:03:52.710 --> 00:04:06.210
+Grace Hartley: Okay, so TIM, please, if you don't mind just walk us through kind of the program just how it's going to work for basic but also just all the client teams and kind of the goals of the program and all that is, that is, that okay.
+
+28
+00:04:06.750 --> 00:04:08.040
+Tim Beiko: yeah of course yeah so.
+
+29
+00:04:08.610 --> 00:04:12.480
+Tim Beiko: The goal of the program is really to provide kind of long term incentives.
+
+30
+00:04:12.570 --> 00:04:20.940
+Tim Beiko: To the folks who are building their main net clients and you know that's that's kind of how I guess the philosophy behind.
+
+31
+00:04:21.900 --> 00:04:33.330
+Tim Beiko: How we shipped it and, like Gray said, basically, something that was offered to every mean pine team, both on the execution and the consensus layer and and.
+
+32
+00:04:34.320 --> 00:04:49.830
+Tim Beiko: The high level how it works is the teams have to run a number of validators so there's 144 total validators 16 of which are kind of canary so can be used for more experimental deploys.
+
+33
+00:04:51.120 --> 00:05:06.930
+Tim Beiko: And over time, basically, the the teams run the validators manage the infrastructure to do that and, over time, basically these validators vests to those teams and that you have provides the withdrawal keys.
+
+34
+00:05:07.860 --> 00:05:17.280
+Tim Beiko: For the validators and at that point once that is invested, you know teams are free to do whatever you want with with them keep renting them liquidate them as they please.
+
+35
+00:05:17.700 --> 00:05:20.100
+Tim Beiko: And then one thing that's worth noting, as well, is that.
+
+36
+00:05:20.910 --> 00:05:30.330
+Tim Beiko: Throughout the program after the merge transaction fees also include the validators so teams are free to do whatever they want with it with the transaction fees from their validators as well.
+
+37
+00:05:30.840 --> 00:05:38.220
+Tim Beiko: And, and then kind of the requirements of the programs are a to run your own you know software, so we expect.
+
+38
+00:05:39.570 --> 00:05:46.500
+Tim Beiko: Obviously, the basic team to run base you and, ideally, to read that, in combination with a bunch of consensus layer clients.
+
+39
+00:05:46.980 --> 00:05:54.720
+Tim Beiko: If you know client teams are more comfortable with one and just want to run kind of their canary nodes on other ones that's that's fine, but just to make sure that you know.
+
+40
+00:05:56.520 --> 00:06:04.500
+Tim Beiko: That the software is compatible with kind of the various consensus layer clients and then there's performance metrics so basically we expect.
+
+41
+00:06:05.250 --> 00:06:17.640
+Tim Beiko: The clients to have over 95% of at the station and block proposal inclusions, and this is basically something you get in the beacon chain that tells you, you know 95% of the time when we asked you to do something you do with.
+
+42
+00:06:18.300 --> 00:06:37.410
+Tim Beiko: These are quite lacks performance metrics to be fair, like I think most client teams aim for closer to 99 than 95% and so and and the metric is taken I think over like a monthly view so um you know you basically have to have something going wrong to that to go below that.
+
+43
+00:06:38.730 --> 00:06:48.990
+Tim Beiko: Obviously you know we want that teams to succeed, like if if you know you kind of dropped below at once, because you have an issue and you're working on it, trying to fix it.
+
+44
+00:06:49.320 --> 00:07:02.160
+Tim Beiko: It wouldn't be like sufficient to remove you from the program but if, over time, obviously, you know, like the team just can't provide software that's high performance enough to meet me NUTS requirements, then.
+
+45
+00:07:03.540 --> 00:07:10.620
+Tim Beiko: The ef can remove people from the program the other kind of performance requirement is is you don't get slashed So if you.
+
+46
+00:07:11.430 --> 00:07:19.350
+Tim Beiko: If you get slashed that specific validator will be removed from the program and for those not familiar with eat two there's basically two.
+
+47
+00:07:20.160 --> 00:07:30.270
+Tim Beiko: Two wrong things you can do the first is to do nothing when you're supposed to do nothing do something we call that the inactivity penalty so if you're validators offline and we give some wiggle room.
+
+48
+00:07:30.720 --> 00:07:39.660
+Tim Beiko: Again there, so you know if you're offline for a little while because you had an issue and whatnot you should still be fine, but then the other one is to do.
+
+49
+00:07:41.310 --> 00:07:50.010
+Tim Beiko: To say contradicting things so, for example, to propose two blocks that conflict with each other or to vote on two blocks that conflict with each other, if you do that.
+
+50
+00:07:50.610 --> 00:07:57.360
+Tim Beiko: You will get slashed by the by the protocol and that's something we really want to avoid so that's why there's kind of a higher penalty there.
+
+51
+00:07:57.780 --> 00:08:06.930
+Tim Beiko: The main way people have gotten slash in the past, is my reckoning kind of backup instances that are supposed to monitor if they're validator is down.
+
+52
+00:08:07.440 --> 00:08:11.070
+Tim Beiko: What happens all the time it's for some reason the backup thinks that the validator is down the.
+
+53
+00:08:11.610 --> 00:08:25.410
+Tim Beiko: data is not actually down and then both of them proposal block so you're much better off to you know not have this backup and if you're validator is down get a small inactivity penalty then to propose two conflicting blocks to the network and.
+
+54
+00:08:26.730 --> 00:08:30.660
+Tim Beiko: So that's a high level and I guess one final thing is.
+
+55
+00:08:31.170 --> 00:08:42.450
+Tim Beiko: That the program basically vessel for several years, so the first set of validators is unlocked when withdrawals are implemented on a theorem so withdrawals from the beacon chain back to the application chain.
+
+56
+00:08:43.290 --> 00:08:49.020
+Tim Beiko: And then it's every six months, over a couple years I forget if it's like three or four right now.
+
+57
+00:08:50.130 --> 00:08:50.430
+um.
+
+58
+00:08:52.260 --> 00:08:55.410
+Tim Beiko: yeah, so I think that's a good overview.
+
+59
+00:08:57.330 --> 00:08:58.140
+Grace Hartley: Day, no basis.
+
+60
+00:09:00.090 --> 00:09:05.640
+Danno Ferrin: So, how does this apply for the performance for the execution clients because i'm presuming basically be coming in, as an execution client.
+
+61
+00:09:06.090 --> 00:09:06.630
+Tim Beiko: it's the same.
+
+62
+00:09:07.890 --> 00:09:11.130
+Danno Ferrin: it's the same, but if we have enough let's say lodestar drops a bunch of.
+
+63
+00:09:12.360 --> 00:09:15.450
+Danno Ferrin: Double a test stations will the pace of teams validators be held at.
+
+64
+00:09:15.450 --> 00:09:16.230
+Danno Ferrin: fault our.
+
+65
+00:09:16.620 --> 00:09:18.690
+Tim Beiko: know will generally tried to be you know.
+
+66
+00:09:20.340 --> 00:09:30.540
+Tim Beiko: To be understanding of that so if obviously So what we would expect, though, so say say you run all your stuff on world Star and little star has an issue you would expect you to be able to.
+
+67
+00:09:30.780 --> 00:09:45.630
+Tim Beiko: Not necessarily in a day, but to move your infrastructure to another team right, and this is why we'd like to have some of the validators already running on safe a coup, so that you know once you're doing this you're not moving 144 validators overnight to some software you've never used.
+
+68
+00:09:46.710 --> 00:09:54.600
+Tim Beiko: If you know lone star has an issue and you're using that that it affects a couple of your validators I think you know we'd be fine with that you'd obviously reach up to the all star team.
+
+69
+00:09:55.200 --> 00:10:07.080
+Tim Beiko: From an execution their perspective What this means is basically once the validator is asked to produce a block, you have to be quick enough to produce about the block right and send out to the network.
+
+70
+00:10:07.410 --> 00:10:16.890
+Tim Beiko: and, similarly, when the validator receives a block from the network, you have to be quick enough to execute it and verify that it's valid to then send an at the station.
+
+71
+00:10:17.910 --> 00:10:26.490
+Tim Beiko: towards up lunch, so this is kind of where the the performance on the basic side matters but yes, if there's an issue, on the other, on the other side.
+
+72
+00:10:26.850 --> 00:10:35.430
+Tim Beiko: and, similarly, if you know lodestar users based Sue and there's an issue and basically wouldn't penalize lodestar but we expect them to be able to switch the guests are not the mind or arrogant.
+
+73
+00:10:36.330 --> 00:10:45.000
+Danno Ferrin: So there's no incentive for interrupt you know, to make sure that you know you run all of the validator combinations with your particular client.
+
+74
+00:10:45.420 --> 00:10:50.010
+Tim Beiko: We can't verify it there's no way to prove.
+
+75
+00:10:50.100 --> 00:10:50.760
+Tim Beiko: That showed up.
+
+76
+00:10:51.000 --> 00:11:02.790
+Tim Beiko: Right, we would like teams like what what i've been suggesting to teams is you know tried to run with as much as possible on your canary instances at least run you know one value there on each to know that it works.
+
+77
+00:11:04.170 --> 00:11:11.160
+Tim Beiko: But you know if, and you know if you want to run more than one on your your your.
+
+78
+00:11:11.220 --> 00:11:13.020
+Tim Beiko: Non canary validators.
+
+79
+00:11:14.640 --> 00:11:16.680
+Tim Beiko: We really recommend that I think.
+
+80
+00:11:17.910 --> 00:11:28.350
+Tim Beiko: i'm not sure exactly about like the breakdowns but most teams are going to run more than one, I think, maybe nevermind said they're gonna run everything kind of split equally but.
+
+81
+00:11:28.980 --> 00:11:34.800
+Tim Beiko: i'm not sure if that was on on all their validators but I yeah i'd have to double check I think most he spent.
+
+82
+00:11:35.160 --> 00:11:46.590
+Tim Beiko: At least two on the non canary and yeah I guess for care patient dictionary validator so these 16 validators they're not held these performance standards, so if you want to try, you know say some.
+
+83
+00:11:46.770 --> 00:11:59.820
+Tim Beiko: Improvements to like em or whatnot that like you realize that are actually improvements to make things worse you what you should deploy those on the Canary validators kind of measure performance and and those aren't held to those those thresholds.
+
+84
+00:12:01.800 --> 00:12:08.190
+Gary Schulte: yeah it seems that the spirit of the thing should be that we verify that we interrupt correctly with everybody.
+
+85
+00:12:08.550 --> 00:12:09.930
+Gary Schulte: If we if we were being.
+
+86
+00:12:11.550 --> 00:12:14.070
+Gary Schulte: In the spirit of the program we would do that.
+
+87
+00:12:14.220 --> 00:12:18.450
+Tim Beiko: yeah yeah yeah, and I mean one thing that's worth noting is there's like a pretty high.
+
+88
+00:12:18.450 --> 00:12:29.310
+Tim Beiko: level of trust involved in the program like we've reached out to teams, we work with and we already have expectation, I mean we can think of no you're actually running based right like you could be ready guess.
+
+89
+00:12:31.530 --> 00:12:35.580
+Tim Beiko: You do have I hope and incentive to run basically with the make sure that it works on my nuts.
+
+90
+00:12:36.630 --> 00:12:45.000
+Tim Beiko: What you're offering it to other people, but but yeah we you know we can't know for sure you could spoof you know your graffiti and just say that.
+
+91
+00:12:45.360 --> 00:12:53.310
+Tim Beiko: The threading may see when it's actually running guests, but hopefully you know the teams are trustworthy enough that that's not something we actually have to deal with.
+
+92
+00:12:59.370 --> 00:13:08.910
+Grace Hartley: So it's made me we're saying, like the whole goal of the program is it's like long term incentives, but it's also like the it's almost trying to kind of be.
+
+93
+00:13:08.940 --> 00:13:12.210
+Grace Hartley: very proactive with the Community and.
+
+94
+00:13:12.480 --> 00:13:13.830
+Grace Hartley: Setting up kind of these.
+
+95
+00:13:15.060 --> 00:13:27.120
+Grace Hartley: gates incentives, you know kind of just kind of helps the future development right and we're on the protocol level and we're able to say okay like you know because we've set up these validators we have these different.
+
+96
+00:13:28.530 --> 00:13:33.930
+Grace Hartley: Monitoring tests, you know, and these kind of I guess gates, is a good way to put it.
+
+97
+00:13:34.920 --> 00:13:47.370
+Grace Hartley: were able to kind of think better and know more about the theory of how its performing and how he kind of better prepare for hard forks or whatever it is, you know to basically kind of and that's like it's almost like.
+
+98
+00:13:48.750 --> 00:13:50.340
+Tim Beiko: Right, like, I mean the lowest bar.
+
+99
+00:13:50.640 --> 00:13:55.080
+Tim Beiko: If you think about it, this like to have teams actually run their software and production and and to.
+
+100
+00:13:56.100 --> 00:14:10.320
+Tim Beiko: Again, you know, like if you're actually if you're if you're releasing your clients post merge your kind of implicitly telling people, you can stake your funds in this and we want teams to be able to like do it themselves.
+
+101
+00:14:11.790 --> 00:14:26.220
+Tim Beiko: You know I guess it'd be pretty bad if, like a team says they're building the clients, but then they're not even they don't even know it over so I mean that's what real funds so that's you know the absolute lowest bar I guess the programming.
+
+102
+00:14:26.460 --> 00:14:27.270
+Tim Beiko: yeah and then.
+
+103
+00:14:28.110 --> 00:14:38.040
+Tim Beiko: yeah and then making sure teams have like a long term incentive to stay, you know, to keep ethereum kind of developing and and you know, to keep improving the protocol as the other bit.
+
+104
+00:14:41.550 --> 00:14:53.310
+Grace Hartley: And just be explicit, it is a high risk, high reward kind of setup or you know, there is like you were saying you know if you're validators last year removed from the program, for example, so.
+
+105
+00:14:54.780 --> 00:14:55.800
+Tim Beiko: that's validators.
+
+106
+00:14:56.160 --> 00:14:57.060
+Tim Beiko: Right like so that.
+
+107
+00:14:57.180 --> 00:15:06.390
+Tim Beiko: hundred and 44 and again, you know, based on that those comments if you're because something the other half of the network does, we would work with you on.
+
+108
+00:15:06.390 --> 00:15:07.620
+Grace Hartley: That and.
+
+109
+00:15:09.330 --> 00:15:10.770
+Grace Hartley: and try and you have a question go ahead.
+
+110
+00:15:13.530 --> 00:15:19.050
+Antoine Toulme: So is there a specific reason why no is it just because of his to.
+
+111
+00:15:19.110 --> 00:15:25.410
+Tim Beiko: Yes, yeah great question so um that's something even when when I was a consensus and talking with the E, F.
+
+112
+00:15:25.860 --> 00:15:28.500
+Tim Beiko: It was always hard to figure out how do you even like.
+
+113
+00:15:28.680 --> 00:15:37.050
+Tim Beiko: How do you measure performance with clients like, how do we incentivize and teams on on on the execution level to like.
+
+114
+00:15:37.620 --> 00:15:42.090
+Tim Beiko: build good software and and the thing is there's always a trade off, so if we say you know.
+
+115
+00:15:42.360 --> 00:15:51.090
+Tim Beiko: We want you to sink quickly, then you may get something where it's like okay well we're going to drop all the receipts and if it's like well you know we want you to like have a small database for.
+
+116
+00:15:51.420 --> 00:15:58.920
+Tim Beiko: Well okay we're not going to sort this data and always felt like very uncomfortable for the ef to like have performance metrics which.
+
+117
+00:16:00.090 --> 00:16:11.460
+Tim Beiko: effect kind of the trade off space that teams can decide for themselves, you know we think if you know basically wants to do X, Y amp Z with their sink in their database we shouldn't have like the epic doing that.
+
+118
+00:16:11.880 --> 00:16:27.030
+Tim Beiko: And so what's great about at you know it too is we have these these things that the protocol asks you to do on a fairly regular basis, which is a test the blocks proposed blocks, and you know be online generally.
+
+119
+00:16:27.780 --> 00:16:38.610
+Tim Beiko: And we can use those as kind of a performance measure and to us it's like if you're mailing those guidelines you're kind of meeting the expectations of the protocol, you have you know software which which, like.
+
+120
+00:16:39.630 --> 00:16:50.130
+Tim Beiko: which lives up to like the kind of the man's from a theorem and then beyond that you know how you choose to think how you choose to optimize your database and whatnot.
+
+121
+00:16:50.910 --> 00:16:59.070
+Tim Beiko: We still want that, even to clients and, obviously, you know there's some value in getting teams to agree on to that and, and you know move the seminar formats.
+
+122
+00:16:59.460 --> 00:17:08.010
+Tim Beiko: But that seems like it's out of scope for like an incentive program so yeah it just makes it much, much easier to measure that a client is performance, whatever that means.
+
+123
+00:17:14.910 --> 00:17:16.170
+Antoine Toulme: I raise my hand again so.
+
+124
+00:17:19.320 --> 00:17:28.020
+Antoine Toulme: Well, so the thing here so we're all i'm coming to have hyper ledger basic, which is a project that is maintained as a.
+
+125
+00:17:29.190 --> 00:17:30.930
+Antoine Toulme: You know hyper ledger foundation and.
+
+126
+00:17:32.400 --> 00:17:43.680
+Antoine Toulme: I did not sign up becoming a competitor to to operate nodes and that's a very different workload and different type of of work, and you know you have to account for that it requires.
+
+127
+00:17:45.090 --> 00:17:56.190
+Antoine Toulme: we're going to have to have pager duty on our phones and we're going to have rotations right to make sure that we keep things up, and I think that's something we should go into.
+
+128
+00:17:57.000 --> 00:18:08.910
+Antoine Toulme: eyes wide open if we want to do that, but the other thing is also that's a huge responsibility that I wasn't particularly looking forward to, because to me this project is volunteer work and.
+
+129
+00:18:09.870 --> 00:18:23.370
+Antoine Toulme: No, no, no way you're sitting in the responsibility on my shoulders, which is members of the Community will look up to me and say, well, you didn't do a good job when before he was i'm doing this different so.
+
+130
+00:18:23.760 --> 00:18:25.110
+Antoine Toulme: To me that's a very different.
+
+131
+00:18:26.430 --> 00:18:27.540
+Antoine Toulme: approach here.
+
+132
+00:18:29.400 --> 00:18:32.280
+Tim Beiko: Right that's fair and so, first of all, the program is optional.
+
+133
+00:18:32.340 --> 00:18:35.130
+Tim Beiko: We propose that tall teams and and.
+
+134
+00:18:35.790 --> 00:18:43.500
+Tim Beiko: You know it's not something to impose second and I think this kind of gets a bit the other kind of big issue we're probably gonna want to discuss.
+
+135
+00:18:43.890 --> 00:18:58.770
+Tim Beiko: When we were working on this at the E, F, given that, like most of our I guess interactions are with the consensus team, we reached out to consensus for the program I think that was a mistake, we should have obviously brought this to hyper ledger much sooner.
+
+136
+00:19:00.540 --> 00:19:06.270
+Tim Beiko: Yes, so proposed all teams, it was only for both the consensus a proposal client teams yeah and and.
+
+137
+00:19:06.840 --> 00:19:19.920
+Tim Beiko: and part of the reason also, for reaching out to consensus is consensus has this experience with there's basically a similar program for a coup consensus does have this already up and running and they're running modes and whatnot for take you.
+
+138
+00:19:21.150 --> 00:19:28.320
+Tim Beiko: So I think you know the big question to answer here and and that's like kind of the base you question is, you know.
+
+139
+00:19:29.430 --> 00:19:42.840
+Tim Beiko: Given that this is like a pretty big burden that consensus also isn't you know all of basically, obviously, how do you want to like pay COM this program across both consensus and and base you.
+
+140
+00:19:43.950 --> 00:19:45.750
+Tim Beiko: And sorry hyper ledger and.
+
+141
+00:19:47.340 --> 00:19:51.840
+Tim Beiko: And I don't know, maybe, maybe it's helpful if, like grace you want to share kind of how consensus thinks about it.
+
+142
+00:19:54.030 --> 00:20:06.480
+Tim Beiko: Because yeah like I, I agree, you know if if antwan you don't want to be, you know, like a note operator for for millions of dollars of funds, like that's a very reasonable thing and i'm.
+
+143
+00:20:07.980 --> 00:20:08.880
+Tim Beiko: yeah so and.
+
+144
+00:20:09.270 --> 00:20:12.570
+Tim Beiko: Similarly, you know if you do that's also or if I request so.
+
+145
+00:20:12.960 --> 00:20:17.040
+Tim Beiko: I don't maybe it's helpful to just kind of hear How can such as you're thinking about it.
+
+146
+00:20:18.240 --> 00:20:21.810
+Grace Hartley: yeah i'm guarantee you mind is do you want to jump in first or T.
+
+147
+00:20:22.440 --> 00:20:22.800
+Gary Schulte: shirts.
+
+148
+00:20:23.250 --> 00:20:24.000
+Grace Hartley: Real quick yeah.
+
+149
+00:20:24.300 --> 00:20:25.770
+Gary Schulte: yeah so.
+
+150
+00:20:26.130 --> 00:20:29.400
+Gary Schulte: I think that it's it's good to consider this from the aspect of.
+
+151
+00:20:30.750 --> 00:20:33.600
+Gary Schulte: There is there's more to running.
+
+152
+00:20:34.680 --> 00:20:47.820
+Gary Schulte: and supporting an execution client than just running the nodes themselves I think it's maybe fairly obvious that consensus is well suited to run and keep these types of things up, we already have.
+
+153
+00:20:48.270 --> 00:20:58.590
+Gary Schulte: You know not you know pager duty type things and Dev watch type things so that's not a terribly difficult thing for consensus to do, and in fact we've already got some infrastructure in place to do that.
+
+154
+00:21:00.180 --> 00:21:07.230
+Gary Schulte: But also, you know there's the work of supporting the consensus endpoints and actually just.
+
+155
+00:21:07.890 --> 00:21:24.570
+Gary Schulte: Supporting the merge code base wise so it's not really just that it's about having an operation shop there's as multifaceted in terms of what needs to be done to support this, I think that we should probably look at this from the perspective of.
+
+156
+00:21:26.100 --> 00:21:28.770
+Gary Schulte: incentivizing control contributions.
+
+157
+00:21:30.030 --> 00:21:34.800
+Gary Schulte: For you know basically as an execution engine, as well as the operation side and.
+
+158
+00:21:36.300 --> 00:21:42.000
+Gary Schulte: i'll let grace talk more about how how we can you know get incentives aligned correctly, but I think that.
+
+159
+00:21:44.520 --> 00:21:44.790
+Gary Schulte: it's.
+
+160
+00:21:45.930 --> 00:21:53.730
+Gary Schulte: You know elephant in the room, I think it's it's kind of obvious that consensus is the logical choice to do operations here and we could certainly.
+
+161
+00:21:54.600 --> 00:22:05.160
+Gary Schulte: have multiple operators if there's interest in that as long as there's some some skin in the game some bonding to make sure that we have teams that are doing a good job of it, but I think.
+
+162
+00:22:05.940 --> 00:22:10.560
+Gary Schulte: we're well suited and we're already prepared to do this so just want to throw that out there for the conversation.
+
+163
+00:22:12.000 --> 00:22:13.950
+Danno Ferrin: The elephant in the room, is it only consensus was.
+
+164
+00:22:13.950 --> 00:22:15.480
+Danno Ferrin: Asked but i'll table that for now.
+
+165
+00:22:16.500 --> 00:22:17.070
+Gary Schulte: And that's fair.
+
+166
+00:22:19.680 --> 00:22:25.080
+Grace Hartley: I think in Toronto i'm going to jump in just for a minute and then i'll is that OK, and then you can.
+
+167
+00:22:27.000 --> 00:22:29.250
+Grace Hartley: jump in and hit so rates, I want to be respectful.
+
+168
+00:22:32.670 --> 00:22:36.660
+Grace Hartley: Okay, I think it's okay yeah I think so, I think.
+
+169
+00:22:37.860 --> 00:22:46.890
+Grace Hartley: Yes, we all agree, there was a miss completely on not engaging this group widely in the original conversations I think that's.
+
+170
+00:22:47.580 --> 00:23:01.290
+Grace Hartley: very obvious and and that that's also on consensus for us not raised our hands of the conversations being like wait a minute, there should be a different there should be a different forum for this, and I think Gary makes a good point and something I think.
+
+171
+00:23:03.000 --> 00:23:14.070
+Grace Hartley: There, this is a win for basic it's really exciting it's really cool and and I think there's a way to make this valuable, not just for this Community right here who's.
+
+172
+00:23:14.670 --> 00:23:30.570
+Grace Hartley: You know, and I think there's a way to one make it worth this group's time and the current base in communities time and creating incentives sure not everyone wants to be a note operator, but there's probably like many ways we can incentivize and support the work that this group does.
+
+173
+00:23:32.550 --> 00:23:38.460
+Grace Hartley: As a part of you know, the basic Community work, and I think we consensus are committed to help me with that.
+
+174
+00:23:39.810 --> 00:23:51.660
+Grace Hartley: And and incentivizing ourselves as well incentivizing the work as well, I think, and that work is just as important to be clear it's just different types of work, I think the other point is that.
+
+175
+00:23:53.370 --> 00:24:12.840
+Grace Hartley: I think that you know we want this group's feedback on how to do that, I think that you know and what would be interesting, and what would be a way to incentivize I think we've thrown out and and we're committing to doing that of making it, you know, a a public incentive and using.
+
+176
+00:24:14.670 --> 00:24:22.680
+Grace Hartley: Funds that we receive to incentivize the basic Community one the current work, but also, I think this is a great opportunity for base you to expand.
+
+177
+00:24:23.100 --> 00:24:39.180
+Grace Hartley: And to grow its Community and incentivize people who are maybe new to base ooh and I think you know we have a couple ideas you know, but again it's a completely I think justin said it really well it's an emerging strategy for us know, and I think.
+
+178
+00:24:40.350 --> 00:24:44.160
+Grace Hartley: understanding what this group would be interested in how they would like to function.
+
+179
+00:24:45.450 --> 00:24:50.370
+Grace Hartley: And what would be you know worth this group's time and effort, I think, is.
+
+180
+00:24:52.170 --> 00:24:57.240
+Grace Hartley: Definitely just want to hear your thoughts and try and I know you've had your hand raised for a while, so I apologize, please go ahead.
+
+181
+00:24:58.170 --> 00:24:59.970
+Antoine Toulme: Oh sorry I forgot to lower and.
+
+182
+00:25:01.380 --> 00:25:04.650
+Antoine Toulme: But I mean look I think it's a huge mess.
+
+183
+00:25:06.090 --> 00:25:09.270
+Antoine Toulme: I think it's going to be difficult, going forward because.
+
+184
+00:25:12.870 --> 00:25:17.130
+Antoine Toulme: it's not exactly like business a functional Open Source project that this time, and this is a very.
+
+185
+00:25:17.550 --> 00:25:27.960
+Antoine Toulme: This one more time have a symptom of a problem right, and if you look at the ends and effort today, for example, we have a release tool we wouldn't be able to run a release of this right now.
+
+186
+00:25:29.250 --> 00:25:36.780
+Antoine Toulme: Because any dairy and all that there's also a number of things which will accentuate if you start running this program so, for example.
+
+187
+00:25:37.800 --> 00:25:52.830
+Antoine Toulme: The console system has been running a bunch of notes to to use them a little bit to test produces and some of that data is just not shared with the rest of the project and, to top it off a do not see the roadmap.
+
+188
+00:25:54.240 --> 00:26:07.290
+Antoine Toulme: From the consensus is being when when I think said she joined the project she asked me to be read as a competitor and so she could get access and she could file issues which could be participating in the Community and.
+
+189
+00:26:08.430 --> 00:26:15.930
+Antoine Toulme: I extended that invitation to her so that absolutely let's let's open a PR we need help, we need to place, we need to make sure this project is functional.
+
+190
+00:26:16.620 --> 00:26:26.100
+Antoine Toulme: And I didn't see from her any type of project management that was going to be transparent, so, to be honest i've been a little discouraged in.
+
+191
+00:26:27.390 --> 00:26:34.770
+Antoine Toulme: i'm going to need a bit more than words here to to understand exactly how we go forward from here, because otherwise we just do consensus branded project and.
+
+192
+00:26:36.120 --> 00:26:45.870
+Antoine Toulme: it's great that may work using fruition it's great that the code that I contribute to this project is being run in pod that mean that's pumped up for like i'm proud of this.
+
+193
+00:26:47.670 --> 00:26:54.450
+Antoine Toulme: But you know, throwing throwing money into this that's like spring the bottom of this project, the scheme to be very difficult for us to.
+
+194
+00:26:54.930 --> 00:27:04.620
+Antoine Toulme: actually make sense of how we work together going forward, because then we have incentives and i'm thinking particularly of people that are brought to this project and thinking of juggle who's on the call right now.
+
+195
+00:27:05.910 --> 00:27:16.110
+Antoine Toulme: This man's been extremely useful he's been fixing consensus birds which were very tricky been running nodes himself to try to compensate for some of the lack of visibility into things.
+
+196
+00:27:16.740 --> 00:27:31.020
+Antoine Toulme: he's got a PR so we're waiting for two weeks for review didn't get any review so there's like it just just just one thing it's it's a whole problem with this project, we need to fix that before we go into a discussion of incentives.
+
+197
+00:27:32.760 --> 00:27:33.690
+Antoine Toulme: Hopefully that makes sense.
+
+198
+00:27:36.390 --> 00:27:40.800
+Grace Hartley: yeah, I think, no, I appreciate oh sorry did I cut someone off no.
+
+199
+00:27:41.490 --> 00:27:43.770
+Grace Hartley: No, no yeah no, I think.
+
+200
+00:27:44.520 --> 00:27:44.910
+Grace Hartley: First of all.
+
+201
+00:27:45.930 --> 00:27:49.590
+Grace Hartley: Thank you, I appreciate you saying that and I think those are, I think.
+
+202
+00:27:51.210 --> 00:27:55.590
+Grace Hartley: We consensus will have, as you said, it's not.
+
+203
+00:27:56.610 --> 00:28:08.130
+Grace Hartley: Money it's also action that will speak louder than words now of me saying you know we are committed to this, we are committed to this, I think we would and are committing to.
+
+204
+00:28:09.360 --> 00:28:20.520
+Grace Hartley: Running base, who, as a true Open Source project of running it in a transparent manner abiding by you know the hyper ledger guidelines, and I think that.
+
+205
+00:28:21.510 --> 00:28:32.910
+Grace Hartley: But I recognize my words don't mean as much as my actions right, so I think you know what i'd maybe like to propose is, I think we probably need to set up some.
+
+206
+00:28:33.990 --> 00:28:41.520
+Grace Hartley: benchmarks milestones something, this is just an idea i'm not please give me your feedback here who guys have.
+
+207
+00:28:43.290 --> 00:28:44.610
+Grace Hartley: Have kind of you know here's.
+
+208
+00:28:45.660 --> 00:28:52.710
+Grace Hartley: Here are the things we're going to work on in the next let's say quarter of you know, a Trent more transparent roadmap or.
+
+209
+00:28:53.610 --> 00:29:03.570
+Grace Hartley: Certain data that can be shared, or at least explaining here's the data we can share it here's the data we can't share and here's why you know I think that's a completely respect a completely reasonable ask.
+
+210
+00:29:04.140 --> 00:29:11.280
+Grace Hartley: of just being a little more transparent on our side, but I think it would probably is on the consensus team us this is outside the incentive Program.
+
+211
+00:29:11.760 --> 00:29:32.430
+Grace Hartley: To come back to you all and kind of share what kind of hear more of understanding of where the state of things are and what we can share and what we're planning on sharing and and if there's something we cannot, we will explain why I think, and this is again, an idea that you know.
+
+212
+00:29:34.410 --> 00:29:41.550
+Grace Hartley: That is one area, I think we can then talk about the incentive program and I agree that's a good point in time.
+
+213
+00:29:41.970 --> 00:29:48.780
+Grace Hartley: I don't want to conflate the two issues I think there's one one is transparency and running base, who, as an inclusive.
+
+214
+00:29:49.140 --> 00:30:02.880
+Grace Hartley: True Open Source project, but then there's Also, how do we make this incentive program a win for all of the basic Community and that's you know, there are a couple of I are and that's kind of a separate thing that we can talk about Gary you want to speak up so i'll pause there.
+
+215
+00:30:03.720 --> 00:30:04.590
+Gary Schulte: I just wanted to say.
+
+216
+00:30:04.620 --> 00:30:06.780
+Gary Schulte: I think we should.
+
+217
+00:30:06.930 --> 00:30:08.520
+Gary Schulte: We should have some some tangible.
+
+218
+00:30:10.920 --> 00:30:13.950
+Gary Schulte: Tangible asks if if we think that there's a.
+
+219
+00:30:15.000 --> 00:30:19.710
+Gary Schulte: Yes, Mrs on the part of consensus we definitely have a miss in terms of engaging on this early.
+
+220
+00:30:20.790 --> 00:30:32.220
+Gary Schulte: I think you know the Diego thing is certainly interesting I hadn't heard that you know I don't think anybody on the team was aware that there were PR San Diego that were languishing so maybe we need better comms about that.
+
+221
+00:30:33.510 --> 00:30:45.180
+Gary Schulte: But and the Gary thing we haven't really prioritize it because, from our perspective it's it's kind of a convenience thing, rather than a permission thing and we can we can certainly get that sorted out, but I mean if we have some tangible.
+
+222
+00:30:46.320 --> 00:30:49.440
+Gary Schulte: Tangible bullet points that we could sort out to.
+
+223
+00:30:50.610 --> 00:30:54.780
+Gary Schulte: show good faith, I think that that would you know, would be a way of.
+
+224
+00:30:56.760 --> 00:31:06.030
+Gary Schulte: Laying these concerns, so that we can move on with the business of discussing this perhaps the the incentive incentive Program.
+
+225
+00:31:08.250 --> 00:31:08.880
+Grace Hartley: Then i'll go ahead.
+
+226
+00:31:10.110 --> 00:31:18.090
+Danno Ferrin: So I do want to hear the two proposals that grace said that she had before we go too much further than a team dynamics, because I think they're deeply intertwined issues.
+
+227
+00:31:18.600 --> 00:31:31.140
+Danno Ferrin: And i'm concerned if we spend too much time talking about team dynamics, we will be able to talk about the disposition of how these validators will be handled, or if If yes even getting a continue with the program with basic, so I think he's are too deeply.
+
+228
+00:31:31.620 --> 00:31:34.050
+Danno Ferrin: Because honestly if I heard about this for months ago.
+
+229
+00:31:34.350 --> 00:31:41.010
+Danno Ferrin: I may have made a different choice employment choices, instead of going to my current employer to be in full, Canada.
+
+230
+00:31:44.550 --> 00:31:45.030
+Grace Hartley: So.
+
+231
+00:31:45.540 --> 00:31:59.070
+Grace Hartley: There are a couple of ideas again propose not baked out I guess is a good way to say it even thinking about so one we'd like to put together with the E, F yeah it's never too late yeah.
+
+232
+00:32:02.340 --> 00:32:08.340
+Grace Hartley: An understanding of what is required to run about it or no, and what are the requirements there and I think.
+
+233
+00:32:09.480 --> 00:32:19.290
+Grace Hartley: As Gary said, like consensus, were able to do it, but I think it'd be very interesting to get the feedback from the basic Community on maybe there would be another party that would be interested.
+
+234
+00:32:20.820 --> 00:32:32.520
+Grace Hartley: And then making that a clear understanding, I think, and that's kind of a near term proposal, the second near term line is a bounty program I think we'd love to understand how to do.
+
+235
+00:32:33.510 --> 00:32:42.420
+Grace Hartley: put some boundaries out there on good point or wherever, to start to get kind of bake out kind of work for contributors.
+
+236
+00:32:44.880 --> 00:32:56.850
+Grace Hartley: Whether here or new contributors who want to start working on that and we felt like those are two good near term items a third kind of medium to long term item that we've talked about is.
+
+237
+00:32:58.020 --> 00:33:01.530
+Grace Hartley: Saying up a DEMO of some sort with the base of the team.
+
+238
+00:33:02.070 --> 00:33:15.870
+Grace Hartley: And Gary can speak to this idea, a little more that this will take a lot more time for this group to kind of work through to be clear, but I think it's a really interesting idea for for this group Gary you want to share a little more context, and I can.
+
+239
+00:33:16.920 --> 00:33:22.710
+Gary Schulte: yeah, and this is, this is just a notion there's not a lot of detail, other than just that I think that it's probably.
+
+240
+00:33:23.130 --> 00:33:25.830
+Gary Schulte: The best way that we could be in the spirit of.
+
+241
+00:33:27.120 --> 00:33:32.340
+Gary Schulte: Open Source and the Community goals of hyper ledger base.
+
+242
+00:33:33.990 --> 00:33:35.760
+Gary Schulte: And that is, you know that the.
+
+243
+00:33:37.260 --> 00:33:40.740
+Gary Schulte: Funded down with the Treasury, basically, that is, in effect.
+
+244
+00:33:42.150 --> 00:33:57.930
+Gary Schulte: The stakes, that the EFF has has granted a basically made consensus a trustee of I mean I not to put too fine a point on it it's currently a trustee situation and the way to remedy that I think is to put that into.
+
+245
+00:33:59.310 --> 00:34:04.440
+Gary Schulte: A doubt that could be controlled by the Community and and properly aligned incentives.
+
+246
+00:34:06.150 --> 00:34:14.460
+Gary Schulte: I think that there's several revenue streams there in terms of the even non vested revenue streams from.
+
+247
+00:34:16.560 --> 00:34:33.990
+Gary Schulte: The transaction fees and so forth, that are paid paid out to over the coin basis for the execution client then there's partial withdrawals when those are enabled and and there's full withdrawals, it seems like to me forming a a basic TAO that would be in control of this.
+
+248
+00:34:36.150 --> 00:34:36.960
+Gary Schulte: encumbered.
+
+249
+00:34:38.400 --> 00:34:46.050
+Gary Schulte: grant is probably the wisest way to go in terms of just incentive alignment because it's a thorny that 30.
+
+250
+00:34:47.100 --> 00:34:48.210
+Gary Schulte: situation really.
+
+251
+00:34:51.270 --> 00:35:06.090
+Gary Schulte: I don't know exactly what that would look like I have, I have notions, really, but I think it would be i'd love to hear what other people thought about forming of a Dow to to properly align align the incentives, with the contributors, for the effort.
+
+252
+00:35:09.000 --> 00:35:09.420
+Grace Hartley: No good.
+
+253
+00:35:10.560 --> 00:35:19.020
+Danno Ferrin: For me, the hardest part of this is i'm consensus as trustee one of the things I would like to bring up as a tweet that Adrian did last week.
+
+254
+00:35:19.770 --> 00:35:27.150
+Danno Ferrin: Where antwan brought up and asked you know what's up I hear it's all going to consensus and the subtext of agents tweets was you know.
+
+255
+00:35:27.570 --> 00:35:38.760
+Danno Ferrin: Well, we paid all the salaries of course it's ours and, of course, you need to do a tweet at the end, it says, you know not to diminish the contribution of others, can you make a statement and need to qualify with that maybe you should have made the statement.
+
+256
+00:35:39.930 --> 00:35:46.290
+Danno Ferrin: So you know he's a consensus and it seemed like he was speaking as though he was consensus there, and he is a maintainer of hyper ledger base.
+
+257
+00:35:47.670 --> 00:35:50.340
+Danno Ferrin: And the data if I deeply troubling.
+
+258
+00:35:51.810 --> 00:36:08.910
+Danno Ferrin: That that it's being expressed by a consensus employee who was a maintainer so I have trust issues with consensus is trustee of this money um and even if I get don't get a dime of it, I don't care, you know i've you know I work at you know, had there I get paid enough i'll be fine.
+
+259
+00:36:10.410 --> 00:36:11.970
+Danno Ferrin: I just feel there's a deep level of.
+
+260
+00:36:14.340 --> 00:36:19.620
+Danno Ferrin: I don't know not commitment I it's hard to put a finger on exactly you know what it is to say, but when there's.
+
+261
+00:36:20.730 --> 00:36:21.090
+Danno Ferrin: I.
+
+262
+00:36:23.910 --> 00:36:29.400
+Danno Ferrin: I don't trust consensus with full simple control of the money needs to be some others formulation, I think it was good idea.
+
+263
+00:36:30.090 --> 00:36:37.680
+Danno Ferrin: But for them to be you know the Indian I would call it the doing the politics principle of power, you can destroy thing has absolute control over it.
+
+264
+00:36:38.190 --> 00:36:48.630
+Danno Ferrin: And if you know it takes a singular active consensus to distribute any of it, they may as well, have full control so any solution cannot have a single party in control of dominant.
+
+265
+00:36:49.350 --> 00:36:58.020
+Gary Schulte: yeah I agree there's there's got to be some some type of bootstrapping though and TIM, could you maybe talk about how the E, F is interacting because I mean there's.
+
+266
+00:36:58.050 --> 00:36:58.530
+Tim Beiko: there's a.
+
+267
+00:36:58.980 --> 00:37:02.730
+Gary Schulte: Given take there about how how it could even happen, because obviously.
+
+268
+00:37:02.970 --> 00:37:05.850
+Gary Schulte: yeah have to try and find 12 different entities.
+
+269
+00:37:06.330 --> 00:37:13.140
+Tim Beiko: So so generally you know the F is willing to like take on some work to make sure that, like.
+
+270
+00:37:13.800 --> 00:37:18.840
+Tim Beiko: People here are happy, so you know if it's like more complicated that's fine.
+
+271
+00:37:19.290 --> 00:37:30.300
+Tim Beiko: And I think at a high level, though, you know that you have does hold the withdrawal keys for these funds consensus only gets or you know, whoever runs the nodes only gets the active signing keys and.
+
+272
+00:37:30.870 --> 00:37:47.640
+Tim Beiko: So you know, for example, imagine you all agreed to do this to do a Dow and have the funds going there and then for some reason consensus like doesn't contribute to that the ef has kind of the keys and and can kind of decide to not release those funds.
+
+273
+00:37:48.780 --> 00:37:51.120
+Tim Beiko: So there's some aspect, there were like you know.
+
+274
+00:37:52.740 --> 00:38:06.330
+Tim Beiko: I don't think it's like our role to find what the solution is, and you know we're happy to like propose ideas or you know kind of get feedback, but I think we'd love to see like the basic Community come up with a model that they're happy with.
+
+275
+00:38:07.680 --> 00:38:15.330
+Tim Beiko: Once that's in place, I think we can hold you know consensus and, like the other kind of parties accountable to that, by virtue of.
+
+276
+00:38:16.110 --> 00:38:19.140
+Tim Beiko: Having control on on the withdrawal keys and build their vested.
+
+277
+00:38:19.710 --> 00:38:34.860
+Tim Beiko: and, obviously, you know, once the keys are out and say consensus has them or you know, whoever else has them there's just nothing we can do like that the funds are unlocked but effectively, you know those funds are kind of no longer part of the program at that point.
+
+278
+00:38:36.840 --> 00:38:44.820
+Tim Beiko: And, and you know realistically there's at least probably a year, until that happens, so the first batch of unlock is with.
+
+279
+00:38:45.810 --> 00:38:58.830
+Tim Beiko: deposits from the beacon chain being withdrawal bowl which is you know going to happen in the hard fork after the merge, so if the emergence in the first half of next year you're probably looking at the second half of next year and.
+
+280
+00:38:59.430 --> 00:39:02.580
+Tim Beiko: So there's some time to like find out exactly you know.
+
+281
+00:39:03.630 --> 00:39:18.180
+Tim Beiko: To to build trust and to find out how you want to run things by think yeah that's the thing you can do like we have controlled the validator keys or sorry to withdraw keys are happy to hold hyper ledger like the Community basically accountable to whatever whenever you all choose.
+
+282
+00:39:19.740 --> 00:39:19.920
+yeah.
+
+283
+00:39:24.330 --> 00:39:26.370
+Grace Hartley: I want to give you, your hands can raise for a while.
+
+284
+00:39:26.820 --> 00:39:27.270
+Tim Beiko: But then we.
+
+285
+00:39:28.680 --> 00:39:35.550
+Antoine Toulme: Wait so to me, this is not new, because of the Apache we had the exact same type of discussions and it comes down to this.
+
+286
+00:39:37.170 --> 00:39:46.020
+Antoine Toulme: This is not a project of consensus visitors, a project of the hyper ledger foundations that hyper ledger foundation is the order of business has a copyright in the rights to the name.
+
+287
+00:39:47.400 --> 00:39:58.710
+Antoine Toulme: So if you want to reward the hyper ledger basic project, you need to give them money to hyper ledger foundation in the hyper ledger conditions for be the responsible for.
+
+288
+00:39:59.730 --> 00:40:10.980
+Antoine Toulme: Distributing taking care of the money and usually for Betsy that translates to funds to help foster events to help Google summer of code to help volunteers, maybe even bounties.
+
+289
+00:40:12.000 --> 00:40:28.590
+Antoine Toulme: To be for for Ray Jones who's on this call today for you know all sorts of people to facilitate in grant more life to this project is this car would see it to me that that would be the best way and that's not good and attentive to that which is perfectly fine with me.
+
+290
+00:40:29.070 --> 00:40:38.850
+Antoine Toulme: Is that consensus decides to become an operator for this ooh in that def decides to pay this ui for the good work that consensus is doing, in which case consensus.
+
+291
+00:40:39.240 --> 00:40:55.170
+Antoine Toulme: is operating business mode of its own accord and get rewarded for that, but it's not the best project it's a consensus project and it's totally fine by me it's got nothing to do with me my my livelihood and I that is perfectly fine.
+
+292
+00:40:56.280 --> 00:40:56.910
+Antoine Toulme: there's any sense.
+
+293
+00:40:58.440 --> 00:41:00.900
+Tim Beiko: Right, I guess, just a comment on the first part.
+
+294
+00:41:00.990 --> 00:41:03.630
+Tim Beiko: I think one of the big reasons why we would not.
+
+295
+00:41:03.660 --> 00:41:12.150
+Tim Beiko: donate to the hyper ledger foundation directly is we want this fun stuff incentivize base you unmade net, you know as.
+
+296
+00:41:12.660 --> 00:41:23.040
+Tim Beiko: narrowly as possible and even within consensus, you know we've had conversations like we don't want you know these funds to basically end up finding in for.
+
+297
+00:41:23.370 --> 00:41:34.410
+Tim Beiko: And the mask and whatnot, and this is kind of the whole purpose of this program is too narrowly incentivize the teams and people working on the theorem enough.
+
+298
+00:41:34.800 --> 00:41:43.800
+Tim Beiko: And, and I want to be, you know, like very explicit about that, I think you know I would even consider a lot of like the private network stuff to be out of scope from this specific Program.
+
+299
+00:41:45.300 --> 00:41:58.890
+Tim Beiko: You know the big problem we have with building maintenance clients is they basically are the foundation for 100 $500 billion network today which sells trillions of dollars and they're extremely poor you incentivize and.
+
+300
+00:41:59.370 --> 00:42:08.430
+Tim Beiko: So you know to me and and I think that, yes, you know it's extremely important that those funds are targeted as closely to to that as possible.
+
+301
+00:42:10.020 --> 00:42:11.220
+Tim Beiko: And I guess you know.
+
+302
+00:42:12.570 --> 00:42:26.040
+Tim Beiko: That was kind of the main reason for reaching out to consensus because they are kind of the main team that we interface with the support main that obviously there's external contributors to base, he would bring it on the value and you know this.
+
+303
+00:42:26.100 --> 00:42:28.590
+Danno Ferrin: is not an external contributor on a core contributor.
+
+304
+00:42:29.520 --> 00:42:30.030
+Antoine Toulme: same very.
+
+305
+00:42:30.060 --> 00:42:30.420
+Tim Beiko: Non.
+
+306
+00:42:31.080 --> 00:42:32.550
+Antoine Toulme: Non consensus contributor.
+
+307
+00:42:32.700 --> 00:42:33.030
+um.
+
+308
+00:42:34.740 --> 00:42:41.460
+Tim Beiko: yeah but but yeah that's that's kind of why we went to them and we're you know, on this call to try and find a way to provide kind of.
+
+309
+00:42:41.640 --> 00:42:44.160
+Tim Beiko: incentive to everybody who's working on base soup.
+
+310
+00:42:44.520 --> 00:42:47.370
+Tim Beiko: Especially you know, the main that bits um.
+
+311
+00:42:48.390 --> 00:42:53.130
+Tim Beiko: yeah so you know, I think, and if if your proposal is that maybe.
+
+312
+00:42:53.160 --> 00:42:56.100
+Tim Beiko: Consensus should just keep all the files and read all the validators and do.
+
+313
+00:42:56.100 --> 00:42:57.510
+Tim Beiko: That like I mean you know.
+
+314
+00:42:59.040 --> 00:43:03.450
+Tim Beiko: That seems unfair to the other contributors and maintainer is a base you.
+
+315
+00:43:04.740 --> 00:43:08.160
+Tim Beiko: So that's you know kind of what we'd like to avoid.
+
+316
+00:43:10.320 --> 00:43:10.650
+Tim Beiko: yeah.
+
+317
+00:43:12.690 --> 00:43:12.870
+Tim Beiko: yeah.
+
+318
+00:43:12.930 --> 00:43:19.860
+Tim Beiko: I hope this clarifies headed to the goal of the funds and the scope of the program yeah and I think, maybe the.
+
+319
+00:43:20.160 --> 00:43:20.910
+Underlying.
+
+320
+00:43:22.980 --> 00:43:28.260
+Grace Hartley: issue is a lack of trust of of consensus and I think.
+
+321
+00:43:30.210 --> 00:43:40.590
+Grace Hartley: We will have to prove it, I am like I don't and I completely understand where we're coming from and we will have to earn that trust back from you all, I hope you give us the chance to do that.
+
+322
+00:43:41.130 --> 00:44:00.540
+Grace Hartley: But I think that's where you know the EFF has like TIM, you know they've made their decision and and I think for us to run this and I think if we keep in mind it's a good thing for basic and consensus will have to demonstrate, and we will have to act and.
+
+323
+00:44:01.920 --> 00:44:07.320
+Grace Hartley: And when bring you back by our actions, not our words, I think that will hopefully.
+
+324
+00:44:08.550 --> 00:44:21.090
+Grace Hartley: resolve some of the concerns, but it will not be an overnight, it will not be you know, and it will have to be a process and us continuing to demonstrate our commitment to the basic Community to.
+
+325
+00:44:22.170 --> 00:44:32.490
+Grace Hartley: Basically work generally to fostering this as a inclusive place and I think I stand, but I think the only way we we move forward is is.
+
+326
+00:44:34.020 --> 00:44:37.020
+Grace Hartley: Is by kind of growing that and ensuring that we're.
+
+327
+00:44:38.520 --> 00:44:45.150
+Grace Hartley: We are acting accordingly if that makes sense, so two people raise your hands I don't know which one of you went first sorry.
+
+328
+00:44:46.080 --> 00:44:48.450
+Grace Hartley: Fine, is it okay Gary go ahead.
+
+329
+00:44:49.470 --> 00:44:50.670
+Gary Schulte: I just wanted to say that.
+
+330
+00:44:51.390 --> 00:44:56.970
+Gary Schulte: I think it would be a kind of a tragedy really if we don't use this grant.
+
+331
+00:44:58.320 --> 00:45:00.750
+Gary Schulte: For its intent which is to support.
+
+332
+00:45:02.730 --> 00:45:15.090
+Gary Schulte: hyper ledger base, who, as a main net execution client and incentivize all of the actors that are contributing and onboard new actors that can help contribute, I think that it would be.
+
+333
+00:45:16.590 --> 00:45:24.390
+Gary Schulte: Just terribly unfortunate if this ends up you know, causing causing Nothing doing nothing but causing strife and then encumbering this money.
+
+334
+00:45:26.010 --> 00:45:29.730
+Gary Schulte: into a group that you know honestly.
+
+335
+00:45:31.320 --> 00:45:35.190
+Gary Schulte: If the money is supposed to be specifically spent only on.
+
+336
+00:45:36.480 --> 00:45:49.620
+Gary Schulte: Basically, as an execution engine I kind of doubt that you know I might I might not be like my be great to say this, but I don't think that you know $20 million worth of eat can be spent on one single team that's supporting main that.
+
+337
+00:45:50.940 --> 00:46:07.920
+Gary Schulte: Consensus, so I think that it's we you know can step should step away from this and see how we can take this windfall and use it for the betterment of basically hyper ledger base, who, as an execution clients and a theorem in general.
+
+338
+00:46:09.930 --> 00:46:23.820
+Grace Hartley: And while the you know announcement, we missed a admit, we do have time if that makes sense, like TIM said, you know best case scenario, a year is when the funds are the keys begin to be unlocked.
+
+339
+00:46:25.740 --> 00:46:27.570
+Grace Hartley: So we're able, you know we.
+
+340
+00:46:29.190 --> 00:46:40.320
+Grace Hartley: We can work this out together and come up with a really creative exciting, you know way to make this like a great win and and make it better through this.
+
+341
+00:46:41.250 --> 00:46:55.320
+Grace Hartley: Admittedly yeah, as I said, the announcement was it would have been even better if it was before the announcement, no, but we do have time to make this you know really just a great program and a great way to make.
+
+342
+00:46:56.460 --> 00:47:05.700
+Grace Hartley: So yeah that's okay that's a good point to the transaction fees are at each one but that still gives us at least you know, three, four or five months to kind of get our.
+
+343
+00:47:06.390 --> 00:47:20.850
+Grace Hartley: ducks aligned and make sure we're at least getting the structure together for a program that's veteran basic not and not veteran consensus but bettering basic theory, in which I think we all, we all are really passionate about and bettering based on a theory.
+
+344
+00:47:32.250 --> 00:47:38.070
+Grace Hartley: So maybe it makes sense to go on to next steps if there are no other questions any other.
+
+345
+00:47:41.730 --> 00:47:44.130
+Gary Schulte: Is could we potentially do.
+
+346
+00:47:45.480 --> 00:47:54.990
+Gary Schulte: Just an unofficial poll on how people you know just take temperature of the room see how people feel about the the options, the two that you've presented about near term and medium term ideas.
+
+347
+00:47:57.720 --> 00:47:58.710
+Grace Hartley: Or, more ideas.
+
+348
+00:47:59.250 --> 00:48:00.450
+Gary Schulte: Or, more ideas certainly.
+
+349
+00:48:08.490 --> 00:48:10.140
+Gary Schulte: I think the the bounty Program.
+
+350
+00:48:11.340 --> 00:48:16.980
+Gary Schulte: And TIM raises a good point I mean I think of the transaction fees being available sooner rather than later.
+
+351
+00:48:18.540 --> 00:48:20.850
+Gary Schulte: But it is going to be, you know.
+
+352
+00:48:22.260 --> 00:48:38.190
+Gary Schulte: You know, never, never commit timelines but it's going to be at least half a year before even those show up so by the time we have those transaction fees, even on the table to do something with that bounty program might be something that would be administered by a doubt if we have.
+
+353
+00:48:39.720 --> 00:48:43.830
+Gary Schulte: If we put the energy into designing incorrectly incentivizing a basically del.
+
+354
+00:48:55.140 --> 00:49:00.720
+Grace Hartley: Also, have you talk offline with anyone if it's not compelling you know, or what would be compelling you know.
+
+355
+00:49:02.250 --> 00:49:06.990
+Grace Hartley: You don't have to speak on this call, if he if you don't want definitely happy to kind of take offline.
+
+356
+00:49:06.990 --> 00:49:07.590
+Grace Hartley: Feedback too.
+
+357
+00:49:08.430 --> 00:49:18.540
+Danno Ferrin: So for me i'm just how i'm feeling right now, any solution that gives consensus singular control over it is a non starter.
+
+358
+00:49:19.920 --> 00:49:34.080
+Danno Ferrin: That is where i'm at right now, I do think consensus should benefit from it, I do think consensus, you get some of the funds but I don't think consensus consensus a signature alone should be enough to do any action for any of these funds that's kind of where i'm at right now.
+
+359
+00:49:38.430 --> 00:49:42.750
+Gary Schulte: Maybe TIM, can you speak to the logistics of that because I mean I think Sasha has had more.
+
+360
+00:49:44.370 --> 00:49:49.260
+Gary Schulte: interaction with with you know the contractual things with the E, F.
+
+361
+00:49:49.320 --> 00:49:50.850
+Tim Beiko: Right right so.
+
+362
+00:49:50.940 --> 00:49:51.240
+Tim Beiko: I mean.
+
+363
+00:49:51.270 --> 00:49:52.530
+Tim Beiko: You know the way.
+
+364
+00:49:53.160 --> 00:50:02.910
+Tim Beiko: The way the beacon chain works right, this is not specific to the incentive program is, you have a signing key and it would draw key and.
+
+365
+00:50:03.930 --> 00:50:10.620
+Tim Beiko: And you know and transaction fees can go to any specified coinbase address so any a theorem address.
+
+366
+00:50:10.980 --> 00:50:17.220
+Tim Beiko: And so, if you know say you wanted to like set transaction fees to an address that's like a multi sig controlled by both parties.
+
+367
+00:50:17.430 --> 00:50:24.180
+Tim Beiko: that's fairly easy you know you just plug that limit and send the funds to the Multi sig and then it's quite easy to do like sort of.
+
+368
+00:50:24.870 --> 00:50:38.220
+Tim Beiko: You know em have an approval process between consensus and other org for the withdrawal keys themselves they're really binary so basically you know you need some sort of you can't guarantee.
+
+369
+00:50:39.000 --> 00:50:46.980
+Tim Beiko: Like on chain that you know consensus could not do whatever he wants with the funds after after withdrawal um.
+
+370
+00:50:47.940 --> 00:51:00.480
+Tim Beiko: You know that you don't necessarily need on chain guarantee and there's multiple withdrawal events, and we can also, you know as are rejoicing say 10 validators get invested, we can do them one by one and.
+
+371
+00:51:01.380 --> 00:51:07.950
+Tim Beiko: You know, just like see if if, like consensus is is it during to whatever structure afterwards and so.
+
+372
+00:51:08.460 --> 00:51:25.980
+Tim Beiko: there's just there's no on a mechanism to to manage basically the withdrawal keys and kind of a trust so way there's ways, you can obviously split that key and whatnot but you know as you add complexity to how the key is handle you add like a risk of loss of phones.
+
+373
+00:51:27.540 --> 00:51:36.360
+Tim Beiko: So you know that's probably something you want to avoid if if y'all feel strongly that's the way to go, then it can be done, but there's there's just a high risk there.
+
+374
+00:51:37.410 --> 00:51:42.990
+Tim Beiko: And then there's the option, obviously, to just have you know some of the validators not run by consensus at all right.
+
+375
+00:51:43.290 --> 00:51:52.380
+Tim Beiko: And, and then the question, I think that God damn sure if if that's what you want to thank is seders you know non consensus validators and there's a sort.
+
+376
+00:51:52.890 --> 00:52:00.450
+Tim Beiko: Of vesting schedule, how do you best them, you know, like, how do you fit in the consensus versus non consensus rather that isn't that vesting schedule.
+
+377
+00:52:01.050 --> 00:52:12.720
+Tim Beiko: But that's very easy to do where you can just you know, unlike one that goes to consensus, and one that goes to another org or something like that yeah so I guess yeah transaction fees are easiest to trust Leslie.
+
+378
+00:52:13.800 --> 00:52:18.780
+Tim Beiko: You know, send to $1 so multi CIG withdrawal credentials are more complex.
+
+379
+00:52:20.010 --> 00:52:28.200
+Tim Beiko: and probably yeah it's probably better to have some sort of like off chain solution that doesn't require messing with the keys too much.
+
+380
+00:52:35.400 --> 00:52:37.050
+Danno Ferrin: So when the validator keys vest.
+
+381
+00:52:37.140 --> 00:52:39.150
+Danno Ferrin: they're given straight to whoever the party is.
+
+382
+00:52:39.240 --> 00:52:42.690
+Danno Ferrin: At one of the F, does it or will you hold on to them until some other direction.
+
+383
+00:52:44.850 --> 00:52:50.970
+Tim Beiko: I mean, by default, like I think what every other client the right we just send it to them and they do whatever they want, I think.
+
+384
+00:52:51.270 --> 00:53:00.870
+Tim Beiko: If if, like the basic Community comes up with a plan and they're like this is what you want to do with their keys, you know, and you all agree to that, I think we can.
+
+385
+00:53:01.530 --> 00:53:04.050
+Tim Beiko: We can you know, make sure that we stick to that as well.
+
+386
+00:53:04.440 --> 00:53:14.790
+Tim Beiko: And, and if it requires something like you know consensus has to unlock the funds because whenever they have the infrastructure for IT and we trust them, but then they should send the funds to X.
+
+387
+00:53:15.060 --> 00:53:20.340
+Tim Beiko: X address, we can kind of do a trial run with a couple of other leaders, make sure to do that and.
+
+388
+00:53:21.390 --> 00:53:23.970
+Tim Beiko: You know, then give the rest.
+
+389
+00:53:25.830 --> 00:53:26.190
+Tim Beiko: yeah.
+
+390
+00:53:27.420 --> 00:53:29.820
+Tim Beiko: yeah again yeah I just do think that, like.
+
+391
+00:53:31.170 --> 00:53:45.180
+Tim Beiko: it's also there's also another option, where other people run some validators and you just send them to withdraw key for those that are record right, and one thing that's worth noting is it's much easier to split who runs the validators beforehand.
+
+392
+00:53:46.350 --> 00:53:57.930
+Tim Beiko: So before they're actually initiated it's possible to change kind of who owns a validator once they're live so say that you know we wanted to start with consensus runs 100% of them.
+
+393
+00:53:58.590 --> 00:54:05.520
+Tim Beiko: But then, you know figures out a way to give some percentage to to to other contributors and.
+
+394
+00:54:06.330 --> 00:54:17.910
+Tim Beiko: The challenge is, then, that you have to people who have the signing keys, and they might you know if consensus is thinks they've turned that validator off, but they haven't they might clash, and it gets.
+
+395
+00:54:18.210 --> 00:54:31.530
+Tim Beiko: it's basically impossible to attribute the slashing and so it's not it's not impossible to do is just like a high trust stadium, and it increased kind of a an additional party on which you're depending cannot get slashed and.
+
+396
+00:54:38.790 --> 00:54:44.010
+Grace Hartley: I think I know we only have two minutes left, so I do want to get to the kind of next steps are, how do we kind of.
+
+397
+00:54:44.520 --> 00:54:50.910
+Grace Hartley: keep working on it working through this together, but Gary I think your hands went up and Daniela is that or.
+
+398
+00:54:51.330 --> 00:54:53.280
+Gary Schulte: yeah just a quick question for Daniel.
+
+399
+00:54:53.610 --> 00:55:05.520
+Gary Schulte: If, given that the these funds are basically encumbered and there's really you know at least six months before even some minor benefit will be derived from it.
+
+400
+00:55:06.540 --> 00:55:17.670
+Gary Schulte: Is do you think that we could move forward with you know status quo, so to speak, I mean cuz consensus doesn't really have anything it can do with these funds seniors how they don't technically have access to any of it.
+
+401
+00:55:18.270 --> 00:55:20.550
+Danno Ferrin: With 60 seconds on the clock i'm not prepared to answer.
+
+402
+00:55:21.240 --> 00:55:21.600
+Okay.
+
+403
+00:55:25.770 --> 00:55:26.460
+Grace Hartley: Danielle go ahead.
+
+404
+00:55:27.180 --> 00:55:34.590
+Daniela Barbosa: yeah I just, I just wanted from a staff perspective so some of us here at the hyper ledger foundation on staff, including myself i've been listening in.
+
+405
+00:55:35.160 --> 00:55:45.810
+Daniela Barbosa: This is all new information to us, so we appreciate the open discussion and the information TIM I would love to follow up with you as well, just as.
+
+406
+00:55:46.200 --> 00:55:50.520
+Daniela Barbosa: A theory and foundation, just to understand the program a bit more and.
+
+407
+00:55:50.970 --> 00:56:00.030
+Daniela Barbosa: What guidance, the Linux Foundation can do can have on this, we do have other reward programs outside of hyper ledger foundation that we can look at as well.
+
+408
+00:56:00.510 --> 00:56:08.130
+Daniela Barbosa: Just to understand this has been very helpful to us we've been kind of quiet because we're in learning mode as well, we learned about this, as everybody did in the Community.
+
+409
+00:56:08.370 --> 00:56:22.890
+Daniela Barbosa: And I want to thank grace, for you know, putting you know, asking him to come and talk to us and having an open discussion, because these are how these things are discussed and open and in our Community, so I want to just thank everyone and TIM, I will follow up with you.
+
+410
+00:56:26.370 --> 00:56:26.760
+Grace Hartley: Great.
+
+411
+00:56:27.900 --> 00:56:37.200
+Grace Hartley: I think, then, with yeah one minute on the clock in Tijuana i'll let you speak to say, I want to let you get you go ahead.
+
+412
+00:56:38.490 --> 00:56:38.940
+Antoine Toulme: Alright, so.
+
+413
+00:56:39.240 --> 00:56:45.840
+Antoine Toulme: The next thing is, we should write this down, I think there were a lot of ideas being thrown and say new to me so.
+
+414
+00:56:46.980 --> 00:56:52.560
+Antoine Toulme: Give me please write this down let's see exactly what it's worth, what are the pros and cons and what's going on there.
+
+415
+00:56:54.270 --> 00:57:01.140
+Antoine Toulme: I have some ideas that are forming in my head so let's let's schedule isn't that let's definitely work together on this and.
+
+416
+00:57:04.680 --> 00:57:14.820
+Antoine Toulme: We didn't talk about one thing, it just bothers me a little bit we didn't talk about the cost of running those notes, and I think they should be factored in into the the whole discussion so we haven't talked about that at all and.
+
+417
+00:57:15.480 --> 00:57:18.180
+Antoine Toulme: that's going to be requiring like the competence of the discussion so.
+
+418
+00:57:22.650 --> 00:57:29.040
+Grace Hartley: You know, great point great point we didn't we didn't talk about that either so next steps, and then you know.
+
+419
+00:57:30.060 --> 00:57:34.530
+Grace Hartley: I mean, I think, maybe for the next call what we'll do is if the Group agrees.
+
+420
+00:57:37.380 --> 00:57:43.620
+Grace Hartley: Well, set up kind of an agenda for the next call in which we're continuing this conversation I think, maybe.
+
+421
+00:57:44.040 --> 00:57:50.310
+Grace Hartley: we'll spend the let's say you know, half of the next first call further discussing the incentive program and how we.
+
+422
+00:57:50.730 --> 00:57:59.460
+Grace Hartley: build out these proposals more and feel free to you know, send a sync feedback on a couple of these near term or long term ideas and how we get started on them.
+
+423
+00:57:59.970 --> 00:58:06.660
+Grace Hartley: And if any others, and then the second one, the second half, I think it'd be great for us to have.
+
+424
+00:58:07.020 --> 00:58:22.590
+Grace Hartley: conversations around I think you know the general basic Community concerns and how we address those as well, and I think splitting up the call and beginning to address each of them will be helpful and if there's any more specific details or links or references, we can.
+
+425
+00:58:24.060 --> 00:58:32.550
+Grace Hartley: To help kind of inform the conversation feel free to drop them in but i'll kick off that agenda now so we're at least starting to iterate in the same place does that sound okay.
+
+426
+00:58:37.140 --> 00:58:49.080
+Gary Schulte: In chat we're kicking around the idea of a an off cycle call follow on call rather than perhaps waiting for the next scheduled in two weeks is that something that would be.
+
+427
+00:58:50.820 --> 00:58:53.850
+Gary Schulte: I think would be helpful for me anyway to keep the momentum on this.
+
+428
+00:58:55.770 --> 00:58:58.320
+Grace Hartley: I think yeah we can definitely.
+
+429
+00:59:00.240 --> 00:59:07.680
+Grace Hartley: I think, yes, is the answer we will maybe kick that throw it off to see what time will work for folks and if we want to do it before.
+
+430
+00:59:09.900 --> 00:59:11.370
+Grace Hartley: You know before the end of the year.
+
+431
+00:59:12.900 --> 00:59:21.930
+Danno Ferrin: I think we should, and I think we should scope it to specific subject items, and I would really like to see a concrete proposal to start discussions we have something concrete to work from.
+
+432
+00:59:23.310 --> 00:59:23.490
+Grace Hartley: there.
+
+433
+00:59:23.580 --> 00:59:24.960
+Gary Schulte: Great feedback yeah.
+
+434
+00:59:27.270 --> 00:59:30.300
+Gary Schulte: Full dollar proposal would probably be difficult to.
+
+435
+00:59:31.440 --> 00:59:39.510
+Gary Schulte: To come up with anything more than kind of a straw man proposal, but you know we can we can do what we can do to to come up with something we can pick apart.
+
+436
+00:59:41.010 --> 00:59:41.460
+Danno Ferrin: Better.
+
+437
+00:59:42.000 --> 00:59:42.270
+Gary Schulte: yeah.
+
+438
+00:59:42.300 --> 00:59:46.380
+Gary Schulte: let's grab it it's better than yeah yeah and then fair.
+
+439
+00:59:47.010 --> 00:59:57.600
+Grace Hartley: Not fair enough yeah know what we were concerned about was we didn't want you know, without gaining initial feedback from the group we want to make sure that you know we're not going off, and you know.
+
+440
+00:59:58.830 --> 01:00:07.320
+Grace Hartley: running down proposals that aren't addressing so that's interesting, we can kick off kind of strongman's cool okay any anything else.
+
+441
+01:00:13.410 --> 01:00:17.280
+Gary Schulte: for doing an off cycle, how is that going to be communicated is that just go out go out on rocket chat.
+
+442
+01:00:18.480 --> 01:00:21.780
+Grace Hartley: rocket chat and the mailing list will use both forums.
+
+443
+01:00:24.750 --> 01:00:36.900
+Grace Hartley: cool okay Thank you everyone for participating this and engaging with us on this, I think that you know really appreciate the feedback and conversations and and excited for the next call, and I think.
+
+444
+01:00:38.040 --> 01:00:39.960
+Grace Hartley: much appreciate it so everyone enjoy.
+
+445
+01:00:40.260 --> 01:00:46.920
+Grace Hartley: You know Merry Christmas if you're celebrate that and we'll be talking i'm sure over the next week or so and look out for notes from us.
+
+446
+01:00:48.030 --> 01:00:49.350
+Grace Hartley: See you later thanks.
+
+447
+01:00:49.650 --> 01:00:49.920
+Everyone.
+

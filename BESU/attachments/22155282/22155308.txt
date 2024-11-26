@@ -1,0 +1,25 @@
+00:05:17	Grace Hartley:	https://wiki.hyperledger.org/display/BESU/2022-01-20+Besu+Contributor+Call
+00:06:02	Danno Ferrin:	I will need to leave at :30 after meeting
+00:06:15	Danno Ferrin:	For another meeting
+00:06:26	Francesco Andreoli:	noted
+00:08:55	Sajida Zouarhi:	Same I have another meeting in 25min
+00:09:53	Gary Schulte:	I had to dig around in slack, for the latest tracing convo I saw:
+00:09:59	Gary Schulte:	we're have started work in Revenant on trace_callMany , trace_get and trace_rawTransaction but we are almost at the point where we want to see what's happening with trace_call, the approach to testing etc and see what overlap there is. It looks like @daniel.lehrner is still working on it but has been off sick
+00:10:09	Grace Hartley:	https://insights.lfx.linuxfoundation.org/projects/hyperledger%2Fbesu/dashboard;quicktime=time_filter_3Y
+00:10:45	Gary Schulte:	Daniel will be tentatively be back on the 21st and we will have more insight into trace_call then
+00:16:30	Sajida Zouarhi:	+1 for bounties. @francesco Is it ready though? We started the brainstorming but I think step one is to create a first bounty doc (gitcoin format would be fine) and get ppl’s feedback on it first, then we push it to Eth Denver and more publicly, then iterate on more bounties we could push in the future
+00:17:54	Francesco Andreoli:	@Sajida on it
+00:18:45	Sajida Zouarhi:	Is it possible currently to Merge to main without approval?
+00:18:56	Justin Florentine:	no
+00:19:00	Jiri Peinlich:	it was approved, just more than 6 months ago
+00:19:09	Sajida Zouarhi:	Ok
+00:20:02	Diego López León:	https://github.com/hyperledger/besu/pulls?q=is%3Apr+is%3Amerged+review%3Anone
+00:20:30	Diego López León:	merged PRs without reviewers ^
+00:21:11	Danno Ferrin:	Look to be all to the “merge” branch as it doesn’t have branch protection turned on.
+00:22:03	Jiri Peinlich:	instead of median we are interested in the last percentile I guess?
+00:27:02	Francesco Andreoli:	+++
+00:31:31	Sajida Zouarhi:	https://wiki.hyperledger.org/display/BESU/Release+Process+Improvement
+00:31:47	Gary Schulte:	👍
+00:31:59	Sajida Zouarhi:	Unfortunately I have to jump
+00:32:05	Sajida Zouarhi:	Thanks everyone for this call
+00:32:29	Danno Ferrin:	I got a paid-job meet I need to bounce to

@@ -1,0 +1,342 @@
+WEBVTT
+
+1
+00:00:52.350 --> 00:00:53.430
+Jason Frame: Hey, Sammy?
+
+2
+00:00:56.380 --> 00:00:57.430
+Sally MacFarlane: Hello!
+
+3
+00:01:02.670 --> 00:01:06.969
+Jason Frame: Got a few more minutes, but maybe it's only yesterday. Why not say no.
+
+4
+00:01:06.980 --> 00:01:08.600
+Sally MacFarlane: Could be a quiet call.
+
+5
+00:01:08.640 --> 00:01:14.339
+Jason Frame: Okay, there's nothing much on the agenda, but I did put some items in about the release. But yeah.
+
+6
+00:03:52.750 --> 00:03:54.870
+Jason Frame: it's a bypass right.
+
+7
+00:03:55.330 --> 00:04:00.710
+Jason Frame: Think we can probably get started. But we might not haven't even asked. Join us today. But
+
+8
+00:04:01.790 --> 00:04:05.090
+Jason Frame: so it could be a short call. I'm just gonna
+
+9
+00:04:05.430 --> 00:04:06.810
+Jason Frame: my screen now.
+
+10
+00:04:19.680 --> 00:04:21.550
+Jason Frame: Alright.
+
+11
+00:04:22.850 --> 00:04:24.210
+Jason Frame: hopefully, you can
+
+12
+00:04:24.290 --> 00:04:25.620
+say that.
+
+13
+00:04:26.660 --> 00:04:27.480
+Sally MacFarlane: Yep.
+
+14
+00:04:28.540 --> 00:04:33.999
+Jason Frame: notice there you can look, click through to see that.
+
+15
+00:04:34.400 --> 00:04:42.659
+Jason Frame: It's nice that this means being recorded. So the recording is already started. Stay on mute speaking, and
+
+16
+00:04:44.490 --> 00:04:49.640
+Jason Frame: So, looking at the agenda, we don't have anything under general announcements.
+
+17
+00:04:49.660 --> 00:05:03.589
+Jason Frame:  to talk about or any work updates. But I'll have to start. Ask Did you have anything for general announcements Sally or anyone else to
+
+18
+00:05:04.060 --> 00:05:05.190
+Jason Frame: might be on the call?
+
+19
+00:05:06.710 --> 00:05:16.079
+Sally MacFarlane: No, no general announcements. I could probably give a quick update on right before. Yeah, that'd be awesome. Right? Thank you. So yeah.
+
+20
+00:05:16.430 --> 00:05:17.470
+Jason Frame: should go.
+
+21
+00:05:17.750 --> 00:05:21.289
+Jason Frame: There'll be under work updates. Let's do that we normally do that first, I think
+
+22
+00:05:21.720 --> 00:05:22.590
+Jason Frame: ever.
+
+23
+00:05:23.170 --> 00:05:25.220
+Sally MacFarlane: Yeah. So
+
+24
+00:05:26.700 --> 00:05:32.950
+Sally MacFarlane: Justin, from jubicabra and my team are kind of working on for it for 4 4
+
+25
+00:05:34.430 --> 00:05:38.520
+Sally MacFarlane: stuff. So there's some hive tests that are failing.
+
+26
+00:05:38.540 --> 00:05:39.840
+Sally MacFarlane: There's a
+
+27
+00:05:41.760 --> 00:05:52.309
+Sally MacFarlane: the engine for choice updated method. We haven't implemented that in basic yet. So that we're hoping to get that one done today. and then there's
+
+28
+00:05:52.350 --> 00:05:58.169
+Sally MacFarlane: some Dennis got a Pr up for some sort of related
+
+29
+00:05:58.350 --> 00:06:05.670
+Sally MacFarlane: look. It's a rename from bob gas. So we're gonna review that one today.
+
+30
+00:06:05.690 --> 00:06:09.570
+Sally MacFarlane: So yeah, there's just a few little things. But overall we're looking pretty good.
+
+31
+00:06:10.400 --> 00:06:15.830
+Jason Frame: Is that log guest, and it's now changed to data. Guess you said.
+
+32
+00:06:16.050 --> 00:06:25.730
+Jason Frame: yeah, cool. Great. Got it? Thanks, Sally. That's good. So and so is there another is there
+
+33
+00:06:25.940 --> 00:06:34.259
+Jason Frame: right now, the next one
+
+34
+00:06:34.810 --> 00:06:42.070
+Sally MacFarlane: so the other piece of the puzzle is 478, eip 4, 7, 88. So we need that for definite 8.
+
+35
+00:06:42.490 --> 00:06:46.400
+Sally MacFarlane: So that's also in progress. So there's a draft Pr
+
+36
+00:06:46.520 --> 00:06:48.280
+Sally MacFarlane: already for poison. Idiot.
+
+37
+00:06:48.920 --> 00:06:49.830
+Jason Frame: Okay?
+
+38
+00:06:53.100 --> 00:06:54.480
+Jason Frame: Good. Thanks.
+
+39
+00:06:56.770 --> 00:06:57.920
+Jason Frame: Let's face the same.
+
+40
+00:07:01.790 --> 00:07:03.929
+Jason Frame: Okay, that will make sense, then.
+
+41
+00:07:04.100 --> 00:07:09.340
+Jason Frame: Excellent. Yeah. Was there any other work? Updates you want to share?
+
+42
+00:07:10.260 --> 00:07:11.909
+Sally MacFarlane: That that's about it.
+
+43
+00:07:11.970 --> 00:07:14.450
+Jason Frame: Cool, great. Alright!
+
+44
+00:07:15.210 --> 00:07:19.930
+Jason Frame: I'll move on to the release updates. Then so
+
+45
+00:07:20.960 --> 00:07:24.410
+Jason Frame: 23 dot 7 dot 0 s. People would have seen
+
+46
+00:07:24.680 --> 00:07:30.130
+Jason Frame: That release was scrubbed. We there was a performance regression that was found
+
+47
+00:07:30.380 --> 00:07:34.390
+Jason Frame: with the kekat hash upgrade to the
+
+48
+00:07:34.770 --> 00:07:41.489
+Jason Frame: when upgrading the bouncy Castle library, so that because of that that release was removed.
+
+49
+00:07:41.620 --> 00:07:44.260
+Jason Frame: And and now there is a
+
+50
+00:07:44.610 --> 00:07:56.200
+Jason Frame: replacement release 23.7 one and there's an Rc. Currently out for that. And as far as I know, that's still that's still in progress. and I haven't heard any
+
+51
+00:07:56.230 --> 00:07:59.660
+Jason Frame: wh. Whether there's any issues with that at all the moment.
+
+52
+00:08:00.900 --> 00:08:05.750
+Jason Frame: Did you know, if there's do have you? Do you know the progress of the passing one at all?
+
+53
+00:08:06.160 --> 00:08:14.749
+Sally MacFarlane: I do not know. So maybe that's a question to ask and discord. As to yeah, what's the status of that?
+
+54
+00:08:14.830 --> 00:08:16.390
+Jason Frame: Yeah.
+
+55
+00:08:17.540 --> 00:08:21.100
+Jason Frame: I feel like I should know.
+
+56
+00:08:24.780 --> 00:08:34.870
+Jason Frame: Oh, spots correctly. okay, yep. That sounds like a good thing to do. Yeah. So yes, on that. I think this was done probably
+
+57
+00:08:36.630 --> 00:08:39.739
+Jason Frame: more than a week ago. Anyway, more. So
+
+58
+00:08:41.049 --> 00:08:42.829
+Jason Frame: yeah should be, should be.
+
+59
+00:08:43.990 --> 00:08:47.469
+Jason Frame: should have had enough time to burn, so good to find out where that is.
+
+60
+00:08:49.180 --> 00:08:53.039
+Jason Frame: That's the only items I had in for the release.
+
+61
+00:08:55.150 --> 00:08:58.269
+Jason Frame: Both. Anything else? You want to add.
+
+62
+00:09:02.320 --> 00:09:04.129
+Sally MacFarlane: I don't have anything else.
+
+63
+00:09:04.200 --> 00:09:08.420
+Jason Frame: Okay. And what about anything else in general like
+
+64
+00:09:11.720 --> 00:09:13.040
+Sally MacFarlane: not.
+
+65
+00:09:13.180 --> 00:09:19.910
+Jason Frame: Okay. Well, I think that might be everything for the call then, nice and short, and we'll have to.
+
+66
+00:09:20.310 --> 00:09:29.500
+Jason Frame: Yeah, I'll put a question on. Just called to check on that status of the the Rc. Burn in so we can find out where that is
+
+67
+00:09:30.490 --> 00:09:32.229
+Jason Frame: very good to know. Sounds good
+
+68
+00:09:32.430 --> 00:09:39.629
+Jason Frame: alright. Oh, we. We have one more person. Just join.
+
+69
+00:09:40.910 --> 00:09:48.449
+Stefan Pingel: Are you going
+
+70
+00:09:48.540 --> 00:09:50.099
+Stefan Pingel: busy? Sorry.
+
+71
+00:09:50.110 --> 00:09:57.670
+Jason Frame: That's okay. So we've we've you can see the what we've gone through ready at the moment. So tell me, gave it an update before.
+
+72
+00:09:57.870 --> 00:10:03.930
+Jason Frame: And I just went through. The release updates. Is there anything you want to add at all. Stefan.
+
+73
+00:10:03.950 --> 00:10:06.040
+Stefan Pingel: update?
+
+74
+00:10:06.300 --> 00:10:13.419
+Stefan Pingel: Yeah. So I'm personally working at 4, 7, 8, 8, making some progress
+
+75
+00:10:13.680 --> 00:10:21.370
+Stefan Pingel: there. yeah, that that that there is a Pr, but but it's yeah. I'm I'm I'm
+
+76
+00:10:21.890 --> 00:10:32.069
+Stefan Pingel: trying to get the hive tests to work. There were things not really related to 478 that I had to fix. But but I'm getting close now. So yeah.
+
+77
+00:10:32.270 --> 00:10:34.100
+Stefan Pingel: okay, making progress.
+
+78
+00:10:34.480 --> 00:10:39.489
+Jason Frame: Right? Good to hear. Yeah, that's all I put there for the 4, 7, 9, 8 was that there's a
+
+79
+00:10:39.780 --> 00:10:46.020
+Jason Frame: that's needed for Devin, I. And then you've got draft. Pr, app. Yeah, okay.
+
+80
+00:10:47.050 --> 00:10:49.140
+Jason Frame: that sounds like it. Then?
+
+81
+00:10:50.200 --> 00:10:53.300
+Jason Frame: alright. Well, my, there is a
+
+82
+00:10:53.410 --> 00:10:55.830
+Jason Frame: was there anything else you wanted to add?
+
+83
+00:10:56.700 --> 00:11:03.139
+Jason Frame: Great? Okay. Well, I'll stop sharing. Then that sounds like that might be everything for today's call. Then.
+
+84
+00:11:04.740 --> 00:11:17.540
+Jason Frame: thanks. That was a quick one. Yeah, thanks for thanks. Everyone joining. Yeah, I'll
+
+85
+00:11:17.960 --> 00:11:22.229
+Stefan Pingel: yeah.
+

@@ -1,0 +1,1710 @@
+WEBVTT
+
+1
+00:00:01.829 --> 00:00:02.700
+Ry Jones: I think it's recording.
+
+2
+00:00:05.819 --> 00:00:07.109
+Sally MacFarlane: Recording is happening.
+
+3
+00:00:07.890 --> 00:00:12.840
+Sally MacFarlane: And grace do you want me to keep sharing my screen, or would you like it either.
+
+4
+00:00:14.700 --> 00:00:17.340
+Grace Hartley: I can do it if that's helpful.
+
+5
+00:00:19.260 --> 00:00:22.920
+Sally MacFarlane: i'll just hit update, because I was making some edits to the computer or notes, so I.
+
+6
+00:00:23.400 --> 00:00:23.640
+Think.
+
+7
+00:00:24.780 --> 00:00:25.290
+Sally MacFarlane: He should have.
+
+8
+00:00:26.430 --> 00:00:26.730
+Grace Hartley: yeah.
+
+9
+00:00:27.750 --> 00:00:29.670
+Grace Hartley: Thank you, thank you much appreciated.
+
+10
+00:00:31.110 --> 00:00:32.430
+Grace Hartley: sharing my screen.
+
+11
+00:00:34.380 --> 00:00:34.680
+Grace Hartley: Now.
+
+12
+00:00:37.560 --> 00:00:44.370
+Grace Hartley: Okay, so we were talking about the release and wanted to clarify the requirements for releases and how many are required to sign off.
+
+13
+00:00:46.470 --> 00:00:47.340
+Grace Hartley: Do we have.
+
+14
+00:00:52.620 --> 00:00:54.750
+Grace Hartley: Where we find that information to confirm.
+
+15
+00:00:57.000 --> 00:01:01.170
+Grace Hartley: Would it be in the maintainer like github page.
+
+16
+00:01:02.070 --> 00:01:02.910
+Sally MacFarlane: So I think.
+
+17
+00:01:04.080 --> 00:01:04.740
+Danno Ferrin: It was a question.
+
+18
+00:01:06.660 --> 00:01:06.960
+Grace Hartley: i'm.
+
+19
+00:01:08.280 --> 00:01:08.820
+Grace Hartley: Sorry okay.
+
+20
+00:01:09.960 --> 00:01:13.950
+Sally MacFarlane: So the question there about how many matches are required to sign up early so currently.
+
+21
+00:01:15.150 --> 00:01:23.520
+Sally MacFarlane: I don't think the answer is anywhere, I think this is more of an open question because we just don't want it, we definitely don't want it to be just one person can do it.
+
+22
+00:01:25.350 --> 00:01:25.680
+Sally MacFarlane: But.
+
+23
+00:01:26.220 --> 00:01:31.470
+Danno Ferrin: Speaking right now it's too, because all commits to go into hyper ledger are supposed to have a review commit.
+
+24
+00:01:32.310 --> 00:01:40.020
+Danno Ferrin: there's really no exceptions to that, and if there are they need to be corrected all committed code needs to have a review so.
+
+25
+00:01:42.000 --> 00:01:46.440
+Danno Ferrin: If the release depends on a commit then it requires two people by rule.
+
+26
+00:01:50.670 --> 00:01:51.030
+Grace Hartley: Okay.
+
+27
+00:01:51.510 --> 00:01:57.720
+Grace Hartley: that's what I thought so what's the question here, we have to kind of things we want to include in the release or trying to understand.
+
+28
+00:01:58.890 --> 00:02:01.710
+Grace Hartley: How we decide to good them.
+
+29
+00:02:05.700 --> 00:02:12.990
+Danno Ferrin: So what we were discussing when you came on was the proposal to go to tag based released like take a deaths and I was a consensus that never made an effort to move over to it.
+
+30
+00:02:13.470 --> 00:02:21.750
+Danno Ferrin: And one of the reasons, the main reason there was it doesn't have a vehicle metadata you can move the tag and build from a different release it's not burned into the source code.
+
+31
+00:02:22.770 --> 00:02:25.350
+Danno Ferrin: it's dependent upon external metadata, which is something i'm not.
+
+32
+00:02:27.330 --> 00:02:29.820
+Danno Ferrin: makes me, it makes me it doesn't give me.
+
+33
+00:02:31.290 --> 00:02:37.740
+Danno Ferrin: It makes me nervous to do for to do it that way for supply chain reasons for open source software.
+
+34
+00:02:38.280 --> 00:02:46.350
+Danno Ferrin: i'll releases my philosophy is i'll release it should have a commit for that version, and then the next the next commit should be changed the next snapshot version.
+
+35
+00:02:46.980 --> 00:02:54.090
+Danno Ferrin: So people have done it for years and most other projects, I think that's that's a good practice for many reasons, so I don't really want to move away from it.
+
+36
+00:02:55.920 --> 00:03:00.150
+Danno Ferrin: The second reason I don't like it is because one person can push a button.
+
+37
+00:03:01.350 --> 00:03:10.500
+Danno Ferrin: And that's a very high risk issue for supply chain attack, they can sneak in there, commit and get someone to approve it on aware suddenly run release.
+
+38
+00:03:10.890 --> 00:03:13.680
+Danno Ferrin: And there are systems out there, that will automatically update when they see in the.
+
+39
+00:03:13.680 --> 00:03:30.300
+Danno Ferrin: movies so that's why you know, two eyeballs is not the panacea but it is a significant barrier and it also provides significant accountability to to two people on it's easy you know one person does it shame on everyone but it's two people raises the standard.
+
+40
+00:03:34.170 --> 00:03:40.500
+Grace Hartley: And then that makes sense, what are the pros like what, why do we are we thinking about proposing to move into it.
+
+41
+00:03:42.690 --> 00:03:54.300
+Gary Schulte: The pros really are about making releases lower friction currently releases take E on the order of a couple of hours to get fully completed and a tag based release cuts out.
+
+42
+00:03:55.560 --> 00:04:00.090
+Gary Schulte: One of at least one if not two of those kind of round trip ci builds.
+
+43
+00:04:02.760 --> 00:04:04.020
+Grace Hartley: So is it like a drop in.
+
+44
+00:04:05.640 --> 00:04:10.710
+Grace Hartley: part of my ignorance what two hours five hours 10 Minutes it takes, you know.
+
+45
+00:04:12.360 --> 00:04:13.320
+Grace Hartley: Do we have a percentage.
+
+46
+00:04:14.700 --> 00:04:18.540
+Gary Schulte: of things go well, it takes 40 minutes if things go poorly takes two hours or a day.
+
+47
+00:04:18.900 --> 00:04:19.980
+Danno Ferrin: of things breaking the bill.
+
+48
+00:04:21.600 --> 00:04:23.730
+Grace Hartley: With the new really attack with it.
+
+49
+00:04:24.600 --> 00:04:25.800
+Danno Ferrin: Or we don't realize.
+
+50
+00:04:25.890 --> 00:04:28.560
+Grace Hartley: What the Oh yes, with the Olympics, yet, but we.
+
+51
+00:04:29.310 --> 00:04:29.820
+Danno Ferrin: didn't have.
+
+52
+00:04:30.540 --> 00:04:33.480
+Grace Hartley: Okay it's about that's what I wanted to understand.
+
+53
+00:04:45.420 --> 00:04:52.440
+Grace Hartley: And, are there any workarounds it sounds like sorry I really apologize, I was late so tags can be.
+
+54
+00:04:53.790 --> 00:05:03.360
+Grace Hartley: Are there any workarounds for these two it sounds like this second one there's a workaround with the current branch protection at this first one immutable metadata.
+
+55
+00:05:05.550 --> 00:05:07.770
+Danno Ferrin: We could reduce the number of integration tests we run.
+
+56
+00:05:09.180 --> 00:05:09.720
+What we want.
+
+57
+00:05:12.240 --> 00:05:13.530
+Gary Schulte: Your modular eyes it.
+
+58
+00:05:13.980 --> 00:05:23.040
+Gary Schulte: yeah you talking about reducing reducing the type of ci time though I think gracious question was about is there any mitigation for the objections.
+
+59
+00:05:24.990 --> 00:05:25.320
+Grace Hartley: Yes.
+
+60
+00:05:30.360 --> 00:05:42.570
+Gary Schulte: now see what your point of point about the tag can be moved, but can we not be some release off of a specific Shah and make that the release I mean we already have a.
+
+61
+00:05:43.650 --> 00:05:53.340
+Gary Schulte: I guess you could overwrite the information that we publish with the release, so you could you could change that Shaw, is there any way that we can embed a shot into the release so that would be.
+
+62
+00:05:55.320 --> 00:05:56.220
+Gary Schulte: immutable or.
+
+63
+00:05:57.690 --> 00:05:58.620
+Gary Schulte: functionally immutable.
+
+64
+00:05:59.760 --> 00:06:01.740
+Danno Ferrin: To a gigantic release numbers.
+
+65
+00:06:05.400 --> 00:06:10.980
+Gary Schulte: And to get a unique shall we typically only need about eight characters so it doesn't have that gigantic but.
+
+66
+00:06:11.790 --> 00:06:12.720
+Danno Ferrin: it's still large.
+
+67
+00:06:12.930 --> 00:06:14.430
+Danno Ferrin: yeah people like three numbers.
+
+68
+00:06:14.790 --> 00:06:15.030
+yeah.
+
+69
+00:06:19.980 --> 00:06:24.390
+Grace Hartley: worthwhile to spend time i'm looking into medications for these objections or.
+
+70
+00:06:27.900 --> 00:06:29.910
+Grace Hartley: Or do we want to proceed in a different way.
+
+71
+00:06:30.360 --> 00:06:33.360
+Danno Ferrin: What are other define unanimously overruled on the first one.
+
+72
+00:06:33.540 --> 00:06:36.030
+Danno Ferrin: I could live with it, the second one is my bigger issue.
+
+73
+00:06:38.460 --> 00:06:39.540
+Danno Ferrin: A person can release.
+
+74
+00:06:42.810 --> 00:06:46.320
+Gary Schulte: salad is this cover the the issue that you raised earlier.
+
+75
+00:06:48.270 --> 00:06:49.170
+Gary Schulte: With the.
+
+76
+00:06:50.190 --> 00:06:51.720
+Gary Schulte: vulnerability and release process.
+
+77
+00:06:52.590 --> 00:07:01.590
+Danno Ferrin: yeah one person can run a release if they pick a known vulnerable version and they push a release out before everyone agrees to it, or at least one other person agrees to it.
+
+78
+00:07:02.280 --> 00:07:09.510
+Danno Ferrin: Other systems will update and they can exploit I mean we want to have at least two people in the loop one person keep a secret to people's will.
+
+79
+00:07:10.980 --> 00:07:17.670
+Sally MacFarlane: yeah I think it it's it's along similar lines to so so my issue was that.
+
+80
+00:07:18.870 --> 00:07:21.360
+Sally MacFarlane: Recently I wrote the.
+
+81
+00:07:22.980 --> 00:07:27.540
+Sally MacFarlane: Existing release, which is quite easy to do with the current system.
+
+82
+00:07:31.230 --> 00:07:36.900
+Sally MacFarlane: I think that's something that says so that comes back to the immutability but also one person be able to do it.
+
+83
+00:07:40.500 --> 00:07:46.920
+Gary Schulte: So you're saying that we could we could functional use an ephemeral release branch to affect the same type of.
+
+84
+00:07:48.390 --> 00:07:52.920
+Gary Schulte: data and reproducible release as using a tag based release.
+
+85
+00:07:53.700 --> 00:08:01.710
+Danno Ferrin: That would work yeah we always we always branch on release and it's a it's a one it's a one release branch, or we have like a.
+
+86
+00:08:02.970 --> 00:08:13.560
+Danno Ferrin: Year month dot X release branch, and we always release in that branch, and we, you know fully merge over and then released from that that integrates the number into it.
+
+87
+00:08:14.910 --> 00:08:20.040
+Danno Ferrin: And then, once you're on a branch you just do your come in and say here's the version push it over um.
+
+88
+00:08:21.570 --> 00:08:34.800
+Danno Ferrin: And then you move on it's a similar to a process, a company that 20 years ago had called P Q R the D line you could do whatever you want, he was QA you pushed on a regular basis, and the Roi is what you released and that's where all your hot fixes one.
+
+89
+00:08:37.890 --> 00:08:39.570
+Danno Ferrin: Like upgrading our project versions.
+
+90
+00:08:40.770 --> 00:08:45.300
+Gary Schulte: But that's something that we would have to add rate we, I mean we currently have the same sort of exposure.
+
+91
+00:08:45.330 --> 00:08:53.790
+Gary Schulte: With our current you know ephemeral release branch capability to release from an arbitrary release dash whatever branch.
+
+92
+00:08:55.200 --> 00:08:59.700
+Gary Schulte: We would have to we'd have to do we have to do some work in order to have the protections that we think that we've got right now.
+
+93
+00:09:01.440 --> 00:09:04.080
+Gary Schulte: That we were arguing against tag based release for right.
+
+94
+00:09:09.540 --> 00:09:11.250
+Danno Ferrin: it's released takes us further from that than we're.
+
+95
+00:09:11.250 --> 00:09:13.710
+Danno Ferrin: currently at an ideal situation you're right, we do need to.
+
+96
+00:09:18.930 --> 00:09:21.660
+Sally MacFarlane: yeah I agree we do need to do some work to get.
+
+97
+00:09:24.120 --> 00:09:27.960
+Sally MacFarlane: To get to either one, so I think, maybe we do need to work out what our.
+
+98
+00:09:29.310 --> 00:09:31.920
+Sally MacFarlane: Criteria and what we can move them over time with.
+
+99
+00:09:33.300 --> 00:09:34.770
+Gary Schulte: It does seem like a.
+
+100
+00:09:35.790 --> 00:09:41.820
+Gary Schulte: Solid goal to have immutable you know repeatable deterministic releases.
+
+101
+00:10:01.710 --> 00:10:03.630
+Grace Hartley: Okay, so it sounds like we kind of have a.
+
+102
+00:10:07.770 --> 00:10:08.880
+Grace Hartley: Action item.
+
+103
+00:10:10.230 --> 00:10:19.290
+Grace Hartley: To kind of spend a little more time understanding what we want, what what is our best case scenario, what what are all of our requirements and then being able to say this.
+
+104
+00:10:22.980 --> 00:10:27.300
+Grace Hartley: And then be able to say which solution kind of meets those needs September right.
+
+105
+00:10:29.070 --> 00:10:31.110
+Gary Schulte: yeah that sounds reasonable do we want to.
+
+106
+00:10:32.250 --> 00:10:33.540
+Gary Schulte: Take somebody with that action item.
+
+107
+00:10:36.360 --> 00:10:38.820
+Grace Hartley: i'm gonna go ahead and say i'm probably not the right person to own it.
+
+108
+00:10:43.080 --> 00:10:46.110
+Danno Ferrin: you expect anything useful out of me for the next two weeks it's a bad decision.
+
+109
+00:10:50.820 --> 00:10:51.450
+Grace Hartley: Maybe we can.
+
+110
+00:10:52.740 --> 00:10:54.750
+Grace Hartley: work through internal work through.
+
+111
+00:10:56.070 --> 00:10:59.730
+Grace Hartley: rocket chat to see if we get any volunteers.
+
+112
+00:11:02.430 --> 00:11:04.260
+Grace Hartley: because, obviously, a lot of folks energy right now.
+
+113
+00:11:06.450 --> 00:11:06.990
+Grace Hartley: that's okay.
+
+114
+00:11:08.730 --> 00:11:09.360
+Gary Schulte: sounds reasonable.
+
+115
+00:11:14.220 --> 00:11:20.160
+Grace Hartley: and also some people might have experienced already done some research that they can leverage that makes it easier for us.
+
+116
+00:11:25.980 --> 00:11:31.770
+Grace Hartley: cool i'm going to just trying to think of what we have.
+
+117
+00:11:35.880 --> 00:11:43.260
+Grace Hartley: it's a 25 what I maybe like to propose if the group's okay with it is if we skip the work updates and the other business.
+
+118
+00:11:45.180 --> 00:11:48.870
+Grace Hartley: It looks like this is a little outdated and go to the open forum, just because I know I promised.
+
+119
+00:11:50.520 --> 00:12:03.660
+Grace Hartley: This group a quick recap on the items in the prior calls and then I want to leave just 15 minutes for us to maybe talk through bases Daniel is basically 2020 vision that sound about right.
+
+120
+00:12:05.010 --> 00:12:05.280
+Sally MacFarlane: yeah.
+
+121
+00:12:07.050 --> 00:12:07.350
+Grace Hartley: Google.
+
+122
+00:12:07.710 --> 00:12:10.320
+Danno Ferrin: Okay um so I know.
+
+123
+00:12:10.800 --> 00:12:14.280
+Grace Hartley: A few of you are on the call some of you are to be worse it totally okay.
+
+124
+00:12:15.450 --> 00:12:20.700
+Grace Hartley: We have to contributor calls that were even offend America friendly so all geez for that.
+
+125
+00:12:21.870 --> 00:12:26.580
+Grace Hartley: In the last two weeks, I will drop the notes in the chat here.
+
+126
+00:12:33.960 --> 00:12:40.050
+Grace Hartley: One was just on cycle one was off cycle, the main topic of discussion that we had was.
+
+127
+00:12:41.490 --> 00:12:52.800
+Grace Hartley: Around the ef incentive program that was announced on December 13 with regards to essentially the era of theory and foundation, providing a grant writing grants for the.
+
+128
+00:12:55.980 --> 00:12:57.180
+Grace Hartley: For each one client work.
+
+129
+00:12:58.920 --> 00:13:05.280
+Grace Hartley: So we had a couple conversations i'm not going to go through all of it, but just wanted to make sure one this group was aware.
+
+130
+00:13:06.360 --> 00:13:09.780
+Grace Hartley: I just dropped, I think I think both of them in the chat.
+
+131
+00:13:11.850 --> 00:13:14.040
+Grace Hartley: And then and.
+
+132
+00:13:15.480 --> 00:13:22.980
+Grace Hartley: Maybe kind of talk about what we're working on right now, so you all can read the notes, but just so you guys are aware of kind of the next steps.
+
+133
+00:13:24.660 --> 00:13:26.610
+Grace Hartley: One is so.
+
+134
+00:13:27.720 --> 00:13:34.740
+Grace Hartley: we're currently working through and Daniel Daniel and antwan provided proposals for how we could set up the.
+
+135
+00:13:36.450 --> 00:13:42.720
+Grace Hartley: potentially a tower decentralized way to manage the funds that are provided by the ef so that's on.
+
+136
+00:13:45.300 --> 00:13:48.960
+Grace Hartley: The consensus maintainer is to review and provide feedback.
+
+137
+00:13:50.520 --> 00:13:53.940
+Grace Hartley: Second, we are working towards putting together.
+
+138
+00:13:55.170 --> 00:13:58.470
+Grace Hartley: And we meaning chupacabra team and myself.
+
+139
+00:13:59.760 --> 00:14:06.960
+Grace Hartley: Consensus are working towards just pulling out the validate or nodes just requirements and just making sure that was clear.
+
+140
+00:14:08.520 --> 00:14:09.870
+Grace Hartley: And then, and then.
+
+141
+00:14:11.190 --> 00:14:13.230
+Grace Hartley: And then the other thing is, you know and then.
+
+142
+00:14:15.030 --> 00:14:19.110
+Grace Hartley: I think those are the two ones, and we just go back and double check my notes on the next steps on this goal.
+
+143
+00:14:23.370 --> 00:14:35.400
+Grace Hartley: yeah so exactly so share the review puzzle, and then, this one is around reviewing the Community practice so generally I think we'd like this group, as well as the.
+
+144
+00:14:37.680 --> 00:14:39.330
+Grace Hartley: The email and America friendly group.
+
+145
+00:14:40.470 --> 00:14:44.250
+Grace Hartley: To review kind of just some general improving the base to community.
+
+146
+00:14:46.200 --> 00:14:50.100
+Grace Hartley: Ideas what we did in the call last time was.
+
+147
+00:14:52.380 --> 00:14:56.430
+Grace Hartley: come up with a few ideas that we wanted to share with this group, because we knew you all work.
+
+148
+00:14:57.870 --> 00:15:02.370
+Grace Hartley: Just to kind of get your feedback on how like we can continue to work together as a team.
+
+149
+00:15:04.140 --> 00:15:06.690
+Grace Hartley: So these are the ideas we had.
+
+150
+00:15:08.310 --> 00:15:13.110
+Grace Hartley: One is just having all contributors joined the monthly contributor call that works for their time zone.
+
+151
+00:15:14.490 --> 00:15:17.280
+Grace Hartley: I know it's a little weird today, people are still coming back from holidays.
+
+152
+00:15:18.840 --> 00:15:19.380
+Grace Hartley: To.
+
+153
+00:15:20.490 --> 00:15:25.350
+Grace Hartley: Keep the public roadmap updated in the wiki and discussed as a part of the contributor call.
+
+154
+00:15:26.460 --> 00:15:38.280
+Grace Hartley: Third, we want to move to discord moving forward that's a little bit hyper ledger wise decision, but i'm personally committed to getting it decided in January.
+
+155
+00:15:39.540 --> 00:15:45.780
+Grace Hartley: 4 is a regular catch up call just not recorded just kind of a weekly or bi weekly kind of call just to kind of.
+
+156
+00:15:47.370 --> 00:15:51.570
+Grace Hartley: You know, see what everyone's working on collaborate, a new pair program kind of just.
+
+157
+00:15:52.590 --> 00:16:00.720
+Grace Hartley: Have a more informal way of touching base outside of the contributor calls and then the fifth one was leveraging to the elephant analytics.
+
+158
+00:16:02.070 --> 00:16:10.200
+Grace Hartley: To at the contributor calls to just see the time to review, for example, we can decide on what of right metrics but that way it makes it a little more.
+
+159
+00:16:11.310 --> 00:16:16.800
+Grace Hartley: You know we're just kind of we're being able to be metric driven so we can say wow what our PR.
+
+160
+00:16:17.880 --> 00:16:24.750
+Grace Hartley: Resolution time was significantly better significantly worse than the average or this these last few weeks or it was or.
+
+161
+00:16:25.260 --> 00:16:33.600
+Grace Hartley: We have X new contributors that's an easy and how do we keep them engaged or how do we teach that way so little digital's tbd i'd love, maybe.
+
+162
+00:16:34.380 --> 00:16:43.260
+Grace Hartley: Sorry, to put you on the spot Sally and Jason but maybe your feedback on these if you guys would be open to it if we're missing anything if you think anything's a good or bad idea.
+
+163
+00:16:44.850 --> 00:16:47.040
+Grace Hartley: Feedback welcome, but we wanted to raise it with you all.
+
+164
+00:16:51.180 --> 00:16:52.200
+Sally MacFarlane: That all sounds good.
+
+165
+00:16:54.030 --> 00:16:54.300
+Jason Frame: That.
+
+166
+00:16:54.930 --> 00:16:56.640
+Jason Frame: makes sense yeah.
+
+167
+00:16:56.760 --> 00:16:57.390
+Jason Frame: I think the.
+
+168
+00:16:57.480 --> 00:17:03.150
+Jason Frame: Informal chat would be really good to have more frequent discussion with the contributors.
+
+169
+00:17:08.400 --> 00:17:08.820
+Grace Hartley: cool.
+
+170
+00:17:09.390 --> 00:17:10.410
+Grace Hartley: Well, that was see.
+
+171
+00:17:12.120 --> 00:17:22.350
+Grace Hartley: I think there's and you know some of the things we were talking about is generally you know just continuing to improve the transparency of the consensus side of what we're working on and how we can.
+
+172
+00:17:24.030 --> 00:17:39.180
+Grace Hartley: And these are just a few ways to do it, but I think these are some good first steps, and we can continue to iterate and improve and all that but, as far as some of the contributor calls i'm happy to own kind of getting some of this date, working with some cheater on the roadmap.
+
+173
+00:17:40.770 --> 00:17:42.270
+Grace Hartley: Among others, I think.
+
+174
+00:17:44.040 --> 00:17:46.530
+Grace Hartley: and kicking off with the next call if that's all right.
+
+175
+00:17:47.580 --> 00:17:50.820
+Grace Hartley: Would it make sense if anyone does anyone else, want to.
+
+176
+00:17:51.990 --> 00:17:54.780
+Grace Hartley: own the regular catch ups and scheduling those.
+
+177
+00:17:55.980 --> 00:18:01.320
+Grace Hartley: I guess I can add them to the calendar for hyper ledger the hyper ledger calendar, but didn't know if anyone felt strongly about.
+
+178
+00:18:02.340 --> 00:18:02.580
+Grace Hartley: How.
+
+179
+00:18:04.350 --> 00:18:12.360
+Danno Ferrin: I can start that and I also want to pitch a change to the cycles, the thought that crossed my mind is the color every week moves eight hours, every week.
+
+180
+00:18:12.990 --> 00:18:22.050
+Danno Ferrin: Whether it's a business call or a collaboration call and collaboration calls will not be recorded the business calls will be recorded and basically be this meeting.
+
+181
+00:18:22.920 --> 00:18:29.130
+Danno Ferrin: um so every other one would be a business call and every other one will be collaboration calls so both of them would you know.
+
+182
+00:18:29.790 --> 00:18:42.480
+Danno Ferrin: You can attend at least one a month within reasonable hour if we set up the rotations right one out of every three to be in the middle of night for you, but that way you can attend at least once a month and that way we get more quicker cycling.
+
+183
+00:18:43.920 --> 00:18:47.400
+Danno Ferrin: between the different time zones right together because we got you know got contributors and.
+
+184
+00:18:48.540 --> 00:18:56.070
+Danno Ferrin: me a we got a contributors and apac contributors in America, and right now the calls are heavily biased towards America, because I was the ones.
+
+185
+00:18:56.550 --> 00:19:08.250
+Danno Ferrin: starting up the project, the hyper ledger and I needed to make sure I can make all the calls so that's how that happened but i'm willing, you know if other people have other proposals, you know go for it, but I think it's time that we to.
+
+186
+00:19:09.300 --> 00:19:12.240
+Danno Ferrin: Go to some sort of rotation that doesn't always pay for America.
+
+187
+00:19:21.690 --> 00:19:22.560
+Danno Ferrin: Not opposed.
+
+188
+00:19:22.680 --> 00:19:23.340
+Does anyone.
+
+189
+00:19:24.510 --> 00:19:29.580
+Grace Hartley: Know strong feelings on my part, so, but what do you what any other thoughts or feedback.
+
+190
+00:19:32.250 --> 00:19:33.660
+Gary Schulte: I like the idea of.
+
+191
+00:19:33.960 --> 00:19:40.230
+Gary Schulte: Having rotating call times, I wonder if it's going to be difficult to to manage if it's if it's constantly shifting.
+
+192
+00:19:41.970 --> 00:19:54.090
+Gary Schulte: You know I think attendance might drop off if people just don't have a lot of clarity on which which meeting is the next one that's going to be in a time zone that is attainable for them.
+
+193
+00:19:54.750 --> 00:19:55.890
+Danno Ferrin: I wonder if we could save our.
+
+194
+00:19:55.890 --> 00:19:56.610
+Danno Ferrin: clock Easter.
+
+195
+00:19:57.060 --> 00:19:57.780
+yeah I wonder if there's.
+
+196
+00:19:59.280 --> 00:20:15.750
+Gary Schulte: A couple of times that work for multiple time zones and just flip flip flop between the two, I mean to kind of like what we do with the apac and European calls that that seems to work fairly well, even if they end up getting those groups end up.
+
+197
+00:20:16.950 --> 00:20:21.900
+Gary Schulte: I think the Asia Pacific and European end up not participating in the same calls.
+
+198
+00:20:22.680 --> 00:20:30.240
+Danno Ferrin: problem with the two to consensus did the two of the three is they're mutually prime so both move at different rates if we stick with just two times.
+
+199
+00:20:30.930 --> 00:20:39.330
+Danno Ferrin: That we need basically like four times so that we can make sure that it's not just always America America it's not always you know Europe Europe a backache back Europe Europe a package.
+
+200
+00:20:40.530 --> 00:20:49.410
+Danno Ferrin: or business cards are always a pack in the collaboration calls always Europe, you know that's that's what I was trying to avoid with a proposal, but you know if we have find other solutions.
+
+201
+00:20:50.160 --> 00:20:54.750
+Danno Ferrin: Now that's that's kind of what I want to avoid is that we don't you know box people after a month at a time.
+
+202
+00:20:55.680 --> 00:20:55.980
+yeah.
+
+203
+00:21:01.410 --> 00:21:02.100
+Grace Hartley: i'm not sure if.
+
+204
+00:21:02.760 --> 00:21:03.390
+Danno Ferrin: We could just.
+
+205
+00:21:03.450 --> 00:21:05.760
+Danno Ferrin: settle on 4pm Eastern and just stick with that.
+
+206
+00:21:11.310 --> 00:21:11.760
+Sally MacFarlane: So.
+
+207
+00:21:12.330 --> 00:21:15.540
+Sally MacFarlane: I wonder puzzle is like have.
+
+208
+00:21:16.920 --> 00:21:23.100
+Sally MacFarlane: said eight hours eight hours, so we get three in a month before in a month.
+
+209
+00:21:24.150 --> 00:21:25.410
+Sally MacFarlane: And he would be.
+
+210
+00:21:26.580 --> 00:21:27.060
+Sally MacFarlane: yeah.
+
+211
+00:21:27.150 --> 00:21:33.960
+Danno Ferrin: it's a cycle of time, so we go from two times, or three times and we just split it between the two calendars how it works.
+
+212
+00:21:36.330 --> 00:21:44.100
+Sally MacFarlane: yeah I do quite like to have these predictable and my calendar, so I think that I would prefer.
+
+213
+00:21:45.720 --> 00:21:48.330
+Sally MacFarlane: Like having this three times be separate meetings.
+
+214
+00:21:50.820 --> 00:21:52.530
+Sally MacFarlane: And I always know which one i'm going to.
+
+215
+00:22:02.970 --> 00:22:04.860
+Danno Ferrin: I think we need to discuss this in rocket chat.
+
+216
+00:22:05.070 --> 00:22:05.790
+Danno Ferrin: I think we have.
+
+217
+00:22:06.600 --> 00:22:09.570
+Grace Hartley: What at least half the group needs to that needs to discuss it isn't here.
+
+218
+00:22:10.290 --> 00:22:11.100
+Grace Hartley: yeah well.
+
+219
+00:22:14.100 --> 00:22:14.520
+Grace Hartley: Hello.
+
+220
+00:22:16.110 --> 00:22:19.770
+Grace Hartley: Yes, shared proposed time changes.
+
+221
+00:22:21.030 --> 00:22:22.890
+Grace Hartley: In rocket chat to get feedback.
+
+222
+00:22:25.380 --> 00:22:26.580
+Grace Hartley: yeah exactly i'm like.
+
+223
+00:22:27.750 --> 00:22:30.720
+Grace Hartley: Just because one thing works for me doesn't work for anybody else.
+
+224
+00:22:33.000 --> 00:22:33.870
+Grace Hartley: cool okay.
+
+225
+00:22:35.370 --> 00:22:51.060
+Grace Hartley: It sounds like there's no other feedback on this um any questions leave like on the prior conversations or information that I, I know I just kind of skimmed over quickly any questions from what the prior discussions were about.
+
+226
+00:22:56.280 --> 00:22:57.690
+Grace Hartley: So he said this good.
+
+227
+00:22:58.710 --> 00:23:02.010
+Sally MacFarlane: There will be a decision made on that in January.
+
+228
+00:23:04.560 --> 00:23:04.890
+Grace Hartley: yep.
+
+229
+00:23:06.810 --> 00:23:11.190
+Grace Hartley: i'm owning the tasks for so that is on me if we don't hit that deadline.
+
+230
+00:23:14.730 --> 00:23:15.930
+Jason Frame: what's the next steps.
+
+231
+00:23:15.930 --> 00:23:16.740
+Jason Frame: Around the.
+
+232
+00:23:17.340 --> 00:23:21.180
+Jason Frame: E, F incentive program is a lot of discussions their own right.
+
+233
+00:23:23.280 --> 00:23:25.320
+Grace Hartley: So the next steps.
+
+234
+00:23:27.570 --> 00:23:28.080
+Jason Frame: Mr.
+
+235
+00:23:28.710 --> 00:23:29.280
+noise.
+
+236
+00:23:30.540 --> 00:23:37.230
+Grace Hartley: it's kind of i'm kind of hopping around so it's not a new i'm the two next steps for.
+
+237
+00:23:38.880 --> 00:23:49.110
+Grace Hartley: The basic many years one so consensus we have own just putting together proposal or just an overview of what it takes to run a validator node and and kind of the.
+
+238
+00:23:49.650 --> 00:24:00.210
+Grace Hartley: requirements so if a different organization hyper ledger or otherwise approached and said they were interested in doing that it was relatively clear what what it would be required.
+
+239
+00:24:01.530 --> 00:24:12.420
+Grace Hartley: And then the next and then also Dana and antwan actually both shared a revised proposal around the incentive program and how it could be decentralized and.
+
+240
+00:24:12.900 --> 00:24:22.800
+Grace Hartley: it's on the consensus maintainer is right now to be providing feedback on those proposals and and also thinking through you know other alternatives, but essentially that with the question of.
+
+241
+00:24:24.600 --> 00:24:26.130
+Grace Hartley: How do we decentralize.
+
+242
+00:24:27.840 --> 00:24:32.940
+Grace Hartley: yeah just decentralized ownership of the of the program on the BC front.
+
+243
+00:24:34.080 --> 00:24:36.990
+Grace Hartley: We have those are kind of the two ones, and then you could see we just did our.
+
+244
+00:24:42.420 --> 00:24:45.120
+Jason Frame: revised proposal shared is it on the wiki somewhere.
+
+245
+00:24:47.280 --> 00:24:47.940
+Grace Hartley: rocket chat.
+
+246
+00:24:48.990 --> 00:24:50.850
+Jason Frame: I haven't caught up on that yet so i'll find it.
+
+247
+00:24:52.740 --> 00:24:53.040
+Grace Hartley: Will.
+
+248
+00:24:53.730 --> 00:24:54.750
+Grace Hartley: also add that to.
+
+249
+00:24:56.490 --> 00:25:01.770
+Grace Hartley: The document for today's call just so that's clear to everyone to because i'm sure some people got lost in it too.
+
+250
+00:25:04.440 --> 00:25:04.770
+Grace Hartley: cool.
+
+251
+00:25:29.610 --> 00:25:30.000
+Grace Hartley: cool.
+
+252
+00:25:31.980 --> 00:25:34.290
+Grace Hartley: That that's what it was there was one item where.
+
+253
+00:25:35.430 --> 00:25:37.950
+Grace Hartley: sujit does in the process of just adding the.
+
+254
+00:25:39.720 --> 00:25:51.210
+Grace Hartley: overview of the incentive program on to the wiki and we should have that this week just want to make sure that was I recognize I lost that one, I think that was from the 1221 1230.
+
+255
+00:25:53.430 --> 00:25:56.070
+Grace Hartley: cool okay um.
+
+256
+00:25:59.490 --> 00:26:08.310
+Grace Hartley: We have maybe 20 minutes left if you're in other questions there, I think, maybe we got the basic 2022 vision and then, if we have time to go to that kind of.
+
+257
+00:26:09.900 --> 00:26:12.570
+Grace Hartley: maintainer and order status that's okay.
+
+258
+00:26:19.680 --> 00:26:20.040
+Danno Ferrin: cool.
+
+259
+00:26:21.480 --> 00:26:24.750
+Grace Hartley: We do you want to speak to this briefly, if you want.
+
+260
+00:26:25.860 --> 00:26:26.910
+Danno Ferrin: yeah so.
+
+261
+00:26:27.930 --> 00:26:32.670
+Danno Ferrin: back with Christmas break was people working on, I spent some time thinking about de Su and.
+
+262
+00:26:33.300 --> 00:26:38.460
+Danno Ferrin: what's the driving it for the past couple of years and the conclusion that I reached was it's been very reactionary.
+
+263
+00:26:39.120 --> 00:26:47.370
+Danno Ferrin: You know what basic releases and basis that basically adds is based on what main that requires, and you know it's not entirely reactionary there because we have.
+
+264
+00:26:48.000 --> 00:26:54.750
+Danno Ferrin: engineers participating in the hors d'oeuvres minute calls but it's also you know what's been added is stuff that is required for forum.
+
+265
+00:26:55.500 --> 00:27:00.600
+Danno Ferrin: And then you know there's a minor thing of what random maintainer think would be cool to add and an ad and stuff like that.
+
+266
+00:27:01.110 --> 00:27:09.780
+Danno Ferrin: All of these are reactionary and don't seem to have a single, unified forward vision basis just kind of like you know, a.
+
+267
+00:27:10.380 --> 00:27:17.790
+Danno Ferrin: lot of water you stick it in a bowl and as long as there's a container to hold it it stays there, but if it's for it on the surface, it just goes wherever.
+
+268
+00:27:18.420 --> 00:27:26.430
+Danno Ferrin: And so I want to kind of solidify um, you know as a community i'd like to get some more solidification around what baseball is and where it's going.
+
+269
+00:27:26.880 --> 00:27:35.370
+Danno Ferrin: So I put this as a what I call a red herring red herring meaning it's you know if we don't like it, we can pitch it and do something else but it's a point to start the discussion.
+
+270
+00:27:35.850 --> 00:27:50.910
+Danno Ferrin: And to start what you know us thinking about what we think basis where we want to take it as a vision, where you want the direction to go as an open source project, and so the thought crossed my mind is the three pillars first know I know the opening sentence, I think you know is.
+
+271
+00:27:52.170 --> 00:28:03.690
+Danno Ferrin: A little bit of positioning of how we want it to be viewed not only within base EU and in the whole world, but you know just generally you know you know with with the whole world, you know I just really basic but within hyper ledger and with them people looking hyper ledger.
+
+272
+00:28:05.010 --> 00:28:12.660
+Danno Ferrin: You know hyper ledger base, who is becoming hyper ledger is principle if you're in projects there's some stuff working with with base with her oh that's going to resolve in a couple of weeks.
+
+273
+00:28:13.170 --> 00:28:25.110
+Danno Ferrin: And it's and I view it as focused on three key pillars three things holding it up the first one being main net on and public networks eat main that classic and the test nets.
+
+274
+00:28:25.920 --> 00:28:35.760
+Danno Ferrin: They are valuable and useful and key values of the incentive program shows that were one of the two big clients to only clients for theorem classic when the three classic wants to test out.
+
+275
+00:28:36.780 --> 00:28:45.150
+Danno Ferrin: harebrained schemes like they want to change their hash system, you know, let me tell you how that's going to work out, but they can figure it out themselves, they prototype it in basic.
+
+276
+00:28:46.020 --> 00:28:51.750
+Danno Ferrin: So for the public networks and I didn't know whether put us in a public or private network, but the Parliament of T network.
+
+277
+00:28:52.200 --> 00:29:00.150
+Danno Ferrin: and other networks that are available to be ready to the public, you know, out of the box, it serves as a client that you can just turn on attach these networks and get some information out of it.
+
+278
+00:29:01.050 --> 00:29:10.770
+Danno Ferrin: The second pillar is for private networks and these mostly focus on many the stories that we've had with you know, working on with with banking networks with other communities wanted to run.
+
+279
+00:29:11.310 --> 00:29:17.940
+Danno Ferrin: On you know stuff that basically the space corn started occupying and with things like private transactions with external enclaves.
+
+280
+00:29:18.630 --> 00:29:28.590
+Danno Ferrin: Restricting things to note access things that make an enterprising and you know some purists for, for you know what hyper ledger was built to be should would say that this is the only like that matters.
+
+281
+00:29:29.130 --> 00:29:32.700
+Danno Ferrin: And so we need a standard up, so it can be the only pillar that matters that needs to be.
+
+282
+00:29:33.780 --> 00:29:39.720
+Danno Ferrin: In and give it space, but at the same time provide for the other two pillars, you know, the main that compatible.
+
+283
+00:29:40.830 --> 00:29:49.740
+Danno Ferrin: Enterprise if you're implying Those are the two pillars there's a third pillar that I see emerging and I see it, having value, especially as we start re architected things for.
+
+284
+00:29:50.880 --> 00:29:59.970
+Danno Ferrin: For the merge for the main that merge and for some other you know, helping other features for for form compatibility and other things, and that is to make it a library, to support the use of the.
+
+285
+00:30:00.600 --> 00:30:09.150
+Danno Ferrin: theory of technologies and the first one is one that I did was to take the edm engine split it out into a library, that you can use, with or without basic.
+
+286
+00:30:09.840 --> 00:30:22.800
+Danno Ferrin: And I think there's opportunities for other sorts of these these things, and also there's an opportunity to build what I would consider you know distributions of basic and what crossed my mind is i'm kind of want to model this after the eclipse project.
+
+287
+00:30:23.850 --> 00:30:30.060
+Danno Ferrin: There are multiple distributions of eclipse there's one master eclipse and many people build stuff off of it and they build multiple distributions.
+
+288
+00:30:30.510 --> 00:30:41.550
+Danno Ferrin: So, have you basically was being the face, or the foundation of all these other things you'd have a bill that would be useful, just for post merge mean that you'd have a bill that would be useful, just for.
+
+289
+00:30:42.240 --> 00:30:52.470
+Danno Ferrin: You know qb FT transactions, you would have separate libraries, you could split and build your own thing and other third parties can come in and make a new distribution for their own.
+
+290
+00:30:53.040 --> 00:31:00.360
+Danno Ferrin: custom public network that they want to build because I think we had a few months ago, someone asked me about some economic incentives that no one really had a clue how to answer.
+
+291
+00:31:00.840 --> 00:31:09.210
+Danno Ferrin: But that they could use then basically to build their own custom economic engine and if they're really excited about the economics of the token nomics but don't really care about peer to peer.
+
+292
+00:31:09.690 --> 00:31:21.900
+Danno Ferrin: They can take boost base ooh that's kind of the Lego set and put the big pieces together and then just change the bit that they want so that's kind of the vision that I want to go for, and I did identify five six.
+
+293
+00:31:23.010 --> 00:31:25.950
+Danno Ferrin: Key systems that I think are you know.
+
+294
+00:31:27.000 --> 00:31:29.580
+Danno Ferrin: The parts of it that we might want to be able to switch back and forth.
+
+295
+00:31:30.300 --> 00:31:36.300
+Danno Ferrin: On you know, because even imagine what if people want it, what if what if he wasn't comes back and becomes a thing again, we want to be able to switch that out.
+
+296
+00:31:36.780 --> 00:31:43.620
+Danno Ferrin: i'm consensus protocols, we are ready switch up consensus protocols on networks every you know all these networks have basically their own custom network.
+
+297
+00:31:44.190 --> 00:31:50.520
+Danno Ferrin: What if they want to change the peer to peer and you something else, like maybe a direct you know some other communications to share transactions.
+
+298
+00:31:51.240 --> 00:31:59.670
+Danno Ferrin: What if they want to use instead of json rpc G rpc changing the data storage bought in the block production as well are two of the things that people might want to change.
+
+299
+00:32:00.210 --> 00:32:08.340
+Danno Ferrin: So that's you know just my initial vision get the system six systems and that's about as far as I got before the neighborhood started burning down so there's my thoughts.
+
+300
+00:32:15.180 --> 00:32:17.790
+Gary Schulte: I like the distribution specific.
+
+301
+00:32:17.880 --> 00:32:30.780
+Gary Schulte: model, I think that that can could be a real simplifying case for for usage for the you know user experience and just making overall tighter more directed.
+
+302
+00:32:31.770 --> 00:32:41.280
+Gary Schulte: artifact for each specific use case that that basically supports, because I agree that basically was kind of a value of base it was that it can do all of these things.
+
+303
+00:32:43.440 --> 00:32:58.380
+Gary Schulte: But I mean there's sometimes you don't want a Swiss army knife sometimes you just want you know something that's purpose built tool without a million different switches in order to enable a specific use case, so I definitely like the eclipse model.
+
+304
+00:32:59.400 --> 00:33:01.590
+Gary Schulte: For distribution specific artifacts.
+
+305
+00:33:07.410 --> 00:33:16.470
+Danno Ferrin: And I liked your comment about roll ups i've got goldfish break right now, and that was another thing that we could build together as one of the things to be built from this is, you know we could.
+
+306
+00:33:16.530 --> 00:33:16.830
+Set up.
+
+307
+00:33:18.120 --> 00:33:24.960
+Danno Ferrin: A layer to that might run on these networks, because you can change the consensus model to be layer one dependent and work off of fraud proofs.
+
+308
+00:33:25.410 --> 00:33:33.870
+Danno Ferrin: And that's something that I totally would like to see base who built around and to be able to use, because I think there's a lot of value of that in multi party system started necessarily political blockchains.
+
+309
+00:33:34.380 --> 00:33:43.320
+Danno Ferrin: This provide some sort of a thing that we plugged in so you can get the blockchain field to get access to the edm contracts that, in my opinion you're going to eat the world so.
+
+310
+00:33:48.690 --> 00:33:49.530
+Grace Hartley: I have a dumb.
+
+311
+00:33:49.710 --> 00:33:55.530
+Grace Hartley: question that is probably going to demonstrate that I am not the software engineers, that you are.
+
+312
+00:33:57.210 --> 00:34:10.620
+Grace Hartley: What does bases modernization kind of could that like you know even finding that idea around does that fit into this does not fit into it tbd just was kind of curious about that.
+
+313
+00:34:12.780 --> 00:34:13.410
+Gary Schulte: I think that's.
+
+314
+00:34:15.870 --> 00:34:28.110
+Gary Schulte: kind of a parallel track or a tangential track that would allow different different implementations like modular implementations for things that we're looking at specifically and chupacabra is like.
+
+315
+00:34:29.820 --> 00:34:35.610
+Gary Schulte: Our transaction pool, so that we can support motive different different networks and so forth.
+
+316
+00:34:37.290 --> 00:34:39.690
+Gary Schulte: I think that, though, that is.
+
+317
+00:34:41.040 --> 00:34:42.930
+Gary Schulte: Parallel to the.
+
+318
+00:34:44.220 --> 00:34:49.590
+Gary Schulte: The definition of a distribution specific artifacts and what that would what that would actually look like structurally.
+
+319
+00:34:51.780 --> 00:34:59.580
+Gary Schulte: This is my opinion i'd be interested to hear what data thinks about that as well as far as modular rising versus artifact generation, because it seems like they're.
+
+320
+00:35:01.410 --> 00:35:03.060
+Gary Schulte: complimentary strategies.
+
+321
+00:35:03.780 --> 00:35:09.840
+Danno Ferrin: I think they feed right into each other, because you mentioned that so you can have a very slimmed down version of basic.
+
+322
+00:35:10.260 --> 00:35:20.130
+Danno Ferrin: That doesn't have the old block production module and you don't even ship it to the module you put in, as the MID module or maybe it's your own custom module that you put in to do all your black magic.
+
+323
+00:35:20.880 --> 00:35:23.880
+Danno Ferrin: That you, you have communications with everything to make working.
+
+324
+00:35:24.510 --> 00:35:36.540
+Danno Ferrin: So, so the modular ization gives us the boundaries to say here's where you plug in your legos and the distribution is you pick you know it's kinda like a Chinese menu you pick one for each column, and then you plug them in not all combinations will work.
+
+325
+00:35:37.920 --> 00:35:40.590
+Danno Ferrin: But you can make them work I guess is the way to put it.
+
+326
+00:35:44.130 --> 00:35:53.970
+Danno Ferrin: So distribution would be a particular set of modules fulfilling all these requirements, you could have a mega distribution would have all the consensus modules or you could have one distribution that only has.
+
+327
+00:35:55.470 --> 00:36:02.520
+Danno Ferrin: Post merge the post merge proof of stake mode is an option you don't even carry along any of the tasks or the hash or.
+
+328
+00:36:03.030 --> 00:36:16.470
+Danno Ferrin: any of the other proof of authority algorithms out there you just have only that stuff that matters for what you're running that also has a nice advantage and it reduces the attack surface you're not carrying around extra code that might be exploited by other people.
+
+329
+00:36:17.730 --> 00:36:22.920
+Gary Schulte: Do you see this is more of a kind of a monolithic repo or a collection of.
+
+330
+00:36:23.580 --> 00:36:28.830
+Gary Schulte: Like sub repos or dependent repos that would refer to modules from from basic core.
+
+331
+00:36:32.820 --> 00:36:42.930
+Danno Ferrin: that's tricky I haven't thought that far, it could work as both where we have a monolithic repo that has the standard components and then, if you want to build something custom, you still have to build a monolithic repo.
+
+332
+00:36:43.410 --> 00:36:49.800
+Danno Ferrin: And then bring in your components and then get the modular ization out of it, you know we could we could do tweaks to the build so that.
+
+333
+00:36:50.490 --> 00:36:59.790
+Danno Ferrin: It would ignore stuff in modules you don't care about, but at the same time, we could you know go full full multi repo and have one repo that's like the skeleton.
+
+334
+00:37:00.240 --> 00:37:08.460
+Danno Ferrin: Then have six of the repos that would plug into that skeleton um for the for the base once I mean probably more than six because he's consensus engine with the other Tom repo.
+
+335
+00:37:09.120 --> 00:37:16.980
+Danno Ferrin: Unless they want to reuse code, they can produce multiple multiple modules out of it, but you know we could there's a lot of directions, we could go with it, but I think.
+
+336
+00:37:17.790 --> 00:37:26.010
+Danno Ferrin: Before we go multi repo we would want to get a module system that works and then contemplate splitting it it's a multi are dependent repost because we can already.
+
+337
+00:37:26.670 --> 00:37:38.580
+Danno Ferrin: have built a Su and bring in your own custom stuff probably not through the plugin system, I view this as the spiritual successor to the plugin system because I don't think what I tried to plugins actually achieved the ends, I was hoping it would.
+
+338
+00:37:42.420 --> 00:37:42.690
+Gary Schulte: Okay.
+
+339
+00:37:44.610 --> 00:37:55.230
+Jason Frame: What are they saying the end user benefit really marginalization and the consistency to kind of basic ones like the the choir sales and scientists, you can build on, but.
+
+340
+00:37:57.450 --> 00:38:04.770
+Jason Frame: I don't really see the general use of what the event, what benefits they get I guess it would be a small Byron maybe less resources let's attack surface.
+
+341
+00:38:06.300 --> 00:38:07.770
+Jason Frame: In terms of security, but.
+
+342
+00:38:08.880 --> 00:38:09.780
+Jason Frame: that's like so.
+
+343
+00:38:11.190 --> 00:38:14.850
+Danno Ferrin: let's let's think of to users on the theory of user in theory plastic you.
+
+344
+00:38:15.870 --> 00:38:23.430
+Danno Ferrin: Both of them want to download run it at no command line options and magically things work that's not what happens today, you have to do dash dash network classic.
+
+345
+00:38:23.940 --> 00:38:33.900
+Danno Ferrin: And maybe a few other random things to get classic properly working on, and you have to carry on the the the large genesis file for all various different repos.
+
+346
+00:38:34.380 --> 00:38:41.160
+Danno Ferrin: So the advantage here is, you can have a main distribution that only has the genesis file from a net has nothing for classic.
+
+347
+00:38:41.550 --> 00:38:48.030
+Danno Ferrin: And all the command line flags are defaulted to Mina and you could have a distribution for classic that only brings the classic definitions.
+
+348
+00:38:48.510 --> 00:38:57.630
+Danno Ferrin: And everything is defaulted for classic and just magically works, so this to me the benefits of consumers is the realization that a theorem.
+
+349
+00:38:58.230 --> 00:39:08.310
+Danno Ferrin: The theorem blockchains are differentiating in this way, people can with an easier mechanism provide blockchain clients best specialized to their particular change.
+
+350
+00:39:12.330 --> 00:39:12.900
+Jason Frame: yeah okay.
+
+351
+00:39:14.070 --> 00:39:14.790
+Jason Frame: let's go.
+
+352
+00:39:15.720 --> 00:39:19.770
+Danno Ferrin: And that might completely blow up on our face too, so you know there's that possibility.
+
+353
+00:39:30.750 --> 00:39:34.680
+Grace Hartley: Any other comments or feedback, I think, maybe it makes sense.
+
+354
+00:39:36.720 --> 00:39:46.020
+Grace Hartley: To repost this in the in rocket chat I knows added to the agenda, but just as ask for the broader group to provide feedback and comments and and.
+
+355
+00:39:47.880 --> 00:39:51.360
+Grace Hartley: And also, maybe we can add some commentary around how.
+
+356
+00:39:51.900 --> 00:39:57.870
+Grace Hartley: modernization coder could fit into this or doesn't because I think I know that's something that's been kind of.
+
+357
+00:39:59.490 --> 00:40:01.890
+Grace Hartley: A hot topic over the last few weeks, few months.
+
+358
+00:40:04.050 --> 00:40:10.410
+Grace Hartley: And, and then I think you know, obviously, this would be a living document I think what makes sense, you know the next contributor color so.
+
+359
+00:40:11.460 --> 00:40:17.670
+Grace Hartley: Maybe next to to kind of keep going back to this and getting feedback, I think it generally.
+
+360
+00:40:19.140 --> 00:40:20.310
+Grace Hartley: You know generally makes sense.
+
+361
+00:40:21.930 --> 00:40:32.580
+Grace Hartley: But we can kind of I think continue to bake it out and have it be a living document over the coming weeks, I think makes a lot of sense and I of course want to get everyone's feedback, who is not here that's an Okay, though.
+
+362
+00:40:33.900 --> 00:40:41.670
+Danno Ferrin: That sounds good, if someone else could add it to bits about the roll ups in the distributions i'm not gonna be very functional, the next few days.
+
+363
+00:40:44.340 --> 00:40:46.110
+Gary Schulte: I can, I can add some details to that.
+
+364
+00:40:48.810 --> 00:40:50.400
+Gary Schulte: I don't know if i'm able to indicate that.
+
+365
+00:40:52.020 --> 00:40:55.560
+Gary Schulte: it's it's perspective and open to change because.
+
+366
+00:40:57.120 --> 00:41:01.830
+Gary Schulte: I don't want to modify the vision of a specific document with from a different author, but.
+
+367
+00:41:04.050 --> 00:41:07.560
+Gary Schulte: Yes, that comments and say what about roll ups, what about this guy yeah comments.
+
+368
+00:41:07.620 --> 00:41:08.550
+Gary Schulte: i'm down for comments.
+
+369
+00:41:09.120 --> 00:41:12.480
+Grace Hartley: yeah yeah just so we don't lose it because I think that's a great great point.
+
+370
+00:41:13.050 --> 00:41:16.170
+Danno Ferrin: and hopefully want the discussion tract is really what I really want yeah.
+
+371
+00:41:16.950 --> 00:41:17.940
+Grace Hartley: I think that'd be interesting.
+
+372
+00:41:18.870 --> 00:41:24.060
+Grace Hartley: very interesting also the privacy is a plugins interesting even adding that would be awesome.
+
+373
+00:41:25.380 --> 00:41:25.980
+Grace Hartley: cool okay.
+
+374
+00:41:27.390 --> 00:41:43.230
+Grace Hartley: So we have five minutes left, I think we have a few action items to kind of go back and keep myself honest one we're going to see if anyone can provide our own figuring out what is the ideal release solution and going to post that rocket chat.
+
+375
+00:41:45.330 --> 00:41:56.580
+Grace Hartley: i'm going to add the links here to the incentive program proposals that Dino and Anton put together for the consensus meditators feedback and.
+
+376
+00:41:57.210 --> 00:42:08.850
+Grace Hartley: Then figure out maybe the timing of the next calls I believe our next contributor call isn't for two weeks, but I imagine we'll probably need one next week so i'll kick that off as well.
+
+377
+00:42:11.730 --> 00:42:14.010
+Grace Hartley: In rocket chat as well, so.
+
+378
+00:42:15.300 --> 00:42:22.770
+Grace Hartley: I think you know see what makes sense there and I know we haven't talked about the inactivity cause, who will be maintained errs to.
+
+379
+00:42:23.730 --> 00:42:33.900
+Grace Hartley: Mr to status, I think we can pump that if that's Okay, but continue this discussion III think I don't think it's its mission critical at this point, but all these other items are great.
+
+380
+00:42:34.380 --> 00:42:45.180
+Grace Hartley: And then, of course, I guess, I also missed kind of the next steps around the just generally implementing the ideas I think for the Community building ideas, and I think we generally agreed that.
+
+381
+00:42:45.780 --> 00:42:53.790
+Grace Hartley: We can get started on that, so I will put that in here as well, I will sorry little disorganized with these notes.
+
+382
+00:42:56.190 --> 00:42:59.340
+Gary Schulte: Just for historical context is there.
+
+383
+00:43:02.280 --> 00:43:10.650
+Gary Schulte: You know, is there is there a consensus, or lack of consensus around emeritus status or is that just something that's been proposed and has or has not had pushed back.
+
+384
+00:43:13.110 --> 00:43:18.570
+Sally MacFarlane: And I added this because our current guide says, a quarter of an activity.
+
+385
+00:43:21.120 --> 00:43:21.660
+Sally MacFarlane: and
+
+386
+00:43:22.710 --> 00:43:31.290
+Sally MacFarlane: When when we've gone about remember of changing people's status to America is it has tended to be people who have been inactive for longer than that so.
+
+387
+00:43:33.120 --> 00:43:44.490
+Sally MacFarlane: I kind of had a rough road, and I think Dan I had a similar sort of guideline around six months have been activity, but the last time that that I proposed to.
+
+388
+00:43:45.360 --> 00:43:57.510
+Sally MacFarlane: To contribute to that moved over to America status they both sort of said that they were still planning on contributing, but so then do we want to change what we say in the confines.
+
+389
+00:43:58.650 --> 00:44:03.420
+Sally MacFarlane: Of that is a quarter of an activity wrong or do we want to sort of reconsider.
+
+390
+00:44:05.520 --> 00:44:05.820
+Sally MacFarlane: Okay.
+
+391
+00:44:05.910 --> 00:44:09.720
+Sally MacFarlane: Is this a bit of a mismatch between what we say we do and what we actually do.
+
+392
+00:44:10.440 --> 00:44:13.590
+Gary Schulte: You haven't actually seen anybody moved to emeritus at some of the reason I ask.
+
+393
+00:44:15.750 --> 00:44:19.680
+Sally MacFarlane: Well, we did move some people over the last couple of months.
+
+394
+00:44:21.210 --> 00:44:24.630
+Sally MacFarlane: But yet, though we enact it for much longer than six months.
+
+395
+00:44:26.430 --> 00:44:30.750
+Ry Jones: I will say for some historical context.
+
+396
+00:44:32.190 --> 00:44:33.420
+Ry Jones: fabric did this.
+
+397
+00:44:34.620 --> 00:44:35.460
+Ry Jones: A while ago.
+
+398
+00:44:36.660 --> 00:44:39.030
+Ry Jones: And, and they enforced a very hard.
+
+399
+00:44:39.300 --> 00:44:39.840
+date.
+
+400
+00:44:40.890 --> 00:44:44.700
+Ry Jones: And that engendered quite a bit of bill well.
+
+401
+00:44:46.350 --> 00:44:49.860
+Ry Jones: So I would you know, encourage a laxer interpretation.
+
+402
+00:44:50.970 --> 00:44:58.110
+Ry Jones: I obviously I don't have any skin in the game, but it it's a really easy way to make people angry, for no reason.
+
+403
+00:45:01.290 --> 00:45:04.620
+Sally MacFarlane: yeah I think that that's a that's a really good point and so you've got some.
+
+404
+00:45:04.620 --> 00:45:14.310
+Sally MacFarlane: Experience to be there, so so maybe what we should propose or maybe what I would propose is that we change the guideline to build to reporting quarters.
+
+405
+00:45:20.820 --> 00:45:22.170
+Grace Hartley: That sounds reasonable to me.
+
+406
+00:45:23.160 --> 00:45:26.940
+Grace Hartley: Because you know I will maintain her i'm not if anyone wants to.
+
+407
+00:45:28.950 --> 00:45:35.940
+Grace Hartley: Maybe just proposal to say to record to quarter to reporting quarters.
+
+408
+00:45:40.170 --> 00:45:49.650
+Grace Hartley: update and update that and just say that's the proposal that we discussed in the call today and rocket chat that way folks can chime in but sounds generally.
+
+409
+00:45:51.090 --> 00:45:58.890
+Ry Jones: and removing isn't the only option, you know you much like in the in the tlc where, if you don't show up for a couple of meetings you don't count for corn.
+
+410
+00:46:00.510 --> 00:46:12.300
+Ry Jones: You could have something where if you're making a change, and you need a certain percentage if you don't count for core if you haven't been to whatever you haven't had a commitment last quarter or you haven't whatever so.
+
+411
+00:46:13.650 --> 00:46:21.120
+Sally MacFarlane: that's, so I think this is where it came up for me was when we had new mentors and the guideline is the PR has to be open for two weeks or.
+
+412
+00:46:21.300 --> 00:46:26.820
+Sally MacFarlane: We get an absolute majority is really hard the an absolute majority of maintain is at the moment.
+
+413
+00:46:29.220 --> 00:46:32.280
+Sally MacFarlane: But, but you know we'll maybe, let me just wait for two weeks and that's fine.
+
+414
+00:46:37.620 --> 00:46:45.690
+Sally MacFarlane: But yeah maybe we could rethink how we look at the majority, the majority of active maintainer but we don't have a definition for that.
+
+415
+00:46:55.260 --> 00:46:58.770
+Grace Hartley: That would be an intro that would be interesting.
+
+416
+00:47:00.450 --> 00:47:04.170
+Grace Hartley: around like having forum with them that they don't get voting rights.
+
+417
+00:47:07.380 --> 00:47:08.430
+Grace Hartley: But again, also.
+
+418
+00:47:09.990 --> 00:47:14.070
+Grace Hartley: don't want to take people off if it's just waiting two weeks I don't know.
+
+419
+00:47:15.210 --> 00:47:29.520
+Grace Hartley: Well let's table that I know we're at time so I apologize, and we cannot kick off the conversation rocket chat further I it's a good it's a great point, though Sally and I think we can come up with a Z or quickly find a way to make it a little better.
+
+420
+00:47:30.930 --> 00:47:32.880
+Grace Hartley: Thanks guys, well, we will.
+
+421
+00:47:33.780 --> 00:47:34.350
+Grace Hartley: Talk for.
+
+422
+00:47:34.710 --> 00:47:35.670
+Ry Jones: Just before I.
+
+423
+00:47:35.970 --> 00:47:38.670
+Ry Jones: Before I end the recording because it's not on the recording.
+
+424
+00:47:39.180 --> 00:47:52.830
+Ry Jones: We did discuss the antitrust policy notice, on the other, recording or, on the other, meeting, and we did do the are welcome here thing, so if anyone's viewing this recording in the future, we did those things they're just not at the beginning of this recording so I promise you.
+
+425
+00:47:54.360 --> 00:47:54.690
+Grace Hartley: Thank you.
+
+426
+00:47:56.850 --> 00:47:58.380
+Sally MacFarlane: I was a witness yeah.
+
+427
+00:47:59.820 --> 00:48:01.410
+Grace Hartley: Thanks, I appreciate it have a good one.
+
