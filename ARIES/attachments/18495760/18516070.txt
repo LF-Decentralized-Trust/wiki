@@ -1,0 +1,18 @@
+08:05:05	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-03-16+Aries+Working+Group+Call
+08:38:51	 From  Steve McCown : Compression’s a great concept.  However, where does the dictionary reside?
+08:40:17	 From  James Ebert : Or hosted on didcomm.org?
+08:40:26	 From  Sam Curren (TelegramSam) : or there ^
+08:47:29	 From  Stephen Curran : What offline case is there?  Don’t we by definition need some sort of connection for the response to the OOB?
+08:47:51	 From  Sam Curren (TelegramSam) : Bluetooth as a transport.
+08:48:00	 From  James Ebert : Not when communicating via Bluetooth or NFC for instance
+08:48:13	 From  Sam Curren (TelegramSam) : note: there are other related things to solve to enable this, but this is still a factor
+08:49:07	 From  Stephen Curran : Ah…so there is no way to redirect when using bluetooth?  I had expected that but have never dug into it.
+08:49:53	 From  Sam Curren (TelegramSam) : there would be, but Bluetooth is mostly used when general internet wouldn't be present.
+08:53:01	 From  Stephen Curran : I meant a bluetooth way to redirect, assuming no general internet.
+08:53:18	 From  Timo Glastra : In case of bluetooth and NFC you could use other ways to exchange the invitation I think
+08:53:35	 From  Timo Glastra : So bypass the QR code completely
+08:53:54	 From  Nathan George : Timo++
+08:54:05	 From  Sam Curren (TelegramSam) : that's a fair point Tmo.
+08:54:14	 From  Sam Curren (TelegramSam) : *Timo
+08:54:26	 From  Stephen Curran : Timo++
+08:54:48	 From  Steve McCown : Good point Timo. +1

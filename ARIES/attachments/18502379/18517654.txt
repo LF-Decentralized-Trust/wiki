@@ -1,0 +1,22 @@
+08:05:22	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2023-02-22+Aries+Working+Group+Call
+08:25:06	 From  Stephen Curran : https://hub.docker.com/search?q=bcgovimages
+08:26:02	 From  Simon Westh Henriksen (Hyphen) : https://npm-stat.com/charts.html?package=@aries-framework/core&from=2020-01-01
+08:27:08	 From  Sam Curren (TelegramSam) : 82k!
+08:30:35	 From  Timo Glastra : Does the short did contain a signing key, encryption key and service endpoint?!
+08:30:43	 From  Sam Curren (TelegramSam) : no...
+08:30:44	 From  Timo Glastra : Or is that the long did?
+08:30:46	 From  Sam Curren (TelegramSam) : only the long did
+08:31:10	 From  Timo Glastra : Ah okay, i was thinking what is this compression algorithm they're using 🙂
+08:31:37	 From  Sam Curren (TelegramSam) : Dunno, but I'd like some of that.
+08:31:42	 From  Sam Curren (TelegramSam) : :)
+08:34:20	 From  Warren Gallagher : Is there a way to respond to the short form that I need the long from sent again? Cache lost for whatever reason…
+08:34:30	 From  Sam Curren (TelegramSam) : there is not.
+08:38:37	 From  Timo Glastra : @sam Could you point me to the place where it mentions you can't rotate a did:peer:1 did document? I've heard you say it a few times, but I've never found that part in the spec that mentions you can't do that
+08:48:36	 From  Timo Glastra : Related issue: https://github.com/decentralized-identity/peer-did-method-spec/issues/3
+08:49:41	 From  Timo Glastra : how complex would it be do implement did:keri lite from scratch?
+08:54:40	 From  Timo Glastra : If did:keri lite is easy to implement I have no strong feelings on which method to rotate to. did:peer:2 may be a bit more aligned with the didcomm community, Expeically since did:peer doesn't seem very updated it may make sense to go for did:keri
+08:55:00	 From  Rodolfo Miranda : Thats the repo I used for the demo: https://github.com/WebOfTrust/did-keri-resolver/tree/main/src/dkr/didcomm
+08:55:44	 From  Timo Glastra : meant to say did:peer feels more aligned with didcomm community, but it is a bit unmaintained. So it may make sense to go for did:keri
+08:55:55	 From  Timo Glastra : AFJ supports all numalgos
+08:56:26	 From  Timo Glastra : The reason why we don't support did:peer:2 in didexchange is because we weren't sure what should be in the signed attachments in that case and we never resolved it
+09:00:08	 From  Timo Glastra : Same issue would arise with did:peer:2 I think

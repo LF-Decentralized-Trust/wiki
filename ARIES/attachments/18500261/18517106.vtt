@@ -1,0 +1,2046 @@
+WEBVTT
+
+1
+00:02:08.930 --> 00:02:10.170
+Patrik Stas: Hi, George!
+
+2
+00:02:10.590 --> 00:02:15.680
+George Mulhearn: Hey! How are you? Pretty good?
+
+3
+00:02:17.090 --> 00:02:20.810
+Patrik Stas: Uh! Oh, I'll start straight away with the
+
+4
+00:02:21.070 --> 00:02:25.869
+Patrik Stas: our and disclaimer, so i'm sharing my screen
+
+5
+00:02:27.570 --> 00:02:30.739
+Patrik Stas: uh on my screen
+
+6
+00:02:31.070 --> 00:02:32.620
+Patrik Stas: from it.
+
+7
+00:02:33.250 --> 00:02:34.670
+Patrik Stas: Uh,
+
+8
+00:02:47.500 --> 00:02:52.879
+Patrik Stas: actually, I'm trying to find it. But it doesn't really matter right now. Okay, there we go,
+
+9
+00:03:05.900 --> 00:03:21.359
+Patrik Stas: right. So let's let's get into it. Uh: yeah, So maybe i'll start. I was just with one to kind of like organize something. I was thinking that that we could maybe, instead of like diving right into the all the work which, like um,
+
+10
+00:03:21.550 --> 00:03:34.150
+Patrik Stas: has been taken place, or is going to take a place as usual. I I was thinking that, uh, just in general. Well, usually so far, most of the time in just two of us. But uh, maybe this can. Uh,
+
+11
+00:03:34.160 --> 00:03:45.560
+Patrik Stas: maybe it can like start with sort of like a free discussion, instead of leaving it only at the end. And I was thinking, maybe for for anybody like thinking of joining the call.
+
+12
+00:03:45.570 --> 00:04:02.159
+Patrik Stas: It might be like, uh, you know. Maybe they don't to wait the entire the call to just ask their questions, So I was thinking we can just like structurally put it in the game. And also, maybe, you know, if you even two of us, we we can start that way.
+
+13
+00:04:02.170 --> 00:04:13.450
+Patrik Stas: So I actually don't have like anything to to start with. But perhaps, uh, if you have any, I don't know even ideas about these calls, or
+
+14
+00:04:13.710 --> 00:04:16.190
+Patrik Stas: you know just about anything related.
+
+15
+00:04:19.040 --> 00:04:20.220
+George Mulhearn: Um,
+
+16
+00:04:20.890 --> 00:04:37.020
+Patrik Stas: no, I don't have much to start off with. Um: Yeah, Okay, that's fine. Um. Okay. So then let's Let's go right into it. So um the recent Since our last call there was a few pr's
+
+17
+00:04:37.180 --> 00:04:44.350
+Patrik Stas: I wasn't um uh there's some giant Pr. Mostly smaller things. So
+
+18
+00:04:44.680 --> 00:04:49.799
+Patrik Stas: uh we had the bone far here uh contributing uh
+
+19
+00:04:50.010 --> 00:04:52.309
+Patrik Stas: contributing um
+
+20
+00:04:52.560 --> 00:05:09.949
+Patrik Stas: a small Pr. For extending the mean uh mute mime type um uh enumeration for different type of attachments as a credit, credential value, different types of different types of credential values.
+
+21
+00:05:10.920 --> 00:05:18.080
+Patrik Stas: Uh, then, we had a bigger, probably the biggest Pr. This week. Uh, I was um
+
+22
+00:05:18.510 --> 00:05:34.299
+Patrik Stas: relatively big refactoring of Aisle's prepper phone, Paul. Uh, so he nice to describe all the things which has been changed. So uh, this has been Merced. And now we are building this a new, a refactored wrapper.
+
+23
+00:05:34.890 --> 00:05:36.380
+Patrik Stas: Um.
+
+24
+00:05:37.240 --> 00:05:50.619
+Patrik Stas: Next up we had a refactoring of Aries with six agents from middle file, and those uh basically just uh adding new um new trade
+
+25
+00:05:50.730 --> 00:05:56.449
+Patrik Stas: uh for storing data in a V six agent.
+
+26
+00:05:58.980 --> 00:06:10.470
+Patrik Stas: It's a mostly renaming sort of Pr. And it's, adding this one one simple trade for storing data, a different type of uh,
+
+27
+00:06:10.780 --> 00:06:14.609
+Patrik Stas: the the Is Protocol State machines.
+
+28
+00:06:15.220 --> 00:06:24.030
+Patrik Stas: Uh? And then um, yeah, we had one more sort of uh improvement. Pr.
+
+29
+00:06:24.040 --> 00:06:39.290
+Patrik Stas: Uh. Related to his previous work. Uh removing fi. He realized that he also in process he removed some of the validations which were previously taken place. Uh, And so
+
+30
+00:06:39.300 --> 00:06:44.989
+Patrik Stas: now, he added that back uh so it's just here for some validate, which is some
+
+31
+00:06:45.260 --> 00:06:50.279
+Patrik Stas: uh uh refers to some validation implementation.
+
+32
+00:06:51.410 --> 00:06:59.229
+Patrik Stas: Um, yeah, And that's pretty much what has been merged. Uh, then we have also few Pr.
+
+33
+00:06:59.240 --> 00:07:12.009
+Patrik Stas: In Rogers right now. Uh well, that's where we are getting on the next point. So this W. Which is in progress. So maybe i'll start with the smaller things. So we have
+
+34
+00:07:12.470 --> 00:07:29.030
+Patrik Stas: another pr component far. Uh yeah, they have to review this. I mean, it looks pretty simple, but I just want to make sure that uh, this cannot cause some sort of breaking change, especially if there's like two
+
+35
+00:07:29.040 --> 00:07:33.959
+Patrik Stas: two agents, two V. Six agents running on different,
+
+36
+00:07:34.060 --> 00:07:40.520
+Patrik Stas: you know. A. Is V. Six version uh this this uh this other parameters are option.
+
+37
+00:07:40.550 --> 00:07:41.900
+Patrik Stas: Um,
+
+38
+00:07:42.140 --> 00:07:44.300
+Patrik Stas: whereas um!
+
+39
+00:07:44.660 --> 00:07:54.659
+Patrik Stas: And this was added as um simply bull, and i'm not sure if it can have some sort of breaking effect. So I have to take a look at this.
+
+40
+00:07:55.100 --> 00:07:56.490
+Patrik Stas: Um,
+
+41
+00:07:57.910 --> 00:08:17.470
+Patrik Stas: Then we had uh, yeah, Another like Ios refactoring from at him. Uh, but this will have a conflict, so this will either will have to be like rebased or cherry pick, but it's pretty much just deletion of some uh. It's a deletion of methods which where?
+
+42
+00:08:17.500 --> 00:08:19.300
+Patrik Stas: Try which your
+
+43
+00:08:19.520 --> 00:08:33.419
+Patrik Stas: Hmm. Binding directly to uh in the Sdk slash, Vdr: tools, methods, and we don't want to really expose that in in in our uh. So this was deleted.
+
+44
+00:08:33.760 --> 00:08:35.169
+Patrik Stas: Um,
+
+45
+00:08:35.240 --> 00:08:52.710
+Patrik Stas: I think i'll um. I'll reach out to uh the ios I our ios users on this courts to see if they, if they are fine with removal of these. But I think probably should be because this doesn't seem like the type of method to it usually use in uh
+
+46
+00:08:52.740 --> 00:08:54.480
+Patrik Stas: mobile use case
+
+47
+00:08:55.020 --> 00:08:59.760
+Patrik Stas: Um. And then what else we have here?
+
+48
+00:09:01.250 --> 00:09:02.379
+Patrik Stas: Um,
+
+49
+00:09:02.810 --> 00:09:05.770
+Patrik Stas: yeah, Another Pr: from home for
+
+50
+00:09:06.040 --> 00:09:07.290
+Patrik Stas: um.
+
+51
+00:09:08.460 --> 00:09:16.380
+Patrik Stas: But I think, yeah, I like to comment here about things. Some things I disagree with, and it's not I just now seed it,
+
+52
+00:09:16.670 --> 00:09:19.079
+Patrik Stas: he replied, with that answer. So
+
+53
+00:09:19.130 --> 00:09:21.630
+Patrik Stas: i'll have to. I'll have to go through this.
+
+54
+00:09:22.170 --> 00:09:23.530
+Patrik Stas: Um,
+
+55
+00:09:25.690 --> 00:09:32.699
+Patrik Stas: yeah, And that's the smaller sort of Pr. Uh, and maybe just sort of uh
+
+56
+00:09:32.870 --> 00:09:34.130
+Patrik Stas: um.
+
+57
+00:09:35.100 --> 00:09:50.710
+Patrik Stas: A small update. W. Co. Contributes to wise uh middle size right now on whole day till the end of the year. So he's uh he's if I. Pr is on hold uh, Perhaps i'll take a dollar if i'll have some time.
+
+58
+00:09:50.720 --> 00:09:57.139
+Patrik Stas: Uh, but that also means that currently. Uh i'm the only sort of uh
+
+59
+00:09:58.010 --> 00:10:05.820
+Patrik Stas: person doing the the Pr. Uh reviews. So I was thinking, uh, George, if you,
+
+60
+00:10:05.830 --> 00:10:18.580
+Patrik Stas: if you're willing to, you know, I think you like to fully, because that Pr. Right now had in progress, I think, like you fully proved yourself on totally deserve, like a maintainer status on the
+
+61
+00:10:19.050 --> 00:10:35.470
+Patrik Stas: Uh. If you are, if you are interested. So perhaps. Uh, yeah, it just want to offer if you, if you would like to, you know. Uh, do do reviews uh on the Pr. You know, whenever you have time, or if you're if you're willing to, if you're interested.
+
+62
+00:10:36.050 --> 00:10:42.220
+George Mulhearn: Yeah, yeah, i'm happy to um. Take on some smaller views when I have time for sure.
+
+63
+00:10:42.330 --> 00:10:47.119
+Patrik Stas: Yeah. Yeah. Yeah. Awesome. So uh,
+
+64
+00:10:47.690 --> 00:10:50.449
+Patrik Stas: yeah, you can. You can just uh
+
+65
+00:10:50.550 --> 00:11:01.070
+Patrik Stas: assign yourself this review, you know, or I mean, maybe it's not even necessary. So if you are, if you want to read, maybe if you are planning to review something, you can just add yourself here.
+
+66
+00:11:01.080 --> 00:11:18.260
+Patrik Stas: Uh i'm not gonna be adding you. So we don't feel like a price or something, but on, unless I think that uh, that's uh that it might be something of like your interest or something would might be, you know, touching your your um, your work.
+
+67
+00:11:19.160 --> 00:11:25.200
+George Mulhearn: Yeah. And no worries. Yeah, I'll, I'll try to a couple small ones at least until uh mirrors love is back.
+
+68
+00:11:25.710 --> 00:11:40.540
+Patrik Stas: Okay, Okay, that's that's a good help. Um, That's also good to sort of decentralize. So upside is not the only company uh, you know, controlling the the community Repo:
+
+69
+00:11:41.120 --> 00:11:43.330
+Patrik Stas: So
+
+70
+00:11:43.420 --> 00:11:52.250
+Patrik Stas: yeah, the the then the next up we have those uh, yeah, i'll start with some with the smaller one. So right now I have been review
+
+71
+00:11:52.270 --> 00:11:53.620
+Patrik Stas: uh
+
+72
+00:11:53.810 --> 00:11:57.790
+Patrik Stas: this uh the Id so interrupt Pr.
+
+73
+00:11:58.020 --> 00:12:01.199
+From gui J. V. Three P.
+
+74
+00:12:01.640 --> 00:12:03.000
+Patrik Stas: Um
+
+75
+00:12:04.090 --> 00:12:11.210
+Patrik Stas: wait. This is this is the issue. This is not for request. Um! What I was looking for is
+
+76
+00:12:19.200 --> 00:12:22.249
+Patrik Stas: Oh, that's this one. The long name
+
+77
+00:12:22.510 --> 00:12:28.970
+Patrik Stas: uh, so we have. This pr is um is having support for reading um
+
+78
+00:12:29.910 --> 00:12:31.270
+Patrik Stas: uh
+
+79
+00:12:31.470 --> 00:12:39.980
+Patrik Stas: service attribute we just which is written on the ledger in following format, and it looks uh it looks good uh
+
+80
+00:12:40.130 --> 00:12:49.310
+Patrik Stas: pretty much uh, but the the read, the new read uh, and also option to write it. This new format has been implemented
+
+81
+00:12:49.520 --> 00:12:58.040
+Patrik Stas: uh they're just some minor comments I had left about testing, and let's see
+
+82
+00:12:58.280 --> 00:13:03.310
+Patrik Stas: if that has been addressed by any chance. Oh, yeah, there has been added tests.
+
+83
+00:13:03.530 --> 00:13:20.249
+Patrik Stas: Uh, I think this something is still failing. But that's yeah. This is probably the sort of intermittent No genus uh testing issues we are having. But other than that it's passing, so i'll take a look at this uh after the call, and uh probably get this merged.
+
+84
+00:13:20.260 --> 00:13:27.210
+Patrik Stas: Is this good uh good good step forward uh towards the interoperability.
+
+85
+00:13:27.790 --> 00:13:37.770
+George Mulhearn: Um, this is basically oh, sorry I I had a question about uh about that. Pr: The changes in it. Um.
+
+86
+00:13:38.200 --> 00:13:43.539
+George Mulhearn: So this this new format uh for putting a service
+
+87
+00:13:43.570 --> 00:13:47.980
+George Mulhearn: on an Indie ledger. Um! Who?
+
+88
+00:13:49.070 --> 00:13:54.750
+George Mulhearn: I guess. Where is Where is this specified? Um to start doing it this new way.
+
+89
+00:13:54.820 --> 00:14:00.090
+Patrik Stas: Oh, so uh that there is the issue here. And uh,
+
+90
+00:14:00.550 --> 00:14:02.030
+Patrik Stas: um,
+
+91
+00:14:02.550 --> 00:14:06.160
+Patrik Stas: there's uh, yeah, It's probably this one
+
+92
+00:14:07.730 --> 00:14:08.910
+George Mulhearn: right. Yep.
+
+93
+00:14:08.990 --> 00:14:19.459
+Patrik Stas: So it's this specification uh, and particularly, and the format is to refer to it specifically. Yeah. Uh. So
+
+94
+00:14:20.050 --> 00:14:31.200
+Patrik Stas: uh, it's, you know, to write service endpoint on it. Sovereign Ledger. Uh: you should write uh you should use um get a trip.
+
+95
+00:14:38.110 --> 00:14:39.020
+Patrik Stas: Um,
+
+96
+00:14:39.660 --> 00:14:56.470
+Patrik Stas: You should write yeah, something like this which most people is writing simply just the url endpoint. But the actual format is uh a bit bigger of what what's possible to put here as it's uh explain here
+
+97
+00:14:56.480 --> 00:15:00.550
+Patrik Stas: uh, so there can be actually three sort of uh
+
+98
+00:15:00.650 --> 00:15:01.930
+Patrik Stas: three
+
+99
+00:15:02.030 --> 00:15:15.479
+Patrik Stas: attributes as the endpoint, the routing keys, in case that the message is going through some mediation and a types. Um, I think this is specified somewhere. I'm not sure if this
+
+100
+00:15:15.750 --> 00:15:18.970
+Patrik Stas: values here are explaining
+
+101
+00:15:19.260 --> 00:15:22.900
+Patrik Stas: this bank, although I would hope so.
+
+102
+00:15:24.830 --> 00:15:36.169
+Patrik Stas: Oh, okay, yeah, It's actually some of this card here. So yeah, it's It's discarded here. And yeah, we did that. Pr: Um,
+
+103
+00:15:36.200 --> 00:15:44.829
+Patrik Stas: it's implementing pretty much this stage one uh I I've outlined here where
+
+104
+00:15:44.840 --> 00:16:02.989
+Patrik Stas: when you call get service for some did. It will first try to assume that that Did has written It's service in this did so specification format, and if this spells like there's no endpoint, you know um value written.
+
+105
+00:16:03.000 --> 00:16:10.840
+Patrik Stas: Then it uh falls back to um where it tries to read the old format which looks like this. And um
+
+106
+00:16:10.970 --> 00:16:21.139
+Patrik Stas: uh, he also added a method to write this new format basically in order to be able to test it. Um,
+
+107
+00:16:21.330 --> 00:16:39.639
+Patrik Stas: So so. And the remnant. We rename the old method from add service to right and point legacy, and the new method is just simply right endpoint where it it writes that and pointed the correct yeah format. And to do that, he also created this new structure
+
+108
+00:16:39.650 --> 00:16:44.590
+Patrik Stas: uh endpoint. It's. So So this is like one to one
+
+109
+00:16:44.700 --> 00:16:48.980
+Patrik Stas: uh basically we want to on representation of
+
+110
+00:16:49.080 --> 00:16:50.310
+Patrik Stas: uh,
+
+111
+00:16:50.810 --> 00:16:58.660
+Patrik Stas: of this of this thing right here, except I just. I know this right now is actually missing the types there, so
+
+112
+00:16:59.110 --> 00:17:02.269
+Patrik Stas: we have a endpoint. We have the routing keys,
+
+113
+00:17:02.850 --> 00:17:10.969
+Patrik Stas: and uh, we are missing the type, so i'll just ask him to do it a a I edit, or perhaps I can just
+
+114
+00:17:11.099 --> 00:17:13.090
+Patrik Stas: appended additional one.
+
+115
+00:17:15.800 --> 00:17:24.379
+Patrik Stas: Yeah. And then uh, maybe just for a bit of explanation. So now we have like this uh endpoint Dixel, and this is strictly just reflecting the
+
+116
+00:17:24.780 --> 00:17:34.359
+Patrik Stas: in a sovereign ledger format. But then we have, like sort of internal representation of these things uh called
+
+117
+00:17:34.430 --> 00:17:44.550
+Patrik Stas: Harry's uh service, and i'm not sure if that's a good name, I think we'll actually maybe rename it to something like did come in point more generally
+
+118
+00:17:44.580 --> 00:17:46.590
+Patrik Stas: uh Aries
+
+119
+00:17:47.200 --> 00:17:49.320
+Patrik Stas: very service.
+
+120
+00:17:52.330 --> 00:17:54.120
+Patrik Stas: Yeah, So we have Um,
+
+121
+00:17:54.410 --> 00:18:09.100
+Patrik Stas: uh, And and this is basically the structure we are currently putting on the ledger. But it's also like the internal structure where you know the in case of that um in case of this a new structure
+
+122
+00:18:09.390 --> 00:18:10.630
+Patrik Stas: um
+
+123
+00:18:10.740 --> 00:18:14.020
+Patrik Stas: it doesn't contain recipient keys, because,
+
+124
+00:18:14.030 --> 00:18:37.599
+Patrik Stas: as a following the sovereign did method. You should like the the application or the code to understand, like, okay. It only contains this information. But if I want to like, read the recipient case, the queue which I should actually encrypt the message with I need to. I need to read the very key to that particular did on the ledger, which is not part of the attributes.
+
+125
+00:18:37.740 --> 00:18:38.890
+Patrik Stas: Uh:
+
+126
+00:18:38.950 --> 00:18:52.009
+Patrik Stas: So so yeah. So this doesn't have the but the internal structure I was referring here. Every service is like the whole thing. So this this encapsulate all the information like you need
+
+127
+00:18:52.060 --> 00:18:56.409
+Patrik Stas: to like. Um send a message somewhere.
+
+128
+00:18:56.660 --> 00:19:12.849
+Patrik Stas: Uh, so we have the endpoint. You know the routing keys, the recipient keys, and and this like the additional staff. Uh, maybe a bit of a background where this is coming from. Uh, we might this. Actually, I think we might remove this.
+
+129
+00:19:12.860 --> 00:19:23.029
+Patrik Stas: The priority uh, where it is originally originates from actually how we create this structure uh is out of band. Rc:
+
+130
+00:19:23.190 --> 00:19:27.149
+Patrik Stas: where and there was this service.
+
+131
+00:19:33.110 --> 00:19:48.759
+Patrik Stas: Oh, yeah, this is. This is kind of how we created that, I think originally. In the first place, where, in the out of band messages, you, you can in service in services, you can either specify the did of the recipient, or like the
+
+132
+00:19:48.770 --> 00:20:06.800
+Patrik Stas: the counterparty, or you can like explicitly. Just write out, embed the the kind of sending information into the services. And so then, in that case it makes sense like to sort of have priority uh
+
+133
+00:20:06.900 --> 00:20:10.829
+Patrik Stas: a among these uh fields. I think it's somewhere
+
+134
+00:20:13.190 --> 00:20:18.939
+Patrik Stas: uh okay. So I see priorities, not even here. But I know we got it from some Pr.
+
+135
+00:20:19.000 --> 00:20:23.430
+Patrik Stas: Uh from some Rfc. Uh, and i'm not sure
+
+136
+00:20:23.630 --> 00:20:25.340
+Patrik Stas: there was it.
+
+137
+00:20:25.430 --> 00:20:27.280
+Oh, I know there wasn't
+
+138
+00:20:28.160 --> 00:20:39.130
+Patrik Stas: uh, because this uh this Rfc. Is referring to a different Rc. We're. Originally this services concept was specified,
+
+139
+00:20:39.140 --> 00:20:58.770
+Patrik Stas: and this original specification, that's priority. But uh, this is actually only still proposed. So I don't think this is i'm not sure if this is valid, like. If if people are using this and other areas implementations, um doesn't find it in any accepted uh sort of Rfc. So
+
+140
+00:20:59.160 --> 00:21:12.150
+Patrik Stas: to to finish this off we might be removing this, but that this will probably stay as a sort of internal implementation of all encapsul. I think all the information needed to send a message somewhere to some did come
+
+141
+00:21:12.500 --> 00:21:26.410
+Patrik Stas: gateway, let's call it, and perhaps full rename remain this to something like um. Yeah, did come service, or did come endpoint. I'm not sure. I was thinking something on along those lines.
+
+142
+00:21:26.650 --> 00:21:29.740
+George Mulhearn: Um, because there's a
+
+143
+00:21:29.810 --> 00:21:40.900
+George Mulhearn: there's a Api in Indie uh, which is something like add service, I believe, uh, and that takes in this area service object right?
+
+144
+00:21:41.690 --> 00:22:00.600
+Patrik Stas: Uh no. It's the I think this is not in in. This is just something we created. Oh, sorry. I I mean in the in the Indie Directory. Um: Okay, Yeah, yeah, Exactly. Exactly. So. Those the the legacy methods for writing this Uh: service attribute.
+
+145
+00:22:00.910 --> 00:22:02.099
+Patrik Stas: Oh, is it?
+
+146
+00:22:05.480 --> 00:22:08.740
+Patrik Stas: Yeah, right? And put legacy?
+
+147
+00:22:08.810 --> 00:22:19.110
+Patrik Stas: Uh: yeah, This was the original method exactly. We just taken the every service, and we wrote it on the ledger, assuming that, like you know
+
+148
+00:22:19.120 --> 00:22:31.799
+Patrik Stas: well, if we can have it, an embedded in the in out of band, and I we We assume we can have it on that ledger. But it was back in the Times where this did so. Specification wasn't really defined it as a as well.
+
+149
+00:22:31.900 --> 00:22:48.640
+George Mulhearn: W Threec. Thing. So yeah, no awesome um. So you know, like the the Universal Resolver and services like that. Um, Do you know which format that resolves to? I assume it would resolve the
+
+150
+00:22:48.740 --> 00:22:51.590
+the the new one, not the legacy one. Right?
+
+151
+00:22:52.050 --> 00:23:08.330
+Patrik Stas: Uh: yeah, yeah, that that should follow the that should follow, that that should definitely be aligned with the with the specification. This is the bits of method. So after we do this uh
+
+152
+00:23:08.340 --> 00:23:20.059
+Patrik Stas: the it's A. At the services written by or endpoints written by Vc. Yanks should be what well read the Bull. The resolver.
+
+153
+00:23:21.210 --> 00:23:22.050
+Cool:
+
+154
+00:23:22.410 --> 00:23:32.220
+Patrik Stas: Yeah. So this was cool Co: work from uh, from our contributor. Uh we difficult name to pronounce. Uh. So
+
+155
+00:23:32.310 --> 00:23:51.730
+Patrik Stas: thank you. A Gy: P. Um. And yeah, then, we are getting to like the sort of the the main point here, and the pending review from from yourself, George. Uh: So I saw that you left some comments. Maybe i'll let you uh
+
+156
+00:23:51.800 --> 00:23:58.260
+Patrik Stas: um give us an update W: what's up and where we're standing.
+
+157
+00:23:58.640 --> 00:24:01.130
+George Mulhearn: Um, yeah. Yeah. So
+
+158
+00:24:01.210 --> 00:24:04.280
+George Mulhearn: I was having those issues uh
+
+159
+00:24:04.490 --> 00:24:20.079
+George Mulhearn: with the android build um lots of duplicate linking symbols and and low-level stuff that is beyond me. Um! But I put in the fix from atom. And uh,
+
+160
+00:24:20.090 --> 00:24:29.869
+George Mulhearn: yeah, Now, now, that's passing the I think the most recent check past.
+
+161
+00:24:30.570 --> 00:24:45.920
+Patrik Stas: Yeah, it it did that occasionally. Oh, but we are also clear on the android here. This might not be the most recent check. Oh, yeah, okay, Let's check more. Oh, yeah, it's green, Awesome. Awesome. That's amazing to see
+
+162
+00:24:46.030 --> 00:24:47.390
+Patrik Stas: Swedes.
+
+163
+00:24:47.770 --> 00:24:57.850
+George Mulhearn: Yeah. So it seems like, uh, the the node uh tests would sometimes flake out. Is that what you were describing before they would just
+
+164
+00:24:57.960 --> 00:25:00.030
+George Mulhearn: randomly fail.
+
+165
+00:25:00.120 --> 00:25:07.810
+Patrik Stas: Yeah, I think i'm hoping that we'll get to solve this out with a new of five, which seems to be like much better.
+
+166
+00:25:08.010 --> 00:25:09.200
+Patrik Stas: Uh,
+
+167
+00:25:10.180 --> 00:25:21.830
+Patrik Stas: there's also like this weird issue with, Yeah, if I and then just with the current, if I and just in particular. So this is probably causing some of the issues.
+
+168
+00:25:21.870 --> 00:25:38.179
+George Mulhearn: Yeah. Um: yeah. So yeah, I marked it as ready for review and sort of did a a self review of it, and left some comments uh which uh would be good to get your feedback on. Um,
+
+169
+00:25:40.250 --> 00:25:41.450
+Patrik Stas: mhm
+
+170
+00:25:41.890 --> 00:25:53.449
+George Mulhearn: um. And yeah, the only remaining thing that uh I've left to do other than resolve. Whatever comments you guys leave um is to find a good name for the
+
+171
+00:25:53.470 --> 00:26:02.249
+George Mulhearn: Xyz Directory. Um, So let me know if you can think of a good name, because I I can't, can't think of a good one.
+
+172
+00:26:03.010 --> 00:26:13.639
+Patrik Stas: Uh-huh. Yeah, i'll. I'll i'll take a um. Maybe you can just try to figure out like brains. Them right now. I'll be on the call, and we have
+
+173
+00:26:13.840 --> 00:26:18.590
+Patrik Stas: uh, so i'll check out your branch.
+
+174
+00:26:33.360 --> 00:26:37.799
+Patrik Stas: I might be
+
+175
+00:26:38.920 --> 00:26:39.950
+cool.
+
+176
+00:26:42.090 --> 00:26:47.110
+Patrik Stas: Alright, so the Xyz module the mysterious module
+
+177
+00:26:50.080 --> 00:26:51.460
+George Mulhearn: um it as well.
+
+178
+00:26:51.580 --> 00:27:04.510
+George Mulhearn: Yeah, So it's a lot of the stuff that was in the Indie Directory that wasn't really Indie specific. It was just there, I guess, for convenience has been Yeah, um,
+
+179
+00:27:05.120 --> 00:27:09.710
+George Mulhearn: uh. So it's a lot of like helper type functions. Um.
+
+180
+00:27:12.090 --> 00:27:31.299
+Patrik Stas: So this one is only creating credential. We have to call the attribute right? And then doesn't really matter which one. This is the general interface taking. That Inputs right. Right? Yeah. And uh, Yeah, See what's in Ledger? See? Ledger's got um.
+
+181
+00:27:31.520 --> 00:27:44.080
+George Mulhearn: See these methods where an Indie, but they do a lot of different things, not in these specific things. So I've moved them here. They take in a profile rather than Indie handles
+
+182
+00:27:44.240 --> 00:27:45.730
+George Mulhearn: um,
+
+183
+00:27:46.370 --> 00:27:56.969
+George Mulhearn: because you know, something like that into did dock. Uh, I think it would be a waste to have it under Indie when it's you know something more generic.
+
+184
+00:27:57.470 --> 00:27:59.370
+George Mulhearn: Yeah. Yeah, yeah,
+
+185
+00:28:00.900 --> 00:28:05.009
+Patrik Stas: yeah, primitives as well are a pretty big one.
+
+186
+00:28:05.680 --> 00:28:17.940
+Patrik Stas: Yeah, these things are like red. Those those are those internal sort of ares a race, if you're structures, and through C, and these are,
+
+187
+00:28:18.470 --> 00:28:21.639
+Patrik Stas: let me see, for an internal,
+
+188
+00:28:22.470 --> 00:28:32.619
+Patrik Stas: and this is also shared between both of the Oh, okay, I see. I see. Yeah. So let's see how
+
+189
+00:28:32.670 --> 00:28:34.689
+Patrik Stas: I don't know. Maybe we can just
+
+190
+00:28:34.870 --> 00:28:40.829
+Patrik Stas: and go with like a boring name like a month or something like that.
+
+191
+00:28:40.870 --> 00:28:43.820
+Patrik Stas: If we don't, if we don't, call it something like
+
+192
+00:28:45.210 --> 00:28:46.310
+Patrik Stas: um
+
+193
+00:28:47.540 --> 00:28:49.130
+Patrik Stas: specific
+
+194
+00:28:49.610 --> 00:29:08.759
+Patrik Stas: or like. Yeah, I think I don't really have idea, because like that, it's kind of like different sort of areas like it's, credentials, larger proof signing tests. You Also, I think we can go with like miss or a common
+
+195
+00:29:09.770 --> 00:29:13.299
+George Mulhearn: uh something like that. Okay,
+
+196
+00:29:13.680 --> 00:29:14.630
+George Mulhearn: cool,
+
+197
+00:29:16.850 --> 00:29:18.590
+George Mulhearn: cool. Okay, Thank you.
+
+198
+00:29:18.890 --> 00:29:23.439
+Patrik Stas: Hmm. And then yeah, this this fork. Uh:
+
+199
+00:29:23.710 --> 00:29:41.550
+Patrik Stas: Oh, yeah. Did you see my comment about that? Oh, I didn't notice the I didn't notice the total uh comments. Oh, no, I just I just added it in after you come in. Uh: Okay, Okay, so that that would be in the in the
+
+200
+00:29:46.270 --> 00:29:47.819
+Patrik Stas: This is one one
+
+201
+00:29:49.630 --> 00:29:52.409
+Patrik Stas: that's all this one. You know
+
+202
+00:29:52.990 --> 00:29:54.810
+Patrik Stas: It's not the one
+
+203
+00:29:55.080 --> 00:29:56.849
+Patrik Stas: so many stuff here.
+
+204
+00:29:58.020 --> 00:30:04.999
+Patrik Stas: Alright? This is it? Oh, okay, I see. I see. Oh, that that's good.
+
+205
+00:30:05.060 --> 00:30:06.320
+Patrik Stas: Uh,
+
+206
+00:30:06.360 --> 00:30:24.889
+George Mulhearn: I are you are you? What about the some sort of pr Do you plan to or like? Have you talked with the Maintainer of the in the shared Rs? If you could, if they could take in your changes. Yeah, um. So I left the I've I've left an issue with them. Um,
+
+207
+00:30:25.340 --> 00:30:32.980
+George Mulhearn: my change. It's it's definitely not a a permanent change that they would want. Um, so
+
+208
+00:30:33.460 --> 00:30:37.530
+George Mulhearn: I guess, to to summarize it. Um,
+
+209
+00:30:37.700 --> 00:30:51.510
+George Mulhearn: within Indie shared Rs is a lot of different dependencies. So there's uh it has like four different projects in that. There's Indie in the data types uh and Indie credits, which is the one we care about.
+
+210
+00:30:51.550 --> 00:31:06.990
+George Mulhearn: Um. But Indie credits uses uh from the from the cargo workspace it uses uh in the details and Indie data types. Um, and they all kind of have weird dependencies on each other, where
+
+211
+00:31:07.000 --> 00:31:25.740
+George Mulhearn: it happens that if you have an Ursa dependency of zero point three point seven. It causes, uh, some of the dependencies of Indie data types and in the utils to misalign in A, in a breaking
+
+212
+00:31:25.750 --> 00:31:30.760
+Patrik Stas: error. Error Messages:
+
+213
+00:31:30.780 --> 00:31:34.899
+George Mulhearn: Yeah. Yeah. So So yeah, my
+
+214
+00:31:35.240 --> 00:31:41.210
+George Mulhearn: my quick fix to that. Um, basically This is all happening, because uh,
+
+215
+00:31:41.230 --> 00:31:43.150
+George Mulhearn: within,
+
+216
+00:31:43.940 --> 00:31:52.689
+George Mulhearn: where is it? I think, within credits, they're forcing us to be exactly version zero point three point six.
+
+217
+00:31:52.920 --> 00:32:11.409
+George Mulhearn: Hmm. Yeah. Yeah. Lib: video tools is uh zero point, three point seven. So the quick fix is to release that and just say, zero point three point six, so such that it has the dependency. It has the freedom to upgrade itself to zero point three point seven.
+
+218
+00:32:11.420 --> 00:32:28.610
+George Mulhearn: Um, but that's not a permanent fix. That uh the Indie shared. Rs guys would want because they've purposely um hard coded it to zero point three point six, because of some specific error. They found in three seven.
+
+219
+00:32:28.620 --> 00:32:34.480
+George Mulhearn: But it seems like we aren't affected by that issue. Um.
+
+220
+00:32:35.030 --> 00:32:36.090
+George Mulhearn: So
+
+221
+00:32:36.710 --> 00:32:45.100
+George Mulhearn: yeah. And if we are affected by that issue, then live via tools is also going to be affected by it. Um
+
+222
+00:32:45.520 --> 00:32:49.709
+solution will be to downgrade uh
+
+223
+00:32:50.860 --> 00:32:53.460
+Patrik Stas: downgrade. The
+
+224
+00:32:54.380 --> 00:32:58.790
+Patrik Stas: we were assigned Vdr tools to the zero hundred and thirty-six,
+
+225
+00:32:59.240 --> 00:33:00.700
+Patrik Stas: possibly
+
+226
+00:33:01.250 --> 00:33:03.370
+George Mulhearn: in
+
+227
+00:33:05.170 --> 00:33:07.139
+George Mulhearn: Nvidia tools. Do you say,
+
+228
+00:33:07.280 --> 00:33:23.959
+Patrik Stas: Yeah, yeah, yeah, that that might be a solution as well, um or or then maybe the other way would be something else. Kind of thing. I was suggesting a A over the discord in regard to the underwrite issue, like maybe, if uh
+
+229
+00:33:23.970 --> 00:33:33.729
+Patrik Stas: those dependencies, you know, Vdr. Tools and in the shared rs are sort of exclusive dependencies based on some um
+
+230
+00:33:35.550 --> 00:33:48.639
+Patrik Stas: like feature flag, feel like cargo feature. Then you would always have either one or the other, and they'll, perhaps, you know, avoid the conflicts like this. Yeah. Would. Yeah.
+
+231
+00:33:49.740 --> 00:33:55.299
+George Mulhearn: Um. I understood why this is needed.
+
+232
+00:33:55.950 --> 00:34:00.590
+George Mulhearn: Yeah, So I've I've left like a a link to the issue. Um
+
+233
+00:34:00.720 --> 00:34:03.080
+George Mulhearn: on the Indy shed rs and
+
+234
+00:34:03.110 --> 00:34:07.929
+George Mulhearn: potentially how we're gonna resolve it in the future. Um,
+
+235
+00:34:08.170 --> 00:34:14.280
+George Mulhearn: But yeah, it, it's literally a one line change in that Um. And that folk I have
+
+236
+00:34:14.590 --> 00:34:16.519
+Patrik Stas: Mhm Mhm okay,
+
+237
+00:34:16.969 --> 00:34:18.409
+Patrik Stas: uh,
+
+238
+00:34:19.120 --> 00:34:21.239
+Patrik Stas: then. Um,
+
+239
+00:34:22.389 --> 00:34:40.349
+George Mulhearn: Oh, yeah. So part of uh, one of the changes I made was to make a new step in the uh in the Github uh pipelines, and that's to run the integration tests in the you know, in the modular mode, in the non indie mode
+
+240
+00:34:40.679 --> 00:34:50.360
+George Mulhearn: um, And so I have that at the moment as a whole, another um step in the pipeline. Uh, and I was wondering if
+
+241
+00:34:50.840 --> 00:34:53.899
+George Mulhearn: I could make it more efficient. And you know, sort of
+
+242
+00:34:54.530 --> 00:34:59.829
+George Mulhearn: combine the two uh integration tests. So Yeah. So that's the new one.
+
+243
+00:34:59.890 --> 00:35:13.980
+Patrik Stas: Yeah, this is, uh, you know. Actually, I feel like we need to kind of re rewrite. I'm: i'm not sure. I have. I have that feeling like this whole code coverage. Um approach. It can be improved.
+
+244
+00:35:14.080 --> 00:35:15.520
+Patrik Stas: This feels
+
+245
+00:35:15.550 --> 00:35:20.449
+Patrik Stas: feels very inefficient that we are, for example, running general tests like um.
+
+246
+00:35:20.680 --> 00:35:26.019
+Patrik Stas: You know the unit test twice, Once we were just running normally. And then second time, we run it
+
+247
+00:35:26.030 --> 00:35:45.810
+Patrik Stas: for the cold coverage. Yeah, yeah, Exactly. Because I think it's like two steps like one where we actually okay, we we around the unit as with cool coverage and then a second step is, it would be just like to just upload that code coverage which often fails. By the way, that's why I think maybe originally.
+
+248
+00:35:45.820 --> 00:36:04.670
+Patrik Stas: Uh we have like, put it like in a separate step. It was like easy. May is like a lazyier solution, because we knew that okay code coverage is failing often because of the code coverage uploads. But yeah, I think it should be like mo modularized and split out kind of
+
+249
+00:36:04.880 --> 00:36:05.740
+George Mulhearn: Hmm.
+
+250
+00:36:06.960 --> 00:36:11.790
+Patrik Stas: You don't have to, You know. I think you don't have to worry. Um. You can just
+
+251
+00:36:11.850 --> 00:36:23.930
+Patrik Stas: do it. I think it's fine the way you did it. It just called the approach uh already used. But yeah, I think this can be like improved across the line. All this coverage jobs.
+
+252
+00:36:24.910 --> 00:36:27.219
+George Mulhearn: Yeah, Because I I didn't,
+
+253
+00:36:27.330 --> 00:36:33.080
+George Mulhearn: you know how there's a separate. There's integration tests, and then there's integration tests with coverage.
+
+254
+00:36:33.420 --> 00:36:36.590
+Patrik Stas: I've only done the
+
+255
+00:36:36.760 --> 00:36:47.050
+George Mulhearn: coverage integration test. I didn't do the integration test. Um, just because you know, if if the coverage integration tests fail while testing
+
+256
+00:36:47.290 --> 00:36:50.160
+George Mulhearn: uh, that'd be just as good.
+
+257
+00:36:50.940 --> 00:36:55.459
+George Mulhearn: Yeah, it's just It's just that I You know
+
+258
+00:36:55.670 --> 00:37:14.680
+Patrik Stas: exactly as you say, there's just like this. One risk is that now, you know, if you like, The rest of the pipeline like depends on this coverage job, and uh, and this fail like this often fails, because, like I, just the the the website. Uh, I don't know what's name of that portal The code costs.
+
+259
+00:37:14.690 --> 00:37:15.929
+Patrik Stas: What is it,
+
+260
+00:37:16.010 --> 00:37:17.600
+Patrik Stas: you know. Um,
+
+261
+00:37:17.900 --> 00:37:19.969
+Patrik Stas: this thing. Hmm.
+
+262
+00:37:20.660 --> 00:37:38.490
+Patrik Stas: Uh code called the Dial. Sometimes it returns, you know, five hundred or four hundred or something like that, and it fails. Then then it sells the entire job. And even though you know, everything ran fine, the test pass. This last thing fails. But yeah, we should just separate it down. So
+
+263
+00:37:38.500 --> 00:37:50.949
+Patrik Stas: I think it's fine the way you didn't know. I think we can put it like on a like a list of on near term improvements for the Ci and sort this out for for for
+
+264
+00:37:51.520 --> 00:37:53.640
+Patrik Stas: for for for definite,
+
+265
+00:37:55.400 --> 00:37:56.549
+George Mulhearn: Okay, cool,
+
+266
+00:37:56.920 --> 00:37:57.950
+George Mulhearn: cool.
+
+267
+00:37:58.150 --> 00:38:03.829
+Patrik Stas: Okay, Um. Going through.
+
+268
+00:38:04.010 --> 00:38:06.399
+Patrik Stas: Uh: Oh, yeah,
+
+269
+00:38:06.650 --> 00:38:10.270
+George Mulhearn: um. That one that come in just above
+
+270
+00:38:10.510 --> 00:38:12.569
+George Mulhearn: about the mud of the wallet.
+
+271
+00:38:12.870 --> 00:38:26.290
+George Mulhearn: Um, yeah. So so module wallet profile is an implementation of a profile which uses Indivia and Indie credits uh plus any any wallet that you give it.
+
+272
+00:38:26.890 --> 00:38:36.960
+George Mulhearn: Right. So the whole idea is you can plug in any wallet. It could be an indie world, or an ascar wallet, or you know, an in-memory wallet. Any type of
+
+273
+00:38:37.550 --> 00:38:41.569
+George Mulhearn: and i've called it modular wallet profile, and
+
+274
+00:38:41.620 --> 00:38:45.450
+George Mulhearn: i'm not sure do you have a a better naming suggestion for
+
+275
+00:38:45.510 --> 00:38:47.259
+George Mulhearn: what I'm trying to convey.
+
+276
+00:38:47.610 --> 00:38:54.489
+Patrik Stas: Hmm. Yeah, I I don't really have anything on top of my moment, but it sounds pretty.
+
+277
+00:38:54.620 --> 00:39:13.569
+Patrik Stas: Some sounds pretty accurate, and I mean pro with the profile posts. It's along with the other was prof profile like Idea you it it! And then I think, module what the wallet is like uh fine name for this. So I don't have any
+
+278
+00:39:13.580 --> 00:39:29.099
+Patrik Stas: objection for the name in here. Okay, uh, yeah, this is. This is good command. I I noticed this recently when um uh, when I was in the Pr. And it was it was Yeah, it was um a strange uh find.
+
+279
+00:39:29.110 --> 00:39:42.909
+Patrik Stas: I also don't know uh why it was one hundred. I think it's a originally brought from the All the way from, you know, Libya six times. It just never got like attention or a good modified. But um,
+
+280
+00:39:43.310 --> 00:39:46.600
+Patrik Stas: yeah, The The new value we are passing now
+
+281
+00:39:46.620 --> 00:39:49.410
+Patrik Stas: that we probably from like some previous.
+
+282
+00:39:49.440 --> 00:39:51.320
+Patrik Stas: Uh, let's see.
+
+283
+00:39:55.120 --> 00:39:58.129
+Patrik Stas: Uh, there will be line thirty, two
+
+284
+00:39:58.960 --> 00:40:00.550
+Patrik Stas: time stamped,
+
+285
+00:40:02.750 --> 00:40:07.860
+Patrik Stas: and this time stamp is coming from some previous, I think. Call
+
+286
+00:40:13.040 --> 00:40:16.259
+Patrik Stas: Yeah. So you can change that to.
+
+287
+00:40:16.400 --> 00:40:24.670
+Patrik Stas: Yeah, Yeah, I I was. I was looking exactly. I think it should be coming from a both. I was looking just a week ago at this,
+
+288
+00:40:24.820 --> 00:40:28.779
+Patrik Stas: when I noticed this weird thing in the atmosphere. Um!
+
+289
+00:40:29.150 --> 00:40:46.700
+Patrik Stas: And uh, and I checked the how Aj guys are doing it, and they are taking it uh, exactly from from this call, I think, but we can double check it. But I think that should be right. Okay, yeah, yeah, I didn't. I didn't think to check. Fj: Okay, i'll double check
+
+290
+00:40:46.790 --> 00:40:48.300
+George Mulhearn: and then change it.
+
+291
+00:40:50.520 --> 00:40:56.059
+Patrik Stas: Uh: Yeah, that's naming. So that's fine.
+
+292
+00:40:56.600 --> 00:41:06.329
+Patrik Stas: Yeah, we already covered this one. And we have one more. One more comment Uh: this is Oh, yeah, that's resolved. Now.
+
+293
+00:41:06.550 --> 00:41:08.970
+Patrik Stas: Oh, yeah, Oh, okay,
+
+294
+00:41:09.570 --> 00:41:12.369
+Patrik Stas: I suggest, remove Zoom Q. One third
+
+295
+00:41:14.620 --> 00:41:17.490
+Patrik Stas: Uh: yeah, actually,
+
+296
+00:41:17.830 --> 00:41:34.260
+Patrik Stas: yeah, it's really good that he found that just a one-line fix. Yeah, How? Sometimes it's like it's really simple. Just need to know what to do right most of the time can still take hours to figure out
+
+297
+00:41:35.780 --> 00:41:56.670
+Patrik Stas: awesome, awesome. This is really awesome. I was also testing I, you know I I, as I texted you, I I was testing all this on our stuff, our internal stuff, and you know, with the the in Dvdr profile from Nodejs, which is by default uh, and it and it's all you know. It's running fine. So
+
+298
+00:41:56.680 --> 00:41:57.680
+George Mulhearn: great
+
+299
+00:41:58.550 --> 00:42:02.249
+George Mulhearn: Is there additional testing from there?
+
+300
+00:42:02.410 --> 00:42:15.120
+George Mulhearn: Um, yeah, what else? Uh, I think I think coverage is going down one point five percent. Um, that's fine. Uh, is that coverage?
+
+301
+00:42:15.460 --> 00:42:29.449
+Patrik Stas: I'm not it. Yeah, I I mean, it's not. It's not great either way. I think this is a false numbers, because yeah, I think
+
+302
+00:42:29.750 --> 00:42:36.699
+Patrik Stas: i'm, i'm not one hundred percent, sure, if, like, the coverage is really correctly calculated uh,
+
+303
+00:42:37.020 --> 00:42:55.049
+Patrik Stas: cause I feel like it should be more than sixty actually, especially like with the integration test, or maybe maybe just. I'm notly optimistic. I think I think it also W. W. With, along with the refactoring of the Ci, and doing, you know, upholding the coverage,
+
+304
+00:42:55.060 --> 00:42:59.479
+Patrik Stas: I think it would be also good to take a look like if uh,
+
+305
+00:42:59.760 --> 00:43:08.759
+Patrik Stas: if uh, if it's really like correct and kind of check check. If the desk are matching the the stuff on the coastal, I for sure.
+
+306
+00:43:10.400 --> 00:43:18.230
+Patrik Stas: Uh yeah. So I guess I guess. Uh that's it for this be all right for now.
+
+307
+00:43:20.020 --> 00:43:23.100
+George Mulhearn: Um, yeah, in in terms of changes,
+
+308
+00:43:23.320 --> 00:43:28.829
+Patrik Stas: like in terms of like, uh, just just discussion. Now, if there's anything else
+
+309
+00:43:32.160 --> 00:43:38.340
+Patrik Stas: right? So yeah, that would be this. So I think hopefully,
+
+310
+00:43:39.440 --> 00:43:41.850
+Patrik Stas: I don't think Well,
+
+311
+00:43:42.300 --> 00:43:47.899
+Patrik Stas: i'm thinking we can score it if we if we can. If we can merge it this week,
+
+312
+00:43:47.990 --> 00:44:04.360
+Patrik Stas: basically I mean um, I I think I still want to go through it. But, uh, I don't really expect to find like uh many things from what I've seen I mean, everything's working, and and um, it's It's tested, and all this stuff so.
+
+313
+00:44:04.580 --> 00:44:08.609
+Patrik Stas: But but i'll go through it just in case I wouldn't find some comments.
+
+314
+00:44:09.010 --> 00:44:14.200
+George Mulhearn: Oh, yeah, yeah, leave us leave as many comments as you need. Um. Oh,
+
+315
+00:44:14.250 --> 00:44:16.200
+George Mulhearn: i'll yeah get through them all,
+
+316
+00:44:16.250 --> 00:44:33.930
+Patrik Stas: and maybe maybe if there's not much stuff, maybe we can manage it this way, but I feel like probably more realistic. They will be like next week. Yeah, especially. Well, here's a one question. Um.
+
+317
+00:44:34.270 --> 00:44:49.830
+Patrik Stas: Would you be okay with um merging this stuff first, because uh you like you are. Now, I think this will cause conflicts because you moved uh with the dip of uh, pr from
+
+318
+00:44:50.560 --> 00:44:52.529
+Patrik Stas: uh, Gy:
+
+319
+00:44:52.710 --> 00:44:54.080
+Patrik Stas: Uh:
+
+320
+00:44:54.760 --> 00:45:09.600
+Patrik Stas: yeah, this one. I think this will gonna cost some conflicts as you move some of the some of the code to the xyz um in regard to the ledger, and you know I think it will be
+
+321
+00:45:09.630 --> 00:45:22.569
+Patrik Stas: uh as sorry as I feel for me. Can you do more base. Uh, I think you're more at this point your more experience than uh, you know. Uh for now,
+
+322
+00:45:22.580 --> 00:45:40.630
+Patrik Stas: and maybe he might be more challenging for him to kind of, you know. Understand where he should put it and how to how to, you know. Uh, understand those profiles and stuff like this. Yeah, fair enough. Um! May one question around that if if you open up my code again
+
+323
+00:45:40.690 --> 00:45:43.479
+Patrik Stas: Mhm oh, my branch
+
+324
+00:45:48.500 --> 00:45:51.109
+George Mulhearn: um, and and go to
+
+325
+00:45:52.310 --> 00:45:53.959
+George Mulhearn: uh,
+
+326
+00:45:54.470 --> 00:45:57.170
+George Mulhearn: if you go to base ledger
+
+327
+00:45:58.110 --> 00:46:00.870
+George Mulhearn: um, which will be on the plugins.
+
+328
+00:46:02.190 --> 00:46:05.229
+Patrik Stas: Then the files change um base
+
+329
+00:46:09.320 --> 00:46:11.740
+George Mulhearn: uh with the on the school yet.
+
+330
+00:46:15.700 --> 00:46:16.609
+Patrik Stas: Yeah,
+
+331
+00:46:21.130 --> 00:46:30.320
+George Mulhearn: um. So there's a method in here, which is add service which
+
+332
+00:46:30.790 --> 00:46:44.880
+George Mulhearn: maps to, you know. I guess the legacy one. Um would you say the right approach would be to call this one add a legacy service, or whatever it was called, and then make a new function as well called.
+
+333
+00:46:45.210 --> 00:46:46.399
+George Mulhearn: Um,
+
+334
+00:46:48.640 --> 00:46:51.729
+Patrik Stas: Yeah, I would. I would suggest to.
+
+335
+00:46:51.760 --> 00:46:57.410
+Patrik Stas: So you have. I have like two methods kind of like reflecting the maintenance.
+
+336
+00:46:58.460 --> 00:47:02.239
+Patrik Stas: So let's go here. Uh, so there's now two methods
+
+337
+00:47:02.250 --> 00:47:19.550
+Patrik Stas: right and point right and on legacy. And this didn't change. This is the same. Okay. So so I would. Yeah, I would. I would suggest that the current at service you would bring me to the legacy and add one more,
+
+338
+00:47:19.560 --> 00:47:32.230
+Patrik Stas: and then eventually, like once we can like fully deprecate this. We can remove it from the trade, and from all the code base, and we'll just end up with this piece in the in the interface.
+
+339
+00:47:32.560 --> 00:47:38.699
+Patrik Stas: Okay, Great cool. And I think, since you're like like a mobile like, since you're
+
+340
+00:47:39.670 --> 00:47:50.670
+Patrik Stas: in the in the modular sort of code, the implementation you, I think we are not implementing this anyway, right? Because this is our moral issue or concern.
+
+341
+00:47:51.630 --> 00:48:00.280
+George Mulhearn: Yeah, yeah, except for you know, the Indie implementation maps to
+
+342
+00:48:00.770 --> 00:48:05.700
+Patrik Stas: uh. So I think I might have. Actually, i'm out of
+
+343
+00:48:05.920 --> 00:48:09.859
+George Mulhearn: uh, yeah, I don't know. I'll figure it out.
+
+344
+00:48:12.050 --> 00:48:26.730
+George Mulhearn: Hmm. Well, are you sure, or is there something you want to say? Oh, I was just. I was wondering whether I did implement the ad service for Indivia. I can't remember.
+
+345
+00:48:27.280 --> 00:48:36.769
+George Mulhearn: Maybe I didn't. Oh, you actually did. Okay, yeah, what it should be. No worries. Um,
+
+346
+00:48:37.890 --> 00:48:44.219
+Patrik Stas: Hmm. Yeah, I mean It's uh. It's quite a trivial right? It's just all different.
+
+347
+00:48:45.920 --> 00:48:47.750
+Patrik Stas: Okay, No.
+
+348
+00:48:48.610 --> 00:48:53.489
+Patrik Stas: Uh yeah. So that's that's That's it. I guess. And uh.
+
+349
+00:48:53.520 --> 00:49:04.930
+Patrik Stas: As for the upcoming work, this uh, obviously these are its kind of priorities. Uh, and also it'll be good to like
+
+350
+00:49:05.160 --> 00:49:06.470
+Patrik Stas: uh
+
+351
+00:49:08.280 --> 00:49:17.000
+Patrik Stas: like this, even like step further afterwards. The interop. So we would wait. Is there still something missing from when I
+
+352
+00:49:19.350 --> 00:49:23.109
+Patrik Stas: open up the issue itself?
+
+353
+00:49:24.190 --> 00:49:25.520
+Uh: so
+
+354
+00:49:30.370 --> 00:49:31.870
+Patrik Stas: and
+
+355
+00:49:32.940 --> 00:49:35.610
+Patrik Stas: basically also the writing
+
+356
+00:49:36.370 --> 00:49:42.220
+Patrik Stas: so, and kind of skipped over this step. One point five, which I think is totally fine.
+
+357
+00:49:43.340 --> 00:49:48.160
+Patrik Stas: So maybe the entire issue can be considered as
+
+358
+00:49:48.600 --> 00:49:49.879
+Patrik Stas: done,
+
+359
+00:49:50.100 --> 00:49:51.549
+Patrik Stas: I suppose.
+
+360
+00:49:51.970 --> 00:49:52.919
+George Mulhearn: Cool:
+
+361
+00:49:53.720 --> 00:50:09.019
+Patrik Stas: Yeah. Okay. Okay. Uh: So I think that will be That's good. Yeah. So once we have this in um, we can actually uh extend our Aries agent tests harness
+
+362
+00:50:09.170 --> 00:50:14.720
+Patrik Stas: uh this suits which are enabled, and we can start running out of band tests
+
+363
+00:50:14.870 --> 00:50:16.490
+Patrik Stas: uh
+
+364
+00:50:16.800 --> 00:50:23.450
+Patrik Stas: that's to should again like pretty much increase the uh our interrupt coverage. And
+
+365
+00:50:23.690 --> 00:50:26.009
+Patrik Stas: yeah, I mean, these these things are.
+
+366
+00:50:26.460 --> 00:50:32.580
+Patrik Stas: It's pretty important for for interrupt the auto band is like the almost like uh
+
+367
+00:50:34.010 --> 00:50:40.889
+Patrik Stas: first-class citizen, I would say, for the real world use cases as you always want to have a Qr code somewhere.
+
+368
+00:50:40.980 --> 00:50:47.320
+Patrik Stas: Uh, but yeah, then then other than that like uh the thing I have in mind for the
+
+369
+00:50:47.330 --> 00:51:06.080
+Patrik Stas: work in the future would be like. Eliminate the usage of public agent in tests. So I don't know if anyone's using it. I'll be asking on this start, but I believe that most since most people are doing mobile with these.
+
+370
+00:51:06.090 --> 00:51:10.520
+Patrik Stas: Uh, So Yeah, I would like to get rid of this entire thing
+
+371
+00:51:10.560 --> 00:51:14.239
+Patrik Stas: uh, which basically used to serve
+
+372
+00:51:14.330 --> 00:51:19.990
+Patrik Stas: the The point of this uh thing was uh to be able to receive
+
+373
+00:51:20.170 --> 00:51:38.439
+Patrik Stas: uh messages as an institution into the V. Six Agency, no mediator. And then just download those messages from there. So things like connection requests like this initial messages. When somebody wants to reach out to institution, they would uh send it to this
+
+374
+00:51:38.560 --> 00:51:46.129
+Patrik Stas: kind of a mailbox in the V Six Agency. No? Then we don't really uh, we don't really need this anymore.
+
+375
+00:51:46.140 --> 00:52:04.059
+Patrik Stas: So uh, and probably can be done like in a more module approach. As this is again like tied up with the V Six Agency. Note um implementation, and we kind of want to uh do worse. These two things uh as independent
+
+376
+00:52:04.260 --> 00:52:06.959
+Patrik Stas: uh code bases. Um!
+
+377
+00:52:07.460 --> 00:52:13.720
+Patrik Stas: So we like to get rid of this uh, and but the thing is this is used. Uh, I think, in
+
+378
+00:52:14.680 --> 00:52:21.929
+Patrik Stas: some tests Here it's in in that set of agent. But there's There's probably a number of tests.
+
+379
+00:52:21.980 --> 00:52:28.659
+Patrik Stas: It's not many, Maybe so. We would like to get rid of it, and Obviously we have to get rid of the tests,
+
+380
+00:52:28.670 --> 00:52:43.140
+Patrik Stas: which will be maybe a little bit challenging, or like we'll have to be bit of a creative work like how to replace the public agents, to still be able to write those tasks. But no, this public agent, so
+
+381
+00:52:43.150 --> 00:52:56.260
+Patrik Stas: uh this might be a bit of a challenge. But there's it probably won't be too much of hard work across too many lines of code, so that's good, and the similar uh similar thing with a mediated connection which is being still used
+
+382
+00:52:56.270 --> 00:53:06.239
+Patrik Stas: in many tests, and the same sort of challenge. Uh, we'll have to figure out like once we don't get rid of that
+
+383
+00:53:06.270 --> 00:53:22.740
+Patrik Stas: that we see, they just announced, and we have like two parties in integration test. They still need to be exchanging messages. But the question is, What sort of channel is that gonna be? Is it gonna be? Are we going to spin up like two Http: Http: servers in the test
+
+384
+00:53:22.750 --> 00:53:33.120
+Patrik Stas: and just uh exchange messages between them. Or maybe it could be through that sort of in memory uh
+
+385
+00:53:33.130 --> 00:53:44.509
+Patrik Stas: uh communication channels, or something like that. So this will be the bit of a small challenge to figure out it first, but then it should be pretty much a mechanic award
+
+386
+00:53:44.560 --> 00:53:45.890
+Patrik Stas: after that.
+
+387
+00:53:46.340 --> 00:53:50.850
+Patrik Stas: Then then another item I had in mind was um
+
+388
+00:53:51.080 --> 00:54:05.169
+Patrik Stas: to start treating the did document as a first class citizen. So right now we work. Oftentimes we work with this Aries um
+
+389
+00:54:05.270 --> 00:54:07.109
+Patrik Stas: every service
+
+390
+00:54:07.310 --> 00:54:08.589
+Patrik Stas: uh
+
+391
+00:54:08.670 --> 00:54:26.279
+Patrik Stas: where perhaps we should really be thinking rather in terms of uh ddo instead of some areas service, I mean, because every so the video itself. It contains all the information to communicate to someone, and every service is
+
+392
+00:54:26.940 --> 00:54:42.200
+Patrik Stas: kind of subset of that. So I feel like we should. There. There can be some sort of refactoring a done where we what? Where we use less of a service structure and more of a D video.
+
+393
+00:54:42.790 --> 00:54:47.919
+Patrik Stas: Uh, for example. Yeah, I think, like the first thing I would like to do uh
+
+394
+00:54:48.390 --> 00:54:52.299
+Patrik Stas: he is in that get service.
+
+395
+00:54:55.080 --> 00:54:56.290
+Patrik Stas: No, no,
+
+396
+00:55:08.050 --> 00:55:22.669
+Patrik Stas: yeah. In this gets service. And I thought, we are currently returning uh every service. But what I would rather have is implement some sort of uh Mdd. Uh ddo resolver.
+
+397
+00:55:22.700 --> 00:55:41.930
+Patrik Stas: Uh, for you know, with similar interface, you past it and you get the get out video as a as the first class citizen structure. And maybe if we happen to need, like every service, some sort of subset we can then have, like, I don't know, extract or convert that deal to every service. But,
+
+398
+00:55:42.070 --> 00:55:58.059
+Patrik Stas: uh, yeah, I think we should have some sort of video resolver as a as a way of interacting with the ledger. What do you think uh in charge of this stuff Doesn't: Make: Yeah, Yeah, yeah, that makes sense. Um, there is. Uh
+
+399
+00:55:58.370 --> 00:56:07.150
+George Mulhearn: into. Did, Doc. Um, What does? What does that method return, do you? Yeah, that's also a little bit ugly in line.
+
+400
+00:56:07.300 --> 00:56:10.279
+Patrik Stas: My room into the dog.
+
+401
+00:56:12.260 --> 00:56:19.490
+Patrik Stas: Yeah, Yeah. And that's pretty weird. Uh: That's not like the invitation invitation to the dog. I mean
+
+402
+00:56:19.520 --> 00:56:27.430
+Patrik Stas: it. In some sense it's possible, and you can do it. But it's a strange and from face Yeah, Yeah,
+
+403
+00:56:27.480 --> 00:56:31.349
+yeah, yeah. Resolving it did. That could be cool from the did.
+
+404
+00:56:32.040 --> 00:56:51.580
+Patrik Stas: Hmm. Hmm. Yeah. So this will be definitely like um A will work of um opportunity for anyone to work uh, or you know myself or anybody else. I think i'll create the issue for this. Try to describe the problem. And uh, with some like specific
+
+405
+00:56:51.810 --> 00:57:03.709
+Patrik Stas: hmm action, implementation action steps which can be done. Probably one will be this implementation and the then the other one will be at this thing to return some video.
+
+406
+00:57:03.780 --> 00:57:08.229
+Patrik Stas: And then maybe third thing as a maybe even uh,
+
+407
+00:57:08.400 --> 00:57:27.840
+Patrik Stas: uh, first in the order uh to create some sort of video resolver interface and then have implementation for that, and then into your right. Once we have, like video resolver, like like a like a trade, then we can Also, we can almost like start to
+
+408
+00:57:28.260 --> 00:57:42.570
+Patrik Stas: we, we we start to go in a direction of being ledgering dependent. Because then you don't really care about the ledger anymore, and you can resolve video from any ledger right? So it could actually write
+
+409
+00:57:43.360 --> 00:57:49.640
+Patrik Stas: right the did on uh on some arbitrary um
+
+410
+00:57:50.190 --> 00:57:51.379
+Patrik Stas: planes,
+
+411
+00:57:51.520 --> 00:58:06.229
+Patrik Stas: and still, like, receive every messages and perform, did come, even though maybe not like foridental exchange. Is that still tied in the But you can at least like, do it. Come, if you have generic video resolver.
+
+412
+00:58:07.670 --> 00:58:14.200
+George Mulhearn: Yeah, Yeah, I think I think Afj: does. Uh: did Web did solve, Did Pierre
+
+413
+00:58:14.300 --> 00:58:19.519
+George Mulhearn: and a few others? And they have, like a generic, did resolve a interface.
+
+414
+00:58:19.770 --> 00:58:22.900
+Patrik Stas: Yeah, Yeah, that that makes sense. Definitely.
+
+415
+00:58:28.070 --> 00:58:40.340
+Patrik Stas: All right. So I think this this is some uh space for improvement. Uh: And then, yeah, I was just. This is kind of a refactoring I was thinking that
+
+416
+00:58:40.550 --> 00:58:58.820
+Patrik Stas: there's many places where we work with. I I think we already mentioned this in previous call. There's many places where we work with um string or str where it'll be really nice to rather have here the id. But we we we do that only in
+
+417
+00:58:59.140 --> 00:59:16.179
+Patrik Stas: uh some methods, but not everywhere. Or sometimes we passed like endpoint url, and it's against ring, while it could be some Url type, so we could be much more um safe at compile time than we are right now.
+
+418
+00:59:19.470 --> 00:59:31.040
+Patrik Stas: Uh, yeah, And I guess this is like all the things I had in mind. Uh, do you have any thoughts about like things you would um like to see improved, uh,
+
+419
+00:59:31.440 --> 00:59:36.829
+Patrik Stas: you know, going forward, or some, maybe a things you would like to focus
+
+420
+00:59:37.480 --> 00:59:41.729
+Patrik Stas: um on after getting the the the
+
+421
+00:59:42.830 --> 00:59:45.629
+Patrik Stas: the modular pr merge.
+
+422
+00:59:46.090 --> 00:59:47.649
+George Mulhearn: Hmm, um,
+
+423
+00:59:49.140 --> 00:59:56.210
+George Mulhearn: I guess I guess. Uh going forward uh after after my Pr. Um!
+
+424
+00:59:56.670 --> 00:59:59.209
+George Mulhearn: I guess the next sort of things that
+
+425
+00:59:59.260 --> 01:00:04.399
+George Mulhearn: uh we'll be interested in that that anonymous um,
+
+426
+01:00:04.690 --> 01:00:13.489
+George Mulhearn: you know the next protocol to get added um. What protocol is that, do you know, Would it be did exchange, or
+
+427
+01:00:13.830 --> 01:00:22.370
+Patrik Stas: Oh, yeah. So the exchange can be. I think that might be the most important for the call of all that it's like
+
+428
+01:00:22.940 --> 01:00:34.109
+Patrik Stas: you need to have. You need to exchange your keys right to do anything next, and uh, and those like issue ends on the full uh presentation protocols like
+
+429
+01:00:34.180 --> 01:00:42.860
+Patrik Stas: we implement the first version now, or like on one point, one or something like that. And now there's like two point. But uh,
+
+430
+01:00:42.910 --> 01:00:47.899
+Patrik Stas: they are not. That's uh like significantly different.
+
+431
+01:00:47.950 --> 01:00:53.280
+They have like more states, I think they uh we can open it up, surely.
+
+432
+01:00:53.380 --> 01:00:54.290
+Patrik Stas: Uh,
+
+433
+01:00:54.380 --> 01:00:57.849
+Patrik Stas: for example, the presentation,
+
+434
+01:01:06.950 --> 01:01:10.080
+Patrik Stas: How is our C presentation?
+
+435
+01:01:12.120 --> 01:01:13.990
+Patrik Stas: So
+
+436
+01:01:18.120 --> 01:01:22.989
+Patrik Stas: uh, is there replacement for this one? That's the issue
+
+437
+01:01:23.020 --> 01:01:25.959
+Patrik Stas: credential exchange?
+
+438
+01:01:27.700 --> 01:01:28.919
+George Mulhearn: Um.
+
+439
+01:01:29.080 --> 01:01:44.650
+Patrik Stas: One point, one uh some minor change, I think, with one point, one here. So i'm not sure if there's like real version of the issue. But for sure there's uh, and there is definitely two point, all for presentation. And
+
+440
+01:01:45.230 --> 01:01:49.659
+George Mulhearn: uh, yeah, there is the right. Now we implement one. Oh, yeah,
+
+441
+01:01:50.090 --> 01:02:00.430
+Patrik Stas: And yeah, that's the The changes. Changes are mostly, as I remember, the changes in two point. Zero are a lot large about the
+
+442
+01:02:10.180 --> 01:02:15.119
+Patrik Stas: I think it was a bit different error handling and like
+
+443
+01:02:16.160 --> 01:02:35.550
+Patrik Stas: um, and maybe also this uh presentation proposal, I think like If if if if you are using this sort of like basic scenario, uh, then there is not so much difference as I remember. But yeah, definitely would be. It would be nice to implement uh both of them.
+
+444
+01:02:36.210 --> 01:02:50.750
+Patrik Stas: And uh, probably did the exchange. I I would say that the exchange is more important than uh this presentation, perhaps. But uh, yeah, this protocol uh contribution Sorry that would be definitely appreciated.
+
+445
+01:02:53.200 --> 01:02:56.379
+Patrik Stas: Oh, maybe we can um put that on the list here.
+
+446
+01:02:56.750 --> 01:02:57.840
+Patrik Stas: So uh
+
+447
+01:03:01.150 --> 01:03:04.280
+Patrik Stas: um! Did it exchange for a call
+
+448
+01:03:06.900 --> 01:03:10.129
+Patrik Stas: presentation for the
+
+449
+01:03:10.260 --> 01:03:26.059
+George Mulhearn: or do you have any other uh product calls in mind.
+
+450
+01:03:26.350 --> 01:03:27.290
+Patrik Stas: Hmm.
+
+451
+01:03:31.070 --> 01:03:41.689
+Patrik Stas: Yeah. And I think um like, I think this this is a pretty important, but also maybe I think this will also be the most challenging,
+
+452
+01:03:42.390 --> 01:03:45.809
+Patrik Stas: maybe depending on what the approach we take. But uh
+
+453
+01:03:45.840 --> 01:03:47.149
+Patrik Stas: um,
+
+454
+01:03:48.520 --> 01:03:53.909
+Patrik Stas: I guess like the some sort of simple way would be to
+
+455
+01:03:54.600 --> 01:04:01.650
+Patrik Stas: Um, I don't know. Create like a new handler sort of like similar like, we have a connection?
+
+456
+01:04:01.690 --> 01:04:06.019
+Patrik Stas: Then we will then have this exchange.
+
+457
+01:04:06.180 --> 01:04:25.339
+Patrik Stas: Yeah, Is it something like that. But then but then it's like in both of them like, Then you will end up with like two different structures, like connection, structure and the exchange structure, but the actually, in both cases. Once you finish the protocol, you kind of end up with the same thing. Lots of like. There's lots of
+
+458
+01:04:25.760 --> 01:04:34.019
+Patrik Stas: license across the code base which are like using connection, like maybe tests, or or like
+
+459
+01:04:34.230 --> 01:04:40.499
+Patrik Stas: what connection is like baseline of it. So then it will be like, Uh, okay. But now we have like two sort of
+
+460
+01:04:40.720 --> 01:04:50.710
+Patrik Stas: connections, you know, one made through did exchange one made through the connection. After all. Once you have those protocols finished like
+
+461
+01:04:50.720 --> 01:05:01.900
+Patrik Stas: It's the same thing, right? You just exchange keys, and you have video of the counterparty. So what I was thinking is maybe some sort of smaller primitive should be
+
+462
+01:05:02.040 --> 01:05:20.999
+Patrik Stas: like, I don't know. Abstraction should be taken out and let these things be just like the protocol itself. Like, Okay, maybe we can have like two different handlers for the protocol. But the product of those like protocols should maybe be something like,
+
+463
+01:05:21.010 --> 01:05:28.150
+Patrik Stas: uh, maybe, and then it should be maybe placed elsewhere. I know something like did come like channel
+
+464
+01:05:28.260 --> 01:05:36.220
+Patrik Stas: uh and place it. It probably wouldn't be like It's not a like product or handle, or something more in general,
+
+465
+01:05:36.290 --> 01:05:39.879
+Patrik Stas: I don't know where I would place it. I'll just put it aside for now
+
+466
+01:05:40.630 --> 01:05:48.079
+Patrik Stas: uh and that and that discom channel. I don't go a bunch of stuff here
+
+467
+01:05:48.740 --> 01:05:52.030
+Patrik Stas: just to kind of outline what I was thinking.
+
+468
+01:05:55.880 --> 01:05:58.810
+Patrik Stas: And and this could be
+
+469
+01:05:59.060 --> 01:06:00.740
+Patrik Stas: something
+
+470
+01:06:01.030 --> 01:06:02.439
+Patrik Stas: like,
+
+471
+01:06:08.300 --> 01:06:11.279
+Patrik Stas: Yeah, you uh did come.
+
+472
+01:06:11.590 --> 01:06:12.979
+Patrik Stas: Um,
+
+473
+01:06:13.010 --> 01:06:27.329
+Patrik Stas: no, it will have uh it. Video. And there will be video video structure of the counterparty. Then you will have a parabolic info, and it's like basically info, and both the keys which you are using
+
+474
+01:06:27.380 --> 01:06:29.630
+Patrik Stas: for encryption with this
+
+475
+01:06:30.000 --> 01:06:33.599
+Patrik Stas: it within this, within this communication channel,
+
+476
+01:06:33.700 --> 01:06:36.390
+Patrik Stas: I' this did um
+
+477
+01:06:36.530 --> 01:06:39.040
+Patrik Stas: did come channel.
+
+478
+01:06:40.930 --> 01:06:48.929
+Patrik Stas: And yeah, it would have a method mess message like it would have simple interface something like some message, I guess.
+
+479
+01:06:49.260 --> 01:06:53.700
+Patrik Stas: Uh, yeah, like the trust pings and all that stuff.
+
+480
+01:06:54.530 --> 01:07:03.779
+Patrik Stas: Yeah, yeah, Something like that. And then basically this will be like, instead of using uh, like, currently, we use connection,
+
+481
+01:07:04.050 --> 01:07:09.400
+Patrik Stas: this thing like, and lots of places. Maybe I think
+
+482
+01:07:09.830 --> 01:07:11.790
+Patrik Stas: connection.
+
+483
+01:07:14.120 --> 01:07:16.310
+Patrik Stas: Well, it's actually
+
+484
+01:07:17.290 --> 01:07:20.969
+Patrik Stas: not so bad. But, for example,
+
+485
+01:07:24.380 --> 01:07:29.960
+George Mulhearn: like the um, the connection uh send message closure is,
+
+486
+01:07:29.990 --> 01:07:45.250
+Patrik Stas: Yeah, yeah, that's that's kind of. I guess that was the initial way how we lost how we attended to lose the dependency on connection, and I guess it was largely successful. But yeah, instead of getting the send message from the
+
+487
+01:07:45.560 --> 01:08:04.030
+Patrik Stas: get that closure from connection or from the exchange, you would, you would, uh Yeah. Have the methods sort of here. So it's my my suit what we are, and that would somehow reuse this. Send message, and it'll do all the encryption and send a message,
+
+488
+01:08:04.040 --> 01:08:07.770
+Patrik Stas: or maybe just prepare the message Right? Maybe.
+
+489
+01:08:07.810 --> 01:08:10.569
+Patrik Stas: Hmm. Maybe you you would have.
+
+490
+01:08:11.630 --> 01:08:18.569
+Patrik Stas: Maybe it could be even like less specific. Instead of like sending message you could have just like,
+
+491
+01:08:19.529 --> 01:08:36.910
+Patrik Stas: and maybe you kind of send message, and then you could have simply prepare message. You would encrypt the message, but wouldn't send it, you know, and then you could send it on your all aside somewhere. But yeah, this was like the idea. Oh, what what do you think about this?
+
+492
+01:08:37.340 --> 01:08:39.390
+George Mulhearn: Yeah, Yeah, it makes sense.
+
+493
+01:08:39.630 --> 01:08:40.630
+Patrik Stas: Yeah.
+
+494
+01:08:42.010 --> 01:08:49.079
+Patrik Stas: So maybe I would uh create an issue to kind of uh put those thoughts together. So
+
+495
+01:08:49.330 --> 01:08:57.819
+Patrik Stas: uh, so somebody somebody could uh, uh, perhaps attempt to start implementation, or even in ourselves.
+
+496
+01:08:59.149 --> 01:09:04.420
+Patrik Stas: Uh: yeah. So this yeah, And that was the point that
+
+497
+01:09:05.090 --> 01:09:13.270
+Patrik Stas: this might be more war, I guess. Implemented. Did. The exchange might be more work if it happens to like Trigger.
+
+498
+01:09:13.420 --> 01:09:16.980
+Patrik Stas: This kind of refactoring and generalization.
+
+499
+01:09:18.069 --> 01:09:18.990
+George Mulhearn: Yep.
+
+500
+01:09:21.920 --> 01:09:26.709
+Patrik Stas: Yeah, then. Uh, yeah, we are already over time. So um,
+
+501
+01:09:28.300 --> 01:09:30.970
+Patrik Stas: we covered all the agenda.
+
+502
+01:09:31.250 --> 01:09:35.700
+Patrik Stas: Uh Do you have anything anything else you would like to go through?
+
+503
+01:09:36.340 --> 01:09:37.870
+George Mulhearn: Um,
+
+504
+01:09:38.080 --> 01:09:39.720
+George Mulhearn: no, no, that's all.
+
+505
+01:09:39.990 --> 01:09:48.250
+Patrik Stas: Okay, Okay. And yeah, I was one more thing. Uh, you know, if you would have any sort of thing you would like to
+
+506
+01:09:48.450 --> 01:10:04.490
+Patrik Stas: uh or well, anyone anyone who's into this call, or uh you, George, if you to have you know any specific thing, or you know you have some idea or some issue, some idea about. You know what to implement in areas, we say, what to change, or
+
+507
+01:10:05.250 --> 01:10:20.960
+Patrik Stas: any in any sort of initiative related to the project, you know, feel free to put it on the agenda. Uh, I think you can, if you create account on the High Ledger foundation, you can actually be added to these pages as well.
+
+508
+01:10:20.970 --> 01:10:35.419
+Patrik Stas: Uh. So it's a V key. So so you can just, uh, you know, put the put the points on agenda as a as of time you would like to discuss, and then you know It's like, uh officially there, so we can cover it
+
+509
+01:10:52.290 --> 01:10:54.370
+Patrik Stas: all right. Um.
+
+510
+01:10:54.790 --> 01:10:58.070
+Patrik Stas: So we stop sharing screen and um,
+
+511
+01:10:58.570 --> 01:11:13.080
+Patrik Stas: I guess that's it for today. So you already have evening. So enjoy the rest of the day. Get something there, and uh, i'll see you next week. Alright, Thank you so much. Bye, bye, bye,
+

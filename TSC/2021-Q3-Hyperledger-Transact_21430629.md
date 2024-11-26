@@ -1,0 +1,88 @@
+1. [Technical Oversight Committee](index.html)
+2. [Technical Oversight Committee Home](Technical-Oversight-Committee-Home_21430274.html)
+3. [Hyperledger Projects](Hyperledger-Projects_21447704.html)
+4. [TSC Project Updates](TSC-Project-Updates_21430854.html)
+5. [2021 Project Updates](2021-Project-Updates_21452543.html)
+
+# Technical Oversight Committee : 2021 Q3 Hyperledger Transact
+
+Created by Andi Gunderson, last modified by Gari Singh on Oct 16, 2021
+
+Project Health
+
+Health is good. Work continues to focus on improving performance of SQL database support, as well as continued work on workload tools that can be leveraged by different distributed ledgers for performance and stability testing.
+
+# Required Information
+
+1. [Have you switched from master to main in all your repos](https://lf-hyperledger.atlassian.net/wiki/display/TSC/Projects+have+two+quarters+to+comply+with+common+repo+structure?focusedCommentId=21452776)? yes
+   
+2. [Have you implemented the Common Repository Structure in all your repos](https://lf-hyperledger.atlassian.net/wiki/display/TSC/Common+Repo+structure)? no
+   
+
+# Questions/Issues for the TSC
+
+No issues currently.
+
+# Releases
+
+Since project creation, the project has had 20 releases. The current release is 0.3.7. The releases are available on [crates.io](http://crates.io): [https://crates.io/crates/transact/versions](https://crates.io/crates/transact/versions)
+
+# Overall Activity in the Past Quarter
+
+Continued incremental improvements to the initial code base. Additional activity shown below. The primary method of discussion continues to be held in RocketChat.
+
+- Experimental support of SQLite and Postgres merkle-radix tree has been added. Along with state pruning.
+- An example application that uses the command family workload to submit transactions directly to sabre was added.
+- Improved workload command rate submission to be more accurate.
+- Modified workload to handle a TooManyRequests response and slow the submission rate until able to submit transactions again.
+- Added \`command\` as a workload type to the transact workload subcommand.
+
+# Current Plans
+
+Next steps include:
+
+- Move Sawtooth Sabre (wasm engine) into Transact
+- Complete and stabilize SQL database support
+- Reorganization of the project's crate structure
+- Setup a documentation site to help explain/advocate the project
+
+Future:
+
+- Add a next-generation smart contract API / simplified smart contracts (cross-project with Sawtooth, in progress)
+- Further develop the Transact SDK for JavaScript
+
+# Maintainer Diversity
+
+The maintainer diversity currently matches that of the initial project sponsor companies.
+
+# Contributor Diversity
+
+There were a total of 6 contributors in the last quarter, one more than last quarter.
+
+# Additional Information
+
+Insights from  May 25th 2021 to August 25 2021
+
+[https://insights.lfx.linuxfoundation.org/projects/hyperledger%2Ftransact/dashboard;subTab=technical?time=%7B%22from%22:%222021-05-25T05:00:00.000Z%22,%22type%22:%22absolute%22,%22to%22:%222021-08-25T14:00:47.782Z%22%7D](https://insights.lfx.linuxfoundation.org/projects/hyperledger%2Ftransact/dashboard;subTab=technical?time=%7B%22from%22%3A%222021-05-25T05%3A00%3A00.000Z%22%2C%22type%22%3A%22absolute%22%2C%22to%22%3A%222021-08-25T14%3A00%3A47.782Z%22%7D)
+
+# Reviewed By
+
+- [Angelo de Caro](https://lf-hyperledger.atlassian.net/wiki/people/70121:d6b0f0e4-825f-4f16-88e1-4d14e95f2f10?ref=confluence)
+- [Arnaud J LE HORS](https://lf-hyperledger.atlassian.net/wiki/people/70121:0e75e3b8-500a-4067-9f7e-ed46e91bcb9d?ref=confluence)
+- [Arun .S.M.](https://lf-hyperledger.atlassian.net/wiki/people/621a0e5097d313006ba7386a?ref=confluence)
+- [Baohua Yang](https://lf-hyperledger.atlassian.net/wiki/people/557058:17d87dbf-05fe-4c1b-84cf-fd69f7fcbb20?ref=confluence)
+- [Bobbi Muscara](https://lf-hyperledger.atlassian.net/wiki/people/5c4cb1b7d8bbb7445c0a457e?ref=confluence)
+- [Danno Ferrin](https://lf-hyperledger.atlassian.net/wiki/people/5b7f2d80c4e4892a5b789551?ref=confluence)
+- [David Enyeart](https://lf-hyperledger.atlassian.net/wiki/people/712020:30d7e775-8a5d-4896-8950-8da2af027639?ref=confluence)
+- [Gari Singh](https://lf-hyperledger.atlassian.net/wiki/people/557058:51429e31-90f4-4684-b7cd-9a4fe15ff188?ref=confluence)
+- [Grace Hartley (Deactivated)](https://lf-hyperledger.atlassian.net/wiki/people/5c3e0cd1ff324728a1db2448?ref=confluence)
+- [Hart Montgomery](https://lf-hyperledger.atlassian.net/wiki/people/712020:86f447c0-86dc-43b3-ac03-6a31923bbb84?ref=confluence)
+- [María Teresa nieto](https://lf-hyperledger.atlassian.net/wiki/people/5d36fa46af1d920bc99755b6?ref=confluence)
+- [Mark Wagner (Deactivated)](https://lf-hyperledger.atlassian.net/wiki/people/70121:81b88945-c9ef-40fe-9224-207bdb280922?ref=confluence)
+- [Nathan George](https://lf-hyperledger.atlassian.net/wiki/people/712020:3e7556ab-cdb8-47f5-8b68-12a3378021fd?ref=confluence)
+- [Tracy Kuhrt](https://lf-hyperledger.atlassian.net/wiki/people/712020:eb6ae9c3-aa8e-40ba-9dab-a6969b1ac52e?ref=confluence)
+- [Troy Ronda](https://lf-hyperledger.atlassian.net/wiki/people/557058:c854f35a-2b58-4be3-9003-ca2a67495580?ref=confluence)
+
+Document generated by Confluence on Nov 26, 2024 11:22
+
+[Atlassian](http://www.atlassian.com/)

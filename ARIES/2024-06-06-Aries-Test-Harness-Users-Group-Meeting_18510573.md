@@ -1,0 +1,104 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Aries Frameworks and User Groups](Aries-Frameworks-and-User-Groups_18481290.html)
+4. [Aries Test Harness User Group - ATHUG](Aries-Test-Harness-User-Group---ATHUG_18496334.html)
+5. [ATHUG - Aries Test Harness User Group Meetings](ATHUG---Aries-Test-Harness-User-Group-Meetings_18496351.html)
+
+# Hyperledger Aries : 2024-06-06 Aries Test Harness Users Group Meeting
+
+Created by Sheldon Regular, last modified on Jun 06, 2024
+
+## Summary:
+
+Proposed Planned Topics:
+
+- Demo of the new Dev Container in the Mobile Wallet Test Harness
+
+## Recording: [dummyfile.txt](#)
+
+![](https://wiki.hyperledger.org/download/attachments/29034696/Antitrustnotice.png?version=1&modificationDate=1581695654000&api=v2)
+
+Hyperledger is committed to creating a safe and welcoming
+
+community for all. For more information
+
+please visit the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct).
+
+## Welcome and Introductions
+
+For new attendees - Who you are, and what your interest is in AATH and/or AMTH and/or Aries Akirda.
+
+## Attendees
+
+- [Sheldon Regular](https://lf-hyperledger.atlassian.net/wiki/people/557058:03ca5fa1-a9b1-4962-8ade-a10467940771?ref=confluence) (BC Gov / Shel2C Ventures Inc.) &lt;sheldon.regular@gmail.com&gt;
+- [Kim Ebert](https://lf-hyperledger.atlassian.net/wiki/people/5f7247c98d88b30075da15a3?ref=confluence) (Indicio PBC) &lt;kim@indicio.tech&gt;
+- [James Ebert](https://lf-hyperledger.atlassian.net/wiki/people/557058:1b65ef69-a9c7-4f13-8ac7-eca3c34f5f97?ref=confluence) (Instnt) &lt;james@jamesebert.dev)
+
+## Announcements
+
+## Agenda
+
+- Call for extra agenda items/topics
+- Outcomes from last AATH Users Group Meeting
+  
+  - Demo of AATH Dev Containers
+- Notable recent enhancements to AATH and AMTH (In Progress/Accomplishments/Recently Closed)
+  
+  - AATH
+    
+    - In Progress - AFJ Backchannel  Dev Container and Credo Port
+    - In Progress - AFJ Backchannel Updates - OOB and DID Exchange, Qualified Peer DID Tests. -  [https://github.com/hyperledger/aries-agent-test-harness/issues/696](https://github.com/hyperledger/aries-agent-test-harness/issues/696)
+    - In Progress - Aries-vcx backchannel updates for DID Exchange - [https://github.com/hyperledger/aries-agent-test-harness/pull/778](https://github.com/hyperledger/aries-agent-test-harness/pull/778)
+  - AMTH/MWTH
+    
+    - Dev Container
+  - Aries Akrida (Kim Ebert) - [https://github.com/hyperledger/aries-akrida](https://github.com/hyperledger/aries-akrida)
+    
+    - Nothing major in the last couple of month, a couple minor PR.
+    - Over the summer is to move to Credo.
+- Demos
+  
+  - Demo of the new Dev Container in the Mobile Wallet Test Harness - Sheldon
+- In-depth Approach review
+  
+  - Open Discussion / Q&amp;A
+- AATH/AMTH Kanban Board Walkthrough
+  
+  - [https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/board](https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/board)
+  - Work Item Review
+    
+    - Short Term Backlog
+      
+      - DID Rotate tests coming after the qualified peer did tests.
+    - New Items
+    - Product Backlog
+
+## Next Meeting
+
+- July 5th 2024 11AM Eastern
+
+## Future Topics
+
+## Action items
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519405.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519350.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519349.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519348.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519347.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519345.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519346.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519344.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519343.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519342.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519341.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519339.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519340.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519337.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18510573/18519338.txt) (text/plain)
+
+Document generated by Confluence on Nov 26, 2024 11:28
+
+[Atlassian](http://www.atlassian.com/)

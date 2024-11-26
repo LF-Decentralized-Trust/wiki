@@ -1,0 +1,60 @@
+00:11:21	Stephen Curran:	https://wiki.hyperledger.org/display/ARIES/2019-06-26+Aries+Working+Group+Call
+00:12:04	Drummond Reed:	Just don’t do bad things, period :-)
+00:17:18	Richard Esplin:	Bemvindo Bruno!
+00:17:26	Drummond Reed:	Hola Bruno
+00:18:44	brunopontes:	It’s a pleasure!
+00:22:23	Nader Helmy:	apologies!
+00:23:14	Michael Richardson:	Hey Bruno Welcome! I would love to hear more about the Hyperledger Bootcamp...
+00:24:17	Richard Esplin:	Nice title!
+00:30:36	brunopontes:	Hi Michael! Sure, we can chat on Linkedin https://www.linkedin.com/in/bruno-pontes-bb00591a/
+00:30:58	brunopontes:	I’ll put my email on the wiki too
+00:31:45	Drummond Reed:	Real time makes a big difference if it can really concentrate technical discussions
+00:32:29	Michael Richardson:	Thanks Bruno...sent you a linkedIn connect 
+00:37:00	Mike Richardson:	is it the case that Rust knowledge is essential for Aries work?
+00:37:34	Richard Esplin:	LibIndy is written in rust and exposes a C callable API.
+00:38:11	Stephen Curran:	Michael - no.  
+00:38:38	Mike Richardson:	btw I am happy to learn Rust but just curious
+00:38:56	Richard Esplin:	Developers building applications on Aries are likely to work with a language library that abstracts that away.
+00:39:03	Mike Richardson:	thats what i thught
+00:39:14	Stephen Curran:	To build aries apps you can use any language.  To build on aries itself - you have to use one of the languages that can use libindy.
+00:40:30	Mike Richardson:	for the Aries language specific agent framework...that builds on [langage specific] Indy SDK..correct?
+00:41:16	Drummond Reed:	I like the idea of two calls per week at the two different time zones
+00:41:30	Drummond Reed:	with a group of us attending both to provide continuity
+00:42:11	Drummond Reed:	+1 to fresh content on both calls - so it’s always interesting to attend a call
+00:43:34	jonnycrunch:	for what time?
+00:43:53	Richard Esplin:	7 AM Pacific / 9AM Eastern / 2PM London / 3PM Berlin
+00:46:07	Daniel Bluhm:	@Mike Richardson yes, but transitioning to Aries SDK language specific libraries, of course
+00:46:19	Mike Richardson:	got it..thks
+00:49:34	Troy Ronda:	I also mentioned in rocket chat … we are also working on a Go implementation of DIDComm among other components.
+00:50:11	Troy Ronda:	(but in our own GitHub repos).
+00:50:37	George Aristy:	We have mailing lists?
+00:52:05	Richard Esplin:	https://lists.hyperledger.org/g/main
+00:52:22	Richard Esplin:	https://lists.hyperledger.org/g/aries
+00:52:41	Daniel Bluhm:	In light of Richard encouraging project status reports, I'm actively working on the Aries Protocol Test Suite which is essentially a rewrite of the Indy Agent Test Suite with better support for more sophisticated transport setups (return routes, etc). You can see my work so far here if you are interested: https://github.com/dbluhm/aries-protocol-test-suite
+00:55:28	Kyle Den Hartog:	Does anyone else have access to this document? https://docs.google.com/document/d/1MYMi4NkixfoIJeC79WBOfX_QA3_9rG-iK3lZa86vIR0/edit#
+00:55:41	George Aristy:	I have to request
+00:55:48	Albert Solana:	Me too
+00:55:53	Kyle Den Hartog:	Ok thanks
+00:56:22	George Aristy:	works now
+00:59:26	Drummond Reed:	DID resolution needs to be local to an Aries agent.
+00:59:49	Drummond Reed:	Or at least that needs to be an option for security reasons.
+01:01:28	Drummond Reed:	So DID method protocols plug in just like other Aries protocols?
+01:02:31	George Aristy:	+1 driver for did:peer
+01:05:05	Drummond Reed:	I know it’s a different way to look at it, but because every DID method is its own protocol, the concept of a “DID resolver” is different than a typical resolver that speaks the same protocol to all servers.
+01:06:38	Drummond Reed:	What’s common about all DID methods is that they return a DID doc (at a minimum - they may also do return other outputs as supported by that specific method). But with DIDs, each DID method is a different protocol.
+01:07:16	Tobias Looker:	Interesting way to consider it, I have always thought of the resolution layer as the part that coaleses drivers into a uniform mode of resolution i.e always supply a URL and get back a data model
+01:07:45	Drummond Reed:	Yes, that is definitely a valid way to look at it - and the way I think most of us has been looking at it.
+01:08:30	Drummond Reed:	But Stephen has shared (with me at least) this new way of looking at it, which is that a DID method is just another protocol plug-in to an Aries agent. Because all DID methods are their own protocol.
+01:09:31	George Aristy:	Right - but they all plug in at the same points and are not substitute for others.
+01:11:41	Troy Ronda:	We are building SideTree DID support on a derivation of Fabric.
+01:12:06	Drummond Reed:	What Stephen is saying is that any ledger an agent communicates with is just another protocol.
+01:12:55	George Aristy:	Does that mean they are protocols on the same level that the DIDComm protocols are? The words are a bit confusing for me
+01:13:11	Drummond Reed:	That’s a good question - let’s ask Stephen.
+01:15:01	Drummond Reed:	So DIDComm is a generic protocol, and the protocols we are talking about here are higher-level protocols that are encapsulated in DIDComm messages.
+01:15:06	Kyle Den Hartog:	+1 Stephen
+01:15:07	Drummond Reed:	That’s my understanding.
+01:18:33	Paul Knowles:	+1 Kyle
+01:32:44	Drummond Reed:	+1 to Daniel’s summary
+01:37:04	Drummond Reed:	Tobias, that’s yet another reason to treat DID methods as Aries protocols.
+01:40:38	Drummond Reed:	I gotta run now.
+01:40:46	Troy Ronda:	(For the Go Agent / DIDComm layer).

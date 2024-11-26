@@ -1,0 +1,14 @@
+08:03:16	 From Richard Esplin : https://wiki.hyperledger.org/pages/viewpage.action?pageId=29034532
+08:11:47	 From Sergey Minaev : https://github.com/hyperledger/indy-sdk/pull/2039 is a part of 1.14.2 stable of IndySDK
+08:12:30	 From Stephen Curran : Thanks, Sergey!
+08:33:24	 From Michael Lodder : I think they should be separated
+08:33:45	 From Michael Lodder : Aries-credx is for all
+08:33:58	 From Michael Lodder : indy-credx is a specific implementation
+08:34:56	 From Michael Lodder : Aries credx should have generic APIs that are pluggable
+08:35:11	 From Stephen Curran : +1 to Mike's notes
+08:35:15	 From Michael Lodder : agreed ken
+08:35:57	 From Michael Lodder : indy dids
+08:45:18	 From Troy Ronda : aries-framework-go W3C test suite CI: https://github.com/hyperledger/aries-framework-go/actions?query=workflow%3Atest-suite
+08:49:14	 From Michael Lodder : 👍🏻
+08:55:55	 From Michael Lodder : Andrew can you let me know where your code is that does that?
+08:57:44	 From Andrew Whitehead : https://github.com/andrewwhitehead/indy-credx/blob/master/wrappers/python/src/buffer.rs

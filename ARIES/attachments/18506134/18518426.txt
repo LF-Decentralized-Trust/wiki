@@ -1,0 +1,1498 @@
+WEBVTT
+
+1
+00:00:04.320 --> 00:00:12.199
+Sam Curren (TelegramSam): Folks to the July twelfth. 2023 Areas Working Group call. We're glad you're here. We have cool stuff to talk about today.
+
+2
+00:00:12.240 --> 00:00:23.659
+Sam Curren (TelegramSam): This is a hypnotic call, and so the antitrust policy of the Linux Foundation and the code of conduct for Hyper Ledger are in effect, links are available in the agenda.
+
+3
+00:00:23.760 --> 00:00:27.200
+Sam Curren (TelegramSam):  you are
+
+4
+00:00:27.570 --> 00:00:39.749
+Sam Curren (TelegramSam): invited to add yourself to the attendees list, or make any other adjustments useful to the community in any way, or to help take notes or or any of that in the in the in the wiki. that, it drives our meeting notes.
+
+5
+00:00:39.860 --> 00:00:45.490
+Sam Curren (TelegramSam):  and we're glad you're here. Anyone new today that would like to introduce themselves.
+
+6
+00:00:48.890 --> 00:00:59.789
+Patrik Stas: Hi, This is Patrick. I'm here after after very, very long time. for those who don't know me. I'm a Maintainer of one of the Maintainer. So
+
+7
+00:01:00.160 --> 00:01:03.979
+Patrik Stas: every Vcx project. And yeah, just
+
+8
+00:01:04.060 --> 00:01:09.270
+Patrik Stas: just came here say, to to see what's around and
+
+9
+00:01:09.530 --> 00:01:14.820
+Patrik Stas: try to ramp up our engagement with the wider community. A bit
+
+10
+00:01:16.310 --> 00:01:25.149
+Sam Curren (TelegramSam): awesome. Glad you're here, and I I thought I recognized your name. So when you spoke up I was like surprised, but glad to have you back after a little while. Yeah, thanks
+
+11
+00:01:27.550 --> 00:01:28.620
+Sam Curren (TelegramSam): any others.
+
+12
+00:01:34.110 --> 00:01:36.610
+Sam Curren (TelegramSam): Well, I'm glad all of you regulars are here, too.
+
+13
+00:01:36.800 --> 00:01:43.610
+Sam Curren (TelegramSam): any. Any of the code bases or the projects want to offer a a release status or a work update.
+
+14
+00:01:48.540 --> 00:01:55.850
+Sam Curren (TelegramSam): This may be semi-related, but there was yesterday. I believe we had the Afgh workshop.
+
+15
+00:01:56.140 --> 00:01:58.149
+Sam Curren (TelegramSam): Is anyone able to report on that?
+
+16
+00:02:10.759 --> 00:02:13.099
+Tim Bloomfield: This is Tim here?
+
+17
+00:02:14.060 --> 00:02:26.990
+Tim Bloomfield: I guess it's it. There's a great workshop in terms of what? Walking through the changes to the way of J. 4 0 point 0 one, especially the the new modules and changes in architecture.
+
+18
+00:02:27.040 --> 00:02:37.560
+Tim Bloomfield: I don't know when people are on this call around that, so I don't know if there's other thoughts, but I think it's from marketing and and getting the message out there. And and what's what's happening? I thought it was really successful.
+
+19
+00:02:38.550 --> 00:02:39.550
+Tim Bloomfield: Oh, yeah.
+
+20
+00:02:40.610 --> 00:02:41.859
+Sam Curren (TelegramSam): awesome. Thanks, Tim.
+
+21
+00:02:44.740 --> 00:02:47.730
+Stephen Curran: Hey, Sam a couple of things on
+
+22
+00:02:47.840 --> 00:02:58.460
+Stephen Curran: credx. There was a bug found in the credits implementation such that on verification when there are multiple
+
+23
+00:02:59.470 --> 00:03:03.719
+Stephen Curran:  multiple
+
+24
+00:03:04.730 --> 00:03:14.730
+Stephen Curran: revocation registries involved. the verification would fail, even though it was a valid presentation.
+
+25
+00:03:14.780 --> 00:03:18.339
+Stephen Curran: So that is fixed in 0 3 3
+
+26
+00:03:19.530 --> 00:03:24.389
+Stephen Curran: and as well, there is a breaking change version coming out
+
+27
+00:03:24.490 --> 00:03:26.139
+Stephen Curran: real soon now.
+
+28
+00:03:26.520 --> 00:03:43.139
+Stephen Curran: that. I believe this actually came out last night. That is a new version. So it'll be 1 point. Oh. and it has some breaking change changes and a bunch of performance optimizations. So it uses the new
+
+29
+00:03:43.390 --> 00:03:53.879
+Stephen Curran: removes the dependency on Ersa and changes it to use the Cl Signatures library Cl signatures. Library has a pile of new features to it
+
+30
+00:03:54.080 --> 00:03:57.020
+Stephen Curran: and new optimizations.
+
+31
+00:03:57.140 --> 00:04:05.229
+Stephen Curran: So things like generating a revocation. Registry is half 50% speed up or something like that.
+
+32
+00:04:05.410 --> 00:04:15.459
+Stephen Curran: so it's We unfortunately had to. this was discovered last night. It has to be called one because of a
+
+33
+00:04:15.570 --> 00:04:21.280
+Stephen Curran: hip some, some some handling, and pip
+
+34
+00:04:21.519 --> 00:04:28.879
+Stephen Curran: that was done. So just to prevent breakages in the community. it
+
+35
+00:04:29.700 --> 00:04:38.030
+Stephen Curran: it was named to one rather than the 0 4 As what might be expected.
+
+36
+00:04:39.290 --> 00:04:44.199
+Stephen Curran: pip requirements motivated. They one full version of update.
+
+37
+00:04:44.390 --> 00:04:46.120
+Stephen Curran: So there you go.
+
+38
+00:04:46.820 --> 00:04:51.600
+Stephen Curran: So that's what's going on there. The Cl. A. Sales signatures library is
+
+39
+00:04:51.860 --> 00:05:05.550
+Stephen Curran: it's the had the most work it's had for quite a while. it's got a a bunch of new things in it, and a non credits. rust implementation will transition to it as well.
+
+40
+00:05:07.820 --> 00:05:19.140
+Stephen Curran: Oh, and I should say that the credits Bug fix. Oh, that was in the actually in the python and wrapper.
+
+41
+00:05:19.520 --> 00:05:24.580
+Stephen Curran: so it did not affect other other places where it was being used.
+
+42
+00:05:29.950 --> 00:05:35.500
+Sam Curren (TelegramSam): Awesome thanks for those notes, and and be sure to hit up those releases for
+
+43
+00:05:35.580 --> 00:05:38.179
+Sam Curren (TelegramSam): fixed bugs and new awesomeness.
+
+44
+00:05:39.130 --> 00:05:42.669
+Stephen Curran: Yeah. So basically 0 8, 2. And
+
+45
+00:05:43.550 --> 00:05:48.820
+Stephen Curran: bye did pull in the new version. So 0 8 2 will have that.
+
+46
+00:05:49.120 --> 00:06:00.090
+Stephen Curran: Obviously, if you're pulling in the requirements, you get the 0 3 re version in older versions of a 5. But if you are using the
+
+47
+00:06:00.310 --> 00:06:05.109
+Stephen Curran: images. you won't get that new one unless you go to 0 8 2.
+
+48
+00:06:08.040 --> 00:06:09.730
+Stephen Curran: So there you go.
+
+49
+00:06:10.030 --> 00:06:13.209
+Sam Curren (TelegramSam): Awesome. Any other updates.
+
+50
+00:06:18.950 --> 00:06:32.900
+Patrik Stas: not not not necessarily an update but so basically, 1. One of the reasons I I write the the for this meeting, as I as I as a to with the from
+
+51
+00:06:32.960 --> 00:06:44.769
+Patrik Stas: and we're talking about And he suggested that that I come around sometime and and talk about a a bit about what we, what we are doing, because apparently
+
+52
+00:06:44.790 --> 00:06:49.220
+Patrik Stas: we are a bit of a mysterious project. We haven't been engaging myself.
+
+53
+00:06:49.420 --> 00:07:05.489
+Patrik Stas: I have. I have some like a a short I know I call the presentation of few drawings laid out so I can. I can show that I'm not sure if this is the right time or later. Let's Let's add that under the agenda.
+
+54
+00:07:05.920 --> 00:07:13.399
+Sam Curren (TelegramSam): And and I think we're, I think we're actually gonna have time today. Maybe I'm over optimistic, but if not, then that's can definitely be on the agenda tomorrow.
+
+55
+00:07:13.430 --> 00:07:16.440
+Sam Curren (TelegramSam):  does that work
+
+56
+00:07:16.770 --> 00:07:17.970
+Patrik Stas: for sure. Yeah.
+
+57
+00:07:18.610 --> 00:07:19.939
+Stephen Curran: you mean, next week
+
+58
+00:07:21.600 --> 00:07:22.979
+Stephen Curran: you said tomorrow.
+
+59
+00:07:23.450 --> 00:07:26.850
+Sam Curren (TelegramSam): I did not mean tomorrow. I met Ness next week. Thank you. Stephen.
+
+60
+00:07:27.040 --> 00:07:36.490
+Sam Curren (TelegramSam): Yeah. I was wondering if there's one more about it. Next week is fine. So yeah, in other news, the area is working. You call it going daily. Just kidding.
+
+61
+00:07:37.120 --> 00:07:38.990
+Sam Curren (TelegramSam): cool. Excellent.
+
+62
+00:07:39.250 --> 00:07:52.059
+Sam Curren (TelegramSam): Okay? Well, with that. Here's what we have on the agenda for today. the James Ebert has a community selector, demo and and some conversation there. we also have
+
+63
+00:07:52.310 --> 00:08:20.999
+Sam Curren (TelegramSam): the update with the did peer unqualified did migration. That is not yet done. But there has been progress made. and so there! There are some comments and everything else, and want to draw for extension to that, so that we can move forward on that And then I Helen and and Alex actually, let's do this first, because you've got this this survey link, which I think would be excellent. And if folks are really bored with what's going on the meeting, they could fill it out
+
+64
+00:08:21.080 --> 00:08:34.190
+Sam Curren (TelegramSam): And so let's actually address this first and then we've got the Vcx Update and it, and if we'll we'll spill over, if necessary. And to make that happen.
+
+65
+00:08:34.320 --> 00:08:41.909
+Sam Curren (TelegramSam): So that's the agenda. Are there any adjustments that we want to make before we Devin additions. corrections.
+
+66
+00:08:46.960 --> 00:08:53.049
+Sam Curren (TelegramSam): All right, Helen, do you want me to? Or or Alex? Just one of you want the floor for a minute to
+
+67
+00:08:53.310 --> 00:08:54.560
+Sam Curren (TelegramSam): talk about the survey.
+
+68
+00:08:56.750 --> 00:09:03.329
+Alex Metcalf: Let's take a Helen go for outs. I think you're getting the results in, aren't you?
+
+69
+00:09:04.550 --> 00:09:10.410
+Alex Metcalf: The short version is, we have a small survey. It's 3 min. Please do it now, if you can, because no time like the present.
+
+70
+00:09:10.600 --> 00:09:16.979
+Alex Metcalf: and it's a chance to have your say on how we communicate Aries, and what the priorities are in that messaging.
+
+71
+00:09:17.010 --> 00:09:44.210
+Alex Metcalf: So we have a pretty good steer, and when you run this for a few more days, I would imagine. But if you want, if you have a sense of like, oh, we never say this enough about areas. Or it's really important that we mentioned this right up front. All this is not important. Why you keep dwelling, or whatever it may be, or if you go resources when people come and use it, Aries, if the developers are exact, and you always point in a certain direction. There's a space in that in that survey to put those links in to help other people. So you can build a really great
+
+72
+00:09:44.270 --> 00:09:47.340
+Alex Metcalf: getting started type. resource
+
+73
+00:09:47.490 --> 00:09:48.859
+Alex Metcalf: for this. So
+
+74
+00:09:49.240 --> 00:09:58.380
+Alex Metcalf: please do that. Any questions that you of us know. and we'll give you the results shortly and weave those into our new fairies. Marketing comes
+
+75
+00:09:58.700 --> 00:10:00.140
+Alex Metcalf: paying down to the island.
+
+76
+00:10:00.780 --> 00:10:27.160
+Helen Garneau: Yeah, just to to build on what he was saying. You know, as in terms of resources, that you direct people to we would like to incorporate a sort of community resources page to the website, or at kind of to the web page. So, yeah, if if you have recordings or meet ups or white papers or medium posts, or whatever that you would like represented
+
+77
+00:10:27.160 --> 00:10:45.840
+Helen Garneau: from you, from your company, from your organization, whatever on that sort of community page. It's a great representation to show that you are you, you, you, your organization, your team, whatever is part of Aries. It's a great, just just in terms of, you know, a visual marketing, etc.
+
+78
+00:10:45.840 --> 00:11:13.500
+Helen Garneau: if there's somebody on your team who we should talk to about marketing about, you know, incorporating other links, whatever please add those. Because again, we just want to show the diversity of the community. We want to show all the different ways that people are using it. using Aries or building on Aries are contributing to Aries. So yeah, any any meet ups? Ask me any things, etc. Please include those links. and that would be helpful. Thank you again
+
+79
+00:11:13.590 --> 00:11:15.040
+Helen Garneau: in advance.
+
+80
+00:11:15.780 --> 00:11:19.180
+Sam Curren (TelegramSam): Awesome. So there's the link. I'm also going to drive
+
+81
+00:11:19.200 --> 00:11:23.510
+Sam Curren (TelegramSam): or to copy this and to the meeting. Oh, Stephen already did it
+
+82
+00:11:23.630 --> 00:11:32.499
+Sam Curren (TelegramSam): in my mind. So please please, felt the survey, and and I a huge thanks to Helen and Alex for for driving this forward.
+
+83
+00:11:32.510 --> 00:11:48.809
+Sam Curren (TelegramSam): the the marketing of the work that we do as is as important if as the the work itself. and and we have us developers have done a sub part job with marketing and grateful for for Alex and Helen, and and working with us to make this happen so
+
+84
+00:11:49.090 --> 00:11:55.389
+Sam Curren (TelegramSam): they need our, they need our input and and please participate. I'm grateful for that.
+
+85
+00:11:55.620 --> 00:11:58.500
+Sam Curren (TelegramSam): Anything else on the marketing.
+
+86
+00:12:04.060 --> 00:12:23.269
+Helen Garneau: I don't think so. that's it for now. we'll have another meeting of the Aries marketing working group at at the end of the month. Again all are welcome. Let please reach out on this quarter whatever if you have any questions, or if there's somebody on your team who you think would be a good
+
+87
+00:12:23.270 --> 00:12:39.180
+Helen Garneau: fit to have those discussions. you know, very, very low bar bar, for you know, for barrier, for entry for the Aries marketing group. Anybody and everyone is welcome. so please spread the word for folks to join.
+
+88
+00:12:41.060 --> 00:12:42.520
+Sam Curren (TelegramSam): Awesome thanks.
+
+89
+00:12:42.870 --> 00:12:48.560
+Sam Curren (TelegramSam): And next on our agenda is the community Selector Demo. By James.
+
+90
+00:12:48.610 --> 00:13:00.559
+Sam Curren (TelegramSam): and hopefully, James doesn't mouse all subsequent. So, James, so you can set up hopefully. James doesn't mind a little bit of a prelude we. We have talked about the concept that he's about to show several times, including an Iw.
+
+91
+00:13:00.950 --> 00:13:18.460
+Sam Curren (TelegramSam): And and and to to talk about the complexities of deep linking in mobile apps, and and notably the differences between Android and Ios, and how to actually accomplish that and James got tired of of the talking and the not progress, and he made a thing.
+
+92
+00:13:18.740 --> 00:13:24.459
+Sam Curren (TelegramSam): And so with that I will pass all the attention over here to James to talk about the thing he's made.
+
+93
+00:13:25.450 --> 00:13:30.559
+James Ebert: It was a great intro, Sam, yeah. So
+
+94
+00:13:30.630 --> 00:13:41.759
+James Ebert: this is the traditional deep link that has been proposed and in used so far within the community. And as Sam spoke to, I've
+
+95
+00:13:42.110 --> 00:13:51.060
+James Ebert: gone with an approach of using the android intents to actually launch the android portion. This isn't anything super special. The part that's a
+
+96
+00:13:51.700 --> 00:14:05.830
+James Ebert: the cool part here is what what I've done with the Ios universal links. So I'm going to jump into just showing you what this actually looks like in practice for the user. And then we can talk a little bit more about the details of what I've done.
+
+97
+00:14:07.270 --> 00:14:10.530
+James Ebert: So I set this up as a
+
+98
+00:14:10.620 --> 00:14:25.119
+James Ebert: service that I'm hosting, and this can be put in front of any issuer the invitation just goes into the at a band. Query parameter. So this can be stood up without this. You are actually knowing in front of it.
+
+99
+00:14:25.240 --> 00:14:36.319
+James Ebert:  so I'm gonna go ahead and do the Android portion first. And I'm going to bring up my camera and scan the QR code.
+
+100
+00:14:39.960 --> 00:14:54.330
+James Ebert: And this opens up the standard dialogue for choosing which app you would like to use, which is awesome in the open source context. I'm gonna use or plus, because that's what I've got set up to do it.
+
+101
+00:14:57.490 --> 00:15:06.780
+James Ebert: And this will add the specific contact. let's take a look at the Ios portion
+
+102
+00:15:10.350 --> 00:15:21.159
+James Ebert: which my phone wants. So  let's restart that.
+
+103
+00:15:23.120 --> 00:15:29.900
+James Ebert: And this one I sent myself the same link, so to demonstrate what that would look like. But I'm not being set the link.
+
+104
+00:15:33.080 --> 00:15:34.550
+James Ebert: and
+
+105
+00:15:36.920 --> 00:15:45.519
+James Ebert: there's a large delay. screen share, apparently. but it brings up this dialogue option for
+
+106
+00:15:46.090 --> 00:15:47.900
+James Ebert: ios, in
+
+107
+00:15:49.120 --> 00:15:56.290
+James Ebert: which, where we display a variety of apps that can handle the
+
+108
+00:15:56.490 --> 00:16:20.609
+James Ebert: invitation and this will, depending on what the user chooses will allow them to open the invitation with that app. This is a list that would be managed in the open source community and points to the individual user universal links registered by each of the individual app creators.
+
+109
+00:16:20.720 --> 00:16:30.069
+James Ebert: So again, again, I'm gonna do hold plus because that's what I've got set up. and that immediately pulls me over into the
+
+110
+00:16:30.430 --> 00:16:34.020
+James Ebert: app and establishes the connection
+
+111
+00:16:36.380 --> 00:16:42.110
+James Ebert: it looks like the screen share stop. But that's the behavior that happened there.
+
+112
+00:16:42.360 --> 00:16:48.530
+Tim Bloomfield: Your your session. We saw time out on your screen in 1 h screen, shouting out.
+
+113
+00:16:49.400 --> 00:16:55.470
+James Ebert:  it looks like it. It just was really slow.
+
+114
+00:16:55.830 --> 00:17:03.180
+James Ebert: but yeah, that's that's the behavior of the the Ios is opens up into the app and and opens the
+
+115
+00:17:03.700 --> 00:17:05.670
+James Ebert: contact up.
+
+116
+00:17:06.000 --> 00:17:11.299
+James Ebert:  this is configured utilizing a
+
+117
+00:17:12.810 --> 00:17:25.540
+James Ebert:  Json lists of configurations. So a individual organization could in a Github config could add their
+
+118
+00:17:25.710 --> 00:17:43.440
+James Ebert: their app, and where the ios universal link is, and the their icon, and and potentially other items, such as what kind of things they support as in do they support to convey, to do? They support
+
+119
+00:17:43.500 --> 00:17:50.510
+James Ebert: the specific goal code, etc. There's been a couple of ideas that we've talked about that could go here. But this is the basics, at least.
+
+120
+00:17:51.900 --> 00:17:54.850
+James Ebert: And the final thing is that
+
+121
+00:17:55.690 --> 00:18:07.440
+James Ebert: I get. I guess there's 2 other things I I've also set this up to be able to do a proof of concept on showing that it's possible to do URL shortening with this. In which
+
+122
+00:18:08.060 --> 00:18:19.159
+James Ebert: you put a URL shortening here. And so if you have really long invitations, this can also handle that as part of the process. And
+
+123
+00:18:20.250 --> 00:18:42.610
+James Ebert: one of the benefits of how this is set up is that? you are able to scan this with a standard camera and actually be able to resolve this page still. well, being pretty closely tied to how the out of band. URL. Shortening is a specified in Rfc.
+
+124
+00:18:43.550 --> 00:18:50.559
+James Ebert:  So then, the final bit is the the thought that this is something that could be
+
+125
+00:18:50.730 --> 00:19:07.370
+James Ebert: the the not URL shorting version is a front-end web page only, and can be hosted by any issuer. But also it could be something that is hosted by the community, such as@dcom.org and
+
+126
+00:19:07.680 --> 00:19:14.410
+James Ebert: that could be a standard place of managing the the the community
+
+127
+00:19:14.540 --> 00:19:18.770
+James Ebert: having a community selector that is managed there.
+
+128
+00:19:20.490 --> 00:19:22.470
+James Ebert: yeah,
+
+129
+00:19:22.490 --> 00:19:34.329
+Sam Curren (TelegramSam): Sam, is their thoughts, you want to add, because I know you. You had some wonderful thoughts that you had that the to come users group 100% this on Monday. So it it's the risk of being a little over clear about what's happening.
+
+130
+00:19:34.470 --> 00:19:46.730
+Sam Curren (TelegramSam): What would. This revolves around a yeah URL, that can be loaded in a browser. And then when you load that, yeah, URL, magic happens, will you describe the magic that happens when the when the URL is loaded in a browser.
+
+131
+00:19:47.310 --> 00:19:48.869
+Sam Curren (TelegramSam): that question makes it.
+
+132
+00:19:49.140 --> 00:20:03.709
+James Ebert: Yes, so When you love the 0 on the browser. oh, for Android, when you visit the page it'll immediately try and open up a application, using an android intent.
+
+133
+00:20:04.530 --> 00:20:06.060
+James Ebert: so
+
+134
+00:20:07.170 --> 00:20:19.289
+James Ebert: one of these guys. and if they have an app that is capable of handling that, it will. why, you just select the app and and open the invitation
+
+135
+00:20:19.510 --> 00:20:28.890
+James Ebert:  on the Ios behavior. Hang on before you leave there. What happens if you don't already have an app installed and it tries the android intent
+
+136
+00:20:30.050 --> 00:20:43.290
+James Ebert: it will fail. And we'll leave you on the page. And so what we probably want to add to the  behavior. Here is.
+
+137
+00:20:44.090 --> 00:20:52.510
+James Ebert: information for downloading a having a list of of options for downloading an app. If you don't already have one
+
+138
+00:20:53.680 --> 00:21:06.609
+Sam Curren (TelegramSam): right? So I don't have that here yet, but that would be ideal. And and so when the page loads to skip up and skip back 1 s it does some some Javascript evaluation to figure out whether you're on Ios or Android.
+
+139
+00:21:06.990 --> 00:21:13.700
+Sam Curren (TelegramSam): Yeah. And then if it's android, it does the stuff you just described. And if it's ios, then, then keep going.
+
+140
+00:21:14.110 --> 00:21:14.940
+James Ebert: Yeah.
+
+141
+00:21:15.320 --> 00:21:19.570
+James Ebert: for Ios, the behavior is that
+
+142
+00:21:21.240 --> 00:21:26.420
+James Ebert: you will get to the web page and then once you
+
+143
+00:21:27.140 --> 00:21:29.060
+James Ebert: choose.
+
+144
+00:21:29.200 --> 00:21:36.069
+James Ebert: which option we want to go to? this URL that you clicked on would take you to.
+
+145
+00:21:36.310 --> 00:21:55.769
+James Ebert: there's the 2 options. If you have the app already installed, it will detect that. Hey? You're trying to go to Oh, actually, just click here! This is the the URL that I configured it to be on, and if it, if you already have the app installed, it'll immediately take you into the app and not actually resolve this in the browser.
+
+146
+00:21:55.870 --> 00:22:08.010
+James Ebert: If you don't have the app installed, it'll take you here, and you'll want to have marketing information to indicate. Hey, this is how you install on Ios and take you over to the app store.
+
+147
+00:22:08.060 --> 00:22:19.750
+James Ebert:  yeah. Did that answer your question, Sam? It totally did.
+
+148
+00:22:19.880 --> 00:22:28.299
+Clecio Varjao: What do you mean it? The taxes to app install or not? Is that based on the domain that it we're mouseing over?
+
+149
+00:22:28.960 --> 00:22:47.559
+James Ebert: Yes. So specifically, this domain here. I've set up a apple App side association, so it will detect if I visit the specific URL and will bypass the browser and put it into the app.
+
+150
+00:22:51.820 --> 00:22:56.280
+Clecio Varjao: Okay. But in your case is the Didcom dot James something.
+
+151
+00:22:57.500 --> 00:23:01.639
+James Ebert: I set up the universal. Yeah.
+
+152
+00:23:01.650 --> 00:23:08.839
+Clecio Varjao: okay. But you're proposing that we have this selector somewhere, maybe did come on page
+
+153
+00:23:09.060 --> 00:23:11.499
+Clecio Varjao: a Didcone domain or something like that.
+
+154
+00:23:11.790 --> 00:23:15.320
+James Ebert: Yes, and the benefit here is, it allows
+
+155
+00:23:15.550 --> 00:23:21.199
+James Ebert: the user to choose from a variety of applications versus
+
+156
+00:23:21.420 --> 00:23:26.060
+Clecio Varjao: or having it be between the issue or and as the the specific holder
+
+157
+00:23:26.230 --> 00:23:31.349
+Clecio Varjao: right. But but in that case, then there.
+
+158
+00:23:32.100 --> 00:23:36.749
+Sam Curren (TelegramSam): there, there shouldn't be an app register correct.
+
+159
+00:23:37.660 --> 00:23:46.680
+Sam Curren (TelegramSam): So the the ability to register the app sort as the automatic thing allows for those that do have an app that they want to promote.
+
+160
+00:23:46.760 --> 00:23:56.990
+Sam Curren (TelegramSam): they can. they can, of course, take this code and or any modification of it, and then and then stick it and configure it to launch their own app by default.
+
+161
+00:23:57.850 --> 00:24:09.649
+Sam Curren (TelegramSam): The The idea of a community selected one is for those that want the invites to work with a variety of apps and art. Promoting a a specific app themselves, could then use the community hosted one in order to make that happen.
+
+162
+00:24:10.130 --> 00:24:23.960
+Clecio Varjao: Okay, so I suggest that you, the app vendor, say, BC app holder, you could. If you have your own domain, register. You go directly to your wallet. Do not suggest any community
+
+163
+00:24:24.240 --> 00:24:30.650
+Clecio Varjao: select to whatsoever. but if you want to support the committee selector
+
+164
+00:24:30.850 --> 00:24:36.589
+Clecio Varjao: then you wouldn't be whole, you'd be using that domain, you'd be using it.
+
+165
+00:24:36.780 --> 00:24:47.530
+Sam Curren (TelegramSam): and there would be no.
+
+166
+00:24:50.730 --> 00:24:51.660
+Clecio Varjao: thank you.
+
+167
+00:24:52.090 --> 00:25:00.550
+Tim Bloomfield: Is there a way to save your preference? Once you because you want to use this every once you have an app install, and you're using it all the time.
+
+168
+00:25:00.860 --> 00:25:04.230
+Tim Bloomfield: You may just want to say that I always want to go to this one.
+
+169
+00:25:05.560 --> 00:25:17.769
+James Ebert: I've thought about that and I haven't actually implemented anything. But I thought that you. We could utilize some form of cookies. especially if it's a more consistent community selector than
+
+170
+00:25:17.800 --> 00:25:23.139
+James Ebert: I. I could see that being done. But I haven't actually implemented that behavior.
+
+171
+00:25:24.360 --> 00:25:25.470
+Tim Bloomfield: Thanks
+
+172
+00:25:28.200 --> 00:25:30.860
+Sam Curren (TelegramSam): Kim with your hand is up to the did that get answered?
+
+173
+00:25:31.300 --> 00:25:46.869
+Kim Ebert: No. I was. Gonna say that. the community selector we'd likely want to make the open source, so that if you wanted to have custom branding on your own landing page, or something, you could do so, but still have the list of community available apps
+
+174
+00:25:47.440 --> 00:25:48.350
+Sam Curren (TelegramSam): totally.
+
+175
+00:25:50.020 --> 00:26:18.680
+Sam Curren (TelegramSam): and the in the in the configure list of community apps can be obviously hosted like a Github repo, and that asset could be read out by anyone, even if you're not using sort of the community hosted version of it. So this config file was what it's based off of, and that and that could be that could be pulled in and utilized. And so when people had an app that they wanted to be involved in the community selector, that that would happen just via a pull request to the the the Pr. That or the the repo that holds this configuration file
+
+176
+00:26:18.790 --> 00:26:23.880
+Sam Curren (TelegramSam): in that way that could be open for, and again, the whole thing is voluntary, both for the configuration.
+
+177
+00:26:23.970 --> 00:26:30.420
+Sam Curren (TelegramSam): configuration, and the usage of it. But but he has some really nice advantages for those that do want to use it.
+
+178
+00:26:33.550 --> 00:26:41.410
+Colton Wolkins: So I kind of miss the sort of the demo when you're doing android. But I believe when I tabbed over or tab back to here.
+
+179
+00:26:41.500 --> 00:26:44.720
+Colton Wolkins: that the from the
+
+180
+00:26:45.070 --> 00:26:46.350
+Colton Wolkins: questionnaire
+
+181
+00:26:47.030 --> 00:26:51.759
+Colton Wolkins: didn't that open up the android app picker.
+
+182
+00:26:52.210 --> 00:26:58.459
+Colton Wolkins: and if so like, doesn't at least in Android's case, doesn't have like a choose this one by default.
+
+183
+00:26:59.670 --> 00:27:01.070
+Sam Curren (TelegramSam): It it does.
+
+184
+00:27:01.090 --> 00:27:15.529
+Sam Curren (TelegramSam): Most of the annoyingness that's being solved here is the fact that Ios doesn't have an intent system like Android does. And so we're compensating for that and removing as much of the jenkiness as possible.
+
+185
+00:27:15.930 --> 00:27:24.349
+Sam Curren (TelegramSam): Okay, so if you're on android it simply tries to launch the intent and then android, it handles that intelligently both. If you have it installed. And if you don't
+
+186
+00:27:24.450 --> 00:27:54.059
+Sam Curren (TelegramSam): so really, the remember my choice is, is an Ios related issue via Cookies, anyway, is is an Ios related issue because it doesn't have anything of the sort. So for those that don't understand. If you do attempt to launch something even from a protocol perspective on ios the in in. You have one, or if you have more than one application installed, that's capable of handling that, then the the which app opens or gets. It is like
+
+187
+00:27:54.540 --> 00:28:18.579
+Sam Curren (TelegramSam): it's a semi undefined behavior like it may happen randomly, which is really unhelpful and so rather than rely on the same type of a thing that that from a protocol perspective that Ios supports then falling to the universal links, which is weirdly named, but but but is, is linked to a specific app is the method that that James is is using here.
+
+188
+00:28:19.970 --> 00:28:27.219
+Sam Curren (TelegramSam): So this is an attempt to provide each OS with the the best that that OS can can manage, and there's a lot more handholding required on the Ios side.
+
+189
+00:28:33.380 --> 00:28:45.239
+Sam Curren (TelegramSam): So the the idea behind the community selector is for for those that don't are not promoting a specific app. And and certainly you could use this code in the open source way, as as as Kim mentioned.
+
+190
+00:28:45.650 --> 00:28:46.870
+Sam Curren (TelegramSam): you can.
+
+191
+00:28:47.650 --> 00:29:16.839
+Sam Curren (TelegramSam):  you could always copy and use it yourself, of course, to great utility. But there's there. It it also kind of makes sense to host a community version of this that prefers no app specifically in order to to make that happen. The the other thing that could be done, and to avoid preference. James talked about. we had some ideas that you might want to indicate that a specific goal code or or something was was involved, and you could specify that or the the community, because selector could respond to that
+
+192
+00:29:16.840 --> 00:29:22.760
+Sam Curren (TelegramSam): meaning. It could auto filter by the types of apps capable of receiving that sort of thing, and in order to guide the users.
+
+193
+00:29:22.760 --> 00:29:38.269
+Sam Curren (TelegramSam): and we could also, after the list is selected, it could randomize that list to to show no preference one over another. you know, when that's created on the community holder. again, to to avoid showing a preference there.
+
+194
+00:29:39.620 --> 00:29:54.659
+Sam Curren (TelegramSam): since this is a did-com, it kind of issue, even though it's heavily of a concern of the areas. Community. one of the proposed places to host. This would be on, did come org which is hosted over at the diff with the the users group there.
+
+195
+00:29:55.020 --> 00:30:06.039
+Sam Curren (TelegramSam): simply because it is a did come specific issue, and this would allow for any you know, out of band invitations to to to link through and then leverage that community selector
+
+196
+00:30:06.870 --> 00:30:11.209
+Sam Curren (TelegramSam): that would be of use to us, but not necessarily something that this community would have to do independently.
+
+197
+00:30:20.620 --> 00:30:22.199
+James Ebert: Any other questions
+
+198
+00:30:28.010 --> 00:30:28.830
+James Ebert: awesome.
+
+199
+00:30:28.990 --> 00:30:37.960
+Sam Curren (TelegramSam): Thank you. So so to be a little more direct. Is this stunned silence as in this is amazing, or is it stunned? Silence? Is this the dumbest thing I've ever seen.
+
+200
+00:30:43.290 --> 00:30:48.689
+Sam Curren (TelegramSam): even if you don't have anything to say about it getting a reaction from things you think would be.
+
+201
+00:30:48.830 --> 00:31:01.150
+Tim Bloomfield: I'll give it a thumbs up, so I mean there is a really hard problem, and Ios is not made it easy, and the danger of all of this stuff is going back to the Id see world where only a few big providers are ever
+
+202
+00:31:02.170 --> 00:31:07.559
+Tim Bloomfield: included. So no, this is. This is a great, great approach for some I'm sorry to try and resolve on
+
+203
+00:31:09.450 --> 00:31:18.919
+Sam Curren (TelegramSam): cool, and I there's a thumbs up from from akee as well. and a comment from Tim, and anyone else want to voice an opinion or flash an emoji on the reactions thing.
+
+204
+00:31:19.630 --> 00:31:32.469
+Colton Wolkins: I I think it's actually pretty amazing, because not only like, are we having this, you know, selector that says, Choose your app that you want to launch. But this does provide that sort of
+
+205
+00:31:32.510 --> 00:31:39.590
+Colton Wolkins: advertising avenue where, if someone goes to one of these links and they've never heard of one of these apps before
+
+206
+00:31:40.050 --> 00:31:45.830
+Colton Wolkins: they get to view sort of all the different apps that are available and check them out.
+
+207
+00:31:47.160 --> 00:31:49.280
+Colton Wolkins: Nice discovery process that way.
+
+208
+00:31:53.990 --> 00:32:06.880
+Clecio Varjao: I think this is great. I I I I think the only maybe thing would be provide a hint where the maybe the issue verifier may have a opinion, maybe
+
+209
+00:32:06.930 --> 00:32:12.070
+Clecio Varjao: a wall that support a specific protocol in a way that they need to provide
+
+210
+00:32:12.980 --> 00:32:18.290
+Clecio Varjao: so by hand where they should verify, can also,
+
+211
+00:32:19.100 --> 00:32:22.730
+Clecio Varjao: have opinion about which one or which one to choose.
+
+212
+00:32:22.990 --> 00:32:32.990
+Sam Curren (TelegramSam): So you're talking about the community selector, which is supposed to have no opinion but that the creator of the invitation could express an opinion about the ones they think got to be at the top. Is that the idea? Yes.
+
+213
+00:32:33.390 --> 00:32:34.810
+Sam Curren (TelegramSam): cool idea!
+
+214
+00:32:35.060 --> 00:32:47.819
+Sam Curren (TelegramSam): And and I think, given that that's the the invider. That's their preference. I think that that would be a cool. It would be their preference again, if thing fighter or the verifier. Whoever is creating that the
+
+215
+00:32:48.230 --> 00:32:53.639
+Clecio Varjao: that link doesn't have in practice in that side, it goes into the the the list
+
+216
+00:32:53.910 --> 00:33:12.419
+Sam Curren (TelegramSam): right? Which which means that there's a yeah, that's a nice halfway ground between using the community sector with no opinion. And and and then have it, and then creating your own, of course, which expresses your opinion. That's a nice middle ground to be able to press preferencing. So given that Android will
+
+217
+00:33:13.290 --> 00:33:17.129
+Clecio Varjao: maybe take it to a dead end. If the app is not installed.
+
+218
+00:33:18.070 --> 00:33:21.420
+Clecio Varjao: would maybe the same approach address that
+
+219
+00:33:24.550 --> 00:33:40.109
+Sam Curren (TelegramSam): it could be. You can't. You can't really detect on Ios or on Android. Actually, that the app is installed without just attempting to throw the user over there, which is why they're gonna have to click on the. You know they have to use the the Nascar selection page here to make that happen
+
+220
+00:33:40.820 --> 00:33:57.289
+James Ebert: so what could be done, though, is that if they don't have any apps installed, or, if they like, paste it, the the specific, they they paste it into chrome. It'll load the page without actually auto directing them, and you could have
+
+221
+00:33:57.400 --> 00:34:09.970
+James Ebert: we could have information like, Oh me! To install an app and and and give them a list of options that could also be configured alongside the Ios ones that that could be an option there.
+
+222
+00:34:11.170 --> 00:34:11.980
+Right
+
+223
+00:34:13.909 --> 00:34:17.840
+Sam Curren (TelegramSam): So Colton mentions in the chat. the
+
+224
+00:34:18.429 --> 00:34:45.209
+Sam Curren (TelegramSam): the issuer request a while with with Q. A. Support, but not all all support. Q. A. There, there's the the the Tse way of doing that would be a goal code. but certainly I have thought about the A. An enumeration of the of the type of protocols being supported in a way to derive that out of the invitation with as little a hassle as possible, in order to sort of recommend the apps that support the types of protocols that you would need
+
+225
+00:34:45.210 --> 00:34:55.540
+Sam Curren (TelegramSam): And so obviously, we want to to approach that sort of a thing with care. But but definitely the more useful we can make this without without getting ourselves in trouble the the the better.
+
+226
+00:34:55.760 --> 00:35:03.710
+Sam Curren (TelegramSam): and by getting ourselves in trouble wasn't a a sense of at preference, but just making it so complex that no one can use. It is what I meant by getting ourselves in trouble.
+
+227
+00:35:06.710 --> 00:35:08.629
+Sam Curren (TelegramSam): But this is, it is a fantastic shot.
+
+228
+00:35:10.020 --> 00:35:19.329
+Sam Curren (TelegramSam): and thank you for comments any other. I I don't. Is anyone in particular think this is a bad idea. We've we've heard things and voiced, and so in favor of it, but I don't want to.
+
+229
+00:35:27.180 --> 00:35:28.050
+Sam Curren (TelegramSam): Awesome.
+
+230
+00:35:28.430 --> 00:35:41.430
+Sam Curren (TelegramSam): This may have been obviously what I said before, but I think this is this is great. We talked about this and about the conceptual like, how you would handle this sort of a thing. And and James just did it instead of talking about it so awesome.
+
+231
+00:35:41.590 --> 00:35:43.369
+Sam Curren (TelegramSam): Steven gets a thumbs up as well
+
+232
+00:35:44.500 --> 00:35:45.390
+Sam Curren (TelegramSam): cool.
+
+233
+00:35:46.070 --> 00:35:50.779
+Sam Curren (TelegramSam): I I just one last come, I'm assuming there is some
+
+234
+00:35:51.270 --> 00:36:02.209
+Clecio Varjao: type of governess or approval about who gets into that list mainly to avoid potentially bad actors or hackers who have
+
+235
+00:36:02.910 --> 00:36:05.639
+Clecio Varjao: clone wallets that are open source and
+
+236
+00:36:06.000 --> 00:36:09.070
+Clecio Varjao: create ones that are not great.
+
+237
+00:36:09.160 --> 00:36:16.540
+Sam Curren (TelegramSam): Oh, I see what you're saying. so the governance is going to end up being controlled by the repository that this is put inside of
+
+238
+00:36:17.060 --> 00:36:25.399
+Sam Curren (TelegramSam): And so the community that to to sort of manage that this is the I think, is the did come users group
+
+239
+00:36:25.470 --> 00:36:40.059
+Sam Curren (TelegramSam): and and and in what that's open, anyone can be involved there and have an opinion etc. And in any conflict server issues would be resolved by the Maintainer of the repo. Right? That's the the the governance that
+
+240
+00:36:40.800 --> 00:37:05.069
+Sam Curren (TelegramSam): by default, when things are managed in again a repo and so so that that would apply there. But but, James, we're we're likely going to need to in the repo itself, describe a little bit of that, just a sort of baseline governance that could be expanded later. If we need to help people understand what's going on here and and who makes choices meaning those in the community that that serve as maintainers, etc.
+
+241
+00:37:05.070 --> 00:37:12.199
+Sam Curren (TelegramSam): And that way that can all be observed in the in the actions of the Github Repository, that manages the the the config file in the code.
+
+242
+00:37:13.330 --> 00:37:23.240
+Clecio Varjao: I I I just asking to avoid really bad actors that are hackers call on things and want to side load an app that is potentially just
+
+243
+00:37:23.470 --> 00:37:25.170
+Clecio Varjao: broadcasting other.
+
+244
+00:37:25.250 --> 00:37:27.899
+Clecio Varjao: I don't know private keys and stuff.
+
+245
+00:37:29.720 --> 00:37:46.620
+James Ebert: There's a possibility, Sam. We have part of that governance. Some like verifying the app is on the the like. It it appears to be coming from a correct author on the individual app store, or something like that.
+
+246
+00:37:47.070 --> 00:38:16.390
+Sam Curren (TelegramSam): Yes. Well, there's also the issue of good, intense, but failure to deliver, which means that someone has built an app, and and it has the best intentions in mind. But but the the user experience going into it is not great. What do we do as a community? Right? There's a handful of edge cases. There, there's the there's the bad actor thing, which is a lot less hard to to ferret out. There's also some issues of like, you know, or what happens if you have an app that is no longer supported, but was in the list. But now is having issues like, how do we? How do we handle those sorts of things right?
+
+247
+00:38:17.140 --> 00:38:21.400
+Sam Curren (TelegramSam): Yeah, and that that's a piece of governance there as as well. That's necessary.
+
+248
+00:38:23.790 --> 00:38:25.609
+Sam Curren (TelegramSam): So absolutely.
+
+249
+00:38:26.070 --> 00:38:37.640
+Stephen Curran: I I believe the way I'm understanding this is, there's 2 parts, there's both the. There's the code to do this. And then there's deployments of the code, one of which could be a Dcom org.
+
+250
+00:38:38.010 --> 00:38:41.570
+Stephen Curran: Yes, that's correct. So, in other words.
+
+251
+00:38:41.800 --> 00:38:45.940
+Stephen Curran: there could be a pan-canadian hosting of this
+
+252
+00:38:46.070 --> 00:38:51.019
+Stephen Curran: which only needs the governance from the pan-canadian community. And so
+
+253
+00:38:51.210 --> 00:38:57.870
+Stephen Curran: absolutely okay, that's what I thought, so that that can lead to different governance.
+
+254
+00:38:58.380 --> 00:39:03.940
+Stephen Curran:  for the to basically choose which one to use at that point.
+
+255
+00:39:04.750 --> 00:39:05.780
+Sam Curren (TelegramSam): Yes.
+
+256
+00:39:05.990 --> 00:39:06.860
+okay.
+
+257
+00:39:08.580 --> 00:39:16.110
+Sam Curren (TelegramSam): the the goal behind the did come 1 one is not that everyone uses it, but but that people can use it if they don't have a reason to have an independent one.
+
+258
+00:39:16.160 --> 00:39:32.799
+Sam Curren (TelegramSam): and then anyone who does have that have more strict requirements, and I imagine governments will have opinions about this sort of thing can, of course, run the code themselves which could point to whatever config they want, and they could only allow specific applications that have been vetted according to their governance process.
+
+259
+00:39:33.410 --> 00:39:36.210
+James Ebert: Yes, so this is a good example.
+
+260
+00:39:36.520 --> 00:39:50.620
+James Ebert: Is the URL shortening where we may not want to host all that infrastructure for the back end on to con dot, or but someone who needs the URL shorting as a good use case with them, having their own instance of that.
+
+261
+00:39:52.020 --> 00:39:52.760
+Sam Curren (TelegramSam): Yeah.
+
+262
+00:39:53.900 --> 00:39:56.460
+Sam Curren (TelegramSam): it's a good example. Kim.
+
+263
+00:39:57.430 --> 00:40:03.490
+Kim Ebert: I'm going to voice a an opposing view here for a moment.
+
+264
+00:40:03.600 --> 00:40:09.629
+Kim Ebert: we're we're under the assumption here that people have multiple wallets installed on their phone.
+
+265
+00:40:09.750 --> 00:40:15.529
+Kim Ebert: it, it might be. perhaps my perspective here is that.
+
+266
+00:40:15.590 --> 00:40:27.949
+Kim Ebert: be much like browser where people will have one app that they'll choose to manage their wallets under. And so this problem that we're trying to solve may not actually be a thing.
+
+267
+00:40:29.590 --> 00:40:31.550
+Sam Curren (TelegramSam): so
+
+268
+00:40:31.900 --> 00:40:37.090
+Sam Curren (TelegramSam): if there was a universally good way to indicate that on Ios and Android I would agree with you.
+
+269
+00:40:37.140 --> 00:40:53.799
+Sam Curren (TelegramSam): And the mechanisms on Android can allow people to say, No, this is the app I want to use or actually in in in Android. If there's only one app installed, it just goes directly to the app and doesn't give you the selector. So in that case that the the problem you indicate where most people will only have one is a non-issue on Android
+
+270
+00:40:54.480 --> 00:40:59.140
+Sam Curren (TelegramSam): on Ios. They may only have one, but we can't actually detect that
+
+271
+00:40:59.190 --> 00:41:18.750
+Sam Curren (TelegramSam): And so we don't know if they have 0 or one or more installed. And so this is a reasonable compromise by allowing people to to pick that application and then press checking a box. It says, Remember my choice that will then effectively bypass that automatically and then launch it into that application in the future for that user.
+
+272
+00:41:19.200 --> 00:41:29.849
+Sam Curren (TelegramSam): So I I think that in in the android case. If that happens, then then it's actually really fluid. And and it doesn't happen. But it also gives the user. If they click a link.
+
+273
+00:41:29.910 --> 00:41:35.130
+Sam Curren (TelegramSam): and they don't have an app install. They can guide them to install that app which I think is really useful.
+
+274
+00:41:35.900 --> 00:41:54.400
+Sam Curren (TelegramSam): So I think you're. You're right that the common case is not more than one app, but even in the not more than one at case I I think, that still provides a substantial amount of utility to the user. in order to make this happen, and certainly some utility to the to the issue or or the person. You know the producing the QR code invite
+
+275
+00:41:54.420 --> 00:41:57.570
+Sam Curren (TelegramSam): because of the abstraction that it lets them have. Tim.
+
+276
+00:41:57.870 --> 00:42:05.140
+Tim Bloomfield: Yeah, it also does one of the thing. I think it's important. It it moves the risk. Very real risk that issuers verifies with this, lock it
+
+277
+00:42:05.240 --> 00:42:19.849
+Tim Bloomfield: to a specific app. If they don't have a mechanism kind of like this. So I mean, that's what that's what Apple wants you to do right. Their whole design is for for for an app to be tied to domain, and that's the only outlook is launched. So
+
+278
+00:42:19.930 --> 00:42:25.699
+Tim Bloomfield: that's that's the flip side of this is that they should just start to say I'm going to support Apple wall or wanting to support this. So that
+
+279
+00:42:26.020 --> 00:42:26.850
+so
+
+280
+00:42:27.210 --> 00:42:33.600
+Sam Curren (TelegramSam): and they still may. But at least we're giving them an option here. Yeah, at least we're giving them an option that makes sense
+
+281
+00:42:37.150 --> 00:42:39.150
+Sam Curren (TelegramSam): cool any of the comments.
+
+282
+00:42:41.810 --> 00:42:46.829
+Colton Wolkins: I was just gonna say that with the case that Kim brought up of
+
+283
+00:42:47.450 --> 00:42:50.180
+Colton Wolkins: like, how you know, people might have things stored in
+
+284
+00:42:50.260 --> 00:43:01.690
+Colton Wolkins: one browser whatnot like even my phone. Since I have multiple browsers on my phone, it still brings up the selection popper whenever I open up links. Because I've not set that default Browser.
+
+285
+00:43:01.970 --> 00:43:10.840
+Colton Wolkins: it's the same concept with windows. You open up a photo editor, and you know you may only have one photo editor. So it local to default. But if you happen to have more
+
+286
+00:43:10.920 --> 00:43:13.260
+Colton Wolkins: it'll ask you until you pick that default.
+
+287
+00:43:16.950 --> 00:43:17.880
+Sam Curren (TelegramSam): Good point.
+
+288
+00:43:23.740 --> 00:43:24.710
+Sam Curren (TelegramSam): Awesome.
+
+289
+00:43:24.880 --> 00:43:33.499
+Sam Curren (TelegramSam): Thank you, James, for obviously doing the work, but also presenting with us here today. I think further discussions will happen on
+
+290
+00:43:33.860 --> 00:43:43.119
+Sam Curren (TelegramSam): on the community. Hosted version of that are likely to happen in the Didcom Users Group and we can provide updates, as it happens, but I think the main discussion will happen over there.
+
+291
+00:43:43.430 --> 00:43:50.160
+Sam Curren (TelegramSam): and then we can begin to experiment and correct and improve, etc., based on the work that James has done.
+
+292
+00:43:50.410 --> 00:43:52.030
+Sam Curren (TelegramSam): So thank you for that.
+
+293
+00:43:52.230 --> 00:44:01.499
+Sam Curren (TelegramSam):  So Next up on the agenda is the unqualified. Did migration update
+
+294
+00:44:01.590 --> 00:44:14.530
+Sam Curren (TelegramSam): And this is the the goal to summarize, of moving off of any unqualified Ds that remain in the ecosystem but in a way that transitions them to did peer dids. Which can help that to happen? I have done
+
+295
+00:44:15.050 --> 00:44:24.020
+Sam Curren (TelegramSam): a little bit of work I had volunteered last week. The first one here is that I've made a couple of changes to the to the
+
+296
+00:44:24.080 --> 00:44:26.889
+Sam Curren (TelegramSam): the did
+
+297
+00:44:27.530 --> 00:44:50.919
+Sam Curren (TelegramSam): peer method spec for Num. I'll go 3, as suggested by by Daniel Bloom, and so it. It actually moves from a lowercase hexadecimal encoding, to use a multi hash based 60 58 Btc. Encoding so your your notice, the Z here, which is the the indicator of what? Of what? The type of this hash actually is?
+
+298
+00:44:51.060 --> 00:45:05.159
+Sam Curren (TelegramSam): and so, and the examples have been updated to make this happen. there's one notable one here in that. The the starting thing that we has with includes the the.to make you consistent with the instructions. that existed here, meaning we
+
+299
+00:45:05.160 --> 00:45:19.359
+Sam Curren (TelegramSam): We exclude the the did pier 2 prefix, but that leaves the.as the as the separator value for for this to actually happen. So so here are the changes that I have made to the spec, and and according to that
+
+300
+00:45:19.360 --> 00:45:42.849
+Sam Curren (TelegramSam): But And and and this definitely needs some review by by folks that that care to to make sure that that has been done correctly. I got a comments from both Daniel Bloom, who contributed a a, a, a, a a fix, or a clarification, and Daniel Hardman as well. that that's gonna do this. So he it mentioned he will merge by the end of the week unless someone objects.
+
+301
+00:45:43.020 --> 00:45:50.080
+Sam Curren (TelegramSam): And so so that's there. So please speak up. If you see corrections or improvements that need to be made on that
+
+302
+00:45:50.280 --> 00:45:55.930
+Sam Curren (TelegramSam): The other thing that that I that I had committed to do was to
+
+303
+00:45:56.540 --> 00:46:19.799
+Sam Curren (TelegramSam):  was to write the beginning of the unqualified D's transition community coordinated update, which I have done here. and so the this is a new Rfc that follows that same pattern that actually talks about what needs to happen with the the links to the relevant places. And in in the steps that will actually occur. As part of that
+
+304
+00:46:19.800 --> 00:46:43.180
+Sam Curren (TelegramSam): I preliminarily targeted this at the middle of October. But of course this whole thing is subject to debate, and there's actually some pre work that needs to happen, meaning everything. It has to be nailed down before we can really like you know, change the status on this, and it's something that we're targeting as a as a community. so I I just wanted to highlight those steps forward and the the need for review and feedback there. Steven,
+
+305
+00:46:44.050 --> 00:47:07.350
+Sam Curren (TelegramSam): an hour ago. has has made a couple of of of really good comments, including this one. I did not mention that that the public dids that are unqualified need to be transitioned to whatever appropriate did. Method there is so did solve might be one of them. there we're we're still rolling out support for did indie across all the ledgers. The code's been written, but but updates are required to make that happen.
+
+306
+00:47:07.350 --> 00:47:20.980
+Sam Curren (TelegramSam): and so and so that needs to be addressed here. and then, Stephen, you also mentioned that there's some open issues on this legacy. Did transformation. And then perhaps the transformation ought to be
+
+307
+00:47:21.480 --> 00:47:30.820
+Sam Curren (TelegramSam): included in this repo directly, as opposed to linked to a a separate repository. any comments you want to make there? Or is that? And I said.
+
+308
+00:47:31.790 --> 00:47:48.789
+Stephen Curran: Yeah, I open some issues, I maybe what I'll do is just do some pedrs against his team motion repo but I still think I'd rather see this via just a link to an appendix of this V of this pr, of sorry, this Rfc. Rather than in a
+
+309
+00:47:49.040 --> 00:47:53.820
+Stephen Curran: you know in teams. account. That's all
+
+310
+00:47:55.030 --> 00:48:09.770
+Sam Curren (TelegramSam): right. And I I I I I had waffled on that and ended up linking it so that it would come up in discussion, and then we could certainly reference back his original work. I don't want to remove credit for the work that they've done, but it would be really useful to have it just aligned, you know, with
+
+311
+00:48:09.880 --> 00:48:16.270
+Sam Curren (TelegramSam): in from a repository perspective, we stored alongside so that there aren't any confusing issues, or whatever else.
+
+312
+00:48:18.040 --> 00:48:21.610
+Sam Curren (TelegramSam):  cool
+
+313
+00:48:22.800 --> 00:48:30.569
+Sam Curren (TelegramSam):  So you also mentioned there's are these a couple more things that that need to be resolved?
+
+314
+00:48:30.820 --> 00:48:32.060
+Sam Curren (TelegramSam): that looks
+
+315
+00:48:32.100 --> 00:48:34.140
+Sam Curren (TelegramSam): close. I think we fix this
+
+316
+00:48:36.380 --> 00:48:40.290
+Sam Curren (TelegramSam):  And so.
+
+317
+00:48:40.480 --> 00:48:43.039
+Sam Curren (TelegramSam): and I think this was Daniel's issue
+
+318
+00:48:44.850 --> 00:48:48.710
+Sam Curren (TelegramSam): 50, which which I which I'm addressing with the Pr.
+
+319
+00:48:48.820 --> 00:48:50.850
+Sam Curren (TelegramSam): what was 53.
+
+320
+00:48:52.810 --> 00:48:53.960
+Sam Curren (TelegramSam): It's closed.
+
+321
+00:48:54.610 --> 00:49:00.030
+Sam Curren (TelegramSam): So. so I think the I think the issues are done pending that that merge
+
+322
+00:49:00.040 --> 00:49:03.080
+Sam Curren (TelegramSam): And and then we have the
+
+323
+00:49:04.130 --> 00:49:11.790
+Sam Curren (TelegramSam): we, of course, have the the issues against what Tima has written, just to make sure that any clarifications land there, and then
+
+324
+00:49:12.310 --> 00:49:32.110
+Sam Curren (TelegramSam): and then and then we could actually kind of make this happen. we discussed last time. These are. There's a notes copied over from last time. about did peer versus do also including did, did pier 3, And so this is this is the the indicator. There. One of the remaining issues is that I believe we need to
+
+325
+00:49:32.170 --> 00:49:57.149
+Sam Curren (TelegramSam): indicate somewhere how you could discover support for the did method of did, or the Namalgo of Did pier 3 with the discover features protocol, and that would allow you, prior to transitioning a message over to to Did Pier 3. You could detect support for that on the other side, and I don't believe that's been documented anywhere about how that might actually occur, which I think would be a necessary part of adding, did pier 3. Support
+
+326
+00:49:57.150 --> 00:50:03.350
+Sam Curren (TelegramSam): did pier 3 being an optimization of Did Pier 2 that both parties can use as long as they support it. The
+
+327
+00:50:03.610 --> 00:50:19.930
+Sam Curren (TelegramSam): and so, detecting support on the other side turns out to be an important piece of that and of course we have the discover features protocol. So that's the right way to do that I think within within did comp. But we haven't described what indicator should be used in that protocol.
+
+328
+00:50:23.460 --> 00:50:25.650
+Sam Curren (TelegramSam): Any questions or comments about
+
+329
+00:50:25.870 --> 00:50:28.770
+Sam Curren (TelegramSam): anything related to the did peer
+
+330
+00:50:29.220 --> 00:50:31.059
+Sam Curren (TelegramSam): unqualified, did migration
+
+331
+00:50:31.350 --> 00:50:38.520
+Clecio Varjao: I. I was trying to find the Pr. That you mentioned about going from basics far to base 58,
+
+332
+00:50:39.360 --> 00:50:40.630
+Sam Curren (TelegramSam): that is.
+
+333
+00:50:40.880 --> 00:50:44.209
+Sam Curren (TelegramSam): that's here. It's a Pr 55 on the pure method.
+
+334
+00:50:44.500 --> 00:50:53.370
+Clecio Varjao: Take care of my paste. That what is the motivation behind that? Because basically it is not.
+
+335
+00:50:54.640 --> 00:51:01.659
+Clecio Varjao: is not a package or algorithm that is provided pretty side of the box to note. So we need to kind of a third party library.
+
+336
+00:51:02.320 --> 00:51:05.429
+Sam Curren (TelegramSam): the this was
+
+337
+00:51:07.100 --> 00:51:15.020
+Sam Curren (TelegramSam): Daniel's recommendation. Base 58 avoids. Should you end up in a circumstance where you have to transcribe something and avoids confusing characters?
+
+338
+00:51:15.040 --> 00:51:29.379
+Sam Curren (TelegramSam): which is the why, the the reason it was created? and so this is the issue that that motivated this and it. And this is really to remain more consistent with the other methods. So did Pier 2 uses the same encoding.
+
+339
+00:51:29.440 --> 00:51:30.750
+Sam Curren (TelegramSam): sorry.
+
+340
+00:51:31.650 --> 00:51:40.440
+Sam Curren (TelegramSam): yes, So this here, too, uses the same encoding. So did pier 3 using this encoding? Presumably it doesn't add any additional code complexity
+
+341
+00:51:40.520 --> 00:51:54.370
+Clecio Varjao: because of the existing dependency. So if the motivation behind is to make it easy to transcribe, and I understand base. If date again, Bitcoin uses that for removing kind of ambiguous characters, 0 with.
+
+342
+00:51:54.380 --> 00:52:02.780
+Clecio Varjao: and let oh, and so on to be easy to type. It is this a direction that we're moving, to make it
+
+343
+00:52:03.830 --> 00:52:06.599
+Clecio Varjao: easy to type it in? No.
+
+344
+00:52:07.110 --> 00:52:31.999
+Sam Curren (TelegramSam): at this point that was just the way that did pier 2 was written. And so this is just maintaining a consistency with what did Pier 2 was doing? This is not a change. So it did. Pier 2 is that it's it's been doing this all long. there's definitely no recommendation, of course, that an invitation you are. I'll be transcribed. But it does help when you're looking and debugging stuff to, you know, to be able to look at it as a as it is. But the real motivation is just consistency
+
+345
+00:52:32.380 --> 00:52:39.430
+Sam Curren (TelegramSam): is that it was done before, and there isn't a super compelling reason to not do it. Given that it's not an additional dependency that we're adding in this step.
+
+346
+00:52:39.780 --> 00:52:44.790
+Clecio Varjao: okay, and I guess where I'm going is that is that
+
+347
+00:52:45.020 --> 00:52:47.500
+Clecio Varjao: again you said there is no direction. But, he said.
+
+348
+00:52:47.640 --> 00:52:56.790
+Clecio Varjao: set press it as now, ob and all those payload for ur else to move towards base 58 or not. Necessarily.
+
+349
+00:52:57.030 --> 00:53:02.610
+Sam Curren (TelegramSam): No, not necessarily. This is just within the period that the did method, the peer did method spec itself.
+
+350
+00:53:03.320 --> 00:53:04.210
+Clecio Varjao: Okay, thank you.
+
+351
+00:53:04.360 --> 00:53:05.060
+Yeah.
+
+352
+00:53:09.400 --> 00:53:13.590
+Sam Curren (TelegramSam): So here's that. Here's that. And I could I drop that in the notes as well.
+
+353
+00:53:15.320 --> 00:53:27.559
+Sam Curren (TelegramSam):  The other thing that ought to end up in the notes here is, of course, this
+
+354
+00:53:29.190 --> 00:53:37.529
+Sam Curren (TelegramSam): 7, 39 has the new, the new Pr here. I'll definitely need to go address those comments that of course, Stephen made it, and then anyone else makes as as we make this happen.
+
+355
+00:53:37.650 --> 00:53:42.569
+Sam Curren (TelegramSam): so that's awesome. Any any any other comments on this.
+
+356
+00:53:46.780 --> 00:53:52.620
+Sam Curren (TelegramSam): So an issue of timing? I have the audacity to take a vacation.
+
+357
+00:53:52.850 --> 00:53:58.469
+Sam Curren (TelegramSam): and and I will be gone certainly the
+
+358
+00:53:58.790 --> 00:53:59.890
+Sam Curren (TelegramSam): the
+
+359
+00:53:59.940 --> 00:54:07.619
+Sam Curren (TelegramSam): next Wednesday, and probably the Wednesday after that, and Stephen has agreed to
+
+360
+00:54:08.060 --> 00:54:09.959
+Sam Curren (TelegramSam): handle the meeting
+
+361
+00:54:10.050 --> 00:54:24.880
+Sam Curren (TelegramSam): or handle those meetings. I will be. I will be out and relatively offline And so From a timing perspective, I can go ahead and make these updates. Steven, any anything else would have to wait till I'm back.
+
+362
+00:54:24.910 --> 00:54:38.939
+Sam Curren (TelegramSam): The idea there was that everything is resolved as possible. it doesn't have to. Necessarily, I just happen to open the Pr and so Anything that that we can resolve as sooner rather than later would be helpful for that to receive a community vote and then move forward.
+
+363
+00:54:39.950 --> 00:54:56.959
+Sam Curren (TelegramSam): the idea is that on this on this particular update here that we would select and agree upon dates, and then officially move to to the the, to to to accomplish step one, which is, we all add support for this into our code bases.
+
+364
+00:54:56.980 --> 00:55:00.540
+Sam Curren (TelegramSam): and that, and that will give us the.
+
+365
+00:55:01.030 --> 00:55:28.980
+Sam Curren (TelegramSam): the, the, the, the progress to move forward and and move that into our our development timelines is, etc. to do that. So so from a timeline perspective, I'm going to try and update this as as much as I can today and tomorrow. so that I'm not holding things up. and then any in in the the next 2 areas calls we, the goal is to reach consensus on, on, on this, so that we can have that voted and and and and and merged as soon as possible, even if it's before I'm back.
+
+366
+00:55:29.030 --> 00:55:32.840
+Sam Curren (TelegramSam): but certainly hopefully, not long after that. If that's the case.
+
+367
+00:55:33.020 --> 00:55:34.210
+Sam Curren (TelegramSam): does that make sense?
+
+368
+00:55:39.160 --> 00:55:49.399
+Sam Curren (TelegramSam): That's good to me, sir? Oh, I do it. I apologize for not scheduling my vacations around Aries Rfc. Work. I'm kidding a little but but sounds good
+
+369
+00:55:49.670 --> 00:56:08.960
+Sam Curren (TelegramSam): thanks, folks for coming. we didn't get to to the Vcx update, Patrick. I apologize for that. We ended up discussing the the community sector longer than I had anticipated. the but certainly. Steven, that could be a good topic for next week.
+
+370
+00:56:10.660 --> 00:56:12.609
+Patrik Stas: Yeah, sure, I'll I'll be there
+
+371
+00:56:12.950 --> 00:56:14.290
+looking forward to it.
+
+372
+00:56:15.710 --> 00:56:17.810
+Sam Curren (TelegramSam): Thanks, folks. I hope your week is a great one.
+
+373
+00:56:19.390 --> 00:56:20.499
+Stephen Curran: Take care of
+
+374
+00:56:20.660 --> 00:56:23.060
+Patrik Stas: maybe 1 8. But thanks.
+

@@ -1,0 +1,103 @@
+00:11:33	Daniel Bluhm:	https://wiki.hyperledger.org/x/WAV6AQ
+00:11:44	Daniel Bluhm:	Link to the agenda
+00:14:20	Lynn Bendixsen:	That probably should be MDT
+00:24:40	Daniel Hardman:	aries-ams has been renamed aries-kms
+00:25:01	Daniel Hardman:	aries-ams-postgres has been renamed aries-kms-postgres
+00:25:13	John Jordan:	👍🏼
+00:32:09	Steve Magennis:	sports ball
+00:32:30	Sam Curren (TelegramSam):	sportsball++
+00:37:54	Troy Ronda:	Who is planning to work on “Aries Next” protocol implementations? I know Aries-framework-go contributors are only on that stream.
+00:38:34	John Jordan:	BC Gov team is certainly wanting to contribute to Aries Next
+00:38:49	Cam Parra:	If KMS is part of Aries-next then I’ll be part of it
+00:40:10	Troy Ronda:	Correct - we have both a Go native binding and REST API binding in aries-framework-go.
+00:40:44	Troy Ronda:	As shown in the meeting agenda, we would also like additional bindings.
+00:41:23	Nader:	how is Aries-Next different from Aries-Core?
+00:42:15	Stephen Curran:	Yes...I'll talk about that.
+00:42:19	Stephen Curran:	Clarify
+00:42:39	John Jordan:	Core = code
+00:43:17	John Jordan:	maybe Stable and Next diminishes over time
+00:46:55	Drummond Reed:	Bitcoin is a protocol for a blockchain. These are not protocols for a blockchain.
+00:47:14	Drummond Reed:	These are communications protocols. TLS version numbers are a better analogy.
+00:48:49	Nader:	So in a way, Aries Stable is to Indy as Aries Next is to Aries Core
+00:49:05	Kyle’s iPhone:	TLS hasn’t ever encountered a 2.0 protocol. to some degree SSL switching to TLS is a 2.0. The point I’m raising in this is how are we keeping people on similar protocols? this is a problem every protocol has encountered.
+00:49:21	Cam Parra:	Lol Nader I thought Indy was Core
+00:49:32	John Jordan:	they choose to adopt it or they get left behind
+00:49:56	Kyle’s iPhone:	or the new features don’t get accepted...
+00:52:25	Nader:	Indy ≠ Core, Core will evolve on its own and clarify what it will inherit from existing codebasea
+00:52:49	John Jordan:	Correct ...
+00:52:54	John Jordan:	that is our view
+00:53:18	John Jordan:	Protocols are the key!
+00:54:03	John Jordan:	Note in one of the slides the reference to BSD 4.2 TCP/IP stack .. that was critical to the rise of the internet
+00:54:07	Troy Ronda:	You can’t load dependencies in every situation.
+00:56:22	Troy Ronda:	I’m concerned that “stable” is the wrong connotation for the current state for Aries vs “Core”/“Next”.
+00:57:05	Troy Ronda:	This is effectively Indy Legacy.
+00:57:24	Cam Parra:	It seems like core is what everyone wants and stable is just indy
+00:57:41	Troy Ronda:	Agree.
+00:57:58	Nader:	How does Aries Next fit into this proposed meeting structure? I don’t see it
+00:58:43	Troy Ronda:	I’m also concerned about the upgrade comment - we didn’t have plans to implement legacy protocols.
+00:59:07	John Jordan:	Troy .. I think that there could be other VC protocols that get into “Stable”
+00:59:18	Drummond Reed:	Isn’t a discussion about Aries Core a subset of the discussion about Aries Next?
+00:59:27	Troy Ronda:	DID Exchange replaces Connections.
+00:59:34	Troy Ronda:	We don’t have plans to implement Connections.
+00:59:41	Troy Ronda:	(For example)
+00:59:42	John Jordan:	I think so type thing ...
+00:59:44	Kyle’s iPhone:	how does the proposed idea to move specs to DIF play into this thinking?
+01:00:01	Sam Curren (TelegramSam):	DID Exchange is one of the first candidats to make it into the stable stream.
+01:00:09	Nader:	+1 to Drummonds comment
+01:00:09	Troy Ronda:	We think JOSE versions of data structures is important.
+01:00:10	John Jordan:	Stream 2 = protocol discussions that are informed by implementions
+01:00:16	Troy Ronda:	(Or equivalent).
+01:00:19	Drummond Reed:	@Kyle - that’s under discussion, but it’s not yet the “proposed plan”
+01:00:47	Kyle’s iPhone:	what’s going on with the discussion this feels like an alternative proposal to that
+01:01:27	Cam Parra:	If this stops us from relabeling indy to Aries then I am okay with this (no offense to anyone)
+01:01:52	Nader:	So Stable is most analogous to Next, but we can’t have Next yet so we will work on Core which will be the foundation which Next is built on
+01:02:30	Nader:	reiterating Stable is to Indy as Next is to Core
+01:02:45	Troy Ronda:	We also have considered it very important to have ledgers beyond indy.
+01:03:02	John Jordan:	yes .. Aries is to be ledger independant
+01:03:09	Cam Parra:	I thought that was the point of Aries  to be ledger agnostic
+01:03:31	Troy Ronda:	Aries “Stable” isn’t like that.
+01:03:46	Stephen Curran:	Yes, but Aries is at an even more basic level about agents
+01:03:57	John Jordan:	it isn’t aries frozen to what we have today
+01:04:11	Stephen Curran:	I believe we could support other ledgers in Aries today, if others were interested in doing that.
+01:04:25	Troy Ronda:	How do we have confidence when working on Aries “Next” .. who decides what’s in Aries “Stable”.
+01:04:27	John Jordan:	it bring protocols in at a time paced organized way
+01:04:46	Cam Parra:	Stable should be called legacy
+01:05:19	Stephen Curran:	That's not good marketing.  Legacy fits everything that was written yesterday.
+01:05:38	Stephen Curran:	We can shoot ourselves in the foot if we want...
+01:06:05	John Jordan:	If there is an implementation of a verifiable credential exchange that isn’t Indy zkp then it can be included in the stable stream
+01:06:18	John Jordan:	for example
+01:06:22	John Jordan:	or a did method
+01:07:24	Cam Parra:	I guess I can see your point. Stable is what people are current building on and core is what we are working to build on eventually
+01:07:32	Troy Ronda:	Diagree.
+01:07:37	Troy Ronda:	Next is what we are currently working on.
+01:08:10	Cam Parra:	But currently we can’t have a next because there is no core
+01:08:20	Troy Ronda:	We are proceeding without waiting for “core”.
+01:08:43	Troy Ronda:	Allowing for plugins from "core".
+01:08:49	John Jordan:	k .. these semantics are a bit difficult
+01:09:26	John Jordan:	what is important is that we create the space for implementation that are not locked to existing code .. which is exactly what I hear Troy and Cam saying
+01:09:47	Troy Ronda:	But, again, it’s unclear how we have confidence working on Next items and that stable **will** move forward to Next items.
+01:09:56	John Jordan:	and that honour the design intent of Aries to be agnostic to did methods etc etc
+01:10:00	Cam Parra:	Yes that is what I want and to prevent relabeling products
+01:10:54	Tobias Looker:	Thanks Stephen and John for the proposal
+01:11:13	John Jordan:	one thing is the RFC and their evolution and adding new ones is the key stream of activity
+01:16:02	Will Abramson:	Can someone link to the RFC? I can't find it
+01:16:13	Drummond Reed:	https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0289-toip-stack/README.md
+01:16:24	Sam Curren (TelegramSam):	in the wiki for the meeting.
+01:16:47	Will Abramson:	Thanks
+01:17:45	Drummond Reed:	Daniel is one of the six authors
+01:18:06	Drummond Reed:	But this RFC does to have to be 0001
+01:18:18	Tobias Looker:	To be clear I think it is great work I’m just unsure if it should be the lead in resource for Aries and or DID comm
+01:18:18	Drummond Reed:	sorry - does NOT have to be 0001
+01:18:40	Drummond Reed:	Yes, that’s what Daniel was saying is that it doesn’t have not be 0001
+01:19:02	Drummond Reed:	man, I screwed that up again! Once more: it does NOT have to be 0001
+01:19:20	Tobias Looker:	It feels like an abstraction away from the technical protocol definition, really it could be a completely different project as it is such a vast discussion
+01:19:42	Tobias Looker:	Vast important and valuable discussion
+01:20:14	John Jordan:	good points ... we will arrange for discussion in a future call for sure
+01:20:21	Drummond Reed:	Yes
+01:28:23	Troy Ronda:	So both deep linking and custom protocols are intended to be supported?
+01:28:24	John Jordan:	Good discussion .. takes a little work to sync
+01:29:12	Paul Knowles:	Well said, Sam. Well done to everyone in the community. We’re all on the same team and tackling some really important issues.
+01:29:50	John Jordan:	+1
+01:30:37	Tobias Looker:	+1
+01:30:48	Stephen Curran:	+1
+01:32:45	John Jordan:	its just a colour ... temporary and not to be relied upon :)

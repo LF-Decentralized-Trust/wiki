@@ -1,0 +1,13 @@
+13:10:55	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=51612254
+13:19:39	 From  Troy Ronda : https://github.com/hyperledger/aries-agent-test-harness/pull/244
+13:21:47	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=51612254
+13:28:45	 From  Troy Ronda : I’m okay to recognize these fields.
+13:56:59	 From  Troy Ronda : The issuer needs to be able to decide.
+13:57:13	 From  Troy Ronda : Yup agree.
+14:00:24	 From  Troy Ronda : The holder can just not take the credential, yup.
+14:04:18	 From  Phil Windley : Maybe a silly question, but why can’t we just pick one?
+14:05:35	 From  Troy Ronda : This is going to evolve over time.
+14:05:50	 From  Troy Ronda : AIP 3 will likely switch to Ed25519Signature2020
+14:06:07	 From  Troy Ronda : And BbsBlsSignature2021 ;).
+14:12:36	 From  Troy Ronda : I think we are still circling around required vs the mechanism of how you specify the optionals.
+14:15:14	 From  Troy Ronda : Can we just add some points in the AIP2 RFC?

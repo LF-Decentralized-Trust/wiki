@@ -1,0 +1,39 @@
+00:15:10	Moushmi Banerjee:	Please share the link to edx course
+00:15:20	Stephen Curran:	https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
+00:15:38	Stephen Curran:	It's in the doc as well.  And everywhere else I can paste it :-)
+00:17:08	Darrell ODonnell:	no promises but where can I find detail on food sponsoring?
+00:31:11	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/AriesConnect/Sponsorship+Information
+00:31:18	Sam Curren (TelegramSam):	Darrell ^
+00:43:36	Darrell ODonnell:	Very well presented.
+00:46:19	Troy Ronda:	Do you think we should call this concept something like an “Aries Interop Profile”. I wonder a bit about the semantics of “Stable” when referring to the protocols.
+00:48:40	Darrell ODonnell:	@Troy - I like that term too.
+00:48:53	Troy Ronda:	There was a point that we are likely heading to two streams at once for the start.
+00:49:13	Troy Ronda:	e.g., aries-framework-go is on the second stream.
+00:53:51	Keith Smith:	Within a single version of stable, products should specify which version of the test suite they passed
+00:55:57	Kyle Den Hartog:	would we set versions with the test suite as well then? e.g we find an improvement to the test suite that’s a patch it determines release from to 1.x.1 to 1.x.2
+00:56:01	Troy Ronda:	@Nathan - also the semantic meaning of code stability is different from the semantic meaning of protocol support.
+00:56:17	Troy Ronda:	(Also why I’m not sure about the naming of Stable here).
+00:57:48	Darrell ODonnell:	Test Suites will likely move slowly so we may need to focus on the underlying RFC tests early on.
+01:03:00	Darrell ODonnell:	+1 for Interop Profile
+01:03:17	Kyle Den Hartog:	+1 for interop profile
+01:03:48	Thomas Shelton:	+1 for interop profile
+01:04:56	Daniel Bluhm:	Calling out name collision on interop profile: that's currently the name of the json object emitted by the test suite
+01:06:07	Darrell ODonnell:	Cool - it can emit “Interop Profile Test Suite” in a future version…. :-D
+01:06:21	Sam Curren (TelegramSam):	Interop Profile Results?
+01:06:54	Cam Parra:	We need to start a Aries semantics call where you guys can go crazy discussing this
+01:07:10	Sam Curren (TelegramSam):	But it's all semantics. ;)
+01:07:23	Cam Parra:	That’s the problem no code and all semantics
+01:13:59	Kyle Den Hartog:	which curve are they based on?
+01:14:11	lovesh:	BLS-12-381
+01:14:20	Kyle Den Hartog:	thanks
+01:15:40	Darrell ODonnell:	@cam - it’s code when you can run a test suite against your tooling and pass. The beginning parts are definitely squishy and high code to squish ratio.
+01:16:01	Darrell ODonnell:	Oops - low code to squish ratio
+01:18:05	Cam Parra:	@darrell I am okay with that… we just sometimes get stuck on what we should call things. I might lack something but I am okay with whatever it’s called as long as it works
+01:19:47	lovesh:	Whats people estimate for "prohibitively slow"? 2-3 seconds, >10 seconds, >1 min?
+01:20:03	Justin:	Are the slides online?
+01:20:54	Michael Lodder:	I can make them available
+01:21:32	Justin:	Thanks
+01:21:40	Will Abramson:	+1
+01:22:25	Darrell ODonnell:	@cam 100%
+01:25:04	Paul Knowles:	Credential help desk!
+01:27:54	Paul Knowles:	We should set up an Aries semantics WG to take on some of this work.

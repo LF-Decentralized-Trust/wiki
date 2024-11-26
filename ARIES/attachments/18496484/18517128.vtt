@@ -1,0 +1,1590 @@
+WEBVTT
+
+1
+00:00:02.639 --> 00:00:07.319
+Sam Curren (TelegramSam): Welcome folks to the may 11 areas working group call.
+
+2
+00:00:08.340 --> 00:00:15.570
+Sam Curren (TelegramSam): We have some cool topics on the schedule, today this is hyper ledger meeting, so the antitrust policy and the hyper ledger code of conduct are in effect.
+
+3
+00:00:16.740 --> 00:00:18.000
+Sam Curren (TelegramSam): The agenda.
+
+4
+00:00:19.529 --> 00:00:25.650
+Sam Curren (TelegramSam): can be newly found in the chat you're welcome to make any adjustments that you'd like including adding something attendees list.
+
+5
+00:00:26.850 --> 00:00:30.390
+Sam Curren (TelegramSam): Anyone new today that would like to introduce themselves.
+
+6
+00:00:37.980 --> 00:00:39.540
+Victor Martinez (SICPA): After afternoon everyone.
+
+7
+00:00:42.210 --> 00:00:45.120
+Victor Martinez (SICPA): I know we wanted to say, like we are here with.
+
+8
+00:00:46.050 --> 00:00:49.740
+Victor Martinez (SICPA): lemon on myself Victor we are working on.
+
+9
+00:00:50.790 --> 00:00:59.610
+Victor Martinez (SICPA): yeah I hope we can have like 510 minutes time, so we can present our plugins that we wanted to contribute to hyper ledger.
+
+10
+00:01:00.600 --> 00:01:04.140
+Sam Curren (TelegramSam): Yes, i'm planning on giving you a little bit more time than that, if you would like it.
+
+11
+00:01:04.170 --> 00:01:09.060
+Sam Curren (TelegramSam): So we have we do have time today but but God go glad to have you both here.
+
+12
+00:01:10.230 --> 00:01:11.040
+Sam Curren (TelegramSam): anybody else.
+
+13
+00:01:16.650 --> 00:01:25.740
+Kolby Kunz: i'm here just i'm a new contributor to Aries mostly been working on probably more javascript so.
+
+14
+00:01:26.790 --> 00:01:31.500
+Kolby Kunz: Having to learn some more about the project and see what this is all about.
+
+15
+00:01:32.430 --> 00:01:33.090
+Sam Curren (TelegramSam): Welcome call me.
+
+16
+00:01:34.230 --> 00:01:34.950
+anybody else.
+
+17
+00:01:36.390 --> 00:01:38.520
+Sam Curren (TelegramSam): All the new people on the same day who's perfect.
+
+18
+00:01:41.310 --> 00:01:45.000
+Sam Curren (TelegramSam): Totally to be fair, not totally new for some, but glad to have you anyway.
+
+19
+00:01:48.150 --> 00:01:52.770
+Sam Curren (TelegramSam): All right, I don't have any announcements on my announcements list should I have something on there that isn't.
+
+20
+00:02:00.540 --> 00:02:05.490
+Sam Curren (TelegramSam): All right, any projects, want to share release status or work updates.
+
+21
+00:02:12.360 --> 00:02:33.420
+Timo Glastra: For Ericsson with javascript we merged issue credential feet, to support still working on some interoperability issues with occupy, for example, but it has to be merged now so i'm working on yeah adding tests in areas agent desktop to make sure we didn't break anything.
+
+22
+00:02:34.680 --> 00:02:35.370
+Sam Curren (TelegramSam): fantastic.
+
+23
+00:02:35.820 --> 00:02:37.500
+Stephen Curran: that's awesome congratulations.
+
+24
+00:02:38.910 --> 00:02:39.450
+Stephen Curran: Very work.
+
+25
+00:02:49.470 --> 00:02:57.450
+Sam Curren (TelegramSam): Alright, I know there's lots going on and lots of work appreciate everyone's efforts we have two topics on the list today.
+
+26
+00:02:57.810 --> 00:03:04.620
+Sam Curren (TelegramSam): And we probably have room for a little bit more if if there's stuff that people like to bring up or talk about or issues they'd like to surface.
+
+27
+00:03:05.610 --> 00:03:16.830
+Sam Curren (TelegramSam): We first layer from Stephen about load test to generate a results and then as Victor mentioned there there's a number of repositories is sick, but is interested in contributing to.
+
+28
+00:03:17.730 --> 00:03:28.110
+Sam Curren (TelegramSam): The Community and so we will have a review and a discussion of those stories um anything else on the agenda that we should change or add or modify before we get gone.
+
+29
+00:03:32.190 --> 00:03:36.630
+Timo Glastra: Maybe in the end if there's time time left, we we can do a quick.
+
+30
+00:03:38.670 --> 00:03:39.780
+Timo Glastra: go over the issue.
+
+31
+00:03:40.800 --> 00:03:42.030
+Timo Glastra: I made on.
+
+32
+00:03:43.680 --> 00:03:57.240
+Timo Glastra: migrating to fully qualified dates and some issues i've encountered with like i've been trying to start working on a bit in Ericsson with javascript to see like what's possible and I think there's a few limitations that would be good to discuss.
+
+33
+00:03:58.380 --> 00:04:07.110
+Sam Curren (TelegramSam): that's excellent, this has been an ongoing conversation for those not here the last couple weeks, and that would be that would be excellent to have a continuation of that so that's perfect you know we'll have that.
+
+34
+00:04:09.420 --> 00:04:10.020
+Sam Curren (TelegramSam): any others.
+
+35
+00:04:14.160 --> 00:04:19.140
+Sam Curren (TelegramSam): Alright, Stephen why don't I turn this over to you do you want me to share do you want share.
+
+36
+00:04:19.920 --> 00:04:23.130
+Stephen Curran: No, I can do it i'll just wanted to highlight a few things.
+
+37
+00:04:28.770 --> 00:04:30.360
+Stephen Curran: There we go oops.
+
+38
+00:04:31.980 --> 00:04:32.070
+Oh.
+
+39
+00:04:33.810 --> 00:04:34.890
+Stephen Curran: I see what I doing.
+
+40
+00:04:36.780 --> 00:04:37.770
+Stephen Curran: Okay um.
+
+41
+00:04:39.060 --> 00:04:53.130
+Stephen Curran: So one of my roles is to do the area's quarterly report and the indie quarterly report, which was due and completed last week, these are done for the hyper ledger technical Steering Committee.
+
+42
+00:04:54.630 --> 00:04:57.600
+Stephen Curran: And one of the things that I.
+
+43
+00:04:59.310 --> 00:05:09.270
+Stephen Curran: highlighted in there was some work being done around performance load testing and things like that so that's one of the accomplishments this quarter and.
+
+44
+00:05:11.250 --> 00:05:23.760
+Stephen Curran: I wanted to put in some some evidence of exactly what have been accomplished, and I realized, what I want to look at the links that I found.
+
+45
+00:05:24.210 --> 00:05:41.520
+Stephen Curran: sort of a set of really, really cool things that have been done in the Community, that I wanted to highlight that I thought it would be worth mentioning it at meetings like this, so it's a it's a combination of efforts, so one is this area's cloud agent generator that was created by.
+
+46
+00:05:43.230 --> 00:05:43.920
+Stephen Curran: Some folks.
+
+47
+00:05:45.810 --> 00:05:47.610
+Stephen Curran: In Germany at.
+
+48
+00:05:48.900 --> 00:06:00.690
+Stephen Curran: At let's see an ID Union at IBM, and what this is is a method of running areas cloud agent Python.
+
+49
+00:06:01.650 --> 00:06:24.870
+Stephen Curran: In a controlled environment to load to performance tested so basically a scripting setup docker compose running on a vm where you can control all sorts of parameters relating to the test how much load, are you putting on it, how many clients are you putting on it, which.
+
+50
+00:06:25.890 --> 00:06:34.500
+Stephen Curran: Are you using revocation what ledger you using so you so you've got a whole set of parameters and you can run tests and.
+
+51
+00:06:35.130 --> 00:06:49.680
+Stephen Curran: This came in at the perfect time, so one is it allowed us to sort of get an idea of where we were with performance but a second one was a number of issues were reported early in the quarter this year early in.
+
+52
+00:06:51.030 --> 00:07:07.710
+Stephen Curran: early in the New Year, that that showed that under under load conditions bad things would happen and it wasn't clear where these errors were coming from and they weren't easy to reproduce, and so the second thing that happened was that.
+
+53
+00:07:09.630 --> 00:07:22.680
+Stephen Curran: Paul who created this load generator was able to use this to replicate the events and then add debugging capabilities into this environment so that he could turn that over to.
+
+54
+00:07:23.970 --> 00:07:40.020
+Stephen Curran: The developers on occupy, including and Whitehead and and Andrew could then recreate the problem and with the debugging capability sort of figure out what was going on under these extreme conditions so second big thing.
+
+55
+00:07:41.430 --> 00:07:50.340
+Stephen Curran: So, first we have this test environment to do next, we have a way to use that to reproduce really difficult to.
+
+56
+00:07:51.030 --> 00:08:03.780
+Stephen Curran: To create problems are really difficult to fix and we got those fixed and we wanted out with the the problems being identified that were happening like 2% of the time under load.
+
+57
+00:08:04.680 --> 00:08:16.380
+Stephen Curran: readily reproduced and then corrections made and enabled to prove that they were corrected so that we could run the old code run the new code under the same conditions and show that it was corrected.
+
+58
+00:08:18.450 --> 00:08:26.280
+Stephen Curran: that's The second thing then The third thing that I wanted to highlight was just the stability and the difference between.
+
+59
+00:08:27.420 --> 00:08:43.200
+Stephen Curran: occupy running with the indie SDK versus running with Aries Aries asked car, which is the shared components, the replacements that have been in work for basically a year and a half, two years.
+
+60
+00:08:43.680 --> 00:08:52.260
+Stephen Curran: To replace the indie SDK and what we realized in looking at this, this is the summary of the indie SDK.
+
+61
+00:08:53.160 --> 00:08:59.850
+Stephen Curran: A load test and then i'll show you the ask Ottawa and the important thing to see is this which is this is the.
+
+62
+00:09:00.780 --> 00:09:09.270
+Stephen Curran: transaction rate of the of occupy running so there the test was to try to accomplish.
+
+63
+00:09:09.720 --> 00:09:18.750
+Stephen Curran: 200 transactions per minute through this and what you see, is it runs for a while, with 200 transactions for a minute and then performance kind of drops off.
+
+64
+00:09:19.170 --> 00:09:38.190
+Stephen Curran: And varies but but tends downwards and and it's you know, a quarter or less of what we wanted, which is the 200 so that's under the SDK we also have you know, a fairly high rate of error 2500 out of 18,000 iterations that's an awful lot of error.
+
+65
+00:09:39.360 --> 00:09:42.660
+Stephen Curran: When we ran the same test same parameters.
+
+66
+00:09:43.800 --> 00:09:44.460
+Stephen Curran: Under.
+
+67
+00:09:46.350 --> 00:09:57.150
+Stephen Curran: At with ashkar in it so basically changing a single parameter, which of course underneath changes, a whole lot of stuff so you're now running within dvr as the connection to the indie.
+
+68
+00:09:58.380 --> 00:10:13.440
+Stephen Curran: ledger running with credit X implementation of a non credit which again both of those things, all three of these in the running ask are, which is the persistent storage and key management component all of those are.
+
+69
+00:10:14.460 --> 00:10:19.560
+Stephen Curran: evolutions of the indie SDK separating them into separate packages and then.
+
+70
+00:10:21.270 --> 00:10:30.660
+Stephen Curran: adjusting them so, for example, there's not a central queue and things like that, but what you see here is we're trying to achieve 200 transactions permitted and we achieve that.
+
+71
+00:10:31.020 --> 00:10:45.600
+Stephen Curran: continuously throughout the entire in this case six our test we had a total of 24 errors over that time 68,000 iteration so what you're seeing, there is the third item I wanted to highlight, which is that ask are.
+
+72
+00:10:45.930 --> 00:10:54.570
+Stephen Curran: And, and the components, the shared components are really getting extremely stable and it's now to the point that it really looks worth.
+
+73
+00:10:56.160 --> 00:11:02.130
+Stephen Curran: A more aggressive transition from the use of indie SDK underneath the areas.
+
+74
+00:11:04.980 --> 00:11:21.210
+Stephen Curran: You know frameworks and and replacing that with with ask are in the shared components So those are the three things I wanted to highlight, I believe this will be transferred this area's out agent low generator will be transferred.
+
+75
+00:11:23.340 --> 00:11:30.660
+Stephen Curran: i'm hoping to spend a bit of time with it and get it set up in my own world, so I can use it regularly right now I.
+
+76
+00:11:31.290 --> 00:11:46.890
+Stephen Curran: Send discord messages hey Paul, could you run this test for me, but I really want to get this so that we become one with it and make use of it and try out different scenarios and see how easy it is to use at different scenarios, but this is invaluable tool.
+
+77
+00:11:48.930 --> 00:11:59.820
+Stephen Curran: And then, as I mentioned, with the new version of occupy we're going to recommend that that people use ask are as the default specially for new projects.
+
+78
+00:12:00.150 --> 00:12:19.770
+Stephen Curran: And and move away from India SDK at this time for for those projects, there is not a migration script yet to move an existing implementation from ask are from India SDK over to ask are in the shared components, but but we plan on working working towards that.
+
+79
+00:12:20.880 --> 00:12:23.220
+Stephen Curran: So that's what I wanted to share I see.
+
+80
+00:12:24.630 --> 00:12:24.720
+Stephen Curran: A.
+
+81
+00:12:28.050 --> 00:12:29.280
+Stephen Curran: couple of questions.
+
+82
+00:12:30.870 --> 00:12:32.280
+Stephen Curran: yeah the load testing.
+
+83
+00:12:34.200 --> 00:12:46.020
+Stephen Curran: Low test transaction, in this case is a issue and a and a received so both both the issuer and the holder are running as.
+
+84
+00:12:47.760 --> 00:12:48.720
+Stephen Curran: Multi.
+
+85
+00:12:50.130 --> 00:12:51.900
+Stephen Curran: Multi sorry.
+
+86
+00:12:52.950 --> 00:12:55.470
+Stephen Curran: Multi container images instances.
+
+87
+00:12:56.700 --> 00:13:12.900
+Stephen Curran: So both are spinning up multiple instances of occupy the issuer is and the holder is and your and then there's a driver that is pushing as many transactions, through the issuer as possible which correspondingly causes the.
+
+88
+00:13:13.260 --> 00:13:18.270
+Stephen Curran: holder to collect as many credentials as it can so that's what a transaction is, in this case.
+
+89
+00:13:21.390 --> 00:13:29.070
+Stephen Curran: So pretty nice stuff, this is the output of the load test generator and lots of really good information, you can see things like.
+
+90
+00:13:32.490 --> 00:13:35.190
+Stephen Curran: http response times in requests.
+
+91
+00:13:36.330 --> 00:13:40.410
+Stephen Curran: The one I wanted to highlight little lower down is sort of showing.
+
+92
+00:13:41.430 --> 00:13:45.990
+Stephen Curran: yeah connections here was that sorry i'm not sure on that one.
+
+93
+00:13:47.310 --> 00:14:00.630
+Stephen Curran: But cpu usage things like that are showing So these are all of the agents issue or agents and holder agents get monitored and we sort of see how much load it's putting on the system, and so on.
+
+94
+00:14:04.770 --> 00:14:10.350
+Stephen Curran: yeah the team of the last thing to mention is is the improvements, the asghar the.
+
+95
+00:14:11.250 --> 00:14:26.940
+Stephen Curran: The cleanup relatively small number of fixes and things, but the cleanup was incredible the evidently there was an 11% performance increase and all of these load errors were corrected in that time so very cool stuff.
+
+96
+00:14:28.890 --> 00:14:30.660
+Sam Curren (TelegramSam): Stephen question.
+
+97
+00:14:32.430 --> 00:14:34.770
+Sam Curren (TelegramSam): Is does this using occupy to generate the load.
+
+98
+00:14:36.930 --> 00:14:47.430
+Stephen Curran: i'm already a controller, yes, I mean it's agents and then there's a controller script that is basically generating the load itself.
+
+99
+00:14:47.820 --> 00:14:52.410
+Sam Curren (TelegramSam): Okay, so this is, this is a controller, on top of back apply that to make that actually happen is.
+
+100
+00:14:52.440 --> 00:15:01.290
+Sam Curren (TelegramSam): Yes, so presumably you could actually use occupies the load test generator but a with that controller, but a different areas agent.
+
+101
+00:15:02.100 --> 00:15:15.540
+Stephen Curran: That would be awesome would be to be able to swap out, I mean basically it's it's docker compose and the agent running is that, so the controller script is probably I assume it's probably a bash script sending.
+
+102
+00:15:16.320 --> 00:15:24.960
+Stephen Curran: You know request to the API so what you know just like we do with the areas agent test harness we probably could swap out.
+
+103
+00:15:26.790 --> 00:15:32.760
+Stephen Curran: provide a generic API and and wrap the instance in.
+
+104
+00:15:33.960 --> 00:15:43.200
+Timo Glastra: I think I to quickly take a look at this because I was also interested in it for air stream of javascript and they have it's written in.
+
+105
+00:15:43.740 --> 00:15:57.900
+Timo Glastra: Java, I believe, and they just have like a Java interface, you would have to implement, for your agents and I think they wrapped it for occupy, but you could also make rest calls to another agent, if you would like, by implementing that interface.
+
+106
+00:16:01.020 --> 00:16:01.560
+Sam Curren (TelegramSam): Very cool.
+
+107
+00:16:01.920 --> 00:16:02.220
+yeah.
+
+108
+00:16:04.170 --> 00:16:10.080
+Sam Curren (TelegramSam): Stephen, thank you for reporting on that and I that recommendation to to switch to ask our has been.
+
+109
+00:16:11.970 --> 00:16:15.660
+Sam Curren (TelegramSam): I know folks in the Community, I know we'd in DC or already.
+
+110
+00:16:17.010 --> 00:16:28.530
+Sam Curren (TelegramSam): have been testing that but are are expected to accelerate our efforts to switch over nascar's the underlying library so very cool any other comments questions for Stephen.
+
+111
+00:16:34.740 --> 00:16:35.640
+Sam Curren (TelegramSam): awesome victor.
+
+112
+00:16:37.410 --> 00:16:38.790
+Sam Curren (TelegramSam): Your comments are.
+
+113
+00:16:41.340 --> 00:16:42.930
+Victor Martinez (SICPA): No, I just wanted to say also that.
+
+114
+00:16:43.320 --> 00:16:49.230
+Victor Martinez (SICPA): Maybe another thing also take into account, with a nascar is that it's a I think is non blocking.
+
+115
+00:16:49.770 --> 00:17:02.970
+Victor Martinez (SICPA): meaning in a high availability scenario where you can have multiple occupied runs I think here the performance improvement can be even bigger we haven't tested, but I would be curious to know if someone has has this feature as well.
+
+116
+00:17:05.160 --> 00:17:07.530
+Stephen Curran: yeah I mean that was one of the core things.
+
+117
+00:17:08.130 --> 00:17:20.910
+Stephen Curran: That we did just under the covers and I don't know too deep a detail on this, but basically with within the there's sort of a common.
+
+118
+00:17:21.390 --> 00:17:39.030
+Stephen Curran: queue for all features across all of the components of indie and so that leads to a sort of centralized processing of that Q once once the once the item on the queue gets it gets passed off into different threads, but it is still a central queue.
+
+119
+00:17:40.410 --> 00:17:45.150
+Stephen Curran: and add some tasks take longer than others which blocks that cue.
+
+120
+00:17:46.380 --> 00:17:57.990
+Stephen Curran: The idea idea originally was to keep them all, as short as possible, so that's one of the things they did was to separate all everything into separate queues and things like that, so the separate components each have their own queue and and.
+
+121
+00:17:59.430 --> 00:18:01.020
+Stephen Curran: A lot of work was put into.
+
+122
+00:18:02.730 --> 00:18:16.620
+Stephen Curran: Only having blocking where where the blocking was necessary, so so trying to prevent scenarios where just to be safe, things were blocked as opposed to because they were necessary, and I think that's where a lot of that performance is coming from.
+
+123
+00:18:24.750 --> 00:18:27.780
+Stephen Curran: But over to you, Victor for new repose I think we're on a.
+
+124
+00:18:28.230 --> 00:18:29.400
+Victor Martinez (SICPA): On the next top okay.
+
+125
+00:18:30.720 --> 00:18:33.030
+Victor Martinez (SICPA): So let me share my screen here.
+
+126
+00:18:33.210 --> 00:18:33.810
+quickly.
+
+127
+00:18:36.300 --> 00:18:48.930
+Victor Martinez (SICPA): so well in a nutshell, what we wanted this to we already open source three plugins that are useful, a along with occupied on one is the two first plugins are.
+
+128
+00:18:50.670 --> 00:19:00.120
+Victor Martinez (SICPA): Adding connecting the universal resolve or adding let's say remote resolution to occur Python and we have implemented two plugins one.
+
+129
+00:19:00.690 --> 00:19:10.350
+Victor Martinez (SICPA): thing on http interface to connect to the universal resolved, and the other one is a big deal protocol so you can connect from occupied on to the universal result will.
+
+130
+00:19:11.400 --> 00:19:29.070
+Victor Martinez (SICPA): Be on the protocol, this is that they wanted they wanted to present now, on the other, one on my my colleague Clement is gonna present it's a plugin to a Kafka cues in occupied on by default right, and right now.
+
+131
+00:19:30.750 --> 00:19:43.950
+Victor Martinez (SICPA): The cues are in memoriam by default, but now the idea is we wanted to what our systems and re a liability adding adding are persistent queues so now there is a possibility to do.
+
+132
+00:19:44.730 --> 00:19:55.890
+Victor Martinez (SICPA): After plugin to that works, along with a Python on well all these three plugins are already open source and you can find it under our word are rebel.
+
+133
+00:19:56.370 --> 00:20:00.690
+Victor Martinez (SICPA): But the idea is, we thought that would be maybe interesting to donate these plugins to.
+
+134
+00:20:01.200 --> 00:20:08.220
+Victor Martinez (SICPA): hyper ledger so first contextually they are sitting near to walk a bite on and maybe it's easy for people if they want to use it and.
+
+135
+00:20:08.940 --> 00:20:29.010
+Victor Martinez (SICPA): And also later to have better visibility and maybe welcome other contributions, so let me quickly explain the let's say universal resolution, our plugin ID is actually a button has a quite sophisticated resolution for wc credentials in occupied on you can trade.
+
+136
+00:20:30.120 --> 00:20:40.890
+Victor Martinez (SICPA): Based on this diagram that you see here native resolves native resolve as means the the Ad resolve others that are implemented in Python within like a Python.
+
+137
+00:20:41.460 --> 00:20:51.450
+Victor Martinez (SICPA): But also let's say if we want to leverage other project like the universal resolve the idea here is when the plugin comes into place, you can use the two plugins to.
+
+138
+00:20:52.080 --> 00:21:06.840
+Victor Martinez (SICPA): connect automatically to the universal resolve it and do the ID resolution using the universal resolve and, as I mentioned before, there are two types of there are two plugins once adding on http interface, and the other one using the.
+
+139
+00:21:08.190 --> 00:21:12.150
+Victor Martinez (SICPA): The the the resolution rfc Arias over data on.
+
+140
+00:21:13.230 --> 00:21:23.430
+Victor Martinez (SICPA): The idea behind the bitcoin protocol is, as we know, I mean if you deploy your occupied or your your agency within the same infrastructure or maybe it's fine for you.
+
+141
+00:21:23.820 --> 00:21:28.920
+Victor Martinez (SICPA): To also deployed on the universal resolve as part of your infrastructure or maybe you don't have any.
+
+142
+00:21:29.340 --> 00:21:43.440
+Victor Martinez (SICPA): Trust insurance so for this may be nice to have an STD it's it's completely enough to have an http interface but let's say in that case like I don't know you want to do the universe have resources deployed as well or not, under your arm.
+
+143
+00:21:46.620 --> 00:21:49.710
+Victor Martinez (SICPA): Not or under your dmz that the idea is to water, the.
+
+144
+00:21:50.760 --> 00:21:56.610
+Victor Martinez (SICPA): interface so to to enhance that that trust, because, as we know, you know resolving this is something very important.
+
+145
+00:21:57.480 --> 00:22:15.990
+Victor Martinez (SICPA): So yeah, this is why we decided to implement this did come protocol and that's it, this is the day to play games that we wanted to contribute to to hyper ledger I don't know if you have any comments, otherwise Maybe my colleague Clement I can expand you more about the Kafka plugin.
+
+146
+00:22:19.590 --> 00:22:20.100
+Stephen Curran: If I could.
+
+147
+00:22:20.130 --> 00:22:26.100
+Stephen Curran: Just jump in for a bit of context on this section what we're looking for.
+
+148
+00:22:28.860 --> 00:22:34.920
+Stephen Curran: Members and people anyone really is invited to contribute repose to.
+
+149
+00:22:36.030 --> 00:22:45.690
+Stephen Curran: To hyper ledger as appropriate, and so one of the things I wanted to make sure what in in asking Victor and climate to present is to.
+
+150
+00:22:46.800 --> 00:23:03.150
+Stephen Curran: Ensure that they have Community support for that contribution so that's part of what we're looking for here is not just to let you know these exists, but also for your opinions, if any, on on these being contributed hyper ledger and being added to the hyper ledger.
+
+151
+00:23:04.470 --> 00:23:13.140
+Stephen Curran: Family of repose and capabilities within areas so just keep that in mind, as you listen to this at the end will basically say any objections.
+
+152
+00:23:15.360 --> 00:23:16.830
+Stephen Curran: sorry about that go ahead Clement.
+
+153
+00:23:17.100 --> 00:23:19.140
+Sam Curren (TelegramSam): No hang on Victor I got a question on the last one.
+
+154
+00:23:20.490 --> 00:23:21.090
+Sam Curren (TelegramSam): what's the.
+
+155
+00:23:21.120 --> 00:23:30.660
+Sam Curren (TelegramSam): what's the structure of this you've you've added the universal resolve is there's an agent presumably running there is that occupiers that is that a different agent suffer.
+
+156
+00:23:31.410 --> 00:23:34.320
+Victor Martinez (SICPA): yeah Let me share my screen so.
+
+157
+00:23:36.150 --> 00:23:41.220
+Victor Martinez (SICPA): let's see the idea behind me is, if you see here the architecture, we have a compassion running.
+
+158
+00:23:41.760 --> 00:23:52.530
+Victor Martinez (SICPA): So this plugin What it does is really at this blue box here to add an http remote client resolve, so the idea is we are a Python when you do the the resolution.
+
+159
+00:23:54.060 --> 00:24:09.480
+Victor Martinez (SICPA): If there is no native resolved in Python as a fallback is going to contact the universal result will be a http and he's gonna try to do this, the the resolution, this is the the idea behind now regarding the discount plugin.
+
+160
+00:24:10.710 --> 00:24:15.300
+Victor Martinez (SICPA): They did the idea of this plugin is implementing both sides of the protocol is.
+
+161
+00:24:16.860 --> 00:24:20.700
+Victor Martinez (SICPA): Implementing the resolve our side of the protocol and.
+
+162
+00:24:21.960 --> 00:24:32.370
+Victor Martinez (SICPA): yeah the receiver and the result, but I don't know how to say it so actually what the new tech has on his they are this resolved agent that you see this this Gray.
+
+163
+00:24:33.150 --> 00:24:45.900
+Victor Martinez (SICPA): box it's actually like a Python running and with our plugin but a just talking one side of the protocol, and then, on the other side, you have as well, I got by tone, but in.
+
+164
+00:24:46.290 --> 00:25:03.150
+Victor Martinez (SICPA): Implementing the other side of the protocol, so the idea is like i'm the new tech is planning to add these did come interface in the universal universal resolve using up a Python and the plugin that I that i'm explaining now did I answer your question.
+
+165
+00:25:04.470 --> 00:25:14.580
+Sam Curren (TelegramSam): Yes, here's the question, maybe, maybe between you and Stephen is there a reason why this doesn't just get adopted straight in as a feature of occupy.
+
+166
+00:25:17.580 --> 00:25:21.360
+Sam Curren (TelegramSam): It seems like really universally no pun intended useful.
+
+167
+00:25:25.770 --> 00:25:26.460
+Victor Martinez (SICPA): um.
+
+168
+00:25:26.730 --> 00:25:27.630
+Victor Martinez (SICPA): You know.
+
+169
+00:25:29.820 --> 00:25:35.640
+Stephen Curran: So you're suggesting that rather than making a plugin make it a core element of of occupy.
+
+170
+00:25:36.660 --> 00:25:45.660
+Sam Curren (TelegramSam): yeah and perhaps you know that it's via some arguments, so if you have some reason to not enable this you could, but it seems like this is a sort of.
+
+171
+00:25:47.190 --> 00:25:50.040
+Sam Curren (TelegramSam): would be a highly desired feature for folks running occupy anyway.
+
+172
+00:25:52.230 --> 00:25:52.650
+yeah.
+
+173
+00:25:53.760 --> 00:25:54.210
+Stephen Curran: Okay.
+
+174
+00:25:54.420 --> 00:25:58.560
+Sam Curren (TelegramSam): Well that's my that's my thought responses that rather than maintaining it as a separate repository.
+
+175
+00:25:58.860 --> 00:26:02.220
+Sam Curren (TelegramSam): Having this be sort of a core feature might be just really insanely useful.
+
+176
+00:26:02.640 --> 00:26:03.030
+yeah.
+
+177
+00:26:05.940 --> 00:26:08.130
+Stephen Curran: And then basically just an argument to configure it.
+
+178
+00:26:10.020 --> 00:26:10.530
+Sam Curren (TelegramSam): yeah.
+
+179
+00:26:11.580 --> 00:26:14.310
+Stephen Curran: And then, presumably the plugin already has, though, so it's.
+
+180
+00:26:16.320 --> 00:26:19.170
+Stephen Curran: Okay, Victor let's let's discuss that.
+
+181
+00:26:19.920 --> 00:26:20.220
+Sam Curren (TelegramSam): I.
+
+182
+00:26:20.310 --> 00:26:21.450
+Sam Curren (TelegramSam): i'm not trying to like.
+
+183
+00:26:21.600 --> 00:26:24.840
+Sam Curren (TelegramSam): not have a repository contribution here, but I just.
+
+184
+00:26:25.080 --> 00:26:25.650
+wondering.
+
+185
+00:26:26.670 --> 00:26:39.390
+Sam Curren (TelegramSam): If it's a separate repository it's going to have you know there's a higher burden of maintenance if it if it ends up being part of the regular occupy repo then, then it has it has a greater chance of regular maintenance over time yeah.
+
+186
+00:26:39.690 --> 00:26:39.960
+yeah.
+
+187
+00:26:41.550 --> 00:26:55.920
+Victor Martinez (SICPA): yeah, I think, maybe, what we need to evaluate a little bit is all the configuration that is needed to configure this plugin, because if we integrated as part of occupy maybe we are going to add more configuration but yeah i'm fine with it as well.
+
+188
+00:26:57.150 --> 00:27:00.000
+Stephen Curran: there's a lot of configuration already.
+
+189
+00:27:01.080 --> 00:27:18.630
+Sam Curren (TelegramSam): I wonder if there isn't a there is a lot of configuration, I wonder if there isn't some way of having sort of a bundle of of configuration that applies to the resolve over such that it doesn't necessarily have to be mixed in, in parallel with all of the existing occupied configuration.
+
+190
+00:27:19.080 --> 00:27:25.890
+Stephen Curran: Well, one of the things act by has is that you can have multiple Diablo files with them all separate so.
+
+191
+00:27:27.180 --> 00:27:30.300
+Sam Curren (TelegramSam): So maybe out of practice we just shove, all of the.
+
+192
+00:27:32.100 --> 00:27:32.340
+Sam Curren (TelegramSam): The.
+
+193
+00:27:32.370 --> 00:27:36.030
+Sam Curren (TelegramSam): Did resolution stuff into one yammer file yep.
+
+194
+00:27:37.770 --> 00:27:51.870
+Timo Glastra: I think there's a buyer has a slogan config file and that allows you to specify a plugin and there you can provide a DEMO configuration for the plugin, I think, maybe that would be useful for that.
+
+195
+00:27:56.430 --> 00:27:58.440
+Sam Curren (TelegramSam): yeah cool okay sorry.
+
+196
+00:27:58.800 --> 00:28:00.900
+Stephen Curran: Okay okay yeah.
+
+197
+00:28:00.930 --> 00:28:02.190
+Sam Curren (TelegramSam): Clement you're up next, I think.
+
+198
+00:28:02.730 --> 00:28:03.630
+Sam Curren (TelegramSam): Unless Stephen you had something.
+
+199
+00:28:05.130 --> 00:28:05.730
+Clement Humbert: Good and.
+
+200
+00:28:05.940 --> 00:28:07.380
+Clement Humbert: i'll give you a quick overview of.
+
+201
+00:28:10.650 --> 00:28:11.730
+Clement Humbert: The plugin.
+
+202
+00:28:24.660 --> 00:28:25.920
+Clement Humbert: So just to frame.
+
+203
+00:28:37.260 --> 00:28:41.430
+Clement Humbert: Okay, I can share my screen without restarting so let me rejoin this meeting.
+
+204
+00:28:51.000 --> 00:28:52.920
+Stephen Curran: In case you're wondering Clement has a MAC.
+
+205
+00:28:54.180 --> 00:28:57.210
+Stephen Curran: We can always tell when someone has a MAC oh.
+
+206
+00:28:57.900 --> 00:29:00.150
+Stephen Curran: it's their first screen share on zoom.
+
+207
+00:29:06.300 --> 00:29:08.670
+Stephen Curran: yeah both has a MAC and does not usually.
+
+208
+00:29:10.500 --> 00:29:11.070
+Stephen Curran: use it, I.
+
+209
+00:29:11.100 --> 00:29:13.470
+Timo Glastra: Think it's a limitation of.
+
+210
+00:29:15.180 --> 00:29:21.750
+Timo Glastra: Like some Apps to allow to not restart, so I think it's it's possible for me to not require it.
+
+211
+00:29:21.960 --> 00:29:23.670
+Stephen Curran: might be a zoom thing yeah.
+
+212
+00:29:26.520 --> 00:29:26.940
+Clement Humbert: Okay.
+
+213
+00:29:26.970 --> 00:29:46.830
+Clement Humbert: so quickly to frame the plugin we wanted this to be able to scale a bison or recently in our agency, and we, we have a message based architecture around around Kafka and credits to Daniel and Adam the actual implementation of the thing.
+
+214
+00:29:49.110 --> 00:30:07.590
+Clement Humbert: And what's in the plugin is an implementation for an inbound and outbound you and a way to emit events through through Kafka and we can enable or not enabled the plugin independently for each of these of these spots, so this is what.
+
+215
+00:30:08.850 --> 00:30:10.530
+Clement Humbert: It looks like when using the plugin.
+
+216
+00:30:11.670 --> 00:30:18.870
+Clement Humbert: occupy sources it's messages from Kafka, so it is long queue instead of http.
+
+217
+00:30:20.010 --> 00:30:31.530
+Clement Humbert: And boosts it's the responses on Kafka, and this means that you need some kind of interface to convert your direct messages that are an http to.
+
+218
+00:30:32.940 --> 00:30:44.760
+Clement Humbert: To Kafka messages and you can either have a transparent proxy or, as we do have a mediator and like a pie that's configured with an http inbound and Kafka.
+
+219
+00:30:46.830 --> 00:30:56.340
+Clement Humbert: And then same for the actual delivery of the responses, you have to have something that's capable of picking up Kafka messages and posting on http.
+
+220
+00:30:57.930 --> 00:30:58.440
+Clement Humbert: looks.
+
+221
+00:30:59.880 --> 00:31:06.000
+Clement Humbert: Complicated like that, but then I think, is that you can scale each of these three parts, independently of the others.
+
+222
+00:31:09.060 --> 00:31:18.390
+Clement Humbert: So this is for the little message messages flow and the separate feature is the evidence and web hooks have occupied.
+
+223
+00:31:20.100 --> 00:31:25.830
+Clement Humbert: And we can configure a bite to post web hooks on Kafka instead of http.
+
+224
+00:31:26.940 --> 00:31:28.890
+Clement Humbert: And we can configure.
+
+225
+00:31:29.940 --> 00:31:31.200
+Clement Humbert: The destination of big.
+
+226
+00:31:33.180 --> 00:31:36.690
+Clement Humbert: With parameters, like the protocol and it state.
+
+227
+00:31:37.710 --> 00:31:44.070
+Clement Humbert: So you can dispatch connection events to a topic and issuances to another.
+
+228
+00:31:45.240 --> 00:31:55.890
+Clement Humbert: And the payload is not only the event it's wrapped in an envelope with submitted a static ID the protocol, the State and that we can category, so we can further.
+
+229
+00:31:56.370 --> 00:32:15.090
+Clement Humbert: The compose your topics, if you want to have the topic educated to a single wallet, for example, for segregation, or whatever, or if you need this data to consolidate with data from your agency, we choose the wallet ID to cross the reference data with customers data, for example.
+
+230
+00:32:17.520 --> 00:32:26.100
+Clement Humbert: So to wrap up what's in the report is the actual implementation of the plugin so the inbound not want you and Evans dispatching.
+
+231
+00:32:26.850 --> 00:32:37.320
+Clement Humbert: but also a proof of concept for an http relate to pick up the messages and posts on Kafka and an http deliver to pick up Kafka messages and post them.
+
+232
+00:32:38.310 --> 00:32:58.920
+Clement Humbert: Post them to the recipients, with some retry mechanisms, we also have a couple of docker compose to demonstrate how the whole thing together works and whether you're using a mediator or an early so you have the whole setup with a mediator or really a CAFE.
+
+233
+00:32:59.970 --> 00:33:04.080
+Clement Humbert: In multi tenancy mode and the developer site.
+
+234
+00:33:07.860 --> 00:33:19.170
+Clement Humbert: You can find all this here i'll post, the link in the chat for us to protect it, so in the more you have what I just said, the docker compose with the relay automated.
+
+235
+00:33:20.670 --> 00:33:26.160
+Clement Humbert: And curious the actual implementation, if you want to look at this.
+
+236
+00:33:27.420 --> 00:33:28.080
+Clement Humbert: And that's it.
+
+237
+00:33:30.360 --> 00:33:38.250
+Sam Curren (TelegramSam): um can you talk about the effect of using Kafka as to offload inbound and outbound messages.
+
+238
+00:33:40.350 --> 00:33:43.920
+Clement Humbert: The effect on well i'm presuming there was a reason.
+
+239
+00:33:43.950 --> 00:34:00.660
+Sam Curren (TelegramSam): You did this right and and it seems like offloading the the inbound process or the sort of the receiving in the transmission of messages was was what you're going for so just curious sort of what the overall effect is on the on the execution of the of the APP, for instance, yes.
+
+240
+00:34:01.080 --> 00:34:01.830
+Clement Humbert: um what.
+
+241
+00:34:02.160 --> 00:34:11.700
+Clement Humbert: It makes it easier to scale up your capacity, since they will pick up messages from the same pool of messages with the give you that you want.
+
+242
+00:34:12.840 --> 00:34:33.960
+Clement Humbert: You want to make sure that a single protocol execution is handled by the same consumer so we use keep partitions so each message is his kid with recipient key so you ensure that the single instance with process holding centuries from from single location even more more than that.
+
+243
+00:34:35.250 --> 00:34:44.490
+Clement Humbert: So this This allows to share your incoming load among multiple CAFE pretty easily and for dispatching.
+
+244
+00:34:45.900 --> 00:34:55.920
+Clement Humbert: And in my opinion it's great to have it decoupled from occupy, because then you can implement retry strategies or as complex or easy, as you want them without.
+
+245
+00:34:57.930 --> 00:35:07.380
+Clement Humbert: without putting all these coding unica pricing directly and you can scale up or down your your outbound developers independently okay bye.
+
+246
+00:35:10.650 --> 00:35:24.750
+Sam Curren (TelegramSam): So Stephen you've done clustering of occupy, but I believe the difference here is that when you've done it before a message may arrive at any of the occupied instances, and what they've done with this allows for the reception of the message to then.
+
+247
+00:35:26.100 --> 00:35:27.690
+Sam Curren (TelegramSam): be pinned.
+
+248
+00:35:28.830 --> 00:35:40.980
+Sam Curren (TelegramSam): To an occupy instance such that the State doesn't actually have to be shared between the occupy this is in order to sort of keep things straight within within an execution, am I understanding that correctly.
+
+249
+00:35:43.230 --> 00:35:45.570
+Clement Humbert: Yes, yes, and you ensure that you have no.
+
+250
+00:35:47.670 --> 00:35:49.500
+Clement Humbert: Good nice slides.
+
+251
+00:35:51.510 --> 00:36:00.960
+Victor Martinez (SICPA): Yes, Simon i'm sharing their screen it's exactly what you say, the way we see our or Python so far, so far we we want to have we have use cases for high availability, meaning.
+
+252
+00:36:01.320 --> 00:36:08.430
+Victor Martinez (SICPA): We want to scale aka fighter and have more than one bite on arm, you know in within our agency and the idea is.
+
+253
+00:36:09.270 --> 00:36:27.270
+Victor Martinez (SICPA): Like a Python is stateless meaning, you know you have an incoming message, then these triggers you know, a protocol, then you execute on all lot this this the state machine and then you execute the protocol, and then you persist again your state machine.
+
+254
+00:36:28.380 --> 00:36:35.190
+Victor Martinez (SICPA): So, at the end of the day, the way we see it, is located a cop Python is a stateless protocol executed and.
+
+255
+00:36:36.030 --> 00:36:42.690
+Victor Martinez (SICPA): We have incoming messages and outgoing messages, and this is why, where we have very a lot of expertise in in.
+
+256
+00:36:43.620 --> 00:36:53.040
+Victor Martinez (SICPA): In Kafka also that we have another another like microservices a not only a couple items so for us everything makes sense, but at the end of the day is like.
+
+257
+00:36:53.400 --> 00:37:03.840
+Victor Martinez (SICPA): I got by the new stateless it kind of scale horizontally on a combined is executing protocols on is let's say consuming messages on producing messages, and this is a lady under the hood.
+
+258
+00:37:05.970 --> 00:37:06.480
+Stephen Curran: But I think.
+
+259
+00:37:07.830 --> 00:37:09.210
+Stephen Curran: i'm worried there's a terminology.
+
+260
+00:37:09.210 --> 00:37:10.020
+Stephen Curran: mismatch here.
+
+261
+00:37:11.760 --> 00:37:12.600
+Stephen Curran: I think.
+
+262
+00:37:12.900 --> 00:37:16.530
+Stephen Curran: an instance handles a protocol message, not a protocol.
+
+263
+00:37:19.020 --> 00:37:20.700
+Victor Martinez (SICPA): Protocol message this is right.
+
+264
+00:37:21.000 --> 00:37:21.300
+Victor Martinez (SICPA): Right.
+
+265
+00:37:21.360 --> 00:37:35.400
+Victor Martinez (SICPA): Oh, this is why the way we do the long the lot but i'm seeing of the messages is based on the recipient key because the the operation of opening on a wallet is very expensive yeah, so this is why we try when you use yes that's it.
+
+266
+00:37:35.940 --> 00:37:42.150
+Stephen Curran: yeah so you're trying to use the same instance as much as possible, and you make it possible, but it doesn't have to use the same instance.
+
+267
+00:37:42.630 --> 00:37:43.920
+Victor Martinez (SICPA): Exactly exactly.
+
+268
+00:37:44.340 --> 00:37:47.100
+Victor Martinez (SICPA): Of course here, there is another improvement, which is the state machine.
+
+269
+00:37:47.460 --> 00:38:02.610
+Victor Martinez (SICPA): This in memory state machine right now, it is not share across multiple instances of our Python but ideally, the next step would be to have like this, a good memory like readies or mem cache where even occupied multiple items can share the same.
+
+270
+00:38:03.720 --> 00:38:04.950
+Victor Martinez (SICPA): distributed memory.
+
+271
+00:38:11.700 --> 00:38:12.210
+Sam Curren (TelegramSam): Very cool.
+
+272
+00:38:12.450 --> 00:38:13.260
+Stephen Curran: Use me again.
+
+273
+00:38:13.980 --> 00:38:14.280
+Though.
+
+274
+00:38:16.200 --> 00:38:18.960
+Stephen Curran: I wasn't clear on that, so in that state memory.
+
+275
+00:38:21.180 --> 00:38:26.940
+Stephen Curran: Is that the entire protocol, or just the the message that you're processing at this time.
+
+276
+00:38:28.650 --> 00:38:34.800
+Victor Martinez (SICPA): So my idea or well the way understanding is like a copyright on it just a less meaning.
+
+277
+00:38:35.370 --> 00:38:39.540
+Victor Martinez (SICPA): In between from sections is a is persisting the state machine.
+
+278
+00:38:39.780 --> 00:38:44.910
+Victor Martinez (SICPA): But this is the machine is either he'd rotated is that the name or it's rather the memory.
+
+279
+00:38:45.240 --> 00:38:54.360
+Stephen Curran: yeah yes so so you're saying you can improve performance you think if you can, if you can make it that that memory sharing lighter weight.
+
+280
+00:38:55.350 --> 00:39:10.200
+Victor Martinez (SICPA): Exactly So if you lose on distributed memory cache Oz readies where this memory, right now, it is isolated for each instance of occupied on can be shared across multiple instances of occupy time okay.
+
+281
+00:39:11.340 --> 00:39:11.730
+Victor Martinez (SICPA): and
+
+282
+00:39:12.270 --> 00:39:22.440
+Stephen Curran: The other thing to add is DC gov has done a rattus implementation that more or less matches this and so um the the.
+
+283
+00:39:23.730 --> 00:39:25.200
+Stephen Curran: occupy itself.
+
+284
+00:39:26.220 --> 00:39:42.300
+Stephen Curran: enables the use of cues but doesn't have an opinion on which to use and then these plugins you can use Kafka or you can use rattus or you can create another implementation, if you want so that's kind of how this works and and by default, if you don't use anyone.
+
+285
+00:39:43.590 --> 00:39:45.840
+Stephen Curran: occupy continues to use in memory.
+
+286
+00:39:47.160 --> 00:39:51.120
+Stephen Curran: In memory cues for these things, with the risk there that.
+
+287
+00:39:52.710 --> 00:39:56.430
+Stephen Curran: That you can have a an instance.
+
+288
+00:39:58.200 --> 00:40:05.610
+Stephen Curran: An occupy instance fail and you lose your in memory cute so that's why we want to go to these persistent cubes.
+
+289
+00:40:07.710 --> 00:40:08.130
+Stephen Curran: cool.
+
+290
+00:40:08.400 --> 00:40:09.960
+Sam Curren (TelegramSam): Thank you, I love this.
+
+291
+00:40:09.990 --> 00:40:25.410
+Sam Curren (TelegramSam): Is it the word proxy keeps showing up in my brain right like it's common to run an http server behind something like engine X that does things for you and this feels like a similar concept obviously not identical.
+
+292
+00:40:27.120 --> 00:40:29.190
+Sam Curren (TelegramSam): But the.
+
+293
+00:40:30.420 --> 00:40:43.140
+Sam Curren (TelegramSam): The, the only thing that i'm wondering about is the repo name itself, and that I don't get the proxy nature of what's going on, via the name of the repo I know it's an occupy plugin and it does something with Kafka but it doesn't really.
+
+294
+00:40:44.280 --> 00:40:54.990
+Sam Curren (TelegramSam): It doesn't really convey that that that's the case and is my only real feedback on this, I think it's wonderful work, but I wonder if we come up with a way to describe it a little bit better.
+
+295
+00:40:56.940 --> 00:41:02.010
+Sam Curren (TelegramSam): That that it could work part of the reason why i'm bringing this up, is that the.
+
+296
+00:41:03.540 --> 00:41:12.630
+Sam Curren (TelegramSam): we've had folks that were interested in using Kafka before as a dead calm transport, which is not really what you're doing here.
+
+297
+00:41:13.680 --> 00:41:15.300
+Sam Curren (TelegramSam): And, and so.
+
+298
+00:41:16.530 --> 00:41:33.780
+Sam Curren (TelegramSam): I think it may be, and maybe it's not a repo change but but but, like a clear description of the top of the readme in the repository that that helps make it clear that this is about using Kafka internally to add to an instance or to an agent instance, rather than.
+
+299
+00:41:34.980 --> 00:41:41.040
+Sam Curren (TelegramSam): Trying to promote Kafka as a as a as a transport generally speaking.
+
+300
+00:41:44.310 --> 00:41:46.740
+Victor Martinez (SICPA): sounds good, I mean we are happy to.
+
+301
+00:41:47.970 --> 00:41:52.440
+Victor Martinez (SICPA): suggestions and I think also our stiffen arm, we need to.
+
+302
+00:41:53.760 --> 00:41:56.490
+Victor Martinez (SICPA): align on the naming for both rapport so.
+
+303
+00:41:56.640 --> 00:41:57.480
+Sam Curren (TelegramSam): it's consistent.
+
+304
+00:42:00.420 --> 00:42:01.410
+Sam Curren (TelegramSam): But also be helpful.
+
+305
+00:42:02.610 --> 00:42:05.010
+Stephen Curran: yeah, so I think a couple of these topics will shift.
+
+306
+00:42:05.010 --> 00:42:06.840
+Stephen Curran: over to the aca bug meeting on.
+
+307
+00:42:06.900 --> 00:42:19.590
+Stephen Curran: Tuesday, this coming Tuesday, hopefully Victor and climate, you can make it because i'd like to take a couple of these Ian Ian is going to be leading it and i'm actually back channeling with him right now to say we need to go through a couple of these.
+
+308
+00:42:22.290 --> 00:42:24.630
+Stephen Curran: discussions that are coming out of this.
+
+309
+00:42:26.850 --> 00:42:31.590
+Sam Curren (TelegramSam): cool it's already named with Aries occupy in the prefix which makes it easy to associate with occupy.
+
+310
+00:42:32.040 --> 00:42:35.880
+Stephen Curran: yeah we need we need that but your Captain needs to be in there.
+
+311
+00:42:37.020 --> 00:42:40.170
+Stephen Curran: But after that we have to figure out what what we might have.
+
+312
+00:42:40.830 --> 00:42:50.910
+Sam Curren (TelegramSam): Well, and if this is a general concept that occupy has been making sure that it's named and clearly communicated that this is about sort of internal agent processing, rather than a transport I think would be helpful.
+
+313
+00:42:51.390 --> 00:42:51.720
+Stephen Curran: I don't.
+
+314
+00:42:51.750 --> 00:43:02.490
+Sam Curren (TelegramSam): confuse someone that thinks oh calf, because the transport now generally speaking in the dead calm world, I mean it kind of could be but it's never really been promoted, and so I don't want to cause confusion there.
+
+315
+00:43:03.810 --> 00:43:04.230
+Stephen Curran: and
+
+316
+00:43:05.010 --> 00:43:05.670
+Stephen Curran: i'm thinking.
+
+317
+00:43:06.330 --> 00:43:07.230
+Stephen Curran: i'll leave it, I will.
+
+318
+00:43:10.590 --> 00:43:11.640
+Sam Curren (TelegramSam): cool excellent.
+
+319
+00:43:12.300 --> 00:43:15.900
+Sam Curren (TelegramSam): Okay, we had there were three repos there.
+
+320
+00:43:16.110 --> 00:43:23.160
+Sam Curren (TelegramSam): And it sounds like two of them are the universal resolve or and the resolve that uses the did come as a transport, so those were involved in same conversation.
+
+321
+00:43:25.980 --> 00:43:29.430
+Sam Curren (TelegramSam): cool all right anything else from the from the sequoia team.
+
+322
+00:43:31.620 --> 00:43:32.430
+Victor Martinez (SICPA): Knowledge thanks.
+
+323
+00:43:33.030 --> 00:43:33.510
+Clement Humbert: Thank you.
+
+324
+00:43:34.290 --> 00:43:38.010
+Sam Curren (TelegramSam): So point of process here the.
+
+325
+00:43:39.180 --> 00:43:44.970
+Sam Curren (TelegramSam): there's there's the discussion about the resolve or piece being absorbed into occupy, we can revisit that here if we need to.
+
+326
+00:43:46.050 --> 00:43:56.880
+Sam Curren (TelegramSam): It makes sense that the occupy plugin and remains a separate repo, I think, from the from the architecture that we've described does anyone opposed to receiving that into the body of work inside of inside of areas.
+
+327
+00:44:01.140 --> 00:44:05.250
+Sam Curren (TelegramSam): This is a you got to speak up if you don't like it type of process.
+
+328
+00:44:15.690 --> 00:44:25.500
+Sam Curren (TelegramSam): Alright, I think it's sufficient Nathan, has been passed so whenever the either a rename or whatever happens, then, then that repo has been approved for transition.
+
+329
+00:44:26.730 --> 00:44:30.330
+Sam Curren (TelegramSam): The when it comes time to facilitate that transfer.
+
+330
+00:44:32.280 --> 00:44:40.620
+Sam Curren (TelegramSam): there's the the folks that hyper ledger usually take care of that we let them know what What moves and then they have a process that they use to move the repository.
+
+331
+00:44:40.920 --> 00:44:49.650
+Sam Curren (TelegramSam): That that's cleaner, if you move it then then sort of starting a new one, so that all the history and all the issues and everything else to transfer over as part of that.
+
+332
+00:44:50.670 --> 00:44:54.120
+Sam Curren (TelegramSam): So excellent, thank you for your work, this is great stuff.
+
+333
+00:44:55.890 --> 00:45:00.150
+Sam Curren (TelegramSam): And next on the agenda Timo do you want to do on a shared team, or shall I.
+
+334
+00:45:02.550 --> 00:45:03.720
+Timo Glastra: And I can share.
+
+335
+00:45:14.610 --> 00:45:17.130
+Timo Glastra: And you see my screen.
+
+336
+00:45:19.980 --> 00:45:20.310
+Sam Curren (TelegramSam): yep.
+
+337
+00:45:21.570 --> 00:45:21.900
+Timo Glastra: cool.
+
+338
+00:45:23.400 --> 00:45:26.700
+Timo Glastra: Okay, so i've been working a bit on like how we could migrate to fully.
+
+339
+00:45:26.700 --> 00:45:38.460
+Timo Glastra: Qualified dates and we've had some initial discussions before and just for context, if if people weren't at the previous meetings is.
+
+340
+00:45:39.690 --> 00:45:47.730
+Timo Glastra: Historically, in hype let's erase we use debts without full qualification, so that could either be and sovereign debt that.
+
+341
+00:45:48.480 --> 00:46:09.900
+Timo Glastra: Used know debts off prefix or did you list of that software effects, but you don't know which ledger it is registered on and and we also had did bear debts which historically were fully unqualified so now that we have a formal specification of how beard it should work.
+
+342
+00:46:11.340 --> 00:46:27.000
+Timo Glastra: It would be nice if we could update our legacy debts to qualified debts, and I think this is mainly needed in preparation for supporting did comfy to where our messages will indicate which that you're sending from.
+
+343
+00:46:28.290 --> 00:46:28.710
+Timo Glastra: and
+
+344
+00:46:30.240 --> 00:46:34.800
+Timo Glastra: We could yeah you would need to be a debt, so we need to qualify it.
+
+345
+00:46:36.300 --> 00:46:46.230
+Timo Glastra: But to be able to update it, we would need to have some process that both parties know, like all right, we have this old debt and they document and how do we transform it into.
+
+346
+00:46:47.520 --> 00:46:50.040
+Timo Glastra: The state that we wanted to be and.
+
+347
+00:46:51.240 --> 00:46:54.000
+Timo Glastra: i've written an initial draft of the rfc.
+
+348
+00:46:55.440 --> 00:47:14.940
+Timo Glastra: And it still needs a little work wording and clean up but it basically describes how can we qualify an indie debt, which is quite simple it's just you need to prefixed identify or with that indie and then the network so that's something you would have to know.
+
+349
+00:47:16.800 --> 00:47:24.600
+Timo Glastra: The more complex part and that's also what I would like to discuss here is like how we could qualify beard it's.
+
+350
+00:47:26.280 --> 00:47:34.320
+Timo Glastra: So first my initial thought was like it would be great if just the two agents could independently that they they're stored.
+
+351
+00:47:34.710 --> 00:47:54.510
+Timo Glastra: They document to one that supports the latest state standards so public key is renamed verification method and chances like that, and then generate the data peer identifier from it so both parties would know the new identifier after relationship.
+
+352
+00:47:56.700 --> 00:48:01.140
+Timo Glastra: But as I started like thinking a bit with it in Arizona with javascript.
+
+353
+00:48:02.220 --> 00:48:04.290
+Timo Glastra: It turns out to be quite hard.
+
+354
+00:48:05.580 --> 00:48:09.570
+Timo Glastra: First limitation is that you should choose a new alco.
+
+355
+00:48:10.650 --> 00:48:20.310
+Timo Glastra: If you don't want to negotiate from like how are we going to do is you would need to enforce an hour ago, and if we choose did pair to.
+
+356
+00:48:20.730 --> 00:48:36.360
+Timo Glastra: It means that document will be static and not sure if that's something we want to enforce if we choose despair one and it it's almost impossible to determine the old it based on the debt, which in in when we're using Community coordinated updates.
+
+357
+00:48:37.770 --> 00:48:54.660
+Timo Glastra: can be quite hard, if you want to dynamically that they did when they come in, and it would be quite hard to correlate them, so it would require like an upfront migration, so you already have the new identifier, and could link it to the old identifier and.
+
+358
+00:48:56.040 --> 00:49:16.170
+Timo Glastra: And another limitation I ran into is that the did bear spec as know can localization or normalization scheme, which means that the way the Jason will send to you is really important for the actual date that will be generated and the bear one will create a hash so if.
+
+359
+00:49:17.310 --> 00:49:31.350
+Timo Glastra: The first if you've got accent with ID property being the first element in the json body but somehow to, we have to have an airframe javascript true serialization decentralization it ends up as the less per meter that generated debts will be.
+
+360
+00:49:32.010 --> 00:49:38.910
+Timo Glastra: Not equal despair to is less prone to this, but still that the surfaces are encoded.
+
+361
+00:49:39.930 --> 00:49:52.590
+Timo Glastra: basics before encoded I think SS so if the idea of the surface or the type is switched around, even though the value of the documents are semantically to save the date that is generated from it.
+
+362
+00:49:53.790 --> 00:49:54.750
+Timo Glastra: will be different.
+
+363
+00:49:56.130 --> 00:49:57.420
+Timo Glastra: I mean, this has been.
+
+364
+00:49:59.400 --> 00:50:03.180
+Timo Glastra: A limitation, or like something we had an issue we had to deal with an F g.
+
+365
+00:50:05.580 --> 00:50:06.750
+Timo Glastra: Any way because.
+
+366
+00:50:08.100 --> 00:50:18.150
+Timo Glastra: Jason by default you can't assume on order so it would have been a lot easier if the bit pear spec would have defined the normalization or cannibalization scheme and.
+
+367
+00:50:19.020 --> 00:50:23.010
+Timo Glastra: But yeah that isn't there, so my question was a bit like.
+
+368
+00:50:23.700 --> 00:50:41.580
+Timo Glastra: what's the approach we should take care, we could define a protocol that you would share to transform big document with the new debt, so one party does it the other party verifies it and, but then we're basically creating the connection Protocol itself and and i'm not sure what the.
+
+369
+00:50:43.770 --> 00:50:49.230
+Timo Glastra: yeah the what we gain from it and we could maybe look at some in between.
+
+370
+00:50:52.650 --> 00:51:03.570
+Timo Glastra: Ways using a decorator or something i'm not sure, but I just would like some input if, like i'm completely missing some approach that that would work here.
+
+371
+00:51:10.200 --> 00:51:12.990
+Sam Curren (TelegramSam): So I was wondering, in my mind Timo about the.
+
+372
+00:51:14.880 --> 00:51:25.080
+Sam Curren (TelegramSam): Protocol form of this wondering so so obviously if we have a an easy way that we can all sort of interpret the same thing you know and accept either the older, the new form it's easy.
+
+373
+00:51:25.650 --> 00:51:34.200
+Sam Curren (TelegramSam): When it isn't it might be worth actually having the parties just be responsible to tell the other folks now The good news is it's a lot simpler than they.
+
+374
+00:51:34.890 --> 00:51:41.340
+Sam Curren (TelegramSam): I believe, then, the connections protocol, because you already have a secure way to communicate you already know who each other, are so there might be.
+
+375
+00:51:42.390 --> 00:51:49.980
+Sam Curren (TelegramSam): More or less two messages one is you know hey How would you like to upgrade unqualified did X.
+
+376
+00:51:51.420 --> 00:52:01.560
+Sam Curren (TelegramSam): And the and then it response which could also be sent without the question which would be here's the you know the here's how I am going to make this happen right.
+
+377
+00:52:02.040 --> 00:52:09.690
+Sam Curren (TelegramSam): here's here's the here's the fully qualified form to compensate for the other one, it is a little bit more complex in the implementation, in the sense that.
+
+378
+00:52:10.470 --> 00:52:18.990
+Sam Curren (TelegramSam): You know, we you've got to be make sure that the other suffers capable of receiving the message prior to you actually sending it otherwise they'll just ignore it, it won't make any difference.
+
+379
+00:52:20.070 --> 00:52:26.550
+Sam Curren (TelegramSam): But that is probably in my mind when they're when they're there's variability in what's going on that might be the clearest way to make that happen.
+
+380
+00:52:28.080 --> 00:52:42.090
+Timo Glastra: yeah I was thinking about it, but then I was thinking like well anybody actually implement it and, as this is only going to be an issue with did compete to and did country to as a quite elegant way of doing rotation of dates.
+
+381
+00:52:43.440 --> 00:52:52.020
+Timo Glastra: I was thinking, what if we just don't write a protocol and the first time you'll send messages and get comfy to you will.
+
+382
+00:52:52.860 --> 00:53:14.040
+Timo Glastra: Use the new dates or a completely new that new keys and from prior field will contain the previous dates and maybe it's it's something like that, if we want to prefect said that legacy, fair and then we have the old identifier, and then you're done with native difficulty two.
+
+383
+00:53:15.240 --> 00:53:20.070
+Timo Glastra: approaches which I was thinking like Is this really worth the effort is anyone going to implement it.
+
+384
+00:53:22.290 --> 00:53:28.110
+Sam Curren (TelegramSam): You raise an excellent question because I was thinking, the same thing if we had to cover to right now, this would be almost a non issue.
+
+385
+00:53:29.430 --> 00:53:31.290
+Sam Curren (TelegramSam): Because of exactly what you're describing.
+
+386
+00:53:32.340 --> 00:53:40.680
+Sam Curren (TelegramSam): But the other part of me would feel so much better if we are able to get this cleaned up prior to really having broad use of did come V2.
+
+387
+00:53:43.410 --> 00:53:48.150
+Sam Curren (TelegramSam): So yeah we are about out of time and I don't want to run over this meeting, immediately following us.
+
+388
+00:53:49.740 --> 00:53:57.570
+Sam Curren (TelegramSam): So Timo so number one excellent work and, and this, this issue is in the areas rfc repo, and so we could talk about this.
+
+389
+00:53:58.800 --> 00:54:06.570
+Sam Curren (TelegramSam): i'd encourage you to go and share your thoughts there so that we can figure this out team has done a wonderful job sort of guiding the discussion, but, but we need input.
+
+390
+00:54:06.900 --> 00:54:10.800
+Sam Curren (TelegramSam): And feedback from, particularly from software implementation about doing this.
+
+391
+00:54:11.550 --> 00:54:18.180
+Sam Curren (TelegramSam): And because that's this is going to whatever we decide is going to mostly fall on those doing the actual coding work in agents right.
+
+392
+00:54:18.900 --> 00:54:35.550
+Sam Curren (TelegramSam): And so, please go and and and share your opinion there on issue 735 and the areas rfc repo and then Timo let's let's bring this back up next week as well this this ongoing conversation I feel like we get smarter every time when we bring the topic up in our in our regular weekly meeting.
+
+393
+00:54:37.290 --> 00:54:38.370
+Sam Curren (TelegramSam): So appreciate your good.
+
+394
+00:54:38.670 --> 00:54:46.260
+Sam Curren (TelegramSam): appreciate your work, bringing this along and Claire and just in articulating our choices so well.
+
+395
+00:54:49.140 --> 00:54:59.580
+Sam Curren (TelegramSam): Very cool Thank you to Joe and those of you that are here for the next meeting just hang out and the rest of us will vanish we hope you have a great day and a great week and we'll see y'all later.
+
+396
+00:55:04.620 --> 00:55:05.580
+Sam Curren (TelegramSam): Thank you, the host.
+
+397
+00:55:05.760 --> 00:55:07.440
+SeanBohan (hypeledger): Stop recording before the next.
+

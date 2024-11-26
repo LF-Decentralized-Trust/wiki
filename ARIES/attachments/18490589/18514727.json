@@ -1,0 +1,1635 @@
+{
+  "stats": {
+    "suites": 33,
+    "tests": 94,
+    "passes": 75,
+    "pending": 19,
+    "failures": 0,
+    "start": "2021-01-22T21:36:23.329Z",
+    "end": "2021-01-22T21:36:34.865Z",
+    "duration": 11536
+  },
+  "tests": [
+    {
+      "title": "MUST be one or more URIs",
+      "fullTitle": "Basic Documents @context MUST be one or more URIs",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 226,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be one or more URIs (negative)",
+      "fullTitle": "Basic Documents @context MUST be one or more URIs (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 11,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "first value MUST be https://www.w3.org/2018/credentials/v1",
+      "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
+      "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "subsequent items can be objects that express context information",
+      "fullTitle": "Basic Documents @context subsequent items can be objects that express context information",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI",
+      "fullTitle": "Basic Documents `id` properties MUST be a single URI",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI (negative)",
+      "fullTitle": "Basic Documents `id` properties MUST be a single URI (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be one or more URIs",
+      "fullTitle": "Basic Documents `type` properties MUST be one or more URIs",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 172,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be one or more URIs (negative)",
+      "fullTitle": "Basic Documents `type` properties MUST be one or more URIs (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "for Credential MUST be `VerifiableCredential` plus specific type",
+      "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 1184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "for Credential MUST be `VerifiableCredential` plus specific type (negative)",
+      "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Basic Documents `credentialSubject` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present, may be a set of objects",
+      "fullTitle": "Basic Documents `credentialSubject` property MUST be present, may be a set of objects",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present (negative - credentialSubject missing)",
+      "fullTitle": "Basic Documents `credentialSubject` property MUST be present (negative - credentialSubject missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Basic Documents `issuer` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present (negative - missing issuer)",
+      "fullTitle": "Basic Documents `issuer` property MUST be present (negative - missing issuer)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI",
+      "fullTitle": "Basic Documents `issuer` property MUST be a single URI",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 183,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI (negative - not URI)",
+      "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - not URI)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI (negative - Array)",
+      "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - Array)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present (negative - missing issuanceDate)",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be present (negative - missing issuanceDate)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - Array)",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - Array)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 8,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime",
+      "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 183,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
+      "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - Array)",
+      "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - Array)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be of type `VerifiablePresentation`",
+      "fullTitle": "Basic Documents Presentations MUST be of type `VerifiablePresentation`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 191,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` and `proof`",
+      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
+      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 170,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
+      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "`credentialSchema` MUST provide one or more data schemas",
+      "fullTitle": "Credential Schema (optional) `credentialSchema` MUST provide one or more data schemas",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 174,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property",
+      "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify an `id` property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "value of `id` MUST be a URI identifying a schema file",
+      "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... value of `id` MUST be a URI identifying a schema file",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 210,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "`refreshService` MUST provide one or more refresh services",
+      "fullTitle": "Refresh Service (optional) `refreshService` MUST provide one or more refresh services",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property",
+      "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify an `id` property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "value of `id` MUST be a URL identifying a service endpoint",
+      "fullTitle": "Refresh Service (optional) each object within `refreshService`... value of `id` MUST be a URL identifying a service endpoint",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "`evidence` MUST provide one or more evidence objects",
+      "fullTitle": "Evidence (optional) `evidence` MUST provide one or more evidence objects",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/22-evidence.js",
+      "duration": 201,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Evidence (optional) each object within `evidence`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/22-evidence.js",
+      "duration": 185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `id` and `type`",
+      "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/23-status.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `id` and `type` (negative - missing `id`)",
+      "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `id`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/23-status.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST include `id` and `type` (negative - missing `type`)",
+      "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `type`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/23-status.js",
+      "duration": 8,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "`termsOfUse` MUST provide one or more ToU objects",
+      "fullTitle": "Terms of Use (optional) `termsOfUse` MUST provide one or more ToU objects",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/35-tou.js",
+      "duration": 189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Terms of Use (optional) each object within `termsOfUse`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/35-tou.js",
+      "duration": 170,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Linked Data Proofs (optional) `proof` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/40-ldp.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include specific method using the type property",
+      "fullTitle": "Linked Data Proofs (optional) `proof` property MUST include specific method using the type property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/40-ldp.js",
+      "duration": 185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include type property (negative - missing proof type)",
+      "fullTitle": "Linked Data Proofs (optional) `proof` property MUST include type property (negative - missing proof type)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/40-ldp.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "vc MUST be present in a JWT verifiable credential.",
+      "fullTitle": "JWT (optional) A verifiable credential ... vc MUST be present in a JWT verifiable credential.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 174,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If no explicit rule is specified, properties are encoded in the same way as with a standardverifiable credential, and are added to the vc property of the JWT.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... If no explicit rule is specified, properties are encoded in the same way as with a standardverifiable credential, and are added to the vc property of the JWT.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "if typ is present, it MUST be set to JWT.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... if typ is present, it MUST be set to JWT.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "alg MUST be used for RSA and ECDSA-based digital signatures.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... alg MUST be used for RSA and ECDSA-based digital signatures.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If no JWS is present, a proof property MUST be provided.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... If no JWS is present, a proof property MUST be provided.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If only the proof attribute is used, the alg header MUST be set to none.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... If only the proof attribute is used, the alg header MUST be set to none.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 173,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate).",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate).",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 186,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate) -- negative, no exp expected.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate) -- negative, no exp expected.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "iss MUST represent the issuer property.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... iss MUST represent the issuer property.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "nbf MUST represent issuanceDate, encoded as a UNIX timestamp (NumericDate).",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... nbf MUST represent issuanceDate, encoded as a UNIX timestamp (NumericDate).",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of the verifiable credential.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... jti MUST represent the id property of the verifiable credential.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of the verifiable credential -- negative, no jti expected",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... jti MUST represent the id property of the verifiable credential -- negative, no jti expected",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "sub MUST represent the id property contained in the verifiable credential subject.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... sub MUST represent the id property contained in the verifiable credential subject.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 197,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Additional claims MUST be added to the credentialSubject property of the JWT.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... Additional claims MUST be added to the credentialSubject property of the JWT.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Add the content from the vc property to the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... Add the content from the vc property to the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 180,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If exp is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the expirationDate property of credentialSubject of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If exp is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the expirationDate property of credentialSubject of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 171,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If iss is present, the value MUST be used to set the issuer property of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If iss is present, the value MUST be used to set the issuer property of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If nbf is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the issuanceDate property of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If nbf is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the issuanceDate property of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If sub is present, the value MUST be used to set the value of the id property of credentialSubject of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If sub is present, the value MUST be used to set the value of the id property of credentialSubject of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If jti is present, the value MUST be used to set the value of the id property of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If jti is present, the value MUST be used to set the value of the id property of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "vp MUST be present in a JWT verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... vp MUST be present in a JWT verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "aud MUST represent the subject of the consumer of the verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... aud MUST represent the subject of the consumer of the verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of [...] the verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... jti MUST represent the id property of [...] the verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 196,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of [...] the verifiable presentation -- negative, no jti expected",
+      "fullTitle": "JWT (optional) A verifiable presentation ... jti MUST represent the id property of [...] the verifiable presentation -- negative, no jti expected",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "iss MUST represent [...] the holder property of a verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... iss MUST represent [...] the holder property of a verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "iss MUST represent [...] the holder property of a verifiable presentation. -- negative, no jti expected",
+      "fullTitle": "JWT (optional) A verifiable presentation ... iss MUST represent [...] the holder property of a verifiable presentation. -- negative, no jti expected",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST contain a credentialSchema",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a credentialSchema",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a proof",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a proof",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a proof (negative - missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a proof (negative - missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify a type",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify a type",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify a type (negative - type missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify a type (negative - type missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify an `id` property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property (negative - `id` missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify an `id` property (negative - `id` missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "value of `id` MUST be a URI identifying a schema file",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... value of `id` MUST be a URI identifying a schema file",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include specific method using the type property",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each proof... MUST include specific method using the type property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "proof MUST include type property (negative - missing proof type)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each proof... proof MUST include type property (negative - missing proof type)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST be of type `VerifiablePresentation`",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST be of type `VerifiablePresentation`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential`",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST NOT leak information",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST NOT leak information",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `proof`",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `proof`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `proof` (negative - missing `proof`)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `proof` (negative - missing `proof`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST have a `credentialSchema` member",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... Each verifiable credential... MUST have a `credentialSchema` member",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... Each verifiable credential... MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [
+    {
+      "title": "MUST contain a credentialSchema",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a credentialSchema",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a proof",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a proof",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a proof (negative - missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... MUST contain a proof (negative - missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify a type",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify a type",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify a type (negative - type missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify a type (negative - type missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify an `id` property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property (negative - `id` missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... MUST specify an `id` property (negative - `id` missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "value of `id` MUST be a URI identifying a schema file",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each credentialSchema... value of `id` MUST be a URI identifying a schema file",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include specific method using the type property",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each proof... MUST include specific method using the type property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "proof MUST include type property (negative - missing proof type)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable credential... Each proof... proof MUST include type property (negative - missing proof type)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST be of type `VerifiablePresentation`",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST be of type `VerifiablePresentation`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential`",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST NOT leak information",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST NOT leak information",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `proof`",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `proof`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST include `proof` (negative - missing `proof`)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `proof` (negative - missing `proof`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST have a `credentialSchema` member",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... Each verifiable credential... MUST have a `credentialSchema` member",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... Each verifiable credential... MUST contain a credentialSchema (negative - credentialSchema missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/60-zkp.js",
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "failures": [],
+  "passes": [
+    {
+      "title": "MUST be one or more URIs",
+      "fullTitle": "Basic Documents @context MUST be one or more URIs",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 226,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be one or more URIs (negative)",
+      "fullTitle": "Basic Documents @context MUST be one or more URIs (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 11,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "first value MUST be https://www.w3.org/2018/credentials/v1",
+      "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
+      "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "subsequent items can be objects that express context information",
+      "fullTitle": "Basic Documents @context subsequent items can be objects that express context information",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI",
+      "fullTitle": "Basic Documents `id` properties MUST be a single URI",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI (negative)",
+      "fullTitle": "Basic Documents `id` properties MUST be a single URI (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be one or more URIs",
+      "fullTitle": "Basic Documents `type` properties MUST be one or more URIs",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 172,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be one or more URIs (negative)",
+      "fullTitle": "Basic Documents `type` properties MUST be one or more URIs (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "for Credential MUST be `VerifiableCredential` plus specific type",
+      "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 1184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "for Credential MUST be `VerifiableCredential` plus specific type (negative)",
+      "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type (negative)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Basic Documents `credentialSubject` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present, may be a set of objects",
+      "fullTitle": "Basic Documents `credentialSubject` property MUST be present, may be a set of objects",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present (negative - credentialSubject missing)",
+      "fullTitle": "Basic Documents `credentialSubject` property MUST be present (negative - credentialSubject missing)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Basic Documents `issuer` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present (negative - missing issuer)",
+      "fullTitle": "Basic Documents `issuer` property MUST be present (negative - missing issuer)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI",
+      "fullTitle": "Basic Documents `issuer` property MUST be a single URI",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 183,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI (negative - not URI)",
+      "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - not URI)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be a single URI (negative - Array)",
+      "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - Array)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present (negative - missing issuanceDate)",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be present (negative - missing issuanceDate)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - Array)",
+      "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - Array)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 8,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime",
+      "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 183,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
+      "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be an RFC3339 datetime (negative - Array)",
+      "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - Array)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST be of type `VerifiablePresentation`",
+      "fullTitle": "Basic Documents Presentations MUST be of type `VerifiablePresentation`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 191,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` and `proof`",
+      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
+      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 170,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
+      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/10-basic.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "`credentialSchema` MUST provide one or more data schemas",
+      "fullTitle": "Credential Schema (optional) `credentialSchema` MUST provide one or more data schemas",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 174,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property",
+      "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify an `id` property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "value of `id` MUST be a URI identifying a schema file",
+      "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... value of `id` MUST be a URI identifying a schema file",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/20-schema.js",
+      "duration": 210,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "`refreshService` MUST provide one or more refresh services",
+      "fullTitle": "Refresh Service (optional) `refreshService` MUST provide one or more refresh services",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify an `id` property",
+      "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify an `id` property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "value of `id` MUST be a URL identifying a service endpoint",
+      "fullTitle": "Refresh Service (optional) each object within `refreshService`... value of `id` MUST be a URL identifying a service endpoint",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/21-refresh.js",
+      "duration": 185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "`evidence` MUST provide one or more evidence objects",
+      "fullTitle": "Evidence (optional) `evidence` MUST provide one or more evidence objects",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/22-evidence.js",
+      "duration": 201,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Evidence (optional) each object within `evidence`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/22-evidence.js",
+      "duration": 185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `id` and `type`",
+      "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type`",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/23-status.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include `id` and `type` (negative - missing `id`)",
+      "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `id`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/23-status.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "MUST include `id` and `type` (negative - missing `type`)",
+      "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `type`)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/23-status.js",
+      "duration": 8,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "`termsOfUse` MUST provide one or more ToU objects",
+      "fullTitle": "Terms of Use (optional) `termsOfUse` MUST provide one or more ToU objects",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/35-tou.js",
+      "duration": 189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST specify a `type` property with a valid value",
+      "fullTitle": "Terms of Use (optional) each object within `termsOfUse`... MUST specify a `type` property with a valid value",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/35-tou.js",
+      "duration": 170,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST be present",
+      "fullTitle": "Linked Data Proofs (optional) `proof` property MUST be present",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/40-ldp.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include specific method using the type property",
+      "fullTitle": "Linked Data Proofs (optional) `proof` property MUST include specific method using the type property",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/40-ldp.js",
+      "duration": 185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "MUST include type property (negative - missing proof type)",
+      "fullTitle": "Linked Data Proofs (optional) `proof` property MUST include type property (negative - missing proof type)",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/40-ldp.js",
+      "duration": 10,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "vc MUST be present in a JWT verifiable credential.",
+      "fullTitle": "JWT (optional) A verifiable credential ... vc MUST be present in a JWT verifiable credential.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 174,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If no explicit rule is specified, properties are encoded in the same way as with a standardverifiable credential, and are added to the vc property of the JWT.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... If no explicit rule is specified, properties are encoded in the same way as with a standardverifiable credential, and are added to the vc property of the JWT.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "if typ is present, it MUST be set to JWT.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... if typ is present, it MUST be set to JWT.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "alg MUST be used for RSA and ECDSA-based digital signatures.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... alg MUST be used for RSA and ECDSA-based digital signatures.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If no JWS is present, a proof property MUST be provided.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... If no JWS is present, a proof property MUST be provided.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If only the proof attribute is used, the alg header MUST be set to none.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... If only the proof attribute is used, the alg header MUST be set to none.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 173,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate).",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate).",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 186,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate) -- negative, no exp expected.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... exp MUST represent expirationDate, encoded as a UNIX timestamp (NumericDate) -- negative, no exp expected.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "iss MUST represent the issuer property.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... iss MUST represent the issuer property.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "nbf MUST represent issuanceDate, encoded as a UNIX timestamp (NumericDate).",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... nbf MUST represent issuanceDate, encoded as a UNIX timestamp (NumericDate).",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of the verifiable credential.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... jti MUST represent the id property of the verifiable credential.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of the verifiable credential -- negative, no jti expected",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... jti MUST represent the id property of the verifiable credential -- negative, no jti expected",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "sub MUST represent the id property contained in the verifiable credential subject.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... sub MUST represent the id property contained in the verifiable credential subject.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 197,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Additional claims MUST be added to the credentialSubject property of the JWT.",
+      "fullTitle": "JWT (optional) A verifiable credential ... To encode a verifiable credential as a JWT, specific properties introduced by thisspecification MUST be either 1) encoded as standard JOSE header parameters, 2) encoded as registered JWT claim names, or 3) contained in the JWS signature part... Additional claims MUST be added to the credentialSubject property of the JWT.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 177,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Add the content from the vc property to the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... Add the content from the vc property to the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 180,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If exp is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the expirationDate property of credentialSubject of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If exp is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the expirationDate property of credentialSubject of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 171,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If iss is present, the value MUST be used to set the issuer property of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If iss is present, the value MUST be used to set the issuer property of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If nbf is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the issuanceDate property of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If nbf is present, the UNIX timestamp MUST be converted to an [RFC3339] date-time, and MUST be used to set the value of the issuanceDate property of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If sub is present, the value MUST be used to set the value of the id property of credentialSubject of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If sub is present, the value MUST be used to set the value of the id property of credentialSubject of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "If jti is present, the value MUST be used to set the value of the id property of the new JSON object.",
+      "fullTitle": "JWT (optional) To decode a JWT to a standard verifiable credential, the following transformation MUST be performed... To transform the JWT specific headers and claims, the following MUST be done: If jti is present, the value MUST be used to set the value of the id property of the new JSON object.",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "vp MUST be present in a JWT verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... vp MUST be present in a JWT verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 181,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "aud MUST represent the subject of the consumer of the verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... aud MUST represent the subject of the consumer of the verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of [...] the verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... jti MUST represent the id property of [...] the verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 196,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "jti MUST represent the id property of [...] the verifiable presentation -- negative, no jti expected",
+      "fullTitle": "JWT (optional) A verifiable presentation ... jti MUST represent the id property of [...] the verifiable presentation -- negative, no jti expected",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "iss MUST represent [...] the holder property of a verifiable presentation",
+      "fullTitle": "JWT (optional) A verifiable presentation ... iss MUST represent [...] the holder property of a verifiable presentation",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "iss MUST represent [...] the holder property of a verifiable presentation. -- negative, no jti expected",
+      "fullTitle": "JWT (optional) A verifiable presentation ... iss MUST represent [...] the holder property of a verifiable presentation. -- negative, no jti expected",
+      "file": "/home/runner/work/aries-framework-go/aries-framework-go/build/vc-test-suite/suite/test/vc-data-model-1.0/50-jwt.js",
+      "duration": 176,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}

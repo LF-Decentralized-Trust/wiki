@@ -1,0 +1,8 @@
+16:04:35	 From Robert Mitwicki : https://wiki.hyperledger.org/pages/resumedraft.action?draftId=51610793&draftShareId=d81c6241-bbc9-4b80-b36c-120901872cde&
+16:12:52	 From Sam Curren (TelegramSam) : Maybe good for a later update.
+16:38:19	 From nage : Also worth noting that it is rare for a piece of software to work with completely arbitrary data graphs.  Usually a use case has a small number of known graphs and can shortcut verification by simply checking “is this one of the ones I usually use”
+16:40:02	 From nage : For this same reason most developers simply ignore all the rdf and semantics and just duck type it.  So long as nothing unexpected happens they treat them as equivalent
+16:47:31	 From Sam Curren (TelegramSam) : It seems those Indy folks were not that crazy after all. :)
+16:50:08	 From nage : From the Zen of Python “There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.”   Sometimes you have to go through the pain before it makes sense
+16:57:10	 From Robert Mitwicki : https://hackmd.io/rnY5xiXESWqWBlyDPHDorA?view

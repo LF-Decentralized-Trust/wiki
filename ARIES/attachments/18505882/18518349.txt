@@ -1,0 +1,1306 @@
+WEBVTT
+
+1
+00:00:02.060 --> 00:00:04.030
+Stephen Curran: All right. Welcome to the
+
+2
+00:00:04.120 --> 00:00:25.089
+Stephen Curran: June 20 eighth. A is working group. Call 23. a number of things on the agenda, slightly out of order. But I'll get that in what we get into the topics. we'll start with the marketing group update, and then I've got a pile of Rfcs. Pr. That I'd like to merge if we can get to that, and then we'll see what else we can get to.
+
+3
+00:00:25.280 --> 00:00:39.449
+Stephen Curran:  this is a Linux Foundation meeting and a hyper leisure meeting. So the antitrust policy of the Linux Foundation is in effect, as it's the Hyper Ledger code of conduct.
+
+4
+00:00:39.780 --> 00:00:46.699
+Stephen Curran: It is not the 20 first of June, so we've got to edit that. There we go.
+
+5
+00:00:47.160 --> 00:00:56.429
+Stephen Curran: please add your name to the list of attendees. I put it the link to this in chat. So feel free to add your name.
+
+6
+00:00:56.580 --> 00:01:07.249
+Stephen Curran: If anyone would like to introduce themselves or make announcements. The mike is now open for anyone to take that feel free to step up
+
+7
+00:01:07.360 --> 00:01:16.830
+Stephen Curran: for introductions, for those new to the community that want to introduce themselves and talk about what you're doing in this space. We welcome that
+
+8
+00:01:24.510 --> 00:01:25.730
+Stephen Curran: all right.
+
+9
+00:01:26.220 --> 00:01:35.540
+Stephen Curran: this announcement we're going to talk about in a bit, I believe. So I'll defer that until the discussion topics. If that's okay.
+
+10
+00:01:36.710 --> 00:01:40.060
+Stephen Curran: release statuses.
+
+11
+00:01:40.350 --> 00:01:48.419
+Stephen Curran: areas, cloud, Asian python, r, C. One of release 0 8 2 has been released.
+
+12
+00:01:48.680 --> 00:01:57.700
+Stephen Curran: there is probably one more Pr to emerge into that. So we're holding off on a final 8 to release
+
+13
+00:01:57.930 --> 00:02:23.350
+Stephen Curran: we do have an issue with Github actions related to a move to Python 3.9. basically, we're in a situation where we've got a couple of the integration tests that we're fine on 3, 637 and we're fine on 3, 8, and 3, 9 locally. But but hang on Github actions 3.8 and 3.9 without any
+
+14
+00:02:23.380 --> 00:02:37.980
+Stephen Curran: feedback at this point. So we're couple of people that have been looking at are at a loss. We're stuck. If anyone can help out on that, we'd really really appreciate it. So let me know if you're able to help out or willing to help out.
+
+15
+00:02:38.010 --> 00:02:45.430
+Stephen Curran: We really need to get that one resolved. we'll take some other actions. But
+
+16
+00:02:46.120 --> 00:02:51.629
+Stephen Curran: we need some new eyes on that one. Which is, it's just a weird one and very, very frustrating.
+
+17
+00:02:52.880 --> 00:03:01.450
+Stephen Curran: any other announcements about frameworks or any other releases, release updates and so on.
+
+18
+00:03:07.490 --> 00:03:22.960
+Stephen Curran: couple of things to know Ares Asian test harness. failed last night to run. I don't think any of the tests ran, or very few. So I'll be investigating that in a bit this morning. So heads up on that
+
+19
+00:03:23.480 --> 00:03:34.699
+Stephen Curran: Aries Mediator service. We'll talk a bit about this. But we really it would be super useful to have this updated with socket, Doc, so
+
+20
+00:03:34.740 --> 00:03:41.279
+Stephen Curran: that'd be a nice project that people are interested in in a and are looking for something to do.
+
+21
+00:03:42.770 --> 00:03:44.310
+We have something that we're least even.
+
+22
+00:03:44.740 --> 00:03:45.940
+Stephen Curran: What's that
+
+23
+00:03:46.440 --> 00:03:56.369
+Jason Leach: we when you were asking about framework releases. We did integrate if J. 0, 4, 0 by fold last week. So that's a huge win.
+
+24
+00:03:56.400 --> 00:04:05.250
+Jason Leach: thanks to all the hard work from our friends at animal it seems to be working great. We've got one thing that we forgot to fix ourselves. But yeah, it's working great.
+
+25
+00:04:06.850 --> 00:04:26.099
+Jason Leach: That's this, of course, got all the new shared components in it. We we're not using in the SDK anymore. We're using all the rest libraries like ask. So we asked car to interact with the ledgers and the wallet, and and on credits rs, and all those other shared components we're using as well, which work great.
+
+26
+00:04:26.130 --> 00:04:27.280
+Stephen Curran: That's awesome.
+
+27
+00:04:28.270 --> 00:04:38.669
+Stephen Curran: Yeah, that was The the fact that it ran, you know, even with small issues, that it ran on on a first go was amazing. So nice work on that.
+
+28
+00:04:41.230 --> 00:04:42.490
+Stephen Curran: Thanks, Jason.
+
+29
+00:04:44.740 --> 00:04:49.260
+Stephen Curran: All right. Discussion topics.
+
+30
+00:04:50.100 --> 00:04:56.310
+Stephen Curran: Helen, Alex, do you guys want to take over the screen and talk about what you're doing, or just talk about what you're doing.
+
+31
+00:04:56.510 --> 00:04:59.729
+Helen Garneau: we can just talk about what we're doing. That'd be fine.
+
+32
+00:05:00.250 --> 00:05:13.710
+Helen Garneau: So the first official meeting of the Aries marketing committee took place yesterday. This is I think we're gonna meet just once. Monthly. to talk about
+
+33
+00:05:13.750 --> 00:05:32.200
+Helen Garneau: Updating all things Aries branding, messaging, etc. So, please, you know, starting off, please encourage anybody on your team who might be interested in this effort to join us. the it is on the the groups. I/O like calendar
+
+34
+00:05:32.200 --> 00:05:48.040
+Helen Garneau: reminders, or whatever. So folks should should get them all the information there. we also have a wiki page. just if you click backwards a couple of times you'll see it. So anyways, it's It's it pot and the Ares it. You know a a branch of the areas, Wiki.
+
+35
+00:05:48.120 --> 00:06:15.560
+Helen Garneau: So all the information there to join, please folks join we will be inviting some speakers to come and and clarify a few topics for us. we're looking at sort of how to explain Aries externally to non people that are like not really familiar with the project or self starving identity, or what a credential is like. Kind of you know how to how to explain things
+
+36
+00:06:15.560 --> 00:06:37.670
+Helen Garneau: at a very kind of, you know, basic fundamental values based way. And then also how to explain to those developers kind of who are in the open source community who are more familiar with it, and that kind of thing so kind of both sides. Because I think that there's some we, you know, we've sort of decided that there's some some things that one side would want and not the other, and and vice versa.
+
+37
+00:06:37.860 --> 00:06:58.369
+Helen Garneau: So, Alex, I'll turn it over to Alex here in a minute to talk about the questionnaire. But we would love to get some feedback from the community on this. It shouldn't just be coming from Alex and myself and But So we're hoping to get some some feedback and a simple questionnaire. So, Alex, do you want to explain what that processes and what the goals are with that effort.
+
+38
+00:06:59.390 --> 00:07:15.260
+Alex Metcalf: Yeah, thank you. I think you said most of it. Very well. So we got the question there, out. If you see anything where there was something a question there was a survey coming away. Please take the hopefully 2 and a half minutes it will take to complete right there and then I'd be much, much appreciated. What you achieve is to is to flesh out
+
+39
+00:07:15.540 --> 00:07:16.930
+Alex Metcalf: understanding
+
+40
+00:07:17.190 --> 00:07:22.150
+Alex Metcalf: all the things that you guys know in your daily interactions by Aries. So when
+
+41
+00:07:22.250 --> 00:07:45.869
+Alex Metcalf: a person, you know is comes along, where do you point them? And one of the most important things to be telling other people about areas right now. And maybe what the challenge is people are facing when they hear about they are, what's the resistance you're face? You're you're hearing about it. And it sounds like a lot of things go into. So down some very targeted questions, probably a ranking question with a free tech space. You can just give us your thoughts and get the
+
+42
+00:07:45.930 --> 00:07:55.540
+Alex Metcalf: core proposition of Aries together, because it's still very clear that. this clarity about the lack of clarity that we that we need to get
+
+43
+00:07:56.910 --> 00:08:02.509
+Alex Metcalf: one solid core understanding of what the areas proposition is. Right now
+
+44
+00:08:02.670 --> 00:08:14.919
+Alex Metcalf: I know that's quite broad, and then we can specialize it in depending on the target audience for someone looking at this. It's this, it's for exact as this, if it's for develop on boarding to to leverage it or contribute to this.
+
+45
+00:08:14.970 --> 00:08:24.680
+Alex Metcalf: So yeah, short version is, I think he'll he'll think it'll be next week. time scale sub to change, maybe. See a questionnaire of survey across your path, please.
+
+46
+00:08:24.770 --> 00:08:30.560
+Alex Metcalf: You'll be very quick to complete, and we'd really appreciate your input. and they'll start to that.
+
+47
+00:08:30.720 --> 00:08:56.800
+Helen Garneau: I would just say one of those questions that will be on there. I out sort of alluded to it is any links to videos, meet ups, recordings, blogs, papers, pages on your company's websites like anything that you that has been created to explain Aries specifically, that you links that you send to people. Maybe new developers. Come on your team and you send them.
+
+48
+00:08:56.870 --> 00:09:01.190
+Helen Garneau: You know, a handful of links. We're hoping to create kind of a
+
+49
+00:09:01.290 --> 00:09:17.750
+Helen Garneau: like a dashboard of sorts, a community bulletin board of like helpful resources. so start or start getting those together, organizing those? because I think those will be really valuable, that just as an ongoing effort to always kind of be updating, hey, we just had this
+
+50
+00:09:18.000 --> 00:09:41.769
+Helen Garneau: cool event. I spoke it identverse. And this is the record, whatever like you, you know, we just just keep kind of on going. yeah, Bolton, Bart. Board of sorts with resources public facing resources. So start getting those links together. But we'll be organizing and collecting those in that as well, so if you want to be featured on kind of the main Aries page with that, with your information. that's another kind of added benefit to filling out the questionnaire.
+
+51
+00:09:44.710 --> 00:09:45.790
+Stephen Curran: Excellent!
+
+52
+00:09:46.780 --> 00:09:50.910
+Stephen Curran: There's quite a lot of those in the community that's for sure having them organize with me.
+
+53
+00:09:51.200 --> 00:10:03.769
+Helen Garneau: Yeah, like we we realize there's so much content that's already made by everybody on this call. that, let's you know. Let's maximize it and maximize visibility on it.
+
+54
+00:10:04.160 --> 00:10:11.450
+Stephen Curran: Excellent! All right. any questions, comments for Alex or Helen.
+
+55
+00:10:15.850 --> 00:10:16.910
+Stephen Curran: All right.
+
+56
+00:10:17.750 --> 00:10:30.930
+Stephen Curran: Okay, next topic is, Aries, our Fc, ours. This is something we do regularly that haven't done in a while. So there's a long list of Pr's in the
+
+57
+00:10:31.380 --> 00:10:41.949
+Stephen Curran: in the community to be reviewed. have I got it right? Okay, you can. People can see when I scan back and forth across my screens.
+
+58
+00:10:44.620 --> 00:10:45.900
+Stephen Curran: Say, yes.
+
+59
+00:10:50.030 --> 00:10:59.300
+Stephen Curran: yeah. Good. Thank you. Sorry about that. I just wanted to make sure Zoom was working the way I thought.
+
+60
+00:10:59.750 --> 00:11:06.429
+Stephen Curran: let me do one thing before I can share this
+
+61
+00:11:08.290 --> 00:11:23.590
+Stephen Curran: Change anything to an editor copy link. and I'll put this in chat as well, in case anyone wants to go through it, and I'll add it to the really quickly
+
+62
+00:11:29.680 --> 00:11:37.119
+Stephen Curran: should have done this before. Sorry about that, but I want to get it into the notes, so we don't lose it. Okay,
+
+63
+00:11:37.180 --> 00:12:02.850
+Stephen Curran: alright. So we're gonna play. Let's merge. I'm gonna keep in this view because I've got links and things to show 7 89 at clarify. So I'm gonna what I'm gonna do is, just list these off and then go through them. What I'd like to do is get to some sort of resolution on these. and ideally we either merge them, close them or identify questions to go back.
+
+64
+00:12:02.930 --> 00:12:09.679
+Stephen Curran: So definitely need your feedback and and input as we do this.
+
+65
+00:12:09.730 --> 00:12:28.219
+Stephen Curran:  so looking forward to that is is what I'm looking for. So 789 is adding a clarification to it to the thread Rfc. About the handling of an empty thread decorator. So basically, this is a a clarification
+
+66
+00:12:28.390 --> 00:12:34.260
+Stephen Curran: as noted. some frameworks may send over a till the thread empty.
+
+67
+00:12:34.480 --> 00:12:36.980
+Stephen Curran: which causes
+
+68
+00:12:37.150 --> 00:12:59.569
+Stephen Curran: other frameworks, possibly to crash, to, to throw on exception, or even to reject a message when a when an empty thread decorator comes in. the simple messages don't do that. Don't send those over. If you're gonna have an empty one, just don't even send it. But if if someone does happen to send one over.
+
+69
+00:12:59.580 --> 00:13:11.839
+Stephen Curran: The framework should be defensive in their handling of it. Shouldn't reject the message. Simply ignore the the decorator. So that's the advice in that. So if I come over here to look at the change.
+
+70
+00:13:12.230 --> 00:13:34.040
+Stephen Curran:  it's it's a simple clarification, saying it's not recommended. may send an empty thread. Aries agents, receiving a message with an empty thread, must gracefully handle such a message. So that's the the clarification any comments or any questions about merging this.
+
+71
+00:13:36.590 --> 00:13:59.659
+Stephen Curran: We've had some conversation on this couple of suggestions that maybe to make. If you're going to put a thread in, then you have to put the thread id in but we don't want to make that a required as noted. So we think all of the 3 of the frameworks. Now handle this at least a Vcx and go. We're not sure of their status.
+
+72
+00:14:00.480 --> 00:14:02.740
+Stephen Curran: Any concerns about merging this one.
+
+73
+00:14:09.450 --> 00:14:18.969
+Stephen Curran: All right. I'm going to go ahead and merge this one. I think this is probably the only one we'll do on the fly, because the rest will require updates. But we have at least accomplished that
+
+74
+00:14:20.080 --> 00:14:23.889
+Stephen Curran: probably should have put in the notes.
+
+75
+00:14:24.690 --> 00:14:28.490
+Stephen Curran:  that we what we did.
+
+76
+00:14:28.630 --> 00:14:30.130
+Stephen Curran: Oops.
+
+77
+00:14:31.170 --> 00:14:40.070
+Stephen Curran: Okay. I'll try to keep track of the status as we go. 7, 85 is another one that I put in based on
+
+78
+00:14:40.100 --> 00:14:58.760
+Stephen Curran: activities in the in in, in the day to day work going on. in this case, with by full the by full team. revise the well-known goal, codes Aries well and Aries, well, build again a clarification.
+
+79
+00:14:59.060 --> 00:15:06.729
+Stephen Curran:  relation rel is a relationship in this case. So the Ares well and Aries well, build
+
+80
+00:15:06.750 --> 00:15:10.820
+Stephen Curran: indicate that the goal code is to build a relationship.
+
+81
+00:15:10.970 --> 00:15:23.870
+Stephen Curran:  there was a line in the in the item to say, these should not be used when just establishing a did-com relationship, but that actually happens to be exactly what we need it for.
+
+82
+00:15:23.890 --> 00:15:34.269
+Stephen Curran: the change is just to remove that restriction, and since sometimes that is all you need. So let me get to that change. 785
+
+83
+00:15:35.110 --> 00:15:37.770
+Stephen Curran: shoot! I can't see the
+
+84
+00:15:39.100 --> 00:15:42.859
+Stephen Curran: where I've got things placed. I can't see it, so I'll just
+
+85
+00:15:43.090 --> 00:16:00.380
+Stephen Curran: to that to say. 7 85. So I stay on the I wasn't even helpful to do that. But anyway.  So basically a minor change that says this should not be confused with building a Didcom channel
+
+86
+00:16:00.650 --> 00:16:20.879
+Stephen Curran:  and and in fact, it could be used for a a a Dcom connection itself is not the relationship, but would be used to carry out interactions to facilitate the relationship. And so basically, this is saying, this may be accomplished by establishing updating or deleting a Dcom message connection
+
+87
+00:16:20.930 --> 00:16:24.280
+Stephen Curran: that provides a secure communication channel.
+
+88
+00:16:28.770 --> 00:16:36.369
+Stephen Curran: basically saying. it's okay to use the school code for that purpose. It's not specifically banned
+
+89
+00:16:39.380 --> 00:16:42.659
+Stephen Curran: any questions or concerns with that
+
+90
+00:16:46.680 --> 00:16:47.730
+Stephen Curran: right?
+
+91
+00:16:48.020 --> 00:16:51.410
+Stephen Curran: No comments. Are we okay to merge that one?
+
+92
+00:16:59.630 --> 00:17:02.809
+Stephen Curran: Any objections? No objections? Okay.
+
+93
+00:17:04.560 --> 00:17:06.940
+Stephen Curran: I'll mark that as to merge
+
+94
+00:17:10.770 --> 00:17:22.649
+Stephen Curran:  Then I wanted to throw up this basically, these the goal codes and and other
+
+95
+00:17:22.720 --> 00:17:25.680
+Stephen Curran: events are needed to
+
+96
+00:17:26.030 --> 00:17:38.449
+Stephen Curran: deal with user experiences user experience. So the this one came about because of activities on the BC wallet. we need gold codes
+
+97
+00:17:38.510 --> 00:17:49.610
+Stephen Curran: to fine tune the ux, so that an inventor. An event occurs that trigger some behavior in this case.
+
+98
+00:17:49.930 --> 00:17:54.980
+Stephen Curran: lacking a goal code on the connections. mechanism
+
+99
+00:17:55.120 --> 00:18:07.120
+Stephen Curran: the BC wallet is now assuming that after a connection is established, something else will happen. either an offer of a credential, or perhaps a a presentation request.
+
+100
+00:18:07.330 --> 00:18:26.809
+Stephen Curran: In this case this. This issue came up because there was no other action other than we just wanted to create a connection. But there was no events, no logic in there for the wallet to use in in making that user experience distinction.
+
+101
+00:18:27.230 --> 00:18:37.580
+Stephen Curran: So a, we need goal codes, to help out in the user experience. So we need to define new goal codes and use them in places where they're enabled.
+
+102
+00:18:37.820 --> 00:18:52.099
+Stephen Curran: also brings especially the concept of done in an action so that we know when we're done. This is one sticking point that we've seen. And we ask people to think about as they are developing wallets and things which is, once you get to
+
+103
+00:18:52.550 --> 00:18:58.800
+Stephen Curran: an interaction with another party, and you get to the end of it. How do you know you're at the end of it, or
+
+104
+00:18:59.800 --> 00:19:14.940
+Stephen Curran: or that the other party is going to continue on with some other step, and so coming up with the concept of done is something. that the the BC wall team has been thinking about and trying to figure out how to accomplish, particularly with goal codes.
+
+105
+00:19:14.960 --> 00:19:23.880
+Stephen Curran: any feedback on that would be of of interest in any other experience in in developing. And too many user experiences would be good.
+
+106
+00:19:25.630 --> 00:19:26.600
+Stephen Curran: Okay.
+
+107
+00:19:28.200 --> 00:19:32.569
+Stephen Curran: they vote for anyone comments and we'll jump to 784.
+
+108
+00:19:36.360 --> 00:19:38.060
+Stephen Curran: Oh.
+
+109
+00:19:39.980 --> 00:19:42.599
+Stephen Curran: just so that one while we go.
+
+110
+00:19:42.670 --> 00:19:53.579
+Stephen Curran:  this is a a an interesting one. basically, as you can see what it does is there's a table in the revocation, notification. V. 2.
+
+111
+00:19:53.910 --> 00:20:05.129
+Stephen Curran: that says, Hey, here's the type of revocation, notification. It is the the type of credential and an examples of the format.
+
+112
+00:20:05.870 --> 00:20:21.130
+Stephen Curran: This one adds, in addition to Indian on price, as just plain and on threads and uses an example of it, did as the as the mechanism, the identifier for the credential held
+
+113
+00:20:21.200 --> 00:20:22.380
+Stephen Curran: by the
+
+114
+00:20:22.600 --> 00:20:28.630
+Stephen Curran: by the holder to say, Oh, this credential. This specific credential has been
+
+115
+00:20:28.720 --> 00:20:36.520
+Stephen Curran: has been deleted or has been revoked. Sorry. So that's the purpose of Rfc. 721.
+
+116
+00:20:37.580 --> 00:20:50.270
+Stephen Curran:  it's it's hard to tell whether this is a clarification or a minor update. I would lean towards this being a clarification.  note that this is still in the proposed this
+
+117
+00:20:50.440 --> 00:21:00.420
+Stephen Curran: 7 21 is still in the proposed status, and the actual current revocation. Notification is 0 1 8, 3, which is a bit problematic. But that's for another day.
+
+118
+00:21:00.860 --> 00:21:33.219
+Stephen Curran:  it kind of implies. If you're adding another revocation format, it implies that you're going to have a different handler for it. You're going to. You're going to get this message, and it's going to say a revocation format. And you're going to handle it with one way with an indie and on credits, and another way with an on press. so a bit of a clarification or a minor update.
+
+119
+00:21:33.740 --> 00:21:37.139
+Stephen Curran:  any comments on this one.
+
+120
+00:21:39.030 --> 00:21:42.970
+Stephen Curran: Anyone run into this or or have an issue.
+
+121
+00:21:47.350 --> 00:22:01.790
+Stephen Curran: any concerns about merging this. I think this is a a pretty straightforward one. It's a doesn't really matter, since it's still in the proposed state whether it's a clarification or minor update any concerns with merging this
+
+122
+00:22:03.950 --> 00:22:10.499
+Daniel Bluhm: no concerns with merging this, but a a comment on the subject, at least that I think we should basically just treat this like
+
+123
+00:22:10.910 --> 00:22:17.369
+Daniel Bluhm: the did. Spec has the Method registries when there's a change to the Method registry. It doesn't change the did course. Okay.
+
+124
+00:22:17.530 --> 00:22:22.589
+Daniel Bluhm: yeah, I think this is a similar change. So I I think we're, I think we should be good with
+
+125
+00:22:22.840 --> 00:22:25.240
+Daniel Bluhm: making these sorts of modifications without
+
+126
+00:22:25.280 --> 00:22:28.120
+Daniel Bluhm: needing to rep the specification for the
+
+127
+00:22:29.130 --> 00:22:30.150
+Stephen Curran: thank you.
+
+128
+00:22:48.130 --> 00:22:57.000
+Stephen Curran: Thanks. Okay. all right. On to the next one, which is 780. Let me jump to that one
+
+129
+00:22:57.590 --> 00:22:59.480
+Stephen Curran: so that I'm ready.
+
+130
+00:23:05.810 --> 00:23:17.840
+Stephen Curran: Okay, we have a entire brand new Rfc. with this one. I think this one is pretty straightforward. We have had a few people review it. Basically, this says.
+
+131
+00:23:17.990 --> 00:23:21.609
+Stephen Curran: when you are issuing a credential
+
+132
+00:23:21.710 --> 00:23:22.780
+Stephen Curran: and
+
+133
+00:23:22.820 --> 00:23:30.529
+Stephen Curran: particularly for images and perhaps other data types in those attributes that you're issuing.
+
+134
+00:23:30.680 --> 00:23:33.999
+Stephen Curran: This recommendation is to use a data. URL,
+
+135
+00:23:34.660 --> 00:23:43.019
+Stephen Curran:  for those unfamiliar that's it. That's an image.
+
+136
+00:23:43.620 --> 00:23:49.509
+Stephen Curran: that's not what I want it to do. It's trying to click that button.
+
+137
+00:23:50.320 --> 00:24:00.950
+Stephen Curran: So a data. URL, looks like this, which is, you've got an attribute called a photo. And then the data. URL looks like this.
+
+138
+00:24:01.150 --> 00:24:05.299
+Stephen Curran: data is a hard coded. You've got the the mine type
+
+139
+00:24:05.630 --> 00:24:13.879
+Stephen Curran: an optional semicolon and base 64. To say that the data is base 64 and code it a comma. And then the actual data.
+
+140
+00:24:14.110 --> 00:24:28.320
+Stephen Curran: And so this particular data, URL, is that image that I I you saw slightly earlier on the screen. So this is a itf, rfc, 2397.
+
+141
+00:24:28.440 --> 00:24:36.250
+Stephen Curran:  so I think, and I think the the There's been a few people read through the Rfc.
+
+142
+00:24:36.280 --> 00:24:40.440
+Stephen Curran: Others are welcome, but I think it's ready to merge.
+
+143
+00:24:40.620 --> 00:25:02.289
+Stephen Curran:  Interestingly, another use of it is, Json can actually just put in this. The data type is Json, and either base 60 for it or not. but that would help in places where, for example, in a non credits, where you want to have an array. you cannot have an array in and on credits.
+
+144
+00:25:02.380 --> 00:25:04.230
+Stephen Curran: so
+
+145
+00:25:04.600 --> 00:25:29.780
+Stephen Curran: not not a valid not you. You can't do that because of how the and On credit signature works so you can't have an array of data elements. But you could have a single attribute. That is the array. and this would give an indicator for a holder to say, Oh, by the way, this is is Json data, and they might have a chance at being able to display it in a reasonable way rather than just dumping a bunch of Json on the screen.
+
+146
+00:25:30.350 --> 00:25:38.790
+Stephen Curran: So lots of flexibility in there. There was a discussion about whether this is an Aries level, or should be a credential formats.
+
+147
+00:25:38.840 --> 00:26:06.959
+Stephen Curran: issue with the at at the specification level of credential formats, like in on credits, or the W 3 Cbc format. since those looks like I had a since those do not deal with pretty much. Don't deal with the data. I don't think it's appropriate personally that that those go in the and on credits you can put whatever you want. those and on privilege W. Threec. Doesn't care what
+
+148
+00:26:07.050 --> 00:26:12.059
+Stephen Curran: kind of data or or or the format of the data. And you put in the attribute.
+
+149
+00:26:12.440 --> 00:26:31.250
+Stephen Curran: so it it's really up to you. it just makes things a whole lot more flexible and easier to use, easier for things like holders to be able to display data. If a data URL is used particularly for that photo use case. I think that's one that's going to come up a lot and needs to be there
+
+150
+00:26:31.710 --> 00:26:41.079
+Stephen Curran: any comments other than Colton's comments in the chat about this one. Anyone want to say anything about it?
+
+151
+00:26:48.390 --> 00:26:51.159
+Stephen Curran: Any objections to this being merged.
+
+152
+00:26:52.260 --> 00:26:58.210
+Stephen Curran: and that could be, you just want to be able to read it before it gets merged to make sure that the Rc. Is complete.
+
+153
+00:27:11.340 --> 00:27:13.559
+Stephen Curran: Have to put these in capitals.
+
+154
+00:27:14.720 --> 00:27:17.450
+Stephen Curran: Okay. we're gonna go with that
+
+155
+00:27:21.520 --> 00:27:29.909
+Stephen Curran: 768 is the proposed legacy peer did method. So I'll jump over to here.
+
+156
+00:27:32.440 --> 00:27:41.339
+Stephen Curran: not going to be as easy to do this one. But let's see if I can just get rid of that and 7, 68,
+
+157
+00:27:42.900 --> 00:27:53.520
+Stephen Curran: and see what the changes are. So this is was proposed as a way to deal with unqualified unqualified
+
+158
+00:27:54.240 --> 00:28:07.710
+Stephen Curran: did using. sorry. Yeah. Unqualified Ds that are being used in peer-to-peer relationships. Basically in Dcom. we since have
+
+159
+00:28:07.790 --> 00:28:14.120
+Stephen Curran:  updated. And
+
+160
+00:28:14.460 --> 00:28:20.560
+Stephen Curran: should this should not be merged, the latest solution is we would adopted Pier 2, and did pier 3
+
+161
+00:28:20.770 --> 00:28:27.109
+Stephen Curran: and transform unqualified kids, which is what is talked about in this method
+
+162
+00:28:27.160 --> 00:28:45.980
+Stephen Curran: into did pier 2. And then subsequently into did Pier 3. So in code the did do that was shared in the end, as the unqualified did, and then transition encode, that as it in Pier 2, and then subsequently encode that
+
+163
+00:28:46.000 --> 00:28:50.949
+Stephen Curran: period to into It did pier 3
+
+164
+00:28:51.310 --> 00:28:57.659
+Stephen Curran: since we already have the did, Doc. So I think this one is to be cancelled.
+
+165
+00:29:00.300 --> 00:29:03.210
+Stephen Curran: Any objections to canceling this one?
+
+166
+00:29:12.860 --> 00:29:15.669
+Stephen Curran: Somebody make a comment just for the fun of it.
+
+167
+00:29:20.140 --> 00:29:22.560
+Hyperledger Community: Not even that comment.
+
+168
+00:29:23.140 --> 00:29:24.510
+Stephen Curran: perfect!
+
+169
+00:29:25.770 --> 00:29:40.890
+Stephen Curran: 7 55. this is a very large one. one that I think is now ready to merge. one that I've created. So And I've done a few presentations on this one.
+
+170
+00:29:42.080 --> 00:29:47.049
+Stephen Curran:  so
+
+171
+00:29:48.220 --> 00:30:14.250
+Stephen Curran: The background for people who have not heard. But I've talked about it. Lots is Oca is a Mecca oca for Aries uses and the overlays capture architecture, specification Oca in a way that allows us to make credentials beautiful by adding multilingual support and issue. We're branding to the display of credentials.
+
+172
+00:30:14.290 --> 00:30:39.050
+Stephen Curran: which is particularly useful in holders, in wallets and things. So this has been incubating for a very long time. And we've been making minor adjustments as we've gone along. I've given updates presentations on what Updates have been made as for things we've learned while implementing it. Now I'll talk down at the bottom here.
+
+173
+00:30:39.140 --> 00:30:55.759
+Stephen Curran: Since the last time I presented this, and we talked about it. Only 2 changes have been made. the addition of a display of a stacked view in the style guide itself, so that was assumed, but not actually displayed in the style guide. So that is now there.
+
+174
+00:30:56.100 --> 00:31:07.080
+Stephen Curran: And we've added a data element called watermark to the Meta overlay, and that is used in particular, for when
+
+175
+00:31:07.140 --> 00:31:10.410
+Stephen Curran: showing a non production.
+
+176
+00:31:10.590 --> 00:31:21.900
+Stephen Curran: credential, which for developers happens a lot So putting a watermark on so the difference, can a a difference can be seen between a
+
+177
+00:31:22.600 --> 00:31:26.119
+Stephen Curran: a production and non production?
+
+178
+00:31:26.380 --> 00:31:29.339
+Stephen Curran: credential in a wallet.
+
+179
+00:31:30.250 --> 00:31:41.179
+Stephen Curran:  how they work. Excuse me, that's gone on is Aires by full. Now has an Mpm. Model that is published on on
+
+180
+00:31:41.300 --> 00:31:52.619
+Stephen Curran: public shared on the Npm. Repo called Hyper Ledger areas, Oca that implements the pulling in of a
+
+181
+00:31:52.740 --> 00:31:58.920
+Stephen Curran: an O. C. A. Bundle for giving credential and and
+
+182
+00:31:59.510 --> 00:32:02.660
+Stephen Curran: grabbing the data and using that data for the display.
+
+183
+00:32:03.030 --> 00:32:15.050
+Stephen Curran: and there's also a repository created in BC. Gov. Called Ares, oca bundles which implements a a a way to publish.
+
+184
+00:32:15.100 --> 00:32:18.790
+Stephen Curran: oca bundles. Anyone can submit a Pr
+
+185
+00:32:18.960 --> 00:32:28.589
+Stephen Curran: of an Oca bundle with appropriate data associated with it. That data gets humanly verified gets checked out. And as long as the the
+
+186
+00:32:29.090 --> 00:32:42.660
+Stephen Curran: yeah, the the rules are followed that it is actually Oca bundle and that the bundle points to existing identifiers. it will get merged. And anyone can use this as they wish.
+
+187
+00:32:43.630 --> 00:33:03.389
+Stephen Curran: so with all that are we able to merge this? Any objections to merging the Oca for Aries and the seventh, and it comes along with a Rfc. 756 Oca. For area style guide. So both Rfc's are included in this Pr.
+
+188
+00:33:11.220 --> 00:33:13.550
+Stephen Curran: I'm not hearing objections.
+
+189
+00:33:13.610 --> 00:33:17.860
+Stephen Curran: Anyone want to comment on this whole idea, the lunacy of it
+
+190
+00:33:21.940 --> 00:33:31.509
+Jason Leach: great. And I think we're we're also thinking about trying to make this work for the web. So we had a conversation at our last by full user group meeting.
+
+191
+00:33:31.810 --> 00:33:42.609
+Jason Leach: Because we want to make like this, this will. This package will work in in by fold. So react native. But we also want to see about adding support for the web, so that if you're making something like traction or your own
+
+192
+00:33:42.780 --> 00:33:50.900
+Jason Leach: a thing. You can have the same look and feel that you would get in the wallet. So you can. I understand how it's gonna look when you release your credential.
+
+193
+00:33:52.940 --> 00:33:58.010
+Jason Leach: If you've got any interest in that, feel free to find us in the bifold channel that Keith would be
+
+194
+00:33:58.180 --> 00:34:01.749
+Jason Leach: champion championing that endeavor.
+
+195
+00:34:02.370 --> 00:34:05.430
+Stephen Curran: I'm just gonna show off the Oca. Explorer, but I don't have it.
+
+196
+00:34:05.730 --> 00:34:15.299
+Stephen Curran: Andy but but it is an example in this repository. we have a published github pages that displays it.
+
+197
+00:34:17.190 --> 00:34:26.090
+Stephen Curran: Okay. that is to be merged which makes for an easy next one. which is 740.
+
+198
+00:34:26.530 --> 00:34:41.950
+Stephen Curran: I did so. 7, 40 is an update of the read me of the overlays capture architecture. Rfc, 0, 1, 3.  basically. On that one. Let me jump to that one.
+
+199
+00:34:51.590 --> 00:34:55.160
+Stephen Curran:  Whoa! That doesn't look right.
+
+200
+00:34:59.060 --> 00:35:06.169
+Stephen Curran: Or is it sorry about this? oh. there it is
+
+201
+00:35:07.430 --> 00:35:10.150
+Stephen Curran: so this so
+
+202
+00:35:10.820 --> 00:35:13.939
+Stephen Curran: there is a Rfc overlays.
+
+203
+00:35:14.050 --> 00:35:30.729
+Stephen Curran:  Rfc, 13 is called overlays. And basically what this Rfp or Rfc was is a definition. An early specification of Oca. Since then the specification has been moved
+
+204
+00:35:30.760 --> 00:35:51.289
+Stephen Curran: into the Human Classes Foundation, has its own spec, has its own repository, has its own working group. so the fact that we've got an early version of the Oca. Spec in Aries does not make a whole lot of sense. So as part of the previous one
+
+205
+00:35:52.020 --> 00:35:58.259
+Stephen Curran: of 7, 55, and with the agreement of Paul is that I basically have updated
+
+206
+00:35:58.360 --> 00:36:03.209
+Stephen Curran: Rfc. 13, to say, retire. and so
+
+207
+00:36:03.600 --> 00:36:15.019
+Stephen Curran: I, there's no need to merge this pr, and we can just close it, since since the update does not make sense. The the specification is published elsewhere.
+
+208
+00:36:18.040 --> 00:36:22.240
+Stephen Curran: Any objections to merging this and retiring this?
+
+209
+00:36:25.600 --> 00:36:26.790
+Stephen Curran: All right.
+
+210
+00:36:29.470 --> 00:36:40.200
+Jason Leach: I believe that is the last one of the easy ones for me.
+
+211
+00:36:40.480 --> 00:36:44.649
+Stephen Curran: so oca, this one was written in
+
+212
+00:36:44.960 --> 00:36:52.289
+Stephen Curran: 2019, this Rfc. 13, as you can tell, it's very, very new. Since then, although
+
+213
+00:36:52.370 --> 00:37:06.589
+Stephen Curran: this was there. as a, as a as an Rfc that was proposed. It basically was merged as a proposed but never updated or or never move to a higher status.
+
+214
+00:37:06.660 --> 00:37:11.000
+Stephen Curran: Paul Knowles and collaborators then
+
+215
+00:37:11.130 --> 00:37:24.179
+Stephen Curran: took the entire specification and just opened a new specification at Human Classes Foundation. And that's where the The Oca. Spec resides, and we've got pointers to that in the Oca. For Aries.
+
+216
+00:37:24.440 --> 00:37:27.610
+Stephen Curran:  pr
+
+217
+00:37:27.660 --> 00:37:35.890
+Stephen Curran: in this one, and we've got in the in the where we retire. 13. We also point to
+
+218
+00:37:35.930 --> 00:37:41.099
+Stephen Curran: this work, has been moved to that organization in that repository.
+
+219
+00:37:41.380 --> 00:37:42.189
+Jason Leach: Got it
+
+220
+00:37:42.370 --> 00:37:44.120
+Stephen Curran: that makes sense cool.
+
+221
+00:37:47.340 --> 00:37:56.289
+Stephen Curran:  Next one is a a new Rfc that adds push notifications as
+
+222
+00:37:56.920 --> 00:38:07.509
+Stephen Curran: expo protocol. So there is. this is mobile, specific push notifications between a mediator and mobile walls. Say, Hey, I've got a message for you.
+
+223
+00:38:08.350 --> 00:38:19.169
+Stephen Curran: There's some administrative work. If we do want to merge this one. And there was a question raised by by Sam that has not been answered.
+
+224
+00:38:19.600 --> 00:38:31.369
+Stephen Curran: this is 745 But other than that. I am not qualified to comment on this one, and and so would suggest
+
+225
+00:38:31.460 --> 00:38:33.590
+Stephen Curran: anyone with
+
+226
+00:38:34.320 --> 00:38:40.279
+Stephen Curran: that expertise. Take a look at this and and add a comment on this this
+
+227
+00:38:40.930 --> 00:38:47.930
+Stephen Curran: does. supplement 6, 99 and 7 34, which are other forms of push notification.
+
+228
+00:38:48.240 --> 00:39:02.250
+Stephen Curran: fcm, and atns again, I'm not. Don't know enough about it, so I I can't comment on this. Can anyone? Has anyone looked at this? thinks this is ready to merge?
+
+229
+00:39:04.720 --> 00:39:09.880
+Stephen Curran: It looks complete to me, and so I'd be happy to merge it. As a proposed.
+
+230
+00:39:11.220 --> 00:39:18.219
+Tim Bloomfield: I haven't actually read this, but it's a thought that jumps to my head, and probably maybe
+
+231
+00:39:18.710 --> 00:39:20.159
+Tim Bloomfield: not correct, but
+
+232
+00:39:20.260 --> 00:39:40.240
+Tim Bloomfield: e it for an Rfc like this is technology specific, like expo versus azure versus firebase versus. I just wonder if there should be a not, I don't know if it can be, but more more agnostic or or it's okay to have this technology specific. Rfc, so it's really
+
+233
+00:39:45.250 --> 00:39:51.219
+Stephen Curran: yeah. It has. Has anyone implemented notifications.
+
+234
+00:39:58.330 --> 00:40:02.570
+Ryan Koch: Florida, but not in this. not using this for the Paul.
+
+235
+00:40:04.170 --> 00:40:06.050
+Stephen Curran: what what do you do?
+
+236
+00:40:07.070 --> 00:40:10.749
+Ryan Koch: We were just adding a metadata property to the
+
+237
+00:40:10.870 --> 00:40:19.270
+Ryan Koch: did call messages that would say, if it was right or not, and then checking that it's kinda it was not a very good.
+
+238
+00:40:20.390 --> 00:40:25.960
+Stephen Curran: This is more specifically for push notifications for a mobile app
+
+239
+00:40:27.050 --> 00:40:31.220
+Stephen Curran:  as opposed to the messaging.
+
+240
+00:40:31.910 --> 00:40:44.889
+Colton Wolkins: So, for instance, when the mobile app is not connected to the mediator directly, then the mediator can push some form of notification to the mobile app while the app is offline.
+
+241
+00:40:45.520 --> 00:40:46.380
+Stephen Curran: Yeah.
+
+242
+00:40:50.780 --> 00:40:51.710
+Ryan Koch: yeah.
+
+243
+00:40:54.590 --> 00:41:09.850
+Stephen Curran: Okay. I think the recommendation here would be to See if we can get a session. at an upcoming meeting to to discuss notifications and and where we are with this.
+
+244
+00:41:12.790 --> 00:41:18.110
+Stephen Curran: and have somebody who knows what they're talking about. Lead that discussion. So we'll see what we can do about that.
+
+245
+00:41:18.650 --> 00:41:26.110
+Colton Wolkins: Yeah. And the comment about the different types of protocols with like firebase, etc., makes me wonder if
+
+246
+00:41:27.400 --> 00:41:32.030
+Colton Wolkins: I I don't know if there is. But if there should be a more generalized
+
+247
+00:41:32.390 --> 00:41:42.240
+Colton Wolkins:  method for for, like Rfc for push notifications that allows for
+
+248
+00:41:43.390 --> 00:41:49.210
+Colton Wolkins: the different mechanisms out there to be implemented.
+
+249
+00:41:57.670 --> 00:42:04.450
+Stephen Curran: This is a matter of interest. How come there's 4 or or there's 3 I would have expected to see.
+
+250
+00:42:04.650 --> 00:42:10.990
+Stephen Curran: So there's expo fcm, and and that that other one
+
+251
+00:42:11.240 --> 00:42:13.479
+Stephen Curran: Aps.
+
+252
+00:42:14.840 --> 00:42:18.559
+Stephen Curran: how come 3 when there's only 2 mobile operating systems?
+
+253
+00:42:19.480 --> 00:42:29.790
+Tim Bloomfield: Well, expose their own? that's not That's what I'm saying, that's part of that's probably react native. That's an explo native solution.
+
+254
+00:42:30.250 --> 00:42:33.530
+Stephen Curran: Okay, it does it cover both OS's.
+
+255
+00:42:33.920 --> 00:42:44.780
+Tim Bloomfield: I I believe, so as does as does firebase and maybe export calls to the other ones. I'm not sure. I mean the fire based. Universal azure is universal. and there's others out there, but those those are the most popular.
+
+256
+00:42:48.080 --> 00:42:50.700
+Tim Bloomfield: I've never really looked at the expo implementation. Now.
+
+257
+00:42:53.180 --> 00:42:55.479
+Tim Bloomfield: I think most of the world uses Firebase.
+
+258
+00:42:57.870 --> 00:43:03.880
+Tim Bloomfield: You can also use the. You can also use the native. If you just wanted to push notifications for apple, then you could just do that
+
+259
+00:43:04.130 --> 00:43:06.100
+Tim Bloomfield: as well. Yeah.
+
+260
+00:43:06.600 --> 00:43:08.520
+Stephen Curran: okay, okay, thank you.
+
+261
+00:43:09.530 --> 00:43:21.930
+Stephen Curran:  Well, yeah, let's do this one as well. I want to get to the end of this. We've done almost enough. We're almost to the end.
+
+262
+00:43:22.320 --> 00:43:26.190
+Stephen Curran: 744 is
+
+263
+00:43:26.250 --> 00:43:34.909
+Stephen Curran: adding a timing capability to the mediator. anyone with mediator experience. This is is dug into this. Basically, this is saying.
+
+264
+00:43:35.010 --> 00:43:44.739
+Stephen Curran:  How long and recipient is willing to wait to receive messages as they are arriving. So the the generic
+
+265
+00:43:45.350 --> 00:43:54.960
+Stephen Curran: pick up protocol says, give me, M. Messages that are queue, you know, whatever messages are queued up to a maximum of M. and then
+
+266
+00:43:55.400 --> 00:44:08.200
+Stephen Curran: the mediator would say, Oh, I've got some, so I'll I'll I'll send those across. What this adds is. if there's less than M. Then I'm willing to wait, and milliseconds for more messages before
+
+267
+00:44:08.220 --> 00:44:13.799
+Stephen Curran: before sending. So if you've got none in the queue, I'm still gonna wait.
+
+268
+00:44:13.930 --> 00:44:27.589
+Stephen Curran: you know, 3,000 ms to see it more arrive, because as a holder. I'm expecting more to be coming, or if there's 10 in the queue and I request 20, then wait
+
+269
+00:44:28.030 --> 00:44:31.460
+Stephen Curran: some seconds to see if more messages arrive.
+
+270
+00:44:31.820 --> 00:44:37.149
+Stephen Curran:  I I don't know the utility of this
+
+271
+00:44:38.490 --> 00:44:48.290
+Stephen Curran: happy to see it merge, since it's an optional one, and there is an implementation, and it was found to be useful. Does anyone else know if this is a useful feature?
+
+272
+00:44:53.130 --> 00:45:03.110
+Colton Wolkins: Just from my perspective, this seems more applicable to when the agent is connected over Http rather than say, web sockets.
+
+273
+00:45:03.560 --> 00:45:05.000
+Colton Wolkins: And
+
+274
+00:45:05.390 --> 00:45:09.290
+Colton Wolkins: yeah, basically tell, informing the mediator.
+
+275
+00:45:09.380 --> 00:45:12.949
+Colton Wolkins: how long is my connection time out?
+
+276
+00:45:13.050 --> 00:45:13.880
+Stephen Curran: Yeah.
+
+277
+00:45:28.670 --> 00:45:32.980
+Stephen Curran: So it's a more graceful way of doing it rather than just having a cut.
+
+278
+00:45:36.330 --> 00:45:43.020
+Stephen Curran: Okay? And the clients basically saying, Please give me a bigger batch, if possible. Yeah.
+
+279
+00:45:50.760 --> 00:45:53.989
+Stephen Curran: might help at minimum to have
+
+280
+00:45:54.860 --> 00:45:56.050
+Stephen Curran: have that.
+
+281
+00:45:58.040 --> 00:45:59.890
+Stephen Curran: Okay?
+
+282
+00:46:04.040 --> 00:46:06.769
+Stephen Curran: I'm gonna skip past a couple of these
+
+283
+00:46:07.800 --> 00:46:14.890
+Stephen Curran: the rest of the. So we've got a few more to do. perhaps next week, just to finalize these
+
+284
+00:46:15.040 --> 00:46:21.669
+Stephen Curran: other Pr is very old. I'm gonna try to get them just close, because I just think they're too old to to look at.
+
+285
+00:46:22.580 --> 00:46:49.589
+Stephen Curran: And last thing I want to do is a pitch for a proper Rfc website. So this is something that could go into the marketing. so alex might be useful here. I I spent some time doing the acupy.org website. basically using M. Docs, material as a default. My process was just to create a new repo, add welcome content for the repo, and then
+
+286
+00:46:49.650 --> 00:47:01.669
+Stephen Curran: a script that copies all relevant content. in the occupy. It was every nd file into an appropriate structure
+
+287
+00:47:01.930 --> 00:47:05.430
+Stephen Curran: on the new static website.
+
+288
+00:47:06.320 --> 00:47:15.199
+Stephen Curran: And then just a manual process to update that website nice to have with github actions. So
+
+289
+00:47:16.200 --> 00:47:26.400
+Stephen Curran: the categories would be something like welcome an administrative page to say, you know, the life cycle of Rfc's and how to submit an Rfc. And what the process is.
+
+290
+00:47:26.420 --> 00:47:42.049
+Stephen Curran: but then this is the really important a. I. P. One would actually have a list on a clickable website, not a Github Repository with a bunch of readings. But you could actually go through and see all of the A. I. P. One and a. I. P. 2.
+
+291
+00:47:42.390 --> 00:47:45.470
+Stephen Curran: in a nice published form.
+
+292
+00:47:45.780 --> 00:48:09.459
+Stephen Curran: as well as you know, a column of other Rfcs that are, you know, in different in in proposed states. So I think this would be a much better way for people to be greeted by as Rfc. And be a much more comfortable way for them to read them. So I throw that out there. I've got it on my to do list. If anyone wants to help out or work on that with me.
+
+293
+00:48:09.500 --> 00:48:14.420
+Stephen Curran: Let me know. I'm more likely to get it done if if someone's pushing me on it. So
+
+294
+00:48:14.500 --> 00:48:23.480
+Stephen Curran: I'll throw that out there. And with that we'll end this part of the discussion with just a couple of minutes left because I wanted to hit a couple of other things.
+
+295
+00:48:23.850 --> 00:48:26.379
+Stephen Curran: Any final comments from anyone on that section?
+
+296
+00:48:29.380 --> 00:48:30.270
+Stephen Curran: Awesome.
+
+297
+00:48:30.420 --> 00:48:39.219
+Stephen Curran: Okay. mediators. we did have the presentation last week. Lots of good stuff in there. in Dco has
+
+298
+00:48:39.230 --> 00:48:52.459
+Stephen Curran: open source socket Doc. Awesome work on that which I think this is a a total game changer, and how to construct scalable mediators. so I think this is really great work.
+
+299
+00:48:52.810 --> 00:48:56.690
+Stephen Curran: so mediator,
+
+300
+00:48:58.080 --> 00:49:11.640
+Stephen Curran: basically turns it from being the the mediator from having to worry about website. It's just simply having to worry about sending and receiving Http messages so much easier to make completely scalable. So
+
+301
+00:49:11.640 --> 00:49:35.169
+Stephen Curran: next will be As I mentioned Harry's Mediator Service Ams. the updated to use socket, Doc. I think that's the way to go. So we'll see how that goes if if people are doing that work, or or just or what becomes available for that. But I did want to highlight that in Dco. Has open source, that repository that we talked about last week.
+
+302
+00:49:36.550 --> 00:49:38.330
+Stephen Curran: encourage people to
+
+303
+00:49:38.940 --> 00:49:42.120
+Stephen Curran: address it or or to use it.
+
+304
+00:49:42.280 --> 00:49:50.910
+Stephen Curran:  Last topic. I wanted to go over. And Alex and Andrea, I'm glad you're here. There's
+
+305
+00:49:51.180 --> 00:50:13.050
+Stephen Curran: I like to highlight 2 things that have been commented in the did peer spec. So 2 issues were raised. So one of them was airy errors in the example. So a clarification is needed. the specification is about hex encoded shot 256
+
+306
+00:50:13.090 --> 00:50:25.600
+Stephen Curran:  in attempting to do that it implementing. Did pier 3 in Aries vcx. This issue was raised so really good if we could take a look at that
+
+307
+00:50:25.790 --> 00:50:39.890
+Stephen Curran:  as well Daniel Bloom posted notice of a couple of inconsistencies in did. Pair 3 that I think should be resolved.
+
+308
+00:50:41.840 --> 00:50:59.829
+Stephen Curran: I thought Daniel merch this a little quickly. We explained why, but I didn't think we had quite enough review. So it's not surprising to me. And I think it's not a problem for us to do that. But basically the the simple is removing the dots because the other methods don't have a dot
+
+309
+00:50:59.890 --> 00:51:24.940
+Stephen Curran: in in between the 3 of the the method number and the rest of the did. And then use multi base multi-codec hash. So we know exactly what hash algorithm is being used and hash, algorithm and and base encoding of the data. So again, I think those are are 2 wise changes to put in.
+
+310
+00:51:25.100 --> 00:51:41.299
+Stephen Curran:  Alex, you're here, or Daniel Bloom, you're here. If if one of you could put those in. I I was going to do it, but I really don't know enough about the multi base and multi-codec hash to explain it.
+
+311
+00:51:41.490 --> 00:51:54.480
+Stephen Curran: I did notice that there are multiple shot 2 56 algorithms. And so I think we have to be more specific. Of which one. And I wonder if that's related to the other issue that was raised.
+
+312
+00:51:56.730 --> 00:52:01.100
+Stephen Curran: So I throw that out to others.
+
+313
+00:52:07.860 --> 00:52:20.990
+Stephen Curran: See, Daniel's not on the call anymore. He was on earlier. But So he raised at it. Alex, thank you for taking a look at that. That'd be awesome. I'd really like to get that as clean as possible and keep that updated. I would note that
+
+314
+00:52:21.130 --> 00:52:28.509
+Stephen Curran: One of the Pr's that was recently moved, merged in the did pierce back was to add, was to remove the
+
+315
+00:52:29.440 --> 00:52:31.920
+Stephen Curran: big red text warning text.
+
+316
+00:52:33.690 --> 00:52:46.190
+Stephen Curran: so that has been removed from the specification. there used to be some morning text saying, Yeah, should you really be using this? And and we really think this has the did peer
+
+317
+00:52:46.230 --> 00:52:53.980
+Stephen Curran: spec in the did. Peer method has a lot of valid use. so we did not like the fact that there was this
+
+318
+00:52:54.320 --> 00:53:04.369
+Stephen Curran: kind of ugly red text where no replacement was particularly available at the time, so really good to see this that update made.
+
+319
+00:53:06.720 --> 00:53:31.030
+Stephen Curran: and with that that covers all. I wanted to go over. Oh, highlighting one! Once more I went through this added a couple of issues. Timo posted a migration. Doc, for unqualified dids, moving them to qualified dids. again strongly encourage people to read through that. Take a look at it at comments via issues
+
+320
+00:53:31.200 --> 00:53:38.829
+Stephen Curran: into a about the document. I. I found it a a very useful one, and and
+
+321
+00:53:39.640 --> 00:53:40.980
+Stephen Curran: good one to review.
+
+322
+00:53:42.710 --> 00:53:49.129
+Stephen Curran: and with that I will stop sharing and give anyone a last second to
+
+323
+00:53:49.390 --> 00:53:55.090
+Stephen Curran: respond. Make any comments. and then we'll wrap the meeting up.
+
+324
+00:53:59.310 --> 00:54:06.529
+Stephen Curran: Excellent. Have a great day. great rest of your day depending on where you are. Take care of folks. Bye.
+
+325
+00:54:07.120 --> 00:54:08.220
+Jason Leach: thanks, Stephen.
+
+326
+00:54:08.480 --> 00:54:09.460
+Hyperledger Community: thanks, everybody.
+

@@ -1,0 +1,9 @@
+00:16:40	Stephen Curran:	https://docs.google.com/presentation/d/11g__ToCHKOG6KpI3ba7W6JX9AXpX-LBkeMsyoCxMgpM/edit?usp=sharing
+00:30:20	Colton Wolkins:	Could be a PDF as well
+00:30:44	Colton Wolkins:	Data URLs add a lot of flexibility in the data type
+00:39:29	Steve McCown:	The OCA RFC is a good one.  I support merging it.
+00:49:09	Ariel Gentile:	A bit late but just a comment regarding push notification methods RFCs: https://github.com/hyperledger/aries-rfcs/pull/699
+00:49:30	Ariel Gentile:	There Sam says 
+“Discussed 20211215. Would prefer a different protocol for each push notification method to simplify discovery and impl of each protocol. This addresses both Android and iOS, and they should be split.”
+00:55:39	Colton Wolkins:	Ah, I see. That makes sense. Thanks!
+00:57:31	Alex Andrei:	I can take a look at it!

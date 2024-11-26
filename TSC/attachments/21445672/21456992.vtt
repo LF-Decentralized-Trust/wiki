@@ -1,0 +1,929 @@
+WEBVTT
+
+00:01:04.000 --> 00:01:17.000
+Alright. I think we have 11 if I count correctly. So I'm gonna go ahead and kick off the recording and get us started
+
+00:01:17.000 --> 00:01:36.000
+Alright! Welcome everybody to the December first hyper ledger Technical Oversight Committee call as you are all aware, you've been on this call before 2 things that we must abide by the first is the antitrust policy notice that is currently displayed on the screen
+
+00:01:36.000 --> 00:01:55.000
+And this second is our code of conduct, which is like in the agenda, so as far as announcements go today we have the standard announcement of the dev Weekly developer newsletter that goes out each Friday if you have something that you want to include in that Newsletter
+
+00:01:55.000 --> 00:02:08.000
+Please leave a comment on the Wiki page that is linked in the agenda. Any other announcement that anybody has or would like to make
+
+00:02:08.000 --> 00:02:10.000
+Yeah Angela.
+
+00:02:10.000 --> 00:02:15.000
+And so this this thing will not be of interest for money, but I just wanted to take the chance, because I I I will run again for wrong for the the the Tooc.
+
+00:02:15.000 --> 00:02:25.000
+I just want to take the chance. You know you never know to to say thank you to everybody.
+
+00:02:25.000 --> 00:02:33.000
+I really enjoyed all the discussion. I learned a lot also from the interactions that we had in the past in the past years.
+
+00:02:33.000 --> 00:02:37.000
+So a really big thing to to everybody for this opportunity.
+
+00:02:37.000 --> 00:02:41.000
+And for this great experience thanks a lot
+
+00:02:41.000 --> 00:02:46.000
+Alright. Thanks, Angela, and yes, thanks for being on the Tsc.
+
+00:02:46.000 --> 00:02:57.000
+For the last year it's been it's really good to have a voice that is curious and interested about what's happening in the technical space.
+
+00:02:57.000 --> 00:03:10.000
+So thank you for it back. Any other other announcements that anybody would like to make
+
+00:03:10.000 --> 00:03:14.000
+Alright. So speaking of the upcoming Tsc.
+
+00:03:14.000 --> 00:03:29.000
+In the election. The election did close yesterday. I saw that we had 77 votes that came in about 39% of the people who were eligible did vote for the the Technical oversight Committee.
+
+00:03:29.000 --> 00:03:52.000
+So it's somewhat this pointing that we move to Maintainer's only people, we thought would be interested in voting for the upcoming technical oversight committee folks to not see a larger number there but maybe we'll have to do some
+
+00:03:52.000 --> 00:03:59.000
+Some conversations with some of the people who didn't vote to see why they didn't vote in what we could do differently in the future.
+
+00:03:59.000 --> 00:04:23.000
+We do not have the results yet, because the next step is that the governing board, as you recall, has to elect 5 people, 5 additional people to the list of technical oversight committee, members, and so that will be starting here shortly I know the staff is working on getting the
+
+00:04:23.000 --> 00:04:46.000
+Information gathered from what what the results were, and also putting together some information on the individuals that that we have, as far as diversity and and things like that so probably mid December is when we'll see the results coming back in for the next year's technical oversight
+
+00:04:46.000 --> 00:04:50.000
+Committee and we'll get that out there as soon as it's available.
+
+00:04:50.000 --> 00:04:57.000
+After that, as you are probably all aware, the next steps would be to elect the Toc.
+
+00:04:57.000 --> 00:05:01.000
+Chair and vice chair or no
+
+00:05:01.000 --> 00:05:08.000
+Yes, hi, everybody. Thank you, Tracy. No, I just wanted to comment on the election process.
+
+00:05:08.000 --> 00:05:10.000
+I think you know, keeping the ball numbers of vote. I think we didn't have to wait a month.
+
+00:05:10.000 --> 00:05:21.000
+I don't know when people actually voted if we had said, Okay, you have 2 weeks to vote it doesn't feel like we would have lost about.
+
+00:05:21.000 --> 00:05:31.000
+I don't know that for a fact, obviously, but especially given the the additional stage of having to go to governing board.
+
+00:05:31.000 --> 00:05:42.000
+I think you know 2 week period to vote. To cast the votes probably was good enough, but we might want to think about that in future.
+
+00:05:42.000 --> 00:05:47.000
+Alright. Thanks, so no, I will tell you that probably a third of the people vote it this week.
+
+00:05:47.000 --> 00:05:56.000
+A third of the people who actually vote it. I think it went from 50 to 77 and this week, so I don't know if that's just because we pushed people E exactly.
+
+00:05:56.000 --> 00:06:00.000
+Yeah. But that's because yeah, I exactly
+
+00:06:00.000 --> 00:06:02.000
+Right. So you know we push people to vote because it was ending or
+
+00:06:02.000 --> 00:06:09.000
+People just procrastinate until the last moment. Good. Yeah.
+
+00:06:09.000 --> 00:06:10.000
+Okay. Point. Take care.
+
+00:06:10.000 --> 00:06:14.000
+So yeah, I completely hear you, though or no. Yes, and your port is taken as well.
+
+00:06:14.000 --> 00:06:29.000
+So thank you for that. Alright. Any other comments on just the the Technical Oversight Committee election, or any other other announcements that people have
+
+00:06:29.000 --> 00:06:31.000
+Hello!
+
+00:06:31.000 --> 00:06:32.000
+Hey, Tracy! So I know, like previously, we referring from doing it.
+
+00:06:32.000 --> 00:06:42.000
+But since this time the election was focused only to maintain us can be this time.
+
+00:06:42.000 --> 00:06:49.000
+Do some I mean the analytics is visible to us, and who has what it was not content?
+
+00:06:49.000 --> 00:06:56.000
+Can we try to get free pan from them the maintenance will not participate
+
+00:06:56.000 --> 00:07:06.000
+Yeah, I think that's a really good idea. Everyone I think this is reaching out and seeing if we can get a summary of why they didn't vote you know I don't.
+
+00:07:06.000 --> 00:07:13.000
+Know what those choices might look like if we were to do a choice sort of thing, or if it's just a open ended question, tell us why?
+
+00:07:13.000 --> 00:07:29.000
+Why you didn't vote, but I do think it's worthwhile to to see and understand right well what what the reasoning is for that
+
+00:07:29.000 --> 00:07:41.000
+Alright any other comments or announcements
+
+00:07:41.000 --> 00:07:59.000
+Not seeing any we did. We haven't met for about a month and so we have a number of correlate reports that did come in in the past, month and as I was going through them this morning I didn't see any open or outstanding questions about any of those reports it looks like all the questions
+
+00:07:59.000 --> 00:08:07.000
+That were asked were answered, or any comments that were made were updated in the the actual report.
+
+00:08:07.000 --> 00:08:24.000
+But did anybody have any questions or anything that we should talk to the the communities about related to their quarterly reports?
+
+00:08:24.000 --> 00:08:31.000
+Okay, I will take that as a resulting. No. The upcoming reports.
+
+00:08:31.000 --> 00:08:37.000
+We did get the cello report. They came in already this week, so that one's available.
+
+00:08:37.000 --> 00:08:45.000
+The Ursa report. It's probably worthwhile to have a conversation with the the Ersa team.
+
+00:08:45.000 --> 00:08:55.000
+I know they just gave us their report not too long ago, and so it may be that they're not thinking about the report yet.
+
+00:08:55.000 --> 00:09:00.000
+So we'll just have to maybe reach out to them and see and see what the status is.
+
+00:09:00.000 --> 00:09:14.000
+There and then for next week. The reports that we're looking to get, and I think these are the remaining the reports for the year or the base in caliber and Firefly reports
+
+00:09:14.000 --> 00:09:27.000
+Alright any any questions on any of the reports before we move on to the discussion either
+
+00:09:27.000 --> 00:09:35.000
+So for discussion. Today I wanted to talk about the status updates for the task forces that we've kicked off for this particular year.
+
+00:09:35.000 --> 00:09:41.000
+I I wanna see you know what we're waiting on.
+
+00:09:41.000 --> 00:09:46.000
+How do we close these out? Is there anything that can be done to to move us beyond where we're at?
+
+00:09:46.000 --> 00:10:02.000
+To move these forward. You know I I there was another task force that we had, which I ended up closing out, and because what we decided was that it was really the the staff.
+
+00:10:02.000 --> 00:10:16.000
+Decision. As far as you know, what gets priority, and how do we present this, however, I do recall from that task force that one of the things that was we were waiting.
+
+00:10:16.000 --> 00:10:25.000
+On was to see some mockups for some of the new web pages, and so
+
+00:10:25.000 --> 00:10:26.000
+I don't see Mr. Boswell on the call today.
+
+00:10:26.000 --> 00:10:39.000
+To to give us an update on that. But I think that's one of the things that we are waiting for just to to see how we link the different projects together on the website.
+
+00:10:39.000 --> 00:10:43.000
+Oh, you are on the call. David, how did I miss you?
+
+00:10:43.000 --> 00:10:44.000
+Yeah.
+
+00:10:44.000 --> 00:10:47.000
+Oh, you were at the top co-host, David, do you have any updates on that
+
+00:10:47.000 --> 00:10:55.000
+Yeah, quick update on that. Unfortunately, this gotten tied up with some web dev other web dev issues on the site.
+
+00:10:55.000 --> 00:11:02.000
+The plan was to launch it on the current site earlier this year in time for global forum.
+
+00:11:02.000 --> 00:11:18.000
+But then the web Dev team decided that it would probably be best to wait long story short, the there's gonna be a redesign of the site early next year, where the site moves to a different plot hosting platform and so the web dev team didn't ultimately decided it didn't make sense to code it once
+
+00:11:18.000 --> 00:11:23.000
+For wordpress, and then have to recode it just a few months later for a different platform.
+
+00:11:23.000 --> 00:11:41.000
+So their recommendation was the hold off and do that when we launch the new site and sorry for not providing an update sooner, we've just been trying to sort out the exact timing and details, on our end and all that is not yet fully final on our end but the web dev team did decide it did make the most sense
+
+00:11:41.000 --> 00:11:49.000
+not to go ahead and do it on Wordpress, so we'll give you updates soon when we know more of timing.
+
+00:11:49.000 --> 00:11:54.000
+But we'll be a little bit later than we had hoped in terms of getting it posted
+
+00:11:54.000 --> 00:12:03.000
+Alright. Thanks, David, for that update. So yeah, let's go through the the other task forces then, and see where they're at.
+
+00:12:03.000 --> 00:12:07.000
+And what can we do to get them closed out or move them forward.
+
+00:12:07.000 --> 00:12:12.000
+So the first one is the project gaps task force, Dano.
+
+00:12:12.000 --> 00:12:29.000
+I know we had done a lot of discussions about you know what kind of projects we have, what kind of projects we don't have, what labs exist that might fill in some of the gaps where we at specifically, with this task force and what do we need to do to to move this forward
+
+00:12:29.000 --> 00:12:47.000
+So the the goals was to produce a list of labs of a go in and possible holes, and on the page the recommendations delivered on those back in August we kept it open over hyper Ledger global form in case some of the chatter at the global form prompted
+
+00:12:47.000 --> 00:12:56.000
+us to add more, get trees or gaps, or whatever to the to the list, and and none of those surface so you know, based on the objective set out when we form the task force.
+
+00:12:56.000 --> 00:13:00.000
+It's delivered. It's this product which was that recommendations page
+
+00:13:00.000 --> 00:13:09.000
+Okay. So we can then move this to the prior task force list.
+
+00:13:09.000 --> 00:13:10.000
+Correct.
+
+00:13:10.000 --> 00:13:13.000
+As far as what it has, where we're at with that, so we can take that action to do that.
+
+00:13:13.000 --> 00:13:20.000
+Okay. Great. Thanks, Dano Jim. The project health dashboard
+
+00:13:20.000 --> 00:13:36.000
+Yeah, thanks. Tracy. So this one, I think we originally set this up to deliver some automated content into each of the project reports we achieved.
+
+00:13:36.000 --> 00:13:44.000
+The the first step of identifying what needs to going there to reflect accurately with data.
+
+00:13:44.000 --> 00:13:51.000
+The the the project, house. But we haven't achieved this.
+
+00:13:51.000 --> 00:14:01.000
+The original goal of doing automation. It's mainly due to resource constraints, coding, coding, wise and setting up infrastructure.
+
+00:14:01.000 --> 00:14:16.000
+But we did manage to give the the output to the Linux Foundation inside team as input for their future enhancements.
+
+00:14:16.000 --> 00:14:41.000
+So I I think we have the option of closing this off with the reduce the scope, and just consider the the the output being just the report itself, and then we can always choose to act on that in the future when we do have resources available
+
+00:14:41.000 --> 00:14:51.000
+Okay, one of the things that I was thinking about with this in another conversation that I had was around.
+
+00:14:51.000 --> 00:14:57.000
+Whether or not we wanted to have some sort of yeah.
+
+00:14:57.000 --> 00:15:08.000
+So that's call it a spreadsheet for sake of ease that basically provides a list of things that we would expect from projects things like Maintainer as well.
+
+00:15:08.000 --> 00:15:16.000
+These are the easy things right things like Maintainer as files, contributor files things to talk about.
+
+00:15:16.000 --> 00:15:28.000
+How do you become a maintainer? You know all of the basically good practices or best practices for for being a successful kind of open source. Project.
+
+00:15:28.000 --> 00:15:33.000
+And then just the you know kind of a checkmark yes or no, next to it.
+
+00:15:33.000 --> 00:15:52.000
+I know right now we're kind of doing that in the project report, but I'm wondering if there's a a different way for us to do, that and kind of have it all in one location and basically something that we could maintain as we kind of go through and see these things getting completed or
+
+00:15:52.000 --> 00:16:01.000
+Or finished. It's not quite the same. I think it's what this dashboard was, and is intended to be within insights.
+
+00:16:01.000 --> 00:16:04.000
+But I'm wondering if it does help us in some way.
+
+00:16:04.000 --> 00:16:10.000
+Just to to be able to understand kind of these these best practices, if you will
+
+00:16:10.000 --> 00:16:15.000
+Yeah, yeah, I think the the report that we ended up with can be easily turning to a express sheet format.
+
+00:16:15.000 --> 00:16:35.000
+And I'd I'd be happy to help with that, so we can have that sort of as itself, either as a self evaluation or as a setup Format for projects to self self report on their health matrices.
+
+00:16:35.000 --> 00:16:42.000
+Yeah, I can. I can definitely help with that as sort of the last step to to wrap this up
+
+00:16:42.000 --> 00:16:43.000
+Does that make sense? Okay?
+
+00:16:43.000 --> 00:16:44.000
+Yeah, that'd be great. Yeah, I and I know hard.
+
+00:16:44.000 --> 00:16:54.000
+I think this is kind of another. Some of the conversations you and I had as well about some of the things that we'd like projects to be able to to be.
+
+00:16:54.000 --> 00:17:08.000
+Able to have related to the documentation of how their projects are run, and I think this: these are the 2 things that came together in my head to create kind of this spreadsheet of checkmarks.
+
+00:17:08.000 --> 00:17:13.000
+Of yes, no sorts of things, maybe even pointers, to where those things are.
+
+00:17:13.000 --> 00:17:29.000
+If you will, so that people can easily find where things are documented, because I don't feel like we're very consistent across our projects, and when we document some of these things, some of them have them in maintainer as far as some of them have them in contributors files
+
+00:17:29.000 --> 00:17:39.000
+Right like there's there's just different places where things are captured, and I just wanna make sure that we have a you know one place kinda to go look and see how our projects.
+
+00:17:39.000 --> 00:17:48.000
+Are doing and well, maybe you know a directory for people who are interested in getting involved in certain projects
+
+00:17:48.000 --> 00:17:55.000
+Totally agree. Tracy. Thanks for bringing this up
+
+00:17:55.000 --> 00:18:05.000
+Alright anything else. Then on project help dashboards that we should, that anybody has any commentary on
+
+00:18:05.000 --> 00:18:20.000
+Hi! It's Dave I agree with your points about consolidating that information, and there's also a few of the questions that are in each of the projects reports that that have been there for like most of the year, and people are just copy paste I think so, it'd be
+
+00:18:20.000 --> 00:18:24.000
+good if those things got moved to the common spreadsheet or the common page will have where we do it.
+
+00:18:24.000 --> 00:18:33.000
+And then the project reports. Maybe just link to that, and you can say, do you have any updates on the call page? That type of thing
+
+00:18:33.000 --> 00:18:38.000
+Yeah, I think that's a really good idea. Okay. I I saw similar stories.
+
+00:18:38.000 --> 00:18:42.000
+I was thinking similar sorts of things when I was looking at some of the newest reports that came in.
+
+00:18:42.000 --> 00:18:43.000
+It's like that looks very similar to what I thought last, that they reported right?
+
+00:18:43.000 --> 00:18:54.000
+So yeah, I'm agreeing with the copy paste, and how that might just you know some of the stuff is is just not needed.
+
+00:18:54.000 --> 00:18:58.000
+There not project reports anymore?
+
+00:18:58.000 --> 00:19:02.000
+Alright anything else, then
+
+00:19:02.000 --> 00:19:09.000
+On this particular topic
+
+00:19:09.000 --> 00:19:14.000
+Alright. So then, the last task force that we have is the security password.
+
+00:19:14.000 --> 00:19:21.000
+So Arun, I know you've been hosting some meetings, wanted to see if we could get an update from you on.
+
+00:19:21.000 --> 00:19:30.000
+But the status is and what kind of steps we are taking or need to still take. To get this one closed out
+
+00:19:30.000 --> 00:19:43.000
+So Tracy, hey? Everybody so in terms of update we still stand at the same place as what was updated in the previous days to Tcom which is, with we have certain action.
+
+00:19:43.000 --> 00:19:55.000
+Items that were supposed to be written down. For instance, in our initial proposal we had the easy target achieved, but after that, taking the feedback from the 2, we went back.
+
+00:19:55.000 --> 00:20:17.000
+And then we find the other proposals, and out of those proposals, like the after multiple discussions we realized that some of the Open Ssl recommendations, or to be proposed over here in Hyper Ledger for to to form immediate implementation I apologize because I haven't been
+
+00:20:17.000 --> 00:20:31.000
+able to follow since the global Forum event. But yes, the the task force itself has completed, for now the tasks that were to be, done, however, the the the proposal, that we had as part of the task force.
+
+00:20:31.000 --> 00:20:54.000
+Itself is security is not one time activity which we should be reviewed, and then once we put up these 10 or 15 items that it's done, but rather it should be continuously evaluated as well from so that is an open item which I still see that we end up discussing for instance, in
+
+00:20:54.000 --> 00:21:04.000
+The previous call, as well, are not brought up a tool that we should be leveraging in our build process this night tool reports right?
+
+00:21:04.000 --> 00:21:12.000
+So that's where we stand right now. And currently the task force meetings have been canceled.
+
+00:21:12.000 --> 00:21:21.000
+The Tuesday meetings in case there was a conflict, and then now I'm being rehabilitation of that is not done because I was occupied in the past.
+
+00:21:21.000 --> 00:21:28.000
+Month. I again apologize for that. That's 3 times status
+
+00:21:28.000 --> 00:21:29.000
+Okay. Oh, no.
+
+00:21:29.000 --> 00:21:30.000
+So there is sorry on this slide to that are not brought up.
+
+00:21:30.000 --> 00:21:57.000
+I was not so not also aware of that right. The next foundation has already provided that in the in the dashboards that are available for other projects, the the discussion that we had in the previous task force meeting was to go through that and then recommend how the projects, teams can start using that
+
+00:21:57.000 --> 00:22:10.000
+I'd be already saw some of the project teams I've been taking measures to mitigate some of those risk reported by the 2 I'm not sure if those reports were shared through this tool or through some other needs when the tool has captured.
+
+00:22:10.000 --> 00:22:19.000
+Those status, as well
+
+00:22:19.000 --> 00:22:23.000
+Okay. Hello.
+
+00:22:23.000 --> 00:22:28.000
+Yes, so you know I I Hi, Kim, responsibility.
+
+00:22:28.000 --> 00:22:38.000
+I take responsibility for having started this so I still feel like we have a lot to do in that space, and I mean I you know our room.
+
+00:22:38.000 --> 00:22:42.000
+I don't think you have to apologize. We all get busy on time, and that's okay.
+
+00:22:42.000 --> 00:22:45.000
+I mean, you know I thank you for trying to beat this, anyway.
+
+00:22:45.000 --> 00:22:48.000
+But you know it's I we started this that was based on my report that the open Ssf.
+
+00:22:48.000 --> 00:23:15.000
+Had produced a guide, for on you know, for open source project, and how to handle venueability disclosures, and then you know, I'm very much involved in opennesses these days, and I can tell you that the list of tools and recommendations can keep increasing all the time and I
+
+00:23:15.000 --> 00:23:21.000
+Think in general, you know, especially given the space we're in with blockchain, which is pretty security.
+
+00:23:21.000 --> 00:23:27.000
+Sensitive. I mean those recommendations are true for any open source project, but you know I.
+
+00:23:27.000 --> 00:23:37.000
+As I was saying, J. Just if anybody should care it should be us, because you know blockchain space, we care about security, and maybe more than anybody else.
+
+00:23:37.000 --> 00:23:39.000
+And so I think we there's a lot to learn from the recollections.
+
+00:23:39.000 --> 00:23:49.000
+The you know. Our room was referring to some of the tools that are being, you know, pointed to.
+
+00:23:49.000 --> 00:24:07.000
+There are some that are actually developed by openness itself that help, you know, track the packages, for instance, that you're using in your in your software, and it will alert you automatically if there's a Bernoulli that has been disclosing one of the old founding one of the
+
+00:24:07.000 --> 00:24:10.000
+Packages. You depend on. There's Gita actually is also starting to provide some of those tools.
+
+00:24:10.000 --> 00:24:15.000
+But then let me be turned on by default, and sometimes it's just a matter of going.
+
+00:24:15.000 --> 00:24:30.000
+Change, the the you know your Github settings to get to use those new features and and the other part is, you know, a lot of this has to do with providing attestation.
+
+00:24:30.000 --> 00:24:38.000
+But you know ensuring the provenance of the tools, and so, again.
+
+00:24:38.000 --> 00:24:59.000
+Oh, the software we're developing so that people can use them, knowing that they are actually using the gene in version and stuff like this so there's a whole array of things that need to be done that you know as we say nowadays is like to improve the 60 poster of our projects and so I
+
+00:24:59.000 --> 00:25:03.000
+Think this you know this task force is still very much needed.
+
+00:25:03.000 --> 00:25:08.000
+We have to come up with, you know. I see this as a way to try to.
+
+00:25:08.000 --> 00:25:11.000
+You know, go through all these different options that are being brought up, and recommendations, and try to figure out what it means for us.
+
+00:25:11.000 --> 00:25:15.000
+A procedure, and so that we can then turn around.
+
+00:25:15.000 --> 00:25:32.000
+You know and tell our comedy our different projects okay, these are guidelines that we really want you to follow
+
+00:25:32.000 --> 00:25:37.000
+Alright, makes sense, part
+
+00:25:37.000 --> 00:25:43.000
+I agree with Arnold. I think we have. You know we have a lot of stuff to do this.
+
+00:25:43.000 --> 00:26:08.000
+I I you know I expect this will be a fairly long term effort, but in the the near future you know we'd like to get, you know, more precise Bug Valley programs rolled out and we'd also like to you know formalize a security audit process as well as you know trying to I don't
+
+00:26:08.000 --> 00:26:13.000
+Know if standardized is the right word, but trying to help formalize. Cv.
+
+00:26:13.000 --> 00:26:19.000
+I guess even if we can't mandate them cve best practices.
+
+00:26:19.000 --> 00:26:25.000
+So I totally just want to briefly agree with what Arnold said
+
+00:26:25.000 --> 00:26:40.000
+Okay. So it sounds to me if I'm hearing correctly that we've still got some work to do, and it's going to be around documenting guidelines and best practices for security potentially implementing some programs.
+
+00:26:40.000 --> 00:26:50.000
+Within the Hyper ledger foundation as a whole is there with the with the first part.
+
+00:26:50.000 --> 00:26:58.000
+How much of what's being done in open Ssf.
+
+00:26:58.000 --> 00:27:07.000
+Is applicable to that? Or are we creating separate from open Ssf.
+
+00:27:07.000 --> 00:27:11.000
+I'm trying to figure out what the what the relationship is between Hyper Ledger Foundation and open Ssf.
+
+00:27:11.000 --> 00:27:16.000
+And in this kind of task force.
+
+00:27:16.000 --> 00:27:17.000
+Absolutely. Yeah, I mean, we're we're trying to get people to adopt the best open.
+
+00:27:17.000 --> 00:27:25.000
+Ssf. Practices right right now. We don't have any formal policies.
+
+00:27:25.000 --> 00:27:44.000
+Say on Cve disclosure right? And when we talked about that last time early this, year, you know, people were hesitant to follow the open Ssf. Best practices
+
+00:27:44.000 --> 00:27:45.000
+So
+
+00:27:45.000 --> 00:27:53.000
+Yeah. But so I agree. I mean it's not about creating a own policies per se, or our own guidance.
+
+00:27:53.000 --> 00:28:09.000
+It's really, you know, deciding which ones we want to adopt and and and and what tools we want to leverage, and so that we can recommend that to the projects in
+
+00:28:09.000 --> 00:28:15.000
+Okay. Yeah makes sense. So then I guess we keep the the security task force open.
+
+00:28:15.000 --> 00:28:34.000
+For now, as we determine what those open Ssl. Best practices are that we want to adopt, and what the tools are that we want to to recommend to our different projects.
+
+00:28:34.000 --> 00:28:52.000
+Alright any other comments on the Security Task force any other things that we should be considering or thinking about here
+
+00:28:52.000 --> 00:28:59.000
+Alright, I'll take that as a know. So if we go back to the agenda we do.
+
+00:28:59.000 --> 00:29:08.000
+You have some sections at the bottom of the agenda about a new project proposals, and then kind of a backlog of issues.
+
+00:29:08.000 --> 00:29:16.000
+So Shawn, if you wouldn't mind going back to the agenda so we've got the hlf operator hip that's been proposed.
+
+00:29:16.000 --> 00:29:26.000
+I I will let you know that there are conversations that are ongoing between the submitter of this proposal and the bevel.
+
+00:29:26.000 --> 00:29:32.000
+Community, the results of those are yet to be determined.
+
+00:29:32.000 --> 00:29:41.000
+But I I want to leave this open until some sort of decision is made.
+
+00:29:41.000 --> 00:29:50.000
+As to whether or not it makes sense to bring this into the double operators, or what direction this is going to take.
+
+00:29:50.000 --> 00:29:55.000
+So, for for now this is going to to remain open hopefully.
+
+00:29:55.000 --> 00:30:16.000
+We can. I continue to report back on those discussions and how they're proceeding for additional for additional meetings, that we might have, and then for the backlog items we do have this one open issue which is what spawned the security task force.
+
+00:30:16.000 --> 00:30:20.000
+Which is to update the security process for hyper ledger.
+
+00:30:20.000 --> 00:30:31.000
+I I'm I'm not sure what to do here, since we kind of have 2 threads, one, which is this issue and one which is the task force.
+
+00:30:31.000 --> 00:30:32.000
+Do we leave the issue open until the task force is completed.
+
+00:30:32.000 --> 00:30:39.000
+Or do we close this with the we created the task force to handle it?
+
+00:30:39.000 --> 00:30:44.000
+I I'm I'm looking for some sort of direction or thoughts on kind of this backlog item.
+
+00:30:44.000 --> 00:30:57.000
+Happy to keep it open, but also I don't want to leave it there, for it's just creating voice any thoughts that anybody has here
+
+00:30:57.000 --> 00:31:04.000
+Adriene. Yeah, I mean, I think part of the test force mandate is to to suggest updates to this.
+
+00:31:04.000 --> 00:31:09.000
+So I think it's fine if we roll it into the task force
+
+00:31:09.000 --> 00:31:13.000
+Okay.
+
+00:31:13.000 --> 00:31:18.000
+Any objections to that
+
+00:31:18.000 --> 00:31:26.000
+Anybody who thinks it should be should remain open separately, alright
+
+00:31:26.000 --> 00:31:48.000
+Right, not enough objection itself. But no, I I don't know how to put it better, but the project team who proposed here they did reach out on a chart and they were asking for coming as well they were asking me to review on them make some comments and get involved so I know like there
+
+00:31:48.000 --> 00:31:53.000
+Are personally. But when I looked into some of the available labs there were, thank you.
+
+00:31:53.000 --> 00:31:57.000
+There is one more operator project, or maybe 2 more operator, and within hyper Ledger, already incubated projects.
+
+00:31:57.000 --> 00:32:07.000
+We do have one project that does make use of operator concept.
+
+00:32:07.000 --> 00:32:11.000
+And then there is payable, so
+
+00:32:11.000 --> 00:32:16.000
+I mean we are already in phase wars there are so W.
+
+00:32:16.000 --> 00:32:28.000
+Would my my question, like what I am trying to get towards is, would fabric team be willing to participate in these discussions?
+
+00:32:28.000 --> 00:32:37.000
+Because most of these are kind of time to fabric as well at least that's where the confusions and all the questions are arising.
+
+00:32:37.000 --> 00:32:50.000
+As far as I know, at least the except for Babel, which provides integrations or multiple other platforms most of the other operators that we see are all on the fabric, so can we have fabric team involved.
+
+00:32:50.000 --> 00:33:13.000
+I mean help us understand what the direction that team is taking from the fabric side versus which of these tool is more ready for that adoption in future changes and I know unifying may not be straightforward because of the complexity that I already mentioned by will support multiple other platforms, and most of the
+
+00:33:13.000 --> 00:33:23.000
+Others are like operators on the for fabric, but at least the guidance from public team would be helpful
+
+00:33:23.000 --> 00:33:31.000
+Hi, this is Dave. Yeah, I can help and or get somebody from the the fabric team to help with this
+
+00:33:31.000 --> 00:33:42.000
+Alright. Thanks, man, so make sure to to include you in some of the conversations that are ongoing that we have
+
+00:33:42.000 --> 00:33:46.000
+A a room. You had jumped us back in the conversation.
+
+00:33:46.000 --> 00:33:56.000
+I was. We were actually talking about closing out the the security, pros updating security process in the backlog items.
+
+00:33:56.000 --> 00:34:05.000
+So I was asking if anybody had any objections to close that one so happy to take us back there.
+
+00:34:05.000 --> 00:34:15.000
+But point taken on the operator, and I'll make sure that we're including other folks in those conversation
+
+00:34:15.000 --> 00:34:20.000
+And this is a topic that I'm personally interested in as well and invested in as well.
+
+00:34:20.000 --> 00:34:25.000
+So yeah, I want to get involved
+
+00:34:25.000 --> 00:34:30.000
+Okay.
+
+00:34:30.000 --> 00:34:33.000
+So related to the going back to the backlog item.
+
+00:34:33.000 --> 00:34:45.000
+Then any any objections to us closing this out as being included in the password, the security task force
+
+00:34:45.000 --> 00:34:50.000
+Well, so it's really a matter of you know, kind of accounting how you want to do deal with it.
+
+00:34:50.000 --> 00:34:55.000
+I mean as long as we have the task force.
+
+00:34:55.000 --> 00:34:59.000
+I guess it's okay to close it, so we will not get to the side of it.
+
+00:34:59.000 --> 00:35:09.000
+But to me it's this is kind of like the issue, and the task force is the way we are going to come up with the answer that will allow us to close this.
+
+00:35:09.000 --> 00:35:15.000
+That's the way I thought about it, but I have no problem closing it
+
+00:35:15.000 --> 00:35:18.000
+Yeah, oh, no, I I see where you're at right like.
+
+00:35:18.000 --> 00:35:22.000
+We shouldn't actually close the issue on until it's been really it's kind of where you're at.
+
+00:35:22.000 --> 00:35:24.000
+Yeah, that's: yeah, yeah.
+
+00:35:24.000 --> 00:35:34.000
+Yeah makes sense.
+
+00:35:34.000 --> 00:35:35.000
+Alright, so the the scale is now balanced, in my mind.
+
+00:35:35.000 --> 00:35:36.000
+I don't have a preference for either way.
+
+00:35:36.000 --> 00:35:43.000
+We've heard what for closing one for leaving it open.
+
+00:35:43.000 --> 00:36:01.000
+Any any other people have any thoughts on this, otherwise I think I will lean towards leaving it open, because that the the scale is slightly towards that
+
+00:36:01.000 --> 00:36:02.000
+Alright.
+
+00:36:02.000 --> 00:36:14.000
+I would also tip the scale to leaving it open. I think it's good to have a reminder that this is what we need to come back to from the task force
+
+00:36:14.000 --> 00:36:17.000
+Alright. Somebody put their thumbs up I don't know who that was.
+
+00:36:17.000 --> 00:36:21.000
+So, Peter, you did. Okay. So we'll leave it open then.
+
+00:36:21.000 --> 00:36:28.000
+For now. So that's the we went through the entire agenda any other topics that we should be discussing.
+
+00:36:28.000 --> 00:36:35.000
+As we finish. Today's meeting
+
+00:36:35.000 --> 00:36:54.000
+Yes. So this topic came fresh in, because I I got to attend one of the event, and Blockchain related event, and and Danglars today, and I would like to see something like that within hyper ledger ecosystem as well, and what fascinates me over there is in terms.
+
+00:36:54.000 --> 00:37:04.000
+Of the the developer relationships in in making onboarding developer ecosystem, making their experience much more.
+
+00:37:04.000 --> 00:37:25.000
+I know this has been brought up in the past on the approach from Mypalager would be little different, but if if there are opportunities for us to open up any in multiple ways I think we should start looking for partnerships or engagements in that aspect and this could be from multiple angles
+
+00:37:25.000 --> 00:37:32.000
+For instance, they majority of developer ecosystem comes from from, let's say the they a certain age group which would much closer, which would be much closer to universities, right?
+
+00:37:32.000 --> 00:37:56.000
+So they would be looking for. A quick contributions or a kind of project involvement that they would personally want to be involved in and I'm not again talking about the mentorship, program, but rather those who are highly motivated and the enthusiast who would go and explore on their own
+
+00:37:56.000 --> 00:38:09.000
+And willing to contribute at at their own face. So these particular community group is special, large, and once they let's say, get gain that experience.
+
+00:38:09.000 --> 00:38:16.000
+They will carry that forward to further people from their reach.
+
+00:38:16.000 --> 00:38:21.000
+And this has been a success story for for at least other groups.
+
+00:38:21.000 --> 00:38:31.000
+And I I mean if there are open opportunities for us to propose some things and like engage in any way happy to do that.
+
+00:38:31.000 --> 00:38:40.000
+Yeah, that's all
+
+00:38:40.000 --> 00:38:41.000
+So I'm not quite sure that I'm understanding what you're suggesting.
+
+00:38:41.000 --> 00:38:44.000
+But I I
+
+00:38:44.000 --> 00:38:50.000
+Correct, so I'll I'll probably put it in a much other tie other way right?
+
+00:38:50.000 --> 00:38:54.000
+So engaging you university students, especially when they are the worst there.
+
+00:38:54.000 --> 00:39:03.000
+Towards end of their courses, or people who are looking out for real world experience people who are looking out for open source contributions, and they are highly motivated.
+
+00:39:03.000 --> 00:39:12.000
+They are the like. The developers. A group who are for willing to learn on their own.
+
+00:39:12.000 --> 00:39:16.000
+Now the investment from our site would be in terms of making sure.
+
+00:39:16.000 --> 00:39:20.000
+We have right materials available for them right trainings available.
+
+00:39:20.000 --> 00:39:50.000
+This may also require, for instance, Hyperlger Foundation to be engaged with certain universities and prepare course materials if needed, a probably engage in creating workshops.
+
+00:39:51.000 --> 00:39:57.000
+Okay. I'm gonna let heart comment. I I think there's already some things that are ongoing.
+
+00:39:57.000 --> 00:40:00.000
+But I'll see if heart mentions those or not.
+
+00:40:00.000 --> 00:40:09.000
+Oh, absolutely so yeah, so. Ruin! We definitely have university student engagement is a goal, you know.
+
+00:40:09.000 --> 00:40:23.000
+There's only so much we can do, obviously like putting together a full university course is difficult, particularly, you know, like a real thing.
+
+00:40:23.000 --> 00:40:33.000
+We have been we have been working on this, though? And if you have suggestions, you know we we'd love to hear from you.
+
+00:40:33.000 --> 00:40:39.000
+So you know, just just reach out if you think that there's something we can do.
+
+00:40:39.000 --> 00:40:43.000
+We, you know, in the same vein we are gonna try to.
+
+00:40:43.000 --> 00:41:07.000
+I guess revamp isn't the right word, but we're gonna try to, you know update the mentorship program as well to help head of war university students and more university interns as well, so yeah, we'd love to hear from you on you know if you don't
+
+00:41:07.000 --> 00:41:13.000
+Mind, you know, like writing this up in some kind of email or something.
+
+00:41:13.000 --> 00:41:14.000
+And then and then just mailing to that would be fantastic cause. We're always looking for feedback and opportunities on this kind of thing.
+
+00:41:14.000 --> 00:41:27.000
+Right. So this is what I was trying to go towards engaging universities, to transport us really beneficial or a community growth, perspective, and also in terms of adoption
+
+00:41:27.000 --> 00:41:33.000
+One thing that I know was happening is some work with Morgan state.
+
+00:41:33.000 --> 00:41:42.000
+You for some of the kind of conversations about what it is that we're doing in hyper ledger, and that was the one example that I was going to bring up part.
+
+00:41:42.000 --> 00:41:45.000
+I don't know if you had a comment on that.
+
+00:41:45.000 --> 00:41:46.000
+Specifically, I saw your hand goes straight up
+
+00:41:46.000 --> 00:41:47.000
+Yeah. So our contact. Person, sorry Tracy, our contact person at Morgan State left.
+
+00:41:47.000 --> 00:41:56.000
+So that's currently on hold. But that is definitely something we are trying to continue
+
+00:41:56.000 --> 00:42:01.000
+Okay. Great thanks. Hard. Come Lush.
+
+00:42:01.000 --> 00:42:11.000
+So I didn't really see in heart like what Iran is mentioning and saying, I think I I can relate, because I can also keep trailing different universities in India.
+
+00:42:11.000 --> 00:42:22.000
+Is a speaker, is a event partner, but everybody everybody understand the public blockchain is ecosystem, like Polygon and other ister.
+
+00:42:22.000 --> 00:42:28.000
+But when come to and come to the topic of the high pilgrimage kind of ecosystem, so even like.
+
+00:42:28.000 --> 00:42:45.000
+Still the educational event is missing. So maybe 4 that weren't like what the room is also saying like how we can create and talk about the hyperlger ecosystem in so I'm going to develop an ecosystem going to be events, so because like all this public
+
+00:42:45.000 --> 00:42:46.000
+Blockchain communities out there and talking about and building some direct ecosystem.
+
+00:42:46.000 --> 00:42:52.000
+But in hyper with respect to you as a hypothetical system goes to the different event.
+
+00:42:52.000 --> 00:43:04.000
+But in the different this aspect kind of talking about the hypothesis, hypothetical system, and hypervisor business perspective.
+
+00:43:04.000 --> 00:43:11.000
+But involving the developer ecosystem, but I think could be focused in not just university, but in general.
+
+00:43:11.000 --> 00:43:17.000
+Yeah to the developer ecosystem
+
+00:43:17.000 --> 00:43:21.000
+Alright. That's good. Wish Bobby
+
+00:43:21.000 --> 00:43:32.000
+Hi, everybody. Yeah, I just wanted to supply that in the learning materials working group in the New Year is working with David to change up and onboarding site.
+
+00:43:32.000 --> 00:43:33.000
+Or onboarding mechanism, so that when people do inquire, there are the infra.
+
+00:43:33.000 --> 00:43:52.000
+There is the information that they're requesting really easy for them to find, and then possibly we were talking in the group about running classes based on just what Hyper Ledger does during our meetings like monthly.
+
+00:43:52.000 --> 00:43:59.000
+So that people who are interested will get the information
+
+00:43:59.000 --> 00:44:03.000
+That's wonderful. Bobby.
+
+00:44:03.000 --> 00:44:14.000
+Any other comments on this topic
+
+00:44:14.000 --> 00:44:22.000
+Alright any other topics, then, that we should talk about before we close out today's meeting
+
+00:44:22.000 --> 00:44:23.000
+Huh!
+
+00:44:23.000 --> 00:44:30.000
+Awesome. I will briefly say that you know just in in this same vein of soliciting feedback.
+
+00:44:30.000 --> 00:44:35.000
+We are looking together. Sorry we're looking to put together our events.
+
+00:44:35.000 --> 00:44:43.000
+Strategy for next year. So if you all think that you know there's an event that might not be on our radar that we should attend or have a presence at, or try to speak at or do something.
+
+00:44:43.000 --> 00:44:56.000
+Please, please reach out and let us know
+
+00:44:56.000 --> 00:44:57.000
+Alright. Thank you hurt
+
+00:44:57.000 --> 00:45:02.000
+Thank you, Tracy.
+
+00:45:02.000 --> 00:45:12.000
+Any other topics
+
+00:45:12.000 --> 00:45:15.000
+Alright. Sounds like there's none. So with that we will close out.
+
+00:45:15.000 --> 00:45:18.000
+Today's meeting. Thank you all for your participation, and we will see you again soon.
+
+00:45:18.000 --> 00:45:25.000
+Thanks. EverybodyThank you.
+

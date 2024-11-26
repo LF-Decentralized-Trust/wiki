@@ -1,0 +1,21 @@
+00:11:30	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=16320908
+00:18:54	Drummond Reed:	Many people are going to have that same confusion - they are going to be looking for how to establish DID connections and they will not know that the protocol is called DID Exchange.
+00:29:06	George Aristy:	yes
+00:40:51	John Callahan - Veridium:	Good stuff but info overload for me at the moment
+00:43:00	Samuel Smith:	Background:  Semantically ordering should be important in data structures in general for lots of reasons but efficient implementation of hash algorithms for key:value dicts were not ordered so ordering was not enforced. Now there are effcient algorithms for key: value hash so ordering now can be required. Although JSON arrays are ordered the lack of ordering for key:value and the idea that set operations can be used on unordered arrays led Json-ld down an unordered path.  These are artifacts of JSON  JavaScript
+00:43:14	Samuel Smith:	And artifacts of JSON-LD
+00:54:14	Markus Sabadello:	I believe the reason why arrays in JSON-LD are by default unordered is that RDF is the underlying graph model, and nodes/arcs in graphs are naturally unordered.
+00:54:34	Drummond Reed:	+1
+00:57:18	Markus Sabadello:	Caching is an open topic in DID Resolution, see e.g. https://w3c-ccg.github.io/did-resolution/#caching and https://github.com/w3c-ccg/did-resolution/issues/10
+00:59:06	Drummond Reed:	I like Robert’s suggestion
+01:03:34	Samuel Smith:	@Markus  good clarification
+01:09:53	Markus Sabadello:	For service endpoints that are DIDs, see e.g. https://w3c-ccg.github.io/did-resolution/#redirect and https://github.com/w3c-ccg/did-resolution/issues/7
+01:10:06	John Callahan - Veridium:	where are we holding subsequent discussion regarding service endpoints?
+01:11:37	John Callahan - Veridium:	thx
+01:24:30	Oskar van Deventer (TNO):	FYI: find Peer DID here - https://openssi.github.io/peer-did-method-spec
+01:27:11	Oskar van Deventer (TNO):	FYI: find Daniel's presented doc here - https://dhh1128.github.io/peer-did-method-spec/#reserved-values
+01:31:02	Oskar van Deventer (TNO):	FYI: dind Daniel's predefined identities here - https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities
+01:38:21	Drummond Reed:	Thanks Oskar!
+01:38:29	Steve McCown:	Daniel:  I really like your peer did presentation — very insightful.  On the Reserved Values section, you mentioned not needing to check for the reserved values, in code, since they’re unlikely to randomly occur.  I would probably recommend checking for those values, since not checking for them could have unforeseen results.
+01:38:55	Daniel Hardman:	Yes. My imp has a function to recognize them.
+01:39:20	Daniel Hardman:	We have to check for them because malicious people might use them—not so much because true randomness introduces risk.

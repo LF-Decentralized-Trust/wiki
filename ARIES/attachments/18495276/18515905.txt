@@ -1,0 +1,11 @@
+15:03:24	 From karimstekelenburg : https://wiki.hyperledger.org/pages/resumedraft.action?draftId=62237247&draftShareId=3f3bb850-71ef-41c9-b6b3-51610135bd48&
+15:03:32	 From karimstekelenburg : https://wiki.hyperledger.org/display/ARIES/Copy+of+2022-01-27+Aries+Framework+JS+Meeting+notes
+15:07:47	 From James Ebert : With which protocol Mike?
+15:07:59	 From karimstekelenburg : Issue credential v2
+15:11:00	 From Berend Sliedrecht : Out of band stuff is not merged, it is a feature-branch right now: https://github.com/hyperledger/aries-framework-javascript/tree/feat/out-of-band
+15:11:18	 From James Ebert : Ahh—thank you Berend :thumbs:
+15:34:08	 From James Ebert : Here’s the section on versioning on Aries protocols: https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0003-protocols#semver-rules-for-protocols
+15:40:41	 From James Ebert : I haven’t been keeping up with RN Turbo modules, are they fully out of beta now?
+15:41:58	 From Berend Sliedrecht : It is available in the non-nightly versions, but very undocumented and not a lot of utility. I think 0.63 already supported it. I do consider it as beta though hah
+15:50:21	 From James Ebert : Haha awesome, thank you ^ :)
+16:02:49	 From Philippe Foucault : Thanks

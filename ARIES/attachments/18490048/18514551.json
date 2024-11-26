@@ -1,0 +1,126 @@
+{
+  "status": "UNLOCKED",
+  "contents": [
+    {
+      "@context": [
+        "http://w3id.org/wallet/v1"
+      ],
+      "id": "urn:digest:054b5039673232a782564bb6392dd7751d60a57f8f2fd38a84f48ef03245e2f2",
+      "name": "DID Key Secret",
+      "image": "https://via.placeholder.com/150",
+      "description": "Used to generate a DID with a signing and encryption key.",
+      "tags": [
+        "inception"
+      ],
+      "type": "Entropy",
+      "value": "9624573a7957dd0c660cec4dc94a5d3f2cc04d6cff65c5583118718a425cf362",
+      "tableData": {
+        "id": 0
+      }
+    },
+    {
+      "id": "did:key:z6MktCwmfbxC9d54nkiexqL2mTdmziEST5LmdzR9hmw6VAnY#z6MktCwmfbxC9d54nkiexqL2mTdmziEST5LmdzR9hmw6VAnY",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:key:z6MktCwmfbxC9d54nkiexqL2mTdmziEST5LmdzR9hmw6VAnY",
+      "publicKeyBase58": "Ekgj5Mhkp5abgFsxHGNBvN5nB8xb3C6QwyWDsVy5Zx1A",
+      "privateKeyBase58": "4177qAaGqmMJJoJxBCguAjrowgZgLyMJb7BN9aQb559at5t5zvyxuSMXjTjuT5VVtbP5AanHNiFHVAgQqReVUa2G",
+      "@context": [
+        "http://w3id.org/wallet/v1"
+      ],
+      "name": "Signing Key",
+      "image": "https://via.placeholder.com/150",
+      "description": "Used to produce digital signatures.",
+      "tags": [
+        "inception"
+      ],
+      "generatedFrom": [
+        "urn:digest:054b5039673232a782564bb6392dd7751d60a57f8f2fd38a84f48ef03245e2f2"
+      ],
+      "tableData": {
+        "id": 1
+      }
+    },
+    {
+      "id": "did:key:z6MktCwmfbxC9d54nkiexqL2mTdmziEST5LmdzR9hmw6VAnY#z6LSt4xwnBF7CERr7zHkrfEcwwLHT4cUDnf2m6Fs2Wm5rToC",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:key:z6MktCwmfbxC9d54nkiexqL2mTdmziEST5LmdzR9hmw6VAnY",
+      "publicKeyBase58": "HPnnFsSF6mi72buzL1ifdM7obv5MXBUst7YBY47Z962S",
+      "privateKeyBase58": "F2QBwFU8S6jcP2moYb34YoFwtYm4D2EvkqqJzUJTTE9y",
+      "@context": [
+        "http://w3id.org/wallet/v1"
+      ],
+      "name": "Encryption Key",
+      "image": "https://via.placeholder.com/150",
+      "description": "Used to derive symmetric keys for encryption.",
+      "tags": [
+        "inception"
+      ],
+      "generatedFrom": [
+        "urn:digest:054b5039673232a782564bb6392dd7751d60a57f8f2fd38a84f48ef03245e2f2"
+      ],
+      "tableData": {
+        "id": 2
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://www.w3.org/2018/credentials/examples/v1"
+      ],
+      "id": "http://example.gov/credentials/3732",
+      "type": [
+        "VerifiableCredential",
+        "UniversityDegreeCredential"
+      ],
+      "issuer": "http://example.com/issuer/123",
+      "issuanceDate": "2020-03-10T04:24:12.164Z",
+      "credentialSubject": {
+        "id": "did:key:z6MkjjCpsoQrwnEmqHzLdxWowXk5gjbwor4urC1RPDmGeV8r",
+        "degree": {
+          "type": "BachelorDegree",
+          "name": "Bachelor of Science and Arts"
+        }
+      },
+      "proof": {
+        "type": "Ed25519Signature2018",
+        "created": "2020-03-10T04:24:12.164Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UpThVRYeUj-KUoFp0QRK4UTAEPJu5iE8wrKts8h0J0xbRForoHf2o6G4bi_PPblJpeFEgb3CvjMwBBc1lG0JBQ",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "http://example.com/issuer/123#key-1"
+      },
+      "tableData": {
+        "id": 3
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://www.w3.org/2018/credentials/examples/v1"
+      ],
+      "id": "http://example.gov/credentials/3732",
+      "type": [
+        "VerifiableCredential",
+        "UniversityDegreeCredential"
+      ],
+      "issuer": "http://example.com/issuer/123",
+      "issuanceDate": "2020-03-10T04:24:12.164Z",
+      "credentialSubject": {
+        "id": "did:key:z6MkjjCpsoQrwnEmqHzLdxWowXk5gjbwor4urC1RPDmGeV8r",
+        "degree": {
+          "type": "BachelorDegree",
+          "name": "Bachelor of Science and Arts"
+        }
+      },
+      "proof": {
+        "type": "Ed25519Signature2018",
+        "created": "2020-03-10T04:24:12.164Z",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UpThVRYeUj-KUoFp0QRK4UTAEPJu5iE8wrKts8h0J0xbRForoHf2o6G4bi_PPblJpeFEgb3CvjMwBBc1lG0JBQ",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "http://example.com/issuer/123#key-1"
+      },
+      "tableData": {
+        "id": 4
+      }
+    }
+  ]
+}

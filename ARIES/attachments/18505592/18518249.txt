@@ -1,0 +1,13 @@
+00:36:47	Gianluca Capuzzi:	Sorry I'm Gianluca I am a mentee of Hyperledger Mentorship Program and I belong to Standard Documentation Task Force: could I ask you if you need help for writing documentation? I'll report back to my team.
+00:43:11	Lohan Spies:	We are using Helm charts for our infra
+00:44:18	Akiff Manji:	I’ve been adding them to repos that I contribute to
+00:44:28	Akiff Manji:	I think they’re useful
+00:48:50	Emiliano Suñé:	We are using Helm charts for our infraWe'll be happy to get feedback/suggestions once we open the PR with the initial cut - it shouldn't be too long until it is ready. Hoping this will be the way to go to deploy ACA-Py and add it as a dependency for other services/deployments 🙂
+00:49:30	Lohan Spies:	Is there a PR or a branch that we can monitor or follow?
+00:49:40	Lohan Spies:	Or alert us when you create the PR?
+00:50:03	Emiliano Suñé:	Not yet, but I'll make sure to mention it in the ACA-Pug meeting as soon as there is one
+00:50:11	Lohan Spies:	Would be great to contribute where we can. At the moment we don’t support all env parameters, just the those that we require
+00:51:32	Emiliano Suñé:	We're kind-of starting in a similar way and making sure the ones we use are supported, but are trying to come up with a standard way to use them - possibly with the configuration file and reasonable defaults rather than envvars
+00:52:17	Lohan Spies:	Great. Let me know how we can review / contribute
+00:55:50	Charles Lanahan:	haha the horror
+00:55:56	Lohan Spies:	Good luck Stephen!

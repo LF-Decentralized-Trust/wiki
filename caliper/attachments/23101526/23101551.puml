@@ -1,0 +1,192 @@
+@startuml
+
+control m_caliper_flow as MCF order 70
+entity m_blockchain as MBC order 80
+entity m_blockchain_client_factory as MBCCF order 90
+entity m_client_orchestrator as MCO order 50
+entity m_monitor_orchestrator as MMO order 40
+entity m_test_observer as MTO order 30
+entity m_report as MR order 20
+entity m_default_test as MDT order 60
+
+entity c_worker as CW order 100
+entity c_blockchain as CBC order 110
+entity c_local_client as CLC order 120
+entity c_callback as CCB order 130
+entity c_rate_controller as CRC order 140
+
+== Init ==
+
+MCF --> MBC **: create
+MCF --> MCO **: create
+MCF --> MMO **: create
+MCF --> MTO **: create
+MCF --> MR **:create
+	
+alt performStart && hasStart
+	MCF -> MCF ++: Execute start script
+	return
+end
+
+alt performInit
+	MCF -> MBC ++: init
+	return
+end
+
+alt performInstall
+	MCF -> MBC ++: installSmartContract
+	return
+end
+
+alt performTest
+	MCF -> MMO ++: startAllMonitors
+	return
+	
+	MCF -> MCO ++: init
+	return numberOfClients
+	
+	MCF -> MBC ++: prepareClients(numberOfClients)
+	return clientProcessData[]
+	
+	MCF --> MDT **: create
+
+	loop test.rounds
+		MCF -> MDT ++: runTestRounds(roundConfig)
+			MDT -> MTO ++: setBenchmark
+			return
+			
+			loop roundConfig.items
+				MDT -> MTO ++: setRound
+				return
+				
+				MDT -> MTO ++: startWatch
+				return
+				
+				MDT -> MCO ++: startTest
+					MCO -> MCO ++: _startTest
+						alt clients not started 
+							par clients
+								MCO -> MCO ++: launchClient
+									MCO -> MBCCF ++:spawnWorker
+										MBCCF --> CW **: fork/create
+										MBCCF --> CW: send(init)
+										
+										CW --> CBC **: create
+										CW --> CLC **: create(c_blockchain)
+									return client
+									CW --> MCO: readyMessage
+								return readyPromise
+							end
+							MCO --> MCO: await readyPromises
+						end
+|||
+== Test ==
+|||
+						par clients
+							MCO --> MCO: create clientPromise
+							MCO --> CW: sendMessage(testArgs)
+							CW -> CLC ++: doTest(testArgs)
+								CLC --> CCB **: create
+								
+								CLC -> CLC ++: beforeTest
+								return
+								
+								group setInterval
+									CLC -> CLC ++: txUpdate
+										CLC -> CBC ++: getDefaultTxStats()
+										return
+										
+										alt Prometheus
+											CLC -> CLC ++: prometheusClient.push
+											return
+										else Process
+											CLC --> MCO: send(txUpdate)
+										end
+									return
+								end
+								
+								CLC --> CRC **: create
+								
+								CLC -> CRC ++: init
+								return
+								
+								CLC -> CCB ++: init
+								return
+								
+								CLC -> CLC ++: txReset
+								return
+								
+								loop duration/number
+									CLC --> CLC ++: callbackPromise
+										CLC -> CCB ++:run
+											CCB -> CBC ++:invoke
+											return result
+										return result
+									
+										CLC -> CLC ++: addResult(result)
+										return
+									return
+									
+									CLC -> CRC ++: aplyRateControl
+									return
+								end
+								
+								CLC -> CRC ++: end
+								return
+								
+								CLC -> CBC ++: releaseContext
+								return
+								
+								CLC -> CLC ++: clearUpdateInterval
+								return
+								
+								CLC -> CCB ++: end
+								return
+							return
+						end
+						
+						MCO --> MCO: await clientPromises
+					return
+				return
+				
+				MDT -> MTO ++: stopWatch
+				return
+				
+				MDT -> MR ++: processTPSResults
+				return
+				
+				MDT -> MR ++: buildRoundStats
+				return
+				
+				alt not last round
+					MDT -> MMO ++: restartAllMonitors
+					return 
+				end
+			end
+		return
+	end
+
+	MCF -> MR ++: printRoundResults
+	return
+	
+	MCF -> MMO ++: stopAllMonitors
+	return
+
+	MCF -> MR ++: finalize
+	return
+	
+	MCF -> MCO ++: stop
+		loop clients
+			MCO --> CW !!: kill
+		end
+	return
+
+	MCF -> MTO ++: stopWatch
+	return
+end
+
+alt performEnd && hasEnd
+	MCF -> MCF ++: Execute end script
+	return
+end
+@enduml

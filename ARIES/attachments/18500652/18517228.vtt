@@ -1,0 +1,3018 @@
+WEBVTT
+
+1
+00:01:25.760 --> 00:01:27.240
+Patrik: Hey? Greetings.
+
+2
+00:01:29.870 --> 00:01:31.139
+George Mulhearn: hey? How are you?
+
+3
+00:01:31.680 --> 00:01:36.469
+Patrik: It's all good, almost Christmas.
+
+4
+00:01:37.110 --> 00:01:38.350
+George Mulhearn: Do you have any plans?
+
+5
+00:01:38.880 --> 00:01:45.029
+Patrik: Yeah, i'm traveling to to Slovakia today?
+
+6
+00:01:46.450 --> 00:01:48.059
+Patrik: Amazing. Pr: but
+
+7
+00:01:48.080 --> 00:01:49.999
+Patrik: going back home now.
+
+8
+00:01:50.700 --> 00:01:57.469
+Patrik: what about you? You have a warm, warm Christmas? Right? Yeah. Very well.
+
+9
+00:01:58.730 --> 00:02:02.109
+George Mulhearn: No, not too much. Just seeing family local.
+
+10
+00:02:02.650 --> 00:02:05.840
+Patrik: Is there people taking lots of hold days during this time?
+
+11
+00:02:07.100 --> 00:02:08.540
+George Mulhearn: Yeah. Yeah. Yeah.
+
+12
+00:02:10.910 --> 00:02:16.780
+Patrik: yeah, because we have it in the in the South Africa part of
+
+13
+00:02:17.250 --> 00:02:21.700
+Patrik: part of apps on. So lots of people on all these right now.
+
+14
+00:02:21.940 --> 00:02:22.700
+George Mulhearn: Yeah.
+
+15
+00:02:26.440 --> 00:02:30.779
+Patrik: All right, i'll. I'll share my screen.
+
+16
+00:02:31.310 --> 00:02:36.800
+Patrik: Oh, i'll have a new machine. I need to give permission to share my screen.
+
+17
+00:02:41.300 --> 00:02:44.240
+Patrik: i'll have to reconnect. I'll be right back.
+
+18
+00:03:25.610 --> 00:03:28.689
+Patrik Stas: Alright, i'm here now. Now it should work.
+
+19
+00:03:36.670 --> 00:03:37.860
+Patrik Stas: and it does
+
+20
+00:03:37.990 --> 00:03:41.120
+Patrik Stas: wonders of technology.
+
+21
+00:03:42.610 --> 00:03:50.609
+Patrik Stas: Okay, so we have a bunch of stuff. I should start with this one. So i'll just. I'll just put this on the screen for a little bit.
+
+22
+00:03:58.190 --> 00:04:08.150
+Patrik Stas: So welcome, George, and anyone anyone listening to twenty-second of December 2,022
+
+23
+00:04:08.550 --> 00:04:14.030
+Patrik Stas: almost Christmas. And this is our anti-trust policy notice from a hyperlinker foundation.
+
+24
+00:04:15.040 --> 00:04:17.519
+Patrik Stas: so
+
+25
+00:04:18.720 --> 00:04:29.159
+Patrik Stas: yeah, I just put the here a bit of a reminder for anyone. it was perhaps listening and considering to join the meetings.
+
+26
+00:04:29.360 --> 00:04:44.359
+Patrik Stas: it just a little note that for anyone for anyone to feel free to add items to the agenda just by logging into the hyper ledger Wiki, and then modifying the page as as as desired
+
+27
+00:04:45.160 --> 00:04:53.750
+Patrik Stas: or alternatively just connect to the call and right at the beginning of the call we can just go through them
+
+28
+00:04:54.000 --> 00:05:12.209
+Patrik Stas: stuff you would like to add to the agenda, so maybe we can just start off with that. So I I actually like put lots of stuff here today. do you have? Perhaps, George, anything you would like to add some some sort of points you you want to discuss.
+
+29
+00:05:13.840 --> 00:05:24.260
+George Mulhearn: yeah, Probably not not really. I might be able to talk a little bit about the support for asco wallet stuff. Let me get to it later.
+
+30
+00:05:24.530 --> 00:05:28.120
+Patrik Stas: Okay, okay. So in that case we can just go on.
+
+31
+00:05:28.500 --> 00:05:38.170
+Patrik Stas: so as a usual small review of the stuff which has been done there was a a small
+
+32
+00:05:38.260 --> 00:05:41.840
+Patrik Stas: refactoring with the
+
+33
+00:05:42.170 --> 00:06:00.220
+Patrik Stas: with the messages great where the number of dependencies has been reduced, and I was a minor refactorings there. the Pr. Is linked in the agenda. then there was.
+
+34
+00:06:02.010 --> 00:06:13.750
+Patrik Stas: Well, this is where we wait. let me Seex: right? Right? So this is basically still in progress. I don't know I put here this is still in progress.
+
+35
+00:06:13.760 --> 00:06:31.040
+Patrik Stas: and lastly, yeah, there wasn't much much Pr. On March last week there was replacement of frostbase, 58 dependency for in favor of B s 50, which is allegedly much faster, and also it has less dependencies.
+
+36
+00:06:33.210 --> 00:06:36.569
+Patrik Stas: now moving on this stuff which is in progress.
+
+37
+00:06:37.110 --> 00:06:43.240
+Patrik Stas: There's a few prs which i'll which I submitted this week.
+
+38
+00:06:45.440 --> 00:06:57.449
+Patrik Stas: So maybe starting with the they are sort of subsequent, depending one on another a little bit so starting with the error, and no with those first
+
+39
+00:06:58.780 --> 00:07:01.570
+Patrik Stas: it was the messages
+
+40
+00:07:01.720 --> 00:07:02.800
+Patrik Stas: let me see
+
+41
+00:07:07.960 --> 00:07:24.730
+Patrik Stas: so this one was the first one, so there was that the error handling refactoring? I don't know how much of this Pr. Have you chance to see, I I saw that you left some comment, but perhaps it's a good time. We can kind of go through it.
+
+42
+00:07:25.890 --> 00:07:35.169
+George Mulhearn: yeah, yeah, that'd be good. Yeah, no, I haven't had a a a big look at it. I just noticed that error naming thing and mentioned it. But yeah, I need to have a proper look at it.
+
+43
+00:07:35.230 --> 00:07:43.709
+Patrik Stas: right? So yeah, i'll, I'll describe what I've done so. so yeah, mainly
+
+44
+00:07:43.770 --> 00:07:58.719
+Patrik Stas: I it was done very just previously. Wasn't really structured. It didn't have so much logic. It just somehow worked. But now it's been more concise so every create defines its own error.
+
+45
+00:07:58.780 --> 00:08:01.420
+Patrik Stas: whether it's a. V. 6 error.
+
+46
+00:08:01.500 --> 00:08:08.850
+Patrik Stas: So now it is in Arizona there'll be Aries v. 6 error levy 6 error messages, era
+
+47
+00:08:09.170 --> 00:08:15.500
+Patrik Stas: agency client, and error, and so on. Then there is a switch to the code.
+
+48
+00:08:18.690 --> 00:08:23.020
+Patrik Stas: So let's see, for example.
+
+49
+00:08:23.470 --> 00:08:39.119
+Patrik Stas: so loopy 6 now defines. Oh, first of all, maybe even. there's every crate has a error. Module errors, module, and in that module there is error. Ours which defines the respective error
+
+50
+00:08:39.130 --> 00:08:57.779
+Patrik Stas: for the particular trade domain, so that'll be levy 6 error kind, and Libby C. X. And over here and then basically as this as this as it's currently be 6 depends on the other crates, such as
+
+51
+00:08:57.830 --> 00:09:13.849
+Patrik Stas: or or messages. It defines mappings which which are mapping the domain error of that particular create into the live Vcx error. So first of all, there's mapping of the error kinds which
+
+52
+00:09:13.860 --> 00:09:31.850
+Patrik Stas: usually like. There's one to one sort of one to one mapping. But there is something with, I think, can be changed. But I don't to go into that. So for now the way this it is oftentimes there's just easy one to unmapping so just the same top of error, mapping to same time of error, but in different
+
+53
+00:09:31.880 --> 00:09:33.680
+Patrik Stas: like create domain
+
+54
+00:09:34.110 --> 00:09:46.399
+Patrik Stas: and then mapping of the error itself is also straightforward. So we are mapping from as V. 6 error to Libby. 6 error. and basically yeah, we just
+
+55
+00:09:47.710 --> 00:09:56.320
+Patrik Stas: We just take the con. Well, this will return. The Ares. V. 6 error kind. But now we are building Libby 6 error.
+
+56
+00:09:56.330 --> 00:10:11.889
+Patrik Stas: which is reading Levy 6 or kind, so being to basically calls this conversion function and converge, that you know a. As 6 or account to Live v. 6, or account. And for the message. It's a straightforward it just
+
+57
+00:10:12.430 --> 00:10:20.850
+Patrik Stas: convert the original error to string and put it as a message for the the
+
+58
+00:10:22.800 --> 00:10:37.099
+Patrik Stas: So so that's that's our other conversion, since sima much very similar fashion. For the messages, messages, or doesn't define so many error kinds
+
+59
+00:10:37.360 --> 00:10:43.809
+Patrik Stas: as its logic is smaller, so obviously the mapping itself is is smaller Here
+
+60
+00:10:43.890 --> 00:10:48.109
+Patrik Stas: and then there is a mapping from some like other type of errors
+
+61
+00:10:48.160 --> 00:10:53.639
+Patrik Stas: this is related to locking, and there's agency client.
+
+62
+00:10:54.110 --> 00:10:56.070
+Patrik Stas: there's this
+
+63
+00:10:56.600 --> 00:11:11.829
+Patrik Stas: this this file for that, if I test honestly, i'm not really sure about this file. and I wish we could get rid of it, and probably we can. But for now it just here
+
+64
+00:11:11.920 --> 00:11:26.580
+Patrik Stas: to keep things working. What is sorry. What does that get you the it's it's used in return types. you 32, and this whole thing These are like a return type. Th These are usually used
+
+65
+00:11:26.770 --> 00:11:28.010
+Patrik Stas: in the
+
+66
+00:11:28.150 --> 00:11:47.819
+Patrik Stas: Libby-six test when the tests are calling the library through ffi, and these are defining the callbacks some sort of callback structures, and for some reason it has this in like error meeting? I'm really unsure about. Why is this?
+
+67
+00:11:49.150 --> 00:11:52.459
+Patrik Stas: But yeah, I think privacy can be
+
+68
+00:11:52.560 --> 00:11:55.219
+Patrik Stas: eliminate it. And
+
+69
+00:11:55.780 --> 00:11:58.969
+Patrik Stas: or alternatively, those tests could be.
+
+70
+00:11:59.060 --> 00:12:07.529
+Patrik Stas: we've written, but there will be bigger effort to not use F, but to simply use the like. Maybe Api handle
+
+71
+00:12:07.620 --> 00:12:13.209
+Patrik Stas: a interface layer instead, and in that case we wouldn't need this entire
+
+72
+00:12:15.670 --> 00:12:18.090
+Patrik Stas: return types file.
+
+73
+00:12:18.330 --> 00:12:18.920
+George Mulhearn: Yeah.
+
+74
+00:12:19.290 --> 00:12:21.659
+Patrik Stas: So coming back to the errors
+
+75
+00:12:22.890 --> 00:12:37.620
+Patrik Stas: lastly, there's the one into mapping. So the other mappings are from different error domains, and this the last one is mapping to you 30 you 30 to. So this is mapping
+
+76
+00:12:37.630 --> 00:12:54.970
+Patrik Stas: all of the Live V. 6 error kinds into numeric error code. this has been previously. This was pretty to logic placed in as but obviously that doesn't make sense, because a is V. 6 doesn't deal with error codes.
+
+77
+00:12:55.400 --> 00:12:58.160
+Patrik Stas: So this was moved here
+
+78
+00:12:58.280 --> 00:13:04.699
+Patrik Stas: credits to Gpt. It helps with some of the code here.
+
+79
+00:13:06.890 --> 00:13:10.799
+Patrik Stas: and yeah, there's also test. So
+
+80
+00:13:10.930 --> 00:13:18.360
+Patrik Stas: it's it's just the same thing. But it's easier to shuffle this code around. Now that we have a have a test.
+
+81
+00:13:19.850 --> 00:13:20.600
+George Mulhearn: Cool?
+
+82
+00:13:21.040 --> 00:13:26.969
+Patrik Stas: yeah. So this was like this, this errors.
+
+83
+00:13:27.200 --> 00:13:29.769
+Patrik Stas: let me see if I missed anything
+
+84
+00:13:30.090 --> 00:13:35.089
+Patrik Stas: so these are the domains. There are the mappings.
+
+85
+00:13:37.200 --> 00:13:42.049
+Patrik Stas: This is this file structure. So we have the errors
+
+86
+00:13:42.370 --> 00:13:45.460
+Patrik Stas: module. Yeah. And also this one.
+
+87
+00:13:48.160 --> 00:13:53.110
+Patrik Stas: Oh, yeah. And now, basically. This whole refactoring kind of led to me into
+
+88
+00:13:53.570 --> 00:14:05.709
+Patrik Stas: extracting some of the logic which was previously to be found, was sort of to include, embedded in the apic layer, for example.
+
+89
+00:14:05.820 --> 00:14:07.750
+Patrik Stas: let me see
+
+90
+00:14:07.940 --> 00:14:09.970
+Patrik Stas: for example.
+
+91
+00:14:12.310 --> 00:14:13.640
+Patrik Stas: and this one
+
+92
+00:14:15.340 --> 00:14:20.990
+Patrik Stas: so originally this code here looked a little bit different.
+
+93
+00:14:22.330 --> 00:14:23.430
+let me show
+
+94
+00:14:23.670 --> 00:14:25.050
+Patrik Stas: he's 3
+
+95
+00:14:26.280 --> 00:14:27.849
+Patrik Stas: or selection
+
+96
+00:14:29.730 --> 00:14:39.940
+Patrik Stas: so basically it was directly the the C layer was directly call it making calls into it was actually more code like this
+
+97
+00:14:40.220 --> 00:14:43.769
+Patrik Stas: show, you start for selection. Yeah.
+
+98
+00:14:46.620 --> 00:14:47.260
+Patrik Stas: Hmm.
+
+99
+00:14:50.010 --> 00:14:58.789
+Patrik Stas: Oh, yeah, yeah, this is it? So originally? That was like dealing with the profiles and then making calls directly into areas. Vcx: instead of
+
+100
+00:14:59.050 --> 00:15:03.669
+Patrik Stas: It's simply calling like this minimal interface function
+
+101
+00:15:03.780 --> 00:15:20.740
+Patrik Stas: within the we just now in under the the handle, layer, maybe the this. This layer should be sort of renamed into something different. But it is what it is. the point is that basically the Api C layer was
+
+102
+00:15:20.750 --> 00:15:32.280
+Patrik Stas: 3, and down really to it's minimal form, where the only thing it's dealing with is to receive a call, execute some function, and then pass like call back to the
+
+103
+00:15:32.310 --> 00:15:35.049
+Patrik Stas: and that's it.
+
+104
+00:15:36.110 --> 00:15:43.410
+Patrik Stas: so that's like a good step to like further decoupling within the live V sixth grade.
+
+105
+00:15:46.420 --> 00:15:55.669
+Patrik Stas: yeah, these are the you 32 codes and the renaming. So the 6 error was renamed into
+
+106
+00:15:58.130 --> 00:16:09.790
+Patrik Stas: I have re reverted my original renaming changes per your suggestion. So it's a follow up as a convention of Xyz
+
+107
+00:16:10.420 --> 00:16:13.030
+Patrik Stas: X. Y. Z. The error. Now.
+
+108
+00:16:14.260 --> 00:16:19.159
+George Mulhearn: yeah, yeah, I wasn't wasn't, too. Sure, it's just that's what I've seen the most of.
+
+109
+00:16:20.720 --> 00:16:23.170
+Patrik Stas: Yeah, yeah, definitely, definitely.
+
+110
+00:16:23.800 --> 00:16:25.349
+Patrik Stas: You're right about that.
+
+111
+00:16:27.640 --> 00:16:29.740
+George Mulhearn: So what do you think?
+
+112
+00:16:30.480 --> 00:16:35.520
+I You do. You have a I know any question or
+
+113
+00:16:35.910 --> 00:16:38.870
+Patrik Stas: do you think was a sufficient? Go through?
+
+114
+00:16:39.080 --> 00:16:41.009
+George Mulhearn: Yeah, yeah, yeah, it looks great.
+
+115
+00:16:41.390 --> 00:16:45.140
+George Mulhearn: You just need to get to reviewing it hopefully tonight.
+
+116
+00:16:45.570 --> 00:16:57.930
+Patrik Stas: Yeah, I think you don't have to like. Go super deep into. You know all the code changes because it's so many lines. It was lots of reshuffling, if anything. Maybe you can like. Choose some like
+
+117
+00:16:58.350 --> 00:17:04.590
+Patrik Stas: I like comment to messages. We like reasonable action
+
+118
+00:17:04.670 --> 00:17:11.609
+Patrik Stas: review that. But I guess not. reviewing all of them would be quite a feat, I guess.
+
+119
+00:17:12.230 --> 00:17:12.870
+George Mulhearn: Yep.
+
+120
+00:17:12.930 --> 00:17:13.589
+George Mulhearn: Cool.
+
+121
+00:17:14.079 --> 00:17:19.420
+Patrik Stas: okay. Now we're going ahead with the
+
+122
+00:17:20.510 --> 00:17:28.400
+Patrik Stas: oh, yeah. So after that I I continued in another refactoring
+
+123
+00:17:28.500 --> 00:17:34.009
+Patrik Stas: building on the previous Pr. We just reviewed. So I started working on this one
+
+124
+00:17:34.080 --> 00:17:39.899
+Patrik Stas: where I also the number of changes in the messages create and
+
+125
+00:17:40.030 --> 00:17:42.520
+Patrik Stas: basically created 2 new grades.
+
+126
+00:17:42.670 --> 00:17:43.780
+Patrik Stas: So
+
+127
+00:17:46.790 --> 00:17:49.019
+Patrik Stas: firstly,
+
+128
+00:17:49.240 --> 00:17:50.720
+Patrik Stas: there's a
+
+129
+00:17:51.270 --> 00:18:00.329
+Patrik Stas: Where do we start? So yeah, i'll just cover it as it's discovered in the Pr. So I have added a new structure
+
+130
+00:18:00.610 --> 00:18:03.230
+Patrik Stas: called V, 3, C. Did do.
+
+131
+00:18:03.450 --> 00:18:09.559
+Patrik Stas: and basically the entire, the dog stuff, I extract it into a new pride. The dog.
+
+132
+00:18:09.580 --> 00:18:13.190
+Patrik Stas: so message is correct is now using the Doc
+
+133
+00:18:13.550 --> 00:18:24.230
+Patrik Stas: as dependency. And what's important for the did the create, I guess, is that now there's like to these 2 main modules a and W Threec.
+
+134
+00:18:24.470 --> 00:18:27.629
+Patrik Stas: Which they both define the dog.
+
+135
+00:18:27.640 --> 00:18:48.309
+Patrik Stas: but they are slightly different. So there's now there's a Originally we had structure called the Doc. Now I renamed it original. That structure to a is the dog to kind of reflect the current reality. And I added the new W. 3, C. The Doc, which is currently not being used. So it just kind of sitting there to reflect
+
+136
+00:18:48.320 --> 00:18:54.499
+Patrik Stas: the state of art, so that and the difference
+
+137
+00:18:54.730 --> 00:19:01.420
+Patrik Stas: so the difference is, in the the service structure where
+
+138
+00:19:01.490 --> 00:19:03.939
+Patrik Stas: the W. 3 c. One
+
+139
+00:19:06.380 --> 00:19:09.880
+Patrik Stas: it just defines it just has these 3
+
+140
+00:19:10.100 --> 00:19:13.070
+Patrik Stas: fields, and that that's about it.
+
+141
+00:19:13.440 --> 00:19:16.510
+Patrik Stas: this can be found in.
+
+142
+00:19:17.950 --> 00:19:23.820
+Patrik Stas: and this documentation and this specification. if you search for service.
+
+143
+00:19:24.000 --> 00:19:26.749
+Patrik Stas: it's somewhere in the mid page here.
+
+144
+00:19:27.110 --> 00:19:36.429
+Patrik Stas: so this is how the W. 3 C. Defines the service. and then with with them
+
+145
+00:19:36.800 --> 00:19:41.040
+Patrik Stas: Aries if it's using every service
+
+146
+00:19:41.130 --> 00:19:43.639
+Patrik Stas: which has this extra fields
+
+147
+00:19:43.780 --> 00:19:47.629
+Patrik Stas: especially recipient keys
+
+148
+00:19:48.060 --> 00:19:54.319
+Patrik Stas: and routing keys, and these things are defined. On the other hand, here in the
+
+149
+00:19:54.380 --> 00:20:03.969
+Patrik Stas: did solving a method specification. again, if you look for service, or maybe I should be here
+
+150
+00:20:05.230 --> 00:20:15.720
+Patrik Stas: if you for service, and you look at the resolver, the id document format will this being a result for like a in the did.
+
+151
+00:20:16.130 --> 00:20:19.650
+Patrik Stas: is that it can actually it. It resolved. The dog.
+
+152
+00:20:19.720 --> 00:20:34.390
+Patrik Stas: which under certain conditions, can have these extra fields like thisipping keys, accept and routing keys in particularly it's defined a way that
+
+153
+00:20:36.850 --> 00:20:38.040
+Patrik Stas: Why was it?
+
+154
+00:20:41.440 --> 00:20:42.670
+Patrik Stas: hmm.
+
+155
+00:20:43.060 --> 00:20:47.180
+Patrik Stas: Yeah. And it did so. Did one thing include a did come
+
+156
+00:20:47.340 --> 00:20:50.090
+Patrik Stas: service entry
+
+157
+00:20:52.980 --> 00:20:55.959
+Patrik Stas: must use extended version of
+
+158
+00:20:56.340 --> 00:21:00.530
+Patrik Stas: and point a trip with types of them included.
+
+159
+00:21:00.920 --> 00:21:02.390
+Patrik Stas: yeah, here
+
+160
+00:21:03.010 --> 00:21:06.720
+Patrik Stas: you the routing
+
+161
+00:21:16.190 --> 00:21:18.769
+Patrik Stas: This is what i'm looking for.
+
+162
+00:21:19.110 --> 00:21:23.600
+Patrik Stas: So if the endpoint endpoint has types. Item.
+
+163
+00:21:23.730 --> 00:21:25.170
+Patrik Stas: so it's
+
+164
+00:21:25.250 --> 00:21:36.960
+Patrik Stas: the one we just shared with W. 3, C. This time. So this thing is set to value of this call, then there should be like extra block included
+
+165
+00:21:37.560 --> 00:21:49.640
+Patrik Stas: and this one so, as I understand it, it's it's like not in like separate block, but more of an extension of the separate of the original service object where
+
+166
+00:21:50.040 --> 00:21:54.040
+Patrik Stas: it's, adding like routing keys here and
+
+167
+00:21:55.670 --> 00:21:57.229
+Patrik Stas: accept.
+
+168
+00:22:00.000 --> 00:22:06.860
+Patrik Stas: Now it'll be confused because I don't see a recipient in this one at an in this piece, but it's here.
+
+169
+00:22:06.930 --> 00:22:07.880
+Patrik Stas: So
+
+170
+00:22:09.150 --> 00:22:14.699
+Patrik Stas: i'm not sure, or maybe it's because this is the it communication.
+
+171
+00:22:16.380 --> 00:22:24.440
+Patrik Stas: So yeah, these are. As for the details. But point is that that that's kind of structure
+
+172
+00:22:24.790 --> 00:22:32.639
+Patrik Stas: we are currently relying on and kind of work with. So in the long term. I think this should be.
+
+173
+00:22:32.830 --> 00:22:36.849
+Patrik Stas: I like eliminated, but I guess it depends also how it
+
+174
+00:22:37.390 --> 00:22:41.159
+Patrik Stas: it's kind of how this did metal speck flushes out.
+
+175
+00:22:41.650 --> 00:22:54.890
+Patrik Stas: and just how? How, if we can find, like better abstractions, that abstraction to Somehow, we use the W. 3, C. The Id dog mobile, but same time
+
+176
+00:22:54.920 --> 00:22:59.559
+Patrik Stas: satisfy all the areas requirements. So
+
+177
+00:22:59.610 --> 00:23:00.280
+George Mulhearn: hmm.
+
+178
+00:23:00.930 --> 00:23:04.820
+Patrik Stas: A long term, we should find a way how to how to migrate it. I think
+
+179
+00:23:09.140 --> 00:23:09.760
+George Mulhearn: cool.
+
+180
+00:23:14.940 --> 00:23:16.530
+Patrik Stas: Yeah. And then
+
+181
+00:23:17.900 --> 00:23:26.130
+Patrik Stas: and then there was a bit of a renaming in like, related some of the related areas
+
+182
+00:23:26.190 --> 00:23:37.440
+Patrik Stas: we origin, we use that structure service resolvable, which doesn't really change. internally. basically this is a structure
+
+183
+00:23:37.730 --> 00:23:41.239
+Patrik Stas: which represents this this enumeration.
+
+184
+00:23:43.470 --> 00:23:54.739
+Patrik Stas: we use originally called service resolvable. Now rename to service out of band. it is reflecting the values which can be.
+
+185
+00:23:55.420 --> 00:24:04.389
+Patrik Stas: and part of out of band message in its services attribute where the values here are either a did
+
+186
+00:24:04.550 --> 00:24:09.109
+Patrik Stas: or it is a a service object
+
+187
+00:24:09.410 --> 00:24:11.910
+Patrik Stas: which looks like this.
+
+188
+00:24:12.070 --> 00:24:18.560
+Patrik Stas: We just very much like our Aries service in the Ares the Id Doc
+
+189
+00:24:18.590 --> 00:24:20.160
+Patrik Stas: structure.
+
+190
+00:24:22.470 --> 00:24:45.999
+Patrik Stas: so yeah, this was renaming it. It's it's it's more accurate because basically this this enumeration is only used in the context of out of band. Where this there are these 2 interchangeable formats. Either it's the service embedded in out of the message, or it's the did. And you resolve that service from the did.
+
+191
+00:24:48.930 --> 00:24:52.179
+Patrik Stas: Yeah. And then
+
+192
+00:24:52.940 --> 00:25:02.080
+Patrik Stas: then, yeah, there was a another structure which was misplaced. it was the end boy did solve
+
+193
+00:25:02.370 --> 00:25:05.160
+Patrik Stas: structure which
+
+194
+00:25:06.660 --> 00:25:08.210
+Patrik Stas: reflects
+
+195
+00:25:10.170 --> 00:25:12.729
+Patrik Stas: the model on the ledger
+
+196
+00:25:12.890 --> 00:25:15.310
+Patrik Stas: by the definition of
+
+197
+00:25:15.340 --> 00:25:18.110
+Patrik Stas: the dissolved. Spec.
+
+198
+00:25:18.170 --> 00:25:21.050
+Patrik Stas: So
+
+199
+00:25:22.700 --> 00:25:24.800
+Patrik Stas: basically that's
+
+200
+00:25:25.400 --> 00:25:36.050
+Patrik Stas: That's this thing. This is what's written written on the ledger, and this structure reply: it reflects the you know structure being written on the ledger
+
+201
+00:25:36.060 --> 00:25:45.439
+Patrik Stas: so that was moved to the S. Commons like Fledger, as the only place where this is being used is currently the the
+
+202
+00:25:45.540 --> 00:25:48.360
+Patrik Stas: the sibling transactions file.
+
+203
+00:25:48.930 --> 00:25:49.500
+George Mulhearn: Hmm.
+
+204
+00:25:50.180 --> 00:25:54.690
+Patrik Stas: and I think we are getting to the end of it.
+
+205
+00:25:55.030 --> 00:25:58.999
+Patrik Stas: okay, One more thing we just missing in this structure
+
+206
+00:25:59.060 --> 00:26:09.780
+Patrik Stas: was the types field which was optional, so it was not big of a deal, but nevertheless it should be there. it's a it's a field which is specifying that
+
+207
+00:26:09.810 --> 00:26:20.429
+Patrik Stas: how you know the the way of communication with the given endpoint. And there's a few enumerations defined to few few variants defined by the
+
+208
+00:26:20.550 --> 00:26:23.189
+Patrik Stas: Did some method?
+
+209
+00:26:25.310 --> 00:26:32.959
+Patrik Stas: yeah, and then. So this whole thing was extracted to the the top. Right?
+
+210
+00:26:33.400 --> 00:26:46.549
+Patrik Stas: So it's here now. And as I did this I realized that the code it the coral pulled around the Doc is calling validate
+
+211
+00:26:48.030 --> 00:27:07.550
+Patrik Stas: It's calling function boldly, very key. We just previously duplicated in the messages. It was duplicated messages and agents client, so now I would have to copy, paste it into the dog as well, which I didn't want to do, and so instead, I created a new create shared Vcx, which
+
+212
+00:27:07.560 --> 00:27:21.770
+Patrik Stas: currently only contains the validation code to valid, did and well, they very key. And this is being currently used from, I believe, messages the Id dog and agency client so
+
+213
+00:27:22.520 --> 00:27:38.900
+Patrik Stas: fighting against duplication, and I guess it's also useful to just like now have this space like where we know like. Oh, okay, If we have some something which is slightly to be used across the board, we can. We can put it here, and no, not don't worry about
+
+214
+00:27:39.130 --> 00:27:40.689
+Patrik Stas: duplications.
+
+215
+00:27:42.560 --> 00:27:44.209
+Patrik Stas: 2
+
+216
+00:27:44.280 --> 00:27:48.459
+Patrik Stas: yeah, and and that's that's it. That's this. Pr.
+
+217
+00:27:48.600 --> 00:27:50.780
+Patrik Stas: It's it's in Georgia.
+
+218
+00:27:50.850 --> 00:27:53.430
+Patrik Stas: I guess this could be like
+
+219
+00:27:53.780 --> 00:27:57.049
+Patrik Stas: feasible to review also like
+
+220
+00:27:57.070 --> 00:28:00.600
+Patrik Stas: comment by comment. Usually they are like pretty
+
+221
+00:28:00.670 --> 00:28:04.479
+Patrik Stas: separate, so it sounds like one big
+
+222
+00:28:04.680 --> 00:28:07.850
+Patrik Stas: a ball of mess or something like that.
+
+223
+00:28:10.710 --> 00:28:12.120
+George Mulhearn: Cool? Okay, yeah.
+
+224
+00:28:12.290 --> 00:28:13.680
+Patrik Stas: we look at that one.
+
+225
+00:28:16.370 --> 00:28:24.490
+Patrik Stas: Yeah. And yeah. Then I added the Ci pr to add, formatting checks and clippy text. But I suggest we
+
+226
+00:28:24.580 --> 00:28:26.290
+Patrik Stas: we I guess
+
+227
+00:28:26.550 --> 00:28:32.569
+Patrik Stas: I guess, ideally merge this both of these, and then do the formatting and call it
+
+228
+00:28:36.600 --> 00:28:41.209
+George Mulhearn: Yeah. what will the merge order on that be?
+
+229
+00:28:41.690 --> 00:28:49.889
+Patrik Stas: Oh, yeah. So so starting with the first one, the error refactoring as there was the first Pr. And then
+
+230
+00:28:50.380 --> 00:29:04.609
+Patrik Stas: the second. This this the dog refactoring those build on top of it. So it's. It's currently like this against that Pr. Merging it into that. But I will start with the first one and then once that it's in it's main
+
+231
+00:29:04.810 --> 00:29:07.139
+Patrik Stas: get this one in the main.
+
+232
+00:29:07.200 --> 00:29:08.450
+Patrik Stas: and
+
+233
+00:29:08.870 --> 00:29:15.799
+Patrik Stas: and I think then we can go with the formatting and clipping that will again like
+
+234
+00:29:17.140 --> 00:29:23.449
+Patrik Stas: create lots of this, I guess, across the board, but I guess once we have these 2 in
+
+235
+00:29:23.630 --> 00:29:27.699
+Patrik Stas: like we don't have to worry about all those like
+
+236
+00:29:28.600 --> 00:29:35.810
+Patrik Stas: slightly that it will be easier to cooperate right in that going forward with the pull requests and stuff.
+
+237
+00:29:36.820 --> 00:29:39.750
+George Mulhearn: Yeah, okay, cool, cause i'm I think
+
+238
+00:29:40.240 --> 00:29:47.470
+George Mulhearn: the cargo one, maybe the clippy one that pointing at the messaging refactor at the moment. But
+
+239
+00:29:47.610 --> 00:29:57.440
+Patrik Stas: of the yeah. Yeah, yeah, exactly. I I just put in on top of the zoom as my like chain of of work. But
+
+240
+00:29:57.860 --> 00:29:58.670
+Patrik Stas: yeah.
+
+241
+00:29:58.780 --> 00:30:02.040
+Patrik Stas: this first 2, and then we can
+
+242
+00:30:02.130 --> 00:30:04.920
+Patrik Stas: add these into into domain separately.
+
+243
+00:30:05.410 --> 00:30:09.019
+George Mulhearn: So what's in the clippy one? I haven't looked at that yet.
+
+244
+00:30:09.270 --> 00:30:26.420
+Patrik Stas: it's it's a brief so far. It's only the Ci checks which are failing. but it's it's producing lots of warnings which should be fixed. I think many of them can be fixed automatically the clippy, but maybe some of them all need some
+
+245
+00:30:26.650 --> 00:30:27.650
+Patrik Stas: potential.
+
+246
+00:30:27.740 --> 00:30:35.759
+Patrik Stas: I I didn't put a levy cx here intentionally, because clippy complaints about some unseaved box.
+
+247
+00:30:36.280 --> 00:30:45.299
+Patrik Stas: And yeah, it seems a bit more technical, and I didn't want to do well into that right now. So just mainly to cover the every portion of the
+
+248
+00:30:45.410 --> 00:30:46.470
+Patrik Stas: cool base.
+
+249
+00:30:46.990 --> 00:30:48.429
+George Mulhearn: Yeah, yeah. Fair enough.
+
+250
+00:30:48.790 --> 00:30:49.580
+George Mulhearn: Cool?
+
+251
+00:30:52.150 --> 00:30:59.750
+Patrik Stas: Oh, yeah. So the cli poc from kind of went through last week briefly.
+
+252
+00:31:00.440 --> 00:31:01.810
+Patrik Stas: but
+
+253
+00:31:01.890 --> 00:31:05.149
+Patrik Stas: it's it's a as an I think cli for
+
+254
+00:31:05.190 --> 00:31:06.879
+working with the agent
+
+255
+00:31:07.100 --> 00:31:13.420
+Patrik Stas: very cool. I think there's still some work outstanding, which is why it's it's draft.
+
+256
+00:31:17.840 --> 00:31:21.849
+Patrik Stas: yeah, and then we are coming to the ascar, and
+
+257
+00:31:22.050 --> 00:31:30.589
+Patrik Stas: so do you have? well, we'll we'll see our status with the ascar, have you? Have you managed to overcome the
+
+258
+00:31:30.950 --> 00:31:34.519
+Patrik Stas: so challenge with the dependencies behind chance.
+
+259
+00:31:34.780 --> 00:31:37.600
+George Mulhearn: No, no, I haven't I haven't had a
+
+260
+00:31:37.660 --> 00:31:43.030
+George Mulhearn: good go at it again since the last time I messed about it.
+
+261
+00:31:44.510 --> 00:31:49.910
+George Mulhearn: i'm not sure if you recall the original message I sent where I was.
+
+262
+00:31:50.470 --> 00:31:53.320
+Patrik Stas: Yeah, yeah, asking if we can.
+
+263
+00:31:53.360 --> 00:31:54.000
+This
+
+264
+00:31:55.020 --> 00:31:56.740
+George Mulhearn: Indie
+
+265
+00:31:57.020 --> 00:31:58.639
+and other stuff.
+
+266
+00:32:00.060 --> 00:32:06.529
+George Mulhearn: Yeah, like, Obviously, it's a very big change, and the main issue is testing.
+
+267
+00:32:08.660 --> 00:32:14.579
+George Mulhearn: Yeah, I don't know. How. How do you feel about it? Do you think it's too much of a refactor to
+
+268
+00:32:15.320 --> 00:32:19.219
+George Mulhearn: try, and you want to keep video tools in there.
+
+269
+00:32:19.720 --> 00:32:26.509
+Patrik Stas: Well, I think like long, long term definitely like since that.
+
+270
+00:32:28.640 --> 00:32:32.080
+Patrik Stas: Well, i'm. I'm not like super. I guess
+
+271
+00:32:33.650 --> 00:32:46.139
+Patrik Stas: I don't know exactly what the benefits of the I am now. Probably the mainly, I will say, will the main benefit? I see the maintenance, as it has more traction than than the like
+
+272
+00:32:46.180 --> 00:32:54.810
+Patrik Stas: anything in the in in in the SDK or Vdr tools. So I think that every the Ascar is mainly
+
+273
+00:32:55.330 --> 00:32:58.590
+Patrik Stas: this is. This is a bright for future
+
+274
+00:32:58.940 --> 00:33:03.970
+Patrik Stas: more people around around that create.
+
+275
+00:33:04.240 --> 00:33:10.189
+Patrik Stas: And I think I also read somewhere else like i'm pitching it. Why, it's bedroom.
+
+276
+00:33:10.740 --> 00:33:13.889
+Patrik Stas: I think they were mentioning performance and
+
+277
+00:33:13.950 --> 00:33:21.050
+Patrik Stas: scalability, but i'm not sure if they were comparing against the in the SDK wallet, or
+
+278
+00:33:21.310 --> 00:33:29.009
+Patrik Stas: probably not the Vdr tools, because the Vdr tools for this, like a magnitude or 2 better faster
+
+279
+00:33:29.100 --> 00:33:33.329
+Patrik Stas: be than than the original in the us the key. What?
+
+280
+00:33:33.390 --> 00:33:34.750
+George Mulhearn: Right? Okay?
+
+281
+00:33:34.990 --> 00:33:35.710
+George Mulhearn: Yeah.
+
+282
+00:33:36.070 --> 00:33:40.369
+Patrik Stas: Yeah. So so i'm not sure. but but yeah, I mean.
+
+283
+00:33:41.960 --> 00:33:52.750
+Patrik Stas: I if I think it's not like crucial to do it right now, but I definitely it's a good effort, and at least we should understand, like.
+
+284
+00:33:53.150 --> 00:34:00.620
+Patrik Stas: what are the challenges and how to overcome those challenges long term to like enable kind of pluggable
+
+285
+00:34:01.090 --> 00:34:02.520
+Patrik Stas: what I mean.
+
+286
+00:34:02.580 --> 00:34:05.130
+Patrik Stas: if we can, we can
+
+287
+00:34:05.200 --> 00:34:09.570
+Patrik Stas: enable having different implementations. I think I think that's definitely good.
+
+288
+00:34:09.639 --> 00:34:10.359
+Patrik Stas: Hmm.
+
+289
+00:34:10.560 --> 00:34:24.580
+Patrik Stas: But yeah, my apologies. I I also again didn't really like dig into this which it would you was promising to do. yeah, that's okay. Maybe it's not as important right now.
+
+290
+00:34:26.510 --> 00:34:28.390
+Patrik Stas: Hmm. Well.
+
+291
+00:34:30.800 --> 00:34:38.149
+Patrik Stas: I guess. Also like I guess it wouldn't be much of a challenge if we manage to like. Remove
+
+292
+00:34:39.489 --> 00:34:42.040
+Patrik Stas: big portion of
+
+293
+00:34:45.219 --> 00:34:59.669
+Patrik Stas: the Vdr tools code. So maybe I don't know exactly like, maybe, if you look better, it's a dependency free of Vdr tools and then identify the all those like pro conflicting dependencies.
+
+294
+00:35:01.280 --> 00:35:02.830
+Patrik Stas: maybe we could.
+
+295
+00:35:03.140 --> 00:35:03.790
+Patrik Stas: Hmm.
+
+296
+00:35:05.000 --> 00:35:09.490
+Patrik Stas: Assuming that we migrate the issue and verifier
+
+297
+00:35:09.600 --> 00:35:18.469
+Patrik Stas: to the in the shared Rs. You know that migration which you've done for prover and to hold a holder.
+
+298
+00:35:18.740 --> 00:35:26.369
+Patrik Stas: Then maybe we can like remove big portion of Vdr Tools code, and maybe consequently we would like, get rid of.
+
+299
+00:35:26.980 --> 00:35:34.180
+Patrik Stas: You know those conflicts. Maybe they are not, you know. Maybe the wallet portion of
+
+300
+00:35:34.390 --> 00:35:49.989
+Patrik Stas: Vdr tools is not the problematic piece, but it's somewhere else. And so we can put down that code to like bare minimum. Just keep the Vdr tools all at, and maybe it will be easier to integrate, you know. the the
+
+301
+00:35:50.490 --> 00:35:54.300
+Patrik Stas: I ask what? Without having to deal with the conflicts.
+
+302
+00:35:56.780 --> 00:35:58.090
+George Mulhearn: Yeah, yeah, cool
+
+303
+00:35:59.080 --> 00:36:06.080
+Patrik Stas: it just i'm not sure how hard it's gonna I i'm not sure how hard it is going to be to implement the issue and
+
+304
+00:36:06.330 --> 00:36:14.529
+Patrik Stas: and the verify, and and my like currently main concern, I guess with that is that I think some of the functions
+
+305
+00:36:15.220 --> 00:36:16.390
+Patrik Stas: in
+
+306
+00:36:17.800 --> 00:36:24.000
+Patrik Stas: in like the Vdr tools interface, for example, I create
+
+307
+00:36:24.280 --> 00:36:26.970
+Patrik Stas: create credential definition.
+
+308
+00:36:27.250 --> 00:36:28.910
+Patrik Stas: It
+
+309
+00:36:29.480 --> 00:36:34.449
+Patrik Stas: it, it. It includes operations with the wall.
+
+310
+00:36:35.190 --> 00:36:47.389
+Patrik Stas: So one's migrate Well, Once I once we start to like migrating, like, for example, create credential definition, using every ascar.
+
+311
+00:36:48.320 --> 00:36:56.200
+Patrik Stas: I'm: not exactly. Well, I guess the only thing I we would have to be sure is that the same data structures will end up being stored
+
+312
+00:36:56.610 --> 00:36:57.680
+Patrik Stas: in
+
+313
+00:36:58.920 --> 00:37:00.000
+Patrik Stas: in the
+
+314
+00:37:00.190 --> 00:37:03.970
+Patrik Stas: as it as they are being stored today.
+
+315
+00:37:06.180 --> 00:37:15.409
+Patrik Stas: Yeah, I I i'll have to look at that. But I just have this like foggy. It's all of like there's gonna be some sort of challenge with
+
+316
+00:37:15.540 --> 00:37:17.160
+Patrik Stas: having to stored
+
+317
+00:37:17.260 --> 00:37:24.479
+Patrik Stas: like migrating those Apis in the shared Rs: but this is the same time storing some data structures in the
+
+318
+00:37:24.590 --> 00:37:27.709
+Patrik Stas: like Vdr: to
+
+319
+00:37:28.210 --> 00:37:28.879
+Patrik Stas: Hmm.
+
+320
+00:37:30.000 --> 00:37:31.450
+George Mulhearn: right? Yeah.
+
+321
+00:37:31.480 --> 00:37:37.640
+George Mulhearn: Yeah. Because yeah. If if we make the switch to ask a
+
+322
+00:37:38.230 --> 00:37:41.879
+George Mulhearn: we'd need a pretty hefty migration script.
+
+323
+00:37:42.490 --> 00:37:47.179
+George Mulhearn: well, yeah, if if you assume that this uses a Vcx out there who are
+
+324
+00:37:47.660 --> 00:37:50.799
+George Mulhearn: sort of have production, daughter in an Indie wallet.
+
+325
+00:37:51.160 --> 00:37:54.359
+George Mulhearn: Then we'd need like a migration script to move it
+
+326
+00:37:54.520 --> 00:37:59.430
+George Mulhearn: to the to to as car, and maybe that's not even fully possible.
+
+327
+00:38:00.490 --> 00:38:09.630
+Patrik Stas: so actually for migration there was some script which hmm, Was it bonfire? And I was linking in the issue.
+
+328
+00:38:11.380 --> 00:38:12.880
+Patrik Stas: I just saw it today
+
+329
+00:38:13.350 --> 00:38:15.819
+Patrik Stas: when we start to ask this, is it?
+
+330
+00:38:17.270 --> 00:38:20.079
+Patrik Stas: Yeah. Phone far as linking this?
+
+331
+00:38:20.170 --> 00:38:38.209
+Patrik Stas: but it's a I don't know how much occupy specific it is, but maybe at least we could draw for migration itself. We could draw like a inspiration from it. I think it's definitely looks like it's migrating wallets, too. I'm. Just not sure if it's also migrating some like
+
+332
+00:38:38.470 --> 00:38:41.160
+Patrik Stas: a by specific
+
+333
+00:38:41.270 --> 00:38:44.459
+and stuff? Or is it just the wallet itself.
+
+334
+00:38:44.510 --> 00:38:46.529
+Patrik Stas: because it's called a
+
+335
+00:38:46.730 --> 00:38:51.130
+Patrik Stas: a upgrade. So I don't know how how general it is, sir.
+
+336
+00:38:51.430 --> 00:38:53.410
+Patrik Stas: how well it's gonna work for us.
+
+337
+00:38:57.260 --> 00:39:01.259
+George Mulhearn: Cool, yeah, that'd be interesting to see how that works, because, like
+
+338
+00:39:01.310 --> 00:39:07.909
+George Mulhearn: secrets and things like that. I wonder if they are migrated over as well like
+
+339
+00:39:08.030 --> 00:39:11.319
+George Mulhearn: like link secrets. I wonder how they
+
+340
+00:39:11.880 --> 00:39:20.019
+Patrik Stas: Yeah. There, I definitely see, like some sick mentions of secrets here. Oh, wow, yeah, okay.
+
+341
+00:39:20.400 --> 00:39:21.970
+George Mulhearn: yeah, this looks interesting.
+
+342
+00:39:22.330 --> 00:39:23.229
+Patrik Stas: Hmm.
+
+343
+00:39:24.260 --> 00:39:29.500
+Patrik Stas: Yeah, I think Well, this this can definitely prove to be useful.
+
+344
+00:39:30.290 --> 00:39:38.270
+Patrik Stas: Maybe it's maybe it's a maybe it's a by specific in terms that I guess they are using pulse. Chris. posts database.
+
+345
+00:39:39.270 --> 00:39:41.829
+Patrik Stas: I see a Pg. Connection here.
+
+346
+00:39:42.810 --> 00:39:46.589
+Patrik Stas: Maybe it just needs to be tweaked a bit. But
+
+347
+00:39:46.730 --> 00:39:56.630
+Patrik Stas: yeah, Well, at least ourselves in upset. You know we we we will have to cover some sort of migration like when it's
+
+348
+00:39:56.650 --> 00:39:59.410
+Patrik Stas: the small migration path for the issue.
+
+349
+00:40:01.410 --> 00:40:03.649
+Patrik Stas: you sure slash verifiable.
+
+350
+00:40:04.340 --> 00:40:14.839
+Patrik Stas: I guess the issue I mean verify kind of in in in the shoes of verify you don't You're kind of stateless like you're just verifying through requests.
+
+351
+00:40:14.920 --> 00:40:20.460
+Patrik Stas: What does that you Sure you have credential definitions and location registries and
+
+352
+00:40:20.760 --> 00:40:24.230
+Patrik Stas: this kind of stuff those those things will have to migrate.
+
+353
+00:40:24.320 --> 00:40:24.970
+George Mulhearn: Yeah.
+
+354
+00:40:26.360 --> 00:40:31.250
+Patrik Stas: And yeah, also find even even. Just wait, find a way how to like like
+
+355
+00:40:31.480 --> 00:40:40.550
+Patrik Stas: implemented with the the in the shared rs. And then the second thing like, okay, how to? Also migrate all stuff to the new stuff. Yeah.
+
+356
+00:40:41.060 --> 00:40:42.210
+yeah, exactly.
+
+357
+00:40:43.680 --> 00:40:53.609
+George Mulhearn: Well, maybe on the on that, as called discussion, we just having. Maybe it'd be better if I tried to implement the
+
+358
+00:40:53.840 --> 00:40:55.889
+George Mulhearn: verifier and
+
+359
+00:40:55.920 --> 00:40:56.959
+George Mulhearn: issue
+
+360
+00:40:57.050 --> 00:40:58.379
+George Mulhearn: Api's
+
+361
+00:40:59.410 --> 00:41:05.060
+George Mulhearn: they'll be. They'll be definitely amazing. And and I can, I think.
+
+362
+00:41:05.480 --> 00:41:08.060
+Patrik Stas: yeah it if it's like.
+
+363
+00:41:08.570 --> 00:41:12.880
+Patrik Stas: if it's basically enables to throw in
+
+364
+00:41:14.160 --> 00:41:17.700
+Patrik Stas: like stripping down Vdr tools to
+
+365
+00:41:17.950 --> 00:41:19.850
+Patrik Stas: basically just wallet
+
+366
+00:41:20.250 --> 00:41:21.750
+Patrik Stas: implementation.
+
+367
+00:41:21.990 --> 00:41:23.479
+Patrik Stas: then
+
+368
+00:41:24.100 --> 00:41:29.310
+Patrik Stas: and it. It might solve those those conflict issues with as far as maybe
+
+369
+00:41:31.370 --> 00:41:35.120
+Patrik Stas: it could be also, like, I guess, good to check
+
+370
+00:41:35.290 --> 00:41:37.209
+Patrik Stas: in the head like
+
+371
+00:41:37.250 --> 00:41:39.769
+Patrik Stas: what's the dependencies of the
+
+372
+00:41:39.850 --> 00:41:46.159
+Patrik Stas: of the Vdr tools? What if, if, if assuming that would be the only
+
+373
+00:41:46.340 --> 00:41:53.679
+Patrik Stas: piece which you would use out of Vv. Our tools, and we, you know, we could. Basically
+
+374
+00:41:53.850 --> 00:41:57.170
+Patrik Stas: Even now we have Vdr tools for it.
+
+375
+00:41:57.440 --> 00:41:59.459
+Patrik Stas: we'd like custom changes.
+
+376
+00:41:59.710 --> 00:42:06.649
+Patrik Stas: and we could like start deleting codes to basically only keep the what in it eventually.
+
+377
+00:42:07.220 --> 00:42:21.820
+George Mulhearn: Yeah, yeah, how to look at the fork, and it's like a fork of a fork of another fork, I think. Yeah, it's. I think it's. It's it first was for, and then I can start building on that. Yeah.
+
+378
+00:42:21.910 --> 00:42:38.060
+Patrik Stas: but the but the Vdr to it side of that is fork of original like India's. Dk: lived in the library, but ever name, and then we enough so forth. It's made us fall and our to to like, improve the Ffi and asking away then this kind of stuff.
+
+379
+00:42:38.220 --> 00:42:38.979
+George Mulhearn: Yeah.
+
+380
+00:42:40.590 --> 00:42:42.229
+Patrik Stas: So it's a Fork.
+
+381
+00:42:42.450 --> 00:42:47.689
+George Mulhearn: Yeah, the ffi changes
+
+382
+00:42:48.330 --> 00:42:51.659
+George Mulhearn: on that fork. Do you think that'll ever go
+
+383
+00:42:51.690 --> 00:42:55.399
+George Mulhearn: back to like the main avenue for?
+
+384
+00:42:56.810 --> 00:43:00.959
+no, I I I don't think so. I don't know what kind of
+
+385
+00:43:01.340 --> 00:43:14.350
+Patrik Stas: what is their name? They don't seem to be very active on the Repo. The community go to it. It seems like them. One of the main goals of community like in there is now is to
+
+386
+00:43:14.700 --> 00:43:27.979
+Patrik Stas: abolish, live in the and all that stuff orange o og stuff. It's pretty much the same thing. It's just like some of the improved. But
+
+387
+00:43:29.180 --> 00:43:33.739
+Patrik Stas: as everybody is moving to us, car and in the shared ours and all this stuff.
+
+388
+00:43:33.890 --> 00:43:44.109
+Patrik Stas: But I think the the wallet portion of Vdr tools is, you know, like fairly good. I kind of complain that my sequel is pretty fast the the implementation
+
+389
+00:43:44.160 --> 00:43:44.859
+George Mulhearn: Hmm.
+
+390
+00:43:48.000 --> 00:43:49.719
+Patrik Stas: yeah.
+
+391
+00:43:49.930 --> 00:43:51.189
+Patrik Stas: So
+
+392
+00:43:51.800 --> 00:43:55.249
+Patrik Stas: let's let's take those dependencies. And then, yeah, If
+
+393
+00:43:55.440 --> 00:43:57.520
+Patrik Stas: if if we find that
+
+394
+00:43:58.450 --> 00:44:01.119
+Patrik Stas: there's no problems with the wall dependency.
+
+395
+00:44:01.150 --> 00:44:03.250
+Patrik Stas: I think like,
+
+396
+00:44:03.680 --> 00:44:09.280
+Patrik Stas: I guess, slower but safe path would be like to implement the issue or portion.
+
+397
+00:44:09.450 --> 00:44:10.479
+Patrik Stas: And
+
+398
+00:44:10.570 --> 00:44:15.330
+Patrik Stas: yeah, if you are willing to contribute that that will be super amazing for sure.
+
+399
+00:44:15.990 --> 00:44:22.969
+George Mulhearn: Yeah, yeah, yeah, it seems like a a better thing to do now than try to the escal stuff immediately. So
+
+400
+00:44:23.090 --> 00:44:26.709
+Patrik Stas: it's a it's a marathon at the end of the day.
+
+401
+00:44:28.400 --> 00:44:31.340
+Patrik Stas: Okay? in the Lastly.
+
+402
+00:44:31.470 --> 00:44:37.469
+Patrik Stas: the fi. So this is something. Actually, I do just today.
+
+403
+00:44:40.080 --> 00:44:47.059
+Patrik Stas: it's started by me as well. and i'm kind of overtaking it as is is currently off.
+
+404
+00:44:48.880 --> 00:44:53.090
+Patrik Stas: so taking over is is the where we started.
+
+405
+00:44:53.340 --> 00:44:58.499
+Patrik Stas: And yeah, I just it's kind of sync up with a re pre based on the latest
+
+406
+00:44:58.720 --> 00:45:03.470
+Patrik Stas: revision and trying to run myself. So in the initial phases.
+
+407
+00:45:05.450 --> 00:45:09.819
+Patrik Stas: basically this is adding new create under the rappers
+
+408
+00:45:11.730 --> 00:45:14.580
+Patrik Stas: but it's like rappers slash
+
+409
+00:45:15.740 --> 00:45:20.059
+Patrik Stas: how is it? slot, rapper, slash, node, not the Rs.
+
+410
+00:45:20.230 --> 00:45:28.819
+Patrik Stas: this is this is a rough project which is generating the Us. bindings for no jazz
+
+411
+00:45:29.260 --> 00:45:32.379
+Patrik Stas: it's using this kind of annotations
+
+412
+00:45:32.570 --> 00:45:35.870
+Patrik Stas: building on top of a live Vcx
+
+413
+00:45:36.090 --> 00:45:42.960
+Patrik Stas: Api handles layer. So it's basically calling functions from
+
+414
+00:45:44.140 --> 00:45:53.680
+Patrik Stas: from Api handle. I'm rubbing them like, basically just kind of writing them in a new method, and then adding an annotation on top of that.
+
+415
+00:45:55.680 --> 00:45:59.159
+Patrik Stas: I think that. when we, As I was trying this.
+
+416
+00:45:59.310 --> 00:46:11.609
+Patrik Stas: he ran to issue some issues with the conflict, and we were suspecting that it's because there's this Api c. Being compiled along with the the node stuff.
+
+417
+00:46:11.930 --> 00:46:17.480
+Patrik Stas: and this is fixing some symbols, and there was probably some conflict. So
+
+418
+00:46:18.150 --> 00:46:20.769
+Patrik Stas: on the one of the ideas. We had this.
+
+419
+00:46:21.180 --> 00:46:26.560
+Patrik Stas: and we'll actually split this create the Levy x crate into 2 crates.
+
+420
+00:46:26.900 --> 00:46:31.410
+Patrik Stas: kind of like, strictly separating this Api. See into new crate
+
+421
+00:46:31.470 --> 00:46:33.430
+Patrik Stas: and the rest of it
+
+422
+00:46:33.540 --> 00:46:38.430
+Patrik Stas: as as kind of as it is. I'm not sure about the naming of those 2 crates.
+
+423
+00:46:38.520 --> 00:46:42.799
+Patrik Stas: but it will be something I
+
+424
+00:46:42.820 --> 00:46:50.839
+Patrik Stas: I've created it. It's gonna direct the links into the the new tasks where I created this this item here
+
+425
+00:46:51.030 --> 00:46:55.820
+Patrik Stas: just played living 6 into crates also. created that
+
+426
+00:46:56.250 --> 00:46:59.740
+Patrik Stas: place harder place, holder for that over here.
+
+427
+00:47:01.600 --> 00:47:04.049
+Patrik Stas: which links to
+
+428
+00:47:04.100 --> 00:47:05.820
+Patrik Stas: To the
+
+429
+00:47:07.380 --> 00:47:10.060
+Patrik Stas: this question we had actually
+
+430
+00:47:10.120 --> 00:47:11.929
+Patrik Stas: in discussions
+
+431
+00:47:13.500 --> 00:47:15.169
+from
+
+432
+00:47:15.680 --> 00:47:16.870
+Patrik Stas: a dinosh
+
+433
+00:47:17.260 --> 00:47:23.460
+Patrik Stas: who was asking about writing flutter, riper, and one of the ways how I guess that could be done is
+
+434
+00:47:23.940 --> 00:47:26.909
+Patrik Stas: using the same approach we are currently using.
+
+435
+00:47:27.170 --> 00:47:31.250
+Patrik Stas: we are trying to use with the Nodejs stuff
+
+436
+00:47:31.330 --> 00:47:32.589
+Patrik Stas: where
+
+437
+00:47:38.760 --> 00:47:49.309
+Patrik Stas: we could completely be sex into like 2 crates in the internal crate, and then build the flutter or the new Nodejs rapper on top of that.
+
+438
+00:47:49.430 --> 00:47:54.950
+Patrik Stas: So hopefully there will be something interesting from the next as well.
+
+439
+00:48:00.050 --> 00:48:06.029
+Patrik Stas: And yeah, I created to actually a few a few few tasks
+
+440
+00:48:07.160 --> 00:48:23.190
+Patrik Stas: one was extraction of the protocols great, which later I realized is duplicate of very, very old issue. created back in 22 and 2220, 20, and
+
+441
+00:48:24.780 --> 00:48:30.729
+Patrik Stas: yeah, it just, the point is to extract the protocols in like separate great. So
+
+442
+00:48:30.920 --> 00:48:38.079
+Patrik Stas: it could be hopefully like, I know somebody could build an alternative implementation, or, you know, just reuse it
+
+443
+00:48:39.700 --> 00:48:43.230
+Patrik Stas: without all other stuff to kind of
+
+444
+00:48:43.250 --> 00:48:47.350
+Patrik Stas: trying to modularize the entire project into the smaller pieces
+
+445
+00:48:49.050 --> 00:49:05.949
+Patrik Stas: increasing the likelihood that somebody else would pick it up, whether it's messages, or that the id they'll create or or the protocols create and build something on top of it, sharing the same dependency having more more contributors.
+
+446
+00:49:06.240 --> 00:49:09.450
+Patrik Stas: that's that's the main sort of motivation behind this
+
+447
+00:49:11.390 --> 00:49:16.160
+Patrik Stas: and most of the stuff like actually being done it just like
+
+448
+00:49:17.580 --> 00:49:21.739
+Patrik Stas: I think it needs a bit of a review like if
+
+449
+00:49:22.180 --> 00:49:24.990
+Patrik Stas: it makes sense now, or if there is more.
+
+450
+00:49:25.480 --> 00:49:30.629
+Patrik Stas: try trying to imagine like assuming is, this would be a a great.
+
+451
+00:49:30.670 --> 00:49:40.089
+Patrik Stas: how usable would it be from like a third party project? A new project, independent of a is Dcx. But right now. It's it's
+
+452
+00:49:40.220 --> 00:49:43.109
+Patrik Stas: It's not right now. The ares the
+
+453
+00:49:44.640 --> 00:49:48.740
+Patrik Stas: I mean the the
+
+454
+00:49:49.390 --> 00:49:50.799
+Patrik Stas: it's
+
+455
+00:49:51.260 --> 00:49:54.340
+Patrik Stas: kind of build.
+
+456
+00:49:54.720 --> 00:49:56.500
+Patrik Stas: Let me open it up.
+
+457
+00:50:01.190 --> 00:50:04.570
+Patrik Stas: It's definitely using those like profiles.
+
+458
+00:50:05.030 --> 00:50:06.000
+George Mulhearn: Yeah.
+
+459
+00:50:06.180 --> 00:50:25.259
+Patrik Stas: Yeah. So if you want to, if we extract it, and you want to use it, then you all the also need to have the profiles, but the pro profiles are right now, part of every 6, so you would actually end up with the whole. So I guess it still needs some of some sort of tweaks, or I don't know, thinking how
+
+460
+00:50:25.280 --> 00:50:37.910
+Patrik Stas: how this could be made like a separate create, and people couldn't build on it, and it would be just like sort of codification of the Aries Rfcs without forcing you to the
+
+461
+00:50:38.010 --> 00:50:47.430
+Patrik Stas: particular particular type of credentials, particular type of like resolver as as as they're like.
+
+462
+00:50:47.680 --> 00:50:52.640
+Patrik Stas: not really necessarily dependent on
+
+463
+00:50:52.710 --> 00:50:54.400
+Patrik Stas: or in the ledger
+
+464
+00:50:54.800 --> 00:51:03.409
+Patrik Stas: so trying to trying to extract it out. But I I think there's maybe some. Maybe there's some more steps missing
+
+465
+00:51:04.400 --> 00:51:06.209
+Patrik Stas: in this list here.
+
+466
+00:51:06.950 --> 00:51:11.600
+Patrik Stas: although I think it seems like very cool getting getting close to the
+
+467
+00:51:12.180 --> 00:51:18.890
+George Mulhearn: I wonder if that ticket is still through the remove any dependency in the protocol module.
+
+468
+00:51:19.250 --> 00:51:28.100
+Patrik Stas: Yeah, that's like a profile dependent. Yeah, Probably probably not. But it's kind of transformed into those profiles. Now.
+
+469
+00:51:29.240 --> 00:51:32.410
+George Mulhearn: yeah, yeah, I feel like all these issues
+
+470
+00:51:32.560 --> 00:51:43.450
+George Mulhearn: related somehow. And there's a there's a perfect way to do them somehow. You know, with the shed bcx create and profiles, and stripping out
+
+471
+00:51:43.510 --> 00:51:45.549
+George Mulhearn: Indie into its own thing.
+
+472
+00:51:46.050 --> 00:51:48.059
+George Mulhearn: Yeah, I wonder if there's some
+
+473
+00:51:48.160 --> 00:51:51.810
+George Mulhearn: perfect arrangement of crates that we can reach.
+
+474
+00:51:52.000 --> 00:51:59.769
+Patrik Stas: I have, like a kind of my thoughts around. I have this very foggy vision
+
+475
+00:51:59.850 --> 00:52:05.299
+Patrik Stas: our idea about how the Protocols module could be like
+
+476
+00:52:05.580 --> 00:52:07.819
+Patrik Stas: really independent and generic.
+
+477
+00:52:07.910 --> 00:52:08.620
+George Mulhearn: Hmm.
+
+478
+00:52:09.100 --> 00:52:13.650
+Patrik Stas: Is it right now? It like tries to perform actions like it.
+
+479
+00:52:14.450 --> 00:52:15.899
+Patrik Stas: for example, like
+
+480
+00:52:15.990 --> 00:52:19.520
+Patrik Stas: it, it is in in connection Protocol.
+
+481
+00:52:20.010 --> 00:52:38.090
+Patrik Stas: it is create in in certain step of the protocol. It you know it generates keys, for example, it like sends a message over network, and those are like like it's actually do. It's not just codification of the area. It's actually like
+
+482
+00:52:38.190 --> 00:52:42.220
+Patrik Stas: just doing this stuff I was thinking like.
+
+483
+00:52:42.360 --> 00:52:47.759
+Patrik Stas: instead of like doing stuff. Maybe there could be some sort of abstraction where, like you call
+
+484
+00:52:52.860 --> 00:52:56.029
+Patrik Stas: like it will be like, Hmm.
+
+485
+00:52:56.360 --> 00:53:16.199
+Patrik Stas: Returning some sort. The the interface would be changed that it would kind of return the instructions of what needs to be done, and it would be then your responsibility of like executing you have some having some sort of executor of those directions. So when you would like
+
+486
+00:53:16.330 --> 00:53:18.870
+Patrik Stas: you, you will have let's say like.
+
+487
+00:53:18.900 --> 00:53:26.780
+Patrik Stas: maybe this whole thing will be probably deleted. But let's say, let's say you would have like handle connection response. So
+
+488
+00:53:29.510 --> 00:53:40.099
+Patrik Stas: and and this method right now it's it's. It requires supply. Send message closure to send like response. So this whole thing could be like deleted.
+
+489
+00:53:40.200 --> 00:53:42.999
+Patrik Stas: And then, instead of sending message.
+
+490
+00:53:43.030 --> 00:53:46.200
+Patrik Stas: we would like a return from this method
+
+491
+00:53:46.250 --> 00:53:48.389
+Patrik Stas: like return.
+
+492
+00:53:48.620 --> 00:53:51.380
+Patrik Stas: I know some sort of like Aries.
+
+493
+00:53:51.700 --> 00:53:53.620
+I don't know there is
+
+494
+00:53:54.030 --> 00:53:57.789
+Patrik Stas: and i'll call it aries every instruction
+
+495
+00:53:57.950 --> 00:54:02.260
+Patrik Stas: and then it will tell you like you know
+
+496
+00:54:03.030 --> 00:54:08.229
+Patrik Stas: type since that, and then payload, You know
+
+497
+00:54:08.680 --> 00:54:21.990
+Patrik Stas: this is the payload, and it will be your responsibility to actually execute this instruction, and then, like different type of instructions. You could, you know we would like, return from this state machines.
+
+498
+00:54:23.440 --> 00:54:32.219
+Patrik Stas: for example. Maybe another one would like to generate keys, you know something like that. So then the the whole whole crate could be like
+
+499
+00:54:32.690 --> 00:54:36.930
+Patrik Stas: unaware of like. Really, the implementation is like.
+
+500
+00:54:36.950 --> 00:54:51.369
+Patrik Stas: Tell you what to do, and it will be up to the consumer of this product. Cook phrase to correctly interpret and execute these instructions. You are being given, You know what I mean.
+
+501
+00:54:52.100 --> 00:55:01.749
+Patrik Stas: but i'm not sure the challenges will be. It's it's kind of like, obviously disruptive change. It's quite big as as opposed to the current approach.
+
+502
+00:55:01.840 --> 00:55:05.039
+Patrik Stas: but it was just my like thinking.
+
+503
+00:55:07.290 --> 00:55:09.569
+Patrik Stas: Yeah.
+
+504
+00:55:09.910 --> 00:55:13.070
+Patrik Stas: maybe there can be like a smaller steps which
+
+505
+00:55:13.430 --> 00:55:20.580
+Patrik Stas: maybe, like smaller or less disruptive, a change could be like this could be extracted out.
+
+506
+00:55:20.690 --> 00:55:26.819
+Patrik Stas: and also the profiles, you know, interfaces could be extracted out.
+
+507
+00:55:26.840 --> 00:55:28.890
+Patrik Stas: And so then you could actually like.
+
+508
+00:55:29.240 --> 00:55:30.180
+Patrik Stas: like.
+
+509
+00:55:30.410 --> 00:55:36.630
+Patrik Stas: use the protocols. And okay, you also are forced to like work with the profiles.
+
+510
+00:55:36.960 --> 00:55:51.530
+Patrik Stas: But, you don't need the entire. The all the rest of the stuff in the you know, in the you you don't need handlers which are somewhat opinionated. You could like, kind of build your own if you wish to.
+
+511
+00:55:52.550 --> 00:56:00.439
+George Mulhearn: Yeah, yeah, I think I think like profiles, and even passing in like the send message closure. It kind of
+
+512
+00:56:00.890 --> 00:56:04.549
+George Mulhearn: gets us close to what you were describing just then, where
+
+513
+00:56:04.600 --> 00:56:11.029
+George Mulhearn: they implement, they can implement their own profile, which defines what happens when you create a key. So
+
+514
+00:56:11.110 --> 00:56:21.529
+George Mulhearn: they they're they're handling the create key and they're handling what the send message closer is or they can use our defaults.
+
+515
+00:56:21.600 --> 00:56:28.800
+George Mulhearn: so it's it's kinda in that direction. yeah, go what you're saying with the instructions Sounds cool.
+
+516
+00:56:29.240 --> 00:56:34.239
+Patrik Stas: Yeah, I I guess like in the the instructions. It's kinda yeah, I like.
+
+517
+00:56:35.020 --> 00:56:45.579
+Patrik Stas: Maybe you could have like less dependencies. On the other hand, basic like with the profiles, it's kind of like in version of control, type of pattern, I guess. Where, like
+
+518
+00:56:45.660 --> 00:56:49.330
+Patrik Stas: you're just supposed to like implement a few staff, and then
+
+519
+00:56:49.800 --> 00:56:53.779
+Patrik Stas: you you put it here, and it works assuming you
+
+520
+00:56:54.610 --> 00:56:56.009
+Patrik Stas: implemented.
+
+521
+00:56:57.280 --> 00:57:00.800
+Patrik Stas: And one of those things correctly.
+
+522
+00:57:02.470 --> 00:57:03.169
+Patrik Stas: Hmm.
+
+523
+00:57:03.300 --> 00:57:13.139
+Patrik Stas: Yeah. So so this is kind of yeah, it. It. It needs thinking and discussions, this extracting protocols great. So we don't like a research
+
+524
+00:57:13.170 --> 00:57:20.509
+Patrik Stas: that I guess like how to how to do it. Well, how to how to make the Protocols great consume Mobile for the third parties.
+
+525
+00:57:20.630 --> 00:57:22.500
+Patrik Stas: If somebody wants to build
+
+526
+00:57:25.160 --> 00:57:29.329
+Patrik Stas: Oh, then then I was I was
+
+527
+00:57:32.760 --> 00:57:37.040
+Patrik Stas: was being asked for some some tasks
+
+528
+00:57:39.180 --> 00:57:42.570
+Patrik Stas: by G. U. I. J. 3 P.
+
+529
+00:57:42.680 --> 00:57:48.460
+Patrik Stas: I wanted to work on something, and he's kind of interested in this task, although he didn't yet,
+
+530
+00:57:48.480 --> 00:58:02.560
+Patrik Stas: adopted, assigned it to himself. So the point of this task is refactoring to unify State mission approach. So that that's about the protocols piece of the library.
+
+531
+00:58:02.570 --> 00:58:11.859
+Patrik Stas: so in a connection basically the in with the way the interface looks like is, we always have to simply like
+
+532
+00:58:11.940 --> 00:58:23.700
+Patrik Stas: one function is typically one state transition and a request to execute certain state and transition which either makes sense or doesn't make sense based on the current state.
+
+533
+00:58:23.970 --> 00:58:27.960
+Patrik Stas: And yeah, this is the interface. But there's like a
+
+534
+00:58:28.060 --> 00:58:34.189
+Patrik Stas: a difference in the let's say issuance implementation Where?
+
+535
+00:58:34.770 --> 00:58:39.379
+Patrik Stas: Oh, actually, now, it's a little bit closer. But basically we have this
+
+536
+00:58:39.620 --> 00:58:41.020
+Patrik Stas: kind of
+
+537
+00:58:41.310 --> 00:58:43.430
+Patrik Stas: God function
+
+538
+00:58:43.560 --> 00:58:46.209
+Patrik Stas: here, handle message which
+
+539
+00:58:46.350 --> 00:58:47.569
+Patrik Stas: you give it
+
+540
+00:58:47.860 --> 00:58:52.290
+Patrik Stas: this kind of weird structure on which
+
+541
+00:58:52.330 --> 00:59:02.810
+Patrik Stas: represent some action you want to execute. So, instead of like calling a function, create credential offer plugin, you know, like we did in connections
+
+542
+00:59:03.160 --> 00:59:06.559
+Patrik Stas: calling function to do some state transition
+
+543
+00:59:06.850 --> 00:59:10.159
+Patrik Stas: in in in the
+
+544
+00:59:10.200 --> 00:59:16.519
+Patrik Stas: If you're you have a handle message. And if you want to say, you know,
+
+545
+00:59:16.870 --> 00:59:23.889
+Patrik Stas: send credential proposal. You have to build this in variant filled with some data.
+
+546
+00:59:23.900 --> 00:59:42.259
+Patrik Stas: Basically it's argument, then passed it into these like handling function, and that, like decoded checks the state, and, like, call respect to the function. So I think this should be count and eliminated, and just simply have these like simple functions.
+
+547
+00:59:42.270 --> 00:59:57.159
+Patrik Stas: because then that what's especially ugly about this is that, for example, here this handle message requires. Send message closure, but it requires this is culture only because one of the State transitions
+
+548
+00:59:57.650 --> 01:00:04.450
+Patrik Stas: and the others Don't need it. But you're still forced to slide if you are receiving proposal, which doesn't make sense.
+
+549
+01:00:04.630 --> 01:00:05.270
+George Mulhearn: Yeah.
+
+550
+01:00:06.610 --> 01:00:24.629
+Patrik Stas: So that's this is refactoring then eliminating public agent usage. That's something what we've covered before. it was a a question poll drone, and nobody minds to remove it. So we will go ahead.
+
+551
+01:00:25.760 --> 01:00:35.100
+Patrik Stas: Optimizing code coverage approach in Ci. We covered that before with uploading the artifacts. reducing the duplication.
+
+552
+01:00:38.250 --> 01:00:51.350
+Patrik Stas: And yeah, this is the implementation, the issue a very far mode of profile. So yeah, if you're willing to work on this, you can, you know, take it over when maybe we can start with a small like a small, some small steps.
+
+553
+01:00:54.190 --> 01:01:02.459
+Patrik Stas: maybe, I I suppose, like a verifier, might be actually easier to do. But maybe also
+
+554
+01:01:06.190 --> 01:01:08.790
+Patrik Stas: yeah, it's it's gonna be easier to do
+
+555
+01:01:11.720 --> 01:01:19.700
+Patrik Stas: It will be more challenging for sure. Yeah, does that link to the like? The main issue? For
+
+556
+01:01:19.850 --> 01:01:21.659
+George Mulhearn: all of these changes.
+
+557
+01:01:22.050 --> 01:01:24.649
+George Mulhearn: like the all the modulizing changes
+
+558
+01:01:25.950 --> 01:01:29.320
+Patrik Stas: the previously mentioned.
+
+559
+01:01:29.420 --> 01:01:31.840
+George Mulhearn: like, where does that link go to?
+
+560
+01:01:32.540 --> 01:01:38.049
+Patrik Stas: so all right, it it's I I created the issue for
+
+561
+01:01:40.560 --> 01:01:43.800
+Patrik Stas: I actually I guess it's a bit of a
+
+562
+01:01:44.000 --> 01:01:49.600
+Patrik Stas: duplication, because the original issue is still not closed as far.
+
+563
+01:01:52.050 --> 01:01:52.899
+George Mulhearn: Yeah.
+
+564
+01:01:53.240 --> 01:01:57.410
+George Mulhearn: it's, it's it's it's it's it's pretty big. Yeah.
+
+565
+01:01:58.210 --> 01:02:03.000
+Patrik Stas: so maybe we can actually close this and just kind of
+
+566
+01:02:05.040 --> 01:02:12.389
+Patrik Stas: keep the new one as a as in a bit more narrow. Right like this was mostly implemented at this point
+
+567
+01:02:12.470 --> 01:02:14.439
+Patrik Stas: like 70%.
+
+568
+01:02:14.620 --> 01:02:16.120
+Patrik Stas: And
+
+569
+01:02:16.660 --> 01:02:21.059
+Patrik Stas: we can have this new task for the the issue. Verify specifically.
+
+570
+01:02:22.300 --> 01:02:22.910
+George Mulhearn: Yeah.
+
+571
+01:02:22.930 --> 01:02:23.709
+George Mulhearn: cool.
+
+572
+01:02:24.610 --> 01:02:37.119
+Patrik Stas: Oh, well, this is also including yeah, maybe we can just kind of break it down, because, like otherwise, this issue will be open forever with the Arizona that can be challenging, and the issue verify it's it's
+
+573
+01:02:37.250 --> 01:02:46.809
+Patrik Stas: fairly a a big piece, so we can take a look at this. At least you've written here and created smaller tasks out of it can break it down.
+
+574
+01:02:47.680 --> 01:02:48.310
+George Mulhearn: Yeah.
+
+575
+01:02:48.540 --> 01:02:49.229
+George Mulhearn: cool.
+
+576
+01:02:52.610 --> 01:02:56.860
+Patrik Stas: no. I got lost in the all these tabs.
+
+577
+01:02:58.560 --> 01:03:03.670
+Patrik Stas: I okay, it must be somewhere it's because I
+
+578
+01:03:04.380 --> 01:03:06.180
+Patrik Stas: I went here.
+
+579
+01:03:08.370 --> 01:03:10.400
+Patrik Stas: Where is it? there we go.
+
+580
+01:03:14.710 --> 01:03:25.489
+Patrik Stas: Yeah, yeah. I had some like discussion points actually here it sounds over over time. So depending if if you are.
+
+581
+01:03:25.720 --> 01:03:34.770
+Patrik Stas: if if you have time, or you know my, you might be hungry's evening now, so we can. We can take this to the another meeting. It's definitely not urgent.
+
+582
+01:03:37.070 --> 01:03:39.620
+George Mulhearn: don't mind, is it?
+
+583
+01:03:39.890 --> 01:03:40.910
+Patrik Stas: Yeah.
+
+584
+01:03:41.210 --> 01:03:48.450
+Patrik Stas: Okay. So yeah, I was as I was actually doing this this splitting out the grades.
+
+585
+01:03:49.060 --> 01:03:57.810
+Patrik Stas: I realized. And I actually I wonder about your experiences. You are consuming every Vcx, for from your own crate right
+
+586
+01:03:58.410 --> 01:04:06.740
+Patrik Stas: so, and and Aries we said it's defining so many different error kinds which I don't know how it looks like.
+
+587
+01:04:08.840 --> 01:04:19.699
+Patrik Stas: I I imagine, might be pretty awkward to consume every 6 right now, because of this is when you want to. Let's say, I go to
+
+588
+01:04:19.880 --> 01:04:21.399
+Patrik Stas: errors.
+
+589
+01:04:21.950 --> 01:04:32.909
+Patrik Stas: Yeah error. And basically if I take some function, for example. Protocol. No, You typically probably go like, let's say Handlers
+
+590
+01:04:33.000 --> 01:04:37.779
+Patrik Stas: connection, and you call some something with the returns result
+
+591
+01:04:37.950 --> 01:04:52.520
+Patrik Stas: Process in mind. If I, if you, if you are third-party, create and you call process, invite, you get V 6, the result. And then okay, so you want to like, handle that possible errors. But it turns out
+
+592
+01:04:52.640 --> 01:04:54.060
+Patrik Stas: that
+
+593
+01:04:54.140 --> 01:04:58.059
+Patrik Stas: that there's like so many different types of errors
+
+594
+01:04:59.220 --> 01:05:12.160
+Patrik Stas: like at least on the paper. But, in fact, like most of the them like cannot happen right like we're returning like basically you are your because you get that error. And if you want to kind of maybe
+
+595
+01:05:12.210 --> 01:05:13.390
+Patrik Stas: handle it
+
+596
+01:05:13.990 --> 01:05:15.600
+Patrik Stas: granularly.
+
+597
+01:05:16.180 --> 01:05:17.759
+Patrik Stas: And
+
+598
+01:05:18.530 --> 01:05:21.720
+Patrik Stas: There's so many different clients here.
+
+599
+01:05:24.460 --> 01:05:25.939
+Patrik Stas: And
+
+600
+01:05:26.630 --> 01:05:37.029
+Patrik Stas: you, you don't even know which one of these kinds is relevant for the function you are calling and which you want, and it's not like. Maybe you can get like I don't know
+
+601
+01:05:37.050 --> 01:05:46.820
+Patrik Stas: board record not found for some reason when you are working with connection, but you definitely not ever gonna receive the application, schema or
+
+602
+01:05:46.850 --> 01:05:50.459
+Patrik Stas: invalid proof or something. You know this irrelevant stuff.
+
+603
+01:05:50.710 --> 01:05:56.459
+Patrik Stas: So I was just thinking, yeah, how to kind of what's the what's the like? Right approach with this?
+
+604
+01:05:56.530 --> 01:05:58.989
+Patrik Stas: Probably at least, I would imagine that
+
+605
+01:06:00.110 --> 01:06:06.000
+Patrik Stas: maybe maybe these errors can be like less granular, so there wouldn't be so many different
+
+606
+01:06:06.340 --> 01:06:08.199
+Patrik Stas: types of things to
+
+607
+01:06:08.320 --> 01:06:10.280
+Patrik Stas: to to handle.
+
+608
+01:06:12.860 --> 01:06:18.569
+Patrik Stas: What what's your experience with like error handling when you call a
+
+609
+01:06:21.030 --> 01:06:31.169
+George Mulhearn: yeah, To be honest, my consumption so far has mostly just been sort of experimental in setting up a lot of framework. So now
+
+610
+01:06:31.180 --> 01:06:42.679
+George Mulhearn: projects and stuff. So I've just been unwrapping for now. But yeah, you're right when I, when I write the transformer for Vcx errors into our errors.
+
+611
+01:06:42.810 --> 01:06:47.129
+George Mulhearn: It's going to be a pretty hefty transformer, because there's all these different types.
+
+612
+01:06:48.200 --> 01:06:49.849
+George Mulhearn: I think you're right there. They
+
+613
+01:06:50.050 --> 01:06:58.750
+George Mulhearn: that too, specific, maybe at least compared to like other crates of views like like any
+
+614
+01:06:59.060 --> 01:07:02.280
+George Mulhearn: media. And credits.
+
+615
+01:07:02.460 --> 01:07:07.409
+George Mulhearn: you know, there's a lot that goes on in credits, but I think they only have sort of
+
+616
+01:07:07.800 --> 01:07:11.290
+George Mulhearn: 5 to 10 error types.
+
+617
+01:07:11.540 --> 01:07:15.440
+George Mulhearn: because they've made things more generic and group them up.
+
+618
+01:07:15.880 --> 01:07:17.140
+Patrik Stas: Hmm. Hmm.
+
+619
+01:07:17.720 --> 01:07:20.549
+Patrik Stas: Yeah, I guess, like also the you know, I
+
+620
+01:07:21.090 --> 01:07:30.849
+Patrik Stas: I i'm not sure what those originally like the log like the reason to create so many errors. Maybe it was the Ffi as they like, because they wanted to have like different
+
+621
+01:07:31.990 --> 01:07:39.620
+Patrik Stas: different codes for different situations and being having being able to handle them. I guess.
+
+622
+01:07:39.740 --> 01:07:44.760
+Patrik Stas: Hmm. Something like that. But I I guess when you work natively in rust.
+
+623
+01:07:45.930 --> 01:07:52.420
+Patrik Stas: Oh, no, yeah, it it it sounds like too much too much to deal with.
+
+624
+01:07:53.550 --> 01:07:58.810
+George Mulhearn: Yeah, I think as well, there's like some Libindi areas in here
+
+625
+01:07:58.940 --> 01:08:02.369
+George Mulhearn: which I guess was for Ffi stuff.
+
+626
+01:08:02.740 --> 01:08:04.109
+Patrik Stas: Hmm. Button.
+
+627
+01:08:04.280 --> 01:08:07.840
+George Mulhearn: I guess I don't know. I kind of feel like limited
+
+628
+01:08:08.420 --> 01:08:09.930
+George Mulhearn: Isn't really
+
+629
+01:08:09.990 --> 01:08:15.050
+George Mulhearn: what Vcx is. It's kind of just the implementation detail.
+
+630
+01:08:18.069 --> 01:08:19.069
+Patrik Stas: Yeah.
+
+631
+01:08:20.490 --> 01:08:28.409
+Patrik Stas: I guess lots of these errors could be kind of yeah group together like the validation, for example, like.
+
+632
+01:08:29.240 --> 01:08:46.890
+Patrik Stas: and maybe maybe in the shared Lcx, it makes sense to like distinguish them like this like we have 3 errors like involved in the very queue that base 54 but probably doesn't really make sense to like. Convey this information further from Aries V. 6 like
+
+633
+01:08:47.040 --> 01:08:53.819
+Patrik Stas: Probably it would be sufficient here to just like invalidate something invalid data.
+
+634
+01:08:53.859 --> 01:09:00.059
+Patrik Stas: And the error message couldn't specify right like what exactly was involved in. But
+
+635
+01:09:00.100 --> 01:09:03.829
+Patrik Stas: probably as a we're not gonna have like
+
+636
+01:09:04.479 --> 01:09:17.620
+Patrik Stas: particular error handlings based on in case you supplies wrong, the Id or wrong, murky like the only thing you care about like. Oh, I messed up something 8 to put something invalid
+
+637
+01:09:17.979 --> 01:09:24.990
+Patrik Stas: right, but not the specifics of it. And I guess this could be case, for, like many of these errors, in fact, showing
+
+638
+01:09:26.359 --> 01:09:28.010
+George Mulhearn: Yeah,
+
+639
+01:09:29.020 --> 01:09:32.479
+George Mulhearn: So if you're calling it from.
+
+640
+01:09:32.700 --> 01:09:36.150
+George Mulhearn: say android or so using lib. Vcx.
+
+641
+01:09:36.720 --> 01:09:41.970
+George Mulhearn: Does the error message get passed across like these text error messages.
+
+642
+01:09:42.319 --> 01:09:44.609
+George Mulhearn: or does it do something to?
+
+643
+01:09:44.990 --> 01:09:48.719
+Patrik Stas: so yeah, when I if you are using.
+
+644
+01:09:49.210 --> 01:09:53.259
+Patrik Stas: are you assuming usage of like Vcx.
+
+645
+01:09:53.560 --> 01:09:56.749
+Patrik Stas: is? Well, assuming it will be 6. And
+
+646
+01:09:57.820 --> 01:10:04.819
+Patrik Stas: well, you just get the error, Code returned in the call back, and then there is a function.
+
+647
+01:10:05.290 --> 01:10:14.799
+Patrik Stas: There's a fact. Well, usually it before it returns the error code. It locks the you know the error information. about the about the error.
+
+648
+01:10:15.510 --> 01:10:18.010
+Patrik Stas: It also
+
+649
+01:10:18.370 --> 01:10:21.030
+Patrik Stas: it also stores
+
+650
+01:10:21.460 --> 01:10:24.719
+Patrik Stas: the error in this kind of like.
+
+651
+01:10:25.250 --> 01:10:26.889
+Patrik Stas: yeah.
+
+652
+01:10:27.640 --> 01:10:43.730
+Patrik Stas: you know, global structure where there's always the last error which happened. You store. There is a stream as a C stream, and then there is a way to fetch that error. So you know you would you would you? Would. You're
+
+653
+01:10:44.150 --> 01:10:48.129
+Patrik Stas: if I call to Libby? 6 would fail for some reason
+
+654
+01:10:48.260 --> 01:10:50.230
+Patrik Stas: then
+
+655
+01:10:50.400 --> 01:10:55.790
+Patrik Stas: it's Very likely, unless it's like in some distributed environment.
+
+656
+01:10:55.970 --> 01:11:04.569
+Patrik Stas: If you call get current or see Jason, you'll get, You know, the last error which which you observed the the problem. And
+
+657
+01:11:04.730 --> 01:11:05.980
+Patrik Stas: and
+
+658
+01:11:06.360 --> 01:11:09.429
+Patrik Stas: you get like the entire error message
+
+659
+01:11:10.590 --> 01:11:12.219
+Patrik Stas: from from there.
+
+660
+01:11:12.800 --> 01:11:14.869
+Patrik Stas: so that that's like one way
+
+661
+01:11:14.970 --> 01:11:17.549
+Patrik Stas: to deal with it to like to.
+
+662
+01:11:17.570 --> 01:11:22.909
+Patrik Stas: you know, to fetch the message. Also it should be in the logs. And
+
+663
+01:11:23.790 --> 01:11:30.880
+Patrik Stas: and and and one more thing actually, there's also this conversion function.
+
+664
+01:11:33.490 --> 01:11:34.480
+Patrik Stas: was it?
+
+665
+01:11:43.430 --> 01:11:44.510
+Patrik Stas: Oh, I know.
+
+666
+01:11:47.300 --> 01:11:48.040
+Yes.
+
+667
+01:11:54.310 --> 01:11:54.950
+George Mulhearn: Yeah.
+
+668
+01:12:00.490 --> 01:12:06.859
+Patrik Stas: wow! If I come in this i'll, i'll find out i'll find what i'm looking for because
+
+669
+01:12:08.030 --> 01:12:13.470
+Patrik Stas: from you 32 to this is used by one function
+
+670
+01:12:28.850 --> 01:12:30.960
+Patrik Stas: should show the narrow now.
+
+671
+01:12:39.870 --> 01:12:41.130
+Patrik Stas: Oh, there we go!
+
+672
+01:12:41.340 --> 01:12:43.619
+Patrik Stas: That is what I was looking for.
+
+673
+01:12:46.800 --> 01:12:57.210
+Patrik Stas: I am so there's a like a 5 function which lets you put in the error code you received from some, you know, other failed code.
+
+674
+01:12:57.310 --> 01:12:59.009
+Patrik Stas: and it gives you
+
+675
+01:12:59.130 --> 01:13:02.940
+Patrik Stas: sort of the like text description of that error
+
+676
+01:13:03.260 --> 01:13:10.449
+Patrik Stas: which would be, it would be probably this this for text here.
+
+677
+01:13:11.030 --> 01:13:18.089
+Patrik Stas: Yeah. But if you, on the you know the actual like Call Stack and all that information. Then that can be done with the
+
+678
+01:13:18.310 --> 01:13:24.610
+Patrik Stas: the the set current error, or get current error this, this interface.
+
+679
+01:13:27.130 --> 01:13:38.589
+Patrik Stas: Actually. Yeah, I haven't used this. So it might be a little bit tricky with the like pointers and stuff. But I it it should be should be doing more.
+
+680
+01:13:39.690 --> 01:13:48.889
+George Mulhearn: Yeah, cause I was gonna suggest that maybe it's good enough if you know, these groups of Vcx errors were grouped together.
+
+681
+01:13:48.970 --> 01:13:51.709
+George Mulhearn: you know. Say that was something like
+
+682
+01:13:51.950 --> 01:14:02.869
+George Mulhearn: invalid input data. And then the the message for that era provides the context of you know whether it was the did or the etc. that was invalid.
+
+683
+01:14:02.970 --> 01:14:07.690
+George Mulhearn: like with that era message get passed across to the
+
+684
+01:14:08.070 --> 01:14:13.060
+George Mulhearn: the Vcx consumer, or do they just have to rely on the Eric kinds.
+
+685
+01:14:13.200 --> 01:14:29.520
+Patrik Stas: Yeah, Currently as it stands with levy's, they kind of have to rely on the error kind, and then they can try to convert that error kind to the text, but it's a static text, or they can use this like, get current error to get the
+
+686
+01:14:29.530 --> 01:14:35.440
+Patrik Stas: like the details of the error particular information. I wouldn't say that it's
+
+687
+01:14:36.100 --> 01:14:47.089
+Patrik Stas: It's probably not hungry person reliable if multiple errors happen at the same time, although in mobile context, I guess it's not really likely. So it should work
+
+688
+01:14:47.450 --> 01:14:49.460
+Patrik Stas: pretty well enough this way.
+
+689
+01:14:50.320 --> 01:14:55.760
+Patrik Stas: but maybe there, yeah, that's something they would be nicer if there's a way to I come
+
+690
+01:14:57.130 --> 01:15:00.390
+Patrik Stas: return error, code, and the text
+
+691
+01:15:00.740 --> 01:15:04.579
+Patrik Stas: from through the Iffy, and possibly I guess
+
+692
+01:15:04.640 --> 01:15:10.069
+Patrik Stas: it might be I mean just different different return. That
+
+693
+01:15:10.140 --> 01:15:12.589
+Patrik Stas: and the different different
+
+694
+01:15:14.580 --> 01:15:22.009
+Patrik Stas: different data in the call back. Probably if we add here some sort of like pulling through to some string.
+
+695
+01:15:22.880 --> 01:15:24.110
+Patrik Stas: might work.
+
+696
+01:15:24.610 --> 01:15:25.910
+Patrik Stas: Hmm.
+
+697
+01:15:26.470 --> 01:15:27.380
+Patrik Stas: Yeah.
+
+698
+01:15:30.510 --> 01:15:31.450
+Patrik Stas: yeah.
+
+699
+01:15:34.490 --> 01:15:36.610
+Patrik Stas: I guess. Yeah, but
+
+700
+01:15:37.390 --> 01:15:44.930
+Patrik Stas: I think we will not be investing into that, at least from like upset up to side. And but
+
+701
+01:15:45.510 --> 01:15:54.050
+Patrik Stas: maybe we'll learn. Maybe we'll learn something new with the the new note. If 5 wiper we are building now. So
+
+702
+01:15:55.150 --> 01:15:56.719
+Patrik Stas: yeah, yeah.
+
+703
+01:15:58.570 --> 01:16:02.659
+Patrik Stas: But the family, I think those errors should be kind of condensed together.
+
+704
+01:16:13.100 --> 01:16:19.720
+Patrik Stas: Oh, yeah, so so this is the the error things I had in mind. And then,
+
+705
+01:16:19.970 --> 01:16:24.540
+Patrik Stas: I the question or like us.
+
+706
+01:16:25.120 --> 01:16:30.339
+Patrik Stas: it was a gy Gp just mentioned in in Dms.
+
+707
+01:16:30.540 --> 01:16:35.050
+Patrik Stas: A bit about Jason Ld. But honestly, I don't know too much about it.
+
+708
+01:16:35.090 --> 01:16:36.139
+Patrik Stas: So
+
+709
+01:16:36.190 --> 01:16:38.350
+Patrik Stas: perhaps a research task for
+
+710
+01:16:38.460 --> 01:16:40.350
+Patrik Stas: to to find out
+
+711
+01:16:42.030 --> 01:16:53.780
+Patrik Stas: more about it. There's a there's a Ld. Credentials. I I don't know how different they are, what they will take to support them, and
+
+712
+01:16:54.140 --> 01:16:55.460
+Patrik Stas: and
+
+713
+01:16:56.210 --> 01:17:01.379
+Patrik Stas: If they could be, if if they could be plugged into our like
+
+714
+01:17:01.910 --> 01:17:04.180
+Patrik Stas: protocols and module
+
+715
+01:17:04.960 --> 01:17:07.850
+Patrik Stas: which I suppose in the future.
+
+716
+01:17:08.050 --> 01:17:14.269
+Patrik Stas: I I suppose in future the Protocols should be able to
+
+717
+01:17:16.680 --> 01:17:21.800
+Patrik Stas: work with different type of credentials as a as this. Every itself is
+
+718
+01:17:22.500 --> 01:17:36.039
+Patrik Stas: is not tied to like particular implementations, although it's kind of designed along the lines with how unknown creates work. But technically it should also work with different type of credentials.
+
+719
+01:17:36.400 --> 01:17:37.400
+Patrik Stas: And so
+
+720
+01:17:37.460 --> 01:17:41.219
+Patrik Stas: State Mission should in those those implementation details.
+
+721
+01:17:42.830 --> 01:17:49.259
+Patrik Stas: I do you know something about Jason Ld. Or different type of credentials by chance.
+
+722
+01:17:50.870 --> 01:17:55.609
+George Mulhearn: I know of them, and they they scare me a bit, because.
+
+723
+01:17:55.920 --> 01:17:59.130
+George Mulhearn: you know, finally getting comfortable with the non credits in a.
+
+724
+01:17:59.180 --> 01:18:06.160
+George Mulhearn: And yeah, yeah, it's like Jason all the and babies, boss, and there's like,
+
+725
+01:18:06.340 --> 01:18:18.130
+Patrik Stas: there's like credentials built on top of like open Id connect with so much stuff going on. It's like it's very difficult to keep up and and
+
+726
+01:18:18.730 --> 01:18:30.160
+George Mulhearn: be on top of everything
+
+727
+01:18:30.490 --> 01:18:31.380
+George Mulhearn: like
+
+728
+01:18:31.580 --> 01:18:36.350
+George Mulhearn: issue of the 2 stuff and prove presentation feat
+
+729
+01:18:36.640 --> 01:18:42.650
+George Mulhearn: to stuff on occupy. I think you can specify different types of credentials, I believe.
+
+730
+01:18:44.240 --> 01:18:45.719
+George Mulhearn: So maybe that's a
+
+731
+01:18:46.270 --> 01:18:47.530
+George Mulhearn: place to look.
+
+732
+01:18:50.470 --> 01:18:54.469
+Patrik Stas: Yeah, yeah, that's a that's a good point. I think. I also do.
+
+733
+01:18:54.770 --> 01:19:03.799
+Patrik Stas: I'm not sure. It's fully implemented by. I think also they would be so. Perhaps perhaps they also. Yeah, they also.
+
+734
+01:19:04.580 --> 01:19:08.259
+Patrik Stas: I have quite a wide range of of support in that sense.
+
+735
+01:19:10.250 --> 01:19:24.739
+Patrik Stas: Well, all right i'm not gonna go. I I kind of it just to to structure. Here I put the task by clock for the things which were discussed like. Oh, we should do this in the future. But it's something we already like covered before. Probably.
+
+736
+01:19:25.120 --> 01:19:34.359
+Patrik Stas: So it just kind of sits here and maybe someday we can pull it into the like new tasks, or work in progress if somebody takes some of these.
+
+737
+01:19:35.540 --> 01:19:39.989
+Patrik Stas: well, I guess. Is that all that being said.
+
+738
+01:19:42.070 --> 01:19:43.559
+Patrik Stas: We covered everything.
+
+739
+01:19:44.560 --> 01:19:55.249
+George Mulhearn: I guess it's it's time to turn off our computers and go enjoy the Christmas time. Exactly. Yeah,
+
+740
+01:19:55.270 --> 01:19:58.349
+George Mulhearn: Will there be a meeting next week on
+
+741
+01:19:58.960 --> 01:20:07.440
+Patrik Stas: next. Yeah, yeah, there, there will be a meeting next week, so if you are free, feel free to, you know, I to have you here? It's
+
+742
+01:20:07.570 --> 01:20:10.730
+Patrik Stas: Oh, it's nice a discussion
+
+743
+01:20:12.320 --> 01:20:17.720
+Patrik Stas: but if not, that's fine, you know, as as your options are depending on.
+
+744
+01:20:18.260 --> 01:20:21.079
+Patrik Stas: If If there is something to discuss or not.
+
+745
+01:20:22.240 --> 01:20:27.470
+Patrik Stas: All right. So if you have time take a look at those Pr. And
+
+746
+01:20:27.520 --> 01:20:28.949
+Patrik Stas: and
+
+747
+01:20:31.240 --> 01:20:41.600
+Patrik Stas: and yeah, mostly we should now, I guess, enjoy enjoy Christmas time. Not take a bit of a break from from every single.
+
+748
+01:20:42.180 --> 01:20:50.150
+Patrik Stas: all different types of credentials. Yeah, we are struggling to keep up with.
+
+749
+01:20:50.430 --> 01:20:53.039
+Patrik Stas: Okay, Anything else from your side?
+
+750
+01:20:53.310 --> 01:20:54.559
+George Mulhearn: No good.
+
+751
+01:20:54.840 --> 01:21:00.429
+Patrik Stas: Okay. Awesome. So yeah, thank you. Thank you so much for joining in
+
+752
+01:21:01.130 --> 01:21:03.879
+Patrik Stas: enjoy the Christmas, and happen you here
+
+753
+01:21:04.560 --> 01:21:06.870
+George Mulhearn: go you to see you next time.
+
+754
+01:21:07.160 --> 01:21:08.979
+Patrik Stas: See you bye.
+

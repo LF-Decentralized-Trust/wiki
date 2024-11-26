@@ -1,0 +1,14 @@
+13:06:48	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=50136033
+13:06:50	 From  baha : Also https://github.com/hyperledger/aries-rfcs/pull/635 for kid/skid referencing
+13:23:01	 From  Troy Ronda : What are we doing for the BBS+ one?
+13:36:03	 From  Timo Glastra : I'm working on the BBS+ RFC. Can have an initial version by next week
+13:36:15	 From  Troy Ronda : Awesome - looking forward to it.
+13:39:31	 From  Troy Ronda : I’d prefer that we just make it an example.
+13:43:59	 From  Troy Ronda : With BBS+ signatures, the @id (if present) is included in the child revealed RDF statements.
+13:45:51	 From  Timo Glastra : I like the thread id approach
+13:51:06	 From  Timo Glastra : Maybe a little note about the ~please_ack decorator can be added?
+13:54:41	 From  Timo Glastra : I think we should simplify the decorator
+13:57:14	 From  Timo Glastra : Suprisingly we've implemented this in AFJ
+13:57:19	 From  Timo Glastra : But just the most basic version
+14:09:04	 From  Troy Ronda : I think 0434 still need a checkmark set in the list.
+14:14:37	 From  Troy Ronda : What’s left for 510?

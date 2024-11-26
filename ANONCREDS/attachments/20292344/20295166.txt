@@ -1,0 +1,1194 @@
+WEBVTT
+
+1
+00:00:02.770 --> 00:00:09.820
+Stephen Curran: All right. Welcome to the June nineteenth, 2,023, and on credit specification working group meeting.
+
+2
+00:00:10.100 --> 00:00:20.240
+Stephen Curran: do things talk about. Unfortunately, a new zoom like it's causing lots of fun today that not people are when they find the room, unfortunately have the wrong link. So that's not good
+
+3
+00:00:20.310 --> 00:00:27.279
+Stephen Curran: record on the 0 1 0 release. a little bit on the workshop we had.
+
+4
+00:00:28.060 --> 00:00:30.169
+Stephen Curran: mentorship program.
+
+5
+00:00:30.250 --> 00:00:35.180
+Stephen Curran: We're delighted to have started and making great progress already.
+
+6
+00:00:35.730 --> 00:00:39.909
+Stephen Curran: I don't have the to do this, so I think I'm going to knock that off the list
+
+7
+00:00:40.280 --> 00:00:48.979
+Stephen Curran:  as much as in a form that I'd like to have it in, so I think I'll knock that off the off the list.
+
+8
+00:00:49.450 --> 00:00:59.930
+Stephen Curran:  I just put the chat like into the agenda. In case anyone wants to update, I'm gonna head it
+
+9
+00:01:01.540 --> 00:01:07.750
+Stephen Curran: turn on editing. So I can update as we go. So we're not going to get to that this week.
+
+10
+00:01:08.240 --> 00:01:20.769
+Stephen Curran:  The big thing I want to talk about was a couple of things on revocation approaches and and go over possibilities. There, there's a few things happening that I wanted to share.
+
+11
+00:01:21.250 --> 00:01:33.199
+Stephen Curran: we are recording this a reminder. This is a Linux Foundation Hyper Ledger Foundation meeting. So Linux Foundation antitrust policy is in effect. and as well the Covid conduct
+
+12
+00:01:34.080 --> 00:01:39.710
+Stephen Curran:  or welcome.
+
+13
+00:01:39.790 --> 00:01:48.310
+Stephen Curran: I reached out here. I think he was here last time as well, but really like to welcome him. He is the hyper Ledger mentor
+
+14
+00:01:48.420 --> 00:01:58.779
+Stephen Curran: for the men from the mentorship program. And so he's joining us is beginning work on the and on credit specification implementation. So basically, they
+
+15
+00:01:59.110 --> 00:02:06.439
+Stephen Curran:  coming up with and completing the work on the cryptography in
+
+16
+00:02:06.510 --> 00:02:11.629
+Stephen Curran: and on threads and aligning it with the implementation. He already has
+
+17
+00:02:11.750 --> 00:02:17.989
+Stephen Curran: done some great work this week. It was good to see him following, working with Mike Lotter.
+
+18
+00:02:18.050 --> 00:02:34.030
+Stephen Curran: Richard and Mike Lot are working together really nicely on on coming up with how the sales file is generated in the revocation process. So very cool. We'll see a full request relatively soon. So definitely a huge welcome or reach out.
+
+19
+00:02:36.940 --> 00:02:38.650
+Stephen Curran: Thanks for joining us.
+
+20
+00:02:42.270 --> 00:02:44.100
+Stephen Curran: Okay,
+
+21
+00:02:45.670 --> 00:02:47.350
+Stephen Curran: from.
+
+22
+00:02:47.930 --> 00:03:08.450
+Stephen Curran: as as I mentioned in the, in the, in our credits announcements, the 0 1 0 rust implementation was officially released. So we have that it is still using the ers to create. But we'll soon transition that over to you to see our signatures create. So that's good.
+
+23
+00:03:08.710 --> 00:03:16.299
+Stephen Curran:  And it started to be used. I believe it is in the 0 4 0
+
+24
+00:03:16.420 --> 00:03:18.410
+Stephen Curran: so
+
+25
+00:03:19.460 --> 00:03:24.310
+Stephen Curran: frameworks areas, frameworks. Javascript.
+
+26
+00:03:24.610 --> 00:03:25.550
+Stephen Curran: code.
+
+27
+00:03:25.800 --> 00:03:28.610
+Stephen Curran: So that's good to see.
+
+28
+00:03:29.270 --> 00:03:49.759
+Stephen Curran: then good to have that out there. that allows us to keep moving forward with making that the official or or we use release. there is work going on in to get it used there. It's not complete yet. but we are working on it so hopefully, that will be available very soon.
+
+29
+00:03:50.740 --> 00:03:58.750
+Stephen Curran: and we can transition away from the the older implementations of an on credits into this new one.
+
+30
+00:03:59.300 --> 00:04:06.469
+Stephen Curran:  and on correct. V, 2 working group. last week we talked about how the model
+
+31
+00:04:06.700 --> 00:04:13.319
+Stephen Curran: supports the multiple underlying cryptographic signatures. So in in our
+
+32
+00:04:13.470 --> 00:04:22.700
+Stephen Curran: there are currently 4 signatures that Mike water has worked with and and has
+
+33
+00:04:22.730 --> 00:04:24.420
+Stephen Curran: It has demonstrated
+
+34
+00:04:24.640 --> 00:04:30.320
+Stephen Curran:  signatures
+
+35
+00:04:30.510 --> 00:04:55.699
+Stephen Curran: pbs, plus signatures and Ps signatures. The latter 2 are the most likely to be you know, the first, the most commonly used. And so those are, might sort of show how the different models are supported and basically how we get all the features, or almost all the features depending on the signatures use
+
+36
+00:04:55.810 --> 00:05:01.450
+Stephen Curran: from a 0 knowledge proof. the the cryptographic primitives.
+
+37
+00:05:01.500 --> 00:05:09.369
+Stephen Curran: to be able to use the to use the different signals. next week we'll be talking about presentation data models.
+
+38
+00:05:10.880 --> 00:05:17.850
+Stephen Curran: So with that, anything, anyone have any other topics they want to raise for this meeting in particular.
+
+39
+00:05:21.510 --> 00:05:22.380
+Stephen Curran: Okay.
+
+40
+00:05:22.780 --> 00:05:38.149
+Stephen Curran: jumped down to the and on Friday's workshop report. I'll just briefly cover that we did have in a concrete workshop couple of weeks ago, really well attended. very happy with it. This is the first meeting since then of of that. So just to to recap, we had
+
+41
+00:05:38.890 --> 00:05:46.439
+Stephen Curran:  around 400 people express interest. close to 200.
+
+42
+00:05:46.670 --> 00:05:47.760
+Stephen Curran: so what?
+
+43
+00:05:47.830 --> 00:05:54.639
+Stephen Curran:  you know, for the initial part of it, and over the entire
+
+44
+00:05:54.710 --> 00:06:01.829
+Stephen Curran: workshop long up with the 70 left at the end 3 and a half hours in which is excellent.
+
+45
+00:06:01.890 --> 00:06:20.779
+Stephen Curran: so lots of interest there. we did use a tool for doing the the the lab labs in the course that worked out really well, I'm trying to get an instance of that deployed so that anyone can continue to use that. It's I believe it's still available right now.
+
+46
+00:06:20.810 --> 00:06:24.110
+Stephen Curran: but won't be available too long.
+
+47
+00:06:24.250 --> 00:06:29.039
+Stephen Curran: and so I'm trying to get a permanent instance of that running
+
+48
+00:06:29.140 --> 00:06:35.869
+Stephen Curran: so that it can be used. And people can experiment with an operates and and with other things, and verify the credentials that they can
+
+49
+00:06:36.120 --> 00:06:39.759
+Stephen Curran: basically really easily create their own
+
+50
+00:06:40.330 --> 00:06:46.140
+Stephen Curran: experiment with their own schemas and and generate them. So that's kind of cool.
+
+51
+00:06:47.560 --> 00:07:04.479
+Stephen Curran: 2 things that I mentioned that are on the list to do are Is it to do list. I I actually have it to New List, written in in pretty rough form, but more or less, it's it's handwritten on on my ipad. So not really in a form for sharing.
+
+52
+00:07:04.550 --> 00:07:24.740
+Stephen Curran: And then One of the things that I reached a mic and I are working on is sort of coming up with a way to in the specification how to balance out, you know, making the spec understandable of how the the process works, and putting in the precision of the
+
+53
+00:07:24.800 --> 00:07:36.230
+Stephen Curran: cryptographic details for the staff. And so we're gonna take a look at a couple of examples. how pbs plus has submitted to. I it app
+
+54
+00:07:36.510 --> 00:07:40.699
+Stephen Curran: and Mike also has access to how the
+
+55
+00:07:40.840 --> 00:07:48.819
+Stephen Curran: yes, signatures are submitting theirs to itf, and we'll take a look at those for how
+
+56
+00:07:49.060 --> 00:07:55.349
+Stephen Curran: how to best to balance those 2 sort of competing
+
+57
+00:07:55.650 --> 00:08:05.839
+Stephen Curran: goals, making the step understandable and useful, and to to everyone, and providing the detailed cryptography necessary to implement it.
+
+58
+00:08:08.540 --> 00:08:15.190
+Stephen Curran: With that I wanted to talk about revocation today. So let me take a moment to
+
+59
+00:08:16.190 --> 00:08:20.009
+Stephen Curran: move this so I can get access to my command line.
+
+60
+00:08:20.530 --> 00:08:34.230
+Stephen Curran: I guess. Let me do it this way.  Revocation, option. So
+
+61
+00:08:34.320 --> 00:08:38.430
+Stephen Curran: it's all good. I wanted to take a look at
+
+62
+00:08:38.590 --> 00:08:51.539
+Stephen Curran: sort of where we are with revocation options and and share that. So jump in any time. If anyone has questions, I can see hands raised or chat so feel free to
+
+63
+00:08:51.960 --> 00:08:54.479
+Stephen Curran: let me know if I'm
+
+64
+00:08:55.110 --> 00:08:59.119
+Stephen Curran: people are interested in jumping in
+
+65
+00:08:59.180 --> 00:09:21.890
+Stephen Curran:  So we need to replace the insufficiently scalable, and our first one as soon as possible. revocation is a requirement of almost all used cases, and that's true. But do they realize it or not? I mean, there's a lot that aren't using it right off, but almost certainly they they. They would use it if they could.
+
+66
+00:09:21.980 --> 00:09:36.220
+Stephen Curran: We definitely want to use expiry dates in, verify the credentials. those are crucial, but not sufficient. so we want. We must be able to support replication as well, and and every provincial team needs to be able to.
+
+67
+00:09:37.080 --> 00:09:41.920
+Stephen Curran: I'm going to talk about the options in terms of the participants.
+
+68
+00:09:42.090 --> 00:09:48.499
+Stephen Curran: the attributes and trade offs and then the options themselves. What are the the?
+
+69
+00:09:48.840 --> 00:10:01.159
+Stephen Curran: I think we're up to 5 different ways of doing it right now. the participants obviously issue works holders and verifiers. We know about those issuers issue and revoke
+
+70
+00:10:01.250 --> 00:10:12.159
+Stephen Curran: unilaterally revoked. They want to be able to, you know whether they notify the holder or not, they want to be able to revoke the credential the holder wants to be able to prove
+
+71
+00:10:12.290 --> 00:10:14.970
+Stephen Curran: that they are.
+
+72
+00:10:14.990 --> 00:10:17.779
+Stephen Curran: they have a credential that has not been revoked.
+
+73
+00:10:18.270 --> 00:10:25.979
+Stephen Curran: And then the verifiers want to verify that when they get a credential from a holder that it has not been been revoked.
+
+74
+00:10:26.830 --> 00:10:41.679
+Stephen Curran:  what we found recently is based on various choices or options available for revocation. We've got sort of 3 resources of of data.
+
+75
+00:10:42.250 --> 00:11:01.480
+Stephen Curran: the verifiable data registry is one, and that's what obviously is is commonly used. ledgers. That's what Indie uses for an opera which is the source of the revocation data, whether it's the source of data for the holder, for the verifier, for both
+
+76
+00:11:01.860 --> 00:11:03.470
+Stephen Curran: is the ledger itself.
+
+77
+00:11:04.060 --> 00:11:18.880
+Stephen Curran: That's that's one way to do it. Several schemes have come out now with what are called revocation managers. The Revocation Manager might be simply the issuer, but also might be someone
+
+78
+00:11:19.330 --> 00:11:32.770
+Stephen Curran: somewhat independent of the issue, or they have to work with the issuer but they can be independent of the issuer. So the Revocation manager is a term we will start to see. Now in some of these teams.
+
+79
+00:11:33.210 --> 00:11:44.580
+Stephen Curran:  basically, they interact with the issue or to get revocation information, and then they respond to request from holders and or verifiers for revocation status information.
+
+80
+00:11:44.790 --> 00:11:45.740
+Stephen Curran: So
+
+81
+00:11:46.110 --> 00:11:49.010
+Stephen Curran:  they.
+
+82
+00:11:50.460 --> 00:11:55.640
+Stephen Curran: The idea here is is that although the scheme is
+
+83
+00:11:55.700 --> 00:12:04.240
+Stephen Curran: a call back to the issuer by the holder to get some information necessary to prove that their credential has not been revoked.
+
+84
+00:12:04.250 --> 00:12:07.270
+Stephen Curran: it would be nice if they were separated
+
+85
+00:12:07.360 --> 00:12:08.870
+Stephen Curran: from the
+
+86
+00:12:08.920 --> 00:12:20.940
+Stephen Curran: issue or so you were calling home to the issue or so revocation manager is a way to do that As noted. The Revocation Manager could indeed be the issue, or
+
+87
+00:12:21.750 --> 00:12:38.699
+Stephen Curran: and they respond to request from the holders for for that information. But but they, you know, in addition to being the issue where they could be independent and simply the issue, or publishes information to them. And the Revocation Manager response uses that information to respond to holders.
+
+88
+00:12:39.320 --> 00:12:51.769
+Stephen Curran: and then the last is sort of a combination of the 2 as well is is a file server which is a revocation manager, or even a a a Vdr of the verifiable data registry where
+
+89
+00:12:51.830 --> 00:13:02.069
+Stephen Curran: the revocation manager is passive. In other words, the file server provides static files, not a server-generated response. So a revocation manager is is.
+
+90
+00:13:02.240 --> 00:13:17.550
+Stephen Curran: you know, kind of by definition, an active component. it gets a request. It does some sort of calculation, it returns the result. A file server in in the way I'm using it. Here is is a revocation manager, where all it does is pass back a file.
+
+91
+00:13:17.570 --> 00:13:28.019
+Stephen Curran: so it it. It somehow has a static file usually received from the issuer, and it passes it back. but verify the data registry.
+
+92
+00:13:28.810 --> 00:13:43.120
+Stephen Curran: Interestingly, of a verify, the data registry could absolutely be that passive file server in in the, it's kind of interesting and that it's a combination of those 2, because in the actually.
+
+93
+00:13:43.230 --> 00:13:50.390
+Stephen Curran: the the leisure does a calculation and passes back a result. So in Indy.
+
+94
+00:13:50.480 --> 00:13:52.389
+Stephen Curran: the
+
+95
+00:13:52.480 --> 00:13:55.049
+Stephen Curran: status, the static data.
+
+96
+00:13:55.090 --> 00:14:01.070
+Stephen Curran: that is passed from the issue or and put on to the nd, leisure is delta
+
+97
+00:14:01.140 --> 00:14:08.630
+Stephen Curran: of what credentials have been revoked or UN revoked. So those get collected by the Vdr. By Indy.
+
+98
+00:14:08.640 --> 00:14:11.100
+Stephen Curran: and then on request.
+
+99
+00:14:11.180 --> 00:14:19.899
+Stephen Curran: in the sense that a a a calculation that is all of the downs is collected.
+
+100
+00:14:20.280 --> 00:14:24.979
+Stephen Curran: From the time the holder has requested it to the current time.
+
+101
+00:14:25.350 --> 00:14:28.629
+Stephen Curran: or or at least for a time range.
+
+102
+00:14:29.260 --> 00:14:38.459
+Stephen Curran: And so this is somewhat different. This this is not. This is different than a a generic file server. On the other hand,
+
+103
+00:14:39.130 --> 00:14:46.700
+Stephen Curran: in the Bdr approach used by check, for example, they actually in that implementation
+
+104
+00:14:46.940 --> 00:15:04.749
+Stephen Curran: the the Ddr. The the checked ledger, is operating as a file server. It is getting the full state of all of the credentials within it, and it's passing back the results to the holder. That is simply the state that was given by the issue. Or so it's it's much more
+
+105
+00:15:04.780 --> 00:15:28.519
+Stephen Curran: passive. It doesn't have to do a calculation, and that's a in my mind that's a better quality, a better attribute in that the the ledger in this case doesn't have to know anything special about revocation or to do any special operation. It just treats the data as this is what the issue or put onto the ledger. And here's what I'm giving back to you from the ledger.
+
+106
+00:15:29.660 --> 00:15:32.819
+Stephen Curran: So hopefully, those participants make sense the
+
+107
+00:15:33.070 --> 00:15:39.479
+Stephen Curran: the 3 kind of blur together. But but there's definitely the same differences between them.
+
+108
+00:15:41.420 --> 00:15:42.380
+Stephen Curran: Okay.
+
+109
+00:15:43.820 --> 00:15:55.530
+Stephen Curran: so here are sort of the characteristics, the attributes of the schemes and the trade-offs amongst them. so a hard requirement for all of them. Just.
+
+110
+00:15:55.640 --> 00:16:02.209
+Stephen Curran: It doesn't make the list unless it is one that no linkable identifier is given to the verifier
+
+111
+00:16:03.220 --> 00:16:12.599
+Stephen Curran:  that is somewhat undercut, or can be undercut if
+
+112
+00:16:12.760 --> 00:16:17.989
+Stephen Curran: the scale is such that the identifier is not large enough. So this third one.
+
+113
+00:16:18.010 --> 00:16:27.760
+Stephen Curran: If the rep replication registry size is not large enough to hide in the crowd, then a linkable identifier can be derived from multiple
+
+114
+00:16:27.900 --> 00:16:31.249
+Stephen Curran: credentials that are in different registries.
+
+115
+00:16:31.290 --> 00:16:37.940
+Stephen Curran: So although, for example, the the current and on threads
+
+116
+00:16:37.990 --> 00:16:42.500
+Stephen Curran: does not provide a linkable identifier. it doesn't
+
+117
+00:16:42.550 --> 00:16:53.829
+Stephen Curran: sort of past muster because the size of the revocation registers is small enough that, given, say, 2 credentials, the likelihood of
+
+118
+00:16:53.980 --> 00:17:08.420
+Stephen Curran: 2 2 credentials that have a large population, chances are that will produce a a linkable identifier. That combination of registry replacement registry identifiers will be
+
+119
+00:17:08.589 --> 00:17:10.179
+Stephen Curran: will we?
+
+120
+00:17:10.240 --> 00:17:15.699
+Stephen Curran: unique enough that you you? Pretty well, yeah, a linkable identifier. So
+
+121
+00:17:16.630 --> 00:17:27.050
+Stephen Curran: part of requirement there. Register of revocation registry sides must be large enough. There will be a replication registry. Id to find the information.
+
+122
+00:17:27.430 --> 00:17:32.710
+Stephen Curran: and usually a revocation. Id is the
+
+123
+00:17:32.840 --> 00:17:40.549
+Stephen Curran: Revocation Registry id plus the index within that revocation registry. So that that is the information
+
+124
+00:17:40.680 --> 00:17:51.559
+Stephen Curran:  that revocation id, whether it's named or not in a particular scene as a essentially exists, and that is how a the
+
+125
+00:17:51.660 --> 00:17:57.799
+Stephen Curran: the holder's specific credential is identified. So you can tell whether it's been revoked or not.
+
+126
+00:17:57.950 --> 00:18:02.379
+Stephen Curran: and ideally, that is shared between the issue and the holder. Only.
+
+127
+00:18:03.320 --> 00:18:05.410
+Stephen Curran: So the
+
+128
+00:18:06.180 --> 00:18:32.330
+Stephen Curran:  that's basically just a characteristic that there's a revocation register. Id. That's usually very latent and and specific. It's leverage. Id exists somewhere. But there is also the index of the credential, and the combination of the 2 is the revocation. Id. That is the thing we don't want to share with the verifier. That would be a unique
+
+129
+00:18:32.850 --> 00:18:36.059
+Stephen Curran: linkable identifier. So that's the thing we're not sharing
+
+130
+00:18:38.770 --> 00:18:48.690
+Stephen Curran: a a another hard requirement is that there essentially be some mechanism that allow an effectively unlimited number of credentials for credential type.
+
+131
+00:18:48.760 --> 00:18:57.040
+Stephen Curran: So if the revocation registered size is limited, there must be some way to have multiple registries for a provincial type. So
+
+132
+00:18:57.660 --> 00:19:02.840
+Stephen Curran: this is supported in and on press, obviously with, you know, even though that
+
+133
+00:19:02.890 --> 00:19:06.690
+Stephen Curran: say 10,000 is the Max you can have for a for a
+
+134
+00:19:06.760 --> 00:19:12.320
+Stephen Curran: a a replication registered each specific one. A 8
+
+135
+00:19:12.600 --> 00:19:15.350
+Stephen Curran: credential type can have many of them.
+
+136
+00:19:15.360 --> 00:19:25.880
+Stephen Curran: And so you get effectively unlimited lots of things to manage and stuff like that. But you get effectively a unlimited number of registers
+
+137
+00:19:26.060 --> 00:19:30.670
+Stephen Curran: unlimited number of credentials per credential type
+
+138
+00:19:32.000 --> 00:19:34.500
+Stephen Curran: I talked about. Call home earlier
+
+139
+00:19:34.720 --> 00:19:42.470
+Stephen Curran: call home is a thing that would be really nice to avoid. So this is the idea that
+
+140
+00:19:42.500 --> 00:19:51.640
+Stephen Curran: the issuer of the credential can track what the the holder is doing with their credential. If they can
+
+141
+00:19:51.870 --> 00:19:57.269
+Stephen Curran: correlate that the the the holder has to do something.
+
+142
+00:19:57.550 --> 00:20:02.740
+Stephen Curran: it has to interact with the issuer every time they go to use it. or
+
+143
+00:20:02.810 --> 00:20:05.250
+Stephen Curran: and and worse.
+
+144
+00:20:06.000 --> 00:20:23.349
+Stephen Curran: if the holder has to call back to the issue, or to get a piece of data to create a registered a presentation, and then immediately the verifier has to go get a piece of information to verify it. that actually could enable the issue or to to
+
+145
+00:20:23.550 --> 00:20:28.269
+Stephen Curran: use the metadata basically to track. Oh, this holder.
+
+146
+00:20:28.280 --> 00:20:34.319
+Stephen Curran: create a presentation. And this verifier verify one right in
+
+147
+00:20:34.420 --> 00:20:40.659
+Stephen Curran: the same period of time. So probably that folder is interacting with that verifier. And again, that's
+
+148
+00:20:40.770 --> 00:20:52.269
+Stephen Curran: collect allowing the issue or collect more information. So basically, we want to. it would be nice if we could avoid calling home during presentation entirely.
+
+149
+00:20:52.480 --> 00:21:01.560
+Stephen Curran: or at least enough that we could avoid can minimize either the actual or perception of tracking
+
+150
+00:21:01.920 --> 00:21:05.630
+Stephen Curran: by the assure. And so this is where that
+
+151
+00:21:05.880 --> 00:21:06.890
+Stephen Curran: that
+
+152
+00:21:07.120 --> 00:21:14.669
+Stephen Curran: you know, avoiding that tracking or the perception of that tracking gets interesting when you talk about a
+
+153
+00:21:14.770 --> 00:21:20.420
+Stephen Curran: revocation manager that is independent, supposedly independent of the issuer.
+
+154
+00:21:21.400 --> 00:21:23.730
+Stephen Curran:  they.
+
+155
+00:21:23.770 --> 00:21:47.109
+Stephen Curran: if if they are actually colluding together the issuer and the revocation managers and such that they're sharing. For example, weblog information. that tracking can still happen. And so the more we can get away from that the better. This is again why, the ledger is a good place to do that. If the ledger is independent of the issue, or
+
+156
+00:21:47.280 --> 00:22:03.979
+Stephen Curran: Then the whole. They're calling the the the ledger to get some piece of data and to verify calling the ledger to get pieces of data is, is far more difficult. to actually get collusion going on such that tracking can be done
+
+157
+00:22:04.010 --> 00:22:13.169
+Stephen Curran: very unlikely that that could happen. So that's where the leisure is. you know, kind of the ideal replication manager.
+
+158
+00:22:14.190 --> 00:22:20.250
+Stephen Curran: so basically call of assessments must be considered must consider the likelihood of collusion
+
+159
+00:22:21.010 --> 00:22:23.129
+Stephen Curran: so hopefully that makes sense.
+
+160
+00:22:24.870 --> 00:22:32.629
+Stephen Curran:  this, this, this page goes to the amount of effort that the
+
+161
+00:22:32.780 --> 00:22:50.980
+Stephen Curran: parties must go through. so we can assume an issue, or it's an enterprise app or has sufficient power to track all of all issuances. That's just a given. If an issue or wants to revoke the credential after issues it, it must track all the issues issue uses
+
+162
+00:22:50.990 --> 00:23:04.359
+Stephen Curran: the Revocation Id. And whoever the holder is that that credential was issued to so that it knows if later something happens that it needs to revoke it. it has all the information necessary to do it.
+
+163
+00:23:05.210 --> 00:23:07.569
+Stephen Curran: It can unilaterally relax
+
+164
+00:23:07.680 --> 00:23:12.839
+Stephen Curran: revoke credentials, I mean, with or without letting a hold or know
+
+165
+00:23:12.870 --> 00:23:16.770
+Stephen Curran: they've been They've been
+
+166
+00:23:17.140 --> 00:23:35.199
+Stephen Curran:  you unilaterally revoked credentials. With or without contacting them. And finally, they have to be able to publish revocation as necessary immediately or in batches. So whatever
+
+167
+00:23:35.840 --> 00:23:37.380
+Stephen Curran: the
+
+168
+00:23:37.500 --> 00:23:43.839
+Stephen Curran: there can be a decent amount of processing necessary. It can't be obviously
+
+169
+00:23:44.160 --> 00:23:53.630
+Stephen Curran: a a a ridiculous amount of of processing for an issue, or to publish a revocation. But it can be.
+
+170
+00:23:53.690 --> 00:24:10.749
+Stephen Curran: you know, a relatively costly calculation. And that's okay. It is not. we assume that an issue or basically is not a mobile app. And therefore it's limited by its or has it has severe limits on its processing, or
+
+171
+00:24:11.300 --> 00:24:15.000
+Stephen Curran: processing or or data
+
+172
+00:24:15.170 --> 00:24:20.560
+Stephen Curran: the size of the data files is dealing with that. It's an enterprise app. It can handle things like that.
+
+173
+00:24:21.000 --> 00:24:38.320
+Stephen Curran: Apologize. I missed the question earlier. What do we mean by perception of tracking versus tracking proper. just to get back to that a little bit. provide. This is for a particularly sensitive issue for
+
+174
+00:24:38.570 --> 00:24:39.830
+Stephen Curran: governments.
+
+175
+00:24:40.350 --> 00:24:43.810
+Stephen Curran: and that is that certainly in
+
+176
+00:24:43.830 --> 00:25:09.299
+Stephen Curran: and a number of places. And this has been very true in Canada at least, and I think in Europe as well. There's a great desire that The government not only not track, but also not be perceived as tracking the issue works, and and one of the things that can happen is that basically initiative set up to provide this type of digital trust and digital identity.
+
+177
+00:25:09.360 --> 00:25:36.570
+Stephen Curran: has been blocked or eliminated. Not not necessarily because the technology was bad, but the perception was bad. And so one of the things that that governments are particularly sensitive to. And that's why I you know we raise this and talk about this as as one of the concerns when I put my PC. Up on is is making sure that there's not a that
+
+178
+00:25:37.070 --> 00:25:49.269
+Stephen Curran: that we're able to provide as much evidence as possible that we're not tracking. And and we're, you know, going out of our way to put it a scheme in place so that we're not tracking it. So that's what I mean by perception and tracking
+
+179
+00:25:49.360 --> 00:25:50.730
+Stephen Curran: If
+
+180
+00:25:51.090 --> 00:26:01.160
+Stephen Curran: you know, for example, the the government PC. Got domain is gov.ca, if all of the calls from the web from the web app to
+
+181
+00:26:01.750 --> 00:26:12.460
+Stephen Curran: when when you present a transact, when you try you when you present a credential, there's always a call back to a Gov. DC. A domain.
+
+182
+00:26:12.500 --> 00:26:16.370
+Stephen Curran: Well, that would be a bad thing, and that would be a perception that oh.
+
+183
+00:26:16.420 --> 00:26:26.589
+Stephen Curran: the government was just notified that you use your web app to do a a call, a a presentation. You were sharing your you know you were
+
+184
+00:26:26.770 --> 00:26:37.159
+Stephen Curran: proving your age. and in doing that you've called back to Wc. A to do that. That's not what we want. Does that make sense?
+
+185
+00:26:41.850 --> 00:26:42.760
+Stephen Curran: Okay?
+
+186
+00:26:46.100 --> 00:26:52.010
+Stephen Curran: we assume the holder is a wall of a wallet, Webex.
+
+187
+00:26:52.210 --> 00:27:11.089
+Stephen Curran: It doesn't have to be a wallet web app, but it will be a common use case. And so that's kind of the lowest common denominator. So should not have to download substantial files during presentation, eg, shouldn't be more than a megabyte of information, as at the outside of how big a file should be
+
+188
+00:27:11.430 --> 00:27:26.769
+Stephen Curran: and presentation generation. Time should be relatively short and along the side along the expectation of of a of a a web app. So they one to 3 s, including data collection. So from the point, you say, oh, I want to.
+
+189
+00:27:26.950 --> 00:27:30.700
+Stephen Curran:  you know, generate a proof. I scan
+
+190
+00:27:30.800 --> 00:27:47.189
+Stephen Curran: I scan it, and I get a prop back saying, Do you want to send this, that presentation generation? Time should be pretty short in the into the one to 3 s, including data collection and and other activities going on user interface and so on.
+
+191
+00:27:49.040 --> 00:27:56.139
+Stephen Curran: surprisingly, assume, the verifier is also on mobile app. Again, this is less likely
+
+192
+00:27:56.240 --> 00:28:04.239
+Stephen Curran: but will be a common use case. We think, in us, particularly in in you know.
+
+193
+00:28:04.470 --> 00:28:15.680
+Stephen Curran: personal identification, that that a point of sale terminal that a a kiosk ipad key to us, that actually
+
+194
+00:28:15.700 --> 00:28:39.319
+Stephen Curran: a a user scanning it will be a verifier app. And so while this is not nearly as likely as the holder. similar attribute should be taken into place, so that the verifier can be a mobile app. So again, do not have to download substantial files verify. Our time should be short, basically the same
+
+195
+00:28:39.320 --> 00:28:46.790
+Stephen Curran: criteria as a holder. So that's not as common commonly seen. But we're seeing that
+
+196
+00:28:46.830 --> 00:28:48.540
+Stephen Curran: a a lot more often.
+
+197
+00:28:50.360 --> 00:28:58.270
+Stephen Curran: Why is it not a requirement to notify the holder? And then the holder can ignore the notification. Doesn't the holder get notified when a credential is issued.
+
+198
+00:28:58.300 --> 00:29:09.859
+Stephen Curran: so a holder definitely gets notified when a credential gets issued? But they don't necessarily get notified when a credential is revoked. And so that's what I'm talking about. Does that make sense?
+
+199
+00:29:10.270 --> 00:29:29.729
+Stephen Curran: so Aries has a so if an issuer retains a connection or relationship, or did calm connection with a holder? there is a protocol that allows the issue where to notify the holder that their credentials been revoked. But if no such thing
+
+200
+00:29:29.840 --> 00:29:41.510
+Stephen Curran: But if no such thing exists, then it's that they do not have to notify, and the wall at the holder would not know, not necessarily know, that their credentials been revoked.
+
+201
+00:29:43.200 --> 00:29:54.659
+Stephen Curran: So if they're using something like open Id for for Vcs, there is no mechanism to allow a issue, or to reach out to a holder, say, Hey, your credentials been revoked so
+
+202
+00:29:54.670 --> 00:29:59.440
+Stephen Curran: That would have to be a separate topic. Does that? Does that answer the question?
+
+203
+00:30:07.340 --> 00:30:11.540
+Stephen Curran: So it makes it tricky for the holder, because, They have to.
+
+204
+00:30:12.260 --> 00:30:36.760
+Stephen Curran: They can. They may be able to monitor something like a ledger to see when their credential gets revoked. they can certainly determine at the time they generate a generate, a presentation. Oh, crap! My my credentials been revoked, and they realize that so they would know it before they share it. But they may not notice until the time they go to construct the presentation that their credentials been revoked.
+
+205
+00:30:38.730 --> 00:30:39.640
+Stephen Curran: Okay.
+
+206
+00:30:40.960 --> 00:30:48.579
+Stephen Curran: so attributes characteristics and trade off. One more is preferences.
+
+207
+00:30:48.680 --> 00:30:51.539
+Stephen Curran: holders and verifiers collect those.
+
+208
+00:30:51.990 --> 00:31:06.140
+Stephen Curran:  what have I done. There we go, holders and verifiers collect data from different sources. So that's a preference. this is that comes back to that perception of
+
+209
+00:31:07.050 --> 00:31:15.799
+Stephen Curran: tracking, and while it would be that track with a holder, it's generating a presentation. It would be even worse. Yeah.
+
+210
+00:31:16.390 --> 00:31:18.769
+Stephen Curran: the trappy was, the holder was.
+
+211
+00:31:18.820 --> 00:31:37.109
+Stephen Curran: you know, was presenting a verification in the verify, and and there there was tracking of who the verifier was at the same time that would be particularly bad, so the and so these are not hard and fast rules, but the preference would be the holders and verifiers collecting it from different sources.
+
+212
+00:31:38.540 --> 00:31:44.390
+Stephen Curran: again, nice to have the holders and verifiers collect their data from other than the issue or
+
+213
+00:31:44.920 --> 00:31:55.870
+Stephen Curran: and then this is that one revocation data sources should be perceptively independent of the issue. Or so again, that same topic that we that we went back to.
+
+214
+00:31:56.030 --> 00:32:06.450
+Stephen Curran: and and finally static source is preferred over active source. So it would be really nice if the source of data was a simple file server with static content
+
+215
+00:32:06.520 --> 00:32:17.820
+Stephen Curran: versus requiring a dynamic service which has to do some sort of calculations some sort of calculation in order to do it. It would be nice if
+
+216
+00:32:17.960 --> 00:32:26.379
+Stephen Curran: the holder could simply collect a a a static file and be able to do some sort of calculation on it. So it's on its own
+
+217
+00:32:26.550 --> 00:32:38.429
+Stephen Curran: versus calling a service which has to provide a real time, calculation, and so on. So again, not part and fast. Those are are flexible, and sometimes
+
+218
+00:32:39.050 --> 00:32:46.889
+Stephen Curran: seems like, be better, because for for different combinations of reasons. but that's one.
+
+219
+00:32:46.990 --> 00:33:04.160
+Stephen Curran: And then, finally, this is a new one that I threw in there just because I noticed it. But nice to have alignment with status list 2,021, the array technique. So for those I think most of us on the call here are aware of that's list 121 uses the iterate.
+
+220
+00:33:04.280 --> 00:33:16.350
+Stephen Curran: Now it it is. It provides a linkable information. So just, quick summary. issuer has a replication registry and a and an index A
+
+221
+00:33:16.360 --> 00:33:23.249
+Stephen Curran: that is an index into the registry. That is a, and the registry itself is a get for provincial.
+
+222
+00:33:23.800 --> 00:33:29.910
+Stephen Curran: And basically, if the the is on or off, depending on whether a credentials been revoked or not.
+
+223
+00:33:30.100 --> 00:33:39.190
+Stephen Curran: when, in using status 2021, the issue or publishes the location or the data.
+
+224
+00:33:39.200 --> 00:33:45.319
+Stephen Curran: the the the better right periodically, whatever they want to revoke credentials. The
+
+225
+00:33:45.510 --> 00:34:02.240
+Stephen Curran: issue. Once they give the index, the the reverge id plus the index to the holder on presentation. The holder gives that it that rever IP plus index to the verifier, and it's the verifier that goes looks up in the better right.
+
+226
+00:34:02.440 --> 00:34:10.529
+Stephen Curran:  One of the things it would be nice to have would be alignment with that. And the reason it's nice to have is
+
+227
+00:34:10.880 --> 00:34:14.319
+Stephen Curran: One of the things we're seeing lately is that
+
+228
+00:34:15.110 --> 00:34:21.360
+Stephen Curran:  A a verifiable credential might be issued with multiple
+
+229
+00:34:21.670 --> 00:34:27.159
+Stephen Curran: signatures on it. So a non cred plus a missed signature.
+
+230
+00:34:27.440 --> 00:34:43.509
+Stephen Curran: And what that allows is that on presentation the verifier can say I must have a NIST signature, therefore you must give me, you know, proof that there's a a a NIST base, you know a signature from the NIST
+
+231
+00:34:44.090 --> 00:34:49.930
+Stephen Curran:  you know allowable cryptography. Now.
+
+232
+00:34:50.340 --> 00:35:00.280
+Stephen Curran: when you do that, when you have. If you have that combination of a nest plus and an opera you lose. If if you use this one, you lose all of the and on credits privacy.
+
+233
+00:35:00.310 --> 00:35:10.710
+Stephen Curran: and and that just goes out the window. But at least you can present your credential if you, if the verifier does support The privacy, preserving
+
+234
+00:35:11.460 --> 00:35:29.610
+Stephen Curran: capability in parenting and on credits that you can present in an opera's credential. What would be really nice to have is not to have 2 different registries for revocation, but rather just a common one. So alignment with status list 1, 21 bitter. A technique would allow you to do that.
+
+235
+00:35:30.030 --> 00:35:33.889
+Stephen Curran: But of course the mechanism must be.
+
+236
+00:35:34.010 --> 00:35:39.970
+Stephen Curran: have those action needs. Those must have like unlink ability. So that is a requirement still.
+
+237
+00:35:40.350 --> 00:35:50.310
+Stephen Curran: But I throw that in there because one of the techniques is actually aligned with status 2021. So it would be a really nice to have if we could actually use the same
+
+238
+00:35:50.330 --> 00:35:52.540
+Stephen Curran: revocation
+
+239
+00:35:52.840 --> 00:35:58.589
+Stephen Curran: publication method with both this and and on credentials.
+
+240
+00:36:00.450 --> 00:36:05.019
+Stephen Curran: So with all that, said, Wow, that took a while we've got
+
+241
+00:36:05.360 --> 00:36:06.470
+Stephen Curran: for
+
+242
+00:36:07.190 --> 00:36:15.119
+Stephen Curran: for revocation methods that are known. and not correct. V. One that we've talked about, which is cps signatures with the Taylor as well.
+
+243
+00:36:15.220 --> 00:36:20.619
+Stephen Curran: Allosaur, which is revocation. Managers contacted the presentation time.
+
+244
+00:36:21.450 --> 00:36:32.240
+Stephen Curran: linked validity, verifiable credentials. This was a technique proposed. by  and I.
+
+245
+00:36:33.120 --> 00:36:35.790
+Stephen Curran: That's this and
+
+246
+00:36:35.870 --> 00:36:37.290
+for
+
+247
+00:36:38.590 --> 00:36:39.240
+Stephen Curran: the
+
+248
+00:36:40.850 --> 00:36:44.610
+Stephen Curran: we're published at that. So he put up the shit last. You know
+
+249
+00:36:45.150 --> 00:36:48.440
+Stephen Curran: we were talking about sleep in the week before.
+
+250
+00:36:50.430 --> 00:36:51.670
+Stephen Curran: or
+
+251
+00:37:38.650 --> 00:37:39.350
+Stephen Curran: okay.
+
+252
+00:38:06.690 --> 00:38:07.370
+Stephen Curran: Bye.
+
+253
+00:42:04.730 --> 00:42:06.129
+Stephen Curran: can you hear me
+
+254
+00:42:07.780 --> 00:42:08.860
+Stephen Curran: any luck?
+
+255
+00:42:10.950 --> 00:42:15.739
+Stephen Curran: I guess I'll try finishing.
+
+256
+00:42:16.410 --> 00:42:19.309
+Stephen Curran: Obviously I was on the last slide.
+
+257
+00:42:22.580 --> 00:42:24.410
+Stephen Curran: well.
+
+258
+00:42:25.430 --> 00:42:27.100
+Stephen Curran: all right. So that's
+
+259
+00:42:27.500 --> 00:42:38.449
+Stephen Curran: the the final slide. I don't know where I when I cut it, but I won't repeat too much, and on press gets it's red because of this.
+
+260
+00:42:38.450 --> 00:43:02.840
+Stephen Curran: we have call home on these 2 as yellows, not eliminating them. We have nice size of attributes, because all you're doing is doing the call and getting basically a the the data back. It's the revocation managers that are holding on to data. And they're providing data back. So relatively small holder size requirements.
+
+261
+00:43:03.190 --> 00:43:06.359
+Stephen Curran: zk, Sam has a larger
+
+262
+00:43:06.430 --> 00:43:19.299
+Stephen Curran: requirement, but you're not calling home. You're calling back to some static array, and it's and it is a bit array so that it does align with the status list 2020.
+
+263
+00:43:21.660 --> 00:43:32.970
+Stephen Curran: So That wraps up what I wanted to to share out. We're really looking at trying to nail down and moving forward with these.
+
+264
+00:43:33.700 --> 00:43:44.230
+Stephen Curran: I I think the Lvm is quite an interesting option that was new. It's very similar to allosaur, but, in my opinion, much less complex. It's much more aligned with
+
+265
+00:43:44.360 --> 00:43:46.659
+Stephen Curran: exactly what?
+
+266
+00:43:47.290 --> 00:44:07.009
+Stephen Curran: you know. Good, simpler way to do it. with levm, basically, you call to a a revocation manager and basically request a new credential be issued that that your credential that's not revoked, and it's therefore and has an expired.
+
+267
+00:44:07.940 --> 00:44:22.119
+Stephen Curran: or at least sorry, a a time of issuance associated with it. And so a a verifier, when they request a credential is revocable. They expect to get back the a
+
+268
+00:44:22.370 --> 00:44:46.040
+Stephen Curran: a not revoked credential as well. So it's it's very explicit. It's just using 2, and on credits to verifiable credentials, the actual credential plus the not not revoked credential. And so it's very similar. with an on credits it uses the it was issued to the same blinded late secret to show that they're bound together. The binding between
+
+269
+00:44:46.060 --> 00:44:56.090
+Stephen Curran: the revoked provincial and the and the originally it the the non revoked credential and the issue credential. Initially.
+
+270
+00:44:56.260 --> 00:44:57.220
+Stephen Curran: So.
+
+271
+00:44:59.660 --> 00:45:07.990
+Stephen Curran: those are the techniques. Zk, Sam, I think I've talked about for at least some of you before, but this is one that is the least
+
+272
+00:45:08.290 --> 00:45:19.950
+Stephen Curran: rigorously reviewed, but has some super interesting  characteristics to it. I think it's got the best characteristics.
+
+273
+00:45:20.130 --> 00:45:49.329
+Stephen Curran:  in that you get a million credentials and a revocation size. And yet, worst case, you've got 153 K file that gets put onto a file server or gets published somewhere that can be downloaded and and re and and process by the holder. So the the attributes of it are are very nice, but it is the least rigorously reviewed. In fact, it's barely been reviewed at all. So that's one we're interested in getting reviewed.
+
+274
+00:45:50.290 --> 00:46:15.689
+Stephen Curran:  so that wraps up what I was gonna share. Yes. Reference material on Lvdm. Yes, I will send it out to the mailing list, and I'll send it to you directly as well, just to make sure you get it. and yes, and and make sure you have that As I say, it was just published the other day. I can send it links to all of these.
+
+275
+00:46:16.010 --> 00:46:19.940
+Stephen Curran:  but yeah, I will do that?
+
+276
+00:46:24.040 --> 00:46:32.290
+Stephen Curran: That wraps up what I had plan for today. Is there any other any other things to talk about? Or should we
+
+277
+00:46:32.420 --> 00:46:33.580
+Stephen Curran: all of the day.
+
+278
+00:46:37.350 --> 00:46:44.360
+Stephen Curran: Next time we talk we will have whoops. Where did I go there? There?
+
+279
+00:46:44.400 --> 00:46:47.990
+Stephen Curran: I lost the screen. Oh, yes, go ahead.
+
+280
+00:46:48.500 --> 00:46:50.820
+Stephen Curran: And just listening.
+
+281
+00:46:54.600 --> 00:46:56.030
+Stephen Curran: Hi.
+
+282
+00:46:56.180 --> 00:46:59.579
+Just listening in (~Naian): I asked a question in chat
+
+283
+00:46:59.910 --> 00:47:03.510
+Just listening in (~Naian): is an education to be unlimited, basically.
+
+284
+00:47:14.710 --> 00:47:15.900
+Stephen Curran: So
+
+285
+00:47:16.440 --> 00:47:21.119
+Stephen Curran: in all of these schemes you never shit share a
+
+286
+00:47:21.370 --> 00:47:39.119
+Stephen Curran: the you never share that with the verifier. So the ability for the verifier to reverify should not it also should be actually you're right. I should put that in explicitly, as a hard requirement that is not a thing we want. We don't want to allow
+
+287
+00:47:39.630 --> 00:48:00.419
+Stephen Curran:  that would be a a, a, a privacy negative, you are absolutely correct. So in the status list, 2,021, which we don't consider you know, a a privacy preserving it. It would not meet the requirement, it because it shares an unlike it shares a linkable identifier, and
+
+288
+00:48:00.420 --> 00:48:12.129
+Stephen Curran: in in sharing that it allows for the ongoing monitoring by the verifier to see if that credential ever gets revoked. And so yes, That would be a
+
+289
+00:48:12.310 --> 00:48:14.480
+Stephen Curran: definite privacy. Negative.
+
+290
+00:48:23.270 --> 00:48:25.840
+Stephen Curran: All right. thanks, all
+
+291
+00:48:26.460 --> 00:48:40.400
+Stephen Curran: hope that that was helpful. I'm meeting with the L. Of Cl. Signatures tomorrow, and we'll be sharing some of this as well as we talk. Anna is interested in
+
+292
+00:48:40.880 --> 00:48:43.720
+Stephen Curran: in
+
+293
+00:48:43.990 --> 00:48:58.490
+Stephen Curran: understanding the state of where we are, and may be willing to help out in some way, or or or try to coordinate things. So That's a possibility. So Hart, Montgomery and I are meeting with Anna tomorrow
+
+294
+00:48:58.690 --> 00:49:00.380
+Stephen Curran: and looking forward to that.
+
+295
+00:49:04.970 --> 00:49:08.760
+Stephen Curran: All right. Have a great day, everyone for the rest of your day.
+
+296
+00:49:10.040 --> 00:49:11.859
+Stephen Curran: See again a couple of weeks.
+
+297
+00:49:11.940 --> 00:49:14.680
+jje: Bye, bye, thanks.
+
+298
+00:49:15.000 --> 00:49:15.850
+Stephen Curran: thanks.
+

@@ -1,0 +1,8 @@
+13:07:12	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=41586269
+13:08:00	 From  Jim Mason : call off
+13:38:44	 From  Philip Feairheller : https://github.com/trustoverip/technology-stack-wg/blob/master/_proposals/saturn-v-tip.md
+13:39:09	 From  Philip Feairheller : https://docs.google.com/presentation/d/1WkqSpFERc8now-f-Pz7PsRg9NMywSiZb92rTqJx5y00/edit?ts=5fa0197e#slide=id.g8d58b271ca_2_17
+14:16:10	 From  Troy Ronda : You can use JOSE/JWE without Indy. We do so in aries-framework-go ;).
+14:17:24	 From  Troy Ronda : I’d suggest adopting the more standard JWE envelope that is in DIDComm v2 across Aries libraries, even before moving to DIDComm v2.
+14:17:59	 From  Troy Ronda : Similar to https://github.com/hyperledger/aries-rfcs/tree/master/features/0334-jwe-envelope
+14:18:30	 From  Troy Ronda : I was going to mention this point in relation to AIP Next.

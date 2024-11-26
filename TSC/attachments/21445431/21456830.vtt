@@ -1,0 +1,455 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Restrict recording.
+
+00:00:05.000 --> 00:00:08.000
+Alright. Welcome everybody to the October twentieth.
+
+00:00:08.000 --> 00:00:18.000
+Technical oversight committee call, as you are probably all aware of Linux Foundation calls are held under an antitrust policy.
+
+00:00:18.000 --> 00:00:23.000
+So here's the notice of that. If you have any sort of questions.
+
+00:00:23.000 --> 00:00:43.000
+Contact. I see Andrew up to Grove of the firm Guess more up to Grove, or your legal console The other thing that we must abide by on these calls is the code of conduct which is linked in our Agenda so we have 2 announcements today the first one is one that
+
+00:00:43.000 --> 00:00:47.000
+you've heard many, many times before did that weekly do developer.
+
+00:00:47.000 --> 00:00:52.000
+Newsletter goes on each Friday to hundreds of hyper ledger developers.
+
+00:00:52.000 --> 00:01:01.000
+If you have anything that you would like to include in that, please leave a comment on the wiki paid set is linked in reach agenda.
+
+00:01:01.000 --> 00:01:06.000
+The second announcement that we have is that the Toc nomination period is open.
+
+00:01:06.000 --> 00:01:10.000
+The nomination does close. October 30, first end of day.
+
+00:01:10.000 --> 00:01:17.000
+if you would like to be considered to be a little bit, or appointed to the Poc.
+
+00:01:17.000 --> 00:01:24.000
+Please follow the process. So the the nomination process, and it's linked in the agenda.
+
+00:01:24.000 --> 00:01:37.000
+Any other announcements that anybody have
+
+00:01:37.000 --> 00:01:46.000
+No, okay. So we did get the fabric report in a few days back, and we also got the packed.
+
+00:01:46.000 --> 00:01:56.000
+Their report in last night, so I didn't see any specific comments coming in on the fabric.
+
+00:01:56.000 --> 00:02:00.000
+One. Let me just remove that page here for myself.
+
+00:02:00.000 --> 00:02:11.000
+Just make sure. No, no comments yet, but there are quite a few outstanding reviews that need to to happen as far as the cacti one.
+
+00:02:11.000 --> 00:02:15.000
+I don't think anything has occurred there either.
+
+00:02:15.000 --> 00:02:21.000
+no comments, yet. So we will leave these both on the agenda for next week.
+
+00:02:21.000 --> 00:02:37.000
+But does anybody have any questions on those 2 reports before we move forward?
+
+00:02:37.000 --> 00:02:49.000
+Okay. And then just a a reminder. If anybody knows anybody who might be willing to put together the Ursa report, we are still waiting on that report to come in.
+
+00:02:49.000 --> 00:02:52.000
+We don't have any reports that are due next week.
+
+00:02:52.000 --> 00:03:01.000
+the next one that's upcoming is the statute report that's due on the 27, so I guess it is due next week.
+
+00:03:01.000 --> 00:03:09.000
+But yet we won't probably have it until the 27, so we don't have any additional ones on the the agenda for next week.
+
+00:03:09.000 --> 00:03:15.000
+To review Alright. So with that we do have one discussion item today.
+
+00:03:15.000 --> 00:03:42.000
+It is the nonpreads project proposal. I have seen some comments coming through on the actual for request, and Steven has made update since those have come in.
+
+00:03:42.000 --> 00:03:43.000
+Okay, hang on a second. I was gonna So we've we've spent the last couple of weeks putting together the proposal.
+
+00:03:43.000 --> 00:03:54.000
+But at this point I'm going to hand the floor to Steven to see if he wants to take us through that, or if he would like us, just to start to comment on that
+
+00:03:54.000 --> 00:04:01.000
+can I share screen? Oh, oh, I see! I try. It's funny.
+
+00:04:01.000 --> 00:04:08.000
+I'm sure to start my video as well we don't do that here.
+
+00:04:08.000 --> 00:04:18.000
+Okay, hang on. Let me move. One more thing
+
+00:04:18.000 --> 00:04:26.000
+So let's see, there's the this is largely so.
+
+00:04:26.000 --> 00:04:37.000
+We've been working on this as as a community for the last several weeks, so I presented about a month ago to the Tc.
+
+00:04:37.000 --> 00:04:59.000
+To the Tsc. Then to Tc. Now and since then have been soliciting, soliciting, input, putting together a a skeleton proposal and then getting input from the community, So what you're seeing here is that input, converted over we have it's
+
+00:04:59.000 --> 00:05:22.000
+it's essentially the Wh. What I presented in a presentation a month ago, so I don't think you want me to repeat this presentation here with all of what is largely the same, I made a couple of tweaks to the slides just to provide updated data.
+
+00:05:22.000 --> 00:05:28.000
+I do have a couple of updates. Since then we had at the time.
+
+00:05:28.000 --> 00:05:48.000
+I I talked to this group. I was. We were just heading into the rebooting web of Trust Conference for those not familiar with that rebooting web of trust brings together a number of identity people in the identity community and and SSI community It's
+
+00:05:48.000 --> 00:05:53.000
+Christopher Allen organizes, it So SSI is definitely the focus at that.
+
+00:05:53.000 --> 00:06:04.000
+Almost everybody that participates submits a proposed paper to work on at the conference and at the start of the conference.
+
+00:06:04.000 --> 00:06:23.000
+the the the ones to be actually worked on are narrowed down to a a smaller list of things that people want to work on and don credits, despite the fact that in addition to the shirt I'm wearing that I I got from the hyper ledger, global forum I
+
+00:06:23.000 --> 00:06:28.000
+managed to get Covid, and so was not able to attend the our.
+
+00:06:28.000 --> 00:06:33.000
+What conference the paper that I submitted did get worked on.
+
+00:06:33.000 --> 00:06:40.000
+So that was very positive. And And so I worked sort of on the side, on that, on on another paper.
+
+00:06:40.000 --> 00:06:45.000
+But in the meantime another group continue to work on the in on credits paper.
+
+00:06:45.000 --> 00:06:50.000
+as I submitted it, and and continue to work on the specification and working on it.
+
+00:06:50.000 --> 00:07:00.000
+So that was really good A lot of progress was made actually there on the impact of ledger agnostic and on credits in this and And what is the genesis?
+
+00:07:00.000 --> 00:07:14.000
+Of This whole idea of moving and on grids out of Indie, because an on-preds can be used pretty easily, in fact, with different still storage locations.
+
+00:07:14.000 --> 00:07:21.000
+Publication locations so continue work on the leisure, agnostic and on credits.
+
+00:07:21.000 --> 00:07:44.000
+We we had a number of new contributors to the non-cred specification itself, so that was really good, outcome, from that we had a pile of new pull request put in, and and new contributors that are continuing to work, on it and as well, we came up, with an
+
+00:07:44.000 --> 00:07:49.000
+approach for putting an on credits into the W. 3 C verifiable credential standard data model.
+
+00:07:49.000 --> 00:07:58.000
+And this was somewhat of a surprise, was not expecting that, quite frankly, when I, when I talk to this group a month ago, that was not really on my agenda.
+
+00:07:58.000 --> 00:08:03.000
+We we had some talks at the conference and discovered that wait.
+
+00:08:03.000 --> 00:08:19.000
+This isn't very difficult to do, and since then have implemented a first draft of that where basically taking an on credits as it stands today and just putting it into the W.
+
+00:08:19.000 --> 00:08:27.000
+3 c verifiable data, credential data model, such that it can be moved back and forth in either direction.
+
+00:08:27.000 --> 00:08:39.000
+And and and yet still processed exactly the way it on. Francis intended to work. So that that's some exciting and interesting things that have happened even in the last month.
+
+00:08:39.000 --> 00:08:44.000
+as I mentioned creation, ever evolution of the hip.
+
+00:08:44.000 --> 00:08:54.000
+and then just gathering stateated support for the proposal to move it on credits out of its own project.
+
+00:08:54.000 --> 00:09:07.000
+So those are the things that have happened since then, As I say, I've got this presentation that I I gave a month ago, and I suspect, you don't want me to Go through that again I think everyone on the call was was at that previous meeting.
+
+00:09:07.000 --> 00:09:28.000
+So that's the material that I had thought of preparing, and I I did get a number of comments from from specifically add a level of detail, too, was the the question of link secrets.
+
+00:09:28.000 --> 00:09:31.000
+And I Do have a slide here on Linkedin secrets.
+
+00:09:31.000 --> 00:09:36.000
+If if we want to talk about that and deep dive into that, I just thought for the proposal.
+
+00:09:36.000 --> 00:10:00.000
+It's going quite deep into it, and and I I I'm happy to add it. But I I didn't think it was necessary appropriate for the proposal, so that's where I got to and and We've got to.
+
+00:10:00.000 --> 00:10:01.000
+sounds, great thanks, Steven, and thanks for letting us know what's up and updated and changed since we last spoke.
+
+00:10:01.000 --> 00:10:09.000
+As a community so looks like Nathan has. Oh, Tracy, I'll turn it back to you, and then let you handle the questions and and organization
+
+00:10:09.000 --> 00:10:25.000
+when this idea first came up I was really worried about whether it would dilute some of the work going on in the community, and I think Steven deserves a lot of credit for all his work, cultivating the contributor base on this proposal if you look at who's said
+
+00:10:25.000 --> 00:10:43.000
+there's sponsoring or supporting The list is a lot more extensive than I expected, but and it it just looks like it's setting up to be a really good improvement to Take Advantage of not only better decomposition of how you know all of your identity code is
+
+00:10:43.000 --> 00:10:48.000
+organized and hyper ledger, but also to to help get more community contributors excited.
+
+00:10:48.000 --> 00:10:49.000
+So thanks, Steven, for all the the great work on the proposal.
+
+00:10:49.000 --> 00:10:57.000
+Nathan
+
+00:10:57.000 --> 00:11:11.000
+Alright. It definitely is an impressively, any comments or questions on the proposal
+
+00:11:11.000 --> 00:11:12.000
+I was just curious. Is the is there an implementation also that will move out of Indie?
+
+00:11:12.000 --> 00:11:21.000
+Oh!
+
+00:11:21.000 --> 00:11:26.000
+No, there is an implementation, So there's 2 implementations in Indie right now.
+
+00:11:26.000 --> 00:11:34.000
+the plan is to take one of those which is called for lack of a better term.
+
+00:11:34.000 --> 00:11:46.000
+The developer named Credx, And that will be basically what we'll do is we will split and I'm hoping someone knows the Github magic, because we don't want to lose.
+
+00:11:46.000 --> 00:11:53.000
+Any history, but basically split a repo into 2. One will remain with Indie, and we'll have the in on credits.
+
+00:11:53.000 --> 00:12:16.000
+Part of it removed, one will move to the non-cred project should it be created, and have the Indie parts removed, so the history will hopefully be maintained in both, and then we'll move forward with that with the 2 repositories so the in on credits is
+
+00:12:16.000 --> 00:12:42.000
+as I said, it's already been used in a number of ways, in the number of places to implement non-indian democrats, and this will will then evolve that implementation to formalize the separation of the nonprets processing the implementation of the specification from the storing
+
+00:12:42.000 --> 00:12:48.000
+and retrieving of an on-prets, objects from a a verifiable data registry.
+
+00:12:48.000 --> 00:12:49.000
+So that's the that's the plan for the software.
+
+00:12:49.000 --> 00:13:00.000
+Peter.
+
+00:13:00.000 --> 00:13:13.000
+Thanks, Tracy. Hey, Stephen! So thanks for addressing the questions on the github, and quick follow up on that So and this proposal looks looks really good.
+
+00:13:13.000 --> 00:13:32.000
+And this is kind of a project that would bring in more participation, and it it aligns well with building those reusable components or building those pluggable components that would allow us to utilize our give flexibility to cost constant the end users right and quick question
+
+00:13:32.000 --> 00:13:33.000
+on the implementation aspect I know in the proposal you mentioned, that the they can be a close source or open source, or what do we call it?
+
+00:13:33.000 --> 00:13:43.000
+No, it's very much software
+
+00:13:43.000 --> 00:14:02.000
+The components that deal with Vdr right that the the Vd part those can be either closer or open source parts, So within hyper Ledgerio specifically mentioned about fabric in May Zoom, And I'm just curious if you have identified people who will be working on that or is
+
+00:14:02.000 --> 00:14:03.000
+it that you'll be working with those fabric and basic teams in coming up with the solution.
+
+00:14:03.000 --> 00:14:10.000
+Yeah, okay.
+
+00:14:10.000 --> 00:14:17.000
+Yeah, So the Fab: A A fabric implementation has been done.
+
+00:14:17.000 --> 00:14:30.000
+So there's a member of the community, a team that did a fabric implementation again, just based on what was already in in the library.
+
+00:14:30.000 --> 00:14:37.000
+So that's been implemented, but without benefit of the the proper, decomposition.
+
+00:14:37.000 --> 00:14:44.000
+If you will, So the expectation is that will be updated and modified.
+
+00:14:44.000 --> 00:15:07.000
+the ethereum One, quite frankly is speculation that we came up with at our watt, but there was a number of people talking there that that speculated that ethereum is likely a and particularly with the the recent transition that that ethereum had that makes it a a pretty good
+
+00:15:07.000 --> 00:15:11.000
+possibility, of of it, so that was more speculation.
+
+00:15:11.000 --> 00:15:21.000
+But but my expectation is with the strong push right now in identity, and and the interest in identity.
+
+00:15:21.000 --> 00:15:27.000
+SSI Style Identity decentralized identity, and and verifiable data.
+
+00:15:27.000 --> 00:15:34.000
+Quite frankly, I think it is a a a a a likely strong combination.
+
+00:15:34.000 --> 00:15:39.000
+So that is more speculative versus the fabric one where somebody is actually already done.
+
+00:15:39.000 --> 00:15:47.000
+An implementation, and it would be moving that implementation. Does that make sense
+
+00:15:47.000 --> 00:15:53.000
+And then and then, of course, there's people like Ched that have their own ledger.
+
+00:15:53.000 --> 00:16:02.000
+They're likely to put their implementation in their own repos Checked, I believe, is, is is open source, so those will be open source ones.
+
+00:16:02.000 --> 00:16:24.000
+But I could envision others, doing a proprietary one, and and and and that's the where the closed source might come in.
+
+00:16:24.000 --> 00:16:25.000
+about it, and probably I know somewhere. I remember reading in the proposal, but just for completeness sake of this argument, and so there is ais community also.
+
+00:16:25.000 --> 00:16:39.000
+But but quite frankly, that's for them to provide to people so that they can. You make use of an on credits on their platform, if that's what they want to do
+
+00:16:39.000 --> 00:16:50.000
+Yes, absolutely. And the Ares has most of the frameworks in Aries already have not all.
+
+00:16:50.000 --> 00:16:59.000
+But most have and nonpread support. And and this change will be relatively minor, more or less.
+
+00:16:59.000 --> 00:17:28.000
+It will be dependencies within within the frameworks themselves, and so should not affect business logic, and really is just part would be part of a minor upgrade for any of the areas frameworks and that's the certainly the implementation.
+
+00:17:28.000 --> 00:17:32.000
+So this is a bit more of a commentary than an actual question.
+
+00:17:32.000 --> 00:17:35.000
+This aligns with something that's happening in some of the ethereum layer.
+
+00:17:35.000 --> 00:17:36.000
+2 spaces. They're calling a modular blockchain breaking out these modules and we're using it everywhere.
+
+00:17:36.000 --> 00:17:37.000
+Plan and interest of the community
+
+00:17:37.000 --> 00:17:56.000
+alright. Thank you, Dana
+
+00:17:56.000 --> 00:18:05.000
+Right. Any other comments or questions on the proposal
+
+00:18:05.000 --> 00:18:06.000
+Anybody have any objections that they would like to bring up or any concerns that they would like to bring up
+
+00:18:06.000 --> 00:18:30.000
+Excellent. Thank you.
+
+00:18:30.000 --> 00:18:36.000
+Absolutely. Yes, The idea here, we think, is by expanding.
+
+00:18:36.000 --> 00:18:56.000
+You know the basic strategy from an indie perspective is by expanding the user base of an non-credits, by by removing roadblocks from from the adoption of of an awkward when people look around for Okay, where do we want to host our and on credits
+
+00:18:56.000 --> 00:18:57.000
+objects in the will be a an excellent choice. And so it's a sort of rising, rising tide floats all boats.
+
+00:18:57.000 --> 00:19:18.000
+Diana.
+
+00:19:18.000 --> 00:19:19.000
+Okay, Any other comments concerns
+
+00:19:19.000 --> 00:19:45.000
+strategy from an Indie perspective
+
+00:19:45.000 --> 00:20:04.000
+the question about Earth was raised. If it's a good time. If I can talk to someone in our team and help with a boss, I can help with the reports, but only if I have enough data to actually help
+
+00:20:04.000 --> 00:20:08.000
+Awesome.
+
+00:20:08.000 --> 00:20:09.000
+Okay.
+
+00:20:09.000 --> 00:00:00.000
+Okay, please contact me. I have Victor Gibney Aski, and I'll be available
+
+00:00:00.000 --> 00:00:00.000
+The others are no
+
+00:00:00.000 --> 00:00:30.000
+Alright.
+
+00:20:12.000 --> 00:20:17.000
+Could you put your oh chat is disabled somehow back to me
+
+00:20:17.000 --> 00:20:23.000
+Yes.
+
+00:20:23.000 --> 00:20:26.000
+Okay, yeah.
+
+00:20:26.000 --> 00:20:31.000
+Steven, I would contact with you, Right? Sure.
+
+00:20:31.000 --> 00:20:32.000
+Okay.
+
+00:20:32.000 --> 00:20:34.000
+This is the opportunity before we call for vote. So if you do have anything that you're holding on to, hoping that this is going to go on until next week Then Now is your time to speak.
+
+00:20:34.000 --> 00:20:39.000
+Alright.
+
+00:20:39.000 --> 00:20:49.000
+Alright, any any final comments, questions, concerns, subjections, anything that you would like to bring up?
+
+00:20:49.000 --> 00:20:57.000
+Okay, I guess that's the is that are you making a motion there, or no
+
+00:20:57.000 --> 00:21:03.000
+Okay, do we have a second
+
+00:21:03.000 --> 00:21:17.000
+Alright, alright! Nice for that alright. So we're now voting to approve the nonprofits project as a top level project within Hyper Ledger. Right?
+
+00:21:17.000 --> 00:21:30.000
+sure on the matter before the Toc Angelo or no pardon
+
+00:21:30.000 --> 00:21:39.000
+A room. Bobby. Okay, Tano
+
+00:21:39.000 --> 00:21:47.000
+David Grace is not here, Jim
+
+00:21:47.000 --> 00:21:51.000
+Okay, Cam: Lesh.
+
+00:21:51.000 --> 00:21:57.000
+Nathan, Peter Tracy, and Troy is not here so you know it passes congratulations.
+
+00:21:57.000 --> 00:22:06.000
+yes.
+
+00:22:06.000 --> 00:22:10.000
+Alright. Well, that was a lot quicker than I thought we'd go through things today.
+
+00:22:10.000 --> 00:22:15.000
+appreciate that everybody for having reviewed that came with your questions.
+
+00:22:15.000 --> 00:22:23.000
+Ready. I wish I had prepared that the presentation that I have have next week for this particular agenda.
+
+00:22:23.000 --> 00:22:29.000
+But we will be talking with the prune folks next week in the meeting.
+
+00:22:29.000 --> 00:22:43.000
+So before we close out the call, any any other discussion items that we should talk about today
+
+00:22:43.000 --> 00:22:48.000
+Everybody just hovering over the link button
+
+00:22:48.000 --> 00:23:02.000
+Alright. Well, thanks everybody for joining today, and we will meet again next week.
+

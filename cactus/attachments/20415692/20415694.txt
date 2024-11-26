@@ -1,0 +1,486 @@
+WEBVTT
+
+1
+00:01:40.610 --> 00:01:43.079
+Peter Somogyvari: Hey, Sandy? Sorry for being late.
+
+2
+00:01:43.840 --> 00:01:45.810
+sandeep: hey? Hi!
+
+3
+00:01:49.810 --> 00:01:51.600
+Peter Somogyvari: And also I
+
+4
+00:01:53.530 --> 00:01:57.490
+Peter Somogyvari: did not have time to create an agenda. Let me. Just
+
+5
+00:01:58.630 --> 00:01:59.890
+Peter Somogyvari: great one. Right?
+
+6
+00:02:03.840 --> 00:02:04.790
+sandeep: Okay.
+
+7
+00:02:10.330 --> 00:02:11.980
+Peter Somogyvari: I am in technical.
+
+8
+00:02:12.180 --> 00:02:14.140
+Peter Somogyvari: And that
+
+9
+00:02:17.080 --> 00:02:18.100
+Peter Somogyvari: actually
+
+10
+00:02:18.850 --> 00:02:23.029
+Peter Somogyvari: add a few things to discuss just quick ones.
+
+11
+00:02:23.610 --> 00:02:25.900
+Peter Somogyvari: Oh, yeah, the pool request
+
+12
+00:02:27.850 --> 00:02:29.640
+sandeep:  yeah.
+
+13
+00:02:30.080 --> 00:02:35.709
+Peter Somogyvari: the second pull request about that fix that I made.
+
+14
+00:02:35.760 --> 00:02:38.369
+Peter Somogyvari: or the open Api generator
+
+15
+00:02:39.760 --> 00:02:42.380
+Peter Somogyvari: the way through to download.
+
+16
+00:02:46.390 --> 00:02:48.400
+sandeep: Yeah, I think it got merged right.
+
+17
+00:02:49.750 --> 00:02:53.200
+Peter Somogyvari: It did. Thanks for merging it, but it had a bug.
+
+18
+00:02:53.430 --> 00:02:54.870
+sandeep: Oh, okay.
+
+19
+00:02:56.770 --> 00:03:03.460
+Peter Somogyvari: it it was so silly of me. There was a race condition in the bug fix for the race condition classes.
+
+20
+00:03:06.970 --> 00:03:10.560
+Peter Somogyvari:  let me share my screen.
+
+21
+00:03:13.460 --> 00:03:14.530
+Peter Somogyvari: Hey? Rama.
+
+22
+00:03:17.030 --> 00:03:18.840
+Ramakrishna V: hey?
+
+23
+00:03:19.510 --> 00:03:20.500
+Peter Somogyvari: No problem
+
+24
+00:03:27.030 --> 00:03:29.440
+Peter Somogyvari: share screen.
+
+25
+00:03:32.100 --> 00:03:33.669
+Peter Somogyvari: Can you see my screen?
+
+26
+00:03:34.130 --> 00:03:34.920
+sandeep: Yeah.
+
+27
+00:03:35.430 --> 00:03:38.739
+Peter Somogyvari: alright. So then we can start the actual meeting.
+
+28
+00:03:38.960 --> 00:03:47.249
+Peter Somogyvari: Hello, and welcome everyone to the Maintainer's Meeting. We abide by the anti-school policy. Notice that I'm showing on the screen
+
+29
+00:03:47.920 --> 00:03:54.529
+Peter Somogyvari: and also the Hyper ledger code of conduct which is linked to you from the agenda document which
+
+30
+00:03:54.770 --> 00:04:00.430
+Peter Somogyvari: I just created about 10 s ago. But it's important to have it, because then we can
+
+31
+00:04:01.280 --> 00:04:03.630
+Peter Somogyvari: document the meeting.
+
+32
+00:04:05.320 --> 00:04:08.310
+Peter Somogyvari: So the one thing I had
+
+33
+00:04:09.380 --> 00:04:15.359
+Peter Somogyvari: his well, 2 things, thanks for the Pr reviews, and the other one is that
+
+34
+00:04:17.209 --> 00:04:27.989
+Peter Somogyvari: I had to sneak in a second fix to my previous fix to the concurrency issue with the Chore downloads.
+
+35
+00:04:29.020 --> 00:04:31.560
+Peter Somogyvari: and so the
+
+36
+00:04:33.470 --> 00:04:37.110
+Peter Somogyvari: all requests that I submitted
+
+37
+00:04:37.960 --> 00:04:42.459
+Peter Somogyvari: to fix a docker container issue.
+
+38
+00:04:43.770 --> 00:04:47.729
+Peter Somogyvari: Yeah, share this. yeah. So here's the.
+
+39
+00:04:49.530 --> 00:04:52.999
+Peter Somogyvari: here's the fix. I basically just made it so that
+
+40
+00:04:54.120 --> 00:04:59.709
+Peter Somogyvari: it deletes the open Api to straighten file once, and it forces it so that
+
+41
+00:05:00.260 --> 00:05:05.179
+Peter Somogyvari: even if it fails to delete because of whatever reasons, it doesn't fail
+
+42
+00:05:05.940 --> 00:05:10.510
+Peter Somogyvari: the process itself. So what will this now put together?
+
+43
+00:05:11.870 --> 00:05:20.259
+Peter Somogyvari: The code generation task should be parallel to running, but it should not have race conditions. And then the actual pull request
+
+44
+00:05:20.620 --> 00:05:24.000
+Peter Somogyvari: just about upgrading the fabric images.
+
+45
+00:05:25.600 --> 00:05:30.439
+Peter Somogyvari: but yeah. So the the reason I'm talking about all this is because
+
+46
+00:05:31.130 --> 00:05:46.060
+Peter Somogyvari: I had to modify the commit message to say that also sneaking the hard fix, and also because I'm asking for reviews on this in an expedited manner, just because it has a bug fixed that
+
+47
+00:05:46.550 --> 00:05:54.130
+Peter Somogyvari: hopefully makes the cr it more stable, which is something that we desperately need, because it's been a
+
+48
+00:05:55.170 --> 00:06:05.429
+Peter Somogyvari: slowing down progress a lot. Just the fact that the Ci takes too long, and then it has to be retried a bunch of times. But it fails with false negatives.
+
+49
+00:06:07.090 --> 00:06:07.940
+sandeep: Yeah.
+
+50
+00:06:10.660 --> 00:06:14.799
+Peter Somogyvari: I don't know.
+
+51
+00:06:16.470 --> 00:06:17.330
+sandeep: Yeah.
+
+52
+00:06:21.040 --> 00:06:23.049
+Peter Somogyvari: yeah, so that's a lie. Head
+
+53
+00:06:25.440 --> 00:06:36.060
+sandeep:  RAM, I, you had some questions about adding the interns to be reported.
+
+54
+00:06:37.320 --> 00:06:38.710
+Ramakrishna V: oh,
+
+55
+00:06:39.600 --> 00:06:52.889
+Ramakrishna V: yeah, just for that, just wanted to say that I'm working on the documentation so made some progress. Not yet, it should go. But I should have something to show you pretty soon.
+
+56
+00:06:55.260 --> 00:06:57.000
+Peter Somogyvari: That sounds great. Thank you.
+
+57
+00:06:58.640 --> 00:07:03.479
+Ramakrishna V: and yeah on the interns so
+
+58
+00:07:03.710 --> 00:07:05.850
+Ramakrishna V: how do we
+
+59
+00:07:06.530 --> 00:07:11.730
+Ramakrishna V: like do the interns have to join the hypothesis organization.
+
+60
+00:07:12.220 --> 00:07:15.530
+Peter Somogyvari: They don't have to, you know, but
+
+61
+00:07:16.740 --> 00:07:18.050
+Peter Somogyvari: by they can.
+
+62
+00:07:18.940 --> 00:07:25.930
+Peter Somogyvari: It's I guess it's more of a question for rye. but I'm pretty sure that if they want to join they can.
+
+63
+00:07:27.360 --> 00:07:32.650
+Ramakrishna V: if I have to assign an issue to them. Their name doesn't appear in the list.
+
+64
+00:07:35.660 --> 00:07:40.309
+Peter Somogyvari: That's right, then that is because they are not in the organization.
+
+65
+00:07:40.560 --> 00:07:41.370
+Ramakrishna V: Yeah.
+
+66
+00:07:41.590 --> 00:07:45.960
+Peter Somogyvari: And they don't have. They also have to have at least
+
+67
+00:07:46.110 --> 00:07:55.210
+Peter Somogyvari: permission on the repository. but you cannot give them the permission unless they join the organization first.
+
+68
+00:07:55.700 --> 00:08:02.710
+Peter Somogyvari: So it's a multi-step process. But if you don't want to deal with all of that. The other alternative is
+
+69
+00:08:03.410 --> 00:08:11.859
+Peter Somogyvari: to ask them to comment on the issue, saying, Hey, I would like to work on this, or literally anything else. It doesn't matter. It's just that
+
+70
+00:08:12.530 --> 00:08:18.950
+Peter Somogyvari: Github automatically gives you permission to assign the issue to their names
+
+71
+00:08:19.380 --> 00:08:23.700
+Peter Somogyvari: once they commented on it. And the reason they do it this way is because
+
+72
+00:08:25.200 --> 00:08:26.880
+Peter Somogyvari: people have been
+
+73
+00:08:27.210 --> 00:08:34.160
+Peter Somogyvari: abusing other people by assigning issues to them without them asking for it, and then
+
+74
+00:08:34.429 --> 00:08:43.399
+Peter Somogyvari: they would have something mean or a death threat, or some crazy stuff in the issue description that had nothing to do with the actual like open source software at all.
+
+75
+00:08:44.610 --> 00:08:51.150
+Peter Somogyvari: So they they made this permission system for a reason. But for us it's kind of annoying because it's religious.
+
+76
+00:08:51.230 --> 00:08:53.320
+Peter Somogyvari: Some extra h that you have to come.
+
+77
+00:08:54.650 --> 00:08:57.739
+Ramakrishna V: Not okay. that makes sense.
+
+78
+00:08:58.010 --> 00:09:03.970
+Ramakrishna V: If he if they did want to join the organization we had to. Right? Right?
+
+79
+00:09:05.610 --> 00:09:11.560
+Ramakrishna V: Yes, and they also change that. So you don't message right
+
+80
+00:09:12.020 --> 00:09:17.430
+Peter Somogyvari: directly anymore. You just go to the
+
+81
+00:09:18.830 --> 00:09:22.710
+Peter Somogyvari: either the to or some other repository. I don't remember
+
+82
+00:09:23.530 --> 00:09:24.270
+sorry.
+
+83
+00:09:24.760 --> 00:09:35.019
+Peter Somogyvari: and you open an issue. and they have a template that you can fill out that ask the questions of, Okay, who is this person? What is the Github username?
+
+84
+00:09:35.440 --> 00:09:40.829
+Peter Somogyvari: What's their email? And then rye sees that issue, and then he
+
+85
+00:09:41.090 --> 00:09:52.219
+Peter Somogyvari: as them to the org. So the whole old way of just a messaging ride directly is not recommended anymore, because he was quite overwhelmed with
+
+86
+00:09:54.520 --> 00:10:05.520
+Ramakrishna V: I, if I remember correctly the they also to email community architects. But I don't know if that's the same thing you're supposed to follow, or
+
+87
+00:10:07.710 --> 00:10:13.609
+Peter Somogyvari: let me double check the link because I have it somewhere. I can look it up
+
+88
+00:10:14.670 --> 00:10:16.670
+Peter Somogyvari: because I was just doing it
+
+89
+00:10:17.630 --> 00:10:21.180
+Peter Somogyvari: for someone who just joined my team
+
+90
+00:10:21.730 --> 00:10:26.250
+Peter Somogyvari: as well. So if you if you give me a minute, I can
+
+91
+00:10:26.470 --> 00:10:27.849
+Peter Somogyvari: get the link for you.
+
+92
+00:10:28.210 --> 00:10:29.000
+Ramakrishna V: Yeah.
+
+93
+00:10:33.160 --> 00:10:36.260
+Peter Somogyvari: Oh, yeah, it's not the Tooc repo, it's
+
+94
+00:10:37.610 --> 00:10:41.330
+Peter Somogyvari: governance repo. And then this is the link
+
+95
+00:10:42.040 --> 00:10:51.499
+Peter Somogyvari: you click on the link that just takes you straight to the the new issue creation. And then there's one template specifically that you can choose for
+
+96
+00:10:52.600 --> 00:10:56.820
+Peter Somogyvari: add someone to the hyper electric. You have work with the first one.
+
+97
+00:10:57.200 --> 00:10:59.480
+Ramakrishna V: Got it. Okay, thanks a lot.
+
+98
+00:11:00.260 --> 00:11:01.830
+Peter Somogyvari: No problem
+
+99
+00:11:06.430 --> 00:11:15.289
+Ramakrishna V: other than that. So Rye moved all of our shoes from the weaver report to that time. So
+
+100
+00:11:15.580 --> 00:11:25.950
+Ramakrishna V: yeah, officially, we kind of set. I mean the we were we still keeping around, because there is an active dependency there.
+
+101
+00:11:26.260 --> 00:11:28.900
+Ramakrishna V: so
+
+102
+00:11:29.250 --> 00:11:33.940
+Ramakrishna V: but you know, as soon as the dependency gets
+
+103
+00:11:34.950 --> 00:11:39.120
+Ramakrishna V: I mean, as soon as they say they don't need it anymore. Then we can.
+
+104
+00:11:40.470 --> 00:11:46.700
+Peter Somogyvari: Okay, yeah, that's fine. By me. I don't want to rush you or anything.
+
+105
+00:11:46.810 --> 00:11:49.689
+Peter Somogyvari: If there's anything I can help with, just let me know.
+
+106
+00:11:50.960 --> 00:11:58.709
+Ramakrishna V: Sure. Thanks. Yeah. But any anything new we are doing on the backpack. So that repo, we just making some
+
+107
+00:11:58.960 --> 00:12:02.330
+Ramakrishna V: vulnerability updates with them.
+
+108
+00:12:03.320 --> 00:12:07.640
+Peter Somogyvari: Yeah, that's good to know. That's I mean, it was always going to be
+
+109
+00:12:08.260 --> 00:12:15.690
+Peter Somogyvari: the gradual migration. It would have been impossible to to do everything all at once.
+
+110
+00:12:15.880 --> 00:12:21.250
+Peter Somogyvari: We we're still working with some details, and we will continue working on some of them.
+
+111
+00:12:21.500 --> 00:12:26.680
+Ramakrishna V: The important thing, in my opinion, is that now we have the code in the same repository, and
+
+112
+00:12:26.910 --> 00:12:32.979
+Peter Somogyvari: and you're working together. We have communication, and we have the issues in the port request and all that.
+
+113
+00:12:33.950 --> 00:12:34.730
+Ramakrishna V: Yep.
+
+114
+00:12:42.440 --> 00:12:44.770
+Ramakrishna V: that somebody is there anything else.
+
+115
+00:12:46.360 --> 00:12:47.320
+sandeep: you know?
+
+116
+00:12:50.420 --> 00:12:51.320
+Ramakrishna V: Okay.
+
+117
+00:12:53.050 --> 00:13:00.659
+Peter Somogyvari: all right. I don't have anything else, either, and I don't know if so, we wanted to join, maybe couldn't make it today.
+
+118
+00:13:00.740 --> 00:13:08.520
+Ramakrishna V: Yeah, I just didn't have time to read this code. So okay, then.
+
+119
+00:13:09.470 --> 00:13:14.350
+Peter Somogyvari: that's cool. And we can talk next time and thanks everyone for joining.
+
+120
+00:13:14.940 --> 00:13:17.139
+sandeep: Okay, thanks.
+
+121
+00:13:17.180 --> 00:13:19.080
+Ramakrishna V: Bye, bye.
+

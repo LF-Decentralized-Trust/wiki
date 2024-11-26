@@ -1,0 +1,1730 @@
+WEBVTT
+
+1
+00:00:02.370 --> 00:00:10.830
+Stephen Curran: Alright. Welcome to the August 8. Is it really? August 8. Ares cloud agent, Python, user Group meeting.
+
+2
+00:00:11.030 --> 00:00:22.069
+Stephen Curran: Talk about the Hypervisor and on Chris Rust Project, Prs and other issues. I've got a few now. Nightly bills is one of them. But if you to talk about
+
+3
+00:00:22.800 --> 00:00:27.170
+Stephen Curran: so that's and then open discussion.
+
+4
+00:00:28.510 --> 00:00:44.440
+Stephen Curran: reminder that this is a Linux Foundation hyper ledger meeting. So the anti-trust policy is in effect, which is on your screen as well. The Hyper Ledger code of conduct is in effect, let's be good to one another. And again, there's a link to that on the screen. If you haven't looked at it lately.
+
+5
+00:00:45.060 --> 00:00:57.779
+Stephen Curran:  welcome any newcomers to the meeting. If anyone wants to introduce themselves, that's new and wants to talk about what they're doing, or or
+
+6
+00:00:58.450 --> 00:01:01.219
+Stephen Curran: say what their interest is in Akipi
+
+7
+00:01:01.340 --> 00:01:09.410
+Stephen Curran: feel free to grab the mic now, and as well. Anyone who wants to raise any issues that they want discussed at today's meeting.
+
+8
+00:01:18.810 --> 00:01:20.090
+Stephen Curran: Alright.
+
+9
+00:01:23.480 --> 00:01:33.690
+Stephen Curran:  no announcements right now. Acupi documentation is out and available.
+
+10
+00:01:33.870 --> 00:02:00.829
+Stephen Curran: We'll probably do some updates one of these days soon on getting the documentation aligned between the what's in the repo and what's on the acupi.org site but definitely recommend using acupi.org as your source of documentation. It basically has all of the markdown files. But in a much easier much easier way to navigate around full search
+
+11
+00:02:00.980 --> 00:02:08.239
+Stephen Curran: much better than what's in github for that. So definitely, if you're looking for documentation, that's the place to go.
+
+12
+00:02:08.789 --> 00:02:21.490
+Stephen Curran: Okay, the Hyper Ledger and Nonprofits rust project. We've got that pretty organized right now. I wanted to go through basically how we see it. Rolling out
+
+13
+00:02:22.070 --> 00:02:30.209
+Stephen Curran: right now, and this is all Daniel Bloom and Jason Sherman's work, and they're
+
+14
+00:02:30.240 --> 00:02:36.990
+Stephen Curran: doing the organizing on it. So I'm just the speaker here. They can jump in at any time to point out what I'm saying wrong.
+
+15
+00:02:37.470 --> 00:02:43.180
+Stephen Curran: But big activity right now, and there was a Pr put in yesterday
+
+16
+00:02:43.260 --> 00:02:56.589
+Stephen Curran: that. I'll move forward, which is, get it getting the Integration test running on the in on Chris Rs branch, including the new, the the major new test for the In On credits implementation and on Chris rust.
+
+17
+00:02:56.600 --> 00:03:10.850
+Stephen Curran: So this is implementing ledger agnostic and on credits in Acupi and using transitioning from the and on credits.  credits implementation into the ongrids. Rs implementation.
+
+18
+00:03:11.650 --> 00:03:14.519
+Stephen Curran: In doing that, we're gonna eliminate
+
+19
+00:03:15.000 --> 00:03:19.050
+Stephen Curran: or adjust some of the endpoints.
+
+20
+00:03:19.380 --> 00:03:29.470
+Stephen Curran: The original thought was to remove the old ones in place of the new slash and on credits endpoint. We've now decided to keep the easy ones
+
+21
+00:03:29.500 --> 00:03:45.900
+Stephen Curran: to support. So anything where basically, we would call something. The inputs and outputs are more or less the same. We might do some tweaks to the inputs and outputs. But then just replace the processing in
+
+22
+00:03:45.940 --> 00:03:52.759
+Stephen Curran: in this, with the processing Indian on credits path through, so
+
+23
+00:03:53.070 --> 00:04:07.260
+Stephen Curran: these will be converted. They will still exist to a large extent, but they'll just invoke the common common code from the An on credits endpoint. We are adding slash and on credits as an endpoint.
+
+24
+00:04:08.320 --> 00:04:24.240
+Stephen Curran: Where you will see a bunch of changes are in revocation handling. So just to again underline, I think we've talked about this before, but just to underline in existing in our credits we support both
+
+25
+00:04:24.350 --> 00:04:36.840
+Stephen Curran: Akipi doing all the work for the Controller or the Controller, managing all of the Revocation registries and the like for themselves. We are gonna drop that latter part
+
+26
+00:04:36.940 --> 00:04:44.700
+Stephen Curran:  As far as we know, nobody actually did that. And it's a really difficult thing, almost impossible for a controller to do.
+
+27
+00:04:45.190 --> 00:05:01.019
+Stephen Curran: So we're gonna drop that and have basically Akapi handle all revocation registries. So the controllers the Controller will just sort of say, Hey, I want to use revocation when creating a credit def
+
+28
+00:05:01.310 --> 00:05:18.260
+Stephen Curran: when credential is to be revoked, they'll say revoke credential X when it wants to publish a set of revocations, it says, publish revocations for this credential definition, and all of the processing
+
+29
+00:05:18.540 --> 00:05:33.500
+Stephen Curran: to do with those actions are done by and on credits. When a revocation registry runs out of credentials, a new one gets created, and so on and so forth. All of the Revocation registry handling will be outside
+
+30
+00:05:33.910 --> 00:05:41.290
+Stephen Curran: as well. We get some nice updates in the new and the latest updates to and on credits.
+
+31
+00:05:41.460 --> 00:05:52.000
+Stephen Curran: or or to see all signatures that Andrew Whitehead's been working on things like tales. File is no longer needed by the
+
+32
+00:05:52.160 --> 00:06:18.570
+Stephen Curran: by the issuer. Once the tails files been created. It's no longer needed. So things like deleting the tails. The local copy of the tails file will basically be done automatically after the successful publishing of the tails file. It's no longer needed by the issuer, so it can be deleted locally. That's actually was something that was pointed out a long time ago we were winding up with lots of tails, files and things like that, and basically just not needed.
+
+33
+00:06:19.840 --> 00:06:31.140
+Stephen Curran: So removing things like creating a revocation registry definition and creating a re revocation registry entry. Those will be removed.
+
+34
+00:06:31.250 --> 00:06:43.009
+Stephen Curran: And so we'll we'll be able to. You know. Just eliminate those for being used. So there's only a a few that are actually removed.
+
+35
+00:06:43.220 --> 00:06:51.580
+Stephen Curran: Things like patch revocation registry and set state.
+
+36
+00:06:52.050 --> 00:07:03.759
+Stephen Curran: We're using those and fixed revocation entry state. I'm not sure those are needed anymore. The controller might need to continue to do those. So those may continue to exist.
+
+37
+00:07:03.810 --> 00:07:05.260
+Stephen Curran: and those are
+
+38
+00:07:05.740 --> 00:07:24.130
+Stephen Curran: when the local state of a revocation registry gets out of sync with the ledger state. which happens once in a while, we discovered that the painful way these allow a controller to repair that situation. So if
+
+39
+00:07:24.270 --> 00:07:26.970
+Stephen Curran: things like publishing fails.
+
+40
+00:07:27.120 --> 00:07:44.860
+Stephen Curran: Now, that is mostly handled automatically within occupy now. So I'm not sure this these controller based calls are actually needed, or whether it just is all handled automatically. So we'll be looking at those. That's why I put these as we'll investigate.
+
+41
+00:07:46.250 --> 00:07:57.500
+Stephen Curran: So that's where we're going with that. And Jason, I believe you are, you know, getting these tests running, you're basically adopting the old endpoints. Is that correct?
+
+42
+00:07:57.710 --> 00:08:17.720
+Jason Sherman: Yeah. So the Pr yesterday was simply to get it to a point where it could go through the Github actions, no failing. So that included at this point, commenting out a bunch of tests that were broken until we
+
+43
+00:08:18.820 --> 00:08:42.650
+Jason Sherman: replace the background. Logic for scheme as in credit, desk and stuff like that. So next step is going to actually put the new Bdd test in, based on the scripts that Daniel Bloom so that'd be next. And then I just kind of wanna get that Pr merged into the branch so we could. We can start pulling in more of the stuff from main. So
+
+44
+00:08:42.750 --> 00:08:54.460
+Jason Sherman: we're that a Non Credz. Rs branch is quite far behind. What's I mean there's been a lot of work in the last few weeks, so just wanted to get those things so that it could
+
+45
+00:08:54.950 --> 00:09:05.540
+Jason Sherman: pass through all the gates in github, and then we can start moving in some code. So we're a few days away, I guess, is the easiest way to say. But what's that
+
+46
+00:09:05.860 --> 00:09:09.590
+Jason Sherman: initial test is in. Then we can start back filling
+
+47
+00:09:09.700 --> 00:09:18.369
+Stephen Curran: and re-enabling tests. So good. Okay?
+
+48
+00:09:18.770 --> 00:09:21.480
+Stephen Curran: Or adjust it test as needed.
+
+49
+00:09:22.680 --> 00:09:37.929
+Stephen Curran: Yeah, hopefully, hopefully. We won't have to change the the logic and the test. It'll be the getting the endpoint to work. It'll be as it did before. But with all the new and on credits back end stuff. So that's the hope. Excellent. Okay, good.
+
+50
+00:09:37.930 --> 00:09:58.769
+Stephen Curran: And basically, you guys to reduce pain of migrating to this new version. It will be a breaking change, pretty confident of that and if if only because we're removing that controller handling of revocation registries just because we don't want to reimplement that logic in the new code.
+
+51
+00:09:58.770 --> 00:10:14.540
+Stephen Curran: But I don't think anyone has ever done that, so I think we'll be fine with that but we'll try to reduce the other. You know typical things that people do, creating schemas, creating credit. Those should still work and be pretty straightforward to support.
+
+52
+00:10:14.780 --> 00:10:21.569
+Stephen Curran:  I categorize these this morning went through and sort of looked at the groupings of things.
+
+53
+00:10:22.700 --> 00:10:23.490
+Stephen Curran: These
+
+54
+00:10:23.630 --> 00:10:25.180
+Stephen Curran: there's a category
+
+55
+00:10:26.040 --> 00:10:46.760
+Stephen Curran: of things left to do. II passed this one onto Andrew White yet to take a look at, and try to get a something in place for that that works for all of the clients of the and on Credits library. So that can be, or for the yeah, an on credits. Library.
+
+56
+00:10:46.870 --> 00:10:51.609
+Stephen Curran: there's this is the next big thing that I think we'll we'll probably need
+
+57
+00:10:52.000 --> 00:10:56.089
+to be done, which is updates to revocation.
+
+58
+00:10:56.130 --> 00:10:57.570
+Stephen Curran: These got
+
+59
+00:10:57.620 --> 00:11:01.760
+Stephen Curran: skipped over because of the complexity of
+
+60
+00:11:02.240 --> 00:11:06.329
+Stephen Curran: replication. The. I think the decision to turn off
+
+61
+00:11:06.610 --> 00:11:15.449
+Stephen Curran: the controller. Access to revocation registries themselves should make that simpler. At least, I hope so
+
+62
+00:11:15.520 --> 00:11:43.220
+Stephen Curran: these are all related to revocations next, and this is an ordering I'm not sure of. These are are basically data model changes and updates to where things are. This is. I'm not quite sure whether that should be the next thing done, or or whether we jump into revocation. Daniel, did you have a a thought on that? It seems to me this would be the next thing we would do after
+
+63
+00:11:43.230 --> 00:11:51.619
+Stephen Curran: these 2 things. Are needed sort of in parallel is that, you know, or could be either order
+
+64
+00:11:54.180 --> 00:11:55.190
+Daniel Bluhm: the
+
+65
+00:11:55.950 --> 00:12:02.560
+Daniel Bluhm: sorry. I was only partially following along to that. So which 2 components sorry. Are you saying we come next?
+
+66
+00:12:02.640 --> 00:12:14.080
+Stephen Curran:  either. Revocation can be worked on after what Jason is working on now, or these 2 data model ones.
+
+67
+00:12:14.610 --> 00:12:32.439
+Daniel Bluhm: Yes. Yeah, I would say revocations, probably the next one in line. I would say, the data model ones. That's more like a. It would be nice if things were in the quote, unquote, correct locations. But aren't severely, negatively impacting anything. So
+
+68
+00:12:32.910 --> 00:12:36.769
+Stephen Curran: okay? So those might go down actually,
+
+69
+00:12:37.480 --> 00:12:38.830
+Stephen Curran: down to here.
+
+70
+00:12:41.860 --> 00:12:48.149
+Stephen Curran: I assume they they would improve things for the other registry methods.
+
+71
+00:12:49.210 --> 00:12:50.790
+Daniel Bluhm: Yes, if
+
+72
+00:12:53.100 --> 00:13:07.109
+Daniel Bluhm: I think it would be more like it would be cleaner if the indie stuff was in indie locations and and the did web stuff would be in the newly created did web locations, or or you know, along those lines? But yeah.
+
+73
+00:13:07.350 --> 00:13:19.249
+Stephen Curran: okay, so that's that grouping. So after revocation would be the endorser updates. There's a few things there and endorser. And then and again this order could go up
+
+74
+00:13:19.560 --> 00:13:23.639
+Stephen Curran: up as well. The
+
+75
+00:13:23.980 --> 00:13:30.599
+Stephen Curran: issue credential and and present proof to use the and on credits interface. Again, we do want to continue to support that
+
+76
+00:13:30.770 --> 00:13:38.410
+Stephen Curran: with this new code. So we we do want to update these. These should be once
+
+77
+00:13:39.250 --> 00:13:45.409
+Stephen Curran: you know, removing, adapting the old endpoints, these become much easier to implement.
+
+78
+00:13:45.480 --> 00:13:47.390
+Stephen Curran: And so
+
+79
+00:13:48.530 --> 00:13:52.180
+Stephen Curran: those sort of move there, as far as I can see.
+
+80
+00:13:52.320 --> 00:14:00.169
+Stephen Curran: Finally, we get into the did web interface, and and then the last step will be on all of the upgrades.
+
+81
+00:14:00.360 --> 00:14:13.420
+Stephen Curran: So that when we put this out. We can upgrade the storage as an automated step. Basically. There, we would use the upgrade capabilities so that when you deploy
+
+82
+00:14:13.560 --> 00:14:28.899
+Stephen Curran: you know, you have an existing implementation and you deploy it. The upgrades will trigger so that all of the entries get appropriately updated. I put this at the very bottom. And this is probably not
+
+83
+00:14:28.970 --> 00:14:37.910
+Stephen Curran: something that we want to do as part of an on credits. I think I think this is a separate issue. Daniel, any particular reason to have the innocence flag on this one?
+
+84
+00:14:39.750 --> 00:14:56.549
+Daniel Bluhm:  I suppose not it it. It's something that's we're handling it basically the same way that it's currently being handled in the new code added for a non credits. So it it applies to some changes that were made in the non credits. But it's not strictly
+
+85
+00:14:56.650 --> 00:14:59.019
+Daniel Bluhm: yeah. And on credits related, I suppose.
+
+86
+00:14:59.240 --> 00:15:00.540
+Stephen Curran: Yeah, okay.
+
+87
+00:15:00.660 --> 00:15:06.500
+Stephen Curran: my tendency would be to take that off of this, but we'll see how it goes.
+
+88
+00:15:07.280 --> 00:15:14.429
+Stephen Curran: So that is the project. Anyone able willing and able to help with any of these?
+
+89
+00:15:14.920 --> 00:15:22.500
+Stephen Curran: please let us know, and and we'll coordinate you know, assigning and and grouping these tasks.
+
+90
+00:15:23.180 --> 00:15:46.200
+Stephen Curran:  but that's where we're going with this project, and we'll see how it's. It is a chunk of work, as you can see. The biggest, the biggest set of tasks in this long list was good. I've you know, finally went through all of them and got a good handle on on what the grouping was, and and I'm sure all of these sort of this will be the big
+
+91
+00:15:47.310 --> 00:15:57.240
+Stephen Curran: the big thing is getting revocation. Dealt with. Revocation really is at at least as complicated as verifiable credentials themselves. So
+
+92
+00:15:57.780 --> 00:16:01.470
+Stephen Curran: that's the work going on there. Any questions or comments from anyone?
+
+93
+00:16:06.970 --> 00:16:09.260
+Stephen Curran: Excellent. Okay.
+
+94
+00:16:09.570 --> 00:16:29.880
+Stephen Curran:  Next step. I wanted to go through a few prs, we do have some new prices come in. So we wanted to talk about those and talk about what's coming. This is an autocrates. Ddd test preparation. That's what Jason sermon? Who is using technology?
+
+95
+00:16:30.010 --> 00:16:34.849
+Stephen Curran: Reported. So that's in progress.
+
+96
+00:16:35.090 --> 00:16:38.480
+Stephen Curran: Did exchange problem, reports
+
+97
+00:16:38.540 --> 00:16:41.730
+Stephen Curran: Daniel. Where are we on this one? It looks like ready to go.
+
+98
+00:16:41.850 --> 00:16:45.280
+Daniel Bluhm: Yeah, that just needs some review, and then it should be good.
+
+99
+00:16:45.440 --> 00:16:58.529
+Stephen Curran: Alright good. This one, I think we are still where we were. After last call we did get a II posted the
+
+100
+00:16:58.720 --> 00:17:08.500
+Stephen Curran: Whoa lots on this one. I posted the thoughts on the Maintainer from our Last Maintainer meeting. and
+
+101
+00:17:09.089 --> 00:17:13.789
+Stephen Curran: or it said he would take a look at that coming up, so
+
+102
+00:17:13.970 --> 00:17:17.309
+Stephen Curran: that'll be something to expect soon.
+
+103
+00:17:17.540 --> 00:17:24.440
+Stephen Curran:  we did suggest, maybe seeing how much of the performance
+
+104
+00:17:24.450 --> 00:17:37.550
+Stephen Curran: is simply in the code. That is the test code versus the non-test code. So hopefully. There's a way to test that. But we'll see  Syro has been working.
+
+105
+00:17:38.000 --> 00:17:47.979
+Stephen Curran: He's not on this call, but Cyril has been working on the converting from unqualified bids to did peer 2 and 3.
+
+106
+00:17:48.360 --> 00:17:50.560
+Stephen Curran: He's made
+
+107
+00:17:50.620 --> 00:18:02.800
+Stephen Curran: excellent progress on that close to wrapping it up. He and I are going to get together later today to to go over the last steps of making sure everything is in place and figure out what's missing.
+
+108
+00:18:03.000 --> 00:18:10.470
+Stephen Curran: But basically, this will bring us up to spec, if you will, on on the did
+
+109
+00:18:10.660 --> 00:18:18.810
+Stephen Curran: on the did spec, and and the did, Pierre 2 and 3, and enable the
+
+110
+00:18:19.260 --> 00:18:26.070
+Stephen Curran: upgrading of unqualified dates to be qualified dids, and and be used with
+
+111
+00:18:26.660 --> 00:18:32.330
+Stephen Curran: good efficiency, so that we're not always sending the massive did peer 2, but we're using the did peer 3.
+
+112
+00:18:33.450 --> 00:18:36.770
+Stephen Curran: Daniel, does this report go away?
+
+113
+00:18:37.110 --> 00:18:39.370
+With this 2394
+
+114
+00:18:40.320 --> 00:18:51.010
+Daniel Bluhm: yeah. I don't think it's likely that we'll merge those changes. Some of the discussion there is useful, but the discussion can exist with a closed Pr still. So I think we're probably good to call that one
+
+115
+00:18:51.410 --> 00:19:01.339
+Stephen Curran:  getting verification key this one. We're in review process. Latest comments.
+
+116
+00:19:03.190 --> 00:19:08.240
+Stephen Curran: Yeah. So I will update the branch. Should I bother
+
+117
+00:19:08.340 --> 00:19:14.139
+Stephen Curran: take a look at this. Daniel and Jason, do you mind if I assigned these to you, too?
+
+118
+00:19:14.810 --> 00:19:22.389
+Daniel Bluhm: Yeah, that's I've been intending to. Okay this in greater detail, but just haven't gotten around to it.
+
+119
+00:19:23.400 --> 00:19:26.200
+Stephen Curran: And then this one, Daniel.
+
+120
+00:19:26.370 --> 00:19:29.940
+Daniel Bluhm: again, this is ready to go, and just needs a review. Yes.
+
+121
+00:19:37.730 --> 00:19:43.770
+Stephen Curran:  anyone want to volunteer for this one?
+
+122
+00:19:47.090 --> 00:19:47.990
+Stephen Curran: Okay.
+
+123
+00:19:52.010 --> 00:19:53.230
+Stephen Curran: all right.
+
+124
+00:19:53.280 --> 00:20:03.569
+Stephen Curran:  And then these last 3, I'm gonna take another look over the next little while to see what we can do about this. My guess is this, one can be
+
+125
+00:20:03.590 --> 00:20:06.520
+Stephen Curran: looked at as part of the revocation.
+
+126
+00:20:06.940 --> 00:20:10.520
+Stephen Curran: Wade Barnes, you're on the call right
+
+127
+00:20:10.880 --> 00:20:11.819
+Wade Barnes: I am.
+
+128
+00:20:12.050 --> 00:20:20.190
+Stephen Curran: You looked at this one a long time back, this this had to do with, as I recall, open shift, and and so on.
+
+129
+00:20:20.410 --> 00:20:24.720
+Stephen Curran:  There was never, I think, any great
+
+130
+00:20:24.880 --> 00:20:29.550
+Stephen Curran: agreement on whether this should be done. Should we just close this
+
+131
+00:20:30.450 --> 00:20:33.149
+Wade Barnes: 1837, I'll have another look at it.
+
+132
+00:20:33.350 --> 00:20:35.979
+Stephen Curran: Have another look at it.
+
+133
+00:20:36.020 --> 00:20:45.549
+Stephen Curran: I'll assign it to you and and obviously the person's been away for a long time. I don't think he's been updating it. So
+
+134
+00:20:46.180 --> 00:20:51.550
+Stephen Curran: read through the arguments and make a call on whether we should try to keep it moving. Sure.
+
+135
+00:20:52.360 --> 00:21:02.349
+Stephen Curran: and this one I don't know what to do with this one. Again, Daniel Bloom, I think you are the best one to take a quick glance at this one and decide if we just close it.
+
+136
+00:21:03.180 --> 00:21:04.950
+Stephen Curran: My gap was to close it.
+
+137
+00:21:05.100 --> 00:21:11.210
+Daniel Bluhm: Okay, I can take a look that hasn't been on my radar. So I mean thought about it. But I can take a look.
+
+138
+00:21:11.260 --> 00:21:23.629
+Stephen Curran: I mean all I want. You, you know. Don't don't spend a lot of time on it. Other just either decide to close it or let's or encourage the person to update it because he's got conflicts and so on.
+
+139
+00:21:26.190 --> 00:21:33.920
+Stephen Curran: But if we, if we need to close it, obviously it's it's quite old. But that gets rid of everything
+
+140
+00:21:34.500 --> 00:21:37.170
+Stephen Curran: other than our active, our active work.
+
+141
+00:21:37.810 --> 00:21:46.520
+Daniel Bluhm: So I had a a quick comment about a recent Pr that I put in, and that has been merged. It was on additional tweaks, for
+
+142
+00:21:46.880 --> 00:21:50.259
+Daniel Bluhm: did web support, I think, is what the
+
+143
+00:21:51.160 --> 00:21:56.250
+Daniel Bluhm: yeah. 2392. They're on the list. Yeah.
+
+144
+00:21:57.470 --> 00:22:03.660
+Daniel Bluhm: so I it came to my attention that those changes I thought they were going a little bit further than
+
+145
+00:22:03.900 --> 00:22:14.169
+Daniel Bluhm: they actually work in terms of of adding support. So I've got some things that I'm following up on and as I've been digging in to that I've
+
+146
+00:22:14.280 --> 00:22:24.740
+Daniel Bluhm: I'm finding that I might need to mess about in the did Doc implementation. And I've been looking at Jason. Cyrus. Changes for the period stuff.
+
+147
+00:22:24.820 --> 00:22:31.079
+Daniel Bluhm: and I might have some recommendations there in terms of perhaps it's slightly different approach to support
+
+148
+00:22:31.150 --> 00:22:32.259
+Daniel Bluhm: did web
+
+149
+00:22:32.590 --> 00:22:36.189
+Daniel Bluhm: and compatibility as well.
+
+150
+00:22:36.580 --> 00:22:46.629
+Daniel Bluhm: Yeah, I'm like very actively in the middle of doing that at this point. So I don't have anything specific yet. But I just wanted to call that out, and I'll I'll be vocal about
+
+151
+00:22:47.390 --> 00:22:49.869
+Daniel Bluhm: differences of opinion if they're already
+
+152
+00:22:50.620 --> 00:22:53.200
+Stephen Curran: excellent good
+
+153
+00:22:54.270 --> 00:23:00.190
+Stephen Curran:  Marshmallow warnings was fixed yesterday. This was a massive change
+
+154
+00:23:00.220 --> 00:23:02.959
+Stephen Curran: from number of files
+
+155
+00:23:03.630 --> 00:23:05.769
+Stephen Curran: 162 files.
+
+156
+00:23:06.310 --> 00:23:09.960
+Stephen Curran: But no change in functionality.
+
+157
+00:23:10.100 --> 00:23:15.950
+Stephen Curran: Other than we get rid of all of our almost all of our marshmallow warnings. So that's good.
+
+158
+00:23:17.180 --> 00:23:19.020
+Stephen Curran: And there's a
+
+159
+00:23:19.090 --> 00:23:26.260
+Stephen Curran: path to fixing, I think the rest of them. That he was working on.
+
+160
+00:23:26.850 --> 00:23:37.590
+Stephen Curran: this was just a dependency. Update but in the issues, a recommendation has gone to replace
+
+161
+00:23:40.230 --> 00:23:49.379
+Stephen Curran: these with pi test rough. So any. I have no idea about this one. Any comments from Daniel. I know you commented.
+
+162
+00:23:49.630 --> 00:23:51.709
+Stephen Curran: We want to encourage this.
+
+163
+00:23:53.920 --> 00:24:13.470
+Daniel Bluhm: So it it's very possible that this is just the latest tool, and a long series of bad tools for for python and stuff. But I was impressed by what I saw. I went and looked at Rough, and it seems to be pretty widely used. Some of the projects that have been around for a long time in the python ecosystem are adopting it.
+
+164
+00:24:13.580 --> 00:24:28.139
+Daniel Bluhm: And then on the flip side, on the pipe, test flake, and with the deprecation and and no longer being maintained over there and then, just generally with placate. I've been frustrated with like it in the past. In terms of
+
+165
+00:24:29.090 --> 00:24:40.189
+Daniel Bluhm: like, ideologically with the Maintainer, there's been some differences of opinion there. So that's been fun so I've been in favor of of looking for alternatives to placate for a little while now.
+
+166
+00:24:40.270 --> 00:24:44.710
+Daniel Bluhm: Ii wasn't aware of. But II liked what I saw. So it's
+
+167
+00:24:45.140 --> 00:24:53.930
+Daniel Bluhm: I'm interested. The only thing that was a little strange to me was the version number on it being something that's not
+
+168
+00:24:54.340 --> 00:25:02.449
+Daniel Bluhm: II don't even know how to interpret having 282 releases without having a minor or major number in there. But yeah.
+
+169
+00:25:04.550 --> 00:25:11.620
+Stephen Curran:  well, I mean, conceivably, that's nightly built. And they were building something that's supposed to be compatible with
+
+170
+00:25:12.810 --> 00:25:22.390
+Stephen Curran: long existing stuff. Who knows? Okay, that one's coming. This is that last piece, I believe.
+
+171
+00:25:22.650 --> 00:25:29.559
+Stephen Curran: That was gonna be looked at. We've got the set of an autocrats ones.
+
+172
+00:25:31.450 --> 00:25:43.899
+Stephen Curran: Oh, nightly bills! That was the one that I wanted to look at, and I had that Linkedin We're whoops in here. So 2250.
+
+173
+00:25:46.510 --> 00:25:52.919
+Stephen Curran:  Jason, put this in quite a while ago.
+
+174
+00:25:52.960 --> 00:25:59.270
+Stephen Curran: BC, Gov, team is now thinking this is a higher priority than we thought. So chances are we're gonna get this done
+
+175
+00:25:59.290 --> 00:26:15.940
+Stephen Curran: much sooner than later in the next few days. We hope so that we generate basically a nightly build that build can be used, for instance, in aat which will make it go a lot faster and still be relatively up to date.
+
+176
+00:26:16.140 --> 00:26:24.649
+Stephen Curran: and we can use this in in other places. Where we've got downstream. So basically a
+
+177
+00:26:24.920 --> 00:26:26.450
+Stephen Curran: a a dev
+
+178
+00:26:26.780 --> 00:26:33.619
+Stephen Curran: adapt build, including all of the artifacts. Including a container.
+
+179
+00:26:33.670 --> 00:26:41.240
+Stephen Curran: a container image gets created out of this. That's the idea, Emiliano. Any other comments on that?
+
+180
+00:26:43.420 --> 00:26:50.359
+Emiliano Suñé:  no, you basically summarize it very well. I can just say that the Re. Some of the reasons that we are looking at
+
+181
+00:26:50.400 --> 00:26:58.990
+Emiliano Suñé: accelerating this is, we have we're developing a few new features, namely, about the multi ledger support
+
+182
+00:26:59.200 --> 00:27:07.499
+Emiliano Suñé: interaction. and having the nightly bills, would help a lot like moving that forward rather than having to have custom images built.
+
+183
+00:27:10.850 --> 00:27:17.969
+Daniel Bluhm: So a quick follow up question to that. So you images? I think there's a really obvious
+
+184
+00:27:17.980 --> 00:27:31.549
+Daniel Bluhm: way for us to do that, since we have to get a container registry, and that, you know, goes pretty smoothly, I would say. Are we planning on also publishing nightly builds to like pipe for the actual python package itself.
+
+185
+00:27:32.040 --> 00:27:37.120
+Daniel Bluhm: or what were we thinking there out of curiosity? That that is a good question.
+
+186
+00:27:37.470 --> 00:27:41.619
+Emiliano Suñé: I am not sure what the best way forward would be
+
+187
+00:27:41.670 --> 00:27:54.620
+Emiliano Suñé: cause, while the image I see it as a way of like testing things quicker. If it isn't unsupported, or an official release might be just a bit of overhead publishing to pipe, but it would keep it consistent, so
+
+188
+00:27:55.310 --> 00:27:57.990
+Emiliano Suñé: I don't know. I don't have strong opinions.
+
+189
+00:27:58.440 --> 00:28:01.310
+Stephen Curran: Wait any thoughts on that
+
+190
+00:28:02.470 --> 00:28:16.930
+Stephen Curran: sorry? Can we just review real quick? Yeah, so the idea is, this is about nightly builds and theory wants is the is publishing a a container image
+
+191
+00:28:16.930 --> 00:28:33.139
+Stephen Curran: container image. Yeah, I think we have an issue for that actually, already for a nightly container image. So we we have that. And we're planning. On implementing it, the question would be, do we want to publish the pipe at the same time? Or or should we just go with an image.
+
+192
+00:28:34.550 --> 00:28:35.220
+Let's see.
+
+193
+00:28:38.210 --> 00:28:45.139
+Wade Barnes: I, I'm not a huge fan of nightly, packages.  I don't
+
+194
+00:28:46.240 --> 00:28:50.030
+Wade Barnes: question is, would they would they would it be useful? Like would.
+
+195
+00:28:51.300 --> 00:28:52.949
+Wade Barnes: what does everybody else think
+
+196
+00:28:53.260 --> 00:28:57.209
+Wade Barnes: like Daniel? Would would you use a a nightly package ever?
+
+197
+00:28:57.860 --> 00:29:00.610
+Stephen Curran: Yeah. So you
+
+198
+00:29:00.710 --> 00:29:01.420
+Stephen Curran: Hello.
+
+199
+00:29:01.740 --> 00:29:16.839
+Daniel Bluhm: Sorry. So I'm aware of at least a couple of different instances, where, rather than building directly from images, there's been some requirements where people have built their own images and then pull in from pipe,
+
+200
+00:29:16.930 --> 00:29:24.299
+Daniel Bluhm: and kind of the the default right now, if there's a feature or change that they need that's not released yet.
+
+201
+00:29:25.500 --> 00:29:34.400
+Daniel Bluhm: People I've resorted to referencing the Github repo at main, which works and
+
+202
+00:29:34.940 --> 00:29:43.329
+Daniel Bluhm: probably is not too different from pulling from a nightly package from pipe by, I guess, in terms of like overhead and and changing like
+
+203
+00:29:43.790 --> 00:29:47.889
+Daniel Bluhm: configuration for builds and stuff. A but it it
+
+204
+00:29:49.140 --> 00:29:56.820
+Daniel Bluhm: I don't know. I have mixed feelings. Ii don't. I could see it probably going either way. I don't have too strong of opinions on that. I guess.
+
+205
+00:29:56.860 --> 00:30:06.619
+Wade Barnes: I mean it would be simple. It's simple enough to do the only my only concern is like the extra craft that ends up in pi pi. After that.
+
+206
+00:30:07.270 --> 00:30:13.819
+Daniel Bluhm: yeah, I was, I was reading online actually about that recently, and I think there's a maximum number of
+
+207
+00:30:13.860 --> 00:30:23.769
+Daniel Bluhm: of published images permitted like per package or something like that. So we would. I think we would have to go back and clean up old
+
+208
+00:30:24.530 --> 00:30:27.660
+Daniel Bluhm: which. yeah, again, might not be
+
+209
+00:30:27.750 --> 00:30:34.540
+Wade Barnes: too much fun. Well, let's let's create a ticket for it, and then we can discuss it further and see you know
+
+210
+00:30:35.850 --> 00:30:37.529
+Wade Barnes: what we would need to do
+
+211
+00:30:37.990 --> 00:30:38.760
+Stephen Curran: today.
+
+212
+00:30:39.770 --> 00:30:44.239
+Wade Barnes: Okay, so for now we'll just go with the container image
+
+213
+00:30:44.920 --> 00:30:49.910
+Stephen Curran: and we'll Leave it that for now
+
+214
+00:30:50.540 --> 00:30:58.469
+Stephen Curran: and then we we decide from there, if anyone else wants it. Yup, one
+
+215
+00:30:59.320 --> 00:31:11.929
+Stephen Curran: reminder. These are all of the things that have gone in since we last met. Update for arm issues or workaround. We've got a guy who's what, working through all of our repose to get those done.
+
+216
+00:31:11.950 --> 00:31:31.200
+Stephen Curran:  Jason's preserving exchange records. This is the big breaking change that unless you add this presentation exchange records will be removed once the interaction is complete from Aquapon. So Controller needs to take care of whatever it needs to take care of.
+
+217
+00:31:31.700 --> 00:31:48.680
+Stephen Curran:  a few other other changes. The big 10, yeah, the other one that I wanted to highlight was was this one the shen shots completed, which is in multi-tenant? We can now have supportable right ledgers. So
+
+218
+00:31:48.800 --> 00:32:00.039
+Stephen Curran: a a multi tenant, in instance, can have one tenant writing to one ledger and another tenant writing to a different ledger, so all of them have to be supported by the
+
+219
+00:32:00.080 --> 00:32:06.280
+Stephen Curran: by the overall implementation, but each tenant could select their own. So that's all positive.
+
+220
+00:32:07.470 --> 00:32:11.229
+Stephen Curran: So those are the latest updates that have gone in.
+
+221
+00:32:15.960 --> 00:32:29.639
+Stephen Curran: And I think those are the topics that I wanted to go over. So we're ending. We've got lots of of time available. I didn't have any other topics for this. Is there any other discussion?
+
+222
+00:32:33.290 --> 00:32:36.410
+Stephen Curran: And as I say that I think of one that I wanted to bring up.
+
+223
+00:32:37.480 --> 00:32:44.000
+Stephen Curran: I don't know if we have anyone on that's been also playing with the Afj
+
+224
+00:32:44.160 --> 00:32:48.640
+Stephen Curran: library. But is it time to think about
+
+225
+00:32:50.000 --> 00:32:54.759
+Stephen Curran: adding. open id for Vc support to
+
+226
+00:32:54.770 --> 00:32:56.790
+Stephen Curran: to occupy.
+
+227
+00:32:57.860 --> 00:33:02.070
+Stephen Curran: I know they've been putting some of it into Afj, and we could sort of
+
+228
+00:33:02.470 --> 00:33:04.820
+Stephen Curran: copy what they're doing.
+
+229
+00:33:05.290 --> 00:33:14.310
+Stephen Curran:  is there interest in any groups? In having that functionality available at Keith?
+
+230
+00:33:16.120 --> 00:33:18.140
+Akiff Manji: I guess
+
+231
+00:33:19.050 --> 00:33:21.529
+my personal opinion is
+
+232
+00:33:21.570 --> 00:33:29.820
+Akiff Manji: W. It would maybe expand a feature set for Akapi. II don't know of anybody who's actively using it personally, but
+
+233
+00:33:30.510 --> 00:33:39.149
+Akiff Manji: I don't think it would, there would be any harm in saying, like, Hey occupy supports also open id for Vc. I think it would just make it much a much
+
+234
+00:33:40.270 --> 00:33:41.240
+Akiff Manji: more
+
+235
+00:33:41.360 --> 00:33:44.020
+Akiff Manji: rounded out product as well. Right?
+
+236
+00:33:45.430 --> 00:33:48.020
+Akiff Manji: So I'd be in favor of of including it.
+
+237
+00:33:49.590 --> 00:33:58.610
+Daniel Bluhm: So we've actually done some investigation into adding this stack by or adding support in some way.
+
+238
+00:33:59.230 --> 00:34:13.200
+Daniel Bluhm: we've actually been wondering if it would make sense for this to be something that's deployed as a companion tech by as opposed to something that we implemented directly within, at least when it came to the the server side support for the open id for Vci protocol
+
+239
+00:34:13.239 --> 00:34:15.890
+Daniel Bluhm: clients, I'd but I think that would
+
+240
+00:34:16.300 --> 00:34:19.870
+Daniel Bluhm: might make sense to be something that's directly added.
+
+241
+00:34:20.370 --> 00:34:26.190
+Daniel Bluhm: but because the open id for vci, it adds a set of endpoints
+
+242
+00:34:26.380 --> 00:34:28.830
+Daniel Bluhm: which need to be publicly accessible.
+
+243
+00:34:28.900 --> 00:34:34.870
+Daniel Bluhm: Back by a doesn't really have a good way of having
+
+244
+00:34:34.969 --> 00:34:39.560
+Daniel Bluhm: extensible endpoints beyond the Admin Api endpoints, and those aren't things that would be
+
+245
+00:34:39.750 --> 00:34:42.959
+Daniel Bluhm: generally publicly accessible endpoints.
+
+246
+00:34:43.429 --> 00:34:51.719
+Daniel Bluhm: anyways. So it it seems to us at least that one way we could do it is you have a a companion service that
+
+247
+00:34:51.860 --> 00:35:01.100
+Daniel Bluhm: can call into act by for, like preparing a Jwt. Credential, or Jason, Ld. Credential, or whatever
+
+248
+00:35:01.190 --> 00:35:08.979
+Daniel Bluhm: and then it just gives you the payload, and then you can pass that back as as this remote service. Over the open id for dci protocol
+
+249
+00:35:09.380 --> 00:35:11.149
+Akiff Manji: like that, like a plugin.
+
+250
+00:35:12.180 --> 00:35:15.109
+Daniel Bluhm: more or less. But II think
+
+251
+00:35:15.840 --> 00:35:22.240
+Daniel Bluhm: it probably wouldn't be as close to act by as a Plugin would be, in, in my opinion, because it would interact over.
+
+252
+00:35:22.390 --> 00:35:31.839
+Daniel Bluhm: I don't know. I don't know. I could see it going either way. Yeah, it's funny, you say that, though. But that's that's basically the architecture of Vc off end. Right?
+
+253
+00:35:32.570 --> 00:35:39.159
+Stephen Curran: Right? Yeah, exactly. Would be doing the same thing where Vc off end
+
+254
+00:35:39.730 --> 00:35:47.849
+Stephen Curran: uses what's needed from occupied but handles, you know all of the oat stuff on its own.
+
+255
+00:35:47.920 --> 00:36:00.000
+Daniel Bluhm: I like the idea of being able to maintain that kind of functionality separate from it's it's main stick, I guess, is did come protocols, and it also has.
+
+256
+00:36:00.310 --> 00:36:23.970
+Daniel Bluhm: like a secure storage element and verifiable credential issuance and stuff. But like the the bulk of the code within a pi itself is did come. So keeping that focus on did come within the Acqui code base. And then, if there's additional protocols that we want to implement, having those be a companion to act pi, whether that's a plugin or a separate service entirely, that enables us to.
+
+257
+00:36:24.240 --> 00:36:34.950
+Daniel Bluhm: you know. a adapt and develop with these other protocols in a more organic way. I think so.
+
+258
+00:36:35.240 --> 00:36:45.129
+Akiff Manji: II also should have preface my comment by saying, I'm not fully aware of what the technical imp implications are. So I appreciate the
+
+259
+00:36:46.000 --> 00:36:49.399
+Akiff Manji: the sort of discussion on it I just
+
+260
+00:36:49.790 --> 00:36:56.819
+Akiff Manji: just from a sort of outside perspective. It'd be kind of cool to see more features. And you know there's always nice to see more features.
+
+261
+00:36:57.860 --> 00:36:58.630
+Stephen Curran: Yeah.
+
+262
+00:37:00.940 --> 00:37:03.730
+Daniel Bluhm: So if we, if we did it as a separate service.
+
+263
+00:37:04.110 --> 00:37:11.120
+Daniel Bluhm:  then I think there's going to be an increased amount of like
+
+264
+00:37:11.350 --> 00:37:16.330
+Daniel Bluhm: credential preparation endpoints available within occupies Admin Api
+
+265
+00:37:16.850 --> 00:37:28.509
+Daniel Bluhm: because we would want to expose an endpoint for us to be able to. you know, prepare Json, Ld. Credential without all the other additional steps that are involved in doing that over the issue credential did come protocol.
+
+266
+00:37:28.870 --> 00:37:33.839
+Daniel Bluhm:  we we do have some existing endpoints. That
+
+267
+00:37:33.880 --> 00:37:46.380
+Daniel Bluhm: kind of go in that direction. We recently merged in the Jwt. Sign and verify endpoints. So if if you're willing to manage all of the verifiable credential creation outside of act by you have that endpoint available. At least.
+
+268
+00:37:46.400 --> 00:37:48.330
+Daniel Bluhm: It's it's an
+
+269
+00:37:48.370 --> 00:37:54.560
+Daniel Bluhm: it's a possibility, I guess, to doing Jwvc, but not a really batteries included way of doing it.
+
+270
+00:37:54.720 --> 00:38:02.080
+Daniel Bluhm: And we have a similar endpoint for the Json Ld. Documents as well. We've got a sign in point and a verify endpoint there.
+
+271
+00:38:02.360 --> 00:38:09.410
+Daniel Bluhm: So if we had a remote service, we would need to flesh out the capabilities of those types of endpoints.
+
+272
+00:38:12.080 --> 00:38:13.590
+Daniel Bluhm: Sorry. Just a second.
+
+273
+00:38:20.920 --> 00:38:22.610
+Stephen Curran: Cool. Okay.
+
+274
+00:38:22.650 --> 00:38:39.079
+Daniel Bluhm: Sorry. I sorry I just had a distraction coming so the other side of that is, if we did it as a plugin we wouldn't have to expose, like some of the credential preparation stuff. As admin Api endpoints, we could use the existing code within Xp.
+
+275
+00:38:39.850 --> 00:38:44.670
+Daniel Bluhm: I'm not sure which is the better approach of those 2. But those are things that we've
+
+276
+00:38:45.230 --> 00:38:50.819
+Daniel Bluhm: been considering. At least I don't know that we can say that we've gotten too deep on any of those yet.
+
+277
+00:39:03.090 --> 00:39:03.980
+Stephen Curran: Excellent.
+
+278
+00:39:09.290 --> 00:39:13.150
+Stephen Curran: Appreciate that. Thank you. Thank you both for comments. Anyone else.
+
+279
+00:39:13.410 --> 00:39:19.560
+Stephen Curran: On that topic. And otherwise any other topics people wanna talk about.
+
+280
+00:39:21.250 --> 00:39:33.780
+Daniel Bluhm: So there's one thing that I was hoping to bring up on the Maintainer's meeting last week, but we ran out of time and that was a code coverage reports for for acquire. We used to have
+
+281
+00:39:34.140 --> 00:39:37.800
+Daniel Bluhm: some service that was running. I don't remember what it was called, even at this point.
+
+282
+00:39:37.950 --> 00:39:41.800
+Daniel Bluhm: But we had on each Pr. We had a report of whether
+
+283
+00:39:41.940 --> 00:39:47.919
+Daniel Bluhm: cover increased or decreased significantly. Which was handy
+
+284
+00:39:48.500 --> 00:39:59.090
+Daniel Bluhm: for you know, giving us a good view of like. We've added stuff that we haven't adequately covered with our tests yet, and so there's more to more work to do. Kind of a thing.
+
+285
+00:39:59.290 --> 00:40:08.210
+Daniel Bluhm:  so I would be interested in getting code coverage reports in some form available again to accompany Prs
+
+286
+00:40:14.350 --> 00:40:17.920
+Stephen Curran:  anyone recall what we were using.
+
+287
+00:40:23.280 --> 00:40:25.950
+Daniel Bluhm: I can visualize the logo. It was an umbrella.
+
+288
+00:40:26.960 --> 00:40:29.079
+Daniel Bluhm: but I don't remember what the service was called
+
+289
+00:40:29.220 --> 00:40:29.980
+Stephen Curran: yeah.
+
+290
+00:40:30.820 --> 00:40:36.629
+Wade Barnes: umbrella's code.
+
+291
+00:40:39.510 --> 00:40:43.120
+Stephen Curran: and I do remember those reports
+
+292
+00:40:43.920 --> 00:40:46.000
+Stephen Curran: seen it for a while.
+
+293
+00:40:51.270 --> 00:40:58.420
+Wade Barnes: yeah, I think I think we ended up moving away from that because of the
+
+294
+00:40:59.180 --> 00:41:02.969
+Wade Barnes: Hyper Ledger account associated to it
+
+295
+00:41:04.510 --> 00:41:08.670
+Stephen Curran: what we we sure surely would have replaced it with something
+
+296
+00:41:08.810 --> 00:41:11.230
+Wade Barnes: we did. I thought
+
+297
+00:41:15.140 --> 00:41:22.200
+Daniel Bluhm: there are when the tests run in the actions it will emit a code coverage report
+
+298
+00:41:22.330 --> 00:41:24.519
+Daniel Bluhm: for the whole code base. But it's just.
+
+299
+00:41:24.730 --> 00:41:34.430
+Daniel Bluhm: It's not a very consumable, and it doesn't like it doesn't show up as a comment on the Prs itself. So you'd have to go in and and look at the test. Run
+
+300
+00:41:34.760 --> 00:41:40.409
+Daniel Bluhm:  and you just get a whole dump of of code coverage information. So it's hard to evaluate
+
+301
+00:41:40.560 --> 00:41:44.750
+Daniel Bluhm: if it's increasing or decreasing. As a result of the changes or not.
+
+302
+00:41:48.580 --> 00:41:52.440
+Wade Barnes: there'd be a pr associated with the change.
+
+303
+00:41:53.040 --> 00:42:07.290
+Stephen Curran: I was thinking of 5 just finally, looking at quick ways to see where do we see any sort of coverage? Even that, though I don't know. So it would be on the Pr, yeah, on the Pr test section instead of the integration test one.
+
+304
+00:42:08.720 --> 00:42:16.689
+Akiff Manji:  I think you would see it on the P. The Pr. Page.
+
+305
+00:42:18.400 --> 00:42:20.970
+Stephen Curran: I didn't see it on the er page when I looked.
+
+306
+00:42:24.630 --> 00:42:29.719
+Daniel Bluhm: Yeah. Then, if you expand the tests all the way at the bottom. There is a coverage
+
+307
+00:42:31.020 --> 00:42:33.730
+Daniel Bluhm: report. That's a long way down.
+
+308
+00:42:37.240 --> 00:42:38.520
+Stephen Curran: and if I can
+
+309
+00:42:39.130 --> 00:42:42.690
+Stephen Curran: accurately user mouse, it would be easier.
+
+310
+00:42:53.260 --> 00:42:55.799
+Stephen Curran: Test reports coverage. Dot. Xml.
+
+311
+00:42:56.280 --> 00:42:57.170
+Wade Barnes: is it
+
+312
+00:42:59.440 --> 00:43:05.379
+Wade Barnes: just a matter of adding some additional stuff to expose the report.
+
+313
+00:43:06.070 --> 00:43:08.560
+Stephen Curran: So there is a coverage that Xml.
+
+314
+00:43:10.880 --> 00:43:16.749
+Stephen Curran: Where does that go? Anyone know how to get to that, anyway. Okay, this is something to look at, for sure.
+
+315
+00:43:16.860 --> 00:43:23.460
+Daniel Bluhm: Yeah, I think we'd have to explicitly upload the artifact from the action. Otherwise it's probably not preserved.
+
+316
+00:43:23.910 --> 00:43:25.600
+Stephen Curran: It's just Paris.
+
+317
+00:43:27.730 --> 00:43:29.830
+Stephen Curran: Okay? So
+
+318
+00:43:33.260 --> 00:43:36.310
+Stephen Curran: yeah, finding it, why? And what to do about that one.
+
+319
+00:43:38.540 --> 00:43:40.799
+Stephen Curran: Okay, I'll add that to tickets.
+
+320
+00:43:45.710 --> 00:43:47.899
+Stephen Curran: So it is being collected. It's just
+
+321
+00:43:47.990 --> 00:43:50.430
+Stephen Curran: disappearing into the ether.
+
+322
+00:44:01.750 --> 00:44:03.400
+Stephen Curran: anyway. Okay.
+
+323
+00:44:04.880 --> 00:44:14.360
+Daniel Bluhm: I have one more topic. Since we've got some space. I see pretty P has this hand up as well I can. I can defer. I'm happy to bring it up after
+
+324
+00:44:14.850 --> 00:44:16.050
+Stephen Curran: go ahead. Predict?
+
+325
+00:44:16.060 --> 00:44:26.689
+Pradeep Prakasam: Yeah. So I have this requirement so for integration of SSI with some identity and access management tools the traditional ones like out top.
+
+326
+00:44:26.800 --> 00:44:39.029
+Pradeep Prakasam: So is it? Has it been done already, or is there any resources available for this as anyone here? Daniel, or we looked into this before.
+
+327
+00:44:39.360 --> 00:44:48.079
+Stephen Curran: So I assume oak to integration would be similar to key cloak integration. Is that accurate?
+
+328
+00:44:50.980 --> 00:44:53.070
+Pradeep Prakasam: Similar to that? Yes, I guess so.
+
+329
+00:44:53.080 --> 00:44:56.700
+Stephen Curran: Yeah. So the Vc off end. Have you looked at that at all.
+
+330
+00:44:57.740 --> 00:45:19.799
+Stephen Curran: I was looking into this. So this they are similar. Right? Yes. Yeah. So this VCR, then, basically what? It's a controller. Se, you know, a separate component from Acupi, that uses an occupy instance and basically allows you to specify a presentation request
+
+331
+00:45:20.170 --> 00:45:34.269
+Stephen Curran: and then use it in an authentication interaction. So on the on the wallet side, on the holder side, they get a QR code and they interact with their wallet on the
+
+332
+00:45:34.480 --> 00:45:50.590
+Stephen Curran: Enterprise side. A a relying party that knows how to use, you know, key cloak or or some other Oidc, you know. Basically an Oidc relying party is able to just call this, and it has knows nothing about
+
+333
+00:45:50.600 --> 00:45:53.800
+Stephen Curran: did com or SSI, or anything it just knows about.
+
+334
+00:45:53.820 --> 00:45:57.709
+Stephen Curran: Oh, idc! It gets back a jot
+
+335
+00:45:57.900 --> 00:46:01.240
+Stephen Curran: that contains the
+
+336
+00:46:01.530 --> 00:46:06.819
+Stephen Curran: the attributes that were included in the attribute in the presentation request.
+
+337
+00:46:09.680 --> 00:46:11.330
+Pradeep Prakasam: So there's
+
+338
+00:46:11.700 --> 00:46:14.659
+Stephen Curran: there is a 2 point O branch in this
+
+339
+00:46:14.860 --> 00:46:28.220
+Stephen Curran: that you definitely want to look at. You don't want to use the one because it was based on a a now no longer open source component. But there is that will be coming out soon.
+
+340
+00:46:30.840 --> 00:46:33.610
+Wade Barnes: all in the chat. Yeah, in the chat.
+
+341
+00:46:34.680 --> 00:46:40.050
+Stephen Curran: So take a look at that, and yeah, feel free to ask questions about that.
+
+342
+00:46:40.490 --> 00:46:49.500
+Pradeep Prakasam: In that you've actually got several people on this call that are are doing active development in that repo, so that we get to the the 2 branch
+
+343
+00:46:49.760 --> 00:46:51.250
+Stephen Curran: completion
+
+344
+00:46:52.760 --> 00:46:54.110
+Pradeep Prakasam: sounds good. Thank you.
+
+345
+00:46:54.660 --> 00:46:55.490
+Stephen Curran: Awesome.
+
+346
+00:46:57.330 --> 00:46:58.770
+Stephen Curran: Daniel. Back to you.
+
+347
+00:46:59.490 --> 00:47:03.949
+Daniel Bluhm: Yes, let me remind myself. So
+
+348
+00:47:03.970 --> 00:47:14.810
+Daniel Bluhm: a point of discussion. I suppose is. When do we stop running tests on indie wallets? So, yeah.
+
+349
+00:47:15.250 --> 00:47:20.739
+Daniel Bluhm: Yeah. For instance, the the we run a Pr test for indie specific
+
+350
+00:47:21.020 --> 00:47:29.100
+Daniel Bluhm: build, and then we have one without and then our Bdd test. The integration tests are,
+
+351
+00:47:29.970 --> 00:47:39.210
+Daniel Bluhm: being built with nd included within the image. At least I'm not sure if the indie wallet type is actually getting used, or if the ask, our wallet type is being used on those.
+
+352
+00:47:39.430 --> 00:47:46.909
+Daniel Bluhm: I assume, askar, but I haven't looked deeply enough to know for sure. But if we did
+
+353
+00:47:47.080 --> 00:47:50.649
+Daniel Bluhm: decide to stop running the DVD tests on nd
+
+354
+00:47:50.890 --> 00:48:00.000
+Daniel Bluhm: period we could actually significantly improve the the action runtime on that, because that's to go through an image build and everything. So
+
+355
+00:48:00.680 --> 00:48:01.490
+Daniel Bluhm: yeah.
+
+356
+00:48:02.250 --> 00:48:04.309
+Stephen Curran: I think so.
+
+357
+00:48:04.460 --> 00:48:13.410
+Stephen Curran: So. I would be happy to see that removed people should not be using the Indy SDK bottom line.  it's too old and not
+
+358
+00:48:13.610 --> 00:48:18.430
+Stephen Curran: not being maintained. And people have to migrate off it. So
+
+359
+00:48:18.490 --> 00:48:22.060
+Stephen Curran: we have announced, is deprecated. We're still
+
+360
+00:48:23.050 --> 00:48:30.410
+Stephen Curran: I would be more than happy in the 0 9 0. We said it was deprecated. I would be more than happy to
+
+361
+00:48:30.710 --> 00:48:32.380
+Stephen Curran: stop testing on it.
+
+362
+00:48:34.330 --> 00:48:49.099
+Daniel Bluhm: So as a kind of just an introspection question here. If there was something that needed to be fixed on nd SDK, what is? What are the chances that we would actually address it? And like, put out a bug fix release for the nd SDK,
+
+363
+00:48:49.940 --> 00:49:08.980
+Wade Barnes:  considering the whole entire pipe build and test pipeline, for the has been shut down. Probably very rare like it would have to be something pretty serious. And even then it would probably be faster to people to migrate to Aries.
+
+364
+00:49:10.200 --> 00:49:18.190
+Daniel Bluhm: Okay? And even if even if the change with scopes to occupy usage of existing in the SDK builds, would that
+
+365
+00:49:19.250 --> 00:49:21.160
+Daniel Bluhm: I don't know if that's something we
+
+366
+00:49:21.300 --> 00:49:26.340
+Stephen Curran: you know, when you ask that. That's that's the main question.
+
+367
+00:49:26.910 --> 00:49:28.540
+Stephen Curran: you know, we could.
+
+368
+00:49:28.630 --> 00:49:35.849
+Stephen Curran: If we wanted to do extra work, we could switch the indie test to be nightly test as opposed to
+
+369
+00:49:36.550 --> 00:49:42.230
+Stephen Curran:  you know, sort of separate them off and run them nightly versus
+
+370
+00:49:43.280 --> 00:49:44.929
+Stephen Curran: at all.
+
+371
+00:49:45.790 --> 00:49:50.830
+Stephen Curran: but definitely change the Pr ones to to be. Just ask our
+
+372
+00:49:51.620 --> 00:50:03.469
+Stephen Curran: but any you know, from an occupy perspective, any sort of fixes that we would do. I mean, again open source project. We can do anyone can do anything. Our
+
+373
+00:50:03.650 --> 00:50:08.329
+Stephen Curran: our move would always be to correct by switching.
+
+374
+00:50:10.200 --> 00:50:12.340
+Stephen Curran: So
+
+375
+00:50:12.470 --> 00:50:16.169
+Wade Barnes: it's just there. There's no, there's no working
+
+376
+00:50:16.690 --> 00:50:25.450
+Wade Barnes: test and deployment pipeline for the nd SDK. At this this point in time even the existing one that was being hosted by the sovereign foundation
+
+377
+00:50:25.530 --> 00:50:27.859
+Wade Barnes: has not been run in.
+
+378
+00:50:29.050 --> 00:50:40.879
+Wade Barnes: Oh, jeez maybe like a year. So even if we were to spin that back up what it chances are it's not gonna function, and will require some
+
+379
+00:50:41.040 --> 00:50:44.559
+Wade Barnes: Karen feeding for to get it to work again.
+
+380
+00:50:44.600 --> 00:50:52.550
+Wade Barnes: and the Github pipeline, the github workflows on it were never completed, so they only touch bits and pieces of it.
+
+381
+00:50:53.870 --> 00:50:55.220
+Stephen Curran: I think the point
+
+382
+00:50:55.540 --> 00:50:59.780
+Wade Barnes: Daniel was making was, what if the bug was in Akiphi?
+
+383
+00:51:01.440 --> 00:51:02.420
+Stephen Curran: So
+
+384
+00:51:03.350 --> 00:51:16.309
+Stephen Curran: at most I would want to have, you know, you know, maybe the thing to do is to step back to have it. And I assume that's possible, as we we basically duplicate the the Pr. Action
+
+385
+00:51:16.710 --> 00:51:19.690
+Stephen Curran: to run nightly. and
+
+386
+00:51:19.700 --> 00:51:30.340
+Stephen Curran: only run the, you know, remove the indie, or comment the indie test in one copy, and and copy out everything but the indie test in the other.
+
+387
+00:51:32.280 --> 00:51:42.189
+Stephen Curran: But that that might be a deprecation type strategy is that. do you think that's a good idea, or we just drop them entirely.
+
+388
+00:51:43.920 --> 00:51:54.030
+Wade Barnes: I think if I think if there ended up being like like Daniel, are you talking like, you know, if we run into something in the future, or you're talking something that is.
+
+389
+00:51:54.090 --> 00:51:57.460
+Wade Barnes: we're running into someone's running into imminently.
+
+390
+00:51:58.620 --> 00:52:18.450
+Daniel Bluhm: It's it's hypothetical. I don't have any specific instances of hypothetical. I think the best way to deal with that is, continue with the deprecation. Get rid of it. If we find that we need to fix something that happens to be critical. That is necessary, for you know. Fix it right inside
+
+391
+00:52:19.360 --> 00:52:32.420
+Wade Barnes: occupy for the nd SDK. Then we would like branch and tag at that point and release a patch for whatever version was like, what are we at
+
+392
+00:52:32.720 --> 00:52:34.510
+Wade Barnes: that fixes
+
+393
+00:52:34.980 --> 00:52:41.190
+Wade Barnes: fixes that issue. But moving forward, we wouldn't support it. So it would basically be a one off patch fix.
+
+394
+00:52:45.890 --> 00:53:00.220
+Daniel Bluhm: And in the process of it, being a one off patch fix, we can do one off type. Things like, you know, invoking a workflow that runs specifically, Indie tests right? We don't necessarily need the in the indie stuff being run nightly for that. Correct?
+
+395
+00:53:00.860 --> 00:53:01.550
+Okay.
+
+396
+00:53:02.500 --> 00:53:04.949
+Daniel Bluhm: yeah, I think that makes a lot of sense.
+
+397
+00:53:05.260 --> 00:53:12.050
+Daniel Bluhm: especially considering the the level of support and ability for any sorts of updates to in the SDK, not?
+
+398
+00:53:12.160 --> 00:53:17.429
+Wade Barnes: Well, not that way. We're not that we're not bringing any
+
+399
+00:53:18.000 --> 00:53:22.020
+Wade Barnes: baggage with us. We only create it when we need it.
+
+400
+00:53:26.520 --> 00:53:29.279
+Wade Barnes: Technical debt was the word I was actually looking for.
+
+401
+00:53:43.430 --> 00:53:44.270
+Stephen Curran: Okay.
+
+402
+00:53:50.030 --> 00:53:55.609
+Wade Barnes: I wouldn't say done to the O. 90. Tag, I would say. Done based on the O, 90, tag.
+
+403
+00:53:55.860 --> 00:53:56.630
+Stephen Curran: yeah.
+
+404
+00:53:56.850 --> 00:53:58.530
+Wade Barnes: that's what I meant.
+
+405
+00:54:08.500 --> 00:54:19.960
+Stephen Curran: Okay, what about this idea of? Do we split the tests and keep a separate run nightly? Do we think is, is anyone willing to do that?
+
+406
+00:54:20.300 --> 00:54:26.610
+Wade Barnes: they're they're already separated. Daniel did a really good job of that, but II don't think I think once we
+
+407
+00:54:28.090 --> 00:54:32.519
+Wade Barnes: I guess it'll be like the O dot 1 0
+
+408
+00:54:34.610 --> 00:54:38.140
+release which will eliminate the nd SDK, so
+
+409
+00:54:38.400 --> 00:54:43.580
+Wade Barnes: I would say, would just drop the nightly test for it. II don't think we.
+
+410
+00:54:43.620 --> 00:54:54.870
+Wade Barnes: if we're planning on, get getting rid of it. I think we should, you know, remove the technical debt as we move forward and like, we said, if if there is a critical issue that we need to fix, then we can
+
+411
+00:54:55.880 --> 00:54:58.889
+Wade Barnes: introduce that technical debt at that point in time.
+
+412
+00:55:02.490 --> 00:55:03.400
+Stephen Curran: Okay.
+
+413
+00:55:08.730 --> 00:55:09.610
+Stephen Curran: okay.
+
+414
+00:55:14.350 --> 00:55:19.590
+Wade Barnes: that way becomes, you know, very clear that we are no longer supporting the SDK,
+
+415
+00:55:22.040 --> 00:55:24.769
+Stephen Curran: okay? And is it comment out or remove.
+
+416
+00:55:24.960 --> 00:55:25.740
+Wade Barnes: remove
+
+417
+00:55:26.240 --> 00:55:26.970
+Stephen Curran: day
+
+418
+00:55:28.830 --> 00:55:31.279
+Wade Barnes: source controls our friend. We can always
+
+419
+00:55:32.840 --> 00:55:34.320
+Wade Barnes: bring something back.
+
+420
+00:55:34.910 --> 00:55:37.499
+Wade Barnes: We can look at the revision history.
+
+421
+00:55:46.400 --> 00:55:51.809
+Stephen Curran: and do we? And and you said there is a nightly run of indie tests. So we keep that for now.
+
+422
+00:55:52.850 --> 00:55:59.200
+Wade Barnes: There there is, but I don't think we need it. I think we can eliminate that. I just II think if we're, gonna
+
+423
+00:55:59.560 --> 00:56:09.910
+Wade Barnes: I think, eliminate, as you know, technical data as we move forward. And if we need to, in reintroduce it to, you know, deal with a specific issue. Then we do it at that time.
+
+424
+00:56:10.050 --> 00:56:12.600
+Stephen Curran: Yeah, any objections to that from anyone?
+
+425
+00:56:17.380 --> 00:56:22.930
+Stephen Curran: Okay, thanks for raising that Daniel. I will put in the ticket for that
+
+426
+00:56:26.700 --> 00:56:27.650
+Stephen Curran: excellent
+
+427
+00:56:29.100 --> 00:56:30.360
+Stephen Curran: alright.
+
+428
+00:56:30.660 --> 00:56:35.949
+Stephen Curran: and we're right on time. Thanks all for attending. Have a great one
+
+429
+00:56:36.630 --> 00:56:49.010
+Charles Lanahan: Maintainer meetings for those anyone interested. We are having Maintainer meetings on the off weeks. So if anyone wants it is on the calendar you're welcome to join
+
+430
+00:56:49.130 --> 00:56:58.379
+Stephen Curran: but otherwise it's the Maintainer is getting together for actually quite a similar discussion to what we had today. We mostly had maintainer type issues on this one. So
+
+431
+00:56:59.910 --> 00:57:03.239
+Stephen Curran: see you next week. Maintainer.
+
+432
+00:57:03.490 --> 00:57:07.719
+Jason Sherman: Take it all bye, thanks, bye.
+

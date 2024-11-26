@@ -1,0 +1,1590 @@
+WEBVTT
+
+1
+00:01:38.330 --> 00:01:39.000
+Aleksandr Petrosyan: Hello!
+
+2
+00:01:42.350 --> 00:01:43.710
+Brent Zundel: Hello! How are you?
+
+3
+00:01:45.100 --> 00:01:46.510
+Aleksandr Petrosyan: You know? Crazy? Yeah.
+
+4
+00:01:46.840 --> 00:01:48.089
+Brent Zundel: Yes, in my back.
+
+5
+00:02:01.040 --> 00:02:03.499
+Aleksandr Petrosyan: So I guess we were expecting a lot of people today.
+
+6
+00:02:04.360 --> 00:02:06.229
+Brent Zundel: i'm hoping so.
+
+7
+00:02:07.880 --> 00:02:08.710
+Aleksandr Petrosyan: Yeah.
+
+8
+00:02:09.400 --> 00:02:14.249
+Aleksandr Petrosyan: it's a bit of a shame. We Last time we met we actually had a few actionable points, and since then
+
+9
+00:02:14.740 --> 00:02:16.340
+Aleksandr Petrosyan: it's non-stop
+
+10
+00:02:18.760 --> 00:02:20.390
+Aleksandr Petrosyan: deadline after deadline.
+
+11
+00:02:22.740 --> 00:02:25.350
+Brent Zundel: That will stuff happens.
+
+12
+00:02:26.010 --> 00:02:26.720
+Aleksandr Petrosyan: Yeah.
+
+13
+00:02:27.320 --> 00:02:27.980
+it's
+
+14
+00:02:28.040 --> 00:02:28.640
+probably
+
+15
+00:02:28.660 --> 00:02:29.400
+Aleksandr Petrosyan: cool.
+
+16
+00:02:29.760 --> 00:02:30.960
+Aleksandr Petrosyan: A good thing.
+
+17
+00:02:32.010 --> 00:02:32.950
+What?
+
+18
+00:02:33.980 --> 00:02:35.620
+Aleksandr Petrosyan: I think it's crossed. It's actually gonna
+
+19
+00:02:36.300 --> 00:02:37.060
+better
+
+20
+00:02:39.800 --> 00:02:41.890
+Aleksandr Petrosyan: actually, we
+
+21
+00:02:42.080 --> 00:02:44.850
+Aleksandr Petrosyan: one of the last deadlines which is
+
+22
+00:02:45.680 --> 00:02:46.770
+on the twentieth. So
+
+23
+00:02:48.620 --> 00:02:49.610
+Aleksandr Petrosyan: it's Friday.
+
+24
+00:02:51.540 --> 00:02:55.570
+Aleksandr Petrosyan: and we'll have a lot of resources otherwise to dedicate to us.
+
+25
+00:02:56.500 --> 00:02:57.810
+Aleksandr Petrosyan: Maybe it starts going 3.
+
+26
+00:02:58.830 --> 00:02:59.640
+What about
+
+27
+00:03:01.590 --> 00:03:03.480
+Aleksandr Petrosyan: I do the cool request.
+
+28
+00:03:04.730 --> 00:03:07.260
+Aleksandr Petrosyan: maybe maybe write some code of our own. Actually.
+
+29
+00:03:07.850 --> 00:03:08.980
+Aleksandr Petrosyan: it's a bit of a
+
+30
+00:03:14.050 --> 00:03:16.420
+Aleksandr Petrosyan: the the one kind of retooling that was
+
+31
+00:03:16.870 --> 00:03:19.600
+Aleksandr Petrosyan: a little bit necessary at 1 point was
+
+32
+00:03:19.720 --> 00:03:22.260
+Aleksandr Petrosyan: we needed to update the dependencies
+
+33
+00:03:25.090 --> 00:03:26.790
+Aleksandr Petrosyan: over there Hasn't been but
+
+34
+00:03:27.840 --> 00:03:28.510
+Aleksandr Petrosyan: to make sure.
+
+35
+00:03:33.110 --> 00:03:34.340
+Aleksandr Petrosyan: and it isn't trivial
+
+36
+00:03:35.070 --> 00:03:35.660
+and also
+
+37
+00:03:35.970 --> 00:03:36.890
+Aleksandr Petrosyan: make it trivial.
+
+38
+00:03:38.120 --> 00:03:38.740
+Yeah.
+
+39
+00:03:42.380 --> 00:03:48.170
+Brent Zundel: on that note of, you know, working in ersa, and
+
+40
+00:03:48.920 --> 00:03:52.110
+Brent Zundel: you know just on the topic of reducing
+
+41
+00:03:52.280 --> 00:03:53.680
+Brent Zundel: barriers.
+
+42
+00:03:56.180 --> 00:03:57.560
+Brent Zundel: is there?
+
+43
+00:04:01.720 --> 00:04:07.190
+Brent Zundel: Is there someone on your team that you would want added as a Maintainer.
+
+44
+00:04:08.710 --> 00:04:13.060
+Aleksandr Petrosyan: You know we're in a little bit of a great territory.
+
+45
+00:04:13.130 --> 00:04:16.650
+Aleksandr Petrosyan: Our company is basically sinking money into you. As it is.
+
+46
+00:04:17.579 --> 00:04:21.949
+Aleksandr Petrosyan: it's a big open source project, and we have something like 12 developers. There.
+
+47
+00:04:23.040 --> 00:04:26.459
+Aleksandr Petrosyan: We have a hard time justifying the developers we have on, you know.
+
+48
+00:04:26.700 --> 00:04:30.960
+Aleksandr Petrosyan: much less than dedicating time to supporting any one of the upstream library within
+
+49
+00:04:31.880 --> 00:04:32.560
+Aleksandr Petrosyan: up.
+
+50
+00:04:33.030 --> 00:04:37.150
+Aleksandr Petrosyan: I can get away with it because i'm the technique. And I can say we need this
+
+51
+00:04:37.170 --> 00:04:39.790
+Aleksandr Petrosyan: because security and so on
+
+52
+00:04:40.350 --> 00:04:43.920
+Aleksandr Petrosyan: anyone else, it is going to be an uphill at home.
+
+53
+00:04:45.570 --> 00:04:48.650
+Aleksandr Petrosyan: I'm not saying it's a no, i'm just saying it's difficult.
+
+54
+00:04:49.420 --> 00:04:54.600
+Brent Zundel: Oh, yeah, no worries. I mean, i'm just talking about adding a name to the Maintainer's list.
+
+55
+00:05:01.660 --> 00:05:07.359
+Aleksandr Petrosyan: To be quite known as doing the Tsc. Ballot that that is a little bit in the backside
+
+56
+00:05:08.160 --> 00:05:11.679
+Aleksandr Petrosyan: the of the 12 developers would be hired this year was
+
+57
+00:05:11.960 --> 00:05:15.519
+Aleksandr Petrosyan: basically 0, who are allowed to contribute to the vote.
+
+58
+00:05:19.450 --> 00:05:20.480
+Aleksandr Petrosyan: it very
+
+59
+00:05:21.700 --> 00:05:22.590
+Aleksandr Petrosyan: useful.
+
+60
+00:05:23.300 --> 00:05:24.879
+Aleksandr Petrosyan: Maybe we should. All of you people
+
+61
+00:05:25.410 --> 00:05:27.200
+Aleksandr Petrosyan: to just an in name Only
+
+62
+00:05:32.080 --> 00:05:33.410
+then there's the question, what
+
+63
+00:05:33.900 --> 00:05:37.710
+Aleksandr Petrosyan: What if actually something does come up on? They actually need to do something.
+
+64
+00:05:45.440 --> 00:05:46.360
+Aleksandr Petrosyan: Oh, oh.
+
+65
+00:05:46.390 --> 00:05:47.820
+Aleksandr Petrosyan: I lost around with my team.
+
+66
+00:05:55.780 --> 00:05:58.600
+Aleksandr Petrosyan: How many people were you applying for
+
+67
+00:05:58.910 --> 00:05:59.790
+Aleksandr Petrosyan: contributions?
+
+68
+00:06:00.310 --> 00:06:01.830
+Brent Zundel: Well, it's just
+
+69
+00:06:01.860 --> 00:06:03.069
+Brent Zundel: the way that
+
+70
+00:06:03.160 --> 00:06:05.850
+Brent Zundel: the approvals work with
+
+71
+00:06:05.890 --> 00:06:12.669
+Brent Zundel: Someone from the Maintainer's list needs to approve the Pr's right. Now that list consists of me.
+
+72
+00:06:12.740 --> 00:06:19.170
+Brent Zundel: cool. I don't have time, and my boss is like.
+
+73
+00:06:19.540 --> 00:06:27.979
+Brent Zundel: you know, kind of eyeing my participation in Ursa sideways, anyway, because at this point my company isn't using it anymore.
+
+74
+00:06:28.690 --> 00:06:30.050
+Brent Zundel: Mike
+
+75
+00:06:32.800 --> 00:06:38.270
+Brent Zundel: Completely blanking on his last name, which is a shame because I literally worked with him for years.
+
+76
+00:06:41.160 --> 00:06:51.590
+Brent Zundel: Mike Who wrote a good chunk of ersa, but and might have time in the future to come and work on some more stuff. But at this point
+
+77
+00:06:51.710 --> 00:06:55.639
+Brent Zundel: who knows? And camara who works for
+
+78
+00:06:56.150 --> 00:06:58.219
+Brent Zundel: it is nice.
+
+79
+00:06:58.980 --> 00:07:00.200
+Brent Zundel: Well, he
+
+80
+00:07:01.160 --> 00:07:02.870
+Brent Zundel: he's working for
+
+81
+00:07:03.230 --> 00:07:06.790
+Brent Zundel: the company does micro loans in Africa.
+
+82
+00:07:08.720 --> 00:07:14.529
+Brent Zundel: And they were strong into Hyper Ledger for a while, doing just like any stuff, and then they pulled away.
+
+83
+00:07:15.210 --> 00:07:16.160
+Brent Zundel: And
+
+84
+00:07:18.460 --> 00:07:19.620
+Brent Zundel: And so
+
+85
+00:07:20.100 --> 00:07:22.310
+Brent Zundel: of those 3 maintainers
+
+86
+00:07:23.780 --> 00:07:25.339
+Brent Zundel: i'm there some of the time.
+
+87
+00:07:26.380 --> 00:07:28.420
+Brent Zundel: and may not be there for much longer.
+
+88
+00:07:28.470 --> 00:07:35.600
+Brent Zundel: So just having another name on that list that can push the approved button on a Pr. To get things merged. Moving forward.
+
+89
+00:07:35.910 --> 00:07:37.539
+Aleksandr Petrosyan: That case I me?
+
+90
+00:07:40.450 --> 00:07:41.990
+Aleksandr Petrosyan: I think i'm already in the field
+
+91
+00:07:42.910 --> 00:07:45.289
+Aleksandr Petrosyan: request. This is my
+
+92
+00:07:45.450 --> 00:07:46.140
+Aleksandr Petrosyan: Get home.
+
+93
+00:07:47.990 --> 00:07:51.400
+Aleksandr Petrosyan: I'll definitely have time to look through the Prs. At least
+
+94
+00:07:51.790 --> 00:07:54.060
+Aleksandr Petrosyan: maybe contribute some code as well
+
+95
+00:07:55.170 --> 00:07:56.910
+Aleksandr Petrosyan: and definitely this month.
+
+96
+00:07:58.240 --> 00:08:00.280
+Aleksandr Petrosyan: we do need to get the dependencies on.
+
+97
+00:08:00.530 --> 00:08:04.919
+Aleksandr Petrosyan: because it's untenable. We have to duplicate a lot of dependencies
+
+98
+00:08:05.050 --> 00:08:05.760
+Aleksandr Petrosyan: as is.
+
+99
+00:08:05.950 --> 00:08:06.670
+So
+
+100
+00:08:09.510 --> 00:08:13.220
+Aleksandr Petrosyan: i'll ask you around the team, maybe during the next meeting we'll have
+
+101
+00:08:13.810 --> 00:08:14.400
+that means.
+
+102
+00:08:17.530 --> 00:08:22.170
+Aleksandr Petrosyan: But basically the idea is you need someone to be able to review the call requests not necessarily to contribute code
+
+103
+00:08:24.130 --> 00:08:24.850
+right?
+
+104
+00:08:25.500 --> 00:08:33.699
+Brent Zundel: Right, like anybody can submit a Pr. what we need is somebody on the receiving end that can click the yes button. This is okay.
+
+105
+00:08:34.330 --> 00:08:38.449
+Brent Zundel: I can do it, and Mike sometimes shows up and does it.
+
+106
+00:08:38.470 --> 00:08:39.750
+Brent Zundel: I don't know that
+
+107
+00:08:39.890 --> 00:08:42.220
+Brent Zundel: cam's done it a long time. You know. It's just
+
+108
+00:08:43.850 --> 00:08:46.340
+Brent Zundel: It's just one of those things that we need.
+
+109
+00:08:48.220 --> 00:08:51.609
+Brent Zundel: okay, so i'm going to add you right now.
+
+110
+00:08:52.870 --> 00:08:55.090
+Brent Zundel: and you live on the call.
+
+111
+00:09:42.630 --> 00:09:48.380
+Brent Zundel: It is a L. E, x s, a n, d R. Oh, no, e at the end
+
+112
+00:09:49.860 --> 00:09:50.920
+no, no!
+
+113
+00:09:52.210 --> 00:09:53.699
+Aleksandr Petrosyan: What's funny is that I
+
+114
+00:09:54.900 --> 00:09:58.779
+Aleksandr Petrosyan: I wasn't even consulted on how to spell my name, so it's permanently recorded, as this
+
+115
+00:09:59.200 --> 00:10:00.230
+Aleksandr Petrosyan: abomination
+
+116
+00:10:02.130 --> 00:10:03.070
+happens.
+
+117
+00:10:04.840 --> 00:10:07.130
+Brent Zundel: And your github is at
+
+118
+00:10:07.380 --> 00:10:10.160
+Brent Zundel: a dash.
+
+119
+00:10:12.320 --> 00:10:13.649
+Aleksandr Petrosyan: Oh, good pronunciation!
+
+120
+00:10:15.880 --> 00:10:16.600
+Well, thank you.
+
+121
+00:10:39.770 --> 00:10:43.070
+Brent Zundel: do you participate in the
+
+122
+00:10:43.460 --> 00:10:46.939
+Brent Zundel: discord channels and stuff on
+
+123
+00:10:47.170 --> 00:10:48.799
+Brent Zundel: the Hyper Ledger? Discord?
+
+124
+00:10:49.430 --> 00:10:54.920
+Aleksandr Petrosyan: Yes, but very early the I used to do it a lot more, but the
+
+125
+00:10:57.820 --> 00:10:59.240
+Aleksandr Petrosyan: the lack of a better word.
+
+126
+00:11:01.000 --> 00:11:05.059
+Aleksandr Petrosyan: deadline after deadline situation that started in September, and
+
+127
+00:11:05.320 --> 00:11:06.520
+Aleksandr Petrosyan: didn't end until
+
+128
+00:11:07.280 --> 00:11:08.700
+Aleksandr Petrosyan: until the day after
+
+129
+00:11:08.980 --> 00:11:10.129
+Aleksandr Petrosyan: this Friday.
+
+130
+00:11:10.760 --> 00:11:13.080
+Aleksandr Petrosyan: there was no balance.
+
+131
+00:11:14.070 --> 00:11:14.820
+Aleksandr Petrosyan: none.
+
+132
+00:11:15.900 --> 00:11:19.999
+Aleksandr Petrosyan: I I actually was length of the Csc. Election as Well.
+
+133
+00:11:21.140 --> 00:11:21.870
+Aleksandr Petrosyan: I
+
+134
+00:11:22.370 --> 00:11:24.600
+Aleksandr Petrosyan: basically. Produce everything in 5 min.
+
+135
+00:11:25.980 --> 00:11:27.159
+Aleksandr Petrosyan: That's why I wasn't elected.
+
+136
+00:11:30.650 --> 00:11:34.270
+Brent Zundel: I can't find you. I'm searching in the wrong discord. Let's try this again.
+
+137
+00:11:34.970 --> 00:11:35.580
+Aleksandr Petrosyan: Oh.
+
+138
+00:11:35.630 --> 00:11:37.460
+Aleksandr Petrosyan: maybe I can find you
+
+139
+00:11:38.730 --> 00:11:40.729
+Aleksandr Petrosyan: us on the Hyper Ledger discord, right?
+
+140
+00:11:41.220 --> 00:11:46.000
+Brent Zundel: I Currently I I found you. I just need. There's like a numeric code
+
+141
+00:11:46.280 --> 00:11:48.110
+Aleksandr Petrosyan: 9, 7, 3, 4,
+
+142
+00:11:48.720 --> 00:11:50.210
+Brent Zundel: 9, 7, 3, 4.
+
+143
+00:12:15.570 --> 00:12:18.100
+Brent Zundel: Okay. I think I've got this in
+
+144
+00:12:18.280 --> 00:12:19.540
+Brent Zundel: properly
+
+145
+00:12:23.250 --> 00:12:25.189
+Brent Zundel: that we are here.
+
+146
+00:13:07.030 --> 00:13:07.650
+This is.
+
+147
+00:13:15.520 --> 00:13:16.750
+Brent Zundel: Make sure
+
+148
+00:13:18.210 --> 00:13:19.080
+Brent Zundel: it goes.
+
+149
+00:13:22.750 --> 00:13:24.799
+Aleksandr Petrosyan: Our maintain is allowed to push the right.
+
+150
+00:13:25.110 --> 00:13:27.919
+Aleksandr Petrosyan: or do they have to go through the, you know, and put the prices as well?
+
+151
+00:13:30.390 --> 00:13:32.300
+Brent Zundel: They, if
+
+152
+00:13:33.840 --> 00:13:45.399
+Brent Zundel: ideally, if one Maintainer submits a. Pr. There will at least be comments and approvals from other folks that are involved before things are being merged. So it should go through the regular pr process.
+
+153
+00:13:45.820 --> 00:13:49.660
+Brent Zundel: I believe they have the power to
+
+154
+00:13:50.910 --> 00:13:52.650
+Brent Zundel: merge directly, but I
+
+155
+00:13:53.220 --> 00:13:56.800
+Brent Zundel: honestly it's been so long since I've looked at the buttons.
+
+156
+00:13:57.620 --> 00:13:58.260
+Oh.
+
+157
+00:13:58.660 --> 00:14:02.139
+Aleksandr Petrosyan: i'm sure the better question is, if
+
+158
+00:14:02.260 --> 00:14:04.410
+Aleksandr Petrosyan: I needed to force push.
+
+159
+00:14:05.210 --> 00:14:07.450
+Aleksandr Petrosyan: to correct some sign offs at some point.
+
+160
+00:14:08.370 --> 00:14:11.510
+Aleksandr Petrosyan: Will that be considered a huge in fractional just to
+
+161
+00:14:12.430 --> 00:14:13.700
+Aleksandr Petrosyan: in the last hotel.
+
+162
+00:14:14.520 --> 00:14:15.990
+Brent Zundel: I
+
+163
+00:14:16.630 --> 00:14:18.340
+Brent Zundel: I don't think that
+
+164
+00:14:20.190 --> 00:14:21.339
+Brent Zundel: anybody would
+
+165
+00:14:21.960 --> 00:14:23.109
+Brent Zundel: consider that
+
+166
+00:14:23.560 --> 00:14:24.910
+Brent Zundel: a huge infraction.
+
+167
+00:14:25.780 --> 00:14:26.490
+Okay.
+
+168
+00:14:29.460 --> 00:14:33.020
+Aleksandr Petrosyan: we got a situation where we don't have where we have to. We commit
+
+169
+00:14:33.220 --> 00:14:35.470
+Aleksandr Petrosyan: around the hunting commits because
+
+170
+00:14:35.920 --> 00:14:39.890
+Aleksandr Petrosyan: one of the earliest signos was with a github rather than that.
+
+171
+00:14:40.300 --> 00:14:41.949
+Aleksandr Petrosyan: an actual personal email
+
+172
+00:14:42.030 --> 00:14:43.060
+Aleksandr Petrosyan: so that you sign up for
+
+173
+00:14:43.120 --> 00:14:43.680
+basically.
+
+174
+00:14:43.710 --> 00:14:44.530
+use this?
+
+175
+00:14:45.820 --> 00:14:48.530
+Brent Zundel: Oh, yeah, the d smell stuff. That stuff is
+
+176
+00:14:48.600 --> 00:14:50.320
+Brent Zundel: very annoying when it gets
+
+177
+00:14:50.580 --> 00:14:51.610
+Brent Zundel: punched out.
+
+178
+00:14:53.110 --> 00:14:55.860
+Aleksandr Petrosyan: Our solution was to disable the
+
+179
+00:15:01.480 --> 00:15:04.060
+Brent Zundel: alright.
+
+180
+00:15:04.450 --> 00:15:05.790
+Brent Zundel: Oh, no, no, go ahead.
+
+181
+00:15:06.740 --> 00:15:07.930
+Aleksandr Petrosyan: No
+
+182
+00:15:10.950 --> 00:15:11.599
+go ahead.
+
+183
+00:15:11.630 --> 00:15:18.590
+Brent Zundel: I was gonna say that the Pr. Is in it's going through the ci checks and everything which
+
+184
+00:15:19.460 --> 00:15:24.089
+Brent Zundel: I can't imagine. We'll have a problem because i'm changing one line in a single file.
+
+185
+00:15:27.130 --> 00:15:30.600
+Aleksandr Petrosyan: You should actually tune the Ci to. And all these things
+
+186
+00:15:33.150 --> 00:15:38.629
+Brent Zundel: I I don't disagree, but that's definitely outside of my
+
+187
+00:15:41.660 --> 00:15:43.570
+Aleksandr Petrosyan: i'm a little bit of a double. So
+
+188
+00:15:45.480 --> 00:15:46.630
+Aleksandr Petrosyan: okay.
+
+189
+00:15:48.690 --> 00:15:52.379
+Aleksandr Petrosyan: and I can definitely see that the warnings and i'll consider that as
+
+190
+00:15:56.710 --> 00:15:57.930
+Aleksandr Petrosyan: the formatting is.
+
+191
+00:16:02.420 --> 00:16:04.230
+Brent Zundel: is the formatting off
+
+192
+00:16:05.440 --> 00:16:07.240
+Aleksandr Petrosyan: the formatting is correct.
+
+193
+00:16:07.360 --> 00:16:08.880
+Aleksandr Petrosyan: how do I know
+
+194
+00:16:09.200 --> 00:16:12.710
+Aleksandr Petrosyan: it wouldn't affect anything because you didn't touch any source code.
+
+195
+00:16:14.650 --> 00:16:17.339
+Aleksandr Petrosyan: The bigger question is most of the time
+
+196
+00:16:17.410 --> 00:16:22.490
+Aleksandr Petrosyan: on bigger projects enable W. Or in rust. The equipment is treating all
+
+197
+00:16:22.630 --> 00:16:24.000
+Aleksandr Petrosyan: warnings as
+
+198
+00:16:27.880 --> 00:16:30.479
+Aleksandr Petrosyan: and usually don't care about the formatting much.
+
+199
+00:16:34.300 --> 00:16:37.280
+Aleksandr Petrosyan: And as long as I can tell you, not actually caching the
+
+200
+00:16:37.760 --> 00:16:38.810
+artifacts.
+
+201
+00:16:40.090 --> 00:16:40.730
+Aleksandr Petrosyan: Yeah.
+
+202
+00:16:40.930 --> 00:16:42.410
+Aleksandr Petrosyan: lots of room for improvements.
+
+203
+00:16:42.990 --> 00:16:44.630
+Brent Zundel: I am sure of that.
+
+204
+00:16:46.330 --> 00:16:52.299
+Brent Zundel: So Pr: 218 once it's through, or at any point you are more than welcome to jump in and
+
+205
+00:16:52.360 --> 00:16:56.239
+Brent Zundel: throw your approval on there, just to show that it's being done with your knowledge.
+
+206
+00:16:56.570 --> 00:16:57.420
+Brent Zundel: And so
+
+207
+00:17:01.070 --> 00:17:03.549
+Brent Zundel: I can turn my Google on there. And
+
+208
+00:17:03.780 --> 00:17:04.770
+Brent Zundel: i'm good.
+
+209
+00:17:04.839 --> 00:17:05.859
+Brent Zundel: added
+
+210
+00:17:07.280 --> 00:17:09.890
+Brent Zundel: water, Mike Water. I remember
+
+211
+00:17:14.690 --> 00:17:15.310
+right.
+
+212
+00:17:21.869 --> 00:17:22.690
+since
+
+213
+00:17:24.150 --> 00:17:25.769
+Aleksandr Petrosyan: out of the comment, just in case
+
+214
+00:17:41.520 --> 00:17:42.400
+Aleksandr Petrosyan: how many
+
+215
+00:17:43.030 --> 00:17:45.190
+Aleksandr Petrosyan: projects in hyperl are using rust.
+
+216
+00:17:45.790 --> 00:17:47.909
+Aleksandr Petrosyan: i'm going to throw that close a little bit, but
+
+217
+00:17:48.370 --> 00:17:50.589
+Aleksandr Petrosyan: it goes shockingly more popular.
+
+218
+00:17:55.370 --> 00:17:57.620
+Aleksandr Petrosyan: I know it's little hard. Aries
+
+219
+00:17:57.640 --> 00:17:59.050
+another
+
+220
+00:18:00.220 --> 00:18:01.550
+that's basically it.
+
+221
+00:18:02.070 --> 00:18:04.050
+Brent Zundel: Yeah, not as many as i'd like
+
+222
+00:18:05.040 --> 00:18:07.609
+Brent Zundel: that a pretty high opinion of of
+
+223
+00:18:09.180 --> 00:18:10.310
+Brent Zundel: there was
+
+224
+00:18:10.520 --> 00:18:15.410
+Brent Zundel: years and years back. There was very serious talk about
+
+225
+00:18:15.480 --> 00:18:17.179
+Brent Zundel: porting in the
+
+226
+00:18:17.960 --> 00:18:19.130
+Brent Zundel: to rust
+
+227
+00:18:21.860 --> 00:18:27.980
+Brent Zundel: And actually the if I remember the Indie SDK is in Rusk already, but it's the
+
+228
+00:18:28.640 --> 00:18:35.170
+Brent Zundel: it's the actual Indie plenum and the ledger code that's still in python of all things.
+
+229
+00:18:36.910 --> 00:18:42.759
+Brent Zundel: So who? Yeah, there was like very serious conversations around we we should really do this. But you know, like
+
+230
+00:18:43.260 --> 00:18:49.640
+Brent Zundel: is common with open source projects. Well, who's got the resources and time to actually do that?
+
+231
+00:18:49.940 --> 00:18:52.870
+Brent Zundel: And how confident are we that it's still going to work with that?
+
+232
+00:18:55.440 --> 00:18:56.129
+It was.
+
+233
+00:18:57.680 --> 00:18:59.930
+Brent Zundel: But yeah, not as much rest as i'd like to see.
+
+234
+00:19:03.300 --> 00:19:05.440
+Brent Zundel: though, from what I understand the
+
+235
+00:19:05.620 --> 00:19:08.660
+Brent Zundel: there's some go that's being written, that's
+
+236
+00:19:08.800 --> 00:19:10.389
+that's pretty decent as well.
+
+237
+00:19:12.790 --> 00:19:14.679
+I'm not a big time ago.
+
+238
+00:19:16.330 --> 00:19:18.889
+Aleksandr Petrosyan: I respect the people designing it.
+
+239
+00:19:19.180 --> 00:19:21.349
+Aleksandr Petrosyan: The design itself Structural time, I think
+
+240
+00:19:21.830 --> 00:19:22.590
+it was just.
+
+241
+00:19:23.010 --> 00:19:23.860
+Aleksandr Petrosyan: It's.
+
+242
+00:19:24.180 --> 00:19:25.100
+It's like
+
+243
+00:19:25.270 --> 00:19:27.890
+Aleksandr Petrosyan: is hindsight to 30 years
+
+244
+00:19:28.400 --> 00:19:30.669
+Aleksandr Petrosyan: of what everyone, including people
+
+245
+00:19:30.910 --> 00:19:31.929
+Aleksandr Petrosyan: to a design
+
+246
+00:19:33.830 --> 00:19:35.839
+really in brilliant languages like this.
+
+247
+00:19:36.080 --> 00:19:38.350
+Aleksandr Petrosyan: and terrible, terrible languages like this.
+
+248
+00:19:39.100 --> 00:19:42.150
+Aleksandr Petrosyan: I have taught you about how to do these things.
+
+249
+00:19:43.360 --> 00:19:45.500
+Aleksandr Petrosyan: and you throw it all away.
+
+250
+00:19:45.630 --> 00:19:47.650
+Aleksandr Petrosyan: You say let's reinvent the deal
+
+251
+00:19:48.290 --> 00:19:50.069
+Aleksandr Petrosyan: based on something that we know. Doesn't.
+
+252
+00:19:55.960 --> 00:19:56.750
+It's
+
+253
+00:19:56.970 --> 00:19:59.240
+Aleksandr Petrosyan: not that I have any objection to this.
+
+254
+00:19:59.260 --> 00:20:00.750
+Aleksandr Petrosyan: Go, that's written.
+
+255
+00:20:01.240 --> 00:20:02.580
+It's just not. The
+
+256
+00:20:04.180 --> 00:20:06.770
+Aleksandr Petrosyan: rust has a low, high barrier of entry.
+
+257
+00:20:06.940 --> 00:20:09.240
+Aleksandr Petrosyan: because you have to get through the borrowed checker
+
+258
+00:20:09.520 --> 00:20:11.350
+Aleksandr Petrosyan: by the time you finish the events.
+
+259
+00:20:13.070 --> 00:20:15.830
+Aleksandr Petrosyan: quite another venture. You've learned a lot.
+
+260
+00:20:15.970 --> 00:20:20.159
+Aleksandr Petrosyan: would go. It's not the same. It's it actually lets you get away with
+
+261
+00:20:20.360 --> 00:20:25.139
+Aleksandr Petrosyan: talk too much, and by the time you've finished with the tutorial you already picked up a few about habits.
+
+262
+00:20:31.740 --> 00:20:33.599
+Aleksandr Petrosyan: But then again it's. It's all in the program.
+
+263
+00:20:34.900 --> 00:20:36.230
+Aleksandr Petrosyan: Emphasis on
+
+264
+00:20:40.650 --> 00:20:42.230
+Aleksandr Petrosyan: this is an engineer, actually.
+
+265
+00:20:42.860 --> 00:20:45.359
+Aleksandr Petrosyan: because it a good design, even in a good language.
+
+266
+00:20:46.380 --> 00:20:51.159
+Aleksandr Petrosyan: You know a bad language or flourish on the planet Design, even with a good language, will just die out.
+
+267
+00:20:57.060 --> 00:21:00.259
+Brent Zundel: It's in point. There's a lot of C still out there.
+
+268
+00:21:01.430 --> 00:21:02.390
+Aleksandr Petrosyan: Good. See
+
+269
+00:21:02.430 --> 00:21:04.170
+Brent Zundel: there.
+
+270
+00:21:04.450 --> 00:21:06.090
+Brent Zundel: like legitimately
+
+271
+00:21:06.520 --> 00:21:08.270
+Brent Zundel: solid. See, I mean
+
+272
+00:21:09.200 --> 00:21:12.420
+Brent Zundel: the the Linux kernel is my favorite example of that
+
+273
+00:21:12.940 --> 00:21:14.220
+Brent Zundel: works really well.
+
+274
+00:21:16.760 --> 00:21:17.700
+Aleksandr Petrosyan: Well, it
+
+275
+00:21:18.090 --> 00:21:22.699
+Brent Zundel: at least for a certain measure of works, really. Well, I guess. Here
+
+276
+00:21:23.710 --> 00:21:24.799
+Brent Zundel: you're on Linux
+
+277
+00:21:27.120 --> 00:21:28.840
+Aleksandr Petrosyan: I contributed
+
+278
+00:21:29.110 --> 00:21:31.600
+Aleksandr Petrosyan: little bit of code system that it's Eric controllers
+
+279
+00:21:32.210 --> 00:21:33.200
+Aleksandr Petrosyan: back in my day
+
+280
+00:21:34.790 --> 00:21:38.400
+Aleksandr Petrosyan: and i'm really happy that they introduced us into the kernel.
+
+281
+00:21:41.160 --> 00:21:43.939
+Aleksandr Petrosyan: because the kind of thing that you'd be writing
+
+282
+00:21:43.970 --> 00:21:47.440
+Aleksandr Petrosyan: isn't the kind of thing that you trust to
+
+283
+00:21:47.710 --> 00:21:52.230
+Aleksandr Petrosyan: seeing all this to do most of the contributions are from scene offices.
+
+284
+00:21:54.180 --> 00:21:58.040
+Aleksandr Petrosyan: It's it's better to spend a little more time compiling and being certain that you
+
+285
+00:21:58.330 --> 00:21:59.969
+Aleksandr Petrosyan: they haven't made a mistake rather than
+
+286
+00:22:01.750 --> 00:22:05.700
+Aleksandr Petrosyan: having
+
+287
+00:22:05.770 --> 00:22:07.359
+Aleksandr Petrosyan: a controller that use it.
+
+288
+00:22:07.710 --> 00:22:08.859
+Aleksandr Petrosyan: What is used
+
+289
+00:22:08.920 --> 00:22:11.090
+Aleksandr Petrosyan: in some lab somewhere.
+
+290
+00:22:17.650 --> 00:22:24.359
+Aleksandr Petrosyan: You actually wouldn't believe what the code is for. There's a there's an apple 2 computer in the Cabin Mission laboratory in Cambridge.
+
+291
+00:22:26.910 --> 00:22:31.510
+Aleksandr Petrosyan: I really wanted to move to a somewhat modern operating system
+
+292
+00:22:32.760 --> 00:22:34.679
+Aleksandr Petrosyan: still made if you purchase the Linux
+
+293
+00:22:36.350 --> 00:22:39.829
+Aleksandr Petrosyan: so that you could remove everything else. And if you fitted to the
+
+294
+00:22:39.860 --> 00:22:40.539
+to be able to run
+
+295
+00:22:42.100 --> 00:22:47.320
+Aleksandr Petrosyan: least compatible software things that you could compile on a regular PC, and then just
+
+296
+00:22:47.540 --> 00:22:49.410
+Aleksandr Petrosyan: move into it.
+
+297
+00:22:54.440 --> 00:22:55.360
+Aleksandr Petrosyan: Yeah, it works.
+
+298
+00:22:55.930 --> 00:22:57.520
+Aleksandr Petrosyan: It was shockingly well.
+
+299
+00:23:00.260 --> 00:23:06.780
+Aleksandr Petrosyan: They returned to the apple, too, because it had some software which was designed specifically for the application.
+
+300
+00:23:06.960 --> 00:23:09.030
+Aleksandr Petrosyan: It was proprietary. So you couldn't reverse, engineer.
+
+301
+00:23:09.810 --> 00:23:11.400
+Let it run the control of it
+
+302
+00:23:12.530 --> 00:23:13.880
+Aleksandr Petrosyan: this one while I lost it.
+
+303
+00:23:18.940 --> 00:23:22.059
+Aleksandr Petrosyan: I guess we are not going to be joined by anyone
+
+304
+00:23:22.590 --> 00:23:23.850
+Brent Zundel: doesn't look like it.
+
+305
+00:23:24.090 --> 00:23:32.860
+Brent Zundel: so in addition to the comment, if you're able to, just like, if you go to the files, changed, tab and approve
+
+306
+00:23:33.090 --> 00:23:35.100
+Brent Zundel: normal. Yeah, Well, there.
+
+307
+00:23:36.130 --> 00:23:39.710
+Brent Zundel: and I will ping Mike and cam
+
+308
+00:23:39.800 --> 00:23:42.729
+Brent Zundel: to see if they can jump in and approve it.
+
+309
+00:23:42.790 --> 00:23:43.930
+Brent Zundel: And
+
+310
+00:23:44.640 --> 00:23:46.189
+Brent Zundel: yeah, we'll get
+
+311
+00:23:47.820 --> 00:23:48.440
+good.
+
+312
+00:23:48.640 --> 00:23:51.489
+Aleksandr Petrosyan: so just the roadmap for what we're going to be doing.
+
+313
+00:23:53.500 --> 00:23:55.730
+Aleksandr Petrosyan: My guess is
+
+314
+00:23:56.670 --> 00:24:01.110
+Aleksandr Petrosyan: next week is the earliest. I can actually start doing anything.
+
+315
+00:24:03.350 --> 00:24:10.759
+Aleksandr Petrosyan: Then i'll have a look at the smaller issues like 213, maybe, as the crashes on sea length shorter than 30, divided by
+
+316
+00:24:11.490 --> 00:24:12.749
+Aleksandr Petrosyan: should be an easy fix.
+
+317
+00:24:13.440 --> 00:24:14.400
+Aleksandr Petrosyan: I'll bump
+
+318
+00:24:15.150 --> 00:24:16.919
+Aleksandr Petrosyan: dependencies as much as I can
+
+319
+00:24:18.600 --> 00:24:22.180
+Aleksandr Petrosyan: The conditional compilation makes it difficult, for I think it should be possible.
+
+320
+00:24:22.820 --> 00:24:23.800
+Aleksandr Petrosyan: At least
+
+321
+00:24:24.130 --> 00:24:25.480
+Aleksandr Petrosyan: i'll go to where it should be
+
+322
+00:24:25.610 --> 00:24:26.570
+Aleksandr Petrosyan: readable.
+
+323
+00:24:27.130 --> 00:24:27.760
+Hmm.
+
+324
+00:24:28.160 --> 00:24:30.560
+Aleksandr Petrosyan: so the simple
+
+325
+00:24:32.260 --> 00:24:33.230
+it's.
+
+326
+00:24:34.560 --> 00:24:36.180
+It's a bit more complicated.
+
+327
+00:24:37.450 --> 00:24:39.959
+Aleksandr Petrosyan: I think it will be resolved when
+
+328
+00:24:40.320 --> 00:24:44.160
+Aleksandr Petrosyan: will be bumping the burden? It might actually come with the same
+
+329
+00:24:45.080 --> 00:24:46.059
+full request.
+
+330
+00:24:47.090 --> 00:24:51.170
+Aleksandr Petrosyan: I think we should probably have another meeting and discuss what's going to happen next. But
+
+331
+00:24:51.370 --> 00:24:53.809
+Aleksandr Petrosyan: after that the biggest.
+
+332
+00:24:53.910 --> 00:24:54.820
+Aleksandr Petrosyan: probably
+
+333
+00:24:56.100 --> 00:24:58.340
+best thing to start working on is
+
+334
+00:25:00.250 --> 00:25:02.099
+Aleksandr Petrosyan: adding support for
+
+335
+00:25:02.380 --> 00:25:05.300
+Aleksandr Petrosyan: undeprecated libraries like this era.
+
+336
+00:25:05.450 --> 00:25:06.140
+anyhow.
+
+337
+00:25:06.810 --> 00:25:07.619
+Aleksandr Petrosyan: 199.
+
+338
+00:25:08.470 --> 00:25:09.120
+Brent Zundel: Yeah.
+
+339
+00:25:10.220 --> 00:25:14.220
+Aleksandr Petrosyan: After those are done we can start talking about
+
+340
+00:25:14.460 --> 00:25:15.170
+Aleksandr Petrosyan: changing
+
+341
+00:25:15.430 --> 00:25:16.300
+the structure
+
+342
+00:25:16.660 --> 00:25:17.490
+great.
+
+343
+00:25:17.630 --> 00:25:21.860
+Aleksandr Petrosyan: making it it's lots of smaller crates which are compiled separately rather than a single
+
+344
+00:25:22.360 --> 00:25:24.099
+Aleksandr Petrosyan: single one with most features.
+
+345
+00:25:26.160 --> 00:25:29.710
+Aleksandr Petrosyan: Hopefully. They will also help in organizing the code.
+
+346
+00:25:31.340 --> 00:25:31.990
+because
+
+347
+00:25:32.670 --> 00:25:35.709
+Aleksandr Petrosyan: right now it's not quite as obvious as
+
+348
+00:25:35.910 --> 00:25:37.240
+Aleksandr Petrosyan: you'd like to be.
+
+349
+00:25:38.050 --> 00:25:42.220
+Aleksandr Petrosyan: which create, or rather, which module is responsible, for which functionality
+
+350
+00:25:42.560 --> 00:25:46.630
+Aleksandr Petrosyan: it's all over the place and grouped by algorithm rather than by functionality.
+
+351
+00:25:47.270 --> 00:25:49.590
+Brent Zundel: Yeah, Usually, if you're using.
+
+352
+00:25:50.280 --> 00:25:53.569
+Aleksandr Petrosyan: if you're using something, you're not actually interested in the algorithm
+
+353
+00:25:53.630 --> 00:25:54.910
+Aleksandr Petrosyan: you're interested in
+
+354
+00:25:55.870 --> 00:25:59.299
+Aleksandr Petrosyan: either encryption, decryption, thresholds, etc.
+
+355
+00:25:59.880 --> 00:26:01.230
+Aleksandr Petrosyan: and those things
+
+356
+00:26:01.530 --> 00:26:08.650
+Aleksandr Petrosyan: Mit, c.
+
+357
+00:26:09.030 --> 00:26:11.350
+Aleksandr Petrosyan: Or you could import each of them individually.
+
+358
+00:26:12.990 --> 00:26:14.240
+Aleksandr Petrosyan: and that will
+
+359
+00:26:14.470 --> 00:26:17.519
+Aleksandr Petrosyan: probably cut down on the compilation time as well.
+
+360
+00:26:18.780 --> 00:26:20.509
+Aleksandr Petrosyan: because then you can explicitly define.
+
+361
+00:26:20.720 --> 00:26:21.280
+You want
+
+362
+00:26:22.500 --> 00:26:23.160
+no
+
+363
+00:26:23.290 --> 00:26:24.640
+Aleksandr Petrosyan: recompiled every time you
+
+364
+00:26:26.270 --> 00:26:27.999
+Aleksandr Petrosyan: right.
+
+365
+00:26:30.770 --> 00:26:33.489
+Aleksandr Petrosyan: Do you really need to upload the roadmap
+
+366
+00:26:34.710 --> 00:26:36.810
+Aleksandr Petrosyan: before we do it? What do we need to do after
+
+367
+00:26:41.850 --> 00:26:42.879
+Brent Zundel: I
+
+368
+00:26:43.830 --> 00:26:47.440
+Brent Zundel: What you outlined just now is
+
+369
+00:26:47.620 --> 00:26:51.240
+Brent Zundel: in line with my understanding of where we want to go, and I wanted to go.
+
+370
+00:26:53.090 --> 00:26:54.090
+Brent Zundel: And so
+
+371
+00:26:54.680 --> 00:26:58.029
+Brent Zundel: I think we got to just start seeing. Pr.
+
+372
+00:26:58.870 --> 00:26:59.450
+Okay.
+
+373
+00:27:00.120 --> 00:27:01.390
+Aleksandr Petrosyan: Okay, in case
+
+374
+00:27:01.520 --> 00:27:02.170
+Oh.
+
+375
+00:27:02.960 --> 00:27:06.949
+Aleksandr Petrosyan: i'll address the issues which were assigned to me.
+
+376
+00:27:07.580 --> 00:27:09.399
+Aleksandr Petrosyan: I'll let you self assign it to you
+
+377
+00:27:11.720 --> 00:27:12.929
+Aleksandr Petrosyan: the ones that I mentioned.
+
+378
+00:27:16.280 --> 00:27:17.210
+Aleksandr Petrosyan: yeah.
+
+379
+00:27:20.920 --> 00:27:25.540
+Aleksandr Petrosyan: Like, I said. The reason why I haven't contributed previously was
+
+380
+00:27:28.550 --> 00:27:31.089
+Aleksandr Petrosyan: the precarious, for we do need us, and we
+
+381
+00:27:31.670 --> 00:27:35.149
+Aleksandr Petrosyan: I really want to have a point on my busy, my
+
+382
+00:27:36.020 --> 00:27:37.360
+Aleksandr Petrosyan: cryptographic library
+
+383
+00:27:39.020 --> 00:27:39.680
+on
+
+384
+00:27:40.210 --> 00:27:42.270
+Aleksandr Petrosyan: management isn't very happy with spending
+
+385
+00:27:42.520 --> 00:27:44.199
+Aleksandr Petrosyan: develop a time doing this
+
+386
+00:27:44.330 --> 00:27:46.659
+I might actually have to take it out and do it on my own time
+
+387
+00:27:47.070 --> 00:27:47.770
+sometimes.
+
+388
+00:27:49.240 --> 00:27:49.820
+Yeah.
+
+389
+00:27:51.920 --> 00:27:53.400
+Aleksandr Petrosyan: it's good that we can help
+
+390
+00:27:55.590 --> 00:27:56.809
+that. We can help
+
+391
+00:27:56.900 --> 00:27:58.180
+Aleksandr Petrosyan: little bit more this time.
+
+392
+00:28:00.220 --> 00:28:00.850
+So on.
+
+393
+00:28:03.010 --> 00:28:09.069
+Brent Zundel: Well, I appreciate you being here, and next meeting is in 2 weeks, and hopefully both of us can be there as well.
+
+394
+00:28:09.640 --> 00:28:10.390
+Aleksandr Petrosyan: Excellent!
+
+395
+00:28:10.590 --> 00:28:11.220
+Thank you.
+
+396
+00:28:11.530 --> 00:28:12.609
+Brent Zundel: Thank you, Alexander
+
+397
+00:28:16.280 --> 00:28:16.750
+Bye.
+

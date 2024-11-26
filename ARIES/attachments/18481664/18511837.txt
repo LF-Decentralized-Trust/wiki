@@ -1,0 +1,37 @@
+00:13:00	Sam Smith:	+1 BC Gov Deep Dive
+00:29:25	Richard Esplin:	Where does the code for aries-toolbox live?
+00:29:27	Richard Esplin:	I missed that part.
+00:29:36	John Jordan:	looks fun!
+00:30:46	Drummond Reed:	I like it
+00:31:02	Steve Pilling (IdRamp):	Looks like this miht be it: https://github.com/TelegramSam/aries-toolbox/tree/vuestart
+00:31:41	John Callahan:	Did you use aries-sdk-node?
+00:31:44	Drummond Reed:	Uh oh. As soon as Kyle says, “This introduces some new ideas…”, RUN (don’t walk) the other way
+00:32:56	John Callahan:	I’ve used electron (nodeJS, right?)
+00:33:36	Drummond Reed:	Slack did some massive refactoring
+00:33:52	Drummond Reed:	https://slack.engineering/rebuilding-slack-on-the-desktop-308d6fe94ae4
+00:34:52	Richard Esplin:	aries-dev-tools?
+00:35:01	Drummond Reed:	+1
+00:35:03	Robert Mitwicki:	Agent Explorer
+00:35:13	Drummond Reed:	+1 to that too
+00:35:20	Robert Mitwicki:	aries-agent-explorer
+00:35:47	Stephen Curran:	Should it be a Hyperledger Labs project? Or maybe we have aries-lab repo?
+00:36:33	John Callahan:	I meant aries-sdk-javascript (doesn’t seem to be a aries-sdk-node or aries-sdk-nodejs repo)
+00:38:39	Drummond Reed:	Cool stuff
+00:43:32	Richard Esplin:	The holder can still offer a revoked credential.
+00:43:41	Richard Esplin:	And explain to the verifier the situation.
+00:46:00	Nader Helmy:	Any verifier can check if a credential has been revoked, right? Does that mean a holder can verify their own credential?
+00:47:02	Sam Curren (TelegramSam):	John: I didn't use aries-sd-javascript, as I was trying to avoid the complexity of indy-sdk dependance. The binaries are not installed easily, and I wanted an easy install.The goal Is to use AriesSDK of some sort, but when it gets to a nicer place that doesn't foul up the Electron App distribution.
+00:48:19	moushmi.banerjee:	It will be good if the holder is notified for any changes to the credential not just revoked. Otherwise the holder will need to query the credential every time to verify before propagating it.
+00:49:17	Richard Esplin:	Physical credentials wouldn't be revoked either if the issuer stops existing.
+00:49:41	Kyle Den Hartog:	correct
+00:50:06	Kyle Den Hartog:	in most cases thats a feature not a bug too
+00:51:06	Richard Esplin:	@nader there is nothing that prevents a holder from verifying their own credential, but I don't think any agents have implemented that.
+00:52:23	Stephen Curran:	OrgBook has done that since early days. It works fine!
+00:52:46	Richard Esplin:	Thanks for sharing Stephen.
+01:09:58	Richard Esplin:	I am also concerned about churning RFCs 0036 where there are already fairly mature implemenattions that will have to be refactored.
+01:10:04	Richard Esplin:	What Kyle said.
+01:18:43	Kyle Den Hartog:	+1
+01:22:08	Oliver Terbu:	+1
+01:35:38	Troy Ronda:	https://github.com/hyperledger/aries-rfcs/issues/129#issuecomment-513365248
+01:35:57	Troy Ronda:	Aries DID method discussion ^^
+01:39:38	Richard Esplin:	Is the other Aries call a better timezone for the IOT meeting?

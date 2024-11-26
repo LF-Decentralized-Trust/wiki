@@ -1,0 +1,34 @@
+00:24:37	mwherman2000:	Can someone forward me a copy of the meeting request for the Aries "morning meeting"? ...Thank you
+00:24:58	John Callahan:	https://ssimeetup.org/highlights-internet-identity-workshop-29-drummond-reed-autumn-2019-webinar-38/
+00:25:16	Cam Parra:	It’s on the HL calendar @mwherman2000
+00:25:50	Nathan George:	All the Hyperledger meetings are on the Community Calendar here https://calendar.google.com/calendar/embed?mode=AGENDA&src=linuxfoundation.org_nf9u64g9k9rvd9f8vp4vur23b0%40group.calendar.google.com&ctz=UTC
+00:31:46	Nader Helmy:	KERI whitepaper (Sam Smith)
+https://github.com/reputage/KERI/blob/master/docs/KERI_WP.pdf
+00:42:44	Nathan George:	Daniel’s slides (expanded link) https://docs.google.com/presentation/d/1liHdn6061wXU-RRBRnrO7e2IgR7pnQIOl4b2oNb2_m4/edit#slide=id.g64d1fa8648_0_13
+00:56:23	Paul Knowles:	In the “Blinding Identity Taxonomy (BIT)” is a taxonomy of 47 elements that could potentially unblind the identity of an organisation, a person or a thing. https://kantarainitiative.org/confluence/display/infosharing/Blinding+Identity+Taxonomy
+00:56:54	Paul Knowles:	There are currently 3 elements on the taxonomy that are “keys” related …
+00:56:57	Paul Knowles:	Private Keys / Master Keys
+Symmetric Keys
+Public Keys
+00:57:47	Paul Knowles:	Would it be more accurate to substitute those elements with …
+00:58:06	Paul Knowles:	Asymmetric keys
+DID keys
+Payment keys
+Symmetric keys
+Link secrets
+00:58:54	Paul Knowles:	Public keys
+00:59:30	Paul Knowles:	?
+01:03:58	mwherman2000:	q+
+01:06:07	Steve McCown:	On slide 7, it shows the CIS & Metadata boxes being access from the same “query / update / encrypt” layer and also being passed into the same pluggable storage layer.  Given that the 2 boxes come from the same place and go to the same place, is it really necessary to separate them?
+01:13:00	Troy Ronda:	Having a pluggable storage interface is a good idea. Having a CIS store and metadata store interface is a good idea. Defining a wrapping strategy for protecting data into dumb storage is a good idea. These interfaces are at two different levels. It’s also true that there are implementation choices on which layers will be used in a particular scenario.
+01:14:12	Sam Curren (TelegramSam):	+1 Troy
+01:14:37	mwherman2000:	Slide 7 is in effect a "meta architecture" of requirements
+01:15:06	mwherman2000:	...that could be applied on a DID Method by DID Method basis
+01:17:52	Robert Mitwicki:	ACS - Agent Controled Storage 
+01:20:22	mwherman2000:	Trusted Digital Agent Storage
+01:20:25	Troy Ronda:	The diagram isn’t showing the wrapping key that is kept inside the enclave.
+01:22:40	Troy Ronda:	(You could argue that there is another box for the “pluggable” system that handles protection of the wrapping key).
+01:23:00	Troy Ronda:	(Be it enclave, hsm, or software).
+01:23:11	Robert Mitwicki:	Where the keys for encrypting/decrypting of CIS are? :>
+01:24:36	Troy Ronda:	(If “LOX” is intended to be that box, it might not have been clear in the diagram that it is invoked prior to dumb storage).
+01:33:40	Brent Zundel:	https://jira.hyperledger.org/browse/ARIES-3

@@ -1,0 +1,20 @@
+00:04:26	Timo Glastra:	https://wiki.hyperledger.org/display/ARIES/2023-06-22+Aries+Framework+JS+Meeting+notes
+00:08:10	Akiff Manji:	This week!
+00:08:20	Karim Stekelenburg:	Reacted to "This week!" with 👏
+00:14:39	Timo Glastra:	Reacted to "This week!" with 👏
+00:24:30	Alex Andrei:	I’m still seeing the done: protocol slides if you are trying to show the folder structure
+00:36:00	Karim Stekelenburg:	Really nice Artem! 👏
+00:36:08	Ariel Gentile:	add 👏
+00:36:22	Timo Glastra:	add 👏
+00:37:17	Timo Glastra:	I think this protocol needs to be supported, right? https://didcomm.org/mediator-coordination/2.0/
+00:42:02	Alex Andrei:	You can still receive a message from a did you have never seen though right?
+00:45:24	Alex Andrei:	Isn’t a connection just a did pair?
+00:46:52	Alex Andrei:	In v2 you could have messages that you send to multiple DIDs so it’s not just a 1-1 mapping but a 1-many though
+00:49:42	Alex Andrei:	Like a spam filter in email
+00:52:56	Alex Andrei:	Also other non afj agents need to support “connections” to interact with it
+00:53:18	Alex Andrei:	If protocols need to handle connections
+00:53:29	Alex Andrei:	Each protocol*
+00:53:46	Alex Andrei:	Yes
+00:53:57	Alex Andrei:	Warren is on it
+00:54:25	Alex Andrei:	👍🏽
+01:01:55	Warren Gallagher:	Good discussion. Thanks.

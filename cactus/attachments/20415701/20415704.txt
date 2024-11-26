@@ -1,0 +1,522 @@
+WEBVTT
+
+1
+00:00:21.030 --> 00:00:22.830
+Peter Somogyvari: Hey? Can you hear me?
+
+2
+00:00:25.430 --> 00:00:27.409
+Ramakrishna V: Hey, Peter? Hey? Sorry for me.
+
+3
+00:00:28.590 --> 00:00:29.869
+Peter Somogyvari: Yeah, no problem.
+
+4
+00:02:06.120 --> 00:02:07.230
+Ramakrishna V: Let me get started.
+
+5
+00:02:07.580 --> 00:02:10.030
+Ramakrishna V: I I'm not sure if anybody else.
+
+6
+00:02:10.610 --> 00:02:14.830
+Peter Somogyvari: Yeah, I just don't know else it's joining. But I guess it's time.
+
+7
+00:02:17.630 --> 00:02:19.660
+Peter Somogyvari: Can you see a screen share?
+
+8
+00:02:20.430 --> 00:02:21.339
+Ramakrishna V: I do.
+
+9
+00:02:21.760 --> 00:02:27.029
+Peter Somogyvari: Okay, so hello and welcome everyone to the Hyper Electric. I maintain this meeting.
+
+10
+00:02:27.360 --> 00:02:38.060
+Peter Somogyvari: Please divide by the and teachers policy that I'm showing on the screen and also the Hyper Ledger code of conduct
+
+11
+00:02:38.900 --> 00:02:46.189
+Peter Somogyvari: that you can find link to on the Vicki page with the agenda for today's meeting.
+
+12
+00:02:49.340 --> 00:02:53.859
+Peter Somogyvari: And with that said, I want to skip
+
+13
+00:02:55.270 --> 00:03:03.680
+Peter Somogyvari: discussion. Item one. because I have not had the time to prepare for it. But I do have
+
+14
+00:03:04.790 --> 00:03:07.780
+Peter Somogyvari: discussion, item number 2,
+
+15
+00:03:07.810 --> 00:03:10.580
+Peter Somogyvari: for which I want to
+
+16
+00:03:11.780 --> 00:03:14.419
+Peter Somogyvari: share my screen real quick!
+
+17
+00:03:14.840 --> 00:03:17.329
+Peter Somogyvari:  there, is it
+
+18
+00:03:18.900 --> 00:03:20.539
+Peter Somogyvari: there, is it?
+
+19
+00:03:25.480 --> 00:03:26.550
+Peter Somogyvari: Yes.
+
+20
+00:03:26.910 --> 00:03:32.350
+Peter Somogyvari: So the interesting part here is the out to upgrade syntax.
+
+21
+00:03:34.620 --> 00:03:36.700
+Peter Somogyvari: Hopefully. You can see it.
+
+22
+00:03:38.200 --> 00:03:45.039
+Peter Somogyvari: So if I search in Vs code. I search for only package Jason files
+
+23
+00:03:46.110 --> 00:03:49.040
+Peter Somogyvari: that have the O 2 upgrades
+
+24
+00:03:49.080 --> 00:03:51.050
+Peter Somogyvari: symbol.
+
+25
+00:03:51.290 --> 00:03:55.350
+Ramakrishna V: and I still get a hundred 86 results.
+
+26
+00:03:56.260 --> 00:04:01.850
+Peter Somogyvari: And so what I was thinking is that I was just going to do a replace all
+
+27
+00:04:03.120 --> 00:04:04.959
+Peter Somogyvari: to remove all of these.
+
+28
+00:04:06.270 --> 00:04:14.739
+Peter Somogyvari: and then send a giant portic with that. But before I do that, I want it to run it by everybody.
+
+29
+00:04:15.500 --> 00:04:21.690
+Peter Somogyvari: If that's okay, because if it is, he is going to remove the carrot or not replace it.
+
+30
+00:04:22.860 --> 00:04:29.149
+Peter Somogyvari: Yeah, yeah. So that way. it's just the exact version pinned down.
+
+31
+00:04:33.180 --> 00:04:39.749
+sandeep: No, it is. And they are to be upgrade using till day. You can probably replace that also.
+
+32
+00:04:40.840 --> 00:04:44.090
+Ramakrishna V: I think even that. so
+
+33
+00:04:45.890 --> 00:04:49.429
+Ramakrishna V: what's the main difference between Tilde and Carrot
+
+34
+00:04:50.460 --> 00:04:54.890
+sandeep: the Patch version? And it is for the minor, for zoom.
+
+35
+00:04:55.630 --> 00:04:56.909
+sandeep: Okay, okay.
+
+36
+00:04:59.820 --> 00:05:02.890
+sandeep: yeah, it. I'm not able to find.
+
+37
+00:05:04.300 --> 00:05:05.000
+hmm!
+
+38
+00:05:05.620 --> 00:05:12.770
+Peter Somogyvari: There are no, but it doesn't matter. I would want to tell this to go as well, because
+
+39
+00:05:12.850 --> 00:05:18.759
+Peter Somogyvari: it doesn't matter what patch or or it doesn't matter if it's a patch or a minor, because
+
+40
+00:05:19.050 --> 00:05:22.849
+sandeep: if someone is pushing mal there with an update.
+
+41
+00:05:23.390 --> 00:05:30.440
+Peter Somogyvari: Then they can do that in a patch as well. They they just want care to respect semantic versioning
+
+42
+00:05:31.310 --> 00:05:35.040
+Peter Somogyvari: standards, anyway. So
+
+43
+00:05:35.250 --> 00:05:43.889
+Peter Somogyvari: as long as any kind of out to upgrade is possible, it's basically a your remote code execution flaw in a sense.
+
+44
+00:05:44.680 --> 00:05:50.080
+sandeep:  by the way of supply chain attacks.
+
+45
+00:05:50.790 --> 00:05:55.559
+Peter Somogyvari: and it's also it also leads to those kind of bugs where
+
+46
+00:05:56.580 --> 00:06:08.970
+Peter Somogyvari: well-intentioned maintainers of dependencies mess up, and they accidentally push breaking changes in as a as a patch. which also has happened.
+
+47
+00:06:10.180 --> 00:06:21.030
+Peter Somogyvari:  So yeah, it's it's more manual work to to keep everything upstate manually. But it's safer.
+
+48
+00:06:21.850 --> 00:06:23.959
+Peter Somogyvari: That's basically my case.
+
+49
+00:06:33.670 --> 00:06:36.170
+sandeep: okay, yeah, just
+
+50
+00:06:36.400 --> 00:06:38.550
+sandeep: so you you didn't find any?
+
+51
+00:06:39.590 --> 00:06:45.340
+Peter Somogyvari: No. by far, there would be some, but there's literally, none.
+
+52
+00:06:47.090 --> 00:06:51.399
+sandeep:  yeah, okay.
+
+53
+00:07:08.470 --> 00:07:09.850
+Ramakrishna V: that sounds fine to me.
+
+54
+00:07:12.370 --> 00:07:13.040
+sandeep: Yeah.
+
+55
+00:07:15.640 --> 00:07:16.620
+Peter Somogyvari: Okay.
+
+56
+00:07:17.240 --> 00:07:26.230
+Peter Somogyvari: then I'll make the pull request. And then, assuming that the tests are actually still passing, we can merge it. But obviously, if
+
+57
+00:07:26.700 --> 00:07:42.280
+Peter Somogyvari: if somehow it just destroys everything, then then the approach will be to take a step back and try to do it piece by piece, you know, maybe one directory at a time, or one package Jason at a time, and then
+
+58
+00:07:42.690 --> 00:07:48.849
+Peter Somogyvari: figure out there and that it breaks. But hopefully, that won't be the case.
+
+59
+00:07:51.240 --> 00:07:52.200
+Ramakrishna V: Yeah.
+
+60
+00:07:56.090 --> 00:07:58.779
+Peter Somogyvari: okay, so that was one thing.
+
+61
+00:08:00.050 --> 00:08:10.750
+Peter Somogyvari: And then I have another agenda item. Oh, yeah, cleaning up package lock files. So the package locked files or not.
+
+62
+00:08:10.960 --> 00:08:25.890
+Peter Somogyvari:  doing anything in the sense that it is the yarn lock file in the route that holds all the dependency information at this point, because the
+
+63
+00:08:26.540 --> 00:08:29.730
+Peter Somogyvari: hooked up all the packages to the
+
+64
+00:08:31.820 --> 00:08:34.530
+Peter Somogyvari:  to the mono repo.
+
+65
+00:08:36.409 --> 00:08:39.639
+Peter Somogyvari: But with that said, there are still
+
+66
+00:08:40.970 --> 00:08:49.600
+Peter Somogyvari: that takes lock. Jason files. Oh, actually, there's only one of them. Yeah. So there's still this one
+
+67
+00:08:51.420 --> 00:08:55.260
+Peter Somogyvari: policy. So we can, you can get it of the file.
+
+68
+00:08:55.390 --> 00:08:59.939
+Ramakrishna V: Yeah. Obviously, this. this was the experimental code which
+
+69
+00:09:00.290 --> 00:09:08.990
+Ramakrishna V: got we we we we added. I mean the important to be able right at the beginning, you know, you making the first drop it to the lab project.
+
+70
+00:09:09.310 --> 00:09:11.859
+Ramakrishna V: and it's never been used with the need so
+
+71
+00:09:11.880 --> 00:09:17.339
+Ramakrishna V: and get rid of it. Somebody needs to assume the work on this. But it's not. Nothing is being done for 2 years. Now.
+
+72
+00:09:17.780 --> 00:09:20.330
+Peter Somogyvari:  well, if
+
+73
+00:09:20.800 --> 00:09:22.460
+Peter Somogyvari: if you're confident
+
+74
+00:09:22.640 --> 00:09:28.190
+Peter Somogyvari: of it being deprecated, you could also just delete it. But I don't know
+
+75
+00:09:28.340 --> 00:09:35.830
+Peter Somogyvari: if there is any problems with that. for now I'm just talking about deleting the package lock. Jason file.
+
+76
+00:09:36.120 --> 00:09:41.669
+Ramakrishna V: Yeah, no, I'm I'm not talking about deleting the folder. But you can delete the log file.
+
+77
+00:09:42.010 --> 00:09:44.160
+Peter Somogyvari: Okay, yeah. All right.
+
+78
+00:09:44.910 --> 00:09:51.190
+Peter Somogyvari: So my pull request, then, will also include the deletion of the lockfire just to do more cleanup.
+
+79
+00:09:51.600 --> 00:09:52.300
+Ramakrishna V: Good.
+
+80
+00:09:55.160 --> 00:09:58.940
+Peter Somogyvari: Yeah. And what else do I have?
+
+81
+00:10:01.890 --> 00:10:07.149
+Peter Somogyvari: oh, yeah. So the backl, the pull request backlog, the cluttering.
+
+82
+00:10:08.460 --> 00:10:17.059
+Peter Somogyvari: I'm just gonna have to do that next week, because I'm still working on the list of pull requests that I want us to look at together.
+
+83
+00:10:18.410 --> 00:10:20.030
+Peter Somogyvari: and also
+
+84
+00:10:20.590 --> 00:10:29.210
+Peter Somogyvari: is who didn't make it, and we would need him there as well. So yeah, I'll just put this item in the backlog for the next week.
+
+85
+00:10:29.630 --> 00:10:33.210
+Peter Somogyvari: and the last one is the quarterly Report, which
+
+86
+00:10:33.390 --> 00:10:39.849
+Peter Somogyvari: I have not created draft for yet, but I will try to get it done tomorrow, and then I'll send it out.
+
+87
+00:10:43.750 --> 00:10:51.969
+Ramakrishna V: Sure. So when you create it, will you create directly as a as a Pr and in the
+
+88
+00:10:52.970 --> 00:10:53.830
+Peter Somogyvari: yeah.
+
+89
+00:10:55.330 --> 00:10:58.179
+Ramakrishna V: okay? And if I want to edit it. Then what I do.
+
+90
+00:10:59.640 --> 00:11:06.890
+Peter Somogyvari:  I think you, because you are on the
+
+91
+00:11:07.740 --> 00:11:14.960
+Peter Somogyvari: you have edit right on it automatically, because it's in the Toc Repo of which we are maintainers.
+
+92
+00:11:15.830 --> 00:11:20.709
+Ramakrishna V: Yeah, but I don't want to do that. do. Do you want to
+
+93
+00:11:21.020 --> 00:11:24.340
+Ramakrishna V: share a description?
+
+94
+00:11:24.480 --> 00:11:30.560
+Ramakrishna V: better. And you know I'll I'll I'll I'll give you updates as soon as
+
+95
+00:11:31.020 --> 00:11:33.740
+Ramakrishna V: possibly like, within a few hours.
+
+96
+00:11:34.430 --> 00:11:37.500
+Peter Somogyvari: Yeah, that works, too. I'm totally flexible.
+
+97
+00:11:38.790 --> 00:11:39.750
+Ramakrishna V: Thanks.
+
+98
+00:11:39.880 --> 00:11:44.550
+Ramakrishna V: Yeah. I sorry gone. You had other things.
+
+99
+00:11:45.670 --> 00:11:48.809
+Peter Somogyvari: the last one is just for you.
+
+100
+00:11:49.210 --> 00:11:55.419
+Peter Somogyvari: because I I figured maybe you wanted to talk about a documentation. If you have anything but other than that I'm done
+
+101
+00:11:55.970 --> 00:12:08.180
+Ramakrishna V: The only thing I want to say that is sorry I I could finish it last week. I got a bit sick but and I was traveling until Monday this week. So but
+
+102
+00:12:08.210 --> 00:12:16.250
+Ramakrishna V: I do plan to get a Pr together by tomorrow. So trying to work on that today tomorrow. So
+
+103
+00:12:16.260 --> 00:12:19.900
+Ramakrishna V:  hopefully
+
+104
+00:12:20.040 --> 00:12:25.219
+Ramakrishna V: can do that in time to add an entry in the quarterly port as well.
+
+105
+00:12:28.750 --> 00:12:31.829
+Peter Somogyvari: Yeah, no worries. That sounds great to me.
+
+106
+00:12:31.920 --> 00:12:33.830
+Peter Somogyvari: Just thanks again for doing it.
+
+107
+00:12:41.620 --> 00:12:43.549
+Ramakrishna V: And the yeah, the
+
+108
+00:12:43.830 --> 00:12:54.550
+Ramakrishna V: I mean, we already talked about this on the on the chat, but the S. Atp. Sorry the it conferences a couple of weeks from now, and
+
+109
+00:12:54.690 --> 00:13:04.170
+Ramakrishna V: the date for the our session got reschedule. It looks like to the the preliminary agenda. It was on Thursday, the 27. But now it's on Tuesday to the
+
+110
+00:13:04.590 --> 00:13:06.420
+Ramakrishna V: same week, but different day.
+
+111
+00:13:08.240 --> 00:13:12.760
+Peter Somogyvari:  okay.
+
+112
+00:13:12.950 --> 00:13:18.060
+Peter Somogyvari: okay, I have to co-work and decent planning. Then
+
+113
+00:13:18.670 --> 00:13:20.710
+Peter Somogyvari: because I want to see, yeah.
+
+114
+00:13:21.630 --> 00:13:23.870
+Peter Somogyvari: I wanted us to get together.
+
+115
+00:13:24.190 --> 00:13:24.960
+Ramakrishna V: Yeah.
+
+116
+00:13:25.150 --> 00:13:30.460
+Peter Somogyvari: And I have a venue. I have a rooftop on my building in my building.
+
+117
+00:13:31.080 --> 00:13:36.190
+Ramakrishna V: We we we can do. We can do that every day. I am there the entire week. So.
+
+118
+00:13:36.210 --> 00:13:39.540
+Ramakrishna V: and I believe Rafael also will be there.
+
+119
+00:13:40.340 --> 00:13:44.209
+Peter Somogyvari: Yeah. yes, yes. He he message me as well.
+
+120
+00:13:46.250 --> 00:13:48.280
+Peter Somogyvari: Okay.
+
+121
+00:13:48.790 --> 00:13:49.560
+Ramakrishna V: sure.
+
+122
+00:13:51.110 --> 00:13:51.959
+Ramakrishna V: There you go.
+
+123
+00:13:53.170 --> 00:13:54.860
+Peter Somogyvari: Nothing else from me.
+
+124
+00:13:55.770 --> 00:13:56.520
+Ramakrishna V: Okay.
+
+125
+00:13:57.610 --> 00:14:01.360
+Ramakrishna V: yeah, nothing for me.
+
+126
+00:14:03.290 --> 00:14:04.080
+sandeep: No.
+
+127
+00:14:05.700 --> 00:14:08.189
+Peter Somogyvari: all right. This is a quick one. Then
+
+128
+00:14:08.290 --> 00:14:11.259
+Peter Somogyvari: thanks everyone for joining, and I'll talk to you next time.
+
+129
+00:14:11.780 --> 00:14:13.709
+sandeep: Thank you.
+
+130
+00:14:13.870 --> 00:14:15.099
+sandeep: Thank you. Bye.
+

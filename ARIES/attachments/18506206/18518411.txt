@@ -1,0 +1,1018 @@
+WEBVTT
+
+1
+00:00:01.960 --> 00:00:08.669
+Stephen Curran: All right. Welcome to the July 1123, Aries on user group meeting.
+
+2
+00:00:08.950 --> 00:00:14.200
+Stephen Curran: number of topics to go through. I've messed with the order in the agenda
+
+3
+00:00:14.230 --> 00:00:19.759
+Stephen Curran: in the lower part, but I realized I didn't update it in the summary. So I'll fix that as we go.
+
+4
+00:00:19.990 --> 00:00:35.900
+Stephen Curran:  we are recording. So we'll be posting this after reminder. This is a Linux Foundation hyper leisure meeting. So the code of conduct is in effect, as is the Linux foundation it trust policy.
+
+5
+00:00:36.280 --> 00:00:40.780
+Stephen Curran: I'll post the agenda link in the meeting
+
+6
+00:00:41.510 --> 00:00:51.580
+Stephen Curran: people are welcome to jump in there and help out with note taking, and add their names to the attendees list.
+
+7
+00:00:51.870 --> 00:01:10.270
+Stephen Curran: for those new to the call. Welcome! Glad to have you here. If you'd like to introduce yourself and talk about what what your project is, and what what brought you here? We'd love to hear from you, so I'll leave the mic open for a few moments and let anyone introduce themselves.
+
+8
+00:01:11.030 --> 00:01:11.920
+John Nathaniel Jr.: Okay.
+
+9
+00:01:16.610 --> 00:01:39.299
+Robert Simpson: yeah, I'm I'm new. I'm Robert Simpson, and just went through the areas developer. course on edx. And so I'm looking to develop some verifier verifiable credentials. Kind of apps with images involved. So that's the E direction. I'm headed.
+
+10
+00:01:39.650 --> 00:01:43.259
+Stephen Curran: Okay. you see, go. Just added
+
+11
+00:01:43.690 --> 00:01:49.509
+Stephen Curran: a a photo to the person credential that is being used.
+
+12
+00:01:49.630 --> 00:01:57.300
+Stephen Curran: within the problem so definitely workable. There's just a new of Rfc. About using a a you only one of it.
+
+13
+00:01:57.310 --> 00:01:58.320
+John Nathaniel Jr.: So
+
+14
+00:01:59.720 --> 00:02:05.229
+Stephen Curran: right good to know. Thanks. Okay.
+
+15
+00:02:05.430 --> 00:02:06.840
+Stephen Curran: Next up
+
+16
+00:02:06.870 --> 00:02:11.319
+Stephen Curran: any, or sorry anyone else want to jump in.
+
+17
+00:02:14.990 --> 00:02:15.820
+John Nathaniel Jr.: Okay?
+
+18
+00:02:17.200 --> 00:02:19.040
+Stephen Curran: All right.
+
+19
+00:02:19.680 --> 00:02:48.790
+Stephen Curran: as far as announcements go. So I'm going to try to keep this meeting relatively short, the areas framework. Javascript. workshop is on right now. Just started. So I am. I had signed up for it, looking forward to it. So I think I've I've kind of kept the agenda a little bit shorter than it had been and hopefully we focus on the right things. for this, and people can jump over to that that are interested in that.
+
+20
+00:02:49.410 --> 00:03:11.670
+Stephen Curran:  I can't really 0 8, 2 and 1 0 0 R. C. 3. The release candidate. 3 have have been released. So those are out in the wild and and recommend updates. one of the the last minute things that it really is is part of the dependencies of 8, 1, 8, 2,
+
+21
+00:03:11.670 --> 00:03:25.060
+Stephen Curran: But if you're using the images, artifacts, you know, container images. 0 8 2 has been updated with this, which is, there was a bug noted in
+
+22
+00:03:25.090 --> 00:03:35.430
+Stephen Curran: and in and non cred, when using ascar and the credits library where a verification with multiple
+
+23
+00:03:35.760 --> 00:03:40.450
+Stephen Curran: revocation registries involved would fail.
+
+24
+00:03:41.300 --> 00:03:56.729
+Stephen Curran: because of the handling This was something in the python wrapper has now been fixed in credits been fixed in and being fixed in the and on credits. Rs library.
+
+25
+00:03:56.790 --> 00:04:07.590
+Stephen Curran: but be aware of that one other than that. There's a a, a change log in a number of of new updates in the 0 8 2 release.
+
+26
+00:04:08.140 --> 00:04:20.670
+Stephen Curran: likely we'll have breaking changes and we're gonna talk about one of those a little bit later in this. So the next release is probably 0 9. Or or perhaps we get to 1 point. Oh, we'll see.
+
+27
+00:04:21.079 --> 00:04:33.999
+Stephen Curran: 1.0 0 r, c, 3 is identical to 0 8 2 It was an important decision that that I made to start releasing release candidates at 1.0.
+
+28
+00:04:34.510 --> 00:04:57.040
+Stephen Curran: I'm thinking we were closer to that than we than we were. And so what I've decided to do is just continue the release candidate stream for anyone who was on that but but just simply make it compatible with whatever the latest occupy release is so identical to it. So you'll see those as they go.
+
+29
+00:04:58.030 --> 00:05:22.610
+Stephen Curran:  I don't know, Daniel. If you want to share any updates on the and on credits rust and occupy. we did a presentation last 2 weeks ago. pr, 276, which is the main work that's gone into that is, has been merged into a branch in Acupy, and there's a project board, and we're getting more developers on that.
+
+30
+00:05:22.780 --> 00:05:45.589
+Stephen Curran:  Jason, sure. But I'm not sure if he's here today. But we'll be starting on that today. wrapped up something that got merged earlier today. So he's gonna be jumping on that and and pushing on it. And we'll add more people as we as we can. And anyone who's interested in helping out
+
+31
+00:05:45.680 --> 00:05:52.440
+Stephen Curran: with this work is welcome to join in and and put up your hand and we'll
+
+32
+00:05:52.770 --> 00:06:12.950
+Stephen Curran: help you get started and get moving on that. this is a very high priority one for us. I'm getting in on credits. Rs, it's a a big effort, and we need to It involves a bunch of clean up and so we'll improve the overall state of occupy. And we're looking forward to getting that in time
+
+33
+00:06:14.970 --> 00:06:30.530
+Stephen Curran: as well. work on, did Pierre, and 2 did pier 2 and 3 supported occupy continues not too much Updates to make. And and Jason Cyrotak, who is doing the work, is not available today.
+
+34
+00:06:30.590 --> 00:06:35.269
+Stephen Curran: so I will get much more of an update. But he continues to work through it.
+
+35
+00:06:35.850 --> 00:06:58.109
+Stephen Curran: with more and more success. But it's a it's a bit of a struggle through both a learning curve and in wiping up on this, and then the sort of dynamic nature of it. Pier 1, 2, and 3. And how Different implementations have come out. So we're really trying to nail that down into a single implementation is consistent across all of the areas libraries.
+
+36
+00:06:59.750 --> 00:07:06.269
+Stephen Curran: this came up this week. It issue 2289, which is to switch over to poetry.
+
+37
+00:07:06.420 --> 00:07:17.980
+Stephen Curran: this is a purely a developer's question. And and so I've sort of open it up. Maybe, Daniel, you could talk about it, or others that are proposed.
+
+38
+00:07:18.260 --> 00:07:27.180
+Stephen Curran: This idea of using poetry. I know I've seen it more and more in projects, but I don't know the implications of it. So I leave that open to others.
+
+39
+00:07:30.250 --> 00:07:31.350
+Daniel Bluhm: I I'll
+
+40
+00:07:31.510 --> 00:07:36.799
+Daniel Bluhm: I guess, briefly comment and say that. So I was one that raised that issue.
+
+41
+00:07:37.760 --> 00:07:56.219
+Daniel Bluhm: if if I'm being honest, I don't feel too strongly about this. If, in fact, by continued using the standard pip stuff that it's been using for a while. I think that's just fine. but poetry does bring some nice to have. It's a it's a better, developer experience, I would say overall and has slightly more
+
+42
+00:07:56.570 --> 00:08:06.590
+Daniel Bluhm: it. It's dependency resolver, and all the stuff around, like resolving the tree of dependencies and stuff is is slightly better for
+
+43
+00:08:06.900 --> 00:08:09.670
+Daniel Bluhm: poetry. Then, as as compared to pit.
+
+44
+00:08:09.870 --> 00:08:15.189
+Daniel Bluhm:  so yeah, it. It's just kind of a nice to have.
+
+45
+00:08:19.740 --> 00:08:24.730
+Daniel Bluhm: we've got a lot of experience using it on the team, and we we use it
+
+46
+00:08:24.930 --> 00:08:43.319
+Daniel Bluhm: in our plugins. And it's there's no issues with like mixing it matching between, you know, installing a package that was built using poetry and then using that from Pip or the other way around, so that there should be no change ultimately, in terms of like the actual usability of the package that gets published.
+
+47
+00:08:45.760 --> 00:08:46.550
+Stephen Curran: Okay.
+
+48
+00:08:46.770 --> 00:08:52.809
+Stephen Curran: anyone else? want to comment on poetry versus Tip.
+
+49
+00:08:53.700 --> 00:09:08.199
+John Nathaniel Jr.: I, internally, I agree with Daniel. The the resolver is a absolutely, very, very beautiful. So I think that direction is it is very welcome.
+
+50
+00:09:08.540 --> 00:09:09.360
+Stephen Curran: Okay.
+
+51
+00:09:12.480 --> 00:09:19.459
+Stephen Curran: what is the type of effort to do? the transition. Is it just a single Pr to
+
+52
+00:09:19.810 --> 00:09:24.689
+Stephen Curran: basically go through everything and change it? Obviously the Github actions change
+
+53
+00:09:25.200 --> 00:09:25.930
+Stephen Curran: alright.
+
+54
+00:09:26.830 --> 00:09:32.679
+Stephen Curran: It's a breaking change. So this would be a good time to do it, because we have breaking changes going into this release.
+
+55
+00:09:33.300 --> 00:09:50.699
+Daniel Bluhm: I I guess it depends on how you define a breaking change. It's a it's a breaking change in the sense of. If you're a developer on the project, then there's a bit of a change in work, though, but as a consumer of of either the container images or the package that gets published to pipe by, there's no change.
+
+56
+00:09:52.890 --> 00:09:54.290
+Stephen Curran: Okay, okay?
+
+57
+00:10:00.820 --> 00:10:03.650
+John Nathaniel Jr.: I I would say I would say
+
+58
+00:10:04.420 --> 00:10:12.669
+John Nathaniel Jr.: but I don't do it now, but I change as much or not as some point going to happen. So
+
+59
+00:10:12.750 --> 00:10:15.479
+John Nathaniel Jr.: Radically ped for litter. We can just
+
+60
+00:10:15.800 --> 00:10:23.760
+John Nathaniel Jr.: go ahead. So I'd leave a big change is not much for those that are not developed by.
+
+61
+00:10:24.120 --> 00:10:24.950
+Stephen Curran: Okay.
+
+62
+00:10:25.270 --> 00:10:26.270
+John Nathaniel Jr.: so
+
+63
+00:10:26.380 --> 00:10:33.179
+Stephen Curran: I would say we should encourage someone with to poetry, experience to code in a
+
+64
+00:10:33.330 --> 00:10:41.699
+Stephen Curran: make the change. and then we'll announce it and and just make it known to all developers working on occupy about the change.
+
+65
+00:10:43.130 --> 00:10:44.250
+Stephen Curran: And right
+
+66
+00:10:48.200 --> 00:10:57.180
+Stephen Curran: any, I guess. The other way to put this is from any of the developers, any any issue with doing that
+
+67
+00:10:57.830 --> 00:11:02.730
+Stephen Curran: any anyone against the idea of using poetry versus what's being used now.
+
+68
+00:11:05.970 --> 00:11:11.329
+Stephen Curran: I mean, it is, it is 2 extra characters when doing an install.
+
+69
+00:11:12.180 --> 00:11:13.070
+Stephen Curran: It's like.
+
+70
+00:11:17.000 --> 00:11:22.710
+Jason Sherman: I guess my only comment would be, What's what's the scope? Are we changing all the images?
+
+71
+00:11:23.420 --> 00:11:30.790
+Jason Sherman: to use poetry, or we leaving all the requirements text in there. So basically using poetry to do the
+
+72
+00:11:30.950 --> 00:11:41.620
+Jason Sherman: dependency resolving and then just exporting them as requirements up. And just like I. I'm using poetry. So I'm fully on board. With that I just kind of want to know what the scope is
+
+73
+00:11:42.520 --> 00:11:48.599
+Stephen Curran: my assumption. And but I could be wrong, my assumption would be, we basically change.
+
+74
+00:11:48.780 --> 00:11:55.610
+Stephen Curran: we include the Github actions that are producing the dependencies to also use poetry.
+
+75
+00:11:57.290 --> 00:11:59.869
+Daniel Bluhm: Yeah, that's what I would recommend. We could.
+
+76
+00:12:00.130 --> 00:12:11.290
+Daniel Bluhm: as Jason was saying, we could, you know, just export a a requirements, file from the lock using poetry and use that to install. But I I would definitely recommend just
+
+77
+00:12:11.480 --> 00:12:17.490
+Daniel Bluhm: doing wholesale shift to poetry wherever we use it or where we where we're using Pip right now, that is.
+
+78
+00:12:17.960 --> 00:12:20.279
+Jason Sherman: okay, sounds good. Yeah, I just yeah.
+
+79
+00:12:20.440 --> 00:12:21.240
+Jason Sherman: it's it.
+
+80
+00:12:21.400 --> 00:12:22.790
+Stephen Curran: Yeah. Okay.
+
+81
+00:12:22.980 --> 00:12:36.690
+Stephen Curran: so invite anyone to make the change. If someone wants to say they're gonna do it now. so that there's not multiple people working on it. That would be great or tag yourself on issue 2289
+
+82
+00:12:36.760 --> 00:12:38.790
+Stephen Curran: and a Pr is welcome.
+
+83
+00:12:39.610 --> 00:12:48.350
+Stephen Curran: we've got people with lots of experience, obviously from different organizations that can could evaluate and review
+
+84
+00:12:48.520 --> 00:12:51.370
+Stephen Curran: So we'll welcome that. Pr.
+
+85
+00:12:55.870 --> 00:13:02.760
+Stephen Curran: I may. I had a comment in there. just recently yesterday.
+
+86
+00:13:03.430 --> 00:13:18.710
+Jason Sherman: there's some. There are some dependency conflicts with what's going on in occupy and other assorted things. So you kind of have to pick specific versions of packaging and whatnot. So maybe as part of this, we can smooth that stuff out.
+
+87
+00:13:19.070 --> 00:13:30.799
+Jason Sherman: so I'll leave a comment in there if I can remember exactly what it was I did yesterday. But it'd be nice to not have to have poetry. Say, Hey, I can't do this, because.
+
+88
+00:13:31.880 --> 00:13:38.400
+Jason Sherman: yeah. So I'll try. I'll try and remember that it wasn't. Put it in exactly. But it yeah, we can smooth that stuff. That'd be great.
+
+89
+00:13:38.680 --> 00:13:39.450
+Stephen Curran: Okay.
+
+90
+00:13:43.890 --> 00:13:45.880
+Stephen Curran: John, do you want to add something?
+
+91
+00:13:49.460 --> 00:13:54.000
+John Nathaniel Jr.: No, no, no, not at the moment.
+
+92
+00:13:54.630 --> 00:13:56.140
+John Nathaniel Jr.: Sounds good.
+
+93
+00:13:56.290 --> 00:14:04.339
+Stephen Curran: Okay. Next topic is a couple more pr, that we want to process 2295 today.
+
+94
+00:14:05.180 --> 00:14:08.640
+Stephen Curran: so let's get down to the
+
+95
+00:14:08.670 --> 00:14:16.719
+Stephen Curran: allow any bid to be public. This touches on the gaming resolver with the vlogging.
+
+96
+00:14:17.520 --> 00:14:27.880
+Stephen Curran: for instance, did web to be a web to be a a. The public did
+
+97
+00:14:28.250 --> 00:14:35.139
+Stephen Curran: So we encourage folks to look at. It looks like we have some.
+
+98
+00:14:35.480 --> 00:14:36.579
+Stephen Curran: some updates.
+
+99
+00:14:37.300 --> 00:14:38.730
+you being done
+
+100
+00:14:39.090 --> 00:14:45.530
+Stephen Curran: that. And then if we like this we can get it works. So this looks like a good.
+
+101
+00:14:45.640 --> 00:14:51.009
+Stephen Curran: a good change, as far as I know, any comments from it, Daniel, or anyone that is taking a look at it already.
+
+102
+00:14:53.900 --> 00:15:02.429
+Daniel Bluhm: I I've only glanced at it so far glanced at it deep enough to to know that it overlapped with work that I know sic but was was doing so. I invited
+
+103
+00:15:02.470 --> 00:15:08.840
+Daniel Bluhm: Clement on the sick, the team to comment, and he's now left some. I just haven't gotten a chance to to follow up on that.
+
+104
+00:15:09.630 --> 00:15:10.310
+Okay.
+
+105
+00:15:10.810 --> 00:15:39.160
+Stephen Curran:  it also may. I don't know. Overlap with some of the work. It's it's did related. So I did want to get CSIRO to look at it. Jason's heart attack to look at it in relation to the did pier. Yeah, I had the at the same thought. And then I I back steps because it was specifically talking about handling of public dids which I know did period. Yeah, so yeah, but I think it would be valuable to have
+
+106
+00:15:39.760 --> 00:15:44.130
+Daniel Bluhm: his insights, especially because of how much he has been.
+
+107
+00:15:44.150 --> 00:15:52.039
+Stephen Curran: Yeah, okay. it's pretty good. What you said that described exactly my thoughts today on it.
+
+108
+00:15:52.910 --> 00:15:59.269
+Stephen Curran: Okay, next one was this one which is a classic example of
+
+109
+00:15:59.550 --> 00:16:14.339
+Stephen Curran:  why not to have too many discussions in a task when you should be getting together on a phone call to talk about this. So I'm hoping the right players are here. So the overall issue is
+
+110
+00:16:14.590 --> 00:16:21.409
+Stephen Curran: a while back. We made it a default to remove
+
+111
+00:16:21.850 --> 00:16:26.669
+Stephen Curran:  credential issuance records
+
+112
+00:16:27.330 --> 00:16:29.200
+Stephen Curran: from a.
+
+113
+00:16:29.570 --> 00:16:43.889
+Stephen Curran: and we did it by having a fly called Preserve Exchange records, and the intent, I I think, at the time was that we would also do this for presentation. It's exchange records for
+
+114
+00:16:44.440 --> 00:16:50.999
+Stephen Curran: for not only issue credential but present proof, but that didn't happen initially.
+
+115
+00:16:51.070 --> 00:16:53.759
+Stephen Curran: we do want those removed
+
+116
+00:16:53.990 --> 00:17:05.999
+Stephen Curran: and in in some cases, but we do want some fall back to allow specific instances not to delete those records if they don't want to. We now have
+
+117
+00:17:06.240 --> 00:17:22.600
+Stephen Curran: sort of 2 schools of thought and there's been back and forth on this with me, going particularly far back and forth in in deciding which to support. So basically, Jason has implemented this idea that we would remove it.
+
+118
+00:17:22.880 --> 00:17:23.920
+Stephen Curran: and then
+
+119
+00:17:23.940 --> 00:17:29.670
+Stephen Curran: and implemented a way to allow the removal to be requested.
+
+120
+00:17:30.330 --> 00:17:32.729
+Stephen Curran: which is
+
+121
+00:17:33.090 --> 00:17:39.539
+Stephen Curran: this approach, which is, there are, he has implemented 4 flags.
+
+122
+00:17:40.100 --> 00:17:42.120
+Stephen Curran: auto, remove
+
+123
+00:17:42.470 --> 00:17:47.820
+Stephen Curran:  for example, prover or sorry
+
+124
+00:17:47.910 --> 00:18:03.430
+Stephen Curran: presentation and and then the role of the person. So whether it's a a verifier a holder. or whichever. So auto remove it. Those type. So there's there's quite specific control over these.
+
+125
+00:18:03.440 --> 00:18:11.119
+Stephen Curran: And that's one way we can do it. The other way is simply add a flag that says by default, we're going to remove
+
+126
+00:18:11.150 --> 00:18:23.110
+Stephen Curran: any present proof records once they've completed. If you want to retain them, you would use this preserve exchange record. This is their exchange record would apply to both
+
+127
+00:18:23.130 --> 00:18:25.500
+Stephen Curran: issue that I of them present proof.
+
+128
+00:18:26.580 --> 00:18:28.770
+Stephen Curran: there's pros and
+
+129
+00:18:29.070 --> 00:18:39.609
+Stephen Curran: a lot of back and forth. Let's have a discussion here to analyze this.  Jason, do you have a
+
+130
+00:18:41.390 --> 00:18:44.300
+Stephen Curran: Indian on what ought to be done.
+
+131
+00:18:47.360 --> 00:18:51.660
+Jason Sherman: not really.
+
+132
+00:18:52.740 --> 00:19:12.460
+Jason Sherman: I mean, I agree that there's a there are a lot of configuration flags and learning how to configure occupy is difficult to top the way through, so adding 4 more flags as opposed to enhancing the existing one is, I can see, an argument against that.
+
+133
+00:19:12.670 --> 00:19:21.459
+Jason Sherman: the the reason for having the flags. I I particularly because I'm coming from traction, which doesn't want to retain records.
+
+134
+00:19:21.650 --> 00:19:41.730
+Jason Sherman:  My thought was more along the allowing the flexibility to do anything. So that's what that was. I don't really. If if the community feels like, Hey, let's just do what the original intent was to have the
+
+135
+00:19:41.740 --> 00:19:53.869
+Jason Sherman: preserve exchange go across all the exchanges. I I'm fine with that. It's really it's more of a community kind of thing. So you know, having former flags is confusing. Potentially.
+
+136
+00:19:53.940 --> 00:20:08.750
+Jason Sherman: Flexibility comes at confusion. I guess so. But that that's really it. It's That's where my head was out with And with adding, the flexibility was that I, coming from where I came from, not really being wanted
+
+137
+00:20:09.320 --> 00:20:10.100
+Jason Sherman: bye.
+
+138
+00:20:10.490 --> 00:20:17.020
+Stephen Curran: Awesome enhancing that current flag would still, I think, achieve the goals for the traction team regardless
+
+139
+00:20:17.200 --> 00:20:18.090
+Jason Sherman: the so
+
+140
+00:20:20.530 --> 00:20:21.360
+Jason Sherman: okay.
+
+141
+00:20:22.220 --> 00:20:23.750
+Stephen Curran: okay,
+
+142
+00:20:25.910 --> 00:20:27.719
+Stephen Curran: I I think my!
+
+143
+00:20:28.520 --> 00:20:37.590
+Stephen Curran: I'll jump in with my views. I I I'm really back and forth on. This is as you can tell from my ridiculous comments on this.
+
+144
+00:20:38.030 --> 00:20:49.749
+Stephen Curran: My feeling is generally that occupy, and the storage should not be for long. Term. Storage that occupy should be strictly for
+
+145
+00:20:49.820 --> 00:20:53.099
+Stephen Curran:  you know, protocol
+
+146
+00:20:53.110 --> 00:21:04.020
+Stephen Curran:  for tracking in flight protocols, and once a protocol completes, it's up to the Controller to preserve any information necessary.
+
+147
+00:21:04.220 --> 00:21:12.839
+Stephen Curran: So I like the default of removing them all I like the ability to save them if if you want.
+
+148
+00:21:13.150 --> 00:21:24.190
+Stephen Curran: So my leading was sort of where we were, to begin with, of of having that preserve exchange record as an option to keep both issuances and
+
+149
+00:21:24.420 --> 00:21:30.109
+Stephen Curran: and exchange. You know a present proof records
+
+150
+00:21:30.240 --> 00:21:32.560
+Stephen Curran:  often.
+
+151
+00:21:33.580 --> 00:21:42.239
+Stephen Curran: Well, while any particular agent can do all of those things. often they they won't do both, so there won't even be any crossover.
+
+152
+00:21:42.930 --> 00:21:45.380
+Stephen Curran:  So
+
+153
+00:21:45.840 --> 00:21:54.850
+Stephen Curran: I I think I would go with one option. One of these 2 options would be mine. Daniel, you've weighed in
+
+154
+00:21:56.350 --> 00:22:06.979
+Daniel Bluhm: So I I just kind of thought while you're talking there. so I I think I'm in agreement that I think we should have the preserve exchange record the the
+
+155
+00:22:07.170 --> 00:22:09.460
+Daniel Bluhm: command line argument that controls the
+
+156
+00:22:09.850 --> 00:22:14.769
+Daniel Bluhm: or that influences the removal of these records.
+
+157
+00:22:14.790 --> 00:22:42.210
+Daniel Bluhm: with the only remaining question that I I really had, as I was thinking through this was, Do we really need the granularity of picking and choosing, which records we did or and did not preserve And and I think a better answer to that rather than having more command line arguments, is in the Admin Api. We make sure that we continue to respect the auto, remove parameters on the presentation, and in credential exchange,
+
+158
+00:22:43.570 --> 00:22:51.439
+Daniel Bluhm: endpoints. And so, if you need that granularity, you have the option to do that through the Admin Api and then otherwise, you know you can.
+
+159
+00:22:51.490 --> 00:22:52.569
+Daniel Bluhm: You can either
+
+160
+00:22:53.030 --> 00:22:57.380
+Daniel Bluhm: turn on the hose or turn it off, and that's it. And and I think that would be preferable.
+
+161
+00:22:57.810 --> 00:23:00.970
+Stephen Curran: Okay, gotta make sure I write a note down here.
+
+162
+00:23:01.780 --> 00:23:13.550
+Jason Sherman: Yeah, I mean, I I'm that sounds good to me. And I really think that the like say, coming from the traction world the I think they can write a plugin
+
+163
+00:23:14.150 --> 00:23:28.629
+Jason Sherman: to do to change that behavior right? It's not. It's not a huge deal, and I think at the end of the day the real behavior they want is actually slightly modified. and that they don't want to retain the whole record.
+
+164
+00:23:28.630 --> 00:23:53.630
+Jason Sherman: They only want to retain a subset which would be like preserved with transform or something, because they only want some historical context to know. you know, when this was sent, whatever, and the conversation, not the all the encrypted stuff. So a very small payload. So I think to me that would be, let let them write a plugin, or we can write a that's kind of specialized
+
+165
+00:23:53.630 --> 00:23:54.570
+behavior.
+
+166
+00:23:54.750 --> 00:24:10.699
+Jason Sherman: So I think if we stick with the occupy behavior being option, one respecting the auto removes on the Api and then letting additional funky behavior be in a plugin. I think that's probably the way to go.
+
+167
+00:24:10.850 --> 00:24:15.430
+Stephen Curran: Okay, do we need to do anything with this to enable that
+
+168
+00:24:16.150 --> 00:24:23.840
+Stephen Curran: plug in capability? Or could we just move forward with this one and then that can be done at a at A as needed.
+
+169
+00:24:24.080 --> 00:24:43.289
+Jason Sherman: I would say they they can do it when needed, that As long as right now they have the ability to keep all the records they want, which is, I say, are massive right now, which is not what they really want. But that's just that's just the way it operates. So I think just by having the the Preserve Exchange record option.
+
+170
+00:24:43.500 --> 00:24:52.089
+Jason Sherman: We'll keep them working just fine until they have time to address like what it is they actually do want to save, which is a small subset of that data.
+
+171
+00:24:52.480 --> 00:24:53.960
+Jason Sherman: Sounds good. Yeah.
+
+172
+00:24:55.260 --> 00:24:56.200
+Stephen Curran: Okay.
+
+173
+00:24:59.790 --> 00:25:03.630
+Stephen Curran: Any other feedback from where they would want to weigh in on this one.
+
+174
+00:25:05.250 --> 00:25:12.939
+Stephen Curran: At this point we say, we go with one, and we make sure that the admit Api has the necessary
+
+175
+00:25:13.030 --> 00:25:21.629
+Stephen Curran:  find great functionality that that could provide this, if necessary, that a controller could do what they needed to do.
+
+176
+00:25:25.810 --> 00:25:53.110
+John Nathaniel Jr.: Yeah, I I think I think it's the optimal solution right now, because I think respecting the auto remove and giving the that guys log in to be able to like, keep what they want. it I I think it makes them more in control. So we don't actually need the full transaction history. Just like it. It's sort of But if we to track about the
+
+177
+00:25:53.110 --> 00:25:57.570
+history of those stuff. So I think, like, it's the optimal solution.
+
+178
+00:25:57.720 --> 00:26:00.350
+Stephen Curran: Yes. okay.
+
+179
+00:26:08.080 --> 00:26:11.159
+Stephen Curran: yeah. I know that topic has come up before which is
+
+180
+00:26:11.880 --> 00:26:17.980
+Stephen Curran:  that even after you preserve the record, it ought to be.
+
+181
+00:26:18.330 --> 00:26:21.690
+Stephen Curran: Well, maybe we should talk about that
+
+182
+00:26:21.920 --> 00:26:28.530
+Stephen Curran: you know, as Jason said, if you preserve the entire exchange record, you've got all the messages that went back and forth.
+
+183
+00:26:29.570 --> 00:26:43.450
+Stephen Curran: Does it make more sense to, for when you preserve it to preserve a minimum sub a subset of the data, or do we for preserve the entire protocol and leave it to a plugin to do
+
+184
+00:26:45.170 --> 00:26:47.230
+Stephen Curran: the proving essentially.
+
+185
+00:26:54.240 --> 00:26:56.990
+Daniel Bluhm: I think I linked towards leaving it to the Plugin.
+
+186
+00:26:58.260 --> 00:27:00.629
+Jason Sherman: Yeah, I sorry, Daniel, go ahead.
+
+187
+00:27:00.650 --> 00:27:13.129
+Jason Sherman: No, but that's really all I had to say. I think, okay, because right now I know in traction there is a plug in that tracks. The status change time stamps.
+
+188
+00:27:13.530 --> 00:27:30.659
+Jason Sherman: So that's something they want to have. they just. I don't think they've sat down to determine what's the end. At the end. We've got this whole thing. What do we? What's the data we need out of it? So I think they can just enhance that the history Plugin to say great when it hits complete stage.
+
+189
+00:27:31.370 --> 00:27:45.490
+Jason Sherman: Let's remove all the unnecessary stuff. I just don't know if they've reached that stage yet in their  getting user feedback on what? As a business, I need to see, to be able to know what?
+
+190
+00:27:45.740 --> 00:27:58.860
+Stephen Curran: As transpires the question, which is, if you want to preserve something, you can decide what to prune and what not to bring. What? What do you want to keep? So if we do something in occupy itself
+
+191
+00:27:59.220 --> 00:28:09.389
+Stephen Curran: to prune the record. we're making that decision globally. And that's probably not the best idea. We're we're gonna go with that strategy. So that answers that question.
+
+192
+00:28:10.070 --> 00:28:15.859
+Jason Sherman: Yeah, I would I would think it could get very specific for different groups very quickly.
+
+193
+00:28:16.340 --> 00:28:17.340
+Stephen Curran: That's good.
+
+194
+00:28:18.180 --> 00:28:28.049
+Stephen Curran: Okay. okay. The last thing I wanted to do then was, are there any other pull? Requests the other one, that is this one?
+
+195
+00:28:28.530 --> 00:28:35.610
+Stephen Curran: Are we at a point where we can merge this one, Daniel, or you still looking, you didn't get input
+
+196
+00:28:37.350 --> 00:28:39.719
+Stephen Curran: for anyone on that.
+
+197
+00:28:40.260 --> 00:28:42.409
+Daniel Bluhm: Yeah, that I would
+
+198
+00:28:43.700 --> 00:28:44.920
+Daniel Bluhm: just that of.
+
+199
+00:28:45.080 --> 00:28:49.680
+Daniel Bluhm:  I don't know. observance of
+
+200
+00:28:50.230 --> 00:28:56.559
+Daniel Bluhm: convention and protocol. I I would appreciate having some review some others, since I I had a small hand in that. But
+
+201
+00:28:57.700 --> 00:29:15.689
+Stephen Curran: Jason got that one, I guess most likely you're the one to do it. So over to you to take a look at that one. Yeah, I can. I can look at it from a a a coding point of view. But I really, quite honestly, don't know enough about signatures and stuff to if there's a technical
+
+202
+00:29:15.850 --> 00:29:20.910
+Jason Sherman: thing in there related to that I probably be able to weigh in on that. But certainly from a
+
+203
+00:29:21.150 --> 00:29:33.170
+Jason Sherman: you know, a, a, a code perspective of what's going on, which I'm sure is fine. But yeah, it's if someone's more an expert in signatures than I am, which I'm sure there are. that'd be great.
+
+204
+00:29:33.340 --> 00:29:41.899
+Stephen Curran: Okay, you go ahead way in. And they just put in whatever you think is appropriate as a comment. Let's take a look at it.
+
+205
+00:29:42.050 --> 00:29:49.569
+Stephen Curran: and then we'll decide from there if if we need someone else to take a look at them. Okay, sounds good, awesome. Thank you.
+
+206
+00:29:53.580 --> 00:29:58.740
+Stephen Curran: we've talked about this one. This one is gonna be stopped.
+
+207
+00:30:01.100 --> 00:30:11.449
+Stephen Curran: So there's a few players that are are down in the list. that are quite old. so we'll probably take a look at some of them.
+
+208
+00:30:13.080 --> 00:30:23.989
+Stephen Curran:  this one is is pretty small and and just to do with an OS separator. So I really like.
+
+209
+00:30:24.650 --> 00:30:40.580
+Stephen Curran: I I just don't have enough knowledge on this one to to decide. But maybe somebody to take a look at that one as well, just to to to clear it off the list.  that that's the last important 10, Daniel.
+
+210
+00:30:40.970 --> 00:30:42.829
+Stephen Curran: this one!
+
+211
+00:30:45.030 --> 00:30:48.240
+Stephen Curran:  I'm guessing we want to
+
+212
+00:30:49.570 --> 00:30:51.920
+Stephen Curran: remove this one, I think.
+
+213
+00:30:52.490 --> 00:31:01.910
+Stephen Curran: but a decision needs to be made as to whether it has anything that helps with what you're doing with the and on Craig's work.
+
+214
+00:31:02.500 --> 00:31:05.060
+Stephen Curran: I mean the goal of it was to use
+
+215
+00:31:06.160 --> 00:31:11.870
+Stephen Curran: the existing things for leisure agnosticism. We now have an ipad where that's
+
+216
+00:31:12.100 --> 00:31:16.840
+Stephen Curran: that's the basis of it. I don't know if we want to do anything like this.
+
+217
+00:31:17.420 --> 00:31:20.400
+Stephen Curran: We just close this one
+
+218
+00:31:21.270 --> 00:31:32.179
+Daniel Bluhm:  so I can go back and and do another quick scan. It's been a while since I've looked at it. But I I think from my memory, I think we're probably
+
+219
+00:31:32.470 --> 00:31:39.669
+Daniel Bluhm: gonna just end up closing that one. they they very much went in the direction of
+
+220
+00:31:40.160 --> 00:31:56.089
+Daniel Bluhm: They matched the same interface that existed previously. That was very much defined by Indie, and so anything, anything you would plug into to their interface would have to more or less resemble Indie which is.
+
+221
+00:31:56.310 --> 00:32:07.279
+Daniel Bluhm:  you know, achieving the same goals of pleasure. Agnosticism, I suppose. But it is a different approach from the non credits interface where we we went back and simplified. And then.
+
+222
+00:32:07.740 --> 00:32:09.770
+Daniel Bluhm: yeah, yeah, all the complexity of
+
+223
+00:32:09.800 --> 00:32:16.050
+Daniel Bluhm: in these specific stuff is is behind the scenes as opposed to being right up front in the interface. So
+
+224
+00:32:17.880 --> 00:32:39.360
+Stephen Curran: yeah, I I can go back and and give that another quick scan to see if there's anything that could really benefit from still. But yeah, almost certainly it's it's it's to be close. So, and that that's a fine outcome. Don't don't be stressed about that, but it would be worth you having a quick look at it. You're the best one to look at it, if you don't mind. Yeah.
+
+225
+00:32:39.510 --> 00:32:40.340
+Daniel Bluhm: for sure.
+
+226
+00:32:40.510 --> 00:32:43.990
+Stephen Curran: Awesome. Okay. I think that.
+
+227
+00:32:45.220 --> 00:32:57.239
+Stephen Curran: Yes, us through these 5. this is being worked on. I don't know about this one. I don't know about this one, so there's a few others we can look at. But I they're not urgent right now you can let them long enough.
+
+228
+00:32:57.750 --> 00:33:00.930
+Stephen Curran: So We'll look at that
+
+229
+00:33:02.570 --> 00:33:16.660
+Stephen Curran: and I think that wraps us up. If anyone as I mentioned earlier, anyone is interested in helping out with the inspiration of the and on credit Rs work that has expertise in in occupy internals.
+
+230
+00:33:16.680 --> 00:33:19.379
+Stephen Curran: I'm pleased to raise your hand, let us know.
+
+231
+00:33:19.470 --> 00:33:24.240
+Stephen Curran: and we'll be glad to issue with all good that
+
+232
+00:33:25.310 --> 00:33:30.429
+Stephen Curran: with that, I think. Are there any other topics people want to raise at this meeting.
+
+233
+00:33:34.580 --> 00:33:48.960
+Stephen Curran: So the the only thing I wanted to follow up on that was on the agenda. There was the extra meeting plan for Maintainers each week. Yes. So one of the things we wanted to do was to have a Maintainer, an extra Maintainer's meeting.
+
+234
+00:33:49.340 --> 00:33:57.410
+Stephen Curran:  I was thinking, I in the off week, for this is the in the developers meeting. I was thinking.
+
+235
+00:33:57.510 --> 00:34:09.650
+Stephen Curran:  maybe the half hour after that meeting we could have this one. So 9 specific
+
+236
+00:34:10.260 --> 00:34:16.160
+Stephen Curran: for 30 min on Tuesdays. Would that work.
+
+237
+00:34:16.870 --> 00:34:20.010
+Stephen Curran: Daniel? You're important, Jason. You'd be important
+
+238
+00:34:20.050 --> 00:34:21.159
+Jason Sherman: works for me.
+
+239
+00:34:21.610 --> 00:34:22.879
+Daniel Bluhm: Works for me as well.
+
+240
+00:34:23.110 --> 00:34:24.250
+Stephen Curran: Okay.
+
+241
+00:34:25.469 --> 00:34:28.199
+Stephen Curran: awesome. I will put that on
+
+242
+00:34:28.330 --> 00:34:33.850
+Stephen Curran: on the This is a Maintainer's week meeting. he.
+
+243
+00:34:33.909 --> 00:34:36.460
+Stephen Curran: the key thing we want to go over would be
+
+244
+00:34:36.550 --> 00:34:43.360
+Stephen Curran:  work in progress and the processing of the Prs.
+
+245
+00:34:43.880 --> 00:34:50.610
+Stephen Curran: I. I do encourage maintainers at any time to call a meeting with the set of Maintainers. We do have a list
+
+246
+00:34:50.630 --> 00:35:18.060
+Stephen Curran: and where we're working on things to to get discussions like we had with this presentation exchange record. So we're not going too far back and forth. So I do encourage that. And those can happen as well. But it's but let's have a meeting every week to to go over what what we're doing from a security development perspective. This can be more focused on sort of end user things and and Demos and things like that.
+
+247
+00:35:19.150 --> 00:35:32.539
+Stephen Curran:  right now, Maintainer, if there's a list of of Maintainer A and B, there is a process for becoming a Maintainer. If you feel like you've done the work necessary and want to be a Maintainer.
+
+248
+00:35:32.720 --> 00:35:38.760
+Stephen Curran: Yeah, it definitely occurs that. Or if you simply want to join in on the Maintainer's meeting.
+
+249
+00:35:38.870 --> 00:35:41.899
+Stephen Curran: I would encourage that as well. We welcome you
+
+250
+00:35:44.940 --> 00:35:49.070
+Stephen Curran: with that. Any other topics to go through.
+
+251
+00:35:54.740 --> 00:36:06.449
+Stephen Curran: All right. Thanks for joining I will set up the Maintainer's meeting for next week, and, as they say, if anyone wants to join ping me on on discord, and I'll add you to that meeting.
+
+252
+00:36:07.680 --> 00:36:09.220
+Stephen Curran: Perfect thanks, folks.
+
+253
+00:36:10.640 --> 00:36:11.560
+Jason Sherman: thanks.
+
+254
+00:36:12.460 --> 00:36:14.689
+John Nathaniel Jr.: Yeah, thanks for having us.
+

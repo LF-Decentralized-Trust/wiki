@@ -1,0 +1,14 @@
+13:05:49	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=41595408
+13:15:04	 From  Timo Glastra : Could we also discuss this PR: https://github.com/hyperledger/aries-rfcs/pull/593. It's related to AIP2.0
+13:15:13	 From  Sam Curren (TelegramSam) : Yep!
+13:16:10	 From  Troy Ronda : Hi all
+13:24:26	 From  Andrew Whitehead : To me the ‘terms’ are a part of the trust relationship that we generally associate with a connection
+13:46:02	 From  Troy Ronda : A credential MUST have an issuanceDate property.
+13:46:08	 From  Troy Ronda : https://www.w3.org/TR/vc-data-model/#issuance-date
+13:46:49	 From  Troy Ronda : he value of the issuanceDate property MUST be a string value of an [RFC3339] combined date and time string representing the date and time the credential becomes valid, which could be a date and time in the future. Note that this value represents the earliest point in time at which the information associated with the credentialSubject property becomes valid.
+13:58:24	 From  Troy Ronda : Note JSON-LD frames also allow for empty placeholders
+13:58:31	 From  Troy Ronda : As {}
+13:58:44	 From  Troy Ronda : We’ve been using that in BBS+ selective disclosure.
+14:00:53	 From  Troy Ronda : Example of a frame: https://github.com/hyperledger/aries-framework-go/blob/main/test/bbs/data/revealDocument.json
+14:01:25	 From  Troy Ronda : This is a frame in a test where we specify which attributes to reveal in BBS+ selective disclosure.
+14:07:12	 From  Troy Ronda : expirationDate is optional in VC data model

@@ -1,0 +1,40 @@
+12:10:15	 From  Stephen Curran : Wiki Meeting Agenda: https://wiki.hyperledger.org/pages/resumedraft.action?draftId=24772976&draftShareId=be46f2f6-172e-4d34-9b52-7140deb59dab&
+12:13:09	 From  Kaliya Identity Woman : can someone put me on the list of attendees - not getting on wiki
+12:21:32	 From  Kyle Den Hartog : yea, I'll add you Kaliya.
+12:22:33	 From  Troy Ronda : Yes to KMS.
+12:23:33	 From  Paul Knowles : Raising hand
+12:24:02	 From  Cam Parra : Mike Lodder is raising his hand
+12:25:20	 From  Paul Knowles : Awesome. I’ll get the Novartis project team to start referring to the wallet component as a “Key Management Service”.
+12:26:21	 From  Ajay Jadhav : I can volunteer as well..
+12:34:24	 From  Cam Parra : Mike Lodder raised his hand
+12:37:24	 From  Kyle Den Hartog : Thanks everyone! This is super helpful.
+12:43:08	 From  Troy Ronda : Makes sense.
+13:06:13	 From  Nathan George : I’m not so sure about “provinance-able” is a word we can market
+13:08:55	 From  Daniel Hardman : Yes, “provenance-able” is a mouthful of syllables....
+13:09:43	 From  Nathan George : https://visuwords.com/delegate perhaps we can browse around for a better term?
+13:10:00	 From  Stephen Curran : Chained Credentials / Chained Capabilities
+13:10:37	 From  Nathan George : Hmm….a trust chain is a thing, so that makes some sense
+13:11:40	 From  Sam Smith : chainable credential works for me
+13:12:01	 From  Sam Smith : credential chaining
+13:12:02	 From  Stephen Curran : It shows how this can be used in "traditional" supply chain use cases.
+13:14:47	 From  Sam Smith : But delegation can't be enforced. Its merely communicating liability its an object capability is essentially a consent mechanism
+13:15:22	 From  Steve McCown : From a terminology perspective, “delegatable credentials” seems like a better choice.  Whether parties choose to do it is up to them...
+13:17:03	 From  Sam Smith : I would think its ok for a convention to use delegatable but that the underlying technology is about chaining which means that a more general name is warranted because other conventions would also be used
+13:17:50	 From  Steve McCown : I completely agree.  Are their privacy concerns
+13:18:18	 From  Steve McCown : With the chain of delegation being open?
+13:22:15	 From  Kaliya Identity Woman : The chain of delegation HAS TO BE OPEN - or people will figure out how to ‘share’ anyways
+13:22:30	 From  Kaliya Identity Woman : this is the whole point of what Allen is making about how capabilities need to be designed
+13:23:18	 From  Daniel Hardman : I agree with Kaliya
+13:24:02	 From  Steve McCown : True.  However a lot of privacy issues are based less on message content, but about the correlated metadata.  It seems that open delegation chains provide metadata that could be misused…. Just thinking out loud…
+13:25:09	 From  Daniel Hardman : Does the chain have to be open both directions (from root of trust to most distant delegate, as sell as from most distant delegate to root)
+13:25:41	 From  Sam Smith : Absolutely. But the chain is only open to the pair of participants that are exchanging the credentials. Usually the provenance will not be private but a chain of public credentials. Its the last mile that is private.
+13:25:56	 From  Lohan Spies : Not sure if chaining should be used. It is more linking credentials than chaining credentials. I can link credential(s) to multiple use cases.
+13:25:59	 From  Daniel Hardman : In other words, do people at the top of the chain have to have visibility into all the delegates created from their original grant—or does the openness only have to go the other way?
+13:26:34	 From  Steve McCown : If the consensus is that chains need to be open, I’d like to propose that we study the implications of delegation chain correlation.
+13:27:27	 From  Sam Smith : If I am the holder of a verifiable credential who can generate a non-repudiable ZKP verifiable credential then who ever issued the credential has allowed me to correlate them every time I issue an attenuated credential.  Nothing new here.
+13:28:49	 From  Sam Smith : But yes there is correlation of trust chains. So like any thing trustworthy some correlation is essential to trust.
+13:29:17	 From  Daniel Hardman : @Sam: that’s correlation backward (toward the root of trust). I think that’s unavoidable. My question is whether correlation *forward* is also unavoidable, and I’m hoping the answer is “no” — leaf delegates can remain private from roots of trust.
+13:29:38	 From  Steve McCown : True, it’s a double-edged sword.  For another project, I’ve been looking at the downside of correlation, which is why I’m bringing it up
+13:30:24	 From  Sam Smith : Does an accreditation body care about correlation to the academic institutions is accredits. No. So if the academic institution issues a provenanced credential that includes the accreditation body it is not removing any privacy.
+13:31:02	 From  Sam Smith : Yes trust is a double edge sword !
+13:31:54	 From  Sam Smith : Correlation forward is bounded by the capabilities of ZKPs selective disclosure.

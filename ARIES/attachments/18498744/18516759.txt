@@ -1,0 +1,17 @@
+08:06:28	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-09-21+Aries+Working+Group+Call
+08:28:45	 From  Colton Wolkins : Does it cover when a message is sent, but the sender is missing one of the messages?
+08:33:33	 From  Mike Ebert (Indicio) : I like that ThreadState uses any DIDComm message
+08:34:16	 From  Lance Byrd : 👏
+08:34:29	 From  Colton Wolkins : Agreed Mike, it was making me think of methods to potentially share credentials. Such as sharing tickets with other family members to the local football game (potentially)
+08:35:24	 From  Alex Andrei : How does the agreement take place? Does everyone have to agree with the thread id?
+08:36:39	 From  Alex Andrei : Is the idea of a supernode doing what CDN do ?
+08:43:49	 From  Ariel Gentile : So this threadstate is a replacement for sender_order and receiver_order from thread decorator?
+08:52:24	 From  Alex Andrei : Can anyone remove anyone?
+08:59:38	 From  Alex Andrei : Can you also give a rough estimate on group size as well ?
+08:59:58	 From  Alex Andrei : Thank you!
+09:00:27	 From  Alex Andrei : Maybe some delegation is needed with big groups
+09:01:25	 From  Mike Ebert (Indicio) : Doing a micro ledger for 3 people seems like overkill. How many large text message groups are people a part of? How big do they get?
+09:01:52	 From  Karim Stekelenburg : Confidential storage like stuff is probably also needed in case of lots of attachments
+09:02:28	 From  Timo Glastra : 15k 🙂
+09:02:31	 From  Mike Ebert (Indicio) : My average group is like 5
+09:04:18	 From  Mike Ebert (Indicio) : Thanks!

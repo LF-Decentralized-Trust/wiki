@@ -1,0 +1,1482 @@
+WEBVTT
+
+1
+00:00:07.109 --> 00:00:16.980
+Tracy Kuhrt: Alright, welcome everyone to the June 9 hyper ledger technical steering committee call, as you are probably all aware, two things that we.
+
+2
+00:00:17.430 --> 00:00:30.360
+Tracy Kuhrt: must abide by on this call the first one is the antitrust policy notices currently being displayed on the screen and the second is our code of conduct, which is linked in our agenda.
+
+3
+00:00:33.000 --> 00:00:46.920
+Tracy Kuhrt: So for announcements today, we have one announcement, which is the standard, one that we see every week, the hyper ledger that weekly developer newsletter goes out each Friday, if you have something that you would like to.
+
+4
+00:00:48.360 --> 00:01:00.300
+Tracy Kuhrt: REACH hundreds of hyper ledger developers, please leave a comment on the wiki page that is link in the agenda and any other announcements that anybody has.
+
+5
+00:01:08.310 --> 00:01:08.790
+Peter Somogyvari: yeah.
+
+6
+00:01:12.060 --> 00:01:18.330
+Tracy Kuhrt: Alright, so there's no other announcements we have the hyper ledger cello report.
+
+7
+00:01:19.380 --> 00:01:26.040
+Tracy Kuhrt: it's been on our agenda for the past two weeks, maybe three weeks, I guess, two weeks.
+
+8
+00:01:27.600 --> 00:01:36.540
+Tracy Kuhrt: I checked it this morning, we still have quite a few tlc Members who have yet to review that quarterly report, so please do take the.
+
+9
+00:01:37.770 --> 00:01:40.710
+Tracy Kuhrt: opportunity to do that and.
+
+10
+00:01:42.090 --> 00:01:48.450
+Tracy Kuhrt: I will ask I didn't see any comments, but Are there any comments that anybody has owned a hyper ledger cello report.
+
+11
+00:01:59.310 --> 00:02:06.900
+Tracy Kuhrt: Okay, so if there's no comments on that I have one item on our.
+
+12
+00:02:08.220 --> 00:02:16.260
+Tracy Kuhrt: Agenda for today and that's this hyper ledger technical steering committee transition discussion document and just.
+
+13
+00:02:18.180 --> 00:02:22.260
+Tracy Kuhrt: As a point of reference there we've been having discussions around.
+
+14
+00:02:23.400 --> 00:02:37.710
+Tracy Kuhrt: Whether or not we are going to want to change the technical steering committee from a technical steering committee to a technical advisory committee or a technical oversight committee.
+
+15
+00:02:38.730 --> 00:02:39.270
+Tracy Kuhrt: So.
+
+16
+00:02:41.070 --> 00:02:48.390
+Tracy Kuhrt: As you are probably aware, we could go to the second slide right that's fine um when we.
+
+17
+00:02:50.610 --> 00:02:57.270
+Tracy Kuhrt: When we started hyper ledger we had a single source base that we were expecting to bring in.
+
+18
+00:02:59.070 --> 00:03:11.730
+Tracy Kuhrt: And that was to create a distributed ledger framework interface, and since that time we've obviously increased I think at a maximum we had 18 projects, I think, right now, we have 14.
+
+19
+00:03:12.270 --> 00:03:32.910
+Tracy Kuhrt: projects within the hyper ledger foundation we've changed the mission to reflect the fact that we are building more than just a single source base but a set of source faces that are focused on platforms libraries tools and solutions and so kind of with that change.
+
+20
+00:03:34.080 --> 00:03:35.880
+Tracy Kuhrt: If we go to the next slide.
+
+21
+00:03:37.470 --> 00:03:50.280
+Tracy Kuhrt: we're wondering if we have a need to evolve from the technical Steering Committee that we've had since we initiated hyper ledger of because of that mission and charter change.
+
+22
+00:03:50.820 --> 00:04:02.220
+Tracy Kuhrt: And then, also the current technical steering committee we're not really filling the role of a typical technical Steering Committee, and so this leads to some confusion, it leads to some.
+
+23
+00:04:04.290 --> 00:04:19.830
+Tracy Kuhrt: Expectations maybe not being not as you join the technical Steering Committee and are expecting one thing, but actually end up getting a different thing which is more oversight or advisory of the entire foundation, and all of the projects underneath it.
+
+24
+00:04:21.270 --> 00:04:22.020
+Tracy Kuhrt: So.
+
+25
+00:04:23.190 --> 00:04:42.840
+Tracy Kuhrt: that's kind of the the reasoning, or the thinking behind that also we have in the past seen that some projects are having a very large voice within the technical Steering Committee and some projects are not even included in the technical Steering Committee.
+
+26
+00:04:44.940 --> 00:04:47.550
+Tracy Kuhrt: So we jump to the next slide right.
+
+27
+00:04:48.870 --> 00:05:02.880
+Tracy Kuhrt: This is just a view of the government said cnc F, which has a technical oversight committee that defines technical vision approved and removes project in such common practices across the Community.
+
+28
+00:05:03.510 --> 00:05:10.590
+Tracy Kuhrt: That should sound fairly familiar, because it is pretty much what we do here in the hyper ledger technical Steering Committee.
+
+29
+00:05:12.420 --> 00:05:25.830
+Tracy Kuhrt: And then each of the projects within cnc F would have their own correct steering committee within them so that's the way that cnc F works and, if we look at another project.
+
+30
+00:05:27.720 --> 00:05:48.750
+Tracy Kuhrt: Which is lf networking, they have what's called a technical advisory console and that console will facilitate communication and collaboration across the different technical projects and again each of their individual projects within lf networking have their own technical Steering Committee.
+
+31
+00:05:50.130 --> 00:05:52.500
+Tracy Kuhrt: So if we jump to the next slide.
+
+32
+00:05:54.000 --> 00:06:12.840
+Tracy Kuhrt: Obviously, you should all know what this is, I shouldn't have to read this, but we do have our technical Steering Committee that defines our vision approved in rooms projects and sets come come practices across the Community and said that one from cnc F should have some it really familiar.
+
+33
+00:06:15.060 --> 00:06:25.500
+Tracy Kuhrt: And the actual technical steering happens within each of the projects or within a set of projects by the individual encounters of those projects.
+
+34
+00:06:27.630 --> 00:06:29.310
+Tracy Kuhrt: So if we jump to the next slide.
+
+35
+00:06:30.570 --> 00:06:45.060
+Tracy Kuhrt: There is also that's one piece of this discussion is the name change do we change from being technical steering committee to like technical oversight committee or technical advisory council.
+
+36
+00:06:46.890 --> 00:06:58.890
+Tracy Kuhrt: that's that's one piece that we have to discuss the second piece that we have to discuss is what is the makeup of this organization that we are today so today, as you know, we're all elected by.
+
+37
+00:06:59.760 --> 00:07:07.350
+Tracy Kuhrt: The Community the hyper ledger community and the people who have contributed specifically to the projects are the working groups.
+
+38
+00:07:09.630 --> 00:07:11.310
+Tracy Kuhrt: And the.
+
+39
+00:07:12.540 --> 00:07:30.210
+Tracy Kuhrt: Second question that we have to think about is is that the right way to do to create this new if we do decide to name it differently organization, or is there a different way in which we should select and have this group of individuals who represent.
+
+40
+00:07:31.560 --> 00:07:36.510
+Tracy Kuhrt: represent this organization, so we move to the next slide.
+
+41
+00:07:37.590 --> 00:07:56.790
+Tracy Kuhrt: There is kind of a proposal that's been put in place i'm not going to read this yet, because I think we have some questions that I would like to start with, before we get to the details, because I think there's a lot of details around how we might go about selecting.
+
+42
+00:07:58.560 --> 00:08:03.240
+Tracy Kuhrt: This organization, assuming that we want to change what we're doing in the first place.
+
+43
+00:08:04.800 --> 00:08:19.230
+Tracy Kuhrt: So with that maybe we jump to the questions and then before I ask the questions just general comments or thoughts before we we get into the details of questions.
+
+44
+00:08:29.700 --> 00:08:30.030
+Tracy Kuhrt: later.
+
+45
+00:08:32.520 --> 00:08:49.320
+Peter Somogyvari: On the easily want to say an opinion on is the name change I think that's easy and I support it, the rest of it i'll probably have to think about and we'll see other people's opinions and arguments for or against, which is the name change that's.
+
+46
+00:08:53.460 --> 00:08:53.730
+Tracy Kuhrt: Okay.
+
+47
+00:08:56.070 --> 00:08:59.100
+Tracy Kuhrt: anyone else have any comments at this point.
+
+48
+00:09:11.580 --> 00:09:16.500
+Arun S M: I wanted to understand what is the term end user tabs Shell select to me.
+
+49
+00:09:19.470 --> 00:09:20.700
+Arun S M: Like wasn't the previous play.
+
+50
+00:09:34.230 --> 00:09:39.180
+Tracy Kuhrt: Ah, OK so within cnc F, it says.
+
+51
+00:09:40.320 --> 00:09:42.030
+Tracy Kuhrt: The Governing Board to select six.
+
+52
+00:09:43.170 --> 00:10:02.400
+Tracy Kuhrt: Technical oversight committee members, the end user technical advisory board chair elect to technical oversight committee members, and then on sandbox project think inertial like one so on and so forth, so this is a, this is the organizational structure within cnc F.
+
+53
+00:10:04.170 --> 00:10:18.690
+Tracy Kuhrt: I don't think we've had any suggestion for creating an end user technical Advisory Board for seeing for hyper ledger and cnc F has so that's.
+
+54
+00:10:19.290 --> 00:10:35.070
+Tracy Kuhrt: I guess you know, could be a feature sort of conversation that we have, but at this point, this was just language that you could see as an example of how other organizations are selecting their technical oversight committee.
+
+55
+00:10:37.800 --> 00:10:40.470
+Arun S M: Thanks Tracy that's interesting and read about it.
+
+56
+00:10:42.690 --> 00:10:47.580
+Ry Jones: And we look, when we put this slide deck together when David put the slide deck together.
+
+57
+00:10:48.840 --> 00:11:00.780
+Ry Jones: We looked at the two biggest the two COMP projects here at lf to give examples on how other projects are managed Nathan, I apologize.
+
+58
+00:11:02.010 --> 00:11:02.700
+Nathan George: Oh no worries.
+
+59
+00:11:03.090 --> 00:11:03.510
+um.
+
+60
+00:11:04.830 --> 00:11:13.740
+Nathan George: i'm curious how the project technical steering committee would work relative to a technically technical advisory council.
+
+61
+00:11:15.480 --> 00:11:24.240
+Nathan George: Especially it seems like it would acknowledge, some of the core maintainer roles that have kind of happened organically over time anyway.
+
+62
+00:11:25.170 --> 00:11:39.690
+Nathan George: um but I worry in wonder what it would do to some of the projects that are smaller to where that they they don't really have enough maintainer is to really justifies a technical steering committee for the sub or, for that particular code base.
+
+63
+00:11:42.030 --> 00:11:43.230
+Tracy Kuhrt: yeah so Nathan, I think.
+
+64
+00:11:44.220 --> 00:11:49.800
+Tracy Kuhrt: If we were to go to the questions you'll see that the third question is, do we need to.
+
+65
+00:11:51.090 --> 00:11:55.800
+Tracy Kuhrt: One more slide right oh oh I didn't go the slides here.
+
+66
+00:11:57.300 --> 00:11:59.460
+Tracy Kuhrt: Maybe you can we just jump to the question side.
+
+67
+00:12:00.630 --> 00:12:20.250
+Tracy Kuhrt: Thank you, one of the questions was kind of do we even need to formally name these groups as technical steering committees for the existing projects or do we allow them to just continue the way they are in in the way that they function today around.
+
+68
+00:12:21.540 --> 00:12:30.150
+Tracy Kuhrt: The the tasks that they do right developing roadmaps really driving the technical direction of those projects as they.
+
+69
+00:12:30.990 --> 00:12:38.910
+Tracy Kuhrt: Do today, or do we need to give them the formal name of a technical steering committee so Nathan, I don't know if that answers your question.
+
+70
+00:12:39.420 --> 00:12:54.690
+Tracy Kuhrt: But there I think you're you're getting to the point of the fact that each of these projects that we have within hyper ledger foundation are different in the way that they do kind of manage the project themselves from a technical direction.
+
+71
+00:12:55.530 --> 00:13:05.220
+Nathan George: Well, and you know I couldn't say what effect does that have on fabric, but it sounds to me like this is something that formalizing it would help kind of the family of fabric related projects, because it would give.
+
+72
+00:13:05.700 --> 00:13:16.530
+Nathan George: more formal authority to that group of core maintainer is to have a discussion with all of those those those code bases, I also think, would help in a project that's most largest areas where there's lots of.
+
+73
+00:13:17.310 --> 00:13:29.370
+Nathan George: Different sub projects that coordinate between them because formalizing the role is you're not just a maintainer you're part of this steering committee for this umbrella part of hyper ledger that makes sense to me.
+
+74
+00:13:30.510 --> 00:13:37.020
+Nathan George: I don't know how it affected project bike versa, where there's not very many maintainer at all, and our focus is more on.
+
+75
+00:13:38.040 --> 00:13:40.410
+Nathan George: Trying to expand the project is supposed to govern the project.
+
+76
+00:13:45.000 --> 00:13:45.900
+Tracy Kuhrt: yeah make sense.
+
+77
+00:13:46.260 --> 00:13:53.580
+Tracy Kuhrt: Since then, I don't think that we have an answer to that question at this point, at least not within this slide deck.
+
+78
+00:13:54.600 --> 00:14:05.970
+Tracy Kuhrt: I do think that it's probably something that we would assuming that we want to move forward with the name change with changing kind of the the technical steering committee makeup.
+
+79
+00:14:06.870 --> 00:14:13.890
+Tracy Kuhrt: That we would have to maybe think about what we want to do when it comes to the the projects or projects and, as you.
+
+80
+00:14:15.120 --> 00:14:15.630
+Tracy Kuhrt: called out.
+
+81
+00:14:19.140 --> 00:14:21.240
+Ry Jones: I think this, this is just a.
+
+82
+00:14:22.650 --> 00:14:27.930
+Ry Jones: devolution of power to wear it it actually has, I mean personally so.
+
+83
+00:14:28.890 --> 00:14:30.750
+Tracy Kuhrt: yeah make sense right Peter.
+
+84
+00:14:32.580 --> 00:14:36.060
+Peter Somogyvari: In the case of smaller projects, I think we should just.
+
+85
+00:14:37.620 --> 00:14:49.260
+Peter Somogyvari: call it what it is, is in the set of maintainer so the project has is implicitly also a tactical simply just because the number of containers is not big enough.
+
+86
+00:14:50.460 --> 00:14:53.250
+Peter Somogyvari: To need a core subset.
+
+87
+00:14:55.050 --> 00:15:01.020
+Peter Somogyvari: And you could also leave it up to projects to decide for themselves if they want one or not.
+
+88
+00:15:02.130 --> 00:15:02.910
+Peter Somogyvari: And that way.
+
+89
+00:15:04.080 --> 00:15:14.610
+Peter Somogyvari: No one would feel like you're pushing this extra for them unless they actually feel like be useful for whatever those reasons that calculated.
+
+90
+00:15:20.850 --> 00:15:21.450
+Tracy Kuhrt: Peter.
+
+91
+00:15:23.490 --> 00:15:31.890
+Tracy Kuhrt: Other general comments thoughts Ryan, maybe we should go back to the what does not changed since I didn't realize that slide but there.
+
+92
+00:15:32.880 --> 00:15:40.080
+Tracy Kuhrt: So, in general, the responsibilities of what we're doing here in this group does not need to be changed.
+
+93
+00:15:41.010 --> 00:15:49.350
+Tracy Kuhrt: we're still doing the same thing it's just a question of should we be better named to reflect what it is that we're actually doing.
+
+94
+00:15:49.890 --> 00:16:11.460
+Tracy Kuhrt: And then the second thing that we don't think really needs to change is the way in which projects make decisions today and how they select beginners none of that really needs to change when it comes to how we how we named ourselves and, potentially, how we organize ourselves complex.
+
+95
+00:16:13.440 --> 00:16:15.060
+Kamlesh Nagware: So I think it's in all, I think.
+
+96
+00:16:16.920 --> 00:16:24.390
+Kamlesh Nagware: I think really changing the name to like PAC enthusiasm technical advisory and or site I think is very.
+
+97
+00:16:25.200 --> 00:16:34.950
+Kamlesh Nagware: gentry coma they don't have a better life technical steering committee So are we going to dissolve the technical Steering Committee and just changing changing the name or.
+
+98
+00:16:35.460 --> 00:16:49.800
+Kamlesh Nagware: We are having a two separate kind of the main one technical Steering Committee, for a different role and responsibility and then creating a different PC and you'll see because, like, for example, there are many even institution.
+
+99
+00:16:50.850 --> 00:17:00.930
+Kamlesh Nagware: Advisory Board and even they don't play the melody when i'm part of the couple of this advisory councils, but i'm not doing it in there, so.
+
+100
+00:17:02.250 --> 00:17:15.690
+Kamlesh Nagware: So I think I think there's a bit two different things, one is the technical steering committee like Okay, maybe we can decide the roses, this one is another kind of tcm to assume is a kind of another, like other particularly.
+
+101
+00:17:17.190 --> 00:17:18.240
+Kamlesh Nagware: This my thoughts.
+
+102
+00:17:19.920 --> 00:17:28.800
+Tracy Kuhrt: yeah so much, I think that the general idea here is one to change the name to reflect better what it is that we're doing in this group.
+
+103
+00:17:30.300 --> 00:17:41.670
+Tracy Kuhrt: Since we're not necessarily stirring the technical projects themselves, you know, maybe a better name is the technical oversight committee or whatever.
+
+104
+00:17:42.510 --> 00:17:56.520
+Tracy Kuhrt: The C stands for, at that point, a hump and then the second piece right is what is, what is the makeup and the makeup is more along the lines of.
+
+105
+00:17:57.060 --> 00:18:10.620
+Tracy Kuhrt: Increasing the diversity of this organization, ensuring that their voices from each of the different projects, as well as potentially making us a smaller group than what we are today.
+
+106
+00:18:11.760 --> 00:18:13.170
+Tracy Kuhrt: You know, initially.
+
+107
+00:18:14.850 --> 00:18:21.630
+Tracy Kuhrt: What was the size of the the technical Steering Committee was it 797 I think it was.
+
+108
+00:18:23.670 --> 00:18:32.910
+Tracy Kuhrt: And then we increase it to a couple years back, and so the question is, is that too large, have we you know.
+
+109
+00:18:34.170 --> 00:18:43.350
+Tracy Kuhrt: done ourselves in the service by increasing the size of the technical Steering Committee, and so you know, I think, in the end.
+
+110
+00:18:43.800 --> 00:18:52.680
+Tracy Kuhrt: These two things are grouped together, because if we're making a change for one maybe it makes sense to make that change or the other.
+
+111
+00:18:53.190 --> 00:19:08.910
+Tracy Kuhrt: To increase diversity in the voices here now, there has been no discussion as far as when this would take place my assumption is that this takes place when the term of this group ends, which is sometimes I think in.
+
+112
+00:19:10.710 --> 00:19:19.440
+Tracy Kuhrt: The fall September, October I can't remember when the exact timeline is, but I think that's the the intention for that so does that answer the question.
+
+113
+00:19:21.060 --> 00:19:39.270
+Kamlesh Nagware: yeah so The other thing like suppose I can someone also mentioned about like having a pstn the different project families and then having this pstn to see is a is a is a higher level of advisory on or Subcommittee, so I think, maybe.
+
+114
+00:19:40.320 --> 00:19:51.390
+Kamlesh Nagware: Those kind of discretion on those kind of decisions to be made, there was I just or when of reducing the number of technical people and getting the same results in this quantity.
+
+115
+00:19:51.930 --> 00:19:58.770
+Kamlesh Nagware: Within the model projects with a because I think, unlike the other other Linux foundation upon which and projects hyper.
+
+116
+00:19:59.850 --> 00:20:04.440
+Kamlesh Nagware: There are a lot of projects to see and manage.
+
+117
+00:20:06.690 --> 00:20:15.360
+Tracy Kuhrt: yeah that's that's right and collections that hyper ledger foundation is got a number of projects underneath it, which is very different than.
+
+118
+00:20:17.250 --> 00:20:21.840
+Tracy Kuhrt: Where it started right where it started was the intention of being a single source.
+
+119
+00:20:22.890 --> 00:20:28.740
+Tracy Kuhrt: basis single project and so there's been that that shift, and I think that's that's what's really important.
+
+120
+00:20:29.790 --> 00:20:32.700
+Tracy Kuhrt: Now you know, I think that.
+
+121
+00:20:34.080 --> 00:20:40.410
+Tracy Kuhrt: The the question here in my mind before we get to the details, because there are a lot of details.
+
+122
+00:20:40.800 --> 00:20:41.850
+Tracy Kuhrt: And it have to be.
+
+123
+00:20:42.270 --> 00:20:43.980
+Tracy Kuhrt: ironed out, if you will.
+
+124
+00:20:45.630 --> 00:20:57.270
+Tracy Kuhrt: Is does anybody have any sort of objections to this do we generally agree that this is a good idea i'm not changing the.
+
+125
+00:20:57.300 --> 00:20:58.800
+Tracy Kuhrt: What this group does.
+
+126
+00:21:00.000 --> 00:21:05.610
+Tracy Kuhrt: But changing its name and changing its that the makeup of who is involved in this group.
+
+127
+00:21:08.700 --> 00:21:09.000
+Tracy Kuhrt: toy.
+
+128
+00:21:09.870 --> 00:21:15.300
+Troy Ronda: yeah I mean I think i've raised this point previously on a proposal like this, but.
+
+129
+00:21:16.620 --> 00:21:25.740
+Troy Ronda: i've been cautious about the idea that the majority of the Members are basically elected by the Governing Board, instead of from.
+
+130
+00:21:27.210 --> 00:21:40.200
+Troy Ronda: The technical community, and I see that's in the slide again so i'm I am again cautious about that point so that particular point i'm really not sure about still.
+
+131
+00:21:41.820 --> 00:21:42.630
+Tracy Kuhrt: yeah try.
+
+132
+00:21:44.130 --> 00:21:51.510
+Tracy Kuhrt: right if we could go to whatever it is slide eight, I think that has come to the makeup that I did not discuss in detail oh.
+
+133
+00:21:52.770 --> 00:21:54.690
+Tracy Kuhrt: No, the other direction, sorry.
+
+134
+00:21:55.950 --> 00:22:00.270
+Tracy Kuhrt: That the one REP has all the detail, so the you were.
+
+135
+00:22:07.110 --> 00:22:10.770
+Tracy Kuhrt: The proposed selection makeup slide.
+
+136
+00:22:19.530 --> 00:22:21.360
+Tracy Kuhrt: hey flight it here yeah.
+
+137
+00:22:23.760 --> 00:22:26.160
+Tracy Kuhrt: Thanks right, so the.
+
+138
+00:22:28.710 --> 00:22:34.380
+Tracy Kuhrt: The idea here right and what I didn't read each graduated project it's just like one representative.
+
+139
+00:22:36.300 --> 00:22:48.720
+Tracy Kuhrt: The each incubating project needs like also TC number who would have observer status but not voting rights, and this would also provide that incentive for projects to move to a graduated state.
+
+140
+00:22:50.010 --> 00:23:03.900
+Tracy Kuhrt: And then the governing board selects some number of people, the expectation is not a large number of people, which I think is your concern here Troy, but I think originally when this document was written it had to.
+
+141
+00:23:05.040 --> 00:23:11.880
+Tracy Kuhrt: From that but we hadn't decided whether to with the right number or not, and then the.
+
+142
+00:23:13.230 --> 00:23:20.640
+Tracy Kuhrt: The recommendation to ensure that no single company may have more than a certain number of Members on this.
+
+143
+00:23:21.480 --> 00:23:29.910
+Tracy Kuhrt: committee, so I think the intention Troy really is to give focus to the projects and make sure that the projects all have a voice.
+
+144
+00:23:30.420 --> 00:23:47.580
+Tracy Kuhrt: which they do not have today, which I think it's where I was getting to with the the makeup when he was scrolling through the slides if we were to actually look at the makeup we don't have people here from I believe devil we don't have people here from zero haha.
+
+145
+00:23:51.570 --> 00:23:51.780
+Tracy Kuhrt: yeah.
+
+146
+00:23:54.570 --> 00:24:02.100
+Tracy Kuhrt: let's see what else, I guess, we have me from double their room from devil so caliper cello grid transact versa.
+
+147
+00:24:02.820 --> 00:24:19.110
+Tracy Kuhrt: We don't have people from, and then we have some some folks who are part of the working groups or the chat the regional chapters that make up kind of the the current tsu representation so Troy I don't know if that that helps.
+
+148
+00:24:20.160 --> 00:24:28.920
+Tracy Kuhrt: Obviously, none of this has been decided, so those numbers all get to be discussed in detail, as far as what we're going to do, but hopefully that helps.
+
+149
+00:24:30.240 --> 00:24:34.080
+Troy Ronda: yeah I mean maybe miss tiffany presented that slide because I was.
+
+150
+00:24:34.140 --> 00:24:34.740
+Troy Ronda: I guess.
+
+151
+00:24:35.250 --> 00:24:37.410
+Troy Ronda: You didn't okay yeah cuz as king of the.
+
+152
+00:24:38.250 --> 00:24:41.340
+Troy Ronda: The example slides I guess from the other communities.
+
+153
+00:24:42.360 --> 00:24:45.900
+Troy Ronda: Where they seem to have a fairly large governing board.
+
+154
+00:24:47.520 --> 00:24:54.840
+Troy Ronda: Elected representations I wasn't sure if those comparisons, where the proposal or not, so I guess you've clarified that.
+
+155
+00:24:55.020 --> 00:24:56.640
+Tracy Kuhrt: yeah yeah my my.
+
+156
+00:24:56.670 --> 00:25:08.340
+Tracy Kuhrt: My bad Troy for not not going into detail on that I knew that that slide would probably bring up a whole bunch of questions, and so I was somewhat avoiding it until we at least got to some sort of general.
+
+157
+00:25:08.820 --> 00:25:15.450
+Tracy Kuhrt: Yes, this sounds like a good idea, before we started talking about he feels so good my bed I.
+
+158
+00:25:17.160 --> 00:25:23.850
+Dave Enyeart: understand your question, do we think that's generally a good idea I, personally, I do so, I think the objectives are good around.
+
+159
+00:25:24.750 --> 00:25:37.050
+Dave Enyeart: Diversity and having it be a mix of projects and maybe some folks from premier members, so I think generally it's a good idea, I think the devils in the details and i'm sure they'll be plenty of debate when we get to that.
+
+160
+00:25:38.130 --> 00:25:38.940
+Dave Enyeart: that's it for now.
+
+161
+00:25:39.840 --> 00:25:41.910
+Tracy Kuhrt: Alright, thanks Dave I agree with you.
+
+162
+00:25:42.810 --> 00:25:49.080
+Tracy Kuhrt: The details are going to be that that sticking point right and having the sort of discussion there Peter.
+
+163
+00:25:51.180 --> 00:26:06.660
+Peter Somogyvari: I also think it's generally a good idea, and in my mind it mostly hinges on the parks on the slide that are tbd stereotypically what i'm thinking big picture wise is what would be.
+
+164
+00:26:07.680 --> 00:26:21.150
+Peter Somogyvari: The ratio of the sons of elected and unelected sessions and i'm thinking we should maybe try to keep that somehow 5050 at least.
+
+165
+00:26:22.140 --> 00:26:38.760
+Peter Somogyvari: Or, or maybe even be the majority for the elected positions i'm not sure if we can configure the numbers in a way that actually happens because there's moving parts in debt, like the number of projects is changing it could be more it could be less in the future.
+
+166
+00:26:39.960 --> 00:26:45.540
+Peter Somogyvari: So it's not as easy as it sounds, and I totally get why those numbers are just tbd for now.
+
+167
+00:26:47.310 --> 00:26:49.050
+Peter Somogyvari: And then, I have a question.
+
+168
+00:26:50.190 --> 00:26:56.550
+Peter Somogyvari: Which is in the first bullet point where we say that each project can.
+
+169
+00:26:57.810 --> 00:27:00.870
+Peter Somogyvari: delegate or send or whatever the word was.
+
+170
+00:27:02.370 --> 00:27:06.660
+Peter Somogyvari: So each project gets to send one person that does that mean that.
+
+171
+00:27:08.610 --> 00:27:21.780
+Peter Somogyvari: There will still be an election and then people can pick someone from the project maintains or the project meteors themselves are responsible for organizing an election in them themselves and then somehow figure it out.
+
+172
+00:27:26.310 --> 00:27:44.580
+Tracy Kuhrt: yeah it's a good question here, I don't know that I have a good answer for you right there David might as well do you either of you have thoughts on kind of that first bullet of how do we get people from the projects to send their representative.
+
+173
+00:27:46.050 --> 00:27:52.890
+Ry Jones: And my thought is that is a decision that devolves to the projects and.
+
+174
+00:27:54.600 --> 00:27:59.640
+Ry Jones: I mean my idea was probably someone from the maintainer but.
+
+175
+00:28:00.660 --> 00:28:08.760
+Ry Jones: I really personally want to get out of micromanaging like exactly how people work and do things.
+
+176
+00:28:10.740 --> 00:28:20.760
+Ry Jones: So, if it was an election, or the maintainer said we're sending our senior maintainer or whatever I i'd be fine with that David do you have anything.
+
+177
+00:28:21.210 --> 00:28:25.590
+David Boswell: No, I think we're on the same page, I mean I think it's a best practice of open source to push.
+
+178
+00:28:26.130 --> 00:28:37.590
+David Boswell: Never the phrasing is push responsibility or delegate authority to the edges and like I yeah I I was assuming the same thing that a project can make that decision and they may choose an election, they may choose something else.
+
+179
+00:28:42.330 --> 00:28:47.670
+David Boswell: come up with guidelines around that but yeah my initial assumption, was it was it was a project level decision.
+
+180
+00:28:52.620 --> 00:28:52.890
+Tracy Kuhrt: Thanks.
+
+181
+00:28:54.000 --> 00:28:54.450
+Tracy Kuhrt: Angela.
+
+182
+00:28:55.950 --> 00:29:07.290
+Angelo De Caro: Yes, thanks Tracy 34 miles I just also want to say that I, I agree with this somebody and possibly with this proposal, I think we should definitely change the name, how to better reflect what we do.
+
+183
+00:29:07.830 --> 00:29:24.240
+Angelo De Caro: And I also suggest that we should dedicate as much time as possible to discuss the details, because I think this will take a lot of time to decide on the numbers and the proportions and who is who gets the right to vote vote so yeah let's give a high priority to this.
+
+184
+00:29:25.980 --> 00:29:26.880
+Tracy Kuhrt: Alright, thanks Angela.
+
+185
+00:29:27.180 --> 00:29:28.590
+Tracy Kuhrt: yeah definitely I didn't I didn't.
+
+186
+00:29:29.730 --> 00:29:46.740
+Tracy Kuhrt: schedule any sort of Task Force discussion because I knew this was not going to be a quick discussion that we were going to come to any sort of resolution quickly on So hopefully we can have some of the detailed discussion started today and will continue, probably next week hey then.
+
+187
+00:29:48.690 --> 00:29:52.320
+Nathan George: um I guess my current probably echoes what Angela said, and that is.
+
+188
+00:29:52.770 --> 00:30:01.200
+Nathan George: there's some things here that that seemed really helpful like can we make groups that are smaller that are more engaged, so that we can get more work done in parallel.
+
+189
+00:30:01.590 --> 00:30:12.150
+Nathan George: I think that the task force work we've done recently has kind of indicated that there's room for that that would be a net benefit to the hyper ledger as a whole but there's other things here that.
+
+190
+00:30:13.410 --> 00:30:19.020
+Nathan George: Like others have said, make me very, very uncomfortable like, how do we balance, a project that has.
+
+191
+00:30:19.380 --> 00:30:26.100
+Nathan George: You know very large number of maintainer like fabric, with the project that may only have you know just a couple, how do we make sure that we're not.
+
+192
+00:30:26.730 --> 00:30:35.580
+Nathan George: causing problems for our inclusive it, you know because we're we're doing an open election amongst all the developers of preference choice voting, I think we get a better diverse group out of the entire.
+
+193
+00:30:35.820 --> 00:30:51.120
+Nathan George: contributor base, whereas if we just say, the chair of each sub projects Steering Committee, you know we have a lot less options to try to get a diverse set of voices maybe not from a project standpoint but from a perspective standpoint so.
+
+194
+00:30:52.380 --> 00:31:00.360
+Nathan George: It feels like we're we're definitely playing with fire with this proposal, so we have to careful, but you know, I think that the spirit of it is right.
+
+195
+00:31:03.390 --> 00:31:04.080
+Tracy Kuhrt: Thanks Nathan.
+
+196
+00:31:04.770 --> 00:31:10.950
+Tracy Kuhrt: um so i've heard a lot of people saying I think what they then just said, the spirit of this seems right.
+
+197
+00:31:12.060 --> 00:31:15.990
+Tracy Kuhrt: Are there, people who have concerns that this is not the right direction to go.
+
+198
+00:31:17.040 --> 00:31:26.790
+Tracy Kuhrt: You know this isn't this isn't set in stone, at this point, this was really to bring this to the group to ensure that, if there were concerns.
+
+199
+00:31:27.360 --> 00:31:36.810
+Tracy Kuhrt: That we listened to those and hear those so that we don't as Nathan said take us down a path that basically we don't look at them.
+
+200
+00:31:37.620 --> 00:31:49.830
+Tracy Kuhrt: So we obviously need to be careful, so any sort of objections in general to what's being talked about or any other sorts of concerns that people want to bring up at this point.
+
+201
+00:31:54.900 --> 00:31:55.290
+Tracy Kuhrt: anything.
+
+202
+00:31:57.120 --> 00:32:11.970
+Nathan George: um it feels like there's more formality to this, and I think process wise it's going to create some default decisions that are different than what we have now, I wonder if it will make us a little less agile about adding projects to the overall.
+
+203
+00:32:13.020 --> 00:32:14.640
+Nathan George: Greenhouse or whatever we call it now.
+
+204
+00:32:16.020 --> 00:32:16.800
+Nathan George: And you know.
+
+205
+00:32:17.850 --> 00:32:29.160
+Nathan George: We should all think about what are the default choices we're making now and how that this refactoring might change the default choices, because a lot of how some of the decisions have been made in the past it's kind of.
+
+206
+00:32:30.630 --> 00:32:41.460
+Nathan George: The friction of going through the process effects what what what's proposed, and this should change that friction some ways that might change it in ways that really help us in some ways it might affect say.
+
+207
+00:32:42.270 --> 00:32:48.300
+Nathan George: If one of the other blockchain projects in the universe of enterprise blockchain says hey should we do our work in hyper ledger.
+
+208
+00:32:48.990 --> 00:32:57.810
+Nathan George: And we might not necessarily see that so because they might just not propose that project to begin with, so I think there's we got some time to think through that and.
+
+209
+00:32:58.170 --> 00:33:08.940
+Nathan George: Let that inform our decisions as we talked about portion representation, how to set up a project own technical steering committee all the things that sounds like this will make us have to formalize.
+
+210
+00:33:12.240 --> 00:33:13.350
+Tracy Kuhrt: yeah maybe I think.
+
+211
+00:33:13.500 --> 00:33:16.710
+Tracy Kuhrt: Peter, you mentioned the fact that.
+
+212
+00:33:18.210 --> 00:33:21.630
+Tracy Kuhrt: You know, as we add projects and projects graduate.
+
+213
+00:33:22.650 --> 00:33:27.000
+Tracy Kuhrt: You know that's going to change the makeup of the voting versus the.
+
+214
+00:33:28.890 --> 00:33:48.120
+Tracy Kuhrt: People who are you know just participating to have their voice voices heard, for their project themselves, so I do completely agree that meeting some of the things that we're discussing here are going to have a greater impact right they're going to be.
+
+215
+00:33:49.650 --> 00:33:51.870
+Tracy Kuhrt: Changing the way that this group is.
+
+216
+00:33:53.520 --> 00:34:08.850
+Tracy Kuhrt: made up of changing the way that this group thinks about things the way that this group thinks about the decisions that they're going to make so i'll definitely something for us to to keep an eye on as we go through the details for.
+
+217
+00:34:10.290 --> 00:34:12.450
+Troy Ronda: That Stephen kind of keep me again.
+
+218
+00:34:14.430 --> 00:34:23.640
+Troy Ronda: When we see the Members are coming from the projects, does that mean their responsibility is to represent the interests of that project and.
+
+219
+00:34:25.140 --> 00:34:32.880
+Troy Ronda: More so not not just their own interest rate like they're there as a representative of their project and would that be how this is.
+
+220
+00:34:36.120 --> 00:34:38.160
+Troy Ronda: represented externally.
+
+221
+00:34:41.100 --> 00:34:43.830
+Tracy Kuhrt: it's a it's a good question I.
+
+222
+00:34:44.430 --> 00:34:45.990
+Tracy Kuhrt: mean I think they're.
+
+223
+00:34:46.890 --> 00:34:50.550
+Tracy Kuhrt: Each of us has motivation for why we're here right.
+
+224
+00:34:51.780 --> 00:35:02.790
+Tracy Kuhrt: And I cannot say that I understand the motivations of everyone on this group, and you know why they're participating in the sorts of ways that they think and vote.
+
+225
+00:35:03.480 --> 00:35:16.770
+Tracy Kuhrt: And I personally have enjoyed the the sorts of conversations, where you hear a number of different voices, because you you start to.
+
+226
+00:35:17.790 --> 00:35:31.290
+Tracy Kuhrt: see things that are happening in the Community, that you might not see otherwise you start to hear some of the concerns that you know you hadn't thought about before it makes you stop and think about those things.
+
+227
+00:35:32.370 --> 00:35:41.250
+Tracy Kuhrt: So yeah I don't know that I have a good response to that Troy, but I do think that everybody who joins this has.
+
+228
+00:35:41.700 --> 00:36:00.450
+Tracy Kuhrt: motivations, and whether or not those motivations will be somehow different if we have people who are specifically focused on their project, you know being sent by their project to represent that project I don't know how that's going to change things and so.
+
+229
+00:36:01.890 --> 00:36:19.080
+Tracy Kuhrt: You know this is, this is all if anybody has ideas about how that might work, you know understanding the motivations that you have as being part of a project and also representing the tropical storm can be I think you know it'd be interesting to hear this thing.
+
+230
+00:36:19.860 --> 00:36:27.240
+Troy Ronda: You know I think actually it's very important to decide that particular question when we start allocating the.
+
+231
+00:36:28.020 --> 00:36:32.910
+Troy Ronda: representation by projects right we I actually think has to be very clear that.
+
+232
+00:36:33.690 --> 00:36:44.220
+Troy Ronda: Either that is the case that because we've allocated by project that you're you are representing your project and the views of your project or or not, because.
+
+233
+00:36:45.030 --> 00:36:55.380
+Troy Ronda: I think it's the same or similar to what Nathan was saying, really, or if there's anything but you know the characteristics of the pool you're choosing from is quite.
+
+234
+00:36:55.920 --> 00:37:07.170
+Troy Ronda: Different between an election among the entire Community, and that basically saying this is composed of the projects, plus you know, a couple.
+
+235
+00:37:08.490 --> 00:37:16.020
+Troy Ronda: Other types of seats right and it actually does feel like a pretty important thing to figure out from the outset to me.
+
+236
+00:37:19.350 --> 00:37:19.650
+Tracy Kuhrt: yeah.
+
+237
+00:37:19.980 --> 00:37:22.620
+Tracy Kuhrt: I agree, I agree, I think there's.
+
+238
+00:37:24.600 --> 00:37:30.240
+Tracy Kuhrt: there's definitely some some thinking and to go behind this particular proposal a room.
+
+239
+00:37:31.980 --> 00:37:40.200
+Arun S M: Thank you see, so I, like some of the ideas from this proposal for us having an observer group who do not participate in noting but.
+
+240
+00:37:41.520 --> 00:37:57.570
+Arun S M: But then we need to define the roles of the types of a group, because we cannot just ask somebody to come on the call and have no an artistic participation so maybe they need to define those as spike and other aspect that I liked here is.
+
+241
+00:37:59.220 --> 00:38:03.600
+Arun S M: differentiating the technical steering versus the oversight.
+
+242
+00:38:04.800 --> 00:38:11.190
+Arun S M: Decisions so I know many of the times we don't end up discussing details of a project rather.
+
+243
+00:38:12.420 --> 00:38:20.460
+Arun S M: It should be left to the project and it it boosts for each projects to either group with other projects, for instance, that could be a.
+
+244
+00:38:21.000 --> 00:38:36.480
+Arun S M: Family of projects, not necessarily a single project right, then they may all want to work together and create their own steering committees in how they want to lead those projects what they want to say next in those group of projects.
+
+245
+00:38:37.740 --> 00:38:49.110
+Arun S M: And this this kind of works at top part is kind of setup would bring in certain like 10 challenges toes and those challenges, would be.
+
+246
+00:38:50.310 --> 00:38:58.920
+Arun S M: So let's say if a to say, is it a car to say is going to approve a new project, and we are looking into expanding.
+
+247
+00:39:00.300 --> 00:39:16.560
+Arun S M: The kind of projects we have it in hyper ledger probably just moving away from having multi party systems and blockchain to all the tools that would help us and building such more and more such use cases using these projects so that would require.
+
+248
+00:39:19.980 --> 00:39:27.270
+Arun S M: Having an appointed members only in having no representation from wide spectrum those could be a.
+
+249
+00:39:28.860 --> 00:39:37.560
+Arun S M: conflict or maybe like there could be some conflict of interest coming in, when it comes to those aspects and other aspect that I liked in the proposal is.
+
+250
+00:39:38.910 --> 00:39:47.880
+Arun S M: With respect to advising them in delegating responsibilities for each group, for instance, somewhere, one of the slides where I read was.
+
+251
+00:39:48.450 --> 00:40:00.270
+Arun S M: There is a group that would go in suggest how much men, which project should be prioritized based on the needs and necessities, because that was related to lf networking charter.
+
+252
+00:40:01.230 --> 00:40:10.620
+Arun S M: They had a finance side buys, the report I know some of the questions related to security, it deals with died so maybe.
+
+253
+00:40:11.280 --> 00:40:23.010
+Arun S M: It could be gone in both for hyper ledger by this particular group of Members, they would have that responsibility to go and report or probably give there's study or suggestions.
+
+254
+00:40:24.840 --> 00:40:31.740
+Arun S M: So um yeah, I just wanted to add in these comments, because we could delve into details, thank you.
+
+255
+00:40:33.090 --> 00:40:35.340
+Tracy Kuhrt: yeah thanks renee I do agree, I think.
+
+256
+00:40:35.430 --> 00:40:37.650
+Tracy Kuhrt: You know, we do have to define.
+
+257
+00:40:39.090 --> 00:40:40.830
+Tracy Kuhrt: What these groups are why.
+
+258
+00:40:42.390 --> 00:40:53.670
+Tracy Kuhrt: Why they exist, and what they're wanting to do differently if we have observers versus putting numbers, how did those things differ, what are the expectations for those those participants.
+
+259
+00:40:55.020 --> 00:41:01.860
+Tracy Kuhrt: You know, one of the things that came to my mind, as you were talking about that around and i'm sorry for jumping on to your raised hand but.
+
+260
+00:41:02.430 --> 00:41:15.390
+Tracy Kuhrt: One of the things that they come to my mind was you know if you're only an observer and and I think people may see it as that right, what is the what's the reasoning for wanting to join.
+
+261
+00:41:15.900 --> 00:41:30.060
+Tracy Kuhrt: and participate in the actual meetings I know we've had discussions earlier this year about how do we get people to feel like they want to participate more and contribute more to to what this group is doing.
+
+262
+00:41:31.230 --> 00:41:32.340
+Tracy Kuhrt: Is by.
+
+263
+00:41:33.720 --> 00:41:41.070
+Tracy Kuhrt: Providing classes of people within this group of does that somehow stop them from.
+
+264
+00:41:42.990 --> 00:41:51.840
+Tracy Kuhrt: You know, wanting to participate and, and so I think that that's definitely a question that we should think about and something that we should.
+
+265
+00:41:54.060 --> 00:42:05.490
+Tracy Kuhrt: Something that we should look at as we define the details behind this so appreciate you talking about the details and I think that's going to be key for us Nathan.
+
+266
+00:42:07.260 --> 00:42:16.050
+Nathan George: I just wonder if we could write down a list of test cases or thought experiments that we should run to compare a to be on the change like.
+
+267
+00:42:16.620 --> 00:42:28.470
+Nathan George: Will this, what will the effect of this have on a project that's dying and trying to hide the number of contributors, it has What effect will this have on a new project proposal that might compete with an existing project if hyper ledger.
+
+268
+00:42:29.490 --> 00:42:37.590
+Nathan George: What effect will this have on a project that might maybe is having a maintainer dispute what What effect will this have on.
+
+269
+00:42:38.100 --> 00:42:48.240
+Nathan George: Whether we decide to spend money on a security audit of something that's not quite in graduate graduated state but it's a dependency of some other projects hyper ledger so.
+
+270
+00:42:48.960 --> 00:42:56.370
+Nathan George: Having kind of a list of things we know, have occurred in the past or things that we hope will be better underneath this new option.
+
+271
+00:42:56.670 --> 00:43:03.000
+Nathan George: So that we can each kind of walk through that thought experiment for ourselves and have hopefully a little bit Richard debate about.
+
+272
+00:43:03.480 --> 00:43:09.240
+Nathan George: Because I think some some of the details we've talked about, we agree with, because we think well that doesn't seem like a change it too much.
+
+273
+00:43:09.750 --> 00:43:17.010
+Nathan George: Where someone else in the group is seeing oh that makes a huge difference that will change exactly how these things work and then some of these details are like.
+
+274
+00:43:17.640 --> 00:43:29.190
+Nathan George: we're all imagining the best case option of the migration and we need to get to know exactly how are we selecting folks to be part of this this committee exactly how is the governance.
+
+275
+00:43:30.030 --> 00:43:38.700
+Nathan George: of a large project versus a small project going to work, we need to be able to imagine that, in a way, we can all have a shared picture of what's going to happen there.
+
+276
+00:43:40.980 --> 00:43:42.090
+Tracy Kuhrt: it's interesting.
+
+277
+00:43:42.900 --> 00:43:56.880
+Tracy Kuhrt: isn't it, I wonder if the responsibilities page that are now had created and we approved is something that we could use as a starting point for that that experiment of.
+
+278
+00:43:57.450 --> 00:44:13.050
+Tracy Kuhrt: here's the sorts of things that we do within this group, and how do we think that the the changing the makeup of this group will impact each of the different sorts of responsibility, not having a look at that page, since we approved it.
+
+279
+00:44:14.310 --> 00:44:16.410
+Tracy Kuhrt: I don't know that that's a great place for us to.
+
+280
+00:44:16.410 --> 00:44:17.310
+Tracy Kuhrt: start, but it could be.
+
+281
+00:44:19.470 --> 00:44:24.540
+Tracy Kuhrt: Something that would give us some insight into sorts of things that we're doing here within this group.
+
+282
+00:44:27.600 --> 00:44:28.080
+Tracy Kuhrt: Alright, Jim.
+
+283
+00:44:29.880 --> 00:44:47.370
+Jim Zhang: hey thanks Tracy and sorry for being late, there was a very important customer I could get out of so my main concern with the so first of all, I think, overall, on the outside, I, like the overall goal of the change I think it's much needed.
+
+284
+00:44:48.480 --> 00:44:59.610
+Jim Zhang: agree with most of the proposals, my main concern is the differentiation between graduate projects versus are incubating and.
+
+285
+00:45:00.870 --> 00:45:06.690
+Jim Zhang: Voting versus non voting I feel like the with the change.
+
+286
+00:45:08.280 --> 00:45:22.530
+Jim Zhang: A primary goal should be, how can we revitalize and get more participation from communities get more exciting projects into the Foundation and that should be.
+
+287
+00:45:24.030 --> 00:45:42.210
+Jim Zhang: Like looking forward to what the future holds in terms of critical technology technologies that need that is space needs and I I don't necessarily agree that a graduating project versus non.
+
+288
+00:45:45.150 --> 00:45:46.110
+Jim Zhang: is relevant.
+
+289
+00:45:47.610 --> 00:45:50.610
+Jim Zhang: that's number one so related to that.
+
+290
+00:45:51.840 --> 00:46:01.140
+Jim Zhang: If, at least, personally I participating in ntsc so that you know I can participate in making changes.
+
+291
+00:46:02.190 --> 00:46:18.720
+Jim Zhang: To introduce some impact as a non voting observer that greatly reduces my incentives to participate so that's that's just speaking from the bottom my heart just just speaking truth.
+
+292
+00:46:20.490 --> 00:46:22.560
+Jim Zhang: yeah so that's that's my point.
+
+293
+00:46:25.200 --> 00:46:25.470
+Tracy Kuhrt: alright.
+
+294
+00:46:25.500 --> 00:46:30.630
+Tracy Kuhrt: Thanks Jim I think that's an important point for us to consider right.
+
+295
+00:46:32.580 --> 00:46:50.730
+Tracy Kuhrt: I, I completely agree Jim that there could be some issues that come about from having the very versus non voting the separation between gradually incubated I also understand why it was at it.
+
+296
+00:46:51.870 --> 00:47:06.030
+Tracy Kuhrt: You know, from the perspective of a number of the projects that we have have been an incubation for quite some time and therefore you know what's the incentive for them to move from where they're at today to.
+
+297
+00:47:07.710 --> 00:47:22.410
+Tracy Kuhrt: To graduating right, so I can see both sides, but I think for me personally i'm maintaining a bit more towards where you're at and then yeah give me that additional incentive to graduate.
+
+298
+00:47:25.980 --> 00:47:26.490
+Ry Jones: If I might.
+
+299
+00:47:28.200 --> 00:47:29.370
+Ry Jones: I see.
+
+300
+00:47:30.690 --> 00:47:31.290
+Ry Jones: In my.
+
+301
+00:47:32.370 --> 00:47:33.240
+Ry Jones: humble opinion.
+
+302
+00:47:34.470 --> 00:47:39.630
+Ry Jones: I think the next two projects to graduate are going to be, you know firefly and cactus.
+
+303
+00:47:41.880 --> 00:47:45.630
+Ry Jones: The I guess the the, the other side of that would be.
+
+304
+00:47:46.650 --> 00:47:49.380
+Ry Jones: To do to gain this out a little bit.
+
+305
+00:47:51.240 --> 00:47:56.220
+Ry Jones: It would be easier to stuff the tlc right, instead of having.
+
+306
+00:47:58.110 --> 00:47:59.460
+Ry Jones: You know project X.
+
+307
+00:48:00.750 --> 00:48:02.640
+Ry Jones: Now a member company could.
+
+308
+00:48:03.660 --> 00:48:12.570
+Ry Jones: split that into three projects right or something of that nature, so they get more seats on the board seats on the tlc tech talk whatever we call it.
+
+309
+00:48:13.980 --> 00:48:14.430
+Ry Jones: down.
+
+310
+00:48:17.190 --> 00:48:18.960
+Danno Ferrin: So one of the questions mentioned earlier, is.
+
+311
+00:48:19.920 --> 00:48:27.600
+Danno Ferrin: What wouldn't service do I think one of the things we may even call them liaisons, what are the values I think of having these non voting members.
+
+312
+00:48:28.140 --> 00:48:33.240
+Danno Ferrin: i'm from every private because there's been times I said hey what's going on project X and there's nobody on the public and answer for it.
+
+313
+00:48:34.080 --> 00:48:41.640
+Danno Ferrin: so that you know, I think, is one of the values that they provide by having a designated attendee, even if they don't vote on formal processes.
+
+314
+00:48:42.060 --> 00:48:47.310
+Danno Ferrin: So we asked you know how does this policy impact that project we actually have someone who can answer for it.
+
+315
+00:48:47.880 --> 00:48:52.800
+Danno Ferrin: So I don't think you know observers necessarily that you know you're a second class and you're you're not as valued.
+
+316
+00:48:53.250 --> 00:48:57.570
+Danno Ferrin: i'm getting someone in here from those projects and the top would be a major improvement.
+
+317
+00:48:58.350 --> 00:49:03.630
+Danno Ferrin: Because there's a lot of projects that don't have any but it shows up to this meeting, and I think we're missing important perspective from them.
+
+318
+00:49:04.470 --> 00:49:17.280
+Danno Ferrin: And as far as you know, stuff in the tasc I mean if you can get that many graduated projects, you know it's how you know that's probably good for the Community to have a lot of projects that meet the graduated standard.
+
+319
+00:49:19.440 --> 00:49:29.730
+Danno Ferrin: So that's you know that is a concern, but I mean how bad is it that they're growing it to the point where they can get that level of recognition, this is another you know devil's advocate on that.
+
+320
+00:49:32.670 --> 00:49:34.200
+Tracy Kuhrt: And I would say.
+
+321
+00:49:34.380 --> 00:49:38.430
+Tracy Kuhrt: You know, as far stuffing is concerned, there is that recommendation that.
+
+322
+00:49:39.630 --> 00:49:49.200
+Tracy Kuhrt: Then I know in your comments you said we should make that a very strong statement not not just recommending but truly being, this is the limit.
+
+323
+00:49:49.770 --> 00:50:13.950
+Tracy Kuhrt: sort of thing for the number of participants from a single organization, so I think you know if we if we think that is of concern with people or organizations trying to you know control this organization, then, then you know, having some language here will help us.
+
+324
+00:50:20.460 --> 00:50:24.300
+Tracy Kuhrt: Right, then you still have your hand up with that additional comments or.
+
+325
+00:50:25.830 --> 00:50:26.820
+Tracy Kuhrt: Okay angel.
+
+326
+00:50:28.050 --> 00:50:41.310
+Angelo De Caro: Now I was puzzled by I think so do I, if I understood correctly, one issue is the size of the TC but now if we see that, for each graduate the project, there is a seat.
+
+327
+00:50:42.240 --> 00:50:51.360
+Angelo De Caro: I mean we're not putting a bound an upper bound on the number of Members of this new of the new this new committee, so if, tomorrow there are.
+
+328
+00:50:52.410 --> 00:50:56.760
+Angelo De Caro: Two nt graduate projects will have 20 seats that.
+
+329
+00:50:59.010 --> 00:51:00.990
+Tracy Kuhrt: yeah Angela yeah yeah exactly right.
+
+330
+00:51:01.980 --> 00:51:02.880
+Tracy Kuhrt: There is a.
+
+331
+00:51:04.320 --> 00:51:25.290
+Tracy Kuhrt: discrepancy between the the makeup that is being suggested and the stated goal of trying to reduce the size of the TC now, on the other hand, if we get to 20 graduated projects, I think that says something about this organization as a whole, and maybe at that point we.
+
+332
+00:51:26.520 --> 00:51:32.400
+Tracy Kuhrt: Talk about what we're going to do with the makeup of this group, and whether or not that's 20 years too much, but.
+
+333
+00:51:32.760 --> 00:51:45.000
+Tracy Kuhrt: yeah it's it's something for us to think about right each of these vehicles that we have there's ways that those stated goals are not going to be met with this particular proposal yeah.
+
+334
+00:51:46.290 --> 00:51:52.260
+Danno Ferrin: So one thing i've seen other projects do with this issue where you know if you're graduating project and maintaining your graduate status of it's too many.
+
+335
+00:51:52.770 --> 00:52:01.980
+Danno Ferrin: they'll say you know from the set a graduate of projects, we will select X number like four and it'll be between the graduated projects to decide which more groups get representation.
+
+336
+00:52:02.670 --> 00:52:11.610
+Danno Ferrin: Similarly, you know if we were to have premier Members get a seat, maybe they'd restricted to say so, no more than three premier member is the pro members will slap them on themselves.
+
+337
+00:52:12.420 --> 00:52:24.450
+Danno Ferrin: To do it because that's some of the things that i've seen in improving the structure of other projects how they've dealt with this oversized issue, I personally would love to have the problem with Tony graduated projects and I look forward to dealing with that, to be honest.
+
+338
+00:52:31.980 --> 00:52:37.050
+Angelo De Caro: To be are sold these layers that completely I live in Switzerland So here we have direct democracy.
+
+339
+00:52:37.560 --> 00:52:50.730
+Angelo De Caro: I mean, at this point at that point let's let's everybody vote for a set of people as as we are now I mean all these layers, then we have to choose subgroups of subgroups of subgroups several it gets very complicated but hey let's see.
+
+340
+00:52:55.500 --> 00:53:02.040
+Danno Ferrin: So one of the things I liked about the proposal initially um you know one argument is that you know it should be directly representative of the Members.
+
+341
+00:53:02.340 --> 00:53:09.540
+Danno Ferrin: But every year there's always a huge argument about you know what's Member who gets a vote, why don't I get about why is their contribution, more significant than mine.
+
+342
+00:53:10.050 --> 00:53:16.950
+Danno Ferrin: And that's that's not good for the Community, another issue is small growing projects my kitty close by other large projects.
+
+343
+00:53:17.370 --> 00:53:27.960
+Danno Ferrin: And you know, so we have unrepresented projects, who are you know the growing edge of what hyper ledger should be and because they don't have the five six years.
+
+344
+00:53:28.500 --> 00:53:34.020
+Danno Ferrin: of background and dlc industry that particular project might get crowded out of a very important government's process.
+
+345
+00:53:34.410 --> 00:53:45.600
+Danno Ferrin: So, while it is complex, while it does have many checks and balances, what I do like about this multi layered approach is it to make sure that projects get appropriate representation of what they're doing in this tack.
+
+346
+00:53:46.860 --> 00:53:48.360
+Danno Ferrin: it's not like you know.
+
+347
+00:53:49.740 --> 00:53:56.610
+Danno Ferrin: there's there's not a lot that has to be done a lot of the powers are ready to evolve, down to the projects, and this is mostly dealing with.
+
+348
+00:53:57.150 --> 00:54:03.240
+Danno Ferrin: Inner project and hyper ledger is a whole representation and for those types of votes, we need.
+
+349
+00:54:03.660 --> 00:54:10.710
+Danno Ferrin: representation from all aspects of the Community, not just representation from the largest parsons community, and I think that's where this particular structure can be made.
+
+350
+00:54:11.160 --> 00:54:27.090
+Danno Ferrin: To make sure that smaller projects that are critically important but don't necessarily have a bill Julian customers behind it can still have a standard process and represented and their views are addressed in the meetings, whereas right now I really don't think we have that.
+
+351
+00:54:32.730 --> 00:54:33.270
+Tracy Kuhrt: All right, thanks.
+
+352
+00:54:34.980 --> 00:54:43.650
+Angelo De Caro: No, but i'll do is i'll i'll do you decide which are the small projects that are critically relevant to decide what's what's criticality here, what does it mean critical.
+
+353
+00:54:44.160 --> 00:54:54.030
+Angelo De Caro: I mean it's You see, the more the more complexity you put in the system, the more you find you're going to legal aspects and the words of the main the exact meaning of a word.
+
+354
+00:54:54.360 --> 00:55:04.020
+Angelo De Caro: Not necessarily against what you said, to be honest, I made a lot of sense, but again words the meaning of the words very complex okay so.
+
+355
+00:55:06.090 --> 00:55:07.500
+Tracy Kuhrt: All right, so.
+
+356
+00:55:07.770 --> 00:55:20.010
+Tracy Kuhrt: I think you know in general and hearing is that we think that sounds like a good idea, but, as somebody so eloquently stated the devils in the details.
+
+357
+00:55:20.520 --> 00:55:38.010
+Tracy Kuhrt: And I think we need to get to the point where we are talking about those particular details, and so what I would like to discuss as as next steps is you each have a link to this slide deck it is open for comments so maybe take the take the time.
+
+358
+00:55:39.210 --> 00:55:42.030
+Tracy Kuhrt: In the upcoming week to add your comments to this.
+
+359
+00:55:43.080 --> 00:55:52.200
+Tracy Kuhrt: Think about the sorts of things that we need to expand on maybe as Nathan suggested go through, and think about the.
+
+360
+00:55:52.590 --> 00:56:01.950
+Tracy Kuhrt: Typical use cases that we deal with here in the technical Steering Committee and how changing the makeup of this group would.
+
+361
+00:56:02.430 --> 00:56:13.620
+Tracy Kuhrt: Impact those particular use cases, whether you think that's a good thing or bad thing you know what are the risks that we have in in this makeup of this group.
+
+362
+00:56:14.250 --> 00:56:27.030
+Tracy Kuhrt: And it really just you know start to start to write some of this stuff down so that other people can see it in the comments and react to that reflect on on the sorts of things that are.
+
+363
+00:56:28.290 --> 00:56:46.350
+Tracy Kuhrt: concerns important aspects of this proposal and then you know we can take in sort of side next week and I think again another hour for additional discussion on the details and trying to get to some place where we can.
+
+364
+00:56:47.400 --> 00:57:04.410
+Tracy Kuhrt: You know, put out some specifics around this particular proposal, be it specifics about if we have a reverse versus very numbers, what do each of those different groups do if we have a.
+
+365
+00:57:05.610 --> 00:57:22.380
+Tracy Kuhrt: You know, particular, this is the recommendation for how many people from you know premium Members, we want to include or, this is the recommendation for the total number of people from a single organization, who have a.
+
+366
+00:57:23.520 --> 00:57:24.720
+Tracy Kuhrt: seat at this.
+
+367
+00:57:25.890 --> 00:57:37.320
+Tracy Kuhrt: At this table that's the sort of thing that I think is important for us to get to that level of detail and so yeah, I guess, please take the time to do that this week.
+
+368
+00:57:38.850 --> 00:57:42.150
+Tracy Kuhrt: And then we'll continue this discussion next week.
+
+369
+00:57:43.650 --> 00:57:47.580
+Tracy Kuhrt: Any other final comments that anybody might have before we close to me.
+
+370
+00:57:54.240 --> 00:58:06.210
+Tracy Kuhrt: Know Okay, well, I appreciate the feedback in the comments, so far as submitting let's add some to the document and I look forward to continue this discussion next week.
+

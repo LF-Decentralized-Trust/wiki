@@ -1,0 +1,1590 @@
+WEBVTT
+
+1
+00:01:04.470 --> 00:01:10.350
+Tracy Kuhrt: hey welcome everyone to the April 20 hyper ledger technical steering committee call.
+
+2
+00:01:11.880 --> 00:01:25.260
+Tracy Kuhrt: As your own were two things we must abide by the first one is the antitrust policy medicine is currently being displayed on the screen and the second is our code of conduct, which is linked in the agenda.
+
+3
+00:01:26.490 --> 00:01:35.160
+Tracy Kuhrt: So the first announcement that we have today is the standard, one that we have hyper ledger Dev weekly developer newsletter goes out each Friday.
+
+4
+00:01:35.670 --> 00:01:50.280
+Tracy Kuhrt: If you have something that you would like to include in that please add a comment to the wiki page that's linked in the agenda, the second one is the hyper ledger global forum happening in September.
+
+5
+00:01:52.230 --> 00:01:56.400
+Tracy Kuhrt: The CFP closes tomorrow, so if you haven't yet got your.
+
+6
+00:01:57.540 --> 00:02:07.560
+Tracy Kuhrt: CFP submitted, please do so now, and if you hadn't noticed, there are also workshops that were added on the.
+
+7
+00:02:08.640 --> 00:02:12.480
+Tracy Kuhrt: I guess when things really Now this is September 12 through the 14th.
+
+8
+00:02:14.610 --> 00:02:24.180
+Tracy Kuhrt: So if you have a workshop that you'd like to present please consider adding that as a CFP as well, the other announcements that anybody has.
+
+9
+00:02:36.180 --> 00:02:59.220
+Tracy Kuhrt: Okay, so if there's no other announcements, the quarterly report fabric came in last week, I see that there was nine of 14 folks who have reviewed that so far, I did not see any comments that came in any any comments at this point about fabric that we should talk about yesterday meeting.
+
+10
+00:03:09.450 --> 00:03:18.510
+Tracy Kuhrt: Okay, so no and then also the talk you through port didn't come in already, it was the today, I think it came in yesterday or the day before.
+
+11
+00:03:20.460 --> 00:03:27.270
+Tracy Kuhrt: There have been a few people who have had an opportunity to review that, but if you haven't please do so this week.
+
+12
+00:03:28.530 --> 00:03:29.400
+Tracy Kuhrt: and
+
+13
+00:03:31.080 --> 00:03:32.790
+Tracy Kuhrt: that's all we have for the reports.
+
+14
+00:03:34.110 --> 00:03:35.790
+Tracy Kuhrt: So, as far as discussion.
+
+15
+00:03:36.990 --> 00:03:39.090
+Tracy Kuhrt: Daniel you created a.
+
+16
+00:03:40.950 --> 00:03:42.450
+Tracy Kuhrt: issue slash.
+
+17
+00:03:42.750 --> 00:03:44.340
+Tracy Kuhrt: npr for.
+
+18
+00:03:44.670 --> 00:03:46.590
+Tracy Kuhrt: Talking about what happens when.
+
+19
+00:03:47.610 --> 00:03:58.860
+Tracy Kuhrt: Products don't have a maintainer policy, what the default policy should look like, as well as what we should do if there is any activity in the.
+
+20
+00:03:59.970 --> 00:04:06.660
+Tracy Kuhrt: In any of the repository so did you want to walk us through kind of where we're at with this PR.
+
+21
+00:04:07.980 --> 00:04:12.060
+Danno Ferrin: Sure um so I phrases to generally an activity policy.
+
+22
+00:04:12.540 --> 00:04:15.900
+Danno Ferrin: And it addresses two aspects of an event activity at first.
+
+23
+00:04:16.410 --> 00:04:19.620
+Danno Ferrin: When a maintainer goes inactive and i'm going to repository goes inactive.
+
+24
+00:04:21.480 --> 00:04:37.440
+Danno Ferrin: So the proposal for maintainer activity policy is there is, you know the last line gives the out if a project has its own policy use their policy and, if they adopt ridiculous policy to probably push back on it, but haven't seen any ridiculous policies yeah.
+
+25
+00:04:38.850 --> 00:04:51.030
+Danno Ferrin: So the default policy if no one specifies mine and we probably need to figure out what this timeframe is is that if a maintainer hasn't contributed within 346 months they'll be retired from active active maintainer.
+
+26
+00:04:52.050 --> 00:04:56.640
+Danno Ferrin: And most projects have this day called an america's maintainer people he used to have committed privileges.
+
+27
+00:04:56.970 --> 00:05:02.280
+Danno Ferrin: But no longer have them, but they want to you know respect they're contributing role in the past, so it lets them as emeritus.
+
+28
+00:05:02.790 --> 00:05:09.690
+Danno Ferrin: And when you become emeritus you lose all your maintainer rights privileges responsibilities, accountability and all that that goes along with it.
+
+29
+00:05:10.230 --> 00:05:20.670
+Danno Ferrin: So as part of that will take you out of the realm and get hub groups, we would remove the ability to write code repository to have your reviews approve them just still participate.
+
+30
+00:05:21.600 --> 00:05:29.760
+Danno Ferrin: But what's what's being removed as you're right privileges and then we define you know, basically, that what we're going to track is what github can attribute to activity.
+
+31
+00:05:30.180 --> 00:05:34.980
+Danno Ferrin: And they can track a lot you do a comment on one issue and it marks, it is active.
+
+32
+00:05:35.700 --> 00:05:42.630
+Danno Ferrin: So to do nothing for six months, I think, or three months or four months or six months and i'm a person leaning towards six months but i'll let the tlc.
+
+33
+00:05:43.380 --> 00:05:54.600
+Danno Ferrin: will vote figured out and workshop it together, but if you haven't done anything as much as comment on an issue and six months you're probably far separated from the project so it's probably time for you to go.
+
+34
+00:05:56.280 --> 00:05:57.180
+Danno Ferrin: So there are.
+
+35
+00:05:58.230 --> 00:06:06.090
+Danno Ferrin: Some clauses for what happens if this sneaks up on you, because you're doing another project you'll be asked, with it, with a PR for a week you'll get an APP mention.
+
+36
+00:06:06.570 --> 00:06:17.670
+Danno Ferrin: And it'll say hey we're moving into emeritus and if you say totally forgot about this i'm going to contribute, you get one three month extension to continue contributing and maintain your privileges, and this is there to.
+
+37
+00:06:18.120 --> 00:06:32.250
+Danno Ferrin: be nice to people who get caught up another life issues or other work issues, so they can still you know it's it's the more than gentle nudge, then you need to contribute, or you know we're going to you know you're going to need to turn in your right privileges.
+
+38
+00:06:34.050 --> 00:06:41.280
+Danno Ferrin: And also one final clause that just because you're married just doesn't mean you can become maintainer again, but it would be through the same process.
+
+39
+00:06:42.360 --> 00:06:44.700
+Danno Ferrin: So that's a quick overview of maintainer policy.
+
+40
+00:06:45.840 --> 00:06:49.830
+Danno Ferrin: The repository and activity policy is the same, but different.
+
+41
+00:06:51.600 --> 00:06:54.960
+Danno Ferrin: And it's different for a couple of reasons, one the timeframe is 12 months.
+
+42
+00:06:56.010 --> 00:07:05.700
+Danno Ferrin: No releases in 12 months six months, but a continual rolling extension is something that might be needed, because there are projects out there who are basically.
+
+43
+00:07:07.560 --> 00:07:15.060
+Danno Ferrin: You know the frameworks and they almost never change, and if they don't have any dependencies there's no security risks there's no requirement for its need to be updated.
+
+44
+00:07:15.450 --> 00:07:28.260
+Danno Ferrin: So, as long as they keep every 12 months every six months, saying hey we're still alive, you know, I see no reason to force the role the way of the repository and how do we does it would be marking, it is archived on our github which can be done.
+
+45
+00:07:30.120 --> 00:07:39.930
+Danno Ferrin: But the goal here is to put some sort of a you know the garbage collection on repositories that got forgotten about or moved on from so they'll clutter up.
+
+46
+00:07:40.860 --> 00:07:48.510
+Danno Ferrin: New covers when they come in and say well let's look at all these basic repositories and I have no idea which repository works being done on what's relevant what isn't relevant.
+
+47
+00:07:48.840 --> 00:07:58.470
+Danno Ferrin: So we try and keep it fresh so that the repositories for project need to be vouched for or worked on every 12 or six months or whatever standard we we propose there.
+
+48
+00:07:58.950 --> 00:08:08.190
+Danno Ferrin: So those are the two aspects of inactivity and basically you know, to keep you know, keep keep keep things tidy and put some objective standards to it.
+
+49
+00:08:13.890 --> 00:08:14.700
+Danno Ferrin: Any comments.
+
+50
+00:08:17.760 --> 00:08:30.540
+Arnaud J Le Hors (IBM): So this is a question, more in regard to who makes the call when there is contention, for instance, so I mean, especially in the last part right in the repository activity.
+
+51
+00:08:33.210 --> 00:08:36.600
+Arnaud J Le Hors (IBM): It implies that somebody is going to make a judgment call right.
+
+52
+00:08:38.040 --> 00:08:38.970
+Danno Ferrin: Right so.
+
+53
+00:08:40.140 --> 00:08:49.950
+Danno Ferrin: What we've what i've seen so far is that you can run reports and you'd use the report from github and right now, if the hyper ledger staff has access to those commit logs to generate these reports.
+
+54
+00:08:50.520 --> 00:08:56.850
+Danno Ferrin: So it would either be at CSC responsibility or via hyper ledger staff responsibility, we should probably clarify that and as policy that's a good point.
+
+55
+00:08:56.880 --> 00:08:58.950
+Arnaud J Le Hors (IBM): that's my point things okay thanks.
+
+56
+00:09:07.380 --> 00:09:08.730
+Aruna S M: hey can you hear me know yeah.
+
+57
+00:09:11.310 --> 00:09:21.300
+Aruna S M: hey thanks for putting up this proposal so have potentially few questions and open areas that may still a gorgeous with this proposal right, for instance.
+
+58
+00:09:22.290 --> 00:09:32.310
+Aruna S M: I guess, I pointed out that in the proposal in a case of let's say some maintainer is maintaining multiple projects and not just one, so it is true for some of the projects that we have, for instance.
+
+59
+00:09:32.850 --> 00:09:39.270
+Aruna S M: I know transact sawtooth and great, for instance, right, so the maintainer site, the group is to the same.
+
+60
+00:09:40.380 --> 00:09:46.140
+Aruna S M: And I know they work on some of the projects when it is time for that project otherwise.
+
+61
+00:09:47.250 --> 00:10:02.100
+Aruna S M: For those for those repositories it's mostly untouched for a while, unless somebody else comes in and add some additional patches or it requires some maintenance activity to be done because of let's say the dependency, the alerts that comes in.
+
+62
+00:10:03.240 --> 00:10:11.100
+Aruna S M: So I know is mostly that there is no much contribution going on into those I don't think so we can specifically put that in a time.
+
+63
+00:10:11.400 --> 00:10:19.140
+Aruna S M: timeline in a sense, we cannot say it is can be done in three months or six months and that was my point as well, in a way.
+
+64
+00:10:19.860 --> 00:10:33.630
+Aruna S M: So, putting a time boundary for such topics is difficult, so probably there should be another clause, alongside the time boundary i'm not denying that time boundaries a bad idea, maybe we need additional.
+
+65
+00:10:34.860 --> 00:10:43.620
+Aruna S M: let's say option alongside diet, so that we could better measure it the intention or here so that's.
+
+66
+00:10:43.950 --> 00:10:48.660
+Danno Ferrin: One what standard, would it be invalid applied with repositories your meters.
+
+67
+00:10:50.160 --> 00:11:02.820
+Aruna S M: It wouldn't be both so the reason i'm saying that was about that was my second point about repositories so let's talk about some of the projects that do not get much updates for a longer period right, for instance.
+
+68
+00:11:04.320 --> 00:11:12.060
+Aruna S M: A project that is fairly stable artistically repositories which, unless we think of adding additional feature capabilities.
+
+69
+00:11:12.510 --> 00:11:19.770
+Aruna S M: or one of the dependency that SDK depends on itself has not gone bad I mean there is there are very less.
+
+70
+00:11:20.730 --> 00:11:31.380
+Aruna S M: instances where we would think of considering adding a new patch on deposit It could also go to let's say the consensus library implementations in some of the projects.
+
+71
+00:11:31.980 --> 00:11:45.840
+Aruna S M: So for these the updates may not happen, sometimes may not happen within three months frame or maybe we cannot time bound, we cannot put it in a time boundary so that's one of my equation, if we can address.
+
+72
+00:11:46.860 --> 00:11:54.870
+Danno Ferrin: So one of the things very limited repository there is no limit to extensions if every 12 months you say no really it's fine that it will be archived.
+
+73
+00:11:55.230 --> 00:11:59.220
+Danno Ferrin: And I think that addresses the issue of the judgment calls and what's a judgment call.
+
+74
+00:11:59.580 --> 00:12:08.850
+Danno Ferrin: And that's what this policy says every 12 months, so it needs to pass judgment on it from within the project saying yes, this is good, yes, this is being kept up to date, or you know it's time to clean it up.
+
+75
+00:12:09.540 --> 00:12:20.940
+Danno Ferrin: i'm versus the maintainer which is kind of a forest outing because there are security risks but there's also a security risk clause repository that if your security vulnerabilities are piling up.
+
+76
+00:12:21.870 --> 00:12:29.460
+Danno Ferrin: Then it needs to be close there's there is judgment calls and that timeframe if we keep it like 12 months we don't have to do it as often.
+
+77
+00:12:32.910 --> 00:12:35.370
+Danno Ferrin: And I see a room for this hand down.
+
+78
+00:12:36.870 --> 00:12:38.190
+Danno Ferrin: Peter oh.
+
+79
+00:12:38.520 --> 00:12:47.130
+Aruna S M: I mean if we can have an alternate to time, I think I like the timeframe object three months, but in addition to that, if we can have something else which say.
+
+80
+00:12:47.670 --> 00:12:55.380
+Aruna S M: If there was no update tonight all for the project, then we cannot expect you to contribute something so time doesn't really count in such cases right so.
+
+81
+00:12:55.950 --> 00:12:56.970
+Danno Ferrin: Maybe, can you write.
+
+82
+00:12:57.420 --> 00:13:00.000
+Danno Ferrin: Can you write a proposal for what that might be inputted into vr.
+
+83
+00:13:01.770 --> 00:13:05.310
+Aruna S M: I mean sure if we can discuss and i'm happy to put it down.
+
+84
+00:13:05.370 --> 00:13:08.940
+Danno Ferrin: As a community, we need a specific counterproposal just you know it should be something different.
+
+85
+00:13:09.540 --> 00:13:14.940
+Danno Ferrin: doesn't move this forward so a specific proposal with the best.
+
+86
+00:13:18.120 --> 00:13:18.600
+Danno Ferrin: Peter.
+
+87
+00:13:21.810 --> 00:13:32.490
+Peter Somogyvari: that's I just want to say I like to timelines I also agree that the longer ones should be paid so for maintain or activities or freeman side also go with six limbs.
+
+88
+00:13:33.750 --> 00:13:37.230
+Peter Somogyvari: And, just a quick idea.
+
+89
+00:13:38.520 --> 00:13:50.460
+Peter Somogyvari: would be specific on that renewal or extension for projects there there's just happens to be a legitimate need for them to be the way that would actually trigger the rules.
+
+90
+00:13:51.540 --> 00:13:53.730
+Peter Somogyvari: So could be, or should we add.
+
+91
+00:13:55.080 --> 00:13:58.650
+Peter Somogyvari: Questions for this on the quarterly report so that it's.
+
+92
+00:14:00.000 --> 00:14:09.390
+Peter Somogyvari: sort of an automatic thing that we notice instead of instead of it going the way there we noticed that they haven't.
+
+93
+00:14:09.840 --> 00:14:23.670
+Peter Somogyvari: contributed anything, and then we tried to archive the project, and then they say oh it's it's all because of this, and this, and this so should we go ahead of that and, should they be able to just say this somehow on the quarterly reports proactively.
+
+94
+00:14:25.500 --> 00:14:30.810
+Danno Ferrin: Last also applied to um labs as well and I don't know the lads have quarterly reports.
+
+95
+00:14:32.490 --> 00:14:35.100
+Peter Somogyvari: Okay yeah it's true here.
+
+96
+00:14:39.150 --> 00:14:45.120
+Peter Somogyvari: Okay well that's all I had better than that I really liked the proposal every chunks of it, so thank you good.
+
+97
+00:14:45.900 --> 00:14:46.860
+Danno Ferrin: cool Nathan.
+
+98
+00:14:49.050 --> 00:15:04.980
+Nathan George: um first I say I agree with Peter on the longer time frames are typically better because you know it's easy for things to get we I think the administrative burden of trying to do things on a more continuous cycle can be quite high and.
+
+99
+00:15:06.120 --> 00:15:12.750
+Nathan George: I would also say that I like the idea of bundling the question of what repositories are active or not active in with other questions where we can.
+
+100
+00:15:13.380 --> 00:15:17.490
+Nathan George: The idea of once a year, somebody from the staff says how's your project doing.
+
+101
+00:15:18.180 --> 00:15:25.590
+Nathan George: How can we help you and, by the way, which of these repositories me retired feels a lot better than kind of a random email showing up that says.
+
+102
+00:15:25.890 --> 00:15:36.690
+Nathan George: You better do something or this is going to go away because at least a lot of the projects i've worked on it's easy for those emails to get lost in the shuffle, especially when there's a lot of other things going on at the same time.
+
+103
+00:15:37.920 --> 00:15:48.000
+Nathan George: And I also like the idea of maybe having the ability to have some sort of like standing orders in a repository for example, if a component if a system is broken down into multiple github repositories.
+
+104
+00:15:49.830 --> 00:16:00.960
+Nathan George: Looking at the activity and aggregate is sometimes better than looking at any one individual repo because one of the repositories might just be glue that hooks everything else together and it might not need to be changed, and I think.
+
+105
+00:16:01.380 --> 00:16:12.840
+Nathan George: This idea of you know well, asking it 12 months covers that pretty well I don't know that we need to do anything more than that, but I think it would be good to clear space for someone like right to be able to say.
+
+106
+00:16:13.740 --> 00:16:28.170
+Nathan George: Put a note in the in the in the maintainer file or put a note somewhere that says what the what the decision of the maintainer is on this one that way I don't have to bother asking more often something like that might make it easier to do the work.
+
+107
+00:16:30.000 --> 00:16:32.070
+Nathan George: And then the last thing I was gonna say is.
+
+108
+00:16:33.180 --> 00:16:35.010
+Nathan George: From a PR and a.
+
+109
+00:16:36.840 --> 00:16:48.630
+Nathan George: Talking about the project standpoint I like calling emeritus made hairs made gainers and I think, for the most part, with our projects america's containers of folks we'd love to recruit back, we have had.
+
+110
+00:16:49.380 --> 00:16:59.010
+Nathan George: Very many folks who you know we'd rather they never came back, I think, for the most part, those narratives maintains, we like to say if they were to show up and start contributing, we would.
+
+111
+00:16:59.610 --> 00:17:03.990
+Nathan George: put them back in really quickly, and I think that the text of this covers that quite well.
+
+112
+00:17:04.800 --> 00:17:09.390
+Nathan George: I think the only other note there is sometimes there's someone that's been doing a lot of work with a project.
+
+113
+00:17:09.690 --> 00:17:19.530
+Nathan George: Who I would treat as an emeritus maintainer, even though they never went through the maintainer ship cycle, sometimes it's because they were someone who did a lot of code contribution before it became a hyper ledger project.
+
+114
+00:17:19.830 --> 00:17:29.010
+Nathan George: or sometimes it's someone who's done a lot of contribution to the project outside of its code, for instance, someone who's worked with the education and documentation group and done a lot of.
+
+115
+00:17:29.880 --> 00:17:43.980
+Nathan George: advancement of the project, without necessarily contributing to the source code repository directly, is it okay if we just treat those folks as emeritus maintainer is as well, my feeling is is it is but it's kind of How does that each party will probably deal with that.
+
+116
+00:17:45.270 --> 00:17:52.110
+Danno Ferrin: That planned out project should have its own standard on that and that opens up another can of worms do we need a standardized the.
+
+117
+00:17:52.770 --> 00:18:02.910
+Danno Ferrin: maintainer lifecycle i'm way too deep for today's discussion, and I think we would need to see if something's not working, needs to be standardized before we go down that path, but yeah i'll good points.
+
+118
+00:18:06.150 --> 00:18:07.590
+Danno Ferrin: i'm Tracy.
+
+119
+00:18:09.240 --> 00:18:10.140
+Tracy Kuhrt: yeah so.
+
+120
+00:18:11.220 --> 00:18:21.360
+Tracy Kuhrt: I think it's important to note that this is a default policy of the projects haven't defined their own policies, so the policy, this policy could be overwritten if a.
+
+121
+00:18:22.170 --> 00:18:35.760
+Tracy Kuhrt: Project actually writes their own policy so some of the concerns that people have about this project is somewhat special and so therefore might want to have their main care hang out longer.
+
+122
+00:18:37.050 --> 00:18:46.080
+Tracy Kuhrt: You know, then, otherwise I think could be taken care of by just overriding the default policy that is being proposed here.
+
+123
+00:18:47.340 --> 00:18:58.500
+Tracy Kuhrt: I also because of that would suggest that three months is the appropriate time, because otherwise you're looking at nine months that somebody could possibly do nothing, be considered a maintainer on a project.
+
+124
+00:18:59.310 --> 00:19:03.570
+Tracy Kuhrt: Instead of three months, plus an additional three months for the total of six months.
+
+125
+00:19:04.410 --> 00:19:13.380
+Tracy Kuhrt: So I will be the one who said that you know, everybody else is going towards six months is the way that we should go for that, but I would suggest three months as the default policy.
+
+126
+00:19:13.860 --> 00:19:28.740
+Tracy Kuhrt: And if you don't like that you can override the policy, because I think in general, we would want people to write their own policies, not use the default one, because I think each community in each project is going to be different in the way that they want to handle things.
+
+127
+00:19:30.690 --> 00:19:32.610
+Tracy Kuhrt: And I would say that.
+
+128
+00:19:34.860 --> 00:19:46.830
+Tracy Kuhrt: If people are not responding to the PR that their repositories going to go inactive they're probably looking at that repository appears and issues in what repository so.
+
+129
+00:19:47.880 --> 00:20:03.030
+Tracy Kuhrt: i'm perfectly fine with saying like why one make this more difficult let's just make a PR if people don't respond then after you know I, personally, I think we should put in if they don't respond after a week, then it gets.
+
+130
+00:20:04.860 --> 00:20:14.550
+Tracy Kuhrt: It gets resolved that PR gets merged so Those are the points that I make on this particular conversation.
+
+131
+00:20:24.690 --> 00:20:30.420
+Kamlesh Nagware: I think, other than the timeline we should have another parameter like.
+
+132
+00:20:31.710 --> 00:20:37.500
+Kamlesh Nagware: How much the particular repository being used number of downloads be blown or four because.
+
+133
+00:20:39.540 --> 00:20:40.440
+Kamlesh Nagware: Because I can.
+
+134
+00:20:41.640 --> 00:20:46.050
+Kamlesh Nagware: Remember, like yesterday, looking at one of the hyper ledger project, and I see is archived.
+
+135
+00:20:47.070 --> 00:20:56.010
+Kamlesh Nagware: So maybe in terms of the user can kind of low confidence, whether I should use this repository for my projects or because archived is up to date or not.
+
+136
+00:20:57.030 --> 00:20:57.450
+Kamlesh Nagware: So.
+
+137
+00:20:58.530 --> 00:21:04.530
+Kamlesh Nagware: It kind of maybe changing the status of our communities, we can consider the other parameters like what are mentioning.
+
+138
+00:21:08.340 --> 00:21:19.710
+Danno Ferrin: um one of the things about archive is it's an indicator that this projects, not being maintained so whatever state, we would go to we want to make sure that it carries that same weight of you're using a maintain code.
+
+139
+00:21:22.290 --> 00:21:25.770
+Danno Ferrin: So I don't know how best to communicate that and get have other than archiving me.
+
+140
+00:21:30.750 --> 00:21:31.110
+Danno Ferrin: Okay.
+
+141
+00:21:35.760 --> 00:21:43.260
+Arnaud J Le Hors (IBM): yeah I totally agree with what you just said and, in fact, my comment is is somewhat related to this, which is it all.
+
+142
+00:21:43.620 --> 00:22:00.300
+Arnaud J Le Hors (IBM): And i've heard several people we all kind of seem to naturally want to give people more time, rather than less, but there's a downside to doing this, which is what we communicate to the to the to the world to the Community out there.
+
+143
+00:22:01.410 --> 00:22:13.080
+Arnaud J Le Hors (IBM): It what we shouldn't do is just because we're trying to be nice and give people plenty of time is, in fact, let projects be inactive and.
+
+144
+00:22:13.530 --> 00:22:19.650
+Arnaud J Le Hors (IBM): The Community not being aware that this project is actually not really being maintained for the developed and so on.
+
+145
+00:22:20.220 --> 00:22:31.860
+Arnaud J Le Hors (IBM): And people will come, they will start using it, they will ask questions, maybe somebody even PRS and those things don't get even processed, because there is actually nobody.
+
+146
+00:22:32.340 --> 00:22:43.890
+Arnaud J Le Hors (IBM): Nobody in there that's actually working on the project, and so I think we need to balance this you know with the this idea that well it doesn't hurt you know we can let them be.
+
+147
+00:22:46.710 --> 00:22:47.040
+Danno Ferrin: yeah.
+
+148
+00:22:55.020 --> 00:22:55.530
+Danno Ferrin: Nathan.
+
+149
+00:22:57.240 --> 00:23:09.330
+Nathan George: And to add to that, how do we communicate that in a really constructive way because um you know I don't i'm a little worried that our repository policy might conflict.
+
+150
+00:23:09.780 --> 00:23:23.220
+Nathan George: or force our hand in an uncomfortable way on the project lifecycle policy mean if we have something like an add on tool to a blockchain that's really much less active and maybe rightly so.
+
+151
+00:23:24.540 --> 00:23:40.170
+Nathan George: I, it would be really hard if the if the maintainer and repository in activity policy forces all the Code into archive when we haven't finished the life cycle of the project or finished doing the retirement of the project itself so.
+
+152
+00:23:41.190 --> 00:23:57.660
+Nathan George: I I think I like the idea of forcing the issue, because it can kick some of the maybe users have a repository to to take action and participate and pull requests and making sure the security fixes are being done.
+
+153
+00:23:59.340 --> 00:24:07.440
+Nathan George: I just it seems like there may be a gap there that we have to address if one of these projects actually goes into severe activity.
+
+154
+00:24:09.900 --> 00:24:18.450
+Danno Ferrin: Then I agree there's other metrics which are looking at like you know your your tendencies are the dependencies up to date, using upstate versions that don't have active CDs against them.
+
+155
+00:24:19.020 --> 00:24:26.790
+Danno Ferrin: And i'm wondering if that might be a better indicator that it's time are capable project than just the timeframe, because they have no dependencies and it is one thing really well like say.
+
+156
+00:24:27.270 --> 00:24:38.940
+Danno Ferrin: calculate check cash, you know that one can sit up and forever without any modification, because you know how often are security issues posted against hashing algorithm happens, but it's really rare.
+
+157
+00:24:39.720 --> 00:24:46.950
+Danno Ferrin: um so my quick thought of this policy on I don't think it's ready to promote today i'm going to split this into two separate cars.
+
+158
+00:24:47.730 --> 00:24:56.520
+Danno Ferrin: Because I think the issues of containers and repositories are quite or diagonal and how we judge repositories and i'm going to work on the maintainer one first and try and.
+
+159
+00:24:57.870 --> 00:25:16.500
+Danno Ferrin: move this forward again next week for some iteration one open question, though, is that I think we need to get a better feedback on sooner or later, is whether this should be a hyperlink foundation staff issue for the maintainer default policy, or is it a tlc default issue um.
+
+160
+00:25:17.700 --> 00:25:21.090
+Danno Ferrin: If the staff could give an opinion on what they think it should be.
+
+161
+00:25:22.110 --> 00:25:23.700
+Ry Jones: hi i'm staff.
+
+162
+00:25:24.300 --> 00:25:24.990
+Danno Ferrin: My staff.
+
+163
+00:25:25.710 --> 00:25:27.720
+Ry Jones: All right, hi I.
+
+164
+00:25:28.260 --> 00:25:29.580
+Danno Ferrin: may not always be you but.
+
+165
+00:25:30.060 --> 00:25:30.480
+yeah.
+
+166
+00:25:31.590 --> 00:25:32.340
+Ry Jones: i'm.
+
+167
+00:25:35.010 --> 00:25:42.780
+Ry Jones: I think that the data can come from staff because i'm just for full transparency, I get this data from the audit log.
+
+168
+00:25:44.640 --> 00:25:49.980
+Ry Jones: So I don't want to you know give broad ability to read the audit log.
+
+169
+00:25:52.200 --> 00:26:00.450
+Ry Jones: So I think it's fine if the data comes from staff, if the data is in provided to tlc members or.
+
+170
+00:26:01.680 --> 00:26:12.510
+Ry Jones: Specific tlc Members to make these decisions that's fine, but I think getting the data for the near future is going to start to remain staff activity.
+
+171
+00:26:14.940 --> 00:26:15.270
+Danno Ferrin: Okay.
+
+172
+00:26:17.820 --> 00:26:23.520
+Danno Ferrin: cool i'll revise this for next week um I think it's a day so think about would be the one have a.
+
+173
+00:26:24.090 --> 00:26:34.230
+Danno Ferrin: formal vote on the duration and then i'll update the stuff on the report so i'll get this ready for next week and then we'll iterate on repository i'll post which PR good post that to.
+
+174
+00:26:35.130 --> 00:26:45.990
+Danno Ferrin: After I get the staff stuff fixed and if people could chime in thread, yes, because it's it's a much deeper well, I think that the maintainer policies, mostly because we don't have a default positivity and activity policy.
+
+175
+00:26:48.600 --> 00:26:50.910
+Ry Jones: So I did say in chat.
+
+176
+00:26:52.140 --> 00:26:52.350
+Ry Jones: I.
+
+177
+00:26:52.380 --> 00:26:55.140
+Ry Jones: was looking into well I said it.
+
+178
+00:26:55.560 --> 00:26:57.360
+Ry Jones: In the tlc channel on discord.
+
+179
+00:26:59.160 --> 00:27:13.080
+Ry Jones: I looked into it and Cooper nettie is is much different it's not as much different project, but it is much harder to become a maintainer to get a commit bit in a coupon a project.
+
+180
+00:27:16.110 --> 00:27:17.880
+Ry Jones: And it's much harder to lose your commitment.
+
+181
+00:27:19.440 --> 00:27:29.670
+Ry Jones: I think if we transitioned over a longer timeline to something like Cooper daddy's policy, about what it takes to get a commitment, because right now they're free.
+
+182
+00:27:32.250 --> 00:27:35.520
+Ry Jones: Then we could look into something like they're much longer 18 month.
+
+183
+00:27:36.630 --> 00:27:38.910
+Ry Jones: timeline so that's just food for thought.
+
+184
+00:27:40.080 --> 00:27:42.450
+Danno Ferrin: I agree, the standards for onboarding should be.
+
+185
+00:27:42.960 --> 00:27:53.640
+Danno Ferrin: About as extensive as the standards for off boarding to the commit that, so it should be reflective and equal equal things if it takes a lot to get it to take a lot to take it away.
+
+186
+00:27:56.910 --> 00:28:00.270
+Danno Ferrin: That Cooper daddy's is a very special beasts for sure.
+
+187
+00:28:01.650 --> 00:28:05.130
+Danno Ferrin: 18 months is a long time, but it's probably going to take you two years to get that commitment.
+
+188
+00:28:08.850 --> 00:28:14.310
+Danno Ferrin: Okay um I think that closes this discussion so not gonna ask remote from us today it's not really.
+
+189
+00:28:16.620 --> 00:28:17.820
+Tracy Kuhrt: Alright, thanks for now.
+
+190
+00:28:17.940 --> 00:28:21.750
+Tracy Kuhrt: um any other PC business before we move on to.
+
+191
+00:28:21.750 --> 00:28:22.920
+Tracy Kuhrt: The task force discussion.
+
+192
+00:28:28.560 --> 00:28:35.190
+Tracy Kuhrt: Maybe just to point out that David did put an email out to the tasc list if you haven't read it yet.
+
+193
+00:28:36.570 --> 00:28:42.180
+Tracy Kuhrt: about some additional policies that you'd like to have us reviewing and we're on.
+
+194
+00:28:43.590 --> 00:28:46.110
+Tracy Kuhrt: You know, take a look at that this week a route.
+
+195
+00:28:48.120 --> 00:28:56.580
+Aruna S M: Right thanks for I see so quickly wanted to bring out the point that are not bring both brought out and now called integrated hospitals as Friday.
+
+196
+00:28:57.450 --> 00:29:07.230
+Aruna S M: it's it's mainly regarding the agenda for for the task force and putting it putting when making sure that we are proceeding towards that agenda right.
+
+197
+00:29:08.070 --> 00:29:15.600
+Aruna S M: I know in with specifically with integrity Task Force, we started with something in mind, and then it went all over places and.
+
+198
+00:29:16.440 --> 00:29:32.730
+Aruna S M: probably think tanks are not remaining right in last week's call, we will focus purely on the first open question that came up and then further proposing it to the tasc in the coming weeks, probably i'll put up a proposal on that.
+
+199
+00:29:34.440 --> 00:29:45.480
+Aruna S M: But yeah that was one of the topics that we will diversify the efforts that we are putting in order and probably there might be a new working group proposal out of that discussion.
+
+200
+00:29:46.500 --> 00:29:48.600
+Aruna S M: So just wanted to give a quick heads up on that.
+
+201
+00:29:51.030 --> 00:29:52.560
+Tracy Kuhrt: And you're working group or New Testament.
+
+202
+00:29:54.900 --> 00:30:00.330
+Aruna S M: Given, given the weights going on right now, which would be a new working group proposal.
+
+203
+00:30:02.610 --> 00:30:03.960
+Tracy Kuhrt: Do we still have working groups.
+
+204
+00:30:05.280 --> 00:30:08.520
+Arnaud J Le Hors (IBM): Yes, we do they're not very active, but they.
+
+205
+00:30:08.700 --> 00:30:19.470
+Tracy Kuhrt: really do we still do we still except working with a we decided, where the group's new working groups are not going to be formed and adjusting working groups could stay, but you wouldn't.
+
+206
+00:30:22.560 --> 00:30:24.390
+Arnaud J Le Hors (IBM): I don't remember the decision.
+
+207
+00:30:24.930 --> 00:30:27.150
+Tracy Kuhrt: yeah i'm gonna have to go back and take a look at that.
+
+208
+00:30:28.260 --> 00:30:30.060
+Arnaud J Le Hors (IBM): You might be right i'm sorry.
+
+209
+00:30:32.850 --> 00:30:37.800
+Tracy Kuhrt: I can't remember if that's what we actually decided that was it just part of the discussion.
+
+210
+00:30:38.580 --> 00:30:47.400
+Arnaud J Le Hors (IBM): wasn't what we did decide riley's we we remove the timeframe limit on working groups and turn them and the the the.
+
+211
+00:30:48.270 --> 00:31:03.990
+Arnaud J Le Hors (IBM): The the expectation that they would deliver some some product like a documentation and instead we said for things that have very specific deliverable it will be task forces, but the working groups can remain for discussions and so.
+
+212
+00:31:05.490 --> 00:31:17.190
+Arnaud J Le Hors (IBM): I think you know the with our nice talking about is basically we started from the this idea of you know I brought up that openness SF issued the published.
+
+213
+00:31:17.910 --> 00:31:19.380
+Arnaud J Le Hors (IBM): guidelines on how to.
+
+214
+00:31:19.440 --> 00:31:31.920
+Arnaud J Le Hors (IBM): deal with disclosure never did never disclosures and I said we should look into what it means for us and the discussion, as I was talking about is you know kind of leaned into.
+
+215
+00:31:32.880 --> 00:31:44.430
+Arnaud J Le Hors (IBM): All sorts of like security related issues, you know into blockchain technology, and so we thought Okay, this is a broader topic that you know, probably deserves a working group.
+
+216
+00:31:45.960 --> 00:31:46.440
+Tracy Kuhrt: So it's.
+
+217
+00:31:46.500 --> 00:31:50.880
+Tracy Kuhrt: it's more discussion based than what we're thinking okay.
+
+218
+00:31:51.240 --> 00:31:51.480
+yeah.
+
+219
+00:31:52.710 --> 00:31:53.040
+Tracy Kuhrt: Okay.
+
+220
+00:31:54.090 --> 00:32:02.700
+Tracy Kuhrt: yeah cuz I remember at some point we had talked about like technical interest groups right replacing the working groups I know we didn't go there, but.
+
+221
+00:32:03.600 --> 00:32:17.280
+Tracy Kuhrt: yeah okay um yeah, let us know where it goes, and I will also see if I can round up the discussion that we had about working groups in general, so that I can at least respond back there my own question.
+
+222
+00:32:17.820 --> 00:32:22.200
+Arnaud J Le Hors (IBM): yeah I mean we could possibly create a different Task Force, but I think the.
+
+223
+00:32:22.200 --> 00:32:34.170
+Arnaud J Le Hors (IBM): problem is that you know the timeline is quite extensive here we don't really know how long it would take to cover the topic so that's why I thought working group was more suitable but.
+
+224
+00:32:36.210 --> 00:32:37.320
+Tracy Kuhrt: Alright sounds good.
+
+225
+00:32:39.780 --> 00:32:42.270
+Tracy Kuhrt: Anything else that anybody wants to bring up.
+
+226
+00:32:47.460 --> 00:32:47.670
+Tracy Kuhrt: Now.
+
+227
+00:32:47.880 --> 00:32:48.180
+Okay.
+
+228
+00:32:49.410 --> 00:33:08.400
+Tracy Kuhrt: So yeah last time we talked about the project came with his website revamp we had a couple action items, one that Jim took for us, which was the functional grouping proposal that he's come back with and just wanted to discuss it here with the the task force.
+
+229
+00:33:11.190 --> 00:33:22.530
+Tracy Kuhrt: focused right, so people who might not have had a chance to look at this or respond to this, these were the kind of tags that were specified on the website in.
+
+230
+00:33:23.640 --> 00:33:26.460
+Tracy Kuhrt: These were the suggested tags or no.
+
+231
+00:33:28.680 --> 00:33:32.670
+Arnaud J Le Hors (IBM): Well, I wanted to stop to come and take so I don't know if you're done with the intro.
+
+232
+00:33:32.700 --> 00:33:42.330
+Tracy Kuhrt: No, no, I think I think yeah i'm looking for feedback and thoughts on the proposal and if there's anything that we should add, so I think we are ready for comments.
+
+233
+00:33:43.140 --> 00:33:52.140
+Arnaud J Le Hors (IBM): Okay, so first I noticed there's two lines deployment automation one with bevel The other was cello I think those should be merged, no.
+
+234
+00:33:52.680 --> 00:33:53.580
+Tracy Kuhrt: Yes, yes.
+
+235
+00:33:53.790 --> 00:33:54.180
+Good point.
+
+236
+00:33:55.980 --> 00:34:05.850
+Arnaud J Le Hors (IBM): And then the other question I had was with the the the firefly being listed the long cactus in interoperability surprised me.
+
+237
+00:34:06.300 --> 00:34:20.760
+Arnaud J Le Hors (IBM): Because I remember I haven't looked in firefly alone, maybe I don't know how it has evolved, but I remember you know quite specifically, I had asked about that aspect, when the firefly proposal came up and.
+
+238
+00:34:21.420 --> 00:34:33.090
+Arnaud J Le Hors (IBM): My understanding was that firefly It provides more like a portability feature which is that you can write your application, independent of the blockchain framework being used in today's.
+
+239
+00:34:33.420 --> 00:34:40.290
+Arnaud J Le Hors (IBM): But essentially when you run an instance of five like you choose which underlying technology you use.
+
+240
+00:34:40.710 --> 00:34:59.100
+Arnaud J Le Hors (IBM): And you can't quite change as dynamically or connect it doesn't allow you to connect different types of networks together, which is what cactus does so, I mean jimmy's here, maybe it'll you know it'll set me straight I don't know it, I was very surprised by that so.
+
+241
+00:34:59.160 --> 00:35:01.950
+Tracy Kuhrt: yeah and I remember Jim Ulan.
+
+242
+00:35:05.160 --> 00:35:05.580
+Jim Zhang: Angela.
+
+243
+00:35:06.690 --> 00:35:07.020
+Tracy Kuhrt: Right.
+
+244
+00:35:07.380 --> 00:35:13.770
+Jim Zhang: yeah Angela who brought it up earlier, maybe I can clarify a little bit I think it's.
+
+245
+00:35:14.820 --> 00:35:34.770
+Jim Zhang: it'd be great if Peter can comment on this as well, one of the options to do in Iraq is in fact just through a centralized component that coordinates events and transactions across the chains that listening to events for request on one chain and then submit a.
+
+246
+00:35:36.270 --> 00:35:49.170
+Jim Zhang: transaction from another, and vice versa, and that's exactly what firefight does, which is a component that you deployment control that can be connected to multiple.
+
+247
+00:35:51.000 --> 00:35:53.250
+Jim Zhang: Multiple underlying blockchains.
+
+248
+00:35:55.170 --> 00:36:16.380
+Jim Zhang: We we have most of the demos, you see it's only talking to one block chain but under the cover it can do multiple blockchains so more and more for flight will be used in that mode so naturally becomes sort of a centralized way to do interval.
+
+249
+00:36:17.880 --> 00:36:35.550
+Jim Zhang: And there, there are decentralized way and trustworthy as components to do interrupt but going through a centralized component to coordinate across different change that's a pretty legitimate way to doing to rob.
+
+250
+00:36:37.230 --> 00:36:39.900
+Jim Zhang: Ls unless that's not what.
+
+251
+00:36:41.700 --> 00:36:44.190
+Jim Zhang: Other people's think interrupt is.
+
+252
+00:36:44.610 --> 00:36:47.040
+Jim Zhang: So would love yeah so on Peters.
+
+253
+00:36:48.450 --> 00:37:01.050
+Arnaud J Le Hors (IBM): That, I think you just touched on the right question is, you know what do we want the word interrupt to be used for right, I mean what you're describing to me is not really interoperability, but maybe i'm wrong and.
+
+254
+00:37:01.920 --> 00:37:11.610
+Arnaud J Le Hors (IBM): I the this doesn't fit my expectation, I mean, because what you're talking about this kind of centralized interoperability, I mean any application can do that.
+
+255
+00:37:12.030 --> 00:37:12.630
+Yes.
+
+256
+00:37:14.010 --> 00:37:26.790
+Jim Zhang: except when you do that, you have to write a whole bunch of stuff that talks to those different chains and firefly because firefly makes that very easy, it makes it a pretty.
+
+257
+00:37:28.440 --> 00:37:31.260
+Jim Zhang: pretty good choice to do that kind of thing.
+
+258
+00:37:37.170 --> 00:37:42.300
+Arnaud J Le Hors (IBM): Okay, I think this is overloading the term in a way that you know kind of.
+
+259
+00:37:44.910 --> 00:37:47.400
+Arnaud J Le Hors (IBM): With me, but I understand your point of view.
+
+260
+00:37:49.290 --> 00:37:51.480
+Jim Zhang: Honestly, the the main.
+
+261
+00:37:53.910 --> 00:37:56.880
+Jim Zhang: The main message around fireflies connectivity.
+
+262
+00:37:58.080 --> 00:38:06.690
+Jim Zhang: But it happens to fulfill a interrupt requirement, but if we think that concerns confuse people.
+
+263
+00:38:08.520 --> 00:38:12.930
+Jim Zhang: Honestly, I not, but it seems to be more than one.
+
+264
+00:38:15.000 --> 00:38:23.010
+Jim Zhang: People that's expressed concerns with this love to hear other people's yeah not around this.
+
+265
+00:38:33.090 --> 00:38:40.890
+Peter Somogyvari: Maybe we could add another category called integration, which would be.
+
+266
+00:38:41.970 --> 00:38:52.980
+Peter Somogyvari: To me, at least that we're implies more of the basic mechanical feature that lets just described and then interoperability would mean.
+
+267
+00:38:54.930 --> 00:38:59.850
+Peter Somogyvari: You know the broader scope and what are we would expect it to be.
+
+268
+00:39:00.990 --> 00:39:02.880
+Peter Somogyvari: And then that way.
+
+269
+00:39:04.020 --> 00:39:06.360
+Peter Somogyvari: People will still understand that.
+
+270
+00:39:07.950 --> 00:39:26.610
+Peter Somogyvari: it's a Jason but then there's different levels it's like a scale so interoperability would mean you know all the things that you're expecting from cross chain aspect transactions being the the pinnacle of it as my personal opinion.
+
+271
+00:39:27.990 --> 00:39:29.910
+Peter Somogyvari: And then integration would just mean.
+
+272
+00:39:30.930 --> 00:39:45.150
+Peter Somogyvari: Things like data sharing through events event subscriptions or data copying things there it's fairly mechanical and you know as our know said well.
+
+273
+00:39:45.810 --> 00:39:57.270
+Peter Somogyvari: it's pretty easy for any application to do this, but still there are tools out there, that will make it much easier and they deserve a category that we could call integration, just an idea.
+
+274
+00:39:57.870 --> 00:39:58.170
+yeah.
+
+275
+00:39:59.730 --> 00:40:06.990
+Dave Enyeart: That makes sense to me, maybe we call it conductivity slash integration gateway and lump those together there.
+
+276
+00:40:12.000 --> 00:40:12.360
+Peter Somogyvari: yeah.
+
+277
+00:40:15.720 --> 00:40:16.860
+Jim Zhang: yeah maybe a for.
+
+278
+00:40:18.270 --> 00:40:22.320
+Jim Zhang: Do we want to clarify cross check into rob as.
+
+279
+00:40:24.750 --> 00:40:32.550
+Jim Zhang: being focused on trust list models only to me interrupt covers all of them, if you look at.
+
+280
+00:40:34.710 --> 00:40:46.170
+Jim Zhang: technologies in the in the open POs bridge for example pod network, the bridge they're using, which is a pretty popular token bridges right that.
+
+281
+00:40:47.370 --> 00:40:51.030
+Jim Zhang: hooks up easier in with with other with other change.
+
+282
+00:40:52.170 --> 00:41:03.690
+Jim Zhang: The component that uses that exactly the kind that firefly has and it's an interrupt component, but it's a trusted implementation.
+
+283
+00:41:05.010 --> 00:41:28.140
+Jim Zhang: Does the characters Community want to focus on trust lists only implementations which I know you know, the current cactus code base with why you I Weaver all tend to focus on, and I think that'll clarify a lot of things you know just.
+
+284
+00:41:29.640 --> 00:41:48.150
+Jim Zhang: just focus on on chain verification of states in another chain and don't rely on any trusted centralized component anywhere, this will just this will clarify things and not cause these kind of confusions.
+
+285
+00:41:50.430 --> 00:41:51.390
+With that we're all.
+
+286
+00:41:52.650 --> 00:42:08.400
+Peter Somogyvari: For cactus i'd say, the answer is that we wanted to off so not just trust us but also trusted and then different levels of trust in all the the full spectrum of it that as much flexibility as possible.
+
+287
+00:42:10.140 --> 00:42:18.660
+Peter Somogyvari: And so that's why I was thinking that the interrupt category could be a superset of the integration.
+
+288
+00:42:19.800 --> 00:42:35.970
+Peter Somogyvari: But i'm also open to somehow refactoring that but it's not so if we say that cactus only does trust us that will not be true because you're aiming for a wider scope.
+
+289
+00:42:39.630 --> 00:42:42.630
+Jim Zhang: Would it make sense to have another role than.
+
+290
+00:42:45.720 --> 00:42:46.050
+Jim Zhang: Now.
+
+291
+00:42:46.200 --> 00:42:46.800
+Peter Somogyvari: Okay yeah.
+
+292
+00:42:46.950 --> 00:42:55.590
+Jim Zhang: nevermind I was going to propose cross chain trust their interest and then have our fly fishing there, but I don't know if that improves things.
+
+293
+00:42:57.420 --> 00:43:14.040
+Peter Somogyvari: Maybe, or it could, I mean the only thing that I have a guess, we want to try and avoid is having in very large number of categories, because then it loses value, but maybe this is just that one exception, very good.
+
+294
+00:43:15.210 --> 00:43:20.460
+Peter Somogyvari: just go for it so i'm i'm personally, not against that I don't know about the rest of the team here.
+
+295
+00:43:27.870 --> 00:43:32.190
+Tracy Kuhrt: I mean, we do have three different well i'm sorry two different dlp.
+
+296
+00:43:33.540 --> 00:43:34.920
+Tracy Kuhrt: Right tag.
+
+297
+00:43:37.170 --> 00:43:37.440
+Tracy Kuhrt: If you.
+
+298
+00:43:38.700 --> 00:43:40.560
+Jim Zhang: Maybe let's try this Tracy.
+
+299
+00:43:40.620 --> 00:43:43.830
+Jim Zhang: At another role behind below this.
+
+300
+00:43:44.220 --> 00:43:49.080
+Jim Zhang: Cross G trust it into rob and put firefly in there.
+
+301
+00:43:52.110 --> 00:43:53.490
+Jim Zhang: or cross cheating.
+
+302
+00:43:56.250 --> 00:43:56.790
+Jim Zhang: yeah.
+
+303
+00:43:57.720 --> 00:44:04.590
+Ry Jones: So this this document is available for concurrent editing so if anyone would like to help Tracy with that it's.
+
+304
+00:44:05.730 --> 00:44:06.210
+Ry Jones: You could just.
+
+305
+00:44:07.980 --> 00:44:08.730
+Tracy Kuhrt: This is the.
+
+306
+00:44:09.810 --> 00:44:14.670
+Tracy Kuhrt: This is the PAC meeting minutes i'm just reading it and it's directly there.
+
+307
+00:44:16.110 --> 00:44:17.730
+Tracy Kuhrt: For anybody who's interested.
+
+308
+00:44:18.870 --> 00:44:24.150
+Tracy Kuhrt: So if we do this, do we need to add the word trust listed as one Jim.
+
+309
+00:44:24.870 --> 00:44:28.350
+Jim Zhang: yeah let's go ahead and do that and remove firefly from that role.
+
+310
+00:44:28.770 --> 00:44:29.490
+Tracy Kuhrt: Does that.
+
+311
+00:44:30.510 --> 00:44:33.330
+Tracy Kuhrt: Work for the folks who.
+
+312
+00:44:33.330 --> 00:44:34.410
+Tracy Kuhrt: had concerns.
+
+313
+00:44:38.280 --> 00:44:46.620
+Dave Enyeart: In my opinion, cross chain trusted interrupt and integration gateway mean about the same thing, so that seems like one row to me.
+
+314
+00:44:47.790 --> 00:44:49.020
+Dave Enyeart: I don't want to be difficult, but.
+
+315
+00:44:51.420 --> 00:44:55.620
+Tracy Kuhrt: This throw in this role, would you put cactus in this role.
+
+316
+00:44:58.650 --> 00:44:59.670
+Tracy Kuhrt: Oh yeah.
+
+317
+00:45:03.210 --> 00:45:03.780
+May I.
+
+318
+00:45:05.190 --> 00:45:06.030
+Tracy Kuhrt: Yes, please answer.
+
+319
+00:45:07.500 --> 00:45:23.100
+Angelo De Caro: me this is even worse personnel from a reason I say this from a research point of view, if this is even worse it's even more confusing to one on a subject that is very delicate it's not just even in the trusted setting how How would you allow.
+
+320
+00:45:24.450 --> 00:45:30.120
+Angelo De Caro: rollbacks, what are the keys, so I would I would go very delicate with this.
+
+321
+00:45:31.170 --> 00:45:48.840
+Angelo De Caro: input it's like saying that we can put fabric under verifiable credential credential decentralize decentralized did it just because fabric as a identity mixer support, so we also have technically we're also fabrics possibly fiber credentials, but there will be misleading.
+
+322
+00:45:50.700 --> 00:45:53.790
+Angelo De Caro: That my personal opinion from a research point of view is nonsense.
+
+323
+00:46:00.270 --> 00:46:18.870
+Tracy Kuhrt: consensual yeah I mean, I can see your point with fabric, to go into the verifiable data registry dlp right there's actually people who are trying to make that reality by creating the correct smart contracts and interfaces to make that happen.
+
+324
+00:46:20.490 --> 00:46:23.850
+Tracy Kuhrt: Through Aires right so definitely.
+
+325
+00:46:25.380 --> 00:46:29.880
+Tracy Kuhrt: I think we, it is potentially a step too far Nathan.
+
+326
+00:46:31.380 --> 00:46:42.690
+Nathan George: My first comment is if if someone's deployed fabric is a verifiable data industry, I think it's healthy for them to claim the tag because it shows what's actually going on in the Community and helps people understand what's possible.
+
+327
+00:46:43.770 --> 00:46:52.350
+Nathan George: But the second is, we need to come back and ask ourselves what's the audience for this text, especially when we have left where there's only one project underneath each tag.
+
+328
+00:46:53.580 --> 00:47:11.130
+Nathan George: What is it we're trying to communicate with new newcomers to the ecosystem right because it it's okay that you know us as tasc or containers would agree yeah that tech seems seems truthful it's not helpful if it doesn't.
+
+329
+00:47:12.720 --> 00:47:18.990
+Nathan George: say something to a newcomer that lets them know where they should start or what they should read or what they should do next.
+
+330
+00:47:22.410 --> 00:47:31.950
+Tracy Kuhrt: yeah I think that's a good point to think about who our audiences for the sides, and the reason that we're creating these times in the first place.
+
+331
+00:47:34.980 --> 00:47:52.680
+Jim Zhang: yeah I guess i'm the only going trying to achieve with this these is would be just remove our fly from anything really to interact and be done with it because it's not designed for that what i'm trying to enable is where enterprise permission chain is today.
+
+332
+00:47:54.330 --> 00:48:12.660
+Jim Zhang: I can see majority of the people who need quote unquote interrupt picking up firefly user and began with that, rather than trying to do, the more sophisticated cactus model which is designed more for.
+
+333
+00:48:14.490 --> 00:48:17.400
+Jim Zhang: untrusting parties trying to do into rob.
+
+334
+00:48:18.450 --> 00:48:29.640
+Jim Zhang: I think, where the enterprise decentralized landscape is today a trusted model would be sufficiently.
+
+335
+00:48:32.670 --> 00:48:37.200
+Jim Zhang: useful and likely to be adopted first.
+
+336
+00:48:38.220 --> 00:48:48.930
+Jim Zhang: before they go the fall and trustful this way that's right that's where my head is and not getting them to realize firefly can help.
+
+337
+00:48:50.280 --> 00:48:54.000
+Jim Zhang: Like take care of 60% or even more.
+
+338
+00:48:55.980 --> 00:48:56.850
+Jim Zhang: That task.
+
+339
+00:48:58.320 --> 00:49:12.360
+Jim Zhang: will be a shame on the other hand, I realized looking at this right now it's it's more confusing than before, so I don't know what's what's the best way, maybe we can start with not having firefly.
+
+340
+00:49:15.360 --> 00:49:16.710
+Jim Zhang: All and then.
+
+341
+00:49:18.540 --> 00:49:21.450
+Jim Zhang: Think what's what's possible later.
+
+342
+00:49:25.050 --> 00:49:27.780
+Jim Zhang: But, but I think my my point still stands.
+
+343
+00:49:31.050 --> 00:49:31.470
+Tracy Kuhrt: here.
+
+344
+00:49:34.020 --> 00:49:48.750
+Peter Somogyvari: I was just going to say that I can see everybody's point I kind of agree with all of them in a way, so it's just really hard question because the underlying complexity of the software pieces that you're talking about is.
+
+345
+00:49:50.130 --> 00:50:03.990
+Peter Somogyvari: much higher than what you can easily express in a short little table like this, so there it is bound to happen that there will be sort of friction points where people disagree, just because.
+
+346
+00:50:05.310 --> 00:50:10.710
+Peter Somogyvari: It has to be simplified down somehow and then some information will be lost.
+
+347
+00:50:13.050 --> 00:50:14.640
+Peter Somogyvari: yeah so i'm not very.
+
+348
+00:50:16.080 --> 00:50:26.760
+Peter Somogyvari: opinionated on this and I also feel like because i've made terrific actors, maybe i'm a little biased so yeah i'm totally flexible.
+
+349
+00:50:31.740 --> 00:50:32.160
+Tracy Kuhrt: and Joe.
+
+350
+00:50:34.500 --> 00:50:40.830
+Angelo De Caro: yeah I must be at this at this point i'm a bit concerned if it's true what Jim said that many are using firefly to.
+
+351
+00:50:42.420 --> 00:50:49.980
+Angelo De Caro: To achieve interoperability i'm wondering, under which assumption, they are doing this are they exposing themselves to risks.
+
+352
+00:50:50.370 --> 00:50:58.020
+Angelo De Caro: That they don't understand something like this, so I would suggest the following if I fly beliefs, to be a tool for interoperability.
+
+353
+00:50:58.320 --> 00:51:15.240
+Angelo De Caro: write down a page, or even a paper to a conference and what why this model is described in detail so so people can better understand, but they would they expose themselves to when they use this model that allegedly five fly allows you to.
+
+354
+00:51:16.170 --> 00:51:27.990
+Angelo De Caro: Then I will be it's much more we're doing a job for our our doing a service for our Community, not just say it can people are using it for that purpose, good luck, I hope they are to see for right in the in the right way.
+
+355
+00:51:34.920 --> 00:51:36.570
+Tracy Kuhrt: Peter you still have your hand up is it.
+
+356
+00:51:37.080 --> 00:51:37.380
+Just.
+
+357
+00:51:39.060 --> 00:51:39.660
+Tracy Kuhrt: doesn't go no.
+
+358
+00:51:41.730 --> 00:51:42.210
+Tracy Kuhrt: No worse.
+
+359
+00:51:43.260 --> 00:51:53.400
+Tracy Kuhrt: Okay, so we have like seven minutes left before the top of the hour um I think this is a good discussion and.
+
+360
+00:51:55.110 --> 00:52:03.930
+Tracy Kuhrt: I think the remaining question is, are there other sort of products that people would see that we should add to this that are here.
+
+361
+00:52:20.790 --> 00:52:22.350
+Tracy Kuhrt: Did you come up with something.
+
+362
+00:52:24.000 --> 00:52:24.330
+Tracy Kuhrt: You know.
+
+363
+00:52:25.140 --> 00:52:27.990
+Arnaud J Le Hors (IBM): So I guess one more one more question sorry.
+
+364
+00:52:28.530 --> 00:52:36.180
+Arnaud J Le Hors (IBM): No, no, I mean, I think I forget who but somebody talked about you know what is the end goal and.
+
+365
+00:52:37.650 --> 00:52:41.550
+Arnaud J Le Hors (IBM): Should we, I mean should go be to only have.
+
+366
+00:52:42.720 --> 00:52:56.160
+Arnaud J Le Hors (IBM): One category for each project, I mean right now, I think we have we have a pretty good at least I like the categories, there is one thing is, indeed, which is into robes.
+
+367
+00:52:57.570 --> 00:53:03.210
+Arnaud J Le Hors (IBM): Is that something that's really necessary, or should we try to say no let's just have one.
+
+368
+00:53:08.490 --> 00:53:12.990
+Tracy Kuhrt: I don't think it matters, how many um.
+
+369
+00:53:13.500 --> 00:53:16.260
+Arnaud J Le Hors (IBM): And that's why I said I don't know what the goal is maybe.
+
+370
+00:53:16.290 --> 00:53:17.850
+Arnaud J Le Hors (IBM): yeah we don't care.
+
+371
+00:53:18.240 --> 00:53:28.440
+Tracy Kuhrt: I think the goal was to be able to have the tags on like this webpage i'm 50 if I can I probably can't open it here.
+
+372
+00:53:29.790 --> 00:53:38.850
+Tracy Kuhrt: But you can see, general purpose the lt so in the case of India, it would have to have them right general or not general purpose, but the verifiable.
+
+373
+00:53:39.300 --> 00:53:50.790
+Tracy Kuhrt: Peter registry deal T and the verifiable credentials decentralized identity tag associated with it now if we think that you know another project should have an additional tag.
+
+374
+00:53:51.360 --> 00:54:01.260
+Tracy Kuhrt: Because that's what people are going to go to the website to look for and then you know, maybe we need to think about is there, another tag that we should add to those this list.
+
+375
+00:54:02.160 --> 00:54:12.300
+Jim Zhang: Okay yeah so the reason I had it in both places is verifiable data registry is kind of a term that was invented.
+
+376
+00:54:14.130 --> 00:54:25.920
+Jim Zhang: Around the discussions I had with the containers of areas in indy it's not a very recognizable term as verifiable credentials or the ID right.
+
+377
+00:54:26.640 --> 00:54:41.130
+Jim Zhang: that's that's The main reason I feel like indie deserves those more recognizable labels that's fine, but the registry term more accurately describes what it does.
+
+378
+00:54:49.380 --> 00:54:55.200
+Arnaud J Le Hors (IBM): Okay, I mean i'm not against it let's be clear i'm just like when I looked at the list, this is the one.
+
+379
+00:54:55.470 --> 00:54:55.860
+Tracy Kuhrt: kind of.
+
+380
+00:54:56.310 --> 00:54:56.880
+You know.
+
+381
+00:54:57.960 --> 00:55:10.620
+Arnaud J Le Hors (IBM): I don't want to say oddities because it sounds negative, which is not what i'm trying to convey it's just like you know it's a unique case, yes I any other project is only in one row I think.
+
+382
+00:55:14.940 --> 00:55:15.360
+Arnaud J Le Hors (IBM): So.
+
+383
+00:55:17.460 --> 00:55:20.070
+Tracy Kuhrt: Okay um well I think it's okay.
+
+384
+00:55:21.930 --> 00:55:33.030
+Tracy Kuhrt: I will have to I guess see how that ends up looking on the actual website when it goes out to see if it's too much, but I do think it's worthwhile calling out that it is that.
+
+385
+00:55:34.410 --> 00:55:41.970
+Tracy Kuhrt: It is a deal T, but it also had some additional functionality built on top of it specifically for the decentralized I can use case.
+
+386
+00:55:43.590 --> 00:55:52.260
+Tracy Kuhrt: So you know it's not a general purpose dlp so it's going to be some other sort of the LP and I think that's the name that was given here.
+
+387
+00:55:55.050 --> 00:56:00.840
+Tracy Kuhrt: So I know we're about ready to be finished with this conversation.
+
+388
+00:56:02.550 --> 00:56:14.310
+Tracy Kuhrt: We didn't make it very far through what I wanted to discuss, there is a new conference page that I created here a website personas which I think is this one.
+
+389
+00:56:15.360 --> 00:56:25.080
+Tracy Kuhrt: That I would appreciate offline if people could add to this things that they think that people visiting the hyper ledger website are visiting it for.
+
+390
+00:56:26.190 --> 00:56:33.870
+Tracy Kuhrt: So that we can at least have a general idea of the sorts of things that we would need to do when it comes to the website itself.
+
+391
+00:56:34.410 --> 00:56:58.140
+Tracy Kuhrt: And then the other piece that we didn't have time to get to is this new proposed getting started page that David and the team has come up with for us to review and provide feedback on so maybe we can do that also in offline fashion, since we won't be meeting again for another month.
+
+392
+00:57:00.090 --> 00:57:10.710
+Tracy Kuhrt: To talk through this, so I think it's worthwhile to to do some work offline while we have the opportunity for those folks who are interested in participating in this task force.
+
+393
+00:57:13.200 --> 00:57:25.770
+Tracy Kuhrt: So with that I think i'm going to close for today and look forward to seeing some input, if you block on the website for sundance and on this new getting started page.
+
+394
+00:57:26.400 --> 00:57:40.020
+Tracy Kuhrt: There is a chat channel for the project families task force that exist in discord so please join us there for additional discussions and things that you want to add to.
+
+395
+00:57:41.700 --> 00:57:46.530
+Tracy Kuhrt: To what you're seeing here coming out of the the work that's being done offline.
+
+396
+00:57:48.600 --> 00:57:56.730
+Tracy Kuhrt: So with that i'm going to close the meeting, thank you all for joining and participating, thank you.
+
+397
+00:57:57.240 --> 00:57:58.020
+Jim Zhang: Tracy thanks.
+

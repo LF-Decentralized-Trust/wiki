@@ -1,0 +1,354 @@
+WEBVTT
+
+1
+00:07:58.340 --> 00:08:17.769
+Patrik Stas: Well, hello, everyone uh who's listening to this um community meeting and a recording as uh, there is no other participants today uh other than me. Nevertheless, i'm gonna do this uh for to to keep the moral high um, and I guess i'll just uh
+
+2
+00:08:18.060 --> 00:08:22.339
+Patrik Stas: kind of go over the uh the agenda uh we have
+
+3
+00:08:22.560 --> 00:08:24.410
+Patrik Stas: uh fleshed out.
+
+4
+00:08:24.560 --> 00:08:27.109
+Patrik Stas: So i'm gonna share my screen now.
+
+5
+00:08:44.630 --> 00:08:56.620
+Patrik Stas: Alright, uh so we have a few points on the agenda. I believe I can skip anti-trust policies today, since there's no other live participants on this call
+
+6
+00:08:57.010 --> 00:09:16.219
+Patrik Stas: uh so for the agenda uh, I'll start with the recent work we have done recently. So uh, notably we have released uh zero forty-five um release of, and the related arch um uh our defect
+
+7
+00:09:16.860 --> 00:09:21.449
+Patrik Stas: um This release includes um mostly
+
+8
+00:09:21.540 --> 00:09:31.589
+Patrik Stas: well, uh pretty much the work uh which we have talked about uh in the previous two uh community calls um,
+
+9
+00:09:32.180 --> 00:09:38.000
+Patrik Stas: and but to kind of go over it, I guess, as a feature wise.
+
+10
+00:09:38.410 --> 00:09:54.640
+Patrik Stas: Uh, since the last release we have added Ares v. Six agent. We're using this in Aries uh a resident desk harness um as a as a layer between a and the as A and the test harness uh back Generally it's all
+
+11
+00:09:54.730 --> 00:10:08.399
+Patrik Stas: uh next. Uh, as for the features goes we've add the and a new Api which enables you, which enables uh credential holders and credential issuers to get
+
+12
+00:10:08.440 --> 00:10:11.690
+Patrik Stas: um credit for revocation. Id
+
+13
+00:10:11.830 --> 00:10:28.800
+Patrik Stas: Uh, this is this is piece of information information which is needed to uh check uh against ledger Uh. Whether the credential has or has not been revoked. Also it is used for building uh on the revocation proofs. Essentially stuff like that.
+
+14
+00:10:28.880 --> 00:10:30.270
+Patrik Stas: Um,
+
+15
+00:10:32.040 --> 00:10:45.209
+Patrik Stas: Yeah. And that directly ties to this uh next uh, next um full request we have merge and is released, and that's the re a location that We' to solve check
+
+16
+00:10:45.550 --> 00:11:07.669
+Patrik Stas: uh basically out of this two hundred and seventy-nine lines added in this Pr. Uh the Moles imported lines right here in the All on the handlers level for uh a holder and issue. So they have added methods is revoked, which now, you know, uh enables you for now through or falls,
+
+17
+00:11:07.680 --> 00:11:22.919
+Patrik Stas: whether uh this credential has been revoked, and uh, this is implemented by uh fetching the relocation Delta for certain um time period, and checking whether
+
+18
+00:11:22.930 --> 00:11:30.350
+Patrik Stas: credential revocation Id is in con, is contained in this uh revocation Delta fetch from the launcher.
+
+19
+00:11:31.110 --> 00:11:40.540
+Patrik Stas: Uh. So this is obviously useful for mobile cases where you want to check. Uh, whether the credential user holds in his wallet
+
+20
+00:11:40.550 --> 00:11:51.459
+Patrik Stas: has been revoked, and perhaps a displayed somehow differently. So he would not understand that using this credential probably is not gonna work in A
+
+21
+00:11:51.650 --> 00:11:54.390
+Patrik Stas: and using it to improve requests.
+
+22
+00:11:54.410 --> 00:11:55.280
+Patrik Stas: Um.
+
+23
+00:11:56.130 --> 00:12:15.000
+Patrik Stas: Next up uh basic, we we had um a revocation notification uh feature. This is how I mentioned last week, so we have implemented the notification protocol which enables us to notify the holders uh, whenever their credential have been invoked.
+
+24
+00:12:16.120 --> 00:12:21.970
+Patrik Stas: Um! Then we had a whole bunch of refactoring in this release.
+
+25
+00:12:22.300 --> 00:12:39.080
+Patrik Stas: Uh, we had a sort of minor breaking change uh where we now uh require everyone to always initialize uh the the the library runtime. So originally we uh
+
+26
+00:12:39.410 --> 00:12:47.520
+Patrik Stas: the bottom line is. Uh, then you need to, uh call, and basically in it run time
+
+27
+00:12:47.610 --> 00:12:51.690
+Patrik Stas: uh one of you start using Uh Vcx:
+
+28
+00:12:52.000 --> 00:12:53.330
+Patrik Stas: Um
+
+29
+00:12:54.350 --> 00:13:04.280
+Patrik Stas: or yeah, this is This is a past particular to live. Vcx: Uh. But not Aries Vcx uh core create itself. So
+
+30
+00:13:04.330 --> 00:13:22.900
+Patrik Stas: uh, if you're only consume Aer's vcx. This doesn't really matter if you're if you're if you live. Viax. Um, chances are that you are already doing it, because, uh, in all of our sort of guides and tasks and examples. We always initialize the runtime. It's a one function call
+
+31
+00:13:24.680 --> 00:13:26.890
+Patrik Stas: uh, okay, Um,
+
+32
+00:13:29.440 --> 00:13:45.219
+Patrik Stas: uh, There was some minor issues We fixed uh as a part of the factoring clean up stuff, and also see I improvements. So now the Ci is significantly faster,
+
+33
+00:13:46.950 --> 00:13:51.419
+Patrik Stas: and that should definitely help with getting better feedback.
+
+34
+00:13:51.930 --> 00:13:56.480
+Patrik Stas: Uh, Okay. So this will be about a release. Forty-five.
+
+35
+00:13:57.040 --> 00:14:05.630
+Patrik Stas: And there's also this point right here checking whether credential is a row. As for the work which you have currently in progress. Um!
+
+36
+00:14:05.930 --> 00:14:18.869
+Patrik Stas: A colleague of my uh from Upsa uh it's uh i'm still working on the removal of a five uh layer uh between the and Vvr tools.
+
+37
+00:14:19.260 --> 00:14:33.080
+Patrik Stas: Uh: so hopefully, yeah, within within the upcoming days, perhaps next week. Uh, hopefully, this might this. This will be a result. But let's see um, George from an Indian labs. Um,
+
+38
+00:14:33.220 --> 00:14:46.300
+Patrik Stas: as far as I know he's uh working on still on the uh credential slash larger slash will at uh shared interfaces to enable swapping between
+
+39
+00:14:46.420 --> 00:15:03.569
+Patrik Stas: uh media tools and on the three libraries uh the smaller components uh of uh, in the shared rs and India in in the Vdr. And uh Arizona.
+
+40
+00:15:04.720 --> 00:15:17.289
+Patrik Stas: Yeah. So we still don't have a Pr. From George. George, you'll be here This I'll be really excited. But Yeah, no pressure. I'm just really looking forward, really excited about this. Um,
+
+41
+00:15:17.460 --> 00:15:27.370
+Patrik Stas: Actually, we had a uh Steven current uh asking on the discord this uh this morning. Um
+
+42
+00:15:27.760 --> 00:15:44.509
+Patrik Stas: as to whether Ai or is vcx um is planning to move to to this component. So this was a very on point question right there, as some had. So we that's what we have in progress in the moment. Um,
+
+43
+00:15:44.920 --> 00:16:03.989
+Patrik Stas: as we're looking forward for this piece. Um uh is working on uh did so. Uh did solve uh methods uh interoperability improvement uh, from the perspective of uh
+
+44
+00:16:04.330 --> 00:16:16.890
+Patrik Stas: being in a role of institution. So uh, we are looking to uh start to update Area V. Six such that it would write on a ledger. Um,
+
+45
+00:16:17.740 --> 00:16:22.529
+Patrik Stas: so um did at reviews in the expected format.
+
+46
+00:16:22.840 --> 00:16:24.170
+Patrik Stas: Um.
+
+47
+00:16:26.410 --> 00:16:35.269
+Patrik Stas: As for the client side, or or or the mobile side, if you will uh that will be covered by
+
+48
+00:16:35.450 --> 00:16:42.729
+Patrik Stas: uh, the issues we have uh created here, there's actually two.
+
+49
+00:16:43.920 --> 00:17:05.629
+Patrik Stas: Uh. So this is also something we covered with the last week. Um, But yeah, this this issue uh here uh, I've posted them uh a long comment here uh basically suggesting a strategy uh how to improve this of interoperability in the position of uh,
+
+50
+00:17:06.030 --> 00:17:23.189
+Patrik Stas: a mobile device or client. Uh: So we should uh, we should assume that uh, essentially, uh, at this, you know, this is the the proper form. All this this is what we should expect to find on the ledger,
+
+51
+00:17:23.200 --> 00:17:42.330
+Patrik Stas: and for the legacy reasons, until we migrate our like Aries Vcx. You sure role to to be uh compliant with this, and we will want to uh support uh the legacy format from the client side as well.
+
+52
+00:17:42.570 --> 00:18:00.650
+Patrik Stas: Um and yeah, Then then we can kinda There's There's a few stages here, kind of flesh out how we can proceed. What we see The final goal is to be the Id so um interpretable fully both of the client and institution side.
+
+53
+00:18:01.390 --> 00:18:03.250
+Patrik Stas: Um, yeah,
+
+54
+00:18:06.850 --> 00:18:09.120
+Patrik Stas: um. Next up um
+
+55
+00:18:09.300 --> 00:18:28.969
+Patrik Stas: for my uh, or the the work I started uh doing myself. Uh I have started migrating or started looking into migrating uh desks integration tests, uh which are currently written directly on top of Arizona.
+
+56
+00:18:28.980 --> 00:18:33.920
+Patrik Stas: Um. We would like to move these tasks um basically to
+
+57
+00:18:34.110 --> 00:18:50.549
+Patrik Stas: be built on top of every C six agent layer uh this. All like uh enable dealing does lots of uh testing boiler plate code currently containing, and then generally
+
+58
+00:18:51.070 --> 00:18:57.510
+Patrik Stas: it should just make the best simpler to read uh to write. And uh
+
+59
+00:18:58.640 --> 00:19:01.289
+Patrik Stas: and um, yeah,
+
+60
+00:19:04.760 --> 00:19:06.230
+Patrik Stas: uh, okay,
+
+61
+00:19:06.280 --> 00:19:22.990
+Patrik Stas: um. For the plan upcoming work. I don't think there's like any significant point, because we already have a lot on our played with the stuff which is going on and getting it all synchronized and and merged, and initially Um!
+
+62
+00:19:24.060 --> 00:19:31.599
+Patrik Stas: And uh, the last almost last point here uh is. Last week we had a few like discussion points
+
+63
+00:19:32.350 --> 00:19:42.019
+Patrik Stas: uh one of it was question about uh supporting transport transport return route. Um
+
+64
+00:19:42.200 --> 00:19:46.179
+Patrik Stas: And uh, looking into this briefly,
+
+65
+00:19:46.630 --> 00:19:56.890
+Patrik Stas: basically a conclusion is that we can support. We can uh support this in the future. We don't really support it right now.
+
+66
+00:19:56.910 --> 00:19:58.260
+Patrik Stas: Um,
+
+67
+00:19:58.950 --> 00:20:03.529
+Patrik Stas: It's actually not difficult to
+
+68
+00:20:04.100 --> 00:20:07.159
+Patrik Stas: add that support for
+
+69
+00:20:07.390 --> 00:20:15.319
+Patrik Stas: product calls other than connection protocol itself. Um, basically The only thing you need is uh,
+
+70
+00:20:15.850 --> 00:20:21.600
+Patrik Stas: uh, make sure that after a message is sent um,
+
+71
+00:20:23.610 --> 00:20:34.100
+Patrik Stas: and that the the well, The The point is we need to um be able to wait for the Http response after we send message,
+
+72
+00:20:34.290 --> 00:20:40.800
+Patrik Stas: and uh given the generate generic nature, how um
+
+73
+00:20:40.990 --> 00:20:59.529
+Patrik Stas: we send the messages over the network right now in in, let's say, financial issues, protocol or verification uh presentation protocol. It should be easy to collect these responses, and you know, react um further
+
+74
+00:20:59.540 --> 00:21:04.720
+Patrik Stas: uh update your State machine based on what I response you have received.
+
+75
+00:21:04.830 --> 00:21:05.730
+Patrik Stas: Um,
+
+76
+00:21:07.090 --> 00:21:11.979
+Patrik Stas: I think. Still, some some adjustments will be needed to do. Uh,
+
+77
+00:21:12.930 --> 00:21:26.350
+Patrik Stas: probably it will be uh um preferable to do some refactoring on the State Mission level uh to increase the granularity um
+
+78
+00:21:26.710 --> 00:21:37.499
+Patrik Stas: granularity of actions, and and just to be making sure that that um the apis aren't kind of
+
+79
+00:21:40.160 --> 00:21:42.289
+Patrik Stas: clearly be fine uh
+
+80
+00:21:47.110 --> 00:21:51.639
+Patrik Stas: in in terms of what is being uh returned uh,
+
+81
+00:21:52.360 --> 00:22:09.370
+Patrik Stas: when the action is performing uh network calls uh. I mentioned that this might be, this whole thing might be a bit more difficult for the connection. Protocol. Uh, I think it will kind of flush itself out, and it will become clear how to proceed there.
+
+82
+00:22:09.380 --> 00:22:22.009
+Patrik Stas: Uh, actually, after we are done with uh, the coupling of the connection protocol from the Mediator, which is, makes it much uh, uh, much more difficult to think about.
+
+83
+00:22:22.160 --> 00:22:23.460
+Patrik Stas: Uh,
+
+84
+00:22:24.610 --> 00:22:35.539
+Patrik Stas: but once that that is a work is done, we can. We can possibly start looking into. How can we? How can we support the transport return route?
+
+85
+00:22:37.650 --> 00:22:46.980
+Patrik Stas: Um: Yeah. And the the the second point of last week discussion. That's actually I briefly over the cover now,
+
+86
+00:22:47.310 --> 00:23:03.040
+Patrik Stas: and uh, i'll skip, I will uh skip there. There's no nothing to I guess discuss today as as uh, it's just sort of a presentation today. So yeah, anyone who uh listen to this Uh: hopefully. Um,
+
+87
+00:23:03.780 --> 00:23:18.370
+Patrik Stas: It was useful to to in terms of getting you up to date What's going on? And yeah, hopefully, uh, you'll have some higher attendance. Uh until then. Um. Thank you for tuning in, and uh,
+
+88
+00:23:19.070 --> 00:23:22.859
+Patrik Stas: i'll meet you next week. Cheers.
+

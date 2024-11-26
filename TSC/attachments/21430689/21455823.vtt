@@ -1,0 +1,1614 @@
+WEBVTT
+
+1
+00:00:17.850 --> 00:00:18.300
+Chris.
+
+2
+00:00:19.980 --> 00:00:27.300
+Tracy Kuhrt: All right, welcome to the march 17 tlc call happy St patrick's day for those of you who celebrate.
+
+3
+00:00:30.000 --> 00:00:38.280
+Tracy Kuhrt: As you are all aware, I think this call before and probably many other hyper ledger calls but there's two things that we must abide by.
+
+4
+00:00:38.640 --> 00:00:51.000
+Tracy Kuhrt: The first one is the antitrust policy notice that is currently displayed on the screen and the second is the code of conduct, which is linked in our agenda don't be a jerk.
+
+5
+00:00:51.990 --> 00:01:01.800
+Tracy Kuhrt: So with that we'll hop to the announcements so first one is one that we talked about every week, the Dev weekly developer new newsletter goes out tomorrow.
+
+6
+00:01:02.940 --> 00:01:13.080
+Tracy Kuhrt: If there's something that you want to add to that please leave a comment on the wiki page that is linked in the agenda and that will go out to hundreds of hyper ledger developers.
+
+7
+00:01:14.640 --> 00:01:16.890
+Tracy Kuhrt: The second announcement is the.
+
+8
+00:01:18.420 --> 00:01:36.090
+Tracy Kuhrt: CFP is now open for the hyper ledger global forum and that CFP closes on April 29 So if you have any talks that you would like to give at the global forum Please submit those at the link that is provided here on the the agenda.
+
+9
+00:01:37.230 --> 00:01:41.250
+Tracy Kuhrt: Are there any other announcements that anybody has.
+
+10
+00:01:50.460 --> 00:02:03.630
+Tracy Kuhrt: Okay, seeing no hands, I will take that as no um So the first thing that we have our quarterly reports, we did get the hyper ledger firefly report in on Tuesday.
+
+11
+00:02:04.590 --> 00:02:17.400
+Tracy Kuhrt: And I have seen that there are some of us that have had the opportunity to review that but not everybody has had a chance to review that yet there is some conversation that is ongoing in the.
+
+12
+00:02:18.870 --> 00:02:19.740
+Tracy Kuhrt: In the report.
+
+13
+00:02:21.540 --> 00:02:24.570
+Tracy Kuhrt: I will apologize for not being up to date on those.
+
+14
+00:02:25.680 --> 00:02:31.350
+Tracy Kuhrt: it's been an early morning for me with the time change, so I guess the.
+
+15
+00:02:32.640 --> 00:02:36.300
+Tracy Kuhrt: The first thing that we have is related to.
+
+16
+00:02:38.040 --> 00:02:45.090
+Tracy Kuhrt: getting more people interested in becoming main painters and there's a discussion on going there around that.
+
+17
+00:02:46.860 --> 00:03:01.020
+Tracy Kuhrt: Is there anything that anybody has, as far as suggestions for the firefly folks as far as other ways that they've had good luck in getting people interested in being long term mentors on the projects.
+
+18
+00:03:17.700 --> 00:03:20.010
+Tracy Kuhrt: No additional suggestions, other than once you.
+
+19
+00:03:21.810 --> 00:03:22.170
+Tracy Kuhrt: Make it.
+
+20
+00:03:24.900 --> 00:03:30.030
+Nathan George: Being a maintainer a lot of work so i'm less worried about whether or not.
+
+21
+00:03:31.200 --> 00:03:39.390
+Nathan George: All the maintainer from one organization and more worried about when all them and maintain errs are from one organization it's easy to miss communications details.
+
+22
+00:03:39.810 --> 00:03:49.620
+Nathan George: and make it hard for anyone else to kind of get in the door, or it can create a situation where pull requests have a lot of friction to external contributors so um.
+
+23
+00:03:50.520 --> 00:04:01.770
+Nathan George: I think part of the one of the questions that it's kind of underlying this thread is not just how can we make it more friendly for an external maintainer or how can we help you get an external maintainer but.
+
+24
+00:04:03.180 --> 00:04:08.370
+Nathan George: Is there any way we can help measure kind of if some of this invisible friction might be happening.
+
+25
+00:04:13.470 --> 00:04:15.330
+Tracy Kuhrt: yeah I think that's a really good point.
+
+26
+00:04:19.350 --> 00:04:23.550
+Kamlesh Nagware: yeah so it's also commented in the report section.
+
+27
+00:04:25.260 --> 00:04:44.490
+Kamlesh Nagware: Actually, when this 1.0 release can go on that and also should come with some details about the usability in the production deployment of the firefly because in the user adoption perspective, it depends like how how much production deployment of the particular.
+
+28
+00:04:45.510 --> 00:04:53.670
+Kamlesh Nagware: Framework is and and how people are adopting it and then like country like the only fly do is the maintenance of the project so.
+
+29
+00:04:55.410 --> 00:05:04.440
+Kamlesh Nagware: kind of getting the maintenance and contribute other across different organizations or individuals is important to be.
+
+30
+00:05:05.550 --> 00:05:14.850
+Kamlesh Nagware: To be project is a is a wide at all, and I know that the client has a very good concept and get off multi party system because collection is completed.
+
+31
+00:05:15.240 --> 00:05:35.640
+Kamlesh Nagware: Not just only blockchain live there are multiple components and systems are there and is is good, by then, when we come to this stable or lts release in the future, we should also some come up with the specific details about the production deployment in the customers that.
+
+32
+00:05:39.030 --> 00:05:51.300
+Tracy Kuhrt: come with it, you know if we look at the funnel right it starts with people using the projects to determine that they need to contribute, because there's either a feature missing that they want.
+
+33
+00:05:52.380 --> 00:05:57.000
+Tracy Kuhrt: added to it or there's a bug that they need fixed and so they jump in to contribute.
+
+34
+00:05:57.900 --> 00:06:00.060
+Tracy Kuhrt: And then those contributors are.
+
+35
+00:06:00.690 --> 00:06:13.980
+Tracy Kuhrt: What end up being being painters, in the long run right so it's obviously is a funnel and starting with the users is a is a place that we can think about how we get more people interested in the project as a whole.
+
+36
+00:06:15.030 --> 00:06:15.390
+Tracy Kuhrt: room.
+
+37
+00:06:16.680 --> 00:06:26.430
+Aruna S M: Thanks Tracy I see firefly as a beneficial project and multiple fronts on and there is an idea that probably firefly team can apply appropriate try out.
+
+38
+00:06:27.540 --> 00:06:33.270
+Aruna S M: This has been work, I mean this has worked for Aries group at least, as I, as I see.
+
+39
+00:06:34.830 --> 00:06:45.090
+Aruna S M: The approach would be that we need, so the way the reason is group has been so successful is so that each repository or each.
+
+40
+00:06:46.080 --> 00:06:55.830
+Aruna S M: framework to build in different languages is kind of independent and independently maintained by different organizations and what features they keep adding could would follow us back.
+
+41
+00:06:56.310 --> 00:07:09.600
+Aruna S M: But it goes in its own face right so firefly being a project that has similar features not i'm not saying true, I mean technically the same features i'm talking in terms of.
+
+42
+00:07:10.380 --> 00:07:19.170
+Aruna S M: How wide spectrum, it covers, so there are components that deal with different blockchain protocols and then there are components that are.
+
+43
+00:07:19.770 --> 00:07:32.670
+Aruna S M: More generic in nature and how they deal with providing some of the capabilities, so if files like team can focus on those aspects, maybe there would be people who are interested in.
+
+44
+00:07:33.540 --> 00:07:40.590
+Aruna S M: Those individual components and they would jump in in maintaining those individual parts, at least so that way.
+
+45
+00:07:41.640 --> 00:07:55.140
+Aruna S M: There is more contribution coming in and then probably eventually they will realize a there are some aspects that they can get involved in the core as well and that way they can grow further.
+
+46
+00:07:57.360 --> 00:07:58.710
+Aruna S M: So yeah that's my thought.
+
+47
+00:07:59.910 --> 00:08:04.860
+Tracy Kuhrt: Thank you, can you go I see you've joined us and I appreciate you joining us today.
+
+48
+00:08:06.000 --> 00:08:09.210
+Tracy Kuhrt: Questions or comments on kind of what you want.
+
+49
+00:08:10.020 --> 00:08:17.160
+Nicko Guyer: yeah Thank you appreciate all the questions and the the thoughts and the feedback it's helpful.
+
+50
+00:08:19.020 --> 00:08:25.950
+Nicko Guyer: And I yeah I agree that it's a funnel and you know, David boswell and I have had many conversations about how that.
+
+51
+00:08:26.430 --> 00:08:40.590
+Nicko Guyer: That it is indeed a funnel and trying to grow that funnel at the start and getting more people to use firefly we have working on a workshop coming up next month to try to get more people just familiar with how to use it.
+
+52
+00:08:41.670 --> 00:08:56.220
+Nicko Guyer: So and arena, I like your suggestion as well, of like having having maintain owners of some of the like firefly has a lot of different repose it's a it's a micro service architecture and it was actually designed that way and.
+
+53
+00:08:56.820 --> 00:09:02.580
+Nicko Guyer: So that the barrier to entry for being able to contribute.
+
+54
+00:09:03.450 --> 00:09:19.590
+Nicko Guyer: Additional pieces to it would be lower so that folks don't have to understand all of the detail of how the core itself works in order to make a contribution to one of the you know connectors or other pieces so yeah that's a great thought as well.
+
+55
+00:09:20.700 --> 00:09:31.020
+Nicko Guyer: yeah I appreciate the thoughts and the and the feedback I know this was a topic on on the last report, so I want to do at least comment on it, I know it takes time and I just.
+
+56
+00:09:32.490 --> 00:09:37.470
+Nicko Guyer: yeah the I think the the reasoning for the extra comments that I added on this report was just to.
+
+57
+00:09:38.580 --> 00:09:47.760
+Nicko Guyer: emphasize the fact that, like it's something the firefly community is acutely aware of, and something that we want to keep working on, but also recognizing that it does take time.
+
+58
+00:09:51.510 --> 00:09:51.870
+Tracy Kuhrt: Bobby.
+
+59
+00:09:53.070 --> 00:10:00.540
+Bobbi Muscara: i'm just have to speak to the project we did with firefly with the giving chain, and I think the reason why, none of the.
+
+60
+00:10:00.870 --> 00:10:07.140
+Bobbi Muscara: People moved from using the project to maintain owners is they were through the mentorship program and they were all students.
+
+61
+00:10:07.620 --> 00:10:18.510
+Bobbi Muscara: So students are looking for a permanent jobs not you know, being able to maintain or so that I think was possibly a disconnect that maybe in the future, we could try to figure out how to solve that.
+
+62
+00:10:22.410 --> 00:10:34.020
+Nicko Guyer: yeah we've seen not just through the mentorship program to but through a lot of other connections that we've made students discover the project and and the way this is really cool I want to make this as my first Open Source contribution.
+
+63
+00:10:34.380 --> 00:10:44.220
+Nicko Guyer: They make a contribution, which is great, but then they move on and you know they've they've been able to now put on the resume that i've made contributions to open source projects and it's great for them, but.
+
+64
+00:10:45.420 --> 00:10:50.100
+Nicko Guyer: Like I said it doesn't bring that kind of long term consistent contribution that we're hoping for someday.
+
+65
+00:10:52.980 --> 00:10:53.370
+Tracy Kuhrt: and Joe.
+
+66
+00:10:54.750 --> 00:11:01.260
+Angelo De Caro: yeah Thank you Tracy, I must admit I always I would want to see something generic non religious to fight flight.
+
+67
+00:11:01.770 --> 00:11:11.460
+Angelo De Caro: And I always thought about this tension between the fact that most of the projects in hyper ledger they are backed by companies with a clear strategy.
+
+68
+00:11:11.970 --> 00:11:25.050
+Angelo De Caro: So montaner sees more than just just putting in a few some contribution it's also someone was a an impact on the strategy, the directions of the the project so something deeper.
+
+69
+00:11:25.890 --> 00:11:35.910
+Angelo De Caro: And and i'm wondering what do you mean How can someone externally, to the main company that is behind the project jump in this room can be true also for fabric so Chris Dunn.
+
+70
+00:11:36.780 --> 00:11:49.740
+Angelo De Caro: is not something other solely for five flight, but for many projects in hyper ledger where there is a strong company behind, I see that there is a tension I don't know, I must admit I don't know how to resolve this this tension.
+
+71
+00:11:54.120 --> 00:11:54.780
+Tracy Kuhrt: yeah I think.
+
+72
+00:11:55.440 --> 00:12:03.990
+Tracy Kuhrt: I think there's definitely a tension there that we see across all of our projects so not just firefly, as you mentioned Angelo and.
+
+73
+00:12:05.430 --> 00:12:06.360
+Tracy Kuhrt: You know, I think.
+
+74
+00:12:08.010 --> 00:12:12.780
+Tracy Kuhrt: If we if we kind of go back to that that fall idea, it is very possible that.
+
+75
+00:12:14.160 --> 00:12:26.970
+Tracy Kuhrt: As we get more organizations that are using the project, they become more interested and helping to guide the strategic direction of the project and then obviously becoming containers as well.
+
+76
+00:12:28.170 --> 00:12:35.100
+Tracy Kuhrt: it's you know it's probably not the the answer the complete answer, but it is probably part of the answer.
+
+77
+00:12:36.420 --> 00:12:36.720
+To come.
+
+78
+00:12:39.420 --> 00:12:52.410
+Kamlesh Nagware: What Angelo saying I think I think everyone will be agree, because even like what are the projects we have there are not to kind of mix majority of the different contributors.
+
+79
+00:12:53.670 --> 00:12:57.060
+Kamlesh Nagware: fabric of like the pipeline or whatever like when eddie Cindy.
+
+80
+00:12:58.290 --> 00:12:58.740
+Kamlesh Nagware: And I think.
+
+81
+00:12:59.970 --> 00:13:05.130
+Kamlesh Nagware: Most of us do taking some opportunities like Open Source project in Linux foundation.
+
+82
+00:13:07.350 --> 00:13:22.740
+Kamlesh Nagware: Diversity in the contribution weather is a Google product or Google Open Source from division, but I think, maybe it will take time that much read that level correct one for Java programming and more than 50% diversity in the contributions.
+
+83
+00:13:23.910 --> 00:13:30.900
+Kamlesh Nagware: Maybe down the line for five years, I believe, but I think that is very important to be successful, have any Open Source project.
+
+84
+00:13:33.870 --> 00:13:45.120
+Kamlesh Nagware: Not just the hyper ledger was when we talk about the like it terminated projects like consensus forum or other thing is also company driven projects.
+
+85
+00:13:50.700 --> 00:13:51.390
+Tracy Kuhrt: Thanks thanks.
+
+86
+00:13:54.480 --> 00:13:55.830
+Tracy Kuhrt: Alright, with.
+
+87
+00:13:55.890 --> 00:13:57.060
+Tracy Kuhrt: That yeah Jim.
+
+88
+00:13:58.860 --> 00:14:02.820
+Jim Zhang: Thanks Tracy I just want to add one more aspect.
+
+89
+00:14:03.930 --> 00:14:05.280
+Jim Zhang: I think in general.
+
+90
+00:14:06.660 --> 00:14:21.870
+Jim Zhang: We we observe that people get confused of what firefly does how it fits into the picture we often often get question is, can you tell us how firefly compares to fabric to to pursue your questions like that.
+
+91
+00:14:23.280 --> 00:14:37.740
+Jim Zhang: You know, for for other projects bevel that's for infrastructure characters interrupt very clear very clear labels that you know get people to understand what those projects to we need.
+
+92
+00:14:39.060 --> 00:14:56.070
+Jim Zhang: Like a easy to understand label like that, as we were using we were experimenting with multi party systems don't know if that's been effective, honestly, we probably need, I think about another marketing term to give firefly so people understand what it is.
+
+93
+00:14:58.080 --> 00:15:04.620
+Jim Zhang: i'm sure the marketing team may have ideas, but we should talk about that.
+
+94
+00:15:05.670 --> 00:15:06.300
+Jim Zhang: In the future.
+
+95
+00:15:08.790 --> 00:15:19.950
+Tracy Kuhrt: yeah I I I would agree with you, with you, Jim, I think, how do we, how do we get people to understand why you would use firefly when you would use firefly.
+
+96
+00:15:20.970 --> 00:15:28.110
+Tracy Kuhrt: Those are the the important pieces to help other people can really see that the benefit Angela.
+
+97
+00:15:29.400 --> 00:15:41.670
+Angelo De Caro: yeah I think what I found very interesting this discussion and I want to report, something that I found also a bit strange, from my point of view, I saw a blog post with cat to sweeper and.
+
+98
+00:15:42.390 --> 00:15:52.680
+Angelo De Caro: fly fly, and there was a table in this block compare kind of comparing the three things and there was a table with five flavors was sticking more green lights and to myself, I was asking.
+
+99
+00:15:53.070 --> 00:16:01.290
+Angelo De Caro: The fireflies not an interoperability tool, so why is there and first why sticking more so, it looks it looks like fireflies better than cactus and.
+
+100
+00:16:02.250 --> 00:16:13.710
+Angelo De Caro: Weaver but they they seems to be bit different beasts probably I misunderstood the the blog post, but that blog post to it in at least misled me.
+
+101
+00:16:20.010 --> 00:16:20.190
+Tracy Kuhrt: yeah.
+
+102
+00:16:21.060 --> 00:16:34.950
+Jim Zhang: yeah I think that's part of the problem with firefly because it sits on top of the ledgers so architecturally does fit in where the interrupt components to, and it does address a lot of the.
+
+103
+00:16:35.400 --> 00:16:55.200
+Jim Zhang: requirements in the in the same same concerns with interrupt and because it does so it does so many things it's hard it's hard to give it a concise label like interrupt or infrastructure, I think that's part of the struggle we're we're in.
+
+104
+00:17:00.570 --> 00:17:00.960
+Tracy Kuhrt: Right.
+
+105
+00:17:01.440 --> 00:17:14.670
+Tracy Kuhrt: So i'm hopefully some some good commentary think here on firefly i'd like to move us on in the discussion topics, so that we can reach all of our topics today.
+
+106
+00:17:16.290 --> 00:17:28.860
+Tracy Kuhrt: Just fyi for the TC that are so report did come in, I saw show up in my inbox for us to have a review, so please remember that that's out there, waiting for you to take a look at.
+
+107
+00:17:30.930 --> 00:17:44.760
+Tracy Kuhrt: And then, as far as the discussion topics go, the first thing that I wanted to do I know that the mentorship project selection task force was created last week and I know we have a short turnaround as far as the.
+
+108
+00:17:47.370 --> 00:17:59.820
+Tracy Kuhrt: As far as when we have to have the mentorship project selected, so I wanted to get see if we could get a quick update from the folks who are in that selection task force to see how it's going if there's any help that is required.
+
+109
+00:18:07.140 --> 00:18:12.660
+Tracy Kuhrt: That was Angelo Peter I can't remember the other two people who volunteered.
+
+110
+00:18:13.890 --> 00:18:14.250
+Tracy Kuhrt: Yes.
+
+111
+00:18:16.080 --> 00:18:16.860
+Tracy Kuhrt: Keep your head into.
+
+112
+00:18:18.390 --> 00:18:21.330
+Angelo De Caro: Oh no sorry sorry I thought I was amused I will.
+
+113
+00:18:22.290 --> 00:18:24.060
+Angelo De Caro: I will say that the I wanted so.
+
+114
+00:18:28.020 --> 00:18:29.010
+Tracy Kuhrt: yeah so any update.
+
+115
+00:18:29.760 --> 00:18:30.690
+Tracy Kuhrt: Angelo Daniel.
+
+116
+00:18:31.230 --> 00:18:31.620
+Peter.
+
+117
+00:18:35.850 --> 00:18:36.120
+Kamlesh Nagware: two.
+
+118
+00:18:37.230 --> 00:18:39.030
+Kamlesh Nagware: minutes some kind of.
+
+119
+00:18:40.230 --> 00:18:47.460
+Kamlesh Nagware: sense last time different point Oh, we will read it last time and see just as a confirmation that this process is correct or not.
+
+120
+00:18:47.940 --> 00:18:58.350
+Kamlesh Nagware: And then we all I think he replied to the main and he agreed like this, we can follow the process and then no Min Min will create the that particular evolution fit for them in terms of projects.
+
+121
+00:19:00.240 --> 00:19:03.540
+Tracy Kuhrt: Okay, so you guys do have a way forward about forward.
+
+122
+00:19:04.320 --> 00:19:06.300
+Tracy Kuhrt: yeah great Angela.
+
+123
+00:19:08.220 --> 00:19:19.290
+Angelo De Caro: Just to say that I saw many, many amazing proposals, so I really appreciate or older and I want to really thank all the contributors our other proposals are very good.
+
+124
+00:19:21.150 --> 00:19:34.890
+Tracy Kuhrt: Very good, good to hear all right so i'm glad that you guys have direction forward, I want to just to check in there, quickly and make sure that there was nothing that we could do to help out with that, but I will.
+
+125
+00:19:36.720 --> 00:19:40.350
+Tracy Kuhrt: Let you guys continue with that process, and hopefully come back to us.
+
+126
+00:19:40.470 --> 00:19:44.370
+Tracy Kuhrt: Here shortly with your recommendations, so that we can take this forward.
+
+127
+00:19:45.600 --> 00:19:58.410
+Tracy Kuhrt: Alright, this the next topic on the agenda is the hyper lead your documentation style guide to this is a topic that Daniel brought up into the chat and I think it was Tuesday.
+
+128
+00:19:59.400 --> 00:20:14.400
+Tracy Kuhrt: Where there's a question that exist in the the basic contributors meeting where they they want it to understand kind of what the what the hyper ledger recommendations are as far as.
+
+129
+00:20:16.830 --> 00:20:18.450
+Tracy Kuhrt: As far as.
+
+130
+00:20:19.740 --> 00:20:27.990
+Tracy Kuhrt: Guidelines around how we do documentation at hyper ledger is there anything that we have in place for style guides currently they're.
+
+131
+00:20:29.040 --> 00:20:38.280
+Tracy Kuhrt: Linking to a bunch of different style guides across a Microsoft and consensus and probably some others within the basic documentation for how they do documentation.
+
+132
+00:20:39.210 --> 00:20:44.820
+Tracy Kuhrt: So, Dan I want it to kind of have this conversation, and then I think the second piece of this is also.
+
+133
+00:20:45.450 --> 00:21:03.930
+Tracy Kuhrt: The discussion that we started last week with the grid dot hyper ledger.org and whether or not we want consistency in that today, I know I probably massacred your your request, but if there's something else that we should add to the description of what this is, please.
+
+134
+00:21:04.950 --> 00:21:10.710
+Danno Ferrin: I think you've got most of the core of it and there's about at least three threads coming up related to documentation.
+
+135
+00:21:11.160 --> 00:21:15.510
+Danno Ferrin: And it seems like there's a lot more of these questions coming up for documentation such a style.
+
+136
+00:21:16.440 --> 00:21:24.030
+Danno Ferrin: You know, for example, including the Di statements in their house where should we do that link to external styles, should we have a consistent style across.
+
+137
+00:21:24.450 --> 00:21:33.510
+Danno Ferrin: All the projects or let each individual project do their own thing, and the reason I wanted to discuss this in this group was because bobby's raising her hand and I wanted to see what her opinion was on this.
+
+138
+00:21:35.400 --> 00:21:45.630
+Bobbi Muscara: I just know that firm a documentation perspective, we had received at the learning materials working group some documents from the marketing committee.
+
+139
+00:21:46.080 --> 00:21:52.050
+Bobbi Muscara: So on the homepage right up front there's a hyper ledger style master template which has.
+
+140
+00:21:52.350 --> 00:22:06.480
+Bobbi Muscara: PowerPoint slides as to what hyper ledger uses for their style it's not a build your documentation style guide I know we have the beginnings of that somewhere else, like what format, we should use to create documentation.
+
+141
+00:22:07.320 --> 00:22:19.410
+Bobbi Muscara: In that way, but that'll get you a head start as to what hyper ledger has put out publicly as the style and master template and it's just a link to a Google drive and put it in the chat.
+
+142
+00:22:20.070 --> 00:22:23.130
+Danno Ferrin: About asked where that link is on the front page, but the chaplain would be great.
+
+143
+00:22:25.860 --> 00:22:32.910
+Tracy Kuhrt: I think I think those templates are mostly for presentations that we would do within hyper ledger.
+
+144
+00:22:34.230 --> 00:22:47.460
+Tracy Kuhrt: So I think Daniel you're talking more about the read the Doc sites or whatever the documentation site is, it is the user guides and the developer guides and the contributor guides and those sorts of things is that right there.
+
+145
+00:22:48.150 --> 00:22:55.950
+Danno Ferrin: right that was more like your presentations and outward focus things are one thing, but when people come in look and how to use the projects, what the standard should we.
+
+146
+00:22:56.310 --> 00:23:01.080
+Danno Ferrin: Should we go to use the ducks we loaded all the wiki should be load some stuff in the wiki should we use.
+
+147
+00:23:01.980 --> 00:23:09.480
+Danno Ferrin: wiki docs inside of github Those are some of the do we want to standardize those things really wanting to projects, the freedom to do their own thing.
+
+148
+00:23:09.750 --> 00:23:18.420
+Danno Ferrin: is more, the scope of the question I was, I was looking for rather than us questioning whether we use active or passive descriptions we're talking about configuration options.
+
+149
+00:23:18.660 --> 00:23:22.980
+Danno Ferrin: Now those I think we don't need to go into that level of description, but I think of a higher level.
+
+150
+00:23:23.700 --> 00:23:32.940
+Danno Ferrin: Infrastructure experience, how do you come in and experience, the document might be some of the more valuable things and products might be happy, having different entry points that's an option to.
+
+151
+00:23:35.310 --> 00:23:43.560
+Tracy Kuhrt: Read i'm going to skip you for a moment, because I wanted to see if that'd be has feedback on the conversation that we're currently having before we move on.
+
+152
+00:23:44.070 --> 00:23:50.490
+Bobbi Muscara: i'll do is, we also have on the learning materials working group, a best practice page which.
+
+153
+00:23:52.170 --> 00:23:58.590
+Bobbi Muscara: Basically, gives the start of what we're talking about for all the different standards for use cases white papers.
+
+154
+00:23:58.950 --> 00:24:14.340
+Bobbi Muscara: webinars courses and chapters that whole thing um, it is not complete, because our numbers have diminished at the learning materials working group, but it would be something that I would be interested in pursuing to get that down and get that something that Community can use.
+
+155
+00:24:15.900 --> 00:24:16.680
+Tracy Kuhrt: Thanks buddy.
+
+156
+00:24:19.980 --> 00:24:20.070
+Aruna S M: yeah.
+
+157
+00:24:21.180 --> 00:24:31.230
+Aruna S M: Thanks Tracy so I guess my, I just wanted to understand more, the reason why this kind of question is coming up so let's say we have multiple projects it's.
+
+158
+00:24:31.620 --> 00:24:40.560
+Aruna S M: it's difficult for us to standardize across all different kind of project how the documentation should be structured around our probably what we can.
+
+159
+00:24:41.280 --> 00:24:49.860
+Aruna S M: Help through or what we can think through is he does this documentation cover away for somebody to go back to let's say.
+
+160
+00:24:50.760 --> 00:24:58.230
+Aruna S M: search for other options at hyper ledger or probably understand what hyper ledger is and how far can we get involved and.
+
+161
+00:24:58.800 --> 00:25:15.540
+Aruna S M: What does the mission and vision statement for each for each of the project, when we can define these kind of things as opposed to defining the structure around the project documentation itself so it's kind of abstract for me still to think through anything for this proposal.
+
+162
+00:25:17.100 --> 00:25:19.890
+Tracy Kuhrt: yeah, so I think if I had to.
+
+163
+00:25:20.100 --> 00:25:21.150
+Tracy Kuhrt: I had to take a.
+
+164
+00:25:21.330 --> 00:25:25.080
+Tracy Kuhrt: stab at this kind of off the top my head.
+
+165
+00:25:26.490 --> 00:25:45.060
+Tracy Kuhrt: I would think about the different sorts of run recommendations we would want to make guidelines, if you will, for the sorts of things that we should make sure we're, including in our documentation, the same way as we have guidelines for.
+
+166
+00:25:46.200 --> 00:25:56.160
+Tracy Kuhrt: What we should include in the repo structure right, so we say we should include read me and the mentors and the contributing and then sorts of things.
+
+167
+00:25:56.670 --> 00:26:12.360
+Tracy Kuhrt: I think we can do a very similar sort of things with recommendations for why think we would want to include in each of the different documents be then you know the inclusive language guidelines that we provided.
+
+168
+00:26:13.560 --> 00:26:29.850
+Tracy Kuhrt: You know, thinking about the different audiences that might exist as we would want them to be able to to come in and experience, our projects from a documentation perspective from people who are using the projects to people who want to develop within the projects to people.
+
+169
+00:26:31.110 --> 00:26:31.470
+Tracy Kuhrt: You know.
+
+170
+00:26:32.700 --> 00:26:40.800
+Tracy Kuhrt: Who even want to become a maintainer right, I know, in the fabric admin teaching their stuff about the steps that it takes to become a maintainer and.
+
+171
+00:26:41.790 --> 00:26:58.680
+Tracy Kuhrt: I think, even the basic one has information about what it takes to become a maintainer so I this was things that I was looking at actually when we were when I was reviewing the firefly report to thinking about that, so I know I ran across those in our different projects.
+
+172
+00:27:00.240 --> 00:27:12.840
+Tracy Kuhrt: So I think you know you know correct me if i'm wrong, but I mean, I think that would be the start and then I don't know if there's other things that you would expect to see as far as guidelines or recommendations for for what we would include in documentation.
+
+173
+00:27:13.920 --> 00:27:21.450
+Danno Ferrin: Right, I think that's anything beyond death threats getting into how technical steering when the steering become direction.
+
+174
+00:27:22.620 --> 00:27:36.510
+Danno Ferrin: I think yeah the High Level stuff just standard places to enter standard things to expect, I think, would be a good start um does the learning materials Working Group have a regular meeting, maybe I should call him there to get a feel for what's going on there.
+
+175
+00:27:36.930 --> 00:27:40.470
+Bobbi Muscara: Yes, we meet every other Monday at 1pm it's on the calendar.
+
+176
+00:27:41.160 --> 00:27:41.580
+Danno Ferrin: Okay.
+
+177
+00:27:42.510 --> 00:27:44.010
+Bobbi Muscara: And I put the link to the.
+
+178
+00:27:44.490 --> 00:27:47.400
+Bobbi Muscara: I put the link to the template guide in the discord.
+
+179
+00:27:48.330 --> 00:27:49.440
+Danno Ferrin: Okay, thanks.
+
+180
+00:27:51.960 --> 00:27:53.910
+Tracy Kuhrt: Bobby the time zone 1pm.
+
+181
+00:27:55.260 --> 00:27:56.490
+Bobbi Muscara: Eastern daylight time.
+
+182
+00:27:56.790 --> 00:27:57.210
+Tracy Kuhrt: Thank you.
+
+183
+00:27:59.670 --> 00:28:01.050
+Tracy Kuhrt: Okay um.
+
+184
+00:28:02.370 --> 00:28:03.000
+Tracy Kuhrt: So.
+
+185
+00:28:04.290 --> 00:28:07.770
+Tracy Kuhrt: Other thoughts on on whether or not this makes sense.
+
+186
+00:28:08.790 --> 00:28:16.440
+Tracy Kuhrt: If we want to continue down this road, if we want to see about building on what the learning materials working group already has in place.
+
+187
+00:28:24.240 --> 00:28:29.910
+Danno Ferrin: i'm thinking i'm gonna call the learning materials group that invite anybody else interested to call him respects Monday.
+
+188
+00:28:30.630 --> 00:28:31.770
+Danno Ferrin: Okay, so you have.
+
+189
+00:28:31.950 --> 00:28:38.790
+Danno Ferrin: A lot of their hands around what needs to be done already, and have a good understanding of what the gaps are what the needs to maybe.
+
+190
+00:28:39.960 --> 00:28:40.290
+Tracy Kuhrt: Okay.
+
+191
+00:28:41.340 --> 00:28:41.790
+Tracy Kuhrt: um.
+
+192
+00:28:42.840 --> 00:28:56.760
+Tracy Kuhrt: Well, the next topic is brainstorming creation of task forces do we think this requires a task force that we should add in our attitudes box or do we think that learning materials working.
+
+193
+00:28:57.330 --> 00:29:00.000
+Bobbi Muscara: I think that's kind of the job of the learning material okay.
+
+194
+00:29:00.600 --> 00:29:04.200
+Tracy Kuhrt: Perfect I will leave it up to you guys then to.
+
+195
+00:29:04.710 --> 00:29:05.670
+Tracy Kuhrt: to drive that forward.
+
+196
+00:29:07.260 --> 00:29:17.550
+Tracy Kuhrt: and definitely come back to the TC right we think you have something that is is worthwhile, I think we can definitely put this out on tlc hyper ledger.org is a guideline.
+
+197
+00:29:18.600 --> 00:29:20.850
+Tracy Kuhrt: Similar to some of the other guidelines that we have.
+
+198
+00:29:26.220 --> 00:29:26.550
+Tracy Kuhrt: Okay.
+
+199
+00:29:26.820 --> 00:29:27.150
+Good.
+
+200
+00:29:28.590 --> 00:29:29.640
+Tracy Kuhrt: All right, then.
+
+201
+00:29:30.900 --> 00:29:38.820
+Tracy Kuhrt: yeah the next the next topic is brainstorming some creation of task forces so in the last meeting I think I heard loud and clear.
+
+202
+00:29:39.600 --> 00:29:56.940
+Tracy Kuhrt: That we think that task forces or maybe the the right way to go the right way to get people involved and participating in things that they're interested in and then really driving forward a particular work product as as those task forces me and.
+
+203
+00:29:58.080 --> 00:30:06.270
+Tracy Kuhrt: Do a specific task and then come back to the PC with their recommendations and how they would like to move something forward.
+
+204
+00:30:06.750 --> 00:30:19.230
+Tracy Kuhrt: So hopefully I heard that right, I felt like you guys are screaming at me that that's what you want it, so if I didn't hear that right um let's have that discussion, first, before we move forward.
+
+205
+00:30:24.630 --> 00:30:31.260
+Tracy Kuhrt: Right, nobody screaming at me the opposite way so i'll take it that I did hear that right, the.
+
+206
+00:30:33.030 --> 00:30:41.670
+Tracy Kuhrt: So I think the first step that I want to take here is really just doing some brainstorming right, I tried to capture some of the things that I heard in the last meeting.
+
+207
+00:30:42.090 --> 00:30:53.400
+Tracy Kuhrt: which you can see in this checklist below around documenting the tsp responsibilities some gap analysis of what we might be missing the third to the public blockchain ecosystem.
+
+208
+00:30:54.390 --> 00:30:59.460
+Tracy Kuhrt: I don't think that came up during a call, but it did come up in a conversation that I had immediately following the call.
+
+209
+00:31:00.810 --> 00:31:07.440
+Tracy Kuhrt: And it's maybe a bit more on the technical steering side, if you will, right thinking about what projects we might be missing.
+
+210
+00:31:08.220 --> 00:31:25.110
+Tracy Kuhrt: Within the hyper ledger ecosystem that we should think about how we bring into hyper ledger standardizing certain pieces of the technology that we have within hyper ledger that was also another topic that came up offline and it was more technical in focus.
+
+211
+00:31:26.250 --> 00:31:38.520
+Tracy Kuhrt: And then the other pieces here are things that we've had on the agenda before, but I think, maybe just require us to go off and have very dedicated time focus to.
+
+212
+00:31:39.360 --> 00:31:51.870
+Tracy Kuhrt: Project health dashboards that we can work with the fx insights team on, and then the project families website revamp that we've been talking about at least in.
+
+213
+00:31:53.400 --> 00:32:09.750
+Tracy Kuhrt: Well, I think, for a while, but also directly in one of the meetings that we had this past month, so with that i'm going to see if we have any other ideas for task forces that people might be interested in starting as we, as we move forward.
+
+214
+00:32:25.110 --> 00:32:26.550
+Danno Ferrin: is a quite a good start to me.
+
+215
+00:32:27.630 --> 00:32:28.050
+Tracy Kuhrt: Okay.
+
+216
+00:32:32.010 --> 00:32:47.580
+Tracy Kuhrt: Alright, so if that's the case, then we do actually have a poll, that we can maybe decent voting on and see where we end up with what people think the top ones that we should focus on i'm daniella before we go there.
+
+217
+00:32:48.030 --> 00:32:56.520
+Daniela Barbosa: yeah, I just wanted to just highlight a couple of things and it doesn't mean that we need to add these tests for us today to the discussion.
+
+218
+00:32:57.150 --> 00:33:12.150
+Daniela Barbosa: But recently the the diversity and inclusion working group had you know they've been having conversations over the last few months in regards to taking more of a task based approach to DCI initiatives under the tlc.
+
+219
+00:33:13.110 --> 00:33:23.460
+Daniela Barbosa: So Lindsay new on who had been serving as the Chair for the DCI working group actually posted a note earlier this morning on on that list.
+
+220
+00:33:24.120 --> 00:33:38.220
+Daniela Barbosa: But obviously it's a you know, was a little bit a couple hours before the start of the the tasc, so I would anticipate that future task forces will be you know brought forward is specific to DCI initiatives, so I just want to let everybody know that.
+
+221
+00:33:39.630 --> 00:33:40.890
+Tracy Kuhrt: yeah thanks Daniela.
+
+222
+00:33:41.970 --> 00:33:44.130
+Tracy Kuhrt: I did see that email come in.
+
+223
+00:33:45.600 --> 00:33:47.400
+Tracy Kuhrt: And I do see that many things on the call.
+
+224
+00:33:48.840 --> 00:33:50.100
+Tracy Kuhrt: Lindsay welcome to the call.
+
+225
+00:33:52.020 --> 00:34:05.490
+Tracy Kuhrt: Is there any sort of task force that you know immediately off the BAT that the DCI Working Group would like to start up as they think about moving more towards this task force model.
+
+226
+00:34:06.690 --> 00:34:11.610
+Lindsay Nuon: And Tracy yeah i'm sorry about that, and thank you so much Daniela for for bridging the gap there.
+
+227
+00:34:13.170 --> 00:34:31.260
+Lindsay Nuon: I know that there were two task forces that were proposed by the Group as we've talked about the shift to this model, one was led by P or obviously the lint project, and that is finished, now the second one was more around partnerships and engagement.
+
+228
+00:34:32.610 --> 00:34:37.740
+Lindsay Nuon: And I think that is a really key element to making sure that.
+
+229
+00:34:39.060 --> 00:34:47.550
+Lindsay Nuon: We continue to you know, try to rope in different groups proactively and not just kind of waiting for people to come into the fold in the Community.
+
+230
+00:34:49.170 --> 00:35:02.460
+Lindsay Nuon: I heard somebody mentioned earlier, also that you know, one of the goals that some of the other, you know projects share is making sure that we try to hit those.
+
+231
+00:35:03.210 --> 00:35:13.380
+Lindsay Nuon: You know hit those marks to improve the diversity within projects, and I think that maybe in lieu of creating a completely you know.
+
+232
+00:35:13.800 --> 00:35:30.600
+Lindsay Nuon: different tasks were just a focus on partnerships, we think about how to work with each of the other task force to create an environment that some you know server right for folks to come and contribute who might not have been in the communities that are already present.
+
+233
+00:35:36.180 --> 00:35:52.350
+Tracy Kuhrt: And I seem to recall discussion around also is trying to bring diversity, inclusion and civility back to the tasc right from the perspective of.
+
+234
+00:35:52.950 --> 00:36:03.990
+Tracy Kuhrt: let's not have this so far removed from how we think about this on a day to day basis and putting it in a working group but thinking more of it from.
+
+235
+00:36:05.640 --> 00:36:08.100
+Tracy Kuhrt: You know how do we, how do we make sure that this is.
+
+236
+00:36:09.960 --> 00:36:19.200
+Tracy Kuhrt: A focus area it's something that is is often a group that nobody joins or doesn't doesn't participate in, so I think this is.
+
+237
+00:36:19.860 --> 00:36:30.000
+Tracy Kuhrt: Definitely, something that we could consider do we think the the partnerships and engagements for DC is something that we want to add to the pool before we start kind of voting.
+
+238
+00:36:34.590 --> 00:36:37.530
+Lindsay Nuon: yeah I would definitely like to see that that added.
+
+239
+00:36:38.460 --> 00:36:39.480
+Lindsay Nuon: I think it's an important.
+
+240
+00:36:46.920 --> 00:36:53.430
+Lindsay Nuon: I think one of the things that maybe had been thrown out early, but it was just created a seedling have an idea.
+
+241
+00:36:54.480 --> 00:37:07.170
+Lindsay Nuon: I think grace mentioned it actually was that, in the same spirit of just sort of looking across the ecosystem to see where the benchmarks word that other people had around this area.
+
+242
+00:37:07.680 --> 00:37:23.370
+Lindsay Nuon: That maybe we should go and start there to see you know if we're even setting the right goals if we're setting clear and attainable sort of benchmarks for for people to strive for so.
+
+243
+00:37:25.200 --> 00:37:26.160
+Lindsay Nuon: I think that might be.
+
+244
+00:37:27.540 --> 00:37:32.580
+Lindsay Nuon: A bit more of a you know conversation to continue rather than something to.
+
+245
+00:37:34.230 --> 00:37:37.020
+Lindsay Nuon: You know, put in a working group at this time.
+
+246
+00:37:37.410 --> 00:37:50.130
+Lindsay Nuon: But I definitely would love ideas on if the tsa has already maybe started to think about that or if other people, maybe had any interest or activity there as well already.
+
+247
+00:37:56.220 --> 00:37:58.170
+Tracy Kuhrt: yeah I don't I don't think we have.
+
+248
+00:37:58.230 --> 00:38:08.220
+Tracy Kuhrt: any specific goals that we've set other than what has come out of the the gci working group, so I do you think that that is something that.
+
+249
+00:38:10.200 --> 00:38:12.240
+Tracy Kuhrt: You know, we should continue that conversation on.
+
+250
+00:38:15.330 --> 00:38:15.780
+Lindsay Nuon: perfect.
+
+251
+00:38:16.890 --> 00:38:28.470
+Lindsay Nuon: that's totally something I think that a lot of the folks who weren't consistent attendees would love to do, I think the core of what we had all hope is that we would.
+
+252
+00:38:29.010 --> 00:38:38.250
+Lindsay Nuon: be a resource and support system to folk so that we weren't positioning ourselves to be the expert and all but that we were working to be.
+
+253
+00:38:38.760 --> 00:38:48.750
+Lindsay Nuon: A resource to each of the different projects so yeah we definitely love to continue that conversation to figure out how we how we do that in a better way going forward.
+
+254
+00:38:53.850 --> 00:39:07.230
+Kamlesh Nagware: So, to see the the list of potential task forces with the student this PC planning to create this task forces will need to vote to select a one off from the list.
+
+255
+00:39:11.520 --> 00:39:13.890
+Tracy Kuhrt: i'm not sure I understand the question are you saying.
+
+256
+00:39:15.900 --> 00:39:17.490
+Tracy Kuhrt: we're I guess.
+
+257
+00:39:18.450 --> 00:39:24.390
+Kamlesh Nagware: What i'm saying i'm saying like it was real estate document is funded based on a certain piece of Technology project health.
+
+258
+00:39:24.870 --> 00:39:37.920
+Kamlesh Nagware: gap analysis, so all is a potential workforces they're going to be created, or we need to have to select one on the task force which you to create from this test that the question.
+
+259
+00:39:38.400 --> 00:39:47.670
+Tracy Kuhrt: Okay yeah, so I think the plan was that we would basically run this as a poll to see where people's interest work.
+
+260
+00:39:48.060 --> 00:39:50.550
+Tracy Kuhrt: Maybe see what the top priority was.
+
+261
+00:39:51.000 --> 00:40:00.570
+Tracy Kuhrt: Amongst the PSC and maybe there's multiple right it doesn't have to just be one that we we start sooner rather than later.
+
+262
+00:40:01.320 --> 00:40:10.620
+Tracy Kuhrt: As as we move forward right, so that people can can start to participate in my mind i'm kind of wondering and.
+
+263
+00:40:11.550 --> 00:40:27.330
+Tracy Kuhrt: This is just a thought, and it cannot doesn't have to be right, but if we say let's say we ended up with three task forces that we thought were immediately, important that we were going to go off in and attack, if you will.
+
+264
+00:40:29.250 --> 00:40:38.190
+Tracy Kuhrt: Maybe we change the thc call to be a monthly call and the other weeks are used for running the task force calls.
+
+265
+00:40:39.330 --> 00:40:49.950
+Tracy Kuhrt: You know, for the other three weeks of the month, if you will, so I don't know if that's gonna work it really does depend on the TC and what the TC is interested in doing.
+
+266
+00:40:50.880 --> 00:41:07.290
+Tracy Kuhrt: But it was a thought about you know, is there a better way to to make sure that people are getting involved and having the time on their calendar to actually be involved, since we all have this calendar calendar slot block, if you will, and then for from there, so.
+
+267
+00:41:09.030 --> 00:41:25.020
+Tracy Kuhrt: keep that in mind, I guess, maybe as as we think about this, but it really is let's see where your interest lies, more than anything, and and if we have enough interest in a particular task force that maybe that's the passports, we kick off or the set of task forces that we kick off.
+
+268
+00:41:27.030 --> 00:41:27.630
+Kamlesh Nagware: Okay okay.
+
+269
+00:41:30.720 --> 00:41:31.620
+Jim Zhang: yeah thanks Tracy.
+
+270
+00:41:32.760 --> 00:41:41.010
+Jim Zhang: I have a specific question on the second bullet analysis I don't know if that's the right time to ask now or later.
+
+271
+00:41:41.310 --> 00:41:47.370
+Jim Zhang: Yes, yeah I feel like the debate between you know.
+
+272
+00:41:48.390 --> 00:41:56.040
+Jim Zhang: Permission chain or public chain is over, I feel, like most customer landed were both habits places.
+
+273
+00:41:57.150 --> 00:42:05.400
+Jim Zhang: Can we broaden this to what what can hyper ledger do to to encourage the.
+
+274
+00:42:07.230 --> 00:42:10.950
+Jim Zhang: The integration between public chain and permission chain.
+
+275
+00:42:12.150 --> 00:42:14.370
+Jim Zhang: There are many repeatable patterns.
+
+276
+00:42:15.600 --> 00:42:29.190
+Jim Zhang: Some things like this, not not just what can we do to make permission chain better, so we can compete with the public more favor unfavorably which I felt, is what the current wording is meant to say.
+
+277
+00:42:30.240 --> 00:42:34.170
+Tracy Kuhrt: yeah I don't think that's what I meant to say there Jim um.
+
+278
+00:42:34.860 --> 00:42:38.010
+Tracy Kuhrt: So I appreciate, you asked me that question because I do think it's.
+
+279
+00:42:39.690 --> 00:42:46.710
+Tracy Kuhrt: it's a good one right it's trying to understand what these task forces are, as we, as we decide that we're interested in them.
+
+280
+00:42:47.610 --> 00:43:06.570
+Tracy Kuhrt: I think what I was thinking about is this lends itself to if you've actually been with following the PC for a while there was a proposal, I think that Dan Middleton had put out about you know what are other projects that we should be considering bringing into hyper ledger.
+
+281
+00:43:07.920 --> 00:43:17.070
+Tracy Kuhrt: And I think I use this as a gap analysis between you know, maybe the public blockchain ecosystem, because it was something we could compare to.
+
+282
+00:43:17.910 --> 00:43:29.400
+Tracy Kuhrt: Not that we are better or worse or that it's an either or sort of question but Are there things in that space that we should be thinking about that we're not currently thinking about because.
+
+283
+00:43:30.570 --> 00:43:39.720
+Tracy Kuhrt: It just hadn't occurred to us that we should be so I to me i'm thinking more about when I think about this, what are the projects that we're missing within the hyper ledger.
+
+284
+00:43:40.500 --> 00:43:47.850
+Tracy Kuhrt: so happy to reward that if it if it helps as people are trying to think about the task forces that they would be interested in.
+
+285
+00:43:49.140 --> 00:43:49.530
+Tracy Kuhrt: Lindsay.
+
+286
+00:43:57.990 --> 00:44:15.810
+Lindsay Nuon: is just a link for everybody's reference, because I think it would be helpful to just have a top of mine is what the you know current process is for the creation or sort of dissolution of working i'm sorry task task forces.
+
+287
+00:44:17.670 --> 00:44:29.010
+Lindsay Nuon: And if we're going to put a little bit more structure around that if it's a voting system or whatever, or if we're changing that completely and proposing something new just curious about that as well.
+
+288
+00:44:34.980 --> 00:44:42.870
+Tracy Kuhrt: So you broke up right at the beginning, I didn't hear you, so I think the question is around.
+
+289
+00:44:45.120 --> 00:44:47.700
+Tracy Kuhrt: What are these thoughts horses or did I.
+
+290
+00:44:47.910 --> 00:44:51.300
+Lindsay Nuon: get no no i'm sorry my connection is global.
+
+291
+00:44:52.980 --> 00:45:13.200
+Lindsay Nuon: My question was around the creation, the process for for task forces is going to be, you know you kind of informal going forward where people just propose and then you vote in a sort of ad hoc way, or is there going to be, you know more structure to the process.
+
+292
+00:45:14.520 --> 00:45:16.560
+Tracy Kuhrt: yeah so we actually do have.
+
+293
+00:45:16.680 --> 00:45:23.790
+Tracy Kuhrt: A Lindsay a task force guide that we had put out this is sort of outside of that guide, if you will.
+
+294
+00:45:24.930 --> 00:45:39.150
+Tracy Kuhrt: But I will put this in the TC beating thread on discord it's a link to kind of when this question had come up before around, how do you propose a task force, with the approval process, how do we report on.
+
+295
+00:45:39.750 --> 00:45:52.050
+Tracy Kuhrt: Completion of the deliverables, how do we request an extension on the completion date so well these task forces here are more coming out of the meeting that we had last week of you know, we think we can.
+
+296
+00:45:53.400 --> 00:45:59.310
+Tracy Kuhrt: do things better if we start to work with task forces more than trying to.
+
+297
+00:46:00.780 --> 00:46:03.720
+Tracy Kuhrt: participate in these PAC meetings and such.
+
+298
+00:46:04.800 --> 00:46:17.040
+Tracy Kuhrt: I don't know that you know we've necessarily come to any sort of agreement on how these task forces will run as far as like what their timelines are what this what the actual work products are.
+
+299
+00:46:18.060 --> 00:46:26.130
+Tracy Kuhrt: I think, to me, I wanted to just see if these were interesting task forces that the TC was interested in and looking at or if.
+
+300
+00:46:27.360 --> 00:46:31.260
+Tracy Kuhrt: You know, we were I was going down the wrong path, more than anything.
+
+301
+00:46:33.000 --> 00:46:34.050
+Tracy Kuhrt: So hopefully that helps.
+
+302
+00:46:36.870 --> 00:46:45.150
+Lindsay Nuon: yeah that definitely helps quite a bit yeah just your market for further discussion pretty much but thank you so much for that appreciate it.
+
+303
+00:46:45.540 --> 00:46:46.890
+Tracy Kuhrt: yeah no problem, no problem.
+
+304
+00:46:48.060 --> 00:46:49.650
+Tracy Kuhrt: Any any other questions.
+
+305
+00:46:49.980 --> 00:46:52.590
+Tracy Kuhrt: And kind of these tests forces what they mean.
+
+306
+00:46:53.670 --> 00:46:54.270
+Tracy Kuhrt: Jim I did.
+
+307
+00:46:55.320 --> 00:46:59.640
+Tracy Kuhrt: This hadn't refreshed on the screen, but I have updated the poll to reflect a.
+
+308
+00:47:00.660 --> 00:47:03.150
+Tracy Kuhrt: change in that second one two more.
+
+309
+00:47:05.190 --> 00:47:12.000
+Tracy Kuhrt: let's just say what projects are we missing within hyper ledger So hopefully yeah thanks for whoever did the refresh.
+
+310
+00:47:13.230 --> 00:47:24.660
+Tracy Kuhrt: You can see kind of the current set my plan is at this point to take five minutes and have you log into confluence to a pull that i'm going to put in the chat and have you guys.
+
+311
+00:47:25.500 --> 00:47:32.460
+Tracy Kuhrt: fill it out to see which one kind of shows up as a as one that you guys are interested in participating in.
+
+312
+00:47:34.080 --> 00:47:35.910
+Tracy Kuhrt: So hopefully you guys are all on discord.
+
+313
+00:47:37.290 --> 00:47:44.220
+Tracy Kuhrt: And we copy mine like again cuz I think i'll end up copying the thc one if I don't copy again and.
+
+314
+00:47:45.630 --> 00:47:50.160
+Tracy Kuhrt: Have a look at the link that I just put under the.
+
+315
+00:47:52.140 --> 00:47:52.950
+Tracy Kuhrt: Meeting chat.
+
+316
+00:47:54.600 --> 00:47:59.670
+Tracy Kuhrt: The thread, specifically, let me know if you guys can't find it and i'll make sure you guys.
+
+317
+00:48:01.050 --> 00:48:03.360
+Tracy Kuhrt: can see that, in one way or another.
+
+318
+00:48:06.270 --> 00:48:18.660
+Tracy Kuhrt: So from here, you should be able to log into conference click on whichever ones you're interested in and in the end we'll see a chart come up to see which ones float to the top.
+
+319
+00:48:24.120 --> 00:48:24.540
+Ry Jones: or no.
+
+320
+00:48:26.700 --> 00:48:27.060
+Arnaud J Le Hors (IBM): Thanks.
+
+321
+00:48:28.950 --> 00:48:31.350
+Arnaud J Le Hors (IBM): I want to go back to the scheduling aspect.
+
+322
+00:48:31.410 --> 00:48:32.340
+Arnaud J Le Hors (IBM): Because it was.
+
+323
+00:48:32.400 --> 00:48:43.800
+Arnaud J Le Hors (IBM): You know I really like the idea, you went a bit too far and saying hey maybe we have yet to see call once a month and use the slot for the task forces but.
+
+324
+00:48:44.220 --> 00:48:55.050
+Arnaud J Le Hors (IBM): You know, maybe it's not you know we don't drastically cut down to once a month, but maybe we using the same slot with having just maybe you could skip every.
+
+325
+00:48:55.440 --> 00:49:05.310
+Arnaud J Le Hors (IBM): Every every other every you know every three calls to make room for the task forces, I think it does have an impact because i'm sure others feel the same i'm like.
+
+326
+00:49:05.670 --> 00:49:15.840
+Arnaud J Le Hors (IBM): Oh man yet another call to fit into my schedule this is much harder and in fact I would think that it's hard to tell.
+
+327
+00:49:16.350 --> 00:49:30.660
+Arnaud J Le Hors (IBM): I mean, for the sake of the exercise we can put aside the scheduling aspect and just answer based on pure interest but I suspect the answer in practice will be different this is done, whether it is.
+
+328
+00:49:30.990 --> 00:49:37.830
+Arnaud J Le Hors (IBM): within existing time slots that are already blocked by the thc or if it's something that's going to be added to the agenda.
+
+329
+00:49:39.510 --> 00:49:40.350
+Arnaud J Le Hors (IBM): You know what I mean.
+
+330
+00:49:40.590 --> 00:49:57.510
+Tracy Kuhrt: yeah I do I do, and I think that's really for us to decide what works best for everyone um you know I think I think we've been trying with our task forces to do this as a separate call which I don't know if that has helped us or not.
+
+331
+00:50:00.120 --> 00:50:01.620
+Tracy Kuhrt: But I you know.
+
+332
+00:50:02.640 --> 00:50:06.180
+Tracy Kuhrt: Definitely, would like to to have that discussion and see what we do.
+
+333
+00:50:07.380 --> 00:50:10.230
+Tracy Kuhrt: And where it is that we spend some time here.
+
+334
+00:50:10.830 --> 00:50:28.530
+Arnaud J Le Hors (IBM): The other comment I would make on this is, you know my experience i've been spending quite a few task forces over the years and the most successful ones are those that have a fairly narrow scope, where you are very achievable goals within a limited time frame.
+
+335
+00:50:28.800 --> 00:50:42.600
+Arnaud J Le Hors (IBM): Yes, once once things start to be a bit more vague as to what the end goal is then you quickly lose attention and and it's hard to keep people motivated and calling in all the time.
+
+336
+00:50:44.130 --> 00:50:53.220
+Tracy Kuhrt: yeah completely agree and I hope these are all very small in their what their work scope is and not teach.
+
+337
+00:50:54.660 --> 00:50:59.640
+Tracy Kuhrt: As we look at them if that's not the case and let's break them down even further if we need to.
+
+338
+00:51:03.930 --> 00:51:07.140
+Tracy Kuhrt: Alright, I see that we have at least five people who have voted.
+
+339
+00:51:08.760 --> 00:51:10.020
+Tracy Kuhrt: Maybe more at this point.
+
+340
+00:51:12.120 --> 00:51:26.010
+Tracy Kuhrt: So if you haven't had an opportunity, yet or you don't know where to find it, let me know i'm happy to send out the link, you can also click on the task force would be, would you be interested in participating directly from the agenda link.
+
+341
+00:51:27.840 --> 00:51:35.640
+Kamlesh Nagware: Yes, I think this one when Task Force idea about the public locked in various it and not.
+
+342
+00:51:35.970 --> 00:51:45.270
+Tracy Kuhrt: wanted to open the day yeah so it became the what projects are we missing within hyper ledger so that we were comparing directly to the public blockchains okay.
+
+343
+00:51:49.410 --> 00:51:49.620
+yep.
+
+344
+00:51:51.030 --> 00:51:51.240
+Kamlesh Nagware: yep.
+
+345
+00:51:51.300 --> 00:51:51.930
+Tracy Kuhrt: No problem.
+
+346
+00:52:15.660 --> 00:52:16.140
+Tracy Kuhrt: alright.
+
+347
+00:52:17.190 --> 00:52:20.070
+Tracy Kuhrt: Maybe maybe if you've done.
+
+348
+00:52:21.660 --> 00:52:27.960
+Tracy Kuhrt: doing the poll actually to raise your hand in zoom so that we know that.
+
+349
+00:52:29.010 --> 00:52:30.390
+Tracy Kuhrt: we're not waiting on anybody.
+
+350
+00:52:37.260 --> 00:52:38.130
+Tracy Kuhrt: Jim probably.
+
+351
+00:52:40.020 --> 00:52:43.140
+Arnaud J Le Hors (IBM): Not a good time to want to say something, though.
+
+352
+00:52:43.200 --> 00:52:45.030
+Tracy Kuhrt: yeah I know.
+
+353
+00:53:02.430 --> 00:53:07.260
+Tracy Kuhrt: Alright, are the other folks need some help i'm.
+
+354
+00:53:08.670 --> 00:53:10.050
+Tracy Kuhrt: Finding the link or.
+
+355
+00:53:14.460 --> 00:53:18.510
+Tracy Kuhrt: You can I know you voted, so your hands probably up as well.
+
+356
+00:53:19.140 --> 00:53:22.620
+Arnaud J Le Hors (IBM): So I think we can use the checkbox instead the checkmark.
+
+357
+00:53:23.760 --> 00:53:24.600
+Tracy Kuhrt: checkmark say.
+
+358
+00:53:25.380 --> 00:53:25.800
+yeah.
+
+359
+00:53:27.840 --> 00:53:29.100
+Arnaud J Le Hors (IBM): that's what I just tested.
+
+360
+00:53:30.870 --> 00:53:33.870
+Arnaud J Le Hors (IBM): That way, if somebody wants to speak up, they can raise their hand still.
+
+361
+00:53:46.020 --> 00:53:46.560
+Tracy Kuhrt: alright.
+
+362
+00:53:47.940 --> 00:53:48.690
+Tracy Kuhrt: So.
+
+363
+00:53:58.230 --> 00:53:58.830
+Tracy Kuhrt: um.
+
+364
+00:53:59.910 --> 00:54:00.930
+Tracy Kuhrt: So I think.
+
+365
+00:54:02.490 --> 00:54:03.510
+Tracy Kuhrt: We have.
+
+366
+00:54:06.240 --> 00:54:25.530
+Tracy Kuhrt: The what projects are we missing within hyper ledger seems to have the most votes here, followed by the project families website revamp and the document the TC responsibilities held by the project health dashboards so there's four i've got more than one vote each.
+
+367
+00:54:33.720 --> 00:54:37.830
+Ry Jones: I didn't realize I could click on that to show who had voted, I was trying to figure out where.
+
+368
+00:54:43.380 --> 00:54:44.250
+Tracy Kuhrt: All right, so.
+
+369
+00:54:45.780 --> 00:54:49.470
+Tracy Kuhrt: yeah I think just in the last couple minutes here.
+
+370
+00:54:52.860 --> 00:55:02.130
+Tracy Kuhrt: i'd like to i'd like to see if we can kick things off so maybe i'm asking, at least for a volunteer to chair.
+
+371
+00:55:03.990 --> 00:55:06.900
+Tracy Kuhrt: The task forces that are the first for.
+
+372
+00:55:08.460 --> 00:55:12.870
+Tracy Kuhrt: Do we have anybody you'd like to speak up for the what projects are we missing within hyper ledger.
+
+373
+00:55:14.280 --> 00:55:19.320
+Tracy Kuhrt: Bobby is that a hand that the filler other hand, that you want to volunteer or hand them a question.
+
+374
+00:55:22.050 --> 00:55:22.410
+Tracy Kuhrt: Okay.
+
+375
+00:55:23.670 --> 00:55:24.330
+Bobbi Muscara: we're sorry.
+
+376
+00:55:24.720 --> 00:55:26.250
+Tracy Kuhrt: No, no it's all good all good.
+
+377
+00:55:27.900 --> 00:55:31.530
+Tracy Kuhrt: Any any volunteers for the what projects are witnessing within the hyper ledger.
+
+378
+00:55:39.750 --> 00:55:42.150
+Kamlesh Nagware: yeah I wouldn't be wouldn't get it.
+
+379
+00:55:43.230 --> 00:55:45.030
+Tracy Kuhrt: Alright, so um.
+
+380
+00:55:46.200 --> 00:55:47.340
+Tracy Kuhrt: I think you know.
+
+381
+00:55:48.720 --> 00:55:49.560
+Tracy Kuhrt: Maybe the.
+
+382
+00:55:49.590 --> 00:56:01.710
+Tracy Kuhrt: question is back to the the timing issue, do we want to try and set things up a separate meeting for do we want to set them up as meetings that run in line with the PC calls.
+
+383
+00:56:07.980 --> 00:56:09.810
+Kamlesh Nagware: See con meeting is that I.
+
+384
+00:56:15.180 --> 00:56:17.430
+Ry Jones: Since we have four we could.
+
+385
+00:56:18.450 --> 00:56:27.390
+Ry Jones: You know, have the first half hour one week does one second half hours, the other, and then the tlc meets every three weeks.
+
+386
+00:56:34.980 --> 00:56:42.030
+Lindsay Nuon: You can also start you know the beginning for my general announcements, or you know.
+
+387
+00:56:43.140 --> 00:56:45.660
+Lindsay Nuon: items on the table and then do breakouts.
+
+388
+00:56:51.840 --> 00:56:53.100
+Tracy Kuhrt: These are all good idea.
+
+389
+00:56:54.960 --> 00:56:55.470
+Tracy Kuhrt: A room.
+
+390
+00:56:55.800 --> 00:56:56.700
+Tracy Kuhrt: You put your hand up.
+
+391
+00:56:57.780 --> 00:57:03.240
+Aruna S M: yeah, I just wanted to speak upon this part it's been hard to recruit people on the task force itself.
+
+392
+00:57:03.630 --> 00:57:09.540
+Aruna S M: And there are definitely people who would be interested, who will join every time there is a task force meeting called for.
+
+393
+00:57:10.320 --> 00:57:25.080
+Aruna S M: But I guess reusing tsa meeting is probably going to benefit us, and I mean that's a committed time and we could potentially ask more people to join and see let them see what we as a tsa to.
+
+394
+00:57:27.540 --> 00:57:27.870
+Tracy Kuhrt: Okay.
+
+395
+00:57:28.320 --> 00:57:30.090
+Tracy Kuhrt: So we're at the top of the hour.
+
+396
+00:57:30.420 --> 00:57:40.950
+Tracy Kuhrt: Let me take as an action item to write out a few options, maybe have us think about those options and respond back on the TC mailing list.
+
+397
+00:57:41.460 --> 00:57:42.930
+Tracy Kuhrt: To which option you think works.
+
+398
+00:57:42.930 --> 00:57:43.350
+best.
+
+399
+00:57:44.760 --> 00:57:49.350
+Tracy Kuhrt: As we move forward so apologize for running long today guys.
+
+400
+00:57:50.490 --> 00:57:57.210
+Tracy Kuhrt: I will get that email out and hopefully we can get started on these task forces as we move forward.
+
+401
+00:57:58.530 --> 00:57:59.790
+Tracy Kuhrt: So thank you for joining today.
+
+402
+00:58:03.480 --> 00:58:04.530
+See you guys next Tracy.
+
+403
+00:58:06.000 --> 00:58:06.570
+Lindsay Nuon: hi everybody.
+

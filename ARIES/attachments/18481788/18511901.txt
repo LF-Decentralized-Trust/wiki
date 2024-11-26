@@ -1,0 +1,17 @@
+00:53:02	Richard Esplin:	It was released last Friday.
+00:53:31	Richard Esplin:	Sorry, wrong chat.
+00:58:36	John Callahan:	I like it… predefined identities are like the example.com for us
+01:03:28	John Callahan:	gotta roll guys… good call
+01:09:48	Sam Smith:	https://github.com/hyperledger/aries-rfcs/issues/130
+01:09:57	Kyle Den Hartog:	thanks
+01:21:36	Daniel Hardman:	https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0005-didcomm#rough-overview
+01:29:16	George Aristy:	 Adopt ES256K JWT as Credential Format: https://github.com/decentralized-identity/interop-project/issues/5
+01:32:20	Oliver Terbu:	The presentation is incomplete and needs some sort of nonce (see W3C VC spec).
+01:32:28	Oliver Terbu:	W3C presentation
+01:32:46	Kyle Den Hartog:	the ID should cover this
+01:32:54	George Aristy:	Browse to the second-to-last message
+01:33:23	Kyle Den Hartog:	I'm not sure if that's a compliant name on that though @oliver
+01:33:54	Oliver Terbu:	you could also use the jti. In general, the w3c spec allows any additional claims in the W3C verifiable presentation.
+01:34:33	Oliver Terbu:	I just wanted to add that the W3C presentation example in the link is not complete
+01:34:41	Oliver Terbu:	but there are solutions :)
+01:34:52	Kyle Den Hartog:	ahh gotcha 👌

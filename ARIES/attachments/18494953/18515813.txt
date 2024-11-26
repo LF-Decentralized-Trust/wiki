@@ -1,0 +1,31 @@
+08:09:15	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2021-12-14+Aries+Summit+Session
+08:23:21	 From  Clecio Varjao : Can't the invitation to connect have some tag/metadata that informs the user why the invitation? (e.g.: I want to send you a credential, I want to verify your access to my website, …)?
+08:27:18	 From  Nathan George : Sure , but it is reasonable to want the counter party to back that up with signatures/verifiability
+08:27:42	 From  Paul Bastian : we had a similar discussion in germany as well: I mirrored our thoughts in the DIF Wallet Security WG some weeks ago here: https://hackmd.io/6hUuZIjGQpeLVAqcxdakZA#Trusted-verifiers-and-also-issuers
+08:31:40	 From  Stephen Curran : Note — remove the dangling connection from the UI, but not necessarily from the history.
+08:37:38	 From  Paul Bastian : If we use credentials for trust basis, the wallet could ask as a proof_request or the verifier could offer in presentation_proposalas an automic process
+08:50:28	 From  Akiff Manji : Interesting thoughts about connection maintenance from the side of the Issuer/Verifier but specified by the holder
+09:00:54	 From  Alex Metcalf : Back to my contribution from before: there’s almost the potential for a connection state (with multiple values) that defines the level or type of trust assigned to a connection by the human holder.
+09:01:42	 From  Alex Metcalf : *Connection attribute, not state
+09:04:05	 From  Paul Bastian : I also see a slightly dangerous complexity in adding states to connections, but anyway the wallet needs to store information about each connection's trust for long term display
+09:06:07	 From  Alex Metcalf : Agreed
+09:11:56	 From  Paul Bastian : in our draft for trusted verifiers had 2 different level for authenticated and trusted
+09:12:55	 From  Stephen Curran : Are these updates to Aries RFPs?
+09:12:55	 From  Alex Metcalf : Authenticated, that’s a good word, we’re strengthening the authentication here.
+09:12:59	 From  Paul Bastian : authenticated - I know whom I'm taking to, trusted=verifier is explicitly listed in a trust registry
+09:16:10	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2021+Aries+Mobile+Summit
+09:21:26	 From  Paul Bastian : I havent participated the other summit sessions unfortunately
+09:32:27	 From  Kimberly Nguyen : Credential UX- Theming can be facilitated using overlay bundles and SVG- Review Horatio's work on SVG credential display: https://github.com/hyperledger/aries-rfcs/pull/694/files?short_path=c91c22b#diff-c91c22b4e711690c9d2dc4c3830300ba7a1e7fa0af70e100922f13aa43c87a6e- Horatio and Sebastien to work on Bifold and Lissi for compatible display- Stephen to work on an overlay layer type- risk: may give organizations too much control on the look and feel of a credential
+09:45:40	 From  Kimberly Nguyen : Also, it's really important to ensure we can translate what the error is in human terms
+09:46:38	 From  Kimberly Nguyen : and ideally be able to provide some sort of steps people may be able to take to fix the error
+09:52:32	 From  Alex Metcalf : As we’re setting scope, I think discussions about error handling have to be had in the context of a notifications system, e.g. a notification is generated if an error happens when the user isn’t in the context of that process.
+09:52:48	 From  Akiff Manji : Could it help to standardize the errors for Agents that are AIP compatible?
+09:53:15	 From  Akiff Manji : Is in can we start with those protocols
+09:53:54	 From  Alex Metcalf : There can be standardized guidance 😄
+09:56:35	 From  Akiff Manji : So we can use SHOULD instead of MUST
+09:57:28	 From  Akiff Manji : Lets get the conversation going to start with
+09:57:36	 From  Akiff Manji : +1
+09:59:53	 From  Alex Metcalf : 70 > 0
+10:00:08	 From  Akiff Manji : Very valuable
+10:01:53	 From  Kimberly Nguyen : Yes thank you for organizing these. It's very interesting to see the technical side of the work done to solve ux/ui problems. I'm glad that I'm seeing the feasibility of the improvement concepts we're working on :D
+10:03:54	 From  Kimberly Nguyen : Bye!

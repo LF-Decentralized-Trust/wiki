@@ -1,0 +1,1538 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:05.770
+Sam Curren (TelegramSam): Awesome welcome everyone to the
+
+2
+00:00:05.990 --> 00:00:10.130
+Sam Curren (TelegramSam): twenty-first of June 2023 areas were a group call.
+
+3
+00:00:10.140 --> 00:00:29.520
+Sam Curren (TelegramSam): Got some cool stuff to talk about today. Pretty excited about it. This is a hyper ledger call, and so the antitrust policy in the code of conduct are in effect, here in the notes there are links. Please reach out to Steven or I, or any hyper ledger leadership. If you have issues and we will get them sorted so they can not get in the way of our work.
+
+4
+00:00:29.840 --> 00:00:39.080
+Sam Curren (TelegramSam):  the agenda is in the chat, the gender link. You're welcome to make any changes useful to the community. Is there anyone new today that would like to introduce themselves?
+
+5
+00:00:46.340 --> 00:00:48.469
+Sam Curren (TelegramSam): We are glad you're all here.
+
+6
+00:00:49.030 --> 00:00:53.910
+Sam Curren (TelegramSam): announcements. It looks like there's a new announcement here for the areas marketing working group.
+
+7
+00:00:56.300 --> 00:01:05.149
+Helen Garneau: Yeah. Hi, good morning. Everyone. My name is Helen Garnell. I do. Marketing for Indo. I also chair the
+
+8
+00:01:05.170 --> 00:01:13.800
+Helen Garneau: Marketing Committee for Hyper Ledger with the membership here at Hyper Ledger, and I've been working with Alex
+
+9
+00:01:14.190 --> 00:01:24.979
+Helen Garneau: Metcalf and some other folks in the community talking a little bit about kind of the outcome of the last few Aries calls where it sounds like there is a need to update
+
+10
+00:01:25.040 --> 00:01:41.840
+Helen Garneau: messaging, branding descriptions the whole, the whole kit and caboodle when it comes to dairy's brand. So we are, gonna get together in a, we're kind of a a working group. Maybe it's a task force. I don't know whatever the appropriate
+
+11
+00:01:41.840 --> 00:02:01.869
+Helen Garneau: languages for for this type of or a group. But get together and start working through some of the updates. regarding branding. So if you have an interest in contributing to the discussions. Interest in adding, you know, chain anything from everything's on the table, anything from
+
+12
+00:02:02.020 --> 00:02:23.920
+descriptions, Logos, whatever you think would be helpful. please attend. If there's somebody else on your teams from your organization. That is is a marketer who might be interested in joining. We, you know, open arms for anybody who wants to roll up their sleeves and help out with this these items. So I put the information there for the group that we're going to meet next Tuesday, 9 and Pacific.
+
+13
+00:02:23.920 --> 00:02:43.750
+Helen Garneau: And there's the zoom link. I am on discord. So if you have any questions or thoughts or whatever ahead of time. Please don't hesitate to tag me there. In the areas groups or direct message. Alex, did you have any other thoughts or call outs at this time for that. The announcement of the group.
+
+14
+00:02:44.140 --> 00:03:00.260
+Alex Metcalf: not for the group. It's an activities going behind the scenes, Bob, probably save that for the working group meeting. So yeah, please come in. And interesting, contributing to any level, it could be very high level as well communicate out the chain. Not just def specific stuff. So all input is welcome on
+
+15
+00:03:00.310 --> 00:03:03.749
+Alex Metcalf: talking about and sharing the great work that is being done here
+
+16
+00:03:04.840 --> 00:03:20.419
+Sam Curren (TelegramSam): also, lurking is welcome. If you're just interested in listening. we have a bunch of folks in the community that are speak up a lot, and we have a bunch that just listen. And every type of interaction that you desire is is perfectly appropriate. So
+
+17
+00:03:21.650 --> 00:03:22.870
+Sam Curren (TelegramSam): thank you.
+
+18
+00:03:22.980 --> 00:03:29.120
+Sam Curren (TelegramSam): Helen and Alex and anyone else involved for your work, putting that together and your work on the marketing stuff.
+
+19
+00:03:29.500 --> 00:03:30.669
+Helen Garneau: for sure, for sure.
+
+20
+00:03:31.350 --> 00:03:35.509
+Helen Garneau: Oh, I saw John came off mute. John, did you have any kind thoughts on this.
+
+21
+00:03:35.710 --> 00:03:37.069
+John Jordan: No, I just
+
+22
+00:03:37.300 --> 00:03:49.530
+John Jordan: my no, my wife puts it on mute because I can't unmute myself. Oh, no worries. So I just sit. I alert quietly, with mute off, hey, we we love Lurker, as we said, Okay, thank you. Bye.
+
+23
+00:03:50.800 --> 00:03:56.150
+Sam Curren (TelegramSam): awesome. Very cool Any projects. Want to highlight any updates
+
+24
+00:03:57.720 --> 00:04:00.370
+Sam Curren (TelegramSam): to their work.
+
+25
+00:04:03.760 --> 00:04:05.170
+Timo Glastra: I don't know if I
+
+26
+00:04:05.250 --> 00:04:09.819
+Timo Glastra: already shared it here, but it isn't updated in the
+
+27
+00:04:10.300 --> 00:04:36.149
+Timo Glastra: in the notes. I see Stefan is, is doing the work. We have released Arizona Javascript here for 0, I think, 2 weeks ago, with a lot of new features have now completely removed the need for dependency on in the SDK. everything is plugable support lights, agnostic anocrats, and also opening for pci issuance. so yeah, big release
+
+28
+00:04:36.470 --> 00:04:37.270
+Timo Glastra: Nice.
+
+29
+00:04:38.550 --> 00:04:43.019
+Sam Curren (TelegramSam): awesome. excited to hear that and good work. Thank you for your efforts.
+
+30
+00:04:47.070 --> 00:04:48.310
+Sam Curren (TelegramSam): Other updates.
+
+31
+00:04:53.760 --> 00:05:16.119
+Stephen Curran: All right, we'll have some some cool stuff along mute button. 0 8 2 acupy is ready to go, probably. I'll do an Rc. One today and get that out. So we did. We didn't. Our C. 0. had a couple of things we wanted to get in it, so there'll be another release of a could buy in the new future.
+
+32
+00:05:17.420 --> 00:05:18.290
+Sam Curren (TelegramSam): Very cool.
+
+33
+00:05:22.110 --> 00:05:23.200
+Sam Curren (TelegramSam): Thank you. Steven.
+
+34
+00:05:23.460 --> 00:05:39.379
+Sam Curren (TelegramSam): Awesome. Okay. Here's topics for today. Alex, we may not need to do the areas marketing update unless you want it to additionally given the presence of the call. But I wanted to at least call attention. There. Is there anything you want to say in this meeting specifically about that, or
+
+35
+00:05:39.390 --> 00:05:45.709
+Alex Metcalf: I'll give you like a 1 min update for sure, and then we can carry on with the majority of that material through to the working group call.
+
+36
+00:05:46.650 --> 00:05:48.030
+Sam Curren (TelegramSam): You've got a minute.
+
+37
+00:05:49.320 --> 00:05:58.650
+Alex Metcalf: sweet. okay. to say that the just to update the deal that things are moving forward. really? Well, I spoke to several of you in the week.
+
+38
+00:05:58.850 --> 00:06:04.740
+Alex Metcalf: You could sell this and Helen and Sebastus, and looking at
+
+39
+00:06:04.880 --> 00:06:15.710
+Alex Metcalf:  the the link. There is going to be a working documents which is gonna work so bottom up. And some of the materials we need. But just suffice to say, that
+
+40
+00:06:16.130 --> 00:06:26.620
+Alex Metcalf: is, bring up some really interesting questions as to to do this exercise, and to think how we present ourselves, and how we have a better Wiki landing page, and how we by the page and the hyper light, and all those kind of things.
+
+41
+00:06:26.630 --> 00:06:43.740
+Alex Metcalf: It's being questions as to what Harry's need to be presenting itself as as it's a Samuel. They what are the 3 things it does great, for example, that would be amazing highlights of people coming in that would be differentiators. So give me some exercises around that. Helen's got a great question that we'll probably use come
+
+42
+00:06:44.070 --> 00:06:45.140
+Alex Metcalf: next week.
+
+43
+00:06:45.240 --> 00:06:57.819
+Alex Metcalf: But if I say, you're welcome to look at that document for updates. I'd be putting some more things in that'd be working off of the need to go back into there. But if you go, any interest in how you present ourselves, if you or any parts of like
+
+44
+00:06:58.810 --> 00:07:12.639
+Alex Metcalf: of things that we could say better or materials that we need or videos, we should highlight or any aspects of this you can reach out to me, or you can use this document or come along even better to the first being that I just mentioned.
+
+45
+00:07:13.020 --> 00:07:31.280
+Alex Metcalf: So Moving along with a focus on what's the low hanging fruit to get some more accurate information up first, and then we might refine that later. So let's get some things up to say what areas is doing now, because lot of information out there is is 2,019 era from, you know, announcements of what this is, and things have moved along a lot since then.
+
+46
+00:07:31.290 --> 00:07:37.429
+Alex Metcalf: And now is that time to shine? So yeah, thank you for all the people I reached out to you and hope to see no of you next week.
+
+47
+00:07:38.930 --> 00:07:59.889
+Sam Curren (TelegramSam): yeah, thank you. Alex. I will credit Alex for making me think about things like, how to properly articulate. what is different about Aries than than other agent projects that did used to be a question, because there kind of weren't any other agent projects. And so that is that's something that's made me think a lot. So so they're they're doing fantastic work.
+
+48
+00:08:00.330 --> 00:08:12.720
+Sam Curren (TelegramSam): okay, quick, update there the stuff we have on the I guess next next week is not mediators, because this week is mediators. I bet. Edit we have a a couple of main topics.
+
+49
+00:08:12.720 --> 00:08:31.359
+Sam Curren (TelegramSam): Oh, one that's not in the list, but but is another quick update is the open wallet foundation update and then we want to talk about mediators. and the the the did peer, unqualified. Did mediation update. There's now a migration, Doc. which would be awesome.
+
+50
+00:08:32.010 --> 00:08:39.829
+Sam Curren (TelegramSam): so so yes, that is the that's the goal there. any any adjustments we want to make
+
+51
+00:08:39.960 --> 00:08:44.140
+Sam Curren (TelegramSam): before yeah, any adjustments. We want to make it to the agenda before we get going.
+
+52
+00:08:50.560 --> 00:09:14.110
+Sam Curren (TelegramSam): okay, owf, update. last week we you know, I shared a a link for a sort of a a proposed collaboration type of a statement. and we're still working through. I say, we Alex has volunteered to to be involved in that more directly. and so we are, still, having conversations with auto be of leadership to figure out the
+
+53
+00:09:14.880 --> 00:09:26.929
+Sam Curren (TelegramSam): sort of the right thing and path forward there. And so it's happening, although a little slower. there's a little bit of confusion in there, and we're working to resolve that. so yes, and Timo any other
+
+54
+00:09:28.520 --> 00:09:31.750
+Sam Curren (TelegramSam): comments. Another. Vf.
+
+55
+00:09:32.460 --> 00:09:42.330
+Timo Glastra:  yeah, maybe 2. One question on like you said, like, still in discussion, I think
+
+56
+00:09:42.480 --> 00:09:47.100
+Timo Glastra: owf like in, like their
+
+57
+00:09:47.240 --> 00:09:58.140
+Timo Glastra: already partners, with high pledge and a and so I think it was kind of finished right? The discussion at least that's what I heard from. Oh, owf! site!
+
+58
+00:09:58.400 --> 00:10:02.110
+Timo Glastra:  But that's not true.
+
+59
+00:10:02.200 --> 00:10:22.779
+Sam Curren (TelegramSam): No. Well, it's it's let me try and explain a little bit. There was a a little bit of a misunderstanding about the purpose of the. It's sort of a joint statement that we are proposing. There isn't any legal changes actually necessary between the organizations. There wasn't any actually in the beginning, anyway, because of the compatible licenses. being used by the different organizations.
+
+60
+00:10:23.210 --> 00:10:26.500
+Sam Curren (TelegramSam): the point of the statement was more of a signal of like
+
+61
+00:10:27.190 --> 00:10:44.190
+Sam Curren (TelegramSam): collaboration, not necessarily the establishment of anything like legal, necessarily. And so there's a little bit of confusion early on about what the intent was, or whether something was actually needed. And and that's that confusion is is being resolved and and unraveled a little bit as we go.
+
+62
+00:10:45.200 --> 00:10:59.849
+Sam Curren (TelegramSam): So the the their response was, based on a legal perspective when they're not wrong. but the but our goal wasn't really to us. That was something legal, either. And so it it also wasn't really completely the thing that we were trying to do
+
+63
+00:10:59.960 --> 00:11:11.970
+Sam Curren (TelegramSam): and and so trying to resolve the the confusion there. And I think we're based on emails yesterday. that, I think we have. Even up to yesterday evening we have some increased understanding. There.
+
+64
+00:11:13.490 --> 00:11:14.960
+Sam Curren (TelegramSam): does that help T-mo
+
+65
+00:11:15.230 --> 00:11:22.589
+Timo Glastra: or any other comments there?
+
+66
+00:11:23.770 --> 00:11:24.630
+Timo Glastra: I
+
+67
+00:11:24.860 --> 00:11:31.500
+Timo Glastra: not 100% happy yet, I think with outcome. and
+
+68
+00:11:32.160 --> 00:11:48.300
+Timo Glastra: that's okay. I think because we don't have to all agree on on like the the outcome. But I do think it's still interesting to pursue, and I think I would also. And this is something we would have to discuss, for example, in
+
+69
+00:11:48.440 --> 00:11:54.310
+Timo Glastra: for example, air soon with Javascript community. But if there is like if
+
+70
+00:11:54.430 --> 00:12:21.680
+Timo Glastra: the open Wallace foundation as a whole isn't ready yet to host a whole project like ours. Like we could try moving single projects over, for example, and see how that works. And if we can make that work and do that one by one and so like, I can't speak for the whole Afgh community here, of course, but Something that I would be interested to, and, for example, for seeing you like being a guinea pig project that
+
+71
+00:12:21.680 --> 00:12:33.400
+Timo Glastra: that we can try things out with, I think. because I think the main thing we have set here, like owf is not ready to
+
+72
+00:12:34.040 --> 00:12:44.569
+Timo Glastra: like. It's very not mature. I think I heard from owf. Also there they've offered to to basically hire everyone on the hyper ledger
+
+73
+00:12:44.630 --> 00:12:53.209
+Timo Glastra: like that can help in how I that helps with hyperbolic on the infrastructure and operational site that they have offered to hire them. So I think that that should give
+
+74
+00:12:53.220 --> 00:13:08.720
+Timo Glastra: quite a lot of assurance. but yeah, just wanted to try it out here. so I one thing that I want to highlight there is that I I wouldn't really consider
+
+75
+00:13:08.960 --> 00:13:37.169
+Sam Curren (TelegramSam): what we've proposed is sort of a final outcome in any way, but rather an intermediate step that can be something that we do and get done. but that doesn't necessarily pre preclude any future actions there either. This be the the the nature of these things is as as I I've heard Steven say a lot is is a doocracy in the sense that that the the people who do have the most control over over what's going on. And so the Maintainer of of any individual project or
+
+76
+00:13:37.170 --> 00:14:04.889
+Sam Curren (TelegramSam): or library matter the most when it comes to sort of what actually happens. You know individually there. we are a voluntary coalition of of of of projects that are together, etc. And and I think that there's some there. There's some helpful pieces there definitely, some discussion to be had, and I and I think that any I think the progress that does move forward would be substantially easier if it's a little bit more gradual. and that allows for
+
+77
+00:14:05.410 --> 00:14:17.099
+Sam Curren (TelegramSam): the the change to be metabolized in a in a in a, in a easier way. There are some open questions there. And so definitely, there's ongoing things. I I don't really consider this to be like a done and
+
+78
+00:14:17.130 --> 00:14:18.280
+Sam Curren (TelegramSam): and
+
+79
+00:14:18.650 --> 00:14:24.839
+Sam Curren (TelegramSam): and in no more discussion but rather the change. The nature of the discussion. in a way that allows us to
+
+80
+00:14:24.980 --> 00:14:36.850
+Sam Curren (TelegramSam): to accomplish things in a more targeted way as we desire. So what you described there, Timo was not really at least in in my brain, out of scope for what? What's possible in the future?
+
+81
+00:14:40.390 --> 00:14:44.489
+Sam Curren (TelegramSam): Any any other comments or questions from anyone on that particular topic.
+
+82
+00:14:46.870 --> 00:14:52.740
+John Jordan: I will be having a try to have a discussion with Daniel tomorrow. If
+
+83
+00:14:53.080 --> 00:14:55.489
+John Jordan: there's points people need to
+
+84
+00:14:56.010 --> 00:14:59.169
+John Jordan: cover or not cover. I'm happy to receive those
+
+85
+00:15:00.940 --> 00:15:01.670
+Sam Curren (TelegramSam): cool.
+
+86
+00:15:02.940 --> 00:15:09.159
+Sam Curren (TelegramSam): Yes, please reach out. Thanks, John, for for for being involved, and and and you can reach out to John for
+
+87
+00:15:09.610 --> 00:15:11.510
+Sam Curren (TelegramSam): anything that you would like to share.
+
+88
+00:15:12.240 --> 00:15:16.429
+Sam Curren (TelegramSam):  John, you're on discord, I do believe.
+
+89
+00:15:16.590 --> 00:15:17.330
+John Jordan: Yep.
+
+90
+00:15:17.860 --> 00:15:19.449
+Sam Curren (TelegramSam): And so John is reachable. There.
+
+91
+00:15:21.860 --> 00:15:23.859
+Sam Curren (TelegramSam): cool any other questions, comments.
+
+92
+00:15:28.430 --> 00:15:29.320
+Sam Curren (TelegramSam): okay.
+
+93
+00:15:29.810 --> 00:15:38.549
+Sam Curren (TelegramSam): next, up on the agenda here today is mediators. and I wanted Steven. I brought up the concept of
+
+94
+00:15:38.940 --> 00:15:40.360
+Sam Curren (TelegramSam): a
+
+95
+00:15:40.730 --> 00:15:50.499
+Sam Curren (TelegramSam): of having a sort of a mediator status update round up thing. And so I'm gonna check this over to him for an intro there.
+
+96
+00:15:51.750 --> 00:15:54.390
+Stephen Curran: all right. I'll just do
+
+97
+00:15:54.410 --> 00:16:07.919
+Stephen Curran: an intro to the problem. is my thought. Just so. We have a a foundation for for discussion, and we'll go from there and see how things. hopefully, this helps.
+
+98
+00:16:08.020 --> 00:16:19.789
+Stephen Curran: I all I am is a messenger of the problems. I don't have great solutions, so Not going to help there, but I'll show you where we've got to and our and are talking about it.
+
+99
+00:16:20.210 --> 00:16:28.370
+Stephen Curran: everyone knows what a mediator is. Mediators are used for wallets. In particular, they can be used elsewhere. Actually, we're we're.
+
+100
+00:16:28.690 --> 00:16:43.170
+Stephen Curran: I had a brief talk this week about whether we can use mediators to get rid of the developer problem within Brock. Because. we're finding some of our developers work for companies that don't allow the use of end rock.
+
+101
+00:16:43.370 --> 00:16:48.470
+Stephen Curran: And we could actually use mediators for so me, if not just for
+
+102
+00:16:48.870 --> 00:16:52.489
+Stephen Curran: Wallace, but that's the biggest use.
+
+103
+00:16:52.560 --> 00:17:06.349
+Stephen Curran: for scalability. We want to be able to use a container orchestration platform, some horizontally scalable platform for using it. Scale. the number of instance of a mediator. As the low growth increases or decreases.
+
+104
+00:17:06.760 --> 00:17:24.049
+Stephen Curran: support migration of instances. So from time to time a platform scheduler, like open shift, will suddenly say, Hey, I'm gonna shut down this node. So everything is on. It needs to get migrated somewhere else, so instances would be shut down and started up elsewhere. That's gotta be supported.
+
+105
+00:17:24.510 --> 00:17:26.879
+Stephen Curran: we need queued messages?
+
+106
+00:17:26.970 --> 00:17:45.449
+Stephen Curran: so that when a instance is shut down or started up, or when wallets are not connected, to messages are not lost. So they're not sitting in a in a memory queue associated with the instance, and then get lost when that instance disappears, for whatever reason.
+
+107
+00:17:46.150 --> 00:18:06.030
+Stephen Curran: And then the other thing is, we want to understand what scalable means for any particular solution. How many wallets can we actually support? what are the assumptions about? How many active wallets there's likely to be for a given use case. We've had lots of discussions around the Vc. Wall, and on that case well, if we add, you know
+
+108
+00:18:06.060 --> 00:18:22.020
+Stephen Curran: a a population of 50,000 users. Well, how many are going to be active in any one time? How many? How many messages are we going to be able to process for those? What does it need for there to be 50,000 wallets out in the wild?
+
+109
+00:18:22.760 --> 00:18:26.450
+Stephen Curran: in terms of how scalable the
+
+110
+00:18:26.700 --> 00:18:42.939
+Stephen Curran:  mediator is. So I've got pictures to follow and Ares example. And then mediator examples and the complications. So the naive approach is on an Aries agent is everything's talking https.
+
+111
+00:18:43.090 --> 00:18:48.920
+Stephen Curran: you simply increase the instances and scale up by load.
+
+112
+00:18:49.010 --> 00:19:09.549
+Stephen Curran: And so as as things get busier. You add another Aries instance, and another Aries instance, whether that be occupy or Aj or whatever it is. you've got agents out in the while talking through this endpoint, and then that gets load balanced across these. You also have the controller whoops
+
+113
+00:19:09.670 --> 00:19:16.910
+Stephen Curran: didn't need to do that, but you also have the controller. that's sitting out there.
+
+114
+00:19:17.780 --> 00:19:20.490
+Stephen Curran: hang on 1 s. I move that.
+
+115
+00:19:20.610 --> 00:19:26.090
+Stephen Curran: you also have the controller. that is talking to the various instances.
+
+116
+00:19:26.410 --> 00:19:51.930
+Stephen Curran: so a big issue there, if the instances are lost. Messages are queued on these instances. If if things get really busy, the instances start to queue messages if the instances fail, or or, more precisely, when the instances fail, because it will happen. Cute messages are lost. So that's no good. The next approach that we've taken is, we add, a redis queue.
+
+117
+00:19:51.930 --> 00:19:57.170
+Stephen Curran: the way it was done in the first cut of this
+
+118
+00:19:57.190 --> 00:20:25.560
+Stephen Curran: group from keyboard first began this work, or a person from Quebec. And this work was to add a relay that basically received messages sucked them on the queue, and then Aries instance to stuff out on messages onto the queue, and those relays would send them back out. And this was all good when all we talked were https all of the ages the Controller could talk to the endpoints.
+
+119
+00:20:25.770 --> 00:20:42.800
+Stephen Curran: Messages would go in and out of the queue. So Redis is just a sample of the queue. You could use capital or other other items other persistent queue mechanisms, for that. Messages are not lost. When Aries instances go away or when relays go away.
+
+120
+00:20:42.990 --> 00:20:49.280
+Stephen Curran: Any instance can process any inbound message, any relay. You can send any outbound message?
+
+121
+00:20:49.510 --> 00:20:54.139
+Stephen Curran: as noted the relay is it required? The are these instances
+
+122
+00:20:54.290 --> 00:21:10.640
+Stephen Curran: perform all of the tasks to push and pull messages from the queue, and basically everything is stateless, which is exactly what we want. Yay, Happily, there's no state involved. And so things that's sufficient. If
+
+123
+00:21:10.890 --> 00:21:19.770
+Stephen Curran: all we have is a cps. So media air adds more complexity. So the mediator picture is slightly different.
+
+124
+00:21:20.420 --> 00:21:42.670
+Stephen Curran: I I first of all, I left out the control, or just to make it simpler. we talked about this. We can configure the mediator to the auto. Accept that. I'm willing to mediate for anybody that asks, or you can even make it a plugin to, you know a Fj. Or occupy, or whatever you're using as your mediator. so that doesn't have to be external.
+
+125
+00:21:42.790 --> 00:21:49.910
+Stephen Curran: an external entity. So just make it simpler. I I got rid of the Controller.
+
+126
+00:21:50.450 --> 00:21:54.269
+Stephen Curran: agents send in messages.
+
+127
+00:21:54.510 --> 00:22:12.909
+Stephen Curran: that are sorry wallet. Send messages directly to agents. So a wallet wallets are over here. Agents are over here. Obviously, while it's our agents, too. They're all wages, but they the way the agents use? the mediator, is different from how the Wallace uses. So
+
+128
+00:22:12.910 --> 00:22:28.099
+Stephen Curran: while it send messages directly to Asians, so that means when our wallet needs to do an outbound message. It can send it directly. It does not have to flow through the mediator, and that's generally what's done. So messages do not flow through the mediator. When this happens.
+
+129
+00:22:29.140 --> 00:22:50.149
+Stephen Curran:  Inbound messages are all out down to a specific wallet after mediator instance processing, so the wallet may be offline. So it has to get queued. So we probably need Redis again. So this idea that we're sitting here with no queue. That's probably naive, so that we're going to have to address that.
+
+130
+00:22:50.340 --> 00:22:58.120
+Stephen Curran: And then the next thing, those wallet to mediator instances are are sticking. So so what I'm saying, there is basically a shoot.
+
+131
+00:22:58.450 --> 00:23:13.320
+Stephen Curran: a a a message from an agent coming in is bound for a wallet, but it has to be sent through a mediator instance that interprets the message. Figure out the wall that it's for, and then sends it to that wallet.
+
+132
+00:23:13.730 --> 00:23:15.290
+Stephen Curran: Now, what
+
+133
+00:23:15.420 --> 00:23:43.369
+Stephen Curran: what happens is the wall. It's mediator instance connections are sticking. So that means when a message comes in after the connections been established between a mediator and a wallet, the next message has to flow outbound to the wallet through that mediator. So now, if the load Balancer receives a message, sends it to the media to the first mediator instance, it has to send it over to the second mediator instance
+
+134
+00:23:43.370 --> 00:23:50.190
+Stephen Curran: and then over to the wallet. So that means basically, we're no longer stateless.
+
+135
+00:23:50.730 --> 00:24:15.679
+Stephen Curran: And that's where the problems come in. Note that the connected instance, this mediator instance is talking to this wallet until one of them disconnects, and then the wallet has to recap. So this mediator could disappear. This wallet could stop for a while and then start again. When that happens, this wallet is going to go through the load balancer again and establish a connection to some
+
+136
+00:24:15.680 --> 00:24:22.609
+Stephen Curran: any of the mediators could be the same, one could be a different one. So that's where we also get into handling issues.
+
+137
+00:24:23.740 --> 00:24:28.360
+Stephen Curran: I see there's a chat. Hope this is helpful.
+
+138
+00:24:35.440 --> 00:25:05.279
+Stephen Curran: plus. He was just asking if Mobile to Mobile I mean, this wallet is talking to this wallet from each of the wallets. Perspective. They're just agents. They have no idea that they're they're each other's wallets, or they are our fellow wallets. So if a wallet is talking to another wallet, each of them perceives the other is just some external agent, and it doesn't care. Know that it's another wallet. It that's a that's a circumstance that I would
+
+139
+00:25:05.470 --> 00:25:16.720
+Stephen Curran: a detailed, that it's not really relevant to this. Both of them have to do it. But it's not. It's not a special case. In other words, that's not really a special case.
+
+140
+00:25:19.030 --> 00:25:28.409
+Clecio Varjao: Oh, just on your second point where I said, Wallace sent a message directly to agents. I guess that's how what you're making. The distinction
+
+141
+00:25:28.720 --> 00:25:45.020
+Stephen Curran: is in a conversation with another wallet. It thinks of it as just some other agent. It doesn't care it to the wallet, and it it might even, you know, it could be a wallet that doesn't share the same mediator, even
+
+142
+00:25:45.030 --> 00:25:50.649
+Clecio Varjao: right so. But to generalize mobile wallets did not send a message directly. That's what
+
+143
+00:25:52.440 --> 00:25:56.640
+Stephen Curran: they send it to, whatever the endpoint the other agent tells it. To
+
+144
+00:25:58.290 --> 00:26:13.129
+Stephen Curran: whatever whatever endpoint this agent has said, if that's a mediator, that's a mediator, if it's directly to the agent, it doesn't matter. I could. I could say to what th this should say, I guess, directly to the ages endpoint to be more precise.
+
+145
+00:26:15.080 --> 00:26:16.330
+Stephen Curran: that makes sense.
+
+146
+00:26:19.150 --> 00:26:25.760
+Clecio Varjao:  not quite because in a wallet, to all that situation where they have here
+
+147
+00:26:25.950 --> 00:26:38.710
+Clecio Varjao: did. Yes, you're right. It's always directed by the the peer that defines the endpoint. But I'm just making a point that outgoing message can also go through the mediator if directed. So
+
+148
+00:26:39.240 --> 00:26:41.490
+Clecio Varjao: it's not a rule.
+
+149
+00:26:41.760 --> 00:26:52.899
+Stephen Curran: I don't know of any case where it would go through the mediator, unless. like, if the 2 wallets don't have the same mediator, it wouldn't go back through the same mediator. It would go to a different mediator.
+
+150
+00:26:54.600 --> 00:27:06.029
+Clecio Varjao: Okay? we've figured out we can put that on the we can keep going. It's just like, is it not clear the mobile to mobile agent situation. there's 2,
+
+151
+00:27:06.580 --> 00:27:21.579
+Clecio Varjao: I think, I think, as far as I understand, and maybe from my Fj. Or from from a I can. It's better. There's a communication through the mediator. Yeah. So basically, the the end point of the other agent happens to be a mobile agent.
+
+152
+00:27:21.620 --> 00:27:36.710
+Kim Ebert: And so it would also have a mediator, and it might be the same mediator as the other mobile agent is using. And so from mobile to mobile communication. The outbound communication may also go to the same mediator.
+
+153
+00:27:38.160 --> 00:27:47.689
+Stephen Curran: But again, I I yeah, I I I mean I I that's totally true. What I'm saying is, it's I don't think it's relevant to the use case because
+
+154
+00:27:47.850 --> 00:27:55.820
+Stephen Curran: the wallet sends it to wherever the aid the other other party says to send messages. It doesn't
+
+155
+00:27:55.930 --> 00:28:01.519
+Stephen Curran: say to the mediator, Hey, I need you to send this message over to this other place for me.
+
+156
+00:28:01.900 --> 00:28:04.980
+Stephen Curran: it! It's sending it to where the
+
+157
+00:28:05.340 --> 00:28:10.100
+Stephen Curran: other agent, whether it be a wall or not, tells it to.
+
+158
+00:28:11.890 --> 00:28:32.189
+Colton Wolkins: and I think a bit of clarification here the mediator cluster that's being referred to in this diagram is the individual wallet's mediator. When it is communicating to an agent that agent may be, or maybe behind its own mediator, which is separate from the wallets. Mediator.
+
+159
+00:28:32.450 --> 00:28:33.380
+Stephen Curran: Correct.
+
+160
+00:28:39.140 --> 00:28:55.949
+Rodolfo Miranda: Stephanie. 1 one question regarding this the cluster. So that means that they all those instance mediator, have a share database or share storage, have all persist the messages, but also persist. The keys all share the keys.
+
+161
+00:28:56.110 --> 00:28:56.970
+Stephen Curran: Yes.
+
+162
+00:28:58.350 --> 00:29:14.070
+Stephen Curran: yes, these I I took that detail out. But yes, there's a shared database here that all are using. So so as in the as in the previous diagram, there isn't, you know. I ask our or, you know.
+
+163
+00:29:14.780 --> 00:29:17.669
+Stephen Curran: secure storage that is shared amongst them.
+
+164
+00:29:20.710 --> 00:29:23.210
+Stephen Curran: And then with this, I'm adding.
+
+165
+00:29:23.770 --> 00:29:27.880
+Stephen Curran: now we've got to have red us because we have to have Redis, so that
+
+166
+00:29:28.030 --> 00:29:39.569
+Stephen Curran:  messages for Wallace that are not connected, or for the loss of mediator instances. You have to have some sort of persistent queue. So you don't lose that
+
+167
+00:29:40.130 --> 00:29:42.690
+Stephen Curran:  again.
+
+168
+00:29:42.860 --> 00:29:57.120
+Stephen Curran: relay, is it necessarily required it could be a a mechanism. So again, a relay is simply just something that is, receives messages, puts them on the queue, takes things off the queue and sends them along.
+
+169
+00:29:58.430 --> 00:30:02.289
+Stephen Curran: Oh, the the the other thing that I
+
+170
+00:30:02.430 --> 00:30:07.870
+Stephen Curran: I have a new map. I have a new trap. The other thing that I didn't highlight
+
+171
+00:30:08.050 --> 00:30:09.550
+Stephen Curran: is that
+
+172
+00:30:10.310 --> 00:30:22.510
+Stephen Curran: inbound messages all come in via Https outbound message or or messages to wallets. between the media and the wall, up our web sockets. So these are persistent. There, there
+
+173
+00:30:23.100 --> 00:30:35.070
+Stephen Curran: they've done over Hdp, but the connection remains, and multiple messages go back and forth across them, and that's the stickiness that that is, that is there. So once a wallet.
+
+174
+00:30:35.130 --> 00:30:42.879
+Stephen Curran: a step. And actually, I'll get into that in the next in the next slide. So so how do, how do ballots connect
+
+175
+00:30:43.210 --> 00:30:44.540
+Stephen Curran: to relays?
+
+176
+00:30:45.800 --> 00:30:46.970
+Stephen Curran: Is this
+
+177
+00:30:46.980 --> 00:30:51.770
+Stephen Curran: level of hopefully, this level is is right. So
+
+178
+00:30:51.980 --> 00:30:57.499
+the starting point is, the wallets are not connected to the mediator at all. they're just
+
+179
+00:30:57.820 --> 00:31:15.050
+Stephen Curran: live. They activate. And then and they create a did call and request to send to the wallet. And that request is gonna be one of 3 things. One is, will you be my mediator? So the wallet has never connected to mediator and wants to have the mediator, be it
+
+180
+00:31:15.050 --> 00:31:38.610
+Stephen Curran: I have to have that mediator instance be it's mediator, so will you be. My mediator is one type. The second one is, oh, I've got a new connection that I want to establish Will you mediate a new connection informally? So this is where it's it's establishing a peer-to-peer connection with some other agent in that agent could be a a, a another wallet, or anything.
+
+181
+00:31:38.610 --> 00:31:40.239
+Stephen Curran: and then finally.
+
+182
+00:31:40.240 --> 00:31:50.290
+Stephen Curran: a wallet that perhaps just disconnected or just came online is gonna connect is going to create a request that says, Do you have any messages for me?
+
+183
+00:31:50.560 --> 00:31:57.329
+Stephen Curran: So one of those 3 messages are gonna come in. They're gonna send the the the mediators to send that request
+
+184
+00:31:57.340 --> 00:32:20.699
+Stephen Curran: the load balancer on the instances gonna route that to a receiver, whether that be a mediator, a relay. I'm just calling it a receiver. The wallet and the receiver from then on remain connected until something causes that connection to be lost, and while they're connected any messages between the entire mediator cluster and the wallet.
+
+185
+00:32:20.890 --> 00:32:25.510
+Stephen Curran: all are all must be
+
+186
+00:32:25.560 --> 00:32:53.910
+Stephen Curran: sent through that particular receiver. So coming back here, if this wallet connection with R. 3. Any messages destined for this wallet must be sent by R. 3, because it's got an established connection. Web socket connection R. 2 can't initiate a connection, and wall and the wallet. So therefore it can't send a message to this specific wallet. So that's that's the stickiness that's involved.
+
+187
+00:32:56.390 --> 00:33:05.910
+Stephen Curran: If any new messages come in for the wallet to the mediator. So again, any any agent sends the messages in
+
+188
+00:33:05.930 --> 00:33:15.170
+Stephen Curran: to the to the mediator. it must be routed through whatever is connected to that wallet, you know. R. 3 or
+
+189
+00:33:16.500 --> 00:33:25.300
+Stephen Curran: If there's a drop connection we start back with the. Do you have any messages for me? And that's likely to go to a different receiver.
+
+190
+00:33:25.440 --> 00:33:28.020
+Stephen Curran: So we wind up with
+
+191
+00:33:28.330 --> 00:33:37.649
+Stephen Curran: you know it gets load balance, it gets sent to a different receiver instance, and that receiver now has the connection. So the challenges you. You wind up with that
+
+192
+00:33:37.790 --> 00:33:44.229
+Stephen Curran:  Each mediator instance is connected to a bunch of wallets.
+
+193
+00:33:44.350 --> 00:33:55.199
+Stephen Curran: So each has a wallet id and each has a you know, some sort has a web socket connection. So one question is, how many web sockets could each instance handle?
+
+194
+00:33:55.270 --> 00:34:19.109
+Stephen Curran: how many does it need to handle? So if you've got, you know, province of of British Columbia has 4 million residents that may get a B C wallet. How many? how many are going to be active at any one time we'll have an active web socket. And how many instances? will we need to handle that many web sockets distributed across?
+
+195
+00:34:19.280 --> 00:34:36.139
+Stephen Curran: a thousand 10,000. You know. What's the number? We don't really know.  agent send in messages. Address to a wallet Id. So inbound messages coming to the mediator that are destined to a wallet.
+
+196
+00:34:36.170 --> 00:35:01.870
+Stephen Curran: aren't they? Don't know the The 2 address of the wallet until the message has been processed by a mediator instance. So in the case of a relay, the relay will be able to interpret the message. A relay is just passing on messages inbound and outbound. So we're assuming it. It doesn't decrypt the message, and therefore it can't determine the destination. Wall, it did
+
+197
+00:35:01.930 --> 00:35:14.739
+Stephen Curran: so. That has to be done after a mediator instance is processed it? this. This is the tricky part. How do the messages get to the right instance? given that there's
+
+198
+00:35:14.890 --> 00:35:24.479
+Stephen Curran: If there's no connection it just goes into a pending queue to be picked up when the wallet connects. That should be a question mark that should be a statement.
+
+199
+00:35:24.660 --> 00:35:51.589
+Stephen Curran:  if queue how it is an instance? Query the King, for all its messages. So suppose an instance has 10,000 web sockets, you know 10,000 wallets connected via web sockets. How does it find all the messages for all those 10,000 wallets? presuming it can't go polling through to say you have any messages for wallet? One. What about Wallet? 2. What about Wallet 3 can't do polling? It needs to pick it up somehow.
+
+200
+00:35:51.970 --> 00:36:07.170
+Stephen Curran: What happens to all those cute messages when a wallet disconnects and then disconnects first of all. So now, whoever was handling that whichever instance was handling, it no longer is talking to that wallet, so it can't send it any more messages
+
+201
+00:36:07.330 --> 00:36:29.890
+Stephen Curran: further. When the wallet reconnects, it may reconnect you know. A minute later or a half a minute later, because it just went out of cell range and then and then switched over to another. You know a a another network instance. Well, it's gonna reconnect, presumably to another instance. And now back instance has to find all those messages.
+
+202
+00:36:30.930 --> 00:36:54.420
+Stephen Curran: And then, finally, what happens to the queue messages, for instance, shuts down. So an instance is handling the messages. It's it's sending messages along to the the wall. It's it's connected to it. Shut down. All of those messages have to be re-cued, and then or or at least picked up when when the wallets reconnect.
+
+203
+00:36:54.510 --> 00:37:19.439
+Stephen Curran: So we certainly need to add state. So you know, we've got some sort of table of shared state here that says, Oh, well, you know what one did is currently connected to R, one using web socket, one wallet, 2 is using web socket, 2 on our one. That's a mistake. There. wallet 3 used to be connected to our 2, but then it disappears. So now it's not connected to anything
+
+204
+00:37:19.770 --> 00:37:26.689
+Stephen Curran: and so on. So some sort of state has to be managed somehow to enable those to pass.
+
+205
+00:37:26.910 --> 00:37:29.729
+Stephen Curran: and with that I sort of leave it.
+
+206
+00:37:30.580 --> 00:37:32.460
+Stephen Curran: that
+
+207
+00:37:33.090 --> 00:37:44.609
+Stephen Curran: I don't have any more, and Ken's got a question or a comment. there's one more problem that would need to be addressed, and that is what happens if there's 2 web sockets for the same wallet connected
+
+208
+00:37:46.810 --> 00:37:48.949
+Stephen Curran: there. You go? Didn't know that one.
+
+209
+00:37:49.930 --> 00:38:01.890
+Kim Ebert: And there's a couple of different stories there. That could be handled. It's a more advanced use case. that we could table from now. But it's definitely worth keeping on the
+
+210
+00:38:03.890 --> 00:38:06.279
+Kim Ebert: on the
+
+211
+00:38:06.420 --> 00:38:09.130
+Sam Curren (TelegramSam): Stephen you're still sharing. I don't know if you knew that.
+
+212
+00:38:12.460 --> 00:38:13.829
+Stephen Curran: Steve, you're still
+
+213
+00:38:14.060 --> 00:38:18.709
+Stephen Curran: there. You go?
+
+214
+00:38:19.980 --> 00:38:21.639
+Sam Curren (TelegramSam): Rudolfo, your hands up.
+
+215
+00:38:22.250 --> 00:38:26.340
+Rodolfo Miranda: Yeah, Steven, how you still, instead of using web sockets.
+
+216
+00:38:26.700 --> 00:38:33.580
+Rodolfo Miranda: they use https with the sort of
+
+217
+00:38:34.740 --> 00:38:38.440
+Rodolfo Miranda: can can you hear me. I? Yes, we can have San Diego.
+
+218
+00:38:38.550 --> 00:38:46.979
+Rodolfo Miranda: Okay, using https with it, polling mechanism, or maybe push notifications to go on and find them
+
+219
+00:38:47.340 --> 00:38:53.469
+Rodolfo Miranda: the messages, because that that maybe you you're gonna buy the web. So that is messy
+
+220
+00:38:53.520 --> 00:38:55.340
+Rodolfo Miranda: with me and soft wallets.
+
+221
+00:38:55.560 --> 00:38:58.259
+Sam Curren (TelegramSam): we that is possible.
+
+222
+00:38:58.280 --> 00:39:00.140
+Sam Curren (TelegramSam): although I
+
+223
+00:39:00.260 --> 00:39:05.550
+Sam Curren (TelegramSam): We have a a good answer here in a second. So hold that thought.
+
+224
+00:39:06.550 --> 00:39:22.080
+Sam Curren (TelegramSam):  I think so. I want to hear from from animal. But I happen to know that Stephen asked a bunch of questions, and I know that we had. There's some cool stuff that we would like to share and so I'd love to throw it over to I I don't
+
+225
+00:39:22.500 --> 00:39:26.900
+Sam Curren (TelegramSam): either either Micah or Colton from the I don't know who is going to be driving.
+
+226
+00:39:28.730 --> 00:39:36.790
+Micah Peltier: I think I will go ahead and start the conversation, and pass it off to
+
+227
+00:39:37.030 --> 00:39:39.669
+Micah Peltier: Colton here in a moment.
+
+228
+00:39:40.860 --> 00:39:46.030
+Micah Peltier: Let me figure out zoom screen share. can everybody see this?
+
+229
+00:39:46.340 --> 00:39:48.110
+Sam Curren (TelegramSam): Okay, so cool.
+
+230
+00:39:48.630 --> 00:39:51.210
+Micah Peltier:  so
+
+231
+00:39:51.330 --> 00:39:55.660
+Micah Peltier: we are talking about a a repo that we have called socket deck
+
+232
+00:39:55.680 --> 00:40:00.200
+Micah Peltier:  and it's not
+
+233
+00:40:00.940 --> 00:40:05.109
+Micah Peltier: public just yet, but we'll be making it public here.
+
+234
+00:40:05.280 --> 00:40:09.619
+Micah Peltier: later. Today. I think we just have a couple of cleanup items
+
+235
+00:40:09.700 --> 00:40:13.869
+Micah Peltier: before we do that but essentially it's
+
+236
+00:40:13.990 --> 00:40:21.830
+Micah Peltier: it can be stood up in front of a a cloud based mediator.
+
+237
+00:40:22.730 --> 00:40:25.400
+Micah Peltier: and what it does is
+
+238
+00:40:25.750 --> 00:40:29.989
+Micah Peltier: it holds web sockets for
+
+239
+00:40:31.670 --> 00:40:35.090
+Micah Peltier: arbitrary agents while it's
+
+240
+00:40:35.690 --> 00:40:43.029
+Micah Peltier: and will forward web socket traffic across Http.
+
+241
+00:40:43.260 --> 00:40:48.000
+Micah Peltier: you can set up arbitrarily many behind the load. Balancer
+
+242
+00:40:48.340 --> 00:40:59.079
+Micah Peltier:  the web socket will be associated with a specific instance of socket that And so when when Alice, for example, sends the message
+
+243
+00:40:59.290 --> 00:41:02.450
+Micah Peltier: up to another connection through the mediator.
+
+244
+00:41:02.920 --> 00:41:07.000
+Micah Peltier: It'll go to this this first specific instance of socket, doc.
+
+245
+00:41:07.460 --> 00:41:12.499
+Micah Peltier: and then sock and duck will sort of convert it into an Http message
+
+246
+00:41:12.520 --> 00:41:16.070
+Micah Peltier: with enough metadata to associate
+
+247
+00:41:16.220 --> 00:41:16.910
+Micah Peltier: that
+
+248
+00:41:17.050 --> 00:41:24.940
+Micah Peltier: message. That connection with this specific instance of socket. Doc. so that when the cloud mediator needs to
+
+249
+00:41:25.480 --> 00:41:32.540
+Micah Peltier: respond to Alice. it knows. Which instance of soccer do you send it to?
+
+250
+00:41:46.100 --> 00:41:58.540
+Sam Curren (TelegramSam): So I'll highlight that there's no shared state between the socket block instances the state that's necessary is passed alongside the inbound message to the to whatever back end. It is a cloud mediator in this diagram.
+
+251
+00:41:58.620 --> 00:42:18.400
+Sam Curren (TelegramSam): and then that State includes a back-end Api endpoint that is not run through the load balancer that links to the specific socket Doc instance, so that when a return message is sent. It knows exactly which instance to reach out, to, to pass it over the to the already or the the still connected web socket.
+
+252
+00:42:19.350 --> 00:42:27.290
+Sam Curren (TelegramSam): so no shared state between socket dock instances means a horizontally scalable without limitation at that level
+
+253
+00:42:27.640 --> 00:42:33.170
+Micah Peltier: right? And and if Alice were to disconnect and reconnect.
+
+254
+00:42:33.420 --> 00:42:39.029
+Micah Peltier: you know she wouldn't need to know which instance of, so that she was connected to initially.
+
+255
+00:42:39.160 --> 00:42:40.260
+Micah Peltier: and so can
+
+256
+00:42:40.530 --> 00:42:44.729
+Micah Peltier: the the load balancer can can reconnect with any instance of talking about
+
+257
+00:42:45.100 --> 00:42:49.330
+Micah Peltier: exactly. and and that'll be fine on.
+
+258
+00:42:50.380 --> 00:42:52.490
+Micah Peltier: And we we
+
+259
+00:42:52.550 --> 00:42:58.629
+Micah Peltier: recently ran some tests. with this setup and all.
+
+260
+00:42:58.700 --> 00:43:04.560
+Colton Wolkins: What Before moving on there to the test. I do want to go ahead and add on that
+
+261
+00:43:04.760 --> 00:43:08.040
+Colton Wolkins: when, because you mentioned when Alice disconnects
+
+262
+00:43:08.230 --> 00:43:17.869
+Colton Wolkins:  So when Alice disconnects the socket, Doc process. We'll go ahead and send off a message saying, Hey, Alice has disconnected
+
+263
+00:43:18.260 --> 00:43:20.780
+Colton Wolkins: giving the mediator
+
+264
+00:43:21.200 --> 00:43:24.719
+Colton Wolkins: a to potentially
+
+265
+00:43:25.330 --> 00:43:30.710
+Colton Wolkins: start queuing the messages instead of trying to send like forward them on in live delivery mode.
+
+266
+00:43:31.240 --> 00:43:32.350
+Colton Wolkins: And
+
+267
+00:43:32.610 --> 00:43:34.349
+Colton Wolkins: Steven, I see your hand up.
+
+268
+00:43:36.160 --> 00:43:49.879
+Stephen Curran: The the question I have for coming back to that is, is messages coming from other agents going into the mediator. How do those get associated with
+
+269
+00:43:51.110 --> 00:43:53.080
+Stephen Curran: the dock?
+
+270
+00:43:53.280 --> 00:43:54.769
+Stephen Curran: The socket talk
+
+271
+00:43:55.770 --> 00:43:57.540
+Sam Curren (TelegramSam): so they don't.
+
+272
+00:43:57.840 --> 00:44:10.539
+Stephen Curran: Yeah. So so you're asking the right question, socket Doc doesn't actually care. It does no evaluation of the messages. And so what matters is the software on the other side.
+
+273
+00:44:10.610 --> 00:44:30.189
+Sam Curren (TelegramSam): So if you are, if you're using socket with an agent, and and you want to keep track of you know which which agent is connected, then, on an inbound message, the first inbound message from that agent you're going to record the the socket dock identifier which basically contains the Uri for a return message.
+
+274
+00:44:30.340 --> 00:44:57.630
+Sam Curren (TelegramSam):  and it, you're gonna associate that with whoever actually sent the Didcom message that you process socket. Doc doesn't do the processing. which means that if you then want to send a a message back out at any time, whether it's a live delivery mode or just a message that the mediator wants to send. Then it's capable of of looking that up in state in that, and and then when the you'll you'll see there's a post to message, Uri, and a post to disconnect Uri.
+
+275
+00:44:57.730 --> 00:45:07.239
+Sam Curren (TelegramSam): So when when the socket is disconnected, a a a message just with the disconnect you are I sent to the or or just with the the idea sent to the Cloud Mediator.
+
+276
+00:45:07.260 --> 00:45:17.000
+Sam Curren (TelegramSam): so that the cloud Mediator, or whatever agent is behind it, is, is capable of cleaning up their state and knowing that that a current socket doesn't yet exist for that.
+
+277
+00:45:17.160 --> 00:45:18.280
+Sam Curren (TelegramSam): And party
+
+278
+00:45:19.440 --> 00:45:39.729
+Sam Curren (TelegramSam): does that make sense. So all the State is actually held by whatever agent is behind it. Socket Doc just handles the problem of holding on to the web socket and allowing for messages to be able to be sent back to the back to Alice in this diagrams case. via the the external host and port you know. So send
+
+279
+00:45:39.890 --> 00:45:42.699
+Sam Curren (TelegramSam): you know. Send you all right. That's actually passed.
+
+280
+00:45:43.810 --> 00:45:45.649
+Stephen Curran: So basically that
+
+281
+00:45:45.870 --> 00:45:48.180
+Stephen Curran: diagram that I showed her that
+
+282
+00:45:48.260 --> 00:45:54.719
+Stephen Curran: trivial table that I just just made it up is basically gonna consist of a wallet did, and a URL.
+
+283
+00:45:55.840 --> 00:46:00.989
+Sam Curren (TelegramSam): Yes, so we use it as an id. We get the URL and and the URL is
+
+284
+00:46:01.050 --> 00:46:11.490
+Stephen Curran: go ahead. Sorry.
+
+285
+00:46:11.500 --> 00:46:13.639
+Stephen Curran: and here is their current.
+
+286
+00:46:14.380 --> 00:46:20.610
+Stephen Curran:  URL to send them to whenever a message comes in. That's correct.
+
+287
+00:46:20.800 --> 00:46:21.610
+Stephen Curran: Okay.
+
+288
+00:46:21.800 --> 00:46:22.490
+yep.
+
+289
+00:46:24.110 --> 00:46:52.879
+Sam Curren (TelegramSam): So the socket Doc is is is as simple as possible. We say cloud, mediator, or other agent, because Socket Doc doesn't actually care. What is important is that if you have an agent that is receiving messages, it needs to understand the format being sent because it's not just a did come message. It has a little bit of metadata alongside it which contains that that URL which services id for the socket and so there, there may be a little bit of of stuff put in front of it to make that happen.
+
+290
+00:46:52.910 --> 00:47:11.249
+Sam Curren (TelegramSam): there's the good news is, and that and there's code here on the screen. And again, this will be open later today. so this is what the message actually looks like. There's a there's a metadata that has a struct in it with the call back uris, and then and then the and then the actual messages passed alongside there as well.
+
+291
+00:47:13.720 --> 00:47:38.229
+Sam Curren (TelegramSam): And so this isn't a lot of code, but it performs a really important role that allows for a an abstraction to occur architecturally speaking, between the maintenance of sockets and the and then a back end processing engine that doesn't have to be capable of sockets at all. That's to have a minor understanding of how to use socket. Do as it's front end, if you will. but that's pretty minor
+
+292
+00:47:38.230 --> 00:47:47.039
+Sam Curren (TelegramSam): and and everything else. So we've we've had this, and we've used it But we wanted to verify that it performed the way that we hoped it would, and
+
+293
+00:47:47.050 --> 00:47:49.140
+Sam Curren (TelegramSam): we ran some performance tests
+
+294
+00:47:49.480 --> 00:47:56.650
+Colton Wolkins: Yup, and and just to clarify like in this scenario here, where you now have the wallets connecting and through socket, Doc.
+
+295
+00:47:56.810 --> 00:48:08.759
+Colton Wolkins: the wallets. As far as they're concerned, they're still talking to the mediator via web sockets. But now, as the media, as far as the mediator is concerned, it is only communicating via Http get or
+
+296
+00:48:08.890 --> 00:48:11.779
+Colton Wolkins: Acd post requests inbound and outbound
+
+297
+00:48:12.640 --> 00:48:21.460
+John Jordan: Now moving on to the performance. Metrics that say, I mentioned, if one of the instances of socket doc fails.
+
+298
+00:48:23.830 --> 00:48:25.440
+John Jordan: what happens?
+
+299
+00:48:25.910 --> 00:48:31.619
+Kim Ebert: If it fails, then all of those agents will need to reconnect there by associating
+
+300
+00:48:31.690 --> 00:48:36.129
+Kim Ebert: their new web socket with the new
+
+301
+00:48:36.220 --> 00:48:38.730
+Kim Ebert: a mapping inside the cloud mediator.
+
+302
+00:48:39.230 --> 00:48:42.929
+John Jordan: Right? So. But their state, I guess, is held by the mediator. So
+
+303
+00:48:43.360 --> 00:48:44.830
+John Jordan: no problem.
+
+304
+00:48:45.270 --> 00:48:58.180
+Colton Wolkins: then the posts would fail right, the posts would fail. So if the socket Doc came back up and we tried to post a message. But Alice was no longer associated with this socket. Doc. Instance, here
+
+305
+00:48:58.240 --> 00:49:04.870
+Colton Wolkins: the post to socket, Doc would fail. saying, Hey, we don't have that guy connected to us
+
+306
+00:49:04.980 --> 00:49:12.370
+Colton Wolkins: which point the cloud mediator would say, Oh, hey! My post failed. I need to queue that message instead
+
+307
+00:49:14.040 --> 00:49:16.260
+John Jordan: and wait for her or you to connect.
+
+308
+00:49:17.060 --> 00:49:17.870
+Sam Curren (TelegramSam): Yep.
+
+309
+00:49:18.330 --> 00:49:19.100
+John Jordan: okay.
+
+310
+00:49:24.280 --> 00:49:30.320
+Colton Wolkins: So we we ran a few tests. Just kind of scaling up the system this test here
+
+311
+00:49:30.470 --> 00:49:34.370
+Colton Wolkins: we ran it with 3,000 users.
+
+312
+00:49:35.350 --> 00:49:40.069
+Colton Wolkins: just to see how it would perform. And we were getting just you know.
+
+313
+00:49:40.410 --> 00:49:43.389
+Colton Wolkins: the user. All these users are just
+
+314
+00:49:43.520 --> 00:49:50.929
+Colton Wolkins: establishing a connection to the mediator and then doing a ping, a continual ping every about minute or 2
+
+315
+00:49:51.750 --> 00:49:57.070
+Colton Wolkins: to the mediator, and we noticed that there weren't really any failures.
+
+316
+00:49:57.500 --> 00:50:04.390
+Colton Wolkins: and everything was going smoothly. So we changed from her, and the system
+
+317
+00:50:04.900 --> 00:50:08.639
+Colton Wolkins: use on both the nodes was fairly minimal.
+
+318
+00:50:09.080 --> 00:50:16.689
+Kim Ebert: So what you're indicating here, Colton, is that we have 2 socket Doc nodes in front of the cloud mediator of some type.
+
+319
+00:50:16.720 --> 00:50:19.539
+Colton Wolkins: Yes, and actually. So what we're doing here
+
+320
+00:50:19.750 --> 00:50:26.329
+Colton Wolkins: we have the Amazon aws load balancer in front of 2
+
+321
+00:50:26.440 --> 00:50:29.160
+Colton Wolkins: t 2
+
+322
+00:50:29.470 --> 00:50:32.550
+Colton Wolkins: micro nodes which have 1 GB of RAM.
+
+323
+00:50:35.790 --> 00:50:45.669
+Colton Wolkins: And so we, we're currently just doing using. They're performing these tests with these 2 nodes. And then we have a cloud mediator behind that right? Okay?
+
+324
+00:50:48.040 --> 00:50:55.460
+Colton Wolkins: And so fairly minimal RAM usage and CPU usage here throughout that test.
+
+325
+00:50:55.570 --> 00:50:59.389
+Colton Wolkins: Next up, we decided to bump up the numbers by quite a bit.
+
+326
+00:51:00.070 --> 00:51:04.009
+Colton Wolkins: and we bumped up the number of users to
+
+327
+00:51:04.410 --> 00:51:06.540
+Colton Wolkins: 10,000 users
+
+328
+00:51:07.660 --> 00:51:12.639
+Colton Wolkins: the the drop here is because we were
+
+329
+00:51:12.900 --> 00:51:27.400
+Kim Ebert: so. I actually think that this is a statistics issue with a 95 percentile to take into account the pings. the 95 percentile here includes the Aj Startup time.
+
+330
+00:51:27.810 --> 00:51:34.070
+Kim Ebert: but as soon as you have enough pings that may cause the 95% tile to drop lower there.
+
+331
+00:51:34.280 --> 00:51:38.049
+Kim Ebert: and so that's new, just to
+
+332
+00:51:38.310 --> 00:51:41.110
+Kim Ebert: a statistic. a function.
+
+333
+00:51:41.960 --> 00:51:47.660
+Colton Wolkins: I I also thought that the drop off was due to the fact that we were starting up those
+
+334
+00:51:47.830 --> 00:51:52.530
+Colton Wolkins: Afj agents or wallets in this case.
+
+335
+00:51:53.210 --> 00:52:01.340
+Colton Wolkins: we slowed down the spin up just due to a limitation on the
+
+336
+00:52:01.550 --> 00:52:10.830
+Kim Ebert: best machine of the test machine itself that was sending these requests out.  was due to a CPU limitation.
+
+337
+00:52:12.030 --> 00:52:17.030
+Kim Ebert: But again, it's a statistic issue. If you look up above at the percent tiles
+
+338
+00:52:17.090 --> 00:52:29.870
+Kim Ebert: inside of the different functions here. you'll see that the ping stayed relatively consistent. and the on start time was relatively consistent. If you look at the different percentiles here.
+
+339
+00:52:32.180 --> 00:52:34.039
+Colton Wolkins: And the startup
+
+340
+00:52:34.370 --> 00:52:40.099
+Colton Wolkins: was dragging that percentile way up compared to where the ping.
+
+341
+00:52:43.190 --> 00:52:46.970
+Colton Wolkins: And again, like 10,000 users.
+
+342
+00:52:47.180 --> 00:52:53.360
+Colton Wolkins: no big deal. We're still going ahead and handling everything, all those socket communications
+
+343
+00:52:53.560 --> 00:52:55.539
+Colton Wolkins: being load balanced.
+
+344
+00:52:55.690 --> 00:52:57.989
+Colton Wolkins: And we're still.
+
+345
+00:52:58.070 --> 00:53:06.679
+Colton Wolkins: We're only at 436 MB RAM usage on these 2 nodes. CPU usage is still relatively small.
+
+346
+00:53:06.840 --> 00:53:11.279
+Colton Wolkins: so we decided to bump it up even further to
+
+347
+00:53:11.540 --> 00:53:19.179
+Colton Wolkins:  12,500 simultaneously connected users over web sockets.
+
+348
+00:53:20.750 --> 00:53:23.630
+Colton Wolkins: all of those ping still.
+
+349
+00:53:23.960 --> 00:53:29.480
+Colton Wolkins: for all intents and purposes, chugging along just fine across these 2
+
+350
+00:53:29.900 --> 00:53:37.250
+Colton Wolkins: load balanced T. 2 micro instances on Amazon. and
+
+351
+00:53:37.760 --> 00:53:44.579
+Colton Wolkins: our RAM usage is still below 500 MB on both of these 2 nodes, and our CPU usage
+
+352
+00:53:44.780 --> 00:53:48.910
+Colton Wolkins: with these active pings, is still relatively small.
+
+353
+00:53:50.340 --> 00:53:53.730
+Colton Wolkins: And so what this means is that
+
+354
+00:53:54.460 --> 00:54:00.340
+Colton Wolkins: all of these agents, they are all of these agents that we have connected, and running these pings.
+
+355
+00:54:00.610 --> 00:54:01.950
+Colton Wolkins: They are
+
+356
+00:54:02.090 --> 00:54:06.549
+Colton Wolkins: live active agents, in a sense, just waiting for messages.
+
+357
+00:54:06.580 --> 00:54:18.559
+Colton Wolkins: and so, if they were mobile agents, this would be like 12,500 people all at once, just opening the app and having it open on their screen. As soon as they would close the app, it would
+
+358
+00:54:18.740 --> 00:54:21.179
+Colton Wolkins: close that web socket communication.
+
+359
+00:54:21.620 --> 00:54:23.519
+Colton Wolkins: but
+
+360
+00:54:23.570 --> 00:54:30.910
+Colton Wolkins: our tests here are without that whole close of the app. These are all active web socket connections.
+
+361
+00:54:34.860 --> 00:54:55.229
+Sam Curren (TelegramSam): So Charles got to begin a question why the focus on web sockets? It shouldn't be transport agnostic. A mediator could use smtp the the preferred. The reason why it's preferred for mobile agents is that you want a message to arrive really soon without necessarily pulling. You can also rely on on push notifications for this.
+
+362
+00:54:55.500 --> 00:55:11.179
+Sam Curren (TelegramSam): but when you're if the if the app is open, the likelihood that the person is going to be receiving a message goes up substantially as opposed to any other time, which means that maintaining a live web socket connection produces a really really fast user experience for inbound messages.
+
+363
+00:55:11.180 --> 00:55:28.100
+Sam Curren (TelegramSam): but we've had a challenge up to this point about scaling the number of web sockets that you can maintain easily. so these t 2 macro instances a cost 10 bucks a month on. Aws, I I've realized on different platforms that will be different. But just to give you kind of a sense of
+
+364
+00:55:28.100 --> 00:55:29.339
+Sam Curren (TelegramSam): what the cost is.
+
+365
+00:55:29.610 --> 00:55:36.600
+Sam Curren (TelegramSam): And and we're making an educated guess that that at this point we can support 10 1,000
+
+366
+00:55:36.730 --> 00:55:55.199
+Sam Curren (TelegramSam):  sockets per t, 2 micro instance given this behavior, obviously, some, some more real world experience will be helpful in and evaluating that number. But we, we feel like this is a really great way to cost effectively provide that that connected web socket experience. Kim.
+
+367
+00:55:55.600 --> 00:55:58.550
+Kim Ebert: I did want to mention that. the
+
+368
+00:55:58.760 --> 00:56:08.750
+Kim Ebert: low testing could go much higher. It was a limitation of the low testing configuration at the time. not the micro instances or the cloud mediator.
+
+369
+00:56:09.230 --> 00:56:26.539
+Sam Curren (TelegramSam): Yes, totally. We. We had a single instance driving this and we have the capability of doing clustered test driving boxes. And that's what we'll need to do to to drive it above that we were running a very large instance to to run this number of sockets. and and what was happening, and that test, by the way Kim mentioned this was using afg underneath.
+
+370
+00:56:26.580 --> 00:56:51.089
+Sam Curren (TelegramSam): So unfortunately, we have, like 1 min left. this has been fantastic. but hopefully. So this falls Steven, into your your relay in the in the diagrams that you were showing and can and can perform that relay really really well, and it doesn't care what's behind it. It can actually feed those messages, of course, into into a queuing system, or any other mechanism that would be useful for that.
+
+371
+00:56:51.190 --> 00:57:01.340
+Sam Curren (TelegramSam): and we also have a proxy mediator that that that that Kim just dropped a link to that allows. This is what we use to avoid the the
+
+372
+00:57:02.460 --> 00:57:03.550
+Sam Curren (TelegramSam): oh, shoot!
+
+373
+00:57:03.670 --> 00:57:27.869
+Sam Curren (TelegramSam): I just blinked on this. Oh, you can see this openly later today. We almost had it open. it! I think it would work with as the mediator as long as Afj was able to process the inbound posts, so there may be a tiny shim in front of that of that teamo in order to use afj as that. the, there's no, there's no pre processing of the Didcom message is done. It's just that we're posting that with some additional metadata.
+
+374
+00:57:27.960 --> 00:57:29.609
+Sam Curren (TelegramSam): so really quick
+
+375
+00:57:29.920 --> 00:57:44.229
+Sam Curren (TelegramSam): in the agenda. there is a link that I that I need to share, because we need review on it. Timo has produced a a a legacy. Did transformation document that needs review and so that we can use this.
+
+376
+00:57:44.510 --> 00:58:03.660
+Sam Curren (TelegramSam): the proposals that we use this as a way of of transitioning off of the legacy. Did given sort of what was pioneered inside of a J, and so teamo created this, this does need review and we could bring it up and talk about it online. And in our next meeting. but I wanted to highlight that as well. we will be posting the socket, Doc
+
+377
+00:58:03.660 --> 00:58:28.650
+Sam Curren (TelegramSam): repo link inside of the the area channels on discord. and for your perusal. And we would love some questions. Feedback bug issues all of those other things. if the community is acceptable to it. We would. We can transfer that repo into the Hyper Ledger organization. it'll first be made public as a as an in Dco repository. with the license file, etc., in there. But But we we would love to transfer
+
+378
+00:58:28.650 --> 00:58:32.809
+Sam Curren (TelegramSam): for that. We just want to make sure that it's desirable by the community to do so.
+
+379
+00:58:33.860 --> 00:58:48.689
+Sam Curren (TelegramSam): and I apologize for going over But thank you. And we can talk about this, and then pre, please reach out Colton and and Micah are the are the experts on this code, and and they'd be happy to to answer any questions. They are also on discord.
+
+380
+00:58:49.850 --> 00:58:52.519
+Sam Curren (TelegramSam): any any final comments, since we're 2 min over.
+
+381
+00:58:53.730 --> 00:58:55.640
+John Jordan: Great stuff. Thank you.
+
+382
+00:58:56.480 --> 00:58:59.540
+Stephen Curran: Fantastic, awesome work.
+
+383
+00:58:59.700 --> 00:59:00.750
+Stephen Curran: you know.
+
+384
+00:59:01.080 --> 00:59:02.170
+Timo Glastra: Thanks. Everyone.
+

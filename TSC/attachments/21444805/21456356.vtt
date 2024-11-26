@@ -1,0 +1,1634 @@
+WEBVTT
+
+1
+00:00:21.780 --> 00:00:22.650
+Sean Bohan (Hyperledger): hey good morning Tracy.
+
+2
+00:01:26.130 --> 00:01:30.990
+Tracy Kuhrt: Welcome everybody to the June 23rd hyper ledger typical steering committee call.
+
+3
+00:01:32.130 --> 00:01:46.140
+Tracy Kuhrt: As you are all aware, two things that we must abide by the first one is the antitrust policy nervous and it's currently being displayed on the screen and the second is our code of conduct, which is linked in the agenda.
+
+4
+00:01:49.530 --> 00:02:00.570
+Tracy Kuhrt: Right alright so for the agenda we have our standard announcements, the first thing here every ledger Dev weekly developer newsletter goes out each Friday.
+
+5
+00:02:00.990 --> 00:02:10.830
+Tracy Kuhrt: If you have something that you would like to reach hundreds of developers, please consider leaving a comment on the wiki page that is linked in the agenda.
+
+6
+00:02:12.390 --> 00:02:16.020
+Tracy Kuhrt: sick of it any other announcements that anybody would like to.
+
+7
+00:02:27.600 --> 00:02:29.370
+Tracy Kuhrt: Okay, no announcements.
+
+8
+00:02:32.070 --> 00:02:34.710
+Tracy Kuhrt: And you're like you come off mute, but we cannot hear you.
+
+9
+00:02:37.290 --> 00:02:39.870
+Tracy Kuhrt: I see you raised, your hand still can't hear you.
+
+10
+00:02:45.390 --> 00:02:45.990
+Daniela Barbosa: Can you hear me now.
+
+11
+00:02:46.470 --> 00:02:50.550
+Daniela Barbosa: Yes, Okay, as I guess my air pods are not working.
+
+12
+00:02:51.990 --> 00:03:05.400
+Daniela Barbosa: Good morning, good afternoon everyone, good evening just wanted to do a quick announcement that the agenda for hyper ledger global forum is now on the event website so you can navigate to hyper ledger.org.
+
+13
+00:03:14.040 --> 00:03:15.360
+Ry Jones: We lost you Daniel.
+
+14
+00:03:20.610 --> 00:03:20.850
+Tracy Kuhrt: Yes.
+
+15
+00:03:24.060 --> 00:03:24.360
+Ry Jones: yeah.
+
+16
+00:03:26.550 --> 00:03:33.570
+Ry Jones: Well, I think she said it's it's on the website and a link will be provided post-haste promise.
+
+17
+00:03:39.150 --> 00:03:43.650
+Tracy Kuhrt: Alright, so they're good any other announcements that anybody would like to make.
+
+18
+00:03:50.520 --> 00:03:51.000
+Tracy Kuhrt: alright.
+
+19
+00:03:52.080 --> 00:03:58.140
+Tracy Kuhrt: So if there's no other announcements, then we do have a quarterly report that came in a couple days ago.
+
+20
+00:03:59.520 --> 00:04:15.360
+Tracy Kuhrt: Shortly after I sent out the agenda the hyper ledger ursa report came out I did only see a few people had reviewed, that of this as of this morning, so For those of you who have not reviewed it yet, please do take the opportunity to do that.
+
+21
+00:04:16.590 --> 00:04:26.310
+Tracy Kuhrt: Only one question so far gone back to the hyper ledger ursa team it's around the requirements that we have for the inclusive language statement.
+
+22
+00:04:26.970 --> 00:04:37.650
+Tracy Kuhrt: So we'll wait to hear back from the are searching in general, I think that the report is talking about the focus that they have on a security issue.
+
+23
+00:04:38.580 --> 00:04:47.790
+Tracy Kuhrt: And so i'm assuming that they're probably working on that and will at some point, get back to this question here around the inclusive language statement.
+
+24
+00:04:48.840 --> 00:04:53.100
+Tracy Kuhrt: Any other comments that anybody has on this report before we move forward in the agenda.
+
+25
+00:04:57.180 --> 00:05:04.890
+Arnaud  Le Hors (IBM): No, but Tracy I mean I scroll down to the page to put the comment and realize you had put exactly what I was going to ask.
+
+26
+00:05:06.180 --> 00:05:07.200
+Arnaud  Le Hors (IBM): You beat me to it.
+
+27
+00:05:09.330 --> 00:05:09.810
+Arnaud  Le Hors (IBM): yeah.
+
+28
+00:05:11.160 --> 00:05:14.790
+Tracy Kuhrt: I noticed that most of the reports that we've been getting.
+
+29
+00:05:15.960 --> 00:05:24.150
+Tracy Kuhrt: Either say no, or they actually give a link to a PR which is great so we'll hopefully get a response back like I said.
+
+30
+00:05:25.980 --> 00:05:26.310
+Tracy Kuhrt: anything.
+
+31
+00:05:27.540 --> 00:05:34.080
+Nathan George: Just to add to that we did discuss the comments on this document in our meeting yesterday, the.
+
+32
+00:05:34.860 --> 00:05:41.010
+Nathan George: project is working on the security issues, first, but there's this set of refactoring tasks called Operation oh so.
+
+33
+00:05:41.730 --> 00:05:55.830
+Nathan George: That includes checking for any language and adding some of the other checks to what's going on in the system and we don't have anything that we expect with violating any of those checks, but we didn't want to say yes, until we were sure that everything met with the spec.
+
+34
+00:06:02.250 --> 00:06:05.010
+Tracy Kuhrt: Anything else on the report before before you.
+
+35
+00:06:05.100 --> 00:06:05.760
+Tracy Kuhrt: Can the agenda.
+
+36
+00:06:11.040 --> 00:06:34.740
+Tracy Kuhrt: Alright, so for the agenda we have some decisions to make the first two are around lab stewards so in the initial proposal for hyper ledger labs it was stated that there was an initial set of lab stewards and that anybody who wanted to become the lead store could volunteer.
+
+37
+00:06:36.240 --> 00:06:41.790
+Tracy Kuhrt: By basically sending us a message, and then I having the tsa approved their.
+
+38
+00:06:43.470 --> 00:06:51.240
+Tracy Kuhrt: Their service here for a celeb Stewart so we actually ended up getting to folks to volunteer to become a lab steward one.
+
+39
+00:06:52.530 --> 00:07:05.760
+Tracy Kuhrt: That you are all well familiar with, as he is part of a technical Steering Committee, the other one around you nominated and has been working in the blockchain and the hyper ledger space for for some time, so.
+
+40
+00:07:07.290 --> 00:07:20.340
+Tracy Kuhrt: I had put out on this for a request to vote, but I don't think we ended up with enough votes for either to say that we could move forward with that, I think we ended up with on discord five.
+
+41
+00:07:21.720 --> 00:07:30.360
+Tracy Kuhrt: yeses and for commerce and then six yeses for a non so we have to bring this to the TC for a vote.
+
+42
+00:07:32.010 --> 00:07:34.260
+Tracy Kuhrt: So Come on, you have your hand up.
+
+43
+00:07:36.540 --> 00:07:44.400
+Kamlesh Nagware: So, to see if we are just need one level is different than I can deploy my application by no means.
+
+44
+00:07:45.270 --> 00:07:59.250
+Tracy Kuhrt: No, I don't think it's a problem to have to come up with it gets right now we have our knowing myself that are very active and i've seen the been start to become active again recently with approving PR so.
+
+45
+00:08:00.480 --> 00:08:07.920
+Tracy Kuhrt: Given that we need at least two labs stewart's to review and approve incoming labs I think I think it's fine to have to.
+
+46
+00:08:08.700 --> 00:08:09.210
+Kamlesh Nagware: Okay okay.
+
+47
+00:08:10.590 --> 00:08:11.490
+Tracy Kuhrt: yeah appreciate that.
+
+48
+00:08:13.320 --> 00:08:19.440
+Tracy Kuhrt: um so yeah let's go ahead, you have the vote for unpublished, to become a lab steward.
+
+49
+00:08:21.060 --> 00:08:22.290
+Tracy Kuhrt: So I don't know.
+
+50
+00:08:23.880 --> 00:08:29.010
+Tracy Kuhrt: If somebody might say, well, I guess i'll make the nomination to somebody on a second.
+
+51
+00:08:33.690 --> 00:08:34.020
+Tracy Kuhrt: All right.
+
+52
+00:08:35.610 --> 00:08:39.270
+Tracy Kuhrt: So, right here Sean I don't know who is take us through how much.
+
+53
+00:08:41.430 --> 00:08:44.760
+Ry Jones: Is this a roll call vote or yes or a voice vote.
+
+54
+00:08:45.270 --> 00:08:47.070
+Tracy Kuhrt: Oh let's just do a voice word I think that's.
+
+55
+00:08:48.150 --> 00:08:48.570
+Ry Jones: Okay.
+
+56
+00:08:49.620 --> 00:08:52.350
+Ry Jones: All those who wish to abstain from the vote.
+
+57
+00:08:53.610 --> 00:08:54.420
+Ry Jones: Please say so.
+
+58
+00:08:57.570 --> 00:09:01.320
+Ry Jones: All those who wish to vote against the proposal before the floor.
+
+59
+00:09:04.350 --> 00:09:07.140
+Ry Jones: All those who wish to vote for, say high.
+
+60
+00:09:10.830 --> 00:09:11.910
+Ry Jones: emotion passes by.
+
+61
+00:09:11.910 --> 00:09:12.420
+Facebook.
+
+62
+00:09:13.980 --> 00:09:27.630
+Tracy Kuhrt: Thanks right, and then the second one is non a rude I don't know you want to add disappear few words about none to allow for the rest of the committee to to learn a bit more about his role.
+
+63
+00:09:30.030 --> 00:09:35.430
+Arun Office: Sure, so I guess, I had a brief introduction of finance role in the discard channel.
+
+64
+00:09:36.720 --> 00:09:48.090
+Arun Office: So he as part of his work he works as a distinguished architect in walmart within lockshin platforms thing and he's based in us time zone right the central time zone.
+
+65
+00:09:49.860 --> 00:09:57.840
+Arun Office: Is his day to day work is completely involved in blockchain technology at work and within Open Source technology, he has been a proponent of.
+
+66
+00:09:58.770 --> 00:10:09.360
+Arun Office: Using hyper ledger technology, since last five to six years, I would say, and in terms of contribution back into projects, he has been adding.
+
+67
+00:10:09.720 --> 00:10:19.350
+Arun Office: Some of the tools and let's say utilities that are being developed, but none of them were put into hyper ledger the ledger loves pizza they're all in his personal.
+
+68
+00:10:20.400 --> 00:10:32.460
+Arun Office: github repo However, recently are probably like about a year ago, a project was proposed that's called xlr connectors that's now open source via I pleasure labs right.
+
+69
+00:10:33.420 --> 00:10:48.540
+Arun Office: so soon there will be additional capabilities introduced when we're also looking into a few other aspects to adopt some of the other projects where we go start maintaining a few others, so yeah he's pretty much involved into what's happening within my pleasure space.
+
+70
+00:10:50.160 --> 00:10:50.910
+Arun Office: So I felt it.
+
+71
+00:10:52.080 --> 00:11:06.570
+Arun Office: Also, to increase let's say I am strong proponent, as I said, of bringing in more people having that responsibility distributed across or where everybody will feel that they are welcome that highlighted so that's where I went higher and proposed.
+
+72
+00:11:08.310 --> 00:11:09.210
+Arun Office: and
+
+73
+00:11:11.040 --> 00:11:13.050
+Arun Office: that's the brief intro and the background.
+
+74
+00:11:15.270 --> 00:11:15.450
+Tracy Kuhrt: On.
+
+75
+00:11:18.240 --> 00:11:22.800
+Tracy Kuhrt: me a discussion that anybody wants to have here before we move to a vote.
+
+76
+00:11:48.900 --> 00:11:51.480
+Ry Jones: Tracy if you're saying anything we can't hear you.
+
+77
+00:11:55.110 --> 00:11:56.670
+Ry Jones: feels like i'm living in a verizon ad.
+
+78
+00:12:00.270 --> 00:12:04.080
+Arnaud  Le Hors (IBM): Well, thanks for speaking up because every time i'm wondering, is it me or.
+
+79
+00:12:08.580 --> 00:12:09.540
+Ry Jones: Tracy are you back.
+
+80
+00:12:11.880 --> 00:12:18.450
+Ry Jones: The answer is no, so if someone wants to move to conduct the boat and second let's do it.
+
+81
+00:12:22.950 --> 00:12:24.360
+Arun Office: Do behind me.
+
+82
+00:12:25.920 --> 00:12:26.880
+Danno Ferrin: I emotion.
+
+83
+00:12:28.530 --> 00:12:29.820
+Danno Ferrin: To move to vote for.
+
+84
+00:12:31.800 --> 00:12:33.810
+Danno Ferrin: it's an odd or chemistry or voted for.
+
+85
+00:12:34.350 --> 00:12:40.740
+Danno Ferrin: God or not okay I moved to accept it, not as a lab steward unless there's more discussion.
+
+86
+00:12:43.830 --> 00:12:44.640
+Jim Zhang: On a second.
+
+87
+00:12:45.660 --> 00:12:46.110
+Ry Jones: Okay.
+
+88
+00:12:48.270 --> 00:12:51.390
+Ry Jones: Everyone who opposes say, nay.
+
+89
+00:12:53.610 --> 00:13:01.050
+Ry Jones: Everyone who abstains say now wow okay everyone in favor say Aye.
+
+90
+00:13:01.560 --> 00:13:02.580
+Dave Enyeart: Aye Aye.
+
+91
+00:13:02.670 --> 00:13:04.470
+Kamlesh Nagware: Aye Aye.
+
+92
+00:13:05.430 --> 00:13:07.170
+Ry Jones: The motion to approve a nod.
+
+93
+00:13:07.950 --> 00:13:13.620
+Ry Jones: passes by voice vote and Tracy once you get your audio sorted out yeah i'm back.
+
+94
+00:13:13.800 --> 00:13:15.060
+Tracy Kuhrt: sorry about that guys.
+
+95
+00:13:17.370 --> 00:13:23.700
+Tracy Kuhrt: bluetooth loves me sometimes not so much, so thank you all for for moving that floor.
+
+96
+00:13:24.840 --> 00:13:25.380
+Tracy Kuhrt: anything.
+
+97
+00:13:26.700 --> 00:13:31.650
+Nathan George: Just one more thing I think to say thank you to all those who've been working hard to help us as lab stewards.
+
+98
+00:13:32.070 --> 00:13:38.040
+Nathan George: it's often a very thankless job that helps support the growth of our Community and a lot of new innovation that's really cool.
+
+99
+00:13:38.340 --> 00:13:46.200
+Nathan George: it's worth going and checking out the labs and thanks to those who volunteered to be new lab stores and those have been keeping the lights on, there and making it will work for us.
+
+100
+00:13:48.600 --> 00:13:49.950
+Tracy Kuhrt: Alright, thanks for that even.
+
+101
+00:13:51.990 --> 00:14:03.780
+Tracy Kuhrt: yeah it's it's actually a really great place to start to bring in new people who are interesting, it should be it's really interesting to see kind of the new things that people are suggesting as they come in so.
+
+102
+00:14:05.160 --> 00:14:09.000
+Tracy Kuhrt: Looking forward to having population and i'll help us out in that regard.
+
+103
+00:14:11.040 --> 00:14:16.260
+Tracy Kuhrt: Alright, so the last thing on the agenda that I have here, which I don't know is going to.
+
+104
+00:14:19.080 --> 00:14:31.920
+Tracy Kuhrt: be a quick sort of thing is, I actually took kind of the comments from last week's discussion on changing from technical steering committee to the technical oversight committee and.
+
+105
+00:14:34.020 --> 00:14:35.520
+Tracy Kuhrt: and put together some.
+
+106
+00:14:37.050 --> 00:14:37.800
+Tracy Kuhrt: Some.
+
+107
+00:14:38.910 --> 00:14:59.610
+Tracy Kuhrt: suggested changes to our Charter to the hyper ledger charter to reflect kind of the discussion that was had so in general I think most of the changes here are just around changing it from key sc to to see so as I went through and did that.
+
+108
+00:15:00.990 --> 00:15:08.520
+Tracy Kuhrt: You can see the changes there I don't think, hopefully, that is too much of a challenge to get through, but I think there is some.
+
+109
+00:15:09.930 --> 00:15:12.060
+Tracy Kuhrt: Specific verbiage.
+
+110
+00:15:12.390 --> 00:15:14.190
+Tracy Kuhrt: that exists in.
+
+111
+00:15:15.360 --> 00:15:25.980
+Tracy Kuhrt: The section, where we actually talked about how the TC is appointed, so if we could scroll down here in the in the document tour will see a bunch of green or red I guess.
+
+112
+00:15:26.790 --> 00:15:34.080
+Tracy Kuhrt: So right in this section is where the the changes have been made, and so, these are the things that I want to talk about today.
+
+113
+00:15:35.550 --> 00:15:44.700
+Tracy Kuhrt: So I didn't see anybody coming in and actually making any other suggested changes to what is here so hopefully.
+
+114
+00:15:46.320 --> 00:16:02.160
+Tracy Kuhrt: Maybe i'm just pausing here and giving you guys some time to read this in case you haven't had a chance to read the changes that were made, and then we can have a discussion on some of the points that I think might be potentially controversial.
+
+115
+00:16:04.230 --> 00:16:05.640
+Tracy Kuhrt: So I just give you a minute here.
+
+116
+00:16:27.270 --> 00:16:27.810
+Tracy Kuhrt: So.
+
+117
+00:16:29.370 --> 00:16:41.220
+Tracy Kuhrt: Hopefully you've had a chance to review the suggested changes here, and one of the things that I did note in a difference between what it is that we.
+
+118
+00:16:41.640 --> 00:16:58.110
+Tracy Kuhrt: Currently, have versus what is being suggested here is that you know the discretion are reflected that we wanted to have all maintainer owners who have been active in the past year to elect a portion of the technical oversight committee.
+
+119
+00:16:59.850 --> 00:17:19.860
+Tracy Kuhrt: And the question that I have around, that is, we in the past have also included obviously contributors people fake coaching engines, as well as members of the technical Steering Committee, the existing technical steering committee as people who could vote for the upcoming.
+
+120
+00:17:21.240 --> 00:17:29.310
+Tracy Kuhrt: The upcoming in the upcoming election um so my question here is we've talked about changing it just to maintain owners, which I think is.
+
+121
+00:17:29.820 --> 00:17:41.880
+Tracy Kuhrt: Fine, which would remove the contributors, but it didn't know how that impacted the feeling of the existing tasc Members being able to also participate in that election.
+
+122
+00:17:43.380 --> 00:17:45.570
+Tracy Kuhrt: So that's the question that I have for the PC.
+
+123
+00:17:46.740 --> 00:17:47.130
+Tracy Kuhrt: or no.
+
+124
+00:17:48.450 --> 00:18:09.570
+Arnaud  Le Hors (IBM): yeah I actually had a question we live to that, so the way I read this now is it's the maintainer is the vote but it's you know quote individuals were active who are who can run for it, so this may be the same people but it's not necessarily the same info right.
+
+125
+00:18:10.590 --> 00:18:21.780
+Arnaud  Le Hors (IBM): The set of containers is a much smaller set of people who hopefully are active contributors, but you know, so I didn't I wasn't sure this is what you actually met.
+
+126
+00:18:23.670 --> 00:18:26.310
+Tracy Kuhrt: yeah so it definitely was, I know I think.
+
+127
+00:18:27.540 --> 00:18:34.770
+Tracy Kuhrt: You know in Daniels proposal that he had put out I forget exactly how he said it, but basically it was.
+
+128
+00:18:36.450 --> 00:18:46.770
+Tracy Kuhrt: Individuals who are active within the industry scope of hyper ledger foundation which would imply that even people who don't contribute to hyper ledger.
+
+129
+00:18:47.880 --> 00:18:57.870
+Tracy Kuhrt: would be allowed to volunteer themselves as or nominate themselves as somebody who would run for the in this case the technical oversight committee.
+
+130
+00:18:59.100 --> 00:19:06.420
+Tracy Kuhrt: That obviously it's a much larger pool than the currently active maintainer for the different projects.
+
+131
+00:19:08.070 --> 00:19:24.510
+Tracy Kuhrt: So yeah it was intentional that those two pools of people were distinct and happy to you know discuss whether or not that's you know what is wanted, or what was intended, but I thought, based on our discussion that's where we were at.
+
+132
+00:19:26.280 --> 00:19:32.400
+Arnaud  Le Hors (IBM): So I mean, and you know i'm not opposed to this i'm trying to understand the ramifications of this choice.
+
+133
+00:19:32.460 --> 00:19:32.880
+Arnaud  Le Hors (IBM): Because.
+
+134
+00:19:33.420 --> 00:19:46.620
+Arnaud  Le Hors (IBM): You know, part of the pain that the stuff slash right as as felt going through the election process, every year, is to actually figure out what is this list of active.
+
+135
+00:19:47.010 --> 00:20:05.160
+Arnaud  Le Hors (IBM): Individuals that qualified, both for running and for voting and it seems to me that, so in this case I mean it simplifies figuring out who gets to vote, but in terms of who gets to be you know who can be nominated it's the same.
+
+136
+00:20:08.550 --> 00:20:09.090
+Arnaud  Le Hors (IBM): Is that right.
+
+137
+00:20:13.230 --> 00:20:28.140
+Tracy Kuhrt: I agree with that and I think that it is easier to prove that you've been active in the Community by pointing people are in your nominations statement to link somewhere you've been.
+
+138
+00:20:30.390 --> 00:20:38.970
+Tracy Kuhrt: where you have been active right versus here's the list that I have to go gather in order to send emails to all of the people who need to vote.
+
+139
+00:20:40.020 --> 00:20:44.280
+Tracy Kuhrt: and, obviously, putting words into your mouth right but yeah that's.
+
+140
+00:20:45.300 --> 00:20:45.780
+Tracy Kuhrt: that's how I.
+
+141
+00:20:46.290 --> 00:20:47.070
+Arnaud  Le Hors (IBM): met Wendy.
+
+142
+00:20:47.550 --> 00:20:48.870
+Ry Jones: yeah so.
+
+143
+00:20:50.340 --> 00:20:52.080
+Ry Jones: i've been working on a.
+
+144
+00:20:53.400 --> 00:20:54.270
+Ry Jones: An extraction.
+
+145
+00:20:55.290 --> 00:20:59.940
+Ry Jones: Based on the tool that Tracy provided for finding old repos.
+
+146
+00:21:01.800 --> 00:21:07.800
+Ry Jones: And I can get people's activity in the org and what those activities are.
+
+147
+00:21:09.240 --> 00:21:17.010
+Ry Jones: The audit log for github has been expanded significantly in the last I don't know, two months.
+
+148
+00:21:17.520 --> 00:21:25.740
+Ry Jones: So the activities are showing up in the audit log include all the things that weren't there before like PR comments and stuff like that, so we could.
+
+149
+00:21:26.280 --> 00:21:36.570
+Ry Jones: Eventually, in the future be able to say they made so many PR comments that was on this or was on these repos and the 70 other so it's it's far easier today than it was even a month ago.
+
+150
+00:21:40.020 --> 00:21:48.480
+Arnaud  Le Hors (IBM): Alright well thanks I think that that makes sense, actually, I can see how this is so much easier because they only so many people really want to.
+
+151
+00:21:48.840 --> 00:22:07.350
+Arnaud  Le Hors (IBM): be nominated or to nominate themselves and fundamentally you only need to know if you to check that they are indeed active computers and so so yeah the burden is much more than than what we have right that makes sense, thank you.
+
+152
+00:22:10.260 --> 00:22:10.680
+Tracy Kuhrt: All right.
+
+153
+00:22:14.310 --> 00:22:27.330
+Kamlesh Nagware: So, considering maybe adding this will serve as some kind of category where Community will lay down some Community representatives at a seaman but because here, ladies look like.
+
+154
+00:22:28.500 --> 00:22:35.790
+Kamlesh Nagware: hyper ledger is selecting the PSC for hyper ledger like the word like mentors from liability, the Governing Board also type thing.
+
+155
+00:22:36.720 --> 00:22:47.490
+Kamlesh Nagware: So it could become like them close closely with remembering what we are thinking, what type of your thinking we are just driving that that thing, maybe integrated like.
+
+156
+00:22:48.900 --> 00:23:00.390
+Kamlesh Nagware: A Ford from by the ledger mental really liked the forcing maybe three will slay the Governing Board, let me remaining three will select the Community by Community word and the people who are in the Community Members because because.
+
+157
+00:23:01.680 --> 00:23:12.270
+Kamlesh Nagware: Actually users who are using the hyper ledger projects, what the thing about the Internet and what they need in the hyper ledger is a project and how they want to see the Community going.
+
+158
+00:23:13.170 --> 00:23:22.500
+Kamlesh Nagware: So I think this should be one kind of other categories will be added in divided, like all this three could have an equal equal representation, and that is.
+
+159
+00:23:24.900 --> 00:23:28.560
+Tracy Kuhrt: So Come on, I know those original proposal had.
+
+160
+00:23:29.880 --> 00:23:35.730
+Tracy Kuhrt: What was it five individuals being elected or selected by the maintainer.
+
+161
+00:23:37.740 --> 00:23:51.450
+Tracy Kuhrt: Or that will be elected by the Governing Board and to that were elected from the selection of the nine individuals what I heard in our last meeting.
+
+162
+00:23:51.930 --> 00:24:07.260
+Tracy Kuhrt: Was it was too complex and that people wanted to make this simpler in what they wanted to do, and they want to really just limited to the main taters and the Governing Board to do this election now.
+
+163
+00:24:08.730 --> 00:24:18.150
+Tracy Kuhrt: You know, when I originally started looking at bringing this back to the agenda for this week, I thought about modifying Downs proposal to reflect kind of those changes.
+
+164
+00:24:18.780 --> 00:24:30.270
+Tracy Kuhrt: But in the end, given the fact that there was a lot of requests for making this simple, I decided that I would put the changes directly in the Charter.
+
+165
+00:24:30.900 --> 00:24:46.740
+Tracy Kuhrt: which would hopefully simplify kind of the discussion points as we go through so i'm understand your concern is how do we make sure that the organization doesn't become somehow insular.
+
+166
+00:24:48.060 --> 00:24:53.550
+Tracy Kuhrt: And I don't know that I have a good answer for that, one way or the other.
+
+167
+00:25:00.810 --> 00:25:07.470
+Angelo De Caro: Yes, thank you, I, to be honest, I found this paragraph, a little bit ambiguous.
+
+168
+00:25:08.670 --> 00:25:15.960
+Angelo De Caro: And also i'm a bit worried about the power balance, because I guess this maintainer Czar of the maintainer of the active projects.
+
+169
+00:25:17.040 --> 00:25:31.020
+Angelo De Caro: And if we set this active bar too low, you know maliciously these these projects, you know I work in security, so I I tend to think about the the bad side of things.
+
+170
+00:25:31.440 --> 00:25:49.140
+Angelo De Caro: So what if they manipulate their list on Monday enos to get more power time of election, this is all this whole it's all depending on the way we set this active destructive threshold, so a little bit worried about that part.
+
+171
+00:25:50.820 --> 00:26:09.690
+Angelo De Caro: Yes, and also, I would like to have clearly specified as partially was before, so what the maintenance of the active projects or also other projects and under which are the rules that govern the active the stock that we can define this month is after.
+
+172
+00:26:11.370 --> 00:26:21.510
+Tracy Kuhrt: yeah, so I think if you scroll down just a bit shine on this page, there is the description right at the bottom here of what the maintainer his book a little bit far.
+
+173
+00:26:23.640 --> 00:26:33.300
+Tracy Kuhrt: right there starting on the bottom of this page to the top of the next page says mean haters are contributors who have the ability to approve or request or commit code.
+
+174
+00:26:33.990 --> 00:26:41.970
+Tracy Kuhrt: and contributions directly to a project source code repository a contributor may become maintainer by a majority approval of the existing maintainer.
+
+175
+00:26:43.260 --> 00:26:49.080
+Tracy Kuhrt: So that is the definition of what a maintainer is in this paragraph above.
+
+176
+00:26:50.820 --> 00:26:51.450
+Tracy Kuhrt: and
+
+177
+00:26:52.440 --> 00:26:53.310
+Tracy Kuhrt: agree right.
+
+178
+00:26:53.970 --> 00:26:58.770
+Tracy Kuhrt: There is the possibility, then, that we could gain the system by having.
+
+179
+00:26:58.830 --> 00:26:59.760
+Tracy Kuhrt: A single project.
+
+180
+00:26:59.850 --> 00:27:04.380
+Tracy Kuhrt: out a bunch mean hunters that they expected in one way or another.
+
+181
+00:27:06.000 --> 00:27:10.320
+Danno Ferrin: That problem exists in the current setup when it has anyone who submits a wiki entry.
+
+182
+00:27:11.490 --> 00:27:20.370
+Danno Ferrin: I don't think it's new and I think, by making a maintainer reduce the attack surface for that kind of a simple attack the civil attack is not introduced by this change.
+
+183
+00:27:24.750 --> 00:27:26.160
+Tracy Kuhrt: Ah heart.
+
+184
+00:27:27.120 --> 00:27:34.020
+Hart Montgomery: yeah I was just going to elaborate on Dennis comment, this is a problem or, this is a known issue we've had for a long time.
+
+185
+00:27:34.740 --> 00:27:53.010
+Hart Montgomery: And if you go back you know, to the old tasc email lists I emailed this about this, you know about the contributor list you know, probably, five years ago where with a simple script you could add you know easily 10,000 contributors and completely take over the election.
+
+186
+00:27:54.330 --> 00:28:05.880
+Hart Montgomery: So, luckily, you know so far no one has done this and in the past, elections we've you know i've explicitly pushed for the tlc to be able to throw out.
+
+187
+00:28:06.900 --> 00:28:12.570
+Hart Montgomery: or sorry not the tasc the staff to be able to throw out what they consider fraudulent.
+
+188
+00:28:14.250 --> 00:28:16.710
+Hart Montgomery: Contribution efforts.
+
+189
+00:28:18.180 --> 00:28:29.880
+Hart Montgomery: which I don't think we've seen any but but we always had that possibility and as Daniel pointed out the bar for doing this for maintainer is you know much, much higher.
+
+190
+00:28:30.990 --> 00:28:34.380
+Hart Montgomery: So, so I agree that this is certainly an issue in theory.
+
+191
+00:28:35.730 --> 00:28:48.930
+Hart Montgomery: But i'm not sure it's something that we've we've had to deal with in practice, and I think it would be you know much harder to implement practically than attacking the contributor list.
+
+192
+00:28:50.070 --> 00:28:58.740
+Hart Montgomery: And you know, the number of people who can add new maintainer is in the project is actually quite small, so it would be you know.
+
+193
+00:29:00.210 --> 00:29:04.020
+Hart Montgomery: problematic from a rational perspective for for people to actually do this.
+
+194
+00:29:06.450 --> 00:29:06.960
+Hart Montgomery: Thanks.
+
+195
+00:29:09.630 --> 00:29:13.110
+Tracy Kuhrt: Alright, thanks hard and if we scroll back to the.
+
+196
+00:29:14.610 --> 00:29:22.950
+Tracy Kuhrt: Major changes here the other piece I think here is for the main characters have been active in the past year.
+
+197
+00:29:24.390 --> 00:29:35.250
+Tracy Kuhrt: I you know, I think that is an attempt to ensure that you know somebody is actually doing maintenance right project and maintaining that project.
+
+198
+00:29:37.170 --> 00:29:46.980
+Tracy Kuhrt: From the perspective of approving of yours and coming on issues, and you know, making contributions to the code itself as it may be.
+
+199
+00:29:48.000 --> 00:29:53.790
+Tracy Kuhrt: So I don't I don't know that that addresses Angelo the the concern, but I, you know.
+
+200
+00:29:53.820 --> 00:29:56.340
+Tracy Kuhrt: I do think that there is some.
+
+201
+00:29:56.970 --> 00:30:07.440
+Tracy Kuhrt: Some verbiage, to try and help that but understand understand your concern, as well i'm happy to have Angela jumping to comment on that aspect.
+
+202
+00:30:09.570 --> 00:30:11.520
+Angelo De Caro: genesis also sent me to respond to.
+
+203
+00:30:12.060 --> 00:30:12.690
+Tracy Kuhrt: Yes, please.
+
+204
+00:30:12.720 --> 00:30:13.590
+Angelo De Caro: yeah that's.
+
+205
+00:30:15.000 --> 00:30:23.430
+Angelo De Caro: I understand the scene of the sebring attacks, but are we saying now that all the projects must have a cap on the number of containers.
+
+206
+00:30:23.850 --> 00:30:36.060
+Angelo De Caro: So I guess there isn't right now, or radio an imbalance between the between the number of containers between i'm on the projects, maybe fabric, I don't know has done and the other or the other said, very few.
+
+207
+00:30:37.980 --> 00:30:55.080
+Angelo De Caro: I guess that as soon as we we approve these there will be a rush on them there might be a rush in increasing the number of containers, because that will represent more of a more power so to me more rational to say okay each project gets these amount of votes.
+
+208
+00:30:56.550 --> 00:31:01.470
+Angelo De Caro: To be that can be used to elect the six people that to me seems more fair.
+
+209
+00:31:02.310 --> 00:31:06.060
+Ry Jones: So I hear your push back there Angelo.
+
+210
+00:31:07.950 --> 00:31:23.610
+Ry Jones: This is, I think, linked to a large number of issues with projects that have no maintainer or no active maintainer and projects that have many people in their maintainer list, who are not active.
+
+211
+00:31:24.810 --> 00:31:27.630
+Ry Jones: So there, there will need to be something done there.
+
+212
+00:31:28.740 --> 00:31:29.970
+Ry Jones: By the dsc to say.
+
+213
+00:31:31.170 --> 00:31:34.110
+Ry Jones: tlc say who isn't isn't a.
+
+214
+00:31:35.280 --> 00:31:41.610
+Ry Jones: maintainer So yes, that that is a concern that is a valid concern.
+
+215
+00:31:43.920 --> 00:31:45.030
+Ry Jones: essential things right.
+
+216
+00:31:45.390 --> 00:31:47.430
+Tracy Kuhrt: or no sorry to make you a.
+
+217
+00:31:48.120 --> 00:31:53.160
+Arnaud  Le Hors (IBM): hates Okay, I mean I actually wanted to discuss further this very point I mean.
+
+218
+00:31:53.610 --> 00:32:04.350
+Arnaud  Le Hors (IBM): And, and to be fair, you know i'm not completely sure where I stand on this issue, and this is why I initially raised my hand and I thought, no it's Okay, I put it down and then I was like no no actually.
+
+219
+00:32:04.890 --> 00:32:17.730
+Arnaud  Le Hors (IBM): do want to say so, bear with me on that, but I actually think one thing we could practically do is have a common policy on how people become maintainer.
+
+220
+00:32:18.120 --> 00:32:33.300
+Arnaud  Le Hors (IBM): They get retired because we don't have any consistency in this regard across the board, and I don't think putting a limit to the number makes sense because some projects are much bigger than others and we already have that today inside right when.
+
+221
+00:32:33.810 --> 00:32:40.950
+Arnaud  Le Hors (IBM): Just just by the sheer fact that I mean the simple fact that there are projects that are bigger they have more contributors.
+
+222
+00:32:41.340 --> 00:32:52.170
+Arnaud  Le Hors (IBM): And they will have more votes that's just the way it's been all the time, and so I don't think it changes that you will have more maintainer is naturally in bigger project than smaller ones.
+
+223
+00:32:53.010 --> 00:33:12.390
+Arnaud  Le Hors (IBM): If we, I mean right last year in this proposal he had you know, come up with the proposal where the gic was divided, but more equally among the different projects so putting a limit to the number of votes that come from project is not completely crazy and could be.
+
+224
+00:33:13.530 --> 00:33:21.210
+Arnaud  Le Hors (IBM): You know, considered, but I think one practical thing we could do again is he's come up with a common policy on.
+
+225
+00:33:21.510 --> 00:33:31.530
+Arnaud  Le Hors (IBM): You know what does it take to become a maintainer in the first place, and I stir how much you know inactivity also because you might I mean right now, it says, you know.
+
+226
+00:33:31.800 --> 00:33:48.630
+Arnaud  Le Hors (IBM): A year, but we could have a project that say after six months if you have not been active we kick you out and yet another one will, so we won't be fair across the board, because some projects we love you know retired so maintainer is what others have done this i'm trying to say.
+
+227
+00:33:49.680 --> 00:33:52.020
+Tracy Kuhrt: Alright, so or no on that particular point.
+
+228
+00:33:53.460 --> 00:33:54.510
+Tracy Kuhrt: Interestingly enough.
+
+229
+00:33:55.560 --> 00:33:59.730
+Tracy Kuhrt: You actually have in the trailer itself.
+
+230
+00:34:01.290 --> 00:34:01.920
+Tracy Kuhrt: How a.
+
+231
+00:34:01.950 --> 00:34:03.690
+Tracy Kuhrt: contributor may become a maintainer.
+
+232
+00:34:04.710 --> 00:34:14.910
+Tracy Kuhrt: And again scroll down just to the top of the next page it says a contributor may become the maintainer by a majority approval of the existing mean haters.
+
+233
+00:34:15.990 --> 00:34:36.270
+Tracy Kuhrt: So we actually that's part of the Charter, and if our projects have a different way of deciding how contributor becomes a maintainer they're probably going against our church today and, secondly, if you recall, they know had that PR with the inactive maintainer policy um.
+
+234
+00:34:37.380 --> 00:34:37.890
+Tracy Kuhrt: I.
+
+235
+00:34:39.030 --> 00:34:43.800
+Tracy Kuhrt: can't remember Donald help me if i'm getting this wrong, was it did we go.
+
+236
+00:34:43.890 --> 00:34:50.700
+Tracy Kuhrt: With the inactive maintainer did we go with the inactive repository as the first PR that we ended up merging.
+
+237
+00:34:51.150 --> 00:34:57.210
+Danno Ferrin: We went with an active maintainer and it's judged by github actions over the past six months, so if you've done nothing for six months.
+
+238
+00:34:58.800 --> 00:35:13.860
+Danno Ferrin: You are pushed down, and I think there's a request for a three month extension that can only be requested once, so there is a policy if the default policy projects can override it but i'm not aware of any project right now that has a policy that is more.
+
+239
+00:35:15.300 --> 00:35:21.840
+Danno Ferrin: That is looser than what the default policy is basically has one they have one for the policy so it's kind of a legacy policy.
+
+240
+00:35:22.410 --> 00:35:37.710
+Danno Ferrin: And it's basically the same thing after six or two after to reporting periods, we check on the quarterly reports maintenance or proposed removal and we haven't um one thought about waking up and contributing more but that didn't you know.
+
+241
+00:35:39.240 --> 00:35:47.370
+Danno Ferrin: i've looked back to that detail some of them, some of them are don't realize that they're they're not getting stuff counted, others are like yeah i'm out of here I mean really what we would like to do is when.
+
+242
+00:35:47.880 --> 00:35:53.160
+Danno Ferrin: People leave the project and get a job related to basically they they resigned, but you know.
+
+243
+00:35:54.420 --> 00:36:03.690
+Danno Ferrin: that's that doesn't always happen, which is why we need to have the you know in technical speak the garbage collection, where all the unused contributors are cleaned up.
+
+244
+00:36:04.320 --> 00:36:12.390
+Danno Ferrin: At fixed points, so we do, we do have a default policy for moving meditators to quote unquote marital status, which removes or maintainer privileges.
+
+245
+00:36:14.580 --> 00:36:19.770
+Tracy Kuhrt: That was what I had recalled, but I wonder nature, so I think to your point.
+
+246
+00:36:21.330 --> 00:36:36.480
+Tracy Kuhrt: We kind of do have what you're suggesting in place, whether or not we're doing anything about that at this point is another question, and so maybe we just need to make sure that we're enforcing the policies that we have put in place.
+
+247
+00:36:38.790 --> 00:36:40.260
+Arnaud  Le Hors (IBM): yeah and to be.
+
+248
+00:36:40.680 --> 00:36:40.950
+Arnaud  Le Hors (IBM): honest.
+
+249
+00:36:40.980 --> 00:36:45.870
+Arnaud  Le Hors (IBM): i'm not personally concerned that people are going to necessarily try to game, the system.
+
+250
+00:36:46.350 --> 00:36:54.720
+Arnaud  Le Hors (IBM): I think it's the kind of things, I mean I understand NGOs background and like you know is why your to think about the worst case scenario.
+
+251
+00:36:55.140 --> 00:37:07.050
+Arnaud  Le Hors (IBM): But I think, in practice, you know I tend to to be maybe i'm naive, but you know, I think, for the most part we have people are trying to do the right thing and then are trying to disprove the system so.
+
+252
+00:37:07.470 --> 00:37:21.000
+Arnaud  Le Hors (IBM): i'm happy to go with this, and if we figure Okay, people are out playing games, here we can always you know tighten the shapes of the speak to say Okay, we need to put extra rules.
+
+253
+00:37:21.060 --> 00:37:23.730
+Angelo De Caro: Protection, so the system cannot be game so.
+
+254
+00:37:24.750 --> 00:37:26.130
+Angelo De Caro: It might be too late for a.
+
+255
+00:37:27.240 --> 00:37:37.560
+Arnaud  Le Hors (IBM): While too late, I mean come on what's the it's not the end of the world needs, you know one year somebody gets elected because there was a game, it was like it happens in politics, I believe.
+
+256
+00:37:40.830 --> 00:37:42.720
+Tracy Kuhrt: All right, Nathan.
+
+257
+00:37:45.630 --> 00:37:54.540
+Nathan George: um First, I think this I guess echoes now what are no just said, which is, we need to put on our recruiting and marketing hat.
+
+258
+00:37:55.620 --> 00:38:03.780
+Nathan George: More so than our security vulnerability hat voting is not just a multi party computation and we're not protecting it simple attack necessarily.
+
+259
+00:38:04.080 --> 00:38:17.760
+Nathan George: As long as we have enough transparency with what's going on, we can both hold folks accountable as the vote goes to happen and we can make it transparent to the elector the folks who are electing the the tlc members so that.
+
+260
+00:38:18.780 --> 00:38:28.860
+Nathan George: Because we can trust that the electorate want has a long term state and what's going on, even if someone tries to game, the system, as long as it's transparent the voting process.
+
+261
+00:38:29.580 --> 00:38:41.370
+Nathan George: can account for that, because we don't have an uninformed voting population, we can make the system, transparent, so that it has some checks and balances and can be more self correcting.
+
+262
+00:38:41.970 --> 00:38:48.090
+Nathan George: The other thing I would say is we did very specifically say that the maintainer policies should be up to the project.
+
+263
+00:38:48.570 --> 00:38:54.900
+Nathan George: And I really worried that if we get into this we're trying to protect every possible vulnerability of the election system.
+
+264
+00:38:55.320 --> 00:39:04.230
+Nathan George: will start to be more declarative and enforce more rules on the projects about what can and cannot happen in ways that make it more or very difficult.
+
+265
+00:39:04.620 --> 00:39:07.650
+Nathan George: To retain and recruit maintain owners, because we're adding all this.
+
+266
+00:39:08.340 --> 00:39:17.640
+Nathan George: things you have to worry about an overhead and politics around the policy of being a maintainer when the main focus is, you have a lot of work to do and you're.
+
+267
+00:39:18.360 --> 00:39:26.610
+Nathan George: actually making some sacrifice help support the Community in that way, so I I worried that if we get into this, you know, should we shouldn't we.
+
+268
+00:39:27.150 --> 00:39:37.260
+Nathan George: Are do you actually need all of the requirements and make the checklist really large that will actually discourage people from doing the work that we need them to do anyway, and I liked the idea that the maintainer ship.
+
+269
+00:39:37.620 --> 00:39:47.820
+Nathan George: By some more power in the sense that it encourages the project and hopefully the contributors to try to be a maintainer, even if they wouldn't have to shy away from the work.
+
+270
+00:39:48.120 --> 00:39:57.480
+Nathan George: Because there's a little bit more incentive around it, so it makes the maintainer ship more inclusive I think it's actually a really good thing, even if it does open us up to some you know.
+
+271
+00:39:57.990 --> 00:40:06.870
+Nathan George: Some projects have more maintainer than others well hopefully all projects can get more people who wants to do that work and share that burden of being a maintainer so that that didn't bother me.
+
+272
+00:40:07.290 --> 00:40:13.410
+Nathan George: Especially because, like I say if we have some transparency around the voter role which, if they're all maintainer.
+
+273
+00:40:13.830 --> 00:40:24.660
+Nathan George: I think we probably could have more maintain more transparency about who is a voter because maintainer Czar publicly listed as folks who are there to help support the development process.
+
+274
+00:40:33.990 --> 00:40:47.580
+Hart Montgomery: Thanks Tracy i'll also point out that the system with with just giving projects votes can be effectively long term gained by fragmenting a project into many smaller projects.
+
+275
+00:40:48.480 --> 00:40:58.710
+Hart Montgomery: just getting more votes, you know, we had this sort of in the past, where you know every fabric SDK was was a top level project, for instance.
+
+276
+00:41:00.090 --> 00:41:10.200
+Hart Montgomery: You know, and if we were really worried about people gaming the system right they could just do this they could just you know if it's one project, one vote, they could just break their project.
+
+277
+00:41:11.010 --> 00:41:20.220
+Hart Montgomery: You know into many smaller projects, and I think this is, you know, this would also be you know really bad and we don't want to encourage this.
+
+278
+00:41:21.570 --> 00:41:28.710
+Hart Montgomery: So you know, I think, no matter how you structure, the election, there are going to be issues with gaming the system.
+
+279
+00:41:30.240 --> 00:41:45.360
+Hart Montgomery: But you know, particularly you know if we do it in one of these ways, you know it's very easy to detect when people are gaming the system, and you know i'm not sure people are willing to risk their reputations to do that.
+
+280
+00:41:50.460 --> 00:41:59.790
+Dave Enyeart: Let me, can I jump in and mine relates to what he was saying about fabric so fabric does have like we still have maybe like 25 repositories most of those are.
+
+281
+00:42:00.180 --> 00:42:07.770
+Dave Enyeart: Sub projects that get very little action, but the SDK and chain codes are included there, so I think if we go forward with this we might want to say something like.
+
+282
+00:42:09.270 --> 00:42:18.000
+Dave Enyeart: The maintainer from the core the core project repositories because we literally have you know we have many, many people across all the SDK chain code.
+
+283
+00:42:20.010 --> 00:42:23.130
+Dave Enyeart: Sub repositories and i'm not sure the intent here is to include all those people.
+
+284
+00:42:25.320 --> 00:42:32.070
+Tracy Kuhrt: I think the intent to include a being willing to spend time being a maintainer and working on.
+
+285
+00:42:33.360 --> 00:42:35.460
+Tracy Kuhrt: That aspect of contribution.
+
+286
+00:42:36.570 --> 00:42:38.250
+Tracy Kuhrt: me your hand is still up.
+
+287
+00:42:39.810 --> 00:42:40.830
+Tracy Kuhrt: Okay, Jim.
+
+288
+00:42:42.300 --> 00:42:48.240
+Jim Zhang: yeah I don't want you to harp on this too much, but I do feel like agreeing with.
+
+289
+00:42:50.040 --> 00:42:59.370
+Jim Zhang: And, Nice and I to me, I think the process of nominating and approving a maintainer.
+
+290
+00:43:00.180 --> 00:43:19.470
+Jim Zhang: From my observation of both hi pleasure and other projects is is celebrated process that I think people take pride in and take take it very seriously, and we should treat it as a cornerstone of the whole process where when someone becomes a maintainer.
+
+291
+00:43:20.520 --> 00:43:33.900
+Jim Zhang: It it's it carries a lot of weight on the recognition from the Community, rather than thinking that this is opportunity for people to gain the system, I just don't feel like practically that's going to happen.
+
+292
+00:43:35.670 --> 00:43:41.880
+Jim Zhang: that's Point number one, the second is really to what what David was saying, I feel like.
+
+293
+00:43:43.110 --> 00:43:50.190
+Jim Zhang: I totally see the sort of the importance of being a maintainer in the core project vs.
+
+294
+00:43:51.420 --> 00:44:15.990
+Jim Zhang: Secondary or supporting projects, I just don't think it's necessarily if you maintainer on the SDK or connector rather than the core piece of a ecosystem that your contribution should be less recognized, so I guess what i'm saying is.
+
+295
+00:44:17.220 --> 00:44:20.100
+Jim Zhang: The entertainers of all portrays in.
+
+296
+00:44:22.380 --> 00:44:29.160
+Jim Zhang: In in the ecosystem, whether its fabric of firefly should all be recognized equally.
+
+297
+00:44:31.830 --> 00:44:33.990
+Jim Zhang: yeah that that's everything thanks.
+
+298
+00:44:35.130 --> 00:44:35.730
+Jim Zhang: Thanks john.
+
+299
+00:44:36.300 --> 00:44:36.810
+i'm.
+
+300
+00:44:38.400 --> 00:44:38.820
+Tracy Kuhrt: Daniel.
+
+301
+00:44:40.260 --> 00:44:48.450
+Danno Ferrin: So when I wrote this and I went to maintain owners on the intent when I said containers was anybody who's in good standing and has the organizational right.
+
+302
+00:44:49.530 --> 00:44:59.730
+Danno Ferrin: To push the merge button would get up and I want to echo jim's feeling there that if if he can push the merge button, no matter how small your domain is.
+
+303
+00:45:00.420 --> 00:45:08.730
+Danno Ferrin: you're contributing to the project, and you have responsibilities and duties and privileges that you need to you know that you need to operate it correctly.
+
+304
+00:45:09.270 --> 00:45:15.870
+Danno Ferrin: So if you have the right to push the merge button, I think you should have the right to vote on oversight matters for the project you're in.
+
+305
+00:45:17.010 --> 00:45:29.220
+Danno Ferrin: So that's that's my my take on what was intended if projects, want to limit to a subset of it, we could have that discussion I wouldn't be opposed to it, but the intent was that if you can push the merge button, you should be able to push the button.
+
+306
+00:45:32.760 --> 00:45:34.950
+Tracy Kuhrt: i'm sorry, can we scroll back up um.
+
+307
+00:45:36.180 --> 00:45:38.370
+Tracy Kuhrt: So this whole conversation started.
+
+308
+00:45:39.510 --> 00:45:45.900
+Tracy Kuhrt: Because one, I think that people were just reading it, to begin with, but I did ask the question that has not been answered yet.
+
+309
+00:45:47.010 --> 00:45:58.920
+Tracy Kuhrt: Besides being caters do we want the technical Steering Committee, the existing technical steering committee or in the future, the existing technical oversight committee to be able to also participate in the vote.
+
+310
+00:46:07.620 --> 00:46:09.270
+Tracy Kuhrt: Andrew oh.
+
+311
+00:46:09.300 --> 00:46:11.250
+Angelo De Caro: To me no okay.
+
+312
+00:46:15.780 --> 00:46:16.710
+Tracy Kuhrt: What else.
+
+313
+00:46:17.520 --> 00:46:26.850
+Dave Enyeart: I would also say no, because the tasc Members can talk to the governing board right and give them recommendations, so the governing board could consider those recommendations from the tsa.
+
+314
+00:46:30.600 --> 00:46:31.740
+Nathan George: My only worry is is.
+
+315
+00:46:37.380 --> 00:46:49.980
+Nathan George: When the when the Governing Board has to pick folks I think the only concern Sometimes this is are they closely connected enough that they have a really good candidate list, and I think that what was just pointed out, as long as they're talking with technical, they should be.
+
+316
+00:46:55.560 --> 00:47:01.080
+Arun Office: Interesting I just want to again reiterate what was already answered, I would say no to that as well.
+
+317
+00:47:02.280 --> 00:47:12.090
+Arun Office: And, along with that I had a question of probably a comment regarding nomination process which is ready to retire has gone and got electing remaining five individuals.
+
+318
+00:47:13.560 --> 00:47:26.190
+Arun Office: The we again want to put rules around those five individuals say that they are part of the same maintenance Community or I mean that was one of the question or another kind of restriction or.
+
+319
+00:47:27.840 --> 00:47:38.580
+Arun Office: For for those individuals could also be a CAP with some let's say organization, so do we want to discuss those details as well on today's call.
+
+320
+00:47:40.080 --> 00:47:40.410
+Tracy Kuhrt: yeah.
+
+321
+00:47:40.440 --> 00:47:58.800
+Tracy Kuhrt: We that we were to discuss everything, because my hope was to try and get this stuff out which I don't think it's going to happen um but the governing board other thing the remaining five individuals there's five individuals would be coming from the initial set of nominees.
+
+322
+00:48:00.390 --> 00:48:16.560
+Tracy Kuhrt: So the intention right, if you look at the kind of funnel here is, you have a set of nominees, then the maintainer select six of those and the Governing Board selects from the remaining.
+
+323
+00:48:18.240 --> 00:48:22.620
+Tracy Kuhrt: To come up with the entire technical oversight committee so.
+
+324
+00:48:23.940 --> 00:48:40.170
+Tracy Kuhrt: it's not that the Governing Board is selecting maintain errs unless there's been painters decided to nominate themselves to run initially so everything is coming from that initial pool of nominees happy to see if we can clarify that, in this section.
+
+325
+00:48:41.760 --> 00:48:43.320
+Tracy Kuhrt: It as.
+
+326
+00:48:45.180 --> 00:48:45.930
+Tracy Kuhrt: If that would help.
+
+327
+00:48:47.250 --> 00:48:47.670
+Tracy Kuhrt: or no.
+
+328
+00:48:49.770 --> 00:48:53.520
+Arnaud  Le Hors (IBM): yeah I mean it just needs to be clarified because.
+
+329
+00:48:55.980 --> 00:48:56.700
+Arnaud  Le Hors (IBM): was going to steer.
+
+330
+00:48:57.930 --> 00:49:00.660
+Arnaud  Le Hors (IBM): I actually like this process better you can.
+
+331
+00:49:01.710 --> 00:49:12.150
+Arnaud  Le Hors (IBM): actually need, from a practical point of view it's much easier to set up an override that way, otherwise you have to get another round of eliminations just.
+
+332
+00:49:12.870 --> 00:49:25.200
+Arnaud  Le Hors (IBM): For the going to vote, it can only be like dancing but I thought there was another question you raised before like to see Members do to get to vote right.
+
+333
+00:49:25.770 --> 00:49:28.530
+Tracy Kuhrt: Yes, that's good so far i've heard only knows.
+
+334
+00:49:29.790 --> 00:49:30.540
+Arnaud  Le Hors (IBM): yeah but.
+
+335
+00:49:31.680 --> 00:49:34.500
+Arnaud  Le Hors (IBM): Quite frankly, I think this is so, I don't know like.
+
+336
+00:49:36.480 --> 00:49:42.270
+Arnaud  Le Hors (IBM): I mean, in practice, like here today how many of us are non maintainer somewhere.
+
+337
+00:49:43.290 --> 00:49:45.030
+Arnaud  Le Hors (IBM): Do we have people who are not maintainer.
+
+338
+00:49:47.040 --> 00:49:47.910
+Tracy Kuhrt: My best yes.
+
+339
+00:49:48.900 --> 00:50:00.900
+Arnaud  Le Hors (IBM): Because my point is, I think that the Okay, maybe then the microphone is not right, I was thinking that in practice the sensitive people anyway, but maybe that's right.
+
+340
+00:50:02.160 --> 00:50:05.850
+Tracy Kuhrt: yeah I did I did, there are definitely a couple of folks.
+
+341
+00:50:07.080 --> 00:50:07.950
+Tracy Kuhrt: Who are not.
+
+342
+00:50:10.110 --> 00:50:10.500
+Tracy Kuhrt: today.
+
+343
+00:50:18.180 --> 00:50:19.650
+Kamlesh Nagware: Just like like.
+
+344
+00:50:21.630 --> 00:50:30.720
+Kamlesh Nagware: The process, we end up removing the Community involvement like when like you can see the Troy Troy comment in the document like maybe like one Governing Board can.
+
+345
+00:50:31.350 --> 00:50:39.540
+Kamlesh Nagware: Do the selection of itself, like they can decide who knows, like there's no kind of Community involvement, I think I think this is currently even.
+
+346
+00:50:41.220 --> 00:50:48.960
+Kamlesh Nagware: If we see the other Open Source communities in BC the selection of representative from the closed environment.
+
+347
+00:50:49.860 --> 00:50:55.950
+Kamlesh Nagware: Then we are not kind of encouraging the Community involvement and you will not hearing the word Community one.
+
+348
+00:50:56.580 --> 00:51:07.680
+Kamlesh Nagware: wants in the in the hyper ledger project and how they want to see the Community bring what kind of project and what the features, the Community need the actual user we're building on top of projects.
+
+349
+00:51:13.830 --> 00:51:16.680
+Tracy Kuhrt: So Are you suggesting that you don't like.
+
+350
+00:51:17.700 --> 00:51:21.180
+Tracy Kuhrt: That this is limited to just the majors.
+
+351
+00:51:23.280 --> 00:51:32.820
+Kamlesh Nagware: yeah so like our mentor select the mentors one or maybe like governing body like already like be presenting some of the companies in the bowl so.
+
+352
+00:51:33.570 --> 00:51:46.380
+Kamlesh Nagware: They can also select the specific candidates in July, but if Community like the Community people so it's not necessarily like we all the Members will be led by Community, but we can also have one category like community.
+
+353
+00:51:47.250 --> 00:51:56.070
+Kamlesh Nagware: Community Member actually like some maybe two three representatives some percentage in the integrated so that can be here either way, like, for example in the down line three to four five years.
+
+354
+00:51:56.850 --> 00:52:11.310
+Kamlesh Nagware: What has high political building is building according to the what type of things, not the actual user and Community people weren't building on it so when I what i'm thinking because us today I had about some companies and they're thinking, the same thing type of.
+
+355
+00:52:12.420 --> 00:52:16.710
+Kamlesh Nagware: I don't know what is it doing and even I villager villager is kind of.
+
+356
+00:52:18.150 --> 00:52:21.900
+Kamlesh Nagware: producing his own instead in terms of complaining complex in the projects and.
+
+357
+00:52:23.010 --> 00:52:26.310
+Kamlesh Nagware: Having lots of number of projects and even that is so much context, like.
+
+358
+00:52:27.630 --> 00:52:39.540
+Kamlesh Nagware: Even even their manager service managing some is also quite complex, so if he had on the representation of the Community thing and what the user sees then in the future, it could also become more complex.
+
+359
+00:52:40.560 --> 00:52:52.890
+Kamlesh Nagware: We will build what we are thinking as a publisher projects and I put your community, not the actual your community, so I think there should be some representation from the Community itself, the actual users who are living together.
+
+360
+00:52:55.050 --> 00:52:59.010
+Tracy Kuhrt: So, so I think the intent here is not to limit.
+
+361
+00:53:00.150 --> 00:53:19.200
+Tracy Kuhrt: The set of nominations to only people who are currently involved in hyper ledger but people who are involved in really the blockchain ecosystem, or whatever it is that hyper ledger the scope of hyper ledger as it may be defined in the future.
+
+362
+00:53:20.460 --> 00:53:23.700
+Tracy Kuhrt: And so I think that the.
+
+363
+00:53:24.780 --> 00:53:36.150
+Tracy Kuhrt: The challenge, obviously, is that somebody new coming in, who puts their name in the hat to be nominated and to hopefully come through and get elected.
+
+364
+00:53:36.930 --> 00:53:45.090
+Tracy Kuhrt: has to somehow be known by both the maintainer for either the main characters are there are people in the Governing Board right.
+
+365
+00:53:45.990 --> 00:53:57.960
+Tracy Kuhrt: And I think that's the that's true today right, if you think about kind of the election cycles that have happened for past kfc it's been.
+
+366
+00:53:58.890 --> 00:54:07.110
+Tracy Kuhrt: open to basically anybody who's contributed to hyper ledger which, in some way will get them some initial recognition recognition, but.
+
+367
+00:54:07.890 --> 00:54:16.770
+Tracy Kuhrt: doesn't necessarily mean that everybody in the community knows them and so as we, as we have voted with the contributors of hyper ledger.
+
+368
+00:54:17.430 --> 00:54:35.010
+Tracy Kuhrt: If you don't know anybody you're somewhat dependent on their nomination statement to determine whether or not you want to include them in the in your vote right so there's been a number of times in the past, when I vote it where there are people that I don't know.
+
+369
+00:54:36.300 --> 00:54:39.090
+Tracy Kuhrt: Rare, but there are people who have suggested that they.
+
+370
+00:54:40.200 --> 00:54:45.150
+Tracy Kuhrt: want to run and i've looked at their nomination and said Okay, who is this person, what have they done.
+
+371
+00:54:45.780 --> 00:54:55.950
+Tracy Kuhrt: Does their nomination statement speak to me in some way, that means that I would like to include them on the the technical steering committee, so I think that that will remain true.
+
+372
+00:54:56.460 --> 00:55:03.600
+Tracy Kuhrt: With this process, I don't think that this process is changing any of that it's just changing the people who are voting.
+
+373
+00:55:04.710 --> 00:55:05.940
+Tracy Kuhrt: For those people.
+
+374
+00:55:11.490 --> 00:55:11.910
+Tracy Kuhrt: are no.
+
+375
+00:55:13.350 --> 00:55:22.170
+Arnaud  Le Hors (IBM): yeah I mean you know i've always been of the opinion that you know if anybody's interested in being an MC or later on the talk, I mean.
+
+376
+00:55:23.490 --> 00:55:41.700
+Arnaud  Le Hors (IBM): I would expect them to participate, I mean these meetings are open to anybody we don't shut down anyone, and I think it's you know if if I were in that position and I come to a new Community, and you know i'm interested in this kind of role I would already act as if.
+
+377
+00:55:43.440 --> 00:55:58.050
+Arnaud  Le Hors (IBM): it's a pretty simple thing to to to you know get out of the you know the dark and the known and so that once you nominate yourself you're not an unknown entity, and so I think the.
+
+378
+00:55:58.560 --> 00:56:11.400
+Arnaud  Le Hors (IBM): process, from that point of view, already allows anybody to come in and participate and be known, so that they don't have this problem that Cameron issues respond to is talking about and, by the way.
+
+379
+00:56:12.180 --> 00:56:25.770
+Arnaud  Le Hors (IBM): The Governing Board includes a representative from the general membership right, like everybody in the Community, so they always also representation of the general Community and the governing board level.
+
+380
+00:56:28.950 --> 00:56:34.230
+Tracy Kuhrt: yeah I think that's an important point, the first point that you made right.
+
+381
+00:56:35.250 --> 00:56:45.840
+Tracy Kuhrt: come to the meetings express your comments and concerns, and you actually end up having a voice that people will decide whether or not they think is a good place to.
+
+382
+00:56:46.290 --> 00:56:47.340
+Kamlesh Nagware: Direct the.
+
+383
+00:56:47.790 --> 00:56:50.220
+Tracy Kuhrt: The Community in the future right.
+
+384
+00:56:51.300 --> 00:56:57.420
+Tracy Kuhrt: I think it's it's not hard when you come to the meeting and you raise your hand, along with everybody else and i'll call on you.
+
+385
+00:56:58.590 --> 00:57:03.450
+Tracy Kuhrt: it's not good not calling somebody because i'm not part of the technical Steering Committee.
+
+386
+00:57:05.190 --> 00:57:11.880
+Tracy Kuhrt: You know this is intended to be an open discussion with anybody in the Community who wants to join and participate in these conversations.
+
+387
+00:57:13.410 --> 00:57:13.890
+Tracy Kuhrt: and Joe.
+
+388
+00:57:15.510 --> 00:57:16.890
+Angelo De Caro: yeah maybe last thing I was.
+
+389
+00:57:18.120 --> 00:57:22.710
+Angelo De Caro: From athletes last thing from my side, I was thinking we are the PSC of block.
+
+390
+00:57:23.670 --> 00:57:30.150
+Angelo De Caro: consultant, that is, about blockchain and blockchain started with the revolution of bitcoin will solve the problem of.
+
+391
+00:57:30.810 --> 00:57:39.900
+Angelo De Caro: sibling attacks over the Internet, I would rather see like blockchain oriented solution to get the votes to decide.
+
+392
+00:57:40.860 --> 00:57:49.860
+Angelo De Caro: On no, no, no, on a decision that we have to take our singing something like a new consensus protocol that we call it proof of contribution.
+
+393
+00:57:50.430 --> 00:58:04.590
+Angelo De Caro: And then we use this we use if we are really de Su a blockchain project that we should come up with a profitable to solve these problems, I will find it totally if I found a solution, and my my company allows me to share I will share.
+
+394
+00:58:06.540 --> 00:58:08.310
+Tracy Kuhrt: All right, Andrew um.
+
+395
+00:58:09.540 --> 00:58:12.930
+Tracy Kuhrt: I think that's probably going to be a project that is.
+
+396
+00:58:14.190 --> 00:58:27.690
+Tracy Kuhrt: beyond the scope of what we have today just given the timing of when I expect the election to occur, but I do think it's an interesting one Angela and brings up a lot of thoughts for myself so.
+
+397
+00:58:28.740 --> 00:58:41.700
+Tracy Kuhrt: I did see as we were discussing a lot of us start of conversations that are happening inside of the actual documents, where people are asking questions and responding to those questions.
+
+398
+00:58:42.360 --> 00:58:51.030
+Tracy Kuhrt: That we have honestly haven't gotten through so that tells me that nobody Actually, I had the opportunity to review this before the meeting.
+
+399
+00:58:51.570 --> 00:59:01.320
+Tracy Kuhrt: Which means that we're not ready to make a decision on this, yet I think there is still a lot of open questions and concerns before we get to the point of making a decision.
+
+400
+00:59:01.710 --> 00:59:22.200
+Tracy Kuhrt: So please, please, please take the opportunity to continue the discussion in the documents I specifically will not be here next week I am on the holiday Daniel is going to run the meeting I know that there are already a couple of agenda items that exist one around.
+
+401
+00:59:24.270 --> 00:59:36.600
+Tracy Kuhrt: A presentation on the either emerge and then the second one around us to take some time from the tlc to talk about this, you can Task Force and kind of the outcomes from that task force.
+
+402
+00:59:37.860 --> 00:59:45.060
+Tracy Kuhrt: happy to have this other be an agenda for for your conversations that continued conversations next week.
+
+403
+00:59:46.590 --> 00:59:56.370
+Tracy Kuhrt: And yeah I guess with that i'm going to close the meeting and I will see you in two weeks, and hopefully we'll have some good conversations on.
+
+404
+00:59:56.370 --> 00:59:56.820
+Angelo De Caro: This stuff.
+
+405
+00:59:57.300 --> 01:00:07.500
+Tracy Kuhrt: For consideration for next week and come to some sort of conclusion on this particular topic, thank you all for joining and.
+
+406
+01:00:09.330 --> 01:00:12.540
+Bobbi Muscara: Have a great week have a good vacation.
+
+407
+01:00:14.190 --> 01:00:14.940
+Kamlesh Nagware: yeah Thank you.
+
+408
+01:00:15.630 --> 01:00:16.830
+Danno Ferrin: Thanks everyone bye.
+

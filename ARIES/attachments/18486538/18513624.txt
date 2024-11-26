@@ -1,0 +1,40 @@
+00:09:43	Robert Seitzberg:	I’m Robert.  I met everyone at the hyperledger global conference, but looking forward to being a part of these calls going forward if they don’t contradict with other things on my calendar
+00:19:34	jonathan holt:	Agenda item: Could someone please summarize the Trust Over IP Framework that was presented.
+00:20:41	Stephen Curran:	Probably too much for this call, but next?
+00:21:34	Nathan George:	Seth++ and Vic++
+00:21:42	Nathan George:	Reach out to HearRo if you want to know more
+00:22:57	Stephen Curran:	This is the HearRo session - https://iiw.idcommons.net/The_Future_of_Telecommunications_is_DID_Comm
+00:23:24	George Aristy:	Thanks Stephen
+00:25:16	Nathan George:	Permanent new reality of IIW.  Too much awesome (thanks to the folks here)
+00:26:04	Stephen Curran:	There was a recording made of the Hearro session, but I can't find the recording.
+00:28:06	Nathan George:	Speaking of awesome…
+00:30:38	Stephen Curran:	No special schemas...except JSON-LD :-)
+00:31:23	Stephen Curran:	That said, the no predefined cred def is a big deal.
+00:35:41	George Aristy:	+q
+00:43:50	Tobias Looker:	https://drive.google.com/file/d/1X1JApxDY48MJYYACNT9NPsgpZWft0wHk/view
+00:45:16	Nathan George:	Public DID’s on Indy++
+00:54:09	Tobias Looker:	We are also working on WASM
+00:54:18	Tobias Looker:	Which will give react native and browser support
+00:54:30	Cam Parra:	URSA wasm is already available
+00:54:42	jonathan holt:	q+
+00:54:58	Tobias Looker:	Yeap not for BBS+ specifically yet though and there is still a layer you have to make that nice and consumable
+00:55:48	Cam Parra:	👍
+00:59:15	Troy Ronda:	@Jonathan Holt: Verifiable Credentials in Go: https://github.com/hyperledger/aries-framework-go/tree/master/pkg/doc
+00:59:39	Troy Ronda:	json-gold is missing some features like @json
+00:59:56	jonathan holt:	https://github.com/kazarena/json-gold only support 1.0
+01:00:05	Troy Ronda:	That’s the old repo
+01:00:16	Troy Ronda:	Look here: https://github.com/piprate/json-gold
+01:00:31	jonathan holt:	ah!
+01:00:39	jonathan holt:	i’ve been using the old one for some time now
+01:00:42	Troy Ronda:	Ah :)
+01:01:03	Troy Ronda:	We had to add the @json feature to handle some cases, so we have it here: https://github.com/trustbloc/json-gold
+01:01:16	Tobias Looker:	Yeah +1 the BBS crate is a great one for us to all use
+01:02:47	jonathan holt:	q+
+01:03:17	Nathan George:	I am still looking to see that the selective disclosure case without a ledger schema doesn’t cause disclosure nightmares (did I _really_ get the right object,  and did they disclose what I need or am I missing something that would change everything...)
+01:10:01	Troy Ronda:	q+
+01:13:33	Drummond Reed:	The naming of a credential type is important from an interop standpoint. Issuers, holders, verifiers, developed need to be able to clearly articulate what credential signature types they support.
+01:18:08	jonathan holt:	q+
+01:21:22	Cam Parra:	Backwards compatibility? Do we reissue credentials or  do we also support CL creds?
+01:22:37	Nathan George:	We should continue support holding and verifying old credentials formats, but with how significant this improvement is for revocation and data descriptions I suggest we deprecate issuing old formats quickly.
+01:23:59	Drummond Reed:	+1 to Daniel’s point
+01:34:56	John Callahan:	awesome meeting… thx!

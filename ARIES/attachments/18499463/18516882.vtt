@@ -1,0 +1,1346 @@
+WEBVTT
+
+1
+00:02:02.090 --> 00:02:03.899
+Patrik Stas: Hi, everyone,
+
+2
+00:02:05.560 --> 00:02:07.079
+George Mulhearn: hey! How are you?
+
+3
+00:02:07.260 --> 00:02:13.550
+Patrik Stas: I
+
+4
+00:02:14.670 --> 00:02:21.059
+Patrik Stas: I I wasn't sure who Who is going? How many of us will be attending? That's why it. Uh,
+
+5
+00:02:21.280 --> 00:02:23.290
+Patrik Stas: perhaps I may, or two
+
+6
+00:02:23.310 --> 00:02:26.879
+Patrik Stas: uh see if anybody else is gonna connect
+
+7
+00:03:18.420 --> 00:03:35.320
+Patrik Stas: alright, Um, uh, maybe. In the meantime I can at least uh kick out the meeting. Uh what? Uh? Let me ask you guys uh can you see my screen right now? Okay. So
+
+8
+00:03:35.410 --> 00:03:53.140
+Patrik Stas: uh welcome to um. The first uh meeting of Ariz V. Six for us, and work ever um so let me uh on a October twenty, eighth, two thousand and twenty-two, and let me let me uh kick. Start this off by reading the
+
+9
+00:03:53.150 --> 00:03:59.679
+Patrik Stas: Hyper Ledger uh Antitrust police notice, which we have to adhere on these meetings.
+
+10
+00:03:59.820 --> 00:04:13.759
+Patrik Stas: Uh so Linux foundation, you know participation by industry, competitors, and it's intention of Linux foundation to conduct all of its activities in accordance with an applicable antitrust and competition laws.
+
+11
+00:04:13.770 --> 00:04:28.109
+Patrik Stas: It is therefore extremely important that the attendees of the year to the meeting agendas, and be aware of and not participate in, any activities that that prohibited under applicable us State Federal or flooring anti-trust competition laws. One
+
+12
+00:04:28.690 --> 00:04:42.330
+Patrik Stas: uh, you can read the examples of the activities on the link below um and uh and uh slightly display. So anybody can uh read this uh
+
+13
+00:04:44.560 --> 00:04:54.140
+Patrik Stas: alright, guys. Uh, I think nobody else is coming. It would appear to me that way uh so it's three of us for the first meeting.
+
+14
+00:04:54.720 --> 00:05:01.070
+Patrik Stas: Uh, So I I was thinking we can. Uh yeah, I I posted a short uh sort of
+
+15
+00:05:01.180 --> 00:05:05.160
+Patrik Stas: um agenda on the on the
+
+16
+00:05:06.030 --> 00:05:13.510
+Patrik Stas: on the discord channel. Uh. So there's a just a few things I want to uh go through today.
+
+17
+00:05:13.680 --> 00:05:37.159
+Patrik Stas: So first of all, I would like to just uh kind of introduce myself, and I would love to hear a little bit about yours uh about yourself, because um, I really don't know that much about uh people who are using um Ares Vcs: right now. So i'm here they curious uh. So for myself, i'm a software engineer in Upsa, which is South African Bank.
+
+18
+00:05:37.450 --> 00:05:41.590
+Patrik Stas: Uh, however, I'm I'm. Based in uh in brac
+
+19
+00:05:41.790 --> 00:05:51.730
+Patrik Stas: um and um I've been maintained. I've been one of the Maintainer. So for the about past two years.
+
+20
+00:05:51.980 --> 00:05:53.750
+Patrik Stas: Um,
+
+21
+00:05:54.550 --> 00:06:07.299
+Patrik Stas: uh, it goes really interested in in the in the process uh other than that other than that. I also cool in Javascript, or uh well, any other language. If it's a it's a necessary
+
+22
+00:06:07.480 --> 00:06:11.319
+Patrik Stas: uh so that's that's a briefly about me. Um!
+
+23
+00:06:12.080 --> 00:06:18.290
+Patrik Stas: Maybe we can start with uh with George, can you? Can you tell us a little bit about yourself?
+
+24
+00:06:18.340 --> 00:06:35.270
+George Mulhearn: Uh: yeah, sure. Um. So yeah, I'm. George uh from Australia working for a company called anonomy labs um, and we're doing lots of di stuff at the moment. Um, and particularly in like the mobile area recently. Um,
+
+25
+00:06:35.380 --> 00:06:40.019
+George Mulhearn: which is why Dc. X is on the radar for sure. Um.
+
+26
+00:06:40.330 --> 00:06:42.650
+George Mulhearn: And so yeah,
+
+27
+00:06:43.900 --> 00:06:50.069
+George Mulhearn: yeah, we're consuming Vcx: Um: Well, working out how to consume it and
+
+28
+00:06:50.090 --> 00:06:51.650
+George Mulhearn: fig it out from there.
+
+29
+00:06:53.270 --> 00:07:06.859
+Patrik Stas: I see. Thank you very much. How about yourself, Uh, Ranji? Oh, just just to make sure. Uh, I don't like going to say Ranji is your first name
+
+30
+00:07:06.920 --> 00:07:10.770
+Sai Ranjit: you can call it say, or run it there, whatever it is comfortable for you.
+
+31
+00:07:40.100 --> 00:07:43.310
+Sai Ranjit: And yeah, and i'm looking for it to contribute to that
+
+32
+00:07:44.830 --> 00:07:51.890
+Patrik Stas: awesome. Thank you guys. Thank you both. Uh, so that will be for that. Oh, Paul, welcome,
+
+33
+00:07:54.580 --> 00:08:03.650
+Patrik Stas: uh, Paul, Paul currently have uh this connected microphone, so maybe he needs to work out some technical issues. First.
+
+34
+00:08:07.070 --> 00:08:13.660
+Patrik Stas: We're just uh we're just uh doing a sort of uh introductions here, so
+
+35
+00:08:13.690 --> 00:08:23.419
+Patrik Stas: i'll. I'll give you a minutes a minute to see if you can work out the microphone issue. Or perhaps, if you cannot speak, you can just pose something in chat.
+
+36
+00:08:57.170 --> 00:09:05.390
+Patrik Stas: So it will appear that all has uh successfully connected the microphone, but I still muted. How are we there
+
+37
+00:09:10.370 --> 00:09:17.589
+Patrik Stas: as i'm here? Hi! Hi, Paul! Uh! We were just doing a short round of introductions.
+
+38
+00:09:17.600 --> 00:09:31.069
+Patrik Stas: Uh so maybe at least to like uh repeat for myself uh as a hold of the meeting. Uh i'm Patrick uh and uh, I work in Upsa, which is uh South African Bank. I'm: a software engineer.
+
+39
+00:09:31.260 --> 00:09:41.509
+Patrik Stas: Uh, and I've been one of the Maintainer. So for the past two years uh got really interested in the in the rest in the process.
+
+40
+00:09:41.620 --> 00:09:53.049
+Patrik Stas: Uh, and um well coding in Javascript uh Jos trip other than that, or anything else necessary. Uh: So I'm: curious. Uh,
+
+41
+00:09:53.540 --> 00:09:58.989
+Patrik Stas: where are you? You know. Uh, what are you working on, Paul? Or you know where you from?
+
+42
+00:10:00.690 --> 00:10:01.930
+paulo: Okay,
+
+43
+00:10:06.580 --> 00:10:09.600
+paulo: I have been working with mobile
+
+44
+00:10:09.820 --> 00:10:14.380
+paulo: uh under the ios, and
+
+45
+00:10:14.680 --> 00:10:18.090
+paulo: I have been using
+
+46
+00:10:18.120 --> 00:10:20.820
+paulo: um
+
+47
+00:10:21.470 --> 00:10:22.940
+paulo: uh
+
+48
+00:10:24.430 --> 00:10:27.030
+paulo: uh bulk uh
+
+49
+00:10:27.310 --> 00:10:31.819
+paulo: and integrated with
+
+50
+00:10:32.500 --> 00:10:33.960
+paulo: and
+
+51
+00:10:41.210 --> 00:10:45.850
+paulo: uh, I have been using, but I. I am not
+
+52
+00:10:46.050 --> 00:10:50.250
+paulo: for me that we first uh I have been learning,
+
+53
+00:10:51.220 --> 00:10:54.489
+paulo: but I am I. I don't know
+
+54
+00:10:55.280 --> 00:10:56.690
+paulo: um.
+
+55
+00:10:57.440 --> 00:10:59.089
+paulo: I think that's it.
+
+56
+00:10:59.610 --> 00:11:04.749
+Patrik Stas: I see all right. Thank you. And, Paul, you are based in the Us. Is that correct?
+
+57
+00:11:06.190 --> 00:11:08.259
+paulo: Uh, I am in Brazil.
+
+58
+00:11:08.290 --> 00:11:17.409
+Patrik Stas: Oh, in Brazil. Okay, I see you are connecting like, really really early morning right now. Isn't, it four am. You said
+
+59
+00:11:17.700 --> 00:11:22.959
+Patrik Stas: Yes, yes. Oh, my God, thank you for a recap so early for us.
+
+60
+00:11:23.750 --> 00:11:26.830
+Patrik Stas: Oh, okay, uh, So uh,
+
+61
+00:11:27.180 --> 00:11:45.900
+Patrik Stas: only let me one. So basically, since this is a first meeting, it's being it's being recorded. Uh, I want to start with uh just a little bit of a a short short like uh sort of history. This story lesson what is there is? We see how it start, and where it's going.
+
+62
+00:11:45.910 --> 00:11:51.440
+Patrik Stas: So basically there is the Cx. And I live. Vcx is Compa Library.
+
+63
+00:11:52.220 --> 00:12:15.280
+Patrik Stas: Um. It was originally developed by company company called Evername around two thousand and eighteen or so uh, and then uh in around two thousand and twenty uh, roughly two years ago, we uh we in upsoft port it um into uh uh, under our own organization as uh the support
+
+64
+00:12:15.290 --> 00:12:23.830
+Patrik Stas: uh it. It doesn't seem like it was getting my support anymore. So we just took it over, started maintaining it. And after a few months, basically
+
+65
+00:12:23.840 --> 00:12:40.069
+Patrik Stas: uh, it was suggested from Hyper Ledger. Uh, why, Don't, we take it back and uh basically start a like. It's a rust framework implementation uh under Hyper ledger. So we did that. And, as you know, there's a repository.
+
+66
+00:12:41.010 --> 00:12:42.370
+Patrik Stas: Um.
+
+67
+00:12:42.670 --> 00:12:44.660
+Patrik Stas: So uh,
+
+68
+00:12:45.410 --> 00:12:51.419
+Patrik Stas: it was originally highly focused on one of the um.
+
+69
+00:12:51.620 --> 00:13:11.170
+Patrik Stas: I think he goes originally, you know, years ago was uh, it was meant to work with as many sort of language uh records as possible heavily. If I oriented uh those wrappers for Nodejs python dot net, uh, you know, Android and tiles
+
+70
+00:13:11.180 --> 00:13:23.489
+Patrik Stas: uh we drop support for some of those um and uh, currently the only records uh we support uh our Android isles, and O. Js
+
+71
+00:13:24.530 --> 00:13:26.030
+Patrik Stas: um,
+
+72
+00:13:26.150 --> 00:13:31.560
+Patrik Stas: So that's kind of where we are now we've been, We've been,
+
+73
+00:13:31.720 --> 00:13:46.620
+Patrik Stas: I would say, paying you lots of technical debt which is originally incurred uh so honestly. I'm. I'm very happy with uh the sort of clean ups and refactorings we we did over the past two years. Um!
+
+74
+00:13:47.020 --> 00:13:49.050
+Patrik Stas: And uh
+
+75
+00:13:49.070 --> 00:14:01.569
+Patrik Stas: and uh, we have also implemented that uh um as uh agent desk harness uh framework uh uh, like
+
+76
+00:14:01.860 --> 00:14:08.780
+Patrik Stas: testing pairs. Well, we called back channels uh, so we have, uh, we have
+
+77
+00:14:08.940 --> 00:14:23.629
+Patrik Stas: uh sort of idea what our compatibility. Um currently between uh as Vcx and other frameworks, the other framework is currently being uh occupy, and Aj
+
+78
+00:14:23.640 --> 00:14:36.019
+Patrik Stas: um, which are like a two, I would say to one of the most prominent framework. So uh, that's why we focus on these, but it shouldn't be difficult to as testing with other pairs as well,
+
+79
+00:14:36.550 --> 00:14:39.490
+Patrik Stas: uh and um,
+
+80
+00:14:39.600 --> 00:14:55.380
+Patrik Stas: and basically where it's going, we as a as a core, maintainer's Uh: we primarily currently focus on uh on Aries V Six itself. I like the the core rough part um,
+
+81
+00:14:55.700 --> 00:15:09.669
+Patrik Stas: and uh well, at the same time still maintaining the sort of f five right per around it, which is uh important for for the mobile. Well, as a basically all of you guys, since you are doing mobile
+
+82
+00:15:09.680 --> 00:15:20.479
+Patrik Stas: um. So that's that's that's an under maintenance as well uh, but really trying to trying to make the core piece uh as good as possible
+
+83
+00:15:20.950 --> 00:15:26.890
+Patrik Stas: uh as a as a primary goal. It's the rough piece, and um
+
+84
+00:15:27.450 --> 00:15:39.660
+Patrik Stas: uh going into future. Yeah, it would be definitely uh amazing if uh, since since you you uh, you guys are uh a mobile developers. Uh,
+
+85
+00:15:39.870 --> 00:15:48.730
+Patrik Stas: if if we can get uh uh help with the the wrapper part and the mobile wrappers. Uh there's uh, there's lots of
+
+86
+00:15:48.760 --> 00:16:05.849
+Patrik Stas: uh probably clean up some technical depths, which can be also like improved. Uh, and also i'm not. I'm not sure. But I think the ffi approach is perhaps somewhat somewhat outdated now, because it will started years ago,
+
+87
+00:16:05.860 --> 00:16:25.340
+Patrik Stas: and maybe there can be, uh, you know, a different sort of new approach, for how doing how to do the fi can be can be, the uh can be can be found. I definitely uh at least know about an ogs as a file which uh there's a there's a rust um
+
+88
+00:16:25.760 --> 00:16:45.070
+Patrik Stas: uh library, coral and Api rs, which uh, which can generate this uh fi so like much uh we like with with with with much ease as as opposed to the way it's done for. No, just today. But uh, yeah, i'm not particularly sure.
+
+89
+00:16:45.080 --> 00:17:01.449
+Patrik Stas: Have all the mobile mobile uh refers just kind of throwing an idea as to where it's going. Perhaps there can be some like a new approach developed for the for the mobile frameworks. Uh uh for the mobile rappers.
+
+90
+00:17:02.700 --> 00:17:04.130
+Patrik Stas: Um!
+
+91
+00:17:05.520 --> 00:17:15.319
+Patrik Stas: Well, that that would be roughly for the for the like this first phone. So I don't know guys, if you have any sort of comment or question.
+
+92
+00:17:15.359 --> 00:17:18.649
+Patrik Stas: Don't have stay to uh jump in.
+
+93
+00:17:19.290 --> 00:17:28.630
+George Mulhearn: Um, Yeah, I was gonna ask as well. Is it sort of in scope for Aries Vcx: the core to become standalone Create?
+
+94
+00:17:29.290 --> 00:17:42.580
+Patrik Stas: Oh, yeah, yeah, I mean, that's definitely what we are uh shooting for. And I would say that uh, we are kind of there uh it. Just we don't publish the crate on um
+
+95
+00:17:42.590 --> 00:17:59.339
+Patrik Stas: uh creates I. O so if you want to consume um, you know, as a as a rust trade and write the rust code on top of it. You can definitely do it you can, for now, just uh uh, you know. Uh um use a reference to the You Club repo and
+
+96
+00:17:59.350 --> 00:18:04.480
+Patrik Stas: category is smart, so it can. It can uh consume, you know. Uh,
+
+97
+00:18:05.830 --> 00:18:08.039
+Patrik Stas: I get a recall story.
+
+98
+00:18:08.370 --> 00:18:10.229
+George Mulhearn: Yeah, Yeah. Great cool.
+
+99
+00:18:19.430 --> 00:18:38.559
+Patrik Stas: Okay. Uh: So i'll move on to the next one now. So uh, just kind of mentioned some of the significant like more significant pieces of work which has been done recently, and the work which is in progress. Uh, I got a few points here to help myself a little bit of notes.
+
+100
+00:18:38.840 --> 00:18:42.310
+Patrik Stas: Um, so recently
+
+101
+00:18:42.540 --> 00:18:57.519
+Patrik Stas: like in terms of the last two months, let's say, uh, we did like, uh, yeah, A. Exactly as Joe was pointing out, we were focusing on making uh, uh, you know, becoming
+
+102
+00:18:57.790 --> 00:19:11.560
+Patrik Stas: independent, possible, easily usable, independent trade and and uh, make the Api nicer uh, and also enabling multi what and multiple capabilities
+
+103
+00:19:11.710 --> 00:19:30.179
+Patrik Stas: uh. So we removed lots of global states from ours. Dcx: at the you know, the root and the sort of uh core create itself, and we moved this global state on the uh one level up on the Lipv: six uh a later. So if you are consuming the
+
+104
+00:19:30.190 --> 00:19:40.320
+Patrik Stas: you know, build compiled uh uh android or aisles wrapper. Uh, basically there was no breaking changes. Uh, but
+
+105
+00:19:40.610 --> 00:19:54.549
+Patrik Stas: uh, what happened internally is that, uh, as Vcx is now much more general. Uh, there's this sort of a state open ination. Uh has been moved a level up on the loop. Pcx layer.
+
+106
+00:19:54.770 --> 00:20:02.520
+Patrik Stas: So So that's that's kind of uh, yeah, definitely helping with the is Vcx Api and and sort of
+
+107
+00:20:02.560 --> 00:20:19.000
+Patrik Stas: uh guidance. It's potential as to what can be done with it, especially Now, when you can essentially run, you know, use Aries Vcx, and simultaneously manage the work with the you know X walls and X different pools.
+
+108
+00:20:19.560 --> 00:20:38.120
+Patrik Stas: Uh. So that's that's uh. This is one work uh one piece uh then uh we had uh, we've done uh lots of work on a linking um static and dynamic link link linking in regards to all the dependencies of
+
+109
+00:20:38.150 --> 00:20:56.419
+Patrik Stas: Uh as Vcx to other libraries, such as uh uh Vdr tools uh and lipso zoom lids, and then queue and all this kind of stuff under the you know, behind the scenes. So uh it was with this big uh build
+
+110
+00:20:56.600 --> 00:21:14.949
+Patrik Stas: process, clean up uh refactoring, and basically essentially the side effect of that. The size of Android graper will also decrease roughly by ten times. So, coming from originally one hundred and fifty. I think it was one hundred. No, no, no.
+
+111
+00:21:16.090 --> 00:21:17.600
+Patrik Stas: How much was it?
+
+112
+00:21:18.270 --> 00:21:28.800
+Patrik Stas: Uh, yeah, I think the compressed version was one hundred and fifty Max, whereas now it's roughly fifteen or twenty, something like that.
+
+113
+00:21:29.160 --> 00:21:32.740
+Patrik Stas: Uh So where are the uh with that
+
+114
+00:21:32.790 --> 00:21:34.420
+Patrik Stas: um,
+
+115
+00:21:34.890 --> 00:22:03.569
+Patrik Stas: And then uh that's a second second job which has been done. Uh, this is something I already have. Uh roughly mentioned. Uh, we we've been testing, are we? Sex with occupy for quite a bit, and maybe since a a year ago, but just recently uh, in the last week or two uh, we have added uh our Ccx. And a is framework javascript there
+
+116
+00:22:04.720 --> 00:22:11.979
+Patrik Stas: uh getting good results there. Uh, I think. Um, I'm not sure if the
+
+117
+00:22:12.260 --> 00:22:27.920
+Patrik Stas: if the pair is yet being executed on the test harness, Ci. But uh we we checked. We've been running it locally so far, and the compatibility uh results were uh quite satisfying.
+
+118
+00:22:28.390 --> 00:22:43.629
+Patrik Stas: Uh, although there's still some. There's still a bunch of suits uh missing, which are not implemented for Aries uh, you know, for this back channel, either because, uh, we don't implement some protocol
+
+119
+00:22:43.640 --> 00:22:51.170
+Patrik Stas: um or uh, or we simply don't implement that that that test suit in harness itself.
+
+120
+00:22:52.190 --> 00:22:55.939
+Patrik Stas: Oh, hi, hi, petra! Uh!
+
+121
+00:22:56.220 --> 00:22:59.029
+Patrik Stas: That is muted. But there is my colleague.
+
+122
+00:22:59.280 --> 00:23:00.580
+Patrik Stas: Uh
+
+123
+00:23:01.450 --> 00:23:09.679
+Patrik Stas: I i'll i'll, I'll continue. I'm not gonna like, uh interrupt the current agenda. But anyway, welcome better
+
+124
+00:23:09.780 --> 00:23:10.970
+Patrik Stas: um
+
+125
+00:23:11.500 --> 00:23:17.429
+Patrik Stas: uh the and then to move on to the next step we have again uh
+
+126
+00:23:18.000 --> 00:23:32.020
+Patrik Stas: some sort of connecting to George's question. Well, we have uh implemented um around like simple rust agent. Uh, maybe I can actually open um open it up in uh,
+
+127
+00:23:33.790 --> 00:23:35.310
+Patrik Stas: and then repo
+
+128
+00:23:35.640 --> 00:23:43.790
+Patrik Stas: Uh: So basically what we just merged yesterday is uh is right here under the agents
+
+129
+00:23:44.880 --> 00:23:59.859
+Patrik Stas: uh, and there's a new directory. A raft like A is V. Six agent. So this is essentially like a sort of simple implementation of a rust agent. We we,
+
+130
+00:24:00.000 --> 00:24:01.290
+Patrik Stas: uh,
+
+131
+00:24:02.040 --> 00:24:14.259
+Patrik Stas: which has some storage. It can keep track of different protocols, and can, uh, you know, update these protocols? It it exposes some Api.
+
+132
+00:24:14.270 --> 00:24:27.550
+Patrik Stas: It is also some base, some basic issue or functionalities, such as writing scheme on the you know, sending transactions on the ledger to right schema. Credential definitions, or this kind of stuff
+
+133
+00:24:28.230 --> 00:24:35.999
+Patrik Stas: uh, and basically the we we use this uh this uh agent um
+
+134
+00:24:36.630 --> 00:24:39.130
+Patrik Stas: as a as a
+
+135
+00:24:39.210 --> 00:24:58.239
+Patrik Stas: a dependency in the Aries uh agent test harness uh implementation. So we don't directly consume Aries Dcx, because that will be sort of uh to granular to low level. Api uh! But uh, this this new crate
+
+136
+00:24:58.300 --> 00:25:17.279
+Patrik Stas: which is being built on top of areas. Vcx. Uh. It gives us additional capabilities, such as you know, handling the storage uh, and also like creating agents uh with the agency. So it's more to more more of a end to end. Batteries included the Api
+
+137
+00:25:17.670 --> 00:25:19.000
+Patrik Stas: Um,
+
+138
+00:25:20.170 --> 00:25:31.749
+George Mulhearn: Is it um? Is it similar to the No. Js version of the agent that you guys have. Oh, yeah, exactly. Precisely so. We have in Node. We have this V. Six Agent Core, which
+
+139
+00:25:32.040 --> 00:25:37.220
+George Mulhearn: essentially it it's very similar. But in the
+
+140
+00:25:38.790 --> 00:25:40.050
+Patrik Stas: um.
+
+141
+00:25:40.290 --> 00:25:46.779
+Patrik Stas: And lastly, uh, this is quite quite significant. Um working progress
+
+142
+00:25:47.630 --> 00:25:59.660
+Patrik Stas: uh, and that's a substitution substitute substitution of uh sfi between uh, between and Vdr tools.
+
+143
+00:26:00.090 --> 00:26:17.490
+Patrik Stas: Uh, this is maybe actually a important piece I should have mentioned when I was talking about the where we are and where we are going. Uh, so i'll just kind of take a step back and send. Say one more thing here so essentially.
+
+144
+00:26:17.710 --> 00:26:23.080
+Patrik Stas: Four years ago uh as Vcx. Olympics was part of
+
+145
+00:26:23.430 --> 00:26:26.170
+Patrik Stas: it was originally, uh
+
+146
+00:26:26.280 --> 00:26:36.150
+Patrik Stas: uh part of uh in the in the in the Sdk and in that repository, you know it's uh it's hyper, ledger,
+
+147
+00:26:36.160 --> 00:26:50.730
+Patrik Stas: slash in the Sdk, and under that repository those live in the and those live. Vcx, whereas live v. Six is directly dependent and consumed live in the but it was always through as a fine interface.
+
+148
+00:26:51.450 --> 00:26:59.310
+Patrik Stas: Uh, then, what happened is that, uh we for glimpse in around two thousand and twenty, and um
+
+149
+00:26:59.710 --> 00:27:13.070
+Patrik Stas: and uh live in The didn't seem to get much sort of much community traction anymore, And there was still lots of improvements which could have been done there. But, uh,
+
+150
+00:27:13.080 --> 00:27:25.270
+Patrik Stas: well, for whatever reasons Um, these improvements has been done, but they've been done in a fork of this library uh, which is now called Vvr tools.
+
+151
+00:27:25.590 --> 00:27:34.480
+Patrik Stas: Um, we be our tools, and uh, this is this was done by again. The company called ever name.
+
+152
+00:27:34.490 --> 00:27:54.470
+Patrik Stas: So there's github repository uh of uh Vvr tools. And yeah, in around two thousand and twenty-one, I believe we basically switch from liberty to Vd our tools because there was lots of performance uh improvements, especially especially related to Uh as a as synchronous school in the Us.
+
+153
+00:27:55.080 --> 00:28:07.649
+Patrik Stas: So basically and now, uh, now, the current state of things is that leave the Cx. Is consuming. Vdr. Is using V the Vdr tools, for
+
+154
+00:28:07.660 --> 00:28:29.389
+Patrik Stas: from averning uh, and these these calls between the these two libraries happens through Ffi as a foreign function interface sort of like when you want to call C library. So from Ares. Vcx. Live V. Six point, you know. Uh, we are calling this library as as if it was some sort of C library,
+
+155
+00:28:29.400 --> 00:28:33.949
+Patrik Stas: and this can be like very inefficient, because I mean, first of all,
+
+156
+00:28:34.010 --> 00:28:48.340
+Patrik Stas: uh, you know, losing lots of performance there also lots of rust typing. So back to my back to my uh uh point here as to the task which is in progress. Uh, we are trying to,
+
+157
+00:28:48.650 --> 00:29:04.090
+Patrik Stas: uh, basically optimize. Uh, the way a loop Pcx is uh consuming Vdr tools. We don't want to use the fi interface anymore for the sort of uh reason reason I've sketched out
+
+158
+00:29:04.110 --> 00:29:15.680
+Patrik Stas: uh, and instead, we want to call V our tools directly as a native crate. So we are, uh essentially forking Vvr: tools ourselves.
+
+159
+00:29:15.820 --> 00:29:20.560
+Patrik Stas: Uh, but and uh, which,
+
+160
+00:29:21.300 --> 00:29:35.819
+Patrik Stas: with our tools, our self to enable this, you know, consumption as a native rust trade, however, and now moving smoothly directly to the long, long term goals. Um,
+
+161
+00:29:36.290 --> 00:29:44.209
+Patrik Stas: this this this combination itself that's like That's not really the long-term vision instead.
+
+162
+00:29:44.220 --> 00:30:00.240
+Patrik Stas: You know, after we finish this on migration the call will be much nicer, much easier to work, with and that should make it easier for us to actually start migrating away from Vdr pools like a live in the, you know, or whatever want to call this
+
+163
+00:30:00.250 --> 00:30:16.550
+Patrik Stas: uh, we want to migrate away from the Vvr tools itself, and instead, uh add a capability to as Dc. X. To be to to rely on uh this uh uh set of
+
+164
+00:30:16.640 --> 00:30:18.939
+Patrik Stas: set of uh libraries
+
+165
+00:30:19.140 --> 00:30:29.689
+Patrik Stas: mit Ctl. And uh, in the shared rs in the video R. And possibly A is Ascar. These are three libraries which has been basically one hundred.
+
+166
+00:30:30.050 --> 00:30:41.260
+Patrik Stas: They they've been created by uh guys from uh uh British Columbia Government Uh, the guys who stand behind occupy um and um
+
+167
+00:30:42.680 --> 00:30:59.430
+Patrik Stas: uh, These libraries are like much smaller sort of modern rough style, as as opposed to the original Uh Pdr tools, or live in the uh. So this is like the long term version of a vision to migrate on these
+
+168
+00:30:59.440 --> 00:31:06.650
+Patrik Stas: Uh ideally, probably you would have option to sort of choose whether you want to.
+
+169
+00:31:07.300 --> 00:31:17.270
+Patrik Stas: Uh, you know, use Cdr tools, or uh, or this uh triplet of libraries, or uh, at least there will be some sort of migration
+
+170
+00:31:17.280 --> 00:31:33.830
+Patrik Stas: uh period where we would uh support both in some way. Uh, It's still kind of this is a big task. So there's a bunch of unknowns there. We still I'd have to familiar a similar
+
+171
+00:31:33.900 --> 00:31:37.960
+Patrik Stas: with these three libraries to make sure that we can actually pull this off
+
+172
+00:31:38.400 --> 00:31:39.880
+Patrik Stas: um
+
+173
+00:31:40.180 --> 00:31:58.729
+Patrik Stas: and another uh another tasks, which are a bit smaller uh, but still uh are important where we are looking for the future. Uh, first is Um, the remove coupling of the library to V. Six agency, no mediator
+
+174
+00:31:58.760 --> 00:32:13.959
+Patrik Stas: so currently. Um! When you use the V six or A is V. Six, it's essentially impossible to use it in in an in any practical way, unless you are also unless you also deploy.
+
+175
+00:32:14.000 --> 00:32:17.900
+Patrik Stas: Um. This uh, this, this implementation of
+
+176
+00:32:17.960 --> 00:32:23.220
+Patrik Stas: of every's message, mediator,
+
+177
+00:32:23.680 --> 00:32:41.279
+Patrik Stas: of which particular implementation is called V sa agency notes. Since you guys are uh mobile developers, I assume that you are, you know, running this. Otherwise you wouldn't be able to use the Vcx. So this is not something we want to like drop
+
+178
+00:32:41.320 --> 00:32:47.439
+Patrik Stas: uh, because obviously this is useful for um for anyone uh
+
+179
+00:32:47.810 --> 00:33:00.730
+Patrik Stas: doing mobile, or maybe Cx uh, but it's something we don't want to to be necessary. I because you can definitely use, you know. Uh,
+
+180
+00:33:01.010 --> 00:33:20.469
+Patrik Stas: as far as you are not running on a mobile, you can if you're running on server, and you want to implement some web uh web-based uh agent on top of arescx you don't necessarily need uh this meditation box to accept messages on your behalf. Instead,
+
+181
+00:33:20.480 --> 00:33:32.300
+Patrik Stas: you can just receive the messages yourself. So while this is useful for the mobile, we want to. We want to also enable, like a a very simple web deployment.
+
+182
+00:33:33.450 --> 00:33:35.250
+Patrik Stas: Uh,
+
+183
+00:33:35.370 --> 00:33:53.909
+Patrik Stas: and they're coming to the next point. Obviously, we want to keep on improving our interpret. But interoperability suit with the other frameworks, and increasing our Uh coverage of the set uh of the at least every suits and uh Rfcs would you implement?
+
+184
+00:33:54.060 --> 00:33:58.689
+Patrik Stas: Uh? And lastly, oh, that's the same thing essentially.
+
+185
+00:33:58.740 --> 00:33:59.910
+Patrik Stas: So.
+
+186
+00:34:01.870 --> 00:34:06.370
+Patrik Stas: Yeah, uh, these are the these are the goals. And uh,
+
+187
+00:34:08.480 --> 00:34:14.160
+Patrik Stas: I think i'll, I'll just leave the space now for again for any sort of questions or comments.
+
+188
+00:34:16.060 --> 00:34:23.160
+George Mulhearn: Um! Just about the Vcx Agency Node, I've I've dug around there a little bit. Um,
+
+189
+00:34:23.360 --> 00:34:33.740
+George Mulhearn: uh So is that implementation based off some mediator. Spec: I'm: I'm. Not too familiar with mediator specs and tech behind it,
+
+190
+00:34:33.780 --> 00:34:38.989
+George Mulhearn: like I noticed, pick up messages and and concepts like that.
+
+191
+00:34:39.730 --> 00:34:59.309
+Patrik Stas: Um: So your question was, if it's based on some areas, Rfc: Specs: Okay. So in a limited way, uh basically you know, it enables uh for any you know it enables receiving as messages
+
+192
+00:34:59.320 --> 00:35:05.290
+Patrik Stas: in general. So if you are, you know, if you have a mobile device, and then mobile device
+
+193
+00:35:05.490 --> 00:35:07.990
+Patrik Stas: is using V. Six agency note
+
+194
+00:35:08.040 --> 00:35:19.299
+Patrik Stas: uh the research. I just, you know, mailbox, If I say that way, can you receive a message from anyone, regardless of what kind of framework
+
+195
+00:35:19.390 --> 00:35:27.120
+Patrik Stas: they are using. It's simply just a message. So in this regard it's very simple. It can be seen. There is messages from anyone,
+
+196
+00:35:27.160 --> 00:35:37.530
+Patrik Stas: however, the the device to you know the client to mediate your interface the way how the messages are downloaded
+
+197
+00:35:37.570 --> 00:35:39.590
+Patrik Stas: uh and managed
+
+198
+00:35:39.820 --> 00:35:55.150
+Patrik Stas: by the you know the client itself. This is not um. This is not a in alliance, uh, you know, in alignment with uh any, any Rfc: it's like proprietary, like a custom
+
+199
+00:35:55.160 --> 00:36:02.779
+Patrik Stas: implementation uh basically the original uh implementation. Um, all the way from two thousand and eighteen
+
+200
+00:36:02.810 --> 00:36:04.040
+Patrik Stas: um
+
+201
+00:36:04.330 --> 00:36:09.419
+Patrik Stas: to you know how to down the message, how to update the state of a message.
+
+202
+00:36:09.750 --> 00:36:11.100
+Patrik Stas: Um:
+
+203
+00:36:12.860 --> 00:36:29.759
+Patrik Stas: yeah. So this is custom in in this regard. It's a you know It's not interoperable. But, uh, yeah, we don't. We Don't really plan to uh do this work. We are not. We just want to enable, you know, live V. Six or
+
+204
+00:36:30.130 --> 00:36:33.689
+Patrik Stas: uh clients, customers uh
+
+205
+00:36:34.290 --> 00:36:41.359
+Patrik Stas: to to use some agency, and this is us agents who and agency we, you know, ship with it.
+
+206
+00:36:41.430 --> 00:36:42.660
+Patrik Stas: Uh,
+
+207
+00:36:43.340 --> 00:36:58.130
+Patrik Stas: if you want to use um if you would want to use, and everything with some other mediator like you want to have your messages mediated by, you know. Maybe a third party. Uh
+
+208
+00:36:58.440 --> 00:37:05.529
+Patrik Stas: then uh probably they'll have to be some, some, some, some some work done
+
+209
+00:37:05.580 --> 00:37:10.719
+Patrik Stas: uh on. There is V. Six to learn to speak this
+
+210
+00:37:11.030 --> 00:37:14.649
+Patrik Stas: this mediation protocols which it currently can't.
+
+211
+00:37:16.000 --> 00:37:31.959
+George Mulhearn: Right? Yep. Okay. Cool. So um, I guess, is the the goal of of that. Um, go. You have listed. There is the idea that you'd have like a a pluggable message source thing, and then, you know, you can get,
+
+212
+00:37:32.310 --> 00:37:46.019
+George Mulhearn: because I guess the purpose of connecting with the mediators to get your messages. Um, so I guess, is the goal to have some sort of pluggable message source that you can get your messages from whatever implementation you want.
+
+213
+00:37:46.230 --> 00:38:07.569
+Patrik Stas: Yeah, I essentially, you know, in case of uh. If, if, for example, you are running um, that agent, you probably gonna have some exposed some port, and you're just going to be receiving messages directly. And so in this case that's your uh message for us, and we can just plug in those messaging into the S Protocols
+
+214
+00:38:07.580 --> 00:38:18.670
+Patrik Stas: alternatively. Perhaps. Yeah, you might want to just in completely stand a low Cr: You You might implement um, you know. Um
+
+215
+00:38:19.310 --> 00:38:21.350
+Patrik Stas: and um
+
+216
+00:38:22.090 --> 00:38:39.370
+Patrik Stas: client agency client which would speak this uh Aries, maybe Rfc's. And then, you know, you would use that to get your messages from wherever then, just plug those messages into a uh, essentially A. Is V. Six shouldn't really
+
+217
+00:38:39.480 --> 00:38:48.619
+Patrik Stas: be aware of, uh, of uh, of mediation, as as at least you should be aware, as least as possible.
+
+218
+00:38:49.380 --> 00:38:57.899
+George Mulhearn: Yeah, yeah, um, I guess how. How tied is Dcx at the moment to needing a mediator like I know this like
+
+219
+00:38:57.980 --> 00:39:06.039
+George Mulhearn: um functions like find message and handle, for example, and that looks into the mediated to get messages and whatnot.
+
+220
+00:39:06.050 --> 00:39:18.149
+George Mulhearn: But there's also um functions which are just handle message, and you give it the message to look at
+
+221
+00:39:18.580 --> 00:39:28.559
+Patrik Stas: Where? Uh, yeah, but and then the way it is coupled. Now, essentially, you know, we have a connection protocol, and so connection, protocol handler.
+
+222
+00:39:28.570 --> 00:39:44.219
+Patrik Stas: Uh. And this connection itself, this this object is aware of agency. It it provides very convenient api's, because it can like, find a message of find a message update message, and then uh,
+
+223
+00:39:44.230 --> 00:39:58.360
+Patrik Stas: uh automatically update messages, message state in agency after it was processed. But it comes with this coupling, So we just want to like, separate it out. It's different responsibilities.
+
+224
+00:39:58.980 --> 00:40:01.279
+George Mulhearn: Yeah. Awesome. Thanks.
+
+225
+00:40:08.010 --> 00:40:09.850
+Sai Ranjit: Okay.
+
+226
+00:40:32.820 --> 00:40:38.630
+Sai Ranjit: So let's see it and start that That is done all the test so that I can take it. Hold
+
+227
+00:40:39.470 --> 00:40:53.980
+Patrik Stas: Um, i'm sorry, Ranj. It's it's It's actually kind of difficult to hear. There is a there is a
+
+228
+00:40:54.210 --> 00:41:13.910
+Sai Ranjit: i'm wrong. You were asking if there is a documentation to start Vcx in a local environment. Was that your question? Yes, start this in a local environment, or at least run the test case all the test cases, so to check how the
+
+229
+00:41:13.920 --> 00:41:19.819
+Patrik Stas: um Well, let me let me open the repo so I can something to
+
+230
+00:41:20.870 --> 00:41:24.920
+Patrik Stas: a lean on, as I speak,
+
+231
+00:41:25.790 --> 00:41:35.740
+Patrik Stas: so basically like current, our get started uh instruction is uh is to
+
+232
+00:41:35.930 --> 00:41:55.470
+Patrik Stas: uh is that mainly this reference to No. J. Has. That's probably the kind of the easiest way to how to run it locally with some instructions, and uh might not be perfect. But let me check it out. I'll looking at this. So basically, I it says, Do you need to compile a?
+
+233
+00:41:55.480 --> 00:41:59.560
+Patrik Stas: And then we link to some instructions over here?
+
+234
+00:42:00.040 --> 00:42:01.819
+Patrik Stas: Um.
+
+235
+00:42:03.690 --> 00:42:10.910
+Patrik Stas: There are some instructions for running tests. Uh, I think.
+
+236
+00:42:11.540 --> 00:42:28.590
+Patrik Stas: Uh, maybe we are missing bit of a info about uh dependencies like. Do you need to have a lip? So you I think it's something we can add, and it seems like it's missing. But
+
+237
+00:42:28.600 --> 00:42:34.769
+Patrik Stas: if you manage to overcome that piece uh you know, and you
+
+238
+00:42:34.800 --> 00:42:43.740
+Sai Ranjit: I already built that case as I was working on the other framework, like it is been with gossip I already
+
+239
+00:42:43.760 --> 00:42:49.389
+Patrik Stas: Oh, so yeah, From that, from there on. It should be like fairly easy like uh,
+
+240
+00:42:50.110 --> 00:42:51.709
+Patrik Stas: um!
+
+241
+00:42:52.900 --> 00:43:00.300
+Patrik Stas: These are the instructions for testing. And uh, where is it? Uh,
+
+242
+00:43:00.690 --> 00:43:13.509
+Patrik Stas: I think I think we can do a bit of a refactoring on documentation for sure it's. It's not easy to find, but basically you can run cargo test, and uh and uh, it should run the test for you
+
+243
+00:43:13.520 --> 00:43:23.319
+Patrik Stas: either unit, test or integration tests obviously for integration, because you must be running uh a lot of instance full and uh agency.
+
+244
+00:43:33.400 --> 00:43:39.189
+Sai Ranjit: So I will write the test cases there in that, and change something right. You do the same way, or
+
+245
+00:43:39.390 --> 00:43:47.729
+Sai Ranjit: how you how to how to.
+
+246
+00:43:48.230 --> 00:44:07.099
+Patrik Stas: Yeah, I mean ideally. If you want to write some port, modify some code. Um, you know that'll be most of the most of the time. I think you know. The core piece of the six code base is in under every Ccx. And so there's integration tests here. Um,
+
+247
+00:44:07.110 --> 00:44:11.459
+Patrik Stas: and you can run those
+
+248
+00:44:13.050 --> 00:44:14.049
+Patrik Stas: sorry.
+
+249
+00:44:14.410 --> 00:44:26.150
+Patrik Stas: Okay, and there's a unique test also, uh, usually directly in the files. So if I
+
+250
+00:44:26.200 --> 00:44:27.589
+Patrik Stas: oh me,
+
+251
+00:44:27.740 --> 00:44:30.429
+Patrik Stas: um, let me find those.
+
+252
+00:44:31.620 --> 00:44:47.909
+Patrik Stas: So we use uh to basically we use uh rust feature. R. It decode features to split out um this into like two categories. You know integration tests and
+
+253
+00:44:49.120 --> 00:45:11.149
+Patrik Stas: to run unit tests uh you run with feature General tests uh these tests are very quick. Uh, if you want to run an integration, test It's usually like a full test. It depends on what you're trying to do. You know, if you want to
+
+254
+00:45:11.160 --> 00:45:12.819
+Patrik Stas: integration, I
+
+255
+00:45:13.090 --> 00:45:35.589
+Patrik Stas: uh I think the integration ness uh like they serve as a sort of nice form of documentation, because if you look at them, they are usually like this kind of a small story where you know to in two entities is your uh, some favor and a lease they are having interaction together, and favor is, if you're in credential to alleys,
+
+256
+00:45:35.600 --> 00:45:43.309
+Patrik Stas: and you see you know you, you essentially can see what functions are being called. How is this being facilitated?
+
+257
+00:45:43.850 --> 00:45:50.900
+Patrik Stas: Uh, same goes like for no Js: if you happen to like, uh, you know, Want to write some
+
+258
+00:45:51.130 --> 00:46:09.260
+Patrik Stas: uh Don't Jess code. Uh, probably the easiest way is to look at the agent. And again, there's test, for example, out of band, and you can kind of see the way that happens, like you know, or whatever sort of scenario you are interested in.
+
+259
+00:46:09.640 --> 00:46:26.129
+Patrik Stas: I usually also this can be also useful if you are reading Mobile, because you know, both both mobile and android denials and no Js. They share. They rely on the same,
+
+260
+00:46:26.140 --> 00:46:39.499
+Patrik Stas: c. Ffi interface. So the way you do things in
+
+261
+00:47:02.530 --> 00:47:13.670
+Patrik Stas: okay guys. Uh, if there's no like further questions. Uh, I want to move to the next point uh to discuss the best time to hold these meetings
+
+262
+00:47:15.090 --> 00:47:25.209
+Patrik Stas: uh a poll suggesting to move it uh, perhaps a hour or two forwards to make it more available for the um, you know America's uh
+
+263
+00:47:25.960 --> 00:47:42.929
+Patrik Stas: um america's uh time zones as uh Paul is based in South South America. And uh I I was uh, so I want to ask for everybody else is thinking about it for me is uh totally fine actually, for for me is uh
+
+264
+00:47:43.500 --> 00:47:56.650
+Patrik Stas: like really convenient either way, because i'm based in Europe right now it's morning, but trying to cover both uh Australia and us that that can get that a little bit tricky. So,
+
+265
+00:47:56.820 --> 00:47:58.140
+Patrik Stas: Um,
+
+266
+00:47:58.550 --> 00:48:06.950
+Patrik Stas: Paul, you have Currently, currently it's uh what is it? The when the meeting was starting was four, Four am.
+
+267
+00:48:08.060 --> 00:48:15.169
+Patrik Stas: Yes, yes, six am. Would be probably much better you wouldn't it.
+
+268
+00:48:15.840 --> 00:48:31.079
+Patrik Stas: Yeah, it is, although that's still it's still early, and uh, i'll definitely appreciate. I'll. I'll all see you adjoining. Uh, but yeah, I think six am is is there will be good That would make it uh nine Am. Utc,
+
+269
+00:48:31.110 --> 00:48:45.210
+Patrik Stas: and uh, well, they'll They'll shift it two hours uh for everybody else. So I'm: Okay, with this, I suppose Paul is okay with this uh, what do you think uh, say? And uh, George,
+
+270
+00:48:52.310 --> 00:48:57.719
+Patrik Stas: Awesome guys very quick. Um!
+
+271
+00:48:57.890 --> 00:49:06.229
+Patrik Stas: So I've also reschedule the meetings movie to nine. Am you to see? As we agreed to.
+
+272
+00:49:06.400 --> 00:49:18.569
+Patrik Stas: Uh. Well, I think we already had a free discussion. But I think before I close the meeting, this is like the last uh last opportunity to uh say anything you have in your mind.
+
+273
+00:49:21.220 --> 00:49:27.459
+George Mulhearn: Um, just on the uh the first goal you kind of had there about
+
+274
+00:49:27.550 --> 00:49:28.689
+George Mulhearn: sort of
+
+275
+00:49:28.750 --> 00:49:30.250
+George Mulhearn: getting a bit of
+
+276
+00:49:30.670 --> 00:49:39.130
+George Mulhearn: uh independence from live in the or Vdr. Tools. Um, that's sort of what I guess i'm working on at the moment. Um.
+
+277
+00:49:40.170 --> 00:49:43.619
+George Mulhearn: So yeah, it might be good sometime, maybe
+
+278
+00:49:43.710 --> 00:49:49.030
+George Mulhearn: next meeting, or or some other time to sort of talk about the approach, and
+
+279
+00:49:49.090 --> 00:49:50.919
+George Mulhearn: see what you think about it,
+
+280
+00:49:50.940 --> 00:49:54.180
+George Mulhearn: and how it will fit in with the ecosystem
+
+281
+00:49:54.550 --> 00:50:09.120
+Patrik Stas: Mhm, it will we? Yeah. So on this piece or basically we would that approach we have currently in mind, uh or head in mind, was, uh well, first of all, trying to remove the Ffi
+
+282
+00:50:09.130 --> 00:50:39.120
+Patrik Stas: uh, just to make it easier with that to interact with the Vdr tools itself while it's still in the while it still exists. And while we are, you know, while we'll be in the process of that migration, it'll be easier to compare those Apis when you just can directly click through uh over the rust code from like one sort of framework to the another, maybe check how the functions between them at the first. So this is in progress. I have a colleague of mine working on this,
+
+283
+00:50:39.130 --> 00:50:40.750
+Patrik Stas: and
+
+284
+00:50:40.790 --> 00:50:50.340
+Patrik Stas: might be done. Um! He's he's he's saying he's in a good way. I think he'll still run into a few challenges. Um,
+
+285
+00:50:50.600 --> 00:50:52.040
+Patrik Stas: um!
+
+286
+00:50:52.100 --> 00:51:02.549
+Patrik Stas: So I suspect this might be done like late next week, or perhaps um. Perhaps you know the week after something like that,
+
+287
+00:51:02.910 --> 00:51:07.239
+Patrik Stas: uh? And then taken from there. Uh,
+
+288
+00:51:07.890 --> 00:51:10.460
+Patrik Stas: I think the first step to like
+
+289
+00:51:11.300 --> 00:51:18.959
+Patrik Stas: break free from Vdr tools uh would be to remove any sort of dependencies.
+
+290
+00:51:19.400 --> 00:51:28.650
+Patrik Stas: Uh on on the Vdr tools from the rest of the code base. Uh in ours. D six. And what I mean is,
+
+291
+00:51:28.840 --> 00:51:32.140
+Patrik Stas: you know Currently, For example, there are
+
+292
+00:51:32.270 --> 00:51:44.640
+Patrik Stas: uh places in areas which is code base where we uh talk in terms of wallet, handle, or pool handle, and these are concepts of Uh, this is comfortable with our tools.
+
+293
+00:51:44.650 --> 00:51:57.159
+Patrik Stas: Um. So we want to create some sort of like service layer to shield. Basically, you know, fesate or shield away the implementation details. There should be just some sort.
+
+294
+00:51:57.370 --> 00:52:11.190
+Patrik Stas: The The the vision is that there will be some sort of yeah, some Api. Would you be like, you know. Okay, create in the credential. And then whether that happens uh um, you know, over
+
+295
+00:52:11.200 --> 00:52:19.069
+Patrik Stas: uh Vvr tools or Aries shared, our area is shared. Um ours uh library.
+
+296
+00:52:19.180 --> 00:52:23.270
+Patrik Stas: It shouldn't be It should be invisible to the You know the
+
+297
+00:52:23.280 --> 00:52:39.919
+Patrik Stas: every portion of the code base which is most of dealing with State machines and protocols. Is that something similar? Or we'll see our approach to this. Yeah, no, That's that's pretty much exactly what I've been doing. Um, Yeah, You're right. A lot of wallet handles being passed around. Um,
+
+298
+00:52:39.930 --> 00:52:44.079
+George Mulhearn: I'm not sure if I are. You familiar with the Acupy code base?
+
+299
+00:52:44.550 --> 00:52:59.320
+George Mulhearn: Um, Not not much. Now. Okay? Well, yeah, I guess they went through sort of a similar phase where everything was in the Sdk. Um, and it was sort of calling on in the Sdk, And so to make it modular,
+
+300
+00:52:59.330 --> 00:53:13.190
+George Mulhearn: they've created interfaces for kind of the main uh Api modules. So like an interface for ledger interactions, interface for wallet interactions, interface for um, non cred stuff like that.
+
+301
+00:53:13.310 --> 00:53:24.009
+George Mulhearn: And then you basically inject whether you want the In the Sdk version of that dependency. Or if you want, you know the the credits or the Vdr version of it.
+
+302
+00:53:24.250 --> 00:53:28.700
+George Mulhearn: Um. So yeah, I guess I've been in the process of
+
+303
+00:53:28.810 --> 00:53:45.229
+George Mulhearn: making those uh those interfaces, all those traits. And then you can plug in whether you want a Vdr version or the media tools version, or credits or video tools. Kind of thing. Um. But yeah, I guess it'd be good to
+
+304
+00:53:45.840 --> 00:53:49.790
+George Mulhearn: not going into it now, but it'd be good to get you guys to
+
+305
+00:53:50.230 --> 00:54:09.949
+Patrik Stas: have a look at it and see what you think
+
+306
+00:54:09.960 --> 00:54:29.300
+Patrik Stas: definitely. If, uh, if you are a it's a it's a big task. I think so definitely. If you want to like, you know, kind of commit on uh, you know, contributing this piece, which will be again very valuable. Uh, then, we can, uh, you know, connect, set up. Some set up some calls and kind of work with you more closely.
+
+307
+00:54:29.310 --> 00:54:31.359
+Patrik Stas: Uh and I
+
+308
+00:54:32.670 --> 00:54:46.100
+George Mulhearn: Yeah, yeah, that'd be great. Um, Yeah, you're right. It's a pretty big task. I think about ninety files changed or something. Um: Oh, okay. So yeah, It' be good to uh dig into it a bit.
+
+309
+00:54:46.110 --> 00:55:03.869
+Patrik Stas: Um. So what? What does your current state are actually consuming all those libraries? Or is it on a refactoring face trying to shield the way that? Yeah, no, I I am consuming it, and you know, just running it against the local occupy. Um
+
+310
+00:55:03.880 --> 00:55:11.640
+George Mulhearn: can. Do you know, issuance and group presentations, I guess, being more mobile, focused. My!
+
+311
+00:55:11.680 --> 00:55:25.439
+George Mulhearn: Uh, I I I care more about, you know, the prover and the holder point of view rather than issue a and verify. So my attention Hasn't really been on that side of things. But
+
+312
+00:55:25.640 --> 00:55:38.749
+Patrik Stas: but yeah, so there you are. You are literally running uh a live B cx, which is using uh those uh in the shard eras for the prover and stuff around it.
+
+313
+00:55:38.760 --> 00:55:48.540
+George Mulhearn: Yeah. So i'm not using live Vcx: at the moment. Um, I'm: I'm just using the areas of Vcx Call directly. Um:
+
+314
+00:55:49.190 --> 00:55:50.089
+George Mulhearn: Yeah.
+
+315
+00:55:50.380 --> 00:55:53.939
+Patrik Stas: But it's using It's not using Vdr. Tools anymore.
+
+316
+00:55:55.350 --> 00:55:58.729
+George Mulhearn: Um. The only part that is still using it in.
+
+317
+00:55:59.060 --> 00:56:09.609
+George Mulhearn: Well, I. I have it sort of configurable where you can choose whether you're using Vdi tools or using pluggable things. Um, And I guess the only thing that I haven't
+
+318
+00:56:09.680 --> 00:56:16.859
+George Mulhearn: done is a video or or a version of the wallet interface that isn't using Vdi tools
+
+319
+00:56:16.960 --> 00:56:25.439
+George Mulhearn: um, so like the wallet is in storing It's and creating ds is missing, and that'd be Aries as far, I guess.
+
+320
+00:56:25.490 --> 00:56:35.269
+Patrik Stas: Uh-huh! That that's amazing. Um I mean i'm really surprised. I didn't know that uh this kind of activity is happening. This is really amazing.
+
+321
+00:56:40.950 --> 00:56:49.750
+Patrik Stas: Yeah, Okay, Uh: okay. So we are almost running out of minutes. We have four minutes left. So uh.
+
+322
+00:56:49.920 --> 00:57:01.799
+Patrik Stas: Uh. So, George. Yeah, let's let's talk on discord. And uh, we can set up some uh some, some call, perhaps some call, or I don't know. Maybe we can even increase the
+
+323
+00:57:02.400 --> 00:57:03.640
+Patrik Stas: uh
+
+324
+00:57:03.900 --> 00:57:19.440
+Patrik Stas: A. It increased the ex. So So i'm just thinking what's the sort of hyper ledger policy, if it's all right, you know, for us to schedule a sort of private call about this contribution, or everything should be open. But I think uh,
+
+325
+00:57:19.450 --> 00:57:37.389
+Patrik Stas: in this case, I mean, uh, we. We discuss the End goal on the shared meeting, and then I think it's fine. If we discuss the implementation details on a on a sort of private call and to discuss how to actually proceed. I I don't think anybody would be interested in the
+
+326
+00:57:37.400 --> 00:57:46.869
+Patrik Stas: I don't. I don't mind either way. Okay, alright. So we can set it up on the discord.
+
+327
+00:57:47.480 --> 00:58:01.400
+Patrik Stas: Uh and uh, i'll move the meeting to nine Nine nine Am. Uh there, for the next meeting would be happening on this twenty-th.
+
+328
+00:58:01.670 --> 00:58:03.140
+Patrik Stas: Um,
+
+329
+00:58:03.720 --> 00:58:10.360
+Patrik Stas: no, we lost twenty-th, so the next meeting will be on a third of uh november
+
+330
+00:58:10.390 --> 00:58:14.540
+Patrik Stas: at nine Am. Udc. And um
+
+331
+00:58:14.840 --> 00:58:29.859
+Patrik Stas: in the meantime will be on on this court. Thank you very much. Everyone for joining. I'm uh i'm really happy that this happened actually wasn't Sure, if you're gonna we gonna be able to use the whole one hour? But we did so.
+
+332
+00:58:30.220 --> 00:58:33.709
+Patrik Stas: I was a nice interaction with all of you
+
+333
+00:58:35.080 --> 00:58:37.730
+Patrik Stas: uh that being said, Uh,
+
+334
+00:58:37.830 --> 00:58:43.480
+Patrik Stas: I guess just uh have a nice day Everyone enjoy, and i'll see you next time
+
+335
+00:58:43.860 --> 00:58:45.940
+George Mulhearn: Share you, too. See you.
+
+336
+00:58:46.350 --> 00:58:49.679
+paulo: You, too,
+

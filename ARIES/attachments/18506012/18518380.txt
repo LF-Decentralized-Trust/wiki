@@ -1,0 +1,1286 @@
+WEBVTT
+
+1
+00:00:03.250 --> 00:00:05.420
+Sam Curren (TelegramSam): Morning, folks. This is the
+
+2
+00:00:05.930 --> 00:00:14.109
+Sam Curren (TelegramSam): fifth of July, or he's working group call We have some good stuff coming up and some
+
+3
+00:00:14.180 --> 00:00:15.469
+Sam Curren (TelegramSam): progress to make.
+
+4
+00:00:15.850 --> 00:00:22.150
+Sam Curren (TelegramSam): this is a hyper ledger call, and so the ant-dress policy and code of conduct are in effect
+
+5
+00:00:22.180 --> 00:00:24.009
+Sam Curren (TelegramSam): links here in the agenda
+
+6
+00:00:24.020 --> 00:00:26.920
+Sam Curren (TelegramSam): agenda link in the meeting
+
+7
+00:00:27.870 --> 00:00:28.880
+Sam Curren (TelegramSam): chat.
+
+8
+00:00:29.490 --> 00:00:34.920
+Sam Curren (TelegramSam): You are welcome to add yourself to the attendees list, or make any other changes that would be useful to the group.
+
+9
+00:00:35.530 --> 00:00:39.149
+Sam Curren (TelegramSam): Is there anyone in new here today that would like to introduce themselves?
+
+10
+00:00:46.190 --> 00:00:49.100
+Sam Curren (TelegramSam): Glad to see so many returning regulars?
+
+11
+00:00:49.460 --> 00:01:00.529
+Sam Curren (TelegramSam):  We have still on the announcements list. But I have also, down later in the agenda, the the marketing working group. Maybe I'll just leave that down for a report
+
+12
+00:01:00.590 --> 00:01:04.700
+Sam Curren (TelegramSam): further down below. Are there any analysis that should be on our list? But or not.
+
+13
+00:01:10.480 --> 00:01:15.179
+Sam Curren (TelegramSam): all right. Any projects want to share some release status or work updates.
+
+14
+00:01:15.670 --> 00:01:29.050
+Stephen Curran: Yeah, back by 0 8 2 was released so released last Friday. I believe it was Thursday or Friday, and I'll be available. We're also about to merge
+
+15
+00:01:29.230 --> 00:01:39.140
+Stephen Curran: the dropping of python 3, 6. So that will be the next release. it's just complete.
+
+16
+00:01:39.290 --> 00:01:48.340
+Stephen Curran: it's literally right now, and we'll be merged as soon as the test complete, and we'll have dropped three-six from a
+
+17
+00:01:49.530 --> 00:01:53.810
+Sam Curren (TelegramSam): awesome any progress on the Github actions. Weirdness that you reported last week.
+
+18
+00:01:54.400 --> 00:02:00.020
+Stephen Curran: Yeah, that can be removed. that was that was solved.
+
+19
+00:02:00.060 --> 00:02:09.820
+Stephen Curran: it was a resource issue, and some and and some rules around python that
+
+20
+00:02:09.940 --> 00:02:21.849
+Stephen Curran: basically, it was essentially the matter of parallelism. A lot auto it defaulted to, and we needed more parallelism in the Github actions in order to run them.
+
+21
+00:02:22.800 --> 00:02:26.710
+Sam Curren (TelegramSam): So what did you add more parallelism, or reduce the need for it? What was the answer? There?
+
+22
+00:02:26.750 --> 00:02:47.310
+Stephen Curran: Add more change the ball we were writing it. Default to the number of threats I think it was. I'm not sure the right term in this case, but anyway, the number of threats and it needed more than the default. So it figures out the number. Of course you had, as you know, doubles it and adds to, or something like that. It needed more than that.
+
+23
+00:02:47.320 --> 00:02:50.220
+Stephen Curran: the particular run we were trying to do.
+
+24
+00:02:51.020 --> 00:02:51.870
+Sam Curren (TelegramSam): Cool.
+
+25
+00:02:52.620 --> 00:02:58.260
+Sam Curren (TelegramSam): Yeah, that that is good to understand. cool.
+
+26
+00:02:59.610 --> 00:03:01.230
+Sam Curren (TelegramSam): excellent.
+
+27
+00:03:01.470 --> 00:03:03.670
+Sam Curren (TelegramSam): Other projects want to share updates.
+
+28
+00:03:09.990 --> 00:03:12.180
+Sam Curren (TelegramSam): Awesome thanks for all the good work out there.
+
+29
+00:03:12.270 --> 00:03:15.640
+Sam Curren (TelegramSam): today. I
+
+30
+00:03:16.190 --> 00:03:38.399
+Sam Curren (TelegramSam): checking with the Aries marketing group and and and and what's going on there. I. The main topic that I'd love to discuss today is is how we that this is just the notes I I pulled from last week. But given the work that's been done. I I feel a sense of urgency around this and I I I want to talk about the potential for
+
+31
+00:03:38.860 --> 00:03:44.760
+Sam Curren (TelegramSam): a community coordinate a coordinated update in what those date targets might actually be to get this done.
+
+32
+00:03:44.780 --> 00:04:03.179
+Sam Curren (TelegramSam): and so I'm grateful for the work that's brought us to the point where we're gonna have this conversation. I'd love to have that. And then and then we will definitely have time for some open discussion today. I was trying to not overpack the schedule. We've had a lot going on and a lot of great progress. Thank you, Stephen, last week for for handling the meeting while I was out.
+
+33
+00:04:03.220 --> 00:04:15.970
+Sam Curren (TelegramSam): but I wanted to just make sure that we had time to sort of bring up any topics that we needed to discuss as a as a group. so we could make sure those got those got discussed. any changes or additions or
+
+34
+00:04:16.209 --> 00:04:18.699
+Sam Curren (TelegramSam): modifications. The agenda before we get going?
+
+35
+00:04:24.580 --> 00:04:28.420
+Sam Curren (TelegramSam): All right. Helen or Alex any? Oh.
+
+36
+00:04:28.430 --> 00:04:47.459
+Clecio Varjao:  I I think it's worth mentioned that from from a by phone side we're introducing a little bit of what I'm been calling ephemeral or temporary connection to address. your code density, and that is encompass around. Go codes. And if we have time we can talk a little bit about that.
+
+37
+00:04:50.100 --> 00:05:01.760
+Sam Curren (TelegramSam): Yes, that's an excellent discussion.  okay.
+
+38
+00:05:04.620 --> 00:05:08.279
+Sam Curren (TelegramSam): excellent Helen or Alex. Any updates that you want to share.
+
+39
+00:05:08.630 --> 00:05:11.599
+Alex Metcalf: Yeah, 3 s. There'll be a survey this week.
+
+40
+00:05:11.630 --> 00:05:24.709
+Alex Metcalf: We'll send it out, please respond. We're gonna try and promote it with a blog post for hyper ledger. So look out for that. We'll also put the link in next week's We'll put in this in this meeting notes as well when it's there retrospectively, we'll put in for next week as well
+
+41
+00:05:25.350 --> 00:05:36.349
+Alex Metcalf: perfect. So this I I couldn't tell if it if you had already updated the service from last week. I didn't know if there was going to be a survey last week. And now this one, anyway, either way. No, we we got we got attacked by start days. But yeah, it's out this week.
+
+42
+00:05:36.520 --> 00:05:47.610
+Sam Curren (TelegramSam): Perfect. yes. Oh, by the way, a happy Canada Day and Fourth of July or insurrection day, if you're from England. so we've had a bunch of holidays the first part of this. So.
+
+43
+00:05:47.830 --> 00:06:01.010
+Helen Garneau: I'll also just say that we are we? The marketing meeting will be the last Tuesday of every month, and it is in the group, Sio, like people should be getting it.
+
+44
+00:06:01.010 --> 00:06:25.449
+Helen Garneau: You should see a pop up. But please forward that to anybody in your organization and your you know your team that might be interested in contributing to the the work we're doing there. We should have some great new descriptions, and you know, boilerplates and tag lines and all kinds that we're working all kinds of fun stuff. So if you have an opinion about those things, we would love to have you
+
+45
+00:06:26.970 --> 00:06:29.269
+Sam Curren (TelegramSam): excellent, and thank you for the work that you're doing there.
+
+46
+00:06:30.640 --> 00:06:37.920
+Sam Curren (TelegramSam): Okay, we will look an eye out, and I will keep an eye out for a survey so that we can better understand stuff. And and and looking forward to that.
+
+47
+00:06:38.630 --> 00:07:03.009
+Sam Curren (TelegramSam):  okay, so we've got Steven, you covered this last week and and I haven't had a chance to dive in to see what other progress we've actually had. But but we we are very near the did pier 3, which is, of course, the the the smaller version of of a did peer 2 when it that's already been established.
+
+48
+00:07:03.010 --> 00:07:15.389
+Sam Curren (TelegramSam): And then we have this the this legacy did. transformation, doc. That was written up by Timo. to talk about. how to make this actually happen.
+
+49
+00:07:15.770 --> 00:07:18.059
+Sam Curren (TelegramSam): and so
+
+50
+00:07:19.380 --> 00:07:29.489
+Sam Curren (TelegramSam): that's that's kind of the the issue here. we. There's some open questions here. Do we want to have support. The the did come v. One, and entries
+
+51
+00:07:29.970 --> 00:07:36.520
+Sam Curren (TelegramSam): and and some of these other other things. How do we transform this?
+
+52
+00:07:36.840 --> 00:07:43.679
+Sam Curren (TelegramSam): Figuring out some of these things would be fantastic so that we can move forward and actually pick target dates that we plan to implement these by
+
+53
+00:07:45.870 --> 00:07:52.210
+Sam Curren (TelegramSam): so here's the here. If if people haven't seen this, this would be super important to take a review of
+
+54
+00:07:52.320 --> 00:08:02.030
+Sam Curren (TelegramSam): and I know it was in the. It was linked in the meeting last week. and and this is the the the transformation into it. Did pier 2.
+
+55
+00:08:02.030 --> 00:08:27.990
+Sam Curren (TelegramSam): that can then that can then make this happen. and so here's the steps to go through and kind of make this happen. It's a transformation. So they should be a a a deterministic thing you. You stick in the information. You get the same thing at every time. that allows it to be done by both parties. so that so that any sort of legacy did in use can be updated and in referred to by the by, the new values there.
+
+56
+00:08:28.220 --> 00:08:34.520
+Sam Curren (TelegramSam): And so this is a good candidate because of the of the interaction on on multiple sides for a community coordinated update
+
+57
+00:08:34.659 --> 00:08:49.789
+Sam Curren (TelegramSam): and this is a process we've done several times before when there does has we do have something that is important enough to to coordinate the deployment of. And so in this case there are phases to that, and the first one is to accept the new
+
+58
+00:08:49.810 --> 00:09:18.969
+Sam Curren (TelegramSam): but default to the old, and then we, and then we default to the new, also accepting the old. And then the last phase, of course, is to is to fully deprecate the old, and and we just all use the new going forward. and so this is something that is necessary to happen for a a wide variety of reasons not not including, but not limited to moving to did company to where there's those legacy did, we will not, have a way to function anymore. And so giving them a, a, a path forward
+
+59
+00:09:18.970 --> 00:09:22.990
+Sam Curren (TelegramSam): to a format that will make it work. It's pretty important for moving that forward.
+
+60
+00:09:23.590 --> 00:09:27.919
+Sam Curren (TelegramSam): any comments or questions specifically about the the current state of
+
+61
+00:09:27.980 --> 00:09:30.079
+Sam Curren (TelegramSam): of this migration
+
+62
+00:09:50.420 --> 00:09:54.470
+Stephen Curran: did the 2 or 3 changes get made?
+
+63
+00:09:56.000 --> 00:09:57.949
+Sam Curren (TelegramSam): It's a darn good question.
+
+64
+00:10:00.230 --> 00:10:04.920
+Stephen Curran: Let's look at yeah. So check the pull requests.
+
+65
+00:10:09.330 --> 00:10:11.750
+Stephen Curran: Yeah, that's that's a super old one.
+
+66
+00:10:12.320 --> 00:10:13.150
+Stephen Curran: Yeah.
+
+67
+00:10:13.260 --> 00:10:20.589
+Stephen Curran: So Daniel blooms. We need to get a for sure. We need to get an issue in for Daniel's comments.
+
+68
+00:10:22.640 --> 00:10:24.190
+Sam Curren (TelegramSam): A Pr. In, you mean.
+
+69
+00:10:24.520 --> 00:10:25.920
+Stephen Curran: for for the
+
+70
+00:10:27.980 --> 00:10:32.839
+Sam Curren (TelegramSam): we do. So that's definitely something we need to have happen.
+
+71
+00:10:38.380 --> 00:10:40.529
+Sam Curren (TelegramSam): I'll go ahead and drive that forward.
+
+72
+00:10:41.830 --> 00:10:53.789
+Stephen Curran:  yeah, I I could. I I just don't know. Well, like how to describe. I never understand the multi baseball Quebec that had it to describe it, so I didn't get it in.
+
+73
+00:10:54.010 --> 00:11:03.529
+Stephen Curran: The changes are pretty pretty small, and then we do have to look at the other one to see why that example doesn't work.
+
+74
+00:11:04.830 --> 00:11:05.610
+Sam Curren (TelegramSam): Okay?
+
+75
+00:11:06.890 --> 00:11:09.310
+Sam Curren (TelegramSam): we can.
+
+76
+00:11:09.680 --> 00:11:18.560
+Sam Curren (TelegramSam): I don't see Alex here today. but but we can also submit other Pr's in order to make this happen. So
+
+77
+00:11:18.930 --> 00:11:22.789
+Stephen Curran: yeah, anyone can. All Alex's has already been merged.
+
+78
+00:11:23.620 --> 00:11:29.140
+Sam Curren (TelegramSam): Yeah, yeah, for sure. Which means it's easy to. And it was, submitted. Pr, I'll go ahead and drive that one
+
+79
+00:11:30.610 --> 00:11:33.610
+Sam Curren (TelegramSam): to to make that occur, and to make sure that occurs this week.
+
+80
+00:11:35.970 --> 00:11:38.920
+Sam Curren (TelegramSam):  so
+
+81
+00:11:40.220 --> 00:11:47.979
+Sam Curren (TelegramSam): there is this code as well or the this document as that that's been described.
+
+82
+00:11:48.040 --> 00:11:56.859
+Sam Curren (TelegramSam):  we. There's a couple things that need to happen. One of the things that we should probably do is is throw it into a A
+
+83
+00:11:57.040 --> 00:12:10.830
+Sam Curren (TelegramSam): and Aries, Rfc. This independent of debate about where things ought to go. This is distinctly an Ares problem in the sense that this this is a as sort of an area's historical thing. And so I think it very
+
+84
+00:12:10.900 --> 00:12:29.939
+Sam Curren (TelegramSam): perfectly lenses and areas. Rfc, which means that the. The. Upon verification of this, we we would need to to get that in there so that we can link to it. And then, of course, the the creation of a community coordinate update rfc, that the references, the process but also set some target dates.
+
+85
+00:12:30.400 --> 00:12:49.519
+Sam Curren (TelegramSam):  and so there is code we within that does this. So there's actually some reference. and then we've got test vectors as well. to to make that happen. and to to to make that work. So there's also the code here
+
+86
+00:12:49.700 --> 00:12:56.000
+Sam Curren (TelegramSam): to actually perform the the translation, you know, right within the documentation here, which is pretty fantastic.
+
+87
+00:12:56.100 --> 00:13:08.220
+Sam Curren (TelegramSam): and so, if you haven't looked at this, this is critical to look at. If you are. If your code uses a legacy dids in any form, then then we want to make sure that we understand this process, and it's going to be a smooth transition.
+
+88
+00:13:08.630 --> 00:13:26.070
+Sam Curren (TelegramSam):  So one of the other open questions that I have. And, Stephen you raised this last week was Well, you you mentioned it. You may not have asked the question. Timo's document describes the transition to to did Co. Or to did peer to
+
+89
+00:13:26.470 --> 00:13:35.879
+Sam Curren (TelegramSam): did. Pier 3 is a more compact form of of it did Pier 2 did when it's known to both parties.
+
+90
+00:13:35.980 --> 00:13:53.359
+Sam Curren (TelegramSam): And so the question is, do we include in the community cordon and coordinated. Update a a transition all the way to. Did peer 3 for those existing connections, since they will be, or do we leave it to? Just? Did pier 2, and and not include the move to? Did pier 3.
+
+91
+00:13:54.690 --> 00:14:01.420
+Stephen Curran: I I think we should go to, for sure. I mean the the the reason we have
+
+92
+00:14:02.590 --> 00:14:06.889
+Stephen Curran: we already have. It's changed. It did. We've already transmitted the did Doc?
+
+93
+00:14:07.580 --> 00:14:12.109
+Stephen Curran: so it seems odd to transmit it over and over
+
+94
+00:14:12.850 --> 00:14:17.039
+Stephen Curran: the did period of that period. 2 should only be
+
+95
+00:14:17.450 --> 00:14:21.839
+Stephen Curran: to enable the calculation of the 3 to me.
+
+96
+00:14:22.010 --> 00:14:40.339
+Sam Curren (TelegramSam): Right for sure, I I don't argue with the advantages of Did peer 3 at all. The only question I had was about the the burden of doing so, the benefited involving in a community cord up to coordinated update as we all get to did pier 3 faster. The downside is that it could take a little bit longer, just because of the additional stuff to implement
+
+97
+00:14:40.750 --> 00:14:43.000
+Stephen Curran: the stop being
+
+98
+00:14:43.190 --> 00:14:57.009
+Stephen Curran: once you have it, it was single and don't even ever, and then throw the did pier 2 away. It's it's just another step in the in the algorithm, right
+
+99
+00:14:58.400 --> 00:15:04.630
+Sam Curren (TelegramSam): in in the sense that there's more code to write. If you're going to to did period 3 instead of just the transition.
+
+100
+00:15:04.870 --> 00:15:07.380
+Stephen Curran: I would think that would be one line code
+
+101
+00:15:09.120 --> 00:15:11.510
+Sam Curren (TelegramSam): to make the transition between 2 and 3.
+
+102
+00:15:12.720 --> 00:15:18.280
+Stephen Curran: We know what you do is you take. You know what you have in here, too. You just do a single
+
+103
+00:15:18.410 --> 00:15:30.090
+Sam Curren (TelegramSam): what amounts to a translation. You get it did pier 3, and you just my. My only point is, you have to write that translation and test it and make sure it's working correctly and everything else, is it it? Is it a little bit of additional code writing burden to make that happen?
+
+104
+00:15:31.150 --> 00:15:42.919
+Sam Curren (TelegramSam): I mean, the good news of doing it is that we all get to did pier 3, which is efficient. And so that might be nice to bundle together. But I was curious if anyone was nervous about including that just because of the code burden.
+
+105
+00:15:43.280 --> 00:15:50.259
+Sam Curren (TelegramSam): don't think anyone's arguing the the advantages present by by making that change. Just the effort involved
+
+106
+00:15:57.450 --> 00:15:59.340
+Sam Curren (TelegramSam): any comments or thoughts there.
+
+107
+00:16:09.220 --> 00:16:14.990
+Sam Curren (TelegramSam): Okay, I don't hear any objections. I'll go and write the community coordinated. Update with a move to did pier 3,
+
+108
+00:16:15.120 --> 00:16:34.780
+Sam Curren (TelegramSam): and included in that process. And and that gets us there. It's not a hard move but there, there is some there's a you know, some code to, and some implications of of of of storage and everything else. it also means that if you're going to support, did Pier 3, we need to make sure that we, you know, handle the the other aspects of of that. So so very cool.
+
+109
+00:16:35.400 --> 00:16:46.900
+Sam Curren (TelegramSam): Here's the question. at what point are we seeking to have this fully adopted. What? What timeline do we think we can? dedicate to to this move as a community?
+
+110
+00:16:56.920 --> 00:17:06.649
+Sam Curren (TelegramSam): I think I I certainly feel a sense of urgency around this, as it's something that that is a a sort of a weird historical piece that we just need to lose.
+
+111
+00:17:06.720 --> 00:17:12.680
+Sam Curren (TelegramSam): will ease any future work, or collaborations, or integrations, or anything else, because of of eliminating that weirdness.
+
+112
+00:17:16.480 --> 00:17:18.819
+Sam Curren (TelegramSam): So here we are in July
+
+113
+00:17:19.880 --> 00:17:24.869
+Sam Curren (TelegramSam): we are halfway through the year. How how fast
+
+114
+00:17:25.140 --> 00:17:31.989
+Sam Curren (TelegramSam): for for those of us maintaining code bases? Do you think we can make this change and have it deployed?
+
+115
+00:17:34.990 --> 00:17:36.729
+Sam Curren (TelegramSam): Just kind of rough timeline.
+
+116
+00:17:39.840 --> 00:17:42.180
+Sam Curren (TelegramSam): We do it in 3 weeks.
+
+117
+00:17:44.470 --> 00:17:46.279
+Sam Curren (TelegramSam): That's really, really fast.
+
+118
+00:17:47.600 --> 00:17:49.070
+Clecio Varjao: Oh, I'm just
+
+119
+00:17:49.340 --> 00:17:53.099
+Stephen Curran: we're working on it now. I'm just not sure how long it's gonna take.
+
+120
+00:17:54.900 --> 00:17:58.519
+Stephen Curran: Oh, so weeks. But I don't know
+
+121
+00:17:59.360 --> 00:18:10.270
+Clecio Varjao: for for those of the. So again, we're maintaining of by phone, and we rely on a Fj. I don't see team, or is anybody on Fj. On the line?
+
+122
+00:18:11.860 --> 00:18:20.279
+Ariel Gentile: Well, yes, it's me, but I'm not sure how much time it will take. But yeah, probably probably we can. We can do it in.
+
+123
+00:18:20.690 --> 00:18:22.019
+Ariel Gentile: I will say, in a month.
+
+124
+00:18:22.170 --> 00:18:27.769
+Clecio Varjao: Yeah, I would say, I would say a month. It's probably reasonable, because again, some
+
+125
+00:18:28.490 --> 00:18:31.799
+Clecio Varjao: some projects already have their own priority established.
+
+126
+00:18:33.170 --> 00:18:40.869
+Clecio Varjao: And what does it mean for the project? are we talking?
+
+127
+00:18:42.750 --> 00:18:58.300
+Sam Curren (TelegramSam): And I mean, ever maintain code base so that would. there, there may be some trickle up effects to by fold, although that relies upon a so hopefully there's shared benefit there. and then any other projects that want to remain compatible there.
+
+128
+00:18:59.060 --> 00:19:02.259
+Sam Curren (TelegramSam): I think would be important. So
+
+129
+00:19:02.800 --> 00:19:13.079
+Clecio Varjao:  okay, I can't speak to those. But I I think. as a aerial says about a month for Fj Slash by phone.
+
+130
+00:19:13.430 --> 00:19:16.310
+Clecio Varjao: I'm not sure. Stephen.
+
+131
+00:19:16.860 --> 00:19:24.870
+Ariel Gentile: Yeah, I I I I will. I will make sure of talking about this, you know, on tomorrow tomorrow's meeting. Maybe if she so
+
+132
+00:19:24.990 --> 00:19:27.620
+Ariel Gentile: we can, we can work on it as soon as possible.
+
+133
+00:19:27.750 --> 00:19:30.239
+Sam Curren (TelegramSam): given the pioneering effort by
+
+134
+00:19:30.400 --> 00:19:34.789
+Sam Curren (TelegramSam): Timo, and I think there's already existing code in Afgh for this. I think
+
+135
+00:19:34.850 --> 00:19:36.660
+Sam Curren (TelegramSam): there's a decent chance. It will
+
+136
+00:19:36.900 --> 00:19:42.010
+Sam Curren (TelegramSam): be fast for the Fj community, but that we can certainly hear back.
+
+137
+00:19:42.580 --> 00:19:55.270
+Sam Curren (TelegramSam): That's excellent. I would. So what I'll go ahead and do given that is that I'll I'll go ahead and attempt. We also have summertime and vacations and a handful of other things kind of creeping in here. So what let's do is I'll I'll go ahead and write a community coordinated. Update
+
+138
+00:19:55.420 --> 00:19:56.720
+Sam Curren (TelegramSam): that.
+
+139
+00:19:57.240 --> 00:20:13.229
+Sam Curren (TelegramSam): that proposes some timing. That's that that. So all you know in line with with those with those goals? and then we, of course, can, you know, argue about the the dates and the details? you know, against that? Pr specifically. So we'll go and make that happen.
+
+140
+00:20:14.000 --> 00:20:35.899
+Sam Curren (TelegramSam): okay, cool. So we're aiming for did pier 3 and the the timing you know, we're talking about about a month. and that's and that's that's great. I I'm really hoping this doesn't take us like a you know, 6 or 8 months to pull off. I'd rather this happen much much sooner, and and we can make that all go away. which is fantastic. So
+
+141
+00:20:36.490 --> 00:20:46.230
+Sam Curren (TelegramSam): we you know, making progress in these areas will be really will be really cool. Anything else about the unqualified did migration that we need to talk about today?
+
+142
+00:20:54.540 --> 00:21:07.010
+Sam Curren (TelegramSam): Awesome. We're pour back next week with some with some stuff to talk about and evaluate and and and make some changes to in that way we can. We can move those things forward in a in a concrete way. So that's awesome.
+
+143
+00:21:07.510 --> 00:21:16.610
+Sam Curren (TelegramSam): cool. With that goal codes cluster! Do you want to give us an intro to the topic. Yeah, do you need to screen share? Or
+
+144
+00:21:17.000 --> 00:21:20.319
+Clecio Varjao: no, it's fine. So
+
+145
+00:21:20.410 --> 00:21:32.240
+Clecio Varjao: we're gonna talk a little bit about go code. there's 2 use case for us that we are gonna be starting, exploring, leveraging more efficiently. Maybe let's start with that one scanning flow that you have open there.
+
+146
+00:21:32.360 --> 00:21:40.430
+Clecio Varjao: right now, when by phone, we have introduced we're currently operating this in the concept that that
+
+147
+00:21:40.630 --> 00:21:47.270
+Clecio Varjao: when one scan the cure code. We're either waiting for a credential offer or approved request.
+
+148
+00:21:47.300 --> 00:22:00.400
+Clecio Varjao: And and the app just sits there waiting for one of those things things to happen which make created some confusion in the committee around messaging. How do we wanna just connect for the sake of connecting
+
+149
+00:22:01.050 --> 00:22:19.309
+Clecio Varjao: So we're prop, we're making some changes on the scanning flow. And we're going to be leveraging the go codes for providing a to providing a good user user interface from from a user experience, from our from our user research. And our is a feedback
+
+150
+00:22:19.330 --> 00:22:31.879
+Clecio Varjao: our user experience that they can indicate code and and the flow to be like one transaction all the way to the point where the authenticating trust system or something, or they prove something.
+
+151
+00:22:32.510 --> 00:22:49.520
+Clecio Varjao: Either they receive something or they approve. they prove something. the new flow is gonna be around. The first question is, if that connection is connectionless. if it's connectionless. we're gonna assume that is for a proof request.
+
+152
+00:22:49.620 --> 00:22:55.049
+Clecio Varjao: and we're gonna go through. Wait for the proof request to arrive, and which will be
+
+153
+00:22:55.240 --> 00:23:05.920
+Clecio Varjao: again almost instantaneously. and then open the proof, request screen for the user to to verify and then approve and accept share that proof request.
+
+154
+00:23:06.010 --> 00:23:21.359
+Clecio Varjao: If it's not connectionless. If it's a connected connect for flow. then wait for that connection to be ready to be in the state, ready and fully established. And then we look for the go code of that initial connection to invite
+
+155
+00:23:21.370 --> 00:23:39.720
+Clecio Varjao: If there is no. The the first step is that if there is no go code, it's gonna go through the contact details screen. Which means that it's kind of the chat, the chat message. So it's just gonna open the to that chat item, and the user would then have an option to Start a conversation started chatting there.
+
+156
+00:23:40.370 --> 00:23:57.989
+Clecio Varjao: or if if the be sure that the the other party sure slash, for if I didn't provide any go code, it's gonna go to that contact details screen. And the user will see if a credential offer or proof request arrives there. In addition to the notification, the part of it.
+
+157
+00:23:59.060 --> 00:24:12.810
+Clecio Varjao: If there is a go code provided, then. there's 2 options. One is a go code, provide for credential offer. and in that case it will again wait for a credential offer to arrive.
+
+158
+00:24:12.900 --> 00:24:24.220
+Clecio Varjao: go through, open that credential offer, and then wait for the whole flow of share, accepting that credential offer. and then it gonna go to the credential list up to the end.
+
+159
+00:24:24.370 --> 00:24:40.759
+Clecio Varjao: and then the last one is, if there is a go code, and that code is related to proof request or a verifier. again, this is not the real go code. It's just a pseudocode. Then we're going to wait for the proof request and then open that same proof request screen.
+
+160
+00:24:42.210 --> 00:24:51.590
+Clecio Varjao: So that's a that is a new scanning flow that we're proposing. It was just in just to see if there is any feedback from the community around this flow.
+
+161
+00:24:53.140 --> 00:24:56.029
+Clecio Varjao: you know. Pause here for a moment.
+
+162
+00:25:01.960 --> 00:25:06.459
+Sam Curren (TelegramSam): so I have a question which is not immediately relevant. But what will become so
+
+163
+00:25:06.800 --> 00:25:09.700
+Clecio Varjao: okay, in did come v. 2.
+
+164
+00:25:09.900 --> 00:25:14.469
+Sam Curren (TelegramSam): There's no difference between like a connectionless and a connected
+
+165
+00:25:15.950 --> 00:25:21.380
+Clecio Varjao: and I'm kind of curious how you anticipate modifying that as that arrives well.
+
+166
+00:25:21.510 --> 00:25:30.119
+Clecio Varjao: I'm hoping that in a discount, v. 2, in the future we're going to be leveraging. Go code more broadly. And therefore did that.
+
+167
+00:25:30.890 --> 00:25:35.130
+Clecio Varjao: That question about this connection is, it's gonna not going to be needed.
+
+168
+00:25:35.990 --> 00:25:44.539
+Clecio Varjao: So the scanning from the QR code. And it did come. V, 2 scenario, we'll go right to the goal code. Evaluation. Correct? Yeah, yeah, cool.
+
+169
+00:25:47.560 --> 00:25:49.330
+Sam Curren (TelegramSam): I I I like that.
+
+170
+00:25:50.120 --> 00:26:16.379
+Stephen Curran: So one is presumably as multiple, more, more goal codes are provided. This expands out to do other things, including one that says there should be a goal code about opening, you know, just establishing a connection and nothing else. So there should be, I think, a no or a specific goal code for that last brand.
+
+171
+00:26:16.900 --> 00:26:21.830
+Stephen Curran: Because I think I've already been asked to.
+
+172
+00:26:22.180 --> 00:26:28.379
+Stephen Curran: you know, can we add this full code as the way to go to do nothing except establish a connection?
+
+173
+00:26:32.540 --> 00:26:33.730
+Stephen Curran: Does that make sense
+
+174
+00:26:34.030 --> 00:26:35.350
+Sam Curren (TelegramSam): it totally.
+
+175
+00:26:35.780 --> 00:26:37.089
+Sam Curren (TelegramSam): It doesn't me. Anyway.
+
+176
+00:26:37.160 --> 00:26:43.319
+Clecio Varjao: I think it makes sense from the protocol perspective. I mean, just from what is the user experience perspective. I'm like.
+
+177
+00:26:45.050 --> 00:26:54.439
+Clecio Varjao: So we're connecting. We're creating that connection. Does. The user needs to know about that at all. Or it's a completely hidden thing. And why is it hidden?
+
+178
+00:26:54.920 --> 00:27:01.670
+Stephen Curran: It? It. It wouldn't be hidden, it would be, hey, I it's just that. Once a
+
+179
+00:27:02.870 --> 00:27:10.540
+Stephen Curran: once call codes are in normal use they will be used every time, and one of them will be to say, Hey, all I'm doing is starting a connection.
+
+180
+00:27:11.360 --> 00:27:30.899
+Stephen Curran: So are we saying that it would go? I go, code for that no evaluation there, or is, are you suggesting another branch? A. A, both actually. First of all, I will be a goal code for for that. No branch. But over time more goal codes will be added.
+
+181
+00:27:32.480 --> 00:27:38.249
+Clecio Varjao: Yeah, and that's fine. just so for this new one.
+
+182
+00:27:38.370 --> 00:27:48.389
+Clecio Varjao: What it? What is the user experience? Do we? We scan a QR code. We're sitting that waiting for that connection to be ready established once it's ready. What do we do about it?
+
+183
+00:27:51.300 --> 00:27:53.720
+Stephen Curran:  it.
+
+184
+00:27:53.870 --> 00:28:09.390
+Stephen Curran: whatever the goal code is intended to do. So I I think somebody said, we wanna yeah, a goal code for relationship. Oh, yeah, we put in one for a relationship established relationship.
+
+185
+00:28:09.780 --> 00:28:19.099
+Clecio Varjao: Yeah, that'll take to the contact details screen. But again, I think we can talk a little bit more. Those are the 3
+
+186
+00:28:19.130 --> 00:28:30.159
+Clecio Varjao: options that that we deal with right now. And I think you're right that this will evolve over time, and I'm just not sure how to document from the Rfc perspective.
+
+187
+00:28:30.540 --> 00:28:32.010
+Clecio Varjao: Yeah.
+
+188
+00:28:32.480 --> 00:28:44.560
+Stephen Curran: what I'm saying is, I think there is one already for the for the no option, so that should be included there. And and yes, I'm just saying you don't have to document it. But there will be more added in the future.
+
+189
+00:28:44.860 --> 00:28:49.719
+Clecio Varjao: Yeah, presumably. Yes, it will. It will be. Add more. That's what we're we're starting with.
+
+190
+00:28:50.640 --> 00:28:58.100
+Clecio Varjao:  One other comment. If I could just for clarification or about did come to Sam.
+
+191
+00:28:58.120 --> 00:29:08.989
+Stephen Curran: we talked to a bunch about that about how they come to improve things. But actually, the way we use connectionless in currently is to do a proof request. We do a proof request
+
+192
+00:29:09.630 --> 00:29:11.380
+Stephen Curran: as a connection list.
+
+193
+00:29:12.750 --> 00:29:14.810
+Stephen Curran: the
+
+194
+00:29:16.500 --> 00:29:21.659
+Stephen Curran: training factor in many use cases is that the connection when you are code
+
+195
+00:29:23.760 --> 00:29:26.329
+Stephen Curran: and even in did come to
+
+196
+00:29:26.800 --> 00:29:39.519
+Stephen Curran: the proof. Request is too large to fit in. So you still have to establish and do the presentation request, using a connection, and then and then delete the connection if you want it to be ephemeral
+
+197
+00:29:40.190 --> 00:29:43.569
+Stephen Curran: so deep. Co. 2 doesn't buy you
+
+198
+00:29:43.760 --> 00:29:47.310
+Stephen Curran:  by you. What? What?
+
+199
+00:29:47.420 --> 00:29:49.640
+Stephen Curran: What? We thought it would get us.
+
+200
+00:29:49.980 --> 00:29:52.470
+Sam Curren (TelegramSam): Well. So there's a couple of things.
+
+201
+00:29:52.550 --> 00:29:57.969
+Clecio Varjao: Okay. So sorry. That'll be the next topic about the cure code density. I think you were talking about.
+
+202
+00:29:58.750 --> 00:30:23.280
+Clecio Varjao: Let I just finish this scanning flow. I guess if you have a question, this is only for the first interaction and the first one operation it doesn't. It doesn't encompass a sequence of operation. although, as Steven suggested, I think one of those operations could be the execution of action menu, they would kind of a drive through a sequence of operations.
+
+203
+00:30:23.280 --> 00:30:31.289
+Clecio Varjao: but this is just for one operation, either accepting a credential. Do you credential offer? A proof request or just connect.
+
+204
+00:30:32.540 --> 00:30:40.420
+amanji: Yeah, no, I think that's why I put whale slash can. After I ask that question.
+
+205
+00:30:40.970 --> 00:30:44.659
+Stephen Curran: I I would add, and and I didn't realize this, but
+
+206
+00:30:44.870 --> 00:30:52.290
+Stephen Curran: because I don't know when this got put in. But it's kind of interesting. there is goal code that added to threads.
+
+207
+00:30:52.340 --> 00:31:00.649
+Stephen Curran: So the thread decorator has has a for goal codes. I I doubt anyone is supporting it, but it's an interesting option.
+
+208
+00:31:00.900 --> 00:31:03.390
+Stephen Curran: because it does allow you to
+
+209
+00:31:04.040 --> 00:31:13.379
+Clecio Varjao: sequence things along. Oh, I'm I've finished this thread. But now I can add another global. I I don't know. I just so that it just so people are aware that it
+
+210
+00:31:14.520 --> 00:31:26.030
+Clecio Varjao: yeah, from us, from the wallets perspective, we need to manage the expectation or guide the user from the skinny of a QR code perspective.
+
+211
+00:31:26.230 --> 00:31:39.279
+Clecio Varjao: I don't know if the having a thread there it helps right now. But as our users again, the skinny of the cure code is the signal that something is about to happen. We just need to guide our users through that something.
+
+212
+00:31:39.450 --> 00:31:40.840
+Stephen Curran: Yeah, yeah.
+
+213
+00:31:42.540 --> 00:31:47.720
+Clecio Varjao: I I met that directly in the answer to a a key question about up
+
+214
+00:31:47.780 --> 00:31:49.809
+Stephen Curran: a a tool for sequencing.
+
+215
+00:31:50.220 --> 00:31:52.649
+amanji: Yeah, yeah, that's an interesting concept.
+
+216
+00:31:52.830 --> 00:31:54.660
+Stephen Curran: And I just wanted
+
+217
+00:31:55.910 --> 00:31:56.610
+amanji: alright.
+
+218
+00:31:57.200 --> 00:31:57.980
+Stephen Curran: go ahead.
+
+219
+00:31:58.480 --> 00:32:04.169
+amanji: I was just gonna say, this is a great start for improving the user experience. So I like it.
+
+220
+00:32:08.090 --> 00:32:09.710
+Clecio Varjao: Okay,
+
+221
+00:32:10.030 --> 00:32:18.939
+Clecio Varjao: all right. so coming to you by folks shortly. I guess. The next question then was in relation to the Qur code density.
+
+222
+00:32:19.020 --> 00:32:22.429
+and which we're also leveraging. Go code.
+
+223
+00:32:22.730 --> 00:32:34.190
+Clecio Varjao:  So for us, we're having problems with the readability and and how consistent the care code is being read, and how easily
+
+224
+00:32:34.230 --> 00:32:40.730
+Clecio Varjao: based on the if there is a cure code for a mobile verify feature. For instance, that has a proof request
+
+225
+00:32:40.870 --> 00:32:54.220
+Clecio Varjao: that your code is grows and it gets more and more dense. is relative to whatever the proof request is done. If you combine multiple credentials that your code will get larger and larger.
+
+226
+00:32:54.900 --> 00:33:18.239
+Clecio Varjao: for what we're introducing in by fold is the notion of a temporary or ephemeral connection. which means we do establish a connection we use that go code areas that we see verified dot once to indicate that this is a Pharaoh connection, and upon finishing the transaction both sides automatically discard or delete the connection.
+
+227
+00:33:19.020 --> 00:33:40.889
+Clecio Varjao:  So I scan a keyboard codes. The QR code is more because it it turns more of A is more consistent in size. There is very little variation. So it's relatively, it's not relatively small and consistent, but it there is the variation. when you add a proof request, or maybe multiple proof request
+
+228
+00:33:42.300 --> 00:33:50.140
+Clecio Varjao: But now it adds the the easy to scan, and that consistent consistency reading of that QR code.
+
+229
+00:33:50.470 --> 00:33:55.729
+Clecio Varjao: So the care code now is, it's less dense. it's easier to scan.
+
+230
+00:33:56.580 --> 00:34:03.299
+Clecio Varjao: this is a I don't know. It's a new concept. I don't know if that's included in the account. The
+
+231
+00:34:03.710 --> 00:34:16.560
+Clecio Varjao: 2 or V 3 or one of those. but it's the idea that it's established a connection where both part parties are in the agreement that upon completing a transaction, that that operation.
+
+232
+00:34:16.590 --> 00:34:22.570
+Clecio Varjao: it would, it will not say, keep that connection for a long term. It's only there to facilitate
+
+233
+00:34:22.739 --> 00:34:25.340
+Clecio Varjao: a specific operation.
+
+234
+00:34:25.780 --> 00:34:35.220
+Clecio Varjao: Are you showing this workflow on your screen, because right now we just see the it's my screen that we're showing. But
+
+235
+00:34:36.159 --> 00:34:39.799
+Clecio Varjao: no, there's no I I haven't created a workflow for that one.
+
+236
+00:34:45.320 --> 00:34:50.030
+amanji: So would this fall in line. similarly, to that diagram he showed
+
+237
+00:34:50.880 --> 00:34:52.650
+Clecio Varjao: where I would use a specific
+
+238
+00:34:52.750 --> 00:35:00.599
+Clecio Varjao: right? There's this scanning cure code that your code, for instance, it's it's gonna the the the go code is going to be for verifier.
+
+239
+00:35:00.750 --> 00:35:07.550
+Clecio Varjao: And then the difference is because it ends with Dot. Once it, we automatically delete the connection.
+
+240
+00:35:08.280 --> 00:35:10.040
+amanji: Okay, that's interesting.
+
+241
+00:35:12.420 --> 00:35:17.470
+Sam Curren (TelegramSam): So I love this. This actually has some some applications. So it did come. V, 2,
+
+242
+00:35:17.510 --> 00:35:43.439
+Sam Curren (TelegramSam): has a way to hang up the connection to basically say, like, Yeah, I'm I'm done. And that's done using the did rotation feature to rotate to nothing. This is a nice optimization in the case where you know you're gonna do it being able to signal that sort of a thing upfront for for particular types of flows like this is not inappropriate at all. And we'll actually map really. Well, between both, you know, we're using having that use and did company one, but also did company 2.
+
+243
+00:35:43.550 --> 00:36:01.089
+Sam Curren (TelegramSam):  so I I like that a lot. I think that this is a a a good approach the original connectionless one was designed to reduce the number of messages back and forth. But what if it? When those messages are are efficient? It's not really a harmful thing to have happen. and does open up for
+
+244
+00:36:01.090 --> 00:36:22.929
+Sam Curren (TelegramSam): a wider variety of of cases that can be handled before that connections thrown away. If there happens to be any negotiations, or whatever else or other protocols not Vc. Related that may need several messages back and forth, but then it the, the, the intent to have that not be a permanent, you know. Relationship express in the goal code is a is a useful piece there
+
+245
+00:36:31.480 --> 00:36:32.340
+Clecio Varjao: all right.
+
+246
+00:36:36.640 --> 00:36:46.059
+Clecio Varjao: Yep, And for us we're just going to start with the verifier that once. I don't know if there is any other use cases there, or any any foreseeable in the future. But
+
+247
+00:36:46.180 --> 00:36:55.000
+Clecio Varjao: just looking from the mobile ferry fire point of perspective you start with. It's a use case that we have a on the hand right now
+
+248
+00:36:56.810 --> 00:36:58.199
+Clecio Varjao: it could grow as well.
+
+249
+00:36:58.230 --> 00:37:13.099
+Sam Curren (TelegramSam): Yeah. The other generic concept that I'd love to mention is that if we find as a community that there is a set of verifications that are performed a lot like, you know, where you know, it's more or less a predefined thing.
+
+250
+00:37:13.370 --> 00:37:15.899
+Sam Curren (TelegramSam): Then coming up with
+
+251
+00:37:16.770 --> 00:37:18.759
+Sam Curren (TelegramSam): Coming up with
+
+252
+00:37:19.660 --> 00:37:44.100
+Sam Curren (TelegramSam): a goal code that matches exactly to that specific thing is also not a bad thing for us to do as a community that hasn't quite happened yet. but I but I think could happen in the future, and I just bring it up so that if someone says, Wow, why are we? Why are we going through this dance when like this is a super common thing that, like all the software packages do like. That's a perfect application for a goal code. That is more specific, not just to hey. I want to verify something. But I want to verify something exactly specific.
+
+253
+00:37:44.920 --> 00:37:45.630
+Hmm.
+
+254
+00:37:47.890 --> 00:38:03.359
+Sam Curren (TelegramSam): Janelle has a question within Company 2. It's possible to send a a proof request and create a one-time connection with one QR code. you can. But the size because of the out of band stuff and embedding that into the into the out of band invitation that can get large
+
+255
+00:38:03.630 --> 00:38:12.050
+Sam Curren (TelegramSam): and so there's usually effort to sort of minimize the amount of data that needs to be shoved into a QR code, the the other related comment, there is that it did. Come, be 2.
+
+256
+00:38:12.060 --> 00:38:41.329
+Sam Curren (TelegramSam): There's not really the concept of connection versus connectionless anymore. Meaning you have. You get a connection if you want, with the same amount of effort that it took to get a connectionless one and did cov one. And then the parties can decide when they want the connection to go away. and so you, from really kind of having a long term versus, you know, no connection. you you end up with a situation where that connection can be can exist as long as it's useful and then disappear. So this this dot once
+
+257
+00:38:41.330 --> 00:38:49.979
+Sam Curren (TelegramSam): goal code is a is a cool way. It's sort of signaling like. We intend this to vanish as soon as the exchange is over, which I think is I think it's a cool move.
+
+258
+00:38:50.600 --> 00:38:56.669
+Clecio Varjao: yeah, or or more generic, a more generic, maybe even having. I. I think I've been
+
+259
+00:38:56.870 --> 00:39:02.900
+Clecio Varjao: to to know if they're talking this far, but maybe have a more of a generic and areas like
+
+260
+00:39:03.230 --> 00:39:08.070
+Clecio Varjao: connection that ephemeral or forget, or something more generic as a go code.
+
+261
+00:39:08.150 --> 00:39:13.710
+Clecio Varjao: But the only thing missing is, if there is a we need to know what signal
+
+262
+00:39:13.730 --> 00:39:17.150
+Clecio Varjao: when it operation or transaction is done.
+
+263
+00:39:18.060 --> 00:39:28.329
+Clecio Varjao: So both parties are in agreement that it's either one operation or a sequence of operations. There's nothing to protocol that indicates it's done now.
+
+264
+00:39:28.640 --> 00:39:47.150
+Clecio Varjao: and I think that will play a bigger role, even when we're talking about app to app integration. when, for instance, if I open an app for a proof request, I need to signal that app that it's done, and if you transition back to the originator, app
+
+265
+00:39:48.020 --> 00:39:53.909
+Clecio Varjao: right now the users get stuck in a wallet app, and there is no signal to transition back.
+
+266
+00:39:59.270 --> 00:40:02.500
+Sam Curren (TelegramSam):  one. Yeah.
+
+267
+00:40:02.570 --> 00:40:04.270
+Sam Curren (TelegramSam): Kim, sorry your hands up.
+
+268
+00:40:04.700 --> 00:40:15.109
+Kim Ebert: This seems to indicate that we might want to think about the right to be forgotten here as well. If we're thinking about the concept of saying, Hey, we're we're done with this connection.
+
+269
+00:40:15.440 --> 00:40:18.619
+Kim Ebert:  go ahead and clean up and
+
+270
+00:40:18.630 --> 00:40:27.139
+Kim Ebert: close the connection. there! There might be some additional thing that we can do there to say, hey. forget everything about me as well.
+
+271
+00:40:29.780 --> 00:40:46.770
+Sam Curren (TelegramSam): that's not bad. The So we do have that existing mechanism of sort of hanging up the connection. But there's no nuance to that. having a protocol that says, You know I'm done, and and here's the the terms that I'm expressing for that. it would certainly be applicable and and did copy to.
+
+272
+00:40:46.920 --> 00:40:49.669
+Sam Curren (TelegramSam): I mean it could be done with the cover, one to as well. But
+
+273
+00:40:49.840 --> 00:40:53.329
+Sam Curren (TelegramSam): but I think that that's nicely applicable.
+
+274
+00:41:00.380 --> 00:41:09.209
+Sam Curren (TelegramSam): I I think, for some flows. I I was imagining for for a minute. And you like, why, what types of interactions I would want to just not have remaining
+
+275
+00:41:09.460 --> 00:41:16.639
+Sam Curren (TelegramSam): And I came up with a couple of interesting ones. But I'm curious if you have something specific in mind that you're going after with this type of a flow.
+
+276
+00:41:18.850 --> 00:41:19.950
+Clecio Varjao: So
+
+277
+00:41:20.250 --> 00:41:44.109
+Clecio Varjao: for us, maybe of more recent events, it'd be like, I'm I'm skinny care code of approved vaccination. Don't necessarily want a record of everybody or collect everybody information or contact about it. I just want the proof, right for a compliance perspective. and there's other compliance. used cases where I just need to verify that you are a
+
+278
+00:41:44.130 --> 00:41:49.300
+Clecio Varjao: good standing, active lawyer, but I don't necessarily want to keep her, or
+
+279
+00:41:49.640 --> 00:41:53.459
+Clecio Varjao: have a need or a requirement to keep a record of those
+
+280
+00:41:53.470 --> 00:42:00.059
+Clecio Varjao: and and a creating a connection established a record that is not necessarily always wanted.
+
+281
+00:42:04.650 --> 00:42:08.500
+Sam Curren (TelegramSam): yeah, I'd so I I think it popped into my head as a vending machine.
+
+282
+00:42:08.730 --> 00:42:32.410
+Sam Curren (TelegramSam): If I have an interaction with a specific vending machine, I may not want a long term relationship with that vending machine right? And so that. That would be a good example, or depending on how the architecture set up. You know, if I'm like authenticating to a door, or I'm you know, whatever else that that could be useful. It's worth noting that all of these protocol things are voluntary in the sense that if a user or if a software decided to allow and
+
+283
+00:42:32.710 --> 00:42:46.119
+Sam Curren (TelegramSam): and the user perhaps enabled this, they could, they could basically decline the the forget side of things. And then, you know, if they wanted to retain that information about the interaction that happened. And so from a protocol perspective.
+
+284
+00:42:46.120 --> 00:43:07.040
+Sam Curren (TelegramSam): of course it's all voluntary, and then but but it's still useful from a ux perspective to to know that that's what happened. For example. you know connections with that that I know the other party forgot. I might still want in a history of past connections that show me some information about what I presented, or something, but it's likely gonna be presented in a ux perspective different than an active connection.
+
+285
+00:43:07.040 --> 00:43:13.279
+Sam Curren (TelegramSam): so that I can go see the things that happened before that aren't active anymore. But I go actually see the things that were represented there.
+
+286
+00:43:14.480 --> 00:43:16.750
+Clecio Varjao: Yeah, correct. Yeah. So
+
+287
+00:43:17.020 --> 00:43:20.780
+Clecio Varjao: there is a little bit of question about what is it? Audit log?
+
+288
+00:43:21.340 --> 00:43:33.330
+Clecio Varjao: What does it mean? Is that all the logging is? I'm forgetting that connection, but an unnecessary forgetting the operation take place, that I disclose something was it away from my wallet? Right?
+
+289
+00:43:37.870 --> 00:43:42.080
+Sam Curren (TelegramSam): Yes. And and that's kind of an open question we haven't developed yet.
+
+290
+00:43:42.450 --> 00:43:47.870
+Clecio Varjao: Yeah, I think those are 2 different things. We can delete the connection, but not necessarily delete
+
+291
+00:43:48.280 --> 00:43:57.980
+Clecio Varjao: the the records associated with that transaction. So it becomes kind of a orphan records, which is essentially means. It's a connectionless thing, you know.
+
+292
+00:43:58.660 --> 00:44:05.189
+Sam Curren (TelegramSam): but it also like having a connection, and did copy 2 particularly means that you just know the did of the other party.
+
+293
+00:44:06.030 --> 00:44:15.019
+Sam Curren (TelegramSam): And so a like that. This, whether it's a connection or not, I think, is mostly a ux handling issue, not necessarily the actual data that we store issue.
+
+294
+00:44:15.130 --> 00:44:23.709
+Clecio Varjao: Sure. Yeah, yeah, it's the concept of contact, right? So and maybe with out of band and the whole like,
+
+295
+00:44:23.760 --> 00:44:30.140
+Clecio Varjao: we're using connection. We'll make this less of a trouble. Or or we're like
+
+296
+00:44:30.340 --> 00:44:33.229
+Clecio Varjao: the Ui being polluted with a bunch of connections.
+
+297
+00:44:33.510 --> 00:44:38.399
+Clecio Varjao:  so we'll try this out and and see how that works.
+
+298
+00:44:38.460 --> 00:44:53.830
+Clecio Varjao: But there is this idea that connections are not necessarily at front and center. Sometimes they're just there to for a purpose. And and the purpose is not the connection itself. The purpose is just the operation, the underlying operation that that connection facilitated.
+
+299
+00:44:55.190 --> 00:45:18.930
+Sam Curren (TelegramSam): Yes, we're we've not. We've imagined the problem, but not really handled it. Well, where you have different types of connections to different types of things. And that might be nice to organize from ux perspective. For example, if I have connections with IoT devices versus connections with coworkers, I might want those represented differently in the ux, and we we just haven't gotten there. as a community to number one have the problem and number 2. you know, decide what to do about it.
+
+300
+00:45:21.880 --> 00:45:30.030
+Clecio Varjao: So so the my, my only other questions that go code. It's a string. So we're gonna have to come up with some sort of
+
+301
+00:45:30.400 --> 00:45:37.139
+Clecio Varjao: separator. I don't know. I think we briefly talked some time ago. I don't know if that has been verbalized.
+
+302
+00:45:39.210 --> 00:45:45.480
+Clecio Varjao: you mean for the dot one thing or for if I want to provide multiple go codes.
+
+303
+00:45:47.280 --> 00:45:57.479
+Sam Curren (TelegramSam): We had the multiple goal code discussion a while back. And the complicated piece about multiple goal codes is that it balloons, the number of possibilities for what are what's actually happening?
+
+304
+00:45:57.730 --> 00:46:03.189
+Sam Curren (TelegramSam):  And so the issue there is that
+
+305
+00:46:03.220 --> 00:46:27.520
+Sam Curren (TelegramSam):  the the if I have goal code angle could be making very clear about which one I want to do first, or whether they can happen simultaneously or whether I could. I. I'm looking to accomplish either goal a or go be, you know, in the presence of 2 of them, is is really complicated. And so we decided that that at the time, anyway, that that that a single one was way more straightforward.
+
+306
+00:46:27.730 --> 00:46:32.690
+Sam Curren (TelegramSam): It strikes me that right now the only time we have goal codes is in an out of band invitation.
+
+307
+00:46:33.330 --> 00:46:49.019
+Sam Curren (TelegramSam): and the thing that might be useful is to actually come up with a different way of passing goal codes in the middle of a of a of a relationship. in the sense that you're gonna to set a quick message to the other party, saying, Hey, I'd like to work together to accomplish this purpose.
+
+308
+00:46:49.020 --> 00:47:05.470
+Sam Curren (TelegramSam): and and you could use a goal code sort of with an existing connection, to be able to further something, and that would allow you to sort of say, Okay, well, we did go a. Now let's work on goal B, and and that could facilitate that. I don't know if that's a good idea or not that just came into my head.
+
+309
+00:47:06.110 --> 00:47:08.640
+Clecio Varjao: Hmm! I I
+
+310
+00:47:11.010 --> 00:47:22.789
+Clecio Varjao: I don't know yet. But I I was thinking that for those complicated workflow scenario. Multi staff. I I thought that action menu would fit better.
+
+311
+00:47:23.460 --> 00:47:28.890
+Clecio Varjao: But I haven't really deep explored that much very interesting. Okay.
+
+312
+00:47:32.300 --> 00:47:39.550
+Sam Curren (TelegramSam): yeah. So I don't know the answer about multiple goal codes. But that that was our previous discussion. And what we talked about like, why, why, we just went with one.
+
+313
+00:47:54.830 --> 00:47:58.550
+Clecio Varjao: Hey? That's all I had from by phone side. Thank you.
+
+314
+00:47:58.820 --> 00:48:00.839
+Sam Curren (TelegramSam): Awesome. That was a great discussion.
+
+315
+00:48:01.350 --> 00:48:05.250
+Sam Curren (TelegramSam): we have 6 min left. Are there any other topics that folks want to bring up today?
+
+316
+00:48:36.050 --> 00:48:44.620
+Sam Curren (TelegramSam): Well, all right, then, thanks for coming to the meeting this week, grateful for all your work, and we will see you next week with more fun and adventure.
+
+317
+00:48:46.820 --> 00:48:47.830
+Sam Curren (TelegramSam): Thanks, folks.
+
+318
+00:48:48.250 --> 00:48:49.240
+Alex Metcalf: thanks so much.
+
+319
+00:48:50.880 --> 00:48:51.610
+Thanks.
+
+320
+00:48:52.060 --> 00:48:52.990
+Filipe: thanks.
+
+321
+00:48:53.260 --> 00:48:54.100
+Clecio Varjao: Everyone.
+

@@ -1,0 +1,1462 @@
+WEBVTT
+
+1
+00:02:44.080 --> 00:02:46.779
+Sean Bohan (Hyperledger): Hey, Tim? Hey, Tracy?
+
+2
+00:02:48.340 --> 00:02:51.829
+Sean Bohan (Hyperledger): I have to leave and come back in because I'm logged in the wrong account. I'll be right back.
+
+3
+00:02:52.830 --> 00:02:53.950
+Tim Spring: Sounds good.
+
+4
+00:02:54.820 --> 00:02:58.800
+Sean Bohan (Hyperledger): me make sure. Well, let me make sure Tim's the before I do that.
+
+5
+00:04:50.650 --> 00:04:56.830
+Sean Bohan (Hyperledger): Right. Apologies for being in the wrong zoom room with the wrong zoom address let me get
+
+6
+00:04:59.450 --> 00:05:02.529
+Sean Bohan (Hyperledger): Youtube turned on, and then we will get going.
+
+7
+00:05:03.990 --> 00:05:13.269
+Tim Spring: That's good. We are still waiting on who should be our presenter today as well. So a couple of minutes to trickle in here and
+
+8
+00:05:14.110 --> 00:05:16.860
+Sean Bohan (Hyperledger): no worries just because
+
+9
+00:05:17.490 --> 00:05:24.930
+Sean Bohan (Hyperledger): and we'll give it to fain and a few other folks a chance to join us. I am in another zoom room just in case
+
+10
+00:05:26.240 --> 00:05:29.779
+Sean Bohan (Hyperledger): somebody uses the old link. So we got that going
+
+11
+00:05:29.850 --> 00:05:33.520
+Sean Bohan (Hyperledger): awesome. Thank you for doing that. No worries, no worries.
+
+12
+00:05:39.430 --> 00:06:02.200
+Sean Bohan (Hyperledger): and, Tim, just so, you know, once we kick it off I'll trim out the first 4, 3, or 4 min of the recording. So we don't have dead air. And no one has to listen to my voice talking about turning my Youtube and stuff. So I appreciate that it is being streamed to the Hyper Ledger Youtube account. it'll be available. It's available right now, but it's also
+
+13
+00:06:03.190 --> 00:06:10.860
+Sean Bohan (Hyperledger): will be available under the identity playlist that we have. It's all right. alright perfect, Tim.
+
+14
+00:06:11.140 --> 00:06:14.520
+Sean Bohan (Hyperledger): Tim. You got it. I'm just going to mute and keep an eye on the other room.
+
+15
+00:06:15.280 --> 00:06:30.059
+Tim Spring: Sounds good. well, yeah, it is at 8 0 5. So we'll go ahead and get started here today. welcome everyone. This is the identity Special interest group at Hyper Ledger. and today we have
+
+16
+00:06:30.550 --> 00:06:37.079
+Tim Spring: a pretty exciting presentation from Stefan for you. it's defended. I pronounce your name correctly. There.
+
+17
+00:06:37.800 --> 00:06:44.579
+Stephane MOUY: not quite well. That's my first name, Stefan, and my last name is we Mo. Y.
+
+18
+00:06:45.920 --> 00:06:52.359
+Stephane MOUY: Don't worry. Alright awesome. Well, yeah, he's here to share with us a little bit about
+
+19
+00:06:52.540 --> 00:06:56.930
+Tim Spring: E, I das 2 and the European Wallet initiative.
+
+20
+00:06:57.050 --> 00:07:02.800
+Tim Spring: And yeah. And before that we have a quick summary of some other working group sesses. So
+
+21
+00:07:02.810 --> 00:07:07.560
+Tim Spring: I'm gonna go ahead and share my screen so we can do a quick rundown of what everyone's been up to.
+
+22
+00:07:12.280 --> 00:07:15.049
+Tim Spring: I just confirm that you guys can see my screen
+
+23
+00:07:16.590 --> 00:07:17.850
+Sean Bohan (Hyperledger): looking good, too
+
+24
+00:07:18.510 --> 00:07:20.259
+Tim Spring: awesome. Thank you.
+
+25
+00:07:20.400 --> 00:07:33.060
+Tim Spring: So to start off with just a few announcements. we have some upcoming speakers on July 20, seventh and August tenth. So come back. If these presentations look interesting to you.
+
+26
+00:07:33.140 --> 00:07:37.439
+Tim Spring: there's also a call for papers open for
+
+27
+00:07:37.970 --> 00:07:42.290
+Tim Spring: yeah, spring or open looks like.
+
+28
+00:07:43.790 --> 00:07:57.770
+Tim Spring: And then we have a meeting on running hyper ledger areas in the browser with a non credits on July eighteenth. So I believe you can just sign up and join right here to this link
+
+29
+00:07:58.910 --> 00:08:11.990
+Tim Spring: getting into some working group updates. we have the Hyper Ledger Indie contributors working group met on the Fourth. was anyone able to attend this meeting that would like to give us a quick summary.
+
+30
+00:08:19.410 --> 00:08:24.989
+Tim Spring: All right. it looks like they just held their indie summit, and they were doing a quick recap on how all that went.
+
+31
+00:08:25.490 --> 00:08:33.499
+Tim Spring: The Aries working group met on the twelfth. was anyone able to attend the this session?
+
+32
+00:08:39.850 --> 00:08:51.430
+Tim Spring: Alright, yeah, it looks like they were looking at some good peer and community coordinated. updates there. And if you'd like more information all of these links will take you there. Most recent activity.
+
+33
+00:08:51.670 --> 00:08:54.249
+Tim Spring: The Aries bifold group
+
+34
+00:08:54.830 --> 00:08:59.269
+Tim Spring: you met on the fourth, was anyone able to attend this session?
+
+35
+00:09:04.400 --> 00:09:09.980
+Tim Spring: All right. Well, yeah, that looks like they're just doing some bifold updates
+
+36
+00:09:10.530 --> 00:09:18.160
+Tim Spring: Aries cloud is in python met on the eleventh. Are there any updates from anyone who attended this meeting?
+
+37
+00:09:23.580 --> 00:09:26.789
+Tim Spring: Okay, it looks like they're working on. Some did peer stuff
+
+38
+00:09:27.680 --> 00:09:30.709
+Tim Spring: and move off from there
+
+39
+00:09:31.820 --> 00:09:37.039
+Tim Spring: areas. Framework Javascript met on the sixth. was anyone able to attend this session.
+
+40
+00:09:37.460 --> 00:09:45.370
+Sean Bohan (Hyperledger): Tim, this is Shawn. I was not able to attend the session, but on Tuesday we had a pretty great workshop with Ariel
+
+41
+00:09:45.520 --> 00:10:03.270
+Sean Bohan (Hyperledger): Karim and Baron from the area's framework, Javascript team showing off 0 point 4.0. The new release as well as how to use credentials with areas framework Javascript, how it fits into the overall ecosystem. that is also on Youtube. If anyone would like to watch it, they did a a really great job
+
+42
+00:10:03.320 --> 00:10:20.409
+Sean Bohan (Hyperledger): of sharing some of the hard work that's got into that community recently, and I was unable to mute fast enough, but occupy was recently mentioned. there's an organization called Lacy, which is announced the release of its wallet. that uses occupy uses and on credits. I believe they're using.
+
+43
+00:10:20.760 --> 00:10:29.559
+Sean Bohan (Hyperledger): indeed, through id union. And so that that came out recently, and we're reaching out to them to do a a blog post to share some of their experience. Sorry.
+
+44
+00:10:29.870 --> 00:10:32.889
+Tim Spring: all right. No, very cool. Thank you for sharing
+
+45
+00:10:34.570 --> 00:10:39.099
+Tim Spring:  so awesome. I think that covers
+
+46
+00:10:39.270 --> 00:10:44.030
+Tim Spring: Harry's stuff. That's not recent
+
+47
+00:10:47.260 --> 00:10:56.039
+Tim Spring: meeting. I do realize it's some are not. Everyone is meeting Super regularly
+
+48
+00:10:56.230 --> 00:11:00.050
+Tim Spring: as they used to. I think we've covered those
+
+49
+00:11:05.450 --> 00:11:12.179
+Tim Spring: alright. I think that at least, according to my list concludes any updates unless anyone else has anything they'd like to share.
+
+50
+00:11:16.740 --> 00:11:19.290
+Tim Spring: All right. So
+
+51
+00:11:19.930 --> 00:11:29.250
+Tim Spring: I'm going to go ahead and hand the floor off to to find this. Is that closer? I'm sorry. I'm yeah, that's fine. Thank you.
+
+52
+00:11:29.350 --> 00:11:32.300
+Stephane MOUY: Okay, I'll share my screen.
+
+53
+00:11:33.410 --> 00:11:35.719
+Stephane MOUY: which one in this
+
+54
+00:11:36.320 --> 00:11:37.850
+Stephane MOUY: I think this, is it?
+
+55
+00:11:39.610 --> 00:11:42.320
+Stephane MOUY: Okay? Now, can you see my screen as well?
+
+56
+00:11:42.840 --> 00:11:45.180
+Sean Bohan (Hyperledger): Looks good. You're looking good.
+
+57
+00:11:45.670 --> 00:11:49.970
+Stephane MOUY: Okay. Well, good morning. First.
+
+58
+00:11:50.290 --> 00:11:56.119
+Stephane MOUY: I'm not sure I know anyone here. in fact. I've been interacting with
+
+59
+00:11:56.990 --> 00:12:03.540
+Stephane MOUY: they've been for 2 years, in fact, we used to be colleagues a long time ago.
+
+60
+00:12:04.250 --> 00:12:18.129
+Stephane MOUY: anyway, and they PIN has, you know, invited me to talk to about the regulatory initiatives in your specially the one concerning digital identity.
+
+61
+00:12:18.500 --> 00:12:32.350
+Stephane MOUY: although I have to say I've always been quite explicit to the in and in in that I know he's very focused on the ot and blockchain and And I said to him repeatedly, well,
+
+62
+00:12:32.440 --> 00:12:43.160
+Stephane MOUY: it's very interesting. But you're gonna be disappointed because in your when it comes to digital identity, there is only any mention of of the Lt or blockchain. So
+
+63
+00:12:43.200 --> 00:12:45.679
+Stephane MOUY: the way it's like, well, never mind.
+
+64
+00:12:45.780 --> 00:12:52.609
+Stephane MOUY: you know, it's still interesting to know what's what's happening. So okay, anyway. So
+
+65
+00:12:52.660 --> 00:12:55.300
+Stephane MOUY: as as you can see from the
+
+66
+00:12:55.480 --> 00:13:05.749
+Stephane MOUY:  well, from the copper page of college slide. I'm I'm going to talk a little bit about digital identities in the European regulatory environment. And it's
+
+67
+00:13:06.290 --> 00:13:17.040
+Stephane MOUY: It's a certainly a major work and undergoing with the revision of the so called Eidas. regulation
+
+68
+00:13:17.120 --> 00:13:26.730
+Stephane MOUY: So we are up to today. We're still living with the AI desk. One regulation, the one that it was enacted in in 2,014.
+
+69
+00:13:26.940 --> 00:13:44.110
+Stephane MOUY: And these a lot of work going on trying to define a new architecture for digital identity schemes. So which is called K. I. S. 2. And at the core, that project is the digital identity. What it? So let's see a little bit. What's
+
+70
+00:13:45.610 --> 00:13:59.380
+Stephane MOUY: What's happening here? so yes, as often in Europe. it's you know, as soon as that's something happening. There's a new regulatory initiative. So you can't really
+
+71
+00:13:59.560 --> 00:14:09.430
+Stephane MOUY: You can't really say that. you know, the European Commission is not active in that field. It is, everybody is talking about digital identity. And there is a
+
+72
+00:14:09.880 --> 00:14:32.670
+Stephane MOUY: there's a lot of movement. And and a lot of change being being implemented. So the main effort is the revised E, that's regulation. as, as mentioned earlier, we're we're still you know, living with the I. This one voted in 20
+
+73
+00:14:32.900 --> 00:14:36.759
+Stephane MOUY: 14 came into effect in 2,016,
+
+74
+00:14:37.020 --> 00:14:44.310
+Stephane MOUY: and and and even in 2,018, for digital identity schemes. It's a fairly imperfect construction.
+
+75
+00:14:44.430 --> 00:14:54.190
+Stephane MOUY: it's based on 2 peters one is the mutual recognition of digital identity scheme, and one is the regulation for so called trust services.
+
+76
+00:14:54.300 --> 00:15:00.389
+Stephane MOUY: I come to that later. But threat services are primarily electronic signature and the like.
+
+77
+00:15:00.990 --> 00:15:21.829
+Stephane MOUY: it's been very positive on the Electronic trust services side, but very disappointing on the digital identity. So like. And because of that disappointment, there's been a a new proposal that has been announced nearly 2 years ago, in fact, over 2 years ago.
+
+78
+00:15:22.370 --> 00:15:32.560
+Stephane MOUY: which is expected to reach the it's legislative process in the coming weeks. this school. Ei, that's 2.
+
+79
+00:15:32.890 --> 00:15:48.459
+Stephane MOUY: It's not the only piece of regulation that is making reference to digital identities. I don't know if you've seen there is. there's been, literally last In the last few days there's been a digital year draft proposal
+
+80
+00:15:48.760 --> 00:16:07.250
+Stephane MOUY: which was which was presented. again. much to begin regret very little mention of the Lt. But I think there is a good reason for that. It's primarily related to the fact that offline connectivity is a requirement. And
+
+81
+00:16:07.890 --> 00:16:23.819
+Stephane MOUY: reconciling offline connectivity with. So it's a little bit of a challenge, maybe have different view in that And also there's a, you know, complete revamp of the European county money laundering architecture
+
+82
+00:16:24.960 --> 00:16:37.859
+Stephane MOUY: with a uniform. Know your client rules, and these are centered around digital identities for a remote id perfect. So it it it all fits together in a way.
+
+83
+00:16:37.990 --> 00:16:47.770
+Stephane MOUY: but there is no again. There is no direct reference to the Lt. In the I that's 2 nor in the I that one. Of course.
+
+84
+00:16:47.910 --> 00:16:59.070
+Stephane MOUY: There is no explicit reason for that. It's not mentioned in the you know, in the explaining to a moment memo on them prepared for the regulation.
+
+85
+00:16:59.230 --> 00:17:11.859
+Stephane MOUY: But I would say that it's not completely surprising in a European context, because, I think you have to understand that in your digital identity is viewed as the
+
+86
+00:17:11.869 --> 00:17:24.040
+Stephane MOUY: You know the domain, the preserve of of Member States and the governments. I I have in Europe, at least I'm not taking that positive of you about so
+
+87
+00:17:24.170 --> 00:17:25.310
+Stephane MOUY: dlt
+
+88
+00:17:25.540 --> 00:17:33.590
+Stephane MOUY: However. there has. That was initially a reference on the
+
+89
+00:17:33.610 --> 00:17:45.609
+Stephane MOUY: electronic trust services side to electronic leisure services, which was a sort of indirect way to recognize dlt services.
+
+90
+00:17:46.070 --> 00:17:54.029
+Stephane MOUY: that was presented by the European Commission in the initial draft of the E. I dust to regulation
+
+91
+00:17:54.450 --> 00:18:08.299
+Stephane MOUY: but it's been removed by it, was maintained by the European Council document, but it has been removed by the European Parliament. Now, That may seem like a convoluted
+
+92
+00:18:08.420 --> 00:18:12.650
+Stephane MOUY: discussion. What you have to understand is I think
+
+93
+00:18:14.070 --> 00:18:29.410
+Stephane MOUY: is that currently the ei that's draft is is is nearing. It's fine on the the Ei. That's 2 legislative processes nearing its conclusion. There's been a vote in presented by the European Commission
+
+94
+00:18:29.550 --> 00:18:45.889
+Stephane MOUY: been voted by the European Council, which is the body representing the European governments. and it's also been voted by the European Parliament, but not exactly in certain terms. So there is now a sort of reconciling effort to come up with a definitive final version.
+
+95
+00:18:45.980 --> 00:18:54.010
+Stephane MOUY: that will Apparently it has been done literally last week. we'll see what happens.
+
+96
+00:18:54.510 --> 00:18:58.979
+Stephane MOUY: on the. So yeah, that's one
+
+97
+00:18:59.070 --> 00:19:11.249
+Stephane MOUY: As you can see, it's a fairly modest construction, and it's really 2 houses, and they're same roof. so you have the electronic trust services side which is basically private sector
+
+98
+00:19:11.580 --> 00:19:25.430
+Stephane MOUY: common-sided and certification processes. So you're talking about the electron for services. these signatures. Electronic sales, electronic stamps which is for messages electronic web authentications.
+
+99
+00:19:25.520 --> 00:19:31.120
+Stephane MOUY: common rules, technical specification, usually that prepared by the European
+
+100
+00:19:31.470 --> 00:19:50.249
+Stephane MOUY: at say, which is the European standards specification agency. they are offered by the private sector. So every company who wants to become a trust service provider can apply. It just has to be certified
+
+101
+00:19:50.310 --> 00:19:52.120
+Stephane MOUY: with the common framework.
+
+102
+00:19:52.210 --> 00:20:03.880
+Stephane MOUY: and one city is certified. It can offer for us services throughout the, you know, European Union. without discrimination, they have to be accepted on the same basis
+
+103
+00:20:04.970 --> 00:20:23.940
+Stephane MOUY: on the Eid side. You're really talking about a completely different construction. You're really talking about. an intergovernmental recognition of of of digital identity schemes that have been notified by Member States to the European Commission.
+
+104
+00:20:23.990 --> 00:20:35.330
+Stephane MOUY: so it's a voluntary framework. It has a very public sector focus. that's one of the reason why it hasn't been successful. Actually for example, the
+
+105
+00:20:35.370 --> 00:20:46.270
+Stephane MOUY: when it was presented, the, the, the, the, the, the use of one of the used cases that was promoted was the Finnish State and rolling in the Spanish University.
+
+106
+00:20:46.450 --> 00:21:08.439
+Stephane MOUY: and instead of doing all the paperwork by paper and by mail, he would do that. And electronically, that's fine. But you know, how often do you have to do this? I mean in your life, I mean, maybe twice, once, twice, but not more than that, usually. So it's not really worth anyway. So it not like paying electronically or anything that comes as a day occurrence.
+
+107
+00:21:08.660 --> 00:21:20.490
+Stephane MOUY: another problem was that there are very few on the Eid side. There are very few common technical specifications. So member space have considerable freedom to implement digital identity schemes
+
+108
+00:21:20.650 --> 00:21:31.399
+Stephane MOUY: which led to internal probability issues. so they're not exactly the same. They can't correspond, you know. They do not fit quite well one with another.
+
+109
+00:21:31.630 --> 00:21:40.340
+Stephane MOUY: it's not that easy to make them work together. So intel vibrations and issues. And on top of that, it's based on A
+
+110
+00:21:40.430 --> 00:21:54.699
+Stephane MOUY: and an it protocol, that is that is now. Looks quite dated. So and does not integrate mobile device usage. so quite successful on the E trust services side.
+
+111
+00:21:54.920 --> 00:21:58.440
+Stephane MOUY: very disappointing on the did side.
+
+112
+00:21:58.640 --> 00:22:18.420
+Stephane MOUY: But in spite of that, it it still remains a landmark regulation for digital identity. And I think the main reason is that it's the first. And if I'm not mistaken, it's still the only set of rule organizing the cross border recognition of digital identity. I don't think anywhere in the world you have anywhere,
+
+113
+00:22:18.520 --> 00:22:32.089
+Stephane MOUY: a framework. a framework that says, you know, digital identity, not Coming from that country is all going to be recognized with the same value or same effect in in other countries and
+
+114
+00:22:32.890 --> 00:22:45.529
+Stephane MOUY: and it also enshrines the hallway. The level of assurance concept for digital identity. It's not as, of course, it's not a unique European concept, but it's it's you know it. It was quite
+
+115
+00:22:45.560 --> 00:22:54.049
+Stephane MOUY:  It's significant. And it's it's quite a threshold as you can as an element.
+
+116
+00:22:54.670 --> 00:22:56.929
+Stephane MOUY: I had a slides for
+
+117
+00:22:56.950 --> 00:23:09.490
+Stephane MOUY:  They PIN, but unfortunately it's not here, because as mentioned earlier, I made a couple of presentation last year, one last year and 1 2 years ago in the very same topic. So
+
+118
+00:23:09.520 --> 00:23:17.739
+Stephane MOUY: I was wondering if Vietnam was going to think that. you know it was a repeat of what I had said at the time.
+
+119
+00:23:18.060 --> 00:23:19.530
+Stephane MOUY: And
+
+120
+00:23:19.640 --> 00:23:31.440
+Stephane MOUY: basically, I I suspect none of you have. we're present as a you know, when when we made a presentation in 2021, 2022.
+
+121
+00:23:31.450 --> 00:23:37.069
+Stephane MOUY: But, anyway, what's the latest news? so the latest news? Oh, sorry.
+
+122
+00:23:37.760 --> 00:23:49.129
+Stephane MOUY:  Well, first of all, before we get into this maybe we should have a word of caution for non European. So I guess that's the best majority of the audience today.
+
+123
+00:23:49.220 --> 00:24:10.309
+Stephane MOUY:  one is E, I desk 2 is a very ambitious project. There is no question that. This is certainly a piece of regulation where you cannot say that The European Commission has lacked ambition. so it's aiming for the highest level of assurance.
+
+124
+00:24:10.330 --> 00:24:18.200
+Stephane MOUY: the highest level of privacy. The greatest diversity of the use cases so reconciling this requirements is
+
+125
+00:24:18.580 --> 00:24:25.839
+Stephane MOUY: guaranteed to be challenging and and and difficult. we can see that already.
+
+126
+00:24:26.110 --> 00:24:38.310
+Stephane MOUY: and and one of the problem that is facing the the the team leading the efforts of is that You know, technical specifications are
+
+127
+00:24:38.320 --> 00:24:52.049
+Stephane MOUY: not that easy to find in order to cover such a broad spectrum of use. Cases. Some are only draft forms, some are not fully stable. So it's a you know. It's a difficult decision.
+
+128
+00:24:52.220 --> 00:24:53.810
+Stephane MOUY: the second.
+
+129
+00:24:54.100 --> 00:25:06.500
+Stephane MOUY: the second aspect you have to bear in mind, which is that It's a regulatory initiative, and it's It has very obvious, very clear, very powerful, in fact, political backing.
+
+130
+00:25:06.750 --> 00:25:16.400
+Stephane MOUY: it's it's seen, rightly, wrongly, as the most tangible initially, for European citizens in the digital area.
+
+131
+00:25:16.780 --> 00:25:29.600
+Stephane MOUY: and it's you know, it's heavily supported by the I would say the heads of the the of the European Commission, but also the European Council representing governments.
+
+132
+00:25:30.210 --> 00:25:46.070
+Stephane MOUY: and it's it's it's a public You have to understand that it is a public initiative in many ways. The Member space will notify the digital identity, whether they have discretion in in
+
+133
+00:25:47.130 --> 00:25:59.859
+Stephane MOUY: and defining who will? you know, who would be allowed to present a digital identity what it and they are legally responsible for that process. So they call the shop. Still.
+
+134
+00:26:00.120 --> 00:26:18.449
+Stephane MOUY: it's it's taking a lot of time. It's celebrated in 2 years in the making. and I think you really are. we're still, I think, not even sure. With Midway I would consider a 5 year horizon. So basically, you would still have 3 years to go.
+
+135
+00:26:18.680 --> 00:26:29.860
+Stephane MOUY: It's not completely It's not completely surprising. Given that, you know, this is an effort that is effectively involving free 30 different countries.
+
+136
+00:26:30.570 --> 00:26:42.400
+Stephane MOUY: And that means that you know successes by no means guaranteed. But likewise. On the other hand, you know, complete failure is then like this. So you know, we're probably
+
+137
+00:26:42.790 --> 00:26:59.959
+Stephane MOUY: it's somewhere in the middle. you know. Which side? Where are we going to end up? That's still there, and decided there are many factors that have to be worked out. it's it's pretty pretty still the period still out there, a lot of things that need to be decided. Still.
+
+138
+00:27:01.460 --> 00:27:05.959
+Stephane MOUY: on the E, it's ecosystem.
+
+139
+00:27:06.130 --> 00:27:07.349
+Stephane MOUY: well, hold on.
+
+140
+00:27:07.670 --> 00:27:21.739
+Stephane MOUY: maybe I should have been here. So where are we now? basically. The the first project was presented in 2,021. that's when I made the first presentation to the
+
+141
+00:27:22.120 --> 00:27:33.839
+Stephane MOUY: Then that was an AI. That's expert group set up in October that year. That was the first version of the architecture and reference framework document presented in 2,022
+
+142
+00:27:34.380 --> 00:27:45.479
+Stephane MOUY: and then, you know, the legislative process was, was, initiated, the first considered by the Parliament in October 21
+
+143
+00:27:45.630 --> 00:27:52.989
+Stephane MOUY: 4 large scale pilots launch in December of last year, one at design concern to them selected
+
+144
+00:27:53.440 --> 00:28:06.400
+Stephane MOUY: draft regulation, approved by the European Council in December of last year, approved by the European Parliament in March, and now there is a so called Taylor process, aiming to reconcile the
+
+145
+00:28:06.510 --> 00:28:18.099
+Stephane MOUY: EU Council and the EU Parliament's position? initiated in April. Why is it called the T log and not the dialogue, because the European Commission is involved as well.
+
+146
+00:28:18.660 --> 00:28:25.729
+Stephane MOUY: So, however You may have seen last. but in fact, 10 days ago
+
+147
+00:28:25.900 --> 00:28:29.810
+Stephane MOUY: there was a a political agreement
+
+148
+00:28:30.070 --> 00:28:34.049
+Stephane MOUY: and a statement saying that in fact, you know, the
+
+149
+00:28:34.280 --> 00:28:46.489
+Stephane MOUY: representatives of the Urban Council and of the European Parliament had a agreed. That settled the founded deal, so to speak, on the on the key terms of the European Digital Identity Framework.
+
+150
+00:28:47.740 --> 00:28:54.879
+Stephane MOUY: I've you know, put extracts of the of the EU Commission. Communicate.
+
+151
+00:28:54.900 --> 00:29:06.790
+Stephane MOUY: We'll see. We haven't seen the final draft, but it's it's very likely to be somewhere between what the it's been improved by the European Council. What's been approved by the year in Parliament?
+
+152
+00:29:07.110 --> 00:29:24.009
+Stephane MOUY: there is. for for you guys who are interested in D, there is an interesting topic here, because the electronic ledger services were struck down by the and Parliament on the basis that you know they are
+
+153
+00:29:24.050 --> 00:29:33.160
+Stephane MOUY: not consistent with an environmentally friendly environment? so the work, you know, for that, you know the the
+
+154
+00:29:33.350 --> 00:29:34.570
+Stephane MOUY: the
+
+155
+00:29:34.710 --> 00:29:47.699
+Stephane MOUY: The green movement in in Europe is quite strong. So they they've taken a a negative year, dealt services, and they they shut down everything that was even remotely related to the Lt. In the draft.
+
+156
+00:29:47.800 --> 00:30:06.810
+Stephane MOUY: whether that will continue will will that position will be upheld in the final draft? We don't know. I mean, that's one of the things to see anyway. And once that it's done, you know, once you have a regulation it's not, you know. It's not the
+
+157
+00:30:06.870 --> 00:30:11.899
+Stephane MOUY: and of the process by any means. One of the reason in that, because there are
+
+158
+00:30:11.930 --> 00:30:30.109
+Stephane MOUY:  quite a few delegated and implementation acts to prepare. So they are, you know, second secondary regulation, if you wish. that is being mentioned in the in the Ei desk regulation, but not yet drafted. So that's you know, that's another
+
+159
+00:30:30.260 --> 00:30:33.480
+Stephane MOUY: regulatory dimension to consider.
+
+160
+00:30:33.750 --> 00:30:47.980
+Stephane MOUY: And on top of that there are 2 other aspect. One is the so called the architecture and reference document. This is a document that is defining the technical specifications of the
+
+161
+00:30:48.800 --> 00:31:02.369
+Stephane MOUY: difficult identity. What it's if you're interested in that. there's already. well, it's it's an ongoing documents. So you know you have. it's there's an each active process
+
+162
+00:31:02.430 --> 00:31:10.119
+Stephane MOUY: there is. The first version was published in February last year. The current version is
+
+163
+00:31:10.400 --> 00:31:21.130
+Stephane MOUY: The current public version is the was probably released in April, and I think the the next one should be available within weeks, or maybe days, actually.
+
+164
+00:31:21.720 --> 00:31:32.350
+Stephane MOUY: And I'll I'll mention a little bit about this, and on top of that there's a a so called reference of reference implementation of the digital identity. What is so there is a
+
+165
+00:31:32.440 --> 00:31:44.570
+Stephane MOUY: consolation that has been assigned, or with the task of of building a digital identity wallet that will have to be after that. That will be used by
+
+166
+00:31:44.820 --> 00:31:51.229
+Stephane MOUY: by Member States when not to find their own solution.
+
+167
+00:31:51.490 --> 00:32:02.850
+Stephane MOUY: And on top of that, you have, currently for so called large scale pilots that are that are designed to test the real life
+
+168
+00:32:03.110 --> 00:32:07.210
+Stephane MOUY: usage of the digital identity. Wex,
+
+169
+00:32:08.670 --> 00:32:26.080
+Stephane MOUY: there are 2 used cases that are being prioritized to that effect. One is the mobile driving license. and the second one is the identification on for online services. But on top of that there are
+
+170
+00:32:26.160 --> 00:32:37.350
+Stephane MOUY: other use cases like health educational credentials. It's pretty diplomas did little of finance. They did a little travel credentials. So if you look at
+
+171
+00:32:37.790 --> 00:32:49.440
+Stephane MOUY: some of these large scale pilots are public 3 of the 4, I think the fourth is still to be announced. But 3 of them are known. They have website. They have already,
+
+172
+00:32:49.680 --> 00:33:00.220
+Stephane MOUY: published information about what she is. Ca, they are considering. there isn't that much information yet, but you know it's and they are.
+
+173
+00:33:00.320 --> 00:33:10.190
+Stephane MOUY: these are consortium that are gathering firms from companies, from different environments. I I I've been looking for
+
+174
+00:33:10.280 --> 00:33:26.080
+Stephane MOUY: obvious reasons. I've been looking at the financial sector digital finance use case. and you can see that. you know, quite a few banks are involved in the. There's one large scale that is, fully dedicated to payments.
+
+175
+00:33:26.740 --> 00:33:40.410
+Stephane MOUY: and there's another one that is dedicated to digital travel credentials, including payments. and they include most of the big names in Europe on that. So you'll learn.
+
+176
+00:33:40.720 --> 00:33:47.129
+Stephane MOUY: We'll see. So where we now. yeah, like, we've done that with them.
+
+177
+00:33:47.360 --> 00:33:50.400
+Stephane MOUY: Yeah, I think we've done. Okay?
+
+178
+00:33:50.410 --> 00:33:59.359
+Stephane MOUY: Now, just how familiar as it are, you guys with the with the digital identity, what do you? I mean.
+
+179
+00:33:59.550 --> 00:34:02.190
+Stephane MOUY: we need to go through the
+
+180
+00:34:02.470 --> 00:34:06.810
+Stephane MOUY: details presentation? Or is it something that is quite well known?
+
+181
+00:34:12.080 --> 00:34:20.780
+Tim Spring: Go ahead, Tim. Sorry. Oh, so I was going to say. I think this group would be at least fairly familiar with the with the wallet.
+
+182
+00:34:20.940 --> 00:34:33.509
+Stephane MOUY: Okay? right? Just so. Just quick. Recap. what is? First of all, you know there must be a credit is the must comply with the common specifications. You should, you know, that will be
+
+183
+00:34:33.600 --> 00:34:49.840
+Stephane MOUY: that will appear in the architecture, reference document. They have to be issued or pro by Member States. So there's you know, there's if if a Member State does not like your solution, even though it may be a very good solution. No, you know there is no hope, I'm afraid.
+
+184
+00:34:49.920 --> 00:34:57.020
+Stephane MOUY: They must have a high level of assurance. they must put the users in full control of the well
+
+185
+00:34:57.480 --> 00:35:08.050
+Stephane MOUY: they have to be accepted by for identity, proving by reliant policy, is offering financial and other key services as well as very large online platforms.
+
+186
+00:35:08.280 --> 00:35:19.650
+Stephane MOUY:  so that's an important aspect, because it means that you know, all providers of key services will have to accept digital. Nobody would.
+
+187
+00:35:20.140 --> 00:35:26.699
+Stephane MOUY: they have to accept. electronically tested. At stations.
+
+188
+00:35:26.980 --> 00:35:29.800
+Stephane MOUY: We have to be free of charge for users.
+
+189
+00:35:29.870 --> 00:35:38.140
+Stephane MOUY: They must be able to create to the the user to sign with the highest level of
+
+190
+00:35:38.460 --> 00:35:42.240
+Stephane MOUY: of certainty. So this is a quantifying electronic signature.
+
+191
+00:35:42.420 --> 00:35:53.280
+Stephane MOUY: They must allow the user to interact online and offline, and they must support us from customer authentication requirements including for payment. That is.
+
+192
+00:35:53.550 --> 00:36:06.949
+Stephane MOUY: incidentally, that is a topic that is creating a lot of tension with the banking sector that is, the banking industry that is not really happy, and that some of the statement about this
+
+193
+00:36:07.280 --> 00:36:23.259
+Stephane MOUY:  and On top of that, you know, they should be able to strengthen privacy. They should be able to several identity profile and should be able to support Cbdc interactions. So we'll see how far we go in that
+
+194
+00:36:23.400 --> 00:36:26.130
+Sean Bohan (Hyperledger): I ask you a question about the last slide.
+
+195
+00:36:26.650 --> 00:36:40.669
+Sean Bohan (Hyperledger): Yeah. In the early days of self sovereign identity, correlation, resistance was a very big deal. It's it's absolutely something that a lot of organizations looked at as a requirement. unique identifiers, kind of defeat, correlation, resistance
+
+196
+00:36:40.770 --> 00:36:43.140
+Sean Bohan (Hyperledger): when you say, whenever required.
+
+197
+00:36:43.260 --> 00:36:52.289
+Sean Bohan (Hyperledger): who is? Who is the doing? The requiring? Is it a? Is it a bank? Is it a state? Is it any entity on a network could require your unique identifier?
+
+198
+00:36:53.960 --> 00:37:03.930
+Stephane MOUY: Okay, that I know what you're talking? Yeah, I know what you're referring to this. a reference to the unique identifier in the regulation that is
+
+199
+00:37:04.630 --> 00:37:06.920
+Stephane MOUY: I think.
+
+200
+00:37:07.480 --> 00:37:10.249
+Stephane MOUY: What what it, what it came from are they
+
+201
+00:37:10.440 --> 00:37:18.080
+Stephane MOUY: surprisingly is from the it's. It's it's a request or a demand depending on how you say it from the tax authorities.
+
+202
+00:37:18.110 --> 00:37:19.830
+Sean Bohan (Hyperledger): because,
+
+203
+00:37:19.890 --> 00:37:33.699
+Stephane MOUY: these are, you know they are saying, well, some people come up with with one country with one identity, and they by national. They have another identity from another country, and we cannot correlate it to. And this is
+
+204
+00:37:33.750 --> 00:37:41.620
+Stephane MOUY: problematic. Don't ask me why. But this is apparently quite problematic for tax avoidance pro, because it facilitates tax avoidance
+
+205
+00:37:41.750 --> 00:37:49.790
+Sean Bohan (Hyperledger): that that is a great answer. Thank you. I I I wasn't so bad. Yeah, so just to. So
+
+206
+00:37:50.050 --> 00:38:10.999
+Stephane MOUY: as you know that you, you need to know that but once you know that, you can understand why it's in there now, people are saying, and I think a lot of people, including I think you and me are saying, Hey, you know, but a unic eye, that fire is the worst thing that can you can think about from a privacy viewpoint, because basically it allows anyone to track your interactions
+
+207
+00:38:11.000 --> 00:38:24.979
+Stephane MOUY: and and monitor your usage. So of course, that's highly highly problematic. so there's there's a tension between these 2. I would say. competing
+
+208
+00:38:25.110 --> 00:38:38.259
+Stephane MOUY: demands. If you wish your objectives. how that is going to be. That's one of the topics that is still not completely decided. We'll see in the final version how it will be taken care of. I think it's
+
+209
+00:38:38.280 --> 00:38:53.750
+Stephane MOUY: likely to remain as a requirement, but not everybody. I think what was likely to happen is that only certain public sector, relying parties will be able to will be allowed to require the unique identifier. That's what I understand.
+
+210
+00:38:53.900 --> 00:38:56.400
+Sean Bohan (Hyperledger): Understood that. Thank you so much for that answer.
+
+211
+00:38:57.130 --> 00:38:59.000
+Stephane MOUY: Okay,
+
+212
+00:38:59.050 --> 00:39:21.260
+Stephane MOUY: right? So at the very, at the very core. You know the the the ecosystem is pretty simple. You have, basically an app provider that publishes the digital the digital, identity one. It on the app. It's been, of course, has to be certified. It has to be. Not only has it got to be certified, but it has to be
+
+213
+00:39:21.430 --> 00:39:42.320
+Stephane MOUY: approved by a Member State, and it has to be notified to the European Commission. So it has to be, I would say, approved by stick. and once that is done, the what it user can use. The app can download an identity profile, that identity profile is effectively provided by so called Pid providers
+
+214
+00:39:42.580 --> 00:39:47.259
+Stephane MOUY: providers of personal identification data.
+
+215
+00:39:47.370 --> 00:39:58.680
+Stephane MOUY: and on top of that you can also have electronically tested attributes which are issued by effectively. Trust service providers
+
+216
+00:39:59.270 --> 00:40:19.149
+Stephane MOUY: and and you can combine the 2, of course, and those are used to and communicate it to relying parties in the normal course of action. So what that means is that you have. you know, a Plato up of possible use cases that are can be considered
+
+217
+00:40:19.390 --> 00:40:29.640
+Stephane MOUY: public sector, private sector banking, not banking health. trouble. There's virtually no
+
+218
+00:40:29.830 --> 00:40:38.150
+Stephane MOUY: animals, no no aspect of of of one's life that cannot be considered or can not be.
+
+219
+00:40:39.220 --> 00:40:50.779
+Stephane MOUY: used by the digital identity. What we'll see again, we'll see how this is going to work in practice. But you know, the ambition is certainly.
+
+220
+00:40:51.190 --> 00:41:12.079
+Stephane MOUY: because I'm it's certainly there. Bear in mind that You know you have public attributes, private attributes, and you have the ability to sign with the highest level of of legal certainty, which is the quantified electronic signature. The combined effect of those should be quite transformational.
+
+221
+00:41:12.230 --> 00:41:14.000
+Stephane MOUY: Assuming it works well.
+
+222
+00:41:14.020 --> 00:41:18.389
+Stephane MOUY:  I've provided the
+
+223
+00:41:18.930 --> 00:41:30.180
+Stephane MOUY: What I what I find is that you know authorizing have been focusing a lot on the payment use case. And I I do believe that the ability to
+
+224
+00:41:30.200 --> 00:41:39.960
+Stephane MOUY: in track offline is is at is absolutely key. So there's been a fair amount of focus on that
+
+225
+00:41:40.190 --> 00:41:52.479
+Stephane MOUY: and and this is also quite relevant for the the digital identity. What it to be used with in connection with some bank digital currencies and the the digital or in particular.
+
+226
+00:41:52.890 --> 00:41:58.610
+Stephane MOUY: again, if you're interested at the use case. And you should look at the
+
+227
+00:41:58.750 --> 00:42:09.800
+Stephane MOUY: website of the Ew, the
+
+228
+00:42:09.940 --> 00:42:14.540
+Stephane MOUY: dealing with the preparing working on use cases.
+
+229
+00:42:15.720 --> 00:42:18.910
+Stephane MOUY: Now on the technology side.
+
+230
+00:42:19.140 --> 00:42:20.480
+Stephane MOUY: the
+
+231
+00:42:20.800 --> 00:42:35.679
+Stephane MOUY: current version of the AI does mention some  technology choices that I've been made. And what you can see that those choices reflect the
+
+232
+00:42:35.750 --> 00:42:48.059
+Stephane MOUY: so call priority used cases. if you remember one of the priority used cases, the mobile driving license. I I gather in the Us. You you do have
+
+233
+00:42:48.350 --> 00:43:02.949
+Stephane MOUY: Apple has been quite instrumental in deploying mobile driving license on the iphone. And I think, basically, what is what is considered is, it's it's a repeat of that process. And
+
+234
+00:43:03.120 --> 00:43:12.940
+Stephane MOUY: so the there is a dedicated, the isolated for that. So we should be I so 18013 sl, 5,
+
+235
+00:43:13.140 --> 00:43:32.300
+Stephane MOUY:  and and that is you know, those likely to be used for proximity connections proximity connections being when the what it user is. let's say, physically present with the reliant party. And it's, in fact, interacting
+
+236
+00:43:32.600 --> 00:43:40.129
+Stephane MOUY: typically with a an Nfc or a call, or a or a bluetooth, or or a
+
+237
+00:43:41.380 --> 00:43:44.979
+Stephane MOUY: However, the
+
+238
+00:43:45.020 --> 00:43:54.960
+Stephane MOUY: I'm not totally convinced that it can be they love beyond the mobile driving license. Use case because I don't. If you're familiar with this. But it's
+
+239
+00:43:56.180 --> 00:44:05.740
+Stephane MOUY: it's basically transferring to the reliance party the the digital photo of the what it user?
+
+240
+00:44:05.800 --> 00:44:16.659
+Stephane MOUY: which is fine if you're presenting it to to a police officer. But now so fine if you're presenting it to someone you really don't know and you can't trust them. So
+
+241
+00:44:17.200 --> 00:44:25.019
+Stephane MOUY: there is also reference to the W. 3 C verifiable credential data model
+
+242
+00:44:25.330 --> 00:44:30.530
+Stephane MOUY: but it appears to be given second priority compared to the
+
+243
+00:44:30.780 --> 00:44:37.750
+Stephane MOUY: end up I saw 18 of 1, 3 5 specifications. So
+
+244
+00:44:38.010 --> 00:44:41.099
+Stephane MOUY: again, no mention of the Lt
+
+245
+00:44:42.000 --> 00:44:48.100
+Stephane MOUY: you know, I'm part of the I'm not a technology expert. So I think,
+
+246
+00:44:48.260 --> 00:44:58.149
+Stephane MOUY: But I have. I'm attending the yeah, that's expert group meetings. I have never heard anyone saying, look, we should mention the Lt.
+
+247
+00:44:58.430 --> 00:45:04.710
+Stephane MOUY: so why, that is I I don't know. I mean I am, but it's it's a fact of life.
+
+248
+00:45:04.950 --> 00:45:23.410
+Stephane MOUY: The other thing that is quite quite clear is that those specifications are not dressing the relying party authentication. it's it's basically not addressing the fact that, you know, maybe in digital interaction, you should start from a
+
+249
+00:45:23.540 --> 00:45:34.220
+Stephane MOUY: a 0 trust basis or principle, you should apply 0 press principle, and you know you should make sure that the the is fully authenticated before you can do anything with it.
+
+250
+00:45:35.890 --> 00:45:42.560
+Stephane MOUY: Okay? On the other hand. it's still early days on the technology side.
+
+251
+00:45:43.010 --> 00:46:07.099
+Stephane MOUY: because the air. So it's designed to be a work in harvest document and and it's it's not. you know, it's quite possible that changes would be made to the choice of specification hopefully. Not, major major change because it cannot completely. You know. you know, restart from scratch and and and forget everything you've been working on for months. But there is certainly a room for adjustment.
+
+252
+00:46:09.280 --> 00:46:14.999
+Stephane MOUY:  so payment, which is my area of specialty.
+
+253
+00:46:15.680 --> 00:46:26.740
+Stephane MOUY: yeah, maybe before that. first, the yeah, it does to. It's really moving from a user control to a user control identity based system.
+
+254
+00:46:26.890 --> 00:46:37.419
+Stephane MOUY: maybe. Ss, I don't know if it's the right for it. possibly, maybe. Yes, maybe not. But And what's also clear that
+
+255
+00:46:37.670 --> 00:46:44.739
+Stephane MOUY: payments are key a key part of most one ethical systems in interaction and digital interactions.
+
+256
+00:46:45.350 --> 00:46:57.900
+Stephane MOUY:  and I, there's there's a renewed images for the Given all the work on the digital year. I did mention the fact that
+
+257
+00:46:59.050 --> 00:47:01.790
+Stephane MOUY: back here where this
+
+258
+00:47:04.790 --> 00:47:07.109
+Stephane MOUY: I don't know. sorry.
+
+259
+00:47:11.410 --> 00:47:16.450
+Stephane MOUY: Oh, it's here. Okay. Yeah. I'll come to that in a minute.
+
+260
+00:47:16.940 --> 00:47:28.859
+Stephane MOUY: but and and you know, at a at a wider level, there is a clear recognition that a digital interaction that can combine. I would say, core id attributes.
+
+261
+00:47:29.030 --> 00:47:34.489
+Stephane MOUY: status and professional attributes like diplomas, licenses
+
+262
+00:47:35.010 --> 00:47:48.419
+Stephane MOUY: or eligibility. credentials can open, you know, a new and payment attributes can open, and you would be quite transformational for customer interaction and customer experience. So
+
+263
+00:47:48.720 --> 00:47:52.019
+Stephane MOUY: we'll see how far it goes.
+
+264
+00:47:52.280 --> 00:47:57.409
+Stephane MOUY: the on the payment use case. I was saying that the
+
+265
+00:47:57.490 --> 00:48:08.549
+Stephane MOUY:  very a recent digital year draft proposal makes. But if you references to digital identity, what it for Cvdc interactions.
+
+266
+00:48:10.030 --> 00:48:19.409
+Stephane MOUY: you know. So I've copied the a few of the mentions of the digital identity what it in the recital and substantive provisions.
+
+267
+00:48:19.650 --> 00:48:22.500
+Stephane MOUY: again, you know, it's
+
+268
+00:48:23.060 --> 00:48:39.700
+Stephane MOUY: a it. It clearly is recognized. For you know the the digital identity. What I will clearly be recognized for interest. In some digital years we'll see again. It's still early days, but you know we'll see how things will turn out. But
+
+269
+00:48:39.930 --> 00:48:51.769
+Stephane MOUY: the I would say, certainly the digital identity. What it is is on the rate of screen of the European Cell Bank. when it comes to the difficult year.
+
+270
+00:48:52.230 --> 00:49:07.820
+Stephane MOUY:  when you're looking at the payment case. of course. you know the ability to store and communicate personal, identifiable information. And if, an electronically tested actually be through line quality is very important.
+
+271
+00:49:07.980 --> 00:49:20.750
+Stephane MOUY: you have to be able to use to comply with from customer communication requirements. As you probably know, I don't quite know what the situation in the is in the Us. But in Europe this is
+
+272
+00:49:21.170 --> 00:49:25.409
+Stephane MOUY: This is an absolute payment requirement. So
+
+273
+00:49:26.740 --> 00:49:38.579
+Stephane MOUY: and you know, and the fact that the what it would have to be accepted by all payment service providers, including all banks. As a matter of fact, is, is it important?
+
+274
+00:49:38.800 --> 00:49:42.989
+Stephane MOUY: anyway? So that's where we are now.
+
+275
+00:49:43.290 --> 00:49:59.960
+Stephane MOUY: now, the question is, whether this is fit for payment purposes. So far. again, there are to payment interactions. you have 0 trust by default so new to a authentication is required for for simply for for prevention purposes.
+
+276
+00:50:00.090 --> 00:50:15.709
+Stephane MOUY:  it's currently not defined in the eras. I think it will be. But you know it's it's it's probably going to rely on on on I would say x 5 and 9 certificates, but we'll see how that where it'll work out.
+
+277
+00:50:16.030 --> 00:50:33.009
+Stephane MOUY: Then you need to ensure legal equality of payment instructions. and you need to ensure that, you know, if you have a player with what it's gonna pay with the world you need to make sure that they both fully committed legally. And that also implies having an
+
+278
+00:50:33.160 --> 00:50:39.250
+Stephane MOUY: and not a trail of the payment messages that can be archived, and they can be presented in court proceedings.
+
+279
+00:50:39.720 --> 00:50:48.039
+Stephane MOUY: And as mentioned, you need to have some user authentication in line with the European regulation on payments.
+
+280
+00:50:49.180 --> 00:50:56.750
+Stephane MOUY: But it's it's currently not obvious at all that these requirements we can be met with the current set of complicated specifications.
+
+281
+00:50:56.760 --> 00:51:11.720
+Stephane MOUY: I, this is my private view, of course. But I do think that you know, the Iso, 180135 specification is the standard is privacy invasive.
+
+282
+00:51:12.330 --> 00:51:27.139
+Stephane MOUY: I hope you did not disagree with me, but I think the W Threec. Verifiable credentials specifications are not designed to deal with mutual commitments they did not. also
+
+283
+00:51:27.240 --> 00:51:30.160
+Stephane MOUY: readily support offline interactions
+
+284
+00:51:30.650 --> 00:51:39.479
+Stephane MOUY: and the rest Api request responses are not tailored to me. So all the trial requirements. So these are, you know,
+
+285
+00:51:40.360 --> 00:51:51.880
+Stephane MOUY: technical issues. it's it's work in progress. It's It's annoying. If it's You know, there is a lot a lot of work to be done.
+
+286
+00:51:51.890 --> 00:52:12.139
+Stephane MOUY: we'll see if the ambition, the considerable ambition of the digital identity, while it will translate into meaningful reality. There's, you know, there's a little bit of dial about that, but we'll see. I mean, it's Anyway, it's not the end of the story. We're not even midway through the
+
+287
+00:52:12.260 --> 00:52:13.590
+Stephane MOUY: the process.
+
+288
+00:52:13.860 --> 00:52:17.280
+Stephane MOUY: So we'll see what happens.
+
+289
+00:52:17.740 --> 00:52:30.869
+Stephane MOUY: any before I move to the next In fact, time is running out. I can see. Maybe I should stop here. A. Is there any any comments, any any suggestion, any questions, or, if I will clear.
+
+290
+00:52:40.840 --> 00:52:44.600
+Tim Spring: I would say no questions currently. So if you have, like a
+
+291
+00:52:45.080 --> 00:52:49.429
+Tim Spring: a quick summary or anything, I think that would be.
+
+292
+00:52:50.000 --> 00:53:01.890
+Stephane MOUY: I think it's it's really here. I think that's probably the best to give you. That's why we did the best view of you know the the yeah, I guess, to initiative.
+
+293
+00:53:03.010 --> 00:53:18.410
+Stephane MOUY: again, a lot of the basically the next steps within a few weeks. I think we're going to see the final final version of the Ei, this regulation, the one that will we should sign you groups.
+
+294
+00:53:18.760 --> 00:53:29.570
+Stephane MOUY:  we will also see an updated version of the architecture reference document, and that will probably include a provision on on mutual.
+
+295
+00:53:29.790 --> 00:53:35.590
+Stephane MOUY: and give more clarity on the choice of technologies that are going to be used.
+
+296
+00:53:35.980 --> 00:53:44.909
+Stephane MOUY: There is going to be work down. There is work down on the I would say, prototype implementation of the wallet.
+
+297
+00:53:45.310 --> 00:53:58.510
+Stephane MOUY: and the Ls field will start to get into real motion. Currently, you know, the on the Lsp. Side the consortia has been. They made an offer. They've been accepted. They've negotiated
+
+298
+00:53:58.640 --> 00:54:04.089
+Stephane MOUY:  a contract with the European Commission, but they haven't really
+
+299
+00:54:04.170 --> 00:54:17.820
+Stephane MOUY: started work. They need to have the a workable prototype wanted to do that. So they're waiting for the reference for the reference implementation side, and then more clarity on the era side as well.
+
+300
+00:54:18.010 --> 00:54:23.140
+Stephane MOUY: I think that's what we can say. it's an exciting project.
+
+301
+00:54:23.390 --> 00:54:25.910
+Stephane MOUY: It's certainly
+
+302
+00:54:25.920 --> 00:54:28.870
+Stephane MOUY: very ambitious, no doubt.
+
+303
+00:54:29.180 --> 00:54:39.260
+Stephane MOUY: and And we'll see what happens. maybe I have to. I'd be given another opportunity to present. It's in in in 12 on side.
+
+304
+00:54:40.940 --> 00:54:44.309
+Tim Spring: Huh? Absolutely. No, I think.
+
+305
+00:54:44.650 --> 00:54:51.069
+Tim Spring: it's exactly what you said. It's ambitious, but it is exciting. And yeah, if there's more updates in another year, we'd love to have you back
+
+306
+00:54:51.360 --> 00:54:53.200
+Stephane MOUY: oh.
+
+307
+00:54:53.600 --> 00:55:02.710
+Tim Spring: oh, yeah, I think, we'll throw it out to questions, one more time. But I think if there is still none we appreciate you coming to talk to us today.
+
+308
+00:55:04.020 --> 00:55:06.310
+Stephane MOUY: Thank you. That's good.
+
+309
+00:55:06.880 --> 00:55:11.710
+Stephane MOUY:  Can I ask you a question, though I I gather the
+
+310
+00:55:12.200 --> 00:55:19.610
+Stephane MOUY: I could leisure. Can you clarify? What's the difference between the hyper leisure, identity, special interest group and the previous group
+
+311
+00:55:19.830 --> 00:55:26.410
+Stephane MOUY:  managed by? By the is it more or less the same, or is it a different one?
+
+312
+00:55:27.030 --> 00:55:34.749
+Tim Spring: I am unfamiliar. Unfortunately, with the previous group managed by Vivid. So I know that we were combined
+
+313
+00:55:36.190 --> 00:55:42.609
+Tim Spring: at some point. But I I was not part of that conversation, unfortunately so sorry about that.
+
+314
+00:55:42.940 --> 00:55:44.270
+Stephane MOUY: No problem.
+
+315
+00:55:45.310 --> 00:55:47.170
+Tim Spring: Okay? Well, listen.
+
+316
+00:55:47.710 --> 00:55:52.599
+Stephane MOUY: all right. If you're if you're interested in the presentation, I'm happy to
+
+317
+00:55:53.200 --> 00:56:03.080
+Stephane MOUY:  give you the link to the to the document, so you can take a a closer look at it. later.
+
+318
+00:56:03.610 --> 00:56:05.769
+Tim Spring: No, that would be awesome. I would appreciate that.
+
+319
+00:56:06.290 --> 00:56:07.730
+Stephane MOUY: Okay, perfect.
+
+320
+00:56:08.790 --> 00:56:11.760
+Stephane MOUY: Very good.
+
+321
+00:56:11.840 --> 00:56:14.239
+Jairo Romo: Hi, guys, I don't know. You don't hear me.
+
+322
+00:56:14.830 --> 00:56:15.820
+Jairo Romo: Yeah.
+
+323
+00:56:15.980 --> 00:56:28.560
+Jairo Romo: yeah. Okay, guys, my name is Gyro Romo. I'm going to go directly to the question. I was I was working in the past, or I've been working during the last couple of years
+
+324
+00:56:28.560 --> 00:56:54.720
+Jairo Romo: for drink, finance, blockchain trade finance. One of the initiatives, as you know, to refinance is one of the industries that needs more these days. Digitally, they say she, on a standardization. Those type of things in entity is incredibly important at a individual level. But it's also important at a company lever who is buying what we're sending.
+
+325
+00:56:54.960 --> 00:57:07.600
+Jairo Romo: There was a couple of initiatives of there was an initiative to implement a global legal entity or let identity and the fire
+
+326
+00:57:07.860 --> 00:57:13.779
+Jairo Romo: a promote or supported by the G. 7.
+
+327
+00:57:13.840 --> 00:57:18.569
+Jairo Romo: That initiative. I was a I was my.
+
+328
+00:57:18.730 --> 00:57:37.870
+Jairo Romo: the doing some type of analysis around it was an initiative for to to create an identifier that every single country from the G 7. And now there are more countries. We're going to implement to interviews at a global level.
+
+329
+00:57:37.870 --> 00:57:55.609
+Jairo Romo: To do exactly that, we identify or to have a globally. Then, if I, your 4 companies, more than 4 individuals. Do you know anything about this initiative? Do you know what I think? I I've heard to be honest, but I'm not
+
+330
+00:57:55.690 --> 00:58:02.650
+Stephane MOUY: I'm not really involved. I think I should have mentioned earlier that the I hope it's clear from my presentation, though.
+
+331
+00:58:02.650 --> 00:58:26.429
+Stephane MOUY: I should have mentioned earlier that the digital identity, what it is primarily designed to be used by an individual, so not not a legal entity per say, the however the individual can produce and a chronically attested attributes, and these can be, for example, authority to act on behalf of the legal entity that know that. But
+
+332
+00:58:26.430 --> 00:58:44.000
+Stephane MOUY: effectively here, you're really talking about digital identity and and the service primarily to be used by individuals, maybe in a professional capacity, but primarily for individuals. What you're referring to is a is a purely
+
+333
+00:58:44.360 --> 00:58:56.240
+Stephane MOUY: an initiative that's been going on for many years, in fact. to define a common registration scheme for all legal entities.
+
+334
+00:58:56.260 --> 00:59:07.179
+Stephane MOUY: I've heard of it. I've you know. I heard of it repeatedly, but I'm not involved in that effort. I'm not really part of it. It's a different
+
+335
+00:59:07.300 --> 00:59:11.000
+Stephane MOUY: so I really cannot talk meaningfully about it, I'm afraid.
+
+336
+00:59:11.330 --> 00:59:12.260
+Jairo Romo: Okay.
+
+337
+00:59:12.460 --> 00:59:20.179
+Jairo Romo: Another quick, quick question. Then, if we are all this world, we are talking about
+
+338
+00:59:20.360 --> 00:59:33.799
+Jairo Romo: a good we prepare in terms of technology in terms of infrastructure, to be able to cover in the future as a second phase as ours and nexus State.
+
+339
+00:59:33.910 --> 00:59:42.100
+Jairo Romo: For these a. A. A. A legal or or enterprises, identities or identifiers.
+
+340
+00:59:45.790 --> 00:59:47.230
+Stephane MOUY: Yeah, I mean, there's
+
+341
+00:59:47.890 --> 00:59:55.330
+Stephane MOUY: what what I can say is that there's always in the background, you know the the the
+
+342
+00:59:55.390 --> 01:00:08.130
+Stephane MOUY: let me put it this way. The the primary efforts is clearly individuals. Okay, now people are saying, Oh, yes, but individuals they act in. They can act on behalf of the legal entity
+
+343
+01:00:08.800 --> 01:00:10.710
+Stephane MOUY: that is seen as
+
+344
+01:00:10.780 --> 01:00:22.190
+Stephane MOUY: you know, as effectively an individual in, in, in, in it, acting in a defined capacity, with a defined authorization or authority credential
+
+345
+01:00:22.300 --> 01:00:29.860
+Stephane MOUY: acting to able being able to, you know, for example, to activate the A company's account. For example.
+
+346
+01:00:30.080 --> 01:00:43.199
+Stephane MOUY: it's it's it's a set of It's a subset of it's seen as a subset of of used cases that are considered by the I that's 2 initiatives.
+
+347
+01:00:43.280 --> 01:00:51.550
+Stephane MOUY: so that will come. What I think you're unlikely to see, though, is what it? That is, a pure
+
+348
+01:00:51.950 --> 01:00:56.800
+Stephane MOUY: company, wide that has no individual's name to it, so to speak.
+
+349
+01:00:57.680 --> 01:00:59.610
+Jairo Romo: Okay. okay.
+
+350
+01:00:59.890 --> 01:01:02.959
+Charles Lanahan: just to just jump in.
+
+351
+01:01:03.400 --> 01:01:11.339
+Charles Lanahan: I think what you're referring to Mr. Rome is the glee, the global legal. I I posted it in the chat
+
+352
+01:01:11.540 --> 01:01:25.079
+Charles Lanahan: and then the identifier as the legal in the identifier. And then the company credentials will be the virtual legal in an identifier. And I agree with your assessment. sure that the Ei, this is more toward
+
+353
+01:01:25.220 --> 01:01:36.169
+Stephane MOUY: individuals. And the I mean, it's it's it's very. It's very clear that AI that is geared towards individuals, because, in fact, you know, really talking about here.
+
+354
+01:01:36.410 --> 01:01:38.880
+Stephane MOUY: where it is. on
+
+355
+01:01:40.140 --> 01:01:58.580
+Stephane MOUY: Yes, you know you do have pad providers at the core of the it's project you have did providers who are providing core identity attributes to an individual. And then, you know the. So that's you know, that's the key quite a fundamental structural building block.
+
+356
+01:01:58.610 --> 01:02:12.600
+Stephane MOUY: On top of that, you can have. you know that individual authorized to act on behalf of a company? There is no question about that. But it it's it's you know. It's seen as another
+
+357
+01:02:13.160 --> 01:02:18.660
+Stephane MOUY: layer of of authority or given to one individual.
+
+358
+01:02:18.740 --> 01:02:27.829
+Stephane MOUY: So it's not purely, you know, a a tool for legal entities that has no connection with any individual. I mean, that's very clear.
+
+359
+01:02:28.050 --> 01:02:31.570
+Charles Lanahan: Right? Well, assuming that both of them succeed.
+
+360
+01:02:32.110 --> 01:02:45.710
+Charles Lanahan: they'll probably be bridge credentials and all that stuff in the future. There's companies, and they have an individual work for them. But they're are all company focused.
+
+361
+01:02:46.320 --> 01:02:51.990
+Jairo Romo: Yeah. Yep, yep. thanks, guys, thanks for the planning. Thanks.
+
+362
+01:02:52.340 --> 01:02:54.470
+Charles Lanahan: Yeah, thank you for your presentation.
+
+363
+01:02:54.500 --> 01:02:56.740
+Stephane MOUY: Thanks, Charles.
+
+364
+01:02:56.980 --> 01:03:04.379
+Stephane MOUY: nice interacting with you guys. I think it's it's the one I will talk, anyway. So we're we're done. Yeah, I have a good day.
+
+365
+01:03:04.510 --> 01:03:07.060
+Tim Spring: Alright. Have a good one, everyone bye.
+

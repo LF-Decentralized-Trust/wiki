@@ -1,0 +1,1454 @@
+WEBVTT
+
+1
+00:00:01.990 --> 00:00:07.149
+Stephen Curran: Welcome to the July 2620 23 years. Working group. Call
+
+2
+00:00:07.700 --> 00:00:23.290
+Stephen Curran: a few things topics on the agenda marketing Update endorser service and Rfc, pull request, and notably the one involving community ported updates around
+
+3
+00:00:23.340 --> 00:00:25.310
+Stephen Curran: unqualified dids.
+
+4
+00:00:26.530 --> 00:00:39.949
+Stephen Curran: we are recording. So we'll be posting a recording afterwards reminder. This is a Linux Foundation Hyper Ledger Foundation meeting. So the Linux Foundation Co. any trust policy is in effect.
+
+5
+00:00:39.960 --> 00:00:42.880
+Stephen Curran: as is the Hyper Ledger code of conduct.
+
+6
+00:00:43.720 --> 00:00:53.389
+Stephen Curran:  Anyone new to the meeting that would like to introduce themselves, say I, or talk about what they're doing in the community.
+
+7
+00:00:53.790 --> 00:00:58.839
+Stephen Curran: Feel free to do so now, or if anyone has any announcements, please grab the mic
+
+8
+00:01:04.420 --> 00:01:06.959
+Stephen Curran: any topics to add to the agenda.
+
+9
+00:01:09.750 --> 00:01:10.889
+Stephen Curran: All right.
+
+10
+00:01:11.320 --> 00:01:35.530
+Stephen Curran:  I'll start with release status updates, notably. release 0 9 0 of acupy has been released with the new credits implementation of it on credit. So the removal of the dependency and a series of performance improvements and fixes
+
+11
+00:01:35.650 --> 00:01:47.750
+Stephen Curran: in the Cl signatures implementation. So for a non-cred. So that's in place, and the release was completed earlier this week. I actually haven't sent out the full announcement yet
+
+12
+00:01:48.270 --> 00:01:59.539
+Stephen Curran: is on my list for today to let everyone in the community know anyone else have any announcements from the various projects
+
+13
+00:02:06.980 --> 00:02:20.809
+Warren Gallagher: Steven. I was at the Afgh call last week, and had shared the information from this call for previously about wanting to deprecate
+
+14
+00:02:21.330 --> 00:02:33.340
+Warren Gallagher: did the Indie SDK and so there was a fair amount of discussion about that, and Timo was to get in touch with you, to make sure that
+
+15
+00:02:33.630 --> 00:02:38.339
+Warren Gallagher: all the he he understood everything that was going to need to happen, and everybody was in sync.
+
+16
+00:02:38.910 --> 00:02:40.020
+Stephen Curran: Okay.
+
+17
+00:02:40.860 --> 00:02:51.729
+Stephen Curran: I have not yet heard from him, but hopefully, will I send him a few notes this morning about other upgrades so hopefully that'll come out as well.
+
+18
+00:02:51.780 --> 00:02:53.040
+Stephen Curran: Thank you for that.
+
+19
+00:02:55.000 --> 00:03:03.829
+Stephen Curran: And we did meet with the Aries Vcx crew, who are, I see, on the call today as well. And they're
+
+20
+00:03:04.620 --> 00:03:17.120
+Stephen Curran: doing their work on that. And wanted some other updates and information about using in particular, the and on credits rust implementation. So
+
+21
+00:03:17.370 --> 00:03:20.519
+Stephen Curran: that, too, is moving forward to the
+
+22
+00:03:24.850 --> 00:03:26.020
+Stephen Curran: okay.
+
+23
+00:03:26.920 --> 00:03:39.940
+Stephen Curran: let's get into our main topics. Helen, I see you are here, and Alex as well. But can you talk to us about the marketing update? Or do you want to share?
+
+24
+00:03:40.440 --> 00:04:08.100
+Helen Garneau: nothing to share today? but yeah, happy to give an update We met yesterday with the Aries marketing working group and had, a few folks join us, which is great to have further feedback. on the results of the the survey that we had presented. at the last meeting here. that Alex presented and so got got some really great feedback from others in the community who had
+
+25
+00:04:08.100 --> 00:04:31.109
+Helen Garneau: just some the help rounded out that the the survey results, which is great. So our next step is that we've identified is to now reach out to the Hyper Ledger Foundation staff and talk with them about updating the the website. they're in the process of updating the the entire hyper ledger website. So we're we're trying to figure out how to get in there
+
+26
+00:04:31.110 --> 00:04:49.190
+Helen Garneau: kind of their workflow to get some of that information updated. and then we'll move towards making sure that we are in alignment with the the layout. kind of the prescribed layout that is already there for projects, and the wiki as well. So a lot of the conversation yesterday was talking about
+
+27
+00:04:49.190 --> 00:05:23.199
+Helen Garneau: how high level to start some of the messaging and communications and kind of overview and then how to kind of lower the barrier of entry for use. Adoption contributions, involvement in the community for developers as well. So kind of how to describe what the say business decision maker needs to see wants to see. We want them to see, and then how to direct the developers where to go as well. So I'm really excited for the progress in the kind of maturity of
+
+28
+00:05:23.200 --> 00:05:37.610
+Helen Garneau: of what we're talking about and the direction we're going. And now it's all about finding the right way to implement it across the kind of various touch points. that folks reach when they are heading towards Aries. So
+
+29
+00:05:37.610 --> 00:05:43.040
+Helen Garneau: stay tuned for for those updates. between now, and probably our next meeting.
+
+30
+00:05:43.670 --> 00:05:44.450
+Stephen Curran: Cool.
+
+31
+00:05:45.240 --> 00:05:55.159
+Stephen Curran: we're having an internal workshop at BC, Gov. Helen, that. We hope it will be a
+
+32
+00:05:55.970 --> 00:06:17.770
+Stephen Curran: The start of a series of workshops that simplify the ramp up for developers, and that that can be used, you know, repeatedly within our organization, but also will apply outside and so make it that that an initial client much much easier than it's been in the past.
+
+33
+00:06:18.310 --> 00:06:24.640
+Helen Garneau: That sounds awesome. Yeah, I know a lot of organizations are really trying to correct that net in terms of trying to.
+
+34
+00:06:24.720 --> 00:06:41.500
+Helen Garneau: Yeah, it just increase adoption, reduce time to adoption, etc. we at a DC just put out a a short kind of beginner's guide yesterday. that we're circulating. Yeah, that's more more geared towards the business audience, really explaining what?
+
+35
+00:06:41.550 --> 00:07:01.529
+Helen Garneau: What verifiable credentials do, what I mean? Very, very kind of a very high level. but I think it's it's that sort of essential guide that I think a lot of people especially business decision makers kind of need early on in their their process. So yeah, I I I'm happy to post that somewhere. If if folks are interested
+
+36
+00:07:01.740 --> 00:07:04.540
+Warren Gallagher: I would be interested in that as well.
+
+37
+00:07:05.440 --> 00:07:11.290
+Helen Garneau: Oh, cool. Maybe I'll just put it on the discord. A a link or something so cool. Okay.
+
+38
+00:07:11.340 --> 00:07:30.740
+Stephen Curran:  we're also seeing, by the way for developers that I'm I'm helping or working with. a person who's new to the community. And every turn they hit, and one problems on a Mac. so we do have to figure out how to deal with that.
+
+39
+00:07:31.390 --> 00:07:42.249
+Stephen Curran: we're almost there. We've got lots of fixes, but not quite everywhere. So one thing that I would suggest the different projects do is is make sure that
+
+40
+00:07:42.440 --> 00:07:57.710
+Stephen Curran: somebody is trying these on a on a plane, M. One Mac, and seeing how they go and cause that's super frustrating when you're just trying to try out the tools. And even the Demos don't work because of of issues like that.
+
+41
+00:07:58.400 --> 00:07:59.480
+Stephen Curran: Okay?
+
+42
+00:07:59.550 --> 00:08:31.290
+Helen Garneau: Oh, and just one last thing is that our next Hyper Ledger Ares marketing committee works meeting is. It's last Tuesday, the month, so there'll be one in our next ones in August. And again, even if you're not a marketer, you're not necessarily interested in marketing per se. But you do have opinions about what is useful information for different audiences. please, please please join us. That's the best Some of the best conversation yesterday happen from folks that aren't necessarily in in the marketing realm. But
+
+43
+00:08:31.290 --> 00:08:47.840
+Helen Garneau: definitely have opinions and ideas about kind of Aries communication, and we will be extending a special invitation to Steven and Sam to join us, because we have some questions that we'd like to pick your brain about. So hopefully, you guys can join us as well in August. So I'll try to get that on your calendars.
+
+44
+00:08:48.170 --> 00:08:55.310
+Stephen Curran: one of the thing to point out to everyone is that I believe Hyper Ledger is said quarter-three is identity
+
+45
+00:08:55.750 --> 00:09:18.350
+Stephen Curran: themed. So basically, anyone that wants to, you know, do some promotion, or or have hyper Ledger promote what they're doing in the community, what they're doing, what their product does and things like that. that's a great opportunity to use Hyper Ledger to do that and
+
+46
+00:09:18.360 --> 00:09:22.829
+Stephen Curran: and and we encourage that. So definitely, keep that in mind.
+
+47
+00:09:23.330 --> 00:09:43.130
+Helen Garneau: Yeah. And if you have any questions. Please feel free to direct your market marketer folks, marketing team folks on your teams to me, and I'm happy to answer any questions or to been. you know the Hyper Ledger staff they've been putting out yeah, lots of messages about it. So if you have questions or need need further information, please. yeah. Don't hesitate to reach out.
+
+48
+00:09:43.240 --> 00:09:44.970
+Stephen Curran: Awesome. Excellent.
+
+49
+00:09:45.470 --> 00:09:46.350
+Helen Garneau: No problem.
+
+50
+00:09:47.010 --> 00:09:52.280
+Stephen Curran: Okay. Aries in Dorser service.
+
+51
+00:09:52.340 --> 00:09:57.890
+Stephen Curran: we're doing some work in BC, go. So I we thought we would
+
+52
+00:09:59.100 --> 00:10:13.319
+Stephen Curran: share this presentation and sort of set the seat and then talk about what we're doing. So Aries endorse our service for those not aware areas in Dorset service. is a
+
+53
+00:10:13.430 --> 00:10:19.779
+Stephen Curran: Aries repo that contains a pre-configured version of occupy
+
+54
+00:10:19.860 --> 00:10:29.930
+Stephen Curran: to act as an endorser. So the idea there is that in your own enterprise and your own environment you can spin up and Aries endorse or service
+
+55
+00:10:30.000 --> 00:10:36.070
+Stephen Curran: and then point your Aries agents to use that when necessary.
+
+56
+00:10:36.280 --> 00:10:56.379
+Stephen Curran: so this this presentation is about going beyond rejecting or accepting everything which is where we're at today with the areas endorse or service. So a reminder of what the Aries endorse or services originally implemented to support the Hyper Ledger Indian Dorser model. So on in the
+
+57
+00:10:56.460 --> 00:11:00.370
+Stephen Curran: an endorser is allowed. An endorser is a role.
+
+58
+00:11:00.590 --> 00:11:23.469
+Stephen Curran: that is given to it did, and a an endorser is allowed to write transactions and allow to endorse transactions for others. So basically the adores are uses there did. And verification key from there did on the indie network when writing transactions to the network for themselves.
+
+59
+00:11:23.510 --> 00:11:36.189
+Stephen Curran: but they are also use that to endorse transactions for others. And so the common pattern is for an organization to have a single endorser, and for any other
+
+60
+00:11:36.250 --> 00:11:44.530
+Stephen Curran: services within the enterprise. to not be an endorser, but rather be an author.
+
+61
+00:11:45.500 --> 00:12:06.890
+Stephen Curran:  an author is not allowed to write transactions unless they are endorsed means signed by an endorseer. So basically, all of the other issuers within an an entity, would send a note to an endorseer, saying, Hey, here's this transaction I want to write. Can you endorse it for me? The endorser signs it.
+
+62
+00:12:06.940 --> 00:12:09.080
+Stephen Curran: and either
+
+63
+00:12:09.980 --> 00:12:32.240
+Stephen Curran: writes it. The endorser, you know, submits the transaction for writing, or sends it back to the author, and the author sort of makes it for writing either works. As long as the signatures are in place, the author must have constructed the transaction, the endorser must have signed it, and then, after that whoever submits it is is is able to do so.
+
+64
+00:12:32.740 --> 00:12:43.429
+Stephen Curran: And then on a public indie ledgers. Endorsers are responsible for for paying a try paying for a transaction that they write, and that they endorse.
+
+65
+00:12:43.530 --> 00:12:52.299
+Stephen Curran: So The ledger itself doesn't care what transactions they write as long as they're properly signed by the author.
+
+66
+00:12:52.440 --> 00:12:59.929
+Stephen Curran: and if necessary, and endorser and then that the endorser would then be charged for them. So
+
+67
+00:13:00.430 --> 00:13:05.430
+Stephen Curran: I would note that this model of having a central
+
+68
+00:13:05.560 --> 00:13:07.480
+Stephen Curran: endorsing
+
+69
+00:13:08.260 --> 00:13:35.909
+Stephen Curran: service within an enterprise may be useful on other verifiable data registry. So as we start to think about using other services the enterprise might have want to have control over who's allowed to write. So an example is in DC. Gov, we have a Central Digital Trust. And I think I've got that in here. Maybe I don't. I? I I think I've got it later. But basically, I'll I'll cover it briefly, in DC, Gov, we have a digital trust
+
+70
+00:13:35.910 --> 00:13:44.910
+Stephen Curran: group. And that digital trust group is charged with making sure that
+
+71
+00:13:45.150 --> 00:13:47.330
+Stephen Curran: other groups follow the
+
+72
+00:13:47.470 --> 00:14:16.530
+Stephen Curran:  policies and regulations. for using for issuing credentials and for using common schemas and and doing things in a a collaborative way. So digital trust group is basically the endorser. And so, even, you know, even if we weren't using India, we would still want that control to make sure that organizations within PC, gum, are not
+
+73
+00:14:16.770 --> 00:14:24.340
+Stephen Curran: issuing credentials, for example, that they're not authorized to issue. They're not the actual authority over we don't want
+
+74
+00:14:25.110 --> 00:14:33.850
+Stephen Curran: rogue organizations. If you will. issuing credentials that they shouldn't be issuing on behalf of the Vc Gov.
+
+75
+00:14:34.510 --> 00:14:35.560
+Stephen Curran: okay.
+
+76
+00:14:36.450 --> 00:14:51.249
+Stephen Curran:  so basically within occupy at least, and and certainly with the endorser service. there's 2 roles. The author role in the endorser role. the author simply has to know who is my endorser.
+
+77
+00:14:51.410 --> 00:15:09.389
+Stephen Curran: currently they can only have one reflecting that an author only writes to a single ledger. So we in BC got, for example, we write to multiple ledgers. There's an endorseer for each of those ledgers an author needs to know, hey? Which lens or do I write to? And therefore which endorse? Or do I use.
+
+78
+00:15:09.920 --> 00:15:13.310
+Stephen Curran: Basically, the A of the author is handed a
+
+79
+00:15:13.340 --> 00:15:26.229
+Stephen Curran: did for the endorser, and they can establish a connection with that endorser. And then and then send transactions to be endorsed. the endorser needs to know if it's endors or did
+
+80
+00:15:26.460 --> 00:15:41.880
+Stephen Curran: whether it should auto accept a connection request? Should I just accept a connection from anyone that sends them. Should I auto endorse, request every time an endorse or sends, or a an author sends a request, should I endorse it
+
+81
+00:15:42.820 --> 00:15:44.910
+Stephen Curran: and
+
+82
+00:15:45.070 --> 00:15:48.290
+Stephen Curran: the endorser service doesn't have a controller
+
+83
+00:15:48.500 --> 00:16:16.749
+Stephen Curran: right now. So it isn't built in. You have to build your own it with the Aries endorse or service. So as a result of it, if there is no controller that you've implemented, no business rules that you've implemented, it's an auto reject service, and that's the why I had that in the title right now the Aries endorse or service that exists, either. Auto endorses everything because you've told it to, or rejects everything because there's no controller to override.
+
+84
+00:16:16.800 --> 00:16:19.129
+Stephen Curran: rejecting the requests.
+
+85
+00:16:20.090 --> 00:16:24.350
+Stephen Curran:  There is a configuration on writing.
+
+86
+00:16:24.530 --> 00:16:25.870
+Stephen Curran: You know the it.
+
+87
+00:16:27.960 --> 00:16:52.609
+Stephen Curran:  Sorry that the first sentence in this is wrong. This would say, the author must write the transaction to create. Oh, sorry, no, this is right. When using this for rights to actual to indie the endorser must write the transaction to create. The authors did so. The author really has no role in writing the transaction that creates the authors did.
+
+88
+00:16:52.680 --> 00:17:04.310
+Stephen Curran: The author sends the did over, not the transactions, but rather that did in the bare key. And then the endorser writes the transaction and submits it to the ledger.
+
+89
+00:17:05.440 --> 00:17:23.460
+Stephen Curran: For all other transactions. The author wants to create, to create a schema, credit, death, revocation registries, and so on. The author must create the transaction. Send it over to the endorser. The endorseer may execute the signed transaction, or the endorser may pass it back
+
+90
+00:17:23.460 --> 00:17:45.979
+Stephen Curran: to the author to submit. So either of those work it doesn't really matter to Indie, who who submits it as long as the correct signatures are on the transaction. The author has to be the author, the and the endorse, or has to endorse it. So that's basically the roles and and functionality of the of of of the endorseer service.
+
+91
+00:17:47.760 --> 00:17:53.530
+Stephen Curran:  so preliminary ideas we had for
+
+92
+00:17:54.500 --> 00:17:56.129
+Stephen Curran: for what? The
+
+93
+00:17:56.870 --> 00:18:00.879
+Stephen Curran: what a a finer grained
+
+94
+00:18:01.360 --> 00:18:20.060
+Stephen Curran: control, or might have a finer cru implementation. So authors might be authenticated somehow, and authors would have all or nothing privileges. In other words, if an author was allowed to use an endorseer, then that auto correct would work. The author could write
+
+95
+00:18:20.370 --> 00:18:24.490
+Stephen Curran: whatever it wanted, so a way we could enforce
+
+96
+00:18:24.560 --> 00:18:33.309
+Stephen Curran:  control over the in the endorser would be to create some sort of allow list, a list of dids
+
+97
+00:18:33.430 --> 00:18:44.139
+Stephen Curran: allowed to be endorsed. It's a bit tricky, because the author did is not known until the first time they request there did be created so
+
+98
+00:18:44.210 --> 00:19:07.319
+Stephen Curran:  So they would submit a request, and then it would be held until it would either be rejected or right off, or held until there did was allowed put into an allow list. And so then we thought, well, we need a ui for managing the allow list we need. We need a way for people to add and and remove dids from it.
+
+99
+00:19:07.950 --> 00:19:19.000
+Stephen Curran: But that's hard to do. You know, if you're having a generic service, how do you create a a ui that will fit everyone's use? That's that's pretty tricky.
+
+100
+00:19:19.340 --> 00:19:23.630
+Stephen Curran:  oops.
+
+101
+00:19:24.810 --> 00:19:35.779
+Stephen Curran:  this touches back on the BC Gov requirements. But a little bit more we have. That's I mentioned the the digital identity and trust group approve rights to the ledger.
+
+102
+00:19:36.310 --> 00:19:50.860
+Stephen Curran: we we wanted. Vc, Gov wanted finer brain controls. They actually wanted permission, not over just whether a a an author is allowed to write transactions, but rather
+
+103
+00:19:50.960 --> 00:19:52.110
+Stephen Curran: every
+
+104
+00:19:52.130 --> 00:20:14.020
+Stephen Curran: specific transaction. be approved. So, in other words, if an author wants to write a particular schema. We would want the digital identity and trust through. To look over that scheme or review the schema agree. It is necessary, agree that it's appropriate that this group use this schema and not use one that already exists.
+
+105
+00:20:14.150 --> 00:20:24.799
+Stephen Curran: If if the schema should be one that already exists. The you know the the request to write a schema would be rejected.
+
+106
+00:20:24.980 --> 00:20:36.990
+Stephen Curran: similarly, you know, a a credential definition, and so on. So basically, we wanted control, not just over who the authors were, but actually each transaction that the author wants to write.
+
+107
+00:20:37.050 --> 00:20:43.739
+Stephen Curran: Now that that creates a a a logistics problem, how do we implement such a thing
+
+108
+00:20:43.940 --> 00:20:51.679
+Stephen Curran: without that. And with that I'm going to turn it over to Emiliano Sunni, who is
+
+109
+00:20:52.180 --> 00:20:55.600
+Stephen Curran: working on ideas for
+
+110
+00:20:56.420 --> 00:21:01.410
+Stephen Curran: for implementing such a thing. So I'll stop sharing and pass it to you. A milliona
+
+111
+00:21:01.750 --> 00:21:02.730
+Emiliano Suñé: thanks even
+
+112
+00:21:03.410 --> 00:21:07.490
+Emiliano Suñé:  I'll put a link in the chat in the meantime, because
+
+113
+00:21:08.160 --> 00:21:10.699
+Emiliano Suñé: what I'm gonna be sharing for the most part.
+
+114
+00:21:11.420 --> 00:21:14.799
+Emiliano Suñé: if I figure out how to share the screen, that would be great.
+
+115
+00:21:16.750 --> 00:21:24.359
+Emiliano Suñé: there is a button, I'll share screen it. You know, it's for me you're welcome.
+
+116
+00:21:24.490 --> 00:21:26.929
+Emiliano Suñé: all right. I think you can see my screen right?
+
+117
+00:21:27.890 --> 00:21:28.650
+Stephen Curran: Yeah.
+
+118
+00:21:29.210 --> 00:21:32.579
+Emiliano Suñé: So this is the an issue that I've logged.
+
+119
+00:21:33.030 --> 00:21:40.030
+Emiliano Suñé: and we've been having a conversation on in the here is in Dorset Service Repository in Github.
+
+120
+00:21:40.290 --> 00:21:42.409
+Emiliano Suñé: and the she describes
+
+121
+00:21:42.490 --> 00:21:52.089
+Emiliano Suñé: a little less in detail. but Steven, just exposed. So sort of like the requirements, we're looking at it implementing and
+
+122
+00:21:52.630 --> 00:22:01.080
+Emiliano Suñé: provides a suggestion or an initial starting point, and how to implement these access control, these
+
+123
+00:22:01.580 --> 00:22:05.090
+Emiliano Suñé: endorsement. more granular controls
+
+124
+00:22:05.120 --> 00:22:08.170
+Emiliano Suñé: and configurations. the idea
+
+125
+00:22:08.250 --> 00:22:10.560
+Emiliano Suñé: was to keep it
+
+126
+00:22:11.000 --> 00:22:17.230
+Emiliano Suñé: as simple as possible, at least for the first cut, as even mentioned. It's it's hard to come up with, like a
+
+127
+00:22:17.620 --> 00:22:22.290
+Emiliano Suñé: ux that works for everybody and especially if you, if you're looking at
+
+128
+00:22:23.480 --> 00:22:26.950
+Emiliano Suñé: at the Ui controls. So we
+
+129
+00:22:27.160 --> 00:22:34.750
+Emiliano Suñé: try to put together something that should work in most cases and should be extensible in the future. without
+
+130
+00:22:34.820 --> 00:22:37.970
+Emiliano Suñé: too many issues. I'll just kim
+
+131
+00:22:38.110 --> 00:22:45.319
+Emiliano Suñé: skip to the bottom the recommendation just to keep an overview, and then we can open the conversation. If you want.
+
+132
+00:22:45.350 --> 00:22:55.130
+Emiliano Suñé: The idea would be to have a few different levels of authorization. that are stored in the endorser service as a
+
+133
+00:22:55.610 --> 00:23:02.609
+Emiliano Suñé: permission matrix or allow list. So it would have at the very as an initial step, and allow list to
+
+134
+00:23:02.660 --> 00:23:05.610
+Emiliano Suñé: determine who is, in the first place allowed to
+
+135
+00:23:05.640 --> 00:23:09.100
+Emiliano Suñé: get a connection to the endorser, and even have the opportunity to request
+
+136
+00:23:09.110 --> 00:23:15.249
+Emiliano Suñé: any type of endorsement transaction. and that can be just like it.
+
+137
+00:23:15.430 --> 00:23:25.989
+Emiliano Suñé: Simple table that includes the did of the request, or or in case of multi tenant in this instances, and we're working quite a bit.
+
+138
+00:23:26.090 --> 00:23:37.950
+Emiliano Suñé: with multi tenants stack up. I in particular, with traction. We're trying to get that to be our default way to go to provision a new, a new agent for
+
+139
+00:23:38.440 --> 00:23:44.730
+Emiliano Suñé: a, a, a government business unit that requires one. So in that case, I I think we might just
+
+140
+00:23:44.750 --> 00:23:53.249
+Emiliano Suñé: want to match on the public URL for the agent. since it's gonna be the same for all of the tenants. and these will allow, will allow.
+
+141
+00:23:53.740 --> 00:23:59.570
+Emiliano Suñé: then, a lot. The the item is the allow list to establish a connection with the door, sir, nothing more.
+
+142
+00:24:00.120 --> 00:24:03.240
+Emiliano Suñé: The next step would be.
+
+143
+00:24:03.430 --> 00:24:05.949
+Emiliano Suñé: do you have a permission matrix that
+
+144
+00:24:06.240 --> 00:24:18.139
+Emiliano Suñé: finds each did to the operations that they can perform. they can public, they publish their own, did they public did on the ledger, they can publish schemas.
+
+145
+00:24:18.250 --> 00:24:23.070
+Emiliano Suñé: credit, and well publishing the did is only a true false flag.
+
+146
+00:24:23.170 --> 00:24:32.950
+Emiliano Suñé: Schemas and credits would have 3 different states that could be applied. These are reported up here that are auto manual and deny.
+
+147
+00:24:33.120 --> 00:24:37.440
+Emiliano Suñé: It comes from a suggestion from weight patterns. these are basically
+
+148
+00:24:37.570 --> 00:24:38.570
+Emiliano Suñé: the
+
+149
+00:24:40.180 --> 00:24:51.660
+Emiliano Suñé: what we'll do. Envision, seeing like the the 3 paths that could happen. if the request comes in. It could be automatically approved for a schema if more and more on that in a second. But
+
+150
+00:24:51.760 --> 00:25:05.339
+Emiliano Suñé: the endors it could work automatically on that request. It could require input from an administrator. This is what the that happens nowadays. we need to basically accept the the endorsement request via Api.
+
+151
+00:25:05.410 --> 00:25:09.620
+Emiliano Suñé: or we could add a deny in case I don't know the
+
+152
+00:25:09.900 --> 00:25:18.030
+Emiliano Suñé: that that particular author has been misbehaving, and the is not allowed to request endorsement anymore. And
+
+153
+00:25:18.300 --> 00:25:20.629
+Emiliano Suñé: this information matrix would be a top level
+
+154
+00:25:20.670 --> 00:25:24.520
+Emiliano Suñé: type of permission to explicitly set the
+
+155
+00:25:24.830 --> 00:25:29.200
+Emiliano Suñé: each did. It's allowed to do and how it everything is treated.
+
+156
+00:25:29.270 --> 00:25:32.740
+Emiliano Suñé: and there would be 2 additional allow lists.
+
+157
+00:25:33.760 --> 00:25:40.499
+Emiliano Suñé: depend on that. so there would be sort of like a a foreign key relationship on the Ds in these table
+
+158
+00:25:40.620 --> 00:25:42.220
+Emiliano Suñé: and these 2 tables.
+
+159
+00:25:42.240 --> 00:25:46.500
+Emiliano Suñé: one to allow that 1, one would be an allow list for schemas, and then
+
+160
+00:25:46.590 --> 00:25:55.719
+Emiliano Suñé: would specify schema, name and schema version that can be published. This goes back to what Stephen mentioned determine whether the author should be allowed to
+
+161
+00:25:55.910 --> 00:26:01.349
+Emiliano Suñé: publish that schema, or it would be better for them to reuse the schema that it's already published.
+
+162
+00:26:01.650 --> 00:26:04.430
+Emiliano Suñé: Some id documents might follow the
+
+163
+00:26:04.680 --> 00:26:10.790
+Emiliano Suñé: the pattern where a a higher or entity organization publishes the schema, and then.
+
+164
+00:26:11.230 --> 00:26:13.959
+Emiliano Suñé: in kind of as an example, it could be a Federal government
+
+165
+00:26:14.430 --> 00:26:25.880
+Emiliano Suñé: publishing like an Id. Documents Schema and the provincial governments having their own credential definition.  as you can see. there's a possibility of adding wild cards, and
+
+166
+00:26:26.160 --> 00:26:27.170
+Emiliano Suñé: in case
+
+167
+00:26:27.580 --> 00:26:31.710
+Emiliano Suñé: it was determined that a specific schema name
+
+168
+00:26:32.060 --> 00:26:37.090
+Emiliano Suñé:  is is okay, and for versions can be
+
+169
+00:26:37.320 --> 00:26:48.330
+Emiliano Suñé: update it automatically. And the same thing, so to speak, would happen for the credential definitions to tie any shorter scheme. I see, Steven, you have your hand up.
+
+170
+00:26:48.350 --> 00:26:58.839
+Stephen Curran: Yeah, just a quick confirmation. When you say manual on the permission matrix manual implies, go to the allow list to check versus
+
+171
+00:26:58.920 --> 00:27:09.519
+Stephen Curran:  of allow, or whatever it was called, where you don't even need to check the allow list. It's just they can do. They can do any creating schema.
+
+172
+00:27:10.020 --> 00:27:19.510
+Emiliano Suñé: Manual would just mean the like. The request gets to the endorse and stops, and then something needs to happen for it to go through
+
+173
+00:27:19.900 --> 00:27:24.740
+Emiliano Suñé: it could be updating the allow list and sort of kicking off the process. Again.
+
+174
+00:27:25.100 --> 00:27:26.130
+Emiliano Suñé: if
+
+175
+00:27:26.340 --> 00:27:48.339
+Emiliano Suñé: that specific entry can can be approved, or it could be a one off. An admin goes to the Api for the endorser, and manually approves that transaction and and moved it forward that that would be basically a way to handle exceptions. But the problem with that is that implies that the areas endorse or service will have a ui, and I think that's probably a bad idea
+
+176
+00:27:48.870 --> 00:27:58.649
+Emiliano Suñé: that you you you can call the Apis that are exposed right now, just, you know, using post one or something else right like that. That's really like a edge case scenario
+
+177
+00:27:59.900 --> 00:28:05.120
+Emiliano Suñé: could happen. It's it's there. There's no really way to prevent it, in in my opinion.
+
+178
+00:28:05.410 --> 00:28:14.690
+Emiliano Suñé: and depending on who's running the endorse or service. They may or may not, they may decide to to do it that way or not like. That's what would happen right now, like right now, if the
+
+179
+00:28:14.900 --> 00:28:22.379
+Emiliano Suñé: there's nothing in place. So if you sent to send a an endorsement request to the endorser, the transaction would just.
+
+180
+00:28:22.890 --> 00:28:32.190
+Emiliano Suñé: it will either be approved automatically, which is definitely what wouldn't, not what we want, or sit there until an administrator goes to the Api and
+
+181
+00:28:32.950 --> 00:28:38.110
+Emiliano Suñé: calls the Api's for the agent to approve the endorsement request.
+
+182
+00:28:38.280 --> 00:28:42.480
+Stephen Curran: Okay? So what I'm suggesting is that that hang
+
+183
+00:28:42.590 --> 00:28:52.159
+Emiliano Suñé: option not be an option that basically they not be possible at all. They'll either get accepted or rejected. And
+
+184
+00:28:52.490 --> 00:29:11.610
+Stephen Curran: and and therefore either, you know, it's either if it's manual, and it's on the allow list. It would be accepted. But if it's manual and not on the allow list, it would get rejected, and and it would be the responsibility of the caller to decide if they are what to do about
+
+185
+00:29:11.960 --> 00:29:13.500
+Stephen Curran: retry
+
+186
+00:29:16.060 --> 00:29:16.900
+Emiliano Suñé: gotcha.
+
+187
+00:29:18.550 --> 00:29:33.820
+Kim Ebert: So Ste. You know, the the system challenges and manual workflows. because then you end up having to pull the all the endorser service to for exception. Right?
+
+188
+00:29:36.700 --> 00:29:37.690
+Stephen Curran: Yes.
+
+189
+00:29:38.010 --> 00:29:44.190
+Stephen Curran: yes, but the benefit of that is the endorser service is
+
+190
+00:29:44.340 --> 00:29:53.820
+Stephen Curran: It has no interface, no user interface, and no need to hang on to things. Otherwise you're you're basically just hung there.
+
+191
+00:29:54.120 --> 00:29:58.349
+Stephen Curran: if you reject it, at least you can have some.
+
+192
+00:29:58.850 --> 00:30:06.939
+Stephen Curran: So my thought is presumably the organization that the knows how endorsement happens.
+
+193
+00:30:07.160 --> 00:30:14.149
+Stephen Curran: you know how approval happens, such that they get on the allow list so they could decide what their retry strategy would be.
+
+194
+00:30:18.320 --> 00:30:19.320
+Kim Ebert: So there's
+
+195
+00:30:19.990 --> 00:30:28.080
+Kim Ebert: this, this, this endorser service, then, won't have any Apis to do manual processing that it does
+
+196
+00:30:30.040 --> 00:30:57.780
+Wade Barnes: it? It doesn't. But that that's why they what the the manual step was set there. Wait! Can I just want to throw in my 2 bits? I I the manual. The manual approval is already an existing workflow within the endorse of service. I think it should be left there, and it should be left as an option, simply because somebody somebody might decide to, you know, build out a ui around the endorse or service, and I don't think we want to stop them from being able to do that
+
+197
+00:30:57.880 --> 00:31:11.020
+Wade Barnes: manual process, in my opinion would be if you had a ui, basically, what would happen? Let's say somebody requested a endorsement of a particular schema.
+
+198
+00:31:11.020 --> 00:31:37.930
+Wade Barnes: if you built in, you know, if you built a a a Ui and notification system around that, if you decided to, you would end up having notification that a requests come in that would be queued for a for review that you could go in review the request, review the schema, and then, you know, a approved that through. Ui, I don't think we want to, you know, preclude people from being able to, you know. Do enhancements like that?
+
+199
+00:31:39.380 --> 00:31:56.629
+Tim Bloomfield: This is Tim, and yeah, in Ontario that would break our our complete automation if we didn't have that that ability. So we use pipelines to approve And the dorses don't know anything about the D's really not much. Anybody do, but they get request by a ticket.
+
+200
+00:31:56.860 --> 00:32:02.519
+Tim Bloomfield: and then they go in, and they have these pipelines to approve, you know, against the Apis.
+
+201
+00:32:03.020 --> 00:32:29.809
+Tim Bloomfield: and there's a chicken egg problem, I think, the other way around in terms of process. I'm not so sure you can always pre-configure the the allow lists before the requests are made. I'm not sure that's the right. Necessarily the right process it might be, but I think this the reverse of having requests come in and then be approved, makes a lot of sense to certain flows, especially if you're using a ticketing system or a a an enterprise request of sort of service. to request
+
+202
+00:32:29.830 --> 00:32:40.439
+Tim Bloomfield: approvals for things external to this, anyway, that's why we're doing it. So yeah, I I just I breaking that that that pattern will break our entire deployment.
+
+203
+00:32:42.140 --> 00:32:50.170
+Stephen Curran: so total now of total agreement. But now I think it just means that there should be a fourth one.
+
+204
+00:32:50.200 --> 00:32:52.320
+Stephen Curran: which is, allow list
+
+205
+00:32:52.500 --> 00:32:56.149
+Stephen Curran: so that you get so that
+
+206
+00:32:56.280 --> 00:33:14.019
+Wade Barnes: it it can be that you get approval or rejection based on whether it's in the allow list or not.
+
+207
+00:33:14.260 --> 00:33:20.269
+Stephen Curran: Okay. Auto meant whatever they want.
+
+208
+00:33:20.370 --> 00:33:39.079
+Wade Barnes: So they would be endorsed if it came from a certain did, then it would be endorsed, and I think that is also another policy should that should be there. So that's why I would say there should be a fourth one. Well, that that that would be. You would have auto what the did permission matrix. And then you would have the did listed in the allow list for schemas with
+
+209
+00:33:39.080 --> 00:33:50.670
+Wade Barnes: with name and version as wild cards, and in the credential definition, a long list at with wild cards all across. That would basically auto endorse anything
+
+210
+00:33:50.740 --> 00:33:55.660
+Stephen Curran: running through it. For an example here of how we're
+
+211
+00:33:55.690 --> 00:33:59.639
+Emiliano Suñé: how the things were were thought through or or not through.
+
+212
+00:33:59.750 --> 00:34:07.869
+Emiliano Suñé: but that's to some extent just to try and clarify. The one note is noted up here. I kind of like skipped
+
+213
+00:34:07.910 --> 00:34:18.940
+Emiliano Suñé: over it, because I kind of assumed that I was known. Keep in mind that there's plugs that can be set at the agent level to
+
+214
+00:34:19.060 --> 00:34:25.979
+Emiliano Suñé: fully automate certain types of actions as an example connections. You you might
+
+215
+00:34:26.239 --> 00:34:36.820
+Emiliano Suñé: set the endorser to always accept connections from everybody, but not process any request until further rules or input are are in place.
+
+216
+00:34:37.340 --> 00:34:39.409
+Emiliano Suñé: anyway, if we do.
+
+217
+00:34:39.500 --> 00:34:43.600
+Emiliano Suñé: just just to run through an example that might help clarifying what what I meant.
+
+218
+00:34:43.639 --> 00:34:44.880
+Emiliano Suñé: say, like
+
+219
+00:34:45.070 --> 00:34:52.209
+Emiliano Suñé: some a tenant from a multi-tenant service with the did ui whatever is asking to connect
+
+220
+00:34:52.780 --> 00:34:58.869
+Emiliano Suñé: for the endorser? If this is the base URL, the connection would happen automatically.
+
+221
+00:34:58.900 --> 00:35:07.819
+Emiliano Suñé: But until something else is set in the permission matrix and allow this, it no operations would be automatically endorsed.
+
+222
+00:35:07.880 --> 00:35:12.780
+Emiliano Suñé: Somebody would call in the in and configure the provision matrix to include
+
+223
+00:35:12.830 --> 00:35:15.629
+Emiliano Suñé: the the did and set
+
+224
+00:35:15.990 --> 00:35:28.729
+Emiliano Suñé: these flags the the way that they want it. So did pop. Public true means like these did will be able to request the endorser to publish the date to the ledger
+
+225
+00:35:28.810 --> 00:35:32.739
+Emiliano Suñé: and in Torso we'll accept the transaction, and we'll do it. That's
+
+226
+00:35:33.080 --> 00:35:37.380
+Emiliano Suñé: sort of like the only way to do it as the based on what it the presentation it's even gave
+
+227
+00:35:37.490 --> 00:35:52.110
+Emiliano Suñé: before explains. And then, based on these flags as weed was what was explaining, say, like the Schema endorsement. If these was set to deny the transaction request would be rejected
+
+228
+00:35:52.690 --> 00:35:54.650
+Emiliano Suñé: very clear and in and loud.
+
+229
+00:35:54.920 --> 00:36:01.249
+Emiliano Suñé: If it is set to manual, the trans. That the transaction is not rejected or accepted, it sits there and
+
+230
+00:36:01.370 --> 00:36:13.040
+Emiliano Suñé: goes in in a queue for an administrator or some kind of process. That means there could be a to it theoretically like in a autom automated process to review it and act on it.
+
+231
+00:36:13.540 --> 00:36:26.310
+Emiliano Suñé: If it is set to auto, then it would drill down and look into the Allow list for the specific item. Let's say this is the schema and check. If there is a did registered.
+
+232
+00:36:26.470 --> 00:36:31.200
+Emiliano Suñé: or that matches the one that is making the request.
+
+233
+00:36:31.310 --> 00:36:36.139
+Emiliano Suñé: If the schema that is being requested, endorsement for is in the allow list.
+
+234
+00:36:36.250 --> 00:36:44.160
+Emiliano Suñé: and if the version for that schema isn't the allow list, keep in mind, it could be wild cards. So in theory, if I really wanted to have something super open.
+
+235
+00:36:44.180 --> 00:36:47.379
+Emiliano Suñé: don't know the reason why I could put the wild cards in both columns.
+
+236
+00:36:47.600 --> 00:36:51.879
+Emiliano Suñé: In that case, if the the Allow list has an auto plug
+
+237
+00:36:52.020 --> 00:37:08.879
+Emiliano Suñé: and there is a match in the allow in in the allow list, then the the operation is completed, otherwise it would fall back onto the previous state sort of like hierarchically, which is manual, and it would just like sit there and wait for somebody to
+
+238
+00:37:08.980 --> 00:37:10.119
+Emiliano Suñé: to act on it.
+
+239
+00:37:10.360 --> 00:37:14.469
+Emiliano Suñé: We could change the default behavior to be to deny it. That's
+
+240
+00:37:14.670 --> 00:37:21.150
+Emiliano Suñé: something we we can discuss based on, or we could make it configurable. But that's kind of like how the the workflow
+
+241
+00:37:21.220 --> 00:37:24.909
+Emiliano Suñé: would go through. I see Warren has his hand up.
+
+242
+00:37:27.960 --> 00:37:35.550
+Warren Gallagher: Yeah, another possible use case, for this is something where?
+
+243
+00:37:35.920 --> 00:37:38.649
+Warren Gallagher: let's say you're a
+
+244
+00:37:38.680 --> 00:37:45.340
+Warren Gallagher: a software as a service operator, and you're running a multi-tenant acupy
+
+245
+00:37:45.470 --> 00:37:49.169
+Warren Gallagher: on behalf of a whole bunch of other
+
+246
+00:37:49.510 --> 00:37:57.710
+Warren Gallagher: issuers and verifiers. and you want to be able to
+
+247
+00:37:57.850 --> 00:38:05.330
+Warren Gallagher: have them be able to publish their their schemas and their credit deaths, and the like
+
+248
+00:38:05.850 --> 00:38:10.550
+Warren Gallagher: without them having to be in a list. But you're controlling access
+
+249
+00:38:10.580 --> 00:38:27.229
+Warren Gallagher: to the endorser through your, you know your network policies and whatever authentication mechanism. And so you don't necessarily want to be updating the endorsers lists to allow those those functions. So
+
+250
+00:38:27.300 --> 00:38:34.189
+Warren Gallagher: this is creating an overhead for that kind of deployment. If I understand this correctly
+
+251
+00:38:34.680 --> 00:38:44.990
+Emiliano Suñé:  I mean, there would be a a small overhead, because the list would have to be maintained. But again, you could use wild cards for most of the
+
+252
+00:38:45.590 --> 00:38:58.719
+Emiliano Suñé: well, most the the schema is in credential definition, the permission matrix would be set explicitly to sort of like. There's a record that the agency or an endorsement company accepted to indoors
+
+253
+00:38:59.030 --> 00:39:05.389
+Emiliano Suñé: transactions for that specific day, and I I believe that could also be automated. I'll just give a a
+
+254
+00:39:05.520 --> 00:39:08.990
+Emiliano Suñé: take step forward, tiny bit to explain that.
+
+255
+00:39:09.170 --> 00:39:13.820
+Emiliano Suñé: the idea, at least initially, to make things simple and also tied into what.
+
+256
+00:39:14.380 --> 00:39:18.900
+Emiliano Suñé: as we as we see golf, think we might be using is to have
+
+257
+00:39:19.170 --> 00:39:22.039
+Emiliano Suñé: these tables and
+
+258
+00:39:22.690 --> 00:39:32.049
+Emiliano Suñé: in the endorser service match one to one Csv files. It can be maintained by the business user, or rather than having a developer having to go in and
+
+259
+00:39:32.430 --> 00:39:38.109
+Emiliano Suñé: and and changing the database, or having a specific Ui. the Csv files can be stored
+
+260
+00:39:38.160 --> 00:39:42.680
+Emiliano Suñé: somewhere. In our case it might be a Github Repository as an example.
+
+261
+00:39:42.770 --> 00:39:52.429
+Emiliano Suñé: and maintained via pull request that provides the benefit of being able to run this on the State at different them
+
+262
+00:39:52.760 --> 00:39:58.810
+Emiliano Suñé: moments in time and see the diff when you, when a request for update is is being submitted.
+
+263
+00:39:58.860 --> 00:40:02.909
+Emiliano Suñé: and then it then also would just expose some
+
+264
+00:40:02.930 --> 00:40:06.410
+Emiliano Suñé: Api endpoints to load those files, so to speak.
+
+265
+00:40:06.440 --> 00:40:09.759
+Emiliano Suñé: and the load process would be a fairly simple.
+
+266
+00:40:10.020 --> 00:40:17.729
+Emiliano Suñé: Whatever you're giving me is the the snapshot of what I'm gonna be using. There's not going to be update or merging or off
+
+267
+00:40:18.510 --> 00:40:22.549
+Emiliano Suñé: off records. It's gonna be. I don't know. I just pushing the credential definition of law list.
+
+268
+00:40:22.620 --> 00:40:30.080
+Emiliano Suñé: This is the new one. Everything that is there will be replaced. And because it would be iterative that should not.
+
+269
+00:40:30.340 --> 00:40:33.489
+Emiliano Suñé: Yeah. A big problem in tearing. Steven.
+
+270
+00:40:34.600 --> 00:40:59.519
+Stephen Curran: Yeah, 2 things like it's cool question answered actually by ready to talk your screen. What? What connections are allowed? So connection is allowed from your multi 10. It occupides. You could then say, the global So only connections from here would be created. But you auto endorse everything else. I think that covers your case.
+
+271
+00:40:59.760 --> 00:41:07.950
+Stephen Curran:  you still might want the overhead of of adding and it addition just in case
+
+272
+00:41:08.150 --> 00:41:17.820
+Stephen Curran: you know, a in a 0 trust idea. You might want to use a little bit more, but but that's a possibility. so I think that would cover it.
+
+273
+00:41:18.100 --> 00:41:37.059
+Stephen Curran: I I and then back to to my point. After your description, I still think the extra overhead of having the allow lists beyond the permission matrix is unnecessary. If we add a fourth option of of auto actually needing auto, everything for a given dead
+
+274
+00:41:37.060 --> 00:41:48.689
+Stephen Curran: versus check. The allow list for a given did so. I think it would be worth having the fourth. But I, you know, not a hill to die on. But just that would be my thought is, it's worth that fourth option.
+
+275
+00:41:55.620 --> 00:41:59.120
+Emiliano Suñé: Just look at the chat in the meantime, because I notice there's a couple of messages.
+
+276
+00:42:03.510 --> 00:42:20.580
+Stephen Curran: Yeah, I'll mention that while you're doing that, that that is the model we're thinking of doing that Amiliano handed out, which is that since it's largely business users that are going to approve, these will probably do something like use. Pull requests as the actual
+
+277
+00:42:20.690 --> 00:42:38.029
+Stephen Curran: mechanism for approving things in Github, and then the pull request will in turn generate these allow lists. They'll be loaded into the endorser service, and that's how they'll be maintained is more that way.
+
+278
+00:42:38.750 --> 00:42:40.400
+Stephen Curran: and then
+
+279
+00:42:41.550 --> 00:42:47.520
+Stephen Curran: My assumption would be. We mostly use you know.
+
+280
+00:42:47.710 --> 00:43:00.580
+Stephen Curran: Ha! Have a rejection on the other side, but but it's possible, the other way, that that they just hang there. If I just don't know what would happen if they're not in the allow list. Do they actually hang
+
+281
+00:43:00.660 --> 00:43:18.059
+Stephen Curran: hang there? Or do we send back a rejection if they're not in the allow list, and and then assume that they'll retry after some time. But but our something like Github is the actual human approval part, and this will be this service will all be just an automated process.
+
+282
+00:43:18.440 --> 00:43:24.850
+Emiliano Suñé: I I think this tied into the question in the child from Colton about the the manual
+
+283
+00:43:24.900 --> 00:43:33.459
+Emiliano Suñé: step, like basically his question. Like, if we have this automatic configuration, why do we need manual? And I I think
+
+284
+00:43:33.470 --> 00:43:41.829
+Emiliano Suñé: just to reason. One is just to provide flexibility. You may want to go a certain level of configuration, and and then, just like.
+
+285
+00:43:42.030 --> 00:43:47.650
+Emiliano Suñé: keep track of who you're endorsing for and do everything manually, or with another process that is not
+
+286
+00:43:47.830 --> 00:43:59.540
+Emiliano Suñé: built in into the endorser. The other one could be to Syria just ascribed Steven, where somebody from just going back to the Multi Tenant Agency Multi Tenant Agency, it's allowed to connect
+
+287
+00:43:59.560 --> 00:44:02.759
+Emiliano Suñé: connects with the endorser and submits an endorsement request
+
+288
+00:44:02.790 --> 00:44:15.800
+Emiliano Suñé: before the permission matrix and the allow list and credential definition of law list are updated. These could happen since the tenant might be generated, and you may not know the the did ahead of time. What would happen here is like
+
+289
+00:44:16.160 --> 00:44:25.700
+Emiliano Suñé: might have the transactions. Just sit there in and wait for manual approval, for with the Api. approve those manually, and then update
+
+290
+00:44:26.170 --> 00:44:29.089
+Emiliano Suñé: the permission matrix and allow list to match
+
+291
+00:44:29.120 --> 00:44:30.519
+Emiliano Suñé: what you just did.
+
+292
+00:44:30.830 --> 00:44:33.369
+Emiliano Suñé: you know, in order to like, not have them
+
+293
+00:44:33.720 --> 00:44:35.900
+Emiliano Suñé: have to retry. That could be an option.
+
+294
+00:44:40.000 --> 00:44:43.470
+Emiliano Suñé: Oh, I must have then misinterpreted the question. Sorry?
+
+295
+00:44:50.060 --> 00:45:00.210
+Emiliano Suñé: Oh, yeah. The overall idea is to to get something that is like flexible enough to cater to. Most not all use cases with some degree of configuration. Yeah.
+
+296
+00:45:00.400 --> 00:45:04.509
+Emiliano Suñé: whether this is right or not, I think this is to be debated and decided.
+
+297
+00:45:12.720 --> 00:45:35.049
+Stephen Curran:  to and the other question I had was, is it? Do we think it's necessary that, in addition to my schema and version that the endorser service actually check, that the attributes in the list are the same as what was approved.
+
+298
+00:45:36.200 --> 00:45:53.690
+Stephen Curran: So my thought there was we could add to the scheme of Allow this an extra field that says, Here's a here's a A, a. Csv list of the attributes, and then the the that the endorseer service could actually check, that
+
+299
+00:45:54.010 --> 00:45:56.270
+Stephen Curran: the
+
+300
+00:45:56.320 --> 00:46:04.410
+Stephen Curran: the writer is adhering not only to the name and version, but also the actual attributes. again, that might be going too far, but
+
+301
+00:46:04.470 --> 00:46:07.409
+Stephen Curran: we could always leave it as an open option in the future.
+
+302
+00:46:07.570 --> 00:46:08.950
+Emiliano Suñé: Yeah, I I
+
+303
+00:46:09.010 --> 00:46:16.339
+Emiliano Suñé: I honestly I had not thought about that. It could be something that we could potentially add as a new column and have wild cards.
+
+304
+00:46:16.460 --> 00:46:18.870
+Emiliano Suñé: I'm I'm wondering how
+
+305
+00:46:18.990 --> 00:46:22.830
+Emiliano Suñé: complicated it might become. if I'm if I'm
+
+306
+00:46:23.340 --> 00:46:34.550
+Emiliano Suñé: not wrong. I've heard some something about schema is becoming a little more descriptive. Then they are right now, and just a list of attributes. And at that point.
+
+307
+00:46:34.730 --> 00:46:42.170
+Emiliano Suñé: if we just like shooting ourselves in the in the foot. adding too much granularity. But
+
+308
+00:46:43.450 --> 00:46:45.960
+Emiliano Suñé: I need to think about it a little bit. That's a good point.
+
+309
+00:46:47.410 --> 00:46:51.070
+Stephen Curran: And then the other point I was gonna
+
+310
+00:46:51.250 --> 00:47:15.770
+Stephen Curran: mentioned. about the You github is one of the other reasons. We're using Github as well as it being relatively easy for anyone to use for for this type of approval process. But we could also use it to generate a static, human, consumable, human, friendly website that says, here are all the schemas that exist in our ecosystem. And here are all the
+
+311
+00:47:16.300 --> 00:47:38.139
+Stephen Curran: issuers and the credentials they issue that exist in our ecosystem, so that we not only provide fodder for the allow lists, but we also put out a human thing that says, Oh, the person credential is this, you know it is, is, has a human description to it, and so on
+
+312
+00:47:40.540 --> 00:47:43.410
+Emiliano Suñé: one thing that is missing from this list.
+
+313
+00:47:44.070 --> 00:48:01.340
+Emiliano Suñé: and I was forgetting there's a a a longer thread down here. You guys can go in and and check out and then separately, is whether we want to get the granular control down to the Revocation Registry and Revocation registry entry as well.
+
+314
+00:48:02.530 --> 00:48:05.599
+Emiliano Suñé: or do you want to set it explicitly? What what's gonna happen?
+
+315
+00:48:05.990 --> 00:48:11.920
+Emiliano Suñé: The I, personally don't have tedious 100 would 100% clear on
+
+316
+00:48:12.360 --> 00:48:16.649
+Emiliano Suñé: what should be allowed or not allowed, or would to but
+
+317
+00:48:17.170 --> 00:48:22.900
+Emiliano Suñé: just mention that there's that possible, that that level very hard as well, that is being discussed.
+
+318
+00:48:25.070 --> 00:48:27.910
+Emiliano Suñé: What about a link to the the schema for verification.
+
+319
+00:48:30.780 --> 00:48:38.850
+Wade Barnes: Yeah, this is talking to the what Steven was talking about, but but adding the attributes and stuff like that.
+
+320
+00:48:38.870 --> 00:48:57.300
+Wade Barnes: I just wanted to mention to the group one of the things that I was thinking about, as as far as the allowless and permission matrix goes is that it should be completely explicit. as to what's going on rather than leaving things implicitly
+
+321
+00:48:57.590 --> 00:49:00.430
+Wade Barnes: working on on something. So
+
+322
+00:49:00.770 --> 00:49:08.459
+Wade Barnes: you'll see in the comments I'm I'm really a proponent of of having the red, red, red.
+
+323
+00:49:08.490 --> 00:49:33.190
+Wade Barnes: red, red deaf and entries being included in the allow list in the permissions matrix as far as how those are to be processed as well. simply because if they're not there and you don't explicitly define what they are. Then what ends up happening in the endorser services? You end up coding hard coding business logic.
+
+324
+00:49:33.390 --> 00:49:46.589
+Wade Barnes:  around. How to deal with those 2 objects based on what you're doing with either the schema or the more specifically the credential definition associated to those to those objects.
+
+325
+00:49:46.720 --> 00:49:59.020
+Wade Barnes: that whatever you code is going to be. One interpretation of what should actually be happening with those objects where A and that's not going to work for all situations.
+
+326
+00:49:59.320 --> 00:50:08.409
+Wade Barnes: If it's actually explicitly defined in the permissions matrix, then you can let who whoever is implementing this decide how they want to deal with those objects
+
+327
+00:50:09.930 --> 00:50:21.189
+Emiliano Suñé: you would have to be reported down all the way to the credential definition list or right, because, like each credential definition, is going to have their own red fridge that that you can imply
+
+328
+00:50:21.200 --> 00:50:38.419
+Wade Barnes: safely because because of. There is that one to one between the red tr and the red, the red red deaf and the reference entries. I mean, you're gonna have, you know, it's it's a one to many for the deaths and the entries. But
+
+329
+00:50:38.970 --> 00:50:41.699
+Wade Barnes: that that you can.
+
+330
+00:50:42.120 --> 00:50:46.239
+Wade Barnes: you know. imply not imply. But
+
+331
+00:50:46.250 --> 00:50:47.729
+Wade Barnes: you know, figure out.
+
+332
+00:50:48.290 --> 00:50:53.080
+Emiliano Suñé: yeah, what what I meant is like in a situation like this one where the
+
+333
+00:50:53.700 --> 00:50:55.060
+Emiliano Suñé: say that it's
+
+334
+00:50:55.090 --> 00:51:00.070
+Emiliano Suñé: the same did with 2 credit deaths. this is not the case, but whatever
+
+335
+00:51:00.150 --> 00:51:06.649
+Emiliano Suñé: see the same with 2 credits, if we only have flags at the top here at a top level information matrix. Then
+
+336
+00:51:06.960 --> 00:51:14.020
+Emiliano Suñé: I wouldn't. Whether this is a desirable or not I don't know, but like we wouldn't be able to say, Oh, for this first credit
+
+337
+00:51:14.380 --> 00:51:29.279
+Emiliano Suñé: don't allow more revocation registry interest to be published, but still allow it for the second one. That's what I was going with. because then we're going. We're getting to the point where we we seem to be wanting to like. Do the very
+
+338
+00:51:29.570 --> 00:51:45.419
+Wade Barnes: like point to point granular control, and at that point we would need it at this level.
+
+339
+00:51:45.420 --> 00:51:59.779
+Wade Barnes: Credentials against, you know, an any more revocable credentials against this particular schema. And the only way you can really do that is to, you know, stop them from creating retro definitions, you know additional.
+
+340
+00:52:01.050 --> 00:52:06.270
+Emiliano Suñé: You see, Colton Colton's comment in the chat, yeah, I did the the wild card.
+
+341
+00:52:06.350 --> 00:52:13.199
+Emiliano Suñé: It'd be used at these level. similar to what was envisioned above, because at that point you have
+
+342
+00:52:13.500 --> 00:52:21.039
+Emiliano Suñé: the the extra 2 columns here for the red bridge and reverge entry, and you could just have it populated by default with file wild cards
+
+343
+00:52:23.650 --> 00:52:38.920
+Stephen Curran: to me. there's a one to many credential definition to refresh definition, and one too many leverage definition to entries, so that if you have permission to
+
+344
+00:52:39.340 --> 00:52:52.219
+Stephen Curran: for writing a correct app. It implies you have permission to write any reverent Reg. It's associated. And if you ever wanted to cut off somebody from doing updates to. you know, adding more
+
+345
+00:52:52.570 --> 00:53:03.689
+Stephen Curran: definitions for updating the state. You just remove their allow list entry for the credit, and that would be good enough just because
+
+346
+00:53:04.730 --> 00:53:21.880
+Wade Barnes: they're they're all linked together. And so that would give you the control that you're looking for. Wait. But yeah, and that's that's I think that's where we also differ on on, you know, a a little bit on a an opinion with that like, I think once something's in the allow list.
+
+347
+00:53:22.270 --> 00:53:39.110
+Wade Barnes: I don't think it should be removed to indicate that it's no longer allowed it. That causes operational confusion later on, because you end up going. Okay? Well, you know, this person is, you know.
+
+348
+00:53:39.340 --> 00:53:40.390
+Wade Barnes: this.
+
+349
+00:53:40.950 --> 00:53:56.859
+Wade Barnes: This credential definition is not in this list yet. It's on the red, you know, on the on the ledger, and there's been stuff issued against it. And then you have to go back in the history of the you know of the allowance to figure out. Okay, yeah, we did.
+
+350
+00:53:56.890 --> 00:54:06.320
+Wade Barnes: You know, we were endorsing this at 1 point in time, and it it disappeared at this other time, where, if it's explicitly denied
+
+351
+00:54:06.560 --> 00:54:16.230
+Wade Barnes: from the permissions matrix and left in the Allow list it. It is very clear from at a glance that you know
+
+352
+00:54:16.530 --> 00:54:29.240
+Wade Barnes: we no longer endorse this. You know this credential definition? and then the only thing you need to do is go back in the history and go. Okay. Well, when did we make that decision.
+
+353
+00:54:29.380 --> 00:54:34.470
+Stephen Curran: I think that's getting pretty subtle. I don't know if it that
+
+354
+00:54:34.480 --> 00:54:47.749
+Emiliano Suñé: you know. W. 1 one thing to say is like, if we add the extra control at this level. Either pattern would work because you could leave, leave the the record and and kind of change the permissions or delete it completely, and the results should be the same.
+
+355
+00:54:48.360 --> 00:54:52.169
+Emiliano Suñé: But either way you have to change the record. You you have to change something. Yes.
+
+356
+00:54:54.910 --> 00:54:56.459
+Emiliano Suñé: something needs to change, for sure.
+
+357
+00:55:00.090 --> 00:55:04.890
+Stephen Curran: All right. Well, that was all. I'll stop sharing
+
+358
+00:55:05.130 --> 00:55:30.350
+Stephen Curran: definitely. So we're gonna start implementing something along this at some point. And so we'll finalize what? What we plan to implement. Welcome input, from anyone? based on these questions. Obviously, we're we're still debating it. open to have that. And and if any others want to use this
+
+359
+00:55:30.410 --> 00:55:37.799
+Stephen Curran: let us know what your thoughts are, and how you would like to see it done, because, We'll see if we can build that in.
+
+360
+00:55:38.820 --> 00:55:43.400
+Stephen Curran: And with that we were right out of time, so there won't be any other topics.
+
+361
+00:55:45.320 --> 00:55:49.940
+Stephen Curran: and Sam will be back next week, so it'll all be better.
+
+362
+00:55:55.190 --> 00:55:57.340
+Stephen Curran: Thanks all
+
+363
+00:55:57.620 --> 00:55:59.099
+Emiliano Suñé: thanks. Everyone.
+

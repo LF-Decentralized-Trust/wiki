@@ -1,0 +1,1594 @@
+WEBVTT
+
+1
+00:00:04.440 --> 00:00:09.690
+Tracy Kuhrt: All right, welcome to the July 7 episode your typical certain critical.
+
+2
+00:00:10.290 --> 00:00:25.260
+Tracy Kuhrt: As you are all aware of the things that we must abide by on the call the first is the antitrust policy notice that is currently being displayed on the screen and the second is our code of conduct, which is linked in the agenda.
+
+3
+00:00:27.240 --> 00:00:35.370
+Tracy Kuhrt: As far as announcements we have the standard announcement that we have every week every developer newsletter goes out each Friday.
+
+4
+00:00:36.060 --> 00:00:46.380
+Tracy Kuhrt: And if there's something that you would like to reach the hundreds of developers that we have, please consider leaving a comment there in the wiki page that's linked, also in the agenda.
+
+5
+00:00:47.910 --> 00:00:49.920
+Tracy Kuhrt: Any other announcements that anybody might have.
+
+6
+00:01:00.240 --> 00:01:01.260
+Tracy Kuhrt: whoa okay.
+
+7
+00:01:02.370 --> 00:01:07.140
+Tracy Kuhrt: So, as far as quarterly reports we don't have any do today.
+
+8
+00:01:08.370 --> 00:01:09.510
+Tracy Kuhrt: looks like we took a.
+
+9
+00:01:10.980 --> 00:01:19.860
+Tracy Kuhrt: Little hiatus here on the quarterly reports but I did include a link in the agenda for checking any open tasks that you might have.
+
+10
+00:01:20.580 --> 00:01:30.930
+Tracy Kuhrt: To see if there's any open quarterly reports that you haven't yet reviewed, I could see a number of people doing that, as I came in this morning and saw a bunch of emails from the wiki.
+
+11
+00:01:31.770 --> 00:01:42.960
+Tracy Kuhrt: So thank you to those who did take the time if you haven't yet had the opportunity, please do so catch up now is a good time to do that without any quarterly reports coming in.
+
+12
+00:01:44.160 --> 00:01:52.470
+Tracy Kuhrt: Although I did see that the hyper ledger fabric report came out, it is due next week so it's actually a week early.
+
+13
+00:01:53.790 --> 00:02:02.340
+Tracy Kuhrt: But thanks Dave for doing that, as a gordo for updating the wiki green agenda here to include that link.
+
+14
+00:02:03.900 --> 00:02:11.490
+Tracy Kuhrt: Any any comments or questions anything that anybody wants to bring up before we get to the discussion item that we have for today.
+
+15
+00:02:19.800 --> 00:02:31.350
+Tracy Kuhrt: Okay, see none, then we do have a one discussion item for today it's a carry over from last week, it is the Security Task Force recommendations.
+
+16
+00:02:32.070 --> 00:02:42.930
+Tracy Kuhrt: That a room wanted to bring to the technical steering committee, so a ruin i'm going to hand that off to you for walking us through and others recommendations.
+
+17
+00:02:44.010 --> 00:02:44.670
+Arun S M: Thanks Tracy.
+
+18
+00:02:46.140 --> 00:02:53.550
+Arun S M: Last week, we were unable to cover this as I was running late, and then we could not get enough time at the after discussing previous week's agenda items.
+
+19
+00:02:55.020 --> 00:03:09.210
+Arun S M: So this is the second time we are bringing the recommendation sheet that i'm showing currently to the tsa in the previous call I briefly discussed these 10 different action items or 10 different gaps that were identified and that we had to work on our words.
+
+20
+00:03:10.500 --> 00:03:21.840
+Arun S M: One of them is already considered and accepted from the tsa where we are mandating that each project should have representation and have a representative.
+
+21
+00:03:23.190 --> 00:03:33.030
+Arun S M: Who will be responsible, or who will be first point of contact for anything related to security and including fixes that are to be done, including issues that are reported.
+
+22
+00:03:34.230 --> 00:03:43.410
+Arun S M: and continuing on that discussion and I noted that there were a few open items from from the time that we last met last assembled on this topic.
+
+23
+00:03:44.610 --> 00:03:52.410
+Arun S M: field other topics that that are straightforward recommendations from the task forces to adopt some of these.
+
+24
+00:03:54.060 --> 00:04:04.470
+Arun S M: recommendations that are coming in from open systems right away so i'll defer to some of the comments are added over here, even within those bullet items for the discussion.
+
+25
+00:04:04.920 --> 00:04:11.940
+Arun S M: Point however i'll just cover different items that are to be adopted or as a recommendation that are coming in from openness.
+
+26
+00:04:12.840 --> 00:04:24.930
+Arun S M: One of them is the scorecard and I know we had different badging proposal last year and then we went through multiple iterations in discussing that so scorecard is kind of.
+
+27
+00:04:26.010 --> 00:04:36.690
+Arun S M: i'm going to score each project repository and through it takes us through a checklist and then make sure we are compliant and we are following some.
+
+28
+00:04:37.710 --> 00:04:52.380
+Arun S M: suggested recommendations which are good to follow from a security standpoint and there was a recommendation that there is no reason why we should not follow that becomes another metric for for us on how we utilize it, however, does the.
+
+29
+00:04:53.370 --> 00:04:55.740
+Arun S M: bigger picture or bigger point over there is.
+
+30
+00:04:58.560 --> 00:05:13.080
+Arun S M: It was related to how well each project is responding or reacting to the issues I didn't this kind of ties back to this point number seven that is written our in terms of responsible vulnerability disclosures.
+
+31
+00:05:14.130 --> 00:05:21.840
+Arun S M: One of the open item or bigger debating item that also came up in this week's Task Force meeting is also on how do we make sure each project.
+
+32
+00:05:23.100 --> 00:05:26.850
+Arun S M: Is is advancing on the issues that were reported right so.
+
+33
+00:05:27.870 --> 00:05:35.640
+Arun S M: This is where we need discussion within the thc and probably potential ideas on how that can be implemented across projects.
+
+34
+00:05:36.870 --> 00:05:44.460
+Arun S M: Are make I can just talk through some of the ideas that we had from the task force so one thing would be that.
+
+35
+00:05:45.510 --> 00:05:59.430
+Arun S M: CBS ought to be addressed, from the time they reported within 90 days of time if they are not addressed within that amount of time, then it will be made public and it kind of becomes.
+
+36
+00:06:02.100 --> 00:06:09.210
+Arun S M: kind of i'd say appraiser do the maintenance, that they will have to complete they are allowed to address this within 90 days and this.
+
+37
+00:06:09.690 --> 00:06:27.600
+Arun S M: They want everyone to know that something like this exist in the project which I don't think that should be done when it kind of forces everyone to do it, so this was one of the idea right so again this has to be there was a recommendation, there should be strict guidelines around how.
+
+38
+00:06:28.740 --> 00:06:38.070
+Arun S M: I mean the responsible disclosure element itself, so there are two angles to it the responsibility from within the project, and then the responsible disclosure aspect of it.
+
+39
+00:06:40.200 --> 00:06:40.530
+Arun S M: um.
+
+40
+00:06:41.850 --> 00:06:59.550
+Arun S M: So i'll probably pass away and, of course, there are a few other elements I mean we, we would like to definitely I want everyone's opinion or probably debate on this item and others non conflicting or straightforward items are with respect to the.
+
+41
+00:07:00.630 --> 00:07:09.060
+Arun S M: Release process which was open in the previous discussion, so there were discussions around this in not this week's call, but the previous week's call thanks to.
+
+42
+00:07:10.230 --> 00:07:13.560
+Arun S M: Item for all the inputs, I think usage is also suggested.
+
+43
+00:07:15.030 --> 00:07:25.890
+Arun S M: Not fabric team uses TV for all the production i'm not sure if it was fabric or at your workplace, but you are using three before scanning container images.
+
+44
+00:07:27.000 --> 00:07:28.200
+Arun S M: So idea was to have.
+
+45
+00:07:29.340 --> 00:07:36.270
+Arun S M: A pipe the verification or the reporting process or the identification process built in to the pipeline and.
+
+46
+00:07:37.590 --> 00:07:39.690
+Arun S M: In the CIA in both CD so.
+
+47
+00:07:41.700 --> 00:07:57.210
+Arun S M: In the release the artifact releases the binary releases that we are going to have it, even those are to be scanned I have given frequency and that frequency isn't it's not recommended from the task force.
+
+48
+00:07:58.530 --> 00:08:03.960
+Arun S M: Using tools like these rights of those artifacts could include the container images.
+
+49
+00:08:05.640 --> 00:08:09.300
+Arun S M: That was another straightforward item in a non.
+
+50
+00:08:10.680 --> 00:08:18.990
+Arun S M: What do I say there was no conflict of interest or deliver that thing that people would be contradicting to if we bring in that process.
+
+51
+00:08:21.330 --> 00:08:29.970
+Arun S M: And yeah I will take a pass here, probably would like to hear feedback on the scorecard and the vulnerability disclosure element.
+
+52
+00:08:31.500 --> 00:08:31.800
+Arun S M: But.
+
+53
+00:08:34.650 --> 00:08:39.570
+Tracy Kuhrt: So around for those of us that important Security Task Force I don't think that.
+
+54
+00:08:41.280 --> 00:08:48.030
+Tracy Kuhrt: there's been opportunity of time to review kind of these extra links from open ssl.
+
+55
+00:08:49.080 --> 00:08:53.010
+Tracy Kuhrt: With the vulnerability disclosures and the scorecard.
+
+56
+00:08:54.900 --> 00:08:55.470
+Tracy Kuhrt: I.
+
+57
+00:08:56.580 --> 00:09:00.570
+Tracy Kuhrt: guess you know from the Security Task Force perspective.
+
+58
+00:09:01.590 --> 00:09:05.550
+Tracy Kuhrt: The recommendation is on the this.
+
+59
+00:09:06.660 --> 00:09:12.000
+Tracy Kuhrt: vulnerability disclosures, the only real recommendation that I think I heard was the.
+
+60
+00:09:13.920 --> 00:09:19.290
+Tracy Kuhrt: CV East we published by the end of 90 days is there anything else in that link that.
+
+61
+00:09:20.340 --> 00:09:23.670
+Tracy Kuhrt: We would be needing to handle.
+
+62
+00:09:24.960 --> 00:09:36.210
+Arun S M: Okay um I would definitely recommend everyone to review the scorecard when it comes to the about element which is this vulnerability disclosures it mostly talks about the reasons and.
+
+63
+00:09:38.130 --> 00:09:40.170
+Arun S M: I believe it also has a collection of.
+
+64
+00:09:41.370 --> 00:09:46.170
+Arun S M: Some of the incidents are like series that were reported from the past, they are not from.
+
+65
+00:09:47.370 --> 00:09:48.510
+Arun S M: um yeah.
+
+66
+00:09:49.770 --> 00:09:59.610
+Arun S M: So this is something that natalie to review in terms of what needs to be reviewed, however, it is, is is fine over here the important aspect is in terms of.
+
+67
+00:10:00.360 --> 00:10:09.540
+Arun S M: Learning from the experience learning from what others have faced in the past and trying to understand at the best model that works for us so.
+
+68
+00:10:10.500 --> 00:10:20.970
+Arun S M: I would probably recommend to have a glance through if possible it's more of a retrospective way of understanding what happened and then, how do we make our processes better.
+
+69
+00:10:23.160 --> 00:10:29.130
+Arun S M: So, apart from this 90 days thing the scorecard was another.
+
+70
+00:10:30.720 --> 00:10:33.420
+Arun S M: proposal that came in from the recommendation right so.
+
+71
+00:10:35.040 --> 00:10:39.150
+Arun S M: um I don't know like do you want me to go through each element or here, or do you want.
+
+72
+00:10:40.500 --> 00:10:48.180
+Arun S M: To Members to give some give the same number some time so that they can go through it and come back with the debate or probably debate on this topic.
+
+73
+00:10:49.680 --> 00:10:51.600
+Arun S M: Just from a standpoint that.
+
+74
+00:10:52.620 --> 00:10:58.950
+Arun S M: What are the problems that computers are facing right now, or the maintenance are facing any Why would it be a challenge that.
+
+75
+00:10:59.700 --> 00:11:19.080
+Arun S M: Fixing something within 90 days is is not possible, or should we look into, for instance, the current release process because right now, like the lecture that's not have anything to say when it comes to release lifecycle up other than I think even that hard corrected me that that.
+
+76
+00:11:20.430 --> 00:11:29.340
+Arun S M: The release taxonomic thing is also not so tight right now right, I mean it's there is so much freedom from each project in terms of how they can.
+
+77
+00:11:31.080 --> 00:11:32.940
+Arun S M: proceed with the releases.
+
+78
+00:11:34.470 --> 00:11:38.910
+Arun S M: So there are multiple ways in which we can address this particular concern.
+
+79
+00:11:40.020 --> 00:11:42.060
+Arun S M: We can even tie this in with the release.
+
+80
+00:11:43.140 --> 00:11:50.940
+Arun S M: process itself, we can say that anytime a new project is releasing and if they are Monday release as let's say.
+
+81
+00:11:52.380 --> 00:12:06.420
+Arun S M: A major release or probably a release that they're going to support for a long time, then it becomes our responsibility from the hyper ledger foundation, because the release is happening under it under this umbrella projects.
+
+82
+00:12:07.440 --> 00:12:15.870
+Arun S M: So, if anything, gets reported than its responsibility or or anything that comes back would be named against the Foundation.
+
+83
+00:12:16.980 --> 00:12:34.860
+Arun S M: And not just a project as well, so I don't know about turning around that would also help benefit, I did not put those thoughts, because any thought here and affirmative response from from those who are on the call related to those topics.
+
+84
+00:12:37.980 --> 00:12:38.190
+Tracy Kuhrt: part.
+
+85
+00:12:39.000 --> 00:12:44.580
+Hart Montgomery: htc yeah thanks, so I think to sort of addressing your point, I think, are you know.
+
+86
+00:12:46.230 --> 00:12:55.860
+Hart Montgomery: I think the the plan today was to to go over some of the recommendations and then hear what people think, and then eventually package them in some kind of actionable.
+
+87
+00:12:57.000 --> 00:13:03.480
+Hart Montgomery: way that the you know, make an actual rule that the tasc can vote on, so I think that's the plan in the future.
+
+88
+00:13:04.920 --> 00:13:06.420
+Hart Montgomery: But you know.
+
+89
+00:13:07.590 --> 00:13:18.150
+Hart Montgomery: This is more of you know, these are the recommendations What do people think, and then you know, can we package these into rules will be coming so.
+
+90
+00:13:19.590 --> 00:13:20.910
+Tracy Kuhrt: Okay yeah thanks right.
+
+91
+00:13:21.420 --> 00:13:23.940
+Tracy Kuhrt: And I think that's the way my concern re.
+
+92
+00:13:24.330 --> 00:13:28.320
+Tracy Kuhrt: Obviously, have not attended any of this training Task Force calls.
+
+93
+00:13:29.610 --> 00:13:36.750
+Tracy Kuhrt: Do too complex and it so for me coming in kind of fresh and i'm sure there's other folks on the call can hear fresh air.
+
+94
+00:13:37.230 --> 00:13:50.730
+Tracy Kuhrt: To looking at this and not having clicked on any of these links, I like Okay, what do you want us to do right, so I guess the thing that you're asking for right now it's just commentary specifically on seven and eight.
+
+95
+00:13:52.200 --> 00:14:00.840
+Tracy Kuhrt: Not necessarily on the rest of them at this point, but eventually on the rest of these recommendations is that kind of where we're at for today's discussion.
+
+96
+00:14:01.380 --> 00:14:08.100
+Hart Montgomery: yeah well we'd love commentary on all of them, but sort of you know we've thought that.
+
+97
+00:14:09.480 --> 00:14:15.330
+Hart Montgomery: You know, seven is something that very much needs to be addressed, and you know it's easy to address.
+
+98
+00:14:16.620 --> 00:14:21.390
+Hart Montgomery: So you know our plan was to go over this and then.
+
+99
+00:14:22.860 --> 00:14:28.380
+Hart Montgomery: If people are okay, with it, you know, maybe in a couple of week or two will will propose a.
+
+100
+00:14:30.090 --> 00:14:32.160
+Hart Montgomery: Proposal rule now.
+
+101
+00:14:33.300 --> 00:14:40.050
+Hart Montgomery: Some of these have sort of already been the policy in theory but there's never been any enforcement and nothing has ever been done.
+
+102
+00:14:42.600 --> 00:14:42.930
+Hart Montgomery: But.
+
+103
+00:14:44.070 --> 00:14:45.750
+Hart Montgomery: Yes, I hope that makes sense.
+
+104
+00:14:47.520 --> 00:14:47.880
+Tracy Kuhrt: yeah.
+
+105
+00:14:49.980 --> 00:14:52.590
+Tracy Kuhrt: So I mean for number seven.
+
+106
+00:14:54.120 --> 00:15:00.930
+Tracy Kuhrt: Like I said, I think the one actionable item that I see, there is the the 90 days which, personally I don't have any sort of.
+
+107
+00:15:02.730 --> 00:15:20.790
+Tracy Kuhrt: commentary for other than to say, I think, whatever best practices that's what we should do and i'm assuming that OSS has the best practices and so therefore that 90 days is coming from them and there's probably the right direction to head for the for the scorecard.
+
+108
+00:15:22.290 --> 00:15:27.210
+Tracy Kuhrt: I guess the question that I have is right now we do.
+
+109
+00:15:28.260 --> 00:15:31.680
+Tracy Kuhrt: The only scorecard that I know that we're doing is.
+
+110
+00:15:34.260 --> 00:15:45.750
+Tracy Kuhrt: I forget what it's called because it's changed name but is this somehow different than the existing kind of self attested responses that we have for our projects to.
+
+111
+00:15:46.320 --> 00:15:55.920
+Tracy Kuhrt: To see that they're in a certain state is this only focused on security is, how is this different than is it, how does this.
+
+112
+00:15:57.840 --> 00:16:02.580
+Tracy Kuhrt: One benefit the projects and to benefit the hyper ledger foundation.
+
+113
+00:16:04.530 --> 00:16:06.930
+Tracy Kuhrt: And heart, I see you hit up.
+
+114
+00:16:07.230 --> 00:16:10.200
+Hart Montgomery: room, if you want to take over, please feel free to jump in.
+
+115
+00:16:10.950 --> 00:16:13.650
+Arun S M: And i'm looking for my on to based.
+
+116
+00:16:16.980 --> 00:16:24.510
+Hart Montgomery: I will say that yeah seven also involves about getting project contact point setup.
+
+117
+00:16:25.740 --> 00:16:32.460
+Hart Montgomery: So we think it would be you know good to require that you know graduated projects have security contacts.
+
+118
+00:16:34.710 --> 00:16:36.990
+Hart Montgomery: We plan on writing that down in a rule.
+
+119
+00:16:38.100 --> 00:16:50.910
+Hart Montgomery: As you know, as far as the the 90 days goes, yes, that is very much the standard beyond the open ssf even and it really would you like to talk about the scorecard.
+
+120
+00:16:52.260 --> 00:16:55.260
+Arun S M: Yes, I finally found my and icon.
+
+121
+00:16:56.430 --> 00:17:09.600
+Arun S M: So Tracy I guess you had a couple of questions in your previous ask in terms of scorecard I am not sure if you're asking about the CIA, by the way, earlier hot to a project is.
+
+122
+00:17:09.780 --> 00:17:10.410
+Arun S M: The one that you're.
+
+123
+00:17:12.300 --> 00:17:17.220
+Arun S M: Right, I think it was renamed and this scorecard captures.
+
+124
+00:17:18.360 --> 00:17:20.490
+Arun S M: element in addition to that, if i'm not wrong.
+
+125
+00:17:22.350 --> 00:17:22.800
+Arun S M: Right.
+
+126
+00:17:29.550 --> 00:17:39.660
+Arun S M: I need to go back to my notes sorry I will check the notes from one of the meetings i'm mature I think another question that you are asking, with respect to 90 days.
+
+127
+00:17:40.170 --> 00:17:53.580
+Arun S M: was an art also kind of brought up a separate committee, so now that we have representation from each project who's responsible to handle those issues what we were thinking is in terms of long term plan.
+
+128
+00:17:55.020 --> 00:18:06.720
+Arun S M: Have a committee set up and give focus more towards security aspects as well, and this needs to be kind of cross collaboration that may not necessarily be within the project but.
+
+129
+00:18:07.740 --> 00:18:20.100
+Arun S M: Try to address some of them cross projects and try to see how to handle them so in order to support that or encourage it, there was also discussed there were also discussions in terms of.
+
+130
+00:18:21.930 --> 00:18:26.220
+Arun S M: Stopping a project from graduate graduation and.
+
+131
+00:18:27.390 --> 00:18:39.630
+Arun S M: Unless they meet certain criteria and then this criteria evaluation happens through a committee which is again sell form with with this group, that we were talking about.
+
+132
+00:18:40.830 --> 00:18:46.860
+Arun S M: And so, again, there were a few other open items will will tsa be okay with it and with the.
+
+133
+00:18:47.970 --> 00:18:59.370
+Arun S M: shift towards to see rtc How would that be handled what kind of responsibilities would this particular group of Members would would have and.
+
+134
+00:19:00.510 --> 00:19:08.820
+Arun S M: What would they be making decisions on these are some of the open items that we could start debating in terms of how to handle it right.
+
+135
+00:19:14.040 --> 00:19:18.210
+Tracy Kuhrt: Okay, so back to the scorecard.
+
+136
+00:19:19.890 --> 00:19:22.860
+Tracy Kuhrt: So this is different than the open ssl.
+
+137
+00:19:24.390 --> 00:19:29.010
+Tracy Kuhrt: Best Practices badge that we have had projects going through, or is this.
+
+138
+00:19:31.350 --> 00:19:47.280
+Tracy Kuhrt: Is this the same night because the open ssl best practices badge has a security section in it so i'm curious like are we asking for more work from the projects is it you know how how much more work is it going to be for the project.
+
+139
+00:19:53.280 --> 00:19:57.690
+Arun S M: It would be nice if one of the project can volunteer and evaluate it.
+
+140
+00:19:59.730 --> 00:20:01.320
+Arun S M: And i'm happy to work through.
+
+141
+00:20:02.430 --> 00:20:11.370
+Arun S M: walkthrough on that right so there's one more action item that I personally have taken through through the task force that's to understand the current process so.
+
+142
+00:20:12.240 --> 00:20:23.310
+Arun S M: I have set up some time independently to discuss with the staff members itself to understand what do they go through and and what's the process involved and why.
+
+143
+00:20:24.180 --> 00:20:39.330
+Arun S M: Why did this question, even came up that we are talking about disclosing vulnerability at a cutoff date of 90 days and why is it take when taking that long for us if we know that it's a critical vulnerability so in terms of.
+
+144
+00:20:40.590 --> 00:20:41.340
+Arun S M: gold card.
+
+145
+00:20:42.510 --> 00:20:45.570
+Arun S M: i'm consulting for a meeting in which are supported by.
+
+146
+00:20:47.040 --> 00:20:49.680
+Arun S M: I see i'm not talking i'm sorry i'm not.
+
+147
+00:20:51.330 --> 00:20:53.520
+Arnaud  Le Hors (IBM): yeah hi i'm talking yet, but.
+
+148
+00:20:54.150 --> 00:21:04.620
+Arnaud  Le Hors (IBM): I mean, I wanted to answer directly tracy's question, I mean there is no current alignment between scorecard and the openness of badge and.
+
+149
+00:21:05.700 --> 00:21:13.140
+Arnaud  Le Hors (IBM): So they are indeed the you know doing both requires more effort than doing one or the other.
+
+150
+00:21:15.840 --> 00:21:21.150
+Tracy Kuhrt: I think so yeah and I was trying to quickly scroll through this scorecard.
+
+151
+00:21:22.230 --> 00:21:37.050
+Tracy Kuhrt: It looks like the there's some recommendations around from github actions of products can run to kind of get their score for this scorecard.
+
+152
+00:21:38.580 --> 00:21:39.750
+Tracy Kuhrt: And I guess you know.
+
+153
+00:21:42.540 --> 00:21:50.640
+Tracy Kuhrt: I i'm thinking about in the past where we've done things where we've tried to make things easier for the projects and the projects have pushed back.
+
+154
+00:21:51.060 --> 00:21:56.280
+Tracy Kuhrt: As far as you know, they don't want to do that or it's it's you know the.
+
+155
+00:21:57.240 --> 00:22:07.950
+Tracy Kuhrt: tools that we have is very specific to a particular language or Whatever the case may be right and and so i'm I just want to see like how.
+
+156
+00:22:08.340 --> 00:22:19.530
+Tracy Kuhrt: sure we are of this recommendation that the projects are actually going to think that this is useful versus it's painful for them to do this.
+
+157
+00:22:20.220 --> 00:22:34.200
+Tracy Kuhrt: I mean no way suggesting that security is about thing here right i'm just trying to think about in the past what's happening within hyper ledger different projects where we've you know put down requirements for running particular tools.
+
+158
+00:22:36.090 --> 00:22:50.580
+Arnaud  Le Hors (IBM): I agree, I think you bring a very good point there and and I just wanted to explain a little bit the bag right, I mean open ssl badges are basically renamed the CCI badges we've known for a long time and.
+
+159
+00:22:51.840 --> 00:23:11.220
+Arnaud  Le Hors (IBM): And the scorecard is a new tool that was developed initially by Google, and so there is they don't share the same routes at all, and we can hope that open ssf eventually will try to get all these things neatly aligned but it's clearly not the case.
+
+160
+00:23:12.330 --> 00:23:18.540
+Arnaud  Le Hors (IBM): They have different origins and they actually maintained by different groups and openness, they said so.
+
+161
+00:23:22.380 --> 00:23:22.650
+Tracy Kuhrt: heart.
+
+162
+00:23:24.240 --> 00:23:27.060
+Hart Montgomery: yeah so Tracy you bring up a great point about.
+
+163
+00:23:28.380 --> 00:23:31.770
+Hart Montgomery: Things being you know easy and low.
+
+164
+00:23:33.150 --> 00:23:43.710
+Hart Montgomery: I guess low work for projects, so what the the plan going forward is is, we would like the tlc to sort of look over all of these recommendations.
+
+165
+00:23:44.460 --> 00:23:57.900
+Hart Montgomery: And as a starting point, we want to put together, you know, a list of some of the easiest and highest impact ones to implement right, and then we will put those for approval for the tasc.
+
+166
+00:24:00.090 --> 00:24:08.520
+Hart Montgomery: This is, you know, obviously going to be an ongoing process and some of the things are going to you know take quite a while to.
+
+167
+00:24:10.170 --> 00:24:23.010
+Hart Montgomery: To put in practice and something like the ssf scorecard which is you know, not even I would say, not even a complete effort at this point, might not be one of the first things we do right.
+
+168
+00:24:24.120 --> 00:24:32.580
+Hart Montgomery: We may want to let that mature a little bit before we asked projects to do it, for instance, and there are a number of other things on this list that.
+
+169
+00:24:34.410 --> 00:24:39.630
+Hart Montgomery: We probably aren't going to want to do immediately, but we would like to see long term does that make sense.
+
+170
+00:24:42.960 --> 00:24:43.260
+Tracy Kuhrt: yeah.
+
+171
+00:24:44.040 --> 00:24:49.080
+Tracy Kuhrt: i'm just trying to see how we can help move this discussion forward.
+
+172
+00:24:50.220 --> 00:25:05.190
+Tracy Kuhrt: Right, for your for something to come back here to the etc for for vote so trying to really understand and hoping that this discussion is useful for others as well, since i'm the only one who's who's asking the questions at this point.
+
+173
+00:25:10.080 --> 00:25:14.940
+Hart Montgomery: I think a lot of people probably have questions, but here, so thank you for asking them.
+
+174
+00:25:20.400 --> 00:25:22.830
+Tracy Kuhrt: anybody else have any thoughts on this Hello.
+
+175
+00:25:24.270 --> 00:25:33.450
+Angelo De Caro: I like this to be honest, this this idea of discourse maybe in the sense, maybe that is also something that guidelines that we can find are specific for blockchain.
+
+176
+00:25:34.110 --> 00:25:45.510
+Angelo De Caro: And that will be interesting, can we ask a volunteer so the beginning, maybe we don't force, but we have a bit of a first period where we as volunteers from the projects, I don't know fabric.
+
+177
+00:25:47.040 --> 00:25:49.710
+Angelo De Caro: Maybe you can volunteer well I don't want to put it.
+
+178
+00:25:50.760 --> 00:26:05.250
+Angelo De Caro: In I put myself in the shoes of Dave or not, but to be the Samsung sounds very interesting as a as an idiot and maybe you can be a good point of reference reference point for also for the for the clients for the enterprise or looking for.
+
+179
+00:26:06.360 --> 00:26:09.750
+Angelo De Caro: I mean for some handles I really like this.
+
+180
+00:26:17.280 --> 00:26:19.050
+Hart Montgomery: Sorry, I forgot to take my head down.
+
+181
+00:26:19.680 --> 00:26:20.220
+Tracy Kuhrt: Oh okay.
+
+182
+00:26:20.520 --> 00:26:21.570
+Tracy Kuhrt: Well, that came back up.
+
+183
+00:26:22.020 --> 00:26:24.600
+Tracy Kuhrt: We take it down and then the big you did perfect.
+
+184
+00:26:25.980 --> 00:26:27.390
+Tracy Kuhrt: Worries any other comments.
+
+185
+00:26:31.380 --> 00:26:31.590
+Tracy Kuhrt: Come.
+
+186
+00:26:33.150 --> 00:26:43.170
+Kamlesh Nagware: yeah it is clearly like this, I think this is a need to be committed foundation project because, even in me in the hybrid India we.
+
+187
+00:26:44.790 --> 00:26:48.840
+Kamlesh Nagware: kind of responded to a couple of inquiries, where people are using the project same.
+
+188
+00:26:49.620 --> 00:27:00.180
+Kamlesh Nagware: As about the kind of vulnerabilities in the hyper ledger codes under time, I think we don't have some some some kind of framework or some girls recommendation feel available.
+
+189
+00:27:00.810 --> 00:27:18.570
+Kamlesh Nagware: Then we as a Community can share or maybe the people who are using the progress can get confidence like hyper ledger police pulling the particular so miss gender and some some guidelines and ensuring the security aspect of the predicts as in this good initiative.
+
+190
+00:27:23.130 --> 00:27:35.670
+Tracy Kuhrt: Thanks, so much so, I have a follow up question, which is, I think, somewhere, as you were scrolling everyone, I noticed something about projects moving incubation to graduate.
+
+191
+00:27:36.960 --> 00:27:49.950
+Tracy Kuhrt: And so i'm curious as to security is not a one and done type thing right as security changes as the code changes.
+
+192
+00:27:51.060 --> 00:27:53.190
+Tracy Kuhrt: And so what sort of.
+
+193
+00:27:54.810 --> 00:27:57.630
+Tracy Kuhrt: expectation, do we have for.
+
+194
+00:27:59.550 --> 00:28:16.470
+Tracy Kuhrt: The scorecard remain up to date and as the code changes, you know the reevaluation happening to ensure that no security issues have been created slash added slash whatever right to to the storage space.
+
+195
+00:28:19.830 --> 00:28:21.600
+Arun S M: Tourists either to the question um.
+
+196
+00:28:23.460 --> 00:28:31.170
+Arun S M: I don't think so we discussed on that aspect, but we were still thinking, if such a thing would be accepted by the tsa or not, if.
+
+197
+00:28:31.710 --> 00:28:46.800
+Arun S M: We think we need to go in that direction, then it's definitely we will start thinking in the next upcoming call it i'll bring this topic up again and in terms of what we were thinking just for a regular cadence I believe I don't know so there were.
+
+198
+00:28:47.850 --> 00:28:54.570
+Arun S M: In terms of it was tying back again to the standard processes that we were following and and how do we.
+
+199
+00:28:55.620 --> 00:28:58.890
+Arun S M: Make sure that we're following those processes right so.
+
+200
+00:29:01.140 --> 00:29:18.330
+Arun S M: So I had two thoughts are on day one is with respect to apart from the process itself in in terms of how well, a project is going to handle in when something is reported how well are we responding back to those even those metrics are to be captured.
+
+201
+00:29:20.040 --> 00:29:30.210
+Arun S M: um but yeah we haven't had a chance to discuss go deep into this direction and i'm thinking that we were not sure if something like this would be accepted.
+
+202
+00:29:35.130 --> 00:29:42.240
+Tracy Kuhrt: yeah I mean, I do think that you know the considerations as far as the cadence or.
+
+203
+00:29:43.050 --> 00:29:58.800
+Tracy Kuhrt: When this gets reported how often that's good smoke, that is important, I I just don't think that we can say that it's a static we've done this when we moved to graduation and so therefore we're we're done in whenever we're going to look at security and.
+
+204
+00:30:00.480 --> 00:30:09.840
+Tracy Kuhrt: that's that's the piece that I would think through what makes sense, again with the the caveat of.
+
+205
+00:30:10.950 --> 00:30:12.660
+Tracy Kuhrt: How do we ensure that we're not.
+
+206
+00:30:14.460 --> 00:30:22.830
+Tracy Kuhrt: causing more work for the projects and they actually need to be going through right is it every time they do a release, they have to do this is it.
+
+207
+00:30:24.090 --> 00:30:35.910
+Tracy Kuhrt: You know, once a year, they have to do this, you know I don't know what the right cadence is, but I think there is a cadence and we have to understand how that impacts, the different projects Angela.
+
+208
+00:30:37.140 --> 00:30:44.910
+Angelo De Caro: But, for example, I will definitely would like to have an update when there is a long term release long term support release.
+
+209
+00:30:45.270 --> 00:30:51.630
+Angelo De Caro: That, I would like to see that an update on the score that I don't like I don't need to see an update on.
+
+210
+00:30:52.380 --> 00:31:06.150
+Angelo De Caro: The day the day to day commit because that I, as a company, I will, I will not take that I will not use that the those commits those temporary can commit so I don't expect to see the the score on evaluated the main branch.
+
+211
+00:31:07.230 --> 00:31:09.450
+Angelo De Caro: That that's for sure I wouldn't expect that.
+
+212
+00:31:10.680 --> 00:31:10.890
+Angelo De Caro: Okay.
+
+213
+00:31:12.990 --> 00:31:13.290
+Tracy Kuhrt: All right.
+
+214
+00:31:14.310 --> 00:31:18.420
+Arun S M: Interesting you know, we did not explicitly discussed going this far, assuming that.
+
+215
+00:31:19.320 --> 00:31:24.240
+Arun S M: We would not even sure if we were going to adopt a policy that would stop projects from graduating.
+
+216
+00:31:24.750 --> 00:31:32.310
+Arun S M: So if we want to go down that direction, then one of the thought process at least it came in this week's and called board.
+
+217
+00:31:32.970 --> 00:31:48.330
+Arun S M: In terms of than 90 days boundary that we were to put what if projects don't follow up on that in that given boundary so there were discussions were probably we should bring down that project from graduated to incubating.
+
+218
+00:31:49.350 --> 00:31:49.740
+Arun S M: Large.
+
+219
+00:31:50.790 --> 00:31:52.140
+Arun S M: That was one of the way.
+
+220
+00:31:53.850 --> 00:32:07.140
+Arun S M: We were discussing in terms of how can we make sure that projects understand that this is important at the same time we don't put in too much pressure in and going and taking the drastic measures.
+
+221
+00:32:10.980 --> 00:32:12.810
+Tracy Kuhrt: That one get a lot of henry's is.
+
+222
+00:32:15.420 --> 00:32:23.100
+Bobbi Muscara: Well, I know that we're working at the task force for the documentation and we're having running into the same issue like when is it.
+
+223
+00:32:24.660 --> 00:32:33.150
+Bobbi Muscara: required information from each one of the projects when is it suggested information and what's the cadence for the update so.
+
+224
+00:32:33.450 --> 00:32:44.580
+Bobbi Muscara: I mean, maybe there needs to be some kind of system in place for the projects to you know, maybe with the new release or yearly check in and say yeah all this stuff is updated.
+
+225
+00:32:49.830 --> 00:32:52.650
+Troy Ronda: yeah I was just commenting on the idea of.
+
+226
+00:32:54.480 --> 00:33:01.830
+Troy Ronda: Moving graduated projects to incubate it, I think we should be careful, throwing up those kind of ideas that's extremely drastic.
+
+227
+00:33:03.420 --> 00:33:03.540
+Troy Ronda: You.
+
+228
+00:33:04.620 --> 00:33:04.950
+Tracy Kuhrt: know.
+
+229
+00:33:07.050 --> 00:33:15.900
+Arnaud  Le Hors (IBM): yeah I guess i'm kind of in the same you know thought here I mean I you know before we get into discussing punitive.
+
+230
+00:33:17.310 --> 00:33:28.350
+Arnaud  Le Hors (IBM): actions against projects, I think you know it would already go some ways to come up with clear recommendations instructions for the projects to follow.
+
+231
+00:33:28.830 --> 00:33:39.210
+Arnaud  Le Hors (IBM): And then you know we can see how much uptake response we get and if really there are projects that seem to be reluctant, we need to try to understand why.
+
+232
+00:33:39.540 --> 00:33:47.430
+Arnaud  Le Hors (IBM): And only once, you know we've gone through the whole process of ensuring Okay, this is really something people must do.
+
+233
+00:33:47.880 --> 00:33:56.610
+Arnaud  Le Hors (IBM): We should think about you know this kind of action, I think, for now, I mean we haven't had any policies we have been setting expectations.
+
+234
+00:33:56.880 --> 00:34:13.290
+Arnaud  Le Hors (IBM): Even though some might feel like a this is, you know part of this should have been taken care of by any you know reasonable project I think again, for now, we should just lay the ground, so to speak, and what what project should do.
+
+235
+00:34:15.300 --> 00:34:17.550
+Tracy Kuhrt: Okay, thanks Angela.
+
+236
+00:34:19.740 --> 00:34:27.510
+Angelo De Caro: yeah, so I will start by saying that I don't like, but the paternalistic approach, so I think we should not mandate anything specific but.
+
+237
+00:34:27.990 --> 00:34:35.070
+Angelo De Caro: In this coach, who is the target of the score, these are the possible clients so possible users of these enterprise.
+
+238
+00:34:35.820 --> 00:34:42.450
+Angelo De Caro: The Center so they will they will be the one pushing for having this course, so if a project doesn't update the scoring or doesn't update this.
+
+239
+00:34:42.930 --> 00:34:47.730
+Angelo De Caro: They will just lose tracking because they will cry enterprise, we prefer other block chains that.
+
+240
+00:34:48.240 --> 00:35:01.800
+Angelo De Caro: Are other tools will are keeping up with the scoring thing, and so on, so in case I guess our guidelines, I would expect guidelines and say, if you as a project you think that, for your clients for.
+
+241
+00:35:02.190 --> 00:35:09.990
+Angelo De Caro: New potential clients, this is a good thing follow these guidelines, if you don't want to follow up to you, I mean, then you, we are on the market.
+
+242
+00:35:12.510 --> 00:35:12.780
+Tracy Kuhrt: Right.
+
+243
+00:35:15.630 --> 00:35:26.370
+Hart Montgomery: yeah so so a couple of carpets answer though I think you're thinking like a security professional and I wish more people analyzed situations like you.
+
+244
+00:35:27.060 --> 00:35:40.560
+Hart Montgomery: Then again, if you look at how much money some say people dumped into the iota cryptocurrency with their hash function if you recall i'm not sure everyone makes these educated decisions.
+
+245
+00:35:41.730 --> 00:35:50.340
+Hart Montgomery: To our nose point we don't want to you know sort of immediately throw out, you know everything under the sun.
+
+246
+00:35:51.600 --> 00:36:03.240
+Hart Montgomery: We want to you know sort of slow roll these things out piece by piece right, so any kind of binding rules or anything we want to you know we plan on moving a little bit at a time.
+
+247
+00:36:04.260 --> 00:36:05.760
+Hart Montgomery: And as far as you know.
+
+248
+00:36:06.960 --> 00:36:20.790
+Hart Montgomery: Active projects goes, you know if a project is not responding to their security vulnerability reports, you know, should we really consider them an active project, you know I mean, I think, at some point we have to draw a line in the sand there.
+
+249
+00:36:24.330 --> 00:36:24.720
+Hart Montgomery: Oh.
+
+250
+00:36:26.220 --> 00:36:32.340
+Troy Ronda: yeah I mean I hear that it's just you know it's some point we have to also be worried about.
+
+251
+00:36:34.650 --> 00:36:42.570
+Troy Ronda: yeah meet me painters time and interest and not every project and hyper ledger is a blockchain.
+
+252
+00:36:43.590 --> 00:36:54.030
+Troy Ronda: For example, areas is a set of umbrella projects and i'm not sure how you know these ideas about kicking things out of active would actually work for all the projects across hyper ledger so.
+
+253
+00:36:55.320 --> 00:36:58.590
+Troy Ronda: I again urge caution on these kind of ideas of.
+
+254
+00:37:00.090 --> 00:37:01.260
+Troy Ronda: Punitive measures.
+
+255
+00:37:04.200 --> 00:37:07.500
+Troy Ronda: Where containers may start losing interest in in hyper ledger rate.
+
+256
+00:37:13.470 --> 00:37:13.770
+Tracy Kuhrt: Right.
+
+257
+00:37:15.180 --> 00:37:17.010
+Arun S M: Right, so I think that's.
+
+258
+00:37:18.180 --> 00:37:24.960
+Arun S M: The reason I did not mention this particular thing in the very beginning, is to avoid these kind of discussions, I understand.
+
+259
+00:37:25.530 --> 00:37:31.530
+Arun S M: All projects, they were we work hard to get them into the stage where we, we are currently and then.
+
+260
+00:37:32.250 --> 00:37:47.310
+Arun S M: From the intention old intention over here is to understand what is blocking in from from addressing some of the critical vulnerabilities versus prioritizing them as opposed to like, for instance.
+
+261
+00:37:48.990 --> 00:37:52.260
+Arun S M: We know the capital projects are being worked on and when when we know.
+
+262
+00:37:52.800 --> 00:38:01.980
+Arun S M: That if we understand that this particular issue would take us to redesign certain elements and that would take more than 90 days So yes, that is understandable so.
+
+263
+00:38:02.520 --> 00:38:10.020
+Arun S M: They will be, of course, provision so it's it's not it was just a thought process like it should be it won't be to that level for sure.
+
+264
+00:38:11.340 --> 00:38:14.760
+Arun S M: But there will be some recommendations which will come in a way which will allow.
+
+265
+00:38:16.620 --> 00:38:24.540
+Arun S M: A pathway where project teams can explain why certain thing is taking longer than expected and allow them to discuss through their.
+
+266
+00:38:24.990 --> 00:38:32.820
+Arun S M: scenario and, if needed, see if we can get some help from some other place so it's more to understand what's happening and then.
+
+267
+00:38:33.300 --> 00:38:45.480
+Arun S M: um I would probably also request this quorum, now that we are understanding the intensity of the of the issue of for any such suggestions that you may have what.
+
+268
+00:38:46.740 --> 00:38:48.810
+Arun S M: What might benefit each project right so.
+
+269
+00:38:50.010 --> 00:38:57.420
+Arun S M: I think it's good if we can also bring in those ideas, if you can share those ideas that you might have it will definitely help us.
+
+270
+00:39:07.980 --> 00:39:10.020
+Tracy Kuhrt: Any other thoughts or comments.
+
+271
+00:39:24.630 --> 00:39:26.430
+Tracy Kuhrt: I think one thing that I heard in.
+
+272
+00:39:27.450 --> 00:39:30.660
+Tracy Kuhrt: The discussion where we just had, is that.
+
+273
+00:39:32.010 --> 00:39:50.400
+Tracy Kuhrt: People want guidelines not mandates, which I think is very much on point with where we have been in the past with our history for the technical steering committee so just maybe take that into consideration as you move forward with this part.
+
+274
+00:39:51.030 --> 00:40:03.570
+Hart Montgomery: So I will say that pretty much all these rules have been stated as guidelines for quite some time, like the 90 day thing has been in the security guidelines since I want to say 2017 or 2018.
+
+275
+00:40:05.460 --> 00:40:07.230
+Hart Montgomery: And at some point, you know.
+
+276
+00:40:08.820 --> 00:40:12.480
+Hart Montgomery: Well, we have to ask if these guidelines are being effective.
+
+277
+00:40:16.440 --> 00:40:17.610
+Tracy Kuhrt: yeah and.
+
+278
+00:40:18.660 --> 00:40:27.600
+Tracy Kuhrt: The question there, I think you know 2017 we had a What was it by projects or something like that.
+
+279
+00:40:28.770 --> 00:40:50.130
+Tracy Kuhrt: we've increased since that point, have we done a good job of communicating what what guidelines exist when we onboard new projects i'm not sure that we've done a great job of that in the past and so maybe that's a you know, a question of how do we, how do we do a better job of.
+
+280
+00:40:51.600 --> 00:41:00.960
+Tracy Kuhrt: Bringing along the history to new joiners new contributors new mean caterers new projects as they come into the hyper ledger foundation.
+
+281
+00:41:01.380 --> 00:41:15.060
+Hart Montgomery: Totally you're absolutely right, and I also want to emphasize that we don't want to you know just sort of dump a bunch of mandates out on the Community right anything that we mandate would would be sort of.
+
+282
+00:41:16.860 --> 00:41:23.340
+Hart Montgomery: Slow rolled if that's the right word, you know we'd want to you know we don't want to take.
+
+283
+00:41:23.880 --> 00:41:29.460
+Hart Montgomery: We don't want to do this sort of all in one big massive chunk right, we want to do a little by little by little.
+
+284
+00:41:30.090 --> 00:41:40.920
+Hart Montgomery: So something like our first mandate that we would want to see would be that every project would have to maintain owners or two people on the security.
+
+285
+00:41:41.670 --> 00:41:46.800
+Hart Montgomery: Vote the security list for hyper ledger right, so this is how you this is how you know if someone.
+
+286
+00:41:47.550 --> 00:41:59.640
+Hart Montgomery: files a bug or post something on hacker one this is how you get it right, and this is sort of like a very minimum low bar, you know, and I would be surprised if anyone were against sort of this being a mandate right.
+
+287
+00:42:01.980 --> 00:42:15.030
+Hart Montgomery: Because it is such a low bar and it is something that you know projects would really have so we don't want to you know start with massive mandates, we want to start with sort of you know, small easy things like that.
+
+288
+00:42:16.170 --> 00:42:25.140
+Hart Montgomery: And then we can gradually you know if things go well, introduce more stringent requirements, I hope this makes sense to everybody.
+
+289
+00:42:31.740 --> 00:42:37.680
+Nathan George: yeah I just think of what this would have done to a project like borough where you know they might have had.
+
+290
+00:42:38.220 --> 00:42:44.490
+Nathan George: A few maintain owners, but some of the maintains were a bit of a stretch because they were trying really hard to grow and recruit more contributors and and.
+
+291
+00:42:45.180 --> 00:42:56.220
+Nathan George: And we're struggling to do so, and so you know I I don't think it's a question of reasonableness I think it's a question of you know how do we make these guidelines to where they.
+
+292
+00:42:57.120 --> 00:43:07.410
+Nathan George: They help grow the project and we help make and show clear value or we use them as a marketing tool, or we we do things to try to align these.
+
+293
+00:43:07.980 --> 00:43:18.720
+Nathan George: Extra steps with things that help bring customers in or help bring contributors in and hopefully convert them to maintain owners and that that's where some of these steps.
+
+294
+00:43:19.680 --> 00:43:33.570
+Nathan George: They feel reasonable when we think Oh well, everyone has plenty of time to do them, but when we're kind of in the middle of one of those projects that's that's kind of trying to get that traction it can be hard to meet all these check boxes at once.
+
+295
+00:43:35.340 --> 00:43:40.890
+Hart Montgomery: So Nathan borough was never an active project, so I don't think this would have ever applied to borough.
+
+296
+00:43:42.060 --> 00:43:56.520
+Hart Montgomery: And I don't think this is meant to apply to you know projects that are getting started this is more of a steady state, you know long term, you know your project is in production, so we need to have confidence and its security kind of thing.
+
+297
+00:43:57.630 --> 00:43:58.740
+Hart Montgomery: Does that answer the.
+
+298
+00:44:00.240 --> 00:44:00.750
+Hart Montgomery: The comment.
+
+299
+00:44:02.190 --> 00:44:06.540
+Nathan George: It helps um it just it feels like we're.
+
+300
+00:44:08.010 --> 00:44:16.110
+Nathan George: we're adding enough requirements that we need to acknowledge that it creates more distance for those projects to cover to get where they're trying to go.
+
+301
+00:44:18.840 --> 00:44:19.170
+Tracy Kuhrt: Right.
+
+302
+00:44:21.630 --> 00:44:25.500
+Troy Ronda: yeah I you know, of course, with Nathan there.
+
+303
+00:44:26.580 --> 00:44:30.480
+Troy Ronda: I am worried that we're not using enough perspective from the containers and.
+
+304
+00:44:31.920 --> 00:44:33.420
+Troy Ronda: On these discussions right.
+
+305
+00:44:34.800 --> 00:44:46.050
+Troy Ronda: I am worried about the same points about the loss of interest lost lost momentum is not just about this thing right it's just in general, the shift from.
+
+306
+00:44:47.370 --> 00:44:47.790
+Troy Ronda: kind of.
+
+307
+00:44:48.900 --> 00:44:55.500
+Troy Ronda: The coders voice to not is is is something we should be careful about.
+
+308
+00:44:56.940 --> 00:45:00.060
+Troy Ronda: In in trying to attract projects and people's time.
+
+309
+00:45:07.200 --> 00:45:21.240
+Tracy Kuhrt: might be worth the task force reaching out to the maintainer mailing list or the maintainer chat channel to have some of these conversations, to see if there's other sorts of input that like.
+
+310
+00:45:22.260 --> 00:45:26.190
+Tracy Kuhrt: Like provided different perspective or idea or.
+
+311
+00:45:27.420 --> 00:45:35.460
+Arun S M: i'm just wanted to understand the last concern that Troy raised is it more to understand, I mean is, it is it right you're asking how do we differentiate.
+
+312
+00:45:36.900 --> 00:45:43.980
+Arun S M: Any issue against a CV or is it on the other, spectrum like on it is determined to be as a CV.
+
+313
+00:45:45.000 --> 00:45:49.530
+Arun S M: Like, how do we protect our maintenance from having to do something in a given time.
+
+314
+00:45:50.760 --> 00:45:52.500
+Troy Ronda: So it was just a general is just a general.
+
+315
+00:45:52.500 --> 00:45:53.160
+Troy Ronda: comment that.
+
+316
+00:45:54.630 --> 00:45:57.450
+Troy Ronda: I am worried that you know we're kind of shifting from.
+
+317
+00:45:58.500 --> 00:46:06.660
+Troy Ronda: The the guidelines and growing projects and using the coders voice on on, for example, the tlc and shifting to.
+
+318
+00:46:07.980 --> 00:46:12.720
+Troy Ronda: less so, and I think the less that the coders voices is here.
+
+319
+00:46:13.860 --> 00:46:18.720
+Troy Ronda: The more trouble we will have growing projects and attracting interest so just a general comment that.
+
+320
+00:46:20.070 --> 00:46:21.090
+Troy Ronda: I am a little concerned.
+
+321
+00:46:23.880 --> 00:46:24.600
+Arun S M: Show thanks.
+
+322
+00:46:34.680 --> 00:46:44.070
+Tracy Kuhrt: Any other comments or feedback for the security test worse my condition open sharing with us.
+
+323
+00:46:52.560 --> 00:47:01.290
+Tracy Kuhrt: A real heart any questions that you have specifically for the thc that we can answer that we haven't already talked about.
+
+324
+00:47:06.810 --> 00:47:12.090
+Arun S M: The wood tcp oh sorry at Peter is fine i'll go next if it.
+
+325
+00:47:15.990 --> 00:47:17.670
+Peter Somogyvari: Just one last quick comment.
+
+326
+00:47:18.960 --> 00:47:20.130
+Peter Somogyvari: On I think.
+
+327
+00:47:21.600 --> 00:47:34.470
+Peter Somogyvari: The theme is here from people's comments, is that some people say oh yeah, we need better security may improve some people say Okay, but we don't want.
+
+328
+00:47:35.580 --> 00:47:45.870
+Peter Somogyvari: That to cost us maintain owners who would otherwise be willing to be maintainer so contributors, but then because of the security.
+
+329
+00:47:46.950 --> 00:47:50.610
+Peter Somogyvari: process David just shy away from hyper ledger.
+
+330
+00:47:51.660 --> 00:47:54.960
+Peter Somogyvari: So I see both points being made.
+
+331
+00:47:56.340 --> 00:47:58.410
+Peter Somogyvari: And then my full on that is.
+
+332
+00:47:59.820 --> 00:48:07.350
+Peter Somogyvari: That we should keep this in mind, as a guest the mandates should not be too harsh.
+
+333
+00:48:08.400 --> 00:48:11.040
+Peter Somogyvari: But all this will also keep in mind that.
+
+334
+00:48:12.210 --> 00:48:22.020
+Peter Somogyvari: There is a bar there has to be Sir it's just a matter of where we set it and then variable reset it should really be the level there.
+
+335
+00:48:22.950 --> 00:48:36.720
+Peter Somogyvari: They actually are confident saying well, if you want it to be a maintainer but you think this security bar is too high, then maybe it's better for everyone if if it's not happening actually.
+
+336
+00:48:38.190 --> 00:48:43.860
+Peter Somogyvari: So that then we all have to be sort of confident and believing this.
+
+337
+00:48:45.720 --> 00:48:55.440
+Peter Somogyvari: And then that way, this question this conundrum can be resolved in my opinion, in a way that everybody satisfied with it.
+
+338
+00:48:56.640 --> 00:49:00.030
+Peter Somogyvari: So it's a it's a gradual thing and.
+
+339
+00:49:01.920 --> 00:49:06.900
+Peter Somogyvari: They can set the bar got variable will be wanting, so I think we should focus on.
+
+340
+00:49:08.070 --> 00:49:14.670
+Peter Somogyvari: Not better mandates are needed at all or not because I would say, there has to be some.
+
+341
+00:49:16.110 --> 00:49:22.140
+Peter Somogyvari: But then we can we can keep working on very abortion with these mandates.
+
+342
+00:49:23.550 --> 00:49:29.700
+Peter Somogyvari: Because there is a version of events where the bar is too high, and then they lose valuable.
+
+343
+00:49:30.450 --> 00:49:42.870
+Peter Somogyvari: Before who would have been great maintain years and they would have put in some effort in security just maybe not the extreme that we said but there's also a version of events where there's no bar at all.
+
+344
+00:49:44.400 --> 00:49:57.120
+Peter Somogyvari: And then, some people end up being maintainer some religious did not care about security at all, and I would try us to focus on staying somewhere in the middle, which is the optimal.
+
+345
+00:49:58.770 --> 00:49:59.130
+Thank you.
+
+346
+00:50:02.730 --> 00:50:08.370
+Hart Montgomery: yeah thanks for the comments Peter, and I want to reassure everyone that in all these meetings.
+
+347
+00:50:08.910 --> 00:50:16.650
+Hart Montgomery: You know any mandates that we've talked about are extremely minimal the bar has been extremely low and it's been sort of things that.
+
+348
+00:50:16.980 --> 00:50:24.810
+Hart Montgomery: You think about it here like you know if something if some project didn't do something you'd be like wow that's really bad that's embarrassing.
+
+349
+00:50:25.290 --> 00:50:31.920
+Hart Montgomery: You know we're not we're not we don't want to start with a high bar, we want to start with something very, very low and very easy.
+
+350
+00:50:32.310 --> 00:50:46.560
+Hart Montgomery: And we have talked to maintain owners and we have taken into account, you know how much extra work that these things would involve for maintainer and you know we do want to keep that is as small as possible.
+
+351
+00:50:47.850 --> 00:51:01.500
+Hart Montgomery: So, so we have you know, a ruin is is leading this and doing a great job and we have addressed, we have thought about these issues and we don't want to scare anyone away with a too high, bar.
+
+352
+00:51:04.350 --> 00:51:06.000
+Hart Montgomery: So I hope that all makes sense.
+
+353
+00:51:07.920 --> 00:51:08.400
+Tracy Kuhrt: on time.
+
+354
+00:51:13.380 --> 00:51:13.740
+Tracy Kuhrt: Time.
+
+355
+00:51:14.730 --> 00:51:21.060
+Troy Ronda: yeah I mean I think everybody I shouldn't say everybody, but I think most will say security is important and.
+
+356
+00:51:24.000 --> 00:51:32.670
+Troy Ronda: You know track tracking these these issues is important, and you know the downstream organizations that use these projects will probably agree with that.
+
+357
+00:51:34.020 --> 00:51:34.740
+Troy Ronda: What we're should.
+
+358
+00:51:36.210 --> 00:51:47.790
+Troy Ronda: But, but in some other ways, it will also drive you know the utility and the usefulness of these projects by these organizations and if they're not doing these things in the projects will be used right so.
+
+359
+00:51:49.110 --> 00:51:51.810
+Troy Ronda: There is alternatives to the tasc.
+
+360
+00:51:53.250 --> 00:51:55.590
+Troy Ronda: Trying to have unified uniform.
+
+361
+00:51:56.760 --> 00:52:05.430
+Troy Ronda: High bars across all projects where it may make less sense, in certain cases right so that's that's kind of the problem with, I think.
+
+362
+00:52:06.540 --> 00:52:21.630
+Troy Ronda: Setting the the the unified bar for for everybody, when these projects or even all in the same category so again like security is important tracking these things is important, especially in production organizations downstream from it will push from it.
+
+363
+00:52:23.850 --> 00:52:27.660
+Troy Ronda: Besides, besides these kind of goals, but I think.
+
+364
+00:52:28.950 --> 00:52:29.280
+Troy Ronda: You know.
+
+365
+00:52:30.690 --> 00:52:37.500
+Troy Ronda: Keeping the maintainer is on board is is is is quite important and getting momentum is quite important traits so.
+
+366
+00:52:39.510 --> 00:52:53.880
+Troy Ronda: It is tricky but uniform rules, I don't know that always works right so that's why guidelines is kind of a interesting way to be and yeah obviously things embarrassing should should be, it should be addressed.
+
+367
+00:52:58.410 --> 00:53:11.460
+Hart Montgomery: yeah so try that those are all good points, and these have come up in our Security Task Force meetings, obviously, like you know, a blockchain explorer is going to need different security scrutiny.
+
+368
+00:53:12.570 --> 00:53:17.550
+Hart Montgomery: than you know, a block chain itself right or cryptographic library or something like that.
+
+369
+00:53:19.200 --> 00:53:26.610
+Hart Montgomery: You know we've thought about this, we have discussed this extensively, so I think you know we.
+
+370
+00:53:27.990 --> 00:53:30.870
+Hart Montgomery: This is not something that we haven't considered.
+
+371
+00:53:31.950 --> 00:53:43.650
+Hart Montgomery: You know, even if it I guess didn't make it into the recommendations document, but if you or anyone else you know is interested in this stuff and wants to talk about these issues i'd highly.
+
+372
+00:53:44.820 --> 00:53:58.290
+Hart Montgomery: recommend coming to a task force meeting because I think a lot of the questions today we actually have addressed and have talked about in the task force meetings and they you know just they haven't percolated up to this document.
+
+373
+00:54:00.330 --> 00:54:05.280
+Troy Ronda: yeah I mean that's just I think I got triggered and maybe others to on the you know.
+
+374
+00:54:06.750 --> 00:54:13.170
+Troy Ronda: The offhand comment about downgrading projects where we're clear that that's that turns from.
+
+375
+00:54:13.890 --> 00:54:25.590
+Troy Ronda: You know not not a discussion about fixing embarrassing things but to setting very high bars and being punitive rate and that when when it's when it's or something like that I think people's hairs go up right.
+
+376
+00:54:26.250 --> 00:54:38.760
+Hart Montgomery: And, but you know we're just we just want to ask for like you know very minimal things right, you know we don't want to we don't want to punish anyone who's you know trying right.
+
+377
+00:54:40.770 --> 00:54:59.610
+Hart Montgomery: So, so I think you know what we'll come up with something more concrete, I think, then these recommendations, and I think people will see that this is not like you know being punitive is not the goal right, we want to just we went to incentivize people to do the right thing.
+
+378
+00:55:04.020 --> 00:55:12.240
+Hart Montgomery: So when we don't want to punish people for trying so, so I hope this I hope this makes sense, and I hope, like.
+
+379
+00:55:12.840 --> 00:55:27.150
+Hart Montgomery: You know if if we can come back with sort of you know more concrete things that the tasc can actually vote on that that people will see that they're not you know excessively punitive and I don't think that a lot of these worries will.
+
+380
+00:55:28.230 --> 00:55:29.190
+Hart Montgomery: will come to fruition.
+
+381
+00:55:32.490 --> 00:55:32.880
+Tracy Kuhrt: Peter.
+
+382
+00:55:34.860 --> 00:55:41.580
+Peter Somogyvari: Thus, I just wanted to agree with heart and try to also say it a different way that I just for us, which is that.
+
+383
+00:55:43.380 --> 00:55:44.790
+Peter Somogyvari: Probably what we want to.
+
+384
+00:55:46.050 --> 00:55:55.050
+Peter Somogyvari: avoid or protect against is this sort of legal term that I heard, which is gross negligence when.
+
+385
+00:55:56.190 --> 00:56:03.210
+Peter Somogyvari: People cause some big trouble just by not giving at least a little bit of attention to something.
+
+386
+00:56:04.740 --> 00:56:05.370
+Peter Somogyvari: So I think.
+
+387
+00:56:06.690 --> 00:56:16.230
+Peter Somogyvari: If if if you phrase it that way, then everyone can agree that we should try to prevent those cases, you know if if there's a dlp project within hyper ledger.
+
+388
+00:56:17.310 --> 00:56:30.180
+Peter Somogyvari: We should try to prevent issues they're huge amounts of money, money will be lost in a production deployment because someone didn't take five minutes to double check something.
+
+389
+00:56:31.650 --> 00:56:35.100
+Peter Somogyvari: So I think the scope, if you think about it that way, then.
+
+390
+00:56:36.210 --> 00:56:42.030
+Peter Somogyvari: It becomes visible why, at least a little bit of something is necessary.
+
+391
+00:56:43.980 --> 00:56:44.730
+that's it Thank you.
+
+392
+00:56:45.900 --> 00:56:46.290
+Tracy Kuhrt: All right.
+
+393
+00:56:47.310 --> 00:56:50.670
+Tracy Kuhrt: Well, with that I think we're just about.
+
+394
+00:56:51.810 --> 00:56:58.710
+Tracy Kuhrt: At the top of the hour, I appreciate all the thoughts in the comments and i'm sure the Security Task Force does as well.
+
+395
+00:56:59.130 --> 00:57:08.310
+Tracy Kuhrt: I heard a room, thank you for bringing this to us and we look forward to having some concrete guidelines being brought forward to the tasc in the future.
+
+396
+00:57:08.850 --> 00:57:17.340
+Tracy Kuhrt: For us to have a look at and commit and hopefully work through the the process of deciding whether or not.
+
+397
+00:57:17.910 --> 00:57:30.390
+Tracy Kuhrt: The guideline is something that we want to bring to the different hyper ledger projects so with that i'm going to close today's meeting, thank you all for your time and we will talk again soon.
+
+398
+00:57:31.560 --> 00:57:32.370
+Hart Montgomery: Excellent Tracy.
+

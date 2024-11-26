@@ -1,0 +1,1486 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.989
+Mike Ebert - Indicio: towards the cloud.
+
+2
+00:00:06.750 --> 00:00:07.290
+Mike Ebert - Indicio: alright.
+
+3
+00:00:11.429 --> 00:00:19.020
+Mike Ebert - Indicio: Welcome everyone to the area's working group on may 25 2022.
+
+4
+00:00:22.050 --> 00:00:25.380
+Mike Ebert - Indicio: I will start with our usual welcome here.
+
+5
+00:00:27.690 --> 00:00:32.790
+Mike Ebert - Indicio: Since this is a hyper ledger working group and.
+
+6
+00:00:34.830 --> 00:00:45.750
+Mike Ebert - Indicio: means that we are meeting under the Linux foundation antitrust policy notice, we have a policy that everyone is welcome here, everyone can come and contribute.
+
+7
+00:00:46.260 --> 00:01:06.840
+Mike Ebert - Indicio: And we want everyone to feel safe and we're not pushing particular commercial opportunities so we're going to follow the hyper ledger code of conduct that's kind of our summary and if you have concerns about your usual or today's special host or other participants.
+
+8
+00:01:08.640 --> 00:01:15.390
+Mike Ebert - Indicio: We can follow that link to the hyper ledger code of conduct and make other people aware of anything that went wrong or.
+
+9
+00:01:16.410 --> 00:01:17.400
+Mike Ebert - Indicio: recommendations.
+
+10
+00:01:19.830 --> 00:01:25.230
+Mike Ebert - Indicio: you're welcome to add yourself to the list of attendees as Felipe and I already have.
+
+11
+00:01:28.170 --> 00:01:32.520
+Mike Ebert - Indicio: And is there anyone who would like to introduce themselves today.
+
+12
+00:01:55.830 --> 00:02:02.400
+Mike Ebert - Indicio: All right, i'll introduce myself in case anyone doesn't know me, my name is Mike he Burt I lead the team.
+
+13
+00:02:03.630 --> 00:02:15.390
+Mike Ebert - Indicio: Enterprise team at NBC do it means the team that writes controller code that sits on top of occupy works with agents that run servers and i'm usually kind of a.
+
+14
+00:02:17.610 --> 00:02:32.160
+Mike Ebert - Indicio: kind of a lurker on the areas working group calls but i've been coming for a while and appreciate all work that's done here and see mostly familiar faces today, so we can move on from introductions.
+
+15
+00:02:33.840 --> 00:02:47.220
+Mike Ebert - Indicio: Now let's talk about some announcements so first announcement on our list is the did calm working group will be voting to approve version to this coming Monday whoo.
+
+16
+00:02:49.620 --> 00:03:03.450
+Mike Ebert - Indicio: And then my announcement is the idea interrupt Python well is scheduled for June 16 so ker Diya is a open source community that focuses on the.
+
+17
+00:03:04.830 --> 00:03:11.760
+Mike Ebert - Indicio: Management sharing and verification of health and travel data, and so the interrupt Python there.
+
+18
+00:03:12.840 --> 00:03:16.470
+Mike Ebert - Indicio: There were there are going to be several.
+
+19
+00:03:17.550 --> 00:03:25.980
+Mike Ebert - Indicio: Reference implementations of agents that use the health data and follow areas protocols and standards.
+
+20
+00:03:26.550 --> 00:03:40.980
+Mike Ebert - Indicio: And this particular interrupt Python is you know it's a chance to come and test agents against each other, and you know verify that some of the workflows goes smoothly and that everybody's kind of playing by the rules.
+
+21
+00:03:43.110 --> 00:03:43.830
+Mike Ebert - Indicio: The.
+
+22
+00:03:45.510 --> 00:03:50.190
+Mike Ebert - Indicio: Difference a little bit from the area test harness and interrupt profile.
+
+23
+00:03:51.420 --> 00:03:51.960
+Mike Ebert - Indicio: In that.
+
+24
+00:03:53.040 --> 00:03:57.750
+Mike Ebert - Indicio: There are a couple things that we try to test that kind of arise live situations.
+
+25
+00:03:59.070 --> 00:04:07.650
+Mike Ebert - Indicio: You know they're extra agreements or steps are things that aren't part of interrupt profile for areas that sometimes cause people.
+
+26
+00:04:08.100 --> 00:04:15.840
+Mike Ebert - Indicio: Little trouble or where agreement needs to be made at least as a cardiac communities this particular time we'll be doing some pretty basic protocol testing.
+
+27
+00:04:16.200 --> 00:04:25.740
+Mike Ebert - Indicio: So instead of full medical workflows will be doing some basic connections out of issuance presentations basic message and question and answer testing.
+
+28
+00:04:27.120 --> 00:04:30.780
+Mike Ebert - Indicio: Does anybody else have other announcements that they would like to add to our list today.
+
+29
+00:05:00.690 --> 00:05:12.150
+Mike Ebert - Indicio: Alright that's a half Nathan wait there, so we can move on feel free to add announcements to this agenda later if you think of something that you'd like to bring up here.
+
+30
+00:05:13.380 --> 00:05:14.430
+Mike Ebert - Indicio: let's go over.
+
+31
+00:05:15.600 --> 00:05:18.240
+Mike Ebert - Indicio: Some release status and work updates.
+
+32
+00:05:20.100 --> 00:05:24.510
+Mike Ebert - Indicio: Does anyone have anything about the areas agent test harness.
+
+33
+00:05:25.710 --> 00:05:28.470
+Mike Ebert - Indicio: or interrupt info that they'd like to bring up today.
+
+34
+00:05:40.110 --> 00:05:44.340
+Mike Ebert - Indicio: All right areas shared components in the SDK replacements.
+
+35
+00:05:45.600 --> 00:05:46.740
+Mike Ebert - Indicio: Such as ask our.
+
+36
+00:05:50.370 --> 00:05:51.480
+Mike Ebert - Indicio: or in dvr.
+
+37
+00:06:04.890 --> 00:06:11.070
+Mike Ebert - Indicio: Alright, any updates from some of the frameworks that are out there occupy.
+
+38
+00:06:20.910 --> 00:06:25.410
+Mike Ebert - Indicio: Various framework javascript I don't see most of our usual attendees for that group.
+
+39
+00:06:32.460 --> 00:06:44.370
+Mike Ebert - Indicio: looks like according to James they're working on a zero to release, which would include issuing credentials and using present proof version two and out of bandwidth did exchange.
+
+40
+00:06:46.140 --> 00:06:53.100
+Mike Ebert - Indicio: looks like they've merged revocation and revocation notification support and then I have some PRS for.
+
+41
+00:06:53.640 --> 00:06:56.520
+Mike Ebert - Indicio: Lower versions of some protocols.
+
+42
+00:06:56.970 --> 00:06:59.940
+Mike Ebert - Indicio: looks like beginning json ld and bbs plus support.
+
+43
+00:07:01.020 --> 00:07:02.880
+Mike Richardson: Like I can I can get an update on that.
+
+44
+00:07:03.030 --> 00:07:03.390
+Like.
+
+45
+00:07:04.560 --> 00:07:07.950
+Mike Richardson: I can't imagine not here because I didn't work on a show.
+
+46
+00:07:08.730 --> 00:07:24.600
+Mike Richardson: awesome pretty pretty much everything that you're saying there is correct, but the actual Ob did exchange PR was actually merged into 020 last Friday I think last week so that's actually been merged, which is cool.
+
+47
+00:07:26.400 --> 00:07:26.970
+Mike Ebert - Indicio: Yes.
+
+48
+00:07:27.030 --> 00:07:31.470
+Mike Richardson: And started working on json ld vs plus if everyone wants to finish that.
+
+49
+00:07:32.610 --> 00:07:44.580
+Mike Richardson: there's a PR for issue credentials Jason elaine bbs plus the present proof is progressing so I would say we passed the starting started working phases say it's.
+
+50
+00:07:45.990 --> 00:07:47.160
+Mike Richardson: that's that's going to go into.
+
+51
+00:07:48.330 --> 00:07:59.490
+Mike Richardson: The next race is going to be 030 there's already like a sort of placeholder product ready for that we're starting to emerge some of that stuff it already so it's probably yeah nearing completion is probably a more accurate.
+
+52
+00:08:00.540 --> 00:08:05.250
+Mike Richardson: description, I know team is working on some news and urs is.
+
+53
+00:08:06.270 --> 00:08:08.700
+Mike Richardson: The best come from him, so I think what you've got there is now.
+
+54
+00:08:10.320 --> 00:08:11.550
+Mike Richardson: Pretty close to the mark yeah.
+
+55
+00:08:13.200 --> 00:08:18.240
+Mike Ebert - Indicio: All right, I really appreciate the updates I was just reading off the notes the notes needed updating so now we've.
+
+56
+00:08:18.240 --> 00:08:19.470
+Mike Ebert - Indicio: got some.
+
+57
+00:08:19.710 --> 00:08:22.650
+Mike Ebert - Indicio: very promising progress on some important stuff Thank you.
+
+58
+00:08:22.680 --> 00:08:23.730
+Mike Richardson: Yes, no problem.
+
+59
+00:08:25.560 --> 00:08:35.190
+Mike Ebert - Indicio: All right, alright, we have mentioned for areas framework go usually Troy I guess the one who doesn't work there, but does someone have an update for areas framework go.
+
+60
+00:08:45.900 --> 00:08:47.070
+Mike Ebert - Indicio: Areas vc dx.
+
+61
+00:08:48.330 --> 00:09:01.980
+Mike Ebert - Indicio: or areas framework.net.
+
+62
+00:09:05.310 --> 00:09:07.410
+Mike Ebert - Indicio: Okay, for mobile.
+
+63
+00:09:09.480 --> 00:09:10.260
+Mike Ebert - Indicio: we've got.
+
+64
+00:09:11.580 --> 00:09:16.140
+Mike Ebert - Indicio: areas by fold or harry's Max mobile agents Cameron.
+
+65
+00:09:18.270 --> 00:09:23.820
+Mike Ebert - Indicio: areas by fold is built on fj and so a lot of those same updates apply.
+
+66
+00:09:25.710 --> 00:09:29.340
+Mike Ebert - Indicio: Any additional word on on those two mobile projects.
+
+67
+00:09:37.980 --> 00:09:45.150
+Mike Ebert - Indicio: Round things out by asking for the last four items every service mediator toolbox SDK Java or cursor.
+
+68
+00:09:56.850 --> 00:09:57.480
+Mike Ebert - Indicio: alright.
+
+69
+00:09:59.970 --> 00:10:12.210
+Mike Ebert - Indicio: The more I get into this Community, the more I appreciate all the volunteer work that people put in all these projects, so thank you very much for your contributions to all of these different efforts.
+
+70
+00:10:13.980 --> 00:10:22.350
+Mike Ebert - Indicio: Sam wrote me an agenda for discussion today, and he put in the the one topic, where I.
+
+71
+00:10:23.700 --> 00:10:31.380
+Mike Ebert - Indicio: actually feel like I have a little bit of expertise to share he wanted an update shared about machine readable governance.
+
+72
+00:10:32.670 --> 00:10:44.520
+Mike Ebert - Indicio: So i'll just go over a couple things that are relevant there and then we can discuss the Ai P version two and the pickup protocol, a little bit and then.
+
+73
+00:10:45.720 --> 00:10:51.450
+Mike Ebert - Indicio: We can add any other items that people have at the end, especially if we have spare time.
+
+74
+00:10:54.030 --> 00:10:55.800
+Mike Ebert - Indicio: So for machine readable governance.
+
+75
+00:10:57.090 --> 00:11:07.500
+Mike Ebert - Indicio: We have been sharing the work that we've been doing it in DC to each w since we started, and the first couple of times.
+
+76
+00:11:09.480 --> 00:11:15.240
+Mike Ebert - Indicio: People said what's machine readable governance what's the trust registry why shouldn't care.
+
+77
+00:11:16.500 --> 00:11:38.640
+Mike Ebert - Indicio: And this last iwa we went and there was a great deal of interest and understanding and participation and interesting questions and recommendations and people beginning to attempt to implement and use some form of machine readable governance, so it was really exciting to have.
+
+78
+00:11:41.130 --> 00:11:49.980
+Mike Ebert - Indicio: So much interaction and interest in this last time around, so I was able to present two sessions, that I w and.
+
+79
+00:11:51.150 --> 00:11:55.860
+Mike Ebert - Indicio: One on the basics and one a little bit on our implementation that we have so far.
+
+80
+00:11:57.210 --> 00:12:04.500
+Mike Ebert - Indicio: One of the recommendations was that we begin working with a standards body to try and make it.
+
+81
+00:12:05.040 --> 00:12:12.360
+Mike Ebert - Indicio: Somewhat standard and share the work we've done so that the whole community can take advantage of machine readable governance.
+
+82
+00:12:13.110 --> 00:12:30.060
+Mike Ebert - Indicio: And after I w as able to get in touch with the folks at the diff and they coincidentally had begun work item at the claims and credentials working group, so they invited me to participate there.
+
+83
+00:12:30.720 --> 00:12:38.310
+Mike Ebert - Indicio: And so we're beginning some work on trust lists, in particular, but also some other features that.
+
+84
+00:12:39.990 --> 00:12:49.560
+Mike Ebert - Indicio: That we've given try at including and whoops and machinery will governance and that type of trust registry protocol.
+
+85
+00:12:50.820 --> 00:13:01.050
+Mike Ebert - Indicio: has indeed been mentioned and looked into a couple different times, so there are some commonalities and there are some differences.
+
+86
+00:13:02.220 --> 00:13:03.180
+Mike Richardson: Like I wish.
+
+87
+00:13:03.780 --> 00:13:12.120
+Mike Richardson: uh huh um it would I be right in saying that machine readable governance and trust registers are essentially sort of synonymous terms just just to get the terminology clear.
+
+88
+00:13:12.510 --> 00:13:18.060
+Mike Richardson: Is there any difference, or is one a subset of the other or because i've heard the term trust registry something i'm very familiar with.
+
+89
+00:13:18.570 --> 00:13:28.230
+Mike Richardson: I know darryl we're working on this kind of stuff tip stuff a year or so ago but machine readable governance is a new a new word on the So is there any difference between the two terms.
+
+90
+00:13:29.370 --> 00:13:33.090
+Mike Ebert - Indicio: Yes, there's the there are some common goals.
+
+91
+00:13:34.890 --> 00:13:44.460
+Mike Ebert - Indicio: And there are a couple differences, so a machine readable governance is kind of a blanket term that means you know any system or method for.
+
+92
+00:13:45.150 --> 00:13:55.770
+Mike Ebert - Indicio: Implementing you know governance or rules or decisions in within a Community, as you know, using machines and the trust over IP.
+
+93
+00:13:56.190 --> 00:14:08.580
+Mike Ebert - Indicio: Trust registry protocol is one approach to do that, and then the governance files governance framework files that DC has been working on is kind of another and.
+
+94
+00:14:09.960 --> 00:14:22.500
+Mike Ebert - Indicio: there's just generally speaking there a couple different ways that people think of trust registries and machine readable governance framework files are also a slightly different.
+
+95
+00:14:23.670 --> 00:14:25.320
+Mike Ebert - Indicio: And kind of a new thing for people.
+
+96
+00:14:27.360 --> 00:14:40.530
+Mike Ebert - Indicio: With trust registries a model that tends to occur there is you end up with some kind of standards or governing body that establishes a.
+
+97
+00:14:42.660 --> 00:14:58.320
+Mike Ebert - Indicio: system where the information is collected and then they have a protocol for how that's recorded and shared and occasionally besides listing trusted participants they'll have some other things they try to do like specifying.
+
+98
+00:15:00.270 --> 00:15:01.620
+Mike Ebert - Indicio: roles or.
+
+99
+00:15:03.720 --> 00:15:05.190
+Mike Ebert - Indicio: Things like that and.
+
+100
+00:15:08.040 --> 00:15:14.640
+Mike Ebert - Indicio: The slight difference between that and a governance framework file, so the governance framework files.
+
+101
+00:15:15.840 --> 00:15:16.230
+Mike Ebert - Indicio: Are.
+
+102
+00:15:17.340 --> 00:15:23.910
+Mike Ebert - Indicio: The reason that we started trying to use create those is that there's a little bit of a.
+
+103
+00:15:25.620 --> 00:15:27.210
+Mike Ebert - Indicio: chicken and the egg problem where.
+
+104
+00:15:29.100 --> 00:15:35.850
+Mike Ebert - Indicio: You know if you are setting up a system where you need to have trusted agents and participants.
+
+105
+00:15:38.160 --> 00:15:52.260
+Mike Ebert - Indicio: You know, sometimes it's like well you know, we need to have a trust registry, to say to make a list of who's trusted and how do you trust the trust registry and is it a third party organization that's a nonprofit or government or.
+
+106
+00:15:53.280 --> 00:15:55.170
+Mike Ebert - Indicio: An organizer some other means.
+
+107
+00:15:56.520 --> 00:16:10.320
+Mike Ebert - Indicio: Are we going to wait on someone to set one of those up and sometimes there are situations where you may want to bootstrap into trust within your own jurisdiction so.
+
+108
+00:16:11.040 --> 00:16:32.010
+Mike Ebert - Indicio: let's say you're a company and you're trying to use agents internally with you know within your own organization your own departments, maybe your own partners your own ecosystem of work and you don't necessarily want or need third party registry of any kind.
+
+109
+00:16:33.060 --> 00:16:44.370
+Mike Ebert - Indicio: One thing you can do instead of setting up using the trust over IP registry protocol is you could also use a governance framework file and so.
+
+110
+00:16:46.440 --> 00:16:55.170
+Mike Ebert - Indicio: My notes for darren's framework files there a couple different pieces yeah kind of like a config file for an ecosystem yep.
+
+111
+00:16:55.410 --> 00:16:57.210
+Mike Ebert - Indicio: makes total fan yeah.
+
+112
+00:16:57.630 --> 00:16:58.800
+let's see here.
+
+113
+00:17:00.900 --> 00:17:09.300
+Mike Ebert - Indicio: So i'm gonna look at the comments in the chat here real quick she will governance to me has some good data constructs for exchanging business rules see them aligning and time.
+
+114
+00:17:09.720 --> 00:17:22.590
+Mike Ebert - Indicio: The trust registry Protocol would serve up data in a format, the lines machinery will governance approach yeah, so there are there are some some things that overlap and.
+
+115
+00:17:24.090 --> 00:17:25.590
+Mike Ebert - Indicio: Some of the trust over IP.
+
+116
+00:17:26.820 --> 00:17:33.270
+Mike Ebert - Indicio: People involved there have come to me and said, you know, I think that these approaches would be compatible, so if a.
+
+117
+00:17:33.900 --> 00:17:45.390
+Mike Ebert - Indicio: If a local jurisdictions stood up you know the governance and some of the config for their ecosystem, it could be shared one method would be to share it through it trust over IP.
+
+118
+00:17:46.530 --> 00:17:48.660
+Mike Ebert - Indicio: Trust registry protocol and set up there.
+
+119
+00:17:50.610 --> 00:17:53.220
+Mike Ebert - Indicio: hope that that does that clarify that some of the.
+
+120
+00:17:54.390 --> 00:17:58.050
+Mike Ebert - Indicio: subtle differences and approach there and what's going on in those two.
+
+121
+00:18:05.310 --> 00:18:15.390
+Mike Ebert - Indicio: Okay, so the the governance framework files that we have right now have a couple major parts there's a section of metadata that.
+
+122
+00:18:15.960 --> 00:18:34.170
+Mike Ebert - Indicio: describes some things about the governance framework file and the organization that's providing it also you know machine readable governance typically complements mirrors or is works, hand in hand with you know written human readable governance.
+
+123
+00:18:35.430 --> 00:18:37.860
+Mike Ebert - Indicio: And so, some of that is can be mentioned in the metadata.
+
+124
+00:18:39.810 --> 00:18:42.540
+Mike Ebert - Indicio: We have included a schema list so that.
+
+125
+00:18:44.130 --> 00:18:50.130
+Mike Ebert - Indicio: People participating or investigating this ecosystem can know which schemas are in use.
+
+126
+00:18:51.660 --> 00:19:00.990
+Mike Ebert - Indicio: The part, that is, you know most similar to a trust registry is the trusted participants section so.
+
+127
+00:19:03.360 --> 00:19:14.100
+Mike Ebert - Indicio: Given the potential absence or lack of us trust registry, or if you're trying to bootstrap your local ecosystem or.
+
+128
+00:19:15.240 --> 00:19:23.280
+Mike Ebert - Indicio: manage your list of trusted agents in a config file that can be used by various agents in your in your system.
+
+129
+00:19:24.390 --> 00:19:37.110
+Mike Ebert - Indicio: You can list the participants and give them like a human friendly name and the most important part is to list the did and then we've included some other options of metadata that can contain there.
+
+130
+00:19:38.580 --> 00:19:39.120
+Mike Ebert - Indicio: and
+
+131
+00:19:40.380 --> 00:19:57.840
+Mike Ebert - Indicio: Those will be especially useful while you're waiting for you know until you have a trust registry or other mechanisms to describe the agents, but for now, you can stand up the whole system from scratch and have it config have it in the config file for your governance.
+
+132
+00:19:59.370 --> 00:20:03.870
+Mike Ebert - Indicio: Beyond the list of trusted participants ones that have been vetted and identified ahead of time.
+
+133
+00:20:05.310 --> 00:20:13.680
+Mike Ebert - Indicio: You there's a section for describing roles and then mapping those roles to the participants in a section called permissions and then one.
+
+134
+00:20:14.730 --> 00:20:31.890
+Mike Ebert - Indicio: I don't know how much trust over IP has done in this particular regard we've done some work with actions that can be linked together to workflows because someone comment on is that something that's part of the trust over IP trust registry protocols or specs.
+
+135
+00:20:32.100 --> 00:20:41.100
+Darrell O'Donnell: know I mean right now, their trust over IP spec is really focused on three questions but they're moving on to other three questions are are you an authoritative issuer.
+
+136
+00:20:41.580 --> 00:20:43.200
+Darrell O'Donnell: Or you know authorized verified.
+
+137
+00:20:43.890 --> 00:20:52.680
+Darrell O'Donnell: And do you recognize this other trust registry, the next step really is to dive into more about the schema you know the presentation requests that are happening.
+
+138
+00:20:53.670 --> 00:21:04.140
+Darrell O'Donnell: Some basic rules, but certainly not you know Compostable actions now that wouldn't and that would be down the road or completely outside of the trust registry side just you mean I just initial thinking on that.
+
+139
+00:21:05.520 --> 00:21:14.610
+Mike Ebert - Indicio: Okay, those are, thank you for that those Those are three good goals, some of those goals are shared here but that's that's where a lot of the overlap happens.
+
+140
+00:21:16.200 --> 00:21:19.110
+Mike Ebert - Indicio: And then, besides the Compostable actions.
+
+141
+00:21:21.930 --> 00:21:23.220
+Mike Ebert - Indicio: You know, you mentioned the.
+
+142
+00:21:24.450 --> 00:21:25.830
+Mike Ebert - Indicio: The request presentation.
+
+143
+00:21:25.830 --> 00:21:27.330
+Mike Ebert - Indicio: Requests so.
+
+144
+00:21:27.570 --> 00:21:29.250
+Mike Ebert - Indicio: we've been working on including.
+
+145
+00:21:30.480 --> 00:21:32.580
+Mike Ebert - Indicio: Presentation definitions from the diff.
+
+146
+00:21:32.970 --> 00:21:50.550
+Mike Ebert - Indicio: yep and we're looking to add financial manifests as well they're mentioned in, in particular during the actions to say here's a verification action and, for this verification we're going to use this particular presentation definition and.
+
+147
+00:21:51.600 --> 00:21:53.310
+Mike Ebert - Indicio: When you add a credential manifest.
+
+148
+00:21:53.580 --> 00:21:54.990
+Mike Ebert - Indicio: The idea, there is to describe.
+
+149
+00:21:56.310 --> 00:21:58.830
+Mike Ebert - Indicio: What would happen during an issuance So those are.
+
+150
+00:22:00.600 --> 00:22:07.080
+Mike Ebert - Indicio: Those are some good areas for collaborating and making sure our approaches are going to be compatible so that.
+
+151
+00:22:09.360 --> 00:22:12.660
+Mike Ebert - Indicio: Everybody has an easier time of navigating one or the other, or both.
+
+152
+00:22:15.060 --> 00:22:20.520
+Mike Ebert - Indicio: So for actions we have three basic ones at the moment, we have an action that would trigger.
+
+153
+00:22:21.180 --> 00:22:37.590
+Mike Ebert - Indicio: Some protocol, so to say here's an issuance action, the verification action, action, action basic message action question and answer action something tied to a particular protocol, we have decisions where we name an input and.
+
+154
+00:22:38.760 --> 00:22:47.370
+Mike Ebert - Indicio: describe you know kind of what we expect in that single input and then based on the value of that input, you can trigger another action so.
+
+155
+00:22:48.150 --> 00:23:00.180
+Mike Ebert - Indicio: One example is you, you could ask you know us question and answer to ask a question and then based on the response to that question, you could trigger some other action, the flow, such as basic message that says.
+
+156
+00:23:00.810 --> 00:23:10.320
+Mike Ebert - Indicio: Sorry, we don't you know don't support that right now, or congratulations we're going to issue a credential or let's go to a verification step.
+
+157
+00:23:12.210 --> 00:23:16.260
+Mike Ebert - Indicio: Each action, besides the information to perform that action.
+
+158
+00:23:17.610 --> 00:23:23.970
+Mike Ebert - Indicio: contains a link to the following steps or steps Oh, and then an API one is.
+
+159
+00:23:26.070 --> 00:23:33.930
+Mike Ebert - Indicio: We haven't actually implemented one but we've specified one that's a way to trigger an API call to an external system kind of operates like a state machine.
+
+160
+00:23:35.400 --> 00:23:46.710
+Mike Ebert - Indicio: And then, like I said before, we're incorporating presentation definitions and then credential manifests I think we're going to request small changer adjustment there that would make it so that.
+
+161
+00:23:47.880 --> 00:24:00.600
+Mike Ebert - Indicio: They were somewhat limiting because they were tied to a single did I was hoping to make it so that you could define a credential manifests that would cover issuance perhaps by.
+
+162
+00:24:01.800 --> 00:24:09.900
+Mike Ebert - Indicio: A role or multiple bids, so that you wouldn't have to generate one per agent but anyway, so those are kind of the major pieces and.
+
+163
+00:24:11.910 --> 00:24:30.750
+Mike Ebert - Indicio: The depth is interested in the starting with the trust trusted list part and we're will will be discussing how the other parts would fit in and towards the overall strategy, whether they need to be separated from or how they would be linked to the trust list and.
+
+164
+00:24:32.010 --> 00:24:45.330
+Mike Ebert - Indicio: You know what files formats, etc, would be appropriate there, so I think trust over IP has a bit of a solid head start on the formalization and.
+
+165
+00:24:46.590 --> 00:24:50.580
+Mike Ebert - Indicio: You know, being official for their processes and definitions.
+
+166
+00:24:52.140 --> 00:25:06.300
+Mike Ebert - Indicio: But will be working quickly because we'd like to get some of the pieces that are unique to a governance framework file shared with the Community and discussed and described soon so that.
+
+167
+00:25:07.740 --> 00:25:08.910
+Mike Ebert - Indicio: People can take advantage of that.
+
+168
+00:25:09.600 --> 00:25:10.890
+Mike Ebert - Indicio: yeah for the questions on that.
+
+169
+00:25:11.190 --> 00:25:18.330
+Darrell O'Donnell: I just suggest you, you know, perhaps bring this up at one of the trust the trust over IP if you're willing to do so, if not to me.
+
+170
+00:25:19.410 --> 00:25:23.490
+Darrell O'Donnell: I just don't understand the separation, the duplication of effort myself but.
+
+171
+00:25:27.120 --> 00:25:27.660
+Darrell O'Donnell: that's just me.
+
+172
+00:25:28.530 --> 00:25:29.250
+Mike Ebert - Indicio: yeah no.
+
+173
+00:25:29.760 --> 00:25:34.800
+Mike Ebert - Indicio: I, I understand that there is some duplication of effort and.
+
+174
+00:25:37.110 --> 00:25:40.770
+Mike Ebert - Indicio: I will have to investigate, to make sure that we're not doing something silly by.
+
+175
+00:25:43.290 --> 00:25:49.410
+Mike Ebert - Indicio: You know, are we recreating the wheel in a particular aspect, or is there a real.
+
+176
+00:25:50.310 --> 00:25:52.230
+Mike Ebert - Indicio: Meaningful difference in approach.
+
+177
+00:25:52.500 --> 00:25:53.250
+Mike Ebert - Indicio: That means that.
+
+178
+00:25:54.540 --> 00:25:55.920
+Mike Ebert - Indicio: There would be wise to have both.
+
+179
+00:25:58.380 --> 00:26:05.700
+Mike Ebert - Indicio: I will look into I do have a couple people from trusted right P, who I think if you it's a.
+
+180
+00:26:08.010 --> 00:26:13.410
+Mike Ebert - Indicio: To you know they said let's let's chat, so I will go and talk to them and see what.
+
+181
+00:26:14.670 --> 00:26:18.510
+Mike Ebert - Indicio: What should should come of it, and you know there's.
+
+182
+00:26:19.560 --> 00:26:21.450
+Mike Ebert - Indicio: It might be the kind of thing where.
+
+183
+00:26:23.250 --> 00:26:26.940
+Mike Ebert - Indicio: We should focus on things that are unique here and.
+
+184
+00:26:28.590 --> 00:26:33.540
+Mike Ebert - Indicio: Or it might be the kind of thing where there's because of the difference in approach bottom up, rather than.
+
+185
+00:26:34.530 --> 00:26:48.360
+Mike Ebert - Indicio: or bootstraps rather than run by an external registry or something like that maybe having both approaches as appropriate for different situations would be good, but we should you know for the parts that overlap, maybe.
+
+186
+00:26:48.780 --> 00:26:50.190
+Darrell O'Donnell: I think we should definitely have a chat.
+
+187
+00:26:50.190 --> 00:26:57.510
+Darrell O'Donnell: Like I think we definitely have a chat because the the documentation i've seen flying around implies that there's a centralized trust registry.
+
+188
+00:26:58.530 --> 00:27:05.100
+Darrell O'Donnell: That is a way of implementing it, but that that assumption is incorrect, which may drive some decision, but I would look at it this way.
+
+189
+00:27:05.820 --> 00:27:21.090
+Darrell O'Donnell: The trust over IP protocols intended to be one intentionally simple, for now, but evolve into you know what are the schemas we support, which immediately as a technical question how does one define schema are we talking json are we talking json ld are we talking a non credit.
+
+190
+00:27:22.530 --> 00:27:28.800
+Darrell O'Donnell: And in answering the question in the context of the trust over IP when it says hey, what are the schemas you support.
+
+191
+00:27:29.850 --> 00:27:40.050
+Darrell O'Donnell: You know leverage his his existing work at diff leverage his existing work you've done with the governance framework files, so that those things can be brought in likely wholesale.
+
+192
+00:27:41.400 --> 00:27:47.880
+Darrell O'Donnell: So I mean there's not actually that heavy of a lift the one assumption has been made, which is quite incorrect, is it is meant to be centralized in online all the time.
+
+193
+00:27:48.450 --> 00:27:56.340
+Darrell O'Donnell: The trust over IP that there is a fourth call by the way, it says, give me your data for external use which could be equivalent to give me your governance file.
+
+194
+00:28:05.730 --> 00:28:15.570
+Darrell O'Donnell: And the reason that it's only gone as far as you know, author authoritative issuers authorized verifiers do you trust is trust registry, as well as you know, giving your off offline stuff.
+
+195
+00:28:16.140 --> 00:28:28.890
+Darrell O'Donnell: Is that once you start asking what schemas do you support the technical question comes up how does one define the schema that's not in the mandate or remit of trust over IP, but if we can point it something beautiful we start to answer that question quickly.
+
+196
+00:28:31.980 --> 00:28:34.740
+Mike Ebert - Indicio: Do like the comment that it's not strictly centralized.
+
+197
+00:28:34.920 --> 00:28:36.840
+Darrell O'Donnell: Oh it's absolutely not it was never intended to be.
+
+198
+00:28:37.950 --> 00:28:51.240
+Mike Ebert - Indicio: The there is a there are a couple different interpretations of what a trust registry would be, and many of the ones that have been promoted are highly centralized and so.
+
+199
+00:28:52.050 --> 00:29:00.420
+Darrell O'Donnell: By nature, many of them will be you know, there are definitive sources of authority, you know who issues driver's licenses in North America that's centralized.
+
+200
+00:29:00.990 --> 00:29:06.810
+Darrell O'Donnell: I may want to use us decentralized version is someone else maintains my hunch is over time they're not going to continue to maintain it.
+
+201
+00:29:06.990 --> 00:29:21.300
+Darrell O'Donnell: If we can trust a centralized one but i'm also talking with you know one government group who says, you know they're planning on on knowing that they must interface with hundreds of different trust registries and governance frameworks.
+
+202
+00:29:22.380 --> 00:29:27.420
+Darrell O'Donnell: Because the control really isn't you know it's it's very diffuse.
+
+203
+00:29:27.840 --> 00:29:28.170
+Mike Ebert - Indicio: mm hmm.
+
+204
+00:29:28.890 --> 00:29:30.900
+Darrell O'Donnell: I don't like to use the word decentralized.
+
+205
+00:29:32.970 --> 00:29:41.670
+Darrell O'Donnell: But but it's sort of hey if you're only an influencer beautiful if there is a central part of authority beautiful I don't really care can I trust it sure.
+
+206
+00:29:42.300 --> 00:29:52.110
+Darrell O'Donnell: But the nature of the other, the only centralized aspect of the trust over IP protocol that is a limitation, right now, which is not much of a limitation is it has a restful interface recommendation.
+
+207
+00:29:52.770 --> 00:29:58.710
+Darrell O'Donnell: But when no one says okay cool we can't have a restful interface because that's web centric i'm like you know what.
+
+208
+00:29:59.460 --> 00:30:09.480
+Darrell O'Donnell: Fine duplicate the protocol and the theory of solidity duplicate the protocol and your own freakin life, I really don't care it's the constructs of the phone calls that's all I care about.
+
+209
+00:30:17.310 --> 00:30:25.320
+Mike Ebert - Indicio: All right, and then i'm adding a note that says trust over IP has no problem, incorporating existing work for finding.
+
+210
+00:30:27.390 --> 00:30:29.760
+Mike Ebert - Indicio: schemas and then.
+
+211
+00:30:31.530 --> 00:30:34.290
+Darrell O'Donnell: You know, we live in touch with us right he has no opinion there.
+
+212
+00:30:34.680 --> 00:30:45.060
+Darrell O'Donnell: Now I would argue that our Community writ large, our Community writ large, does not have great solid opinions right we have arguments over json json ld what's a non creds how does one define the schema.
+
+213
+00:30:45.690 --> 00:30:46.530
+Darrell O'Donnell: But that said.
+
+214
+00:30:46.590 --> 00:30:52.230
+Darrell O'Donnell: You for the line is drawn a line in the sand and saying here's what here's what we do with a non kratz well easy to do.
+
+215
+00:30:54.060 --> 00:31:00.570
+Mike Ebert - Indicio: Okay yeah I think that the the interface between these two particular ideas is going to be an important one, because.
+
+216
+00:31:04.470 --> 00:31:10.560
+Mike Ebert - Indicio: Sharing some of the work that's already been done by either party should could save us some heartache so.
+
+217
+00:31:12.300 --> 00:31:13.800
+Darrell O'Donnell: As Mike can attest to yes.
+
+218
+00:31:14.820 --> 00:31:15.180
+Mike Ebert - Indicio: yeah.
+
+219
+00:31:16.500 --> 00:31:32.610
+Darrell O'Donnell: And the reason we specifically went to a very simple very basic version one because the minute you look under the covers you know suck that classic picture of an iceberg, it says okay cool we do the authoritative issuers authorized verifiers hey we want to do schema, oh dear God.
+
+220
+00:31:34.320 --> 00:31:37.500
+Darrell O'Donnell: and, especially, a year ago year ago plus.
+
+221
+00:31:37.800 --> 00:31:41.850
+Darrell O'Donnell: There were left your answers and those answers are shaking out now.
+
+222
+00:31:42.450 --> 00:31:46.500
+Mike Ebert - Indicio: yeah Okay, I appreciate the comments, a.
+
+223
+00:31:46.890 --> 00:31:47.970
+Mike Ebert - Indicio: Darrell and Mike and.
+
+224
+00:31:48.000 --> 00:31:55.320
+Mike Ebert - Indicio: anyone else who pitched in there, so that's kind of the so the I guess I should change this title.
+
+225
+00:31:58.380 --> 00:32:06.690
+Mike Ebert - Indicio: From machine readable governance, generally speaking, to machine real governance using governance framework files.
+
+226
+00:32:10.560 --> 00:32:17.940
+Mike Ebert - Indicio: And okay that's fair, not a nice healthy discussion and a quick overview of some things that.
+
+227
+00:32:18.960 --> 00:32:22.080
+Mike Ebert - Indicio: Both parties are looking at and and working on so that's good.
+
+228
+00:32:24.750 --> 00:32:35.700
+Mike Ebert - Indicio: I think that that's all I have to share for machine readable governance with governance framework files today let's see oca schema to make machine readable schema more human readable.
+
+229
+00:32:37.200 --> 00:32:40.080
+Mike Ebert - Indicio: oca overlay capture architecture, I believe, is that.
+
+230
+00:32:44.430 --> 00:32:45.690
+Mike Ebert - Indicio: should investigate.
+
+231
+00:32:46.560 --> 00:32:47.700
+Mike Ebert - Indicio: yep definitely.
+
+232
+00:32:48.480 --> 00:32:58.620
+Darrell O'Donnell: agreed with Philip it's oca allows allows an ecosystem to state hey we push up this this being say a driver's license or a digital photo card.
+
+233
+00:32:59.130 --> 00:33:07.800
+Darrell O'Donnell: here's some recommendations and how you presented in the known languages of this stuff this ecosystem so in Canada, we would say hey we know you're in a want at least.
+
+234
+00:33:08.850 --> 00:33:11.970
+Darrell O'Donnell: English and French and likely multiple of the.
+
+235
+00:33:13.320 --> 00:33:24.330
+Darrell O'Donnell: Inuits languages, and in that allows a group to reach in in a very decentralized manner and say hey tell me about your ecosystem hall hey cool I don't have to worry about labeling already asked me information on that.
+
+236
+00:33:25.440 --> 00:33:27.300
+Darrell O'Donnell: and other things that oca provides.
+
+237
+00:33:28.200 --> 00:33:29.550
+Mike Ebert - Indicio: yeah and where.
+
+238
+00:33:30.720 --> 00:33:34.710
+Mike Ebert - Indicio: I have heard of oC before and need to start to bring that in.
+
+239
+00:33:35.910 --> 00:33:40.140
+Mike Ebert - Indicio: As far as this particular list of things that we're hoping to address.
+
+240
+00:33:41.310 --> 00:33:49.440
+Mike Ebert - Indicio: We have a rushed implementation that's currently living in the cardiac ecosystem or a party, a project with.
+
+241
+00:33:50.940 --> 00:33:56.130
+Mike Ebert - Indicio: The Linux foundation for public health and we're looking to make that.
+
+242
+00:33:57.600 --> 00:34:01.350
+Mike Ebert - Indicio: Implementation more broadly available, but we kind of feel like we've.
+
+243
+00:34:02.610 --> 00:34:16.500
+Mike Ebert - Indicio: we've done a working implementation of these particular features and needs clean up you know rough around the edges, but we're feeling like we've kind of hit a stable collection of things to address that served our needs.
+
+244
+00:34:17.130 --> 00:34:27.300
+Mike Ebert - Indicio: And so, instead of looking for a whole brand new or complicated set of additional features, to add we're looking to make what's there more bulletproof.
+
+245
+00:34:27.690 --> 00:34:41.310
+Mike Ebert - Indicio: And then to investigate things like the oca and sharing you know different parts with tip things like that so kind of hit a version one and looking to make things solid now so.
+
+246
+00:34:42.780 --> 00:34:45.270
+Mike Ebert - Indicio: Okay next thing that Sam put on the agenda was.
+
+247
+00:34:46.290 --> 00:35:00.450
+Mike Ebert - Indicio: A time to discuss status updates for a tip version two so we'll start with this first question as progress been made by anybody that they would wish to discuss or share here.
+
+248
+00:35:16.350 --> 00:35:17.910
+Mike Ebert - Indicio: Any items being difficult.
+
+249
+00:35:28.830 --> 00:35:29.790
+Mike Ebert - Indicio: i'm gonna go.
+
+250
+00:35:34.950 --> 00:35:36.390
+Mike Ebert - Indicio: i'm gonna bring it up here real quick.
+
+251
+00:35:43.020 --> 00:35:50.460
+Mike Ebert - Indicio: Alright guys interrupt profile and there's a version one and version two so.
+
+252
+00:35:54.360 --> 00:35:56.700
+Mike Ebert - Indicio: reformatted unchanged mentally updated.
+
+253
+00:36:00.420 --> 00:36:02.040
+Mike Ebert - Indicio: And then, a bunch of new ones here.
+
+254
+00:36:03.060 --> 00:36:04.140
+Mike Ebert - Indicio: Okay, so.
+
+255
+00:36:07.950 --> 00:36:09.360
+Mike Ebert - Indicio: we're working on the issue.
+
+256
+00:36:11.820 --> 00:36:12.150
+cool.
+
+257
+00:36:27.180 --> 00:36:31.770
+Mike Ebert - Indicio: So from the general silence on the area's interrupt profile.
+
+258
+00:36:35.820 --> 00:36:36.510
+Mike Ebert - Indicio: I think.
+
+259
+00:36:37.620 --> 00:36:40.050
+Mike Ebert - Indicio: Perhaps what that indicates, is that there are.
+
+260
+00:36:41.880 --> 00:36:51.000
+Mike Ebert - Indicio: lots and lots of things that are important that are also being worked on in addition to or in place of series interrupt profile.
+
+261
+00:36:52.050 --> 00:36:52.770
+Mike Ebert - Indicio: and
+
+262
+00:36:54.570 --> 00:36:57.570
+Mike Ebert - Indicio: Certainly, highlights the fact that interoperability can be hard.
+
+263
+00:37:02.100 --> 00:37:03.750
+Mike Ebert - Indicio: For the Curry interrupt cardiac.
+
+264
+00:37:04.530 --> 00:37:09.690
+Darrell O'Donnell: Well correction there Mike i'm not sure you can use the phrase can be when you're talking about interoperability being hard.
+
+265
+00:37:12.930 --> 00:37:16.320
+Mike Ebert - Indicio: So depends on your your scope right if you're interested.
+
+266
+00:37:16.380 --> 00:37:19.920
+Mike Ebert - Indicio: In working on being interoperable with yourself, hopefully, it should be pretty easy.
+
+267
+00:37:19.920 --> 00:37:23.550
+Darrell O'Donnell: Yes, the self licking licking ice cream Cone protocol is very easy.
+
+268
+00:37:24.030 --> 00:37:41.640
+Mike Ebert - Indicio: yep but the moment you broaden it to us any second party or the broader you know open source community or you start looking at things like we're not even using the same credential format, or you know style of ledger or whatever things or a ledger at all yeah it gets crazy fast.
+
+269
+00:37:42.090 --> 00:37:53.190
+Darrell O'Donnell: yep and that's the whole intent behind supporting Aires interrupt protocol is to say, you know we all come with their own version in definition of way interoperability means let's prove it out through testing.
+
+270
+00:37:54.270 --> 00:37:54.990
+Darrell O'Donnell: And then understand.
+
+271
+00:37:55.350 --> 00:38:03.360
+Darrell O'Donnell: that's a dumb test because here's what i'm thinking, then in adjusted, you can reach a Community decision on hey what's bare bones interrupt me.
+
+272
+00:38:04.590 --> 00:38:04.860
+Mike Ebert - Indicio: yep.
+
+273
+00:38:06.120 --> 00:38:14.820
+Mike Ebert - Indicio: yeah one discussion that we had it I w was about the complementary roles of a hackathon or interrupt the fun.
+
+274
+00:38:15.240 --> 00:38:27.090
+Mike Ebert - Indicio: And a interrupt profile, the idea being that if you specify to interrupt profile in advance of your interactive fun or hackathon then you'd have kind of a base level that you'd be testing against.
+
+275
+00:38:28.110 --> 00:38:28.800
+Mike Ebert - Indicio: and
+
+276
+00:38:30.510 --> 00:38:32.760
+Mike Ebert - Indicio: That the interruption could explore things that.
+
+277
+00:38:33.990 --> 00:38:44.220
+Mike Ebert - Indicio: are hard to cover in an interrupt profile or test harness and that you could discover new things to discuss or add to set interrupt profile or test harness.
+
+278
+00:38:44.550 --> 00:38:53.130
+Darrell O'Donnell: Well, and also take a look, you know you know, by adopting this particular interrupt profile, I was able to accomplish X y&z.
+
+279
+00:38:53.610 --> 00:38:53.880
+yep.
+
+280
+00:38:56.340 --> 00:38:56.970
+Mike Ebert - Indicio: So.
+
+281
+00:38:59.160 --> 00:39:00.000
+Mike Ebert - Indicio: See how it looks like.
+
+282
+00:39:01.230 --> 00:39:10.560
+Mike Ebert - Indicio: The interrupt profile version two has been agreed upon by the Community, but that we have our work cut out for us to get all the agents to.
+
+283
+00:39:11.670 --> 00:39:14.820
+Mike Ebert - Indicio: Up to supporting it let's see do we have any.
+
+284
+00:39:16.890 --> 00:39:18.150
+Mike Ebert - Indicio: yeah, so there are no.
+
+285
+00:39:19.680 --> 00:39:20.460
+Mike Ebert - Indicio: No live listed.
+
+286
+00:39:21.750 --> 00:39:25.230
+Mike Ebert - Indicio: agents that claim full interrupt profile compatibility.
+
+287
+00:39:29.760 --> 00:39:34.050
+Mike Ebert - Indicio: And if you look at some of the items that are in this list, for example.
+
+288
+00:39:36.240 --> 00:39:41.940
+Mike Ebert - Indicio: I think under the connections and invitation section so for, for example, there's a.
+
+289
+00:39:45.300 --> 00:39:58.380
+Mike Ebert - Indicio: let's see some things that out of band invitations and exchange or things that if Jay is working on, for example, they're headed that way there's full out of band they're working on present proof version two.
+
+290
+00:39:59.610 --> 00:40:02.280
+Mike Ebert - Indicio: So there's there is work being done here just.
+
+291
+00:40:06.510 --> 00:40:11.430
+Mike Ebert - Indicio: Anyone hit a particular issue that's causing them grief or.
+
+292
+00:40:13.860 --> 00:40:22.800
+Mike Ebert - Indicio: That was particularly tricky to do or needs additional discussion to really broad topic, to say the whole interrupt profile.
+
+293
+00:40:28.950 --> 00:40:34.350
+Darrell O'Donnell: I think, without the leader on the IP side you know briefing the meaning it's hard to know right.
+
+294
+00:40:34.890 --> 00:40:37.590
+Mike Ebert - Indicio: yep that's true okay well.
+
+295
+00:40:38.550 --> 00:40:39.120
+Mike Ebert - Indicio: I think that.
+
+296
+00:40:39.330 --> 00:40:42.390
+Mike Ebert - Indicio: What we'll do, then, is will say.
+
+297
+00:40:45.480 --> 00:40:46.950
+Mike Ebert - Indicio: let's cover this again later.
+
+298
+00:40:50.520 --> 00:40:52.110
+Mike Ebert - Indicio: Especially when the.
+
+299
+00:40:53.610 --> 00:40:57.690
+Mike Ebert - Indicio: ap version to leader is here.
+
+300
+00:41:00.360 --> 00:41:00.780
+Mike Ebert - Indicio: All right.
+
+301
+00:41:02.100 --> 00:41:07.110
+Mike Ebert - Indicio: looks like we have a pickup protocol pull requests to look at adding say.
+
+302
+00:41:09.930 --> 00:41:11.670
+Mike Richardson: Good question I know.
+
+303
+00:41:12.540 --> 00:41:13.710
+Mike Ebert - Indicio: I don't know that Sam.
+
+304
+00:41:15.480 --> 00:41:15.900
+Mike Richardson: stated.
+
+305
+00:41:16.980 --> 00:41:18.990
+Darrell O'Donnell: yeah one of the current.
+
+306
+00:41:19.590 --> 00:41:20.340
+Mike Richardson: One of the current one.
+
+307
+00:41:20.370 --> 00:41:23.130
+Mike Ebert - Indicio: Is Sam or Stephen yet neither of them are here and so.
+
+308
+00:41:23.340 --> 00:41:25.680
+Mike Ebert - Indicio: Either one is whoever the leader is they're not.
+
+309
+00:41:25.680 --> 00:41:36.420
+Mike Richardson: Here so team, I would also mean to answer your question Whenever she we've done a lot of work on in fj they've implemented law that stuff last year in occupy as well.
+
+310
+00:41:38.250 --> 00:41:42.390
+Mike Richardson: So I mean I I can't give you the in depth details of what all the.
+
+311
+00:41:43.410 --> 00:41:48.060
+Mike Richardson: issues have been anything else other than to say that the json ld wpc stuff that.
+
+312
+00:41:49.350 --> 00:41:59.490
+Mike Richardson: we're implementing over the last couple of months they they had a few issues they're having to implement all the PBS plastic features and all that kind of stuff so I know it wasn't easy but.
+
+313
+00:42:00.510 --> 00:42:06.300
+Mike Richardson: If jays nearly there with most of those are SEC you just displayed, so I can't speak for the other frameworks, but.
+
+314
+00:42:08.190 --> 00:42:20.430
+Mike Richardson: The attention is that we've gone to production in Ontario their wallet implementation with that IP V2 in the coming months, so the news is good there, but I wouldn't want to sort of.
+
+315
+00:42:22.200 --> 00:42:35.400
+Mike Richardson: speak out of turn so trying to keep it a bit cautious about being overly enthusiastic, but my understanding what i've seen the work i've done we've done if Jason and I see an occupy the V2 is very close to being.
+
+316
+00:42:36.690 --> 00:42:37.260
+Mike Richardson: completed.
+
+317
+00:42:41.700 --> 00:42:42.000
+Something.
+
+318
+00:42:43.770 --> 00:42:46.380
+Mike Ebert - Indicio: Okay yeah good now I appreciate that.
+
+319
+00:42:46.440 --> 00:42:53.190
+Mike Ebert - Indicio: is like has been said, without people leading the ap spec spec itself or.
+
+320
+00:42:54.390 --> 00:43:02.940
+Mike Ebert - Indicio: Some of the big projects, the project leaders who've made the most progress it's hard to state the exact status, but we do know that some of the work is.
+
+321
+00:43:03.600 --> 00:43:11.160
+Mike Ebert - Indicio: is done in some is being worked on and like you said at least one least areas framework javascript is starting to get pretty close that's.
+
+322
+00:43:11.220 --> 00:43:11.850
+Mike Richardson: that's a good.
+
+323
+00:43:13.890 --> 00:43:15.300
+Mike Richardson: One was based on what they did an occupy.
+
+324
+00:43:16.170 --> 00:43:18.000
+Mike Ebert - Indicio: My place ahead of them okay cool yeah.
+
+325
+00:43:19.650 --> 00:43:22.860
+Mike Richardson: I spent the last six months, working on IP to it it's I think.
+
+326
+00:43:23.940 --> 00:43:25.620
+Mike Richardson: The biggest PR history right.
+
+327
+00:43:26.160 --> 00:43:27.420
+Mike Ebert - Indicio: Now is something like.
+
+328
+00:43:27.660 --> 00:43:41.700
+Mike Richardson: 150 files 15,000 lines of code and you know the size of it was astronomical right, I mean both on issue credentials and present proof V2.
+
+329
+00:43:42.330 --> 00:43:49.740
+Mike Richardson: And that was just for indie, by the way, now we're doing even more for json ld w three say so it was it.
+
+330
+00:43:50.580 --> 00:44:00.540
+Mike Richardson: To you look at MTV to sign don't think it's going to be that that big a deal for six months ago they didn't think it was and it's taken us a bit by surprise how.
+
+331
+00:44:01.440 --> 00:44:10.200
+Mike Richardson: absolutely huge it's been a huge undertaking to make sure we didn't break was already there within day and the the one stuff and then bring in the case ld anything else so.
+
+332
+00:44:11.730 --> 00:44:14.850
+Mike Richardson: It has been very, very challenging I think that's right.
+
+333
+00:44:16.110 --> 00:44:16.470
+Mike Ebert - Indicio: yeah.
+
+334
+00:44:16.890 --> 00:44:18.120
+Mike Ebert - Indicio: Definitely safe to say.
+
+335
+00:44:20.580 --> 00:44:22.800
+Mike Ebert - Indicio: Alright, so that's a pretty good.
+
+336
+00:44:24.480 --> 00:44:32.010
+Mike Ebert - Indicio: High Level summary and we can dig in some more later let's go ahead and take a peek at this protocol here for pickup protocol.
+
+337
+00:44:33.840 --> 00:44:36.180
+Mike Ebert - Indicio: See it's open that in a new tab here.
+
+338
+00:44:37.950 --> 00:44:41.760
+Mike Ebert - Indicio: To add support for message ID and notification.
+
+339
+00:44:43.170 --> 00:44:45.540
+Mike Ebert - Indicio: Alright, so we've got files changed.
+
+340
+00:44:46.890 --> 00:44:50.280
+Mike Ebert - Indicio: To add a message ID and.
+
+341
+00:44:51.600 --> 00:45:01.590
+Mike Ebert - Indicio: add it to the list of things here optional fields to pick up the message from mediator, the notification was linked to has defined and pick a protocol version two.
+
+342
+00:45:05.970 --> 00:45:06.630
+Mike Ebert - Indicio: alright.
+
+343
+00:45:11.160 --> 00:45:13.590
+Mike Ebert - Indicio: posed by to glass dre.
+
+344
+00:45:15.750 --> 00:45:24.390
+Mike Ebert - Indicio: there's a little more context sending push notifications, so we had a very robust and healthy discussion about this last week.
+
+345
+00:45:25.710 --> 00:45:31.320
+Mike Ebert - Indicio: About push notifications, so it looks like we've added a message ID to support.
+
+346
+00:45:32.340 --> 00:45:37.230
+Mike Ebert - Indicio: Picking up the message from a mediator and a notification that was linked to.
+
+347
+00:45:39.990 --> 00:45:43.290
+Mike Ebert - Indicio: All right, we won't make any.
+
+348
+00:45:44.370 --> 00:45:49.650
+Mike Ebert - Indicio: I don't know if I have the authority to make a formal decision here, but I can record either.
+
+349
+00:45:50.760 --> 00:46:00.570
+Mike Ebert - Indicio: excitement and approval or descent and rejection, so what notes, should I leave for Sam about what we think on this particular pull request.
+
+350
+00:46:03.660 --> 00:46:04.950
+Mike Ebert - Indicio: let's we'll start with.
+
+351
+00:46:06.720 --> 00:46:11.160
+Mike Ebert - Indicio: speak up if you have things that you want to change about it or objections.
+
+352
+00:46:30.480 --> 00:46:36.330
+Mike Ebert - Indicio: Alright, so we'll just add a note that says no objections or changes or voiced.
+
+353
+00:46:37.560 --> 00:46:38.850
+Mike Ebert - Indicio: During today's meeting.
+
+354
+00:46:40.290 --> 00:46:44.370
+Mike Ebert - Indicio: And Sam can take that how he how he'd like you could either say.
+
+355
+00:46:46.020 --> 00:46:46.830
+Mike Ebert - Indicio: You know the.
+
+356
+00:46:48.300 --> 00:46:52.380
+Mike Ebert - Indicio: dozen plus people that we had today see how many participants, we have today.
+
+357
+00:46:53.790 --> 00:47:02.430
+Mike Ebert - Indicio: 1414 people today forms enough of a quorum that will move it in, or he might say i'll check in one more time.
+
+358
+00:47:03.480 --> 00:47:06.210
+Mike Ebert - Indicio: While i'm while he's on the meeting to see.
+
+359
+00:47:07.230 --> 00:47:09.780
+Mike Ebert - Indicio: What else to do about this one all right.
+
+360
+00:47:10.860 --> 00:47:19.200
+Mike Ebert - Indicio: We have about eight remaining minutes is there anything else we should add to our list of discussion topics things that should be brought up.
+
+361
+00:47:20.670 --> 00:47:22.530
+Mike Ebert - Indicio: Things that we want to add to future topics.
+
+362
+00:47:54.720 --> 00:48:00.600
+Mike Ebert - Indicio: see that Sam has put a potential future topic here that kind of overlaps with some of what we discussed today.
+
+363
+00:48:01.110 --> 00:48:18.810
+Mike Ebert - Indicio: standardized attribute names for a non credits and alignment with vc data models, such as term and then also terms and conditions machinery will governance something like that, so that kind of is tied to the how to describe a schema and the you know.
+
+364
+00:48:20.190 --> 00:48:26.460
+Mike Ebert - Indicio: What schemas are we're using question that tip or governance framework files are.
+
+365
+00:48:27.510 --> 00:48:35.040
+Mike Ebert - Indicio: Looking at how to address there so that could be a good discussion item in the future, I agree with that, being a potential topic.
+
+366
+00:48:42.600 --> 00:48:45.390
+Mike Ebert - Indicio: Any other business, I think, will make this the final call.
+
+367
+00:49:04.680 --> 00:49:11.010
+Mike Ebert - Indicio: Alright Thank you everyone for attending, thank you for your participation, or at least listening.
+
+368
+00:49:12.570 --> 00:49:23.040
+Mike Ebert - Indicio: it's been I have enjoyed my guest hosting duties today it's been fun and so we'll add this recording link and.
+
+369
+00:49:23.790 --> 00:49:36.030
+Mike Ebert - Indicio: we'll go back to our regularly scheduled programming with Sam running the meeting next week and go ahead and add whatever last minute notes or participants or whatever to this.
+
+370
+00:49:37.650 --> 00:49:41.220
+Mike Ebert - Indicio: agenda here and everyone in a week, thank you.
+
+371
+00:49:43.170 --> 00:49:43.740
+Lance Byrd: Thank you all.
+

@@ -1,0 +1,1082 @@
+WEBVTT
+
+1
+00:00:02.009 --> 00:00:04.040
+Stephen Curran: All right. Welcome to the
+
+2
+00:00:04.210 --> 00:00:12.669
+Stephen Curran: July 30 first, and on credit specification working group. couple of things to look at the recent work on C. Our signatures. Drs.
+
+3
+00:00:12.950 --> 00:00:21.890
+Stephen Curran: and the Quarterly report that I've put together not a lot of controversy there. I really just did want to take a look at the Pr. On the spec.
+
+4
+00:00:22.170 --> 00:00:32.400
+Stephen Curran: So that's the big thing with probably be a short meeting. But it is a Linux Foundation hypervisor meeting. So the anti-trust policy and code of conduct. In effect.
+
+5
+00:00:33.000 --> 00:00:39.060
+Stephen Curran: I think we know all everyone here. So I'm just going to jump into the Pr's.
+
+6
+00:00:39.960 --> 00:00:43.510
+Stephen Curran: which I realize are not linked in here. So
+
+7
+00:00:44.670 --> 00:00:46.900
+Stephen Curran: I use this as a
+
+8
+00:00:46.910 --> 00:00:50.000
+Stephen Curran: there's a way to jump over. Oh, Nope.
+
+9
+00:01:04.160 --> 00:01:06.100
+Stephen Curran: okay.
+
+10
+00:01:06.850 --> 00:01:14.250
+Stephen Curran: and that's not really what I wanted to do so. I'll try it one more time and see how good my clicking can get. No, not going to do it.
+
+11
+00:01:19.340 --> 00:01:22.269
+Stephen Curran: Oh, I know why, because I'm not editing, anyway.
+
+12
+00:01:23.500 --> 00:01:25.640
+Stephen Curran: Okay.
+
+13
+00:01:30.250 --> 00:01:34.539
+Stephen Curran: so the tails file generation is the one that's bugging me the most.
+
+14
+00:01:34.560 --> 00:01:37.620
+Stephen Curran: Could you explain it a bit to me?
+
+15
+00:01:38.640 --> 00:01:43.860
+Stephen Curran: so you and I talked about this in the sales file generation. So it actually is.
+
+16
+00:01:44.300 --> 00:01:47.849
+Stephen Curran: there's 2 values produced per
+
+17
+00:01:48.310 --> 00:01:50.820
+Stephen Curran: point per point. Correct?
+
+18
+00:01:51.310 --> 00:01:52.170
+Andrew Whitehead: Yeah.
+
+19
+00:01:52.760 --> 00:01:55.239
+Stephen Curran: So this isn't described here
+
+20
+00:01:57.090 --> 00:02:08.489
+Stephen Curran: directly. So it's saying, it's there's just a point per, and it's generated in sequence. But in fact, 2 numbers are generated, and they're put in the first half, and the second half of the file
+
+21
+00:02:09.009 --> 00:02:14.620
+Stephen Curran: correct, and the first about the very first entry is repeated.
+
+22
+00:02:18.090 --> 00:02:33.419
+Stephen Curran: The very first entry is repeated. So this is right. There's 2 Byte for the version. Then there's 1, 2 l. Our points associated with credentials, one to Al. Then there's an L plus one. It's a duplicate of the first entry, which is a filler.
+
+23
+00:02:33.460 --> 00:02:38.460
+Andrew Whitehead: Yeah, it it could be anything but exactly. We
+
+24
+00:02:39.280 --> 00:02:42.410
+Andrew Whitehead: didn't want to just remove it.
+
+25
+00:02:42.570 --> 00:02:44.750
+Andrew Whitehead: because we can maintain compatibility.
+
+26
+00:02:45.600 --> 00:02:52.790
+Stephen Curran: Yeah. And then there's L plus 2 to 2 l. Plus one.
+
+27
+00:02:53.760 --> 00:02:57.710
+Stephen Curran: which are again points associated with credential one to out.
+
+28
+00:02:59.560 --> 00:03:04.789
+Andrew Whitehead: Yeah, I I thought it was a little strange, but I I did a test the other day with
+
+29
+00:03:05.120 --> 00:03:08.340
+Andrew Whitehead: one entry, and and there were 3 tails
+
+30
+00:03:10.130 --> 00:03:11.939
+Andrew Whitehead: points in there
+
+31
+00:03:14.680 --> 00:03:16.770
+Stephen Curran: meeting. Sorry. What was that?
+
+32
+00:03:17.680 --> 00:03:20.650
+Andrew Whitehead: I generated a tails file with just one.
+
+33
+00:03:23.100 --> 00:03:27.280
+Andrew Whitehead: Yeah. resulted in 3 points.
+
+34
+00:03:29.040 --> 00:03:32.850
+Stephen Curran: but one thing I notice this is this is
+
+35
+00:03:33.240 --> 00:03:36.750
+Stephen Curran: this extra one is just a single point.
+
+36
+00:03:37.760 --> 00:03:44.689
+Stephen Curran: not. whereas this is a point, and this is this is a set of points, and this is a set of points. Correct?
+
+37
+00:03:44.960 --> 00:03:47.020
+Andrew Whitehead: Yeah, yeah. Okay.
+
+38
+00:03:47.220 --> 00:03:50.590
+Andrew Whitehead: so there's 2 n plus one or 2 l plus one.
+
+39
+00:03:51.510 --> 00:03:55.540
+Stephen Curran: 2 l, plus one. Right? Okay, yes. Okay, good.
+
+40
+00:03:55.780 --> 00:04:01.580
+Stephen Curran: So I'll get back clarified in that we use shot 256. That's explicit.
+
+41
+00:04:07.640 --> 00:04:09.080
+Stephen Curran: Yeah. Okay.
+
+42
+00:04:09.820 --> 00:04:17.160
+Andrew Whitehead: the size of the points isn't isn't right here. Definitely not 12 Byte.
+
+43
+00:04:21.350 --> 00:04:26.920
+Stephen Curran: But is that? Are they? 6 Byte each? That's this is saying, each point is 6 Byte each.
+
+44
+00:04:27.350 --> 00:04:28.200
+Andrew Whitehead: No.
+
+45
+00:04:29.380 --> 00:04:30.440
+Andrew Whitehead: okay.
+
+46
+00:04:31.160 --> 00:04:34.179
+Andrew Whitehead: minimum of 32 Byte.
+
+47
+00:04:35.210 --> 00:04:40.010
+Andrew Whitehead: Okay, for for a coordinate 256 bits.
+
+48
+00:04:48.090 --> 00:04:58.299
+Andrew Whitehead:  says bytes, size is 128
+
+49
+00:05:02.110 --> 00:05:03.570
+Andrew Whitehead: sounds large.
+
+50
+00:05:05.200 --> 00:05:07.009
+Stephen Curran: Yeah, that seems large.
+
+51
+00:05:08.540 --> 00:05:09.999
+Andrew Whitehead: Oh, no, that is right?
+
+52
+00:05:10.200 --> 00:05:13.529
+Andrew Whitehead: Yeah, that is, it outputs them uncompressed.
+
+53
+00:05:16.310 --> 00:05:21.220
+Andrew Whitehead:  yeah, there's some talk of
+
+54
+00:05:21.560 --> 00:05:26.160
+Andrew Whitehead: Ecp having Ecp 2, having 3 components there, but
+
+55
+00:05:26.480 --> 00:05:33.519
+Andrew Whitehead: it's converted to a fine form which only has 2 components.
+
+56
+00:05:36.810 --> 00:05:41.730
+Andrew Whitehead: And it could have been output compacted and only have one component. But it's not. It's output.
+
+57
+00:05:43.030 --> 00:05:44.060
+Stephen Curran: Okay.
+
+58
+00:05:45.010 --> 00:05:46.110
+Andrew Whitehead: compressed
+
+59
+00:05:49.040 --> 00:05:51.270
+Stephen Curran: hold on. This seems too large, though.
+
+60
+00:05:52.270 --> 00:05:57.980
+Stephen Curran: and each point, or each 2 56 bits is 32 Byte. So
+
+61
+00:06:03.270 --> 00:06:07.090
+Stephen Curran: yes. okay, But hold on.
+
+62
+00:06:08.800 --> 00:06:14.599
+Stephen Curran: But is that divided into the 2 points? So is a point 2 coordinates.
+
+63
+00:06:15.670 --> 00:06:19.220
+Andrew Whitehead: So we're on. We're on G 2. So each
+
+64
+00:06:20.600 --> 00:06:22.530
+Andrew Whitehead: coordinate
+
+65
+00:06:22.600 --> 00:06:24.900
+Andrew Whitehead: is 2 field elements
+
+66
+00:06:27.010 --> 00:06:33.269
+Andrew Whitehead: which is there, which each of those is 32 Byte. So we end up with 4 elements
+
+67
+00:06:33.670 --> 00:06:36.790
+Andrew Whitehead: and 128 Byte. Total.
+
+68
+00:07:00.950 --> 00:07:01.910
+Stephen Curran: Okay.
+
+69
+00:07:04.400 --> 00:07:07.359
+Andrew Whitehead: the the comments do refer to
+
+70
+00:07:08.410 --> 00:07:11.629
+Andrew Whitehead: first point that isn't used, and it
+
+71
+00:07:12.110 --> 00:07:18.179
+Andrew Whitehead: seems to be generated. So I'm I need to go through and see if it's skipping it somewhere in the output.
+
+72
+00:07:20.610 --> 00:07:33.189
+Andrew Whitehead:  okay, is that?
+
+73
+00:07:33.330 --> 00:07:40.960
+Andrew Whitehead: Yeah? The generator does. I think it does calculate times
+
+74
+00:07:40.970 --> 00:07:46.030
+Andrew Whitehead: camera to the 0, which is just G dash, and which is pretty useful.
+
+75
+00:08:13.150 --> 00:08:19.680
+Stephen Curran: So each coordinate is 2 field elements. and there's 2 coordinates
+
+76
+00:08:23.700 --> 00:08:30.259
+Stephen Curran: for point, and they're done in, and they're generated separately a coordinate.
+
+77
+00:08:31.080 --> 00:08:37.809
+Stephen Curran: and then a coordinate for every credential, and then another coordinate for every credential.
+
+78
+00:08:39.740 --> 00:08:42.620
+Stephen Curran: So these up here.
+
+79
+00:08:44.179 --> 00:08:45.910
+Stephen Curran: our coordinates.
+
+80
+00:08:47.680 --> 00:08:51.350
+Stephen Curran: these are points. These are coordinates up here
+
+81
+00:08:54.620 --> 00:08:56.530
+Andrew Whitehead: their their points.
+
+82
+00:08:56.570 --> 00:08:59.860
+Stephen Curran: Okay, these are points
+
+83
+00:09:00.280 --> 00:09:03.500
+Stephen Curran: 2.2 points, or is a coordinate.
+
+84
+00:09:06.810 --> 00:09:13.150
+Stephen Curran: I'm just trying to get the wording right to 2 field elements as a coordinate
+
+85
+00:09:15.870 --> 00:09:23.809
+Andrew Whitehead: 2 coordinates as a as a point. So the you have a point which is made of an x and a y in each
+
+86
+00:09:23.950 --> 00:09:25.820
+Andrew Whitehead: text, and a y has
+
+87
+00:09:27.190 --> 00:09:35.740
+Andrew Whitehead: components named A and B in this code. so we would be able to put x a, xb, y, a y b.
+
+88
+00:09:36.110 --> 00:09:38.959
+Stephen Curran: but these are coordinates.
+
+89
+00:09:40.690 --> 00:09:43.820
+Stephen Curran: They pass of elements.
+
+90
+00:09:44.270 --> 00:09:47.560
+Andrew Whitehead: No, their their points. So each each one of those is for
+
+91
+00:09:48.750 --> 00:09:50.170
+Andrew Whitehead: components total.
+
+92
+00:09:51.830 --> 00:09:55.780
+Stephen Curran: But these are the these are the first one. So there's 2 points.
+
+93
+00:09:56.360 --> 00:10:01.870
+Stephen Curran: Yeah. Credential. Okay, 2 points credential made up of.
+
+94
+00:10:02.660 --> 00:10:05.649
+Andrew Whitehead: So 256 Byte per entry.
+
+95
+00:10:07.780 --> 00:10:14.400
+Stephen Curran: 256 Byte when you count the first and the second one. Okay.
+
+96
+00:10:14.500 --> 00:10:16.350
+Andrew Whitehead: sorry. That's probably more confusing.
+
+97
+00:10:16.710 --> 00:10:18.449
+Stephen Curran: 128 Byte.
+
+98
+00:10:41.230 --> 00:10:42.080
+Stephen Curran: Okay?
+
+99
+00:10:45.110 --> 00:10:50.950
+Stephen Curran: And each element. So elements X and y, which are made up of 2 point a, 2
+
+100
+00:10:53.170 --> 00:10:56.630
+Stephen Curran: A and B, okay.
+
+101
+00:10:57.690 --> 00:11:06.600
+Andrew Whitehead:  sorry. I think the point is made of of of components. And Sir
+
+102
+00:11:06.750 --> 00:11:12.579
+Andrew Whitehead: Point is made of of coordinates. And the coordinate is made up of 2 elements.
+
+103
+00:11:12.830 --> 00:11:15.050
+Andrew Whitehead: I think that's the right terminology.
+
+104
+00:11:25.370 --> 00:11:27.130
+Andrew Whitehead: 2 field elements.
+
+105
+00:11:39.270 --> 00:11:40.140
+Stephen Curran: Okay.
+
+106
+00:12:08.740 --> 00:12:09.640
+Stephen Curran: okay.
+
+107
+00:12:15.980 --> 00:12:17.420
+Stephen Curran: got it? Right?
+
+108
+00:12:19.030 --> 00:12:21.509
+Andrew Whitehead: Yeah. So there, it's output as.
+
+109
+00:12:24.140 --> 00:12:28.269
+Andrew Whitehead: x a x b, y, a, y, B,
+
+110
+00:12:48.010 --> 00:12:48.940
+Andrew Whitehead: okay.
+
+111
+00:12:49.610 --> 00:12:51.870
+Andrew Whitehead: big ending format
+
+112
+00:13:21.630 --> 00:13:22.760
+Stephen Curran: looks good.
+
+113
+00:13:25.970 --> 00:13:31.729
+Andrew Whitehead: Yeah. So so each one of those field elements is just a an integer
+
+114
+00:13:32.560 --> 00:13:35.350
+Andrew Whitehead: modular. The field order
+
+115
+00:13:36.840 --> 00:13:38.950
+Andrew Whitehead: sorry. The curve order.
+
+116
+00:13:43.500 --> 00:13:54.049
+Andrew Whitehead: which is a big prime number, which is 254 bits. You don't really need to write that there, I don't think once you want to.
+
+117
+00:13:54.180 --> 00:13:57.960
+Stephen Curran: Yeah, I'm separating it out, if if anything. But that's okay.
+
+118
+00:14:00.240 --> 00:14:01.180
+Stephen Curran: Okay.
+
+119
+00:14:08.080 --> 00:14:08.980
+Stephen Curran: Good.
+
+120
+00:14:12.170 --> 00:14:16.320
+Stephen Curran: Okay. Thanks. I can tell that wasn't right. So
+
+121
+00:14:24.390 --> 00:14:29.609
+Andrew Whitehead: here. But I don't think we need to go into them one by one. I think these ones are
+
+122
+00:14:39.160 --> 00:14:40.440
+Stephen Curran: a
+
+123
+00:14:41.480 --> 00:14:44.170
+Stephen Curran: I still think we've got phrasing on it. So we
+
+124
+00:14:45.200 --> 00:14:47.030
+Stephen Curran: want to get these right?
+
+125
+00:14:51.680 --> 00:14:57.469
+Stephen Curran: Okay. as far as the Cl signatures library, are you?
+
+126
+00:14:57.610 --> 00:15:00.590
+Stephen Curran:  Completed with it?
+
+127
+00:15:01.050 --> 00:15:08.770
+Stephen Curran: I know it's being used in. We we've got a Pr for an on for an on credits. Rs.
+
+128
+00:15:10.030 --> 00:15:17.230
+Andrew Whitehead:  yeah. So there's I mean, the 0 one is out there, and it's
+
+129
+00:15:17.460 --> 00:15:20.150
+Andrew Whitehead: used in the occupy
+
+130
+00:15:21.100 --> 00:15:22.890
+Andrew Whitehead: 0 9 right now.
+
+131
+00:15:24.480 --> 00:15:26.230
+Andrew Whitehead: Yeah,
+
+132
+00:15:28.810 --> 00:15:32.499
+Andrew Whitehead: And then I had one update to rename
+
+133
+00:15:33.200 --> 00:15:39.979
+Andrew Whitehead: Master Secret to link secret but I I realized we were probably being
+
+134
+00:15:40.220 --> 00:15:42.500
+Andrew Whitehead: excessively strict
+
+135
+00:15:44.330 --> 00:15:45.320
+Andrew Whitehead: by
+
+136
+00:15:45.880 --> 00:15:49.910
+Andrew Whitehead: banning all infinity points.
+
+137
+00:15:50.630 --> 00:15:55.829
+Stephen Curran: Right? Oh, the conversation we wanted to have with Mike today. Shoot.
+
+138
+00:15:57.500 --> 00:16:01.870
+Stephen Curran: That's but I'm I'm fairly certain there, there's
+
+139
+00:16:02.670 --> 00:16:07.600
+Andrew Whitehead: revocation registries on the on the ledger that yeah.
+
+140
+00:16:08.130 --> 00:16:10.439
+Andrew Whitehead: the infinity point
+
+141
+00:16:10.580 --> 00:16:11.510
+Andrew Whitehead: in them.
+
+142
+00:16:11.740 --> 00:16:15.099
+Stephen Curran: Yeah, it's probably credentials as well that have
+
+143
+00:16:15.360 --> 00:16:19.429
+Andrew Whitehead: witnesses that are an infinity point
+
+144
+00:16:20.590 --> 00:16:25.640
+Andrew Whitehead: would manifest as being 0. Yeah, I've seen that before.
+
+145
+00:16:25.810 --> 00:16:32.919
+Stephen Curran: I was surprised. I went looking yesterday when this came up, and the first one I looked at I didn't see, but I know I've seen it before.
+
+146
+00:16:33.000 --> 00:16:42.489
+Andrew Whitehead: Even some of the test data, like a non-creds. has a a test revocation registry, and it happened to be infinity.
+
+147
+00:16:42.940 --> 00:16:51.439
+Stephen Curran: I I know there was one. Well, I know I found it, because when I wrote it I I actually put that into the spec that it's just 0.
+
+148
+00:16:51.550 --> 00:16:52.709
+Andrew Whitehead: If you
+
+149
+00:16:53.010 --> 00:16:57.619
+Andrew Whitehead:  well, it's it's mostly 0.
+
+150
+00:16:58.140 --> 00:17:03.299
+Andrew Whitehead: But because of the way the points are output. The c component might have
+
+151
+00:17:05.250 --> 00:17:09.799
+Andrew Whitehead: a big number in it. But it's effectively 0.
+
+152
+00:17:14.339 --> 00:17:17.199
+Stephen Curran: Okay. well, we couldn't get this
+
+153
+00:17:18.200 --> 00:17:28.410
+Stephen Curran: nail down. But let's let's see who can get. I was actually expecting Mike to be here, hoping you would be, and we got the reverse interestingly.
+
+154
+00:17:28.530 --> 00:17:36.440
+Stephen Curran:  and then we've got a Pr for a non credits.
+
+155
+00:17:37.040 --> 00:17:40.460
+Stephen Curran: rs, for what?
+
+156
+00:17:42.990 --> 00:17:45.979
+Stephen Curran: a key first done, which is replacing
+
+157
+00:17:46.040 --> 00:17:50.870
+Stephen Curran: or so with and on credits. I don't know if anyone's had a chance to take a look at this
+
+158
+00:17:51.250 --> 00:17:59.940
+Stephen Curran:  but it would be good to to get this one merged as well, so we could have the new
+
+159
+00:18:00.350 --> 00:18:04.840
+Stephen Curran: Ari, you, the Afgh folks will need to get
+
+160
+00:18:05.460 --> 00:18:12.850
+Stephen Curran: this version in so that you get the fixes for Cl signatures and get rid of versa.
+
+161
+00:18:14.070 --> 00:18:34.599
+Stephen Curran: So It would be good. Andrew, if you can go through this one and a and aerial. Maybe you could go through this one to make sure this this If a Keith has done this correctly, it gotten the right pieces in.
+
+162
+00:18:34.680 --> 00:18:36.760
+Stephen Curran: Okay, good. Good.
+
+163
+00:18:37.290 --> 00:18:42.779
+Ariel Gentile: So that this, this, this, this will not introduce any change on the Api or anything. Right?
+
+164
+00:18:42.830 --> 00:18:45.369
+Stephen Curran: He has.
+
+165
+00:18:46.060 --> 00:18:50.339
+Stephen Curran: you'd have to take a look. I don't think so. but
+
+166
+00:18:50.520 --> 00:18:57.670
+Stephen Curran: he has done the pages and the Javascript.
+
+167
+00:18:58.070 --> 00:19:02.910
+Stephen Curran: There's there's a small change to. So you'd have to take a look at that.
+
+168
+00:19:03.020 --> 00:19:07.410
+Andrew Whitehead: Yeah. So the method for
+
+169
+00:19:07.600 --> 00:19:10.310
+Andrew Whitehead: creating a a credential
+
+170
+00:19:11.390 --> 00:19:16.710
+Andrew Whitehead: the revocation info doesn't require a tails file anymore for the issue. Right?
+
+171
+00:19:17.050 --> 00:19:18.200
+Not great.
+
+172
+00:19:18.500 --> 00:19:22.460
+Andrew Whitehead:  And
+
+173
+00:19:22.740 --> 00:19:26.270
+Andrew Whitehead: the method for updating a Revocation registry
+
+174
+00:19:27.290 --> 00:19:34.500
+Andrew Whitehead: doesn't require a tails file, but it does require the credit and the Revocation private key.
+
+175
+00:19:37.500 --> 00:19:40.020
+Andrew Whitehead: I think those are the only Api changes.
+
+176
+00:19:40.550 --> 00:19:46.750
+Andrew Whitehead: So those those changes did go through. Okay, those are both on the issue or
+
+177
+00:19:47.250 --> 00:19:49.500
+Andrew Whitehead: side. Nothing
+
+178
+00:19:49.920 --> 00:19:53.480
+Andrew Whitehead: different for the verifier or the prover
+
+179
+00:19:54.670 --> 00:20:05.569
+Andrew Whitehead: except that the prover well produce a newer version of the non revocation proof that requires a an upgraded verifier.
+
+180
+00:20:11.290 --> 00:20:12.130
+Stephen Curran: So
+
+181
+00:20:12.250 --> 00:20:18.469
+Stephen Curran: so the net of that is you want to update all your verifiers, because because there's a setting
+
+182
+00:20:20.270 --> 00:20:31.420
+Stephen Curran: possible that verifiers can can accept all the new proofs. And then once you update the holders, then they're always submitting new ones.
+
+183
+00:20:40.000 --> 00:20:43.210
+Stephen Curran: So there's a sequencing. Unfortunately, in this.
+
+184
+00:20:48.670 --> 00:20:55.660
+Andrew Whitehead: And also, the issuers will want to recreate their revocation registries.
+
+185
+00:20:56.780 --> 00:20:57.610
+Stephen Curran: Yeah.
+
+186
+00:20:59.980 --> 00:21:06.880
+Stephen Curran: well, and on credits. I mean, I believe, area. You're just adding the the
+
+187
+00:21:08.200 --> 00:21:10.920
+Stephen Curran: issue or revocation. Now, correct.
+
+188
+00:21:13.410 --> 00:21:16.600
+Ariel Gentile: we will like, yes, but we can.
+
+189
+00:21:17.990 --> 00:21:23.479
+Stephen Curran: So you definitely before you release that, you definitely want this change, this in there.
+
+190
+00:21:24.340 --> 00:21:25.660
+Ariel Gentile: Yeah, yeah, I know. So
+
+191
+00:21:25.800 --> 00:21:28.850
+Ariel Gentile: yeah, I think it. It will be quite straightforward to.
+
+192
+00:21:29.250 --> 00:21:35.020
+Ariel Gentile: but that because it's just as Andrew said, it's just a few
+
+193
+00:21:35.420 --> 00:21:38.669
+Stephen Curran: parameters that change on the issue aside, and so.
+
+194
+00:21:38.750 --> 00:21:40.989
+Ariel Gentile: as soon as it is ready, we will.
+
+195
+00:21:41.130 --> 00:21:42.189
+we will integrate it.
+
+196
+00:21:43.920 --> 00:21:45.040
+Stephen Curran: Okay, good.
+
+197
+00:21:47.690 --> 00:21:54.279
+Stephen Curran:  We should add notes to be more explicit about what changes in the interface.
+
+198
+00:21:58.640 --> 00:22:05.430
+Stephen Curran: So the tails file is not needed on issuance. No.
+
+199
+00:22:06.910 --> 00:22:10.000
+Andrew Whitehead: yeah, that's right. Oh, sorry, and
+
+200
+00:22:11.620 --> 00:22:17.369
+Stephen Curran: also not needed on revocation. But revocation. You need the credits
+
+201
+00:22:17.970 --> 00:22:21.340
+Andrew Whitehead: and revocation private Key.
+
+202
+00:22:23.440 --> 00:22:24.370
+Stephen Curran: Okay?
+
+203
+00:22:24.910 --> 00:22:28.989
+Stephen Curran: So I'll add it to the to the Pr to make sure that's understood.
+
+204
+00:22:30.000 --> 00:22:34.729
+Andrew Whitehead: because for for some reason, part of the revocation keys and the credits as well.
+
+205
+00:22:35.430 --> 00:22:37.400
+Andrew Whitehead: Right? Only there.
+
+206
+00:22:37.770 --> 00:22:38.470
+Yeah.
+
+207
+00:22:42.330 --> 00:22:43.320
+Stephen Curran: okay.
+
+208
+00:22:45.460 --> 00:22:54.359
+Stephen Curran:  And then I've got a draft of the  quarterly report.
+
+209
+00:22:55.530 --> 00:23:04.669
+Stephen Curran: that I will link to. Just so people can take a look at it. It talks about the the biggest thing being the release of
+
+210
+00:23:04.700 --> 00:23:12.849
+Stephen Curran: the rust implementation and inclusion in the framework. Javascript. release 0 4,
+
+211
+00:23:13.180 --> 00:23:25.739
+Stephen Curran: the transition of our socl signatures. and ready with, I said, tails, file generation process is about a 50% improvement you ever take
+
+212
+00:23:26.550 --> 00:23:32.619
+Stephen Curran: and other revocation, issuance and and revocation of the 25. I think that's what you said.
+
+213
+00:23:36.550 --> 00:23:42.260
+Andrew Whitehead:  I think the
+
+214
+00:23:42.590 --> 00:23:44.770
+Andrew Whitehead: I think the 50% was like
+
+215
+00:23:45.130 --> 00:23:50.490
+Andrew Whitehead: creation of a new revocation registry with issuance by default on.
+
+216
+00:23:50.840 --> 00:23:51.790
+Stephen Curran: Okay.
+
+217
+00:23:51.980 --> 00:23:54.740
+Andrew Whitehead: So the tales generation was improved.
+
+218
+00:23:54.750 --> 00:23:56.979
+Andrew Whitehead: maybe like 20. But
+
+219
+00:23:57.990 --> 00:23:58.650
+he
+
+220
+00:23:59.010 --> 00:24:09.670
+Andrew Whitehead: just creating the initial state of the registry was really slow, and that that's gone down from seconds to milliseconds.
+
+221
+00:24:10.990 --> 00:24:12.350
+Stephen Curran: Got it?
+
+222
+00:24:26.110 --> 00:24:27.280
+Andrew Whitehead: I got a
+
+223
+00:24:27.350 --> 00:24:33.220
+Andrew Whitehead: there. There's an issue on Indie, Vdr. To create one of these. I'm not even sure what umbrella would be under.
+
+224
+00:24:39.090 --> 00:24:42.990
+Stephen Curran: Yeah, no, I got it. Yeah, I got it.
+
+225
+00:24:45.470 --> 00:24:52.840
+Stephen Curran: I'll be doing all of them. There's all 3 are due, and I do. I take a pass out on what I'm trying to do is get it up in the community more.
+
+226
+00:24:54.950 --> 00:25:04.500
+Stephen Curran: There isn't too much going on as mentioned on. Once we get the one 0 1 0 and then
+
+227
+00:25:04.780 --> 00:25:16.850
+Stephen Curran: the big thing is with the specifications. We've got a reach for doing the mentorship to get the final documentation into the spec, and then the 2 point O spec as formalized
+
+228
+00:25:17.940 --> 00:25:26.700
+Stephen Curran: I haven't done this yet I think there's more to do. I haven't checked the staff. So this is just to be added.
+
+229
+00:25:27.380 --> 00:25:36.240
+Stephen Curran: the Maintainer is the same. Contributors are probably the same. I think there might be another one in the contributors.
+
+230
+00:25:38.500 --> 00:25:48.080
+Stephen Curran: I just got the specs. It looks like they haven't included the sal signatures repository. Yet in these quarterly staff, so
+
+231
+00:25:48.240 --> 00:25:53.970
+Stephen Curran: These would be up a little, but that was down. There was a lot less going on, just because the
+
+232
+00:25:54.630 --> 00:25:59.659
+Stephen Curran: the work on the 1 point oh, completed early on in that in the quarter. So
+
+233
+00:26:00.050 --> 00:26:03.139
+Stephen Curran: lot less going on, everything was going on in a
+
+234
+00:26:03.730 --> 00:26:05.580
+Stephen Curran: particularly. So
+
+235
+00:26:06.310 --> 00:26:09.200
+Andrew Whitehead: the is the spec included in the stats.
+
+236
+00:26:09.210 --> 00:26:10.970
+Stephen Curran: Yeah, yeah.
+
+237
+00:26:13.340 --> 00:26:16.579
+Stephen Curran: yeah. It's the Cl signatures one that's not yet.
+
+238
+00:26:17.770 --> 00:26:19.509
+Stephen Curran: Hopefully, it'll get at it
+
+239
+00:26:20.120 --> 00:26:21.120
+Andrew Whitehead: you've got
+
+240
+00:26:21.910 --> 00:26:28.160
+Andrew Whitehead:  the implementation repositories. You've got an oncides. Rs twice.
+
+241
+00:26:28.780 --> 00:26:36.420
+Stephen Curran:  Yup.
+
+242
+00:26:40.600 --> 00:26:44.060
+Stephen Curran: it just happens to be that the line break.
+
+243
+00:26:44.960 --> 00:26:47.290
+Andrew Whitehead: Oh, right
+
+244
+00:26:47.390 --> 00:26:48.330
+Stephen Curran: there you go.
+
+245
+00:26:50.770 --> 00:27:01.299
+Stephen Curran: These are the insights. And again, it doesn't have it. notably, I can tell, because your name is not here at all, Andrew. So that
+
+246
+00:27:01.680 --> 00:27:04.700
+Stephen Curran: told me that the
+
+247
+00:27:04.760 --> 00:27:10.740
+Stephen Curran: the see, our signatures is not there. so we'll get that added in.
+
+248
+00:27:12.690 --> 00:27:15.850
+Andrew Whitehead: I don't think there's that many commits
+
+249
+00:27:17.570 --> 00:27:19.599
+Stephen Curran: fairly important ones, though.
+
+250
+00:27:21.470 --> 00:27:26.120
+Stephen Curran: Okay. any other topics anyone want us to raise at this meeting?
+
+251
+00:27:32.540 --> 00:27:42.630
+Stephen Curran: All right. If not, There's no meeting next week I'll make sure people know, and then from now on. The all the meetings are at this time the
+
+252
+00:27:43.070 --> 00:27:45.950
+Stephen Curran: the meeting that was 100'clock.
+
+253
+00:27:46.750 --> 00:27:56.409
+Stephen Curran: specific time previously. So 3 h later every second week. We've moved it to this time.  We did it so Mike could make it. But
+
+254
+00:27:56.710 --> 00:28:04.809
+Stephen Curran:  he didn't make it anyway. All good and thanks for attending.
+
+255
+00:28:04.980 --> 00:28:10.549
+Andrew Whitehead: I I guess I can mention just for implementers.
+
+256
+00:28:10.960 --> 00:28:24.420
+Andrew Whitehead: because in in Dvdr. Is still relying on ours at the moment So once we merge, the didn't did Indie stuff. I can copy over the point validation
+
+257
+00:28:25.720 --> 00:28:35.530
+Andrew Whitehead: stuff from a non credit, you know signatures into bls signatures, and then we will use that creates instead of versa.
+
+258
+00:28:35.860 --> 00:28:38.790
+Stephen Curran: Okay, good. I didn't think it was used in Indy.
+
+259
+00:28:39.710 --> 00:28:42.470
+Andrew Whitehead: I guess it makes sense. It is person.
+
+260
+00:28:42.810 --> 00:28:43.830
+Stephen Curran: Yeah.
+
+261
+00:28:44.230 --> 00:28:52.550
+Stephen Curran: Well, no. The indie. Oh, sorry the cl signatures, isn't. It's the Dls got it.
+
+262
+00:28:52.670 --> 00:28:56.729
+Andrew Whitehead: So it was including our. So with just the Bls feature.
+
+263
+00:28:56.780 --> 00:28:58.859
+Stephen Curran: Got it? Yes, yes, okay.
+
+264
+00:29:00.810 --> 00:29:01.990
+Stephen Curran: okay, good.
+
+265
+00:29:03.700 --> 00:29:09.310
+Stephen Curran: And if you want to use if you want to have a Keith do that, he'd probably be happy.
+
+266
+00:29:11.370 --> 00:29:19.330
+Stephen Curran: He's on some other things. So. But anyway, he's available for you to do any rest work that he could possibly get his hands on. He loves that.
+
+267
+00:29:19.670 --> 00:29:20.350
+Andrew Whitehead: Yeah.
+
+268
+00:29:21.280 --> 00:29:23.610
+Stephen Curran: all right. Okay.
+
+269
+00:29:24.890 --> 00:29:28.470
+Stephen Curran: thanks. All. Have a good week.
+
+270
+00:29:30.300 --> 00:29:31.800
+Ariel Gentile: Thank you. Bye, bye.
+

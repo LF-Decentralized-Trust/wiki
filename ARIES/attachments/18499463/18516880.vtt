@@ -1,0 +1,1013 @@
+WEBVTT
+
+00:13:00.000 --> 00:13:25.000
+as possible, heavily. If 5 oriented, and those wipers for Nodejs python.net, you know, android and tiles with drop support for some of those and currently the only, records we support are android isles and no js
+
+00:13:25.000 --> 00:13:30.000
+So that's kind of where we are now. We've been.
+
+00:13:30.000 --> 00:13:54.000
+we've been. I will tell you of of technical debt which was originally incurred so honestly, I'm very happy with the sort of clean ups and refactorings We We did over the past, 2 years and and we have also implemented that
+
+00:13:54.000 --> 00:13:59.000
+Aries agent, desk, harness, framework.
+
+00:13:59.000 --> 00:14:05.000
+oh, like testing pairs will be called back channels.
+
+00:14:05.000 --> 00:14:18.000
+So we have. We have sort of idea what's our compatibility currently between areas Vcx and other frameworks?
+
+00:14:18.000 --> 00:14:30.000
+The other framework is currently being occupy. And hey, Jenny, hey jar like 2, I would say to one of the most prominent frameworks.
+
+00:14:30.000 --> 00:14:37.000
+So that's why he focus on these. But it shouldn't be difficult to as testing with other pairs as well.
+
+00:14:37.000 --> 00:15:06.000
+and and basically, where it's going, we as a core maintainer, we primarily currently focus on on areas V, 6 itself, like the core rest part and well, at the same time, still maintaining the sort of F; 5 wiper around it which is important for for the mobile well, as
+
+00:15:06.000 --> 00:15:10.000
+a basically all of you guys, since you are doing mobile.
+
+00:15:10.000 --> 00:15:35.000
+So that's that's that's in under maintenance as well, but really trying to trying to make the core piece as good as possible as a as a primary goal is the rust piece and going into future yeah, it will be definitely amazing if since since you
+
+00:15:35.000 --> 00:16:00.000
+you you guys are a mobile developers. If if we can get help with the the viper part, the mobile rappers, there's there's lots of probably clean up some technical depths which can be also like improved and also I'm not I'm not sure but
+
+00:16:00.000 --> 00:16:17.000
+I think the Sfi approach is perhaps somewhat somewhat outdated now, because it will started years ago, and maybe there can be, you know, I'd be different sort of new approach for how doing how to do the fi can be can be that Can be can be found.
+
+00:16:17.000 --> 00:16:29.000
+I definitely at least know about an Ogs F file which there's a there's a rust library, coral, and a P. I.
+
+00:16:29.000 --> 00:16:33.000
+R S. Which which can generate this Fi.
+
+00:16:33.000 --> 00:16:43.000
+So I could much like with with with with with much ease, as as opposed to the way it's done for, not just today.
+
+00:16:43.000 --> 00:16:49.000
+But yeah, I'm not particularly sure. Have all the mobile, mobile breakfast.
+
+00:16:49.000 --> 00:16:52.000
+Just kind of throwing an idea as to where it's going.
+
+00:16:52.000 --> 00:17:03.000
+Perhaps there can be some like a new approach developed for the for the mobile frameworks, for the mobile rappers.
+
+00:17:03.000 --> 00:17:09.000
+Well, that that would be roughly for the for the like.
+
+00:17:09.000 --> 00:17:20.000
+This first point. So I don't know, Guys, if you have any sort of comment or question, don't have state, too.
+
+00:17:20.000 --> 00:17:21.000
+yeah, I was gonna ask as well. Is it sort of in scope or areas?
+
+00:17:21.000 --> 00:17:31.000
+jump in.
+
+00:17:31.000 --> 00:17:34.000
+Oh, yeah, yeah, I mean, that's definitely what we are shooting for.
+
+00:17:34.000 --> 00:17:40.000
+And I would say that we are kind of there. It just.
+
+00:17:40.000 --> 00:17:44.000
+We don't publish the crate on creates I.
+
+00:17:44.000 --> 00:17:53.000
+O, so, if you want to consume, you know, as a as a rust trade, and write a R code on top of it, you can definitely do it.
+
+00:17:53.000 --> 00:17:54.000
+You can. For now, just you know, use a reference to the Github repo, and cargo is smart, so it can.
+
+00:17:54.000 --> 00:18:01.000
+Vcx, the Core to become standalone, create
+
+00:18:01.000 --> 00:18:20.000
+It can consume. You know I get a repulse story
+
+00:18:20.000 --> 00:18:23.000
+Okay, So I'll move on to the next one now.
+
+00:18:23.000 --> 00:18:33.000
+So just kind of mentioned some of the significant, like more significant pieces of work which has been done recently, and the word which is in progress.
+
+00:18:33.000 --> 00:18:45.000
+I got a few points here to help myself. A little bit of notes so recently like in terms of the last 2 months.
+
+00:18:45.000 --> 00:18:50.000
+Let's say we did like, yeah, exactly as Jar was pointing out.
+
+00:18:50.000 --> 00:19:18.000
+We were focusing on making errors? You see eggs, you know, becoming in the end possible, easily usable in independent trade, and and make the Api nicer, and also enabling multi ward and multiple capabilities so we removed lots of global states from vcx at the you know, the
+
+00:19:18.000 --> 00:19:28.000
+route, and the sort of core create itself, And we moved this global state on the one level up on the Lip Vcx layer.
+
+00:19:28.000 --> 00:19:37.000
+So, if you are consuming the you know. Build compiled android, or aisles wrapper.
+
+00:19:37.000 --> 00:19:46.000
+basically, those no breaking changes but will happen internally is that errors. V.
+
+00:19:46.000 --> 00:19:53.000
+6 is now much more general; Others, this sort of State opening a nation, has been moved a level up on the lip.
+
+00:19:53.000 --> 00:20:06.000
+Vcx layer, so so that's that's kind of yeah, definitely helping with the Api and and sort of wideens its potential as to what can be done with it.
+
+00:20:06.000 --> 00:20:14.000
+Especially now, when you can essentially run in a use. Areas Vcx: and simultaneously M.
+
+00:20:14.000 --> 00:20:23.000
+Manage work with, you know X. Wallets and X different pools, So that's that's this is one work.
+
+00:20:23.000 --> 00:20:42.000
+one piece. Then we had. We've done lots of work on a linking static and dynamic link linking in regards to all the dependencies of Vcx to other libraries.
+
+00:20:42.000 --> 00:20:48.000
+Suggest Vdr tools and lip. So do you lead them in queue.
+
+00:20:48.000 --> 00:20:52.000
+And all these kind of stop under, the you know, behind the scenes.
+
+00:20:52.000 --> 00:21:00.000
+So it was with this big build process, cleanup refactoring.
+
+00:21:00.000 --> 00:21:09.000
+And basically essentially essentially the side effect of the head, the size of android wiper will so decrease roughly by 10 times.
+
+00:21:09.000 --> 00:21:14.000
+So coming from originally 150, I think it was 100.
+
+00:21:14.000 --> 00:21:23.000
+No, no, no! How How much was it? Yeah, I think the compressed version or 150, Max?
+
+00:21:23.000 --> 00:21:29.000
+Whereas now it's roughly 15 or 20, something like that.
+
+00:21:29.000 --> 00:21:41.000
+so? Where are the with that? And then that's a second second job which has been done.
+
+00:21:41.000 --> 00:22:03.000
+this is something I already have roughly mentioned. We we've been testing for quite a bit, maybe since a year ago, but just recently, last week, or 2 we have added and it's framework.
+
+00:22:03.000 --> 00:22:07.000
+Javascript pair, getting good results there.
+
+00:22:07.000 --> 00:22:18.000
+I think I'm not sure it. If the pair is yet being executed on the test harness.
+
+00:22:18.000 --> 00:22:39.000
+Ci. But we we checked. We've been running it locally so far, and compatibility results where quite satisfying, although there's still some there's still a bunch of suits I'm missing, which are not implemented for areas you know for these back
+
+00:22:39.000 --> 00:22:47.000
+channel, either, because we don't implement some protocol or or we simply don't.
+
+00:22:47.000 --> 00:22:55.000
+Implement that that test suit in harness itself. Oh, hi!
+
+00:22:55.000 --> 00:23:00.000
+that that I admitted. But there is my colleague.
+
+00:23:00.000 --> 00:23:08.000
+I'll well, I'll continue. I'm not gonna like, interrupt the current agenda.
+
+00:23:08.000 --> 00:23:15.000
+But anyway, welcome Better the and then to move on to the next step.
+
+00:23:15.000 --> 00:23:27.000
+We have again some sort of connecting to George's question, or we have implemented and around like simple rust agent.
+
+00:23:27.000 --> 00:23:34.000
+maybe I can actually open open it up in
+
+00:23:34.000 --> 00:23:50.000
+And Repo: So basically what we just merged yesterday is is right here under the agents, and there's a new directory Arrestlash area.
+
+00:23:50.000 --> 00:23:59.000
+V 6 agent. So this is essentially like sort of simple implementation of rust.
+
+00:23:59.000 --> 00:24:12.000
+Agent week reach, which has some storage. It can keep track of different protocols, And can you know, update these protocols?
+
+00:24:12.000 --> 00:24:19.000
+It it exposes some api. It is also some base, some basic issue.
+
+00:24:19.000 --> 00:24:29.000
+Functionalities, such as writing schema on the you know, sending transactions on the ledger to write schema, credential definitions, or this kind of stuff.
+
+00:24:29.000 --> 00:24:42.000
+and basically the we we use this this agent as a as a a dependency.
+
+00:24:42.000 --> 00:24:48.000
+In the areas. Agents test harness, implementation.
+
+00:24:48.000 --> 00:24:54.000
+So we don't directly consume errors. Dcx, because that will be serve too granular to low-level.
+
+00:24:54.000 --> 00:25:17.000
+I but this, this new, crate, which is being built on top of areas Vcx, It gives us additional capabilities such as you know, handling the storage, and also like creating agents with the agency, so it's more to more more of an end, batteries included
+
+00:25:17.000 --> 00:25:26.000
+api
+
+00:25:26.000 --> 00:25:27.000
+Oh, yeah, exactly, precisely. So. We have in note. We have this V: 6 agent core, which essentially it.
+
+00:25:27.000 --> 00:25:34.000
+is it? Is it similar to the No. Js version of the agent that you guys have
+
+00:25:34.000 --> 00:25:39.000
+It's very similar, but in the rest
+
+00:25:39.000 --> 00:25:52.000
+and lastly, this is quite significant, were in progress, and that's a substitute substitution of.
+
+00:25:52.000 --> 00:26:00.000
+I have a 5 between and Vdr tools.
+
+00:26:00.000 --> 00:26:10.000
+this is maybe actually important piece I should have mentioned when I was talking about where we are and where we are going.
+
+00:26:10.000 --> 00:26:16.000
+so all just kind of take a step back and send See one more thing here.
+
+00:26:16.000 --> 00:26:38.000
+So essentially 4 years ago, Arizona So it's part of it was originally part of in the in the in the SDK, and in that repulsory, you know, it's a hyper ledger selecting the SDK and under that
+
+00:26:38.000 --> 00:26:48.000
+repository. I was living the and those little Vcs, whereas Levy Sex has directly depended and consumedly bending.
+
+00:26:48.000 --> 00:26:54.000
+But it was always through as a fine interface. Then we'll happen.
+
+00:26:54.000 --> 00:27:08.000
+Is that we forward leave Vcx in around 2,020, and and live in The didn't seem to get much sort of much community track anymore.
+
+00:27:08.000 --> 00:27:12.000
+And those still lots of improvements which could have been done there.
+
+00:27:12.000 --> 00:27:18.000
+But well, for whatever reasons these improvements has been done.
+
+00:27:18.000 --> 00:27:26.000
+But they've been done in a fork of this library, which is now called a Vvr tools.
+
+00:27:26.000 --> 00:27:33.000
+we'd be our tools. And this is this was done by again.
+
+00:27:33.000 --> 00:27:38.000
+The company called Ever name. So there's Github repository of Vvr.
+
+00:27:38.000 --> 00:27:55.000
+Tools, and we are here around 2,021. I believe we basically switch from liberty to Vdr tools, because there was lots of performance improvements, especially especially related to as synchronous code, in rust.
+
+00:27:55.000 --> 00:28:03.000
+So basically, now, now, the current state of things is a Lady Cx is confusing.
+
+00:28:03.000 --> 00:28:16.000
+Vdr is using V Pdr Tools fork from every name, and these calls between these 2 libraries happens through Ffi as a foreign function.
+
+00:28:16.000 --> 00:28:19.000
+Interface. Sort of like when you want to call C library.
+
+00:28:19.000 --> 00:28:23.000
+So from Aries, Vcx live V. 6 standpoint, you know.
+
+00:28:23.000 --> 00:28:45.000
+we our calling this library as as if it was some sort of C library, and this can be like very inefficient, because I mean, first of all, you know, losing lots of performance there and also lots of rust typing so back to my back to my point here as to the task which
+
+00:28:45.000 --> 00:29:08.000
+is in progress. We are trying to basically optimize the way a loop Vcx is consuming media art tools We don't want to use the fi interface anymore for that sort of reason recently Scheduled out, and Instead, we want to call vbr tools.
+
+00:29:08.000 --> 00:29:16.000
+Directly as a native create, so we are essentially forking Vvr tools ourselves.
+
+00:29:16.000 --> 00:29:24.000
+but and would check with our tools ourselves to enable.
+
+00:29:24.000 --> 00:29:28.000
+This, you know consumption as a native rust trade.
+
+00:29:28.000 --> 00:29:35.000
+However, and now moving smoothly directly to the sort of long term goals.
+
+00:29:35.000 --> 00:29:44.000
+this, this combination itself. That's like, That's not really the long term vision.
+
+00:29:44.000 --> 00:30:01.000
+Instead, you know, after we finish this on migration, the call will be much nicer, much easier to work with, and that should make it easier for us to actually start with migrating away from Vdr tools like a live in the you know or whatever want to call this we want to
+
+00:30:01.000 --> 00:30:14.000
+migrate away from the VR tools itself, and instead at capability to erase Dcx to be to to rely on this.
+
+00:30:14.000 --> 00:30:21.000
+set of set, of libraries in the shared Rs.
+
+00:30:21.000 --> 00:30:51.000
+Individual Iran possibly Arizona. These are 3 libraries which has been basically They've been created by guys from British Columbia Government The guys who stand behind Occupy And these libraries are like much smaller sort of modern rust style, as opposed to the
+
+00:30:51.000 --> 00:30:58.000
+Original Pvr tools live in the. So this is like the long term version of a vision.
+
+00:30:58.000 --> 00:31:04.000
+To migrate on these ideally. Probably you would have option to.
+
+00:31:04.000 --> 00:31:19.000
+So to sort of choose whether we want to. You know, use Pvr tools, or or this triplet of libraries, or at least there will be some sort of migration period.
+
+00:31:19.000 --> 00:31:25.000
+Where we would support both in some way. It's still kind of.
+
+00:31:25.000 --> 00:31:31.000
+This is a big talk, so there's a bunch of unknowns there.
+
+00:31:31.000 --> 00:31:39.000
+We still you'd have to familiar familiar. Ours are solved better with these 3 libraries, to make sure that we can actually pull this off.
+
+00:31:39.000 --> 00:31:47.000
+and another another task, which are a bit smaller, but still are important.
+
+00:31:47.000 --> 00:31:57.000
+Where we are looking for the future. First is that remove coupling of the library to V.
+
+00:31:57.000 --> 00:32:07.000
+6 agency, no mediator. So currently when you use levy-six or areas V 6, it's essentially impossible to use it.
+
+00:32:07.000 --> 00:32:15.000
+And in an in any practical way, unless you are also, unless you also deploy this.
+
+00:32:15.000 --> 00:32:28.000
+this this implementation of of Eric's message in the Mediator, of which particular implementation is called visage agency.
+
+00:32:28.000 --> 00:32:38.000
+Note, since you guys are mobile developers, I assume that you are, you know, running this otherwise you wouldn't be able to use the Vcx.
+
+00:32:38.000 --> 00:32:51.000
+So. This is not something we want to like drop, because obviously this is useful for for anyone doing mobile on Lbcx.
+
+00:32:51.000 --> 00:32:56.000
+But it's something we don't want to to be necessary.
+
+00:32:56.000 --> 00:33:04.000
+I, because you can definitely use, you know, as far as you are not running on the mobile.
+
+00:33:04.000 --> 00:33:17.000
+You can, if you are running on server, and you want to implement some web web based agent on top of areas Vcs: You don't necessarily need this mediation box.
+
+00:33:17.000 --> 00:33:24.000
+To accept messages on your behalf. Instead, you can just receive the messages yourself.
+
+00:33:24.000 --> 00:33:46.000
+So while this is useful for the mobile, we want to, We want to also enable, like a very simple web deployment, and the coming to the next point obviously we want to keep on improving our interoperable interoperability, suit with the other frameworks and increasing our coverage
+
+00:33:46.000 --> 00:33:54.000
+of the set of the at least every suits, and Rfcs would be implement.
+
+00:33:54.000 --> 00:33:59.000
+And lastly, oh, well, that's the same thing essentially.
+
+00:33:59.000 --> 00:34:02.000
+So
+
+00:34:02.000 --> 00:34:16.000
+Yeah, these are the these are the goals. And
+
+00:34:16.000 --> 00:34:17.000
+just about the Vcx agency, Node I've I've dug around there a little bit, So is that implementation based on some media to spec.
+
+00:34:17.000 --> 00:34:34.000
+I think I'll I'll just leave the space now for again, for any sort of questions or comments
+
+00:34:34.000 --> 00:34:35.000
+Sorry Okay?
+
+00:34:35.000 --> 00:34:40.000
+I'm I'm not too familiar with mediator specs and tech behind it, like I noticed it, pick up messages and and concepts like that
+
+00:34:40.000 --> 00:34:48.000
+So your question was, if it's based on some areas Rfcs: Specs: Oh, okay.
+
+00:34:48.000 --> 00:34:56.000
+So in a limited way, basically, you know, it enables for any a you know.
+
+00:34:56.000 --> 00:35:00.000
+It enables receiving every's messages in general.
+
+00:35:00.000 --> 00:35:08.000
+So if you are, you know if you have a mobile device, and then mobile device, he's using Vcs agency note.
+
+00:35:08.000 --> 00:35:29.000
+the research agency. Note, Mailbox. If I say that way, can receive a message, you know from anyone regardless of what kind of framework or they are using It's simply just message So in this regard, it's very simple Now, it can be seen there, is messages from anyone However, the the
+
+00:35:29.000 --> 00:35:34.000
+dice to. You know the client to mediate your interface.
+
+00:35:34.000 --> 00:35:40.000
+The way, how the messages are downloaded and managed.
+
+00:35:40.000 --> 00:35:51.000
+Bid you know the client itself. This is not. This is not in alliance, you know, in alignment with any any Rfcs.
+
+00:35:51.000 --> 00:35:57.000
+It's like preparatory, like a custom implementation.
+
+00:35:57.000 --> 00:36:10.000
+basically the original implementation. You know, all the way, from 2,018 to you know how to the whole message, how to update the state of a message.
+
+00:36:10.000 --> 00:36:16.000
+Yeah, So this is custom in in this regard. It's a you know.
+
+00:36:16.000 --> 00:36:19.000
+It's not interoperable. But yeah, we don't.
+
+00:36:19.000 --> 00:36:24.000
+We don't really plan to do this work like we are not.
+
+00:36:24.000 --> 00:36:33.000
+We just want to enable live Vcx or Clients customers.
+
+00:36:33.000 --> 00:36:39.000
+to to use some agency, and this is Us. Agency and agency.
+
+00:36:39.000 --> 00:36:58.000
+We, you know, ship with it. If you want to use, if you would want to use everything with some other mediator like you want to have your messages, Maybe by you know maybe a Third, party.
+
+00:36:58.000 --> 00:36:59.000
+then probably they'll have to be some, some, some, some work done on there is Vc.
+
+00:36:59.000 --> 00:37:16.000
+Yeah, yeah, exactly.
+
+00:37:16.000 --> 00:37:24.000
+Right: Yep: Okay, cool. So I guess is the good, the goal of of that go.
+
+00:37:24.000 --> 00:37:25.000
+You have listed. There is the idea that you'd have like a a pluggable message source thing, and then, you know, you can get, because I guess the purpose of connecting with the mediators to get your messages.
+
+00:37:25.000 --> 00:37:47.000
+Side to learn to speak this this mediation protocols, which is currently Count
+
+00:37:47.000 --> 00:37:48.000
+Yeah, yeah, essentially, you know, in case of if before is running, that agent, you probably gonna have some exposed some port.
+
+00:37:48.000 --> 00:37:57.000
+so I guess, is the goal to have some sort of pluggable message source that you can get your messages from whatever implementation we want
+
+00:37:57.000 --> 00:38:00.000
+And you're just gonna be receiving messages directly.
+
+00:38:00.000 --> 00:38:07.000
+And so in this case, that's your message for us, and you can just plug in those messages into the area. Z.
+
+00:38:07.000 --> 00:38:14.000
+6 protocols, alternatively. Perhaps. Yeah, you might want to just in completely stand the old crane to create.
+
+00:38:14.000 --> 00:38:15.000
+You might implement. I know good client agency client which would speak this Aries meditation.
+
+00:38:15.000 --> 00:38:27.000
+Yeah.
+
+00:38:27.000 --> 00:38:33.000
+Rfcs. And then you know you would use that to get your messages from wherever then.
+
+00:38:33.000 --> 00:38:34.000
+Just plug those messages into Arizv.
+
+00:38:34.000 --> 00:38:50.000
+Yeah.
+
+00:38:50.000 --> 00:38:51.000
+Yeah, yeah, I guess how how tied is Dcx: at the moment to needing immediate on.
+
+00:38:51.000 --> 00:38:58.000
+6 essentially be aware of of of meditation, as as at least it should be aware as least as possible.
+
+00:38:58.000 --> 00:39:13.000
+Like, I know this like functions like find message and handle, for example, and that look into the mediated to get messages and whatnot. But there's also functions which are just handle message and you give it the message. To look at So I guess it's yeah.
+
+00:39:13.000 --> 00:39:23.000
+Exactly, exactly. It's it's it's actually those 2 words, where yeah, and then the way it is coupled.
+
+00:39:23.000 --> 00:39:29.000
+Now, essentially, you know, we have a connection, protocol, And so, connection Protocol Handler.
+
+00:39:29.000 --> 00:39:30.000
+and this connection itself. This, this object is aware of agency. It's provides very convenient, Apis, because it's like, Find the message of find the message of the message and then, autumn automatically update messages message state in agency after it was processed but it comes with this
+
+00:39:30.000 --> 00:39:54.000
+Hmm.
+
+00:39:54.000 --> 00:40:08.000
+Yeah.
+
+00:40:08.000 --> 00:40:09.000
+Okay? Hello.
+
+00:40:09.000 --> 00:40:13.000
+kinding. So we just want to like separate it out. Different responsibilities
+
+00:40:13.000 --> 00:40:15.000
+yes, that's one thing that I thought I I was trying to set up a V.
+
+00:40:15.000 --> 00:40:23.000
+Hello! I can hear you
+
+00:40:23.000 --> 00:40:41.000
+6 library in my system. I can take it hold.
+
+00:40:41.000 --> 00:40:45.000
+I'm sorry, Ron. It's it's actually kind of difficult to hear.
+
+00:40:45.000 --> 00:40:46.000
+There is a there's your environment is like, well, easy.
+
+00:40:46.000 --> 00:40:49.000
+It has Yeah, Okay, Okay? Okay, yes, yes, I am.
+
+00:40:49.000 --> 00:40:55.000
+But I think it correctly, perfectly even wrong. You are, according to me.
+
+00:40:55.000 --> 00:41:03.000
+If I'm wrong. You were asking if there's a documentation to start Vcx in a local environment?
+
+00:41:03.000 --> 00:41:04.000
+yeah, okay. Yes, So in a local environment, or at least run the test case, all the test cases.
+
+00:41:04.000 --> 00:41:10.000
+Was that your question
+
+00:41:10.000 --> 00:41:31.000
+Oh, okay, I see. Well, let me let me open the repo so I can something to a lean on, as I speak, so basically like current, our get started.
+
+00:41:31.000 --> 00:41:32.000
+instruction is is to is a ref Mainly this reference to No.
+
+00:41:32.000 --> 00:41:39.000
+So to check how the flow is going or off. Yeah.
+
+00:41:39.000 --> 00:41:45.000
+Js: That's probably the kind of the easiest way to how to run it locally.
+
+00:41:45.000 --> 00:41:50.000
+With some instructions, and mine would be perfect. But let me check it out.
+
+00:41:50.000 --> 00:41:54.000
+Looking at this. So basically it says, Do you need to compile?
+
+00:41:54.000 --> 00:42:04.000
+and then we link to some instructions over here.
+
+00:42:04.000 --> 00:42:05.000
+To to do. Is there some instructions for running tests?
+
+00:42:05.000 --> 00:42:11.000
+Okay.
+
+00:42:11.000 --> 00:42:12.000
+Okay.
+
+00:42:12.000 --> 00:42:22.000
+I think maybe we are missing bit of info about dependencies like you need to have a lip sold zoom and lead them to.
+
+00:42:22.000 --> 00:42:23.000
+I think, compile on the system. So this this stuff, I think, is something we can add and it seems like it's missing.
+
+00:42:23.000 --> 00:42:33.000
+Yes, yeah.
+
+00:42:33.000 --> 00:42:34.000
+Yes, that's I already made. I already put in that.
+
+00:42:34.000 --> 00:42:36.000
+But if you manage to overcome that piece, you know, and you compile
+
+00:42:36.000 --> 00:42:40.000
+Yes, I, as I was working on other framework like it is, been with Javascript.
+
+00:42:40.000 --> 00:42:41.000
+I already set up that tip 30 on, and live in date.
+
+00:42:41.000 --> 00:42:43.000
+Hmm: Oh, Okay? Oh, so yeah, from that from there on it should be like fairly easy.
+
+00:42:43.000 --> 00:42:49.000
+Part of yes.
+
+00:42:49.000 --> 00:42:53.000
+Like these. These are the instructions for testing in unlimited more.
+
+00:42:53.000 --> 00:43:00.000
+Okay, so, if
+
+00:43:00.000 --> 00:43:01.000
+Okay, okay. Okay. So if I if
+
+00:43:01.000 --> 00:43:06.000
+Is it? Yeah, I think I think we can do a bit of a refactoring on the documentation for sure, it's it's not easy to find.
+
+00:43:06.000 --> 00:43:08.000
+Okay.
+
+00:43:08.000 --> 00:43:14.000
+But basically you can run cargo tests and and it should run the test for you.
+
+00:43:14.000 --> 00:43:15.000
+Either unit test or integration tests obviously for integration tests.
+
+00:43:15.000 --> 00:43:19.000
+Bye, bye.
+
+00:43:19.000 --> 00:43:20.000
+Okay, Apple.
+
+00:43:20.000 --> 00:43:38.000
+You must be running local instance of pool and agency
+
+00:43:38.000 --> 00:43:39.000
+Yes.
+
+00:43:39.000 --> 00:43:43.000
+Okay, okay, okay. So Oh, okay. So suppose if I'm in currently if if I want to change something in the areas, we say in the main report, So I will write the test cases there in that and change something right, You'll do the same day, or how you I do out, to try how you tried to table the
+
+00:43:43.000 --> 00:43:44.000
+Rashport.
+
+00:43:44.000 --> 00:43:49.000
+rest code, Well, yeah, I mean, ideally, you know, if you want to write some quote modify some code, you know that would be most of the most of the time.
+
+00:43:49.000 --> 00:43:57.000
+Thank you.
+
+00:43:57.000 --> 00:44:01.000
+I think you know the core piece of V 6 code based isn't under every Ccx.
+
+00:44:01.000 --> 00:44:04.000
+Awesome. Yeah.
+
+00:44:04.000 --> 00:44:09.000
+And so there's integration tests here, and you can run those or
+
+00:44:09.000 --> 00:44:13.000
+Okay, integration tests are
+
+00:44:13.000 --> 00:44:15.000
+Sorry.
+
+00:44:15.000 --> 00:44:18.000
+Okay, integration directly running it would be a easy part.
+
+00:44:18.000 --> 00:44:24.000
+Yeah, And there's a unique test also. Usually, you know, directly in the files.
+
+00:44:24.000 --> 00:44:34.000
+So if I oh, man, let me find those. So we use 2.
+
+00:44:34.000 --> 00:44:51.000
+Basically, we use rust, feature, rust, decod features to split out tests into like 2 categories You know, integration tests and to run unit tests.
+
+00:44:51.000 --> 00:44:56.000
+you run with feature. General test. These tests are very quick.
+
+00:44:56.000 --> 00:44:57.000
+If you want to run. You know, integration tests it's usually like full test, or and well, it depends on what you're trying to do.
+
+00:44:57.000 --> 00:45:06.000
+Thank you. Yeah, yeah.
+
+00:45:06.000 --> 00:45:30.000
+You know, if you want to write any calls, or if you want to play with them, integration test, I think the integration mess like they serve as a sort of nice form of documentation, because if you look at them, they are usually like discounts a small story where you know 2 in 2 entities issue some
+
+00:45:30.000 --> 00:45:36.000
+favor and Alice. They are having interaction together and Februaryization credential to alleys.
+
+00:45:36.000 --> 00:45:41.000
+And you see, you know, but you essentially can see what functions are being called.
+
+00:45:41.000 --> 00:45:47.000
+How is this being facilitated? Same goes like for nodejs.
+
+00:45:47.000 --> 00:45:51.000
+If you would happen to like, you know. Want to write some.
+
+00:45:51.000 --> 00:46:10.000
+don't just code Probably the easiest way is to look at the agent, And again, there's tests, for example, out of band, and you can kind of see the way it happens, like you know, or whatever sort of scenario you are interested in usually also this can be also useful if
+
+00:46:10.000 --> 00:46:12.000
+yeah, But alright, okay.
+
+00:46:12.000 --> 00:46:24.000
+you are reading Mobile, because you know more, both mobile and with Vcx, both Mobile Android and Ios and no Js. They share.
+
+00:46:24.000 --> 00:46:25.000
+They rely on the same C Sfi interface.
+
+00:46:25.000 --> 00:46:35.000
+Yeah.
+
+00:46:35.000 --> 00:46:41.000
+Hello!
+
+00:46:41.000 --> 00:46:42.000
+Yes, Gotcha
+
+00:46:42.000 --> 00:47:03.000
+So the way you do things in Mobile and the way you do things, you know, Js: you always pull the same sort of function, just you know, in different language
+
+00:47:03.000 --> 00:47:27.000
+Okay guys, if there's no like thing questions, Yeah, I want to move to the next point to discuss the best time to hold these meetings, a bowl suggesting to move it perhaps an hour or 2 forwards to make it more available for the you know i'm
+
+00:47:27.000 --> 00:47:39.000
+America's time zones as Paul is based in South South America, and I was. So I want to ask for everybody else is thinking about it for me.
+
+00:47:39.000 --> 00:47:49.000
+Is totally fine actually for for me. Is that, like really convenient either way, because I'm based in Europe right now in the morning.
+
+00:47:49.000 --> 00:47:56.000
+But trying to cover both Australia and us that that can get a little bit tricky.
+
+00:47:56.000 --> 00:48:03.000
+So, Paul, you have currently currently it's what is it?
+
+00:48:03.000 --> 00:48:10.000
+The when the meeting was starting was 4. 4 Am.
+
+00:48:10.000 --> 00:48:11.000
+So perhaps 6 Am. Would be probably much better than wooden.
+
+00:48:11.000 --> 00:48:15.000
+yes, yes, that's why. Very early.
+
+00:48:15.000 --> 00:48:18.000
+It.
+
+00:48:18.000 --> 00:48:24.000
+Although that's still still early, and I'll definitely appreciate all I'll see you joining.
+
+00:48:24.000 --> 00:48:28.000
+But yeah, I think 6 zoom is is that would be good.
+
+00:48:28.000 --> 00:48:37.000
+That would make it 9 Am. Utc. And well, they'll they'll shift it 2 h for everybody else.
+
+00:48:37.000 --> 00:48:42.000
+So I'm okay with this. I suppose Paul is okay with this.
+
+00:48:42.000 --> 00:48:49.000
+we'll do things, say. And George, is it?
+
+00:48:49.000 --> 00:48:53.000
+Is it for you
+
+00:48:53.000 --> 00:49:03.000
+Awesome guys That's good. So those very quick, So I've also reschedule the meetings moving to 9 Am.
+
+00:49:03.000 --> 00:49:22.000
+Udc. As we agreed to. Well, I think we already had a free discussion, but I think before I close the meeting, this is like the last last opportunity to say anything you have in your mind
+
+00:49:22.000 --> 00:49:37.000
+just on the the first call you kind of had there about sort of getting a bit of independence from live in Deal Vdr tools That's sort of what?
+
+00:49:37.000 --> 00:49:38.000
+I guess I'm working on at the moment. So Yeah, it might be good sometime, maybe next meeting or some other time to.
+
+00:49:38.000 --> 00:49:55.000
+Alright.
+
+00:49:55.000 --> 00:50:01.000
+we we Yeah, so And on this piece, or basically, what would that approach?
+
+00:50:01.000 --> 00:50:20.000
+We have currently in mind or head in line was Well, first of all, trying to remove the Ffi just to make it easier with to interrupt with the Vdr tools itself, while it's still and while it's still exist, and while we are you know while we'll be in the process
+
+00:50:20.000 --> 00:50:31.000
+of that migration, It'll be easier to compare those Apis when you just can directly click through over the rust code from like one sort of framework to the another.
+
+00:50:31.000 --> 00:50:42.000
+Maybe check how the functions between them at the first. So this is in progress. I have a colleague of mine working on this, and might be done.
+
+00:50:42.000 --> 00:50:46.000
+he's he's the same, is in a good way.
+
+00:50:46.000 --> 00:51:07.000
+I think he'll still run into a few challenges, so I suspect this might be done like late next week, or perhaps perhaps you know, the week after something like that, and then taken from there.
+
+00:51:07.000 --> 00:51:08.000
+I think the first step to like break free from Vdr Tools would be to remove any sort of dependencies on on the Vvr tools from the rest of the code base in Rsd 6.
+
+00:51:08.000 --> 00:51:27.000
+Sort of talk about the approach, and see what you think about it, and how it'll fit in with the ecosystem
+
+00:51:27.000 --> 00:51:51.000
+And we'll I mean is, you know, currently for example, there are places in areas we call base where we talk and terms of wallet handle or pool handle, and these are, concepts of this is comfortable Vdr tools so we want to create some sort of like service layer to shield basically you
+
+00:51:51.000 --> 00:51:58.000
+know, facade or shield away the implementation details. There should be just some sort.
+
+00:51:58.000 --> 00:52:03.000
+The the vision is that there will be some sort of yeah, some api.
+
+00:52:03.000 --> 00:52:07.000
+Would you be like, you know, Okay, create in the credential.
+
+00:52:07.000 --> 00:52:19.000
+And then whether that happens, you know, over Vbr tools or areas shared R areas, shared Rs library.
+
+00:52:19.000 --> 00:52:20.000
+It shouldn't be. It should be invisible to that, and all that.
+
+00:52:20.000 --> 00:52:29.000
+Yeah.
+
+00:52:29.000 --> 00:52:32.000
+Yeah.
+
+00:52:32.000 --> 00:52:36.000
+Yeah, no, that's that's pretty much exactly what I've been doing.
+
+00:52:36.000 --> 00:52:37.000
+Yeah, You ride a lot of wallet handles being passed around.
+
+00:52:37.000 --> 00:52:40.000
+Every portion of the code base which is most of dealing with state machines and protocols. If it's something similar, or what's your approach to this
+
+00:52:40.000 --> 00:52:47.000
+I'm not sure if I are you familiar with the Akapi code base
+
+00:52:47.000 --> 00:53:06.000
+Okay, well, yeah, I guess they went through sort of a similar phase where everything was in the SDK: And then it was sort of cooling on Indie SDK: And so to make it modular they've created interfaces for kind of the main api modules So like an
+
+00:53:06.000 --> 00:53:14.000
+interface for ledger interactions, interface for wallet interactions, interface for non credits stuff like that.
+
+00:53:14.000 --> 00:53:20.000
+And then you basically inject whether you want the Indie SDK version of that dependency.
+
+00:53:20.000 --> 00:53:25.000
+Or if you want, you know the the Credx or the Vdr version of it.
+
+00:53:25.000 --> 00:53:33.000
+So yeah, I guess, I've been in the process of making those those interfaces, all those traits.
+
+00:53:33.000 --> 00:53:37.000
+And then you can plug in whether you want a Vdr version or The media.
+
+00:53:37.000 --> 00:53:38.000
+Tools, version, our credits or video tools kind of thing. But yeah, I guess it'd be good to not going into it now, but it'd be good to get you guys to have a look at.
+
+00:53:38.000 --> 00:53:53.000
+not not much. No.
+
+00:53:53.000 --> 00:53:57.000
+Yeah, yeah, this is the song you know. This: This sounds great.
+
+00:53:57.000 --> 00:54:04.000
+I mean it's I guess, there's a approach one to do as you describe in occupy, and apparently what you're doing.
+
+00:54:04.000 --> 00:54:05.000
+So. This is. This will be like really valuable work, you know.
+
+00:54:05.000 --> 00:54:08.000
+It, and see what you think.
+
+00:54:08.000 --> 00:54:14.000
+Collaboration definitely. If if you are it's a It's a big task.
+
+00:54:14.000 --> 00:54:15.000
+I think so definitely. If you want to like, you know, kind of commit on, you know, Contributing this piece.
+
+00:54:15.000 --> 00:54:33.000
+Hmm.
+
+00:54:33.000 --> 00:54:35.000
+Yeah, yeah, that'd be great. Yeah, you're right.
+
+00:54:35.000 --> 00:54:36.000
+It's a pretty big toss, I think. About 90 files change, though.
+
+00:54:36.000 --> 00:54:41.000
+We will be again very valuable. Then we can, you know, connect, set up some setup, some calls, and kind of work with you more closely, and I
+
+00:54:41.000 --> 00:54:47.000
+Oh, okay.
+
+00:54:47.000 --> 00:54:48.000
+on it, so we'll do. What is your current state?
+
+00:54:48.000 --> 00:54:57.000
+Something. So yeah, it'd be good to dig into it a bit if you guys
+
+00:54:57.000 --> 00:54:58.000
+yeah, no, I I am consuming it. And you know, just running it against the local akupy.
+
+00:54:58.000 --> 00:55:17.000
+Are we actually consuming some of those libraries? Or is it done A refactoring phase, trying to shield the way that Vdr tools?
+
+00:55:17.000 --> 00:55:20.000
+Hmm.
+
+00:55:20.000 --> 00:55:21.000
+Right.
+
+00:55:21.000 --> 00:55:25.000
+can do, you know, issuance and presentations, I guess, being more mobile, focused by, I I care more about you know the proverb and the holder point of view, and verify so my attention hasn't really been on that side of things, but hold the retriever apis
+
+00:55:25.000 --> 00:55:28.000
+in there. But yeah.
+
+00:55:28.000 --> 00:55:39.000
+So so they are. You are literally running live Vcx, which is using those Indishard ars for the prover and stuff around it.
+
+00:55:39.000 --> 00:55:48.000
+Yes, so I'm not using live Vcx. At the moment I'm I'm just using the areas of Vcx call directly.
+
+00:55:48.000 --> 00:55:56.000
+yeah.
+
+00:55:56.000 --> 00:55:57.000
+the only pot that is still using it in. Well, I I have it sort of configurable way.
+
+00:55:57.000 --> 00:56:02.000
+But it's using. It's not using Vdr tools anymore.
+
+00:56:02.000 --> 00:56:05.000
+You can choose whether you're using video tools or using pluggable things.
+
+00:56:05.000 --> 00:56:07.000
+Hmm.
+
+00:56:07.000 --> 00:56:20.000
+and I guess the only thing that I haven't done is a video or or a version of the wallet interface that isn't using via tools so like the wallet is in storing upwards and creating dates that is missing and that is be aries as car I
+
+00:56:20.000 --> 00:56:26.000
+Hmm, Right right.
+
+00:56:26.000 --> 00:56:27.000
+that that's amazing. I'm in. I'm really surprised, and I didn't know that this kind of activities had something this.
+
+00:56:27.000 --> 00:56:36.000
+Guess
+
+00:56:36.000 --> 00:56:37.000
+Yeah, maybe I should have been more vocal about it.
+
+00:56:37.000 --> 00:56:41.000
+Is Really, amazing.
+
+00:56:41.000 --> 00:56:48.000
+Yeah, Okay, okay, So we are almost running out of minutes.
+
+00:56:48.000 --> 00:56:56.000
+we have 4 min left. So so, George, Yeah, let's let's talk on this court, and we can set up some.
+
+00:56:56.000 --> 00:57:00.000
+some some call, perhaps some call, or I don't know.
+
+00:57:00.000 --> 00:57:01.000
+Maybe we can even increase the it increased extra.
+
+00:57:01.000 --> 00:57:07.000
+But yeah, we should. We should talk about it more
+
+00:57:07.000 --> 00:57:24.000
+So I'm just thinking, what's the sort of hyper ledger policy, if it's all right, you know, for us to schedule a sort of private call about this contributions or everything should be open But I think in this case I mean, we we discussed the end goal.
+
+00:57:24.000 --> 00:57:27.000
+On the shared meeting, and then I think it's fine.
+
+00:57:27.000 --> 00:57:35.000
+If we discuss the implementation details on a on a sort of private call, and just discuss how to actually proceed.
+
+00:57:35.000 --> 00:57:43.000
+I I don't think anybody would be interested in the technical details, anyway.
+
+00:57:43.000 --> 00:57:54.000
+Okay, alright. So we can set it up on discord and I'll move the meeting to 9, 9, 9 am.
+
+00:57:54.000 --> 00:58:03.000
+there for the next meeting would be happening on at least 23.
+
+00:58:03.000 --> 00:58:12.000
+Well, we lost 20, so the next meeting would be on a third of November 9 Am.
+
+00:58:12.000 --> 00:58:18.000
+Udc. And in the meantime we'll be on on this court.
+
+00:58:18.000 --> 00:58:25.000
+Thank you very much. Everyone for joining. I'm really happy that this happened actually wasn't sure.
+
+00:58:25.000 --> 00:58:28.000
+If you guys are gonna be able to use the whole 1 h.
+
+00:58:28.000 --> 00:58:29.000
+But we did so. It was a nice interaction with all of you.
+
+00:58:29.000 --> 00:58:59.000
+yes.
+

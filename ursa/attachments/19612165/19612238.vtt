@@ -1,0 +1,1022 @@
+WEBVTT
+
+1
+00:01:54.450 --> 00:01:56.640
+Cam Parra: hey welcome everybody um.
+
+2
+00:01:57.960 --> 00:02:01.800
+Cam Parra: yeah we can wait a couple minutes and see if anyone else struggles and then we can start.
+
+3
+00:02:54.450 --> 00:02:56.670
+Cam Parra: Alright cool well welcome everyone.
+
+4
+00:02:58.620 --> 00:03:01.350
+Cam Parra: This is the bi weekly or circle.
+
+5
+00:03:02.670 --> 00:03:11.160
+Cam Parra: And i'm camper yeah you guys know me but yeah so we don't have much on the agenda today we.
+
+6
+00:03:12.450 --> 00:03:22.110
+Cam Parra: For updates we're still again waiting for the ursa fix that's still not out yeah where we're waiting for.
+
+7
+00:03:23.790 --> 00:03:29.790
+Cam Parra: The code owners to supply that and so what we're still waiting on that.
+
+8
+00:03:30.900 --> 00:03:31.890
+Cam Parra: Besides that.
+
+9
+00:03:33.090 --> 00:03:43.830
+Cam Parra: We don't have any further announcements then just waiting on that the work on our yeah, I guess, like the other small announcement will be that there's the work on.
+
+10
+00:03:44.370 --> 00:03:58.230
+Cam Parra: Operation also is slowing down, due to my limited time, but when I do have more time, I will continue that work um and yeah I don't have anything else.
+
+11
+00:03:59.340 --> 00:04:06.030
+Cam Parra: On the agenda, but I can open up the floor to you guys, to see if you guys have any concerns or topics that you want to talk about today.
+
+12
+00:04:17.550 --> 00:04:20.700
+Brent Zundel: There is a PR in the earth's ago rapper.
+
+13
+00:04:22.110 --> 00:04:23.790
+Brent Zundel: That we might look at.
+
+14
+00:04:27.480 --> 00:04:30.450
+Cam Parra: Could you link that in the chat sure.
+
+15
+00:05:13.440 --> 00:05:16.890
+Brent Zundel: Ideally somebody with more go experienced than me would look at it.
+
+16
+00:05:18.180 --> 00:05:18.540
+But.
+
+17
+00:05:24.030 --> 00:05:25.140
+Brent Zundel: In a very quiet.
+
+18
+00:05:30.450 --> 00:05:33.480
+Cam Parra: heart, do you know any Are you familiar with go or.
+
+19
+00:05:33.930 --> 00:05:38.160
+Hart Montgomery: No i'm not a big go person, unfortunately, and this is just the rapper right.
+
+20
+00:05:40.080 --> 00:05:41.910
+Hart Montgomery: Do we know actually who's using this.
+
+21
+00:05:43.170 --> 00:05:43.860
+Brent Zundel: On.
+
+22
+00:05:44.220 --> 00:05:46.500
+Hart Montgomery: Besides, apparently, like Center.
+
+23
+00:05:47.820 --> 00:05:48.330
+Brent Zundel: um I.
+
+24
+00:05:50.370 --> 00:05:53.190
+Brent Zundel: I think so Alex used to be contracted with evernote.
+
+25
+00:05:53.730 --> 00:05:55.950
+Hart Montgomery: Right now, he works for dsr right.
+
+26
+00:05:56.160 --> 00:05:57.150
+Brent Zundel: works for dsr.
+
+27
+00:05:57.180 --> 00:06:07.860
+Brent Zundel: yeah I think that he's actually contracting with your key, which means he's contracting for a vast slash effort and again.
+
+28
+00:06:08.160 --> 00:06:14.340
+Brent Zundel: Sure, I think this might be someone like literally me but just somebody else that I don't know about.
+
+29
+00:06:16.440 --> 00:06:20.280
+Brent Zundel: But like we have an Aries framework go.
+
+30
+00:06:20.580 --> 00:06:21.660
+Hart Montgomery: thing and I broke.
+
+31
+00:06:22.140 --> 00:06:29.490
+Brent Zundel: The earth's ago rapper to do bbs plus by we I mean security but that's me now so.
+
+32
+00:06:31.800 --> 00:06:32.220
+Brent Zundel: yeah.
+
+33
+00:06:35.010 --> 00:06:35.820
+that's yeah.
+
+34
+00:06:37.980 --> 00:06:42.960
+Cam Parra: Alex isn't on Daniels team anymore Daniels team is secure key.
+
+35
+00:06:43.440 --> 00:06:46.710
+Brent Zundel: know I guess that's where i'm confused because.
+
+36
+00:06:48.810 --> 00:06:52.110
+Hart Montgomery: yeah this this doesn't look like a lot of coach agents right.
+
+37
+00:06:52.590 --> 00:07:02.430
+Brent Zundel: Well he's literally just modifying the way that errors are handled, but in order to get the PR to pass he had to make changes to the build the ammo file.
+
+38
+00:07:05.220 --> 00:07:06.450
+Hart Montgomery: yeah i'm looking at that.
+
+39
+00:07:08.190 --> 00:07:15.690
+Brent Zundel: And like that's the part of it that makes me a little nervous and honestly if it was anybody, other than Alex proposing it i'd be like no.
+
+40
+00:07:17.010 --> 00:07:22.410
+Brent Zundel: But i'm confident that Alex will then build process.
+
+41
+00:07:26.490 --> 00:07:30.240
+Hart Montgomery: yeah I mean I, this is not something where i'm an expert.
+
+42
+00:07:35.280 --> 00:07:35.820
+Hart Montgomery: So.
+
+43
+00:07:38.310 --> 00:07:48.930
+Cam Parra: With the build process he's not doing anything I think major think he's just renaming things and I think that's fine the go part i'm not familiar with go so.
+
+44
+00:07:51.150 --> 00:07:56.250
+Cam Parra: So I don't have the expertise to do but yeah besides that everything seems pretty normal.
+
+45
+00:07:57.120 --> 00:08:04.050
+Brent Zundel: Well, in the build thing is commenting a bunch of stuff out so much stuff just isn't happening anymore that used to happen so that's where i'm like oh.
+
+46
+00:08:05.190 --> 00:08:09.720
+Nathan George: yeah and he's calling up and it's the fix to do, the question is who's who's going to do the fix.
+
+47
+00:08:10.050 --> 00:08:16.410
+Brent Zundel: Right and i'm, I would like a little bit more commitment from him saying yes, I will come back and fix the to do.
+
+48
+00:08:17.640 --> 00:08:18.570
+Brent Zundel: Before we merge it.
+
+49
+00:08:21.030 --> 00:08:22.980
+Cam Parra: Or the, the only code owners.
+
+50
+00:08:24.270 --> 00:08:26.670
+Cam Parra: For our early on, only users for this rapper then.
+
+51
+00:08:27.810 --> 00:08:28.110
+Cam Parra: Is.
+
+52
+00:08:30.120 --> 00:08:33.600
+Cam Parra: The other go team they don't they don't use her sorry.
+
+53
+00:08:36.300 --> 00:08:43.920
+Nathan George: my previous standing is that they were using a go native implementation and not ursa so i'm excited that someone's here, using the go rapper.
+
+54
+00:08:55.050 --> 00:08:58.380
+Cam Parra: I think I think Alex is open to discussion if we if we asked him more.
+
+55
+00:08:58.410 --> 00:09:00.780
+Cam Parra: More questions yeah he's.
+
+56
+00:09:01.110 --> 00:09:08.040
+Hart Montgomery: Good about this right so just i'd say just got to spell out your questions and concerns in the PR.
+
+57
+00:09:17.580 --> 00:09:23.880
+Cam Parra: So yeah I will i'll comment those questions after after this meeting some of the questions that were concerned are raised here.
+
+58
+00:09:27.900 --> 00:09:33.120
+Brent Zundel: And if anybody has contact with any of the listed versa, go maintain owners.
+
+59
+00:09:33.780 --> 00:09:40.770
+Hart Montgomery: So who's left on that right, well, I think it was it was Michaela that did most of it right, but she left.
+
+60
+00:09:43.590 --> 00:09:50.280
+Brent Zundel: I mean all I know, is the three people that are currently members of the earth's a rapper co maintainer.
+
+61
+00:09:52.860 --> 00:09:55.920
+Hart Montgomery: So who sorry, who is that it to look.
+
+62
+00:09:56.160 --> 00:10:00.090
+Brent Zundel: github handles I have musi my butter seven and here Hello.
+
+63
+00:10:01.260 --> 00:10:02.010
+Hart Montgomery: Okay, so if.
+
+64
+00:10:13.410 --> 00:10:15.000
+Cam Parra: We all have contact with Mike.
+
+65
+00:10:16.740 --> 00:10:18.660
+Hart Montgomery: Philip is there right.
+
+66
+00:10:22.080 --> 00:10:23.310
+Hart Montgomery: Sorry, who is the first one.
+
+67
+00:10:24.510 --> 00:10:26.250
+Brent Zundel: But the github handle is Lucy.
+
+68
+00:10:30.540 --> 00:10:31.560
+Hart Montgomery: Is that Michaela.
+
+69
+00:10:34.410 --> 00:10:35.760
+Cam Parra: No it's Kevin Griffin.
+
+70
+00:10:36.240 --> 00:10:36.570
+Oh.
+
+71
+00:10:38.280 --> 00:10:38.730
+Okay.
+
+72
+00:10:47.160 --> 00:10:49.650
+Hart Montgomery: I don't know it's probably worth the mail to these people right.
+
+73
+00:10:53.370 --> 00:10:58.050
+Brent Zundel: So it was it came up on my radar again because right set out.
+
+74
+00:10:59.130 --> 00:11:09.060
+Brent Zundel: an email saying hey person maintainer or I think it was a bit of a dysport thing but anyway, I gotta pay ursa maintainer come check this out.
+
+75
+00:11:11.370 --> 00:11:15.030
+Brent Zundel: So I I was operating under the expectation that.
+
+76
+00:11:17.700 --> 00:11:19.350
+Brent Zundel: He had already contacted the.
+
+77
+00:11:21.720 --> 00:11:22.740
+The maintainer is there.
+
+78
+00:11:26.490 --> 00:11:26.910
+Hart Montgomery: I don't know.
+
+79
+00:11:30.570 --> 00:11:33.270
+Hart Montgomery: I can ask him, but I would be yeah.
+
+80
+00:11:38.010 --> 00:11:41.610
+Hart Montgomery: yeah maybe just to explain your comments to Alex.
+
+81
+00:11:43.800 --> 00:11:46.350
+Hart Montgomery: Thanks make sure he's gonna tidy the rest of the stuff up.
+
+82
+00:11:47.940 --> 00:11:49.680
+Hart Montgomery: But not, why not.
+
+83
+00:11:50.190 --> 00:11:51.630
+Brent Zundel: I added a comment to the.
+
+84
+00:11:54.270 --> 00:11:56.550
+apartment good PR.
+
+85
+00:12:00.840 --> 00:12:01.560
+Cam Parra: Okay cool.
+
+86
+00:12:05.130 --> 00:12:06.780
+Hart Montgomery: he's usually pretty responsive right.
+
+87
+00:12:09.450 --> 00:12:17.640
+Brent Zundel: yeah I mean the impression that i've gotten is that Alex is actively pushing to be like hey Can somebody please merge this yeah so.
+
+88
+00:12:19.380 --> 00:12:23.370
+Cam Parra: yeah i'm sure they're frustrated with this, because they their team goes pretty fast.
+
+89
+00:12:27.420 --> 00:12:37.830
+Cam Parra: So, if anything, if we don't get response from the other containers I say we just merge it and we if it really causes that much damage to the other maintainer, then we can revert it.
+
+90
+00:12:38.940 --> 00:12:40.080
+Hart Montgomery: But I have it if.
+
+91
+00:12:41.130 --> 00:12:44.370
+Hart Montgomery: What if they're not responding right, then, at some point it's on them.
+
+92
+00:12:45.360 --> 00:12:45.810
+yeah.
+
+93
+00:12:47.430 --> 00:12:54.360
+Cam Parra: yeah I think I think at this point, if this is, these are the users, we can just add because we have merging abilities here so.
+
+94
+00:12:57.000 --> 00:13:02.400
+Brent Zundel: yeah if I want to see what Alex says so, my comment and then based on his response.
+
+95
+00:13:03.510 --> 00:13:05.070
+Brent Zundel: And that willing to merge.
+
+96
+00:13:13.710 --> 00:13:22.110
+Cam Parra: yeah if if Alex wants if Alex wants to be a maintainer there too, I would not disagree with that that would be a good thing.
+
+97
+00:13:32.520 --> 00:13:36.900
+Cam Parra: he's got a PhD in math so he's barely understand what's going on.
+
+98
+00:13:45.930 --> 00:13:50.820
+Hart Montgomery: They never know what the math PhDs think so, I have some funny experiences about that.
+
+99
+00:13:55.890 --> 00:13:57.360
+Cam Parra: I guess it is different, like.
+
+100
+00:13:57.510 --> 00:14:03.060
+Cam Parra: The computer science math professors had a very different mindset than my math professors.
+
+101
+00:14:04.170 --> 00:14:10.230
+Hart Montgomery: I just laughed because I had a bunch of math a bunch of Stanford math PhD students who should have known better.
+
+102
+00:14:13.440 --> 00:14:20.580
+Hart Montgomery: Try to pitch me on this idea and involve them breaking information theory lower bounds.
+
+103
+00:14:24.150 --> 00:14:27.420
+Hart Montgomery: Which which they had not thought about.
+
+104
+00:14:29.400 --> 00:14:32.550
+Hart Montgomery: To have you see their whole idea is completely berkus.
+
+105
+00:14:37.020 --> 00:14:39.330
+Brent Zundel: Hard I think if you just had more open mind.
+
+106
+00:14:39.510 --> 00:14:40.320
+Hart Montgomery: yeah I know.
+
+107
+00:14:41.310 --> 00:14:43.800
+Brent Zundel: Just for breaking those lower bounds and.
+
+108
+00:14:45.900 --> 00:14:58.380
+Hart Montgomery: i'll tell you what it was in like 30 seconds, so they they wanted me to read this like tried it they they knew they needed a computer scientist, but say want me to read this like algebra geometry stuff so I did okay great.
+
+109
+00:14:59.820 --> 00:15:00.420
+Hart Montgomery: And then.
+
+110
+00:15:02.790 --> 00:15:07.410
+Hart Montgomery: This algebraic geometry stuff was all about you know, representing.
+
+111
+00:15:09.780 --> 00:15:12.960
+Hart Montgomery: More abstracted numbers but, basically, you know.
+
+112
+00:15:16.770 --> 00:15:25.470
+Hart Montgomery: You know one number of you know, between zero and and as two numbers between zero and square root ad.
+
+113
+00:15:27.450 --> 00:15:33.510
+Hart Montgomery: And they thought this was going to to revolutionize you know how things are stored.
+
+114
+00:15:34.710 --> 00:15:44.340
+Hart Montgomery: Then I asked them how long how large does it, how many bits does it take to store number of size zero to end and how many bits does it take to that store number of size zero to route ad.
+
+115
+00:15:45.570 --> 00:15:48.030
+Hart Montgomery: And then they they got very sheepish.
+
+116
+00:15:51.840 --> 00:16:02.610
+Hart Montgomery: You know and we're not happy, but I did get a check for reading that algebra geometry is a Grad student so that was nice.
+
+117
+00:16:08.370 --> 00:16:10.560
+Hart Montgomery: anyways sorry for the anecdote.
+
+118
+00:16:11.580 --> 00:16:13.020
+Brent Zundel: No that's good again.
+
+119
+00:16:16.080 --> 00:16:17.400
+Hart Montgomery: yeah so so let's just.
+
+120
+00:16:18.630 --> 00:16:22.410
+Hart Montgomery: see it Alexander has to say, you know should all be fine.
+
+121
+00:16:24.270 --> 00:16:26.760
+Cam Parra: yeah and I haven't heard too much from the.
+
+122
+00:16:27.900 --> 00:16:38.820
+Cam Parra: So just under the radar the like I haven't heard too much from the Aries folks about the earth of them wanting to ursa fix so I don't know if they're that.
+
+123
+00:16:39.720 --> 00:16:40.260
+Cam Parra: Right now.
+
+124
+00:16:40.650 --> 00:16:44.160
+Hart Montgomery: They have other more pressing security issues.
+
+125
+00:16:44.970 --> 00:16:46.380
+Cam Parra: Are those not out the door yet.
+
+126
+00:16:46.470 --> 00:16:48.510
+Hart Montgomery: or like I don't think so okay.
+
+127
+00:16:50.820 --> 00:16:55.410
+Hart Montgomery: So, like this is pretty minor compared to some of the other issues.
+
+128
+00:17:01.470 --> 00:17:02.700
+Hart Montgomery: So yeah.
+
+129
+00:17:05.400 --> 00:17:06.240
+Cam Parra: Well that's good.
+
+130
+00:17:07.260 --> 00:17:09.000
+Brent Zundel: connection stuff the.
+
+131
+00:17:10.560 --> 00:17:12.570
+Brent Zundel: Is that the indie issues you're referring to is.
+
+132
+00:17:12.570 --> 00:17:14.610
+Hart Montgomery: Like the remote execution.
+
+133
+00:17:16.110 --> 00:17:17.700
+Hart Montgomery: is quite problematic.
+
+134
+00:17:19.470 --> 00:17:22.110
+Cam Parra: And I think they have a denial of service issue as well.
+
+135
+00:17:22.170 --> 00:17:24.240
+Hart Montgomery: there's a big denial of service issue too yeah.
+
+136
+00:17:25.080 --> 00:17:31.770
+Brent Zundel: Now service issue, I think I just had to update my note to address that one, but then.
+
+137
+00:17:32.970 --> 00:17:33.540
+Brent Zundel: The.
+
+138
+00:17:36.150 --> 00:17:41.700
+Brent Zundel: isn't the remote execution one though require physical connection to like.
+
+139
+00:17:42.180 --> 00:17:44.280
+Hart Montgomery: I think any issue on the network can do it.
+
+140
+00:17:46.410 --> 00:17:48.330
+Brent Zundel: Any issue or so, not just any.
+
+141
+00:17:48.600 --> 00:17:49.410
+validate yeah.
+
+142
+00:17:56.280 --> 00:18:00.240
+Hart Montgomery: Something like that, and maybe i'm maybe it's it's running incorrectly but.
+
+143
+00:18:02.010 --> 00:18:08.640
+Brent Zundel: it's like it's theoretically possible for a validator to inject their own code into the.
+
+144
+00:18:09.480 --> 00:18:11.370
+Brent Zundel: You know, whatever process.
+
+145
+00:18:11.880 --> 00:18:13.230
+Hart Montgomery: something along those lines.
+
+146
+00:18:13.890 --> 00:18:15.480
+Brent Zundel: yeah we told them about that.
+
+147
+00:18:16.740 --> 00:18:27.990
+Brent Zundel: 2018 mean I that's when I when when we had it reviewed and somebody said yeah it's problem, is it not even it's not a problem again.
+
+148
+00:18:28.650 --> 00:18:30.210
+Hart Montgomery: Well there's a lot of technical debt.
+
+149
+00:18:33.630 --> 00:18:35.040
+Hart Montgomery: it's true so.
+
+150
+00:18:42.360 --> 00:18:42.960
+Hart Montgomery: anyway.
+
+151
+00:18:43.350 --> 00:18:43.890
+Cam Parra: Once they.
+
+152
+00:18:43.920 --> 00:18:51.780
+Cam Parra: Once they fix that they'll it'll be on our on their radar but um I guess the um The other thing is that.
+
+153
+00:18:53.580 --> 00:19:10.500
+Cam Parra: there's going to be someone at hyper ledger forum talking about this issue, but hasn't been released, yet, so I guess, we might if we don't have the code, by then, I guess, releasing the at least the what the bug is on on our code base might be good.
+
+154
+00:19:10.860 --> 00:19:14.070
+Hart Montgomery: yep it's good totally CVs I mean it's.
+
+155
+00:19:15.090 --> 00:19:16.080
+Hart Montgomery: This is something that.
+
+156
+00:19:17.700 --> 00:19:19.710
+Hart Montgomery: That can be retroactively checked right.
+
+157
+00:19:20.880 --> 00:19:21.240
+Cam Parra: uh huh.
+
+158
+00:19:22.680 --> 00:19:26.850
+Hart Montgomery: So, like, if I have my credentials Now you can ask me to release the proof later.
+
+159
+00:19:28.200 --> 00:19:28.950
+Hart Montgomery: Presumably.
+
+160
+00:19:32.370 --> 00:19:32.760
+Hart Montgomery: So.
+
+161
+00:19:33.150 --> 00:19:33.750
+yeah.
+
+162
+00:19:34.920 --> 00:19:37.320
+Hart Montgomery: God I don't know how long the fix is going to take.
+
+163
+00:19:38.850 --> 00:19:40.440
+Cam Parra: yeah I don't know how limited.
+
+164
+00:19:41.460 --> 00:19:42.600
+Cam Parra: Time is right now.
+
+165
+00:19:44.400 --> 00:19:47.550
+Brent Zundel: far as I know time we're interested in helping herself.
+
+166
+00:19:47.610 --> 00:19:48.360
+Hart Montgomery: But.
+
+167
+00:19:49.110 --> 00:19:53.280
+Brent Zundel: As far as I can tell my cousin neither time nor interested in helping or something.
+
+168
+00:19:53.760 --> 00:19:55.680
+Hart Montgomery: Like yes, mostly lack of time.
+
+169
+00:19:57.630 --> 00:20:09.030
+Cam Parra: yeah he committed he committed to making this in front of a bunch of stakeholders so that's I mean I think that's enough interest, but you know.
+
+170
+00:20:09.120 --> 00:20:13.050
+Hart Montgomery: We should probably have some kind of plan if Mike can't do it right.
+
+171
+00:20:14.520 --> 00:20:15.030
+Cam Parra: Right.
+
+172
+00:20:19.920 --> 00:20:20.190
+Cam Parra: So.
+
+173
+00:20:20.250 --> 00:20:21.720
+Cam Parra: That might be willing, is, I think.
+
+174
+00:20:21.870 --> 00:20:27.270
+Cam Parra: Most of us on the call here have little to no resources to to make that fix.
+
+175
+00:20:29.130 --> 00:20:29.790
+Hart Montgomery: Yes.
+
+176
+00:20:31.620 --> 00:20:35.280
+Cam Parra: So we gotta we gotta we gotta get Stephen Korean and some of the.
+
+177
+00:20:36.930 --> 00:20:39.660
+Cam Parra: Santa coming in and take a look.
+
+178
+00:20:43.440 --> 00:20:44.760
+Hart Montgomery: So yeah I agree.
+
+179
+00:20:49.230 --> 00:20:55.500
+Cam Parra: cool well I don't have anything else does anyone have anything else, they would like to discuss Nathan, do you have anything.
+
+180
+00:20:59.040 --> 00:21:04.170
+Nathan George: No unless there's any other updates around operation also or you know.
+
+181
+00:21:05.220 --> 00:21:10.710
+Nathan George: Help wanted type things that we could mark to get a better on ramp to others that want to get involved.
+
+182
+00:21:19.800 --> 00:21:21.690
+Hart Montgomery: yeah as far as the on ramps go, I think.
+
+183
+00:21:23.730 --> 00:21:28.890
+Hart Montgomery: cam nailed it, we need to get the people that are actually using it more involved right.
+
+184
+00:21:30.990 --> 00:21:33.840
+Brent Zundel: Now i'm working on that within my organization.
+
+185
+00:21:34.980 --> 00:21:39.930
+Brent Zundel: I think the conversation like be used this if we plan to continue using it, we need to help maintain it.
+
+186
+00:21:41.700 --> 00:21:43.770
+Brent Zundel: Or we need to decide we're not going to use it anymore.
+
+187
+00:21:44.610 --> 00:21:45.840
+Brent Zundel: yep so.
+
+188
+00:21:47.730 --> 00:21:53.790
+Brent Zundel: I am forcing those conversations, but haven't gotten a final decision at all.
+
+189
+00:21:58.320 --> 00:21:58.710
+Hart Montgomery: So.
+
+190
+00:21:59.460 --> 00:22:09.690
+Cam Parra: yeah I think I think once once those major vulnerabilities are fixed in India think that's when we need to strike up the conversation of like.
+
+191
+00:22:10.800 --> 00:22:19.590
+Cam Parra: Okay yeah your your frameworks breaking but also now if you don't maintain this is going to cause you more headaches down the road and it might not be in like such a.
+
+192
+00:22:20.220 --> 00:22:27.840
+Cam Parra: Threatening tone, but just like you know, helping them see that this is like the core of their platform and that they need to maintain it.
+
+193
+00:22:30.000 --> 00:22:35.580
+Hart Montgomery: Another like I guess more speculative thing is Brent you may have seen this because your company is.
+
+194
+00:22:36.900 --> 00:22:40.590
+Hart Montgomery: Is tentatively involved have you seen this new open wallet effort.
+
+195
+00:22:41.850 --> 00:22:45.810
+Brent Zundel: I know some things about the new open wallet effort, yes.
+
+196
+00:22:45.840 --> 00:22:46.260
+yeah.
+
+197
+00:22:48.810 --> 00:22:51.150
+Hart Montgomery: So that that might be.
+
+198
+00:22:53.580 --> 00:22:53.940
+Hart Montgomery: Like.
+
+199
+00:22:56.760 --> 00:22:59.040
+Hart Montgomery: That might be a way to.
+
+200
+00:23:00.720 --> 00:23:06.000
+Hart Montgomery: You know figure out how to get sort of more resources for this kind of thing right.
+
+201
+00:23:16.350 --> 00:23:17.370
+Hart Montgomery: You are there.
+
+202
+00:23:18.510 --> 00:23:19.920
+Brent Zundel: yeah thinking.
+
+203
+00:23:21.420 --> 00:23:23.100
+Hart Montgomery: I don't like the.
+
+204
+00:23:25.620 --> 00:23:27.150
+Hart Montgomery: The list of people who.
+
+205
+00:23:29.520 --> 00:23:33.450
+Hart Montgomery: who showed up to that is is quite interesting and quite large.
+
+206
+00:23:35.640 --> 00:23:36.990
+Hart Montgomery: If that project.
+
+207
+00:23:38.340 --> 00:23:41.220
+Hart Montgomery: decides to use anonymous credentials right then.
+
+208
+00:23:44.790 --> 00:23:45.150
+Hart Montgomery: You know.
+
+209
+00:23:46.740 --> 00:23:51.180
+Hart Montgomery: That might be a possible way forward is to to work with those people.
+
+210
+00:23:58.050 --> 00:23:58.320
+Brent Zundel: yeah.
+
+211
+00:24:02.070 --> 00:24:02.400
+Hart Montgomery: yeah.
+
+212
+00:24:04.650 --> 00:24:05.040
+So.
+
+213
+00:24:06.510 --> 00:24:06.930
+Hart Montgomery: anyway.
+
+214
+00:24:13.980 --> 00:24:17.340
+Cam Parra: yeah do you have any ideas Nathan, of what we should do, or.
+
+215
+00:24:20.520 --> 00:24:31.650
+Nathan George: um well my original comment was more around being ready for when we can do something, or when we have an opportunity like that the idea that there's a list of folks we could reach out to.
+
+216
+00:24:32.340 --> 00:24:37.800
+Nathan George: Or we could do something to make ourselves attractive to a particular use case is a lot more compelling than just.
+
+217
+00:24:39.660 --> 00:24:54.690
+Nathan George: Having some to do tickets marked and ready to go, I think the trouble we've had in the past is that we either it was really hard to understand how anyone could help without you know, having significant cryptography experience or.
+
+218
+00:24:58.140 --> 00:25:08.520
+Nathan George: We didn't have a lot of ways they could get involved when this kind of opportunity arose, so you know i'm not sure how timely, we can be.
+
+219
+00:25:10.020 --> 00:25:17.520
+Nathan George: In terms of can we put together and make an example or anything that would help those kinds of groups pick up our code and use it more easily.
+
+220
+00:25:18.060 --> 00:25:24.000
+Nathan George: It feels like there's probably a couple of simple things we could do that would be low effort on our part, compared to the amount of help to get.
+
+221
+00:25:31.890 --> 00:25:32.880
+Hart Montgomery: This yeah there's.
+
+222
+00:25:35.670 --> 00:25:37.500
+Hart Montgomery: That that makes perfect sense.
+
+223
+00:25:42.150 --> 00:25:42.510
+So.
+
+224
+00:25:50.130 --> 00:25:54.780
+Nathan George: Are you understand enough about what they're trying to do that, you could write you know, maybe like a.
+
+225
+00:25:55.800 --> 00:26:00.420
+Nathan George: Just a some lines a pseudo code for their use case, so that we could put together a code example.
+
+226
+00:26:00.450 --> 00:26:02.310
+Hart Montgomery: For whom for the open wallet.
+
+227
+00:26:02.850 --> 00:26:03.150
+yeah.
+
+228
+00:26:04.710 --> 00:26:15.540
+Hart Montgomery: I mean we are, I think we're you know we're beyond that we have a lot of people in the open wallet discussion who use, you know areas in ursa.
+
+229
+00:26:20.160 --> 00:26:20.730
+Hart Montgomery: So.
+
+230
+00:26:21.840 --> 00:26:28.710
+Hart Montgomery: I think that that use cases going to be pretty well documented, I mean people are going to understand that already.
+
+231
+00:26:31.320 --> 00:26:48.690
+Hart Montgomery: The question is, is you know, like can we convince the that group that they need to have an anonymous credential solution, you know I think they should, I think a lot of people think they should certainly I think brent's people who are in the call would think they should.
+
+232
+00:26:52.050 --> 00:26:52.530
+Hart Montgomery: So.
+
+233
+00:26:54.030 --> 00:26:57.660
+Hart Montgomery: You know, and if you want me to link you into that Nathan or cam I can.
+
+234
+00:27:02.730 --> 00:27:06.090
+Hart Montgomery: I don't know if you have the bandwidth but i'd be happy to do so, if you like.
+
+235
+00:27:13.620 --> 00:27:16.770
+Nathan George: i'm pretty sure I don't have the bandwidth but i've been asked to the link being anyway.
+
+236
+00:27:18.300 --> 00:27:18.930
+Hart Montgomery: Okay.
+
+237
+00:27:19.410 --> 00:27:21.900
+Cam Parra: yeah same I might not be able to make it I.
+
+238
+00:27:22.650 --> 00:27:23.520
+Hart Montgomery: mean it's more like.
+
+239
+00:27:24.150 --> 00:27:25.620
+Hart Montgomery: yeah it's more like it's.
+
+240
+00:27:27.210 --> 00:27:31.020
+Hart Montgomery: I think the business people are involved right now but yeah they they need more.
+
+241
+00:27:32.250 --> 00:27:33.780
+Hart Montgomery: More guidance I think so.
+
+242
+00:27:38.340 --> 00:27:41.820
+Cam Parra: That open wallet effort is happening in hyper ledger.
+
+243
+00:27:43.140 --> 00:27:46.350
+Hart Montgomery: it's outside hyper ledger but in the lf.
+
+244
+00:27:47.160 --> 00:27:55.410
+Hart Montgomery: Okay, so it's still in a left leg, but it looks like there and it's it's it's not a blockchain project necessarily right.
+
+245
+00:27:57.510 --> 00:27:58.170
+Cam Parra: Right.
+
+246
+00:27:58.470 --> 00:28:00.270
+Hart Montgomery: They want it to be broader than blockchain.
+
+247
+00:28:02.730 --> 00:28:03.150
+Hart Montgomery: So.
+
+248
+00:28:04.830 --> 00:28:11.550
+Hart Montgomery: But as the like person with cryptography knowledge and lf I get.
+
+249
+00:28:12.930 --> 00:28:14.880
+Hart Montgomery: dragged onto this stuff occasionally so.
+
+250
+00:28:22.290 --> 00:28:22.710
+Hart Montgomery: anyway.
+
+251
+00:28:25.950 --> 00:28:28.200
+Hart Montgomery: actually have to drop for any 30 think.
+
+252
+00:28:29.970 --> 00:28:34.290
+Cam Parra: that's Okay, I think we can end now, but thank you all for attending.
+
+253
+00:28:35.790 --> 00:28:48.210
+Cam Parra: there's any topics you'd like to discuss next time that be in go ahead and link them in the discord chat i'll keep track of that and yeah we'll see everyone in two weeks.
+
+254
+00:28:48.780 --> 00:28:49.500
+Hart Montgomery: looks like him.
+
+255
+00:28:51.630 --> 00:28:52.200
+Cam Parra: Thanks everyone.
+

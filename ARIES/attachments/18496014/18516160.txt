@@ -1,0 +1,30 @@
+08:03:40	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-04-06+Aries+Working+Group+Call
+08:10:01	 From  Colton Wolkins : That wasn't a key for AWS that I saw, was it?
+08:11:35	 From  Philippe Foucault : Quick question on the side: where can I find the recording of the meeting for this Aries group ?
+08:12:02	 From  Sam Curren (TelegramSam) : posted to the bottom of each agenda after the meeting.
+08:12:07	 From  karimstekelenburg : It should be posted to the Confluence page afterwards 🙂
+08:12:17	 From  Sam Curren (TelegramSam) : if I've missed one, please ping me and I'll get it posted.
+08:12:41	 From  Philippe Foucault : Can you repast the link to the agenda, thanks ?
+08:12:47	 From  karimstekelenburg : https://wiki.hyperledger.org/display/ARIES/2022-04-06+Aries+Working+Group+Call
+08:12:49	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-04-06+Aries+Working+Group+Call
+08:12:57	 From  Philippe Foucault : THANKS
+08:13:04	 From  Sam Curren (TelegramSam) : Karim beat me to it. :)
+08:13:37	 From  karimstekelenburg : 😂 I’ll stop stealing your job now
+08:14:08	 From  Sam Curren (TelegramSam) : Better yet, a promotion? ;)
+08:14:55	 From  karimstekelenburg : 👏👏👏
+08:21:38	 From  Colton Wolkins : I figured that was a key xD
+08:21:41	 From  Sam Curren (TelegramSam)   to   Colton Wolkins(Direct Message) : good catch. :)
+08:21:48	 From  Stephen Curran : I’m already into his account, and have grabbed his bitcoins, so no worries.
+08:22:07	 From  Colton Wolkins   to   Sam Curren (TelegramSam)(Direct Message) : Thanks :)
+08:34:42	 From  karimstekelenburg : This looks really useful, thanks!
+08:34:46	 From  Bruno Hivert : Is it possible to have a link to the AMTH slides please ?
+08:35:43	 From  Sean Bohan : Great stuff Shel
+08:35:52	 From  Philippe Foucault : Good job with the demo!
+08:36:25	 From  Berend Sliedrecht : We can move the aries-cli demo to the next AWG 🙂
+08:40:10	 From  Timo Glastra : Really excited to finally see this being implemented! This is a really important addition to indy
+08:50:52	 From  Sean Bohan : +1 Timo
+08:52:26	 From  Andrew Whitehead : Is anybody working on publishing the network data as a tarball and/or adding an auto-generated index file?
+08:52:54	 From  Timo Glastra : What key types are supported by did:indy? Are the keys verified before written to the ledger or is it just storing the document you send to the ledger?
+08:54:12	 From  Sam Curren (TelegramSam) : the mode of self certification can be specified.
+08:54:39	 From  Sam Curren (TelegramSam) : keys other than the 'main' self certified key can be included, and these are not verified.
+08:54:43	 From  Shel Regular : FYI - Aries Mobile Test Harness Presentation added to WG meeting notes

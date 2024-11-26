@@ -1,0 +1,1514 @@
+WEBVTT
+
+1
+00:00:05.609 --> 00:00:10.800
+Tracy Kuhrt: Alright, welcome everybody to the August 18 hyper ledger technical steering committee call.
+
+2
+00:00:12.389 --> 00:00:21.180
+Tracy Kuhrt: We do have a number of people joining today who have not previously joined us so i'm going to make sure we cover the antitrust policy notice.
+
+3
+00:00:22.860 --> 00:00:35.820
+Tracy Kuhrt: In a bit more detail details are just fyi this meeting is covered by the Linux foundation Center just policy notice here, if you have any sort of questions or concerns.
+
+4
+00:00:37.170 --> 00:00:49.470
+Tracy Kuhrt: Please contact hyper ledger stuff your legal con console or even drew up to grow of the firm gets more up to grow within questions that you might have.
+
+5
+00:00:50.850 --> 00:01:06.660
+Tracy Kuhrt: The second thing that we have to abide by on this call is the code of conduct, which is linked in our agenda, everybody is welcome to participate here but make sure that you are respectful to the other people who are on the call.
+
+6
+00:01:08.250 --> 00:01:14.100
+Tracy Kuhrt: So with that we'll go through the announcements, the personnel so here is a standard announcement.
+
+7
+00:01:14.580 --> 00:01:24.270
+Tracy Kuhrt: There is a Dev weekly developer newsletter that goes out each Friday to hundreds of hyper ledger developers, if you have something that you would like to reach those developers.
+
+8
+00:01:24.930 --> 00:01:35.490
+Tracy Kuhrt: Please leave a link in the comment or leave a comment and only that is a linkedin our agenda here so there's a wiki page that you can provide your comments.
+
+9
+00:01:36.060 --> 00:01:43.500
+Tracy Kuhrt: And the second announcement, I have is that I would like to cancel the September 15 hyper ledger technical steering committee call.
+
+10
+00:01:44.400 --> 00:01:55.110
+Tracy Kuhrt: Because I personally will be on the plane back from the hyper ledger global forum and i'm imagining that there will be a number of other people in some sort of travel state as well, so.
+
+11
+00:01:55.500 --> 00:02:03.690
+Tracy Kuhrt: I just wanted to make that announcement before we actually cancel it from the calendar does anybody have any objection to doing so.
+
+12
+00:02:08.580 --> 00:02:09.270
+Danno Ferrin: no objection.
+
+13
+00:02:12.780 --> 00:02:15.450
+Tracy Kuhrt: um alright, and then the last thing here.
+
+14
+00:02:16.530 --> 00:02:18.600
+Tracy Kuhrt: Emily you want to cover this.
+
+15
+00:02:19.560 --> 00:02:32.370
+Emily Fisher: Absolutely good morning all i'm i'm Emily i'm from the PR team, and I just put a note in here I think rise put this out on discord as well, but as global forum is just around the corner, we are looking to highlight project news.
+
+16
+00:02:33.870 --> 00:02:43.890
+Emily Fisher: You know, have a couple things that I think are out there, but it would be great to have as much, and it doesn't have to be breaking news would be great if it was breaking news but anything recent and noteworthy in terms of.
+
+17
+00:02:44.280 --> 00:02:55.350
+Emily Fisher: Project releases standards labs new projects anything along those lines that you want highlighted I just need to know about it by Monday August 29 so we can.
+
+18
+00:02:56.640 --> 00:03:09.570
+Emily Fisher: plan it into the new cycle and as appropriate plan some blog content as well to support it so quick off of that if you have something please email the PR and hyper ledger.org email address.
+
+19
+00:03:11.160 --> 00:03:18.900
+Emily Fisher: That would be great i'm also on discord some, but the PR truthfully to PR addresses a more reliable way to reach me.
+
+20
+00:03:21.540 --> 00:03:22.440
+Tracy Kuhrt: All right, thank you.
+
+21
+00:03:24.030 --> 00:03:26.910
+Tracy Kuhrt: Any other announcements anybody would like to make a good thing.
+
+22
+00:03:36.180 --> 00:03:46.020
+Tracy Kuhrt: Alright, so with that I did leave the areas in the indie reports on the agenda, they were came in.
+
+23
+00:03:48.630 --> 00:03:58.770
+Tracy Kuhrt: I don't know a couple weeks ago, maybe, but there were still a number of people who haven't reviewed them I didn't see any comments coming through on those, so I will end up removing them from.
+
+24
+00:03:59.460 --> 00:04:08.400
+Tracy Kuhrt: The agenda for next week, but is there any questions or comments anybody has on either the areas or the indie report that we should cover.
+
+25
+00:04:17.460 --> 00:04:27.900
+Tracy Kuhrt: Okay, no friends and you'll be coming off mute i'll take that as a no, we also have the zero have report which case it was supposed to be doing last Thursday.
+
+26
+00:04:28.350 --> 00:04:35.790
+Tracy Kuhrt: So we will reach out to the real hard team and see if we can get them to submit their quarterly report, I think we actually have a number of people on the.
+
+27
+00:04:35.790 --> 00:04:36.150
+Call.
+
+28
+00:04:38.160 --> 00:04:38.850
+Tracy Kuhrt: Today, so.
+
+29
+00:04:40.620 --> 00:04:50.070
+Aleksandr Petrosyan: We have completed report is a different fighter Bruce have you perfectly well proofread will be submitted today, tomorrow, the latest.
+
+30
+00:04:51.240 --> 00:04:51.480
+Tracy Kuhrt: hey.
+
+31
+00:04:53.880 --> 00:04:58.980
+Tracy Kuhrt: um okay so that's the announcements in the quarterly reports.
+
+32
+00:04:59.910 --> 00:05:16.680
+Tracy Kuhrt: How we do have the double report, I see has been being worked on, we kind of get added removed from that so I expect that to be coming in here shortly, the grid and the transaction reports are due next week, so we will look to see those as well.
+
+33
+00:05:18.300 --> 00:05:24.180
+Tracy Kuhrt: So with that, I think we are on to the meat of the agenda.
+
+34
+00:05:26.010 --> 00:05:36.480
+Tracy Kuhrt: don't know who sharing, but you wouldn't mind scrolling down alright, so we have two items of discussion today, the first one is the sewing project proposal.
+
+35
+00:05:36.960 --> 00:05:57.900
+Tracy Kuhrt: And that has been provided the second one is been added here by Ryan, on behalf of your team to talk about the earth's on my brain and the way in which we get that update, so I think i'm going to actually start with the second item, I was told it won't take.
+
+36
+00:05:59.100 --> 00:06:09.030
+Tracy Kuhrt: A whole lot of time to cover this, but I think it is probably the place where we should start, and then we will jump to that so any project proposal and have a discussion on that.
+
+37
+00:06:09.840 --> 00:06:15.810
+Tracy Kuhrt: So there's no Alexander, are you going to be talking about this, or do we have somebody else who's gonna be talking about this.
+
+38
+00:06:17.370 --> 00:06:18.750
+Aleksandr Petrosyan: it's fine i'll cover this.
+
+39
+00:06:19.740 --> 00:06:20.760
+Aleksandr Petrosyan: Right so.
+
+40
+00:06:22.080 --> 00:06:33.030
+Aleksandr Petrosyan: Just as a brief reminder hyper ledger Sir is the unified cryptographic library with numerous, but it also provides see API compatible library version.
+
+41
+00:06:34.290 --> 00:06:39.120
+Aleksandr Petrosyan: And it is currently you know states which is.
+
+42
+00:06:40.200 --> 00:06:41.250
+Aleksandr Petrosyan: causing problems for you know.
+
+43
+00:06:42.360 --> 00:06:55.560
+Aleksandr Petrosyan: Basically, the first problem that we have encountered was that we have to hold back a few major cryptographic dependencies due to hyper ledger so using folder and updated versions of those libraries.
+
+44
+00:06:56.790 --> 00:07:03.120
+Aleksandr Petrosyan: We did a little deeper we identified a couple of CDs, we have contact with the developers.
+
+45
+00:07:04.350 --> 00:07:09.390
+Aleksandr Petrosyan: are waiting for a response for the past three months, unfortunately, nothing happened.
+
+46
+00:07:10.650 --> 00:07:14.850
+Aleksandr Petrosyan: And we contacted right who generously offered us help.
+
+47
+00:07:16.590 --> 00:07:28.380
+Aleksandr Petrosyan: The way we would like it to be resolved is, of course, for us to maintain is to return and to help us with updating the library.
+
+48
+00:07:30.450 --> 00:07:40.290
+Aleksandr Petrosyan: But as far as I know this is not possible, so an alternative was proposed making a few of us a few of them maintain as if you don't have commenting hyper ledger.
+
+49
+00:07:44.460 --> 00:07:56.250
+Aleksandr Petrosyan: Unfortunately for that we would need a little bit more resources right now we're stretching little thing we already have an add capacity team of 12 people, we can spare.
+
+50
+00:07:57.690 --> 00:08:17.490
+Aleksandr Petrosyan: More developer time and we can't spend more than a few people's part time attention to maintaining or Sir, we would, however, be able to change or revise this, provided that we had a little bit more resources so that we could hire at least someone to replace the last time and you'll have.
+
+51
+00:08:18.690 --> 00:08:26.460
+Aleksandr Petrosyan: or ideally someone with security proficiency so that they could also code review our contributors to also.
+
+52
+00:08:28.710 --> 00:08:39.000
+Aleksandr Petrosyan: we're also planning if, of course, the second option is inevitable, to make some small alterations so that also is easier to maintain in the future.
+
+53
+00:08:40.620 --> 00:08:49.920
+Aleksandr Petrosyan: In particular we're moving away from a few deprecating libraries and relying more on the rust core rather than external dependencies just like when we know how.
+
+54
+00:08:51.330 --> 00:09:00.120
+Aleksandr Petrosyan: We would like to also offer our experience with testing fuzzing and code quality.
+
+55
+00:09:01.980 --> 00:09:07.320
+Aleksandr Petrosyan: So that we can help her so remain reliable and easy to use.
+
+56
+00:09:09.630 --> 00:09:11.070
+Aleksandr Petrosyan: And I guess that's it for my side.
+
+57
+00:09:19.980 --> 00:09:21.480
+Jim Zhang: yeah hey.
+
+58
+00:09:22.800 --> 00:09:24.870
+Jim Zhang: Alex Alexandra.
+
+59
+00:09:26.100 --> 00:09:31.740
+Jim Zhang: As yes yeah first first question from me is besides euro.
+
+60
+00:09:32.790 --> 00:09:40.620
+Jim Zhang: Do you know other either hyper ledger projects or customer projects that are dependent on person.
+
+61
+00:09:42.630 --> 00:09:46.530
+Aleksandr Petrosyan: i'm guessing that Roy Jones would be more qualified to answer this question I.
+
+62
+00:09:47.610 --> 00:09:49.440
+Aleksandr Petrosyan: Unfortunately, focused on the development.
+
+63
+00:09:51.120 --> 00:09:53.190
+Jim Zhang: yeah i'm just curious if.
+
+64
+00:09:55.260 --> 00:10:10.020
+Jim Zhang: Finding the other dependent projects and work out the resource issue might be a worthwhile effort at this point I can't imagine being the only project using Rosa.
+
+65
+00:10:13.290 --> 00:10:17.070
+Ry Jones: I don't know if top my head and unfortunately heart is not on this call.
+
+66
+00:10:19.890 --> 00:10:29.010
+Ry Jones: I, I have to defer I know that I think grid was looking at it for a while I don't know, though.
+
+67
+00:10:31.230 --> 00:10:31.620
+Tracy Kuhrt: Okay.
+
+68
+00:10:32.130 --> 00:10:32.820
+Jim Zhang: I guess the other.
+
+69
+00:10:37.500 --> 00:10:45.210
+Nathan George: yeah um obviously the areas projects are making use of ursa indie uses it to a certain extent.
+
+70
+00:10:45.780 --> 00:10:54.120
+Nathan George: We know that a real hot has been using it, but I don't know of any other projects that are using it in production with there have been some projects to do, verifiable credentials.
+
+71
+00:10:54.780 --> 00:11:05.670
+Nathan George: From fabric and some of the other block chains that hyper ledger that have have made use of, or so, but I don't think any of them were released into a production environment um.
+
+72
+00:11:06.510 --> 00:11:16.110
+Nathan George: there's more to say about some of the security stuff as well, if we want to dive down that track, but I think that the focus here is on what she wants to do next so far.
+
+73
+00:11:18.450 --> 00:11:19.770
+Jim Zhang: Okay yeah it seems like.
+
+74
+00:11:21.600 --> 00:11:23.070
+Jim Zhang: If if.
+
+75
+00:11:24.420 --> 00:11:27.390
+Jim Zhang: In the slash areas are using.
+
+76
+00:11:29.160 --> 00:11:30.210
+Jim Zhang: to the same extent.
+
+77
+00:11:31.590 --> 00:11:36.630
+Jim Zhang: Is the same problem would be present in there as well, so.
+
+78
+00:11:38.430 --> 00:11:50.340
+Jim Zhang: Maybe teams can work together the next related question I had is so for the raw team if it's not earth earth do you have a alternative.
+
+79
+00:11:52.590 --> 00:12:11.100
+Jim Zhang: From Open Source point of view, if you need something changed in the dependency and no one is doing that usually is that is dependent team that has to contribute resources that's certainly been our experience there's just no way, no other way to make it work right.
+
+80
+00:12:12.720 --> 00:12:19.950
+Aleksandr Petrosyan: Well, certainly yes, however, we are far from reality is as far as I can tell.
+
+81
+00:12:21.240 --> 00:12:25.770
+Aleksandr Petrosyan: And it would not make sense for us to unilaterally contributes to.
+
+82
+00:12:26.850 --> 00:12:28.860
+Aleksandr Petrosyan: Significant architectural changes and also.
+
+83
+00:12:29.940 --> 00:12:32.550
+Aleksandr Petrosyan: Unfortunately, one of the deprecating libraries is failure.
+
+84
+00:12:33.630 --> 00:12:39.930
+Aleksandr Petrosyan: And that library is an error handling library that requires a significant restructuring of the code.
+
+85
+00:12:40.980 --> 00:12:55.020
+Aleksandr Petrosyan: It will produce a semantically incompatible assembler incompatible version of versa, and we don't want to do that, we unilaterally want to at least know if there are other people involved know if there are other people interested in maintaining is.
+
+86
+00:12:56.160 --> 00:13:00.630
+Aleksandr Petrosyan: It so like to be aware of our requirements and the necessity.
+
+87
+00:13:04.110 --> 00:13:04.590
+Tracy Kuhrt: lakota.
+
+88
+00:13:06.360 --> 00:13:14.580
+Makoto Takemiya (SORAMITSU): yeah I was going to ask like is there a way that we can, or maybe the to the tasc or hyper ledger foundation like there's a way to.
+
+89
+00:13:14.640 --> 00:13:30.150
+Makoto Takemiya (SORAMITSU): put out like some kind of like call for I don't know call for participation in in the or sub projects like we could help to coordinate you know this maintenance, if there were a few interested developers from other hyper ledger members, for instance.
+
+90
+00:13:33.960 --> 00:13:37.680
+Tracy Kuhrt: that's an interesting suggestion Ricardo and.
+
+91
+00:13:39.420 --> 00:13:49.500
+Nathan George: I think one of the first steps here is to show up on the earth to call, there has been a resurgence of interest from dsr and the have asked folks and a few others in.
+
+92
+00:13:49.980 --> 00:13:57.390
+Nathan George: doing some of this maintenance work, but apparently we haven't heard from the real folks on that call I reaching out to cam over.
+
+93
+00:13:58.170 --> 00:14:03.660
+Nathan George: Over chat right now and talking to him about what he's heard about this issue and what he hasn't heard about this issue.
+
+94
+00:14:04.020 --> 00:14:14.430
+Nathan George: It looks like we have some disconnect between the things that are going on this on the security list and the maintainer is an ursa so not everybody in your sub projects is aware of the issues that are all has facing.
+
+95
+00:14:15.390 --> 00:14:19.140
+Nathan George: So that would probably be the first step is to try to make sure everybody on the project goes what's going on.
+
+96
+00:14:19.830 --> 00:14:32.790
+Nathan George: And it could just be there's a communication gap, I know cam, in particular in the folks at kiva we have been less connected to this, then we were in the past as kiva pulled back some of its project work on hyper ledger areas so.
+
+97
+00:14:34.290 --> 00:14:41.700
+Nathan George: Some of this I think it's just kind of a transition gap that we're seeing on ursa unless an indicator of overall project health.
+
+98
+00:14:42.090 --> 00:14:53.820
+Nathan George: But the fact that we went from the third to the 12th with for a response and that i'm asking core maintainer is on our side and they still haven't heard about the issue is indicative of some communications problems.
+
+99
+00:14:57.570 --> 00:14:59.370
+Tracy Kuhrt: With them I think that's a.
+
+100
+00:15:00.780 --> 00:15:04.380
+Tracy Kuhrt: that's probably a good step to take, as far as next steps.
+
+101
+00:15:05.550 --> 00:15:17.010
+Tracy Kuhrt: It also brings to mind some of the work that's being done by the Security Task Force poor making sure that we have the right security contacts in the list.
+
+102
+00:15:17.490 --> 00:15:24.030
+Tracy Kuhrt: To ensure that you know people need to be aware of security issues coming in, are aware of those issues.
+
+103
+00:15:24.420 --> 00:15:30.840
+Tracy Kuhrt: So that's that's probably something else we can follow up on as a next step, as well as to make sure that we have.
+
+104
+00:15:31.410 --> 00:15:49.320
+Tracy Kuhrt: communication with the or so maintain errs and make sure that we know who the right security contacts are from that like group of people, to ensure that when they're made aware of these issues when they come up and start to address them, or at least have conversations.
+
+105
+00:15:50.820 --> 00:15:52.680
+Tracy Kuhrt: In this regard, so.
+
+106
+00:15:53.850 --> 00:16:00.630
+Tracy Kuhrt: yeah I think the next steps that I heard coming out of this discussion, one is for the team to.
+
+107
+00:16:01.170 --> 00:16:16.620
+Tracy Kuhrt: join the earth, a Community calls and have discussions with them and then secondly for us to make sure that we have the right contacts in the security list to ensure that are size represented, I think, to be.
+
+108
+00:16:18.900 --> 00:16:19.770
+Tracy Kuhrt: Any other.
+
+109
+00:16:21.210 --> 00:16:24.030
+Tracy Kuhrt: discussion that we should have on this particular topic.
+
+110
+00:16:27.960 --> 00:16:28.290
+Aleksandr Petrosyan: Okay.
+
+111
+00:16:29.970 --> 00:16:30.450
+Tracy Kuhrt: All right.
+
+112
+00:16:31.590 --> 00:16:32.430
+Tracy Kuhrt: Well, thank you.
+
+113
+00:16:33.030 --> 00:16:46.800
+Tracy Kuhrt: for bringing this to our attention and hopefully this through having conversations directly with the earth maintenance in their Community calls will help to at least get some movement on challenges here that you have.
+
+114
+00:16:49.230 --> 00:17:06.360
+Tracy Kuhrt: All right, so, then the next topic here on our agenda is the selling project proposal, we do have Sean here to talk to us about this proposal, I have seen a few comments here in the hub pull request, but showing did you want to.
+
+115
+00:17:07.380 --> 00:17:12.810
+Tracy Kuhrt: talk this through paid the proposal, and let us know kind of were showing that at the moment.
+
+116
+00:17:14.910 --> 00:17:15.240
+Sean Young: Hello.
+
+117
+00:17:16.470 --> 00:17:16.980
+Sean Young: Okay, so.
+
+118
+00:17:18.240 --> 00:17:26.790
+Sean Young: I suppose more worthy the comments on the podcast been addressed through me, and I can I can a brief little.
+
+119
+00:17:28.200 --> 00:17:45.840
+Sean Young: background on so line so recently I was working on borrow and we were using the film typically compiler to use that to capacity, they wanted to do things step compiler can do we overcome issues on the on the salty compiler.
+
+120
+00:17:47.130 --> 00:17:57.090
+Sean Young: get up repo at some discussions and they show Marino interest and then start to realize that it divided blockchain and it will be interested in a compiler which.
+
+121
+00:17:58.170 --> 00:18:01.230
+Sean Young: would support civility for for other targets of vpn.
+
+122
+00:18:02.490 --> 00:18:03.990
+Sean Young: Other talks and inferior.
+
+123
+00:18:05.010 --> 00:18:05.700
+Sean Young: And so.
+
+124
+00:18:06.840 --> 00:18:17.490
+Sean Young: So when suddenly building from scratch your day was used lb so the tricky parts for coaches generation will be we didn't have to deal with that could be done by by our vm.
+
+125
+00:18:17.880 --> 00:18:28.800
+Sean Young: And we only need to work on the front end of the compiler so we just a passing semantic analysis and the the LV an intermediate representation generation.
+
+126
+00:18:29.910 --> 00:18:34.740
+Sean Young: And so right now we we support nearly all the same syntax as us.
+
+127
+00:18:35.760 --> 00:18:46.020
+Sean Young: To the big so to your point eight, there are a few minor exceptions and everyone's raising issues or other get and will resolve those issues as well.
+
+128
+00:18:47.370 --> 00:18:51.210
+Sean Young: so well, the project was growing and I have spoken to various hyper ledger.
+
+129
+00:18:52.230 --> 00:19:01.980
+Sean Young: Other hyper ledger projects, so I spoke to make Berman about adding sports facility for the private data objects project and we some some initial code.
+
+130
+00:19:04.140 --> 00:19:09.150
+Sean Young: That didn't really good what she couldn't read developed from there, but definitely lot of interest.
+
+131
+00:19:10.530 --> 00:19:18.630
+Sean Young: Also, some brief discussions with Michael about sporting fabric by the public contracts API that seems like a good idea.
+
+132
+00:19:19.290 --> 00:19:27.630
+Sean Young: But you know work with started for that, but also definitely interest and we wrote a prototype for sore tooth.
+
+133
+00:19:28.410 --> 00:19:41.370
+Sean Young: And lots of discussions and calls with short answer about how to further progress that and again there's a promoter of putting bodies on the project but definitely interested and not putting as well.
+
+134
+00:19:44.370 --> 00:19:46.410
+Sean Young: So, so it is.
+
+135
+00:19:47.550 --> 00:19:59.640
+Sean Young: And it isn't just a generic compiler project it's it also provides building blocks for tuning so that there's a certain code for matter which is being written based on surveys passer.
+
+136
+00:20:00.330 --> 00:20:09.690
+Sean Young: and uses certain parts of CRATE we've we've written am using the hyper ledger mentorship few years back, a language server for stability.
+
+137
+00:20:10.770 --> 00:20:21.960
+Sean Young: So this is something you can use in vs code, for example, so it gives you syntax highlighting and errors and harbors and that sort of thing, it can also be used an atom and in your vm.
+
+138
+00:20:23.130 --> 00:20:26.340
+Sean Young: And, and the other interesting thing is that.
+
+139
+00:20:27.990 --> 00:20:36.810
+Sean Young: Existing static analysis tools often work in LV m ir and saucy doesn't produce LV m er so those tools work with that so.
+
+140
+00:20:38.520 --> 00:20:39.060
+Sean Young: talking to.
+
+141
+00:20:40.440 --> 00:20:44.100
+Sean Young: Jeff one, a professor from a from Texas, a amp m university.
+
+142
+00:20:45.150 --> 00:20:48.900
+Sean Young: about using doing analysis ultimately using so like.
+
+143
+00:20:50.100 --> 00:21:02.070
+Sean Young: that's the green called project that's that's an interesting angle and I guess, we would like to say is that planning smart contracts is kind of different than traditional compiler so.
+
+144
+00:21:02.850 --> 00:21:20.490
+Sean Young: which makes this project interesting I feel so normally with a compiler you would balance the execution time to compile it with her optimize your compiler output is but with smart contracts, did the bounces is different than the contract is quite small you're dealing with.
+
+145
+00:21:22.530 --> 00:21:39.750
+Sean Young: Just a small amount of code and the the need for optimization is much higher on taste like inferior the gas costs, this is such that if you can optimize the output more, and there are genuine cost savings and especially over many runs that coach can be very significant.
+
+146
+00:21:40.860 --> 00:21:41.220
+Sean Young: So.
+
+147
+00:21:44.010 --> 00:21:46.560
+Sean Young: So Derek and polytechnics like sheep optimization.
+
+148
+00:21:47.790 --> 00:21:52.140
+Sean Young: Kampala execution, which is concrete and some book execution.
+
+149
+00:21:53.460 --> 00:22:00.810
+Sean Young: That methods that some evidence coming us to optimize smart contracts is very interesting field and.
+
+150
+00:22:02.100 --> 00:22:10.560
+Sean Young: yeah so so when i'm, for example, has a past which replaces tunes 56 bit multiplies with 64 bit multiplies and it uses.
+
+151
+00:22:12.690 --> 00:22:22.740
+Sean Young: glow make execution and in order to implement that and that's something you wouldn't do an untraditional compiler because, if you would do that on a large program the execution time compiler would just be far too great.
+
+152
+00:22:23.970 --> 00:22:24.630
+Sean Young: So we.
+
+153
+00:22:27.150 --> 00:22:30.630
+Sean Young: We so we're on this subject Community Community so.
+
+154
+00:22:32.070 --> 00:22:37.890
+Sean Young: A very interested the Tigers are very much maturing and this this activity around that.
+
+155
+00:22:39.750 --> 00:22:52.140
+Sean Young: And lastly, we would like to work in an end and back end and we don't just have discussions about change changing he wasn't target to em which be another very interesting things to work on.
+
+156
+00:22:54.840 --> 00:22:55.650
+Sean Young: I guess that's it.
+
+157
+00:22:57.570 --> 00:22:58.590
+Tracy Kuhrt: All right, shawn.
+
+158
+00:23:00.180 --> 00:23:04.410
+Tracy Kuhrt: says everybody probably remembers or might remember.
+
+159
+00:23:05.520 --> 00:23:07.260
+Tracy Kuhrt: This is the second time that.
+
+160
+00:23:07.560 --> 00:23:20.400
+Tracy Kuhrt: So, like he has come to the PSC to propose this project into incubation the last time we chatted I think the main concern was really around.
+
+161
+00:23:22.440 --> 00:23:22.890
+Tracy Kuhrt: The.
+
+162
+00:23:24.870 --> 00:23:27.270
+Tracy Kuhrt: mentorship I could do a Sean at that point.
+
+163
+00:23:28.410 --> 00:23:36.960
+Tracy Kuhrt: And since then, there have been a couple of new additions to the mentorship of the project, and so I guess at this point.
+
+164
+00:23:37.590 --> 00:23:49.140
+Tracy Kuhrt: Opening for a sort of questions that people might have for Sean i'm still learning and inserted discussion items that we should talk through I know we've had a couple of conversations.
+
+165
+00:23:50.460 --> 00:23:57.570
+Tracy Kuhrt: Prior to this and rtc calls last week in the project gap so anything else that we should bring up at this point.
+
+166
+00:24:11.430 --> 00:24:12.300
+Sean Young: I mentioned.
+
+167
+00:24:14.100 --> 00:24:14.430
+Tracy Kuhrt: john.
+
+168
+00:24:15.480 --> 00:24:15.840
+Sean Young: mentioned.
+
+169
+00:24:16.320 --> 00:24:23.670
+Sean Young: I just want to mention that the other maintenance Lucas and zero they're also on the call available for questions.
+
+170
+00:24:28.710 --> 00:24:33.000
+Arun S M: hey thank Sean for the presentation so sorry a quick question, maybe.
+
+171
+00:24:34.290 --> 00:24:47.520
+Arun S M: The question that's bugging me for a while now so which products are like competing that let's say so, like, for instance, so can you share some information some thoughts on.
+
+172
+00:24:51.630 --> 00:24:52.020
+Sean Young: This.
+
+173
+00:24:53.550 --> 00:25:03.660
+Sean Young: So for the 30 language there's there's the film's Tennessee compiler saucy and that only targets inferior to that that's a competitor.
+
+174
+00:25:04.260 --> 00:25:19.920
+Sean Young: For that there's also a political soul, but that is a 70 compiler but if it doesn't development has ceased it can and can only target egoism and be well wasn't probably isn't developing either.
+
+175
+00:25:21.300 --> 00:25:21.780
+Sean Young: So.
+
+176
+00:25:24.000 --> 00:25:25.530
+Sean Young: I suppose components to do joanie.
+
+177
+00:25:26.970 --> 00:25:30.390
+Sean Young: competitors, we have, it is the field compiler that only targets inferior.
+
+178
+00:25:32.190 --> 00:25:33.840
+Sean Young: We started to answer your question.
+
+179
+00:25:38.730 --> 00:25:44.430
+Arun S M: i'm sorry yeah I have, I think my question extends to that right, so the reason I was asking for that is.
+
+180
+00:25:45.030 --> 00:25:54.210
+Arun S M: So when we say no, so that people don't need to familiarize themselves with other programming languages that if there's already two developers that this particular.
+
+181
+00:25:54.600 --> 00:26:04.320
+Arun S M: project can cross compile it for them across other blockchains other not Italian blockchains So are we talking about Italian compatible.
+
+182
+00:26:05.520 --> 00:26:18.300
+Arun S M: blockchains so forth, they not only to since specifically or mentioned it has monetary incompatible just just for time let's say namesake because fabric is the other most popular one apart from base so.
+
+183
+00:26:19.530 --> 00:26:30.660
+Arun S M: Let people come here and they say Okay, there is a solo project can I write my solidarity and can compile it into a chain code for instance that's kind of question that people can come up with right.
+
+184
+00:26:31.410 --> 00:26:42.570
+Arun S M: So just don't have that understanding of what exactly is happening inside so line, or is there any competitor projects that does something like what here it's happening.
+
+185
+00:26:44.640 --> 00:26:46.170
+Sean Young: So so i'm can compile.
+
+186
+00:26:47.310 --> 00:26:49.800
+Sean Young: This there's a generic part.
+
+187
+00:26:50.880 --> 00:26:52.050
+Sean Young: interval on which can pass.
+
+188
+00:26:53.130 --> 00:27:00.990
+Sean Young: acidity but then there's a target specific part, so the moment we can we can target salon or substrate and.
+
+189
+00:27:02.070 --> 00:27:21.900
+Sean Young: He wasn't and we certainly have a lot, we have a lot of interest in developing this for fabric as well at the moment it's not possible yet so when when when when, instead of the status access, for example, some some you have to hook up the booking specific parts.
+
+190
+00:27:23.100 --> 00:27:23.610
+Sean Young: and
+
+191
+00:27:25.140 --> 00:27:28.320
+Sean Young: yeah but the aim is very much for so long to.
+
+192
+00:27:29.460 --> 00:27:30.840
+Sean Young: target many different block chains.
+
+193
+00:27:32.790 --> 00:27:43.290
+Arun S M: undisturbed, so that sort of a we should understand currently to so like is it is compiling i'm ensure it is cross compiling or solidity into multiple.
+
+194
+00:27:44.370 --> 00:27:50.640
+Arun S M: Like the outcome binaries, however, all those binaries are currently compatible with the ones that support.
+
+195
+00:27:51.840 --> 00:27:52.440
+Arun S M: let's say.
+
+196
+00:27:53.760 --> 00:27:55.140
+Arun S M: A vm itself right so.
+
+197
+00:27:55.830 --> 00:27:57.090
+Sean Young: No, no, no, just not true.
+
+198
+00:28:00.180 --> 00:28:05.730
+Sean Young: So i'm to Solana polka dots and he wasn't or not even.
+
+199
+00:28:06.930 --> 00:28:25.530
+Sean Young: that those are not edm virtual machines, these are completely different, but some things so polka dots is a web assembly kind of virtual machine non edm and he hasn't it's also web assembly until I know uses a different virtual machine based on during school or bpm so.
+
+200
+00:28:26.940 --> 00:28:31.800
+Sean Young: it's it's and this project makes it available to normally the engines.
+
+201
+00:28:33.930 --> 00:28:43.470
+Arun S M: I sorry I should have a question that does some blockchains that supports ethereum smart contracts, not necessarily why IBM.
+
+202
+00:28:44.550 --> 00:28:46.050
+Sean Young: Okay, yes Okay, yes.
+
+203
+00:28:47.730 --> 00:28:55.800
+Sean Young: Yes to this project and so that the block chain itself doesn't make any changes to there's no changes made to the block chain itself and the compiler just.
+
+204
+00:28:57.270 --> 00:29:01.920
+Sean Young: As a target, we would implement all the boxing specific parts for that, for each doctrine.
+
+205
+00:29:05.730 --> 00:29:06.000
+Tracy Kuhrt: Jen.
+
+206
+00:29:07.980 --> 00:29:08.280
+Jim Zhang: yeah.
+
+207
+00:29:09.840 --> 00:29:22.200
+Jim Zhang: Two questions, the first one was kind of answered already so just want to confirm my understanding, I thought Solange was mainly targeting web assembly based runtime engines, but based on what.
+
+208
+00:29:23.400 --> 00:29:25.560
+Jim Zhang: john just said that's not the case.
+
+209
+00:29:28.470 --> 00:29:34.620
+Jim Zhang: substrate and you awesome is web assembly based bus mana is not understanding correct.
+
+210
+00:29:35.880 --> 00:29:40.200
+Sean Young: Yes, that's correct, and this is the, this is the great thing about using our vm.
+
+211
+00:29:41.100 --> 00:29:41.790
+Jim Zhang: Right okay.
+
+212
+00:29:42.090 --> 00:29:46.830
+Jim Zhang: yeah because that's clear my second question is, can you talk a.
+
+213
+00:29:47.100 --> 00:29:55.320
+Jim Zhang: little bit about the level of effort now and expect that in the future to add a new.
+
+214
+00:29:57.120 --> 00:29:59.610
+Jim Zhang: Execution engine support say.
+
+215
+00:30:00.660 --> 00:30:04.440
+Jim Zhang: How much of the Code has to be rewritten to support.
+
+216
+00:30:07.680 --> 00:30:15.060
+Jim Zhang: I don't I don't know if fabric is a good example I don't know let's say to support.
+
+217
+00:30:16.530 --> 00:30:17.760
+Jim Zhang: cosmos, for example.
+
+218
+00:30:19.080 --> 00:30:30.900
+Jim Zhang: To me it kind of it's a bit pointless to to say learn solidity and then compiled to a foreign language that fabric supports, I think I would just go to the full language.
+
+219
+00:30:31.470 --> 00:30:40.920
+Jim Zhang: directly, so I wouldn't use fabric as a good example for future expansions but maybe cosmos what would be the the level of effort to add that support.
+
+220
+00:30:42.210 --> 00:30:49.620
+Sean Young: So and and i'm glad you asked about the cosmos because custom bottom is something I looked at the past and.
+
+221
+00:30:50.970 --> 00:30:53.550
+Sean Young: To evaluate how much work, it would be so.
+
+222
+00:30:56.040 --> 00:31:00.960
+Sean Young: Because that's it wasn't web assembly based virtual machine so.
+
+223
+00:31:03.180 --> 00:31:15.390
+Sean Young: generating website it's not the problem, the problem of the effort would be required in poking up all the duplicate specific parts, so instead of it, you can do things like asked to kind of block hide or.
+
+224
+00:31:16.500 --> 00:31:29.460
+Sean Young: Save something on on chain or retrieve something from chain or get the time lots of sorts of things and so all those specific boxes specific things need to be hooked up.
+
+225
+00:31:29.970 --> 00:31:46.770
+Sean Young: And in in custom cosmos that's another protobuf so the effort that's required would be to for all those things is to translate to a request or compiler request insert it into a protobuf.
+
+226
+00:31:47.730 --> 00:31:56.820
+Sean Young: request and which then goes through goes through a web assembly host traction at runtime and then the the answer sent back, and then we have to.
+
+227
+00:31:58.560 --> 00:32:01.920
+Sean Young: The protobuf The end result so for.
+
+228
+00:32:03.990 --> 00:32:05.010
+Sean Young: Each one of those functions.
+
+229
+00:32:06.900 --> 00:32:13.770
+Sean Young: We need to kick off requests and pass result and and then the next part is.
+
+230
+00:32:15.840 --> 00:32:20.400
+Sean Young: Well, a lot of testing writing integration tests for the chain.
+
+231
+00:32:24.090 --> 00:32:45.570
+Sean Young: So I guess another thing is when when you call us at the contract you, you call a function and that function arguments in that's all done via protobuf on cause them cosmos so the function arguments and return values will have to be this year license to utilize using protobuf.
+
+232
+00:32:47.100 --> 00:32:47.580
+Sean Young: and
+
+233
+00:32:48.660 --> 00:32:49.980
+Sean Young: that's the essentially the.
+
+234
+00:32:51.540 --> 00:32:52.710
+Sean Young: The work required.
+
+235
+00:32:54.930 --> 00:33:06.270
+Sean Young: To get it working there might be some functions in in cosmos which are very useful to have access to infinity so it might be needed to add a few functions and.
+
+236
+00:33:07.350 --> 00:33:25.710
+Sean Young: built in functions in in so thankful for because most we've done this for four cylinder i'm done substrate you can do an import from quick quote single quotes salon at in instability and then you can you can import specific built in Santa functions and call them.
+
+237
+00:33:27.990 --> 00:33:28.980
+Sean Young: that's not answer your question.
+
+238
+00:33:31.710 --> 00:33:37.620
+Jim Zhang: yeah that helps a lot i'm trying to figure out if someone were to add support to a new.
+
+239
+00:33:39.060 --> 00:33:42.210
+Jim Zhang: Smart contract engine what that person.
+
+240
+00:33:43.590 --> 00:33:53.670
+Jim Zhang: what's, the most important skill, whether it be understanding compiler architectures or I just need to know how the internals of that new.
+
+241
+00:33:55.620 --> 00:34:09.660
+Jim Zhang: runtime works I don't have to know how to build the compilers i'm just trying to figure out how likely is it is so so on in the future, going to expand to support other other block chains.
+
+242
+00:34:10.920 --> 00:34:12.750
+Sean Young: So the evidence is it.
+
+243
+00:34:14.160 --> 00:34:18.420
+Sean Young: What is the effort is very much around understanding the.
+
+244
+00:34:20.340 --> 00:34:32.340
+Sean Young: The target vm interface, and not so much the the blockchain of the compiler architecture and it does get quite tricky because when things don't work.
+
+245
+00:34:32.760 --> 00:34:42.240
+Sean Young: You are working on quite a low level in web assembly or so and you might end up having to step through some web assembly codes on stand why doesn't work.
+
+246
+00:34:43.290 --> 00:34:48.060
+Sean Young: But that's that's very much so runtime bm kind of issues and.
+
+247
+00:34:49.620 --> 00:34:50.850
+Sean Young: That the competitive side.
+
+248
+00:34:52.050 --> 00:34:55.440
+Sean Young: For a new targets and probably isn't a huge.
+
+249
+00:34:56.610 --> 00:35:01.140
+Sean Young: huge issue and it's certainly something we can we're always available to help it should arise.
+
+250
+00:35:02.940 --> 00:35:04.800
+Jim Zhang: Okay, that helps our thanks Sean.
+
+251
+00:35:11.220 --> 00:35:16.290
+Danno Ferrin: So um I just want to point out that they really did a good job fixing the two big issues that.
+
+252
+00:35:16.890 --> 00:35:29.640
+Danno Ferrin: i'm around last time they they came up they got the three maintainer Is there also a large number of very viable real world use cases, along with the interest we're seeing here, so I think now is is absolutely the right time to bring the sun.
+
+253
+00:35:31.410 --> 00:35:38.760
+Danno Ferrin: And this doesn't impact the the admission, but I think something that we used to see is how they handle standard.
+
+254
+00:35:39.300 --> 00:35:45.270
+Danno Ferrin: solidity contracts being fed straight and, like all the open Zeppelin would be an interesting test case to figure out where the rough spots are.
+
+255
+00:35:45.660 --> 00:35:56.760
+Danno Ferrin: And might also open up a utility for people who'd want to say just run the open Zeppelin fabric, to open Zeppelin tokens on fabric, or some other chain, but that has no bearing on whether or not.
+
+256
+00:35:58.260 --> 00:36:00.810
+Danno Ferrin: My acceptance of this that's just pointing information.
+
+257
+00:36:03.360 --> 00:36:07.230
+Sean Young: you're absolutely right and putting over settling this is an author.
+
+258
+00:36:08.340 --> 00:36:09.240
+Sean Young: requested feature.
+
+259
+00:36:11.940 --> 00:36:18.390
+Sean Young: So I just opened a an issue for that and it's it's it's something which is you.
+
+260
+00:36:22.290 --> 00:36:22.620
+Tracy Kuhrt: know.
+
+261
+00:36:25.350 --> 00:36:37.110
+Tracy Kuhrt: Any other comments any concerns that people might have with bringing so on top of a project or any other support that anybody wants to state at this point.
+
+262
+00:36:51.510 --> 00:36:58.530
+Arun S M: i'm sorry I definitely want to go through technical details i'm interested more after understanding this much details right.
+
+263
+00:36:59.430 --> 00:37:04.320
+Arun S M: One more question now, the challenge is on the call just from a Community support point of view.
+
+264
+00:37:04.770 --> 00:37:19.260
+Arun S M: In some of the other block chains that are listed over here are they have their own ecosystem in terms of maintenance and developers, the Community right, so how is the reception from them on this project is this being communicated to them as well.
+
+265
+00:37:21.540 --> 00:37:22.860
+Sean Young: Oh absolutely there's.
+
+266
+00:37:24.420 --> 00:37:24.750
+Sean Young: The.
+
+267
+00:37:27.480 --> 00:37:31.740
+Sean Young: Lucas and I both work for lala and we're.
+
+268
+00:37:32.820 --> 00:37:33.180
+Sean Young: going.
+
+269
+00:37:35.730 --> 00:37:44.250
+Sean Young: Would we get a lot of interest from the Community and people, basically, for two reasons, people want to take existing contracts.
+
+270
+00:37:45.210 --> 00:37:56.970
+Sean Young: existing safety contracts and run on salama or they don't really want to you know invest and some people just feel that on standing rosters is too much of an ask and.
+
+271
+00:37:57.630 --> 00:38:06.900
+Sean Young: would rather just keep the solidity and so there's there's a there's a lot of interest in that Community and and in in subjects as well.
+
+272
+00:38:10.680 --> 00:38:14.340
+Sean Young: We are, we are on on various discourse servers and.
+
+273
+00:38:17.580 --> 00:38:18.420
+Sean Young: telegram groups.
+
+274
+00:38:23.880 --> 00:38:24.150
+Tracy Kuhrt: So.
+
+275
+00:38:27.210 --> 00:38:43.620
+Cyrill Leutwiler (parity.io): yeah sure I can add to that that there are there is interest on using Solon for retargeting substrate runtime, we are aware of power chain teams that want to use it in production.
+
+276
+00:38:45.570 --> 00:38:48.150
+Cyrill Leutwiler (parity.io): And they they actually plan to do that.
+
+277
+00:38:51.600 --> 00:38:51.960
+Tracy Kuhrt: well.
+
+278
+00:38:52.710 --> 00:38:53.100
+Because.
+
+279
+00:38:54.390 --> 00:39:00.960
+Lucas Steuernagel: I just wanted to compliment what she was saying on the soul and outside the company promote some events.
+
+280
+00:39:02.460 --> 00:39:10.380
+Lucas Steuernagel: So to devote but the network's doing and to make people build on Solana and i've been part of some of those events trying to.
+
+281
+00:39:11.670 --> 00:39:28.170
+Lucas Steuernagel: encourage people to solidity to build the projects and with we've seen some interest and as Jen mentioned people trying to use the existing contracts on Solana, and we are making efforts to help these people viewed in Solana using solidity.
+
+282
+00:39:35.610 --> 00:39:36.270
+Tracy Kuhrt: Any other.
+
+283
+00:39:37.380 --> 00:39:39.480
+Tracy Kuhrt: Discussion I don't like PC.
+
+284
+00:39:40.710 --> 00:39:42.090
+Tracy Kuhrt: or anyone else on the call.
+
+285
+00:39:46.830 --> 00:39:50.340
+Aleksandr Petrosyan: You have a small question about stability plans for the Center line.
+
+286
+00:39:51.390 --> 00:39:54.600
+Aleksandr Petrosyan: Because going to be interoperable with web assembly in some way.
+
+287
+00:40:01.320 --> 00:40:05.850
+Sean Young: i'm sorry I missed it and the API stability.
+
+288
+00:40:07.650 --> 00:40:08.850
+Sean Young: So you can promote way.
+
+289
+00:40:11.100 --> 00:40:16.470
+Aleksandr Petrosyan: In a sense of backwards compatibility is the SL Lang.
+
+290
+00:40:18.030 --> 00:40:23.490
+Aleksandr Petrosyan: compiler, so to speak, going to be backwards compatible with all the smart contracts.
+
+291
+00:40:27.570 --> 00:40:27.900
+Sean Young: On.
+
+292
+00:40:28.890 --> 00:40:34.560
+Aleksandr Petrosyan: On the binary level and in a sense that all the smart contracts compulsory the exact same binary representation.
+
+293
+00:40:35.910 --> 00:40:37.860
+Aleksandr Petrosyan: or effectively the same position.
+
+294
+00:40:40.830 --> 00:40:42.210
+Sean Young: will do the output.
+
+295
+00:40:43.890 --> 00:40:49.890
+Sean Young: mean we we made a conscious effort to make sure that the output deterministic suddenly fixes for that.
+
+296
+00:40:51.450 --> 00:40:51.870
+Sean Young: The.
+
+297
+00:40:54.480 --> 00:41:01.710
+Sean Young: we're not on the bottom level, we have to have to be compatible what language says that's that doesn't.
+
+298
+00:41:03.000 --> 00:41:04.590
+Sean Young: Change and.
+
+299
+00:41:11.820 --> 00:41:19.830
+Sean Young: I am a new version new virtual certainty done retains functionality, they just add functionality, the one change to the execution.
+
+300
+00:41:20.970 --> 00:41:21.360
+Sean Young: function.
+
+301
+00:41:23.520 --> 00:41:24.270
+Aleksandr Petrosyan: Okay, thank you.
+
+302
+00:41:25.710 --> 00:41:26.040
+Tracy Kuhrt: know.
+
+303
+00:41:27.600 --> 00:41:32.670
+Danno Ferrin: So the way that the a theorem slated compiler deals with this binary reproducibility problem.
+
+304
+00:41:33.090 --> 00:41:36.540
+Danno Ferrin: Is a lot of contracts will lock into a specific version of solidity.
+
+305
+00:41:37.590 --> 00:41:51.180
+Danno Ferrin: So, as long as it's a deterministic compiler and and always produces the same result for each version I would expect that it would have the same security story of solidity if you walk into a specific version of selling and you compile down to that specific.
+
+306
+00:41:52.770 --> 00:41:59.970
+Danno Ferrin: You know, always use that specific version to compile and you'll always get the same results that's that's about as the highest quality is you can get repeatable build.
+
+307
+00:42:00.690 --> 00:42:12.720
+Danno Ferrin: Within the vm ecosystem, so they can do the same for wasn't targets, though there'll be in the same position that ethereum is, which I think is fairly fairly reasonable for for the constraints.
+
+308
+00:42:22.590 --> 00:42:24.030
+Tracy Kuhrt: Any other questions.
+
+309
+00:42:26.070 --> 00:42:26.730
+Tracy Kuhrt: Any.
+
+310
+00:42:27.480 --> 00:42:29.940
+Tracy Kuhrt: Anybody speak up against this is.
+
+311
+00:42:34.590 --> 00:42:44.100
+Artem Barger: it's not it's not a question it's more than more about content, I say that the song is mostly focusing on html based a.
+
+312
+00:42:45.240 --> 00:43:04.020
+Artem Barger: Little chain or ABS, and we have very few like you know we have visited, which is a client, but most of the butcher projects and i'm just i'm just trying to understand and see how it fits into the current one of the projects that fit into everything hyper ledger and they.
+
+313
+00:43:05.160 --> 00:43:15.600
+Artem Barger: refer all defaulted roadmap or a kind of a vision of how it's integrated into the major projects like a fabric or soft or.
+
+314
+00:43:16.620 --> 00:43:25.830
+Artem Barger: How to put to judge and see how we can help to build Community around this project being you know being incubated into the engine.
+
+315
+00:43:29.340 --> 00:43:42.510
+Sean Young: And we shouldn't have had have had discussions in the past about using so thankful for for other projects and we've had this conversation with fabric ever taught me sweet tooth and private data objects.
+
+316
+00:43:44.340 --> 00:43:48.030
+Sean Young: So, at the moment there's no plans were definitely made.
+
+317
+00:43:49.260 --> 00:43:53.310
+Sean Young: Work wasn't what she started and but, at the city doesn't stop it from.
+
+318
+00:43:54.660 --> 00:43:55.920
+Sean Young: from us doing that in the future.
+
+319
+00:44:00.510 --> 00:44:03.810
+Sean Young: And we're we're very interested in adding more targets to.
+
+320
+00:44:05.820 --> 00:44:13.290
+Sean Young: do so like deep do more projects work with that the most successful project so.
+
+321
+00:44:16.110 --> 00:44:16.770
+Sean Young: that's our help.
+
+322
+00:44:19.830 --> 00:44:20.790
+Artem Barger: yeah Thank you.
+
+323
+00:44:26.130 --> 00:44:27.120
+Tracy Kuhrt: The other.
+
+324
+00:44:28.320 --> 00:44:28.800
+Tracy Kuhrt: discussion.
+
+325
+00:44:40.440 --> 00:44:41.340
+Danno Ferrin: To remove the vote.
+
+326
+00:44:44.250 --> 00:44:45.480
+Tracy Kuhrt: guess that's a.
+
+327
+00:44:46.890 --> 00:44:51.690
+Tracy Kuhrt: Yes, everybody builder conversation I think that's where we're at.
+
+328
+00:44:54.960 --> 00:45:01.650
+Danno Ferrin: Today motion to accept sewing as incubation project manager.
+
+329
+00:45:02.160 --> 00:45:03.330
+Danno Ferrin: as described in the PR.
+
+330
+00:45:06.450 --> 00:45:07.410
+Jim Zhang: A second done.
+
+331
+00:45:09.150 --> 00:45:10.980
+Tracy Kuhrt: Right now, thanks, Jim.
+
+332
+00:45:12.660 --> 00:45:14.340
+Tracy Kuhrt: Did you want to take us through a vote.
+
+333
+00:45:14.640 --> 00:45:20.370
+Ry Jones: Of course I will choose by the order will be who has the longest name in the list.
+
+334
+00:45:21.990 --> 00:45:24.030
+Ry Jones: Troy in the matter for the tlc, how do you vote.
+
+335
+00:45:33.060 --> 00:45:33.840
+Ry Jones: Troy.
+
+336
+00:45:35.640 --> 00:45:36.840
+Dave Enyeart: he's used to being last.
+
+337
+00:45:39.420 --> 00:45:42.180
+Ry Jones: Okay we'll come back to Troy Artem.
+
+338
+00:45:46.050 --> 00:45:46.530
+Artem Barger: Staying.
+
+339
+00:45:47.550 --> 00:45:48.000
+Ry Jones: Around.
+
+340
+00:45:51.750 --> 00:45:59.790
+Arun S M: Again, can we do this next week because I just made you want to read more and come back or can I give my own thing later through email, this is Dr.
+
+341
+00:46:02.670 --> 00:46:03.090
+Ry Jones: Tracy.
+
+342
+00:46:07.290 --> 00:46:11.100
+Tracy Kuhrt: Well, I mean we've had the emotion and the second, I think we're.
+
+343
+00:46:12.180 --> 00:46:14.430
+Tracy Kuhrt: At the point where we're ready to vote.
+
+344
+00:46:26.850 --> 00:46:30.540
+Arun S M: And I need some more time i'll probably abstained, but I will change my vote.
+
+345
+00:46:31.650 --> 00:46:35.190
+Arun S M: I may change my doctor reading more if it's a lot.
+
+346
+00:46:37.800 --> 00:46:39.420
+Ry Jones: great to have stains deanna.
+
+347
+00:46:41.850 --> 00:46:42.420
+Danno Ferrin: Yes.
+
+348
+00:46:43.230 --> 00:46:44.910
+Danno Ferrin: David yes.
+
+349
+00:46:45.150 --> 00:46:45.630
+grace.
+
+350
+00:46:47.220 --> 00:46:47.610
+Grace Hartley: Yes.
+
+351
+00:46:48.030 --> 00:46:49.680
+Kamlesh Nagware: Jim yes.
+
+352
+00:46:49.800 --> 00:46:51.630
+Kamlesh Nagware: kamalesh yes.
+
+353
+00:46:51.870 --> 00:46:52.350
+Nathan.
+
+354
+00:46:53.460 --> 00:46:54.000
+Kamlesh Nagware: Yes.
+
+355
+00:46:54.570 --> 00:46:55.020
+Tracy.
+
+356
+00:46:56.070 --> 00:46:56.550
+Tracy Kuhrt: What.
+
+357
+00:46:57.150 --> 00:46:57.810
+Troy.
+
+358
+00:47:03.930 --> 00:47:04.380
+Ry Jones: well.
+
+359
+00:47:06.270 --> 00:47:08.850
+Ry Jones: The motion passes anyway, but.
+
+360
+00:47:10.200 --> 00:47:11.070
+Ry Jones: Congratulations.
+
+361
+00:47:13.020 --> 00:47:13.530
+Tracy Kuhrt: All right.
+
+362
+00:47:14.280 --> 00:47:23.010
+Tracy Kuhrt: Thanks Sean so we just graduations on becoming the newest incubator product project within the hyper ledger.
+
+363
+00:47:24.750 --> 00:47:25.230
+Sean Young: faster.
+
+364
+00:47:27.900 --> 00:47:28.800
+Ry Jones: Now the hard part.
+
+365
+00:47:29.910 --> 00:47:31.110
+Ry Jones: what's your name, going to be.
+
+366
+00:47:35.880 --> 00:47:36.480
+Tracy Kuhrt: So.
+
+367
+00:47:38.610 --> 00:47:39.090
+Tracy Kuhrt: See.
+
+368
+00:47:40.470 --> 00:47:42.780
+Tracy Kuhrt: who's on call Daniela do we.
+
+369
+00:47:44.220 --> 00:47:51.450
+Tracy Kuhrt: do want to take this or David do we want to take this to the marketing Committee, I know, in the proposal it's a.
+
+370
+00:47:51.870 --> 00:48:00.540
+Tracy Kuhrt: hyper ledger selling unless somebody at the hyper ledger and decided that that was not the way that we want to go so i'm.
+
+371
+00:48:01.140 --> 00:48:14.220
+Daniela Barbosa: Sure there's a naming process that we now jump into so we'll start that process up and reach out to Sean and the rest of the maintainer so and congratulations to the maintainer is.
+
+372
+00:48:15.090 --> 00:48:32.610
+Daniela Barbosa: we're looking forward to working with you to get to Lang as a as a project announced over the next few weeks as well, so we will take it from here Tracy we actually have a call with the marketing committee chairs next so get on there and reach out Thank you everyone.
+
+373
+00:48:33.840 --> 00:48:34.140
+Tracy Kuhrt: All right.
+
+374
+00:48:35.670 --> 00:48:40.500
+Tracy Kuhrt: Any other discussion items that we should have that weren't on our agenda.
+
+375
+00:48:40.830 --> 00:48:41.400
+Daniela Barbosa: That we should.
+
+376
+00:48:41.760 --> 00:48:42.750
+Tracy Kuhrt: Close out with today.
+
+377
+00:48:49.200 --> 00:49:03.870
+Tracy Kuhrt: Alright, so with that I guess we'll close the call for this week and we will talk again next week, again, congratulations to the selling for being incubated within hyper ledger.
+
+378
+00:49:08.190 --> 00:49:10.140
+Dave Enyeart: Congratulations bye bye.
+

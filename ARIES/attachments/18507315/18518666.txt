@@ -1,0 +1,1302 @@
+WEBVTT
+
+1
+00:00:02.670 --> 00:00:04.459
+Sam Curren (TelegramSam): Welcome folks to the
+
+2
+00:00:05.200 --> 00:00:12.479
+Sam Curren (TelegramSam): first meeting in September, the September sixth meeting in 2023 for the Ares working group.
+
+3
+00:00:12.870 --> 00:00:17.110
+Sam Curren (TelegramSam): This is a hyper ledger call. So the antitrust policy and the code of conduct are in effect
+
+4
+00:00:17.190 --> 00:00:24.739
+Sam Curren (TelegramSam): and please be mindful of those, and please bring up any issues that you detect that need to be solved if no one else does.
+
+5
+00:00:24.920 --> 00:00:34.009
+Sam Curren (TelegramSam):  link is in the chat, and you're welcome to make any adjustments. The agenda. Add yourself, the attendees list, or any of the changes that are useful for the community.
+
+6
+00:00:34.030 --> 00:00:37.030
+Sam Curren (TelegramSam): Is there anyone new here today that would like to introduce themselves.
+
+7
+00:00:43.060 --> 00:00:44.990
+Sam Curren (TelegramSam): We're glad you're here.
+
+8
+00:00:45.320 --> 00:00:57.240
+Sam Curren (TelegramSam): Announcements did come. Users group is a second, third, and fourth Monday, and so this next Monday will be that. And there's the link to the schedule with the meeting notes there.
+
+9
+00:00:57.280 --> 00:01:05.890
+Sam Curren (TelegramSam): and note about. Did Webe S. Stephen is, is, does this need to be carried, or should we drop it for now, since we it's been on a couple of weeks?
+
+10
+00:01:06.950 --> 00:01:12.480
+Stephen Curran:  sorry. Let's see, did Webex.
+
+11
+00:01:12.550 --> 00:01:22.129
+Stephen Curran: Yep, no. Re. I was just reading the note. Repo is still there. I just. I can announce that we now have a hyper ledger labs for an implementation of it.
+
+12
+00:01:22.860 --> 00:01:28.910
+Stephen Curran: Cool work proceeds on a weekly basis towards a first release
+
+13
+00:01:29.750 --> 00:01:52.159
+Sam Curren (TelegramSam): cool. So anyone interested can contact me. So leave it for today, and then we'll wouldn't move it next time. Okay, Indie summit is tomorrow. Register there. There's the Times. There'll be all sorts of discussions about all things, Indie. Please join if you have an interest in Indie and October tenth and twelfth is Iw.
+
+14
+00:01:52.320 --> 00:02:02.709
+Sam Curren (TelegramSam): That is, next month, a little over a month away. And please consider that if you are able, that's a fantastic place for ongoing conversation on a wide variety of identity related topics.
+
+15
+00:02:03.010 --> 00:02:07.839
+Stephen Curran: And then one more. The Hyper Ledger member Summit
+
+16
+00:02:07.960 --> 00:02:12.610
+Stephen Curran: is October twenty-third in San Francisco and Tokyo
+
+17
+00:02:14.740 --> 00:02:17.330
+Sam Curren (TelegramSam): San Fran Tokyo. Really
+
+18
+00:02:19.990 --> 00:02:22.079
+Stephen Curran: one or the other? Don't go to both.
+
+19
+00:02:23.720 --> 00:02:31.720
+Stephen Curran: Are you going to be. Are you going to be doing that? Live a jet across to both things Steven? Perhaps not.
+
+20
+00:02:32.520 --> 00:02:36.170
+Sam Curren (TelegramSam): Steven's gonna virtually attend both from somewhere.
+
+21
+00:02:36.580 --> 00:02:39.670
+Stephen Curran: I'm teasing. I don't even know if I'm attending either. Maybe
+
+22
+00:02:41.340 --> 00:02:45.279
+Sam Curren (TelegramSam): excellent other announcements that we should have our own list put out.
+
+23
+00:02:49.720 --> 00:02:54.459
+Sam Curren (TelegramSam): Any projects want to share released status or work updates.
+
+24
+00:03:00.310 --> 00:03:06.589
+Sam Curren (TelegramSam): There is lots of work going on. Appreciate all of that. And for those new here there are a variety of sub-meetings
+
+25
+00:03:06.640 --> 00:03:26.370
+Sam Curren (TelegramSam): for various types of projects for rust and for Akapi, and for Afj and Bifold. There's all sorts of meetings going on. And so this is only sort of the main one, where we kind of discuss main topics. But all of the specific, code-based Oriented meetings exist elsewhere.
+
+26
+00:03:26.660 --> 00:03:29.719
+Sam Curren (TelegramSam): Just to help you be aware of that.
+
+27
+00:03:30.760 --> 00:03:32.730
+Sam Curren (TelegramSam): we should definitely kill this
+
+28
+00:03:34.260 --> 00:03:36.930
+Sam Curren (TelegramSam): need to go through here and update periodically. Okay.
+
+29
+00:03:36.980 --> 00:03:42.590
+Sam Curren (TelegramSam): on the list for discussion topics. A quick marketing update. By Alex,
+
+30
+00:03:43.090 --> 00:04:06.849
+Sam Curren (TelegramSam): a discussion of where we are on unqualified dids on the path to get there. steven has some topics on push notification I would like to talk about did com v. 2, and I'll highlight that issue 7, 1, 7 came up and was requested for some meeting time, and that is also on the list for today and for discussion as part of the unqualified dids transition because of its effect on did exchange.
+
+31
+00:04:06.960 --> 00:04:15.130
+Sam Curren (TelegramSam): That is, that's what we have for the agenda. Are there any changes? We should be making? Addition subtractions, substitutions
+
+32
+00:04:16.010 --> 00:04:23.220
+Stephen Curran: Sam, I would say you should flop, flip the Didcom and push notifications. Put that together with the unqualified
+
+33
+00:04:23.860 --> 00:04:24.550
+Sam Curren (TelegramSam): yeah.
+
+34
+00:04:28.980 --> 00:04:30.549
+Sam Curren (TelegramSam): we'll do other
+
+35
+00:04:30.930 --> 00:04:32.070
+Sam Curren (TelegramSam): changes.
+
+36
+00:04:36.930 --> 00:05:01.140
+Sam Curren (TelegramSam): Alright, Alex, you warn us it would be brief. Oh, first announcement, there's a new calendar. There's a new meeting link. This is done periodically shawn probably has has detailed reasons. But there's reasons. Hyper Ledger manages the the community rooms, and it's helpful to have them not collide with each other. We have been using a different link, and there is a new link. So if you have, like me, copied the working group, call
+
+37
+00:05:01.810 --> 00:05:09.379
+Sam Curren (TelegramSam): from the Hyper Ledger Calendar to your own. Then please go delete your copy and recopy, and that way you have the new meeting link.
+
+38
+00:05:09.910 --> 00:05:25.130
+Sam Curren (TelegramSam): And please spread the word. We'll try to be sensitive to that. In the next couple of times. To help people find the meeting again. If they if they follow that same pattern. Also, if someone wants to fix that calendaring sync problem for all of the universe. We'd all be grateful. Thanks.
+
+39
+00:05:26.210 --> 00:05:32.100
+Sam Curren (TelegramSam): So that that meeting new links. I should add it here
+
+40
+00:05:34.800 --> 00:05:36.670
+Sam Curren (TelegramSam): in case someone reads the notes.
+
+41
+00:05:46.070 --> 00:05:46.850
+Sam Curren (TelegramSam): Okay.
+
+42
+00:05:49.160 --> 00:05:55.110
+Sam Curren (TelegramSam):  awesome. Alex.
+
+43
+00:05:55.360 --> 00:05:56.840
+Sam Curren (TelegramSam): brief update on marketing.
+
+44
+00:05:57.030 --> 00:06:02.800
+Alex Metcalf: Thank you. We take up the most page basements in the discussion topics, and they got the least to say
+
+45
+00:06:02.990 --> 00:06:16.649
+Alex Metcalf: so 30 s college number shorter work week in North America. Some of the high priority stuff means these are the same items from last week. But to what you said, Sam. Subgroups. We have the Aries marketing working group last Tuesday of every month. Everyone's welcome to come to that.
+
+46
+00:06:16.780 --> 00:06:21.849
+Alex Metcalf: And if you're just exploring more. The items are there on the page. I won't take your time now.
+
+47
+00:06:21.870 --> 00:06:24.709
+Alex Metcalf: Any feedback. Please reach out to Helen or myself.
+
+48
+00:06:26.030 --> 00:06:27.899
+Sam Curren (TelegramSam): Thanks, Alex. Appreciate that
+
+49
+00:06:29.040 --> 00:06:40.660
+Sam Curren (TelegramSam): unqualified did. This has been a topic over the last couple of weeks for good reason. It's it's something that is acting as a blocker for forward progress, and that we need to just retire as old behavior in the community that we're not doing anymore.
+
+50
+00:06:40.790 --> 00:06:54.229
+Sam Curren (TelegramSam):  I wanted to. To kind of review just briefly, what we had talked about previously. And II probably should have left the meeting links in when I summarized. But there, there's a this is landed into a couple of of of things.
+
+51
+00:06:54.550 --> 00:07:06.210
+Sam Curren (TelegramSam): We had discussed previous methods of how to translate dids into peer dids and a handful of other things, and and we found our way to, we believe, a cleaner solution.
+
+52
+00:07:06.340 --> 00:07:15.709
+Sam Curren (TelegramSam): and that is the introduction of the did rotation protocol, Steven. I saw your comments, but not fast enough to to get them edited in today. Here is.
+
+53
+00:07:16.440 --> 00:07:35.130
+Sam Curren (TelegramSam): Here is that that Pr and Ares. Rfcs, and and I've incorporated some feedback. But Steven not yours yet. But what this does is, it adds, did rotation into Didcom Didcom v. 2 already has this? But we're finding it incredibly useful for a couple of things, including not only
+
+54
+00:07:35.460 --> 00:07:51.810
+Sam Curren (TelegramSam): solving the unqualified did issue, but also to. Because you can notify the other party that you're using a a fully qualified did but also a transition to did convey 2 which we'll talk about in a minute. And so that is there also worked by Daniel.
+
+55
+00:07:51.810 --> 00:08:05.890
+Sam Curren (TelegramSam): bloom for did pier 4 and and this was we we covered this last time the the goal of Did peer 4, or the sort of the realization was that the combination of Did peer 2 and 3 was both Lossy
+
+56
+00:08:05.890 --> 00:08:18.589
+Sam Curren (TelegramSam): in the types of information that you could record, and that the approach of having a long and a short form, which is an idea similar to what has been done. And did I, on or the other side tree stuff
+
+57
+00:08:19.210 --> 00:08:25.330
+Sam Curren (TelegramSam): was a really was a really much simpler way to solve this particular problem in the sense that you can pass
+
+58
+00:08:25.530 --> 00:08:52.480
+Sam Curren (TelegramSam): more or less a a did Doc encoded as part of the long form, and have a short form. That then, is more efficient, you know, to include in every message and then the combination of these 2 mean that it's pretty easy to rotate away from these unqualified dids. Because you can simply include the relevant keys that you're using in a did document pass a did rotation message. And now those aren't in use anymore for that particular relationship. And we have a way to move forward.
+
+59
+00:08:52.650 --> 00:09:16.489
+Sam Curren (TelegramSam): We that's a really brief overview. We didn't have enough time sufficient time for for full questions last week against what we talked about. And so I wanted to make sure we had enough air time to to answer any questions or or concerns particularly if folks think this is a bad idea. We really need to hear it.
+
+60
+00:09:16.850 --> 00:09:27.099
+Sam Curren (TelegramSam): Now, given that we had that so hopefully, you've had a chance to review the call from last week, or and or everything else. But if you have any questions.
+
+61
+00:09:27.400 --> 00:09:32.419
+Sam Curren (TelegramSam): please ask them now about did rotation? And did Pier 4
+
+62
+00:09:33.260 --> 00:09:35.919
+Sam Curren (TelegramSam): as as advancements that
+
+63
+00:09:36.530 --> 00:09:38.640
+Sam Curren (TelegramSam): that help solve specific problems.
+
+64
+00:09:39.820 --> 00:09:42.960
+Stephen Curran: Sam. Timo's comment
+
+65
+00:09:43.330 --> 00:09:50.499
+Stephen Curran: in on the Pr seems to be the most serious issue. It sounds like, Daniel responded, that
+
+66
+00:09:50.690 --> 00:09:53.580
+Stephen Curran: it's not really a concern, but I would
+
+67
+00:09:54.350 --> 00:10:00.569
+Stephen Curran: wouldn't mind getting your view on that. I don't think it's a problem, but having someone like Demo
+
+68
+00:10:00.800 --> 00:10:07.440
+Stephen Curran: suggest, it's a serious security issue. Is this in is this, in did Pierre 4.
+
+69
+00:10:07.790 --> 00:10:11.870
+Stephen Curran: I saw it in email, shoot
+
+70
+00:10:13.130 --> 00:10:19.290
+Stephen Curran: it. It had to do with the that he's thinking this means we.
+
+71
+00:10:19.880 --> 00:10:22.350
+Stephen Curran: we transition from key based.
+
+72
+00:10:23.540 --> 00:10:33.259
+Stephen Curran: We wouldn't be shoot. I don't know what it is. But it. It basically was implying that you wouldn't have to have the private key in order to take over a
+
+73
+00:10:33.480 --> 00:10:38.039
+Stephen Curran: a you could just issue a did without having the private key
+
+74
+00:10:38.110 --> 00:10:43.169
+Stephen Curran: and approving ownership of the private key. Yeah. Oh, maybe that was in here.
+
+75
+00:10:44.260 --> 00:10:47.130
+Stephen Curran:  shoot.
+
+76
+00:10:49.660 --> 00:10:58.180
+Stephen Curran: Nope, wasn't that one shoot? I'm sorry there's a team of comment may maybe go to. I'm I'm gonna search my emails my
+
+77
+00:10:58.280 --> 00:11:04.440
+Stephen Curran: trash to see where where that was. But it. I believe the issue is addressed. I just
+
+78
+00:11:04.630 --> 00:11:16.210
+Stephen Curran: wanted to make sure people weren't thinking that it was troublesome. Okay, sorry about that. No, that's fine. I'm going to
+
+79
+00:11:16.950 --> 00:11:22.029
+Sam Curren (TelegramSam): I'm going to relink this. I probably should not have dropped the link when I when I brought it over here.
+
+80
+00:11:22.260 --> 00:11:33.290
+Sam Curren (TelegramSam): This is for did Pier 4 and here's the did rotate protocol. Be given. How important these are! Definitely some attention, particularly if you're an implementer
+
+81
+00:11:33.320 --> 00:11:37.240
+Sam Curren (TelegramSam): or but but everyone having eyes on. This is a good idea.
+
+82
+00:11:37.360 --> 00:11:51.750
+Sam Curren (TelegramSam): And and while Stevens, briefly searching his email for that the the the fourth item here we there is a community coordinated update to solve the unqualified dens it. It describes the pattern using the old approaches that we were going to use. And so
+
+83
+00:11:52.170 --> 00:12:11.329
+Sam Curren (TelegramSam): one of the our steps to completion here is is is to have me update that community coordinated, update to reflect the new strategy. So that after these are are created. We can use the community coordinated update mechanism that we have in order to kind of keep track of where we are as a community on the adoption of this
+
+84
+00:12:11.380 --> 00:12:38.280
+Sam Curren (TelegramSam): and that way we can. We know when we're ready to take steps beyond. The did rotation protocol is is fairly simple. And did. Peer 4 is also pretty darn straightforward. There is an implementation that that Daniel has. But even if you're producing a raw implementation, it uses, you know, base 58 encoding and a handful of other very common things. That that avoid language issues per things that we've learned in the past.
+
+85
+00:12:38.330 --> 00:12:50.360
+Sam Curren (TelegramSam): And so even a purely brand new implementation of Did Peer 4 should be relatively easy, although you may not have to do that, you know, based on the on the code that that exists.
+
+86
+00:12:50.410 --> 00:12:51.780
+Sam Curren (TelegramSam): And then
+
+87
+00:12:51.990 --> 00:13:04.290
+Sam Curren (TelegramSam): it did peer. Spec. We we are proposing that we deprecate after we add, did peer for that. We deprecate all of the previous algorithms that are part of did peer
+
+88
+00:13:04.750 --> 00:13:14.650
+Sam Curren (TelegramSam): and I saw just briefly, and I and I have just seen this. And now, can we just define a do? A new did method
+
+89
+00:13:14.710 --> 00:13:16.790
+Sam Curren (TelegramSam): instead of doing this?
+
+90
+00:13:17.080 --> 00:13:22.259
+Sam Curren (TelegramSam): And and there's some discussion here that that
+
+91
+00:13:22.320 --> 00:13:44.360
+Sam Curren (TelegramSam): that that points to this. The the thing that I have an affinity for the did peer spec. Is that people understand what you mean? And so the while, technically having a different did method would work well. It was probably a mistake to call one single did method. A peer did method. There should have been something like did static or something else.
+
+92
+00:13:44.930 --> 00:14:02.859
+Sam Curren (TelegramSam): And and we could have done that, we still can. But then we have to make sure that we cleanly message that that there could. There can be a handful of peer did methods and then specify the exact one that you're talking about. And this is something that that Daniel bloom, and I have debated a lot about the right way to approach this
+
+93
+00:14:02.900 --> 00:14:14.939
+Sam Curren (TelegramSam): just because of that exact issue that that Timo brings up. So I'm sympathetic to the issue, and I'll have to make sure that I read this thoroughly and and comment in line on that particular issue. But but yeah.
+
+94
+00:14:16.530 --> 00:14:18.350
+Sam Curren (TelegramSam): okay, Sam, yeah.
+
+95
+00:14:19.080 --> 00:14:20.550
+Stephen Curran: I definitely would
+
+96
+00:14:20.720 --> 00:14:26.900
+Stephen Curran: argue, keeping did peer. And we get to 4 and deprecate the other ones.
+
+97
+00:14:26.990 --> 00:14:33.840
+Stephen Curran: the issue? 7, 1, 7 seems to be related. Yeah, yeah. This one here. Yeah.
+
+98
+00:14:33.910 --> 00:14:39.539
+Stephen Curran: That's where the comment is that was posted this morning, and Daniel replied.
+
+99
+00:14:41.900 --> 00:14:52.280
+Stephen Curran: that last 10, I'm not seeing their response. But yet I did see a response. Maybe, he replied, via email instead of via the ticket weird. anyway.
+
+100
+00:14:52.400 --> 00:14:58.180
+Stephen Curran: I do. I do want to discuss this. And I can give some brief background before we okay, good.
+
+101
+00:14:58.570 --> 00:15:04.150
+Sam Curren (TelegramSam): Before before we jump to 7, 1, 7. Does anyone have any question about that? No, yeah. You're totally good.
+
+102
+00:15:04.180 --> 00:15:08.729
+Sam Curren (TelegramSam): Does anyone have any questions or comments about? Did rotation, or did pure 4
+
+103
+00:15:10.450 --> 00:15:17.490
+Sam Curren (TelegramSam): that we've discussed. And don't worry about asking a question. You think that everyone else knows the answer to. They probably don't.
+
+104
+00:15:17.940 --> 00:15:22.380
+Sam Curren (TelegramSam): And so if you have a question. It's we need to make sure that we we all understand this
+
+105
+00:15:22.780 --> 00:15:32.789
+Sam Curren (TelegramSam): as clear as possible, even if you'd like just a a a summary, or, you know, some more description on a particular topic. That would be a a very valid question as well.
+
+106
+00:15:36.290 --> 00:15:37.570
+Patrik: maybe. Just
+
+107
+00:15:37.850 --> 00:15:49.980
+Patrik: piece of advice. I I'm I'll be looking for, as you know, from areas v, 6, raising permission perspective. So we we unlike other frameworks.
+
+108
+00:15:50.980 --> 00:16:03.029
+Patrik: We started adding, did exchange only relatively recently, couple months ago. So you know, historically, we've been using supporting only connection protocol.
+
+109
+00:16:03.080 --> 00:16:12.700
+Patrik: And so from from. I'm seeing right now. It it. It seems like that things are kind of moving underneath the did exchange right now, quite heavily. So
+
+110
+00:16:12.720 --> 00:16:22.899
+Patrik:  so our current thinking is that we'll probably wait a bit until things settles, probably with a Dp 4, and only then we'll kind of.
+
+111
+00:16:23.420 --> 00:16:27.989
+Patrik: I guess. You know, merge this stuff in a code base, or I don't know
+
+112
+00:16:28.090 --> 00:16:42.070
+Patrik: if if we, if we merged it earlier, would probably mark it as experimental or a a a not stable. Yet th does this make approach make sense as as it seems like things are yet kind of finalizing with the
+
+113
+00:16:42.280 --> 00:16:47.199
+Patrik: components which did exchange is using being the did peer.
+
+114
+00:16:47.560 --> 00:16:58.270
+Sam Curren (TelegramSam): I think that's wise. I think that. Ii think. given the timeline and the goals that we have the creation of the community coordinated update and agreement upon it as a community.
+
+115
+00:16:58.340 --> 00:17:02.859
+Sam Curren (TelegramSam): I think, is the right signal that things have settled enough that they won't be changing anymore.
+
+116
+00:17:03.140 --> 00:17:25.429
+Sam Curren (TelegramSam): And so I also recognize that things have been ha have been moving really fast here. There is some urgency that I'll sp that'll talk about when we get to did comedy, too. And and really, what the mistake was is that we didn't apply energy on this earlier, which means that it's a little bit under pressure now to accomplish this, and things are moving fast as we try to
+
+117
+00:17:25.430 --> 00:17:43.949
+Sam Curren (TelegramSam): find the right solution. There's been a lot of debate, both internal to my head, but also with other people about the right approach here. Did peer forward versus the other things that we're doing, and and and the the one consolation that I have, or that I think is the most important piece
+
+118
+00:17:43.980 --> 00:17:49.879
+Sam Curren (TelegramSam): is that I believe the solution we have now is substantially simpler and less prone to error
+
+119
+00:17:50.460 --> 00:17:56.810
+Sam Curren (TelegramSam): and sort of solves more fundamental problems, but in a simpler way than what we started from. So so
+
+120
+00:17:56.820 --> 00:18:07.590
+Sam Curren (TelegramSam): that's a little wordy, Patrick, but I think your approach of of holding off just for a minute. On these sorts of things is probably a good idea.
+
+121
+00:18:08.070 --> 00:18:14.359
+Sam Curren (TelegramSam): in the sense that it will. It will help things settle a little bit, but I don't anticipate that delay being very long.
+
+122
+00:18:14.440 --> 00:18:32.639
+Sam Curren (TelegramSam): I think that within, you know, a week or 2 we can be to the point where where this coordinated update is is locked in. All the, you know changes, and there isn't any controversy or or major discussion points around around the things that are related, and we'll have a clear execution path
+
+123
+00:18:32.820 --> 00:18:38.280
+Sam Curren (TelegramSam): around around this effort that will that will bring that together.
+
+124
+00:18:38.960 --> 00:18:40.360
+Sam Curren (TelegramSam): Does that answer your question?
+
+125
+00:18:40.520 --> 00:19:07.029
+Patrik: Yeah, yeah, thank you. Maybe maybe one more short one I I'm I'm not that maybe not the not the best meeting for it. There's I know there's meeting for Ap. But I know what's the if you're aware of what's the current state of did exchange in a th. If I know that in a Kupai I have a colleague, Mira, who's kind of testing our did exchange implementation against Acupi.
+
+126
+00:19:07.030 --> 00:19:21.009
+Patrik: but the occupy version was some sort of branch build or something like that, and and I think Afj. Was I think Aj. Didn't have the bacterial support for did exchange. I'm not sure about that.
+
+127
+00:19:21.700 --> 00:19:28.350
+Patrik: So if if you know anything about these these back to implementations and and calendar status.
+
+128
+00:19:29.150 --> 00:19:49.279
+Stephen Curran: So the did exchange is supported and occupy what's not? Is it? Acupi? Still using unqualified dids. And we're in the midst, and I think what was being tested was using peer dids. And and we're in the midst of that one.
+
+129
+00:19:49.530 --> 00:20:13.760
+Sam Curren (TelegramSam): So I thank you for bringing that up because there was a needed item here that wasn't on my list. After we met the community coordinated. Update? You know, making sure that the airs agent test harness is ready able to support those things will be hugely valuable to the community and and sort of pre-testing, or individually, or I mean, not individually, but but testing these actions, you know, between different software packages together.
+
+130
+00:20:14.390 --> 00:20:19.739
+Sam Curren (TelegramSam): So that was absolutely needed to be included here. And I had not. I had not. So thank you, Patrick, for bringing that up.
+
+131
+00:20:20.270 --> 00:20:21.810
+Patrik: Nope, thank you.
+
+132
+00:20:22.880 --> 00:20:30.229
+Sam Curren (TelegramSam): This is also going to help put it. There's a handful of blockers that we have kind of ignored as a community for too long unqualified dids is another one
+
+133
+00:20:30.300 --> 00:20:45.680
+Sam Curren (TelegramSam): moving to did. Cov 2 is is another one which has a dependency on this. And so there's a handful of things that I believe need some urgent detention. And and that's why there's been so much focus on this right now, because these are the things preventing us from moving moving forward in really important ways.
+
+134
+00:20:46.810 --> 00:20:53.410
+Sam Curren (TelegramSam): Other questions. Thank you. Thank you, Patrick, for those other questions of any of any nature
+
+135
+00:21:06.530 --> 00:21:16.619
+Sam Curren (TelegramSam): awesome. Please do comment on these these issues, or Prs to help further the conversation around these, and we'll continue the work there.
+
+136
+00:21:17.090 --> 00:21:20.380
+Sam Curren (TelegramSam): as we resolve these these issues.
+
+137
+00:21:20.570 --> 00:21:27.740
+Sam Curren (TelegramSam): so issue 7. Here's our C issue 7, 1, 7 is an important one. That that that was brought up.
+
+138
+00:21:28.050 --> 00:21:30.269
+Sam Curren (TelegramSam): and I want to provide some background here.
+
+139
+00:21:30.980 --> 00:21:40.950
+Sam Curren (TelegramSam): This was brought up in February, and we we didn't give it enough airtime, you know prior to this, but it's it's highly relevant to the to the moving off of peer dids
+
+140
+00:21:41.010 --> 00:21:44.749
+Sam Curren (TelegramSam): or at least unqualified peer-deads. I should say
+
+141
+00:21:44.990 --> 00:22:02.089
+Sam Curren (TelegramSam): in the manner that is, that is more familiar with. Did comedy, too, in that in so this is this is did exchange. And you actually just patch as you pass the did, Doc, as an attachment. Right within the the did exchange protocols. When you're using pure dids
+
+142
+00:22:02.710 --> 00:22:25.920
+Sam Curren (TelegramSam): And the change that's happening is that did come. V. 2. Doesn't allow for the direct passage of did did documents, but requires that everything be contained within a did itself, which is part of the reason why. A peer did 2, and then now 4 was created is to solve that particular problem, and and not a special have special handling for peer dids as part of the protocol.
+
+143
+00:22:25.970 --> 00:22:42.529
+Sam Curren (TelegramSam): And so, in anticipation of moving to did Company 2 going to fully qualified dids in the same manner is the is, the is the goal that we're going after, and we've always allowed for dids to be passed here without an attached did document. There is text already that that's been in here for that.
+
+144
+00:22:42.580 --> 00:22:46.920
+Sam Curren (TelegramSam): But the the question that was brought up was that
+
+145
+00:22:47.120 --> 00:23:12.770
+Sam Curren (TelegramSam): the attach did document actually has a signature across it in the examples here. You can see that this is an attachment. But that there's a here's the did document itself. And then there is a Jws here as as part of that process, and this came historically from the connections protocol, which which also had something similar there. But but that's been officially deprecated for a while now, and dead exchange has been the protocol that we've used to establish these relationships.
+
+146
+00:23:12.910 --> 00:23:14.440
+Sam Curren (TelegramSam): So the question was asked.
+
+147
+00:23:15.070 --> 00:23:20.859
+Sam Curren (TelegramSam): if we don't have the signature across the did document. Is it still valid to do it?
+
+148
+00:23:21.000 --> 00:23:30.459
+Sam Curren (TelegramSam): Responded in a really short way, without an explanation. Here some discussion ensued, and I have some.
+
+149
+00:23:31.410 --> 00:23:34.469
+Sam Curren (TelegramSam): and I have an explanation here.
+
+150
+00:23:35.200 --> 00:23:56.030
+Sam Curren (TelegramSam): and so and I have. I haven't read this comment within the last 6 h, so I'll do that, and just I'll I'll I'll take a pause to do that in just a second, so that I make sure I understand this argument. But what I am am positing. So first of all, I'll mention that that these requirement for a signed attachment is actually mentioned. Nowhere in the did exchange. Rfc.
+
+151
+00:23:56.150 --> 00:23:58.710
+Sam Curren (TelegramSam): It's only present in the examples.
+
+152
+00:23:58.760 --> 00:24:04.569
+Sam Curren (TelegramSam): and because it was present in the examples, it has been assumed to be a required feature.
+
+153
+00:24:04.600 --> 00:24:16.500
+Sam Curren (TelegramSam): and that's probably my fault in the sense that I was not careful enough to either include the appropriate language indicating that that that is optional, and but not required.
+
+154
+00:24:17.800 --> 00:24:19.040
+Sam Curren (TelegramSam): but
+
+155
+00:24:19.100 --> 00:24:27.079
+Sam Curren (TelegramSam):  and or to or to address it more explicitly, instead of having it present in all of the examples, but never actually mentioned a single time.
+
+156
+00:24:27.490 --> 00:24:34.990
+Sam Curren (TelegramSam): And so it mentions, for example, that the Did Doc. Attachment is optional, and then it contains the did Doc associated with it.
+
+157
+00:24:35.280 --> 00:24:39.489
+Sam Curren (TelegramSam):  And and then
+
+158
+00:24:39.810 --> 00:24:49.189
+Sam Curren (TelegramSam): You know, it contains a link that the did peer. The did dog must be, you know, indicated there. But there's actually no discussion of encryption, or which key should be used, or anything as part of that.
+
+159
+00:24:49.840 --> 00:24:56.360
+Sam Curren (TelegramSam): And I have the text here. But I want to explain in the exchange of the of these messages.
+
+160
+00:24:57.400 --> 00:25:04.010
+Sam Curren (TelegramSam): it's important to understand or to have confirmation, that the other party possesses the key that you think they do.
+
+161
+00:25:04.170 --> 00:25:17.969
+Sam Curren (TelegramSam): And so a signature is an obvious way to do that. If something is signed by a key, then you can be sure that the party that sent you. The message had access to the private key component of the public key in order to produce that signature.
+
+162
+00:25:18.040 --> 00:25:28.209
+Sam Curren (TelegramSam): But this is this is redundant in the sense that the the other way, to be sure that the other party is.
+
+163
+00:25:28.540 --> 00:25:33.249
+Sam Curren (TelegramSam): possesses the private key is that they were able to decrypt information that you sent to them?
+
+164
+00:25:33.880 --> 00:25:48.180
+Sam Curren (TelegramSam): And so if you encrypt something to their private key, you know, using their public key, and they respond to you, containing with a message that contains information, or that uses information present in that encrypted message.
+
+165
+00:25:48.230 --> 00:26:10.820
+Sam Curren (TelegramSam): Then you can gain confidence through the fact that they now know the things you told them that they under you know that they do, in fact, possess that private key. And so that's what I explain here. I also mentioned the the nothing about signature requirements as present. And so the the fact that a signature was required at all in either message is actually
+
+166
+00:26:11.510 --> 00:26:25.089
+Sam Curren (TelegramSam): is actually an error, probably on my part, that it was left in there particularly unexplained. And I think that's caused some of the confusion. So, having said that I'm going to pause for just a minute and read Timo's comment to make sure that I understand what he's talking about.
+
+167
+00:26:49.520 --> 00:27:07.719
+Sam Curren (TelegramSam):  This is so. Timo is mentioning here that it means that the public key and the threat Id is now the basis of trust, and in the exchange it's far more than just the threat. Id
+
+168
+00:27:07.930 --> 00:27:18.540
+Sam Curren (TelegramSam): for example. If I they have no idea the the the, you know, if I'm responding. If I scanned a QR code, for example, or I'm responding to an invitation.
+
+169
+00:27:18.760 --> 00:27:27.470
+Sam Curren (TelegramSam): Then the other party has no idea who I am. I send them the information about who I am in a message that's encrypted to that key that contains
+
+170
+00:27:27.780 --> 00:27:36.900
+Sam Curren (TelegramSam): the did, which, of course, has the the my public key and the service endpoint in order to return a message. and so the
+
+171
+00:27:36.980 --> 00:27:43.059
+Sam Curren (TelegramSam): the the the information that I'm passing to them, the threat id
+
+172
+00:27:43.750 --> 00:28:04.549
+Sam Curren (TelegramSam): and the and the the service endpoint. In fact, the threat. Id is the weakest of those. all provide the assurance that they were able to decrypt the message that I actually sent and so we definitely need to add some commentary and some correction to the data, exchange protocol at the rate at the end result of this thread to clarify that
+
+173
+00:28:04.580 --> 00:28:16.199
+Sam Curren (TelegramSam): but timo is claiming before that we had cryptographic assurance previously implying that we don't now. And what I'm positing is that we
+
+174
+00:28:16.200 --> 00:28:38.399
+Sam Curren (TelegramSam): we always had redundant cryptographic assurance, but that we we have not. We don't have any loss of cryptographic assurance. Because of what's actually happened here. The the reason why I'm I'm going this way is that the instead of staying with the redundant cryptographic assurance is that we'd have to produce a deviation from the protocol
+
+175
+00:28:38.410 --> 00:28:45.990
+Sam Curren (TelegramSam): in the sense that there would have to be something extra to sign if you didn't, in fact. You know, pass a did document with a signature on it.
+
+176
+00:28:46.390 --> 00:29:15.189
+Sam Curren (TelegramSam): And I've also discussed passing the did document with with the signature on it. But now this has introduced new new error states where, if there is a discrepancy between the did document that you actually passed with a signature on it. And the did document that is resolved independently. There's a new error state where they can differ. And now you know which one is being used by the other party can produce some some variable States that are that that are potentially very hard to debug
+
+177
+00:29:15.560 --> 00:29:34.609
+Sam Curren (TelegramSam):  And so I haven't obviously yet responded to Timo, and I will, and I have no desire to lose, to lose cryptographic confidence at all. What I'm asserting is that we we've never actually lost it, and never actually needed the signature to require it as part of that process, and I will. I'll attempt to do so.
+
+178
+00:29:34.680 --> 00:29:44.549
+Sam Curren (TelegramSam): In a in a in a more lengthy way here to make it clear to Timo and anyone else. That's curious. If I'm wrong on this, I really need to know.
+
+179
+00:29:44.580 --> 00:29:47.360
+Sam Curren (TelegramSam): And so if your evaluation of the protocol
+
+180
+00:29:47.500 --> 00:30:01.910
+Sam Curren (TelegramSam): is that we do, in fact, need the signature, and that the assurances that I'm arguing are already exist are, in fact, wrong. Then please do speak up either in a meeting or in the in the thread here, so that we can make sure that we don't make any mistakes.
+
+181
+00:30:02.000 --> 00:30:07.590
+Sam Curren (TelegramSam):  in the in the processing of this, because we really don't need any.
+
+182
+00:30:07.880 --> 00:30:11.439
+Sam Curren (TelegramSam): I mean, you never need mistakes of that kind, but it's it's still quite important.
+
+183
+00:30:12.380 --> 00:30:19.290
+Sam Curren (TelegramSam): Any questions, comments at all about this issue, even if it's just seeking clarification or trying to understand what's going on.
+
+184
+00:30:19.810 --> 00:30:21.410
+Sam Curren (TelegramSam): I've said a whole bunch of words.
+
+185
+00:30:37.230 --> 00:30:47.780
+Warren Gallagher: I haven't taken a look at the protocol, so I'll I'll do that. I guess my question would be, is there a reasonable assumption that
+
+186
+00:30:48.330 --> 00:30:53.569
+Warren Gallagher: it's possible, but like, based on what this protocol is used for and what the the message
+
+187
+00:30:53.980 --> 00:30:58.379
+Warren Gallagher: available messages are that it would be reasonable to guess.
+
+188
+00:30:58.970 --> 00:31:04.860
+Warren Gallagher:  the the presence of a message, even if you can't decrypt it.
+
+189
+00:31:05.510 --> 00:31:16.920
+Warren Gallagher:  would you be able to determine the thread id and say, Okay, well, II can glean what the public key might be, and jump in, as as Timo suggests.
+
+190
+00:31:17.160 --> 00:31:25.209
+Warren Gallagher: If there are plethora of messages, and there's no jumping off point, for you know, determining how to jump in that I think I agree with your assertion.
+
+191
+00:31:27.100 --> 00:31:41.630
+Warren Gallagher: but if you can kind of eavesdrop, and even without knowing the contents of the message, be able to assume that they must be doing this. and I can learn these other things. Then I can jump in. Then there's a problem.
+
+192
+00:31:41.650 --> 00:31:48.349
+Warren Gallagher: But I haven't looked closely at the protocol, so II will do that. But that's the quest. Kind of a theoretical question I would pose.
+
+193
+00:31:48.910 --> 00:31:54.740
+Sam Curren (TelegramSam): I think that's that's excellent. The other thing that we may be able to do is highlight. The importance of having
+
+194
+00:31:56.790 --> 00:32:03.890
+Sam Curren (TelegramSam): sufficiently unguessable thread ids the implementations that I wear of use uuids
+
+195
+00:32:04.980 --> 00:32:07.529
+Sam Curren (TelegramSam): which are
+
+196
+00:32:07.940 --> 00:32:12.320
+Sam Curren (TelegramSam): I in all advice I've read, are sufficiently unguessable.
+
+197
+00:32:12.700 --> 00:32:25.319
+Sam Curren (TelegramSam): And there's also a timing aspect of this, too, because there's very little that occurs prior to this exchange. So there's very little to grab onto to even know that a message was actually sent.
+
+198
+00:32:25.380 --> 00:32:33.290
+Sam Curren (TelegramSam): You know, Fo, from that party in in order to make that happen. and so
+
+199
+00:32:33.560 --> 00:32:51.480
+Sam Curren (TelegramSam): that is the that is the thing there. The other thing that's actually kind of missing from this is that we never actually, you know, dropped a flow diagram in here which would be really useful. And so I may attempt a Pr, with a just simply adding, you know, a a basic uml like swim lane. To
+
+200
+00:32:51.530 --> 00:33:02.590
+Sam Curren (TelegramSam): to help, you know. Show the the actual exchange back and forth to make that more visually clear. But but, Warren, I would very much appreciate your evaluation of this.
+
+201
+00:33:02.990 --> 00:33:09.889
+Sam Curren (TelegramSam): Any anyone else, of course to but but but this is this is an important issue.
+
+202
+00:33:10.610 --> 00:33:12.820
+Sam Curren (TelegramSam): I think we don't lose anything.
+
+203
+00:33:12.890 --> 00:33:19.600
+Sam Curren (TelegramSam): but but in which case no implementations, actually, you know, are required at all in that process.
+
+204
+00:33:20.650 --> 00:33:28.980
+Stephen Curran: So. Sam, it would be good to have Timo outlined what he actually means. I I'm reading this, and I don't see what.
+
+205
+00:33:29.500 --> 00:33:33.139
+Stephen Curran: from what I can tell, I think he's saying that if
+
+206
+00:33:33.640 --> 00:33:36.569
+Stephen Curran: a hacker could get the invitation
+
+207
+00:33:37.320 --> 00:33:43.560
+Stephen Curran: they could respond to it. But that's always been the case and and included whether that signature is there or not.
+
+208
+00:33:44.700 --> 00:33:47.740
+Sam Curren (TelegramSam): I think what he's assuming is that
+
+209
+00:33:48.300 --> 00:34:06.469
+Sam Curren (TelegramSam):  the. This is only possible in the in, not in the request, but in the response of the protocol. So this is the message that actually goes from the inviter to the invitee. So from the producer of the QR code. In order, yeah, yeah, to to the consumer of the QR code. And then if they're able to guess
+
+210
+00:34:06.830 --> 00:34:09.730
+Sam Curren (TelegramSam): the public key of the invitee.
+
+211
+00:34:09.739 --> 00:34:21.230
+Sam Curren (TelegramSam): and the threat Id that they produced that the responder is produced is responding to. Then they'd be able to convince the invitee that they are the inviteur.
+
+212
+00:34:21.810 --> 00:34:24.740
+Sam Curren (TelegramSam): But that data has been encrypted by the
+
+213
+00:34:25.449 --> 00:34:27.640
+Stephen Curran: private has the invider.
+
+214
+00:34:27.670 --> 00:34:28.859
+Sam Curren (TelegramSam): It has been
+
+215
+00:34:28.980 --> 00:34:40.200
+Sam Curren (TelegramSam): so. Yeah. So I'm assuming that that encryption is not breakable. What he's asserting, I think, is that they all they would need to do is is guess the thread
+
+216
+00:34:40.800 --> 00:34:47.380
+Sam Curren (TelegramSam): and and and and guess the the the public key being used by the by, the
+
+217
+00:34:47.699 --> 00:34:54.079
+Sam Curren (TelegramSam): by the he's using different terms here, but by the invitee meaning the scanner of the QR. Code.
+
+218
+00:34:54.090 --> 00:35:07.530
+Sam Curren (TelegramSam): And I think that's a long shot. Yeah, I don't. I don't think it's going to be possible to guess unless you are, for example, reusing the same did, for every connection that you make.
+
+219
+00:35:07.980 --> 00:35:12.300
+Sam Curren (TelegramSam): The other party would have to know that, and they would have to guess your
+
+220
+00:35:12.510 --> 00:35:26.179
+Sam Curren (TelegramSam): still have to even guess. Guess the threat. Id, because they also have to guess the threat. Id, so what he's basically saying is is that he's far more comfortable with the idea that we're you're checking a direct signature across data in the message itself. Yeah.
+
+221
+00:35:26.420 --> 00:35:33.849
+Sam Curren (TelegramSam):  Then then on, then, on the information in a previous message being not guessable.
+
+222
+00:35:33.880 --> 00:35:49.020
+Sam Curren (TelegramSam): My assertion is that the is that the information in the previous message is sufficiently non-guessable by like a long shot, that that this isn't an immediate concern. Oh, it's not a concern at all. I shouldn't use immediate that that I don't. I don't believe this is a concern.
+
+223
+00:35:49.850 --> 00:36:00.089
+Sam Curren (TelegramSam): And so it's also, and you can in the protocol here no discussion of and of of a signature across that. Did. Documents is present here in any way.
+
+224
+00:36:00.880 --> 00:36:09.720
+Sam Curren (TelegramSam): And so it's. This is kind of a mistaken assumption because of of an inconsistency between the examples provided in the in the documentation for the protocol.
+
+225
+00:36:10.730 --> 00:36:17.259
+Sam Curren (TelegramSam): I think we've gotten very comfortable, and everyone, for super good reasons, is really nervous about removing a signature.
+
+226
+00:36:17.440 --> 00:36:26.169
+Sam Curren (TelegramSam): And so when it, when it was included in error. Then it's, you know we hit. There's a suitable amount of caution about making sure that it's okay to remove that.
+
+227
+00:36:26.350 --> 00:36:28.829
+Sam Curren (TelegramSam): And I think that's why the the the
+
+228
+00:36:29.050 --> 00:36:29.740
+listen.
+
+229
+00:36:30.400 --> 00:36:33.749
+Sam Curren (TelegramSam): The concern is warranted. I'm gonna add a comment to
+
+230
+00:36:34.150 --> 00:36:35.560
+Sam Curren (TelegramSam): to Timo's
+
+231
+00:36:35.690 --> 00:36:53.759
+Sam Curren (TelegramSam): thing here to to dry and be a little bit more explicit about what I mean. And so and and that'll probably help. And and then and then, Warren, IE. If you even I would appreciate a comment, even if you, no matter what you discover. If you discover nothing or you discover something. I mean that way. I know you've taken a look at it, and that would be appreciated.
+
+232
+00:36:56.850 --> 00:37:01.390
+Sam Curren (TelegramSam): Will do. Thank you. Any other questions, comments, thoughts.
+
+233
+00:37:11.130 --> 00:37:15.350
+Sam Curren (TelegramSam): Again, to highlight. The reason this so darn important. It's because
+
+234
+00:37:15.480 --> 00:37:27.439
+Sam Curren (TelegramSam): in the conversion that we're about to execute with did Pier 4, we will not be passing any. Did documents as part of this which means that we. We need to make sure that this is nailed down, and we have this done correctly.
+
+235
+00:37:27.620 --> 00:37:39.629
+Sam Curren (TelegramSam): So where before it was? It was an infrequent possibility. It's going to become the the norm on every message, on every invitation. And that's why it's listed in sort of this this march to eliminate a qualified dits.
+
+236
+00:37:41.660 --> 00:37:45.370
+Sam Curren (TelegramSam): Any other comments about this before I talk about Didcom, v. 2.
+
+237
+00:37:51.710 --> 00:37:53.290
+Sam Curren (TelegramSam): Okay,
+
+238
+00:37:55.240 --> 00:37:56.230
+Sam Curren (TelegramSam): I
+
+239
+00:37:57.640 --> 00:38:15.940
+Sam Curren (TelegramSam):  I have to call Daniel Bloom out here because he did. He brought up the fact that, like. you know, in in trying to figure out how to handle the unqualified bids that we didn't even have a mapped path forward to actually adopted. Com. V. 2. And it's it's bothered me deeply to my soul. He was correct in pointing that out.
+
+240
+00:38:16.190 --> 00:38:32.060
+Sam Curren (TelegramSam): And and I'm and I've thought a lot about it. One of the things that I like about did about the the did rotation aspect. That he encouraged me to do was that it not only provides a way to move off of unqualified dids in a relatively elegant way, and if in a relatively flexible way.
+
+241
+00:38:32.980 --> 00:38:38.650
+Sam Curren (TelegramSam): but it also provides us an onboarding path to to adopt Didcom, v. 2.
+
+242
+00:38:38.890 --> 00:38:49.030
+Sam Curren (TelegramSam): Out of necessity, the service endpoints for Didcomb v. One and Didcomb v. 2 are different, and that allows you to specify which you support, and you can support them simultaneously.
+
+243
+00:38:49.120 --> 00:38:55.819
+Sam Curren (TelegramSam): Even on the same endpoint, although certainly as separate endpoints, is another way of solving that particular problem
+
+244
+00:38:56.500 --> 00:39:13.670
+Sam Curren (TelegramSam): and and the ability to to rotate to a did. With a did document that contains a Didcom v. 2. Endpoint. Even in addition to a Didcom. V, one. Endpoint provides us exactly that on-ramp that we need to make that transition.
+
+245
+00:39:13.940 --> 00:39:23.860
+Sam Curren (TelegramSam): If you are, you know, doing Didcom V, one only your software ad support for Didcom V, 2, being able to message that to the connections that you actually have
+
+246
+00:39:24.030 --> 00:39:42.820
+Sam Curren (TelegramSam): means that they can become aware and begin to use didcomb as as part of that transition which makes it a much easier transition. And it means that that folks can adopt stuff on a much faster base, you know basis without having to necessarily wait for a community coordinated update to come along which we only which we only use as well as the last resort.
+
+247
+00:39:43.070 --> 00:39:46.639
+Sam Curren (TelegramSam):  I think
+
+248
+00:39:46.700 --> 00:39:58.449
+Sam Curren (TelegramSam): that the length of time it has taken to adopt did. Com has both been problematic for the Aries project as well as problematic, for for did convo generally
+
+249
+00:39:58.460 --> 00:40:12.660
+Sam Curren (TelegramSam): as the largest deployment of did come. V. One. For obvious reasons, adoption did come. V, 2, within the area's yeah. Ecosystem, I believe, will be hugely important, not only because it helps solve a handful of issues.
+
+250
+00:40:12.700 --> 00:40:37.729
+Sam Curren (TelegramSam): That we that we that we've solved and did come v. 2. But but not you know. Hadn't solved in did come v one but it also means that it gets less awkward when we're talking about protocols that are oriented or oriented and that is highly relevant, even did and did exchange protocols. And so, my! My life has become ink increasingly awkward as I'm striving to both
+
+251
+00:40:37.800 --> 00:40:41.530
+Sam Curren (TelegramSam): help support the areas community. But also
+
+252
+00:40:42.480 --> 00:41:00.399
+Sam Curren (TelegramSam): Advance. Didcom and and Didcom v. 2 is what we're talking about in that in that manner. And so it, it's really awkward. I have. I've been, you know, requested a handful of times in different venues to teach people about Didcom, and the fact that I have to speak to legacy Didcom
+
+253
+00:41:00.530 --> 00:41:23.060
+Sam Curren (TelegramSam): substantially, because the the Ares project is still mostly in use of did con v. One that it makes that an awkward discussion, and and really painful, and and is not an encouraging factor for folks to considering whether Didcom adoption would be a good idea, which, of course, such adoption would be helpful for the Aries community. And so the
+
+254
+00:41:23.460 --> 00:41:48.870
+Sam Curren (TelegramSam): it's become increasingly awkward. I with a a solution in front of us. That we still have some wrinkles to make sure. Make clear or iron out but with a with a clear roadmap in front of us. I'm feeling a lot of urgency around. Moving to Didcom. We've partially solved that problem with, did rotation. So we've we've we've we're we're a half step ahead further than we were before.
+
+255
+00:41:49.380 --> 00:42:06.630
+Sam Curren (TelegramSam): but but this is pretty darn important. We've we began sort of this latest phase of community, you know. efforts you know, and and focus on what we're gonna adopt with the discussion of of of or aip next right then the next one that doesn't really exist yet, and what should actually be in it?
+
+256
+00:42:06.820 --> 00:42:18.129
+Sam Curren (TelegramSam): And the more that I think about the urgency around Didcom v. 2, I think that we should target the minimum set of things required to adopt Didcom
+
+257
+00:42:18.980 --> 00:42:31.119
+Sam Curren (TelegramSam): as soon as possible, and while it may be useful after that, to then have another target that advances some other causes. I'm conscious that the the larger the target, the harder and the longer it is to hit
+
+258
+00:42:31.140 --> 00:42:45.149
+Sam Curren (TelegramSam): and that and that narrowly focusing on the minimum required. Did com v 2 implementation so that we can officially deprecate. Did con v. One is, is, I think, going to be the healthiest thing for our community.
+
+259
+00:42:45.510 --> 00:42:53.020
+Sam Curren (TelegramSam): What that means is that in addition to the support of, of course, Didcom v. 2, you know, encryption and envelopes, and and the other things that are going on there
+
+260
+00:42:53.830 --> 00:42:57.780
+Sam Curren (TelegramSam): is that, of course, we we have. We're done with unqualified bids.
+
+261
+00:42:57.840 --> 00:43:09.640
+Sam Curren (TelegramSam): But also that the the the protocols that had to be updated as a requirement of of the did come. V. 2. Attachment changes, and any other changes are also adopted.
+
+262
+00:43:09.710 --> 00:43:13.670
+Sam Curren (TelegramSam): So that includes the the didcom
+
+263
+00:43:14.750 --> 00:43:42.850
+Sam Curren (TelegramSam): credential exchange protocols? Which of which pass credentials as attachments and those are not hugely substantial changes. The code should be relatively minor but moving to and having those be the the current standard for the protocols that everyone implements is a much better story to then go tell people, hey, did comes a thing. And here's the protocols that people are supporting, and if you build these you'll be able to interoperate with the other existing software packages, including Aries.
+
+264
+00:43:42.900 --> 00:43:58.460
+Sam Curren (TelegramSam): that that also support these protocols. That does mean that some of the other things that we have discussed, for adoption may not be included in that in that interoperability effort, or in that advancement effort for the community.
+
+265
+00:43:58.930 --> 00:44:09.230
+Sam Curren (TelegramSam): but but may help us focus in a very real way on getting to to Didcom, v, 2. And over that hurdle, once we are there, life becomes simpler
+
+266
+00:44:09.290 --> 00:44:22.229
+Sam Curren (TelegramSam): because we're we're no longer living in kind of a 2 version world that has has been a split of not only attention, but but a source of confusion for folks that are trying to approach the community and the technology and understand that.
+
+267
+00:44:22.870 --> 00:44:24.859
+Sam Curren (TelegramSam): And so I wanted to bring that up today.
+
+268
+00:44:25.380 --> 00:44:39.520
+Sam Curren (TelegramSam): To sort of gauge feedback or thoughts, and about about this and also to hopefully explain why there's such urgency around solving unquote the unqualified did problem. And and then and then moving forward with this.
+
+269
+00:44:39.540 --> 00:44:48.429
+Sam Curren (TelegramSam): so that so that this becomes a thing that isn't a source of confusion anymore for for folks that that want to adop this technology.
+
+270
+00:44:48.550 --> 00:44:50.909
+Sam Curren (TelegramSam): The other aspect of that is that
+
+271
+00:44:51.140 --> 00:44:59.300
+Sam Curren (TelegramSam): this year we've seen a huge groundswell of interest in protocols like the open Id for Vc protocols.
+
+272
+00:44:59.370 --> 00:45:01.070
+Sam Curren (TelegramSam): And
+
+273
+00:45:01.180 --> 00:45:15.270
+Sam Curren (TelegramSam):  those. There's a lot of good that can come out of those protocols, particularly by helping people feel comfortable with verifiable credentials that have not felt comfortable with them before, but did come. And and are the areas community
+
+274
+00:45:15.670 --> 00:45:17.820
+Sam Curren (TelegramSam): as as a huge part of that
+
+275
+00:45:17.990 --> 00:45:26.599
+Sam Curren (TelegramSam): remains one of the few places where the interaction models that we support extend beyond verifiable credentials to other things as well
+
+276
+00:45:26.810 --> 00:45:35.490
+Sam Curren (TelegramSam): believe that power is important. I believe that, having a protocol that is capable of doing more than Vcs, Vcs.
+
+277
+00:45:35.490 --> 00:45:58.810
+Sam Curren (TelegramSam): really? Well, yeah, you know, without deficiency, but also that, that goes beyond Vcs as A as an application of that trust, or as an application of that of that portable trusted data that DC's allow is a really important thing to do. And and we need to be, in a better position to both teach and explain and help people understand the power of Didcom.
+
+278
+00:45:59.420 --> 00:46:00.639
+Sam Curren (TelegramSam): So that
+
+279
+00:46:00.710 --> 00:46:18.710
+Sam Curren (TelegramSam): so that as these projects move forward they understand, you know better options, and they understand better architectures. That can that can enable these these sorts of things. If done carefully, meaning if you do open id protocols with verifiable credentials and you involve dids.
+
+280
+00:46:18.880 --> 00:46:25.599
+Sam Curren (TelegramSam): And you've selected a did method capable of continuing a service endpoint. There's a really nice adoption path for Didcom
+
+281
+00:46:25.610 --> 00:46:35.710
+Sam Curren (TelegramSam): that allows them to to extend and and add these things, even if they've made an initial choice to use a protocol that that that is only solely focused on verifiable credentials.
+
+282
+00:46:35.990 --> 00:46:47.040
+Sam Curren (TelegramSam): And and that's some of the pressure that I that I feel any thoughts or comments, including ones that are in full disagreement. I really want to hear
+
+283
+00:46:47.170 --> 00:46:53.350
+Sam Curren (TelegramSam): from the community about this, about this issue, about the urgency and the process of adopting did Comey, too.
+
+284
+00:47:07.030 --> 00:47:17.010
+Patrik: Oh, maybe just a quick check not super familiar with did Convito. But just to check did. Convito wouldn't have any impact on
+
+285
+00:47:17.130 --> 00:47:32.769
+Patrik: the other Ares. Protocols like, you know, credentialations, pro verification, presentation, protocol, this kind of stuff, this can, this can go. Whether whether these messages go through did convey one or did conv 2 doesn't doesn't matter, does it?
+
+286
+00:47:32.900 --> 00:47:41.529
+Sam Curren (TelegramSam): It only matters for protocols that have changes to them, and the largest change that affects credential. Those protocols you spoke of is how attachments are handled.
+
+287
+00:47:41.570 --> 00:47:50.730
+Sam Curren (TelegramSam): There's the Didcom V 2 has a simplified attachment mechanism, and there is an adjustment to how those attachments are done. Everything else is as similar as possible.
+
+288
+00:47:50.910 --> 00:48:09.749
+Sam Curren (TelegramSam): And so one of the things that in the did come, v. 2. Effort is to make sure that those versions of the Protocols are hosted in the right place and are well understood. So that as we target them for adoption, we can, we can have them. There's an ongoing discussion. About the sense that there's a handful of features in
+
+289
+00:48:09.930 --> 00:48:16.339
+Sam Curren (TelegramSam): the did come in in the version, 2 of those protocols. We have the dot one and the.to release of those protocols
+
+290
+00:48:17.210 --> 00:48:25.120
+Sam Curren (TelegramSam): that add other features like multiple issuance and verification. And and so we need to.
+
+291
+00:48:25.720 --> 00:48:41.320
+Sam Curren (TelegramSam): We need to have a have another pass at those before we're ready. But because there are some fundamental changes to the to the protocol. Not a lot. There will be some changes necessary for the protocols that do use things like attachments.
+
+292
+00:48:42.770 --> 00:48:44.900
+Stephen Curran: Sam. Is it possible to have a
+
+293
+00:48:45.920 --> 00:48:48.269
+Stephen Curran: convert? V. One to v. 2.
+
+294
+00:48:48.670 --> 00:48:59.819
+Stephen Curran: Even with attachments? Or does it fundamentally require that the protocol itself change? If you adopt some conventions, then you can do that but it but it's much simpler to not to
+
+295
+00:49:00.280 --> 00:49:13.969
+Sam Curren (TelegramSam): that there 95% of the message you can systematically convert between one message format and the other message, format but but attachments because of the how much variability we had in
+
+296
+00:49:14.030 --> 00:49:24.059
+Sam Curren (TelegramSam): makes it hard to so to systematically we had 3 ways of doing attachments to Didcom, v. One. And did comvy 2 selects one of those ways and makes it the only way.
+
+297
+00:49:24.780 --> 00:49:37.220
+Sam Curren (TelegramSam): And so, and because the the protocols that we wrote for credential exchange didn't use the one way that we selected, and thi there's a lot of debate about which one to select. Then then there, there is some adjustments required.
+
+298
+00:49:39.630 --> 00:49:47.719
+Sam Curren (TelegramSam): and again, they're not very complicated. If you're familiar with the one protocol, and you look at what needs to be done for the other protocol. It's it's not a significant amount of change.
+
+299
+00:49:47.730 --> 00:49:50.369
+Sam Curren (TelegramSam): but but it is. It is some change.
+
+300
+00:49:53.750 --> 00:49:54.830
+Sam Curren (TelegramSam): Other questions.
+
+301
+00:50:01.570 --> 00:50:10.960
+Subhasis Ojha: Sam, I had a question. Did I understand correctly that you're saying, because of the adoption of Didcom, or opening the door for Didcom.
+
+302
+00:50:11.080 --> 00:50:15.490
+Subhasis Ojha: your extent people will be able to extend
+
+303
+00:50:15.840 --> 00:50:27.160
+Subhasis Ojha:  to go beyond credential exchange, and the other protocols are focused on credential. Again, did did I understand that correctly? It opens the door for more.
+
+304
+00:50:27.440 --> 00:50:30.690
+Subhasis Ojha: more meaning beyond credential exchange.
+
+305
+00:50:30.900 --> 00:50:39.959
+Sam Curren (TelegramSam): Yes. Well, the doors has been open for some time. We have, like the basic message protocol, for example, and and other. You know the question. Answer protocols another one just off the top of my head
+
+306
+00:50:40.200 --> 00:50:49.530
+Sam Curren (TelegramSam): that that are not protocols focused on credential exchange, but can benefit, of course, from the trust established in a connection or in the data exchange during credential exchange.
+
+307
+00:50:51.380 --> 00:51:00.049
+Sam Curren (TelegramSam): So so the answer the answer to the question is. Yes, although it's not a newly opened door. This. This door has been open for a while, which has been one of the fundamental differences between
+
+308
+00:51:00.060 --> 00:51:02.190
+Sam Curren (TelegramSam): the approach that Didcom has taken.
+
+309
+00:51:02.360 --> 00:51:06.950
+Sam Curren (TelegramSam): and and other protocols that are more narrowly focused on verifiable credentials.
+
+310
+00:51:08.090 --> 00:51:09.260
+Sam Curren (TelegramSam): Does that make sense?
+
+311
+00:51:09.740 --> 00:51:18.839
+Subhasis Ojha: Yeah, it makes sense. So the so you've kind of answered my my question. So these other things were open
+
+312
+00:51:20.010 --> 00:51:25.399
+Subhasis Ojha: already through Didcom one. So what is Didcom? 2,
+
+313
+00:51:25.660 --> 00:51:44.230
+Sam Curren (TelegramSam): and sorry for my lack of knowledge. Yeah, no, that's okay. So what it's, it's clear that what I need to do and it's been a long time since we talked about did did come. V. 2 is is to do a review of of what? What's new, what's changed? Why, etc. And and we'll do that in a in a, in a future meeting.
+
+314
+00:51:44.730 --> 00:51:48.640
+Sam Curren (TelegramSam): it! There we get more official about some things.
+
+315
+00:51:48.650 --> 00:52:08.389
+Sam Curren (TelegramSam): We are closer we we are. We are in, instead of just being close to a Jw. In our encryption format. It's actually Jw, and so there's a there's a handful of of things like that that have been done. It's also simpler than than didcomb is in a in a number of ways that are that I think pretty important. The other thing is that
+
+316
+00:52:08.390 --> 00:52:24.559
+Sam Curren (TelegramSam): every every initial message contains all of the information necessary to set up a connection, which means there's actually no equivalent of the did exchange protocol in did come, because that's capable of happening simply by the sending of any any protocol message at all.
+
+317
+00:52:24.560 --> 00:52:41.809
+Sam Curren (TelegramSam): And so that that means that that, the the beginning process of making something happening is more efficient. And fewer messages are required. And and then relationships can persist to whatever length they want. And did covey one. We kind of had a full relationship to lasted a long time.
+
+318
+00:52:41.870 --> 00:52:51.329
+Sam Curren (TelegramSam):  and and or or you had connection lists. And now there's a wider spectrum of things possible, but with a simplified mechanism.
+
+319
+00:52:51.460 --> 00:53:05.290
+Sam Curren (TelegramSam): So Didcot org has. You know, protocols here. We've got, you know, action menu basic message. Some some data agreement protocols, and here's, of course, like the issue credentials.
+
+320
+00:53:05.290 --> 00:53:22.289
+Sam Curren (TelegramSam): There's, you know, mediator coordination related protocols listed here. And here's question answer as well. You know things that can actually happen over here. And and this is not all the protocols that have been listed. But an example of the types of ones that we've that we've created.
+
+321
+00:53:22.550 --> 00:53:36.269
+Sam Curren (TelegramSam): So anyway, we're we're over and and we need to drop and and we'll have time for for more questions later. But but thanks to everyone today. I felt like I talked too much. I apologize.
+
+322
+00:53:36.760 --> 00:53:50.549
+Sam Curren (TelegramSam): but but please do speak up either in meetings or or via these other, you know, Prs, or issues or things like that. If you have both concerns or questions, and we will work together to to figure them out and find the right answer.
+
+323
+00:53:50.760 --> 00:53:54.009
+Sam Curren (TelegramSam): And I appreciate all of you and have a great week.
+
+324
+00:53:59.460 --> 00:54:01.059
+Colton Wolkins: Thank you. Have a good week.
+
+325
+00:54:02.810 --> 00:54:04.050
+Patrik: Okay, bye.
+

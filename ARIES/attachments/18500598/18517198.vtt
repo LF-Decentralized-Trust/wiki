@@ -1,0 +1,2614 @@
+WEBVTT
+
+1
+00:01:42.560 --> 00:01:44.249
+Lance Byrd: Hey? Good day, folks.
+
+2
+00:01:49.840 --> 00:01:50.820
+Rodolfo Miranda: Hi Last
+
+3
+00:01:51.510 --> 00:01:52.500
+Rodolfo Miranda: everybody.
+
+4
+00:01:53.390 --> 00:01:56.870
+Lance Byrd: Hello. Hello, Argentina. One.
+
+5
+00:01:56.900 --> 00:01:58.279
+Rodolfo Miranda: Yeah.
+
+6
+00:01:58.360 --> 00:02:02.890
+Lance Byrd: I'm really happy. Yeah.
+
+7
+00:02:04.670 --> 00:02:06.229
+Lance Byrd: Super. Great.
+
+8
+00:02:06.670 --> 00:02:08.210
+DMITRY MARTYNOV: Hello! Hello!
+
+9
+00:02:10.009 --> 00:02:11.300
+Lance Byrd: Hey, Dimitri!
+
+10
+00:02:13.880 --> 00:02:15.019
+DMITRY MARTYNOV: Who are you
+
+11
+00:02:20.150 --> 00:02:21.280
+Lance Byrd: doing good.
+
+12
+00:02:21.800 --> 00:02:23.559
+Lance Byrd: Dmitri? Do I know you?
+
+13
+00:02:24.540 --> 00:02:25.510
+DMITRY MARTYNOV: Good
+
+14
+00:02:31.040 --> 00:02:33.110
+Lance Byrd: Dimitri, Would you like to introduce yourself?
+
+15
+00:02:48.930 --> 00:02:50.240
+Lance Byrd: I'm like, okay.
+
+16
+00:02:54.650 --> 00:02:55.820
+DMITRY MARTYNOV: No English.
+
+17
+00:02:56.160 --> 00:02:56.950
+Lance Byrd: Okay?
+
+18
+00:03:03.380 --> 00:03:04.649
+Rodolfo Miranda: Oh, sure.
+
+19
+00:03:07.710 --> 00:03:08.920
+Bruce Conrad: Yeah, to hear you.
+
+20
+00:03:17.970 --> 00:03:21.200
+Lance Byrd: Okay, let's see
+
+21
+00:03:26.560 --> 00:03:31.040
+Lance Byrd: our documentation for today.
+
+22
+00:03:32.710 --> 00:03:44.000
+Lance Byrd: Feel free to add yourself to the attendees list. this is the Aries did come V. 2 working group for December nineteenth, 2,022 we meet weekly
+
+23
+00:03:44.010 --> 00:03:53.130
+Lance Byrd: and I should remind you about the hyper ledger antitrust policy and the hyper ledger code of conduct.
+
+24
+00:03:54.760 --> 00:03:56.480
+Lance Byrd: And
+
+25
+00:03:56.640 --> 00:04:02.110
+Lance Byrd: yeah, feel free to add yourself to the attendees list. And
+
+26
+00:04:04.460 --> 00:04:12.500
+Lance Byrd: who else? Anybody else new. Let's see. We've got Bruce and Rodo and Hakan and
+
+27
+00:04:12.560 --> 00:04:13.650
+Lance Byrd: Judith.
+
+28
+00:04:13.910 --> 00:04:14.990
+Lance Byrd: So
+
+29
+00:04:16.140 --> 00:04:19.559
+Lance Byrd: looks like no one else is new.
+
+30
+00:04:21.010 --> 00:04:21.880
+Lance Byrd: Great?
+
+31
+00:04:22.170 --> 00:04:27.090
+Lance Byrd: Okay, let's see quick updates.
+
+32
+00:04:27.630 --> 00:04:32.030
+Lance Byrd: I am don't know of anything with Ary's agent test harness.
+
+33
+00:04:35.290 --> 00:04:38.670
+Lance Byrd: Dmitri, are you interested in? Did Com. V. 2.
+
+34
+00:04:44.440 --> 00:04:45.260
+DMITRY MARTYNOV: No.
+
+35
+00:04:45.320 --> 00:04:46.050
+DMITRY MARTYNOV: Phone?
+
+36
+00:04:55.550 --> 00:04:58.080
+Lance Byrd: Hmm. Okay.
+
+37
+00:04:59.150 --> 00:05:01.219
+Lance Byrd: Well, let's see here.
+
+38
+00:05:11.170 --> 00:05:13.689
+Lance Byrd: I'll put you on mute
+
+39
+00:05:14.100 --> 00:05:16.590
+Lance Byrd: if I can. Let's see.
+
+40
+00:05:22.330 --> 00:05:26.489
+Lance Byrd: Give me 1 s to claim ownership.
+
+41
+00:05:53.720 --> 00:06:00.169
+Lance Byrd: Yeah, give me give me 1 s i'll. I'll claim host, and then we can get started.
+
+42
+00:06:03.880 --> 00:06:06.560
+Lance Byrd: yeah, okay.
+
+43
+00:06:22.680 --> 00:06:25.129
+Lance Byrd: Okay, I have the power. Now.
+
+44
+00:06:38.940 --> 00:06:41.069
+Alex: Okay, do we need to record the meetings?
+
+45
+00:06:41.760 --> 00:06:47.989
+Lance Byrd: no, it I believe it auto records. So, though I can double check that
+
+46
+00:06:48.670 --> 00:06:50.599
+Alex: I see the direct button.
+
+47
+00:06:50.970 --> 00:06:52.270
+Alex: the recording. Yeah.
+
+48
+00:06:57.530 --> 00:06:59.270
+Rodolfo Miranda: yeah, it is. It is recording.
+
+49
+00:06:59.480 --> 00:07:02.300
+Rodolfo Miranda: I, in the regarding them, got past the slack
+
+50
+00:07:03.280 --> 00:07:05.659
+Rodolfo Miranda: or not. To this somewhere I don't know.
+
+51
+00:07:10.580 --> 00:07:12.060
+DMITRY MARTYNOV: No. Just look
+
+52
+00:07:15.650 --> 00:07:20.009
+Lance Byrd: okay. I have ejected Demetrius. Sorry for that.
+
+53
+00:07:20.050 --> 00:07:21.720
+Lance Byrd: let's
+
+54
+00:07:21.880 --> 00:07:23.960
+Lance Byrd: go back to sharing.
+
+55
+00:07:25.960 --> 00:07:29.660
+Lance Byrd: That's the difficulty, I guess, of an open meeting.
+
+56
+00:07:31.490 --> 00:07:35.389
+Lance Byrd: okay. And of course.
+
+57
+00:07:36.040 --> 00:07:41.009
+Lance Byrd: now, my okay, My screen has changed
+
+58
+00:07:42.200 --> 00:07:43.380
+Lance Byrd: all right.
+
+59
+00:07:43.440 --> 00:07:45.259
+Lance Byrd: Yeah. Sorry about that. Everybody
+
+60
+00:07:45.530 --> 00:07:51.160
+Lance Byrd: Yes, we are recording. I think that that happens automatically for us
+
+61
+00:07:51.710 --> 00:08:05.019
+Lance Byrd: all right updates. So every sage you test harness, I haven't done anything with that I've been meaning to. But I've been buried in kind of basically a release that I need to get done for this week
+
+62
+00:08:05.050 --> 00:08:10.700
+Lance Byrd: any anybody done anything with Aries agent test harness or Arizascar
+
+63
+00:08:10.950 --> 00:08:12.480
+Lance Byrd: stuff.
+
+64
+00:08:12.680 --> 00:08:14.830
+Lance Byrd: Most of that should be good.
+
+65
+00:08:14.890 --> 00:08:19.079
+Lance Byrd: I did post in our chat channel.
+
+66
+00:08:19.720 --> 00:08:22.400
+Lance Byrd: the
+
+67
+00:08:22.540 --> 00:08:27.169
+Lance Byrd: I, T-mail had posted about how they're hoping to handle
+
+68
+00:08:27.530 --> 00:08:32.849
+Lance Byrd: connections in Aj. Which is something that we've talked about with Akapi and hawk and and do this work.
+
+69
+00:08:33.000 --> 00:08:37.450
+Lance Byrd: so I did post.
+
+70
+00:08:41.659 --> 00:08:45.699
+Lance Byrd: I'm: sorry. I think I know how to use the Internet Here we go.
+
+71
+00:08:46.370 --> 00:08:56.729
+Lance Byrd: yeah, basically T-mo gave some suggestions about their connection record and what they'd like to do. I think, hockey and took a look at it. Did you want to say anything about it hack on
+
+72
+00:08:58.360 --> 00:09:09.969
+hakan: Nothing particularly it it it it look like it is very similar to the exchange. But I think Timo replied back to that comment, and said it was related to it. Convey one, if I remember correctly.
+
+73
+00:09:10.340 --> 00:09:12.590
+hakan: So
+
+74
+00:09:12.900 --> 00:09:23.399
+hakan: yeah, I mean all overall. In general it looks very similar to what the endpoint of the exchange would do like, Look at a public that if you find that resolve it. And
+
+75
+00:09:23.850 --> 00:09:26.050
+hakan: yeah, established a connection. Basically
+
+76
+00:09:26.430 --> 00:09:27.250
+Okay.
+
+77
+00:09:27.920 --> 00:09:29.129
+Lance Byrd: yeah, Very good.
+
+78
+00:09:29.620 --> 00:09:30.800
+Lance Byrd: Thank you.
+
+79
+00:09:33.040 --> 00:09:40.900
+Lance Byrd: And then, yeah, for today the topics that I've posted so Nick Reynolds posted his lib. Pdp.
+
+80
+00:09:40.980 --> 00:09:51.370
+Lance Byrd: did calm contribution as a pull request that might be worth looking at. I started to look at it, but I haven't made it completely through yet.
+
+81
+00:09:51.440 --> 00:09:56.360
+Lance Byrd: essentially, yeah, he gives quite a bit of information here.
+
+82
+00:09:56.770 --> 00:10:00.039
+Lance Byrd: Did anybody else take a look at this yet?
+
+83
+00:10:02.060 --> 00:10:05.270
+Lance Byrd: It's it's nice, because
+
+84
+00:10:05.330 --> 00:10:06.730
+Lance Byrd: yeah, it's
+
+85
+00:10:07.500 --> 00:10:11.780
+Lance Byrd: the Pdp. Has quite a bit of
+
+86
+00:10:12.480 --> 00:10:19.330
+Lance Byrd: functionality added to it, including there's some people who have built like bluetooth transport
+
+87
+00:10:19.480 --> 00:10:22.139
+Lance Byrd: support, and things like that.
+
+88
+00:10:23.930 --> 00:10:26.710
+Lance Byrd: Anybody else know more about it.
+
+89
+00:10:31.510 --> 00:10:32.230
+Lance Byrd: Yeah.
+
+90
+00:10:32.590 --> 00:10:35.270
+Lance Byrd: something to be aware of. So I put it up there.
+
+91
+00:10:35.830 --> 00:10:39.990
+Lance Byrd: yeah, i'm looking forward to going through that
+
+92
+00:10:40.350 --> 00:10:46.899
+Lance Byrd: and then I thought for today we could essentially keep working on our
+
+93
+00:10:48.170 --> 00:10:56.600
+Lance Byrd: our Aries in Route Profile 3. But let's go around and do updates first. If anybody has updates from their projects, and how it's going.
+
+94
+00:10:58.620 --> 00:11:00.960
+Lance Byrd: Maybe, Bruce, if you want to start.
+
+95
+00:11:02.170 --> 00:11:06.979
+Yeah, nothing's happening now. Our students are taking their
+
+96
+00:11:07.280 --> 00:11:09.140
+their when they're
+
+97
+00:11:09.430 --> 00:11:10.720
+holiday break.
+
+98
+00:11:13.750 --> 00:11:17.989
+I I do have some questions about
+
+99
+00:11:18.170 --> 00:11:20.489
+Well, just one question which is.
+
+100
+00:11:20.670 --> 00:11:23.930
+did we get them started correctly.
+
+101
+00:11:24.370 --> 00:11:26.959
+We have them
+
+102
+00:11:28.200 --> 00:11:30.989
+implement a did exchange protocol.
+
+103
+00:11:31.470 --> 00:11:34.279
+but I believe that exchanges for the
+
+104
+00:11:34.400 --> 00:11:37.370
+so i'm not quite sure what we should have them.
+
+105
+00:11:38.550 --> 00:11:41.359
+Lance Byrd: Yeah, that that seems to be a
+
+106
+00:11:41.840 --> 00:11:48.030
+Lance Byrd: repeating confusion between did come V. One and V 2. It's not
+
+107
+00:11:48.410 --> 00:11:54.650
+Lance Byrd: I guess it's not intuitive to think that there is not a did exchange a step
+
+108
+00:11:54.750 --> 00:12:02.230
+Lance Byrd: that that was part of maybe the simplification of Didcom and did come v 2
+
+109
+00:12:05.170 --> 00:12:07.920
+Lance Byrd: I'm: glad the simplification.
+
+110
+00:12:08.110 --> 00:12:22.709
+Lance Byrd: Yeah. So essentially receiving a did company to a message is essentially how you're establishing the connection. Did we want? Is is there a good guide
+
+111
+00:12:26.120 --> 00:12:27.440
+Lance Byrd: or
+
+112
+00:12:30.050 --> 00:12:33.760
+Lance Byrd: that. The
+
+113
+00:12:33.830 --> 00:12:37.739
+Rodolfo Miranda: I think the Hello! Work.
+
+114
+00:12:42.930 --> 00:12:50.030
+Lance Byrd: I guess the thing is the but this probably doesn't warn someone that
+
+115
+00:12:51.310 --> 00:12:54.730
+Lance Byrd: things have changed between did come V. One and V 2,
+
+116
+00:12:55.370 --> 00:13:01.420
+Rodolfo Miranda: for instance, they would. They would be natural. It's not related to to be one.
+
+117
+00:13:02.470 --> 00:13:03.689
+Lance Byrd: Yeah. So me
+
+118
+00:13:04.000 --> 00:13:07.650
+Bruce Conrad: that's actually fine for the students who Haven't encountered V. One.
+
+119
+00:13:07.910 --> 00:13:09.210
+it's just challenging
+
+120
+00:13:09.470 --> 00:13:11.240
+those of us who are guiding them.
+
+121
+00:13:12.550 --> 00:13:14.090
+Lance Byrd: Yeah, yeah.
+
+122
+00:13:14.180 --> 00:13:15.310
+Lance Byrd: There enough.
+
+123
+00:13:15.450 --> 00:13:16.349
+That will help.
+
+124
+00:13:21.730 --> 00:13:24.030
+Lance Byrd: Yeah, I think.
+
+125
+00:13:25.060 --> 00:13:35.000
+Rodolfo Miranda: I I I guess it. Yeah, if you follow the starting. And you see, starting using an ending, I did come connection we got you how to establish
+
+126
+00:13:35.040 --> 00:13:37.599
+Rodolfo Miranda: normal connection. Just a simple message.
+
+127
+00:13:37.640 --> 00:13:38.710
+Rodolfo Miranda: I think that's
+
+128
+00:13:38.880 --> 00:13:40.160
+Rodolfo Miranda: the way
+
+129
+00:13:40.410 --> 00:13:41.589
+Rodolfo Miranda: can we handle
+
+130
+00:13:41.930 --> 00:13:44.030
+Rodolfo Miranda: easily without? Did it Change.
+
+131
+00:13:44.350 --> 00:13:51.869
+Rodolfo Miranda: Of course that's depend on on the library. Because, if, as I can point out, if you have a library in, be one.
+
+132
+00:13:52.100 --> 00:13:55.300
+Rodolfo Miranda: and it's been translated to V 2,
+
+133
+00:13:55.610 --> 00:13:58.380
+Rodolfo Miranda: then that library may require something
+
+134
+00:13:58.400 --> 00:14:00.400
+Rodolfo Miranda: like like a protocol to
+
+135
+00:14:00.420 --> 00:14:04.669
+Rodolfo Miranda: to establish the final connection and sit there in the database.
+
+136
+00:14:05.110 --> 00:14:05.720
+Rodolfo Miranda: and
+
+137
+00:14:06.090 --> 00:14:06.950
+bye
+
+138
+00:14:07.010 --> 00:14:11.050
+Rodolfo Miranda: didn't come. Be too simple state. It can be 2. It's just one message
+
+139
+00:14:11.610 --> 00:14:14.120
+Rodolfo Miranda: one way, and then you can replay back
+
+140
+00:14:14.330 --> 00:14:16.389
+Rodolfo Miranda: and established the connection on the other side.
+
+141
+00:14:17.120 --> 00:14:21.479
+And thank you, Rudol. That's that's helpful. I will study this
+
+142
+00:14:21.570 --> 00:14:26.940
+and the students are actually, if I understand it correctly, building their own.
+
+143
+00:14:27.060 --> 00:14:29.369
+I did call you 2 libraries so
+
+144
+00:14:30.210 --> 00:14:31.480
+Rodolfo Miranda: right right.
+
+145
+00:14:31.540 --> 00:14:37.280
+Rodolfo Miranda: but they do speak python, so I think I think
+
+146
+00:14:37.680 --> 00:14:38.740
+Rodolfo Miranda: so. They go now.
+
+147
+00:14:39.230 --> 00:14:42.740
+Rodolfo Miranda: They can use it. This is a notebook, so they can test it on
+
+148
+00:14:42.970 --> 00:14:44.230
+Rodolfo Miranda: on the cloud phone.
+
+149
+00:14:45.380 --> 00:14:46.440
+hey? Thank you.
+
+150
+00:14:47.830 --> 00:14:49.089
+Lance Byrd: Yeah. Fair enough.
+
+151
+00:14:50.720 --> 00:14:54.550
+Lance Byrd: Okay. Thanks. Bruce. let's see.
+
+152
+00:14:54.860 --> 00:14:58.560
+Lance Byrd: How can you want to give any updates for this week.
+
+153
+00:15:05.110 --> 00:15:08.379
+hakan: I don't think I have any points for for this week.
+
+154
+00:15:08.530 --> 00:15:11.029
+Lance Byrd: Okay, there was no additional
+
+155
+00:15:11.060 --> 00:15:16.930
+hakan: yeah topics that I worked on related to this computer. But maybe Judith has something to yeah.
+
+156
+00:15:17.520 --> 00:15:18.200
+hakan: that
+
+157
+00:15:18.520 --> 00:15:24.109
+Judith Högerl: And not really, unfortunately, because it was sick during the one weeks.
+
+158
+00:15:24.280 --> 00:15:27.219
+Lance Byrd: Yeah, Sorry about that. Yeah, that's that's
+
+159
+00:15:27.360 --> 00:15:31.330
+Lance Byrd: a lot of people out sick right now and then, of course, holiday stuff. So
+
+160
+00:15:31.940 --> 00:15:39.889
+Lance Byrd: yeah, fair enough. I do think. Did we talk about it before, I guess. we. We won't meet next week.
+
+161
+00:15:39.910 --> 00:15:43.849
+Lance Byrd: I think so. I think I updated the calendar
+
+162
+00:15:44.150 --> 00:15:48.400
+Lance Byrd: for us. We'll meet again. Let's see here.
+
+163
+00:15:54.380 --> 00:15:57.620
+Lance Byrd: just double checking
+
+164
+00:16:01.300 --> 00:16:04.030
+Lance Byrd: It' be January Ninth: yeah. The ninth
+
+165
+00:16:04.190 --> 00:16:15.040
+Lance Byrd: back. Yeah, very good. And I just want to make sure. I removed it. Yeah, I did remove it from the calendar. So they gave me permission for that. That's right. So
+
+166
+00:16:15.820 --> 00:16:17.919
+Lance Byrd: good stuff. Okay.
+
+167
+00:16:18.190 --> 00:16:23.409
+Lance Byrd: And then Alex and Rodo, either. Either of you have updates you want to give
+
+168
+00:16:26.420 --> 00:16:28.149
+Rodolfo Miranda: and nothing on my side.
+
+169
+00:16:28.350 --> 00:16:29.160
+Lance Byrd: Okay.
+
+170
+00:16:30.110 --> 00:16:31.500
+Lance Byrd: Yeah. So
+
+171
+00:16:31.850 --> 00:16:32.680
+Lance Byrd: okay.
+
+172
+00:16:33.640 --> 00:16:39.550
+Lance Byrd: great. And i'm not missing anybody. Yeah, okay, good, All right. So let's take a look.
+
+173
+00:16:40.310 --> 00:16:42.299
+Lance Byrd: at the
+
+174
+00:16:42.320 --> 00:16:49.690
+Lance Byrd: Aries in our profile. 3 and yeah, we could add some things to this and just go through it.
+
+175
+00:16:50.080 --> 00:16:56.589
+Lance Byrd: I think most of you have seen it. But I don't think we've actually just, you know, taken a session here
+
+176
+00:16:56.650 --> 00:16:58.259
+Lance Byrd: to go through it
+
+177
+00:16:59.030 --> 00:17:00.860
+Lance Byrd: if that's good with everybody.
+
+178
+00:17:03.570 --> 00:17:04.630
+Lance Byrd: Okay.
+
+179
+00:17:04.859 --> 00:17:06.970
+Lance Byrd: So
+
+180
+00:17:07.800 --> 00:17:12.050
+Lance Byrd: is everyone happy with this initial
+
+181
+00:17:13.010 --> 00:17:15.240
+Lance Byrd: base requirements
+
+182
+00:17:16.310 --> 00:17:24.069
+Lance Byrd: for a. P. 3. What do we need to add, we have the spec. Did come V. 2, which includes these protocols
+
+183
+00:17:24.410 --> 00:17:25.530
+Lance Byrd: on top.
+
+184
+00:17:26.170 --> 00:17:30.460
+Lance Byrd: I think it is interesting that basic messaging is separate.
+
+185
+00:17:30.920 --> 00:17:34.049
+Lance Byrd: Am I right? I think
+
+186
+00:17:34.370 --> 00:17:36.019
+Lance Byrd: it's it's down here
+
+187
+00:17:38.380 --> 00:17:40.160
+Lance Byrd: is that do we
+
+188
+00:17:40.210 --> 00:17:44.060
+Lance Byrd: feel like that's right. To be separated from
+
+189
+00:17:44.730 --> 00:17:46.370
+Lance Byrd: the base requirements?
+
+190
+00:17:47.790 --> 00:18:05.170
+hakan: Is from my point of view it makes sense. Because once we have the discomfort, we want to use it for different purposes. And basic messaging is one of those purposes. Basically I would compare it to having this protocol similar to credential exchange protocols.
+
+191
+00:18:06.150 --> 00:18:11.439
+hakan: But yeah, we do have base requirements for credential exchange. Hmm.
+
+192
+00:18:16.160 --> 00:18:16.780
+Nice.
+
+193
+00:18:16.910 --> 00:18:26.109
+Lance Byrd: It it. Yeah, it does seem a little weird to me that that there could be a did come implementation without basic messaging.
+
+194
+00:18:26.480 --> 00:18:30.079
+Lance Byrd: and then yeah, you're right that then we're showing
+
+195
+00:18:30.780 --> 00:18:32.060
+Lance Byrd: me
+
+196
+00:18:32.380 --> 00:18:34.370
+Lance Byrd: transfer of credentials.
+
+197
+00:18:35.380 --> 00:18:36.940
+Lance Byrd: I would imagine.
+
+198
+00:18:37.120 --> 00:18:37.830
+Well.
+
+199
+00:18:37.930 --> 00:18:45.579
+Lance Byrd: I guess I guess it doesn't matter to to to say which one's more important or or more common. But yeah, any any thoughts on that?
+
+200
+00:18:45.900 --> 00:18:50.169
+Rodolfo Miranda: Yeah. Well, but basically, it's just for a chat application. At least this
+
+201
+00:18:50.810 --> 00:18:53.509
+Rodolfo Miranda: it's for 2 person talking right.
+
+202
+00:18:55.490 --> 00:18:58.210
+Rodolfo Miranda: This is a specific type of message.
+
+203
+00:18:58.600 --> 00:19:00.720
+Rodolfo Miranda: but I only I think it's
+
+204
+00:19:00.950 --> 00:19:03.159
+Rodolfo Miranda: only can be used for it for a chat. Right?
+
+205
+00:19:03.920 --> 00:19:05.010
+Lance Byrd: Yeah.
+
+206
+00:19:05.830 --> 00:19:08.160
+Lance Byrd: anyway. So the
+
+207
+00:19:08.390 --> 00:19:10.339
+Lance Byrd: did. Then Did we want to
+
+208
+00:19:10.490 --> 00:19:14.350
+Lance Byrd: peel this portion out in terms of
+
+209
+00:19:15.470 --> 00:19:19.699
+Lance Byrd: being able? The the wacky? Well, it says Wacky Pecks. But
+
+210
+00:19:20.160 --> 00:19:28.889
+Lance Byrd: like you did come. Does that something we want to separate as well, or or at least comment that that we think you should, or do. We want to leave it here.
+
+211
+00:19:31.570 --> 00:19:40.360
+hakan: I would, I mean, if if you look into the first IP a IP, one and 2. I think
+
+212
+00:19:40.480 --> 00:19:53.340
+hakan: those are really related to Aries, and this is really related to issue Holder Verifier for the issuing credentials, and presenting credentials like as what, what what it's supposed to do.
+
+213
+00:19:53.360 --> 00:20:12.740
+hakan: And if you look into the a. I. P. 3 point oh, also from the same perspective. And that's the If, then, I think this is fine, the way it is because we're covering everything related to didcom support functionalities to issue. We'll be able to issue and present credentials.
+
+214
+00:20:15.460 --> 00:20:17.270
+Rodolfo Miranda: Yeah, I got you. I we yeah.
+
+215
+00:20:19.270 --> 00:20:20.550
+Lance Byrd: Okay.
+
+216
+00:20:20.850 --> 00:20:24.610
+perspective, because we're asking our students to
+
+217
+00:20:24.870 --> 00:20:29.029
+implement, I guess, to follow the spec for Deadcon V. 2, I guess.
+
+218
+00:20:29.200 --> 00:20:30.020
+and
+
+219
+00:20:30.180 --> 00:20:34.049
+we don't intend to issue credentials or required proofs.
+
+220
+00:20:34.880 --> 00:20:43.250
+we'll, we'll be defining a a custom. Pico-specific protocol on top of that we're going to go
+
+221
+00:20:43.630 --> 00:20:46.559
+so from that perspective, it would be nice if
+
+222
+00:20:46.620 --> 00:20:47.809
+if
+
+223
+00:20:47.990 --> 00:20:53.210
+if our students could say, yeah, we're a IP 3 3 with no options.
+
+224
+00:20:55.890 --> 00:20:57.230
+whereas
+
+225
+00:20:57.550 --> 00:21:00.380
+if if there's a credential exchange and proof
+
+226
+00:21:00.520 --> 00:21:05.329
+portion that's required to be a IP 3. Then they won't reach that.
+
+227
+00:21:06.310 --> 00:21:09.070
+But that's a that's a strange way to think about it.
+
+228
+00:21:12.350 --> 00:21:18.929
+Rodolfo Miranda: Yeah, that makes sense that a good point awesome. Yeah, yeah, for sure.
+
+229
+00:21:19.060 --> 00:21:22.580
+Lance Byrd: And and it kind of gets back to what we talked about before, where
+
+230
+00:21:23.000 --> 00:21:26.170
+Lance Byrd: we're trying to help people to know
+
+231
+00:21:26.600 --> 00:21:30.260
+Lance Byrd: the common path, but also, like the
+
+232
+00:21:30.410 --> 00:21:34.219
+Lance Byrd: the the the simplest
+
+233
+00:21:34.330 --> 00:21:39.569
+Lance Byrd: support that they need First, in order to kind of add the optional things.
+
+234
+00:21:39.670 --> 00:21:52.230
+Lance Byrd: and so we've even talked about Wacky being something like oh, you know, like he did come simple you know, not even implementing everything from from like he did come. So
+
+235
+00:21:52.340 --> 00:22:18.420
+Lance Byrd: I do I. I I am concerned that someone new coming in. They don't really know and then they see this and they're saying, okay, like this is what I need to support. And then they get into like, why he did come, let's say, and then they're like, Wow! This is a lot of work. Maybe I won't. Do this, you know. this is these are the lessons of Jf: which, By the way, I I met with Sharon from Jf.
+
+236
+00:22:18.430 --> 00:22:20.010
+Lance Byrd: this week
+
+237
+00:22:20.110 --> 00:22:24.290
+Lance Byrd: and just was trying to convey to her that
+
+238
+00:22:26.180 --> 00:22:46.549
+Lance Byrd: it it was really valuable that they kind of created to the Jff challenge to have these multiple tracks with O. I, DC. And and and did come. Now they are focused on transferring credentials, but because they, you know, created a didcom track. And and Alex worked with,
+
+239
+00:22:46.560 --> 00:22:51.029
+Lance Byrd: Schnor and Brian Richter
+
+240
+00:22:51.340 --> 00:22:59.750
+Lance Byrd: and which M. Maybe, Alex, if if you want to give any of the updates on that, you can in a second. But
+
+241
+00:23:01.390 --> 00:23:08.150
+Lance Byrd: I guess the lessons learned from that is, well. Part of the reason that this group group meets is because of of
+
+242
+00:23:08.350 --> 00:23:17.190
+Lance Byrd: the difficulty that that those groups went through as they were coming up to speed. on did come, and specifically did come V. 2.
+
+243
+00:23:19.120 --> 00:23:23.420
+Lance Byrd: And so yeah I I that's why this concerns me
+
+244
+00:23:23.760 --> 00:23:25.820
+Lance Byrd: the way that it is.
+
+245
+00:23:26.530 --> 00:23:30.960
+Lance Byrd: Those are my thoughts, Alex. Any any updates on Jf: for thoughts on those things.
+
+246
+00:23:31.740 --> 00:23:37.250
+Alex: Yeah, I mean, I think what you're saying that makes sense like also in terms of like the walkie-pack specification
+
+247
+00:23:37.270 --> 00:23:45.680
+Alex: like in the If J. Meetings you're mentioning how like we need to upgrade, to like 3 point, one and 3 point, 2 to like issue multiple credentials at the same time.
+
+248
+00:23:47.160 --> 00:23:54.820
+Alex: So from that perspective I think that the issue in 6 and exchanging of credential is only going to get like more complicated in terms of like
+
+249
+00:23:55.280 --> 00:24:00.319
+Alex: I think you can break it down to like, hey? You can send the credential
+
+250
+00:24:00.580 --> 00:24:13.179
+Alex: like, hey? You can request a credential before sending one, or like, hey? You can request multiple before sending one. Or you can request multiple before sending multiple. That's like the different configuration of walkie packs per se. And yeah, I think
+
+251
+00:24:14.060 --> 00:24:20.609
+Alex: it's relatively high degree to entry. But I hope that most developers won't have to
+
+252
+00:24:20.670 --> 00:24:24.219
+Alex: right the low level code of doing the per call exchange
+
+253
+00:24:25.590 --> 00:24:33.390
+Alex: and they just have to worry about like the business logic of what credential they're sending through. At least that's how i'm beginning. And
+
+254
+00:24:33.410 --> 00:24:36.889
+Alex: an an agent on my behalf like i'm not trying to
+
+255
+00:24:37.240 --> 00:24:43.770
+Alex: If I were to be a developer to use an agent, I wouldn't go ahead and like you come in my own for a call. I would just kind of like
+
+256
+00:24:43.890 --> 00:24:48.060
+Alex: whatever that agent protocol has, I will just work with that
+
+257
+00:24:48.540 --> 00:24:49.230
+Lance Byrd: yeah
+
+258
+00:24:49.430 --> 00:24:50.579
+Alex: below my box.
+
+259
+00:24:52.910 --> 00:24:55.480
+Lance Byrd: But just
+
+260
+00:24:57.210 --> 00:25:03.130
+Lance Byrd: see. I I guess one of the things when I was talking to share, and and
+
+261
+00:25:03.200 --> 00:25:13.119
+Lance Byrd: she had done a she did a presentation actually at diff. The the the I think interop meeting, which is what sparked me to want to meet with her.
+
+262
+00:25:13.950 --> 00:25:14.590
+Lance Byrd: but
+
+263
+00:25:16.580 --> 00:25:29.129
+Lance Byrd: the I I my sense is that everyone came out of this, or at least Sharon and people who are watching closely. They came out of it, thinking okay did come is
+
+264
+00:25:29.330 --> 00:25:30.850
+Lance Byrd: complicated.
+
+265
+00:25:30.890 --> 00:25:41.979
+Lance Byrd: and so they didn't make as much progress as the Id see. What do they call it? DC. Or something track. And what was the other track? Was it?
+
+266
+00:25:42.200 --> 00:25:45.470
+Alex: It was a Vc. Api like the Http
+
+267
+00:25:45.740 --> 00:25:48.309
+Alex: copy. Yeah.
+
+268
+00:25:48.370 --> 00:25:57.470
+Lance Byrd: Yeah. Okay. So so my yeah, if if everyone comes out of that, and and what I tried to explain in the diff interrupt meeting is
+
+269
+00:25:57.810 --> 00:26:02.889
+Lance Byrd: okay. Well, part of the reason that that did come you know, maybe went slower is.
+
+270
+00:26:03.390 --> 00:26:13.030
+Lance Byrd: for one thing, we're in the middle of we're in this, you know. Space of, you know, did come V. One implementations existing, and did come V. 2 implementations being very new.
+
+271
+00:26:13.040 --> 00:26:25.509
+Lance Byrd: and you know teams having to decide. Are we going to do V. One or V 2? And then, you know, a. V 2 team kind of formed, and people are building their own implementations because they want to learn.
+
+272
+00:26:25.520 --> 00:26:33.449
+Lance Byrd: but then, you know, there's all these pain points about crypto, and even just did methods and things like that.
+
+273
+00:26:33.730 --> 00:26:39.400
+Alex: so yeah, yeah, I I agree that that is more complicated.
+
+274
+00:26:39.630 --> 00:26:43.840
+Alex: I wouldn't say it's necessarily like more complicated. I think that the problem there is that
+
+275
+00:26:44.200 --> 00:26:55.379
+Alex: the other 2 groups had, like more tooling available to the developers. So like right, Imagine if, like Chappy, had a problem between like http one and like http 2 right?
+
+276
+00:26:55.520 --> 00:26:58.940
+Alex: But everybody knows http which protocol to use.
+
+277
+00:26:59.180 --> 00:27:01.830
+Alex: So that's kind of like the struggles that we were encountering
+
+278
+00:27:01.880 --> 00:27:05.929
+Alex: with our implementation, so like a lot of like the low level stuff.
+
+279
+00:27:06.120 --> 00:27:10.180
+Alex: was not matching up whether it would like Chappy and O. I, DC. Connect.
+
+280
+00:27:10.270 --> 00:27:14.629
+Alex: They already had the libraries kind of like working together, and all they had to do is implement the flow.
+
+281
+00:27:15.050 --> 00:27:20.370
+Alex: Whether the the problems that we had was like slightly different than those.
+
+282
+00:27:20.620 --> 00:27:22.589
+Alex: So yeah, that that's why I think like
+
+283
+00:27:22.730 --> 00:27:26.199
+Alex: from like a big company to perspective, and also like we kind of like started late
+
+284
+00:27:26.270 --> 00:27:34.819
+Alex: so trying to travel through all those low-level a problem. We didn't like anticipate for that so yeah, that's kind of like the
+
+285
+00:27:35.260 --> 00:27:38.489
+Alex: the issue there, because, yeah, like Brian was able to.
+
+286
+00:27:38.730 --> 00:27:42.830
+Alex: I talked to Brian like recently, and he was able to work like the the chappy.
+
+287
+00:27:43.080 --> 00:27:47.819
+Alex: The extension in like 2 days. Seems like everything was already there, and
+
+288
+00:27:48.040 --> 00:27:51.309
+Alex: you can damage happy pretty much by just simply copying
+
+289
+00:27:51.400 --> 00:27:53.640
+Alex: and switching a couple of variables around, and
+
+290
+00:27:53.710 --> 00:27:54.760
+that that would be it.
+
+291
+00:27:54.790 --> 00:27:55.790
+Alex: So. Yeah.
+
+292
+00:28:00.000 --> 00:28:03.459
+Lance Byrd: So so it is. Is anyone else in this group
+
+293
+00:28:03.960 --> 00:28:07.759
+Lance Byrd: kind of concerned about those things or
+
+294
+00:28:08.730 --> 00:28:17.760
+Lance Byrd: Is this something that we, you know we're just. We'd have a recency bias, and you know our own experience type.
+
+295
+00:28:18.620 --> 00:28:20.000
+Lance Byrd: Bias is it?
+
+296
+00:28:21.180 --> 00:28:26.940
+Lance Byrd: Should it be our focus as part of the aip 3.0
+
+297
+00:28:27.030 --> 00:28:32.299
+Lance Byrd: to make it very clear kind of what is
+
+298
+00:28:32.440 --> 00:28:49.090
+Lance Byrd: most common and what's available for for developers as tooling and for us to focus on, you know, making sure that that the tooling that's needed is a high high priority, and and that the community aries community and beyond has it?
+
+299
+00:28:51.640 --> 00:28:56.989
+Lance Byrd: How how much should those kinds of thoughts be affecting? Aip? 3 3.
+
+300
+00:28:58.940 --> 00:29:10.010
+Alex: Yeah. I personally think we should try to pretty much figure out the minimum basic requirements, right? Because right now, if you use it can be 2, you're most likely using the peer and not using any other did method
+
+301
+00:29:10.500 --> 00:29:16.219
+Alex: and that's because of the library support. Right? It's not because people don't want to use other good methods.
+
+302
+00:29:16.280 --> 00:29:20.720
+Alex: and whenever you try to integrate different methods, it's relatively challenging.
+
+303
+00:29:21.400 --> 00:29:23.670
+Alex: for do you come libraries?
+
+304
+00:29:23.850 --> 00:29:33.399
+Alex: So you're trying to figure out like a minimum set of requirements like signature schemes, elliptic curves that we're using for like an agent. Just so they can talk to another agent.
+
+305
+00:29:33.580 --> 00:29:36.320
+Alex: It's I think, would be helpful. Yeah.
+
+306
+00:29:41.760 --> 00:29:43.040
+Lance Byrd: other thoughts.
+
+307
+00:29:47.740 --> 00:29:49.930
+I think.
+
+308
+00:29:50.340 --> 00:29:55.309
+Rodolfo Miranda: Well, they IP shouldn't matter on the what tooling, or or maybe
+
+309
+00:29:55.900 --> 00:30:01.669
+Rodolfo Miranda: work on the tooling side. But working on putting what is at this minimum
+
+310
+00:30:01.700 --> 00:30:02.520
+Rodolfo Miranda: on
+
+311
+00:30:02.960 --> 00:30:08.899
+Rodolfo Miranda: the minimal protocols. maybe even go farther down on this protocol. We are using that way.
+
+312
+00:30:09.500 --> 00:30:13.650
+Rodolfo Miranda: for example, Static Pr. D. Ids.
+
+313
+00:30:13.830 --> 00:30:18.809
+Rodolfo Miranda: that's 3 type of period. I I go theta one and 2, I think.
+
+314
+00:30:18.970 --> 00:30:19.710
+Rodolfo Miranda: Just
+
+315
+00:30:19.730 --> 00:30:24.180
+Rodolfo Miranda: so. Say which one and that way also, maybe on the mediator.
+
+316
+00:30:24.390 --> 00:30:28.999
+Rodolfo Miranda: How we put the routine did in the Survey standpoint that to agree? And
+
+317
+00:30:29.090 --> 00:30:34.189
+Rodolfo Miranda: how are we gonna do it for a IP 3? And if you do it that way
+
+318
+00:30:34.610 --> 00:30:35.530
+Rodolfo Miranda: your
+
+319
+00:30:35.590 --> 00:30:37.889
+Rodolfo Miranda: your case will pass right right.
+
+320
+00:30:38.140 --> 00:30:39.510
+Oh, that's I do
+
+321
+00:30:39.750 --> 00:30:40.610
+with the helpful.
+
+322
+00:30:43.550 --> 00:30:49.980
+Lance Byrd: So so is that. How? How would you like to document those things
+
+323
+00:30:50.540 --> 00:30:55.589
+Rodolfo Miranda: here? Well, we have some some sense, for, for example, this feature
+
+324
+00:30:55.850 --> 00:30:59.230
+Rodolfo Miranda: 6, 27.
+
+325
+00:30:59.350 --> 00:31:04.330
+Rodolfo Miranda: Some current, says he's gonna update that to about. He's gonna create a new one
+
+326
+00:31:04.600 --> 00:31:05.970
+Rodolfo Miranda: with that in mind
+
+327
+00:31:06.490 --> 00:31:07.240
+at least.
+
+328
+00:31:07.640 --> 00:31:13.580
+Rodolfo Miranda: so he he's gonna change that. That was. I mentioned the last eighties call last week.
+
+329
+00:31:14.890 --> 00:31:15.980
+Lance Byrd: Okay.
+
+330
+00:31:16.550 --> 00:31:18.999
+Rodolfo Miranda: probably they are. We should put like a
+
+331
+00:31:19.440 --> 00:31:22.319
+Rodolfo Miranda: that if you are using
+
+332
+00:31:22.480 --> 00:31:28.330
+Rodolfo Miranda: Did Ps. With a mediator, you should put a service standpoint in this this way.
+
+333
+00:31:28.570 --> 00:31:31.110
+Rodolfo Miranda: right? So everybody can understand
+
+334
+00:31:31.410 --> 00:31:34.510
+Rodolfo Miranda: when they receive a routine did on that part.
+
+335
+00:31:34.730 --> 00:31:36.190
+Rodolfo Miranda: What can be
+
+336
+00:31:36.290 --> 00:31:37.080
+structure?
+
+337
+00:31:43.160 --> 00:31:48.130
+Lance Byrd: let's see.
+
+338
+00:31:50.620 --> 00:31:54.470
+Lance Byrd: Can you say that again? using? Did peers in a mediator?
+
+339
+00:31:54.900 --> 00:31:57.330
+Rodolfo Miranda: Yeah, when when you when you use it.
+
+340
+00:31:57.780 --> 00:32:03.829
+Rodolfo Miranda: Listen here. We were agreeing where we are going to do. Did it come? Be 2? We did. Pr: right.
+
+341
+00:32:03.860 --> 00:32:05.449
+Rodolfo Miranda: That's the minimum.
+
+342
+00:32:05.850 --> 00:32:07.750
+Lance Byrd: If you use a mediator.
+
+343
+00:32:07.930 --> 00:32:11.569
+Rodolfo Miranda: The Mediator give you a routine. Did
+
+344
+00:32:12.550 --> 00:32:15.829
+Rodolfo Miranda: that route in the Id will be part of your service
+
+345
+00:32:15.930 --> 00:32:17.870
+Rodolfo Miranda: in in your did document.
+
+346
+00:32:18.130 --> 00:32:18.890
+Rodolfo Miranda: so
+
+347
+00:32:19.760 --> 00:32:23.239
+Rodolfo Miranda: we should agree in a way where we should put
+
+348
+00:32:23.430 --> 00:32:24.700
+Rodolfo Miranda: that the Id
+
+349
+00:32:24.720 --> 00:32:26.090
+Rodolfo Miranda: that in the Id
+
+350
+00:32:27.320 --> 00:32:30.270
+Rodolfo Miranda: so because they the specification is not that clear?
+
+351
+00:32:30.670 --> 00:32:38.020
+Rodolfo Miranda: There's a field called Routing Keys. That's a you and I that's a threat on the
+
+352
+00:32:38.500 --> 00:32:40.510
+Rodolfo Miranda: on on the disc
+
+353
+00:32:41.360 --> 00:32:42.730
+Rodolfo Miranda: chat
+
+354
+00:32:43.010 --> 00:32:45.180
+Rodolfo Miranda: regarding that. And I
+
+355
+00:32:45.500 --> 00:32:53.149
+Rodolfo Miranda: I say something. Then Stevens say another option, Timo, another one Brian different one. So
+
+356
+00:32:53.220 --> 00:32:57.600
+Rodolfo Miranda: there's many, many way to to do this, and i'm and D. And this is the same.
+
+357
+00:33:00.430 --> 00:33:01.160
+Lance Byrd: Yeah.
+
+358
+00:33:03.050 --> 00:33:03.820
+Lance Byrd: Okay.
+
+359
+00:33:13.350 --> 00:33:15.329
+Lance Byrd: so
+
+360
+00:33:17.690 --> 00:33:20.409
+Lance Byrd: Any other thoughts in terms of breaking out?
+
+361
+00:33:22.560 --> 00:33:27.860
+Lance Byrd: Well, Wacky did come, or Wackypex, as it used to be called
+
+362
+00:33:28.370 --> 00:33:31.209
+Lance Byrd: breaking it out into a separate section.
+
+363
+00:33:34.060 --> 00:33:38.019
+Bruce Conrad: I would like to put in another plug for
+
+364
+00:33:38.150 --> 00:33:41.599
+Bruce Conrad: for following the layering of trust over IP:
+
+365
+00:33:41.990 --> 00:33:43.110
+Lance Byrd: Yeah.
+
+366
+00:33:43.290 --> 00:33:45.620
+it did come v 2
+
+367
+00:33:46.030 --> 00:33:52.690
+Lance Byrd: on layer 2 if I follow the spec. And perhaps the static peer did
+
+368
+00:33:53.260 --> 00:33:53.920
+leaders.
+
+369
+00:33:54.210 --> 00:33:56.339
+Bruce Conrad: and i'm a IP, 3
+
+370
+00:33:56.520 --> 00:34:04.000
+at layer of of of trust over IP. If I, in addition, have at least one
+
+371
+00:34:04.410 --> 00:34:08.390
+I implement at least one method for exchanging credentials.
+
+372
+00:34:10.409 --> 00:34:11.750
+Lance Byrd: Yeah.
+
+373
+00:34:12.889 --> 00:34:15.029
+hakan: I I think
+
+374
+00:34:15.310 --> 00:34:26.620
+hakan: I I would argue that a IP 3 is actually having components or Rfcs from all 3 bottom layers like on the bottom. We have, for example, the static period
+
+375
+00:34:26.679 --> 00:34:33.160
+hakan: is one of the features that are supposed to be implemented on the area of agent layer. We do have the did come
+
+376
+00:34:33.639 --> 00:34:36.199
+hakan: as an encryption
+
+377
+00:34:36.659 --> 00:34:37.669
+hakan: envelope.
+
+378
+00:34:37.920 --> 00:34:45.970
+hakan: And yeah on up for layers, or like on the layer 3, we would have the Exchange Protocols issue credential present proof
+
+379
+00:34:48.150 --> 00:34:52.319
+that's a good point. I had forgotten later one which is also involved.
+
+380
+00:34:52.770 --> 00:34:56.009
+Bruce Conrad: because in our project we're only using periods
+
+381
+00:34:56.790 --> 00:34:57.709
+not using them.
+
+382
+00:34:57.840 --> 00:34:58.479
+Ours
+
+383
+00:34:58.790 --> 00:34:59.609
+hakan: right?
+
+384
+00:35:04.560 --> 00:35:05.439
+Lance Byrd: Yeah.
+
+385
+00:35:07.920 --> 00:35:09.200
+hakan: So.
+
+386
+00:35:09.560 --> 00:35:17.839
+hakan: Lance, I I think my question would be: we are going to have a profile, and this profile is important. So once to
+
+387
+00:35:18.090 --> 00:35:24.889
+hakan: agents are creating a co-establishing a connection using the V 2 like the yeah protocols.
+
+388
+00:35:25.490 --> 00:35:27.640
+hakan: and they would be able to.
+
+389
+00:35:28.840 --> 00:35:32.090
+hakan: So what exactly, what, what would that mean like? Is it?
+
+390
+00:35:33.120 --> 00:35:37.050
+hakan: Does it mean that they can exchange a set of
+
+391
+00:35:37.190 --> 00:35:39.120
+hakan: credentials.
+
+392
+00:35:39.510 --> 00:35:44.399
+hakan: Does that mean that they can exchange messages like by a basic messaging?
+
+393
+00:35:44.450 --> 00:35:55.250
+hakan: Or does it be something else? Because with the base requirements, what i'm having a bit of a problem is okay, let's say I. I support all that page requirements, but I don't support anything else.
+
+394
+00:35:55.790 --> 00:36:07.140
+hakan: I won't be able to communicate. I won't be able to write messages. I won't be able to issue credentials because I don't support. For example, Jason L. D attachment, or I don't know what the third attachment was. So.
+
+395
+00:36:07.410 --> 00:36:14.340
+hakan: just with the basic requirement, it doesn't mean that I can't even test whether I have a
+
+396
+00:36:15.290 --> 00:36:32.150
+hakan: Well, maybe we could test with discovery, features discover features. But like I said I, you wouldn't be able to exchange any basic messaging, or you couldn't be able to do issue credentials or present proof because of that attachment formats. And I think.
+
+397
+00:36:32.160 --> 00:36:42.029
+Rodolfo Miranda: Yeah. But but I think the touch me are on the option. That's right. And then I think you should pick one optional, at least the main, plus one of the option, I find another.
+
+398
+00:36:42.140 --> 00:36:45.229
+Rodolfo Miranda: and that that has at least the same.
+
+399
+00:36:45.740 --> 00:36:58.920
+hakan: Yeah. But what what do those optionals mean? That's the part that I don't get like, is it optional in terms of it can be nothing. It can be you. You have to choose at this one or, you, all of them
+
+400
+00:37:00.020 --> 00:37:06.209
+Rodolfo Miranda: that that's that's true. Yeah, that need to mean more specified. They are
+
+401
+00:37:06.510 --> 00:37:12.179
+Rodolfo Miranda: what what it means. But I I mean, from my point of view, I would say, okay, I got a
+
+402
+00:37:12.440 --> 00:37:14.310
+Rodolfo Miranda: I built a nation that
+
+403
+00:37:14.430 --> 00:37:17.599
+Rodolfo Miranda: has the base requirement. And
+
+404
+00:37:17.980 --> 00:37:20.759
+Rodolfo Miranda: so let me pass at least all the tests that
+
+405
+00:37:21.560 --> 00:37:23.400
+Rodolfo Miranda: that made that er
+
+406
+00:37:24.480 --> 00:37:29.650
+Rodolfo Miranda: correct right. And maybe I need to find an accident that has
+
+407
+00:37:29.940 --> 00:37:38.620
+Rodolfo Miranda: these same requirements, plus Jason a. D. And all those tests on a path. So i'm going to be confident that my Asian that I built
+
+408
+00:37:39.090 --> 00:37:42.809
+Rodolfo Miranda: can communicate with with others in that specifics.
+
+409
+00:37:43.800 --> 00:37:44.529
+hakan: Yeah.
+
+410
+00:37:44.780 --> 00:37:45.830
+right.
+
+411
+00:37:46.320 --> 00:37:51.129
+Rodolfo Miranda: But maybe maybe that that some can be in in the a IP protocol. We should
+
+412
+00:37:51.160 --> 00:37:52.870
+Rodolfo Miranda: really state that right?
+
+413
+00:37:53.000 --> 00:37:56.359
+Rodolfo Miranda: Make a huge part of our string. Okay, this is the way we think
+
+414
+00:37:57.160 --> 00:37:57.939
+Rodolfo Miranda: this is
+
+415
+00:37:58.080 --> 00:37:58.970
+Rodolfo Miranda: this, is it?
+
+416
+00:37:59.660 --> 00:38:00.430
+Alex: Yeah.
+
+417
+00:38:01.030 --> 00:38:07.959
+Alex: Yeah, I didn't think like. Personally, I don't think that agents should like determine what credential formats they use, because you try to
+
+418
+00:38:07.980 --> 00:38:14.560
+Alex: figure out credential format to you as I can the actual walkie packs for? I was like, hey? I'm trying to issue you like a
+
+419
+00:38:14.630 --> 00:38:20.249
+Alex: You'd like to be credential like, do you accept it? Then you can like, hey? I cannot support your deputy financials.
+
+420
+00:38:20.670 --> 00:38:21.479
+Alex: Oh.
+
+421
+00:38:21.950 --> 00:38:28.949
+Alex: I i'm not sure that you can like. Do that at the discovery level of the agent, because like maybe you can be like, hey? This agent supports just an all the credentials only.
+
+422
+00:38:30.130 --> 00:38:30.930
+Alex: but
+
+423
+00:38:31.080 --> 00:38:36.669
+Alex: yeah, like i'm seeing like a multi-format world where you're going to have to spoke all of them eventually.
+
+424
+00:38:37.300 --> 00:38:41.179
+Alex: So yeah, I think it's going to be a matter like on how you want to go about
+
+425
+00:38:41.630 --> 00:38:46.839
+Alex: telling people like, hey? I'm only supporting this, and then we're gonna to support other ones in the future.
+
+426
+00:38:48.450 --> 00:38:52.749
+Bruce Conrad: That's that's a very interesting point. Alex, you use the word eventually.
+
+427
+00:38:53.030 --> 00:39:01.199
+Bruce Conrad: because our our our methodology with picos is that when we can grab some students we have them do a small piece.
+
+428
+00:39:01.380 --> 00:39:04.359
+and then next year we will build on top of it
+
+429
+00:39:04.410 --> 00:39:05.449
+in some way.
+
+430
+00:39:05.830 --> 00:39:09.759
+Bruce Conrad: I was also, intrigued by an analogy
+
+431
+00:39:09.890 --> 00:39:14.649
+Bruce Conrad: you that will only be understood by the by, by people. In this call.
+
+432
+00:39:14.700 --> 00:39:16.680
+Bruce Conrad: which is we. We were visited.
+
+433
+00:39:16.840 --> 00:39:20.189
+Bruce Conrad: we we're using Zoom as a transport layer to communicate.
+
+434
+00:39:20.560 --> 00:39:22.670
+Bruce Conrad: and we were visited by Demetri.
+
+435
+00:39:23.000 --> 00:39:25.839
+Bruce Conrad: who was able to use English, which is
+
+436
+00:39:26.230 --> 00:39:28.920
+the basic interrupt profile
+
+437
+00:39:29.050 --> 00:39:30.269
+Bruce Conrad: for this meeting.
+
+438
+00:39:30.490 --> 00:39:36.809
+Bruce Conrad: and we were able to have a brief interaction with him to discover that we had nothing further to do
+
+439
+00:39:37.340 --> 00:39:38.270
+with each other.
+
+440
+00:39:39.400 --> 00:39:43.399
+Bruce Conrad: and that to me that would be the base layer of aip. 3
+
+441
+00:39:43.520 --> 00:39:44.940
+you can you can.
+
+442
+00:39:45.020 --> 00:39:48.530
+Bruce Conrad: You can meet another agent on whatever transport
+
+443
+00:39:48.710 --> 00:39:57.919
+Bruce Conrad: that you and they are. You can have a brief conversation, and you may realize that there is nothing further you can do without the agenda, and it's over.
+
+444
+00:39:59.040 --> 00:40:04.949
+Bruce Conrad: or you may find, as as one of you said earlier, you may find that there is some
+
+445
+00:40:05.170 --> 00:40:06.709
+some further things that
+
+446
+00:40:06.730 --> 00:40:07.629
+you have in common.
+
+447
+00:40:07.670 --> 00:40:08.389
+You both
+
+448
+00:40:08.450 --> 00:40:11.809
+Bruce Conrad: you basic message, and you can chat.
+
+449
+00:40:12.180 --> 00:40:15.480
+or maybe you both have one of the
+
+450
+00:40:15.660 --> 00:40:17.879
+configurations for
+
+451
+00:40:18.760 --> 00:40:22.350
+exchanging credentials in common, and then you can work together.
+
+452
+00:40:26.640 --> 00:40:28.979
+Lance Byrd: Yeah, that's that's really good, Bruce.
+
+453
+00:40:29.720 --> 00:40:31.490
+Lance Byrd: I I so
+
+454
+00:40:31.970 --> 00:40:35.990
+Lance Byrd: it's just building on top of that, then would we say that?
+
+455
+00:40:36.110 --> 00:40:47.480
+Lance Byrd: you know trust ping is not necessary, for instance. but discover features seems to be like this initial interop
+
+456
+00:40:48.100 --> 00:41:01.060
+Lance Byrd: spot. And we've talked about you know, maybe even having something above that that. that that people can agree on just so that they can complete the discover features.
+
+457
+00:41:03.210 --> 00:41:07.439
+Lance Byrd: you know transaction or or exchange.
+
+458
+00:41:07.900 --> 00:41:08.959
+Lance Byrd: But
+
+459
+00:41:09.610 --> 00:41:20.760
+Lance Byrd: assuming that you know the other things are taken care of, then do we agree that that maybe discover features is where we would want
+
+460
+00:41:21.210 --> 00:41:23.210
+Lance Byrd: I did come
+
+461
+00:41:24.260 --> 00:41:29.330
+Lance Byrd: Aries interrupt profile 3 compliant agent to start.
+
+462
+00:41:30.970 --> 00:41:42.870
+Rodolfo Miranda: I I I I I I would, I would say the full stack it can be to us back. Yeah. Yeah. Why, if if you do this color feature, what trust me is more basic than that. So
+
+463
+00:41:43.000 --> 00:41:54.859
+Lance Byrd: yeah, but if if you had 2 agents and and again we're talking about an like interrupt profile here. So I what I keep seeing what what I think is a reoccurring theme is that,
+
+464
+00:41:55.200 --> 00:42:05.150
+Lance Byrd: you know. Let's take Bruce's group right. They're going out to you know. Let's get started with. Did come. And okay, we're going to do. Did come V 2, and then they have
+
+465
+00:42:05.280 --> 00:42:06.500
+Lance Byrd: there.
+
+466
+00:42:07.910 --> 00:42:29.869
+Lance Byrd: They They have their requirements right. They have the things that they're interested in. And and and you know I was. I I showed my bias this more today, basically saying like, shouldn't basic message be here because i'm thinking basic message is something that that you know is this base level thing. But it's not right. I think. I think we're base. We're saying that it Isn't.
+
+467
+00:42:30.180 --> 00:42:31.910
+Lance Byrd: so
+
+468
+00:42:32.470 --> 00:42:36.750
+Lance Byrd: if if we were going to have someone do, I did come
+
+469
+00:42:37.370 --> 00:42:40.470
+Lance Byrd: a challenge or implementation
+
+470
+00:42:42.950 --> 00:42:47.990
+Lance Byrd: or usage, I should say, and and it's going to be an aip. 3
+
+471
+00:42:51.580 --> 00:43:09.599
+Lance Byrd: usage. Then I don't think that trust ping is something that you would. It's a nice place to start, you know it's. It's kind of a hello world, right? But it's it's not the thing that you need in order to be a IP 3 in order to be a IP 3. You kind of need to know.
+
+472
+00:43:09.800 --> 00:43:23.150
+Lance Byrd: What what can you do? I I you know i'm here. What can I do? And what can you do but for for that you also need out of one right. You need to start the conversation. So you need out of one. And you need this color feature.
+
+473
+00:43:24.180 --> 00:43:27.990
+Bruce Conrad: I I I agree. I think we're discovering the number 0.
+
+474
+00:43:28.740 --> 00:43:29.410
+Okay.
+
+475
+00:43:29.620 --> 00:43:30.640
+Lance Byrd: right?
+
+476
+00:43:30.940 --> 00:43:45.270
+Lance Byrd: Yes. What what is right, the number 0 and a yeah, I would be fine with, saying that out of ban has to be supported, you know. so trust me, so so simple, that that put altogether this.
+
+477
+00:43:45.470 --> 00:43:56.239
+Lance Byrd: No, I I agree that it is the but I again, if you wanted someone to do, you know. Be minimally aip 3. Do you need trust Bing? Trust things easy?
+
+478
+00:43:56.830 --> 00:44:04.229
+Rodolfo Miranda: Yeah, Why not? It's something that we need to to define. That's you. Define what it is. Why, this color feature what it is it's got
+
+479
+00:44:04.700 --> 00:44:09.990
+Lance Byrd: Well discover feature. Can Can you do
+
+480
+00:44:11.300 --> 00:44:14.940
+Lance Byrd: you? You feel like we? You can do interrupt without discover features.
+
+481
+00:44:15.380 --> 00:44:22.840
+Rodolfo Miranda: Yeah, of course. Yeah. And the message don't give a replace, and that's it. If I ask for the credentials, i'll get okay.
+
+482
+00:44:23.010 --> 00:44:25.969
+Rodolfo Miranda: So that's why we're putting all together. So let's
+
+483
+00:44:26.030 --> 00:44:29.379
+Rodolfo Miranda: minimum just being out of one. This got a feature
+
+484
+00:44:29.730 --> 00:44:31.579
+Rodolfo Miranda: routing, if you need it. But
+
+485
+00:44:31.640 --> 00:44:33.579
+if not, it's it's okay.
+
+486
+00:44:34.150 --> 00:44:36.060
+Rodolfo Miranda: Yeah, the the
+
+487
+00:44:36.260 --> 00:44:41.739
+Bruce Conrad: if if sorry, Rhoda, if if I come to the table saying, i'm a IP, 3,
+
+488
+00:44:41.770 --> 00:44:45.279
+Bruce Conrad: and the other agent sends me to discover features request.
+
+489
+00:44:45.350 --> 00:44:48.170
+Bruce Conrad: If I don't respond, then clearly
+
+490
+00:44:48.300 --> 00:44:50.550
+we have nothing further to say to each other.
+
+491
+00:44:50.860 --> 00:44:52.010
+which is fine.
+
+492
+00:44:53.560 --> 00:44:56.339
+Bruce Conrad: But we interoperate at the 0 level.
+
+493
+00:44:56.750 --> 00:44:59.329
+In other words, we can hear each other's messages.
+
+494
+00:45:00.550 --> 00:45:04.280
+And and we can then determine that there is nothing further to do
+
+495
+00:45:05.710 --> 00:45:08.489
+Lance Byrd: but that that does feel like
+
+496
+00:45:08.710 --> 00:45:10.220
+Lance Byrd: you're doing did come.
+
+497
+00:45:10.600 --> 00:45:23.660
+Lance Byrd: and that's not quite like, interrupt profile so how come You've got your hand up, and and how can I had said, like, you know what is the point of of a IP 3 i'm trying to.
+
+498
+00:45:24.820 --> 00:45:31.310
+Lance Byrd: you know. Try to add different constraints on you guys, and see what they what the response is. in order to kind of
+
+499
+00:45:31.330 --> 00:45:32.680
+Lance Byrd: it out like
+
+500
+00:45:32.720 --> 00:45:44.539
+Lance Byrd: you know, we're not talking. Did come. V. 2 Here we're talking aip 3, which, you know, needs did come. So the question is like, what is that minimally look like.
+
+501
+00:45:44.550 --> 00:46:03.059
+Lance Byrd: so that we don't put any extra burden on on an implementer. again, if they hook up, let's say their agent to the Aries agent test harness, and you, you know, literally have a tag in there that, says Aip 3 which means run, run. These tests Run my agent against these tests that are aip 3.
+
+502
+00:46:03.280 --> 00:46:05.120
+Lance Byrd: I would love
+
+503
+00:46:06.280 --> 00:46:17.050
+Lance Byrd: that to be like, hey? You achieved, we'll say, level 0 of a IP 3. But the question is, what is that? You know what what belongs in there, so that's kind of the way I look at it. Hack on.
+
+504
+00:46:17.150 --> 00:46:17.830
+Yeah.
+
+505
+00:46:19.820 --> 00:46:22.310
+hakan: I think I agree with you. And also
+
+506
+00:46:22.720 --> 00:46:31.999
+hakan: according to these base requirements, we could actually detach the issue, credential and present proof from from the base requirement itself. Because
+
+507
+00:46:32.340 --> 00:46:33.840
+hakan: if you look into
+
+508
+00:46:33.980 --> 00:46:39.730
+hakan: the other requirements that are here expect, except the revocation notification. Now.
+
+509
+00:46:39.840 --> 00:46:58.630
+hakan: it's. It's all related to Dcom, so that you can actually establish a connection. Using did come by out of bands, or trust being is a part of the did come back to discover features that the part of the discom spec routing is a a future of the did come spec. So
+
+510
+00:46:58.640 --> 00:47:11.400
+hakan: if you want to do the discomfort to if you want aip 3 point or based on this convey to, then we would need to support. These protocols that are
+
+511
+00:47:11.440 --> 00:47:16.269
+hakan: written within the spec of did come according to the Diff. So that's why.
+
+512
+00:47:16.460 --> 00:47:30.149
+hakan: I think we should have all trust being out of band discovery, features routing. that is something that I don't think we should dispute, because it's already the spec. And if you want to dispute it, and I think we should bring it out to the diff working group.
+
+513
+00:47:32.070 --> 00:47:41.890
+hakan: And also, yeah, my second point would be if we once, then we could take the exchange protocols out of the base requirements and put it into credential exchange area.
+
+514
+00:47:46.080 --> 00:47:54.209
+Rodolfo Miranda: Yeah. So I support it. Yeah, because it's we we can write it a. I. P. 3 in a different way as the other, and and say exactly what what it means.
+
+515
+00:47:54.350 --> 00:47:56.769
+Rodolfo Miranda: little serial, or whatever we want to call it.
+
+516
+00:47:56.950 --> 00:47:58.660
+Rodolfo Miranda: It's just it. The company, too.
+
+517
+00:47:58.840 --> 00:48:02.909
+Rodolfo Miranda: We did it peers. And then the others. Yeah, like
+
+518
+00:48:11.110 --> 00:48:22.609
+Lance Byrd: yeah, other thoughts, I mean, I I, I are people warming up to this idea of the a IP 3 having kind of a level 0, and maybe even all
+
+519
+00:48:23.730 --> 00:48:39.549
+Lance Byrd: maybe we have other tracks that are like we'll say, like credential exchange level one or something like that, like a way of of again guiding somebody towards like. Here is our minimal common paths that will help you to
+
+520
+00:48:39.560 --> 00:48:44.650
+Lance Byrd: hopefully interrupt with someone else. for the the use case and the requirements that you have.
+
+521
+00:48:46.360 --> 00:48:50.269
+Alex: Yeah to me Level 0 sounds like the date can be 2 spec
+
+522
+00:48:50.740 --> 00:48:58.539
+Alex: in terms of like the features they like. I'm hearing about it's like, hey? Like you, they implemented the company to spec, or I can like you don't
+
+523
+00:48:58.790 --> 00:49:09.679
+Alex: And then yeah, it's like, I feel like that. we can already have that like with the peer libraries, and we can do some like you can kind of like spin up with some minimal
+
+524
+00:49:09.770 --> 00:49:14.539
+Alex: scripts in Python right with the the sick by libraries we did here, so you can have like that
+
+525
+00:49:14.960 --> 00:49:17.579
+Alex: demo like interoperability.
+
+526
+00:49:17.890 --> 00:49:21.839
+Alex: But once you really start to do like anything that's not Demo like
+
+527
+00:49:21.950 --> 00:49:32.030
+Alex: It's going to get challenging to figure out exactly the credential format, the signature types making sure like everything works right like all the models are mapped properly.
+
+528
+00:49:32.280 --> 00:49:44.530
+Alex: That's when I kind of give you becomes like more dice. I think that we already have that level 0 interoperability level where we can talk between different like transport layers, since that's defined today. From which respect in and of itself.
+
+529
+00:49:44.550 --> 00:49:46.189
+Alex: it's transport agnostic.
+
+530
+00:49:46.320 --> 00:49:57.779
+Alex: yeah, that's kinda like I agree with. I can as well from from that perspective in terms of like, we should implement at least minimally, everything that's implemented in the spec.
+
+531
+00:49:59.930 --> 00:50:00.839
+Lance Byrd: Okay.
+
+532
+00:50:00.920 --> 00:50:03.299
+Lance Byrd: now is that
+
+533
+00:50:04.900 --> 00:50:11.559
+Lance Byrd: in reality is that is that what's in the sick? The libraries right now, for instance.
+
+534
+00:50:12.080 --> 00:50:19.210
+Alex: Yeah. Cause I, the problem that we had with Jf. Is that Snore and Brian they use the did web, so had they used it here.
+
+535
+00:50:19.230 --> 00:50:20.640
+Alex: it would have been like
+
+536
+00:50:20.990 --> 00:50:22.040
+Alex: agrees.
+
+537
+00:50:22.160 --> 00:50:25.690
+Alex: So that was the only issue there. It was like a
+
+538
+00:50:26.110 --> 00:50:35.410
+Alex: problem like he wasn't like the the messages themselves were like too complicated, or what not. The reason why we had to break down the messages is because we didn't have enough time, and
+
+539
+00:50:35.470 --> 00:50:38.849
+Alex: the encryption wasn't working so like we tried to like, reduce
+
+540
+00:50:39.180 --> 00:50:47.990
+Alex: the message exchange. So we're gonna have to implement all the underlying cryptography since it wasn't working in the first place. But had we had all of the low-level stuff implemented like
+
+541
+00:50:48.240 --> 00:50:53.150
+Alex: writing Walkie taxes in exchange. It wouldn't be that big of an issue, because
+
+542
+00:50:53.380 --> 00:51:02.330
+Alex: if you just support Jwt: all you have to implement is like those Jose Library and most developers are like familiar with Jwts and whatnot
+
+543
+00:51:03.770 --> 00:51:06.270
+Alex: rather than Jason it'll be for
+
+544
+00:51:06.440 --> 00:51:08.009
+Alex: and on Prads or
+
+545
+00:51:08.840 --> 00:51:12.500
+Alex: the Iso Mdl. Spec. That eventually is going to be and what not.
+
+546
+00:51:15.550 --> 00:51:16.399
+Lance Byrd: Okay.
+
+547
+00:51:19.050 --> 00:51:25.930
+Lance Byrd: So shall I comment then, on on pulling these out into as optional.
+
+548
+00:51:26.500 --> 00:51:33.139
+Lance Byrd: Is that is everybody okay, with that for Wacky packs for for issue, credential and present proof.
+
+549
+00:51:37.760 --> 00:51:41.519
+Rodolfo Miranda: And I think we're location right? Because we location is to the
+
+550
+00:51:43.480 --> 00:51:46.020
+Lance Byrd: Okay. So all 3 of these
+
+551
+00:51:46.850 --> 00:51:49.100
+Lance Byrd: suggesting
+
+552
+00:51:58.660 --> 00:52:05.339
+Lance Byrd: Is everybody okay with me, putting the comment that the Aries did company to working group
+
+553
+00:52:07.500 --> 00:52:09.520
+Lance Byrd: would like to consider
+
+554
+00:52:11.730 --> 00:52:14.930
+Lance Byrd: only
+
+555
+00:52:16.490 --> 00:52:19.260
+Lance Byrd: revocation, notification
+
+556
+00:52:22.180 --> 00:52:24.650
+Lance Byrd: issue credential
+
+557
+00:52:25.660 --> 00:52:27.560
+Lance Byrd: and present proof
+
+558
+00:52:28.440 --> 00:52:30.129
+Lance Byrd: into
+
+559
+00:52:30.920 --> 00:52:32.620
+Lance Byrd: an optional section.
+
+560
+00:52:34.210 --> 00:52:40.169
+Alex: I guess just to be able to advocate aren't. We just then implementing the dipcombe to spec.
+
+561
+00:52:40.210 --> 00:52:42.240
+Alex: If you don't have like the issue credential
+
+562
+00:52:42.820 --> 00:52:43.629
+Alex: in there.
+
+563
+00:52:44.450 --> 00:52:51.140
+Lance Byrd: Well, I think that the at least one difference would be specifying the peer did
+
+564
+00:52:53.300 --> 00:53:01.869
+Lance Byrd: and and and that at least shows like if we were again to to put it in in terms of the trust over IP stack
+
+565
+00:53:03.570 --> 00:53:13.420
+Lance Byrd: That would show layer one. You know what is. You know it's nice to have super simple layer. One you know. Go, Pier did right layer. 2
+
+566
+00:53:13.720 --> 00:53:17.199
+Lance Byrd: did come v 2 implementation, right?
+
+567
+00:53:17.350 --> 00:53:27.639
+Lance Byrd: and then essentially, we're saying layer 3 stuff is all these optional things that maybe we have, you know, documentation that says.
+
+568
+00:53:27.930 --> 00:53:35.040
+Lance Byrd: okay, these things are optional. But you know, here's Here's a common path for issuing credentials, or you know, whatever it might be.
+
+569
+00:53:36.130 --> 00:53:44.029
+Lance Byrd: so on that I mean, it seems like very little, but it sounds like Alex. For Jf. For instance, you know
+
+570
+00:53:44.050 --> 00:53:50.429
+Lance Byrd: it would be what you guys would have been way more successful if if that had been, you know, specified that way. Possibly.
+
+571
+00:53:51.230 --> 00:53:56.690
+Alex: Yeah, yeah, definitely. I think it would have been helpful if we can. Just I've agreed on like using the tiers.
+
+572
+00:53:56.760 --> 00:54:01.750
+Alex: yeah, but we didn't know that the libraries support for adding, you did methods for
+
+573
+00:54:01.820 --> 00:54:03.589
+Alex: that one key.
+
+574
+00:54:03.790 --> 00:54:20.589
+Lance Byrd: Yeah, yeah. And that's yeah, that's what we want people to kind of understand is, you know. Okay, maybe this this may seem trivial to you, but you know, trust us, it's not right or something like that. and there's probably something else that we're not quite thinking about
+
+575
+00:54:20.600 --> 00:54:32.459
+Lance Byrd: yet. That might also go in kind of this minimal you know, layer one layer 2. There might be something in there that we're not thinking of, although I wouldn't know you guys, you would know better. So
+
+576
+00:54:35.180 --> 00:54:38.639
+Bruce Conrad: i'm! I'm your point lunch. You could soften the blow by
+
+577
+00:54:38.810 --> 00:54:45.260
+Lance Byrd: by saying into a recommended optional section or something like that.
+
+578
+00:54:47.870 --> 00:54:51.770
+Bruce Conrad: Then that that's an odd to the fact that it that it had been in the base
+
+579
+00:54:53.480 --> 00:54:54.470
+Lance Byrd: right.
+
+580
+00:54:54.650 --> 00:54:56.480
+as someone said earlier.
+
+581
+00:54:57.440 --> 00:55:03.489
+Bruce Conrad: think it was Alex and heck we eventually we would want to support, not just
+
+582
+00:55:04.150 --> 00:55:07.930
+the the Walkie Pax way of doing credentials, but also at least one of the
+
+583
+00:55:08.050 --> 00:55:08.830
+others, I mean.
+
+584
+00:55:08.900 --> 00:55:10.060
+perhaps all of them
+
+585
+00:55:10.420 --> 00:55:11.290
+eventually.
+
+586
+00:55:12.250 --> 00:55:13.690
+But you work your way up.
+
+587
+00:55:14.170 --> 00:55:14.959
+Lance Byrd: Yeah.
+
+588
+00:55:15.610 --> 00:55:17.009
+Lance Byrd: and and yeah.
+
+589
+00:55:18.140 --> 00:55:19.219
+Lance Byrd: sorry. Go ahead.
+
+590
+00:55:19.700 --> 00:55:20.519
+I was done.
+
+591
+00:55:20.720 --> 00:55:48.290
+Lance Byrd: Okay, yeah, and right and this, so that might also be our opportunity to say, okay, here's this thing called Wackypex Light, or or like it did come, you know, minimal, or you know, basically saying, okay, this is inspired by Wacky did come. if you implement this your your you know we'll say we'll pretend it's 33% of the way there for for Wacky did come. But you can start interoping with other people who have implemented. you know Wacky did come. Simple.
+
+592
+00:55:48.840 --> 00:55:52.800
+Lance Byrd: Does that seem reasonable, Alex, based on your
+
+593
+00:55:52.890 --> 00:55:57.959
+Lance Byrd: experience and and or yeah, and anybody else thoughts
+
+594
+00:55:58.030 --> 00:56:00.220
+Lance Byrd: we've got 4 min.
+
+595
+00:56:00.750 --> 00:56:01.729
+Lance Byrd: 3 min.
+
+596
+00:56:05.230 --> 00:56:05.850
+Alex: Hmm.
+
+597
+00:56:07.280 --> 00:56:10.539
+Alex: I'm trying to think. Sorry, I guess. Like what i'm trying.
+
+598
+00:56:10.590 --> 00:56:12.649
+Alex: I'm not sure that.
+
+599
+00:56:14.610 --> 00:56:20.500
+Alex: So like the problem is, it's not like the the walkypex itself, like just to find, like the messages they need to be sent back and forth.
+
+600
+00:56:20.600 --> 00:56:29.260
+Alex: and like that's not hard in and of itself right like you. Just it's some header. So you got to put on in different messages. The hard thing is like doing that, like supporting the actual decryption.
+
+601
+00:56:29.690 --> 00:56:34.390
+Alex: and, like the do you support credentials, definitions, credentials, presentations.
+
+602
+00:56:34.420 --> 00:56:47.490
+Alex: this for just an ld like it just an early processor. Those are like the other things it's not necessarily like. I don't think that what you packs like, whether like you asked for getting a credential first or not?
+
+603
+00:56:47.500 --> 00:57:00.790
+Alex: Is that challenging is actually like doing the validations like? Do you need to do that or all that kind of stuff, because, like you can always omit it, and the walkie packs like some steps are optional already in there, so like you don't have to request a credential. You can just like.
+
+604
+00:57:00.900 --> 00:57:03.339
+Alex: hey, like, propose a request.
+
+605
+00:57:03.970 --> 00:57:14.770
+Alex: and then like, accept the request, and then, like you can issue a credential, and then it to sub differential. So I think it's relatively minimal already, in the sense that it doesn't define all to like. Send multiple credentials at once.
+
+606
+00:57:14.930 --> 00:57:16.489
+Alex: or that kind of stuff.
+
+607
+00:57:16.630 --> 00:57:17.640
+Alex: Yeah.
+
+608
+00:57:18.140 --> 00:57:28.429
+Alex: yes, like I'm not sure like breaking that down, even like the Walkie packs like even further, because then all you would just do is just like issue, a credential. And that would be it.
+
+609
+00:57:28.550 --> 00:57:32.810
+Alex: in my opinion. Because, yeah, like the credential manifest, is already optional
+
+610
+00:57:33.010 --> 00:57:34.270
+Alex: in Walkiepex.
+
+611
+00:57:35.590 --> 00:57:39.410
+Lance Byrd: tell me something. So
+
+612
+00:57:40.410 --> 00:57:41.850
+Lance Byrd: if you
+
+613
+00:57:42.060 --> 00:57:46.750
+Lance Byrd: when when I if you do discover features.
+
+614
+00:57:47.180 --> 00:57:49.360
+Lance Byrd: does it tell you.
+
+615
+00:57:49.750 --> 00:57:54.120
+Lance Byrd: hey? okay, I support Wacky pecks.
+
+616
+00:57:54.280 --> 00:57:58.290
+Lance Byrd: But I didn't implement these optional pieces.
+
+617
+00:57:59.700 --> 00:58:06.259
+Lance Byrd: I'm going to assume it's not we, traditionally Hasn't been that expressive. Not that you couldn't do it.
+
+618
+00:58:06.270 --> 00:58:23.690
+Lance Byrd: do it using discover features. But you you get what I'm getting at right, that that again this discoverability. Okay, If there is a bunch of parts that are optional. how do I know if if you did it or not, do I just start. We just try, and then we break, or you know it would be nice to, you know, be able to discover ahead of time.
+
+619
+00:58:25.860 --> 00:58:26.819
+Alex: Oh.
+
+620
+00:58:27.750 --> 00:58:32.219
+Alex: I guess you'd be nice to discover I have time to do
+
+621
+00:58:32.490 --> 00:58:51.739
+Alex: like. What's the use? Case, I guess, like i'm trying to figure out. Hey? You like request a credential, but, like you, don't support me asking for credential like, what's that? Well, I was, I was thinking, more like so. You had mentioned like credential formats, for instance. What if what if you wanted to say something like, hey, My preferences that you give me a credential in Json, Ld.
+
+622
+00:58:52.030 --> 00:59:00.669
+Alex: But so you do that. You do that whenever somebody like in the Walkypex protocol. That's when you do that? It's like, hey? I'm trying to send you a Gwd.
+
+623
+00:59:01.060 --> 00:59:08.420
+Alex: Do you want to accept it? And then you can say yes, I want to accept it, and then, like. The next message is like somebody that's issued a differential
+
+624
+00:59:08.450 --> 00:59:13.939
+Alex: with the data that they send you in the proposed, and then you can accept that, or you can decline the proposal
+
+625
+00:59:14.170 --> 00:59:17.360
+Alex: so like that's when you would do that.
+
+626
+00:59:17.460 --> 00:59:18.729
+Lance Byrd: Yeah.
+
+627
+00:59:18.880 --> 00:59:22.520
+Alex: it's like, hey? These are like, what proof types do you support.
+
+628
+00:59:22.610 --> 00:59:25.660
+Alex: What trans will do you support? I am proposing this.
+
+629
+00:59:25.740 --> 00:59:33.609
+Alex: Oh, do you want to accept it or not? So that's already done at the Walkypex level like that's get negotiated in in there. Yeah.
+
+630
+00:59:33.770 --> 00:59:34.529
+Lance Byrd: Okay.
+
+631
+00:59:35.120 --> 00:59:36.300
+Lance Byrd: yeah. I got you.
+
+632
+00:59:37.840 --> 00:59:41.180
+Lance Byrd: Okay, Any last parting thoughts, because that's our time
+
+633
+00:59:43.240 --> 00:59:46.499
+Lance Byrd: to. Is everybody feel all right with the direction we're heading.
+
+634
+00:59:46.810 --> 00:59:53.639
+hakan: Yeah, maybe one thing that I would like to add or ask to the Aries community, because I mean most of
+
+635
+00:59:53.810 --> 00:59:56.769
+hakan: the people participating in here is.
+
+636
+00:59:56.830 --> 01:00:01.350
+hakan: if I understand, correct, not using as framework as as a
+
+637
+01:00:01.850 --> 01:00:03.310
+hakan: underlying
+
+638
+01:00:03.630 --> 01:00:15.970
+hakan: yeah framework. Let's say, I would like to ask this as well to the Aries community who are who worked on the aip one and 2 point. Oh, to get like a bit of
+
+639
+01:00:16.300 --> 01:00:20.719
+hakan: background information about. What was the perspective that they were taking on
+
+640
+01:00:21.560 --> 01:00:35.450
+hakan: like? Was it the perspective of credential issuance was the perspective of fulfilling the interactions that are happening between issue hold the verifier, or was it more general and depending on it? I think we will have a better direction of like having the areas into a profile, 3:
+
+641
+01:00:36.300 --> 01:00:37.650
+Lance Byrd: yeah, good point
+
+642
+01:00:38.370 --> 01:00:57.210
+Lance Byrd: A. And and learn from that perspective. But then, I think, bringing this new perspective of hey, this is a group of people who are who I actually have to deal with did comfy, too, right? And and and you know, maybe the perspective has has shifted. Now, you know. Obviously, Bruce is okay. Yeah, I think that's perfect.
+
+643
+01:00:57.220 --> 01:01:11.600
+Lance Byrd: Okay? Well, I think there is a meeting the user group meetings later today, for for if and so that could be an opportunity. And then Aries working group has been covering aip as well, I think, on Wednesday. So that's been really good with Sam. So
+
+644
+01:01:11.610 --> 01:01:19.560
+hakan: okay, you send me that link. Please lens the the world for the Aries one. I'm not aware of that one. Thank you.
+
+645
+01:01:19.700 --> 01:01:24.919
+Lance Byrd: I will do that right now, other than that, any other parting thoughts
+
+646
+01:01:25.690 --> 01:01:26.310
+and
+
+647
+01:01:27.120 --> 01:01:28.849
+Bruce Conrad: happy holidays for everyone.
+
+648
+01:01:28.950 --> 01:01:34.580
+Rodolfo Miranda: Yeah.
+
+649
+01:01:34.600 --> 01:01:40.540
+Lance Byrd: that's right. They'll be celebrating for 4 years. Now.
+
+650
+01:01:42.560 --> 01:01:53.979
+Lance Byrd: Yeah, it's good. okay, the Yup, the link to the latest areas Working group people are, are, you know, obviously free to jump off. But I just wanted to get that into the chat.
+
+651
+01:01:54.700 --> 01:01:56.379
+Lance Byrd: Very good, great to see you all.
+
+652
+01:01:57.270 --> 01:02:00.479
+Lance Byrd: we get together in the New Year. Yeah.
+
+653
+01:02:00.560 --> 01:02:04.779
+hakan: good bye, bye, bye, bye, bye, bye, bye.
+

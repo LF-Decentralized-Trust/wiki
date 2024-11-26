@@ -1,0 +1,10 @@
+00:22:36	Ajay Jadhav:	Updated for Aries-framework-javascript 
+00:25:57	Darrell ODonnell:	Filip - that is awesome. Anything-over-DIDComm
+00:26:07	Darrell ODonnell:	WebRTC over DIDComm…
+00:29:30	Troy Ronda:	Aries SDK Go is empty: https://github.com/hyperledger/aries-sdk-go
+00:29:35	Filip Burlacu:	Aries SDK Go has nothing but project setup (readme, license) afaict
+00:31:40	Filip Burlacu:	@Darrell the main difficulty is simulating a duplex connection to make the DIDComm transport layer transparent, luckily such an issue is largely the same for any use case
+00:36:24	Darrell ODonnell:	@Filip - agreed. We see a use case in the wild for WebRTC that is DID-savvy. For the short-term we’re looking at workarounds that are DIDComm-esque (i.e. similar, but definitely not DIDComm).
+00:36:31	Troy Ronda:	@Darrell - Yes. We are starting with HTTP over DIDComm, so that we can use DIDs and DIDComm as a substitute for HTTPS.
+00:37:15	Troy Ronda:	For sure I can imagine additional possibilities.
+01:04:21	Andrew Whitehead:	I think I agree with updating the RFC to a) use a string in Forward/1.0, and b) use a JSON object in Forward/1.1 - presumably the object is the ‘newer’ version

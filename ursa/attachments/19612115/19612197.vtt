@@ -1,0 +1,1786 @@
+WEBVTT
+
+1
+00:01:36.420 --> 00:01:36.930
+Nathan George: hey cam.
+
+2
+00:01:39.540 --> 00:01:40.500
+Cam Parra | kiva.org: Anything how are you.
+
+3
+00:01:41.070 --> 00:01:43.110
+Nathan George: Is the areas tall already all wrapped up.
+
+4
+00:01:44.190 --> 00:01:48.420
+Cam Parra | kiva.org: I believes oh I left a little bit early to prepare for this meeting.
+
+5
+00:01:49.680 --> 00:01:55.050
+Nathan George: I didn't hit the area's call today, I had a conflict, so I did my other kiva meetings.
+
+6
+00:01:56.190 --> 00:02:02.310
+Cam Parra | kiva.org: Oh yeah that's okay just went over proof of our proof of ownership.
+
+7
+00:02:03.000 --> 00:02:03.660
+um.
+
+8
+00:02:05.220 --> 00:02:05.490
+Hart Montgomery: Hello.
+
+9
+00:02:06.900 --> 00:02:07.770
+Cam Parra | kiva.org: hey hardy hardy.
+
+10
+00:02:08.190 --> 00:02:08.790
+Hart Montgomery: hey guys.
+
+11
+00:02:09.990 --> 00:02:11.430
+Hart Montgomery: yeah how are you all.
+
+12
+00:02:12.990 --> 00:02:13.860
+Cam Parra | kiva.org: good and well, thank you.
+
+13
+00:02:14.310 --> 00:02:20.910
+Hart Montgomery: US awesome I meant to have something for you all, I meant to send this to you, but I forgot.
+
+14
+00:02:24.780 --> 00:02:28.380
+Hart Montgomery: I did ask about private set intersection.
+
+15
+00:02:31.320 --> 00:02:33.030
+Hart Montgomery: Let me find their response.
+
+16
+00:02:37.080 --> 00:02:37.620
+Hart Montgomery: There we go.
+
+17
+00:02:40.980 --> 00:02:44.010
+Hart Montgomery: me for me for two other spots.
+
+18
+00:02:45.210 --> 00:02:47.340
+Hart Montgomery: Camilo p@kiva.com right.
+
+19
+00:02:47.700 --> 00:02:55.290
+Cam Parra | kiva.org: yep.org sorry.
+
+20
+00:02:57.540 --> 00:02:58.440
+Cam Parra | kiva.org: You said it's dot org.
+
+21
+00:02:59.370 --> 00:02:59.910
+Hart Montgomery: Yes.
+
+22
+00:03:00.060 --> 00:03:02.340
+Hart Montgomery: i'm sending it right now i've also sent to Nathan.
+
+23
+00:03:03.030 --> 00:03:03.390
+sweet.
+
+24
+00:03:04.560 --> 00:03:10.590
+Hart Montgomery: So these are that I asked somebody about it and they gave me like two references they thought were the best.
+
+25
+00:03:13.500 --> 00:03:14.850
+Hart Montgomery: So you all can check those out.
+
+26
+00:03:18.690 --> 00:03:23.850
+Hart Montgomery: Sorry, I meant to like send this along, but I just dropped the ball.
+
+27
+00:03:25.950 --> 00:03:36.600
+Cam Parra | kiva.org: that's okay um I thought we could continue our discussion today about private set pieces yeah and maybe you can give us some more insight from what you got.
+
+28
+00:03:38.340 --> 00:03:38.790
+Hart Montgomery: yeah.
+
+29
+00:03:40.230 --> 00:03:45.210
+Hart Montgomery: So why don't I send you that mail, I will pull up the actual links.
+
+30
+00:03:54.720 --> 00:03:55.020
+Nathan George: here.
+
+31
+00:04:00.360 --> 00:04:02.460
+Hart Montgomery: I also have to leave at 830, unfortunately.
+
+32
+00:04:03.390 --> 00:04:03.810
+Okay.
+
+33
+00:04:06.060 --> 00:04:08.790
+Hart Montgomery: For meetings, scheduled for this hour so.
+
+34
+00:04:10.890 --> 00:04:12.210
+Nathan George: You chose to do first.
+
+35
+00:04:12.870 --> 00:04:17.100
+Hart Montgomery: So that's not the greatest but alright so there's one paper.
+
+36
+00:04:18.390 --> 00:04:21.300
+Hart Montgomery: This is the newer one I think this is probably the one to go over.
+
+37
+00:04:25.920 --> 00:04:28.740
+Hart Montgomery: This has a comparison of lots of different protocols.
+
+38
+00:04:35.070 --> 00:04:42.900
+Cam Parra | kiva.org: that's actually sounds like from the title, it sounds like what I wanted to talk about because the more I look into private said intersection.
+
+39
+00:04:43.920 --> 00:04:50.910
+Cam Parra | kiva.org: It seems like there are less and less use cases for us at least because it doesn't seem like it's scalable or.
+
+40
+00:04:52.410 --> 00:04:55.440
+Cam Parra | kiva.org: Or the scalable solutions are correlated will.
+
+41
+00:04:56.640 --> 00:04:57.330
+Hart Montgomery: yeah so.
+
+42
+00:04:58.440 --> 00:05:01.530
+Hart Montgomery: It depends on how you define sort of like.
+
+43
+00:05:02.730 --> 00:05:04.860
+Hart Montgomery: What scalability do you need right.
+
+44
+00:05:07.020 --> 00:05:20.460
+Cam Parra | kiva.org: Right let's say we wanted to do like implement this for revocation right and you would have millions of entries in a set that this you know PSI probably wouldn't be the best solution for it.
+
+45
+00:05:26.490 --> 00:05:28.740
+Hart Montgomery: yeah so you have to.
+
+46
+00:05:33.570 --> 00:05:37.590
+Hart Montgomery: I mean, as you point out the correlation is interesting right because.
+
+47
+00:05:40.530 --> 00:05:52.620
+Hart Montgomery: Basically, this is this is like one of those things where you have to make sure you like don't move too fast, like if your protocol is too fast right, you can sometimes effectively distinguish.
+
+48
+00:05:57.870 --> 00:06:00.120
+Hart Montgomery: Like not always but.
+
+49
+00:06:07.260 --> 00:06:12.030
+Hart Montgomery: So we're here they this paper disclaiming some pretty good scalability.
+
+50
+00:06:16.320 --> 00:06:23.280
+Cam Parra | kiva.org: Visa I think it is that they're that they gave a talk about it, they were doing, they were hashing their set your.
+
+51
+00:06:24.420 --> 00:06:24.840
+Hart Montgomery: Visa.
+
+52
+00:06:25.830 --> 00:06:32.340
+Cam Parra | kiva.org: I don't remember, I can see, but they they were talking about hashing it and using.
+
+53
+00:06:33.540 --> 00:06:34.020
+Cam Parra | kiva.org: I think.
+
+54
+00:06:35.310 --> 00:06:36.990
+Cam Parra | kiva.org: cuckoo cuckoo.
+
+55
+00:06:38.250 --> 00:06:49.050
+Cam Parra | kiva.org: sorting and they mentioned that, while it was emitted scalable it was if it wasn't done correctly, it what it would be, it would be correlated will.
+
+56
+00:06:50.160 --> 00:06:51.780
+Nathan George: yeah there to.
+
+57
+00:06:51.930 --> 00:06:57.390
+Nathan George: You, you have to pick which things are protecting Australia protecting us everything just becomes too expensive.
+
+58
+00:06:58.470 --> 00:07:00.360
+Cam Parra | kiva.org: I think it was Peter rendell.
+
+59
+00:07:02.640 --> 00:07:02.880
+Hart Montgomery: yeah.
+
+60
+00:07:03.270 --> 00:07:04.320
+Nathan George: that's enough for me.
+
+61
+00:07:06.300 --> 00:07:06.900
+Cam Parra | kiva.org: What was it.
+
+62
+00:07:07.440 --> 00:07:12.150
+Nathan George: You have a link to whatever your paper documentation, you have from that it's only the meeting.
+
+63
+00:07:13.620 --> 00:07:14.130
+Oh well.
+
+64
+00:07:21.570 --> 00:07:25.050
+Nathan George: i'm at the point where I have to catch up on some of these papers, for I have much more opinions on it.
+
+65
+00:07:26.250 --> 00:07:29.190
+Hart Montgomery: I mean, if you want like I can.
+
+66
+00:07:32.940 --> 00:07:36.090
+Hart Montgomery: I can probably email Peter, I mean, I know, Peter well enough to email him.
+
+67
+00:07:42.630 --> 00:07:45.780
+Cam Parra | kiva.org: That would be cool yeah definitely.
+
+68
+00:07:48.150 --> 00:07:56.580
+Cam Parra | kiva.org: Well i'm more interested on on on on the privacy of of cuckoo and seeing if it if it is possible.
+
+69
+00:07:57.810 --> 00:08:02.220
+Hart Montgomery: So I guess like can you can you state in a.
+
+70
+00:08:04.560 --> 00:08:08.190
+Hart Montgomery: Can you stayed in like a cryptographic definition what privacy properties, you want.
+
+71
+00:08:11.880 --> 00:08:12.870
+Cam Parra | kiva.org: um.
+
+72
+00:08:15.660 --> 00:08:16.170
+Cam Parra | kiva.org: let's see.
+
+73
+00:08:17.550 --> 00:08:17.670
+Hart Montgomery: there.
+
+74
+00:08:18.150 --> 00:08:19.800
+Hart Montgomery: are also covers crashing.
+
+75
+00:08:23.340 --> 00:08:24.180
+Cam Parra | kiva.org: there's also.
+
+76
+00:08:27.990 --> 00:08:39.300
+Cam Parra | kiva.org: there's a there's another type of sorting that can be used that I went over this that I read about but um yeah for the properties that we would want for revocation.
+
+77
+00:08:40.440 --> 00:08:42.870
+Cam Parra | kiva.org: that's like tough on the spot question.
+
+78
+00:08:44.580 --> 00:08:45.180
+Cam Parra | kiva.org: um.
+
+79
+00:08:48.810 --> 00:08:51.030
+Cam Parra | kiva.org: I guess we're trying to keep we're trying to keep.
+
+80
+00:08:52.800 --> 00:08:58.530
+Cam Parra | kiva.org: You know both sets as private as they as they can be and.
+
+81
+00:09:03.180 --> 00:09:03.630
+Cam Parra | kiva.org: yeah.
+
+82
+00:09:05.850 --> 00:09:06.840
+Hart Montgomery: yeah I mean it's.
+
+83
+00:09:07.950 --> 00:09:12.240
+Hart Montgomery: Like, and that is like well you're certainly not going to attempt to.
+
+84
+00:09:13.380 --> 00:09:17.520
+Hart Montgomery: Like I would be surprised if you were going to try to hide the set size, for instance, right.
+
+85
+00:09:17.910 --> 00:09:18.390
+Cam Parra | kiva.org: mm hmm.
+
+86
+00:09:18.600 --> 00:09:22.200
+Hart Montgomery: Maybe you are but that gets very complicated very fast.
+
+87
+00:09:23.430 --> 00:09:30.720
+Hart Montgomery: It is very difficult, so so that you, you leak to set size, you probably also like the intersection size right.
+
+88
+00:09:31.560 --> 00:09:32.100
+Right.
+
+89
+00:09:33.180 --> 00:09:39.600
+Hart Montgomery: So right off the BAT like you're leaking like the deltas in the operation right.
+
+90
+00:09:40.950 --> 00:09:51.300
+Hart Montgomery: So if I run like a sad intersection with you like twice it two different times right, then I can sort of know how many things you've like added that are in the intersection right.
+
+91
+00:09:51.810 --> 00:09:57.990
+Hart Montgomery: Right, and this is a problem right if I like and if I query you after every update right.
+
+92
+00:10:00.870 --> 00:10:02.640
+Hart Montgomery: Like that's a problem for you right.
+
+93
+00:10:03.210 --> 00:10:03.660
+Right.
+
+94
+00:10:05.550 --> 00:10:07.260
+Hart Montgomery: or it could potentially be a problem.
+
+95
+00:10:11.790 --> 00:10:14.730
+Hart Montgomery: So you know if you're in this like multiple query model.
+
+96
+00:10:16.050 --> 00:10:19.890
+Hart Montgomery: You need to have some kind of definition like where you know.
+
+97
+00:10:21.660 --> 00:10:22.170
+Hart Montgomery: The.
+
+98
+00:10:23.730 --> 00:10:27.990
+Hart Montgomery: an adversary only sort of learns like the deltas or something right.
+
+99
+00:10:29.280 --> 00:10:29.790
+Cam Parra | kiva.org: Right.
+
+100
+00:10:33.960 --> 00:10:43.950
+Cam Parra | kiva.org: So, no matter what you would see what you're saying is no matter what we would do if we implemented something like PSI there would always be leakage some in some area.
+
+101
+00:10:44.010 --> 00:10:45.600
+Hart Montgomery: yeah there's always somebody could trade.
+
+102
+00:10:45.690 --> 00:10:46.260
+me right.
+
+103
+00:10:48.060 --> 00:10:48.480
+Hart Montgomery: Like.
+
+104
+00:10:50.760 --> 00:10:52.470
+Hart Montgomery: You know, like.
+
+105
+00:10:53.640 --> 00:11:00.360
+Hart Montgomery: This kind of thing is extremely hard right, you know you're getting into essentially like traffic analysis style problems right.
+
+106
+00:11:00.870 --> 00:11:02.910
+Hart Montgomery: Right, and this is like.
+
+107
+00:11:04.110 --> 00:11:05.670
+Hart Montgomery: extremely difficult to mitigate.
+
+108
+00:11:07.980 --> 00:11:09.960
+Hart Montgomery: But you know, maybe this thing is okay right.
+
+109
+00:11:11.070 --> 00:11:25.080
+Cam Parra | kiva.org: Right yeah I don't see why it would be I guess it wouldn't be a problem for people to know the size of the set, especially if it's something like a public set like you're you have one private private set and one public set.
+
+110
+00:11:26.460 --> 00:11:29.010
+Hart Montgomery: But they also might learn the size of the intersection right.
+
+111
+00:11:29.520 --> 00:11:34.050
+Hart Montgomery: Right so that's probably okay to learn to write.
+
+112
+00:11:35.040 --> 00:11:35.700
+yeah.
+
+113
+00:11:37.620 --> 00:11:41.520
+Cam Parra | kiva.org: As long as that data is not correlated to to.
+
+114
+00:11:42.630 --> 00:11:51.780
+Cam Parra | kiva.org: You know the private the the person who wants to keep their their separate private or if both people want us or both parties want to keep their sets private or.
+
+115
+00:11:51.810 --> 00:11:52.680
+Hart Montgomery: Whatever well, let me.
+
+116
+00:11:52.830 --> 00:11:56.730
+Hart Montgomery: The other thing is like what externally is also going on with these sets right.
+
+117
+00:11:57.540 --> 00:12:01.920
+Hart Montgomery: Right it's probably fine if there's like no outside information right.
+
+118
+00:12:04.050 --> 00:12:04.350
+Hart Montgomery: But.
+
+119
+00:12:04.410 --> 00:12:05.790
+Nathan George: It never really works that way.
+
+120
+00:12:06.690 --> 00:12:07.080
+Nathan George: But.
+
+121
+00:12:07.560 --> 00:12:10.140
+Hart Montgomery: It never really heard yeah there's always outside information.
+
+122
+00:12:12.120 --> 00:12:18.750
+Hart Montgomery: So, like yeah So if you want to do this, like the first thing to do is to think about what security, you need right.
+
+123
+00:12:22.470 --> 00:12:22.920
+Cam Parra | kiva.org: yeah.
+
+124
+00:12:23.250 --> 00:12:28.350
+Hart Montgomery: So, like what exactly does uncorrelated ability made right.
+
+125
+00:12:30.450 --> 00:12:42.120
+Nathan George: yeah which which pieces of data in the protocol required to be required to be non correlated will well i'm what what's considered part of the scope of blinding and what's not.
+
+126
+00:12:42.150 --> 00:12:53.190
+Nathan George: yeah and which secrets, do you anchor those things to it, how do you make sure that entropy is set up, so that it's fair and no malicious party can destroy the guarantees for counter parties.
+
+127
+00:12:54.510 --> 00:13:04.080
+Hart Montgomery: yeah, so this is yeah The important thing is defining the model and once you have the model, then we can think about a protocol right and somebody may have already done, the protocol for you right.
+
+128
+00:13:05.010 --> 00:13:05.430
+Right.
+
+129
+00:13:08.220 --> 00:13:08.820
+Hart Montgomery: So.
+
+130
+00:13:11.790 --> 00:13:15.840
+Hart Montgomery: But yeah This is like my experience is that, like.
+
+131
+00:13:19.260 --> 00:13:28.320
+Hart Montgomery: You know, good security professionals and applied cryptographers like pick this and fix the security definitions.
+
+132
+00:13:29.400 --> 00:13:30.810
+Hart Montgomery: Before they.
+
+133
+00:13:32.220 --> 00:13:35.250
+Hart Montgomery: Start worrying about how to implement them.
+
+134
+00:13:36.600 --> 00:13:38.640
+Hart Montgomery: Read sort of the less good people.
+
+135
+00:13:40.230 --> 00:13:43.020
+Hart Montgomery: don't commit to definitions and just sort of throw.
+
+136
+00:13:44.460 --> 00:13:46.410
+Hart Montgomery: Solutions at the problem.
+
+137
+00:13:47.190 --> 00:13:47.400
+So.
+
+138
+00:13:48.420 --> 00:13:48.690
+Hart Montgomery: that's.
+
+139
+00:13:49.320 --> 00:13:50.100
+Cam Parra | kiva.org: Right yeah.
+
+140
+00:13:50.340 --> 00:13:53.100
+Nathan George: It was a pile of protocols, but don't necessarily that.
+
+141
+00:13:53.130 --> 00:13:57.360
+Hart Montgomery: yeah and they may do something, but they may not so.
+
+142
+00:13:58.530 --> 00:13:59.190
+Cam Parra | kiva.org: i'm right.
+
+143
+00:13:59.940 --> 00:14:06.330
+Nathan George: can do we have a notes page or or an agenda page for the meeting today I couldn't find one on the wiki you.
+
+144
+00:14:06.900 --> 00:14:10.230
+Cam Parra | kiva.org: know I still don't know how to make one, and so I need to figure that out.
+
+145
+00:14:10.440 --> 00:14:14.730
+Hart Montgomery: So, are you in go to wiki that hyper ledger.org.
+
+146
+00:14:16.110 --> 00:14:17.460
+Hart Montgomery: We can do this life.
+
+147
+00:14:18.600 --> 00:14:19.320
+Hart Montgomery: And login.
+
+148
+00:14:25.680 --> 00:14:27.360
+Hart Montgomery: And then go to the ursa page.
+
+149
+00:14:30.270 --> 00:14:31.740
+Hart Montgomery: you'd have to get to there so page.
+
+150
+00:14:36.720 --> 00:14:39.570
+Nathan George: cam I think you're you're the one where these teaching here.
+
+151
+00:14:40.170 --> 00:14:40.470
+care.
+
+152
+00:14:44.430 --> 00:14:45.990
+Cam Parra | kiva.org: sorry about that I was muted.
+
+153
+00:14:46.410 --> 00:14:51.690
+Hart Montgomery: Sorry, so go to this page right there I put a posted in the chat.
+
+154
+00:14:53.430 --> 00:14:53.760
+Cam Parra | kiva.org: Right.
+
+155
+00:14:55.290 --> 00:14:59.040
+Hart Montgomery: And then on the far left there should be a meeting agendas and notes.
+
+156
+00:15:00.990 --> 00:15:01.320
+Cam Parra | kiva.org: yep.
+
+157
+00:15:01.980 --> 00:15:08.310
+Hart Montgomery: And then you click on meeting agendas meeting notes and then, once you go in there at the top toolbar there's a big create button.
+
+158
+00:15:20.520 --> 00:15:21.150
+Hart Montgomery: You see that.
+
+159
+00:15:27.120 --> 00:15:27.480
+Hart Montgomery: cam.
+
+160
+00:15:28.560 --> 00:15:30.720
+Cam Parra | kiva.org: yeah I don't oh yeah I see the great yeah.
+
+161
+00:15:31.260 --> 00:15:31.620
+Hart Montgomery: yeah.
+
+162
+00:15:32.460 --> 00:15:33.030
+cool cool.
+
+163
+00:15:35.430 --> 00:15:37.950
+Hart Montgomery: And you can basically put whatever you want in this wiki so.
+
+164
+00:15:39.180 --> 00:15:39.840
+Cam Parra | kiva.org: Alright cool.
+
+165
+00:15:39.900 --> 00:15:42.600
+Hart Montgomery: You want to like change the format totally fine.
+
+166
+00:15:43.770 --> 00:15:46.890
+Hart Montgomery: I did not do a particularly good job with this so.
+
+167
+00:15:48.030 --> 00:15:48.720
+Hart Montgomery: feel free to.
+
+168
+00:15:49.890 --> 00:15:50.220
+You know.
+
+169
+00:15:52.800 --> 00:15:53.700
+Hart Montgomery: feel free to change it up.
+
+170
+00:15:54.810 --> 00:16:05.280
+Nathan George: Well, one of my questions for this meeting, where we didn't have good fixed agenda has everyone had a chance to read through breaking unlike unlike ability and identity mixer using malicious keys.
+
+171
+00:16:06.210 --> 00:16:06.780
+Yes.
+
+172
+00:16:08.820 --> 00:16:11.010
+Nathan George: France, have you seen that paper, have you read through it.
+
+173
+00:16:13.080 --> 00:16:14.730
+Brent Zundel: and part of the paper, but I have not.
+
+174
+00:16:16.200 --> 00:16:16.560
+Okay.
+
+175
+00:16:17.880 --> 00:16:18.900
+Hart Montgomery: What are your thoughts Nathan.
+
+176
+00:16:20.490 --> 00:16:20.970
+Nathan George: well.
+
+177
+00:16:22.710 --> 00:16:36.060
+Nathan George: It breaks the link of link ability, meaning that you can you can observe anyone, but it does not break the fact that everyone should be a blinded pseudonym so far as I can tell.
+
+178
+00:16:37.110 --> 00:16:47.400
+Nathan George: so effectively the issuer is just saying i've given you bad PRIMES such that I have compromised my own guarantee a presentation on likability.
+
+179
+00:16:48.630 --> 00:16:58.740
+Nathan George: And the danger here is that they could break the have that that link ability at tell the verifiers that but not tell you, as the holder and the simple fix that.
+
+180
+00:16:59.640 --> 00:17:09.600
+Nathan George: struck me as we should add something to the credential definition that anchored on chain that makes them prove that they've used sufficiently good crimes without revealing those crimes obvious yeah.
+
+181
+00:17:09.780 --> 00:17:12.600
+Hart Montgomery: That was the That was the proposed fix right.
+
+182
+00:17:13.290 --> 00:17:22.590
+Nathan George: And then make does the current indie credential definition already include something sufficient for that and I don't know the answer to that question.
+
+183
+00:17:29.250 --> 00:17:30.270
+Brent Zundel: So I.
+
+184
+00:17:31.290 --> 00:17:35.430
+Brent Zundel: There is a issuer setup correctness proof.
+
+185
+00:17:35.820 --> 00:17:36.510
+Brent Zundel: Yes.
+
+186
+00:17:37.350 --> 00:17:38.130
+Nathan George: Is that what we're.
+
+187
+00:17:38.310 --> 00:17:39.840
+Brent Zundel: Talking about or is that something different.
+
+188
+00:17:40.140 --> 00:17:43.470
+Nathan George: That is what i'm talking about it, the question is that sufficient.
+
+189
+00:17:43.470 --> 00:17:44.280
+Hart Montgomery: Sufficient yeah.
+
+190
+00:17:44.550 --> 00:17:47.160
+Nathan George: Prove that they've picked P Q.
+
+191
+00:17:48.450 --> 00:17:49.290
+Nathan George: well enough.
+
+192
+00:17:50.910 --> 00:17:52.320
+Hart Montgomery: And if not, we should just add it.
+
+193
+00:17:53.010 --> 00:17:53.340
+Right.
+
+194
+00:17:54.750 --> 00:17:55.050
+Hart Montgomery: yeah.
+
+195
+00:17:56.250 --> 00:17:56.670
+Brent Zundel: I mean.
+
+196
+00:17:59.880 --> 00:18:03.360
+Brent Zundel: I don't know that i'm qualified to say whether.
+
+197
+00:18:03.780 --> 00:18:04.680
+Hart Montgomery: Where is this.
+
+198
+00:18:04.740 --> 00:18:06.570
+Hart Montgomery: Nathan, is this an indie.
+
+199
+00:18:08.190 --> 00:18:17.130
+Nathan George: um yeah so it would be the credential definition it's anchored in the end game i'm sure where would that be in the earth to code camp.
+
+200
+00:18:18.150 --> 00:18:21.030
+Nathan George: Because the area code should have the correct is proof generation code in it.
+
+201
+00:18:21.930 --> 00:18:26.460
+Brent Zundel: I have the paper that describes it, I have the math in front of me right now, who is.
+
+202
+00:18:26.460 --> 00:18:27.690
+Hart Montgomery: paper you looking at Brent.
+
+203
+00:18:28.020 --> 00:18:29.700
+Brent Zundel: Is the non creds it's.
+
+204
+00:18:30.750 --> 00:18:33.060
+Brent Zundel: anonymous credentials with type three revocation.
+
+205
+00:18:33.630 --> 00:18:37.080
+Hart Montgomery: Okay i'm betting we don't do it because the item it's paper doesn't do it.
+
+206
+00:18:38.250 --> 00:18:40.470
+Hart Montgomery: And this is based on the item it's paper.
+
+207
+00:18:43.050 --> 00:18:51.870
+Brent Zundel: There are a number of places that we modified and change we went from item mix to to do things like this.
+
+208
+00:18:52.530 --> 00:18:53.220
+Hart Montgomery: So it.
+
+209
+00:18:53.580 --> 00:18:57.960
+Brent Zundel: wouldn't surprise me, if this is something that you were like you know it should be done.
+
+210
+00:18:58.890 --> 00:18:59.400
+gotcha.
+
+211
+00:19:02.580 --> 00:19:06.810
+Cam Parra | kiva.org: The but the issue itself is an array Nathan that's.
+
+212
+00:19:07.920 --> 00:19:13.710
+Cam Parra | kiva.org: I don't know where to point you to it, but I, but I, but it was reported in ursa.
+
+213
+00:19:13.800 --> 00:19:16.500
+Hart Montgomery: yeah so these guys did say it was an ursa.
+
+214
+00:19:16.770 --> 00:19:22.710
+Nathan George: it's fair blog this against earth, and in fact they're saying that they they haven't scored shared with us, but there's.
+
+215
+00:19:23.040 --> 00:19:39.150
+Nathan George: The Paper says code demonstrating this attack against hyper ledger ursa and the urban implementations is available can be found at so whenever the disclosure window open space they would you know pay for it, if they will be publishing the code that that that.
+
+216
+00:19:40.470 --> 00:19:42.690
+Nathan George: demonstrates the link ability attacks or.
+
+217
+00:19:43.890 --> 00:19:49.290
+Cam Parra | kiva.org: What what what would this be mitigated in the implementation, were in the indie layer
+
+218
+00:19:50.730 --> 00:20:01.050
+Nathan George: Yet should and that's what I was diving at with that my question is, I think that the the the proof Brent refers to.
+
+219
+00:20:01.920 --> 00:20:10.590
+Nathan George: Our i'm suspicious, the proof Brent refers to has enough data that it could it could mitigate this attack, but we would need to make sure the check is obvious.
+
+220
+00:20:11.460 --> 00:20:24.120
+Nathan George: And that we've verify that it actually protects against what the paper is describing because my guess is you could you could exploit a raw ursa implementation, because it wouldn't have a sufficient Oracle.
+
+221
+00:20:28.410 --> 00:20:28.770
+Hart Montgomery: yeah.
+
+222
+00:20:33.270 --> 00:20:45.900
+Nathan George: But you could be there are ED Craig is proof the setup records provisioned enough like we might not do enough to do we are, we might make it so that the exploit is still possible, with a lot harder if that makes sense.
+
+223
+00:20:46.230 --> 00:20:49.530
+Hart Montgomery: yeah I mean that the thing is just general right like.
+
+224
+00:20:51.450 --> 00:20:54.030
+Hart Montgomery: The exploit days specifically described.
+
+225
+00:20:55.710 --> 00:20:59.700
+Hart Montgomery: As sort of just one way of exploiting the fact that.
+
+226
+00:21:00.000 --> 00:21:01.980
+Hart Montgomery: Right, you know that the.
+
+227
+00:21:03.090 --> 00:21:06.360
+Hart Montgomery: The issuer modulus is not well formed.
+
+228
+00:21:07.590 --> 00:21:07.980
+Nathan George: yeah.
+
+229
+00:21:08.460 --> 00:21:14.640
+Nathan George: i'm suspicious that we would with the creditor proof, we would still be vulnerable but you'd have to craft, one that tasks that correct.
+
+230
+00:21:15.390 --> 00:21:18.330
+Hart Montgomery: Well, the point is you shouldn't be able to pass the correctness proof right.
+
+231
+00:21:18.930 --> 00:21:20.760
+Hart Montgomery: yeah sure like yeah.
+
+232
+00:21:21.630 --> 00:21:25.920
+Nathan George: So, because we typically try to protect against it i'm still suspicious of it.
+
+233
+00:21:26.610 --> 00:21:30.270
+Hart Montgomery: yeah I wouldn't be surprised if if the check didn't quite work.
+
+234
+00:21:31.380 --> 00:21:33.120
+Hart Montgomery: That we have in place so.
+
+235
+00:21:34.980 --> 00:21:41.790
+Nathan George: But the question is, as a group, how do we organize thinking out loud that's true that's what we need to respond to the paper and.
+
+236
+00:21:43.020 --> 00:21:44.700
+Hart Montgomery: We need to get to the code right.
+
+237
+00:21:46.620 --> 00:21:49.860
+Hart Montgomery: I mean it's just like are we doing it like where's the check.
+
+238
+00:21:51.240 --> 00:21:54.480
+Hart Montgomery: It is the check checking that these like.
+
+239
+00:21:57.510 --> 00:22:00.390
+Hart Montgomery: I don't know what to call them like the.
+
+240
+00:22:02.010 --> 00:22:05.130
+Hart Montgomery: The things that should be prime are actually prime.
+
+241
+00:22:06.780 --> 00:22:07.650
+Hart Montgomery: Basically it right.
+
+242
+00:22:12.270 --> 00:22:20.370
+Nathan George: So how do, how do we want to go about that, I mean if with the four of us don't do it, I don't think anyone's gonna do it So how do we work.
+
+243
+00:22:22.530 --> 00:22:23.970
+Hart Montgomery: yeah I mean can.
+
+244
+00:22:26.790 --> 00:22:28.680
+Hart Montgomery: First, we need to find it in the code right.
+
+245
+00:22:32.610 --> 00:22:35.850
+Hart Montgomery: So let's find all the checks that were that we have in the code.
+
+246
+00:22:37.500 --> 00:22:38.610
+Hart Montgomery: And then, like.
+
+247
+00:22:39.930 --> 00:22:41.940
+Hart Montgomery: Once we know where they are, we can take a look right.
+
+248
+00:22:47.970 --> 00:22:49.560
+Hart Montgomery: Is that reasonable.
+
+249
+00:22:51.360 --> 00:23:01.440
+Cam Parra | kiva.org: Do we want to just set it as for next week to have that as a task or in sorry in the next meeting to have that as a task for everybody to come with their findings.
+
+250
+00:23:01.710 --> 00:23:04.560
+Hart Montgomery: yeah I mean if if you guys find it can you send it out.
+
+251
+00:23:05.730 --> 00:23:08.610
+Hart Montgomery: And then we can like look at it, I mean.
+
+252
+00:23:09.960 --> 00:23:20.760
+Hart Montgomery: If I know where it isn't like I don't know precisely where it is in code, but if you guys if we know where it is in code like checking the like seeing if the check is being done, should be pretty straightforward right.
+
+253
+00:23:25.200 --> 00:23:32.940
+Cam Parra | kiva.org: yeah know you have to look up to code bases in order to completely or to completely answer this question.
+
+254
+00:23:33.390 --> 00:23:35.640
+Hart Montgomery: Right and I have no idea about the code.
+
+255
+00:23:38.220 --> 00:23:41.490
+Cam Parra | kiva.org: yeah it's been a while for me that actually looked into in the SDK.
+
+256
+00:23:48.180 --> 00:23:48.600
+Cam Parra | kiva.org: yeah.
+
+257
+00:23:50.190 --> 00:23:53.520
+Cam Parra | kiva.org: We can set that as a task i'll write that in the notes as well.
+
+258
+00:23:55.710 --> 00:23:56.670
+Cam Parra | kiva.org: um.
+
+259
+00:23:58.980 --> 00:24:04.230
+Cam Parra | kiva.org: And then I guess in the next meeting, we can formalize what the findings.
+
+260
+00:24:12.270 --> 00:24:28.320
+Nathan George: yeah like for from a response security issue response standpoint, we need to identify what checks in the code exist, how we believe the code should be behaving where whether we need to make a change or not, and then we should respond.
+
+261
+00:24:28.350 --> 00:24:33.420
+Nathan George: To the papers authors to tell them here's what we've done to mitigate the issue.
+
+262
+00:24:34.980 --> 00:24:40.050
+Nathan George: And if you have you know further exploits or further feedback on what we've done so far.
+
+263
+00:24:41.250 --> 00:24:42.840
+Nathan George: here's our plan for responding to that.
+
+264
+00:24:45.300 --> 00:24:48.000
+Hart Montgomery: Sorry guys I just cut out there.
+
+265
+00:24:50.520 --> 00:24:53.670
+Hart Montgomery: A day said, I agree with what you just said there but.
+
+266
+00:25:01.650 --> 00:25:02.100
+Hart Montgomery: Hello.
+
+267
+00:25:02.790 --> 00:25:03.480
+Nathan George: i'm still here.
+
+268
+00:25:03.930 --> 00:25:05.730
+Hart Montgomery: Okay sorry my Internet just.
+
+269
+00:25:07.560 --> 00:25:08.700
+Hart Montgomery: doomed just crashed on me.
+
+270
+00:25:12.150 --> 00:25:12.840
+Nathan George: No worries.
+
+271
+00:25:13.860 --> 00:25:17.640
+Nathan George: So I guess part of what i'm looking for here is.
+
+272
+00:25:19.440 --> 00:25:25.560
+Nathan George: We probably need to make sure that we've got a security we already have a security issue log against this right.
+
+273
+00:25:31.170 --> 00:25:33.840
+Cam Parra | kiva.org: like an issue, an issue and about this.
+
+274
+00:25:37.050 --> 00:25:38.010
+Brent Zundel: Security thing.
+
+275
+00:25:40.560 --> 00:25:42.600
+Nathan George: Not a regular github issue but.
+
+276
+00:25:43.260 --> 00:25:44.310
+Cam Parra | kiva.org: Security sorry.
+
+277
+00:25:44.850 --> 00:25:45.870
+Cam Parra | kiva.org: No, we don't have one long.
+
+278
+00:25:46.650 --> 00:25:47.520
+Nathan George: Oh, we do not.
+
+279
+00:25:48.180 --> 00:25:49.110
+Cam Parra | kiva.org: I don't believe so.
+
+280
+00:25:50.190 --> 00:25:55.560
+Nathan George: So, has been officially reported to us by any of the authors in the paper is we've got the paper from somewhere.
+
+281
+00:25:57.540 --> 00:25:59.220
+Cam Parra | kiva.org: I thought this was being kept hush hush.
+
+282
+00:26:00.720 --> 00:26:08.280
+Nathan George: yeah well if if someone in notified us as the maintainer the project that we need to consider it an officially reported security incident.
+
+283
+00:26:09.720 --> 00:26:15.630
+Brent Zundel: Right and the security advisories are private two people working on the repository.
+
+284
+00:26:16.530 --> 00:26:17.070
+Nathan George: Right and.
+
+285
+00:26:17.580 --> 00:26:19.110
+Brent Zundel: We have one but it's not related to this.
+
+286
+00:26:20.280 --> 00:26:22.020
+Nathan George: Okay, so this is a different thing.
+
+287
+00:26:23.580 --> 00:26:42.810
+Nathan George: Okay yeah what i'm looking for someone to volunteer to take the lead on responding to that security issue and with what we need to do as me check the setup verification of the issuers of the issuer to see how much are we exposed in the actually deploy absolute deployed environment.
+
+288
+00:26:45.420 --> 00:26:50.550
+Nathan George: that's going to take some some footwork diving into the code and probably trying some of the things outline of the paper.
+
+289
+00:26:51.480 --> 00:26:54.240
+Brent Zundel: And the via non credit memos do.
+
+290
+00:26:56.400 --> 00:26:58.470
+Brent Zundel: issuer correctness proof that I can see.
+
+291
+00:27:00.570 --> 00:27:12.000
+Nathan George: which will will be why I think they use the ursa coach show that vulnerability yeah and and the question is, do any of you acted implementations like occupier, the triggering issuance correct that's proof.
+
+292
+00:27:13.560 --> 00:27:16.350
+Brent Zundel: yeah i'm not seeing I guess what i'm saying i'm not seeing.
+
+293
+00:27:16.380 --> 00:27:18.630
+Brent Zundel: The implemented in Indian.
+
+294
+00:27:19.650 --> 00:27:20.010
+Nathan George: wow.
+
+295
+00:27:21.090 --> 00:27:23.550
+Brent Zundel: And I think it's not there i'm just saying I am found it yet.
+
+296
+00:27:24.090 --> 00:27:28.740
+Hart Montgomery: guys, I actually have to drop, let me know what I need to do.
+
+297
+00:27:30.510 --> 00:27:34.620
+Hart Montgomery: As a result of this i'm happy to like help go over crypto stuff.
+
+298
+00:27:36.780 --> 00:27:38.340
+Hart Montgomery: So so just keep me posted.
+
+299
+00:27:40.530 --> 00:27:41.940
+Hart Montgomery: And Sorry, I have to leave early.
+
+300
+00:27:43.140 --> 00:27:43.950
+Nathan George: No worries.
+
+301
+00:27:45.240 --> 00:27:45.690
+Cam Parra | kiva.org: Thanks are.
+
+302
+00:27:46.050 --> 00:27:52.560
+Hart Montgomery: Then yeah I will i'm trying to bring in some more academic cryptographers to this group.
+
+303
+00:27:54.720 --> 00:27:56.400
+Hart Montgomery: We will see what I can do so.
+
+304
+00:27:57.090 --> 00:27:58.410
+Cam Parra | kiva.org: Thank you Mike.
+
+305
+00:27:58.500 --> 00:27:59.190
+Cam Parra | kiva.org: That would be great.
+
+306
+00:28:00.600 --> 00:28:01.770
+Hart Montgomery: If i'd be too busy.
+
+307
+00:28:03.240 --> 00:28:04.500
+Hart Montgomery: But thanks a lot for your time.
+
+308
+00:28:05.700 --> 00:28:06.810
+Hart Montgomery: And i'll talk to you all later.
+
+309
+00:28:07.950 --> 00:28:10.110
+Hart Montgomery: And yeah maybe with any follow ups.
+
+310
+00:28:12.270 --> 00:28:14.460
+Hart Montgomery: Thanks are Thank you have a high.
+
+311
+00:28:23.550 --> 00:28:23.760
+Cam Parra | kiva.org: We.
+
+312
+00:28:24.060 --> 00:28:27.210
+Cam Parra | kiva.org: Not only want to check this an indie but also in occupy.
+
+313
+00:28:27.450 --> 00:28:30.600
+Cam Parra | kiva.org: and possibly other implementations of areas.
+
+314
+00:28:34.290 --> 00:28:35.400
+Cam Parra | kiva.org: Is that what you're saying Nathan.
+
+315
+00:28:41.130 --> 00:28:44.550
+Nathan George: Well we're we're looking for what the actual.
+
+316
+00:28:46.200 --> 00:28:48.390
+Nathan George: CV exposure is.
+
+317
+00:28:50.370 --> 00:29:00.000
+Nathan George: Is this an exploit that someone could use in the wild, for example for us at kiva could the issuer intentionally choose bad credential definition keys.
+
+318
+00:29:00.600 --> 00:29:14.640
+Nathan George: To make it so the presentations of their government ID card were re linkable without the holders knowledge so you're going about thinking Oh, every time I present this you can't correlate me when, in reality, all the verifiers are are correlating you with.
+
+319
+00:29:15.300 --> 00:29:22.620
+Nathan George: Everyone everywhere and then using that to build their you know get the government's out to get you database right.
+
+320
+00:29:24.600 --> 00:29:36.510
+Nathan George: You know it what's the practical exposure on this attack, so that when we say here's the fix, we can also say here's how severe, the issue is and here's who needs to hurry an update.
+
+321
+00:29:52.200 --> 00:30:04.500
+Nathan George: Now i'm trying to figure out where I got the PDF from because I Google email searches having trouble finding it is my email inbox I have it printed out sitting here on my desk but uh I.
+
+322
+00:30:05.010 --> 00:30:06.780
+Cam Parra | kiva.org: me and I felt like.
+
+323
+00:30:07.410 --> 00:30:09.000
+Nathan George: A primary as a copy.
+
+324
+00:30:11.550 --> 00:30:16.710
+Brent Zundel: i'm seeing no function in the SDK that indicates.
+
+325
+00:30:18.090 --> 00:30:25.500
+Brent Zundel: That this is coded anywhere but I was also just running through the different tests folders.
+
+326
+00:30:26.760 --> 00:30:29.070
+Brent Zundel: That might theoretically exists.
+
+327
+00:30:30.480 --> 00:30:33.810
+Brent Zundel: Elsewhere, and in the actual code and just not be tested.
+
+328
+00:30:34.590 --> 00:30:39.030
+Nathan George: It also really easily see us having skipped that it limitation.
+
+329
+00:30:39.750 --> 00:30:39.990
+That.
+
+330
+00:30:42.420 --> 00:30:45.810
+Nathan George: Because the whole premise here is, you have a malicious issuer alyssa.
+
+331
+00:30:45.840 --> 00:30:46.680
+verifiers.
+
+332
+00:31:16.050 --> 00:31:33.030
+Cam Parra | kiva.org: yeah, I guess, I can I can take on that task of putting the issue together or the Security Report together, I do need to read I haven't read the item mix paper Brent you don't have a copy of that.
+
+333
+00:31:35.160 --> 00:31:37.350
+Brent Zundel: I have a copy of the item it's paper somewhere.
+
+334
+00:31:37.920 --> 00:31:44.700
+Brent Zundel: Okay, I mean, but I don't care about the item it's paper because we only vaguely I mean.
+
+335
+00:31:46.440 --> 00:31:51.360
+Brent Zundel: We didn't implement the vitamix paper we implemented a paper, based on the academics paper yeah.
+
+336
+00:31:55.410 --> 00:32:00.960
+Brent Zundel: As they say we have code that shows this works against versa.
+
+337
+00:32:06.990 --> 00:32:09.090
+Nathan George: Well, it sounds to me like.
+
+338
+00:32:12.510 --> 00:32:29.490
+Nathan George: cam can probably do some of the trying to track down what code implementation exists but we're going to need someone to help on the is this right part because I don't think we're good camera I are not prepared to go the answer that question what city solidity.
+
+339
+00:32:33.570 --> 00:32:39.300
+Brent Zundel: I think first step is to verify that this does not actually exist in the code anywhere, I think.
+
+340
+00:32:40.590 --> 00:32:40.860
+Brent Zundel: you're.
+
+341
+00:32:41.130 --> 00:32:42.060
+not seeing it everywhere.
+
+342
+00:32:43.230 --> 00:32:50.550
+Brent Zundel: We go right from indy issuer credential offer to indy proved or create credential request.
+
+343
+00:32:51.870 --> 00:32:52.200
+Brent Zundel: and
+
+344
+00:32:53.400 --> 00:32:54.540
+Brent Zundel: There is no.
+
+345
+00:32:57.480 --> 00:33:05.940
+Brent Zundel: There is no indie proved or validate issue or setup or anything like that is that function does not exist, that I can find anywhere.
+
+346
+00:33:06.450 --> 00:33:07.980
+Cam Parra | kiva.org: yeah that doesn't sound.
+
+347
+00:33:08.040 --> 00:33:15.990
+Cam Parra | kiva.org: That doesn't as I went through a non crowds like when I was doing some work on DM there was never I never I never saw that.
+
+348
+00:33:17.160 --> 00:33:29.790
+Nathan George: When it would be exit the holder should probably run this check before they accept a credential to say yeah are you giving me an actual anonymous credential or you're giving me a student a student not not have a skirt so.
+
+349
+00:33:30.150 --> 00:33:30.450
+Okay.
+
+350
+00:33:31.590 --> 00:33:35.730
+Brent Zundel: So, assuming that it's not in the which I would be.
+
+351
+00:33:36.840 --> 00:33:52.770
+Brent Zundel: amazed that was, I think the next step is to say okay here's the here is the correctness proof mitigation that we have this this Is this sufficient know, should it should we Code against this would this actually be sufficient.
+
+352
+00:33:53.970 --> 00:34:00.990
+Brent Zundel: To prevent this attack you know I know heart and be able to look at it, or we need to find somebody else but.
+
+353
+00:34:02.400 --> 00:34:05.370
+Nathan George: Well, and the other thing that we want to make sure of.
+
+354
+00:34:06.060 --> 00:34:25.590
+Nathan George: is my understanding is that this allows them to correlate em one, it does not cracked the value that's inside of them love, which should be a blinded link secret, so you can unmask the pseudonym but you can't unmask the root secret, behind the pseudonym.
+
+355
+00:34:26.220 --> 00:34:31.350
+Brent Zundel: Right, so if I use a different blinding for every potential issuance.
+
+356
+00:34:32.700 --> 00:34:33.540
+Nathan George: which you should.
+
+357
+00:34:34.290 --> 00:34:35.880
+Brent Zundel: Good then.
+
+358
+00:34:37.290 --> 00:34:42.960
+Nathan George: This should break any the issuer is intentionally breaking a property that they're providing to you.
+
+359
+00:34:44.010 --> 00:34:47.070
+Nathan George: they're not breaking anything beyond their own credential.
+
+360
+00:34:48.870 --> 00:34:49.140
+Right.
+
+361
+00:34:51.270 --> 00:34:57.630
+Nathan George: The danger being they breaking it away that you that you should be able to notice but we're not know we're not noticing.
+
+362
+00:34:59.700 --> 00:34:59.910
+yeah.
+
+363
+00:35:02.190 --> 00:35:03.180
+Brent Zundel: Okay, so.
+
+364
+00:35:05.880 --> 00:35:12.720
+Brent Zundel: keep looking in the code I I mean i've got in the SDK a non credit open right now I don't see it in there.
+
+365
+00:35:14.550 --> 00:35:22.260
+Brent Zundel: Where else should we ought to look, I mean how far away from the source problem, are we going to look for this.
+
+366
+00:35:24.540 --> 00:35:32.700
+Nathan George: um I think for this group, we should just focus on does that does that function to check validity exists in ursa.
+
+367
+00:35:33.360 --> 00:35:41.190
+Nathan George: And are we recommending that they use it and, obviously, the second one, we know we're not recommending they use it now because, first we don't think it exists so.
+
+368
+00:35:42.180 --> 00:35:53.460
+Nathan George: My guest is the remediation, for this is, we need to add that function and recommend that everyone consumed that consumes ursa exercise that function in as part of their protocol design.
+
+369
+00:35:54.330 --> 00:35:59.970
+Brent Zundel: Right that's what we do, so I looked into using swimming looking ursa to see if.
+
+370
+00:36:01.440 --> 00:36:01.980
+Brent Zundel: It exists.
+
+371
+00:36:03.510 --> 00:36:13.770
+Nathan George: Well, and one of the dangers we have is the function could actually exist in Aries or in the old in the SDK code, but somehow was not labeled as part of the cryptographic.
+
+372
+00:36:14.310 --> 00:36:26.100
+Nathan George: system when you move stuff over right so that's that's the only place where I can see, we would be to look at the system and aggregate is if if this check existed in India doesn't exist in or so, but.
+
+373
+00:36:26.520 --> 00:36:39.630
+Nathan George: My suspicion from what we've seen so far and what I remember of the implementation, we probably didn't think this check was required, or we probably or or this check probably wasn't implemented because we hadn't implemented everything.
+
+374
+00:36:40.800 --> 00:36:43.050
+Nathan George: Everything yet does that make sense yeah.
+
+375
+00:37:11.160 --> 00:37:18.120
+Cam Parra | kiva.org: So Brent just to make sure you do have the breaking on likability and I tend to be mixer using malicious keys paper.
+
+376
+00:37:18.690 --> 00:37:18.960
+That.
+
+377
+00:37:21.360 --> 00:37:23.100
+Nathan George: I think we need to make sure Brent has.
+
+378
+00:37:23.400 --> 00:37:25.380
+Cam Parra | kiva.org: Okay cool I can send that to you.
+
+379
+00:37:25.770 --> 00:37:34.140
+Nathan George: Because every new or have asked is probably the largest deployed issuer or the point toolkit issuing credentials.
+
+380
+00:37:35.220 --> 00:37:38.070
+Cam Parra | kiva.org: Is it Breton that dotson know.
+
+381
+00:37:39.630 --> 00:37:40.680
+Cam Parra | kiva.org: evernote COM.
+
+382
+00:37:41.250 --> 00:37:42.600
+Brent Zundel: Ever networks of athletes.
+
+383
+00:37:43.110 --> 00:37:46.080
+Nathan George: Female words okay Nancy.
+
+384
+00:37:47.040 --> 00:37:47.250
+Brent Zundel: Oh yeah.
+
+385
+00:37:55.560 --> 00:37:58.080
+Nathan George: I don't have anything else to say about this, I think the next thing is, we just.
+
+386
+00:38:03.270 --> 00:38:07.500
+Brent Zundel: wonder if it's part of okay now, here it is.
+
+387
+00:38:09.660 --> 00:38:10.110
+Nathan George: food.
+
+388
+00:38:11.100 --> 00:38:25.830
+Brent Zundel: Is yeah so in the liver ursa src cl proven RS as part of process credential signature approval processes, the primary credential and then checks the signature correct.
+
+389
+00:38:28.230 --> 00:38:33.990
+Nathan George: Okay, then the question is, does the signature practice proof do anything to show that you've used sufficiently large prize for being here.
+
+390
+00:38:35.580 --> 00:38:37.530
+Nathan George: or anything derived from.
+
+391
+00:38:43.500 --> 00:38:49.170
+Brent Zundel: What we have here appears to be built into the ursa that everybody's using so if they're able to break her so then we're not.
+
+392
+00:38:51.210 --> 00:38:51.810
+Nathan George: Fair enough.
+
+393
+00:38:57.180 --> 00:38:57.600
+Nathan George: fix it.
+
+394
+00:38:58.230 --> 00:39:01.740
+Brent Zundel: yeah we do have a function that we can modify.
+
+395
+00:39:06.990 --> 00:39:09.570
+Brent Zundel: To include these tracks.
+
+396
+00:39:34.350 --> 00:39:38.010
+Brent Zundel: So okay so cams going to create the issue.
+
+397
+00:39:44.910 --> 00:39:52.710
+Brent Zundel: In the, how does the I guess the question really is, how does the setup correctness proof need to be modified in order to protect against this attack.
+
+398
+00:39:55.140 --> 00:40:12.330
+Nathan George: um the paper that was reported to us doesn't speculate, but it does seem to reference it i'm like it's some well known check, so I would say just just brand if you want to take a look at.
+
+399
+00:40:14.100 --> 00:40:20.490
+Nathan George: The paper, I think, Section three in particular scribes the exploit on group order.
+
+400
+00:40:20.880 --> 00:40:22.230
+Cam Parra | kiva.org: And I just sent that to you.
+
+401
+00:40:31.980 --> 00:40:49.230
+Nathan George: In their mitigation section, they say, the only foolproof mitigation is to provide a complete proof of proper generation of the public key including showing the end is the product of executive to say PRIMES and I don't believe that that's the best way of going about this, but.
+
+402
+00:40:51.030 --> 00:40:55.350
+Nathan George: Anything more would require more work than they are going to put in.
+
+403
+00:40:57.090 --> 00:40:58.860
+Brent Zundel: which address did you send it to.
+
+404
+00:41:01.830 --> 00:41:02.070
+Cam Parra | kiva.org: him.
+
+405
+00:41:03.540 --> 00:41:04.320
+Brent Zundel: Oh there, it is just.
+
+406
+00:41:07.980 --> 00:41:14.040
+Nathan George: They do can see that it's efficient, at least as a temporary measure for trust on the issuer.
+
+407
+00:41:14.850 --> 00:41:22.950
+Nathan George: by restricting the number of parties that are allowed to become issuers and have contractual agreements and compliance measures in place to ensure non exploitation before.
+
+408
+00:41:23.880 --> 00:41:38.220
+Nathan George: Before of that before covered weakness so they're saying it's like if there is some agreed with legal agreement that says you generate your keys correctly they think that that's enough to keep an ecosystem safe temperature on a temporary basis.
+
+409
+00:41:39.570 --> 00:41:41.400
+Cam Parra | kiva.org: So people using a sovereign okay.
+
+410
+00:41:43.380 --> 00:41:43.860
+Cam Parra | kiva.org: I guess.
+
+411
+00:41:44.310 --> 00:41:51.360
+Nathan George: Well, that that would technically cover most of the current in the wild deployments right because we have closed loop ecosystems, where.
+
+412
+00:41:51.990 --> 00:42:05.400
+Nathan George: The software generating the keys for the issuer is not necessarily control, but the issue itself, but by the vendor that sits in charge of the ecosystem as well, which balances the incentives involved, so I think for most of our pre pilots settings.
+
+413
+00:42:06.630 --> 00:42:14.700
+Nathan George: everyone's okay there's no one who's doing kind of a a while in the wild public network per se beyond sovereign.
+
+414
+00:42:15.240 --> 00:42:26.010
+Nathan George: Sovereign well both sovereign ID Union I think are okay, with their because of the way the issuer agreements work on those networks, you could you could claim they're covered anyway, I don't know that.
+
+415
+00:42:27.510 --> 00:42:37.170
+Cam Parra | kiva.org: I guess the staging the people who are staying in staging are probably not covered by this, though, because they know I guess you just have to ask to be an issue and.
+
+416
+00:42:37.980 --> 00:42:49.350
+Nathan George: I say, as long as your software only trusts i've defined set of issues where you know their keys are good in theory, this is not a problem for you, yet, but it could be so we want to fix it.
+
+417
+00:42:54.600 --> 00:42:59.940
+Nathan George: graduations we've grown up someone has written a vulnerability paper on the software that we.
+
+418
+00:43:09.870 --> 00:43:12.090
+Nathan George: At least they haven't branded it like partly yet.
+
+419
+00:43:13.230 --> 00:43:18.420
+Brent Zundel: I didn't expect specification requires no proof statements to be produced on properties of the end.
+
+420
+00:43:19.530 --> 00:43:21.990
+Brent Zundel: We have sufficient freedom in its choice.
+
+421
+00:43:24.660 --> 00:43:25.170
+Brent Zundel: Okay.
+
+422
+00:43:26.760 --> 00:43:28.500
+Brent Zundel: But the non Chris doesn't do that.
+
+423
+00:43:31.380 --> 00:43:32.520
+Brent Zundel: i'm very curious.
+
+424
+00:43:44.700 --> 00:43:47.490
+Brent Zundel: Such time generation would be allowed.
+
+425
+00:44:09.990 --> 00:44:10.860
+Brent Zundel: I need to look.
+
+426
+00:44:13.950 --> 00:44:17.040
+Brent Zundel: In zero knowledge to the number is the product of to save clients.
+
+427
+00:44:24.000 --> 00:44:24.330
+Nathan George: Oh.
+
+428
+00:44:25.500 --> 00:44:28.380
+Nathan George: That sounds like a better paper than the one that i've had to dig through.
+
+429
+00:44:31.530 --> 00:44:33.690
+Brent Zundel: Well that's the one the reference mitigation.
+
+430
+00:44:33.720 --> 00:44:34.170
+Brent Zundel: or a way to.
+
+431
+00:44:34.380 --> 00:44:37.290
+Brent Zundel: Prove that this is an I know.
+
+432
+00:44:38.730 --> 00:44:40.590
+Brent Zundel: The Springer link give me a real one.
+
+433
+00:44:43.980 --> 00:44:48.150
+Nathan George: saying I should look up the footnotes gosh heresy.
+
+434
+00:44:59.430 --> 00:44:59.670
+Brent Zundel: No.
+
+435
+00:45:01.620 --> 00:45:02.670
+Brent Zundel: where's the math young.
+
+436
+00:45:11.100 --> 00:45:22.770
+Nathan George: yeah I thought we protected against this it's something I remember very vaguely crypto discussions early on, about this issue that I did pay much attention to, because I figured I was above my pay grade.
+
+437
+00:45:29.880 --> 00:45:31.110
+Brent Zundel: One bad thing.
+
+438
+00:45:31.350 --> 00:45:39.630
+Brent Zundel: One thing that I disliked about the anon credits so called paper is that the audio setup correctness proof that's just written it's not.
+
+439
+00:45:41.490 --> 00:45:43.020
+Brent Zundel: It didn't say where it comes from.
+
+440
+00:45:44.760 --> 00:45:50.580
+Brent Zundel: You know it's just it's not a complete paper it's not fully notated properly notated.
+
+441
+00:45:56.340 --> 00:45:59.700
+Nathan George: Apologies I have to drop off to get something done quick um.
+
+442
+00:46:01.290 --> 00:46:03.210
+Nathan George: Can you update me on what you decide.
+
+443
+00:46:05.910 --> 00:46:06.300
+Cam Parra | kiva.org: yeah.
+
+444
+00:46:07.320 --> 00:46:08.040
+Nathan George: All right, thanks.
+
+445
+00:46:09.900 --> 00:46:10.140
+yeah.
+
+446
+00:46:14.490 --> 00:46:15.000
+Brent Zundel: You guys later.
+

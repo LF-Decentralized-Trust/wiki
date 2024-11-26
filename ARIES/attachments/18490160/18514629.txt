@@ -1,0 +1,6 @@
+13:05:07	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=41590216
+13:15:52	 From  Kaliya Identity Woman : what is a persistent cue?
+13:16:49	 From  Andrew Whitehead : the persistent queue is intermediate storage for outbound messages, so they aren’t dropped if the agent is suddenly stopped
+13:22:59	 From  Stephen Curran : Important when having large scale use cases where an enterprise agent is using scaled instances of issuers and verifiers -- e.g. for handling millions of transactions.
+13:44:15	 From  Stephen Curran : After a bunch of discussionTBH
+14:21:08	 From  Sam Curren (TelegramSam) : https://identity.foundation/didcomm-messaging/spec/

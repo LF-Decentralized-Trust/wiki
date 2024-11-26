@@ -1,0 +1,20 @@
+00:04:19	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=31201277
+00:08:33	Andrew Whitehead:	amazing range for an electric vehicle
+00:10:52	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=31201277
+00:13:06	Tomislav Markovski:	+1 for network in did method
+00:13:35	Drummond Reed:	-1 to doing that
+00:13:39	Drummond Reed:	VERY bad idea
+00:13:40	Andrew Whitehead:	The universal resolver is already using one method for that (which nobody else is afaik)
+00:14:00	Drummond Reed:	Seriously, we REALLY need to discuss that
+00:45:07	Andrew Whitehead:	There’s a PR merged in aca-py to support this method of connectionless credential issuance, and we are working on the out-of-band version
+00:45:34	Andrew Whitehead:	URL shortening is a bit of a barrier because the message is too large for a QR code
+01:01:28	Nathan George:	Device —> Device would be my guess
+01:01:48	Nathan George:	At least for the personal device case
+01:02:21	Drummond Reed:	Portability and backup/restore are related but orthogonal
+01:14:59	Drummond Reed:	The “DIDdex” :-)
+01:16:59	Nathan George:	If you trust it to resolve indefinitely, I suppose
+01:23:53	Nathan George:	HOTP spect FTW
+01:23:56	Nathan George:	spec
+01:25:38	Andrew Whitehead:	put a password on the zip file! :)
+01:34:35	Nathan George:	Pipe friendly is good
+01:35:40	Andrew Whitehead:	A bit late to introduce this but there might be some overlap with identity hubs, as in a directory of protocol-specific data objects

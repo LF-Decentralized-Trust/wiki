@@ -1,0 +1,1806 @@
+WEBVTT
+
+1
+00:00:04.940 --> 00:00:10.240
+Tracy Kuhrt: All right. Welcome everybody. It's February. Welcome to February. Second
+
+2
+00:00:10.710 --> 00:00:15.850
+Tracy Kuhrt: Hyper, Ledger, Technical Oversight Committee call, as you are probably all aware.
+
+3
+00:00:15.930 --> 00:00:21.210
+Tracy Kuhrt: 2 things that we must divide by on this call. The first is the antitrust policy
+
+4
+00:00:21.330 --> 00:00:24.630
+Tracy Kuhrt: that is currently displayed on the screen.
+
+5
+00:00:24.920 --> 00:00:29.639
+Tracy Kuhrt: and the second is our code of conduct which is linked in the agenda.
+
+6
+00:00:30.830 --> 00:00:34.699
+Tracy Kuhrt: So for our agenda today we have some announcement.
+
+7
+00:00:36.930 --> 00:00:41.740
+Tracy Kuhrt: If who's ever sharing would take us to the agenda? That would be great.
+
+8
+00:00:41.970 --> 00:00:51.670
+Tracy Kuhrt: Thank you. So the first one is the standard one, the Dev Weekly developer Newsletter that goes out each Friday. If you have something that you would like to include in that
+
+9
+00:00:51.730 --> 00:00:58.569
+Tracy Kuhrt: Newsletter. Please leave a comment on the Wiki page that is linked in the agenda.
+
+10
+00:00:59.070 --> 00:01:05.710
+Tracy Kuhrt: the second one. So last week we approved project reports being submitted via Github
+
+11
+00:01:05.900 --> 00:01:14.569
+Tracy Kuhrt: Ryan. I worked on basically getting. I did all the old reports and got them migrated over to Github.
+
+12
+00:01:14.630 --> 00:01:19.779
+Tracy Kuhrt: I set up some a default template for the project reports.
+
+13
+00:01:19.870 --> 00:01:27.419
+Tracy Kuhrt: We've actually had our first project report submitted on Github. So in the future, if you are somebody who Files
+
+14
+00:01:27.450 --> 00:01:30.810
+Tracy Kuhrt: project reports. Github is the place for those.
+
+15
+00:01:31.930 --> 00:01:35.550
+Tracy Kuhrt: The third announcement that we have is
+
+16
+00:01:35.690 --> 00:01:39.190
+Tracy Kuhrt: that the Hyper Ledger Mentorship program has kicked off.
+
+17
+00:01:39.570 --> 00:01:44.539
+Tracy Kuhrt: So we're currently looking for mentorship project proposals.
+
+18
+00:01:44.670 --> 00:01:48.380
+Tracy Kuhrt: and if you do have a project proposal, please submit that
+
+19
+00:01:48.420 --> 00:01:50.590
+Tracy Kuhrt: prior to March fifteenth.
+
+20
+00:01:50.960 --> 00:01:54.240
+Tracy Kuhrt: we will be having men come and talk to us
+
+21
+00:01:54.280 --> 00:01:56.509
+Tracy Kuhrt: in a couple of weeks to
+
+22
+00:01:56.760 --> 00:02:01.600
+Tracy Kuhrt: tell us more about what the Hyper Ledger Mentorship program is, and also to
+
+23
+00:02:01.640 --> 00:02:09.760
+Tracy Kuhrt: put a call out for people who would be willing to review the different for project proposals that come out to
+
+24
+00:02:09.870 --> 00:02:11.680
+Tracy Kuhrt: get the
+
+25
+00:02:11.730 --> 00:02:13.340
+Tracy Kuhrt: ones that we think are
+
+26
+00:02:13.530 --> 00:02:18.439
+Tracy Kuhrt: kind of match. The criteria that the mentorship program has.
+
+27
+00:02:18.480 --> 00:02:22.809
+Tracy Kuhrt: So that's in a couple of weeks. But in the meantime, if you do have a project
+
+28
+00:02:23.230 --> 00:02:26.940
+Tracy Kuhrt: mentorship project that you would like to propose. Please do so
+
+29
+00:02:28.850 --> 00:02:31.439
+Tracy Kuhrt: all right. Any other announcements that anybody has.
+
+30
+00:02:41.630 --> 00:02:47.219
+Tracy Kuhrt: Okay, not seeing any him. So anybody else coming off mute. I will take that as a.
+
+31
+00:02:47.350 --> 00:02:53.050
+Tracy Kuhrt: So as far as quarterly reports, we are still waiting on the earth to report to come in.
+
+32
+00:02:53.270 --> 00:02:57.290
+Tracy Kuhrt: We did, as I mentioned. Get the Hyper ledger statute
+
+33
+00:02:57.430 --> 00:02:59.750
+Tracy Kuhrt: coming in on Github.
+
+34
+00:03:01.410 --> 00:03:07.810
+Tracy Kuhrt: So I link here in the agenda about the Pr. And a rendered version of that report for you to take a look at.
+
+35
+00:03:07.880 --> 00:03:21.760
+Tracy Kuhrt: I think, as of this morning, and i'm sure somebody might have snuck in since last time I looked. But when I looked there were, I think, 6 people who had had a chance to review that, and we're still waiting on 5 others to take a look at that.
+
+36
+00:03:21.940 --> 00:03:24.710
+Tracy Kuhrt: So please do take a look at that report.
+
+37
+00:03:24.890 --> 00:03:28.750
+Tracy Kuhrt: The Hyper Ledger Areas report came in last week
+
+38
+00:03:28.980 --> 00:03:30.130
+Tracy Kuhrt: and
+
+39
+00:03:30.210 --> 00:03:31.220
+Tracy Kuhrt: was
+
+40
+00:03:31.530 --> 00:03:36.770
+Tracy Kuhrt: reviewed by, I think, the majority of us, but any questions on any of the Quarterly reports.
+
+41
+00:03:44.900 --> 00:03:53.709
+Tracy Kuhrt: Okay, another rezoning, though. So we do also have some upcoming reports. Today we have the Indie and the Non cred that are also due.
+
+42
+00:03:53.850 --> 00:03:58.510
+Tracy Kuhrt: and then we have a hyper ledger. You know how that's coming to you next week.
+
+43
+00:03:58.690 --> 00:04:02.060
+Tracy Kuhrt: so we will look forward to receiving those
+
+44
+00:04:03.770 --> 00:04:13.330
+Tracy Kuhrt: all right. So for discussion items. We have 2 discussion items. The first one is something that I added Yesterday, since we were moving other things to Github.
+
+45
+00:04:13.480 --> 00:04:18.780
+Tracy Kuhrt: I was curious. If we wanted to also move these meeting agendas to Github.
+
+46
+00:04:18.890 --> 00:04:24.480
+Tracy Kuhrt: and then the the other agenda item that we have is the task force proposals.
+
+47
+00:04:24.670 --> 00:04:27.459
+Tracy Kuhrt: I will say that there are a number of
+
+48
+00:04:27.750 --> 00:04:34.329
+Tracy Kuhrt: Poc members who have not put their name anywhere, and I don't know if that's because you're not interested, or you Just Haven't
+
+49
+00:04:34.400 --> 00:04:35.860
+Tracy Kuhrt: completed the
+
+50
+00:04:35.940 --> 00:04:39.470
+Tracy Kuhrt: the task to add your name to any of those task forces
+
+51
+00:04:39.750 --> 00:04:43.929
+Tracy Kuhrt: definitely important to do that. So if you want to do that here
+
+52
+00:04:44.030 --> 00:04:52.170
+Tracy Kuhrt: while we're while I'm wasting a bit of time. Please do do that so that we can make sure that we know which ones we want to prioritize.
+
+53
+00:04:52.480 --> 00:04:57.010
+Tracy Kuhrt: But let's have a discussion about the first agenda item.
+
+54
+00:04:57.710 --> 00:05:02.840
+Tracy Kuhrt: Do we want to move meeting agendas to Github? Or do we want them to stay out of the Wiki.
+
+55
+00:05:04.700 --> 00:05:10.129
+Tracy Kuhrt: So if you wouldn't mind opening up the proposal there, whoever is sharing the screen
+
+56
+00:05:10.260 --> 00:05:12.720
+Tracy Kuhrt: on the the meeting agenda to Github.
+
+57
+00:05:14.210 --> 00:05:16.840
+Tracy Kuhrt: so yeah, like I said.
+
+58
+00:05:17.080 --> 00:05:18.889
+Tracy Kuhrt: as far as
+
+59
+00:05:19.200 --> 00:05:25.470
+Tracy Kuhrt: other things that we're moving to Github into basically that hyper ledger. Org
+
+60
+00:05:26.610 --> 00:05:30.340
+Tracy Kuhrt: wanted to see if we wanted to move the meeting minutes there.
+
+61
+00:05:30.930 --> 00:05:34.760
+Tracy Kuhrt: specifically having the poc chair create a request
+
+62
+00:05:35.030 --> 00:05:37.449
+Tracy Kuhrt: to add the meeting agenda
+
+63
+00:05:37.600 --> 00:05:43.759
+Tracy Kuhrt: during the Toc meeting, having the pr modified to include any of the attendees that we have.
+
+64
+00:05:43.880 --> 00:05:47.050
+Tracy Kuhrt: And then, after the Poc meeting.
+
+65
+00:05:47.120 --> 00:05:50.280
+Tracy Kuhrt: why, I think you have a comment about the recordings.
+
+66
+00:05:50.440 --> 00:05:57.449
+Tracy Kuhrt: and then just going through the process of getting approvals and getting that merge to to Github.
+
+67
+00:05:57.930 --> 00:06:01.520
+Tracy Kuhrt: So why did you want to comment on that? The recordings piece?
+
+68
+00:06:09.310 --> 00:06:11.280
+Tracy Kuhrt: It came off mute, but
+
+69
+00:06:11.520 --> 00:06:13.089
+Tracy Kuhrt: we don't hear you.
+
+70
+00:06:13.380 --> 00:06:16.330
+Ry Jones: Okay, there. Okay.
+
+71
+00:06:18.040 --> 00:06:22.050
+Ry Jones: The the recordings are obviously not too large to host on. Get up.
+
+72
+00:06:24.140 --> 00:06:25.530
+Ry Jones: I was thinking
+
+73
+00:06:26.010 --> 00:06:32.319
+Ry Jones: for other reasons. I've been looking into where we can store big stuff doesn't change. Archive Org
+
+74
+00:06:32.700 --> 00:06:36.999
+Ry Jones: is a free place to host big things that don't change.
+
+75
+00:06:37.330 --> 00:06:39.669
+Ry Jones: So I was thinking about using archive org.
+
+76
+00:06:41.600 --> 00:06:44.180
+Ry Jones: But i'm not married to that.
+
+77
+00:06:44.810 --> 00:06:49.249
+Ry Jones: The other thing that we could do is to continue to upload those to the wiki and
+
+78
+00:06:49.680 --> 00:06:50.880
+Ry Jones: point to the Wiki.
+
+79
+00:06:52.940 --> 00:06:54.780
+Ry Jones: I don't have strong feelings either way.
+
+80
+00:07:00.440 --> 00:07:01.150
+Tracy Kuhrt: Okay.
+
+81
+00:07:04.890 --> 00:07:10.150
+Tracy Kuhrt: I think the the main concern is that we want to put them some place where we want them.
+
+82
+00:07:10.380 --> 00:07:13.259
+Tracy Kuhrt: so that we need to go back and listen to them.
+
+83
+00:07:13.370 --> 00:07:19.719
+Tracy Kuhrt: I remember just recently we had a question come up about some decision that we had taken. And Why did we take that?
+
+84
+00:07:19.840 --> 00:07:29.209
+Tracy Kuhrt: We we dug through the recordings right to listen to kind of our reasoning. So I want to make sure that wherever we put the recordings. We're not going to lose them.
+
+85
+00:07:31.860 --> 00:07:34.370
+Ry Jones: Right? Which sounds very reasonable.
+
+86
+00:07:34.890 --> 00:07:35.610
+Tracy Kuhrt: Yeah.
+
+87
+00:07:37.990 --> 00:07:38.800
+Tracy Kuhrt: Title.
+
+88
+00:07:39.950 --> 00:07:55.849
+Timo Glastra: Yeah, it is it? Just like for the poc meetings? This? Or is it like more? As also to try for more general, because all the other working groups and stuff is hosted on on the Wiki? Like? Is there a a bigger plan behind this, or is it just like for this specific meeting?
+
+89
+00:07:57.410 --> 00:08:04.659
+Tracy Kuhrt: Yeah. So this is specifically for the Toc meeting. So if if you take a look and go to to to Hyper ledger.org.
+
+90
+00:08:04.800 --> 00:08:11.149
+Tracy Kuhrt: you will see that we're we're starting to move things over there that are specifically right related to the
+
+91
+00:08:11.170 --> 00:08:13.140
+Technical Oversight Committee.
+
+92
+00:08:13.650 --> 00:08:16.529
+So we have all the governing documents. We have.
+
+93
+00:08:16.580 --> 00:08:29.180
+Tracy Kuhrt: the guidelines that we've developed over the years information for us as members who we are as as well as what do we? What are we responsible for? And then the project updates that we just moved over.
+
+94
+00:08:29.340 --> 00:08:32.370
+Tracy Kuhrt: So my thought was that we would have kind of a fifth.
+
+95
+00:08:32.480 --> 00:08:35.240
+Tracy Kuhrt: that down here that was the meeting minutes
+
+96
+00:08:35.460 --> 00:08:38.789
+Tracy Kuhrt: to to really have them all in one place.
+
+97
+00:08:43.169 --> 00:08:47.130
+Timo Glastra: Okay, yeah, I think, for for the auto meetings, like what I think, what
+
+98
+00:08:47.160 --> 00:08:50.910
+Timo Glastra: most of the benefits of using the the Hyper ledger Wiki also
+
+99
+00:08:50.940 --> 00:09:02.100
+Timo Glastra: always lost. There is the collaborative features of it, and that multiple people can add links and take notes at the same time. But i'm not sure how how relevant it is.
+
+100
+00:09:02.290 --> 00:09:05.230
+Timo Glastra: The Poc meeting notes.
+
+101
+00:09:06.550 --> 00:09:14.360
+Tracy Kuhrt: Yeah, it's a good point, you know. I think there's been a couple of times when we have done some collaborative editing on some documents on the Wiki
+
+102
+00:09:14.450 --> 00:09:20.870
+Tracy Kuhrt: during this meeting. Very few, I think I can probably count on one hand the number of times that we've done that
+
+103
+00:09:21.070 --> 00:09:25.909
+Tracy Kuhrt: so probably not as important as maybe some of those other meetings, but
+
+104
+00:09:26.270 --> 00:09:28.640
+Tracy Kuhrt: is something that yeah, it's worth considering.
+
+105
+00:09:33.440 --> 00:09:35.470
+Tracy Kuhrt: Anybody else have any thoughts on this.
+
+106
+00:09:37.270 --> 00:09:38.130
+Tracy Kuhrt: Bobby?
+
+107
+00:09:38.790 --> 00:09:46.919
+Bobbi Muscara: So I just have a question. So as a foundation, are we moving away from confluence? Is that like the goal of this, or is it because
+
+108
+00:09:47.900 --> 00:09:49.339
+Bobbi Muscara: a lot of the other
+
+109
+00:09:49.420 --> 00:09:56.800
+Bobbi Muscara: special interest groups and all those part of the trainings, or get them familiar with the Wiki Page and i'm just curious if that's
+
+110
+00:09:57.030 --> 00:10:02.589
+Bobbi Muscara: a trend moving away from confluence as again a hyper ledger foundation.
+
+111
+00:10:03.570 --> 00:10:05.510
+Ry Jones: I'm: i'm gonna say no.
+
+112
+00:10:06.900 --> 00:10:08.040
+Ry Jones: So
+
+113
+00:10:08.530 --> 00:10:15.709
+Ry Jones: the my original desire behind moving a bunch of stuff to get a bunch of historical stuff to Github
+
+114
+00:10:15.980 --> 00:10:20.350
+Ry Jones: was that we lost some of the foundational documents for hyper ledger.
+
+115
+00:10:20.460 --> 00:10:27.050
+Ry Jones: like we don't have the original Saw Tooth proposal anywhere that I can find. There are a couple of other documents that are missing.
+
+116
+00:10:27.730 --> 00:10:29.519
+Ry Jones: so I want to preserve those
+
+117
+00:10:29.840 --> 00:10:33.310
+Ry Jones: and the same thing for the
+
+118
+00:10:35.430 --> 00:10:37.689
+Ry Jones: for the meeting.
+
+119
+00:10:37.990 --> 00:10:39.850
+Ry Jones: Sorry for the project updates
+
+120
+00:10:40.290 --> 00:10:43.070
+Ry Jones: in the Wiki. There is no
+
+121
+00:10:44.800 --> 00:10:46.889
+Ry Jones: like anyone can go in
+
+122
+00:10:47.030 --> 00:10:47.860
+Ry Jones: and
+
+123
+00:10:48.080 --> 00:10:52.569
+Ry Jones: edit these pages on the Wiki, so we don't know who actually reviewed what?
+
+124
+00:10:52.600 --> 00:10:53.690
+Ry Jones: At what time.
+
+125
+00:10:54.540 --> 00:10:58.610
+Ry Jones: So that was why I wanted to move project ports over.
+
+126
+00:10:59.320 --> 00:11:04.409
+Ry Jones: and the the Tsc. Sorry, the Toc
+
+127
+00:11:04.460 --> 00:11:10.210
+Ry Jones: being agendas are something else that we, some of them, are are lost to time.
+
+128
+00:11:11.340 --> 00:11:14.140
+Ry Jones: So I for those items.
+
+129
+00:11:15.100 --> 00:11:16.589
+Ry Jones: I I want those there
+
+130
+00:11:16.750 --> 00:11:20.010
+Ry Jones: is Hyper Ledger moving away from confluence.
+
+131
+00:11:20.810 --> 00:11:21.600
+Ry Jones: No.
+
+132
+00:11:23.630 --> 00:11:27.120
+Tracy Kuhrt: and why? I will add to your point about
+
+133
+00:11:27.360 --> 00:11:33.590
+Tracy Kuhrt: things being modified after the fact. So last year we had some meeting minutes where
+
+134
+00:11:33.660 --> 00:11:38.769
+Tracy Kuhrt: people were going through and trying to clear up their backlog of tasks that they had to
+
+135
+00:11:39.940 --> 00:11:42.730
+Tracy Kuhrt: to review right for the project report. But
+
+136
+00:11:42.760 --> 00:11:45.060
+Tracy Kuhrt: in a lot of
+
+137
+00:11:45.770 --> 00:11:53.220
+Tracy Kuhrt: in more than one case I did see that people checked themselves as having attended a Toc meeting; that they did that at 10,
+
+138
+00:11:53.550 --> 00:11:55.170
+because we didn't.
+
+139
+00:11:55.520 --> 00:12:02.059
+Tracy Kuhrt: We didn't remove that as a task item for them. So you know, I think there is a
+
+140
+00:12:02.100 --> 00:12:03.430
+Tracy Kuhrt: there is some
+
+141
+00:12:03.600 --> 00:12:07.049
+Tracy Kuhrt: information that is in the Wiki that is not actually correct.
+
+142
+00:12:07.350 --> 00:12:13.170
+Tracy Kuhrt: based on the the Toc meeting so very similar to what you see with the project reports potentially being
+
+143
+00:12:13.330 --> 00:12:20.710
+Tracy Kuhrt: modified or checked off. I I don't know how many times I've had somebody like unchecked. The fact that I've reviewed a a project report. But
+
+144
+00:12:20.810 --> 00:12:26.650
+Tracy Kuhrt: you know there there's a similar sort of issue that exists with the Tlc meetings today.
+
+145
+00:12:27.920 --> 00:12:28.570
+Tracy Kuhrt: Jim.
+
+146
+00:12:33.280 --> 00:12:46.949
+Jim Zhang: Sorry, Can you find that unmute button? I think it just takes some getting used to us? There was at least 2 incidents in the past year where I needed to update the agenda, so I would have to
+
+147
+00:12:47.170 --> 00:12:48.949
+Jim Zhang: in the new process.
+
+148
+00:12:49.190 --> 00:12:55.150
+Jim Zhang: make a poor request to the agenda for that to be merged
+
+149
+00:12:55.660 --> 00:12:57.500
+Jim Zhang: and ready for the meeting.
+
+150
+00:12:57.730 --> 00:13:06.450
+Jim Zhang: Just for you. It's a bit funky, but I I I can see the benefit of doing this versus Wiki
+
+151
+00:13:06.560 --> 00:13:22.819
+Jim Zhang: for like archiving and and tracking purposes. So I i'm willing to give it a try. But I think you know it's in terms of the convenience. I I think there's definitely a loss of that. But at least for myself, I'm: i'm willing to give this a 5
+
+152
+00:13:25.140 --> 00:13:27.409
+Tracy Kuhrt: yeah question. And another
+
+153
+00:13:27.450 --> 00:13:29.280
+concerning that.
+
+154
+00:13:29.790 --> 00:13:33.620
+Tracy Kuhrt: I think, is is worthwhile to have brought up. So
+
+155
+00:13:33.660 --> 00:13:35.680
+Tracy Kuhrt: think about whether or not you
+
+156
+00:13:35.710 --> 00:13:39.720
+Tracy Kuhrt: Hmm. Add it to the agenda in the past, and whether or not that
+
+157
+00:13:39.970 --> 00:13:58.130
+Tracy Kuhrt: seems like it's a potential concern for you other people, obviously besides zoom. So, Marcus: yeah. So it's just a for a quick follow up. I I assume the Tm. Toc members will be made at least the writer access, so we can
+
+158
+00:13:58.390 --> 00:14:00.649
+Jim Zhang: make a pull request directly
+
+159
+00:14:00.960 --> 00:14:06.389
+Jim Zhang: on on this repository rather than having to fork to our own.
+
+160
+00:14:12.840 --> 00:14:16.140
+Ry Jones: I I think that's undecided
+
+161
+00:14:16.660 --> 00:14:17.490
+Ry Jones: right.
+
+162
+00:14:17.520 --> 00:14:19.339
+Ry Jones: My guess is yes.
+
+163
+00:14:19.860 --> 00:14:20.710
+Ry Jones: I I
+
+164
+00:14:21.030 --> 00:14:24.650
+Ry Jones: How is it today? I I can't tell you I'll stop my head. What? How it's set up.
+
+165
+00:14:26.050 --> 00:14:28.640
+Ry Jones: How could it be Exactly as you said
+
+166
+00:14:29.270 --> 00:14:32.600
+Ry Jones: I, I would just need to change the permissions to make it that way, and
+
+167
+00:14:32.730 --> 00:14:37.159
+Ry Jones: basically do the auto branch create thing when you want to pick an edit.
+
+168
+00:14:39.070 --> 00:14:41.940
+Jim Zhang: Great cool. Thanks, Ryan. That's it for me.
+
+169
+00:14:42.950 --> 00:14:50.049
+Tracy Kuhrt: Thank you. I think the other thing we might consider is whether or not a drop Pr. Would allow you to edit it directly
+
+170
+00:14:52.040 --> 00:14:55.250
+Tracy Kuhrt: to edit the files that were were added.
+
+171
+00:14:56.380 --> 00:15:04.250
+Tracy Kuhrt: or alternatively, just to make the use the suggestion, option, right to suggest, adding or or modifying
+
+172
+00:15:04.480 --> 00:15:06.580
+Tracy Kuhrt: A, and then having the person.
+
+173
+00:15:06.690 --> 00:15:10.090
+Tracy Kuhrt: the chair. Who created it right, except that suggestion.
+
+174
+00:15:13.650 --> 00:15:14.530
+Tracy Kuhrt: Marcus.
+
+175
+00:15:15.610 --> 00:15:26.880
+Marcus Brandenburger: Yes, thanks. So I absolutely see the benefits of of maintaining the history of those documents a little bit better. Maybe we should consider putting this later on a blockchain instead of Github.
+
+176
+00:15:27.200 --> 00:15:40.679
+Marcus Brandenburger: Not just joking. Have you also considered to use the Github Riki, which I guess, is a little bit easier to maintain when multiple people would like to add things quickly.
+
+177
+00:15:40.690 --> 00:15:49.249
+Marcus Brandenburger: But I also, because I can also see the additional overhead of I mean adding addition to this pending pr.
+
+178
+00:15:49.660 --> 00:15:55.340
+Marcus Brandenburger: depending on on the personal preferences. How to use Kit, I guess.
+
+179
+00:15:55.440 --> 00:15:56.790
+Marcus Brandenburger: and
+
+180
+00:15:56.990 --> 00:15:58.900
+Marcus Brandenburger: and that could be complicated.
+
+181
+00:15:59.160 --> 00:16:03.330
+Marcus Brandenburger: The my experience with the
+
+182
+00:16:03.730 --> 00:16:04.609
+Marcus Brandenburger: All right.
+
+183
+00:16:05.670 --> 00:16:07.840
+Marcus Brandenburger: the proposals, or the
+
+184
+00:16:08.370 --> 00:16:16.259
+Marcus Brandenburger: what you just mentioned, Tracy, When you suggest a change. If, then the Pr. Create, you accept
+
+185
+00:16:16.430 --> 00:16:21.069
+Marcus Brandenburger: those some times this results in an awkward
+
+186
+00:16:21.800 --> 00:16:26.029
+Marcus Brandenburger: merge issues. This is my experience.
+
+187
+00:16:26.740 --> 00:16:30.570
+Marcus Brandenburger: So did you try the get a Wiki for some other
+
+188
+00:16:31.210 --> 00:16:32.790
+Marcus Brandenburger: things like that? That.
+
+189
+00:16:33.820 --> 00:16:39.609
+Tracy Kuhrt: Yeah, some more, because I've used. I'm using a github with you right now with another project.
+
+190
+00:16:39.650 --> 00:16:44.079
+Tracy Kuhrt: I think the reason so. So there were those were 2,
+
+191
+00:16:44.170 --> 00:17:02.939
+Tracy Kuhrt: I mean. I can take it back. That was one of the 2 options that I considered. One of the 3 options I guess I considered was the wiki that the concern I have with the Wiki, and I don't know if it's the case, but I don't think we can show the wiki on a Tsc. That hyper ledger, that one
+
+192
+00:17:03.860 --> 00:17:05.200
+Tracy Kuhrt: alright.
+
+193
+00:17:05.470 --> 00:17:15.620
+Tracy Kuhrt: Yeah, that that was, I think, my concern there. Then the second one, also the same concern that I can considered, and throughout was just creating an issue
+
+194
+00:17:15.980 --> 00:17:24.180
+Tracy Kuhrt: that we could track the meeting agenda on again. We can't display the issue on Tlc. That hyper ledger.org, which is why I went to this
+
+195
+00:17:24.260 --> 00:17:26.569
+Tracy Kuhrt: a process of Pr.
+
+196
+00:17:26.829 --> 00:17:30.880
+Tracy Kuhrt: Which yeah is a is a bit more challenging, but
+
+197
+00:17:31.040 --> 00:17:33.579
+Tracy Kuhrt: would allow us to to display those
+
+198
+00:17:33.990 --> 00:17:36.829
+Tracy Kuhrt: on a Tlc. That we led to that one.
+
+199
+00:17:40.210 --> 00:17:41.179
+Marcus Brandenburger: Okay, I see.
+
+200
+00:17:44.480 --> 00:17:49.250
+Marcus Brandenburger: But so so your personal preference would be, I mean, going this
+
+201
+00:17:50.230 --> 00:17:51.810
+Pr. Route
+
+202
+00:17:52.570 --> 00:17:57.480
+Marcus Brandenburger: in in terms of I mean, if you think about the the additional get overhead you need to do.
+
+203
+00:17:57.650 --> 00:18:00.310
+Marcus Brandenburger: I mean for the Vicki, you can do everything in the border
+
+204
+00:18:01.190 --> 00:18:04.480
+Marcus Brandenburger: for creating a Pr. You have to do something in the terminal
+
+205
+00:18:04.750 --> 00:18:07.070
+Marcus Brandenburger: depending on personal preferences of kit.
+
+206
+00:18:08.990 --> 00:18:11.829
+Tracy Kuhrt: Yeah. So for for me, I guess I don't.
+
+207
+00:18:11.900 --> 00:18:13.649
+Tracy Kuhrt: I don't necessarily
+
+208
+00:18:14.600 --> 00:18:25.839
+Tracy Kuhrt: care whether or not we move over to the Pr. Or we stick with confidence. But it was. Are we trying to to move everything over. So therefore let's make this a
+
+209
+00:18:25.890 --> 00:18:36.460
+Tracy Kuhrt: suggestion that question, and see what people think right. Like. If you guys decide this is the worst idea in the world, Tracy. I'm perfectly happy to say great. Let's close it and move on
+
+210
+00:18:36.520 --> 00:18:42.399
+Tracy Kuhrt: right. I I really i'm really not tied to. Whether or not we have to do this or not.
+
+211
+00:18:42.740 --> 00:18:47.219
+Tracy Kuhrt: I'm, you know, presenting it as there are reasons to do it.
+
+212
+00:18:48.360 --> 00:18:51.010
+Tracy Kuhrt: I'm i'm not tied to one way or the other.
+
+213
+00:18:53.280 --> 00:18:59.679
+Aleksandr Petrosyan: if I may. I just like to comment about the get over. Really, this is nothing.
+
+214
+00:19:00.610 --> 00:19:15.239
+Aleksandr Petrosyan: Github offers quite a few facilities for doing things in line, so to speak, and there's a little bit of automation in the web. Ui! That can be done. If not, it can be self hosted at least partially when it's script that removes the overhead entirely.
+
+215
+00:19:15.660 --> 00:19:17.460
+Aleksandr Petrosyan: The issue is that people
+
+216
+00:19:17.730 --> 00:19:25.600
+Aleksandr Petrosyan: large amounts of people, and Hyper Ledger has a lot of contributors, is with a lot we want people spending extra time doing this.
+
+217
+00:19:25.710 --> 00:19:39.729
+Aleksandr Petrosyan: I'd also raise that confluence as a very different syntax, meaning that if we have the technical proposals in how can be, and it is in mark that I'm. Transforming it into a format in which we could also host it on the hypervisor Wiki
+
+218
+00:19:39.820 --> 00:19:42.389
+Aleksandr Petrosyan: is comparable to writing the thing from the ground.
+
+219
+00:19:43.940 --> 00:19:49.979
+Aleksandr Petrosyan: So the fact that the poor request allows us to use the lockdown syntax might actually save people time
+
+220
+00:19:50.400 --> 00:19:55.050
+Aleksandr Petrosyan: not counting that we can also remove the get overhead by custom solution.
+
+221
+00:19:56.120 --> 00:19:58.300
+Aleksandr Petrosyan: So in any respect
+
+222
+00:19:58.680 --> 00:20:01.729
+Aleksandr Petrosyan: it's it's reasonable.
+
+223
+00:20:03.660 --> 00:20:07.290
+Aleksandr Petrosyan: I think, that the cool request workflow has more advantages
+
+224
+00:20:08.150 --> 00:20:09.430
+Aleksandr Petrosyan: in terms of
+
+225
+00:20:10.360 --> 00:20:12.580
+Aleksandr Petrosyan: develop a convenience. Let's just say
+
+226
+00:20:14.860 --> 00:20:15.900
+Aleksandr Petrosyan: just a comment.
+
+227
+00:20:16.790 --> 00:20:17.580
+Alright Thank you.
+
+228
+00:20:18.000 --> 00:20:18.989
+Tracy Kuhrt: I appreciate that
+
+229
+00:20:20.120 --> 00:20:22.610
+Tracy Kuhrt: any other thoughts or comments on this.
+
+230
+00:20:31.210 --> 00:20:33.379
+Tracy Kuhrt: Do we think we want to vote on this.
+
+231
+00:20:34.550 --> 00:20:37.680
+Tracy Kuhrt: and if we do, is there somebody who would like to make a motion?
+
+232
+00:20:44.730 --> 00:20:47.010
+Jim Zhang: I can motion to pass this.
+
+233
+00:20:48.180 --> 00:20:50.659
+Tracy Kuhrt: Alright thanks, Jim. Do we have a second
+
+234
+00:20:52.150 --> 00:20:53.209
+Marcus Brandenburger: 1 s?
+
+235
+00:20:54.790 --> 00:20:58.930
+Tracy Kuhrt: Okay. I I know, Marcus. I think you were on when you were the other one a second.
+
+236
+00:20:58.990 --> 00:21:00.349
+Thank you for that.
+
+237
+00:21:01.220 --> 00:21:10.389
+Tracy Kuhrt: All Righty, let's do a let's do a voice vote, because i'm not sure that everybody is behind this. And so I want to make sure we we know where we stand.
+
+238
+00:21:13.610 --> 00:21:17.829
+Ry Jones: Give me a roll call, vote, vote.
+
+239
+00:21:17.870 --> 00:21:19.320
+Tracy Kuhrt: Thank you.
+
+240
+00:21:19.720 --> 00:21:25.140
+Ry Jones: Okay on the matter before the Toc. Or run.
+
+241
+00:21:26.190 --> 00:21:26.950
+Yes.
+
+242
+00:21:27.470 --> 00:21:28.480
+Ry Jones: Bobby.
+
+243
+00:21:29.000 --> 00:21:30.130
+Bobbi Muscara: No.
+
+244
+00:21:30.420 --> 00:21:31.350
+Ry Jones: David.
+
+245
+00:21:31.560 --> 00:21:32.470
+David Enyeart: Yes.
+
+246
+00:21:32.840 --> 00:21:33.800
+Ry Jones: Jim.
+
+247
+00:21:33.950 --> 00:21:35.920
+Jim Zhang: Yes, Marcus.
+
+248
+00:21:36.200 --> 00:21:37.730
+Marcus Brandenburger: Yes, Peter.
+
+249
+00:21:40.390 --> 00:21:41.710
+Tracy Kuhrt: I guess.
+
+250
+00:21:42.050 --> 00:21:42.900
+Ry Jones: Team of
+
+251
+00:21:43.720 --> 00:21:44.520
+Timo Glastra: Yes.
+
+252
+00:21:44.670 --> 00:21:45.520
+Ry Jones: Tracy.
+
+253
+00:21:46.260 --> 00:21:47.050
+Tracy Kuhrt: Yes.
+
+254
+00:21:47.170 --> 00:21:48.280
+Rama.
+
+255
+00:21:48.720 --> 00:21:49.490
+Ramakrishna V: Yes.
+
+256
+00:21:50.110 --> 00:21:52.970
+Ry Jones: okay. The eyes have it
+
+257
+00:21:54.540 --> 00:21:55.220
+Tracy Kuhrt: alright.
+
+258
+00:21:55.290 --> 00:21:56.020
+Great.
+
+259
+00:21:58.110 --> 00:22:01.480
+Tracy Kuhrt: All right. So let's move on to the tax.
+
+260
+00:22:01.520 --> 00:22:02.340
+Tracy Kuhrt: of course.
+
+261
+00:22:03.530 --> 00:22:09.189
+Tracy Kuhrt: issues that we've created. Let's see if we've got some updates behind me.
+
+262
+00:22:09.780 --> 00:22:19.399
+Tracy Kuhrt: So I think we'll just go through these one by one and see if we've got any support for these. Looks like with the supported projects we have
+
+263
+00:22:19.670 --> 00:22:24.570
+Tracy Kuhrt: myself who is signed up so that's probably not one we're gonna prioritize
+
+264
+00:22:24.980 --> 00:22:28.229
+Tracy Kuhrt: for the badging life cycle.
+
+265
+00:22:30.310 --> 00:22:34.109
+Tracy Kuhrt: We have Rama and Bobby, who've signed up for that one
+
+266
+00:22:39.070 --> 00:22:43.379
+Tracy Kuhrt: for the next one. Here the security artifact
+
+267
+00:22:43.680 --> 00:22:44.930
+Tracy Kuhrt: task force.
+
+268
+00:22:45.520 --> 00:22:46.959
+Tracy Kuhrt: We have
+
+269
+00:22:47.120 --> 00:22:49.290
+Tracy Kuhrt: Marcus Arnold and Hart.
+
+270
+00:22:49.410 --> 00:22:50.459
+Tracy Kuhrt: I have signed up
+
+271
+00:22:50.950 --> 00:22:55.490
+Tracy Kuhrt: security vulnerability we have
+
+272
+00:22:56.800 --> 00:22:59.630
+Tracy Kuhrt: for the onboarding.
+
+273
+00:23:00.290 --> 00:23:04.840
+Tracy Kuhrt: We have Bobby, you sign up to be a leader and myself and Bobby as
+
+274
+00:23:04.930 --> 00:23:06.180
+Tracy Kuhrt: participates
+
+275
+00:23:07.230 --> 00:23:15.750
+Tracy Kuhrt: for the documentation. Bobby has also signed up to be a leader, and we have Rama and myself as participants, plus obviously Bobby.
+
+276
+00:23:16.080 --> 00:23:20.309
+Tracy Kuhrt: the project best practices, Roma and myself.
+
+277
+00:23:21.000 --> 00:23:22.479
+Tracy Kuhrt: And then
+
+278
+00:23:23.300 --> 00:23:26.349
+Tracy Kuhrt: for the last one here the best practices.
+
+279
+00:23:26.810 --> 00:23:31.170
+Tracy Kuhrt: Tomorrow you snap right in there, I mean Marcus
+
+280
+00:23:31.200 --> 00:23:33.410
+Tracy Kuhrt: and Dave and Kimo.
+
+281
+00:23:33.450 --> 00:23:37.279
+Tracy Kuhrt: So just looking at that. Yeah, Roma, you have a question.
+
+282
+00:23:37.740 --> 00:23:49.589
+Ramakrishna V: No, just a comment. I believe Peter is on vacation this week, so he may sign up for some of these many returns. I know I did discuss with them about documentation, so he might be interested in joining that one.
+
+283
+00:23:50.230 --> 00:23:57.379
+Tracy Kuhrt: Okay, Great. Thank you for that. And I know Steven also mentioned in his chat to the Hyper Ledger
+
+284
+00:23:57.830 --> 00:24:07.080
+Tracy Kuhrt: for this meeting that he was going to update the documentation and the pipeline ones for that.
+
+285
+00:24:07.110 --> 00:24:08.800
+Tracy Kuhrt: Now.
+
+286
+00:24:10.730 --> 00:24:13.399
+Tracy Kuhrt: did we have everybody on the call.
+
+287
+00:24:13.960 --> 00:24:19.800
+Tracy Kuhrt: every T. Oc. Number on the call, sign up for task forces, or do we have to add
+
+288
+00:24:19.880 --> 00:24:24.180
+Tracy Kuhrt: anybody to any of these task forces to to make sure that we've got a complete list.
+
+289
+00:24:25.010 --> 00:24:28.060
+Jim Zhang: Hey, Tracy? I just added myself to 2 of them.
+
+290
+00:24:28.670 --> 00:24:30.490
+Tracy Kuhrt: Okay? Which to Jim?
+
+291
+00:24:30.570 --> 00:24:35.440
+Jim Zhang: That was security artifacts, signing and best practices for projects.
+
+292
+00:24:35.830 --> 00:24:40.840
+David Enyeart: Okay, great. Thank you.
+
+293
+00:24:41.400 --> 00:24:43.289
+David Enyeart: Okay, Great.
+
+294
+00:24:43.880 --> 00:24:51.140
+Arun S M: To add myself, I'll be adding after this call, that is, i'll. I think, heart also mentioned on the chart that
+
+295
+00:24:51.430 --> 00:24:53.950
+Arun S M: it can be anybody outside the Tuesday as well.
+
+296
+00:24:55.690 --> 00:25:07.509
+Tracy Kuhrt: Yes, for sure, for sure anybody outside the Tsc. Can can sign up, or are there specific ones that you're thinking about adding your name to, so that we can get kind of an accurate count. So
+
+297
+00:25:07.710 --> 00:25:09.019
+Tracy Kuhrt: where people are at?
+
+298
+00:25:09.500 --> 00:25:15.820
+Arun S M: Yes, so i'll be signing up for security, both the task forces and on the ongoing content.
+
+299
+00:25:15.980 --> 00:25:17.600
+Arun S M: These 3 are
+
+300
+00:25:18.180 --> 00:25:18.850
+at least.
+
+301
+00:25:18.970 --> 00:25:21.720
+Arun S M: But i'll I will go through, and I to
+
+302
+00:25:23.220 --> 00:25:32.240
+Tracy Kuhrt: That's fine. That's right. Thank you. Okay. Anybody else who hasn't had a chance or not in after I went through those.
+
+303
+00:25:39.510 --> 00:25:48.270
+Tracy Kuhrt: Okay. So based on that, I think where we're at is for sure, the onboarding content and the documentation
+
+304
+00:25:48.390 --> 00:25:50.189
+Tracy Kuhrt: and the security
+
+305
+00:25:50.600 --> 00:25:51.740
+Tracy Kuhrt: task force
+
+306
+00:25:51.780 --> 00:25:57.760
+Tracy Kuhrt: seems to be, and I think it was the vulnerability disclosure one heart that you said you want it to prioritize.
+
+307
+00:25:59.990 --> 00:26:06.949
+Hart Montgomery: Yes, Tracy, that was my opinion, since I've sort of done some background on that one with the open Ssf.
+
+308
+00:26:07.370 --> 00:26:14.279
+Hart Montgomery: But if you know if there's massive momentum towards another one, you know we we could start with that one, too.
+
+309
+00:26:14.800 --> 00:26:15.640
+Tracy Kuhrt: Okay?
+
+310
+00:26:16.790 --> 00:26:18.560
+Tracy Kuhrt: Alright, and then I think
+
+311
+00:26:18.590 --> 00:26:21.750
+Tracy Kuhrt: the other one that might have had a lot.
+
+312
+00:26:22.110 --> 00:26:30.590
+Tracy Kuhrt: Yeah, it was the project best practices. Maybe you signed up for later. Okay, that's why I didn't touch your name. I was looking at the list
+
+313
+00:26:30.680 --> 00:26:34.819
+Tracy Kuhrt: instead of the leader, so great, so
+
+314
+00:26:35.240 --> 00:26:39.340
+Tracy Kuhrt: I know that we have leaders for the
+
+315
+00:26:41.200 --> 00:26:44.509
+Tracy Kuhrt: documentation on boarding and best practices.
+
+316
+00:26:46.840 --> 00:26:51.490
+Tracy Kuhrt: I don't think we necessarily have a leader, a room, are you? Still.
+
+317
+00:26:51.570 --> 00:26:59.760
+Tracy Kuhrt: I know you were the leader for the security task force previously. Is that something that you're still interested in doing or not?
+
+318
+00:27:00.550 --> 00:27:02.229
+Arun S M: Yes, I
+
+319
+00:27:05.300 --> 00:27:06.480
+Tracy Kuhrt: Okay, great.
+
+320
+00:27:06.570 --> 00:27:12.560
+Tracy Kuhrt: So I think we've got kind of the 4 out of the 8, which is kind of where we want it to end up
+
+321
+00:27:12.680 --> 00:27:20.869
+Tracy Kuhrt: any objections or thoughts that I miss something as I was going through there, that we should have been focusing on besides those for
+
+322
+00:27:32.680 --> 00:27:33.370
+Tracy Kuhrt: okay.
+
+323
+00:27:33.500 --> 00:27:39.909
+Tracy Kuhrt: So I guess what i'd like to do, and and is to continue kind of the process that we had
+
+324
+00:27:40.170 --> 00:27:41.540
+Tracy Kuhrt: last
+
+325
+00:27:42.140 --> 00:27:43.560
+last year
+
+326
+00:27:44.110 --> 00:27:45.510
+Tracy Kuhrt: where we spend
+
+327
+00:27:45.540 --> 00:27:48.670
+Tracy Kuhrt: It's the first half an hour of the poc calls
+
+328
+00:27:48.820 --> 00:27:52.249
+Tracy Kuhrt: on poc topics, assuming we have any
+
+329
+00:27:52.290 --> 00:27:54.820
+Tracy Kuhrt: and the rest of the time on
+
+330
+00:27:55.180 --> 00:27:56.939
+Tracy Kuhrt: the task force
+
+331
+00:27:57.960 --> 00:28:01.709
+Tracy Kuhrt: discussions now, by doing that.
+
+332
+00:28:01.850 --> 00:28:08.219
+Tracy Kuhrt: since we have 4, that means that we have meetings at least once a month for these task forces.
+
+333
+00:28:08.320 --> 00:28:12.959
+Tracy Kuhrt: but that does not preclude us from having meetings in between the time that
+
+334
+00:28:13.270 --> 00:28:16.489
+Tracy Kuhrt: the poc. It's discussed at the Poc.
+
+335
+00:28:16.510 --> 00:28:20.289
+Tracy Kuhrt: Right? So if you want to have off cycle meetings.
+
+336
+00:28:20.310 --> 00:28:23.210
+Tracy Kuhrt: you can have off cycle meetings.
+
+337
+00:28:23.420 --> 00:28:25.850
+Tracy Kuhrt: If you're not.
+
+338
+00:28:26.330 --> 00:28:30.160
+Tracy Kuhrt: then it's that probably could take you a bit longer to get through some of these tasks.
+
+339
+00:28:30.180 --> 00:28:31.170
+but
+
+340
+00:28:31.210 --> 00:28:33.110
+Tracy Kuhrt: I think it's really important that
+
+341
+00:28:33.660 --> 00:28:35.449
+Tracy Kuhrt: it not only be a
+
+342
+00:28:35.630 --> 00:28:41.970
+Tracy Kuhrt: a toc meeting that we're discussing these, but that work it's done outside of that as well.
+
+343
+00:28:42.250 --> 00:28:49.979
+Tracy Kuhrt: So with that, I I think the the idea here would be to create some sort of order for going through these.
+
+344
+00:28:50.180 --> 00:28:54.929
+Tracy Kuhrt: and I don't know if any of the leaders would like to volunteer to step up first.
+
+345
+00:28:56.460 --> 00:28:57.880
+Tracy Kuhrt: Yeah, Roma Question.
+
+346
+00:28:58.090 --> 00:29:06.480
+Ramakrishna V: Yes, quick question in the past. Do you have? Have you started separate discussion for each of these so people can discuss?
+
+347
+00:29:06.840 --> 00:29:13.519
+Tracy Kuhrt: Yes, yes, we have, and we can do that again. We can create task force channels for each of these, so that people could have
+
+348
+00:29:13.680 --> 00:29:17.069
+Tracy Kuhrt: their offline discussions there. As well as
+
+349
+00:29:17.510 --> 00:29:19.919
+Tracy Kuhrt: you know any sort of meetings that they might have
+
+350
+00:29:20.960 --> 00:29:21.700
+Tracy Kuhrt: Bobby?
+
+351
+00:29:22.730 --> 00:29:35.899
+Bobbi Muscara: Well for the documentation and the onboarding, the learning materials, working group kind of has stepped up the members to help out with that along with David, and I believe that the plan is to maybe meet
+
+352
+00:29:35.910 --> 00:29:53.870
+Bobbi Muscara: where the learning materials development working group used to meet for those 2 task forces, and maybe put like on boarding on one Monday, and then the documentation on another, and then report back to the Tsc. I would say in in like 2 or 3 months
+
+353
+00:29:54.220 --> 00:29:58.089
+Bobbi Muscara: for the final report on which everyone is closest. And then.
+
+354
+00:29:58.200 --> 00:30:00.940
+Bobbi Muscara: after that, 2 more months report on the next one.
+
+355
+00:30:02.760 --> 00:30:05.610
+Bobbi Muscara: If that makes sense, I can put that in a document
+
+356
+00:30:05.760 --> 00:30:06.610
+and
+
+357
+00:30:07.500 --> 00:30:08.860
+Bobbi Muscara: solidify that
+
+358
+00:30:09.020 --> 00:30:10.100
+schedule.
+
+359
+00:30:10.920 --> 00:30:14.879
+So yeah, Bobby, I think it's great to to meet on the off
+
+360
+00:30:15.140 --> 00:30:28.170
+Tracy Kuhrt: to Oc. Meetings. I think that's perfect. I do think that it's worthwhile to bring back the discussion, so on a more frequent basis to the poc, so that any input that the poc might have can be.
+
+361
+00:30:28.190 --> 00:30:32.229
+Tracy Kuhrt: And before right things are finalized, if you will
+
+362
+00:30:32.260 --> 00:30:36.309
+Tracy Kuhrt: right or even help, because I I think it's important that
+
+363
+00:30:37.540 --> 00:30:40.909
+Tracy Kuhrt: that the Tsc. Is is involved in these topics as well.
+
+364
+00:30:41.800 --> 00:30:54.139
+Bobbi Muscara: Would you suggest? Well, I guess there's right now. 4 or 5 task force. Would you suggest that they rotate weekly? So every week one of the task force catches the Toc up on what's happening?
+
+365
+00:30:54.910 --> 00:31:01.609
+Tracy Kuhrt: That's correct. So Exactly. I think there's 4, right? I think we've got
+
+366
+00:31:01.710 --> 00:31:06.449
+Tracy Kuhrt: the security vulnerability disclosure. They're actually all
+
+367
+00:31:06.550 --> 00:31:12.140
+Tracy Kuhrt: kind of together, the onboarding content the documentation and the project best practices.
+
+368
+00:31:12.200 --> 00:31:17.110
+Tracy Kuhrt: So Number 48, 47, 46 and 45,
+
+369
+00:31:17.180 --> 00:31:18.550
+Tracy Kuhrt: as they're gonna see here.
+
+370
+00:31:18.570 --> 00:31:28.350
+Tracy Kuhrt: And so what I would like to do is create an order for those to come into the Poc. Right? We can start with the security vulnerability disclosure.
+
+371
+00:31:28.460 --> 00:31:33.770
+Tracy Kuhrt: have discussions in the Toc as well as their offspring.
+
+372
+00:31:33.860 --> 00:31:38.439
+Tracy Kuhrt: Then the next week would be maybe the onboarding content, and so on, and so forth.
+
+373
+00:31:38.570 --> 00:31:39.340
+Tracy Kuhrt: Right?
+
+374
+00:31:40.510 --> 00:31:41.510
+Bobbi Muscara: Sounds good.
+
+375
+00:31:43.020 --> 00:31:49.620
+Tracy Kuhrt: Is there? Is there a preference for where we want to start? Or Shall we just say those are the order that we're gonna go in
+
+376
+00:31:57.610 --> 00:32:04.750
+Tracy Kuhrt: no preference? Okay, let's call that the order that we're gonna go through these in and at the Tc.
+
+377
+00:32:06.530 --> 00:32:09.939
+Tracy Kuhrt: So, definitely i'll create some channels
+
+378
+00:32:10.230 --> 00:32:13.029
+Tracy Kuhrt: for us to discuss these items.
+
+379
+00:32:13.170 --> 00:32:19.489
+Tracy Kuhrt: If you are the leader of these task forces and you are going to set up a a meeting
+
+380
+00:32:19.690 --> 00:32:21.609
+off cycle.
+
+381
+00:32:22.090 --> 00:32:25.749
+Tracy Kuhrt: or when you would be coming into the Toc and discussing.
+
+382
+00:32:25.950 --> 00:32:29.059
+Tracy Kuhrt: I let that channel know, so that people can join
+
+383
+00:32:29.190 --> 00:32:30.419
+Tracy Kuhrt: and
+
+384
+00:32:30.520 --> 00:32:33.220
+Tracy Kuhrt: participate in those discussions.
+
+385
+00:32:34.180 --> 00:32:40.250
+Tracy Kuhrt: Also, if you're the leader of these task forces, make sure I capture the information properly.
+
+386
+00:32:40.490 --> 00:32:41.400
+Tracy Kuhrt: so that
+
+387
+00:32:41.420 --> 00:32:45.750
+Tracy Kuhrt: if there's something that we're supposed to be delivering on that I didn't capture, or
+
+388
+00:32:45.800 --> 00:32:52.749
+Tracy Kuhrt: you think I overstepped, and what we're supposed to be delivering on. Please fix that so that it's correct
+
+389
+00:32:58.790 --> 00:32:59.870
+Tracy Kuhrt: questions.
+
+390
+00:33:01.480 --> 00:33:02.340
+Tracy Kuhrt: comments.
+
+391
+00:33:12.020 --> 00:33:12.700
+Tracy Kuhrt: Okay.
+
+392
+00:33:12.750 --> 00:33:16.830
+Tracy Kuhrt: Any other topics that anybody would like to discuss today.
+
+393
+00:33:17.670 --> 00:33:18.700
+Tracy Kuhrt: is there?
+
+394
+00:33:18.970 --> 00:33:25.750
+Tracy Kuhrt: We like to jump into any of these task forces and see if there's anything that we can talk about already, or
+
+395
+00:33:25.870 --> 00:33:28.550
+Tracy Kuhrt: are we at a point where we think we're good.
+
+396
+00:33:40.230 --> 00:33:40.940
+Tracy Kuhrt: Bobby.
+
+397
+00:33:41.480 --> 00:33:46.480
+Bobbi Muscara: Oh, well, I know for the 2 that i'm leading. I need time to organize, so
+
+398
+00:33:46.550 --> 00:33:53.449
+Bobbi Muscara: I guess where the documentation would would be first, and that's in 2 weeks, so i'll have a report into it.
+
+399
+00:33:54.310 --> 00:33:55.840
+Tracy Kuhrt: Okay, sounds great.
+
+400
+00:33:56.360 --> 00:33:57.420
+Tracy Kuhrt: I'm. Bobby
+
+401
+00:33:57.440 --> 00:33:59.209
+Tracy Kuhrt: definitely reach out to
+
+402
+00:33:59.340 --> 00:34:05.910
+Tracy Kuhrt: Once I set the Channel chat channels up, reach out there, ask questions of the participants to.
+
+403
+00:34:05.960 --> 00:34:09.359
+Tracy Kuhrt: I've signed up for this, and
+
+404
+00:34:09.380 --> 00:34:18.950
+Tracy Kuhrt: again, as was mentioned, If there's anybody on this call, because I do see that we have some non poc numbers on the call which very much appreciate You guys joining us.
+
+405
+00:34:19.110 --> 00:34:26.009
+Tracy Kuhrt: If you would like to participate in these task courses, please join us and add your thoughts and ideas
+
+406
+00:34:26.900 --> 00:34:27.580
+Tracy Kuhrt: part.
+
+407
+00:34:28.639 --> 00:34:33.030
+Hart Montgomery: Thanks, Tracy. So talking about the security stuff really, briefly.
+
+408
+00:34:34.070 --> 00:34:42.700
+Hart Montgomery: you know, particularly for the vulnerability disclosure task force. I just wanted to mention that the open Ssf.
+
+409
+00:34:42.730 --> 00:34:50.459
+Hart Montgomery: Has a bi-weekly working group focused on vulnerability. Disclosure reporting
+
+410
+00:34:50.620 --> 00:34:55.970
+Hart Montgomery: and once we have the chat channels up and everything i'll post the information there.
+
+411
+00:34:56.100 --> 00:35:09.300
+Hart Montgomery: and if you're interested in security stuff, I would highly recommend that you attend their meeting, which is at 8 am. Pacific on Wednesdays. So an hour after this time, but on Wednesdays.
+
+412
+00:35:09.580 --> 00:35:13.479
+Hart Montgomery: you know, I think they're doing a lot of interesting stuff.
+
+413
+00:35:13.540 --> 00:35:18.810
+Hart Montgomery: but it's not exactly what we need in terms of
+
+414
+00:35:19.110 --> 00:35:26.140
+Hart Montgomery: coming up with a template for a policy that lets projects sort of easily determine.
+
+415
+00:35:26.220 --> 00:35:29.910
+Hart Montgomery: You know, a good vulnerability disclosure policy that fits for them.
+
+416
+00:35:30.020 --> 00:35:34.659
+Hart Montgomery: So I think this is also an opportunity where we can push back
+
+417
+00:35:34.950 --> 00:35:36.640
+Hart Montgomery: so
+
+418
+00:35:36.830 --> 00:35:41.519
+Hart Montgomery: output to the open Ssf: as well, we can say, hey, you know we did this.
+
+419
+00:35:41.590 --> 00:35:48.720
+Hart Montgomery: This is what we determine sort of actually works in the wild. And and you should, you know, use this for your project as well.
+
+420
+00:35:48.830 --> 00:35:52.559
+Hart Montgomery: So i'm sort of excited by the you know Cross
+
+421
+00:35:52.620 --> 00:35:55.549
+Hart Montgomery: Linux Foundation synergy
+
+422
+00:35:56.050 --> 00:35:56.970
+Hart Montgomery: here.
+
+423
+00:35:57.110 --> 00:36:03.060
+Hart Montgomery: and if you have a chance and you're interested, I would definitely recommend attending that meeting. So thanks.
+
+424
+00:36:04.450 --> 00:36:12.199
+Tracy Kuhrt: Yeah, thanks, Heart. And I I remember maybe it was you, Marcus, in our first meeting that we had this year, where you were talking about those cross projects.
+
+425
+00:36:12.340 --> 00:36:17.660
+Tracy Kuhrt: kind of synergies, and working with other projects to see best practices and those sorts of things.
+
+426
+00:36:17.690 --> 00:36:20.409
+Tracy Kuhrt: So I think it's definitely a really
+
+427
+00:36:20.590 --> 00:36:21.859
+Tracy Kuhrt: interesting
+
+428
+00:36:22.210 --> 00:36:27.889
+Tracy Kuhrt: topic area for us to to start to explore what that looks like as
+
+429
+00:36:27.970 --> 00:36:33.449
+Tracy Kuhrt: as the Toc and as Hyper Ledger, and these other projects want to to communicate and work together
+
+430
+00:36:38.340 --> 00:36:41.380
+Tracy Kuhrt: alright any other comments, questions
+
+431
+00:36:49.300 --> 00:36:54.770
+Tracy Kuhrt: and heart. Did they? Did they just have the security working group
+
+432
+00:36:54.920 --> 00:37:04.259
+Tracy Kuhrt: for the vulnerability disclosure this Wednesday? Or was it? Is it going to be next Wednesday, this last Wednesday and next Wednesday? So not this week?
+
+433
+00:37:05.230 --> 00:37:06.979
+Tracy Kuhrt: Okay, so
+
+434
+00:37:08.140 --> 00:37:08.830
+Tracy Kuhrt: is
+
+435
+00:37:09.480 --> 00:37:14.300
+Tracy Kuhrt: Do you still think it's okay for us to start with that one next week as far as
+
+436
+00:37:16.420 --> 00:37:19.390
+Tracy Kuhrt: as far as bringing it to the Poc. And having a discussion.
+
+437
+00:37:19.560 --> 00:37:26.729
+Hart Montgomery: Sure I may have trouble making the meeting next week, but as long as other people are comfortable talking about it.
+
+438
+00:37:26.970 --> 00:37:28.429
+Hart Montgomery: I think it's fine.
+
+439
+00:37:28.910 --> 00:37:29.689
+Tracy Kuhrt: Okay.
+
+440
+00:37:29.840 --> 00:37:34.179
+Tracy Kuhrt: gonna run. Obviously as the leader, I think that question also
+
+441
+00:37:34.360 --> 00:37:36.530
+Tracy Kuhrt: ends up going towards you as well.
+
+442
+00:37:37.420 --> 00:37:41.880
+Arun S M: Yes, thanks. I I'll join the next week's Wednesday's Call as well.
+
+443
+00:37:42.200 --> 00:37:42.959
+Hart Montgomery: Great.
+
+444
+00:37:44.150 --> 00:37:44.850
+cool.
+
+445
+00:37:46.070 --> 00:37:47.720
+Tracy Kuhrt: all right. Any other
+
+446
+00:37:48.170 --> 00:37:50.859
+Tracy Kuhrt: comments questions before we close out.
+
+447
+00:37:59.280 --> 00:37:59.990
+Okay.
+
+448
+00:38:00.300 --> 00:38:06.859
+Tracy Kuhrt: So thank you all for your participation, and we will be meeting again next week.
+
+449
+00:38:07.000 --> 00:38:08.759
+Tracy Kuhrt: So have a great week.
+
+450
+00:38:09.070 --> 00:38:11.339
+Tracy Kuhrt: and we will talk to you then.
+
+451
+00:38:12.470 --> 00:38:14.949
+David Enyeart: Thanks a lot.
+

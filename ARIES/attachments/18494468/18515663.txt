@@ -1,0 +1,21 @@
+11:26:42	 From Darrell O'Donnell : “thread_id” is a very oblique reference to a credential
+11:31:02	 From Timo Glastra : Need to drop. Thanks!
+11:32:17	 From Daniel Bluhm : From the implementation side of things, I think I agree with Timo that thread ID for revocation notification is a really simple but effective way to communicate which credential or credentials we're talking about
+11:33:01	 From Daniel Bluhm : It requires keeping a mapping on the holder side to know which credentials are referenced but that provides a clean abstraction away from the details of the credential system
+11:38:21	 From Darrell O'Donnell : So imagine you’re an Issuer who is using thread_id as a way to track a conversation. Your job is to manage credentials - not threads. You are not likely to consider thread_id for the long-term and likely already have a credential tracking identifier.
+11:39:29	 From Darrell O'Donnell : If a Wallet can’t track a credential but needs to track a thread_id instead I am scratching my head as to why. “because it is already in the spec” isn’t a good answer for the longer-term.
+11:40:25	 From Ian Costanzo : For some of our apps we set the credential id (at the holder) to the thread_id just so we have some consistency in id's
+11:41:15	 From Daniel Bluhm : Fair points. I would counter that while issuers deal in credentials, they deal in exchanges conducted over messages/threads. I wouldn't consider tracking messages to be totally out there for issuers in general
+11:41:19	 From Darrell O'Donnell : I get it - it works, but knowing what we know now, would you do it that way?
+11:41:53	 From Darrell O'Donnell : @Daniel - though they could do that, they won’t likely do it well and it can be a very easy barrier to avoid using our approach.
+11:42:13	 From Darrell O'Donnell : messaging systems are for messaging - not the payloads
+11:45:50	 From Daniel Bluhm : Good points again :). I agree, It does seem odd to raise information like the thread of a set of messages beyond the agent to the controller/business logic driver.
+11:45:57	 From Daniel Bluhm : Sounds like a debate for the RFCs repo lol
+11:46:13	 From Darrell O'Donnell : exactly - can you share the link and I’ll start the debate!
+11:57:35	 From Daniel Bluhm : I opened an issue on the Aries RFCs repo to capture some of our discussion re: revocation notification credential identifiers :)
+https://github.com/hyperledger/aries-rfcs/issues/705
+11:57:51	 From Darrell O'Donnell : thx @Daniel
+12:01:30	 From Daniel Bluhm : Thanks for the discussion today and for the presentation @Dave
+12:03:55	 From Victor Martinez (SICPA) : Very interesting @Dave thanks
+12:05:17	 From Darrell O'Donnell : gotta roll folks
+12:05:22	 From Darrell O'Donnell : keep being awesome!

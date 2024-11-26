@@ -1,0 +1,2010 @@
+WEBVTT
+
+1
+00:02:08.979 --> 00:02:10.979
+Timo Glastra: Good afternoon, everyone.
+
+2
+00:02:25.340 --> 00:02:31.030
+Timo Glastra: I'm wondering whether we are in the correct meeting, actually, because I think they recently
+
+3
+00:02:31.100 --> 00:02:32.290
+Timo Glastra: change the
+
+4
+00:02:33.490 --> 00:02:35.570
+Timo Glastra:  the
+
+5
+00:02:35.710 --> 00:02:41.749
+Timo Glastra: meeting link again. But it seems you're all here. I didn't know if
+
+6
+00:02:42.110 --> 00:02:49.239
+Timo Glastra: I'm going quickly. Check the auto link and see if there's more people there like I'll supposed to here without come back
+
+7
+00:02:49.510 --> 00:02:50.260
+Timo Glastra: a sec.
+
+8
+00:03:16.820 --> 00:03:19.839
+Timo Glastra: No one in your link, so I think we can just use this one.
+
+9
+00:03:19.860 --> 00:03:28.420
+Timo Glastra:  all right. I was just checking is the hyper ledger Wiki down for
+
+10
+00:03:29.200 --> 00:03:30.430
+Timo Glastra: for you as well.
+
+11
+00:03:33.730 --> 00:03:34.789
+So let me check.
+
+12
+00:03:50.890 --> 00:03:54.430
+Berend Sliedrecht: Yeah. It's it seems to him that loud. So I think so.
+
+13
+00:03:56.490 --> 00:03:57.630
+Timo Glastra: Okay.
+
+14
+00:03:59.950 --> 00:04:00.650
+Timo Glastra: well.
+
+15
+00:04:00.920 --> 00:04:03.779
+Timo Glastra: then, we're gonna do it with.
+
+16
+00:04:04.610 --> 00:04:06.229
+Timo Glastra: He can be for today.
+
+17
+00:04:21.910 --> 00:04:24.839
+Timo Glastra: I'll try to convert it to
+
+18
+00:04:26.550 --> 00:04:32.219
+Timo Glastra:  to the to the Wiki. if it's back up again.
+
+19
+00:04:49.980 --> 00:04:54.810
+Timo Glastra: Cool, I think we can get started small crowd today.
+
+20
+00:04:55.070 --> 00:05:08.849
+Timo Glastra:  monitoring. Why, that is  Let's yeah. That's good start. It's open to the, I assume. Jest group working group. Call
+
+21
+00:05:09.590 --> 00:05:10.900
+off
+
+22
+00:05:11.700 --> 00:05:20.330
+Timo Glastra: June 20, ninth. to remember you to buy it by the high pledge code of conduct, and then
+
+23
+00:05:20.660 --> 00:05:26.420
+Timo Glastra: into this policy.  cool.
+
+24
+00:05:26.610 --> 00:05:36.690
+Timo Glastra: Well, I recognize you on the call, so I think we can spare the the introductions. Feel free to add yourself to the tennis list if you wish. So
+
+25
+00:05:37.630 --> 00:05:45.310
+Timo Glastra: any status updates people want to make. I think Clay showed the
+
+26
+00:05:45.420 --> 00:05:50.770
+Timo Glastra: shared components and update to a J 4, 0 for us. Finally being merged right?
+
+27
+00:05:51.730 --> 00:05:56.940
+Clecio Varjao: yep. Finally merged and in in by phone. And we are.
+
+28
+00:05:57.580 --> 00:06:05.770
+Clecio Varjao: yeah, no, it's working great. A few hiccups cut bugs, but nothing, no, surely stop so awesome. Work
+
+29
+00:06:06.940 --> 00:06:17.620
+Timo Glastra: cool. That's great to work to our to here. It's been a while so happy. That's finally for now, and it's working mostly
+
+30
+00:06:18.320 --> 00:06:19.420
+Timo Glastra: as it should
+
+31
+00:06:19.470 --> 00:06:22.210
+Timo Glastra: cool that we'll still so bye for the call this week.
+
+32
+00:06:23.180 --> 00:06:25.629
+Clecio Varjao: no, don't by this work
+
+33
+00:06:28.130 --> 00:06:29.939
+Timo Glastra: cool. Is that goodbye.
+
+34
+00:06:31.400 --> 00:06:34.390
+Timo Glastra: Any relevant updates for me, Michael.
+
+35
+00:06:36.160 --> 00:06:39.939
+Clecio Varjao: I did not attend. I kept my meeting.
+
+36
+00:06:40.820 --> 00:06:42.419
+Timo Glastra: Okay, yeah. Me need it.
+
+37
+00:06:44.100 --> 00:06:45.840
+Timo Glastra: okay.
+
+38
+00:06:45.870 --> 00:06:50.910
+Timo Glastra:  Then for the agenda for today. So the wiki was
+
+39
+00:06:51.520 --> 00:07:07.120
+Timo Glastra: not online, so I couldn't look at like the we had a long list of topics from last week that we in the end didn't get to, but I know one was Folks don't like the 0 for 0 release. Now it has been, now that it has been released.
+
+40
+00:07:07.730 --> 00:07:14.790
+Timo Glastra:  place you. You want to talk about the the future of Aj, right?
+
+41
+00:07:15.140 --> 00:07:18.640
+Clecio Varjao: yeah, I wanna.
+
+42
+00:07:19.400 --> 00:07:28.210
+Clecio Varjao: I've had a few people reach out to me about ares components and the state where all of them are. And
+
+43
+00:07:29.010 --> 00:07:34.439
+Clecio Varjao: I want to ask you to community about it. He has anybody taught about it? How?
+
+44
+00:07:34.860 --> 00:07:44.180
+Clecio Varjao: How those other command and components fit in and what is the vision for Afj.  anyway.
+
+45
+00:07:44.610 --> 00:07:46.900
+Timo Glastra: Cool. Yeah. I think we can
+
+46
+00:07:48.070 --> 00:07:50.669
+Timo Glastra: go for that today.
+
+47
+00:07:51.050 --> 00:07:52.870
+Timo Glastra: any other topics
+
+48
+00:07:52.890 --> 00:07:55.770
+Timo Glastra: we want to.
+
+49
+00:07:56.030 --> 00:07:59.849
+Timo Glastra: discuss with the people want to add to the to the agenda.
+
+50
+00:08:10.770 --> 00:08:12.010
+Timo Glastra: Cool? Okay.
+
+51
+00:08:12.500 --> 00:08:13.730
+Timo Glastra: yeah. Go ahead.
+
+52
+00:08:13.830 --> 00:08:16.490
+Charles Lanahan: Oh, sorry. Not an agenda. I am per se. But
+
+53
+00:08:17.440 --> 00:08:22.450
+Charles Lanahan: I open an issue to update the documentation for the storage config parameters.
+
+54
+00:08:22.920 --> 00:08:25.729
+Charles Lanahan: But I didn't quite know where to look for
+
+55
+00:08:25.850 --> 00:08:29.570
+Charles Lanahan: to do that completely. So if anyone wants to
+
+56
+00:08:29.630 --> 00:08:33.680
+Charles Lanahan: point me to where that lives, I'd be glad to do that.
+
+57
+00:08:34.480 --> 00:08:37.900
+Timo Glastra: And so
+
+58
+00:08:38.010 --> 00:08:39.520
+Charles Lanahan: in in the docs.
+
+59
+00:08:40.809 --> 00:08:41.480
+Timo Glastra: Huh?
+
+60
+00:08:47.280 --> 00:08:48.660
+Charles Lanahan: sorry issues.
+
+61
+00:08:54.170 --> 00:08:58.620
+Charles Lanahan: Yeah. So I I figured out how to the memory database actually ended up working.
+
+62
+00:08:59.370 --> 00:09:04.119
+Charles Lanahan: what this issue is to update that because you click on that link, it just has the.
+
+63
+00:09:04.970 --> 00:09:12.500
+Charles Lanahan: you know, like a, it takes a key and a random random to the keys and values. So I, this is the updated documentation for that.
+
+64
+00:09:18.800 --> 00:09:24.949
+Timo Glastra: Yeah, okay, so you're mostly about if interested in using the
+
+65
+00:09:24.970 --> 00:09:28.480
+Timo Glastra:  in memory. Option? Right?
+
+66
+00:09:28.600 --> 00:09:33.169
+Charles Lanahan: Well, yeah, no. So I figure that out, I was just if you click on that link on the top
+
+67
+00:09:34.530 --> 00:09:44.800
+Charles Lanahan:  I was going. I this is an issue. I open. I I I I can update this section right here. if someone can point you where that lives, there's a postgres
+
+68
+00:09:44.850 --> 00:09:54.850
+Charles Lanahan: section right for storage that has a bunch of key values down there. And then there's some sqlite ones that aren't really documented anywhere.
+
+69
+00:09:57.210 --> 00:10:02.710
+Charles Lanahan: So so the issue is an offer to update the storage config with the various backends.
+
+70
+00:10:02.850 --> 00:10:10.369
+Charles Lanahan:  so that it's not kind of a looking for various things all over the documentation.
+
+71
+00:10:11.430 --> 00:10:15.680
+Timo Glastra: Yeah. Makes sense. I think. it's
+
+72
+00:10:16.390 --> 00:10:27.840
+Timo Glastra: I don't know. May. Maybe Ariel knows this. But like, it's the storage object, it's this, is it different between Oscar and in the sk, yeah, right?
+
+73
+00:10:29.060 --> 00:10:30.599
+Ariel Gentile: They are similar.
+
+74
+00:10:30.800 --> 00:10:36.110
+Ariel Gentile: But yeah, that there are some different configurations. Both have the type of
+
+75
+00:10:36.520 --> 00:10:42.370
+Ariel Gentile: the type field where you said, if it's a skylight, or if it's a
+
+76
+00:10:42.430 --> 00:10:43.510
+Ariel Gentile: that's great.
+
+77
+00:10:44.270 --> 00:10:54.880
+Ariel Gentile: And also, there are some other parameters like, for instance, with the time out and some some other stuff usually used on the
+
+78
+00:10:55.160 --> 00:10:56.709
+Ariel Gentile: about the, it's a bit different.
+
+79
+00:10:57.050 --> 00:11:02.909
+Charles Lanahan: Right? Yeah. So yeah, if if I I can do the documentation update, if you guys will just point me to where
+
+80
+00:11:04.040 --> 00:11:07.399
+Charles Lanahan: the config options live. for reference. Right?
+
+81
+00:11:09.580 --> 00:11:23.969
+Timo Glastra: Yeah. Okay. yeah. And then we can probably add a section on both. how to do it within the SDK, and with uscar And then once we update the wallet Api, a bit more, we can
+
+82
+00:11:24.130 --> 00:11:27.699
+Timo Glastra: separated a bit more between the 2.
+
+83
+00:11:27.820 --> 00:11:34.250
+Timo Glastra: yeah. aria. Could you add some pointers on like for the different options. Or.
+
+84
+00:11:35.220 --> 00:11:37.859
+Ariel Gentile: okay, yeah, yeah, I will do that. I will add it to the
+
+85
+00:11:38.340 --> 00:11:39.709
+Ariel Gentile: to the issue. So
+
+86
+00:11:40.660 --> 00:11:42.969
+Charles Lanahan: how it works
+
+87
+00:11:44.730 --> 00:11:50.360
+Charles Lanahan: cool. Because, yeah, I'm glad to adopt. I just wanted to make sure I was doing it right?
+
+88
+00:11:51.230 --> 00:11:53.530
+Timo Glastra: Yeah. cool.
+
+89
+00:11:54.760 --> 00:12:00.110
+Timo Glastra:  awesome. Okay.
+
+90
+00:12:00.990 --> 00:12:13.379
+Clecio Varjao:  So may be as well to know there is an issue that did we encounter doing the bifold while it's about the auto linking But
+
+91
+00:12:14.650 --> 00:12:16.810
+Clecio Varjao: link secret creation.
+
+92
+00:12:19.040 --> 00:12:20.260
+Timo Glastra: Yeah.
+
+93
+00:12:21.750 --> 00:12:22.710
+Timo Glastra: this one.
+
+94
+00:12:26.550 --> 00:12:28.160
+Timo Glastra: Right? Yeah.
+
+95
+00:12:32.040 --> 00:12:42.359
+Timo Glastra: yeah. So issue is link sequence are created by default anymore. We expected that out to wallet. So now you have to do the mainly
+
+96
+00:12:42.460 --> 00:12:50.379
+Timo Glastra: and a Pr was created by Jason to automatically create it.
+
+97
+00:12:50.980 --> 00:12:54.979
+Timo Glastra: and we had some feed backgrounds on it. I think
+
+98
+00:12:55.980 --> 00:12:57.560
+Timo Glastra: there were 2.
+
+99
+00:12:58.640 --> 00:13:03.560
+Timo Glastra: Yeah, 2 2 things to consider here, I think, is
+
+100
+00:13:04.220 --> 00:13:10.949
+Timo Glastra: one. Where do we create the link secret? If you want to create it by default?
+
+101
+00:13:11.710 --> 00:13:15.200
+Timo Glastra: taking into account. No, to Tennessee.
+
+102
+00:13:15.220 --> 00:13:26.310
+Timo Glastra: maybe that you are not going to use A of J as a holder. So then it wouldn't really be needed to create a link secret, is it? Well.
+
+103
+00:13:26.680 --> 00:13:31.999
+Timo Glastra: does it matter if you have a link secret that you're not going to use? I don't know
+
+104
+00:13:32.260 --> 00:13:49.090
+Timo Glastra: And we also need to make sure. or maybe that's a consideration. like race conditions. If we do it in a request, credential call, and you request to credentials at the same time. Then, they could both create a a, a link secret, for example.
+
+105
+00:13:51.210 --> 00:13:53.889
+Timo Glastra: yeah, any thoughts on this?
+
+106
+00:13:57.760 --> 00:14:02.390
+Clecio Varjao: Yeah. So so from our perspective is was really about kind of the the
+
+107
+00:14:02.530 --> 00:14:21.350
+Clecio Varjao: the Usability for the Dev perspective. That is like we expected that that when we initialize the agent things would be ready. I think, where exactly is going to be initialized. I don't think it's that important more of the expectation that when the agent is initialized. It's fully initialized and ready to go.
+
+108
+00:14:24.570 --> 00:14:25.390
+Timo Glastra: Okay.
+
+109
+00:14:25.760 --> 00:14:30.729
+Timo Glastra:  Mario, you left some comments like, do you think
+
+110
+00:14:31.480 --> 00:14:37.630
+Timo Glastra: what? What? What needs to be changed before we can merge this or
+
+111
+00:14:38.590 --> 00:14:41.410
+Ariel Gentile: no. Actually I I was. I was saying that that
+
+112
+00:14:41.850 --> 00:14:48.630
+Ariel Gentile: that you you are right about about this issue on the on the multi-tenancy.
+
+113
+00:14:49.590 --> 00:14:57.559
+Ariel Gentile: But if we are going to to add this logic to the credential
+
+114
+00:14:57.610 --> 00:15:09.640
+Ariel Gentile: request or the first credential request, for instance, it will not be so, or or I couldn't find a a, a very straightforward way to to add it to the to the code in a killing way.
+
+115
+00:15:09.720 --> 00:15:20.159
+Ariel Gentile: One of the issues is what what you have mentioned recently today about the the rest conditions that it's it's certainly possible. But also to
+
+116
+00:15:20.530 --> 00:15:21.359
+Ariel Gentile: you know.
+
+117
+00:15:22.650 --> 00:15:30.640
+Ariel Gentile: we, we will need to be calling to the an ongraduate Api from the all the service, or from the
+
+118
+00:15:31.100 --> 00:15:36.640
+Ariel Gentile: from the credential, from a service which is a little bit. We are from my perspective.
+
+119
+00:15:37.480 --> 00:15:40.930
+Ariel Gentile: So probably probably
+
+120
+00:15:40.990 --> 00:15:45.239
+Ariel Gentile: we can. We can keep it as a As on implemented, because
+
+121
+00:15:45.480 --> 00:15:49.849
+Ariel Gentile: it will be any way an optional parameter. Maybe we can do it.
+
+122
+00:15:50.370 --> 00:15:54.909
+Ariel Gentile: Maybe we we can do it force by default if you want.
+
+123
+00:15:57.300 --> 00:15:59.100
+Ariel Gentile: instead of being through.
+
+124
+00:15:59.540 --> 00:16:03.350
+Timo Glastra: And so where would we create it? In that case.
+
+125
+00:16:04.450 --> 00:16:10.529
+Ariel Gentile: No, no, I mean in the we. We can keep it as a straight and implemented. Now in the initialization.
+
+126
+00:16:10.730 --> 00:16:12.020
+Ariel Gentile: it will solve this.
+
+127
+00:16:13.380 --> 00:16:15.160
+Ariel Gentile: I mean. It's it's simpler.
+
+128
+00:16:17.220 --> 00:16:23.530
+Timo Glastra: But in initialization this this method is called only once. Right?
+
+129
+00:16:24.780 --> 00:16:25.820
+Ariel Gentile: Yes.
+
+130
+00:16:27.320 --> 00:16:29.860
+Timo Glastra: so it won't work for me to Tennessee.
+
+131
+00:16:30.020 --> 00:16:31.329
+Ariel Gentile: It will not work
+
+132
+00:16:31.570 --> 00:16:32.650
+what it is
+
+133
+00:16:34.850 --> 00:16:38.779
+Ariel Gentile: I can. I cannot find a a solution to.
+
+134
+00:16:39.400 --> 00:16:43.789
+Ariel Gentile: to, to be confront, to, to to everybody. But
+
+135
+00:16:44.820 --> 00:16:51.079
+Ariel Gentile: if we are going to do it in the, in the credential request. We have this problem you mentioned
+
+136
+00:16:51.630 --> 00:16:54.250
+Ariel Gentile: about the right condition. That is possible.
+
+137
+00:16:55.090 --> 00:16:57.090
+Ariel Gentile: Not likely, but possible.
+
+138
+00:16:58.780 --> 00:17:03.310
+Timo Glastra: Yeah, I think it's very unlikely. So maybe we can go ahead
+
+139
+00:17:04.300 --> 00:17:07.440
+Timo Glastra: with that approach.
+
+140
+00:17:07.650 --> 00:17:15.460
+Berend Sliedrecht: I I don't think it would be a race commission right? It would be more just that you have to link secrets while you probably 1 1.
+
+141
+00:17:15.890 --> 00:17:20.310
+Ariel Gentile: Well, yes, but that that's a problem.
+
+142
+00:17:20.990 --> 00:17:23.479
+Yeah, no, that's that's very true. That's true.
+
+143
+00:17:23.619 --> 00:17:37.670
+Clecio Varjao: So is is that an it? A little bit of architecture problem? There is a the system and any initialization. But there is no tenant initialization process for each component.
+
+144
+00:17:39.600 --> 00:17:40.990
+Clecio Varjao: Is that what I'm hearing?
+
+145
+00:17:41.600 --> 00:17:44.039
+Timo Glastra: Yeah, kinda
+
+146
+00:17:45.310 --> 00:18:05.899
+Timo Glastra: yeah, sort of, we have utilization of modules. But modules are more meant to be global. So I think, like this initialization is more if you need to set something up for your module in general that is not related to a specific tenant. So, for example, It is used by
+
+147
+00:18:05.900 --> 00:18:18.250
+Timo Glastra: the in the Vdr module to connect to the ledger on Agent Startup, but, like the the ledger, pools, are shared by all tenants. So that is like, not a tenant specific action.
+
+148
+00:18:18.350 --> 00:18:22.250
+Timo Glastra: we do have an agent organization.
+
+149
+00:18:22.660 --> 00:18:24.950
+Timo Glastra: but the
+
+150
+00:18:25.140 --> 00:18:30.539
+Timo Glastra: this is like a custom package to allocate package. And so we don't have
+
+151
+00:18:30.550 --> 00:18:31.570
+Timo Glastra: custom
+
+152
+00:18:33.120 --> 00:18:41.539
+Timo Glastra: module in a situation for each tenant. so that is a a limitation. maybe.
+
+153
+00:18:44.690 --> 00:18:45.400
+Timo Glastra: Yeah.
+
+154
+00:18:47.300 --> 00:18:47.980
+Clecio Varjao: Okay.
+
+155
+00:18:49.660 --> 00:18:56.439
+Clecio Varjao: yeah. So so we have implemented a workaround in by phone. I guess it's it's just up for discussion. I think you don't have to
+
+156
+00:18:56.690 --> 00:19:01.580
+Clecio Varjao: accepted. So you we can live. Let it simmer for a little bit and see where it goes.
+
+157
+00:19:01.690 --> 00:19:09.360
+Clecio Varjao: but others might have issues. So if there is a way to at least raise an air her somewhere. How identify and
+
+158
+00:19:09.810 --> 00:19:13.109
+Clecio Varjao: how they use it? Like, Hey, this thing is to happen.
+
+159
+00:19:15.010 --> 00:19:20.300
+Timo Glastra: Yeah, I think. it's weird that there
+
+160
+00:19:21.260 --> 00:19:31.500
+Timo Glastra: wasn't a an error throne, because it should throw an error if we look at the at the the code base.
+
+161
+00:19:31.840 --> 00:19:34.440
+And we look at the
+
+162
+00:19:34.630 --> 00:19:36.120
+Timo Glastra: and I'm correct
+
+163
+00:19:36.520 --> 00:19:39.719
+Timo Glastra: ours, holder surface
+
+164
+00:19:40.550 --> 00:19:44.130
+Timo Glastra: and great credential request.
+
+165
+00:19:44.650 --> 00:19:59.149
+Timo Glastra: here it in here it looks for a link. Secret. Id. If you want to use a custom link secret. if not, it tries to find the default link secret, and if it does not find it I it
+
+166
+00:19:59.340 --> 00:20:02.400
+Timo Glastra: trust this error. So
+
+167
+00:20:02.640 --> 00:20:10.910
+Timo Glastra:  are you? Could it be that you're swallowing the error, or that A of J is maybe swallowing the error on some layer.
+
+168
+00:20:12.100 --> 00:20:17.950
+Clecio Varjao: yeah could be. I'll ask Jason about how
+
+169
+00:20:18.850 --> 00:20:23.810
+Clecio Varjao: how this surface? I can get a little bit more information. But
+
+170
+00:20:24.820 --> 00:20:25.500
+Timo Glastra: yeah.
+
+171
+00:20:27.470 --> 00:20:33.370
+Timo Glastra: I think we can maybe like the race condition is a very
+
+172
+00:20:34.840 --> 00:20:43.519
+Timo Glastra: like very small chance. So I love. Maybe it's fine to have that race condition.
+
+174
+00:20:55.010 --> 00:20:57.390
+Timo Glastra: or
+
+175
+00:20:59.110 --> 00:21:05.899
+Timo Glastra: Yeah, but I'm not. I'm not quite sure if that is the intense that you have one linked secret for all the tenants.
+
+176
+00:21:08.660 --> 00:21:14.270
+Timo Glastra: no, you will have a unique link secret for tenants.
+
+177
+00:21:15.870 --> 00:21:19.849
+Timo Glastra: So the default link secret that is,
+
+178
+00:21:20.000 --> 00:21:33.579
+Timo Glastra: being fetched here is for a specific agent context, and the agent context is different for each. It's tenants. So this will return a different value. For based on which tenant you're currently interacting with.
+
+179
+00:21:34.830 --> 00:21:39.979
+Ariel Gentile: yeah, the the the device thing about that is that we have. We will need to implement that
+
+180
+00:21:40.110 --> 00:21:47.279
+Ariel Gentile: in both all their services, I mean the and on credits and the in the SDK, and we have to make sure that
+
+181
+00:21:47.380 --> 00:21:48.970
+Ariel Gentile: we will not forget
+
+182
+00:21:49.120 --> 00:21:57.890
+Ariel Gentile: when implementing another. If if we are going to another holder service.
+
+183
+00:22:06.510 --> 00:22:07.260
+Timo Glastra: Yeah.
+
+184
+00:22:09.900 --> 00:22:14.210
+Timo Glastra:  yeah. Okay.
+
+185
+00:22:14.920 --> 00:22:25.929
+Timo Glastra:  So if we implement in the older
+
+186
+00:22:26.480 --> 00:22:29.120
+Timo Glastra: surface, we need to do it
+
+187
+00:22:30.670 --> 00:22:36.520
+Timo Glastra: twice, I think, yeah, it's it's not the biggest change. So
+
+188
+00:22:36.750 --> 00:22:43.600
+Timo Glastra: having to implement it twice is is probably fine for this. yeah. So
+
+189
+00:22:43.680 --> 00:22:48.610
+Timo Glastra: based in this, what do we think would be the best approach here.
+
+190
+00:22:57.800 --> 00:23:01.599
+Ariel Gentile: I I like to do it in the in the Holder service.
+
+191
+00:23:01.840 --> 00:23:02.830
+Ariel Gentile: probably
+
+192
+00:23:03.410 --> 00:23:04.830
+Ariel Gentile: about the
+
+193
+00:23:04.980 --> 00:23:08.079
+Ariel Gentile: I mean, it's it's a it's a
+
+194
+00:23:09.790 --> 00:23:11.270
+Ariel Gentile: I think it's the more
+
+195
+00:23:11.500 --> 00:23:16.759
+Ariel Gentile: straightforward way to do it right now. But, I think
+
+196
+00:23:17.310 --> 00:23:21.090
+Ariel Gentile: we will need to find our way to to do what you
+
+197
+00:23:21.280 --> 00:23:23.270
+Ariel Gentile: there about the
+
+198
+00:23:23.300 --> 00:23:26.770
+Ariel Gentile: initialization for our nation context.
+
+199
+00:23:27.970 --> 00:23:31.980
+Ariel Gentile: especially because we already have this issue on the mediation.
+
+200
+00:23:32.450 --> 00:23:34.469
+Ariel Gentile: and we will probably have it
+
+201
+00:23:34.520 --> 00:23:36.590
+Ariel Gentile: or other more. This, as well.
+
+202
+00:23:37.780 --> 00:23:38.550
+you know.
+
+203
+00:23:38.700 --> 00:23:40.150
+Timo Glastra: I mean.
+
+204
+00:23:41.950 --> 00:23:46.020
+Berend Sliedrecht: that's also my, my, my preferred way to do it. Yeah.
+
+205
+00:23:47.120 --> 00:23:53.219
+Clecio Varjao: So, oh, sorry. What do you mean by holder service? Is that live it in externalized.
+
+206
+00:23:53.820 --> 00:24:02.349
+Timo Glastra: So it will be in here. So in here, instead of throwing an error, they'll just I don't know whether they's health or service. Okay, got it?
+
+207
+00:24:02.440 --> 00:24:07.730
+Timo Glastra: Yeah. And then we'll do the same in the in the SDK older surface.
+
+208
+00:24:11.220 --> 00:24:23.460
+Clecio Varjao:  have you thought about how we're gonna do the you duplication of that in the SDK. How is that going to be communicated setting the road map?
+
+209
+00:24:25.370 --> 00:24:27.269
+Timo Glastra: So what do you mean? Exactly.
+
+210
+00:24:28.610 --> 00:24:39.250
+Clecio Varjao: So when you say in the in the SDK. I I think about the the in the SDK Rest library that we just went through for removing and replacing
+
+211
+00:24:39.450 --> 00:24:43.279
+Timo Glastra: Is that what you mean? Are you talking about that? Hold one?
+
+212
+00:24:44.990 --> 00:25:06.690
+Timo Glastra: Yeah. So we still have here. because we didn't want to make it like you have to move over now. But like, allow for period. So we still have a support for the in the SDK service, and that has the same create credential request.
+
+213
+00:25:06.700 --> 00:25:12.239
+Timo Glastra: it does the same check here. So we just have to do like the default. Creation 2 times
+
+214
+00:25:12.710 --> 00:25:17.069
+Clecio Varjao: is is to go to keep supporting or duplicate it.
+
+215
+00:25:17.990 --> 00:25:36.700
+Timo Glastra: I think, deprecated as as soon as we can. I think we should keep it, maybe in for one or 2 2 versions more. and then remove it. if it's not needed anymore, I think yeah, would would be really nice if we can get rid of it sooner rather than later.
+
+216
+00:25:41.270 --> 00:25:50.560
+Clecio Varjao: Do do we need to start adding some duplication markers or duplication warnings that this module is going to be duplicated.
+
+217
+00:25:52.140 --> 00:26:16.539
+Timo Glastra: That's good for? Yeah, we have for new modules. We in the module. We now have this warning. this modules experimental and could have an expect breaking changes. We're using this module so maybe we can add like similar warning. But more like this module is deprecated. Please migrate to this, and then we can add a link to the documentation.
+
+218
+00:26:17.300 --> 00:26:18.030
+Clecio Varjao: yeah.
+
+219
+00:26:43.110 --> 00:26:43.870
+Timo Glastra: cool
+
+220
+00:26:53.450 --> 00:26:55.239
+Timo Glastra: anything else on this issue.
+
+221
+00:27:02.510 --> 00:27:10.470
+Clecio Varjao: the just about checking. So right now it raises an air like you implying that instead of raising a here, we will out of create.
+
+222
+00:27:12.090 --> 00:27:12.770
+Timo Glastra: Yeah.
+
+223
+00:27:15.210 --> 00:27:19.969
+Timo Glastra: I think so. I, yeah, do. We need an option for this?
+
+224
+00:27:21.150 --> 00:27:26.330
+Timo Glastra: so you can choose better to how to create it. Or.
+
+225
+00:27:26.990 --> 00:27:38.299
+Timo Glastra: yeah, I'm not too keen on adding more options. So if if the if the default to is makes sense to create a link secret, then maybe we should just create it by default. But
+
+226
+00:27:39.150 --> 00:27:42.040
+Timo Glastra: yeah, maybe we need to have an option for this.
+
+227
+00:27:44.570 --> 00:27:50.420
+Ariel Gentile: Yeah, yeah, it's it's a it's a computation option you have to create in secret, or something like that.
+
+228
+00:27:51.550 --> 00:27:59.010
+Ariel Gentile: The question is, if it will be true by default, or or if it will be forced by the phone
+
+229
+00:27:59.540 --> 00:28:06.979
+Ariel Gentile: currently in the, in, the, in, the, in the SDK, is, is it? I automatically created the link secret? Or
+
+230
+00:28:08.840 --> 00:28:10.760
+Ariel Gentile: are we doing it manually
+
+231
+00:28:10.900 --> 00:28:13.130
+Ariel Gentile: or
+
+232
+00:28:13.400 --> 00:28:22.310
+Timo Glastra: in? We do. No, it's automatically created when you create to wallet. So the wallet when you created the wallet. We also created the the link secret.
+
+233
+00:28:23.250 --> 00:28:24.030
+Okay?
+
+234
+00:28:24.510 --> 00:28:34.739
+Timo Glastra: And you had the option to pass the link secret. Id, because that is a use case. We've heard, I think, from the Epsa team, or they already had a
+
+235
+00:28:34.770 --> 00:28:46.809
+Timo Glastra: a link secret in the wallet, so Then it wouldn't be marked as the default in a of. But they did want to use that specific link secret. Id. So if we
+
+236
+00:28:47.180 --> 00:28:51.140
+Timo Glastra:  yeah, we need to look at a way, how
+
+237
+00:28:52.300 --> 00:28:53.440
+Timo Glastra: to
+
+238
+00:28:57.410 --> 00:28:58.860
+Timo Glastra: yeah, how to
+
+239
+00:28:58.910 --> 00:29:01.839
+Timo Glastra: make sure that still works.
+
+240
+00:29:03.500 --> 00:29:04.240
+Timo Glastra: yeah.
+
+241
+00:29:09.010 --> 00:29:14.219
+Timo Glastra: Should that also be an ancient option? Then, like the link secret id you want to use or
+
+242
+00:29:15.700 --> 00:29:20.070
+Ariel Gentile: no, I don't think it would be an ancient option that
+
+243
+00:29:20.780 --> 00:29:34.680
+Ariel Gentile: you can then just use. You can then send set out to create link secret to false. You can manually create the record and stuff. Probably. Yeah, because also you you, you can also specify the links it Iv.
+
+244
+00:29:35.150 --> 00:29:36.710
+Ariel Gentile: A on the
+
+245
+00:29:36.990 --> 00:29:47.659
+Ariel Gentile: on. The caller service is running from. So you can also have a you, you can always have a way to specify your your own Id for for each flow.
+
+246
+00:29:48.870 --> 00:29:50.020
+Timo Glastra: So maybe
+
+247
+00:29:50.190 --> 00:29:51.210
+Ariel Gentile: it's fine.
+
+248
+00:29:51.820 --> 00:29:55.049
+Timo Glastra: Okay. yeah, that sounds good.
+
+249
+00:30:02.830 --> 00:30:03.630
+Timo Glastra: cool
+
+250
+00:30:04.260 --> 00:30:09.970
+Timo Glastra:  Then.
+
+251
+00:30:11.720 --> 00:30:17.859
+Timo Glastra: maybe we can talk about the future. If J or
+
+252
+00:30:20.440 --> 00:30:35.910
+Timo Glastra: let me see. I also wanted to give a short demo of a Maybe we can do that now is of a what we've been working on that's built on a of that's also open source.
+
+253
+00:30:37.130 --> 00:30:38.660
+Timo Glastra: let me see.
+
+254
+00:30:41.370 --> 00:30:42.310
+Timo Glastra: So
+
+255
+00:30:44.350 --> 00:30:45.889
+Timo Glastra: this is the
+
+256
+00:30:46.470 --> 00:30:48.990
+Timo Glastra: repository.
+
+257
+00:30:50.180 --> 00:30:57.610
+Timo Glastra: and it's also published to the to, the to Google play store and the app stores. and it's
+
+258
+00:30:57.760 --> 00:30:59.170
+Timo Glastra: currently a very
+
+259
+00:30:59.580 --> 00:31:21.799
+Timo Glastra: simple wallet. it supports receiving credentials and sharing them. And it's fully built on open Iv for verify credentials, so it doesn't yet. We will extend it, but it doesn't get support did go more on them credits or any ledger at all, it's a fully
+
+260
+00:31:21.980 --> 00:31:32.369
+Timo Glastra: it's based on. Did Web did key the Jwk so no blockchain. And it also supports. Jwt, credentials.
+
+261
+00:31:33.590 --> 00:31:37.379
+Timo Glastra: I think, yeah, what I really like about it is that
+
+262
+00:31:37.500 --> 00:31:45.599
+Timo Glastra: we yeah, it's it. It really shows that you can now also use Fj to build stuff that is not necessarily
+
+263
+00:31:46.200 --> 00:31:59.890
+Timo Glastra: hypnotic errors or high pleasure indie or hypotheticals, but you can also build. Use it to build a opening for PC. Wallet, where you still use the the, the the core of the framework.
+
+264
+00:32:00.300 --> 00:32:08.539
+Timo Glastra: for the crypto and the ditch and and everything. so yeah. The only
+
+265
+00:32:09.000 --> 00:32:19.010
+Timo Glastra: we have in terms of oh, it's not here. It's in the the apps So we use
+
+266
+00:32:19.300 --> 00:32:28.269
+Timo Glastra: Ariz. I'll score for this one, but not in the Vdr. Or on of credit for us. So just uscar for the crypto and the storage
+
+267
+00:32:29.470 --> 00:32:33.850
+Timo Glastra: and I can do it quick.
+
+268
+00:32:34.920 --> 00:32:36.830
+Timo Glastra: Demo.
+
+269
+00:32:42.280 --> 00:32:43.680
+Timo Glastra: correct myself
+
+270
+00:33:18.350 --> 00:33:20.249
+Timo Glastra: all right. His you, Miss Cree.
+
+271
+00:33:22.150 --> 00:33:23.120
+Berend Sliedrecht: Yes.
+
+272
+00:33:23.620 --> 00:33:24.470
+Timo Glastra: perfect.
+
+273
+00:33:26.210 --> 00:33:53.040
+Timo Glastra: So this is one of the flows like it's it's it's part of a ditch intro profile we're working on that's based on open D for PC, and that's what we're also, I've been working on with the D's book chain coalition, and and so I can start off by getting a credential and if you want, you can install the wallet from the stores, and also
+
+274
+00:33:53.120 --> 00:33:57.709
+Timo Glastra: Test it out. I'll post the link here.
+
+275
+00:33:58.080 --> 00:34:01.770
+Timo Glastra:  also to
+
+276
+00:34:03.350 --> 00:34:08.230
+Timo Glastra: repo Link here. There's all the links also.
+
+277
+00:34:09.230 --> 00:34:12.880
+Timo Glastra: So I feel in all my fields.
+
+278
+00:34:13.100 --> 00:34:19.269
+Timo Glastra: and just for the demo purpose. Normally this would be derived from somewhere else.
+
+279
+00:34:19.620 --> 00:34:21.519
+Timo Glastra: So
+
+280
+00:34:21.610 --> 00:34:29.289
+Timo Glastra: once I have done that I can. open my wallet. I already have quite some in there.
+
+281
+00:34:29.330 --> 00:34:36.629
+Timo Glastra: And I can receive a credential with branding and the credential, the attributes we just had.
+
+282
+00:34:36.670 --> 00:34:38.890
+Timo Glastra: Now it has been added to my wallet.
+
+283
+00:34:38.909 --> 00:34:50.220
+Timo Glastra: And the next thing I can do I can now use this for several use cases, but one of them is signing into the ditch book, chain coalition website. so I can
+
+284
+00:34:50.489 --> 00:35:07.249
+Timo Glastra: scan 9. This cure code and I get approved request, and it says, like, right, which field. So you want to share, and under the who this uses the presentation exchange specification from this
+
+285
+00:35:07.910 --> 00:35:12.069
+Timo Glastra: and so I can. A request. I can accept it.
+
+286
+00:35:12.250 --> 00:35:19.779
+Timo Glastra: It will be shared, and then I'm signed in, and you can now see, I'm signed in as Demo, so I think, especially for
+
+287
+00:35:20.050 --> 00:35:38.270
+Timo Glastra: case where you do want to do sign in The opening for PC. Stack provides a quite streamlined flow. because it's basically all out and all that stuff which is yeah, being used primarily for authentication and stuff. so yeah,
+
+288
+00:35:39.040 --> 00:35:48.559
+Timo Glastra: as I said, open source, so feel free to to run it yourself or modify it, or you would like,
+
+289
+00:35:50.060 --> 00:35:50.760
+Timo Glastra: yeah.
+
+290
+00:35:57.150 --> 00:35:57.910
+Charles Lanahan: cool.
+
+291
+00:36:00.750 --> 00:36:06.059
+Ariel Gentile: very, very nice. So did did you manage to to to get it
+
+292
+00:36:06.430 --> 00:36:15.029
+Ariel Gentile: a published on the app store in in Apple? Because I have seen in your that you got to reject it, Reflected, because it was too
+
+293
+00:36:15.310 --> 00:36:17.659
+Ariel Gentile: similar to what it said.
+
+294
+00:36:17.920 --> 00:36:33.750
+Timo Glastra: Yeah, we got rejected, and then we at least it like with like all the so like all the previews we have, we remove those, then they accept it. And then we tried
+
+295
+00:36:33.820 --> 00:36:49.249
+Timo Glastra: in the end. What did the trick is we removed the the title wallet here, and we edit a logo here, and I think that's what did it? Because if you look at the apple wallet design
+
+296
+00:36:50.350 --> 00:37:03.320
+Timo Glastra: They have, like the title wallet here as well, and I think that was causing it to be very similar. But yeah, as you can see it. It looks quite similar to to. But I'm happy. They accepted it in the end.
+
+297
+00:37:03.760 --> 00:37:05.320
+Ariel Gentile: Yeah, that's fine.
+
+298
+00:37:08.140 --> 00:37:09.420
+Clecio Varjao: That's awesome.
+
+299
+00:37:10.170 --> 00:37:10.850
+Timo Glastra: Cool.
+
+300
+00:37:13.020 --> 00:37:16.370
+Timo Glastra:  then,
+
+301
+00:37:16.470 --> 00:37:18.629
+Timo Glastra: next topic, future of
+
+302
+00:37:19.160 --> 00:37:21.569
+Timo Glastra: if J.
+
+303
+00:37:22.930 --> 00:37:24.120
+Timo Glastra: do you
+
+304
+00:37:24.640 --> 00:37:37.939
+Timo Glastra: have specific topics or like questions, you want to start with glacier? Or do you want to share some slides, or do you want me to go ahead and just start talking? Or how do you want to approach?
+
+305
+00:37:38.080 --> 00:37:44.289
+Clecio Varjao: I don't have any slides. So actually just answer one. The question it was about expos. So
+
+306
+00:37:44.350 --> 00:37:53.739
+Clecio Varjao:  that the wallet that you guys are creating it, it seems to be was done using expo right?
+
+307
+00:37:56.280 --> 00:38:08.699
+Clecio Varjao:  So the question that I get I get people reaching out to me on a fairly frequent basis, asking about, oh, so there is a wallet.
+
+308
+00:38:08.840 --> 00:38:10.620
+Clecio Varjao: There is a by fault wallet.
+
+309
+00:38:11.640 --> 00:38:16.390
+Clecio Varjao: and and there's a whole bunch of components in this area's ecosystem.
+
+310
+00:38:16.430 --> 00:38:20.159
+Clecio Varjao: which one should it go? Where do I go? Right?
+
+311
+00:38:20.360 --> 00:38:29.210
+Clecio Varjao: So of course, we we like Fj, and and and the shared components and and and devolution that is that is happening.
+
+312
+00:38:29.360 --> 00:38:30.900
+but it's also a whole
+
+313
+00:38:31.680 --> 00:38:34.700
+Clecio Varjao: other libraries out there.
+
+314
+00:38:35.250 --> 00:38:41.590
+Clecio Varjao:  so the question is
+
+315
+00:38:42.320 --> 00:38:48.010
+Clecio Varjao: is to go for Fj to remain Javascript.
+
+316
+00:38:48.730 --> 00:38:51.480
+Clecio Varjao: negative in a way, although
+
+317
+00:38:51.620 --> 00:38:56.239
+Clecio Varjao: there, there are a few native dependencies already.
+
+318
+00:38:56.550 --> 00:38:59.000
+Clecio Varjao: Or is that go to?
+
+319
+00:39:00.370 --> 00:39:20.230
+Clecio Varjao: To? Maybe facilitating that the rapid development that maybe was having issues within this in the SDK and and some other stuff under the hood. I understand there is a flexibility to enabling that fast development in in the Javascript side. It's easier, potentially cheaper to develop.
+
+320
+00:39:20.340 --> 00:39:25.889
+Clecio Varjao:  But where we're starting is that consistence in the in the ecosystem
+
+321
+00:39:26.360 --> 00:39:28.659
+Clecio Varjao: across different implementations?
+
+322
+00:39:29.270 --> 00:39:33.299
+Clecio Varjao: is there an opportunity to to start
+
+323
+00:39:34.030 --> 00:39:37.899
+Clecio Varjao:  moving as as maybe
+
+324
+00:39:38.140 --> 00:39:44.400
+Clecio Varjao: Vcx matured. Then afj just leverage that or did calm.
+
+325
+00:39:45.560 --> 00:39:52.660
+Clecio Varjao: I know stabilizes, and there is leverage of the did come from from this.
+
+326
+00:39:52.680 --> 00:39:55.420
+Clecio Varjao: there's a rest implementation or something like that.
+
+327
+00:39:55.450 --> 00:40:05.609
+Clecio Varjao: I'm just trying to understand a little bit. W. We're where do you think the project is gonna go, or where where's the vision for now? When?
+
+328
+00:40:05.670 --> 00:40:10.949
+Clecio Varjao: What do you think about the things the other things are at play, and
+
+329
+00:40:15.070 --> 00:40:15.990
+Timo Glastra: that's
+
+330
+00:40:16.120 --> 00:40:23.869
+Timo Glastra: hey? Good question. anyone that that wants to as has some thought on this already, or
+
+331
+00:40:34.730 --> 00:40:42.740
+Timo Glastra: alright then, I'll I'll give it to shot So I think, yeah, one of the things you mentioned is like,
+
+332
+00:40:43.690 --> 00:41:05.009
+Timo Glastra: having a lot of it's implemented in in type script. Javascript allows for quite flexible developments. which I think is nice, like there are maybe some downsides to using javascript and and some things that you maybe wouldn't have if you implemented in rest, I think, probably
+
+333
+00:41:05.490 --> 00:41:07.719
+Timo Glastra: like in the end you can run it in more.
+
+334
+00:41:08.130 --> 00:41:16.639
+Timo Glastra: Expose it to more languages if you write it in in in something like rest. because you can write rappers.
+
+335
+00:41:16.880 --> 00:41:40.830
+Timo Glastra: and the performance probably also better if you write it in rest. so I think there's something to say for it. I am less fan of having a lot of it implemented in another language, because then it becomes complexer. If you want to do You either need to have a very minimal Api exposed in the wrapper.
+
+336
+00:41:40.830 --> 00:41:49.589
+Timo Glastra: or you have very advanced Api. With that means the rapper layer becomes really complex. And I think also F of I,
+
+337
+00:41:49.660 --> 00:41:51.090
+Timo Glastra: that's quite some
+
+338
+00:41:51.530 --> 00:41:55.790
+Timo Glastra: performance impact, so that you also lose a lot
+
+339
+00:41:55.880 --> 00:42:14.169
+Timo Glastra:  of the advantages of having a fast language like, for, for example. So then I would rather say, you you move mostly to another language. but I think in terms of future of Aj. I think
+
+340
+00:42:14.670 --> 00:42:20.119
+Timo Glastra: we probably want to like add more features to make it more
+
+341
+00:42:20.140 --> 00:42:22.710
+Timo Glastra: suitable, for I think a
+
+342
+00:42:22.790 --> 00:42:31.830
+Timo Glastra: sure for environments. That's something we're really interested to announce has been used a lot in mobile environments. But we're now starting to use it in in
+
+343
+00:42:32.240 --> 00:42:42.970
+Timo Glastra: sure for environments. And to actually start using it on a large scale, like having managing hundreds of thousands of wallets in an agent.
+
+344
+00:42:43.540 --> 00:42:44.560
+Timo Glastra: and
+
+345
+00:42:44.670 --> 00:42:55.740
+Timo Glastra: So there's definitely work to be done there, because, like, we now have most Tennessee and and but like, there's definitely components that are going to break on that skill.
+
+346
+00:42:55.880 --> 00:42:57.720
+Timo Glastra: and
+
+347
+00:42:58.320 --> 00:43:07.929
+Timo Glastra: I think, making it more modular and maybe extracting some stuff like there's a lot of code in the framework which also adds complexity. So I think
+
+348
+00:43:08.190 --> 00:43:12.610
+Timo Glastra:  beer, and has lately done some
+
+349
+00:43:12.630 --> 00:43:20.830
+Timo Glastra: great work on like writing some smaller libraries. Let me see if I can
+
+350
+00:43:20.990 --> 00:43:23.240
+Timo Glastra: find some here.
+
+351
+00:43:24.520 --> 00:43:35.690
+Timo Glastra: yeah. So like, implementing selective disclosure. jobs and implementing dates in typescript. So as like.
+
+352
+00:43:35.720 --> 00:43:42.379
+Timo Glastra: yeah, more for we scope libraries which allow you to
+
+353
+00:43:42.490 --> 00:44:07.979
+Timo Glastra: bars. It did create a did document, and and and have to validation in there. And I also asked Karen to to give a presentation on that in the next few weeks, I think. Yeah. So, extracting more code over time out of the framework and making them general purpose. Typescript libraries is more of the direction. I would see it going then moving stuff to
+
+354
+00:44:08.100 --> 00:44:13.249
+Timo Glastra: rest, for example. and having it in another
+
+355
+00:44:13.280 --> 00:44:21.549
+Timo Glastra: language, because I think with that we could remove some complexity from the framework itself.
+
+356
+00:44:21.720 --> 00:44:34.009
+Timo Glastra: We could make it usable. for all the libraries. For example, you have to foram or framework, and if there is like general purpose libraries that we can create, we can share some some
+
+357
+00:44:34.080 --> 00:45:02.999
+Timo Glastra: codes between those frameworks as well. And the framework Ofj really becomes more of the glue that clues together the different libraries. So if you want to use dates with Sd. Jolts a. Ofj. Would depend on both of these libraries and make sure they work nicely together instead of you having to write the glue between those different libraries, but you can all always directly, depend on it.
+
+358
+00:45:04.070 --> 00:45:07.690
+Timo Glastra: yeah. I think that's why
+
+359
+00:45:07.890 --> 00:45:13.150
+Timo Glastra: I see it mostly going. I don't know if people have things to add or like to with this?
+
+360
+00:45:19.840 --> 00:45:22.910
+Ariel Gentile: Well, I think you can. There is a
+
+361
+00:45:23.860 --> 00:45:25.520
+Ariel Gentile: this
+
+362
+00:45:27.720 --> 00:45:30.999
+Ariel Gentile: remaining discussion about the about
+
+363
+00:45:31.440 --> 00:45:39.910
+Ariel Gentile: moving on to the open. What it foundation, right? You asked me about my opinion about that last week, but you didn't respond.
+
+364
+00:45:44.140 --> 00:45:48.889
+Timo Glastra: Yeah, sorry I I've been really busy with.
+
+365
+00:45:49.090 --> 00:45:56.379
+Timo Glastra: we had deadlines for this wallet this week. So I I I've been there.
+
+366
+00:45:57.330 --> 00:46:00.550
+Ariel Gentile: But but but I think I I I think that that some
+
+367
+00:46:00.580 --> 00:46:07.019
+Ariel Gentile: so something I'm sorry I'm I'm thinking, is that
+
+368
+00:46:07.620 --> 00:46:08.540
+Ariel Gentile: yeah.
+
+369
+00:46:09.520 --> 00:46:16.779
+Ariel Gentile: Now that there are some other. Some of the libraries also written in in, in in shells, people typescript like.
+
+370
+00:46:19.160 --> 00:46:26.350
+Ariel Gentile: what's the different? That? What? What would the Afsh position against those?
+
+371
+00:46:26.400 --> 00:46:32.160
+Ariel Gentile: All the libraries that also. somehow. for the same purposes?
+
+372
+00:46:32.380 --> 00:46:44.429
+Ariel Gentile: Because, you know, with you can also deal with the deeds and Vcs. Or maybe not. But this is in general.
+
+373
+00:46:44.670 --> 00:46:50.199
+Ariel Gentile: and and also do. Some did come and and and and implement some custom protocols as well.
+
+374
+00:46:50.900 --> 00:46:51.820
+Ariel Gentile: So
+
+375
+00:46:52.110 --> 00:46:55.620
+Ariel Gentile:  maybe
+
+376
+00:46:55.740 --> 00:46:57.230
+Ariel Gentile: if we are
+
+377
+00:46:57.660 --> 00:47:01.310
+Ariel Gentile: thinking or or moving towards the
+
+378
+00:47:02.900 --> 00:47:05.070
+Ariel Gentile: the open id
+
+379
+00:47:05.430 --> 00:47:10.150
+Ariel Gentile: for Vc's approach, I mean, if we are going to support different
+
+380
+00:47:10.170 --> 00:47:12.639
+Ariel Gentile: different transport.
+
+381
+00:47:13.240 --> 00:47:18.940
+Ariel Gentile: and we are moving to the Open World Foundation. Maybe that could that that could
+
+382
+00:47:19.790 --> 00:47:20.930
+Ariel Gentile: the
+
+383
+00:47:20.970 --> 00:47:26.630
+Ariel Gentile: an opportunity for a if she to become a more generic or more general.
+
+384
+00:47:26.820 --> 00:47:30.389
+Ariel Gentile: It's a I frame, or like we mentioned some weeks ago.
+
+385
+00:47:39.050 --> 00:47:41.140
+Timo Glastra: Yeah. that makes sense.
+
+386
+00:47:42.340 --> 00:47:45.029
+Timo Glastra: Gracio. You also want to say something.
+
+387
+00:47:47.990 --> 00:47:59.900
+Clecio Varjao:  just wanna share like this document. which I'm trying to figure it out and get confused with all those
+
+388
+00:48:00.540 --> 00:48:05.469
+Clecio Varjao: government acronym. So is this Dutch government?
+
+389
+00:48:05.660 --> 00:48:09.420
+Timo Glastra: Yeah, yeah, I think I shared this with, John
+
+390
+00:48:09.460 --> 00:48:12.159
+Timo Glastra: last week. yeah.
+
+391
+00:48:12.740 --> 00:48:23.649
+Clecio Varjao: And and and I've seen this question over and over again about the the again mobile development is like, Oh, do we go, native? Do we use
+
+392
+00:48:23.870 --> 00:48:25.729
+Clecio Varjao: something else? Right?
+
+393
+00:48:25.790 --> 00:48:36.559
+Clecio Varjao:  And and for me it's less of what is the language that is develop it? But it's more of like, what can I build on top of it? So
+
+394
+00:48:36.570 --> 00:48:42.660
+Clecio Varjao: if it is of react native and and and javascript and provide. SDK,
+
+395
+00:48:43.940 --> 00:48:54.690
+Clecio Varjao: I'm not concerned about how curious that implementation is as long as it's working, and I can work in in the language that I
+
+396
+00:48:54.720 --> 00:48:57.590
+Clecio Varjao: chose, for whatever reason. That's fine.
+
+397
+00:48:58.720 --> 00:49:11.329
+Clecio Varjao: I think one of that they make. It's about this kind of a cross platform compilation. And they mentioned a phone gap and react native and flater. And those things come and go.
+
+398
+00:49:11.350 --> 00:49:21.999
+Clecio Varjao:  so so it becomes less less agnostic. So that's that's my, that's my concern. And and and and my point about it.
+
+399
+00:49:22.170 --> 00:49:37.629
+Clecio Varjao:  But that's fine. If the intention is to to remain that kind of a more, closer to nodes, development and node language as well. That's that's understandable. That's a direction that the project want to go.
+
+400
+00:49:37.780 --> 00:49:45.459
+Clecio Varjao:  But I just also want to raise that in the scenario, some, some all that would automatically get
+
+401
+00:49:45.650 --> 00:49:58.940
+Clecio Varjao:  and some government automatic exclude this this framework right from the get go.  so so it depends where where you want to go. So so I'm
+
+402
+00:49:59.130 --> 00:50:13.730
+Clecio Varjao: I like, I said. I've had people reach out and asking to me about integrating existing applications into their adding verifiable credential, or or a didcom features into a app, an existing app
+
+403
+00:50:13.760 --> 00:50:20.489
+Clecio Varjao: existing app are not necessary within react native. It could be written native code
+
+404
+00:50:20.670 --> 00:50:25.219
+Clecio Varjao: and and that hasn't been that smooth for what I understand.
+
+405
+00:50:26.390 --> 00:50:35.050
+Clecio Varjao:  so so it's just a question for the community where? Where? Where they want to go. I mean, there's no right or wrong. It's just where do you want to go.
+
+406
+00:50:36.380 --> 00:50:38.279
+Timo Glastra: Yeah.
+
+407
+00:50:39.360 --> 00:50:42.029
+Timo Glastra: So that's a good thing. Yeah, I think
+
+408
+00:50:42.400 --> 00:50:49.439
+Clecio Varjao: so. So I guess the the the main, the main topic is, do you want to remain as a
+
+409
+00:50:49.880 --> 00:51:00.090
+Clecio Varjao: there is Javascript framework, or it's more of I don't know if I can compare, for instance, to aws, sdks that
+
+410
+00:51:00.220 --> 00:51:05.650
+Clecio Varjao: behind the scenes they call executables do whatever it is that needs to do.
+
+411
+00:51:06.320 --> 00:51:13.460
+Clecio Varjao: that is compatible with with with some interface. Right? So it doesn't. It's not necessarily fully
+
+412
+00:51:14.040 --> 00:51:16.409
+Clecio Varjao: implemented, although
+
+413
+00:51:16.470 --> 00:51:26.630
+Clecio Varjao: there's some sometimes code duplication. which is fine. coding duplication is not all bad. But it's just. I I just want to ask the question.
+
+414
+00:51:27.900 --> 00:51:31.180
+Timo Glastra: yeah. yeah. I think
+
+415
+00:51:32.200 --> 00:51:46.339
+Timo Glastra: first off, I think there is a lot of like assumptions in this document that I don't agree with. I think their take on the cross-platform development. And then all these things. I don't think they're
+
+416
+00:51:48.390 --> 00:52:00.759
+Timo Glastra: the right assumptions. They're making But data site, I think it is an issue that, like you can build natively in Ios and Android easily with this tech
+
+417
+00:52:01.600 --> 00:52:05.680
+Timo Glastra: question is always like in the end.
+
+418
+00:52:06.810 --> 00:52:11.100
+Timo Glastra: do we need a single implementation?
+
+419
+00:52:11.190 --> 00:52:24.049
+Timo Glastra: for all use cases? or not? I think. having it implemented in rust can work. I know, for example, like the you have the
+
+420
+00:52:24.630 --> 00:52:29.160
+Timo Glastra: spruce id libraries which are
+
+421
+00:52:29.340 --> 00:52:33.200
+Timo Glastra: I think they have. Yeah, the did get
+
+422
+00:52:33.330 --> 00:52:38.629
+Timo Glastra:  which is written in
+
+423
+00:52:40.070 --> 00:52:44.220
+Timo Glastra: rest, and I think it exposes
+
+424
+00:52:44.490 --> 00:52:55.830
+Timo Glastra: They expose it to a lot of different languages. which is nice, and I'm not sure to build an ios and android any flutter, and I think brick native falls on their roadmap. Maybe.
+
+425
+00:52:55.840 --> 00:53:00.299
+Timo Glastra: so I think yeah, that's
+
+426
+00:53:00.570 --> 00:53:11.759
+Timo Glastra: that's something that would work in this case. but I think it can also sometimes add a lot of complexity if you want to have the same thing working in all environments. and if you look at
+
+427
+00:53:11.790 --> 00:53:12.820
+Timo Glastra: like a
+
+428
+00:53:12.860 --> 00:53:18.069
+Timo Glastra: a lot of libraries are just like, if you look at Jwt. Libraries, they're
+
+429
+00:53:18.310 --> 00:53:25.539
+Timo Glastra: often now just implement it in every language again. and the question is like
+
+430
+00:53:25.760 --> 00:53:42.789
+Timo Glastra: over time. I think more and more libraries will come available for this. Like you have more date libraries, more data with T. Sd job libraries PC libraries. And then, yeah. if we also get that for
+
+431
+00:53:42.930 --> 00:53:45.670
+Timo Glastra: Kotlin,
+
+432
+00:53:46.010 --> 00:53:56.030
+Timo Glastra: because I know a lot of people are now working on, on, on coupling for Sd chilt libraries, and if we then also get that for Swift, for example, then
+
+433
+00:53:56.190 --> 00:54:10.820
+Timo Glastra: it would become a bit more like you now have with development. Where, if you're gonna make a a mobile app you often have, like different dependencies to achieve the same team, which isn't always the easiest But yeah,
+
+434
+00:54:11.880 --> 00:54:18.919
+Timo Glastra: So I don't know if that answers your question. It's not a very concrete answer. But I would say
+
+435
+00:54:19.310 --> 00:54:23.440
+Timo Glastra: it is a problem. But I don't think it's a problem for
+
+436
+00:54:31.590 --> 00:54:33.590
+Clecio Varjao: yep. that's fair.
+
+437
+00:54:36.280 --> 00:54:36.940
+Timo Glastra: Yeah.
+
+438
+00:54:38.350 --> 00:54:39.280
+Timo Glastra: So
+
+439
+00:54:39.720 --> 00:54:47.850
+Timo Glastra: it also depends really on like we when we build wallets, we for now, like we've always been in the
+
+440
+00:54:48.580 --> 00:54:57.620
+Timo Glastra: in the situation where we can choose, react native, or we start from scratch, and then we choose react native. So like, it has been
+
+441
+00:54:57.790 --> 00:55:01.859
+Timo Glastra: a limitation for us and I. There would be
+
+442
+00:55:02.210 --> 00:55:05.950
+Timo Glastra: not a lot of cases where I would go with writing
+
+443
+00:55:06.110 --> 00:55:11.439
+Timo Glastra: 2 wallets in Ios and android separate I think
+
+444
+00:55:11.780 --> 00:55:23.640
+Timo Glastra: separate from having to do it 2 times. I think there's a lot of complexities in building native applications that are just extracted away, for example, with with Expo,
+
+445
+00:55:24.200 --> 00:55:36.659
+Timo Glastra: yeah. But that's also my personal opinion. And we're a small team. So yeah, different  considerations to make. I think, Charles, you you
+
+446
+00:55:36.870 --> 00:55:38.310
+Timo Glastra: wanted to say something.
+
+447
+00:55:40.670 --> 00:55:47.279
+Charles Lanahan: Oh, no, I didn't want to say in particular. I I kind of agree with the glue.
+
+448
+00:55:48.410 --> 00:55:58.929
+Charles Lanahan: the blue comment, the glue, the path seems like a good one. The reason 3,000. This is a beginner comment. The reason I was attracted to the area. Javascript framework
+
+449
+00:55:59.220 --> 00:56:00.400
+Charles Lanahan: was for
+
+450
+00:56:01.360 --> 00:56:07.590
+Charles Lanahan: the chance to do rapid prototyping in react native. And then, if the idea plays out.
+
+451
+00:56:08.060 --> 00:56:15.129
+Charles Lanahan: maybe making that decision to re-implement, or or, you know. just from the framework from there. But
+
+452
+00:56:16.720 --> 00:56:18.639
+Charles Lanahan: but that seems like a goal that that
+
+453
+00:56:20.770 --> 00:56:28.009
+Charles Lanahan: that is, that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that
+
+454
+00:56:28.180 --> 00:56:32.299
+Charles Lanahan:  that kind of thing. So that was not only
+
+455
+00:56:33.740 --> 00:56:35.090
+Charles Lanahan: comment on the issue.
+
+456
+00:56:36.670 --> 00:56:37.370
+Timo Glastra: Yeah.
+
+457
+00:56:38.590 --> 00:56:39.839
+Timo Glastra: that makes sense.
+
+458
+00:56:41.630 --> 00:56:43.340
+Berend Sliedrecht: I think something that that
+
+459
+00:56:43.400 --> 00:56:49.270
+Berend Sliedrecht: might be worth investigating in the far, far future would be just
+
+460
+00:56:49.490 --> 00:56:56.100
+Berend Sliedrecht: instead of anything with F of I. Because what you mentioned is, there are performance strokes in ffi, and
+
+461
+00:56:57.080 --> 00:57:06.469
+Berend Sliedrecht: there are small use cases where, like calling something over, if I to rest, is actually faster implementing it in in, in typescript, a lot of times
+
+462
+00:57:06.520 --> 00:57:08.810
+Berend Sliedrecht: is faster than going over
+
+463
+00:57:09.250 --> 00:57:19.779
+Berend Sliedrecht:  But looking at Webassembly would take a lot of those things away. You don't have to deal with unsafe F by rappers.
+
+464
+00:57:20.150 --> 00:57:32.029
+Berend Sliedrecht: you have a unified interface. It is. It works very well. It's compuls to Webassembly. You can reuse it within. Now, jazz Browser, and well, very scheduledly reactive right now.
+
+465
+00:57:32.100 --> 00:57:34.200
+Berend Sliedrecht: And I think if
+
+466
+00:57:34.340 --> 00:57:39.010
+Berend Sliedrecht: at some point or that it themselves would support web assembly.
+
+467
+00:57:39.210 --> 00:57:44.940
+Berend Sliedrecht: then that will open up like. I think, a lot
+
+468
+00:57:45.020 --> 00:57:53.390
+Berend Sliedrecht: because then we can. Well, we we do get some performance back for using a a web assembly or a rust library compiled to web assembly.
+
+469
+00:57:53.600 --> 00:58:00.750
+Berend Sliedrecht: and we would be able to reuse it, because right now we what we did with shared components, we have to re-implement it in
+
+470
+00:58:00.920 --> 00:58:11.510
+Berend Sliedrecht: or sorry no Gs F. Ofi, and also in resigned for their specific turtle modules, which is a bit of a or it was a bit of a pay, and we'll be paying for maintenance.
+
+471
+00:58:12.430 --> 00:58:15.040
+Berend Sliedrecht: And my preference
+
+472
+00:58:15.130 --> 00:58:16.810
+Berend Sliedrecht: from that experience will
+
+473
+00:58:17.790 --> 00:58:30.210
+Berend Sliedrecht: always go to if it's possible to implement in time scripts, increments in times. If you're going to use the typescript.  also, I think if we have, like the short components right now with.
+
+474
+00:58:30.380 --> 00:58:32.300
+Berend Sliedrecht: if there is an issue specifically
+
+475
+00:58:32.310 --> 00:58:38.340
+Berend Sliedrecht: for A of J. They are not all the people in our Ed Aj group that could take those issues up.
+
+476
+00:58:38.560 --> 00:58:40.680
+Berend Sliedrecht: So if we actually rely on
+
+477
+00:58:40.840 --> 00:58:54.499
+Berend Sliedrecht: called liners or swift libraries, for example, to to get the job done and to get the products then the end product works. But if there is a small issue. yeah, there are probably a lot of people in our team that could
+
+478
+00:58:54.610 --> 00:58:59.970
+Berend Sliedrecht: just fix those issues because we, our experience is not that in those languages.
+
+479
+00:59:00.160 --> 00:59:06.980
+Berend Sliedrecht: so from a maintenance perspective, I think it's yeah quite important to
+
+480
+00:59:07.200 --> 00:59:14.480
+Berend Sliedrecht: if it's possible to to stick to type scripts. because that's where we are experts. And what we can maintain.
+
+481
+00:59:18.940 --> 00:59:20.380
+Timo Glastra: Yeah, makes sense.
+
+482
+00:59:20.710 --> 00:59:23.889
+Timo Glastra: Do you know? on the performance
+
+483
+00:59:23.960 --> 00:59:28.019
+Timo Glastra: trade off between web assembly and M for 5.
+
+484
+00:59:29.010 --> 00:59:42.819
+Berend Sliedrecht: yeah, I think it depends on the exact thing you want to run, because there are all the benchmarks like comparing pure node. Js, F of I and Web Assembly, with just running like Fibonacci.
+
+485
+00:59:42.880 --> 00:59:50.980
+Berend Sliedrecht: Calculate the 1,000 number which is like they're completely useless benchmarks.  I.
+
+486
+00:59:51.650 --> 01:00:07.120
+Berend Sliedrecht: So I'm I'm not a hundred percent sure. but I do know that that's working over web assembly and working over. If I working over web assembly is a little easier, especially with libraries like wasn't buying Gen. Which just generate complete types of interfaces for you.
+
+487
+01:00:07.160 --> 01:00:15.410
+Berend Sliedrecht: to call those SW. Assembly libraries, and with F of I. Now we we did it together. And it's it's
+
+488
+01:00:15.490 --> 01:00:29.610
+Berend Sliedrecht: it's a lot of manual labor, and you have to align certain structures because they are aligned in C, so if you like, if your property is in the second place, instead of the first place in the class, then it won't work, and
+
+489
+01:00:29.640 --> 01:00:36.680
+Berend Sliedrecht: like tools like it wasn't binding that they just take those complexities away. Which is so nice.
+
+490
+01:00:42.330 --> 01:00:44.300
+Berend Sliedrecht: Yeah, I I would be very
+
+491
+01:00:44.520 --> 01:00:50.989
+Berend Sliedrecht: hesitant to to use web assembly right now for your native. I I think you you send it on some select to theirs.
+
+492
+01:00:51.190 --> 01:01:00.930
+Berend Sliedrecht: There is an implementation working of a assembly and a native. And I think I also want some functions to run, but very minimal. But
+
+493
+01:01:01.160 --> 01:01:02.520
+Berend Sliedrecht: yeah, I I think
+
+494
+01:01:02.700 --> 01:01:11.709
+Berend Sliedrecht: if we want to support them assembly, it will be if we are native themselves, implemented, because then, you know, you have some support. It will be a lot more stable. Well.
+
+495
+01:01:12.020 --> 01:01:14.940
+Berend Sliedrecht: we can now hope for it to be more stable, I guess.
+
+496
+01:01:15.080 --> 01:01:19.770
+Berend Sliedrecht:  But yeah. So it's probably in the far future, I guess.
+
+497
+01:01:22.070 --> 01:01:24.180
+Timo Glastra: Cool. Okay, makes sense.
+
+498
+01:01:25.110 --> 01:01:28.789
+Timo Glastra:  we're out of time
+
+499
+01:01:28.970 --> 01:01:47.750
+Timo Glastra:  So yeah, I think we can close it off for today. if you have a topic you would like to discuss next week. please let me know. I think there are some topics left hanging from last discussion. So once the Wiki back online, I'll make sure to
+
+500
+01:01:47.830 --> 01:01:52.620
+Timo Glastra: get them out, and we can continue that discussion next week.
+
+501
+01:01:53.890 --> 01:01:55.330
+Timo Glastra: Cool, thanks to Ron.
+
+502
+01:01:55.690 --> 01:01:56.950
+Clecio Varjao: Thank you.
+
+503
+01:01:56.970 --> 01:01:58.900
+Berend Sliedrecht: Thanks, bye, bye.
+

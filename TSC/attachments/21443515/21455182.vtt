@@ -1,0 +1,1646 @@
+WEBVTT
+
+1
+00:02:05.340 --> 00:02:06.570
+Hart Montgomery: morning Tracy morning.
+
+2
+00:02:10.230 --> 00:02:10.740
+morning.
+
+3
+00:05:11.340 --> 00:05:12.930
+Tracy Kuhrt: David you know we're gonna have arrived today.
+
+4
+00:05:16.140 --> 00:05:18.390
+David Boswell: I don't actually I can check in with them.
+
+5
+00:05:18.900 --> 00:05:19.200
+Okay.
+
+6
+00:06:16.800 --> 00:06:19.440
+Tracy Kuhrt: Can you guys see the address.
+
+7
+00:06:21.870 --> 00:06:24.090
+Tracy Kuhrt: Yes, yep okay i'm.
+
+8
+00:06:25.740 --> 00:06:26.310
+Dave Enyeart: loving it.
+
+9
+00:06:36.630 --> 00:06:42.930
+David Boswell: I haven't heard back, yet I mean, I want to respect everybody's time we can go ahead and get started, I believe the recordings going so.
+
+10
+00:06:43.650 --> 00:06:45.090
+Tracy Kuhrt: yeah that's fine i'm.
+
+11
+00:06:46.440 --> 00:06:52.800
+Tracy Kuhrt: Tina Would you mind updating the attendance of who shows up as we go through.
+
+12
+00:06:54.480 --> 00:06:55.200
+David Boswell: The show I can do that.
+
+13
+00:06:55.620 --> 00:06:56.640
+Tracy Kuhrt: Alright appreciate that.
+
+14
+00:07:05.370 --> 00:07:22.770
+Tracy Kuhrt: is just counting people, I think we have the majority of the folks that we're going to get today I did see Angelo had sent a regrets, and I know, had sent me regrets at least for the first half an hour we'll see if he can make the second half an hour.
+
+15
+00:07:24.570 --> 00:07:32.130
+Tracy Kuhrt: So we are missing, I think a few people from the list, but given given time let's go ahead and get started.
+
+16
+00:07:34.380 --> 00:07:45.630
+Tracy Kuhrt: So, as you are all aware, everybody on this call has been here before this call is open to everyone there's two things we must.
+
+17
+00:07:46.410 --> 00:08:02.130
+Tracy Kuhrt: partake or participate in that is the antitrust policy notice that you should be seeing on the screen and hopefully has been displayed long enough for you to completely correct that the second thing is our hyper ledger code of conduct.
+
+18
+00:08:03.750 --> 00:08:16.440
+Tracy Kuhrt: Which is linked in the agenda so as we start we've got three separate announcements that are here, the first one is, I think, David you edit this one, maybe.
+
+19
+00:08:17.340 --> 00:08:26.160
+David Boswell: yeah yeah, just as it says we want to thank everybody, not just everybody on the call but everybody in the Community for the contributions they made in 2021 so we put together.
+
+20
+00:08:26.640 --> 00:08:37.350
+David Boswell: kind of a small just thank you go to schrag pack from the store so we've emailed people who we saw had made contributions in the year, and so.
+
+21
+00:08:38.340 --> 00:08:54.510
+David Boswell: Look, for your email in that if you don't see that in your email check your spam box, because it might have gone there, but there was a code to use in the store to redeem a free Thank you gift, so please feel free to use that if you don't if you do check your spam box and don't see it.
+
+22
+00:08:55.710 --> 00:09:03.090
+David Boswell: feel free to reach out to us and we can check with the store vendor just to make sure that the email was sent but again just we want to thank everybody for contributing.
+
+23
+00:09:03.660 --> 00:09:09.990
+David Boswell: And we thought it could be a nice way to incentivize people to contribute, before the end of the year, people wanted swag packs and haven't contributed.
+
+24
+00:09:11.190 --> 00:09:15.750
+David Boswell: You can contribute and then we'll send you the gift will do another will check.
+
+25
+00:09:16.920 --> 00:09:24.060
+David Boswell: For contributions at the end of the year and send out another round of Thank you so the people who contributed so that's it.
+
+26
+00:09:25.890 --> 00:09:26.310
+Tracy Kuhrt: alright.
+
+27
+00:09:26.460 --> 00:09:27.090
+Tracy Kuhrt: Thanks David.
+
+28
+00:09:28.440 --> 00:09:36.510
+Tracy Kuhrt: And the second one here is, as always there's the Dev weekly developer newsletter that goes out each Friday.
+
+29
+00:09:37.050 --> 00:09:49.980
+Tracy Kuhrt: And so, if you have anything that you'd like to include in that, please do so at the moment that's given there there's a wiki page that you can update for upcoming newsletters.
+
+30
+00:09:50.940 --> 00:10:11.010
+Tracy Kuhrt: The third item here, we did I did see david's email go out to the different mailing list about canceling meetings, the last two weeks of the year, so this is just a notice that we plan to cancel the December 23 in the December 30 tlc meetings, due to the end of your holidays.
+
+31
+00:10:12.870 --> 00:10:16.260
+Tracy Kuhrt: Are there other announcements that anybody has they'd like to add at this time.
+
+32
+00:10:25.110 --> 00:10:38.280
+Tracy Kuhrt: Right, I will take Saturday, and they know we do have three different quarterly reports that have come in hyper ledger grid hyper ledger transacting hyper ledger cello when I checked these.
+
+33
+00:10:40.410 --> 00:10:46.470
+Tracy Kuhrt: I did see that we've got some people who haven't yet reviewed them, so please.
+
+34
+00:10:47.760 --> 00:10:55.080
+Tracy Kuhrt: do take the time to to go through and review them at the same time I didn't see any specific questions.
+
+35
+00:10:56.310 --> 00:10:58.200
+Tracy Kuhrt: Unless they've just shown up.
+
+36
+00:10:59.220 --> 00:11:11.520
+Tracy Kuhrt: So I will assume that we have no questions at this point, but if they're already questions that people do have that they'd like to bring up, please, please do so now.
+
+37
+00:11:22.920 --> 00:11:27.630
+Tracy Kuhrt: All right, so we do have quite a few missing.
+
+38
+00:11:29.580 --> 00:11:32.190
+Tracy Kuhrt: Reports we've got four that are.
+
+39
+00:11:33.750 --> 00:11:53.400
+Tracy Kuhrt: missing the the upcoming reports that we have, we do have, for the rest of the year for additional reports that we expect to come in so as they come in, please do take the time to review those ensure that you don't have any questions about what's happening in any of those projects.
+
+40
+00:11:54.420 --> 00:11:58.050
+Tracy Kuhrt: As they come in, I know, Dan I saw.
+
+41
+00:11:59.490 --> 00:12:01.980
+Tracy Kuhrt: Well, I see you have your hand up, so I will let you.
+
+42
+00:12:03.570 --> 00:12:04.440
+Tracy Kuhrt: will let you speaker.
+
+43
+00:12:05.490 --> 00:12:11.460
+Danno Ferrin: So first and then we'll on dormant state, so they don't do reports.
+
+44
+00:12:15.420 --> 00:12:23.670
+Tracy Kuhrt: yeah I don't think we ever specified that necessarily we when we went through the project lifecycle but I I would agree with you, Dan oh.
+
+45
+00:12:24.450 --> 00:12:28.920
+Danno Ferrin: yeah if no one's taking care of it no one's gonna be there to put a report in.
+
+46
+00:12:29.220 --> 00:12:29.700
+Tracy Kuhrt: that's right.
+
+47
+00:12:30.090 --> 00:12:39.270
+Danno Ferrin: So don't need to be updated on a 2022 calendar i'm also an important thing to note about the dates these dates are the Monday, not the Thursday.
+
+48
+00:12:39.930 --> 00:12:45.330
+Tracy Kuhrt: that's because they are, they are supposed to be due on Monday, the.
+
+49
+00:12:45.510 --> 00:13:00.900
+Tracy Kuhrt: Week of the PAC meeting so, then the project reports, it does show that they are the date of the tlc meeting, but at the top, it says something like.
+
+50
+00:13:02.100 --> 00:13:11.940
+Tracy Kuhrt: You know these are do the Monday of that week, so I have been specifically calling out the Mondays so for like this week we had exploring firefly.
+
+51
+00:13:12.420 --> 00:13:27.090
+Tracy Kuhrt: That we're do so I call that the Mondays here because I I do want to make sure that everybody has the opportunity to review these reports before they come to the PAC meeting so yes you're correct.
+
+52
+00:13:30.570 --> 00:13:48.300
+Tracy Kuhrt: um The other thing that I thought about when I was looking at this is wondering if at some point we want to think about what happens when we're not receiving a report within a certain timeframe is that a point at which we.
+
+53
+00:13:49.530 --> 00:14:02.910
+Tracy Kuhrt: Look, to put a project into a dormant state or not that's obviously not a discussion, we should have now, but it is something that's on my mind and something that you know, maybe we should think through yes.
+
+54
+00:14:04.080 --> 00:14:12.240
+Danno Ferrin: I kind of agree and I think the project should be one of the auto triggers for involuntary dormancy so maybe we should discuss it next week, so people can think about.
+
+55
+00:14:13.350 --> 00:14:19.650
+Danno Ferrin: What it means to force a project in the dormancy when it's not responding to things for project reports.
+
+56
+00:14:20.190 --> 00:14:20.340
+yeah.
+
+57
+00:14:22.170 --> 00:14:26.310
+Tracy Kuhrt: Okay well we'll add that to the discussion items for next week.
+
+58
+00:14:27.750 --> 00:14:32.610
+Tracy Kuhrt: All right, any other questions or comments on the reports.
+
+59
+00:14:39.120 --> 00:14:43.920
+Tracy Kuhrt: Alright, so Bobby i'm going to stop sharing my screen and i'm going to give you.
+
+60
+00:14:45.090 --> 00:14:50.670
+Tracy Kuhrt: About 15 minutes, just so we have enough time to get to the other two items to do your presentation.
+
+61
+00:14:52.290 --> 00:14:53.520
+Bobbi Muscara: sounds great Thank you.
+
+62
+00:14:54.750 --> 00:14:56.160
+Bobbi Muscara: Let me share my screen.
+
+63
+00:14:57.030 --> 00:14:58.860
+Tracy Kuhrt: figure out how to stop there, you go.
+
+64
+00:14:59.970 --> 00:15:00.600
+Okay.
+
+65
+00:15:03.300 --> 00:15:06.000
+Bobbi Muscara: So is everybody seeing my screen.
+
+66
+00:15:07.680 --> 00:15:08.430
+Tracy Kuhrt: yep, we can see it.
+
+67
+00:15:08.850 --> 00:15:19.770
+Bobbi Muscara: awesome so we were discussing the bridging the silos and trying to get more communication flowing between the working groups and the special interest groups.
+
+68
+00:15:20.310 --> 00:15:30.360
+Bobbi Muscara: i'm at the tlc calls and one of the ways that we decided that this could be accomplished was to have different groups come do a short presentation at our calls to let you know.
+
+69
+00:15:31.020 --> 00:15:36.780
+Bobbi Muscara: what's happening in the Community that might go under the radar of the technical Steering Committee.
+
+70
+00:15:37.230 --> 00:15:52.230
+Bobbi Muscara: So today we are going NICO and I are going to present a Community project, so it starts it's the giving Jane project which i'm sure everybody has heard about at least once, which is a social impact projects and we're building it on firefly.
+
+71
+00:15:54.120 --> 00:15:57.900
+Bobbi Muscara: On Bobby mascara and NICO and we're going to be discussing this today, for you.
+
+72
+00:15:59.190 --> 00:16:14.940
+Bobbi Muscara: So what is the giving chain it's actually a social impact blockchain based project to track donations through supply chain, so you have immutable record of where the donation went and you can see exactly where it is along the way.
+
+73
+00:16:17.190 --> 00:16:25.830
+Bobbi Muscara: It is a high it started through the hyper ledger communities and it actually touched at least six of them, so the first one was the social impact, special interest group.
+
+74
+00:16:26.220 --> 00:16:41.850
+Bobbi Muscara: I was a member of that group and they had a speaker from the Microsoft social impact hackathon in DC and 17 and they gave us an outline on how to build a social impact project, and they also.
+
+75
+00:16:43.140 --> 00:16:48.480
+Bobbi Muscara: gave us a lot of information on how blockchain can do that in the social impact group.
+
+76
+00:16:50.220 --> 00:17:00.300
+Bobbi Muscara: Then I run the princeton hyper ledger meetup group and we have a lot of Members over 300 in that group alone and I run the other princeton group with 2000 members.
+
+77
+00:17:00.660 --> 00:17:08.880
+Bobbi Muscara: And we got together in summer of 2019 and we decided to actually try to do those steps we picked up in the social impact, special interest group.
+
+78
+00:17:09.420 --> 00:17:20.340
+Bobbi Muscara: To build a blockchain project for our summer meetups instead of meeting and discussing and having guest speakers and panels, we decided to just like kind of do a lab or a little little hackathon ourselves.
+
+79
+00:17:22.050 --> 00:17:26.730
+Bobbi Muscara: The learning materials working group, which I am one of the co chairs of decided to.
+
+80
+00:17:27.540 --> 00:17:37.890
+Bobbi Muscara: record this So if you go to learning materials working group page under resources there's a tab that says meetup and if you ever wanted to do a social impact project this steps are there for you to follow.
+
+81
+00:17:39.390 --> 00:17:51.690
+Bobbi Muscara: and saw to the got involved in our first project which you'll see i'm going to go very quickly through the steps that we got there you know our first project we use the sawtooth example, so we were dealing with that Community for a while, as well.
+
+82
+00:17:52.500 --> 00:18:00.930
+Bobbi Muscara: After our first proof of concept ended in the end of the summer of 2019 the project kind of went away also coven came.
+
+83
+00:18:01.530 --> 00:18:11.460
+Bobbi Muscara: But after that the Linux foundation had the mentorship program and I put up the giving chain as a submission which got accepted and we had.
+
+84
+00:18:11.850 --> 00:18:22.890
+Bobbi Muscara: A mentor assigned to us and two others that did not make the project join us anyway and did the same amount of work as the paid mentee so it was a fabulous experience.
+
+85
+00:18:24.090 --> 00:18:35.070
+Bobbi Muscara: The trade finance group also got involved, because my friend Andre from the trade finance group wanted to see how they could help with the shipping because, once this project years up.
+
+86
+00:18:36.000 --> 00:18:42.900
+Bobbi Muscara: One of the issues we ran in into in the second project was how to get items from the United States over to India.
+
+87
+00:18:43.740 --> 00:18:53.790
+Bobbi Muscara: In just one example, but as you'll see the giving chain can do a lot of different examples so shipping and transporting are going to be something we have to deal with down the line.
+
+88
+00:18:55.110 --> 00:18:57.870
+Bobbi Muscara: And finally, the firefight people came in and the second.
+
+89
+00:18:59.220 --> 00:19:09.750
+Bobbi Muscara: time we did the project with an unbelievable solution for us which Nega will demonstrate at the end of this presentation so very quickly on the business model.
+
+90
+00:19:10.410 --> 00:19:20.790
+Bobbi Muscara: The first project we went from donors to volunteers to recipients in the second project two things change one, we have a model now where the NGO when a crisis occurs can.
+
+91
+00:19:21.300 --> 00:19:29.370
+Bobbi Muscara: query the system for help so that will alert donors to start a project and the second part, now that.
+
+92
+00:19:29.880 --> 00:19:40.920
+Bobbi Muscara: When we did the project in 2021 there were three instances of the giving chain happening at the same time, so we needed a project manager for each project so that's something that has to come along from.
+
+93
+00:19:41.190 --> 00:19:52.920
+Bobbi Muscara: The external like whoever wants to run a project, they need someone a point of contact to do some of the registration pieces so NGOs and project managers that are new for us.
+
+94
+00:19:53.610 --> 00:20:07.320
+Bobbi Muscara: So the workflow real quick the donors gather food we gather farm fresh food we collected it, and then we you know delivered it and we use the sawtooth model we Forked it we took out the fish and we put in a giving bag, we had.
+
+95
+00:20:08.850 --> 00:20:12.360
+Bobbi Muscara: This is the technical model you'll see those little tags, above all, the.
+
+96
+00:20:13.680 --> 00:20:24.150
+Bobbi Muscara: transactions and those were actually barcodes that we printed and would three part barcodes we were tear them off and and scan them in to get the transfer.
+
+97
+00:20:24.780 --> 00:20:35.670
+Bobbi Muscara: Registered into the system very not very efficient, but it worked for our proof of concept which we delivered all this wonderful food and helped our Community, at the end of the summer.
+
+98
+00:20:36.090 --> 00:20:47.550
+Bobbi Muscara: And this is basically the interface, we used again, we had no consensus model once we turn the computer off the incidence of the blockchain went away but it didn't prove our proof of concept that you can track something.
+
+99
+00:20:48.870 --> 00:20:58.620
+Bobbi Muscara: On a supply chain blockchain for charity and then the mentorship program got involved in in 2021 and we did have a new.
+
+100
+00:20:59.640 --> 00:21:08.820
+Bobbi Muscara: Life infused into the project, so we decided to do again a three part project, at the same time, so we're trying to scale up.
+
+101
+00:21:09.600 --> 00:21:16.140
+Bobbi Muscara: we're doing some shipping over to India and some projects over in India as well because that's where the mentees were from.
+
+102
+00:21:17.010 --> 00:21:28.890
+Bobbi Muscara: So we added, we could the Han India, the flood victims that was my mentee heartaches project because he lives in an area where that is affected by floods and he wanted to be able to set up that.
+
+103
+00:21:29.490 --> 00:21:45.120
+Bobbi Muscara: charity supply chain for people to help out when they wanted to also Medusa was one of the volunteer mentees and she wanted to help the women in India there's a humanitarian crisis over there for them they're not receiving hygiene projects products and she wanted to fix that.
+
+104
+00:21:46.380 --> 00:21:58.500
+Bobbi Muscara: So the model validation was just basically the same we collected goods, we transported them and we delivered them, but the only difference is in my model, the NGO request the donation.
+
+105
+00:21:59.880 --> 00:22:10.800
+Bobbi Muscara: or kind of files a humanitarian crisis that needs some help so that was basically the new business model and the new technical model, so instead of using sawtooth just track it.
+
+106
+00:22:11.340 --> 00:22:24.990
+Bobbi Muscara: That example isn't really up and running, right now, they have a more complex example and for the scope of the mentorship program we didn't have much time to build so we needed a quicker solution, something that would get us up and running.
+
+107
+00:22:25.470 --> 00:22:36.450
+Bobbi Muscara: And again, you know their number one in my book, the fire five people came through we request something, and they would literally write it as we asked them to and NICO we'll get into that in a minute.
+
+108
+00:22:36.870 --> 00:22:46.140
+Bobbi Muscara: So, again, I just wanted to thank everybody at hyper ledger for this journey with this project as you see it touched a lot of different communities, and it has.
+
+109
+00:22:47.040 --> 00:23:01.470
+Bobbi Muscara: Some wonderful impact that it could do, and I encourage the people at firefly and anyone on this call, if you ever need an example to use for explaining what blockchain does this is a really good one, please use it.
+
+110
+00:23:02.760 --> 00:23:05.670
+Bobbi Muscara: And I will turn it over now to NICO.
+
+111
+00:23:07.230 --> 00:23:07.860
+Nicko Guyer: thanks for having me.
+
+112
+00:23:09.060 --> 00:23:13.680
+Tracy Kuhrt: One moment i'm just before we get to that I have a question for Bobby.
+
+113
+00:23:14.820 --> 00:23:24.300
+Tracy Kuhrt: The question that I have is what sort of recommendations, you have for how you went about getting the different groups involved right.
+
+114
+00:23:24.810 --> 00:23:32.430
+Tracy Kuhrt: Going back to that one slide where you have basically everybody that got involved in this across all the different projects in the working groups cigs and.
+
+115
+00:23:32.850 --> 00:23:46.260
+Tracy Kuhrt: All of that right, I think, was it was really telling right that that it went through really a life cycle of getting people involved so so what kind of recommendations, you have for the Community on how best in.
+
+116
+00:23:46.740 --> 00:23:52.200
+Tracy Kuhrt: The work across all of these different groups and and get the involvement that you ended up getting.
+
+117
+00:23:53.340 --> 00:24:04.080
+Bobbi Muscara: um I think that point for me where we actually change like we were trying to do this, you know within the social impact group within the learning materials group, you know, in the meetup group.
+
+118
+00:24:04.590 --> 00:24:12.330
+Bobbi Muscara: And I think when the mentorship project came that changed everything because we had three new eyes, looking at the project.
+
+119
+00:24:12.930 --> 00:24:20.550
+Bobbi Muscara: That was when I got out of my comfort zone and actually went to the meetings for sawtooth and.
+
+120
+00:24:20.880 --> 00:24:29.100
+Bobbi Muscara: firefly because I needed to get this done and or we needed to get this done and we needed to see if these solutions would work, and that was the I guess the the.
+
+121
+00:24:29.940 --> 00:24:39.060
+Bobbi Muscara: What what you're speaking of worried like jumped over the line there is when we actually like made the call like can we come to your meeting and talk about this, because we have a you know.
+
+122
+00:24:39.570 --> 00:24:47.460
+Bobbi Muscara: Project we're working on, and they were like yes everybody sawtooth was like yes, yes, come so it's actually just reaching out, I mean everybody is welcoming.
+
+123
+00:24:49.590 --> 00:24:58.320
+Tracy Kuhrt: Thanks Bobby back us up for later topic really well because I have interrupted and jumped in there, please feel free.
+
+124
+00:24:59.550 --> 00:25:06.270
+Nicko Guyer: No worries all right thanks for the introduction Bobby and just for the the background, there yeah it was it was really, really.
+
+125
+00:25:06.720 --> 00:25:15.240
+Nicko Guyer: collaborating with you and with the whole team building the giving chain DEMO here and i'm really excited to be able to show it off so.
+
+126
+00:25:15.900 --> 00:25:26.160
+Nicko Guyer: Before I DEMO it I I don't get to take credit for anything that i'm about to show in terms of the the actual DEMO that we're about to see this is, this is all the mentees code.
+
+127
+00:25:26.850 --> 00:25:37.140
+Nicko Guyer: They couldn't be here today, so I picked up their code I tweaked a couple things to get it to work with the newest version of firefly and and i'm just running in them would love to.
+
+128
+00:25:37.530 --> 00:25:45.690
+Nicko Guyer: walk you through what that looks like today so i'm going to go ahead and share my screen and you should be seeing my browser and should say.
+
+129
+00:25:46.230 --> 00:26:00.780
+Nicko Guyer: blockchain powering generosity Okay, so I have just started the giving chain APP and also running on my machine is a firefly network of four members so.
+
+130
+00:26:01.410 --> 00:26:12.120
+Nicko Guyer: Probably by now most of you have seen the firefly see ally and how you can stand up a firefly stack locally and it runs all the different micro services that you need to run firefly and it's really easy to get started so.
+
+131
+00:26:12.630 --> 00:26:17.580
+Nicko Guyer: Giving chain DEMO uses for Members and i'll get into in just a second what those Members are.
+
+132
+00:26:18.840 --> 00:26:28.830
+Nicko Guyer: And so, so i've just started everything out and I haven't done anything, yet this is kind of the homepage you can scroll down, it will tell you a little bit about each of the projects that they have going on right now.
+
+133
+00:26:29.490 --> 00:26:40.500
+Nicko Guyer: And then there's one, because this is like a fresh setup is there's one manual step that I needed to do so i'm going to go, create a token pool so there's an admin interface for that and i'm just going to hit this button here.
+
+134
+00:26:41.250 --> 00:26:48.660
+Nicko Guyer: And so what this is doing behind the scenes, is actually have the firefly explorer tab open here and we're going to be hopping back and forth between.
+
+135
+00:26:49.290 --> 00:26:59.700
+Nicko Guyer: Seeing what's happening inside this out and seeing what's happening in firefly and so to me, one of the really exciting things about this DEMO in this project is it illustrates.
+
+136
+00:27:00.180 --> 00:27:05.580
+Nicko Guyer: How quick and easy it is to build a really powerful application on top of firefly and.
+
+137
+00:27:05.970 --> 00:27:17.070
+Nicko Guyer: It makes me excited because it's a realization of the vision of like hey if we create this rest API is really easy for developers to use they can unlock the power of blockchain really quickly.
+
+138
+00:27:17.670 --> 00:27:26.790
+Nicko Guyer: So so that's a to me the most exciting thing so let's go take a peek at the firefly you I, this is probably changed since the last time you've seen it there's been a lot of updates to the ui.
+
+139
+00:27:28.230 --> 00:27:31.080
+Nicko Guyer: That can reload this here so we've got four members.
+
+140
+00:27:32.010 --> 00:27:45.870
+Nicko Guyer: And there's a new tokens interface here so we'll pop into there and we see that when I click this button here to create a token pool that created a new pool in the ui called donations so there's nothing in here, yet we have a minted any tokens.
+
+141
+00:27:46.680 --> 00:27:51.330
+Nicko Guyer: But we'll start to see some things appear here as we're interacting with the giving chain APP.
+
+142
+00:27:51.840 --> 00:28:03.720
+Nicko Guyer: so out of the box when you run firefly and locally, with the firefly see align it creates a an ERC 1155 token connector, and this is sort of a.
+
+143
+00:28:04.170 --> 00:28:12.420
+Nicko Guyer: it's a reference implementation of a token connector we don't necessarily recommend that you take this particular token connector to production because.
+
+144
+00:28:13.590 --> 00:28:14.910
+Nicko Guyer: tokens are the type of thing that.
+
+145
+00:28:15.120 --> 00:28:23.190
+Nicko Guyer: just about every use case is probably going to have different rules that they need in place around how their tokens are going to work, how they're smart contract works, and so we wanted to leave it.
+
+146
+00:28:23.940 --> 00:28:36.840
+Nicko Guyer: Open ended and pluggable so in this case given chain right now is just using the reference implementation of the ERC 25 and they're going to be mentoring and transferring non fungible tokens so.
+
+147
+00:28:38.430 --> 00:28:48.450
+Nicko Guyer: talked about you know earlier how each in sort of the first iteration that can make change each donation was tracked by a qr code that has linked to some data on chain.
+
+148
+00:28:49.350 --> 00:28:57.180
+Nicko Guyer: In this iteration raising enough to so each donation is going to be referenced by or or represented by an fft.
+
+149
+00:28:57.930 --> 00:29:06.390
+Nicko Guyer: On the chain, and it will have some data that points to what it is in the real world and we'll we'll take a look at that now so so basically the way it will work as well, mention.
+
+150
+00:29:06.870 --> 00:29:16.050
+Nicko Guyer: ERC 25 and empty that will get transferred to the various members of the network to represent the donation moving through the system.
+
+151
+00:29:16.500 --> 00:29:23.130
+Nicko Guyer: So hopefully that makes sense let's jump in and actually do some donations now so i'm going to go back to the homepage.
+
+152
+00:29:23.550 --> 00:29:30.660
+Nicko Guyer: So we've got four tabs across the top here donor driver NGO and recipient so in the real world in non DEMO mode.
+
+153
+00:29:31.200 --> 00:29:33.990
+Nicko Guyer: These would probably be four different.
+
+154
+00:29:34.230 --> 00:29:44.190
+Nicko Guyer: firefly systems running on four different servers with four different access models, but for the sake of the DEMO they're all on one ui so I can just click through and show you everything, but just wanted to throw that out there that.
+
+155
+00:29:44.730 --> 00:29:49.950
+Nicko Guyer: Normally, in our in our real production firefly network, these would be isolated so.
+
+156
+00:29:50.430 --> 00:29:57.210
+Nicko Guyer: we're going to sort of take on the role of the donor here and we're going to create a donation so i'm going to come here and add donation.
+
+157
+00:29:57.990 --> 00:30:06.060
+Nicko Guyer: i'm going to fill out this form as a collective person because that's that's who I am today i'm going to say i'm going to donate some apples.
+
+158
+00:30:06.540 --> 00:30:17.370
+Nicko Guyer: And i'm going to choose a file so here, you know i'm taking a picture of my donation that i'm about to give I happen to have a picture of a box of apples on the computer already and i'm gonna hit submit.
+
+159
+00:30:18.750 --> 00:30:33.720
+Nicko Guyer: So this this form will take a little bit unfortunately we don't have a like a little status spinner or anything but it is actually uploading that jpg it is minting and nfp and this form will disappear, and it will show me the the nfp here shortly when it's done.
+
+160
+00:30:34.200 --> 00:30:39.900
+Nicko Guyer: I think there are maybe a couple other calls that happened in the background here while this is going, which takes a little bit.
+
+161
+00:30:40.800 --> 00:30:56.100
+Nicko Guyer: But we should start to see if we hop back over to the fire flakes or here we can see now there's a that now there's a token in this token pool, and it has been transferred, we can see, this is transfer them.
+
+162
+00:30:57.480 --> 00:31:06.450
+Nicko Guyer: This is, this is the mint event so it's basically just transfer to whatever address created it, which is the gunners address okay So here we are so there's there's a donation.
+
+163
+00:31:08.460 --> 00:31:11.880
+Nicko Guyer: there's my little box of apples i'm going to go and do one more.
+
+164
+00:31:14.670 --> 00:31:23.970
+Nicko Guyer: This one looks really similar but we shouldn't really compare you know because apples and oranges here so don't know no comparisons between.
+
+165
+00:31:26.190 --> 00:31:39.810
+Nicko Guyer: All right, we'll give that a second we'll go reload this and okay there's are so now, we can see we've got to fit is there currently both owned by the same address which we can see here, and this is the address of my donor on chain.
+
+166
+00:31:44.010 --> 00:31:44.280
+Right.
+
+167
+00:31:45.570 --> 00:31:50.670
+Nicko Guyer: it's gonna cook this real quick okay there we go so there's there's my my apples and oranges so.
+
+168
+00:31:51.120 --> 00:32:03.300
+Nicko Guyer: Now, at this point, we need to transfer this to the driver and so it's right now that the the driver organization and the transport company has no, they have no entities they're not in possession of anything and just to.
+
+169
+00:32:03.540 --> 00:32:07.290
+Nicko Guyer: Just to illustrate the other views same with the NGO and the recipient.
+
+170
+00:32:07.710 --> 00:32:14.580
+Nicko Guyer: So basically we're just gonna we're going to transfer and we're going to go from one to the other so we'll hit transfer on the apples will give these to the driver.
+
+171
+00:32:15.210 --> 00:32:23.940
+Nicko Guyer: So that disappeared from the donors view and just to just to show that we're gonna hop back over to the firefly ui.
+
+172
+00:32:24.210 --> 00:32:38.490
+Nicko Guyer: And we'll see now we have a transfer event, and we can see it went from the dumber address to a new address here, and this is the, this is the drivers address, so if we look at the giving chain ui now on the driver view we see hey there's this my box of apples here.
+
+173
+00:32:39.840 --> 00:32:49.890
+Nicko Guyer: Again, the NGO is nothing, and then the donor just has the oranges so let's let's have that say we've delivered the apples, to the NGO transfer that their.
+
+174
+00:32:50.340 --> 00:33:04.740
+Nicko Guyer: shows up on the NGOs view and then finally will transfer it to the recipient when somebody picks up those apples and they're the recipient see the apples there's no more transfer button because we're done with Jane yeah.
+
+175
+00:33:05.910 --> 00:33:11.250
+Nicko Guyer: we'll hop back over to the firefly you I take a look, and then we can see all the transfers there that occurred.
+
+176
+00:33:13.020 --> 00:33:23.970
+Nicko Guyer: So that's that's really there's a few other little features, the Bobby described in the you know the NGO can request and donation and things like that I don't have time to DEMO every little nook and cranny of it but.
+
+177
+00:33:25.230 --> 00:33:37.230
+Nicko Guyer: Really excited to to have a kind of a use cases it was Bobby said, we were actually building all of this functionality, in parallel with giving chain project, and so, so we had a lot of great conversations of like.
+
+178
+00:33:37.590 --> 00:33:44.430
+Nicko Guyer: hey, this is what we want to do with nfc us and we were like hey that's that's great this is how we're thinking about building an API that will allow you to do that.
+
+179
+00:33:44.760 --> 00:33:54.600
+Nicko Guyer: And so great great collaboration between the firefly team and giving chain mentorship program and it was just a fantastic experience all around so.
+
+180
+00:33:54.900 --> 00:34:00.690
+Nicko Guyer: Thank you Bobby for for inviting me thank you for letting me do this DEMO and it was great to work with you and your team really appreciate it.
+
+181
+00:34:01.470 --> 00:34:06.840
+Bobbi Muscara: No, thank you NICO seriously, so if anybody has any questions for us, please go ahead.
+
+182
+00:34:11.430 --> 00:34:17.100
+Artem Barger: I don't sound like a actually question but it's more about thanks for the DEMO and I.
+
+183
+00:34:17.640 --> 00:34:29.070
+Artem Barger: personally involved in in several projects that we develop the platform on top of hyper ledger fabric to basically around charity foundation a organization that the campaign up and they.
+
+184
+00:34:29.790 --> 00:34:36.120
+Artem Barger: Basically, asked to collect donations for for different purposes for the social goods, and I think that would be nice if you can.
+
+185
+00:34:36.840 --> 00:34:53.790
+Artem Barger: collaborate and see how we can bring these things together, because I think that there is a lot of things in common, and you know i'm really, really glad to see that the it's not only asked who trying to do the things and the investment firefly also can do it so.
+
+186
+00:34:56.940 --> 00:35:00.480
+Bobbi Muscara: look forward to working with you, I sent you my email in the chat.
+
+187
+00:35:00.600 --> 00:35:03.960
+Artem Barger: yeah I know I don't follow up on that, thank you, thank you very much.
+
+188
+00:35:06.270 --> 00:35:09.570
+Kamlesh Nagware: Nicole, I have one question so with the firefly.
+
+189
+00:35:09.660 --> 00:35:12.990
+Kamlesh Nagware: I be using any adult he likes our tutor fabric or.
+
+190
+00:35:14.010 --> 00:35:14.880
+Kamlesh Nagware: Is a plane.
+
+191
+00:35:17.430 --> 00:35:18.300
+Kamlesh Nagware: flight only.
+
+192
+00:35:21.000 --> 00:35:25.590
+Nicko Guyer: Sorry, it was the question was firefly using fabric here, or does it have support for fabric.
+
+193
+00:35:27.240 --> 00:35:31.200
+Kamlesh Nagware: I mean, is a FAB lab a fabric, here in this given to them.
+
+194
+00:35:32.640 --> 00:35:38.370
+Nicko Guyer: yeah great question so in this particular DEMO the blockchain being used was a theorem.
+
+195
+00:35:39.660 --> 00:35:41.550
+Nicko Guyer: firefly does have support for fabric.
+
+196
+00:35:43.140 --> 00:35:43.440
+Nicko Guyer: The.
+
+197
+00:35:43.470 --> 00:35:46.110
+Nicko Guyer: Current tokens.
+
+198
+00:35:46.230 --> 00:35:54.240
+Nicko Guyer: connector the reference implementation of the token connector that exists today depends on if you're in tokens it's zero see 1195.
+
+199
+00:35:55.170 --> 00:36:07.230
+Nicko Guyer: we've talked about the possibility of implementing tokens on fabric it's a little bit more uncharted territory but and there's also the possibility of.
+
+200
+00:36:08.130 --> 00:36:19.650
+Nicko Guyer: Using fabric, as the primary transactional blockchain for just you know firefly broadcasts and definitions and all that stuff and possibly using.
+
+201
+00:36:20.070 --> 00:36:29.130
+Nicko Guyer: And if you're a chain just for tokens so so there's a couple of different possibilities there if you want to get fabric involved, but a lot of those needs some some more exploration still.
+
+202
+00:36:31.320 --> 00:36:33.570
+Tracy Kuhrt: me go i'll just add to.
+
+203
+00:36:34.590 --> 00:36:36.090
+Tracy Kuhrt: That I i'm not i'm.
+
+204
+00:36:36.240 --> 00:36:48.750
+Tracy Kuhrt: not sure if you're aware, but there is a fabric token SDK lab that exists that might be useful in just thinking about what's what's though for the future with fabric.
+
+205
+00:36:49.230 --> 00:37:01.410
+Nicko Guyer: yeah definitely um we we did stumble across that some time ago, and we should look at this and figure out if if if and how we can use it in firefly cool.
+
+206
+00:37:01.590 --> 00:37:04.890
+Tracy Kuhrt: yeah I know Angelo did go ahead.
+
+207
+00:37:04.950 --> 00:37:10.050
+Dave Enyeart: yeah I was gonna say there has been some confusion about the token SDK so fabric supports.
+
+208
+00:37:10.320 --> 00:37:15.870
+Dave Enyeart: You know fungible tokens and non fungible tokens through chain code since version one dot O, so there is kind of.
+
+209
+00:37:16.530 --> 00:37:28.290
+Dave Enyeart: That support that's already there the token SDK brings additional privacy considerations like zero knowledge proofs for token transfers, so you don't have to use the token SDK to do tokens in fabric.
+
+210
+00:37:31.980 --> 00:37:32.580
+Tracy Kuhrt: Thanks Dave.
+
+211
+00:37:33.180 --> 00:37:33.390
+yeah.
+
+212
+00:37:34.440 --> 00:37:49.710
+Tracy Kuhrt: i'm going to move us forward Bobby NICO Thank you so much for providing the presentation and the DEMO I think definitely really good insight in, as I had mentioned, we answered that question Bobby I think really good.
+
+213
+00:37:50.760 --> 00:37:54.960
+Tracy Kuhrt: setup for the discussion that we are going to have now around.
+
+214
+00:37:57.930 --> 00:37:59.430
+Tracy Kuhrt: attending project meeting so.
+
+215
+00:38:00.480 --> 00:38:04.560
+Tracy Kuhrt: heart, I think I think i'm going to hand it over to you.
+
+216
+00:38:06.060 --> 00:38:14.610
+Tracy Kuhrt: I can definitely bring up the email, if you want me to share that or how you'd like me to proceed, but I think you're the you're the.
+
+217
+00:38:15.390 --> 00:38:16.560
+Tracy Kuhrt: inspiration for this.
+
+218
+00:38:16.830 --> 00:38:20.940
+Hart Montgomery: Sure, I added an issue late last night, and I put it in the.
+
+219
+00:38:22.080 --> 00:38:23.040
+Hart Montgomery: tasc.
+
+220
+00:38:24.150 --> 00:38:25.260
+Hart Montgomery: A link to it in the meeting.
+
+221
+00:38:26.340 --> 00:38:26.910
+Hart Montgomery: Actually.
+
+222
+00:38:27.420 --> 00:38:28.200
+Tracy Kuhrt: Okay, great.
+
+223
+00:38:30.240 --> 00:38:31.200
+Hart Montgomery: Sorry for my.
+
+224
+00:38:33.150 --> 00:38:35.730
+Hart Montgomery: my usual late submission.
+
+225
+00:38:36.930 --> 00:38:45.420
+Hart Montgomery: So I think this is this is something that is pretty simple, and I think we've probably already explained it a lot and I think most people here have seen it.
+
+226
+00:38:46.350 --> 00:38:59.460
+Hart Montgomery: But the basic idea is, we want to ask to see members to attend one either project or working group or sick meeting a month for which they're affiliated and not a.
+
+227
+00:38:59.460 --> 00:39:00.090
+Tracy Kuhrt: contributor.
+
+228
+00:39:00.660 --> 00:39:03.660
+Hart Montgomery: And then just write it down in some wiki, and this is mostly just.
+
+229
+00:39:03.720 --> 00:39:12.330
+Hart Montgomery: So we can keep track of the overall coverage of who's going to work meetings and try to make sure some of the less common meetings are attended.
+
+230
+00:39:13.740 --> 00:39:17.250
+Hart Montgomery: The time commitment should be pretty small.
+
+231
+00:39:18.510 --> 00:39:22.200
+Hart Montgomery: And as David boswell suggested we could also.
+
+232
+00:39:23.400 --> 00:39:34.230
+Hart Montgomery: lead to see members that wanted to report back during tasc meetings about interesting things they found have some time at the tlc meeting, but this wouldn't be requirement.
+
+233
+00:39:35.520 --> 00:39:39.270
+Hart Montgomery: And I think this is pretty simple, and I think the only concrete.
+
+234
+00:39:42.000 --> 00:39:52.440
+Hart Montgomery: The only concrete action of the proposal is to just create a wiki page with all this information on it, and I can do that at some point, if this is approved so.
+
+235
+00:39:53.790 --> 00:39:59.340
+Hart Montgomery: I guess with that, I would just like to open it up to thoughts questions What do people think about this.
+
+236
+00:40:04.380 --> 00:40:04.950
+Jim Zhang: hey hard.
+
+237
+00:40:05.580 --> 00:40:07.770
+Jim Zhang: Oh sorry Do I need a raise my hand.
+
+238
+00:40:10.500 --> 00:40:14.190
+Jim Zhang: Okay, raise your hands after this but okay.
+
+239
+00:40:14.280 --> 00:40:14.700
+Tracy Kuhrt: Go ahead.
+
+240
+00:40:15.270 --> 00:40:17.850
+Jim Zhang: yeah so my phone started see if others have done that.
+
+241
+00:40:19.560 --> 00:40:32.280
+Jim Zhang: quick question hard, would there be like strict criteria on what's counted as non affiliated like i'm a you know code contributor to firefly obviously.
+
+242
+00:40:32.910 --> 00:40:47.070
+Jim Zhang: But i'm also like in pretty active discussions with the characters folks would that be counted as affiliate so you know attending cactus meetings wouldn't wouldn't count into my.
+
+243
+00:40:48.540 --> 00:40:49.440
+Jim Zhang: monthly ration.
+
+244
+00:40:49.950 --> 00:41:02.850
+Hart Montgomery: it's up to you, I don't think we want to strictly enforce what affiliated or affiliated means or even define rigorously, but the idea was you'd want to sort of rotate your meetings.
+
+245
+00:41:04.530 --> 00:41:10.020
+Hart Montgomery: So the intent was that you would not attend the same meeting, every month.
+
+246
+00:41:10.800 --> 00:41:11.400
+Hart Montgomery: I guess.
+
+247
+00:41:11.640 --> 00:41:14.310
+Hart Montgomery: I need to add that, to the proposal, because I think.
+
+248
+00:41:14.400 --> 00:41:15.960
+Hart Montgomery: yeah to included in here.
+
+249
+00:41:16.560 --> 00:41:17.010
+Jim Zhang: yeah I think.
+
+250
+00:41:18.480 --> 00:41:20.820
+Jim Zhang: yeah it'd be useful to clarify that.
+
+251
+00:41:21.720 --> 00:41:23.700
+Jim Zhang: Every month, so make sense.
+
+252
+00:41:24.180 --> 00:41:24.720
+Jim Zhang: Thanks heart.
+
+253
+00:41:25.980 --> 00:41:27.210
+Hart Montgomery: Well, thank you for the suggestion.
+
+254
+00:41:28.140 --> 00:41:28.530
+English.
+
+255
+00:41:30.030 --> 00:41:40.140
+Kamlesh Nagware: yeah so I say I agree with the heart proposal and, additionally, I thought this would record the Ward the observe observation particular.
+
+256
+00:41:41.490 --> 00:41:44.820
+Kamlesh Nagware: person having the inside, your any kind of booking meetings, because.
+
+257
+00:41:47.010 --> 00:41:52.380
+Kamlesh Nagware: If I see my personal experience in joining some help from a working group is it meetings so.
+
+258
+00:41:53.400 --> 00:41:55.020
+Kamlesh Nagware: Some even.
+
+259
+00:41:56.430 --> 00:42:03.420
+Kamlesh Nagware: Some of the SI D chairs are running the meetings outside of those into like, for example, take example of healthcare group.
+
+260
+00:42:03.930 --> 00:42:17.100
+Kamlesh Nagware: In the health group healthcare group his case it sometimes even his end of the meeting is outside the group itself someone talking about the crypto currencies and when talking about the know healthcare initiative in the blockchain so.
+
+261
+00:42:18.270 --> 00:42:33.660
+Kamlesh Nagware: If we have some person to join such kind of meeting in even aids observations in the wiki where heart is reading so and some kind of monthly or quarterly review of those details, good for the I believe.
+
+262
+00:42:40.350 --> 00:42:47.490
+Peter Somogyvari: just wanted to echo the plus on the idea and reporter, I have been to one of the basic meetings.
+
+263
+00:42:47.670 --> 00:42:49.560
+Peter Somogyvari: And it was great so I recommend.
+
+264
+00:42:50.100 --> 00:42:57.570
+Peter Somogyvari: To everyone that they will try to practice of being a tasc Member who goes around in the meeting the toxins out.
+
+265
+00:42:59.850 --> 00:43:08.820
+Tracy Kuhrt: Okay, so Peter, you were plus warning the proposal, not necessarily the report back piece is that that I get that right.
+
+266
+00:43:10.650 --> 00:43:12.540
+Peter Somogyvari: Oh well, I plus them both.
+
+267
+00:43:13.050 --> 00:43:13.350
+Okay.
+
+268
+00:43:17.730 --> 00:43:21.300
+Tracy Kuhrt: I can bless you still have your hand up I don't know if that's came back.
+
+269
+00:43:22.380 --> 00:43:23.370
+Kamlesh Nagware: yeah i'm loading them.
+
+270
+00:43:23.880 --> 00:43:24.480
+Tracy Kuhrt: Okay, there were.
+
+271
+00:43:26.160 --> 00:43:32.100
+Tracy Kuhrt: Any other thoughts on the proposal or anything that you'd like anybody would like to add.
+
+272
+00:43:37.380 --> 00:43:40.260
+Hart Montgomery: To be clear, the reporting is voluntary.
+
+273
+00:43:42.060 --> 00:43:49.890
+Hart Montgomery: No one's required to report back to the tasc on this, but it was just a suggestion that if there was something it could be brought up.
+
+274
+00:43:56.250 --> 00:43:58.080
+Tracy Kuhrt: yeah I think I think definitely.
+
+275
+00:43:58.740 --> 00:44:01.260
+Tracy Kuhrt: To me, I see two sorts of things that are.
+
+276
+00:44:02.730 --> 00:44:06.600
+Tracy Kuhrt: Possibly interesting right in attending the meeting.
+
+277
+00:44:07.950 --> 00:44:16.260
+Tracy Kuhrt: As a tlc Member right one is couldn't making connections right and being able to form that that larger network of.
+
+278
+00:44:16.710 --> 00:44:26.250
+Tracy Kuhrt: You know hey this other project over here is doing something interesting or this working group is doing something that maybe this project or this lab or or whatever it might be able to.
+
+279
+00:44:27.510 --> 00:44:48.270
+Tracy Kuhrt: lend a hand with right and then secondly, if there's things that you know we could improve from A to Z perspective right of you know, our processes and the way that we're doing things to me those seem to be the them the keys that the sorts of things that we want to think about.
+
+280
+00:44:49.350 --> 00:44:53.490
+Tracy Kuhrt: You know, recording back for making the connection with the other group.
+
+281
+00:44:58.740 --> 00:45:00.480
+Hart Montgomery: that's that's exactly right Tracy.
+
+282
+00:45:04.950 --> 00:45:05.250
+Tracy Kuhrt: Okay.
+
+283
+00:45:05.310 --> 00:45:13.050
+Tracy Kuhrt: Any other comments thoughts feedback on this as its existing right now, obviously, I know, most of us haven't had.
+
+284
+00:45:13.710 --> 00:45:26.820
+Tracy Kuhrt: An opportunity to read through the proposal as part written it here, but hopefully you did have a chance to redo the email change so if there's any other additions or thoughts people want to add now is your time.
+
+285
+00:45:30.360 --> 00:45:39.390
+Dave Enyeart: yeah I think it's a great idea I think we could have maybe a standing topic on the tasc for a while and to see how this is going and maybe that's where we ask people to provide their.
+
+286
+00:45:40.470 --> 00:45:44.370
+Dave Enyeart: comebacks in terms of did you learn anything interesting that could be applied to other projects and things like that.
+
+287
+00:45:52.050 --> 00:45:52.980
+Tracy Kuhrt: anyone else.
+
+288
+00:46:03.450 --> 00:46:16.710
+Tracy Kuhrt: Anybody who doesn't think this is a good idea, because i've heard a lot of guests to sounds like a great idea so Anybody who thinks oh my gosh adding one more meeting to my monthly calendar is going to be so painful that i'm not going to be.
+
+289
+00:46:30.060 --> 00:46:30.450
+Tracy Kuhrt: A room.
+
+290
+00:46:32.640 --> 00:46:33.780
+Aruna S M: Sure, so.
+
+291
+00:46:34.230 --> 00:46:51.480
+Aruna S M: I guess adding additional meeting to our calendar is this fine but i'm also thinking through another possibility through these meetings and and that could be the much needed bridging with project teams and the tsa as well.
+
+292
+00:46:52.650 --> 00:47:00.210
+Aruna S M: If we are attending those calls which we say, do not associate ideally with or maybe through our day to day activities.
+
+293
+00:47:01.260 --> 00:47:14.730
+Aruna S M: Maybe that's a place where we get started and engaging in terms of giving them updates from the tsa calls or probably asking them for feedbacks on certain things that we work here, we are let's say making some.
+
+294
+00:47:16.710 --> 00:47:17.520
+Aruna S M: Hard calls.
+
+295
+00:47:18.690 --> 00:47:20.970
+Aruna S M: Assuming certain things about different projects.
+
+296
+00:47:22.140 --> 00:47:24.420
+Aruna S M: I see a lot of value in in doing that.
+
+297
+00:47:27.150 --> 00:47:29.760
+Tracy Kuhrt: yeah, I think, making it a two way communication.
+
+298
+00:47:29.820 --> 00:47:32.880
+Tracy Kuhrt: street right learning what they're doing as well as.
+
+299
+00:47:34.050 --> 00:47:43.110
+Tracy Kuhrt: helping them understand what's been happening in the TC that might be impacting them or that they should be aware of is obviously a good thing Nathan.
+
+300
+00:47:44.280 --> 00:47:52.560
+Nathan George: I was just wanting to provide a bit of a testimonial I tried to attend a meeting I didn't normally attend this last week and found a bunch of stale information on the hyper ledger calendar that was able to get fixed.
+
+301
+00:47:52.590 --> 00:47:56.250
+Nathan George: So, as we do this, it also helps us.
+
+302
+00:47:56.520 --> 00:47:57.750
+Nathan George: see a project like a.
+
+303
+00:47:57.810 --> 00:48:01.260
+Nathan George: New contributor would see it, but with the eye towards.
+
+304
+00:48:02.130 --> 00:48:13.140
+Nathan George: Helping with our best practices and doing some simple things that make the overall hyper ledger experience a lot better so i'm hoping that you know, as I poke around and try to attend some meetings that there's some things I can do to help.
+
+305
+00:48:15.600 --> 00:48:15.750
+Tracy Kuhrt: well.
+
+306
+00:48:16.200 --> 00:48:17.400
+Tracy Kuhrt: Thanks Bobby.
+
+307
+00:48:18.810 --> 00:48:21.630
+Bobbi Muscara: I think that this is a great idea i'm all.
+
+308
+00:48:21.630 --> 00:48:23.430
+Bobbi Muscara: For it, I have a.
+
+309
+00:48:23.490 --> 00:48:32.760
+Bobbi Muscara: wiki page started like as an example on how to keep track of this stuff which i'll send over the heart in a second, but I think it's really important not just to.
+
+310
+00:48:33.810 --> 00:48:44.130
+Bobbi Muscara: Have us go to this, the working groups and special interest groups and projects, but we need a way to communicate what happens in the tlc meetings to them on a regular basis.
+
+311
+00:48:44.820 --> 00:48:49.050
+Bobbi Muscara: I know, like when the working groups decided not to do the.
+
+312
+00:48:49.260 --> 00:48:59.820
+Bobbi Muscara: Or the tlc decided to work in groups didn't have to do the quarterly reports, there was never anything sent to the working groups to tell them that, if you weren't on the tlc call you didn't know that, so I think that that.
+
+313
+00:49:00.660 --> 00:49:16.860
+Bobbi Muscara: needs to be a two way you know, maybe there's something that talking points the tlc can you know, we need to make sure the community knows this, to make sure that when we as tasc invade their calls, so to speak, that we have correct information to give them that they need.
+
+314
+00:49:18.630 --> 00:49:18.840
+Bobbi Muscara: yeah.
+
+315
+00:49:19.050 --> 00:49:19.770
+Tracy Kuhrt: definitely agree.
+
+316
+00:49:20.310 --> 00:49:20.670
+park.
+
+317
+00:49:22.950 --> 00:49:25.020
+Hart Montgomery: hey Bobby yeah i'll come into that.
+
+318
+00:49:26.100 --> 00:49:26.580
+Hart Montgomery: That.
+
+319
+00:49:27.690 --> 00:49:37.680
+Hart Montgomery: In the ancient times the hyper ledger tlc calls were very packed and we would sometimes have 50 to 100 people on the calls.
+
+320
+00:49:39.000 --> 00:49:50.310
+Hart Montgomery: And the reason was my speculation, was that it was because we typically talk about things that more people would be interested in like project architecture.
+
+321
+00:49:51.090 --> 00:50:04.410
+Hart Montgomery: we've sort of had more technical discussions, rather than sort of discussion discussing more like administrative issues, and I think this is a you know, this is probably an orthogonal issue.
+
+322
+00:50:05.700 --> 00:50:22.710
+Hart Montgomery: But I definitely agree with you that it's worth considering sort of what can we do to to get more people interested in, you know project wide stuff like the the tasc meetings you know the maintainer list sort of all of this stuff.
+
+323
+00:50:23.760 --> 00:50:24.990
+Hart Montgomery: So thanks for bringing this up.
+
+324
+00:50:27.720 --> 00:50:29.790
+Bobbi Muscara: No worries great ideas.
+
+325
+00:50:31.350 --> 00:50:32.130
+Bobbi Muscara: All right, so.
+
+326
+00:50:32.370 --> 00:50:45.540
+Tracy Kuhrt: I think that the plan, then, is i'd like to give people the opportunity to review the proposal by themselves with the opportunity to read and provide comments back on this particular issue.
+
+327
+00:50:46.680 --> 00:50:53.640
+Tracy Kuhrt: In github and we will bring this up for vote next week, unless I see something major come up.
+
+328
+00:50:54.120 --> 00:51:10.410
+Tracy Kuhrt: That would distract us from wanting to have a vote next weekend I go back to more discussion around it, so please take the opportunity now that has created the proposal to add any additional sorry to clarifications of how you'd like to see this.
+
+329
+00:51:11.520 --> 00:51:21.840
+Tracy Kuhrt: Work so, for example, hurt edit this note right about the suggestion of rotating through different group meetings or there's other sorts of things like that that you think would make this an even.
+
+330
+00:51:22.680 --> 00:51:35.490
+Tracy Kuhrt: Stronger proposal because I based on what i'm hearing so far feels like everybody's very much in favor of doing this, you know feel free to add the proposal will bring this up for next week.
+
+331
+00:51:39.150 --> 00:51:43.080
+Tracy Kuhrt: i'm Bobby you still have your hand up is that you have another comment or.
+
+332
+00:51:43.740 --> 00:51:44.790
+Bobbi Muscara: Now i'll remove it.
+
+333
+00:51:45.120 --> 00:51:46.860
+Tracy Kuhrt: Okay, no worries a room.
+
+334
+00:51:48.450 --> 00:51:54.810
+Aruna S M: is so I was trying to go go beyond and probably make use of this time that we're spending in different projects.
+
+335
+00:51:55.530 --> 00:52:11.040
+Aruna S M: Are to one more level, so I know we have a couple of Task Force going on right now, one one of them is it to start on next Monday and sorry I missed announcement section of the tsa call, otherwise I would have asked for us to everyone taught in the call next Monday.
+
+336
+00:52:13.350 --> 00:52:18.330
+Aruna S M: But yeah thinking through these engagements it would be nice if we can.
+
+337
+00:52:19.560 --> 00:52:27.960
+Aruna S M: utilize the same time in relaying some of these discussions that we're having in task force or probably start creating a.
+
+338
+00:52:29.130 --> 00:52:34.350
+Aruna S M: Project specific maintainer mailing list that we had talked spoken about a few weeks ago.
+
+339
+00:52:35.730 --> 00:52:45.120
+Aruna S M: specifically related to giving out information passing down the information, whatever happens in the tasc for have offline communications.
+
+340
+00:52:49.440 --> 00:52:52.020
+Aruna S M: I think you know the total in order to say sorry.
+
+341
+00:52:52.680 --> 00:53:07.800
+Tracy Kuhrt: Okay, no worries um so great, for the announcement for the task forces Security Task Forces kicking off next week related to them encounters list we do have an income earners mailing list that we can be using to make you know certain sorts of.
+
+342
+00:53:09.000 --> 00:53:21.840
+Tracy Kuhrt: Announcements or reach out to the maintainer from a mailing list perspective so that's has already been created and then it's just a question of what is it that we would like to to communicate part.
+
+343
+00:53:23.550 --> 00:53:32.790
+Hart Montgomery: Oh, I just wanted to say, thanks everyone for your consideration, and please feel free to comment, and you know criticize what we have in the github issues.
+
+344
+00:53:38.100 --> 00:53:58.680
+Tracy Kuhrt: All right, thanks everyone, I think the last thing that we have here is this services for graduated pregnancy integration project slash lab dropped that David and Rye have created for us so David I don't know if you want to cover this or you want right to cover this.
+
+345
+00:53:59.160 --> 00:54:08.550
+David Boswell: Oh yeah I can say something, and the start off and then I can add you know any of his thoughts, but before I do that just thank you to heart for bringing up the suggestion about.
+
+346
+00:54:08.970 --> 00:54:15.600
+David Boswell: What we were just talking about, and thank you to everybody else in advance for your time and for your interest in this, I think, is Nathan and Bobby already shared.
+
+347
+00:54:16.110 --> 00:54:24.360
+David Boswell: You know, when we go out and make more of those connections, probably, you know all sorts of good things will probably come out of that so thanks in advance for that i'm excited to hear people are interested.
+
+348
+00:54:25.740 --> 00:54:37.440
+David Boswell: And then, as a segue I mean I think what this document is is similar it's kind of bring in lens of how do we provide a little bit more support to the people in the Community who are doing things so you know it's been.
+
+349
+00:54:37.950 --> 00:54:47.970
+David Boswell: an observation that you know i've had where it's not entirely always clear to somebody running a project or a lab what sort of resources are available, so the goal of this document.
+
+350
+00:54:48.420 --> 00:54:50.580
+David Boswell: Currently, right now, it's just a draft document.
+
+351
+00:54:50.940 --> 00:55:00.570
+David Boswell: On a Google Doc but ultimately it would live somewhere much more public and accessible, you know we'd find a place for it on the wiki but the goal would be to provide clarity to those people running a project or a lab.
+
+352
+00:55:00.990 --> 00:55:07.350
+David Boswell: You know what are the things that they have access to what are the things you know that they could you know leverage if they want.
+
+353
+00:55:07.920 --> 00:55:15.060
+David Boswell: So just documenting things that maybe people already know, but I suspect that maybe not everybody knows everything on the list so.
+
+354
+00:55:15.330 --> 00:55:23.130
+David Boswell: You know this breaks things down into tears and we've got graduated project incubated projects and labs some of the things apply to all of them.
+
+355
+00:55:23.400 --> 00:55:31.050
+David Boswell: Some of the things apply to some of them, and again it's just a draft, so we could talk about what goes where or what should you know really apply at what level.
+
+356
+00:55:31.620 --> 00:55:38.580
+David Boswell: And I realized, we have limited amount of time here, so I didn't necessarily think today would be the day to go into all the details, you know, but just the.
+
+357
+00:55:38.880 --> 00:55:50.910
+David Boswell: Maybe I point out what the document is give you some time to look at it and then maybe if we want to spend more time on it next week, we can get into a little bit more of the details right just to share.
+
+358
+00:55:52.020 --> 00:56:00.960
+David Boswell: that the document is there it's open for comments and feedback, please take a look, if you have suggestions, comments and it's you know, certainly, we can do.
+
+359
+00:56:01.350 --> 00:56:07.950
+David Boswell: You know, make those edits you know add make some changes, but again just the goal would be, how do we.
+
+360
+00:56:08.280 --> 00:56:19.470
+David Boswell: give people more clarity about what they can tap into because, again, there may be some things that would be useful for you that you didn't even know about right so that's that's the goal I don't know right, you have anything to add.
+
+361
+00:56:21.480 --> 00:56:26.850
+Ry Jones: No, not really that's that that's pretty much it and this.
+
+362
+00:56:28.260 --> 00:56:32.580
+Ry Jones: I think a lot of the confusion or the wording previously was.
+
+363
+00:56:33.960 --> 00:56:40.170
+Ry Jones: influenced by when hyper luxuries to pay for a lot more stuff so that's.
+
+364
+00:56:41.190 --> 00:56:46.350
+Ry Jones: Why, it might have might seem a little bit fine grained, but if you have any questions about.
+
+365
+00:56:47.430 --> 00:56:47.790
+Ry Jones: You know.
+
+366
+00:56:49.020 --> 00:56:52.440
+Ry Jones: Can hyper ledger support this or will hype later support this.
+
+367
+00:56:53.640 --> 00:56:59.160
+Ry Jones: Just ask we'll figure it out just because it's not in the list doesn't mean there was a decision made not to put it there.
+
+368
+00:57:03.660 --> 00:57:04.710
+Tracy Kuhrt: yeah I think that's a.
+
+369
+00:57:04.740 --> 00:57:06.960
+Tracy Kuhrt: really good point way, I know that.
+
+370
+00:57:08.400 --> 00:57:13.140
+Tracy Kuhrt: Dan and I had a pre read the opportunity to look at this prior to.
+
+371
+00:57:14.880 --> 00:57:24.090
+Tracy Kuhrt: Prior to this being shared with the the grid, etc, and we definitely did find some things that were like what does, how does this work in and that sort of thing so.
+
+372
+00:57:25.080 --> 00:57:40.350
+Tracy Kuhrt: recommend the PC review this document ask questions comments make suggestions and you know that that will allow for David right to make this an evil even better document for.
+
+373
+00:57:41.040 --> 00:57:53.850
+Tracy Kuhrt: People who will have questions about what it is that the staff is going to be able to provide them if their project is a graduated project or their project isn't incubated project or.
+
+374
+00:57:54.450 --> 00:58:13.320
+Tracy Kuhrt: The in the labs area right so i'm go through here asked questions comments and we can definitely bring this back in the in the agenda next week and see where we're at with it see if there's any other concerns that people want to bring bring up on the classical.
+
+375
+00:58:14.730 --> 00:58:15.060
+Tracy Kuhrt: piano.
+
+376
+00:58:16.380 --> 00:58:25.350
+Danno Ferrin: And another reason I wanted this list is to give projects more of a carrot to move up the list, rather than a stick saying well I want paid circle ci it's like great.
+
+377
+00:58:26.130 --> 00:58:37.080
+Danno Ferrin: Get proposal together in an incubation and we can do more fancy sky stuff for you so that's the sort of one, they should not have an artist requested some of the details, is the character, what do we get to the next level.
+
+378
+00:58:37.410 --> 00:58:39.600
+David Boswell: yeah I think that is a really good point Dan oh.
+
+379
+00:58:40.080 --> 00:58:52.830
+David Boswell: Maybe i'm wrong but yeah there didn't seem to be much differentiation between the between the two levels of projects, at least as far as I could see in terms of you know why would a project go through that who but yeah I think this may be clarifies that a little bit more.
+
+380
+00:58:59.160 --> 00:59:00.750
+Hart Montgomery: yeah i'll agree with both.
+
+381
+00:59:01.770 --> 00:59:02.370
+Hart Montgomery: Danny.
+
+382
+00:59:03.450 --> 00:59:05.490
+Hart Montgomery: Sorry dad oh and.
+
+383
+00:59:06.510 --> 00:59:21.360
+Hart Montgomery: David strongly like we for the past like three or four years, we have not had really any incentives for projects and incubation to become active and if we had some I think that would be a great thing.
+
+384
+00:59:24.510 --> 00:59:28.530
+Tracy Kuhrt: And for those of you who haven't been around long enough to become graduated.
+
+385
+00:59:28.980 --> 00:59:29.310
+i'm.
+
+386
+00:59:30.660 --> 00:59:31.110
+Tracy Kuhrt: Sorry.
+
+387
+00:59:32.400 --> 00:59:33.660
+Hart Montgomery: sorry about that.
+
+388
+00:59:34.080 --> 00:59:35.250
+David Boswell: Well i'm glad to hear.
+
+389
+00:59:35.520 --> 00:59:48.120
+David Boswell: i'm glad to hear that makes sense, and this may be, is where the details matter so again I realized, we have limited time, but if people do want to look at the document and say hey this this really does make sense of the graduated level versus some other level, you know that.
+
+390
+00:59:48.420 --> 01:00:02.160
+David Boswell: We do want that level of feedback on the details, so please edit the document mark it up leave comments, whatever we really want to make sure that this is kind of aligned, you know what the Community is meeting so feedback certainly welcome.
+
+391
+01:00:03.570 --> 01:00:03.750
+Tracy Kuhrt: All right.
+
+392
+01:00:04.560 --> 01:00:07.290
+Hart Montgomery: And I think where this gets complicated is dependencies.
+
+393
+01:00:07.800 --> 01:00:14.640
+Hart Montgomery: So, like right now we have a situation where like areas is the graduated project, and they want to run like a thorough audit.
+
+394
+01:00:15.150 --> 01:00:29.040
+Hart Montgomery: But they use ursa code, which is not graduated and you know, right now, just doesn't have the Community support to be graduated So then, then, what do we do, but but I don't I think this can be a discussion for another time.
+
+395
+01:00:33.870 --> 01:00:43.860
+Nathan George: Well, I think one of the points there is that we our hands are tied if it's in hyper ledger is best interest to provide a service, because the lab is just really exciting and we should we ought to do.
+
+396
+01:00:44.160 --> 01:00:52.950
+Nathan George: Some marketing around it, or because you know there's something that is a shared dependency and we're trying to encourage cross project collaboration.
+
+397
+01:00:53.310 --> 01:01:02.640
+Nathan George: I don't think it's invalid, for us to say well let's make an exception to provide a resource because there's a real pressing need that we know we agree, is something we should cover.
+
+398
+01:01:03.570 --> 01:01:11.070
+Nathan George: But I still think it's good to put together kind of here's what to expect and here's the incentive to try to move forward through the steps because.
+
+399
+01:01:11.880 --> 01:01:21.510
+Nathan George: It does provide a lot of motivation, if you know you know if I if we started automation it'll unlock some things that we need, or if we get to graduated and I get to do this, I get to.
+
+400
+01:01:22.140 --> 01:01:32.130
+Nathan George: participate with the security audit or we're going to get this kind of regular release marketing yeah I think some of those incentives can be very motivating for the companies that participate in those projects.
+
+401
+01:01:37.620 --> 01:01:38.310
+Tracy Kuhrt: couldn't agree more.
+
+402
+01:01:39.480 --> 01:01:43.260
+Tracy Kuhrt: um anybody else have any final comments.
+
+403
+01:01:51.900 --> 01:01:52.860
+Tracy Kuhrt: Alright, so.
+
+404
+01:01:53.880 --> 01:02:03.420
+Tracy Kuhrt: To kind of action items will maybe three kind of action items for those of you who haven't yet reviewed the project reports, please take the opportunity in time to do that.
+
+405
+01:02:04.800 --> 01:02:11.790
+Tracy Kuhrt: Secondly, please have review of the proposal that are put together regarding attending bed different meetings.
+
+406
+01:02:13.470 --> 01:02:21.990
+Tracy Kuhrt: provide any sort of comments or feedback on that and then third action item out of this for the thc is to review this particular documents.
+
+407
+01:02:22.470 --> 01:02:33.750
+Tracy Kuhrt: provide any additional comments feedback thoughts on this, we will be again, hopefully, bringing up four votes, the proposal that heart has given us and.
+
+408
+01:02:34.800 --> 01:02:49.170
+Tracy Kuhrt: digging in and looking at this and providing any additional commentary next week, on this particular item, so if there's nobody else who has any comments or questions at this point, I think we will close the meeting.
+
+409
+01:02:55.590 --> 01:02:59.880
+Tracy Kuhrt: Alright, so we will see you all next week have a great week.
+
+410
+01:03:03.000 --> 01:03:03.660
+Hart Montgomery: Thanks Tracy.
+
+411
+01:03:05.370 --> 01:03:05.670
+Danno Ferrin: hi.
+

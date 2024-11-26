@@ -1,0 +1,22 @@
+09:03:08	 From James Ebert : https://wiki.hyperledger.org/display/ARIES/2022-10-11+Aries+Bifold+Users+Group+Community+Meeting
+09:13:01	 From James Ebert : “Fork” might not be the right word here
+09:13:13	 From James Ebert : Navigation…
+09:29:49	 From Kim Ebert : Is there any thought or discussion about AFJ being the right base library for mobile? Are we fairly limited to React Native as a development environment? What can be done to support native apps?
+09:31:04	 From Clecio : Interesting question ... I think there is a rust or Go client that can also be used in native apps. AFJ probably wont work outside of react native
+09:32:35	 From Lance Byrd : right, i've heard AFJ isn't ready for web, for instance
+09:33:24	 From James Ebert : We’ve done some work on native libraries — essentially AFJ but in iOS/Android. The issue there is that AFJ is leagues ahead in terms of features and maturity.
+09:33:48	 From Akiff Manji : That's wjy I think we should have components that run close to AFJ
+09:33:52	 From Akiff Manji : why*
+09:34:44	 From Akiff Manji : Right now Bifold components have been use case specific
+09:35:58	 From Akiff Manji : Wonder if we can even tap into/expose some lifecycle methods in navigation
+09:36:18	 From Akiff Manji : to expand on the callback idea
+09:37:34	 From James Ebert : Hmm—that’d be worth exploring @Akiff ^^
+09:41:15	 From Ryan Koch : Haven't there been talks of creating individual use-case UI components for AFJ?
+09:41:46	 From James Ebert : I think that’s primarily what Bifold has been attempting to do so far ^
+09:42:19	 From Akiff Manji : Should we be building cross platform components for example React and React-Native?
+09:42:47	 From Akiff Manji : What other (type of) applications are we looking to embed these components into?
+09:44:05	 From James Ebert : I also agree that React Native makes sense today—keeping a narrow-er scope will help make Bifold move faster. This process will further give us experience to better tackle native applications, etc.
+09:51:07	 From James Ebert : Are you still using patches?
+09:51:28	 From Clecio : No. we are no longer using patches
+09:59:54	 From Bruno Hivert  To  James Ebert(privately) : James I took notes as well, you can ask me if you want some complements.
+10:00:55	 From James Ebert  To  Bruno Hivert(privately) : That would be wonderful!

@@ -1,0 +1,1650 @@
+WEBVTT
+
+1
+00:00:23.580 --> 00:00:41.610
+Tracy Kuhrt: So, welcome to the April 21 hyper ledger technical steering committee call, as you are all aware, two things we missed by by the first one is the antitrust policy notice that is currently displayed on the screen and the second is our code of conduct.
+
+2
+00:00:43.050 --> 00:00:48.210
+Tracy Kuhrt: So for our agenda today, we have our standard announcements.
+
+3
+00:00:49.410 --> 00:01:08.340
+Tracy Kuhrt: A Dev weekly developer newsletter goes out each Friday if you'd like to have something added to that newsletter please leave a comment on the wiki page that is linked in our agenda, and the second announcement is the hyper ledger global forum is still accepting CFP.
+
+4
+00:01:09.900 --> 00:01:22.050
+Tracy Kuhrt: For just over a week more and I did see yesterday, I think it was yesterday and announcement come out that there are also an extra day of workshops that are.
+
+5
+00:01:22.950 --> 00:01:36.450
+Tracy Kuhrt: open and so, if you'd like to submit CFP for a workshop leave those are now available on the CFP site as well Oh, and then the heart is the call for program committee volunteer still open.
+
+6
+00:01:40.170 --> 00:01:53.610
+Hart Montgomery: So I clicking the unmute button, yes, we are looking for a couple more volunteers so, particularly if anyone on the tasc is interested in joining several people already have please feel free to reach out.
+
+7
+00:01:56.340 --> 00:01:59.790
+Tracy Kuhrt: Any other announcements that anybody has to make today.
+
+8
+00:02:09.000 --> 00:02:16.200
+Tracy Kuhrt: Alright, see no Hansen, nobody coming off mute I will take that as we know, so we've got the quarterly reports I did see the.
+
+9
+00:02:17.040 --> 00:02:27.180
+Tracy Kuhrt: hyper ledger fabric report come in either last night or this morning, which, but it was in my inbox this morning, so I Dave, thank you for that.
+
+10
+00:02:27.780 --> 00:02:39.660
+Tracy Kuhrt: i've seen a few people have already had a chance to look at it, but we'll make sure that's kept on the agenda for next week for everybody to have the opportunity to review the fabric report.
+
+11
+00:02:41.910 --> 00:02:51.300
+Tracy Kuhrt: Next week is the hyper ledger sawtooth report that's do, and of course we always have the calendar out there for people to take a look up.
+
+12
+00:02:52.290 --> 00:03:14.640
+Tracy Kuhrt: So with that, I do have one item that i'd like to discuss from the T is T PC business this week around the tlc responsibilities, the issue that we reviewed last week in rtc meeting and I believe we've got about six or seven sort of check marks already in the.
+
+13
+00:03:16.530 --> 00:03:25.530
+Tracy Kuhrt: In the issue itself as far as approvals I did see one change David, I think that you suggested that came in there.
+
+14
+00:03:26.970 --> 00:03:34.710
+Tracy Kuhrt: just add an extra s to one of the words, but I think that's the only specific change that i've seen a request it.
+
+15
+00:03:36.030 --> 00:03:55.830
+Tracy Kuhrt: was thinking, maybe we could have a vote almost to see if we would like to formally approved this in a PC meeting, but if anybody has any sort of discussion here that we should have before that, or we don't think we're ready yet now is the time is because.
+
+16
+00:04:00.030 --> 00:04:07.350
+Aruna S M: I guess, there is one more item to be added Point number nine personally I did it in one of the comments I sorta.
+
+17
+00:04:18.690 --> 00:04:19.500
+Tracy Kuhrt: So I think we.
+
+18
+00:04:20.310 --> 00:04:20.790
+Aruna S M: All want.
+
+19
+00:04:23.640 --> 00:04:27.480
+Tracy Kuhrt: To do we want to add implicitly the subscribing to the tasc.
+
+20
+00:04:28.680 --> 00:04:37.320
+Arnaud J Le Hors (IBM): yeah i'm happy to do put that in with the with the S missing that Dave spotted.
+
+21
+00:04:39.180 --> 00:04:48.390
+Arnaud J Le Hors (IBM): yeah, as I pointed out it's it does to be in the city and Lisa wouldn't be numbered nine because that's the Charter least but that's the detail.
+
+22
+00:04:50.610 --> 00:04:51.330
+Tracy Kuhrt: yeah make sense.
+
+23
+00:04:53.460 --> 00:04:57.240
+Tracy Kuhrt: Okay, any other comments or concerns.
+
+24
+00:04:59.280 --> 00:05:01.860
+Ry Jones: So I guess I just thought of one.
+
+25
+00:05:03.240 --> 00:05:03.420
+Tracy Kuhrt: In.
+
+26
+00:05:03.450 --> 00:05:04.770
+Ry Jones: Along the same lines.
+
+27
+00:05:06.480 --> 00:05:09.570
+Ry Jones: What about joining the github org.
+
+28
+00:05:10.920 --> 00:05:11.970
+Ry Jones: Is that a requirement.
+
+29
+00:05:17.490 --> 00:05:17.820
+Peter Somogyvari: I guess.
+
+30
+00:05:18.660 --> 00:05:21.810
+Tracy Kuhrt: I guess if they want to be informed of the.
+
+31
+00:05:23.130 --> 00:05:30.300
+Tracy Kuhrt: issues that are coming up on the tsp hyper ledger slash gc repo and that would probably be a requirement as well.
+
+32
+00:05:32.340 --> 00:05:35.340
+Ry Jones: Okay, there are a couple that aren't but it's.
+
+33
+00:05:37.620 --> 00:05:39.390
+Ry Jones: We can address that later, I think.
+
+34
+00:05:40.410 --> 00:05:40.800
+Tracy Kuhrt: Okay.
+
+35
+00:05:41.820 --> 00:05:49.470
+Arnaud J Le Hors (IBM): yeah I mean, as I said before, I mean we can always expand on it and we trade it's not the end of the world.
+
+36
+00:05:50.070 --> 00:05:54.750
+Tracy Kuhrt: that's right yeah if we come up with other things that we want to add to this after the fact.
+
+37
+00:05:55.170 --> 00:06:06.990
+Arnaud J Le Hors (IBM): And I suspect this kind of small things are not controversial by any means, just like you know, so we can just schedule Leah agree through a pull requests and.
+
+38
+00:06:08.010 --> 00:06:09.090
+Arnaud J Le Hors (IBM): Small additions.
+
+39
+00:06:10.920 --> 00:06:12.120
+Tracy Kuhrt: completely agree on oh.
+
+40
+00:06:15.240 --> 00:06:22.650
+Tracy Kuhrt: Okay, any other questions or comments any objections to us voting I guess would be.
+
+41
+00:06:23.970 --> 00:06:25.200
+Tracy Kuhrt: Where we're at at this point.
+
+42
+00:06:29.160 --> 00:06:44.700
+Arnaud J Le Hors (IBM): So, to be clear, I mean we're talking about approving this pull request with the two additional changes which is adding this requirement, about being on the Ts mailing list and the github or.
+
+43
+00:06:45.870 --> 00:06:48.960
+Arnaud J Le Hors (IBM): And and adding the missing s.
+
+44
+00:06:49.080 --> 00:06:49.500
+Adding.
+
+45
+00:06:52.980 --> 00:06:58.920
+Arnaud J Le Hors (IBM): it's funny after all, you know so many people looking at it is like we still miss it and it's like oh wait.
+
+46
+00:07:00.840 --> 00:07:01.770
+Arnaud J Le Hors (IBM): But it's good.
+
+47
+00:07:04.650 --> 00:07:04.920
+Arnaud J Le Hors (IBM): yeah.
+
+48
+00:07:09.990 --> 00:07:12.240
+Arnaud J Le Hors (IBM): So i'm happy to approve this of course.
+
+49
+00:07:13.260 --> 00:07:15.900
+Tracy Kuhrt: Alright, so shall we take that as emotion, or no.
+
+50
+00:07:17.490 --> 00:07:18.120
+Arnaud J Le Hors (IBM): Yes.
+
+51
+00:07:18.600 --> 00:07:19.050
+Tracy Kuhrt: We have a.
+
+52
+00:07:20.490 --> 00:07:20.850
+Nathan George: Second.
+
+53
+00:07:21.990 --> 00:07:24.570
+Tracy Kuhrt: Alright, thanks anything um.
+
+54
+00:07:25.860 --> 00:07:30.420
+Tracy Kuhrt: you're right do you want to lead us through but it doesn't have to be roll call vote, but just uh.
+
+55
+00:07:31.350 --> 00:07:31.680
+yeah.
+
+56
+00:07:33.240 --> 00:07:35.190
+Ry Jones: All those who wish to abstain.
+
+57
+00:07:37.500 --> 00:07:38.400
+Ry Jones: abstain or some.
+
+58
+00:07:42.960 --> 00:07:44.070
+Ry Jones: All those in.
+
+59
+00:07:45.540 --> 00:07:49.590
+Ry Jones: who wish for the motion, not pass please say, nay.
+
+60
+00:07:52.470 --> 00:07:55.140
+Ry Jones: And all in favor say Aye Aye captain.
+
+61
+00:08:03.540 --> 00:08:04.500
+Ry Jones: Motion passes.
+
+62
+00:08:05.580 --> 00:08:06.240
+Arnaud J Le Hors (IBM): Thank you.
+
+63
+00:08:08.460 --> 00:08:09.150
+Tracy Kuhrt: Thanks Ray.
+
+64
+00:08:09.990 --> 00:08:15.960
+Tracy Kuhrt: And thanks for putting that together for us and for all the input that we had from the TC on that.
+
+65
+00:08:16.110 --> 00:08:34.500
+Tracy Kuhrt: particular issue, so as far as I know we don't have any any additional on PC business this week, but before we get to the task force discussion is there any PC business that we should be talking about that I did not know about or didn't include in our agenda.
+
+66
+00:08:41.520 --> 00:08:44.520
+Ry Jones: I did for this issue on and then.
+
+67
+00:08:45.720 --> 00:08:46.320
+Ry Jones: Dino.
+
+68
+00:08:47.730 --> 00:08:48.870
+Ry Jones: found a pull request.
+
+69
+00:08:49.980 --> 00:08:51.690
+Ry Jones: I would just like the dsc to.
+
+70
+00:08:52.770 --> 00:09:00.870
+Ry Jones: You know, read this over and add comments on dale's pull request we don't have to discuss in this meeting.
+
+71
+00:09:01.680 --> 00:09:04.350
+Tracy Kuhrt: Okay, thanks for that I will.
+
+72
+00:09:06.060 --> 00:09:10.410
+Tracy Kuhrt: have to review is that pull request 33 I think it was.
+
+73
+00:09:11.880 --> 00:09:12.420
+Danno Ferrin: 33.
+
+74
+00:09:12.930 --> 00:09:13.230
+Danno Ferrin: All right.
+
+75
+00:09:13.320 --> 00:09:16.050
+Tracy Kuhrt: So yeah pull request 33 on the TT repo.
+
+76
+00:09:16.620 --> 00:09:29.310
+Tracy Kuhrt: we'll make sure we include that on the discussion items for next week, but feel free to have a look at that before we get to next week, any other PC business anybody would like to bring up at this point.
+
+77
+00:09:37.980 --> 00:09:50.580
+Tracy Kuhrt: Alright, see nobody coming off mute or raising their hands, I will take that as a no so Jim I guess it is up to you to walk us through the task force discussion for a project health dashboard.
+
+78
+00:09:51.840 --> 00:09:55.260
+Jim Zhang: sounds good thanks Tracy Mr sharing.
+
+79
+00:09:58.410 --> 00:10:12.000
+Jim Zhang: Okay, so I created the task force page and there will be a page for today's minute, but I guess, just as a refresher for everyone for the background of this.
+
+80
+00:10:13.290 --> 00:10:14.070
+Jim Zhang: This thread.
+
+81
+00:10:15.690 --> 00:10:30.120
+Jim Zhang: We were talking about project reports in early January, and there was a follow up action to to think about what kind of data can we pull pull together.
+
+82
+00:10:31.320 --> 00:10:32.670
+Jim Zhang: To January, some sort of.
+
+83
+00:10:34.200 --> 00:10:35.130
+Jim Zhang: Report.
+
+84
+00:10:35.670 --> 00:10:37.170
+Jim Zhang: For every project.
+
+85
+00:10:37.500 --> 00:10:51.420
+Jim Zhang: Whenever the tasc needs to make decisions on the health status of a project, this could be a status change on the project from innovation to active, or vice vice versa.
+
+86
+00:10:52.950 --> 00:10:55.740
+Jim Zhang: or four laps to to go into incubation.
+
+87
+00:10:57.270 --> 00:11:05.220
+Jim Zhang: Just feel like if we have the right types of data than a lot of decisions can be made much easier and faster.
+
+88
+00:11:06.570 --> 00:11:14.160
+Jim Zhang: So there's already pretty good sources of such data, such as the insight.
+
+89
+00:11:15.420 --> 00:11:23.430
+Jim Zhang: By Linux foundation and there's also previous efforts in particular made by Tracy and others.
+
+90
+00:11:24.510 --> 00:11:28.710
+Jim Zhang: to generate reports, based on github data.
+
+91
+00:11:29.790 --> 00:11:39.990
+Jim Zhang: So this effort is to kind of pull together all the all the thinking and get this.
+
+92
+00:11:41.400 --> 00:11:42.390
+Jim Zhang: get this.
+
+93
+00:11:44.700 --> 00:11:56.790
+Jim Zhang: take it to the to the finish line, basically, so we can have these be hosted somewhere or maybe there is something that can be embedded in every report just by default.
+
+94
+00:11:57.780 --> 00:12:09.300
+Jim Zhang: So every every report will have this be automatically generated from all the data sources so that's the that's the thinking behind this effort and.
+
+95
+00:12:10.560 --> 00:12:23.880
+Jim Zhang: there's a running issue in github that has got contributions from many people thanks for everybody who's participated and and the result of the discussion we've got so far.
+
+96
+00:12:25.230 --> 00:12:26.460
+Jim Zhang: Is captured.
+
+97
+00:12:27.510 --> 00:12:28.170
+Jim Zhang: here.
+
+98
+00:12:31.020 --> 00:12:31.950
+Jim Zhang: On this page.
+
+99
+00:12:33.720 --> 00:12:41.760
+Jim Zhang: But I want to start with the High Level goals, so we can talk about it and agree, and then we can get into.
+
+100
+00:12:43.080 --> 00:13:01.050
+Jim Zhang: The details, so I think the High Level goals as as displayed here is together and present rich set of data about a project can be both top level projects and labs and enable data driven decision making at tasc.
+
+101
+00:13:02.460 --> 00:13:11.460
+Jim Zhang: Specific tasks to be completed number one, we need to define the types of data that makes sense, this has been what.
+
+102
+00:13:13.050 --> 00:13:16.440
+Jim Zhang: The participants on this effort, have been focusing on.
+
+103
+00:13:18.390 --> 00:13:35.250
+Jim Zhang: What are the types of data that would help with the decision making is it on code is it on person is it on activity that sort of thing and then we should decide how to collect that kind of thing.
+
+104
+00:13:36.630 --> 00:13:47.940
+Jim Zhang: Given the data we believe are useful, where to find it, how to collect them and based on the discussions we've got so far, some of them.
+
+105
+00:13:49.500 --> 00:14:00.570
+Jim Zhang: will be available programmatically but others we may have to resort to manual contribution manual collection.
+
+106
+00:14:04.140 --> 00:14:10.050
+Jim Zhang: For the list of deliverables for this task force, I think we should.
+
+107
+00:14:11.850 --> 00:14:14.250
+Jim Zhang: document, the decisions.
+
+108
+00:14:16.230 --> 00:14:26.520
+Jim Zhang: In the github issue or maybe there's other better format to document what we decided on.
+
+109
+00:14:27.720 --> 00:14:33.210
+Jim Zhang: And we should discuss with the Linux foundation insight it team.
+
+110
+00:14:34.260 --> 00:14:38.670
+Jim Zhang: about enhancing the dashboard and the gathering of the data.
+
+111
+00:14:38.970 --> 00:14:40.560
+Jim Zhang: and generating reports.
+
+112
+00:14:41.280 --> 00:14:48.930
+Jim Zhang: Such capabilities are missing today there's a lot in there, but some key capabilities are still missing.
+
+113
+00:14:51.510 --> 00:15:09.690
+Jim Zhang: And for the if we have data that has to be collected manually, then we need to publish some sort of recommended practices, so the Community can make the information available, and we can collect them.
+
+114
+00:15:13.350 --> 00:15:25.860
+Jim Zhang: I like to think we could accomplish everything in three months if that's not at that time turns out to be too optimistic probably six months.
+
+115
+00:15:26.970 --> 00:15:30.270
+Jim Zhang: At most, and we should time opposite.
+
+116
+00:15:31.950 --> 00:15:33.060
+Jim Zhang: So.
+
+117
+00:15:35.790 --> 00:15:45.510
+Jim Zhang: let's let's let's look at what we've got so far, so this is just capturing the input from the previous discussions in the.
+
+118
+00:15:46.830 --> 00:16:02.340
+Jim Zhang: In the in the issue, so I can go through these items and but everybody, please feel free to jump in on any of these points, and we can discuss more so.
+
+119
+00:16:03.420 --> 00:16:25.050
+Jim Zhang: We put this in edit mode Okay, so the first one first category is Community I think that's that's a no brainer that it's a key success to the to any projects is a diverse active Community that cares about the code base.
+
+120
+00:16:27.240 --> 00:16:33.210
+Jim Zhang: So we've got five subcategories and underneath that growth.
+
+121
+00:16:34.830 --> 00:16:54.180
+Jim Zhang: Is the Community growing diversity is it looked after by a single org name organization, or does it have a diverse source of contributions which tend to make the project more viable in the long run.
+
+122
+00:16:56.730 --> 00:17:16.410
+Jim Zhang: retention is for contributors do they feel their input are are being respected being valued and their code contributions are getting to the main branch and getting to customers hands so they're delivering value.
+
+123
+00:17:20.220 --> 00:17:24.990
+Jim Zhang: or skip maturity to the end, because I was having trouble.
+
+124
+00:17:27.480 --> 00:17:36.330
+Jim Zhang: articulating articulating this so maybe someone else can help with this one responsiveness is kind of.
+
+125
+00:17:37.770 --> 00:17:44.580
+Jim Zhang: tight to allow the others, is how responsive is the current contributor group.
+
+126
+00:17:46.020 --> 00:18:01.890
+Jim Zhang: or two to potential contributors, maybe they reached out on discord or through a PR or they are they given attentions are due diligence being.
+
+127
+00:18:02.910 --> 00:18:05.430
+Jim Zhang: given to their to their contributions.
+
+128
+00:18:06.810 --> 00:18:08.100
+Jim Zhang: So.
+
+129
+00:18:09.870 --> 00:18:16.530
+Jim Zhang: maturity I I feel like this came from David I don't know if David is on.
+
+130
+00:18:17.160 --> 00:18:17.490
+David Boswell: yeah.
+
+131
+00:18:17.520 --> 00:18:18.450
+Jim Zhang: i'm here now is can.
+
+132
+00:18:19.470 --> 00:18:20.940
+Jim Zhang: Speak to this yeah go ahead.
+
+133
+00:18:22.110 --> 00:18:30.600
+David Boswell: So basically I my thought of maturity, was it gives context to the other stats there so, for example, if you're a brand new project have only been around for a month or two.
+
+134
+00:18:31.230 --> 00:18:39.600
+David Boswell: Your stats are very likely going to look different from somebody who's perhaps you know, been around for a project has been around for several years and has a different.
+
+135
+00:18:39.960 --> 00:18:44.730
+David Boswell: The Community is going to look different right, I mean, I think, for example, that new project.
+
+136
+00:18:45.330 --> 00:18:52.770
+David Boswell: Probably won't have the same sort of organizational diversity, so it helps give context right I think something that might be a red flag.
+
+137
+00:18:53.130 --> 00:18:59.160
+David Boswell: For a more mature project, for example, if you if you didn't have organizational diversity after.
+
+138
+00:18:59.520 --> 00:19:10.440
+David Boswell: Three years, for example, that might be a red flag, whereas if you don't have organizational diversity and you just started that's not a black right, I mean it's natural for a new project that just came from one organization, for example.
+
+139
+00:19:10.800 --> 00:19:19.260
+David Boswell: To not have that diversity, yet, so I think it's just a way to help set context for those other projects and I meant diversity here are maturity here, in the sense of.
+
+140
+00:19:21.210 --> 00:19:31.080
+David Boswell: You can measure it simply by age, for example, or the stage, you know, an incubator project is going to be less mature in this sense, and I graduated projects that's all I meant by that.
+
+141
+00:19:31.800 --> 00:19:32.880
+Jim Zhang: Okay gotcha.
+
+142
+00:19:33.570 --> 00:19:34.440
+That makes sense.
+
+143
+00:19:35.790 --> 00:19:44.490
+Jim Zhang: So I guess this maturity is more of more of a qualifier rather than a category by itself.
+
+144
+00:19:45.030 --> 00:19:54.360
+Tracy Kuhrt: Well, Jim I would I would add, specifically, maybe a couple of bullets there why around when was the first code commit.
+
+145
+00:19:55.380 --> 00:20:00.060
+Tracy Kuhrt: And then maybe another around frequency of releases.
+
+146
+00:20:03.990 --> 00:20:05.640
+Jim Zhang: yeah okay.
+
+147
+00:20:05.880 --> 00:20:11.310
+Tracy Kuhrt: Because I think i'm more mature project is well I think when you're when you're.
+
+148
+00:20:12.240 --> 00:20:25.410
+Tracy Kuhrt: Like if you look at fabric right I think they have quarterly releases that's a pretty mature project are able to you know get to a place where they can plan for releases every three months and successfully do that.
+
+149
+00:20:26.850 --> 00:20:42.570
+Tracy Kuhrt: versus you know, maybe a newer project hasn't quite figured out when they should do releases or how often or how they manage that whole process, so I think you know that's the sort of thing that I think about when I say frequency of releases.
+
+150
+00:20:43.980 --> 00:20:45.300
+Jim Zhang: Okay gotcha.
+
+151
+00:20:46.470 --> 00:20:55.500
+Jim Zhang: Are they are they able to stick to the published really schedule that reflects the maturity.
+
+152
+00:20:57.000 --> 00:21:04.110
+Jim Zhang: yeah yeah definitely makes sense when you're working on still working on like core foundation of the architecture.
+
+153
+00:21:04.680 --> 00:21:21.180
+Jim Zhang: You could easily step into unforeseen complexities and previously published schedule be blown out of the water versus if it's a mature code base and it's just adding enhancements than that it's much easier to.
+
+154
+00:21:22.380 --> 00:21:25.650
+Jim Zhang: to stick to the schedule yeah that makes sense.
+
+155
+00:21:29.880 --> 00:21:43.710
+Jim Zhang: Any other comments on on these aspects on community itself are we missing any important aspects as far as the health indicators of the Community itself.
+
+156
+00:22:00.600 --> 00:22:06.330
+Jim Zhang: Okay yeah we can always revisit this later so i'll continue.
+
+157
+00:22:07.650 --> 00:22:09.390
+Jim Zhang: For the code aspect.
+
+158
+00:22:10.560 --> 00:22:12.510
+Jim Zhang: that's obviously another important.
+
+159
+00:22:14.130 --> 00:22:21.240
+Jim Zhang: dimension for project is the code itself and so far we've got two categories.
+
+160
+00:22:22.920 --> 00:22:25.560
+Jim Zhang: One we call usefulness.
+
+161
+00:22:28.920 --> 00:22:30.060
+Jim Zhang: Which is.
+
+162
+00:22:31.110 --> 00:22:57.210
+Jim Zhang: How are the general Community reacting to this projects functionality, it can be really cool can have a lot of coding there, but if people are not using it it's indicator that it's either way ahead of its time or maybe there's a better solution somewhere else so.
+
+163
+00:22:58.470 --> 00:23:00.210
+Jim Zhang: usefulness is.
+
+164
+00:23:01.380 --> 00:23:06.450
+Jim Zhang: Our Is this the right solution for the right problem.
+
+165
+00:23:08.160 --> 00:23:19.200
+Jim Zhang: Is the is the problem that's being addressed or a real problem, how many people are struggling with it so that's that's the that's the usefulness aspect.
+
+166
+00:23:21.780 --> 00:23:24.270
+Jim Zhang: notice that we didn't really.
+
+167
+00:23:25.290 --> 00:23:29.460
+Jim Zhang: capture some sort of.
+
+168
+00:23:34.350 --> 00:23:39.840
+Jim Zhang: Popular aspect for code, how many lines of code is in the project.
+
+169
+00:23:41.220 --> 00:23:43.950
+Jim Zhang: How active is the code being pushed.
+
+170
+00:23:47.430 --> 00:23:49.080
+Jim Zhang: I don't think it's.
+
+171
+00:23:50.580 --> 00:24:01.980
+Jim Zhang: A necessary good indicator to the health status of a project, because you can be working on something you know just among the few people.
+
+172
+00:24:02.970 --> 00:24:18.390
+Jim Zhang: That pushes ton of code and you know, there are 10 PRS every day, but if if you are the ones who only you're the only ones work here who care about this code base for a long time that's indicator that.
+
+173
+00:24:19.560 --> 00:24:22.830
+Jim Zhang: This is not very useful to the general general Community.
+
+174
+00:24:28.440 --> 00:24:28.770
+Jim Zhang: Okay.
+
+175
+00:24:28.830 --> 00:24:36.750
+Dave Enyeart: Good on that point, I do think the commit rate is important and how it changes over time for a project I don't think that's captured anywhere here.
+
+176
+00:24:40.020 --> 00:24:40.770
+Jim Zhang: Committed rate.
+
+177
+00:24:42.150 --> 00:24:45.420
+Jim Zhang: How many lines of code are being pushed in.
+
+178
+00:24:45.690 --> 00:24:50.220
+Dave Enyeart: or number of commits per month or something like that, and then you can look at that over time.
+
+179
+00:24:54.660 --> 00:25:04.080
+Dave Enyeart: Like in the fabric reports, I always put a commit for the quarter number, and then I compare it to the previous year, so we can kind of get a feel for is it less active or more active.
+
+180
+00:25:07.320 --> 00:25:08.970
+Jim Zhang: I guess that's.
+
+181
+00:25:10.140 --> 00:25:12.720
+Jim Zhang: It feels like a different dimension.
+
+182
+00:25:14.160 --> 00:25:28.890
+Jim Zhang: cuz your fabric, the usefulness is is out of the question so that's that be established, first, I think things like rates is a useful indicator right.
+
+183
+00:25:30.360 --> 00:25:34.410
+Dave Enyeart: yeah I agree it's probably not under the usefulness category, but I think somewhere, we should capture it.
+
+184
+00:25:35.040 --> 00:25:35.370
+He.
+
+185
+00:25:36.540 --> 00:25:38.820
+Jim Zhang: We need something.
+
+186
+00:25:40.050 --> 00:25:41.610
+Jim Zhang: placeholder.
+
+187
+00:25:43.410 --> 00:25:45.330
+Jim Zhang: Think of something to call this.
+
+188
+00:25:48.630 --> 00:25:51.330
+Dave Enyeart: could be like based metrics or something because it's kind of a fundamental.
+
+189
+00:25:52.470 --> 00:25:53.100
+Dave Enyeart: metric.
+
+190
+00:25:53.550 --> 00:25:53.790
+yeah.
+
+191
+00:25:58.410 --> 00:26:05.160
+Nathan George: Well, and maybe to say something more about that were the production readiness and the usefulness is really trying to measure the growth.
+
+192
+00:26:05.640 --> 00:26:14.310
+Nathan George: Of the project this metric seems to be monitoring for when a project might cool down or when a project might be.
+
+193
+00:26:15.000 --> 00:26:26.370
+Nathan George: starting to become less interesting, for whatever reason, so there's probably a few other statistics we could put in here that would help us understand if maybe people are moving off on to other ideas or off on to other projects.
+
+194
+00:26:31.110 --> 00:26:31.890
+Jim Zhang: Good plane.
+
+195
+00:26:38.850 --> 00:26:42.780
+Tracy Kuhrt: And Jim Hart has his hand up I don't know if you're able to why you're.
+
+196
+00:26:42.930 --> 00:26:44.430
+Jim Zhang: Sorry yeah I wasn't able to.
+
+197
+00:26:45.330 --> 00:26:46.440
+Tracy Kuhrt: Make sure to keep track.
+
+198
+00:26:46.440 --> 00:26:46.530
+Tracy Kuhrt: Of.
+
+199
+00:26:47.010 --> 00:26:48.300
+Jim Zhang: yeah Thank you, I appreciate it.
+
+200
+00:26:48.600 --> 00:26:49.680
+Jim Zhang: yeah hard go ahead.
+
+201
+00:26:50.310 --> 00:26:58.080
+Hart Montgomery: hey Jim so I like this one thing that I don't see mentioned here that I think is important and I don't know where we want to put it as documentation.
+
+202
+00:26:59.760 --> 00:27:00.390
+Jim Zhang: yeah.
+
+203
+00:27:01.530 --> 00:27:04.650
+Hart Montgomery: So I don't know whether that goes under code Community or what.
+
+204
+00:27:05.700 --> 00:27:14.250
+Hart Montgomery: But I think it's an important thing and and we should have some it should be included in this document.
+
+205
+00:27:16.500 --> 00:27:23.760
+Jim Zhang: If I agree, I mean people can get their hands on how easy or difficult it is that's a.
+
+206
+00:27:25.620 --> 00:27:33.390
+Jim Zhang: Pretty critical, I guess, this would be more of a manual or subjective measurement.
+
+207
+00:27:35.550 --> 00:27:43.080
+Jim Zhang: Right, the quality of the docs I guess we're mainly referring to the quality of the dogs right heart.
+
+208
+00:27:43.650 --> 00:27:48.360
+Hart Montgomery: Well sure, but just the existence of documentation to various different things right.
+
+209
+00:27:50.190 --> 00:27:50.550
+Jim Zhang: and
+
+210
+00:27:51.180 --> 00:27:52.110
+Hart Montgomery: So yeah both.
+
+211
+00:27:54.870 --> 00:27:57.240
+Jim Zhang: yeah okay that makes sense.
+
+212
+00:27:58.260 --> 00:27:59.850
+Tracy Kuhrt: And Bobby has her hand up as well.
+
+213
+00:28:01.530 --> 00:28:01.770
+Bobbi Muscara: yeah i'd.
+
+214
+00:28:02.220 --> 00:28:11.700
+Bobbi Muscara: Like to i'd like to help you out with that piece because we're working, we have a task force in the learning materials development working group right now to create some kind of badging.
+
+215
+00:28:12.060 --> 00:28:22.650
+Bobbi Muscara: That will fit into the existing structure so we'll talk later, but I would like to be a part of that piece, because our task force will be reporting on that shortly.
+
+216
+00:28:31.980 --> 00:28:33.330
+Jim Zhang: awesome I appreciate that.
+
+217
+00:28:34.350 --> 00:28:40.110
+Jim Zhang: So we can talk in more details, how to sort of wrap these aspects into a.
+
+218
+00:28:40.290 --> 00:28:41.490
+Jim Zhang: into a badging.
+
+219
+00:28:41.880 --> 00:28:47.700
+Jim Zhang: Criteria and have it be captured in a more concise manner.
+
+220
+00:28:50.400 --> 00:28:51.840
+Jim Zhang: that's great so we haven't talked.
+
+221
+00:28:51.840 --> 00:28:53.880
+Jim Zhang: About this, this part.
+
+222
+00:28:55.350 --> 00:28:58.710
+Jim Zhang: I believe this was brought up by heart during the discussion.
+
+223
+00:28:59.880 --> 00:29:01.320
+Jim Zhang: Production readiness.
+
+224
+00:29:03.480 --> 00:29:13.080
+Jim Zhang: it's kind of related to the usefulness, which what naturally to this being used in production and the team working on making it production ready.
+
+225
+00:29:14.490 --> 00:29:26.700
+Jim Zhang: so obvious indicators include has been a one dot zero release what's the test coverage performance and reliability tests.
+
+226
+00:29:29.250 --> 00:29:34.020
+Jim Zhang: And I guess documentation is somewhat captured here.
+
+227
+00:29:39.810 --> 00:29:53.880
+Jim Zhang: yeah so this would apply more to the top level projects, but even for labs a good documentation would be a.
+
+228
+00:29:54.930 --> 00:29:55.920
+Jim Zhang: Pretty big.
+
+229
+00:29:57.150 --> 00:30:02.910
+Jim Zhang: factor to be considered when this lab is brought brought up for.
+
+230
+00:30:04.470 --> 00:30:07.080
+Jim Zhang: For proposal to become incubation.
+
+231
+00:30:11.040 --> 00:30:20.160
+Jim Zhang: Okay, so I guess, overall, we feel pretty good about the aspects on the code aspect.
+
+232
+00:30:23.610 --> 00:30:25.290
+Jim Zhang: Anything else we should consider.
+
+233
+00:30:27.870 --> 00:30:37.950
+Artem Barger: So, Jim I don't I don't know what the best could take a degree to put this year, but the problem might consider something that is related topics it reflects the.
+
+234
+00:30:38.760 --> 00:30:54.330
+Artem Barger: Innovation around the project so, for example, the amount of a you know resuscitation so resource publication, that is a around the area, the technology that the project has been developing is producing.
+
+235
+00:30:55.980 --> 00:30:59.130
+Jim Zhang: See it's not it's not it's not directed the code.
+
+236
+00:30:59.490 --> 00:31:10.080
+Artem Barger: But it's a you know we are working in the Boston area that is kind of you know everything is in distributed system cryptography consensus on server and you know.
+
+237
+00:31:11.070 --> 00:31:24.990
+Artem Barger: it's supposed to be quite a lot of research for your on this effort, so I think that this indicator of might reflect the innovation around the project and the direction the project is heading towards.
+
+238
+00:31:26.430 --> 00:31:29.790
+Jim Zhang: So do you think makes sense, it falls under usefulness.
+
+239
+00:31:30.360 --> 00:31:31.530
+Jim Zhang: may be.
+
+240
+00:31:31.590 --> 00:31:45.510
+Jim Zhang: This is more research effort so even though it's not being picked up by regular users by it generates research publications and it's being cited in.
+
+241
+00:31:46.890 --> 00:31:48.510
+Jim Zhang: In other people's work.
+
+242
+00:31:50.220 --> 00:31:52.980
+Jim Zhang: he's like this belongs under usefulness.
+
+243
+00:31:54.390 --> 00:32:07.440
+Artem Barger: So it might reflect the foremost, but I think that you know it might might be to basically devote a completely separate second section that you know stands for innovation.
+
+244
+00:32:07.980 --> 00:32:20.910
+Artem Barger: Because you know, a shelter project, in my opinion, has to innovate, the once in a while, and you know if you'll be able to capture the level of innovation that brought up by the project might be might be good.
+
+245
+00:32:25.020 --> 00:32:25.440
+Jim Zhang: But yeah.
+
+246
+00:32:29.430 --> 00:32:30.450
+Jim Zhang: yeah go ahead.
+
+247
+00:32:30.630 --> 00:32:40.050
+Hart Montgomery: yeah I think this is a good topic we can measure it, you know reasonably well by looking at like a printer archive for all of the other like.
+
+248
+00:32:41.310 --> 00:32:57.930
+Hart Montgomery: Research publication websites this it measures you know academic interest in something, and it will let us know sort of like you know what people who are interested in the most cutting edge technology are you know.
+
+249
+00:32:58.980 --> 00:33:00.450
+Hart Montgomery: Are are following great.
+
+250
+00:33:02.280 --> 00:33:14.010
+Hart Montgomery: So you know this, this is definitely something it's something I have sort of done myself actually about a bunch of these projects, and I think it's a good metric.
+
+251
+00:33:16.050 --> 00:33:16.920
+Hart Montgomery: To.
+
+252
+00:33:17.940 --> 00:33:23.160
+Hart Montgomery: measure as art and put it sort of how cutting edge, something is.
+
+253
+00:33:31.740 --> 00:33:33.060
+Jim Zhang: yeah okay.
+
+254
+00:33:34.860 --> 00:33:36.450
+Jim Zhang: That makes sense.
+
+255
+00:33:37.980 --> 00:33:40.290
+Hart Montgomery: i'm referring to the ar XIV.
+
+256
+00:33:41.700 --> 00:33:43.860
+Jim Zhang: yeah that's what I was trying to spell.
+
+257
+00:33:44.670 --> 00:33:45.510
+Hart Montgomery: The Horace.
+
+258
+00:33:46.770 --> 00:33:47.880
+Jim Zhang: Only manage the three.
+
+259
+00:33:47.880 --> 00:33:48.690
+Jim Zhang: Letters of that.
+
+260
+00:33:56.820 --> 00:33:58.050
+Tracy Kuhrt: hey if it hasn't signed up as well.
+
+261
+00:33:59.460 --> 00:34:00.300
+Jim Zhang: yeah go ahead.
+
+262
+00:34:01.260 --> 00:34:06.420
+Nathan George: i'm a classic quote is you manage what you measure.
+
+263
+00:34:07.470 --> 00:34:24.000
+Nathan George: And so I like how we've kind of separated some categories here of the different numbers and what we think that they're useful for because one of the dangers here is if we put the wrong numbers in front of the wrong audiences they'll try to optimize for things that might not be healthy.
+
+264
+00:34:25.260 --> 00:34:35.070
+Nathan George: For example, it would be, it would probably be a bad thing if a project tried to maximize their e print air XIV numbers by themselves.
+
+265
+00:34:35.550 --> 00:34:48.210
+Nathan George: Have or if they tried to increase a number at the expense of the stability of their community, so I wonder if, once we finished kind of this all the things we might want to look at it would be good for us to.
+
+266
+00:34:49.020 --> 00:35:04.110
+Nathan George: split this dashboard of statistics to the more than one category, because some of these things are things we would want to put in front of me taters and say you should watch these, but some of them are not because they could lead to optimizing the wrong things for sustainability.
+
+267
+00:35:05.130 --> 00:35:19.650
+Jim Zhang: That makes sense you're saying, if a project is not really driven for innovation, it they shouldn't be staring at the stairs or the dashboard this category is always zero.
+
+268
+00:35:20.640 --> 00:35:27.750
+Nathan George: Well, or likewise a lot of early stage project might really need to worry about how many people are contributing and how often are they contributing.
+
+269
+00:35:28.200 --> 00:35:40.620
+Nathan George: But a stable project might need to say we need to get people to bundle their commits better because the thing we need to optimize for is maintainer burden as opposed to onboarding more more people, so I.
+
+270
+00:35:41.340 --> 00:35:56.730
+Nathan George: It feels like we need to give some thought to the life cycle of the project and which statistics are most important web, because if we can help the maintainer focus on the right things it'll make the job, a lot easier if we make them focus on everything it'll make your job, a lot harder.
+
+271
+00:35:57.900 --> 00:35:58.170
+Jim Zhang: yeah.
+
+272
+00:36:01.740 --> 00:36:04.590
+Jim Zhang: Do you think this captured your concern here.
+
+273
+00:36:06.600 --> 00:36:09.270
+Jim Zhang: Sure okay cool appreciate that.
+
+274
+00:36:09.900 --> 00:36:17.280
+Ry Jones: I will point out this document is in edit mode so like other tlc members to feel free to.
+
+275
+00:36:18.330 --> 00:36:18.960
+Ry Jones: jump in.
+
+276
+00:36:19.710 --> 00:36:23.280
+Jim Zhang: Here definitely thanks for that reminder.
+
+277
+00:36:24.660 --> 00:36:27.660
+Jim Zhang: Okay, let me go ahead and date.
+
+278
+00:36:31.080 --> 00:36:31.590
+cool.
+
+279
+00:36:32.640 --> 00:36:37.140
+Ry Jones: I just met in terms of you know, we do we multiple people can edit at the same time.
+
+280
+00:36:37.650 --> 00:36:41.100
+Ry Jones: yeah so other people wanted to jump in here and help edit.
+
+281
+00:36:51.330 --> 00:37:09.210
+Jim Zhang: So I guess for today's call i'd like to focus on making sure these dimensions are as complete as we can manage and then we can we can use follow up calls to talk about detailed measures to collect them.
+
+282
+00:37:11.130 --> 00:37:22.740
+Jim Zhang: So I guess on both categories are there any other things, we should consider, or is there a complete new categories, where are missing here.
+
+283
+00:37:33.480 --> 00:37:39.510
+Nathan George: there's a couple of early pipeline interest things that sometimes are worth looking at it sometimes you're not.
+
+284
+00:37:39.900 --> 00:37:55.410
+Nathan George: Like how many stars or forks there are other repositories how many people have signed up for the mailing list or how many how many users are inside of the chat channels, where it may not indicate act actual activity, but it might indicate that.
+
+285
+00:37:56.850 --> 00:38:00.150
+Nathan George: There are folks we have the opportunity to invite to create that activity.
+
+286
+00:38:05.100 --> 00:38:08.340
+Jim Zhang: So i'm.
+
+287
+00:38:10.470 --> 00:38:12.150
+Jim Zhang: Trying to capture.
+
+288
+00:38:14.280 --> 00:38:26.520
+Jim Zhang: What What this means in terms of the data that can be so you're saying there could be a different dashboard that is presented to early early stage projects.
+
+289
+00:38:27.690 --> 00:38:36.450
+Nathan George: um well when I said that I said it a lot like, if you remember the statistics page that I showed us before it talks about kind of.
+
+290
+00:38:37.650 --> 00:38:42.180
+Nathan George: A new contributors versus mature contributors versus inactive contributors.
+
+291
+00:38:42.300 --> 00:38:42.990
+Nathan George: there's this kind of.
+
+292
+00:38:43.470 --> 00:38:45.870
+Nathan George: People who are poking around expressing interest.
+
+293
+00:38:47.460 --> 00:38:59.400
+Nathan George: kind of part of the the contributor pipeline of people just they're signing up for the mailing list and they're lurking or they've started the repository because they want to watch to see what might be happening next.
+
+294
+00:39:00.960 --> 00:39:04.650
+Nathan George: year if we think of the maintainer is is kind of managing a.
+
+295
+00:39:05.760 --> 00:39:13.380
+Nathan George: pipeline of new traders, that they have the potential to onboard seeing a lot of activity at this stage of the pipeline might eat it's time to.
+
+296
+00:39:13.800 --> 00:39:30.900
+Nathan George: invite people to do something or go go get your ticket repository and label whole bunch of things as good first bugs if you see a bunch of people kind of wandering by and starting to stop and stare it's a chance to invite them to join.
+
+297
+00:39:32.910 --> 00:39:33.300
+Jim Zhang: yeah.
+
+298
+00:39:36.210 --> 00:39:37.590
+Jim Zhang: So that that's more of.
+
+299
+00:39:40.230 --> 00:39:51.420
+Jim Zhang: Not measuring the health by helping the helping the providing the data to the mainers so they can they can.
+
+300
+00:39:52.800 --> 00:39:54.390
+Jim Zhang: Better grow the Community.
+
+301
+00:39:55.500 --> 00:40:02.850
+Jim Zhang: So this is not so much helping the thc the judges more to help maintain nurse to grow.
+
+302
+00:40:05.670 --> 00:40:06.270
+Nathan George: yeah.
+
+303
+00:40:08.370 --> 00:40:13.410
+Nathan George: yeah and for me that's ultimately that's what ptsd is trying to do and measuring as well as that.
+
+304
+00:40:14.700 --> 00:40:17.130
+Jim Zhang: I guess yeah I guess.
+
+305
+00:40:17.160 --> 00:40:18.030
+Jim Zhang: that's correct.
+
+306
+00:40:20.190 --> 00:40:22.080
+Jim Zhang: Okay, so.
+
+307
+00:40:49.980 --> 00:40:56.730
+Tracy Kuhrt: On the maturity section I don't know if this is right place for it or it's a good.
+
+308
+00:40:57.240 --> 00:41:01.350
+Tracy Kuhrt: measure of maturity, but the number of good first issues Nathan, when you said that that.
+
+309
+00:41:01.890 --> 00:41:04.110
+Tracy Kuhrt: popped into my head is something that maybe.
+
+310
+00:41:05.550 --> 00:41:08.760
+Tracy Kuhrt: We would want to be able to look at as well.
+
+311
+00:41:11.550 --> 00:41:14.100
+Jim Zhang: yeah so we're saying.
+
+312
+00:41:15.690 --> 00:41:21.120
+Jim Zhang: A mature project should have more of these are the other way around.
+
+313
+00:41:24.420 --> 00:41:37.710
+Tracy Kuhrt: I think that a mature project should have them because it indicates that they're willing to work with others and and I don't know, maybe it goes under at different.
+
+314
+00:41:38.820 --> 00:41:52.410
+Tracy Kuhrt: Maybe it's not maturity, maybe it's something else, but I just feel like it says something about the Community if they're willing to bring on new contributors and mentor those contributors through those good first issues.
+
+315
+00:41:54.360 --> 00:41:59.010
+Jim Zhang: gotcha, so this is kind of a is the Community is.
+
+316
+00:42:00.090 --> 00:42:03.570
+Jim Zhang: Project friendly to new contributors.
+
+317
+00:42:04.080 --> 00:42:11.670
+Tracy Kuhrt: yeah that's probably a good way of looking at that so maybe it's a completely different sort of metric under Community.
+
+318
+00:42:13.140 --> 00:42:14.730
+Tracy Kuhrt: And heart has his hand up as well.
+
+319
+00:42:15.360 --> 00:42:24.540
+Hart Montgomery: yeah I was just going to suggest exactly your last point there Tracy I think this is really important, and I think we could have a whole category on.
+
+320
+00:42:25.650 --> 00:42:29.820
+Hart Montgomery: Ease of new contributions or sort of new person onboarding great.
+
+321
+00:42:31.560 --> 00:42:37.620
+Hart Montgomery: We would like projects to have sort of smooth ways for new people to get involved.
+
+322
+00:42:39.960 --> 00:42:41.100
+Hart Montgomery: So you know.
+
+323
+00:42:42.480 --> 00:42:46.470
+Hart Montgomery: Good first issues is is adjust one of these things right.
+
+324
+00:42:47.880 --> 00:42:52.260
+Hart Montgomery: There are a lot of other different things that some projects do to help new contributors.
+
+325
+00:42:54.030 --> 00:42:56.790
+Hart Montgomery: So yeah I think this is where the whole category.
+
+326
+00:42:59.970 --> 00:43:02.430
+Jim Zhang: Or do you think this country is that category.
+
+327
+00:43:03.750 --> 00:43:04.560
+Hart Montgomery: Sure yeah.
+
+328
+00:43:05.160 --> 00:43:06.750
+Jim Zhang: Okay cool.
+
+329
+00:43:09.060 --> 00:43:09.720
+Jim Zhang: that's.
+
+330
+00:43:10.410 --> 00:43:18.210
+Nathan George: Great I was just going to challenge, whether that's a different category than responsiveness I think how how this is.
+
+331
+00:43:19.350 --> 00:43:29.610
+Nathan George: How you respond to new contributors is is an important metric of responsiveness, and I think one of the things that we often see and why one of the why of.
+
+332
+00:43:30.600 --> 00:43:38.160
+Nathan George: How we measure time result vr is time to respond to questions is to make sure that there's not kind of a hidden decision making cabal.
+
+333
+00:43:39.390 --> 00:43:44.670
+Nathan George: inside of the project, where some folks get their issues responded to quickly and other folks get their issues perpetually ignored.
+
+334
+00:43:45.300 --> 00:43:57.150
+Nathan George: Because that's a good sign that the projects having internal conflict or is likely to fork or have other troubles, and I think these friendliness numbers kind of all fit into that kind of a category of is everyone.
+
+335
+00:43:58.410 --> 00:44:00.960
+Nathan George: committed to working together and responding to one another.
+
+336
+00:44:04.950 --> 00:44:05.190
+Nathan George: Are.
+
+337
+00:44:05.220 --> 00:44:06.660
+Jim Zhang: Tracy, what do you think.
+
+338
+00:44:12.180 --> 00:44:15.060
+Hart Montgomery: Well, you know responsive how we've.
+
+339
+00:44:16.530 --> 00:44:16.980
+Hart Montgomery: You know.
+
+340
+00:44:18.360 --> 00:44:23.070
+Hart Montgomery: The way we've defined responsiveness right now is more about like.
+
+341
+00:44:24.330 --> 00:44:34.110
+Hart Montgomery: Time to communication, you know if we want to make a more general definition of like Community responsiveness that's fine.
+
+342
+00:44:36.480 --> 00:44:37.950
+Hart Montgomery: You know I thought it.
+
+343
+00:44:39.240 --> 00:44:46.200
+Hart Montgomery: I thought responsiveness had meant something more specific, but if we want it to be something broader that's fine too.
+
+344
+00:44:47.520 --> 00:45:01.050
+Hart Montgomery: You know, however, we classify these things or incorporate them into categories, you know it's it's not as important as it sort of just all being mentioned so i'm really fine with, however, we want to present this.
+
+345
+00:45:03.990 --> 00:45:15.870
+Jim Zhang: How about this, I think, maybe there's an aspect you guys are trying to capture Tracy heart is how easy is for someone to solve to get self started to to sort of.
+
+346
+00:45:16.500 --> 00:45:26.400
+Jim Zhang: know this is something they can they can get their hands on before even talking to people, this is sort of their first impression kind of thing.
+
+347
+00:45:27.390 --> 00:45:40.080
+Jim Zhang: Whereas responsiveness is more once a contributor has done something after have having you know evaluated this.
+
+348
+00:45:40.740 --> 00:45:57.210
+Jim Zhang: Then, how are they being treated by the by the maintainer group, because if you didn't have a good list of these things, it would be pretty difficult for a contributor to to get started right.
+
+349
+00:46:00.900 --> 00:46:06.570
+Jim Zhang: And then responsiveness wouldn't be reflected at all because there's no communication.
+
+350
+00:46:13.200 --> 00:46:15.420
+Tracy Kuhrt: And thank you, they go hand in hand.
+
+351
+00:46:17.040 --> 00:46:24.840
+Tracy Kuhrt: I think that you know somebody starting out first issue they're probably going to be asking a lot of questions and then their.
+
+352
+00:46:26.220 --> 00:46:36.060
+Tracy Kuhrt: Time to get a response on say discord is going to impact, whether or not they can be working in the issue or not right was that first impression that they got of the.
+
+353
+00:46:36.540 --> 00:46:53.340
+Tracy Kuhrt: Community something that was a good first impression, or it really just turned them off completely and they decided they'd go spend their time where they you know felt more welcomed into the Community and sorry rude I started speaking before I noticed, you had your hand up.
+
+354
+00:46:55.740 --> 00:47:07.230
+Aruna S M: No research so as him like I can speak now yep um I think on since we are on this topic right, one of the hard thing right now for us to measure or you know something's happening over there is.
+
+355
+00:47:08.100 --> 00:47:18.210
+Aruna S M: When we know their contributors and then understand the code base, and they would like to proceed with the contributions, however, they are not aligned to the projects roadmap or.
+
+356
+00:47:18.750 --> 00:47:28.500
+Aruna S M: What project maintenance currently think of right, so there is definitely a conflict of interest among those contributors and how would they like to answer them are.
+
+357
+00:47:29.760 --> 00:47:36.870
+Aruna S M: Where would they like to take it up from there, so I have heard such concerns earlier in a couple of projects, but.
+
+358
+00:47:38.490 --> 00:47:53.280
+Aruna S M: I don't know I think that's a bigger can of worms if we were to discuss that topic and I don't have answers as to how to measure or how to call can we win might understand that something like this exist internally to those projects.
+
+359
+00:47:55.500 --> 00:48:00.060
+Jim Zhang: So just make sure I understand you're saying.
+
+360
+00:48:02.280 --> 00:48:09.900
+Jim Zhang: Do we want to detect the situation where there are conflicting priorities within the maintainer group of a project.
+
+361
+00:48:11.340 --> 00:48:11.670
+Aruna S M: you're trying.
+
+362
+00:48:12.120 --> 00:48:12.780
+Aruna S M: To prevent.
+
+363
+00:48:13.620 --> 00:48:22.950
+Aruna S M: This is to prevent either of them from stopping to contribute, or you want to prevent them from creating a new coke off after project altogether.
+
+364
+00:48:26.340 --> 00:48:26.880
+Jim Zhang: Okay.
+
+365
+00:48:33.450 --> 00:48:34.590
+Jim Zhang: me too.
+
+366
+00:48:48.600 --> 00:48:51.390
+Jim Zhang: yeah splitting up the beauty, so the.
+
+367
+00:48:52.470 --> 00:49:00.870
+Jim Zhang: Have we have we seen evidence of this happening, either now or before I mean this is definitely a.
+
+368
+00:49:02.670 --> 00:49:10.350
+Jim Zhang: theoretical possibility but we We believe this is happening and it's it should be a concern.
+
+369
+00:49:12.360 --> 00:49:16.380
+Jim Zhang: By how important how hyper do you think this is.
+
+370
+00:49:21.450 --> 00:49:29.190
+Aruna S M: So it can answer if something like this happened, and to my understanding is I could see something like this happening in the past.
+
+371
+00:49:29.730 --> 00:49:41.190
+Aruna S M: Is it still happening I don't have an answer for that, in terms of priorities, since we're not seeing it anymore, when we should take it up some time but maybe not as a priority at this present.
+
+372
+00:49:41.760 --> 00:49:46.980
+Jim Zhang: yeah I feel like this is more on a case by case basis, I can think of, you know.
+
+373
+00:49:48.150 --> 00:49:59.760
+Jim Zhang: I don't, mind you know, giving this example because I think is public knowledge, the split between is hearing and mean that and if you're in classic right that's probably a good example of.
+
+374
+00:50:00.840 --> 00:50:10.440
+Jim Zhang: A Community splitting to quite quite independent code base because of their their parties and philosophies.
+
+375
+00:50:13.050 --> 00:50:31.560
+Jim Zhang: Sometimes it's it's not necessarily a good thing, sometimes maybe it is a good thing to allow that different approaches to to become different communities, so I I feel like this should be evaluated on a case by case basis.
+
+376
+00:50:40.980 --> 00:50:47.910
+Danno Ferrin: On the Amina classic split I think it's a bit more nuanced than that, but basically classics become a downstream distribution of maintenance.
+
+377
+00:50:48.390 --> 00:51:03.120
+Danno Ferrin: So that's another way that communities by split one might stop being you know, the main one and mine might become a downstream and just do what they want, on top of it, because you know the Kobe says split all the code for the most part flows from a network in the classic work.
+
+378
+00:51:04.980 --> 00:51:05.850
+Jim Zhang: yeah I agree.
+
+379
+00:51:06.540 --> 00:51:12.300
+Jim Zhang: majority of the enhancements still applies to both code base yeah definitely.
+
+380
+00:51:17.460 --> 00:51:21.360
+Hart Montgomery: I mean, I think, communities could split for totally benign reasons to that are.
+
+381
+00:51:21.450 --> 00:51:35.820
+Hart Montgomery: they're actually quite good right, I mean like you know essentially right sort of indie Forked off both areas and ursa right, and I think those were both positive forks right, it was hey here's this component.
+
+382
+00:51:37.050 --> 00:51:43.290
+Hart Montgomery: You know we're using it, but other people want to use it to what you know people that don't want to use sort of our main.
+
+383
+00:51:43.710 --> 00:51:56.310
+Hart Montgomery: thing why don't we work it off so it's easier for them to use right, I think you know those were you know I think certainly positive examples of of projects, putting off right.
+
+384
+00:51:57.360 --> 00:51:57.990
+Jim Zhang: yeah.
+
+385
+00:52:04.710 --> 00:52:08.670
+Nathan George: Well, in some sense that's what gets that the thing that's hard to measure here, which is.
+
+386
+00:52:09.330 --> 00:52:20.130
+Nathan George: A project needs to be friendly enough to new ideas, so that those new ideas can incubate within the project as opposed to having to create their own new space outside of hyper ledger to explore that.
+
+387
+00:52:20.580 --> 00:52:35.730
+Nathan George: That new or interesting idea right because it's that's the paradox of open source is that the easier, you are to fork within your project, the less likely someone will have to make a new venue or a new Community in order to explore their idea and what we're trying to get at here is.
+
+388
+00:52:37.290 --> 00:52:48.960
+Nathan George: Is there's that kind of conflict or sheer that makes people want to leave, or is there that kind of collaboration and friendliness that makes people want to say, I disagree with you, but I want you to watch and see if i'm doing something dangerous tell me.
+
+389
+00:52:58.200 --> 00:53:06.810
+Jim Zhang: yeah definitely agree there, so I put that under friendliness to new contributors or new ideas.
+
+390
+00:53:22.050 --> 00:53:29.520
+Jim Zhang: Any other big ideas, I guess, we have one more minute, and then we should wrap up and give the floor back to Tracy.
+
+391
+00:53:32.670 --> 00:53:33.240
+Jim Zhang: So.
+
+392
+00:53:36.570 --> 00:53:45.840
+Jim Zhang: We probably should talk about the the cadence of the call I guess i'll model, the other task forces to have one off cycle call.
+
+393
+00:53:50.250 --> 00:53:51.390
+Jim Zhang: Probably should.
+
+394
+00:53:52.590 --> 00:53:56.430
+Jim Zhang: Self organize to decide on the the timing of that.
+
+395
+00:53:59.490 --> 00:54:01.470
+Jim Zhang: Through discord.
+
+396
+00:54:07.140 --> 00:54:13.350
+Jim Zhang: cool so I guess right, you would have to create that channel for us right.
+
+397
+00:54:15.030 --> 00:54:15.990
+Jim Zhang: That has for us.
+
+398
+00:54:17.220 --> 00:54:21.690
+Ry Jones: That that ability has been delegated to all Members with the tlc role.
+
+399
+00:54:21.750 --> 00:54:22.860
+Jim Zhang: so great.
+
+400
+00:54:23.040 --> 00:54:23.670
+cool just.
+
+401
+00:54:25.110 --> 00:54:25.710
+Ry Jones: feel free.
+
+402
+00:54:27.210 --> 00:54:27.750
+Jim Zhang: will do.
+
+403
+00:54:28.140 --> 00:54:28.950
+Jim Zhang: Thanks right.
+
+404
+00:54:31.170 --> 00:54:34.590
+Jim Zhang: awesome so i'll publish this and then.
+
+405
+00:54:39.870 --> 00:54:42.390
+Jim Zhang: coordinate with.
+
+406
+00:54:43.800 --> 00:54:55.620
+Jim Zhang: Those who are interested to continue the discussion on a off cycle call schedule and then we can go from there appreciate everybody's input today and.
+
+407
+00:54:56.730 --> 00:54:58.170
+Jim Zhang: give it back to you Tracy.
+
+408
+00:54:59.730 --> 00:55:02.580
+Tracy Kuhrt: Alright, thanks, Jim thanks for taking us through this.
+
+409
+00:55:04.080 --> 00:55:09.240
+Tracy Kuhrt: Next week the things that I know that are going to be on the agenda are.
+
+410
+00:55:12.240 --> 00:55:17.400
+Tracy Kuhrt: they're just all slipped my mind, they were right there another gun so that pull request from Dan oh.
+
+411
+00:55:18.420 --> 00:55:36.240
+Tracy Kuhrt: The review of fabric and then I think we're back to the beginning of the task forces so we'll be talking about project families next week, so if you have any additional input on the project families that you haven't added to any of the wiki pages, or the word document, please do that.
+
+412
+00:55:37.770 --> 00:55:47.580
+Tracy Kuhrt: And we'll make sure that we can continue that discussion next week so with that i'm going to close the call so thanks for attending today.
+

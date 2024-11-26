@@ -1,0 +1,52 @@
+00:22:23	Drummond Reed:	That’s quite an author list!
+00:30:49	Robert Mitwicki:	for merging did documents maybe would be interesting to take a look on the auto automerge https://github.com/automerge/automerge/blob/master/README.md
+00:31:22	Drummond Reed:	I don’t know about anyone else, but I think this spec should be nominated for an Oskar for Best Spec.
+00:33:18	Drummond Reed:	Wow, that was a total Freudian slip - I meant “Oscar”, but wrote “Oskar”—because he’s one of the co-authors! :-)
+00:35:04	Markus Sabadello:	We should invent a new type of award for Best Specs. We can call it a "Drummond"!
+00:36:42	Drummond Reed:	Ha!
+00:36:52	Drummond Reed:	Why did I know that the “
+00:37:18	Drummond Reed:	“Bob and Alice breaking up” use case was going to come up at some point in the peer DID conversation :-)
+00:37:35	Tomislav Markovski:	Re merging did docs, might be worth looking at sidetree protocol, defines good merge strategies using commits
+00:38:22	Tomislav Markovski:	Bob and Alice have been exchanging a lot of love letters, at least in these agent calls, they’re due for some dramatic episode for sure
+00:38:33	Drummond Reed:	LOL
+00:38:39	Tobias Looker:	Haha!
+00:39:12	Daniel Bluhm:	lol I was thinking along the same lines
+00:44:47	Drummond Reed:	Standing ovation
+00:45:04	Stephen Curran:	Awesome stuff!
+00:45:08	Paul Knowles:	Great spec, Daniel!
+00:45:14	Daniel Hardman:	https://openssi.github.io/peer-did-method-spec
+00:45:15	Tobias Looker:	Awesome work!
+00:46:11	Kyle Den Hartog:	Regarding the NSI call to action, it would be cool to see if people can also support both “did:sov:peer:NSI” and “did:peer:NSI” to see how that might break things. This would be useful when dealing with the grafting use case.
+00:48:27	Robert Mitwicki:	Daniel: where to look for first implementation is it same repo? I would be interested in Kotlin implementation which I could contribute.
+00:48:57	Markus Sabadello:	https://danubetech.com/temp/HyperledgerAriesResolution.pdf
+00:51:02	Daniel Hardman:	@Robert: I’m writing the impl in a separate repo at the moment. However, I’ll copy or move it to the same repo by the time I share it next week. And other impls would be great to put in that same repo, if they’re simple enough.
+00:53:31	Drummond Reed:	Am I missing something? The Local and Remote “Read” operations look identical
+00:53:54	Drummond Reed:	Ah, “remote read” is the difference...
+00:56:52	Drummond Reed:	As usual, Markus does a great job at illustrating technical concepts visually
+01:01:54	Drummond Reed:	One resolver talking to another resolver is of course how DNS resolution typically works
+01:02:18	Michael Lodder:	From one resolver to another, “Did you resolve it?”
+01:02:59	Drummond Reed:	@Tobias: my one suggestion in this diagram is to show multiple method drivers in the HTTPWebServer resolver too
+01:03:15	Drummond Reed:	The same way as you show multiple local method drivers
+01:06:32	Tobias Looker:	Yes @Drummond I will try and make this diagram a little clearer but I totally agree we should be setting up did drivers so they don’t need to resolve just one did method
+01:06:44	Drummond Reed:	+1
+01:12:34	Paul Knowles:	@peacekeeper “type=overlay” should definitely be an addition. (e.g. “did:xyz:1234;type=overlay;id=z9y8x7w6”)
+01:13:50	Paul Knowles:	+1 to Resolver RFC
+01:13:55	Drummond Reed:	+1 to drafting a Resolver RFC
+01:14:12	Drummond Reed:	Second standing ovation in one call!
+01:14:24	Markus Sabadello:	I like type=overlay
+01:19:14	Kyle Den Hartog:	Worth noting: Authenticated origin will require DID resolving to link the key in the packed message to a DID.
+01:19:24	Drummond Reed:	Are we going to call it the “Aries protocol” or the “DIDComm protocol”?
+01:19:34	Tobias Looker:	+1 to DIDComm protocol
+01:19:38	Kyle Den Hartog:	-1 for Aries protocol
+01:20:49	Kyle Den Hartog:	gotcha
+01:21:35	Drummond Reed:	Is it “DIDComm” or “DIDComms”? And is that the correct spelling (no spaces)?
+01:21:44	Kyle Den Hartog:	DIDComm officially
+01:21:51	Kyle Den Hartog:	Colloquially it can be either
+01:21:52	Drummond Reed:	thanks
+01:23:33	Stephen Curran:	Definitely no "s".  I thought it was "DIDcomm", but I could be wrong.
+01:24:44	Kyle Den Hartog:	I’ve not used lowercase “c” but I see no reason why it couldn’t be used in that way and would be willing to change.
+01:24:49	Sam Curren (TelegramSam):	I like DIDComm.
+01:25:04	Sam Curren (TelegramSam):	but unviolently so.
+01:25:09	Stephen Curran:	BTW - Daniel went through the rationale for no "s".
+01:25:19	Drummond Reed:	I like DIDComm.
+01:26:08	Daniel Hardman:	Re. “didcomm” vs. “didcomms”, the official discussion on this question took place in GitHub issues: https://github.com/hyperledger/aries-rfcs/issues/73

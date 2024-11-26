@@ -1,0 +1,57 @@
+10:06:45	 From Dinesh Srinivasan : No concerns here
+10:19:24	 From Akiff Manji : Is the idea here to have component level i18n?
+10:19:28	 From Akiff Manji : Rather than a global one?
+10:19:40	 From Akiff Manji : Component encapsulated
+10:24:39	 From Akiff Manji : Ok I think I can see now the purpose behind the interface then
+10:24:55	 From Akiff Manji : That could add a further layer of decoupling from i18n
+10:25:41	 From Akiff Manji : I think we should have a11y by default
+10:31:48	 From Dinesh Srinivasan : +1 for responsive design to cover tablets.
+10:32:50	 From Akiff Manji : With the ability to disable
+10:32:57	 From James Ebert : +1 ^
+10:40:54	 From Dinesh Srinivasan : Woot woot that would be amazing.
+10:41:58	 From Dinesh Srinivasan : Will the native binaries also be included in the npm packages? Or do we still manually need to add them to the android and iOS directory.
+10:42:21	 From Mostafa Gamal : You will have to add them
+10:43:01	 From Dinesh Srinivasan : 👍
+10:43:30	 From Akiff Manji : I would assume that would be somewhat of a democratic process?
+10:44:11	 From Tim Bloomfield : Ontario would need to become more engaged in the PR review process - something that we are not doing now and should be
+10:47:28	 From Mostafa Gamal : +1 with Json suggestion
+10:47:49	 From Dinesh Srinivasan : +1 ^
+10:52:59	 From Akiff Manji : My only issue is do we care if there are duplicate entries?
+10:53:07	 From Akiff Manji : Less an issue and more a question
+10:55:42	 From Akiff Manji : What about interpolated values?
+10:55:49	 From Akiff Manji : I would avoid them
+10:56:05	 From Akiff Manji : Unless necessary
+10:58:13	 From Dinesh Srinivasan : Just curious, will the new framework support *.svg images? Currently images can only be *.png.
+11:05:54	 From Timo Glastra : For Indy SDK we use this Expo plugin: https://github.com/animo/indy-sdk-expo-plugin
+11:06:40	 From Timo Glastra : Maybe Bifold could also use Expo? You don't have to use their cloud services, but their prebuild command (which you can run yourself) is amazing!
+11:07:34	 From Akiff Manji : What was the initial issue with us using Expo?
+11:08:16	 From Timo Glastra : Catering to too much can also be problematic. Sometimes opinions are good 🙂
+11:09:14	 From Dinesh Srinivasan : https://github.com/animo/indy-sdk-expo-plugin - does it support IOS?
+11:10:26	 From Timo Glastra : Yes iOS and Android
+11:10:46	 From Dinesh Srinivasan : Neat.. IOS simulator as well?
+11:10:54	 From Timo Glastra : Sadly, no 🙁
+11:11:00	 From Dinesh Srinivasan : Uh oh
+11:11:14	 From Jason Leach : Danesh, won’t work because you can’t use the iOS camera simulator for QR codes.
+11:11:29	 From Dinesh Srinivasan : Duh!
+11:11:57	 From Dinesh Srinivasan : Ty ty
+11:12:20	 From Mostafa Gamal : We cannot use Expo so far, we already started customizing some native components per iOS/Android
+11:14:27	 From Akiff Manji : I would say whatever makes it easier for users to setup the project, why not?
+11:15:20	 From Mostafa Gamal : But then you are limiting major sector who are already bootstrapping in cli mode
+11:15:56	 From Akiff Manji : I meant we provide multiple paths
+11:16:05	 From Akiff Manji : But that might be a lot of overhead
+11:16:07	 From Mostafa Gamal : Ah okay, makes sense
+11:16:52	 From Dinesh Srinivasan : +1 for storybook
+11:17:00	 From Mostafa Gamal : Have to drop, will follow up with the recording
+11:17:56	 From Akiff Manji : Lets also talk about test coverage since were on that topic
+11:20:44	 From Timo Glastra : Have to drop. Great session, lot's going on!
+11:30:07	 From Akiff Manji : I think the core question we should ask is how we incorporate testing and how deep?
+11:35:39	 From Akiff Manji : Can we also set up a roadmap of how we move through this process?
+11:39:48	 From Jason Leach : aries-bifold-framework
+11:39:53	 From Ryan Koch : ^
+11:46:00	 From Dinesh Srinivasan : An alternative name recommendation:
+aries-bifold-core
+aries-bifold-native-libs
+
+And in the future.. (prefix - `aries-bifold-*`):
+aries-bifold-ui
+etc,etc

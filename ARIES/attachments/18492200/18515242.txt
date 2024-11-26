@@ -1,0 +1,12 @@
+13:06:13	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=51611309
+13:22:40	 From  Stephen Curran : Stepping out for a moment
+13:25:15	 From  Stephen Curran : Back -- are we done with AIP 2?
+13:33:16	 From  Troy Ronda : Hey all - sorry I’m late.
+13:37:33	 From  Troy Ronda : Anyways, I kinda feel like value has more limited value.
+13:37:47	 From  Troy Ronda : Because you have to dereference anyways.
+13:38:01	 From  Troy Ronda : When evaluating from.
+13:39:39	 From  Troy Ronda : Yup - agree that it would be best that value should be part of the DID when that’s needed … like in did:peer. It would be nice to not need to invent some extra value field.
+13:40:38	 From  Troy Ronda : And also the existing spec already does id not value :).
+13:42:55	 From  Troy Ronda : Yup.
+13:46:22	 From  Troy Ronda : My vote would be just to do DIDs and not values.
+14:06:36	 From  Troy Ronda : And I’ll open the PR for ECDH-1PU draft 04.

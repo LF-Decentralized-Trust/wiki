@@ -1,0 +1,254 @@
+WEBVTT
+
+1
+00:00:05.730 --> 00:00:09.630
+Peter Somogyvari: Hello everyone, welcome to the hyper ledger tactics maintainer meeting.
+
+2
+00:00:10.650 --> 00:00:13.349
+Peter Somogyvari: Please abide by the policy noses.
+
+3
+00:00:14.639 --> 00:00:16.980
+Peter Somogyvari: And the hyper ledger code of conduct.
+
+4
+00:00:18.300 --> 00:00:28.560
+Peter Somogyvari: i'm showing the policy now is for the anti federalists who's on the screen and we also have a link to the Code of Conduct here on the agenda document.
+
+5
+00:00:31.710 --> 00:00:35.910
+Peter Somogyvari: And with That said, I just wanted to.
+
+6
+00:00:38.550 --> 00:00:39.510
+Peter Somogyvari: go through.
+
+7
+00:00:40.620 --> 00:00:46.530
+Peter Somogyvari: two topics real quick one is that we have this issue with ci they're.
+
+8
+00:00:48.480 --> 00:00:53.850
+Peter Somogyvari: Upgrading the node js version 216 14 to.
+
+9
+00:00:55.260 --> 00:00:56.700
+Peter Somogyvari: makes it so that.
+
+10
+00:00:58.470 --> 00:01:01.650
+Peter Somogyvari: digests test runner starts running out of memory.
+
+11
+00:01:03.240 --> 00:01:06.720
+Peter Somogyvari: And so i'm working on fixing that, because this is blocking.
+
+12
+00:01:08.370 --> 00:01:14.130
+Peter Somogyvari: ci partially at the moment and that's a good because it holds up a poll question as well.
+
+13
+00:01:16.350 --> 00:01:16.860
+and
+
+14
+00:01:18.810 --> 00:01:24.180
+Peter Somogyvari: I have issues open for it, so if you have suggestions or comments he can.
+
+15
+00:01:25.890 --> 00:01:29.280
+Peter Somogyvari: make those in those issues that I linked in the agenda document.
+
+16
+00:01:30.690 --> 00:01:35.610
+Peter Somogyvari: and, hopefully, I have a fix for it this week.
+
+17
+00:01:44.010 --> 00:01:51.780
+Peter Somogyvari: And then the second thing is that I now have the rocket chat handles of.
+
+18
+00:01:53.700 --> 00:01:56.100
+Peter Somogyvari: Both new maintainer that we're going to add.
+
+19
+00:01:57.600 --> 00:02:01.500
+Peter Somogyvari: And so I will be updating that full quest of mine.
+
+20
+00:02:02.760 --> 00:02:07.200
+Peter Somogyvari: Today, before the actual meeting we have with our team.
+
+21
+00:02:09.120 --> 00:02:09.540
+Peter Somogyvari: and
+
+22
+00:02:13.050 --> 00:02:15.930
+Peter Somogyvari: And then i'll ask everyone to review that.
+
+23
+00:02:17.460 --> 00:02:18.000
+Peter Somogyvari: So that's.
+
+24
+00:02:19.110 --> 00:02:20.580
+Peter Somogyvari: that's the other news that I had.
+
+25
+00:02:21.540 --> 00:02:22.200
+Okay.
+
+26
+00:02:24.150 --> 00:02:37.890
+Takuma Takeuchi: yeah so I already approved by on the drop to status and bust out to our if you if this if this the brd to change those Oliver debut in the we could equate the status.
+
+27
+00:02:40.560 --> 00:02:40.890
+Peter Somogyvari: quo.
+
+28
+00:02:41.310 --> 00:02:41.820
+Peter Somogyvari: And here.
+
+29
+00:02:46.800 --> 00:02:52.260
+Peter Somogyvari: All right, and those are all the discussion items I had anyone else has anything.
+
+30
+00:02:52.800 --> 00:03:18.750
+Takuma Takeuchi: yeah so to eat the food to the enough to the aim, in the end of that about uber for answers are so I use is having me it's sort of a discussion of the Caucus in viva in UAE on the disease today, so the leader in the dining room are in similar in me this is.
+
+31
+00:03:19.980 --> 00:03:22.380
+Takuma Takeuchi: This was submitted yeah and.
+
+32
+00:03:23.640 --> 00:03:34.170
+Takuma Takeuchi: yeah and also the fire for it in a way, a practice of writing articles are there, we submit deeds.
+
+33
+00:03:34.740 --> 00:03:44.820
+Takuma Takeuchi: cocktails cocktails in firefly pop on air with me yeah This is also a pro DC or thoughts are submitted, and now we are now I.
+
+34
+00:03:45.810 --> 00:04:05.130
+Takuma Takeuchi: wanted to do is our organizer to how to deal with these two these two robots are blockchain integrated integrated on the discussion on this is through the weather this is someone who is one on it or, this is a separate the two partners, this is our I.
+
+35
+00:04:06.210 --> 00:04:11.430
+Takuma Takeuchi: guess, we are based on my dog to our decision decision over overnight oh yeah.
+
+36
+00:04:14.130 --> 00:04:18.300
+Peter Somogyvari: sounds good, thank you for doing all those missions that's very helpful.
+
+37
+00:04:18.900 --> 00:04:19.470
+Takuma Takeuchi: Thank you.
+
+38
+00:04:36.930 --> 00:04:41.160
+Peter Somogyvari: cool any other discussion topics from anyone.
+
+39
+00:04:47.160 --> 00:04:47.850
+Takuma Takeuchi: For me.
+
+40
+00:04:51.000 --> 00:05:12.120
+Takuma Takeuchi: about our social security check it checking sort of our so last week so obviously we we received the desert over the other status report in maybe this is the fight the document says that the finding was nice is no no risk it right.
+
+41
+00:05:14.940 --> 00:05:17.160
+Peter Somogyvari: I don't know I haven't seen the report that.
+
+42
+00:05:17.190 --> 00:05:33.180
+Takuma Takeuchi: Gas okay so, so I will also OK, so the to the IBM associate by our emails are later and night right now okay so it's about so maybe thought praise so so please confirm, yes, thank you.
+
+43
+00:05:34.590 --> 00:05:34.920
+Peter Somogyvari: All right.
+
+44
+00:05:36.840 --> 00:05:37.620
+Takuma Takeuchi: Okay, thank you.
+
+45
+00:05:39.360 --> 00:05:47.520
+Hart Montgomery: Peter, I also wanted to ask if the collaboration with other people were with outsiders we're growing Okay, and if you need any help on that.
+
+46
+00:05:50.130 --> 00:05:53.550
+Peter Somogyvari: Oh well, that's going well, we are just.
+
+47
+00:05:56.040 --> 00:05:57.360
+Peter Somogyvari: scheduling is a nightmare.
+
+48
+00:05:57.510 --> 00:06:00.120
+Peter Somogyvari: Because yeah so many time zones now.
+
+49
+00:06:01.170 --> 00:06:01.770
+Hart Montgomery: I understand.
+
+50
+00:06:03.360 --> 00:06:03.690
+Peter Somogyvari: But.
+
+51
+00:06:04.770 --> 00:06:08.220
+Peter Somogyvari: you're taking it one step at a time emails back and forth.
+
+52
+00:06:09.510 --> 00:06:11.820
+Peter Somogyvari: And then someone will have to.
+
+53
+00:06:13.050 --> 00:06:16.980
+Peter Somogyvari: feel some pain, you know staying up late or waking up really early.
+
+54
+00:06:19.110 --> 00:06:20.880
+Peter Somogyvari: But that's about it and then.
+
+55
+00:06:22.440 --> 00:06:22.860
+Peter Somogyvari: it's.
+
+56
+00:06:24.780 --> 00:06:28.890
+Peter Somogyvari: Just one of those things until even time trial or something like it.
+
+57
+00:06:33.600 --> 00:06:36.120
+Hart Montgomery: yep alright just let me know if you need any help.
+
+58
+00:06:52.230 --> 00:06:52.680
+Peter Somogyvari: Okay.
+
+59
+00:06:53.100 --> 00:06:57.720
+Peter Somogyvari: If there's nothing else, then we can close the call yeah.
+
+60
+00:06:57.780 --> 00:06:58.530
+Takuma Takeuchi: Thank you.
+
+61
+00:07:00.150 --> 00:07:03.150
+Peter Somogyvari: Thanks everyone for joining and i'll talk to you soon.
+
+62
+00:07:03.660 --> 00:07:04.440
+Hart Montgomery: Excellent Peter.
+
+63
+00:07:04.890 --> 00:07:05.310
+Takuma Takeuchi: Thank you.
+

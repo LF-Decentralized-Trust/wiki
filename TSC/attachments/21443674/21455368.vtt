@@ -1,0 +1,1578 @@
+WEBVTT
+
+1
+00:00:07.649 --> 00:00:19.410
+Tracy Kuhrt: Alright, welcome everybody to the January 13 tlc call, as you are probably all aware there's two things that we must abide by and these calls are the first is the.
+
+2
+00:00:19.920 --> 00:00:35.100
+Tracy Kuhrt: antitrust policy notice, which is displayed currently on the screen and the second one is the hyper ledger code of conduct, which is linked to our agenda, of course, everyone is welcome to participate in these calls and.
+
+3
+00:00:36.270 --> 00:00:46.020
+Tracy Kuhrt: We with that we will get started with our announcements, so, as always, the announcement about the Dev weekly developer newsletter that goes out.
+
+4
+00:00:46.680 --> 00:00:56.760
+Tracy Kuhrt: Each Friday, if you have any sort of content that you would like to be sure gets included in that Dev weekly newsletter please click on the link in the agenda.
+
+5
+00:00:57.270 --> 00:01:12.960
+Tracy Kuhrt: there's a wiki page that allows you to add comments or add anything that you'd like to to be considered for the newsletter, are there any other announcements that people have that are not currently listed here.
+
+6
+00:01:21.720 --> 00:01:30.150
+Tracy Kuhrt: Alright, see no hands, I will take that as a no So the first thing that we have on our agenda is the quarterly reports.
+
+7
+00:01:30.660 --> 00:01:40.230
+Tracy Kuhrt: As you can see from the quarterly reports we have four outstanding quarterly reports that are do with the earliest one being from December 6.
+
+8
+00:01:40.830 --> 00:02:01.290
+Tracy Kuhrt: And we did receive the hyper ledger cactus report this week, so thank you heart for putting that together, and for the additions that I saw come in last night to that as well, are there any questions that anybody has on the hyper ledger cactus report.
+
+9
+00:02:11.070 --> 00:02:13.230
+Tracy Kuhrt: and hopefully.
+
+10
+00:02:14.280 --> 00:02:27.120
+Tracy Kuhrt: The one question that you had that was for the tasc about the marketing I did see David did answer that question so hopefully that's all good there and.
+
+11
+00:02:28.170 --> 00:02:37.920
+Tracy Kuhrt: If there's no questions, there are still a few remaining folks who still need to review the report, please take the opportunity to do that today.
+
+12
+00:02:39.150 --> 00:02:48.990
+Tracy Kuhrt: As you may or may not know in in the wiki there is a way to see all of your open task I would highly recommend clicking on your picture in the top.
+
+13
+00:02:51.090 --> 00:03:00.270
+Tracy Kuhrt: The top right corner, thank you for demonstrating and clicking on the task there you'll see all your open task so.
+
+14
+00:03:02.250 --> 00:03:11.790
+Tracy Kuhrt: Right has some looks like some tests that he probably didn't realize you had that he'll go work on i'm sure now but anyway.
+
+15
+00:03:12.450 --> 00:03:14.970
+Tracy Kuhrt: there's there's everybody has their own set of tasks.
+
+16
+00:03:15.150 --> 00:03:26.970
+Tracy Kuhrt: And so, please take the take the opportunity to go through that and look at what still needs to be reviewed from your end so we can get some of these reports that have been outstanding closed out from the tsp perspective.
+
+17
+00:03:28.350 --> 00:03:47.850
+Tracy Kuhrt: Alright, so with that I think the next item is a presentation about the hyper ledger challenge 22 so a rude I know you introduce this topic for us, did you want to set the stage, and then we can hand it over to whoever is going to be presenting for us.
+
+18
+00:03:49.230 --> 00:03:57.780
+Aruna S M: Sure thanks Tracy everyone morning Good afternoon, good evening I know a few days ago, or maybe in one of our previous call last year.
+
+19
+00:03:58.680 --> 00:04:09.960
+Aruna S M: I discussed briefly about hyper ledger challenge, so this has been in plan for a while now, and now we have concrete plans and a stage is set up for us to kick start.
+
+20
+00:04:10.650 --> 00:04:21.030
+Aruna S M: elect Nancy introduce every I mean Nancy introduce the rest of the planet and the steps in the goals for the event, without further ado, what do you fancy.
+
+21
+00:04:23.370 --> 00:04:23.910
+Nancy Min: Thank you.
+
+22
+00:04:24.450 --> 00:04:31.710
+Nancy Min: Thank you everyone, and thank you Tracy for the time on the calendar, my name is Nancy man i'm the Chair of the social impact, special interest group.
+
+23
+00:04:32.640 --> 00:04:35.460
+Nancy Min: As a rune had just mentioned earlier last year.
+
+24
+00:04:36.900 --> 00:04:42.090
+Nancy Min: The hyper ledger India chapter had kicked off a hyper hackathon hackathon.
+
+25
+00:04:43.620 --> 00:04:47.700
+Nancy Min: that the social impact, special interest group also participated and collaborated on.
+
+26
+00:04:49.140 --> 00:04:55.680
+Nancy Min: You know, it was a it was a great event, and it was one of the first collaborations and what we wanted to do was kind of pilot the concept of.
+
+27
+00:04:56.640 --> 00:05:09.870
+Nancy Min: Cross collaboration between special interest groups, as well as the technical communities, and I think it was overall very well received and we had a lot of great use case and a lot of technical innovation, they came out from the hyper hack event.
+
+28
+00:05:11.070 --> 00:05:16.530
+Nancy Min: And there were a couple of things that we kind of identified coming out from that invite one was that.
+
+29
+00:05:17.640 --> 00:05:26.070
+Nancy Min: The development of you know, true innovation doesn't happen over a weekend and it surely doesn't happen, just over you know over the night so.
+
+30
+00:05:26.640 --> 00:05:36.990
+Nancy Min: And the other thing was that in order for a innovation to be truly sustainable in the long term we needed a lot more Community resources to do something like this.
+
+31
+00:05:37.650 --> 00:05:55.740
+Nancy Min: And so that's why we pilot we're going to be piloting this hyper ledger challenge 2022 which is going to be a multi month kind of like a marathon with three phases, the IDA prototype and the launch phases and the goal of this is to really develop sustainable innovative.
+
+32
+00:05:56.760 --> 00:06:09.030
+Nancy Min: Open Source projects in the manner of months with the goal of really kind of driving increased engagement and awareness of the open source community, in particular for hyper ledger foundation.
+
+33
+00:06:11.070 --> 00:06:14.700
+Nancy Min: Across new developer communities as well as new business communities.
+
+34
+00:06:16.110 --> 00:06:21.150
+Nancy Min: Do I have the ability to share the screen for the wiki page or I don't know if.
+
+35
+00:06:21.660 --> 00:06:26.940
+Tracy Kuhrt: You should have a share screen at the bottom of zoom so can.
+
+36
+00:06:29.370 --> 00:06:30.600
+Nancy Min: You just quickly share my screen.
+
+37
+00:06:32.100 --> 00:06:32.580
+Tracy Kuhrt: We can do.
+
+38
+00:06:33.360 --> 00:06:34.080
+Nancy Min: awesome Thank you.
+
+39
+00:06:34.650 --> 00:06:36.150
+Nancy Min: So, as I kind of just mentioned.
+
+40
+00:06:36.870 --> 00:06:45.960
+Nancy Min: The what we're looking for is any innovation that advances the current state of the art for enterprise grade distributed ledger technologies leveraging one or more of the hyper ledger projects.
+
+41
+00:06:46.800 --> 00:06:54.330
+Nancy Min: The goal of this is really to help each of the projects working groups and special interest groups drive awareness engagement of new communities.
+
+42
+00:06:54.810 --> 00:07:00.510
+Nancy Min: into their platforms so as an example of how we're going to be doing that so we're going to be decentralizing.
+
+43
+00:07:01.320 --> 00:07:10.770
+Nancy Min: The marketing approach, for example, so, as opposed to having kind of a central forum for spreading the word on this invite we're going to be relying on each of the Community members.
+
+44
+00:07:11.430 --> 00:07:20.130
+Nancy Min: To engage with their communities as well as new communities and help us this Chakra ledger challenge as a way of kind of opening up that pipeline.
+
+45
+00:07:20.820 --> 00:07:35.130
+Nancy Min: So, as I had mentioned earlier there's only three rounds each of these rounds and the idea phase prototype phase and launch phase is going to be approximately two months and the idea phase, the goal is to work with new developers and new new innovators really.
+
+46
+00:07:36.270 --> 00:07:47.640
+Nancy Min: To help them come up with new concepts and solutions and then at the end of that they'll submit a proposal to us out there, a concept and those will all be posted on this wiki page.
+
+47
+00:07:48.210 --> 00:07:54.870
+Nancy Min: So that the Community can kind of share and also review and look at the great solutions that are proposed, at the outset of this.
+
+48
+00:07:55.950 --> 00:08:01.200
+Nancy Min: For the winners, they will be matched with mentors across the hyper ledger communities.
+
+49
+00:08:01.890 --> 00:08:09.270
+Nancy Min: And also be given space and the hyper ledger labs so that they can start prototyping their solution and, and so the prototype phase is another two months.
+
+50
+00:08:09.870 --> 00:08:19.020
+Nancy Min: Where they you know we will encourage them to work with their mentors and they can help identify themselves the resources that they need and we'll try to match them with those.
+
+51
+00:08:20.430 --> 00:08:35.190
+Nancy Min: across this two month prototype challenged will we're looking for us for them to commit the code develop something that really kind of shows the traction and the potential for their solution and, at the end of the prototype phase will select five to six teams.
+
+52
+00:08:36.240 --> 00:08:42.120
+Nancy Min: Based on the great response Community engagement and how well their solution really kind of.
+
+53
+00:08:43.500 --> 00:08:45.690
+Nancy Min: fits what, in terms of solution market fit.
+
+54
+00:08:46.950 --> 00:08:55.170
+Nancy Min: And at the end of the prototype phase there'll be given space and the Linux foundation crowdfunding sites, so the goal, there is for them to go out.
+
+55
+00:08:55.560 --> 00:09:01.380
+Nancy Min: To their communities and identify additional follow on funding and support to support their solutions.
+
+56
+00:09:02.040 --> 00:09:09.480
+Nancy Min: And so during the launch phase they'll continue to work to work out their prototype continue building their communities.
+
+57
+00:09:09.870 --> 00:09:28.170
+Nancy Min: And and try to develop and find new follow on funding and support and, at the end of the launch phase what they'll get actually as an opportunity to present their solution at the hyper ledger global forum across a global community and really be able to kind of look at that longer term.
+
+58
+00:09:29.790 --> 00:09:34.740
+Nancy Min: You know, innovation and how can they continue to develop out there, Open Source projects.
+
+59
+00:09:36.600 --> 00:09:44.040
+Nancy Min: You know, as as a follow on to this hyper ledger challenge, so you know, in terms of this, you know this is definitely going to be a very large effort.
+
+60
+00:09:44.640 --> 00:09:54.570
+Nancy Min: And you know that's why we're you know, really, I was really excited to be able to speak at the technical steering committee because you know I think you guys, are you know our steering the kind of.
+
+61
+00:09:55.590 --> 00:10:04.500
+Nancy Min: You know the focus area of the hyper ledger foundation I would love to kind of get your involvement and invite you to kind of give me feedback and comments on how we can make this better across.
+
+62
+00:10:05.130 --> 00:10:11.580
+Nancy Min: The overall hyper ledger foundation, and so a couple specific asks that we have one is you know if you can work.
+
+63
+00:10:12.300 --> 00:10:18.720
+Nancy Min: Help us with spreading the word on this event, with your communities second thing is, if you guys would be willing.
+
+64
+00:10:19.470 --> 00:10:28.440
+Nancy Min: You know you or folks that you know, in your in the Community, that would be willing to serve as mentors we actually have a mentor intake form right here for the call for mentors.
+
+65
+00:10:30.570 --> 00:10:38.850
+Nancy Min: that's going to be really critical because you know everyone here knows right even months to develop something that's really innovative is really hard.
+
+66
+00:10:39.570 --> 00:10:46.710
+Nancy Min: So if you know, the more great mentors that we can match each of these teams with there's more potential that we can actually develop something.
+
+67
+00:10:47.190 --> 00:10:57.450
+Nancy Min: But it has that sustainability in the long term, the other thing is, as I had mentioned before we really want to decentralize this marketing approach and also use have this be a tool.
+
+68
+00:10:58.170 --> 00:11:06.300
+Nancy Min: To engage new developers into the communities, and so we want to help if you guys can help us identify it they kind of challenge champions.
+
+69
+00:11:06.630 --> 00:11:19.080
+Nancy Min: across the board, and so this could be leaders and the working groups, the projects that would be able to help us spread the word on this event and help us kind of curate the Community to support the hyper ledger challenge.
+
+70
+00:11:20.340 --> 00:11:29.850
+Nancy Min: and potentially if you guys would be willing to kind of share your your some of these innovators there's going to be sessions and the prototype challenge and the launch challenge where.
+
+71
+00:11:30.750 --> 00:11:36.930
+Nancy Min: innovators will be pitching their concepts and ideas and i'm sure they would love to have your feedback and comments on their solutions.
+
+72
+00:11:37.620 --> 00:11:49.830
+Nancy Min: Especially you know each and every one of you know better than anyone else how to curate Open Source communities so waste, you know any insights that you can provide them as they're developing these solutions.
+
+73
+00:11:51.150 --> 00:12:00.480
+Nancy Min: You know that'd be that'd be really helpful and I know you know at least you know if I were to do it, you know that would be the one thing that I would really look forward to is is presenting in front of the technical Steering Committee.
+
+74
+00:12:02.190 --> 00:12:08.070
+Nancy Min: So you know with that you know i'm open to any questions comments or feedback really appreciate the time again.
+
+75
+00:12:11.850 --> 00:12:13.950
+Tracy Kuhrt: Thanks Nancy so.
+
+76
+00:12:14.400 --> 00:12:15.720
+Tracy Kuhrt: I noticed the timeline.
+
+77
+00:12:15.780 --> 00:12:20.250
+Tracy Kuhrt: This kicks off next week, it looks like you're 18 Is that correct.
+
+78
+00:12:20.910 --> 00:12:26.160
+Nancy Min: Yes, so what we're doing is we're just kicking off next week, but innovators will have about.
+
+79
+00:12:27.210 --> 00:12:30.090
+Nancy Min: One and a half months to propose a solution.
+
+80
+00:12:33.510 --> 00:12:33.810
+Tracy Kuhrt: Okay.
+
+81
+00:12:34.410 --> 00:12:37.080
+Tracy Kuhrt: Anybody have any questions for Nancy.
+
+82
+00:12:38.430 --> 00:12:39.330
+Tracy Kuhrt: comments.
+
+83
+00:12:47.640 --> 00:12:53.250
+Tracy Kuhrt: And then just just so i'm clear from what i've gotten from looking at this wiki page.
+
+84
+00:12:54.270 --> 00:13:07.170
+Tracy Kuhrt: The challenge is, if we click on that link there's some more details about kind of what it is that you're looking for the teams to put together as far as the submissions go.
+
+85
+00:13:08.670 --> 00:13:10.920
+Tracy Kuhrt: In and I guess the.
+
+86
+00:13:11.970 --> 00:13:20.700
+Tracy Kuhrt: The thing is i'll create basically a sub page to this is that the idea on how they will actually go about submitting the idea.
+
+87
+00:13:21.210 --> 00:13:25.020
+Nancy Min: Yes, yes, so i'm right now working on the template for this.
+
+88
+00:13:25.200 --> 00:13:27.030
+Nancy Min: What will happen is there will be a button.
+
+89
+00:13:27.240 --> 00:13:30.480
+Nancy Min: And then they can create a sub page using the template.
+
+90
+00:13:38.100 --> 00:13:40.860
+Tracy Kuhrt: And then i'm sorry i'll ask one more question.
+
+91
+00:13:42.540 --> 00:13:44.580
+Tracy Kuhrt: I I assume that.
+
+92
+00:13:45.810 --> 00:13:51.630
+Tracy Kuhrt: The prototype will be based off of things that have been created Is that correct.
+
+93
+00:13:52.950 --> 00:14:01.290
+Nancy Min: yep so in the ideation phase where we're just really looking for concepts and just like a proposal so it'll be about like 1000 words.
+
+94
+00:14:02.340 --> 00:14:17.640
+Nancy Min: That covers kind of the problems that they're trying to solve the solution that they're proposing the team, and what are the resource gaps that they have, and then a project plan for how they intend to complete and develop their prototype in the eventual launch of their other solution.
+
+95
+00:14:19.650 --> 00:14:25.920
+Nancy Min: And then the prototype would be the actual implementation and the development of that concept that they propose okay.
+
+96
+00:14:29.430 --> 00:14:32.340
+Tracy Kuhrt: anybody else have any questions for how much.
+
+97
+00:14:33.240 --> 00:14:33.540
+yeah.
+
+98
+00:14:34.560 --> 00:14:37.350
+Kamlesh Nagware: So actually I went through the this wiki page.
+
+99
+00:14:38.520 --> 00:14:39.510
+Kamlesh Nagware: Where I found like.
+
+100
+00:14:40.890 --> 00:14:48.660
+Kamlesh Nagware: We are kind of asking for the it should be the kind of Apache license up to the this.
+
+101
+00:14:49.740 --> 00:15:05.460
+Kamlesh Nagware: Launching phase, even though, for a particular project so maybe this kind of if the condition, then it could be, maybe, people will not submitted most ideas, if he asked them to be open, so the idea is something that is done.
+
+102
+00:15:06.480 --> 00:15:08.430
+Nancy Min: So so so yet.
+
+103
+00:15:09.450 --> 00:15:16.500
+Nancy Min: Come Washington, I think you raise a really good point um you know I think a couple of things that is really truly critical.
+
+104
+00:15:17.130 --> 00:15:27.450
+Nancy Min: With writing this challenge, in particular, you know I think as an open source community our goals are to curate and to develop follow on innovations.
+
+105
+00:15:28.200 --> 00:15:43.680
+Nancy Min: That really drive more solutions in one thing you know I can kind of allude to I think most major companies their code bases are developed on top of open source solutions right Linux foundation os is has been the core.
+
+106
+00:15:44.850 --> 00:15:53.040
+Nancy Min: You know enabler and driver in that, and I think the success there is really seeing you know if you look at, for example, like the Internet right today that's all developed.
+
+107
+00:15:53.490 --> 00:16:03.330
+Nancy Min: On top of Linux foundation code that's in the open source community, so the goal here is through the open source through open sourcing their solutions.
+
+108
+00:16:04.410 --> 00:16:14.430
+Nancy Min: I think the opportunity is that we can get Community wide participation right a team of four is not going to be able to develop a truly sustainable solution.
+
+109
+00:16:14.880 --> 00:16:20.520
+Nancy Min: Especially when they're new to the tech stack and their new suit to this right.
+
+110
+00:16:21.360 --> 00:16:32.040
+Nancy Min: So by open sourcing this what we can as a hyper ledger foundation Community right is to work with the Community to help them identify.
+
+111
+00:16:32.700 --> 00:16:44.370
+Nancy Min: mentors that everybody can work together and collaborate on and really make sure that that solution gets developed out in a very solid manner, and so the goal here is to really help.
+
+112
+00:16:45.390 --> 00:16:51.210
+Nancy Min: reduce the barrier of entry to the open source community and also developed that long term innovative solution.
+
+113
+00:16:51.990 --> 00:17:03.090
+Kamlesh Nagware: So yeah okay yeah so many millions like when around me and running the this hyper hyper hey so always like we have some kind of the leader, who are the.
+
+114
+00:17:04.320 --> 00:17:12.060
+Kamlesh Nagware: kind of project owner they don't want to say when the student doesn't have their idea, and now we are you asking about the contributing back to the event.
+
+115
+00:17:13.560 --> 00:17:20.160
+Kamlesh Nagware: For the code so maybe we can have one less number of participation is creating a good idea.
+
+116
+00:17:20.490 --> 00:17:31.530
+Nancy Min: But I think well, so I think the goal right is to have high quality solutions that get developed out of this I you know I personally believe in quality over quantity.
+
+117
+00:17:34.140 --> 00:17:34.500
+Kamlesh Nagware: Okay.
+
+118
+00:17:43.260 --> 00:17:45.000
+Nancy Min: Thank you, I really appreciate your feedback.
+
+119
+00:17:46.410 --> 00:17:54.960
+Tracy Kuhrt: into another question, do we have a chat channel on the hyper ledger chat for this for people to ask questions and.
+
+120
+00:17:56.310 --> 00:17:56.670
+Tracy Kuhrt: You know.
+
+121
+00:17:57.870 --> 00:17:59.910
+Tracy Kuhrt: Whatever they might want to discuss.
+
+122
+00:18:01.110 --> 00:18:04.560
+Nancy Min: We do not, but Tracy that's a really good point.
+
+123
+00:18:05.820 --> 00:18:11.100
+Nancy Min: I don't know, maybe probably need to work with someone maybe the hyper ledger stuff on.
+
+124
+00:18:12.780 --> 00:18:13.800
+Nancy Min: Opening up a channel.
+
+125
+00:18:17.640 --> 00:18:25.110
+Tracy Kuhrt: yeah I think I think that would be great it'd be a great place to point people to for any sorts of questions that they might have Peter.
+
+126
+00:18:27.000 --> 00:18:36.390
+Peter Somogyvari: I just wanted to say that I think it's a good idea and i'd be happy to share it on the cactus mailing list, for example, just to spread the word like this mentioned.
+
+127
+00:18:38.190 --> 00:18:45.210
+Nancy Min: Peter Thank you so much, and, if possible, would you be willing to serve as a champion for us and for the hyper ledger cactus project.
+
+128
+00:18:46.590 --> 00:18:47.520
+Peter Somogyvari: I can try.
+
+129
+00:18:49.800 --> 00:18:50.910
+Nancy Min: I will follow up with you on that.
+
+130
+00:18:55.500 --> 00:18:56.580
+Tracy Kuhrt: Thanks Peter better every.
+
+131
+00:18:57.720 --> 00:19:10.230
+Aruna S M: Day so on the chat channel so that's a good question Tracy so we did have some conversation around how to reach out to a larger community and how do we get feedback from a larger community and one of the point that came up in the discussion was.
+
+132
+00:19:11.430 --> 00:19:29.610
+Aruna S M: We also along with running challenges as a way of increasing Community participation for us and what we are looking for is let's say if somebody is interested in building a solution, using particular project we want them to also engage within that project mailing list.
+
+133
+00:19:29.640 --> 00:19:38.430
+Aruna S M: or within that project charter group groups more and we don't want to end up creating an additional modes of communication, only for the Channel.
+
+134
+00:19:39.780 --> 00:19:46.920
+Aruna S M: And the champion concept that Nancy was talking about, so they take the initiative to connect.
+
+135
+00:19:47.700 --> 00:19:55.110
+Aruna S M: to rest of the Community, who was organizing this event right so in terms of giving feedback, I mean they serve as a front end.
+
+136
+00:19:55.770 --> 00:20:07.920
+Aruna S M: People who will communicate to their communities or maybe spread the word within their team and take the feedback so it's an idea if that works and maybe for all these champions.
+
+137
+00:20:09.030 --> 00:20:19.440
+Aruna S M: They we were thinking about reusing the chairs mailing list that is created, and probably we can extend that mailing list to include additional champions.
+
+138
+00:20:20.730 --> 00:20:21.870
+Aruna S M: If that sounds good.
+
+139
+00:20:23.550 --> 00:20:33.870
+Aruna S M: Again, open for suggestions that we need to create a new channel just died, it would make us build a new Community so increasing participation to existing projects.
+
+140
+00:20:35.250 --> 00:20:50.100
+Nancy Min: And one thing, just to add there you know potentially what we could do is have a rocket chat channel just for a quicker communication using the the chairs mailing list and opening it up to the challenge champions.
+
+141
+00:20:51.690 --> 00:21:04.680
+Nancy Min: Just wait That way, you know quick chat is, I think a little bit easier than sending an email, especially when it's blasted to you know so many people, so we could potentially do it that way, and you know you know we can we can continue to talk about that.
+
+142
+00:21:07.140 --> 00:21:13.020
+Tracy Kuhrt: yeah I think you know my question is more around, how do we get program level questions answered.
+
+143
+00:21:14.700 --> 00:21:16.830
+Tracy Kuhrt: And you know, obviously.
+
+144
+00:21:18.030 --> 00:21:18.510
+Tracy Kuhrt: I.
+
+145
+00:21:20.610 --> 00:21:29.430
+Tracy Kuhrt: I think that chat is definitely makes sense, but I completely agree room and I wouldn't want a fabric question asked on this channel right, I would ask.
+
+146
+00:21:29.790 --> 00:21:41.550
+Tracy Kuhrt: The fabric question on a public channel or basic questions on the way to channel right, so I think that you know, we just need an easy way for people to contact.
+
+147
+00:21:42.600 --> 00:21:55.020
+Tracy Kuhrt: folks like Nancy and and other people who are you know running this challenge in case they say like and i'm last year i'm not sure what to do, I need some help great.
+
+148
+00:21:56.340 --> 00:22:04.890
+Tracy Kuhrt: And then I think the second thing that I was going to comment on as well right related to the Open Source aspect that commish asked about was.
+
+149
+00:22:05.940 --> 00:22:08.850
+Tracy Kuhrt: That you know I think in the prototype space.
+
+150
+00:22:08.970 --> 00:22:10.890
+Tracy Kuhrt: If they want to open a lab.
+
+151
+00:22:11.700 --> 00:22:23.160
+Tracy Kuhrt: That would be an easy way to get themselves, you know space in I get hub for for doing that, right now, maybe not everybody wants to open a lab based on what commercial said.
+
+152
+00:22:23.700 --> 00:22:39.150
+Tracy Kuhrt: Based on his experience with the hyper half, but I think they'll probably be a few people who would would like to do that, we can definitely help them through the process we've got the lab students that will help them so unless I see you have your hand up.
+
+153
+00:22:44.460 --> 00:22:51.960
+Kamlesh Nagware: yeah so regarding this having a separate January little kid Ted I think I think it will be needed because.
+
+154
+00:22:53.070 --> 00:23:09.630
+Kamlesh Nagware: It is a long running six months kind of idea talent and complete revelation, and so there will be many costs related to the operational and management of the specific thing and we not related to the project custom, but in general about the Chilean part.
+
+155
+00:23:10.050 --> 00:23:21.540
+Kamlesh Nagware: In to have one separate channel where it could be discuss about the Opera swimmingly regarding the challenge and regarding the project, it could be asked in a separate, what are the project, they are using.
+
+156
+00:23:25.200 --> 00:23:31.740
+Nancy Min: Thank you, thank you so much for your comments on this, this is definitely something that we're going to be coming out with additional information on.
+
+157
+00:23:32.580 --> 00:23:41.190
+Nancy Min: With respect to the role of the the challenge champions, and how we intend to engage one thing that we have been thinking about is hosting like a monthly.
+
+158
+00:23:42.300 --> 00:23:57.720
+Nancy Min: Discussion across all the champion challenges that will be open to the Community to listen and on and talk about programming details, and you know to tracy's point I do, I do agree that the Channel on rocket chat would be really helpful with a quick, you know quick things as they arise.
+
+159
+00:24:00.390 --> 00:24:09.960
+Aruna S M: And, and also, we are in line with you Tracy on open sourcing to hyper ledger labs in fact that was one of our proposal that all projects be open sourced and the hyper ledger labs.
+
+160
+00:24:12.810 --> 00:24:13.980
+Nancy Min: Yes, yes.
+
+161
+00:24:14.100 --> 00:24:14.340
+Great.
+
+162
+00:24:17.220 --> 00:24:19.410
+Tracy Kuhrt: Any last questions for financing.
+
+163
+00:24:21.300 --> 00:24:33.030
+Aruna S M: And I have one more request to the to everybody on the call so along through the challenge as Nancy pointed out, we may end up getting more participation, who.
+
+164
+00:24:34.350 --> 00:24:49.230
+Aruna S M: may need help, who may want to understand how a specific project works, who could be just getting started or could be, in a certain stage where they want more help from a project, so we may request you to come forward and run through series of workshops or our.
+
+165
+00:24:51.270 --> 00:25:03.030
+Aruna S M: hands on sessions, for your project, and we will work with hyper ledger team to set up those those meetings, out of the calls to enable those meetings.
+
+166
+00:25:03.690 --> 00:25:18.750
+Aruna S M: And we definitely need your help from multiple regions, so if you have your community in other regions as well, please do spread this information to them, and also about helping us to run our workshop kind of session
+
+167
+00:25:25.350 --> 00:25:31.980
+Hart Montgomery: pay a rude can we reach out to you or somebody else about getting people to volunteer.
+
+168
+00:25:33.090 --> 00:25:35.880
+Hart Montgomery: I know some people that might be interested, but I think.
+
+169
+00:25:36.960 --> 00:25:43.470
+Hart Montgomery: You know, encouragement coming directly from the source, will be more effective than if it comes indirectly.
+
+170
+00:25:47.130 --> 00:25:55.590
+Aruna S M: And Nancy do you want to answer that so we do have intake form for mentors and volunteers and that would be a best way to.
+
+171
+00:25:56.700 --> 00:26:07.980
+Aruna S M: onboard themselves to the to the program and in terms of communication, we will figure out is, we need to figure out, depending on how big the Community would be.
+
+172
+00:26:09.600 --> 00:26:18.510
+Nancy Min: yeah yeah I think you raise a really good point right now with this intake form we're just looking for some very basic information and expressions of interest to be mentors.
+
+173
+00:26:19.260 --> 00:26:34.920
+Nancy Min: The next step of this would be to host a kind of call with all those mentors and talk a little bit about what the what that would that role would entail do you have any particular concerns around driving engagement for the mentors that maybe we can think about a little bit more.
+
+174
+00:26:39.030 --> 00:26:44.130
+Hart Montgomery: Sure, I mean I guess people typically see a lot of.
+
+175
+00:26:45.390 --> 00:26:58.410
+Hart Montgomery: mail from blockchain stuff about help with this, you know mentor with that, and I mean you guys have put a lot more effort than most things that at least I get.
+
+176
+00:26:59.490 --> 00:27:11.040
+Hart Montgomery: around this sort of thing, so I just don't know if there's an effect i'm wondering if there's an effective way to sort of convey that to say like hey This is something you really should sign up for.
+
+177
+00:27:12.990 --> 00:27:13.890
+Hart Montgomery: Does that make sense.
+
+178
+00:27:14.310 --> 00:27:22.230
+Nancy Min: Absolutely, so if it's okay i'm just gonna take this as a note and think a little bit more about this, but I will follow up with you regarding this topic.
+
+179
+00:27:22.950 --> 00:27:29.670
+Hart Montgomery: Sure absolutely I mean, I have some people that I mean my sort of context is, I have some people that I would like to sign up.
+
+180
+00:27:31.050 --> 00:27:43.560
+Hart Montgomery: As mentors but they may need a little push and, like the push would come better the push would be better coming from someone directly affiliated with the challenge, then from me.
+
+181
+00:27:44.610 --> 00:27:44.880
+Nancy Min: Yes.
+
+182
+00:27:45.660 --> 00:27:54.360
+Nancy Min: If that's the case heart i'd be happy to have like follow on calls with the folks that you mentioned, you know happy to try to be persuasive.
+
+183
+00:27:55.170 --> 00:27:56.460
+Hart Montgomery: awesome Thank you very much.
+
+184
+00:28:02.250 --> 00:28:03.210
+Tracy Kuhrt: All right, well.
+
+185
+00:28:05.370 --> 00:28:14.130
+Daniela Barbosa: yeah just just a quick, I think this is fantastic men and I and the team spoke last week as well, I think this is a great initiative and then.
+
+186
+00:28:14.640 --> 00:28:21.270
+Daniela Barbosa: And the room and others we I think we can do along to the heart, you know hearts question getting the word out.
+
+187
+00:28:21.990 --> 00:28:35.340
+Daniela Barbosa: We can help with that as well, and I have some some additional ideas that we can try to leverage, so thank you so much, I think this is a fantastic way to start 2022 and we're really looking forward to to working with you on this and making it success.
+
+188
+00:28:39.870 --> 00:28:45.390
+Nancy Min: yeah just to add to that you know this wouldn't be possible without the support of the hyper ledger stuff so really appreciate their continued.
+
+189
+00:28:48.540 --> 00:28:59.820
+Tracy Kuhrt: All right, thank you so much for presenting this to us TC Members, we have a few call outs, a few ask, at least at a minimum, to help advertisers to our networks.
+
+190
+00:29:00.270 --> 00:29:18.540
+Tracy Kuhrt: but also to to be mentors and champions for this and to really get the word out and so appreciate Nancy I you coming to the pstn presenting look forward to kind of where this goes, and let me know if if and when you'd like to present again and how the challenge is going.
+
+191
+00:29:19.770 --> 00:29:20.700
+Nancy Min: Absolutely, thank you Tracy.
+
+192
+00:29:24.210 --> 00:29:33.360
+Tracy Kuhrt: Alright, so I think the next thing on our agenda is the let me, actually, let me share my screen here.
+
+193
+00:29:37.500 --> 00:29:38.790
+Tracy Kuhrt: I believe this is screwed.
+
+194
+00:29:40.890 --> 00:29:41.280
+Ry Jones: up.
+
+195
+00:29:41.340 --> 00:29:43.530
+Tracy Kuhrt: Alright that's Okay, no worries.
+
+196
+00:29:43.920 --> 00:29:48.840
+Tracy Kuhrt: um So hopefully you guys can see the importance of TC quarterly project updates.
+
+197
+00:29:53.460 --> 00:29:53.880
+Ry Jones: Yes.
+
+198
+00:29:54.690 --> 00:29:58.440
+Tracy Kuhrt: Thank you yeah when I share it's really hard to see people so.
+
+199
+00:30:00.060 --> 00:30:03.150
+Tracy Kuhrt: appreciate that so yeah, this is the.
+
+200
+00:30:04.170 --> 00:30:16.350
+Tracy Kuhrt: Action item that I took from last week, for what we needed to to put together based on our discussion of trying to highlight the importance of these TC quarterly project updates.
+
+201
+00:30:17.670 --> 00:30:30.930
+Tracy Kuhrt: So it's really short in into the point but really just tried to call out where we we use these project reports, besides just checking to see if these things are are healthy or not, the projects are healthy or not so.
+
+202
+00:30:32.310 --> 00:30:51.120
+Tracy Kuhrt: I did see rubber in your comment here whether or not it would help if we had a section in the hyper ledger website kind of an executive summary section to see what's happening what's the latest I know a ruin you had worked on that website last year around kind of.
+
+203
+00:30:53.340 --> 00:31:11.730
+Tracy Kuhrt: doing some of this automatically but I guess the question is, are you Are you suggesting, you know something more formal in the way of trying to put together an executive summary for the last quarter or what what that might look like, or what you had in mind.
+
+204
+00:31:14.610 --> 00:31:23.790
+Aruna S M: Nord so i'm an activist, this is how this has been one of the challenges that I face i'm not sure about others, but I believe.
+
+205
+00:31:24.180 --> 00:31:32.280
+Aruna S M: hearing from the previous conversations that most of the organizations, they do ask for an executive summary of what's happening within the Community.
+
+206
+00:31:33.180 --> 00:31:41.100
+Aruna S M: It could be for a new initiative that they launched or it could be for an existing project, they would like to understand the health and.
+
+207
+00:31:41.610 --> 00:31:49.410
+Aruna S M: what's happening within the Community, so I feel the project quarterly reports is a great way of communicating that status.
+
+208
+00:31:50.130 --> 00:31:59.460
+Aruna S M: If they could be interested in a specific project that they are interested in picking up or they could be interested in the project that they are already live using it.
+
+209
+00:32:00.660 --> 00:32:11.760
+Aruna S M: And, but that still does not serve as an executive summary, it still is a lot of content for for for for a summary part right.
+
+210
+00:32:12.870 --> 00:32:25.680
+Aruna S M: So what I was aiming at is when I saw this page but importance of Tracy quarterly report why don't we put this as one as one of the benefit to to have that quarterly reports filled up.
+
+211
+00:32:26.730 --> 00:32:35.040
+Aruna S M: so sure it helps those people who are looking for executive summary and because this would be report extract from the quarterly reports.
+
+212
+00:32:36.300 --> 00:32:46.590
+Aruna S M: Like it's a major incentive for from a project team, like their project latest features and the latest updates are being showcased holistically outside.
+
+213
+00:32:47.730 --> 00:32:48.990
+Aruna S M: On hyper ledger main site.
+
+214
+00:32:53.190 --> 00:32:53.400
+Aruna S M: um.
+
+215
+00:32:53.430 --> 00:32:55.200
+Aruna S M: yeah that's it.
+
+216
+00:32:56.130 --> 00:32:56.730
+Tracy Kuhrt: Okay, thanks.
+
+217
+00:32:57.360 --> 00:33:13.110
+Tracy Kuhrt: i've been wondering in Daniel and maybe this is more questions towards you but you know every month, I put together at least one slide if not multiple slides related to what's happening in the DC to report to the governing board.
+
+218
+00:33:13.560 --> 00:33:24.420
+Tracy Kuhrt: i'm curious if we can you know put those into some sort of shared slide deck that we might share publicly, you know, either through the wiki the website in some way right.
+
+219
+00:33:24.870 --> 00:33:26.340
+Tracy Kuhrt: But that particular slide.
+
+220
+00:33:26.760 --> 00:33:29.880
+Tracy Kuhrt: or set of slides that I share by might be made public.
+
+221
+00:33:30.450 --> 00:33:31.470
+Daniela Barbosa: Yes, absolutely.
+
+222
+00:33:33.540 --> 00:33:35.850
+Tracy Kuhrt: Okay, great so yeah.
+
+223
+00:33:36.150 --> 00:33:47.700
+Daniela Barbosa: And this was this this was discussed in like an October governing board meeting I know you weren't there right before you came that this would be something that the Governing Board will be okay with obviously.
+
+224
+00:33:50.100 --> 00:34:03.270
+Daniela Barbosa: Some of the matter is the governing board or not public, but some like this would be and that the to the the Chair of the tlc who's the representative on the Governing Board would be able to publish so it's very timely and it's 2022 so let's get that done.
+
+225
+00:34:04.110 --> 00:34:11.910
+Tracy Kuhrt: Alright sounds good so yeah I definitely have already the side, for the first governing board meeting that's happening in January or.
+
+226
+00:34:12.750 --> 00:34:25.320
+Tracy Kuhrt: At least they're going to be sent out for genuine so you know I think this is a great time to start sharing those publicly and we'll find the right way to do that at a minimum will be the slide.
+
+227
+00:34:25.740 --> 00:34:33.900
+Tracy Kuhrt: That I put together incentive to the hyper ledger stuff for inclusion in the governing board meeting but.
+
+228
+00:34:34.920 --> 00:34:38.940
+Tracy Kuhrt: You know we'll see if there's needs to be something else beyond that How does that sound room.
+
+229
+00:34:43.230 --> 00:34:43.830
+Aruna S M: Okay, to me.
+
+230
+00:34:44.850 --> 00:34:45.780
+Tracy Kuhrt: Okay, all right.
+
+231
+00:34:47.730 --> 00:34:58.440
+Hart Montgomery: hey thanks Tracy, so I think this document does a nice job of providing some of the reasons why the project, you know report to are useful.
+
+232
+00:34:59.820 --> 00:35:07.920
+Hart Montgomery: Does anyone have any recommendations on how we can take this back to the projects and it sort of convinced them that it's useful.
+
+233
+00:35:09.390 --> 00:35:11.040
+Hart Montgomery: Because a lot of these.
+
+234
+00:35:12.090 --> 00:35:18.840
+Hart Montgomery: are very useful at sort of a higher macro level, but if i'm just some maintainer.
+
+235
+00:35:20.490 --> 00:35:21.000
+Hart Montgomery: You know.
+
+236
+00:35:22.170 --> 00:35:24.060
+Hart Montgomery: Would this convince me.
+
+237
+00:35:25.830 --> 00:35:27.720
+Hart Montgomery: So I guess what i'm wondering is.
+
+238
+00:35:29.610 --> 00:35:39.210
+Hart Montgomery: is, how can we go back and use this to to convince the projects to to put information in the quarterly reports and to do them on time.
+
+239
+00:35:43.110 --> 00:35:44.190
+Tracy Kuhrt: Well it's a good question.
+
+240
+00:35:44.310 --> 00:35:44.610
+part.
+
+241
+00:35:46.560 --> 00:35:49.140
+Tracy Kuhrt: You know in in the end, I do believe that.
+
+242
+00:35:49.860 --> 00:35:50.970
+Tracy Kuhrt: And maybe it's not.
+
+243
+00:35:51.180 --> 00:36:13.020
+Tracy Kuhrt: Obvious maybe we need to be more blunt on this page, but one of the things that I think it does is lend itself to people using the projects, which in turn lends itself to potentially new contributors coming in, which may end up having more people wanting to be maintainer right so.
+
+244
+00:36:14.130 --> 00:36:18.600
+Tracy Kuhrt: it's not completely intuitive for obvious if that's the case right but.
+
+245
+00:36:19.620 --> 00:36:20.370
+Tracy Kuhrt: The more.
+
+246
+00:36:20.520 --> 00:36:21.900
+Tracy Kuhrt: You get the word out.
+
+247
+00:36:22.110 --> 00:36:27.720
+Tracy Kuhrt: about your project, the more likely you're going to see people using and wanting to contribute.
+
+248
+00:36:28.380 --> 00:36:43.380
+Tracy Kuhrt: Is my thought so that That to me is, I think the the carrot side of the House, instead of the stick side of the House that we were talking about last week with the issue of you know if somebody hasn't submitted their quarterly report, what do we do.
+
+249
+00:36:44.880 --> 00:36:47.280
+Tracy Kuhrt: So that's that's I think we're not hurt.
+
+250
+00:36:49.530 --> 00:37:00.600
+Hart Montgomery: Do you think that's enough of a carrot for a project like fabric say that you know, has tons and tons of marketing and you know lots of people if you're looking for fabric.
+
+251
+00:37:01.140 --> 00:37:07.200
+Hart Montgomery: And how to get the word out there going to be there tons of blog posts there, there are tons of things that are more accessible.
+
+252
+00:37:08.490 --> 00:37:09.780
+Hart Montgomery: than the quarterly report.
+
+253
+00:37:13.980 --> 00:37:14.610
+Tracy Kuhrt: that's a.
+
+254
+00:37:15.300 --> 00:37:15.780
+Tracy Kuhrt: Good point.
+
+255
+00:37:16.260 --> 00:37:19.230
+Dave Enyeart: I can tell you this would motivate me to do it so.
+
+256
+00:37:20.280 --> 00:37:21.180
+Tracy Kuhrt: It would not.
+
+257
+00:37:21.810 --> 00:37:24.660
+Dave Enyeart: It would talking from the fabric, maintaining perspective.
+
+258
+00:37:25.080 --> 00:37:27.780
+Dave Enyeart: i'm still motivated to do quarterly reports for these reasons.
+
+259
+00:37:29.250 --> 00:37:36.060
+Ry Jones: And well Dave I wanted to apologize for the calendar snafu I.
+
+260
+00:37:37.500 --> 00:37:49.320
+Ry Jones: I had bumped the calendar for one in one place, and not the other so i'm going through right now fixing all the calendar stuff so that was that was my oversight, I apologize.
+
+261
+00:37:51.330 --> 00:37:51.570
+Dave Enyeart: Okay.
+
+262
+00:37:53.910 --> 00:37:54.210
+Tracy Kuhrt: alright.
+
+263
+00:37:55.680 --> 00:37:59.130
+Tracy Kuhrt: So we've got one vote for, yes, it would be enough.
+
+264
+00:38:00.750 --> 00:38:01.560
+Hart Montgomery: Whether or not great.
+
+265
+00:38:02.430 --> 00:38:06.720
+Tracy Kuhrt: it's great for everybody, I don't know but we at least one book that Peter.
+
+266
+00:38:09.300 --> 00:38:12.840
+Peter Somogyvari: I have two ideas on addressing that specific.
+
+267
+00:38:13.890 --> 00:38:15.810
+Peter Somogyvari: Concern I was just raise that.
+
+268
+00:38:16.890 --> 00:38:19.380
+Peter Somogyvari: it's not being seen by enough people.
+
+269
+00:38:20.400 --> 00:38:33.390
+Peter Somogyvari: So the first idea, there would be to recommend two projects to publish these reports themselves, either on the project read me or or incident mater markdown document that to meet me thanks to.
+
+270
+00:38:34.710 --> 00:38:53.910
+Peter Somogyvari: And then the second idea which i'm not even sure if it's a characteristic everyone can decide for themselves, but we could say that we will start publishing the quarterly reports in some high visibility area of the organization like developer newsletter.
+
+271
+00:38:54.960 --> 00:39:11.220
+Peter Somogyvari: And then that could give additional motivation people thinking, well, I have to go and write that quarter reported, I actually have to put in the best parts that I want to highlight, because people will read this and I will get more computers, if I do it right.
+
+272
+00:39:17.370 --> 00:39:18.840
+Hart Montgomery: Sorry for all my talking.
+
+273
+00:39:20.310 --> 00:39:32.730
+Hart Montgomery: I want to push back on a little bit of this because, generally speaking, the quarterly reports are not super useful or necessary when projects are doing well right.
+
+274
+00:39:33.450 --> 00:39:47.790
+Hart Montgomery: The, the most important aspect of the quarterly reports is to see sort of you know it's for the tasc to see that products are sort of not doing well and to be able to help them, you know.
+
+275
+00:39:49.740 --> 00:40:00.330
+Hart Montgomery: In sort of whatever way they can right, and so, if i'm a project, and I submit a negative quarterly report I say hey you know things aren't going so well you know here's why we think.
+
+276
+00:40:00.840 --> 00:40:17.580
+Hart Montgomery: This is the case, you know that's that's the most useful information to the tasc and you know if i'm a project that submits this negative quarterly report i'm not sure I want this like marketed, you know, like you know hyper ledger xyz struggling with blah blah blah right.
+
+277
+00:40:19.230 --> 00:40:36.150
+Hart Montgomery: So so i'm not sure that this is really what we want to do, because it might encourage people to sort of write like falsely positive quarterly reports right, I mean we want people to sort of be able to express.
+
+278
+00:40:37.110 --> 00:40:41.850
+Hart Montgomery: Issues right, you know and say hey we're having problems we need help.
+
+279
+00:40:42.480 --> 00:40:55.350
+Hart Montgomery: And i'm not sure if we you know if if this is like going to the governing board This is great right, you know, the Governing Board can see the issues, but if we're saying let's let's market these maybe maybe that's not the best idea.
+
+280
+00:40:57.750 --> 00:40:58.500
+Peter Somogyvari: Through.
+
+281
+00:41:07.980 --> 00:41:08.460
+Nathan George: um.
+
+282
+00:41:08.880 --> 00:41:17.220
+Nathan George: I think the other thing that we're we're grasping for here is gosh it would be nice to be able to brag about some of the projects we're not as tightly involved in.
+
+283
+00:41:17.550 --> 00:41:31.260
+Nathan George: And certainly the marketing folks would love to have more content and material I think most of the folks that we've listed here in bullet points that might reach share this information are smart about what they're going to reshare and.
+
+284
+00:41:32.670 --> 00:41:42.240
+Nathan George: I think it's it's fair to call out that the quarter reports are internal use reports they're not really meant to be published in a press release.
+
+285
+00:41:43.230 --> 00:41:47.910
+Nathan George: But they are useful tools to figuring out what could be published and what could be marketed.
+
+286
+00:41:48.210 --> 00:41:55.890
+Nathan George: And I think that's what we're grasping at here is even for a project that's doing really well there's probably a bunch of stuff you could put in your quarterly report which that would help us.
+
+287
+00:41:56.790 --> 00:42:03.810
+Nathan George: take it to the next level or you know publish all those good things that are going well, and you know we don't want it, just to be about.
+
+288
+00:42:04.020 --> 00:42:19.680
+Nathan George: gosh we got a problem finding containers or the bill was late or we had a hard time turning around this CV we want it to be about all the things are going on in the project it's meant to be a snapshot that tells the truth, not just the good and not just the bad.
+
+289
+00:42:23.760 --> 00:42:26.760
+Tracy Kuhrt: yeah I agree with that Nathan, I think it's important that we see.
+
+290
+00:42:27.150 --> 00:42:37.110
+Tracy Kuhrt: The whole story, not just a piece of the story, be that good or bad um you know, I think that the other piece, too, is.
+
+291
+00:42:37.650 --> 00:42:48.660
+Tracy Kuhrt: That these project reports and maybe this is something that should probably be highlighted here is if we see that there's you know, a third of our projects that are struggling with.
+
+292
+00:42:50.100 --> 00:43:06.060
+Tracy Kuhrt: Some particular problem right and they're all struggling in some similar sort of way it might lead the tlc to say you know what there's a there's something here that we need to spend some time on to think through and and really.
+
+293
+00:43:07.230 --> 00:43:18.390
+Tracy Kuhrt: You know, decide if there's something that we can bright, as far as best practices or guides that will help our projects as they struggle with this particular issue.
+
+294
+00:43:19.590 --> 00:43:21.510
+Tracy Kuhrt: You know, I think that we have.
+
+295
+00:43:22.530 --> 00:43:35.010
+Tracy Kuhrt: done a reasonable job in the past have had picking out things that have been highlighted and trying to address those problems in the tasc right now, maybe we've not always been.
+
+296
+00:43:35.940 --> 00:43:46.020
+Tracy Kuhrt: Successful in that, but I think I think that they do give us direction as far as things that we should be focused on so completely agree with you Nathan.
+
+297
+00:43:52.110 --> 00:43:56.190
+Tracy Kuhrt: Any other thoughts on on this particular piece.
+
+298
+00:44:04.200 --> 00:44:05.430
+Artem Barger: I have a question actually.
+
+299
+00:44:06.570 --> 00:44:19.500
+Artem Barger: Trying to implement some sort of template for this quarterly review project to the reports, so I because the question i'm asking myself is what, what are the actual point of this revolt.
+
+300
+00:44:19.980 --> 00:44:29.250
+Artem Barger: And what we're trying to achieve by by by reading the reports are the yo yos put it, a mention that trying to understand to assess the health a health.
+
+301
+00:44:29.850 --> 00:44:37.620
+Artem Barger: Of the project or whenever they struggle with a certain problem so we'll be able to address or a will be aware of them, but they.
+
+302
+00:44:38.160 --> 00:44:53.430
+Artem Barger: You know, should only be a bit more precise on what are the problems we're trying to look for what are the metrics of the project illness that right, like the measure, and this report and implement some sort of template just the book author.
+
+303
+00:44:55.260 --> 00:44:57.690
+Tracy Kuhrt: yeah so we do have this template here.
+
+304
+00:44:57.930 --> 00:45:02.010
+Tracy Kuhrt: um that we put together surrounding the project updates.
+
+305
+00:45:02.910 --> 00:45:04.050
+Tracy Kuhrt: So each of the different.
+
+306
+00:45:06.450 --> 00:45:09.600
+Tracy Kuhrt: Different projects would use this to to go through.
+
+307
+00:45:10.680 --> 00:45:25.500
+Tracy Kuhrt: I noticed my meat goes to the wrong spot so sorry I got distracted so we do have this Jim saying last week I suggested that maybe we need to go through this again this template and see if there's other things that we need to be.
+
+308
+00:45:26.310 --> 00:45:39.690
+Tracy Kuhrt: Including in here things that are maybe not relevant anymore things that we should change in this particular template so I encourage you all to to have a look at this template and if there are any sort of suggestions or.
+
+309
+00:45:40.590 --> 00:45:49.410
+Tracy Kuhrt: sort of things that we think are overkill or that we should add to this particular template to to let us know right.
+
+310
+00:45:50.550 --> 00:46:03.870
+Tracy Kuhrt: Like I said, has taken on the action to kind of go through this and provide kind of a first story readouts to the tsp about things that could change but i'm sure he would appreciate any thoughts or input into that as well.
+
+311
+00:46:10.140 --> 00:46:10.740
+Artem Barger: Okay, thanks.
+
+312
+00:46:12.000 --> 00:46:12.630
+Tracy Kuhrt: yeah no problem.
+
+313
+00:46:14.340 --> 00:46:27.420
+Peter Somogyvari: Can we have a simpler template for those who are in the camp of my project is small and I don't want to spend too much time on it, and for them, there would be just.
+
+314
+00:46:28.050 --> 00:46:43.020
+Peter Somogyvari: Two questions is your project alive, you know true or false do you need any help for the tasc true or false and then, if you need help, then continue typing or the wife said, and then we could maybe convince them to.
+
+315
+00:46:44.190 --> 00:46:47.100
+Peter Somogyvari: To use a simple template if they feel like that's All they need.
+
+316
+00:46:54.420 --> 00:46:55.200
+Tracy Kuhrt: um.
+
+317
+00:46:57.120 --> 00:47:13.860
+Hart Montgomery: So i've said this before, but i'm curious, and this might involve a good deal of work but i'm curious about the degree to which we could automate a lot of this stuff particularly with lf X right so like releases right, you know that should be something we can pull from github right.
+
+318
+00:47:15.450 --> 00:47:36.810
+Hart Montgomery: You know overall activity right, you know I can pull the I can pull the like email and chat number of messages response time all of that stuff right contributor diversity maintainer diversity, all of this, you know, at least in theory, we can just pull automatically right.
+
+319
+00:47:38.640 --> 00:47:40.920
+Hart Montgomery: And if we do this, you know.
+
+320
+00:47:42.240 --> 00:47:44.370
+Hart Montgomery: You know I don't know how much work, this would be.
+
+321
+00:47:45.810 --> 00:47:57.240
+Hart Montgomery: But, but if this were possible, it would you know potentially give people reading the report, much better information, and it would also sort of save time writing the reports right.
+
+322
+00:47:58.350 --> 00:48:10.470
+Hart Montgomery: You know, every you don't have to go back and click and you know copy and paste like oh here's this release here is this release you know was this before after the project, you know, is this before after the last report.
+
+323
+00:48:11.670 --> 00:48:27.150
+Hart Montgomery: So sort of all of this kind of stuff you know, I think, the more we can automate here, the better and I don't know how possible, it is to integrate this into the quarterly reports but I, you know ll effects does have a lot of this information pulled already.
+
+324
+00:48:29.310 --> 00:48:38.700
+Tracy Kuhrt: yeah and I know that's been suggested anytime so I know it's something that Jim was interested in doing as well as taking a look and seeing.
+
+325
+00:48:39.300 --> 00:48:51.660
+Tracy Kuhrt: What might be automated one might not be automated um so Peter I did ignore your question, I was hoping somebody else had a thought on your question or your comment before I jumped into respond I wasn't.
+
+326
+00:48:52.770 --> 00:48:57.090
+Tracy Kuhrt: It wasn't that I was like okay i'm not going to answer this so I didn't want to come back to it.
+
+327
+00:49:00.120 --> 00:49:00.480
+Tracy Kuhrt: I.
+
+328
+00:49:01.260 --> 00:49:03.270
+Tracy Kuhrt: I have some initial reaction to that.
+
+329
+00:49:03.330 --> 00:49:09.330
+Tracy Kuhrt: And it's not a good reaction so that's why i'm struggling to try and respond to it um.
+
+330
+00:49:10.440 --> 00:49:15.510
+Tracy Kuhrt: And I think that a lot of this has to do with.
+
+331
+00:49:17.310 --> 00:49:20.490
+Tracy Kuhrt: How do we know whether a project is truly struggling or not.
+
+332
+00:49:22.260 --> 00:49:46.380
+Tracy Kuhrt: You know, is a yes, no answer enough, I think that you know, the more the more words, you can put behind a yes answer, or you know answer allows for people to really truly understand that that full scope of the picture um no I also understand that people are.
+
+333
+00:49:47.730 --> 00:49:55.950
+Tracy Kuhrt: Saying hey we're we're healthy where we don't want to move, you know we don't want to spend a whole lot of time on this project reports or we're a small.
+
+334
+00:49:56.580 --> 00:50:16.620
+Tracy Kuhrt: group of people, we don't really have a lot of time to spend on what we would consider busy work right, and so I think that what we have to do is find alternative mechanisms be that the automation of information that will help us to understand.
+
+335
+00:50:17.940 --> 00:50:27.480
+Tracy Kuhrt: what's going on, or or something else right that that would allow for a yes answer to make sense to us, or no answer to make sense to us.
+
+336
+00:50:28.680 --> 00:50:31.620
+Tracy Kuhrt: So Dave and your your first.
+
+337
+00:50:32.460 --> 00:50:40.140
+Dave Enyeart: yeah I mean I don't think the template is too bad, to be honest, I think it would help to automate a few things like we can get commit counts and things like that pretty.
+
+338
+00:50:40.410 --> 00:50:46.980
+Dave Enyeart: easily I would think or we can at least tell people you know and more automated way how they could get that themselves to put in, in the interim.
+
+339
+00:50:48.090 --> 00:50:49.740
+Dave Enyeart: But I don't think it deserves, like.
+
+340
+00:50:50.040 --> 00:51:00.630
+Dave Enyeart: A separate template for smaller projects or anything like that, I mean people can put in as much or as little as they want and I haven't found it to be too, you know overly onerous.
+
+341
+00:51:01.980 --> 00:51:16.020
+Dave Enyeart: And I think words do help in addition to like metrics words tell a whole different story, or can tell a whole different story and the metrics I think at least give people the opportunity to answer the various template fields and they could still a good idea.
+
+342
+00:51:22.170 --> 00:51:30.690
+David Boswell: A couple of thoughts one in terms of the busy work angle, we had heard that from the sig chairs that doing a quarterly report was too much, so we did move to.
+
+343
+00:51:31.080 --> 00:51:35.880
+David Boswell: twice a year, so you know every six months, and then that that could just be something to consider.
+
+344
+00:51:36.300 --> 00:51:41.460
+David Boswell: If that is really a concern if every three weeks or excuse me, every three months feels like too much.
+
+345
+00:51:41.910 --> 00:51:49.050
+David Boswell: And then, plus one to all the comments about automation I do think there might be some key metrics we do want to look at more regularly.
+
+346
+00:51:50.010 --> 00:51:58.650
+David Boswell: And that could be something that gets pulled from insights are pulled from other ways, you know, a room has pulled some data from start here, I think the data is out there, we just have.
+
+347
+00:51:59.310 --> 00:52:04.680
+David Boswell: screaming at the dog, we have to decide what's relevant and I think we, the data is there, we can pull it together we want.
+
+348
+00:52:06.750 --> 00:52:07.470
+Tracy Kuhrt: yeah and.
+
+349
+00:52:07.680 --> 00:52:14.220
+Tracy Kuhrt: I would, I would hesitate to go to twice a year, I know that one of the projects that is currently.
+
+350
+00:52:15.030 --> 00:52:27.240
+Tracy Kuhrt: overdue for the report actually hasn't had a commitment, six months, but yet we're just kind of finding out now that things are not having that project because you're not submitting their quarterly report so.
+
+351
+00:52:28.320 --> 00:52:36.510
+Tracy Kuhrt: You know I think if we wait six months, then we have the potential of a year going by before we realize that nobody's been doing anything on a particular project.
+
+352
+00:52:37.560 --> 00:52:48.750
+David Boswell: For sure, but that's without the automation if we had some sort of in addition to the reports we also had some sort of automated data about projects that would get flagged in theory.
+
+353
+00:52:50.220 --> 00:52:51.000
+Tracy Kuhrt: yeah I.
+
+354
+00:52:51.660 --> 00:52:52.140
+Tracy Kuhrt: I agree.
+
+355
+00:52:52.230 --> 00:52:52.710
+David Boswell: I mean.
+
+356
+00:52:53.250 --> 00:52:55.230
+Tracy Kuhrt: If you look in the hyper ledger community.
+
+357
+00:52:57.480 --> 00:52:58.860
+Tracy Kuhrt: Whatever it's called lab.
+
+358
+00:53:00.090 --> 00:53:02.640
+Tracy Kuhrt: There is a a project reports.
+
+359
+00:53:04.380 --> 00:53:10.830
+Tracy Kuhrt: feature in there that actually uses github stats to return results about kind of the.
+
+360
+00:53:11.370 --> 00:53:22.680
+Tracy Kuhrt: New contributors, the contributors that are active contributors that are falling away that contributor set of core contributors versus regular contributors versus maybe one time contributors.
+
+361
+00:53:23.160 --> 00:53:33.420
+Tracy Kuhrt: So there's actually a lot of detail that you can get from the github stats about a project and the success of that and I think you know we just what.
+
+362
+00:53:34.860 --> 00:53:51.060
+Tracy Kuhrt: However long it's been maybe it's been a year now, with the pandemic, I have no sense of time anymore, but the Elf insights rate tour is is somewhat new and has definitely been introduced, since we introduced the project reports back in the day.
+
+363
+00:53:52.140 --> 00:53:56.220
+Tracy Kuhrt: So I think there's a lot of things that we, we might do differently right.
+
+364
+00:53:59.490 --> 00:54:01.800
+Ry Jones: yeah if I could share my screen for a second.
+
+365
+00:54:02.820 --> 00:54:03.480
+Tracy Kuhrt: Oh sure yeah.
+
+366
+00:54:10.230 --> 00:54:15.780
+Ry Jones: So this is a rendered version of the tool that Tracy just mentioned.
+
+367
+00:54:17.910 --> 00:54:18.990
+Ry Jones: it's pretty easy to run.
+
+368
+00:54:20.700 --> 00:54:21.330
+Ry Jones: and
+
+369
+00:54:23.220 --> 00:54:32.040
+Ry Jones: it's a bottle you know there aren't a lot of Greens as I look across all the all the projects.
+
+370
+00:54:33.210 --> 00:54:35.430
+Ry Jones: But let's see.
+
+371
+00:54:36.810 --> 00:54:45.270
+Ry Jones: Maybe the overall hyper ledger one will show like here are the the new contributors to hyper ledger in the last quarter, I think.
+
+372
+00:54:47.070 --> 00:54:53.190
+Ry Jones: I would encourage anyone has interest to grab that tool and then give it a run.
+
+373
+00:54:56.160 --> 00:54:56.700
+Tracy Kuhrt: And the great.
+
+374
+00:54:57.030 --> 00:55:00.270
+Tracy Kuhrt: The great thing about the tool is it can be run across any repo.
+
+375
+00:55:01.290 --> 00:55:04.170
+Tracy Kuhrt: or set of reports that you want so.
+
+376
+00:55:05.670 --> 00:55:20.220
+Tracy Kuhrt: And you don't have to look at the health summary you can just look at the the detailed summaries of you know who's new who's contributed more than one says active that sort of thing so i'm happy to help anybody wants to take it take a look at that David.
+
+377
+00:55:31.350 --> 00:55:33.810
+Ry Jones: i'm gonna guess his hand is up by accident.
+
+378
+00:55:34.080 --> 00:55:36.420
+Tracy Kuhrt: Before maybe we've lost in.
+
+379
+00:55:37.650 --> 00:55:40.020
+Tracy Kuhrt: The dog yeah I asked him to go outside or something.
+
+380
+00:55:41.580 --> 00:55:48.870
+Tracy Kuhrt: All right, any other questions or comments about kind of the importance of project reports.
+
+381
+00:55:53.670 --> 00:55:57.960
+Tracy Kuhrt: Right, so there was one other thing on the agenda that we will not have time to get to today.
+
+382
+00:55:59.280 --> 00:56:00.630
+Tracy Kuhrt: Is the.
+
+383
+00:56:02.580 --> 00:56:06.690
+Tracy Kuhrt: kind of services for projects and labs that David and I had put together.
+
+384
+00:56:07.950 --> 00:56:20.910
+Tracy Kuhrt: And even had taken the opportunity to move that to a table format, I know he's already got some comments from that, but please take the time to review that and provide any.
+
+385
+00:56:21.360 --> 00:56:37.590
+Tracy Kuhrt: sort of additional thoughts or input to David on that we will also then at some point in the future TC meeting take a look at you know big differences between the different projects and labs and what what is available for them.
+
+386
+00:56:39.660 --> 00:56:48.810
+Tracy Kuhrt: As we want to think about you know, are there, additional sorts of things that we should offer to a graduated project vs lab overseas incubator project.
+
+387
+00:56:49.590 --> 00:56:53.760
+David Boswell: And Tracy thanks for pointing that out, and I am here and I was doing some dealing with some dogs.
+
+388
+00:56:55.890 --> 00:56:56.130
+David Boswell: But.
+
+389
+00:56:56.430 --> 00:57:02.400
+David Boswell: their husbands initial comments, so far, so thanks for the feedback and maybe between now and the next time we talk.
+
+390
+00:57:02.610 --> 00:57:08.550
+David Boswell: On our end we can do some brainstorm about additional additional incentives, because i've seen at least two people mentioned that maybe.
+
+391
+00:57:08.940 --> 00:57:20.550
+David Boswell: Some additional resources are needed at the graduated level, so if everybody wants to be thinking about if it feels like some more incentives are needed, what those would be that would be great but we'll do some thinking on our end as well and bring some ideas.
+
+392
+00:57:22.740 --> 00:57:24.090
+Tracy Kuhrt: sounds great thanks David.
+
+393
+00:57:25.050 --> 00:57:28.230
+Tracy Kuhrt: Alright, so with that we are at the top of the hour i'm going to.
+
+394
+00:57:28.320 --> 00:57:33.840
+Tracy Kuhrt: close and so thank you for your participation and we will see you again next week.
+

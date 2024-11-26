@@ -1,0 +1,902 @@
+WEBVTT
+
+1
+00:00:04.100 --> 00:00:16.090
+Tracy Kuhrt: Alright, welcome everyone to the October Twenty seventh. Technical Oversight Committee call, as you are all aware, to things that we must abide by on a call
+
+2
+00:00:16.309 --> 00:00:24.970
+Tracy Kuhrt: calls. The first is the antitrust policy notice, and the second is the Uh code of conduct which is linked in the agenda.
+
+3
+00:00:25.400 --> 00:00:44.290
+Tracy Kuhrt: As far as announcements. Today we have the standard Dev Weekly Developer newsletter that goes out each Friday. If there's something that you would like to reach the hundreds of hyper ledger developers. Uh, please leave a comment on the uh the Wiki page that is linked in the agenda.
+
+4
+00:00:44.510 --> 00:00:47.910
+Tracy Kuhrt: The second announcement that we have today is
+
+5
+00:00:47.950 --> 00:01:00.740
+Tracy Kuhrt: that the Toc nomination period is still open. Uh the nominations do close on Monday, October thirty first. So if you are interested in nominating yourself, please do so.
+
+6
+00:01:01.360 --> 00:01:14.009
+Ry Jones: And then, ry You said you had an announcement
+
+7
+00:01:14.050 --> 00:01:16.110
+Ry Jones: uh with their nominating statement,
+
+8
+00:01:16.500 --> 00:01:19.660
+Ry Jones: and I need Well, it is
+
+9
+00:01:19.750 --> 00:01:27.429
+Ry Jones: in the interest of anyone that nominates themselves to run to add a uh to add a nominating statement, because that will be linked from the ballot.
+
+10
+00:01:28.120 --> 00:01:32.340
+Ry Jones: And if you need help with that asking the discord.
+
+11
+00:01:35.650 --> 00:01:37.929
+Tracy Kuhrt: Okay, any other announcements?
+
+12
+00:01:48.480 --> 00:02:03.609
+Tracy Kuhrt: Okay, Not seeing any hands or anybody coming off mute. We'll take that as no uh as far as quarterly reports uh they are, so one is in draft. Uh so uh last I looked it still said it was in draft, and that we shouldn't review it yet,
+
+13
+00:02:03.620 --> 00:02:16.980
+Tracy Kuhrt: uh as far as the other two fabric and cacti. I haven't seen any specific comments showing up on either of those uh, But does anybody have any questions that they'd like to bring up at this point
+
+14
+00:02:24.460 --> 00:02:41.420
+Tracy Kuhrt: alright, probably would take that, as I know uh, so as far as upcoming reports, we do have this talk to a report that is due today, so we'll look to see if that one comes in today, and then we also have the Aries Indian and Roha reports coming due on the tenth of November,
+
+15
+00:02:41.450 --> 00:02:44.749
+Tracy Kuhrt: so we'll expect to see those at that point.
+
+16
+00:02:45.940 --> 00:02:52.179
+Tracy Kuhrt: Any other items that anybody would like to cover before we get to the presentation that we have scheduled for today.
+
+17
+00:02:59.160 --> 00:03:16.859
+Tracy Kuhrt: Okay. So with no other um discussion items, we do have the the folks from the prune lab. Here we have Mano and the tas that are here, and they're going to uh present to us the prune lab and walk us through that, so I will hand it off to
+
+18
+00:03:16.900 --> 00:03:18.420
+Tracy Kuhrt: uh, to you.
+
+19
+00:03:19.570 --> 00:03:23.449
+Manoranjith A P: Yeah, thank you. Uh, Then I can share my screen now.
+
+20
+00:03:24.120 --> 00:03:25.380
+Tracy Kuhrt: Yes, please.
+
+21
+00:03:30.730 --> 00:03:33.449
+Tracy Kuhrt: Can everyone see my screen?
+
+22
+00:03:33.970 --> 00:03:44.290
+Manoranjith A P: Yeah, Okay, perfect. Um, hi! Everyone uh I'm Mano Ranjit. I work as software engineer and Bosch and I have been involved with pair one since the beginning days
+
+23
+00:03:44.340 --> 00:04:03.500
+Manoranjith A P: uh pairon is is a framework that targets uh um Two problems in the blockchain space uh one is blockchain scalability, another one is blockchain interoperability. It's it's started out as an independent project, and later became a hypothetical Labs project. Um, and it's collaboratively being developed by Bosch and a polycry gmbh
+
+24
+00:04:04.920 --> 00:04:19.289
+Manoranjith A P: um. I would like to start with the problem statement that we try to solve. Uh, we are aware that um um blockchain provides an excellent mechanism for doing justice transactions. Um say payments, or in more general terms, exchange of any value.
+
+25
+00:04:19.300 --> 00:04:48.459
+Manoranjith A P: Um, but um with time. We have seen that there are quite some limitations with this, the first one being limited transaction throughput. For example, if we look at Bitcoin, it has like a tens of transactions per second. That's the limit, and there are quite some new chains which have improved the layer. One scalability. But there's still a limit on on how much we can go far in that respect. So a layer to scaling then becomes quite important.
+
+26
+00:04:48.470 --> 00:04:49.140
+It's important.
+
+27
+00:04:49.150 --> 00:05:15.850
+Manoranjith A P: Um, A second is a problem. Um, Where? Uh? Which we figured out along the way as we develop their own. Um! That uh the blockchain networks as new ones come up uh the the network is getting fragmented, and then we need mechanisms to make uh the networks interoperate with each other, And we we realize that uh, the technology we developed uh um, which
+
+28
+00:05:15.860 --> 00:05:16.620
+Manoranjith A P: mainly
+
+29
+00:05:17.270 --> 00:05:29.190
+Manoranjith A P: coming to the uh agenda for the presentation. First, I would like to present you an overview of the parent framework, then um a brief history of the project, and then the interesting applications that we see
+
+30
+00:05:31.160 --> 00:05:46.680
+Manoranjith A P: uh first the overview uh, to begin with, let's say uh two participants, Alice and Bob. Um. They want to uh make some transactions. So they come together, and they talk to each other uh on what transactions they want to do, what they rules for the transactions are,
+
+31
+00:05:46.690 --> 00:06:03.239
+Manoranjith A P: and once they agree on these terms. Um. They also decide what are the allowances for them. For example, in case of a payment channel, it could be that Alice wants to be able to spend uh ten units of a currency. So um they decide all of that, and then uh approach the blockchain to say
+
+32
+00:06:03.640 --> 00:06:27.540
+Manoranjith A P: we want to open a channel, and these are the initial terms of the channel, and these are the sets you would like to block in the channel. Then um! The assets are blocked in the parent smart contract, and um the uh, their own channel is open for transaction now. Each of them uh could make any number of transactions. Uh, in a very direct we have to be a manner uh, because these transactions are direct here to peer. Um. There are, uh,
+
+33
+00:06:27.550 --> 00:06:56.459
+Manoranjith A P: technically no limitations only limitations on how fast they can make the transactions uh, how fast they can uh create a new States and creating new States is basically about uh um um generating data and then making signatures on the data. And the second limitation is, how fast is the communication channel. So these are the only two factors that limit them, which means they can easily reach thousands of transactions per second uh, with a near zero cost for each of the transactions, and the confirmation is immediate.
+
+34
+00:06:56.470 --> 00:06:58.659
+As soon as both these parties signed, then,
+
+35
+00:06:58.670 --> 00:07:25.799
+Manoranjith A P: that that particular state is valid, and after they make any number of transactions in this fashion, they can go to Blockchain and say, Here is the final state that we agreed on, or that we want to settle, and then um the parent smart contract will validate that state, and and if verify, if it's really the final state, and once it confirms that it's a final state.
+
+36
+00:07:25.810 --> 00:07:45.090
+Manoranjith A P: So this is what happens with parent state channels. What the protocol provides is that it's probably secure uh meaning. It has uh been uh proven um in a formal way that. Um, if um any state that is generated on the of chain parent channel uh can eventually be uh settled on the blockchain,
+
+37
+00:07:45.470 --> 00:07:48.600
+Manoranjith A P: it only becomes invalid when the next state is created.
+
+38
+00:07:48.620 --> 00:08:11.339
+Manoranjith A P: And um second thing uh is a cross-chain capability. So in this picture, uh, we we can see that uh the parent smart contract is just one unit which means we are using one blockchain back end. But, uh, we also figured out that we can use uh uh a, we can open up their own channel, that is, simultaneously using two different blockchains, for example, a parent channel which blocks assets
+
+39
+00:08:11.350 --> 00:08:17.329
+Manoranjith A P: um for Alice on one chain saturium, and for Bob on another chain, say all um
+
+40
+00:08:17.780 --> 00:08:20.449
+Manoranjith A P: of like cosmos, or something like that.
+
+41
+00:08:21.470 --> 00:08:24.839
+Manoranjith A P: So this is an overview of how the parent State Channel works,
+
+42
+00:08:26.580 --> 00:08:55.860
+Manoranjith A P: and coming to the implementation part Um, all of these parent protocols um, and that we, as we, as we call the funding protocol of the of chain communication, protocol and the settling protocol. Everything is defined. Um is implemented in abstract uh way that is independent of any blockchain back end of any persistence mechanism, and even independent of any uh networking or civilization. Um format used for the option communication. So this is a real, abstract, and modular um
+
+43
+00:08:55.870 --> 00:09:20.989
+Manoranjith A P: core of the framework, and into this we can plug um different blockchain backends. And I think we currently have five different blockchain backends. Um, itvium cosmos, polka, dot Internet computer and fabric and um for network and serialization. Uh, we we currently have um Tcp for um. The transport protocol and and for serial session we are using a custom format called parent format. And um.
+
+44
+00:09:21.000 --> 00:09:23.619
+Manoranjith A P: Recently we also implemented protocol before us.
+
+45
+00:09:23.630 --> 00:09:51.900
+Manoranjith A P: So which means you can just take the code of definitions, generate the steps and easily implement uh the current client in any other language and for persistence, or we currently persist, all the of chain states that are created in a level. Db: But again, this is also plugable. You can go for any other options. Um. So this is the code of the framework, and on top of this we have the second component, which is per node, and they don't know what it does is that in first place, it takes the Gopen framework
+
+46
+00:09:51.910 --> 00:10:08.290
+Manoranjith A P: and configures it, according to your use case, picking one of the options for each of the plugable modules and configuring them in the needed way. And on top of that it provides an abstraction called session. So what session allows you is that it uh manages all the channels that a single user has,
+
+47
+00:10:08.300 --> 00:10:38.020
+Manoranjith A P: and all the keys and well, it's associated with the Ch. With um all the channels of the user and additionally, it also uh maintains a contact list um on of how to contact each of the peers that the user wants to uh talk to. Uh um, They're often information to maintain all the of information of those peers and um. It provides an easy api um for the user to open channels with any of these peers, and and then transat on those channels. But this is, uh, a more, a generic api, which is
+
+48
+00:10:38.030 --> 00:10:55.860
+Manoranjith A P: all of these functionalities. But if you're looking at a specific use case, say payments, for example, then, on top of this session, Api uh, we provide another Api layer, which is payments um api layer, which is providing like really simple Apis um, allowing you to specify only the data that is required for payments.
+
+49
+00:10:55.870 --> 00:11:23.630
+Manoranjith A P: And um, this payment Api can either be um access as a library um like a go, library, or anything. Or if you want a scenario where you want access over remote interface, then you can just implement a Grpc adapter. So this is also existing right now, and so on. So this is like we do the extensible um component of of the whole uh parent framework where Um, depending on a use case, you can just implement uh lighter Api layers without uh modifying the protocol or the um session um layer.
+
+50
+00:11:23.640 --> 00:11:39.390
+Manoranjith A P: So that's the interesting away in way in which the whole core of the protocol can be extended by using plugins, and the um framework can be more usable or tailored to use case by writing appropriate um Apis in the only in the upper layers.
+
+51
+00:11:40.340 --> 00:11:44.599
+Manoranjith A P: Yeah. So this is an overview of the two components of parent framework.
+
+52
+00:11:46.740 --> 00:12:16.560
+Manoranjith A P: Um. And now we come to project history. Uh, we started uh in two thousand and eighteen uh, with the uh publication of pair and such paper. This was published uh by uh for the best in first, and then a few of his colleagues from Toured Dmstadt in collaboration, and the University and Um then uh Bosch joined um with them to collaborate on the development of the parent framework into those nineteen, and from there we had several milestones um before we eventually became a hyper led
+
+53
+00:12:16.570 --> 00:12:43.529
+Manoranjith A P: Gil Labs project in in late two thousand and twenty, and from there Um. It has also been interesting that we developed a lot in terms of the uh frame of functionalities. Uh, and we even presented a few demos in Hyperlene Depth series. And um, as I told that uh we um have several other backends like Polka, dot, and cosmos. We also collaborate with um the corresponding um communities as well. So So this is um how we our collaboration looks like in in time.
+
+54
+00:12:46.710 --> 00:12:54.150
+Manoranjith A P: And finally, I would like to um discuss some of the uh applications that we find interesting, and that we have experimented with so far
+
+55
+00:12:55.190 --> 00:13:18.310
+Manoranjith A P: cost of them is their own iot state channels. Uh, this was also one of the uh initial use cases uh which we had in mind for Bosch um um like. How do we enable um two devices to make transactions based on blockchain? So that was one of the um initial questions that we had in mind, and um the pair on um state channels that we developed. Uh we extended it further. Um!
+
+56
+00:13:18.320 --> 00:13:48.260
+Manoranjith A P: And then the reason that we needed to extend. It is for that the iot devices um that are here can have, like real limitations on on compute memory or network um interactions, or even power consumption, like they can always not be connected to Internet or and so on. And so we It is, uh, it is tricky to uh expect that the device is able to do um all the blockchain interactions by itself. So we thought about the key uh parameter for for for of our devices, which is
+
+57
+00:13:48.270 --> 00:14:05.169
+Manoranjith A P: that each our device is owned by owner or a user If it's by company, then it's administered by some person. So then we said, Let's uh build some protocols to outsource all the blockchain interactions of the device to this owner or administrator. And this device is then
+
+58
+00:14:05.180 --> 00:14:20.609
+Manoranjith A P: interacting only with the other device that it wants to transact with and with the user never with the blockchain. And and these protocols uh, we released um in our recent releases, and We also presented an extensive talk on the per on I to state chance itself. Um in the last week. Uh
+
+59
+00:14:21.370 --> 00:14:25.360
+Manoranjith A P: so that is um the uh first use case that I want to discuss
+
+60
+00:14:25.460 --> 00:14:53.049
+Manoranjith A P: um. The second one is uh blockchain gaming at low latency. So this is a very interesting use case. Uh, Iona is, is a blocked is a blockchain uh gaming infrastructure provider in the pole product. Ecosystem. What they are having in mind is that they wanted to build a game that works completely on blockchain like it it it every move that is done is stored on the blockchain, and this means um. Games are usually fast, and then we need, like real time kind of confirmation of transactions, and this is
+
+61
+00:14:53.060 --> 00:15:09.330
+Manoranjith A P: quite not possible in the layer. One. So they were looking at a um, a a layer, a very low latency layer for implementing their game logic layer, which is recording these transactions and eventually recording it on blockchain. And that's where um pairon was a very uh interesting fit.
+
+62
+00:15:09.420 --> 00:15:15.580
+Manoranjith A P: Um! And this is like work in progress, and if you have more questions, we could also discuss about it in in the discussion section.
+
+63
+00:15:16.640 --> 00:15:42.379
+Manoranjith A P: The next use case is uh trustless across Geneset swap. So here, um! As I said uh in that, when discussing the concept of perim channel. Um, let's say there's a client um who um has an asset on iterium, and then there's a liquidity provider who has an asset on Polka dot. And now um! These two people want to exchange their assets, so what they can do is they can open up their own channel, blocking their corresponding assets on the corresponding chains.
+
+64
+00:15:42.390 --> 00:15:44.950
+Manoranjith A P: So the client will block data set on Tbm,
+
+65
+00:15:45.260 --> 00:15:58.390
+Manoranjith A P: and the liquidity provider will block the recept on Polka dot and then they can also give each other the addresses on the chain, for example, Liquidity provider will give the address to which um they want the asset to be transferred on it, and vice versa.
+
+66
+00:15:58.400 --> 00:16:27.570
+Manoranjith A P: And after this channel is opened, what they can do is they can create a state which is swapping the assets. So it is swapping the asset ownership between the client and liquid provider and a single atomic um transaction, and then they can finalize the state and again settle it on the corresponding chains. So this way. Um, it's very cheap. Um! And and trust this to into that, because you are now not relying on any
+
+67
+00:16:27.580 --> 00:16:30.230
+Manoranjith A P: intermediate party like a bridge or something.
+
+68
+00:16:32.780 --> 00:17:01.979
+Manoranjith A P: And next, a use case is a trustless, credential payment uh this is a similar to the Uh trust discuss crossing as it's swap. But then the differences here. One of the asset is a piece of data, maybe a decentralized Id, or something. Which is, it should be an authority, and the other a set is the payment for it. Um! So um both of them can block the um corresponding assets in the parent channel, and inside of the channel they can swap it in an atomic way, and then set it again on a chain.
+
+69
+00:17:02.030 --> 00:17:22.400
+Manoranjith A P: Um, which means again, this is atomic in nature, and because it is done off chain um! It can be like really thousands of transactions. Second, as we said, and I think we implemented a poc um in on this, which is available on the Internet, which you can try out. Um. And currently, we are also working to integrate this into the Hyper ledger areas framework
+
+70
+00:17:24.079 --> 00:17:43.510
+Manoranjith A P: that brings us to the end of the presentation, and to summarize, I think, Peron uh, we would like to call it as a toolkit for blockchain scalability and interoperability. Uh using the State Channel technology and the key um advantages that that it offers is a low latency, modularity, and it's beard on, based on peer-reviewed research and and
+
+71
+00:17:43.520 --> 00:17:44.950
+Manoranjith A P: format proofs.
+
+72
+00:17:44.960 --> 00:18:13.929
+Manoranjith A P: Um and uh as a good segregate discussion section. I think, uh one of the interesting things you would like to discuss is uh possible opportunities for collaboration. Uh, within the hyper ledger ecosystem. And then what we saw based on interactions during the global forum was that a two projects, hypologic cactus and firefly. Uh, might be interesting. Uh, um! I would have might have interesting of a new for collaboration. But then we are looking forward for your inputs as well on how to uh think about this
+
+73
+00:18:20.280 --> 00:18:36.539
+Tracy Kuhrt: alright. Thanks for that. Uh. So I have an initial question to keep us off, and then, uh, we will get some other questions as well. I'm curious about the the roadmap for uh the free framework, you know at when we're looking at the history. Um, it kind of
+
+74
+00:18:36.910 --> 00:18:47.469
+Tracy Kuhrt: you know, peaked in my mind that you know i'm curious as to what's next. Um! What are the plans for additional chains or additional uh sort of work that's going on there?
+
+75
+00:18:48.330 --> 00:18:58.589
+Manoranjith A P: Yeah, I think, in terms of roadmap uh one of the things that we're currently looking at is iot state channels uh what we demonstrated in the in the recently is
+
+76
+00:18:58.600 --> 00:19:14.789
+Manoranjith A P: the ability to um use the main framework um on devices like raspberry pi, or little more capable out of devices. So one of the things you want to do is develop a light client which can work on like real um, like low embedded devices which are like running bare metal or um,
+
+77
+00:19:15.450 --> 00:19:25.689
+Manoranjith A P: or running, and not those kind of systems. So that is one of the areas that we want to go forward, and maybe Matthias or Henry can highlight on some other areas that we are looking forward for.
+
+78
+00:19:27.230 --> 00:19:45.980
+Hendrik Amler: Um yeshua, Maybe I can uh extend this a bit. So we are currently also working on uh extending the prone framework to other blockchain. Uh so, for example, right now in progress is Cardano. So this demonstrates the different framework also. Uh can be applied to you. Ticks or uh stop blockchains.
+
+79
+00:19:46.070 --> 00:20:04.500
+Hendrik Amler: Um. And yeah, We're also in talks with uh, further blocks and ecosystems. Um for next year. Then Um yeah, mano highlighted the Ssi use case. So we recently in this October started a project on integrating this into the areas
+
+80
+00:20:04.680 --> 00:20:23.379
+Hendrik Amler: framework. And this is a project that we uh, yeah plan for the next two years, and it's also partially funded by the State grant from uh, the German State Government. And yeah, then, we are also uh continuing on uh the gaming use case that Manoh had at it with uh,
+
+81
+00:20:23.390 --> 00:20:26.000
+Hendrik Amler: the folks from a unit network.
+
+82
+00:20:26.130 --> 00:20:28.769
+Hendrik Amler: And yeah, then, of course, um.
+
+83
+00:20:29.470 --> 00:20:34.390
+Hendrik Amler: We also intend to. We are open, for
+
+84
+00:20:35.040 --> 00:20:45.339
+Hendrik Amler: we are becoming a full hyperlateral project. So for that there are a lot of things that that need to be done. For example, streamline, the naming streamline, the repositories documentation
+
+85
+00:20:45.350 --> 00:21:00.529
+Hendrik Amler: uh create more attracted in terms of marketing, and also create more traction in terms of the applications, as they are currently in the Poc. Instead. And we are trying to also bring them into production. So this is kind of a summary.
+
+86
+00:21:03.340 --> 00:21:06.320
+Tracy Kuhrt: Alright, Thank you for that, Uh,
+
+87
+00:21:08.060 --> 00:21:23.989
+Arun S M: hey? Thanks. I'm an orange. J. This was. This is really nice project, and I'm actually personally looking forward to a project like this. Um! It's really beneficial for the community, and I have two questions, probably to you, can tell I. My first question is from the interoperability. Tans: right?
+
+88
+00:21:24.130 --> 00:21:25.510
+Arun S M: Yeah. So
+
+89
+00:21:25.560 --> 00:21:40.979
+Arun S M: can you collaborate a bit more on that. So when you talk about interoperability, it's not actually providing uh it. Uh transfer mechanism across blockchain. It's rather uh pegging mechanism on the same blockchain, but the payload node itself is.
+
+90
+00:21:50.420 --> 00:22:00.379
+Manoranjith A P: Um: Yeah. So so what happens is that uh, you can have um two different contracts. So say, one contract is on polka dot, and one contract is an ethereum,
+
+91
+00:22:00.390 --> 00:22:28.710
+Manoranjith A P: and then, uh, when you come together in opening the channel. So during the initial interaction, you see that um um um liquidity provider has the asset on polka. Dot and client has a set on iterium, and they're going to block and swap it. So all of this is agreed in the first transaction, and when we have to fund this channel, um defunded on both the chains, so on both the smart contracts, we um um block the assets and and um, then only the channel becomes open,
+
+92
+00:22:28.720 --> 00:22:46.050
+Manoranjith A P: and uh, once the stand is open, you do the first transaction. It's also the last transaction which is slapping the assets. And once you create that state, that state can be used um to climb um the assets by the other user on both the chains So that way it's. It's an asset swap, not uh pegging.
+
+93
+00:22:48.260 --> 00:23:02.220
+Manoranjith A P: So single channel is is uh, like you're actually swapping The ownership of the asset in the in of chain because of chain is a single medium, and it can be done in atomic manner. And then you go back and settle. Claim your assets back on the chain.
+
+94
+00:23:02.960 --> 00:23:10.009
+Arun S M: Good thanks for not Wendy. Um. I'll read more about it. So my second question is on on the
+
+95
+00:23:10.060 --> 00:23:22.499
+Arun S M: use cases so far that uh, probably i'm little outdated when I last saw on the pale note all the examples that I could find work with two parties. I remember there was some kind of
+
+96
+00:23:22.680 --> 00:23:31.120
+Arun S M: implementation where it the multiparty aspect of it. Was it to be supported right? Any any suggestions or any inputs on that?
+
+97
+00:23:31.540 --> 00:23:48.939
+Manoranjith A P: No, I think. Um currently. Um, It's mostly two party uh uh framework, so currently mostly support two party transactions. Uh, but the protocol itself is not the uh limitation. I think the protocol is extensible for multi-party um channels. But uh, since most use cases currently we are
+
+98
+00:23:48.950 --> 00:23:57.219
+Manoranjith A P: interested in, or the community is interested in at least involving only two parties, We are going in the direction. So most of the examples are two-party examples.
+
+99
+00:23:58.830 --> 00:24:02.200
+Manoranjith A P: But the protocol itself is not having the limitation.
+
+100
+00:24:02.250 --> 00:24:09.219
+Matthias Geihs: Yeah. And I can add also, the implementation is written in a way that the data structures are already multiparting.
+
+101
+00:24:09.500 --> 00:24:11.540
+Matthias Geihs: Um, But we didn't
+
+102
+00:24:11.620 --> 00:24:20.849
+Matthias Geihs: right. The protocol communication implementation are already for multi-party. So kind of the data structures already are,
+
+103
+00:24:21.390 --> 00:24:31.149
+Matthias Geihs: and depending on the protocol for example, the funding protocol or the off-chain transaction protocol. We would have to extend these protocols
+
+104
+00:24:31.340 --> 00:24:38.610
+Matthias Geihs: to communicating with multiple parties, maybe integrating a broadcast
+
+105
+00:24:38.930 --> 00:24:43.450
+Matthias Geihs: functionality or something like that. So this part is not there. But
+
+106
+00:24:43.830 --> 00:24:49.509
+Matthias Geihs: the core is written in a way that it is extensible if we decide to do that.
+
+107
+00:24:50.990 --> 00:25:00.719
+Arun S M: Got it. Thanks. Um. Thanks for answering that I I don't know. I could probably hold on to this question later. But the later question that I had was in terms of.
+
+108
+00:25:00.930 --> 00:25:15.399
+Arun S M: Are you guys thinking to bring the project uh to hyper ledger integration and um! How many come contributors are currently helping you maintain the project and all that This aspect, so i'll hold on to that question. Maybe you can on address that right there.
+
+109
+00:25:15.880 --> 00:25:17.059
+Manoranjith A P: Yeah. Okay,
+
+110
+00:25:23.020 --> 00:25:24.779
+Tracy Kuhrt: sounds good, Peter.
+
+111
+00:25:26.930 --> 00:25:28.250
+Peter Somogyvari: Thank you.
+
+112
+00:25:33.280 --> 00:25:35.659
+Peter Somogyvari: Uh, the opening of the Channel.
+
+113
+00:25:36.010 --> 00:25:38.190
+Peter Somogyvari: Does that require?
+
+114
+00:25:43.710 --> 00:25:45.370
+Manoranjith A P: Yes, it does.
+
+115
+00:25:54.370 --> 00:25:55.220
+Manoranjith A P: Yeah,
+
+116
+00:25:56.350 --> 00:25:57.380
+Peter Somogyvari: Gotcha,
+
+117
+00:25:58.450 --> 00:26:04.289
+Peter Somogyvari: and ah, one more quick one. Ah, for the asset exchanges,
+
+118
+00:26:10.700 --> 00:26:13.929
+Peter Somogyvari: or or there's some butter mechanism to you
+
+119
+00:26:14.360 --> 00:26:16.740
+Peter Somogyvari: to return funds. If
+
+120
+00:26:24.830 --> 00:26:26.349
+Matthias Geihs: so it's
+
+121
+00:26:26.390 --> 00:26:40.660
+Matthias Geihs: erez agmoni. It's comparable in a way to Htc. That you have this locking mechanism, but it's different to Htlc. That it works based on signatures. So you can almost think of a channel in a way as a multi-sick contract one hundred and fifty
+
+122
+00:26:41.060 --> 00:26:42.950
+Matthias Geihs: um. So as soon as
+
+123
+00:26:43.290 --> 00:27:00.609
+Matthias Geihs: erez agmoni. All the participants in creed on the new Channel State, for example, transferring a token from one party to another. Then the contract recognizes this as a creed as opposed to an H. Tlc. Which depends on this secret value that you have to reveal one hundred and fifty,
+
+124
+00:27:00.730 --> 00:27:15.609
+Matthias Geihs: and this has also the um the benefit that we're not limited to one transaction, but we can do multiple updates so you can do as many updates as you like before you settle the channel. We're in Htc. Based
+
+125
+00:27:15.940 --> 00:27:18.330
+Matthias Geihs: swaps. You can only do one
+
+126
+00:27:20.760 --> 00:27:21.910
+Peter Somogyvari: Gotcha
+
+127
+00:27:31.800 --> 00:27:34.359
+Manoranjith A P: for open source. Yeah,
+
+128
+00:27:40.140 --> 00:27:44.940
+Peter Somogyvari: on one of the maintainer of cactus or cactus, or
+
+129
+00:27:45.770 --> 00:27:50.479
+Peter Somogyvari: and I would be definitely interested in collaborating,
+
+130
+00:27:50.750 --> 00:27:53.469
+Peter Somogyvari: trying to figure out how we can work together and
+
+131
+00:27:54.090 --> 00:27:56.260
+Peter Somogyvari: achieve interoperability.
+
+132
+00:27:59.760 --> 00:28:04.299
+Manoranjith A P: Okay, yeah, that sounds interesting. Probably we could also talk after the Uh
+
+133
+00:28:04.390 --> 00:28:06.500
+Manoranjith A P: um. You will see meeting.
+
+134
+00:28:08.920 --> 00:28:11.039
+Peter Somogyvari: Okay, Sounds good. Thank you.
+
+135
+00:28:11.880 --> 00:28:14.429
+Tracy Kuhrt: Alright. Thanks. Peter.
+
+136
+00:28:15.610 --> 00:28:30.339
+Angelo De Caro: Yeah. Uh, thanks for the presentation. My, my my comment is more on on on the on on the side of the the projects is, if it makes sense to uh to a fast track for per room to get into cacti
+
+137
+00:28:30.380 --> 00:28:34.379
+Angelo De Caro: instead of having Perun as another Hyper ledger project, because of,
+
+138
+00:28:34.390 --> 00:29:02.630
+Angelo De Caro: you know also to have clarity of uh, the the ecosystem. If if now we know that there is a hyper ledger cacti that is a project so that it contains multiple uh uh multiple techniques uh the to first multiple techniques to achieve on terabytes uh to me per room is another one in this uh in this direction. So I my first thing would be to suggest this path to get per room inside.
+
+139
+00:29:09.470 --> 00:29:10.370
+Thank you.
+
+140
+00:29:11.590 --> 00:29:12.530
+Manoranjith A P: Okay,
+
+141
+00:29:12.840 --> 00:29:17.859
+Manoranjith A P: Yeah. Probably. Um. We can have a look into it like, What are the possibilities there?
+
+142
+00:29:19.250 --> 00:29:25.880
+Matthias Geihs: Yeah, I I could also see that. Um, I I don't have the biggest work in that, of course. But um
+
+143
+00:29:26.980 --> 00:29:37.379
+Matthias Geihs: I I Yet through the discussions at the Global Forum I also have the impression that cacti has, like several protocols included, but none of them
+
+144
+00:29:37.660 --> 00:29:43.139
+Matthias Geihs: is a stage channel based, so State channels could add something to cacti
+
+145
+00:29:43.410 --> 00:29:47.009
+Matthias Geihs: um. Some additional functionality which is not there yet.
+
+146
+00:29:47.260 --> 00:29:53.790
+Matthias Geihs: So I could see if it there. But maybe yeah, we would also have to look at
+
+147
+00:29:54.470 --> 00:30:00.329
+Matthias Geihs: um. Other aspects of such an integration like, How comfortable are the code bases and
+
+148
+00:30:01.080 --> 00:30:09.000
+Matthias Geihs: the architectures, and so on. But yeah, I I I I agree with um. The idea that it could make sense. Yeah,
+
+149
+00:30:09.090 --> 00:30:26.900
+Angelo De Caro: yeah, it would be. It would be definitely a faster uh truck. That's uh that. That's for sure. So you don't have to to find other organizations that you will have uh, that we, the the the needs to be commit, uh maintainers of the and so on and so forth. So that is already a community around cocktail. So why not that?
+
+150
+00:30:29.910 --> 00:30:40.459
+Tracy Kuhrt: Yeah. And you know, I think I think the the key here right is to have these connections. So um Peter is obviously worked with other
+
+151
+00:30:40.510 --> 00:30:55.910
+Tracy Kuhrt: um other labs right uh to bring into uh to hyper ledger cactus to become cacti right? So I think it's. It's definitely a good place to start with those conversations. See how likely it is that it makes sense, and
+
+152
+00:30:55.920 --> 00:31:05.919
+Tracy Kuhrt: um I know Peter is definitely up for that. I saw the the thumbs up that Peter gave So um definitely. That's Let's continue those conversations and see what makes sense.
+
+153
+00:31:06.210 --> 00:31:07.340
+Tracy Kuhrt: English.
+
+154
+00:31:08.040 --> 00:31:13.850
+Manoranjith A P: Yeah, That really sounds like a very interesting uh avenue for for going forward
+
+155
+00:31:22.760 --> 00:31:32.899
+Kamlesh Nagware: clubbed with Hectai. We are like like we were, in fact, as well it could be, has some some uh different way of uh interoperability in the blockchain protocols.
+
+156
+00:31:37.210 --> 00:31:38.939
+Tracy Kuhrt: Thanks so much
+
+157
+00:31:39.360 --> 00:31:40.950
+Tracy Kuhrt: other questions.
+
+158
+00:31:41.270 --> 00:31:42.220
+Tracy Kuhrt: A room
+
+159
+00:31:44.370 --> 00:31:54.880
+Arun S M: uh right? So I have a slightly contradictory statement to Angelo. And you guys are proposing right now in terms of margin it to cat type.
+
+160
+00:31:55.030 --> 00:32:03.399
+Arun S M: Um. So So far I have been treating at type. You're here as interrupt solution when I needed that inter of for every
+
+161
+00:32:03.630 --> 00:32:11.329
+Arun S M: um. But looks like we don't does have additional capabilities which would spill over beyond interrupts.
+
+162
+00:32:12.100 --> 00:32:13.459
+Arun S M: So um,
+
+163
+00:32:13.480 --> 00:32:16.370
+Arun S M: that's all. Just wanted to bring out that point.
+
+164
+00:32:20.510 --> 00:32:38.350
+Manoranjith A P: Uh yeah, um, thanks for being at this point. So so I think uh one of the um um thoughts I have in mind, as I say here of the comments is is one Um um definitely. There is uh my um um um
+
+165
+00:32:38.360 --> 00:32:56.030
+Manoranjith A P: um synchrony to work with cacti um, because both are addressing in trouble routine one way, but I think their own itself has some other directions. For example, iot state channels where it's It's It's not about interoperability, but about um, just scalability, and and so on.
+
+166
+00:32:56.040 --> 00:33:05.599
+Manoranjith A P: So uh um, I think um having a closer look, and having more discussions with the team, would provide a clear understanding of what's uh possible.
+
+167
+00:33:08.560 --> 00:33:18.130
+Arun S M: Thanks. I I look forward to outcomes of those discussions. But yeah, i'm pretty much excited If collaboration does happen. You see, there is definitely a possibility for it.
+
+168
+00:33:18.790 --> 00:33:35.560
+Manoranjith A P: Yeah, uh, thank you. And uh coming back to the question. Um! That you rise in the beginning. I don't I think um in terms of becoming a um a main hyp ledger project. Um um few things uh housekeeping things which might just start in the beginning like, bring together different repositories. And and
+
+169
+00:33:35.570 --> 00:33:59.680
+Manoranjith A P: I think how skipping around the code and something um, but um in other aspects. Uh we see um two other um France for um to achieve before we can become main project. One is uh to see a fit with other hyp ledger projects. And how do we collaborate? And so on? Um. And second is is to find a use case or a third uh contributor, I think currently, it's It's mostly Bosch and polycry that's working on this.
+
+170
+00:33:59.690 --> 00:34:13.280
+Manoranjith A P: Probably if if we find a a third um um entity that is also finding this technology interesting. Probably it could be a a more stronger project when it um as a main project, maybe. Um, your thoughts on this.
+
+171
+00:34:21.810 --> 00:34:31.789
+Tracy Kuhrt: Yeah. So I guess the the question is, have we had projects that have come in with only two um two organizations that have had maintainer
+
+172
+00:34:31.989 --> 00:34:33.199
+Tracy Kuhrt: um,
+
+173
+00:34:34.420 --> 00:34:42.649
+Tracy Kuhrt: and i'm not sure i'd have to go. Take a look at the original um project proposals and see where they were. Um,
+
+174
+00:34:43.050 --> 00:34:52.950
+Tracy Kuhrt: I I do think that you know our incubation entry criteria probably outlines what is suggested. Um. And then then it's a a matter of
+
+175
+00:34:53.050 --> 00:35:11.450
+Tracy Kuhrt: you know, seeing how well those uh those criteria are are met. I think it's It's really um, you know, if you read that document, it really kinda highlights the the expectations of things that we've seen in the past. Um when it when it comes to how we
+
+176
+00:35:11.460 --> 00:35:18.010
+Tracy Kuhrt: have approved projects into Hyper Ledger. So uh probably we're taking a look at that. If you Haven't already.
+
+177
+00:35:18.730 --> 00:35:19.899
+Manoranjith A P: Yeah, Okay.
+
+178
+00:35:20.420 --> 00:35:24.410
+Tracy Kuhrt: And I'm: I'm happy to share that link directly in the
+
+179
+00:35:24.510 --> 00:35:32.540
+Tracy Kuhrt: um in the prune chat so that you guys have access to that and can take a look at kind of where you think you stand related to that,
+
+180
+00:35:33.450 --> 00:35:35.549
+Manoranjith A P: You know I I do really helpful.
+
+181
+00:35:35.600 --> 00:35:46.979
+Tracy Kuhrt: Yeah, I mean, I do find it interesting right in looking at kind of the the history right? When we look at that slide. The the number of kind of collaborations that you've had with
+
+182
+00:35:46.990 --> 00:36:00.800
+Tracy Kuhrt: other sorts of organizations or chains, or you know, there there was definitely some some sort of collaboration happening there, and I'm. Curious as to whether or not, any of those sorts of groups that you've worked with would,
+
+183
+00:36:00.810 --> 00:36:18.579
+Tracy Kuhrt: um, you know, be willing or or able to also participate in contributing and maintaining the code, so that could be another sort of a avenue or or venue that you take a look at um, you know, with the the other sorts of groups that you've done collaboration with.
+
+184
+00:36:21.640 --> 00:36:25.150
+Manoranjith A P: Okay, yeah, that that that's also one possibility.
+
+185
+00:36:25.790 --> 00:36:26.830
+Tracy Kuhrt: Angela:
+
+186
+00:36:28.100 --> 00:36:39.630
+Angelo De Caro: Yeah, no, just no, no. To to me, I said. That makes a lot of sense, because if if Peron, the main focus of Peron is uh layers to um and uh performance,
+
+187
+00:36:39.730 --> 00:37:01.619
+Angelo De Caro: that probably deserves a um a dedicated space in the in the in the greenhouse uh the the in that case, yes, from the point of your layer to we don't have any anything that speaks directory to uh for layer two, and given the level of a con uh integration with with blockchain that per room has already.
+
+188
+00:37:01.630 --> 00:37:11.569
+Angelo De Caro: Uh yeah, that would uh that would be my I would. That would qualify as a as a as a hyper ledger project with that target. So lay layer Two: Yeah,
+
+189
+00:37:12.310 --> 00:37:14.949
+Manoranjith A P: Okay, Yeah, thanks for your input
+
+190
+00:37:33.110 --> 00:37:45.749
+Tracy Kuhrt: proposals with only one maintainer have been rejected by prior to your um. So I I You know there is sort of precedence, I think. Uh, and it's just a question of you know, uh,
+
+191
+00:37:45.920 --> 00:37:53.560
+Tracy Kuhrt: what what it looks like as far as the the actual growth of the the lab. And uh, how? That's looking. So
+
+192
+00:37:53.660 --> 00:37:55.699
+Tracy Kuhrt: you know, I I
+
+193
+00:37:55.800 --> 00:38:00.540
+Tracy Kuhrt: I would say, based on our our considerations. It's not an immediate now, right?
+
+194
+00:38:14.690 --> 00:38:16.330
+Tracy Kuhrt: Other questions,
+
+195
+00:38:27.550 --> 00:38:32.120
+Tracy Kuhrt: No. Any closing.
+
+196
+00:38:34.320 --> 00:38:47.670
+Manoranjith A P: Yeah, I think. Um, i'd like to thank the uh do for the opportunity. It was quite uh insightful discussion for us in terms of how we uh, how the um do you see this project from their point of view and the way forward?
+
+197
+00:38:47.850 --> 00:38:50.609
+Manoranjith A P: So thanks for your time and thanks for listening.
+
+198
+00:38:50.940 --> 00:38:54.269
+Tracy Kuhrt: Alright, thanks, and it looks like a room, maybe has a uh
+
+199
+00:38:54.380 --> 00:38:56.299
+Tracy Kuhrt: another question or a comment.
+
+200
+00:38:56.500 --> 00:39:09.839
+Arun S M: Yeah, right. I do have one more question. So out of curiosity, just because of how the integration that it's for that the parent project has made with other frameworks outside of um, you know, at the ecosystem.
+
+201
+00:39:09.850 --> 00:39:18.530
+Arun S M: So how What is the interest that is seen in other terminators that you have observed in terms of adoption or the project interest itself?
+
+202
+00:39:22.490 --> 00:39:29.210
+Arun S M: Uh, this is a question out of curiosity you may choose to ignore if you have any thoughts on that, feel free to share them.
+
+203
+00:39:29.830 --> 00:39:34.189
+Matthias Geihs: Um, maybe I can say a few words on this. Um.
+
+204
+00:39:34.640 --> 00:39:35.879
+Matthias Geihs: So
+
+205
+00:39:36.130 --> 00:39:42.219
+Matthias Geihs: they channels were one of the early scaling technologies, and they have
+
+206
+00:39:42.400 --> 00:39:50.210
+Matthias Geihs: specific use cases where they are interesting. So, especially when you want to go towards low latency, and I think
+
+207
+00:39:50.580 --> 00:39:53.129
+Matthias Geihs: um. The other communities
+
+208
+00:39:53.350 --> 00:39:56.419
+Matthias Geihs: are all interested in.
+
+209
+00:39:56.450 --> 00:40:00.300
+Matthias Geihs: There are two solutions, and that's why they funded
+
+210
+00:40:00.820 --> 00:40:06.559
+Matthias Geihs: our project as one, their layer, two solution for their
+
+211
+00:40:07.100 --> 00:40:19.259
+Matthias Geihs: for their community, for their um blockchain space, and at the moment um! I think we are now looking more towards applications,
+
+212
+00:40:19.770 --> 00:40:22.950
+Matthias Geihs: and one interesting aspect
+
+213
+00:40:23.020 --> 00:40:25.620
+Matthias Geihs: or one interesting application
+
+214
+00:40:25.850 --> 00:40:30.570
+Matthias Geihs: was, for example, the collaboration is the ongoing collaboration with Are you now,
+
+215
+00:40:30.700 --> 00:40:41.859
+Matthias Geihs: where we already did want Crown project. Um, regarding bringing state channels into the gaming space and enabling low latency interactions there.
+
+216
+00:40:42.380 --> 00:40:49.819
+Matthias Geihs: Um. So overall, I would say. First of all, we are kind of an infrastructure technology provider,
+
+217
+00:40:50.400 --> 00:40:52.629
+Matthias Geihs: which is a toolkit. And
+
+218
+00:40:52.910 --> 00:41:02.450
+Matthias Geihs: now we are in all of these communities, going more and more into the direction. What can we do with it and looking for collaborations in that regard.
+
+219
+00:41:08.270 --> 00:41:10.339
+Arun S M: Thanks. Appreciate tankers.
+
+220
+00:41:11.640 --> 00:41:14.609
+Tracy Kuhrt: Alright, any, any last questions?
+
+221
+00:41:20.420 --> 00:41:34.080
+Tracy Kuhrt: Alright, If there's no questions, then I would like to thank Mono Myth and Hendrik for joining us today on the call. I think this has been a really interesting presentation and and discussion. I uh,
+
+222
+00:41:34.090 --> 00:41:50.260
+Tracy Kuhrt: I am curious to see how the the continued conversations might go with cacti, and whether or not it makes sense to to bring that into cacti, or whether it makes sense to bring this into uh a separate pro top level project as we move forward so
+
+223
+00:41:50.270 --> 00:41:56.520
+Tracy Kuhrt: definitely. Uh, keep us informed as you move forward with those conversations, and and let us know how it goes.
+
+224
+00:41:58.300 --> 00:42:07.290
+Tracy Kuhrt: And with that I am going to close the call for today. So I thank you all for attending, and we will hopefully see you next week.
+
+225
+00:42:07.730 --> 00:42:11.729
+Matthias Geihs: Thank you very much for having you all. Thank you all. Bye, bye,
+

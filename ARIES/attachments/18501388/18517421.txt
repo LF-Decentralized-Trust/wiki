@@ -1,0 +1,15 @@
+00:04:50	Lance Byrd: https://wiki.hyperledger.org/display/ARIES/Aries+DIDCommV2+Working+Group+2023-01-23+meeting
+00:05:06	Lance Byrd: https://wiki.hyperledger.org/display/ARIES/Aries+DIDCommV2+Working+Group+2023-01-23+meeting
+00:07:39	Alex: I created an issue on the veramo repo to add waci pex to their agent https://github.com/uport-project/veramo/issues/1106 as well as a did peer issue https://github.com/uport-project/veramo/issues/1105
+00:16:36	Rodolfo Miranda: https://github.com/aviarytech/didcomm
+00:17:01	Alex: https://github.com/aviarytech/did-peer
+00:17:05	Rodolfo Miranda: https://github.com/aviarytech/did-peer
+00:21:07	Alex: Is the Aries agent test harness going to become a DIDCOMM v2 test harness?
+00:30:04	Alex: Didcommv2_base ?
+00:33:07	Bruce Conrad: didcommv2_layer1 ?
+00:35:30	Alex: Did peer spec got a new warning saying that you should use did keri
+00:36:30	Alex: https://github.com/WebOfTrust/ietf-did-keri
+00:37:22	Rodolfo Miranda: https://daniel-hardman.medium.com/sentries-confessionals-vaults-and-envelopes-4a58cf4f8a5a
+00:40:53	Alex: I think sticking to did peer for now is best!
+00:45:35	Alex: We might have to create a new js package for a did keri lite just to do basic singing and did generation
+00:47:26	Alex: https://github.com/WebOfTrust/signify-ts

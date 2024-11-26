@@ -1,0 +1,26 @@
+00:07:07	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=36734018
+00:13:17	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=36734018
+00:30:53	Drummond Reed:	Hmmm. I like the term “intent codes” maybe a little better than “goal codes”.
+00:32:35	John Callahan:	Might conflict with Android Intents (https://developer.android.com/guide/components/intents-filters)
+00:32:52	John Callahan:	Similar idea though…
+00:34:50	Robert Mitwicki:	we started thinking about similar protocol for consent request and we called it "purpose codes"
+00:35:15	Ajay Jadhav:	aries.vc.revoke ?
+00:42:49	Daniel Hardman:	@ajay: yes, we should add that
+00:43:43	George Aristy:	Isn't that declarative programming?
+00:45:55	George Aristy:	https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0430-machine-readable-governance-frameworks/README.md
+00:47:27	Robert Mitwicki:	use did ;)
+00:47:46	John Callahan:	good ref, george.  I like Purpose to align with governance
+00:48:04	Drummond Reed:	You beat me to it Robert ;-)
+00:51:53	Drummond Reed:	+1 to purpose codes
+00:55:17	Ajay Jadhav:	Useful in USSD use cases for low-tech mobile agents ?
+01:02:47	Drummond Reed:	Is there a language tag option for presenting the menu in other human languages?
+01:03:36	Drummond Reed:	+1 to adding purpose codes to this
+01:03:51	Drummond Reed:	that would add to the machine understandability
+01:06:37	Drummond Reed:	+1 to it being a good way to explore new protocols
+01:10:46	Stephen Curran:	All the text elements can use the localization decorator.
+01:13:04	Stephen Curran:	I should say "could"
+01:17:32	George Aristy:	next item on our action menu...
+01:28:57	George Aristy:	aries-framework-go has that API: https://pkg.go.dev/github.com/hyperledger/aries-framework-go@v0.1.3/pkg/vdri/key?tab=doc#VDRI.Build
+01:29:08	George Aristy:	Takes in a public key, outputs a didDoc
+01:30:30	Brent Zundel:	link to Ursa code that transforms an ed25519 public key to an X25519 public key.
+01:30:34	Brent Zundel:	https://github.com/hyperledger/ursa/blob/master/libursa/src/signatures/ed25519.rs#L37

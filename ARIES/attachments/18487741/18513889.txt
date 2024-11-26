@@ -1,0 +1,30 @@
+00:00:56	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=36733089
+00:05:42	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=36733089
+00:09:44	Rouven Heck:	https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
+00:09:58	Rouven Heck:	Draft - DIF Interop Charter ^
+00:12:31	Rouven Heck:	next InterOp call - Wednesday 9am ET
+00:21:57	Rouven Heck:	@Stephen - do you have a document/reference to the Revocation 2.0 work?
+00:22:44	Stephen Curran:	A little bit.  Mostly around the goals and some of the implementation work. Will get after my presentation.
+00:22:56	Rouven Heck:	great, thx!
+00:44:46	Drummond Reed:	We’ll definitely be getting revocation registries for larger numbers of issued credentials than 1M.
+00:48:01	Drummond Reed:	Great stuff, Stephen
+00:48:52	Stephen Curran:	Rouven - here is a presentation on this: https://docs.google.com/presentation/d/1Ql_ClhND_q0-oXguB65lYtwKlDOUpk3JoNOGePaRgTU/edit#slide=id.g838801efea_0_31
+00:48:59	Stephen Curran:	Revocation 2.0 I mean.
+00:49:45	Stephen Curran:	Mik
+00:49:53	Stephen Curran:	Mike's latest work: https://github.com/mikelodder7/accumulator-rs/tree/master/accumulator-rsa
+00:50:44	Rouven Heck:	thank you. what is the best way to stay in touch around the 2.0 work?
+00:51:12	Stephen Curran:	Bit Array -- Merkle Tree of Non-Revoked Ranges - https://github.com/andrewwhitehead/ursa-rfcs/tree/non-rev-tree/text/0000-revocation-range-tree
+00:51:29	Timo Glastra:	Can you also share the presentation you just presented Stephen?
+00:52:32	Stephen Curran:	Best is here right now - we talk about it regularly.  It is Ursa code and will propogate to Aries via Indy initially.
+00:52:44	Stephen Curran:	Happy to be a bridge as well.
+00:53:17	Stephen Curran:	Presentation from today: https://docs.google.com/presentation/d/1rairut-x-frAvuDScGl6SWH4Mfs9Um_yBjjq43tYcv4/edit?usp=sharing
+01:05:05	Drummond Reed:	Stephen, are you proposing that “machine-readable governance frameworks” become a new type of Aries RFC?
+01:13:03	Drummond Reed:	I also want to briefly talk about doing an RFC (or, as the ToIP Foundation calls them, a TSS) on machine-readable governance frameworks in the ToIP Governance Stack Working Group.
+01:20:28	Nathan George:	momentum++   The sooner we get to interoperability examples the faster this will get contributors and usage
+01:20:35	Drummond Reed:	+1
+01:29:19	Rouven Heck:	Interesting moment in time to talk about account verification (e.g. email or social media) -> Twitter just got hacked ;)
+01:30:02	Rouven Heck:	e.g. https://twitter.com/elonmusk/status/1283498320430850052
+01:30:27	Drummond Reed:	Bootstrapping trust
+01:32:12	Steve McCown:	+1 for realtime verification examples.  :-)
+01:36:01	Rouven Heck:	can you pls. reshare the hackmd link?
+01:36:21	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/resumedraft.action?draftId=36733090&draftShareId=2b61b209-69ec-4237-8a90-23073e364b73&

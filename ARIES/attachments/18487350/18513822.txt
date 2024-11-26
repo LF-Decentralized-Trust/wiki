@@ -1,0 +1,15 @@
+00:04:18	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=31203607
+00:10:55	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=31203607
+00:19:35	Nathan George:	I should note that Cam is working on images as credentials attributes and how that works with hashing and perhaps attachments.  (If you know stuff about how this _should_ work, talk to Cam)
+00:20:03	Nathan George:	(For Kiva’s work with the Government IDs)
+00:24:04	Darrell ODonnell:	“Nominated as most adequate” - Stephen can get that on a t-shirt!
+00:54:21	Nathan George:	😱
+00:54:58	Nathan George:	Invalid verifiable credentials ;)
+00:55:15	John Callahan:	Interesting.
+00:56:34	Nathan George:	Verified is not the same thing as helpful
+00:56:51	Nathan George:	And that is okay
+00:57:33	Nathan George:	Brent++
+00:58:55	Stephen Curran:	That may be, but what should the "Present Proof" protocol deal with -- verification or validation?
+01:08:02	Nathan George:	From a API user perspective “does this meet my criteria (including being valid)” is more useful.  We still need the other definitions for the spec, but our focus should be on something practical from a usability perspective.
+01:08:04	George Aristy:	presentation definition is just a JSON object: https://identity.foundation/presentation-exchange/#presentation-definition---all-features-exercised-6
+01:14:58	Nathan George:	Wait, waynechain wayne?   Wayne++

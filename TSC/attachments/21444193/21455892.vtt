@@ -1,0 +1,1506 @@
+WEBVTT
+
+1
+00:00:18.300 --> 00:00:19.890
+Tracy Kuhrt: Welcome everyone to the.
+
+2
+00:00:19.920 --> 00:00:20.790
+Tracy Kuhrt: march 24.
+
+3
+00:00:21.030 --> 00:00:33.660
+Tracy Kuhrt: hyper ledger technical steering committee call, as you are all aware you've been on this call before there's two things that you must abide by the first is the antitrust policy notice, which is currently displayed on the screen.
+
+4
+00:00:34.470 --> 00:00:39.060
+Tracy Kuhrt: And the second is the code of conduct, which is linked in our agenda.
+
+5
+00:00:40.500 --> 00:00:46.620
+Tracy Kuhrt: So first off we'll start with the announcements, as always, the Dev weekly developer newsletter goes out each Friday.
+
+6
+00:00:47.040 --> 00:00:53.430
+Tracy Kuhrt: If you have anything that you'd like to make sure gets included in that please leave a comment on the wiki page that is linked in the agenda.
+
+7
+00:00:54.210 --> 00:01:08.820
+Tracy Kuhrt: And the second thing is the hyper ledger global forum, the CFP is are still open, they close on April 29 if you would like to talk at the hope electrical before Please submit your CFP for consideration.
+
+8
+00:01:10.710 --> 00:01:12.960
+Tracy Kuhrt: Any other announcements anybody would like to.
+
+9
+00:01:22.500 --> 00:01:39.060
+Tracy Kuhrt: Okay, so no announcements, the first thing that we have are the project reports hyper ledger or Sir came in, I see that most of us have reviewed that I think there's only three missing check marks in the report.
+
+10
+00:01:41.490 --> 00:01:54.150
+Tracy Kuhrt: Written I did see your comments So hopefully you can will see that as well, I think it's a good comment as far as trying to get additional projects using the cryptographic libraries.
+
+11
+00:01:55.560 --> 00:01:59.280
+Tracy Kuhrt: Just helping people really understand having night bring those into their projects.
+
+12
+00:02:00.630 --> 00:02:08.790
+Tracy Kuhrt: Are there any other questions comments on hyper ledger so anything that anybody feels they we should be concerned about or.
+
+13
+00:02:10.170 --> 00:02:12.000
+Tracy Kuhrt: Any any additional comment, sir.
+
+14
+00:02:21.480 --> 00:02:38.370
+Tracy Kuhrt: Alright, so with that then hyper ledger caliber did come in earlier this week I did see showing up in my inbox today a base to report that is also come in, so we need will be able to review those next week on their regularly scheduled.
+
+15
+00:02:39.420 --> 00:02:41.340
+Tracy Kuhrt: Time the.
+
+16
+00:02:42.870 --> 00:02:53.430
+Tracy Kuhrt: The caliber one doesn't have everybody, having taken a look at it, yet and we're probably about halfway there and I personally haven't opened the basic one yet so I have no idea where we're at with that one.
+
+17
+00:02:54.600 --> 00:03:10.470
+Tracy Kuhrt: it's still really early here for me in the morning, so I think with the project reports, the only other thing that we've got is the outstanding hyper ledger explorer quarterly report that was due, two weeks ago.
+
+18
+00:03:15.600 --> 00:03:18.900
+Tracy Kuhrt: Any other comments on the project reports at this point.
+
+19
+00:03:30.390 --> 00:03:30.780
+Tracy Kuhrt: Okay.
+
+20
+00:03:32.970 --> 00:03:37.200
+Tracy Kuhrt: So, the next item on our agenda is a vote.
+
+21
+00:03:38.310 --> 00:03:56.640
+Tracy Kuhrt: So the vote is for the mentorship project selection recommendations that came in from the task force those recommendations picked the different projects that they thought they basically did a ranking for each of them.
+
+22
+00:03:58.110 --> 00:04:13.170
+Tracy Kuhrt: As far as whether or not they met the criteria, there are the ones that are listed here recommend it for approval, the only comment I saw come through on chat was from a room related to.
+
+23
+00:04:15.210 --> 00:04:18.960
+Tracy Kuhrt: There were three that basically ended up in a three way tie.
+
+24
+00:04:20.430 --> 00:04:34.320
+Tracy Kuhrt: I kind of do a tiebreaker and picked one of those are wound up Maybe I should have picked another one I provided reasons and chat as to why I picked the one that I did, and looking at their.
+
+25
+00:04:36.930 --> 00:04:41.100
+Tracy Kuhrt: I guess that you're okay with that Is that correct.
+
+26
+00:04:45.180 --> 00:04:45.480
+Tracy Kuhrt: yeah.
+
+27
+00:04:48.840 --> 00:05:00.870
+Aruna S M: I think those are five points, but I guess, we can I mean if we are allowed to probably we can ask them to edit and make corrections but otherwise i'm fine with that decision.
+
+28
+00:05:02.100 --> 00:05:06.450
+Aruna S M: So let's hear what others think of nobody has any other questions, then i'm fine with it.
+
+29
+00:05:09.960 --> 00:05:12.000
+Tracy Kuhrt: everybody else have any other comments.
+
+30
+00:05:12.030 --> 00:05:12.960
+Tracy Kuhrt: On the.
+
+31
+00:05:14.070 --> 00:05:16.620
+Tracy Kuhrt: Task Force recommendations.
+
+32
+00:05:22.500 --> 00:05:29.700
+Arnaud J Le Hors (IBM): So this is all jumping I mean, so my understanding is there is only so many you can approve anyway right.
+
+33
+00:05:29.940 --> 00:05:30.960
+Tracy Kuhrt: that's right that's right.
+
+34
+00:05:32.490 --> 00:05:49.290
+Arnaud J Le Hors (IBM): So I i'm just thinking of what I was talking about, you know there's not much point to me it seems to ask them to add if we already at Max capacity and we're gonna have to we're gonna have to reject one or the other anyway.
+
+35
+00:05:52.440 --> 00:06:00.120
+Tracy Kuhrt: Yes, so I mean I can't remember what were the exact numbers of proposals that we got in and how many, we can accept.
+
+36
+00:06:00.660 --> 00:06:06.810
+Min Yu: yeah I think we received about 38 maybe 3839 I have to do my count again.
+
+37
+00:06:07.920 --> 00:06:09.450
+Min Yu: But we need to select 28.
+
+38
+00:06:11.700 --> 00:06:29.250
+Min Yu: To to put on fx mentorship platform, so that hyper ledger Foundation can provide the funding for the selected mentees for those 20 mentorship projects So yes, we did receive more than we have funding for so the the task force kind of.
+
+39
+00:06:30.480 --> 00:06:47.700
+Min Yu: did a scoring and I think the process went pretty smoothly, there was as Tracy mentioned three projects kind of ended up in a pie kind of the last you know we the 27th pretty clear, you know winners that should be selected by the nurse three they scored.
+
+40
+00:06:49.020 --> 00:06:59.730
+Min Yu: Exactly the same and we need to pick one out of those three I think Tracy you pick the enable Cuban 80s operators, support for fat low, but I think a room you.
+
+41
+00:07:00.630 --> 00:07:16.200
+Min Yu: kind of felt like maybe the supply chain certification solution to track trace and efficiently certified liquid food grade and Barry transportation sorry it's a long title, I saw you had a comment, a few comments back and forth with the person who proposed this project.
+
+42
+00:07:18.180 --> 00:07:19.260
+Min Yu: i'm not sure.
+
+43
+00:07:20.310 --> 00:07:21.690
+Min Yu: yeah so.
+
+44
+00:07:22.770 --> 00:07:29.160
+Min Yu: I guess just you really just asking kind of the tasc sounds like tracing you.
+
+45
+00:07:30.150 --> 00:07:44.100
+Min Yu: Using the could enable companies is you know, has clear learning outcome it's it's a sort of better defined for mentee to work on it within that kind of define mentorship program period, maybe the supply chain, one is.
+
+46
+00:07:45.600 --> 00:07:47.490
+Min Yu: Is a little bit maybe.
+
+47
+00:07:48.660 --> 00:07:55.080
+Min Yu: Maybe i'll speak to I don't know all the deep you know technical details.
+
+48
+00:07:58.620 --> 00:08:09.750
+Aruna S M: i'm Okay, I think I can repeat why I felt like project could be support it, or why that proposal could be supported, I saw some some similarities in the proposal.
+
+49
+00:08:10.320 --> 00:08:22.380
+Aruna S M: To what crit already does, to some extent, and when I commented about great project pointed them to the documentation and it felt like they needed a project like that, and they wanted to propose a project something like that.
+
+50
+00:08:23.520 --> 00:08:34.740
+Aruna S M: And in one of the great proposals i'd seen the requesting for additional participation from the Community they're looking for more contribution so felt that this could be a way they can increase.
+
+51
+00:08:36.120 --> 00:08:44.790
+Aruna S M: Their shares of participants and there is nothing against any project as such by.
+
+52
+00:08:45.840 --> 00:08:49.440
+Aruna S M: For me, in terms of ranking probably FAB lower go.
+
+53
+00:08:51.360 --> 00:08:52.890
+Aruna S M: In the second preference.
+
+54
+00:08:53.970 --> 00:08:59.670
+Aruna S M: On the only reason being there are other projects which does something similar to that already.
+
+55
+00:09:02.670 --> 00:09:16.500
+Tracy Kuhrt: yeah so i'll add to that because I when I read the comment on the supply chain when I felt very much like it was we already are using fabric so we're going to continue to use fabric, which implies to me that grid was out of scope there.
+
+56
+00:09:18.120 --> 00:09:24.780
+Tracy Kuhrt: And I guess you know, like I said the learning objectives and then the scope of the project was really unclear.
+
+57
+00:09:25.200 --> 00:09:38.880
+Tracy Kuhrt: For that versus it was extremely clear in the the enable communities operator support for fat blue and definitely felt like he could could have a good opportunity to be successful yeah I know.
+
+58
+00:09:39.990 --> 00:09:46.500
+Arnaud J Le Hors (IBM): yeah I was wondering i'm in you know, I was looking earlier actually had this the supply chain one and.
+
+59
+00:09:47.070 --> 00:09:57.300
+Arnaud J Le Hors (IBM): it's strike me that this is very business oriented they actually have a platform they already talking about customers bringing more customers do we have any kind of.
+
+60
+00:09:57.870 --> 00:10:04.110
+Arnaud J Le Hors (IBM): policy with regard to this, I mean the bottom line is to me they're really trying to advance their own business.
+
+61
+00:10:05.070 --> 00:10:17.700
+Arnaud J Le Hors (IBM): And it kind of turned me off a little bit to be completely fair but I don't know if this is, you know this is true for a lot of the the internship we have or is that fairly unique.
+
+62
+00:10:21.810 --> 00:10:31.830
+Tracy Kuhrt: I would say it's fairly unique in that the other projects at least the ones that I look at seems more focused on improving.
+
+63
+00:10:33.300 --> 00:10:45.450
+Tracy Kuhrt: Improving the project's themselves, I think there are some in there that are obviously focused on particular use cases, if you will, right from the cigs.
+
+64
+00:10:47.400 --> 00:11:00.270
+Tracy Kuhrt: Those are probably more like the climate climate use cases and those sorts of things carbon accounting, you know but they're still I think so much focused on the project's themselves.
+
+65
+00:11:01.680 --> 00:11:18.120
+Arnaud J Le Hors (IBM): So so that's my impression to so you're confirming this so on that basis, you know, for me, that really plays against this supply chain thing which is really an application that they clearly are you know, trying to build a business around so.
+
+66
+00:11:20.190 --> 00:11:23.700
+Arnaud J Le Hors (IBM): I think we should favor more open source projects than that.
+
+67
+00:11:25.980 --> 00:11:27.030
+Arnaud J Le Hors (IBM): My take on this.
+
+68
+00:11:30.420 --> 00:11:35.100
+Tracy Kuhrt: Any other comments or concerns about any of the projects that were selected.
+
+69
+00:11:36.600 --> 00:11:37.350
+Tracy Kuhrt: or recommended.
+
+70
+00:11:45.780 --> 00:11:53.850
+Tracy Kuhrt: hey nobody has concerns, I think, I would like to call this to a vote thing I think we have enough people to do that is that correct.
+
+71
+00:11:55.980 --> 00:11:58.380
+Tracy Kuhrt: Sean do we have enough for chrome.
+
+72
+00:12:04.470 --> 00:12:06.270
+Sean Bohan (Hyperledger): Sorry, I couldn't find my mute button.
+
+73
+00:12:07.380 --> 00:12:08.400
+Sean Bohan (Hyperledger): We have we've got.
+
+74
+00:12:10.770 --> 00:12:31.290
+Sean Bohan (Hyperledger): i'm gonna say 914 10 out of we've got 10 out of the 11 available tasc Members are on the call other three so they couldn't make it so we've 10 out of 11.
+
+75
+00:12:34.500 --> 00:12:36.570
+Tracy Kuhrt: Alright, so let's ah.
+
+76
+00:12:36.840 --> 00:12:38.850
+Tracy Kuhrt: Any any objections to.
+
+77
+00:12:38.850 --> 00:12:41.460
+Tracy Kuhrt: Take this to vote and.
+
+78
+00:12:41.550 --> 00:12:44.520
+Tracy Kuhrt: If there are no objections Does anyone want to make a motion.
+
+79
+00:12:47.790 --> 00:12:48.180
+Danno Ferrin: Second.
+
+80
+00:12:49.830 --> 00:12:50.070
+Danno Ferrin: Peter.
+
+81
+00:12:51.330 --> 00:12:54.690
+Tracy Kuhrt: I think it was Peter in downtown Washington second together.
+
+82
+00:12:56.220 --> 00:12:57.210
+Tracy Kuhrt: If I got that right.
+
+83
+00:13:00.060 --> 00:13:00.390
+Tracy Kuhrt: Okay.
+
+84
+00:13:01.950 --> 00:13:02.880
+Tracy Kuhrt: So.
+
+85
+00:13:04.380 --> 00:13:11.010
+Tracy Kuhrt: yeah right you just want to take us through a boat, not necessarily person by person, but just make.
+
+86
+00:13:12.180 --> 00:13:17.640
+Ry Jones: Sure, the matter before the the dsc is to approve the slate of.
+
+87
+00:13:18.660 --> 00:13:27.030
+Ry Jones: internship projects and everyone who is against this motion, please say, nay.
+
+88
+00:13:30.240 --> 00:13:33.120
+Ry Jones: Anyone that would like to abstain from this vote.
+
+89
+00:13:36.300 --> 00:13:38.220
+Ry Jones: And all those in favor please say Aye.
+
+90
+00:13:39.030 --> 00:13:40.260
+Tracy Kuhrt: Aye Aye.
+
+91
+00:13:40.680 --> 00:13:41.130
+Aye.
+
+92
+00:13:44.100 --> 00:13:45.120
+Ry Jones: Motion passes.
+
+93
+00:13:47.700 --> 00:13:49.620
+Tracy Kuhrt: will try let's everyone.
+
+94
+00:13:50.670 --> 00:13:53.190
+Tracy Kuhrt: Alright, so the next item on.
+
+95
+00:13:54.120 --> 00:14:00.960
+Min Yu: To say I just want to say a quick Thank you so yes, thank you i'm very excited so i'll be in touch with the mentors.
+
+96
+00:14:01.470 --> 00:14:17.130
+Min Yu: Who proposed as projects and got selected and you know we'll be talking to them about the next steps, and I just want to say a big thank you to Angelo a room Daniel kamlish and Peter and Tracy, of course, was served on the.
+
+97
+00:14:18.300 --> 00:14:23.760
+Min Yu: The task force to help us review and score the projects really appreciate your help.
+
+98
+00:14:27.120 --> 00:14:29.010
+Tracy Kuhrt: Thanks Ben yes, thanks to.
+
+99
+00:14:29.820 --> 00:14:32.280
+Tracy Kuhrt: The folks who took the time to go through them and.
+
+100
+00:14:32.760 --> 00:14:34.380
+Tracy Kuhrt: Help us out in selecting that.
+
+101
+00:14:36.660 --> 00:14:52.530
+Tracy Kuhrt: Alright, so the next item on the agenda, I just want to do is, we obviously had Task Force update from the mentorship project selection I were to do a quick update around from the security test for see how it's going see if there's anything that the TC can do to help.
+
+102
+00:14:53.580 --> 00:14:54.780
+Tracy Kuhrt: In that test worse.
+
+103
+00:14:58.380 --> 00:15:02.340
+Aruna S M: Show Tracy and thanks in in this there's definitely.
+
+104
+00:15:03.570 --> 00:15:19.710
+Aruna S M: ways in which we can improve the engagement and the task force placed in the Security Task Force, so there has been good good participation in the past and where we are probably lagging is taking up the actions that are coming out of those meetings.
+
+105
+00:15:21.180 --> 00:15:28.260
+Aruna S M: And I don't know how to improve that case, however, there is good participation at least during the meetings.
+
+106
+00:15:29.010 --> 00:15:38.640
+Aruna S M: and quick updates on what's happening within the task force, they initially the discussions were unclear as to what exactly to be focused on.
+
+107
+00:15:39.150 --> 00:15:50.070
+Aruna S M: So the initial couple of conversations or meetings were purely into which area of security, or what should be the scope of the task force identifying the areas that we should tackle.
+
+108
+00:15:51.210 --> 00:15:59.850
+Aruna S M: This is how the initial couple of meetings work went into and then, once we decided to focus on.
+
+109
+00:16:02.820 --> 00:16:09.480
+Aruna S M: So we took references from open ssl as well as we took references that were coming in in terms of.
+
+110
+00:16:11.580 --> 00:16:15.660
+Aruna S M: For instance, nano shared on one of the call on.
+
+111
+00:16:16.950 --> 00:16:28.140
+Aruna S M: How a vulnerability is reported in base Oh, and how it was called against right so those points were discussed, and then there was open question that was brought up on how do we.
+
+112
+00:16:28.830 --> 00:16:38.160
+Aruna S M: measure one variability for a blockchain project, given that most of the projects and, like the ledger are blockchain technologies are not the party systems.
+
+113
+00:16:38.910 --> 00:16:49.830
+Aruna S M: and eventually the task force decided that this corporate scope of the task force itself could be much bigger, so we need to break them down into.
+
+114
+00:16:50.850 --> 00:16:59.430
+Aruna S M: work streams and eventually went to begin with work streams, we decided to go with writing down on paper.
+
+115
+00:17:00.480 --> 00:17:01.230
+Aruna S M: Starting with.
+
+116
+00:17:02.970 --> 00:17:11.310
+Aruna S M: Identifying the threats and areas in broad areas under which those threads code occurs, and thanks to heart for.
+
+117
+00:17:12.480 --> 00:17:30.990
+Aruna S M: I think most of the effort and thanks to all the participants, so far, so I present where we would like to have your participation in the task force is to identify the traits continue identifying those types and once let's say we discuss those traits in one of our meetings.
+
+118
+00:17:32.160 --> 00:17:34.200
+Aruna S M: We can start putting down.
+
+119
+00:17:35.640 --> 00:17:44.310
+Aruna S M: A mitigation strategy for each of those traits or maybe start thinking towards the next steps that could lead us to multiple smaller work streams and.
+
+120
+00:17:45.000 --> 00:18:00.630
+Aruna S M: We could decide on how to take it further, or maybe break down break down the task force itself so that it can deliver something at the end of every month or every three weeks or sorry every one and a half months right.
+
+121
+00:18:02.190 --> 00:18:06.900
+Aruna S M: So that's the brief update about Task Force and what's happening at the task force.
+
+122
+00:18:12.600 --> 00:18:13.920
+Tracy Kuhrt: Any questions for.
+
+123
+00:18:21.150 --> 00:18:25.650
+Aruna S M: So there is sorry Dan did you want to speak up.
+
+124
+00:18:26.310 --> 00:18:30.900
+Hart Montgomery: Oh yeah I was just going to point people to the github that we've been working in.
+
+125
+00:18:32.190 --> 00:18:34.080
+Hart Montgomery: which I will post in the chat.
+
+126
+00:18:36.480 --> 00:18:41.580
+Aruna S M: I was about to say the same thing, so there is a channel under dsc.
+
+127
+00:18:43.320 --> 00:18:46.350
+Aruna S M: You can look for security, I found Task Force.
+
+128
+00:18:47.700 --> 00:18:56.040
+Aruna S M: And you, you may find a repository that heart had started to put so that's where all the contributions are going in kindly.
+
+129
+00:18:59.610 --> 00:19:01.500
+Hart Montgomery: And I was going to actually ask.
+
+130
+00:19:03.150 --> 00:19:07.290
+Hart Montgomery: Would it be, what does the tsa think about task forces having a repository.
+
+131
+00:19:08.610 --> 00:19:18.780
+Hart Montgomery: Because i've been just putting this in my github, which is totally fine, but some people might prefer to have it in a hyper ledger github so.
+
+132
+00:19:29.760 --> 00:19:31.410
+Peter Somogyvari: I have a problem that.
+
+133
+00:19:31.530 --> 00:19:34.050
+Peter Somogyvari: posting it under the official I pledge or.
+
+134
+00:19:39.930 --> 00:19:40.620
+Tracy Kuhrt: anyone else.
+
+135
+00:19:42.480 --> 00:19:44.100
+Tracy Kuhrt: feel the same I guess.
+
+136
+00:19:44.880 --> 00:19:46.140
+Hart Montgomery: So can we.
+
+137
+00:19:48.330 --> 00:19:54.510
+Hart Montgomery: Talk maybe about logistics, so how would people feel about if we had a.
+
+138
+00:19:55.890 --> 00:20:03.150
+Hart Montgomery: A folder like task forces right so github.com slash hyper ledger.
+
+139
+00:20:04.890 --> 00:20:05.790
+Hart Montgomery: slash.
+
+140
+00:20:07.440 --> 00:20:15.900
+Hart Montgomery: I don't know how we want to lay it out, we probably don't want like a top level folder but just some folder where various task forces can have github space.
+
+141
+00:20:17.160 --> 00:20:18.330
+Ry Jones: The issue is.
+
+142
+00:20:18.780 --> 00:20:19.890
+Ry Jones: The issue is.
+
+143
+00:20:19.950 --> 00:20:20.550
+Ry Jones: This is like.
+
+144
+00:20:22.260 --> 00:20:24.270
+Ry Jones: There there's no nesting so.
+
+145
+00:20:25.980 --> 00:20:31.710
+Ry Jones: If you want to go that route, I would just create a new org called I don't know hyper ledger task forces or something.
+
+146
+00:20:33.150 --> 00:20:50.820
+Ry Jones: But I think it would probably be better to just you know prefix the the repo name with like I don't know T F dash some damn thing or another, and just allow people to sort like that, because we don't really it's not like we don't get folders.
+
+147
+00:20:51.450 --> 00:20:55.890
+Hart Montgomery: Okay yeah that that makes total sense that's probably the best way to do it.
+
+148
+00:20:57.450 --> 00:20:58.530
+And I think that.
+
+149
+00:20:59.640 --> 00:21:10.020
+Tracy Kuhrt: You know there's there's a couple different ways to purchase I know the chat tasks worsted things on the wiki up till now, I think most of our task forces have done stuff on the wiki.
+
+150
+00:21:11.310 --> 00:21:19.290
+Tracy Kuhrt: So I think that you know, in this particular case, with the Security Task Force there's been the desire to to use github because of the.
+
+151
+00:21:19.920 --> 00:21:34.260
+Tracy Kuhrt: format that you're using for the the paper that you guys are writing so I think it's you know, maybe, maybe it depends too on the task force, as far as what they really need, as to whether or not they need a github repo or not.
+
+152
+00:21:36.750 --> 00:21:38.370
+Hart Montgomery: Absolutely, they may not need it.
+
+153
+00:21:40.500 --> 00:21:40.770
+Hart Montgomery: you're.
+
+154
+00:21:40.830 --> 00:21:43.470
+Ry Jones: you're right and that actually I mean.
+
+155
+00:21:44.700 --> 00:22:01.110
+Ry Jones: We could have a task force repo and then have the individual projects, you know have folders within that repo and just you know ask people to only merge the stuff in the part of the repo that they care about that would also work.
+
+156
+00:22:10.830 --> 00:22:22.470
+Tracy Kuhrt: Okay, any other things on logistics, I think that the reason that I want to ruin to give this update is I think it's going to be important as we think about how we want to approach Task Force.
+
+157
+00:22:23.820 --> 00:22:38.160
+Tracy Kuhrt: task forces in the future right we're starting to move that direction and I think that a ruined in the the people who have been participating on the security cast for us have found.
+
+158
+00:22:38.640 --> 00:22:49.860
+Tracy Kuhrt: Some challenges that they are dressing right around making sure that you know exactly what you're working on making sure that the task are small enough to.
+
+159
+00:22:50.790 --> 00:23:07.710
+Tracy Kuhrt: Complete right, which is why the the kind of breaking it down into sub task, if you will, the other one is that task forces are not just about attending the meeting they're about doing things offline and making sure that there's progress being made in.
+
+160
+00:23:09.420 --> 00:23:20.250
+Tracy Kuhrt: in some way, shape or form between those meetings, and so, you know as we approach these task forces that we're we're starting to kick off, we need to be keeping those things in mind.
+
+161
+00:23:22.710 --> 00:23:26.400
+Tracy Kuhrt: So that we don't run into similar problems that other task forces have.
+
+162
+00:23:38.130 --> 00:23:42.810
+Tracy Kuhrt: No additional thoughts on that before we move on to the next topic.
+
+163
+00:23:47.130 --> 00:23:47.310
+Tracy Kuhrt: yeah.
+
+164
+00:23:50.940 --> 00:23:51.210
+Aruna S M: well.
+
+165
+00:23:52.290 --> 00:24:00.840
+Aruna S M: I mean, I see some of the task forces do have this task forces would be beneficial, especially on the ones the ones that.
+
+166
+00:24:01.980 --> 00:24:08.640
+Aruna S M: That would matter for rest of the projects if there are more participants from those project teams.
+
+167
+00:24:09.810 --> 00:24:12.360
+Aruna S M: If they are joining in those Task Force right.
+
+168
+00:24:13.380 --> 00:24:29.550
+Aruna S M: And the chart task force was successful because I guess everybody we're involved in pushing information out of the task force and then sharing it across in different forums collecting feedback from different project teams, so that.
+
+169
+00:24:30.660 --> 00:24:40.830
+Aruna S M: Against that kind of participation may not be possible, all the time, is there any suggestion on how do we get those project teams get involved into this task force.
+
+170
+00:24:49.620 --> 00:24:50.910
+Tracy Kuhrt: Anybody have any suggestions.
+
+171
+00:24:55.320 --> 00:25:05.160
+Peter Somogyvari: Well, my question would be do they know about the task forces, if they do, then I would assume the taking their.
+
+172
+00:25:06.870 --> 00:25:09.840
+Peter Somogyvari: reason to be there, their interest to represent them.
+
+173
+00:25:12.750 --> 00:25:20.190
+Peter Somogyvari: But if they if they're not even sure if they are aware that that's probably the first problem to fix.
+
+174
+00:25:25.560 --> 00:25:26.610
+Danno Ferrin: It another concern.
+
+175
+00:25:26.760 --> 00:25:34.290
+Danno Ferrin: is even if they're aware, is it something they want to do, because we have a lot of maintainer is in some of these projects that are in the level that don't necessarily.
+
+176
+00:25:35.340 --> 00:25:44.670
+Danno Ferrin: want to move, you know quote unquote up the chain to deal with hyper ledger white issues, some of them do something dumb and we should you know, make it available make it known to them.
+
+177
+00:25:45.390 --> 00:25:53.640
+Danno Ferrin: But it's, just like the the maintainer acquisition funnel you got people who are using it, people are contributing it and not everyone who contributes to maintain it.
+
+178
+00:25:54.150 --> 00:26:02.880
+Danno Ferrin: And I think similar it's not everyone who who maintains a project necessarily wants to get involved in what is basically leadership tasks for the entire hyper ledger org.
+
+179
+00:26:03.360 --> 00:26:10.320
+Danno Ferrin: And they might view that as a task force, but on the other hand, task force participation can be a very low thing because it's not a high commitment that, like.
+
+180
+00:26:10.710 --> 00:26:17.040
+Danno Ferrin: attending at CSC meeting every week will be there's a problem that they are the experts in, so I think, on the other hand, of that coin.
+
+181
+00:26:17.430 --> 00:26:29.820
+Danno Ferrin: We should encourage people to join these task forces don't require require the same level of commitment and especially when they have domain specific knowledge will be very helpful in some of these task forces.
+
+182
+00:26:43.500 --> 00:26:45.510
+Tracy Kuhrt: Any any other comments heartbreaking.
+
+183
+00:26:48.540 --> 00:26:50.220
+Hart Montgomery: You are really observant Tracy.
+
+184
+00:26:50.460 --> 00:27:05.400
+Hart Montgomery: Well yeah I was just gonna say I think this highly depends on the task force, some of the task forces require a lot of domain specific knowledge, some of them don't so so i'm not sure there's a one size fits all solution for all of this.
+
+185
+00:27:06.660 --> 00:27:09.480
+Hart Montgomery: I think the best way to.
+
+186
+00:27:12.330 --> 00:27:23.880
+Hart Montgomery: Well, you know, one of the best ways to get people interested in task forces are to give them teeth, so if people think that they're going to be affected by a task force there's a lot more incentive to join.
+
+187
+00:27:26.010 --> 00:27:43.200
+Hart Montgomery: You know sort of the the performance and scale working group is a classic example of this when it had teeth tons of people joined and as soon as it's a sensible mission was over, not so many people joined and the other thing is, you know I guess just.
+
+188
+00:27:46.050 --> 00:27:55.920
+Hart Montgomery: Make the task forces things that people want to work on and and you know, for some of these, we need to recruit more.
+
+189
+00:27:57.330 --> 00:27:58.920
+Hart Montgomery: domain specific experts.
+
+190
+00:28:02.550 --> 00:28:04.980
+Tracy Kuhrt: yeah and I would, I would say, having a good.
+
+191
+00:28:06.900 --> 00:28:11.610
+Tracy Kuhrt: A good description of what these task forces are right, why Why are these task forces important.
+
+192
+00:28:12.930 --> 00:28:26.550
+Tracy Kuhrt: What is it that they're attempting to accomplish what are the deliverables that they're working on right all of the things that we do have in our task force guidelines that should probably be the very first thing that we work on.
+
+193
+00:28:28.530 --> 00:28:36.000
+Tracy Kuhrt: Work on developing I we we have proposed these task forces, the ones that we're talking about today, as well as the Security Task Force.
+
+194
+00:28:37.110 --> 00:28:38.250
+Tracy Kuhrt: Within the.
+
+195
+00:28:39.270 --> 00:28:48.750
+Tracy Kuhrt: Within the tsp meetings and they haven't necessarily got themselves to document kind of that that introduction, the background why we're doing this.
+
+196
+00:28:49.170 --> 00:29:01.830
+Tracy Kuhrt: What are we working on what are we looking to complete the task by, so I think that's a another piece of advertising right, as I believe it was Peter said right.
+
+197
+00:29:02.310 --> 00:29:11.310
+Tracy Kuhrt: getting people to know that the task force exist start with documenting what these are so that's probably the the other piece of that that we can look at.
+
+198
+00:29:17.160 --> 00:29:19.320
+Tracy Kuhrt: Okay, so let's.
+
+199
+00:29:20.700 --> 00:29:27.120
+Tracy Kuhrt: Talk about the email that I sent to the PC Mary Alice which one person responded.
+
+200
+00:29:28.260 --> 00:29:40.200
+Tracy Kuhrt: The poll that has been in the PC agenda which five people, I believe, have voted i'd like to vote on this, how do you want to approach these Task Force meetings.
+
+201
+00:29:41.640 --> 00:29:52.200
+Tracy Kuhrt: And so, in the in discord i'm going to put a link to the agenda, so that you guys can go in and select the.
+
+202
+00:29:54.240 --> 00:29:57.450
+Tracy Kuhrt: option that you think is the best approach for Task Force meetings.
+
+203
+00:30:01.050 --> 00:30:04.890
+Tracy Kuhrt: So that we can decide how we want to handle these moving forward.
+
+204
+00:30:08.580 --> 00:30:12.810
+Tracy Kuhrt: Yes, that was me nicely calling you all out for not responding to my email.
+
+205
+00:30:21.030 --> 00:30:23.400
+Tracy Kuhrt: i'm feeling lonely guys I guess it's a problem.
+
+206
+00:30:27.960 --> 00:30:29.880
+Peter Somogyvari: I did respond to the poll.
+
+207
+00:30:31.050 --> 00:30:44.760
+Tracy Kuhrt: Yes, there are there are, yes, you have responded if you go into the agenda and you see that there's some numbers, there are some percentages, that means you voted for it, so and Peter I did see your vote.
+
+208
+00:30:45.810 --> 00:30:46.380
+Tracy Kuhrt: Yes.
+
+209
+00:30:51.120 --> 00:30:54.150
+Danno Ferrin: And we could vote for only one right we can't just check all the ones the like.
+
+210
+00:30:55.020 --> 00:30:55.980
+Danno Ferrin: Jay Z.
+
+211
+00:30:56.790 --> 00:31:06.900
+Tracy Kuhrt: favorite favorite one, because otherwise we're probably going to end up with all of them being our favorite and then we wouldn't come to a conclusion which I.
+
+212
+00:31:08.790 --> 00:31:10.440
+Tracy Kuhrt: come to some sort of conclusion there.
+
+213
+00:31:16.200 --> 00:31:18.600
+Tracy Kuhrt: Alright, so it looks like we now have.
+
+214
+00:31:19.620 --> 00:31:20.580
+Tracy Kuhrt: 10 votes in.
+
+215
+00:31:22.200 --> 00:31:34.320
+Tracy Kuhrt: Which is still not everybody who's on the call I know because of the fact that a couple of people who are not on the call actually voted, so if you have yet to vote, please do so.
+
+216
+00:31:34.770 --> 00:31:36.960
+Hart Montgomery: Tracy do you want to see members to vote.
+
+217
+00:31:38.040 --> 00:31:42.750
+Tracy Kuhrt: If you are going to participate that's worse than you think that's important yes definitely go ahead.
+
+218
+00:31:43.260 --> 00:31:44.070
+Hart Montgomery: All right, thank you.
+
+219
+00:31:44.190 --> 00:31:45.030
+Hart Montgomery: sorry to interrupt you.
+
+220
+00:31:45.630 --> 00:31:46.980
+Tracy Kuhrt: No problem.
+
+221
+00:31:58.530 --> 00:31:58.920
+Tracy Kuhrt: alright.
+
+222
+00:32:00.090 --> 00:32:00.990
+Tracy Kuhrt: So.
+
+223
+00:32:02.340 --> 00:32:03.090
+Tracy Kuhrt: With that.
+
+224
+00:32:04.680 --> 00:32:12.570
+Tracy Kuhrt: We do have quite the spread all of them got at least one vote, which I guess is interesting and important for us to know.
+
+225
+00:32:13.890 --> 00:32:23.430
+Tracy Kuhrt: and the one that got the four votes is the post one TC call per month, and you see other weeks to rotate between the task force topics.
+
+226
+00:32:24.600 --> 00:32:25.290
+Tracy Kuhrt: Then.
+
+227
+00:32:26.310 --> 00:32:39.810
+Tracy Kuhrt: All of them, except for the continued to use a separate time slot for hosting Task Force called got two votes so we're really very split on how we'd like to practice going forward.
+
+228
+00:32:43.980 --> 00:32:47.070
+Tracy Kuhrt: Anyone want to talk about why they voted for the one that they did.
+
+229
+00:32:58.800 --> 00:33:00.870
+Tracy Kuhrt: It go ahead, oh no sorry I.
+
+230
+00:33:00.960 --> 00:33:02.640
+Tracy Kuhrt: was having a son right back to zoom.
+
+231
+00:33:05.160 --> 00:33:15.480
+Arnaud J Le Hors (IBM): it's okay I, so I did not vote for the most popular option, and I have to admit it surprises me a little bit that must be both over this because.
+
+232
+00:33:16.350 --> 00:33:22.890
+Arnaud J Le Hors (IBM): It seems to me that you know we're basically means we would skip three calls.
+
+233
+00:33:23.520 --> 00:33:33.900
+Arnaud J Le Hors (IBM): From the current schedule, reduce like the 25% that says drastic change and it's not like look we're already almost past the hour and and.
+
+234
+00:33:34.530 --> 00:33:46.620
+Arnaud J Le Hors (IBM): it's not like we're lacking, you know topics to discuss on this call, so I would be worried that this is a bit too extreme and i'd be interested to hear from people out of this see this working up.
+
+235
+00:33:48.330 --> 00:33:55.650
+Arnaud J Le Hors (IBM): And by the way, I selected, one of the other one the bi weekly I forget that.
+
+236
+00:33:58.080 --> 00:33:58.380
+Tracy Kuhrt: Okay.
+
+237
+00:33:58.980 --> 00:34:03.180
+Tracy Kuhrt: that's that's great, thank you for bringing up anything which one did you vote for.
+
+238
+00:34:04.080 --> 00:34:04.920
+Nathan George: I voted.
+
+239
+00:34:06.780 --> 00:34:17.910
+Nathan George: I voted for the one of the standard tasc call for the first 30 minutes, and then the breakout rooms afterwards, both i'm must admit that a lot of these options are more or less equivalent to me.
+
+240
+00:34:18.660 --> 00:34:30.240
+Nathan George: in the sense that I agree with our know that's often the tasc topics, need to be timely, meaning it's it's more helpful for us to be able to discuss project issues when.
+
+241
+00:34:31.770 --> 00:34:39.900
+Nathan George: They haven't gone for a few months before they get brought up, and so I like the idea that there's a tasc call at least bi weekly.
+
+242
+00:34:40.320 --> 00:34:48.240
+Nathan George: I also think that, for the task forces to keep their momentum we often have to meet often enough that people feel like.
+
+243
+00:34:48.570 --> 00:34:55.110
+Nathan George: They get an assignment and they need to do it right away before it gets buried in their task list of other things so that there's.
+
+244
+00:34:55.890 --> 00:35:02.820
+Nathan George: A way of getting things done, and having some kind of accountability on a regular cadence, which is why I, in particular, I picked the breakout rooms, even though.
+
+245
+00:35:03.570 --> 00:35:12.960
+Nathan George: I think a lot of us would like to participate in all the different things, we might have a task forces for, or at least be able to follow along on the calls, I think that if we.
+
+246
+00:35:13.500 --> 00:35:20.850
+Nathan George: Make either the tasc only meet once a month or the task forces only meet once a month we're not likely to make the kind of progress, we hope to make.
+
+247
+00:35:22.980 --> 00:35:23.220
+Nathan George: Good.
+
+248
+00:35:23.400 --> 00:35:23.970
+Nathan George: Good points.
+
+249
+00:35:24.360 --> 00:35:24.690
+Peter.
+
+250
+00:35:27.300 --> 00:35:30.390
+Peter Somogyvari: So the first assumption I made was that.
+
+251
+00:35:31.650 --> 00:35:45.900
+Peter Somogyvari: If we make a choice and then be tried for a month or two, and then we end up being happy with it, then we can just go back to the different one or how it were then no shame sort of just trying it out and.
+
+252
+00:35:47.160 --> 00:35:50.700
+Peter Somogyvari: The reason I wanted for the one that's popular is.
+
+253
+00:35:51.870 --> 00:35:54.330
+Peter Somogyvari: Because I am curious to see.
+
+254
+00:35:55.350 --> 00:35:59.910
+Peter Somogyvari: If it would increase the efficiency in the sense that.
+
+255
+00:36:01.080 --> 00:36:17.880
+Peter Somogyvari: The chat and the mailing list would maybe get more usage, because they would only have the main meeting once a month, and then the task forces will be focused, so I would expect the task force meetings of the month to be.
+
+256
+00:36:19.050 --> 00:36:37.350
+Peter Somogyvari: getting more done than the big meetings and at the same time, because people only meet once a month for the big meeting I would expect communication to continue on and to be more lively, that it is now in the mailing list and.
+
+257
+00:36:39.090 --> 00:36:41.310
+Peter Somogyvari: So that's kind of my experiment.
+
+258
+00:36:42.330 --> 00:36:50.730
+Peter Somogyvari: And i'm totally not afraid to just come back here a month or two later and be like oh baby that did not work.
+
+259
+00:36:54.090 --> 00:36:54.420
+Tracy Kuhrt: Okay.
+
+260
+00:36:55.530 --> 00:36:55.950
+Tracy Kuhrt: Bobby.
+
+261
+00:36:57.570 --> 00:37:08.670
+Bobbi Muscara: yeah I voted for the alternate week hosting the topics during the tlc call because that way, then the tsa is involved in all the task force and gets the information.
+
+262
+00:37:09.150 --> 00:37:25.830
+Bobbi Muscara: On a timely manner and in one task forces accelerating and needs to discuss more we you know that's something that can take up more time in that half hour for that task force that week, so that each one gets their point two, or what they're working on out to the tasc.
+
+263
+00:37:31.980 --> 00:37:44.280
+Danno Ferrin: Be I like the five of the first six options were somehow during the CSC call we get some aspect of the task force in but another thing I noticed is, if you group by tasc call frequency.
+
+264
+00:37:44.820 --> 00:37:55.290
+Danno Ferrin: You get four votes each four votes for once a month for votes for bi weekly and for books for weekly and where those other two breakdown is whether they want it in a breakout room or or regular room.
+
+265
+00:37:56.010 --> 00:38:06.060
+Danno Ferrin: So I think this is like it may look like the plurality is voting for once a month, but I think there's really no consensus on on a frequency right now.
+
+266
+00:38:07.980 --> 00:38:08.760
+Tracy Kuhrt: yeah thanks Daniel.
+
+267
+00:38:08.910 --> 00:38:11.610
+Tracy Kuhrt: For digging in and looking at that more detail.
+
+268
+00:38:12.990 --> 00:38:14.310
+Tracy Kuhrt: gives us some good information.
+
+269
+00:38:17.130 --> 00:38:23.550
+Dave Enyeart: I had to drop out as a last call, so I couldn't talk about I guess moving brains from the options, but.
+
+270
+00:38:24.720 --> 00:38:29.580
+Dave Enyeart: My preferred approach would be kind of a hybrid of several of these where we have a combination of breakouts.
+
+271
+00:38:31.200 --> 00:38:39.330
+Dave Enyeart: Where people make progress on a task force on a regular cadence and then report back to the tasc maybe that's another 30 minutes section of the tasc.
+
+272
+00:38:40.080 --> 00:38:51.810
+Dave Enyeart: But I think that's kind of a hybrid that it's not one of these options encapsulated kind of what I had in my mind about how task forces would work in breakout sessions and then come back to the tasc with our findings and then additional discussion.
+
+273
+00:38:57.480 --> 00:38:58.020
+Tracy Kuhrt: Oh.
+
+274
+00:39:00.240 --> 00:39:03.090
+Troy Ronda: yeah I think most of the points I was thinking about have.
+
+275
+00:39:03.150 --> 00:39:04.440
+Troy Ronda: already been said.
+
+276
+00:39:05.580 --> 00:39:11.310
+Troy Ronda: I think if we look at the kind that the breakdown, right now, it looks like people are leaning towards splitting.
+
+277
+00:39:12.390 --> 00:39:13.080
+Troy Ronda: Between.
+
+278
+00:39:14.790 --> 00:39:16.230
+Troy Ronda: The tlc call and.
+
+279
+00:39:17.640 --> 00:39:24.720
+Troy Ronda: The task force topic kind of evenly if that's the second, third, fourth and fifth topics or votes in here.
+
+280
+00:39:25.890 --> 00:39:30.690
+Troy Ronda: So yeah I would guess that we really shouldn't say that the first one has the most votes right now.
+
+281
+00:39:32.010 --> 00:39:38.130
+Troy Ronda: I think there's a pretty even split and the points about you know waiting for months between.
+
+282
+00:39:39.270 --> 00:39:44.130
+Troy Ronda: Meetings would seem like you'd lose momentum so I kind of feel those are good points.
+
+283
+00:39:45.840 --> 00:39:47.160
+Tracy Kuhrt: Okay let's try.
+
+284
+00:39:49.410 --> 00:39:59.490
+Hart Montgomery: It thanks, one thing that worries me about too infrequent meetings and I put this in chat is if we have topics that take a long time for discussion.
+
+285
+00:40:00.210 --> 00:40:14.340
+Hart Montgomery: So maybe some of you remember how long it took say for the firefly proposal to be discussed and now imagine we do that, instead of once a week we do that, once a month right, it would literally take us years to.
+
+286
+00:40:15.870 --> 00:40:18.060
+Hart Montgomery: To approve projects in this case.
+
+287
+00:40:19.590 --> 00:40:24.780
+Hart Montgomery: So i'm not sure that sort of once a month is.
+
+288
+00:40:25.800 --> 00:40:42.210
+Hart Montgomery: is always enough, you know, maybe it's enough in the aggregate on the average, but I think we need to make sure that when topics like that come up you know, we need to have enough time to discuss them.
+
+289
+00:40:44.220 --> 00:40:56.190
+Hart Montgomery: And Peter I don't know if you saw my comment and discord either, but I really appreciate your optimism that less frequent meetings will cause people to engage more but.
+
+290
+00:40:57.570 --> 00:41:05.490
+Hart Montgomery: i'm not optimistic about that and it's someone who tends to procrastinate myself I think deadlines are a good thing.
+
+291
+00:41:10.830 --> 00:41:11.100
+Tracy Kuhrt: Okay.
+
+292
+00:41:12.720 --> 00:41:16.410
+Tracy Kuhrt: So thank you all for that the.
+
+293
+00:41:19.680 --> 00:41:31.410
+Tracy Kuhrt: I guess the challenge that I see is, we have a limited time we have one hour each week to talk about things be them tasc topics.
+
+294
+00:41:31.950 --> 00:41:45.300
+Tracy Kuhrt: And or test topics Task Force topics if we decide to put task forces in with the TC meeting, which I think all except one of less lean towards yeah let's use part of the ESC meeting in some way, shape or form for task forces.
+
+295
+00:41:46.530 --> 00:41:49.350
+Tracy Kuhrt: So, my concern is an hour is.
+
+296
+00:41:50.580 --> 00:41:56.340
+Tracy Kuhrt: Actually, not a long time for the amount of discussion, I think, is going to be required.
+
+297
+00:41:57.300 --> 00:42:12.180
+Tracy Kuhrt: Especially if we're saying okay it's only going to be 30 minutes or it's going to be part of the hour, if we think about what Dave suggested right, where we have the opportunity to report back on you know, a discussion that happened.
+
+298
+00:42:13.530 --> 00:42:30.420
+Tracy Kuhrt: And so, this is, this is, I think, leading to the concern that I think we all kind of have is how do we ensure we're making progress and moving forward in accomplishing what is being said and done, in the task force.
+
+299
+00:42:32.040 --> 00:42:32.760
+Tracy Kuhrt: So.
+
+300
+00:42:35.400 --> 00:42:38.940
+Tracy Kuhrt: Peter if you brought your hand up I don't know something I said there.
+
+301
+00:42:41.730 --> 00:42:45.180
+Tracy Kuhrt: made you put your hand up but happy to have you add to this.
+
+302
+00:42:46.380 --> 00:42:49.860
+Peter Somogyvari: No, it was just I was just the head to oh.
+
+303
+00:42:51.300 --> 00:42:51.720
+Peter Somogyvari: Sorry.
+
+304
+00:42:53.250 --> 00:43:07.290
+Tracy Kuhrt: that's okay that's Okay, I was actually saw your hand and I also saw the message that heart put in the discord, which is, I think that for an approach would be to use on the fly to see slash test for scheduling.
+
+305
+00:43:09.210 --> 00:43:10.710
+Tracy Kuhrt: So yeah I.
+
+306
+00:43:12.060 --> 00:43:17.640
+Tracy Kuhrt: I guess go ahead, Peter i'm gonna i'm gonna let you go and then i'm going to make a suggestion about maybe how we proceed forward.
+
+307
+00:43:21.090 --> 00:43:31.110
+Peter Somogyvari: So I read the chat now and by I can definitely see this pointed wrong so i'm not hell bent on the whole, that I made.
+
+308
+00:43:32.220 --> 00:43:32.610
+Peter Somogyvari: and
+
+309
+00:43:33.780 --> 00:43:35.220
+Peter Somogyvari: I guess, one thing that.
+
+310
+00:43:36.420 --> 00:43:48.810
+Peter Somogyvari: I may have for have differently, is the level of dynamism that you have with creating like spinning up new task forces I for have it in a way that.
+
+311
+00:43:50.070 --> 00:43:55.710
+Peter Somogyvari: anything and everything that the would normally do and the regular invading.
+
+312
+00:43:56.790 --> 00:44:01.290
+Peter Somogyvari: can be can will then spun off into.
+
+313
+00:44:02.550 --> 00:44:06.990
+Peter Somogyvari: A separate Task Force and then there will be people accountable for working on that.
+
+314
+00:44:08.730 --> 00:44:10.650
+Peter Somogyvari: Specifically, instead of just.
+
+315
+00:44:12.030 --> 00:44:17.190
+Peter Somogyvari: You know, being able to be in the big pool with everyone sort of.
+
+316
+00:44:18.210 --> 00:44:22.530
+Peter Somogyvari: not really participate as much as if you have a task force.
+
+317
+00:44:23.700 --> 00:44:26.400
+Peter Somogyvari: And then I imagined display.
+
+318
+00:44:28.080 --> 00:44:34.530
+Peter Somogyvari: That every single task that we have in the beginning, because actually that taken care of by a task force.
+
+319
+00:44:35.730 --> 00:44:59.490
+Peter Somogyvari: That that's why I envision that communication be fostered because people feel a little more pressure engage on account of them actually being on the task force, instead of just being on the tasc that has a lot of topics to discuss and then some can be engaged in some.
+
+320
+00:45:00.570 --> 00:45:03.150
+Peter Somogyvari: I mean all can be engaged in but some just vote.
+
+321
+00:45:05.760 --> 00:45:12.780
+Peter Somogyvari: i'm not sure if i'm making that point perfectly clearly but that's how I was imagining it and i'm now seeing that maybe.
+
+322
+00:45:13.800 --> 00:45:29.520
+Peter Somogyvari: that's this dynamism, will the task forces, maybe I overestimated, how much you're planning this maybe it's a little more overhead to form a task force and then some tasks you're just not get taken care of because.
+
+323
+00:45:30.600 --> 00:45:38.190
+Peter Somogyvari: Of the overhead of creating a new task goes forward so i'm totally open to talk more about that as well.
+
+324
+00:45:40.530 --> 00:45:41.820
+Tracy Kuhrt: Okay yeah here.
+
+325
+00:45:42.060 --> 00:45:50.700
+Tracy Kuhrt: I think both times that you've talked what i've heard from you is you're looking to try and figure out how to get more engagement more participation.
+
+326
+00:45:51.480 --> 00:46:04.800
+Tracy Kuhrt: In the way that we communicate be via via email or meetings or participating in these task forces, and I think that's definitely the The thing that i'm for as well.
+
+327
+00:46:05.640 --> 00:46:21.990
+Tracy Kuhrt: You know it's part of why took us a step back a couple weeks ago and said, like what what do we need to do differently, and I think that's where this task force idea came from, and is the hope that we will engage more we will participate more in the discussions and.
+
+328
+00:46:23.070 --> 00:46:25.290
+Tracy Kuhrt: You know move things forward or no.
+
+329
+00:46:26.820 --> 00:46:34.710
+Arnaud J Le Hors (IBM): yeah I agree, I just wanted to point out, you can change your vote yes at the bottom, it says do.
+
+330
+00:46:35.850 --> 00:46:43.860
+Arnaud J Le Hors (IBM): You see, you vote and it says, and do so maybe there are people want to update, therefore, he will be interesting.
+
+331
+00:46:44.910 --> 00:46:50.130
+Tracy Kuhrt: Yes, I think that's a good point I know a nice, I mean Nathan, you had commented.
+
+332
+00:46:50.550 --> 00:47:08.460
+Tracy Kuhrt: Maybe we should reach out, and I think that's perfectly fine right um feel free, if you think that, based on the conversation that we've had you would like to change your vote, please do an undo and read cast your vote for one of the other options, based on the discussion that you've heard.
+
+333
+00:47:14.220 --> 00:47:18.930
+Tracy Kuhrt: So i'll give us a moment to decide if we want to undo and if we would like to.
+
+334
+00:47:21.390 --> 00:47:22.800
+Tracy Kuhrt: To do something different here.
+
+335
+00:47:31.410 --> 00:47:32.370
+Peter Somogyvari: having trouble.
+
+336
+00:47:38.760 --> 00:47:43.320
+Tracy Kuhrt: seeing some changes happening as we go through here.
+
+337
+00:47:44.970 --> 00:47:50.700
+Tracy Kuhrt: So I will give us all just a moment to make sure that we can get ourselves logged on and.
+
+338
+00:47:53.190 --> 00:47:59.970
+Tracy Kuhrt: In a place where we can get ourselves changing our votes if we think we want to change your votes and there's no need to change votes.
+
+339
+00:48:01.020 --> 00:48:03.750
+Tracy Kuhrt: If you still like the one that you picked that's fine.
+
+340
+00:48:17.880 --> 00:48:19.410
+Tracy Kuhrt: Anybody need more time.
+
+341
+00:48:24.000 --> 00:48:24.960
+Peter Somogyvari: I do sorry.
+
+342
+00:48:25.680 --> 00:48:26.460
+Tracy Kuhrt: No that's okay.
+
+343
+00:48:32.430 --> 00:48:36.120
+Tracy Kuhrt: Let me stop here when you're at a place that you think you're good.
+
+344
+00:48:44.160 --> 00:48:45.900
+Dave Enyeart: seems we went over regardless.
+
+345
+00:48:46.530 --> 00:48:48.900
+Tracy Kuhrt: Right that's that's exactly right.
+
+346
+00:48:49.410 --> 00:48:51.420
+Tracy Kuhrt: So far, we've got eight votes.
+
+347
+00:48:51.600 --> 00:49:03.660
+Tracy Kuhrt: And those eight votes are for the use of thc called to discuss standard business, for the first 30 minutes, and the second 30 minutes to discuss Task Force topics on rotational basis.
+
+348
+00:49:07.260 --> 00:49:14.310
+Dave Enyeart: And I think what's unsaid in that is that the task forces have their own meeting separately and make progress on their own separately right.
+
+349
+00:49:15.270 --> 00:49:20.460
+Tracy Kuhrt: I would definitely think if not meetings on their own communication and.
+
+350
+00:49:21.210 --> 00:49:28.890
+Tracy Kuhrt: work towards whatever that deliverable is in the time frame between their opportunities to talk yes.
+
+351
+00:49:33.060 --> 00:49:43.020
+Tracy Kuhrt: Alright, so let's let's take that approach for at least a month or so see how it goes and maybe a couple months get us through the task forces.
+
+352
+00:49:44.250 --> 00:49:55.860
+Tracy Kuhrt: A couple of times at least and see if we decide that it's not working, we need to make a change, we can go ahead and do that we're not locked into anything here so um.
+
+353
+00:49:56.610 --> 00:50:16.500
+Tracy Kuhrt: With that, before we move out of the meeting, I have one last thing to discuss here, and that is the task force chair selection, I did put names next to each of the task forces that we had talked about previously I.
+
+354
+00:50:18.420 --> 00:50:28.080
+Tracy Kuhrt: Know i've talked to Dan about the first one what projects are we missing with hyper ledger and Dan oh you're still good with that and being the chair and driving that forward.
+
+355
+00:50:28.890 --> 00:50:30.270
+Danno Ferrin: Yes, okay.
+
+356
+00:50:30.720 --> 00:50:47.010
+Tracy Kuhrt: And I was going to take the project families website revamp and help us drive that one forward or no, you had suggested last week I think in chat that you were going to put together a PR but I did put your name against that particular task force, are you.
+
+357
+00:50:47.280 --> 00:50:47.700
+Tracy Kuhrt: Good with that.
+
+358
+00:50:48.240 --> 00:50:49.170
+Arnaud J Le Hors (IBM): Yes, absolutely.
+
+359
+00:50:49.770 --> 00:50:50.490
+Tracy Kuhrt: Okay, great.
+
+360
+00:50:50.820 --> 00:50:53.220
+Tracy Kuhrt: And the gyms that here, but we'll.
+
+361
+00:50:53.310 --> 00:51:00.270
+Tracy Kuhrt: see if we can get him to agree to charity need the project health dashboards as we move forward.
+
+362
+00:51:01.740 --> 00:51:15.810
+Tracy Kuhrt: So I think just last item is if nobody has any objections to this i'd like to proceed with next week during the first 30 minutes for standard PC business and then the second 30 minutes with.
+
+363
+00:51:16.320 --> 00:51:28.500
+Tracy Kuhrt: Starting in the order that we have them listed what projects are we missing within hyper ledger as our first topic for the second thing minutes, and then the following week will be the project families and so on and so forth.
+
+364
+00:51:29.640 --> 00:51:30.630
+Tracy Kuhrt: Any objections.
+
+365
+00:51:36.210 --> 00:51:38.190
+Tracy Kuhrt: part was that a yes or no.
+
+366
+00:51:38.640 --> 00:51:42.600
+Hart Montgomery: That was the sounds great Tracy Could you ask for objections.
+
+367
+00:51:43.680 --> 00:51:45.540
+Tracy Kuhrt: Good thanks hey.
+
+368
+00:51:46.920 --> 00:51:53.610
+Dave Enyeart: Do we have any way to sign up for a task force or I know we talked about you know wanting people to.
+
+369
+00:51:54.900 --> 00:51:57.330
+Dave Enyeart: take part in to participate in at least one of them.
+
+370
+00:51:58.590 --> 00:52:02.280
+Dave Enyeart: Do we have a way to form a formalized that or just reach out to the share.
+
+371
+00:52:04.350 --> 00:52:10.590
+Danno Ferrin: Did we create chat rooms and discord and if you're interested poking and say hi would that work sure.
+
+372
+00:52:11.010 --> 00:52:11.670
+Dave Enyeart: That works yeah.
+
+373
+00:52:17.790 --> 00:52:23.130
+Tracy Kuhrt: Okay, any other business say what anybody would like to discuss.
+
+374
+00:52:30.660 --> 00:52:40.980
+Tracy Kuhrt: Nobody coming off mute everything raising their hands, I will take the other know, and I will then conclude the call and we will talk to you again next week.
+
+375
+00:52:43.320 --> 00:52:44.250
+Hart Montgomery: Thanks Tracy.
+
+376
+00:52:44.670 --> 00:52:45.510
+Arnaud J Le Hors (IBM): Thanks for Thank you.
+

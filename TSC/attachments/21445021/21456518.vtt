@@ -1,0 +1,1014 @@
+WEBVTT
+
+1
+00:00:09.870 --> 00:00:15.690
+Tracy Kuhrt: Alright, welcome everyone to the August 4 hyper ledger technical steering committee meeting.
+
+2
+00:00:16.800 --> 00:00:31.410
+Tracy Kuhrt: As you are all aware, two things that we must abide by the first is the antitrust policy notice and it's currently being displayed on the screen at the top, and then the second is our code of conduct, which is linked in the agenda.
+
+3
+00:00:32.730 --> 00:00:39.390
+Tracy Kuhrt: As far as announcements go, we have the standard and that announcement of the weekly developer newsletter that goes out each Friday.
+
+4
+00:00:39.930 --> 00:00:48.540
+Tracy Kuhrt: If you have something that you want to go out to the hundreds of hyper ledger developers, please leave a comment on the wiki page that is linked in the agenda.
+
+5
+00:00:50.220 --> 00:00:56.430
+Tracy Kuhrt: Another announcement i'd like to make for the KC Members I did in the discord channel.
+
+6
+00:00:57.660 --> 00:01:06.600
+Tracy Kuhrt: Put a note about the hyper ledger hyper ledger I guess the hyper ledger proposal before so like that has been written.
+
+7
+00:01:07.110 --> 00:01:21.120
+Tracy Kuhrt: When he gets kind of a general feel for what people think on that proposal, as the being teenagers, would like to you know, have a fairly decent chance of getting accepted without.
+
+8
+00:01:22.350 --> 00:01:30.150
+Tracy Kuhrt: You know, knowing that they're going to get rejected, I guess, is the key here right so just let me know in the chat your general feel for that.
+
+9
+00:01:31.980 --> 00:01:41.550
+Tracy Kuhrt: so that I can get back to you Sean and we can hopefully have that discussion here coming up soon any other announcements that anybody would like to make.
+
+10
+00:01:53.100 --> 00:02:01.080
+Tracy Kuhrt: Alright single hands, nobody coming off mute that means there's no other announcements, the hyper ledger talks you through report came in last week.
+
+11
+00:02:02.040 --> 00:02:16.710
+Tracy Kuhrt: I did see a number of people have been able to review that since it came in, I did not see any comments coming in, but does anybody have any comments on the hyper ledger sawtooth report that they would like to bring up here in the classical.
+
+12
+00:02:24.210 --> 00:02:33.420
+Tracy Kuhrt: Alright they'll see no hands are we coming off mute I will take that as know, we have the areas in the report that is coming to you today.
+
+13
+00:02:34.200 --> 00:02:44.670
+Tracy Kuhrt: I have seen messages go out on discord about that so i'm expecting that to those to come in here shortly, the 01 is due next Thursday.
+
+14
+00:02:45.420 --> 00:02:54.390
+Tracy Kuhrt: So we will hopefully see that one coming in, as well as far as discussion items for today, the only thing that I had on the list was the.
+
+15
+00:02:54.900 --> 00:03:04.020
+Tracy Kuhrt: task force that Bobby and Benjamin have been driving but is there any other discussion items that we should have before we get to that task force discussion.
+
+16
+00:03:13.260 --> 00:03:13.680
+Tracy Kuhrt: Right.
+
+17
+00:03:15.210 --> 00:03:27.450
+Tracy Kuhrt: So no hand nobody coming off mute I will take that as a no and I will hand this off to Bobby and Benjamin to walk us through kind of what they've been working on with the documentation as force.
+
+18
+00:03:28.860 --> 00:03:40.680
+Bobbi Muscara: hi everybody Good morning, I am going to introduce Benjamin who's going to give the presentation, during one of the technical steering committee calls about four or five months ago there was discussion about.
+
+19
+00:03:41.220 --> 00:03:46.890
+Bobbi Muscara: badging and documentation in the Community, and what it looks like and there was really never any research done on it.
+
+20
+00:03:47.520 --> 00:04:02.730
+Bobbi Muscara: So the learning materials working group took that as a challenge, and we have prepared a presentation, for you today and i'm going to turn it over to Benjamin who I feel is one of the brilliant rising stars in the hyper ledger Community so it's all yours Benjamin.
+
+21
+00:04:03.750 --> 00:04:05.010
+Benjamin Weymouth: Thank you Bobby no pressure.
+
+22
+00:04:06.630 --> 00:04:09.480
+Benjamin Weymouth: Right, am I able to share my screen.
+
+23
+00:04:11.880 --> 00:04:13.110
+Ry Jones: You should be able to.
+
+24
+00:04:13.860 --> 00:04:15.540
+Benjamin Weymouth: Thank you, Sir, I will go ahead and do.
+
+25
+00:04:15.540 --> 00:04:15.900
+Ry Jones: That.
+
+26
+00:04:15.930 --> 00:04:18.810
+Benjamin Weymouth: And please let me know if it's all visible and so forth.
+
+27
+00:04:20.670 --> 00:04:21.120
+Tracy Kuhrt: that's good.
+
+28
+00:04:21.750 --> 00:04:22.170
+Great.
+
+29
+00:04:23.430 --> 00:04:29.220
+Benjamin Weymouth: Great all right Hello everyone so today, I wanted to share as Bobby was saying, the weeks and months we've been working on this.
+
+30
+00:04:29.220 --> 00:04:29.940
+Task Force.
+
+31
+00:04:30.960 --> 00:04:39.900
+Benjamin Weymouth: Some of the gaps and opportunities to be found within the documentation and we wanted to emphasize that ours is a fact finding mission and our conclusions.
+
+32
+00:04:40.260 --> 00:04:48.120
+Benjamin Weymouth: and recommendations wanted to spur discussion amongst the hyper ledger Community for the betterment of documentation towards greater adoption.
+
+33
+00:04:48.510 --> 00:04:59.940
+Benjamin Weymouth: and ease of use and liability, so our guiding principles that standardization makes adoption faster each project could use a similar hosting platform I currently they all do not.
+
+34
+00:05:00.720 --> 00:05:08.250
+Benjamin Weymouth: Any documentation plugin platform should use a common markdown theme, a language that gives you a little bit of style.
+
+35
+00:05:08.760 --> 00:05:17.250
+Benjamin Weymouth: A theme and an interface and we'll see a bit more about later on, we also have done a survey and one of the questions is regarding the design aesthetic.
+
+36
+00:05:17.610 --> 00:05:24.300
+Benjamin Weymouth: We noticed some of the pages have a simpler, more minimalist aesthetic were somehow more of a complex deeper dive encyclopedic.
+
+37
+00:05:25.080 --> 00:05:31.590
+Benjamin Weymouth: aesthetic to them, so we found that a simpler design aesthetic may be more beneficial, but again we'll get back into that later.
+
+38
+00:05:32.220 --> 00:05:40.080
+Benjamin Weymouth: And we also found that some some pages reflected a newer a web three or blockchain Open Source aesthetic and that could be something for the future.
+
+39
+00:05:40.800 --> 00:05:49.530
+Benjamin Weymouth: We also recognize that there is an implicit uniqueness between each hyper ledger project and we wanted to resolve that with the fact that most companies organizations.
+
+40
+00:05:49.890 --> 00:05:55.590
+Benjamin Weymouth: Have a standard theme for the product pages, so one to the next looks quite similar.
+
+41
+00:05:56.460 --> 00:06:02.040
+Benjamin Weymouth: And we believe that the standards should be reflected in a consistent manner, using a badging or checkmark system.
+
+42
+00:06:02.520 --> 00:06:11.880
+Benjamin Weymouth: And that that system and our guidelines should love for Community involvement to avoid a top down approach, but instead reflects a collaborative Open Source nature.
+
+43
+00:06:12.720 --> 00:06:22.710
+Benjamin Weymouth: So our specific recommendations, we found that most technology products, indeed used read the docs for the documentation hosting, and so our first guideline or recommendation is informed by that.
+
+44
+00:06:23.280 --> 00:06:34.320
+Benjamin Weymouth: And that those who don't use the docs could benefit greatly by moving to that platform and that even amongst those who use read the docs that standardization could exist between content and context.
+
+45
+00:06:35.280 --> 00:06:41.370
+Benjamin Weymouth: That inconsistency is in style graphics and other content can be minimized in order to maximize standardization.
+
+46
+00:06:41.850 --> 00:06:48.630
+Benjamin Weymouth: And that current and future projects could utilize a standard template or theme using an agreed upon documentation pattern.
+
+47
+00:06:49.530 --> 00:07:02.310
+Benjamin Weymouth: So what exactly is that pattern, we found that most projects use read the docs read the docs is populated by files on github, which is also the source of truth for all code and then a hyper ledger wiki page, which would host the badging.
+
+48
+00:07:03.450 --> 00:07:09.990
+Benjamin Weymouth: We found that there were some differences in graphics and glossary sections and could be improved in terms of better look up and user experience.
+
+49
+00:07:10.560 --> 00:07:23.640
+Benjamin Weymouth: And we noticed that some projects, do you use the discord but the documentation by itself as a standalone read the docs was not necessarily reflective of the Community if the Community the existing for technical and non technical questions on discord.
+
+50
+00:07:24.420 --> 00:07:32.790
+Benjamin Weymouth: Those redirects pages could be used, through pinning on on discord and, finally, our last recommendation is that we utilize a survey.
+
+51
+00:07:33.180 --> 00:07:40.080
+Benjamin Weymouth: to reflect the voice of the Herald your community, the various unique projects that within them have disparate themes styles and layouts.
+
+52
+00:07:40.770 --> 00:07:47.280
+Benjamin Weymouth: To find some harmonization between them, so our task force has got four main sections to it the first two are completed.
+
+53
+00:07:47.700 --> 00:07:53.250
+Benjamin Weymouth: Determining the status of all the projects tools and libraries and that was done in a great analysis and we'll get into that in a minute.
+
+54
+00:07:53.790 --> 00:08:00.930
+Benjamin Weymouth: And then we also use an examination of the current processes so that documentation pattern I talked about read the docs github and the wiki pages.
+
+55
+00:08:01.320 --> 00:08:03.630
+Benjamin Weymouth: And these two are the ones that we're going to go over today quickly.
+
+56
+00:08:04.500 --> 00:08:10.290
+Benjamin Weymouth: The Community itself who wanted some involvement in terms of the survey and best practices to be agreed upon.
+
+57
+00:08:10.680 --> 00:08:20.160
+Benjamin Weymouth: And so, this is a matter of having Community involvement and a voice being heard and then that would necessarily inform the integration of those best practices into badging system.
+
+58
+00:08:21.060 --> 00:08:31.920
+Benjamin Weymouth: And our work deliverables and work products included that analysis so grid analysis showing what platforms are currently in use the key takeaways for that we can.
+
+59
+00:08:32.550 --> 00:08:35.760
+Benjamin Weymouth: We can get into this is quite a big grid, a lot of detail here i'm not going to.
+
+60
+00:08:36.210 --> 00:08:42.690
+Benjamin Weymouth: In the interest of time go through it all, but I will say the documentation is mostly read the docs so if we scroll down the screen here.
+
+61
+00:08:43.140 --> 00:08:56.580
+Benjamin Weymouth: we've got mostly read the docs with a few stragglers on Google docs someone just the docs in a couple on docs RS but for the sake of simplicity, most of them are on read the docs, and that is our general guideline for.
+
+62
+00:08:57.270 --> 00:09:07.260
+Benjamin Weymouth: documentation hosting platforms, the survey itself, I will perhaps drop that in the chat if I can and we'd love to have some feedback on documentation standards.
+
+63
+00:09:07.620 --> 00:09:09.930
+Bobbi Muscara: I just dropped the survey in the discord chat.
+
+64
+00:09:10.110 --> 00:09:11.640
+Benjamin Weymouth: Obviously, thank you Bobby.
+
+65
+00:09:12.390 --> 00:09:14.100
+Benjamin Weymouth: Our report itself.
+
+66
+00:09:14.310 --> 00:09:22.770
+Benjamin Weymouth: You know it's it's existing on our hyper ledger page please you know, take a look at it and we'd love any suggestions or updates to it.
+
+67
+00:09:23.190 --> 00:09:38.940
+Benjamin Weymouth: or recommendations like we said we wanted to that to exist in two parts, so our guidelines and recommendations, as well as the Community voice through discussion on discord and the survey results, finally, that would end up in a badging process utilizing that template and.
+
+68
+00:09:40.470 --> 00:09:54.690
+Benjamin Weymouth: Our perspective was that that could be integrated into an already existing hyper ledger badging system, why reinvent the wheel when it's it's already there documentation could be a part of that so from incubation to graduation, we can include documentation in that system.
+
+69
+00:09:55.830 --> 00:10:08.700
+Benjamin Weymouth: We saw that read the docs was mostly used those products, who do use read the docs are using spanx restructured text rst files or mark 10 or 15 enhancer like mk docs with insider features.
+
+70
+00:10:09.120 --> 00:10:15.150
+Benjamin Weymouth: Those projects, who are using non traditional we do recommend that we standardize from those documentation projects.
+
+71
+00:10:15.810 --> 00:10:19.860
+Benjamin Weymouth: Since most in and i'm 90% of those projects are already using read the docs.
+
+72
+00:10:20.430 --> 00:10:29.880
+Benjamin Weymouth: We talked about documentation pattern so essentially the trio is read the docs github and the wiki page Wikipedia is where that badging system would live be integrated into.
+
+73
+00:10:30.240 --> 00:10:39.240
+Benjamin Weymouth: github as a source of code code truth but also, more importantly, for our purposes, where the files live for read the docs and we'll have an example of that.
+
+74
+00:10:39.990 --> 00:10:46.110
+Benjamin Weymouth: Now we noticed on the grid that most of these projects are using read the docs, but when I wanted to highlight for you today and two case studies.
+
+75
+00:10:46.440 --> 00:10:54.420
+Benjamin Weymouth: Is that even projects that are using read the docs there's still some differences and stark differences at that so with this example i'd like to just.
+
+76
+00:10:55.500 --> 00:11:03.060
+Benjamin Weymouth: Call into to mind high value product versus based on the right hand side we have basically which is adopting a more minimalist approach.
+
+77
+00:11:03.690 --> 00:11:13.650
+Benjamin Weymouth: Our task force enjoy the fact that it gave only about four options and that if you go into base or there's a technical deep dive you can get quite deep into all of these.
+
+78
+00:11:14.100 --> 00:11:24.120
+Benjamin Weymouth: So you have that encyclopedia wealth of knowledge, but it does not overwhelm the user right away fabric, on the other hand, is probably the gold standard for a lot of documentation.
+
+79
+00:11:24.690 --> 00:11:34.770
+Benjamin Weymouth: However, it does use a different look and feel it's got a logo in a different place social media links, as well as a more encyclopedic knowledge, and this is probably one of the starting points we've got quite a bit of information here.
+
+80
+00:11:36.240 --> 00:11:46.020
+Benjamin Weymouth: But we did find in our survey that the survey respondents hope we hope to get more of those enjoyed a more minimalist style and when we do get into more detailed they're.
+
+81
+00:11:47.730 --> 00:11:56.340
+Benjamin Weymouth: Looking at both content and context so even pages that are similar in their layout and style we didn't notice disparate.
+
+82
+00:11:57.540 --> 00:12:08.040
+Benjamin Weymouth: elements in terms of content and we felt that that content reflective of different context, and by that I mean and let's take a look to to exemplify that fabric versus sawtooth.
+
+83
+00:12:08.460 --> 00:12:14.430
+Benjamin Weymouth: fabric was necessarily a classic not a newcomer but the gold standard in terms of.
+
+84
+00:12:14.790 --> 00:12:24.030
+Benjamin Weymouth: documentation and it brings you into a deep dive not only into the product itself but it's a blockchain into a theorem it's a bitcoin and to DL te.
+
+85
+00:12:24.480 --> 00:12:32.790
+Benjamin Weymouth: am now and kyc regulatory frameworks, so you get more of a holistic introduction as to the blockchain and web free community.
+
+86
+00:12:33.390 --> 00:12:45.960
+Benjamin Weymouth: So let's compare that with what sawtooth does for its introduction, which is getting right into the product itself, how do I spin up an instance, how do I get a node working very fast and it jumps into soft tooth as.
+
+87
+00:12:47.760 --> 00:12:57.840
+Benjamin Weymouth: modularity and how I can design my application so even between the two of them, we see stark differences in terms of the contacts reflective of the context.
+
+88
+00:12:58.920 --> 00:13:10.110
+Benjamin Weymouth: Our task force also wanted to look at what is the rest of the blockchain Community doing and can we compare that and we felt as though some of the blockchain communities, one of our Members recommended cosmos and.
+
+89
+00:13:11.340 --> 00:13:18.870
+Benjamin Weymouth: We felt that it had done a definitely a different look and feel there were some similarities in these green lines are noted are indicating some similarities between.
+
+90
+00:13:19.650 --> 00:13:22.920
+Benjamin Weymouth: Your fabric on the right hand side and cosmos in the left hand side.
+
+91
+00:13:23.370 --> 00:13:32.610
+Benjamin Weymouth: And so there is a lot of similarity between the two of them, we did notice that cosmos have these cards or buttons which reflected the idea that someone going to the page could have a very quick.
+
+92
+00:13:33.570 --> 00:13:40.560
+Benjamin Weymouth: decision making process, as to whether they wanted this first one, which indicates a deep dive into more technical tutorials and on the second one.
+
+93
+00:13:41.070 --> 00:13:45.780
+Benjamin Weymouth: is getting into SDK into a spinning up an instance on the right hand side.
+
+94
+00:13:46.200 --> 00:13:57.480
+Benjamin Weymouth: So we thought we try and jump into a read the docs and we did a little PLC just to kind of get an idea of how exactly rst works with readme and can we use some of these more web three or.
+
+95
+00:13:57.810 --> 00:14:07.830
+Benjamin Weymouth: newer aesthetic decisions so on the right hand side you have a developer Quick Start button on the left hand side you have an interaction did have a new project key terms and concepts and these each of these are just links that.
+
+96
+00:14:08.370 --> 00:14:16.350
+Benjamin Weymouth: Essentially, was commenting to to ride just a moment ago about how some of the documentation pages are necessity necessarily.
+
+97
+00:14:17.100 --> 00:14:25.830
+Benjamin Weymouth: More 1.0 features and some of these mk instead of features could bring us into more of a web two point O framework.
+
+98
+00:14:26.820 --> 00:14:43.230
+Benjamin Weymouth: So read the docs itself is where most projects live, we would like it to be where all projects live and the discussion, then becomes around themes and spinks is the platform where we were these read the docs themes are generated from restructured syntax is where you see a lot of this.
+
+99
+00:14:44.250 --> 00:14:47.790
+Benjamin Weymouth: The markdown language used to say, create buttons and so forth.
+
+100
+00:14:49.020 --> 00:14:54.000
+Benjamin Weymouth: And our PLC kind of I was informed by that and, hopefully, will work a little bit more on that with.
+
+101
+00:14:54.600 --> 00:15:05.460
+Benjamin Weymouth: The mk docks instead of features here's just a glimpse of what can happen with sphinx or spinks themes we noticed that there is disparate theme being used for each of the hyper ledger perfect pages.
+
+102
+00:15:06.420 --> 00:15:15.000
+Benjamin Weymouth: You know, maybe picking a theme or picking a style of theme could allow for more consistency between them, and this is just going into our proof of concept.
+
+103
+00:15:15.630 --> 00:15:25.290
+Benjamin Weymouth: And we do have the ability to use custom CSS and custom javascript and ride was updating me about the mk instead of features which are also.
+
+104
+00:15:25.590 --> 00:15:32.370
+Benjamin Weymouth: very nice to be able to push forward the functionality of of any hyper ledger project documentation page thanks to write for that.
+
+105
+00:15:32.880 --> 00:15:41.250
+Benjamin Weymouth: i'll just going to finish off and talk about some of the best practices and our questionnaire, we did have a great quote from hyper ledger Community Member and i'll just share that with you today.
+
+106
+00:15:42.480 --> 00:15:49.410
+Benjamin Weymouth: She says she understands that the hyper ledger project is separate from our company, and then it may require complete isolation of content.
+
+107
+00:15:50.310 --> 00:15:55.710
+Benjamin Weymouth: The style the markdown guidelines may need to diverge from their companies corporate documentation changes in the future.
+
+108
+00:15:56.100 --> 00:16:03.810
+Benjamin Weymouth: And their team is happy to continue discussion here in the next Community call what I wanted to emphasize with that is that there is kind of a disparate.
+
+109
+00:16:04.530 --> 00:16:19.260
+Benjamin Weymouth: set of containers developers that we wanted to hear their voices from so that leads us into our documentation survey, given that uniqueness for each page, we wanted to have a questionnaire survey that that gives us those types of.
+
+110
+00:16:20.640 --> 00:16:32.040
+Benjamin Weymouth: Results so in order to share these types of documentation standards we've got some responses we would love to have more, so please jump on to the discord page.
+
+111
+00:16:33.060 --> 00:16:47.070
+Benjamin Weymouth: In terms of the survey responses, thus far we've gotten some who are more interested in a minimalistic style i'm not sure why this is not to bring up, let me just run you through some of their responses that we've got.
+
+112
+00:16:48.360 --> 00:17:01.680
+Benjamin Weymouth: Most of them said they did not mind a standard page and most of them said that they were more interested in the functionality of being able to spin up an instance of their hyper ledger project, as opposed to having sort of.
+
+113
+00:17:03.450 --> 00:17:12.720
+Benjamin Weymouth: fancy graphics and aesthetics That being said, there was a push towards graphs charts and being able to include functionality in the documentation pages.
+
+114
+00:17:13.650 --> 00:17:23.970
+Benjamin Weymouth: So, and if you'd like to take a look at that you can definitely go into those results shelf the questionnaire URL is also part of the page that we have, so please if you feel that you'd like to.
+
+115
+00:17:24.990 --> 00:17:32.580
+Benjamin Weymouth: have a voice in this we've we've got just a few questions there and a few minutes of your time would would help us to determine our next steps going forward.
+
+116
+00:17:32.940 --> 00:17:42.510
+Benjamin Weymouth: And then, our recommendations, finally, and in terms of a badging system and that's all for me thank you so much, everyone, and thank you to Bobby for allowing me to to share our results.
+
+117
+00:17:46.350 --> 00:17:52.830
+Bobbi Muscara: Thank you Benjamin That was a great job and now i'm going to turn it over for questions and back to trace even.
+
+118
+00:17:58.440 --> 00:17:58.830
+Benjamin Weymouth: room.
+
+119
+00:18:01.080 --> 00:18:01.350
+Benjamin Weymouth: hey.
+
+120
+00:18:01.740 --> 00:18:12.510
+Arun S M: Thanks answers it thanks Ben it was it was really good insights into what has happened in what is available across different projects and thanks for the detailed.
+
+121
+00:18:13.590 --> 00:18:23.340
+Arun S M: Analysis and all the information that you have collected and recommendations that have been come up that have been made over there right some quick questions in terms of.
+
+122
+00:18:24.870 --> 00:18:33.690
+Arun S M: Some of the projects which you mentioned, like which are not currently using markdown are rst format, how to read.
+
+123
+00:18:34.860 --> 00:18:47.940
+Arun S M: Some sorts in terms of efforts involved for those maintainer and if let's say Eric commendation goes in and saying that hey all the projects are to be moved and what's the kind of effort involved from them.
+
+124
+00:18:48.990 --> 00:18:50.910
+Arun S M: For for them for those projects.
+
+125
+00:18:51.360 --> 00:18:57.360
+Benjamin Weymouth: Sure yeah, to be honest with you, I can't speak to the actual effort, because each project would have a different amount of documentation.
+
+126
+00:18:57.720 --> 00:19:09.780
+Benjamin Weymouth: However, however, let me say this, I did find and and maybe Bobby found this as well, that those projects that we're not using read the docs so rst markdown files and so forth.
+
+127
+00:19:10.200 --> 00:19:19.530
+Benjamin Weymouth: also had a more minimal amount of documentation So while I can't speak to the actual terms of of effort that it would take in terms of.
+
+128
+00:19:21.000 --> 00:19:37.770
+Benjamin Weymouth: porting that documentation information from one platform to the next, I will say that those projects that were using the say the rst files, excuse me, the docs RS, for example, so I think transact at earth may be also.
+
+129
+00:19:39.120 --> 00:19:49.470
+Benjamin Weymouth: firefly some of the documentation, there was a bit limited to begin with, so I don't think that it would take too much effort to port that over to.
+
+130
+00:19:49.860 --> 00:20:01.440
+Benjamin Weymouth: To read the docs and However, this will be project to project so some projects will have more documentation We also noticed that some projects were in the more infancy or incubation stages of their project.
+
+131
+00:20:01.920 --> 00:20:06.330
+Benjamin Weymouth: and therefore their documentation may not be fully fledged or fully formed at this time.
+
+132
+00:20:06.990 --> 00:20:14.550
+Benjamin Weymouth: So again, that may not speak to the actual amount of effort that it goes to port from one system to the other, however, it would be helpful to.
+
+133
+00:20:14.940 --> 00:20:26.640
+Benjamin Weymouth: Have a guideline or recommendation on that sooner, such that the porting process takes less time if there's less to port over from one system to the next, I hope that hope that answers your question.
+
+134
+00:20:27.810 --> 00:20:37.230
+Arun S M: Sure, thanks, and since since this working group is also an instance the task force has also been closely associated with the learning material development working group.
+
+135
+00:20:37.860 --> 00:20:45.810
+Arun S M: And you may be connected to the Community who are more interested in helping out on this aspect, so in terms of gauging those interest.
+
+136
+00:20:46.950 --> 00:20:55.800
+Arun S M: Is there a possibility of getting involved with these projects where they need some push or help in case if that's required so.
+
+137
+00:20:56.790 --> 00:21:04.560
+Arun S M: Like, how can the working group or the task force get involved and get those Community resources needed for those for them to create that help.
+
+138
+00:21:05.040 --> 00:21:14.910
+Arun S M: because sometimes majority of the time, the projects may say that they may not end up in US resource or time so even a little bit of help could take it along with.
+
+139
+00:21:16.560 --> 00:21:24.840
+Benjamin Weymouth: yeah I mean I can't speak for anyone else in the task force, I am more than willing and able to to participate and put forth some time in terms of that.
+
+140
+00:21:25.140 --> 00:21:35.490
+Benjamin Weymouth: porting process, one of the things that we did with Bobby and our team was to get comfortable in terms of how does the read the docs system work, how does it populate from a github page.
+
+141
+00:21:35.820 --> 00:21:53.070
+Benjamin Weymouth: With a readme and rst files into the actual read the docs platform itself, so we did familiarize ourselves with that process, specifically in order to be of assistance if if need be, in terms of that porting process from a previous or other hosting platform into read the docs.
+
+142
+00:21:54.840 --> 00:22:09.090
+Bobbi Muscara: yeah and it wasn't our intent to create more work for any of the groups, it was more for the vacancy of information when people are trying to create documentation there's no real starting point or.
+
+143
+00:22:09.930 --> 00:22:19.500
+Bobbi Muscara: template ID way to go about it in the Community and we're trying to fill that need so I don't think again, these are only going to be recommendations I don't think at any point where there's going to be.
+
+144
+00:22:20.760 --> 00:22:29.250
+Bobbi Muscara: A criteria for existing projects to jump backwards into documentation, but we're hoping that it's a forward moving process.
+
+145
+00:22:31.980 --> 00:22:33.060
+Arun S M: bleakley agree it's it's.
+
+146
+00:22:34.020 --> 00:22:36.150
+Arun S M: Probably not a question it's rather.
+
+147
+00:22:37.470 --> 00:22:47.430
+Arun S M: I don't know compliment orders are things that I like through the presentation, so far, so there were many aspects that I liked and in this presentation and one of the important thing that I could.
+
+148
+00:22:48.360 --> 00:22:58.050
+Arun S M: make much sense of was, I think, when you compare a couple of the non hyper ledger projects with the documentation that we have within hyper ledger you called out.
+
+149
+00:22:58.890 --> 00:23:04.860
+Arun S M: Some of those projects, they were calling out the next part of it, the documentation which talks about all the.
+
+150
+00:23:05.760 --> 00:23:12.630
+Arun S M: text the theory which has paragraphs and which requires somebody to spend a lot of not not time and then.
+
+151
+00:23:13.320 --> 00:23:21.360
+Arun S M: Within that they had created a category called pay here is a quick reference guide for developers you don't have to read through and search through all these places.
+
+152
+00:23:21.960 --> 00:23:31.170
+Arun S M: Here is a quick reference if you're planning to UCLA, for instance for administration purpose here is a quick reference guide for you to use SDK is to get started with the development.
+
+153
+00:23:31.740 --> 00:23:39.030
+Arun S M: I think those are some of the aspects that I really liked that probably you could recommend every project that is incubating to adopt.
+
+154
+00:23:39.690 --> 00:23:55.470
+Arun S M: I know some of the project that we have already does make some distinction in their documentation in those aspects, but having that distinction, the visual distinction that we showcased that clearly makes sense, probably that's definitely that we should recommend.
+
+155
+00:23:56.700 --> 00:23:58.710
+Arun S M: and, overall, it was a good presentation, thank you.
+
+156
+00:24:00.840 --> 00:24:01.650
+Benjamin Weymouth: Thank you so much for.
+
+157
+00:24:06.360 --> 00:24:08.490
+Tracy Kuhrt: anybody else have any thoughts or comments.
+
+158
+00:24:11.970 --> 00:24:20.280
+Benjamin Weymouth: I love the kind of encyclopedic dive that that fabric goes into so for someone who is it's the reverse hyper ledger project or there's their very first.
+
+159
+00:24:20.910 --> 00:24:35.820
+Benjamin Weymouth: You know they're spinning up an instance, to be able to get that kind of overview it's it's amazing but then for a developer, who may have already used one hyper ledger project now wants to integrate or incorporate that into their their tech stack or their their corporate ecosystem.
+
+160
+00:24:36.840 --> 00:24:46.380
+Benjamin Weymouth: Having that kind of lengthy introduction may it may benefit for that not to be at all removed I love it, I would not remove it.
+
+161
+00:24:46.680 --> 00:25:00.570
+Benjamin Weymouth: However, like everyone is saying it might behoove us to to move those into a separate section such that if you're a person who wants to learn about that you have that option but you're not inundated with quite a bit of information, all at once, so.
+
+162
+00:25:02.400 --> 00:25:05.850
+Benjamin Weymouth: yeah thanks Tracy so I just wanted to reflect what a rumor saying.
+
+163
+00:25:06.600 --> 00:25:07.230
+Tracy Kuhrt: yeah no worries.
+
+164
+00:25:08.580 --> 00:25:09.120
+Tracy Kuhrt: um.
+
+165
+00:25:10.050 --> 00:25:33.510
+Tracy Kuhrt: So I guess you know i'll add my comments here i'm not seeing any other hands, so I I think I had an initial reaction as well, very similar to a room where you're asking people to do a lot of work to make things consistent across the projects right, and I think that's gonna be a.
+
+166
+00:25:35.520 --> 00:25:42.990
+Tracy Kuhrt: Hard thing to get started right a lot of the projects have worked a long time on their documentation and had.
+
+167
+00:25:43.440 --> 00:25:50.610
+Tracy Kuhrt: No documentation working groups and things that took you know months, if not years to get to the point where they're at.
+
+168
+00:25:51.060 --> 00:26:11.010
+Tracy Kuhrt: And so I you know, obviously, recognizing all the hard work that people put into their application already is, is extremely important, I do see that there would be beneficial benefit to having some sort of templates that new projects could use right to start their documentation.
+
+169
+00:26:12.150 --> 00:26:24.570
+Tracy Kuhrt: That allows for some sort of consistency, as well as in addition to those template tree guidelines for what sort of things people should think about including right so.
+
+170
+00:26:25.440 --> 00:26:40.320
+Tracy Kuhrt: For example, right there for kind of top level bullet items that base, you had right, maybe, those are the four sorts of things that are the most important to to make sure that you think through as you start writing the documentation.
+
+171
+00:26:42.210 --> 00:26:51.390
+Tracy Kuhrt: You know, and if there's some sort of theme that we can use at the docks right that makes sense across hyper ledger I think that's interesting.
+
+172
+00:26:52.020 --> 00:27:04.950
+Tracy Kuhrt: Benjamin Thomas i'm going to just call out, you know, is there any sort of pieces that we would want to think about with the documentation for these projects when it comes to kind of the overall.
+
+173
+00:27:06.570 --> 00:27:18.360
+Tracy Kuhrt: branding I guess is the right word right around hyper ledger that that maybe could be added as far as input to the work that this task forces working on.
+
+174
+00:27:25.350 --> 00:27:27.750
+Tracy Kuhrt: So I come off mute but I cannot hear you.
+
+175
+00:27:32.970 --> 00:27:34.080
+Benjamin Thomas: i'm sorry, can you hear me now.
+
+176
+00:27:34.440 --> 00:27:35.280
+Tracy Kuhrt: Yes, we can.
+
+177
+00:27:36.030 --> 00:27:45.510
+Benjamin Thomas: hi sorry thanks Tracy yes, we have discussed how to make sure the branding is brand guidelines are applied throughout all the projects and.
+
+178
+00:27:46.290 --> 00:27:59.610
+Benjamin Thomas: we've also discussed that along the lines of the domains that they reside on as well, ultimately, as long as they are all residing within the brand guidelines there isn't a major issue.
+
+179
+00:28:01.080 --> 00:28:08.400
+Benjamin Thomas: As such, we obviously want to make sure that each project and brand is is is utilized throughout.
+
+180
+00:28:09.510 --> 00:28:13.050
+Benjamin Thomas: All their communications and so on and so forth, but um.
+
+181
+00:28:14.760 --> 00:28:30.120
+Benjamin Thomas: yeah I don't think there's necessarily anything too much to worry about for me in terms of the larger projects, yes, and I think it's probably more of a case by case basis, but if there's anything that I can help clarify in the brand guidelines, let me know.
+
+182
+00:28:31.980 --> 00:28:41.010
+Tracy Kuhrt: yeah thanks engineer I I do think you know there's obviously some good information out there around the brand guidelines and.
+
+183
+00:28:41.490 --> 00:28:55.020
+Tracy Kuhrt: We should make sure that as we come up with these recommendations, they include those Quakers or references to the brand guidelines so that people are aware of them and maybe they're built into these things that we provide as default.
+
+184
+00:28:56.190 --> 00:29:06.120
+Tracy Kuhrt: You know just I think those are the sorts of things that might be worth considering as as you continue to move forward with the work that you're doing Benjamin Ali.
+
+185
+00:29:07.080 --> 00:29:14.940
+Benjamin Thomas: Show i'm happy to also you know kind of simplify them and add them to the wiki i've been talking to right as well about adding.
+
+186
+00:29:16.080 --> 00:29:19.170
+Benjamin Thomas: Reporting as well, so maybe that's something we can look into.
+
+187
+00:29:21.930 --> 00:29:22.620
+Bobbi Muscara: And and.
+
+188
+00:29:22.710 --> 00:29:23.280
+Bobbi Muscara: Again, thank you.
+
+189
+00:29:23.580 --> 00:29:29.820
+Bobbi Muscara: I think everybody for giving us the time to do this and Benjamin you did a great job our next meeting is Monday at noon it's.
+
+190
+00:29:29.880 --> 00:29:39.990
+Bobbi Muscara: On the wiki page and we usually spend a good portion of the the hour talking about this task force so if anybody has any questions or wants to get into more discussion, please join us them.
+
+191
+00:29:42.060 --> 00:29:42.510
+Tracy Kuhrt: or no.
+
+192
+00:29:43.620 --> 00:29:49.380
+Arnaud J Le Hors ("Arno") @ IBM: yeah, I just wanted to follow up a little bit on what you said, I really feel strongly that you are on the right.
+
+193
+00:29:51.480 --> 00:29:59.640
+Arnaud J Le Hors ("Arno") @ IBM: track there when you said okay it's going to be hard to ask project to just start a whole revision process, just to align.
+
+194
+00:30:00.030 --> 00:30:05.070
+Arnaud J Le Hors ("Arno") @ IBM: All the documentation is with one another, at the same time, I do believe that a lot of the.
+
+195
+00:30:05.520 --> 00:30:16.890
+Arnaud J Le Hors ("Arno") @ IBM: variations, we have a mirror married due to a lack of template to start with right so everybody's trying to reinvent the same thing, and of course you're going to do things differently.
+
+196
+00:30:17.310 --> 00:30:28.770
+Arnaud J Le Hors ("Arno") @ IBM: And so I do think there is there wouldn't be value in adding some kind of a template and set of guidelines, I mean, by the way, I do want to highlight also that I thought the information that you guys.
+
+197
+00:30:29.130 --> 00:30:40.050
+Arnaud J Le Hors ("Arno") @ IBM: brought forward that was very interesting, and so I can see how we would benefit from using some of the input, as we move forward and update the documentation.
+
+198
+00:30:40.320 --> 00:30:47.310
+Arnaud J Le Hors ("Arno") @ IBM: We can you know get inspired by some of these input to improve on the documentation, as we move forward and it's.
+
+199
+00:30:47.580 --> 00:30:54.120
+Arnaud J Le Hors ("Arno") @ IBM: it's going to be much more gradual than just say Oh, this is we're going to focus on because I don't think any project can.
+
+200
+00:30:54.450 --> 00:31:03.660
+Arnaud J Le Hors ("Arno") @ IBM: can afford that at this point, but so I do encourage you to follow up and and have this kind of documentation available.
+
+201
+00:31:04.050 --> 00:31:14.430
+Arnaud J Le Hors ("Arno") @ IBM: socialize it across the project so that projects kind of have this like you know yardstick to look at and say Okay, as we, as we revise a dark.
+
+202
+00:31:14.730 --> 00:31:26.040
+Arnaud J Le Hors ("Arno") @ IBM: let's keep an eye on this as a goal to to aligned with, and I think that you know, over time, we could have more consistency across the projects for the better.
+
+203
+00:31:27.570 --> 00:31:31.980
+Benjamin Weymouth: yeah just to to to resonate with that or respond to that there is.
+
+204
+00:31:32.550 --> 00:31:45.690
+Benjamin Weymouth: So I was chatting with with Ryan about this, there is a sphinx theme that's available for each and every project it's hosted on read the docs and i'd say you know 85% of our budget projects are already on read the docs.
+
+205
+00:31:46.170 --> 00:31:58.080
+Benjamin Weymouth: It is perhaps a less time consuming or taxing process to change and harmonize the theme for every single project than it would be to say ask.
+
+206
+00:31:58.740 --> 00:32:20.250
+Benjamin Weymouth: Existing containers to refactor or restructure their entire pages so just as a as a more gentler low cost low work solution, it may be to take those read the docs themes select a common theme and then implement them as opposed to asking for much work in terms of restructuring so.
+
+207
+00:32:24.390 --> 00:32:29.370
+Dave Enyeart: I can just speak on the fabric side we're actually not very happy with our theme so we'd be happy to switch over to.
+
+208
+00:32:30.420 --> 00:32:34.830
+Dave Enyeart: A better and more consistent theme that's that's encouraged for sure.
+
+209
+00:32:37.320 --> 00:32:39.930
+Tracy Kuhrt: yeah maybe maybe another piece to add.
+
+210
+00:32:40.350 --> 00:32:44.010
+Tracy Kuhrt: i'm wondering if it makes sense at some point to have a.
+
+211
+00:32:44.190 --> 00:33:03.570
+Tracy Kuhrt: repo right that is based on whatever the sort of theme and standards are that we're trying to create as a sample right that people who are starting new projects and need to write documentation can start from right pull this set of code.
+
+212
+00:33:04.590 --> 00:33:17.970
+Tracy Kuhrt: You know, in order to create your documentation for project X right I just think that having something that is already there right open for anybody to use going forward is is a good idea.
+
+213
+00:33:21.390 --> 00:33:24.570
+Tracy Kuhrt: All right, any other comments or anybody has.
+
+214
+00:33:33.660 --> 00:33:44.790
+Tracy Kuhrt: All right, let's get more comments, no more hands being raised Benjamin Bobby Thank you so much for the work that you put together for presenting this to us it's been.
+
+215
+00:33:45.390 --> 00:33:55.710
+Tracy Kuhrt: enlightening I think for all the TC Members and I hopefully we've given you some information and feedback that will help continue to drive to work that you're doing forward.
+
+216
+00:33:58.020 --> 00:34:00.780
+Bobbi Muscara: Thank you for your time, and please complete the quick survey.
+
+217
+00:34:01.560 --> 00:34:03.180
+Benjamin Weymouth: To you, so much Tracy Thank you everyone.
+
+218
+00:34:03.840 --> 00:34:06.780
+Tracy Kuhrt: yeah um with that I, you know.
+
+219
+00:34:07.620 --> 00:34:12.390
+Tracy Kuhrt: i'll make one last call to see if anybody else has any other topics, they want to discuss.
+
+220
+00:34:13.650 --> 00:34:23.100
+Arnaud J Le Hors ("Arno") @ IBM: So Tracy I was actually wondering if there is any update about the tasc revamping I forget the official title of that.
+
+221
+00:34:23.670 --> 00:34:35.370
+Arnaud J Le Hors ("Arno") @ IBM: We voted to be you know, on the proposal and it was going to be sent to the governing board and I don't know where things stand, I don't think we have heard back from the border this point.
+
+222
+00:34:35.850 --> 00:34:38.130
+Tracy Kuhrt: So I appreciate that update because.
+
+223
+00:34:38.400 --> 00:34:45.930
+Arnaud J Le Hors ("Arno") @ IBM: The timing of the election is coming up and, in theory, I believe we start in August to start ramping up, but so I don't know.
+
+224
+00:34:47.520 --> 00:34:48.540
+Arnaud J Le Hors ("Arno") @ IBM: Maybe as an answer.
+
+225
+00:34:48.660 --> 00:34:49.050
+Arnaud J Le Hors ("Arno") @ IBM: Thanks yeah.
+
+226
+00:34:49.080 --> 00:34:51.990
+Tracy Kuhrt: heart does have an answer so hard well handed over to you.
+
+227
+00:34:52.320 --> 00:35:05.310
+Hart Montgomery: i'm here, no yeah that's a great question, so the answer is that when lf legal decided to take a deeper look at our Charter they thought it needed some substantial updating.
+
+228
+00:35:06.630 --> 00:35:09.720
+Hart Montgomery: It is one of the older charters and they write.
+
+229
+00:35:11.340 --> 00:35:24.180
+Hart Montgomery: New charters in very different ways so Scott Nicholas is rewriting the is making some not substantive but.
+
+230
+00:35:25.590 --> 00:35:44.760
+Hart Montgomery: Well, I should say Scott is updating the Charter in ways that won't change how hyper ledger functions, but will sort of more accurately, you know reflect the legal ease that we need to say if that makes sense, so that's what's going on right now and that's why we are somewhat delayed.
+
+231
+00:35:45.810 --> 00:35:47.310
+Hart Montgomery: Hopefully that will be done sooner.
+
+232
+00:35:49.560 --> 00:36:02.040
+Tracy Kuhrt: And let's see yeah oh no I was just going to ftp I think the expectation if i'm not mistaken, and people can help me if i'm wrong here, but is, since we have.
+
+233
+00:36:02.670 --> 00:36:26.130
+Tracy Kuhrt: kind of general approval, although not official approval from the thc and the governing board that the the election would actually be delayed until the timing that has been written into the Charter, which I believe is that we do nominations and November voting in November, from the.
+
+234
+00:36:27.780 --> 00:36:39.750
+Tracy Kuhrt: main caterers and then voting in December from the Governing Board, which would start a new term in January heart is there any change to that timeline or the expectation for women that's what occur.
+
+235
+00:36:40.740 --> 00:36:42.990
+Hart Montgomery: No, so we will have to.
+
+236
+00:36:44.250 --> 00:36:51.360
+Hart Montgomery: We were told that that was probably something that we should include a supplementary document of the Charter itself.
+
+237
+00:36:53.100 --> 00:36:56.130
+Hart Montgomery: But yes, there there we haven't.
+
+238
+00:36:57.750 --> 00:37:05.370
+Hart Montgomery: we're not expecting any substantial changes in how things work or or add the actual practices just the changes in the document itself.
+
+239
+00:37:07.620 --> 00:37:11.580
+Hart Montgomery: Just reflecting sort of more modern legally, so I guess.
+
+240
+00:37:12.690 --> 00:37:13.830
+Tracy Kuhrt: Well, I think I think the.
+
+241
+00:37:13.950 --> 00:37:19.140
+Tracy Kuhrt: question and the concern is that typically we would be having a vote for the next tasc.
+
+242
+00:37:19.590 --> 00:37:29.190
+Tracy Kuhrt: Probably starting about now right, where we will be gathering nominations and doing all the work necessary to figure out who's going to vote, and all of those sorts of thing, and so I think the question is.
+
+243
+00:37:30.360 --> 00:37:43.440
+Tracy Kuhrt: You know is that happening on the same schedule is it changing to reflect the fact that we want to start the the technical oversight committee term in the new year beginning gen one.
+
+244
+00:37:44.370 --> 00:37:52.440
+Hart Montgomery: i'll talk to Scott and I will figure out what our timeline is for this i'm hoping it's quite soon.
+
+245
+00:37:53.910 --> 00:38:02.610
+Arnaud J Le Hors ("Arno") @ IBM: I mean, I cannot speak for everybody on tlc but i'm totally fine you know agreeing that we delay until all of this has been settled.
+
+246
+00:38:03.660 --> 00:38:12.210
+Arnaud J Le Hors ("Arno") @ IBM: But, as things stand, we don't have such a decision on the record and and it puts us in a bit of a limbo, but.
+
+247
+00:38:12.720 --> 00:38:24.720
+Arnaud J Le Hors ("Arno") @ IBM: I mean I don't think anybody's going to take issue with it, if there's you know agreement, this is what's happening and we're cool with it, I just think it it helps to to state that clearly this is what's happening.
+
+248
+00:38:26.910 --> 00:38:27.660
+Tracy Kuhrt: Good point.
+
+249
+00:38:29.370 --> 00:38:46.560
+Tracy Kuhrt: You know I think that's the that's the working assumption at this point if there is a concern definitely let's have that conversation, so that we know what we're what we're up against, and we can see if we can get some movement speed happening.
+
+250
+00:38:53.460 --> 00:39:02.070
+Tracy Kuhrt: Okay, any other topics, thank you for bringing that one to the forefront rl any other topics that we should discuss currently.
+
+251
+00:39:10.410 --> 00:39:15.510
+Tracy Kuhrt: No Okay, so I am going to then close the meeting, thank you all for joining.
+
+252
+00:39:16.920 --> 00:39:25.890
+Tracy Kuhrt: I forget which test forces up next for next week, but I will find out where we're at in the schedule and make sure that we're including that.
+
+253
+00:39:26.580 --> 00:39:39.210
+Tracy Kuhrt: Also, as I mentioned, you guys can take a look at the proposal for so long and see just your general thoughts on what you think that would be great and we will talk again next week.
+

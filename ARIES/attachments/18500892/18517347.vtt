@@ -1,0 +1,1902 @@
+WEBVTT
+
+1
+00:00:49.630 --> 00:00:50.890
+George Mulhearn: Hey, Craig?
+
+2
+00:00:53.190 --> 00:00:54.030
+ckowald: Hello.
+
+3
+00:00:54.730 --> 00:00:57.309
+George Mulhearn: Nice of you to join us.
+
+4
+00:00:58.120 --> 00:01:02.530
+George Mulhearn: Am I in the right place? Yeah, you're in the right place, hey, Patrick?
+
+5
+00:01:02.680 --> 00:01:03.720
+Patrik Stas: How folks.
+
+6
+00:01:05.330 --> 00:01:09.380
+Patrik Stas: Hey, George? And I see we have a new joiner today.
+
+7
+00:01:09.790 --> 00:01:10.649
+Patrik Stas: Hi.
+
+8
+00:01:12.580 --> 00:01:17.230
+ckowald: hello! Is this? Is this meant to be just a discussion between you 2, or am I allowed to sit in?
+
+9
+00:01:17.770 --> 00:01:28.049
+Patrik Stas: No, no, definitely you can. You can join in a a, and anyone is welcome, you know, as far as your is, as far as you're concerned about the
+
+10
+00:01:28.580 --> 00:01:31.250
+ckowald: So usually we we don't have not
+
+11
+00:01:31.610 --> 00:01:36.990
+Patrik Stas: many, many joiners here. But yeah, definitely, you are welcome here.
+
+12
+00:01:37.850 --> 00:01:39.170
+ckowald: Excellent. Thank you.
+
+13
+00:01:40.110 --> 00:01:45.660
+Patrik Stas: So, yeah, maybe since since connected for the first time.
+
+14
+00:01:46.090 --> 00:01:51.079
+Patrik Stas: So you just like shortly introduce yourself. You know
+
+15
+00:01:51.400 --> 00:01:58.600
+Patrik Stas: what company or come for, or why are you interested in the framework. What are you doing with it? Things like that?
+
+16
+00:01:59.540 --> 00:02:07.229
+ckowald: Yeah, sure. This is. This is technically the second time I've joined full disclosure as I work with George.
+
+17
+00:02:07.460 --> 00:02:09.130
+ckowald: So
+
+18
+00:02:09.770 --> 00:02:20.310
+Patrik Stas: I joined the very first time that George sort of introduced himself to the community.
+
+19
+00:02:20.480 --> 00:02:26.819
+ckowald: meaning to come to these from an interest point of view. To be honest, George is the
+
+20
+00:02:26.890 --> 00:02:34.609
+ckowald: the more involved technical person you know, on on the ground Why, you know him more than you know me.
+
+21
+00:02:34.690 --> 00:02:45.370
+ckowald: but usually I've got something on this time of night. Well, for me, it's this time of night which distracts me. But this evening I've managed to free myself up to just sit in and quietly see if that's allowed.
+
+22
+00:02:45.760 --> 00:02:48.819
+Patrik Stas: Yeah, yeah, I understood. Yeah, that's cool, Sure.
+
+23
+00:02:49.180 --> 00:02:53.610
+Patrik Stas: Okay. So let's let's get started. So
+
+24
+00:02:55.740 --> 00:02:57.330
+Patrik Stas: Am I sharing screen?
+
+25
+00:02:57.680 --> 00:02:59.250
+Patrik Stas: Yeah, I should be there.
+
+26
+00:02:59.980 --> 00:03:00.840
+Patrik Stas: Okay.
+
+27
+00:03:03.280 --> 00:03:04.700
+let me open up the
+
+28
+00:03:04.720 --> 00:03:05.920
+Patrik Stas: and
+
+29
+00:03:15.470 --> 00:03:29.399
+Patrik Stas: Yeah. Okay. So by by hyper ledger rules, I should keep this this place for a little bit. So just in the meantime, as we have this and that trust police notice opened up.
+
+30
+00:03:31.290 --> 00:03:33.469
+Let me just.
+
+31
+00:03:33.820 --> 00:03:39.840
+Patrik Stas: Oh, well, let's let's leave to to to a short moment for
+
+32
+00:03:40.280 --> 00:03:43.269
+Patrik Stas: for for the for the notice.
+
+33
+00:03:55.370 --> 00:04:04.970
+Patrik Stas: All right, so I think we can dive into the meeting, so usually we start just like just to check. If there's
+
+34
+00:04:05.430 --> 00:04:15.369
+Patrik Stas: you know anything you would like to in particular, discuss today, so we can. We can adjust the agenda appropriately ahead of time.
+
+35
+00:04:15.390 --> 00:04:17.939
+Patrik Stas: Do you do you guys have any points?
+
+36
+00:04:20.690 --> 00:04:21.940
+George Mulhearn: No, it looks good.
+
+37
+00:04:23.150 --> 00:04:26.919
+ckowald: Yeah, nothing from me. I'm: i'm just here to learn and and catch up.
+
+38
+00:04:27.290 --> 00:04:36.469
+Patrik Stas: Okay, cool. So in that case it's more of a like a usual planning and review kind of meeting, I guess. So.
+
+39
+00:04:36.870 --> 00:04:39.220
+Patrik Stas: Yeah. So
+
+40
+00:04:39.290 --> 00:04:43.949
+Patrik Stas: well let's get through the recent work which has been done so
+
+41
+00:04:44.080 --> 00:04:53.610
+Patrik Stas: notably there has been a release. 0, 51 one which was released just shortly after 51
+
+42
+00:04:53.980 --> 00:04:59.529
+Patrik Stas: and the 51 those release after quite a long time.
+
+43
+00:04:59.600 --> 00:05:09.950
+Patrik Stas: But basically I believe that throughout the previous month this was the the first release since December fifth. So.
+
+44
+00:05:10.150 --> 00:05:11.530
+Patrik Stas: more than a month
+
+45
+00:05:12.220 --> 00:05:26.340
+Patrik Stas: a later it had a quite, a quite a bunch of tasks and merged. But I i'm not gonna go through all of these as this has been previously basically discussed on the individual meetings.
+
+46
+00:05:28.920 --> 00:05:37.499
+Patrik Stas: So so i'll leave it As it is, anybody interesting can take a look at a better. Look at the change a lot.
+
+47
+00:05:37.700 --> 00:05:42.569
+Patrik Stas: and i'll move on to the 50 51.1
+
+48
+00:05:42.650 --> 00:05:48.519
+Patrik Stas: i'm missing. We're missing the apparently we are missing the change here. But
+
+49
+00:05:48.970 --> 00:05:56.659
+Patrik Stas: there's 2 additional merit to request which this fix release contained
+
+50
+00:05:56.680 --> 00:06:05.190
+Patrik Stas: most importantly, the kernel dependency upgrade, which fixes certain issues for Ios and Android.
+
+51
+00:06:05.620 --> 00:06:15.799
+Patrik Stas: where on the mobile devices you will be for you, You would have to make sure that environment variable. P. Z. That
+
+52
+00:06:16.210 --> 00:06:34.490
+Patrik Stas: TV is set up as a as a variable for time zone, otherwise the logging library would try to get the current time for the purpose of looking, but it would fail it. It would literally panic on, unable to
+
+53
+00:06:34.500 --> 00:06:37.810
+Patrik Stas: an inability to determine the time zone. And
+
+54
+00:06:38.290 --> 00:06:43.750
+Patrik Stas: And so the kernel dependency upgrade is fixing this problem.
+
+55
+00:06:43.890 --> 00:06:49.040
+So we bumped it to the latest 0, 4, 23
+
+56
+00:06:50.150 --> 00:06:58.320
+Patrik Stas: additionally. This also contained a pull request to trim down.
+
+57
+00:06:58.830 --> 00:07:15.830
+Patrik Stas: and the bindings from Vdr tools so previously. The Ios Ios brepper not only contain bindings to live Vcx Library itself, but also the Vdr. Tools Library, which.
+
+58
+00:07:15.900 --> 00:07:22.960
+Patrik Stas: and which Vcx is using. So this was the this doesn't seem very clean, and
+
+59
+00:07:22.970 --> 00:07:37.070
+Patrik Stas: I believe that this didn't really have any use case, either. So in order for us to proceed and start streaming down these dependencies. We remove these bindings, and if anybody wishes to.
+
+60
+00:07:37.560 --> 00:07:53.149
+Patrik Stas: you know, re re revert, returns some sort of functionality. We should be doing it just directly by propagating. This calls through Libby 6 as 5, instead of trying to hook into some third part, essentially third party library.
+
+61
+00:07:53.530 --> 00:07:57.469
+Patrik Stas: So this is release 0, 51 1
+
+62
+00:07:57.770 --> 00:08:01.030
+Patrik Stas: before that
+
+63
+00:08:01.530 --> 00:08:10.519
+Patrik Stas: and before that we had a few other pull requests. These were included in 0, 51
+
+64
+00:08:13.240 --> 00:08:24.159
+Patrik Stas: well, non-technical one was the upgraded, a renee's documentation and architecture diagram. So i'll just briefly go through that, although
+
+65
+00:08:24.650 --> 00:08:29.970
+George have already seen it as he's the one who who who is reviewing
+
+66
+00:08:29.990 --> 00:08:39.349
+Patrik Stas: so so the main with me pages to be nicer, hopefully, more inviting for the newcomers to kinda they dig through. And also
+
+67
+00:08:39.650 --> 00:08:44.789
+Patrik Stas: the the really itself is is changing nuance
+
+68
+00:08:44.820 --> 00:08:50.760
+Patrik Stas: a little bit in terms of making sure that the area these things is clearly the
+
+69
+00:08:50.780 --> 00:08:56.449
+Patrik Stas: first first-class citizen citizen here, Whereas, the lib. Cx is just.
+
+70
+00:08:56.550 --> 00:08:58.949
+Patrik Stas: you know, one way out
+
+71
+00:09:02.480 --> 00:09:09.470
+different approaches. How to do this, how to do fsi to mobile devices
+
+72
+00:09:09.580 --> 00:09:31.830
+Patrik Stas: Maybe 6 is. One of them is that, as I mentioned on other on the previous calls, definitely an encouraging, encouraging anyone. Planning to use a is V. 6 to to look out for alternative ways, but to do fi other than other than the V. 6 itself, and the existing
+
+73
+00:09:31.840 --> 00:09:34.600
+Patrik Stas: ios and android wrapper, as the
+
+74
+00:09:34.640 --> 00:09:37.989
+Patrik Stas: If I approaches some of the out there.
+
+75
+00:09:38.370 --> 00:09:50.559
+Patrik Stas: But the the the the idea is here. The Wv. 6 is not the main artifact of this repuls story. It's really just the the rust library and the the sub crates. It it comes with
+
+76
+00:09:51.710 --> 00:10:14.609
+Patrik Stas: also. Yeah, there was updates, the other pieces of documentation as well. There was a separate sort of getting started for Libby X. Now including architecture, diagram that the architecture diagrams has now been split as a again separately for Levy 6 and separately for Aries, Vcx.
+
+77
+00:10:14.620 --> 00:10:25.629
+Patrik Stas: So from Olympic X perspective. We have the loop pcx. Create the mainly big 6 credit, which depends on the Area's: Vcx. Rust implementation.
+
+78
+00:10:25.920 --> 00:10:31.750
+Patrik Stas: They both optionally are using the agency client. Great.
+
+79
+00:10:32.010 --> 00:10:38.340
+Patrik Stas: I would, you know, integrate with the Me Mediator implementation of V. 6 agency node.
+
+80
+00:10:38.430 --> 00:10:45.440
+Patrik Stas: And yeah, obviously, we have. If the 5 wipers being hooked into.
+
+81
+00:10:45.560 --> 00:10:59.139
+Patrik Stas: So we have Java and Ios Grapper, the old school ones, which are linked into Api, C. Portion of Loopy Xiang, and then we have a no just wrapper just freshly merged.
+
+82
+00:10:59.250 --> 00:11:11.739
+Patrik Stas: Actually, we just build it differently than it used to be, for originally the no jazz wrapper was sitting here next to the aisles
+
+83
+00:11:11.940 --> 00:11:21.190
+Patrik Stas: linking into the binding into the Api, c. Layer oblivious. But that's no longer the case. Instead.
+
+84
+00:11:21.310 --> 00:11:39.230
+Patrik Stas: it's a know just they're now using other fi approach, and it's more tightly integrated with the Api we see expire itself, and it's that saves a lot of Lots of low-level handling. We had to do previously.
+
+85
+00:11:39.760 --> 00:11:58.379
+Patrik Stas: and I'm. Moving at Aries, Vcx documentation. There was also update. It was also updated here, so there's for getting started. There's some says for short section about message mediation, as you might opt into using V. 6 agency note, although
+
+86
+00:11:58.810 --> 00:12:00.330
+Patrik Stas: in the long run.
+
+87
+00:12:00.440 --> 00:12:07.029
+Patrik Stas: and we don't really expect to do much more development here.
+
+88
+00:12:07.150 --> 00:12:12.909
+Patrik Stas: If if anything, we might, might, we should. Implementing some
+
+89
+00:12:13.010 --> 00:12:28.679
+Patrik Stas: rust implementation on top of a is the 6 itself for the mediator. But yeah, so so the the the Vc. If they just you know this, some will that it's it's not really Aries
+
+90
+00:12:29.030 --> 00:12:41.350
+Patrik Stas: the client to agency api for downloading and marking messages is not the every speaker protocol. So hence we we don't really
+
+91
+00:12:41.640 --> 00:12:47.800
+Patrik Stas: plan to work on it, working much more will be ready looking into completely new
+
+92
+00:12:47.900 --> 00:12:49.570
+implementation.
+
+93
+00:12:51.730 --> 00:12:53.359
+Patrik Stas: And then.
+
+94
+00:12:53.790 --> 00:12:58.799
+Patrik Stas: yeah, there is a there is a short tutorial how to kind of get started, how to build it.
+
+95
+00:12:59.470 --> 00:13:02.540
+Patrik Stas: The unit test integration, test
+
+96
+00:13:02.630 --> 00:13:07.600
+Patrik Stas: dependencies which are needed. You need to run the in the pool.
+
+97
+00:13:07.750 --> 00:13:21.350
+Patrik Stas: And then, lastly, there's Architect new updated architecture diagram which only looks, which only describes the every Vcx sort of universe without that
+
+98
+00:13:21.630 --> 00:13:24.680
+Patrik Stas: the Libby Sax on top of it. So
+
+99
+00:13:24.830 --> 00:13:28.010
+Patrik Stas: that's here.
+
+100
+00:13:28.820 --> 00:13:33.889
+Patrik Stas: We have the agency client, this optional dependency now trying to kind of
+
+101
+00:13:34.940 --> 00:13:37.379
+Patrik Stas: uncouple it from the call base.
+
+102
+00:13:37.710 --> 00:13:46.020
+Patrik Stas: We have the handlers for the basically individual. Every protocols
+
+103
+00:13:47.320 --> 00:13:50.260
+Patrik Stas: which are using state machines.
+
+104
+00:13:50.420 --> 00:13:56.759
+Patrik Stas: What typically happens is that these handlers use the
+
+105
+00:13:56.820 --> 00:14:04.470
+Patrik Stas: plugins module to inject some data or objects into the protocols implementation, which
+
+106
+00:14:04.520 --> 00:14:06.390
+Patrik Stas: internally then used
+
+107
+00:14:06.840 --> 00:14:10.109
+Patrik Stas: the dog and a his message is great.
+
+108
+00:14:10.400 --> 00:14:24.879
+Patrik Stas: And as for the. As for the plugins, module goes, it's basically contains 3 interfaces, now one for unknown credits, ledger and wallet, and these have different implementations.
+
+109
+00:14:24.920 --> 00:14:33.410
+Patrik Stas: either by Vdr tools, or in the in the old, old, old naming.
+
+110
+00:14:33.630 --> 00:14:43.500
+Patrik Stas: or the module modular libraries. Ak Vdr. Tools in the shared ars, and there is as far in the future
+
+111
+00:14:43.630 --> 00:14:52.569
+Patrik Stas: now going forward. Obviously, in our in our 2023 roadmap we discussed last week.
+
+112
+00:14:53.080 --> 00:14:57.820
+Patrik Stas: One of the goals for this year is to basically get completely rid of it.
+
+113
+00:14:58.080 --> 00:15:01.079
+Patrik Stas: or as as much as possible.
+
+114
+00:15:01.200 --> 00:15:06.150
+Patrik Stas: and start using the modular
+
+115
+00:15:06.180 --> 00:15:08.060
+Patrik Stas: a library implementation.
+
+116
+00:15:08.170 --> 00:15:19.210
+Patrik Stas: So we Don't have to maintain 2 different implementations at the same time as we do now. So let's let's trim it down and simplify the maintenance.
+
+117
+00:15:20.760 --> 00:15:22.440
+Patrik Stas: That's the idea there.
+
+118
+00:15:25.970 --> 00:15:31.300
+ckowald: So sorry, Patrick, on that I'm, seeing a general move away
+
+119
+00:15:31.990 --> 00:15:34.670
+ckowald: from the indy wallet to the ascar wallet. Is that
+
+120
+00:15:35.100 --> 00:15:36.680
+ckowald: is that planned as well.
+
+121
+00:15:37.300 --> 00:15:44.840
+Patrik Stas: Yeah, yeah, definitely. I mean, we are seeing it across different frameworks, different different areas. Implementations.
+
+122
+00:15:45.080 --> 00:15:49.590
+Patrik Stas: We we as well have such a plan.
+
+123
+00:15:49.930 --> 00:15:51.850
+Patrik Stas: Who would like to first
+
+124
+00:15:51.870 --> 00:15:54.910
+Patrik Stas: first to this migration with the
+
+125
+00:15:55.110 --> 00:15:59.930
+Patrik Stas: primarily with the credits library and the
+
+126
+00:16:00.030 --> 00:16:11.330
+Patrik Stas: in the the the Vdr tools, which is for the for accessing connecting to the ledger, and one once we have this done. We will then move on to
+
+127
+00:16:11.460 --> 00:16:13.270
+the ascar.
+
+128
+00:16:14.200 --> 00:16:20.289
+Patrik Stas: One of the challenges we have currently with Ascar, we to George, running to is that
+
+129
+00:16:20.390 --> 00:16:26.659
+Patrik Stas: basically if you try to use ascar as a alternative implementation here.
+
+130
+00:16:26.720 --> 00:16:35.609
+Patrik Stas: I I think, a a new box here for the world implementation. There are certain dependencies. There's certain rust dependencies
+
+131
+00:16:35.700 --> 00:16:36.950
+Patrik Stas: which are
+
+132
+00:16:37.400 --> 00:16:45.820
+Patrik Stas: conflicting between the Vdr tools, dependency, and the ascar dependency. So they both have some dependencies.
+
+133
+00:16:45.870 --> 00:16:58.039
+Patrik Stas: and this transitive dependencies require a certain rest package on particular version. But these versions are different, and, unlike Np. Unlike Node, Js. Where you can have like 10.
+
+134
+00:16:58.100 --> 00:17:05.590
+Patrik Stas: Well, you know you can have one dependency. It's 10 different versions, and it works in in rest. It's not quite a case like you need to.
+
+135
+00:17:06.390 --> 00:17:22.849
+Patrik Stas: You know your your project holistically need to be in like sync like. If one of the libraries says that it needs one of your dependency states that it needs a library. B. It's a particular version.
+
+136
+00:17:23.349 --> 00:17:24.520
+Patrik Stas: and
+
+137
+00:17:24.849 --> 00:17:31.840
+Patrik Stas: and your another dependency says it needs to be different particular version. You will get that compilation error.
+
+138
+00:17:33.620 --> 00:17:38.700
+George Mulhearn: Yeah. So there's lots of very, very old dependencies in video tools.
+
+139
+00:17:39.850 --> 00:17:40.650
+ckowald: Right.
+
+140
+00:17:41.200 --> 00:17:48.760
+Patrik Stas: Yeah. Yeah. So so what we want to do now is try to trim down Vdr: tools
+
+141
+00:17:49.160 --> 00:17:56.659
+Patrik Stas: from the dependencies it doesn't need. So then we would to minimize the You know this kind of conflicts as much as possible.
+
+142
+00:17:57.360 --> 00:18:05.460
+Patrik Stas: I think the main problematic dependency actually in Vdr tools right now is the sequel X.
+
+143
+00:18:05.790 --> 00:18:13.030
+Patrik Stas: And I. I was looking at the currently to be the the the sequel X
+
+144
+00:18:13.310 --> 00:18:15.560
+Patrik Stas: version being used
+
+145
+00:18:15.730 --> 00:18:31.320
+Patrik Stas: by Vdr. Tools, it's actually a Fork created a long time ago, and there's been a bunch of new version of SQL. X. Which I did, in which, if we upgrade the sequel X dependency. I believe we'll actually
+
+146
+00:18:31.460 --> 00:18:33.120
+avoids
+
+147
+00:18:33.400 --> 00:18:36.620
+Patrik Stas: the the conflicts we are seeing right now
+
+148
+00:18:37.030 --> 00:18:39.150
+Patrik Stas: with the the
+
+149
+00:18:39.950 --> 00:18:43.430
+Patrik Stas: the credits, libraries.
+
+150
+00:18:43.460 --> 00:18:46.730
+Patrik Stas: the ascar libraries. Yeah, the
+
+151
+00:18:47.180 --> 00:18:47.960
+ckowald: Thank you.
+
+152
+00:18:54.930 --> 00:19:02.080
+Patrik Stas: Okay, this. Let's see what else we have here. Okay. So one more item on the list
+
+153
+00:19:04.930 --> 00:19:12.059
+Patrik Stas: is a: that was just a minor pull request, which is fixing with B. Cx in terms of
+
+154
+00:19:13.370 --> 00:19:18.859
+Patrik Stas: error, handling or mapping of in the errors where
+
+155
+00:19:19.370 --> 00:19:23.110
+Patrik Stas: before this? Pr: If you enter Invalid Key.
+
+156
+00:19:23.190 --> 00:19:29.309
+Patrik Stas: Yeah, trying to open what you would get Libby 6 error kind living the error 207,
+
+157
+00:19:29.540 --> 00:19:33.510
+Patrik Stas: which essentially is like kind of representing.
+
+158
+00:19:33.940 --> 00:19:42.809
+Patrik Stas: and in the error which is not mapped to anything particular in Vcx. Which doesn't seem kind of
+
+159
+00:19:43.070 --> 00:19:49.560
+Patrik Stas: reasonable. So we instead created. Now a new error. Kind will access failed.
+
+160
+00:19:49.670 --> 00:19:53.470
+Patrik Stas: which we map this in the error into
+
+161
+00:19:54.070 --> 00:19:59.200
+Patrik Stas: Additionally, there was a few other mapping changes.
+
+162
+00:20:00.110 --> 00:20:06.669
+Patrik Stas: not really changes, but adjustments, where certain errors.
+
+163
+00:20:07.510 --> 00:20:16.859
+Patrik Stas: certain errors were simply mapped into this kind of January Wevr tools error
+
+164
+00:20:16.940 --> 00:20:31.599
+Patrik Stas: with the error code, but, in fact, it could have been mapped somewhat more sensibly on to the existing Aer's. Vcx, for example, the invalid transaction
+
+165
+00:20:31.770 --> 00:20:38.739
+Patrik Stas: most previously just mapping into this generic error. Now it naps into invalid a larger response.
+
+166
+00:20:39.010 --> 00:20:46.000
+Patrik Stas: I think this this whole error in this era mapping still can get some tweaks.
+
+167
+00:20:46.220 --> 00:20:52.140
+Patrik Stas: and the the error kinds in ours, D. 6 itself could be
+
+168
+00:20:52.350 --> 00:20:54.240
+Patrik Stas: could be reviewed.
+
+169
+00:20:54.290 --> 00:21:01.760
+Patrik Stas: but they just attempt to to make it a bit more better be more sensible than it was before.
+
+170
+00:21:04.400 --> 00:21:06.739
+ckowald: Is that is that going to cause any sort of
+
+171
+00:21:07.400 --> 00:21:11.449
+ckowald: back with compatibility issues or concerns remapping error. Codes like that.
+
+172
+00:21:11.960 --> 00:21:21.470
+Patrik Stas: Yes, so if you to depend, you know, if you would particularly rely on this error code somewhere, then
+
+173
+00:21:21.750 --> 00:21:25.460
+Patrik Stas: it's something to be to be aware of. But
+
+174
+00:21:25.550 --> 00:21:26.850
+Patrik Stas: I think
+
+175
+00:21:27.430 --> 00:21:32.190
+Patrik Stas: these are sort of the obscure cases, you know. Typically
+
+176
+00:21:32.600 --> 00:21:39.239
+Patrik Stas: Typically, most of the in the errors are handled by
+
+177
+00:21:41.440 --> 00:21:47.410
+Patrik Stas: typically most of them are head, are are met into some sort of every every 6, every kind.
+
+178
+00:21:47.910 --> 00:21:51.879
+Patrik Stas: and then and then for propagated, as
+
+179
+00:21:52.160 --> 00:22:03.960
+Patrik Stas: if you look there. But if if if you somewhere in the code are using, you know Vdr. Tools, error. And then looking at the er code, then this will be breaking change
+
+180
+00:22:04.040 --> 00:22:04.910
+Patrik Stas: for you.
+
+181
+00:22:05.930 --> 00:22:07.050
+ckowald: Alright, cool.
+
+182
+00:22:13.930 --> 00:22:19.940
+Patrik Stas: Yeah. Additionally, that Pr. Contained a bunch of refactored tests and the bcx.
+
+183
+00:22:20.740 --> 00:22:28.180
+Patrik Stas: and the last item here was finally merged, You know, Jazz rapper
+
+184
+00:22:28.590 --> 00:22:31.759
+Patrik Stas: with a reward. As AI internals
+
+185
+00:22:34.130 --> 00:22:46.169
+Patrik Stas: it's a it's it's improved the performance significantly. It's a 400 x on with no jazz 18, and as opposed to
+
+186
+00:22:46.560 --> 00:22:56.950
+Patrik Stas: the old if I approach, and I would just 18, and it's 20 x you promote against the old if I approach on on no just 12.
+
+187
+00:22:57.320 --> 00:23:09.760
+Patrik Stas: So, and also it definitely seems more stable. In Ci. We were seeing intermittent issues with no just testing previously, which is mostly related to the
+
+188
+00:23:10.250 --> 00:23:25.400
+Patrik Stas: to just framework itself, and the fact that the library was constantly re-initialized in those test workflows and now we we see that it's like we're way more stable and
+
+189
+00:23:26.980 --> 00:23:39.069
+Patrik Stas: it's faster, and we we managed to wipe out 5,000 lines of code, so much more manageable as well maintainable.
+
+190
+00:23:46.160 --> 00:23:58.849
+Patrik Stas: Okay. And then, as for the award in progress goes that slightly links into what we would we touched on in the when we're looking at the architect architecture diagram
+
+191
+00:23:58.910 --> 00:24:07.620
+Patrik Stas: about the Vvr tools so as as as per the issue which has been created. A couple of days ago. 5 days ago
+
+192
+00:24:09.630 --> 00:24:13.720
+Patrik Stas: we we started moving
+
+193
+00:24:14.020 --> 00:24:19.979
+Patrik Stas: Vdr. Tools under the Area's Ecx repository itself.
+
+194
+00:24:20.040 --> 00:24:21.150
+Patrik Stas: So
+
+195
+00:24:21.210 --> 00:24:29.420
+Patrik Stas: up until now well, it's technically Still, right now we are using a particular fork.
+
+196
+00:24:29.490 --> 00:24:30.520
+Patrik Stas: Oh.
+
+197
+00:24:30.650 --> 00:24:32.410
+Patrik Stas: Vdr. Tools
+
+198
+00:24:34.340 --> 00:24:52.129
+Patrik Stas: also Vdr tools from this fork. So this was for from ever-name version of Vdr tools, and Vdr Tools itself is fork of what originally used to be known as living the in Hyper Ledger in the SDK
+
+199
+00:24:52.140 --> 00:24:58.880
+Patrik Stas: repulsory. So what we are doing now we are taking this particular revision we have here from this fork.
+
+200
+00:24:58.980 --> 00:25:01.670
+Patrik Stas: and we have
+
+201
+00:25:03.120 --> 00:25:21.600
+Patrik Stas: well, we have open. Pr. Now, where we kind of picked out the the get 3 from the for repository. For this particular piece of the reposter we are interested it, which is the Vdr tools a directory.
+
+202
+00:25:22.990 --> 00:25:27.920
+Patrik Stas: So these are pretty much. This is dating back to the comments from
+
+203
+00:25:28.140 --> 00:25:29.899
+Patrik Stas: from ever name
+
+204
+00:25:29.960 --> 00:25:32.590
+all the way to our latest
+
+205
+00:25:32.700 --> 00:25:35.140
+Patrik Stas: a modification in the fork.
+
+206
+00:25:35.230 --> 00:25:44.040
+Patrik Stas: And yeah, the idea is we're gonna bring it here under under our, and this will give us better flexibility in
+
+207
+00:25:44.060 --> 00:25:45.689
+Patrik Stas: trimming it down
+
+208
+00:25:45.750 --> 00:25:49.409
+Patrik Stas: and just cutting down the cutting of the dependencies.
+
+209
+00:25:49.510 --> 00:25:52.359
+Patrik Stas: and eventually just removing this
+
+210
+00:25:52.470 --> 00:26:12.289
+Patrik Stas: portion of code completely, or possibly just leaving, like the minimal, really minimal set. Maybe if we want to keep the the what implementation in parallel with us car, or you know, at least until the uscar is ready, and we have migrations and stuff like that
+
+211
+00:26:23.810 --> 00:26:26.090
+all all clear on
+
+212
+00:26:26.340 --> 00:26:27.480
+Patrik Stas: on this piece.
+
+213
+00:26:28.700 --> 00:26:36.319
+ckowald: Yeah, if i'm understanding correctly, you you, you're taking a copy of a subset of the video tools code. Is that
+
+214
+00:26:37.020 --> 00:26:42.410
+ckowald: so? You kind of decoupling it from that? So any future changes to the main branch.
+
+215
+00:26:42.800 --> 00:26:49.700
+ckowald: you you're not. You're gonna have to replicate if you care about them or you're thinking. Eventually you'll abandon that and just go to as car, anyhow.
+
+216
+00:26:51.160 --> 00:27:00.710
+Patrik Stas: Yeah. So we are basically taking copy of the portion of the repulsory, and we'll just yeah start trimming it, Start trimming it down. So we're gonna have a
+
+217
+00:27:00.910 --> 00:27:10.250
+Patrik Stas: we're gonna have a new Directory here now, Vdr: tools, and we will use that instead of the Fork Github
+
+218
+00:27:10.550 --> 00:27:16.129
+Patrik Stas: dependency. But yeah, eventually we want to. You know, to me, down to the point where
+
+219
+00:27:17.260 --> 00:27:19.300
+Patrik Stas: it doesn't contain much code.
+
+220
+00:27:19.550 --> 00:27:34.300
+Patrik Stas: Yeah. And yeah, possibly, you know, once we have to ask our implementation in integration ready, then we might even delete the Vdr tools completely.
+
+221
+00:27:35.480 --> 00:27:36.300
+ckowald: Right?
+
+222
+00:27:36.710 --> 00:27:38.180
+ckowald: Okay. Cool.
+
+223
+00:27:38.550 --> 00:27:43.269
+Patrik Stas: So we can like, you know, this this way. We are really just, I guess.
+
+224
+00:27:44.130 --> 00:27:57.889
+Patrik Stas: of of officially taken lead with that fork, and not expecting any updates from ever name anymore, we which which we could kind of sink into or hardness, just make it in completely new fork, but
+
+225
+00:27:58.380 --> 00:28:08.239
+Patrik Stas: not in the some remote repository, but under Aries DC. To make the development more transparent, and use the same governance process
+
+226
+00:28:08.520 --> 00:28:10.730
+Patrik Stas: here
+
+227
+00:28:10.870 --> 00:28:16.830
+Patrik Stas: as opposed to just doing something on our own in some the plot fork somewhere else.
+
+228
+00:28:18.670 --> 00:28:26.190
+ckowald: Okay, can I? I can. I ask a sort of maybe related, but maybe not question. I i'm, I'm very new to the
+
+229
+00:28:26.420 --> 00:28:32.560
+ckowald: SSI d I community and concept. So there's a lot of history that i'm not aware of.
+
+230
+00:28:34.120 --> 00:28:36.139
+ckowald: I don't know if you can answer this one. But
+
+231
+00:28:36.200 --> 00:28:36.850
+ckowald: I
+
+232
+00:28:36.940 --> 00:28:43.739
+ckowald: is. Do you understand why there's a general shift away from the Indie wallet to the as car wallet is there?
+
+233
+00:28:44.460 --> 00:28:46.070
+ckowald: I I
+
+234
+00:28:46.110 --> 00:28:55.440
+Patrik Stas: because, you know, if you look at that in the SDK repository, basically nobody is really maintaining it anymore. I mean.
+
+235
+00:28:55.750 --> 00:28:56.920
+Patrik Stas: oh, okay.
+
+236
+00:28:57.090 --> 00:29:02.499
+Patrik Stas: move the last commit move in active maintainer and marriage status.
+
+237
+00:29:02.850 --> 00:29:08.109
+Patrik Stas: I I don't know if there's any active maintainer any more at this point
+
+238
+00:29:08.170 --> 00:29:09.380
+Patrik Stas: is there.
+
+239
+00:29:11.840 --> 00:29:14.310
+Patrik Stas: So there's some names segregate.
+
+240
+00:29:14.480 --> 00:29:19.349
+Patrik Stas: But yeah, there's very little activity here. And
+
+241
+00:29:19.820 --> 00:29:27.460
+Patrik Stas: basically the what here? Those those 2 implementations of the wallet in the in the SDK:
+
+242
+00:29:27.850 --> 00:29:28.560
+ckowald: Yeah.
+
+243
+00:29:28.630 --> 00:29:38.069
+Patrik Stas: one of them was I like the I Was it the? And that was the native usually used by devices.
+
+244
+00:29:38.140 --> 00:29:40.710
+Patrik Stas: The other one was kind of
+
+245
+00:29:40.880 --> 00:29:48.889
+Patrik Stas: for plugin architecture. There was a post for a post-second implementation.
+
+246
+00:29:49.070 --> 00:29:51.840
+Patrik Stas: But basically
+
+247
+00:29:52.170 --> 00:29:59.839
+Patrik Stas: the problem with this part of this implementation is especially with the postc 2. One is that the code base. Just
+
+248
+00:30:00.130 --> 00:30:17.119
+Patrik Stas: it. It's old code base, and it's not using us in a way at all. So any, for example, if you use the post for sequel what you know a new mate, and it took you a 50 ms round trip to the post recipient.
+
+249
+00:30:17.390 --> 00:30:24.729
+Patrik Stas: It will just block CPU for 50 ms. So for these reasons it was not really usable, you know, at scale
+
+250
+00:30:25.360 --> 00:30:26.810
+Patrik Stas: and
+
+251
+00:30:27.070 --> 00:30:39.029
+Patrik Stas: and people just moved away. For for one, I guess that was one of the reasons into those smaller repositories, and also just by.
+
+252
+00:30:39.120 --> 00:30:47.649
+Patrik Stas: I I guess, like just general practice kind of like code architecture practice. It was a monolithic repo. And
+
+253
+00:30:47.740 --> 00:30:50.029
+Patrik Stas: if you think about it, wallet.
+
+254
+00:30:50.130 --> 00:30:55.110
+Patrik Stas: ledger access and dealing with credentials are, you know, all kind of
+
+255
+00:30:55.320 --> 00:30:57.170
+Patrik Stas: really separate problems.
+
+256
+00:30:57.190 --> 00:31:03.880
+Patrik Stas: But here it was just intertwined into one code base, and that had lots of
+
+257
+00:31:05.480 --> 00:31:09.500
+Patrik Stas: you know, things to be improved, for example, the
+
+258
+00:31:09.730 --> 00:31:25.360
+Patrik Stas: and maybe to give you like additional background story. Basically, why are we now, you know, in there is, we say, using Vdr tools is what happened. Is ever name the original contributors and maintain there's this in this the key code base
+
+259
+00:31:26.730 --> 00:31:28.720
+Patrik Stas: because of some
+
+260
+00:31:28.940 --> 00:31:38.440
+Patrik Stas: like the the community, and ever the ever name and community couldn't come to agreement on certain terms. So they for this whole repulsory
+
+261
+00:31:38.460 --> 00:31:42.889
+Patrik Stas: under the you know, the Vdr tools.
+
+262
+00:31:43.430 --> 00:31:52.969
+Patrik Stas: They rebranded it as Vdr tools, and they've implemented like a bunch of really great stuff. They did as sync avoid wall ads.
+
+263
+00:31:54.720 --> 00:31:57.690
+Patrik Stas: refactored. Call base a lot.
+
+264
+00:31:58.660 --> 00:32:10.060
+Patrik Stas: And so that's why we kind of migrated over there because we, you know it. But it was maybe a year ago. We didn't really see any future here. We started using Vdr tools. Now
+
+265
+00:32:10.070 --> 00:32:29.800
+Patrik Stas: the the community can. The original community from in the SDK moved on to those module libraries which are, you know, I think, away they are like nice, clean, modular. So I think. Yeah, that's kind of the next step, because the Vdr tools itself as well, is at this point not really maintained by ever name either.
+
+266
+00:32:30.660 --> 00:32:34.579
+ckowald: And now we're moving from V. Our tools towards Ascar.
+
+267
+00:32:34.920 --> 00:32:49.379
+Patrik Stas: Yeah, no, no, yeah, exactly. And temporarily, you know, we are taking basically started to maintain the Vdr tools for on our own. Now, moving into the a. Is V. 6 repository with the go of eventually eliminating it completely.
+
+268
+00:32:50.670 --> 00:32:58.070
+ckowald: Yeah, I suppose my follow up thinking was, You know, as long as we understand why we're moving from via to as car.
+
+269
+00:32:58.410 --> 00:33:00.940
+ckowald: The how do I express this?
+
+270
+00:33:01.140 --> 00:33:16.569
+ckowald: If If the VR tools gets updated so that it sort of becomes, you know, in quotes better than as car, whether or not we'd ever want to move back, but it doesn't it doesn't sound like that's a likely thing given that the nature of em. It's sort of discontinuing support for this stuff.
+
+271
+00:33:17.100 --> 00:33:31.279
+Patrik Stas: Oh, yeah, Well, you know as far as to what you know definitely the future is in those like modules, right? Libraries like credit for the credit. Well, more precisely, I guess. I'm on credit Rs for dealing with credentials.
+
+272
+00:33:31.310 --> 00:33:32.470
+Patrik Stas: And then.
+
+273
+00:33:32.660 --> 00:33:45.980
+Patrik Stas: yeah, in the Vdr. For dealing with the ledger. But as for the world goes, you know we are me as a representative from upset. We are actually using the my sequel implementation of the
+
+274
+00:33:46.500 --> 00:33:47.899
+Patrik Stas: Vvr tools.
+
+275
+00:33:48.030 --> 00:33:50.399
+Patrik Stas: and we are happy with it. So
+
+276
+00:33:50.410 --> 00:34:09.669
+Patrik Stas: it's for the uscar goes like we definitely want to add to support that in this kind of modular fashion. At the same time I don't know if we will read, You know, as the Upsa, we will really want to migrate to ask our, because currently we don't have any issues with the Mysql implementation for, like the issue very far
+
+277
+00:34:09.679 --> 00:34:11.259
+kind of software
+
+278
+00:34:11.449 --> 00:34:15.970
+Patrik Stas: but for the mobile devices. I guess
+
+279
+00:34:16.159 --> 00:34:30.899
+Patrik Stas: I don't know how different the uscar is from the the implementation Vdr: tools. But I think, yeah, the optimal solution for the world would be just, you know, have multiple implementations and
+
+280
+00:34:30.960 --> 00:34:42.740
+Patrik Stas: and let anyone choose to one they want to. They want to choose. But I know maybe we'll run into complications with that approach to change the perspective.
+
+281
+00:34:42.900 --> 00:34:44.049
+Patrik Stas: But
+
+282
+00:34:44.710 --> 00:34:52.030
+Patrik Stas: I can see at this point it's like go going, you know, in mid medium term. We would like to maintain.
+
+283
+00:34:52.159 --> 00:35:02.010
+Patrik Stas: We would like to keep at least the wallet out of Vdr tools, but definitely want to dump all the other stuff like the credentials and the ledger stuff.
+
+284
+00:35:02.730 --> 00:35:03.680
+ckowald: Okay.
+
+285
+00:35:03.830 --> 00:35:11.309
+ckowald: I I I had the impression anecdotally that the Indie wallet was. There was some sort of performance or scalability issues, but I guess that
+
+286
+00:35:11.600 --> 00:35:13.400
+ckowald: I guess that would be on the
+
+287
+00:35:13.530 --> 00:35:21.310
+ckowald: You know the postgres sequel side of it. You're talking about not using the away Async kind of functionality. So it sounds like you're saying that the
+
+288
+00:35:21.620 --> 00:35:25.099
+ckowald: the Sq. Light side of it's pretty good, and you're quite happy with it.
+
+289
+00:35:25.810 --> 00:35:45.239
+Patrik Stas: Yeah, you know Generally this when you look at like the kind of the those wallet interfaces in Vdr tools, they are all like asking Oriented, whereas in the original it was just synchronous calls. So whether it's like what, whether you know, when we we talk in terms of sequel, what or or
+
+290
+00:35:45.250 --> 00:35:49.089
+Patrik Stas: some database will at like.
+
+291
+00:35:51.030 --> 00:36:02.080
+Patrik Stas: those can all be implemented in sink a white fashion, you know, with Vdr tools, implementation cool, I understand. Thank you. Sorry for the distraction.
+
+292
+00:36:02.340 --> 00:36:09.340
+Patrik Stas: Oh, it's a it's it's you know the the meeting is to have discussion. So i'm a happy one.
+
+293
+00:36:09.540 --> 00:36:12.039
+Patrik Stas: Thanks for people. People ask or discuss.
+
+294
+00:36:13.050 --> 00:36:13.790
+ckowald: Thanks.
+
+295
+00:36:16.970 --> 00:36:21.989
+Yeah, so that's that's what's going on right now, and
+
+296
+00:36:22.690 --> 00:36:41.020
+Patrik Stas: for the upcoming work. I guess i'll start with this one, because this mostly ties to what's going on. I saw I saw that, George, you're pushing some comments today into the the verifier. I didn't have time to look at it, but I guess
+
+297
+00:36:41.030 --> 00:36:45.420
+Patrik Stas: in in in that sense they could move this piece
+
+298
+00:36:46.750 --> 00:36:56.810
+Patrik Stas: into the progress, so can you give a short update on this? Have you managed to fix those those some failing tests? Right? Have you managed to overcome those issues.
+
+299
+00:36:57.120 --> 00:36:58.380
+George Mulhearn: Yeah.
+
+300
+00:36:58.630 --> 00:37:02.590
+George Mulhearn: I I just put a Pr. Up for it just before this meeting
+
+301
+00:37:03.120 --> 00:37:09.309
+George Mulhearn: moved it from the draft to ready to review. But yeah, it was just an issue with error. Mapping
+
+302
+00:37:10.830 --> 00:37:15.560
+George Mulhearn: and credits was kind of wrapping up the error in a weird way, so I had to
+
+303
+00:37:15.750 --> 00:37:18.060
+George Mulhearn: figure out how to unravel that. But
+
+304
+00:37:18.940 --> 00:37:19.740
+George Mulhearn: yeah.
+
+305
+00:37:19.770 --> 00:37:22.340
+George Mulhearn: it's a short Pr: so it shouldn't be
+
+306
+00:37:22.700 --> 00:37:25.259
+George Mulhearn: to that. The the issue
+
+307
+00:37:25.520 --> 00:37:28.880
+George Mulhearn: Critics: Pr: will be much bigger.
+
+308
+00:37:29.440 --> 00:37:32.690
+George Mulhearn: And yeah, that'll be the most telling. Pr: I think.
+
+309
+00:37:33.050 --> 00:37:43.729
+Patrik Stas: Just wondering. Have you? Have you had the chance to, you know? Do any sort of attempt into any, into into into issue, or yet, or it just something still ahead of us.
+
+310
+00:37:43.760 --> 00:37:44.569
+Patrik Stas: Yet.
+
+311
+00:37:44.920 --> 00:37:58.510
+George Mulhearn: Yeah, it's it's mostly ahead. I I mean, there was some existing Apis that were done with my original Pr. Which were issue a related like the ability to write a did
+
+312
+00:37:59.100 --> 00:38:01.370
+George Mulhearn: was done with credits.
+
+313
+00:38:01.500 --> 00:38:02.870
+So
+
+314
+00:38:03.210 --> 00:38:04.950
+George Mulhearn: there is some riding
+
+315
+00:38:05.220 --> 00:38:10.539
+George Mulhearn: existing right to ledger functionality that's been written in.
+
+316
+00:38:11.230 --> 00:38:13.669
+George Mulhearn: Sorry not credit in Indivia.
+
+317
+00:38:13.970 --> 00:38:16.480
+George Mulhearn: So some of that's done.
+
+318
+00:38:17.380 --> 00:38:19.589
+George Mulhearn: And then yeah, I guess
+
+319
+00:38:19.760 --> 00:38:24.919
+George Mulhearn: just need to give it a go. It it shouldn't be too difficult sort of following the same pattern that
+
+320
+00:38:24.970 --> 00:38:26.240
+George Mulhearn: it's already been done
+
+321
+00:38:26.650 --> 00:38:42.879
+Patrik Stas: right right, I guess. Like, yeah, my, my my main concern is just the the compatibility. So I would like to make sure. I know when when we do this, if it's possible, if it's possible.
+
+322
+00:38:42.970 --> 00:38:45.290
+Patrik Stas: I would like to see if we can
+
+323
+00:38:46.500 --> 00:38:49.500
+Patrik Stas: like, accommodate case where
+
+324
+00:38:49.800 --> 00:38:54.099
+Patrik Stas: you create a let's say credential definition with
+
+325
+00:38:54.270 --> 00:38:56.360
+Patrik Stas: video like we'd.
+
+326
+00:38:57.470 --> 00:39:00.580
+Patrik Stas: Pdr tools, implementation and
+
+327
+00:39:00.750 --> 00:39:03.729
+Patrik Stas: from desk
+
+328
+00:39:04.720 --> 00:39:07.170
+credential definition. But using the
+
+329
+00:39:08.010 --> 00:39:11.220
+Patrik Stas: you know, the the the credits, libraries.
+
+330
+00:39:12.080 --> 00:39:14.900
+any any issues with that?
+
+331
+00:39:15.420 --> 00:39:20.470
+George Mulhearn: Yeah. And the way how it's it in wallet or something like that.
+
+332
+00:39:21.500 --> 00:39:27.789
+George Mulhearn: Yeah. Yeah. Good idea. Yeah. We kind of need to test the like the different permutations of it.
+
+333
+00:39:28.260 --> 00:39:34.629
+George Mulhearn: you know. Indeed, to indie in the modular modular to indie modular.
+
+334
+00:39:34.890 --> 00:39:54.560
+Patrik Stas: Yeah, I I I guess I will then like we we wouldn't necessarily need the modular to the Indie is like, I think nobody you know, would be making that kind of step backwards like starting with credits to the to the Indie. Would you plan to delete? But just just kinda moving forward.
+
+335
+00:39:55.590 --> 00:39:59.039
+Patrik Stas: See? We can. We can implement it kind of
+
+336
+00:39:59.090 --> 00:40:01.509
+Patrik Stas: some sort of migration support.
+
+337
+00:40:02.220 --> 00:40:05.689
+Patrik Stas: or if not, then not, you know.
+
+338
+00:40:05.980 --> 00:40:11.079
+Patrik Stas: Yeah, I guess we'll see what kind of challenges is is there ahead of us? But I think like
+
+339
+00:40:11.140 --> 00:40:14.730
+Patrik Stas: that that could be a good approach to just like start
+
+340
+00:40:15.390 --> 00:40:19.260
+Patrik Stas: like start small, just find like one
+
+341
+00:40:19.780 --> 00:40:23.589
+Patrik Stas: area to migrate, for example, creating those traditional.
+
+342
+00:40:24.110 --> 00:40:28.999
+Patrik Stas: literally. Basically yeah, maybe issuing a credential right? So
+
+343
+00:40:29.310 --> 00:40:30.629
+Patrik Stas: you would
+
+344
+00:40:30.880 --> 00:40:34.410
+Patrik Stas: you could you could we we could have a test to recreate
+
+345
+00:40:34.430 --> 00:40:35.939
+Patrik Stas: the credential
+
+346
+00:40:36.230 --> 00:40:37.529
+Patrik Stas: with.
+
+347
+00:40:38.150 --> 00:40:41.170
+Patrik Stas: We credential definition and schema with
+
+348
+00:40:41.210 --> 00:40:51.520
+Patrik Stas: with Indie, and then just implement the you know the functions necessarily for issuance, and try to see if we can actually issue from that
+
+349
+00:40:51.610 --> 00:40:54.500
+George Mulhearn: original credential definition.
+
+350
+00:40:55.170 --> 00:40:56.770
+Patrik Stas: and then move like.
+
+351
+00:40:57.400 --> 00:41:05.009
+Patrik Stas: move forward like you know. I guess if we see that that works, and we can start implementing like other other functions
+
+352
+00:41:05.090 --> 00:41:10.680
+Patrik Stas: for the for the issue, or like, maybe start writing those schemas and
+
+353
+00:41:10.850 --> 00:41:15.220
+Patrik Stas: credential definition revocation registry, this kind of stuff.
+
+354
+00:41:15.690 --> 00:41:16.669
+Patrik Stas: But
+
+355
+00:41:18.880 --> 00:41:22.549
+George Mulhearn: yeah, that doesn't make sense. Yeah, yeah, definitely.
+
+356
+00:41:24.560 --> 00:41:26.419
+George Mulhearn: i'll get on to that after
+
+357
+00:41:26.590 --> 00:41:28.679
+George Mulhearn: that Pr: the verify up here.
+
+358
+00:41:29.080 --> 00:41:31.380
+Patrik Stas: Maybe we can. Actually, I have.
+
+359
+00:41:31.930 --> 00:41:34.500
+Patrik Stas: I have created the like
+
+360
+00:41:34.710 --> 00:41:38.210
+Patrik Stas: some issue to address this testing.
+
+361
+00:41:38.310 --> 00:41:42.350
+Patrik Stas: but I think I didn't really describe it much.
+
+362
+00:41:42.750 --> 00:41:48.849
+Patrik Stas: But yeah, this is like kind of full bone. And but I think this is actually too much to get
+
+363
+00:41:48.900 --> 00:41:49.740
+Patrik Stas: like
+
+364
+00:41:49.860 --> 00:41:51.479
+Patrik Stas: this is to
+
+365
+00:41:51.560 --> 00:41:53.310
+Patrik Stas: big
+
+366
+00:41:53.360 --> 00:41:56.499
+Patrik Stas: piece of a. K. To start with.
+
+367
+00:41:56.560 --> 00:42:03.970
+Patrik Stas: Yeah, I I think we should. We should describe some minimum W. More minimal scenario.
+
+368
+00:42:04.230 --> 00:42:10.300
+Patrik Stas: Just so we can go incrementally because this is assuming everything to be implemented by
+
+369
+00:42:10.590 --> 00:42:15.629
+Patrik Stas: by the by, the critics approach. But we can take a smaller steps.
+
+370
+00:42:16.490 --> 00:42:23.080
+Patrik Stas: So yeah, i'll try to add, like some additional proposal here for for the test we can
+
+371
+00:42:23.750 --> 00:42:24.959
+Patrik Stas: start with
+
+372
+00:42:25.120 --> 00:42:26.370
+Patrik Stas: after the meeting.
+
+373
+00:42:29.290 --> 00:42:37.150
+Patrik Stas: Oh, okay. And as for the stuff we have, yeah, the upcoming upcoming things. So
+
+374
+00:42:37.200 --> 00:42:51.210
+Patrik Stas: a task which I took over is I started to look how we can improve. Ci. Currently, there's a stability issues because sometimes code code
+
+375
+00:42:51.260 --> 00:42:57.250
+Patrik Stas: just fails to kind of receive the coverage data, or I don't know if it's networking issues in
+
+376
+00:42:57.510 --> 00:43:02.830
+Patrik Stas: Github pipelines. I don't know what the issue is, but sometimes we get like
+
+377
+00:43:03.250 --> 00:43:12.200
+Patrik Stas: error codes from the or or just some time out, or something like that from the servers of Code Code Covio. And
+
+378
+00:43:12.530 --> 00:43:14.849
+Patrik Stas: and so we could kind of
+
+379
+00:43:15.130 --> 00:43:34.970
+Patrik Stas: solution could be that we just. We try to re upload the coverage files. The problem is right now. It's kind of bundled together with the running the test itself. So the idea is to split the testing with code coverage Ca: calculation separately, and then have separate job
+
+380
+00:43:34.980 --> 00:43:44.920
+Patrik Stas: for uploading the code coverage we could, which could implement some sort of rate. Try logic if we get to fail failed response from from code to
+
+381
+00:43:45.070 --> 00:43:46.009
+Patrik Stas: I/O,
+
+382
+00:43:46.840 --> 00:43:50.660
+Patrik Stas: So that's that's one. See improvement
+
+383
+00:43:51.130 --> 00:43:59.399
+Patrik Stas: After this I believe that the the Ci should be really stable, because we no longer have the
+
+384
+00:43:59.590 --> 00:44:08.600
+Patrik Stas: no just issues, and this is also common source of a failed pipelines so sure, much more stable afterwards
+
+385
+00:44:13.340 --> 00:44:17.269
+moving to the next point. So
+
+386
+00:44:21.140 --> 00:44:32.050
+Patrik Stas: I guess i'll move here first. I think that's more important. Actually. So, like going forward. We'll want to try to start streaming down the Vd article base
+
+387
+00:44:34.240 --> 00:44:47.390
+Patrik Stas: just by like kind of brief look. I saw like few dependencies which did not have to be there. There was some unnecessary in in a. In a progress, and working on
+
+388
+00:44:47.440 --> 00:44:53.310
+Patrik Stas: this Pr. Previously with the Vdr. Tools or mapping, I've noticed there's
+
+389
+00:44:53.420 --> 00:44:59.449
+Patrik Stas: number of errors in Vdr tools which also don't really make sense anymore.
+
+390
+00:44:59.660 --> 00:45:04.570
+Patrik Stas: Just, for example, there was
+
+391
+00:45:04.880 --> 00:45:07.509
+Patrik Stas: errors related to payments
+
+392
+00:45:08.030 --> 00:45:15.809
+Patrik Stas: in Vdr tools, because originally V. The the in the Ledger was supposed to support payments to
+
+393
+00:45:15.950 --> 00:45:21.580
+Patrik Stas: with some tokens. So there's errors like payment source does not exist.
+
+394
+00:45:21.670 --> 00:45:38.079
+Patrik Stas: And obviously this just like not the type of errors we need to deal with or think about anymore. So there's stuff like this which can be cleared up, and consequently to also clean up the code, base
+
+395
+00:45:38.510 --> 00:45:40.049
+a little bit
+
+396
+00:45:40.070 --> 00:45:41.379
+Patrik Stas: as well.
+
+397
+00:45:41.760 --> 00:45:54.150
+Patrik Stas: also removing some dependencies. Hence producing chances of some sort of dependency complex when we are integrating new dependencies, like Arizona, for example.
+
+398
+00:45:55.530 --> 00:46:01.690
+Patrik Stas: So we will work on like trimming down the code base also, possibly
+
+399
+00:46:02.340 --> 00:46:12.399
+Patrik Stas: just completely wipe out the portion of the Vdr to call base, which deals with
+
+400
+00:46:14.060 --> 00:46:17.059
+Patrik Stas: functions related to holder. And
+
+401
+00:46:17.260 --> 00:46:23.100
+Patrik Stas: as this all has been already implemented with the credits libraries.
+
+402
+00:46:24.120 --> 00:46:25.569
+Patrik Stas: and
+
+403
+00:46:27.370 --> 00:46:28.180
+Patrik Stas: yeah.
+
+404
+00:46:29.090 --> 00:46:32.699
+Patrik Stas: so so basically if we implement, support.
+
+405
+00:46:34.390 --> 00:46:37.020
+Patrik Stas: kind of integrate this into
+
+406
+00:46:37.600 --> 00:46:41.910
+Patrik Stas: the the credit, support for holder and
+
+407
+00:46:44.040 --> 00:46:55.320
+Patrik Stas: prover, to the make sure that it's backwards comp compatible for the existing what they can still keep, proving with the old credentials
+
+408
+00:46:55.520 --> 00:46:56.839
+Patrik Stas: which they should.
+
+409
+00:47:00.230 --> 00:47:09.679
+Patrik Stas: Then we can, yeah do it. Probably significant portion of the Vdr tools which just deals with proving and and holding credentials.
+
+410
+00:47:10.590 --> 00:47:19.019
+Patrik Stas: and I guess and basically they will be like the theme, the the strategy going forward. For you know, once we kind of manage to
+
+411
+00:47:19.440 --> 00:47:24.130
+Patrik Stas: implement the support for the for the issue and verify, we can again
+
+412
+00:47:24.490 --> 00:47:30.740
+Patrik Stas: remove the portion of the Vdr to school base, which which deals with those issues, those problems.
+
+413
+00:47:31.170 --> 00:47:34.090
+Patrik Stas: And and that yeah, then the the
+
+414
+00:47:34.130 --> 00:47:46.070
+Patrik Stas: or when they skipped here, kind of after a long time, a creative task to actually add something new to the code base. So there's an issue created
+
+415
+00:47:46.450 --> 00:47:48.699
+Patrik Stas: to to come up with
+
+416
+00:47:48.830 --> 00:47:52.389
+Patrik Stas: the design that you tried for Video resolver.
+
+417
+00:47:54.250 --> 00:48:05.809
+Patrik Stas: We could have implementation for that dissolved basically port kind of fitting the existing code under implementation under the initial implementation
+
+418
+00:48:05.980 --> 00:48:09.629
+Patrik Stas: for this new trade. We could then also add
+
+419
+00:48:10.160 --> 00:48:20.229
+Patrik Stas: implementation for did ending as a new new, the Id method which will be supported on in the ledgers.
+
+420
+00:48:20.460 --> 00:48:25.329
+Patrik Stas: I don't know what the timeline are, but I I would believe it's this year.
+
+421
+00:48:27.390 --> 00:48:31.039
+Patrik Stas: and also considering, adding like something like
+
+422
+00:48:31.350 --> 00:48:39.130
+Patrik Stas: resolving through a third trusted third party to trust a third party, such as you need resolver, although obviously this.
+
+423
+00:48:39.540 --> 00:48:48.250
+Patrik Stas: it's not ideal to resolve the Ids through a third parties. But it could be like just experimental.
+
+424
+00:48:53.280 --> 00:49:01.769
+Patrik Stas: Yeah. And I believe this this whole thing probably could be like, create on its own like. I imagine this could be useful for
+
+425
+00:49:01.980 --> 00:49:03.500
+Patrik Stas: other projects.
+
+426
+00:49:03.710 --> 00:49:16.720
+Patrik Stas: you know. Whoever wants to resolve the the the Id documents in rust. This could be pretty generic create which you can use to, you know. Resolve.
+
+427
+00:49:17.870 --> 00:49:27.550
+Patrik Stas: resolve the Ids whether it's did solve the Dnd, or you know, possibly might other. We might add other kind of native implementations.
+
+428
+00:49:27.920 --> 00:49:31.269
+rust implementations for other
+
+429
+00:49:31.820 --> 00:49:33.160
+Patrik Stas: and the adding methods.
+
+430
+00:49:33.350 --> 00:49:35.499
+Patrik Stas: or, in the meantime
+
+431
+00:49:35.530 --> 00:49:40.449
+Patrik Stas: just hook into a trusted party like you. You need a resolver.
+
+432
+00:49:45.880 --> 00:49:49.340
+Any any thoughts or comments about this. One
+
+433
+00:49:52.880 --> 00:49:53.890
+George Mulhearn: looks good.
+
+434
+00:49:57.680 --> 00:49:58.810
+Patrik Stas: all right.
+
+435
+00:50:00.150 --> 00:50:06.790
+Patrik Stas: so I guess that brings us to the kind of end of the meeting. We covered everything
+
+436
+00:50:07.240 --> 00:50:09.910
+on the agenda.
+
+437
+00:50:10.940 --> 00:50:13.299
+Patrik Stas: So unless
+
+438
+00:50:13.860 --> 00:50:17.560
+Patrik Stas: unless there's anything else from your your guy side.
+
+439
+00:50:17.640 --> 00:50:19.999
+we can finish the meeting.
+
+440
+00:50:20.070 --> 00:50:25.790
+Patrik Stas: Do you have any any discussion point? You might have thought, you know, throughout the meeting.
+
+441
+00:50:26.090 --> 00:50:28.429
+Patrik Stas: if, before we close all
+
+442
+00:50:31.460 --> 00:50:35.929
+George Mulhearn: I started working on a unify rapper
+
+443
+00:50:36.110 --> 00:50:38.459
+sort of proof of concept thing.
+
+444
+00:50:38.740 --> 00:50:41.750
+George Mulhearn: No real objects yet. But
+
+445
+00:50:42.590 --> 00:50:51.450
+Patrik Stas: I guess hopefully, there's an update next week, and i'll let you know that
+
+446
+00:50:52.180 --> 00:51:02.720
+Patrik Stas: awesome that that would be really interesting to see. I'm: sure people could their inspiration when building new new wrappers or new new applications.
+
+447
+00:51:02.830 --> 00:51:07.449
+Patrik Stas: Oh, yeah, that that's exciting. Thank you so much for this effort.
+
+448
+00:51:08.170 --> 00:51:14.000
+George Mulhearn: so good. Oh, also I noticed something earlier when we were looking at the
+
+449
+00:51:14.290 --> 00:51:16.969
+George Mulhearn: the read me for Aries Vcx.
+
+450
+00:51:18.660 --> 00:51:21.030
+George Mulhearn: So I guess in the read me, and
+
+451
+00:51:21.070 --> 00:51:23.729
+George Mulhearn: what I've been doing, and what you've been doing is
+
+452
+00:51:23.880 --> 00:51:25.749
+George Mulhearn: pulling from the
+
+453
+00:51:26.000 --> 00:51:30.530
+George Mulhearn: the docker image that you've uploaded to Docker. Hub.
+
+454
+00:51:31.010 --> 00:51:34.040
+George Mulhearn: Oh, yeah, yeah. I was wondering. Is it possible
+
+455
+00:51:34.450 --> 00:51:38.049
+George Mulhearn: for it to be published to Docker Hub sort of on the
+
+456
+00:51:38.570 --> 00:51:41.990
+George Mulhearn: Hyper Ledger Aries, Vcx, rather than
+
+457
+00:51:42.140 --> 00:51:52.360
+Patrik Stas: we could publish it. I I I don't know if there's account for hypology on the Docker app. We we could publish it on the
+
+458
+00:51:52.380 --> 00:51:56.169
+Patrik Stas: the Github get up registry instead.
+
+459
+00:51:56.200 --> 00:51:57.179
+Nice?
+
+460
+00:51:58.760 --> 00:52:05.580
+George Mulhearn: Yeah, we can do that for sure.
+
+461
+00:52:05.840 --> 00:52:12.109
+Patrik Stas: Yeah, yeah, these are all do for images. And apparently there is actually some in the pool here.
+
+462
+00:52:12.500 --> 00:52:14.400
+Patrik Stas: but i'm not sure.
+
+463
+00:52:14.760 --> 00:52:16.889
+Patrik Stas: I'm not quite sure.
+
+464
+00:52:17.100 --> 00:52:27.320
+Patrik Stas: And obviously in the Ci we are using in the pool with local host. I don't remember if we are building it. No, we are using the the one from the docker Hub as well.
+
+465
+00:52:27.430 --> 00:52:42.169
+Patrik Stas: But yeah, apparently we have some old in the pool images here, which is not really being used. Not many downloads. I'll take a look into this, and i'll ping you i'll i'll. I'll ping you on the discord.
+
+466
+00:52:42.890 --> 00:52:44.909
+Once we have this sorted out.
+
+467
+00:52:45.520 --> 00:52:46.970
+George Mulhearn: Okay, Great thanks.
+
+468
+00:52:55.540 --> 00:52:59.990
+Patrik Stas: Okay, I guess. With that
+
+469
+00:53:01.450 --> 00:53:05.160
+Patrik Stas: that being said uncovered.
+
+470
+00:53:07.120 --> 00:53:24.390
+Patrik Stas: you have 8 min left extra of your time. I we meeting. We are finishing this earlier. So thank you both for joining in and also thanks for anyone for tuning into the recording. Possibly.
+
+471
+00:53:25.740 --> 00:53:29.909
+Patrik Stas: So. Yeah, have a. It's it's almost weekend. So
+
+472
+00:53:30.340 --> 00:53:33.589
+Patrik Stas: have a have a nice weekend and the rest of the week.
+
+473
+00:53:33.670 --> 00:53:34.620
+Patrik Stas: Thank you.
+
+474
+00:53:35.070 --> 00:53:37.509
+George Mulhearn: Thank you. You, too. Thanks, guys.
+
+475
+00:53:37.770 --> 00:53:39.619
+George Mulhearn: Thanks to you.
+

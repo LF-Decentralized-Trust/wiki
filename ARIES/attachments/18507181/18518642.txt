@@ -1,0 +1,1218 @@
+WEBVTT
+
+1
+00:00:13.600 --> 00:00:15.630
+Bogdan Mircea: Hey, Patrick? Morning
+
+2
+00:00:16.590 --> 00:00:21.560
+Patrik: and Hello, innocent autopilot are most
+
+3
+00:00:21.810 --> 00:00:27.330
+Patrik: most dedicated member of the community.
+
+4
+00:00:27.600 --> 00:00:29.329
+Bogdan Mircea: Never misses a meeting
+
+5
+00:00:30.570 --> 00:00:31.650
+Patrik: threads
+
+6
+00:02:40.570 --> 00:02:47.160
+Patrik: alright. Let's get started. I'm not sure if we might be having 9. So
+
+7
+00:02:47.680 --> 00:02:58.470
+Patrik: she connects. It's great, if not, that's fine, too. Mira's not joining today, and neither is George. So starting just 2 of us.
+
+8
+00:02:58.960 --> 00:03:10.589
+Patrik: folder the hyper ledger guideline. Nevertheless. Just mentioned that antitrust policy airplanes in effect.
+
+9
+00:03:10.730 --> 00:03:20.409
+Patrik: and we can just get into our agenda. and I guess it can be just pretty much free discussion, since just 2 of us. But
+
+10
+00:03:20.600 --> 00:03:23.510
+Patrik: I'll just run through it kind of quickly.
+
+11
+00:03:23.790 --> 00:03:27.200
+Patrik:  for the for the listeners.
+
+12
+00:03:28.550 --> 00:03:38.140
+Patrik: So in terms of mentorship updates. we have a nicely progressing mediator project.
+
+13
+00:03:39.100 --> 00:03:40.450
+Where
+
+14
+00:03:40.820 --> 00:03:44.539
+Patrik: we have merged some some Pr's. And
+
+15
+00:03:45.330 --> 00:03:47.100
+Patrik: at this point
+
+16
+00:03:47.590 --> 00:03:59.059
+Patrik: excellent server. So very innocent repuln test server. Actually, it's every mediator. So we are getting to phase where
+
+17
+00:03:59.220 --> 00:04:07.450
+Patrik: Nan is now implementing the connection protocol, while we already have all of the pick up
+
+18
+00:04:07.500 --> 00:04:21.239
+Patrik: messages, pick up storage and key registration. So we just need to put a Didcom tunnel on top of that, and technically should be a working mediator.
+
+19
+00:04:21.680 --> 00:04:46.090
+Patrik:  on on the on the next site. so right next to it. We have the F. 5 project. The one also just got some Pr open this morning. I think the old one was closed. For some reason a new one was open. Nevertheless, it seems like things are moving a bit. So
+
+20
+00:04:48.280 --> 00:04:55.240
+Patrik: I know that the guys want to get this merged rather sooner than later.
+
+21
+00:04:55.720 --> 00:05:16.389
+Patrik:  So the next next, perhaps on the next call, once things are merge and and ready, we could could maybe have some make some sort of demo of that of the developer for the overview. So we had a 0 50 s. Release with
+
+22
+00:05:16.780 --> 00:05:32.289
+Patrik: number of Prs merge in. And there is a there's a changelink on the release. So pretty clear what has been done there most significantly, we have removed the Vc X component.
+
+23
+00:05:33.650 --> 00:05:46.029
+Patrik:  yeah. So that's that's a component which has been deprecated for a long period of time. Hi! I see that you just join the meeting.
+
+24
+00:05:53.970 --> 00:05:54.860
+Patrik: Well.
+
+25
+00:05:55.280 --> 00:06:06.630
+Patrik: you might be. I can't hear something. So if you decide to keep it quiet, or you have some technical issues, and I think it might be the later on, because I see you're unmuted.
+
+26
+00:06:06.870 --> 00:06:12.579
+Patrik: But I couldn't hear. Say I couldn't hear something if you if you if you'd said something.
+
+27
+00:06:16.320 --> 00:06:29.100
+Patrik: So okay, I'll just proceed with what I was. what I was up to. So we remove the components, the Ios and Java wrapper. And obviously it's the
+
+28
+00:06:29.560 --> 00:06:32.800
+Patrik: kind of our long-term recommendation being
+
+29
+00:06:32.910 --> 00:07:00.400
+Patrik: the the the replacement for it should be. If anyone wishes to build native apps, they should just Bill, use login and build on top of that, and and the Ffi Project Uniffi project we have ongoing within the Hyper Ledger. That's that's one example or kind of definitely good starting point.
+
+30
+00:07:00.540 --> 00:07:08.800
+Patrik: it could be a good starting point. I'm sure there's many approaches that can be taken, but it's one of them. Hi, man. I can hear you now. By the way.
+
+31
+00:07:09.800 --> 00:07:15.150
+Naian: yes, I can hear you also. There was some some problem. But yes, it's fine now.
+
+32
+00:07:15.380 --> 00:07:26.359
+Patrik: Okay, so since you came here. I'll get back to like the mentorship. But I'll first finish with us going through. So we had the release remotely. B 6 components.
+
+33
+00:07:27.190 --> 00:07:28.509
+Patrik: and we kind of
+
+34
+00:07:28.900 --> 00:07:37.700
+Patrik: cleaned up the cluttered state machines. So especially older.
+
+35
+00:07:38.000 --> 00:07:47.300
+Patrik: holder, verifier prover, and of them is prover verifier, holder, issuer.
+
+36
+00:07:47.460 --> 00:07:48.760
+Those are
+
+37
+00:07:48.770 --> 00:07:50.330
+Patrik: bits.
+
+38
+00:07:51.150 --> 00:08:00.670
+Patrik: old, old approach. And it's been stuck in the code base for a long time. So this kind of puts it on the same level as
+
+39
+00:08:01.440 --> 00:08:04.170
+Patrik: connection protocol, basically.
+
+40
+00:08:04.420 --> 00:08:10.209
+Patrik: So that's that's kinda first step, first level of reunification
+
+41
+00:08:10.260 --> 00:08:15.590
+Patrik: and then, there's a next steps following that. So
+
+42
+00:08:15.690 --> 00:08:33.999
+Patrik: that will be that is, follow up directly by another pr to actually remove enforcing message sending from the state machines for starter for starter this this Pr. And there is a Pr for it.
+
+43
+00:08:34.270 --> 00:08:44.400
+Patrik: This Pr is doing so for issue only. So it's appending work to do to apply the exactly same kind of approach
+
+44
+00:08:44.970 --> 00:08:51.720
+Patrik: on the verifier and prover. and then
+
+45
+00:08:51.940 --> 00:08:58.330
+Patrik: monsted is done, and we have kind of removed I/O. From our state machines.
+
+46
+00:08:58.420 --> 00:09:05.049
+Patrik: we can actually significantly improve our testing. So we can stop
+
+47
+00:09:05.490 --> 00:09:13.249
+Patrik: having to deal with connections and mediator agency in credential and presentation tests completely
+
+48
+00:09:13.630 --> 00:09:23.119
+Patrik: and just exchange. And exchange these messages in a memory. Essentially. So it's gonna be a lot faster, a lot lot simpler.
+
+49
+00:09:24.220 --> 00:09:28.440
+Patrik: But yeah, that's something to be done yet.
+
+50
+00:09:29.470 --> 00:09:40.020
+Patrik: we have a number of stuff in review. We have a did exchange from Mira. I was reviewing that before. That has been, I believe, largely addressed by Mirror.
+
+51
+00:09:40.120 --> 00:09:49.730
+Patrik: So I invite everyone else to also have a look and comment. Also. Great news from Mira is that
+
+52
+00:09:50.350 --> 00:09:57.430
+Patrik: there's he created pull request for a resagent as harness to add.
+
+53
+00:09:57.540 --> 00:10:06.370
+Patrik: there is Vcs back channel implementation and start running did exchange
+
+54
+00:10:06.400 --> 00:10:12.970
+Patrik: with period support in at HA periodic Ci.
+
+55
+00:10:13.210 --> 00:10:15.639
+Patrik: So we'll now be getting
+
+56
+00:10:16.130 --> 00:10:26.130
+Patrik: these regular results, I believe, for Star. It only is basically Aires, Vc, X, testing against Ares, Vc. X. From both roles.
+
+57
+00:10:27.120 --> 00:10:46.950
+Patrik: as I believe that the back channel with like did exchange with period support, yet missing for occupy and energy. So we'll just wait wait them for to for them to finish their implementation and see what kind of
+
+58
+00:10:47.510 --> 00:10:58.189
+Patrik: results will be getting getting with them. But from what I can tell it should be it should be like pretty good, because
+
+59
+00:10:58.270 --> 00:11:16.079
+Patrik: while the Akapi stuff is for did exchange did. Peer is noted here? You're also already testing that locally. So anyone contributing to to Acapa and kind of driving, driving some some progress and finding some bugs in that area.
+
+60
+00:11:16.390 --> 00:11:19.929
+Patrik: So that's that's really looking good.
+
+61
+00:11:21.110 --> 00:11:33.410
+Patrik: And then there's just as basically a more of a reminder. There's these 2 ancient Pr we should get merged, I think one is removing open. Replacing open cell with
+
+62
+00:11:33.540 --> 00:11:39.939
+Patrik: some smaller dependencies, and the other one is just updating sea. I.
+
+63
+00:11:41.510 --> 00:11:47.349
+Patrik: CI. Host images in to to ubuntu 22.
+
+64
+00:11:50.120 --> 00:12:11.450
+Patrik: Well, that's what's in review. And then we have number of stuff in progress, too. So, as I mentioned already, there's a Pr. To remove the I/O. For issue a holder that will be followed with the same kind of thing for the approver verifier, and both of these things will be followed by refactoring tests, removing all of the I/O there.
+
+65
+00:12:14.600 --> 00:12:20.259
+Patrik: then, next up, there's a kind of a draft so far, for Demo
+
+66
+00:12:20.710 --> 00:12:25.990
+Patrik: was originally of initiated by George.
+
+67
+00:12:26.170 --> 00:12:33.769
+Patrik: to have this to have a place to show newcomers to kind of do a basic demonstration of the Api
+
+68
+00:12:33.820 --> 00:12:37.350
+Patrik: point, the newcomer somewhere. And
+
+69
+00:12:37.710 --> 00:12:45.200
+Patrik: I think this can be very particular useful, for now so this kind of demonstrates the whole connection flow
+
+70
+00:12:46.520 --> 00:13:00.710
+Patrik: for the connection. There's some tweaks yet to be done.  George was mentioning kind of right now, the the mediator between the 2 parties kind of shared. So
+
+71
+00:13:01.140 --> 00:13:12.749
+Patrik: there are certain assumptions in the code like, you know, who is supposed to receive a message at the given time, and that's something that can be improved, and maybe, you know, get rid of
+
+72
+00:13:13.010 --> 00:13:15.380
+quite assumptions in a code.
+
+73
+00:13:15.700 --> 00:13:27.110
+Patrik:  make the addressing be more explicit. And, secondly, I was wondering that perhaps this should be split in 2 files at least.
+
+74
+00:13:27.150 --> 00:13:33.369
+Patrik: because now it's just the one file, one big work flow swapping between alleys and Faber.
+
+75
+00:13:33.420 --> 00:13:34.810
+Patrik: So
+
+76
+00:13:34.970 --> 00:13:41.830
+Patrik: it might be cleaner to to be able to look at a singular role like, okay, what is Alice doing? Okay, what is Faber doing
+
+77
+00:13:42.510 --> 00:13:45.979
+Patrik: separately? Not not having them mixed up?
+
+78
+00:13:47.180 --> 00:13:55.730
+Patrik: Yeah. So that that means some final chop touches there and will be ready for review. And then I saw that book them.
+
+79
+00:13:56.340 --> 00:14:06.669
+Patrik: You just open the pr this morning, I believe. With a ledger trade refactoring. So actually, I had a question about this.
+
+80
+00:14:07.600 --> 00:14:14.459
+Patrik: II guess it relates to like, maybe credit. And like all the type duplication across the
+
+81
+00:14:14.490 --> 00:14:16.939
+Patrik: the the crates. But
+
+82
+00:14:17.080 --> 00:14:28.869
+Patrik: see that you you've added the the kind of this types. So II wonder what? Why is that? Since.
+
+83
+00:14:29.290 --> 00:14:40.749
+Patrik: now, we only have one implementation for the yeah, I wasn't really sure whether, like, is that actually wanted to ask about that thanks for bringing it up. But.
+
+84
+00:14:40.870 --> 00:14:49.989
+Bogdan Mircea: Millie, I wanted to know whether we are gonna keep this as the only implementation at least needed for the upcoming future.
+
+85
+00:14:50.140 --> 00:14:57.260
+Bogdan Mircea:  basically added that like I said, I know in the event that we're gonna
+
+86
+00:14:57.940 --> 00:15:04.390
+Bogdan Mircea: have additional implementations. And I guess it also boils down to the fact that
+
+87
+00:15:04.550 --> 00:15:06.990
+Bogdan Mircea: if there is.
+
+88
+00:15:07.800 --> 00:15:12.369
+Bogdan Mircea: I don't know it kind of allows people to come up with their own implementation.
+
+89
+00:15:12.670 --> 00:15:16.690
+Bogdan Mircea: for with, like, you know, containing different types as well.
+
+90
+00:15:17.740 --> 00:15:22.379
+Bogdan Mircea: I don't know if that would necessarily be something we need. But
+
+91
+00:15:22.660 --> 00:15:28.950
+Bogdan Mircea: I was basically just kind of sticking to the original plan. But it's definitely not
+
+92
+00:15:29.520 --> 00:15:33.539
+Bogdan Mircea: and not something that's vital.
+
+93
+00:15:33.550 --> 00:15:50.949
+Patrik: In in my opinion, I mean, like right now, there's the only the only ledger implementation like widely available in in the ecosystem. Is it in the Vdr. If we don't vdr tools which we just what we don't know.
+
+94
+00:15:50.980 --> 00:16:03.360
+Patrik: so II don't see like a anytime soon that there will be alternative implementation, but at the same time I don't know, not not strongly against it, but at the same time I don't. I don't see the need, either.
+
+95
+00:16:04.080 --> 00:16:04.990
+Bogdan Mircea: Fair enough.
+
+96
+00:16:06.520 --> 00:16:13.709
+Bogdan Mircea: Okay? Yeah. I'll swap it out then. And another kind of aspect of the Pr. Which I
+
+97
+00:16:14.120 --> 00:16:23.929
+Bogdan Mircea: want to do it at same time, because it's it would be hard to do it otherwise, or just annoying to do it. Otherwise it's kind of getting rid of some of the arcs.
+
+98
+00:16:24.560 --> 00:16:35.980
+Bogdan Mircea:  maybe relying more on generics rather than  Yeah, trade objects. And
+
+99
+00:16:36.650 --> 00:16:41.140
+Bogdan Mircea: yeah, so I've spent quite some time thinking how to go about this
+
+100
+00:16:41.150 --> 00:16:57.139
+Bogdan Mircea: and there's also kind of an aspect of why the the trade for the types was there. So it allowed for more flexibility. But like, I said. It's not. It wasn't. I'm not. I don't have a strong opinion on that, so I'll I'll remove that
+
+101
+00:16:57.190 --> 00:16:59.170
+Patrik: for now.
+
+102
+00:16:59.330 --> 00:17:19.640
+Patrik: I guess so the art removal. II see you kinda did it for the profiles. Just fine. Maybe just keep in mind that like profiles is actually like a very unimportant code, because it's just for testing right now, and we might even get rid of that, I think, in the future. But
+
+103
+00:17:20.430 --> 00:17:21.980
+Patrik: but
+
+104
+00:17:22.310 --> 00:17:38.619
+Patrik: the maybe maybe the arcs could be removed, for I mean, the arcs are all over the place in the code base. So there's definitely space to for for changing that into general rates. And and I think that makes sense, because
+
+105
+00:17:38.650 --> 00:18:04.290
+Bogdan Mircea: we know pretty well at compile time what kind of thing we gonna plug in. So there's not really, there is not really need for the like runtime flexibility. Yeah, most agents are just gonna run on like one implementation of the types of the traits. So there's really not that much of a benefit of having the trade objects around. And even if you wanted trade objects, the arcs aren't really
+
+106
+00:18:04.460 --> 00:18:09.430
+Bogdan Mircea: doing anything like you'll see, or other instances where you take a reference to an art
+
+107
+00:18:09.510 --> 00:18:15.229
+Bogdan Mircea: and object which is simply, why would you simply not take a reference instead.
+
+108
+00:18:15.890 --> 00:18:18.189
+Patrik: like a direct reference. It's a
+
+109
+00:18:18.320 --> 00:18:20.950
+Patrik: smaller pointer.
+
+110
+00:18:21.160 --> 00:18:23.679
+Bogdan Mircea: But yeah, nevertheless, I'm I'm kinda trying to get
+
+111
+00:18:24.050 --> 00:18:38.839
+Bogdan Mircea: get those removed. And it's not really straightforward, but it's work in progress. And I figured it would be a good opportunity to kind of do it at the same time, since I'm walking through all this ledger code.
+
+112
+00:18:40.510 --> 00:18:42.130
+Bogdan Mircea: And yep.
+
+113
+00:18:43.830 --> 00:18:46.460
+Patrik: right? I see. Alright. Alright
+
+114
+00:18:47.950 --> 00:18:53.260
+Patrik: but I guess there's still gonna be art like I don't think we can
+
+115
+00:18:53.620 --> 00:18:58.259
+Patrik: get by without without them. Right? I think, in general.
+
+116
+00:18:58.460 --> 00:19:04.039
+Patrik: Or is that? Let me let me think. Yeah, usually it's
+
+117
+00:19:06.560 --> 00:19:15.679
+Patrik: or I guess, on a top or level of the coat, you might end up with arcs, but maybe not vin Irish, Vc. X. Indeedya. That might be superfluous.
+
+118
+00:19:15.970 --> 00:19:28.670
+Bogdan Mircea: I mean, you could have it for the profile. Because you wanna swap these profiles, you know, depending on feature flags, so you can test whatever combinations of the traits, but
+
+119
+00:19:28.800 --> 00:19:34.000
+Bogdan Mircea: it doesn't matter if the the things that are wrapped in the profile are
+
+120
+00:19:34.480 --> 00:19:48.800
+Bogdan Mircea: you know. trade objects are not as much as it matters that the profile itself is a trade object, cause you wanna swap them out. But even then I don't know if you necessarily need that
+
+121
+00:19:48.890 --> 00:19:55.940
+Bogdan Mircea:  since it's not like you work with multiple profiles. At the same time, I think
+
+122
+00:19:57.940 --> 00:20:10.140
+Patrik: I mean, the the profiles really doesn't matter much. Just the Co. I'm more thinking of those like when you're passing wallets like baseball at some work.
+
+123
+00:20:10.240 --> 00:20:11.970
+Patrik: Is it gonna be?
+
+124
+00:20:12.170 --> 00:20:19.540
+Patrik: It? It doesn't need to be an arc. II guess not, I guess. Well.
+
+125
+00:20:19.880 --> 00:20:29.440
+Bogdan Mircea: even if have multiple implementations, one or more physician takes care of, it doesn't have to be trade object. I'm I'm just thinking if it needs to be
+
+126
+00:20:29.830 --> 00:20:43.890
+Bogdan Mircea: I don't think it needs to be shared either. That's what that was when I was what I was saying, that in all of these places you're pretty much just passing references to these objects, and because they're marked to be like the interfaces are designed to be both sent in sync
+
+127
+00:20:44.150 --> 00:20:48.779
+Bogdan Mircea: you should be able to just send a reference like that.
+
+128
+00:20:49.210 --> 00:21:00.060
+Bogdan Mircea:  and there's really no point in having stuff like like the code. A lot of these things are pretty much meant to run sequentially. So
+
+129
+00:21:00.310 --> 00:21:01.530
+Bogdan Mircea: it's not like
+
+130
+00:21:02.210 --> 00:21:04.690
+you would be spawning tasks.
+
+131
+00:21:05.450 --> 00:21:14.920
+Patrik: you know, in the middle of a protocol doing different things based on the wallet or anything like that. I honestly don't think so. Well.
+
+132
+00:21:15.140 --> 00:21:28.729
+Patrik: I think I think ultimately the art will be on like the proper lovers of the code like in. I don't think you can get by without it, because typically, how will it? And you're running
+
+133
+00:21:29.120 --> 00:21:38.140
+Patrik: like pool of threads, and you're sharing the wall with all the threats. I think. There, there's not really a way around it.
+
+134
+00:21:40.350 --> 00:21:46.689
+Yeah, I don't know. Like I said II spent a lot of time thinking about it, and I couldn't really figure out all the
+
+135
+00:21:46.850 --> 00:21:51.680
+Bogdan Mircea: all the details. So I'm basically just working it out slowly.
+
+136
+00:21:51.730 --> 00:22:01.900
+Patrik: Okay, we'll see one more question for you is, Well, the if you manage to have a look at the the the critics
+
+137
+00:22:02.120 --> 00:22:04.940
+Patrik: missing feature with the pro request.
+
+138
+00:22:05.830 --> 00:22:11.260
+Bogdan Mircea:  yeah, I didn't have that close of a look.
+
+139
+00:22:11.830 --> 00:22:13.090
+Bogdan Mircea: so
+
+140
+00:22:14.220 --> 00:22:20.050
+Bogdan Mircea: like I said II don't know exactly the urgency of that, but if it's urgent I can focus on that first.
+
+141
+00:22:20.110 --> 00:22:27.119
+Patrik: I would prioritize it, I guess, because you know the the, the
+
+142
+00:22:27.490 --> 00:22:38.230
+Patrik: actually huge value, if we can, the the exam enable us to migrate to the credentials, and can read up the next 40,000 lines of code.
+
+143
+00:22:38.950 --> 00:22:45.630
+Patrik: Alright, I'll I'll just so on a high level. It doesn't seem like it's gonna be
+
+144
+00:22:45.870 --> 00:22:47.390
+Bogdan Mircea: hard to deal with.
+
+145
+00:22:47.530 --> 00:22:50.890
+Bogdan Mircea:  But
+
+146
+00:22:53.720 --> 00:22:56.809
+Patrik: yeah, I think it won't be a huge deal.
+
+147
+00:22:57.240 --> 00:22:58.070
+right?
+
+148
+00:22:58.200 --> 00:23:05.250
+Patrik: Probably just some missing handling for the for the parameter, and some some processing something like that.
+
+149
+00:23:05.690 --> 00:23:13.870
+Patrik: Okay? Well, that kind of bring us to the end before I like ask for any more
+
+150
+00:23:14.040 --> 00:23:19.910
+Patrik: wider discussion. I want to just get back to 9
+
+151
+00:23:20.120 --> 00:23:26.530
+Patrik: and would you like to give short update on the project? I did one short for you, but
+
+152
+00:23:26.560 --> 00:23:33.739
+Patrik: it will be better from your, you know, from your your voice, and you put the effort to come here. So
+
+153
+00:23:35.210 --> 00:23:39.729
+Naian: yes, sure, I can give a small update.
+
+154
+00:23:41.380 --> 00:23:45.529
+Naian: can you share my screen awesomely. Yeah, I'll stop sharing.
+
+155
+00:23:52.440 --> 00:23:57.610
+Naian: Okay, so is, is my screen visible? I hope it is.
+
+156
+00:23:58.320 --> 00:24:04.450
+Naian: Yes, so this is the update for the Eightys, Vc. X. Mediator project.
+
+157
+00:24:04.630 --> 00:24:08.619
+Naian: So last couple of weeks, what we have done is this.
+
+158
+00:24:08.920 --> 00:24:21.680
+Naian: I've been starting to work on an Aries agent. So this past week I've been able to initialize an Aries agent and create a wallet, basically using Aries, Vc, X.
+
+159
+00:24:22.230 --> 00:24:23.839
+Naian: Another thing that we have
+
+160
+00:24:24.010 --> 00:24:29.280
+Naian: completed is the mediator. So like
+
+161
+00:24:29.570 --> 00:24:31.229
+Naian: I just
+
+162
+00:24:32.260 --> 00:24:46.639
+Naian: made a Pr and had it reviewed by Patrick. The Mediator is in a good state now. It's workable, and it's demoable like, you can actually pass a Http request to the media Endpoint and get
+
+163
+00:24:46.710 --> 00:24:55.809
+Naian: valid pickup protocol request responses or valid forward message responses or
+
+164
+00:24:55.990 --> 00:25:03.270
+Naian: valid mediator coordination protocol responses. So 3 different protocols have now been implemented in the Mediator code.
+
+165
+00:25:03.380 --> 00:25:17.149
+Naian: So that's where we are at in the completed parts of this project the third part is like, now, what's happening is we are creating an Aries agent. So yes,
+
+166
+00:25:17.440 --> 00:25:26.229
+Naian: it. It's going a bit slowly now. Because, like, we are new territory now, like moving from the mediator protocols to actual eighties.com.
+
+167
+00:25:26.430 --> 00:25:44.749
+Naian: So this is where we are at on the Aries agent part out of board, meth out of band messages. So the first thing that 2 Aires agents are going to do while trying to talk to each other is, one of them is going to send an invite, and the other is going to accept that invite and send a connection request.
+
+168
+00:25:45.280 --> 00:25:49.230
+Naian: So the first part that's creating the invite.
+
+169
+00:25:49.480 --> 00:25:52.479
+Naian: That is what I've completed this week.
+
+170
+00:25:52.550 --> 00:25:56.419
+Naian: So I've completed creation of an outer band.
+
+171
+00:25:56.560 --> 00:26:09.250
+Naian: invite, and being able to print it on screen. So on the agent friend, we are right now on really Alpha Alpha stage. So we're just getting started. But we have gotten here.
+
+172
+00:26:09.390 --> 00:26:18.010
+Naian: The next part is going to be to accept that invite. So the client-side part of the code is going to be, accept the invite, and send
+
+173
+00:26:18.580 --> 00:26:22.780
+Naian: a connection. Request to the Mediator. So this is going to be done soon.
+
+174
+00:26:24.360 --> 00:26:38.329
+Naian: This part, that is the accept the invite and send. That's going to be done soon, and of course, the part after that is going to be the media is going to see that. Okay, I have connection. Request. Why don't I save the very key of that connection request.
+
+175
+00:26:38.550 --> 00:26:44.020
+Naian: After doing the exchange, of course the Hello Exchange. After that it'll save
+
+176
+00:26:44.030 --> 00:26:50.399
+Naian: the authentication very key, as the Auth Pubkey, so that the agent can then later make.
+
+177
+00:26:50.560 --> 00:26:58.199
+Naian: Mediator requests. okay. so why are we doing all of this? In the first place.
+
+178
+00:26:58.240 --> 00:27:03.909
+Naian: the goal right now is to create an agent using agevcx. Why, I'll be doing this.
+
+179
+00:27:04.120 --> 00:27:08.350
+Naian: So, as I said that I've just finished of
+
+180
+00:27:08.460 --> 00:27:12.880
+Naian: a sort of Mvp. Mediator with speaks C protocols.
+
+181
+00:27:12.910 --> 00:27:24.759
+Naian: Now, what this agent is going to do is it's going to talk Aries. That's the Didcom protocol. And it's going to help the mediator talk with different Aries peers.
+
+182
+00:27:25.180 --> 00:27:27.430
+Naian: So right now the mediator is only
+
+183
+00:27:27.480 --> 00:27:33.660
+Naian: talking Http and simple Json. There's no authentication layer. There's no encryption
+
+184
+00:27:33.680 --> 00:27:41.949
+Naian: what Aries agent is going to do. It's going to act like a proxy in between the mediator and the other peers. And it's going to talk. The
+
+185
+00:27:42.030 --> 00:27:43.130
+Naian: it is.
+
+186
+00:27:43.210 --> 00:28:01.289
+Naian: Did com protocols, and it's going to handle the encryption, the authentication, and all of that. And then, when it sees that okay, this agent, this client agent, is trying to talk some mediation related stuff is going to pass on those particular messages back to the mediator.
+
+187
+00:28:02.430 --> 00:28:07.200
+Naian: So yeah, that is why we are creating this new Aries agent from scratch.
+
+188
+00:28:07.450 --> 00:28:10.890
+Naian: And another goal for this neweries agent is
+
+189
+00:28:11.360 --> 00:28:24.520
+Naian: to act like a cli demo. Right now it is Vc. X. Is in a good state, is working and everything so. But there seems to be not a example, Demo, that people can actually directly use.
+
+190
+00:28:24.750 --> 00:28:25.700
+Naian: So
+
+191
+00:28:25.910 --> 00:28:38.400
+Naian: a sub goal, an optional goal of this agent is going to be making an executable that people can actually run and try out different areas. Messages?
+
+192
+00:28:39.620 --> 00:28:45.240
+Naian: Yes. So this is where we are right now. Yeah, thank you.
+
+193
+00:28:46.610 --> 00:28:58.610
+Patrik: It's very nice presentation. I see you prepared for your report. It's it's great.  yeah. So
+
+194
+00:29:00.510 --> 00:29:08.580
+Patrik: we are. I think we are pretty like well on track with actually with the project plan. and
+
+195
+00:29:09.020 --> 00:29:14.980
+Patrik: we might even have some extra. I feel like we might even have some extra time I told the
+
+196
+00:29:15.160 --> 00:29:16.540
+Patrik: end of the
+
+197
+00:29:17.320 --> 00:29:28.629
+Patrik: project for some like extra improvements. Maybe maybe we'll manage to. Then those web sockets and stuff like them. We I think about more, but
+
+198
+00:29:29.210 --> 00:29:36.280
+Patrik:  about scalability, and especially in regards with those notifications
+
+199
+00:29:36.590 --> 00:29:39.230
+Patrik: about new incoming messages.
+
+200
+00:29:39.850 --> 00:29:44.529
+Patrik: Yeah. So that's that's great. And
+
+201
+00:29:44.760 --> 00:30:01.580
+Patrik: just one more. Just one thing before before that I just wanted to actually ask you. II was looking into, I guess, number of places. Did you have a look at the demo I was, I I've created. I've created
+
+202
+00:30:02.580 --> 00:30:09.480
+Naian: the Pr that you sent. Yeah, yeah, that's right. There's this.
+
+203
+00:30:10.550 --> 00:30:18.110
+Patrik: There is this review. I can't find it right now.
+
+204
+00:30:19.620 --> 00:30:26.419
+Patrik: There is this example. Yeah, this this Pr over here. So I think this can be a
+
+205
+00:30:26.560 --> 00:30:29.080
+Naian: very helpful career
+
+206
+00:30:30.700 --> 00:30:36.840
+Naian: my screen was being shared. So I think, oh, yeah, I'm not sharing screen. That's right.
+
+207
+00:30:37.600 --> 00:30:44.830
+Patrik: Yeah, yeah. This one. I was linking it somewhere, I suppose. Did you have a chance to to see this?
+
+208
+00:30:45.320 --> 00:31:01.190
+Patrik: No, this is the first time I'm seeing this. Actually, I thought other Pr, on which you mentioned me. Not this one. Okay. So you know, today, tomorrow, have a look at it. I think it can be very helpful. Essentially.
+
+209
+00:31:01.390 --> 00:31:07.580
+Patrik: it's essentially one file demo which is establishing connection between the 2 parties, and
+
+210
+00:31:07.840 --> 00:31:19.959
+Patrik: they use a met. They use this very simple mediator relay, like primitive mediator essentially between them. So there is networking.
+
+211
+00:31:20.130 --> 00:31:26.199
+Patrik: They are sending messages each other on their you know, Http and on their Didcom endpoints.
+
+212
+00:31:26.320 --> 00:31:32.619
+Patrik: and then they're fetching the messages and whatever the messages you know, whenever the messages received.
+
+213
+00:31:32.730 --> 00:31:41.869
+Patrik: there's like the decryption part, and then they process, you know, use the connection State machine to to process
+
+214
+00:31:42.280 --> 00:31:47.220
+Patrik: to process it and respond. So
+
+215
+00:31:47.690 --> 00:31:52.050
+Patrik: yeah, I have a look at it, and I think you might might get some
+
+216
+00:31:53.910 --> 00:31:56.380
+Patrik: inspiration.
+
+217
+00:31:58.650 --> 00:32:06.419
+Naian: Yes, of course, I mean that that looks like a really nice starting point to look at how I might be able to implement the
+
+218
+00:32:06.480 --> 00:32:10.959
+Naian: agent. But yes, thank you. I'll take a look definitely at this.
+
+219
+00:32:10.990 --> 00:32:13.780
+Patrik: Hmm! You had some questions of your own.
+
+220
+00:32:14.350 --> 00:32:17.269
+Naian: Yes, I had more like
+
+221
+00:32:17.840 --> 00:32:21.680
+Naian: thoughts and requests. So
+
+222
+00:32:22.510 --> 00:32:31.680
+Naian: right now. The mediator is in a I believe, a good and Mvp. Stage, that is, it's it's doing what it's supposed to. You can
+
+223
+00:32:32.060 --> 00:32:45.489
+Naian: talk to it. Using those 3 protocols, and it's going to respond appropriately. And it's going to also do the functionality that's saving the forward messages. Let's say in a database, and then giving them back when someone
+
+224
+00:32:46.550 --> 00:32:55.070
+Naian: who is supposed to receive them. As for them, so it's in a good stage right now, so can we have some sort of
+
+225
+00:32:55.220 --> 00:32:59.980
+Naian: Http endpoint where people can actually try it out. Live
+
+226
+00:33:00.340 --> 00:33:12.169
+Naian: right now. I'm just doing it on local host on my PC. But if you can have it on the Internet, then I think it'd be nice for live testing. And just as a demo.
+
+227
+00:33:12.350 --> 00:33:25.229
+Patrik: let's see I guess, like a simple them you you could do a simple deployment of your own. I can guide you. There is a free tier
+
+228
+00:33:25.290 --> 00:33:29.950
+Patrik: servers on aws, or
+
+229
+00:33:30.160 --> 00:33:37.660
+Patrik: something like digital ocean. I don't. I'm not sure they have free tier, but definitely, there's some free tier on
+
+230
+00:33:38.540 --> 00:33:40.040
+Patrik: on. Aw.
+
+231
+00:33:40.170 --> 00:33:45.300
+Patrik: so you can actually spin up a server for free. You get the public IP,
+
+232
+00:33:45.450 --> 00:33:51.970
+Patrik: obviously, if you want to do. And then you could just you know, deploy a docker container.
+
+233
+00:33:52.120 --> 00:33:53.839
+Patrik: I guess 2 of them
+
+234
+00:33:54.190 --> 00:34:08.880
+Patrik: as a question is, if it's gonna be able to run, I mean, it's really mean. I guess you know, minimal server. Not 100% sure if it's gonna be enough for like 2 docker containers, my sequel and this but
+
+235
+00:34:09.190 --> 00:34:19.320
+Patrik: given I guess, especially in terms of like the memory that can be the only constraint I mean, there won't be any heavy CPU processing
+
+236
+00:34:19.600 --> 00:34:23.209
+Patrik: right? But you can try it, and
+
+237
+00:34:23.889 --> 00:34:33.310
+Patrik: it can give. It can be a good experience for you to with the cloud, you know. Have you ever have? Did you ever have any cloud experience.
+
+238
+00:34:33.550 --> 00:34:46.269
+Naian: Yes, I have hosted multiple services on aws Cloud. So I'm quite familiar with using docker and even bare metal hosting Vps, hosting.
+
+239
+00:34:46.320 --> 00:34:59.339
+Naian: So, yeah, I mean, I have experience with that. I've hosted some free and false services online. Right? So I guess it's a problem. If you need any help, I'll be happy to to guide you.
+
+240
+00:34:59.580 --> 00:35:00.970
+Patrik: Oh.
+
+241
+00:35:01.560 --> 00:35:02.860
+Naian: yeah. So
+
+242
+00:35:03.020 --> 00:35:05.790
+Patrik: I would just do that. But then
+
+243
+00:35:06.680 --> 00:35:10.280
+Naian: alternative to that.
+
+244
+00:35:11.010 --> 00:35:13.160
+Naian: you know.
+
+245
+00:35:13.270 --> 00:35:15.310
+Patrik: Well, I mean, that would be kind of
+
+246
+00:35:15.410 --> 00:35:30.579
+Patrik: wouldn't be great, I guess, because you'll end up only with IP address. And it's gonna be Http unless you also deploy engine X and certificates. And then it's like a lot more work. Suddenly.
+
+247
+00:35:30.650 --> 00:35:31.760
+Naian: Okay.
+
+248
+00:35:32.000 --> 00:35:38.720
+Patrik: but I could deploy. I guess if you give us a docker container.
+
+249
+00:35:38.800 --> 00:35:50.290
+Patrik: I could, and maybe docker compose. If you can give me a you know, produce in your repo. Firstly, the docker, con docker, docker images that are needed.
+
+250
+00:35:50.380 --> 00:35:55.429
+Patrik: and Docker compose to spin it all up. So my sequel, plus
+
+251
+00:35:55.670 --> 00:36:05.620
+Patrik: the mediator. Then I could host it for you actually on like https domain under the indiscent dot. I/O
+
+252
+00:36:06.760 --> 00:36:09.990
+Naian: alright great! I will get on to that.
+
+253
+00:36:10.270 --> 00:36:20.660
+Naian: Like as I make progress on the Asian part, I will also, like Parally, try to create the images and accompanose. It should be fairly easy, I think, because I'm already running them
+
+254
+00:36:20.750 --> 00:36:27.029
+Naian: as like the database paths. I'm running them using Docker. So yeah, I just have to
+
+255
+00:36:27.550 --> 00:36:31.860
+Naian: package the binary.
+
+256
+00:36:34.000 --> 00:36:37.040
+Naian: Yes, great. I'll do that. Thank you.
+
+257
+00:36:37.190 --> 00:36:38.030
+Patrik: Umhm.
+
+258
+00:36:39.690 --> 00:36:42.600
+Patrik: Do you have any any other questions or
+
+259
+00:36:43.140 --> 00:36:56.470
+Naian: yes, the second one was just a thought that since the mediators in like kind of workable state Swapnes project, which is going to create the client part, basically on android
+
+260
+00:36:56.660 --> 00:37:02.209
+Naian: like, if they want to use this mediator as a kind of testing
+
+261
+00:37:02.290 --> 00:37:17.770
+Naian: place to kind of try the client side interactions. Then they can do that. Of course it's not going to be over 80 s. Right now. It is still in progress, but if they want to try just talking to some endpoints over simple Http. No encryption.
+
+262
+00:37:17.770 --> 00:37:32.869
+Patrik: Hmm, okay, I'll I'll make sure that it's communicated and propagated to to George and soft know mainly I think, frankly, I think they are still like busy with other stuff. And
+
+263
+00:37:33.110 --> 00:37:41.359
+Patrik: I think they want to keep things simple. So they gonna they are starting with that just starting with a simple message, relay, basically the same thing like
+
+264
+00:37:41.690 --> 00:37:50.440
+Patrik: the demo areas. V, 6, demo, I was showing you is based on the same thing. Same simple manager  but
+
+265
+00:37:51.570 --> 00:37:59.299
+Patrik:  and I think, like they're actually basically the the project, the the Ffi project is
+
+266
+00:37:59.870 --> 00:38:08.840
+Patrik: a bit behind the schedule, so there might actually be for for you a space to perhaps
+
+267
+00:38:09.040 --> 00:38:15.350
+Patrik: contribute. You know the client for your mediator, and then
+
+268
+00:38:15.680 --> 00:38:28.630
+Patrik: and then I know perhaps even the integration. If they do the simple, maybe you know the simple reli. Maybe you could kind of help them out and upgrade it to your mediator if you would like to.
+
+269
+00:38:28.700 --> 00:38:47.200
+Naian: But I guess after we we should, we should coordinate with with George and swap now first, so they may be doing the app part, and then they could probably use the binary agent that they'll be writing. They'll be writing a sort of client, anyway, to test the
+
+270
+00:38:47.410 --> 00:39:08.600
+Naian: server. So like the same client could probably use using unify on the android side. So yeah, that kind of serve as a dual purpose. And and also it will be great if you, you know, deploy it well, if we deploy it together share shared afford. Then.
+
+271
+00:39:08.690 --> 00:39:16.130
+Patrik: they could just use it there. They wouldn't have to deal with like deploying right? They could just test against an existing deployment.
+
+272
+00:39:16.820 --> 00:39:17.620
+Naian: Yes.
+
+273
+00:39:19.020 --> 00:39:27.559
+Naian: yeah. So I guess by the end of the month we'll see how that goes. You know what? I have an idea how we can do this actually
+
+274
+00:39:28.450 --> 00:39:39.700
+Patrik: within, in terms of deployment you will give you. Can deploy on a server. You give me IP and port you know that kind of
+
+275
+00:39:40.230 --> 00:39:49.950
+Patrik: uncomplete deployment without https, and then I can provide you a load balancer with domain, and just point it, you know, to your IP.
+
+276
+00:39:50.060 --> 00:39:54.839
+Patrik: So then we could have a domain, and at the same time you would have a
+
+277
+00:39:54.920 --> 00:40:02.110
+Patrik: full control over the deployments you could redeploy, you know. You can really take care of the service itself.
+
+278
+00:40:02.260 --> 00:40:05.609
+Patrik: I would be just kind of a whole you know.
+
+279
+00:40:05.670 --> 00:40:09.010
+Patrik: domain name. And Ssl Provider for you.
+
+280
+00:40:09.540 --> 00:40:23.200
+Naian: Right? Yeah, that's also interesting. So just a question does Linux Foundation or Hyper Ledger foundation provide some sort of free vps sort of situation for testing stuff.
+
+281
+00:40:23.510 --> 00:40:27.150
+Patrik:  unfortunately.
+
+282
+00:40:31.830 --> 00:40:36.779
+Naian: I mean, rather than using aws or digital ocean like, if Hyper Ledger has
+
+283
+00:40:37.100 --> 00:40:42.130
+Naian: some sort of thing to host projects then like that could use directly.
+
+284
+00:40:42.160 --> 00:40:45.849
+Patrik: I'm not aware of it. But I'll I'll check
+
+285
+00:40:46.810 --> 00:40:48.220
+Naian: correct. Yes.
+
+286
+00:40:48.610 --> 00:40:52.030
+Naian: yeah. In the meanwhile, I'll create the docker
+
+287
+00:40:52.130 --> 00:40:56.120
+Naian: stuff, the packaging and compose. Yeah.
+
+288
+00:40:57.720 --> 00:40:59.750
+Patrik: Okido key.
+
+289
+00:41:00.460 --> 00:41:11.790
+Patrik:  yeah, I guess that that's we exhausted. Or do you have? Do you have any any more points you would like to go through?
+
+290
+00:41:12.280 --> 00:41:21.339
+Patrik: No, that's it. Thank you. So just to, I guess. Then, to conclude our this community call
+
+291
+00:41:21.840 --> 00:41:25.800
+Patrik: any other discussion, maybe from anything from you, Bogdan?
+
+292
+00:41:27.770 --> 00:41:31.110
+Patrik: No, nothing from my side.
+
+293
+00:41:31.790 --> 00:41:46.240
+Patrik: So yeah, we have some. I added this new section here. I mean, it was here before then it was gone, and we had a back back clog before kinda evaporated over time and things got completed created to do again. So
+
+294
+00:41:46.390 --> 00:41:50.389
+Patrik: we should do the the names pre request. And
+
+295
+00:41:50.890 --> 00:41:56.930
+Patrik: we should also do this one. The 2 items within the quote talking about last last week
+
+296
+00:41:57.430 --> 00:42:11.080
+Patrik: just a question if one is the right time, because there's lots of, you know, turbulence right now in a repo lots of refactoring here and there. I don't know. Maybe we can do it kind of per component which we know
+
+297
+00:42:11.610 --> 00:42:20.900
+Patrik: for components where the component we know is gonna become a quiet. So we can afford to make kind of white
+
+298
+00:42:21.670 --> 00:42:25.179
+Patrik: a crane. White deltas there.
+
+299
+00:42:26.240 --> 00:42:38.659
+Patrik: But yeah, it's it's lots of lots of warnings at the compile time. So it's kind of doesn't look, doesn't look great. and also those directories. We should kind of at least foster marriage then. So we don't have
+
+300
+00:42:38.860 --> 00:42:42.809
+Patrik: 20 directories in the route. But I don't know. 6 5.
+
+301
+00:42:44.090 --> 00:42:51.950
+Patrik: Okay, that's that's that. I'm saving this Wikipedia page and
+
+302
+00:42:55.370 --> 00:42:57.460
+Patrik: and sharing
+
+303
+00:42:59.290 --> 00:43:03.410
+Patrik:  thank you for joining and have a good week.
+
+304
+00:43:04.670 --> 00:43:08.250
+Bogdan Mircea: Thank you. Thank you have a good one.
+

@@ -1,0 +1,123 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Meetings](Meetings_18481222.html)
+4. [Aries DIDCommV2 Working Group](Aries-DIDCommV2-Working-Group_18499949.html)
+
+# Hyperledger Aries : Aries DIDCommV2 Working Group 2023-01-23 meeting
+
+Created by Lance Byrd, last modified by Ry Jones on Feb 14, 2023
+
+## Zoom: [https://zoom.us/j/94626752608?pwd=K0t4N3VqRzlscTNYajlxMHNPM08yQT09](https://zoom.us/j/94626752608?pwd=K0t4N3VqRzlscTNYajlxMHNPM08yQT09)
+
+## Summary:
+
+- Introduction
+- Updates
+- AIP3
+- AATH
+
+## Date
+
+23 Jan 2023 (6AM Los Angeles, 9AM New York, 2PM London, 3PM CET, 17H Moscow)
+
+![](https://wiki.hyperledger.org/download/attachments/29034696/Antitrustnotice.png?version=1&modificationDate=1581695654000&api=v2)
+
+Hyperledger is committed to creating a safe and welcoming
+
+community for all. For more information
+
+please visit the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct).
+
+![](https://wiki.hyperledger.org/download/attachments/2392771/welcome.png?version=2&modificationDate=1572450107000&api=v2)
+
+## Attendees
+
+- [Lance Byrd](https://lf-hyperledger.atlassian.net/wiki/people/6346b13f754fb6b373b9af19?ref=confluence) (RootsID) &lt;lance.byrd@rootsid.com&gt;
+- [Rodolfo Miranda](https://lf-hyperledger.atlassian.net/wiki/people/557058:a5a62b78-cc75-4d00-80c0-df455129302a?ref=confluence) (RootsID)&lt;rodolfo.miranda@rootsid.com&gt;
+- [bruce\_conrad@byu.edu](https://lf-hyperledger.atlassian.net/wiki/people/5a305bc720cc34374b243891?ref=confluence) (Pico Labs) &lt;bruce\_conrad@byu.edu&gt;
+
+## Welcome / Introductions
+
+## Announcements
+
+Release Status and Work Updates
+
+- Aries Agent Test Harness ([https://aries-interop.info](https://aries-interop.info))
+- Aries Askar secure storage - [https://github.com/bcgov/aries-askar](https://github.com/bcgov/aries-askar)
+- Frameworks:
+  
+  - Aries-CloudAgent-Python ([https://github.com/hyperledger/aries-cloudagent-python,](https://github.com/hyperledger/aries-cloudagent-python,) Meetings: [ACA-Pug Meetings](ACA-Pug-Meetings_18484272.html))
+    
+    - Encryption envelope (Askar impl) not fully-developed yet. We could use different libraries (SICPA Rust). SICPA DIDComm impl is what will be used... resolves did peers natively. The keys will have to be transported out of Askar, but that is acceptable for now. SICPA is the most widely used.
+      
+      - SICPA for DIDComm and did:peer [https://github.com/sicpa-dlab/didcomm-python](https://github.com/sicpa-dlab/didcomm-python)
+      - No near-term Askar support for the DIDComm v2 encryption envelope and core protocols.
+    - Protocols related to credential exchange and connection establishment. Distinguish between DIDComm v1 and v2. DID Exchange will be adapted.  The main focus is on Out-of-Band protocol.
+    - Very important to extend the AATH.
+  - Aries-Framework-JavaScript ([https://github.com/hyperledger/aries-framework-javascript,](https://github.com/hyperledger/aries-framework-javascript,) Meetings: [Framework JS Meetings](Framework-JS-Meetings_18482467.html))
+    
+    - [https://github.com/hyperledger/aries-framework-javascript/pull/1096#issuecomment-1343833016](https://github.com/hyperledger/aries-framework-javascript/pull/1096#issuecomment-1343833016)
+    - [https://github.com/hyperledger/aries-framework-javascript/pull/1211](https://github.com/hyperledger/aries-framework-javascript/pull/1211)
+  - Picos as Aries agents (DIDComm v1: [https://github.com/Picolab/aries-cloudagent-pico](https://github.com/Picolab/aries-cloudagent-pico) ; DIDComm v2 work in progress)
+    
+    - students have returned and they are using SICPA for envelope encryption, pack/unpack and hopeful sending messages
+    - DIF Picos working group, useful for IoT devices
+  - Swift Framework
+  - Veramo Framework
+    
+    - WACI support [https://github.com/uport-project/veramo/issues/1106](https://github.com/uport-project/veramo/issues/1106)
+    - DID Peer support [https://github.com/uport-project/veramo/issues/1105](https://github.com/uport-project/veramo/issues/1105)
+- Mobile:
+  
+  - Aries Mobile Agent React Native, aka Aries Bifold ([https://github.com/hyperledger/aries-mobile-agent-react-native,](https://github.com/hyperledger/aries-mobile-agent-react-native,) Meetings: [Aries Bifold User Group Meetings](Aries-Bifold-User-Group-Meetings_18490725.html))
+- [aries-mediator-service](https://github.com/hyperledger/aries-mediator-service) – a DIDComm Mediator in a Box
+  
+  - working on Pickup support
+- AviaryTech DIDComm TS impl
+  
+  - [https://github.com/aviarytech/didcomm](https://github.com/aviarytech/didcomm)
+  - [https://github.com/aviarytech/did-peer](https://github.com/aviarytech/did-peer)
+
+## Discussion Topics
+
+Aries Agent Test Harness
+
+- Current DIDComm-V2 specific tests:
+  
+  **DIDComm-V2 tests**
+  
+  ```
+  aries-agent-test-harness % ./manage tests --tags @DIDComm-V2 
+Selecting: ['@DIDComm-V2']
+
+Feature: WACI Issuance
+ @T001-IssueCredentialV3 @DIDComm-V2 - WACI issuance flow
+
+Feature: DIDComm V2 Establishing Connections
+ @T001-OobV2 @DIDComm-V2 - Establish a connection between two agents using DIDComm V2
+
+Feature: Aries agent present proof v3
+ @T001-PresentProofV3 @DIDComm-V2 - Present Proof of specific types and proof is acknowledged with a Citizenship credential type with a DID Exchange Connection
+  ```
+- New tag in AATH that are not credential related, maybe:
+  
+  - DIDCommV2\_Peer
+  - DIDCommV2\_Simple
+  - Didcommv2\_base
+  - Didcommv2\_layer2
+- See [https://github.com/tdiesler/aries-agent-test-harness/tree/camel/aries-backchannels/camel#aip-10-status](https://github.com/tdiesler/aries-agent-test-harness/tree/camel/aries-backchannels/camel#aip-10-status)
+
+AIP3
+
+- [HackMD from the last Aires WG meeting, regarding AIP 3.0](https://hackmd.io/_Kkl9ClTRBu8W4UmZVGdUQ)
+
+Grand Unified Theory (GUT) Alliance
+
+- There is a warning about did peer on the spec now [https://identity.foundation/peer-did-method-spec/](https://identity.foundation/peer-did-method-spec/)
+- [https://daniel-hardman.medium.com/sentries-confessionals-vaults-and-envelopes-4a58cf4f8a5a](https://daniel-hardman.medium.com/sentries-confessionals-vaults-and-envelopes-4a58cf4f8a5a)
+- original did keri impl [https://github.com/WebOfTrust/ietf-did-keri](https://github.com/WebOfTrust/ietf-did-keri)
+  
+  - Needs to transition to a did keri lite (subset of did keri)
+  - Signify is a typescript impl that might serve as the the keri lite impl
+- Newer than even AIP3.0. KERI and DIDComm v3.0 (likely)
+- Link to Daniel’s GUT presentation:

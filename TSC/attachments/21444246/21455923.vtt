@@ -1,0 +1,1642 @@
+WEBVTT
+
+1
+00:01:37.680 --> 00:01:56.880
+Tracy Kuhrt: Welcome everybody to the march 31 hyper ledger tlc call, as you are all aware, two things you must abide by the first one is the antitrust policy notice that is currently displayed on the screen and the second is our code of conduct, which is linked in the agenda.
+
+2
+00:01:59.790 --> 00:02:05.940
+Tracy Kuhrt: yeah I think everybody else everybody here knows what the deal is there, so let's get to the announcements.
+
+3
+00:02:06.870 --> 00:02:15.390
+Tracy Kuhrt: As always, the Dev weekly developer newsletter goes out each Friday, if you have any anything that you'd like to add, for your project or your lab or.
+
+4
+00:02:15.750 --> 00:02:21.780
+Tracy Kuhrt: Anything that's interesting for developers, please add that to the wiki page that's linked in the agenda.
+
+5
+00:02:22.440 --> 00:02:42.240
+Tracy Kuhrt: And the second announcement that we have is the hyper ledger global forum is looking still looking for CFP the CFP process closes on the 29th of April, so if you have a topic that you'd like to possibly discuss Please go ahead and add that to the.
+
+6
+00:02:44.040 --> 00:02:45.360
+Tracy Kuhrt: tcp port.
+
+7
+00:02:47.100 --> 00:02:57.480
+Hart Montgomery: htc yeah thanks sorry to interrupt, I just wanted to add to this that we are also looking for PC members for the Global Forum.
+
+8
+00:02:58.530 --> 00:03:09.090
+Hart Montgomery: and ideally we'd like to select this pool from people like tasc members, and you know i'd say very core maintainer.
+
+9
+00:03:10.140 --> 00:03:17.790
+Hart Montgomery: So, if anyone in this group is interested, we would love to hear from you and we will be reaching out to people as well.
+
+10
+00:03:19.140 --> 00:03:22.140
+Hart Montgomery: So be on the lookout for that and.
+
+11
+00:03:23.490 --> 00:03:26.730
+Hart Montgomery: You know we will talk to people as well.
+
+12
+00:03:29.370 --> 00:03:37.410
+Tracy Kuhrt: Right So yes, the call for program committee volunteers coming soon I guess it means today you've just been called if you're interested.
+
+13
+00:03:38.430 --> 00:03:42.330
+Tracy Kuhrt: So please reach out I guess what to you directly work.
+
+14
+00:03:42.660 --> 00:03:47.160
+Hart Montgomery: Sure yeah if you're a tlc Member and you want to be on it please reach out to me directly.
+
+15
+00:03:47.790 --> 00:03:48.420
+Tracy Kuhrt: Okay, good.
+
+16
+00:03:48.870 --> 00:03:49.350
+Tracy Kuhrt: Thank you.
+
+17
+00:03:51.150 --> 00:03:52.410
+Tracy Kuhrt: So the.
+
+18
+00:03:52.470 --> 00:04:06.990
+Tracy Kuhrt: Last announcement here rocket chat is now archived and Ryan, has created a rendered version, for us, for the history, if you are so inclined to go look at the history looks really good right, thank you for putting that together.
+
+19
+00:04:08.220 --> 00:04:14.070
+Ry Jones: Thanks you're welcome, I will point out that if you have any.
+
+20
+00:04:15.630 --> 00:04:25.770
+Ry Jones: Private messages or anything like that that you want to get a copy of now is your your time to go log in and do that I plan on replacing the landing page.
+
+21
+00:04:26.280 --> 00:04:38.070
+Ry Jones: In about a week with a redirect to the to the wiki page giving people instructions on how to go and discord so if there are any deems there, particularly you really want to save now is the time.
+
+22
+00:04:41.430 --> 00:04:41.970
+They try.
+
+23
+00:04:43.020 --> 00:04:44.130
+Tracy Kuhrt: Any other announcements that.
+
+24
+00:04:46.080 --> 00:04:47.220
+Tracy Kuhrt: People on the call would like to make.
+
+25
+00:04:55.710 --> 00:05:02.040
+Tracy Kuhrt: No Okay, well, I will make just a couple of additional things that came up this week.
+
+26
+00:05:03.270 --> 00:05:17.340
+Tracy Kuhrt: are no so graciously created a PR for us for the responsibilities for DC numbers, if you haven't had a chance to look at that, please do so he put the link in I believe it was the TC chat.
+
+27
+00:05:18.810 --> 00:05:32.760
+Tracy Kuhrt: So please have a look can add any additional responsibilities that you think might be missing there any corrections that that might come up and then the second thing that I will add is that Bobby let me know.
+
+28
+00:05:33.990 --> 00:05:41.940
+Tracy Kuhrt: But then learning materials working group has put together a specific task force to address the.
+
+29
+00:05:42.570 --> 00:05:51.660
+Tracy Kuhrt: Question Daniel that you brought up a few weeks back around documentation and putting together some some sort of guidelines around.
+
+30
+00:05:52.020 --> 00:06:08.340
+Tracy Kuhrt: How we put together documentation by the letter, so that is ongoing, if you would like to participate, I will find the link and put that in in the chat so that you can have a have the opportunity to participate in that room.
+
+31
+00:06:11.190 --> 00:06:26.040
+Aruna S M: Thanks Tracy so I wanted to bring this up for a while now, and I can certainly go almost forgot every time, but I will quickly also talk about one of the Community activity that's going on it's related to hyper ledger challenge and remember.
+
+32
+00:06:27.180 --> 00:06:36.000
+Aruna S M: That we spoke about this probably couple of months ago, and like I played your challenges in in next phase right now, so we.
+
+33
+00:06:36.780 --> 00:06:48.510
+Aruna S M: proceeded from the application submission phase or ideation phase we are now into prototype trace and so far, we received 29 proposals, except the China region.
+
+34
+00:06:49.050 --> 00:07:02.940
+Aruna S M: And, out of which 27 of them are implementing the the projects and we need mentors for helping out all those things, and most of them are will be proposed as.
+
+35
+00:07:04.140 --> 00:07:16.140
+Aruna S M: hyper ledger labs project soon, so there is we are expecting at least most of them to be to come come up and and submit that right and for China region today was the last day and we are.
+
+36
+00:07:16.680 --> 00:07:32.130
+Aruna S M: we're going to really look into how many submissions we have received for from China, specifically, but otherwise we are were caught with that, so we will need help from you, most of you and many of them are requesting for help they need help in.
+
+37
+00:07:33.780 --> 00:07:45.510
+Aruna S M: Like working on let's say fabric, or they need help, working on basal firefly to most of those proposals out of 27 they are all using different frameworks and projects within hyper ledger.
+
+38
+00:07:46.590 --> 00:07:55.800
+Aruna S M: Please, to help in whatever capacity possible art redirect time to your project resources, whoever you think are appropriate.
+
+39
+00:07:59.670 --> 00:08:00.060
+Aruna S M: Thank you.
+
+40
+00:08:01.050 --> 00:08:01.950
+Tracy Kuhrt: Alright, thanks around.
+
+41
+00:08:03.480 --> 00:08:04.320
+Tracy Kuhrt: Any other.
+
+42
+00:08:05.670 --> 00:08:07.590
+Tracy Kuhrt: Announcements before we move on the agenda.
+
+43
+00:08:14.760 --> 00:08:23.940
+Tracy Kuhrt: yeah okay so for the quarterly reports we have the base ooh and the caliper reports that came in, I did notice that.
+
+44
+00:08:25.170 --> 00:08:36.450
+Tracy Kuhrt: The majority of us have actually reviewed these as they've come in so that's good I think they're there was a couple of questions, maybe on the basic one.
+
+45
+00:08:36.930 --> 00:08:52.560
+Tracy Kuhrt: That haven't yet been addressed, I think, just one of them came in just this morning, so I thought, maybe we can take a moment and just talk quickly about the incentive program for the people who are interested in what that is.
+
+46
+00:08:55.770 --> 00:09:00.000
+Tracy Kuhrt: So they know grace I don't know which one of you would like to talk through that.
+
+47
+00:09:01.080 --> 00:09:06.930
+Danno Ferrin: um i'll give a brief overview of the incentive program so did your foundation.
+
+48
+00:09:08.190 --> 00:09:14.850
+Danno Ferrin: They value multi-client diversity and main that and they've gotten, to the point where they've decided to put money behind that commitment.
+
+49
+00:09:15.510 --> 00:09:20.520
+Danno Ferrin: Money progress along phrase, but they're putting a theory behind this, and this is tied hand in hand with.
+
+50
+00:09:21.330 --> 00:09:37.740
+Danno Ferrin: The upcoming proof of stake transition for the theorem a net, so there is five consensus layer teams and for execution layer teams that they are giving on they're asking them to operate a fully operable may not notes.
+
+51
+00:09:38.760 --> 00:09:42.900
+Danno Ferrin: about the except, of the consensus layer and the execution layer and.
+
+52
+00:09:43.950 --> 00:09:51.180
+Danno Ferrin: exchange for up to the text is they're going to execute those with their client and make sure the interrupt with the other half of the stack.
+
+53
+00:09:51.900 --> 00:09:55.890
+Danno Ferrin: And so, there are some that are given for canaries and some that are expected to be a full production grade.
+
+54
+00:09:56.520 --> 00:10:05.490
+Danno Ferrin: Now for teams that meet standards that they haven't fully announced yet most of its up time but it's gonna it's gonna be moving target throughout the next, I think, four years.
+
+55
+00:10:05.790 --> 00:10:14.910
+Danno Ferrin: For teams that meet those standards, the the seed on a theory that is used for the proof of stake will be released to that team to do with as they wish.
+
+56
+00:10:15.390 --> 00:10:25.110
+Danno Ferrin: um so I believe your basic is unique amongst the teams in that it is a Community project, not just one that is fully owned and operated on a governance basis of.
+
+57
+00:10:26.520 --> 00:10:35.880
+Danno Ferrin: benevolent dictator, the other projects all operate on a benevolent dictator model, but basically operates on this required by hyper ledger on a Community level.
+
+58
+00:10:36.210 --> 00:10:43.980
+Danno Ferrin: So the incentive program is the structure that the theater foundations be working with me and consensus to make sure that the Community has access.
+
+59
+00:10:44.280 --> 00:10:56.460
+Danno Ferrin: To this incentive and not just one particular company that's operating within the space, now the structure of the incentives designed so that those who contribute to mean that are the ones most of the benefit from it.
+
+60
+00:10:56.940 --> 00:11:07.650
+Danno Ferrin: But there's also a very important 20% carve out that goes to hyper ledger and also another 20% that goes to whoever operates the know is to keep them up and running isn't incentive to keep them running.
+
+61
+00:11:08.070 --> 00:11:13.050
+Danno Ferrin: So they benefit just from running the notes as well and there's a lot of expertise that goes in with it.
+
+62
+00:11:13.500 --> 00:11:20.790
+Danno Ferrin: These the initial initial operators for the note to be consensus because the skill set for operating these notes is not widely known.
+
+63
+00:11:21.510 --> 00:11:26.340
+Danno Ferrin: But that is not locked into the contract that has to be consensus, however, if you're in foundation does have.
+
+64
+00:11:26.970 --> 00:11:33.930
+Danno Ferrin: Basically it's at their discretion who operates it so if consensus is a good operator, I really don't see a reason why they would move it off with them.
+
+65
+00:11:34.380 --> 00:11:41.370
+Danno Ferrin: So that's basically a high level overview of what the incentive program is and what the agreement that's currently being negotiated with your foundation.
+
+66
+00:11:42.390 --> 00:11:43.260
+Danno Ferrin: hyper ledger.
+
+67
+00:11:44.340 --> 00:11:47.910
+Danno Ferrin: To make sure that this operates in in is, it is a Community incentive.
+
+68
+00:11:53.520 --> 00:11:53.850
+Tracy Kuhrt: Right.
+
+69
+00:11:54.360 --> 00:11:55.470
+Tracy Kuhrt: Great overview.
+
+70
+00:11:56.970 --> 00:11:58.770
+Tracy Kuhrt: heart, did you ever come back to that.
+
+71
+00:11:58.800 --> 00:12:11.340
+Hart Montgomery: yeah so i'm taking point on this from the hyper ledger side and i've got like a full document that that's in progress, and if people are interested, we can send it out to the whole tasc once it's finalized.
+
+72
+00:12:16.230 --> 00:12:18.240
+Tracy Kuhrt: So hopefully yeah Jim.
+
+73
+00:12:19.320 --> 00:12:26.880
+Jim Zhang: yeah just just a quick question on the details being sensitive I heard is to the operators and I heard.
+
+74
+00:12:27.210 --> 00:12:41.370
+Jim Zhang: Consensus being one fury foundation being one and hyper ledger being one I mentioned any frankly the by operator, we mean wherever is running nodes just curious how how high pledges planning to run.
+
+75
+00:12:42.540 --> 00:12:43.680
+Jim Zhang: run these nodes.
+
+76
+00:12:44.670 --> 00:12:48.360
+Hart Montgomery: So, Jim hyper ledger is not running the node, so there are.
+
+77
+00:12:50.190 --> 00:13:05.460
+Hart Montgomery: The proposal separates the people, developing the Code and the people running the notes, even in this case that there are some overlap right because consensus is the largest contributor to base ooh and they're also going to be the node operator.
+
+78
+00:13:06.540 --> 00:13:14.280
+Hart Montgomery: But the E, F, is making sure that their funds allocated for both like code contributors and.
+
+79
+00:13:15.840 --> 00:13:17.040
+Hart Montgomery: node operators.
+
+80
+00:13:20.670 --> 00:13:22.410
+Hart Montgomery: Does that make sense, does that answer your question.
+
+81
+00:13:22.980 --> 00:13:31.770
+Jim Zhang: yeah I guess i'm particularly confused about no operators, there can be random individuals who would choose to do that how.
+
+82
+00:13:32.580 --> 00:13:34.800
+Jim Zhang: This is going to too much detail but.
+
+83
+00:13:34.950 --> 00:13:47.220
+Hart Montgomery: You know, totally fine so basically the E, F is going to give consensus a contract saying that you know you must operate, you know this, many nodes or this many.
+
+84
+00:13:47.250 --> 00:13:52.680
+Hart Montgomery: Where the theory of validators with this software configuration, you must achieve these metrics.
+
+85
+00:13:54.960 --> 00:13:55.440
+Jim Zhang: yeah.
+
+86
+00:13:56.700 --> 00:14:01.020
+Jim Zhang: But then, this is that applying to hyper ledger as well.
+
+87
+00:14:02.670 --> 00:14:04.290
+Hart Montgomery: So hyper ledger is not.
+
+88
+00:14:05.550 --> 00:14:08.280
+Hart Montgomery: A node manager right hyper ledger is a code base.
+
+89
+00:14:08.910 --> 00:14:09.330
+Jim Zhang: Okay.
+
+90
+00:14:09.390 --> 00:14:11.040
+Jim Zhang: I saw okay that's the part I was.
+
+91
+00:14:11.190 --> 00:14:14.100
+Jim Zhang: gassed role is mainly that develops that's.
+
+92
+00:14:14.400 --> 00:14:15.540
+Jim Zhang: Exactly okay.
+
+93
+00:14:15.570 --> 00:14:15.900
+Jim Zhang: yeah.
+
+94
+00:14:16.260 --> 00:14:18.960
+Hart Montgomery: So far, hyper ledger has never.
+
+95
+00:14:20.070 --> 00:14:27.570
+Hart Montgomery: run a blockchain are actively running with blockchain and it would probably take a change to the governing board charter.
+
+96
+00:14:28.740 --> 00:14:29.700
+Hart Montgomery: For that to happen.
+
+97
+00:14:31.590 --> 00:14:36.780
+Hart Montgomery: So so yeah so that part is not directly tied to hyper ledger.
+
+98
+00:14:37.020 --> 00:14:43.650
+Hart Montgomery: Okay, if grace is grace's on the call grace can probably tell you more about the note operation if you're interested.
+
+99
+00:14:47.850 --> 00:14:48.300
+Jim Zhang: So you.
+
+100
+00:14:50.370 --> 00:14:58.230
+Jim Zhang: Probably can reach out to graze separately on that just want to clarify the role on the hyper ledger said we're saying.
+
+101
+00:15:01.440 --> 00:15:14.610
+Jim Zhang: hyper ledger whoa sort of become the funnel of the incentive for the developers to to compensate whoever contributed to the best best to code base.
+
+102
+00:15:14.670 --> 00:15:15.930
+Danno Ferrin: Basically, all that's coming from.
+
+103
+00:15:15.990 --> 00:15:31.440
+Hart Montgomery: Your account yeah so we're, the proposal is being written, so that the ethereum foundation is as Dana said the F is defining who they think the big contributors are and we have this all documented.
+
+104
+00:15:32.520 --> 00:15:33.210
+Hart Montgomery: works.
+
+105
+00:15:34.230 --> 00:15:35.490
+Hart Montgomery: But basically.
+
+106
+00:15:36.870 --> 00:15:39.930
+Hart Montgomery: The F is dividing things into two categories.
+
+107
+00:15:41.460 --> 00:15:48.330
+Hart Montgomery: they're dividing they're taking maintainer is that they think have contributed to main net and they're calling those main net containers.
+
+108
+00:15:49.170 --> 00:16:02.400
+Hart Montgomery: And then they're creating another category called patrons which is their way of basically saying that you know, these people are these organizations have been long term contributors like you know very long term sustained contributors.
+
+109
+00:16:03.000 --> 00:16:06.450
+Hart Montgomery: And they're rewarding those two classes, a little bit differently.
+
+110
+00:16:09.180 --> 00:16:11.430
+Jim Zhang: yeah that's plenty clear to me.
+
+111
+00:16:11.490 --> 00:16:13.200
+Hart Montgomery: If you don't care about.
+
+112
+00:16:13.650 --> 00:16:30.120
+Hart Montgomery: i'll just post my if everybody, I have a attack right up it's like in a first draft version, and I can just post it in the the tlc chat if for everybody that wants to see it just please note that this is still like.
+
+113
+00:16:31.500 --> 00:16:32.850
+Hart Montgomery: it's still needs a lot of work.
+
+114
+00:16:34.710 --> 00:16:35.640
+Hart Montgomery: So don't.
+
+115
+00:16:37.470 --> 00:16:39.510
+Hart Montgomery: don't spread it to him don't.
+
+116
+00:16:40.770 --> 00:16:42.960
+Hart Montgomery: don't crucify me first of all, mistakes.
+
+117
+00:16:47.460 --> 00:16:49.020
+Hart Montgomery: But it should be in the discord now.
+
+118
+00:16:51.150 --> 00:16:52.890
+Jim Zhang: thanks for the background or in.
+
+119
+00:16:58.380 --> 00:17:05.730
+Tracy Kuhrt: Alright, so with that hopefully that answers that particular question that was on the project report.
+
+120
+00:17:07.170 --> 00:17:18.270
+Tracy Kuhrt: Is there any open discussion that we should have before we get to the task force discussion I couldn't come up with anything specific to your business.
+
+121
+00:17:18.690 --> 00:17:25.590
+Tracy Kuhrt: But if there's something that somebody would like to make sure we discussed this week before we get to the task force now it's the time.
+
+122
+00:17:34.740 --> 00:17:39.030
+Tracy Kuhrt: Okay, so we back there and I guess we'll get to the task force discussion.
+
+123
+00:17:39.780 --> 00:17:48.990
+Tracy Kuhrt: So we had to do a bit of a switch up on which test words we were going to focus on this week, given the availability of some of the folks on the call.
+
+124
+00:17:49.470 --> 00:18:00.870
+Tracy Kuhrt: And the desire to move this piece along a little faster than we might otherwise have wanted if we moved it to next week so.
+
+125
+00:18:01.830 --> 00:18:20.460
+Tracy Kuhrt: The project families website revamp I created this wiki page last week, which is basically the format that we would expect for any new task force that is brought to the TC to try and elaborate on what exactly this task force is about and so.
+
+126
+00:18:22.170 --> 00:18:34.860
+Tracy Kuhrt: I think the the pieces that I wanted to cover from this today are what specifically the task force is intended to accomplish and the deliverables that are.
+
+127
+00:18:36.120 --> 00:18:41.550
+Tracy Kuhrt: That are coming from this, so if we kind of scroll down in this document.
+
+128
+00:18:42.870 --> 00:18:52.620
+Tracy Kuhrt: To the tasks to be completed and the list of deliverables of work products, these are the kind of the two things that I wanted to start with, before we actually got.
+
+129
+00:18:53.340 --> 00:19:01.320
+Tracy Kuhrt: involved in the the overall discussion so that we were in agreement with what the expectations of this task force are.
+
+130
+00:19:02.250 --> 00:19:19.740
+Tracy Kuhrt: So tasks to be completed determine how we over projects on the hyper ledger website and then determine the criteria for projects to meet in order to obtain priority for hyper ledger foundation marketing I think those are the two tasks.
+
+131
+00:19:20.790 --> 00:19:28.080
+Tracy Kuhrt: That are to be completed any any commentary on that or changes to those tasks.
+
+132
+00:19:43.260 --> 00:19:48.120
+Tracy Kuhrt: Alright i'll assume that we are in agreement, thank you Angela for these the thumbs up on that.
+
+133
+00:19:50.580 --> 00:19:57.330
+Tracy Kuhrt: So, then, the list of deliverables are the work products that I think we're looking to accomplish specifically.
+
+134
+00:19:58.320 --> 00:20:10.350
+Tracy Kuhrt: website project pages related to the project sections website mean groupings and updates to the project lifecycle documentation to reflect kind of the new criteria.
+
+135
+00:20:11.340 --> 00:20:25.500
+Tracy Kuhrt: That we're going to determine for obtaining priority for hyper ledger foundation marketing any other additional deliverables that we should add to this or any changes to this list of deliverables.
+
+136
+00:20:38.490 --> 00:20:44.580
+Danno Ferrin: So this is this might be out of scope of this particular task force but.
+
+137
+00:20:46.800 --> 00:20:54.000
+Danno Ferrin: I guess the question is, how should the deliverables the particular screen reflect the mission of the hyper ledger project and.
+
+138
+00:20:55.380 --> 00:21:07.680
+Danno Ferrin: hyper ledger foundation and, specifically, and you know how I guess that's that's My main question is how close she lives that to the mission, and if that this deviation the mission should one change or the other.
+
+139
+00:21:08.760 --> 00:21:10.980
+Danno Ferrin: If you get kind of what i'm saying.
+
+140
+00:21:13.560 --> 00:21:14.280
+Tracy Kuhrt: i'm.
+
+141
+00:21:14.370 --> 00:21:19.290
+Tracy Kuhrt: Sorry, I understand the question I don't understand the.
+
+142
+00:21:20.040 --> 00:21:30.300
+Danno Ferrin: How constraints of the hyper ledger mission is it a must solely fit the mission, or if we see opportunities for growth, should we reach out to those it's probably a way to phrase it.
+
+143
+00:21:35.370 --> 00:21:41.340
+Danno Ferrin: Is the the goals of hyper ledger foundation a limiter or an authority base to start from.
+
+144
+00:21:42.990 --> 00:21:57.810
+Ry Jones: If I might i'm, in my opinion, where we're open to all feedback So if you see yourself on the task force being limited or you have a proposal other new way to go.
+
+145
+00:21:59.430 --> 00:22:03.900
+Ry Jones: don't don't hold on to it don't keep secrets give us the feedback and.
+
+146
+00:22:05.220 --> 00:22:06.270
+Ry Jones: let's see what we can do.
+
+147
+00:22:08.250 --> 00:22:08.610
+Danno Ferrin: Okay.
+
+148
+00:22:13.980 --> 00:22:15.510
+Tracy Kuhrt: yeah I would I would assume that.
+
+149
+00:22:16.650 --> 00:22:20.250
+Tracy Kuhrt: If we need to expand the mission and that's a discussion that we should have.
+
+150
+00:22:23.460 --> 00:22:24.120
+Tracy Kuhrt: Daniel.
+
+151
+00:22:25.740 --> 00:22:34.620
+Daniela Barbosa: yeah I echo that and we have in the past, you know the hyper ledger foundation of today's very different than the hyper ledger foundation 2016.
+
+152
+00:22:36.540 --> 00:22:37.560
+Daniela Barbosa: So, yes.
+
+153
+00:22:40.200 --> 00:22:40.590
+Tracy Kuhrt: All right.
+
+154
+00:22:42.540 --> 00:22:47.610
+Tracy Kuhrt: Thank you, Daniel night for answering that question for Dan oh.
+
+155
+00:22:49.170 --> 00:23:07.530
+Tracy Kuhrt: Alright, so any any other additional thoughts on the deliverables or if there's any changes there before we start to get into the straw man proposal that has been put together at least, for I think the first task, which is how we would group projects on the hyper ledger website.
+
+156
+00:23:14.940 --> 00:23:17.490
+Tracy Kuhrt: Okay there's no additional.
+
+157
+00:23:19.140 --> 00:23:25.890
+Tracy Kuhrt: pieces there then David I don't know if you want to walk us through these this particular proposal.
+
+158
+00:23:25.890 --> 00:23:27.840
+Tracy Kuhrt: Or how you'd like to purchase.
+
+159
+00:23:28.260 --> 00:23:33.570
+David Boswell: Sure i'm happy to speak to it and just for a little bit of background this pulls in information from.
+
+160
+00:23:34.110 --> 00:23:37.830
+David Boswell: A few different threads of discussion and I figured it would be helpful to.
+
+161
+00:23:38.280 --> 00:23:46.230
+David Boswell: create a visual that you know incorporate some of these different ideas, just so we have something to respond to it as a starting point, so this includes some of the.
+
+162
+00:23:46.770 --> 00:23:53.640
+David Boswell: thoughts that came from hearts project families document and include some of the threads that came out of the greenhouse Task Force.
+
+163
+00:23:54.090 --> 00:23:59.430
+David Boswell: If people remember from that Helens report event task force that a number of things.
+
+164
+00:24:00.000 --> 00:24:08.370
+David Boswell: Were surfaced in those discussions around, how do we help onboard new people that weren't included in the task force, you know Helens recommendation was to have.
+
+165
+00:24:08.790 --> 00:24:18.420
+David Boswell: A follow up task force that you know, to forward some of those threads about how do we help new people figure out what's going on in hyper ledger and how to get connected so that include some of these.
+
+166
+00:24:18.930 --> 00:24:30.900
+David Boswell: Those ideas that came out of the greenhouse Task Force and then just some of the observations that we've had with our designer about how do we help make things you know easier to find so, for example, people may remember grid.
+
+167
+00:24:31.500 --> 00:24:43.890
+David Boswell: The most recent grid quarterly report mentioned that some of the information around grid was hard to find on the website, and I think some of that is fair feedback some things are apparently buried, you need to click three or four times to find something.
+
+168
+00:24:44.460 --> 00:24:51.690
+David Boswell: So we talked to the designer about how do we address some of those things, so a number of different things are pulled together here so i'll try to just point out.
+
+169
+00:24:52.230 --> 00:25:03.390
+David Boswell: A few of the things that are different from the current projects information on the website and then again, this is a straw man proposal just intended to be a starting point, nothing on here.
+
+170
+00:25:03.840 --> 00:25:12.090
+David Boswell: is set in stone, so you know to what I said, if you have ideas or thoughts or feedback, you know, we want to hear it, so please, please feel free to share so.
+
+171
+00:25:13.080 --> 00:25:24.090
+David Boswell: And one other thought there's also pull some thoughts together from the recent project services document, where, again, we were talking about you know projects at different levels get different services so.
+
+172
+00:25:25.710 --> 00:25:29.910
+David Boswell: And that launches into one of the first things you may notice currently on the website.
+
+173
+00:25:30.120 --> 00:25:38.700
+David Boswell: All projects are treated equally, but on this mock up, you can see there's clearly a section, where there are a set of projects that are getting priority placement and then.
+
+174
+00:25:38.970 --> 00:25:45.420
+David Boswell: If you scroll down below further down, you can see that additional projects are given a.
+
+175
+00:25:45.990 --> 00:25:56.940
+David Boswell: Secondary placement so that's, the first thing and there's a whole discussion of which projects go where, for the sake of this mock up I just had our designer take the graduated projects and give them priority placement.
+
+176
+00:25:57.510 --> 00:26:10.170
+David Boswell: And the incubation projects under that I mean that may or may not be the right way to do it, but you can at least see what it would look like in a design sense, what would you know this is how one way we give some projects party placement.
+
+177
+00:26:12.090 --> 00:26:22.500
+David Boswell: Another thing if you scroll up, I mean I think one of the big downsides of the current landscape is a lot of the information is buried, for example, you don't even see project descriptions until you click into something.
+
+178
+00:26:22.980 --> 00:26:31.680
+David Boswell: So I think this is a an improvement for people who are already familiar with what the projects are you can see, for example, the descriptions here are showing.
+
+179
+00:26:32.100 --> 00:26:40.740
+David Boswell: You, I think the landscape is great for people who already know what's going on in a hyper ledger you can see, for example, the area's logo and you already know all about it but.
+
+180
+00:26:41.400 --> 00:26:50.790
+David Boswell: If you don't know logo is not as helpful, so this is intended to be a richer project description than what's currently on the landscape, so you can see.
+
+181
+00:26:51.390 --> 00:26:57.210
+David Boswell: The description is showing there, we could use a set of tags if we wanted to do that around a given project.
+
+182
+00:26:57.630 --> 00:27:03.060
+David Boswell: there's a lauren learn more button that would take you to a full project page and then there's a resource drop down.
+
+183
+00:27:03.480 --> 00:27:14.910
+David Boswell: that's not really defined yet in this mockup, but you can imagine that if you had a resources drop down that could be, for example, documentation to greg's point like, how do we surface some of that information at a higher level.
+
+184
+00:27:15.300 --> 00:27:22.440
+David Boswell: It could be the repository it could be, you know any sorts of things that we want, we could put in that resource and drop down so it's got this richer project placement.
+
+185
+00:27:23.100 --> 00:27:34.740
+David Boswell: richer project description field and then one other thing to point out in the description above, it also has a link to a getting started guide you know I think one thing that we've heard.
+
+186
+00:27:35.130 --> 00:27:44.850
+David Boswell: From people is, I see that you have a lot of projects, but which one is right for me right, and I don't think we necessarily have a great way for people to.
+
+187
+00:27:45.390 --> 00:27:53.640
+David Boswell: figure that out, right now, so one thing that we've added in this design is a pointer like hey here's some projects, but if you're not quite sure.
+
+188
+00:27:54.000 --> 00:28:00.240
+David Boswell: Which one is a good fit you can go here, so we don't yet have a mock up for that getting started guide, but that will be a third.
+
+189
+00:28:00.780 --> 00:28:10.590
+David Boswell: Design deliverable that we can include in this discussion so like How would we want to help orient people to a given project that might fit their needs so that's.
+
+190
+00:28:11.250 --> 00:28:22.440
+David Boswell: that's taking a little bit longer than these other two mockups but just a flag for the task force that that's something that I will share with our designer has a chance to get that back to us but that's a difference than what is currently on the project page.
+
+191
+00:28:23.070 --> 00:28:33.600
+David Boswell: So those are the three main differences about this mock up on the projects page and the current projects page, and if you could go to the second mockup i'll talk about.
+
+192
+00:28:33.660 --> 00:28:37.350
+Tracy Kuhrt: It before we get there job grace has a question.
+
+193
+00:28:38.370 --> 00:28:39.750
+Tracy Kuhrt: I did have a question as well.
+
+194
+00:28:41.370 --> 00:28:51.840
+Grace Hartley: yeah, so I think this is great, first of all, are looking good I have not been super close to this so apologies if I am not if this has been discussed or kind of.
+
+195
+00:28:52.530 --> 00:29:00.210
+Grace Hartley: As a part of the other work going on but um, so I think it's great to kind of feature different projects and make it easier to understand, of what their.
+
+196
+00:29:00.750 --> 00:29:11.130
+Grace Hartley: What each of them are when we're approaching the website I think i've mentioned this before so also like i'm not sure if this is relevant, but Have we considered like framing it.
+
+197
+00:29:11.760 --> 00:29:22.770
+Grace Hartley: almost completely differently, like of what are we trying to accomplish not here projects have fun like, but I want to build a network I want.
+
+198
+00:29:22.920 --> 00:29:25.530
+Grace Hartley: To do like something like that sorry go ahead.
+
+199
+00:29:26.100 --> 00:29:37.140
+David Boswell: Absolutely no no that's a good point and again that sort of feedback is certainly welcome and maybe that's a better way to frame it and I in my mind that's much of what would be in the good it's getting started guide, we will be able to.
+
+200
+00:29:37.500 --> 00:29:47.970
+David Boswell: Basically figure out figure out what path you're on like i'm a developer, and I want to do X or i'm a business analyst and I want to learn more about this sort of you know blockchain in this industry right so.
+
+201
+00:29:49.140 --> 00:29:49.710
+David Boswell: We don't have.
+
+202
+00:29:50.730 --> 00:29:58.530
+David Boswell: We don't have a mock up for that and we'll get it, and maybe when we get that we decided, maybe that should be the main page and the project stuff should be underneath that so.
+
+203
+00:29:59.910 --> 00:30:05.970
+David Boswell: I mean, I think that's sort of feedback and certainly welcome yeah so maybe just a list of projects is not the right entry point right.
+
+204
+00:30:06.600 --> 00:30:18.780
+Grace Hartley: yeah exactly yeah yeah but yet no that sounds good in the game, I was thinking, maybe the getting started guide was halfway there but yeah I think you know for new people you know the names mean nothing right.
+
+205
+00:30:18.840 --> 00:30:20.130
+David Boswell: And even say like.
+
+206
+00:30:20.670 --> 00:30:28.530
+Grace Hartley: An Assyrian quiet means nothing so like but hey I want to send transactions, I want to connect to me that I want to.
+
+207
+00:30:28.590 --> 00:30:29.520
+David Boswell: Do this other thing.
+
+208
+00:30:29.610 --> 00:30:30.810
+Grace Hartley: yeah exactly.
+
+209
+00:30:30.810 --> 00:30:34.020
+Grace Hartley: Like that that means maybe something to them to a new people.
+
+210
+00:30:35.220 --> 00:30:35.490
+David Boswell: But.
+
+211
+00:30:36.930 --> 00:30:41.880
+David Boswell: yeah where it lives in the structure is a top level or secondary, I guess, we need to sort out.
+
+212
+00:30:42.570 --> 00:30:43.020
+Exactly.
+
+213
+00:30:44.100 --> 00:30:52.050
+Tracy Kuhrt: yeah I think I think that was similar to mine point that I want to make as well, I did this getting started is.
+
+214
+00:30:53.850 --> 00:31:11.520
+Tracy Kuhrt: I think there's actually multiple ways to look at this right, I think what grace just talked about, I want to do X right is one way, I think there are people who probably want to look at all the projects and make a decision about what they want to do there I think there's also.
+
+215
+00:31:13.290 --> 00:31:22.140
+Tracy Kuhrt: You know it's similar to, I want to, but it's more like the project families that we were talking about earlier, which is what this task force was designed around.
+
+216
+00:31:23.880 --> 00:31:24.840
+Tracy Kuhrt: of you know.
+
+217
+00:31:26.100 --> 00:31:32.730
+Tracy Kuhrt: Given, whatever that higher level thing is that we're trying to create a grouping around.
+
+218
+00:31:34.140 --> 00:31:46.230
+Tracy Kuhrt: You know, looking at it from that perspective as well, so I don't think we should be limiting ourselves on the website to one view over another, you, I think that all.
+
+219
+00:31:46.680 --> 00:31:52.440
+Tracy Kuhrt: different sorts of views are interesting, depending on what the person is it's coming to the website it's actually looking for.
+
+220
+00:31:56.430 --> 00:31:56.760
+Tracy Kuhrt: So.
+
+221
+00:31:58.110 --> 00:31:59.940
+Tracy Kuhrt: yeah Jim your.
+
+222
+00:32:00.870 --> 00:32:05.970
+Jim Zhang: yeah thanks Tracy first of all I like the the new design of the top page.
+
+223
+00:32:07.620 --> 00:32:10.560
+Jim Zhang: I wonder if there's a balance between.
+
+224
+00:32:12.210 --> 00:32:29.850
+Jim Zhang: Giving giving party to the graduate projects versus doing what we can to help all projects be successful, especially the ones that need to become graduated so now right now I see.
+
+225
+00:32:30.900 --> 00:32:36.660
+Jim Zhang: I think I like the the format where there there's description text below the icon.
+
+226
+00:32:37.290 --> 00:32:53.400
+Jim Zhang: Can we apply that to the other projects as well, I think that will help a lot, especially if you are in the lower group, you see all icons again, you know you don't know what they're doing if we can put the same treatment to those group.
+
+227
+00:32:55.230 --> 00:33:06.000
+Jim Zhang: that's just helping all the projects to to get the intention get the attention and adoption, so they can they can become graduate at one day.
+
+228
+00:33:07.170 --> 00:33:12.810
+David Boswell: Sure, and that's fair, I mean, I think this goes back to the project services discussion where we had to have a balance between.
+
+229
+00:33:13.110 --> 00:33:24.120
+David Boswell: incentivizing somebody to go to the you know the steps to become graduated but also not removing so much support from the incident, you know from the incubation level that they can't get to that point where they can get graduate.
+
+230
+00:33:32.730 --> 00:33:38.940
+Tracy Kuhrt: Any other comments and kind of just dispersed view before doing it takes us through the the second view that.
+
+231
+00:33:40.170 --> 00:33:41.280
+Tracy Kuhrt: has an astronomer.
+
+232
+00:33:42.270 --> 00:33:42.780
+Benjamin Thomas: I try see.
+
+233
+00:33:45.690 --> 00:33:58.350
+Benjamin Thomas: Sorry just marriage at this point also for just to make everyone aware, is that i've also tasks the website team to look at implementing the drift APP.
+
+234
+00:33:59.340 --> 00:34:10.860
+Benjamin Thomas: which has been already quite successful on the Linux side, and this will also help massively with the user journey in terms of the previous questions.
+
+235
+00:34:13.380 --> 00:34:18.630
+Tracy Kuhrt: And, can you tell us a bit more with this drift APP is for those of us who are unfamiliar.
+
+236
+00:34:19.560 --> 00:34:23.700
+Benjamin Thomas: it's a new user journey conversational APP where you can.
+
+237
+00:34:25.470 --> 00:34:35.760
+Benjamin Thomas: Talk to the APP where and say hey i'm a new developer looking for X and the APP form respond with specific journeys for specific people.
+
+238
+00:34:36.210 --> 00:34:46.260
+Benjamin Thomas: depending on who they are, where they're coming from what they're looking for etc so it's quite sophisticated in terms of mapping out journeys specifically to people's needs.
+
+239
+00:34:47.970 --> 00:34:52.410
+Benjamin Thomas: And then it will orient orientate them around the website accordingly.
+
+240
+00:34:54.960 --> 00:34:57.960
+Tracy Kuhrt: that's that's great i've seen.
+
+241
+00:34:59.190 --> 00:35:09.450
+Tracy Kuhrt: A new contributor in discord has kind of been outreach into a number of different projects, about how do they get involved with that project.
+
+242
+00:35:10.080 --> 00:35:17.490
+Tracy Kuhrt: How do they start working on issues and those sorts of things I think something like that could potentially be a great benefit for.
+
+243
+00:35:18.150 --> 00:35:30.510
+Tracy Kuhrt: New joiners coming into to really start to dig in and know where to go even outside of, say, the hyper ledger.org website, but even to I want to go to.
+
+244
+00:35:31.200 --> 00:35:45.540
+Tracy Kuhrt: You know i'm a javascript developer i'd like to frame things that I can work on in the fabric, space and that taking you directly Tuesday github with the javascript SDK and good first issues right.
+
+245
+00:35:46.590 --> 00:35:47.460
+Tracy Kuhrt: I think.
+
+246
+00:35:47.790 --> 00:35:48.840
+Tracy Kuhrt: You know this is.
+
+247
+00:35:49.980 --> 00:35:52.020
+Tracy Kuhrt: yeah that's great that's great good news.
+
+248
+00:35:53.640 --> 00:35:53.940
+Benjamin Thomas: awesome.
+
+249
+00:35:57.720 --> 00:35:58.740
+Tracy Kuhrt: Any other.
+
+250
+00:36:00.030 --> 00:36:03.330
+Tracy Kuhrt: Comments then before we move on to the second mockup.
+
+251
+00:36:09.510 --> 00:36:12.270
+Tracy Kuhrt: Okay, so David if you wouldn't mind taking us through the second.
+
+252
+00:36:13.200 --> 00:36:22.920
+David Boswell: And the second half is really where we get into the families and the grouping part and you know I think this is key, you know, and again I think this is a downside of the current landscape you don't.
+
+253
+00:36:23.490 --> 00:36:30.840
+David Boswell: You see, these logos kind of floating out there, but it's not clear which ones are related to which so here, this is.
+
+254
+00:36:31.800 --> 00:36:37.500
+David Boswell: Again, the data is not complete I just had the designer do a couple of things don't take this as you know.
+
+255
+00:36:37.890 --> 00:36:43.440
+David Boswell: You know, a complete page, you know, maybe there's some things missing, but this is just showing you a direction we could go for.
+
+256
+00:36:43.950 --> 00:36:55.080
+David Boswell: You know I asked our designer to mock up the fabric page, and you can see, on the sidebar there's a section that says related project and lab so if there is a is a project thats related to it.
+
+257
+00:36:55.500 --> 00:37:05.160
+David Boswell: You can see that all in one place right, so this is where a grouping could occur and again you don't really get that on the landscape on the landscape itself it's not there's no real.
+
+258
+00:37:05.460 --> 00:37:19.200
+David Boswell: connection between one thing and another, you can click on fabric and the landscape and I mean unless i'm missing, something it doesn't really you know point you to these other places, so i'm a grouping could occur here.
+
+259
+00:37:20.610 --> 00:37:31.500
+David Boswell: Another thing on here goes back to the you know the pathways in the journey conversation we're having you can see right now on a project specific page there's no real.
+
+260
+00:37:32.580 --> 00:37:40.380
+David Boswell: division into content around personas, so to speak, so you can see here in that horizontal bar there's some content that's grouped.
+
+261
+00:37:40.920 --> 00:37:50.100
+David Boswell: By the type of user who may be on the page, so if you're a developer there's a set of links if you're used to the user there's a different set of links and if your business analyst there's a different set of links so.
+
+262
+00:37:50.340 --> 00:38:01.500
+David Boswell: I think that might be helpful in helping people self select into something that's more relevant for them versus where I kind of feel overwhelmed myself going to the landscape, you know I counted up.
+
+263
+00:38:02.070 --> 00:38:14.100
+David Boswell: All the links that were on the landscape and any one click into a page has like 20 something links in it, but it's not really divided it's really hard to know like okay of these 20 links which one is relevant for me so.
+
+264
+00:38:14.580 --> 00:38:24.360
+David Boswell: You know I like that this helps categorize things and helps provide at least some direction for people to self select So those are the two main differences here.
+
+265
+00:38:24.720 --> 00:38:35.670
+David Boswell: The sidebar with the grouping, and then you know, giving the persona another minor thing if you scroll up, we did also provide some sections here around tagging.
+
+266
+00:38:37.320 --> 00:38:45.270
+David Boswell: I think the tagging could really be pretty open ended, and this might also help people identify things so you can imagine that could be any sort of thing right what.
+
+267
+00:38:45.750 --> 00:38:52.230
+David Boswell: What use cases, maybe, or you know some technology related tags, I mean it could be, you know.
+
+268
+00:38:53.070 --> 00:39:04.320
+David Boswell: This is, you know, maybe, where we could have our current groupings like it's a tool it's a dlp it's something else, but you know we could, I think we have space to do you know almost anything with the tags so.
+
+269
+00:39:05.010 --> 00:39:09.120
+David Boswell: that's in the design as well, although it doesn't get into the specifics So those are the main.
+
+270
+00:39:11.190 --> 00:39:13.920
+David Boswell: Design notes on this page to point out.
+
+271
+00:39:19.980 --> 00:39:20.160
+Tracy Kuhrt: David.
+
+272
+00:39:20.460 --> 00:39:20.940
+So.
+
+273
+00:39:21.990 --> 00:39:27.240
+Tracy Kuhrt: The question that I have a comic that I have is around labs.
+
+274
+00:39:28.470 --> 00:39:47.430
+Tracy Kuhrt: So when we when we created the labs Charter, the intention was that this was an easy place for people to get involved with very little overhead or help from marketing and the hyper ledger foundation stuff on.
+
+275
+00:39:48.780 --> 00:40:01.620
+Tracy Kuhrt: On that lab so I forget exactly how we stated it in the actual proposal, but you know, the idea being if we were to include labs in the sidebar.
+
+276
+00:40:02.400 --> 00:40:18.420
+Tracy Kuhrt: Somebody is going to have to decide which labs get included there somebody's going to have to decide which labs are worth including there because some of them may be more active than others and and then you've got a completely different sort of.
+
+277
+00:40:19.710 --> 00:40:31.200
+Tracy Kuhrt: set of challenges that come with well why isn't my lab here when this other lab is here, or that sort of thing, so I I would hesitate.
+
+278
+00:40:32.160 --> 00:40:43.980
+Tracy Kuhrt: To say that love should be included on this, given the fact that this task force and kind of what we've been trained to focus on is how do we give marketing to the the.
+
+279
+00:40:45.300 --> 00:40:55.950
+Tracy Kuhrt: projects that have graduated or that are a family of projects that would actually you know make sense to to market so that I think that's my my.
+
+280
+00:40:58.410 --> 00:41:01.140
+Tracy Kuhrt: comments on on this particular mock up.
+
+281
+00:41:01.860 --> 00:41:14.400
+David Boswell: I hear you and I think those are all valid concerns you know, we do have a lot of labs and it's not clear what would be you know worth linking to, for example, if a lab hasn't been updated in a year and a half yeah maybe we don't link to it, I think that's a fair point.
+
+282
+00:41:16.350 --> 00:41:28.290
+David Boswell: I mean, I guess, my counter you know counter thought is that i've been trying, you know Ryan Sean and I have been trying to support labs for a long time, and one thing we consistently here is that it's hard when we don't talk about the labs it's hard.
+
+283
+00:41:28.680 --> 00:41:37.410
+David Boswell: For a lab maintainer to you know find people in the Community who are interested in what they're doing, because people just don't find out about it right, so it seems like a bit of a catch 22.
+
+284
+00:41:37.950 --> 00:41:51.630
+David Boswell: And maybe goes to jim's point about how do we help you know the the efforts in the Community grow, and you know you know attract attention you know if we don't talk about something, and if we you know hide the information it's hard for those.
+
+285
+00:41:53.190 --> 00:41:55.920
+David Boswell: Either those incubation projects or those labs to you know.
+
+286
+00:41:56.970 --> 00:42:01.530
+David Boswell: You know, get connected with people who may be really interested in them, I mean my thought would be.
+
+287
+00:42:02.130 --> 00:42:17.670
+David Boswell: Put the lab information on there, but in a clearly secondary point you know level below it, and then we can have some clear criteria like if you haven't you know, had an update in your lab and you know X many months, what is it six months, then you're not you know, going to be listed and.
+
+288
+00:42:18.690 --> 00:42:25.500
+David Boswell: Only those projects, only those labs that work with another project, you know would be on that project page would be my thought.
+
+289
+00:42:27.210 --> 00:42:40.110
+Tracy Kuhrt: yeah I guess there's a there is a tension there, because what we have heard, given the fact that we've created this document that says, this is the support that.
+
+290
+00:42:40.620 --> 00:42:52.320
+Tracy Kuhrt: graduated projects get versus incubator projects get versus labs that there is attention, for the time that you guys are spending on things that are not graduated or incubated right.
+
+291
+00:42:53.430 --> 00:43:10.410
+Tracy Kuhrt: And is that the right tension that we want to be giving or do we want to be convincing or working with these labs to get them to be an incubator project, and I don't know what the right answer is i'm just bringing it up, because I think there is a tension and we.
+
+292
+00:43:11.550 --> 00:43:32.610
+Tracy Kuhrt: need to understand what our goals actually are, are they to market graduated projects are they to market a project family are they to market labs right like I think that's the challenge that we have and probably why this task force exist is is partially because of that.
+
+293
+00:43:38.010 --> 00:43:46.260
+David Boswell: Agreed yeah and that's why yeah exactly there is a tension and what's the right balance, I think we don't know and that's why the this is this mock ups just a straw man.
+
+294
+00:43:46.740 --> 00:43:57.210
+David Boswell: You know and it's raising questions like that, so I think this is helpful and yet we're not we're not fixed on anyone outcome, just because this is the starting point is.
+
+295
+00:44:01.260 --> 00:44:07.530
+Tracy Kuhrt: Any comments on this particular project page kind of format from other folks.
+
+296
+00:44:09.270 --> 00:44:09.690
+Tracy Kuhrt: as well.
+
+297
+00:44:10.740 --> 00:44:24.510
+Angelo De Caro: yeah Thank you Tracy so sorry for my voice which I have a cold, but I must admit I this time I tend to agree with what you just said, Chris even the last time I was also supported for the laps but.
+
+298
+00:44:25.860 --> 00:44:34.110
+Angelo De Caro: What you said it it's clear to me that the messaging, we have also loves might be less clear on a bit confusing, especially for a lobby still in.
+
+299
+00:44:35.640 --> 00:44:39.750
+Angelo De Caro: early stages, what it means that what does it mean that it appears death and.
+
+300
+00:44:40.200 --> 00:44:54.660
+Angelo De Caro: Also, your, then what, how do we decide the order so do really I was also thinking, maybe the containers of the the project can this case, then we have fabric here fabric monday's can decide what to highlight, on the sidebar as well.
+
+301
+00:44:55.230 --> 00:45:02.250
+Angelo De Caro: But I tend to agree with you, this time that yeah I mean we have to focus on the project can that can deliver their.
+
+302
+00:45:02.760 --> 00:45:17.310
+Angelo De Caro: Support from the clear support from the Community diversity, they may they meet certain criteria and the message will become much beer, overall, I think I like the graphic, let me say that I like this overall graphics and it's it's really nice good job.
+
+303
+00:45:18.870 --> 00:45:19.320
+Angelo De Caro: Thank you.
+
+304
+00:45:20.040 --> 00:45:25.140
+Tracy Kuhrt: yeah thanks Angela rest, the rest of voice and get better Peter.
+
+305
+00:45:28.500 --> 00:45:37.140
+Peter Somogyvari: I just wanted to chime in on that as well, I, like the designs and build that tension word lab versus anything else.
+
+306
+00:45:38.370 --> 00:45:42.600
+Peter Somogyvari: I would say, if I put on my user hat.
+
+307
+00:45:43.830 --> 00:45:52.560
+Peter Somogyvari: is, then, I have a problem that i'm trying to solve the software and I just try, though I pleasure.org.
+
+308
+00:45:54.150 --> 00:45:54.870
+Peter Somogyvari: Then.
+
+309
+00:45:56.340 --> 00:45:58.020
+Peter Somogyvari: Anything that I see there.
+
+310
+00:45:59.250 --> 00:46:00.870
+Peter Somogyvari: I would assume that.
+
+311
+00:46:02.040 --> 00:46:06.390
+Peter Somogyvari: it's not something that's in beta or alpha or.
+
+312
+00:46:08.370 --> 00:46:16.320
+Peter Somogyvari: incubation or anything else, less than it being ready for me, the US as of right now.
+
+313
+00:46:18.450 --> 00:46:20.670
+Peter Somogyvari: So, because of that.
+
+314
+00:46:21.720 --> 00:46:23.370
+Peter Somogyvari: My opinion would be that.
+
+315
+00:46:24.750 --> 00:46:45.450
+Peter Somogyvari: He should provide access to the labs information, but it should not be may be front and Center right makes everything else is that could create confusion, I mean in my favorite will create confusion, because if I don't know anything about hyper ledger.
+
+316
+00:46:46.770 --> 00:46:50.640
+Peter Somogyvari: i'm just new and coming in and looking for a solution to my problem.
+
+317
+00:46:51.690 --> 00:46:55.470
+Peter Somogyvari: Then I won't be aware, at lapses.
+
+318
+00:46:56.820 --> 00:47:14.430
+Peter Somogyvari: And in other sort of organizations similar to hyper ledger there i've seen what is front and Center is always what's available that the people in their thing should be used as of right now in production.
+
+319
+00:47:15.840 --> 00:47:16.260
+Peter Somogyvari: and
+
+320
+00:47:18.330 --> 00:47:26.520
+Peter Somogyvari: yeah, so I would go with this you, if I was user, that is the case and that, if I am presented labs.
+
+321
+00:47:27.750 --> 00:47:41.820
+Peter Somogyvari: And then I go down the rabbit hole of try and work them out and then realize that this may never actually come out alive me there may not be a terrorist or any of that but you're still two projects but it's a lower probability hopefully.
+
+322
+00:47:43.470 --> 00:47:51.150
+Peter Somogyvari: they're not I would be slightly disappointed that this is put right in front of me on the main page.
+
+323
+00:47:52.860 --> 00:47:53.550
+Peter Somogyvari: Unless it.
+
+324
+00:47:54.900 --> 00:47:55.260
+Tracy Kuhrt: Right.
+
+325
+00:47:56.160 --> 00:47:57.270
+Peter Somogyvari: yeah and I think.
+
+326
+00:47:57.330 --> 00:48:05.130
+Tracy Kuhrt: You know the personas are important here right because that's stopping you from a user perspective if you're say.
+
+327
+00:48:06.630 --> 00:48:17.820
+Tracy Kuhrt: Like the the chat that I saw were in I think it was in the welcome where somebody was saying, like they're coming in, as a graduate student then they're looking to try and put together.
+
+328
+00:48:19.020 --> 00:48:27.690
+Tracy Kuhrt: You know, some research or some projects or that sort of thing um you know I think they might be interested in digging into labs.
+
+329
+00:48:28.200 --> 00:48:39.030
+Tracy Kuhrt: So I do think that we, we really need to understand who the person is, as we designed the website, and you know, maybe this drift APP is is a good way of.
+
+330
+00:48:39.450 --> 00:48:50.100
+Tracy Kuhrt: kind of focusing people where they need to go, but I do think Peter that you've you've kind of hit the nail on the head, if you how right where for a particular.
+
+331
+00:48:51.240 --> 00:49:03.540
+Tracy Kuhrt: persona right they're not going to want to see labs for another persona maybe they do, and so I think we need to take and take that into consideration as we're designing news as well.
+
+332
+00:49:06.060 --> 00:49:15.480
+Danno Ferrin: So there's kind of goes along with the observation that that Peter had, I think it is kind of lose to what I was was asking earlier.
+
+333
+00:49:16.050 --> 00:49:22.050
+Danno Ferrin: I think we're starting to see what will continue to see is the nature of the personas coming to hyper ledger is changing.
+
+334
+00:49:22.740 --> 00:49:34.080
+Danno Ferrin: and probably the best way to describe this is when people come out and say they want to build a web APP today they don't first decide whether using Apache or ISS or engine X or Tom caps.
+
+335
+00:49:34.830 --> 00:49:40.020
+Danno Ferrin: They look at higher level questions about you know, are they going to single page APP they go to a multi page APP.
+
+336
+00:49:41.220 --> 00:49:47.940
+Danno Ferrin: You know what what threatened tools what's the web, the Web APP going to accomplish before they talk about two more infrastructural things.
+
+337
+00:49:48.480 --> 00:49:56.640
+Danno Ferrin: And meal, five years ago, that was the number one question was you know what's the base level level the lt because that enabled everything else, but I think we've reached maturity.
+
+338
+00:49:57.270 --> 00:50:08.910
+Danno Ferrin: In the ecosystem, where there's you know, increasing portability between these where you ask the question of well, I want to build a token, I want to build an nfc market, I want to build a CBD CBD I want to build.
+
+339
+00:50:09.360 --> 00:50:12.510
+Danno Ferrin: On you know all the other things, we might go through one build some supply chain stuff.
+
+340
+00:50:12.960 --> 00:50:16.440
+Danno Ferrin: So people come in, they say they needed watching that that's usually where they start thinking of.
+
+341
+00:50:16.740 --> 00:50:29.490
+Danno Ferrin: That are sort of thinking of well I need to have recommended sizes ronnie the theory them, you might need a public network they might ask things like I need to pull up the recording in a private network, but my concern is if we built this where the specific.
+
+342
+00:50:30.840 --> 00:50:39.360
+Danno Ferrin: base layer dlp is put first we're not enabling the audiences that are coming to us and they're going to be coming to us and enabling them.
+
+343
+00:50:39.810 --> 00:50:47.610
+Danno Ferrin: In a way that they work now we need these deities in hyper ledger these these are table stakes, we absolutely must have them, but you know.
+
+344
+00:50:48.060 --> 00:50:51.450
+Danno Ferrin: In that instance other things that i've seen in the in the permission list blockchain world.
+
+345
+00:50:51.930 --> 00:51:01.650
+Danno Ferrin: Is that can also lead to tribalism which makes it harder for teams to work together, when you focus on the individual blockchains themselves rather than focusing on what people are going to build on them so that's.
+
+346
+00:51:02.460 --> 00:51:05.010
+Danno Ferrin: You know, this is probably out of scope of this particular.
+
+347
+00:51:05.730 --> 00:51:13.530
+Danno Ferrin: A website, but I think we should have enabled in mind, so that if we do transition to that that you know we have different families that aren't necessarily.
+
+348
+00:51:13.830 --> 00:51:19.380
+Danno Ferrin: focused, we might have an integration family where we focus on these projects and that's my concern i'm putting a project.
+
+349
+00:51:19.800 --> 00:51:32.910
+Danno Ferrin: As the lead in a group in describing the group in context of that project so that's one of one of my concerns but i'm not convinced there's a better solution out there, so this might be the best solution and we'll just have to keep our eyes on that concerned too.
+
+350
+00:51:39.300 --> 00:51:41.880
+Benjamin Thomas: The in response to their for me.
+
+351
+00:51:42.930 --> 00:51:55.470
+Benjamin Thomas: I think the drift APP we can rebuild those kinds of journeys when those kind of questions asked and that's, something that would be really helpful to get your feedback on.
+
+352
+00:52:02.010 --> 00:52:03.180
+Tracy Kuhrt: Alright, so I have a.
+
+353
+00:52:05.220 --> 00:52:06.270
+Tracy Kuhrt: question.
+
+354
+00:52:07.650 --> 00:52:14.880
+Tracy Kuhrt: we're about let's call it five minutes out from the end of the call I feel like.
+
+355
+00:52:15.840 --> 00:52:24.420
+Tracy Kuhrt: Some of this is helping some of this discussion is helping us with the turning how horrible group projects on the hyper ledger website.
+
+356
+00:52:25.110 --> 00:52:42.660
+Tracy Kuhrt: I don't think we've necessarily gotten to any sort of conversation around determining criteria for the projects to meet in order to obtain priority for hyper ledger foundation marketing out there we've done a bit of discussion just high level on that particular topic.
+
+357
+00:52:43.680 --> 00:52:52.650
+Tracy Kuhrt: As far as next steps for this task force and things that we can do in an offline manner, before we meet again.
+
+358
+00:52:54.360 --> 00:53:06.540
+Tracy Kuhrt: i'm wondering if we should spend some time to focus in on kind of the priority for how we determine kind of what the projects are that that get that priority.
+
+359
+00:53:09.210 --> 00:53:13.560
+Tracy Kuhrt: Any thoughts on kind of how we would approach that or if that's the right mix up.
+
+360
+00:53:23.190 --> 00:53:23.520
+Tracy Kuhrt: heart.
+
+361
+00:53:25.440 --> 00:53:30.300
+Hart Montgomery: yeah I think there's some I put some comments on that in the project families document.
+
+362
+00:53:31.050 --> 00:53:35.370
+Hart Montgomery: Okay, so I think you know Community metrics are a great way to look at that.
+
+363
+00:53:37.200 --> 00:53:45.360
+Hart Montgomery: But you know, obviously picking out those Community metrics I think is is you know, the devil is in the details of that one.
+
+364
+00:53:49.050 --> 00:53:49.560
+Tracy Kuhrt: Is that.
+
+365
+00:53:49.620 --> 00:53:49.950
+Tracy Kuhrt: Is that.
+
+366
+00:53:49.980 --> 00:53:53.850
+Tracy Kuhrt: New or that's that's information that was already in that project family stuff.
+
+367
+00:53:54.300 --> 00:53:55.140
+Hart Montgomery: is already there.
+
+368
+00:53:55.590 --> 00:53:55.920
+Tracy Kuhrt: Okay.
+
+369
+00:53:56.340 --> 00:53:56.580
+All right.
+
+370
+00:53:57.900 --> 00:54:00.390
+Tracy Kuhrt: um so yeah, I think, maybe we need to.
+
+371
+00:54:01.590 --> 00:54:11.220
+Tracy Kuhrt: see if we can take a look at that project families document that heart had put together it's linked and in the references at the bottom of the project families test page and.
+
+372
+00:54:12.420 --> 00:54:17.970
+Tracy Kuhrt: Maybe fix up this document to reflect kind of what it is that we're we want to do around.
+
+373
+00:54:19.320 --> 00:54:27.900
+Tracy Kuhrt: Around the project Emily I think the other kind of tasks that I could see coming out of face discussion is just the.
+
+374
+00:54:29.160 --> 00:54:42.570
+Tracy Kuhrt: You know, is is there, somebody who wants to put together a list of Maybe those I want to or i'm this sort of persona looking for X coming into the website.
+
+375
+00:54:45.840 --> 00:54:46.230
+Tracy Kuhrt: Great.
+
+376
+00:54:48.030 --> 00:54:58.410
+Grace Hartley: i'm not the right person or not, but I think what you're asking for, I mean if we're going to do this right, we probably need like a user researcher and like a professional like.
+
+377
+00:54:59.160 --> 00:55:05.520
+Grace Hartley: To kind of go through the different personas identify the personas and then be like what's important to them and then.
+
+378
+00:55:06.540 --> 00:55:08.670
+Grace Hartley: And then be able to create that what you're asking for.
+
+379
+00:55:10.320 --> 00:55:17.520
+Grace Hartley: For maybe the ask is, do we want it yeah do we want to hire outsource user researcher to go through the.
+
+380
+00:55:19.020 --> 00:55:25.260
+Grace Hartley: Different personas of people who are entering our site and and and then go from there or that's one option sorry.
+
+381
+00:55:30.300 --> 00:55:33.900
+Tracy Kuhrt: yeah and then you know it sounds like maybe you've already test some folks with.
+
+382
+00:55:34.110 --> 00:55:38.550
+Tracy Kuhrt: Doing that sort of thing is that correct, is what is it that we could do to help.
+
+383
+00:55:39.360 --> 00:55:39.840
+With that.
+
+384
+00:55:41.340 --> 00:55:54.270
+Benjamin Thomas: i've any tasks, the integration of the drift APP so far, so this the second task will be to start building out the journeys and the questions and also i'm finishing the personas to assist the.
+
+385
+00:56:01.950 --> 00:56:02.250
+Tracy Kuhrt: gym.
+
+386
+00:56:03.420 --> 00:56:08.460
+Jim Zhang: just another random idea I think we also need to define a list of.
+
+387
+00:56:10.380 --> 00:56:14.640
+Jim Zhang: functional groups multiple projects of it and.
+
+388
+00:56:15.720 --> 00:56:21.000
+Jim Zhang: If they can be used to as a prominent label I think david's design has.
+
+389
+00:56:22.080 --> 00:56:25.410
+Jim Zhang: Provision for that already he calls them tech names.
+
+390
+00:56:26.910 --> 00:56:36.360
+Jim Zhang: Like those can be really useful for people when they look at the project names to sort of just have the first level understanding what they do.
+
+391
+00:56:38.490 --> 00:56:55.140
+Jim Zhang: was just looking at the club need if they've got hundreds of projects, and this is very effective when when they list all them all of them in the grid, they just add a simple label of functioning what they do container runtime that's very easy to understand.
+
+392
+00:56:56.640 --> 00:56:57.570
+Jim Zhang: For example.
+
+393
+00:56:59.760 --> 00:57:00.150
+Tracy Kuhrt: and
+
+394
+00:57:02.250 --> 00:57:05.580
+Tracy Kuhrt: Jim did you want to take a first stab at that because.
+
+395
+00:57:05.640 --> 00:57:10.890
+Tracy Kuhrt: The things that come to my mind, I think, are the ones that we have, which probably aren't enough.
+
+396
+00:57:12.150 --> 00:57:15.840
+Tracy Kuhrt: And so yeah if you wouldn't mind taking a stab at that I think that'd be great.
+
+397
+00:57:17.760 --> 00:57:18.420
+Jim Zhang: love to help.
+
+398
+00:57:19.980 --> 00:57:20.250
+Tracy Kuhrt: Great.
+
+399
+00:57:21.330 --> 00:57:24.930
+Jim Zhang: Is there an issue that this is going to be done.
+
+400
+00:57:26.220 --> 00:57:29.010
+Tracy Kuhrt: So we're just doing it on the wiki page itself.
+
+401
+00:57:30.690 --> 00:57:35.850
+Tracy Kuhrt: So you can either create like a sub page to that to capture that information or.
+
+402
+00:57:37.110 --> 00:57:37.680
+Tracy Kuhrt: mom.
+
+403
+00:57:38.970 --> 00:57:42.510
+Tracy Kuhrt: Ah, maybe it is going to get really and we'll be.
+
+404
+00:57:47.460 --> 00:57:50.820
+Tracy Kuhrt: Okay, any other comments before we close for today.
+
+405
+00:58:02.970 --> 00:58:15.000
+Tracy Kuhrt: Alright, if there's no other comments, then thanks all for attending and I think next week are a task force, it will be covering is the one that were originally scheduled to cover today.
+
+406
+00:58:17.430 --> 00:58:21.480
+Tracy Kuhrt: And that is the one dental I think you're going to lead us through.
+
+407
+00:58:22.470 --> 00:58:31.230
+Danno Ferrin: yeah i'll have to have some docs in the chat room on Monday for the scoping yeah I think our first meetings just going to be a brainstorming exercise.
+
+408
+00:58:32.790 --> 00:58:36.990
+Tracy Kuhrt: And that's the project gifts, so what projects are we missing within type integer.
+
+409
+00:58:39.360 --> 00:58:42.210
+Tracy Kuhrt: Alright, well, we will see you then all next week.
+
+410
+00:58:42.720 --> 00:58:44.910
+Tracy Kuhrt: Thanks Tracy hi hi.
+

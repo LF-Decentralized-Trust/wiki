@@ -1,0 +1,19 @@
+13:06:03	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=50135345
+13:29:50	 From  Troy Ronda : I don’t think that’s a good practice.
+13:30:01	 From  Troy Ronda : You should use different keys for different purposes.
+13:31:05	 From  Troy Ronda : Note: did:key populates all the verification method sections — it’s not about the properties of Edwards curve keys.
+13:32:15	 From  Troy Ronda : It’s just that did:key needs a special case to convert Edwards curve for the key agreement section.
+13:36:53	 From  Troy Ronda : For this specific PR, is the only change needed to clarify the wording about the prior DID doc?
+13:38:46	 From  Troy Ronda : Baha updated the PR if you hit refresh.
+13:43:51	 From  Troy Ronda : So the suggestion is to simply remove the signature right?
+13:47:26	 From  Daniel Hardman : right
+13:49:02	 From  Troy Ronda : cool
+13:56:41	 From  baha.shaaban : PR 626 updated by removing signing of attachments
+14:02:00	 From  Andrew Whitehead : I have another quick topic if there’s time
+14:02:56	 From  Daniel Hardman : Okay, new sentence added to PR #627
+14:12:26	 From  Troy Ronda : So, of course, the result will end up being two different interop and some will overlap.
+14:12:53	 From  Troy Ronda : And both are considered valid AIP v2.
+14:19:44	 From  Daniel Hardman : https://semver.org/#spec-item-9
+14:22:03	 From  Troy Ronda : Profile Media Type PR in DIDComm v2 WG: https://github.com/decentralized-identity/didcomm-messaging/pull/177/files
+14:22:30	 From  Daniel Hardman : https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0003-protocols/README.md#semver-rules-for-protocols
+14:25:16	 From  Andrew Whitehead : Can fix the syntax errors with ‘jsonc’

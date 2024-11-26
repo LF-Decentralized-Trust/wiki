@@ -1,0 +1,1046 @@
+WEBVTT
+
+1
+00:01:25.740 --> 00:01:28.260
+Brent Zundel: hey heart, I just saw that cam canceled the meeting.
+
+2
+00:01:30.060 --> 00:01:30.510
+Hart Montgomery: Okay.
+
+3
+00:01:33.120 --> 00:01:40.140
+Brent Zundel: there's a PR I don't know if you've had a chance to look at it, I don't know that it's anything you're going to care too much about but.
+
+4
+00:01:43.470 --> 00:01:47.460
+Brent Zundel: If you get a chance to review it I think that'd be valuable.
+
+5
+00:01:48.510 --> 00:01:50.790
+Hart Montgomery: This is the which one.
+
+6
+00:01:51.840 --> 00:01:53.250
+Hart Montgomery: To 10 or two or three.
+
+7
+00:01:54.090 --> 00:01:56.130
+Brent Zundel: Think it's to can.
+
+8
+00:01:56.640 --> 00:01:58.170
+Hart Montgomery: To the credential values.
+
+9
+00:01:59.910 --> 00:02:02.430
+Brent Zundel: Let me open it up here there's a SEC.
+
+10
+00:02:04.410 --> 00:02:06.510
+Hart Montgomery: Is this the camera or the other guy.
+
+11
+00:02:07.560 --> 00:02:08.280
+Brent Zundel: The other guy.
+
+12
+00:02:08.310 --> 00:02:09.270
+Hart Montgomery: constitute okay.
+
+13
+00:02:09.960 --> 00:02:14.940
+Brent Zundel: yeah the potential values json serialized be serialized it basically just adds.
+
+14
+00:02:16.470 --> 00:02:21.870
+Brent Zundel: Some more it exposes more serialization options at the f5 layer
+
+15
+00:02:24.360 --> 00:02:26.610
+Brent Zundel: In order to make changes work.
+
+16
+00:02:27.720 --> 00:02:31.680
+Brent Zundel: That they want to expose in the earth ago rapper.
+
+17
+00:02:32.940 --> 00:02:35.580
+Hart Montgomery: Okay, that seems fine.
+
+18
+00:02:36.180 --> 00:02:39.660
+Brent Zundel: yeah I mean I think it's it's fine we've had.
+
+19
+00:02:42.690 --> 00:02:46.290
+Brent Zundel: I don't know who Baron sleep direct is, but he also reviewed it.
+
+20
+00:02:47.820 --> 00:02:48.930
+Brent Zundel: which was nice.
+
+21
+00:02:52.950 --> 00:02:56.760
+Brent Zundel: And so I don't know if we need at least one more maintainer.
+
+22
+00:02:58.800 --> 00:03:01.680
+Brent Zundel: to review it and approve it before.
+
+23
+00:03:02.250 --> 00:03:05.070
+Hart Montgomery: So i'm tempted, I cannot technically be a maintainer.
+
+24
+00:03:05.760 --> 00:03:06.420
+Brent Zundel: Oh right.
+
+25
+00:03:07.110 --> 00:03:08.370
+Hart Montgomery: So I can like.
+
+26
+00:03:09.690 --> 00:03:14.370
+Hart Montgomery: I can tell you what I think, but I can't count us an official review.
+
+27
+00:03:15.510 --> 00:03:29.580
+Brent Zundel: yeah no problem I just i'm also fuzzy on how it works to have a new version of ursus show up is that does that kind of happen automatically as we build things, or is it a process that we need.
+
+28
+00:03:30.390 --> 00:03:31.650
+Hart Montgomery: To cut a release right.
+
+29
+00:03:33.000 --> 00:03:34.230
+Brent Zundel: I sure.
+
+30
+00:03:36.450 --> 00:03:38.730
+Hart Montgomery: So historically Mike has done releases.
+
+31
+00:03:40.290 --> 00:03:43.200
+Brent Zundel: yeah historically Mike has been very distant another ball.
+
+32
+00:03:43.980 --> 00:03:47.760
+Hart Montgomery: So yeah you just need to do like it's.
+
+33
+00:03:49.410 --> 00:03:54.570
+Hart Montgomery: yeah you just it's like it's pretty it's not too bad for just doing it with rest right.
+
+34
+00:03:56.820 --> 00:04:00.810
+Hart Montgomery: Like the rest processes not too too difficult well.
+
+35
+00:04:00.840 --> 00:04:04.470
+Brent Zundel: Maybe I need to King Mike and have them give me a tutorial.
+
+36
+00:04:05.220 --> 00:04:10.680
+Hart Montgomery: yeah it would be like 15 minutes I think i'm sure you could get it fast what's your email, by the way.
+
+37
+00:04:12.090 --> 00:04:15.120
+Brent Zundel: i'm rent dot sundial at a vast.
+
+38
+00:04:15.870 --> 00:04:17.580
+Hart Montgomery: See you empty l.
+
+39
+00:04:18.240 --> 00:04:19.080
+Brent Zundel: Z UN.
+
+40
+00:04:19.290 --> 00:04:22.350
+Hart Montgomery: de la a vast AV St.
+
+41
+00:04:22.620 --> 00:04:24.600
+Hart Montgomery: yeah COM yep.
+
+42
+00:04:27.240 --> 00:04:30.270
+Hart Montgomery: Oh yeah are you have the security mailing list.
+
+43
+00:04:33.570 --> 00:04:34.650
+Brent Zundel: I think I might be.
+
+44
+00:04:35.340 --> 00:04:40.830
+Hart Montgomery: Okay there's just a male about or so there was somebody complaining about stuff and I think we addressed most of it.
+
+45
+00:04:41.970 --> 00:04:43.410
+Brent Zundel: I didn't mean.
+
+46
+00:04:44.160 --> 00:04:45.210
+Hart Montgomery: i'll just forward it to.
+
+47
+00:04:46.860 --> 00:04:48.630
+Brent Zundel: yeah i'm not seeing that once maybe.
+
+48
+00:04:57.090 --> 00:05:03.270
+Hart Montgomery: yeah I guess I missed that I was hoping to hear from Kevin folks were you on the call yesterday about the ducks.
+
+49
+00:05:04.800 --> 00:05:11.490
+Brent Zundel: I have not been paying it I let me just say my status as an indie maintainer is.
+
+50
+00:05:12.690 --> 00:05:15.660
+Brent Zundel: Probably rightfully questionable at this point.
+
+51
+00:05:15.810 --> 00:05:16.350
+gotcha.
+
+52
+00:05:18.480 --> 00:05:19.620
+Brent Zundel: So no I haven't.
+
+53
+00:05:20.490 --> 00:05:20.970
+doors.
+
+54
+00:05:23.100 --> 00:05:23.820
+Brent Zundel: The indie bugs.
+
+55
+00:05:25.710 --> 00:05:27.150
+Hart Montgomery: What are you working on these days.
+
+56
+00:05:28.380 --> 00:05:30.930
+Brent Zundel: let's see I went to my first ETF meeting.
+
+57
+00:05:33.000 --> 00:05:52.650
+Brent Zundel: So that was fun we was there when bbs was presented to the CFO rg and it sounded like everybody there thought it was neat and they're going to take it to the mailing list and decide whether they're going to formally review it as part of their their thing so that was cool.
+
+58
+00:05:55.320 --> 00:05:59.130
+Brent Zundel: And then the other thing I was there for was the json web proofs.
+
+59
+00:06:01.050 --> 00:06:04.320
+Brent Zundel: effort which I don't know how familiar, you are with that.
+
+60
+00:06:04.590 --> 00:06:05.550
+Hart Montgomery: that's super.
+
+61
+00:06:06.540 --> 00:06:08.190
+Brent Zundel: I you know what a job is.
+
+62
+00:06:08.940 --> 00:06:18.870
+Brent Zundel: uh huh so the J wp is the Jose data structure that would enable.
+
+63
+00:06:20.700 --> 00:06:30.870
+Brent Zundel: being signed by a signature that supports selective disclosure and holder binding, and you know signature randomization and predicates and all of that.
+
+64
+00:06:31.740 --> 00:06:32.010
+yeah.
+
+65
+00:06:33.030 --> 00:06:35.220
+Brent Zundel: which I mean pretty cool that.
+
+66
+00:06:35.250 --> 00:06:36.240
+Hart Montgomery: yeah yeah.
+
+67
+00:06:36.600 --> 00:06:42.630
+Brent Zundel: Ping identity and Microsoft are spearheading this effort to make those things more available and more usable.
+
+68
+00:06:45.510 --> 00:06:45.930
+Hart Montgomery: yeah.
+
+69
+00:06:46.380 --> 00:06:52.740
+Brent Zundel: So yeah that kind of stuff that in this the wcc are those two things are eating up most of my time nowadays.
+
+70
+00:06:53.760 --> 00:06:58.050
+Hart Montgomery: yeah cool I mean I guess yeah this this a bunch of stuff going on.
+
+71
+00:07:01.500 --> 00:07:04.350
+Hart Montgomery: Is drummond talked about the open wallet stuff.
+
+72
+00:07:04.950 --> 00:07:10.740
+Brent Zundel: Yes, I was, I was present at the birth of the open wallet.
+
+73
+00:07:10.830 --> 00:07:15.270
+Brent Zundel: Oh, you were you were there yeah I was at identifiers when they started talking about it and.
+
+74
+00:07:16.620 --> 00:07:20.580
+Brent Zundel: I mean it sounds potentially like a really good idea.
+
+75
+00:07:20.940 --> 00:07:23.700
+Hart Montgomery: But I think it's a great idea there's a huge amount of interest.
+
+76
+00:07:24.630 --> 00:07:30.120
+Brent Zundel: yeah huge interest and me just like let's set up an open source.
+
+77
+00:07:31.380 --> 00:07:34.020
+Brent Zundel: competitors competitor essentially to apple and Google.
+
+78
+00:07:35.160 --> 00:07:46.020
+Brent Zundel: So if there's going to be a playing field at least they are at least they are either obviously going to not be playing along with everybody else, or they will have to play along with everybody else.
+
+79
+00:07:47.760 --> 00:07:47.970
+Hart Montgomery: yep.
+
+80
+00:07:49.530 --> 00:07:52.530
+Hart Montgomery: that'll that's an interesting thing I think the.
+
+81
+00:07:55.260 --> 00:07:57.810
+Hart Montgomery: down the line i've done a little bit for that so.
+
+82
+00:07:59.820 --> 00:08:00.840
+Hart Montgomery: we'll see where that ends up.
+
+83
+00:08:02.130 --> 00:08:03.660
+Brent Zundel: yeah I think it's got a lot of potential.
+
+84
+00:08:06.510 --> 00:08:06.630
+Hart Montgomery: To.
+
+85
+00:08:07.560 --> 00:08:12.330
+Brent Zundel: shape shaping up the global forum prep shaping up.
+
+86
+00:08:12.960 --> 00:08:15.960
+Hart Montgomery: that's come pretty well, I mean I think we're.
+
+87
+00:08:17.280 --> 00:08:20.250
+Hart Montgomery: in good shape there, I mean the big specters eyes covered right.
+
+88
+00:08:21.030 --> 00:08:27.690
+Brent Zundel: yeah I mean I traveled a lot is the last six months, and so.
+
+89
+00:08:29.490 --> 00:08:29.850
+Hart Montgomery: yeah.
+
+90
+00:08:30.030 --> 00:08:41.310
+Brent Zundel: Because being like the different precautions that are being taken, and this is every meeting was totally masked and there were tests available and other meetings i've gone to nobody wore masks and.
+
+91
+00:08:43.500 --> 00:08:45.990
+Brent Zundel: I don't know that there was a huge difference in.
+
+92
+00:08:50.160 --> 00:08:51.000
+Brent Zundel: Being at a conference.
+
+93
+00:08:52.770 --> 00:08:57.990
+Hart Montgomery: yeah I don't know I did there's some there's still some companies that have pretty restricted travel policies.
+
+94
+00:09:01.320 --> 00:09:02.520
+Hart Montgomery: Just because, like.
+
+95
+00:09:05.340 --> 00:09:08.940
+Hart Montgomery: You know if you have an employee that say gets like long cove it right.
+
+96
+00:09:10.170 --> 00:09:11.100
+Hart Montgomery: Out of work event.
+
+97
+00:09:12.480 --> 00:09:16.080
+Hart Montgomery: Then that's you know that's not crazy for you right.
+
+98
+00:09:17.190 --> 00:09:17.670
+Hart Montgomery: So.
+
+99
+00:09:19.980 --> 00:09:28.080
+Hart Montgomery: yeah it's I mean it should be really nice, I mean it's also like you get the time slot right before OSS EU.
+
+100
+00:09:31.470 --> 00:09:32.430
+Hart Montgomery: So there's a lot of.
+
+101
+00:09:33.810 --> 00:09:37.440
+Hart Montgomery: We can send attendees there and we can have some attendees come as well.
+
+102
+00:09:38.040 --> 00:09:38.460
+yeah.
+
+103
+00:09:39.660 --> 00:09:40.080
+Hart Montgomery: So.
+
+104
+00:09:40.560 --> 00:09:42.660
+Brent Zundel: We bombed it conflicts with key Pack.
+
+105
+00:09:45.000 --> 00:09:45.360
+Hart Montgomery: yeah.
+
+106
+00:09:47.550 --> 00:09:48.810
+Brent Zundel: i'll get to double in something.
+
+107
+00:09:51.780 --> 00:09:52.200
+Hart Montgomery: yeah.
+
+108
+00:09:54.360 --> 00:09:54.960
+Hart Montgomery: Definitely.
+
+109
+00:09:56.970 --> 00:09:58.440
+Hart Montgomery: Is there anything else we should go over.
+
+110
+00:09:59.820 --> 00:10:00.450
+Brent Zundel: and
+
+111
+00:10:03.990 --> 00:10:04.590
+Brent Zundel: I don't know.
+
+112
+00:10:07.620 --> 00:10:07.920
+Brent Zundel: I.
+
+113
+00:10:11.430 --> 00:10:13.350
+Brent Zundel: i'm concerned about ursa.
+
+114
+00:10:13.770 --> 00:10:15.870
+Hart Montgomery: i'm concerned actually about the hole.
+
+115
+00:10:17.220 --> 00:10:19.890
+Hart Montgomery: In the areas ursa stack yeah.
+
+116
+00:10:22.440 --> 00:10:26.610
+Hart Montgomery: it's probably even more concerned about India then ursa.
+
+117
+00:10:27.240 --> 00:10:27.690
+Okay.
+
+118
+00:10:29.790 --> 00:10:31.140
+Hart Montgomery: But yeah.
+
+119
+00:10:33.300 --> 00:10:39.510
+Brent Zundel: yeah i'm i'm concerned about indie because the flagship indie product is being.
+
+120
+00:10:39.840 --> 00:10:42.150
+Brent Zundel: In my brenda's team is managed.
+
+121
+00:10:44.190 --> 00:10:47.760
+Brent Zundel: But I guess I don't know that they have much choice at this point.
+
+122
+00:10:51.420 --> 00:10:52.620
+Hart Montgomery: yeah I don't know I mean.
+
+123
+00:10:53.760 --> 00:10:56.760
+Hart Montgomery: So the worst case is you like you know.
+
+124
+00:10:59.010 --> 00:11:03.480
+Hart Montgomery: it's easier to replace crypto primitives than a whole distributed ledger right.
+
+125
+00:11:05.520 --> 00:11:06.180
+So, like.
+
+126
+00:11:07.590 --> 00:11:07.980
+Hart Montgomery: You know.
+
+127
+00:11:13.050 --> 00:11:16.140
+Hart Montgomery: yeah we've had some talks about this.
+
+128
+00:11:19.920 --> 00:11:21.390
+Hart Montgomery: But yeah it's.
+
+129
+00:11:24.060 --> 00:11:26.400
+Hart Montgomery: it's questionable whether the manpower is there.
+
+130
+00:11:29.190 --> 00:11:29.670
+Hart Montgomery: Like.
+
+131
+00:11:31.350 --> 00:11:31.710
+Hart Montgomery: So.
+
+132
+00:11:32.850 --> 00:11:46.260
+Brent Zundel: So what What would you say is currently vibrant and exciting at hyper ledger because I haven't you know, been super involved I haven't been as involved there as I, as I formally was.
+
+133
+00:11:46.920 --> 00:11:51.330
+Hart Montgomery: Baby most other things, or her are growing, I mean.
+
+134
+00:11:53.730 --> 00:11:55.500
+Hart Montgomery: fabric is still plugging along.
+
+135
+00:11:57.870 --> 00:11:59.730
+Hart Montgomery: You know I mean they're still.
+
+136
+00:12:02.340 --> 00:12:02.790
+Hart Montgomery: You know.
+
+137
+00:12:03.840 --> 00:12:14.010
+Hart Montgomery: Maybe slightly down from contributions from like 2018 but you know basically constant the past couple years base is growing a lot in popularity.
+
+138
+00:12:17.430 --> 00:12:21.270
+Hart Montgomery: there's there's a lot of people who are interested in hybrid blockchain applications.
+
+139
+00:12:28.230 --> 00:12:40.680
+Hart Montgomery: So, you know that they see scraped for that we've seen really explosive growth in some of the the tooling to interrupt stuff so like cactus and firefly I don't know if you're familiar with those.
+
+140
+00:12:41.040 --> 00:12:44.340
+Brent Zundel: I am not, what can you give me a summary.
+
+141
+00:12:44.910 --> 00:12:53.910
+Hart Montgomery: yeah so cactus is a blockchain interoperability project it's like focused on atomic swaps and cross chain transactions and things like that.
+
+142
+00:12:54.450 --> 00:12:55.890
+Brent Zundel: How does that relate to quilt.
+
+143
+00:12:56.670 --> 00:12:57.150
+A.
+
+144
+00:12:58.200 --> 00:13:07.770
+Hart Montgomery: sort of does quote wasn't instantiate of a particular protocol, the quilt is dead so coulters deprecating cactus is much more general than quilt.
+
+145
+00:13:10.710 --> 00:13:20.850
+Hart Montgomery: In cactus sort of takes a different approach, where it's like you're probably familiar with a lot of these blockchains that focus on interoperability try to be like a block chain of blockchains.
+
+146
+00:13:21.270 --> 00:13:21.690
+yeah.
+
+147
+00:13:22.770 --> 00:13:26.130
+Hart Montgomery: So cactus sort of more of an SDK and SDK.
+
+148
+00:13:30.450 --> 00:13:31.590
+Hart Montgomery: If that makes sense.
+
+149
+00:13:32.580 --> 00:13:38.970
+Brent Zundel: solo i'm still not seeing how I isn't that I would use that to do atomic swaps.
+
+150
+00:13:39.870 --> 00:13:48.900
+Hart Montgomery: Well it's sort of you have you have a bunch of tooling around here like atomic swaps, and you can put it in sort of any kind of trust assumptions you want basically.
+
+151
+00:13:50.760 --> 00:14:03.570
+Hart Montgomery: The point is that, like people may not want to trust another blockchain they might have some other trust assumption that they use for atomic so Apps right in fundamentally, you have to have some shared trust between a person if you're going to do an atomic swap right.
+
+152
+00:14:05.610 --> 00:14:05.850
+well.
+
+153
+00:14:06.930 --> 00:14:07.260
+Hart Montgomery: So.
+
+154
+00:14:09.810 --> 00:14:25.230
+Hart Montgomery: So that's cactus and firefly is sort of you think of it as a middleware stack that lets you, you know sort of write code once and run it anywhere, so I don't know I mean it's there have been some efforts like this in the past, but this is, you know.
+
+155
+00:14:28.380 --> 00:14:30.210
+Hart Montgomery: very, very strong I guess.
+
+156
+00:14:32.220 --> 00:14:35.310
+Brent Zundel: So this is Java virtual machine a blockchain.
+
+157
+00:14:35.640 --> 00:14:36.930
+Hart Montgomery: sort of yeah yeah.
+
+158
+00:14:41.040 --> 00:14:48.660
+Brent Zundel: I know that they're probably this isn't the case, but I hear that i'm like oh good So if I have a vulnerability on one chain now it's everywhere.
+
+159
+00:14:49.830 --> 00:14:52.740
+Hart Montgomery: Well, not necessarily right.
+
+160
+00:14:53.910 --> 00:14:57.720
+Brent Zundel: I was thinking of the the smart contract bug this in this look at things and.
+
+161
+00:14:58.290 --> 00:14:58.770
+share.
+
+162
+00:15:01.440 --> 00:15:07.860
+Hart Montgomery: yeah if you think about it that way, if there's a bug at the top level it, it can propagate so.
+
+163
+00:15:13.260 --> 00:15:14.100
+Hart Montgomery: yeah those are.
+
+164
+00:15:16.080 --> 00:15:17.220
+Hart Montgomery: Those are really getting.
+
+165
+00:15:18.960 --> 00:15:25.080
+Hart Montgomery: You know, getting interest and we see where we see plenty of interest in in D, but no one no developers.
+
+166
+00:15:25.800 --> 00:15:29.160
+Brent Zundel: Right, I think people like oh Andy yeah this thing i've heard it's great.
+
+167
+00:15:29.460 --> 00:15:31.200
+Hart Montgomery: And then, no one will.
+
+168
+00:15:31.470 --> 00:15:31.740
+yeah.
+
+169
+00:15:35.310 --> 00:15:35.700
+Hart Montgomery: So.
+
+170
+00:15:37.920 --> 00:15:40.290
+Hart Montgomery: You yeah I don't know long term like.
+
+171
+00:15:42.990 --> 00:15:48.420
+Hart Montgomery: My long term vision is there should sort of be an identity project that the Linux foundation.
+
+172
+00:15:54.000 --> 00:15:54.510
+Hart Montgomery: But.
+
+173
+00:15:54.960 --> 00:15:57.750
+Brent Zundel: The best of diff and toys and hyper ledger.
+
+174
+00:15:59.280 --> 00:16:07.410
+Hart Montgomery: yeah I mean they sort of serve that there are those are all sort of different, but like there's a lot of tools that can be shared and used and.
+
+175
+00:16:13.290 --> 00:16:16.770
+Hart Montgomery: yeah I don't know if that'll ever happen that's obviously just an opinion.
+
+176
+00:16:20.820 --> 00:16:31.080
+Hart Montgomery: And the you know we have to have people who would be willing to handle that project obviously from a corporate side but yeah.
+
+177
+00:16:31.290 --> 00:16:33.900
+Brent Zundel: Well, I think that's I mean that's why India suffering.
+
+178
+00:16:36.720 --> 00:16:42.180
+Hart Montgomery: yeah I mean there aren't any like big corporate anchors right yeah I.
+
+179
+00:16:42.390 --> 00:16:45.360
+Brent Zundel: Think fabric is still around and India is struggling.
+
+180
+00:16:46.350 --> 00:16:52.140
+Hart Montgomery: Well, I mean i'd say there's there's just like you know some investment to to get it going great.
+
+181
+00:16:55.950 --> 00:16:56.460
+Hart Montgomery: So.
+
+182
+00:16:59.220 --> 00:17:04.800
+Hart Montgomery: yeah and I guess base you is sort of out of a startup but it's.
+
+183
+00:17:10.740 --> 00:17:19.020
+Hart Montgomery: Well it's consensus, and they have like mega eighth bucks right yeah that's interesting I mean we've got a.
+
+184
+00:17:21.090 --> 00:17:25.410
+Hart Montgomery: That that if you're in foundations, giving us a grant for basic it's kind of cool.
+
+185
+00:17:30.930 --> 00:17:31.860
+Hart Montgomery: And we're like.
+
+186
+00:17:33.480 --> 00:17:44.610
+Hart Montgomery: It was the first time they've done a grant for the open source for an open source project so it's a lot of work from me to get it, you know because they're used to just like giving stuff to companies right.
+
+187
+00:17:46.950 --> 00:17:49.650
+Hart Montgomery: But if we get a grant you know we want it to go to the.
+
+188
+00:17:50.970 --> 00:17:52.590
+Hart Montgomery: Like the actual developers right.
+
+189
+00:17:54.870 --> 00:17:55.140
+Brent Zundel: Right.
+
+190
+00:17:58.080 --> 00:17:59.370
+Hart Montgomery: So this was sort of a.
+
+191
+00:18:02.100 --> 00:18:04.260
+Hart Montgomery: This is a bit of a complicated thing but.
+
+192
+00:18:09.000 --> 00:18:10.260
+Hart Montgomery: yeah it's you know.
+
+193
+00:18:12.840 --> 00:18:18.690
+Hart Montgomery: It was a it'll be a fairly substantial amount of youth to so that's pretty cool they.
+
+194
+00:18:21.300 --> 00:18:21.630
+I.
+
+195
+00:18:22.830 --> 00:18:29.520
+Brent Zundel: I have been so distant from the hyper ledger stuff lately that you know people ask what's going on there I just like.
+
+196
+00:18:30.630 --> 00:18:31.380
+Brent Zundel: I don't know.
+
+197
+00:18:33.060 --> 00:18:46.680
+Brent Zundel: anymore, I used to be neck deep in Aries and in the end ursa Now I know I keep my fingers in the ears of the pie, because I just don't want to let go, you know i'm trying to drum up resources, and you know because.
+
+198
+00:18:47.700 --> 00:18:53.610
+Brent Zundel: Secure key and basketball security and has a really good track record of.
+
+199
+00:18:54.690 --> 00:18:55.110
+Brent Zundel: You know.
+
+200
+00:18:56.340 --> 00:19:02.280
+Brent Zundel: actually implementing things and providing developer resources to projects and just trying to.
+
+201
+00:19:03.840 --> 00:19:09.240
+Brent Zundel: beat that drum get hearse on people's radar so that we can dedicate a couple months to but.
+
+202
+00:19:11.730 --> 00:19:12.180
+Hart Montgomery: yeah.
+
+203
+00:19:12.660 --> 00:19:14.700
+Brent Zundel: So far, no nothing and it's frustrating.
+
+204
+00:19:17.790 --> 00:19:19.710
+Hart Montgomery: yeah well, let me know if I can help.
+
+205
+00:19:21.990 --> 00:19:32.520
+Brent Zundel: I will, and I think we're gonna have, I think, Richard and drummond are going to be at the global forum and hopefully it's not just former ever numbers we're going to be there, hopefully, we also have.
+
+206
+00:19:34.740 --> 00:19:37.020
+Brent Zundel: Some of that security people.
+
+207
+00:19:37.530 --> 00:19:42.480
+Hart Montgomery: I think there are a lot of non evernote of identity people that are going to be there.
+
+208
+00:19:43.800 --> 00:19:46.890
+Hart Montgomery: We have a lot of non every time identity talks so.
+
+209
+00:19:48.630 --> 00:19:51.990
+Brent Zundel: yeah but i'm just so i'm saying from the vast world.
+
+210
+00:19:52.530 --> 00:19:53.490
+Hart Montgomery: Oh gotcha yeah.
+
+211
+00:19:53.850 --> 00:19:57.960
+Brent Zundel: You know i'm hoping someone from a basket comes other than Richard and drummond because.
+
+212
+00:19:59.850 --> 00:20:06.510
+Brent Zundel: You know, we need more people here to kind of embrace the vision of hyper ledger or.
+
+213
+00:20:08.010 --> 00:20:16.140
+Brent Zundel: we're not going to be around and I doubt that will totally leave because drummond is still an avast employee and gentlemen let's hyper ledger.
+
+214
+00:20:18.360 --> 00:20:20.100
+Brent Zundel: But it's still just you know.
+
+215
+00:20:21.330 --> 00:20:36.840
+Brent Zundel: we're not having the same commitment to it, the other things did and i've asked is still figuring out it's Open Source strategy and oh we're probably going to merge with Norton which is even worse open source that.
+
+216
+00:20:37.260 --> 00:20:39.060
+Hart Montgomery: I particularly for this.
+
+217
+00:20:39.090 --> 00:20:43.590
+Hart Montgomery: yeah for the kind of stuff have asked wants to do that yeah.
+
+218
+00:20:45.090 --> 00:20:46.740
+Hart Montgomery: Open Source makes the most sense.
+
+219
+00:20:47.070 --> 00:20:56.460
+Brent Zundel: That totally does so convincing them of that convincing ourselves of that is has been difficult.
+
+220
+00:20:57.360 --> 00:20:58.920
+Hart Montgomery: yeah it's always a challenge to.
+
+221
+00:21:00.300 --> 00:21:03.900
+Hart Montgomery: Get people who you know who aren't as comfortable with that.
+
+222
+00:21:06.270 --> 00:21:08.220
+Hart Montgomery: But you know people come around.
+
+223
+00:21:10.800 --> 00:21:12.720
+Brent Zundel: Well it's kind of an infectious vision.
+
+224
+00:21:14.520 --> 00:21:14.730
+So.
+
+225
+00:21:16.500 --> 00:21:22.050
+Hart Montgomery: You never see I always put out you never see someone go from open source to close source.
+
+226
+00:21:23.250 --> 00:21:24.120
+Brent Zundel: Now, once you're.
+
+227
+00:21:25.950 --> 00:21:32.430
+Hart Montgomery: Like oh i've worked for all these years and open source and close sources to answer you like never happened.
+
+228
+00:21:32.850 --> 00:21:34.050
+Hart Montgomery: Literally doesn't happen.
+
+229
+00:21:34.320 --> 00:21:36.270
+Hart Montgomery: it's only like a one way.
+
+230
+00:21:37.080 --> 00:21:37.290
+Brent Zundel: yeah.
+
+231
+00:21:37.320 --> 00:21:46.950
+Hart Montgomery: I always ask people this when they're you know when they're thinking about it i'm like Have you ever seen someone who's unhappy with the decision and decides to go back to close source.
+
+232
+00:21:49.140 --> 00:21:50.490
+Hart Montgomery: That it's always crickets.
+
+233
+00:21:52.200 --> 00:21:52.620
+Brent Zundel: yeah.
+
+234
+00:21:53.970 --> 00:21:54.360
+Hart Montgomery: So.
+
+235
+00:21:57.900 --> 00:22:01.050
+Brent Zundel: I think it's a similar thing with society.
+
+236
+00:22:02.250 --> 00:22:05.850
+Brent Zundel: Once people kind of grasp onto the possibilities there.
+
+237
+00:22:07.080 --> 00:22:17.490
+Brent Zundel: They they begin to look at federated identity with some reports they're like wait no, no, we don't want to do that want to do this other thing well it's not really a thing, yet, but we'll get.
+
+238
+00:22:19.620 --> 00:22:26.250
+Hart Montgomery: yeah I mean the metaverse idealist what to use SSI to to which would be nice.
+
+239
+00:22:26.610 --> 00:22:26.880
+yeah.
+
+240
+00:22:28.410 --> 00:22:29.970
+Hart Montgomery: that's another application.
+
+241
+00:22:31.860 --> 00:22:54.390
+Brent Zundel: Now I just say how personally gratifying it was to be sitting in a meeting at the IGF and hearing a presentation from Microsoft and Ping identity about the importance of zero knowledge proofs for selective disclosure and and it, it was it was crazy.
+
+242
+00:22:55.500 --> 00:23:04.950
+Brent Zundel: To be like I just feel like I was one of the few people beating that drum for so long and so many people were like oh my God shut up with that drown we now.
+
+243
+00:23:06.480 --> 00:23:13.350
+Brent Zundel: And now it's like I can just sit back and hear other people talk about these things it's just bizarre to me it's so cool.
+
+244
+00:23:14.370 --> 00:23:14.670
+Hart Montgomery: yeah.
+
+245
+00:23:15.810 --> 00:23:18.600
+Hart Montgomery: No it's it's it's the way forward.
+
+246
+00:23:21.870 --> 00:23:23.220
+Hart Montgomery: So yeah.
+
+247
+00:23:24.870 --> 00:23:28.920
+Hart Montgomery: We know what the end game is going to look like it's just sort of the question is how do we get there.
+
+248
+00:23:32.700 --> 00:23:38.640
+Hart Montgomery: yeah and i'm hoping that, like something like this open wallet thing can really spur a bunch of.
+
+249
+00:23:40.260 --> 00:23:42.990
+Hart Montgomery: a bunch of big company interest in this kind of thing.
+
+250
+00:23:45.840 --> 00:23:46.080
+Brent Zundel: yeah.
+
+251
+00:23:47.250 --> 00:23:52.590
+Hart Montgomery: Like if we can get like all these people interested in this to to like you know.
+
+252
+00:23:53.970 --> 00:23:57.060
+Hart Montgomery: To contribute to like building, you know.
+
+253
+00:23:58.200 --> 00:24:01.590
+Hart Montgomery: The cryptography backbone for SSI that'd be fantastic right.
+
+254
+00:24:02.370 --> 00:24:04.110
+Hart Montgomery: yeah I don't.
+
+255
+00:24:05.370 --> 00:24:09.150
+Hart Montgomery: necessarily care where it lives, I just wanted to exist.
+
+256
+00:24:10.020 --> 00:24:10.290
+yeah.
+
+257
+00:24:11.520 --> 00:24:11.880
+So.
+
+258
+00:24:15.870 --> 00:24:16.110
+Hart Montgomery: yeah.
+
+259
+00:24:18.330 --> 00:24:25.770
+Hart Montgomery: awesome well I should let you go yeah and yeah stay in touch, let me know if there's anything I can do to help you if you have any questions or anything like that cool.
+
+260
+00:24:25.860 --> 00:24:26.130
+Brent Zundel: Thank you.
+
+261
+00:24:27.000 --> 00:24:31.020
+Hart Montgomery: yeah Thank you have a great rest of your day bye bye bye.
+

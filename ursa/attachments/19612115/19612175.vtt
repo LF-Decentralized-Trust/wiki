@@ -1,0 +1,290 @@
+WEBVTT
+
+1
+00:02:53.820 --> 00:02:55.290
+Nathan George: hey cam welcome back.
+
+2
+00:02:58.140 --> 00:02:58.560
+Cam Parra: How are you.
+
+3
+00:02:59.970 --> 00:03:02.280
+Nathan George: Good we had a good discussion last time.
+
+4
+00:03:03.870 --> 00:03:07.770
+Nathan George: It was kind of you know, organic and wandered all over the place, but it was a good discussion.
+
+5
+00:03:08.820 --> 00:03:11.130
+Cam Parra: Was it just you in heart or was it a.
+
+6
+00:03:11.160 --> 00:03:17.670
+Nathan George: brand and I don't know if I can't remember it everybody that was that was on the call it was very many of us.
+
+7
+00:03:18.750 --> 00:03:25.050
+Cam Parra: Okay that's okay um yeah, this is what the cards coming today so i'm not sure who else is going to come.
+
+8
+00:03:25.800 --> 00:03:30.690
+Nathan George: And you had a chance to review the questions that were on the the quarterly report for.
+
+9
+00:03:30.960 --> 00:03:32.310
+Cam Parra: You guys I submitted it.
+
+10
+00:03:33.270 --> 00:03:39.690
+Nathan George: Yet some of the tasc added comments and questions on it, so I asked my question is Have you had a chance to look and read the.
+
+11
+00:03:39.690 --> 00:03:53.970
+Cam Parra: comment oh yeah no I haven't I haven't I saw that it had to do with plans on changing the names on the on the repo structures and under on the repo branches and and.
+
+12
+00:03:54.330 --> 00:04:00.000
+Nathan George: Do we use we use any of the terms that we were trying to avoid like blacklist whitelist.
+
+13
+00:04:00.450 --> 00:04:03.960
+Cam Parra: yeah actually I know because I don't know.
+
+14
+00:04:04.410 --> 00:04:08.040
+Cam Parra: But I don't think we do like I couldn't confirm.
+
+15
+00:04:08.610 --> 00:04:17.880
+Nathan George: Why, I think, maybe that's just the only comment you need to make us we don't know of any instances where these terms are coming up in the code right now that we haven't checked.
+
+16
+00:04:18.360 --> 00:04:29.190
+Nathan George: out and the refactoring workaround also has taken far we've been trying to address the refactoring workaround also for continued project health before we tried to address the term the terminology issue.
+
+17
+00:04:29.730 --> 00:04:34.170
+Cam Parra: Right yeah i'll have to i'll have them write that down I think Tracy was the one who.
+
+18
+00:04:35.430 --> 00:04:36.060
+Cam Parra: wrote that.
+
+19
+00:04:36.720 --> 00:04:37.080
+yeah.
+
+20
+00:04:38.160 --> 00:04:38.610
+Nathan George: um.
+
+21
+00:04:40.050 --> 00:04:41.340
+Nathan George: I don't know i'm.
+
+22
+00:04:44.430 --> 00:04:53.610
+Nathan George: might make sure to 79 Chris to point out paper stuff last time we talked a bit about kind of you know what the statuses on some of that um.
+
+23
+00:04:53.730 --> 00:04:57.690
+Cam Parra: Did he talk about any of the fixes that he promised.
+
+24
+00:04:59.460 --> 00:05:12.480
+Nathan George: A I recall, there were a few sentences said about what the status of that was but I don't remember what what was said now because I was so interested in a non credit to dotto paper that I did enough attention to the other part.
+
+25
+00:05:13.170 --> 00:05:13.830
+Okay.
+
+26
+00:05:15.420 --> 00:05:19.200
+Cam Parra: um yeah it's interesting did he did he share the document as well, or no.
+
+27
+00:05:19.740 --> 00:05:27.000
+Nathan George: If you look at the recording some pieces, the document were on the recording but, at the link wasn't ready to publish yet if I remember right.
+
+28
+00:05:28.560 --> 00:05:32.760
+Cam Parra: Well it'd be published and under the ursa docs or just independently.
+
+29
+00:05:33.930 --> 00:05:48.570
+Nathan George: I I don't have any answer to that it was clear, he was preparing it for one of the co facilitation so you've been working on, there were a couple of terminology controversies where Mike was pretty adamant like he wanted us all in any instead of and and or the few things like that.
+
+30
+00:05:49.440 --> 00:05:49.830
+Where.
+
+31
+00:05:50.970 --> 00:05:59.100
+Nathan George: Some of the the syntax maybe the paper it was non standard but Mike had pretty good reasons for most of them and the ones that.
+
+32
+00:05:59.760 --> 00:06:09.420
+Nathan George: The other ones were just cases where the standards not you know universal or published somewhere so heart was going to try to find a couple of examples to give to Mike of.
+
+33
+00:06:10.170 --> 00:06:20.760
+Nathan George: MIT how to make some of the notation all that more standard um so I don't know when we'll see that paper privacy have to follow, along with Mike to see what he's ready to to to share it.
+
+34
+00:06:21.930 --> 00:06:32.370
+Nathan George: And also, I don't know where his primary publishing of that paper will occur because it it's clear it's not tied to this is implementation at this point so he may publish it somewhere else, where he already has code.
+
+35
+00:06:33.000 --> 00:06:33.570
+Nathan George: Okay.
+
+36
+00:06:34.380 --> 00:06:42.000
+Cam Parra: that's cool um yeah there's just like there's already like I guess like the framework and.
+
+37
+00:06:43.050 --> 00:06:53.070
+Cam Parra: stuff for an anon creds to in ursa docs and so i'm just wondering if if if if you put it there, but it doesn't have to be there as long as it gets done.
+
+38
+00:06:57.150 --> 00:07:06.660
+Cam Parra: But that's cool i'm excited to hear about that I haven't heard back from Mike I messaged him so but I haven't heard back from you might be on vacation.
+
+39
+00:07:08.460 --> 00:07:18.030
+Cam Parra: So I do get some feedback, maybe on some feedback, but just your back about this and on currents to stuff and get to review it.
+
+40
+00:07:20.580 --> 00:07:26.310
+Cam Parra: yeah the basically the point that we're at ursa is just we need.
+
+41
+00:07:26.490 --> 00:07:29.910
+Cam Parra: We need to get that the bug fix as soon as possible.
+
+42
+00:07:30.150 --> 00:07:40.860
+Cam Parra: And if we can get that fixed, then we can move on and do updates to ursa and I that's what I looking forward to the most.
+
+43
+00:07:41.940 --> 00:07:54.240
+Cam Parra: um but yeah that's that's basically it we have everything else ready for the vulnerability to be to be published and to end for for us to like.
+
+44
+00:07:56.400 --> 00:08:00.930
+Cam Parra: To offer the Community to have the fix and then for them to figure out how to implement it.
+
+45
+00:08:09.420 --> 00:08:16.410
+Nathan George: But I don't have anything else to share for this call, so I don't know what agenda you had prepared.
+
+46
+00:08:17.730 --> 00:08:24.120
+Nathan George: But it sounds like mostly we're just waiting to hear back from Mike and then you know it will be interesting to see if.
+
+47
+00:08:24.600 --> 00:08:31.650
+Nathan George: That one thing to remind as last time we had a kind of a crypto winter, where there was where it was reduced investment across the board.
+
+48
+00:08:32.040 --> 00:08:40.710
+Nathan George: It actually consolidated a lot of projects that helps significantly it hyper ledger because a bunch of folks who would have gone off and coated their own stuff independently on their own.
+
+49
+00:08:41.220 --> 00:08:47.850
+Nathan George: actually took a look at it and said, you know what if we share resources and effort on these things will actually be much more successful so.
+
+50
+00:08:48.180 --> 00:08:56.400
+Nathan George: One of my hopes, is that with some of the reduced investment we're seeing from some of the larger vendors that they'll actually take it with their stacks and realize that they should share.
+
+51
+00:08:57.240 --> 00:09:03.870
+Nathan George: share some libraries attack, so if we're savvy about that we can plug into those efforts and it will either.
+
+52
+00:09:04.530 --> 00:09:08.100
+Nathan George: Help us with our upstream dependencies because some of the upstream dependencies will be more.
+
+53
+00:09:08.640 --> 00:09:21.180
+Nathan George: More used and more widespread, or it will help us with our efforts as a private unit primary coding efforts sense, because we will be able to be to bring those projects in house hyper ledger or.
+
+54
+00:09:24.450 --> 00:09:33.900
+Nathan George: Those help support some of those libraries, as they get more attention and there's a little bit less diffusion in terms of everyone has enough money to try to code it on their own.
+
+55
+00:09:35.220 --> 00:09:43.050
+Cam Parra: yeah I agree, I think we're seeing that with the vulnerability and seeing people come together to get that fixed, I know that.
+
+56
+00:09:44.010 --> 00:09:57.000
+Cam Parra: Like people at BC and others are just waiting for that and are really in need of that fix and are willing to meet with us and do anything that we need to get that out there.
+
+57
+00:09:59.940 --> 00:10:07.890
+Cam Parra: But yeah I don't really have anything else for this meeting I didn't really have time to prepare anything I got back yesterday and was doing stuff.
+
+58
+00:10:08.790 --> 00:10:23.700
+Cam Parra: For work and, yes, I didn't I didn't really have I didn't really have much time to think about it, during my vacation either, so I didn't really have much besides updating people on on the status of of the vulnerability and.
+
+59
+00:10:24.750 --> 00:10:31.230
+Cam Parra: letting them know that we're still waiting on code so not much else to report there.
+
+60
+00:10:31.740 --> 00:10:36.060
+Nathan George: we're glad you had a chance to unblock it was good reasons for not being around.
+
+61
+00:10:36.450 --> 00:10:37.920
+Cam Parra: yeah yeah it was good.
+
+62
+00:10:39.180 --> 00:10:54.600
+Cam Parra: But i'll definitely try to put out an ad some agenda items and maybe a paper to read beforehand by the end of this week on the Channel and, hopefully, I can get Mike and others to come into the meeting and discuss that.
+
+63
+00:10:55.590 --> 00:11:01.860
+Nathan George: Well, excellent well I don't have anything else for this call, so I certainly don't have questions or discussion all the time with.
+
+64
+00:11:02.190 --> 00:11:05.820
+Cam Parra: cool yeah I don't have anything else so anything we can call it a meeting for today.
+
+65
+00:11:07.080 --> 00:11:14.520
+Nathan George: And if anyone's listening to the recording you should come in and bring a crypto top for us to discuss I really, really interested in talking about.
+
+66
+00:11:15.510 --> 00:11:22.230
+Nathan George: Threshold signatures and multi signature schemes for to make it so key management works better for people's identity was.
+
+67
+00:11:22.890 --> 00:11:33.330
+Nathan George: A lot most people have more than one device which means that any wallet computation turns into a form of multi party computation and there's a lot of interesting topics for ursa when we when we start getting into that space.
+
+68
+00:11:34.680 --> 00:11:46.140
+Cam Parra: yeah basically any crypto topic is welcome and i'm sure there's no such thing as a dumb question here welcome anything and any expertise level is welcome.
+
+69
+00:11:48.480 --> 00:11:50.850
+Nathan George: Bringing in more ideas helps us get smart.
+
+70
+00:11:51.390 --> 00:12:04.980
+Cam Parra: Right yeah everyone's perspective is welcome here so that's that's that's what we're looking forward to, but yeah I think we can call this a meeting and thanks Nathan for coming, we will see everyone in two weeks.
+
+71
+00:12:05.670 --> 00:12:06.930
+Nathan George: Thanks camper facilitating.
+
+72
+00:12:07.320 --> 00:12:08.550
+Cam Parra: All right, thank you, oh good.
+

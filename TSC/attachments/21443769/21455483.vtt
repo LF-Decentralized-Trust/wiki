@@ -1,0 +1,1430 @@
+WEBVTT
+
+1
+00:00:08.220 --> 00:00:21.390
+Tracy Kuhrt: Alright, so welcome to the January 27 TC calc as you are probably all aware, there are two things that you must abide by in joining this call the first one.
+
+2
+00:00:22.050 --> 00:00:32.580
+Tracy Kuhrt: Is the antitrust policy notice that is displayed on the screen and the second one is our code of conduct, which is linked in the agenda.
+
+3
+00:00:33.660 --> 00:00:44.070
+Tracy Kuhrt: The code of conduct basically says don't be a jerk and make sure to take into account everybody's different opinions and ideas.
+
+4
+00:00:45.330 --> 00:00:56.190
+Tracy Kuhrt: So we have three announcements today, the first announcement here is one that is always on our agenda just a reminder to everybody that the.
+
+5
+00:00:56.850 --> 00:01:15.330
+Tracy Kuhrt: Dev weekly developer newsletter goes out on Friday and if there's anything that you would like to reach the hundreds of hyper ledger developers, please click on that link and leave a comment and we'll get the information in that newsletter that goes out.
+
+6
+00:01:16.650 --> 00:01:25.980
+Tracy Kuhrt: The second one is, as you are probably aware from our conversation I think it was two weeks ago, the hyper ledger challenge has kicked off.
+
+7
+00:01:26.520 --> 00:01:45.750
+Tracy Kuhrt: And they're looking for mentors across all of the different areas within hyper ledger so if you're interested in being a mentor there is a link there for you to click on and volunteer your time and then the last announcement here i'm going to let men talk us through.
+
+8
+00:01:46.680 --> 00:02:05.910
+Min Yu: yeah Thank you Tracy so to continue the theme of mentoring here, so the hyper ledger foundation we're launching the mentorship program on February 1 and that starts starts with the call for mentors and project proposals.
+
+9
+00:02:07.260 --> 00:02:24.540
+Min Yu: If you can click on that link that will take you to the foreclosure mentorship program on the wiki page, this is actually the sixth year that we're doing this program, this is a formal mentorship program it's part of the Linux foundation mentoring mentorship initiative.
+
+10
+00:02:25.710 --> 00:02:35.340
+Min Yu: Actually, over the last five six years we have for hyper ledger we have steadily increasing the funding and number of.
+
+11
+00:02:36.390 --> 00:02:58.260
+Min Yu: For this program and the number of mentors and mentees who are involved in this program have also steadily increased as well just to give you some data points, if I look at 2020 wow we funded 2021 projects more than I think we have close to 30 some mentors involved 22 mentees involved.
+
+12
+00:02:59.400 --> 00:03:04.470
+Min Yu: All projects, except one were successfully completed and i'm hoping.
+
+13
+00:03:05.760 --> 00:03:19.530
+Min Yu: You don't just from the project presentations that are heard at the end of last year and the majority of the mentees are planning to continue, I hope, they're still involved in the hyper ledger community, so this is a great opportunity, where I for to connect.
+
+14
+00:03:21.000 --> 00:03:30.600
+Min Yu: Those who are active in the Community who want to mentor who want to teach with those who want to get their foot into the hyper ledger open source community so.
+
+15
+00:03:31.500 --> 00:03:46.590
+Min Yu: we're so as I mentioned we're going to be sending out the call for mentors and project proposals next week failure, first the project so Tracy if you want to click on the program timeline.
+
+16
+00:03:49.620 --> 00:04:05.250
+Min Yu: Thank you so let's see yeah so starting from failure, first through march 9 that's the project proposal time that phase and then we'll have about two weeks to review.
+
+17
+00:04:06.120 --> 00:04:18.930
+Min Yu: All the project proposals that we receive and then, once we approve the project proposals were put on the Linux foundation is called Elf X mentorship platform.
+
+18
+00:04:19.440 --> 00:04:30.900
+Min Yu: To accept mentee applications for six weeks and then we'll have two weeks period for the mentors to review all the applications that came in and select the amenities, that they would like to work with.
+
+19
+00:04:31.320 --> 00:04:42.360
+Min Yu: And then all the mentorship will officially start on June 1 and the mentees can participate, either as a full time or part time mentee So those are the timelines for the full time.
+
+20
+00:04:43.380 --> 00:05:01.290
+Min Yu: program and the part time program, as I mentioned, actually, even on the tlc roster I know many of you actually have been involved in this program so hope many of you will get involved this year as well, if you have time if you're interested.
+
+21
+00:05:03.060 --> 00:05:10.110
+Min Yu: yeah and also, if you have any questions I did put on the tasc agenda, please contact mentorship a hyper ledger.org.
+
+22
+00:05:11.910 --> 00:05:20.370
+Min Yu: I am on that alias and watching us if you have any questions so i'll respond from there, or if you have any questions today, yes, then your.
+
+23
+00:05:21.420 --> 00:05:28.710
+Daniela Barbosa: hi I just want to let everybody know that the men has been fantastic and amazing over the last few years running this.
+
+24
+00:05:29.040 --> 00:05:38.580
+Daniela Barbosa: mentorship program continues to grow, it continues to support the mentors and mentees it's really amazing know looking across the Linux foundation, I think the hyper ledger.
+
+25
+00:05:38.940 --> 00:05:49.770
+Daniela Barbosa: mentee program is you know, probably the one that is you know the best managed and just fantastic so Hats off to men Thank you so much, and that's why we continue to invest in in this.
+
+26
+00:05:50.370 --> 00:05:59.220
+Daniela Barbosa: As men said, this is a great opportunity for all the project leads to you know, to put forward a proposal for work that they are doing or want to be doing.
+
+27
+00:05:59.670 --> 00:06:10.140
+Daniela Barbosa: To get some some assistance and, more importantly, to bring in new talent new contributors and new maintain owners to our Community, so I really encourage everyone to do that.
+
+28
+00:06:10.500 --> 00:06:15.300
+Daniela Barbosa: And if anybody has questions about you know what does it take to be a mentor what should I do.
+
+29
+00:06:15.690 --> 00:06:23.100
+Daniela Barbosa: Please reach out to men or anybody on staff and there's also a listing on on the wiki kind of feedback that men has gathered from a lot of the other.
+
+30
+00:06:23.520 --> 00:06:31.890
+Daniela Barbosa: mentors over the years that would be helpful The other thing is that David boswell and Roy Jones and john bowen are going to be.
+
+31
+00:06:32.370 --> 00:06:39.330
+Daniela Barbosa: just looking as well at some of the project reports that have been done over the last few quarters to see if there's opportunities.
+
+32
+00:06:39.570 --> 00:06:54.180
+Daniela Barbosa: This to reach out to the maintainer is even if they're not on this call today and having them participate, so please think through who in the Community, if not yourself could leverage this program this is paid through our Member membership.
+
+33
+00:06:55.350 --> 00:06:59.910
+Daniela Barbosa: Funds, and we want to make sure that everyone in the Community can leverage it so.
+
+34
+00:07:00.480 --> 00:07:07.320
+Daniela Barbosa: Happy you know men I can't Thank you enough, I know you get a lot of kudos across the lf when we're talking about mentorship program, but I want to.
+
+35
+00:07:07.590 --> 00:07:17.670
+Daniela Barbosa: say this in front of the technical steering committee without your assistance over the last few years we couldn't have had you know 20 projects deliver code and and hopefully new contributors to the project, so thank you.
+
+36
+00:07:18.600 --> 00:07:28.740
+Min Yu: Thanks Daniela yes thanks for adding in additional data points and also encouraging everybody to leverage this program it's fungus who are yes membership funds and.
+
+37
+00:07:29.490 --> 00:07:34.320
+Min Yu: it's it's been a great experience for me to just to see you know.
+
+38
+00:07:35.190 --> 00:07:49.860
+Min Yu: All the contributions coming in from the mentees and getting the mentors and mentees connected to this program so thank you very much, and thank you Tracy as well you're you have always helped me with the wiki setup of this program as well, so thank you.
+
+39
+00:07:52.080 --> 00:07:57.930
+Tracy Kuhrt: yeah great thanks man thanks Daniel any questions from him on the mentorship Program.
+
+40
+00:08:04.470 --> 00:08:05.820
+Tracy Kuhrt: Alright, so you know questions.
+
+41
+00:08:06.660 --> 00:08:09.810
+Tracy Kuhrt: Are there any other announcements that anybody on the call would like to make.
+
+42
+00:08:17.160 --> 00:08:36.780
+Tracy Kuhrt: Right, see no hands, nobody coming up for you, I will then move us on to the the quarterly reports, so we do have three links here the southeast one just showed up yesterday, so I noticed this morning that not everybody has had the opportunity to review that yet.
+
+43
+00:08:37.920 --> 00:08:54.870
+Tracy Kuhrt: And then the caliper and the fabric one came in on time for us to review and I see that most of us have reviewed it, I did not see any specific questions on any of the reports, although I did see your comment about.
+
+44
+00:08:56.430 --> 00:09:07.830
+Tracy Kuhrt: The code of conduct and the sawtooth one but are there any questions or comments things that we should take back to the maintainer Czar the project report filers on these project reports.
+
+45
+00:09:11.100 --> 00:09:17.340
+Arnaud J Le Hors (IBM): So Tracy I actually wanted to highlight for everybody to see in case they haven't seen my comment, I mean.
+
+46
+00:09:17.760 --> 00:09:27.570
+Arnaud J Le Hors (IBM): You know this is a case where the so to team reports they have not really implemented the command requisite to restructure they're missing the code of conduct.
+
+47
+00:09:27.900 --> 00:09:35.070
+Arnaud J Le Hors (IBM): The change log you know I can see the argument, they feel like they are you know, achieving the same result in a different way.
+
+48
+00:09:35.400 --> 00:09:42.360
+Arnaud J Le Hors (IBM): And I can give them a break on this, on the other day, on the other hand, the code of conduct, I mean now it's been several months we have been.
+
+49
+00:09:42.780 --> 00:09:49.140
+Arnaud J Le Hors (IBM): You know, we have asked the groups that all the different projects to align the repository where the common.
+
+50
+00:09:50.070 --> 00:10:10.800
+Arnaud J Le Hors (IBM): repository structure we have defined, and I am I have to admit my patients is running teen on that one I feel like this is a very low hanging fruit and they should make the effort, and you know I wonder at one point we start you know, showing a bit of like you call this like.
+
+51
+00:10:11.880 --> 00:10:16.140
+Arnaud J Le Hors (IBM): We put a bit more pressure on the project to say Come on, did you act together, please.
+
+52
+00:10:17.820 --> 00:10:23.430
+Tracy Kuhrt: yeah you know, I was just thinking as you were talking it might just be worth while to create a PR.
+
+53
+00:10:24.780 --> 00:10:33.780
+Tracy Kuhrt: I think if i'm not mistaken, our code of conduct just will point to the code of conduct that we have that standard, so it might be a really easy PR for.
+
+54
+00:10:34.830 --> 00:10:35.490
+Tracy Kuhrt: us to.
+
+55
+00:10:38.070 --> 00:10:44.400
+Arnaud J Le Hors (IBM): And the thought of also cross my mind, I was like you know it probably didn't take much, but at the same time, I felt like.
+
+56
+00:10:45.300 --> 00:10:46.590
+Tracy Kuhrt: Why should I guess the point.
+
+57
+00:10:46.650 --> 00:10:48.300
+Arnaud J Le Hors (IBM): Is it's you know.
+
+58
+00:10:49.590 --> 00:10:59.610
+Arnaud J Le Hors (IBM): it's easy enough for them to do it, they should they want to be part of hyper ledger they i've seen you know we don't as much from the project, I think this is a very small thing they ought to do.
+
+59
+00:11:02.280 --> 00:11:06.870
+Tracy Kuhrt: Alright next I know any other comments on any of the.
+
+60
+00:11:06.900 --> 00:11:07.770
+Project report.
+
+61
+00:11:13.440 --> 00:11:13.770
+Tracy Kuhrt: Right.
+
+62
+00:11:15.330 --> 00:11:22.440
+Aruna S M: So so some of the reports I keep repeatedly saying that they are looking for more maintenance to get started with the project.
+
+63
+00:11:23.340 --> 00:11:33.840
+Aruna S M: So instead of taking a passive approach I guess how about taking an active approach, where we know the list of newly proposed projects on the labs and.
+
+64
+00:11:34.500 --> 00:11:43.320
+Aruna S M: So far, has asked has been whenever a new project proposal comes in the labs we asked them to check with one of the existing projects and see if they meet.
+
+65
+00:11:43.740 --> 00:11:54.840
+Aruna S M: The requirements and then join them right so, on the other side, we now see many of these projects are requesting additional support they say we don't have enough maintainer, so we need more contributors.
+
+66
+00:11:55.380 --> 00:12:04.800
+Aruna S M: So how about we asked the projects as well to do the same thing if we identify a new project proposal which falls in line with those.
+
+67
+00:12:05.550 --> 00:12:14.010
+Aruna S M: We should probably intimate those those project teams and ask them to go and look have a talk to those teams who are proposing a new project, maybe they.
+
+68
+00:12:14.910 --> 00:12:24.000
+Aruna S M: There is a potential for expanding the project scope or there could it may all end up to be a new project altogether, but it should be more active.
+
+69
+00:12:25.110 --> 00:12:28.560
+Aruna S M: From the project teams if they're looking for more contributors.
+
+70
+00:12:33.750 --> 00:12:34.350
+Tracy Kuhrt: So.
+
+71
+00:12:34.590 --> 00:12:39.060
+Tracy Kuhrt: yeah thanks I think that the comment or the the suggestion is.
+
+72
+00:12:40.710 --> 00:12:55.230
+Tracy Kuhrt: A good one, I guess, the question is, are we asking the main caters to do that are we asking the lab stewart's to do that, who is the asked to that we tried to get the maintainer to the lab projects or laps.
+
+73
+00:12:56.250 --> 00:13:09.150
+Aruna S M: So the first point of contact will still be labs towards because they keep a close eye on new labs being proposed, however, they don't they're not entitled to handle this throughout right, for example.
+
+74
+00:13:10.440 --> 00:13:20.820
+Aruna S M: you're being allowed to do do identify new project proposed and you I you know, basically, the area or the domain that it falls under you can notify.
+
+75
+00:13:21.870 --> 00:13:27.900
+Aruna S M: Somebody from the project team that hey here is a new project, I would like you to get in touch with them.
+
+76
+00:13:33.750 --> 00:13:35.790
+Aruna S M: guys mostly the labs D words, then.
+
+77
+00:13:38.040 --> 00:13:39.750
+Tracy Kuhrt: yeah I know.
+
+78
+00:13:41.940 --> 00:13:47.910
+Tracy Kuhrt: I know when I tried very hard in the comments for the labs right to make those connections.
+
+79
+00:13:48.930 --> 00:13:56.460
+Tracy Kuhrt: But I don't think we specifically call out mean here's where the projects we try to put that more on the labs.
+
+80
+00:13:58.050 --> 00:14:02.730
+Tracy Kuhrt: That people were suggesting the labs to have that conversation, but I think.
+
+81
+00:14:04.440 --> 00:14:13.440
+Tracy Kuhrt: You know, we won't be able to tag them tag them in theaters and get hub they don't have to be a separate process, because they are two different organizations.
+
+82
+00:14:20.460 --> 00:14:24.150
+Tracy Kuhrt: All right, any other comments on the project reports, then.
+
+83
+00:14:32.430 --> 00:14:45.000
+Tracy Kuhrt: Alright, so let's then move on to our discussion items and just a reminder for anybody who might be talking to the areas or the indie Community their reports are due next week.
+
+84
+00:14:46.380 --> 00:14:58.560
+Tracy Kuhrt: So the the first discussion item that we have here is one that we started last week but didn't make it very far through it really is a question around, how do we.
+
+85
+00:14:59.880 --> 00:15:02.460
+Tracy Kuhrt: Encourage projects to graduate.
+
+86
+00:15:03.510 --> 00:15:24.690
+Tracy Kuhrt: And do we have enough benefits to offer to our projects as they work through the life cycle, I think we were having a conversation at the end of last week, around two sorts of things one or no had suggested that maybe instead of adding additional benefits, maybe it's removing benefits.
+
+87
+00:15:26.520 --> 00:15:47.700
+Tracy Kuhrt: But there's a tension there because we want the incubator projects to really be successful in gathering a Community doing the work necessary to figure out how to you know work their way towards the incubation exit criteria so that they can graduate so there's a bit of attention there.
+
+88
+00:15:48.870 --> 00:15:58.470
+Tracy Kuhrt: surrounding that, and so I think you know that's that's really the two pieces that we talked about last week in our conversation.
+
+89
+00:15:58.980 --> 00:16:16.740
+Tracy Kuhrt: And so I want to kind of continue this conversation see if anybody has come up with any sort of additional benefits that they might think are useful to offer to our graduated projects versus the incubated projects and.
+
+90
+00:16:18.000 --> 00:16:23.970
+Tracy Kuhrt: Also, then maybe take a look at some of the suggestions that David has provided in the.
+
+91
+00:16:25.740 --> 00:16:40.620
+Tracy Kuhrt: In that wiki page as well, which I copied here to make it easier for us to reference so let's start with the question of, are there any additional benefits that anybody has come up with that we think we should offer to graduate it projects.
+
+92
+00:16:42.690 --> 00:16:49.470
+Tracy Kuhrt: Anything that would incentivize our projects to move towards graduated heart.
+
+93
+00:16:50.850 --> 00:16:57.510
+Hart Montgomery: Thanks Tracy I think David suggestions are really good here so like workshops translation stuff.
+
+94
+00:16:59.880 --> 00:17:05.520
+Hart Montgomery: I think there's a lot of marketing stuff that we could probably restrict to graduated projects.
+
+95
+00:17:11.520 --> 00:17:11.850
+Tracy Kuhrt: Okay.
+
+96
+00:17:16.320 --> 00:17:19.380
+Tracy Kuhrt: Anything else that anybody thinks would be good.
+
+97
+00:17:22.320 --> 00:17:23.850
+Tracy Kuhrt: As incentives.
+
+98
+00:17:29.610 --> 00:17:37.560
+David Boswell: I will point out that, on the notes that I put on there, thank you for copying those over Tracy I did change them yesterday I had an opportunity to talk to somebody at cnc F.
+
+99
+00:17:38.040 --> 00:17:43.740
+David Boswell: Yesterday, so if you read those earlier last week, the the documentation and translation ones, have been.
+
+100
+00:17:44.220 --> 00:17:48.870
+David Boswell: changed somewhat to provide more details about what they do so i'll just cover those really quick, just so people.
+
+101
+00:17:49.230 --> 00:17:56.730
+David Boswell: Know cnc F has a project services Doc similar to what we're talking about doing, and they do include translation and documentation support on that.
+
+102
+00:17:57.390 --> 00:18:07.290
+David Boswell: And I was really curious about what that meant it was not they didn't go into a lot of details on the dock itself, so I wanted to talk to somebody there they do invest funds there and they do a range of things.
+
+103
+00:18:07.980 --> 00:18:16.410
+David Boswell: Not so much documentation directly, although it sounds like they do have some staff do that to bootstrap some things a lot of it is more coordination efforts, which is.
+
+104
+00:18:16.920 --> 00:18:27.660
+David Boswell: similar to what we did last year around the fabric translation work with the documentation so there's a lot of coordinating efforts that can be done so, for example, one thing they said is Google offers.
+
+105
+00:18:28.380 --> 00:18:33.870
+David Boswell: A season of code program and so somebody on staff can manage that and apply for that and make sure that they get.
+
+106
+00:18:34.200 --> 00:18:43.710
+David Boswell: into that program so that's that coordination effort is something for us to consider something else they did that I also thought was really interesting and I have a link there, though, they also have.
+
+107
+00:18:45.450 --> 00:18:51.390
+David Boswell: What they call Doc assessment so to have somebody go in and review the state of a project documentation.
+
+108
+00:18:51.720 --> 00:18:59.100
+David Boswell: and analyze that and provide recommendations so somewhat you know, I think, giving some sort of roadmap and support and guidance to a project about what.
+
+109
+00:18:59.430 --> 00:19:03.690
+David Boswell: documentation, they should focus on what documentation be helpful, so I think.
+
+110
+00:19:04.140 --> 00:19:12.960
+David Boswell: Those give some more details I think my notes that initially said hey we should probably do something around documentation and translation because that's critical, which I think it is, but at least this is a little bit more.
+
+111
+00:19:13.320 --> 00:19:21.870
+David Boswell: concrete and specific to see what another element explanation project is doing and so just just to flag that I added those notes last night and people may not have seen that because.
+
+112
+00:19:22.650 --> 00:19:32.100
+David Boswell: That was just a recent addition, but I do think like the assessments and the coordination and organization support could be really, really valuable in terms of the documentation translation.
+
+113
+00:19:35.220 --> 00:19:59.610
+Tracy Kuhrt: yeah and I will, because while he's not here i'm pretty sure that the learning materials working group was also looking at trying to help the different projects with their documentation and improving those so I mean I definitely think improving documentation is a good thing, I will.
+
+114
+00:20:02.520 --> 00:20:12.690
+Tracy Kuhrt: I will kind of go back to I think it was our know last know Maybe it was hard last week I don't know what are the two of you said something about that tension right between helping.
+
+115
+00:20:13.980 --> 00:20:30.420
+Tracy Kuhrt: projects that are incubated kind of work their way up and I will say that this particular one for improving documentation seems like a really strong sort of thing that a lot of incubator projects might need help with right.
+
+116
+00:20:32.190 --> 00:20:39.450
+Tracy Kuhrt: improving their documentation, so that people can get up to speed quickly bring up their development environments Whatever the case may be right.
+
+117
+00:20:40.710 --> 00:20:51.690
+Tracy Kuhrt: So just for something to consider right, how do we, how do we ensure that, as we are trying to help our incubator projects that we're not.
+
+118
+00:20:53.400 --> 00:20:57.420
+Tracy Kuhrt: doing them a disservice, I guess, in this particular regards with documentation.
+
+119
+00:21:01.980 --> 00:21:02.100
+Arnaud J Le Hors (IBM): So.
+
+120
+00:21:03.000 --> 00:21:03.810
+David Boswell: Sorry go ahead, no.
+
+121
+00:21:04.380 --> 00:21:13.230
+Arnaud J Le Hors (IBM): No, I wanted to follow up, I mean I sure did talk about this tension and I think this is indeed a bit of a challenge, at the same time.
+
+122
+00:21:14.790 --> 00:21:15.720
+Arnaud J Le Hors (IBM): I you know.
+
+123
+00:21:16.950 --> 00:21:29.880
+Arnaud J Le Hors (IBM): So I as you as you reminded everybody I did say that maybe there is also a way which is to remove some of the benefits we already grant to incubation project and we didn't really talk too much about it.
+
+124
+00:21:30.450 --> 00:21:44.370
+Arnaud J Le Hors (IBM): Because we then shifted to more like or maybe we should you know we seen projects to a different level which is yet another completely different thing to do, but I do think i've looked at the set of.
+
+125
+00:21:45.180 --> 00:21:51.840
+Arnaud J Le Hors (IBM): criteria on the benefits that we have for each stage and I do think it's an interesting.
+
+126
+00:21:52.320 --> 00:22:01.320
+Arnaud J Le Hors (IBM): There is maybe ways we can reduce a little bit some of the benefits and I think, maybe, whether it should be a driving factor for this is whether.
+
+127
+00:22:01.890 --> 00:22:05.910
+Arnaud J Le Hors (IBM): You know it's how much it costs to the organization to.
+
+128
+00:22:06.900 --> 00:22:18.510
+Arnaud J Le Hors (IBM): provide those services, I mean Obviously there are things that are you know pretty free I mean like you know, create a Twitter account is like okay that takes a few minutes for staff to do it and.
+
+129
+00:22:19.110 --> 00:22:28.620
+Arnaud J Le Hors (IBM): You know it doesn't cost anything on the other end if we look at you know training courses, I guess, this is pretty expensive thing to do.
+
+130
+00:22:30.060 --> 00:22:46.260
+Arnaud J Le Hors (IBM): security audits are so expensive, there is an actual cost, and so I think there are a few things like this, we could definitely say well you know what yeah these things are nice to have but incubation projects are not going to get this they only get that if you graduate.
+
+131
+00:22:48.420 --> 00:22:55.260
+Arnaud J Le Hors (IBM): The documentation improvement i'm kind of on the edge, because I agree with what you said.
+
+132
+00:22:56.280 --> 00:23:05.940
+Arnaud J Le Hors (IBM): Tracy it would definitely help them to have better documentation, but you know, maybe it's there's only so much you can offer.
+
+133
+00:23:08.880 --> 00:23:10.980
+Tracy Kuhrt: yeah I like I like the idea or no.
+
+134
+00:23:12.180 --> 00:23:18.450
+Tracy Kuhrt: Cost being a deciding factor for some of these things, David I saw you come off mute again.
+
+135
+00:23:19.680 --> 00:23:24.840
+David Boswell: And I was gonna say it doesn't have to be an either or situation, we could provide a lower amount of support.
+
+136
+00:23:25.020 --> 00:23:33.210
+David Boswell: At one level and a higher amount of that sort of support at another you know it's, not to say hey if this is a documentation and translation support.
+
+137
+00:23:33.540 --> 00:23:48.630
+David Boswell: it's a service we give to graduated projects that doesn't mean we give nothing of that incubation maybe just a smaller amount, you know, maybe more of a bootstrap versus have a full, you know service that we would give to a graduated project.
+
+138
+00:23:53.130 --> 00:23:54.030
+Tracy Kuhrt: yeah make sense.
+
+139
+00:23:57.030 --> 00:23:58.890
+Tracy Kuhrt: Okay, any other yeah.
+
+140
+00:24:01.800 --> 00:24:08.280
+Aruna S M: I just tested question on the chat box as well, so I was curious since we were talking about the cost implications for graduated projects.
+
+141
+00:24:08.340 --> 00:24:17.340
+Aruna S M: And we know we do have mentorship options through Linux foundation, I was curious if hyper hyper ledger would any way be willing to have.
+
+142
+00:24:18.750 --> 00:24:32.370
+Aruna S M: Additional developers in case a project is willing to go into graduated state So when I say additional developer support it could be for multiple minutes right, for example, some of those projects may want.
+
+143
+00:24:35.190 --> 00:24:41.790
+Aruna S M: Maybe they are going silent for a few days, or maybe they're looking for additional developers, to help them on a short sprint.
+
+144
+00:24:43.020 --> 00:24:50.400
+Aruna S M: Is is there such a provision that I may not be very sure if this is like tss co but just curious to learn more.
+
+145
+00:24:54.600 --> 00:24:56.460
+Ry Jones: I know, in the past.
+
+146
+00:24:57.180 --> 00:25:00.300
+Ry Jones: We hyper ledger has been pretty clear about.
+
+147
+00:25:01.770 --> 00:25:05.970
+Ry Jones: not paying you know developers to work on projects.
+
+148
+00:25:08.460 --> 00:25:11.520
+Ry Jones: The sounds like something slightly different Daniel.
+
+149
+00:25:15.420 --> 00:25:19.470
+Daniela Barbosa: I like to hear the comments if anybody else has comments before commenting.
+
+150
+00:25:21.660 --> 00:25:26.940
+Daniela Barbosa: But I do have something to say, but does anybody else have anything to say that's not on staff.
+
+151
+00:25:33.900 --> 00:25:51.510
+Daniela Barbosa: So i'll just point to a couple of things that i've seen recently in the Community that i've also seen over the last four and a half years, there are incentives and programs, for example, I saw that the government of British Columbia just awarded.
+
+152
+00:25:52.560 --> 00:26:00.150
+Daniela Barbosa: A contract to indie CEO in our Community, to do some work specific to hyper ledger indie and decides.
+
+153
+00:26:00.840 --> 00:26:08.580
+Daniela Barbosa: So you know, this is our Community Member right that the government of British Columbia is actually an associate member of hyper ledger they needed.
+
+154
+00:26:09.150 --> 00:26:18.900
+Daniela Barbosa: Some some work done, you know that is to the benefit of the whole Community, and that funding came directly from that government there's also some other ones happening in Europe that we continually see.
+
+155
+00:26:19.230 --> 00:26:26.580
+Daniela Barbosa: So I think you know, we need to find you know ways to make these types of grants and the ways to.
+
+156
+00:26:27.150 --> 00:26:34.800
+Daniela Barbosa: To to figure out ways to fund, you know some development work coming out of specifically you know to rise point around.
+
+157
+00:26:35.490 --> 00:26:48.660
+Daniela Barbosa: Budget so membership, the dollars that are brought in from from our Members, we have not funded any development we do Fund resources like rye and Sean and others on staff to help assist.
+
+158
+00:26:49.260 --> 00:26:58.890
+Daniela Barbosa: We can you know find creative ways to support more mentor ships, we just increased it by for this year and making sure that the projects take advantage of that.
+
+159
+00:26:59.670 --> 00:27:09.300
+Daniela Barbosa: So there are different ways that we can do, but you know across the Linux foundation it's very limited when we do pay for work for development work.
+
+160
+00:27:12.630 --> 00:27:15.630
+Tracy Kuhrt: Thanks Donna, I think the mentorship.
+
+161
+00:27:16.830 --> 00:27:33.330
+Tracy Kuhrt: pieces key right, it sounds like that's a really good way for us to if you will fund certain development, but it does require the input from people in the Community to be mentors, and so I think you know.
+
+162
+00:27:35.160 --> 00:27:46.440
+Tracy Kuhrt: It wouldn't necessarily sound like we could say hey well graduated projects get priority or something like that, because it's really going to depend on who shows up to be the mentor.
+
+163
+00:27:47.910 --> 00:27:56.400
+Daniela Barbosa: And just a reminder, the tlc chooses who gets selected for those you know for the the project development projects.
+
+164
+00:27:57.420 --> 00:27:57.540
+You.
+
+165
+00:27:58.890 --> 00:28:17.730
+Aruna S M: Know maybe a follow up question or a slightly modified version of my earlier question so let's keep aside the development aspect for for us for a while and how about the other other than any other routine tasks that a project needs to go through, and it could be, along with documentation.
+
+166
+00:28:18.990 --> 00:28:28.590
+Aruna S M: Maybe some of the projects, they are so occupied like they need somebody helping in managing their projects and terms of organizing them or.
+
+167
+00:28:30.180 --> 00:28:45.690
+Aruna S M: Maybe that's an incentive that a graduated project gets like we could support them in their release management aspects, so that they completely focused on the development or the technical aspects, the other aspects, would be taken case as a benefit.
+
+168
+00:28:47.280 --> 00:28:51.930
+Aruna S M: Is that something physical art again that falls under the same category.
+
+169
+00:29:01.770 --> 00:29:04.860
+Daniela Barbosa: I think we can take a look at that and see what is required.
+
+170
+00:29:09.360 --> 00:29:12.210
+Tracy Kuhrt: yeah I mean I guess and.
+
+171
+00:29:13.410 --> 00:29:18.900
+Tracy Kuhrt: Not not to shut it down a room, but I do want to just provide some some thoughts on that.
+
+172
+00:29:21.180 --> 00:29:35.610
+Tracy Kuhrt: That will probably seem country and they're not necessarily meant to be contrary but much more to start discussion, which is that if you think about one of the things that it takes to.
+
+173
+00:29:35.670 --> 00:29:37.980
+Tracy Kuhrt: move from incubated.
+
+174
+00:29:38.040 --> 00:29:47.250
+Tracy Kuhrt: to graduate it, it is that the project has figured out how to do releases right they've.
+
+175
+00:29:48.030 --> 00:29:57.120
+Tracy Kuhrt: figured out what the release process looks like they figured out how to to manage that release process and go through a couple of releases before.
+
+176
+00:29:58.080 --> 00:30:04.710
+Tracy Kuhrt: they're allowed to exit incubation that's one of the criteria that we have, so I guess you know.
+
+177
+00:30:05.520 --> 00:30:22.830
+Tracy Kuhrt: my mind says if if now we're offering to graduate projects that once they figured out how to do that, they don't have to do that anymore, it seems a bit wrong or contrary to to kind of why we wanted that in the incubation exit criteria in the first place.
+
+178
+00:30:28.980 --> 00:30:29.550
+Aruna S M: Your.
+
+179
+00:30:30.960 --> 00:30:32.700
+Aruna S M: understand you know fine.
+
+180
+00:30:35.280 --> 00:30:50.520
+Aruna S M: But if that is an opposite, I mean option open, then we could definitely start looking into aspects that projects struggle, but, and we can incentivize them if they graduate if if any such support is extendable apart from documentation.
+
+181
+00:30:52.200 --> 00:30:52.530
+Aruna S M: Maybe.
+
+182
+00:30:55.350 --> 00:30:56.700
+Tracy Kuhrt: I think you're exactly right like.
+
+183
+00:30:56.850 --> 00:30:58.740
+Tracy Kuhrt: What are the, what are the things that.
+
+184
+00:30:59.610 --> 00:31:07.530
+Tracy Kuhrt: Projects our challenge with and take a look at those might be the sort of thing that will allow us to understand what we should add to the list.
+
+185
+00:31:14.430 --> 00:31:14.820
+Daniela Barbosa: angry.
+
+186
+00:31:15.750 --> 00:31:20.640
+David Boswell: yeah that'd be great that's sort of feedback is certainly welcome yeah what support is helpful.
+
+187
+00:31:22.320 --> 00:31:28.410
+David Boswell: I have one one last comment if if we just before we move on, I do want to share that.
+
+188
+00:31:29.250 --> 00:31:36.750
+David Boswell: I do think the workshops are going to be a very big incentive after graduated level, but I know that might not seem that way because it's a new concept and we haven't really.
+
+189
+00:31:37.290 --> 00:31:45.690
+David Boswell: done these before I will just flag that we did the first workshop last week and Sean and I are doing some analysis we're going to do the second workshop next week so.
+
+190
+00:31:46.440 --> 00:31:59.400
+David Boswell: Probably the week after that Sean I will come and provide some data points about how those went, but the early indications are those are very helpful, both in terms of helping a project connect with people who want to use it as well as contribute to it.
+
+191
+00:31:59.940 --> 00:32:06.900
+David Boswell: Just without much promotion, the areas we had to cap areas one around 400 people expressed interest in going.
+
+192
+00:32:07.350 --> 00:32:15.480
+David Boswell: The ND one is just under that I think it's around 363 70 right now and again we haven't really been promoting it that much we just announced a fabric workshop so.
+
+193
+00:32:15.690 --> 00:32:26.070
+David Boswell: we're gonna have a lot of data points to look at about do these work are they effective, but the early indications are good so just to flag, that I do think going forward that is going to be something that provides a lot of value.
+
+194
+00:32:26.460 --> 00:32:38.040
+David Boswell: But I realized just looking at that document that might not seem that way because again it's a new concept there's no real track history to look at, so to speak, but we'll we'll follow up with a tlc with some data points and two weeks.
+
+195
+00:32:39.780 --> 00:32:52.140
+Daniela Barbosa: But, just a quick, those are funded and they're not volunteer because I know we've done a lot of these similar things over the years from a volunteer perspective, these are funded projects.
+
+196
+00:32:54.210 --> 00:32:55.050
+Daniela Barbosa: workshops i'm sorry.
+
+197
+00:32:58.320 --> 00:32:58.680
+Tracy Kuhrt: Peter.
+
+198
+00:33:01.410 --> 00:33:13.290
+Peter Somogyvari: Schwartz to add the plus one to that carrot ID for helping with release management through projects and maintain or for the projects who's in the incubator incubation.
+
+199
+00:33:14.670 --> 00:33:28.590
+Peter Somogyvari: I actually already have been on the Community architects mailing list asking for help regarding release management and I didn't get a lot of help as well and to me that was very, very helpful in.
+
+200
+00:33:29.640 --> 00:33:48.300
+Peter Somogyvari: moving us towards the graduated state, and if that didn't exist, it will be much harder in, and I think as a carrot, it would be good if there could be in warfare because there's a lot to the other there's a lot that goes into building management just by itself.
+
+201
+00:33:55.410 --> 00:33:57.180
+Tracy Kuhrt: Thanks Peter for the plus one.
+
+202
+00:33:59.520 --> 00:34:02.400
+Tracy Kuhrt: Any other thoughts or comments.
+
+203
+00:34:15.780 --> 00:34:18.570
+Tracy Kuhrt: Alright, so before we move off this topic.
+
+204
+00:34:20.460 --> 00:34:33.390
+Tracy Kuhrt: A bit any other staff members Was this a useful discussion for you do we need to discuss anything further, what are your thoughts as far as next steps for this particular item.
+
+205
+00:34:35.010 --> 00:34:43.920
+David Boswell: It has been useful for sure I mean getting people's feedback about the balance what's the right balance between the you know, supporting incubation versus incentivizing.
+
+206
+00:34:44.280 --> 00:34:54.270
+David Boswell: The release management idea is something worth looking into appreciate the feedback on the docks I mean yeah this was great I think we will take it and Polish it and then share it bang.
+
+207
+00:34:57.930 --> 00:34:58.200
+Tracy Kuhrt: Okay.
+
+208
+00:34:58.560 --> 00:35:01.290
+Tracy Kuhrt: Great well if anybody does come up with anything else.
+
+209
+00:35:01.380 --> 00:35:14.130
+Tracy Kuhrt: As their you know, in the in the shower you know not thinking about this at all, and it POPs into your head and definitely let David know and i'm sure he would appreciate that input.
+
+210
+00:35:16.290 --> 00:35:34.320
+Tracy Kuhrt: Alright, so, then the next item that we have on our agenda is that Jim a few weeks back head made a comment that he would make some suggestions on things that we might do to update the template of the quarterly reports.
+
+211
+00:35:35.880 --> 00:35:42.450
+Tracy Kuhrt: As we you know started this discussion, it was really around what do we do when we don't get.
+
+212
+00:35:43.620 --> 00:35:58.230
+Tracy Kuhrt: Project reports and the concern that maybe they were too onerous to complete for some of our projects or the projects didn't see anything useful coming out of the fact that they're doing these project reports.
+
+213
+00:35:59.310 --> 00:36:14.790
+Tracy Kuhrt: So you know a few weeks back, we had a couple weeks back, I think we put together the list of why this is important, and this was jim's follow up action for taking a look at the template and seeing if there's things that that might be at it.
+
+214
+00:36:16.500 --> 00:36:21.540
+Tracy Kuhrt: I think at that point we were talking about how we might automate some of this stuff and.
+
+215
+00:36:22.500 --> 00:36:29.760
+Tracy Kuhrt: I did reach out specifically to the insights team about whether or not an API might be available for us to utilize to.
+
+216
+00:36:30.180 --> 00:36:38.070
+Tracy Kuhrt: bring in some of the insights specifically into our project report, they do not currently have an API, although it is on the roadmap.
+
+217
+00:36:38.820 --> 00:36:49.440
+Tracy Kuhrt: So maybe you know, as we have this conversation we can talk about the sorts of things that might be useful in an API as well as the things that people tend to look at to see.
+
+218
+00:36:50.040 --> 00:37:13.140
+Tracy Kuhrt: If they can understand the help of projects, Jim has provided in he actually updated the the last firefly quarterly report and he added three links at the top focus on these three dimensions around project health specifically for commit activity PR activity and contributor strength.
+
+219
+00:37:15.270 --> 00:37:23.730
+Tracy Kuhrt: And I guess the question to the tasc is, do we think these are the right dimensions and then.
+
+220
+00:37:24.750 --> 00:37:29.370
+Tracy Kuhrt: I would just kind of point out that, in general, these links.
+
+221
+00:37:30.960 --> 00:37:43.050
+Tracy Kuhrt: Are generic links are not related to this specific time frame, so that could also be something that we look at as we go through, and try and figure out what is the.
+
+222
+00:37:44.880 --> 00:37:54.960
+Tracy Kuhrt: information that we want to see, and how do we automate these links, so that people don't have to type them in every time we'll figure out how to put the right data in so.
+
+223
+00:37:56.550 --> 00:37:56.820
+Tracy Kuhrt: yeah.
+
+224
+00:37:58.200 --> 00:38:06.570
+Tracy Kuhrt: Are these dimensions things that people look at when they review the the insights that are linked in the project reports are there other sorts of dimensions that people.
+
+225
+00:38:08.340 --> 00:38:11.820
+Tracy Kuhrt: That people think, are more interesting or useful to have a look at.
+
+226
+00:38:20.520 --> 00:38:22.920
+Dave Enyeart: Could somebody so far as what contributor strength is.
+
+227
+00:38:22.950 --> 00:38:23.340
+Sorry.
+
+228
+00:38:26.640 --> 00:38:28.110
+Tracy Kuhrt: So.
+
+229
+00:38:30.300 --> 00:38:30.630
+Tracy Kuhrt: I.
+
+230
+00:38:31.650 --> 00:38:44.880
+Tracy Kuhrt: If we look here at what they have it's basically says it's the growth in the aggregate account of unique contributors during that select the time period, so in this case the last three months.
+
+231
+00:38:46.500 --> 00:39:04.680
+Tracy Kuhrt: So anybody who's added any sort of code activity or help them resolving bugs so looks like for firefly I think this is fireflies trend for the last three months they've had 53 as far as contributors go.
+
+232
+00:39:06.630 --> 00:39:07.650
+Tracy Kuhrt: unique contributors.
+
+233
+00:39:09.180 --> 00:39:09.540
+Tracy Kuhrt: Peter.
+
+234
+00:39:12.570 --> 00:39:18.990
+Peter Somogyvari: there's two your metrics that I like person that are interesting to me, usually one of them as.
+
+235
+00:39:20.820 --> 00:39:32.100
+Peter Somogyvari: Are the number of open issues have changed, how many got closed and how many opened and what is the total as of right now that that always throws an interesting.
+
+236
+00:39:33.570 --> 00:39:41.040
+Peter Somogyvari: trend on whether it's trending up or down in total, but also our work is being done, roughly.
+
+237
+00:39:42.870 --> 00:39:56.130
+Peter Somogyvari: And then the other one is about timings related to pull requests so it's not it's a set of metrics that single metric that I saw on the effects.
+
+238
+00:39:57.510 --> 00:40:11.820
+Peter Somogyvari: In the set of metrics contain how much time does it take to review pull requests, how much time does it take to merge them after they've been reviewed, how much time did they spend.
+
+239
+00:40:13.620 --> 00:40:17.880
+Peter Somogyvari: In non reviewed state versus how many back and forth or.
+
+240
+00:40:18.900 --> 00:40:26.190
+Peter Somogyvari: During the reviews I think i've ever seen these kind of metrics i'm not sure if i'm calling them exactly right but.
+
+241
+00:40:27.240 --> 00:40:46.200
+Peter Somogyvari: You know i'm giving you the pros for us it's basically about PR timings which means how active to maintain your communities in making sure that someone comes into the contribution they get the attention they need to actually get that for you over the finish line.
+
+242
+00:40:50.010 --> 00:40:50.220
+yeah.
+
+243
+00:40:51.330 --> 00:40:52.110
+Tracy Kuhrt: Thanks Peter.
+
+244
+00:40:53.370 --> 00:41:10.530
+Hart Montgomery: yeah so I was gonna say Peter that's exactly I agree with you and it's in the technical metrics so if you're on the trends page, which I rise like moving towards some of the specific technical metrics on the screen but yeah you can see sort of all of these things like.
+
+245
+00:41:12.390 --> 00:41:29.340
+Hart Montgomery: You know who's committing and what org are they from who's making PRS what order they from you can sort you know you can see, like are some boards responding to a PRS and things faster than others, all of this stuff and I think it's just really good.
+
+246
+00:41:30.810 --> 00:41:40.200
+Hart Montgomery: I love these tools i've used them to go to Fujitsu management many times and I think like this sort of.
+
+247
+00:41:41.460 --> 00:41:45.000
+Hart Montgomery: The technical metrics page of the.
+
+248
+00:41:47.430 --> 00:42:04.050
+Hart Montgomery: Of the Halifax insights is is basically you know a lot of what you want to know for a quarterly report and as Peter you're pointing out, you know from this page, we can essentially you know it's very easy to see whether a project is healthy or not just from looking at this page.
+
+249
+00:42:14.490 --> 00:42:14.820
+Tracy Kuhrt: Okay.
+
+250
+00:42:16.290 --> 00:42:24.810
+Tracy Kuhrt: So he trends PR timing heart, you mentioned organizations in the technical metrics as well.
+
+251
+00:42:26.190 --> 00:42:33.960
+Tracy Kuhrt: I think that lends itself to the diversity question that we have within our current project reports.
+
+252
+00:42:35.700 --> 00:42:42.390
+Tracy Kuhrt: other sorts of things that people tend to look at when they click on that insight link to see how the projects doing.
+
+253
+00:42:51.210 --> 00:42:51.540
+Tracy Kuhrt: That.
+
+254
+00:42:52.110 --> 00:42:57.840
+Ry Jones: If anyone else wants to drive I can stop sharing you know, instead of my trying to do an interpretive.
+
+255
+00:42:59.250 --> 00:43:03.180
+Ry Jones: thing if someone else wants to share and show i'll stop sharing.
+
+256
+00:43:10.890 --> 00:43:14.790
+Artem Barger: So I should I wanted to propose that you know.
+
+257
+00:43:15.930 --> 00:43:26.580
+Artem Barger: i'll send you that I can I can share some Open Source tool that the actually also capable of analyzing the activity of the repositories in the project and actually.
+
+258
+00:43:27.150 --> 00:43:38.640
+Artem Barger: It can also provide a really, really insightful information with respect to the health status of the of the of the project, so if you don't point the can share the screen just to show an example because i'm you know.
+
+259
+00:43:39.300 --> 00:43:47.100
+Artem Barger: recently discovered and was looking on on on the fabric project, but basically he can provide a lot of information, with respect, though, and.
+
+260
+00:43:47.640 --> 00:44:05.400
+Artem Barger: You know backgrounds, so in connectivity us today, it also can can can I think if i'd be curious have a very intensive contribution and the light viewers of the project, there were very few good company has been done so, if you don't mind I can show it.
+
+261
+00:44:06.300 --> 00:44:13.800
+Artem Barger: And it is it's worth kind of exploring to see whenever we would like to to to use it, because again.
+
+262
+00:44:14.520 --> 00:44:18.960
+Artem Barger: there's there's an open source and you know, anyone can do it and.
+
+263
+00:44:19.890 --> 00:44:32.070
+Artem Barger: So I just typed it to my to my github account, but you know so here here or here, I took if you will visit or a sale for for public because you know that's those are probably the key project that i'm working with.
+
+264
+00:44:32.730 --> 00:44:41.760
+Artem Barger: So it has a inaugural overview of activity with respect to I think it's pretty pretty similar to what we have seen your analytics insight.
+
+265
+00:44:42.150 --> 00:44:51.780
+Artem Barger: about what it also does, we can we can have an overview on actual activity with respect to the K, to the commits and open issues over the period of time.
+
+266
+00:44:52.350 --> 00:45:01.830
+Artem Barger: and have a double down, for example on the commits so we can we can see amount of income isn't a here we actually have with very nice diagram.
+
+267
+00:45:02.730 --> 00:45:14.220
+Artem Barger: To see them, you know what are the most the most active hours in a day within the project with respect in terms of contribution, also an analysis.
+
+268
+00:45:14.790 --> 00:45:31.500
+Artem Barger: Of diagram with you know commits by hours of the day economies by recals a the activity across different repositories and also it has like you know we can we can take a look into the issues and see how how how.
+
+269
+00:45:32.640 --> 00:45:38.460
+Artem Barger: What is the period of time it takes for for can contribute or something of the response of the issues.
+
+270
+00:45:39.270 --> 00:45:59.400
+Artem Barger: Again, we have here a open heat maps for open issue for the cost issues and the distribution of that across different repositories, and now it can also analyze the reviews that giving you how how quickly, it has been done and.
+
+271
+00:46:00.930 --> 00:46:09.120
+Artem Barger: And I believe that most importantly, we can we can see here also analysis of activity with respect to the to the communities.
+
+272
+00:46:09.810 --> 00:46:19.380
+Artem Barger: Like you know, whenever we have a healthy growing community in a really active contributors going on analysis of the of the performance like.
+
+273
+00:46:19.800 --> 00:46:23.610
+Artem Barger: A dead, I think, Peter will raise this question is like time to.
+
+274
+00:46:24.510 --> 00:46:35.730
+Artem Barger: taste the to close in on average, the issue that was created, how they how they still to cause the issue that they use and cetera so we can see medians in a region, and so on.
+
+275
+00:46:36.060 --> 00:46:42.270
+Artem Barger: But also, it can provide more more details because basically the index information into the elastic search.
+
+276
+00:46:42.600 --> 00:46:52.830
+Artem Barger: And we can hear me see here a more utilize and we can actually customize anything that people would like, so we can also hear the people they will do some.
+
+277
+00:46:53.340 --> 00:47:03.660
+Artem Barger: With respect of a you know Montana sales and the people who is actually a keep keep keep maintaining the project a contributors, that is basically we the.
+
+278
+00:47:04.080 --> 00:47:18.600
+Artem Barger: People who is submitting some some minor changes users observers and so on a diversity of the Community, we can also see here, and you know in other things, I believe that might be really useful to help this reports and.
+
+279
+00:47:19.950 --> 00:47:23.220
+Artem Barger: Also, to include it as a part of the of the health status of the project.
+
+280
+00:47:29.700 --> 00:47:34.530
+Artem Barger: And again that's that's an open source than anyone can can just use it.
+
+281
+00:47:34.950 --> 00:47:37.230
+Artem Barger: If we can also think whenever I would like to.
+
+282
+00:47:39.210 --> 00:47:48.540
+Tracy Kuhrt: yeah I appreciate you sharing this I haven't seen this tool before and I have seen a lot of different sorts of tools that try to capture information.
+
+283
+00:47:49.950 --> 00:47:52.260
+Tracy Kuhrt: I, it seems to me like.
+
+284
+00:47:53.760 --> 00:48:02.040
+Tracy Kuhrt: There are some certain things that people are interested in looking at with regards to project help.
+
+285
+00:48:03.390 --> 00:48:17.430
+Tracy Kuhrt: I think that you know, one of the things that might be useful is if we had a list of all of the sorts of things that we think would be useful that we could generate a report from either insights you know have some sort of.
+
+286
+00:48:18.540 --> 00:48:26.460
+Tracy Kuhrt: Maybe we work with the team to to you know generate that particular port that we would be interested in looking at to judge the health.
+
+287
+00:48:27.510 --> 00:48:28.260
+Tracy Kuhrt: or.
+
+288
+00:48:29.760 --> 00:48:32.670
+Tracy Kuhrt: You know, however, that might look and then.
+
+289
+00:48:34.680 --> 00:48:37.230
+Tracy Kuhrt: Again, I still think in our project reports it's useful to.
+
+290
+00:48:37.230 --> 00:48:41.040
+Tracy Kuhrt: Have the words from the actual people instead of just metrics.
+
+291
+00:48:41.460 --> 00:48:50.550
+Tracy Kuhrt: And metrics can sometimes not show us a full picture, but I think they do give us trends which are important to see if you know the.
+
+292
+00:48:51.750 --> 00:49:01.290
+Tracy Kuhrt: Number of commits is trending towards zero that's probably a bad thing for us right for a project, and so I think there's some some sorts of things that we could look at there.
+
+293
+00:49:02.310 --> 00:49:07.440
+Tracy Kuhrt: I guess you know, maybe, maybe it would be worthwhile to.
+
+294
+00:49:09.270 --> 00:49:22.110
+Tracy Kuhrt: See if we are interested in kicking off a task force related to this, to come back with the specifics around the sorts of metrics that we would be interested in taking a look at or if.
+
+295
+00:49:24.090 --> 00:49:32.130
+Tracy Kuhrt: You know there's an interest in this, which there seems to be I think a lot of people are interested in looking at these metrics to try and figure out what's happening.
+
+296
+00:49:33.540 --> 00:49:37.200
+Tracy Kuhrt: You know, to me it seems like maybe the best ways to get kicked off with as force.
+
+297
+00:49:38.280 --> 00:49:38.880
+Tracy Kuhrt: thoughts.
+
+298
+00:49:52.170 --> 00:50:03.690
+Arnaud J Le Hors (IBM): So a couple of things, I wanted to they first I mean, I think we could take another look at the report template and maybe simplify it a little bit anyway, I mean.
+
+299
+00:50:04.530 --> 00:50:15.000
+Arnaud J Le Hors (IBM): I you know just to try to reduce the amount of work people feel they have to do to fill out those reports The other thing I wanted to talk about is is this.
+
+300
+00:50:15.450 --> 00:50:29.430
+Arnaud J Le Hors (IBM): You know you did touch on this earlier is the links that are provided in the report, of course, the easy ways to do what Jim did Davis, you know you get those and they did links right.
+
+301
+00:50:29.790 --> 00:50:31.230
+Arnaud J Le Hors (IBM): And what you're going to.
+
+302
+00:50:31.470 --> 00:50:48.060
+Arnaud J Le Hors (IBM): get when you click, that is, the you know the the status and the moment you click which you know a few months later, it does not represent what it was when when you publish the report.
+
+303
+00:50:48.810 --> 00:51:00.900
+Arnaud J Le Hors (IBM): And I honestly don't know about this, I think it's a bit unfortunate if that were the case, I think there's definitely value in you know, having a link that is specific to the time you make the report.
+
+304
+00:51:01.650 --> 00:51:10.200
+Arnaud J Le Hors (IBM): I don't know how much trouble, it is for people to change those dates when they go from one report to the other, you know.
+
+305
+00:51:12.210 --> 00:51:19.650
+Tracy Kuhrt: yeah no, I agree with you, I think you know, having a snapshot of what it is, at the time that the report was filed.
+
+306
+00:51:20.790 --> 00:51:29.430
+Tracy Kuhrt: Or if we decide that we have to create some tool that will run these on a frequent basis right putting those into some sort of.
+
+307
+00:51:31.200 --> 00:51:38.280
+Tracy Kuhrt: History repo whatever you want to call it that would allow us to take a look back at the different reports that were provided.
+
+308
+00:51:39.540 --> 00:51:40.740
+Tracy Kuhrt: I really think that.
+
+309
+00:51:41.280 --> 00:51:45.660
+Tracy Kuhrt: The best way for us to do this is to try and figure out some way to automate that process.
+
+310
+00:51:45.660 --> 00:51:46.080
+Right.
+
+311
+00:51:47.430 --> 00:51:49.410
+Tracy Kuhrt: Here generate the links that I need.
+
+312
+00:51:50.970 --> 00:51:51.480
+Arnaud J Le Hors (IBM): And then.
+
+313
+00:51:51.720 --> 00:51:52.530
+Tracy Kuhrt: Even if it's just.
+
+314
+00:51:53.010 --> 00:51:54.870
+Tracy Kuhrt: A stupid web APP that says.
+
+315
+00:51:55.140 --> 00:52:08.340
+Tracy Kuhrt: generate the Web links for firefly for the last three months from this from the day I clicked on this right and then copy those into the report, which I don't want to do, but you know I just try and make something that is.
+
+316
+00:52:09.600 --> 00:52:15.900
+Tracy Kuhrt: it's very much like there's a way to look back and see what's happened as the projects move forward.
+
+317
+00:52:18.660 --> 00:52:26.610
+Hart Montgomery: hey thanks Tracy um yeah I think that this sort of staff shouting is something that.
+
+318
+00:52:27.780 --> 00:52:38.760
+Hart Montgomery: A lot of people might be interested in, so I think if the if l fx does give us an API or I mean not not just us everyone.
+
+319
+00:52:40.830 --> 00:52:52.200
+Hart Montgomery: It would make sense if snapshot and we're also included there so maybe we could I don't know who's point person for the fx, and all this stuff.
+
+320
+00:52:53.490 --> 00:52:58.020
+Hart Montgomery: But perhaps just reaching out and mentioning that this would be really useful.
+
+321
+00:52:59.970 --> 00:53:09.240
+Hart Montgomery: would be a good thing, because it's pretty you know they have some way of modifying the data internally it's just a matter of them exposing this in an API.
+
+322
+00:53:10.890 --> 00:53:19.830
+Hart Montgomery: So I think you know, maybe if we reach out when they do provide an API so we can actually do this, that this might just be a totally moot point.
+
+323
+00:53:24.330 --> 00:53:31.110
+Tracy Kuhrt: Good point part I actually have an email sitting in my inbox that I haven't responded to yet from somebody at.
+
+324
+00:53:32.130 --> 00:53:39.360
+Tracy Kuhrt: The elephant sites group who would like to get some feedback on my request for an API, so I think, maybe I should set up a call with him.
+
+325
+00:53:39.810 --> 00:53:53.070
+Tracy Kuhrt: and have that conversation and make these sorts of suggestions, but if there's any other sorts of suggestions that you think I should also include happy to take those as well and provide that in the conversation.
+
+326
+00:53:54.810 --> 00:54:05.490
+Arnaud J Le Hors (IBM): I mean just a thought, but I think pretty much I mean this is rest, as far as I can tell, and so, everything is in the URL you could construct the URL.
+
+327
+00:54:06.180 --> 00:54:17.160
+Arnaud J Le Hors (IBM): And we could have you know, a script I don't know that you need an API persons what i'm trying to say is maybe documenting the way they build the URL would be good enough.
+
+328
+00:54:19.260 --> 00:54:20.700
+Ry Jones: I do.
+
+329
+00:54:22.320 --> 00:54:23.370
+Ry Jones: I just want to.
+
+330
+00:54:24.480 --> 00:54:29.730
+Ry Jones: Caution you that these URLs are not only perishable and they and history does change.
+
+331
+00:54:31.530 --> 00:54:41.580
+Ry Jones: But there is a lot of work going on right now to move from what you see right now and insights to the next version of insights.
+
+332
+00:54:42.630 --> 00:54:50.820
+Ry Jones: So I would counsel you to not spend a bunch of time trying to reverse engineer the URLs to generate the exact reports that you want.
+
+333
+00:54:51.690 --> 00:54:53.190
+Arnaud J Le Hors (IBM): All right, good to know thanks.
+
+334
+00:54:53.280 --> 00:54:53.790
+yeah.
+
+335
+00:54:55.080 --> 00:55:00.210
+Arnaud J Le Hors (IBM): Are you saying the older links we add already like in all the bass reports are going to get broken.
+
+336
+00:55:01.080 --> 00:55:06.660
+Ry Jones: I know that that is not what you want to hear her but probably.
+
+337
+00:55:08.490 --> 00:55:17.730
+Ry Jones: The I don't have the URL off top my head Tracy I think it's Community Dev or Community it affects diversifying if you could.
+
+338
+00:55:18.330 --> 00:55:34.290
+Ry Jones: post that or i'll look it up after the call and post it for the discourse, I would really like it if everyone on the tasc that has opinions would work directly with the insights development team, and they are paying a lot of attention to that.
+
+339
+00:55:35.700 --> 00:55:49.710
+Ry Jones: On our all hands call yesterday for lf we were you know told to get the Community involved and send them there so i'll do that i'll give you the URL and get a discourse and let them know what you want.
+
+340
+00:55:51.270 --> 00:56:01.950
+Tracy Kuhrt: yeah and I, you know I think the other piece of this obviously is right, you had sent that link into the TC mailing list so I have responded with the specific.
+
+341
+00:56:03.660 --> 00:56:10.800
+Tracy Kuhrt: Item that I had open there you know we can obviously continue the conversation there with the folks at.
+
+342
+00:56:11.850 --> 00:56:19.410
+Tracy Kuhrt: lf insights so that we capture everything into a single thread about what it is that we're interested interested in it hyper ledger.
+
+343
+00:56:20.370 --> 00:56:30.750
+Tracy Kuhrt: But yeah I definitely think we should continue to help the elephant sites stepped in to figure out what it is that will be most beneficial for us hyper ledger.
+
+344
+00:56:34.650 --> 00:56:35.490
+Arnaud J Le Hors (IBM): can remind them.
+
+345
+00:56:35.520 --> 00:56:37.380
+Arnaud J Le Hors (IBM): Alright cool URLs don't change.
+
+346
+00:56:43.980 --> 00:56:48.570
+Tracy Kuhrt: Yes, or they should continue to remain somewhat backward compatible right.
+
+347
+00:56:49.920 --> 00:56:51.090
+Arnaud J Le Hors (IBM): I know it's tough but.
+
+348
+00:56:53.490 --> 00:57:04.380
+Tracy Kuhrt: All right, I see I see where we got just a minute left I don't want to go long like you did last week, but any any last items anybody would like to bring up before we close the call.
+
+349
+00:57:06.510 --> 00:57:15.210
+Aruna S M: Yes, I forgot to during the announcement, but it's a reminder for tomorrow's a task force meeting at 8am Pacific.
+
+350
+00:57:18.660 --> 00:57:24.540
+Tracy Kuhrt: Alright, so Security Task Forces meeting tomorrow at eight eight What was it 8pm you say.
+
+351
+00:57:24.630 --> 00:57:26.580
+Aruna S M: 888 am Pacific time.
+
+352
+00:57:26.610 --> 00:57:29.010
+Tracy Kuhrt: i'm sorry 8am Pacific.
+
+353
+00:57:30.120 --> 00:57:30.600
+Tracy Kuhrt: So.
+
+354
+00:57:31.350 --> 00:57:37.230
+Tracy Kuhrt: feel free to join that call the link, you should be able to find in the DC calendar and.
+
+355
+00:57:38.370 --> 00:57:43.620
+Tracy Kuhrt: yeah I think with that I will close the call and let you get on to your next meeting for the day.
+
+356
+00:57:45.330 --> 00:57:45.990
+Arnaud J Le Hors (IBM): Thank you.
+
+357
+00:57:49.110 --> 00:57:49.380
+Sean Bohan (Hyperledger): Thanks for.
+

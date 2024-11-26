@@ -1,0 +1,40 @@
+08:14:48	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2021-11-30+Aries+Summit+Session
+08:15:25	 From  Rolson Quadras : I don’t see recording for last weeks session in wiki https://wiki.hyperledger.org/display/ARIES/2021-11-23+Aries+Summit+Session. Is it posted or I am looking at the wrong place ?
+08:15:44	 From  Rolson Quadras : Thanks for the update
+08:24:17	 From  Rolson Quadras : On a related note - DIF Credential Manifest has output descriptor for display purposes (friendly name and themes etc) - https://identity.foundation/credential-manifest/#output-descriptor
+08:24:28	 From  Troy Ronda : https://identity.foundation/credential-manifest/
+08:24:55	 From  Troy Ronda : used as part of: https://identity.foundation/waci-presentation-exchange/#issuance
+08:31:22	 From  Horacio Nunez   to   Sam Curren (TelegramSam)(Direct Message) : I joined a few minutes late, did the group already talked about SVG credentials?
+08:31:30	 From  Sam Curren (TelegramSam)   to   Horacio Nunez(Direct Message) : not really yet.
+08:31:38	 From  Sam Curren (TelegramSam)   to   Horacio Nunez(Direct Message) : discussing overlays first.
+08:32:19	 From  Mike Ebert : I have looked at credential manifests, and they were almost what I needed... but they're tied to one particular DID, and I needed a way to define the credential "defaults" for all the different issuers in an ecosystem.
+08:33:28	 From  Horacio Nunez   to   Sam Curren (TelegramSam)(Direct Message) : Thanks!
+08:44:05	 From  Jason Leach : Interesting. I did’t realize you were thinking to display the entire credential via an SVG. Kind of like a PDF.
+08:45:16	 From  Kimberly Nguyen : Would this give issuer's too much control over the look of the credential? i.e. the wallet will then have too varying looks of cards from different issuers?
+08:46:13	 From  Horacio Nunez : To some degree, in the RFC we commented that is important to have default rendering with an emphasis on transparency and credential introspection. Almost like a default look.
+08:56:25	 From  Kimberly Nguyen : If we're able to limit control of the look of the credential to just certain parameters (colour, logo) that would be great. That way, we can ensue that the look is within accessibility standards, visually appealing and consistent. We wouldn't want an issuer to somehow make theirs stand out visually over another credential.
+08:58:24	 From  James Ebert : Looks like Troy may have dropped off?
+09:02:31	 From  Mike Ebert : Yeah, that's true Clecio. Some kind of override/customization of the general scheme would be nice. We probably ought to fix the general case a little.
+09:04:12	 From  Mike Ebert : I'd love to include a credential manifest in a governance file just the same way I am referring to presentation definitions.
+09:07:54	 From  Horacio Nunez : A safe SVG to render everywhere will be very plain.
+09:09:20	 From  Mike Ebert : Luckily SVGs are scalable, so as long as you preserve the ratio of the sides to each other and the ratio of elements to each other, most things should turn out well.
+09:12:23	 From  Mike Ebert : You could use the same aspect ratio as an existing card, like a driver's license or business card, or standard, like 16x9 format screens
+09:14:40	 From  Mike Ebert : Ooooh, a Can I Use for wallets
+09:14:54	 From  Akiff Manji : That would be cool
+09:15:09	 From  Stephen Curran : Aries Wallet Interoperability Test Harness - w00t!!
+09:15:54	 From  Mike Ebert : Is there a chart for different wallets that goes with the test harness? I've never looked.
+09:16:48	 From  Akiff Manji : Are we assuming all credentials will take the form of a card?
+09:16:57	 From  Kimberly Nguyen : exactly
+09:16:58	 From  James Ebert : +1
+09:17:31	 From  Stephen Curran : It’s pretty common to set a size for something that we want many to use…favicons come to mind :-)
+09:17:31	 From  Mike Ebert : Like Google Display Ad formats
+09:18:28	 From  Horacio Nunez : Yeah, I don’t think that multiple aspect ratio is a bad idea, as long as they are easy to define and test. Then app developers will be expected to use certain aspect ratio depending of the type of screen.
+09:18:37	 From  Horacio Nunez : Almost like Apple Human Guidelines
+09:22:34	 From  clecio : What is the fallback for things that are not a card?
+09:22:39	 From  Mike Ebert : I have to leave, drat. I might be able to rejoin.
+09:32:55	 From  Akiff Manji : I would lean on Bifold
+09:33:32	 From  Sebastian Bickerle [lissi@Main Incubator] : Would implement it in Lissi👆
+09:37:38	 From  James Ebert : Could even also specify the governance framework too
+09:41:47	 From  James Ebert : It seems important to do the overlays portion—not just svg display.
+09:47:45	 From  James Ebert : Definitely agree @Stephen, mostly I was just seeing an option in the future with having an attribute for the governance framework.
+09:51:59	 From  Akiff Manji : Same with connections

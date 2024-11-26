@@ -1,0 +1,36 @@
+00:03:50	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2019-05-29+Aries+Working+Group+Call
+00:04:55	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2019-05-29+Aries+Working+Group+Call
+00:08:07	Matthew Hailstone:	LOL
+00:13:17	Drummond Reed:	Link to the wiki page Stephen was showing?
+00:13:40	Stephen Curran:	https://wiki.hyperledger.org/display/ARIES/2019-05-29+Aries+Working+Group+Call
+00:13:40	Matthew Hailstone:	https://wiki.hyperledger.org/display/ARIES/2019-05-29+Aries+Working+Group+Call
+00:13:46	Drummond Reed:	Thanks
+00:26:26	Drummond Reed:	So is it clear that JSON-LD is NOT being used at the envelope level, but MAY be used inside the envelope?
+00:26:55	George Aristy:	"All of the envelope level formats are achieved through JOSE based structures. The encrypted formats uses a JWE structure, whereas the signed unencrypted format uses a JWS structure."
+00:26:59	Kyle Den Hartog:	Yes, that’s correct.
+00:27:09	Stephen Curran:	JSON-LD friendly messages in the envelope.
+00:27:12	Drummond Reed:	Thx
+00:27:17	Stephen Curran:	https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0021-didcomm-message-anatomy
+00:27:30	Stephen Curran:	RFC Tobias is referencing ^^^
+00:30:53	Stephen Curran:	RFC Kyle is referencinghttps://github.com/hyperledger/aries-rfcs/tree/master/features/0019-encryption-envelope
+00:41:33	Tobias Looker:	https://github.com/mlswg
+00:41:48	Tobias Looker:	For those interested please look here ^
+00:56:31	Alex Blom:	OMEMO is worth looking at as well
+00:56:51	Michael Lodder:	https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md
+00:58:17	Alex Blom:	https://conversations.im/omemo/
+01:02:44	Michael Lodder:	omemo is just signal with AES-GCM
+01:02:57	Michael Lodder:	and a different discovery protocol
+01:03:26	Michael Lodder:	The main point is to have a single object that functions as the rachet for the group
+01:05:40	Michael Lodder:	Megaolm and MLS have something like this
+01:05:44	Michael Lodder:	MLS uses a TreeKEM
+01:09:50	Paul Knowles:	DIDCOM over XMPP … https://github.com/Oskar-van-Deventer/indy-hipe/tree/didcom-over-xmpp/text/didcom-over-xmpp
+01:16:06	Steve McCown:	Regarding OMEMO’s licensing, it looks like it is APLv2 licensed.  However, I’m reading that it imports Signal protocol, which is GPL3 licensed.  Is that true?
+01:26:04	Drummond Reed:	One URL per protocol per relationship
+01:26:58	Matthew Hailstone:	One URL per protocol <stop>
+01:27:01	Matthew Hailstone:	?
+01:30:01	Drummond Reed:	+1
+01:33:50	Drummond Reed:	The ever-present nomenclature issue :-)
+01:34:18	Kyle Den Hartog:	lol
+01:34:25	Kyle Den Hartog:	That is indeed
+01:37:50	Paul Knowles:	There are also members of Kantara Initiative Consent & Information Sharing WG that are working on wallet-type things. I’m trying to keep abreast of that work as there could certainly be good learning in places.
+01:38:46	Paul Knowles:	Wallet Consortium required for standards!!!

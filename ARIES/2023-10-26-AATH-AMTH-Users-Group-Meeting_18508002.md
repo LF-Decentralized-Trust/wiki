@@ -1,0 +1,102 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Aries Frameworks and User Groups](Aries-Frameworks-and-User-Groups_18481290.html)
+4. [Aries Test Harness User Group - ATHUG](Aries-Test-Harness-User-Group---ATHUG_18496334.html)
+5. [ATHUG - Aries Test Harness User Group Meetings](ATHUG---Aries-Test-Harness-User-Group-Meetings_18496351.html)
+
+# Hyperledger Aries : 2023-10-26 AATH-AMTH Users Group Meeting
+
+Created by Sheldon Regular, last modified on Oct 31, 2023
+
+## Summary:
+
+Proposed Planned Topics:
+
+- Paving the way for oidc exchanges testing, what would it look like? Does this belong to aath?
+- Testing implementations instead of testing frameworks (what would need to be done and how)
+- Patrick would also like to share some observation I made after testing OOB exchanges with several community wallets
+- Updates to the oob testing tool?
+  
+
+## Recording: TBD
+
+![](https://wiki.hyperledger.org/download/attachments/29034696/Antitrustnotice.png?version=1&modificationDate=1581695654000&api=v2)
+
+Hyperledger is committed to creating a safe and welcoming
+
+community for all. For more information
+
+please visit the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct).
+
+## Welcome and Introductions
+
+For new attendees - Who you are, and what your interest is in AATH and/or AMTH.
+
+## Attendees
+
+- [Sheldon Regular](https://lf-hyperledger.atlassian.net/wiki/people/557058:03ca5fa1-a9b1-4962-8ade-a10467940771?ref=confluence) (BC Gov / Shel2C Ventures Inc.) &lt;sheldon.regular@gmail.com&gt;
+
+## Announcements
+
+## Agenda
+
+- Call for extra agenda items/topics
+- Outcomes from last AATH Users Group Meeting
+  
+  - Existing running agent, give an endpoint to the backchannel to point to it. [#737](https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/issues/gh/hyperledger/aries-agent-test-harness/737)
+  - Removing .Net from AATH [#738](https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/issues/gh/hyperledger/aries-agent-test-harness/738)
+  - Remove the separation of AIP 1.0 &amp; 2.0 in AATH tests. [#739](https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/issues/gh/hyperledger/aries-agent-test-harness/739)
+- Notable recent enhancements to AATH and AMTH (Accomplishments/Recently Closed)
+  
+  - AATH
+  - AMTH
+    
+    - There is a new test for BCW that uses credentials with special characters and extended characters with AATH agents. That credential def and data can be reused by anyone in any test [#230](https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/issues/gh/hyperledger/aries-mobile-test-harness/203)
+- Demo
+  
+  - Updates to the oob testing tool? [https://dtt-cloud.idlab.app/credentials/](https://dtt-cloud.idlab.app/credentials/)
+- In-depth Approach review
+  
+  - Paving the way for oidc exchanges testing, what would it look like? Does this belong to aath?
+    
+    - Paradigm wallet
+    - OIDC performance test on gitlab
+  - Testing implementations instead of testing frameworks (what would need to be done and how)
+  - Patrick would also like to share some observation I made after testing OOB exchanges with several community wallets
+- AATH/AMTH Kanban Board Walkthrough
+  
+  - [https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/board](https://app.zenhub.com/workspaces/aries-agent--mobile-test-harnesses-6261474397580b0014247f32/board)
+  - Work Item Review
+    
+    - In Progress
+    - Short Term Backlog
+    - New Items
+    - Product Backlog
+
+## Next Meeting
+
+- Nov 23th 2023 11AM Eastern
+
+## Future Topics
+
+## Action items
+
+Internationalization in AATH.
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518785.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518786.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518783.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518784.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518782.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518781.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518779.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518780.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518778.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518777.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18508002/18518776.txt) (text/plain)
+
+Document generated by Confluence on Nov 26, 2024 11:28
+
+[Atlassian](http://www.atlassian.com/)

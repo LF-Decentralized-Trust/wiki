@@ -1,0 +1,9 @@
+08:05:12	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-10-05+Aries+Working+Group+Call
+08:15:26	 From  Rodolfo Miranda : https://github.com/AnonCreds-WG
+08:16:17	 From  Stephen Curran : https://anoncreds-wg.github.io/anoncreds-spec/
+08:16:41	 From  Rodolfo Miranda : I have this link: https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/draft-documents/specification-for-ledger-agnostic-anoncreds.md
+08:29:23	 From  Warren Gallagher : Is there value in localized strings for attribute values? For example representing an enumeration in a particular language?
+08:34:20	 From  James Ebert : Are the primary & secondary attributes considered optional for display?
+08:47:20	 From  Colton Wolkins : Should probably make sure it's versionable within the code as well. That way, a credential may say, "Here's my V1 credential layout info, and here's my V2 layout info"
+08:48:07	 From  James Ebert : I would agree on Warren’s point on differing display formats other than cards.
+09:00:48	 From  Warren Gallagher : Excellent

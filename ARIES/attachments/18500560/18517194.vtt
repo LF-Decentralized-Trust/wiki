@@ -1,0 +1,282 @@
+WEBVTT
+
+1
+00:04:19.950 --> 00:04:29.389
+Patrik Stas: Well, hello! There! And welcome to 2022 December 15, Eric. We Seex community call fellow. Listeners.
+
+2
+00:04:29.540 --> 00:04:36.019
+Patrik Stas: so As for today, it's gonna be again pretty short. Update, I suppose.
+
+3
+00:04:36.040 --> 00:04:43.789
+Patrik Stas: so since last week we had only one Pr. Merge from
+
+4
+00:04:43.860 --> 00:04:45.789
+Patrik Stas: J. I. J. 3 P.
+
+5
+00:04:47.420 --> 00:04:54.099
+Patrik Stas: and that was the support for reading that. did did key format to keys.
+
+6
+00:04:56.040 --> 00:05:03.369
+Patrik Stas: this has been merged yesterday. And basically. Now this is addressing issue.
+
+7
+00:05:03.420 --> 00:05:09.159
+Patrik Stas: I think we should link it. so it's easier, more easily accessible.
+
+8
+00:05:09.430 --> 00:05:12.260
+Patrik Stas: I think it's among the close one
+
+9
+00:05:13.400 --> 00:05:15.389
+Patrik Stas: and no, no, no, no, no no
+
+10
+00:05:15.720 --> 00:05:18.069
+Patrik Stas: supported key.
+
+11
+00:05:20.470 --> 00:05:22.059
+Patrik Stas: yeah, this is where I here
+
+12
+00:05:22.550 --> 00:05:25.710
+Patrik Stas: so let me just post it there.
+
+13
+00:05:31.980 --> 00:05:44.329
+Patrik Stas: yeah. So this is addressing the Rsc. 0, 3, 6 0 which adds support for the bit key for
+
+14
+00:05:44.460 --> 00:05:49.400
+Patrik Stas: party for now particular LED 2, 5, 5, one on keys.
+
+15
+00:05:49.550 --> 00:05:56.890
+Patrik Stas: there was a good comment from George, pointing out, there's other open source repo
+
+16
+00:05:56.930 --> 00:05:59.409
+Patrik Stas: by the centralized identity.
+
+17
+00:06:00.400 --> 00:06:02.630
+Patrik Stas: organization.
+
+18
+00:06:02.650 --> 00:06:15.999
+Patrik Stas: we just particularly focus on a date key. However, this also brings more dependencies, and actually is able to perform like a whole bunch of other things like it can do, signing.
+
+19
+00:06:16.010 --> 00:06:30.670
+Patrik Stas: verifying. So it includes the crypto in it, whereas what we actually added here we'll simply explain conversion of LED 255 and she's
+
+20
+00:06:32.770 --> 00:06:37.970
+Patrik Stas: It was a conversion of the did key into the, you know.
+
+21
+00:06:39.720 --> 00:06:41.740
+Patrik Stas: in the in the
+
+22
+00:06:42.070 --> 00:06:47.970
+Patrik Stas: make it naked key, as they call it, in the Rc.
+
+23
+00:06:49.070 --> 00:06:52.000
+Patrik Stas: yeah. So that's that.
+
+24
+00:06:54.980 --> 00:07:11.900
+Patrik Stas: And next up we have few items in programs. so we got a cool pr from Middle fall very cool. so this is basically new agent implementation
+
+25
+00:07:11.910 --> 00:07:16.609
+Patrik Stas: in the in the role of the Cli agent
+
+26
+00:07:16.630 --> 00:07:25.040
+Patrik Stas: so I haven't played with with this myself. But, we should enable to control
+
+27
+00:07:25.860 --> 00:07:29.319
+Patrik Stas: control on Aries agent from
+
+28
+00:07:29.680 --> 00:07:43.640
+Patrik Stas: I is the 6 base. See our agent from Cili. So create connections. We see credentials and stuff like that. It's pretty huge. I suspect that a majority of these lines might be just cargo.
+
+29
+00:07:43.790 --> 00:07:48.749
+Patrik Stas: cargo, log file or something like that. but nevertheless it's
+
+30
+00:07:48.820 --> 00:07:52.299
+Patrik Stas: It's still fairly big. Pr
+
+31
+00:07:52.490 --> 00:07:56.449
+Patrik Stas: but it's currently in a draft status. So
+
+32
+00:07:56.470 --> 00:08:00.130
+Patrik Stas: let's say it's ongoing at 4.
+
+33
+00:08:00.440 --> 00:08:12.590
+Patrik Stas: Yeah, it's it's. It's apparent that most of the lines coming in here are from the cargo log. It's not a terribly a lot close to review, so that should be. That should be
+
+34
+00:08:12.620 --> 00:08:17.380
+Patrik Stas: easy. well, let's see how how many lines will end up with
+
+35
+00:08:17.420 --> 00:08:18.530
+Patrik Stas: once. This is
+
+36
+00:08:18.620 --> 00:08:21.560
+Patrik Stas: switch to the ready status
+
+37
+00:08:21.960 --> 00:08:41.929
+Patrik Stas: next up small update about the Aries. Ask for what it. So this is something George, from our own labs has taken taken over at this effort. however, as for the last messages I received from him and from his to the update on
+
+38
+00:08:41.970 --> 00:08:51.309
+Patrik Stas: this court. he's he's still facing the issue with some dependency conflicts.
+
+39
+00:08:51.760 --> 00:09:03.219
+Patrik Stas: Once you try to add the Ari's Us car dependency to Vcx. There's conflicts between us car and Vdr. Tools.
+
+40
+00:09:03.380 --> 00:09:08.199
+Patrik Stas: I promised how promising to look at this
+
+41
+00:09:08.620 --> 00:09:19.770
+Patrik Stas: but I didn't really made the progress there. So, Paul, just for that, George. I think the upcoming week until the next
+
+42
+00:09:19.920 --> 00:09:30.689
+Patrik Stas: next meet up. I might have been more time to focus on on the so hopefully I can. I can help to unlock this
+
+43
+00:09:30.890 --> 00:09:32.300
+Patrik Stas: issue.
+
+44
+00:09:32.990 --> 00:09:48.340
+Patrik Stas: lastly, no, Js: If I this is being stopped for a while. about As as I mentioned, I might have more time myself this week. So probably gonna take this over and
+
+45
+00:09:48.730 --> 00:09:59.620
+Patrik Stas: I suppose. to have a clear distinction, and to avoid any. If 5 conflicts live Vcx created in it in a first stage.
+
+46
+00:09:59.630 --> 00:10:12.770
+Patrik Stas: a liberty 6 create in its current form might be split into 2 crates separating out the handle so-called handle. And the see if a file layer and then
+
+47
+00:10:13.260 --> 00:10:32.509
+Patrik Stas: in the next stage i'll simply add a new node jess sort of libby 6 implementation we would hook directly into the the handles layer of Lou Vcx, and therefore preventing any sort of symbol conflicts.
+
+48
+00:10:34.700 --> 00:10:49.810
+Patrik Stas: yeah, but no breaking changes for existing wipers. So it's gonna be just sort of internal restructuring even possibly splitting into crates. But shouldn't shouldn't come with any breaking changes whatsoever.
+
+49
+00:10:50.340 --> 00:10:56.200
+Patrik Stas: the lastly, just to go over, and some new task and new tasks.
+
+50
+00:10:56.820 --> 00:10:57.970
+Patrik Stas: which came up
+
+51
+00:11:00.170 --> 00:11:17.870
+Patrik Stas: with the Pr. with with the did Cpr. we brought in a new dependency to project Bs 58 and via by but by a closer look, it's apparent that this these libraries
+
+52
+00:11:18.020 --> 00:11:35.120
+Patrik Stas: clearly superior superior to the one we are using currently as it's much faster. And also Bs 58 have pretty much no dependencies except for like one optional.
+
+53
+00:11:35.200 --> 00:11:43.799
+Patrik Stas: Yeah, there is one optional dependency. But so this is pretty cool because rust the raw space, 58 has
+
+54
+00:11:43.900 --> 00:11:52.910
+Patrik Stas: a bunch of dependencies which is using so, and and this can help actually preventing, or perhaps and solving
+
+55
+00:11:52.970 --> 00:11:58.449
+Patrik Stas: partially. the kind of issues
+
+56
+00:11:59.430 --> 00:12:05.970
+Patrik Stas: the George is running to in attempt to integrate every s car wallet
+
+57
+00:12:06.510 --> 00:12:21.949
+Patrik Stas: and then as for the new task, lastly, that this is actually been created while I go. But I don't think it was being covered. So as we merged some did soft pr's did so support prs
+
+58
+00:12:22.040 --> 00:12:28.009
+Patrik Stas: we can now unlock a bunch of adh tests.
+
+59
+00:12:29.430 --> 00:12:33.710
+Patrik Stas: So it just it's just matter of doing that work and and running those tests.
+
+60
+00:12:33.920 --> 00:12:35.469
+Patrik Stas: testing it.
+
+61
+00:12:36.110 --> 00:12:38.790
+Patrik Stas: so this is this is open, if you
+
+62
+00:12:39.570 --> 00:12:44.809
+Patrik Stas: yeah, and that's that's pretty much it
+
+63
+00:12:45.260 --> 00:12:48.449
+Patrik Stas: I restructured this
+
+64
+00:12:49.370 --> 00:12:52.840
+Patrik Stas: I restructured this page a little bit, so I put a
+
+65
+00:12:53.240 --> 00:13:03.880
+Patrik Stas: I put the task back log aside. So these are the sort of long term the the tasks, future tasks which has been identified in the identified in line
+
+66
+00:13:03.960 --> 00:13:06.190
+Patrik Stas: previous calls.
+
+67
+00:13:06.230 --> 00:13:13.610
+Patrik Stas: And basically next meeting, i'll move this to tasks from here over here to the backlog, and
+
+68
+00:13:13.690 --> 00:13:20.220
+Patrik Stas: so we can always clearly see like what's actually new. And we don't accumulate bunch of old stuff here.
+
+69
+00:13:21.230 --> 00:13:23.789
+Patrik Stas: with that being said
+
+70
+00:13:23.840 --> 00:13:37.129
+Patrik Stas: we are coming closer and closer to Christmas. so we weather in in Europe. so in your December and i'll be looking forward for the next week. Cheers.
+

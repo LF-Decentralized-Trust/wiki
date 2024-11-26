@@ -1,0 +1,100 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Aries Frameworks and User Groups](Aries-Frameworks-and-User-Groups_18481290.html)
+4. [ACA-Pug - Aries Cloud Agent-Python User Group](ACA-Pug---Aries-Cloud-Agent-Python-User-Group_18484248.html)
+5. [ACA-Pug Meetings](ACA-Pug-Meetings_18484272.html)
+6. [ACA-Pug Meetings 2024](ACA-Pug-Meetings-2024_18519005.html)
+
+# Hyperledger Aries : 2024-05-14 Aries Cloud Agent - Python Users Group Community Meeting
+
+Created by Stephen Curran, last modified by Sean Bohan on May 22, 2024
+
+## Summary:
+
+Topics:
+
+- New GHA Update Action
+- PR Merges for pending 1.0.0
+- Tech Debt Elimination Proposals pre-1.0.0
+- Open Discussion
+
+## **Recording:**
+
+## **Call Time**: 8:00 Pacific / 17:00 Central Europe
+
+## Recordings From the Call:
+
+![](https://wiki.hyperledger.org/download/attachments/29034696/Antitrustnotice.png?version=1&modificationDate=1581695654000&api=v2)
+
+![](https://wiki.hyperledger.org/download/attachments/2392771/welcome.png?version=2&modificationDate=1572450107000&api=v2)
+
+Hyperledger is committed to creating a safe and welcoming
+
+community for all. For more information
+
+please visit the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct).
+
+## Welcome, Introductions and Announcements
+
+## Attendees
+
+- [Daniel Bluhm](https://lf-hyperledger.atlassian.net/wiki/people/712020:c322d585-d6d2-4479-a990-b91fac45db1c?ref=confluence) (Indicio PBC) &lt;daniel@indicio.tech&gt;
+- [Wade Barnes](https://lf-hyperledger.atlassian.net/wiki/people/70121:166ee094-a2f2-44b4-adee-5c3da3741ff8?ref=confluence)  (Neoteric Technologies Inc / BC Gov) &lt;wade@[neoterictech.ca](http://neoterictech.ca)&gt;
+
+## Documentation:
+
+- ACA-Py documentation: [https://aca-py.org](https://aca-py.org/main/)
+
+## Agenda
+
+- New GHA to update GHAs – [Wade Barnes](https://lf-hyperledger.atlassian.net/wiki/people/70121:166ee094-a2f2-44b4-adee-5c3da3741ff8?ref=confluence) -chore: updating dependabot to support gha, python, docker and dev container packagesCurrent PRs
+  
+  - Overview of [dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file) config and its capabilities and limitations.
+  - What to expect from the current settings
+  - Reasoning behind ignoring particular versions - Should we?
+  - Grouping updates - Do we want to?
+  - Strategies for dealing with Dependabot PRs
+  - Feedback from the community
+    
+    - [https://github.com/hyperledger/aries-cloudagent-python/pull/2945#issuecomment-2104988709](https://github.com/hyperledger/aries-cloudagent-python/pull/2945#issuecomment-2104988709)
+      
+      - How Dependabot deals with parameterized docker files.
+      - How to reduce repetition in the config - YAML anchors.
+      - Ignoring Major version updates - good or bad.
+      - Ignoring Patch releases to reduce update spam?
+      - Common update schedule.  Impact on GHA workflows - load due to integration tests.
+      - Commit message prefixes and labels.
+    - [https://github.com/hyperledger/indy-vdr/pull/271](https://github.com/hyperledger/indy-vdr/pull/271)
+      
+      - Grouping updates
+      - Ignoring `dev` dependencies (aka allowing only `prod`  dependencies); see [Allow](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#allow) docs
+  - Notes from meeting where recorded here:
+    
+    - [https://github.com/hyperledger/aries-cloudagent-python/pull/2945#issuecomment-2110532227](https://github.com/hyperledger/aries-cloudagent-python/pull/2945#issuecomment-2110532227)
+    - [https://github.com/hyperledger/aries-cloudagent-python/pull/2945#issuecomment-2110560293](https://github.com/hyperledger/aries-cloudagent-python/pull/2945#issuecomment-2110560293)
+- [Update / Merge Planning](https://github.com/hyperledger/aries-cloudagent-python/pulls)
+  
+  - Upgrades to various pipeline components
+  - When to do a 1.0.0rcX?  Ready?
+- Ideas on pre 1.0.0 Technical Debt Elimination – Issues
+  
+  - [Migrate from `PyLD` to `RDFLib`](https://github.com/hyperledger/aries-cloudagent-python/issues/2944)
+  - [Unit test coverage report on PR's](https://github.com/hyperledger/aries-cloudagent-python/issues/2930)
+  - [Formalize a test plan](https://github.com/hyperledger/aries-cloudagent-python/issues/2895)
+- AnonCreds Rust Revocation Issue in ACA-Py – status - [`Anoncreds` Revoking one credential of many of the same type fails proof](https://github.com/hyperledger/aries-cloudagent-python/issues/2934)
+- Open Discussion
+
+## Upcoming Meeting Topics:
+
+## Future Topics
+
+- Formal test plan
+  
+  - We go through a process of release candidates but we often still end up discovering bugs after releases are out
+  - Daniel to create an issue to start a discussion
+
+## Action items
+
+Document generated by Confluence on Nov 26, 2024 11:26
+
+[Atlassian](http://www.atlassian.com/)

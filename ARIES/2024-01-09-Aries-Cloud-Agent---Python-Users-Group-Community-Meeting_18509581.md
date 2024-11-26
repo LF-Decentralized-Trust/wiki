@@ -1,0 +1,108 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Aries Frameworks and User Groups](Aries-Frameworks-and-User-Groups_18481290.html)
+4. [ACA-Pug - Aries Cloud Agent-Python User Group](ACA-Pug---Aries-Cloud-Agent-Python-User-Group_18484248.html)
+5. [ACA-Pug Meetings](ACA-Pug-Meetings_18484272.html)
+6. [ACA-Pug Meetings 2024](ACA-Pug-Meetings-2024_18519005.html)
+
+# Hyperledger Aries : 2024-01-09 Aries Cloud Agent - Python Users Group Community Meeting
+
+Created by Stephen Curran, last modified on Jan 09, 2024
+
+## Summary:
+
+Topics:
+
+- Status Updates:
+  
+  - AnonCreds RS
+  - did:peer and AFJ Interop – where we are
+  - Load Generator Testing at BC Gov
+  - AnonCreds in W3C Format
+- Prep for Next Meeting: ACA-Py Roadmap for 2024
+- Using ACA-Py with W3C VC Traceability Test Suite
+- Endorser Service UI – Proposal
+- PRs and Issues
+- Open Discussion
+
+## **Zoom Link**: [https://zoom.us/j/98856745538?pwd=VkJROWRxeW43d3hOdnJLemwrS0JKUT09](https://zoom.us/j/98856745538?pwd=VkJROWRxeW43d3hOdnJLemwrS0JKUT09)
+
+## **Call Time**: 8:00 Pacific / 17:00 Central Europe
+
+## Recordings From the Call:
+
+![](https://wiki.hyperledger.org/download/attachments/29034696/Antitrustnotice.png?version=1&modificationDate=1581695654000&api=v2)
+
+![](https://wiki.hyperledger.org/download/attachments/2392771/welcome.png?version=2&modificationDate=1572450107000&api=v2)
+
+Hyperledger is committed to creating a safe and welcoming
+
+community for all. For more information
+
+please visit the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct).
+
+## Welcome, Introductions and Announcements
+
+- Hyperledger Project Annual Reports being prepared now for Aries, AnonCreds and Indy.
+- IIW coming up in April
+
+## Attendees
+
+- [Stephen Curran](https://lf-hyperledger.atlassian.net/wiki/people/557058:d676f135-ecd6-465b-b7eb-f87976bf4569?ref=confluence) (BC Gov/Cloud Compass Computing Inc.) &lt;swcurran@cloudcompass.ca&gt;
+- [Wade Barnes](https://lf-hyperledger.atlassian.net/wiki/people/70121:166ee094-a2f2-44b4-adee-5c3da3741ff8?ref=confluence) (BC Gov / Neoteric Technologies Inc.) &lt;wade@neoterictech.ca&gt;
+- [Warren Gallagher](https://lf-hyperledger.atlassian.net/wiki/people/557058:98b910cc-1131-4987-bc79-b6c4681c64ab?ref=confluence) (AffinitiQuest) &lt;warren@affinitiquest.io&gt;
+- [Patrick St-Louis](https://lf-hyperledger.atlassian.net/wiki/people/712020:252ecf1c-7d3b-4f2e-805d-1b747814236e?ref=confluence) (IDLab/OpSecId) &lt;patrick.st-louis@opsecid.ca&gt;
+- [Hakan Yildiz](https://lf-hyperledger.atlassian.net/wiki/people/712020:2644f80a-6c7d-4689-8119-f2336ee0be56?ref=confluence) (Accenture) &lt;hakan.yildiz@accenture.com&gt;
+
+## Documentation:
+
+- ACA-Py documentation: [https://aca-py.org](https://aca-py.org/main/)
+
+## Agenda
+
+- Status Updates:
+  
+  - AnonCreds RS in ACA-Py
+  - did:peer and AFJ Interop – where we are
+  - Load Generator Testing at BC Gov using [Aries Akrida](https://github.com/hyperledger/aries-akrida)
+  - AnonCreds in W3C Format
+  - New item: DRPC Support – [Aries RFC 804 PR](https://github.com/hyperledger/aries-rfcs/pull/804/files?short_path=b18d7b2#diff-b18d7b2a9c7c7719f831100c571f40ed66a1f93fa03905da6ee544fe170b4c48)
+- Prep for Next Meeting: Aries Cloud Agent Python Roadmap for 2024
+  
+  - Hyperledger TOC Requirement for projects to submit an [Annual Report](https://toc.hyperledger.org/governing-documents/project-annual-review.html) that includes a Roadmap for 2024
+  - Currently working on the report for Aries.
+  - Items:
+    
+    - Current work (above)
+    - DID Rotate, leading to DIDComm v2 (and ToIP Trust Spanning Layer?)
+    - did:webs support – registrar and resolver
+    - Improved Documentation/Tools
+    - Release 1.0 LTS
+    - Others:
+      
+      - AnonCreds v2
+      - Other VC types (e.g., mDL), expanded credential exchange protocols
+      - More OpenID4VC support
+- Using ACA-Py with W3C VC Traceability Test Suite - [Patrick St-Louis](https://lf-hyperledger.atlassian.net/wiki/people/712020:252ecf1c-7d3b-4f2e-805d-1b747814236e?ref=confluence)
+- Endorser Service UI – Proposal - Lucas O'Neil, BC Gov
+- Other [PRs Ready for Review](https://github.com/hyperledger/aries-cloudagent-python/pulls?q=is%3Apr%20is%3Aopen%20draft%3Afalse%20) and [Issues to Discuss](https://github.com/hyperledger/aries-cloudagent-python/issues?q=is%3Aissue%20is%3Aopen%20label%3ADiscuss)
+
+## Upcoming Meeting Topics:
+
+- Discussion Topics:
+  
+  - Update on ACA-Py Container Scanning
+  - Multi-architecture containers
+    
+    - Issue with BBS+ package – doesn't support ARM containers – need an update to their CI
+    - Solution: A third container published that includes BBS+ package, but is single architecture
+    - Others are Askar
+- The DSR team has started looking into supporting the "please-ack" protocol. A draft PoA will likely be ready for review on the next call, 17 Oct 2023
+
+## Future Topics
+
+## Action items
+
+Document generated by Confluence on Nov 26, 2024 11:26
+
+[Atlassian](http://www.atlassian.com/)

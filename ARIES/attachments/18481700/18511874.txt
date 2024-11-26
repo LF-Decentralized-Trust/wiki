@@ -1,0 +1,32 @@
+00:17:46	Richard Esplin:	Notes on all Aries calls are here:
+https://wiki.hyperledger.org/display/ARIES/Aries+Working+Group
+00:24:02	Stephen Curran:	https://github.com/bcgov/vc-authn-oidc
+00:24:16	Stephen Curran:	Repo that Tobias is talking about ^^^
+00:25:51	Rouven Heck:	is this aligned with the DIDAuth work?
+00:26:44	Stephen Curran:	We're trying to make it so.  We've been talking to that group at DIF.
+00:27:15	Stephen Curran:	As noted - it's VC-Auth, so beyond DID-Auth.
+00:27:20	Drummond Reed:	This flow does NOT use the SIOP (Self-Issued OpenID Provider) profile, correct?
+00:27:26	Stephen Curran:	Correct
+00:28:20	Stephen Curran:	Please ask those questions of Tobias when you get a chance.
+00:31:51	Drummond Reed:	I will
+00:39:34	Robert Mitwicki:	FYI: https://medium.com/decentralized-identity/using-openid-connect-with-decentralized-identifiers-24733f6fa636
+00:57:17	Rouven Heck:	Thanks for the feedback. Is there a mailing list where you share agenda ahead of the call? Would have been good to have some folks from the DID Auth group on the call today.
+00:58:06	Stephen Curran:	No mailing list.  We put it in the meeting notes ahead of the session. In this case it wasn't too far in front - yesterday. :-(.  We'll try to get that.
+00:58:31	Daniel Hardman:	@Rouven: the wiki page that’s associated with the meeting invite is where the agenda is edited collaboratively. Anybody can show up and propose items.
+00:58:39	Stephen Curran:	Rouven - could you or someone present next week on the Interop Project?
+00:59:49	Drummond Reed:	Or more specifically on the DID Auth WG and how they are approaching SIOP?
+00:59:54	Rouven Heck:	Ok, thanks Daniel & Stephen
+01:01:47	Drummond Reed:	@Stephen: yes, one downside of SIOP compared to DIDComm is…no pairwise DIDs!
+01:02:26	Rouven Heck:	Happy to get InterOp project on the agenda for next week or the week after. We just started a mailing list and Github repo for Interop Project.
+01:02:43	Stephen Curran:	k - let's connect about that this week and set a time.
+01:02:52	Rouven Heck:	@here - As mentioned before we want to be more inclusive to DIF members in other timezones Pls. sign up to our mailing list - by sending an email to: InteropProject+subscribe@DIF.groups.io (feel free to share with other folks to sign up).
+01:03:18	Drummond Reed:	That BTW is also a deficiency of FIDO and WebAuthn - they don’t provide the flexibility of DIDs on both sides either
+01:03:37	Rouven Heck:	There is a DID auth call tomorrow, maybe some folks could join there tomorrow?
+01:03:48	Drummond Reed:	What time?
+01:04:09	Rouven Heck:	1pm ET
+01:05:50	Kyle Den Hartog:	yeah I'm going to see if I wake up for the did auth call, but it's 5am for me. I'll listen to the call if I don't make it and follow up with some messages.
+01:07:56	Rouven Heck:	thanks everyone - need to drop
+01:28:42	Drummond Reed:	+1
+01:33:11	Michael Lodder:	yes +1 kyle
+01:33:14	Richard Esplin:	didcom over avian carrier? teapot didcom?
+01:33:54	Drummond Reed:	Gotta run

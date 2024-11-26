@@ -1,0 +1,10 @@
+00:08:49	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2019-06-19+Aries+Working+Group+Call
+00:13:05	Kyle Den Hartog:	One other piece relevant to JS agent framework. Discussion for that will be happening in #Aries-sdk channel on rocketchat
+00:50:38	Drummond Reed’s iPhone:	get busy, Kyle!
+00:51:29	Kyle Den Hartog:	That’s one of the fastest encryption methods available today. We’ll need to kick that one to the Ursa crew.
+00:51:49	Sam Curren (TelegramSam):	Needs parallelism, not direct speed.
+01:10:52	jonnycrunch:	where is the check_links script?
+01:11:09	Daniel Hardman:	It’s in the aries-rfcs repo at code/check_links.py
+01:11:19	Kyle Den Hartog:	https://github.com/hyperledger/aries-rfcs/blob/master/code/check_links.py
+01:11:52	Daniel Hardman:	You just have to run `pytest code` from the root of the repo; the check links script will be invoked as part of the unit tests.
+01:13:21	Daniel Hardman:	(Or you can run the check_links script directly. Either works.)

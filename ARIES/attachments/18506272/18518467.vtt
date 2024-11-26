@@ -1,0 +1,1158 @@
+WEBVTT
+
+1
+00:00:02.190 --> 00:00:11.890
+Stephen Curran: All right. Welcome to the July nineteenth, 2,023 areas working group call. We've got a full agenda marketing Update.
+
+2
+00:00:12.330 --> 00:00:40.430
+Stephen Curran: from Alex and Helen. overview of Ares. Vcx is the highlight today. We've got the team here, Patrick, because joining us to give an overview of Aries, Vcx, where 8 ton has been happening lately. Lots and lots of stuff going on. and then if we have time, we'll have a a status of in the SDK discussion at the at the end. And again, only if we have time for that one
+
+3
+00:00:40.920 --> 00:00:56.739
+Stephen Curran: reminder that this is a Linux Foundation and Hyper Ledger Foundation meeting. So the Linux. Any trust policy is in effect, which is on your screen, and the Hyper Ledger code of conduct is in effect, let's be good to one another.
+
+4
+00:00:57.380 --> 00:01:03.379
+Stephen Curran: feel free to join the attendees list. I put the
+
+5
+00:01:03.640 --> 00:01:12.870
+Stephen Curran: a link to this page into the chat. If you jump in please add your name to to the attendees list.
+
+6
+00:01:12.890 --> 00:01:29.709
+Stephen Curran: Is there anyone new to the meeting? we, if you are new, we welcome people to step up to the microphone and sort of say, why you're here, and and what your interest is in, and how we can help you get oriented in the areas community.
+
+7
+00:01:36.050 --> 00:01:39.360
+Stephen Curran: No takers on that. All right.
+
+8
+00:01:40.030 --> 00:01:48.969
+Stephen Curran:  as far as announcements. if anyone has announcements, I'm going to start with occupy. We've got a
+
+9
+00:01:49.250 --> 00:02:00.500
+Stephen Curran: release 0 9 0 pending. We've got one more Pr to go into that. It will have a new release of credx which has is the and on credits.
+
+10
+00:02:00.600 --> 00:02:27.530
+Stephen Curran:  update, which has some performance improvements and some fixes in A and on credits and see our signature libraries. That's the big thing going into that But there's a a number of other things, including we're moving to Python 3.9 with this release. so the base will all be 3.9 in the in the various images, and so on. They're released. So that's the news happening in acup high
+
+11
+00:02:28.190 --> 00:02:31.629
+Stephen Curran: any other announcements from any of the other groups?
+
+12
+00:02:39.750 --> 00:02:48.140
+Stephen Curran: All right. Alex. you've got the mic. do you have it. Do you want to share?
+
+13
+00:02:48.430 --> 00:03:02.370
+Alex Metcalf: Yeah, I'll do. Yeah. Thank you. Okay, folks, 5 min. Could we go a busy meeting? I want to give an update on 2 things that handled me working on. so they we set rounds that many of you may have seen about Ares.
+
+14
+00:03:02.480 --> 00:03:15.949
+Alex Metcalf: And then Another description of what areas is that we want to put onto the wiki as a starting point asap. So rather than with the great detail, I'm going to go to them briefly, right now. Share them on the screen. But both links are in
+
+15
+00:03:16.080 --> 00:03:26.130
+Alex Metcalf: the meeting notes, so please review them at your leisure. They should be very in line with what we've been discussing last few weeks. There's no surprises. So on that basis, what I'd like to propose
+
+16
+00:03:26.240 --> 00:03:38.519
+Alex Metcalf: is that we'll give it a couple of days, people to digest and follow up if they need to. Otherwise we can do an update to the Wiki landing page with new description on the base, that we can always iterate it and make it better going forwards.
+
+17
+00:03:38.530 --> 00:03:41.810
+Alex Metcalf: So it's not sent stone. This is much better than what we got right now.
+
+18
+00:03:42.040 --> 00:03:52.130
+Alex Metcalf: sooner the better. Yes, so on that base. I just goes this briefly. there's a presentation link again is in the slide notes in the meeting notes.
+
+19
+00:03:52.640 --> 00:04:11.060
+Alex Metcalf: we got 16 responses from the survey we put together. We'd probably be publicized on the highlights discord. I'm here in the working group within a few organizations as well, and to summary the results is mostly in line, like, you can go into these these these questions at your on time, but mostly in line with what we thought before.
+
+20
+00:04:11.060 --> 00:04:32.140
+Alex Metcalf: With a couple of interesting insights. People didn't really care about areas being front and center, saying they don't require a blockchain that wasn't important to people, both in the Devon exact side, and there wasn't massively strong support for being shouting from the rooftops about creating walls and agents being the thing you have to say upfront. Of course you can do that, but it's not as important as we thought. It might have been.
+
+21
+00:04:32.320 --> 00:04:35.990
+Alex Metcalf: The rest of them are pretty much in line with people like privacy preserving everything else.
+
+22
+00:04:36.280 --> 00:04:48.170
+Alex Metcalf: These are the business results, and these are the developed results on next slide. So you can. You can look at those as you wish. We got some great suggestions about things you might want to mention in our description from
+
+23
+00:04:48.200 --> 00:05:00.259
+Alex Metcalf: government level identity, and Ky. very quick talk about photography status, and whether it's fed and so forth, can form his standards. There's some great recommendations from people. And we also got a big laundry list of
+
+24
+00:05:00.650 --> 00:05:06.950
+Alex Metcalf: starting materials, lots of courses, repos videos that we're going to put into that wiki page as well as starting points.
+
+25
+00:05:06.980 --> 00:05:08.689
+Alex Metcalf: People coming to this fresh.
+
+26
+00:05:09.480 --> 00:05:20.999
+Alex Metcalf: I here, along with what Steve just said. As soon as we can get update the hyper ledger Perry pages by areas the better. And we're going to update that when we can. Because I think it's slight refresh now. And we're going to update the
+
+27
+00:05:21.040 --> 00:05:24.620
+Alex Metcalf: Read me file for the main areas, Github page as well.
+
+28
+00:05:25.400 --> 00:05:37.279
+Alex Metcalf: So with that said again, I'll just give you a quick summary. We've got these 2 descriptions, and the other document that links also in the meeting notes in line with those set of results. This is building on the drop we have before.
+
+29
+00:05:37.640 --> 00:05:49.589
+Alex Metcalf: and with a few changes and a bit more scanable, and a few things deep prioritized to make it clearer. So on the first page, isn't it? It is a general overview, and this is the one that will probably form the basis of the Wiki page.
+
+30
+00:05:49.710 --> 00:06:06.359
+Alex Metcalf: and then probably to be adapted for the hyper ledger areas for the hyper ledger sites. Is this higher level more exact focus with less terminology? And we can have this not back pocket for future users, anyway. but there's this version as well, which is the same as the top one, but less techy
+
+31
+00:06:07.510 --> 00:06:13.429
+Alex Metcalf: guys that reaches my time. So but yeah, go ahead, Steven, and welcome any initial thoughts right now.
+
+32
+00:06:14.210 --> 00:06:15.630
+Stephen Curran: this looks great.
+
+33
+00:06:17.600 --> 00:06:32.690
+Alex Metcalf: Yeah, I think we got a good starting point. And again, I would suggest even it's got concerns about prioritization. What I'd like to recommend is that let's get this up. I mean, if you feel the show, stop it, please say, because this is a community F. Hyper. Why, it's just as let's get something improved, and if you need to iterate it
+
+34
+00:06:32.980 --> 00:06:37.219
+Alex Metcalf: by all means reach out to handle myself. Our email addresses are on the meeting notes.
+
+35
+00:06:39.360 --> 00:06:53.539
+Helen Garneau: I'll also chime in here that we I'm still putting together the list of links that folks sent which is fantastic. There's we probably got, at least have a couple dozen at least. but if there are any links to
+
+36
+00:06:53.690 --> 00:07:19.490
+Helen Garneau: white papers, reports, blogs. you know, your company might have a podcast or whatever anyways, any, any type of links that you think are helpful and beneficial to new folks in that that approach, Aries. Please send them my way, because we would love to have a a you know, a a quasi, comprehensive, thriving list of community sourced.
+
+37
+00:07:19.490 --> 00:07:24.579
+places for people to read more and learn more and see the the growth of the community
+
+38
+00:07:25.100 --> 00:07:26.250
+Alex Metcalf: absolutely
+
+39
+00:07:26.500 --> 00:07:27.470
+Stephen Curran: awesome.
+
+40
+00:07:28.150 --> 00:07:36.540
+Alex Metcalf: Thank you so much. Yeah, thank you, Steven. Thank you, Patrick, for a short int intojection there and Any feedback. Send it all way. Much appreciate him.
+
+41
+00:07:37.240 --> 00:07:43.159
+Stephen Curran: Hello. all right. If no one has any other comments, let's go to
+
+42
+00:07:43.590 --> 00:07:53.909
+Stephen Curran:  Here is Vcx. Let's get an introduction to that for those that haven't looked at it in a while, and it learned about it. And here from the team. So over to you, Patrick.
+
+43
+00:07:54.720 --> 00:08:00.099
+Patrik Stas: Thank you. Thank you. All right. I'll share my screen
+
+44
+00:08:01.520 --> 00:08:02.770
+Patrik Stas: report some
+
+45
+00:08:03.150 --> 00:08:12.820
+Patrik Stas: sort of improvised presentation. I like to through a while, so I just sketch something together. Alright.
+
+46
+00:08:16.250 --> 00:08:17.500
+Patrik Stas: It's very flexible.
+
+47
+00:08:18.330 --> 00:08:22.020
+Patrik Stas: all right. Now. Let me maybe turn on the camera for now.
+
+48
+00:08:22.280 --> 00:08:29.679
+Patrik Stas: Okay, so Hello, everyone my name is Patrick Stash. I'm one of the maintenance of Maintainers of
+
+49
+00:08:30.130 --> 00:08:39.890
+Patrik Stas: there is Vcx. And I came here. We, me and the team came here today to a little bit about
+
+50
+00:08:40.010 --> 00:08:47.130
+Patrik Stas:  W. You know what it is so who we are and why we are doing what we doing.
+
+51
+00:08:47.210 --> 00:08:52.730
+Patrik Stas: so this starting with some general info, then we'll go into a component overview
+
+52
+00:08:53.110 --> 00:09:11.729
+Patrik Stas: from mainly from perspective of where we are currently and where we are going can maybe where we've been before. so that kind of should give you idea of the trajectory of the project? Not only the the, you know, status quo at the moment, but also where we are headed
+
+53
+00:09:11.950 --> 00:09:26.380
+Patrik Stas: from, where and So I'll talk about talk a bit about that components. We have deprecated a components which are sort of stable new components we created from the scratch and and and the stuff we are planning to do
+
+54
+00:09:26.620 --> 00:09:31.120
+Patrik Stas: so some some more inter here. So
+
+55
+00:09:31.390 --> 00:09:50.639
+Patrik Stas: first, like elementary question, well, these actually Ares vcx, so. so the general approach. We are like philosophy. We we take is it we? We already consider ourselves as a a library rather than framework. So it's not that kind of a batteries included. Approach
+
+56
+00:09:50.850 --> 00:10:03.400
+Patrik Stas: but ready, whether we are trying to provide the building blocks for creating Aries and also known Aries applications. So we have a sort of a a
+
+57
+00:10:03.590 --> 00:10:26.719
+Patrik Stas: obviously the kind of first-class citizens right now is the the library itself, implementing the Aries protocols, but also the repository contains a lot more. It's also a sort of a Aries acknowledging supporting components written in rust like did resolve? Or did parser etc.?
+
+58
+00:10:26.890 --> 00:10:39.110
+Patrik Stas: is the project maintained by 3 people representing upside you South African Bank me include that. And George Mulhearn. as a
+
+59
+00:10:39.460 --> 00:10:47.519
+Patrik Stas: independent contributor. we have. We have him on a call right now as well. We we have everyone on the call, I believe
+
+60
+00:10:48.480 --> 00:11:04.560
+Patrik Stas:  So And then maybe the question is, why are we here now? Suddenly? we've been kind of working on the shadows for a long time didn't really engage a lot with the community didn't join these calls
+
+61
+00:11:05.720 --> 00:11:31.340
+Patrik Stas: much so one of the reasons, just just from the nature of I guess evolution, the library and experience of ourselves as developers as well. So some of you might know that the the project was, for originally from something called lead. Vcx. We just part of live in the the world by evername
+
+62
+00:11:31.880 --> 00:11:48.099
+Patrik Stas: and just from nature of like having different philosophy before different priorities. given what we are for, we're trying to achieve. we considered, you know, there was a there was some amount of technical that inheritance.
+
+63
+00:11:48.530 --> 00:11:51.000
+Patrik Stas:  just
+
+64
+00:11:51.260 --> 00:12:00.079
+Patrik Stas: So so we have to do like a bunch of cleaning and try trying to trim it into our. You know, our kind of
+
+65
+00:12:00.280 --> 00:12:12.419
+Patrik Stas: shape we wanted to have. So for a long time we didn't really feel confident to like invite people and engage like widely, because there was lots of
+
+66
+00:12:12.710 --> 00:12:16.650
+Patrik Stas: you know our our own work. We felt like we need to do first.
+
+67
+00:12:16.670 --> 00:12:19.910
+Patrik Stas: It was also difficult to on board people.
+
+68
+00:12:20.180 --> 00:12:49.190
+Patrik Stas: The set up to get the whole thing running was quite difficult, and maybe for for some time in the past we didn't even have like clear understanding of our identity like who are actually who we actually are like? Are you framework? Should we try to build things conveniently? Batteries include kind of way to. Are we trying to build an agent eventually? You know, we we were not sure what we are, and this kind of shaped over time, and we understood that
+
+69
+00:12:49.190 --> 00:12:59.879
+Patrik Stas: we are building, as I mentioned before, rather like components and library than like a agent or or framework. Even so, and also, additionally.
+
+70
+00:13:00.170 --> 00:13:07.670
+Patrik Stas: we are looking to kinda start just in general, we would like to engage more widely with the community, perhaps.
+
+71
+00:13:07.760 --> 00:13:26.749
+Patrik Stas: have more contribution outside of of Aries, and also, given, you know, give. Given the previous points we feel more confident welcoming new contributors. who would like to, you know, work with us and and and
+
+72
+00:13:26.820 --> 00:13:31.810
+Patrik Stas: create something. There's a there's plenty of work So now
+
+73
+00:13:31.870 --> 00:13:52.790
+Patrik Stas: I will move to that component overview. But I just told. Maybe it's good idea to stuff for a second, and just like, give us space for short I don't know if there's any questions, although there'll be time for Q. A. Afterwards. So but anyway, if if there's any comments or thoughts before I move, I would.
+
+74
+00:13:53.160 --> 00:13:54.399
+Patrik Stas: No, this is time.
+
+75
+00:13:54.740 --> 00:14:06.890
+Stephen Curran: I I'll ask one quick question. this series of agnostic supporting rust components. Do you see it as a good idea that things like the did resolve? Or I did, parser
+
+76
+00:14:07.300 --> 00:14:14.550
+Stephen Curran: would would be useful to use it other Harry's frameworks.
+
+77
+00:14:14.930 --> 00:14:22.650
+Stephen Curran: So we'd be looking at replacing it did resolve, or an acupy say with the did resolver component that you have.
+
+78
+00:14:22.880 --> 00:14:47.530
+Patrik Stas: I, I believe. it will be a good idea that it's that's eventually our goal to basically not only build I like Ares library. But there's lots of stuff which is like the did the resolver right? We just really independent from Aries, and can be just. Generally you use anywhere. So it would be. It would be a pity not to try to modularize it. So that's what we did. And
+
+79
+00:14:47.530 --> 00:15:01.630
+Patrik Stas: well, you know, if somebody uses will be more than happy, because then more people will be incentivized to make it awesome and great and reliable and save. So you know it. It will be amazing if if if the.
+
+80
+00:15:02.040 --> 00:15:07.959
+Patrik Stas: as I mentioned last point, if there's new contributors who decide to, let's say, even just reuse some components.
+
+81
+00:15:08.100 --> 00:15:12.639
+Patrik Stas: and then we would have, you know, a reason to work together. So that would be great.
+
+82
+00:15:12.750 --> 00:15:13.450
+Stephen Curran: Okay.
+
+83
+00:15:15.160 --> 00:15:16.030
+Stephen Curran: thank you.
+
+84
+00:15:16.240 --> 00:15:19.400
+Patrik Stas: Hmm. Any any other results or comments.
+
+85
+00:15:22.000 --> 00:15:42.229
+Alberto Leon: Yes, I have a question, Patrick. over to here. we've been speaking for a couple of weeks on the discord channel. I just one generic question here, and I have some follow up questions, but we can wait till the end. so why, rust? What are the advantages of this programming language. And
+
+86
+00:15:42.230 --> 00:15:53.009
+Alberto Leon: what would you tell someone who's thinking about maybe going down this route, learning rest to get into the into the space of contributing into areas. Pcx.
+
+87
+00:15:53.030 --> 00:15:55.140
+Alberto Leon: what would you tell that person? Yeah.
+
+88
+00:15:55.320 --> 00:16:03.859
+Patrik Stas: yeah. So so we historically, like, we are just like the reasons to go with and improve it over time. But but now, like
+
+89
+00:16:03.890 --> 00:16:07.970
+Patrik Stas: you know, I I guess additional reasons like
+
+90
+00:16:08.430 --> 00:16:18.419
+Patrik Stas: emerge for us, or like, strengthen our convictions mainly the East to integrate with other rust components. Given that most of the areas.
+
+91
+00:16:18.540 --> 00:16:37.570
+Patrik Stas: you know, basic components are written in the rest, we find that it. It makes sense, and it's easier and safer to just you know. Stay in the same ecosystem. Use the advantage of all the typing and and all the good stuff done in this. you know. core core libraries.
+
+92
+00:16:37.920 --> 00:16:41.720
+Patrik Stas: and well, in general, you know, I like the the
+
+93
+00:16:42.360 --> 00:16:50.329
+Patrik Stas: typically pitched like rough advantages about the safety typing. And like you know,
+
+94
+00:16:50.370 --> 00:16:52.460
+Patrik Stas: costless abstractions.
+
+95
+00:16:52.640 --> 00:17:10.360
+Patrik Stas: but we we find it like, you know it. It's it's it's it. It has also the advantages to stay in the ecosystem and basically implementing areas in the rest, we can propagate the advantage to possibly other applications. whether
+
+96
+00:17:10.738 --> 00:17:22.100
+Patrik Stas: it's a, you know, mobile or or whatever rust in, you know every's infrastructure you want to build issue or a fire mediator. We are giving that option to stay in
+
+97
+00:17:22.503 --> 00:17:46.739
+Patrik Stas: that ecosystem, you know, not having to re-implement Aries like it's there. So now it's possible to actually build, issue or verify mediator, or whatever else you know from these rust components. So we we like to consume this, this, this components natively. And we kinda want to propagate these advantages further to other applications and and see see? Thriving.
+
+98
+00:17:48.580 --> 00:17:50.010
+Alberto Leon: Okay, thank you.
+
+99
+00:17:54.570 --> 00:18:05.549
+Patrik Stas: All right, I'll I'll move move on. And we can get back to some questions at the end. So I basically have only one more slide left.
+
+100
+00:18:05.560 --> 00:18:11.119
+Patrik Stas: It is the component overview maximize this, maybe.
+
+101
+00:18:15.070 --> 00:18:17.450
+Patrik Stas: and it's better
+
+102
+00:18:17.690 --> 00:18:20.070
+Patrik Stas: alright. So
+
+103
+00:18:21.010 --> 00:18:32.089
+Patrik Stas: way. So here I wrote a row like a kind of a high level overview of all the components. So the really holistic overview of the repo
+
+104
+00:18:32.130 --> 00:18:56.689
+Patrik Stas: maybe even 2 detail in detailed in some parts. But I find this those important. So for the like. you know, color ring schema So there's like the red ones are. The perk that's blue on are somewhat stable doesn't mean there's no changes, but I know they've been around for a long time, and maybe there wasn't so many changes recently.
+
+105
+00:18:56.750 --> 00:19:09.610
+Patrik Stas: And then we have, like new components of green, which are pretty much written from stretch like really new new green green filled components. Then we have yellow, which is in progress. there's a few of them
+
+106
+00:19:09.910 --> 00:19:29.459
+Patrik Stas: and then orange is kind of on the roadmap, you know, or something we are thinking about, or possibly planning or hoping that somebody else might do it. Maybe so. let's let's dive into it. So I'll start with, like the the main part, the core components where we have, you know, the
+
+107
+00:19:29.460 --> 00:19:49.040
+Patrik Stas: Aries Vcx trade itself. So this is for us kind of a first class citizen. This is the integration layer of all sub components we have, and it's a main building block for a and and you know a third party application which wants to use Ares protocols for something
+
+108
+00:19:49.550 --> 00:19:56.560
+Patrik Stas: And so this is purely rust. So you would consume Aries Vcx from another rust project
+
+109
+00:19:57.560 --> 00:20:20.530
+Patrik Stas:  itself. it's as you see, it's using like a number of sub components. There's some they per case that did do. And but we have a whole bunch of new crates actually written from scratch. So we rewritten our like every messages. Data mobile from scratch
+
+110
+00:20:20.530 --> 00:20:34.389
+Patrik Stas: we have recently wrote a did resolver a d, you know. Kind of a did Doc. Data model and build there, you know, and all the stuff you might want to have to kind of work with the the documents.
+
+111
+00:20:34.490 --> 00:20:46.339
+Patrik Stas: and then some some good methods we have. They've solved the web, it appear hopefully, like I I I don't know the state of the Indy, but they'll be coming as soon as it's possible to implement.
+
+112
+00:20:46.820 --> 00:20:50.339
+Patrik Stas:  yeah. And then we have.
+
+113
+00:20:50.490 --> 00:21:07.330
+Patrik Stas: Then we have, as you see, I split it out, Aries. The Cx. Creates kind of actually into 2 sections. So we have, like a kind of an old person, a a stable, and then we are now in progress of essentially rewriting our State machines
+
+114
+00:21:07.330 --> 00:21:23.510
+Patrik Stas: in a better, more testable and reliable way to make sure that our you know. there are they? They don't really contain much like, contain as little I/O as possible, and we are starting now. We did the exchange protocol. Actually,
+
+115
+00:21:24.130 --> 00:21:25.870
+Patrik Stas: with this approach.
+
+116
+00:21:25.880 --> 00:21:46.770
+Patrik Stas: so we'll be adding more you know, we'll be applying kind of we are in a pioneering stage, where we are kind of discovering how to ride this every State missions in a better way, and so the the first one is kind of the most difficult, just still learning. And then we will kind of reapply the same approach, and all the other ones.
+
+117
+00:21:47.420 --> 00:21:57.250
+Patrik Stas: Then we have. Also, I would like to mention this whole, a big green blob of components here, which is also written from stretch recently.
+
+118
+00:21:57.410 --> 00:22:12.710
+Patrik Stas: that's about interfaces to to the ledger. So we have, like generic, like general interfaces for simply reading and writing to like to writing unknown credits
+
+119
+00:22:13.180 --> 00:22:14.640
+Patrik Stas: structures.
+
+120
+00:22:14.750 --> 00:22:44.620
+Patrik Stas: and then separate interfaces which are specific to indie. And then what I really like are the sub sub sub-components underneath that. So that, for example, we have, like just transaction, submit or interface, which can be implant, for which we actually have viably 3 different implementations. So we can submit your transactions using Ndvdr, or we can easily be in the, or we can even use Vdr proxy. So this is super cool when you want to actually run.
+
+121
+00:22:44.770 --> 00:22:59.419
+Patrik Stas: you know, some kind of If some kind of issue or verifier service in, in, in restricted cloud environment, where you might not be able to use 0 and queue because of security guys and stuff like that.
+
+122
+00:22:59.500 --> 00:23:11.280
+Patrik Stas: so So then in that case you can, you can use Vdr proxy to kind of offload, you know. That's a burden of dealing with 0 and queue
+
+123
+00:23:11.510 --> 00:23:31.070
+Patrik Stas: you know, from your issue, or verify service, and you don't. You don't have to deal with with those security? like compliance. You can kind of oh, a full bit somewhere else, maybe 2 different Vpc. Or something. So I really like this one. And then we also have. like,
+
+124
+00:23:31.210 --> 00:23:51.299
+Patrik Stas: you know, you can. You can inject your own transaction caching we have, like separate signer for transactions. We just basically, only only you only need that if you are right, if you are ever rising on the in the ledger and some response spars, or we Cherry picked from from
+
+125
+00:23:51.760 --> 00:24:07.029
+Patrik Stas: actually Libby as we found that in the Vdr. They didn't have modeled like a data model for a ledger responses. So we found this piece of lib de pretty useful well.
+
+126
+00:24:07.180 --> 00:24:36.689
+Patrik Stas: and underneath that we have, like our, the the engine of this whole thing which is like the ledger implementation. I'm looking for the implementation. As you can see, we are now deprecating Vdr tools Aka live in the ledger client implementation. Same wise with unknown credits. We are deprecating Vdr tools. Implementation Vdr tools slightly in the
+
+127
+00:24:36.720 --> 00:24:47.439
+Patrik Stas: implementation of Alan credits in favor of products which we have just implemented recently, including migration from Vdr tools to credits. And now we are kind of
+
+128
+00:24:48.340 --> 00:24:56.039
+Patrik Stas: in progress as a as slightly struggling to move on to an on-premise. Rs, it's kind of one of our challenges at the moment.
+
+129
+00:24:56.250 --> 00:25:09.929
+Patrik Stas: and then with what we are pretty actually pretty happy with the Vdr tools. Ak, leaving the implementation of the what which provides my sequel and C to light
+
+130
+00:25:09.990 --> 00:25:26.090
+Patrik Stas: implementations. But the plan kind of is, this is an orange color which stands for like roadmap or plant. we are definitely thinking of. you know, implementing the storage interface with with us car as well.
+
+131
+00:25:26.800 --> 00:25:43.630
+Patrik Stas: And then I actually move a a layer up. We just skipped. Initially, I started from core components and went down to the to the underlying engine. But looking up, we also have like F a file here on top of that, and some application layer.
+
+132
+00:25:43.870 --> 00:25:48.620
+Patrik Stas: So for the the ffi, historically,
+
+133
+00:25:48.650 --> 00:26:04.939
+Patrik Stas: there will something called live Vcx, and that used to be actually the main value proposition in the old times, when when this call resided in in the SDK the lead Pcx provided way for people to build mobile applications
+
+134
+00:26:05.450 --> 00:26:16.960
+Patrik Stas: now that's being deprecated as the the the approach itself. How to do this fi is kind of all day outdated at the moment, and there are better alternatives to do this.
+
+135
+00:26:17.110 --> 00:26:33.279
+Patrik Stas:  so instead. we are kind, and we are kind of in a prototyping like initial phases of building alternative to live. Vcx. So people will be able to build
+
+136
+00:26:33.560 --> 00:26:36.780
+Patrik Stas: mobile applications using, you know.
+
+137
+00:26:36.860 --> 00:26:55.329
+Patrik Stas: basically providing as v. 6 apis to to Java, you know, to Android and Ios. So we have. we have started a Hyper Ledger mentorship project which got approved. And we have a mentee right now. We are mentoring working on a unique Ffi based
+
+138
+00:26:55.330 --> 00:27:10.439
+Patrik Stas: around the area's Vcx, which out to generates which we will, which will be or is auto-generating coupling and
+
+139
+00:27:10.760 --> 00:27:11.840
+Patrik Stas: red press?
+
+140
+00:27:11.900 --> 00:27:19.810
+Patrik Stas: So it should be a lot a lot easier to maintain, and should be a little more reliable safer all all the good stuff
+
+141
+00:27:20.260 --> 00:27:30.299
+Patrik Stas: now moving to the right side. This is This is, I mean, technically, these 2 are equivalent. It just like some these 2 boxes.
+
+142
+00:27:30.320 --> 00:27:36.230
+Patrik Stas: Ffi and applications it just some Ross libraries or applications which consume.
+
+143
+00:27:36.490 --> 00:27:39.940
+Patrik Stas: or is Vcx. As a you know, the kind of a main crate?
+
+144
+00:27:40.030 --> 00:27:58.459
+Patrik Stas: And so. But the difference here is in the application section. I've put here projects which are like, natively in rust, and we'll stay in rust. So we have. we have within the repo. We have something called Aries Vcx agent, which is like really simple Aries agent library
+
+145
+00:27:58.510 --> 00:28:08.529
+Patrik Stas: making makes it a little bit easier to build a agent in rust. It provides persistence, and some some, you know, like default processing of messages
+
+146
+00:28:09.080 --> 00:28:20.589
+Patrik Stas: we do like we just like likely desiring like agent implementation. And then on top of that, we have implemented the back channel for Aries agent test harness
+
+147
+00:28:21.090 --> 00:28:44.409
+Patrik Stas: we just like running. By the way, here I have, like the latest result I found. This is the, you know, a v. 6, interrupt with the other framework. So we have a like decent coverage for the Akupi. we have a coverage with a Ofj not full. I think some tests are like skipped, or maybe something's failing, we'll have to take a look at that.
+
+148
+00:28:44.490 --> 00:28:52.309
+Patrik Stas: we have obviously good coverage with ourselves. There's other frameworks we don't have coverage, but they also don't have coverage with
+
+149
+00:28:52.640 --> 00:29:11.010
+Patrik Stas: other ones. For example, the.net, or if you go they, they don't have actually much covered with the other frameworks, either. So so we, we, we try to cover the kind of the May we consider main ones the Acup and ag at the moment. And lots of big communities around these.
+
+150
+00:29:11.220 --> 00:29:16.619
+Patrik Stas: So that's what we kind of care about the most right now in in terms of the interrupt
+
+151
+00:29:17.020 --> 00:29:27.429
+Patrik Stas:  and yeah, moving back to the other, moving forward to the other applications here. So we have another mentorship project
+
+152
+00:29:27.530 --> 00:29:40.660
+Patrik Stas: we under under hyper ledger. we just every's mediator, you know, or did. Co mediator. So it's just like standard soft pickup protocol 2.0, you know.
+
+153
+00:29:41.180 --> 00:29:45.459
+Patrik Stas: it's kind of experimental I know there's there's
+
+154
+00:29:45.560 --> 00:29:49.330
+Patrik Stas: a talks on discord about meditators. And
+
+155
+00:29:49.710 --> 00:29:57.890
+Patrik Stas: we are not very active there. just kind of trying stuff on our own right now, you know, and see where we get, I guess.
+
+156
+00:29:57.910 --> 00:30:12.820
+Patrik Stas:  And maybe you know, we can if we run into challenges or some like learning. We, we can share that. But right now it's in a very initial initial stages. So we don't really have like much much to share
+
+157
+00:30:12.870 --> 00:30:25.740
+Patrik Stas: yet, and then in a orange color, as a kind of a plan, or, you know, thought about at least is some sort of enterprise. If you're very far you know.
+
+158
+00:30:26.230 --> 00:30:37.819
+Patrik Stas: it seems like a natural evolution that me, lots of people is interested in. in. I would say, Ffi. People who come into, as these are often asking about
+
+159
+00:30:37.960 --> 00:30:56.310
+Patrik Stas: are often looking to build native applications. They're asking level of the B. Cx. We tell them that it's deprecated that there's UN. If you know, it's kind of hard choice. It's kind of difficult moments right now, because, like this is deprecated. And this is not did not sure. So it's kind of you either
+
+160
+00:30:56.340 --> 00:31:02.349
+Patrik Stas: build something kind of off your on your own, or you contribute here, or you just stay patient
+
+161
+00:31:02.410 --> 00:31:15.199
+Patrik Stas: but in terms of like on the other on their side, you know of the of the issue and verify, you know, given that. it's it's kind of crucial service. I would find it as a as a natural evolution that
+
+162
+00:31:15.350 --> 00:31:27.580
+Patrik Stas: we want to get here and have, you know, take advantage of all the performance and the and the safety and typing in like, if you're very far landscape as well. So
+
+163
+00:31:27.960 --> 00:31:37.330
+Patrik Stas: yeah, this is kind of what it is, what we do, and I guess I'll just leave space for discussion now. Any questions.
+
+164
+00:31:41.950 --> 00:31:57.349
+Stephen Curran: That's an awesome overview. That was a lot. One question came up. I had the same Colton lasted as well. in the did peer. Have you been following that? Did pier 3. And have you got support for? Did pier 3 in that?
+
+165
+00:31:57.480 --> 00:32:03.790
+Stephen Curran: yeah, we. We have implemented this period 2 and did period 3. Excellent. Okay, good.
+
+166
+00:32:05.660 --> 00:32:14.289
+Patrik Stas: You catch up. Okay, if we are synced up with like the latest, latest developments I know there was like some edit in the
+
+167
+00:32:14.360 --> 00:32:24.910
+Patrik Stas: yeah, we we might have to catch up on that. But we haven't yet actually integrated the did peer itself with the kind of the the state machines and the you know, the
+
+168
+00:32:24.970 --> 00:32:42.820
+Patrik Stas: the Ares kind of core component, and it's more of a plans to be part of the the new state machine and the did exchange protocol. We are just implementing. Now it should support the beer. So we'll definitely, you know. Be careful there. make sure that it's like ready once it's
+
+169
+00:32:42.830 --> 00:32:46.129
+Patrik Stas: this, what once, this kind of turns green? Or.
+
+170
+00:32:46.600 --> 00:32:47.350
+Stephen Curran: yeah.
+
+171
+00:32:50.980 --> 00:32:53.560
+Alberto Leon: I, I have a question.
+
+172
+00:32:53.970 --> 00:33:10.209
+Alberto Leon:  yeah in regards to unify, so these rappers you mentioned with cotton and swift. So you're saying this, this will expose to areas Pcx. Api and and Ken.
+
+173
+00:33:10.330 --> 00:33:19.180
+Alberto Leon: And what would you be able to do with those rappers. Would you be able to? for example?
+
+174
+00:33:19.350 --> 00:33:23.889
+Alberto Leon: create like a wallet implementation on the on the mobile side?
+
+175
+00:33:24.270 --> 00:33:50.660
+Patrik Stas: Yeah. So it's the you'll be able to do anything. I mean the end goal. It. It depends what we you know, how, how, how much this will be matured, what kind of how much integration it will have with A is v. 6. But technically you can propagate all the Api's we have in Aries, v. 6. We can propagate, you know, we can enable in those coupling and speed wrappers, so you could be, you would be able to anything
+
+176
+00:33:51.420 --> 00:33:56.249
+Patrik Stas: in those what you are able to do in
+
+177
+00:33:58.850 --> 00:34:00.850
+Alberto Leon: alright cool thanks.
+
+178
+00:34:09.139 --> 00:34:16.020
+Patrik Stas: By the way, I I believe that a me, if I'm wrong, if if somebody more family, I I believe that you if I also
+
+179
+00:34:16.320 --> 00:34:25.890
+Patrik Stas: generates python byings. But I'm not 100% sure about it. We we mainly do it for the Cotlin and the Sweet. That's that kind of the main main goal, though.
+
+180
+00:34:26.330 --> 00:34:29.010
+Steve McCown: Hey, Patrick, could I jump in real quick?
+
+181
+00:34:29.239 --> 00:34:46.220
+Steve McCown: Yeah, for sure. So on the unified, just a quick, shameless plug. I've written some tutorials on how to use, unify and what that means in relation to Ffi. I put the link in the chat. If you guys would like to take a look.
+
+182
+00:34:46.260 --> 00:34:54.680
+Steve McCown: one of the things that I've also done so unify natively support swift cotton, python, and Ruby.
+
+183
+00:34:55.040 --> 00:35:01.540
+Steve McCown: I think it also does some other integration with CC. Plus, although that seems redundant.
+
+184
+00:35:01.690 --> 00:35:10.279
+Steve McCown: One of the tutorials, the latest one I wrote. I needed to use a rust library in Java.
+
+185
+00:35:10.500 --> 00:35:14.020
+Steve McCown: And so what I ended up doing was
+
+186
+00:35:14.080 --> 00:35:21.779
+Steve McCown: creating a cotton wrapper and then showing, going through the process of how to create that, and then importing that into Java.
+
+187
+00:35:21.830 --> 00:35:30.470
+Steve McCown: And so some other guys have done some work. integrating with C sharp.net.
+
+188
+00:35:30.690 --> 00:35:45.200
+Steve McCown: that's not part of my tutorials, but that's also out there. So all of this is is growing. But If you'd like to take a look at my tutorials, they're real super simple way to to get started in that.
+
+189
+00:35:45.350 --> 00:35:50.850
+Patrik Stas: Hmm, that that sounds great. I think this can be a great help for for our mentee
+
+190
+00:35:51.020 --> 00:35:56.019
+Patrik Stas:  working with the the UN. If I thanks for that.
+
+191
+00:35:57.070 --> 00:36:13.369
+Alberto Leon: And actually, Patrick on that note would this ventureship program be open again to the community? And So I think that the oh, sorry hypologist organizing this once a year
+
+192
+00:36:13.550 --> 00:36:19.670
+Patrik Stas: I don't know if they and it's been happening for the past 3 or 4 years. I believe so.
+
+193
+00:36:20.010 --> 00:36:35.890
+Patrik Stas: Just just extra polling based on that. I assume that there will be another one in a in a year or so. But until then, you know this, this mentorship lost until November. And then, yeah, I I don't know what is a hyper ledger plan for these mentorships in 2,024.
+
+194
+00:36:37.910 --> 00:36:42.529
+Alberto Leon: Got it. Thank you. Understand that mentorship or sorry
+
+195
+00:36:42.800 --> 00:36:46.769
+Stephen Curran: that that unef you the
+
+196
+00:36:46.910 --> 00:36:53.989
+Stephen Curran:  basically. What you do is you define what the interface looks like, and then you can generate.
+
+197
+00:36:54.350 --> 00:37:02.830
+Stephen Curran: And then it's just generated from a single source for all of the different things you want like you just say, Oh, I'm going to do python as well. Is that
+
+198
+00:37:02.880 --> 00:37:09.279
+Stephen Curran: correct? Or is there gotta be customizations when you do python and other customizations when you do. Kotlin.
+
+199
+00:37:09.410 --> 00:37:17.859
+Patrik Stas: Yeah, pre precisely. I I believe there is no need for other customizations. But maybe, Steve, Steve, I know better.
+
+200
+00:37:18.730 --> 00:37:27.950
+Steve McCown: Yeah, that's true. You, when you create the language wrapper, once you've you start with creating a udl which is kind of like web ideal
+
+201
+00:37:28.020 --> 00:37:34.809
+Steve McCown: representation of the interface you want to create, and then it's a single single command line
+
+202
+00:37:34.870 --> 00:37:48.089
+Steve McCown: command to create each individual language wrapper. So once you've created it for python, let's say, gonna create it for cotton. It is literally 1 one command line command to do that.
+
+203
+00:37:48.910 --> 00:37:55.180
+Stephen Curran: Okay, so it's more. You're you're maintaining this. I can't remember what you need
+
+204
+00:37:55.530 --> 00:38:02.460
+Stephen Curran: this, this, this definition, and then and then just generating from there. Okay, good.
+
+205
+00:38:04.130 --> 00:38:05.889
+Stephen Curran: It seems worth the effort.
+
+206
+00:38:07.530 --> 00:38:19.970
+Steve McCown: I've enjoyed it. So I'm a strong proponent. We I I looked at doing this without unify, a couple of years ago, taking the ask our library and porting it over and
+
+207
+00:38:20.550 --> 00:38:27.169
+Steve McCown: nobody liked the Ffi based swift implementation that we created
+
+208
+00:38:27.430 --> 00:38:40.119
+Steve McCown: because it felt to swift developers like See and swift developers don't like that. And so this makes it feel like the native language. Mo Mozilla has done some really good work on this one.
+
+209
+00:38:45.120 --> 00:39:04.829
+Stephen Curran: Then the other comment I make in the chat. Patrick is definitely as as you're looking at that mediator project. And if you're looking at supporting web, so it's definitely look at the work in DC. Has done and and contributed to Aries in the airy socket dock repository.
+
+210
+00:39:05.310 --> 00:39:16.569
+Patrik Stas: I I heard about that but thanks for additional heads up. I'll see how we can harness that and perhaps save ourselves some work with the
+
+211
+00:39:16.780 --> 00:39:19.619
+Stephen Curran: yeah. And the other thing is, I think this is the
+
+212
+00:39:19.730 --> 00:39:30.550
+Stephen Curran: most active. Well, I'm sure there's other stuff going on around socket, Doc. But right now, yeah, if you're doing mediator and you've got a project like this, I think it would be worth taking a look at it.
+
+213
+00:39:31.650 --> 00:39:33.060
+Patrik Stas: All right. Thank you.
+
+214
+00:39:37.840 --> 00:39:44.019
+Stephen Curran: Any other questions. This has been a great summary. That's that. Pictures
+
+215
+00:39:44.430 --> 00:39:46.839
+Patrik Stas: awesome. Thank you.
+
+216
+00:39:59.070 --> 00:40:01.280
+Stephen Curran: Excellent, all right.
+
+217
+00:40:02.350 --> 00:40:04.310
+Stephen Curran: Anything else you want to share?
+
+218
+00:40:04.960 --> 00:40:08.229
+Patrik Stas: No, I think I think that's it. That's a lot of
+
+219
+00:40:09.070 --> 00:40:10.020
+Patrik Stas: thank you.
+
+220
+00:40:10.730 --> 00:40:20.289
+Stephen Curran: I'll see about grabbing the sections, the intro, and the the sections out of the recording. So you've got those as well.
+
+221
+00:40:20.510 --> 00:40:30.260
+Stephen Curran: I think it'll be. I suspect it'll be a Youtube. So it might be just links into the starting points. But I'll let you know when they start.
+
+222
+00:40:30.730 --> 00:40:36.470
+Stephen Curran: so you can use those for other purposes. great presentation. Really appreciate it.
+
+223
+00:40:37.860 --> 00:40:42.320
+Patrik Stas: Thank you. Take thanks. Thanks for to to talk about.
+
+224
+00:40:44.610 --> 00:40:45.650
+Stephen Curran: Okay.
+
+225
+00:40:46.700 --> 00:41:00.180
+Stephen Curran: as we talk about more general Harry's things. We definitely would love to have. You folks, if you can make this time time slot have you join in? Because
+
+226
+00:41:00.310 --> 00:41:14.840
+Stephen Curran: obviously there's lots of things we can learn and and share and make decisions about together. So that would be very helpful.  status of the nd in the SDK, basically.
+
+227
+00:41:15.930 --> 00:41:44.210
+Stephen Curran: I I did a short presentation, and I could probably bring it up again. But on the any contributors call yesterday the talking about the need to deprecate live indie A lot of what we've been talking about today, or a lot about what Patrick mentioned is the transformation that Vcx has done But we really need to more aggressively in the community
+
+228
+00:41:44.590 --> 00:41:55.700
+Stephen Curran: deprecate and perhaps archive the in the SDK repository, and so in the in the indie project. We're talking about that. And I wanted to make sure the
+
+229
+00:41:56.240 --> 00:42:01.570
+Stephen Curran: the Aries community knew about that and was taking steps to do it because
+
+230
+00:42:01.630 --> 00:42:10.179
+Stephen Curran:  it it part of the work is is for the Ares frameworks and libraries to
+
+231
+00:42:10.210 --> 00:42:11.830
+Stephen Curran: take into account.
+
+232
+00:42:12.510 --> 00:42:30.330
+Stephen Curran: you know. Make it so that there's alternatives to you from using in the SDK But then there's the those that are using the frameworks and using the libraries to do that transition as well, and for anything new. nothing.
+
+233
+00:42:30.480 --> 00:42:40.840
+Stephen Curran: you know. Nothing new should be starting with live indie as the basis. So if you're starting new with Aries projects, should definitely be on
+
+234
+00:42:41.130 --> 00:42:44.849
+Stephen Curran: the non not using live indie
+
+235
+00:42:44.890 --> 00:43:06.410
+Stephen Curran: for those that are using it. There are conversion and migration tools, and we're going to be highlighting those in the next little while to make sure. As much as possible. People are moving away from the away from levity and and over to the newer tools, the both
+
+236
+00:43:06.480 --> 00:43:09.010
+Stephen Curran: more performance, more stable
+
+237
+00:43:09.200 --> 00:43:12.120
+Stephen Curran: and better maintained.
+
+238
+00:43:12.440 --> 00:43:21.280
+Stephen Curran: shared components or The the tag that's used for all of them is just ask, are based right now, but
+
+239
+00:43:21.340 --> 00:43:31.270
+Stephen Curran: it it it encompasses both in Dbdr, which is the interface to indie as far, which is the storage component.
+
+240
+00:43:31.420 --> 00:43:40.470
+Stephen Curran: and then either credit or an oncred hyper ledger, and on credits, as the in on credits implementation.
+
+241
+00:43:40.620 --> 00:43:46.109
+Stephen Curran: those are the 3 components that make up the in the SDK and and
+
+242
+00:43:46.120 --> 00:43:59.099
+Stephen Curran: those are the new components that that we're transitioning to. We just need to push that transition along.  I I wanted to make that to get that word out there.
+
+243
+00:43:59.320 --> 00:44:03.589
+Stephen Curran: I don't know if anyone has any other, follow up or comments on that.
+
+244
+00:44:07.820 --> 00:44:09.710
+Stephen Curran: I believe if you're using
+
+245
+00:44:10.340 --> 00:44:24.340
+Stephen Curran: Vcx afj, or occupy, it's it's pretty easy to use the other tools instead of live in the end. And, as I say, definitely start doing that because we need to deprecate the in the SDK,
+
+246
+00:44:27.860 --> 00:44:29.030
+Stephen Curran: all right.
+
+247
+00:44:30.510 --> 00:44:35.849
+Stephen Curran: that's all I have. I guess we do have a little bit more time than I had expected.
+
+248
+00:44:37.050 --> 00:44:42.820
+Stephen Curran: Sorry for for making you compress Alex your session. Forgiven?
+
+249
+00:44:42.950 --> 00:44:48.610
+Stephen Curran: All right. Thank you. Any other topics people want to raise? I see there's something in chat.
+
+250
+00:44:53.800 --> 00:44:56.400
+Stephen Curran: hey? Question from Daniel.
+
+251
+00:44:56.500 --> 00:44:58.960
+Stephen Curran: Danny. You wanna jump on and ask.
+
+252
+00:44:59.380 --> 00:45:10.399
+Daniel Bluhm: sure, I was just as a follow up to the the unified discussion, Does it support generating like idiomatic Async in the rappers that it generates
+
+253
+00:45:11.870 --> 00:45:13.999
+Daniel Bluhm: pretty straightforward question. Just curious.
+
+254
+00:45:14.260 --> 00:45:25.789
+Patrik Stas: Yeah, I'm I I know that there was a in the last time I checked those some issues about, you know, using Async
+
+255
+00:45:26.090 --> 00:45:41.589
+Patrik Stas: in a unif pi a community. And there was some pr pr addressing that. So I I believe if it's not already there, they're definitely working on it. But again, maybe, Steve. No, I know better. Here.
+
+256
+00:45:42.900 --> 00:45:44.690
+Patrik Stas: Steve. Do you know
+
+257
+00:45:45.200 --> 00:45:54.310
+Steve McCown: I haven't used the Async capabilities. maybe that needs to be part of another tutorial.
+
+258
+00:45:54.510 --> 00:45:57.820
+Steve McCown: I do know they're working on
+
+259
+00:45:57.960 --> 00:46:06.480
+Steve McCown: completion handling, and that's the code's been rolled into the database already for the next release. So
+
+260
+00:46:06.790 --> 00:46:10.929
+Steve McCown: hopefully the future completion stuff is
+
+261
+00:46:11.190 --> 00:46:13.169
+Steve McCown: as eminent.
+
+262
+00:46:15.000 --> 00:46:20.300
+George Mulhearn: Yeah, they have some fixtures for Async handling and Colin Swift.
+
+263
+00:46:20.430 --> 00:46:21.580
+George Mulhearn: but
+
+264
+00:46:21.750 --> 00:46:29.840
+George Mulhearn: I I don't think they've officially released it yet, because it's not in any of the docs just yet. But it seems like soon.
+
+265
+00:46:30.860 --> 00:46:32.270
+Daniel Bluhm: Okay, interesting.
+
+266
+00:46:32.640 --> 00:46:40.080
+Daniel Bluhm: I would read a tutorial about Async interfaces generated by unified. So I'd definitely be interested in that
+
+267
+00:46:40.190 --> 00:46:53.379
+Steve McCown: sweet. I got one, reader. I'll get right on it. I mean that. Yeah. Your's point is, that's a pretty core part of what of what we're doing in Aries is a pretty crucial feature is that?
+
+268
+00:46:53.570 --> 00:46:57.500
+Daniel Bluhm: That's the motivation for the question. Yeah, yeah.
+
+269
+00:46:58.020 --> 00:47:08.870
+Steve McCown: Yeah. So it when I when I looked at it, when I was working on one of the first things I was working on with UN. If I was Ariz askar
+
+270
+00:47:08.930 --> 00:47:14.639
+Steve McCown: and there's there's lots of that, lots of those futures in there, and so
+
+271
+00:47:15.870 --> 00:47:23.349
+Steve McCown: what it? It caused me kind of an architectural introspection. If you will
+
+272
+00:47:23.930 --> 00:47:34.759
+Steve McCown: do, they do. The futures belong in the library or in how the library is called, and I I know we could debate that back and forth, and there's probably no right answer.
+
+273
+00:47:34.780 --> 00:48:02.619
+Steve McCown: for for now what I've been doing is putting that kind of stuff in, and how the library is called versus in the library itself. But once that capability is, and the reason for that is how certain things are handled, crossed language kind of matters. And so Kotlin, or Swift, or Java, whatever might have some nuances that are different than rust.
+
+274
+00:48:02.670 --> 00:48:12.150
+Steve McCown: And so You know. How do they? When when you go across language programming like that part of what you need to keep in mind is
+
+275
+00:48:12.230 --> 00:48:16.050
+Steve McCown: how the differences synchronize
+
+276
+00:48:16.550 --> 00:48:18.679
+Steve McCown: And and so
+
+277
+00:48:19.000 --> 00:48:27.819
+Steve McCown: that's what I've done so far. But with with these futures emerging from unify, maybe that'll
+
+278
+00:48:27.840 --> 00:48:39.290
+Steve McCown: smooth all that out, and it won't be an issue. But that's that's where I've done things before. The other thing that I've done is well, let me just leave it at that. So
+
+279
+00:48:40.010 --> 00:48:48.180
+Steve McCown: I'm I'm following that. And as soon as that becomes Ga, from unify, I plan to write a tutorial specifically on that.
+
+280
+00:48:49.910 --> 00:48:50.710
+Stephen Curran: Okay.
+
+281
+00:48:54.170 --> 00:48:57.809
+Stephen Curran: excellent. Okay. Any other questions comments.
+
+282
+00:49:01.830 --> 00:49:12.199
+Stephen Curran: With that we wrap up. Sam is away for another week. so I'll be back again next week. If anyone has topics they want to. discuss.
+
+283
+00:49:12.390 --> 00:49:36.309
+Stephen Curran:  let me know. Otherwise. I will plan on probably getting us back into issues related to transitioning the community. transition of unqualified bids and some other areas. Rfc, things that are coming up so sort of issues that are across the Aries community.
+
+284
+00:49:36.520 --> 00:49:42.849
+Stephen Curran: But Welcome other topics to shoot me a note on discord. and let me know.
+
+285
+00:49:43.310 --> 00:49:48.039
+Stephen Curran: With that I will wrap up this meeting. Thanks all for joining
+
+286
+00:49:50.900 --> 00:49:57.769
+Stephen Curran: and thanks, especially Patrick. Great presentation in the team with Arizona. Fantastic work!
+
+287
+00:49:57.880 --> 00:49:59.520
+Patrik Stas: How is it? How a good one!
+
+288
+00:50:00.260 --> 00:50:01.610
+Stephen Curran: Thank you.
+
+289
+00:50:01.840 --> 00:50:03.910
+Steve McCown: Great presentation! Thanks. All.
+

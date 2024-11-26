@@ -1,0 +1,1050 @@
+WEBVTT
+
+1
+00:00:04.580 --> 00:00:19.520
+Tracy Kuhrt: All right, everybody. Welcome to the September first. First Hyper Ledger Technical Steering Committee call um. As you are all aware, two things that we must abide by the first one. Here is the antitrust policy notice,
+
+2
+00:00:19.530 --> 00:00:26.370
+Tracy Kuhrt: and then the second is the code of conduct which is linked in our agenda.
+
+3
+00:00:29.310 --> 00:00:32.450
+Tracy Kuhrt: Uh. So if we could go to the agenda
+
+4
+00:00:32.460 --> 00:00:49.640
+Tracy Kuhrt: Ah, we will see we have the standard announcement. The Dev Weekly Developer newsletter goes out, each providing to hundreds of hyper ledger developers. If you have something that you want to reach those developers, please leave a comment on the Wiki page. That is also the in the agenda.
+
+5
+00:00:49.900 --> 00:00:53.999
+Tracy Kuhrt: As a reminder, we canceled this September the fifteenth,
+
+6
+00:00:54.040 --> 00:01:11.080
+Tracy Kuhrt: a Tsc. Meeting due to conflicts with travel from from the Hydroeological Forum, so we will be skipping that one. We do have plans for next week or a presentation at a minimum, and at least task force discussion. So
+
+7
+00:01:11.090 --> 00:01:17.830
+Tracy Kuhrt: we will definitely be meeting next week any other announcements that anybody would like to make.
+
+8
+00:01:21.260 --> 00:01:26.930
+Victor Gridnevsky: Actually, I have a question. But I don't know if it's best to us. And now or later.
+
+9
+00:01:27.810 --> 00:01:29.599
+Tracy Kuhrt: What's your question?
+
+10
+00:01:29.740 --> 00:01:32.470
+Victor Gridnevsky: Essentially, since I've
+
+11
+00:01:33.000 --> 00:01:47.300
+Victor Gridnevsky: so, I mean so recently, I want to understand how to make contacting me more easy, and what I should do for the larger side. So i'm.
+
+12
+00:01:49.200 --> 00:01:52.260
+Victor Gridnevsky: I am just not sure how to interact the best.
+
+13
+00:01:52.360 --> 00:01:54.279
+Victor Gridnevsky: That's my question.
+
+14
+00:01:55.100 --> 00:02:01.889
+Tracy Kuhrt: So it directs specifically with the Hyper Ledger foundation or with the technical surgery
+
+15
+00:02:02.120 --> 00:02:06.080
+Victor Gridnevsky: with a foundation. And of course they ask about that.
+
+16
+00:02:06.250 --> 00:02:21.179
+Tracy Kuhrt: Okay, So we do have some staff members on the call today. Daniela is on the call, Ryan, Sean and Hart. I think I saw also on the call. So these are the the folks That would,
+
+17
+00:02:21.190 --> 00:02:27.210
+Tracy Kuhrt: I said maybe Benjamin's also on the call. Also be able to help you depending on what it is that you're looking for
+
+18
+00:02:27.280 --> 00:02:28.380
+Victor Gridnevsky: good.
+
+19
+00:02:28.830 --> 00:02:32.379
+Victor Gridnevsky: So I hope it's going to be normal
+
+20
+00:02:33.210 --> 00:02:35.580
+the about the details a bit later.
+
+21
+00:02:37.250 --> 00:02:39.200
+Tracy Kuhrt: Yes, definitely great.
+
+22
+00:02:40.220 --> 00:02:43.730
+Tracy Kuhrt: Any other announcements that anybody has.
+
+23
+00:02:54.050 --> 00:03:06.689
+Tracy Kuhrt: If there's no other announcements, then we do have that. The quarterly reports that did see the Roja. One did get the Tc. Members at it as reviewers sometime
+
+24
+00:03:08.450 --> 00:03:24.360
+Tracy Kuhrt: while I was asleep. So we do have that one to review as well. I know that there wasn't a whole lot of folks who had a chance to read that since that get added, We also have the bevel grid and transact reports that came in as well.
+
+25
+00:03:24.370 --> 00:03:28.629
+Tracy Kuhrt: I didn't see any specific questions um
+
+26
+00:03:29.340 --> 00:03:34.390
+Tracy Kuhrt: other than I think I had one on the transact one which i'm hoping to get answer.
+
+27
+00:03:34.990 --> 00:03:39.090
+But does anybody have any questions that we should follow up with these reports on?
+
+28
+00:03:44.620 --> 00:03:54.700
+Arun S M: I'm sure I think this is in regards to one of the task four proposal as well, which I saw in the previous um meetings agenda. But I don't see it for some reason,
+
+29
+00:03:55.390 --> 00:04:02.670
+Arun S M: and also uh related to bevel. Right? So um is somebody from I will participating, if is
+
+30
+00:04:12.990 --> 00:04:21.999
+Arun S M: yeah for sure. So there's a There is a task force forming around, and tools that are focused on
+
+31
+00:04:22.680 --> 00:04:40.279
+Tracy Kuhrt: deployment of her ledger fabric, and I think that we had it on there. And then it got pulled back because they were quite ready. I think we jumped the gun on on the agenda. So I think they're looking to have some discussions during
+
+32
+00:04:40.290 --> 00:04:58.749
+Tracy Kuhrt: the Global Forum right to really firm up the plans for that, and then bring that back to the Tsc. After the Global Forum. As far as a proposal goes. Now, the link that we had in last week's agenda. One
+
+33
+00:04:59.030 --> 00:05:09.849
+Tracy Kuhrt: it is. Let me see if I can find that quickly here, because the person who created that is probably the person that you should reach out to as far as the
+
+34
+00:05:09.860 --> 00:05:24.610
+Tracy Kuhrt: you know. Who do you? Who do you talk to? To get more involved in that particular task force. Um. So his name is Josh Google. Um. And you can find his email address on on the Link for that task force. I'll put the task force link again in the
+
+35
+00:05:24.620 --> 00:05:34.089
+Tracy Kuhrt: the Tc. Jet. Um, so that you can ah get that name in the email address. If you're interested in participating in that particular task. Force.
+
+36
+00:05:35.860 --> 00:05:40.990
+Arun S M: Sounds good. Thanks. I think. Meeting at global forum shopping with all so well. Thank you.
+
+37
+00:05:41.000 --> 00:05:41.910
+Tracy Kuhrt: Yeah.
+
+38
+00:05:43.460 --> 00:05:45.810
+Arun S M: Okay. Ah, other
+
+39
+00:05:45.860 --> 00:05:48.170
+Tracy Kuhrt: questions on the report, Dano.
+
+40
+00:05:48.940 --> 00:06:06.560
+Danno Ferrin: So this is more of a Meta question about timing for reports that aren't on yet. Um and right. Jones started a threat in, and discord So versus due on the week. We're canceling the meeting, and there is an open gap on ten, six. Should we shuffle some of these due dates around so that they can be due during
+
+41
+00:06:06.570 --> 00:06:08.259
+Danno Ferrin: a meaning we intend to hold.
+
+42
+00:06:10.990 --> 00:06:16.880
+Ry Jones: I usually don't do that because these are the due dates. Um,
+
+43
+00:06:17.880 --> 00:06:20.500
+Ry Jones: and we don't do the presentations anymore,
+
+44
+00:06:20.750 --> 00:06:28.049
+Ry Jones: but I see the the teams would be ersa bezu caliper. Looking at the calendar.
+
+45
+00:06:28.210 --> 00:06:30.940
+Ry Jones: I could either move those
+
+46
+00:06:31.890 --> 00:06:36.890
+Ry Jones: I mean, we could move in the tin sex that puts them in court for
+
+47
+00:06:37.570 --> 00:06:43.870
+Ry Jones: it. It doesn't matter. It's mostly versus more of my concern. We can triple up on a week if we need to. But
+
+48
+00:06:44.640 --> 00:06:52.690
+Tracy Kuhrt: yeah, I think I think like Horizon is probably okay, because we wouldn't expect to get that until the fifteenth, anyway.
+
+49
+00:06:52.700 --> 00:07:04.779
+Tracy Kuhrt: Um! And if it happens to be a week, wait, then it's a week late, right as far as it coming in. So I think it's probably okay to leave it. I I did include them all here.
+
+50
+00:07:04.790 --> 00:07:27.809
+Tracy Kuhrt: Obviously the one that's due today. Cello I did see is getting work done, and then Firefly and our site included on the upcoming reports just to note that we did have um the one that's going to do the week of global forms. So but I I do think that we can just leave it. And um, you know, be understanding. If for some reason or so happens to be late because of global reform.
+
+51
+00:07:28.280 --> 00:07:33.020
+Danno Ferrin: Okay, that's fine. As long as it's a known, if you know not to be an issue. So
+
+52
+00:07:33.030 --> 00:07:34.039
+Tracy Kuhrt: it's a
+
+53
+00:07:34.570 --> 00:07:44.620
+Ry Jones: we're generally. I say, we the royal, we the body. The Tsc. Is generally fairly lax on getting the reports as long as they come in
+
+54
+00:07:44.990 --> 00:07:49.549
+Ry Jones: um, so in general it's not
+
+55
+00:07:49.660 --> 00:07:53.789
+Ry Jones: alarms. Don't go off until you like, Miss a quarter.
+
+56
+00:07:58.030 --> 00:08:01.409
+Tracy Kuhrt: Okay? Any other questions on the quarterly reports.
+
+57
+00:08:06.480 --> 00:08:18.310
+Victor Gridnevsky: I'm updated the quarterly report for so it wasn't tricky by some yet. I'm sorry I Haven't modified others. So I hope this helps.
+
+58
+00:08:18.780 --> 00:08:26.909
+Tracy Kuhrt: Yeah, definitely. Thank you. Vector I did see that come through, and so I would expect the the Tsc. To be reviewing those
+
+59
+00:08:27.110 --> 00:08:33.819
+Tracy Kuhrt: report along with the others as and when they can so appreciate you, adding that
+
+60
+00:08:33.830 --> 00:08:34.880
+thank you.
+
+61
+00:08:34.890 --> 00:08:37.610
+Victor Gridnevsky: So if I add in the if it's at least
+
+62
+00:08:37.750 --> 00:08:40.910
+Tracy Kuhrt: Oh, no! Worries, no worries. Um.
+
+63
+00:08:41.270 --> 00:08:48.610
+Tracy Kuhrt: Okay. Any other questions. And on the reports before we move on to the discussion, I.
+
+64
+00:08:54.370 --> 00:09:05.179
+Tracy Kuhrt: So we do have two discussion items today, one that Daniel brought up, and then just the update on the project Health task force.
+
+65
+00:09:05.190 --> 00:09:14.519
+Tracy Kuhrt: Um. Is there any other discussion items that anybody would like to add to the agenda. As I don't think this is probably going to take the remaining time that we have left.
+
+66
+00:09:21.050 --> 00:09:34.290
+Tracy Kuhrt: Okay, i'm not seeing anything. If something does come up, please don't hesitate to bring it up before we close the call today. But, Dano, did you want to take us through the discussion on the Hyper Ledger basic Github concerns.
+
+67
+00:09:34.300 --> 00:09:51.489
+Danno Ferrin: Yeah. So um. This week we have one of our regular basic calls, and um, I don't know how many people follow Up goes on in the theorem ecosystem. Um. But there is There's no ask specific. Ask today, but we just want to know what's possible things to change. Um. But there is no no need to ask. Immediately
+
+68
+00:09:51.500 --> 00:10:00.380
+Danno Ferrin: this topic came up when we were discussing, moving from Circle Ci. To Github actions for our for our Ci. And we were hosted on Github,
+
+69
+00:10:00.390 --> 00:10:06.190
+Danno Ferrin: one of the Maintainer said, Do we really want to be entrenching ourselves even further in Github,
+
+70
+00:10:06.200 --> 00:10:25.089
+Danno Ferrin: and to give context to that um first any step back in giving a context in the context. Um! There was a a mixer of on the ethereum main, a network called tornado cache. In these mixtures, or where you would, what what what your presented is providing is privacy of transactions. So you put in in,
+
+71
+00:10:25.100 --> 00:10:38.509
+Danno Ferrin: and you can't see who gets the money. Typical privacy stuff you might find in layer, one base implementation or in a fabric implementation, so that outside people don't know what's going on.
+
+72
+00:10:38.520 --> 00:10:46.959
+Danno Ferrin: Problem is is this privacy feature? According to the o fact, the Office of Foreign Asset control was used to evade sanctions from North Korea,
+
+73
+00:10:46.970 --> 00:11:02.590
+Danno Ferrin: so, as a consequence on Ethereum May, that that the dress was was banned by, put on the own fact, this and several accounts that interacted with it, and what Github did. So that's the first context of what happened. Github went ahead and remove that project from Github,
+
+74
+00:11:02.600 --> 00:11:15.699
+Danno Ferrin: and you know as they should, and appropriate with with no fact regulatory ban um it's it's public. It's known it's there's their duty and obligation on the law to do that, they also ban one of the developers.
+
+75
+00:11:15.710 --> 00:11:23.189
+Danno Ferrin: This is the developer who was arrested by Dutch authorities. Again, that is public that is known, it's understandable why they did that.
+
+76
+00:11:23.200 --> 00:11:25.679
+Danno Ferrin: So that's not where the concern arises from.
+
+77
+00:11:25.690 --> 00:11:39.810
+Danno Ferrin: Um! There are a few other developers who have periphery involvement. They may have submitted a patch or two, but they may have worked on on tooling around it, and they had no no public government sanction against them.
+
+78
+00:11:40.160 --> 00:11:55.110
+Danno Ferrin: And Ah! Github went ahead and banned their accounts, and provided no explanation for it. I don't think anybody on Basu or any of the maintainers are involved in this type of a project, but the concern coming up, and then also in the awkward devs, the the group, the phone call group
+
+79
+00:11:55.120 --> 00:12:14.929
+Danno Ferrin: that um establishes the standards for a theory of main that um! Two weeks ago the meeting was focused on this. It became a censorship concern of what happens if some of the validators um refuse to propagate transactions to affect sanctions, address. And what happens if some Don't what impact does it have on the network which has some follow-on effects for
+
+80
+00:12:14.940 --> 00:12:23.390
+Danno Ferrin: rather than just op fact transactions about layer to verification transactions. If those two could be similarly censored,
+
+81
+00:12:23.400 --> 00:12:29.800
+Danno Ferrin: it presents questions about health of the network. So so with that basis, the concern from the basic team is the
+
+82
+00:12:29.810 --> 00:12:45.029
+Danno Ferrin: um is what happens if get starts overreaching, and who they decide violates in terms of service without appealing with that discussion. And um, you know, do we? What options would they have if the base of maintainers and the rest of the the theorem community decide that
+
+83
+00:12:45.700 --> 00:12:48.190
+nothing should be hosted on Github, it should be hosted elsewhere.
+
+84
+00:12:48.200 --> 00:13:06.010
+Danno Ferrin: So there's no ask. But the question is, Do projects have to be hosted on Github, and that they can be hosted elsewhere. What sort of a startup would be to be done to make sure that we could host. Those I know we used to do, Garrett self-host to get repositories via Garrett, but with like gitlab would,
+
+85
+00:13:06.040 --> 00:13:16.490
+Danno Ferrin: I think there's another you know, bit bucket a series of other get resources. Is that something that the Tsc. Would support if If the base of Maintainer's decided to pull everything off of the Github,
+
+86
+00:13:16.670 --> 00:13:21.969
+Danno Ferrin: and we're not doing it today. That's not the discussion. We We need to know what our what our boundaries are
+
+87
+00:13:23.800 --> 00:13:35.329
+Ry Jones: will provide a little bit of context from a staff perspective. As you said, we used to use Garrett and Jenkins, and those went away for reasons.
+
+88
+00:13:35.360 --> 00:13:36.630
+Ry Jones: Um,
+
+89
+00:13:37.270 --> 00:13:38.600
+Ry Jones: we
+
+90
+00:13:39.030 --> 00:13:40.629
+Ry Jones: are not we.
+
+91
+00:13:40.650 --> 00:13:42.850
+Ry Jones: Hyper Ledger Linux foundation
+
+92
+00:13:43.220 --> 00:13:47.449
+Ry Jones: are not married to Github, and it's much easier for us.
+
+93
+00:13:47.510 --> 00:13:53.110
+Ry Jones: But the Chinese community is using their local github alike
+
+94
+00:13:53.130 --> 00:13:55.820
+Ry Jones: for the effort that they're doing.
+
+95
+00:13:56.270 --> 00:14:00.200
+Ry Jones: Um, we we do sport get lab.
+
+96
+00:14:00.630 --> 00:14:01.980
+Ry Jones: I'm not
+
+97
+00:14:02.470 --> 00:14:07.289
+Ry Jones: sure who has the best tooling in terms of
+
+98
+00:14:07.530 --> 00:14:10.320
+Ry Jones: who's best integrated with our stuff.
+
+99
+00:14:10.590 --> 00:14:14.250
+Ry Jones: But from my perspective that should be a secondary
+
+100
+00:14:14.520 --> 00:14:20.940
+Ry Jones: consideration. So get, I know Gitlab is on the list of things that we have the tooling to support.
+
+101
+00:14:21.130 --> 00:14:24.380
+Ry Jones: I know Garrett is the money, for
+
+102
+00:14:24.410 --> 00:14:31.319
+Ry Jones: when we shut down Garrett and Jenkins, that money was used for other stuff around Ci, like
+
+103
+00:14:31.900 --> 00:14:37.810
+Ry Jones: the Circle Ci money came in a large part originally from shutting down the
+
+104
+00:14:38.170 --> 00:14:41.500
+Ry Jones: Garrett and Jenkins. So
+
+105
+00:14:41.630 --> 00:14:42.910
+Ry Jones: that's
+
+106
+00:14:43.360 --> 00:14:44.779
+Ry Jones: It's not for me.
+
+107
+00:14:45.970 --> 00:15:03.690
+Ry Jones: Okay, And there would be an alternative. Ci, because I know we we want to get off the Circle Ci and onto github actions as a cost saving measure. But um, if necessary. Um! And we have to move off with github credible kids, github actions, but there would be some other alternative. Ci um capability that would be made available.
+
+108
+00:15:03.700 --> 00:15:08.809
+Ry Jones: Uh, well, Gitlap has a very similar uh thing to Github actions.
+
+109
+00:15:08.820 --> 00:15:12.449
+Ry Jones: So it Yeah, it's not exactly
+
+110
+00:15:12.520 --> 00:15:15.239
+Ry Jones: white for point the same, but it's very similar.
+
+111
+00:15:15.420 --> 00:15:19.840
+Ry Jones: Um. And transition should be not trivial, but doable.
+
+112
+00:15:21.320 --> 00:15:36.720
+Ry Jones: So we're not asking you to move today, but you know, I think the Maintainer just want to know what the better reason options are. If if it thinks if nothing more changes, I don't think it will change. But if if things deteriorate with the number of people that Github is banning, there might be a motion to move.
+
+113
+00:15:36.930 --> 00:15:39.050
+Danno Ferrin: So it's.
+
+114
+00:15:40.010 --> 00:15:44.659
+Tracy Kuhrt: Yeah, I think you know, just uh to add to this right, I think they're
+
+115
+00:15:45.220 --> 00:15:47.490
+Tracy Kuhrt: there is a
+
+116
+00:15:49.290 --> 00:16:08.580
+Tracy Kuhrt: a benefit for all of the projects to be on the same platform. Right? It's easier to run scripts and tools to find out. You know things about what's going on in the community. Um! And those sorts of things. So I do think it would probably be an interesting discussion about what do we want to do at
+
+117
+00:16:08.730 --> 00:16:13.890
+Tracy Kuhrt: that point right of um, you know. Is it?
+
+118
+00:16:14.110 --> 00:16:28.700
+Tracy Kuhrt: Is it okay to have to right like for those who don't want to change versus those who do. And um, you know. I think there is going to be some interesting sorts of discussions that would come from this sort of request.
+
+119
+00:16:29.290 --> 00:16:31.249
+She and my son, you came up with it.
+
+120
+00:16:33.780 --> 00:16:37.330
+Jim Zhang: Uh, no specific comments, just switching devices.
+
+121
+00:16:38.030 --> 00:16:40.040
+Tracy Kuhrt: Okay, No worries, no words.
+
+122
+00:16:41.850 --> 00:16:43.220
+Ry Jones: Two
+
+123
+00:16:43.430 --> 00:16:47.690
+Ry Jones: further explain Tracy's explanation. It used to be a requirement
+
+124
+00:16:47.710 --> 00:16:53.129
+Ry Jones: for all Linux foundation projects that you used. Garrett and Linux Foundation hosted it.
+
+125
+00:16:53.500 --> 00:17:07.480
+Ry Jones: Hyper Ledger. Ah! Was the first project that didn't do that. We were split for the first several years where the fabric family of things were on Garrett, and everything else is on Github, and it was terrible.
+
+126
+00:17:08.020 --> 00:17:15.289
+Ry Jones: Now we're at the point where everything's on Github and i'm not gonna say It's great, but it's all. All the problems are in one place.
+
+127
+00:17:15.369 --> 00:17:18.369
+Ry Jones: So we've done this before, and it Wasn't: Great.
+
+128
+00:17:20.950 --> 00:17:32.990
+Tracy Kuhrt: Yeah, I just you know. I know that part of that, too, was, you know, stopping potentially people from meeting to other projects, because it was all the different,
+
+129
+00:17:33.000 --> 00:17:44.989
+Tracy Kuhrt: you know platform than what they were used to um, or what they like to use. So there there were some challenges, and I think we would, you know, want to explore what those challenges might be? Uh,
+
+130
+00:17:45.160 --> 00:17:49.139
+Tracy Kuhrt: you know, if and when this becomes a question to the Tsu
+
+131
+00:17:52.090 --> 00:18:03.750
+Arun S M: hi um! Just to understand more from Dano regarding the concerns. So because I mean this is not specific. To Github right, this concern would still be there, no matter where we switch to.
+
+132
+00:18:05.870 --> 00:18:09.210
+Danno Ferrin: So the the concern specifically is actually with Github,
+
+133
+00:18:09.220 --> 00:18:28.689
+Danno Ferrin: because they're getting aggressive, and who they're banning for their terms of service ones that aren't required by government action, and they're not explaining or justifying what they're doing. That's more of the censorship concern is that it's being done. Okay, And to give our context. I don't think that they suit is a project that, as the Maintainer would lead the charge off of it.
+
+134
+00:18:28.700 --> 00:18:44.409
+Danno Ferrin: But it's something they're concerned about, that there might be grounds. Well, if it happens again, and all the other theorem projects start to camping from from Github. They don't want to be stuck there, and be the only one. If everyone's collectively made the decision that Github is not acceptable,
+
+135
+00:18:44.420 --> 00:18:50.709
+Danno Ferrin: it's mostly making sure that you know they won't be left behind. If another large event happens,
+
+136
+00:18:50.830 --> 00:19:02.059
+Danno Ferrin: I know that there is um one a theorem client called a cula. They depend on a particular database, and that database has been banned, but that's because the database is funded by one of the same. Should Russian banks.
+
+137
+00:19:02.070 --> 00:19:21.219
+Danno Ferrin: So there are, you know we start splitting up, you know. So they had to move some of their co-hosting to the Russian equivalent of Github um and so they got this weird split hosting, So it is affecting some corners of the community. But I don't think it's become a ground world. Away with that motion. But you know, judging the ocean it it on short notice,
+
+138
+00:19:21.230 --> 00:19:25.749
+Danno Ferrin: but I don't see it right now, but I do know that there is the risk. If,
+
+139
+00:19:25.760 --> 00:19:28.130
+if, if if things deteriorate,
+
+140
+00:19:28.140 --> 00:19:31.060
+Danno Ferrin: and as far as who Github is Banning.
+
+141
+00:19:32.920 --> 00:19:38.590
+Arun S M: Thanks. I missed that to be a sanctioned action from the Government entity. My right, so
+
+142
+00:19:38.600 --> 00:19:49.369
+Danno Ferrin: i'm. I'm all for honoring government sanctions. I mean. That's the point of enterprises. You work with governments. It's the action. Um with that explanation. That is there a concerning part.
+
+143
+00:19:54.050 --> 00:19:57.709
+Jim Zhang: Yeah, I'm not expressing any
+
+144
+00:19:57.960 --> 00:19:59.580
+Jim Zhang: references. Um,
+
+145
+00:19:59.830 --> 00:20:11.269
+Jim Zhang: but it but in terms of not being a great experience with a different different repository vendor from the project.
+
+146
+00:20:11.540 --> 00:20:13.269
+Jim Zhang: Ah, Angle,
+
+147
+00:20:13.340 --> 00:20:24.720
+Jim Zhang: now that we have, Github greatly invented into the inside platform. That gives us the beautiful dashboard.
+
+148
+00:20:30.130 --> 00:20:33.800
+Jim Zhang: I don't think the latest foundation inside team,
+
+149
+00:20:34.280 --> 00:20:43.080
+Jim Zhang: the bandwidth to accommodate, you know, an arbitrary vendor besides get up in short-term.
+
+150
+00:20:45.800 --> 00:20:50.319
+Danno Ferrin: So i'll communicate back that it's possible. But it's a big ask. So make sure it's really worth it
+
+151
+00:20:52.930 --> 00:21:07.970
+Tracy Kuhrt: Yeah, I think that makes some scandal, You know the same way as they'd be worried about being left behind right. If the aeron community goes to another platform. It's, You know, there are similar sorts of concerns about the the split kind of nature
+
+152
+00:21:07.980 --> 00:21:15.489
+Tracy Kuhrt: when it comes to hyper, ledger and collaboration and tooling, and all of those sorts of things. So
+
+153
+00:21:23.820 --> 00:21:27.279
+Arun S M: so this Oh, sorry I should have
+
+154
+00:21:27.320 --> 00:21:33.529
+Arun S M: out of curiosity. Is there anything in specific that basal team is away from Github?
+
+155
+00:21:37.220 --> 00:21:39.659
+Danno Ferrin: Anything specific, or what from Github,
+
+156
+00:21:39.830 --> 00:21:48.070
+Arun S M: for instance, Are you guys using Github actions that you rely on? Or is there anything else that you rely on? That is only part of Github.
+
+157
+00:21:48.140 --> 00:22:03.670
+Danno Ferrin: Right now we use Circle Ci, and we're about to transition to Github actions in our October release. We're getting ready to start up the Beta cycle and start shifting over ci servers. Um, I think that's what prompts the discussion, and the concern is that you know It' be all Github,
+
+158
+00:22:03.700 --> 00:22:13.749
+Danno Ferrin: and that process some side discussions about. Well, what if we created distributed repeatable bills, which is like no small project? But I think it's possible that we can have, you know,
+
+159
+00:22:14.630 --> 00:22:30.840
+Danno Ferrin: from the script multiple. If you build Creek exact same binaries. So you just build it independently, share hashes and post it. That's one theory that came up. But there's no no concrete request for action There's just, you know, a a concern that there might be a problem on the horizon, and there might not be.
+
+160
+00:22:30.850 --> 00:22:39.419
+Danno Ferrin: Um, we don't know we just, you know they just. I think we just need to know what the batteries are and what what what we need to navigate if things do change.
+
+161
+00:22:41.090 --> 00:22:45.050
+Danno Ferrin: It was triggered by the move from Circle Ci to Github actions.
+
+162
+00:22:51.840 --> 00:23:00.280
+Tracy Kuhrt: All right, so I guess the next topic is the project: Health Jim? Did you want to
+
+163
+00:23:00.380 --> 00:23:02.609
+Tracy Kuhrt: take us through the discussion?
+
+164
+00:23:05.640 --> 00:23:07.790
+Jim Zhang: Yeah. So I think at this point
+
+165
+00:23:09.350 --> 00:23:10.470
+Jim Zhang: we've had a
+
+166
+00:23:27.120 --> 00:23:28.680
+Jim Zhang: at least the last I we,
+
+167
+00:23:30.080 --> 00:23:32.349
+Jim Zhang: and there's still more to be done.
+
+168
+00:23:33.300 --> 00:23:35.939
+Jim Zhang: So one of the there are two actions.
+
+169
+00:23:40.000 --> 00:23:41.570
+Jim Zhang: One is
+
+170
+00:23:43.500 --> 00:23:47.469
+Jim Zhang: we were going to talk to the Linux Linux
+
+171
+00:23:57.620 --> 00:23:59.409
+it's all in data from Github,
+
+172
+00:24:02.720 --> 00:24:04.439
+Jim Zhang: thanks to the
+
+173
+00:24:05.180 --> 00:24:06.889
+Jim Zhang: why and Treaty.
+
+174
+00:24:06.970 --> 00:24:09.730
+Jim Zhang: Uh, we were able to talk to the
+
+175
+00:24:10.670 --> 00:24:12.160
+Jim Zhang: from that key
+
+176
+00:24:12.890 --> 00:24:16.210
+Jim Zhang: we gave our a binding to the
+
+177
+00:24:16.940 --> 00:24:19.659
+Jim Zhang: the matrix that resulted from A.
+
+178
+00:24:20.920 --> 00:24:23.239
+Jim Zhang: So they were going to look at it, and
+
+179
+00:24:23.880 --> 00:24:24.979
+that those two
+
+180
+00:24:25.170 --> 00:24:30.139
+Jim Zhang: future roadmap items for
+
+181
+00:24:32.180 --> 00:24:33.650
+Jim Zhang: so
+
+182
+00:24:33.970 --> 00:24:35.989
+Jim Zhang: we Haven't followed up.
+
+183
+00:24:36.160 --> 00:24:37.780
+Jim Zhang: That's red
+
+184
+00:24:39.780 --> 00:24:41.499
+Jim Zhang: future uh action
+
+185
+00:24:42.740 --> 00:24:48.369
+Jim Zhang: to get back a circle back with it and see what we can do in the short term.
+
+186
+00:24:48.560 --> 00:24:49.609
+Jim Zhang: Ah, she the
+
+187
+00:24:52.470 --> 00:24:54.460
+Jim Zhang: the that is,
+
+188
+00:24:56.690 --> 00:24:59.269
+Jim Zhang: uh the other. Follow up
+
+189
+00:25:02.580 --> 00:25:03.710
+Jim Zhang: going to get together
+
+190
+00:25:05.300 --> 00:25:07.140
+Jim Zhang: by setting up a new repository
+
+191
+00:25:07.690 --> 00:25:11.159
+Jim Zhang: that you start doing some of the
+
+192
+00:25:11.480 --> 00:25:14.399
+Jim Zhang: that we don't believe, are you?
+
+193
+00:25:14.900 --> 00:25:17.180
+Jim Zhang: Where do you type?
+
+194
+00:25:19.900 --> 00:25:21.150
+Jim Zhang: So that Hasn't happened?
+
+195
+00:25:24.810 --> 00:25:27.540
+Jim Zhang: I i'm hoping that um
+
+196
+00:25:27.670 --> 00:25:29.660
+Jim Zhang: next week, when we
+
+197
+00:25:31.180 --> 00:25:32.279
+I guess two weeks
+
+198
+00:25:33.310 --> 00:25:34.920
+Jim Zhang: when we get together, and
+
+199
+00:25:38.600 --> 00:25:40.279
+Jim Zhang: that we can spend some time to
+
+200
+00:25:40.880 --> 00:25:41.969
+Jim Zhang: that make progress.
+
+201
+00:25:45.890 --> 00:25:47.769
+Jim Zhang: That's all I plan to.
+
+202
+00:25:49.350 --> 00:25:51.010
+Jim Zhang: There's not much else that
+
+203
+00:26:01.020 --> 00:26:04.640
+Ry Jones: I don't have anything to share.
+
+204
+00:26:05.880 --> 00:26:09.759
+Ry Jones: I just. I want to reach back to the previous conversation,
+
+205
+00:26:09.770 --> 00:26:17.260
+Ry Jones: and we can get data from Get Lab and Garrett. Those are those are supported for insights.
+
+206
+00:26:20.790 --> 00:26:21.899
+That's great.
+
+207
+00:26:30.140 --> 00:26:49.590
+Jim Zhang: Yeah, I guess the only thing I would add is just on the the discretion that we had with the Lfx insights team. Ah seemed very positive right now. They're really looking to understand kind of the requirements that we had, and think about how they fit into the robots that they have.
+
+208
+00:26:49.600 --> 00:27:07.179
+Tracy Kuhrt: So I I think there's you know, possibly some some good sorts of ideas that we've been able to impart to. You know, right through the discussions that we've been having here through the the task force. And so, I think you know, we may end up in a situation where we,
+
+209
+00:27:07.190 --> 00:27:19.469
+Tracy Kuhrt: you know, can either have Api's or specific dashboards that we're we're able to create. Ah! To to focus in on kind of the metrics that we've been discussing so um big discussion all around
+
+210
+00:27:30.150 --> 00:27:34.689
+Tracy Kuhrt: any questions on on kind of the update from Jim.
+
+211
+00:27:41.420 --> 00:27:44.649
+Tracy Kuhrt: All right. Well, thank you, Jim, for the update.
+
+212
+00:27:44.760 --> 00:27:52.920
+Tracy Kuhrt: Any any items that anybody did think about since we started the meeting that they want to bring up.
+
+213
+00:28:02.860 --> 00:28:04.320
+Tracy Kuhrt: It's
+
+214
+00:28:05.090 --> 00:28:08.259
+Arun S M: right. I just wanted to remind everyone to join it
+
+215
+00:28:08.370 --> 00:28:11.680
+Arun S M: Security Task force this week. We had very no attendance.
+
+216
+00:28:15.690 --> 00:28:32.269
+Arun S M: Okay, that's great of what's happening there just for such, so that everybody is aware of what's happening at the Security Task force. So initially. I know there were a couple of weeks where we started discussing the scope of security task for it to be
+
+217
+00:28:32.280 --> 00:28:43.539
+Arun S M: so. I mean to include so many items. But then, once we figured out exactly what needed to be done, and after the previous discussion that we had in the Tsd. Based on the feedback
+
+218
+00:28:43.810 --> 00:28:53.149
+Arun S M: a specific um and targeted uh um. Proposals have been put on and within the security task force.
+
+219
+00:28:54.490 --> 00:29:01.319
+Arun S M: So i'll be sending out an email with a couple of proposals that were discussed in the previous discussions previous meetings,
+
+220
+00:29:01.610 --> 00:29:03.790
+Arun S M: and I would require St.
+
+221
+00:29:03.800 --> 00:29:06.609
+Arun S M: Request everyone to please join the call
+
+222
+00:29:06.760 --> 00:29:13.259
+Arun S M: Maybe next time. Next instance, next Tuesday that we are meeting is during the Global Forum.
+
+223
+00:29:13.460 --> 00:29:16.999
+Arun S M: We can probably cancel that instance and
+
+224
+00:29:17.030 --> 00:29:19.310
+Arun S M: catch up during the event
+
+225
+00:29:19.660 --> 00:29:26.219
+Arun S M: and discuss how to go back to the task force itself, and remaining pending actions that we can discuss
+
+226
+00:29:26.690 --> 00:29:27.760
+Arun S M: three,
+
+227
+00:29:29.710 --> 00:29:36.350
+Tracy Kuhrt: and it remind the the folks of the call. When is the next security task. First call.
+
+228
+00:29:36.710 --> 00:29:45.640
+Arun S M: It was due to happen during the event on thirteenth, and that will be cancelled because we will be at the Global for a moment.
+
+229
+00:29:46.390 --> 00:29:51.280
+Tracy Kuhrt: Okay, so. Um, just of why there is um.
+
+230
+00:29:51.530 --> 00:30:04.269
+Tracy Kuhrt: Our rotating agenda goes. There is a slot for the Security task force in next Week's Tsc. Meeting, so I guess it's good timing, if
+
+231
+00:30:04.770 --> 00:30:20.360
+Tracy Kuhrt: if nothing else right given given when the next normally off schedule one was for outside of the Kc. So there could be some discussion, obviously next Thursday, and then maybe some additional follow up at the.
+
+232
+00:30:26.100 --> 00:30:34.410
+Arun S M: There is probably one more update that I thought i'll bring it up now that we are on here. So there is the
+
+233
+00:30:34.620 --> 00:30:45.540
+Arun S M: I know. A few months back. During the Tsa call David had brought in additional people from, I think the Ux people from the Lf staff team
+
+234
+00:30:45.680 --> 00:31:03.090
+Arun S M: to discuss the landing page for Hyper Ledger in terms of helping new contributors, also getting new um different person us giving the information of what this we're looking for with in Hyper Ledger, and as part of Hyper Ledger, India chapter as well. We had come up with Stack here. Highlight, your guide
+
+235
+00:31:03.100 --> 00:31:07.879
+Arun S M: that would let new developers look out for where they can get involved easily.
+
+236
+00:31:08.110 --> 00:31:11.769
+Arun S M: It plugged into with an Ip addressing I mean foundation community.
+
+237
+00:31:12.310 --> 00:31:19.359
+Arun S M: Um. So this year we also have an internship uh mentorship project that's going on,
+
+238
+00:31:19.600 --> 00:31:22.940
+Arun S M: which is to enhance that you export
+
+239
+00:31:23.110 --> 00:31:26.030
+Arun S M: of that particulars,
+
+240
+00:31:26.320 --> 00:31:27.540
+Arun S M: Brussels.
+
+241
+00:31:27.620 --> 00:31:34.190
+Arun S M: So we had shared a couple of ideas, and Bobby also had reviewed from the Lmp.
+
+242
+00:31:34.600 --> 00:31:44.450
+Arun S M: And we had email conversation so far I know how to follow up on email replies. There is a big list of emails spending on me,
+
+243
+00:31:44.820 --> 00:31:52.029
+Arun S M: but there would be proposal of a new task force that may come in based on that discussion.
+
+244
+00:31:55.780 --> 00:31:57.849
+Arun S M: A quick heads up of that
+
+245
+00:31:58.010 --> 00:31:59.899
+Tracy Kuhrt: with that Appreciate that.
+
+246
+00:32:00.250 --> 00:32:14.280
+Tracy Kuhrt: Um. And then, speaking of that particular topic, I know that was coming out of the the task force the project Caps task force where we had reviewed those mock-ups for
+
+247
+00:32:15.090 --> 00:32:30.859
+Tracy Kuhrt: a new website, and how that would flow. Anybody from the Hyper Ledger staff have any update on the progress of that? I think you know where it ended. That was saying. It would be great if we could have something where we could actually play with it, click on things and see how it would work.
+
+248
+00:32:30.870 --> 00:32:37.699
+Tracy Kuhrt: And i'm just curious if there's been any update where that's at, when we might expect to see that.
+
+249
+00:32:42.050 --> 00:32:49.599
+Tracy Kuhrt: So, Daniela Hart, fry Shawn. I know David. It's not on the call today. Anybody have any updates, or should we retail
+
+250
+00:32:49.620 --> 00:32:51.179
+Tracy Kuhrt: David's around it?
+
+251
+00:32:53.590 --> 00:33:08.980
+Ry Jones: I think we'll need to wait for David. I don't know anything more. Um, I do know that our design team has been really overwhelmed, so it's been difficult to get them,
+
+252
+00:33:08.990 --> 00:33:13.240
+Ry Jones: you know, to get their time, so I I don't know.
+
+253
+00:33:17.780 --> 00:33:19.599
+Hart Montgomery: Sorry, Thank you
+
+254
+00:33:19.620 --> 00:33:21.070
+you to hurt her.
+
+255
+00:33:21.080 --> 00:33:23.980
+Hart Montgomery: Oh, so I was just going to say, Sorry I'm in the same boat.
+
+256
+00:33:26.700 --> 00:33:35.290
+Tracy Kuhrt: No worries any other items. Last items that anybody would like to discuss before we close the call.
+
+257
+00:33:50.530 --> 00:34:02.730
+Tracy Kuhrt: All right. They're seeing no hands and nobody coming off mute. I will take that as a No. Ah, again. We do have two items at least on the agenda. For next week we have
+
+258
+00:34:02.930 --> 00:34:15.049
+Tracy Kuhrt: presentation on Orion that is scheduled hopefully. I know you've been able to confirm that. And then, secondly, the security task force.
+
+259
+00:34:16.630 --> 00:34:20.389
+Arnaud J Le Hors ("Arno") @ IBM: Yeah, it's not confirmed yet. But i'm hoping it will work.
+
+260
+00:34:20.400 --> 00:34:35.030
+Tracy Kuhrt: Okay, So we're hoping for that one to come through um before the global form. So look forward to talking to everybody next week, and we hope you have a great great week.
+
+261
+00:34:38.250 --> 00:34:39.810
+Jim Zhang: Thank you, Tracey.
+
+262
+00:34:39.820 --> 00:34:41.370
+Jim Zhang: Thank you.
+

@@ -1,0 +1,574 @@
+WEBVTT
+
+1
+00:00:03.990 --> 00:00:13.679
+Tracy Kuhrt: All right. Welcome everybody to the October twentieth. Technical Oversight Committee call uh, as you are probably all aware of
+
+2
+00:00:13.990 --> 00:00:25.299
+Tracy Kuhrt: Linux foundation calls are held under any trust policy. Um. So here's the notice of that. If you have any sort of questions contact uh
+
+3
+00:00:25.450 --> 00:00:35.600
+Tracy Kuhrt: I see Andrew up to grove of the firm ges more up to grove or your legal console. Um. The other thing that we must divide by on these calls is the code of conduct
+
+4
+00:00:35.690 --> 00:00:38.699
+Tracy Kuhrt: which is linked in our agenda.
+
+5
+00:00:39.680 --> 00:00:51.469
+Tracy Kuhrt: So we have two announcements today. Uh, the first one is one that you've heard many, many times before the Dev Weekly developer Newsletter goes out each Friday to hundreds of hyper ledger developers.
+
+6
+00:00:51.540 --> 00:01:00.530
+Tracy Kuhrt: Uh, if you have anything that you would like to include in that, please leave a comment on the Wiki page that is late in the agenda.
+
+7
+00:01:00.810 --> 00:01:18.280
+Tracy Kuhrt: The second announcement that we have is that the Toc nomination period is open. The nomination does close October thirty first end of day. Uh, if you would like to be considered to uh, be elected or appointed to the to the Toc, Please uh
+
+8
+00:01:18.290 --> 00:01:23.659
+Tracy Kuhrt: follow the process of the the nomination processes link there in the agenda.
+
+9
+00:01:24.300 --> 00:01:27.029
+Tracy Kuhrt: Any other announcements that anybody has.
+
+10
+00:01:37.630 --> 00:01:56.269
+Tracy Kuhrt: No okay. Uh. So we did get uh the fabric report in a few days back, and we also got the heck that report in last night. Um, so I didn't see any specific comments coming in on the fabric. One
+
+11
+00:01:56.350 --> 00:02:13.200
+Tracy Kuhrt: Um! Let me just node that page here for myself. Just make sure. Um no, no comments yet. Uh, but uh, there are quite a few outstanding uh reviews that need to to happen uh as far as the cap by one. I don't think anything has
+
+12
+00:02:13.210 --> 00:02:28.450
+Tracy Kuhrt: um occurred there, either. Um, no comments yet, so we'll leave these both on the agenda for next week. But does anybody have any questions on those two reports before we move forward?
+
+13
+00:02:37.280 --> 00:02:57.080
+Tracy Kuhrt: Okay, uh, And then just a a reminder. If anybody knows anybody who might be willing to put together the reports we are still waiting on that report to come in. We don't have any reports that are due next week uh the next one. That's upcoming is the so tooth report that's due on the
+
+14
+00:02:58.100 --> 00:03:10.289
+Tracy Kuhrt: uh twenty-seven uh, so I guess it is due next week, but yet we won't. Um probably have it until the twenty-seven so we won't. Have any additional ones on the the agenda for next week to review.
+
+15
+00:03:11.380 --> 00:03:26.579
+Tracy Kuhrt: All right. So with that we we do have one discussion item today. It is the nonprofit project proposal. I have seen uh some comments coming through on the actual full request, and uh, Steven has made updates since those have come in.
+
+16
+00:03:26.590 --> 00:03:38.449
+Tracy Kuhrt: Um. But at this point I'm. Going to hand the floor to Steven to see if he wants to take us through that or uh, if he would like us, just to start to comment on that.
+
+17
+00:03:42.510 --> 00:03:45.279
+Stephen Curran: Okay, hang on a second. I was gonna
+
+18
+00:03:46.260 --> 00:03:47.580
+Stephen Curran: um.
+
+19
+00:03:47.610 --> 00:03:56.080
+Stephen Curran: So we've We've spent the last couple of weeks um putting together the proposal. Uh, can I share screen,
+
+20
+00:03:56.390 --> 00:04:04.649
+Stephen Curran: of course. Oh, Oh, I see. I have. It's funny. I was trying to start my video as well.
+
+21
+00:04:05.300 --> 00:04:07.070
+Stephen Curran: We don't do that here?
+
+22
+00:04:08.240 --> 00:04:11.570
+Stephen Curran: Okay, hang on um.
+
+23
+00:04:11.590 --> 00:04:13.750
+Stephen Curran: Let me move one more thing.
+
+24
+00:04:14.350 --> 00:04:15.800
+Stephen Curran: Um.
+
+25
+00:04:18.040 --> 00:04:20.900
+Stephen Curran: So let's see. There's the
+
+26
+00:04:21.399 --> 00:04:22.730
+Stephen Curran: um.
+
+27
+00:04:23.500 --> 00:04:36.049
+Stephen Curran: This is largely. Um. So we've been working on this as as a community for the last um several weeks. So um I presented um about a month ago.
+
+28
+00:04:36.060 --> 00:04:54.429
+Stephen Curran: Um to the to the Tsc. Then to to Oc: now. Um and um since then have been soliciting a soliciting input um, putting together a a skeleton proposal and then getting input from the community. Um. So what you're seeing here is that input? Um
+
+29
+00:04:54.840 --> 00:04:58.110
+Stephen Curran: converted over um, we have
+
+30
+00:04:58.810 --> 00:05:08.690
+Stephen Curran: It's It's essentially the um What I presented in a presentation uh a month ago.
+
+31
+00:05:08.760 --> 00:05:10.040
+Stephen Curran: Um!
+
+32
+00:05:10.190 --> 00:05:25.039
+Stephen Curran: So I don't think you want me to repeat this presentation here with all of what is largely the same. I made a couple of tweaks to the slides just to provide updated data. Um, I do have a couple of updates since then.
+
+33
+00:05:25.050 --> 00:05:34.419
+Stephen Curran: Um, we had um at the time. I I talked to this group. Um, I was. We were just heading into the rebooting web of trust um
+
+34
+00:05:34.830 --> 00:05:44.769
+Stephen Curran: conference for those not familiar with that rebooting web of trust brings together um a number of identity uh people in the identity community.
+
+35
+00:05:44.780 --> 00:05:56.040
+Stephen Curran: Um and and Ssi community. It's Christopher Allen organizes it. So Ssi is definitely the focus at that. Almost everybody um that participates.
+
+36
+00:05:56.050 --> 00:06:10.999
+Stephen Curran: Um submits a proposed paper to work on at the Conference and um at the start of the conference. Um, though the the ones to be actually worked on are narrowed down to a a smaller list
+
+37
+00:06:11.450 --> 00:06:18.249
+Stephen Curran: um of things that people want to work on um and Don credits um, despite the fact that
+
+38
+00:06:18.260 --> 00:06:32.019
+Stephen Curran: um in addition to the shirt i'm wearing that I I got from the Hyper Ledger Co Global forum, I managed to um get Covid, and so was not able to attend the uh our. What conference? The paper that I submitted did get worked on
+
+39
+00:06:32.810 --> 00:06:41.969
+Stephen Curran: um. So that was very positive. Um! And and so I worked um sort of on the side on that on on another paper. But in the meantime another group.
+
+40
+00:06:41.980 --> 00:07:10.270
+Stephen Curran: Um continue to work on the in on credit paper as I submitted it, and and continue to work on the specification and working on it. So that was really good. Um! A lot of progress was made actually there on the impact of ledger agnostic and on credits in this. And And what is the genesis of this whole idea of moving and on grids out of Indie. Um, because then on credits can be used um pretty easily. In fact, with
+
+41
+00:07:10.280 --> 00:07:21.489
+Stephen Curran: um different um storage locations, publication, um locations. Um So continue to work on the leisure agnostic and on credits
+
+42
+00:07:21.560 --> 00:07:32.560
+Stephen Curran: We We had a number of new contributors to the non-credit specification itself. Um. So that was really good um uh outcome from that we uh
+
+43
+00:07:32.880 --> 00:07:39.420
+Stephen Curran: had um a pile of new pull requests put in, and and new contributors that are
+
+44
+00:07:39.430 --> 00:08:01.799
+Stephen Curran: continuing to work on it, and as well. We came up with an approach for putting an on current into the W. Three, c verifiable credential standard data model. And this was somewhat of a surprise, was not expecting that quite frankly. When I when I talked to this group. Um a month ago. Um! That was not really on my agenda. We We had some talks at the conference,
+
+45
+00:08:01.810 --> 00:08:05.740
+Stephen Curran: and discovered that wait this isn't very difficult to do,
+
+46
+00:08:06.540 --> 00:08:21.740
+Stephen Curran: and since then have um implemented a a first draft of that where um basically taking it on credits um as it stands today, and just putting it into the W. Three, C. Verifiable for data, credential um
+
+47
+00:08:21.750 --> 00:08:40.020
+Stephen Curran: data model such that it can be um moved back and forth in either direction. And um A, and yet still processed exactly the way it on grad is intended to work, so that that's um Some exciting and interesting things that have happened even in the last month. Um,
+
+48
+00:08:40.159 --> 00:08:43.380
+as I mentioned creation evolution of the hip
+
+49
+00:08:43.799 --> 00:08:46.410
+Stephen Curran: um, and then
+
+50
+00:08:47.130 --> 00:09:17.119
+Stephen Curran: just gathering um, stated um support for the proposal to move it on credits out of its own project. So those are the things that have happened since then. As I say, I've got this presentation that I I gave um a month ago, and I I suspect you don't want me to go through that again. I think everyone um on the call was was at that previous meeting. So, um! That's the material that I had thought of preparing. And um I I did get a number of comments from uh from to Oc. Members,
+
+51
+00:09:17.130 --> 00:09:23.099
+Stephen Curran: and I appreciate that. Um, I think I've addressed them. The only one that I did not specifically
+
+52
+00:09:23.160 --> 00:09:24.240
+Stephen Curran: add
+
+53
+00:09:24.500 --> 00:09:38.610
+Stephen Curran: a level of detail to, was the the question of link secrets, and I do have a slide here on linked secrets. If um, if we want to talk about that and deep dive into that um. I just thought for the proposal that's going quite deep into it,
+
+54
+00:09:38.830 --> 00:09:52.740
+Stephen Curran: and and I i'm happy to add it. But I I didn't think it was necessarily appropriate for um the proposal. So um! That's where I got to, and and we've got to as a community, so
+
+55
+00:09:52.750 --> 00:09:59.579
+Stephen Curran: um looks like Nathan has. Oh, Tracy, I'll turn it back to you and then let you handle the questions and and organization.
+
+56
+00:09:59.870 --> 00:10:08.169
+Tracy Kuhrt: Sounds great. Thanks, Steven, and thanks for uh, letting us know what's up and updated and changed since we last spoke Uh, Nathan.
+
+57
+00:10:09.330 --> 00:10:38.059
+Nathan George: When this idea first came up, I was really worried about whether it would dilute some of the work going on in the community. And I think, uh, Steven deserves a lot of credit for all this work, cultivating the contributor base on on this proposal. If you look at who's said there's sponsoring or supporting the list is a lot more extensive than I expected, and uh it, it just looks like it's setting up to be a really good improvement. Um to take advantage of. Not only
+
+58
+00:10:38.270 --> 00:10:53.799
+Nathan George: um better decomposition of how you know all of the identity code is organized hyper ledger, but also to to help get more um community contributors excited. So uh thanks, Steven, for all the the great work on the proposal. I i'm. I'm pretty excited about what i'm seeing here.
+
+59
+00:10:57.550 --> 00:11:00.830
+Tracy Kuhrt: It definitely is an impressive list,
+
+60
+00:11:00.910 --> 00:11:04.729
+Tracy Kuhrt: any comments or questions on the proposal,
+
+61
+00:11:08.820 --> 00:11:09.750
+Tracy Kuhrt: Peter.
+
+62
+00:11:10.890 --> 00:11:20.850
+Peter Somogyvari: I was just curious as the Is there an implementation also that will move out of Indie? Or is it just the standard?
+
+63
+00:11:21.120 --> 00:11:31.859
+Stephen Curran: Um, No, there is an implementation. So there's two implementations in Indie right now. Um! The plan is to take um one of those which is called um
+
+64
+00:11:31.920 --> 00:11:42.690
+Stephen Curran: For lack of a better turn. The the developer named credits um, and that will be basically what we'll do is we will split um. And
+
+65
+00:11:42.700 --> 00:12:02.279
+Stephen Curran: i'm hoping someone knows the Github magic, because we don't want to lose any history, but basically split a repo into two. One will remain with Indie, and we'll have the and on credits part of it removed. One will move to the nonprofit project should it be created and have the Indie parts removed.
+
+66
+00:12:02.290 --> 00:12:20.250
+Stephen Curran: Um! So the history will hopefully be maintained in both um and then we'll move forward um with that uh, with the two repositories. So the en on cred is um, As I said, it's already been used in a number of ways
+
+67
+00:12:20.260 --> 00:12:34.080
+Stephen Curran: um in the number of places to implement non Indian on credits, and this will um will then evolve that implementation to um formalize the separation of
+
+68
+00:12:34.210 --> 00:12:48.430
+Stephen Curran: the not credits processing the implementation of the specification from the um uh storing and retrieving of and on credit objects from a a verifiable data registry.
+
+69
+00:12:48.470 --> 00:12:52.700
+Stephen Curran: So that's the That's the plan for the software. No, it's very much software.
+
+70
+00:12:56.010 --> 00:12:57.310
+Tracy Kuhrt: Mhm
+
+71
+00:13:00.270 --> 00:13:06.890
+Arun S M: Um, thanks. Tracy. Um, hey, Stephen. So thanks for addressing the questions on the github,
+
+72
+00:13:06.980 --> 00:13:18.640
+Arun S M: and um quick follow up on that. So! And this proposal looks looks really good. And um! This is kind of a project that would bring in more participation, and it it aligns well with
+
+73
+00:13:18.910 --> 00:13:29.890
+Arun S M: um building those reusable components of building those plugable components that would allow us to do utilize our um give flexibility to cost constant. The end users right
+
+74
+00:13:30.170 --> 00:13:34.270
+Arun S M: and quick question on the implementation aspect.
+
+75
+00:13:34.290 --> 00:13:42.240
+Arun S M: I know in the proposal you mentioned that um the they can be a closed source or open source, or, uh, uh,
+
+76
+00:13:42.420 --> 00:13:57.440
+Arun S M: what do we call it? The components that deal with Vdr. Right? That the the Vdi part, those can be either closer or the open source parts. So within Hyperliger, you specifically mentioned about fabric, and so and i'm just curious is
+
+77
+00:13:57.780 --> 00:14:02.509
+Arun S M: you have identified uh people who will be working on that? Or is it
+
+78
+00:14:02.650 --> 00:14:10.339
+Arun S M: um that you'll be working with those fabric and basic teams and coming up with the solution. So how is that? Uh: In plan?
+
+79
+00:14:10.360 --> 00:14:13.699
+Stephen Curran: Yeah. So um, the
+
+80
+00:14:14.440 --> 00:14:25.379
+Stephen Curran: that a a fabric implementation has been done. So there's a member of the community. Um a team. Um that did a fabric implementation.
+
+81
+00:14:25.420 --> 00:14:34.430
+Stephen Curran: Um, again, just based on what was already in in the library, so that's been implemented, but without benefit of
+
+82
+00:14:34.660 --> 00:14:44.410
+Stephen Curran: the the proper decomposition, if you will, so the expectation is um that will be updated and modified.
+
+83
+00:14:44.420 --> 00:14:57.259
+Stephen Curran: Um, the atherium one quite frankly, is speculation um that we came up with at at our Watt, but there was a a number of people talking there that that speculated that um
+
+84
+00:14:57.440 --> 00:15:16.190
+Stephen Curran: aetherium is likely A, and particularly with the the recent transition that that Etherium had. That makes it a a pretty good um possibility of of it. So that was more speculation. But But my expectation is with the strong push
+
+85
+00:15:16.200 --> 00:15:21.810
+Stephen Curran: right now in identity and and the interest in identity. Um
+
+86
+00:15:22.240 --> 00:15:29.139
+Stephen Curran: Ssi style, identity decentralized identity and and verifiable data. Quite frankly. Um,
+
+87
+00:15:29.380 --> 00:15:43.319
+Stephen Curran: I think it is a a a, a a likely strong combination. So that is more speculative. Um versus the fabric one where somebody is actually already done an implementation, and it would be moving that implementation.
+
+88
+00:15:43.800 --> 00:15:45.180
+Stephen Curran: Does that make sense?
+
+89
+00:15:45.370 --> 00:15:51.099
+Arun S M: And then, of course, there's people like checked
+
+90
+00:15:51.110 --> 00:16:12.669
+Stephen Curran: that have their own leisure they're likely to put their implementation in their own repos. Um Checked, I believe, is is is open source, so those will be open source ones. But I could envision others doing a proprietary one and and um, and that's the where the closed source might come in. But but quite frankly,
+
+91
+00:16:12.680 --> 00:16:23.040
+Stephen Curran: that's for them to provide to people so that they can use make use of it on credits um on their platform, if that's what they want to do.
+
+92
+00:16:24.090 --> 00:16:37.109
+Arun S M: Got it? Um, and probably I know um somebody. I remember reading in the proposal, but just for completeness sake of this argument. And um, so there is Aries community also involved, and
+
+93
+00:16:37.160 --> 00:16:40.580
+Arun S M: uh willing to adopt a on credit.
+
+94
+00:16:41.250 --> 00:16:54.700
+Stephen Curran: Absolutely it. It um Aries has most of the um frameworks in aries already have not all, but most have a non-credit support. Um,
+
+95
+00:16:54.980 --> 00:17:11.290
+Stephen Curran: and and this change will be relatively minor, more or less. It will be dependencies within um within the frameworks themselves, and so should not affect business logic, and really is just um Part would be part of a minor upgrade
+
+96
+00:17:11.349 --> 00:17:18.200
+Stephen Curran: um for any of the area's frameworks, and that's the um. Certainly the implementation plan and interest of the community.
+
+97
+00:17:18.960 --> 00:17:22.819
+Arun S M: Thanks, Steven. And yeah, all the best looking forward to it.
+
+98
+00:17:25.609 --> 00:17:27.880
+Tracy Kuhrt: Alright, Thank you. Uh, Dan.
+
+99
+00:17:28.400 --> 00:17:50.920
+Danno Ferrin: So This is a bit more of a commentary than an actual question. This aligns with something that's happening in some of the theory. Layer two spaces. They're calling a modular blockchain, breaking out these modules and using it everywhere. So in general, I view this as a positive development for the uh, for the identity space, that there's a a Lego break. You can plug in wherever you need. That's consistent and reusable. So good job,
+
+100
+00:17:51.260 --> 00:17:52.730
+Stephen Curran: excellent. Thank you.
+
+101
+00:17:55.940 --> 00:18:00.499
+Tracy Kuhrt: Any other comments or questions on the proposal.
+
+102
+00:18:04.730 --> 00:18:10.710
+Tracy Kuhrt: Anybody have any objections that they would like to bring up, or any concerns that they would like to bring up.
+
+103
+00:18:17.620 --> 00:18:18.540
+Tracy Kuhrt: Dana.
+
+104
+00:18:18.560 --> 00:18:26.929
+Danno Ferrin: I just want to uh reconfirm. I think it is written out in a spec. But Indie will continue to function with non-creds and will be continue to be kept up to date
+
+105
+00:18:26.940 --> 00:18:47.699
+Stephen Curran: with how nonprofit evolves and the Api is with it. Correct? Absolutely. Yes. Um! The idea here, we think, is by expanding. You know the basic strategy from an Indie perspective is by expanding the um user base of an oncred by by removing roadblocks from from um.
+
+106
+00:18:47.710 --> 00:19:07.830
+Stephen Curran: The adoption of of an onkreds. When people look around for okay, where do we want to host our and on credit objects in the will be a an excellent choice. And so it's a sort of um rising, rising tide floats all boats. Um uh strategy from an Indie perspective.
+
+107
+00:19:17.780 --> 00:19:22.209
+Tracy Kuhrt: Okay, any other comments concerns
+
+108
+00:19:30.300 --> 00:19:43.959
+Tracy Kuhrt: this is the opportunity before we uh call for a vote. So if you do have anything that you're holding on to, hoping that this is going to go on until next week. Um, then, now is your time to speak
+
+109
+00:19:45.300 --> 00:20:02.480
+Victor Gridnevsky: the question about us that was raised. If it's a good time. Um, if uh, I can talk to someone in our team and help with a post that I can help with the reports, but only if I have enough data to actually help.
+
+110
+00:20:03.630 --> 00:20:04.840
+Stephen Curran: Awesome.
+
+111
+00:20:06.080 --> 00:20:25.419
+Stephen Curran: Okay, please contact me. I am Victor Gagnevsky, and I'll be available everyday assumption.
+
+112
+00:20:26.280 --> 00:20:30.750
+Victor Gridnevsky: Uh, Steven. Uh, I would uh contact you right?
+
+113
+00:20:30.900 --> 00:20:32.640
+Sure. Okay,
+
+114
+00:20:38.020 --> 00:20:39.100
+Victor Gridnevsky: Thank you.
+
+115
+00:20:40.990 --> 00:20:47.250
+Tracy Kuhrt: All right. Any Any final comments, questions, concerns, objections.
+
+116
+00:20:47.350 --> 00:20:50.650
+Tracy Kuhrt: Uh:
+
+117
+00:20:51.030 --> 00:20:55.760
+Tracy Kuhrt: okay, I guess that's the is that. Are you? Uh making a motion there or no?
+
+118
+00:20:56.400 --> 00:20:58.490
+Arnaud J Le Hors ("Arno"): I Um, very much.
+
+119
+00:20:58.540 --> 00:21:00.700
+Tracy Kuhrt: Okay. Do we have a second.
+
+120
+00:21:02.360 --> 00:21:03.420
+Arun S M: I can
+
+121
+00:21:04.970 --> 00:21:14.709
+Tracy Kuhrt: Alright, alright, Thanks for that. Alright, So we're now voting to approve the non-credit project as a top level project within Hyper ledger
+
+122
+00:21:14.750 --> 00:21:21.849
+Ry Jones: right? Did you want to take us to a vote? Sure on the matter before the Toc Angelo?
+
+123
+00:21:22.310 --> 00:21:24.799
+Angelo De Caro: Yes or no?
+
+124
+00:21:25.400 --> 00:21:27.480
+Arnaud J Le Hors ("Arno"): Yes,
+
+125
+00:21:28.190 --> 00:21:30.260
+Artem Barger: I concerned. Yes,
+
+126
+00:21:30.580 --> 00:21:31.800
+Ry Jones: a room.
+
+127
+00:21:32.330 --> 00:21:37.190
+Bobbi Muscara: Yes,
+
+128
+00:21:37.470 --> 00:21:40.409
+Danno Ferrin: yes, I like it.
+
+129
+00:21:40.480 --> 00:21:41.720
+David Enyeart: Yes,
+
+130
+00:21:41.900 --> 00:21:44.340
+Ry Jones: uh Grace is not here, Jim.
+
+131
+00:21:45.880 --> 00:21:47.350
+Jim Zhang: I say yes for me.
+
+132
+00:21:47.390 --> 00:21:48.990
+Ry Jones: Okay, Kamlash
+
+133
+00:21:49.280 --> 00:21:51.980
+Kamlesh Nagware: definitely. Yes, Nathan.
+
+134
+00:21:52.000 --> 00:21:53.860
+Nathan George: Yes, Peter,
+
+135
+00:21:54.020 --> 00:21:55.959
+Ry Jones: Yes, Tracy,
+
+136
+00:21:56.400 --> 00:21:57.400
+Tracy Kuhrt: yes.
+
+137
+00:21:57.470 --> 00:22:01.760
+Ry Jones: And Troy is not here, so you know it passes.
+
+138
+00:22:01.800 --> 00:22:04.179
+Stephen Curran: Congratulations. Steven. Awesome.
+
+139
+00:22:05.540 --> 00:22:24.550
+Tracy Kuhrt: Alright, Well, that was a a lot quicker that I thought we'd go through things today. I appreciate that everybody uh for having reviewed that in with your questions ready. Uh, I wish I had uh prepared that the presentation that I have next week uh for this particular agenda. But we will.
+
+140
+00:22:24.560 --> 00:22:36.049
+Tracy Kuhrt: I'll be talking with the prune folks next week in the meeting. Um! So before we close out the call any any other discussion items that we should talk about today.
+
+141
+00:22:42.930 --> 00:22:45.750
+Tracy Kuhrt: Everybody is just hovering over the lead button.
+
+142
+00:22:47.570 --> 00:22:59.869
+Tracy Kuhrt: All right. Well, thanks everybody for joining today, and we will meet again next to week. Um, please take time to review the open reports that are out there and uh have a good week.
+
+143
+00:23:00.550 --> 00:23:02.250
+Victor Gridnevsky: Okay,
+

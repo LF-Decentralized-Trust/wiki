@@ -1,0 +1,20 @@
+00:28:38	Troy Ronda:	And Go framework has one.
+00:31:29	Troy Ronda:	https://github.com/hyperledger/aries-framework-go/packages/69982
+00:36:01	Lynn Bendixsen:	Clarification: Sovrin does not run a node on MainNet.  It does have nodes on its other Networks for ease of management.
+00:39:42	Daniel Bluhm:	No pressure lol
+00:39:54	Stephen Curran:	lol - that's what I was thinking.
+00:40:08	Lynn Bendixsen:	:)  lol
+01:03:24	Troy Ronda:	We would also have the same attachment type issue in present proof
+01:04:41	Troy Ronda:	The example in present proof protocol has "@id": "libindy-request-presentation-0",
+01:06:13	Daniel Bluhm:	For reference, here's what the attachment decorator has to say about passing straight json: https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0017-attachments/README.md#json
+01:09:07	Troy Ronda:	And also present proof should end up being similar.
+01:10:48	Troy Ronda:	https://github.com/hyperledger/aries-rfcs/tree/master/features/0037-present-proof#presentation-preview also seems like it should be attached (credential_preview).
+01:13:32	Troy Ronda:	(Sorry it’s presentation_proposal as we just saw).
+01:22:15	Kyle Den Hartog:	thanks Stephen for bringing these changes up.
+01:22:17	Troy Ronda:	Awesome thanks Stephen.
+01:25:31	Kyle Den Hartog:	hey wait... did you read that? 😁
+01:32:39	Nathan George:	To preserve the privacy of transfer value amounts long-term (like zksnark protected balances), a static fee is what we’re working with on the Sovrin test networks
+01:35:23	Paul Knowles:	Looks good, Daniel. Nice work.
+01:35:45	Kyle Den Hartog:	looking good Daniel!
+01:36:09	Lynn Bendixsen:	Great demo Daniel!  Kudo's to Adam and Sam who also contributed to getting that working.
+01:36:55	Kyle Den Hartog:	yes, thanks to all who’s helped bring this to life.

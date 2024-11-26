@@ -1,0 +1,26 @@
+00:16:43	Filip Burlacu:	vote to defer
+00:18:49	Drummond Reed:	I just joined the call and you’re already talking about governance frameworks??
+00:19:47	Drummond Reed:	q+
+00:21:14	jonnycrunch:	q+
+00:22:55	Filip Burlacu:	https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0289-toip-stack/README.md
+00:23:00	Drummond Reed:	thank you
+00:23:49	George Aristy:	https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0207-credential-fraud-threat-model/README.md
+00:23:57	Drummond Reed:	thanks George!
+00:29:52	George Aristy:	@Tobias: this is probably the issue you want to link to, right? https://github.com/hyperledger/aries-rfcs/issues/104
+00:30:02	Tobias Looker:	Correct
+00:30:33	George Aristy:	In particular, this comment by Daniel is relevant: https://github.com/hyperledger/aries-rfcs/issues/104#issuecomment-525509636
+00:43:28	Paul Knowles:	Note: There are a couple of RFCs that would naturally fit better under the proposed “Trust Over IP” project. [0289-toip-stack and 0013-overlays are two that spring to mind]. Basically, any RFCs that are platform agnostic (i.e. not solely applicable to Hyperledger).
+00:43:43	George Aristy:	+1
+00:45:22	Troy Ronda:	What’s the proposed “Trust Over IP” project?
+00:45:38	Troy Ronda:	I know about the RFC. I wasn’t aware of the project.
+00:45:54	Paul Knowles:	https://www.youtube.com/watch?v=L0wE7RWxc0M
+00:46:20	Drummond Reed:	There’s discussion about starting a project at LF to maintain a formal definition of the complete stack.
+00:48:22	Troy Ronda:	Thanks!
+00:50:29	Troy Ronda:	Out of scope and new RFCs.
+00:55:08	Troy Ronda:	I think it’s okay to leave “default” for the reasons Sam has given.
+00:58:59	George Aristy:	Which RFC?\
+01:10:59	Drummond Reed:	+1
+01:11:09	Drummond Reed:	q+
+01:16:54	George Aristy:	https://digitalbazaar.github.io/did-method-key/   <----- it's not being incubated in a W3C WG is it?
+01:20:33	Drummond Reed:	Sam, Stephen: FYI, I have made the post on issue #144 but I don’t have permissions to close the issue. https://github.com/hyperledger/aries-rfcs/issues/144#issuecomment-567216211
+01:34:01	Kyle Den Hartog:	I’ll close it Drummond

@@ -1,0 +1,1590 @@
+WEBVTT
+
+1
+00:03:12.380 --> 00:03:14.199
+Kim Ebert: Today's meeting cancelled.
+
+2
+00:03:17.990 --> 00:03:19.550
+Charles Lanahan: I was wondering that myself.
+
+3
+00:03:24.290 --> 00:03:31.119
+Jakub Koci: yeah, I'm just writing them almost like, if if it's happening today. So let's see.
+
+4
+00:07:49.510 --> 00:07:50.990
+Timo Glastra: good afternoon, everyone.
+
+5
+00:07:55.060 --> 00:07:56.810
+Timo Glastra: Can you hear me?
+
+6
+00:07:56.980 --> 00:07:58.530
+Warren Gallagher: Yes, I can. Hello!
+
+7
+00:07:58.950 --> 00:07:59.860
+Timo Glastra: Hello!
+
+8
+00:08:00.190 --> 00:08:02.270
+Timo Glastra: I'm sorry.
+
+9
+00:08:02.460 --> 00:08:05.129
+Timo Glastra: Forgot about the time completely.
+
+10
+00:08:06.070 --> 00:08:11.439
+Timo Glastra: I was working on the afgh, and very deep, deeply focused.
+
+11
+00:08:27.730 --> 00:08:31.559
+Timo Glastra: We could be making an agenda, and then we can get started right away.
+
+12
+00:09:03.250 --> 00:09:04.720
+Timo Glastra: All right.
+
+13
+00:09:05.580 --> 00:09:19.789
+Timo Glastra: That's good. Start. long number on today are some Javascript for group call of July 20 need to remind you to remember the hypothesis of Connect and the trust policy.
+
+14
+00:09:20.000 --> 00:09:34.130
+Timo Glastra: if you would like to add yourself to the tennis list. Feel free to do so. but it's like in the chat.  so
+
+15
+00:09:34.670 --> 00:09:40.239
+Timo Glastra: yeah, any status updates from the we had a called 2 weeks ago.
+
+16
+00:09:40.340 --> 00:09:43.290
+any status updates you would like to share?
+
+17
+00:09:49.500 --> 00:09:55.510
+Warren Gallagher: There was a an Aries working group call yesterday and
+
+18
+00:09:56.190 --> 00:10:04.350
+Warren Gallagher: the discussion mostly focused around. some work that's been done on marketing copy
+
+19
+00:10:04.420 --> 00:10:12.009
+Warren Gallagher: and the results of a survey that we're informing that marketing copy So when there were links in the
+
+20
+00:10:12.360 --> 00:10:20.299
+Warren Gallagher: in the meeting notes to the survey results and to that marketing copy proposal. So if anybody wants to go and look at those
+
+21
+00:10:21.040 --> 00:10:27.729
+Warren Gallagher: they're available. I think the intent is to make apply
+
+22
+00:10:27.900 --> 00:10:37.549
+Warren Gallagher: the changes to the main wiki sooner rather than later, and then iterate on it as necessary to try and get some of the benefit of the rework. That's been done.
+
+23
+00:10:38.210 --> 00:10:42.810
+Warren Gallagher: That's number one. And there was also a presentation given
+
+24
+00:10:43.150 --> 00:10:46.540
+Warren Gallagher: on Aries Vcx.
+
+25
+00:10:46.780 --> 00:11:00.519
+Warren Gallagher: which is a a library written in rust that uses a whole bunch of the other rust libraries to provide a bunch of the areas functionality?
+
+26
+00:11:01.050 --> 00:11:12.090
+Warren Gallagher: the intent is not to provide a a complete batteries included agent, but rather all of the stuff that you would need to construct one, or a wallet or something else.
+
+27
+00:11:12.300 --> 00:11:24.050
+Warren Gallagher: Looks like they've made good progress. And there's work underway at the moment to integrate support for Mozilla's Fi project to
+
+28
+00:11:24.330 --> 00:11:31.620
+Warren Gallagher: export or describe all of the rest bindings to their primary api, so that they can be made available in other languages.
+
+29
+00:11:40.330 --> 00:11:42.449
+Timo Glastra: And that's using unify or
+
+30
+00:11:43.070 --> 00:11:44.470
+Warren Gallagher: yes, I believe so.
+
+31
+00:11:50.660 --> 00:11:54.340
+Timo Glastra: Okay. cool. Thank you.
+
+32
+00:11:58.170 --> 00:12:00.000
+Timo Glastra: Any other updates.
+
+33
+00:12:00.850 --> 00:12:05.779
+Kim Ebert: the low testing framework.
+
+34
+00:12:05.950 --> 00:12:09.480
+Kim Ebert: with, on, that's under the Aries Mediator Service.
+
+35
+00:12:09.760 --> 00:12:14.800
+Kim Ebert: we recently use that to test over 12,000 users simultaneously.
+
+36
+00:12:16.790 --> 00:12:17.500
+Timo Glastra: Cool.
+
+37
+00:12:18.190 --> 00:12:21.680
+Timo Glastra: That's the soccer talk, right?
+
+38
+00:12:21.850 --> 00:12:29.269
+Kim Ebert: No, that's the load testing underneath the area's we need your service. I'll drop a link in the chat.
+
+39
+00:12:30.120 --> 00:12:30.890
+Timo Glastra: Okay.
+
+40
+00:12:42.440 --> 00:12:53.529
+Timo Glastra: okay? And this is a a test you have run to to test mediator load, and you had 12,000 concurrent open sessions. Or.
+
+41
+00:12:54.220 --> 00:13:03.140
+Kim Ebert: yeah, so this is it can be used more than just a testing mediation. that has some other tests inside of it, such as issuance.
+
+42
+00:13:03.150 --> 00:13:07.840
+Kim Ebert: we're also working on adding verification workflow to it as well
+
+43
+00:13:10.260 --> 00:13:10.950
+Timo Glastra: cool.
+
+44
+00:13:12.950 --> 00:13:20.550
+Kim Ebert: it uses Aj as the client uses a logist as the orchestrator
+
+45
+00:13:32.460 --> 00:13:36.469
+Timo Glastra: cool. And so the difference with like the
+
+46
+00:13:37.130 --> 00:13:43.529
+Timo Glastra: the era slow generator is that this is, one is fully focused on mediation.
+
+47
+00:13:44.290 --> 00:13:45.220
+Kim Ebert: No?
+
+48
+00:13:45.480 --> 00:13:46.730
+Timo Glastra: Oh.
+
+49
+00:13:46.890 --> 00:13:54.570
+Kim Ebert: it started off with just mediation. we've added issuance into it. We're working on verification flow right now.
+
+50
+00:13:55.110 --> 00:14:00.360
+Timo Glastra: Okay? And and do you know how it's comparison to the eras load generator?
+
+51
+00:14:01.540 --> 00:14:11.639
+Kim Ebert: the Aries load generator. My understanding is that it starts up all of the services the concept here with the area's mediator services, it's focused on
+
+52
+00:14:11.790 --> 00:14:16.489
+Kim Ebert:  that being a client to an existing infrastructure.
+
+53
+00:14:24.540 --> 00:14:34.659
+Kim Ebert: right now the issuance and verification flows focused on an act by Api end. But I'm sure it could be modified to use
+
+54
+00:14:34.710 --> 00:14:39.460
+Kim Ebert: any other issue or or verifier as long as the endpoints updated.
+
+55
+00:14:39.550 --> 00:14:46.280
+Kim Ebert: because it will contact the issuer and verifier Api endpoints to
+
+56
+00:14:46.490 --> 00:14:51.760
+Kim Ebert: request the connection and request the issue. Answer verification.
+
+57
+00:14:52.200 --> 00:15:01.319
+Warren Gallagher: So so this is intended to be able to point at some areas infrastructure to be able to determine what its own characteristics are as opposed to
+
+58
+00:15:01.870 --> 00:15:09.910
+Warren Gallagher: the load generator which sparks up its own infrastructure. And it's primarily, I guess, to test
+
+59
+00:15:10.340 --> 00:15:14.489
+Warren Gallagher:  that things don't tip over.
+
+60
+00:15:14.700 --> 00:15:19.829
+Warren Gallagher:  I guess that would be the primary difference in the approach.
+
+61
+00:15:19.870 --> 00:15:24.290
+Kim Ebert: Yeah, the goals to test the structure. That's a existing
+
+62
+00:15:25.690 --> 00:15:26.450
+Warren Gallagher: good
+
+63
+00:15:27.500 --> 00:15:28.790
+Timo Glastra: sounds interesting.
+
+64
+00:15:34.270 --> 00:15:36.970
+Timo Glastra: Cool any other set of updates.
+
+65
+00:15:44.570 --> 00:15:48.270
+Timo Glastra: All right, I think we can get to that general
+
+66
+00:15:48.970 --> 00:16:01.149
+Timo Glastra: are there specific topics? People would like to discuss on the agenda today. last time we went through. a lot of the pull requests.
+
+67
+00:16:01.160 --> 00:16:02.460
+Timo Glastra: and
+
+68
+00:16:02.860 --> 00:16:13.439
+Timo Glastra: so yeah, are some of the topics people would like to discuss. Otherwise we could maybe do also a quick, quick tour around to the 2 requests again. yeah.
+
+69
+00:16:23.700 --> 00:16:24.450
+Timo Glastra: all right.
+
+70
+00:16:25.570 --> 00:16:32.979
+Timo Glastra: let's do that. I'm not sure if there's a lot of progress being made in a lot of people. Also.
+
+71
+00:16:33.890 --> 00:16:43.260
+Warren Gallagher: maybe it's covered in the in the pull requests, chemo. But I would be interested in knowing where
+
+72
+00:16:43.490 --> 00:16:48.120
+Warren Gallagher: the work is in terms of supporting the
+
+73
+00:16:48.410 --> 00:16:53.979
+Warren Gallagher: newest versions of like expo and react native and dependencies in the like.
+
+74
+00:16:56.150 --> 00:16:57.709
+Timo Glastra: Yeah. And so
+
+75
+00:16:57.830 --> 00:17:03.410
+Timo Glastra:  it was. Do you mean expo 49 then, or
+
+76
+00:17:11.750 --> 00:17:19.190
+Timo Glastra: Warren. Do you mean like the latest like expo 49, or what are its meaning? Specifically.
+
+77
+00:17:20.220 --> 00:17:24.920
+Warren Gallagher: I believe so. I think there was work intended to be done to get
+
+78
+00:17:24.940 --> 00:17:28.809
+Warren Gallagher: like beyond react native 68 or 69. And
+
+79
+00:17:28.870 --> 00:17:35.240
+Warren Gallagher: and the related expo versions I don't recall the exact version numbers. But
+
+80
+00:17:35.740 --> 00:17:42.049
+Timo Glastra: okay, yeah. So that work is is completed. and
+
+81
+00:17:42.590 --> 00:18:03.350
+Timo Glastra: So we haven't tested with the the latest expo version. But that came out like, I think, 2 weeks ago, or something. but I don't expect too many issues. but we have tested it with like we got it working with the latest versions, and Barrett did some very complex
+
+82
+00:18:03.430 --> 00:18:13.390
+Timo Glastra: stuff to make If we go to the. for example, the adequate for us. repo
+
+83
+00:18:14.850 --> 00:18:16.700
+Timo Glastra: so react native.
+
+84
+00:18:17.280 --> 00:18:34.629
+Timo Glastra: It was mostly with android, I think. Yeah. So as you can see, there is now a custom logic for different direct native versions. and as you can see, it works like we have tested it up to 0
+
+85
+00:18:34.750 --> 00:18:40.529
+Timo Glastra: top 71 we haven't tested it with
+
+86
+00:18:41.550 --> 00:19:00.740
+Timo Glastra:  with 0 72. But that's also just came out. So I think it it. It should all just work out of the box and and everything with auto-linking and with an export project. So if you would like to have an example, is the
+
+88
+00:19:03.850 --> 00:19:07.449
+Timo Glastra: paradigm wallet repo, which has an
+
+89
+00:19:07.760 --> 00:19:13.669
+Timo Glastra: exco app in here, and that uses Let me see.
+
+90
+00:19:13.900 --> 00:19:34.780
+Timo Glastra: it uses react native 0 dot 71. It uses the latest areas as far release. And it uses a for 0 without like native code. So I think this this you can use this as an example. If you're looking for how to set that up.
+
+91
+00:19:37.300 --> 00:19:39.110
+Timo Glastra: Does that answer your question? Or
+
+92
+00:19:40.720 --> 00:19:42.419
+Warren Gallagher: yes, that's great. Thank you.
+
+93
+00:19:44.130 --> 00:19:46.679
+Timo Glastra: Perfect. Yeah. So, and we need to.
+
+94
+00:19:46.850 --> 00:19:53.989
+Timo Glastra: Yeah, add some more documentation exactly on how to set it up. But it it should all work
+
+95
+00:19:56.140 --> 00:19:58.290
+Timo Glastra: cool.
+
+96
+00:19:58.820 --> 00:20:10.109
+Timo Glastra: so any Pr people would like to discuss. I haven't had a lot of time to to look at. Pr. So we discussed last time. There are some reviews I need to
+
+97
+00:20:10.590 --> 00:20:13.930
+Timo Glastra: me to leave
+
+98
+00:20:16.160 --> 00:20:18.269
+Timo Glastra: any Pr people would like to discuss.
+
+99
+00:20:26.740 --> 00:20:27.640
+Timo Glastra: All right.
+
+100
+00:20:27.810 --> 00:20:44.820
+Timo Glastra: maybe. Then there are some issues we can maybe get some consensus on one is that started in another pr, for some updating of the samples. But it's currently like with the
+
+101
+00:20:44.940 --> 00:20:47.599
+Timo Glastra: the rappers that only work in
+
+102
+00:20:47.820 --> 00:21:00.260
+Timo Glastra: we have native or like only a note 80. But we also support. Note 16, and it ups a lot of complexity. Is that we
+
+103
+00:21:00.500 --> 00:21:29.090
+Timo Glastra: make the rappers only support. Note 18. Because they basically already do we? add to pets? Pipes. Rep not be to those wrapper. So you don't have to do the custom resolutions anymore. And we update A of J to only support. Note 18. And we drop support for note 16, which is a bit ahead of the end of life, which is in September. But I think it would make the setup a lot easier and and improve performance. So
+
+104
+00:21:29.200 --> 00:21:31.630
+Timo Glastra: I'm curious if people are.
+
+105
+00:21:32.010 --> 00:21:39.100
+Timo Glastra: if someone is like against dropping support for node 16. So this will be
+
+106
+00:21:39.980 --> 00:21:46.610
+Timo Glastra: in 0 point 5 because like, it would be a break and change. So 0 point 4 will
+
+107
+00:21:46.700 --> 00:21:48.760
+Timo Glastra: keep support for note 60,
+
+108
+00:21:48.810 --> 00:21:50.840
+Timo Glastra: then for
+
+109
+00:21:53.330 --> 00:22:05.810
+Denver Naicker: item, I was only successful in launching the Aries Workshop, Demo and A, as well as running through the tutorials of hyper ledger areas. Javascript.
+
+110
+00:22:05.910 --> 00:22:17.069
+Denver Naicker: By using Node 16 on Linux and Wwsl to windows. Linux. I tried Node 18, and it gave me a lot of errors.
+
+111
+00:22:17.240 --> 00:22:23.279
+Denver Naicker: so I'm not for doing away support for node 16,
+
+112
+00:22:23.380 --> 00:22:29.839
+Denver Naicker: partly because of a lot of troubleshooting and blockages that are experienced.
+
+113
+00:22:31.340 --> 00:22:34.040
+Timo Glastra: Okay, so
+
+114
+00:22:34.770 --> 00:22:38.559
+Timo Glastra: did. Have you opened an issue for that? Or
+
+115
+00:22:40.650 --> 00:22:49.079
+Denver Naicker: I have not, because I was successful with getting it running on. Note 16. I can't log in issues for no to 18. Then.
+
+116
+00:22:49.540 --> 00:23:00.160
+Timo Glastra: Yeah, if you could do that, because usually what we do is when a note version reaches end of life, we will remove support for it.
+
+117
+00:23:00.200 --> 00:23:23.510
+Timo Glastra: either way, so that would be in September, which is like not that much in the future. So if we can get that addressed that would be great. There are like. There may be some issues with the the Linux sub shell on windows where it's not working. Are you running it with in the SDK, or with
+
+118
+00:23:25.240 --> 00:23:31.960
+Denver Naicker: So I just Npm installed based on the tutorials based on the documentation.
+
+119
+00:23:32.160 --> 00:23:34.630
+Denver Naicker: And that didn't work.
+
+120
+00:23:35.000 --> 00:23:44.380
+Denver Naicker: So it it was just using the. There is Javascript online documentation. there was no mention for Indiosk or prerequisite.
+
+121
+00:23:44.990 --> 00:23:47.770
+Timo Glastra: Okay, so are you still on 0 dot 3.
+
+122
+00:23:49.310 --> 00:24:00.249
+Denver Naicker: I'm I'm I I downloaded the 0 point 4 0 Repository, and I the workshop Demo, the one that was hosted last week, and I ran that successfully.
+
+123
+00:24:00.390 --> 00:24:04.800
+Denver Naicker: but I think the older tutorials might be 0 point 3.
+
+124
+00:24:05.010 --> 00:24:08.489
+Denver Naicker: I don't think it's 0 it. It was the latest, actually, because
+
+125
+00:24:08.980 --> 00:24:11.350
+Denver Naicker: it's based on the documentation online.
+
+126
+00:24:12.940 --> 00:24:27.569
+Timo Glastra: Okay? Yeah. n, then I think you're you're using the latest, especially if you also followed it from the workshop. So yeah, then please open an issue, and then we'll take a look, and then we'll make sure that that is resolved before we remove support for
+
+127
+00:24:27.890 --> 00:24:31.550
+Timo Glastra: before we drop support for node. 16
+
+128
+00:24:43.460 --> 00:24:54.240
+Timo Glastra:  it's called windows sub shell for Linux, or something. Right?
+
+129
+00:24:54.870 --> 00:24:57.490
+Denver Naicker: Yeah, that was Wsl to.
+
+130
+00:24:58.800 --> 00:25:00.449
+Denver Naicker: Yes, it's
+
+131
+00:25:00.980 --> 00:25:02.870
+Timo Glastra: okay.
+
+132
+00:25:10.450 --> 00:25:12.759
+Timo Glastra: what's your use? Name on Github
+
+133
+00:25:14.000 --> 00:25:17.989
+Denver Naicker: Dnaiker. 86. DNA, I. C
+
+134
+00:25:19.120 --> 00:25:22.519
+Denver Naicker: DNA, it's
+
+135
+00:25:22.830 --> 00:25:24.580
+Timo Glastra: Can you post in chat?
+
+136
+00:25:25.340 --> 00:25:26.900
+Denver Naicker: Yes. Okay.
+
+137
+00:25:55.980 --> 00:26:01.599
+Timo Glastra: Okay. Any other concerns with dropping support for node. 16.
+
+138
+00:26:12.850 --> 00:26:13.550
+Timo Glastra: Okay.
+
+139
+00:26:19.170 --> 00:26:19.910
+Timo Glastra: okay.
+
+140
+00:26:21.360 --> 00:26:22.210
+Timo Glastra: perfect.
+
+141
+00:26:24.400 --> 00:26:31.210
+Timo Glastra:  okay.
+
+142
+00:26:31.930 --> 00:26:33.670
+Timo Glastra: There was.
+
+143
+00:26:33.720 --> 00:26:37.189
+Warren Gallagher: So I just have one other comment, I guess, which is
+
+144
+00:26:37.420 --> 00:26:41.820
+Warren Gallagher:  Do we know whether this will create a problem for
+
+145
+00:26:42.240 --> 00:26:44.880
+Warren Gallagher: the bifold for folks who are
+
+146
+00:26:45.000 --> 00:26:53.499
+Warren Gallagher: primary cause, all actually, they, they're not using the node version. Anyways, right? They're using react native. So I guess it doesn't apply.
+
+147
+00:26:54.770 --> 00:27:00.849
+Timo Glastra:  no, so it doesn't apply. I think
+
+148
+00:27:01.220 --> 00:27:14.160
+Timo Glastra: we no, we I think we just. We need to make sure that we set the engine version on on the the at our framework. Slash notes package, and then it shouldn't be an issue.
+
+149
+00:27:14.410 --> 00:27:15.350
+Warren Gallagher: Perfect.
+
+150
+00:27:18.360 --> 00:27:23.510
+Timo Glastra: all right. There was also a discussion on
+
+151
+00:27:24.860 --> 00:27:27.830
+Timo Glastra: breaking out to Demo.
+
+152
+00:27:30.660 --> 00:27:32.110
+Timo Glastra: I think.
+
+153
+00:27:33.850 --> 00:27:40.610
+Timo Glastra: yeah, this I I just need to comment on like something. But I think it's not controversial.
+
+154
+00:27:41.200 --> 00:27:48.029
+Timo Glastra:  are there
+
+155
+00:27:48.110 --> 00:27:59.089
+Timo Glastra: any other issues people would like to discuss, or would like to work on address that we need to discuss?
+
+156
+00:28:00.080 --> 00:28:01.809
+Timo Glastra: I see there is
+
+157
+00:28:03.090 --> 00:28:09.829
+Timo Glastra: a didn't qualify. Did migration update? This is something that's being discussed in the
+
+158
+00:28:10.330 --> 00:28:17.139
+Timo Glastra: the errors working group calls to be able to migrate from legacy dates to
+
+159
+00:28:17.350 --> 00:28:22.660
+Timo Glastra: qualified dates. we already have a customer implementation that goes from
+
+160
+00:28:22.710 --> 00:28:26.529
+Timo Glastra: didn't qualify to get pier one days.
+
+161
+00:28:26.990 --> 00:28:33.150
+Timo Glastra: and I think with this, with this we just have to update all the in
+
+162
+00:28:33.310 --> 00:28:49.739
+Timo Glastra: all the did pier. One dits. We have migrated from the unqualified D to now get pier 2, and this pier 3 ditch We did store all the Still the legacy did did the commence, so would be a migration
+
+163
+00:28:49.770 --> 00:28:55.150
+Timo Glastra: a script that we have to write. I think we can get that into
+
+164
+00:28:55.380 --> 00:29:12.519
+Timo Glastra: 0 5 0. that does raise the question on whether we should change the default, it bare. No, I go. That is used for creating connections. So currently.
+
+165
+00:29:12.870 --> 00:29:13.790
+Timo Glastra: we
+
+166
+00:29:13.980 --> 00:29:28.169
+Timo Glastra: in the data exchange protocol, we use this pair one because  for data exchange, you need to attach the date documents to
+
+167
+00:29:28.620 --> 00:29:43.009
+Timo Glastra: to the did exchange message and then sign that a problem is with the pair. To do that you don't necessarily have a did document because you resolved it based on the
+
+168
+00:29:43.060 --> 00:29:57.469
+Timo Glastra: You resolve it based on the the date itself. So  and I think we had race started this discussion in the As working group call. But we never came to a very concrete
+
+169
+00:29:57.490 --> 00:29:59.170
+Timo Glastra: decision.
+
+170
+00:29:59.300 --> 00:30:10.709
+Timo Glastra: how do you handle it? If you don't have to do documents, you you attach the did document either way, so like just to resolve the document and and sign that So
+
+171
+00:30:11.060 --> 00:30:13.120
+Timo Glastra: yeah,
+
+172
+00:30:13.260 --> 00:30:14.580
+Timo Glastra: should we
+
+173
+00:30:14.690 --> 00:30:23.140
+Timo Glastra: change the default? That pair methods? If you add this? Or are we going to use? Did pier one for did exchange and
+
+174
+00:30:23.340 --> 00:30:32.520
+Timo Glastra: migrate all the legacy? dates to? Did pair to slash 3? Does anyone have no being on this.
+
+175
+00:30:43.160 --> 00:30:52.019
+Warren Gallagher: I guess there would be a need to have agreement across the Aries projects.
+
+176
+00:30:52.460 --> 00:30:55.220
+Warren Gallagher: in terms of did it? You know the
+
+177
+00:30:55.370 --> 00:30:57.210
+Warren Gallagher: did exchange right.
+
+178
+00:30:57.840 --> 00:31:01.589
+Warren Gallagher: I don't know. It's a a decision we can make in isolation. So
+
+179
+00:31:02.130 --> 00:31:15.030
+Warren Gallagher:  I'm not sure that I have an opinion on it. But it is still on the agenda within the areas working group. And so if we need like, it sounds like it's
+
+180
+00:31:15.210 --> 00:31:21.330
+Warren Gallagher: getting time to get serious about finalizing that stuff. So maybe you can raise it higher
+
+181
+00:31:21.450 --> 00:31:24.620
+Warren Gallagher: priority on the agenda for the next meeting.
+
+182
+00:31:25.060 --> 00:31:30.559
+Timo Glastra: Yeah. So I I think the one thing
+
+183
+00:31:30.830 --> 00:31:42.720
+Timo Glastra: that isn't currently talked about, and that's the like. The the did exchange protocol. not having very clearly defined how to use non.
+
+184
+00:31:43.030 --> 00:31:57.400
+Timo Glastra: did pier one date. So whether it's public dates or like dates that you can't move based on the or they documents that you can resolve based on the debt.
+
+185
+00:31:57.530 --> 00:31:59.260
+Timo Glastra: I think there is maybe
+
+186
+00:31:59.340 --> 00:32:06.569
+Timo Glastra: an issue open in ours. Rfc, and there is the let me see.
+
+187
+00:32:07.950 --> 00:32:13.189
+Timo Glastra:  yeah, there is a
+
+188
+00:32:14.800 --> 00:32:19.190
+Timo Glastra: legacy that this one? Yeah.
+
+189
+00:32:21.330 --> 00:32:26.679
+Timo Glastra: so this repo is there. I think the idea is now to migrate this
+
+190
+00:32:27.110 --> 00:32:30.430
+Timo Glastra: transformation script.
+
+191
+00:32:30.630 --> 00:32:42.239
+Timo Glastra: to go from like a legacy date to a did pair 2. And I think, Steve, and added support for it. Pair 3 so I think with that
+
+192
+00:32:42.370 --> 00:32:45.100
+Timo Glastra: we are
+
+193
+00:32:45.110 --> 00:32:50.059
+Timo Glastra: mostly there in having the yeah, the the
+
+194
+00:32:52.270 --> 00:32:53.889
+Timo Glastra: the process to find.
+
+195
+00:33:15.410 --> 00:33:18.739
+Warren Gallagher: So I guess that then comes down to
+
+196
+00:33:21.250 --> 00:33:24.579
+Warren Gallagher: Do we want to go with the most recent stack?
+
+197
+00:33:25.000 --> 00:33:26.010
+Warren Gallagher: Or
+
+198
+00:33:26.040 --> 00:33:34.189
+Warren Gallagher: do we want to go with something that might achieve wider compatibility with folks who haven't gone there yet?
+
+199
+00:33:34.650 --> 00:33:35.699
+Warren Gallagher: I don't know.
+
+200
+00:33:37.200 --> 00:33:39.060
+Timo Glastra: Yeah,
+
+201
+00:33:39.600 --> 00:33:45.659
+Timo Glastra: so I think what they are suggesting. Also in the committee coordinated updates,
+
+202
+00:33:45.670 --> 00:33:47.730
+Timo Glastra: is that
+
+203
+00:33:48.270 --> 00:33:51.610
+Timo Glastra: you need to support?
+
+204
+00:33:51.700 --> 00:34:03.459
+Timo Glastra:  Let me see. Yeah, I think, because it's a community recorded update, there will be quite a long period.
+
+205
+00:34:04.130 --> 00:34:08.020
+Timo Glastra:  the process where.
+
+206
+00:34:09.050 --> 00:34:13.749
+Timo Glastra: let me see, you work to step in one step. One is.
+
+207
+00:34:19.030 --> 00:34:24.149
+Timo Glastra: So I think, what is Step one here? I think it's to support.
+
+208
+00:34:36.690 --> 00:34:37.429
+Timo Glastra: Huh?
+
+209
+00:34:37.909 --> 00:34:40.260
+Timo Glastra: this is, here's the
+
+210
+00:34:40.630 --> 00:34:43.110
+Timo Glastra: okay. So we need to
+
+211
+00:34:43.500 --> 00:34:50.409
+Timo Glastra: Agent Bill must update all agent code bases and deployments to accept in all in qualified and new forms.
+
+212
+00:34:51.420 --> 00:34:53.199
+Timo Glastra: during this step
+
+213
+00:34:53.739 --> 00:34:56.780
+it must continue to be in qualified
+
+214
+00:34:57.000 --> 00:35:00.299
+Timo Glastra: it's in all cases.
+
+215
+00:35:02.950 --> 00:35:05.420
+Timo Glastra: Yeah. So what I'm
+
+216
+00:35:06.150 --> 00:35:08.700
+Timo Glastra: uncertain about
+
+217
+00:35:08.800 --> 00:35:09.820
+Timo Glastra: is
+
+218
+00:35:13.250 --> 00:35:15.859
+Timo Glastra: that it says it should that
+
+219
+00:35:16.220 --> 00:35:29.199
+Timo Glastra: 18 builders must update all agent code base in deployment to use only fully qualified dates. Now, communication. And does that also include the connection protocol? Because in that case,
+
+220
+00:35:30.110 --> 00:35:37.899
+Timo Glastra: it probably gonna be very complex, because, like it has been implemented a few years ago, like, it's fairly, it's using old
+
+221
+00:35:37.910 --> 00:35:53.800
+Timo Glastra: way of structuring. And they documents. Well, that pair 2 uses a new one. So currently, how we implemented in A Ofj is we use just to unqualified exchange, and then internally, we translate it into a qualified identifier and use that
+
+222
+00:35:54.140 --> 00:35:58.460
+Timo Glastra:  Well, I think this is just in
+
+223
+00:35:58.480 --> 00:35:59.520
+Timo Glastra: to
+
+224
+00:35:59.590 --> 00:36:07.200
+Timo Glastra: oh, use the pair to, or did your tree everywhere, even in creating a connection. For example,
+
+225
+00:36:08.050 --> 00:36:12.180
+Timo Glastra: do. Is anyone involved in in the discussion share and know more about this? Or
+
+226
+00:36:18.020 --> 00:36:22.989
+Warren Gallagher: I've only been peripherally involved? And so I don't feel equipped to
+
+227
+00:36:23.450 --> 00:36:33.970
+Warren Gallagher: like, make any definitive statements about this. this seems to have been driven more by Stephen Kerr and Sam.
+
+228
+00:36:35.020 --> 00:36:35.720
+Timo Glastra: Okay.
+
+229
+00:36:36.200 --> 00:36:44.970
+Timo Glastra: I'll leave a comment on this pr, with these questions, then but then, yeah, it should be quite easy for us to to
+
+230
+00:36:45.470 --> 00:36:52.699
+Timo Glastra: follow whatever is is described here. and and get that implemented while still supporting the
+
+231
+00:36:52.730 --> 00:36:59.570
+Timo Glastra:  The old ways of doing things without breaking backwards compatibility.
+
+232
+00:36:59.650 --> 00:37:03.580
+Timo Glastra: because I don't think we should. It's like.
+
+233
+00:37:04.120 --> 00:37:06.029
+Timo Glastra: I don't think it's
+
+234
+00:37:07.070 --> 00:37:22.709
+Timo Glastra: like, if we do this like updating everything to use. Only fully qualified. D, it means we're gonna break so much backwards compatibility with all implementations that have been made over the years and maybe are not gonna adopt this So it would be good if we can have a bit more of a like
+
+235
+00:37:23.320 --> 00:37:26.360
+Timo Glastra: gradual. if you
+
+236
+00:37:27.720 --> 00:37:34.759
+Timo Glastra: to support qualified, let's do that. Otherwise. we'll keep using the the and qualified ones. directly.
+
+237
+00:37:38.970 --> 00:37:39.770
+Timo Glastra: Okay.
+
+238
+00:37:41.620 --> 00:37:45.950
+Timo Glastra:  are there any other
+
+239
+00:37:46.610 --> 00:37:52.049
+Timo Glastra: future issues people would like to to discuss here? Or
+
+240
+00:37:52.340 --> 00:37:53.450
+Timo Glastra: right?
+
+241
+00:38:06.840 --> 00:38:10.039
+Timo Glastra: Okay, then I think we can just
+
+242
+00:38:10.380 --> 00:38:16.259
+Timo Glastra: got the meeting short for today. and we can.
+
+243
+00:38:16.460 --> 00:38:20.809
+Timo Glastra: yeah, continue with work on the Prs and and issues.
+
+244
+00:38:20.970 --> 00:38:30.439
+Timo Glastra:  one thing. I do want to. Highlight is.
+
+245
+00:38:30.840 --> 00:38:34.490
+Timo Glastra: I see your unmute yako, do you want to say something? Or.
+
+246
+00:38:34.820 --> 00:38:45.700
+Jakub Koci: Yeah, yeah, yeah, a good catch. I just wanted to rise. My hand, not the yeah, yeah, you you are. First. yeah. I have a question.
+
+247
+00:38:45.930 --> 00:38:59.529
+Jakub Koci: We don't have to discuss it now. But about it, it's it's about the migration to the Afj, like like 2 new libraries Afskar or media, or an ongrad.
+
+248
+00:38:59.880 --> 00:39:05.029
+Jakub Koci: Is there any any documentation about that and a ma
+
+249
+00:39:06.050 --> 00:39:13.950
+Jakub Koci: any description about about some pain points, or or like a tricky part which we should be aware of.
+
+250
+00:39:14.670 --> 00:39:23.409
+Timo Glastra: So there is the migrating from 0 to 3 to 0 4
+
+251
+00:39:23.520 --> 00:39:28.330
+Timo Glastra: which introduced to break and change this. And there.
+
+252
+00:39:29.050 --> 00:39:34.099
+Timo Glastra: Listen. It's migrating from India to gay wallet to
+
+253
+00:39:34.270 --> 00:39:35.290
+Timo Glastra: so
+
+254
+00:39:35.400 --> 00:39:46.130
+Timo Glastra:  That's there. One thing that we haven't documented very well is the migration from
+
+255
+00:39:46.240 --> 00:39:58.209
+Timo Glastra: in the SDK to in the vdr or in the SDK to an of credits or s, so like the changes in the Api are
+
+256
+00:39:58.380 --> 00:40:09.220
+Timo Glastra: covert here, so like that you now have to register on them credits module, but they should see. This still uses the in the SDK module here. But there is
+
+257
+00:40:09.670 --> 00:40:20.460
+Timo Glastra: in the agent setup. It does define like, okay, how do you use the the In the Cdr module and configure it with different lectures?
+
+258
+00:40:21.600 --> 00:40:25.519
+Timo Glastra: so that's the documentation, there is
+
+259
+00:40:25.970 --> 00:40:32.100
+Timo Glastra: but no specific like these are pain points or something, to be aware of
+
+260
+00:40:32.820 --> 00:40:36.779
+Jakub Koci: okay, yeah, sounds good sounds good
+
+261
+00:40:37.650 --> 00:40:52.320
+Jakub Koci: I'm just thinking, I I I I know that the actually I asked the Oh, Baron, the or like Ariel on the on their presentation about Aj for version 0 for 0 point 4
+
+262
+00:40:52.380 --> 00:40:53.949
+Jakub Koci: about this. And
+
+263
+00:40:54.490 --> 00:40:58.880
+Jakub Koci:  my question was, Will.
+
+264
+00:40:58.970 --> 00:41:07.680
+Jakub Koci: If like. if if we should migrate everything at once, or if there is a specific process.
+
+265
+00:41:07.840 --> 00:41:12.570
+Jakub Koci: if if there is better, if there is some some process which might be better.
+
+266
+00:41:13.070 --> 00:41:21.160
+Jakub Koci: And what I mean is that we we have like 0 point 3 right now with in the SDK, right? So now it's a question like
+
+267
+00:41:21.170 --> 00:41:24.059
+Jakub Koci: I. I remember that
+
+268
+00:41:24.230 --> 00:41:28.980
+Jakub Koci: it should be maybe better to do everything at once. but
+
+269
+00:41:29.630 --> 00:41:43.179
+Jakub Koci: I think that he also mentioned some, that there were some issues, probably with some part. But I'm I don't remember that the that? What? What exactly I mentioned? Do you have a do you have an a do you know anything about that? Or
+
+270
+00:41:43.910 --> 00:41:59.670
+Timo Glastra: I think, we have done mostly everything at once. Also what we did in the by fault and some other projects. We are just doing it all at once, because we would like to get rid of the in the SDK as soon as possible.
+
+271
+00:41:59.830 --> 00:42:24.630
+Timo Glastra: But you can do it in 2 steps like you could do first upgrade 204 and use the in the SDK still. And then at another point, you could do the upgrade to Eras Offscar, for example, when 0 5 releases, or whenever you're ready for it. So it are 2 separate migrations you can do. We have just chosen to do it at once. if you don't have
+
+272
+00:42:24.630 --> 00:42:45.180
+Timo Glastra: in the SDK wallet to migrate Jet, so haven't released your wallet to the stores. For example, I would definitely recommend to do it all at once, because then you don't have to do the Indians K to Oscar migration, because that does require like we have do this in the
+
+273
+00:42:45.250 --> 00:43:05.470
+Timo Glastra: in the Bible products. And it does require you to have like an custom package you need to on every agent started. Basically, you need to do a check like, okay, while I previously, and in the SDK wallet? If so, I now need to migrate it and and do that to an Oscar structure, because, like the database is completely different. So we really have like to
+
+274
+00:43:05.590 --> 00:43:17.899
+Timo Glastra: make a connection to the postcres. Database create new tables, move to structure, decrypt everything, re-encrypt. So like, if you can get away with not having this package.
+
+275
+00:43:17.900 --> 00:43:42.390
+Jakub Koci: Yeah, I would say, sure to it all at once. Yeah, in our case, we have it already out there. So it's it's already in. We we already. We already did the migration from the Vcx. like library to have, just as you know. But there was also not only it was also not only about like frameworks, but also our data. So we are in this migration to in the SDK,
+
+276
+00:43:42.610 --> 00:43:51.779
+Jakub Koci: yeah. And now it seems that we will have to do this migration with with those libraries. But I I think it's great that there, if there is some
+
+277
+00:43:52.910 --> 00:44:04.139
+Jakub Koci: let's call it script right to to do this migration. yeah, that's that's definitely great. So I I hope that it should be fine.
+
+278
+00:44:05.030 --> 00:44:09.259
+Timo Glastra: Yeah, it's not that complex. I can send you the
+
+279
+00:44:10.080 --> 00:44:15.399
+Timo Glastra: I think it's the the implementation from the by folks.
+
+280
+00:44:16.060 --> 00:44:19.300
+Timo Glastra: let me see. yeah. So
+
+281
+00:44:19.510 --> 00:44:22.330
+Timo Glastra: basically, this
+
+282
+00:44:23.530 --> 00:44:32.149
+Timo Glastra: is it. where it checks, is it? migrated to ascar? And if not, there is a custom
+
+283
+00:44:32.530 --> 00:44:36.150
+Timo Glastra: method implementation here. That's
+
+284
+00:44:36.280 --> 00:44:42.809
+Timo Glastra: calls this in the SDK to ask our migration update.
+
+285
+00:44:55.030 --> 00:44:57.580
+Jakub Koci: Okay, cool. Cool. That's great. Thanks.
+
+286
+00:45:00.340 --> 00:45:02.630
+Timo Glastra:  Marvin.
+
+287
+00:45:04.500 --> 00:45:18.039
+Warren Gallagher: Yeah, I I seem to recall so so 2 things. One. Another thing that came up in the Aries call yesterday is that Steven current is pushing towards officially deprecating in the SDK.
+
+288
+00:45:18.480 --> 00:45:30.949
+Warren Gallagher: and they'd like to do it sooner rather than later, and so is is trying to rally everybody to to do that. So just as a point of interest is that he wants to move, and the SDK to
+
+289
+00:45:31.060 --> 00:45:39.450
+Warren Gallagher: archived state as soon as possible. so I don't know whether that goes into your decision about your migration path and the and the like. Just so, you know that's
+
+290
+00:45:39.540 --> 00:45:47.400
+Warren Gallagher: happening. And if you have concerns with that. Then you should chime in and get in touch with Steven, and you know, let him know what your concerns are.
+
+291
+00:45:48.020 --> 00:46:01.999
+Warren Gallagher:  And the other thing. The only thing I seem to recall as being an issue, and it may have been resolved, but with the migration was, if with Afj, and as far as if you were using multi tenant.
+
+292
+00:46:02.060 --> 00:46:13.719
+Warren Gallagher: I think there was that that's not supported in the current migration. But I might be incorrect about that. So I just wanted to bring that up as a question in case that's something that is German in here.
+
+293
+00:46:14.530 --> 00:46:16.350
+Timo Glastra: Yeah, it it.
+
+294
+00:46:16.410 --> 00:46:42.459
+Timo Glastra: It isn't in command of jets like we need to do proper migrations for multi. Tennessee needs to be implemented. Still, anyway, it is something we are going to implement because we are using multi-tenancy with a in 0 for 0. we haven't written the migration for multi tenancy, and no just completely yet, for Uscar is because we don't know anyone that is using
+
+295
+00:46:42.610 --> 00:46:48.400
+Timo Glastra: it's a multi-tenancy in production. And so
+
+296
+00:46:48.430 --> 00:46:51.360
+Timo Glastra: I added, to like the
+
+297
+00:46:51.430 --> 00:47:06.990
+Timo Glastra: the dogs and everything. There are some warnings in like, Hey, multi, tenancy is not supported. if you need it, please open an issue. But I don't. Didn't want to go through all the trouble and complexity if nobody is ever going to need it.
+
+298
+00:47:10.180 --> 00:47:20.009
+Timo Glastra: yeah. So if you are using multi, Tennessee are on 0 3 within the SDK, and you are in prediction and need to migrate it to
+
+299
+00:47:20.630 --> 00:47:44.579
+Timo Glastra: us guard, and please open an issue, and then we can look at getting that implemented But, for example, we have mediators running with in the SDK in 0 3, and we have successfully migrated those to 0 for and updating indie to uscar so for that use case yeah, it. It works fine. But yeah, you're right. That that is
+
+300
+00:47:45.040 --> 00:47:46.440
+Timo Glastra: not implemented that.
+
+301
+00:47:53.880 --> 00:47:55.439
+Timo Glastra: okay?
+
+302
+00:48:03.120 --> 00:48:08.339
+Timo Glastra: Or the deprecating the in the Fk, yeah, it might be a good one to discuss. also.
+
+303
+00:48:08.420 --> 00:48:15.909
+Timo Glastra: I'm in favor of it. I think it adds complexity to this project to also have to support it.
+
+304
+00:48:16.250 --> 00:48:23.439
+Timo Glastra: And the installation is like very cumbersome. also for newcomers.
+
+305
+00:48:24.060 --> 00:48:25.080
+Timo Glastra: so
+
+306
+00:48:25.350 --> 00:48:31.070
+Timo Glastra: yeah, I'm I'm totally on board with deprecating the in the SDK. Maybe what we
+
+307
+00:48:32.610 --> 00:48:52.949
+Timo Glastra: to do is already start adding notes to like we have for we have in the like experimental modules. We have warnings like, Hey, this is experimental. Maybe we could also start adding, like, Hey, this is going to be deprecated. looks warning looks, and then maybe
+
+308
+00:48:53.420 --> 00:48:56.429
+Timo Glastra: we say we remove support, for
+
+309
+00:48:56.510 --> 00:48:59.049
+Timo Glastra: in the SDK in either
+
+310
+00:48:59.830 --> 00:49:16.360
+Timo Glastra: zero-five. But maybe we should set it for 0 6 release, so people can still do one more upgrade within the SDK to 0 5. But then in zeros dot 6, we will remove support for the in the SDK and
+
+311
+00:49:16.580 --> 00:49:44.459
+Timo Glastra: if people are really interested in keeping support for it, then that would still be possible, because, like, it's currently there's no logic in core to support in the SDK. But I would then suggest that from 0 6 onwards we remove it out of the the, the errors from a Javascript repository, and there could be, like a custom maintained implementation outside of it, if you really need in the sk But then yeah, I think that would provide the
+
+312
+00:49:45.310 --> 00:49:47.939
+Timo Glastra: clear migration that I can.
+
+313
+00:49:49.150 --> 00:49:55.450
+Kim Ebert: Yeah, If you have a clear migration path here, it'd be good to let Steven know kind of the timeline.
+
+314
+00:49:55.590 --> 00:50:10.890
+Kim Ebert: because one of the things that came up was removing some of the build artifacts from the repositories to encourage no longer using in the SDK, and so having a timeline on that would be helpful for
+
+315
+00:50:10.940 --> 00:50:18.620
+Kim Ebert: Steven to know what a good time would be to remove those build artifacts from various repositories.
+
+316
+00:50:20.700 --> 00:50:32.160
+Timo Glastra: Yeah. And so built artifacts. Because I think we're moving built out of fox can mean that current deployments can break. Is that something we want?
+
+317
+00:50:32.230 --> 00:50:33.730
+Timo Glastra: I think my my
+
+318
+00:50:33.750 --> 00:50:39.880
+Timo Glastra: prefer to approach would more likely be to like not update it anymore. So if you have, like an older
+
+319
+00:50:40.130 --> 00:50:42.290
+Timo Glastra: deployment, it doesn't suddenly
+
+320
+00:50:42.370 --> 00:50:44.220
+Timo Glastra: break
+
+321
+00:50:47.400 --> 00:50:49.720
+Kim Ebert: the concern there is
+
+322
+00:50:49.770 --> 00:50:53.240
+Kim Ebert: deploying artifacts that aren't maintained anymore.
+
+323
+00:50:53.880 --> 00:51:01.940
+Kim Ebert: so if there's security holds or things like that. And so at some point.  having the
+
+324
+00:51:03.110 --> 00:51:07.269
+Kim Ebert: artifacts deployed out, there can be more of a liability than they are a benefit to anyone.
+
+325
+00:51:10.310 --> 00:51:12.030
+Timo Glastra: Yeah, that makes sense.
+
+326
+00:51:12.750 --> 00:51:24.279
+Warren Gallagher:  I think the the the thing that would require some communication with Steven, then, is
+
+327
+00:51:24.340 --> 00:51:40.130
+Warren Gallagher: about a a prospective plan. for you know you you mentioned, perhaps you know, deprecated putting in deprecation warnings and removing support in 0 5 0, or maybe in 0 6 0. And so if we have an idea of
+
+328
+00:51:40.160 --> 00:51:42.560
+Warren Gallagher: you know what
+
+329
+00:51:42.960 --> 00:51:53.270
+Warren Gallagher: what you would desire to do there, and what the timelines are, you know, at at best, guess at that point for this release, then, that could inform
+
+330
+00:51:53.490 --> 00:52:02.980
+Warren Gallagher: some of the other stuff that that Steven and others are doing to try and wrangle the in the SDK to the ground. Just make sure we're coordinated on that stuff.
+
+331
+00:52:04.880 --> 00:52:05.570
+Timo Glastra: Yeah.
+
+332
+00:52:05.880 --> 00:52:07.689
+Timo Glastra: yeah, it makes sense.
+
+333
+00:52:19.510 --> 00:52:26.269
+Timo Glastra: Are people, any people here that are using any sk and don't intend to upgrade to
+
+334
+00:52:26.600 --> 00:52:31.409
+Timo Glastra: Iscar and related libraries for 0 5 or even 0 6.
+
+335
+00:52:44.250 --> 00:52:48.279
+Timo Glastra: Okay, well, that's a positive, at least.
+
+336
+00:52:49.460 --> 00:52:50.230
+Timo Glastra: okay.
+
+337
+00:52:52.220 --> 00:53:11.189
+Timo Glastra: cool Then, final note is, I think I also mentioned this last time. already, I'm not 100% sure, because it's 2 weeks ago already, and notification in between. So I but all my memory from before
+
+338
+00:53:11.190 --> 00:53:26.909
+Timo Glastra: but that we wanted to switch hosting the A Ofj call to being bi weekly because there is like with current things that are happening. I think having a by weekly call would be good enough.
+
+339
+00:53:26.960 --> 00:53:33.190
+Timo Glastra: And if there well. in the
+
+340
+00:53:33.260 --> 00:53:47.649
+Timo Glastra: so much to discuss that we can do it in in the the buy would be called, and we can always go back to having weekly calls. But I think a lot of this stuff can also be picked up in issues and full requests.
+
+341
+00:53:47.980 --> 00:53:49.150
+Timo Glastra: any people
+
+342
+00:53:49.170 --> 00:53:55.120
+Timo Glastra: against that here today that's that would like to keep it at a weekly call. People that are
+
+343
+00:53:55.350 --> 00:53:59.860
+Timo Glastra: agreeing of the bi-weekly call or have any opinions notes on this?
+
+344
+00:54:04.530 --> 00:54:12.599
+Jakub Koci: I I think it definitely makes sense during the summer occasions. Right? maybe. Let's see again on
+
+345
+00:54:14.520 --> 00:54:28.349
+Jakub Koci: in September or in autumn and the the so does it mean that we would skip next week and do it in a 2 weeks again.
+
+346
+00:54:28.540 --> 00:54:31.259
+Jakub Koci: another call would be like, in 2 weeks from now.
+
+347
+00:54:31.940 --> 00:54:33.150
+Timo Glastra: Yeah, exactly.
+
+348
+00:54:36.510 --> 00:54:37.780
+Jakub Koci: Okay. Good.
+
+349
+00:54:41.010 --> 00:54:44.100
+Timo Glastra: Okay. I I think. oh, yeah, correct.
+
+350
+00:54:45.270 --> 00:54:48.999
+Denver Naicker: Sorry, Tim, I I I just. This is my first meeting.
+
+351
+00:54:49.290 --> 00:54:52.750
+Denver Naicker: and I thoroughly enjoyed it. There's a lot of insights.
+
+352
+00:54:53.080 --> 00:54:58.219
+Denver Naicker: and I'll I'm a bit sad, and if it goes to sort of
+
+353
+00:54:58.240 --> 00:55:07.140
+Denver Naicker: further away, further away from, you know the consistency by weekly, is it? Every 2 2 times a week, or then twice every second week.
+
+354
+00:55:07.520 --> 00:55:12.069
+Timo Glastra: Yeah. So it would be once every 2 weeks, 2 times a month. Basically.
+
+355
+00:55:14.550 --> 00:55:27.150
+Denver Naicker: Okay. cause I I've been away. I haven't. I also desperately looking to be more involved in the community. And this is my first meeting, and I, you know, thoroughly enjoyed it. So
+
+356
+00:55:27.300 --> 00:55:30.059
+Denver Naicker: it'll be with T on my clock.
+
+357
+00:55:30.610 --> 00:55:31.290
+Timo Glastra: Okay.
+
+358
+00:55:31.510 --> 00:55:37.470
+Timo Glastra: no, that's good to know. I think. Yeah.
+
+359
+00:55:37.480 --> 00:56:04.069
+Timo Glastra: I we have done it like for weekly, I think for really long time already. I think it at first was bi weekly. I just think with the conversations we have lately. maybe it's something for the summer months. And then we can always reconsider it after the summer months. or if there are enough topics to do it weekly.
+
+360
+00:56:04.230 --> 00:56:08.810
+Timo Glastra: That would also be fine by me. But I think
+
+361
+00:56:09.460 --> 00:56:20.769
+Timo Glastra: we can also. yeah, we should have probably some more like we have in the past that that's a bit like doing alternating weeks of having a maintainer and a
+
+362
+00:56:21.050 --> 00:56:34.320
+Timo Glastra: users call, basically where one week will be really focused on in-depth. discussions on the implementation. The other one would be more focused on.
+
+363
+00:56:34.390 --> 00:56:42.479
+Timo Glastra:  the on the user side of things having people give presentations.
+
+364
+00:56:42.540 --> 00:56:52.770
+Timo Glastra: what have they built with Asj? What can you do with it? And more from a user perspective? and I notes that I haven't had a lot of time
+
+365
+00:56:53.110 --> 00:57:05.630
+Timo Glastra: lately to prepare well for the working group calls. And I think that's also one of the reasons why I would like to move it more to a by weekly call.
+
+366
+00:57:05.870 --> 00:57:13.630
+Timo Glastra: Because, yeah, having people to present on these things with presentations and everything. I think that helps in making it more.
+
+367
+00:57:13.780 --> 00:57:21.669
+Timo Glastra: So a a better working group call I have also discussed a bit with
+
+368
+00:57:22.070 --> 00:57:38.170
+Timo Glastra: yeah, Koop and Aliel and cream and parent and asks to maybe do it a bit more in alternating fashion where we host the working group calls I think that that could maybe also help a bit.
+
+369
+00:57:38.340 --> 00:57:41.549
+Timo Glastra: but yeah, I'll definitely take it into account.
+
+370
+00:57:41.560 --> 00:57:53.790
+Timo Glastra: I would like to propose for now to at least for the summer. Do it by weekly. And then, as Jack upset after the summer, we can reconsider to to see like, okay, what's the interest? And do we want to make it
+
+371
+00:57:53.890 --> 00:57:57.029
+Timo Glastra: weekly or by weekly.
+
+372
+00:57:58.560 --> 00:58:03.429
+Timo Glastra:  yeah. And so if you have topics, you would like to
+
+373
+00:58:04.150 --> 00:58:12.200
+Timo Glastra: present and or talk about on on the desk call presentation or something like that. also, please
+
+374
+00:58:13.690 --> 00:58:18.230
+Timo Glastra: raise that to us. and then we can have those on the working group calls
+
+375
+00:58:20.470 --> 00:58:22.129
+Timo Glastra: for a you unmute it.
+
+376
+00:58:24.200 --> 00:58:29.110
+Warren Gallagher: Yeah, I just wanted to say, I I think that the you know that
+
+377
+00:58:29.390 --> 00:58:35.470
+Warren Gallagher: the cadence of the calls doesn't matter personally to me as as much one way or the one way or the other.
+
+378
+00:58:35.590 --> 00:58:39.980
+Warren Gallagher: but I will say that I think the last few months have been
+
+379
+00:58:40.030 --> 00:58:42.120
+Warren Gallagher: very
+
+380
+00:58:42.160 --> 00:58:48.980
+Warren Gallagher: busy for the project, because there's been so much both refactoring of the framework
+
+381
+00:58:49.080 --> 00:58:59.219
+Warren Gallagher: as well as a lot of rework due to moving to shared components, and those 2 things have taken a lot of coordination, and I think have needed the the cadence of the calls
+
+382
+00:58:59.370 --> 00:59:16.230
+Warren Gallagher: to to maintain the velocity and coordinate those complex activities. And so I'd like to pass on some congratulations, I think, to the group to for managing that like, there's a very complicated set of things to to get to and deliver, and I think it was done pretty well.
+
+383
+00:59:16.410 --> 00:59:30.000
+Warren Gallagher: and so if for the next little while it. You know, people need a a break from that. And there's a lot more, you know, independent work that can happen. That doesn't require as much coordination. Then, you know, perhaps
+
+384
+00:59:30.090 --> 00:59:32.020
+Warren Gallagher: you know less.
+
+385
+00:59:32.360 --> 00:59:48.539
+Warren Gallagher: regular calls might be might be appropriate, and you know community will take that into account. But I I I certainly do appreciate the amount of work that's been ha! You know, and the amount of coordination that's happened to have had to happen over the last few months it's been pretty
+
+386
+00:59:48.660 --> 00:59:49.730
+Warren Gallagher: intense
+
+387
+00:59:51.020 --> 01:00:05.889
+Timo Glastra: cool. Thanks. Yeah, I I think what you may. What you say makes sense like. There's been less activity in in in the last weeks. And so after the a lot of the refect rings, and that makes up so that we have less to discuss. Yes.
+
+388
+01:00:06.580 --> 01:00:14.619
+Timo Glastra: okay, then, let's just keep it my weekly for now, but always keep it open like we can have it more often when needed. I'll
+
+389
+01:00:15.400 --> 01:00:17.459
+Timo Glastra: communicate this with why.
+
+390
+01:00:17.540 --> 01:00:20.820
+Timo Glastra: Then we're out of time
+
+391
+01:00:21.100 --> 01:00:29.909
+Timo Glastra: filter hour nicely. thanks, everyone, and then we won't have to meeting next week, but we will have it the one
+
+392
+01:00:30.290 --> 01:00:31.470
+Timo Glastra: after.
+
+393
+01:00:31.550 --> 01:00:36.299
+Timo Glastra: yeah, I need to think, yeah, I'll I'll be
+
+394
+01:00:36.490 --> 01:00:42.959
+Timo Glastra: still. Yeah, I'm going on vacation. But the week after that. So in 2 weeks I will be here with you.
+
+395
+01:00:43.230 --> 01:00:44.860
+Timo Glastra: thanks for
+
+396
+01:00:46.900 --> 01:00:48.310
+Alexander Shenshin: thank you.
+
+397
+01:00:48.890 --> 01:00:49.650
+Jakub Koci: Bye
+
+398
+01:00:49.950 --> 01:00:51.529
+Denver Naicker: me too great.
+

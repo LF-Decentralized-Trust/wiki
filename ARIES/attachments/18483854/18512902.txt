@@ -1,0 +1,28 @@
+00:04:25	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=24778387
+00:06:00	Drummond Reed:	We need a break anyway!
+00:06:34	Paul Knowles:	(plus 1 to that!)
+00:06:47	Stephen Curran:	Never...
+00:06:50	Kyle Den Hartog:	Sam can you add issue 331 to the issue game?
+00:07:32	Drummond Reed:	Richard, is there a link to the new calendar?
+00:07:43	Drummond Reed:	Thanks
+00:29:18	Drummond Reed:	BTW, I think we should also adopt RFC 6919 https://tools.ietf.org/html/rfc6919
+00:30:33	Nathan George:	https://tools.ietf.org/html/rfc6919
+00:31:59	Drummond Reed:	It’s a great spoof. Super nerd humor (especially funny to us standards geeks).
+00:33:41	Daniel Hardman:	Very funny. But still doesn’t top RFC 1149. https://tools.ietf.org/html/rfc1149
+00:37:32	Sam Curren (TelegramSam):	Not at the IETF, but worth it: The Baby Man Page: http://manpages.ubuntu.com/manpages/xenial/man1/baby.1fun.html
+00:45:59	Andrew Whitehead:	Easy if you never implement the service decorator ¯\_(ツ)_/¯
+00:53:50	George Aristy:	Michael... is there sound in your background?
+00:54:50	Michael Black:	yes but I should have my mic muted
+00:55:06	Michael Black:	can you still hear it?
+00:56:53	George Aristy:	nope, all good now
+01:03:55	Kyle Den Hartog:	I’ve got to drop unfortunately. This was a good discussion. Thanks for the insights!
+01:09:49	Drummond Reed:	What’s a “Mediator Cloud Agent”?
+01:10:03	Sam Curren (TelegramSam):	A cloud agent that mediates ;)
+01:10:15	Drummond Reed:	;-)
+01:10:17	Sam Curren (TelegramSam):	mediators forward messages as arranged by the recipient.
+01:10:31	Drummond Reed:	Ah, okay, thanks, I hadn’t heard that terminology
+01:10:32	Sam Curren (TelegramSam):	(and prepared by the sender)
+01:10:53	Drummond Reed:	Seems like Routing Agent would me a more natural term
+01:12:26	Daniel Hardman:	Mediators and relays both participate in routing messages, but they do so in different ways. Mediators decrypt (peel a layer of the onion) as part of routing; relays just pass the message along. The generic term “routing agent” could refer to either, though it usually refers to mediators.
+01:12:47	Drummond Reed:	Thanks Daniel, very helpful
+01:13:48	Daniel Hardman:	For more info on these terms, see RFC 0046 (https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0046-mediators-and-relays)

@@ -1,0 +1,120 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Aries Frameworks and User Groups](Aries-Frameworks-and-User-Groups_18481290.html)
+4. [Aries-vcx Rust](Aries-vcx-Rust_18499431.html)
+5. [Community calls](Community-calls_18499459.html)
+6. [2023 VCX calls](2023-VCX-calls_18517247.html)
+
+# Hyperledger Aries : 2023-01-12 Aries-vcx community call
+
+Created by Patrik Stas, last modified by Ry Jones on Jan 12, 2023
+
+![](attachments/18500892/18517257.png?height=250)
+
+**PLEASE NOTE:**
+
+- **If you are planning on attending aries-vcx call, feel free login to wiki and add your own points under the "Discussion" section!**
+- **Alternatively you can simply join the call and we can discuss your questions and concerns ![(smile)](images/icons/emoticons/smile.png)** 
+  
+
+<!--THE END-->
+
+- Start meeting discussion
+
+<!--THE END-->
+
+- Overview of recent work done
+  
+  - New NodeJS wrapper FFI internals  [https://github.com/hyperledger/aries-vcx/pull/665](https://github.com/hyperledger/aries-vcx/pull/665)
+  - Release 0.51.1 [https://github.com/hyperledger/aries-vcx/releases/tag/0.51.1](https://github.com/hyperledger/aries-vcx/releases/tag/0.51.1)
+    
+    - Trimmed down iOS wrapper direct bindings to vdrtools [https://github.com/hyperledger/aries-vcx/pull/723](https://github.com/hyperledger/aries-vcx/pull/723)
+    - Chrono dependency upgrade (fixes issues for ios, android) [https://github.com/hyperledger/aries-vcx/pull/726](https://github.com/hyperledger/aries-vcx/pull/726)
+  - Updated architecture diagrams, readme.md files [https://github.com/hyperledger/aries-vcx](https://github.com/hyperledger/aries-vcx)
+  - Improved mapping of vdrtools errors, fixed error entering incorrect wallet key [https://github.com/hyperledger/aries-vcx/pull/721](https://github.com/hyperledger/aries-vcx/pull/721)
+    
+    - \+ Refactored tests in libvcx
+- Check on work in progress
+  
+  - VDR Tools being embedded into repo
+  - Verifier with credx
+- Upcoming work
+  
+  - CI: Improvement of code coverage calculation steps
+  - Implement DDO resolver [https://github.com/hyperledger/aries-vcx/issues/706](https://github.com/hyperledger/aries-vcx/issues/706)
+  - Trim down vdr-tools codebase / its usage
+
+<!--THE END-->
+
+- End meeting discussion
+  
+  - POC in progress: `uniffi`
+
+Task backlog: 
+
+- - Issuer with credx
+  - Decoupling: Extract `protocols`  crate [https://github.com/hyperledger/aries-vcx/issues/698](https://github.com/hyperledger/aries-vcx/issues/698)
+  - Refactoring: Unify state machine interface approach [https://github.com/hyperledger/aries-vcx/issues/696](https://github.com/hyperledger/aries-vcx/issues/696)
+  - Eliminate usage of PublicAgent [https://github.com/hyperledger/aries-vcx/issues/679](https://github.com/hyperledger/aries-vcx/issues/679)
+  - Optimize codecov approach in CI  [https://github.com/hyperledger/aries-vcx/issues/677](https://github.com/hyperledger/aries-vcx/issues/677)
+  - Split libvcx in 2 crates (no breaking changes for existing wrappers)
+  - Enable OOB tests in AATH [https://github.com/hyperledger/aries-vcx/issues/678](https://github.com/hyperledger/aries-vcx/issues/678)
+  - Eliminate usage of MediatedConnection in tests
+  - DDO as first class citizen
+  - Add more typing across codebase
+  - New protocols: DidExchange protocol, Presentation Protocol 2.0, Issuance Protocol 2.0
+
+  File Modified
+
+Labels
+
+- No labels
+- [Edit Labels](# "Edit Labels")
+
+[Preview]() [$itemLabel]($itemRenderedUrl) [$itemLabel]($itemRenderedUrl&isFromPageView=true) [$itemLabel]($itemRenderedUrl&isFromPageView=true)
+
+PNG File [image-2023-1-4\_23-13-50.png](attachments/18500892/18517256.png "Download")
+
+Jan 04, 2023 by [Patrik Stas](/wiki/people/557058:fb121afb-e6f9-4acf-beb7-91d5f2d988b7)
+
+Labels
+
+- No labels
+- [Edit Labels](# "Edit Labels")
+
+[Preview]() [$itemLabel]($itemRenderedUrl&isFromPageView=true) [$itemLabel]($itemRenderedUrl&isFromPageView=true&isFromPageView=true) [$itemLabel]($itemRenderedUrl&isFromPageView=true&isFromPageView=true)
+
+PNG File [image-2023-1-4\_23-13-55.png](attachments/18500892/18517257.png "Download")
+
+Jan 04, 2023 by [Patrik Stas](/wiki/people/557058:fb121afb-e6f9-4acf-beb7-91d5f2d988b7)
+
+Labels
+
+- No labels
+- [Edit Labels](# "Edit Labels")
+
+[Preview]() [$itemLabel]($itemRenderedUrl&isFromPageView=true&isFromPageView=true) [$itemLabel]($itemRenderedUrl&isFromPageView=true&isFromPageView=true&isFromPageView=true) [$itemLabel]($itemRenderedUrl&isFromPageView=true&isFromPageView=true&isFromPageView=true)
+
+File [GMT20230112-085916\_Recording.transcript.vtt](attachments/18500892/18517347.vtt "Download")
+
+Jan 12, 2023 by [Ry Jones](/wiki/people/557058:078cecfc-fb17-4d9a-8759-b5b74efa6850)
+
+Drag and drop to upload or [browse for files]() ![](images/icons/wait.gif)
+
+Upload file
+
+File description
+
+[Download All](/wiki/download/all_attachments?pageId=18500892 "Download all the latest versions of attachments on this page as single zip file.")
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [image-2023-1-4\_23-13-50.png](attachments/18500892/18517256.png) (image/png)  
+![](images/icons/bullet_blue.gif) [image-2023-1-4\_23-13-55.png](attachments/18500892/18517257.png) (image/png)  
+![](images/icons/bullet_blue.gif) [GMT20230112-085916\_Recording.transcript.vtt](attachments/18500892/18517347.vtt) (application/octet-stream)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18500892/18517349.txt) (text/plain)  
+![](images/icons/bullet_blue.gif) [dummyfile.txt](attachments/18500892/18517348.txt) (text/plain)
+
+Document generated by Confluence on Nov 26, 2024 11:28
+
+[Atlassian](http://www.atlassian.com/)

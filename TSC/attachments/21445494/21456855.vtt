@@ -1,0 +1,848 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Let me start. Recording.
+
+00:00:05.000 --> 00:00:11.000
+Alright Welcome everyone to the October twenty-seventh Technical Oversight Committee.
+
+00:00:11.000 --> 00:00:17.000
+Call as you're all aware 2 things that we must divide by on call calls.
+
+00:00:17.000 --> 00:00:35.000
+The first is the antitrust policy notice, and the second is the code of conduct which is linked in the agenda as far as announcements today, we have the standard Dev weekly developer newsletter that goes out each friday If there's some that you would like to reach
+
+00:00:35.000 --> 00:00:38.000
+the hundreds of hyper like hyper ledger developers.
+
+00:00:38.000 --> 00:00:45.000
+please leave a comment on the the Wiki page that is linked in the agenda.
+
+00:00:45.000 --> 00:00:52.000
+The second announcement that we have today is that the Tlc nomination period is still open.
+
+00:00:52.000 --> 00:00:58.000
+the nominations do close on Monday, October 30 first.
+
+00:00:58.000 --> 00:01:02.000
+So if you are interested in nominating yourself, please do so.
+
+00:01:02.000 --> 00:01:04.000
+And then Rye, you said you had an announcement.
+
+00:01:04.000 --> 00:01:11.000
+Well, it was an expansion on that announcement, and that is the people that have nominated themselves.
+
+00:01:11.000 --> 00:01:12.000
+The minority of those have filed an issue.
+
+00:01:12.000 --> 00:01:36.000
+Okay.
+
+00:01:36.000 --> 00:01:49.000
+Okay, any other announcements
+
+00:01:49.000 --> 00:01:53.000
+Okay, not seeing any hands or anybody coming off mute. We'll take that as now.
+
+00:01:53.000 --> 00:01:57.000
+as far as Quarterly reports the ursa.
+
+00:01:57.000 --> 00:02:06.000
+One is in draft. So last I looked. It still said it was in draft, and that we shouldn't review it yet as far as The other.
+
+00:02:06.000 --> 00:02:12.000
+2 fabric and cacti. I haven't seen any specific comments showing up on either of those.
+
+00:02:12.000 --> 00:02:25.000
+But does anybody have any questions that they'd like to bring up at this point
+
+00:02:25.000 --> 00:02:35.000
+Alright. I will take that, as I know, so as far as upcoming reports, we do have this talk to a report that is due today, so we'll look to see if that one comes in today.
+
+00:02:35.000 --> 00:02:42.000
+And then we also have the Aries Indiana Roha reports coming due on the tenth of November.
+
+00:02:42.000 --> 00:02:46.000
+so we'll expect to see those at that point.
+
+00:02:46.000 --> 00:02:52.000
+Any other items that anybody would like to cover before we get to the presentation that we have scheduled for.
+
+00:02:52.000 --> 00:03:00.000
+Today.
+
+00:03:00.000 --> 00:03:07.000
+Okay. So we have no other just discussion items. We do have the the folks from the prune lab here.
+
+00:03:07.000 --> 00:03:15.000
+We have Mano and the Ts that are here, and they're going to present to us the prune lab and walk us through that.
+
+00:03:15.000 --> 00:03:22.000
+So I will hand it off to to you.
+
+00:03:22.000 --> 00:03:23.000
+Okay.
+
+00:03:23.000 --> 00:03:25.000
+Yeah, thank you. Then I can share my screen now.
+
+00:03:25.000 --> 00:03:30.000
+Yes, please
+
+00:03:30.000 --> 00:03:37.000
+Hmm! Can everyone see my screen? Yeah, Okay? Perfect: Hi: everyone.
+
+00:03:37.000 --> 00:03:45.000
+I'm manufactured. I work as software engineer and Bosch and I have been involved with parents since the beginning days.
+
+00:03:45.000 --> 00:03:51.000
+Perron is is a framework that targets 2 problems in the blockchain space.
+
+00:03:51.000 --> 00:03:55.000
+One is blockchain scalability. Another one is blockchain interoperability.
+
+00:03:55.000 --> 00:04:10.000
+It's it's started out as an independent project, and later became a hypothetical labs project, And it's collaboratively being developed by Bosch and a Polycarp Gmbh: I would like to start with the problem statement that we try to solve
+
+00:04:10.000 --> 00:04:19.000
+we are aware that blockchain provides an excellent mechanism for doing trust transactions, say payments, or, in more general terms, exchange of any value.
+
+00:04:19.000 --> 00:04:24.000
+but with time we have seen that there are quite some limitations.
+
+00:04:24.000 --> 00:04:28.000
+With this the first one being limited transaction throughput.
+
+00:04:28.000 --> 00:04:33.000
+For example, if we look at Bitcoin, it has like 10 of transactions per second.
+
+00:04:33.000 --> 00:04:40.000
+That's the limit, and there are quite some new chains which have improved the layer one scalability.
+
+00:04:40.000 --> 00:04:46.000
+But the's still a limit on on how much we can go far in that respect.
+
+00:04:46.000 --> 00:04:59.000
+So a layer to scaling then becomes quite important. Second is a problem where which we figured out along the way as we develop pair, one that the blockchain networks as new.
+
+00:04:59.000 --> 00:05:12.000
+Ones come up, become The The network is getting fragmented, and then we need mechanisms to make the networks, interrupted with each other, and we we realized that the technology we developed with spareone is usable.
+
+00:05:12.000 --> 00:05:15.000
+In this context as well. So these are the 2 challenges that we target.
+
+00:05:15.000 --> 00:05:21.000
+now mainly coming to the agenda for the presentation.
+
+00:05:21.000 --> 00:05:37.000
+First I would like to present you an overview of the parent framework, then a brief history of the project, and then the interesting applications that we see Yeah, first, the overview to begin with, let's say 2 participants, Alice.
+
+00:05:37.000 --> 00:05:53.000
+And Bob they want to make some transactions, so they come, together, and and they talk to each other on what transactions they want to do what they rules for the transactions are and once they agree on these terms they also decide What are the elevators For them for example, in case
+
+00:05:53.000 --> 00:05:59.000
+of a payment. Channel. It could be that Alice wants to be able to spend 10 units of a currency.
+
+00:05:59.000 --> 00:06:15.000
+So they decide all of that, and then approach the blockchain to say, We want to open a channel, and these are the initial terms of the channel, and these are the sets you Would like to block in the channel Then the assets are blocked in the parent smart contract and the their own channel
+
+00:06:15.000 --> 00:06:25.000
+is open for transaction now, each of them could make any number of transactions in a very direct peer-to-peer manner, because these transactions are direct peer.
+
+00:06:25.000 --> 00:06:45.000
+There are technically no limitations, only limitations on how fast they can make the transactions, how fast they can create new States and creating new states is basically about generating data and then making signatures on the data and the second limitation is how fast.
+
+00:06:45.000 --> 00:06:54.000
+Is the communication channel. So these are the only 2 factors that limit them, which means they can easily reach thousands of transactions per second with a near 0 cost.
+
+00:06:54.000 --> 00:06:57.000
+For each of the transactions and the confirmation is immediate.
+
+00:06:57.000 --> 00:07:13.000
+As soon as both these parties signed, then that particular state is valid, and after they make any number of transactions in this fashion, they can go to blockchain, and say here is the final state that we agreed on or that we want, to settle, and then the parent smart contract
+
+00:07:13.000 --> 00:07:21.000
+will validate that state; and and if verify, if it's really the final state, and one, it confirms that it's a final state.
+
+00:07:21.000 --> 00:07:26.000
+It will settle the channel and redistribute the log assets according to the final state.
+
+00:07:26.000 --> 00:07:32.000
+So this is what happens with parent State tennis. What the Protocol provides is that it's probably secure meaning.
+
+00:07:32.000 --> 00:07:53.000
+It has been proven in a formal way that if any State that is generated on the off chain, parent channel can eventually be settled on the blockchain, it only becomes invalid when the next State is created and second thing is cross chain capability, so in
+
+00:07:53.000 --> 00:08:09.000
+this picture we we can see that the parent smart contract is just one unit, which means we are using one blockchain back end, but we also figured out that we can use a parent we can open a parent channel, that is simultaneously using 2 different blockchains for example, a
+
+00:08:09.000 --> 00:08:22.000
+Perim channel, which blocks assets for Alice on one chain satirium, and for Bob one another chain, say, Well, like cosmos, or something like that Yup.
+
+00:08:22.000 --> 00:08:39.000
+So this is an overview of how the parent State channel works and coming to the implementation part all of these parent protocols, and that we as we as we call the Funding Protocol, of the off chain communication protocol and the settling protocol everything is
+
+00:08:39.000 --> 00:08:46.000
+defined is implemented in abstract way that is, independent of any blockchain back end of any persistence.
+
+00:08:46.000 --> 00:08:53.000
+Mechanism, and even independent of any networking or civilization format used for the option communication.
+
+00:08:53.000 --> 00:09:05.000
+So this is a real, abstract, and modular core of the framework, and into this we can plug different blockchain backends, and I think we currently have 5 different blockchain backends.
+
+00:09:05.000 --> 00:09:22.000
+Ethiopian cosmos, polka dot Internet computer and fabric, and for network and civilization we we currently have Tcp for the transport protocol and and for serial session we are using a custom format called parent Format and recently, we also
+
+00:09:22.000 --> 00:09:36.000
+implemented protocol buffers. So which means you can just take the quote of definitions agenda, the steps and easily implement the parent client in any other language, and for persistence we currently persist all the off-chain states that are created in a level.
+
+00:09:36.000 --> 00:09:47.000
+DB. But again, this is also pluggable. You can go for any other options, So this is the core of the framework, and on top of this we have the second component which is peron node and per node.
+
+00:09:47.000 --> 00:09:54.000
+What it does is that, in first, place, it takes the open framework and configures it according to your use case.
+
+00:09:54.000 --> 00:09:59.000
+Picking one of the options for each of the plugable modules, and configuring them in the needed way.
+
+00:09:59.000 --> 00:10:03.000
+And on top of that it provides an abstraction called session.
+
+00:10:03.000 --> 00:10:20.000
+So what session allows you is that it manages all the channels that a single user has, and all the keys and wallets associated with the chat with all the channels of the user and additionally it also maintains contact list on off how to contact each of the peers that
+
+00:10:20.000 --> 00:10:37.000
+the user wants to talk to. They're off chain information to maintain all the off information of those peers, and it provides an easy api for the user to open channels with any of these peers and and then transat on those channels But this is a more a generic
+
+00:10:37.000 --> 00:10:40.000
+kpi which is, providing all of these functionalities.
+
+00:10:40.000 --> 00:10:55.000
+But if you're looking at a specific use case, say payments, for example, Then on top of the session Api, we provide another Api layer, which is payments api layer, which is providing like really simple api's allowing you to specific only need the data that is required
+
+00:10:55.000 --> 00:11:08.000
+for payments, and this payment api can either be access as a library or like a go library, or anything, or if you want a scenario where you want access over remote, interface, then you can just implement a Gfpc adapter.
+
+00:11:08.000 --> 00:11:24.000
+So this is also existing right now, and so on. So this is like we the extensible component of of the whole parent framework, where, depending on a use, case, you can just implement lighter api layers without modifying the protocol or the session layer so
+
+00:11:24.000 --> 00:11:35.000
+that's the interesting way in way in which the whole code of the protocol can be extended by using plugins and the a framework can be more usable or tailored to use case.
+
+00:11:35.000 --> 00:11:41.000
+By writing appropriate Apis in the only in the upper layers.
+
+00:11:41.000 --> 00:11:47.000
+Yeah, So this is an overview of the 2 components of current framework
+
+00:11:47.000 --> 00:11:55.000
+And now we come to project history. We started in 2,018, with the publication of Parent.
+
+00:11:55.000 --> 00:12:10.000
+Such paper. This was published by Sebastian first, and then a few of his colleagues from Tio Dam, start in collaboration under the University and then, Bosh joined with them to collaborate on the development of the parent framework.
+
+00:12:10.000 --> 00:12:30.000
+into those 19, and from there we had several milestones before we eventually became a hyperlogile apps project in in late 2020, and from there it has also been interesting that we develop a lot in terms of the framework functionalities and We even presented a few demos in hyperlog in depth
+
+00:12:30.000 --> 00:12:36.000
+series. And as I told that we have several other backends like Polka, dot, and cosmos.
+
+00:12:36.000 --> 00:12:39.000
+We also collaborate with the corresponding communities as well.
+
+00:12:39.000 --> 00:12:47.000
+So. So this is how we are. Our collaboration looks like in in time
+
+00:12:47.000 --> 00:12:56.000
+And finally I would like to discuss some of the applications that we find interesting, and that we had experimented with so far.
+
+00:12:56.000 --> 00:13:11.000
+First of them is their own IoT state channels. This was also one of the initial use cases which we had in mind for Bosch like, How do we enable 2 devices to make transactions based on blockchain so that was one of the initial questions.
+
+00:13:11.000 --> 00:13:16.000
+That we had in mind, and the parent state channels that we developed.
+
+00:13:16.000 --> 00:13:30.000
+we extended it further and and the reason that we needed to extended is for that the IoT devices that are here can have like real limitations on on compute memory or network interactions.
+
+00:13:30.000 --> 00:13:35.000
+Or even power. Consumption like they can always not be connected to Internet or and so on.
+
+00:13:35.000 --> 00:13:44.000
+And so we it is. It is tricky to expect that the device is able to do all the blockchain interactions by itself.
+
+00:13:44.000 --> 00:13:58.000
+So we thought about the key parameter for for of IoT devices, which is that each device is owned by a owner or a user, or if it's by company, then it's administered by some person, so, then we said, let's build some protocols to
+
+00:13:58.000 --> 00:14:01.000
+outsource all the blockchain interactions of the device.
+
+00:14:01.000 --> 00:14:18.000
+To this owner or administrator. And this device is then interacting only with the other device that it wants to transact, with and with the user never with the blockchain and and these protocols we released in our recent releases and we also presented an extensive talk on depending on
+
+00:14:18.000 --> 00:14:26.000
+I to state chance itself in the last week. So that is the first use case that I want to discuss.
+
+00:14:26.000 --> 00:14:29.000
+The second one is blockchain gaming at low latency.
+
+00:14:29.000 --> 00:14:38.000
+So this is a very interesting use case. Iuna is a blockchain gaming infrastructure provider in the polaroid ecosystem.
+
+00:14:38.000 --> 00:14:43.000
+What they're having in mind is that they wanted to build a game that works completely on blockchain like it.
+
+00:14:43.000 --> 00:14:56.000
+It Every move that is done is stored in the blockchain, and this means games are usually fast, and then the need, like real time, confirmation of transactions, and this is quite not possible. In The layer.
+
+00:14:56.000 --> 00:15:12.000
+One. So they were looking at a a layer, a very low latency layer for implementing their game logic, layer, which is recording these transactions and eventually recording it on blockchain and that's where pearon was a very interesting fit and this is like work in progress and if you
+
+00:15:12.000 --> 00:15:17.000
+have more questions we could also discuss about it in in in the discussion section.
+
+00:15:17.000 --> 00:15:21.000
+The next use case is trustless. Across Genocide Swap.
+
+00:15:21.000 --> 00:15:34.000
+So here, as I said, in the event discussing the concept of parent channel, let's say there's a client who has an asset on ethereum, and then there's a liquidity provider who has an asset on polka dot and now these
+
+00:15:34.000 --> 00:15:43.000
+2 people want to exchange their assets, so what they can do is they can open a parent channel, blocking their corresponding assets on the corresponding chains.
+
+00:15:43.000 --> 00:15:46.000
+So the client will block data set on Pvm.
+
+00:15:46.000 --> 00:15:58.000
+And the liquidity providable block data set on Polka, Dot and then they can also give each other the addresses, on the chain, for example, liquidity provider will give the address to which they want the asset to be transferred on ethnium, and vice
+
+00:15:58.000 --> 00:16:04.000
+versa. And after this channel is opened, what they can do is they can create a state which is swapping the assets.
+
+00:16:04.000 --> 00:16:19.000
+So it is wrapping the asset ownership between the client and liquid provider, and a single atomic transaction, and then they can finalize the state, and again settle it on the corresponding chains where the smart contract will then scrap the assets
+
+00:16:19.000 --> 00:16:24.000
+for them on the corresponding chains. So this way, it's very cheap.
+
+00:16:24.000 --> 00:16:33.000
+and and trustless tokens have, because you're now not relying on any intermediate party like a bridge or something
+
+00:16:33.000 --> 00:16:42.000
+And next use case is trustless, credential payment. This is similar to the trustless cross Cross as it's crossing as its web.
+
+00:16:42.000 --> 00:16:51.000
+But then the differences here. One of the asset is a piece of data, maybe a decentralized Id, or something, which is, it should be an authority, and the other asset is the payment for it.
+
+00:16:51.000 --> 00:16:59.000
+So both of them can block the corresponding assets in the perim channel, and inside of the channel.
+
+00:16:59.000 --> 00:17:08.000
+They can swap it in an atomic way, and then set it again on a chain, which means again, this is atomic in nature, and because it is done off chain.
+
+00:17:08.000 --> 00:17:25.000
+it Can be like really thousands of transaction. Second Ss: we said, and I think we implemented a Poc in on this, which is available, on Internet, which you can try out and currently we are also working to integrate this into the hyperlger areas framework that brings us to the end
+
+00:17:25.000 --> 00:17:33.000
+of presentation, and to summarize, I think, Perone, we would like to call it as a toolkit for blockchain scalability and interoperability.
+
+00:17:33.000 --> 00:17:45.000
+Using the State channel technology and the key advantages that that it offers is a low latency, modularity, and it's beyond, based on peer reviewed research and and formal proofs.
+
+00:17:45.000 --> 00:18:02.000
+and as a good segue to discussion, section I think one of the interesting things you would like to discuss is possible opportunities for collaboration within the hyperlog ecosystem And then what we saw based on interactions during the global forum was that a 2 projects
+
+00:18:02.000 --> 00:18:09.000
+hypnotic cactus and firefight might be interesting. I mean, might have interesting avenues to collaboration.
+
+00:18:09.000 --> 00:18:21.000
+But then we are looking forward for your inputs as well on how to think about this
+
+00:18:21.000 --> 00:18:36.000
+alright. Thank you for that. So I have an initial question to kick us off, and then hopefully we'll get some other questions as well I'm curious about the the roadmap for the Proven framework you know, when we're looking at the history. It kind.
+
+00:18:36.000 --> 00:18:37.000
+Of you know, peaked in my mind that you know I'm curious as to what's next.
+
+00:18:37.000 --> 00:18:49.000
+Yeah, sure.
+
+00:18:49.000 --> 00:18:55.000
+Yeah, I think in terms of roadmap, one of the things that we're currently looking at is IoT state channels.
+
+00:18:55.000 --> 00:19:05.000
+What we demonstrated in in the recently is the ability to use the main framework on devices like raspberry, pi, or little more capabilities.
+
+00:19:05.000 --> 00:19:28.000
+So One of the things you want to do is develop a light client which can work on like real, like low embedded devices which are like running bare metal or or running an octos kind of systems, so that is one of the areas that we want to go forward and maybe
+
+00:19:28.000 --> 00:19:37.000
+yes, sure. Maybe I can extend this a bit. So we are currently also working on extending the prune framework to other blockchains.
+
+00:19:37.000 --> 00:19:53.000
+So, for example, right now in progress is Cardano. So this demonstrates the The framework is also can be applied to EU ticks, or oh, stop blockchains And Yeah, we're also in talks with further blockchain ecosystems for next year.
+
+00:19:53.000 --> 00:19:58.000
+Then, Yeah, mano highlighted. The SSI use case.
+
+00:19:58.000 --> 00:20:09.000
+So we recently in this October, started a project, on integrating this into the areas framework, and this is a project that we plan for the next 2 years.
+
+00:20:09.000 --> 00:20:36.000
+And it's also partially funded by the State ground from the German Estate Government and there then we are also continuing on the gaming use case that manufactured will the folks from are Youuna network and yeah, then of course, we also intend to we are open for yeah.
+
+00:20:36.000 --> 00:20:41.000
+becoming a full hyper ledger project. So for that there are a lot of things that that need to be done.
+
+00:20:41.000 --> 00:20:45.000
+For example, streamline the naming streamline, the repositories.
+
+00:20:45.000 --> 00:20:46.000
+Documentation, create more attraction in terms of marketing, and also create more attraction in terms of the applications as they are currently in Yeah, Poc State.
+
+00:20:46.000 --> 00:21:08.000
+What are the plans for additional chains or additional sort of work that's going on There
+
+00:21:08.000 --> 00:21:09.000
+hey? Thanks, minority! This was This is really nice project, and I'm actually personally looking forward to a project like this.
+
+00:21:09.000 --> 00:21:16.000
+Matthias or Henry can highlight on some other areas that we are looking forward for
+
+00:21:16.000 --> 00:21:17.000
+it's really beneficial for the community. And I have 2 questions Probably to kick it off.
+
+00:21:17.000 --> 00:21:21.000
+Yep.
+
+00:21:21.000 --> 00:21:25.000
+I My first question is from the interoperability tangle right?
+
+00:21:25.000 --> 00:21:28.000
+so can you collaborate a bit more on that.
+
+00:21:28.000 --> 00:21:35.000
+So when you talk about interoperability, it's not actually providing a set transfer mechanism across an option.
+
+00:21:35.000 --> 00:21:36.000
+It's rather thinking mechanism on the same blockchain but the panel node itself is adaptable.
+
+00:21:36.000 --> 00:21:46.000
+Yeah.
+
+00:21:46.000 --> 00:21:51.000
+no. Maybe I can go back to that area one moment. Yeah.
+
+00:21:51.000 --> 00:21:57.000
+So So what happens is that you can have 2 different contracts.
+
+00:21:57.000 --> 00:22:12.000
+So say one contract is on Polka dot, and one contract is an ethereum, and then when you come together in opening the channel, so during the initial interaction, you see that liquidity provider has the asset on polka dot and client, has asset on
+
+00:22:12.000 --> 00:22:14.000
+itvm and they're going to block and swap it.
+
+00:22:14.000 --> 00:22:21.000
+So all of this is agreed in the first transaction, and when we have to fund this channel, we funded on both the chains.
+
+00:22:21.000 --> 00:22:37.000
+So on. Both these smart contracts we block the assets, and and then only the channel becomes open, and once it's Sanders open, you do the first transaction. It's also a last transaction, which is wrapping the assets and once you create, that state that state can
+
+00:22:37.000 --> 00:22:45.000
+be used to climb the assets by the other user on both the chains, so that way, it's it's an asset.
+
+00:22:45.000 --> 00:22:49.000
+Swap, not begging.
+
+00:22:49.000 --> 00:23:03.000
+So single channel. Is is like you're actually swapping the ownership of a set in the in off chain, because in off chain is a single medium and it, can be done in an atomic manner, and then you go back and settle claim your assets back on The chain
+
+00:23:03.000 --> 00:23:20.000
+Okay, thanks. I'll read more about it, since my second question is on on the used cases so far, but probably I'm little outdated when a lot of the payroll note all the examples that I could find work with 2 parties.
+
+00:23:20.000 --> 00:23:21.000
+I remember there was some kind of implementation where it the multi-party aspect of it.
+
+00:23:21.000 --> 00:23:28.000
+Yeah.
+
+00:23:28.000 --> 00:23:32.000
+Yes.
+
+00:23:32.000 --> 00:23:40.000
+No, I think currently it's mostly 2 party of framework, So currently you mostly support 2 party transactions.
+
+00:23:40.000 --> 00:24:00.000
+but the protocol itself is not the limitation I think the protocol is extensible for multi-party channels; but since most use cases currently we are interested in or the community is interested in it you see involving only 2 parties we are going in the direction so most of
+
+00:24:00.000 --> 00:24:03.000
+right.
+
+00:24:03.000 --> 00:24:10.000
+yeah. And I can add also, the implementation is written in a way that the data structures are already multi-party.
+
+00:24:10.000 --> 00:24:19.000
+but we didn't right. The protocol communication implementation. Are already for multi-party.
+
+00:24:19.000 --> 00:24:28.000
+So kind of the data structures already are, and depending on the protocol, For example, the funding protocol or the off-chain transaction.
+
+00:24:28.000 --> 00:24:41.000
+Protocol. We would have to extend these protocols to communicating with multiple parties, maybe integrating a broadcast functionality or something like that.
+
+00:24:41.000 --> 00:24:51.000
+So this part is, is not there, but the core is written in a way that it is extensible.
+
+00:24:51.000 --> 00:24:56.000
+got it? Thanks, thanks for answering that I I don't know.
+
+00:24:56.000 --> 00:25:03.000
+I could probably hold on to this question later, but the later question that I had was in terms of, Are you guys thinking to bring the project?
+
+00:25:03.000 --> 00:25:04.000
+To Hyper ledger information, and how many come contributors are currently having you maintain the project, and all that this aspects are so I'll hold on to that question.
+
+00:25:04.000 --> 00:25:16.000
+The examples are 2 party examples, but the protocol itself is is not having the limitation
+
+00:25:16.000 --> 00:25:22.000
+Yeah, okay, Maybe we'll take the other questions and then come to that later on.
+
+00:25:22.000 --> 00:25:27.000
+Time.
+
+00:25:27.000 --> 00:25:37.000
+Thank you, Chris. As a presentation. I wanted to know about the opening of the Channel.
+
+00:25:37.000 --> 00:25:38.000
+Okay.
+
+00:25:38.000 --> 00:25:44.000
+Does that require a transaction on layer, one to open the channel
+
+00:25:44.000 --> 00:25:47.000
+Yes, it does.
+
+00:25:47.000 --> 00:25:57.000
+Okay, and then the cost to that is that paid by Dallas and Bob from the charts
+
+00:25:57.000 --> 00:26:07.000
+Gotcha, and one more quick one for the exchanges is that based.
+
+00:26:07.000 --> 00:26:08.000
+There are those contracts our htlcs, or or there's some butter mechanism to return funds.
+
+00:26:08.000 --> 00:26:16.000
+Yeah.
+
+00:26:16.000 --> 00:26:25.000
+If if something bad happens.
+
+00:26:25.000 --> 00:26:32.000
+so it's it's comparable in a way to httl that you have this locking mechanism.
+
+00:26:32.000 --> 00:26:36.000
+But it's different to Hdlc that it works based on signatures.
+
+00:26:36.000 --> 00:26:41.000
+So you can almost think of a channel in a way, as a multi sick contract.
+
+00:26:41.000 --> 00:27:03.000
+so as soon as all the participants and create on the new Channel State, for example, transferring a token from one party to another, then the contract recognizes this as a creed as opposed to an htc which depends on this secret value that you have to reveal this has also the
+
+00:27:03.000 --> 00:27:07.000
+the benefit that we're not limited to one transaction.
+
+00:27:07.000 --> 00:27:08.000
+But we can do multiple updates So you can do as many updates as you like before you settle the channel where it in Htc based swaps.
+
+00:27:08.000 --> 00:27:21.000
+So
+
+00:27:21.000 --> 00:27:22.000
+Gotcha and the the source code. This contract is that also open source in the lab.
+
+00:27:22.000 --> 00:27:23.000
+You can only do one
+
+00:27:23.000 --> 00:27:30.000
+No, these are Yeah, These are based on State Channel technology
+
+00:27:30.000 --> 00:27:35.000
+Got it.
+
+00:27:35.000 --> 00:27:36.000
+Nice Okay, then, last thing, Not not a question. Just comment on one of the maintainers of practice for cacti.
+
+00:27:36.000 --> 00:27:46.000
+Yes, they are!
+
+00:27:46.000 --> 00:27:47.000
+Okay.
+
+00:27:47.000 --> 00:27:57.000
+Sorry, and I would be definitely interested in collaborating, trying to figure out how we could work together and achieve internal probability.
+
+00:27:57.000 --> 00:28:16.000
+Or
+
+00:28:16.000 --> 00:28:20.000
+Yeah, thanks for the presentation. My, My my comment is more on No.
+
+00:28:20.000 --> 00:28:33.000
+On the on on the side of the the project; that is, if it makes sense to to a fast track for per room to get into cacti instead of having perunas and other hyper ledger.
+
+00:28:33.000 --> 00:28:38.000
+Project because of, you know also to have clarity of the ecosystem.
+
+00:28:38.000 --> 00:28:39.000
+If if now we know that there is a hyper ledger cacti, that is a project so that contains multiple multiple techniques that offers multiple techniques to achieve entrepreneurship, or interoperability, to me, perun is another.
+
+00:28:39.000 --> 00:29:09.000
+Okay, Yeah, that sounds interesting. Probably we could also talk after the Do you see meeting
+
+00:29:20.000 --> 00:29:31.000
+yeah, I I could also see that I I don't have the biggest word in that, of course, but I I yeah, through the discussions, the global courtroom.
+
+00:29:31.000 --> 00:29:48.000
+I also have the impression that cacti has, like several Protocols, included, but none of them is a State channel based so State channels could add something to cake time some additional functionality which is not there yet so.
+
+00:29:48.000 --> 00:30:03.000
+I could see you fit there, but maybe yeah, we would also have to look at other aspects of such an integration, like How comfortable are the code bases and the architectures, and so on.
+
+00:30:03.000 --> 00:30:09.000
+But yeah, I I I agree with the idea that it could make sense.
+
+00:30:09.000 --> 00:30:18.000
+yeah, it would be definitely a faster truck. That's that's for sure. So you don't have to to find other organizations that you will have.
+
+00:30:18.000 --> 00:30:19.000
+the the that the needs to be committed. Maintainers of the Peru repository, and so on and so forth.
+
+00:30:19.000 --> 00:30:30.000
+but
+
+00:30:30.000 --> 00:30:37.000
+Yeah. And you know, I think I think the the key here right is to have these connections.
+
+00:30:37.000 --> 00:30:48.000
+So Peter is obviously worked with other other labs right to bring into to hyper ledger cactus to become cacti. Right?
+
+00:30:48.000 --> 00:30:53.000
+So I think it's it's definitely a good place to start with those conversations.
+
+00:30:53.000 --> 00:30:54.000
+See how likely it is that it makes sense, and I know Peters definitely up for that.
+
+00:30:54.000 --> 00:31:15.000
+Okay, Yeah, probably we can have a look into it like, what are the possibilities There
+
+00:31:15.000 --> 00:31:16.000
+so. I think it's the same like Angela mentioned you and other like, instead of having a separate project, it could be maybe clubbed with We're like like we were in practice, where it could be has some some different way of interactivity in the blockchain
+
+00:31:16.000 --> 00:31:45.000
+I saw the thumbs up that Peter gave so definitely. Let's let's continue those conversations and see what makes sense English
+
+00:31:45.000 --> 00:31:55.000
+right? So I have slightly contradictory statement to Angelo. And you guys are proposing right now in terms of margin, need to cat type.
+
+00:31:55.000 --> 00:32:00.000
+so so far I have been treating cat type earlier as interrupt solution.
+
+00:32:00.000 --> 00:32:01.000
+Then I needed that interoperability of space, but looks like Payron does have additional capabilities which would spill over beyond interrupts.
+
+00:32:01.000 --> 00:32:21.000
+Yeah, that really sounds like a very interesting avenue for for going forward
+
+00:32:21.000 --> 00:32:42.000
+yeah, thanks for bringing up this point. So so I think of one of the thoughts I have in mind, as I say here with the comments, is is one definitely There is a a way like a good synchrony to work with Cacti because both are
+
+00:32:42.000 --> 00:32:48.000
+addressing in trouble, routine one way, but I think their own itself has some other directions.
+
+00:32:48.000 --> 00:32:56.000
+For example, IoT State channels where it's it's it's not about interoperability, but about just scalability, and and so on.
+
+00:32:56.000 --> 00:33:09.000
+So I think, having a closer look and having more discussions with the team, would provide a clear understanding of what's possible
+
+00:33:09.000 --> 00:33:12.000
+thanks. I look forward to outcomes of those discussions.
+
+00:33:12.000 --> 00:33:13.000
+But yeah, I'm pretty much excited, if collaboration does happen.
+
+00:33:13.000 --> 00:33:19.000
+Yeah, okay.
+
+00:33:19.000 --> 00:33:29.000
+Yeah, Thank you. And coming back to the question that you rise from the beginning around, I think, in terms of becoming a a main hyperlger.
+
+00:33:29.000 --> 00:33:38.000
+Project few things, housekeeping things which might just start in the beginning like bring together different repositories and and then house skipping around the code, and something.
+
+00:33:38.000 --> 00:33:49.000
+but in other aspects. Vc. 2 other friends, for to achieve before we can become main project, one is to see a fit with other hyperlger projects.
+
+00:33:49.000 --> 00:33:56.000
+And how do we collaborate? And so on? And second is is to find a use case or a third contributor.
+
+00:33:56.000 --> 00:34:22.000
+I think currently it's it's mostly Bosch and Polycry that's working on this.
+
+00:34:22.000 --> 00:34:30.000
+yeah, So I guess the the question is, have we had projects that have come in with the lead to 2 organizations?
+
+00:34:30.000 --> 00:34:42.000
+Have had maintainers and I'm not sure I'd have to go take a look at the original project proposals and see where they were.
+
+00:34:42.000 --> 00:34:50.000
+I I do think that you know our incubation entry criteria, probably outlines what is suggested.
+
+00:34:50.000 --> 00:34:54.000
+and then it's a a matter of you know.
+
+00:34:54.000 --> 00:35:00.000
+See how well those those criteria are met. I think it.
+
+00:35:00.000 --> 00:35:01.000
+It's really, you know, if you read that documented really kind of highlights, the the expectations of things that we've seen in the past when it when it comes to how we have approved projects into hyper ledger, so probably worth taking a look at that if you haven't
+
+00:35:01.000 --> 00:35:18.000
+Probably if if we find a up third entity, that is also finding the technology interesting, probably it could be a more stronger project when it as a main project, maybe call your thoughts on this
+
+00:35:18.000 --> 00:35:19.000
+already
+
+00:35:19.000 --> 00:35:21.000
+Yeah, okay.
+
+00:35:21.000 --> 00:35:32.000
+And I'm I'm happy to share that link directly in the in the prune chat, so that you guys have access to that and can take a look at kind of where you think you stand related to.
+
+00:35:32.000 --> 00:35:41.000
+That I I do. I Yeah, I mean, I do find it interesting right in looking at kind of the the history right?
+
+00:35:41.000 --> 00:35:42.000
+When we looked at that slide, that the number of kind of collaborations that you've had with other sorts of organizations or chains, or you know, there there was definitely some some sort of collaboration happening there and I'm curious as to whether or not any of those sorts of groups that you've
+
+00:35:42.000 --> 00:36:00.000
+You're not sure that could be really helpful.
+
+00:36:00.000 --> 00:36:28.000
+worked with, would you know, be willing or or able to also participate in contributing and maintaining the code, So that could be another sort of avenue or venue that you take a look at you know, with the the other sorts of groups that you've done collaboration with
+
+00:36:28.000 --> 00:36:48.000
+yeah, no, just no, no to to me. So what I don't said that makes out a sense. Because if if per own, the main focus of per own is layer to and performance, that probably deserves a dedicated space in the in the in the greenhouse th that in in
+
+00:36:48.000 --> 00:36:49.000
+that case. Yes, from the point of your layer to we don't have any anything that speaks directly to for layer 2, and even the level of a con integration with with blockchains that perun has already Yeah, that was the that would the out in my ask you would that will qualify. As a as a hyper, ledger project with that target so layer of 2,
+
+00:36:49.000 --> 00:36:50.000
+Okay, yeah, that that that's also one possibility.
+
+00:36:50.000 --> 00:37:18.000
+Yup Angela
+
+00:37:18.000 --> 00:37:27.000
+and just if I didn't just look at the incubation entry considerations, it's the product should have multiple maintainers.
+
+00:37:27.000 --> 00:37:28.000
+These maintenance need not be from different companies. However, having maintenance from different companies, is positive sign proposals, with only one maintainer, have been rejected by prior tocs.
+
+00:37:28.000 --> 00:37:38.000
+Okay, Yeah, Thanks for your input.
+
+00:37:38.000 --> 00:37:48.000
+so I I You know there is sort of precedence, I think, and it's just a question of you know what what it looks like.
+
+00:37:48.000 --> 00:37:53.000
+As far as the the actual growth of the the lab. And how that's looking.
+
+00:37:53.000 --> 00:37:54.000
+So, you know, like I would say, based on our our considerations.
+
+00:37:54.000 --> 00:37:58.000
+Okay.
+
+00:37:58.000 --> 00:38:02.000
+It's not an immediate, no right.
+
+00:38:02.000 --> 00:38:08.000
+Okay, Yeah, Yeah, Thanks Thanks for the quick. Input, on that point.
+
+00:38:08.000 --> 00:38:15.000
+Yeah, and I did. I did add the link to the prune channel, so that you guys can take a look at that in in depth.
+
+00:38:15.000 --> 00:38:16.000
+Other questions.
+
+00:38:16.000 --> 00:38:33.000
+Yeah.
+
+00:38:33.000 --> 00:38:39.000
+Cool, yeah, I think, I'd like to thank the Poc for the opportunity.
+
+00:38:39.000 --> 00:38:40.000
+It was quite a insightful discussion for us, in terms of how we, how the Poc is this project, from their point of view, and the way forward.
+
+00:38:40.000 --> 00:38:57.000
+Yeah, any closing thoughts for the Pro: Thank you.
+
+00:38:57.000 --> 00:39:05.000
+right. I do have one more question, so out of curiosity, just because of the integration that it's for, like the parent project has made.
+
+00:39:05.000 --> 00:39:10.000
+But I don't know other frameworks outside of not hypothetical system.
+
+00:39:10.000 --> 00:39:30.000
+So how? What is the interest that you've seen in other countries that you have observed in terms of adoption, or the project interest itself
+
+00:39:30.000 --> 00:39:48.000
+maybe I can say a few words on this, so the channels were one of the early scaling technologies, and they have specific use cases where they are interesting, So especially when you want to go.
+
+00:39:48.000 --> 00:40:05.000
+What's low latency? And I think the other communities are all interested in They are 2 solutions, and that's why they funded our project as one day a layer 2 solution.
+
+00:40:05.000 --> 00:40:26.000
+For their for the community, for their drop, change, space, and at the moment I think we are now looking more towards applications And one interesting aspect, or one interesting application.
+
+00:40:26.000 --> 00:40:30.000
+Was, for example, the collaboration is the ongoing collaboration with.
+
+00:40:30.000 --> 00:40:42.000
+Are you now? Where we already did on Crown Project, regarding bringing state channels into the gaming space and enabling low latency interactions?
+
+00:40:42.000 --> 00:40:52.000
+There! So overall, I would say First of all, we are kind of an infrastructure technology provider, which is a toolkit.
+
+00:40:52.000 --> 00:40:53.000
+And now we are in all of these communities, going more and more into the direction.
+
+00:40:53.000 --> 00:41:12.000
+Alright thanks, and that looks like a room, maybe has a another question or comment
+
+00:41:12.000 --> 00:41:21.000
+Alright, any any last questions.
+
+00:41:21.000 --> 00:41:28.000
+Alright. If there's no questions, then I would like to thank Mono with you, and and for journeying us today on the call.
+
+00:41:28.000 --> 00:41:33.000
+I think this has been a really interesting presentation, and and discussion.
+
+00:41:33.000 --> 00:41:54.000
+I I am curious to see how this he continued. Conversations might go with cacti, and whether or not it makes sense to to bring that into cacti, or whether it makes sense to bring us into a separate product top level project as we move forward so definitely keep us informed as you move forward
+
+00:41:54.000 --> 00:41:59.000
+with those conversations, and and let us know how it goes.
+
+00:41:59.000 --> 00:42:00.000
+And with, that I am going to close the call for today.
+
+00:42:00.000 --> 00:42:14.000
+So thanks for your time and thanks for listening
+

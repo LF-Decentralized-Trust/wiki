@@ -1,0 +1,24 @@
+08:04:50	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2023-01-18+Aries+Working+Group+Call
+08:09:51	 From  Rodolfo Miranda : I think this is the PR from SICPA for DIDComm v2 on AFJ: https://github.com/hyperledger/aries-framework-javascript/issues/1038
+08:09:53	 From  Lance Byrd : AFJ DIDComm v2 PR https://github.com/hyperledger/aries-framework-javascript/pull/1096
+08:10:05	 From  Rodolfo Miranda : Ohh, different PRs 🙂
+08:10:26	 From  Lance Byrd : both important! there might be others even
+08:15:55	 From  Mike Ebert (Indicio) : Could you treat the styles like CSS? So the credential issuer sends styles, but the wallet could choose to override (some of) them?
+08:24:06	 From  Colton Wolkins : I'm now curious what horizontal stacking would look like. For example: When someone is holding their phone in landscape mode or viewing them on a landscape monitor
+08:37:00	 From  Daniel Bluhm   to   Sam Curren (TelegramSam)(Direct Message) : JSON-LD issue-credential short circuit flow come up?
+08:37:19	 From  Kyle Robinson : We are going to need a bit of freedom to implement OCA in our controller (Traction) for cloud-based wallets in web browsers (responsive design).
+08:38:29	 From  Colton Wolkins : Is it bad that in terms of CSS, I'm thinking of.background { position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999}
+08:40:41	 From  Mike Ebert (Indicio) : @Colton so are you intending that the background be stretched over whatever size and shape the credential is presented in?
+08:42:30	 From  Colton Wolkins : @Mike, nah. I was thinking of a malicious issuer issuing a credential that shows on top of all other credentials (and possibly app controls) by using CSS wizardry
+08:42:40	 From  Akiff Manji : I like the idea of how documents can show different views for example
+08:43:00	 From  Akiff Manji : List, grid, large icons, small icons, previews, etc
+08:44:13	 From  Mike Ebert (Indicio) : @Colton Oh, I see. I don't think you would be given free reign to extend beyond the borders of your credential, regardless of what you input.
+08:46:30	 From  Mike Ebert (Indicio) : Can I get a link to this OCA spec/proposal?
+08:50:29	 From  Stephen Curran : It’s PR 755 in https://github.com/hyperledger/aries-rfcs
+08:50:34	 From  Mike Ebert (Indicio) : Thank you as well, this is a hard problem
+08:50:40	 From  Mike Ebert (Indicio) : Thank you
+08:54:15	 From  Kyle Robinson : https://github.com/hyperledger/aries-rfcs/blob/main/features/0453-issue-credential-v2/credential-issuance.png
+09:00:29	 From  Alex : We need a mechanism for the issuer to know that the holder has accepted the issued credentials. How would that be accomplished if we remove those steps?
+09:00:37	 From  Kyle Robinson : Holder-initiated transaction, starts with propose-credentialIssuer-initiated transaction, starts with offer-credential
+09:01:24	 From  Daniel Bluhm : Problem report indicates credential rejection, I thought
+09:01:30	 From  James Ebert : +1 ^

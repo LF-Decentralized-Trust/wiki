@@ -1,0 +1,1410 @@
+WEBVTT
+
+1
+00:00:00.120 --> 00:00:01.170
+Sam Curren: Perfect.
+
+2
+00:00:02.500 --> 00:00:04.270
+Sam Curren: all right
+
+3
+00:00:04.690 --> 00:00:08.810
+Sam Curren: for the for the second attempt. This is, the second of August
+
+4
+00:00:08.840 --> 00:00:37.419
+Sam Curren: 23. We started in a month. Welcome to the Areas Working group call for this week. We have a great agenda. with some great topics today. and so we are glad you're here. This is an anti. This is an anti. This is a hyper ledger meeting. And so the anti-trust policy and the code of conduct aren't effect meeting notes or those links are in the meeting notes. please reach out if you have any concerns there at all. you're welcome to add yourself to the attendees list
+
+5
+00:00:37.440 --> 00:00:43.760
+Sam Curren: with the link in the chat or make any other adjustments to the agenda that would be useful for the community.
+
+6
+00:00:44.000 --> 00:00:49.100
+Sam Curren: And we're glad you're here. Is there anyone new today that would like to introduce themselves?
+
+7
+00:00:57.890 --> 00:01:04.739
+Sam Curren: I recognize everyone. Glad you're all here. Are there any announcements that should be on our list, but are not
+
+8
+00:01:14.160 --> 00:01:20.160
+Sam Curren: all right. Do any of our projects want to share release status or work updates?
+
+9
+00:01:28.440 --> 00:01:36.679
+Warren Gallagher: I don't believe there's been an Afj or by fold call since the last meeting. So there's not likely anything there.
+
+10
+00:01:41.590 --> 00:01:45.629
+Sam Curren: Is that just a scheduled thing, or is there?
+
+11
+00:01:46.450 --> 00:01:54.070
+Warren Gallagher: Afj has decided to move by weekly, like every 2 weeks for the time being. And the call for bifold
+
+12
+00:01:54.310 --> 00:01:55.960
+Warren Gallagher: didn't happen yesterday.
+
+13
+00:01:57.570 --> 00:02:00.839
+Sam Curren: Okay? All right.
+
+14
+00:02:04.440 --> 00:02:06.959
+Sam Curren: Any other updates that folks want to share.
+
+15
+00:02:12.510 --> 00:02:16.430
+Sam Curren: Everyone's just really eager to get to our topics today, which is just fine.
+
+16
+00:02:17.020 --> 00:02:37.230
+Sam Curren:  yes, Jason, from Bifold. In our last meeting we discussed pausing for August, because we went down from about 14 people down to 3, and they were all from BC. So rather than just have an echo chamber of a meeting. We're just going to pause. Well, people enjoy their summer and pick up by fold again in September.
+
+17
+00:02:38.310 --> 00:02:40.550
+Sam Curren: Okay, that is worth knowing.
+
+18
+00:02:41.760 --> 00:02:47.439
+Sam Curren: I'm going to add that to the actually the announcements, probably, since I don't
+
+19
+00:02:47.480 --> 00:02:55.500
+Sam Curren:  and if J. Went bi weekly.
+
+20
+00:02:58.270 --> 00:02:59.330
+Jason Leach: that's correct.
+
+21
+00:03:00.680 --> 00:03:03.429
+Sam Curren: some just for the duration of summer
+
+22
+00:03:04.480 --> 00:03:08.580
+Jason Leach: by weekly for summer. Yeah, I guess for the duration. August. Now
+
+23
+00:03:14.490 --> 00:03:15.770
+Sam Curren: I hear that.
+
+24
+00:03:17.960 --> 00:03:23.469
+Sam Curren: Well, I highly support the ability of folks to take vacations. That's a fantastic thing to do.
+
+25
+00:03:25.980 --> 00:03:41.700
+Sam Curren: all right. So here's what we have on our agenda today. I marketing update from Helen and Alex Steven Kern with with the early the Aries project Quarterly up to a quick review that that's due tomorrow.
+
+26
+00:03:41.710 --> 00:03:58.670
+Sam Curren: so update on. Did peer 3 as well. Some related issues there. and that kind of bleeds a a little bit into the unqualified did stuff that we have down below. And so we have. we that. That's what we have on deck for today. Is there any
+
+27
+00:03:58.740 --> 00:04:03.649
+Sam Curren: additions or changes, or anything that we want to make to the agenda before we get going.
+
+28
+00:04:11.870 --> 00:04:24.240
+Patrik Stas: All right. I just wondering about in Dvdr. and perhaps Arizona. Are these components, you know suitable for discussion on these calls.
+
+29
+00:04:26.060 --> 00:04:33.239
+Sam Curren: yes, they they can be. they can be discussed elsewhere. But they are certainly, you know, acceptable topics here.
+
+30
+00:04:33.280 --> 00:04:56.029
+Patrik Stas: Hmm, okay. yeah, I don't know. We we just started. I I I'm not sure if I have a specific topic. but I've been wondering about in India, vd, are we just started recently, like, kind of further playing with the integration to A is Vcx and testing it on in production and whatnot. And I I noticed like, it's actually bit time.
+
+31
+00:04:56.460 --> 00:04:59.659
+Patrik Stas: you know, slower a a compared to
+
+32
+00:05:00.050 --> 00:05:18.239
+Patrik Stas: it'll be in the implementation. I was wondering why. But I don't really have any inputs more of a wondering about other people's experiences with in Dvdr and transition from Lubin D. So perhaps you can put it in the null, and if anyone has any comments on that, and we can perhaps exchange feeds out
+
+33
+00:05:21.050 --> 00:05:39.509
+Sam Curren:  We will definitely list it there, and it it probably could be useful. to have. I will have to look at what is coming in the in the the next meetings. But it might be useful to have an update on those projects, just generally speaking, in some discussion on what's next there. So.
+
+34
+00:05:39.730 --> 00:05:45.199
+Stephen Curran: Patrick, did you say in the Vdr. Was slower or the combination?
+
+35
+00:05:45.560 --> 00:05:58.760
+Patrik Stas: Yeah. Yeah. So in the Vdr, since. So we are using? I'm I'm not sure if it's fine if I go like the deeper right now. but the basically in nutshell vdr tools
+
+36
+00:05:58.820 --> 00:06:00.490
+Patrik Stas: from our observation.
+
+37
+00:06:00.560 --> 00:06:12.340
+Patrik Stas: our fork of in the SDK. Was faster in fetching transaction from the ledger than in Dvdr, like multiple times. Basically.
+
+38
+00:06:13.020 --> 00:06:14.520
+Stephen Curran: okay,
+
+39
+00:06:16.650 --> 00:06:27.709
+Stephen Curran: not so much. It's been spent on in the Bdr optimizations ask our we found the use of the combination to be way more stable and and faster.
+
+40
+00:06:28.130 --> 00:06:37.120
+Stephen Curran: so surprised you're finding that on any Vdr specifically, so might be worth looking at.
+
+41
+00:06:37.180 --> 00:06:53.579
+Stephen Curran: But we definitely have found the combination of using all 3 to be way way faster, like significantly faster, like we had a deployment of the areas. Media Mediator service, for example, that was unstable. And
+
+42
+00:06:53.610 --> 00:06:56.470
+Stephen Curran: and and almost
+
+43
+00:06:57.940 --> 00:07:06.339
+Stephen Curran: could not, could not handle load and The transition to Ascar was significant and much, much better.
+
+44
+00:07:06.830 --> 00:07:21.209
+Patrik Stas: Oh, yeah. So just to be clear in in in this case, I, we haven't actually tried to ask her yet. we were I was testing in isolation in Dvdr. And like, you know, within the implementation, the ledger client.
+
+45
+00:07:21.230 --> 00:07:24.359
+Stephen Curran: Yeah, definitely put things you find
+
+46
+00:07:24.420 --> 00:07:29.800
+Stephen Curran: out there. and let's take a look at the the code in there.
+
+47
+00:07:30.460 --> 00:07:40.600
+Stephen Curran:  you know, issues on the Ndvdr repo. There hasn't been much feedback on that one. It's basically been done and and
+
+48
+00:07:40.830 --> 00:07:51.539
+Stephen Curran: and working. So it's working But nobody's really done a whole lot to improve to to look at specifically on speed for that. So
+
+49
+00:07:51.580 --> 00:07:52.660
+Patrik Stas: right? Right?
+
+50
+00:07:52.740 --> 00:07:53.810
+Stephen Curran: Yeah.
+
+51
+00:07:54.640 --> 00:08:04.129
+Stephen Curran: all right, I'm I'm not going to still more more I expect more minutes. So let's let's just hold the engine to
+
+52
+00:08:07.060 --> 00:08:10.230
+Sam Curren: absolutely. And that that's that's great to hear.
+
+53
+00:08:10.320 --> 00:08:11.550
+Stephen Curran: Yeah.
+
+54
+00:08:12.430 --> 00:08:20.190
+Sam Curren: I I love. I love topics that we talk about, because people bring them up and want to talk about them. That makes me very happy. So so I appreciate you bring that up
+
+55
+00:08:21.480 --> 00:08:24.160
+Sam Curren: any other changes or or justice we want to make
+
+56
+00:08:28.990 --> 00:08:32.689
+Sam Curren: right Helen or Alex, can I? Do you need a minute?
+
+57
+00:08:32.870 --> 00:08:40.669
+Helen Garneau: Yeah. So there is a draft page in the wiki for the new Aries
+
+58
+00:08:40.669 --> 00:09:05.469
+Helen Garneau: language. You'll find it. Let me grab the link. so folks can look at it. it's gonna be we. We started the basically, we started the roll out of the new language. that was developed in the Aries marketing working group. it'll take a little while just to get it updated in all the different places. They use it on the homepage of the wiki on the, the
+
+59
+00:09:05.470 --> 00:09:29.239
+Helen Garneau: the landscape, the the project landscape on on Hyper Ledger org, which is just been updated yet as of yesterday. So now we can update it on the Hyper Ledger website. So lots of place lots of kind of playing whack-a-mole with updating the area, the the Aries messaging. But we are slowly rolling it out. So If anybody has any comments, suggestions, etc., please.
+
+60
+00:09:29.460 --> 00:09:41.410
+Helen Garneau: I welcome you to join us at the last Tuesday of the month. to talk with the Aries marking group and contribute your thoughts To this effort.
+
+61
+00:09:46.320 --> 00:09:53.689
+Sam Curren: Whoa! And for Steven I just loaded up the new hyper ledger. Dot org has some has some redesign going on there.
+
+62
+00:09:54.150 --> 00:09:56.799
+Sam Curren: And so that's that's cool.
+
+63
+00:09:57.050 --> 00:10:08.210
+Helen Garneau: And yeah, Helen, if you would. When my drop on that link. In that way we can get it in the in the notes, and people can can find it. That'd be awesome. Yes, I accidentally was going to send it privately to someone. But here we go.
+
+64
+00:10:08.780 --> 00:10:10.580
+Helen Garneau: Send it to everyone.
+
+65
+00:10:14.330 --> 00:10:17.460
+Sam Curren: So here this it's got a draft page up here, then.
+
+66
+00:10:19.320 --> 00:10:22.750
+Sam Curren: and so this looks far larger than
+
+67
+00:10:23.770 --> 00:10:29.499
+Sam Curren: the other than the previous than the previous page, that we have any specific thing that you want to call out there.
+
+68
+00:10:29.580 --> 00:10:54.389
+Helen Garneau: no. Just that top section has been updated. the documentation page I'm still working on to to include all those awesome links that folks sent me. Thank you so much. If you have other links that are helpful. you, you think would be helpful for either kind of businesses, business decision makers or developers. Please don't hesitate to keep sending them along. again. We'd love a a really robust.
+
+69
+00:10:54.390 --> 00:11:03.370
+Helen Garneau: comprehensive ish looking list of resources for folks to see when they come to learn more about Aries.
+
+70
+00:11:03.370 --> 00:11:13.059
+so we'll continue to be working on that documentation list and and updating this this messaging across
+
+71
+00:11:13.170 --> 00:11:16.159
+Helen Garneau: everywhere in all the places.
+
+72
+00:11:19.370 --> 00:11:22.239
+Sam Curren: Excellent. Thank you, Helen. Anything else about marketing
+
+73
+00:11:23.450 --> 00:11:26.229
+Helen Garneau: Alex. Anything else you wanted to raise?
+
+74
+00:11:27.600 --> 00:11:29.870
+Alex Metcalf: No, it's perfect. It's actually happening.
+
+75
+00:11:30.320 --> 00:11:31.010
+Helen Garneau: Hmm.
+
+76
+00:11:32.940 --> 00:11:35.879
+Sam Curren: very much appreciate all of your efforts in doing so.
+
+77
+00:11:38.350 --> 00:11:50.860
+Helen Garneau: Yeah. And it is hyper ledger identity. Oh, like folk, the focus this this quarter for the Hyper Ledger staff marketing efforts. So if you or your organization. Have
+
+78
+00:11:50.860 --> 00:12:15.549
+Helen Garneau: events. White papers dot any any sort of new products, any new blogs whatever. please get in touch with the the staff because they are trying to put together a kind of a best of recent news from the identity community from the Hyper Ledger identity community. So please reach out to me or the staff if you want to be included
+
+79
+00:12:15.550 --> 00:12:23.619
+Helen Garneau: in those efforts. And Sean Bowen, and like, there's been lots of emails that have been sent out to the list. Serve with a lot of those details as well.
+
+80
+00:12:26.630 --> 00:12:29.570
+Sam Curren: Awesome. Thank you for that.
+
+81
+00:12:31.560 --> 00:12:36.010
+Sam Curren: Next on the agenda is the update from Steven Steven. Do you want a driver? You want me to pull it up.
+
+82
+00:12:39.660 --> 00:12:42.609
+Sam Curren: or, good thing? I think that said the same thing twice.
+
+83
+00:12:45.470 --> 00:12:46.890
+Sam Curren: Oh, you're muted, Steven.
+
+84
+00:12:48.420 --> 00:12:51.079
+Stephen Curran: Sorry Go ahead. Pull it up. That's you. Good.
+
+85
+00:12:54.720 --> 00:13:01.870
+Stephen Curran: Thank you. Okay. So every quarter we put in a quarterly report to the
+
+86
+00:13:01.990 --> 00:13:19.370
+Stephen Curran: Technical Oversight Committee of Hyper Ledger. So this is the draft for Aries. this will go in by tomorrow as a pr into the github hyper ledger, tooc
+
+87
+00:13:19.590 --> 00:13:46.969
+Stephen Curran:  repo. So even if you don't review it here, you can review it there, and and add comments and things. But if you get a chance today to look at this I'd appreciate it. things. so there's a bunch of facts in here. things like the releases. There's an activity dashboard from Lfx insights that show what's been happening. And there, there's a quick summary there so that link
+
+88
+00:13:46.970 --> 00:14:06.189
+Stephen Curran: areas, activity. Dashboard goes to a page that is for this particular quarter, which is the April to June end of June quarter. By the way, I highlight in this what's been going on? so you'll see that there's the Aj. The move away from the in the SDK.
+
+89
+00:14:06.340 --> 00:14:11.839
+Stephen Curran: the addition of the cl signatures repo
+
+90
+00:14:12.930 --> 00:14:17.170
+Stephen Curran: increased engagement across the
+
+91
+00:14:17.450 --> 00:14:24.380
+Stephen Curran: 3 of the 4 communities occupy Aj and Vcx as far as
+
+92
+00:14:24.440 --> 00:14:25.820
+Stephen Curran: coordinating
+
+93
+00:14:25.950 --> 00:14:46.909
+Stephen Curran: the new socket, Doc and a little bit of a touch on the news and the progress made on on the use of Oca or overlays capture architecture. I then do highlight the the each of the projects. Vcx. This one I didn't. I haven't updated the Vcx one yet.
+
+94
+00:14:47.030 --> 00:15:00.529
+Stephen Curran: this is the same as last time. So Patrick, I'm glad you're here, because it really appreciate either a quick discord note or or what you'd like to put into here. I know there's a ton going on
+
+95
+00:15:00.960 --> 00:15:03.990
+Stephen Curran: in that. So
+
+96
+00:15:04.550 --> 00:15:14.720
+Stephen Curran: tweak this wording I would dig in if if I need to. I can dig in and and sort of highlight what I think are the things, but it'd be much better for came from you.
+
+97
+00:15:14.900 --> 00:15:28.750
+Stephen Curran: I'm not sure I've done the afgh one, I think I have. The 4.0 release was huge. so talked about that and the addition of the open Id for Vcs exchange protocols.
+
+98
+00:15:29.050 --> 00:15:37.419
+Stephen Curran: update on occupy. And then what I've been able to discern from what's going on in the areas go. And so that's basically it?
+
+99
+00:15:37.720 --> 00:15:52.569
+Stephen Curran: If people could take a look at that, and if you have any other comments, or reviews, or or or emphasis, that you think we should put in this I'd welcome your contribution.
+
+100
+00:15:54.640 --> 00:15:56.850
+Sam Curren: I need to highlight here that
+
+101
+00:15:57.670 --> 00:16:13.190
+Sam Curren: here in the areas community, there's there's 2 main bulk, pieces of effort from not the code direct stuff, but the community organization. and Steven, for years now has been driving up the Quarterly Updates. and he's been doing a fantastic job.
+
+102
+00:16:13.190 --> 00:16:35.680
+Sam Curren: and so if you if you can help then then please do a jump in a review, and and and everything else. Also a periodic reminder that both Steven and I kind of just volunteer to keep this going. if you are interested in being involved more deeply in in sort of the the the community support aspect of Aries. Your help is always welcome.
+
+103
+00:16:36.100 --> 00:16:55.329
+Sam Curren: Steve and I are not really planning on going anywhere. but I we certainly want to make it an opportunity for anyone that does want to be more involved to be able to do so. and so so please reach out to either Steven or I. If you have interest in helping with the Quarterly Updates, or regularly running of meetings is something that there is also, of course, always open.
+
+104
+00:16:56.230 --> 00:16:58.539
+Sam Curren: and so, Steven, appreciate your work here.
+
+105
+00:16:59.380 --> 00:17:07.270
+Stephen Curran: No. Prom. By the way, there is also similar documents on and on, credits and indie that I've done.
+
+106
+00:17:07.430 --> 00:17:17.390
+Stephen Curran: I posted links in the the in each of those discord channels to let people know where they are and they can update them.
+
+107
+00:17:18.130 --> 00:17:19.030
+Stephen Curran: What?
+
+108
+00:17:20.670 --> 00:17:27.109
+Warren Gallagher: Yeah, thanks, Steven. I was wondering whether it's worth mentioning.
+
+109
+00:17:27.770 --> 00:17:34.539
+Warren Gallagher:  where each of these projects where relevant stack up against the different Aips.
+
+110
+00:17:38.120 --> 00:17:42.189
+Stephen Curran: It's a good idea. and in fact, yeah.
+
+111
+00:17:44.500 --> 00:17:55.170
+Stephen Curran: yeah, that's a good idea. I think that's more relevant within the Aips, or sorry within Aries itself. I don't know the Toc. But I I think that's a really good idea. I think I'll
+
+112
+00:17:55.770 --> 00:17:58.020
+Stephen Curran: see what I could do about adding that
+
+113
+00:17:59.520 --> 00:18:11.479
+Stephen Curran: I'll definitely need input. so I may just put that as a okay. I want to get this for next time. but I think I'll put it in there as a as a target.
+
+114
+00:18:13.930 --> 00:18:16.449
+Warren Gallagher: Great, thank you. Great suggestion.
+
+115
+00:18:17.200 --> 00:18:18.420
+Stephen Curran: I like it.
+
+116
+00:18:19.610 --> 00:18:22.290
+Sam Curren: you know, when I look at this. Even it it
+
+117
+00:18:22.580 --> 00:18:33.699
+Sam Curren: Sometimes it feels like Progress is slow. And and then I look at what's happened just in the last quarter. And that's kind of amazing. I'm also It's interesting that you know the the the comparison is quarter to quarter.
+
+118
+00:18:33.780 --> 00:18:36.599
+Sam Curren: It's a little bit unfair comparing
+
+119
+00:18:36.630 --> 00:18:43.459
+Sam Curren: just prior to summer to during summer, just because of vacations and everything else that are going on. But
+
+120
+00:18:43.620 --> 00:19:03.309
+Stephen Curran: interestingly, I mean, I just put in I just phrase it, the way I phrase it, every quarter. But this was Interestingly, it was up about 12% and down about 11% on up and up 11%, the pre from the previous quarter. So basically, this is the same as the
+
+121
+00:19:03.840 --> 00:19:14.690
+Stephen Curran: last quarter of of 2022. Interestingly, it was almost identical to that. But anyway, I just I just say, here's where we were. Quarter quarter
+
+122
+00:19:15.340 --> 00:19:18.180
+Sam Curren: right? That's fantastic.
+
+123
+00:19:18.200 --> 00:19:26.589
+Stephen Curran: Well, in. And seeing this is actually kind of a good you know, indicator of our progress. So that's that's pretty great.
+
+124
+00:19:27.070 --> 00:19:28.789
+Sam Curren: I think it's when they quarterly update.
+
+125
+00:19:33.500 --> 00:19:52.439
+Stephen Curran: And I'll post when I post the actual Pr, I'll I'll post a link to the Pr. Itself so anyone can review it and comment on it as part of the Pr. The Toc will go through it. probably leave it on merge for about a week or so, and then merge it probably a week week tomorrow.
+
+126
+00:19:52.850 --> 00:19:54.839
+Stephen Curran: Assuming no one objects.
+
+127
+00:19:56.620 --> 00:19:58.580
+Stephen Curran: and they will discuss it.
+
+128
+00:19:58.870 --> 00:19:59.790
+Sam Curren: Awesome.
+
+129
+00:20:02.120 --> 00:20:07.069
+Sam Curren: Cool. Okay. Next on the agenda is the did peer 3 stuff.
+
+130
+00:20:07.480 --> 00:20:23.020
+Sam Curren: this has had some forward progress. but but but a little put a weird weird it that we're trying to manage. Daniel Bloom had brought up some some issues against the specific wording and the examples, and and caught some things that needed to be fixed.
+
+131
+00:20:23.020 --> 00:20:43.820
+Sam Curren: He has verified this and included some some example code, using multi formats, a library in python in order to verify. And so I wanted him to independently verify that just to make sure that it was working, and we're having some trouble getting it to like merge Github being weird And so the work has been done there. We're just trying to make sure that these these make it in here. these fixes specifically
+
+132
+00:20:44.190 --> 00:20:56.430
+Sam Curren: address some of the issues that that Daniel brought up into just And to sort of clarify that, and and make sure that the the encoding is proper. and so I appreciate Daniel's,
+
+133
+00:20:56.940 --> 00:21:05.670
+Sam Curren: you know, catching important things there, and we'll work to get this this merged. And and I think that that does comprise the the the
+
+134
+00:21:05.820 --> 00:21:18.589
+Sam Curren: The total number of needed changes to the peer method spec for for did pier 3, with one exception, that I'll talk about in a second, which I think should actually probably go somewhere else.
+
+135
+00:21:19.190 --> 00:21:41.320
+Sam Curren: And so the. There's a handful of other related things to have happen here. this is a pr that Stephen has created. against the the legacy did transformation that Timo wrote up given their experience there. And so I've got a comments from you here, Steven, on that in particular. you also mentioned?
+
+136
+00:21:41.830 --> 00:21:56.330
+Sam Curren: the the adding it into the community coordinated update. And there's a comment somewhere where Timo mentioned that that would be great. I I don't remember where it was. but and anything any commentary, Steven, as you can add about the the the transformation. Doc. Here.
+
+137
+00:21:56.500 --> 00:22:17.120
+Stephen Curran: Yeah. I a I updated again this morning to to add a few few more things to try to simplify it. One of our developers who, I don't think is here. Jason Siretop did some work on it and used it, and it it provided good guidance.
+
+138
+00:22:17.230 --> 00:22:19.950
+Stephen Curran: so I think it's good.
+
+139
+00:22:20.680 --> 00:22:36.770
+Stephen Curran: it's it. I think I found the the weird cases, or the the edge cases, or or the reality of what we have. An unqualified did in the community. So I think it's more or less right now and then. I'd like to take it over.
+
+140
+00:22:36.980 --> 00:22:40.819
+Stephen Curran: The only thing I I really wish Timo would
+
+141
+00:22:41.000 --> 00:22:51.870
+Stephen Curran: merge this in to be able to take it from his, but if not, I think I'll take it from from the one I've got. If you want to look at the changes, it might be worth looking at, the changes
+
+142
+00:22:51.980 --> 00:22:55.779
+Stephen Curran: that you changes from this time, or the or all of them.
+
+143
+00:23:00.430 --> 00:23:04.450
+Stephen Curran: yeah, if you can just look at the files change and look at in rich format.
+
+144
+00:23:06.890 --> 00:23:12.500
+Stephen Curran: yeah, basically just updating the how you go through the
+
+145
+00:23:13.240 --> 00:23:15.830
+Stephen Curran: how you go through it for the did peer
+
+146
+00:23:16.520 --> 00:23:20.619
+Stephen Curran:  There was some extra
+
+147
+00:23:21.390 --> 00:23:45.339
+Stephen Curran: You need to go through public key and authentication entries. And then the way that the service entry was done was a little odd, so I aligned it better, and included, rather than referencing how to encode it. I put the actual encoding in that third step right there. which is just a copy out of the did peers back. So I did. Co put a link into it, but it's just a copy of what was there.
+
+148
+00:23:45.600 --> 00:23:56.169
+Stephen Curran: And then the last one that was is was missing is the resulting string as it did pier 2 did. And and we want it to be. I did pier 3
+
+149
+00:23:56.770 --> 00:24:06.180
+Stephen Curran: So we we actually take the did pier 2 that we get and convert it into a did pier 3. Because we're going to use, did pier 3 from then on.
+
+150
+00:24:07.430 --> 00:24:17.950
+Stephen Curran: So that's that's the changes I've made there. I think they're all reasonable. But Timo hasn't had a chance to go through it. It it it
+
+151
+00:24:18.940 --> 00:24:21.420
+Stephen Curran: or, or, you know.
+
+152
+00:24:21.430 --> 00:24:24.740
+Stephen Curran: provide detailed call comments. If it's not right.
+
+153
+00:24:26.860 --> 00:24:30.299
+Sam Curren: it would be nice to have a review of that.
+
+154
+00:24:30.860 --> 00:24:45.610
+Stephen Curran: one ideally, team merges this in, and then we can actually bundle it in. Were you intending to bundle it in alongside the the community coordinated update? Rfc, is that the right place to put that.
+
+155
+00:24:45.790 --> 00:24:54.520
+Sam Curren: Yeah, I I I don't mind having a separate file just for clarity. But then we could like kind of like it and make that happen there. So, so yes.
+
+156
+00:24:54.660 --> 00:24:56.760
+Stephen Curran: I
+
+157
+00:24:57.080 --> 00:25:00.500
+Stephen Curran: what's that? I'd rather have it in line and just put it in there.
+
+158
+00:25:00.720 --> 00:25:07.150
+Stephen Curran: Okay, yeah, I I I think that can work whatever. Whatever is the most clear is the goal. Right? Yeah. Okay, sounds good.
+
+159
+00:25:07.710 --> 00:25:08.590
+Sam Curren: Okay.
+
+160
+00:25:09.490 --> 00:25:16.620
+Sam Curren: So the the last thing there's a there's a handful of open questions. and come on, zoom, go away
+
+161
+00:25:17.280 --> 00:25:20.449
+Sam Curren: the one of the
+
+162
+00:25:21.330 --> 00:25:28.840
+Sam Curren: One of the open questions has to do with how we want to handle We mentioned in
+
+163
+00:25:29.440 --> 00:25:34.390
+Sam Curren: and did Pier 3 that you need to know that the other party actually is capable of supporting it?
+
+164
+00:25:34.920 --> 00:25:38.370
+Sam Curren: There we go.
+
+165
+00:25:39.080 --> 00:25:40.090
+Sam Curren: So
+
+166
+00:25:41.550 --> 00:25:46.550
+Sam Curren: I did some thinking on how we actually would want the
+
+167
+00:25:46.590 --> 00:26:08.690
+Sam Curren:  how we would actually want to to have discover features, know that you're capable of of discovering or of supporting. Did Pier 3. This is a little bit slightly separate from the case, Steven, where you're talking about with the update where we're going to hop directly to 3 for you. So we don't actually have to pause it. It It did peer to
+
+168
+00:26:09.030 --> 00:26:31.910
+Sam Curren: There's some efficiency reason to do that, and we know that it's already been transferred. But the general use of of Did Pier 3 requires, of course, that you first exchange the information. and then that you know the other parties actually capable of of supporting, did Pier 3. And so we've talked about using feature discovery to do that, but with no actual details, and that was brought up by by A comment from someone.
+
+169
+00:26:31.980 --> 00:26:38.930
+Sam Curren: it may have been Ari that that that up? It's like, Hey, this isn't actually documented anywhere like how, how we actually going to do that. And so
+
+170
+00:26:39.640 --> 00:26:44.850
+Sam Curren: I have some some notes here on on what that would might be like that. I wanted to bring up
+
+171
+00:26:44.990 --> 00:27:08.389
+Sam Curren: and and I think that this generally fits into the ability to so to to have a feature type of did method that would allow you to disclose that you support a a number of did methods in the in the process of doing so. but there's there's 2 2 issues that I'm trying to address here at the same time. One is is bringing sort of did method discovery into
+
+172
+00:27:08.390 --> 00:27:20.389
+Sam Curren: something that so that it could be a feature. The second one is how we individually figure out, if you support. no, I'll go. 3 of did peer And so there's a there's a couple of options that I've got here.
+
+173
+00:27:21.020 --> 00:27:24.819
+Sam Curren: and one of them is that if we write did method
+
+174
+00:27:24.910 --> 00:27:39.780
+Sam Curren: so that it should be a prefix match to did peer. It allows you to specify or simply match the the of a string. when you're when you're doing this. So any any did methods that happen to use initial characters to specify
+
+175
+00:27:39.780 --> 00:28:01.420
+Sam Curren: particular features of things did peer does that, but this would work for any others that as well. If they if they do, then you would simply be able to specify like did pier 3, rather than saying, did peer, indicating that you support all of those. This is a little bit also necessary with dip here, as we have the soon to be deprecated, if not already. did peer method one
+
+176
+00:28:02.090 --> 00:28:15.939
+Sam Curren: which which is being deprecated in in favor of upcoming, carry things But If you support portions of did peer rather than saying, did peer like this, you could simply enumerate this sort of starting things that you do support out of, did peer?
+
+177
+00:28:16.310 --> 00:28:24.579
+Sam Curren: That's one idea that I have. The other idea would be that you we simply require that. Didn't the the, the, the
+
+178
+00:28:24.880 --> 00:28:27.389
+Sam Curren: did method be indicated like this.
+
+179
+00:28:27.650 --> 00:28:52.389
+Sam Curren: and that any other details around the support could be included in some other attribute. of of the feature type disclosure. So here's the Id, which would be, of course, the did method. And there's another attribute that we could include that would indicate or help specify the the subset of features that you may support within the did method itself. and so I these are the the 2 ideas that I wanted to bring up.
+
+180
+00:28:52.520 --> 00:29:08.299
+Sam Curren: you know I have one more question related to this that I would love feedback on from the community. before I take what I've written here, and actually make it something that's like published in a regular way. And that is, where should I publish this? this, this, this could be an area's Rsc.
+
+181
+00:29:09.120 --> 00:29:30.940
+Sam Curren: and that would fit with the historical use of of of A as our season. How we do this it has been brought up. that the Arizona sees is perhaps not the place to do this when it, when it is more broadly applicable and given that this is a discover. Features thing. that that can be used, of course, directly with Didcom. in in and doesn't necessarily relate to Aries.
+
+182
+00:29:30.990 --> 00:29:51.509
+Sam Curren: Should this actually be something that ends up in dcom.org is a is a way to to to document that moving forward? and so I bring it up here because it is of interest to this community. But I'm curious where this should actually land. I should mention that a didcom.org right now has the ability to post protocols.
+
+183
+00:29:51.790 --> 00:30:05.319
+Sam Curren: and this is related to a protocol, but not a protocol. Precisely. And so we would need some mechanism on did come.org, in order to absorb these types of of things that have previously been as
+
+184
+00:30:05.320 --> 00:30:25.049
+Sam Curren: but but it might be better homed, you know, in the larger community that's more anchored directly to did come. So I've launched presented a little and lost a couple of questions I should probably share the link to make this a lot easier for folks to look at directly. and so that link is there, and I need to change
+
+185
+00:30:26.060 --> 00:30:30.480
+Sam Curren: the permissions. On this I will do so. And now the link should work.
+
+186
+00:30:31.300 --> 00:30:32.580
+Sam Curren: the
+
+187
+00:30:32.670 --> 00:30:56.210
+Sam Curren: So those are the open questions. I have number one. How do? How do we express? Sort of the sub feature of did peer, as it relates to? Did peer 3, and also kind of related to, you know, did peer one in the fact that you may or may not support that and then also. Where should this go? In the documentation of of the of the did method, feature, type of discover features.
+
+188
+00:31:00.470 --> 00:31:02.740
+Sam Curren: With that I really want to hear what people think.
+
+189
+00:31:03.300 --> 00:31:08.170
+Stephen Curran: So I have a a question of how valuable
+
+190
+00:31:09.540 --> 00:31:16.679
+Stephen Curran:  having it as part of discover feature, because you basically have to use it before you get
+
+191
+00:31:16.800 --> 00:31:19.289
+Stephen Curran: can make a discover feature call.
+
+192
+00:31:20.450 --> 00:31:32.210
+Sam Curren: You have to know that did method that the other party supports. But that's gonna happen because you always pass it did in any time you do something like an invitation or a QR code or anything.
+
+193
+00:31:32.310 --> 00:31:34.360
+Sam Curren: and not a band mess invitation.
+
+194
+00:31:34.510 --> 00:31:43.890
+Sam Curren: What's useful here, particularly in the context of of did convey to is that particularly if you are planning to rotate away from one did to another did
+
+195
+00:31:44.800 --> 00:31:50.119
+Sam Curren: in a relationship. It would be nice to know that the other relationship supports the new type of, did you plan to rotate to?
+
+196
+00:31:52.110 --> 00:31:53.050
+Stephen Curran: Okay?
+
+197
+00:31:54.630 --> 00:31:59.739
+Stephen Curran: But chances are for did pier 2, 3 is we want everyone to be able to support.
+
+198
+00:32:01.140 --> 00:32:03.510
+Stephen Curran: to initiate with
+
+199
+00:32:03.670 --> 00:32:10.730
+Stephen Curran: it pier 2, and use did pier 3 through the conversation, which is why we want to propose a community
+
+200
+00:32:11.140 --> 00:32:14.259
+Stephen Curran: update was, we want everyone to shift to this.
+
+201
+00:32:15.220 --> 00:32:23.190
+Sam Curren: Yes, tactically speaking, so in the from the community coordinated update, I think that still makes sense. And we can still write the update
+
+202
+00:32:23.240 --> 00:32:33.399
+Sam Curren: to educate that. But this is a little bit more generically, as it relates to just the independent, to the community into use of did Pier 3 independent to the community coordinated. Update?
+
+203
+00:32:34.440 --> 00:32:35.330
+Stephen Curran: Okay.
+
+204
+00:32:37.620 --> 00:32:44.789
+Stephen Curran:  it. It could also be used to say. here are the did in the
+
+205
+00:32:46.120 --> 00:33:03.330
+Sam Curren: networks that I support, for example, as well. That could also be. I could state that I use certain did indie networks.
+
+206
+00:33:03.420 --> 00:33:09.999
+Sam Curren: Yeah. So so that's a little bit of a vote to support this as we design this this method to discover features
+
+207
+00:33:10.890 --> 00:33:12.519
+Sam Curren: cool. I I I like that
+
+208
+00:33:31.750 --> 00:33:34.380
+Sam Curren: other comments, that question suggestions.
+
+209
+00:33:39.110 --> 00:33:40.849
+Warren Gallagher: Yeah, I I like the
+
+210
+00:33:41.090 --> 00:33:43.979
+Warren Gallagher: I like. The idea of matching
+
+211
+00:33:44.540 --> 00:33:52.529
+Warren Gallagher: and the the extension out to Indie is A is a good example to your other question. It it does feel like it
+
+212
+00:33:52.660 --> 00:33:54.830
+Warren Gallagher: belongs
+
+213
+00:33:55.960 --> 00:34:01.420
+Warren Gallagher: along with.com. and not as an area's. Rc.
+
+214
+00:34:01.780 --> 00:34:06.729
+Warren Gallagher: exactly how to do that I I don't know, but it kind of feels like that's where it belongs.
+
+215
+00:34:09.550 --> 00:34:10.239
+Sam Curren: Okay.
+
+216
+00:34:10.460 --> 00:34:13.820
+Warren Gallagher: So I don't know if there's like a compend, a compendium of
+
+217
+00:34:14.230 --> 00:34:24.459
+Warren Gallagher:  of things that go along with feature, discovery, a as a as a mechanism in Didcom. And if so, then it's
+
+218
+00:34:24.730 --> 00:34:27.380
+Warren Gallagher: one of those. But I don't know how that's done today.
+
+219
+00:34:27.860 --> 00:34:30.040
+Sam Curren: So
+
+220
+00:34:30.110 --> 00:34:32.810
+Sam Curren: The feature discovers actually to find in the spec.
+
+221
+00:34:34.000 --> 00:34:40.970
+Sam Curren: and so discover features is the protocol name. Here's an example that's included here.
+
+222
+00:34:41.060 --> 00:34:49.990
+Sam Curren: that to run off a link to. But it actually comes directly from the did company to spec. and it basically indicates
+
+223
+00:34:50.179 --> 00:34:51.310
+Sam Curren: that
+
+224
+00:34:51.440 --> 00:35:07.960
+Sam Curren:  here it introduces the protocol and talks about why, it's useful. and then here's the the different States for this. so here's the relevant chunk here.
+
+225
+00:35:08.150 --> 00:35:12.650
+Sam Curren: So here's the the feature types that you must support a protocol goal code and header.
+
+226
+00:35:12.930 --> 00:35:29.050
+Sam Curren: And then an additional additional values of feature type may be used and unrecognized values must be ignored. So this allows for extensibility of discover features for different feature types, and then but it doesn't specify exactly where they should be
+
+227
+00:35:29.160 --> 00:35:42.280
+Sam Curren: defined. We had some lively debate about this, and it was basically the this. This feature here allows for the extensibility of it from from a from this spec perspective.
+
+228
+00:35:42.390 --> 00:35:52.340
+Sam Curren: And then, of course, interoperability profiles. Can can you know, mention that the feature types in their in their usages as as must be defined so this could
+
+229
+00:35:52.410 --> 00:36:04.719
+Sam Curren: live in, you know, proximate to didcom.org, because it is a thing useful to the product community. It'd be great, for example, if it? Was it like different feature types. We're linked here.
+
+230
+00:36:05.070 --> 00:36:09.529
+Sam Curren: but they ought to be defined some place and
+
+231
+00:36:10.600 --> 00:36:36.549
+Sam Curren: you. You can often define a feature in a in a separate protocol or a separate thing where it actually relates, and you might want to discover those relevant features. But we don't actually have a good place to put one for did methods as it exists. And so They has been suggested. Timo brought this up, that that many of the areas Arefc's that relate to this sort of thing that that are more broadly did come related shouldn't really live within Aries.
+
+232
+00:36:36.550 --> 00:36:56.020
+Sam Curren: And so we don't yet have a mechanism on Didcom Org to document these sorts of things when they're not protocols. But we could make one. We could figure that out and have a place for those those features to go, so that these types of things that are not protocols exactly, but relate to the use of protocols. have a home.
+
+233
+00:36:58.160 --> 00:37:06.680
+Sam Curren: And so so we're in your your feedback that it feels proximate to did come, and we ought to figure that out as is received.
+
+234
+00:37:09.770 --> 00:37:14.330
+Sam Curren: If I, if I represent anything you said wrong, please correct me.
+
+235
+00:37:15.200 --> 00:37:16.859
+Warren Gallagher: No, that's good. Thanks.
+
+236
+00:37:19.970 --> 00:37:23.490
+Sam Curren: Other comments. suggestions.
+
+237
+00:37:24.560 --> 00:37:25.970
+Kim Ebert: I.
+
+238
+00:37:26.060 --> 00:37:31.189
+Kim Ebert: The the fact that it still relates to protocol on how to actually use the protocol.
+
+239
+00:37:31.240 --> 00:37:44.549
+Kim Ebert: It seems to me that It would. Still, it should still live in a similar structure to the way we do the Ares. Perhaps it just belongs under a different sub folder
+
+240
+00:37:47.050 --> 00:37:51.690
+Sam Curren: within, like to come itself like to on did come Org.
+
+241
+00:37:52.750 --> 00:37:53.630
+Kim Ebert: Well.
+
+242
+00:37:54.000 --> 00:37:55.870
+Kim Ebert: it's over. The
+
+243
+00:37:56.510 --> 00:38:04.789
+Kim Ebert: the Protocols are, are they not all specified on the Perry site, or they split between Didcom and
+
+244
+00:38:05.120 --> 00:38:07.819
+Kim Ebert: in the areas Rfcs.
+
+245
+00:38:07.920 --> 00:38:10.619
+Sam Curren: They are migrating more and more to
+
+246
+00:38:11.230 --> 00:38:32.730
+Sam Curren: Historically, they've been on as a as Rfc's. more and more they are going to did come.org, as it relates to sort of did come generally and not specifically ares. This is an example of that where, like disclosing support for did come, or or did methods using Didcom discover features is is more didcom related than pure Aries.
+
+247
+00:38:33.900 --> 00:38:39.439
+Kim Ebert: what would it not make sense to launch a separate dipcom?
+
+248
+00:38:39.640 --> 00:38:41.840
+Kim Ebert: Our Fc. Location, then?
+
+249
+00:38:42.600 --> 00:38:51.760
+Sam Curren: Yes. and I think that's what Warren was getting to is that something like that should exist for something like this to go there
+
+250
+00:38:53.280 --> 00:38:57.330
+Sam Curren: didn't have to be called Rfc's exactly, although it's a decent pattern.
+
+251
+00:39:04.500 --> 00:39:07.590
+Stephen Curran: I mean, that's an effort to overdo the
+
+252
+00:39:08.320 --> 00:39:16.210
+Stephen Curran: Having Aries, Rfc. As published only as Github read me is is terrible.
+
+253
+00:39:16.230 --> 00:39:17.260
+Stephen Curran: So
+
+254
+00:39:17.390 --> 00:39:31.940
+Stephen Curran: we need something to hold back. Steven. Tell me how you really feel. I've been wanting to, you know. I wish I could find the time. I know what we need to do. I did. We did a similar thing on Acupy. To publish all this read needs to a
+
+255
+00:39:31.950 --> 00:39:45.789
+Stephen Curran: to a reasonable place, and it would be pretty easy to do that. I I just haven't had the time. I'm sure I'd love to. I'd love to get it done that we could publish these out to a website that would actually be useful to people.
+
+256
+00:39:46.940 --> 00:39:51.219
+Warren Gallagher: So I wonder if we don't want something like
+
+257
+00:39:51.520 --> 00:39:58.310
+Warren Gallagher:  on Didcom?  you know, optional features.
+
+258
+00:39:58.630 --> 00:40:08.209
+Warren Gallagher: And then there would be a way of describing linking those where appropriate to feature discovery and also linking to protocols.
+
+259
+00:40:08.380 --> 00:40:16.970
+Warren Gallagher: be they hosted on Didcom, or be they hosted somewhere else. And it's a way of kind of tying stuff together like a registry, if you will, of
+
+260
+00:40:17.120 --> 00:40:20.570
+Warren Gallagher: a of stuff that we know about that is
+
+261
+00:40:21.370 --> 00:40:23.620
+Warren Gallagher: I'm not sure if that's the right name, but
+
+262
+00:40:25.290 --> 00:40:31.409
+Warren Gallagher:  because it and it's all optional. So it would be like optional features, and then
+
+263
+00:40:32.070 --> 00:40:34.769
+Warren Gallagher: they would link to their respective things.
+
+264
+00:40:36.760 --> 00:40:38.129
+Sam Curren: Fully agree. Worrying.
+
+265
+00:40:43.810 --> 00:40:49.639
+Sam Curren: I'm going to bring. I'll keep writing this, of course, and then I will bring this up to the
+
+266
+00:40:49.670 --> 00:41:11.139
+Sam Curren: to the do come users group where the who's over that sort of thing, and and we'll see where we get to. I and and figure out how to make that happen. one of the things that I do want to be involved in is that I think the book needs some better rendering. And either using mk, docs or
+
+267
+00:41:12.130 --> 00:41:20.530
+Sam Curren: docusaurus, I think would be a great way to take the book content and render it into something far more usable. Referring Steven to the work that you've done
+
+268
+00:41:20.540 --> 00:41:41.190
+Sam Curren: with the with the occupied docs, and also the A. Of J. Work that has been done in a similar way to make it more nicely rendered and browsable and and usable. and so there's some. There's some options there as well. we may end up with. just for logistical reasons. because of the way that that sites built, we may end up with
+
+269
+00:41:41.400 --> 00:41:46.270
+Sam Curren: that on the sub domain like a book.com.org but that that's certainly an option there.
+
+270
+00:41:47.720 --> 00:42:06.970
+Stephen Curran: Just just for advice. Aj is in Docusaurus, and I don't know how it went, but I I tried to. We tried to do docusaurus for occupy, and it was really complicated. So we just gave up and make docs was so much easier, so just a
+
+271
+00:42:07.660 --> 00:42:12.329
+Sam Curren: that's worth knowing. I'm going for easier rather than hope. So. Maybe maybe
+
+272
+00:42:12.400 --> 00:42:15.119
+Sam Curren: make tox is how you pronounce mk, docs, is that
+
+273
+00:42:15.140 --> 00:42:37.030
+Stephen Curran: yeah, I think, or whatever. But the material for mk, docs which hyper Ledger has an extra license, for as extra features for not sure how needed they are, but was dead simple to use, and then it was so it was. I spent way more time worrying about content than I did about trying to figure out how to get
+
+274
+00:42:37.150 --> 00:42:40.430
+Stephen Curran: get things connected in a way that was useful to people.
+
+275
+00:42:41.780 --> 00:42:42.740
+Sam Curren: Feedback.
+
+276
+00:42:43.930 --> 00:42:45.370
+Sam Curren: That's good feedback.
+
+277
+00:42:47.560 --> 00:42:52.359
+Sam Curren: It' be hosted outside of Hyper Ledger. It will be over a a. And did come, which is managed by
+
+278
+00:42:52.800 --> 00:42:55.800
+Sam Curren: the diff, but still worth knowing
+
+279
+00:42:56.480 --> 00:42:58.349
+Kim Ebert: for those extra features, anyway.
+
+280
+00:42:58.550 --> 00:43:10.439
+Kim Ebert: So, Sam, you you you're talking about here about the the published form of everything. I'm still going to have a place where requests for changes can be applied.
+
+281
+00:43:11.500 --> 00:43:18.040
+Sam Curren: yes, that still works via a just regular github stuff, and then it's just rendered into something nicer.
+
+282
+00:43:18.450 --> 00:43:23.810
+Sam Curren: So there's still a repo behind it, with with the same review processes and everything else that would occur there.
+
+283
+00:43:25.810 --> 00:43:29.680
+Sam Curren: The difference? Release the rendering that makes sense.
+
+284
+00:43:30.710 --> 00:43:31.390
+Kim Ebert: Yep.
+
+285
+00:43:32.660 --> 00:43:33.350
+Sam Curren: cool.
+
+286
+00:43:34.850 --> 00:43:38.739
+Sam Curren: It's hard to be github for process management of this sort of stuff.
+
+287
+00:43:39.570 --> 00:43:51.579
+Sam Curren:  okay, Steven, there are some open questions here. are those mostly resolved in the updates that you have submitted, or are they? Do we need to handle these independently.
+
+288
+00:43:52.240 --> 00:43:56.159
+Stephen Curran: I I think we should just
+
+289
+00:43:56.660 --> 00:44:04.880
+Stephen Curran: I I think the answers. After I've played with these a bunch. Probably we ignore the first one, and the second one is Dcom messaging.
+
+290
+00:44:05.200 --> 00:44:25.900
+Stephen Curran:  One of the things I added to teamo's document is he only mentioned in the agent, but I believe all 3 are used in different places, so I made sure that if you come across an unqualified did that has any of these 3 types, they all become the last, which is Dcom. Messaging is what they it should be.
+
+291
+00:44:26.100 --> 00:44:29.689
+Stephen Curran: So that's complicated, because we need to use the type
+
+292
+00:44:29.710 --> 00:44:39.580
+Sam Curren: in order to discover whether you're capable of receiving did come v. 2 messages or not and did come. Messaging is designed to indicate that you support. Did come v. 2 message envelopes.
+
+293
+00:44:40.220 --> 00:44:45.190
+Stephen Curran: Okay, then, this is an issue. What should it be if we're just using Didcom? One.
+
+294
+00:44:45.620 --> 00:44:53.009
+Sam Curren: I think somewhere is defined what it should be for did come v. One and a proper did dock, and we should use that one. I think
+
+295
+00:44:53.990 --> 00:44:55.709
+Sam Curren: I don't actually know what it is.
+
+296
+00:44:55.970 --> 00:45:03.640
+Stephen Curran: Yeah, there is a defined one, and we need to not We need to not add confusion by using the same one that did company 2 uses.
+
+297
+00:45:06.380 --> 00:45:11.810
+Daniel Bluhm: I thought. That's what the accept field was
+
+298
+00:45:15.840 --> 00:45:21.360
+Stephen Curran: then I don't know. I'll do some research on this, and we can figure out what this ought to be.
+
+299
+00:45:21.840 --> 00:45:25.289
+Stephen Curran: so that one, and then the other thing is
+
+300
+00:45:26.310 --> 00:45:33.740
+Stephen Curran: the first one. I just got sort of hung up on. I guess we should just ignore it, and you just
+
+301
+00:45:35.280 --> 00:45:38.830
+Stephen Curran: get the keys you get, and you put them into the did dock.
+
+302
+00:45:38.960 --> 00:45:45.399
+Stephen Curran:  4 years now we have derived the
+
+303
+00:45:45.890 --> 00:45:49.189
+Stephen Curran: key agreement key for the verification key
+
+304
+00:45:50.700 --> 00:45:51.850
+Stephen Curran: and
+
+305
+00:45:52.750 --> 00:46:02.779
+Stephen Curran:  and I guess we keep doing that because we already have the did that when you, when it's in a qualified, did we already have it. And so
+
+306
+00:46:03.080 --> 00:46:06.180
+Stephen Curran:  right.
+
+307
+00:46:07.380 --> 00:46:09.220
+Stephen Curran: And and because the
+
+308
+00:46:10.520 --> 00:46:17.199
+Stephen Curran: the key only exists transitionally until you you know, you generated that, did pier 2
+
+309
+00:46:17.350 --> 00:46:30.330
+Stephen Curran:  they did pier 2 string, and then immediately generate the did. Pier 3 for it, that's all you ever use is the did pier 3, one
+
+310
+00:46:30.410 --> 00:46:36.150
+Stephen Curran: It's just a question of during that transition during that execution of that algorithm.
+
+311
+00:46:36.200 --> 00:46:44.769
+Stephen Curran: do we explicitly generate the key agreement key? And it just adds more work. So my thought was, we don't.
+
+312
+00:46:44.900 --> 00:46:51.040
+Stephen Curran: But one of the things we should definitely do. Going forward is is never assume that they
+
+313
+00:46:51.050 --> 00:47:03.889
+Stephen Curran: verification key should be used for the key agreement key. I it it. It's a separate discussion. But but we should be. In my opinion we should start to be explicit about the key agreement key.
+
+314
+00:47:06.520 --> 00:47:09.689
+Sam Curren: Yeah, good conversation. But I agree that we should leave it out of this one.
+
+315
+00:47:09.980 --> 00:47:11.910
+Stephen Curran: we should.
+
+316
+00:47:12.610 --> 00:47:13.330
+Sam Curren: Yeah.
+
+317
+00:47:13.850 --> 00:47:17.759
+Sam Curren: very cool. So we only have 5 min left.
+
+318
+00:47:17.770 --> 00:47:34.399
+Sam Curren: we talked a little bit about Ndvd and Nascar, and and I'm I'm gonna keep this in the notes so that I can. so we can explore it. Why did I hit that? We can explore it as as as future things. One of the topics that I I wanted to at least briefly. raise attention to.
+
+319
+00:47:34.550 --> 00:47:41.469
+Sam Curren: It was the the Afgh has announced their goals to to
+
+320
+00:47:41.630 --> 00:47:45.209
+Sam Curren: coordinates efforts to bring
+
+321
+00:47:45.410 --> 00:47:51.620
+Sam Curren: Aj into compliance with the European Union. digital identity.
+
+322
+00:47:52.210 --> 00:47:56.080
+Sam Curren: stuff and the the architecture reference framework
+
+323
+00:47:56.100 --> 00:48:01.040
+Sam Curren: and it. It was raised without response, so far really
+
+324
+00:48:01.640 --> 00:48:23.209
+Sam Curren: in in our channel. Whether this was something that we were going to pursue as a community directly. that we were going to coordinate around the the types of requirements necessary to become compliant with the with the eitis, 2.0 and the architecture reference framework and the in the protocols and the credential types actually mentioned there.
+
+325
+00:48:23.210 --> 00:48:35.979
+Sam Curren: And so I wanted to briefly bring it up to see if there's any sort of initial responses to that and then to see if we should. if we should organize community time towards towards that goal or not. depending on what people thought
+
+326
+00:48:38.060 --> 00:48:39.710
+Sam Curren: any any comments.
+
+327
+00:48:41.770 --> 00:48:44.869
+Stephen Curran: I I think we should organize community time because I think it's
+
+328
+00:48:46.110 --> 00:49:04.920
+Stephen Curran: it. It. It would be useful at minimum to understand what what the different groups within Aries are doing, and try to align as much as possible. Rfcs have been a great way to interrupt. suite has been a great way. If we can keep doing that, I think it's a it helps everyone
+
+329
+00:49:08.140 --> 00:49:10.199
+Sam Curren: Steve. your hands up.
+
+330
+00:49:10.570 --> 00:49:14.640
+Steve McCown: Yeah, no, I I agree with Steven. I think.
+
+331
+00:49:15.000 --> 00:49:24.230
+Steve McCown: we. We should definitely look at all the requirements and see how we can bring Whatever it is, we need to bring in line with them.
+
+332
+00:49:24.330 --> 00:49:35.819
+Steve McCown: because, that will make our products and specifications that we're building more, more marketable, more applicable. And and the European market especially
+
+333
+00:49:38.980 --> 00:49:39.750
+Sam Curren: morning.
+
+334
+00:49:42.880 --> 00:49:53.089
+Warren Gallagher: Yeah, I I agree with that. I just wanted to add a plus a plus one to that. I was pleased to see Chemo's announcement from animal on that. And
+
+335
+00:49:53.120 --> 00:49:58.849
+Warren Gallagher: If there's a larger community effort that then I think that would be welcome as well.
+
+336
+00:50:11.720 --> 00:50:29.319
+Patrik Stas: Just a question is there any place I can take a look for some sort of brief conclusion. What? What? What are these regulations and standards? The Udi and rf, a ars kind of refers to you know what we? What are the concerns
+
+337
+00:50:29.640 --> 00:50:31.830
+Patrik Stas: all these documents?
+
+338
+00:50:33.470 --> 00:51:02.759
+Sam Curren:  there's definitely some links. I don't have them off the top of my head, and we we just have like a minute or 2 left. But but we will gather those if you look up just for anyone looking immediately. t-MOS! If you look up to most posts. And Fj, he he talks a little bit about what's required. the without getting too deep. I can indicate that it involves the open and e for Vci and V and Vp protocols.
+
+339
+00:51:02.780 --> 00:51:05.149
+Sam Curren: it involves
+
+340
+00:51:05.720 --> 00:51:07.200
+Sam Curren: sd jots
+
+341
+00:51:07.350 --> 00:51:25.510
+Sam Curren: as a credential type. And and there's also involvement or or requirements around key sort and hardware security modules. in order to be compliant with the goals there. Those are 3 main topics. There's probably a couple of other ones. There's one another one is
+
+342
+00:51:25.590 --> 00:51:33.170
+Sam Curren: is the you trust list that existed in the in the in the version, one of this
+
+343
+00:51:33.710 --> 00:51:56.169
+Sam Curren: and and and and there it. It's basically an x 509 based system. that has a a of a of course, a way of resolving those public keys. and also authorized roles within the ecosystem kind of plan there. So it's a it's a little bit of a of a lightweight governance kind of a thing. And so there's there's stuff like that as well.
+
+344
+00:51:56.510 --> 00:52:05.839
+Warren Gallagher: It also includes it also includes M. Doc. And the local transfer of M. Doc as well, I believe.
+
+345
+00:52:06.140 --> 00:52:14.260
+Sam Curren: Yeah. The proximity protocol is what they call their Bluetooth presentation. yes, sorry I had. I had not brought up M. Doc at all. I think you weren't
+
+346
+00:52:15.650 --> 00:52:22.219
+Sam Curren: and and no her, hey? Give you your note in chat. There's the dhs. Is also working on some stuff
+
+347
+00:52:22.310 --> 00:52:36.909
+Sam Curren: as well. And so I think that that could also be a useful thing to sort of bring up and discuss as far as a community effort to see those that are interested in in sort of coordinating or or broad community understanding of those of those efforts.
+
+348
+00:52:37.380 --> 00:52:53.260
+Sam Curren: Okay, so it's clear that there's some interest in here. I will try and coordinate the right stuff here, and it's actually been on our future business list at some point for or or future topics for to talk about. yeah, just to put it
+
+349
+00:52:53.270 --> 00:53:18.499
+Sam Curren: in the airf. And so I I will try to coordinate some some efforts there. If you would like to more specifically be involved or organize presentations, please holler and reach out That will make it a little easier for me than than trying to hunt folks that individually and and and it's clear that that's useful thing. still is a high party. We're not gonna lose the transition away from the unqualified dids. As that's a pretty darn important thing for our community moving forward.
+
+350
+00:53:18.540 --> 00:53:21.349
+Sam Curren: for all these other things we're talking about.
+
+351
+00:53:21.700 --> 00:53:49.540
+Sam Curren: but we can. We can definitely organize this on others discussion that we should I have as a as a community is, how does the Udi and our common goals affect the possibility of aip 3 or aip next and and how we should coordinate that both with what the scope should be, and what the timing should be and in in the utility of of doing such and and how we can make sure that we're not just massively replicating effort and and goals there.
+
+352
+00:53:49.540 --> 00:54:00.280
+Sam Curren: And with that we're over time. I appreciate everyone coming. This has been a fantastic meeting, and we look forward to seeing you elsewhere on the Internet, where we all needed to regular time, and we'll see you again next week.
+

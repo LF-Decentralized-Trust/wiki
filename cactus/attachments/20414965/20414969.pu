@@ -1,0 +1,47 @@
+@startuml
+title verfier-validator communication
+hide footbox
+autonumber
+
+participant BLP as blp
+participant VerifierFactory as factory
+participant SawtoothVerifier as verifier
+participant SawtoothValidator as validator
+participant SawtoothNode as node
+
+blp -> factory: create
+activate blp
+activate factory
+factory -> verifier: new
+activate verifier
+verifier -> verifier: instantiate
+verifier --> factory: SawtothVerifier
+factory --> blp: SawtoothVerifer
+deactivate factory
+
+blp -> verifier: connect()
+verifier ->> validator: connect
+activate validator
+validator ->> verifier: connect-OK
+verifier --> blp: connect-OK
+blp -> verifier: startMonitor()
+verifier ->> validator: startMonitor()
+validator ->> verifier: startMonitor-OK
+verifier --> blp: startMonitor-OK
+
+loop for each polling duration
+    validator -> node: polling REST-API
+    activate node
+    node --> validator: last seen block data
+    deactivate node
+    opt if new block is observed
+        validator -> validator: sign on block data\n(endorse) 
+        validator ->> verifier: LedgerEvent\n(signed new block data)
+        verifier -> verifier: check signature
+        verifier -> blp: onEvent
+    end
+end
+deactivate node
+
+
+@endumlpa

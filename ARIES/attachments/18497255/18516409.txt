@@ -1,0 +1,27 @@
+08:05:13	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-06-29+Aries+Working+Group+Call
+08:09:05	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : Do we want to tell him about Kim's work on proxy mediators? We ship this standard now.
+08:09:23	 From  Sam Curren (TelegramSam)   to   Mike Ebert (Indicio)(Direct Message) : it's different...
+08:09:32	 From  Sam Curren (TelegramSam)   to   Mike Ebert (Indicio)(Direct Message) : ledger access isn't included in the proxy mediator I think.
+08:09:37	 From  Sam Curren (TelegramSam)   to   Mike Ebert (Indicio)(Direct Message) : or am I wrong?
+08:09:38	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : Ahhh, ledger access.
+08:10:27	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : Not 100% sure, probably different.
+08:23:40	 From  Timo Glastra : Wasn't at the start of the meeting so don't know whether this has already be discussed, but I think there's a lot to learn from other ledgers here. Looking at e.g. Ethereum you need to provide an RPC url that you connect through, from there on it's just simple http calls
+08:24:23	 From  Stephen Curran : Yes -- that's definitely an option, Timo -- discussed earlier and possible!
+08:24:33	 From  Timo Glastra : 👍
+08:25:49	 From  Timo Glastra : If possible, I think we should also take into account browser compatability. As ZMQ can't be used in the browser it has been a limitation for possibly using indy from the browser
+08:28:52	 From  Kim Ebert : I would be concerned about scaling on the ledger side with didcomm
+08:39:20	 From  Mike Ebert (Indicio) : I would love to get a copy of this, I have some work with OCA that I need to do as soon as I can get to it.
+08:41:38	 From  Sam Curren (TelegramSam)   to   Mike Ebert (Indicio)(Direct Message) : the spreadsheet to file generator option may be a hack we can use with MRG.
+08:42:56	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : Mmm. Might work. CSV --> JSON...
+08:44:50	 From  Sam Curren (TelegramSam)   to   Mike Ebert (Indicio)(Direct Message) : similar signing issues.
+08:44:58	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : Yup.
+08:45:26	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : I need to dig into this for both the OCA and the related MRG concepts. Let's make sure we can get a copy...
+08:46:16	 From  Sam Curren (TelegramSam) : Bundle can also be referenced in Machine Readable Governance.
+08:46:36	 From  Sam Curren (TelegramSam) : (in addition to other methods)
+08:48:44	 From  Sam Curren (TelegramSam)   to   Mike Ebert (Indicio)(Direct Message) : Bundle Creation + MRG makes this actually fairly easy for us to leverage.
+08:49:17	 From  Mike Ebert (Indicio)   to   Sam Curren (TelegramSam)(Direct Message) : Agreed
+08:50:09	 From  Andrew Whitehead : It feels like ARS should be the ledger itself, but we're avoiding making changes there. Hopefully it handles tails files?
+08:50:47	 From  Sam Curren (TelegramSam) : I think the ledger would be a great place, but likely can't be the only place.
+08:58:37	 From  Mike Ebert (Indicio) : This is pretty exciting. I'm feeling like I'm finally ready to look at OCA. Thank you, Stephen.
+08:59:37	 From  Mike Ebert (Indicio) : No, a general way is waaaaay better
+08:59:47	 From  Mike Ebert (Indicio) : I have to run, thanks again!

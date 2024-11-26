@@ -1,0 +1,88 @@
+1. [Hyperledger Aries](index.html)
+2. [Hyperledger Aries](Hyperledger-Aries_18481154.html)
+3. [Aries Frameworks and User Groups](Aries-Frameworks-and-User-Groups_18481290.html)
+4. [aries-framework-go](aries-framework-go_18481606.html)
+5. [Framework Go Meetings](Framework-Go-Meetings_18482076.html)
+
+# Hyperledger Aries : 2020-01-07 Framework Go Weekly Planning
+
+Created by Firas Qutishat, last modified on Jan 07, 2020
+
+## Summary:
+
+Planned topics
+
+- Work updates (5 mins)
+- Grooming (20 mins)
+- Design discussion (20 mins)
+- Open Discussion (10 mins)
+
+## Date
+
+17 Dec 2019 (7:30AM Los Angeles, 10:30AM Toronto/New York, 3:30PM London, 17:30H Moscow)
+
+## Remember the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct)
+
+## Anti-Trust Policy:
+
+Linux Foundation meetings involve participation by industry competitors, and it is the intention of the Linux Foundation to conduct all of its activities in accordance with applicable antitrust and competition laws. It is therefore extremely important that attendees adhere to meeting agendas, and be aware of, and not participate in any activities that are prohibited under applicable US state, federal or foreign antitrust and competition laws.
+
+Examples of types of actions that are prohibited at Linux Foundation meetings and in connection with Linux Foundation activities are described in the Linux Foundation Antitrust Policy available at [http://www.linuxfoundation.org/antitrust-policy](http://www.linuxfoundation.org/antitrust-policy). If you have questions about these matters, please contact your company counsel, or if you are a member of the Linux Foundation, feel free to contact Andrew Updegrove of the firm of Gesmer Updegrove LLP, which provides legal counsel to the Linux Foundation.
+
+## Attendees
+
+- [Firas Qutishat](https://lf-hyperledger.atlassian.net/wiki/people/712020:81a7fd70-5c04-4c64-80bd-5701a34d4bb8?ref=confluence) (Securekey)
+- [Sandra Vrtikapa](https://lf-hyperledger.atlassian.net/wiki/people/712020:ce049f56-7daf-45db-9d97-8c71991da019?ref=confluence) (SecureKey)
+- [Filip Burlacu](https://lf-hyperledger.atlassian.net/wiki/people/712020:954f178b-c612-4ebd-9960-433199bfe689?ref=confluence) (SecureKey)
+- [Sudesh Shetty](https://lf-hyperledger.atlassian.net/wiki/people/62334edb867a4e0070970909?ref=confluence) (SecureKey)
+- [Talwinder Kaur](https://lf-hyperledger.atlassian.net/wiki/people/557058:efba1922-111a-45bd-ada7-5e21ae89a9b5?ref=confluence) (SecureKey)
+- [Troy Ronda](https://lf-hyperledger.atlassian.net/wiki/people/557058:c854f35a-2b58-4be3-9003-ca2a67495580?ref=confluence) (SecureKey)
+- [Baha A Shaaban](https://lf-hyperledger.atlassian.net/wiki/people/712020:c6fcc16a-f888-4bb1-bef3-41f4da326364?ref=confluence) (SecureKey)
+- [derektrider](https://lf-hyperledger.atlassian.net/wiki/people/60b7f69348b89500697aa128?ref=confluence) (SecureKey)
+
+## Welcome / Introductions
+
+## Announcements
+
+- None
+
+## Release status
+
+- None
+
+## Work updates (from the previous week)
+
+- Refactored (read-only, read-write) and moved connection store out of DID Exchange service - [Sudesh Shetty](https://lf-hyperledger.atlassian.net/wiki/people/62334edb867a4e0070970909?ref=confluence)
+- Generic message service  (IN PROGRESS) - [Sudesh Shetty](https://lf-hyperledger.atlassian.net/wiki/people/62334edb867a4e0070970909?ref=confluence)
+- Create new pluggable Crypto interface for the Aries Framework [#983](https://github.com/hyperledger/aries-framework-go/issues/983)  - [Baha A Shaaban](https://lf-hyperledger.atlassian.net/wiki/people/712020:c6fcc16a-f888-4bb1-bef3-41f4da326364?ref=confluence)
+
+## Grooming updates (from the previous week)
+
+- Design for pluggable services completed: [Crypto and KMS as pluggable Service Provider Interfaces](Crypto-and-KMS-as-pluggable-Service-Provider-Interfaces_18483932.html) - [Baha A Shaaban](https://lf-hyperledger.atlassian.net/wiki/people/712020:c6fcc16a-f888-4bb1-bef3-41f4da326364?ref=confluence)
+
+## Design discussion
+
+## Milestone progress
+
+- TBD
+
+## Other business
+
+- TBD
+
+## Upcoming work
+
+- Generic message service in aries-framework-go - [Sudesh Shetty](https://lf-hyperledger.atlassian.net/wiki/people/62334edb867a4e0070970909?ref=confluence)
+- Route Client [Firas Qutishat](https://lf-hyperledger.atlassian.net/wiki/people/712020:81a7fd70-5c04-4c64-80bd-5701a34d4bb8?ref=confluence)
+- Update http over didcom RFC[Filip Burlacu](https://lf-hyperledger.atlassian.net/wiki/people/712020:954f178b-c612-4ebd-9960-433199bfe689?ref=confluence)
+- Continue on working with adding pluggable Crypto/KMS service and update Authcrypt/Anoncrypt to use these plugins [#977](https://github.com/hyperledger/aries-framework-go/issues/977)- [Baha A Shaaban](https://lf-hyperledger.atlassian.net/wiki/people/712020:c6fcc16a-f888-4bb1-bef3-41f4da326364?ref=confluence)
+
+## Future topics
+
+- TBD
+
+## Action items
+
+Document generated by Confluence on Nov 26, 2024 11:27
+
+[Atlassian](http://www.atlassian.com/)

@@ -1,0 +1,22 @@
+00:07:57	Colton Wolkins:	!lurk
+00:13:03	Timo Glastra:	I would like to still leave a small comment on the OWF discussion if there's still time
+00:13:08	Timo Glastra:	oh haha 🙂
+00:13:22	Colton Wolkins:	Nice timing xD
+00:29:01	Clecio Varjao:	Isn’t outgoing mobile wallet/agent to mobile wallet/agent via mediator?
+00:29:12	Sam Curren (TelegramSam):	yes
+00:36:44	Steve McCown:	Could I get a link to the slides?
+00:44:06	Stephen Curran:	https://docs.google.com/presentation/d/1FQDH4WxMZf4yZG46L9CgPP_LvA_pcWdf5rVlsrk46EY/edit?usp=sharing
+00:44:12	Stephen Curran:	Slides ^^^
+00:44:51	Steve McCown:	Reacted to "https://docs.google...." with 👍
+00:59:12	Charles Lanahan:	beginner question: why the focus on websockets?  Shouldn't the mediators be transport agnostic?   For an extreme example, why couldn't a mediator use SMTP?
+01:01:31	Kim Ebert:	Proxy Mediator for mediating for Aca-Py ( https://github.com/Indicio-tech/proxy-mediator )
+01:01:38	Kim Ebert:	Stephen, that may help your developer use cases
+01:01:45	Alberto Leon:	When can we see this openly?
+01:01:50	Timo Glastra:	It would work just as well with AFJ as the mediator?
+01:02:43	Kim Ebert:	Stephen, you may need a tails server hosted in the cloud to support revocation.
+01:02:47	Colton Wolkins:	Replying to "beginner question: w..."
+
+Websockets are useful when the IP address of the client changes constantly (like a user on a cellphone) and are not blocked by ISPs (SMTP is typically blocked by consumer ISPs)
+01:03:23	Colton Wolkins:	Replying to "When can we see this..."
+
+Aiming for later today. We have a few final cleanup things to take care of

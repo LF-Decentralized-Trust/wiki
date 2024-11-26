@@ -1,0 +1,4310 @@
+WEBVTT
+
+1
+00:00:02.160 --> 00:00:07.400
+Stephen Curran: Welcome to the August Fifteenth Python Maintainer Meeting.
+
+2
+00:00:07.750 --> 00:00:12.419
+Stephen Curran: Pr. 2, finalizing 0 10
+
+3
+00:00:12.580 --> 00:00:15.450
+and on credits. And then did peer work.
+
+4
+00:00:15.660 --> 00:00:22.879
+Stephen Curran:  hoping that's who's here?
+
+5
+00:00:26.640 --> 00:00:37.239
+Stephen Curran: Jason, can you see? If you could, Pingro, to see if he's gonna make it would be helpful to have him here, cause we're gonna flow right into holidays this week.
+
+6
+00:00:37.480 --> 00:00:41.509
+Stephen Curran: No, he's back today. Okay, I'll see if I can dig him up somewhere.
+
+7
+00:00:41.640 --> 00:00:54.249
+Stephen Curran: Okay, you could just send him a note. Reminder. This is a Linux Foundation hyper ledger meeting antitrust policies. In effect, code of conduct is in effect welcome. All
+
+8
+00:00:55.550 --> 00:00:57.310
+Stephen Curran: okay,
+
+9
+00:00:58.880 --> 00:01:02.049
+Stephen Curran: we'll start with a Pr review,
+
+10
+00:01:02.280 --> 00:01:05.700
+Stephen Curran: and head to
+
+11
+00:01:06.560 --> 00:01:12.599
+Stephen Curran: finalizing 0 10 after that. So we look at what's been merged lately.
+
+13
+00:01:24.940 --> 00:01:30.010
+Stephen Curran: So this morning we did the legacy pier did resolver
+
+14
+00:01:30.770 --> 00:01:33.040
+Stephen Curran: so that is in
+
+15
+00:01:33.810 --> 00:01:36.230
+sncc! Was added.
+
+16
+00:01:36.880 --> 00:01:38.340
+Stephen Curran: So how do you pronounce it?
+
+17
+00:01:38.850 --> 00:01:41.569
+Stephen Curran: Think so, Snick? We'll go with that
+
+18
+00:01:43.320 --> 00:01:45.949
+was added.
+
+19
+00:01:47.130 --> 00:01:53.349
+Stephen Curran: Any thoughts last I checked. There was as I said in the thing, 236
+
+20
+00:01:53.400 --> 00:01:56.329
+Stephen Curran: issues which terrifies me.
+
+21
+00:01:59.500 --> 00:02:08.230
+Stephen Curran:  Has anyone looked at the reports at all? Yet I guess we can worry about that later.
+
+22
+00:02:09.270 --> 00:02:19.819
+Daniel Bluhm: I did. I did briefly scan through them. I think a lot of them are are pretty minor things A lot of them would be addressed by some other things that we have pointed out as
+
+23
+00:02:20.010 --> 00:02:21.980
+Daniel Bluhm: potentially doing already, anyways.
+
+24
+00:02:22.090 --> 00:02:23.850
+Stephen Curran: Like.
+
+25
+00:02:24.470 --> 00:02:33.499
+Daniel Bluhm: like trimming down the docker images to not include things like vim or curl. And those.
+
+26
+00:02:33.700 --> 00:02:34.490
+Stephen Curran: yeah.
+
+27
+00:02:35.450 --> 00:02:37.920
+Stephen Curran: Oh, that's interesting. Okay.
+
+28
+00:02:38.850 --> 00:02:43.109
+Stephen Curran: we did remove the indie tests from the workflows.
+
+29
+00:02:43.870 --> 00:02:49.339
+Stephen Curran: I don't know how much faster things are now as they wouldn't. I guess that legacy
+
+30
+00:02:49.420 --> 00:02:50.860
+Stephen Curran: Pierre would have run
+
+31
+00:02:52.630 --> 00:02:55.679
+Stephen Curran: through the overall tests, but that's good.
+
+32
+00:02:57.530 --> 00:03:00.749
+Stephen Curran:  And then this fix
+
+33
+00:03:00.800 --> 00:03:13.530
+Stephen Curran: ensure request matches offer. What was that, Daniel? Remind us? So in Jason I'll be credited for an exchange that was started with an offer. It was possible for
+
+34
+00:03:13.680 --> 00:03:20.310
+Daniel Bluhm: the request that the holder sent back to be different from the offer, and if you were on auto issue it wouldn't
+
+35
+00:03:20.530 --> 00:03:26.860
+Daniel Bluhm: check that. It hadn't changed between the offer and the request, and would just automatically issue whatever was in the request.
+
+36
+00:03:26.970 --> 00:03:27.630
+Stephen Curran: Yeah.
+
+37
+00:03:28.950 --> 00:03:29.700
+Stephen Curran: okay.
+
+38
+00:03:31.350 --> 00:03:41.350
+Stephen Curran: We did the release. Rather suddenly. That was triggered by this which was that
+
+39
+00:03:42.380 --> 00:03:53.930
+Stephen Curran: Kim did a kim. Ebert did a fix to speed up multi-use invitation handling. Once the load got higher. that
+
+40
+00:03:54.400 --> 00:04:02.820
+Stephen Curran: duplicated a a web hook being emitted. which Emiliano suppressed
+
+41
+00:04:03.070 --> 00:04:12.859
+Stephen Curran: in 8 0 8 2. And what was not understood was that by suppressing that a a follow-on web hook was not emitted
+
+42
+00:04:13.350 --> 00:04:21.410
+Stephen Curran:  which was rather weird. So  anyway, that's been corrected.
+
+43
+00:04:21.459 --> 00:04:23.940
+Stephen Curran: And so we now have the right thing happening.
+
+44
+00:04:25.720 --> 00:04:32.659
+Stephen Curran:  this got merged in just documentation. And docker related updates.
+
+45
+00:04:32.790 --> 00:04:45.260
+Stephen Curran: Not sure quite how Shan Jot did it without a review required. But I did look at it, and it's all just documentation. And Docker related. So
+
+46
+00:04:45.270 --> 00:04:46.700
+Stephen Curran: that's okay.
+
+47
+00:04:47.520 --> 00:04:55.739
+Stephen Curran:  And then, previous, we're already discussed all of these things, I think.
+
+48
+00:04:58.700 --> 00:05:06.449
+Stephen Curran:  yeah, I think we're caught up on what's been merged. Let's talk about what's
+
+49
+00:05:06.470 --> 00:05:16.520
+Stephen Curran: coming. We've got 9 left. So working, I believe this is yeah work in progress. So the nightly bill just happened a few minutes ago.
+
+50
+00:05:17.530 --> 00:05:20.430
+Stephen Curran:  we have
+
+51
+00:05:21.900 --> 00:05:28.559
+Stephen Curran: this. Ta acceptance, Daniel, put a comment, Andrew, for you to take a look at
+
+52
+00:05:29.500 --> 00:05:31.919
+Stephen Curran: and get your views on this one.
+
+53
+00:05:35.180 --> 00:05:42.819
+Andrew Whitehead: Yeah, I guess I was like. Go ahead there, there's another Pr. And Ndvr, I think, related to this
+
+54
+00:05:45.530 --> 00:05:47.279
+Stephen Curran: and and worthwhile
+
+55
+00:05:48.330 --> 00:05:50.929
+Andrew Whitehead: it seems reasonable, but I'm not
+
+56
+00:05:52.130 --> 00:05:56.410
+Andrew Whitehead: sure why this is showing up now, unless something
+
+57
+00:05:57.780 --> 00:06:00.909
+like, maybe it depends on the python version. It's in use.
+
+58
+00:06:01.070 --> 00:06:02.040
+Andrew Whitehead: Not sure.
+
+59
+00:06:03.410 --> 00:06:08.020
+Stephen Curran: Interesting. Did he say, why put issues in for each?
+
+60
+00:06:09.560 --> 00:06:17.650
+Andrew Whitehead: I think the other issue explains that it has to do with. Give me an incorrect clock on the
+
+61
+00:06:19.540 --> 00:06:20.730
+Andrew Whitehead: system.
+
+62
+00:06:22.620 --> 00:06:23.520
+Andrew Whitehead: See?
+
+63
+00:06:26.640 --> 00:06:30.730
+Andrew Whitehead: Time too precise error if container time zone is not Utc.
+
+64
+00:06:34.300 --> 00:06:37.570
+Stephen Curran: So II mean, obviously he was getting an error
+
+65
+00:06:39.090 --> 00:06:44.919
+Stephen Curran: at some point in trying to run it. So this is, and fixed it this way.
+
+66
+00:06:48.110 --> 00:06:52.900
+Andrew Whitehead: I don't know when this changed in Andy Plenum.
+
+67
+00:06:54.950 --> 00:07:00.360
+Andrew Whitehead: but at 1 point it only had to be rounded off to like the nearest minute or something.
+
+68
+00:07:00.920 --> 00:07:07.900
+Andrew Whitehead: The privacy risk was when you were sending milliseconds. I think something like that, but now it has to be midnight
+
+69
+00:07:09.960 --> 00:07:13.880
+Andrew Whitehead: it might be easiest to just treat it as an integer and round it off.
+
+70
+00:07:16.890 --> 00:07:20.570
+Stephen Curran: Okay, well, you've got that one for now, if you could
+
+71
+00:07:21.390 --> 00:07:24.509
+Stephen Curran:  let me go back to the pull request.
+
+72
+00:07:26.380 --> 00:07:30.970
+Stephen Curran: I can assign this to you. Just so. you know.
+
+73
+00:07:35.410 --> 00:07:37.459
+Daniel Bluhm: Thank you. I have the wrong one selected there.
+
+74
+00:07:37.530 --> 00:07:39.330
+Stephen Curran: Well, that's a bad thing.
+
+75
+00:07:39.910 --> 00:07:45.770
+Stephen Curran: Thank you. I give up okay. Proof. Negotiation.
+
+76
+00:07:47.560 --> 00:08:02.040
+Daniel Bluhm: so this was one that was opened by, I think precipice was the organization. II don't know how, pronounced the original author's name, but it seems like a pretty reasonable change so II decided to help resurrect it of it.
+
+77
+00:08:02.690 --> 00:08:11.810
+Daniel Bluhm: I think there's I think it makes sense to move the logic that was added to the request handler to a different admin Api endpoint.
+
+78
+00:08:11.920 --> 00:08:17.249
+Daniel Bluhm: So there's some additional changes that II think are are good to make here.
+
+79
+00:08:17.370 --> 00:08:28.049
+Daniel Bluhm: But I think, having the ability to do the proof negotiation if you want to, I think makes sense. And the code was relatively clean. So
+
+80
+00:08:28.280 --> 00:08:29.670
+Stephen Curran: good. Okay.
+
+81
+00:08:29.980 --> 00:08:31.569
+Stephen Curran: we'll leave that one to you.
+
+82
+00:08:31.930 --> 00:08:32.600
+It
+
+83
+00:08:33.049 --> 00:08:36.670
+Stephen Curran: Jason progress on this one.
+
+84
+00:08:37.630 --> 00:08:43.069
+Jason Sherman: Yeah, so I just have another comment this morning, based on Daniels, because I
+
+85
+00:08:43.950 --> 00:08:56.709
+Jason Sherman: wasn't able to do the existing tests. Use schema name and schema version to do like restrictions on the proof requests. So so I started with that, and it didn't work.
+
+86
+00:08:57.010 --> 00:09:04.609
+Jason Sherman: Then I flipped it to the cred def Id. Which was was what Daniel used in the test script.
+
+87
+00:09:05.140 --> 00:09:18.749
+Jason Sherman: and it worked so the proof request work, but not the same as a previous one. And Daniel said that that's not. That's not the case. So I'm gonna be today. I'm investigating why, that's not
+
+88
+00:09:18.990 --> 00:09:28.550
+Jason Sherman: working. It's quite possible. It's just something that I'm doing. But I need to get that squared away. So that existing proof requests would work
+
+89
+00:09:28.610 --> 00:09:55.220
+Jason Sherman: very well.
+
+90
+00:09:55.530 --> 00:10:07.379
+Jason Sherman: And then we can decide. If I figure out what it is. If it's a big thing, then maybe we put this Pr in and then do a separate Pr for a fix, or if it's something small, I'll include it in here. So
+
+91
+00:10:08.040 --> 00:10:23.909
+Jason Sherman: yeah. So the other issue I had was just it was. I don't think it's a big deal, because obviously running the actual run. Bdd, scripts and how we're doing it. Work. I just been running it. The behave
+
+92
+00:10:24.540 --> 00:10:51.170
+Jason Sherman: from like just running behave gotta try and figure out what configurations match up. And I just get. So I'm just leaving it to using dev containers. So some things are in Docker. Some things are in Dev Container, docker. Some things are running to behave script from the command line. All the same, it kind of sends things weirdly. But as soon as I run the same exact code using the run, Bdd, script, it works. So I'm
+
+93
+00:10:51.380 --> 00:11:00.170
+Jason Sherman: leaving that as a development box issue only. But the presentation pre presentation. Yeah, I'm going to spend today
+
+94
+00:11:00.220 --> 00:11:01.440
+Jason Sherman: trying to figure that out.
+
+95
+00:11:01.630 --> 00:11:04.530
+Stephen Curran: Okay, yeah. alright.
+
+96
+00:11:04.960 --> 00:11:11.129
+Stephen Curran: And then, now, in doing that, it looks like all
+
+97
+00:11:12.070 --> 00:11:30.729
+Jason Sherman: is there. Have you done Co changes for this? Or is this just activating tests? So they're net new tests based exactly on the previous ones. But I have to explicitly say, use the non-capi. So is much of it to you, reusing the existing
+
+98
+00:11:30.730 --> 00:11:50.450
+Jason Sherman: DVD test code. Basically, it's just like the Kickoff part of it is to say, use a non credits to create the screen and credit, using non credits to revoke so there's not actually a lot of new code in the like. There's some stuff in agent container and agent pie. But it's basically just
+
+99
+00:11:51.840 --> 00:11:53.520
+Jason Sherman: there's not a lot of new code.
+
+100
+00:11:55.410 --> 00:12:01.430
+Stephen Curran: So so I did have to do some stuff with where you're at right now.
+
+101
+00:12:02.090 --> 00:12:04.350
+Jason Sherman: so these bind providers.
+
+102
+00:12:04.840 --> 00:12:14.199
+Jason Sherman: I need them in place. Whether, though I don't think those are gonna stick around as we get to the next kind of things. As we
+
+103
+00:12:14.630 --> 00:12:16.680
+Jason Sherman: the ticket that's to kind of
+
+104
+00:12:17.990 --> 00:12:20.870
+Jason Sherman: touch up all the actual Api endpoints
+
+105
+00:12:21.530 --> 00:12:30.340
+Jason Sherman: convert those things. So but for right now, with those things in place, I need those because those are
+
+106
+00:12:30.570 --> 00:12:35.790
+Jason Sherman: The endpoints are getting hit that are trying to do
+
+107
+00:12:36.140 --> 00:12:46.910
+Jason Sherman: to handle the issuance and whatnot are expecting those things in place. So some of the some of the code that I have put in there, I think, is just very temporary.
+
+108
+00:12:47.110 --> 00:12:48.030
+Stephen Curran: okay.
+
+109
+00:12:48.810 --> 00:12:50.589
+Jason Sherman: like the code that's in.
+
+110
+00:12:50.620 --> 00:13:03.930
+Jason Sherman: Yeah, that that's it. Right. I just got the other profile. That's it. Everything else is test code. And again. it's basically reusing stuff and just having a couple of kickoff points. So there's not a lot of new code, really.
+
+111
+00:13:04.280 --> 00:13:05.280
+Stephen Curran: Okay.
+
+112
+00:13:06.980 --> 00:13:12.029
+Stephen Curran: but the plan is to go next to making the existing endpoints work with these tests.
+
+113
+00:13:13.080 --> 00:13:17.909
+Jason Sherman: Yeah. And then and then we can start. So I've basically
+
+114
+00:13:18.280 --> 00:13:21.380
+Jason Sherman: turned off a whole pile of existing tests.
+
+115
+00:13:21.480 --> 00:13:33.099
+Jason Sherman: That was the only way to get to work, because we know those endpoints aren't working. So yeah, so once this is in with these tests work, then it's to start going back and it re enabling the
+
+116
+00:13:33.670 --> 00:13:35.060
+Jason Sherman: old tests
+
+117
+00:13:35.350 --> 00:13:53.659
+Jason Sherman: as we transition the endpoints that they're using to get up to date. So hopefully by the next one where we say, Okay, the these endpoints that aren't working get transitioned out. Then we just flip on the old test and go cool. It all works, but it's kind of an all in non credits, kind of underneath the covers. So
+
+118
+00:13:53.890 --> 00:13:55.400
+Stephen Curran: excellent. Okay, good.
+
+119
+00:13:58.340 --> 00:14:05.330
+Stephen Curran: This one. Let's talk about this one at when we talk about periods. This is ready to go right, Daniel.
+
+120
+00:14:06.080 --> 00:14:24.799
+Daniel Bluhm: No, yeah. There's some unit tests that I need to sort out and there's some caching questions that I'm considering in terms of where caching should be occurring, whether it's at the global resolver layer or the method specific result for layer so there's a couple of more things that I'm
+
+121
+00:14:24.990 --> 00:14:26.220
+Daniel Bluhm: working on here still.
+
+122
+00:14:26.320 --> 00:14:27.140
+Stephen Curran: Okay?
+
+123
+00:14:28.610 --> 00:14:34.019
+Stephen Curran: But we'll talk about this one. So 2404 is in, so this can now go.
+
+124
+00:14:34.730 --> 00:14:41.670
+Stephen Curran: Yup, I've I've rebased this and everything. It's just finding some additional work. Yeah. Okay.
+
+125
+00:14:42.270 --> 00:14:51.070
+Stephen Curran: no progress on this yet. We'll talk about Syro's work in a bit. Jason's work in a bit.
+
+126
+00:14:52.600 --> 00:15:00.910
+Stephen Curran:  no movement from me on this one, either. Who's got this one?
+
+127
+00:15:02.140 --> 00:15:04.210
+Stephen Curran: You've got this one as a reviewer.
+
+128
+00:15:04.430 --> 00:15:05.290
+Daniel Bluhm: Yeah.
+
+129
+00:15:05.690 --> 00:15:06.500
+Stephen Curran: okay?
+
+130
+00:15:15.000 --> 00:15:16.480
+Stephen Curran: And then we're gonna
+
+131
+00:15:16.550 --> 00:15:23.530
+Stephen Curran: leave this one for now, because this will play into what's happening with the tales file, anyway, and all that. So
+
+132
+00:15:25.080 --> 00:15:30.290
+Stephen Curran:  yeah, we'll just leave that one for now.
+
+133
+00:15:32.110 --> 00:15:33.660
+Stephen Curran: Okay,
+
+134
+00:15:38.350 --> 00:15:43.370
+Stephen Curran: of these, do we want to get 2409. Would you like that in 0 10
+
+135
+00:15:44.390 --> 00:15:47.929
+Daniel Bluhm: if we can? I think that would be great.
+
+136
+00:15:48.060 --> 00:15:51.799
+Stephen Curran: Okay, And then,
+
+137
+00:15:52.110 --> 00:16:03.580
+Stephen Curran: Andrew, if you could look at this one, we could also see about helping this guy out. And whoever this is this person out and getting it into into 0 10 as well. If it's not dangerous.
+
+138
+00:16:03.960 --> 00:16:18.249
+Stephen Curran: if you think it is questionable and want to have conversations about it. We can defer it and make sure it stays till after 0 10 we have deployed 0 10 rc. 0 didn't have any issues with it.
+
+139
+00:16:18.570 --> 00:16:25.040
+Stephen Curran:  do you think we would do as Rc. One.
+
+140
+00:16:26.100 --> 00:16:28.050
+Stephen Curran: Daniel, before we
+
+141
+00:16:28.120 --> 00:16:37.470
+Stephen Curran: do the final? Or are you okay with, do you think these are the ones we've merged. 2,404 and 9 are safe enough.
+
+142
+00:16:38.180 --> 00:16:46.260
+Daniel Bluhm: I would probably feel more comfortable having a release candidate out to test against like plugins and things. We're going to a final
+
+143
+00:16:46.420 --> 00:16:49.710
+Stephen Curran: okay? So I will do
+
+144
+00:16:49.820 --> 00:16:59.350
+Stephen Curran: wait for 2409, and then do an Rc, one, and then we'll go to final. Okay. good.
+
+145
+00:17:02.380 --> 00:17:06.079
+Stephen Curran: So that covers the set. The next topic. So
+
+146
+00:17:06.710 --> 00:17:09.470
+24, 9, first
+
+147
+00:17:10.349 --> 00:17:12.180
+Stephen Curran: RC, one
+
+148
+00:17:13.599 --> 00:17:14.510
+Stephen Curran: and
+
+149
+00:17:14.700 --> 00:17:25.169
+Stephen Curran: well, okay. and our credits progress. This may be a shorter meeting than I thought. Okay, good and not creates progress. Next steps. I think.
+
+150
+00:17:25.690 --> 00:17:35.020
+Stephen Curran: Jason, you know what you've got on that. We've talked about it already, which is getting the existing
+
+151
+00:17:37.840 --> 00:17:45.880
+Stephen Curran: finish off Pdd tests and then existing existing endpoints.
+
+152
+00:17:47.280 --> 00:17:50.950
+Stephen Curran: Yeah, can we coordinate?
+
+153
+00:17:51.260 --> 00:18:03.690
+Jason Sherman: 2411 merge main into an on credits? Rs, for? Yeah. So I just did a quick little thing yesterday just to try and see there's really not most of the stuff.
+
+154
+00:18:03.930 --> 00:18:19.310
+Jason Sherman: It's gonna be pretty straightforward, because it's just like comments and readmese and blah blah, blah pretty straightforward, but it's probably Andrew and Daniel Tap to take a look. It's ask our profile. Core conductor Ledger based revocation manager revocation models. It sure bread. Rev.
+
+155
+00:18:19.630 --> 00:18:21.519
+Jason Sherman: Has stuff in there that I think the
+
+156
+00:18:21.780 --> 00:18:27.860
+Jason Sherman: people that know what's going on should do it, not someone like me that are just making assumptions like that. Looks right. But
+
+157
+00:18:28.230 --> 00:18:31.380
+Jason Sherman: I don't think it will take too long. But I could be wrong.
+
+158
+00:18:31.900 --> 00:18:34.270
+Stephen Curran: Are those all
+
+159
+00:18:34.950 --> 00:18:37.930
+Stephen Curran: tied to that one update
+
+160
+00:18:39.550 --> 00:18:53.500
+Jason Sherman: are. That is this all tied to the change and roommate? Yeah, as far as I can tell, anyway. Yeah, there was just kind of 2 things going on at the same time and exactly the same areas. So yeah, as far as I can tell, that's
+
+161
+00:18:53.880 --> 00:18:57.069
+Jason Sherman: where the real impact is. Everything else is pretty much
+
+162
+00:18:57.360 --> 00:19:05.229
+Jason Sherman: straightforward. So which is good. Not a lot of merge conflicts, considering how many things have been put in there. But
+
+163
+00:19:05.520 --> 00:19:09.419
+Jason Sherman: And I think, between the 2 2, them that know what
+
+164
+00:19:10.140 --> 00:19:16.909
+Stephen Curran: it shouldn't take too long. But logistically, how does this work? How do you do this?
+
+165
+00:19:19.560 --> 00:19:25.790
+Jason Sherman: I'm not a pro at all that kind of stuff. So I'm sure there's many different approaches. I just
+
+166
+00:19:25.810 --> 00:19:39.129
+Jason Sherman: I just did it as as a samples. I merged main into a non credz. Rs, just to see what the differences were. I think the other way. I don't know thinking do it kind of a bunch of different ways. But
+
+167
+00:19:39.260 --> 00:19:41.030
+Daniel Bluhm: II think the
+
+168
+00:19:41.340 --> 00:19:52.660
+Daniel Bluhm: the key thing is is mapping changes that were made in the the Indie credit stuff and mapping those back onto the non credits things
+
+169
+00:19:52.810 --> 00:19:59.640
+Daniel Bluhm: and accounting for the slight differences between the non-credit Rs and Indie Credics library.
+
+170
+00:19:59.690 --> 00:20:05.690
+Daniel Bluhm: Yeah, I think it will require just having a little bit more background with the changes. This has been something that I've been
+
+171
+00:20:05.900 --> 00:20:18.199
+Daniel Bluhm: planning to do. I've intended to do this just kind of been focused on the 2,409 and 2,404 stuff for the moment. So once I get those cleared up. I can take a look at these.
+
+172
+00:20:20.100 --> 00:20:30.059
+Stephen Curran: Okay, I was more wondering what they get. What's the get process like, how do you merge these into the branch. Do you just go Pr. By Pr. And merge them in
+
+173
+00:20:30.840 --> 00:20:39.979
+Daniel Bluhm: we would just merge main into a non-credit Rs. And just address it. Address any merge conflicts at at that point. II don't think it'll be.
+
+174
+00:20:40.840 --> 00:20:45.679
+Daniel Bluhm: The get process itself is straightforward, since it's just one action. But yeah.
+
+175
+00:20:47.230 --> 00:21:03.670
+Jason Sherman: yeah, I I've just been cherry picking stuff as I needed to get to the Bdd test stuff kind of working. So there's a few commits. But I don't think you'd want to cherry, pick the like 60 or 70 commits sort of. And so yeah, and like, I said, like, just the
+
+176
+00:21:03.840 --> 00:21:05.440
+Jason Sherman: a lot of files
+
+177
+00:21:05.500 --> 00:21:16.730
+Jason Sherman: change. But really, there's only like those. Those are the only ones that were in conflict that were like logical. Like, as Daniel saying, there's some stuff that's changed. Everything else is
+
+178
+00:21:17.250 --> 00:21:19.600
+Jason Sherman: pretty straightforward. So
+
+179
+00:21:19.930 --> 00:21:35.180
+Jason Sherman: yeah, I'd I'd like to see it get done before I start adapting the endpoints. Just because I think that one. I'll be trampling on some existing changes and stuff like that. So just easier for my my little brain if it's not before. But
+
+180
+00:21:35.520 --> 00:21:38.069
+Stephen Curran: So, Daniel, you get that one
+
+181
+00:21:38.950 --> 00:21:49.290
+Daniel Bluhm: I was intending to at least. I think the changes on 2,409. I'm probably gonna take at least another day or so to wrap up things there. I think.
+
+182
+00:21:49.560 --> 00:21:51.859
+Daniel Bluhm:  so I don't.
+
+183
+00:21:52.310 --> 00:21:54.080
+Daniel Bluhm: If it makes sense to.
+
+184
+00:21:54.130 --> 00:22:01.489
+Daniel Bluhm: you know, let somebody else handle that then. True, I'm fine with that, but if if I'm the first one to get to it, I'm happy to look at that.
+
+185
+00:22:02.020 --> 00:22:06.040
+Stephen Curran: Andrew, do you think you have a time to do this one.
+
+186
+00:22:11.350 --> 00:22:16.590
+Andrew Whitehead:  not sure what's required for me. on this one. Just the merge you mean.
+
+187
+00:22:16.820 --> 00:22:23.239
+Stephen Curran: Yeah. The so what will happen is merging main into the non credits branch. We have the 2
+
+188
+00:22:24.220 --> 00:22:32.480
+Andrew Whitehead: branches. But what's gonna come out of it is there's there's gonna be, you know, the An on credits. Rs branch.
+
+189
+00:22:32.720 --> 00:22:37.440
+Stephen Curran: What's gonna come out of that is all of the changes that you made.
+
+190
+00:22:37.940 --> 00:22:43.220
+Stephen Curran: forgetting after the Cl signatures Update that got pulled into credit.
+
+191
+00:22:43.320 --> 00:22:49.820
+Stephen Curran: Those same changes have to be resolved in the An on Credits Branch.
+
+192
+00:22:49.950 --> 00:22:52.149
+Stephen Curran: cause they're they're in the same place.
+
+193
+00:22:52.350 --> 00:22:56.350
+Andrew Whitehead: Yeah, it wasn't a huge set of changes.
+
+194
+00:22:56.640 --> 00:23:00.889
+Andrew Whitehead: that's what works. I don't know if there's been an on credits release.
+
+195
+00:23:01.460 --> 00:23:05.269
+Andrew Whitehead: But it's also synced up with the same changes. Now
+
+196
+00:23:05.760 --> 00:23:07.220
+Andrew Whitehead: as in credox.
+
+197
+00:23:09.870 --> 00:23:12.300
+Stephen Curran: I thought there was a release of anocrats
+
+198
+00:23:13.820 --> 00:23:15.490
+Andrew Whitehead: chuck
+
+199
+00:23:16.460 --> 00:23:17.430
+Stephen Curran: shoot.
+
+200
+00:23:19.330 --> 00:23:23.790
+Andrew Whitehead: Yeah, there's just a 0 1 0 release. June second.
+
+201
+00:23:25.440 --> 00:23:28.859
+Jason Sherman: I think a Keith did some work, but maybe it's not been released.
+
+202
+00:23:30.200 --> 00:23:32.139
+Jason Sherman: Are you thinking of that, Stephen?
+
+203
+00:23:32.970 --> 00:23:34.410
+Stephen Curran: Well, I know.
+
+204
+00:23:36.230 --> 00:23:41.879
+Stephen Curran: Yeah. So his release has been or his Pr has been merged.
+
+205
+00:23:44.610 --> 00:23:50.570
+Stephen Curran: So we've we've updated to Cl signature 0 2. We just never done a release.
+
+206
+00:23:50.750 --> 00:23:54.999
+Andrew Whitehead: Sorry. Credx has a release with the Cl signatures.
+
+207
+00:23:56.150 --> 00:23:59.929
+Andrew Whitehead: 0 2 stuff. But a non credits doesn't get
+
+208
+00:24:00.330 --> 00:24:02.050
+Stephen Curran: okay. So that's needed
+
+209
+00:24:03.680 --> 00:24:05.170
+Stephen Curran: sooner than later.
+
+210
+00:24:08.590 --> 00:24:12.540
+Stephen Curran: Can we just do a 0 2? We're well.
+
+211
+00:24:14.290 --> 00:24:16.910
+Stephen Curran: okay. So that's needed. First
+
+212
+00:24:17.330 --> 00:24:24.259
+Daniel Bluhm: I noticed that the Javascript wrapper there's an open Pr for that in the non-credit. Rs, I wonder if that's what's
+
+213
+00:24:24.430 --> 00:24:30.119
+Daniel Bluhm: being waited on getting that in so they can have the the changes updated in that wrapper.
+
+214
+00:24:30.970 --> 00:24:32.769
+Andrew Whitehead: Yeah, I think that makes sense.
+
+215
+00:24:35.690 --> 00:24:37.280
+Stephen Curran: Okay,
+
+216
+00:24:37.360 --> 00:24:41.689
+Andrew Whitehead: and then there's the question of the master secret
+
+217
+00:24:44.210 --> 00:24:46.039
+Andrew Whitehead: link secret, but
+
+218
+00:24:47.130 --> 00:24:50.080
+Andrew Whitehead: format or formatting as a string right now.
+
+219
+00:25:24.330 --> 00:25:25.500
+Stephen Curran: Okay.
+
+220
+00:25:27.940 --> 00:25:32.399
+Stephen Curran: so at least, if Andrew, if you could take on that one
+
+221
+00:25:33.060 --> 00:25:38.360
+Stephen Curran: as a priority, I don't know how it fits with with the other work you're doing. But,
+
+222
+00:25:38.500 --> 00:25:56.179
+Stephen Curran: add that to your list of of getting this done, and then, if you, if you get to that before.  Daniel, does it get to this one? If you know if this, if you're able to get to this one as well before. Daniel, do that one as well.
+
+223
+00:25:58.130 --> 00:26:04.349
+Stephen Curran: But the main thing is for sure. I think your expertise is needed on getting a release of and on. Chris, Rs done.
+
+224
+00:26:06.920 --> 00:26:08.429
+Andrew Whitehead: Hey? Yeah, I can ask.
+
+225
+00:26:08.730 --> 00:26:09.940
+Andrew Whitehead: yeah.
+
+226
+00:26:10.030 --> 00:26:11.350
+Andrew Whitehead: Work pending there.
+
+227
+00:26:11.490 --> 00:26:12.350
+Stephen Curran: Okay.
+
+228
+00:26:21.120 --> 00:26:24.390
+Andrew Whitehead:  yeah. I wasn't
+
+229
+00:26:24.980 --> 00:26:25.990
+Andrew Whitehead: certain. If
+
+230
+00:26:26.100 --> 00:26:32.329
+Andrew Whitehead: the Non Credz are Us. Implementations meant to replace the Indie creds one and Akipai or.
+
+231
+00:26:33.130 --> 00:26:34.460
+Stephen Curran: yes, it is
+
+232
+00:26:35.220 --> 00:26:36.540
+Andrew Whitehead: okay. But
+
+233
+00:26:37.610 --> 00:26:44.970
+Andrew Whitehead: like, doesn't that create a problem for issuers that are doing the delta-based revocation?
+
+234
+00:26:46.600 --> 00:26:54.710
+Stephen Curran:  so that's a topic we need to discuss.
+
+235
+00:26:55.180 --> 00:26:57.230
+Stephen Curran: cause I don't. I don't understand
+
+236
+00:26:58.860 --> 00:27:02.060
+Stephen Curran:  how
+
+237
+00:27:02.120 --> 00:27:04.239
+Stephen Curran: where that comes into play.
+
+238
+00:27:06.670 --> 00:27:10.259
+Daniel Bluhm: So when you say issuers that are doing delta-based revocation
+
+239
+00:27:10.520 --> 00:27:18.510
+Daniel Bluhm: at the level that most people are interacting with occupy. They're not necessarily aware of the fact that they're doing delta based revocation right?
+
+240
+00:27:18.600 --> 00:27:21.439
+Daniel Bluhm: So the the approach that
+
+241
+00:27:21.620 --> 00:27:24.709
+Daniel Bluhm: we took in the non credits arrest stuff was that we would
+
+242
+00:27:24.860 --> 00:27:38.159
+Daniel Bluhm: in the generic anon credits ledger agnostic interface. We would treat changes as if they were happening on full status revocation status list, whatever we're calling them
+
+243
+00:27:38.350 --> 00:27:46.610
+Daniel Bluhm: and then in the indie and the legacy nd, and the future did Indie
+
+244
+00:27:46.690 --> 00:27:47.860
+Daniel Bluhm: and
+
+245
+00:27:48.150 --> 00:27:53.569
+Daniel Bluhm: a non-credit registry, that full status list would just be mapped to a set of deltas
+
+246
+00:27:55.080 --> 00:28:04.860
+Daniel Bluhm: and then, like each operation that is done to change the State like publishing revocations, or revoking a credential, and then subsequently publishing
+
+247
+00:28:04.910 --> 00:28:11.580
+Daniel Bluhm: that interface. It looks more or less the same as it did with the Delta base, since that was kind of a detail that was hidden away from
+
+248
+00:28:11.720 --> 00:28:14.060
+Daniel Bluhm: the Controller layer. Anyways.
+
+249
+00:28:14.990 --> 00:28:16.370
+Daniel Bluhm: so it it
+
+250
+00:28:16.650 --> 00:28:18.409
+Daniel Bluhm: it translates from
+
+251
+00:28:19.020 --> 00:28:22.100
+Daniel Bluhm: ledger agnostic to indie specific
+
+252
+00:28:22.410 --> 00:28:24.070
+Daniel Bluhm: idioms, I guess.
+
+253
+00:28:24.130 --> 00:28:26.820
+Daniel Bluhm: in the process of using the indie ledger.
+
+254
+00:28:28.910 --> 00:28:29.810
+Andrew Whitehead: Okay.
+
+255
+00:28:31.540 --> 00:28:34.269
+Andrew Whitehead: great glad. Nothing needs to be added to
+
+256
+00:28:35.480 --> 00:28:37.589
+Andrew Whitehead: and on credits to support that. Then
+
+257
+00:28:39.100 --> 00:28:49.929
+Daniel Bluhm: I mean, I think there might be some things that we could potentially say could make our job easier in terms of like mapping back and forth. But yeah, I don't know that those necessarily are changes that are needed at the non credits
+
+258
+00:28:50.180 --> 00:28:55.580
+Daniel Bluhm: layer to support that or not. But yeah, it should be possible to translate
+
+259
+00:28:55.760 --> 00:29:00.140
+Andrew Whitehead: those things in in Python. You're just. The accumulator is already
+
+260
+00:29:00.560 --> 00:29:02.219
+Andrew Whitehead: is is not going to change.
+
+261
+00:29:02.500 --> 00:29:05.569
+Andrew Whitehead: It's just the issues and revoked indexes
+
+262
+00:29:06.060 --> 00:29:06.800
+Daniel Bluhm: right
+
+263
+00:29:07.410 --> 00:29:09.820
+Andrew Whitehead: versus the the bitmap, I guess.
+
+264
+00:29:11.340 --> 00:29:18.269
+Daniel Bluhm: Yeah. So I think I think the only thing that we had to do that was like, maybe a little strange was we needed to keep around
+
+265
+00:29:18.340 --> 00:29:23.699
+Daniel Bluhm: the previous accumulator. Since that's not something that's tracked inside of the
+
+266
+00:29:24.570 --> 00:29:33.039
+Daniel Bluhm: the non credits Rs object anymore. When it was something we needed for the Delphis, or something like that. It's been a while since I looked at it. But yeah, I think it was.
+
+267
+00:29:33.430 --> 00:29:34.959
+Andrew Whitehead: Yeah, that makes sense.
+
+268
+00:29:35.210 --> 00:29:36.040
+Daniel Bluhm: Yeah.
+
+269
+00:29:36.700 --> 00:29:39.159
+Stephen Curran: in in Acapai.
+
+270
+00:29:40.950 --> 00:29:47.449
+Stephen Curran: So would we, for each registry have to maintain the full state
+
+271
+00:29:48.330 --> 00:29:49.620
+Stephen Curran: in aquapai.
+
+272
+00:29:50.480 --> 00:30:02.490
+Daniel Bluhm:  as it happens, I basically already was keeping track of all the credentials that had been issued and revoked.
+
+273
+00:30:02.650 --> 00:30:06.180
+Andrew Whitehead: Yeah, in the SDK, does that. But then it hides it from you.
+
+274
+00:30:07.380 --> 00:30:08.130
+Daniel Bluhm: Yeah.
+
+275
+00:30:09.640 --> 00:30:15.009
+Stephen Curran: Okay, that's where I was worried about was that the issuer wouldn't know the state.
+
+276
+00:30:15.310 --> 00:30:22.169
+Stephen Curran: but but obviously that could be retrie from the ledger if we really had to. But you're saying, it's already in Acupi.
+
+277
+00:30:23.010 --> 00:30:32.390
+Daniel Bluhm: Yeah. It was information that was being stored and used for processing. Otherwise. And anyways. So yeah, it was already available.
+
+278
+00:30:34.550 --> 00:30:37.720
+Stephen Curran: Does that alleviate your fears, Andrew?
+
+279
+00:30:40.210 --> 00:30:42.370
+Andrew Whitehead: Yeah, yeah. I
+
+280
+00:30:43.180 --> 00:30:49.039
+Andrew Whitehead: just wasn't sure what the comp. If there was compatibility with the deltas. Now that status list is being used.
+
+281
+00:30:49.440 --> 00:30:51.319
+Andrew Whitehead: Yeah, sounds good.
+
+282
+00:30:51.930 --> 00:30:56.819
+Stephen Curran: Okay? Good. And and to be clear, we're eliminating
+
+283
+00:30:56.860 --> 00:31:05.840
+Stephen Curran: the endpoints that allow the controller to directly control registries, that that all the handling of the registries is within Acupi
+
+284
+00:31:06.360 --> 00:31:13.430
+Stephen Curran: and the Controller doesn't have any say over the the actual handling of the registries, the creation. The update
+
+285
+00:31:15.480 --> 00:31:18.170
+Stephen Curran: roller just says, Publish
+
+286
+00:31:18.900 --> 00:31:32.609
+Stephen Curran: the Controller just says issue, and when you run out of one a new one gets created. The Controller says Revoke. and that gets put into a pending queue. The Controller says, publish.
+
+287
+00:31:33.210 --> 00:31:41.600
+Stephen Curran: and by by cred published by Creddef and all of the registries that need to be published are published.
+
+288
+00:31:42.460 --> 00:31:43.510
+Stephen Curran: and
+
+289
+00:31:43.590 --> 00:31:46.790
+Stephen Curran: and the Controller doesn't have any access to those.
+
+290
+00:31:50.260 --> 00:31:53.529
+So that's the big change from a controller perspective.
+
+291
+00:31:53.820 --> 00:31:56.690
+Stephen Curran: Okay? So this is a conversation that
+
+292
+00:31:58.460 --> 00:32:02.670
+Stephen Curran: sort of came up yesterday with Andrew and I. So we're happy with that
+
+293
+00:32:03.070 --> 00:32:06.680
+Stephen Curran: which is good. So I'm not gonna create new issue. We're just gonna
+
+294
+00:32:07.030 --> 00:32:08.470
+Stephen Curran: assume it's covered.
+
+295
+00:32:09.570 --> 00:32:11.460
+Stephen Curran: Should I document that at all?
+
+296
+00:32:14.520 --> 00:32:15.660
+Stephen Curran: Think we're okay?
+
+297
+00:32:16.210 --> 00:32:23.210
+Andrew Whitehead: Yeah. okay. be covered by unit tests? Imagine.
+
+298
+00:32:23.800 --> 00:32:24.680
+Stephen Curran: yeah.
+
+299
+00:32:26.290 --> 00:32:33.289
+Stephen Curran:  oh, we got a new one
+
+300
+00:32:34.690 --> 00:32:42.640
+Stephen Curran: 12 min ago. There is a ariel has a Js update. Okay?
+
+301
+00:32:44.160 --> 00:32:48.100
+Stephen Curran: And these 2 are old and probably not gonna get put in
+
+302
+00:32:51.320 --> 00:32:53.130
+Stephen Curran: hope. Okay.
+
+303
+00:32:56.280 --> 00:33:02.790
+Stephen Curran: and on Chris RS.  I'll add some notes in here.
+
+304
+00:33:02.830 --> 00:33:04.339
+Is this the right one?
+
+305
+00:33:07.890 --> 00:33:09.720
+Stephen Curran: This should be credits.
+
+306
+00:33:11.720 --> 00:33:17.720
+Stephen Curran: I'll document this after any other issues?
+
+307
+00:33:33.870 --> 00:33:37.059
+Stephen Curran:  this one came in.
+
+308
+00:33:37.640 --> 00:33:44.230
+Stephen Curran: So there's a should. Should there be an endpoint that allows the connection, alias to be updated.
+
+309
+00:33:49.380 --> 00:33:51.409
+Jason Sherman: So that's
+
+310
+00:33:51.700 --> 00:34:01.420
+Jason Sherman: I think Lucas just wants to get his hands dirty a little bit in the code. So there's a plugin that I wrote for traction. That does exactly that.
+
+311
+00:34:01.620 --> 00:34:02.550
+Jason Sherman: So.
+
+312
+00:34:03.120 --> 00:34:09.710
+Stephen Curran: But it does make sense that in Akipi be allowed. So this would be extending one of the existing endpoints.
+
+313
+00:34:11.290 --> 00:34:13.220
+Jason Sherman: Yeah.
+
+314
+00:34:14.170 --> 00:34:31.199
+Jason Sherman: existing. I don't know. I think it's there might be a whole new endpoint, anyway. Yeah, I guess not. There's no endpoint for connections. Yeah, I don't think there's anything to update connection data. So this is basically putting it, I think a put in there and then it only allows to update the given field.
+
+315
+00:34:31.230 --> 00:34:37.150
+Stephen Curran: And then what fields are you allowed to update? There's nothing else that makes sense.
+
+316
+00:34:37.460 --> 00:34:41.050
+Jason Sherman: I don't think so, but
+
+317
+00:34:41.670 --> 00:34:52.059
+Jason Sherman: if I remember correctly, I think if we just kind of just change the validation. If we decided to add in another field, we just changed the validation on that. Say, cool, here's new field. Whatever
+
+318
+00:34:52.190 --> 00:34:56.820
+Jason Sherman: we the interaction. They just needed to be able to do that because.
+
+319
+00:34:57.560 --> 00:35:09.719
+Jason Sherman:  yeah, people can't side on what they want to name their connections. You may want to change the con. The name of your contact in the in the list. That's kind of like the idea. And that's where it's derived from.
+
+320
+00:35:10.180 --> 00:35:11.020
+Stephen Curran: Yeah.
+
+321
+00:35:12.370 --> 00:35:15.340
+Stephen Curran: I mean to me it makes sense.
+
+322
+00:35:18.660 --> 00:35:27.700
+Stephen Curran: so we'll we'll see where this lands on a BC. Gov. Priority. But, Daniel Shar Andrew, you don't have any
+
+323
+00:35:28.120 --> 00:35:30.920
+Stephen Curran: objections to that being added.
+
+324
+00:35:31.680 --> 00:35:44.359
+Daniel Bluhm: I don't think I have any objections the connection, alias feature is not one that I use frequently, or have seen in use frequently. So I it's not one that I generally pay a ton of attention to. I guess so.
+
+325
+00:35:44.500 --> 00:35:45.280
+Daniel Bluhm: But yeah.
+
+326
+00:35:45.390 --> 00:35:46.640
+Stephen Curran: it's benign
+
+327
+00:35:46.850 --> 00:35:47.600
+Daniel Bluhm: there.
+
+328
+00:35:47.960 --> 00:35:49.050
+Stephen Curran: Okay.
+
+329
+00:35:49.070 --> 00:35:50.500
+Andrew Whitehead: yeah, I don't really
+
+330
+00:35:51.480 --> 00:35:55.869
+Andrew Whitehead: see why you'd update it after you created it, but can't hurt, I guess.
+
+331
+00:35:56.500 --> 00:35:59.779
+Jason Sherman: Yeah, it becomes obvious when you're using traction itself.
+
+332
+00:35:59.870 --> 00:36:11.769
+Jason Sherman: Because that's you've got a whole list, you see visually your whole list of connections. And that's the most important right initially, to an end user. And it becomes pretty apparent that.
+
+333
+00:36:11.790 --> 00:36:23.329
+Jason Sherman: Oh, this isn't exactly what I want to name it. So it's either, you know, like. when we first did traction, it had its own database. All that stuff was done in its own database. But yeah, so
+
+334
+00:36:23.340 --> 00:36:29.500
+Jason Sherman: yeah, I mean, it doesn't really impact the actual workings of occupy.
+
+335
+00:36:29.650 --> 00:36:30.430
+Stephen Curran: Yeah.
+
+336
+00:36:31.440 --> 00:36:35.520
+Stephen Curran: I the pagination. I removed the anon credits on this
+
+337
+00:36:37.240 --> 00:36:41.479
+Stephen Curran: just to move it into a later, broader topic.
+
+338
+00:36:47.870 --> 00:36:50.200
+Stephen Curran: Okay, I don't see anything else.
+
+339
+00:36:50.500 --> 00:36:59.100
+Stephen Curran: That we that we want to prioritize in the in these. At some point I'm going to go through all 217 issues and
+
+340
+00:37:00.680 --> 00:37:08.829
+Stephen Curran: get a bunch. I took a look at the very, very old ones, and I realize I've done a calling of them, because the very, very old ones, I still think are
+
+341
+00:37:09.580 --> 00:37:11.860
+Stephen Curran: not
+
+342
+00:37:12.010 --> 00:37:20.179
+Stephen Curran:  We're keeping around so perhaps someday that'll be gotten to. But so
+
+343
+00:37:20.370 --> 00:37:27.069
+Stephen Curran: Some calling has been done, but it's time for another pass through a bunch of the more recent ones last 6 months.
+
+344
+00:37:27.180 --> 00:37:28.040
+Stephen Curran: probably.
+
+345
+00:37:28.460 --> 00:37:30.279
+Stephen Curran: Okay.
+
+346
+00:37:30.980 --> 00:37:34.260
+Stephen Curran: that's all. I had any other topics.
+
+347
+00:37:34.730 --> 00:37:39.629
+Stephen Curran: People wanted to discuss as far as open discussion. Issues
+
+348
+00:37:44.550 --> 00:37:48.220
+Stephen Curran: this open Api did that actually get resolved? With
+
+349
+00:37:49.470 --> 00:37:52.949
+Daniel Bluhm: no, that kind of fell off my fell off my to do list.
+
+350
+00:37:53.290 --> 00:37:57.310
+Stephen Curran: I recall the marshmallow updates came in from
+
+351
+00:37:58.660 --> 00:38:02.130
+Stephen Curran:  Moritz, I believe?
+
+352
+00:38:02.190 --> 00:38:19.040
+Daniel Bluhm: Right? Yeah, he had. He raised a point that there's some inconsistencies with the open Api, and and what was actually being expected. I basically told him. I looked at this. I didn't find a really super favorable answer to the issue that you're addressing.
+
+353
+00:38:19.070 --> 00:38:23.519
+Daniel Bluhm: See if you can come up with something better, I guess. But yeah.
+
+354
+00:38:23.920 --> 00:38:24.690
+Stephen Curran: tech.
+
+355
+00:38:25.200 --> 00:38:34.710
+Stephen Curran: Okay, we did resolve the indy tailser. We got a new release of that out. It's been tested and merged into the or being used by the new
+
+356
+00:38:36.650 --> 00:38:42.240
+Stephen Curran: I had a new Bdd test, so that worked, and we've stopped running Indie tests. So there you go.
+
+357
+00:38:43.780 --> 00:38:53.139
+Stephen Curran: Okay, We had planned a meeting. Daniel, Jason Sutter talk, and myself.
+
+358
+00:38:53.170 --> 00:38:55.170
+Stephen Curran: I did peer work.
+
+359
+00:38:55.350 --> 00:39:04.239
+Stephen Curran: So people are welcome to drop off or stick around to listen to that as we progress into. Did peer discussions
+
+360
+00:39:05.140 --> 00:39:07.650
+Stephen Curran: up to you, Woot.
+
+361
+00:39:09.150 --> 00:39:20.599
+Jason Sherman: I'm gonna leave it on in the background so I can get some information in my brain. But I don't think I'll be contributing what you guys are talking about. But I kinda need going on just
+
+362
+00:39:21.050 --> 00:39:24.390
+Stephen Curran: filling some gaps. So I'll be here, but probably not.
+
+363
+00:39:24.670 --> 00:39:25.540
+Jason Sherman: Yeah.
+
+364
+00:39:25.840 --> 00:39:28.539
+Andrew Whitehead: Yeah. Yeah. I'll stay on as well.
+
+365
+00:39:29.790 --> 00:39:36.370
+Stephen Curran: Okay? First, let's start with so what we're trying to do is is
+
+366
+00:39:36.520 --> 00:39:42.860
+Stephen Curran:  align where Jason is on the period of work.
+
+367
+00:39:43.100 --> 00:39:49.660
+Stephen Curran: Make sure we're all in sync on what's left to do and try to sort that out.
+
+368
+00:39:50.250 --> 00:39:54.419
+Stephen Curran: 2409 comes into play because this has to do with
+
+369
+00:39:54.750 --> 00:40:02.700
+Stephen Curran: did resolvers and and connections and periods. So we want to look at that and then just nail down
+
+370
+00:40:02.980 --> 00:40:04.819
+Stephen Curran: what we're gonna do with
+
+371
+00:40:05.650 --> 00:40:13.159
+Stephen Curran:  transitioning from unqualified to did peer 2 and 3 dids
+
+372
+00:40:13.330 --> 00:40:14.530
+Stephen Curran: in the future.
+
+373
+00:40:15.720 --> 00:40:18.280
+Stephen Curran: So, Daniel, why don't you start with this one?
+
+374
+00:40:19.110 --> 00:40:22.629
+Stephen Curran: 24 adders and 2409.
+
+375
+00:40:23.440 --> 00:40:24.950
+Daniel Bluhm: Yeah.
+
+376
+00:40:26.140 --> 00:40:43.309
+Daniel Bluhm: okay. So to provide just a little bit of background of of why I'm working on this. I'm working with sick. But they're really interested in enabling. Did communication over, did Web did so I've been pushing on that front.
+
+377
+00:40:44.200 --> 00:40:57.749
+Daniel Bluhm: there are a bunch of recent changes that made it. So did web could be used in more contexts within Ak pi and it was like really close to being possible to exchange those. And it did exchange protocol.
+
+378
+00:40:57.790 --> 00:41:17.659
+Daniel Bluhm: So II started filling the gap between where we were and and having the opportunity to send when you're doing a Ca did exchange request to just put a did. Web did in the request, and then the response also being able to put a did web, did, and omitting the did document from the did Exchange request.
+
+379
+00:41:18.170 --> 00:41:23.339
+Daniel Bluhm:  so that that's ultimately the goal of these changes.
+
+380
+00:41:23.400 --> 00:41:27.539
+Daniel Bluhm: But they they the fix, ended up overlapping a little bit with
+
+381
+00:41:27.650 --> 00:41:32.889
+Stephen Curran: the period work that's going on in parallel. because when you said it did.
+
+382
+00:41:33.150 --> 00:41:40.470
+Daniel Bluhm: that's all you send is the did. You don't send the did Doc? Right? Exactly.
+
+383
+00:41:40.920 --> 00:41:44.690
+Daniel Bluhm: So in in order to support. Yeah.
+
+384
+00:41:44.740 --> 00:41:57.020
+Daniel Bluhm: Not expecting a did document to to exist within a did exchange request, or did exchange response?  I adjusted.
+
+385
+00:41:57.130 --> 00:42:06.040
+Daniel Bluhm: let me look at the changes here, just to make sure I'm grounding myself. So II just did the way that we do. Resolution of
+
+386
+00:42:06.700 --> 00:42:10.630
+Daniel Bluhm: inbound connections. No, sorry
+
+387
+00:42:10.650 --> 00:42:23.230
+Daniel Bluhm: I didn't do that yet. Did I do that? The more important part is the resolving of connection targets, or how do we determine how we send a message to one of our connections?
+
+388
+00:42:23.670 --> 00:42:31.339
+Daniel Bluhm: so if you scroll down just a little bit further in the base manager there. I added online 336 a resolve connection targets
+
+389
+00:42:32.440 --> 00:42:38.349
+Daniel Bluhm: which will use the did resolver interface to resolve a did and then extract
+
+390
+00:42:38.550 --> 00:42:44.529
+Daniel Bluhm: connection, target information out of the did document that is resolved. From the dead.
+
+391
+00:42:45.800 --> 00:42:57.869
+Daniel Bluhm: And then 2404, I added, a legacy period resolver. So something that was looking in our own wallet to pull up the the did Doc. That'd be stored for connection
+
+392
+00:42:58.020 --> 00:43:10.920
+Daniel Bluhm:  and so that, combined with this change, makes it so. Our our lookup of connection target information is consistent, regardless of whether we are resolving the did
+
+393
+00:43:11.510 --> 00:43:16.899
+Daniel Bluhm: or if we're doing like a wallet lookup for it did to determine that information.
+
+394
+00:43:18.450 --> 00:43:24.890
+Stephen Curran: Okay so let me make figure out i'm I'm about to send a message to a connection.
+
+395
+00:43:25.540 --> 00:43:26.749
+Stephen Curran: All right.
+
+396
+00:43:27.980 --> 00:43:35.500
+Stephen Curran: go to the connection. Rep and grab their did. And then I call this function to
+
+397
+00:43:36.000 --> 00:43:37.819
+Stephen Curran: get the
+
+398
+00:43:38.740 --> 00:43:47.189
+Stephen Curran: endpoint recipient keys and routing keys for the for the message that I'm going to send.
+
+399
+00:43:47.500 --> 00:43:48.340
+Daniel Bluhm: Right?
+
+400
+00:43:49.180 --> 00:43:50.030
+Stephen Curran: Okay.
+
+401
+00:43:51.280 --> 00:43:52.430
+Stephen Curran: sells it.
+
+402
+00:43:52.560 --> 00:44:01.119
+Stephen Curran: So in fact, I do use the dead. And then the other thing that that clarified for me. And again, this is, I'm really starting from nothing, because I don't
+
+403
+00:44:01.440 --> 00:44:02.600
+Stephen Curran: code.
+
+404
+00:44:02.690 --> 00:44:19.349
+Stephen Curran:  we have. we have a set of connections. But we do also have a set of did so. The connection does not contain the actual. Did Doc information? The connection simply contains the did. And we have another data model or data
+
+405
+00:44:20.780 --> 00:44:31.349
+Stephen Curran: collection. That is the set of dids we we know about. And and the did, Doc. So that's how the 2 work together. Okay.
+
+406
+00:44:33.880 --> 00:44:36.270
+Daniel Bluhm: yeah. So
+
+407
+00:44:41.360 --> 00:44:46.319
+Daniel Bluhm: let's see, scanning through kind of some of the rest of the changes that were made in here.
+
+408
+00:44:47.400 --> 00:44:57.919
+Daniel Bluhm: yeah, the other changes are more specific to the handling of the did exchange requests and responses. One of the interesting things is with Didcom v. One.
+
+409
+00:44:58.100 --> 00:45:14.159
+Daniel Bluhm:  Since we receive messages, 2 keys, and the sender of the messages are identified by keys like the base 58 encoding of those keys. We need to map from key to did, and then from did to connection.
+
+410
+00:45:14.180 --> 00:45:20.070
+Daniel Bluhm: in order to associate a an inbound message with a a specific connection.
+
+411
+00:45:20.260 --> 00:45:23.320
+Stephen Curran: So even when we're resolving
+
+412
+00:45:23.700 --> 00:45:25.519
+Daniel Bluhm: did
+
+413
+00:45:25.670 --> 00:45:34.399
+Daniel Bluhm: and not parsing. It did document that was received, and that did exchange request on receipt of the did exchange request or response.
+
+414
+00:45:34.410 --> 00:45:43.650
+Daniel Bluhm: We still actually need to resolve the did to extract the keys and then to store a mapping from those keys to the did so. We can later associate connections with those
+
+415
+00:45:43.760 --> 00:45:45.010
+Daniel Bluhm: keys.
+
+416
+00:45:45.030 --> 00:45:50.450
+Stephen Curran: Okay, and let me understand that by playing that back to you when I receive a message.
+
+417
+00:45:51.060 --> 00:45:54.690
+Stephen Curran: The message contains the key
+
+418
+00:45:55.130 --> 00:45:57.450
+Stephen Curran: that was used to encrypt the message.
+
+419
+00:45:57.950 --> 00:45:58.670
+Daniel Bluhm: yeah.
+
+420
+00:45:59.120 --> 00:46:06.620
+Stephen Curran: it doesn't contain the dead. Or a reference to the data contains the key itself. And what I've got to do is. Figure out
+
+421
+00:46:07.140 --> 00:46:14.889
+Stephen Curran: what connection that's associated with, and I do that by. But the way that's done is there's a key to did mapping.
+
+422
+00:46:15.060 --> 00:46:17.619
+Stephen Curran: And then a did to connection mapping.
+
+423
+00:46:17.770 --> 00:46:18.550
+Daniel Bluhm: Right?
+
+424
+00:46:18.850 --> 00:46:19.790
+Jason Syrotuck: Second.
+
+425
+00:46:23.950 --> 00:46:24.680
+Daniel Bluhm: yep.
+
+426
+00:46:25.330 --> 00:46:27.330
+Stephen Curran: okay. So so even when
+
+427
+00:46:27.370 --> 00:46:32.679
+Daniel Bluhm: we're receiving dids, there's a resolve step that needs to take place during did exchange
+
+428
+00:46:32.710 --> 00:46:34.330
+Daniel Bluhm: to make sure that we can actually
+
+429
+00:46:35.100 --> 00:46:39.760
+Stephen Curran: alright complete the connection at that point. But I was trying to figure out was.
+
+430
+00:46:40.940 --> 00:46:45.990
+Stephen Curran: I sort of when I was tied to Jason. I sort of put down.
+
+431
+00:46:46.550 --> 00:46:59.049
+Stephen Curran: you know. There's the there's the did. You know the unqualified. And you know, Peer did processing when you establish a connection when there's a, you know, a request and a response.
+
+432
+00:46:59.170 --> 00:47:17.240
+Stephen Curran: But I was questioning whether it was ever used again, and now I know it is used again. It's used when sending, because you start with a connection. and then on receipt, you start with a key, but you go not from the key to the connection. But you go from the key to the did to the connection.
+
+433
+00:47:17.350 --> 00:47:20.480
+Stephen Curran: Yeah, okay. thank you.
+
+434
+00:47:23.440 --> 00:47:24.700
+Daniel Bluhm: Yeah.
+
+435
+00:47:26.800 --> 00:47:35.979
+Daniel Bluhm:  so yeah. So this Pr just makes it so when we are receiving those bids. We can determine the the
+
+436
+00:47:36.010 --> 00:47:42.980
+Daniel Bluhm: the information required to send a message to it. The connection target in a way that is consistent, regardless of whether that
+
+437
+00:47:43.000 --> 00:47:47.039
+Daniel Bluhm: that did is say, a peer did, or legacy peer did in this case.
+
+438
+00:47:47.050 --> 00:47:50.579
+Daniel Bluhm: or a public did, that's resolved off of
+
+439
+00:47:50.730 --> 00:47:52.719
+Daniel Bluhm: by following a did method, whatever.
+
+440
+00:47:52.740 --> 00:47:55.540
+Stephen Curran: Yeah. And then, and then you're getting
+
+441
+00:47:56.350 --> 00:48:01.520
+Stephen Curran: the caching comes into play because
+
+442
+00:48:02.720 --> 00:48:13.159
+Stephen Curran:  you've got to figure out how long before I go and grab the did doc again? You're gonna keep a copy of the did, Doc locally. That did Web
+
+443
+00:48:13.440 --> 00:48:15.150
+Stephen Curran: did dog Lola.
+
+444
+00:48:15.840 --> 00:48:20.120
+Stephen Curran: But you don't want that to become overly stale
+
+445
+00:48:20.830 --> 00:48:23.080
+Stephen Curran: in case the
+
+446
+00:48:23.280 --> 00:48:33.469
+Stephen Curran: did web has been rotated and you and you weren't notified of it right? There's no, there's no push notification that it did. Web has been changed.
+
+447
+00:48:33.680 --> 00:48:35.200
+Daniel Bluhm: Right? Yeah.
+
+448
+00:48:35.570 --> 00:48:36.390
+Stephen Curran: okay?
+
+449
+00:48:36.590 --> 00:48:38.390
+Daniel Bluhm: And even in
+
+450
+00:48:38.750 --> 00:48:55.860
+Daniel Bluhm: slightly shorter timeframes. In the process of completing an issue, credential protocol. You know there's several messages sent back and forth in that process, and if you're having to resolve the did web each time to determine how to send the next message. That's of course,
+
+451
+00:48:55.970 --> 00:48:58.470
+Daniel Bluhm: less than optimal, I guess.
+
+452
+00:48:58.540 --> 00:48:59.840
+Stephen Curran: Yeah. Okay.
+
+453
+00:49:00.990 --> 00:49:03.920
+Stephen Curran: Now, of course, if it's a did peer.
+
+454
+00:49:04.420 --> 00:49:08.140
+Stephen Curran: there's nowhere else to look for it. So that's I'm not.
+
+455
+00:49:09.100 --> 00:49:09.860
+Daniel Bluhm: Yeah.
+
+456
+00:49:10.380 --> 00:49:14.609
+Stephen Curran: Okay. Now, one other question, which is these
+
+457
+00:49:16.340 --> 00:49:26.420
+Stephen Curran: collection of correct of connections in these collection of dids? Have they existed all along. I think I gather they kind of evolved over time. Is that
+
+458
+00:49:26.700 --> 00:49:28.359
+Daniel Bluhm: that the
+
+459
+00:49:28.540 --> 00:49:36.639
+Daniel Bluhm: key to did mapping? And then the did connection mapping have independently existed, like
+
+460
+00:49:36.700 --> 00:49:41.690
+Daniel Bluhm: from the beginning. Pretty much so. Yeah, they've been around a long time.
+
+461
+00:49:47.290 --> 00:49:49.370
+Stephen Curran: And then this same idea of
+
+462
+00:49:49.450 --> 00:49:55.430
+Stephen Curran: going from a connection to their did to find the Did Doc to send it. That's all existed
+
+463
+00:49:55.640 --> 00:50:06.530
+Daniel Bluhm: right. With the only change here being that rather than always looking in the wallet for their did Doc information. We can also resolve the did Doc information.
+
+464
+00:50:07.810 --> 00:50:10.279
+Stephen Curran: And and we do that by looking at the dig.
+
+465
+00:50:10.840 --> 00:50:12.059
+Daniel Bluhm: Yes, yeah.
+
+466
+00:50:13.180 --> 00:50:15.210
+Stephen Curran: the did method. Basically.
+
+467
+00:50:15.630 --> 00:50:22.210
+Jason Syrotuck: yeah, did. Yeah, the did is the key in a in the lookup of the the did doc contracts.
+
+468
+00:50:22.540 --> 00:50:25.870
+Stephen Curran: Okay. now, the other thing.
+
+469
+00:50:26.010 --> 00:50:32.369
+Stephen Curran:  Jason, I don't know if you looked at this. But in here
+
+470
+00:50:33.930 --> 00:50:38.620
+Stephen Curran: is a legacy. Did doc corrections.
+
+471
+00:50:40.910 --> 00:50:44.370
+Stephen Curran: which is something I think. Hang on. I don't know if you guys.
+
+472
+00:50:45.340 --> 00:50:50.109
+Jason Syrotuck: yeah, that looks pretty simple, simple, similar to what I've been dealing with.
+
+473
+00:50:50.390 --> 00:50:51.280
+Stephen Curran: Yeah.
+
+474
+00:50:54.240 --> 00:50:55.500
+Stephen Curran: sorry about that.
+
+475
+00:50:56.860 --> 00:50:59.910
+Jason Syrotuck: Yup verification method
+
+476
+00:51:00.480 --> 00:51:08.620
+Jason Syrotuck: controller and then extracting out the authentication to reference. The public key, which is no, the app. And that's pretty much the exact transformation that I wrote. Yeah.
+
+477
+00:51:08.810 --> 00:51:15.160
+Stephen Curran: okay, so that's now exists.
+
+478
+00:51:17.150 --> 00:51:20.069
+Jason Syrotuck: Now is that limited? That's not limited to
+
+479
+00:51:21.400 --> 00:51:23.169
+Jason Syrotuck: like what's it called legacy
+
+480
+00:51:23.200 --> 00:51:26.730
+Jason Syrotuck: doc corrections. Yeah. The.
+
+481
+00:51:27.380 --> 00:51:30.589
+Jason Syrotuck: the, the, the. The scope of this is what
+
+482
+00:51:30.620 --> 00:51:47.350
+Jason Syrotuck: we discovered. But what we realize is that, yeah, the the existing legacy did. Doc was only used in the connection context. So I was worried about a bunch of a wide variety of did docs that may have complications or may have things that are on that we even proceed. But
+
+483
+00:51:47.450 --> 00:51:58.650
+Jason Syrotuck: if they're all connections, then there's a very simple transformation that gets done, which which I've which I've updated my branch to have. But I think it's probably got a similar scope to what you've handled here, and it's probably redundant.
+
+484
+00:52:00.760 --> 00:52:08.130
+Stephen Curran: But I'd have to look closer exactly what you're looking at. But in the in your input open example. That is.
+
+485
+00:52:08.330 --> 00:52:13.400
+Jason Syrotuck: yeah, the exact result that I'm I was working towards as well.
+
+486
+00:52:14.170 --> 00:52:18.290
+Stephen Curran: Okay. so so now
+
+487
+00:52:20.090 --> 00:52:26.550
+Stephen Curran: we're we're kind of covered. So what are the issues we've got? So what we want is that
+
+488
+00:52:28.550 --> 00:52:31.109
+Stephen Curran: on receipt of a
+
+489
+00:52:32.340 --> 00:52:38.930
+Stephen Curran: a request or a response. we want to be able to accept
+
+490
+00:52:40.080 --> 00:52:46.250
+Stephen Curran: unqualified deep peer 2. And did peer, or sorry, unqualified indeed, peer 2.
+
+491
+00:52:49.660 --> 00:53:01.149
+Stephen Curran: And this is on receipt of a message from an existing connection, or from connection the way I see it. There's the where's my list? I was gonna write this out. But
+
+492
+00:53:01.370 --> 00:53:03.599
+Stephen Curran: hang on 2 s.
+
+493
+00:53:10.640 --> 00:53:13.680
+Stephen Curran: Just one. Sec. Apologize.
+
+494
+00:53:15.590 --> 00:53:16.600
+Stephen Curran: Okay.
+
+495
+00:53:17.900 --> 00:53:21.499
+Stephen Curran: so currently on we've got
+
+496
+00:53:23.110 --> 00:53:35.290
+Stephen Curran: basically with data exchange. We only handled unqualified dits. Daniel, you've now changed it so that we actually can handle any. Did
+
+497
+00:53:36.610 --> 00:53:40.709
+Stephen Curran: zoom, it still handles unqualified Gids. Correct?
+
+498
+00:53:40.720 --> 00:53:43.789
+Daniel Bluhm: It does. Yeah. So if you pass your did duck
+
+499
+00:53:44.150 --> 00:53:48.799
+Daniel Bluhm: in the message, it will store it as it did previously.
+
+500
+00:53:48.960 --> 00:53:53.659
+Daniel Bluhm: as an unqualified value. Yeah, that whole thing. Yup.
+
+501
+00:53:54.710 --> 00:54:01.869
+Stephen Curran: okay. So what we now want to be able to do is be able to receive a period. Peer did 2
+
+502
+00:54:02.400 --> 00:54:05.659
+Stephen Curran: in the request or response.
+
+503
+00:54:06.340 --> 00:54:07.180
+Daniel Bluhm: right?
+
+504
+00:54:07.440 --> 00:54:11.320
+Jason Syrotuck: Right, and that that I don't think would be in the scope of your work, which is, that the
+
+505
+00:54:11.410 --> 00:54:17.480
+Jason Syrotuck: connections rely on this custom did Doc class and a whole bunch of weird
+
+506
+00:54:17.520 --> 00:54:26.510
+Jason Syrotuck: management. Specifically the fact that the ideas of the documents themselves and the dids themselves have no prefix, which throws off
+
+507
+00:54:26.800 --> 00:54:30.290
+Jason Syrotuck: Pied library and a couple of other things that
+
+508
+00:54:30.370 --> 00:54:39.050
+Jason Syrotuck: has made the transformations. Yeah, I've been have been rough spots that I've had to had to write around and build around. So I'm trying to figure out how
+
+509
+00:54:39.410 --> 00:54:42.400
+Stephen Curran: well. But hold on a second.
+
+510
+00:54:42.760 --> 00:54:53.340
+Stephen Curran: But but hold on a sec, what I'm the scope I'm talking to in this conversation is simply did exchange receive a peer did. and be able to store it.
+
+511
+00:54:53.740 --> 00:55:02.480
+Jason Syrotuck: Yeah, that's easy. Yeah, yeah, yeah, yeah, yeah. That's the simplest case, which is, both sides are sending and expecting to appear to's yeah
+
+512
+00:55:02.630 --> 00:55:03.820
+Stephen Curran: with the
+
+513
+00:55:04.950 --> 00:55:12.039
+Stephen Curran: one conversation that Daniel and I were having a bit back and forth this morning, which is.
+
+514
+00:55:13.050 --> 00:55:21.509
+Stephen Curran: do you call? Do you call there? Did that? Did peer 2, or they did peer 3. Do you ever referenced in Pierre? 2 again?
+
+515
+00:55:22.350 --> 00:55:23.950
+Jason Syrotuck: Right?
+
+516
+00:55:26.610 --> 00:55:36.770
+Jason Syrotuck: My! Thought II was a developer. I would expect there did to be the very last thing that we received. So if the last thing received as it did for 2. But
+
+517
+00:55:36.790 --> 00:55:41.429
+Jason Syrotuck: I think that's I think that's an error in the fact that. Yeah, if you receive it to peer 2,
+
+518
+00:55:41.690 --> 00:55:43.580
+Jason Syrotuck: I think we should assign
+
+519
+00:55:44.820 --> 00:55:47.870
+Jason Syrotuck: the did peer 3 as the there did property?
+
+520
+00:55:48.070 --> 00:56:01.100
+Jason Syrotuck:  because the other thing is like, does the Controller right? Does the Admin ever need to investigate the dip peer to like? Will they ever should they should? Should they even
+
+521
+00:56:01.340 --> 00:56:02.640
+Jason Syrotuck: be able to
+
+522
+00:56:02.760 --> 00:56:13.950
+Jason Syrotuck: like, see the deep peer, to go, resolve it themselves. and then look at it, and it's like none of that information should matter to them. It's all encryption keys and service right?
+
+523
+00:56:14.130 --> 00:56:16.149
+Jason Syrotuck: so no, I don't see any value
+
+524
+00:56:16.650 --> 00:56:22.079
+Jason Syrotuck: and any reason to ever store. Did peer 3 under the there did property of a connection.
+
+525
+00:56:22.440 --> 00:56:26.370
+Stephen Curran: 3 or 2. Sorry did Pierre. 2 should always be a did 3 for me.
+
+526
+00:56:26.450 --> 00:56:32.369
+Jason Syrotuck: because all it is is the shorthand of basically what's left but the encryption is using. And how do you
+
+527
+00:56:32.600 --> 00:56:45.680
+Jason Syrotuck: prove that it's the same person you talked to last time, however, is that weird that that might change. I mean, I guess it's true of any case right now, when they go in, key rotation happens. But that's true. Now, so that that might always change, which is fine.
+
+528
+00:56:48.130 --> 00:57:03.629
+Stephen Curran: So, Daniel, what do you think of that? So that so what we're proposing is that on receipt of adequate peer 2, we would actually resolve the end according to the rules, which is just a transformation. It's a text transformation
+
+529
+00:57:04.310 --> 00:57:11.140
+Stephen Curran: and store that with the did, as be the identifier being tier 3. And the did Doc being the
+
+530
+00:57:11.350 --> 00:57:13.690
+Stephen Curran: expanded, did Doc?
+
+531
+00:57:13.700 --> 00:57:17.229
+Stephen Curran: Yeah, there was the resolution of the dicker to yeah. Exactly. Great
+
+532
+00:57:17.390 --> 00:57:23.649
+Daniel Bluhm: that seems reasonable to me. I don't have strong opinions on okay.
+
+533
+00:57:23.800 --> 00:57:32.230
+Daniel Bluhm: Whether that that did peer 2 is is what we store or not. A. And if, especially if we intend to. Did peer 3 to be what we
+
+534
+00:57:32.490 --> 00:57:48.460
+Jason Syrotuck: identify them by in the long term. I think it would make sense for that to be what's stored on the connection, because the other options, right? Like you, receive the first message. It's a deep peer 2. And then when you receive a second message. It's a deep peer, 3 or like stays as a deep peer to forever.
+
+535
+00:57:48.480 --> 00:58:00.659
+Jason Syrotuck: which seems weird. So yeah, I think I think, transforming it and saving the degree right away, makes the most sense. And then the question comes to, has anybody written a
+
+536
+00:58:01.430 --> 00:58:06.479
+Jason Syrotuck: conversion? And that sounds like something we should probably add to the peer did library.
+
+537
+00:58:06.760 --> 00:58:11.550
+Jason Syrotuck: potentially probably the period library which I haven't looked into because I've been just
+
+538
+00:58:11.760 --> 00:58:28.019
+Daniel Bluhm: did peer 2 and running with it. I haven't listened that conversion out. So you calculated, did peer 3 by just taking everything that that comes after. Did Colon peer Colon 2, and then hashing it, and then doing a multi-base multi hashing, coding up that hash. And that's that is your, did peer 3.
+
+539
+00:58:28.020 --> 00:58:41.980
+Jason Syrotuck: Yeah. I figured I figured it was a simple, a relatively simple operation given. That's the whole point of it. But I have not looked into what that is. And I yeah, I certainly certainly can, or I can look at proposing that period lever. So I will.
+
+540
+00:58:43.210 --> 00:58:53.000
+Jason Syrotuck: so as well as long as it's well specified. I and I can figure it out. Then, yeah, it should be should be pretty simple to do just that. Yeah. The multi basin coding has been new to me. So I'm trying to figure that out.
+
+541
+00:58:55.290 --> 00:58:57.859
+Stephen Curran: Okay? And then the only other
+
+542
+00:58:59.520 --> 00:59:12.839
+Stephen Curran: only other issue that I would see. And it it really doesn't come into effect in okay, so let me keep going. Every let me keep going with the steps we're going through. So we've got a. We've got our current state
+
+543
+00:59:12.860 --> 00:59:23.960
+Stephen Curran: we've got did exchange, which is, I receive a period 2. I resolve here. 3. I store that in the connection for their did.
+
+544
+00:59:25.280 --> 00:59:28.889
+Stephen Curran: My, did I also store, as the pier did 3.
+
+545
+00:59:29.510 --> 00:59:33.199
+Stephen Curran: When I create one, I store. The the
+
+546
+00:59:34.030 --> 00:59:36.800
+Stephen Curran: the resolve period, too. I
+
+547
+00:59:37.250 --> 00:59:43.770
+Stephen Curran: I store it my did as a period 3, and so on. Okay, so that's that's good.
+
+548
+00:59:44.080 --> 00:59:45.090
+Stephen Curran: Then
+
+549
+00:59:46.310 --> 00:59:50.550
+Stephen Curran: after that, I'm still gonna go by the key and the mapping.
+
+550
+00:59:51.020 --> 00:59:55.230
+Yeah, I don't think we need to change that structure. You receive, you receive a key.
+
+551
+00:59:55.300 --> 00:59:59.130
+Jason Syrotuck: and you look up. Then you you work from there. That's the
+
+552
+00:59:59.380 --> 01:00:01.290
+Stephen Curran: that is delivered.
+
+553
+01:00:02.530 --> 01:00:08.030
+Stephen Curran: Then the next thing we do is, we add a flag that says, use period 2, 3,
+
+554
+01:00:09.360 --> 01:00:10.120
+Jason Syrotuck: Yup
+
+555
+01:00:10.390 --> 01:00:22.119
+Stephen Curran: as a startup parameter, and in that exchange, in that the only thing that changes is that the did it. The did exchange request, and response sends a period to instead of sending it unqualified.
+
+556
+01:00:22.670 --> 01:00:26.250
+Jason Syrotuck: Correct. Yeah. The.
+
+557
+01:00:27.240 --> 01:00:34.589
+Jason Syrotuck: yes, that makes sense. Yeah. I think I think I think the the complications sorry the complications arise from
+
+558
+01:00:34.810 --> 01:00:38.249
+Jason Syrotuck: upgrading existing agents. I think, starting with
+
+559
+01:00:38.620 --> 01:00:58.209
+Jason Syrotuck: agents that both understand. I think that's what I think. I think we're on the same page. On that. I think you've you've you have a connection that's long lived, and then you upgrade your agents. And now you decide you want to promote or like
+
+560
+01:00:58.220 --> 01:01:09.650
+Jason Syrotuck: migrate to using these? Did peer twos and threes. How do we do that? And that's where most of the complications come from, because you have an existing did, Doc, that might have a different shape, because it's using an old model.
+
+561
+01:01:09.840 --> 01:01:14.589
+Jason Syrotuck: And that's where some of this did legacy, Doc, correction comes in and things like that. So sorry.
+
+562
+01:01:17.140 --> 01:01:18.690
+Stephen Curran: Okay, so
+
+563
+01:01:20.030 --> 01:01:25.240
+Stephen Curran: so first of all, my thought was, if we if we upgrade an unqualified
+
+564
+01:01:27.340 --> 01:01:31.400
+Stephen Curran: did. we would upgrade it to a period 3.
+
+565
+01:01:33.710 --> 01:01:40.340
+Jason Syrotuck: Yeah, you would. So yeah, the method has been what I've been trying to do. And this this
+
+566
+01:01:41.060 --> 01:01:43.380
+Jason Syrotuck: doing, this conversion in the way that
+
+567
+01:01:43.590 --> 01:02:02.219
+Jason Syrotuck: I think you might have taken the same, which is like, how do I actually move these objects around? And what I've now been doing? And what I did the last day was just extract what you needed to generate the did peer to and just go generate the did peer to, and throw up the old structure in the old document, because you have the key.
+
+568
+01:02:02.290 --> 01:02:04.589
+Jason Syrotuck: and you have a service object.
+
+569
+01:02:04.600 --> 01:02:13.749
+Jason Syrotuck: Just pull those out and use. The peer did library to create a dip here 2, and created to peer 3 which we have nothing to send that for us. That's fine.
+
+570
+01:02:14.280 --> 01:02:22.659
+Jason Syrotuck: That way, you can actually remove a lot of the complications of the document you're trying to convert, because we're only using it for connections. which means you're only using it for dead peers.
+
+571
+01:02:22.870 --> 01:02:27.999
+Jason Syrotuck: And that wasn't what that was the code that I was writing as of the day I left was.
+
+572
+01:02:28.060 --> 01:02:31.590
+Jason Syrotuck: what if we just take what we need
+
+573
+01:02:32.300 --> 01:02:35.280
+Jason Syrotuck: and throw at everything else in the old? Did Doc, because
+
+574
+01:02:35.350 --> 01:02:36.870
+Jason Syrotuck: those are the only 2 things we need.
+
+575
+01:02:37.020 --> 01:02:38.509
+Daniel Bluhm: So I have a
+
+576
+01:02:38.640 --> 01:02:45.690
+Daniel Bluhm: question, what benefit do we actually gain from updating
+
+577
+01:02:45.810 --> 01:02:49.840
+Daniel Bluhm: old connections? To have a a
+
+578
+01:02:49.950 --> 01:02:55.889
+Daniel Bluhm: did peer representation. Because when we're actually messaging between the 2 parties.
+
+579
+01:02:55.920 --> 01:03:02.690
+Daniel Bluhm: yeah, we never actually talk about the dids again. those are are never actually visible.
+
+580
+01:03:02.960 --> 01:03:09.120
+Daniel Bluhm: except where, perhaps, when you're exchanging Json all the credentials, and you're trying to bind
+
+581
+01:03:09.170 --> 01:03:20.539
+Daniel Bluhm: the credential to a specific date or something like that. But usually they would derive a did key a did key from from their keys and provide that instead of using a connection, did
+
+582
+01:03:21.120 --> 01:03:31.359
+Jason Syrotuck: right. So I don't know the usages of that. You clearly do know more. However, the data class that's actually getting deserialized out of storage.
+
+583
+01:03:31.880 --> 01:03:37.469
+Jason Syrotuck: I think we then have to sit around forever and handle 2 instances of that
+
+584
+01:03:37.550 --> 01:03:47.230
+Jason Syrotuck: class that have different members and different accessors. And then your codes have got conditionals everywhere. Rather than writing a conversion method that says, if you see something that's weird.
+
+585
+01:03:47.460 --> 01:04:00.430
+Jason Syrotuck: just go up either into a deep peer, and then we can use the pied in classes throughout and and keeps the implementation, I think much more. much simpler. So I think there's an implementation and maintainability advantage. But I think you're right in the fact that
+
+586
+01:04:01.100 --> 01:04:03.329
+Jason Syrotuck: yeah, if you could perfectly handle it, all.
+
+587
+01:04:03.540 --> 01:04:12.220
+Jason Syrotuck: the old stuff is still valid, and if we still know how to read and write, read, to read from it. Then off we go. It's just that I wanted to avoid having. Oh.
+
+588
+01:04:12.440 --> 01:04:19.180
+Jason Syrotuck: let's use the pi to did Doc here, and let's use the old did dog here, and let's and like have a whole but whole bunch of conditionals everywhere.
+
+589
+01:04:19.280 --> 01:04:29.440
+Daniel Bluhm: That was the main concern that makes sense. So with the 2,404 that pr, that I put in
+
+590
+01:04:29.490 --> 01:04:33.200
+Daniel Bluhm: the legacy peer did resolver. Well.
+
+591
+01:04:33.690 --> 01:04:39.530
+Daniel Bluhm: will transform. As we looked at will transform the the input
+
+592
+01:04:40.010 --> 01:04:44.830
+Daniel Bluhm: dead doc. So the one that's retreat from storage into something that is
+
+593
+01:04:45.010 --> 01:04:49.419
+Daniel Bluhm: valid and pied it. But accept as a did document.
+
+594
+01:04:49.580 --> 01:05:01.410
+Daniel Bluhm:  I think those corrections are also non-destructive in the sense that like if it pulled out the document and it was already in the correct shape. It's not going to change it again.
+
+595
+01:05:01.470 --> 01:05:07.020
+Jason Syrotuck: Correct? Yeah, that was a key thing as well in in my my writing of it.
+
+596
+01:05:08.590 --> 01:05:14.890
+Jason Syrotuck: How are you so into the simple example? So how are you handling like pulling into duck out that has an id without a prefix
+
+597
+01:05:17.200 --> 01:05:24.109
+Jason Syrotuck: cause? There's did docs that exist in storage that don't have that just are at their top level. Id field is unqualified.
+
+598
+01:05:26.570 --> 01:05:30.579
+Daniel Bluhm: That member won't have did solve. Yeah.
+
+599
+01:05:30.620 --> 01:05:34.669
+Daniel Bluhm: I think those I've been inserting get soft. And
+
+600
+01:05:34.680 --> 01:05:37.829
+Stephen Curran: yeah, that
+
+601
+01:05:38.310 --> 01:05:47.670
+Stephen Curran: I'm sure it's not a an issue. But I think inserting did solve is not the right thing to do because did solve is an indie. Did resolver resolves to Indies.
+
+602
+01:05:48.690 --> 01:05:58.600
+Jason Syrotuck: Yeah, right? So so would my. So what? So my approach was, Daniel was to not not try and convert the object to object, just extract what I need and create a new did peer 2,
+
+603
+01:05:59.090 --> 01:06:03.870
+Jason Syrotuck: using obviously, basically from scratch using as though it's a. But though it's a net new thing.
+
+604
+01:06:03.980 --> 01:06:17.190
+Jason Syrotuck: yeah, it's basically a different process to me. Yeah, which which I which I thought was going to give me more stability and less handling of the details because we discovered Stephen, is that
+
+605
+01:06:17.310 --> 01:06:24.840
+Jason Syrotuck: again, this is only used for connections and connections only have 2 or 3 things we care about. and let's just hand pick those.
+
+606
+01:06:24.980 --> 01:06:29.380
+Jason Syrotuck: pull it out. create, and then use the standard creation process
+
+607
+01:06:29.710 --> 01:06:34.150
+Jason Syrotuck: as though it's brand new, and then just replace the old thing.
+
+608
+01:06:34.500 --> 01:06:42.519
+Daniel Bluhm: So let let me explain for a moment some of the reasoning behind, adding, A did solve here, because I think I think it
+
+609
+01:06:43.110 --> 01:06:56.080
+Daniel Bluhm: probably makes sense, even though it's semantically like incorrect. For that to be a did so did. And the main reason is because that's how has been treating these as they did so, whether it's been posted or not?
+
+610
+01:06:56.270 --> 01:07:00.650
+Daniel Bluhm: So actually, when I was implementing this, this resolver here
+
+611
+01:07:00.860 --> 01:07:07.940
+Daniel Bluhm:  the regular expression that matches this this
+
+612
+01:07:08.320 --> 01:07:25.299
+Daniel Bluhm: resolver against dense to resolve, and the one used by the indie resolver are actually exactly the same, except that in addition to checking. If if the regular expression matches, this resolver will do a quick peek in the wallet or in the cache to see if it's a local did
+
+613
+01:07:25.500 --> 01:07:29.749
+Daniel Bluhm: before, saying, No, I don't support this. And then and then
+
+614
+01:07:29.780 --> 01:07:37.730
+Daniel Bluhm: essentially delegating to the indie resolver like this is probably posted, or a public did so you can handle it kind of a thing.
+
+615
+01:07:37.820 --> 01:07:39.560
+Daniel Bluhm: So I think this already
+
+616
+01:07:39.930 --> 01:07:43.680
+Daniel Bluhm: relatively well handles
+
+617
+01:07:44.280 --> 01:07:50.220
+Daniel Bluhm: both qualified and unqualified dids of posted or not posted
+
+618
+01:07:50.520 --> 01:07:54.300
+Daniel Bluhm: posture, if you will, to use the language used here.
+
+619
+01:07:54.830 --> 01:07:57.439
+Daniel Bluhm: connect by. So it's
+
+620
+01:07:59.820 --> 01:08:04.370
+Daniel Bluhm:  so for these unqualified dates, I guess
+
+621
+01:08:04.410 --> 01:08:11.669
+Daniel Bluhm: what I'm feeling, and I don't. I'm not like super strongly opinionated on this front. But what I'm thinking is.
+
+622
+01:08:11.930 --> 01:08:23.140
+Daniel Bluhm: it might be simpler just to leave these. as is. since we already have a mechanism here for translating these to more modern
+
+623
+01:08:23.170 --> 01:08:28.740
+Daniel Bluhm: sensibilities, of how we should handle and process the documents, and how how we should extract
+
+624
+01:08:29.010 --> 01:08:31.270
+Daniel Bluhm: did come information out of them.
+
+625
+01:08:31.569 --> 01:08:39.249
+Daniel Bluhm: So I don't know that I see value in going through the effort of updating these.
+
+626
+01:08:39.529 --> 01:08:45.510
+Stephen Curran: so, Daniel, so you're doing this as an on the fly transformation.
+
+627
+01:08:45.870 --> 01:08:53.220
+Daniel Bluhm: Yeah, it's taking the value out of the wallet and then transforming it as it's resolved as it's needed. Which means.
+
+628
+01:08:53.439 --> 01:08:57.259
+Stephen Curran: Okay. So right now in the did collection.
+
+629
+01:08:57.399 --> 01:09:01.139
+Stephen Curran: the Id for these would be the unqualified name.
+
+630
+01:09:01.470 --> 01:09:03.450
+Stephen Curran: I'm a call string.
+
+631
+01:09:04.510 --> 01:09:09.720
+Stephen Curran: And in the connection the there did
+
+632
+01:09:10.990 --> 01:09:12.949
+Stephen Curran: would be the unqualified
+
+633
+01:09:13.399 --> 01:09:14.290
+Daniel Bluhm: correct.
+
+634
+01:09:15.670 --> 01:09:20.630
+Daniel Bluhm: It's only when we are actually presenting when we send it to Doc that we we
+
+635
+01:09:20.660 --> 01:09:25.719
+Daniel Bluhm: add the did soft prefix. But it is being added. At this point.
+
+636
+01:09:26.810 --> 01:09:32.319
+Stephen Curran: and the only issue I see with that doesn't come into play until we go to did con 2.
+
+637
+01:09:34.290 --> 01:09:38.260
+Daniel Bluhm: Right? Right? So my my question would use this, I guess.
+
+638
+01:09:38.310 --> 01:09:51.269
+Jason Syrotuck: So my question with this approach is, if we do continue, if we do convert the dock on the fly you're gonna end up with a is it correct that you're gonna end up with a connection that has a did peer 3
+
+639
+01:09:51.510 --> 01:10:00.670
+Jason Syrotuck: as the identifier. But when you actually go look up the document you've stored. the Id in that document is going to be a did solve of the old unqualified one.
+
+640
+01:10:01.360 --> 01:10:09.880
+Stephen Curran: No, we're never gonna update the unqualified ones. We're just gonna leave them like this forever.
+
+641
+01:10:12.300 --> 01:10:15.060
+Jason Syrotuck: Right? Oh, okay.
+
+642
+01:10:16.120 --> 01:10:22.869
+Stephen Curran: And that on both sides. When you see an unqualified. Did you stick? A did solve in front of it and be done with it.
+
+643
+01:10:25.970 --> 01:10:34.629
+Jason Syrotuck: And that did solve would live throughout the entire Co. Base. Because that's the other. That's the other issue is that like occupies handling this like on the flight constantly of being like.
+
+644
+01:10:34.780 --> 01:10:40.980
+Jason Syrotuck: oh, I'm saving it locally. I'm going to take the Didsov off. Oh, I've got to show it publicly. I'm going to add the Didsov. And I was hoping to.
+
+645
+01:10:41.150 --> 01:10:49.230
+Jason Syrotuck: Yeah. And the plan is just to add, did something leave it there forever, even though again, like you said semantically incorrect.
+
+646
+01:10:49.300 --> 01:10:51.500
+Stephen Curran: yeah. So when we
+
+647
+01:10:51.800 --> 01:10:54.539
+Daniel Bluhm: transition to using dip peer.
+
+648
+01:10:54.990 --> 01:10:58.160
+Daniel Bluhm: the did Doc class as it exists
+
+649
+01:10:58.320 --> 01:11:03.830
+Daniel Bluhm: should be, we should be able to just remove it, since we're not needing it to
+
+650
+01:11:04.030 --> 01:11:11.520
+Daniel Bluhm: take values that we're receiving and messages and then serializing it all that stuff and storing it.
+
+651
+01:11:11.730 --> 01:11:12.680
+Daniel Bluhm: So it
+
+652
+01:11:12.900 --> 01:11:14.629
+Daniel Bluhm: it's the.
+
+653
+01:11:14.800 --> 01:11:22.100
+Daniel Bluhm: And I think that did Doc class and its associates are the main perpetrators of the
+
+654
+01:11:22.520 --> 01:11:36.860
+Jason Syrotuck: qualified versus unqualified, adding prefixes and removing prefixes. II think they're the main culprit on on that front. Yeah, I guess I'm also yeah, I guess I'm looking at going. We now have a rigorous transformation that we
+
+655
+01:11:37.440 --> 01:11:41.750
+Jason Syrotuck: think will work to get every connection to have a did peer.
+
+656
+01:11:41.840 --> 01:11:47.200
+Stephen Curran: Exactly. Why leave? Why leave and skeleton in the closet that might confuse somebody later.
+
+657
+01:11:47.310 --> 01:11:50.019
+Jason Syrotuck: even though you're right, it probably would work
+
+658
+01:11:50.050 --> 01:11:51.810
+Jason Syrotuck: forever.
+
+659
+01:11:52.130 --> 01:11:58.799
+Jason Syrotuck: and yeah, sorry. I just know. Yeah, the semicolon. India is the delimiter. Yeah, you change that. Okay. Good cause. That was the other thing that made no sense.
+
+660
+01:11:59.130 --> 01:12:02.330
+Jason Syrotuck: yeah, I think that's kind of my thought is.
+
+661
+01:12:02.470 --> 01:12:08.540
+Jason Syrotuck: yeah, we could leave. This is did soft forever. But in a year somebody's gonna go. Oh, did soft, I mean, we'll go look it up on the ledger.
+
+662
+01:12:08.910 --> 01:12:10.320
+Jason Syrotuck: Wait! How is it?
+
+663
+01:12:10.890 --> 01:12:13.970
+Jason Syrotuck: And nobody's gonna remember that we had this weird quirk
+
+664
+01:12:14.570 --> 01:12:20.469
+Jason Syrotuck: right? And then it's just kind of forever, I guess, is my. And I'm more worried about it that it's gonna be
+
+665
+01:12:21.110 --> 01:12:25.170
+Stephen Curran: well, I'm I'm worried about the the the com to transition.
+
+666
+01:12:25.300 --> 01:12:37.579
+Jason Syrotuck: Also, also also, what won't we end up in a situation where you have a resolver? Right? When we see what's what's the Id? And we're just gonna pass that to a resolver, and the resolver is gonna go. Oh, it's got the did soft prefix, and it's gonna handle it that way
+
+667
+01:12:37.990 --> 01:12:40.570
+Jason Syrotuck: rather than giving it the proper prefix and
+
+668
+01:12:41.830 --> 01:12:42.869
+Jason Syrotuck: the proper type.
+
+669
+01:12:45.480 --> 01:12:50.139
+Daniel Bluhm:  I'm not sure I follow it there.
+
+670
+01:12:50.180 --> 01:12:51.690
+Daniel Bluhm: But
+
+671
+01:12:51.910 --> 01:13:01.259
+Daniel Bluhm: so I think, leaving these as is a bit of a closer reflection of what these were, what these are, and and that they're static
+
+672
+01:13:02.450 --> 01:13:07.090
+Daniel Bluhm: connections that are. There's no mechanism for updating the values associated with them.
+
+673
+01:13:07.540 --> 01:13:13.599
+Daniel Bluhm: And there's no need to update the value values associated with them on either end of the exchange, because
+
+674
+01:13:14.410 --> 01:13:19.549
+Daniel Bluhm: the connection information, the endpoints, the keys are still the same. It's just
+
+675
+01:13:20.230 --> 01:13:25.959
+Daniel Bluhm: whether we've stopped using that structure in our wallet or not. That's the only change, right? Which
+
+676
+01:13:26.050 --> 01:13:39.600
+Daniel Bluhm: I'm I'm all for, you know, deprecating things and getting rid of the old, and I'm not not in favor of updating the structure of these, the docs within our wallet, but I think they would still remain as unqualified did.
+
+677
+01:13:39.870 --> 01:13:47.270
+Daniel Bluhm: and I don't think it would make sense for us to try to retroactively update these to be dip peer
+
+678
+01:13:47.480 --> 01:13:49.130
+Daniel Bluhm: resembling values.
+
+679
+01:13:52.010 --> 01:13:52.670
+Hmm.
+
+680
+01:13:53.820 --> 01:13:56.110
+Daniel Bluhm: and on the the
+
+681
+01:13:56.340 --> 01:14:09.159
+Daniel Bluhm: did come. V. 2 transition question, because these are static there, there's no way for us to update them. There's no way for us to communicate that we know, except did come v. 2, to these existing connections. Anyways.
+
+682
+01:14:09.390 --> 01:14:16.040
+Jason Syrotuck: there is one operation that would change right isn't key rotation, something that
+
+683
+01:14:17.550 --> 01:14:24.629
+Daniel Bluhm: he rotation for these legacy would be, did rotation.
+
+684
+01:14:25.300 --> 01:14:28.170
+Jason Syrotuck: Right? Okay, you did rotation. Okay?
+
+685
+01:14:28.690 --> 01:14:35.519
+Jason Syrotuck: Okay, I'm not sure. I understand that process. But it's the only thing I can. The only thing I've been warned could change
+
+686
+01:14:35.730 --> 01:14:39.860
+Jason Syrotuck: after establishing a connection is that one side decides to rotate the keys.
+
+687
+01:14:40.420 --> 01:14:44.109
+Jason Syrotuck: But if that's if I have it misunderstood. That's fine. I'm just.
+
+688
+01:14:45.300 --> 01:14:52.430
+Stephen Curran: Theory is supported, but it's not supported by did peer or unqualified.
+
+689
+01:14:52.540 --> 01:14:55.050
+Jason Syrotuck: Interesting. Okay, I see. I see only for the public's
+
+690
+01:14:55.160 --> 01:14:57.499
+Stephen Curran: right publicly published.
+
+691
+01:14:57.860 --> 01:15:02.449
+Jason Syrotuck: Did I see? Okay, that makes sense. Yeah, of course, that makes sense. Okay, hmm.
+
+692
+01:15:03.480 --> 01:15:12.709
+Daniel Bluhm: we we have, like the crypto capability to do it as well. But we've never gone through yeah, defining the protocol, for you know, sending those updates and changes.
+
+693
+01:15:15.550 --> 01:15:16.240
+Daniel Bluhm: So
+
+694
+01:15:22.890 --> 01:15:23.880
+Stephen Curran: so
+
+695
+01:15:24.200 --> 01:15:27.860
+Stephen Curran: I mean, we debated a few months ago.
+
+696
+01:15:28.770 --> 01:15:35.080
+Stephen Curran: prefacing these with, Did legacy peer. which is essentially what you're doing with Didsob, except using
+
+697
+01:15:35.950 --> 01:15:48.660
+Stephen Curran: everyone. Essentially what is being done? Not saying you did it. But you you were following the pattern which is essentially the same thing. But it's E. But this is to me worse, because now we're confusing it with the
+
+698
+01:15:50.090 --> 01:15:56.269
+Stephen Curran: legacy. the actual meaning of Didso. Yeah, the actual meaning of didso.
+
+699
+01:15:56.510 --> 01:15:59.139
+Daniel Bluhm: Yeah, I guess it doesn't
+
+700
+01:15:59.270 --> 01:16:07.069
+Daniel Bluhm: it? It's not any worse, in my opinion, because it's exactly what was confused before. But I get your point. Yeah.
+
+701
+01:16:08.290 --> 01:16:09.770
+Stephen Curran: cause you could
+
+702
+01:16:11.380 --> 01:16:17.809
+Stephen Curran:  change these change this process
+
+703
+01:16:18.450 --> 01:16:25.839
+Stephen Curran: to be. you know, so that we wind up with this being a did peer 2, the output being a did peer 2.
+
+704
+01:16:25.950 --> 01:16:33.580
+Jason Syrotuck: Yeah. Which is what my my most recent. After many attempts, my most recent implementation does is goes, oh, like
+
+705
+01:16:33.610 --> 01:16:44.720
+Jason Syrotuck: this document's old. Let me just reconstruct it with the key details starting brand new as those it did peer to and using the libraries and using that to get to get consistency and
+
+706
+01:16:45.110 --> 01:16:54.590
+Jason Syrotuck: predictability rather than holding on to edge cases. But yeah, this is. This is, this is almost identical to what I had a couple of weeks ago.
+
+707
+01:16:54.850 --> 01:16:58.589
+Jason Syrotuck: and I haven't obviously haven't looked at this pull request, but in the in the
+
+708
+01:16:59.420 --> 01:17:01.959
+Jason Syrotuck: attempt and in in purpose, it's the same thing.
+
+709
+01:17:04.610 --> 01:17:05.870
+Stephen Curran: Hmm.
+
+710
+01:17:25.490 --> 01:17:28.129
+Stephen Curran: let me ask a different question. So
+
+711
+01:17:28.500 --> 01:17:36.209
+Stephen Curran: well. So you're suggesting, Daniel, that we just continuously do this on the fly as opposed to actually changing the store data.
+
+712
+01:17:37.430 --> 01:17:47.880
+Daniel Bluhm: I wouldn't be against doing a migration step like in, you know, using our usual my upgrade scripts. That's the word I was looking for.
+
+713
+01:17:47.910 --> 01:17:59.689
+Daniel Bluhm: And just changing the store. Did documents to be something that's a little bit closer to what the output would be from this. I'm yeah. I'm not against doing that at all.
+
+714
+01:18:01.180 --> 01:18:11.630
+Jason Syrotuck: The exact shape and and
+
+715
+01:18:11.700 --> 01:18:16.869
+Jason Syrotuck: structure in which the did the did Doc is saved is only relevant to the person who's saving it
+
+716
+01:18:17.320 --> 01:18:26.119
+Jason Syrotuck: right? Like the the entire, like Json structure. Somebody could save in an entirely different method, and as long as they know how to read it it doesn't really matter.
+
+717
+01:18:26.360 --> 01:18:31.540
+Jason Syrotuck:  So that was one reason why I was
+
+718
+01:18:31.610 --> 01:18:34.550
+Jason Syrotuck: comfortable or more comfortable with like a permanent conversion.
+
+719
+01:18:34.750 --> 01:18:41.990
+Jason Syrotuck: is knowing that there is no exact, perfect shape that everybody uses. It's just
+
+720
+01:18:42.090 --> 01:18:48.070
+Jason Syrotuck: as long as you can. As long as you know what you're you're so storing. It's more comfortable, obviously
+
+721
+01:18:48.150 --> 01:18:52.420
+Jason Syrotuck: closer, the better. But it's not guaranteed or not mandated to be the same.
+
+722
+01:18:59.450 --> 01:19:03.449
+Stephen Curran: Okay, so let me let me test out something that I'm thinking through right now.
+
+723
+01:19:04.920 --> 01:19:12.919
+Stephen Curran: So for a did come one perspective. it doesn't matter what we call it, or where we store it.
+
+724
+01:19:14.700 --> 01:19:21.509
+Stephen Curran: or how we store it. for the exact reason that we always start with a key.
+
+725
+01:19:23.290 --> 01:19:25.960
+Stephen Curran: and we go to a did to a connection.
+
+726
+01:19:27.080 --> 01:19:30.480
+Stephen Curran: So as long as that path is there, and
+
+727
+01:19:33.780 --> 01:19:44.170
+Stephen Curran: when we send out, we start from a connection, we go to a did, and we find we did. We go to an I did Id, and then we get the did, Doc. and then we get the key from that.
+
+728
+01:19:44.580 --> 01:19:49.250
+Stephen Curran: So for from a did call one perspective, it does not matter.
+
+729
+01:19:50.280 --> 01:19:51.979
+Stephen Curran: Do we agree with that theory?
+
+730
+01:19:52.740 --> 01:19:53.520
+Daniel Bluhm: Yeah.
+
+731
+01:19:54.440 --> 01:19:58.000
+Stephen Curran: So if we were to migrate these.
+
+732
+01:19:59.120 --> 01:20:01.279
+Stephen Curran: it would make no difference
+
+733
+01:20:01.850 --> 01:20:09.119
+Stephen Curran: until until we converted to what until we started using Didcom 2
+
+734
+01:20:10.720 --> 01:20:11.800
+Stephen Curran: agreed.
+
+735
+01:20:15.350 --> 01:20:17.790
+Stephen Curran: And and it and it did come, too.
+
+736
+01:20:19.180 --> 01:20:34.880
+Stephen Curran: I don't even know if they they, on receipt of a message, it would make any difference, but I believe that we would put their did, and our did in or 2 did, and from did into the message itself. So we start to expose that in the messages themselves.
+
+737
+01:20:37.000 --> 01:20:39.019
+Daniel Bluhm: Correct? Right? Yeah.
+
+738
+01:20:39.350 --> 01:20:42.709
+Stephen Curran: And if we did that, we don't want did sob in there.
+
+739
+01:20:44.360 --> 01:20:49.909
+Jason Syrotuck: Right? So II guess the primary question I have in response to that is.
+
+740
+01:20:50.050 --> 01:20:59.259
+Daniel Bluhm: do we intend for existing connections to be able to all of a sudden start talking did come. V. 2,
+
+741
+01:21:01.650 --> 01:21:08.759
+Daniel Bluhm: or will we have to establish new connections before we are ready to begin talking did Comey, too.
+
+742
+01:21:10.990 --> 01:21:22.670
+Stephen Curran: I think we have to assume that it'd be interesting to know what they're doing in in afj, but II would assume that we would have existing connections which would upgrade to dig, comb. V. 2.
+
+743
+01:21:27.000 --> 01:21:30.189
+Daniel Bluhm: How do we indicate readiness to receive Didcum v. 2.
+
+744
+01:21:34.900 --> 01:21:39.560
+Stephen Curran: Same way? We're gonna go from unqualified to deep. Here, too, we're gonna
+
+745
+01:21:40.970 --> 01:21:42.780
+Stephen Curran: coordinate it
+
+746
+01:21:42.810 --> 01:21:54.479
+Stephen Curran: really coordinated. Update, we? We begin by being able to accept Didcom 2 connections and then and then transition to using Didcom 2 by default.
+
+747
+01:21:56.470 --> 01:21:57.839
+Daniel Bluhm: So there will be
+
+748
+01:21:58.900 --> 01:22:04.530
+Daniel Bluhm: an upgrade day where, before we go down, we're talking. All did come. V. One.
+
+749
+01:22:04.570 --> 01:22:13.150
+Daniel Bluhm: and then we can start it back up, and then we're by default at least, talking. All did come. V, 2, to the same set of connections.
+
+750
+01:22:15.550 --> 01:22:23.569
+Stephen Curran: Yeah, I guess where I'm getting to is is less about how that happens, but more about the fact that since it doesn't matter.
+
+751
+01:22:23.650 --> 01:22:30.570
+Stephen Curran: why don't we go to, since it doesn't matter in. Did com one land.
+
+752
+01:22:31.060 --> 01:22:31.770
+Daniel Bluhm: yeah.
+
+753
+01:22:31.880 --> 01:22:38.740
+Stephen Curran: And in did come to land. We don't want to be showing did solve for these things.
+
+754
+01:22:39.570 --> 01:22:43.499
+Stephen Curran: because that's definitely a pi specific thing.
+
+755
+01:22:45.330 --> 01:22:46.960
+Stephen Curran: Why don't we? Just
+
+756
+01:22:47.050 --> 01:22:53.450
+Stephen Curran: when we do the migration, we in the upgrade script we go from unqualified to the peer 3.
+
+757
+01:22:55.670 --> 01:23:03.560
+Stephen Curran: We upgrade the connection there did. My did. And we upgrade the did to use did pier 3,
+
+758
+01:23:04.120 --> 01:23:08.219
+Jason Syrotuck:  I think that makes more sense
+
+759
+01:23:13.810 --> 01:23:15.829
+Jason Syrotuck: that is the way that I've
+
+760
+01:23:16.030 --> 01:23:20.120
+Jason Syrotuck: been leading just to try and convert everything to as we go.
+
+761
+01:23:20.270 --> 01:23:29.369
+Stephen Curran: Yeah. And we just ignore it. And and, as I say, because it doesn't even matter, and did pure one land or sorry Dittcom one land!
+
+762
+01:23:32.120 --> 01:23:39.609
+Stephen Curran: The use of dids and the did. Doc is all internal to the occupy agent. It doesn't flow across.
+
+763
+01:23:41.660 --> 01:23:43.170
+Daniel Bluhm: Damn I
+
+764
+01:23:44.100 --> 01:23:46.129
+Daniel Bluhm: I don't know that I
+
+765
+01:23:48.830 --> 01:23:51.529
+Daniel Bluhm: I'm not a fan of the
+
+766
+01:23:52.710 --> 01:23:53.730
+Daniel Bluhm: the
+
+767
+01:23:58.190 --> 01:24:06.670
+Daniel Bluhm: the, the looseness, what it what I'm trying to articulate feeling. Here I am not a fan of
+
+768
+01:24:07.220 --> 01:24:19.070
+Daniel Bluhm: we just, you know. All of a sudden we magically are aware that our remote connection has this corresponding get Period 3. So we should be able to identify them as a priorly existing connection. Like II
+
+769
+01:24:19.580 --> 01:24:20.990
+Daniel Bluhm: it's a very
+
+770
+01:24:22.820 --> 01:24:37.839
+Daniel Bluhm: like both sides. Just kind of have to know that that took place.  so in my brain it feels cleaner. It feels more in the spirit of the spec. I suppose, to establish a new connection with a new set of
+
+771
+01:24:38.810 --> 01:24:43.910
+Daniel Bluhm: did peer dids that are clearly declared to be ready to communicate, and did come. V. 2.
+
+772
+01:24:48.990 --> 01:24:54.160
+Daniel Bluhm: Based on, you know the inclusion of, except parameters. And and did come
+
+773
+01:24:55.010 --> 01:24:56.899
+Daniel Bluhm: service types and stuff like that.
+
+774
+01:24:58.410 --> 01:25:01.980
+Stephen Curran: I'm I'm not disputing that.
+
+775
+01:25:02.230 --> 01:25:03.499
+Stephen Curran: I'm just saying
+
+776
+01:25:04.770 --> 01:25:13.590
+Stephen Curran: I'm not. I'm not guessing how the transition from Big Comp one to 2 will happen. I'm just saying that
+
+777
+01:25:15.070 --> 01:25:18.829
+Stephen Curran: internally, it doesn't matter what we call these things.
+
+778
+01:25:19.190 --> 01:25:24.539
+Daniel Bluhm: Yeah. A. And I definitely agree that that is the case.
+
+779
+01:25:24.980 --> 01:25:47.729
+Daniel Bluhm: I guess I guess I question the value of going through the effort to make that conversion. If it's not gonna do us any good, because even if we start just talking to Combi 2, and we're like, Hey, you're now listed Peer 3. But I never told you this previously. You just have to assume that you know who I'm talking about like that. That transition just doesn't seem like it's one that we can feasibly make. So yeah.
+
+780
+01:25:47.840 --> 01:25:58.610
+Stephen Curran: okay, but what I'm saying is, we want to transition it to something. We might as well do something that's fitting in a standard versus something that we're making up.
+
+781
+01:25:58.820 --> 01:26:11.390
+Stephen Curran: That's that's the thing that's bugging me. And I'm and so I'm saying that the only time it actually gets exposed externally is what we go to Didcom, too. So as long as it's just internal, let's let's make it
+
+782
+01:26:11.430 --> 01:26:12.639
+Stephen Curran: at least
+
+783
+01:26:12.870 --> 01:26:18.289
+Stephen Curran: be a standards-based thing rather than converting it on the fly and using the didsof.
+
+784
+01:26:18.480 --> 01:26:19.200
+Daniel Bluhm: Okay.
+
+785
+01:26:19.520 --> 01:26:20.839
+Stephen Curran: that's my thought.
+
+786
+01:26:21.110 --> 01:26:25.689
+Daniel Bluhm: Okay? Sure I can. II think you've convinced me I'm I would be.
+
+787
+01:26:26.700 --> 01:26:28.589
+Daniel Bluhm: I am in agreement that
+
+788
+01:26:30.990 --> 01:26:32.860
+Daniel Bluhm: if we can have an upgrade script
+
+789
+01:26:33.130 --> 01:26:41.929
+Daniel Bluhm: that takes all of our locally stored, did documents and translates them to be did peer 3. And, you know, adjusting all the prior mappings and stuff, too.
+
+790
+01:26:42.050 --> 01:26:43.790
+Daniel Bluhm: point to the correct connections.
+
+791
+01:26:44.850 --> 01:26:48.000
+Daniel Bluhm: I would agree that that's better than having
+
+792
+01:26:49.100 --> 01:26:51.510
+Daniel Bluhm:  stuff that is
+
+793
+01:26:52.140 --> 01:26:54.040
+Daniel Bluhm: like pseudo convention.
+
+794
+01:26:54.170 --> 01:26:58.849
+Stephen Curran: So so what I'm wondering is.
+
+795
+01:26:59.410 --> 01:27:04.250
+Stephen Curran: would this change this. this process?
+
+796
+01:27:04.920 --> 01:27:07.769
+Stephen Curran: Change to being the
+
+797
+01:27:08.280 --> 01:27:10.080
+Stephen Curran: take this, input
+
+798
+01:27:10.680 --> 01:27:17.040
+Stephen Curran: convert it to it in peer 2, convert it to it in peer 3, and resolve it in peer 2. To get this.
+
+799
+01:27:19.830 --> 01:27:24.310
+Stephen Curran: In other words, this becomes. did. Pier 3.
+
+800
+01:27:24.980 --> 01:27:35.659
+Stephen Curran: This becomes it. Tier. 3. Right? Yeah, this. This is essentially the transformation that would be required for doing that upgrade. Yeah.
+
+801
+01:27:35.870 --> 01:27:57.140
+Jason Syrotuck: But I don't know.
+
+802
+01:27:57.210 --> 01:28:00.750
+Stephen Curran: That was a sneaky introduction of a topic.
+
+803
+01:28:00.970 --> 01:28:02.130
+Jason Syrotuck: Don't do that to me.
+
+804
+01:28:02.400 --> 01:28:04.250
+Stephen Curran: Which is.
+
+805
+01:28:04.440 --> 01:28:11.990
+Stephen Curran: I think, these id should be deep peer 3, because you're never going to see it in peer 2 after the initial creation.
+
+806
+01:28:12.400 --> 01:28:13.070
+Daniel Bluhm: Yeah.
+
+807
+01:28:13.250 --> 01:28:27.189
+Stephen Curran: So I think these. And and since it's just a text transformation to go from the. you know that, did Pierre 2 string into this. These ids can be whatever we want them to be.
+
+808
+01:28:27.390 --> 01:28:47.620
+Stephen Curran: but by having ids as did Peer two's, you can always prove that the object has never been tampered, or there's no errors in it, because you could always be like, well, I think this is weird, or I guess you could argue, that's redundancy, and you shouldn't do that. So you can reverse the process. You can take the did peer to. Did Doc reverse it and verify that it comes out to the same. Did peer 3?
+
+809
+01:28:48.580 --> 01:28:56.189
+Jason Syrotuck:  you can. Right? Yeah. We talked about this. This is a triangle. It's not actually reversible.
+
+810
+01:28:56.900 --> 01:28:58.020
+Jason Syrotuck: You take.
+
+811
+01:28:58.200 --> 01:28:59.890
+Jason Syrotuck: You have the
+
+812
+01:29:00.310 --> 01:29:10.640
+Jason Syrotuck: service and the keys which creates you did peer 2, which you can then convert to it did peer 3, and you can always turn that document and extract the service in the keys and recreate that did peer 2. But it's not.
+
+813
+01:29:11.220 --> 01:29:21.110
+Jason Syrotuck: You can't take this object because we talked about this right like you can't encrypted an object that has a hash of itself. Can't hash an object has a hash of itself. So it's not. It's
+
+814
+01:29:21.670 --> 01:29:27.730
+Stephen Curran: in this case? Yes, you can, because all you do is you extract this. and you extract.
+
+815
+01:29:28.030 --> 01:29:38.669
+Stephen Curran: You know the the public key. 58. And you're done. Now you've got your did peer 2. And now you can verify that they did peer 3 that you get from that match. This one.
+
+816
+01:29:38.950 --> 01:29:46.359
+Jason Syrotuck: Yes, you certainly can. And yeah, again, I would argue, that's not ex. It's reversible, but close enough. Yes,
+
+817
+01:29:46.950 --> 01:29:58.599
+Jason Syrotuck: you were right. We could certainly do it that way.  The benefit of that is that you guarantee that the Id. Or that your goal is that the gear that the id of the
+
+818
+01:29:59.230 --> 01:30:00.430
+Jason Syrotuck: did, Doc.
+
+819
+01:30:00.550 --> 01:30:08.009
+Jason Syrotuck: is the id you're actually going to be checking it against exactly rather than having to keep something around. That's like.
+
+820
+01:30:08.230 --> 01:30:13.570
+Jason Syrotuck: dip your twos inside. But look it up by peer 3 or something.
+
+821
+01:30:13.800 --> 01:30:18.310
+Jason Syrotuck: I see the desire. There.
+
+822
+01:30:18.460 --> 01:30:19.270
+Hmm!
+
+823
+01:30:25.130 --> 01:30:29.900
+Stephen Curran: Alright! II don't know if I've we got a decision of what we need to do.
+
+824
+01:30:30.890 --> 01:30:37.129
+Jason Syrotuck: I think so I think I don't know how or who. I don't know what cause this could merge. Right?
+
+825
+01:30:38.920 --> 01:30:42.020
+Stephen Curran: Yeah. But this could be replaced if you want
+
+826
+01:30:42.650 --> 01:30:49.029
+Jason Syrotuck: right. So I mean is, is somebody wanted to somebody? Is somebody looking to do that by itself, or am I just going to
+
+827
+01:30:49.140 --> 01:30:51.670
+Jason Syrotuck: it? Continue with my branch? And
+
+828
+01:30:52.700 --> 01:30:55.059
+Jason Syrotuck: so do do it. Do something differently like I don't know.
+
+829
+01:30:55.270 --> 01:31:03.530
+Daniel Bluhm: It's not on my schedule at this point to do that. That conversion. I'll say that much, at least right? And that's fair.
+
+830
+01:31:05.080 --> 01:31:07.310
+Jason Syrotuck: yeah. And now I guess I'm
+
+831
+01:31:08.380 --> 01:31:11.000
+Jason Syrotuck: it would certainly be easier to convert from
+
+832
+01:31:12.020 --> 01:31:14.540
+Jason Syrotuck: this corrected document into
+
+833
+01:31:15.060 --> 01:31:20.289
+Jason Syrotuck: I did here, too, which is, if you look up a connection, did, Doc, and it's not a did peer just
+
+834
+01:31:20.590 --> 01:31:25.909
+Jason Syrotuck: recreate it as though it's a dip here. That'd be the easiest way to to look at that.
+
+835
+01:31:26.070 --> 01:31:31.810
+Jason Syrotuck: Certainly easy to do. It would take. Yeah, it's a very easy conversion, because
+
+836
+01:31:32.390 --> 01:31:36.050
+Daniel Bluhm: I think what II think what I would recommend
+
+837
+01:31:36.080 --> 01:31:47.400
+Daniel Bluhm: is that we add a did 2, 3 resolver which just does a lookup in the wallet for right
+
+838
+01:31:47.820 --> 01:31:52.240
+Daniel Bluhm: and then, once that's available to us, we can go through and do the upgrade script.
+
+839
+01:31:52.480 --> 01:31:58.660
+Daniel Bluhm: and that will change all of your locally stored, unqualified dids to did pier 3,
+
+840
+01:31:58.830 --> 01:32:00.530
+Stephen Curran: and this was used
+
+841
+01:32:01.020 --> 01:32:03.550
+Daniel Bluhm: right? And then you can.
+
+842
+01:32:03.950 --> 01:32:14.730
+Daniel Bluhm: This legacy period stuff would be a a brief bridge from now to that point. But then, once it arrives at the dip Peer 3,
+
+843
+01:32:14.840 --> 01:32:24.419
+Daniel Bluhm: we don't have to do as much of the cluding stuff that I've had to do in in this resolver, because of the overlap between posted and unposted, did in their
+
+844
+01:32:24.680 --> 01:32:27.540
+Daniel Bluhm: qualification or lack thereof.
+
+845
+01:32:28.720 --> 01:32:37.750
+Daniel Bluhm: And so that would be a seamless migration to first to the dip. Peer 3, then translate from legacy to peer 3, and then.
+
+846
+01:32:38.390 --> 01:32:44.280
+Stephen Curran: okay, by up, by upgrade script. Do you mean a batch job, or do you mean, like a
+
+847
+01:32:44.420 --> 01:32:47.999
+Jason Syrotuck: again, something that would upgrade on the fly. As these things are going
+
+848
+01:32:48.600 --> 01:32:50.400
+Daniel Bluhm: like an acti upgrade
+
+849
+01:32:50.590 --> 01:32:53.380
+Daniel Bluhm: script. So when you.
+
+850
+01:32:54.220 --> 01:32:57.399
+Stephen Curran: Akabi, has the content upgrade process.
+
+851
+01:32:58.260 --> 01:33:04.119
+Jason Syrotuck: And you're talking like, oh, no point 9.2 to 0 9.3. Gotcha. Okay.
+
+852
+01:33:04.210 --> 01:33:11.290
+Jason Syrotuck: okay, I didn't. I didn't. I didn't know there was a a, a, a opportunity for behavior or injection at that level. So that makes sense.
+
+853
+01:33:11.490 --> 01:33:14.410
+Stephen Curran: Okay, so what I'd like to propose is this.
+
+854
+01:33:15.760 --> 01:33:18.989
+Stephen Curran: 2404 stays as it is.
+
+855
+01:33:19.270 --> 01:33:26.939
+Stephen Curran:  your pr. The scope of your Pr. Jason should include
+
+856
+01:33:28.310 --> 01:33:33.389
+Stephen Curran:  being able to receive both a
+
+857
+01:33:33.570 --> 01:33:35.560
+Stephen Curran: receive a PD. 2,
+
+858
+01:33:37.100 --> 01:33:39.980
+Stephen Curran: and receive a
+
+859
+01:33:40.060 --> 01:33:46.720
+Stephen Curran: unqualified did. If the DP. Is received, then send out a Pdt. 2,
+
+860
+01:33:48.290 --> 01:33:50.440
+Stephen Curran: all to do with the exchange
+
+861
+01:33:50.740 --> 01:33:51.470
+Jason Syrotuck: right?
+
+862
+01:33:52.100 --> 01:33:54.410
+Stephen Curran:  that
+
+863
+01:33:54.420 --> 01:34:00.939
+Stephen Curran: the key processing and all that in in receiving a message and sending a message works properly.
+
+864
+01:34:02.340 --> 01:34:03.220
+Jason Syrotuck: Right?
+
+865
+01:34:03.850 --> 01:34:11.129
+Stephen Curran:  and that's as far as you go.
+
+866
+01:34:16.240 --> 01:34:22.909
+Stephen Curran: Okay. So they did conversion that we just discussed. I'm trying to think of that.
+
+867
+01:34:23.020 --> 01:34:31.740
+Stephen Curran: And then the only big issue that I want to take to the community is, what is the identifier that goes in the did
+
+868
+01:34:32.300 --> 01:34:33.020
+Stephen Curran: one
+
+869
+01:34:34.960 --> 01:34:40.490
+Stephen Curran: did peer 3, which I think should be in Peer 3. But I believe in the spec. It's did peer 2.
+
+870
+01:34:40.950 --> 01:34:41.670
+Jason Syrotuck: Okay?
+
+871
+01:34:42.460 --> 01:34:47.339
+Daniel Bluhm: So I don't know if you saw my my last comment on that, Fred. There.
+
+872
+01:34:47.650 --> 01:34:51.130
+Stephen Curran:  Didn't. I might have.
+
+873
+01:34:51.640 --> 01:34:55.210
+Daniel Bluhm: I can. I can voice it to
+
+874
+01:34:55.530 --> 01:34:56.880
+Daniel Bluhm: yeah, for
+
+875
+01:34:57.310 --> 01:35:10.639
+Daniel Bluhm: brevity's sake, I guess. But I am at least personally of the opinion that if we resolve, it did peer to it should give us a did peer to, did Doc.
+
+876
+01:35:10.970 --> 01:35:14.690
+Daniel Bluhm: and if we resolve it did peer 3, it should give us a did peer 3, did, Doc.
+
+877
+01:35:14.830 --> 01:35:25.079
+Stephen Curran: And and I find, is that, yeah, II don't think that's right. I did respond to it, and I've thought about it, and I don't. II think
+
+878
+01:35:27.880 --> 01:35:28.740
+Stephen Curran: that
+
+879
+01:35:29.840 --> 01:35:33.970
+Stephen Curran: I mean we could put it also known as
+
+880
+01:35:36.280 --> 01:35:37.479
+Stephen Curran: but I think
+
+881
+01:35:37.860 --> 01:35:40.220
+Stephen Curran: I don't know. I get what you're saying.
+
+882
+01:35:41.160 --> 01:35:44.289
+Stephen Curran: It just seems wrong to
+
+883
+01:35:45.370 --> 01:35:49.920
+Stephen Curran: to use the did peer to for anything other than the transmission of the did. Doc.
+
+884
+01:35:49.970 --> 01:35:55.669
+Daniel Bluhm: Well, I'm not. I'm not saying that we should necessarily use it for anything other than the transmission of the did. Doc.
+
+885
+01:35:55.830 --> 01:35:59.419
+Daniel Bluhm: Yeah. But I think
+
+886
+01:36:00.020 --> 01:36:09.709
+Daniel Bluhm: just purely from like correctness of resolving it. Did, Doc. I think it should always have the Id corresponds to the did that was being resolved
+
+887
+01:36:09.790 --> 01:36:11.320
+Daniel Bluhm: but then
+
+888
+01:36:11.750 --> 01:36:23.199
+Daniel Bluhm: from there, whether we use the also known as property or or not, which, for the record, I think, is actually a pretty clean communication of, you know this is the same subject
+
+889
+01:36:23.290 --> 01:36:26.599
+Daniel Bluhm: between these 2 dids. Kind of a thing.
+
+890
+01:36:27.590 --> 01:36:32.319
+Daniel Bluhm: II think we can take that and say, Okay, I've seen this dip here, too. So I now know that
+
+891
+01:36:32.420 --> 01:36:38.349
+Daniel Bluhm: yeah, this corresponding to peer 3 would resolve to this document. That looks like this, which
+
+892
+01:36:38.530 --> 01:36:41.140
+Daniel Bluhm: contains an Id that corresponds to
+
+893
+01:36:41.400 --> 01:36:43.229
+Daniel Bluhm: that peer. 3.
+
+894
+01:36:43.550 --> 01:36:54.239
+Jason Syrotuck: Yeah, I do. I do agree with you, Daniel. II agree with both of you, which is, that if I put in a deep pur, do, I should get the id to be 2 out, how? How could anything else possibly make sense?
+
+895
+01:36:54.250 --> 01:36:56.159
+Jason Syrotuck: But also in the fact that like
+
+896
+01:36:56.660 --> 01:37:01.189
+Jason Syrotuck: did peer 2 is, is, did peer 2 actually a unique thing?
+
+897
+01:37:01.630 --> 01:37:08.010
+Jason Syrotuck: And Steven's arguing like, no fit for your 2 is just a shorthand for did plus did Doc.
+
+898
+01:37:09.420 --> 01:37:19.319
+Jason Syrotuck: which I yeah also see, but would not have agreed until Stephen made that claim right. Now. I would not have gotten to the same conclusion.
+
+899
+01:37:20.850 --> 01:37:33.070
+Daniel Bluhm: Yeah, I think we have to. because it's been written this way, at least to this point. I think we would have to treat it as a full-on like did method, and it wouldn't make sense for it to resolve to anything but its own. Did. Doc.
+
+900
+01:37:36.110 --> 01:37:37.470
+Jason Syrotuck: I, yeah.
+
+901
+01:37:39.880 --> 01:37:47.310
+Daniel Bluhm: because there will be implementations that continue to use it peer to in isolation, as just the only
+
+902
+01:37:47.450 --> 01:37:51.220
+Daniel Bluhm: did peer thing for a while at least, I guess. So.
+
+903
+01:38:01.420 --> 01:38:06.759
+Stephen Curran: Yeah, to me, I would put, yeah. So the spec clearly would have to change.
+
+904
+01:38:07.670 --> 01:38:08.420
+Daniel Bluhm: Yeah.
+
+905
+01:38:10.570 --> 01:38:12.990
+Jason Syrotuck: yeah, again, in which case, yeah.
+
+906
+01:38:13.040 --> 01:38:28.809
+Daniel Bluhm: if we did have a spec change, II would push for us to change in the the other direction that you proposed, where it's just a dip peer 3 with a did. URL you know fragments on it that, or query parameters, whatever it is that specify that it corresponds to a dock.
+
+907
+01:38:28.840 --> 01:38:31.770
+Stephen Curran: Really. that's interesting.
+
+908
+01:38:33.200 --> 01:38:41.740
+Daniel Bluhm: II think there might be some quirks to iron out on that front, but, like, if we were going in the direction of changing the spec. That's probably
+
+909
+01:38:41.800 --> 01:38:43.379
+Daniel Bluhm: I would rather push. And
+
+910
+01:38:43.460 --> 01:38:48.030
+Daniel Bluhm: that direction, then, retroactively changing, did peer 2 to behave differently.
+
+911
+01:38:49.750 --> 01:38:50.520
+Stephen Curran: Okay.
+
+912
+01:38:51.330 --> 01:38:57.920
+Stephen Curran: I don't know, Jason, if you saw that. But what I proposed was that that instead of sending it to peer to ever
+
+913
+01:38:57.970 --> 01:39:08.190
+Stephen Curran: you do, did Pierre 3 Colon with the dig peer short version, and then a query parameter question mark.
+
+914
+01:39:09.200 --> 01:39:11.560
+Stephen Curran: you know, Doc equals.
+
+915
+01:39:11.740 --> 01:39:16.959
+Stephen Curran: And then this identifier goes into that. The query parameter
+
+916
+01:39:19.340 --> 01:39:21.290
+Stephen Curran: interesting.
+
+917
+01:39:22.350 --> 01:39:33.129
+Stephen Curran: And then there's no question of what the the purpose of did peer to is simply, you know, the purpose of that representation is simply to send the details.
+
+918
+01:39:34.810 --> 01:39:36.850
+Stephen Curran: but the actual it is.
+
+919
+01:39:36.870 --> 01:39:42.010
+Jason Syrotuck: Sounds like it did peer 4. And that's a that's a cruel joke. I'm joking. I'm joking.
+
+920
+01:39:42.650 --> 01:39:44.390
+Stephen Curran: Yeah.
+
+921
+01:39:45.580 --> 01:39:48.179
+Stephen Curran: interesting. Hmm.
+
+922
+01:39:48.360 --> 01:39:49.560
+Jason Syrotuck: I
+
+923
+01:39:51.570 --> 01:39:55.729
+Jason Syrotuck: yeah, I guess I see the value. But is it worth changing
+
+924
+01:39:56.360 --> 01:40:01.069
+Stephen Curran: one way or another if you get it? Did Pierre? 3. How do you resolve it? Then?
+
+925
+01:40:03.030 --> 01:40:09.310
+Jason Syrotuck: If you don't have it, you throw it out.
+
+926
+01:40:09.400 --> 01:40:16.869
+Stephen Curran: Yeah, cause you've got to have a way to receive a did peer 3 look up and find the did peer 2. Did, Doc.
+
+927
+01:40:18.040 --> 01:40:22.830
+Jason Syrotuck: Yep, which is what you're saying? Is weird. So you that's why you want the results.
+
+928
+01:40:23.740 --> 01:40:43.539
+Jason Syrotuck: Yeah, that's also which which I under which I understand is currently we're gonna have to have 2 ids for a did Doc 2 ways to look up a did Doc bite, which is where also known as would fit. Right? Yeah. Which is also why I've like, I'm fond of that approach, because like it, it
+
+929
+01:40:43.840 --> 01:40:48.769
+Daniel Bluhm: that you know, I am also known as this is really clean. Semantically, I guess.
+
+930
+01:40:48.920 --> 01:40:49.770
+Stephen Curran: Yeah.
+
+931
+01:40:49.920 --> 01:40:50.730
+Daniel Bluhm: so.
+
+932
+01:40:53.020 --> 01:41:00.210
+Daniel Bluhm: and not even necessarily exclusive to our usage in in a did peer context as well?
+
+933
+01:41:01.000 --> 01:41:03.820
+Stephen Curran:  I would like
+
+934
+01:41:06.440 --> 01:41:08.629
+Stephen Curran: Jason to be able to finish this.
+
+935
+01:41:08.870 --> 01:41:09.680
+Jason Syrotuck: Yeah.
+
+936
+01:41:09.970 --> 01:41:13.660
+Jason Syrotuck: yeah, that is on my list of things to do.
+
+937
+01:41:13.940 --> 01:41:14.860
+Stephen Curran: So
+
+938
+01:41:15.440 --> 01:41:22.770
+Stephen Curran:  if the scope. So we have to make a call one way or the other. What are we? What are we? Gonna say? The string is
+
+939
+01:41:22.950 --> 01:41:23.970
+Stephen Curran: in here.
+
+940
+01:41:26.600 --> 01:41:30.190
+Daniel Bluhm: My vote down. My vote is down for it being it did peer 2.
+
+941
+01:41:30.360 --> 01:41:34.110
+Jason Syrotuck: That is currently what I think is the most expected and predictable.
+
+942
+01:41:34.130 --> 01:41:36.309
+Jason Syrotuck: Yeah, based on the existing spec.
+
+943
+01:41:36.320 --> 01:41:38.589
+Jason Syrotuck: I think if we
+
+944
+01:41:38.760 --> 01:41:45.049
+Jason Syrotuck: there's 2 things we could do, for example, we could just insert and occupy, we could just insert 2 references to the add to the dock
+
+945
+01:41:45.920 --> 01:41:53.660
+Jason Syrotuck: like double insert. But that would be weird. I don't know. I don't know the right way.
+
+946
+01:41:53.670 --> 01:41:56.190
+Stephen Curran: We're gonna make a call one way or another here.
+
+947
+01:41:56.420 --> 01:42:01.289
+Daniel Bluhm: Well, so so here's the thing we can receive. The the did peer 2,
+
+948
+01:42:01.410 --> 01:42:03.759
+Daniel Bluhm: resolve it to the did document.
+
+949
+01:42:03.770 --> 01:42:04.830
+Stephen Curran: and then
+
+950
+01:42:04.860 --> 01:42:12.339
+Daniel Bluhm: not store it in in the return state we can store it as being a 3 value. We don't
+
+951
+01:42:12.430 --> 01:42:19.229
+Daniel Bluhm: necessarily need to in perpetuity store that did appear to at any point, and still have, like
+
+952
+01:42:19.830 --> 01:42:23.619
+Daniel Bluhm: all the benefits that we're looking for here and and having the shorter term. Right?
+
+953
+01:42:23.670 --> 01:42:26.829
+Stephen Curran: Okay? So so in in
+
+954
+01:42:27.320 --> 01:42:30.850
+Stephen Curran: in the connection there did. What's it gonna be?
+
+955
+01:42:32.110 --> 01:42:33.560
+Daniel Bluhm: Did peer 3
+
+956
+01:42:33.580 --> 01:42:35.140
+Stephen Curran: hit pier 3. Okay.
+
+957
+01:42:36.900 --> 01:42:43.969
+Stephen Curran: And when you and when we do the key to did search. it's going to be dig pier 3
+
+958
+01:42:44.560 --> 01:42:45.340
+Daniel Bluhm: right?
+
+959
+01:42:48.450 --> 01:42:59.190
+Jason Syrotuck: Right? So the question. So when you query your when you query your wallet when you cruise a database, you're gonna give it a did peer 3, and it's gonna give us a document back then, as it did peer 2. As the for as the id member.
+
+960
+01:42:59.630 --> 01:43:05.370
+Daniel Bluhm: no, what I'm saying is that we would actually transform that document into being one that represents a dip here. 3.
+
+961
+01:43:05.530 --> 01:43:14.960
+Jason Syrotuck: And so the Ids and Controller values would all correspond to the that we stored, and not as part of the spec.
+
+962
+01:43:18.440 --> 01:43:23.220
+Daniel Bluhm: Okay, so the dip peer 2 in my mind still resolves to a dip peer 2 document.
+
+963
+01:43:23.530 --> 01:43:34.200
+Daniel Bluhm: but we know that this did peer 2 corresponds to this did Pier 3. And so we're just going to store the document that would correspond to the with the the id values being
+
+964
+01:43:34.330 --> 01:43:40.509
+Daniel Bluhm: peer 3 but it it was derived from the document that we resolved through the dip here, too.
+
+965
+01:43:43.610 --> 01:43:44.340
+So
+
+966
+01:43:45.840 --> 01:43:47.649
+Stephen Curran: okay, let me try
+
+967
+01:43:50.890 --> 01:43:56.199
+Stephen Curran: if we ever receive it did. Now, the only time we're ever gonna receive it did
+
+968
+01:43:57.320 --> 01:44:04.190
+Stephen Curran: is in request in response. And we're saying we're gonna convert those to did. Pier three's agreed
+
+969
+01:44:04.690 --> 01:44:05.510
+Daniel Bluhm: right?
+
+970
+01:44:09.500 --> 01:44:10.250
+Jason Syrotuck: Right?
+
+971
+01:44:10.920 --> 01:44:14.380
+Stephen Curran: We would never receive a dip peer 2 any other time.
+
+972
+01:44:15.530 --> 01:44:18.189
+Jason Syrotuck: Correct like, unless unless
+
+973
+01:44:18.500 --> 01:44:30.530
+Jason Syrotuck: well, yeah. Like, the idea is like, if you get a new. Did peer 2 on an existing connection, you could like update the did, Doc, but that, like even that doesn't make any sense right? There's no method for it to change.
+
+974
+01:44:31.080 --> 01:44:32.100
+Stephen Curran: Okay?
+
+975
+01:44:33.980 --> 01:44:34.980
+Stephen Curran: So
+
+976
+01:44:37.460 --> 01:44:41.990
+Stephen Curran: again, I come back to in the occupy. did collection.
+
+977
+01:44:43.740 --> 01:44:48.429
+Stephen Curran: The documents gonna look like this, with the only really question being.
+
+978
+01:44:50.390 --> 01:44:54.019
+Stephen Curran: What is this string? And I think it has to be at period 3.
+
+979
+01:44:58.680 --> 01:45:10.440
+Daniel Bluhm: I might be I might be splitting hairs in my attempt to distinguish between docs result from period 2 and docs result from period 3. Yeah, that's my
+
+980
+01:45:10.800 --> 01:45:16.879
+Daniel Bluhm: II agree that the stored value the thing that we actually store as it did document within a pi should be. Did Pier 3
+
+981
+01:45:16.940 --> 01:45:28.370
+Stephen Curran: want to know
+
+982
+01:45:29.380 --> 01:45:30.720
+Jason Syrotuck: if you hand
+
+983
+01:45:30.890 --> 01:45:41.400
+Jason Syrotuck: if you if you ask for a did if you ask for the did peer 2 or yes for the did you use the did peer to, or use it? Did peer 3? You're going to get the exact same storage object back, Daniel. Is that what you want?
+
+984
+01:45:42.110 --> 01:45:53.010
+Stephen Curran: No. If you gave it a dip here, too. I would expect it to do the exact same usual resolution. Oh, it wouldn't even look it up. It would just. We would just run the resolution from the last.
+
+985
+01:45:53.820 --> 01:46:07.119
+Jason Syrotuck: Okay? So the resolver goes, did peer to? Well, I don't even need to look in my storage. I just have to run this algorithm to process that. And if it's a did peer 3, it goes. Oh, that means it's in local storage. And I have to go look it up
+
+986
+01:46:07.690 --> 01:46:12.099
+Jason Syrotuck: interesting. And the yeah. And when we see it appear 2 for the first time.
+
+987
+01:46:12.370 --> 01:46:22.419
+Jason Syrotuck: or actually in any time, you're gonna say, do I have a did peer 3 stored with this. Oh, I don't. Then I'm gonna go put into my storage, and if they already do, then great! I don't need to do anything else
+
+988
+01:46:22.910 --> 01:46:23.820
+Stephen Curran: correct.
+
+989
+01:46:24.690 --> 01:46:27.990
+Jason Syrotuck: interesting. I think that's consistent.
+
+990
+01:46:28.130 --> 01:46:30.540
+Jason Syrotuck: I think it gives us the
+
+991
+01:46:30.970 --> 01:46:37.320
+Jason Syrotuck: simplistic advantages that we want with the implementation. It's a little bit redundant, but I don't think it's wrong.
+
+992
+01:46:38.040 --> 01:46:39.579
+Stephen Curran: Yeah, I think it makes sense.
+
+993
+01:46:39.600 --> 01:46:46.589
+Stephen Curran: Okay? And then we're gonna punt on the migration. For now, until we get more of a community understanding of what the migration would be.
+
+994
+01:46:47.990 --> 01:46:50.270
+Jason Syrotuck: Migration for
+
+995
+01:46:50.720 --> 01:46:57.970
+Stephen Curran: handling legacy, unqualified dates to did. We're just gonna punt on that for now.
+
+996
+01:46:58.450 --> 01:46:59.720
+Jason Syrotuck: Okay.
+
+997
+01:47:00.340 --> 01:47:02.700
+Stephen Curran: you're not going to do anything in that area.
+
+998
+01:47:02.820 --> 01:47:06.540
+Jason Syrotuck: Right? So what does that mean? Oh, right? Because this code exists
+
+999
+01:47:06.860 --> 01:47:25.489
+Stephen Curran: exactly the other code that see that Daniel already wrote exists. So the Cla, the actual class, change the actual class migration that I've been doing is obsolete or is not necessary because Daniel's already done it in his, and we're changing the scope of what it is supposed to do anyway, cause we cause there's too many open questions about
+
+1000
+01:47:26.050 --> 01:47:33.550
+Stephen Curran: all the things that you've raised as questions are still open because they're community questions, not questions. We can answer.
+
+1001
+01:47:35.150 --> 01:47:40.779
+Jason Syrotuck: Okay, okay, I will need to look at code that I have.
+
+1002
+01:47:41.280 --> 01:47:45.489
+Jason Syrotuck: I probably will either refer to this recording, or maybe I'll reach out once I've
+
+1003
+01:47:46.170 --> 01:47:59.509
+Stephen Curran: started to to actually write this stuff. But yes, I think I conceptually I think we have an understanding of what we, what we want to accomplish
+
+1004
+01:48:00.070 --> 01:48:02.009
+Stephen Curran: in did exchange.
+
+1005
+01:48:02.360 --> 01:48:03.100
+Jason Syrotuck: Yeah.
+
+1006
+01:48:03.650 --> 01:48:08.090
+Stephen Curran: Be able to receive both. If you receive a PD. 2,
+
+1007
+01:48:08.420 --> 01:48:16.120
+Stephen Curran: you in the request. You send out a Pd 2 in the response. Otherwise you're always sending out unqualified in both
+
+1008
+01:48:17.130 --> 01:48:19.110
+Stephen Curran: right in response.
+
+1009
+01:48:19.720 --> 01:48:25.040
+Stephen Curran: Then there's a flag you're gonna add, use. Pid deer. Peer did. 2, 3,
+
+1010
+01:48:25.850 --> 01:48:26.640
+Jason Syrotuck: yeah.
+
+1011
+01:48:26.890 --> 01:48:31.370
+Stephen Curran: And when that is set. then
+
+1012
+01:48:32.100 --> 01:48:37.669
+Stephen Curran: sending them by default, when you send a request, you're going to send a period to.
+
+1013
+01:48:40.320 --> 01:48:41.060
+Jason Syrotuck: Yeah.
+
+1014
+01:48:41.280 --> 01:48:46.549
+Stephen Curran: that's the only behavior change that that flag does. And then and that's as far as you're gonna go.
+
+1015
+01:48:46.780 --> 01:49:00.699
+Stephen Curran: Also, the storage thing we just talked about, which is that when you get received, it did peer to. You're going to save correct. You're going to receive a did peer 2 version, and you're also going to convert did peer 3 and save that version? No.
+
+1016
+01:49:00.710 --> 01:49:07.810
+Jason Syrotuck: no, I think the only thing you're gonna do is save. Oh, right sorry. Yes, it says you're only gonna save it in peer 3 right? Right? Right? Resolve did.
+
+1017
+01:49:09.090 --> 01:49:11.859
+Jason Syrotuck: Here, yeah. Bid pier 2 dock.
+
+1018
+01:49:14.300 --> 01:49:23.400
+Jason Syrotuck: I'm gonna put did your 3 doc in quotes? If you're 3 id, doc and store that
+
+1019
+01:49:23.470 --> 01:49:27.360
+Jason Syrotuck: do not store did peer to dock
+
+1020
+01:49:28.020 --> 01:49:38.820
+Stephen Curran: correct, you are gonna always can always be reconstructed easily. You're gonna add to our did resolver a period, 2 resolver and a period. 3. Resolver
+
+1021
+01:49:39.020 --> 01:49:39.710
+Jason Syrotuck: right
+
+1022
+01:49:40.950 --> 01:49:47.539
+Jason Syrotuck: period 2 will not look at local storage periods. We will. Right? Correct. I've also got to figure out how to
+
+1023
+01:49:47.730 --> 01:49:48.870
+Jason Syrotuck: works.
+
+1024
+01:49:49.400 --> 01:49:52.430
+Jason Syrotuck: Real quick. I don't know if you can look at it quickly.
+
+1025
+01:49:53.140 --> 01:49:57.380
+Jason Syrotuck: the resolvers are expecting methods. and now we have
+
+1026
+01:49:58.000 --> 01:50:01.540
+Jason Syrotuck: details beneath methods, and I don't know whether
+
+1027
+01:50:01.600 --> 01:50:03.140
+Jason Syrotuck: in the Did Resolver.
+
+1028
+01:50:03.580 --> 01:50:08.189
+Jason Syrotuck: Is that a. To to write that as a did pew resolver, and then a whole bunch of if statements
+
+1029
+01:50:08.200 --> 01:50:14.700
+Jason Syrotuck: resolver and just check a little bit after the prefix.
+
+1030
+01:50:14.720 --> 01:50:23.649
+Daniel Bluhm: Yeah, that's a good question so the the did resolver actually is just asking. It's set of registered resolvers whether it supports
+
+1031
+01:50:23.880 --> 01:50:41.879
+Daniel Bluhm: they did, and it gives the did infall to the resolver to check and see if it supports it the default behavior enables you to use. There, there's a shorthand, for if you just want to do like a Regex match to see if you support the did or not, you can define the supported
+
+1032
+01:50:41.880 --> 01:51:08.169
+Daniel Bluhm: did pattern or or match whatever I called the the method so you can specify Regex. And as part of that, Regex, you're you're matching against the folded, not just the method. So you you should be able to write a separate. Did peer 2 resolver and a separate tip pier? 3. Resolver without needing to worry about. You know, ifs analysis and that's exactly the answer I wanted. I just wasn't sure how to get there. But yeah, that makes that makes that makes sense. Okay, cool.
+
+1033
+01:51:08.200 --> 01:51:16.499
+Jason Syrotuck: So I can override that. Yeah. Reddit slightly. Cause. Yeah, cause that is the end result of what I've been trying to do.
+
+1034
+01:51:16.860 --> 01:51:28.070
+Daniel Bluhm: the pr, 24 4 that, I added, which adds the the legacy, peer, resolver, perioded resolver. You can see what the supports
+
+1035
+01:51:28.100 --> 01:51:29.520
+Daniel Bluhm: method looks like.
+
+1036
+01:51:29.610 --> 01:51:36.410
+Daniel Bluhm: But I think you should be able to accomplish what we need to by using the support it did rejects pattern. Still.
+
+1037
+01:51:36.950 --> 01:51:37.740
+Jason Syrotuck: right?
+
+1038
+01:51:38.590 --> 01:51:41.680
+Stephen Curran: Okay. okay.
+
+1039
+01:51:42.020 --> 01:51:48.340
+Stephen Curran: one more question for to get expertise.
+
+1040
+01:51:48.980 --> 01:51:54.750
+Stephen Curran: Daniel, do you think we should do this for the connections protocol or just date, exchange
+
+1041
+01:51:55.650 --> 01:52:09.210
+Daniel Bluhm: or defer that question till after this? That's good question. I've been debating that myself. For the 2409, whether I needed to apply those changes to connections as well.
+
+1042
+01:52:09.250 --> 01:52:14.939
+Daniel Bluhm: I think we could. I don't think the implementation would be dramatically different between the 2.
+
+1043
+01:52:14.980 --> 01:52:24.439
+Daniel Bluhm: So it'd be similar changes made in 4 locations instead of to 4 being request response, and did exchange and request response and connections.
+
+1044
+01:52:24.660 --> 01:52:35.570
+Daniel Bluhm:  But I don't know. I'm a little. I'm conflicted. I'm not sure I have a strong opinion one way or the other. Yet.
+
+1045
+01:52:35.900 --> 01:52:41.839
+Stephen Curran: So Jason, for the scope of this pr can did exchange. Only.
+
+1046
+01:52:42.530 --> 01:52:53.279
+Jason Syrotuck: yeah. Yeah. And I was what I had limited to. So that is that is consistent. We simply add another issue and another Pr to do it to connections. Yeah.
+
+1047
+01:52:55.680 --> 01:52:58.290
+Stephen Curran: that should be all the answers. I think
+
+1048
+01:52:58.660 --> 01:53:01.149
+Jason Syrotuck: the the only thing
+
+1049
+01:53:01.930 --> 01:53:10.789
+Jason Syrotuck: right. And if it if, if, while you're accepting the old stuff, don't use the did resolver pattern at all. Just skip it and use the existing
+
+1050
+01:53:11.060 --> 01:53:16.260
+Jason Syrotuck: in method code. That's been handling the unresolved stuff. Okay?
+
+1051
+01:53:17.360 --> 01:53:18.510
+Jason Syrotuck: Think that makes sense.
+
+1052
+01:53:19.380 --> 01:53:28.029
+Jason Syrotuck: That was a question for Daniel, not me. We can't centralize everything through this
+
+1053
+01:53:28.240 --> 01:53:43.829
+Daniel Bluhm: did resolver structure because we're still gonna have to handle this on this old unqualified did behavior that is in the resolver structure. Yeah, if we get a did Doc attachment, then the existing code will still be run. Yeah, exactly. Yeah. That's what I was.
+
+1054
+01:53:44.700 --> 01:53:46.060
+Jason Syrotuck: Okay? Well.
+
+1055
+01:53:46.250 --> 01:54:03.130
+Jason Syrotuck: yeah, thanks for your time. This helps. And obviously I was away for a week. So this gets me back up to speed very fast, which is nice. I'll turn away at this and let you guys know I've cut a bunch of meetings a little weird, usually my days pretty quiet. But
+
+1056
+01:54:03.170 --> 01:54:05.529
+Jason Syrotuck: yeah, tomorrow I'll definitely
+
+1057
+01:54:05.860 --> 01:54:09.669
+Jason Syrotuck: probably, have a good github update. And
+
+1058
+01:54:10.370 --> 01:54:12.789
+Stephen Curran: I don't think there's any need for the
+
+1059
+01:54:13.140 --> 01:54:16.019
+Stephen Curran: 10'clock meeting for you. So you know.
+
+1060
+01:54:16.460 --> 01:54:20.659
+Jason Syrotuck: Oh, like the refinement, maybe. Just skip that and and keep working.
+
+1061
+01:54:20.740 --> 01:54:29.270
+Stephen Curran: if you've got, if you know what you're working on, and you do right now, let's just go with that. So maybe maybe I'll take you up on that, because that would probably
+
+1062
+01:54:29.360 --> 01:54:30.670
+Jason Syrotuck: yeah. Benefit.
+
+1063
+01:54:31.050 --> 01:54:31.870
+Stephen Curran: Good.
+
+1064
+01:54:32.060 --> 01:54:34.030
+Jason Sherman: Can I skip that meeting, too? Steven?
+
+1065
+01:54:34.180 --> 01:54:35.990
+Stephen Curran: Yes. Okay.
+
+1066
+01:54:36.540 --> 01:54:48.300
+Stephen Curran: thanks. Okay. Yeah. Sounds good for for this one, obviously, with the timing of me just coming back. So that's good. Okay, awesome. Thank you.
+
+1067
+01:54:48.310 --> 01:54:58.410
+Jason Syrotuck: It was good. It was. Yeah, it was exciting games. And meet some new people. And yeah, it was, it was really good. really good event for me not not perfect, but never is.
+
+1068
+01:54:58.950 --> 01:55:13.330
+Jason Syrotuck: I may. I may have another time off question for you in end of September, if if something comes through, but I'll I'll hold off until I get a until I get a request till I get an email invitation. Call it
+
+1069
+01:55:14.390 --> 01:55:19.339
+Stephen Curran: Daniel. Jason is a lacrosse referee and a hockey referee.
+
+1070
+01:55:19.420 --> 01:55:20.449
+Jason Syrotuck: That's right.
+
+1071
+01:55:20.510 --> 01:55:35.800
+Jason Syrotuck: Yeah. So doing an event in Vancouver last week. And yeah. So we'll see. I don't don't wanna say anything until things happen, so I'll I'll let you know if something comes. But yeah, I got another something on the radar for late September.
+
+1072
+01:55:36.420 --> 01:55:38.119
+Stephen Curran: and to go with one other
+
+1073
+01:55:38.270 --> 01:55:48.690
+Stephen Curran: cool, sideline job by members of our team. Wade is going up to a driver race where he is an official. He and his family are officials. His wife used to be a drag race driver.
+
+1074
+01:55:49.230 --> 01:55:58.600
+Stephen Curran: Oh, he doesn't drive. He's he's an official for those events that's cool. He's an official for the events. And and Tracy is the announcer these days, but she used to be a driver.
+
+1075
+01:55:58.700 --> 01:56:00.129
+Jason Syrotuck: Oh, that's fantastic.
+
+1076
+01:56:01.400 --> 01:56:03.719
+Jason Syrotuck: very unique man!
+
+1077
+01:56:04.090 --> 01:56:09.820
+Stephen Curran: Alright! Thanks thanks for your time. Guys appreciate it.
+
+1078
+01:56:09.950 --> 01:56:10.890
+Stephen Curran: Bye.
+

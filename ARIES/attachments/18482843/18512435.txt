@@ -1,0 +1,27 @@
+00:07:20	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=22382505
+00:09:03	mwherman2000:	I can't see the grid? 
+00:10:05	Ajay:	Its here - https://wiki.hyperledger.org/display/ARIES/Aries+Working+Group
+00:11:54	Cam Parra:	Can we get link to meet up?
+00:12:04	Cam Parra:	Thank you
+00:23:45	Troy Ronda:	How does the AMS/DRI naming relate to the KMS naming last week?
+00:24:18	Cam Parra:	KMS is just part of AMS
+00:25:19	Nader:	+1 to the simplified repo approach
+00:26:27	Troy Ronda:	Ah ok. What’s an example of a data element stored in DRI? I assume the metadata discussed last week is still in KMS.
+00:28:06	mwherman2000:	AMS=?
+00:29:47	George Aristy:	Agent Managed Storage
+00:29:50	Troy Ronda:	Is there some common code in aries-ams beyond interfaces?
+00:36:30	mwherman2000:	Aries Runtime?
+00:38:24	Nader:	is it really an SDK if we pull all of the AMS logic out of that repo?
+00:40:14	Gary de Beer:	core +1
+00:40:47	Paul Knowles:	We can call things “Core”, “Mantel”, “Crust”
+00:41:12	Paul Knowles:	Not sure if I’m joking or not …
+00:42:44	Ajay:	+1 for Core
+00:44:33	Ajay:	Will it be all in Rust?
+00:52:38	Cam Parra:	Yes rust is the language for these repos
+00:53:13	Stephen Curran:	@troy - DRI is anything written to the ledger. DIDs, schema, etc.                                                                                                                                                                                                                                                       
+00:53:34	Stephen Curran:	DR is the name that W3C came up with for the ledger.
+00:55:50	Troy Ronda:	I think test suites are a good idea. I want to make sure that test suite inclusion isn’t a gate keeper function though.
+01:03:16	Gustavo Frederico (Pivotree):	An alternative is to choose a date to turn warnings into errors.
+01:07:04	George Aristy:	Pending questions for the protocol test suite (written by Daniel): https://hackmd.io/JW5b9xYCRGKqyqhVevTZ_g
+01:17:52	Troy Ronda:	Thanks @Stephen
+01:26:40	George Aristy:	sorry

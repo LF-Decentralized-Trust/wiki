@@ -1,0 +1,84 @@
+1. [Technical Oversight Committee](index.html)
+2. [Technical Oversight Committee Home](Technical-Oversight-Committee-Home_21430274.html)
+3. [Hyperledger Projects](Hyperledger-Projects_21447704.html)
+4. [TSC Project Updates](TSC-Project-Updates_21430854.html)
+5. [2020 Project Updates](2020-Project-Updates_21450093.html)
+
+# Technical Oversight Committee : 2020 Q2 Hyperledger Aries
+
+Created by Sam Curren, last modified by Christopher Ferris on Jun 25, 2020
+
+Project
+
+Hyperledger Aries
+
+Project Health
+
+Project health continues to improve. A minor difficulty arose as members of the Sovrin Foundation paid staff were laid off. As members of that paid staff contributed to several code projects and community coordination within the Aries project some of those efforts briefly struggled as other community sponsors were found to help support that work. That disruption unfortunately includes the timely generation of this quarterly report. Overall, the Aries project was only very lightly affected; meetings were held, major code projects continued work without interruption, and releases continued. The lack of major disruption is a credit to the health and diversity of the project and broad support of active community members.
+
+# Questions/Issues for the TSC
+
+There are no issues for the TSC at this time.
+
+# Releases
+
+##### [**Aries Framework Go 0.1.3 (May 6, 2020)**](https://github.com/hyperledger/aries-framework-go/releases/tag/v0.1.3)
+
+- Adds initial support for out-of-band, issue credential, present proof protocols
+- Pluggable KMS/Crypto improvements
+- Verifiable credential / JSON-LD Signature improvements
+
+##### [**Aries Framework Go 0.1.2 (Feb 26, 2020)**](https://github.com/hyperledger/aries-framework-go/releases/tag/v0.1.2)
+
+- WebAssembly/JS controller target (enables loading the framework in a browser)
+- DIDComm mediator support
+- Verifiable credential controller APIs
+
+# Overall Activity in the Past Quarter
+
+Community participation is very active in rocketchat channels, community calls, and repo PR reviews and issues. Email lists are less frequently used.
+
+Coordination with the DIF DIDComm working group is healthy, with regular reports being shared.
+
+Project work in main repos is healthy and active.
+
+# Current Plans
+
+- Development and adoption of new Out Of Band and DID Exchange protocols to solve issues with the current Connections protocol.
+- Development and adoption of new versions of Credential Exchange Protocols for additional features.
+- New version of Interoperability Profile targeting new protocols.
+- Protocol Test Suite and Test Harness development
+- Continued shared library development.
+
+# Maintainer Diversity
+
+Aries is a multi-codebase effort, and each codebase has its own set of maintainers. The diversity of maintainers closely matches contributors, with notes below.
+
+# Contributor Diversity
+
+We have not tracked meeting attendance, RFC contributions, and code contributions in a way that makes it easy to quantify contributor diversity. Here are a few indicators of our current diversity:
+
+- We hold two community calls: Weekly at Noon Pacific to cover US and Pacific contributors, and every two weeks at 7am Pacific to cover US and European contributors.
+- Call attendance for each call is typically in the 15-20 range.
+- Most organizations have only one attendee; it is rare for more than 3 to attend from the same organization.
+- Cross codebase interoperability efforts indicate cross-organization cooperation.
+
+# Additional Information
+
+# Reviewed by
+
+- [Angelo de Caro](https://lf-hyperledger.atlassian.net/wiki/people/70121:d6b0f0e4-825f-4f16-88e1-4d14e95f2f10?ref=confluence)
+- [Arnaud J LE HORS](https://lf-hyperledger.atlassian.net/wiki/people/70121:0e75e3b8-500a-4067-9f7e-ed46e91bcb9d?ref=confluence)
+- [Christopher Ferris](https://lf-hyperledger.atlassian.net/wiki/people/5abb903a8724022aa9070581?ref=confluence)
+- [Dan Middleton](https://lf-hyperledger.atlassian.net/wiki/people/712020:2979764a-3998-4ef1-8810-60b799067924?ref=confluence)
+- [Gari Singh](https://lf-hyperledger.atlassian.net/wiki/people/557058:51429e31-90f4-4684-b7cd-9a4fe15ff188?ref=confluence)
+- [Hart Montgomery](https://lf-hyperledger.atlassian.net/wiki/people/712020:86f447c0-86dc-43b3-ac03-6a31923bbb84?ref=confluence)
+- [Mark Wagner (Deactivated)](https://lf-hyperledger.atlassian.net/wiki/people/70121:81b88945-c9ef-40fe-9224-207bdb280922?ref=confluence)
+- [Nathan George](https://lf-hyperledger.atlassian.net/wiki/people/712020:3e7556ab-cdb8-47f5-8b68-12a3378021fd?ref=confluence)
+- [Swetha Repakula](https://lf-hyperledger.atlassian.net/wiki/people/712020:503b5691-8e92-4d2d-83d3-e9e74d296436?ref=confluence)
+- [Tracy Kuhrt](https://lf-hyperledger.atlassian.net/wiki/people/712020:eb6ae9c3-aa8e-40ba-9dab-a6969b1ac52e?ref=confluence)
+- [Troy Ronda](https://lf-hyperledger.atlassian.net/wiki/people/557058:c854f35a-2b58-4be3-9003-ca2a67495580?ref=confluence)
+
+Document generated by Confluence on Nov 26, 2024 11:22
+
+[Atlassian](http://www.atlassian.com/)

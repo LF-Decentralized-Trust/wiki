@@ -1,0 +1,1762 @@
+WEBVTT
+
+1
+00:01:54.600 --> 00:01:55.500
+Cam Parra | kiva.org: Anything how are you.
+
+2
+00:01:57.030 --> 00:01:57.690
+Nathan George: Hello.
+
+3
+00:02:00.210 --> 00:02:06.030
+Nathan George: The areas me just barely wrapped up I don't know if they if anyone announced the ursa meeting in the areas me.
+
+4
+00:02:09.600 --> 00:02:11.100
+Cam Parra | kiva.org: On their chat yesterday.
+
+5
+00:02:18.240 --> 00:02:21.930
+Nathan George: were the only two in the right spot maybe we're the ones in the wrong spot I don't know.
+
+6
+00:02:25.080 --> 00:02:26.700
+Cam Parra | kiva.org: This is the calendar invite.
+
+7
+00:02:26.940 --> 00:02:27.660
+Cam Parra | kiva.org: zoom link.
+
+8
+00:02:31.530 --> 00:02:33.420
+Nathan George: Right in the one on the tasc calendar right.
+
+9
+00:02:37.920 --> 00:02:40.170
+Cam Parra | kiva.org: i'm on the calendar of public meetings.
+
+10
+00:02:49.500 --> 00:02:51.690
+Sean Bohan (hyperledger): what's up cam what's up what's up man.
+
+11
+00:02:53.700 --> 00:02:54.120
+Nathan George: hey Sean.
+
+12
+00:02:55.650 --> 00:02:56.460
+Cam Parra | kiva.org: Sean how are you.
+
+13
+00:03:03.000 --> 00:03:09.180
+Sean Bohan (hyperledger): In the spirit of the phrase identity is hard zoom still has to be logged in as.
+
+14
+00:03:10.500 --> 00:03:11.730
+Sean Bohan (hyperledger): hyper ledger which is great.
+
+15
+00:03:15.990 --> 00:03:16.560
+Sean Bohan (hyperledger): So listen.
+
+16
+00:03:18.870 --> 00:03:24.330
+Sean Bohan (hyperledger): I don't know if you guys have time at the end of the call I think we're waiting probably like Brent and maybe.
+
+17
+00:03:27.960 --> 00:03:36.630
+Sean Bohan (hyperledger): hard, but I can show a couple of deck slides about today architecture supporting or so, if you have not already seen them if you have at school without to do it.
+
+18
+00:03:38.280 --> 00:03:38.730
+Cam Parra | kiva.org: cool.
+
+19
+00:03:53.430 --> 00:03:58.830
+Nathan George: Well there's always the case for start on time with wherever you have that way everyone learns to be on time.
+
+20
+00:04:00.690 --> 00:04:02.160
+Cam Parra | kiva.org: yeah we can do that.
+
+21
+00:04:02.490 --> 00:04:05.820
+Sean Bohan (hyperledger): weird it almost sounds as if someone has children, yes.
+
+22
+00:04:10.050 --> 00:04:13.470
+Sean Bohan (hyperledger): Are you guys go ahead and says this is there's a call, I am a guest.
+
+23
+00:04:13.950 --> 00:04:17.340
+Nathan George: And that that's a nice theory shot, but I don't know that that actually works out that way.
+
+24
+00:04:17.730 --> 00:04:21.420
+Sean Bohan (hyperledger): As someone who doesn't have kids I just look at all of you and all I did you do that.
+
+25
+00:04:22.710 --> 00:04:27.870
+Cam Parra | kiva.org: yeah it doesn't work with dogs they keep their own schedule, even if they're later not.
+
+26
+00:04:28.290 --> 00:04:29.550
+Sean Bohan (hyperledger): cam i've learned that the hard way.
+
+27
+00:04:30.150 --> 00:04:34.200
+Cam Parra | kiva.org: yeah it's not it they're the they're the boss.
+
+28
+00:04:35.250 --> 00:04:36.780
+Nathan George: A bit hearts here now, we can get started.
+
+29
+00:04:37.200 --> 00:04:40.080
+Cam Parra | kiva.org: Excellent cool hey are you.
+
+30
+00:04:41.970 --> 00:04:46.350
+Cam Parra | kiva.org: I do not have recording privileges to this, so I don't know how to do that.
+
+31
+00:04:46.620 --> 00:04:49.320
+Nathan George: it's being recorded, so I think we're in good shape.
+
+32
+00:04:50.580 --> 00:05:04.800
+Hart Montgomery: The magic number, I think, since everybody on this call can have it 1425361236 Okay, that will let you claim basically any hyper ledger meeting you.
+
+33
+00:05:05.820 --> 00:05:08.160
+Hart Montgomery: And I do unfortunately have to drop any 30 but.
+
+34
+00:05:13.320 --> 00:05:25.800
+Cam Parra | kiva.org: cool alright cool well let's get this started real quick um so um our agenda goes this following me share.
+
+35
+00:05:26.970 --> 00:05:41.520
+Cam Parra | kiva.org: My screen right here um so yeah just for the recording purposes, remember that we have the antitrust policy and keep that.
+
+36
+00:05:43.680 --> 00:05:56.220
+Cam Parra | kiva.org: Are agenda we don't have any announcements, right now, our pull request on CS select is still up and yeah today, I wanted to discuss certified sets.
+
+37
+00:05:56.700 --> 00:06:05.850
+Cam Parra | kiva.org: And I think everyone on the call is familiar with them, so I mean let's open up the discussion i'll stop the screen share and open the floor up.
+
+38
+00:06:06.750 --> 00:06:09.870
+Hart Montgomery: Can you talk more about what you wanted certified sets.
+
+39
+00:06:11.970 --> 00:06:17.280
+Cam Parra | kiva.org: yeah on application to what we're currently building in areas and.
+
+40
+00:06:18.960 --> 00:06:21.210
+Cam Parra | kiva.org: Decentralized identity and.
+
+41
+00:06:23.220 --> 00:06:31.170
+Cam Parra | kiva.org: yeah just like how like have you like what What is your opinion about it, do you think you would work with credentials.
+
+42
+00:06:34.110 --> 00:06:41.010
+Hart Montgomery: So, so I guess, more specifically, can you say exactly what property you want out of certified sets.
+
+43
+00:06:43.440 --> 00:06:45.990
+Cam Parra | kiva.org: Well, what we want is to be able to.
+
+44
+00:06:47.040 --> 00:06:51.720
+Cam Parra | kiva.org: To use it for revocation right and we want to be able to have.
+
+45
+00:06:53.400 --> 00:07:03.450
+Cam Parra | kiva.org: For us to have a set with revoke credentials and be able to anonymously know if you know the revoke credential is in that set.
+
+46
+00:07:04.980 --> 00:07:07.290
+Hart Montgomery: Okay, so I give you a credential right.
+
+47
+00:07:11.760 --> 00:07:18.330
+Hart Montgomery: or give you some some like anonymized version of some masks credential, shall we say right.
+
+48
+00:07:18.660 --> 00:07:19.140
+Right.
+
+49
+00:07:20.550 --> 00:07:24.150
+Hart Montgomery: And you want to do a set comparison right.
+
+50
+00:07:25.500 --> 00:07:25.800
+Hart Montgomery: And then.
+
+51
+00:07:26.250 --> 00:07:30.330
+Hart Montgomery: magically find out if it's if it's in the set or not right.
+
+52
+00:07:31.560 --> 00:07:32.010
+Cam Parra | kiva.org: Right.
+
+53
+00:07:32.670 --> 00:07:35.310
+Hart Montgomery: And do you, what do you need to do this, and like bulker.
+
+54
+00:07:37.800 --> 00:07:38.250
+Cam Parra | kiva.org: yeah well.
+
+55
+00:07:38.850 --> 00:07:49.200
+Cam Parra | kiva.org: Well, preferably we want to do this as efficiently and as much as we can, or well I guess the the paper that I sent out that Mike had gave given us said that.
+
+56
+00:07:50.430 --> 00:07:52.500
+Cam Parra | kiva.org: Basically, every attribute in.
+
+57
+00:07:52.800 --> 00:07:57.960
+Cam Parra | kiva.org: Have a credential is considered a set so yeah I would have to be done.
+
+58
+00:07:59.310 --> 00:08:01.260
+Cam Parra | kiva.org: It would have to be done in bulk.
+
+59
+00:08:02.460 --> 00:08:04.110
+Hart Montgomery: So one of this email from.
+
+60
+00:08:04.950 --> 00:08:07.830
+Cam Parra | kiva.org: This one this one out on the chat yesterday of.
+
+61
+00:08:09.540 --> 00:08:10.260
+Cam Parra | kiva.org: Announcements.
+
+62
+00:08:10.590 --> 00:08:15.120
+Hart Montgomery: Sorry, I missed it on the chat then did you put it on the rocket chat or the discord.
+
+63
+00:08:15.420 --> 00:08:16.320
+Cam Parra | kiva.org: The discord yeah.
+
+64
+00:08:16.980 --> 00:08:18.900
+Cam Parra | kiva.org: Great on earth announcements.
+
+65
+00:08:18.990 --> 00:08:20.160
+Hart Montgomery: yeah sorry about that.
+
+66
+00:08:22.410 --> 00:08:30.120
+Hart Montgomery: I have like 18 million chat channels like feel free to email is.
+
+67
+00:08:30.540 --> 00:08:32.190
+Hart Montgomery: This this is mostly on me for.
+
+68
+00:08:32.190 --> 00:08:32.640
+Not.
+
+69
+00:08:33.750 --> 00:08:34.680
+Hart Montgomery: Checking the chat.
+
+70
+00:08:40.230 --> 00:08:43.590
+Hart Montgomery: I don't see it on the chat did you post it on the announcements.
+
+71
+00:08:43.680 --> 00:08:44.730
+Cam Parra | kiva.org: Announcements yeah.
+
+72
+00:08:45.060 --> 00:08:48.390
+Hart Montgomery: Okay, oh right, so this is private set intersection.
+
+73
+00:08:48.810 --> 00:08:49.200
+Right.
+
+74
+00:08:50.550 --> 00:08:53.700
+Hart Montgomery: So I will say there has been a lot of work done in this since.
+
+75
+00:08:56.550 --> 00:08:57.750
+Hart Montgomery: Since this paper.
+
+76
+00:09:01.260 --> 00:09:07.950
+Hart Montgomery: It has become very practical and like big companies do this so.
+
+77
+00:09:10.980 --> 00:09:12.210
+Hart Montgomery: I know, like.
+
+78
+00:09:16.050 --> 00:09:18.420
+Hart Montgomery: I think Facebook has an implementation even.
+
+79
+00:09:22.620 --> 00:09:31.320
+Hart Montgomery: I can ask around but I mean if you like, if you just look at look for private said intersection.
+
+80
+00:09:32.640 --> 00:09:35.490
+Hart Montgomery: there's a ton of a ton of recent papers.
+
+81
+00:09:40.080 --> 00:09:41.880
+Cam Parra | kiva.org: cool anything you have a question.
+
+82
+00:09:42.570 --> 00:09:46.590
+Nathan George: I was just gonna ask heart is there any, are there any papers that have kind of.
+
+83
+00:09:47.970 --> 00:09:59.550
+Nathan George: got come to the surface, as ones that you think are good ones for us to start with one of the things i've had struggles here is figuring out, you know, following along with the progression of the papers right.
+
+84
+00:10:00.960 --> 00:10:01.380
+Hart Montgomery: yeah.
+
+85
+00:10:01.800 --> 00:10:02.640
+Nathan George: But but they're all.
+
+86
+00:10:03.450 --> 00:10:09.060
+Hart Montgomery: So a couple of my friends actually work actively in this if you are like I can email them.
+
+87
+00:10:10.710 --> 00:10:12.690
+Hart Montgomery: and ask them like.
+
+88
+00:10:16.110 --> 00:10:17.760
+Hart Montgomery: You know, basically asked.
+
+89
+00:10:20.220 --> 00:10:21.720
+Hart Montgomery: What they would recommend.
+
+90
+00:10:23.940 --> 00:10:26.370
+Hart Montgomery: Does that seem like a reasonable thing.
+
+91
+00:10:26.730 --> 00:10:28.170
+Nathan George: Not reasonable, but awesome.
+
+92
+00:10:28.560 --> 00:10:30.270
+Hart Montgomery: Okay yeah I mean i'm.
+
+93
+00:10:31.350 --> 00:10:36.180
+Hart Montgomery: Sorry, what am I good friends, who was was actually my now friend former intern.
+
+94
+00:10:37.410 --> 00:10:43.950
+Hart Montgomery: took a job at IBM research and he's done a ton of stuff on this so like maybe we can pull him in.
+
+95
+00:10:45.570 --> 00:10:48.600
+Hart Montgomery: His, are there any kind of like.
+
+96
+00:10:53.460 --> 00:11:02.670
+Hart Montgomery: Is there anything outside the realm of normal PSI that you're looking for like is there are there, like scalability issues or.
+
+97
+00:11:06.870 --> 00:11:07.440
+Hart Montgomery: You know.
+
+98
+00:11:08.940 --> 00:11:19.080
+Nathan George: Well, my interest is rather selfish, which is the idea of we've got a whole lot of hyper ledger indie networks running around, and if we can combine the idea of threshold signatures with.
+
+99
+00:11:20.340 --> 00:11:32.610
+Nathan George: With me aggregated signature, they should say with this idea of private said intersection where I could say it here's the corner Mike frost is that quorum President the signatures in the Oracle there's some interesting things that shake out of that.
+
+100
+00:11:34.770 --> 00:11:36.840
+Hart Montgomery: yeah that's a that's a good.
+
+101
+00:11:38.550 --> 00:11:39.300
+Hart Montgomery: good idea.
+
+102
+00:11:40.980 --> 00:11:46.950
+Hart Montgomery: I guess like what scale like what are the what size sets are we talking here.
+
+103
+00:11:49.740 --> 00:11:52.710
+Hart Montgomery: I guess indie network so they're going to be pretty large right.
+
+104
+00:11:54.300 --> 00:12:05.550
+Nathan George: yeah but the number of validated nodes may not be tremendous but like what this opens up is the idea that validators aren't necessarily also the signatories to the blocks right um.
+
+105
+00:12:05.610 --> 00:12:08.790
+Nathan George: yeah you're trying to make it so you're more permission list.
+
+106
+00:12:09.570 --> 00:12:11.430
+Hart Montgomery: Right right, no, I understand that.
+
+107
+00:12:13.740 --> 00:12:15.810
+Hart Montgomery: yeah No, this is a really good idea.
+
+108
+00:12:18.930 --> 00:12:22.740
+Hart Montgomery: And I will ask about this.
+
+109
+00:12:24.390 --> 00:12:30.150
+Hart Montgomery: Let me write this, so let me write this down on my task sheet sorry.
+
+110
+00:12:31.980 --> 00:12:36.600
+Cam Parra | kiva.org: yeah one of the questions that I had is how do you stop being malicious.
+
+111
+00:12:37.980 --> 00:12:57.600
+Cam Parra | kiva.org: let's say like a malicious company who wants to compare who wants you to share your set with their set from asking for too much like they want to know as much as possible, so that you know they could gather as much information about you as possible, how would you stop that.
+
+112
+00:12:58.830 --> 00:13:02.370
+Hart Montgomery: So they're actually good definitions for this.
+
+113
+00:13:03.570 --> 00:13:10.530
+Hart Montgomery: So the idea is you, you want to show that, so you have, first of all, you have to have sort of a manual policy for.
+
+114
+00:13:11.610 --> 00:13:12.990
+Hart Montgomery: for stopping things right.
+
+115
+00:13:18.840 --> 00:13:29.250
+Hart Montgomery: You, but you sort of have to enforce this yourself right like what queries are you going to answer right or how many queries, but you can show that sort of like.
+
+116
+00:13:31.260 --> 00:13:37.170
+Hart Montgomery: The learning from queries composes nicely for many of these schemes, if that makes sense.
+
+117
+00:13:41.730 --> 00:13:44.130
+Hart Montgomery: I don't know if that if that sort of does but.
+
+118
+00:13:45.360 --> 00:13:51.510
+Hart Montgomery: Like what question so if you're just asking like intersection queries right there's only so much you can learn right.
+
+119
+00:13:52.680 --> 00:13:53.250
+Cam Parra | kiva.org: Right.
+
+120
+00:13:59.970 --> 00:14:04.350
+Hart Montgomery: And, and it the sort of like compose gracefully right like.
+
+121
+00:14:05.610 --> 00:14:18.750
+Hart Montgomery: In good versions of these schemes you don't learn any more than you would from like just the knowledge of like to intersection queries right and these some of these things have what's called simulation security.
+
+122
+00:14:19.830 --> 00:14:21.930
+Hart Montgomery: Which means, if you like, know the.
+
+123
+00:14:24.540 --> 00:14:36.090
+Hart Montgomery: If you sort of know the number of the intersections that the adversary, is going to ask you can simulate everything to an adversary, such that it's indistinguishable from the real protocol.
+
+124
+00:14:40.080 --> 00:14:42.300
+Hart Montgomery: Did that answer your question at all Kim.
+
+125
+00:14:44.190 --> 00:14:45.420
+Cam Parra | kiva.org: yeah it does.
+
+126
+00:14:52.800 --> 00:14:53.160
+Nathan George: i'm.
+
+127
+00:14:56.460 --> 00:14:57.210
+Hart Montgomery: Sorry Nathan.
+
+128
+00:14:58.170 --> 00:15:00.660
+Nathan George: there's some early stuff we did it.
+
+129
+00:15:01.980 --> 00:15:09.600
+Nathan George: The sovereign around this idea of public or you need to anchor everything publicly, so that you could resolve.
+
+130
+00:15:11.340 --> 00:15:20.100
+Nathan George: Everybody could be resolved on an oracle for the key reduction problem um it just it's it struck me as We walked through some of the.
+
+131
+00:15:21.270 --> 00:15:30.060
+Nathan George: The computation problem that that private said intersection could introduce some of those same issues back into the system, meaning it.
+
+132
+00:15:32.700 --> 00:15:46.530
+Nathan George: I guess it doesn't because as long as I have uniqueness on each kid doesn't matter per se, but this this construct that i'm computing the full latter joined means that the non correlated to the system can't really be proven on the global scale candidate.
+
+133
+00:15:48.150 --> 00:15:50.070
+Hart Montgomery: sorry that last slide again.
+
+134
+00:15:52.410 --> 00:15:53.010
+Nathan George: So.
+
+135
+00:15:54.120 --> 00:16:03.390
+Nathan George: i'm just i'm trying to get my my arms around how I know that I have not introduced correlation through my private settings section.
+
+136
+00:16:04.950 --> 00:16:15.270
+Nathan George: or introduced to unintended correlation right because it's basically a homomorphic encryption technique that says, I can prove whether this set or what the intersection is between just said, not set right.
+
+137
+00:16:15.480 --> 00:16:21.150
+Hart Montgomery: it's not a horrific encryption technique right because homomorphic encryption doesn't reveal anything right.
+
+138
+00:16:25.470 --> 00:16:39.660
+Hart Montgomery: Does that make sense, so so here you are getting some information about you, if you want to view it as an encryption it's a functional encryption and because you are getting some information about the the underlying plain text right.
+
+139
+00:16:40.050 --> 00:16:40.440
+Okay.
+
+140
+00:16:41.820 --> 00:16:50.790
+Hart Montgomery: But, in many cases, you will get like nothing more than like what you would gain from the knowledge of the intersections right.
+
+141
+00:16:51.990 --> 00:17:02.430
+Nathan George: But the but the computation that doesn't generally in general sense that the intense, to give you back the difference between the sets or the attention just to say.
+
+142
+00:17:03.570 --> 00:17:06.390
+Nathan George: there's complete overlap or there's not complete overlap.
+
+143
+00:17:07.020 --> 00:17:17.970
+Hart Montgomery: Will it will usually tell you what that I mean you can have it so that it tells you complete overlap or no overlap, you can also have it tell you the number of things that overlap right.
+
+144
+00:17:20.580 --> 00:17:24.690
+Hart Montgomery: You can also have variants that like spit out the things that overlap.
+
+145
+00:17:28.290 --> 00:17:30.630
+Cam Parra | kiva.org: Right there's a way to there's a way to do.
+
+146
+00:17:32.310 --> 00:17:32.760
+Nathan George: It.
+
+147
+00:17:32.940 --> 00:17:34.050
+Cam Parra | kiva.org: On this as well right.
+
+148
+00:17:34.380 --> 00:17:39.420
+Nathan George: It just seems that that detail matters tremendously to some of what we're doing for an identity didn't work.
+
+149
+00:17:42.090 --> 00:17:46.020
+Hart Montgomery: Yes, but so I guess like this is a well studied topic.
+
+150
+00:17:47.070 --> 00:17:49.080
+Hart Montgomery: And you can probably have like.
+
+151
+00:17:50.820 --> 00:17:54.840
+Hart Montgomery: Any PSI variant that you can think of someone who's probably built.
+
+152
+00:18:00.600 --> 00:18:01.830
+Hart Montgomery: Does that make sense.
+
+153
+00:18:02.220 --> 00:18:10.500
+Nathan George: yep that's part of what i'm trying to explore and i'm having a hard time finding finding the words to get the pieces i'm looking for.
+
+154
+00:18:10.950 --> 00:18:13.320
+Hart Montgomery: And, like some of this will be more.
+
+155
+00:18:15.060 --> 00:18:19.080
+Hart Montgomery: People may have written some of these more in terms of multi party computation.
+
+156
+00:18:22.890 --> 00:18:31.590
+Hart Montgomery: Because technically private set intersection is just like a very minimalistic if you want it to do more than you know you need more.
+
+157
+00:18:33.210 --> 00:18:37.320
+Hart Montgomery: You need more power, I guess, like, if you want it to output, the elements in common, or something.
+
+158
+00:18:41.370 --> 00:18:42.240
+Hart Montgomery: But.
+
+159
+00:18:45.090 --> 00:18:52.800
+Hart Montgomery: But yes, that this is like this as well study that I can try to I won't make it my homework to find.
+
+160
+00:18:56.040 --> 00:18:57.120
+Hart Montgomery: To find out.
+
+161
+00:18:58.920 --> 00:19:07.860
+Hart Montgomery: What sort of what what's a good what's the latest best like intro point to PSI.
+
+162
+00:19:09.900 --> 00:19:16.710
+Hart Montgomery: And then, like hopefully you know we cannot dive in and figure out what's the sort of best.
+
+163
+00:19:17.790 --> 00:19:18.420
+Protocol.
+
+164
+00:19:22.170 --> 00:19:36.810
+Cam Parra | kiva.org: So I have another question wouldn't it wouldn't you also create a correlation problem, because you have to disclose who your certificate authority is, or at least provide a list of your certificate authorities.
+
+165
+00:19:37.110 --> 00:19:38.640
+Hart Montgomery: to disclose your ca's.
+
+166
+00:19:39.270 --> 00:19:47.880
+Cam Parra | kiva.org: Well that's what the paper said that you would disclose that you that that your CA was coming from a trusted party.
+
+167
+00:19:48.180 --> 00:19:53.790
+Nathan George: yeah I think there's a terminology, but we need to map that onto the terminology it's not certificate authority specific.
+
+168
+00:19:54.390 --> 00:19:59.670
+Cam Parra | kiva.org: right but either way you're signer the the trusted signer right that you're you're.
+
+169
+00:20:01.020 --> 00:20:07.800
+Cam Parra | kiva.org: In both parties need to know need to know who it is so that they can decide if it's trusted or not.
+
+170
+00:20:14.700 --> 00:20:16.950
+Nathan George: The Facebook protocol calls this the I.
+
+171
+00:20:19.110 --> 00:20:29.250
+Nathan George: Did I did this is part of how they're doing a trusted setup so I don't know if the protocol you're describing sounds like a good authority to bypass trusted setup but I don't know.
+
+172
+00:20:30.210 --> 00:20:35.640
+Hart Montgomery: yeah I mean the I don't the CA is not directly related to private sector section right.
+
+173
+00:20:39.360 --> 00:20:47.040
+Cam Parra | kiva.org: I thought it was I thought it was at that that was like the whole point was that that your your set is certified by these authorities that you trust.
+
+174
+00:20:49.110 --> 00:20:52.590
+Hart Montgomery: Well, I mean it could be in your application right but it doesn't.
+
+175
+00:20:53.940 --> 00:20:56.400
+Hart Montgomery: Like it doesn't necessarily have to be right.
+
+176
+00:20:57.690 --> 00:21:03.090
+Hart Montgomery: So who like you could, if you if you didn't want to do that right, you could prove the whole thing and zero knowledge.
+
+177
+00:21:03.090 --> 00:21:14.130
+Hart Montgomery: Right, you can prove that it was certified by some trusted thing and zero knowledge right and then that would sort of not reveal your CA right.
+
+178
+00:21:14.370 --> 00:21:14.880
+Right.
+
+179
+00:21:15.960 --> 00:21:17.070
+Cam Parra | kiva.org: Okay, that makes sense.
+
+180
+00:21:17.130 --> 00:21:20.490
+Hart Montgomery: And if it's only like a single proof than maybe it's not so expensive.
+
+181
+00:21:23.790 --> 00:21:26.880
+Hart Montgomery: But that's even assuming, you have to use ca's in the first place.
+
+182
+00:21:29.070 --> 00:21:30.180
+Hart Montgomery: Which is not clear that you do.
+
+183
+00:21:32.370 --> 00:21:32.760
+Cam Parra | kiva.org: yeah.
+
+184
+00:21:33.450 --> 00:21:41.850
+Nathan George: Can if you can look at some of the other papers they'll be more explicit about what it is they're setting up and why and how they're guaranteeing the property that sets are comparing.
+
+185
+00:21:42.210 --> 00:21:51.510
+Nathan George: Comparing to, and I think usually the CA part you fragment is only about i'm going to compare to something, how do I do want to point to the right something yeah.
+
+186
+00:21:53.310 --> 00:22:12.930
+Cam Parra | kiva.org: that's right right because this paper said that the cia's would would use a cl signature to to to verify to verify the set you know and so that's or, where I was like okay well so like, how do you like you need to know the you know who is cl signature, that is.
+
+187
+00:22:12.990 --> 00:22:13.830
+Nathan George: In order yeah and that's.
+
+188
+00:22:14.730 --> 00:22:19.440
+Nathan George: The same problem I get a set to compare against how do I know what's the right set check it signature.
+
+189
+00:22:19.800 --> 00:22:20.190
+Right.
+
+190
+00:22:22.140 --> 00:22:28.140
+Hart Montgomery: yeah but I mean you, if you really don't want that you just you can do like a proof of knowledge of a signature right.
+
+191
+00:22:30.240 --> 00:22:31.410
+Cam Parra | kiva.org: yeah that makes sense.
+
+192
+00:22:33.810 --> 00:22:38.160
+Nathan George: Which is what that cl signature should have been providing right because it's a sentence or a notch.
+
+193
+00:22:43.260 --> 00:22:46.530
+Hart Montgomery: Well, it might not be a blind it might.
+
+194
+00:22:47.700 --> 00:22:50.070
+Hart Montgomery: yeah you might know who the signers though right.
+
+195
+00:22:51.840 --> 00:22:56.220
+Hart Montgomery: So you might need another layer of zero knowledge to mask the signer right yep.
+
+196
+00:22:56.670 --> 00:22:58.980
+Nathan George: cases that you can ask the key without.
+
+197
+00:22:59.010 --> 00:22:59.910
+Nathan George: masking the identifier.
+
+198
+00:23:00.480 --> 00:23:00.960
+yeah.
+
+199
+00:23:02.040 --> 00:23:02.430
+So.
+
+200
+00:23:05.670 --> 00:23:07.380
+Hart Montgomery: yeah but I mean this.
+
+201
+00:23:08.490 --> 00:23:14.190
+Hart Montgomery: This is definitely doable it's an efficiency question, but I think once the kp for estimator is probably fine.
+
+202
+00:23:22.020 --> 00:23:22.500
+So.
+
+203
+00:23:24.960 --> 00:23:26.280
+Hart Montgomery: Does that make sense, Kim.
+
+204
+00:23:27.510 --> 00:23:40.020
+Cam Parra | kiva.org: yeah it does yeah it does um so would it be really a viable solution for revocation that's like probably like an general very general question, but what something like this.
+
+205
+00:23:41.430 --> 00:23:43.650
+Cam Parra | kiva.org: Work or yeah.
+
+206
+00:23:44.100 --> 00:23:46.470
+Hart Montgomery: yeah PSI is very efficient.
+
+207
+00:23:48.990 --> 00:23:52.170
+Hart Montgomery: So, in terms of like.
+
+208
+00:23:53.280 --> 00:23:58.380
+Hart Montgomery: If there's anything that's going to work cryptographic Lee like this stands a good chance.
+
+209
+00:24:02.310 --> 00:24:06.330
+Hart Montgomery: I guess it depends on like what other bells and whistles you need on top of PSI.
+
+210
+00:24:09.150 --> 00:24:11.790
+Hart Montgomery: But I mean it's certainly worth looking at.
+
+211
+00:24:18.510 --> 00:24:19.770
+Hart Montgomery: So so yeah.
+
+212
+00:24:24.390 --> 00:24:31.590
+Hart Montgomery: I mean, I would definitely consider it it's a very practical thing in crypto that's getting a lot of attention so.
+
+213
+00:24:35.910 --> 00:24:37.620
+Hart Montgomery: Here let's let's do the.
+
+214
+00:24:40.380 --> 00:24:41.790
+Hart Montgomery: Like if we search.
+
+215
+00:24:46.800 --> 00:24:48.240
+Hart Montgomery: ACR search sucks.
+
+216
+00:24:49.140 --> 00:24:50.490
+Cam Parra | kiva.org: But if we search like.
+
+217
+00:24:50.610 --> 00:24:52.860
+Hart Montgomery: For PSI there are like.
+
+218
+00:24:54.480 --> 00:25:03.270
+Hart Montgomery: 234-567-8910 they're like close to 20 papers.
+
+219
+00:25:04.560 --> 00:25:07.620
+Hart Montgomery: On PSI last year arnie print.
+
+220
+00:25:14.610 --> 00:25:15.120
+Hart Montgomery: Like.
+
+221
+00:25:16.560 --> 00:25:18.120
+Hart Montgomery: here's a practical paper.
+
+222
+00:25:24.810 --> 00:25:29.790
+Hart Montgomery: This is, this is not necessarily something you want to read, but i'm just like.
+
+223
+00:25:31.020 --> 00:25:32.340
+Hart Montgomery: eyeballing stuff right.
+
+224
+00:25:33.030 --> 00:25:36.540
+Hart Montgomery: right here, they used PSI for covert risks.
+
+225
+00:25:38.190 --> 00:25:38.700
+Hart Montgomery: Right.
+
+226
+00:25:40.080 --> 00:25:45.330
+Hart Montgomery: And in fact coven was one of the like this is what people did use for a lot of these like.
+
+227
+00:25:47.730 --> 00:25:48.450
+Cam Parra | kiva.org: covered.
+
+228
+00:25:48.480 --> 00:25:49.590
+Hart Montgomery: Protocols right.
+
+229
+00:25:51.240 --> 00:25:52.620
+Hart Montgomery: So the idea was.
+
+230
+00:25:52.950 --> 00:25:53.370
+Like.
+
+231
+00:25:57.240 --> 00:26:02.160
+Hart Montgomery: Like my phone keeps a record of everyone's phone i've been close to right.
+
+232
+00:26:05.400 --> 00:26:06.300
+Hart Montgomery: and
+
+233
+00:26:08.220 --> 00:26:08.850
+Hart Montgomery: You know.
+
+234
+00:26:10.800 --> 00:26:20.700
+Hart Montgomery: Every so often like once a day like I run a PSI on that and, like people in my city, that have tested positive right.
+
+235
+00:26:23.730 --> 00:26:28.350
+Hart Montgomery: That I know i've had uncovered exposure without revealing potentially who it came from right.
+
+236
+00:26:33.810 --> 00:26:34.260
+Cam Parra | kiva.org: yeah.
+
+237
+00:26:36.030 --> 00:26:36.690
+Hart Montgomery: So.
+
+238
+00:26:41.010 --> 00:26:45.930
+Hart Montgomery: yeah this is this is just one of many ways, people have done this and, like.
+
+239
+00:26:51.150 --> 00:26:54.150
+Hart Montgomery: So I think it is, I think it is a practical thing.
+
+240
+00:27:08.580 --> 00:27:12.960
+Cam Parra | kiva.org: Nathan or brand or Sean do you guys have any other questions about this.
+
+241
+00:27:14.910 --> 00:27:25.770
+Cam Parra | kiva.org: I guess for me i'm more excited to read more of these papers I didn't know they existed I didn't know that it was an active topic so that's really cool to hear that it is.
+
+242
+00:27:26.730 --> 00:27:30.150
+Cam Parra | kiva.org: The math doesn't seem like it's too hard, like it seems like it's pretty simple.
+
+243
+00:27:30.900 --> 00:27:31.680
+Hart Montgomery: It is yeah.
+
+244
+00:27:33.240 --> 00:27:36.960
+Hart Montgomery: Generally, like in these things with the math isn't simple.
+
+245
+00:27:36.960 --> 00:27:39.030
+Cam Parra | kiva.org: than like the scheme is not efficient.
+
+246
+00:27:43.740 --> 00:27:47.070
+Hart Montgomery: So yeah It is like relatively.
+
+247
+00:27:50.490 --> 00:27:53.280
+Hart Montgomery: it's not there, they usually aren't too hard to implement.
+
+248
+00:27:58.350 --> 00:28:10.530
+Cam Parra | kiva.org: So I guess a big takeaways that we need to be like if this is introduced into ursa or into any other hyper ledger project we just have to be careful with how its implemented.
+
+249
+00:28:10.890 --> 00:28:11.190
+yep.
+
+250
+00:28:15.870 --> 00:28:20.700
+Hart Montgomery: We need to make sure we implement security but that's always the case for everything right.
+
+251
+00:28:20.760 --> 00:28:21.600
+Cam Parra | kiva.org: yeah yeah.
+
+252
+00:28:22.560 --> 00:28:23.610
+Hart Montgomery: But yeah I suspect.
+
+253
+00:28:24.030 --> 00:28:27.600
+Cam Parra | kiva.org: It seems like it mostly relies on the protocol than anything.
+
+254
+00:28:28.230 --> 00:28:28.590
+yeah.
+
+255
+00:28:29.640 --> 00:28:36.510
+Hart Montgomery: But I mean this is a whole nother layer right, you can get the you can get the math right and still mess up the protocol implementation.
+
+256
+00:28:39.600 --> 00:28:40.110
+Cam Parra | kiva.org: Right.
+
+257
+00:28:42.870 --> 00:28:47.880
+Hart Montgomery: Like if you have an API that lets like lets you make like too permissive calls or something right.
+
+258
+00:28:49.320 --> 00:28:55.260
+Hart Montgomery: You have to be careful with this right, because, as you pointed out, like if you have too many calls, you can learn right.
+
+259
+00:28:56.250 --> 00:29:00.120
+Hart Montgomery: Right like if I like let you brute force, something great.
+
+260
+00:29:01.650 --> 00:29:06.150
+Hart Montgomery: like, if I have to, if I have like a universe of all possible sets right.
+
+261
+00:29:08.640 --> 00:29:09.120
+Cam Parra | kiva.org: Right.
+
+262
+00:29:09.270 --> 00:29:09.630
+Like.
+
+263
+00:29:11.010 --> 00:29:20.130
+Hart Montgomery: Are you think about it more concretely like, if I have a list of all possible names that might be in your set that if i'm allowed unlimited queries I can brute force, this right.
+
+264
+00:29:22.560 --> 00:29:36.270
+Cam Parra | kiva.org: Well, especially in in in verified credentials, you have schemas posted you know have established schema so you know what is in that set that you can ask for.
+
+265
+00:29:36.540 --> 00:29:43.440
+Hart Montgomery: Right and so, then you know, then you have the protocol, where you have to be careful to restrict queries right.
+
+266
+00:29:43.920 --> 00:29:47.070
+Hart Montgomery: yeah so like even if your scheme is like.
+
+267
+00:29:48.420 --> 00:29:52.470
+Hart Montgomery: You know this is a little bit different like you know into like a signature scheme right.
+
+268
+00:29:53.430 --> 00:30:07.590
+Hart Montgomery: you're not going to break the signal, no one can break the signature scheme by allowing you to you know if I can trick you into signing like tons of messages right well, you have signatures for those but you know i'm not going to be able to forge on something else right.
+
+269
+00:30:08.700 --> 00:30:14.760
+Hart Montgomery: Here, the risk is that if I let you query to anything's right, then you can just learn the whole set right.
+
+270
+00:30:15.240 --> 00:30:18.690
+Hart Montgomery: Right, and so you do have to be careful at the protocol there.
+
+271
+00:30:24.570 --> 00:30:26.430
+Cam Parra | kiva.org: yeah it's really interesting.
+
+272
+00:30:26.550 --> 00:30:40.200
+Hart Montgomery: So so obviously like if you have to honest no to honest people doing this right, then, then there's no worry, if you have to decide is people doing it, then it doesn't matter either right because they can just directly share their sets anyway.
+
+273
+00:30:41.970 --> 00:30:45.150
+Hart Montgomery: But the trick is, if you have one honest and one dishonest.
+
+274
+00:30:46.380 --> 00:30:53.250
+Hart Montgomery: party doing this right what you know, and this is like important at the protocol they're just not not just the PSI later.
+
+275
+00:30:56.520 --> 00:30:57.660
+Hart Montgomery: Does that make sense.
+
+276
+00:30:57.840 --> 00:30:58.620
+Cam Parra | kiva.org: yeah it does.
+
+277
+00:31:00.090 --> 00:31:03.540
+Hart Montgomery: yeah so, unfortunately I have to drop for an 830 call.
+
+278
+00:31:04.800 --> 00:31:12.210
+Hart Montgomery: But I will follow up on this and I will find like what we should be looking at for PSI.
+
+279
+00:31:13.980 --> 00:31:21.210
+Hart Montgomery: And if you all have any like other follow up questions or anything for me, for the rest of the meeting, like please feel free to reach out.
+
+280
+00:31:25.260 --> 00:31:26.040
+Hart Montgomery: That sounds good.
+
+281
+00:31:28.020 --> 00:31:31.230
+Cam Parra | kiva.org: sounds good thanks for that information looking forward to.
+
+282
+00:31:31.410 --> 00:31:34.440
+Hart Montgomery: This is a great question i'm excited to talk about this stuff.
+
+283
+00:31:35.370 --> 00:31:45.990
+Cam Parra | kiva.org: yeah yeah if we get if we get those papers i'll make sure to send them around to and and get people to read them before the meeting and hopefully have you know people who are interested in this.
+
+284
+00:31:46.260 --> 00:31:50.880
+Hart Montgomery: Well, if we have like five papers, if we have been asked to read them before meeting.
+
+285
+00:31:52.410 --> 00:31:56.220
+Hart Montgomery: But hopefully will we can at least sort of refine the conversation.
+
+286
+00:31:56.580 --> 00:31:57.000
+Right.
+
+287
+00:31:59.010 --> 00:32:00.120
+Cam Parra | kiva.org: All right, thanks heart yeah.
+
+288
+00:32:00.150 --> 00:32:08.940
+Hart Montgomery: No, thank you all and i'll talk to you later i'll talk to all of you, sooner rather than later and and please like follow up on anything else so.
+
+289
+00:32:10.350 --> 00:32:11.760
+Hart Montgomery: Thanks a lot cool.
+
+290
+00:32:13.230 --> 00:32:14.400
+Sean Bohan (hyperledger): i'll see you over there, in a minute heart.
+
+291
+00:32:14.550 --> 00:32:15.690
+Hart Montgomery: yep gotcha.
+
+292
+00:32:20.640 --> 00:32:22.980
+Cam Parra | kiva.org: cool so um.
+
+293
+00:32:24.300 --> 00:32:43.590
+Cam Parra | kiva.org: anyone have any questions or concerns in this topic, I think we have we're probably going to wait on on what heart has to give us and expand from that but um yeah if you have any questions, please invoice them, or else we can have time for Sean to shows.
+
+294
+00:32:43.770 --> 00:32:45.330
+Cam Parra | kiva.org: His slides that he wanted to.
+
+295
+00:32:45.600 --> 00:32:46.110
+present.
+
+296
+00:32:56.490 --> 00:33:03.930
+Sean Bohan (hyperledger): All right, a captive audience, I will keep this super quick, so you guys can get more time back in your day, let me share my screen.
+
+297
+00:33:05.160 --> 00:33:06.660
+Sean Bohan (hyperledger): Make sure it's the right one.
+
+298
+00:33:07.770 --> 00:33:10.350
+Sean Bohan (hyperledger): yeah here we go all right um.
+
+299
+00:33:12.210 --> 00:33:17.880
+Sean Bohan (hyperledger): This all came about because we realized, while we were doing our okay ours for 2022 that.
+
+300
+00:33:19.530 --> 00:33:29.580
+Sean Bohan (hyperledger): we'd been very reactive not proactive with the Community, and this is our intention with katie architecture for this year and going forward is to be more proactive, to do more outreach to the projects.
+
+301
+00:33:30.150 --> 00:33:39.030
+Sean Bohan (hyperledger): To talk about what we can do, and the capabilities and contribution efforts that that the Community architecture team can bring but also the help that we need from the individual projects.
+
+302
+00:33:40.200 --> 00:33:43.770
+Sean Bohan (hyperledger): We have met with at this point, everyone except for sawtooth and.
+
+303
+00:33:44.940 --> 00:33:56.790
+Sean Bohan (hyperledger): Most of the graduated projects, except for sawtooth and most of the incubator projects are still working down the list, but real quick defining Community architecture it's me David and rye, we are responsible for.
+
+304
+00:33:58.200 --> 00:34:04.170
+Sean Bohan (hyperledger): working towards fostering a successful collaborative software development ecosystem documented the health of projects and helping projects grow.
+
+305
+00:34:05.640 --> 00:34:15.150
+Sean Bohan (hyperledger): How do we do that so from a support perspective onboarding awareness marketing contribution, training and certification security audit documentation legal developer engagement.
+
+306
+00:34:15.750 --> 00:34:27.510
+Sean Bohan (hyperledger): We maintain the chat email list get hub and zoom to YouTube infrastructure which we're working on currently that's not finished, if you like, discord you can thank the both the chat Task Force.
+
+307
+00:34:28.650 --> 00:34:39.750
+Sean Bohan (hyperledger): At the tlc but also right who's put in the majority of the work game discord up and running for everybody, which has been actually as far as i'm concerned a great ever been super positive.
+
+308
+00:34:41.460 --> 00:34:49.380
+Sean Bohan (hyperledger): we're also responsible for supporting the tasc and technical contributed meeting so facilitating organizing tasc meetings, and you know just helping to set.
+
+309
+00:34:50.880 --> 00:35:05.970
+Sean Bohan (hyperledger): The table for successful adoption we engage the Ts who do we engage we engage the tcm needs directors and project health we engage project containers on what they need whether that's issues with github or hey can we create a new channel on discord for something.
+
+310
+00:35:07.770 --> 00:35:12.270
+Sean Bohan (hyperledger): or hey, how can we reach more contributors, we engage contributed communities to encourage contribution.
+
+311
+00:35:12.810 --> 00:35:25.770
+Sean Bohan (hyperledger): External communities like historically black colleges and universities nist Internet identity workshop etc, and we are going to start engaging the overall hyper ledger community more this year with research specifically polls and surveys.
+
+312
+00:35:26.970 --> 00:35:32.310
+Sean Bohan (hyperledger): This isn't meant to be homework but if somebody wants to share their opinion with us, we would love to see it.
+
+313
+00:35:33.240 --> 00:35:42.270
+Sean Bohan (hyperledger): And then growth this for me is the most important thing that Community architecture should be working on, but growing connecting Community members and attracting contributors.
+
+314
+00:35:42.720 --> 00:35:45.180
+Sean Bohan (hyperledger): Educating external communities on the mission of hyper ledger.
+
+315
+00:35:45.780 --> 00:36:01.200
+Sean Bohan (hyperledger): And the individual projects, giving them opportunities to learn and collaborate, we want to build a contributor pipeline, not just hey somebody showed up here's where you can find out more about fabric or indie or areas or ursa but working on building.
+
+316
+00:36:02.430 --> 00:36:10.800
+Sean Bohan (hyperledger): We had a great effort with events in hack fest pre coated but working on building this idea of a pipeline that we are, we are.
+
+317
+00:36:12.330 --> 00:36:15.180
+Sean Bohan (hyperledger): Implementing tactics that will attract.
+
+318
+00:36:16.380 --> 00:36:25.710
+Sean Bohan (hyperledger): contributors to what we're doing not just people who trip across us or who's boss says hey I want you to look at this thing because we're thinking of doing something and self sovereign identity so go see what hyper ledger is up to.
+
+319
+00:36:26.790 --> 00:36:36.330
+Sean Bohan (hyperledger): We want to be more active in in building a contributor pipeline than reactive, in the sense that oh hey you're here okay here's where you can you know here's a getting started guide or here's a read the docs page.
+
+320
+00:36:37.560 --> 00:36:41.520
+Sean Bohan (hyperledger): This is something that we are talking about the last bullet growing a maintainer pipeline.
+
+321
+00:36:42.600 --> 00:36:50.520
+Sean Bohan (hyperledger): But how can we work with projects, both on maintainer best practices Fazio has done a phenomenal job on this, but also i'm.
+
+322
+00:36:51.900 --> 00:37:00.990
+Sean Bohan (hyperledger): Working with projects on finding the containers and or building, you know we'll talk about building bridges in a second but building bridges with other projects, you know hey.
+
+323
+00:37:01.320 --> 00:37:07.290
+Sean Bohan (hyperledger): Where the Rojas team, we would love to be doing something with caliber hey we're caliber we'd love to reach out to folks on Monday.
+
+324
+00:37:07.770 --> 00:37:15.270
+Sean Bohan (hyperledger): So some of that is going to go into maintainer stuff we're still you know, drawing on a napkin with the maintainer pipeline could look like and what we need to do for.
+
+325
+00:37:15.780 --> 00:37:22.740
+Sean Bohan (hyperledger): How we do it we're going to go into each of these of the SEC we get the word out, so we have amazing projects that need to tell their story.
+
+326
+00:37:23.220 --> 00:37:30.360
+Sean Bohan (hyperledger): We can signal boost that content with YouTube streams Dev weekly the newsletter the global forum our Twitter linkedin feeds.
+
+327
+00:37:31.050 --> 00:37:41.760
+Sean Bohan (hyperledger): But we need help from the projects so versus a really small community we get that but you know if we want to highlight when the developers and maintenance on our side, we have developer showcase, which is a section of the blog.
+
+328
+00:37:42.180 --> 00:37:48.270
+Sean Bohan (hyperledger): We have a new marketing person who's joined the team is going up the profile that brought blog and work with us on getting it to be.
+
+329
+00:37:49.440 --> 00:37:56.820
+Sean Bohan (hyperledger): Something that's, if not more popular is releasing more great content and getting more interest from the outside hyper ledger community.
+
+330
+00:37:57.540 --> 00:38:07.860
+Sean Bohan (hyperledger): But we want topical blog posts, we want case studies we want release announcements right now Timo in the areas team is working on a blog post for the areas javascript framework.
+
+331
+00:38:09.120 --> 00:38:18.360
+Sean Bohan (hyperledger): The caliber team, which is still an incubation is working on their own release announcements because they're going to have a big 1.0 release in April.
+
+332
+00:38:18.900 --> 00:38:28.650
+Sean Bohan (hyperledger): and, more importantly, you know virtual meetups to announce and share release, so we had some success with webinars and meetups and we want to keep that going, but if there's big news coming out of versa.
+
+333
+00:38:29.160 --> 00:38:36.210
+Sean Bohan (hyperledger): We want to you know get behind it, both with getting the word out in ways that are searchable and syndicated and shareable.
+
+334
+00:38:36.480 --> 00:38:48.390
+Sean Bohan (hyperledger): But also, you know, I think, right now, one of the areas workshops, we did in February, the areas workshop we didn't in February has like 800 views on YouTube that's the kind of thing we want to push, but we need your help to do.
+
+335
+00:38:50.400 --> 00:38:54.120
+Sean Bohan (hyperledger): Most importantly, helping you find a contributor, so we have the mentorship Program.
+
+336
+00:38:55.890 --> 00:39:02.910
+Sean Bohan (hyperledger): Basically it's an internship program but hyper ledger covers the cost and connects you know projects with a mentor and mentee.
+
+337
+00:39:03.750 --> 00:39:13.590
+Sean Bohan (hyperledger): In the case of I think caliper they have two projects in the case of a row hot they've got two projects in the mentorship program if ursa doesn't this year that's fine, but we would love it.
+
+338
+00:39:14.040 --> 00:39:20.790
+Sean Bohan (hyperledger): If you guys can think about this for next year and we're going to gently remind you in Q4 of 2022 so okay Is there something we can do.
+
+339
+00:39:21.420 --> 00:39:29.760
+Sean Bohan (hyperledger): With mentorship contribution campaigns, this is an innovation challenge i'm sorry contribution campaigns so helping you share, about your project.
+
+340
+00:39:30.270 --> 00:39:39.270
+Sean Bohan (hyperledger): And how to contribute across all hyper ledger channels, we did, four of them last year, accelerate the move to production and many fabric, we did one around fabric documentation.
+
+341
+00:39:41.250 --> 00:39:48.600
+Sean Bohan (hyperledger): They were successful, they they actually exceeded all of our benchmarks for what we wanted to do with the contribution campaigns, we did, four of them.
+
+342
+00:39:50.130 --> 00:40:01.110
+Sean Bohan (hyperledger): And we should have had a line of people at our door, saying hey where's mine where's where's the caliber one where's the ursa one where's the basie one and we didn't and that was partly, we believe, because we're not out there.
+
+343
+00:40:01.740 --> 00:40:13.230
+Sean Bohan (hyperledger): Promoting internally inside the hyper ledger Community here's something great that we did for areas or four or four ursa and that's part of this effort, right now, this deck in this presentation and getting on your radars.
+
+344
+00:40:15.990 --> 00:40:26.280
+Sean Bohan (hyperledger): one that does not appear oh okay i'm helping you find to contribute, so we did the hyper ledger challenge which is still ongoing through I believe end of August early September, but this is an innovation challenge.
+
+345
+00:40:27.240 --> 00:40:35.700
+Sean Bohan (hyperledger): There are i'm going to say 29 projects total that have been proposed that are working on it right now and they're in the ideation and proposal phase.
+
+346
+00:40:36.390 --> 00:40:44.190
+Sean Bohan (hyperledger): we've done hands on workshops for areas and indie you guys might have heard of that you know the two projects and pretty popular and kind of hot here, I apologize I don't know if you know about.
+
+347
+00:40:45.840 --> 00:40:52.800
+Sean Bohan (hyperledger): Then academic outreach build your own nfc with hyper ledger fabric, this is something we're doing next week and the following week.
+
+348
+00:40:54.270 --> 00:41:01.140
+Sean Bohan (hyperledger): But actually no this week and next week i'm sorry no next week or the following week yeah i'm.
+
+349
+00:41:01.800 --> 00:41:11.280
+Sean Bohan (hyperledger): Working with historically black college university specifically Morgan university to do a two part workshop on fts with hyper ledger fabric.
+
+350
+00:41:11.850 --> 00:41:21.480
+Sean Bohan (hyperledger): The fun thing about this is the school is putting up an incentive program for the professors to incorporate this content into their classrooms we're going to probably leave the.
+
+351
+00:41:21.780 --> 00:41:26.520
+Sean Bohan (hyperledger): hyper ledger fabric network, the chain your artist standing up up and running for them to continue working on it.
+
+352
+00:41:27.150 --> 00:41:35.880
+Sean Bohan (hyperledger): And fts are just hot right now we want to be able to connect with these students are interested in doing this sort of thing but but more importantly we're having big conversations internally right now about.
+
+353
+00:41:36.300 --> 00:41:40.860
+Sean Bohan (hyperledger): You know let's do this again next year, but make it more technical about supply chain, because we want to reach.
+
+354
+00:41:41.250 --> 00:41:51.330
+Sean Bohan (hyperledger): That academic audience both the students but also the professors like we we we had some attempts of this a couple years ago we had to put them on hold and now we're getting back into it.
+
+355
+00:41:51.720 --> 00:41:58.530
+Sean Bohan (hyperledger): and working with Morgan state's been really great and it's got a lot of people, particularly hard thinking about how do we, how do we build an academic program around hyper ledger.
+
+356
+00:42:00.360 --> 00:42:07.860
+Sean Bohan (hyperledger): One that doesn't appear on this slide i'm sorry about that is season of docs season, the docs is a Google program like season of code.
+
+357
+00:42:08.760 --> 00:42:19.890
+Sean Bohan (hyperledger): We are working with them on a couple of projects, I believe two or three this year we're going to open this up next year successful to all the projects to propose, and you know get those proposals in.
+
+358
+00:42:22.230 --> 00:42:28.620
+Sean Bohan (hyperledger): And lastly, listening to you guys, we have Community architects in hyper ledger.org and we have Community that shark attacks on discord.
+
+359
+00:42:29.520 --> 00:42:38.550
+Sean Bohan (hyperledger): If you need something reach out to us if you have an idea reach out to us if you saw something cool reach out to us, we want to hear from the Community, we will be sending out surveys and polls.
+
+360
+00:42:39.810 --> 00:42:44.880
+Sean Bohan (hyperledger): You know, one of the things I think you guys have it on cams ever growing to do list.
+
+361
+00:42:45.240 --> 00:42:53.190
+Sean Bohan (hyperledger): is getting that pinned message in the main, or it's a channel, so if somebody shows up, they can find it we're going to put a welcome message together for every new person discord.
+
+362
+00:42:53.520 --> 00:42:58.500
+Sean Bohan (hyperledger): So when they join our discord they're going to be, you know instructed hey check out the pin message if you're on a board.
+
+363
+00:42:58.860 --> 00:43:11.370
+Sean Bohan (hyperledger): That should be directions to find out more about that specific project and how you can get involved, if you want to blame somebody blame Stephen qur'an who did such a great job on the areas, one that we've decided to ask all the projects to do it, can you can blame Stephen.
+
+364
+00:43:14.370 --> 00:43:18.240
+Sean Bohan (hyperledger): I believe your projects in the wild if you hear something or talk to someone.
+
+365
+00:43:19.170 --> 00:43:27.630
+Sean Bohan (hyperledger): we're an open source project anybody can pick up the code and run with it, which means we don't always know when someone's picking up the code and running with it, when I joined sorry my dogs isn't it.
+
+366
+00:43:28.590 --> 00:43:38.100
+Sean Bohan (hyperledger): When we joined hyper ledger when I came back to hyper ledger last December, a friend of mine and salesforce reached out to tell me that they had done a PSC and a pilot I had no idea, so I was super excited to hear that.
+
+367
+00:43:39.570 --> 00:43:43.530
+Sean Bohan (hyperledger): Most importantly, for me, how can we build bridges between earth and the other projects.
+
+368
+00:43:45.420 --> 00:43:55.290
+Sean Bohan (hyperledger): Who, who is like your wish list of like hey we would love to talk to X, Y or Z like what's your priority list for working with other projects, what can you bring to other projects, what can they bring to you this also goes to the maintainer.
+
+369
+00:43:55.860 --> 00:44:00.270
+Sean Bohan (hyperledger): Work you know where can we find maintaining some other projects, who maybe want to be a part of our city.
+
+370
+00:44:02.190 --> 00:44:08.310
+Sean Bohan (hyperledger): And most importantly, what are the goals objectives for us in 2022 This is something we did not do at the end of last year.
+
+371
+00:44:08.640 --> 00:44:18.780
+Sean Bohan (hyperledger): we're going to do at the end of this year we're going to every project and we're going to be working with them on what their goals and objectives are for the next year, so we can map the committee architect program to your project.
+
+372
+00:44:20.040 --> 00:44:25.230
+Sean Bohan (hyperledger): We have some projects that you know if we go back through the the list of stuff that we can do.
+
+373
+00:44:26.010 --> 00:44:29.760
+Sean Bohan (hyperledger): Some projects aren't ready for a mentorship program or they're not ready for a workshop.
+
+374
+00:44:30.150 --> 00:44:36.420
+Sean Bohan (hyperledger): But they can absolutely use a contribution campaign because they're ready for that or they're ready to do webinars but they're not ready to do.
+
+375
+00:44:36.840 --> 00:44:43.350
+Sean Bohan (hyperledger): You know season of docs they don't have their act together with that with this is like kind of a laundry list a menu of all the things that we can do.
+
+376
+00:44:44.220 --> 00:44:46.590
+Sean Bohan (hyperledger): What we want to do is be a little more prescriptive next year.
+
+377
+00:44:47.220 --> 00:45:01.620
+Sean Bohan (hyperledger): Also, looking at how we're optimizing things like you know the workshops is four hours way too much, maybe we break it up into two or three sessions, how do we make you know we realized after Indian areas that we should have probably spent more time.
+
+378
+00:45:02.910 --> 00:45:10.050
+Sean Bohan (hyperledger): Getting the attendees to go to the open office hours within the CEO or would have cut down a lot of early questions and that slowed things down a little bit.
+
+379
+00:45:11.460 --> 00:45:11.940
+Sean Bohan (hyperledger): So yeah.
+
+380
+00:45:13.170 --> 00:45:18.840
+Sean Bohan (hyperledger): So listening to you guys and then i've got a bunch of links i'm going to throw them in your discord.
+
+381
+00:45:20.550 --> 00:45:29.100
+Sean Bohan (hyperledger): Please attend to see meetings, if you can check the agenda is on the wiki it's great to see what the other projects are talking about, but also the direction the organization is going in.
+
+382
+00:45:29.640 --> 00:45:37.290
+Sean Bohan (hyperledger): And a link to the mentorship program also you guys know Sam current he did a fantastic job in the areas in the indie.
+
+383
+00:45:38.910 --> 00:45:44.130
+Sean Bohan (hyperledger): workshops around why contribute i've got a link to that YouTube video You can check it out.
+
+384
+00:45:45.000 --> 00:45:52.440
+Sean Bohan (hyperledger): i'm kind of you know, David price and I are talking about making this just a requirement if you're going to do a workshop that you have something similar to start.
+
+385
+00:45:52.920 --> 00:46:00.510
+Sean Bohan (hyperledger): it's a great level set, and it was really nice to see somebody layout like here's why you need to be involved here's what you can expect.
+
+386
+00:46:01.020 --> 00:46:11.520
+Sean Bohan (hyperledger): And here's why you know this is important and it was just a really, really great he ended the areas workshop with it, and then we asked them to do it at the start of the indie workshop is such a good.
+
+387
+00:46:12.540 --> 00:46:13.170
+Sean Bohan (hyperledger): A good setup.
+
+388
+00:46:14.220 --> 00:46:15.060
+Sean Bohan (hyperledger): So that was that.
+
+389
+00:46:16.170 --> 00:46:20.760
+Sean Bohan (hyperledger): Any question well If only you guys knew anything about hyper ledger this would be an easier conversation.
+
+390
+00:46:21.840 --> 00:46:23.880
+Sean Bohan (hyperledger): All hold hands but yeah.
+
+391
+00:46:27.450 --> 00:46:29.400
+Sean Bohan (hyperledger): You did okay i'm not good.
+
+392
+00:46:29.610 --> 00:46:31.320
+Nathan George: We find your ideas intriguing.
+
+393
+00:46:31.950 --> 00:46:32.610
+Sean Bohan (hyperledger): Thank you.
+
+394
+00:46:32.820 --> 00:46:38.940
+Sean Bohan (hyperledger): I want, we want to support ursa as much as as much as possible, as much as they are, as a community can take.
+
+395
+00:46:39.360 --> 00:46:47.760
+Sean Bohan (hyperledger): So I could beg you guys to do a workshop all day long, but if you're not ready for it that's a waste of your time, whereas can we do you know.
+
+396
+00:46:48.600 --> 00:46:56.880
+Sean Bohan (hyperledger): Pay versus got a new release coming out, can we get some movement behind that we can do that all day long and two things to note with the workshops that we did for hbc us and for.
+
+397
+00:46:58.650 --> 00:47:12.540
+Sean Bohan (hyperledger): Indian Aries we didn't do a lot of promotion around them and we're talking to caliber right now about doing a webinar to support the caliber released in April, it would be a caliber webinar that we're giving them some of our best practices and one of the things that we looked at.
+
+398
+00:47:13.650 --> 00:47:26.430
+Sean Bohan (hyperledger): We didn't spend we spent almost no marketing dollars, we spent almost very little time, promoting it, you know the Indian the areas Community got 300 people to sign up and 100 people to show up for for our workshop, which is great well.
+
+399
+00:47:26.970 --> 00:47:39.450
+Nathan George: Well, with with her, so I think our Community outreach problems are slightly different because we're losing or First, we need to get through the effort to get through project oh so who can get to a graduate state.
+
+400
+00:47:39.750 --> 00:47:39.930
+Nathan George: But.
+
+401
+00:47:40.830 --> 00:47:42.420
+Nathan George: there's been a lot of factors to take.
+
+402
+00:47:42.600 --> 00:47:53.730
+Nathan George: On some of the crypto code of the blockchain community and even though some of it is internal it that hyper ledger a lot of it's also overlapped contributors that are putting code in lots of other places.
+
+403
+00:47:54.030 --> 00:48:03.690
+Nathan George: So a lot of the Community outreach we need is spearfishing specifically the contributors that are that are defusing that that effort.
+
+404
+00:48:04.020 --> 00:48:10.080
+Nathan George: And right help helping them buy into the idea that, if we can consolidate we all get.
+
+405
+00:48:14.190 --> 00:48:18.960
+Nathan George: We get more economy of scale and if we keep moving code from place to place.
+
+406
+00:48:19.110 --> 00:48:22.080
+Sean Bohan (hyperledger): shark and also, at least in my mind ursa isn't a.
+
+407
+00:48:24.360 --> 00:48:32.280
+Sean Bohan (hyperledger): vs vs more of an expert level like there isn't a huge audience, whereas there are far more tire kickers and I do have to with fabric.
+
+408
+00:48:33.420 --> 00:48:47.670
+Sean Bohan (hyperledger): But we want to support both, and so we want to work with you guys on I don't know why my dog Susan apologists we want to work with you guys on both getting the word out, making sure that you know things like the security audit we're keeping that moving forward.
+
+409
+00:48:49.140 --> 00:48:55.470
+Sean Bohan (hyperledger): Helping you all graduate getting some maintainer diversity like these are the things that wherever we can assist we want to help.
+
+410
+00:48:56.250 --> 00:49:01.110
+Nathan George: Well, and the other thing that Dave always did for us that maybe maybe we can have some thoughts on is.
+
+411
+00:49:01.920 --> 00:49:13.440
+Nathan George: Sometimes we don't know who's using our stuff and when they do releases and such like, is a row, has still using ursa and what's the version that they put in their life, they just built, you know those sorts of tracking those sorts of things.
+
+412
+00:49:15.030 --> 00:49:17.760
+Nathan George: How it helps us a lot in knowing what we need to do to improve the code.
+
+413
+00:49:18.150 --> 00:49:20.910
+Sean Bohan (hyperledger): i'm talking to all the projects about this, so I can.
+
+414
+00:49:21.570 --> 00:49:30.030
+Sean Bohan (hyperledger): I can reach out and start asking that question yeah i'd be happy to do it, or if you guys have a sense of at least a starting point of we know X y&z we're using us if you can.
+
+415
+00:49:30.510 --> 00:49:46.320
+Sean Bohan (hyperledger): throw that to me and discord I can run those down for you and part of this is also there's a slide above like you know we need I made this point to all the projects i've met with fabric, we met with a zoo a bunch of fabric, a row hobbies you got sawtooth on Friday.
+
+416
+00:49:49.230 --> 00:50:03.000
+Sean Bohan (hyperledger): I made it clear that, like we as hyper ledger don't know, so we need the community's help to let us know when somebody is implementing so if you've got like Oh, I can reach out the real hot team and start talking about that, but I will also bring that up to the others, as I speak to.
+
+417
+00:50:07.560 --> 00:50:08.250
+Sean Bohan (hyperledger): All right, alright.
+
+418
+00:50:08.640 --> 00:50:09.570
+Sean Bohan (hyperledger): I took up only.
+
+419
+00:50:10.080 --> 00:50:11.460
+Sean Bohan (hyperledger): 18 minutes of your time.
+
+420
+00:50:14.850 --> 00:50:16.350
+Cam Parra | kiva.org: yeah no that was great thanks RON.
+
+421
+00:50:16.650 --> 00:50:20.430
+Sean Bohan (hyperledger): cool i'll throw the ball throw the deck and the links in your discord after.
+
+422
+00:50:21.660 --> 00:50:29.880
+Cam Parra | kiva.org: will let you know i'm where I now, we were transitioning from like our old one of our main contributors.
+
+423
+00:50:30.330 --> 00:50:44.400
+Cam Parra | kiva.org: got a job somewhere else, and we don't have that support anymore and we're still trying to work out like how we restructure in order to maintain or so so we're still figuring stuff out but will slowly let you know of what's needed.
+
+424
+00:50:45.000 --> 00:50:51.480
+Cam Parra | kiva.org: Go definitely getting other projects on board, since that was the main mission versus definitely will definitely help with it.
+
+425
+00:50:54.810 --> 00:50:57.990
+Sean Bohan (hyperledger): I happy to help and build those bridges wherever we can.
+
+426
+00:51:02.700 --> 00:51:09.570
+Cam Parra | kiva.org: cool well if that's it, then I think we can call this meeting, unless anyone has any other questions or suggestions for the next meeting.
+
+427
+00:51:10.230 --> 00:51:16.860
+Nathan George: Just the last note is remember project report reports um so.
+
+428
+00:51:18.480 --> 00:51:23.880
+Nathan George: I think the Ursula was do this week and, if I remember right or was it last week I forget.
+
+429
+00:51:29.220 --> 00:51:32.100
+Cam Parra | kiva.org: I haven't spoken with hard about it, but I can message him today.
+
+430
+00:51:32.760 --> 00:51:36.210
+Nathan George: yeah I think the quarterly report is due at this next tasc meeting so.
+
+431
+00:51:36.210 --> 00:51:38.160
+Sean Bohan (hyperledger): yeah it's it's due on Thursday.
+
+432
+00:51:39.060 --> 00:51:39.330
+So.
+
+433
+00:51:40.620 --> 00:51:41.940
+Nathan George: Please go take a look.
+
+434
+00:51:43.890 --> 00:51:55.110
+Nathan George: And if you if you can't author content take a look and help us validate whatever is up there, I don't know if there is anything up there yet i'm not seeing it on my task lists so.
+
+435
+00:51:58.530 --> 00:51:59.700
+Nathan George: That is an urgent issue.
+
+436
+00:52:00.210 --> 00:52:01.650
+Cam Parra | kiva.org: Okay, I will take a look at that then.
+
+437
+00:52:02.520 --> 00:52:02.910
+awesome.
+
+438
+00:52:04.470 --> 00:52:05.160
+Sean Bohan (hyperledger): Thanks guys.
+
+439
+00:52:07.140 --> 00:52:07.830
+Cam Parra | kiva.org: Thanks everyone.
+
+440
+00:52:08.370 --> 00:52:08.760
+later.
+

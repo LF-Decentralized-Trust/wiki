@@ -1,0 +1,1726 @@
+WEBVTT
+
+1
+00:01:15.270 --> 00:01:21.169
+Tracy Kuhrt: Welcome everybody to the December, the eighth Hyper Ledger Technical Oversight Committee call.
+
+2
+00:01:21.280 --> 00:01:30.900
+Tracy Kuhrt: as everyone who's on this call is aware of 2 things that we must abide by. The first is the antitrust policy. Notice that it is currently displayed on the screen.
+
+3
+00:01:31.270 --> 00:01:36.399
+Tracy Kuhrt: and the second is our code of conduct which is link in the agenda.
+
+4
+00:01:38.560 --> 00:01:46.109
+Tracy Kuhrt: All right. So for our agenda today we have the standard announcement: the Deaf Weekly Developer Newsletter goes out each Friday.
+
+5
+00:01:46.300 --> 00:01:55.650
+Tracy Kuhrt: if you would like to include anything in that newsletter, please leave a comment for consideration at the link that is, in the agenda
+
+6
+00:01:56.120 --> 00:02:01.500
+Tracy Kuhrt: as far as meetings for the holidays. I thought we should probably cancel
+
+7
+00:02:01.600 --> 00:02:12.120
+Tracy Kuhrt: the 20 s, the 20 ninth, and the fifth to make sure that everybody who is on holiday I can enjoy those holidays and not have to worry about the technical oversight committee. Call
+
+8
+00:02:14.110 --> 00:02:25.219
+Tracy Kuhrt: I'm not sure whether we'll have content for next week, and we'll decide that next week as to whether or not we have one next week. But I definitely for the the holidays. I'd like to make sure that we cancel those meetings
+
+9
+00:02:26.670 --> 00:02:30.180
+Tracy Kuhrt: any other announcements that anybody on the call has
+
+10
+00:02:38.680 --> 00:02:39.480
+Tracy Kuhrt: a root.
+
+11
+00:02:40.900 --> 00:02:48.589
+Arun S M: This so this is regarding Hyper ledger, blockchain, Explorer Project, which was recently deprecated or end of life cycle, I guess.
+
+12
+00:02:48.980 --> 00:02:52.690
+Arun S M: And there has been interest in multiple
+
+13
+00:02:53.050 --> 00:02:56.450
+Arun S M: among multiple community members. So it is going to be
+
+14
+00:02:57.140 --> 00:03:01.839
+Arun S M: like people are looking into adding certain features to that project, and seeing
+
+15
+00:03:01.990 --> 00:03:06.990
+Arun S M: and further improving the project and bringing it back to life. So there is going to be a
+
+16
+00:03:07.040 --> 00:03:08.660
+Arun S M: discussion tomorrow.
+
+17
+00:03:09.140 --> 00:03:10.140
+Arun S M: Hey? Damn
+
+18
+00:03:10.240 --> 00:03:11.220
+Arun S M: Eastern time!
+
+19
+00:03:15.400 --> 00:03:22.000
+Tracy Kuhrt: And the calendar link is where, exactly for people who might be interested in joining that
+
+20
+00:03:22.460 --> 00:03:27.109
+Arun S M: right. I need to work with David and getting it up on the calendar link.
+
+21
+00:03:27.560 --> 00:03:30.089
+Tracy Kuhrt: Okay.
+
+22
+00:03:30.330 --> 00:03:33.100
+Tracy Kuhrt: Okay? And then yeah,
+
+23
+00:03:33.650 --> 00:03:42.830
+Tracy Kuhrt: I think if I understand correctly that the the code base has been moved to the Labs area. So it's currently a a lab in that project.
+
+24
+00:03:43.020 --> 00:03:49.830
+Tracy Kuhrt: and if that would like to come back to be a top level project at some point in the future it will have to go through the
+
+25
+00:03:49.980 --> 00:03:51.790
+Tracy Kuhrt: project. Proposal process.
+
+26
+00:03:53.350 --> 00:03:54.120
+Arun S M: Agree.
+
+27
+00:03:54.150 --> 00:03:54.730
+Yup.
+
+28
+00:03:55.270 --> 00:04:01.480
+Arun S M: Okay. So if you know of anybody else who is interested in the project. Please bring them to the call tomorrow.
+
+29
+00:04:01.500 --> 00:04:02.050
+Yeah.
+
+30
+00:04:03.350 --> 00:04:04.810
+Tracy Kuhrt: alright, thanks.
+
+31
+00:04:05.270 --> 00:04:08.240
+Tracy Kuhrt: Any other announcements that anybody would like to make.
+
+32
+00:04:17.240 --> 00:04:19.140
+Tracy Kuhrt: I don't see any hands.
+
+33
+00:04:19.360 --> 00:04:27.850
+Tracy Kuhrt: Nobody coming off mute, so i'll take that, as they know, as far as quarterly reports. We did have the cello report come in
+
+34
+00:04:27.980 --> 00:04:29.310
+Tracy Kuhrt: this week.
+
+35
+00:04:29.420 --> 00:04:31.739
+Tracy Kuhrt: I did not see
+
+36
+00:04:33.900 --> 00:04:40.570
+Tracy Kuhrt: any comments on that. I'm just opening it now, just to make sure that nothing new has come in overnight that I may have this.
+
+37
+00:04:43.170 --> 00:04:48.750
+Tracy Kuhrt: no, it looks like the only comment here is from from David Boswell. about
+
+38
+00:04:49.410 --> 00:05:09.110
+Tracy Kuhrt: social media post and marketing for the one release that's coming out. Looks like we still do have a number of Toc members that have yet to review the document. So we'll you know, book to see if there's anything that comes out there. Any questions, though, that anybody does have from that particular
+
+39
+00:05:09.760 --> 00:05:12.059
+Tracy Kuhrt: project, report the cello project report.
+
+40
+00:05:18.770 --> 00:05:23.709
+Jim Zhang: Hey, Tracy? I I did have a question on the documentation
+
+41
+00:05:23.760 --> 00:05:35.560
+Jim Zhang: and the like. There of was the same comments from their last report. I still didn't see much update in that in that area. So I just putting another comment in there.
+
+42
+00:05:37.270 --> 00:05:46.750
+Tracy Kuhrt: Okay, and it's that there needs to be more documentation for the cello project. Do you think, before the the one that releases what you're asking for?
+
+43
+00:05:47.200 --> 00:05:54.860
+Jim Zhang: Yeah, yeah, what what thing there is completely lacking. If i'm a newcomer trying to pick up travel, I just can't figure out anything.
+
+44
+00:05:55.870 --> 00:05:56.580
+Tracy Kuhrt: Okay.
+
+45
+00:06:07.260 --> 00:06:14.650
+Tracy Kuhrt: probably. Have you in the learning materials working group. Has anybody been working with the cello folks on
+
+46
+00:06:14.670 --> 00:06:19.240
+Tracy Kuhrt: any sort of documentation or anything there? Has that come up or not?
+
+47
+00:06:19.470 --> 00:06:32.430
+Bobbi Muscara: no, it hasn't but David and I had a meeting this week about how we're going to change learning materials, working group to help support that more with a task force, and one of them will be that documentation task force.
+
+48
+00:06:32.630 --> 00:06:33.370
+Tracy Kuhrt: Okay.
+
+49
+00:06:35.400 --> 00:06:36.719
+Tracy Kuhrt: alright thanks, Bobby
+
+50
+00:06:37.660 --> 00:06:57.189
+Bobbi Muscara: didn't need to put you on the spot there, but I I know you had helped some other projects in the past. I didn't know this one was one that had come up or not. No, but that documentation working group was going to support all those efforts to make it simple and work together with us to help them attain the documentation they need to get newcomers on boarding easily.
+
+51
+00:06:57.660 --> 00:06:58.400
+Tracy Kuhrt: Okay.
+
+52
+00:06:59.570 --> 00:07:03.069
+Tracy Kuhrt: and Jim when we get there. This might be a
+
+53
+00:07:03.980 --> 00:07:06.770
+Tracy Kuhrt: a best practice that we want to add to the checklist.
+
+54
+00:07:07.010 --> 00:07:10.610
+Tracy Kuhrt: As we are thinking about documentation.
+
+55
+00:07:12.920 --> 00:07:17.099
+Jim Zhang: Yeah, it it was kind of my my my subtle way to say
+
+56
+00:07:17.450 --> 00:07:23.030
+Jim Zhang: they need to really drastically improve documentation to declare one.
+
+57
+00:07:23.700 --> 00:07:24.320
+Tracy Kuhrt: Yeah.
+
+58
+00:07:24.520 --> 00:07:25.480
+Tracy Kuhrt: okay, okay.
+
+59
+00:07:27.910 --> 00:07:31.920
+Bobbi Muscara: I'll reach out folks this week and set something up to get started.
+
+60
+00:07:32.750 --> 00:07:34.130
+Jim Zhang: Yeah, I appreciate it, Bobby.
+
+61
+00:07:34.740 --> 00:07:36.470
+Tracy Kuhrt: That's great. Thanks. Probably
+
+62
+00:07:38.310 --> 00:07:41.640
+Tracy Kuhrt: all right any other comments about cello At this point
+
+63
+00:07:47.010 --> 00:07:58.150
+Tracy Kuhrt: alright, I will note that the Firefly also did come in early this week. So I did include the link there on the agenda. We'll definitely include it next time
+
+64
+00:07:58.290 --> 00:08:01.650
+Tracy Kuhrt: as well. But just a yi! That one did come in
+
+65
+00:08:01.770 --> 00:08:05.340
+Tracy Kuhrt: if you Haven't had a chance to look at it yet. Please do so.
+
+66
+00:08:08.390 --> 00:08:18.620
+Tracy Kuhrt: And I guess I can ask the question because it does look like a a good number of people have already taken a look at that. Are there any comments or questions about the Firefly report at this point
+
+67
+00:08:30.370 --> 00:08:32.150
+Tracy Kuhrt: alright, resounding now.
+
+68
+00:08:32.360 --> 00:08:42.800
+Tracy Kuhrt: So so last week we had talked about a couple of things one we had talked about the different task forces and closing those out
+
+69
+00:08:42.880 --> 00:08:47.749
+Tracy Kuhrt: and one of the items that came up when we were talking about the project Help
+
+70
+00:08:47.790 --> 00:08:49.310
+Tracy Kuhrt: task force was
+
+71
+00:08:49.370 --> 00:08:53.030
+Tracy Kuhrt: potentially creating a checklist where we would move some of the
+
+72
+00:08:53.120 --> 00:09:00.429
+Tracy Kuhrt: questions that we have in the project reports to some sort of spreadsheet and maybe try to include some of the project. Health
+
+73
+00:09:00.590 --> 00:09:04.380
+Tracy Kuhrt: type things into this particular
+
+74
+00:09:05.860 --> 00:09:06.810
+Tracy Kuhrt: sort of
+
+75
+00:09:07.000 --> 00:09:12.040
+Tracy Kuhrt: checklist of Yes, no. Do we have these things that are included?
+
+76
+00:09:12.220 --> 00:09:17.650
+Tracy Kuhrt: I I started this with the list of the things that we have done in the past.
+
+77
+00:09:18.880 --> 00:09:34.039
+Tracy Kuhrt: in the past year, right? We've created the common repository structure we've created the maintain our guidelines, and we've approved the inclusive naming proposal. And so I basically included all of the items from the there, Whether or not they were, must or should.
+
+78
+00:09:34.120 --> 00:09:38.559
+Tracy Kuhrt: They are included here. for most of these I
+
+79
+00:09:38.600 --> 00:09:45.919
+Tracy Kuhrt: specified whether they were required or recommend it. but not all of them. maybe I need to go back and do that for the ones I missed.
+
+80
+00:09:46.080 --> 00:09:55.279
+Tracy Kuhrt: there. But, you know these these items. None of them should surprise us, as we have approved these things in the past.
+
+81
+00:09:55.470 --> 00:10:01.039
+Tracy Kuhrt: but I did want to have a discussion and see if there were other things that we should be adding to this list.
+
+82
+00:10:01.400 --> 00:10:08.479
+Tracy Kuhrt: i'm happy to, you know. Take those notes and and start to add them here. directly in the document.
+
+83
+00:10:23.940 --> 00:10:27.660
+Tracy Kuhrt: Any thoughts, things that we should add to this list.
+
+84
+00:10:37.690 --> 00:10:41.409
+David Enyeart: I don't have things to add, but i'll just say I like it.
+
+85
+00:10:42.380 --> 00:10:49.429
+David Enyeart: and a all in one location is very convenient, and I wish this had existed previously. So.
+
+86
+00:10:49.950 --> 00:10:59.410
+David Enyeart: it looks like it's pretty inclusive of the things we already have. I can't think of anything new, but I think this would be a good thing going forward, and we'll add to it
+
+87
+00:10:59.570 --> 00:11:00.989
+David Enyeart: as we think of things.
+
+88
+00:11:01.850 --> 00:11:12.810
+Tracy Kuhrt: Yeah. And and Dave and others, the what I was thinking here is that we would probably create a separate tab for each of the projects. that would be a copy of this template
+
+89
+00:11:12.900 --> 00:11:19.950
+Tracy Kuhrt: right, and as we as when we add things to the template, we would also add them to the individual project
+
+90
+00:11:20.230 --> 00:11:24.340
+Tracy Kuhrt: Tabs, so that again one place to go to to see.
+
+91
+00:11:24.370 --> 00:11:34.089
+Tracy Kuhrt: you know. do our projects support the best practices? If so, where can you find that? so that it's it's also somewhat of a
+
+92
+00:11:35.460 --> 00:11:53.940
+Tracy Kuhrt: appendix or an index, I guess, is the right way to say that right? That that basically allows people to quickly find the information, so that if they're interested in, say, becoming a maintainer of one of the projects they can go find out. What? How, what does that take? And how do I, how do I become a maintainer? What are the steps I have to go through?
+
+93
+00:11:53.970 --> 00:11:58.469
+Tracy Kuhrt: so yeah, I think that's kind of the idea here.
+
+94
+00:11:59.120 --> 00:11:59.980
+Tracy Kuhrt: Peter.
+
+95
+00:12:03.910 --> 00:12:09.250
+Peter Somogyvari: quick suggestion that i'm ever made a change to. This will be okay if
+
+96
+00:12:09.800 --> 00:12:10.579
+Peter Somogyvari: I move
+
+97
+00:12:10.770 --> 00:12:13.990
+Peter Somogyvari: It's the the
+
+98
+00:12:14.260 --> 00:12:18.150
+Peter Somogyvari: information into its own column. So let's feel tripled by it.
+
+99
+00:12:19.450 --> 00:12:21.570
+Tracy Kuhrt: sure. Yeah, we can definitely do that.
+
+100
+00:12:22.740 --> 00:12:23.490
+Okay?
+
+101
+00:12:23.790 --> 00:12:29.669
+Peter Somogyvari: And then once I do that, i'll have a few ideas for optional stuff, but nothing to add on the required
+
+102
+00:12:29.800 --> 00:12:30.560
+Peter Somogyvari: from
+
+103
+00:12:31.390 --> 00:12:32.090
+Tracy Kuhrt: Okay.
+
+104
+00:12:39.530 --> 00:12:44.139
+Kamlesh Nagware: So I think maybe information about the Lts releases
+
+105
+00:12:45.100 --> 00:12:46.590
+Kamlesh Nagware: It' be added.
+
+106
+00:12:47.260 --> 00:12:49.879
+Kamlesh Nagware: And the other thing I even
+
+107
+00:12:50.060 --> 00:12:53.440
+Kamlesh Nagware: couple of open source project I have seen so
+
+108
+00:12:53.460 --> 00:12:56.960
+about the
+
+109
+00:12:57.250 --> 00:12:58.300
+Kamlesh Nagware: Okay. Now.
+
+110
+00:12:58.520 --> 00:13:06.029
+Kamlesh Nagware: the project implementation, like it was the real time on the production implementation of the particular open source project.
+
+111
+00:13:09.780 --> 00:13:11.020
+Tracy Kuhrt: So
+
+112
+00:13:11.050 --> 00:13:16.549
+Tracy Kuhrt: do you have a list of
+
+113
+00:13:16.690 --> 00:13:22.160
+Kamlesh Nagware: Yeah. Yeah. So so like, for example, if you see any for them, I suppose if you go to any open source projects
+
+114
+00:13:22.280 --> 00:13:24.369
+Kamlesh Nagware: they mentioned about like who are using
+
+115
+00:13:24.440 --> 00:13:25.759
+Kamlesh Nagware: this particular project
+
+116
+00:13:27.860 --> 00:13:29.280
+Kamlesh Nagware: Wouldn't: be.
+
+117
+00:13:29.500 --> 00:13:30.110
+Tracy Kuhrt: Yeah.
+
+118
+00:13:31.590 --> 00:13:41.460
+Tracy Kuhrt: Okay, sean. If you scroll down, I am editing, as we speak. So yeah, at the bottom, I added this question: do you have a list of production? Uses
+
+119
+00:13:41.560 --> 00:13:44.900
+Tracy Kuhrt: to the the document.
+
+120
+00:13:44.930 --> 00:13:45.830
+Tracy Kuhrt: the camel
+
+121
+00:13:46.380 --> 00:13:51.410
+Tracy Kuhrt: I also added, your Lts release piece as well on line 25.
+
+122
+00:13:54.800 --> 00:13:56.440
+Tracy Kuhrt: All right, are you?
+
+123
+00:13:58.100 --> 00:14:04.689
+Arnaud J Le Hors ("Arno"): Yes, hi! I mean I see what's been said before. This would be great to have, for sure it feels like
+
+124
+00:14:05.730 --> 00:14:10.239
+Arnaud J Le Hors ("Arno"): I wish you could populate some of this automatically. But,
+
+125
+00:14:10.290 --> 00:14:15.900
+Arnaud J Le Hors ("Arno"): my question really is, how do you deal with the fact that many projects, if not all.
+
+126
+00:14:16.130 --> 00:14:18.600
+Arnaud J Le Hors ("Arno"): have multiple repositories?
+
+127
+00:14:19.580 --> 00:14:23.330
+Arnaud J Le Hors ("Arno"): Are we going to just focus on the main one or
+
+128
+00:14:23.440 --> 00:14:34.920
+Tracy Kuhrt: good question, Arnold. I have that same question in my head, and I don't know a good answer to that. I really appreciate thoughts here. Right?
+
+129
+00:14:35.040 --> 00:14:38.119
+Tracy Kuhrt: I I mean in my mind, there's
+
+130
+00:14:38.310 --> 00:14:42.149
+Tracy Kuhrt: 2 ways that come to my mind of how we can deal with this
+
+131
+00:14:42.190 --> 00:14:48.939
+Tracy Kuhrt: one is that we have a separate tab for each repo. I think this is going to make this a very long spreadsheet.
+
+132
+00:14:49.100 --> 00:14:52.939
+Tracy Kuhrt: and that that may be too overwhelming for people.
+
+133
+00:14:53.180 --> 00:14:59.569
+Tracy Kuhrt: maybe I have a third way. We could create a separate one for each project, and then have repo
+
+134
+00:15:00.510 --> 00:15:04.399
+Tracy Kuhrt: specific questions and project-specific questions. Right?
+
+135
+00:15:04.500 --> 00:15:11.870
+Tracy Kuhrt: we could the the third option, which was my original second option was, we do it for project.
+
+136
+00:15:12.150 --> 00:15:17.290
+Tracy Kuhrt: and in the location column we have multiple locations, one for each repo.
+
+137
+00:15:17.490 --> 00:15:21.740
+Tracy Kuhrt: so yeah, I think those are the 3 that come to mind. But i'm like
+
+138
+00:15:22.210 --> 00:15:30.190
+Tracy Kuhrt: would love to hear your thoughts on what you think is best. And if there's a fourth or fifth option that might be better.
+
+139
+00:15:31.690 --> 00:15:32.480
+Yeah, I mean, I
+
+140
+00:15:32.840 --> 00:15:41.410
+Arnaud J Le Hors ("Arno"): So I don't claim to have the right answer. Either. That's why I bought it that it it crossed my mind, I think you know, practically speaking.
+
+141
+00:15:41.480 --> 00:15:45.999
+Arnaud J Le Hors ("Arno"): at least as a first step focusing on the main repository.
+
+142
+00:15:46.170 --> 00:15:47.600
+Arnaud J Le Hors ("Arno"): It seems like you are reasonable
+
+143
+00:15:47.640 --> 00:15:48.570
+Arnaud J Le Hors ("Arno"): thing to do.
+
+144
+00:15:48.610 --> 00:15:51.659
+Arnaud J Le Hors ("Arno"): I think otherwise. It's getting very quickly overwhelmed.
+
+145
+00:15:54.560 --> 00:15:56.530
+Arnaud J Le Hors ("Arno"): I think it's better to
+
+146
+00:15:56.750 --> 00:16:05.489
+Arnaud J Le Hors ("Arno"): less information that that we can keep, you know, accurate. Keep it up to date. Then trying to encompass everything, and then
+
+147
+00:16:05.750 --> 00:16:10.769
+Arnaud J Le Hors ("Arno"): you know it's going to become obsolete before you know. And then it. This is the whole
+
+148
+00:16:10.790 --> 00:16:11.820
+Arnaud J Le Hors ("Arno"): purpose.
+
+149
+00:16:14.930 --> 00:16:20.329
+Arnaud J Le Hors ("Arno"): noting how people use these. So they're aware.
+
+150
+00:16:20.470 --> 00:16:22.370
+Arnaud J Le Hors ("Arno"): And maybe
+
+151
+00:16:22.700 --> 00:16:27.019
+Arnaud J Le Hors ("Arno"): maybe there's something that needs to be done at the project. They've also that
+
+152
+00:16:27.580 --> 00:16:28.250
+Arnaud J Le Hors ("Arno"): you know.
+
+153
+00:16:29.480 --> 00:16:30.109
+Arnaud J Le Hors ("Arno"): I see
+
+154
+00:16:31.140 --> 00:16:34.029
+Arnaud J Le Hors ("Arno"): I i'm taking the outlook, so I will join.
+
+155
+00:16:34.400 --> 00:16:36.310
+Arnaud J Le Hors ("Arno"): But
+
+156
+00:16:36.750 --> 00:16:43.479
+Arnaud J Le Hors ("Arno"): you know, I wonder if it's up to the project to point to the the repo, and that provide additional information
+
+157
+00:16:44.600 --> 00:16:49.629
+Arnaud J Le Hors ("Arno"): to some degree. You can see this out by just the name. Usually you can find that out.
+
+158
+00:16:50.290 --> 00:16:51.590
+Arnaud J Le Hors ("Arno"): Maybe more can be done.
+
+159
+00:16:52.440 --> 00:16:53.140
+Arnaud J Le Hors ("Arno"): There you go
+
+160
+00:16:53.500 --> 00:16:54.950
+Arnaud J Le Hors ("Arno"): of the project tomorrow.
+
+161
+00:16:57.070 --> 00:16:58.689
+Tracy Kuhrt: Yeah. And and
+
+162
+00:16:58.970 --> 00:17:05.460
+Tracy Kuhrt: I don't know, because you've said that I guess a fourth option that has just now come to mind is.
+
+163
+00:17:05.640 --> 00:17:08.189
+Tracy Kuhrt: what if we required this in the reading
+
+164
+00:17:10.000 --> 00:17:11.539
+Tracy Kuhrt: for each of the repost.
+
+165
+00:17:13.630 --> 00:17:14.700
+Tracy Kuhrt: or it
+
+166
+00:17:14.780 --> 00:17:16.869
+Tracy Kuhrt: pointer to this from the remaining
+
+167
+00:17:17.520 --> 00:17:18.900
+we're basically
+
+168
+00:17:19.069 --> 00:17:25.829
+Tracy Kuhrt: The information existed as an index to the project, so that people knew where to find things within that particular repo.
+
+169
+00:17:30.970 --> 00:17:32.769
+Tracy Kuhrt: okay, a room.
+
+170
+00:17:35.040 --> 00:17:44.980
+Arun S M: hey? Thanks, Tracy. So I was looking through this list, and thanks for aggregating in one place. I am. I like it to be in one place now that I say this least.
+
+171
+00:17:45.410 --> 00:17:49.690
+Arun S M: So thinking of some of the bigger projects are some of the projects that have wider scope
+
+172
+00:17:49.880 --> 00:17:54.249
+Arun S M: it, it could be as simple as, for instance, let's say, for example, for instance.
+
+173
+00:17:54.410 --> 00:17:58.310
+Arun S M: a a repository that may get contributions from multiple
+
+174
+00:17:58.450 --> 00:17:59.220
+Arun S M: folks
+
+175
+00:17:59.420 --> 00:18:04.250
+Arun S M: in each interested in some aspect of it some few folks interested in
+
+176
+00:18:04.320 --> 00:18:07.290
+Arun S M: on the let's say, bringing up of a Testament.
+
+177
+00:18:07.370 --> 00:18:12.769
+Arun S M: whereas few of them could be interested in writing samples on the chain code different languages
+
+178
+00:18:13.750 --> 00:18:14.760
+Arun S M: having.
+
+179
+00:18:14.800 --> 00:18:17.979
+Arun S M: I know, like private team is doing good job, but
+
+180
+00:18:18.240 --> 00:18:19.679
+Arun S M: maybe we can recommend
+
+181
+00:18:19.830 --> 00:18:22.760
+Arun S M: another file called something like owners
+
+182
+00:18:22.930 --> 00:18:26.810
+Arun S M: which the chromium, like defined earlier.
+
+183
+00:18:26.950 --> 00:18:30.770
+Arun S M: which allows us to define older level ownership right?
+
+184
+00:18:30.930 --> 00:18:39.259
+Arun S M: We can say that there can be reviewers and reviewers can who specializes on that particular field, or that either it could be that part of
+
+185
+00:18:39.850 --> 00:18:43.959
+Arun S M: I mean that folder of a project, or in that part of a project.
+
+186
+00:18:44.150 --> 00:18:47.889
+Arun S M: and then approval is only when they approve. It goes into
+
+187
+00:18:48.480 --> 00:18:50.529
+Arun S M: the main base.
+
+188
+00:18:53.670 --> 00:18:54.980
+Tracy Kuhrt: Yup.
+
+189
+00:18:55.250 --> 00:18:59.990
+Tracy Kuhrt: and that would be an Owner's file would be recommended, I think right?
+
+190
+00:19:00.780 --> 00:19:04.249
+Arun S M: Right? It's not a mandate. it it. Yeah, I command it.
+
+191
+00:19:04.410 --> 00:19:05.120
+Yeah.
+
+192
+00:19:05.480 --> 00:19:06.060
+Tracy Kuhrt: Okay.
+
+193
+00:19:12.520 --> 00:19:21.109
+Kamlesh Nagware: So I think like, i'm not just point right there. There are multiple projections of projects. Maybe we can also have we having a list of some projects.
+
+194
+00:19:21.860 --> 00:19:27.310
+Kamlesh Nagware: so it will easily be identifiable to the people like with project related to which
+
+195
+00:19:27.590 --> 00:19:28.810
+Kamlesh Nagware: particular repose.
+
+196
+00:19:31.290 --> 00:19:35.649
+Kamlesh Nagware: So, for example, I'm. Supposed to the fabric having a multiple of it, could be included in the
+
+197
+00:19:35.820 --> 00:19:37.860
+Kamlesh Nagware: A in the
+
+198
+00:19:50.970 --> 00:19:53.740
+Tracy Kuhrt: Okay.
+
+199
+00:19:54.480 --> 00:20:14.320
+Nathan George: on this sheet it seems like it's important for us to to to call out, but most of these are required on a per repo basis. Even if you try to save energy, you still have to have something there for either a legal compliance, reason, or because, if it's not there You're probably not doing. The activity in indicates like doing the testing or
+
+200
+00:20:15.320 --> 00:20:22.440
+Nathan George: implementing the conventions. And so you know, one of the hopes is that as we get our lymph linting tool
+
+201
+00:20:23.230 --> 00:20:31.979
+Nathan George: kept up to speed, is it? It's very easy for us to to run this against the repositories and get a picture overall of where the project is at
+
+202
+00:20:32.060 --> 00:20:49.759
+Nathan George: because they there there is going to be a constant struggle to keep some of these things up to date. And one of the things that's important when project decides to make lots of sub repositories is that they understand upfront what they're signing up for. because I think one of the things that happens is often the sub project is kind of a matter of maintainer convenience.
+
+203
+00:20:49.850 --> 00:21:04.129
+Nathan George: or it's a matter of you know it. It's just more easier to use the pro the programming language tools. If I don't have to worry about more than one programming language in the same repo. and they don't realize all of these things. end up duplicated as a result.
+
+204
+00:21:14.780 --> 00:21:23.080
+Tracy Kuhrt: I agree, i'm not sure what specific change, if any we need to make to this to reflect that
+
+205
+00:21:23.260 --> 00:21:24.070
+Tracy Kuhrt: me, too.
+
+206
+00:21:24.820 --> 00:21:31.839
+Nathan George: I just wondered if in required and recommended if there's something we can call out about whether they can link or whether they have to duplicate the content
+
+207
+00:21:32.080 --> 00:21:42.840
+Nathan George: Couple of these we could probably just link from one to the other, and I know we've had that debate at Nauseum and the repository structure and the Maintainer guidelines. So it may be that just the content that's in that linked document is enough.
+
+208
+00:21:45.830 --> 00:21:50.140
+Tracy Kuhrt: Yeah. completely understood. I think.
+
+209
+00:21:50.920 --> 00:21:56.419
+Tracy Kuhrt: if I remember correctly, and we'd have to open it. but I think in the
+
+210
+00:21:56.860 --> 00:21:59.950
+let me see if I can open it here and just take a look at it.
+
+211
+00:22:03.120 --> 00:22:06.999
+Tracy Kuhrt: I think in the Maintainer's guidelines we have.
+
+212
+00:22:09.150 --> 00:22:15.150
+Tracy Kuhrt: Was it? The Maintainer's got. My, no, it was the common repository structure and the common repository structure. We do have
+
+213
+00:22:15.310 --> 00:22:18.439
+Tracy Kuhrt: a comment I remember about
+
+214
+00:22:18.570 --> 00:22:26.970
+Tracy Kuhrt: these files must contain specific comment. it's specific content. so I think the license, the code of conduct and the security
+
+215
+00:22:27.000 --> 00:22:32.339
+Tracy Kuhrt: are the 3 that we list as must requires a specific content.
+
+216
+00:22:32.470 --> 00:22:34.299
+Tracy Kuhrt: is that
+
+217
+00:22:34.710 --> 00:22:41.200
+Tracy Kuhrt: is that what we should be marking then is those 3 as these require specific content?
+
+218
+00:22:41.430 --> 00:22:44.929
+Tracy Kuhrt: and then the other files are the variable content ones.
+
+219
+00:22:45.420 --> 00:22:48.990
+Nathan George: Yeah, I just wonder if where we say for you. File required
+
+220
+00:22:49.070 --> 00:22:56.949
+Nathan George: we we could put a note in this in this list. It's just. It's really nice as a maintainer to have something like this spreadsheet where I can just go.
+
+221
+00:22:57.310 --> 00:23:04.210
+Nathan George: but just go through and make sure each thing is is ready to go, because it makes the pull request a lot easier to follow if I
+
+222
+00:23:04.240 --> 00:23:06.289
+Nathan George: can get them all through at the same time.
+
+223
+00:23:06.480 --> 00:23:10.140
+Tracy Kuhrt: Yeah, yeah, it is the
+
+224
+00:23:13.480 --> 00:23:16.620
+Tracy Kuhrt: security. I just said I'm.
+
+225
+00:23:17.590 --> 00:23:25.550
+Tracy Kuhrt: and my brain obviously is not awake yet. This one security, license and current contact that are the the ones that are special.
+
+226
+00:23:28.600 --> 00:23:34.800
+Tracy Kuhrt: Maybe maybe the reason that my brain is not able to keep those in my head is because
+
+227
+00:23:34.850 --> 00:23:38.050
+Tracy Kuhrt: a security and license where is the code of conduct? Here we go.
+
+228
+00:23:38.140 --> 00:23:41.380
+Tracy Kuhrt: so these 3 are the ones that are special, If you will.
+
+229
+00:23:41.500 --> 00:23:44.739
+Tracy Kuhrt: I'm. Just gonna mark them. Highlight them in some way. So
+
+230
+00:23:45.050 --> 00:23:47.949
+Tracy Kuhrt: we remember that we need to do something special with these.
+
+231
+00:23:50.190 --> 00:23:53.820
+Tracy Kuhrt: Okay, thank you, Nathan, for that.
+
+232
+00:23:54.360 --> 00:23:57.030
+Tracy Kuhrt: I will make sure to do that
+
+233
+00:24:01.190 --> 00:24:11.099
+Tracy Kuhrt: any other comments anything else we should add. Jim, I feel like what I want to add around documentation is
+
+234
+00:24:12.420 --> 00:24:15.550
+Tracy Kuhrt: something like. Do you have tutorials
+
+235
+00:24:16.740 --> 00:24:28.549
+Tracy Kuhrt: on use to reflect kind of the comment you made about the cello one? Are there other sorts of documentation that people think is extremely important to make sure that
+
+236
+00:24:29.040 --> 00:24:30.869
+Tracy Kuhrt: that exists for our projects.
+
+237
+00:24:33.640 --> 00:24:45.660
+Jim Zhang: Yeah, I'm kind of torn a little bit here. I I feel like a a active project will naturally have good documentation, because that's the only way to get the community
+
+238
+00:24:45.790 --> 00:24:49.349
+Jim Zhang: to be able to pick it up and use it.
+
+239
+00:24:50.760 --> 00:24:59.429
+Jim Zhang: if it If If your project is lacking basic documentation, it's a sign that nobody cares about it.
+
+240
+00:24:59.980 --> 00:25:05.360
+Jim Zhang: so that's that's kind of what's in my head. So
+
+241
+00:25:05.670 --> 00:25:16.079
+Jim Zhang: maybe we can say best practices is having good documentation. But really, if you don't have that, how can you be? the effective project?
+
+242
+00:25:19.490 --> 00:25:22.220
+Tracy Kuhrt: Yeah. So I added,
+
+243
+00:25:22.490 --> 00:25:25.289
+Tracy Kuhrt: okay, I obviously have no idea how these sheets.
+
+244
+00:25:25.320 --> 00:25:35.939
+Tracy Kuhrt: I added, do you have documentation as one right? It's very possible that some of our projects that are in incubation. Haven't gotten to the documentation yet, so that will end up being a no
+
+245
+00:25:37.240 --> 00:25:42.209
+Tracy Kuhrt: And then I added the second question of tutorials on use.
+
+246
+00:25:43.260 --> 00:25:45.790
+Tracy Kuhrt: I I want to.
+
+247
+00:25:47.230 --> 00:25:53.119
+Tracy Kuhrt: I want to avoid the use of the word good, because it's very subjective. What good means.
+
+248
+00:25:53.250 --> 00:26:00.770
+Tracy Kuhrt: and i'd like to be more specific if we could. If If there's other things that we think are necessary in the documentation
+
+249
+00:26:00.900 --> 00:26:04.139
+Tracy Kuhrt: that would make it good in our mind.
+
+250
+00:26:04.270 --> 00:26:07.949
+Tracy Kuhrt: right. what what does that really mean to us?
+
+251
+00:26:13.150 --> 00:26:14.090
+Tracy Kuhrt: So all right.
+
+252
+00:26:17.490 --> 00:26:20.229
+Arun S M: yeah, maybe i'm overlooking it. but
+
+253
+00:26:20.400 --> 00:26:27.399
+Arun S M: I feel like as a developer when I first time see any of the code bases i'm like, unless I know the code base.
+
+254
+00:26:27.690 --> 00:26:33.200
+Arun S M: I may be interested in knowing how to build it locally how to test it of my test environment.
+
+255
+00:26:33.930 --> 00:26:36.440
+Arun S M: So I know there is a testing code
+
+256
+00:26:36.730 --> 00:26:39.260
+Arun S M: point which is put as recommended.
+
+257
+00:26:39.480 --> 00:26:40.320
+Arun S M: I'm.
+
+258
+00:26:40.420 --> 00:26:44.279
+Arun S M: I'm. Just not sure if it considers the build and test
+
+259
+00:26:44.460 --> 00:26:46.079
+Arun S M: if that's what it meant to be.
+
+260
+00:26:50.960 --> 00:26:53.630
+Arun S M: It's like that in this row number 19.
+
+261
+00:26:54.050 --> 00:26:55.699
+Tracy Kuhrt: Yeah, no,
+
+262
+00:26:56.130 --> 00:27:04.120
+Tracy Kuhrt: that is truly testing code. So I added lines 31 and 32 here. do you have
+
+263
+00:27:04.310 --> 00:27:07.639
+Tracy Kuhrt: build instructions, probably in your documentation.
+
+264
+00:27:07.850 --> 00:27:10.229
+Tracy Kuhrt: and then
+
+265
+00:27:10.410 --> 00:27:12.040
+Tracy Kuhrt: the second one.
+
+266
+00:27:12.940 --> 00:27:16.640
+Tracy Kuhrt: Do you have documentation to help a contributor understand the code base?
+
+267
+00:27:16.970 --> 00:27:19.780
+Tracy Kuhrt: I think that's what you're asking for. Is it a room.
+
+268
+00:27:20.270 --> 00:27:26.940
+Arun S M: Sure maybe not the code base at least to build instructions, if possible, because there could be let's say
+
+269
+00:27:27.460 --> 00:27:31.250
+Arun S M: some of them. Some of the projects would be using, make, find some of them could be using
+
+270
+00:27:31.320 --> 00:27:33.940
+Arun S M: a rest place is once i'm
+
+271
+00:27:34.070 --> 00:27:41.190
+Arun S M: they could have multiple flags in there, and as a first time contributor. I may understand how the programming language works.
+
+272
+00:27:41.240 --> 00:27:44.339
+Arun S M: but I may not be able to comprehend the the
+
+273
+00:27:44.940 --> 00:27:48.370
+Arun S M: multiple options which are provided in in those files
+
+274
+00:27:48.550 --> 00:27:54.810
+Arun S M: unless I know about the project right? So maybe they should be an option. So if you are a development, if you are building
+
+275
+00:27:55.390 --> 00:27:59.570
+Arun S M: if you are contributing, and here is how you can build locally.
+
+276
+00:27:59.630 --> 00:28:03.669
+Arun S M: It allows you us to gain confidence that you have tested.
+
+277
+00:28:03.760 --> 00:28:05.589
+Arun S M: and it gives you confidence that
+
+278
+00:28:05.640 --> 00:28:07.070
+Arun S M: you are able to build it.
+
+279
+00:28:07.360 --> 00:28:07.970
+Tracy Kuhrt: Yep.
+
+280
+00:28:09.030 --> 00:28:09.730
+Tracy Kuhrt: Okay.
+
+281
+00:28:11.150 --> 00:28:11.880
+Tracy Kuhrt: Poppy.
+
+282
+00:28:13.110 --> 00:28:24.230
+Bobbi Muscara: So with the documentation task force our goal and hopefully will be finished by the end of the year is to get some recommendations for projects and incubation to take their Github repositories and put them through
+
+283
+00:28:24.300 --> 00:28:41.589
+Bobbi Muscara: these templates and have user docs. And again. I completely agree with everyone who said that the documentation is direct. Reflect on how the project is loved. So, depending on how much work went into describing steps in the Github is is
+
+284
+00:28:41.640 --> 00:28:52.890
+Bobbi Muscara: as good as your documentation when you say the only thing that I have a question on is when you say, you are more talking about how to tutorials.
+
+285
+00:28:52.910 --> 00:29:04.109
+Bobbi Muscara: I'm not sure how you could get the community all to do that in a uniform way unless you supply a template that each project has to do for that specific reason.
+
+286
+00:29:06.650 --> 00:29:10.370
+Tracy Kuhrt: Yeah, I I think that tutorials are going to be very dependent on
+
+287
+00:29:10.560 --> 00:29:20.289
+Tracy Kuhrt: the project at hand. Right? I think it's important to have those tutorials. But I don't think it's necessary to reflect what type of tutorials, if you will.
+
+288
+00:29:30.170 --> 00:29:32.280
+Tracy Kuhrt: Okay? Other thoughts.
+
+289
+00:29:56.960 --> 00:29:57.710
+Tracy Kuhrt: Alright.
+
+290
+00:29:58.750 --> 00:30:02.890
+Arun S M: Yeah. I know. I'm not supposed to use the check here by type.
+
+291
+00:30:03.460 --> 00:30:06.830
+Arun S M: I could. I just wanted to paste the link. So this is
+
+292
+00:30:07.060 --> 00:30:09.580
+Arun S M: some kind of documentation that I was
+
+293
+00:30:09.600 --> 00:30:10.570
+Arun S M: talking about.
+
+294
+00:30:11.060 --> 00:30:13.659
+Arun S M: Personally, this benefited me when
+
+295
+00:30:13.890 --> 00:30:17.809
+Arun S M: I mean long back when I started contributing to this project.
+
+296
+00:30:30.820 --> 00:30:31.440
+Tracy Kuhrt: Okay.
+
+297
+00:30:40.480 --> 00:30:42.010
+Tracy Kuhrt: Any other
+
+298
+00:30:44.750 --> 00:30:47.799
+Tracy Kuhrt: thoughts, anything else we should add to this
+
+299
+00:31:10.090 --> 00:31:11.590
+Tracy Kuhrt: Peter the
+
+300
+00:31:11.780 --> 00:31:16.499
+Tracy Kuhrt: the column you requested the required recommended is this kind of the idea that you had there.
+
+301
+00:31:20.140 --> 00:31:21.179
+Peter Somogyvari: Yeah, that works
+
+302
+00:31:22.940 --> 00:31:23.959
+Tracy Kuhrt: that works.
+
+303
+00:31:24.190 --> 00:31:27.919
+Tracy Kuhrt: You had something else in my
+
+304
+00:31:29.060 --> 00:31:32.510
+Peter Somogyvari: my first idea will be slightly different.
+
+305
+00:31:32.620 --> 00:31:33.640
+Peter Somogyvari: But
+
+306
+00:31:33.790 --> 00:31:39.299
+Peter Somogyvari: this is perfect. It it serves the purpose. It's a it makes the data structural
+
+307
+00:31:39.430 --> 00:31:40.699
+Peter Somogyvari: just the same way.
+
+308
+00:31:42.420 --> 00:31:45.890
+Peter Somogyvari: So it wasn't it wasn't a job
+
+309
+00:31:46.240 --> 00:31:46.790
+good.
+
+310
+00:31:47.020 --> 00:31:47.860
+Tracy Kuhrt: thanks to either.
+
+311
+00:31:54.740 --> 00:32:04.550
+Tracy Kuhrt: alright, so i'll clean this up a bit. I think you know some of these other things that we had that our mark jet as recorded recommended.
+
+312
+00:32:04.660 --> 00:32:10.639
+Tracy Kuhrt: i'll check the whatever we document it when we document it, say the maintenance guidelines or the
+
+313
+00:32:10.750 --> 00:32:14.989
+Tracy Kuhrt: common repository structure, and make sure that they
+
+314
+00:32:15.360 --> 00:32:18.419
+Tracy Kuhrt: have, whether or not it's a required or recommended
+
+315
+00:32:18.550 --> 00:32:29.479
+Tracy Kuhrt: some of these new things that we just added, i'm i'm guessing these are all recommended practices, since we just kind of added them. they weren't things that we thought were necessarily required.
+
+316
+00:32:29.530 --> 00:32:34.760
+Tracy Kuhrt: but happy to to be told that you think something should be required. If
+
+317
+00:32:34.890 --> 00:32:36.010
+Tracy Kuhrt: if it should be
+
+318
+00:32:49.990 --> 00:32:54.510
+Tracy Kuhrt: okay, so for the moment i'll make them all recommend it.
+
+319
+00:32:56.130 --> 00:33:02.690
+Tracy Kuhrt: And then, if for some reason, at some point in the future we decide that they should be required. We can have that discussion
+
+320
+00:33:07.900 --> 00:33:10.979
+Tracy Kuhrt: any other thoughts on this before we close this topic.
+
+321
+00:33:15.990 --> 00:33:17.830
+Peter Somogyvari: so I think it's a great idea.
+
+322
+00:33:18.050 --> 00:33:20.309
+Peter Somogyvari: Gary thumbs up plus one.
+
+323
+00:33:22.880 --> 00:33:32.009
+Arnaud J Le Hors ("Arno"): so maybe you said it before, and I it so what's the plan now? I mean, what how do you go at feeling out all this data?
+
+324
+00:33:32.670 --> 00:33:34.920
+Tracy Kuhrt: Yeah. So
+
+325
+00:33:35.490 --> 00:33:45.530
+Tracy Kuhrt: Oh, no. I thought I could maybe potentially take a first stab at this by going through for the different projects and marking whether or not they exist, and where I found them.
+
+326
+00:33:45.730 --> 00:33:50.330
+Tracy Kuhrt: and then anything that's left blank. Turn that over to the
+
+327
+00:33:50.350 --> 00:33:54.210
+Tracy Kuhrt: the projects to allow them to update it
+
+328
+00:33:54.420 --> 00:33:59.539
+Tracy Kuhrt: or change it, as the case may be. If if I got it wrong for some reason.
+
+329
+00:34:02.400 --> 00:34:05.190
+Tracy Kuhrt: Does it sound like a an appropriate next step?
+
+330
+00:34:06.490 --> 00:34:23.540
+Arnaud J Le Hors ("Arno"): Well, if you're willing to do the work, I don't think it is, you know, Jack, but I think it's a bit unfair. I don't know why you would have to carry the load here. We have people from different projects, even within the Tsc. Alone. I think it should be spread around, so that at least one per
+
+331
+00:34:23.550 --> 00:34:28.150
+Arnaud J Le Hors ("Arno"): one person for project volunteers to do it for their own project.
+
+332
+00:34:29.130 --> 00:34:33.640
+Arnaud J Le Hors ("Arno"): and then there may be some that for which we don't have anybody.
+
+333
+00:34:35.020 --> 00:34:37.659
+Arnaud J Le Hors ("Arno"): Maybe we can
+
+334
+00:34:37.870 --> 00:34:43.519
+David Enyeart: that would work, or we could just say for the next quarter reports. Please fill out the initial spreadsheet.
+
+335
+00:34:49.600 --> 00:34:50.159
+Okay.
+
+336
+00:34:52.110 --> 00:34:57.840
+Tracy Kuhrt: I'm happy to do either way. If somebody wants to volunteer to fill it out. Now, that's great.
+
+337
+00:34:58.070 --> 00:35:05.599
+Tracy Kuhrt: I'm not going to force anybody to do that. But I I do think yeah, definitely. I want in the next quarterly report.
+
+338
+00:35:05.780 --> 00:35:11.399
+Tracy Kuhrt: If it hasn't been filled out, or it's partially filled out for the the projects to complete that.
+
+339
+00:35:16.360 --> 00:35:19.059
+David Enyeart: Tracy, i'll volunteer to do it to do fabrics
+
+340
+00:35:19.390 --> 00:35:22.620
+David Enyeart: first here. Yeah. So we have a
+
+341
+00:35:23.090 --> 00:35:24.339
+David Enyeart: precedent.
+
+342
+00:35:27.310 --> 00:35:34.170
+Tracy Kuhrt: Alright, i'm gonna I'm gonna change that link that I have right now. It's coming, only i'm gonna change it to editor
+
+343
+00:35:34.280 --> 00:35:38.790
+Tracy Kuhrt: so that anybody can go ahead and edit the the document going forward.
+
+344
+00:35:46.900 --> 00:35:49.299
+Jim Zhang: So, Tracy, we'll have
+
+345
+00:35:51.820 --> 00:35:54.899
+Jim Zhang: this as ongoing or just one time
+
+346
+00:35:55.620 --> 00:35:57.200
+Jim Zhang: capture
+
+347
+00:36:00.710 --> 00:36:05.769
+Jim Zhang: it zooming. Some projects may not have all of them checked.
+
+348
+00:36:06.120 --> 00:36:10.499
+Jim Zhang: Do we want them to progress? So eventually they have all of them checks.
+
+349
+00:36:11.500 --> 00:36:17.589
+Tracy Kuhrt: I I think that would be ideal, Jim, right as we do get to a place where they are all checked.
+
+350
+00:36:17.670 --> 00:36:18.620
+Tracy Kuhrt: I think it
+
+351
+00:36:19.120 --> 00:36:28.399
+Tracy Kuhrt: the the more that people and projects. let's say, the the more that projects have checked these, I think the the more advanced they are.
+
+352
+00:36:28.460 --> 00:36:32.079
+Tracy Kuhrt: I think there's you know, potentially a question of
+
+353
+00:36:32.410 --> 00:36:42.320
+Tracy Kuhrt: and this was not something I did. But maybe we also want to look at the incubation incubation. Exit criteria and see if there's any other things here that
+
+354
+00:36:42.370 --> 00:36:44.749
+Tracy Kuhrt: might be good questions to include.
+
+355
+00:36:44.920 --> 00:36:53.529
+Tracy Kuhrt: that would also tell us where the projects are currently being incubated. Whether or not it's is getting close to to being
+
+356
+00:36:53.720 --> 00:36:56.840
+Tracy Kuhrt: something that they would request to go active.
+
+357
+00:36:57.240 --> 00:37:01.540
+Tracy Kuhrt: so yeah, I don't think this is a one time thing. I think
+
+358
+00:37:01.870 --> 00:37:06.460
+Tracy Kuhrt: you know. The the problem that we have is that once people fill it out, they think they're done.
+
+359
+00:37:06.580 --> 00:37:10.359
+Tracy Kuhrt: but things change in the projects, right? New repos are added.
+
+360
+00:37:10.520 --> 00:37:12.979
+Tracy Kuhrt: you know,
+
+361
+00:37:13.280 --> 00:37:15.080
+Tracy Kuhrt: people, you know.
+
+362
+00:37:16.260 --> 00:37:21.099
+Tracy Kuhrt: may may do things differently in the code, right? They They may have changed some stuff.
+
+363
+00:37:21.250 --> 00:37:31.429
+Tracy Kuhrt: Some of these will definitely feel like they're static. But I think there is the need for us to, you know. Look at this ever so often and make sure that things are up to date.
+
+364
+00:37:32.930 --> 00:37:43.170
+Jim Zhang: Yeah, that's how i'm thinking about it as well. So given that it's probably a good idea just to tie this up with the quarterly report.
+
+365
+00:37:46.320 --> 00:37:50.779
+Jim Zhang: either Expand this the section where we do the
+
+366
+00:37:50.800 --> 00:37:53.689
+Jim Zhang: the the yes and no
+
+367
+00:37:55.830 --> 00:37:57.120
+Jim Zhang: checklist
+
+368
+00:37:57.380 --> 00:38:00.160
+Jim Zhang: or link link to this
+
+369
+00:38:00.560 --> 00:38:01.959
+Jim Zhang: from that section.
+
+370
+00:38:03.300 --> 00:38:11.600
+Jim Zhang: and we can also, clarify what does require mean? what does not doing? The require. intel.
+
+371
+00:38:13.050 --> 00:38:19.669
+Jim Zhang: Would that just prevent me from graduating, or there's other other consequences?
+
+372
+00:38:21.220 --> 00:38:23.390
+Tracy Kuhrt: I yeah, I think.
+
+373
+00:38:23.730 --> 00:38:30.850
+Tracy Kuhrt: So. 2 things, Jim. One on the project reports. What I thought i'd do is replace the current section that we have
+
+374
+00:38:31.110 --> 00:38:34.590
+Jim Zhang: to ask the Yes no questions, and just replace it with a
+
+375
+00:38:34.610 --> 00:38:38.549
+Tracy Kuhrt: pointer to this document. so that people
+
+376
+00:38:38.850 --> 00:38:40.999
+Tracy Kuhrt: can check their
+
+377
+00:38:41.150 --> 00:38:43.179
+Tracy Kuhrt: project to make sure that it's up to date
+
+378
+00:38:43.410 --> 00:38:44.779
+Tracy Kuhrt: right
+
+379
+00:38:45.210 --> 00:38:55.600
+Tracy Kuhrt: and then related to whether or not, a project has not completed a required step. I think that is the time at which we
+
+380
+00:38:55.730 --> 00:39:01.690
+Tracy Kuhrt: become a bit noisy with with them as the Toc. And we we say, when are you going to do this?
+
+381
+00:39:02.190 --> 00:39:05.060
+Tracy Kuhrt: I know I've seen that a lot in the project reports
+
+382
+00:39:05.210 --> 00:39:07.920
+Tracy Kuhrt: in the past right where
+
+383
+00:39:08.440 --> 00:39:10.630
+Tracy Kuhrt: where it's been the case that
+
+384
+00:39:10.680 --> 00:39:12.279
+Tracy Kuhrt: a particular
+
+385
+00:39:12.560 --> 00:39:13.839
+Tracy Kuhrt: project, Hasn't
+
+386
+00:39:13.930 --> 00:39:24.000
+Tracy Kuhrt: completed something maybe in the inclusive language statement or something, and and usually a question comes out right in that project report when I'm going to do it, or
+
+387
+00:39:24.020 --> 00:39:30.540
+Tracy Kuhrt: why haven't you done this? And I think that's there's still the appropriate type of steps for us to be taking.
+
+388
+00:39:33.250 --> 00:39:35.109
+Jim Zhang: Yeah, Cool Sounds good.
+
+389
+00:39:43.400 --> 00:39:45.169
+Tracy Kuhrt: all right.
+
+390
+00:39:46.740 --> 00:39:51.060
+Tracy Kuhrt: Any other volunteers for anybody who would like to
+
+391
+00:39:52.870 --> 00:39:54.959
+Tracy Kuhrt: volunteer for any of the projects.
+
+392
+00:39:56.920 --> 00:39:59.079
+Jim Zhang: Yeah, I'll, I'll do the Firefly one.
+
+393
+00:39:59.220 --> 00:40:00.589
+Tracy Kuhrt: Okay, thanks, too.
+
+394
+00:40:00.790 --> 00:40:02.029
+That's
+
+395
+00:40:20.890 --> 00:40:24.989
+Tracy Kuhrt: alright. Any other volunteers anybody want to take on any of the other projects.
+
+396
+00:40:28.040 --> 00:40:29.700
+I
+
+397
+00:40:30.360 --> 00:40:31.339
+Peter Somogyvari: and that will
+
+398
+00:40:32.420 --> 00:40:34.029
+Tracy Kuhrt: and double. Okay.
+
+399
+00:40:36.030 --> 00:40:36.890
+Tracy Kuhrt: Thanks, Peter.
+
+400
+00:40:40.980 --> 00:40:42.140
+Tracy Kuhrt: Anyone else.
+
+401
+00:40:49.850 --> 00:40:52.709
+Tracy Kuhrt: No. Okay. Great.
+
+402
+00:40:52.780 --> 00:40:53.799
+Tracy Kuhrt: So
+
+403
+00:40:53.820 --> 00:41:01.399
+Tracy Kuhrt: the the the link is now editable. So if you do open it again, you should be able to see that you can edit it.
+
+404
+00:41:01.540 --> 00:41:06.649
+Tracy Kuhrt: I have nothing else on the agenda, for today. Does anybody else have anything they would like to bring up
+
+405
+00:41:08.340 --> 00:41:12.830
+David Enyeart: in terms of logistics. What was the idea to create a tab for each project?
+
+406
+00:41:12.970 --> 00:41:15.419
+David Enyeart: Yes, or a column? A Tab.
+
+407
+00:41:15.730 --> 00:41:16.319
+Tracy Kuhrt: Yeah.
+
+408
+00:41:17.040 --> 00:41:20.580
+David Enyeart: Okay, Which is just basically a copy of the Template.
+
+409
+00:41:30.590 --> 00:41:33.989
+Tracy Kuhrt: Any other topics for discussion today?
+
+410
+00:41:40.240 --> 00:41:41.609
+Tracy Kuhrt: No? Okay.
+
+411
+00:41:41.670 --> 00:41:44.660
+Tracy Kuhrt: Well, then, I appreciate that.
+
+412
+00:41:47.670 --> 00:41:53.649
+Tracy Kuhrt: I maybe just one comment before I let you guys go. I know you guys were all excited where you hit that button.
+
+413
+00:41:53.690 --> 00:42:12.069
+Tracy Kuhrt: the the Tsc. I think we said this last time with the Coc. Election is currently in the hands of the governing board. so we're expecting results back from that in a week, probably early next week, I think, is is the timeline for that.
+
+414
+00:42:12.230 --> 00:42:13.149
+Tracy Kuhrt: So
+
+415
+00:42:13.620 --> 00:42:17.490
+Tracy Kuhrt: how we will let people know once those results are final
+
+416
+00:42:17.550 --> 00:42:21.760
+Tracy Kuhrt: as far as the the new Tfc. That's coming in
+
+417
+00:42:21.970 --> 00:42:26.780
+Tracy Kuhrt: one of the things I was thinking we might do for a toc call next week is.
+
+418
+00:42:26.840 --> 00:42:34.049
+Tracy Kuhrt: if we do have the results potentially, we'll get some of the new joiners to come in, and we could potentially have a discussion on
+
+419
+00:42:34.180 --> 00:42:38.840
+Tracy Kuhrt: You know, a transition type discussion where the people who are
+
+420
+00:42:38.940 --> 00:42:42.029
+Tracy Kuhrt: are leaving the the Toc.
+
+421
+00:42:42.120 --> 00:42:45.609
+Tracy Kuhrt: Would, you know, provide some thoughts and insight into
+
+422
+00:42:45.760 --> 00:42:53.350
+Tracy Kuhrt: things that they've done. And I would like to, you know, see, maybe being continued in the next year, and then maybe some
+
+423
+00:42:53.370 --> 00:42:56.220
+Tracy Kuhrt: input from the new Tlc members as far as
+
+424
+00:42:56.330 --> 00:43:00.130
+Tracy Kuhrt: what it is that they'd like to accomplish in the next year.
+
+425
+00:43:00.150 --> 00:43:01.759
+Tracy Kuhrt: So
+
+426
+00:43:01.940 --> 00:43:11.350
+Tracy Kuhrt: all up for when when the final results actually come in, if it shows up in time or not. But that's that's kind of the current thinking and kind of what's happening
+
+427
+00:43:11.380 --> 00:43:13.140
+Tracy Kuhrt: with the toc election.
+
+428
+00:43:19.420 --> 00:43:24.970
+Tracy Kuhrt: All right, so that's all I have. Jim, you did come off me. Did you have a question?
+
+429
+00:43:25.300 --> 00:43:36.670
+Tracy Kuhrt: No, I was ready to say, thanks to Jason. Alright, great. yeah. So that's it. I will let you guys actually hit the lead. But now so thanks again. For your thoughts and your discussion today.
+
+430
+00:43:36.950 --> 00:43:38.490
+Jim Zhang: Yeah, thanks. Tracy.
+
+431
+00:43:38.830 --> 00:43:41.449
+Jim Zhang: Thanks, bye, bye, bye, bye.
+

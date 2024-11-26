@@ -1,0 +1,62 @@
+1. [Technical Oversight Committee](index.html)
+2. [Technical Oversight Committee Home](Technical-Oversight-Committee-Home_21430274.html)
+3. [Archived](Archived_21447696.html)
+4. [TSC Decision Log](TSC-Decision-Log_21437418.html)
+
+# Technical Oversight Committee : Eliminate Lab Sponsor requirement
+
+Created by Arnaud J LE HORS, last modified on Mar 10, 2022
+
+  **Status**
+
+RESOLVED 
+
+**Blocking****Outcome**Unanimously approved**Minutes Link**[2021 04 15 TSC Meeting Record](2021-04-15-TSC-Meeting-Record_21441571.html)
+
+# Overview of Proposal
+
+Finding a lab sponsor has been a barrier to creating labs. This issue is not new and has been discussed at length multiple times. Despite several attempts to remedy this situation things have not improved. Only a small number of people qualify as sponsor and even fewer are willing to volunteer as sponsor. Yet, the role of sponsor as currently defined is very limited and in fact is already carried by the Labs Stewards. Indeed, despite varying expectations by some people, the role of the sponsor is defined as follows in the [Process To Propose A New Lab](https://www.hyperledger.org/participate/labs):
+
+*The sponsor(s) are responsible for reviewing the proposal. Sponsors do not have a responsibility beyond this; ongoing work like contributing code or reviews is not tied to their role as sponsors. In reviewing the proposal, the sponsor(s) make sure that the proposal is cogent, and novel (in conception, proposed execution, or interested community).*
+
+So, the proposal is to simply eliminate the requirement to have a sponsor to create a lab and leave to the stewards to keep doing the initial filtering and possible hand holding of newcomers.
+
+In addition, clear instructions on what is expected of the labs, such as what license to use, ought to be developed when missing and linked from the proposal template for full awareness.
+
+See [Sponsors For Labs-Proposal](https://lf-hyperledger.atlassian.net/wiki/spaces/labs/pages/20285141/Sponsors+For+Labs-Proposal) for additional background.
+
+# Formal Proposal(s)
+
+Eliminate the requirement to have a sponsor to create a lab.
+
+Develop clear instructions on what is expected of the labs, such as what license to use, when missing, and link these instructions from the proposal template.
+
+# Action Items
+
+- [Arnaud J LE HORS](https://lf-hyperledger.atlassian.net/wiki/people/70121:0e75e3b8-500a-4067-9f7e-ed46e91bcb9d?ref=confluence)Update wiki: [Hyperledger Labs Home](https://lf-hyperledger.atlassian.net/wiki/spaces/labs/overview), and [Labs README](https://github.com/hyperledger-labs/hyperledger-labs.github.io#readme)
+  
+- [Ry Jones](https://lf-hyperledger.atlassian.net/wiki/people/557058:078cecfc-fb17-4d9a-8759-b5b74efa6850?ref=confluence) Update website: [https://www.hyperledger.org/participate/labs](https://www.hyperledger.org/participate/labs)
+- Update [hyperledger-labs.github.io/proposal-template.md at main · hyperledger-labs/hyperledger-labs.github.io](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/main/proposal-template.md)
+- Update [Labs - Hyperledger Labs](https://labs.hyperledger.org/)
+
+# Reviewed By
+
+- [Angelo de Caro](https://lf-hyperledger.atlassian.net/wiki/people/70121:d6b0f0e4-825f-4f16-88e1-4d14e95f2f10?ref=confluence)
+- [Arnaud J LE HORS](https://lf-hyperledger.atlassian.net/wiki/people/70121:0e75e3b8-500a-4067-9f7e-ed46e91bcb9d?ref=confluence)
+- [Arun .S.M.](https://lf-hyperledger.atlassian.net/wiki/people/621a0e5097d313006ba7386a?ref=confluence)
+- [Baohua Yang](https://lf-hyperledger.atlassian.net/wiki/people/557058:17d87dbf-05fe-4c1b-84cf-fd69f7fcbb20?ref=confluence)
+- [Bobbi Muscara](https://lf-hyperledger.atlassian.net/wiki/people/5c4cb1b7d8bbb7445c0a457e?ref=confluence)
+- [Danno Ferrin](https://lf-hyperledger.atlassian.net/wiki/people/5b7f2d80c4e4892a5b789551?ref=confluence)
+- [David Enyeart](https://lf-hyperledger.atlassian.net/wiki/people/712020:30d7e775-8a5d-4896-8950-8da2af027639?ref=confluence)
+- [Gari Singh](https://lf-hyperledger.atlassian.net/wiki/people/557058:51429e31-90f4-4684-b7cd-9a4fe15ff188?ref=confluence)
+- [Grace Hartley (Deactivated)](https://lf-hyperledger.atlassian.net/wiki/people/5c3e0cd1ff324728a1db2448?ref=confluence)
+- [Hart Montgomery](https://lf-hyperledger.atlassian.net/wiki/people/712020:86f447c0-86dc-43b3-ac03-6a31923bbb84?ref=confluence)
+- [María Teresa nieto](https://lf-hyperledger.atlassian.net/wiki/people/5d36fa46af1d920bc99755b6?ref=confluence)
+- [Mark Wagner (Deactivated)](https://lf-hyperledger.atlassian.net/wiki/people/70121:81b88945-c9ef-40fe-9224-207bdb280922?ref=confluence)
+- [Nathan George](https://lf-hyperledger.atlassian.net/wiki/people/712020:3e7556ab-cdb8-47f5-8b68-12a3378021fd?ref=confluence)
+- [Tracy Kuhrt](https://lf-hyperledger.atlassian.net/wiki/people/712020:eb6ae9c3-aa8e-40ba-9dab-a6969b1ac52e?ref=confluence)
+- [Troy Ronda](https://lf-hyperledger.atlassian.net/wiki/people/557058:c854f35a-2b58-4be3-9003-ca2a67495580?ref=confluence)
+
+Document generated by Confluence on Nov 26, 2024 11:23
+
+[Atlassian](http://www.atlassian.com/)

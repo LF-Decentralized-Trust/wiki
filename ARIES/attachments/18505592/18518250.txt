@@ -1,0 +1,1582 @@
+WEBVTT
+
+1
+00:00:01.940 --> 00:00:09.470
+Stephen Curran: All right. Welcome to the June thirteenth, 2,023. Here's Cloud and Python user group meeting.
+
+2
+00:00:10.330 --> 00:00:18.460
+Stephen Curran: do i update And update of the PC, go of code with us in Theco is doing
+
+3
+00:00:18.770 --> 00:00:20.950
+Stephen Curran: talk about 0 8 2
+
+4
+00:00:21.040 --> 00:00:39.910
+Stephen Curran: and pr, in general, occupy plugins. We want to talk about that update on progress and plans for that, and briefly, talk about adding a new Maintainer. So those are the topics today. And anything else people want to add, I'll I'll leave space for adding other topics in a moment.
+
+5
+00:00:40.200 --> 00:00:47.970
+Stephen Curran: reminder. It's a Linux Foundation meeting. So the anti-trust policy is in effect, as is the code of conduct.
+
+6
+00:00:49.760 --> 00:00:56.669
+Stephen Curran: Everyone is welcome. Glad to have you here. If anyone wants to introduce themselves.
+
+7
+00:00:57.230 --> 00:01:07.679
+Stephen Curran: feel free to raise your hand or grab the mic, and let us know who you are. What? Why, you're joining, and your interest in acupy
+
+8
+00:01:14.940 --> 00:01:23.870
+Stephen Curran: as well. If anyone is interested in adding a topic to the agenda. Let me know, and we can adjust the agenda for now.
+
+9
+00:01:28.370 --> 00:01:29.829
+Stephen Curran: All right.
+
+10
+00:01:30.780 --> 00:01:41.700
+Stephen Curran: let's get started. in in the announcement area, a reminder of the documentation page that we've got. And this Thursday I'm doing a presentation at the identity Sig on
+
+11
+00:01:41.730 --> 00:01:47.410
+Stephen Curran: Z Kps, the high school map addition. So if you're interested in knowing
+
+12
+00:01:47.770 --> 00:01:54.419
+Stephen Curran: a fun topic, going to a see a fun topic on dkps, please join.
+
+13
+00:01:55.470 --> 00:02:04.700
+Stephen Curran: All right, let's get into topics. Daniel, I didn't check in with you, but assume you're ready and able to chat about what you're doing.
+
+14
+00:02:04.790 --> 00:02:10.349
+Daniel Bluhm: Yeah. let's see. So this week. The big news is that we've completed
+
+15
+00:02:10.530 --> 00:02:34.189
+Daniel Bluhm: our quote unquote Mvp. Revocation. So we've got all the pieces in place. Finally, we're able to string them together manually and are able to issue credentials, present them, Revoke them and present them again with varying, you know, revocation intervals specified, and everything's turning out as expected, which was pretty big
+
+16
+00:02:34.230 --> 00:02:46.500
+Daniel Bluhm: a number of factors required along the way there. so that's that's what's been taking a significant portion of our time. now that we have this Mvp status, we're we're moving on to implementing the automated registry
+
+17
+00:02:46.560 --> 00:02:47.709
+Daniel Bluhm: set up
+
+18
+00:02:47.830 --> 00:03:03.739
+Daniel Bluhm: process as we've discussed previously, and we've been building to this point. So I anticipate that it won't be too bad to take that next step and and get the automated portion put together. I do anticipate that there will be some additional
+
+19
+00:03:03.800 --> 00:03:10.310
+Daniel Bluhm: for factors and refinements required along the way. but pretty optimistic that we'll be able to get that set up pretty quick.
+
+20
+00:03:10.900 --> 00:03:22.550
+Daniel Bluhm: other things. that we're working on or anticipate over the next little bit revocation registry recovery is something that we I kind of just
+
+21
+00:03:22.990 --> 00:03:28.409
+Daniel Bluhm: ignored for a moment as we worked on other things, which is the process of catching the ledger up with
+
+22
+00:03:28.460 --> 00:03:31.289
+Daniel Bluhm: the wallet. If there's ever a time when the wallet
+
+23
+00:03:31.320 --> 00:03:34.359
+Daniel Bluhm: is updated with a a pending revocation, but that
+
+24
+00:03:34.530 --> 00:03:42.539
+Daniel Bluhm: somehow failed in the process of getting it to the ledger. all that code is pretty indie specific still at the moment. So you need to go through and and
+
+25
+00:03:43.070 --> 00:03:50.390
+Daniel Bluhm: genericize it, I suppose? and and get that working with the ledger agnostic interface.
+
+26
+00:03:51.050 --> 00:04:00.949
+Daniel Bluhm:  also looking at what it's going to take to either adapt or retain the original Indian non credits interfaces.
+
+27
+00:04:01.300 --> 00:04:16.229
+Daniel Bluhm: trying to figure out where the balance is. There's still what needs to be changed all together to just use the new interface? Or what do we want to like? Actually stay behaving exactly the same way as before? But okay, I say that no poorly.
+
+28
+00:04:16.260 --> 00:04:28.010
+Daniel Bluhm: The the act by control interface should remain exactly the same. that's the goal but like what under the hood needs to change, I guess in that process
+
+29
+00:04:28.330 --> 00:04:33.729
+Daniel Bluhm: things we're considering at the same time. are, you know, like.
+
+30
+00:04:34.790 --> 00:04:45.909
+Daniel Bluhm: Do we retain both systems? If we don't retain both systems, what's the upgrade process gonna look like to transition the records to look like the generic non-credit on checks and stuff.
+
+31
+00:04:46.070 --> 00:04:50.869
+Daniel Bluhm:  so there's some questions to be answered there, so we'll be taking into that.
+
+32
+00:04:52.290 --> 00:04:54.500
+Daniel Bluhm: And then, aside from that, just general.
+
+33
+00:04:54.700 --> 00:04:58.290
+Daniel Bluhm: I need to update some tests and cleaning things up. So
+
+34
+00:04:59.410 --> 00:05:00.250
+Daniel Bluhm: yeah.
+
+35
+00:05:00.560 --> 00:05:08.090
+Daniel Bluhm: making good progress, looking forward to again, knocking it out and getting this. Taken care. Okay.
+
+36
+00:05:10.550 --> 00:05:14.140
+Stephen Curran: okay, any questions for Daniel from anyone.
+
+37
+00:05:16.540 --> 00:05:25.689
+Daniel Bluhm: Oh, I I guess I will mention I've linked to that that project. Update the document. I go into slightly more detail than I did in these bullet points in the agenda. If you're interested.
+
+38
+00:05:25.720 --> 00:05:28.359
+Daniel Bluhm: that's all links to Pr and such. So.
+
+39
+00:05:32.260 --> 00:05:35.329
+Stephen Curran: okay. sorry. Just writing a note here.
+
+40
+00:05:40.880 --> 00:05:42.900
+Stephen Curran: Okay.
+
+41
+00:05:43.090 --> 00:05:56.029
+Stephen Curran: finalizing the 0 8 to release contents. let me take a look at where we are. Hopefully, the screen speaker. I'm experimenting with new screens and ways of structuring my workflow. And
+
+42
+00:05:56.560 --> 00:06:00.789
+Stephen Curran: the screen isn't usually this big. But hopefully, that's okay.
+
+43
+00:06:03.120 --> 00:06:06.760
+Stephen Curran: So 0 8 2
+
+44
+00:06:07.340 --> 00:06:14.629
+Stephen Curran: was released. containing everything obviously since 0 8 one So there's
+
+45
+00:06:14.640 --> 00:06:17.119
+Stephen Curran: a fair amount in there.
+
+46
+00:06:17.450 --> 00:06:30.870
+Stephen Curran:  you know this is sort of the list of things. I guess I it easier. There's 0 8 one down here. So there's a series of things. Obviously the change lock covers what is in 0 8
+
+47
+00:06:31.180 --> 00:06:40.870
+Stephen Curran: 2. Since then we've merged 2 other items. a fix for thread id and a
+
+48
+00:06:41.000 --> 00:06:49.110
+Stephen Curran: a. It basically filter on unregistered did methods. So these 2 were seen, both valuable and and useful.
+
+49
+00:06:49.340 --> 00:07:12.590
+Stephen Curran:  there is an issue with this in A at H. It appears to be in this change. I my guess is it's probably something with The test harness itself as opposed to the library. But we've gotta obviously make sure we understand that. Jason, I don't know if you've made any progress on that in looking at that issue.
+
+50
+00:07:12.610 --> 00:07:22.790
+Jason Sherman: Yeah, I was just gonna raise my hand. so you were right. It had to do with thread. Id. I just have to do some regression test. So the
+
+51
+00:07:22.800 --> 00:07:30.640
+Jason Sherman: test that failed, I got to pass. But now I'm going to run it back through the other ones to make sure to screw up those ones. But yeah, it's
+
+52
+00:07:30.900 --> 00:07:51.460
+Stephen Curran: it's on its way, anyway. So what is the picks to occupy? I know to the test. Harness to the to the the the behave. Test. Yeah, okay, good. Okay, good. So this is not affected by it. Okay, so 0 8, 2 r, c, 0 has been out for a while.
+
+53
+00:07:51.770 --> 00:07:57.570
+Stephen Curran: so the only question is of the open requests we have.
+
+54
+00:07:57.840 --> 00:08:17.130
+Stephen Curran: which ones of these, if any, we want in 0 8, 2  obviously. And then, and then we'll look at which ones are ready to go regardless. So the question, the first question, and again, I'm I'm sort of open to this one is.
+
+55
+00:08:17.250 --> 00:08:22.100
+Stephen Curran: are there things that we think are important to go into 0 8? 2
+
+56
+00:08:23.850 --> 00:08:25.220
+Stephen Curran: of
+
+57
+00:08:25.760 --> 00:08:37.620
+Stephen Curran: basically of of the last few that we're there. I don't think there's that many that that we want to rush out basically rush out and get to a into the 0 8 2.
+
+58
+00:08:41.200 --> 00:08:46.870
+Stephen Curran: Is there anything that people are aware of that. They want to see in that release.
+
+59
+00:08:50.990 --> 00:08:57.780
+Emiliano Suñé: There's there's a couple items that Shan Jaw had open Pr for that are about.
+
+60
+00:08:57.890 --> 00:09:01.160
+Stephen Curran:  not that one
+
+61
+00:09:01.880 --> 00:09:03.430
+Emiliano Suñé: or is it
+
+62
+00:09:04.870 --> 00:09:06.160
+Stephen Curran: this one?
+
+63
+00:09:06.390 --> 00:09:12.859
+Emiliano Suñé: Yeah, that that, if possible, that would be great. That is a change that allows to change
+
+64
+00:09:12.880 --> 00:09:21.209
+Emiliano Suñé: additional runtime settings on a tenant basis rather than inheriting the the main wall at once.
+
+65
+00:09:21.230 --> 00:09:32.499
+Emiliano Suñé: So that's that's it for multi-cans and yeah deployments. And there's the other one. That is the one about the logs which is basically add in the initial
+
+66
+00:09:32.610 --> 00:09:40.490
+Emiliano Suñé: and step running context to log statements, so they can, being me filtered by tenant right now. There's no identifiers that we
+
+67
+00:09:41.040 --> 00:09:44.129
+Emiliano Suñé: show. Which standard the log of it is coming from
+
+68
+00:09:44.950 --> 00:09:48.820
+Stephen Curran: is that included in this one. I don't see a second one from Shanghai.
+
+69
+00:09:49.050 --> 00:09:52.570
+Emiliano Suñé: There should be another one.
+
+70
+00:09:52.830 --> 00:09:54.880
+Emiliano Suñé: unless it was a writing word. But let me check.
+
+71
+00:09:55.170 --> 00:09:57.940
+Emiliano Suñé: I'm maybe it was merge, and I didn't notice.
+
+72
+00:09:58.790 --> 00:09:59.470
+Thank you.
+
+73
+00:10:00.040 --> 00:10:05.119
+Stephen Curran: So, Maintainer, we would need a review of 2,233.
+
+74
+00:10:18.060 --> 00:10:21.710
+Emiliano Suñé: Yeah, the long one was merged already. So I think we're good with that.
+
+75
+00:10:21.840 --> 00:10:22.780
+Stephen Curran: Okay?
+
+76
+00:10:25.330 --> 00:10:31.340
+Daniel Bluhm: So the I guess the one question I have considering what should go into 0 8 to release is
+
+77
+00:10:31.430 --> 00:10:34.080
+Daniel Bluhm: we. We've got some other things that we
+
+78
+00:10:34.480 --> 00:10:42.140
+Daniel Bluhm: no are coming soon, like deprecating. not deprecating, I guess, but dropping support for python. 3, 6,
+
+79
+00:10:42.180 --> 00:10:43.390
+Daniel Bluhm: yeah,
+
+80
+00:10:44.720 --> 00:10:53.229
+Daniel Bluhm: and there's some other changes that are dependent on that. And there's a couple of other breaking changes. So I I guess the question I have is.
+
+81
+00:10:53.660 --> 00:10:59.569
+Daniel Bluhm: how soon are we going to see the next release? If we do a 0 8 2 now? Because if it's pretty soon
+
+82
+00:10:59.610 --> 00:11:04.739
+Daniel Bluhm: then I'd say we can hold off on some of the breaking changes.
+
+83
+00:11:04.810 --> 00:11:09.129
+Daniel Bluhm: But if it's going to be a bit, then I I maybe we want to try to
+
+84
+00:11:09.730 --> 00:11:20.489
+Stephen Curran: get a few more things in
+
+85
+00:11:20.510 --> 00:11:25.319
+Stephen Curran: 0 9. So there's this one in here that I think is an important one.
+
+86
+00:11:25.750 --> 00:11:41.940
+Stephen Curran:  that I'd like to get in  this one I'd love to get in as soon as possible, but I think that's a 0 9 0  so those would be my course. This one
+
+87
+00:11:43.310 --> 00:11:50.050
+Stephen Curran: I I think there's not a lot of controversy to it but that we've not had a a review on it.
+
+88
+00:11:50.980 --> 00:11:54.810
+Stephen Curran:  So
+
+89
+00:11:55.460 --> 00:12:06.850
+Stephen Curran: you know, we could start to go through these one by one and see whether they're ready to go. Obviously 3, 6. We're stuck on right because, we've got so far. We you haven't been able to get past
+
+90
+00:12:07.260 --> 00:12:13.459
+Wade Barnes: where we are at that time. Right?
+
+91
+00:12:13.930 --> 00:12:18.030
+Wade Barnes: It gets to a certain part like it. It starts the
+
+92
+00:12:19.360 --> 00:12:40.920
+Wade Barnes: it starts one agent. It's mediator, starts, Bob, and then it tries to start Bob's mediator, and then nothing happens. It just it freezes, and I can't seem to get any logs. As to, you know, from github actions, or occupy or anything that would indicate what's going on.
+
+93
+00:12:41.140 --> 00:12:43.560
+Wade Barnes: with that particular mediator.
+
+94
+00:12:44.040 --> 00:12:49.900
+Wade Barnes: and I can't reproduce it locally, because it works every time
+
+95
+00:12:52.610 --> 00:12:53.450
+Wade Barnes: so
+
+96
+00:12:56.010 --> 00:13:01.900
+Wade Barnes: and and it it has something something to do with the version of Python, because
+
+97
+00:13:02.380 --> 00:13:10.810
+Wade Barnes: it works all the way up until python 3.7 and Github actions, and then it stops working at 3.8
+
+98
+00:13:11.040 --> 00:13:12.809
+Wade Barnes: 3.9 doesn't work as well.
+
+99
+00:13:13.860 --> 00:13:15.549
+Wade Barnes: So I don't
+
+100
+00:13:15.680 --> 00:13:17.060
+Wade Barnes: you know? I I
+
+101
+00:13:17.070 --> 00:13:19.380
+Wade Barnes: I'd like another set of eyes and
+
+102
+00:13:19.540 --> 00:13:23.799
+Wade Barnes: brain on it to, you know, maybe see something that I can't.
+
+103
+00:13:24.020 --> 00:13:24.890
+Stephen Curran: Okay.
+
+104
+00:13:25.740 --> 00:13:30.720
+Daniel Bluhm: Oh, yeah, I I volunteered myself to take a look at, but just haven't gotten around to it just yet.
+
+105
+00:13:30.770 --> 00:13:32.840
+Stephen Curran: You're very busy. Okay.
+
+106
+00:13:33.240 --> 00:13:38.230
+Stephen Curran: okay, so that one's a big one. But again, we would not want to put that in 0 8 2
+
+107
+00:13:39.160 --> 00:13:39.880
+Daniel Bluhm: right?
+
+108
+00:13:40.400 --> 00:13:47.570
+Stephen Curran:  This one looks ready to go. I believe.
+
+109
+00:13:51.500 --> 00:13:57.170
+Daniel Bluhm: I think that's the one that had the dependency that had dropped support for 3, 6, right?
+
+110
+00:13:57.780 --> 00:14:07.490
+Daniel Bluhm: I think we could. Probably. I think there's a there are ways to address this and get it into a a python. Three-six release back. I
+
+111
+00:14:08.120 --> 00:14:13.660
+Daniel Bluhm: I we've I've worked with the multi formats library before, and it's not like it's doing.
+
+112
+00:14:14.110 --> 00:14:27.079
+Daniel Bluhm: It's doing, it's useful. It's convenient to have. I think once we do get to a point where we're beyond. I think it would be helpful to include the multi formats as a dependency. but it's also possible to work around that. I think if we if we
+
+113
+00:14:27.150 --> 00:14:28.740
+Daniel Bluhm: wanted to push for that, I guess.
+
+114
+00:14:33.980 --> 00:14:39.779
+Stephen Curran: So this is just end rock endpoints in the manage
+
+115
+00:14:39.820 --> 00:14:41.210
+Stephen Curran: process.
+
+116
+00:14:46.240 --> 00:14:50.850
+Stephen Curran: There was a review left with with comments.
+
+117
+00:14:52.990 --> 00:14:55.870
+Stephen Curran: And the person hasn't responded.
+
+118
+00:14:58.380 --> 00:15:02.480
+Stephen Curran: I don't think, you know. Obviously, I don't think this one is a high priority one.
+
+119
+00:15:06.280 --> 00:15:15.430
+Stephen Curran:  this. This is the one that I am worried about. Is is this ready to go now? And should we put it into O 8, 2.
+
+120
+00:15:16.500 --> 00:15:22.729
+Daniel Bluhm: So I reviewed this one this morning, and Sasha got
+
+121
+00:15:22.900 --> 00:15:38.610
+Stephen Curran: changes in addressing feedback. And I think this is good to go. Okay, and you're good with it in. Yes, okay. So that was my plan for that one as well, thinking what number? Yeah, we can see it on the screen anywhere.
+
+122
+00:15:48.750 --> 00:15:53.950
+Stephen Curran: Okay? 2235. So I, assuming that tests pass
+
+123
+00:15:54.140 --> 00:16:00.960
+Stephen Curran: we'll push that one into only 2, 233. If we can get some reviews on that
+
+124
+00:16:01.330 --> 00:16:04.029
+Stephen Curran: we'll put it into
+
+125
+00:16:04.100 --> 00:16:10.740
+Stephen Curran:  4, 8, 2, and then likely we'll declare it done at that point.
+
+126
+00:16:14.370 --> 00:16:15.210
+Stephen Curran: Okay.
+
+127
+00:16:22.700 --> 00:16:25.810
+Stephen Curran: this one has discussion going on.
+
+128
+00:16:27.260 --> 00:16:35.059
+Stephen Curran: This one's breaking, so we won't change it. And then these are fairly old that we are okay with looking at them in a bit. This one will go away.
+
+129
+00:16:35.570 --> 00:16:42.820
+Stephen Curran: if the work that with some other work going on by PC. Gov. And Jason Cairo.
+
+130
+00:16:44.920 --> 00:16:46.300
+Stephen Curran: And so
+
+131
+00:16:46.470 --> 00:16:59.499
+Stephen Curran: that's that's basically the list of all of the things that are going on. So that's the plan. 2233, and 35 will try to get into 8, 2, and then 2247 will be
+
+132
+00:16:59.680 --> 00:17:04.930
+Stephen Curran: definitely a requirement for 0 9,
+
+133
+00:17:05.130 --> 00:17:09.000
+Stephen Curran: and and that will should be the next one, and we want to get that very soon.
+
+134
+00:17:10.089 --> 00:17:13.459
+Stephen Curran: Sounds good. Any other comments.
+
+135
+00:17:16.310 --> 00:17:20.040
+Stephen Curran: all right. That took easier and faster than I thought.
+
+136
+00:17:20.190 --> 00:17:27.119
+Stephen Curran: occupy plugins. Emiliano, you wanted to jump in and say some things. Do you want the screen? Or
+
+137
+00:17:27.680 --> 00:17:32.390
+Emiliano Suñé: no, that's okay. I don't have anything to share
+
+138
+00:17:33.100 --> 00:17:40.250
+Emiliano Suñé: it. It's more of a conversation and kind of like trying to throw out there some of the things we we're thinking would like to do.
+
+139
+00:17:40.300 --> 00:17:45.610
+Emiliano Suñé: I and Costanzo did a while back, an analysis about which
+
+140
+00:17:45.800 --> 00:17:54.450
+Emiliano Suñé: parts of a that are currently part of a it could be pluginified. And then there's a heck in the document which I can put in the
+
+141
+00:17:54.840 --> 00:18:00.110
+Emiliano Suñé: in the in the wiki for reference, and it outlines
+
+142
+00:18:00.180 --> 00:18:05.970
+Emiliano Suñé: some recommendations, best best practices. and as part of the
+
+143
+00:18:06.200 --> 00:18:11.269
+Emiliano Suñé: the push that we're doing to get multi-tenancy
+
+144
+00:18:11.720 --> 00:18:13.060
+Emiliano Suñé: working
+
+145
+00:18:13.660 --> 00:18:25.390
+Emiliano Suñé: better for us. which means have multi-tenancy working. We in particular, we're using the Traction Plugin to manage parts of the multi-tenancy
+
+146
+00:18:25.610 --> 00:18:35.580
+Emiliano Suñé: for down provisioning and and management. And on top of that we're trying to get some progress into the multi ledger right
+
+147
+00:18:36.290 --> 00:18:42.169
+Emiliano Suñé: support for for agents. it's the the of a multi-pen
+
+148
+00:18:42.310 --> 00:18:46.109
+Emiliano Suñé: multi-ten instance would be like, anybody can decide
+
+149
+00:18:46.240 --> 00:18:48.290
+Emiliano Suñé: basically where which led to
+
+150
+00:18:48.550 --> 00:18:55.159
+Emiliano Suñé: to be rooted on what one part of these would be, maybe taking a look at plugins
+
+151
+00:18:55.260 --> 00:18:58.240
+Emiliano Suñé: and have 2 2 separate.
+
+152
+00:18:58.590 --> 00:19:01.650
+Emiliano Suñé: but that kind of like concurrent conversations. One is like
+
+153
+00:19:01.770 --> 00:19:09.260
+Emiliano Suñé: the video we're having in J. And Jason Sherman. I was talking with him yesterday, so he please chime in. If you, if you want
+
+154
+00:19:09.660 --> 00:19:17.409
+Emiliano Suñé: was to try and start creating a either a complex folder in the occupy repository, or maybe even better.
+
+155
+00:19:17.560 --> 00:19:23.080
+Emiliano Suñé: a separate repo for official or
+
+156
+00:19:23.290 --> 00:19:27.059
+Emiliano Suñé: and then, yeah, I don't know how to can mean the plugins for occupy
+
+157
+00:19:27.130 --> 00:19:38.779
+Emiliano Suñé: so that we can start moving components out there. the idea would be to have a single entry point, for the main clients are not like product specific, but they provide
+
+158
+00:19:38.870 --> 00:19:47.860
+Emiliano Suñé: extra functionality, such as you know, the the the red is queuing or multi dependency, which is just like an add on to the core functionality without being
+
+159
+00:19:48.310 --> 00:19:49.830
+Emiliano Suñé: specific to any product.
+
+160
+00:19:49.950 --> 00:19:56.059
+Emiliano Suñé: That would be, in our opinion of benefit also for consistency, and how to develop Plugins
+
+161
+00:19:56.170 --> 00:20:03.759
+Emiliano Suñé: in the future. There was some conversation about people not knowing exactly how to tackle them. There's like a few different
+
+162
+00:20:04.440 --> 00:20:08.740
+Emiliano Suñé: the flavors of implementations. And we would like to make them a little more
+
+163
+00:20:08.840 --> 00:20:16.059
+Emiliano Suñé: standardized, if possible. And yeah, so that's kind of like the
+
+164
+00:20:18.200 --> 00:20:21.460
+Emiliano Suñé: start pushing that direction potentially
+
+165
+00:20:21.590 --> 00:20:24.260
+Emiliano Suñé: starting with. And
+
+166
+00:20:24.490 --> 00:20:26.879
+Emiliano Suñé: the multi-tenancy piece.
+
+167
+00:20:28.410 --> 00:20:29.250
+Stephen Curran: Okay.
+
+168
+00:20:30.820 --> 00:20:32.730
+Emiliano Suñé: I don't want to add anything, Jason.
+
+169
+00:20:33.670 --> 00:20:46.240
+Jason Sherman: Yeah, I I think it covered most of it there it's I think we've got it kind of push this along. So yeah, like Ameliano, said he, and did all that work to kind of do some analysis on it.
+
+170
+00:20:46.300 --> 00:20:47.919
+Jason Sherman: but nothing's really
+
+171
+00:20:48.200 --> 00:20:56.930
+Jason Sherman: move forward with that. And I think you have to be kind of proactive. It may be simpler just to have a plugins folder
+
+172
+00:20:57.040 --> 00:20:59.860
+Jason Sherman: at first in
+
+173
+00:21:00.540 --> 00:21:09.590
+Jason Sherman: in the acupy repo. But it's probably better to be outside of it. yeah. And and the traction teams got
+
+174
+00:21:09.660 --> 00:21:25.849
+Jason Sherman: 3 plugins that I can see that are traction specific to add functionality. So they've got the multi-tenancy stuff with allowing multiple tokens to be valid. so you can have multiple clients. using one wallet.
+
+175
+00:21:26.350 --> 00:21:41.210
+Jason Sherman: That thing is not traction specific. they've also got basic message storage and connection, alias updating things so really small little enhancements that maybe don't have to go into occupy proper. But
+
+176
+00:21:41.240 --> 00:22:08.789
+Jason Sherman: could be used by anybody else if they have a similar situation. So I think getting those out there, getting them like the mealano and standardized. This is how you build them. So you test them. This is how you would bring to your project. would be pretty beneficial. I think it. It gets the ball rolling. Maybe more people be interested in creating small little things. If they're seeing gaps in and occupy and stuff is, they'll have a a venue to do so.
+
+177
+00:22:08.860 --> 00:22:25.740
+Jason Sherman: And you know. I think the Ontario team they had issues with being able to contribute because they don't have access to public repos. So having a like, maybe A. A. A shared the Hyper Ledger Labs repo would help them to be able to share
+
+178
+00:22:25.790 --> 00:22:30.210
+Jason Sherman: plugging code that they're creating as well. That was an issue from way back. So
+
+179
+00:22:31.190 --> 00:22:36.119
+Stephen Curran: okay, yeah, those are. That's my 2 cents on it. I think, yeah, it's kind of the times kind of right to
+
+180
+00:22:37.040 --> 00:22:38.829
+Jason Sherman: push this forward a little bit more?
+
+181
+00:22:40.320 --> 00:22:49.460
+Stephen Curran:  Daniel. And and in DC of folks you guys have Aries, toolbox plugins. Are are they
+
+182
+00:22:51.010 --> 00:22:56.090
+Stephen Curran: specific to toolbox? Or do you think they would fit in an area? Sacrifice plugins? Repo?
+
+183
+00:22:58.440 --> 00:23:10.109
+Daniel Bluhm:  I don't know if you've talked about this or not. I can't remember. I think we have. But we're actually moving the direction of deprecating the areas toolbox plugins.
+
+184
+00:23:10.170 --> 00:23:11.270
+Daniel Bluhm: Yeah, okay.
+
+185
+00:23:12.890 --> 00:23:16.440
+Daniel Bluhm: so I I don't think that would be something that we would want in a
+
+186
+00:23:16.570 --> 00:23:19.319
+Daniel Bluhm: to include there.
+
+187
+00:23:19.320 --> 00:23:43.429
+Sam Curren (TelegramSam): ha! Having, I mean, the answer is probably correct. But for a little more context, the the Plugin themselves added protocols like admin protocols to Acupy that could be called or used by anyone. So if the community found those useful they could maintain without it'll affect. Even if the toolbox Plugin would assist to to correctly identify what it is.
+
+188
+00:23:43.430 --> 00:23:53.909
+Sam Curren (TelegramSam): So we are totally okay. If someone wants to it, it doesn't have to die if someone wants to continue to to have it. But we might consider it. I mean.
+
+189
+00:23:54.890 --> 00:24:01.150
+Stephen Curran: and your thought on plugins for aquify in general, is it a useful feature at this point?
+
+190
+00:24:01.960 --> 00:24:05.419
+Stephen Curran: Any any comments from anyone? Daniel or Brothers?
+
+191
+00:24:06.170 --> 00:24:11.209
+Daniel Bluhm: yes, I think this is generally a a really good idea. I think that all that, having
+
+192
+00:24:11.280 --> 00:24:15.580
+Daniel Bluhm: moving a lot of the functionality back into plugins allows us to
+
+193
+00:24:15.750 --> 00:24:20.250
+Daniel Bluhm: have a cleaner separation of concerns between different things. We've got a little bit of
+
+194
+00:24:20.370 --> 00:24:21.449
+Daniel Bluhm: the bleed.
+
+195
+00:24:21.530 --> 00:24:25.550
+Daniel Bluhm: It's kind of all over the place. And in some of these components
+
+196
+00:24:26.210 --> 00:24:42.559
+Daniel Bluhm: so moving some of that out then the core, I structure, I think, becomes more maintainable. And because, you know, if these plugins are not directly accessible, we can, you know, we can say, that's that's a plugin feature. That's a core feature, and we have a little bit more
+
+197
+00:24:44.090 --> 00:24:55.879
+Daniel Bluhm: we. We can take a firmer stance on what belongs where, I guess. And yeah, I I think moving to a more plugging structure is going to be really important for
+
+198
+00:24:56.030 --> 00:25:12.729
+Daniel Bluhm: the continued viability of of being able to maintain and update, act by in a in a quick way, especially with like the size of like each of these components. Like we, we don't take away features from Mac. I we just keep on adding new features, which is great.
+
+199
+00:25:12.990 --> 00:25:17.899
+Daniel Bluhm: but Some of these features are are getting so large to the point where we could be.
+
+200
+00:25:18.340 --> 00:25:29.709
+Daniel Bluhm: we could really realistically be independently revising them of occupy and and not have them tied to the release schedule back. And I think that would actually be a significant benefit both to Aqua by
+
+201
+00:25:29.770 --> 00:25:32.679
+Daniel Bluhm: and these features. So
+
+202
+00:25:36.190 --> 00:25:46.960
+Daniel Bluhm: yeah, at the same time, I've also I I I've been. I have like not well articulated concerns about like having a plugins all the way down.
+
+203
+00:25:47.040 --> 00:25:48.979
+Daniel Bluhm: Kind of a thing.
+
+204
+00:25:50.360 --> 00:25:51.610
+Daniel Bluhm: if if
+
+205
+00:25:52.340 --> 00:26:02.079
+Daniel Bluhm: there's there's definitely value in having an agent in a box and just having like a course set of things just to be there and available and and have same defaults and stuff
+
+206
+00:26:03.260 --> 00:26:13.099
+Daniel Bluhm: to give up a slightly more concrete example. So we we implemented the universal resolver, Plugin for a I and that was separate as a plugin
+
+207
+00:26:13.330 --> 00:26:15.429
+Daniel Bluhm: It was usable. It was good.
+
+208
+00:26:15.470 --> 00:26:19.159
+Daniel Bluhm: but I don't think it was picked up by anybody because they
+
+209
+00:26:19.170 --> 00:26:31.049
+Daniel Bluhm: nobody was in the habit or or had processes established for pulling in plugins? and so until we actually moved it into I I don't think it was really seeing a lot of use
+
+210
+00:26:31.950 --> 00:26:34.459
+Daniel Bluhm: So having a clean strategy for
+
+211
+00:26:36.370 --> 00:26:45.260
+Daniel Bluhm: pulling in plugins and making sure people are aware of these really awesome and important features that are provided by plugins
+
+212
+00:26:45.460 --> 00:26:47.759
+Daniel Bluhm: I think will be important.
+
+213
+00:26:49.370 --> 00:26:54.589
+Emiliano Suñé: Yeah, I think it's a bit of a balancing act. You're right because there's a there's gonna be
+
+214
+00:26:54.600 --> 00:27:03.019
+Emiliano Suñé: plugins that can be plugins, but are better off being the core functionality because of this cope that they set on
+
+215
+00:27:03.140 --> 00:27:13.579
+Emiliano Suñé: But this idea of having, like the you know, the repository with the sort of like a listing of what the official plugins are. What you can find, I think would help in that.
+
+216
+00:27:13.990 --> 00:27:18.830
+Emiliano Suñé: yeah, for the we are describing of like having people use them instead of just
+
+217
+00:27:19.120 --> 00:27:36.909
+Emiliano Suñé: way for them to be absorbed because we we wouldn't have examples on how to add them. I I don't know if it is possible to make you to make like no install installable packages, somehow, maybe it's not possible. Maybe it's possible, but we can work more cohesively into
+
+218
+00:27:37.000 --> 00:27:45.070
+Emiliano Suñé: getting all of the plugins that get developed. E for a specific side to be just used the same exact way.
+
+219
+00:27:49.790 --> 00:27:50.800
+Stephen Curran: All right.
+
+220
+00:27:56.240 --> 00:27:57.879
+Stephen Curran: Good discussion. So
+
+221
+00:27:58.120 --> 00:28:05.099
+Stephen Curran: my thought is this would not be a lab. So let's just move it into
+
+222
+00:28:05.180 --> 00:28:06.410
+Stephen Curran: a repo.
+
+223
+00:28:07.480 --> 00:28:09.870
+Stephen Curran: I'm happy to create it
+
+224
+00:28:10.170 --> 00:28:14.690
+Stephen Curran: if we think we're far enough along to do that, and then and
+
+225
+00:28:14.900 --> 00:28:20.839
+Stephen Curran: I would say, we want to pick several plugins to to use as to populate it
+
+226
+00:28:22.780 --> 00:28:26.170
+Stephen Curran: and and drive off. That does that sound right?
+
+227
+00:28:28.750 --> 00:28:32.950
+Emiliano Suñé: Yeah, I think we can work around that. Maybe what we should do is if this.
+
+228
+00:28:32.970 --> 00:28:34.270
+Emiliano Suñé: if we start
+
+229
+00:28:34.360 --> 00:28:38.149
+Emiliano Suñé: doing the to be analysis, less work of like
+
+230
+00:28:38.330 --> 00:28:43.450
+Emiliano Suñé: plucking things around. Maybe Jason can can sync up with you when
+
+231
+00:28:43.520 --> 00:28:48.880
+Emiliano Suñé: you know if a foundation is ready, and then start pushing things over to the other side
+
+232
+00:28:48.960 --> 00:28:57.769
+Stephen Curran: like this is to me, is needed right away. If we could bring in the Kafka, one from from Cyclus.
+
+233
+00:28:57.840 --> 00:29:02.880
+Stephen Curran: work. That would be another good one And then
+
+234
+00:29:02.990 --> 00:29:07.940
+Stephen Curran: picking one or 2 from from traction if they are suitably.
+
+235
+00:29:08.050 --> 00:29:08.950
+Stephen Curran: you know.
+
+236
+00:29:09.270 --> 00:29:11.690
+Stephen Curran: suitable for that?
+
+237
+00:29:11.730 --> 00:29:19.300
+Stephen Curran: A. And then just say, Okay, we've got 3 or 4 that we need. Now, we'll do the types of things that
+
+238
+00:29:19.790 --> 00:29:30.379
+Stephen Curran: that you and Jason we're talking about, which is standardizing the structures, the conventions, and how to use them, examples of how to bring them into a a deployment of occupy, and then.
+
+239
+00:29:30.710 --> 00:29:36.559
+Stephen Curran: you know, prevent this thing of them not being used at all, but actually, you know.
+
+240
+00:29:36.740 --> 00:29:42.650
+Stephen Curran: getting the the community comfortable with with both building them and
+
+241
+00:29:42.850 --> 00:29:44.880
+Stephen Curran: and and deploying them
+
+242
+00:29:45.640 --> 00:29:48.740
+Stephen Curran: in a in a as easy way as possible.
+
+243
+00:29:53.860 --> 00:29:57.429
+Stephen Curran: Okay. any other thoughts from anyone on that
+
+244
+00:30:02.150 --> 00:30:11.689
+Stephen Curran: excellent. all right. The last topic is a happy one. we've got a new mediator. So speaking of our pull requests
+
+245
+00:30:12.940 --> 00:30:23.980
+Stephen Curran: looks like this has been approved with lots of people approving it. We have. The majority of Maintainers have approved this.
+
+246
+00:30:25.090 --> 00:30:35.199
+Stephen Curran: I introduced it so I've already approved it. I guess. so good to go to welcome Jason Sherman has a meet as a Maintainer, and
+
+247
+00:30:35.590 --> 00:30:40.640
+Stephen Curran: in occupied done at all. I hope to do it today. I forgot this was going to be out of.
+
+248
+00:30:41.460 --> 00:30:49.609
+Stephen Curran: Oh, I hope to do this live in person, but I guess we won't, because we've got to run a pilot test to see if this text change affects the code in any way.
+
+249
+00:30:50.240 --> 00:30:55.300
+Stephen Curran: anyway. Jason, welcome to as a Maintainer.
+
+250
+00:30:55.500 --> 00:31:11.510
+Stephen Curran: Appreciate your efforts and look forward to your contributions going forward. If anyone else knows of someone who should be a Maintainer is interested in a Maintainer, we did update the Maintainer documentation as to
+
+251
+00:31:11.610 --> 00:31:23.530
+Stephen Curran: exactly what the rules are for, how to propose or self. Nominate yourself as a Maintainer, and we welcome those. And we also in that document.
+
+252
+00:31:23.620 --> 00:31:36.999
+Stephen Curran: outlying sort of the duties of of a maintainer and sort of the the priority order of of of what to work on things. This was discussed.
+
+253
+00:31:37.790 --> 00:31:53.029
+Stephen Curran:  so sorry I have a question. Sorry for this interruption. Yeah, yeah, I'm I'm Jel Luca. I'm a mentee of fiber ledger mendorship program. And I've long to stand that the recommendation
+
+254
+00:31:53.100 --> 00:32:05.109
+Gianluca Capuzzi: task force and ask you if you need support for writing documentation and also other kind of contribution, because we we know also the
+
+255
+00:32:05.210 --> 00:32:07.160
+Gianluca Capuzzi: learning program.
+
+256
+00:32:07.430 --> 00:32:13.109
+Gianluca Capuzzi: If you have. Yeah, I I wrote in, I wrote in in chat.
+
+257
+00:32:13.120 --> 00:32:20.659
+Gianluca Capuzzi: if you get the support for the recommendation or other kind of contribution. I don't know if you want to.
+
+258
+00:32:20.750 --> 00:32:25.599
+Stephen Curran: answer later I will call that you.
+
+259
+00:32:25.750 --> 00:32:29.560
+Stephen Curran: And and I think, Agnes, you have a similar background.
+
+260
+00:32:30.220 --> 00:32:31.860
+Gianluca Capuzzi: Okay?
+
+261
+00:32:32.360 --> 00:32:34.749
+Gianluca Capuzzi: Okay, yeah. Yeah.
+
+262
+00:32:34.960 --> 00:32:40.700
+Stephen Curran: All right. So maybe the 3 of us could get together for a meeting. And are you working with Bobby? Both of you.
+
+263
+00:32:40.760 --> 00:32:41.900
+Gianluca Capuzzi: Yeah, yeah.
+
+264
+00:32:42.890 --> 00:32:48.960
+Stephen Curran: Okay. So maybe the the 3 or 4 of us could have a meeting on this and and sort of figure out.
+
+265
+00:32:49.020 --> 00:32:52.729
+Stephen Curran:  there is.
+
+266
+00:32:52.810 --> 00:33:01.649
+Stephen Curran: there is a bunch of resources. There's a bunch of organization help. We could definitely use that. We made some progress in the last year.
+
+267
+00:33:01.810 --> 00:33:13.620
+Stephen Curran: in doing that. But we definitely could use additional help. And and so let's talk about your backgrounds and and sort of how to figure out how you might be able to fit in.
+
+268
+00:33:14.710 --> 00:33:17.460
+Stephen Curran: Glad to have your help. Delighted to your
+
+269
+00:33:20.460 --> 00:33:32.880
+Gianluca Capuzzi: okay, okay, we're about. I will report back. And and I mean, we we we have in our team. we have also software developer
+
+270
+00:33:32.960 --> 00:33:37.639
+Gianluca Capuzzi: and also people who have a Phd. For example.
+
+271
+00:33:38.330 --> 00:33:47.400
+Gianluca Capuzzi: So they can write the recommendation, or also good to to write code if if needed.
+
+272
+00:33:51.950 --> 00:33:54.709
+Stephen Curran: Sorry about that. Yeah, excellent.
+
+273
+00:33:54.800 --> 00:33:57.999
+Stephen Curran: Very much. delighted to talk to you about that.
+
+274
+00:33:58.560 --> 00:34:01.359
+Stephen Curran: Okay, thank you. Thank you.
+
+275
+00:34:03.650 --> 00:34:13.729
+Stephen Curran:  I wanted to. Highlight. Yeah, here's sort of the duties of a Maintainer on a on a hyper ledger project and sort of the
+
+276
+00:34:14.090 --> 00:34:15.639
+Stephen Curran: the order of
+
+277
+00:34:15.659 --> 00:34:20.519
+Stephen Curran: of activity, and  you know.
+
+278
+00:34:21.070 --> 00:34:39.349
+Stephen Curran: contribute to the product by a pull request. This is likely the most common thing. But there's lots of other things that are important to get done, perhaps ahead of these things, and that's the idea of of you know, making sure that these these items are getting done
+
+279
+00:34:39.560 --> 00:34:41.040
+Stephen Curran: to enable
+
+280
+00:34:41.070 --> 00:34:50.019
+Stephen Curran:  you know not only your contributions, but others to contribute to it. And that's and that's a big part of this, that role.
+
+281
+00:34:50.750 --> 00:34:54.579
+Stephen Curran: So if I use this as an opportunity to get on that soap box.
+
+282
+00:34:54.630 --> 00:34:56.510
+Stephen Curran: okay.
+
+283
+00:34:56.750 --> 00:35:11.049
+Stephen Curran: that's all I have for the meeting right now. for the topics. We walk through the the things a little faster than I expected, so I kind of thought. This was going to be a packed meeting. It seems like it's not Are there any other topics people want to raise?
+
+284
+00:35:11.200 --> 00:35:14.820
+Stephen Curran:  in the open space we have. Now.
+
+285
+00:35:19.730 --> 00:35:23.409
+Emiliano Suñé: Yeah, I was gonna mention, mention one thing,
+
+286
+00:35:23.430 --> 00:35:34.850
+Emiliano Suñé: as part of the what it was describing before the effort to using multi-tenancy more. One side side effect that we're having is we're trying to consolidate also
+
+287
+00:35:35.000 --> 00:35:40.049
+Emiliano Suñé: the deployment strategies we have. So we're probably going to be pushing.
+
+288
+00:35:40.170 --> 00:35:45.210
+Emiliano Suñé: And at some point, at least in the initial version of a of a home chart.
+
+289
+00:35:45.530 --> 00:35:52.189
+Emiliano Suñé: or try to question it. Some virgin initial version of a home chart to to the aquifer repo for occupied agents.
+
+290
+00:35:52.550 --> 00:35:58.019
+Emiliano Suñé: and so maybe keep an eye open for that, and if you have any interest or
+
+291
+00:35:58.150 --> 00:36:06.040
+Emiliano Suñé: knowledge in that field. It would be nice to get some extra eyes on it. It's probably gonna be a.
+
+292
+00:36:06.460 --> 00:36:10.729
+Emiliano Suñé: It's going to take a while to get it perfected because there's a lot of
+
+293
+00:36:11.170 --> 00:36:18.619
+Emiliano Suñé: we tweaks. And in settings that need to be added that we're going to try to do it as good as possible in in the first step.
+
+294
+00:36:19.270 --> 00:36:20.170
+Stephen Curran: Yeah.
+
+295
+00:36:22.150 --> 00:36:34.769
+Stephen Curran: I think that's probably Oh, Jason, go ahead. Oh, this is for after this. Yeah, yeah. The one thing I wanted to add was, you know, probably the the biggest
+
+296
+00:36:36.330 --> 00:36:43.190
+Stephen Curran:  challenge new folks coming into the community have is that
+
+297
+00:36:44.280 --> 00:36:46.329
+Stephen Curran: incredibly long list of
+
+298
+00:36:46.360 --> 00:36:54.679
+Stephen Curran:  configuration parameters and and a the config file. It's possible. And and that is definitely something that we need to
+
+299
+00:36:56.110 --> 00:37:02.460
+Stephen Curran: help with the documentation and help with ideas on how we can make that a lot easier. So
+
+300
+00:37:03.170 --> 00:37:18.560
+Stephen Curran:  you know, Jen, look. And and I guess those are big areas where we are desperate for help. So part of that is creating code, like like Amelia is, is proposing by having a helm sharp
+
+301
+00:37:18.810 --> 00:37:27.359
+Stephen Curran: to do that But others is, is just trying to ease people into it and giving them tools they can use to to make it easier.
+
+302
+00:37:28.220 --> 00:37:30.300
+Stephen Curran: All right, Jason, go ahead.
+
+303
+00:37:31.850 --> 00:37:43.660
+Jason Sherman: yeah. I forgot to file in a bullet point there, just the discussion of adding a dev container. The Aries, cloudy python.
+
+304
+00:37:44.210 --> 00:37:50.759
+Jason Sherman: As we discussed yesterday. I just don't want to go. I don't know how the community feels about
+
+305
+00:37:51.220 --> 00:38:02.930
+Jason Sherman: dev containers and Vs code. I know Dev containers, not Vs code specific, but that's kind of where it leans and then adding, launch stuff! I just didn't know how the community felt about
+
+306
+00:38:03.280 --> 00:38:05.650
+Jason Sherman: adding things like that. So
+
+307
+00:38:05.760 --> 00:38:06.420
+this
+
+308
+00:38:06.720 --> 00:38:21.649
+Jason Sherman: it's under way, and it was really useful for me to solve some of these problems in the last few weeks. so I mean, I can always do. Do obviously do a Pr. And get people to respond on that. But I just thought I'd throw that out there that that was kind of under way to
+
+309
+00:38:21.810 --> 00:38:24.049
+Jason Sherman: maybe make it easier for
+
+310
+00:38:24.220 --> 00:38:32.210
+Jason Sherman: new actual developers, not just users of occupy, but developers of occupy. we're kind of headed in that direction. So
+
+311
+00:38:32.660 --> 00:38:34.800
+Stephen Curran: okay, so
+
+312
+00:38:35.720 --> 00:38:43.829
+Stephen Curran: just to summarize the plan Jason is working on adding a a Pr for adding a dev container
+
+313
+00:38:44.220 --> 00:38:53.529
+Stephen Curran: to the occupy repo, so that when you start up in, for example, vs. Code, you get a a a
+
+314
+00:38:54.870 --> 00:39:09.929
+Stephen Curran: you. You get an option at least to restart the container in the deaf container. restart your end, or into that container and operate from there. I know I keep you put up up, put them in a pile of places, and find them really useful.
+
+315
+00:39:12.000 --> 00:39:19.570
+Akiff Manji: Yeah, especially for Javascript. But I've been thinking about even the python once. So this is, this would be a great
+
+316
+00:39:19.690 --> 00:39:22.650
+Akiff Manji: addition, I think, for developer experience.
+
+317
+00:39:23.150 --> 00:39:33.539
+Jason Sherman: Okay? Great like dev containers are pretty new to me. I don't live in that world. So feedback will be very important, I think, for people that are, you know.
+
+318
+00:39:34.190 --> 00:39:45.200
+Jason Sherman: have created them more frequently or use them more frequently. It'd be great to get some feedback on that. So when that Pr is out. That'll we'll maybe kind of advertise that one needs some eyes from other parties.
+
+319
+00:39:45.340 --> 00:39:50.740
+Stephen Curran: Yeah. And it's definitely one that can evolve over time. That's for sure, for sure. Yeah, yeah.
+
+320
+00:39:52.230 --> 00:40:02.349
+Stephen Curran: Again. This that that will help in the getting started. Thanks for bringing that up. any any one object to having a deaf container included in occupy itself in the repository.
+
+321
+00:40:09.090 --> 00:40:09.940
+Stephen Curran: Cool?
+
+322
+00:40:11.390 --> 00:40:20.030
+Jason Sherman: All right. Any hopefully. Next week, then, or the end of this week, we'll have a yeah. The Pr. Up there if I can get some time to document it nicely. Yeah.
+
+323
+00:40:20.260 --> 00:40:27.070
+Stephen Curran: this is in in ramping up this. These are the things that make it go faster, not not slower. You may. They may
+
+324
+00:40:27.360 --> 00:40:31.110
+Stephen Curran: deviate off the path, but the end result is, you go faster
+
+325
+00:40:31.620 --> 00:40:34.140
+Stephen Curran: going down the path. So it's good.
+
+326
+00:40:39.040 --> 00:40:52.419
+Alberto Leon: Yeah. Hello, guys. yeah. I've been asking some questions on the Channel. and I'm more of a front end person here, and I'm just trying to get my head around. how my team and I can.
+
+327
+00:40:52.470 --> 00:41:02.540
+Alberto Leon: Great high availability mediator. I think I asked that question, Steven. You answered that question. I know you guys from DC, go have like an open shift thing.
+
+328
+00:41:02.830 --> 00:41:18.169
+Alberto Leon: And I know. And I understand that the media are all it really does is just like an input output kind of mechanism. If I'm I'm not sure if I'm correct on that. And I know, maybe like a it is simple, easy to instance, might suffice.
+
+329
+00:41:18.310 --> 00:41:28.739
+Alberto Leon: But I kind of wanted to get your thoughts, Steven, or anyone else on what you recommend. I know the orchestration might be a complicated when you have multi instances.
+
+330
+00:41:28.870 --> 00:41:32.270
+Alberto Leon: But I kind of wanted to see if there's any
+
+331
+00:41:32.390 --> 00:41:39.819
+Alberto Leon: viable options and any other teams have done for handling big amounts of of users.
+
+332
+00:41:45.330 --> 00:41:46.540
+Stephen Curran: Anyone?
+
+333
+00:41:49.580 --> 00:41:50.690
+Stephen Curran: All right.
+
+334
+00:41:50.820 --> 00:42:01.119
+Stephen Curran:  At this point.  the challenge has been and and we're happy to start and contribute to
+
+335
+00:42:01.460 --> 00:42:14.979
+Stephen Curran: start conversations and and go through a design. We went through a fair amount of design work. last December is on this topic, and
+
+336
+00:42:15.180 --> 00:42:18.440
+Stephen Curran: we got to the point that we decided to hold off
+
+337
+00:42:18.840 --> 00:42:22.040
+Stephen Curran: on it. and so we haven't made
+
+338
+00:42:22.060 --> 00:42:25.209
+Stephen Curran: a lot of of progress other than
+
+339
+00:42:25.360 --> 00:42:32.620
+Stephen Curran: on the implementation we already have, which, as as I mentioned, is not a multi container.
+
+340
+00:42:33.230 --> 00:42:47.490
+Stephen Curran:  so we are at, you know. PC, Gov. Team is willing to contribute to that effort and and join in a a collaboration on a design on design work of that. So
+
+341
+00:42:47.890 --> 00:42:51.090
+Stephen Curran: if if that's of interest.
+
+342
+00:42:51.410 --> 00:43:09.220
+Alberto Leon:  yeah, definitely, it is of interest. I think the back end team would be the right people for that. But going back to to whatever I think.
+
+343
+00:43:09.220 --> 00:43:25.980
+Alberto Leon: can you just explain what the current solution Vc, Gu has. the basic solution is what's wrong hardware at it. we have a single instance of of of acupy running as the mediator. we
+
+344
+00:43:26.120 --> 00:43:32.890
+Stephen Curran: we went down the we made sure we're running as far we we made sure we're running
+
+345
+00:43:33.390 --> 00:43:49.659
+Stephen Curran: and just making sure we're oh, we are adding a cash to it, and red is so that at least, if when the when the instance moves because of a rescheduling on the cluster. We don't lose anything.
+
+346
+00:43:49.760 --> 00:44:00.400
+Stephen Curran: so that's good. But we aren't able to horizontally scale. We're not able to add more instances of occupy, and that's because of exactly the problem you mentioned, which is
+
+347
+00:44:00.540 --> 00:44:02.340
+Stephen Curran: Each.
+
+348
+00:44:02.390 --> 00:44:12.040
+Stephen Curran: Each instance has to know which instance has the web the web socket connection to the destination wallet.
+
+349
+00:44:12.080 --> 00:44:32.240
+Stephen Curran: And and so we did a pile of work, and we think we have some solutions, but we we kind of defer it. to see if others in the community would come up with it. At this point we're probably ready to say, Okay, we better start on it. And so that is something we'd be willing to start, and and maybe the next time
+
+350
+00:44:32.320 --> 00:44:41.330
+Stephen Curran: the next session I can. I can do a a sort of overview of this, and maybe that'll be the kick off to to more work happening
+
+351
+00:44:41.370 --> 00:44:45.249
+Sam Curren (TelegramSam): any. Steven we've got. We've
+
+352
+00:44:45.380 --> 00:44:47.349
+Soubhratra Das (SD): sorry, Sam. Go ahead, please.
+
+353
+00:44:47.470 --> 00:44:53.200
+Sam Curren (TelegramSam): We've got a project called Socket Doc, which is pretty dumb about
+
+354
+00:44:53.340 --> 00:45:10.409
+Sam Curren (TelegramSam): what's being passed, but is designed to hold on to web sockets, and then passes the message upstream with enough metadata to know which instance of socket do in a in a cluster environment. contains the the ability to send outgoing messages. So
+
+355
+00:45:10.610 --> 00:45:29.129
+Sam Curren (TelegramSam): that's a relatively small piece of code. We could also show that I think and that would be useful. It it could be used it's relatively, it just needs an Http endpoint on the back end. So it's relatively flexible, and how it could be used. But but that could be useful, and we could and we could share that.
+
+356
+00:45:29.430 --> 00:45:41.419
+Stephen Curran: Well, why don't we plan on? I mean, this is an area's wide just to be very clear. We are not tied to this, the that the Mediator has to be occupy
+
+357
+00:45:41.500 --> 00:45:44.680
+Stephen Curran:  And and so.
+
+358
+00:45:44.690 --> 00:45:48.050
+Stephen Curran: you know, I know Anmo published something
+
+359
+00:45:48.220 --> 00:45:56.080
+Stephen Curran: the other day with Afj. And I haven't had a chance to look at it to see whether it allows for that scalability or not.
+
+360
+00:45:56.090 --> 00:46:04.909
+Stephen Curran:  so. But I'm happy to have it the next at the pub, the, you know, introducing this topic, Sam. I'll get you to
+
+361
+00:46:04.960 --> 00:46:17.829
+Stephen Curran: participating in that discussion, and and we can sort of go from the basics of the problem, and and then figure out what solutions are already available and and what we can build on. Does that sound good
+
+362
+00:46:18.880 --> 00:46:20.060
+Sam Curren (TelegramSam): that does
+
+363
+00:46:21.020 --> 00:46:22.740
+Stephen Curran: Alberta that works for you?
+
+364
+00:46:24.810 --> 00:46:36.060
+Alberto Leon: Yeah, definitely and just kind of like a a question. on the single instance that you guys have. Do you guys have any feedback on how that performs with locust? And how many users
+
+365
+00:46:36.490 --> 00:46:44.930
+Stephen Curran: So so far we have, we, we keep crowd. We've every time we've tried, we've crash focus before we crash.
+
+366
+00:46:44.970 --> 00:46:51.050
+Alberto Leon: Oh, I see. So the okay, yeah, there has not been a problem since we put that in there.
+
+367
+00:46:51.490 --> 00:47:13.380
+Stephen Curran: So we're fairly confident we can go with our used cases. What we don't know is how far it can go, you know. Okay, it makes sense. So Stefan, I work with Alberto at instant. Manage the work of engineering. So we can. We? We are interested because we have a used case right now. to actually
+
+368
+00:47:13.430 --> 00:47:19.479
+Soubhratra Das (SD): test that overall. And Albert, we actually coordinating with our testing team as well as
+
+369
+00:47:19.660 --> 00:47:32.400
+Soubhratra Das (SD): back in team to see what we can do. just for clarification. We are still learning this environment kind of associated, as you understand. for the year.
+
+370
+00:47:32.530 --> 00:47:41.019
+Soubhratra Das (SD): and I'm trying to see if we can allocate someone with the back end knowledge to help these onto this. But if we can actually
+
+371
+00:47:41.140 --> 00:47:50.299
+Soubhratra Das (SD): give an overview, as you suggested in the next meeting, or a special meeting that would help jump start this process.
+
+372
+00:47:53.120 --> 00:48:07.270
+Stephen Curran: Okay? I. I'm kind of hesitant to wait 2 weeks. But I'll figured out what what we can do ahead of that. Sam. Maybe we could have the areas working group meeting, not tomorrow, but the next week.
+
+373
+00:48:07.700 --> 00:48:09.160
+Stephen Curran: Focus on this.
+
+374
+00:48:09.930 --> 00:48:14.499
+Sam Curren (TelegramSam): The venue, I think, is is unimportant. But yeah.
+
+375
+00:48:15.240 --> 00:48:20.199
+Sam Curren (TelegramSam): I mean, I don't mean to say that I think either one would work. Fine. I this is what I meant to say.
+
+376
+00:48:20.270 --> 00:48:25.580
+Stephen Curran: are you? But are you okay with turning the the agenda over to that.
+
+377
+00:48:25.670 --> 00:48:33.119
+Sam Curren (TelegramSam): I am so ready to get back to actual business instead of talking about the open wall foundation
+
+378
+00:48:33.270 --> 00:48:42.400
+Stephen Curran: process. But but we can worry about that. Okay, so how does this that we plan a week from tomorrow we get together and and we
+
+379
+00:48:42.550 --> 00:48:51.039
+Stephen Curran: have all things. Mediator. We'll get teamo and the animal team involved. and and we'll try to build up from there. Does that sound good?
+
+380
+00:48:54.550 --> 00:48:56.200
+Soubhratra Das (SD): Yeah, that would be great.
+
+381
+00:48:56.390 --> 00:48:57.360
+Stephen Curran: Okay.
+
+382
+00:48:58.250 --> 00:49:08.449
+Stephen Curran: technical session, I I would suspect. And we'll get try to dive into the weeds of what's there? What's there now? What? What the core issue is? What's there now, and what can be done with
+
+383
+00:49:10.380 --> 00:49:14.049
+Stephen Curran: excellent great question. Alberta.
+
+384
+00:49:15.050 --> 00:49:17.600
+Alberto Leon: Thanks. Thank you for doing that.
+
+385
+00:49:17.670 --> 00:49:19.819
+Stephen Curran: Okay, any other topics.
+
+386
+00:49:22.390 --> 00:49:31.550
+Stephen Curran: Just so everyone knows. this is the worst day ever, because I have to fast until 2 30 this afternoon before I get some blood taken, and and
+
+387
+00:49:32.030 --> 00:49:42.359
+Stephen Curran: I could have a coffee until 6, 30, and all I had was old milk, and so I didn't even have a coffee. I'm just struggling. That's my challenge today.
+
+388
+00:49:44.360 --> 00:49:51.330
+Stephen Curran: That's why you always schedule blood fasting, blood work for first thing in the morning.
+
+389
+00:49:54.070 --> 00:50:01.229
+Sam Curren (TelegramSam): First, you can't eat, and then they make you bleed, and they say that the practicing medicine isn't torture right
+
+390
+00:50:01.700 --> 00:50:09.720
+Emiliano Suñé: like you want some pictures of food from here, Stephen. Oh, Ouch!
+
+391
+00:50:11.510 --> 00:50:15.519
+Stephen Curran: No one should send me pictures from around the world with food.
+
+392
+00:50:18.260 --> 00:50:20.869
+Stephen Curran: All right, folks, thank you very much.
+
+393
+00:50:22.570 --> 00:50:25.349
+Stephen Curran: I think we'll call it a wrap at that point moment
+
+394
+00:50:26.320 --> 00:50:27.470
+Akiff Manji: have a good one.
+
+395
+00:50:27.680 --> 00:50:31.580
+Emiliano Suñé: Thank you.
+

@@ -1,0 +1,1798 @@
+WEBVTT
+
+1
+00:03:18.980 --> 00:03:20.150
+Bogdan Mircea: Hello, guys!
+
+2
+00:03:20.280 --> 00:03:26.520
+Bogdan Mircea:  it's wait another minute. Let's see if George comes in, or maybe some other people.
+
+3
+00:04:57.710 --> 00:05:03.619
+Bogdan Mircea: Okay, maybe we can kick off the meeting. can you see my screen?
+
+4
+00:05:05.920 --> 00:05:07.170
+Miroslav Kovar: Yeah, sure.
+
+5
+00:05:07.470 --> 00:05:09.500
+Bogdan Mircea: Okay, cool. So
+
+6
+00:05:10.260 --> 00:05:16.520
+Bogdan Mircea:  that's
+
+7
+00:05:17.830 --> 00:05:24.170
+Bogdan Mircea: So this is the a Ccx community call fifteenth of June
+
+8
+00:05:24.420 --> 00:05:31.849
+Bogdan Mircea: 1,023. Patrick is away, so I'll train on my best to fill in his shoes.
+
+9
+00:05:32.350 --> 00:05:37.690
+Bogdan Mircea: We have our antitrust policy. Notice here.
+
+10
+00:05:37.770 --> 00:05:38.900
+Bogdan Mircea: Let's
+
+11
+00:05:39.690 --> 00:05:42.690
+Bogdan Mircea: with that in on screen for a minute.
+
+12
+00:05:51.170 --> 00:05:53.400
+Bogdan Mircea: Okay. And
+
+13
+00:05:53.940 --> 00:06:05.359
+Bogdan Mircea: now I have been away myself for for a while last week, so I might not be completely up to date with everything. But let's try and kick off the meeting.
+
+14
+00:06:05.820 --> 00:06:09.780
+Bogdan Mircea: So probably the
+
+15
+00:06:10.300 --> 00:06:15.159
+Bogdan Mircea: hardest thing who, so to say, would be the kickoff of the mentorship program.
+
+16
+00:06:15.300 --> 00:06:21.830
+Bogdan Mircea:  we have our 2 mentees for the
+
+17
+00:06:22.090 --> 00:06:32.600
+Bogdan Mircea: the mobile wrapper and the as Pcx mediator and those would be swap nail and N on respectively.
+
+18
+00:06:32.610 --> 00:06:41.849
+Bogdan Mircea: the the program just started. So they're they're still getting up to the speed and and
+
+19
+00:06:42.000 --> 00:06:51.399
+Bogdan Mircea: just introduced into the project, as far as I know.  yeah. And I guess that's that's some exciting use. So
+
+20
+00:06:51.470 --> 00:07:03.720
+Bogdan Mircea: after the long selection, we've chosen people, they started out. They accepted the, the, the, the mentorship. And we're we're starting to
+
+21
+00:07:03.850 --> 00:07:07.439
+Bogdan Mircea:  to actually move this and
+
+22
+00:07:08.110 --> 00:07:17.589
+Bogdan Mircea: in some direction. So that's that's pretty much it for for the mentorship. really glad to have these people on board.
+
+23
+00:07:19.220 --> 00:07:34.060
+Bogdan Mircea: and we can have a look at the recent work done. so there are a couple of Pr's that have been recently merged
+
+24
+00:07:34.290 --> 00:07:41.249
+Bogdan Mircea: the first one which extends the the profile trade a bit.
+
+25
+00:07:41.690 --> 00:07:45.350
+Bogdan Mircea:  bye, bye, Patrick.
+
+26
+00:07:46.560 --> 00:07:57.639
+Bogdan Mircea: I know Mira. So I was away when this was done, and I'm not upstate with all the details. But if you have some, maybe you know more about why this method was.
+
+27
+00:07:57.670 --> 00:07:59.000
+Bogdan Mircea: Was it required?
+
+28
+00:08:00.340 --> 00:08:01.690
+Bogdan Mircea: If you
+
+29
+00:08:01.760 --> 00:08:08.960
+Miroslav Kovar: I'm not, I'm not too sure myself. I mean, I originally try to
+
+30
+00:08:09.360 --> 00:08:16.100
+Miroslav Kovar: get rid of the reliance on the global State from which which was
+
+31
+00:08:16.170 --> 00:08:28.410
+Miroslav Kovar: to store the transaction out to her agreement to store and add it. And so I removed it in such a way that it is basically set once on the initialization of the
+
+32
+00:08:28.470 --> 00:08:30.049
+Miroslav Kovar: Oh, what's your
+
+33
+00:08:32.020 --> 00:08:34.550
+Miroslav Kovar: pleasure? But
+
+34
+00:08:35.130 --> 00:08:42.210
+Miroslav Kovar: Patrick, didn't like this pattern, and for that, we should,
+
+35
+00:08:42.220 --> 00:08:45.499
+Miroslav Kovar: etc., to make it possible to set
+
+36
+00:08:45.670 --> 00:08:59.410
+Miroslav Kovar: the transaction out or agreement at Runtime without creating the ledger rate implementation again, from the scratch, which I mean, it's it's a reasonable
+
+37
+00:09:01.650 --> 00:09:04.129
+Bogdan Mircea: Okay. I see.
+
+38
+00:09:06.290 --> 00:09:08.370
+Bogdan Mircea: Okay, cool, cool. Thank you.
+
+39
+00:09:08.410 --> 00:09:17.230
+Bogdan Mircea: Yes, that's been merged. down the line. I guess our plan is still the same to kind of get rid of this profile thing
+
+40
+00:09:17.490 --> 00:09:29.610
+Bogdan Mircea: and there is also some some other work that is gonna facilitate this  again, done by by Patrick.
+
+41
+00:09:29.730 --> 00:09:34.870
+Bogdan Mircea: basically not passing around the profile
+
+42
+00:09:35.000 --> 00:09:44.490
+Bogdan Mircea: through all these places and tests. And wherever it was being used, but rather try to use the the minimal
+
+43
+00:09:44.690 --> 00:10:01.140
+Bogdan Mircea:  or the the more specific components of it that are actually required. So this is definitely going to facilitate. You know that the profile as a construct and just passing around wallets or on on cred's implementations or ledger
+
+44
+00:10:01.420 --> 00:10:03.650
+Bogdan Mircea: trade implementers
+
+45
+00:10:03.810 --> 00:10:08.300
+Bogdan Mircea: wherever we need them. So this was also
+
+46
+00:10:08.800 --> 00:10:14.129
+Bogdan Mircea: it's it's quite a big Pr, and this was Mars this week.
+
+47
+00:10:14.320 --> 00:10:23.819
+Bogdan Mircea:  but the it's fairly simple overall. So it was just, I guess a lot of tedious work. But
+
+48
+00:10:24.070 --> 00:10:25.530
+Bogdan Mircea: Patrick pulls through
+
+49
+00:10:25.590 --> 00:10:33.579
+Bogdan Mircea: and essentially would prove, replace the the profile. Getting passed around with just specific parts of it that are needed.
+
+50
+00:10:33.900 --> 00:10:37.230
+Miroslav Kovar: He found it relaxing.
+
+51
+00:10:37.520 --> 00:10:39.509
+Bogdan Mircea: Not fair enough. Cool.
+
+52
+00:10:40.160 --> 00:10:41.290
+Bogdan Mircea: See from that. There.
+
+53
+00:10:42.630 --> 00:10:51.270
+Bogdan Mircea: Okay. Now, this is also something I'm not entirely familiar with. I think this was something. By George!
+
+54
+00:10:51.450 --> 00:10:54.040
+Bogdan Mircea: some sort of fix.
+
+55
+00:10:54.440 --> 00:11:04.260
+Bogdan Mircea:  something done to basically be in sync with the Akapi capabilities.
+
+56
+00:11:04.680 --> 00:11:09.320
+Bogdan Mircea: I see there is an issue here. So
+
+57
+00:11:12.980 --> 00:11:14.040
+Bogdan Mircea: let's see.
+
+58
+00:11:18.720 --> 00:11:21.930
+Bogdan Mircea: the request you send appears to have an empty string
+
+59
+00:11:22.040 --> 00:11:25.239
+Bogdan Mircea: as the public keys controller and the talk.
+
+60
+00:11:26.650 --> 00:11:33.049
+Bogdan Mircea:  okay. yeah. So I guess this has to do with
+
+61
+00:11:33.470 --> 00:11:43.450
+Bogdan Mircea:  with a deduct construction. And this is still using the legacy of the dog. And we'll be using the legacy to talk?
+
+62
+00:11:43.650 --> 00:11:52.000
+Bogdan Mircea: So I guess this was basically A B that just slipped me in particular because I refactored this
+
+63
+00:11:52.300 --> 00:11:57.249
+Bogdan Mircea:  and George was nice enough to fix it.
+
+64
+00:11:59.120 --> 00:12:02.060
+Bogdan Mircea: and essentially looks like
+
+65
+00:12:03.370 --> 00:12:12.570
+Bogdan Mircea: it's just about setting the Id first. Apparently that's being used in some other places.  fair enough.
+
+66
+00:12:15.350 --> 00:12:16.160
+Bogdan Mircea: Well.
+
+67
+00:12:16.710 --> 00:12:20.609
+Bogdan Mircea: some side effect, probably in in all of these.
+
+68
+00:12:20.910 --> 00:12:26.180
+Miroslav Kovar: it's a matter of that implementation of the old at least the dock
+
+69
+00:12:26.600 --> 00:12:34.810
+Miroslav Kovar: so like the order to.
+
+70
+00:12:35.700 --> 00:12:41.250
+Bogdan Mircea: But anyway, good good catch from George. So he fixed that it's really cool.
+
+71
+00:12:41.620 --> 00:12:43.219
+Bogdan Mircea: It's really really great.
+
+72
+00:12:43.250 --> 00:12:48.939
+Bogdan Mircea: And something from you, Mira. The video facade for
+
+73
+00:12:49.010 --> 00:12:53.899
+Bogdan Mircea: sovereign specific stuff. And now this is not yet
+
+74
+00:12:54.310 --> 00:13:09.830
+Bogdan Mircea: merged, I believe, but I personally approved it. So we had just that short discussion about the whatever the dummy or the empty set, the fields for the service, for the area, interoperability, profile
+
+75
+00:13:10.310 --> 00:13:16.120
+Bogdan Mircea:  But apart from that, I proved it so good.
+
+76
+00:13:16.140 --> 00:13:23.050
+Bogdan Mircea: I think it still needs a rebase. But from me, from my side I I guess we can merge it.
+
+77
+00:13:23.230 --> 00:13:30.510
+Bogdan Mircea:  do you? Wanna do you want to talk a bit more about about this and what it does and what you were targeting with it.
+
+78
+00:13:31.370 --> 00:13:43.460
+Miroslav Kovar: Yeah, it's just like, when I was integrating the new did that into the rest of the cold days. I noticed, that some usage patterns are quite frequent.
+
+79
+00:13:43.750 --> 00:13:57.869
+Miroslav Kovar: so because it tests for a but I just wanted to make it a little bit easier to use. Do they do? Great for our for specifically for the dates of
+
+80
+00:13:58.670 --> 00:14:03.649
+Miroslav Kovar:  that's which
+
+81
+00:14:03.850 --> 00:14:12.489
+Miroslav Kovar: like have various let's say, service types with the various extra fields.
+
+82
+00:14:12.980 --> 00:14:34.009
+Miroslav Kovar: And yeah, we are using. We are like had free to doing some some kind of usage buttons frequently like retrieving the first routing key from service, and so on. So yeah, I just want it with this. I wanted to make it a little bit easier to use it.
+
+83
+00:14:34.770 --> 00:14:36.759
+Miroslav Kovar: yeah.
+
+84
+00:14:37.060 --> 00:14:38.950
+Miroslav Kovar: I I do have a
+
+85
+00:14:39.110 --> 00:14:42.790
+Bogdan Mircea: a question that just popped into my mind right now. So
+
+86
+00:14:42.830 --> 00:14:56.000
+Bogdan Mircea: maybe it would be worth discussing like for the entire community. The fact that we will have to maybe not necessarily maintain, but keep using the legacy. The dog.
+
+87
+00:14:56.400 --> 00:14:58.140
+Bogdan Mircea: because
+
+88
+00:14:58.410 --> 00:15:10.720
+Bogdan Mircea: switching to to the new one, will be very, very tricky in the places where the the old one is used. And that's particularly because of the unqualified D, now.
+
+89
+00:15:11.440 --> 00:15:20.550
+Bogdan Mircea:  I believe, like the legacy, the doc is basically for the area interoperability profile right
+
+90
+00:15:20.670 --> 00:15:23.219
+Bogdan Mircea: like that's what it technically represented.
+
+91
+00:15:24.020 --> 00:15:25.330
+Miroslav Kovar: Oh.
+
+92
+00:15:27.620 --> 00:15:52.189
+Miroslav Kovar: well, the legacy the dog technically represented like unfinished version of the did talk, or did so. Spec which changed since then, but still, like many frameworks, use it. So, for example, the public key field. In the legacy, the dog does not exist in the new deduct.
+
+93
+00:15:52.190 --> 00:16:07.510
+Miroslav Kovar: and there are like multiple movements. Some fields are not required in the like a city book, where they are required to do one and a few minor incompatibilities, but like this, between between
+
+94
+00:16:07.800 --> 00:16:16.930
+Miroslav Kovar: the like W. 3 C. Compliant did joke, and to like a city. They jo that we are using connection right now and in invitations, and so on.
+
+95
+00:16:16.940 --> 00:16:31.719
+Miroslav Kovar: So like most of the framework, still support this old old the dog format in connection. And so that's That's why we are still using it. And
+
+96
+00:16:32.330 --> 00:16:42.670
+Miroslav Kovar: like, as it relates to the qualified, unqualified. It's that's another thing that we are using unqualified. It's in the in the dead dogs everywhere, right now.
+
+97
+00:16:42.830 --> 00:16:49.549
+Miroslav Kovar: but yeah, qualified, qualified. They don't set up another big like kind of worms. What is it relates to the dogs?
+
+98
+00:16:49.620 --> 00:16:53.320
+Miroslav Kovar: no, this is this is the reason, and I guess
+
+99
+00:16:53.470 --> 00:17:03.219
+Miroslav Kovar: there might be a way to somehow make or make the new digits like decor. It's compatible to
+
+100
+00:17:03.620 --> 00:17:10.539
+Miroslav Kovar: Add to this public key field, for example, or handle it and or make make the fields
+
+101
+00:17:10.700 --> 00:17:11.750
+Miroslav Kovar: like not.
+
+102
+00:17:11.810 --> 00:17:19.079
+Miroslav Kovar: The the fields which are which should be required make them not required for this backwards compatibility in case
+
+103
+00:17:19.680 --> 00:17:23.189
+well, but the question is, whether it is worth it.
+
+104
+00:17:23.750 --> 00:17:27.159
+Miroslav Kovar: yeah, I don't think so.
+
+105
+00:17:27.470 --> 00:17:35.929
+Bogdan Mircea: And I mean you. You were the one that worked on this for quite some time, and from what I gathered from your research, you essentially said that
+
+106
+00:17:36.060 --> 00:17:47.250
+Bogdan Mircea: this is what pretty much all the other implementations have done. So they they're still carrying around the the legacy implementation, because.
+
+107
+00:17:47.270 --> 00:17:53.620
+Bogdan Mircea: like maintaining backwards compatibility, and the new one would be too much of a hassle.
+
+108
+00:17:53.790 --> 00:17:59.640
+Bogdan Mircea: So I guess the the dream is to at some point drop the old one some time.
+
+109
+00:17:59.730 --> 00:18:13.040
+Bogdan Mircea:  and then just keep using the new one with the new new format, but with the differences between them, and especially differences in terms of required fields and stuff like that. That would just make it very, very weird.
+
+110
+00:18:13.400 --> 00:18:24.039
+Miroslav Kovar:  to use a a singular uniform implementation. One thing that I like not test it is whether
+
+111
+00:18:24.360 --> 00:18:26.119
+Miroslav Kovar: whether, if we
+
+112
+00:18:27.180 --> 00:18:28.420
+Miroslav Kovar: like, send.
+
+113
+00:18:28.700 --> 00:18:40.039
+Miroslav Kovar: for example, connection requests with the new format in the new format, whether a Fj. Or a accepts all this new format because it's quite possible that it that it does
+
+114
+00:18:40.650 --> 00:18:41.610
+and
+
+115
+00:18:42.280 --> 00:18:45.279
+Miroslav Kovar: I have not tested that.
+
+116
+00:18:45.470 --> 00:18:55.319
+Miroslav Kovar: And yeah, if it's a date, then perhaps just switching to the to in your format, I remained like, still fully interoperable.
+
+117
+00:18:55.960 --> 00:18:57.460
+Miroslav Kovar: so
+
+118
+00:18:58.010 --> 00:19:06.510
+Miroslav Kovar: you might. You might try that, except except with older versions of
+
+119
+00:19:06.630 --> 00:19:09.580
+that's maybe too much to ask. Yeah.
+
+120
+00:19:09.910 --> 00:19:12.380
+Bogdan Mircea: yeah. fair enough.
+
+121
+00:19:13.080 --> 00:19:24.539
+Bogdan Mircea: what about this this like? Is this being used somewhere, the the aiscentral variability profile kind of did talk.
+
+122
+00:19:27.730 --> 00:19:32.030
+Miroslav Kovar: So this is this right? This depends on
+
+123
+00:19:32.650 --> 00:19:37.030
+Bogdan Mircea: on how, on like
+
+124
+00:19:37.830 --> 00:19:40.510
+Miroslav Kovar: and how the service is written on the ledger.
+
+125
+00:19:40.590 --> 00:19:54.009
+Miroslav Kovar: If this service written on the ledger contains certain type like Britain like specified in it it should be resolved to this. A. I. P. One.
+
+126
+00:19:54.840 --> 00:19:56.010
+the dog.
+
+127
+00:19:56.880 --> 00:19:57.820
+Bogdan Mircea: Okay.
+
+128
+00:20:00.880 --> 00:20:08.690
+Bogdan Mircea: So I think that that one like should just contain like, no keys. Just the service and point, I think.
+
+129
+00:20:09.880 --> 00:20:20.790
+Bogdan Mircea: okay, I got it. I got it I for for a split second. There I was wondering whether this and the legacy the dog might be on some sort of similar page. But they are not.
+
+130
+00:20:21.240 --> 00:20:23.690
+Bogdan Mircea:  okay, cool.
+
+131
+00:20:24.910 --> 00:20:38.020
+Bogdan Mircea: All right. yeah. So that's mainly the the recently done work. like like we said, the video facade is gonna get merged in fairly soon.
+
+132
+00:20:38.170 --> 00:20:47.780
+Bogdan Mircea: And for the work in progress something from my side would be the the credential migrator, or rather the
+
+133
+00:20:48.000 --> 00:20:51.760
+Bogdan Mircea: on on credit specific stuff. Migrate there.
+
+134
+00:20:51.950 --> 00:21:01.800
+Bogdan Mircea: This is still in progress, or rather the implementation seems to be done. But
+
+135
+00:21:02.050 --> 00:21:09.940
+Bogdan Mircea: I'm not really willing to say that it's entirely done until all the testing is is in place.
+
+136
+00:21:10.150 --> 00:21:14.000
+Bogdan Mircea: now, testing this will be
+
+137
+00:21:14.330 --> 00:21:22.420
+Bogdan Mircea: interesting right now. My plan for for at least the first round of tests is to kind of
+
+138
+00:21:22.790 --> 00:21:27.670
+Bogdan Mircea: create some dummy items and try to migrate those to credits
+
+139
+00:21:27.880 --> 00:21:38.100
+Bogdan Mircea: and then ensure that the types get the serialized correctly to the newer or the data gets this realized correctly to the credits types.
+
+140
+00:21:38.390 --> 00:21:44.890
+Bogdan Mircea: Now, to be fairly honest. The entire migration right now again, before
+
+141
+00:21:44.940 --> 00:21:46.360
+Bogdan Mircea: too much testing.
+
+142
+00:21:46.440 --> 00:21:58.179
+Bogdan Mircea:  was pretty straightforward, much more straightforward than I anticipated. and I I kind of feel I'm I'm quite skeptical because it feels like it was a bit too easy.
+
+143
+00:21:58.230 --> 00:22:06.089
+Bogdan Mircea: especially because this was supposed to be the trickier part. I guess. I I was. George was here because he had some
+
+144
+00:22:06.130 --> 00:22:11.079
+Bogdan Mircea: some more insight, who worked a bit more closely with
+
+145
+00:22:11.570 --> 00:22:12.930
+Bogdan Mircea: with critics.
+
+146
+00:22:13.170 --> 00:22:21.359
+Bogdan Mircea: And he did say that he noticed some quite fundamental differences between
+
+147
+00:22:21.520 --> 00:22:27.000
+Bogdan Mircea: the V are tools, implementations of an implementation of on them credits and credits. One.
+
+148
+00:22:27.530 --> 00:22:36.250
+Bogdan Mircea: however, I I I haven't really. they. They seem like they're pretty much exactly the same types. And the migration mostly
+
+149
+00:22:36.350 --> 00:22:42.149
+Bogdan Mircea: just revolves around changing the category types of the credentials.
+
+150
+00:22:42.290 --> 00:23:02.280
+Bogdan Mircea: And then the plan is to get this from credit to one on cred's Rs, and that's even gonna be more straightforward because those are I. I now again, I didn't really look at that. But from our analysis from some time ago we noticed that these are really really similar. So
+
+151
+00:23:02.630 --> 00:23:05.449
+Bogdan Mircea: again, that should be pretty straightforward.
+
+152
+00:23:05.570 --> 00:23:23.110
+Bogdan Mircea:  what do you think about like the other rounds of testing? So the like, I I really want to do the kind of dummy items kind of thing like, I'm not even necessarily interested in functionally, whether they are correct. I don't like a credential definition. I just want to fill it with dummy data
+
+153
+00:23:23.290 --> 00:23:27.570
+Bogdan Mircea: and see that structure wise the old
+
+154
+00:23:27.710 --> 00:23:39.640
+Bogdan Mircea: like. If you create an A, A Vdr tools, credential definition, store it in the wallet, migrated, and then try to pull it out into a credential definition.
+
+155
+00:23:40.270 --> 00:23:41.899
+Bogdan Mircea: If that works
+
+156
+00:23:42.020 --> 00:23:48.469
+Bogdan Mircea:  From a this realization standpoint, I guess that should be a a good start.
+
+157
+00:23:48.930 --> 00:23:51.670
+Bogdan Mircea:  But
+
+158
+00:23:52.810 --> 00:23:59.299
+Bogdan Mircea: I'm I'm wondering about testing this in a more real life kind of scenario.
+
+159
+00:23:59.520 --> 00:24:06.710
+Bogdan Mircea: because generally all the tests that we have are kind of self contained
+
+160
+00:24:06.880 --> 00:24:12.290
+Bogdan Mircea: right? So I know you wanna issue some credential
+
+161
+00:24:12.540 --> 00:24:21.349
+Bogdan Mircea: So you might be generating a schema or revocation registry, a credential definition. You issue the credential.
+
+162
+00:24:21.460 --> 00:24:26.670
+Bogdan Mircea: And then, I believe, stuff gets cleaned up. doesn't it?
+
+163
+00:24:27.030 --> 00:24:33.549
+Bogdan Mircea: Or or even if it doesn't get cleaned up when you when you want to run some other test. it's basically gonna
+
+164
+00:24:33.580 --> 00:24:36.550
+Bogdan Mircea: it's it's self-contained. So it's going to use its own
+
+165
+00:24:36.600 --> 00:24:50.589
+Bogdan Mircea: like, whatever it types and and definitions it creates within the test. So you cannot really reuse, even if you migrate the old ones.  hmm! It seems kind of tricky to reuse the
+
+166
+00:24:50.930 --> 00:24:53.690
+Bogdan Mircea: the migrated items.
+
+167
+00:24:53.930 --> 00:24:56.520
+Bogdan Mircea: so I'm really wondering how to go about that.
+
+168
+00:24:59.590 --> 00:25:00.730
+Bogdan Mircea: What do you think?
+
+169
+00:25:01.200 --> 00:25:13.019
+Miroslav Kovar: So I didn't get you like, what? Why would it be cumbersome to reuse the like items created before the
+
+170
+00:25:13.100 --> 00:25:14.410
+the migration.
+
+171
+00:25:14.750 --> 00:25:20.249
+Bogdan Mircea: So I mean you, you can migrate existent items. But
+
+172
+00:25:20.510 --> 00:25:29.179
+Miroslav Kovar: a, as far as I know, like the tests are pretty self-contained, right? So you can't like. Do the migration in the middle of this?
+
+173
+00:25:29.380 --> 00:25:31.129
+Miroslav Kovar: No, I mean you can.
+
+174
+00:25:32.220 --> 00:25:33.240
+Bogdan Mircea: but
+
+175
+00:25:33.540 --> 00:25:38.659
+Bogdan Mircea: I guess that would be the only option to kind of have a test run midway.
+
+176
+00:25:38.940 --> 00:25:40.480
+Bogdan Mircea: Migrate.
+
+177
+00:25:40.670 --> 00:25:46.220
+Bogdan Mircea: Maybe change that profile to use the credits on on credits.
+
+178
+00:25:46.490 --> 00:25:49.069
+Bogdan Mircea: and then let it continue from there?
+
+179
+00:25:50.440 --> 00:25:54.290
+Bogdan Mircea: Yeah, I guess that would be. That would be one way to go about it.
+
+180
+00:25:54.720 --> 00:26:05.960
+Miroslav Kovar:  make sure that the correct created credential definitions are still usable, but you can still, like creating a revocation registry, and so on.
+
+181
+00:26:06.410 --> 00:26:07.410
+Bogdan Mircea: Fair enough.
+
+182
+00:26:09.550 --> 00:26:16.389
+Miroslav Kovar: Some revocable credentials try to revoke them, verify, verify that
+
+183
+00:26:16.610 --> 00:26:18.520
+to verify them. And so on.
+
+184
+00:26:20.310 --> 00:26:21.200
+Miroslav Kovar: Okay.
+
+185
+00:26:21.950 --> 00:26:25.000
+Bogdan Mircea: yeah, so I guess we need to sort of
+
+186
+00:26:26.000 --> 00:26:29.150
+Bogdan Mircea: kind of identify these. I know.
+
+187
+00:26:29.420 --> 00:26:32.010
+Bogdan Mircea: Let's let's call them break points and the
+
+188
+00:26:32.120 --> 00:26:40.380
+Bogdan Mircea: in in the tests of interest, and do the migration there and then change the profile and let it run as usual.
+
+189
+00:26:40.710 --> 00:26:53.919
+Bogdan Mircea:  yeah, okay, I guess I guess that's the really the only way to go about it, at least from a testing like self-contained testing kind of
+
+190
+00:26:54.370 --> 00:26:55.400
+Bogdan Mircea: kind of way.
+
+191
+00:26:56.530 --> 00:27:05.989
+Bogdan Mircea: All right. Cool? yeah. So that's about the the migration. We'll see how that goes right now. It doesn't seem to be too much of a
+
+192
+00:27:06.380 --> 00:27:09.189
+Bogdan Mircea: of a hassle. Hopefully, it's going to stay that way.
+
+193
+00:27:09.240 --> 00:27:16.390
+Bogdan Mircea: I know that it did peer something you wanted to to work on
+
+194
+00:27:16.510 --> 00:27:29.669
+Bogdan Mircea: and you elaborated a bit yesterday. I believe that it's quite a an extensive method.  I know any anything to add here.
+
+195
+00:27:30.080 --> 00:27:31.550
+Yeah. So
+
+196
+00:27:32.260 --> 00:27:42.689
+Miroslav Kovar: I was thinking a little bit after, like the attempted integration that we are not using. qualified. It's
+
+197
+00:27:43.510 --> 00:27:48.240
+Miroslav Kovar: either as any sure or in in the connections. So
+
+198
+00:27:49.680 --> 00:28:01.180
+Miroslav Kovar: we are basically the unqualified. That's across the code base. And we are not typing our dates basically at all. And so I created an issue for this.
+
+199
+00:28:01.550 --> 00:28:02.300
+and
+
+200
+00:28:02.930 --> 00:28:11.170
+Miroslav Kovar:  hmm! Stephen Steven Current picked it up and on, pointed me to
+
+201
+00:28:11.330 --> 00:28:13.340
+Miroslav Kovar: discussions which are going
+
+202
+00:28:14.220 --> 00:28:17.979
+going on right now in the community.
+
+203
+00:28:18.270 --> 00:28:23.450
+Miroslav Kovar: They were using unqualified. It's I mean.
+
+204
+00:28:24.980 --> 00:28:37.279
+Miroslav Kovar: let's back up a little bit. There are like multiple parts to this. So we are that you you you can be qualified that when you are talking about issue or that
+
+205
+00:28:37.580 --> 00:28:50.590
+Miroslav Kovar: so that's like, when when in exterm, you create a a sure configuration. You can either create, qualified or unqualified, that there.
+
+206
+00:28:50.670 --> 00:28:53.989
+Miroslav Kovar: And so trying to create
+
+207
+00:28:54.520 --> 00:29:09.040
+Miroslav Kovar: we are right now, creating, always unqualified. It's trying to create qualified. There changes behavior of the Vdr tools and credits a little bit, so that the credential primitive
+
+208
+00:29:09.250 --> 00:29:16.139
+Miroslav Kovar: ids which they generate have a little bit different, do a little bit different format.
+
+209
+00:29:16.420 --> 00:29:17.580
+And
+
+210
+00:29:18.110 --> 00:29:45.750
+Miroslav Kovar: this, of course, it's not that big of a deal. If you are like, I are creating a new assure, and starting from from scratch, and is an issuing like credentials for the first time. But if you have an application which is built on top of a Ccx and is has been using a set an issue, or what for? Sometimes this might
+
+211
+00:29:45.870 --> 00:29:48.470
+Miroslav Kovar: create some headache for you, let's say
+
+212
+00:29:48.490 --> 00:30:16.270
+Miroslav Kovar: it might be a difficult to might be difficult about possible to somehow migrate your world locally. But still there are these ids which are on the ledger, which are already great. And so it would require some really issue in differential definitions. And that's not no goal. So we would probably keep for this reason, keep using unqualified dates
+
+213
+00:30:16.670 --> 00:30:23.480
+Miroslav Kovar: for the issue. And that's not that become a deal because we are. Oh, well.
+
+214
+00:30:23.490 --> 00:30:32.850
+Miroslav Kovar: that's what we will we will do, if for the sake of like saving and setting us some headache, and then
+
+215
+00:30:33.470 --> 00:30:44.669
+Miroslav Kovar: that is the matter of dates which are sent in, for example, connection, invitations or connection requests.
+
+216
+00:30:45.220 --> 00:30:52.080
+Miroslav Kovar: And there we are also using unqualified it. And that's what
+
+217
+00:30:52.130 --> 00:31:05.339
+Miroslav Kovar: Steven like was talking about when he was pointing me to the date here specification and discussions in Akabai and a cup, I basically
+
+218
+00:31:05.680 --> 00:31:10.740
+Miroslav Kovar: decided to to transition
+
+219
+00:31:10.830 --> 00:31:12.989
+Miroslav Kovar: directly to
+
+220
+00:31:13.420 --> 00:31:18.609
+Miroslav Kovar: normal go to, which is a specific kind of this year.
+
+221
+00:31:18.640 --> 00:31:23.990
+Miroslav Kovar: and also, which is a little bit
+
+222
+00:31:25.920 --> 00:31:32.789
+Miroslav Kovar: newer in terms of when it was added to the specification. But that's
+
+223
+00:31:32.850 --> 00:31:50.380
+Miroslav Kovar: what they are planning to prefer and default to going forward default to in the the exchange protocol, and they were also talking about remaining backwards, compatible, although, I have been on the community or single community call recording.
+
+224
+00:31:50.380 --> 00:32:14.399
+Miroslav Kovar: and there are voices in the community which are saying which are kind of speaking against this backwards compatibility has been always like trying to remained conscious of the rest of the community trying to remain backwards, compatible as much as possible. But it seems that they lately decided to change this stance a little bit, and just give a like a notice period
+
+225
+00:32:14.610 --> 00:32:30.490
+Miroslav Kovar: where they will, for which they will remain backwards, compatible, and from then on they will. They will only accept that peers. so from that's what I gathered from the community call So this means
+
+226
+00:32:30.550 --> 00:32:37.180
+Miroslav Kovar: for us definitely that if we are going to implement any protocol it should use the pier 2 and 3
+
+227
+00:32:37.280 --> 00:32:43.850
+Miroslav Kovar: Aj. Supports it already. They are a little bit of a pioneer in this regard.
+
+228
+00:32:44.000 --> 00:33:01.200
+Miroslav Kovar: They support all did peers, I think all, all the the peers, except for the pair 3, which is very new So they support The 0 is basically the old did key one is, basically
+
+229
+00:33:01.440 --> 00:33:07.689
+Miroslav Kovar: not fully specified in the spec, and it involves hashing of the the dog, which is not like.
+
+230
+00:33:08.430 --> 00:33:17.089
+Miroslav Kovar: let's say, which needs to be somehow. yeah, specified for the like, the over the fields, and so on. Because
+
+231
+00:33:17.090 --> 00:33:39.690
+Miroslav Kovar: you have to the the the hash. Of course, most it's gonna yeah, exactly. So they basically say, Oh, this is not. This is not specified in the spec. So let's not. Let's not focus on date. And they focus already on the did pier 2, which which is like much better specified much, much But
+
+232
+00:33:39.780 --> 00:33:40.930
+so
+
+233
+00:33:43.580 --> 00:33:55.159
+Miroslav Kovar: that's what I decided that I will work on next, because there seems to be this community by to push for for using qualified it.
+
+234
+00:33:55.410 --> 00:34:01.860
+Miroslav Kovar: And so it's quite important to keep up with the rest of the community.
+
+235
+00:34:02.220 --> 00:34:08.169
+Miroslav Kovar: That's probably regardless of whether we Google did exchange
+
+236
+00:34:10.139 --> 00:34:17.209
+whether we will use it in the directions for the call or not, we should probably use it eventually in the connection as well.
+
+237
+00:34:19.230 --> 00:34:20.139
+Bogdan Mircea: Okay.
+
+238
+00:34:21.530 --> 00:34:22.920
+Bogdan Mircea: right, cool.
+
+239
+00:34:24.620 --> 00:34:26.909
+Bogdan Mircea: Okay. So
+
+240
+00:34:27.110 --> 00:34:33.689
+Bogdan Mircea: thanks for for the the info on that very, very strong insight.
+
+241
+00:34:34.159 --> 00:34:44.289
+Bogdan Mircea:  and maybe for our last point for the in progress work. there is, again something from from Patrick
+
+242
+00:34:44.550 --> 00:34:50.740
+Bogdan Mircea:  essentially related to refactoring some tests. This
+
+243
+00:34:50.960 --> 00:34:53.349
+Bogdan Mircea: seems again like
+
+244
+00:34:53.870 --> 00:35:00.390
+Bogdan Mircea: quite a big pr, but I guess it. There's really no 2 ways of around it since.
+
+245
+00:35:00.860 --> 00:35:05.989
+Bogdan Mircea:  like the the testing in place, would pretty much affect
+
+246
+00:35:06.180 --> 00:35:07.930
+Bogdan Mircea: every everything.
+
+247
+00:35:08.290 --> 00:35:21.849
+Bogdan Mircea:  I see that this kind of continues with the like, not passing the profile and restricting to smaller
+
+248
+00:35:22.300 --> 00:35:24.040
+Bogdan Mircea: smaller pieces.
+
+249
+00:35:24.380 --> 00:35:38.229
+Bogdan Mircea:  And I believe that from the description  he mentioned something about kind of getting rid of some of the setup objects.
+
+250
+00:35:39.200 --> 00:35:45.290
+Bogdan Mircea:  and
+
+251
+00:35:46.060 --> 00:35:46.890
+and
+
+252
+00:35:47.760 --> 00:35:57.450
+Bogdan Mircea: currently something, though creating a favor agent for testing similar to to what we have for create. Alice.
+
+253
+00:36:00.440 --> 00:36:02.210
+Yeah.
+
+254
+00:36:03.510 --> 00:36:08.459
+Bogdan Mircea: well, Patrick has been out the entire week. So again, I'm not. Maybe you know more around. I don't know.
+
+255
+00:36:08.580 --> 00:36:13.410
+Miroslav Kovar: unfortunately not not any, and not anything.
+
+256
+00:36:13.890 --> 00:36:20.620
+Bogdan Mircea: Well, I guess he'll be able to fill in on this next week. the latest.
+
+257
+00:36:20.630 --> 00:36:21.950
+Bogdan Mircea: So.
+
+258
+00:36:23.100 --> 00:36:30.800
+Bogdan Mircea: But yeah, there's definitely a lot of work that we have to do on testing, and especially with the upcoming
+
+259
+00:36:31.720 --> 00:36:43.199
+Bogdan Mircea: efforts on, like, even just on on credits, the state machines. and yeah, like all these things
+
+260
+00:36:43.310 --> 00:36:45.759
+Bogdan Mircea: start to intertwine.
+
+261
+00:36:46.310 --> 00:36:59.250
+Bogdan Mircea: which ultimately, I guess it's not necessarily about them being interfering. But rather we. We start to working on some lower level blocks, and because they are lower level, they kinda affect everything on top of them. Right? So
+
+262
+00:36:59.600 --> 00:37:03.719
+Bogdan Mircea: that's why things get a bit bigger now. But
+
+263
+00:37:04.220 --> 00:37:06.860
+Bogdan Mircea: in the end I I believe it's going to be worth it.
+
+264
+00:37:07.320 --> 00:37:15.719
+Bogdan Mircea:  you already mentioned for upcoming plans? the the did exchange protocol.
+
+265
+00:37:15.950 --> 00:37:27.259
+Bogdan Mircea: I don't know if we we necessarily wanna talk about about this. Now, maybe we can. We can chat a bit about how we already kind of carry discussion.
+
+266
+00:37:27.410 --> 00:37:35.939
+Bogdan Mircea: about state machines. I I wish George was here to kind of I I was really curious of his comments. but yeah, so
+
+267
+00:37:36.230 --> 00:37:47.570
+Bogdan Mircea:  I'm I'm really. I'm really wondering.  I mean right now, especially after talking with you. I kind of you.
+
+268
+00:37:47.580 --> 00:37:49.710
+Bogdan Mircea: I'm I'm more
+
+269
+00:37:51.080 --> 00:37:53.719
+Bogdan Mircea: I know. Settled, I guess.
+
+270
+00:37:53.740 --> 00:38:00.249
+Bogdan Mircea: more content with the decision we made. because it. It doesn't feel any more like
+
+271
+00:38:00.960 --> 00:38:04.849
+Bogdan Mircea: I know, seeing that your
+
+272
+00:38:05.860 --> 00:38:14.329
+Bogdan Mircea: kind of content with the type stay pattern also made me more I guess it it kinda it was some sort of validation.
+
+273
+00:38:14.690 --> 00:38:28.429
+Bogdan Mircea: but I have been wondering whether the types they pattern for all these state machines has really been the the way to go, and I guess the main drive point for the second guessing has been
+
+274
+00:38:28.610 --> 00:38:43.239
+Bogdan Mircea:  I mean, on one hand, the lack of work that we've done on state machines. But it's not like any of us has been like. We've all been busy with all all kinds of things.
+
+275
+00:38:43.280 --> 00:38:51.760
+Bogdan Mircea: And. on the other hand, the work that has been put in the state machine is, and particularly I guess it's only being George with the holder.
+
+276
+00:38:51.930 --> 00:38:58.469
+Bogdan Mircea: he seemed to hit some like a series of hiccups. with that.
+
+277
+00:38:58.580 --> 00:39:03.979
+Bogdan Mircea: and I can help but really wonder whether maybe
+
+278
+00:39:05.130 --> 00:39:06.679
+Bogdan Mircea: maybe it's simply not.
+
+279
+00:39:06.980 --> 00:39:11.449
+I know. Maybe it's not the best way to go about it. Maybe some modern
+
+280
+00:39:11.900 --> 00:39:14.650
+Bogdan Mircea: approach would have made it easier.
+
+281
+00:39:14.700 --> 00:39:19.200
+Bogdan Mircea:  and right now I'm
+
+282
+00:39:19.300 --> 00:39:24.250
+Bogdan Mircea: really just reiterating what we already discussed. But so
+
+283
+00:39:24.870 --> 00:39:34.089
+Bogdan Mircea: I like the the type state pattern kind of makes it safer and more straightforward in terms of how this transitions go.
+
+284
+00:39:34.440 --> 00:39:43.699
+Bogdan Mircea: And I guess ultimately what you want from from a state machine. And our context here in the in the Aries context, is that you generally
+
+285
+00:39:43.990 --> 00:39:49.790
+Bogdan Mircea:  like you get, you get some, some some input, some message, something.
+
+286
+00:39:50.020 --> 00:39:53.560
+Bogdan Mircea: And you want to pass that to a state machine. Now.
+
+287
+00:39:53.690 --> 00:40:14.820
+Bogdan Mircea: generally, since you provide endpoints that you communicate with other parties you have identifies in place. So you know exactly what state machines you have allocated for a specific specific other party. Right. So when you get a message, I know you get the a presentation request or something like that. You kind of know
+
+288
+00:40:15.060 --> 00:40:22.940
+Bogdan Mircea: the exact instance of a state machine that you will want to pass that to now.
+
+289
+00:40:23.510 --> 00:40:40.869
+Bogdan Mircea:  the the general outcomes are that if the state machine is in the right state, then it's you're going to continue and try to process the message. And if there's no error, then you're gonna get you're gonna transition to a new state. But
+
+290
+00:40:41.210 --> 00:40:51.820
+Bogdan Mircea: if it's not in the right state, then that you basically consider the the message or the input as invalid as you were unexpected, or have, however, you want to pull it.
+
+291
+00:40:52.120 --> 00:40:55.560
+Bogdan Mircea:  so
+
+292
+00:40:55.620 --> 00:41:04.480
+Bogdan Mircea: ultimately like with the transitions being so far in between. and at least conceptually. And then
+
+293
+00:41:05.200 --> 00:41:11.990
+Bogdan Mircea:  like this, this kind of separation of
+
+294
+00:41:12.060 --> 00:41:18.289
+Bogdan Mircea: you get you get some input if it's right, you transition, or you try to transition. If it's not, then tough luck.
+
+295
+00:41:18.300 --> 00:41:25.879
+Bogdan Mircea: I guess that that doesn't make it like I don't know. I guess, that the type stay, pattern release, I know fits because of that
+
+296
+00:41:25.930 --> 00:41:28.750
+Bogdan Mircea:  But
+
+297
+00:41:31.390 --> 00:41:52.539
+Bogdan Mircea: then it it boils down to having different types for these states where these yeah, the the states of the State machine.  kind of makes the need for for these rappers, like we have for the connection and the generic connection wrapper, which is an enam that encapsulates all the possible states.
+
+298
+00:41:52.770 --> 00:42:01.979
+Bogdan Mircea:  and it that that's what kind of makes it feel a bit redundant like. If you ever have to work with
+
+299
+00:42:02.110 --> 00:42:08.749
+Bogdan Mircea: a state machine without knowing its state. you cannot really just do that with
+
+300
+00:42:09.030 --> 00:42:26.789
+Bogdan Mircea: with the the different types that a state machine can have, because you don't really know the type and where you don't necessarily care about type. So that's why this rapper is there to basically try it? It? It can be serialize for many of these States, and it has some common stuff that you can call on it.
+
+301
+00:42:27.140 --> 00:42:32.420
+Bogdan Mircea:  I'm I'm just wondering now whether
+
+302
+00:42:33.650 --> 00:42:47.249
+Bogdan Mircea: these common operations are are a common practice, like, I know we have some stuff in live Vcx. You also pointed out, we have some stuff in the the rust agent implementation which pretty much just runs in memory.
+
+303
+00:42:47.440 --> 00:42:59.930
+Bogdan Mircea:  and the like. The generate connection in was pretty much where it essentially I made it to kind of fit these purposes
+
+304
+00:43:00.100 --> 00:43:02.050
+Bogdan Mircea: that we had then
+
+305
+00:43:02.280 --> 00:43:06.980
+Bogdan Mircea:  and it's probably gonna still stay around to again
+
+306
+00:43:07.390 --> 00:43:09.129
+Bogdan Mircea: fill in these gaps.
+
+307
+00:43:09.410 --> 00:43:18.639
+Bogdan Mircea:  but I'm wondering whether do we want to like from from a user? If you were, if you're a consumer there is Vcx.
+
+308
+00:43:19.070 --> 00:43:21.319
+Bogdan Mircea: Do you want to use?
+
+309
+00:43:21.620 --> 00:43:32.200
+Bogdan Mircea: some sort of one size fits all state machine like the the generic wrapper, and just call stuff on it and handle it. And
+
+310
+00:43:32.580 --> 00:43:33.810
+Bogdan Mircea: or
+
+311
+00:43:34.210 --> 00:43:47.420
+Bogdan Mircea: do you want to have these individual types? You know exactly what type you should be in based on the input you receive. You're not in. You don't get the right tie because the serialization fails. Then
+
+312
+00:43:48.290 --> 00:44:06.430
+Bogdan Mircea:  and again, tough luck and valid input or unexpected, input, or something like that, because, essentially like the benefit of the state of the the type State pattern is, you're not going to get into an invalid state, you, if this day machine is not in the expected state, it's because you never got to be there. One.
+
+313
+00:44:06.730 --> 00:44:07.670
+Bogdan Mircea: I guess.
+
+314
+00:44:07.830 --> 00:44:16.660
+Bogdan Mircea:  and maybe another point to consider like we do in live Vcx, we have some
+
+315
+00:44:16.900 --> 00:44:20.119
+Bogdan Mircea: some object caching.
+
+316
+00:44:20.210 --> 00:44:24.600
+Bogdan Mircea: So we're even in the in the rust agent, because it all runs in memory.
+
+317
+00:44:24.680 --> 00:44:39.629
+Bogdan Mircea: because generally you want to have some sort of persistent storage, because message sending in Aries is not necessarily time constraint, at least not generally so. You can receive a message to date transition, receive another message tomorrow.
+
+318
+00:44:39.650 --> 00:44:44.539
+Bogdan Mircea: and I in a proof presentation, so it might. They might
+
+319
+00:44:44.720 --> 00:44:56.840
+Bogdan Mircea: span across longer periods of time. So you want to have some sort of persistent storage generally, and store data there, retrieve the state machine, try to transition, put it back stuff like that.
+
+320
+00:44:56.900 --> 00:45:01.589
+Bogdan Mircea: But there's also the question of caching especially in memory.
+
+321
+00:45:01.750 --> 00:45:02.950
+Bogdan Mircea: and
+
+322
+00:45:04.150 --> 00:45:19.359
+Bogdan Mircea:  generally, that helps with not having to look up your persistent storage every single time, especially if operations happen quickly, which by all means they generally do, and probably will
+
+323
+00:45:19.650 --> 00:45:36.429
+Bogdan Mircea:  But having a cache like that generally means that you might have to  to have a a wrapper like a one. Size, fits all kind of wrapper for the state machines.
+
+324
+00:45:36.480 --> 00:45:46.000
+Bogdan Mircea: or have some sort of smarter cash that stores all these individual types and separately, and then is able to look them up
+
+325
+00:45:46.320 --> 00:46:01.329
+Bogdan Mircea: somehow, which also can be done. But I'm just brainstorming right now. And I I'm wondering what you think about all this. And I'm really wondering what the others think about all this.
+
+326
+00:46:01.790 --> 00:46:02.570
+Bogdan Mircea: But
+
+327
+00:46:02.980 --> 00:46:05.150
+Bogdan Mircea: now so
+
+328
+00:46:05.740 --> 00:46:31.790
+Miroslav Kovar: yeah, so like as as I said, I don't have much experience with interacting or using the new type state connection. But for what? It's worse. I mean the usage pattern that you talked about. where, like you get, get some input. And then based on the input, you basically in the usual know, or what what state you should expect it for. It
+
+329
+00:46:32.160 --> 00:46:33.390
+Miroslav Kovar: makes
+
+330
+00:46:34.050 --> 00:46:46.070
+Miroslav Kovar: quite good argument for the type state pattern, I think. And I think that you actually said it yourself. So so that's that's that's an argument for.
+
+331
+00:46:46.280 --> 00:46:54.109
+Miroslav Kovar: And then you were talking about the generic connection. Prep enum
+
+332
+00:46:54.430 --> 00:46:59.459
+Miroslav Kovar:  that you are basically saying that it is
+
+333
+00:46:59.640 --> 00:47:02.369
+Miroslav Kovar: redundant. But I don't.
+
+334
+00:47:02.740 --> 00:47:30.069
+Miroslav Kovar: like we do use it applies this. We use it in the Vcx. You use it in the rest agent, and like you said it yourself, that there are. There are some situations where you don't know what the the types, or you should expect for this situation. It's maybe useful to have to give the users the option to use, or something like the generic connection. So I don't like
+
+335
+00:47:30.070 --> 00:47:34.359
+see an issue with having it, and in a
+
+336
+00:47:34.460 --> 00:47:36.300
+Miroslav Kovar: necessarily
+
+337
+00:47:38.210 --> 00:47:44.060
+Bogdan Mircea: it it kind of combines, you know. 2 approaches.
+
+338
+00:47:44.420 --> 00:47:53.280
+Bogdan Mircea:  because if you have like a state machine kind of billed around enums.
+
+339
+00:47:53.430 --> 00:47:54.790
+Bogdan Mircea: Then
+
+340
+00:47:55.130 --> 00:48:09.409
+Bogdan Mircea: you basically have all the possible methods in that particular enum right? And then, based on that, you know variant. You do stuff, and you check things at Runtime, and you transition, or you don't, and and so on.
+
+341
+00:48:09.810 --> 00:48:13.650
+Bogdan Mircea: so that's kind of a one. Size fits all.
+
+342
+00:48:13.890 --> 00:48:15.030
+Bogdan Mircea: But
+
+343
+00:48:17.270 --> 00:48:21.320
+Bogdan Mircea: like, like we've been saying with
+
+344
+00:48:21.510 --> 00:48:26.090
+Bogdan Mircea: the way these state machines work and the way the protocols are actually designed.
+
+345
+00:48:26.160 --> 00:48:38.649
+Bogdan Mircea: you kind of know when you get a message, what? Where you you should be, and you can kind of determine the state you should be in. And you can basically validate whether you're in that state or not.
+
+346
+00:48:38.900 --> 00:48:43.629
+Bogdan Mircea: So I'm I'm basically a bit.
+
+347
+00:48:44.800 --> 00:48:48.719
+Bogdan Mircea: I know again I'm I'm really just wondering
+
+348
+00:48:49.110 --> 00:48:55.809
+Bogdan Mircea: the whether the whether there are a lot of cases where we need.
+
+349
+00:48:58.140 --> 00:49:04.939
+Bogdan Mircea: or whether there are a lot of cases where we want to work with the state machine without knowing its state
+
+350
+00:49:05.220 --> 00:49:08.499
+Bogdan Mircea: like we have in
+
+351
+00:49:09.030 --> 00:49:13.809
+Bogdan Mircea:  I believe there is some some stuff in
+
+352
+00:49:14.090 --> 00:49:16.190
+Bogdan Mircea: in live Vcx.
+
+353
+00:49:16.550 --> 00:49:29.319
+Bogdan Mircea: where I know you might. You might want to try to get a dead dog from the other party, but that obviously depends on where exactly you are and the connection protocol. So you might get it. The docker. You might not.
+
+354
+00:49:29.770 --> 00:49:30.810
+Bogdan Mircea: Now
+
+355
+00:49:33.680 --> 00:49:44.180
+Bogdan Mircea: you cannot really, because you can get a the Doc. I know. Maybe you can. You have it in for the 5 States as an invite invite
+
+356
+00:49:44.280 --> 00:49:46.789
+Bogdan Mircea: But you don't have any one State.
+
+357
+00:49:47.380 --> 00:49:56.109
+Bogdan Mircea:  you cannot really know like, even if you had it in all 5 states, you still don't know what state you're in.
+
+358
+00:49:56.160 --> 00:49:57.290
+Miroslav Kovar: so
+
+359
+00:49:57.830 --> 00:50:02.670
+Bogdan Mircea: you you cannot really just get it out so.
+
+360
+00:50:02.810 --> 00:50:17.560
+Bogdan Mircea: And maybe this is a broader question, like, I'm I'm most familiar with the connection protocol, because that's what I worked on. But thinking on other protocols like credential assurance or in proof presentation.
+
+361
+00:50:17.600 --> 00:50:22.629
+Bogdan Mircea:  do you generally want to do
+
+362
+00:50:22.760 --> 00:50:27.639
+Bogdan Mircea: like State State agnostic operations.
+
+363
+00:50:28.790 --> 00:50:32.569
+Bogdan Mircea: and if you do want to do them, are there a lot of them?
+
+364
+00:50:33.550 --> 00:50:38.110
+Miroslav Kovar: Because there are, there are no state of realistic operations, right?
+
+365
+00:50:40.320 --> 00:50:41.290
+Miroslav Kovar: Or
+
+366
+00:50:41.830 --> 00:50:43.990
+what? What would be an example
+
+367
+00:50:44.350 --> 00:50:45.110
+Miroslav Kovar: like.
+
+368
+00:50:47.110 --> 00:50:53.030
+Bogdan Mircea: So I I don't know. Like for connection, like I said, maybe a State agnostic operation would be to.
+
+369
+00:50:53.350 --> 00:50:56.599
+Bogdan Mircea: I know pull out the
+
+370
+00:50:56.830 --> 00:50:59.440
+Bogdan Mircea: counterparties. Did dog.
+
+371
+00:51:00.350 --> 00:51:05.579
+Miroslav Kovar: if there is one
+
+372
+00:51:05.600 --> 00:51:11.199
+then like just the fact that it depends on what state you are in kind of means that it is.
+
+373
+00:51:11.830 --> 00:51:23.119
+Bogdan Mircea:  yeah. But, for instance, if you're in the completed state or in the responded state you will have a dead dog, but if you want to get it out of of the
+
+374
+00:51:23.590 --> 00:51:25.629
+Bogdan Mircea: of the
+
+375
+00:51:25.750 --> 00:51:32.020
+Bogdan Mircea: the state machine, you don't know if you pull, pull the state machine from database. You don't know what type to d serialize to
+
+376
+00:51:32.120 --> 00:51:36.669
+Miroslav Kovar: you. You either the serialized to respond it or to complete it
+
+377
+00:51:36.750 --> 00:51:41.430
+Bogdan Mircea: just to provide that did all right. So that's kind of the the purpose that the generic
+
+378
+00:51:41.610 --> 00:51:46.230
+Bogdan Mircea: in the the generic connection in serves
+
+379
+00:51:47.940 --> 00:51:54.830
+Bogdan Mircea: But it seems like a limited set of things that we use that for.
+
+380
+00:51:55.170 --> 00:51:59.190
+Bogdan Mircea: And I guess that's technically fine
+
+381
+00:52:00.050 --> 00:52:01.960
+Bogdan Mircea: if it stays like that.
+
+382
+00:52:02.320 --> 00:52:13.490
+Bogdan Mircea:  But yeah, I don't know. Maybe I mean, I know we kind of the 2 of us kind of exhausted this a bit. there probably are new ideas
+
+383
+00:52:13.520 --> 00:52:25.690
+Bogdan Mircea: But I'm basically just I wanted to mention this on the call on the recording. Maybe Patrick or George will listen in, or maybe some other people, and just kinda be
+
+384
+00:52:25.720 --> 00:52:34.160
+Bogdan Mircea: for just mentioning for posterity. But maybe it would be worth discussing this some more. But with the other guys.
+
+385
+00:52:34.660 --> 00:52:36.479
+Miroslav Kovar: okay,
+
+386
+00:52:37.010 --> 00:52:44.660
+Bogdan Mircea: all right. So we we talked about this. You did talk about the the qualified dids
+
+387
+00:52:44.740 --> 00:52:45.780
+Bogdan Mircea: as well.
+
+388
+00:52:46.060 --> 00:52:51.169
+Bogdan Mircea:  Now, I believe the decision of all qualified dids.
+
+389
+00:52:51.230 --> 00:53:05.030
+Bogdan Mircea: maybe not decision. But the idea in the connection protocol is to kind of not use qualified dates, keep using on qualified dates, keep using the legacy, did talk right, and use qualified days from now on.
+
+390
+00:53:05.050 --> 00:53:08.449
+Bogdan Mircea:  there is the
+
+391
+00:53:08.530 --> 00:53:13.319
+Bogdan Mircea: the Cli demo Demo from
+
+392
+00:53:13.590 --> 00:53:15.950
+Bogdan Mircea: George that's in progress.
+
+393
+00:53:16.610 --> 00:53:23.310
+Bogdan Mircea:  and it's basically, I believe, similar to
+
+394
+00:53:23.660 --> 00:53:33.740
+Bogdan Mircea: existing examples. I'm I'm familiar with the Aka. One, the node. There's one in the Fj. but I guess it's pretty much just for
+
+395
+00:53:33.970 --> 00:53:42.450
+Bogdan Mircea: kind of showcasing the the roles of agents and Aries through a cli app and rust.
+
+396
+00:53:42.740 --> 00:53:44.879
+Bogdan Mircea: It's pretty cool.
+
+397
+00:53:46.730 --> 00:53:53.849
+Bogdan Mircea: I mean this. Actually, this is just an issue. Yeah, so, but I guess it's
+
+398
+00:53:54.480 --> 00:53:56.330
+Bogdan Mircea: it's a it's a good idea.
+
+399
+00:53:56.590 --> 00:54:03.339
+Bogdan Mircea: I know if George wants to pick this up and seems to have put a lot of details into
+
+400
+00:54:03.370 --> 00:54:05.350
+Bogdan Mircea: into the the issue. So
+
+401
+00:54:05.800 --> 00:54:17.020
+Bogdan Mircea:  it doesn't sound far as that. He might. So he might start working on this. But  and there's also the
+
+402
+00:54:17.080 --> 00:54:21.860
+Bogdan Mircea: this harness update, which I guess it's kind of overdue.
+
+403
+00:54:22.670 --> 00:54:32.340
+Miroslav Kovar:  yeah. I think George mentioned mentioned the last that he would like to
+
+404
+00:54:32.580 --> 00:54:43.399
+Miroslav Kovar: start working on on the update a little bit, so I don't know if you did start it, or whether you did some investigation at least, or you don't have him for for an update.
+
+405
+00:54:43.830 --> 00:54:44.760
+Bogdan Mircea: Okay, cool
+
+406
+00:54:45.070 --> 00:54:51.059
+Bogdan Mircea:  and for the upcoming priorities,
+
+407
+00:54:52.780 --> 00:54:56.460
+Bogdan Mircea: especially what we've been discussing so far. So
+
+408
+00:54:56.660 --> 00:55:08.980
+Bogdan Mircea: kind of splitting the the legend, not the legislative, but the the Aries primitives. having separate parts for ledger on them, credits and wallet.
+
+409
+00:55:09.220 --> 00:55:23.459
+Bogdan Mircea: Now the on on credits bar depends on the migration and then the on on credit. Rs implementation. I know you've done a lot of work on the on the ledger part. also splitting the trait into multiple ones.
+
+410
+00:55:23.610 --> 00:55:30.350
+Bogdan Mircea: I don't know exactly if we have any plans for some sort of volume migration for us car, but
+
+411
+00:55:30.490 --> 00:55:38.810
+Bogdan Mircea:  like, it's pointing out here. It does kind of rely on the anon. Credits are as
+
+412
+00:55:39.190 --> 00:55:48.549
+Bogdan Mircea: thing to be done, because I guess it. It kind of defeats the purpose otherwise. Well. maybe they are not that related. I guess you could technically use any wallet. But
+
+413
+00:55:48.890 --> 00:55:55.879
+Bogdan Mircea:  Ultimately, if we want to migrate to the newer stuff. We should do it iteratively, I guess.
+
+414
+00:55:57.110 --> 00:56:08.620
+Bogdan Mircea:  we I guess we again talked about splitting on and credit. Rs, I know that this is being brought up on on a number of calls before kind of splitting the trade into role specific stuff
+
+415
+00:56:08.850 --> 00:56:13.570
+Bogdan Mircea: to again provide more bits and pieces wherever they are needed.
+
+416
+00:56:13.960 --> 00:56:26.630
+Bogdan Mircea: and type state pattern is, I guess, an ongoing discussion again. It's not. It's definitely not a bad thing. But and I'm I'm also surprised that I'm kind of second guessing this. But
+
+417
+00:56:26.840 --> 00:56:34.849
+Bogdan Mircea: like I like I told you in in chat. If if by any means we realize at some point that
+
+418
+00:56:34.900 --> 00:56:40.050
+Bogdan Mircea: you know what we took the wrong approach. Let's switch, then. I'd rather have it now
+
+419
+00:56:40.240 --> 00:56:46.250
+Miroslav Kovar: like, the sooner the better. Kind of thing. I don't know.
+
+420
+00:56:48.560 --> 00:56:53.730
+Bogdan Mircea: Yeah, maybe talk about this a bit. So
+
+421
+00:56:54.340 --> 00:56:56.600
+Bogdan Mircea: I've seen that this is basically just
+
+422
+00:56:57.000 --> 00:57:00.430
+Bogdan Mircea:  I know some
+
+423
+00:57:00.840 --> 00:57:05.769
+Bogdan Mircea: vulnerabilities being pulled on discord, I believe.
+
+424
+00:57:06.120 --> 00:57:11.379
+Bogdan Mircea: by some bought and the test harness for one.
+
+425
+00:57:13.940 --> 00:57:20.660
+Bogdan Mircea: Yeah, I guess this was we should get. But partially. We're entirely fixed
+
+426
+00:57:20.710 --> 00:57:35.419
+Bogdan Mircea: from what I've seen, like the the failures brought up where, like the Oroboros create, which was not actually used, and you mentioned something about the cargo lock file being pushed. That was not necessarily representing reality. So maybe that's what it looked for.
+
+427
+00:57:35.580 --> 00:57:45.749
+Bogdan Mircea:  not the critical one. That vulnerability is the in the failure to which we actually do use. It's used in a Vdr tools.
+
+428
+00:57:45.980 --> 00:57:54.219
+Bogdan Mircea: So it shouldn't be any more actually, at least not soon soon enough.
+
+429
+00:57:54.430 --> 00:58:12.509
+Bogdan Mircea:  essentially part of the the credential migration thing because it it I I had to kind of tweak the video tools to kind of accommodate everything, and I also modified some of the er handling in there to kind of not depend on failure.
+
+430
+00:58:12.590 --> 00:58:23.359
+Bogdan Mircea: yeah. And to also kind of reuse the the errors from Endy, because from from Vdr tools, because we kind of depend on them for the conversion. Right?
+
+431
+00:58:23.410 --> 00:58:24.520
+So
+
+432
+00:58:24.620 --> 00:58:36.109
+Bogdan Mircea: at least, that the wallet errors, because that's what we're interested in. And when the migration is done. The plan is to kind of drop a lot of Vdr tools content and
+
+433
+00:58:36.610 --> 00:58:38.630
+Bogdan Mircea:  just
+
+434
+00:58:40.100 --> 00:58:54.119
+Bogdan Mircea: kind of keep the wallet part. but drop everything else. So. if not implicitly. If we don't get rid of this implicitly, then I can put in some work and getting rid of it.
+
+435
+00:58:54.360 --> 00:58:58.770
+Bogdan Mircea: No problem but I think it should. We should be able to get rid of it.
+
+436
+00:58:59.460 --> 00:59:08.450
+Miroslav Kovar:  and
+
+437
+00:59:08.530 --> 00:59:24.420
+Miroslav Kovar: so this is this is just I I I'm not like entirely sure what this refers to myself. But Steven Karen invite us to a conversation or discussion around
+
+438
+00:59:24.970 --> 00:59:32.130
+Miroslav Kovar: out mediators next week on working group meeting.
+
+439
+00:59:32.290 --> 00:59:53.389
+Miroslav Kovar: So yeah, they invited us to the meeting where they should discuss creation of a mobile bullet. Friendly, scalable mediator, which kind of relates to our internship. projects.
+
+440
+00:59:53.720 --> 00:59:54.470
+Bogdan Mircea: Cool.
+
+441
+00:59:55.660 --> 00:59:57.250
+Bogdan Mircea: Okay?
+
+442
+00:59:57.440 --> 01:00:02.779
+Bogdan Mircea: well, we did pretty much exhaust the entire hour. So that's that's kind of cool.
+
+443
+01:00:02.870 --> 01:00:04.970
+Bogdan Mircea: even if it were just the 2 of us.
+
+444
+01:00:05.490 --> 01:00:10.190
+Bogdan Mircea: I know any other thing you want to add here.
+
+445
+01:00:10.740 --> 01:00:12.840
+Miroslav Kovar: nothing from my side.
+
+446
+01:00:13.350 --> 01:00:21.599
+Bogdan Mircea: Okay, cool. Well, then, thank you for tuning in and entertaining me here and all the chats
+
+447
+01:00:21.620 --> 01:00:28.479
+Bogdan Mircea: very, very cool discussion. Thank you for anyone that might be tuning in later, and
+
+448
+01:00:28.770 --> 01:00:31.280
+Bogdan Mircea: that was it for the call? See you next week?
+
+449
+01:00:31.850 --> 01:00:34.410
+Miroslav Kovar: Very much.
+

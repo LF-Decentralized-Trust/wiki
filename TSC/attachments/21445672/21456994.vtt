@@ -1,0 +1,1102 @@
+WEBVTT
+
+1
+00:00:57.360 --> 00:00:59.170
+Angelo De Caro: Hello, Hi! Everybody!
+
+2
+00:00:59.760 --> 00:01:01.360
+Bobbi Muscara: Good morning, everybody.
+
+3
+00:01:04.440 --> 00:01:05.610
+Tracy Kuhrt: Hi! Sean
+
+4
+00:01:06.180 --> 00:01:10.620
+Hyperledger Community: uh Sorry for the confusion, Tracy. Uh! I thought I was in the wrong room,
+
+5
+00:01:11.020 --> 00:01:13.570
+Hyperledger Community: so I
+
+6
+00:01:16.350 --> 00:01:35.239
+Tracy Kuhrt: all right. Welcome everybody to the December First Hyper Ledger Technical Oversight Committee call um, As you are all aware, uh you've been on this call before two things that we must divide by the first is the antitrust policy. Notice that is currently displayed on the screen,
+
+7
+00:01:35.310 --> 00:01:38.640
+Tracy Kuhrt: and the second is our code of conduct
+
+8
+00:01:39.260 --> 00:01:50.609
+Tracy Kuhrt: which is linked in the agenda. Uh. So as far as announcements go today, we have the standard announcement of the Dev Weekly Developer Newsletter that goes out each Friday.
+
+9
+00:01:50.760 --> 00:01:58.880
+Tracy Kuhrt: Uh, if you have something that you want to include in that newsletter, please leave a comment on the Wiki page that is linked in the agenda
+
+10
+00:01:59.060 --> 00:02:03.089
+Tracy Kuhrt: any other announcement that anybody has or would like to make.
+
+11
+00:02:07.450 --> 00:02:08.780
+Tracy Kuhrt: Yeah, Angela,
+
+12
+00:02:09.240 --> 00:02:32.380
+Angelo De Caro: this this thing will not be of interest for money, but I just wanted to take the chance, because I I I didn't run again for all for the the the poc. I just want to take the chance. So you know you never know to to say thank you to everybody. I really enjoyed all the discussion. I learned a lot also from the interactions that we had in the past. Um in the past years.
+
+13
+00:02:40.150 --> 00:02:47.100
+Tracy Kuhrt: Alright, Thanks, Angela, and yes, thanks for being on the Tsc. For the last year. Um,
+
+14
+00:02:47.130 --> 00:02:48.260
+Tracy Kuhrt: it's been.
+
+15
+00:02:48.500 --> 00:02:52.570
+Tracy Kuhrt: It's really good to have a voice uh that is, uh
+
+16
+00:02:52.920 --> 00:03:02.370
+Tracy Kuhrt: curious and interested about what's happening in the technical space. So um thank you for that. Any other other announcements that anybody would like to make
+
+17
+00:03:09.020 --> 00:03:28.550
+Tracy Kuhrt: alright, uh. So speaking of the uh upcoming Toc in the election uh the election did close yesterday, I saw that we had seventy-seven votes that came in. Um! About thirty-nine percent of the people who were eligible did vote for the the technical oversight committee.
+
+18
+00:03:28.560 --> 00:03:31.100
+Tracy Kuhrt: Um! So it's
+
+19
+00:03:31.720 --> 00:03:49.779
+Tracy Kuhrt: somewhat this pointing that we move to, uh maintainer's. Only people we thought would be interested in voting for the upcoming technical oversight committee folks uh to not see a larger number there. Um! But maybe we'll have to do some um,
+
+20
+00:03:51.300 --> 00:04:08.620
+Tracy Kuhrt: some conversations with some of the people who didn't vote to see why they didn't vote, and uh what we could do differently in the future. Um, we do not have the results yet, because the next step is that the governing board, as you recall, has to elect uh five
+
+21
+00:04:08.710 --> 00:04:27.130
+Tracy Kuhrt: people uh five additional people to the list of technical oversight committee members, and so that will be um starting here shortly. Um, you know the staff is working on getting the information gathered from what uh, what the results were, and
+
+22
+00:04:27.140 --> 00:04:36.910
+Tracy Kuhrt: also putting together some information on uh the individuals that uh that we have as far as diversity and and things like that. So um
+
+23
+00:04:36.930 --> 00:04:52.569
+Tracy Kuhrt: probably mid December is when we'll see the results coming back in uh for the next year's technical oversight committee, and uh, we'll get that out there as soon as it's available. After that, Uh, as you are probably all aware.
+
+24
+00:04:52.580 --> 00:04:57.940
+Tracy Kuhrt: Um! The next steps would be to elect the toc chair and vice chair
+
+25
+00:04:58.590 --> 00:04:59.600
+Tracy Kuhrt: or no.
+
+26
+00:05:00.650 --> 00:05:18.300
+Arnaud J Le Hors ("Arno"): Yes, hi, everybody, thank you, Tracy. Now I just wanted to comment on the election process. I think you know, given the more numbers of vote, I think we didn't have to wait a month. I don't know when people actually voted. If we had said, Okay, you have two weeks to vote
+
+27
+00:05:18.310 --> 00:05:31.310
+Arnaud J Le Hors ("Arno"): it doesn't feel like we would have must about. I don't know that for fact, obviously, but uh especially given the the additional stage of having to go to governing board, I think you know
+
+28
+00:05:31.330 --> 00:05:39.909
+Arnaud J Le Hors ("Arno"): two week uh period to vote. To cast the votes probably was good enough, but we might want to think about that in the future.
+
+29
+00:05:40.800 --> 00:05:46.149
+Tracy Kuhrt: No, thanks, I know. I will tell you that probably a third of the people voted this week
+
+30
+00:05:46.240 --> 00:06:05.389
+Arnaud J Le Hors ("Arno"): um a third of the people who are actually voted. I think it went from fifty to seventy-seven, and this week so um, I don't know if that's because we push people.
+
+31
+00:06:06.170 --> 00:06:14.870
+Tracy Kuhrt: Yeah, I completely here, you though are. No, uh, yes, your point is taken as well. So um thank you for that.
+
+32
+00:06:16.020 --> 00:06:24.679
+Tracy Kuhrt: All right. Any other uh comments on just the the Technical Oversight Committee election, or any other other announcements that people have,
+
+33
+00:06:28.370 --> 00:06:29.340
+Tracy Kuhrt: I mean,
+
+34
+00:06:30.640 --> 00:06:37.910
+Arun S M: hey, Tracy? Um. So I know, like previously we refrain from doing it. But since this time the election was focused.
+
+35
+00:06:37.930 --> 00:06:41.459
+Arun S M: Um! Only to maintain our can we this time?
+
+36
+00:06:41.640 --> 00:06:53.630
+Arun S M: Uh, do some? I mean, the analytics is visible to us, and we who has noted was not out yet. Can we um try to get free plan from them? The maintainers were not participating.
+
+37
+00:06:55.640 --> 00:07:14.070
+Tracy Kuhrt: Yeah, I think that's a really good idea. And I think Um, this is reaching out and seeing if we can get a summary of why they didn't vote um, you know I don't know what those choices might look like if we were to do a choice sort of thing, or if it's just a open in a question, tell us what? Why you didn't vote
+
+38
+00:07:14.080 --> 00:07:22.469
+Tracy Kuhrt: um, but I I do think it's worthwhile to to see and um understand right what what what the reasoning is for that
+
+39
+00:07:28.440 --> 00:07:30.070
+Tracy Kuhrt: any other
+
+40
+00:07:30.300 --> 00:07:32.889
+Tracy Kuhrt: uh comments or announcements
+
+41
+00:07:39.120 --> 00:07:50.199
+Tracy Kuhrt: all right not seeing any. Uh we did. We haven't met for about a month. Um! And so we have a number of quarterly reports that come in in the past month. And
+
+42
+00:07:50.210 --> 00:08:09.949
+Tracy Kuhrt: uh, as I was going through them this morning, I didn't see any open or outstanding questions about any of those reports. It looks like all the questions that were asked were answered, or um, any comments that were made were updated in the the actual report. But did anybody have any questions or anything that we should talk to you
+
+43
+00:08:09.960 --> 00:08:14.619
+Tracy Kuhrt: uh the the communities about related to their quarterly reports.
+
+44
+00:08:23.440 --> 00:08:37.969
+Tracy Kuhrt: Okay, I will take that as a resounding No uh the upcoming reports. We did get the cello report that came in uh already this week, so um that one's available the
+
+45
+00:08:37.980 --> 00:08:55.080
+Tracy Kuhrt: um it's probably worthwhile to uh have a conversation with the the team. I know they just gave us their Q. Three. Q. Three report um not too long ago. Uh. And so It may be that they're not thinking about the Q. Four report yet, so we'll just have to
+
+46
+00:08:55.090 --> 00:09:09.870
+Tracy Kuhrt: um, maybe reach out to them and see and see what the status is there. Uh! And then for next week the reports that we're looking to get, and I think these are the remainder of the reports for the year, or the basic Caliper and Firefly reports.
+
+47
+00:09:12.820 --> 00:09:19.200
+Tracy Kuhrt: All right uh any any questions on any of the reports before we move on to the discussion items.
+
+48
+00:09:26.520 --> 00:09:33.759
+Tracy Kuhrt: So for discussion today, I wanted to talk about the status updates for the task forces that we've kicked off
+
+49
+00:09:33.880 --> 00:09:49.539
+Tracy Kuhrt: uh for this particular year, I I want to see kind of what we're waiting on. How do we close things out? Uh? Is there anything that can be done to to move us beyond where we're at. Uh to move these forward. Um,
+
+50
+00:09:49.610 --> 00:09:52.190
+Tracy Kuhrt: you know I I
+
+51
+00:09:52.240 --> 00:09:59.010
+Tracy Kuhrt: There was another task force that we had, which I ended up closing out um,
+
+52
+00:09:59.180 --> 00:10:00.580
+Tracy Kuhrt: and because,
+
+53
+00:10:00.640 --> 00:10:18.749
+Tracy Kuhrt: uh, what we decided was that it was really the the staff decision, as far as you know, what gets priority. And how do we present This, however, I do recall from that task force that one of the things that was we were waiting on was to see some mock ups for some of the
+
+54
+00:10:18.760 --> 00:10:22.590
+Tracy Kuhrt: uh new web pages. And so um,
+
+55
+00:10:24.220 --> 00:10:42.360
+Tracy Kuhrt: I don't see Mr. Boswell on the call today um to to give us an update on that. But I think that's one of the things that we are waiting for, just to to see how we link the different projects together on the website. Oh, you are on the call David. How did I miss you? Oh, you were at the top uh co-host?
+
+56
+00:10:42.420 --> 00:10:46.000
+Tracy Kuhrt: Um, David, Do you have any updates? On that
+
+57
+00:10:46.380 --> 00:10:58.219
+David Boswell: Yeah, quick update on that. Unfortunately, this gotten tied up with some web dev other. We webdv issues on the site. The plan was to launch it on the current site
+
+58
+00:10:58.350 --> 00:11:13.109
+David Boswell: uh earlier this year in time for global forum. But then the Web Dev team decided that it would probably be best to wait. Um long story short, the there's gonna be a redesign of the site early next year where the site moves to a different pla hosting platform,
+
+59
+00:11:13.120 --> 00:11:25.269
+David Boswell: and so the web dev team didn't ultimately decided It didn't make sense to code it once for wordpress, and then have to recode it just a few months later for a different platform. So their recommendation was to hold off and
+
+60
+00:11:25.700 --> 00:11:44.009
+David Boswell: do that when we launch the new site, and sorry for not providing an update sooner, we've just been trying to sort out the exact timing and details on our end, and all that is not yet fully final on our end. But the Web dev team did decide. It did make the most sense not to go ahead and do it on wordpress. So um,
+
+61
+00:11:44.510 --> 00:11:52.650
+David Boswell: we'll give you updates soon when we know more timing. But uh, it will be a little bit later than we had hoped in terms of getting it posted.
+
+62
+00:11:53.280 --> 00:11:55.679
+Tracy Kuhrt: Alright, Thanks, David, for that
+
+63
+00:11:55.800 --> 00:12:14.950
+Tracy Kuhrt: update. Um. So yeah, let's go through the the other task forces then, and see where they're at, and what can we do to get them close out or move them forward. Um! So the first one is the project Gaps task force. Uh, Daniel, I know we had done a lot of discussions about um.
+
+64
+00:12:14.960 --> 00:12:28.379
+Tracy Kuhrt: You know what kind of projects we have, what kind of projects we don't have, what labs exist that might fill in some of the gaps uh where we at specifically with this task force. And what do we need to do to to move this forward?
+
+65
+00:12:28.590 --> 00:12:47.540
+Danno Ferrin: So the uh, the goals was to produce a list of labs of a go in and possible holes, and on the page the recommendations um delivered on those back in August we kept it open over Hyper Ledger global form in case some of the chatter, if the global forum prompted us to add more uh
+
+66
+00:12:47.650 --> 00:12:58.860
+Danno Ferrin: get trees or gaps, or whatever to the to the list, and and none of those surface, so you know, based on the objective set out when we form the task force it's delivered. It's it's product which was that recommendations Page:
+
+67
+00:12:59.240 --> 00:13:02.599
+Tracy Kuhrt: Okay, So we can then move this to the
+
+68
+00:13:02.750 --> 00:13:07.680
+Tracy Kuhrt: uh prior task force list uh as far as what it has uh
+
+69
+00:13:08.010 --> 00:13:14.420
+Tracy Kuhrt: where we're at with that. Um. So we can take that action to do that. Okay? Great Thanks, Dana.
+
+70
+00:13:14.930 --> 00:13:18.500
+Tracy Kuhrt: Uh Jim. The project Health dashboard.
+
+71
+00:13:19.070 --> 00:13:32.059
+Jim Zhang: Yeah. Thanks. Tracy. Um. So this one. I think we originally set this up to uh deliver um some automated uh content into each of the project reports. Um,
+
+72
+00:13:32.430 --> 00:13:44.499
+Jim Zhang: uh! We achieved the the first step of identifying what needs to going there uh to reflect um accurately with data uh the the
+
+73
+00:13:44.770 --> 00:14:00.449
+Jim Zhang: uh, the project house. Um, but we haven't achieved this uh the initial goal of doing automation. Um! It's mainly due to resource uh constraints. Um coding um
+
+74
+00:14:00.460 --> 00:14:15.899
+Jim Zhang: coding wise and setting up infrastructure. Um But we did manage to give the the output to the Linux foundation inside team as input uh for their future enhancements. Um!
+
+75
+00:14:15.910 --> 00:14:31.730
+Jim Zhang: So I I think we have the option of closing this off with the Reduce the scope, and just consider the um, the the output being just the report itself, and then we can always choose to act on that.
+
+76
+00:14:31.740 --> 00:14:36.079
+Jim Zhang: Uh, in the future. Uh, when we do have resources available.
+
+77
+00:14:40.110 --> 00:14:45.090
+Tracy Kuhrt: Okay, Um, One of the things that I was thinking about with
+
+78
+00:14:45.220 --> 00:14:52.509
+Tracy Kuhrt: this in another conversation that I had um was around, whether or not we wanted to
+
+79
+00:14:52.950 --> 00:14:55.190
+Tracy Kuhrt: and have some sort of
+
+80
+00:14:56.070 --> 00:15:06.749
+Tracy Kuhrt: yeah. So let's call it a spreadsheet for sake of ease. Um! That basically provides a list of things that we would expect from projects
+
+81
+00:15:06.830 --> 00:15:24.329
+Tracy Kuhrt: uh things like um Maintainer as well. These are the easy things, right things like maintainer's, files, contributor files, things that talk about. How do you become a maintainer? Um, You know all of the basically good practices or best practices for um,
+
+82
+00:15:24.340 --> 00:15:36.159
+Tracy Kuhrt: for being a successful kind of open source project. Uh, And then just the you know kind of a checkmark, yes or no next to it. I know right now. We're kind of doing that in the project reports.
+
+83
+00:15:36.240 --> 00:15:43.510
+Tracy Kuhrt: Um! But i'm wondering if there's a a different way for us to do that and kind of have it all in one location. Um,
+
+84
+00:15:43.990 --> 00:16:03.940
+Tracy Kuhrt: and basically something that we could maintain as we kind of go through uh and see these things getting completed or or finished. Uh, it's not quite the same, I I think, is what this dashboard uh was, and is intended to be within insights. But i'm wondering if it does help us in some way just to
+
+85
+00:16:03.950 --> 00:16:08.220
+Tracy Kuhrt: to be able to understand kind of these these best practices, if you will.
+
+86
+00:16:09.200 --> 00:16:14.009
+Jim Zhang: Yeah, yeah, I think the uh, the report uh that we ended up with
+
+87
+00:16:14.050 --> 00:16:32.240
+Jim Zhang: can be easily turning to a express sheet format. And and I'd, i'd be happy to help with that. Uh, so we can have that sort of as a self, you either as a self evaluation or as a um set of format for projects to self self report on their health.
+
+88
+00:16:32.390 --> 00:16:39.920
+Jim Zhang: Uh, uh, matrices. Yeah, I can. I can definitely help with that as sort of the last step to uh to wrap this up.
+
+89
+00:16:41.260 --> 00:16:52.629
+Tracy Kuhrt: Yeah, that'd be great. Um: yeah. And I know. Uh, I think this is coming out of some of the conversations you and I had as well about some of the things that we'd like projects to be able to
+
+90
+00:16:52.840 --> 00:17:12.279
+Tracy Kuhrt: to be able to, uh, have related to the documentation of how their projects are run. Um! And I think this: these are the two things that came together in my head to create kind of this spreadsheet of checkmarks of yes no um sorts of things. Um, maybe even pointers to where those things are.
+
+91
+00:17:12.290 --> 00:17:24.229
+Tracy Kuhrt: Uh if you will, so that people can easily find uh where things are documented, because I don't feel like we're very consistent across our projects, and where we document some of these things. Um. Some of them have them
+
+92
+00:17:24.240 --> 00:17:33.009
+Tracy Kuhrt: uh in maintainer as well. Some of them have them in contributors. Files right like there's There's just different places where things are captured, and I just want to make sure that we have a
+
+93
+00:17:33.100 --> 00:17:45.109
+Tracy Kuhrt: um, you know. I uh one place kind of to go look and see how our projects are doing. And uh, maybe you know, a directory for people who are interested in getting involved in certain projects
+
+94
+00:17:46.820 --> 00:17:48.489
+Hart Montgomery: totally agree. Tracy.
+
+95
+00:17:48.530 --> 00:17:50.750
+Hart Montgomery: The thanks for bringing this up
+
+96
+00:17:53.770 --> 00:17:59.660
+Tracy Kuhrt: all right uh anything else. Then on project health dashboards that we should. Um
+
+97
+00:17:59.800 --> 00:18:02.279
+Tracy Kuhrt: that anybody has any commentary on
+
+98
+00:18:04.060 --> 00:18:05.920
+David Enyeart: Um, hi! It's.
+
+99
+00:18:05.950 --> 00:18:23.199
+David Enyeart: I agree with your points about consolidating that information. And there's also a few of the questions that are in each of the projects reports that they have been there for, like most of the year, and people just copy paste. I think so. It'd be good if those things got moved to the common spreadsheet or the common page, or whatever we do it.
+
+100
+00:18:23.340 --> 00:18:31.330
+David Enyeart: And then the project reports, maybe just link to that. And you can say, do you have any updates on the common page? That type of thing.
+
+101
+00:18:32.240 --> 00:18:50.499
+Tracy Kuhrt: Yeah, I think that's a a really good idea game. I I saw similar sorts of. I was thinking similar sorts of things when I was looking at some of the newest reports that came in. It's like that. Looks very similar to what I saw last that they reported right. Um. So yeah, I agree with the copy paste, and how that might just uh,
+
+102
+00:18:50.550 --> 00:18:55.039
+Tracy Kuhrt: you know, some of the stuff is is just not needed there in the project reports anymore
+
+103
+00:18:57.310 --> 00:18:59.270
+Tracy Kuhrt: alright, Anything else that
+
+104
+00:19:00.910 --> 00:19:02.639
+Tracy Kuhrt: on this particular topic,
+
+105
+00:19:07.640 --> 00:19:13.379
+Tracy Kuhrt: all right. Uh: So then, the last task force that we have is the security task force.
+
+106
+00:19:13.570 --> 00:19:22.489
+Tracy Kuhrt: Um. So arun I know you've been hosting some meetings. Uh I wanted to see if we could get an update from you on what the status is, and uh,
+
+107
+00:19:22.560 --> 00:19:28.430
+Tracy Kuhrt: um! What kind of steps we are taking or need to still take? They get this one closed out.
+
+108
+00:19:29.070 --> 00:19:32.170
+Arun S M: So Tracy um, hey, everyone!
+
+109
+00:19:32.190 --> 00:19:50.460
+Arun S M: So um in terms of update. Uh, we still stand at the same place as what was updated in the previous States to to Uscom, which is where um we have certain action items that were supposed to be um written down. For instance, in our initial proposal we had the easy targets achieved,
+
+110
+00:19:50.470 --> 00:20:03.500
+Arun S M: but after that um taking the feedback from the two, we went back, and then we defined the other proposals, and out of those proposals um like the After multiple discussions we realized that
+
+111
+00:20:03.660 --> 00:20:18.839
+Arun S M: some of the open Ssl recommendations, or to be proposed, or here in Hyper Ledger for um to to for immediate implementation. I apologize because I haven't been able to follow since the global Forum event. Um,
+
+112
+00:20:19.170 --> 00:20:29.920
+Arun S M: but yes, um! The The task force itself has um completed for now the tasks that were to be done, however. Um, the
+
+113
+00:20:29.930 --> 00:20:46.359
+Arun S M: the The one of the proposal that we had as part of the task. Force itself is security is not one time activity which we should be reviewed. And then, once we put up these ten or fifteen items that it's done, but rather it should be continuously evaluated as Well,
+
+114
+00:20:46.370 --> 00:21:03.179
+Arun S M: so. Um! That is an open item which I still see. Um that we end up discussing. For instance, in the previous call as well are not brought up uh uh a tool that we should be leveraging in our build process uh this night. Tool reports right.
+
+115
+00:21:03.570 --> 00:21:14.370
+Arun S M: Um! So that's where we stand right now, and currently the task force meetings have been cancelled the Tuesday meetings. I guess there was a conflict, and then
+
+116
+00:21:27.180 --> 00:21:43.060
+Arun S M: Um! So there is sorry on this slide tools that are not productive. I was not so not also aware of that. But um Linux foundation has already provided that in the in the Uh dashboards that are available for all the projects.
+
+117
+00:21:43.350 --> 00:22:03.219
+Arun S M: Um! The The discussion that we had in the previous task force meeting was to um go through that, and then uh recommend how the project teams can start using that. I We already saw some of the project teams. I've been taking measures to mitigate some of those risk reported by the tool.
+
+118
+00:22:03.230 --> 00:22:10.840
+Arun S M: I'm not sure if those reports were shared through this tool or through some other needs, that the tool has captured uh those status as well.
+
+119
+00:22:17.640 --> 00:22:19.389
+Tracy Kuhrt: Okay, I know.
+
+120
+00:22:22.140 --> 00:22:35.890
+Arnaud J Le Hors ("Arno"): Yes. So you know I I I I claim responsibility for having started this, so I still feel like we have a lot to do in that space. And I mean I. You know
+
+121
+00:22:35.900 --> 00:22:54.989
+Arnaud J Le Hors ("Arno"): I I don't think you have to apologize. We all get busy at times, and That's okay. I mean, you know, I thank you for trying to be this, anyway. But you know It's I. We started this uh that was based on my report that the open Ssf. Had uh produced uh
+
+122
+00:22:55.000 --> 00:23:11.140
+Arnaud J Le Hors ("Arno"): the guide, for on the you know, for open source project, and how to handle uh the disclosures. And then, you know, i'm very much involved in openness to these days, and I can tell you that the least of tools and and and recommendations
+
+123
+00:23:11.150 --> 00:23:21.289
+Arnaud J Le Hors ("Arno"): keep increasing all the time, and I think in general, you know, especially given the space we're in with blockchain, which is pretty secretly sensitive.
+
+124
+00:23:21.300 --> 00:23:49.719
+Arnaud J Le Hors ("Arno"): I mean all those recommendations are true for any open source project. But you know, I, as I was saying, just just if anybody should care, it should be us, because in a blockchain space. We care about security, and maybe more than anybody else. And so I think we. There's a lot to learn from the recommendations that you know. Um. Our room was referring to some of the tools that are being, you know, pointed to. There are some that are actually
+
+125
+00:23:49.730 --> 00:24:19.099
+Arnaud J Le Hors ("Arno"): a demo by open S itself that help you know. Track uh the packages, for instance, that you're using in your in your software, and it will alert you automatically if there's a that has been disclosed in one of the founding. One of the packages you depend on. There's Github actually is also starting to provide some of those tools. But then let me see, turned on by default, and sometimes just a matter of going change the the
+
+126
+00:24:19.110 --> 00:24:48.290
+Arnaud J Le Hors ("Arno"): you know your github uh settings to get to use those new features, and and the other part is, you know, uh a lot of this has to do with, uh providing a to stations. But you know, ensuring the provenance of the tools. And so again, oh, the software we're developing so that people can use them, knowing that they are actually using the genuine version and and stuff like this. So there's a whole array of things
+
+127
+00:24:48.300 --> 00:25:07.189
+Arnaud J Le Hors ("Arno"): that need to be done that you know, as we say nowadays, it's like to improve the sixty posture of a projects. And so I think this: you know, this task force is still very much needed. We have to come up with, You know. I see this as a way to try to,
+
+128
+00:25:07.500 --> 00:25:27.309
+Arnaud J Le Hors ("Arno"): you know. Go through all these different options that are being brought up, and recommendations, and try to figure out what it means for us, I for hedger, and so that we can then turn around, you know, and tell our community our different projects. Okay, these are guidelines that we really want you to follow
+
+129
+00:25:30.780 --> 00:25:32.350
+Tracy Kuhrt: alright makes sense
+
+130
+00:25:32.800 --> 00:25:33.720
+Tracy Kuhrt: part.
+
+131
+00:25:35.580 --> 00:25:39.819
+Hart Montgomery: I agree with Arno. I think we have. You know we have a lot of stuff to do
+
+132
+00:25:39.980 --> 00:25:41.450
+Hart Montgomery: this.
+
+133
+00:25:42.890 --> 00:26:01.739
+Hart Montgomery: I I you know. I expect this will be a fairly long term effort. Uh, but in the the near future. You know we'd like to get uh. You know more precise bug value programs rolled out uh, and we'd also like to, you know, formalize a security audit process
+
+134
+00:26:01.790 --> 00:26:05.650
+Hart Montgomery: as well as you know, trying to.
+
+135
+00:26:06.080 --> 00:26:11.750
+Hart Montgomery: I don't know if standardizes the right word, but trying to help formalize. Cv:
+
+136
+00:26:12.420 --> 00:26:16.589
+Hart Montgomery: I guess, even if we can't mandate them Cv best practices.
+
+137
+00:26:17.740 --> 00:26:21.919
+Hart Montgomery: So I totally just want to briefly agree with what Arnold said.
+
+138
+00:26:24.220 --> 00:26:37.519
+Tracy Kuhrt: Okay, So it sounds to me if i'm hearing correctly that we've still got some work to do, and it's going to be around documenting guidelines and best practices for uh security
+
+139
+00:26:38.030 --> 00:26:39.270
+Tracy Kuhrt: um
+
+140
+00:26:39.500 --> 00:26:45.990
+Tracy Kuhrt: to potentially implementing some programs within the Hyper Ledger foundation as a whole
+
+141
+00:26:46.060 --> 00:26:48.670
+Tracy Kuhrt: Is there? Um
+
+142
+00:26:49.380 --> 00:26:56.169
+Tracy Kuhrt: with the with the first part uh how much of what's being done in open ssf.
+
+143
+00:26:56.670 --> 00:27:00.260
+Tracy Kuhrt: Is applicable to that? Or
+
+144
+00:27:00.620 --> 00:27:05.240
+Tracy Kuhrt: are we creating separate from open Ss.
+
+145
+00:27:05.590 --> 00:27:14.679
+Tracy Kuhrt: Uh. I'm. Trying to figure out what the what the relationship is between hyper, ledger foundation and open Ssf: And in this kind of task force
+
+146
+00:27:14.930 --> 00:27:25.789
+Hart Montgomery: absolutely. Yeah, I mean, we're we're trying to get people to adopt the best open Ssf: practices right right now we don't have any formal policy say on Cd disclosure right?
+
+147
+00:27:26.230 --> 00:27:30.169
+Hart Montgomery: Uh. And we when we talked about that last time earlier this year,
+
+148
+00:27:30.310 --> 00:27:37.369
+Hart Montgomery: you know people were hesitant to follow the open Ssf best practices and
+
+149
+00:27:39.230 --> 00:27:40.240
+um
+
+150
+00:27:42.790 --> 00:27:56.470
+Arnaud J Le Hors ("Arno"): so but so I agree I mean it's not about creating our own policies per se or our own guidance. It's really, you know, deciding which ones we want to adopt,
+
+151
+00:27:56.480 --> 00:28:04.699
+Arnaud J Le Hors ("Arno"): and and and and what tools we want to leverage, and so that we can recommend that to the projects in I've made.
+
+152
+00:28:08.330 --> 00:28:17.830
+Tracy Kuhrt: Okay, that makes sense. Um. So then, I guess we keep the the security task force open uh for now. Uh, as we
+
+153
+00:28:17.930 --> 00:28:27.439
+Tracy Kuhrt: determine what those open Ss best practices are that we want to adopt, and what the tools are that we want to to recommend uh to our different projects.
+
+154
+00:28:51.590 --> 00:29:07.220
+Tracy Kuhrt: I'll take that as a no um. So if we go back to the agenda uh we do have some sections at the bottom of the agenda about uh new project proposals, and then um kind of our backlog of issues.
+
+155
+00:29:07.230 --> 00:29:27.100
+Tracy Kuhrt: So, Shawn, if you wouldn't mind going back to the agenda. Uh. So we've got the hlf operator hip that's been proposed. Uh, I I will let you know that there are conversations that are on going between uh the submitter of this proposal and the bevel community. Um!
+
+156
+00:29:27.230 --> 00:29:38.830
+Tracy Kuhrt: The results of those are yet to be determined. Um, But I I want to leave this open until some sort of um
+
+157
+00:29:39.670 --> 00:29:46.089
+Tracy Kuhrt: decision is made as to whether or not it makes sense to bring this into the devil operators, or
+
+158
+00:29:46.100 --> 00:30:00.409
+Tracy Kuhrt: uh what direction this is going to take um. So, for for now this is going to to remain open hopefully. We can uh continue to report back on those discussions and how they're proceeding uh
+
+159
+00:30:00.590 --> 00:30:03.330
+Tracy Kuhrt: for additional um
+
+160
+00:30:04.480 --> 00:30:15.050
+Tracy Kuhrt: for additional meetings that we might have uh and then for the backlog items, we do have this one open issue, which is, uh what spawn the security task force?
+
+161
+00:30:15.070 --> 00:30:19.520
+Tracy Kuhrt: Um, which is to update the security process for hyper ledger,
+
+162
+00:30:19.550 --> 00:30:20.820
+Tracy Kuhrt: I
+
+163
+00:30:21.120 --> 00:30:22.410
+Tracy Kuhrt: i'm.
+
+164
+00:30:23.060 --> 00:30:35.800
+Tracy Kuhrt: I'm not sure what to do here, since we kind of have two threads, one which is this issue, and one which is the task force. Do we leave the issue open until the task force is completed. Uh, or do we close this with the
+
+165
+00:30:35.810 --> 00:30:48.810
+Tracy Kuhrt: we created the task force to handle it? I i'm, i'm. Looking for some sort of direction or thoughts on kind of this backlog item, happy to keep it open, but also I don't want to leave it there if it's just uh creating noise
+
+166
+00:30:49.550 --> 00:30:51.719
+Tracy Kuhrt: any thoughts that anybody has here
+
+167
+00:30:54.540 --> 00:30:55.400
+Tracy Kuhrt: or
+
+168
+00:30:55.790 --> 00:31:06.519
+Hart Montgomery: hey? Tracy. Yeah. I mean, I think part of the task force mandate is to to suggest updates to this? Um. So I think it's fine if we roll it into the task force.
+
+169
+00:31:08.110 --> 00:31:08.980
+Tracy Kuhrt: Okay,
+
+170
+00:31:12.410 --> 00:31:13.960
+Tracy Kuhrt: any
+
+171
+00:31:14.250 --> 00:31:16.240
+Tracy Kuhrt: objections to that
+
+172
+00:31:24.770 --> 00:31:34.309
+Arun S M: right? Not enough objection itself. But um, I I don't know how to put it better. But uh the project team who proposed here
+
+173
+00:31:34.330 --> 00:31:40.700
+Arun S M: they did reach out on a chart, and they were asking for comments as well. They were asking me to review, and then
+
+174
+00:31:40.920 --> 00:31:44.699
+Arun S M: um make some comments and get involved. Um,
+
+175
+00:31:45.060 --> 00:31:45.920
+Arun S M: so
+
+176
+00:31:45.970 --> 00:31:47.680
+Arun S M: I know, like there are
+
+177
+00:31:47.860 --> 00:31:52.279
+Arun S M: personally like. When I looked into some of the available labs. There was,
+
+178
+00:31:52.370 --> 00:32:01.360
+Arun S M: I guess there is one more operator project, or maybe two more operator, and within ip ledger, already incubated projects. We do have one
+
+179
+00:32:01.710 --> 00:32:05.120
+Arun S M: um project that does make use of operator concept,
+
+180
+00:32:05.810 --> 00:32:08.279
+and then there is payable. So um
+
+181
+00:32:10.460 --> 00:32:14.439
+Arun S M: um I mean we are already in our face where
+
+182
+00:32:15.610 --> 00:32:21.429
+Arun S M: there are. Um. So would my my question, like what I am trying to get towards is,
+
+183
+00:32:21.890 --> 00:32:27.849
+Arun S M: would fabric team be willing to um participate in these discussions, because
+
+184
+00:32:27.930 --> 00:32:35.810
+Arun S M: most of these are kind of time to fabric as well. At least that's where the confusions and the questions are arising
+
+185
+00:32:46.680 --> 00:32:49.770
+Arun S M: public team involved, and
+
+186
+00:32:50.130 --> 00:32:52.290
+Arun S M: I mean, help us understand
+
+187
+00:32:52.460 --> 00:33:01.930
+Arun S M: what the direction that team is taking from the fabric side versus which of these tool is more ready for that adoption and future changes.
+
+188
+00:33:02.070 --> 00:33:03.550
+Arun S M: And um,
+
+189
+00:33:03.740 --> 00:33:15.409
+Arun S M: I know unifying may not be straightforward because of the complexity that I already mentioned. I will support multiple other platforms, and most of the others are like operators on the for fabric,
+
+190
+00:33:15.710 --> 00:33:18.759
+Arun S M: but at least the guidance from fabric team would be helpful.
+
+191
+00:33:20.980 --> 00:33:27.640
+David Enyeart: Hi, this is Dave. Yeah, I can help we, and or get somebody from the the fabric team to help with this.
+
+192
+00:33:29.990 --> 00:33:38.720
+Tracy Kuhrt: Alright. Thanks, Jane. Um. So make sure to to include you in some of the conversations that are ongoing um that we have
+
+193
+00:33:41.030 --> 00:33:45.550
+Tracy Kuhrt: uh, and when you jump this back in the um
+
+194
+00:33:45.600 --> 00:33:59.979
+Tracy Kuhrt: conversation I was uh we were actually talking about closing out the the security um press, updating and security process and the backlog items. Um, So I was asking if anybody had any objections to closing that one
+
+195
+00:34:00.040 --> 00:34:12.630
+Tracy Kuhrt: um so happy to take us back there. But our own uh point taken on the operator and I will make sure that we're including other folks in those conversations.
+
+196
+00:34:14.000 --> 00:34:21.880
+Arun S M: And this is a topic that I'm personally interested in as well. I'm: invested in as well. So now I want to get involved.
+
+197
+00:34:24.380 --> 00:34:25.219
+Tracy Kuhrt: Okay,
+
+198
+00:34:29.130 --> 00:34:41.000
+Tracy Kuhrt: so related to the going back to the backlog item. Then. Um, Any Any objections to us closing this out as being included in the task force the Security task force.
+
+199
+00:34:44.510 --> 00:34:54.120
+Arnaud J Le Hors ("Arno"): Well, so it It's really a matter of you know, kind of accounting how you want to do Deal with it. I mean as long as you have the task force. I guess
+
+200
+00:34:54.130 --> 00:35:13.609
+Arnaud J Le Hors ("Arno"): it's okay to close it, so we will not get to the side of it. But to me. It's. This is kind of like the issue, and the task force is the way we are going to come up with. The answer that will allow us to close this. That's the way I thought about that. But I have no problem closing it.
+
+201
+00:35:14.350 --> 00:35:26.009
+Tracy Kuhrt: Yeah, I don't know. I I see where you're at, right like we shouldn't actually close the issue until it's been uh resolved. Yeah, makes sense.
+
+202
+00:35:33.550 --> 00:35:42.419
+Tracy Kuhrt: Alright. So the the scale is now balanced in my mind. I don't have a preference for you the way we've heard. What for closing one for leaving it open.
+
+203
+00:35:42.430 --> 00:35:55.459
+Tracy Kuhrt: Um, any other people have any thoughts on this? Um, otherwise. I think I will lean towards leaving it open, because, uh, that the the scale is slightly towards that one.
+
+204
+00:35:57.650 --> 00:36:04.330
+David Enyeart: I would also tip the scale to leaving it open. I think it's good to have a reminder that this is what we need to come back to from the task Force
+
+205
+00:36:13.280 --> 00:36:29.060
+Tracy Kuhrt: alright, Somebody put their thumbs up. I don't know who that was. So, Peter, you did. Okay, Um. So we'll leave it open then, for now uh so that's the we went through the entire agenda. Any other topics that we should be discussing. Uh as we
+
+206
+00:36:29.580 --> 00:36:32.310
+Tracy Kuhrt: uh finish today's meeting a room.
+
+207
+00:36:33.760 --> 00:36:41.759
+Arun S M: Yes, um. So this topic came fresh in, because I I got to attend one of the event in blockchain related event and and
+
+208
+00:36:41.790 --> 00:36:44.089
+Arun S M: Bangalore today. And um!
+
+209
+00:36:44.690 --> 00:36:50.329
+Arun S M: I would like to see something like that within hyper ledger ecosystem as well. And
+
+210
+00:36:50.350 --> 00:36:53.580
+Arun S M: what fascinates me over there is in terms of
+
+211
+00:36:53.860 --> 00:37:05.599
+Arun S M: uh, the the developer relationships in in making onboarding uh uh develop for ecosystem, making the experience much smaller. I know this has been brought up in the past.
+
+212
+00:37:10.380 --> 00:37:25.030
+Arun S M: If there are opportunities for us to um open up and in on multiple ways. I think we should start looking for partnerships or engagements in that aspect. And um, this could be from multiple angles, for instance.
+
+213
+00:37:31.470 --> 00:37:39.510
+Arun S M: Um, they a certain age group which would much closer, which would be much closer to uh universities. Right? So they would be looking for
+
+214
+00:37:39.970 --> 00:37:49.779
+Arun S M: um. A quick contributions are a kind of project involvement that they would personally want to be involved in. And i'm not again talking about the mentorship program, but rather
+
+215
+00:37:49.860 --> 00:37:56.009
+Arun S M: those who are highly motivated, and the enthusiast would go and explore on their own, and willing to contribute,
+
+216
+00:37:56.140 --> 00:37:58.100
+Arun S M: but at their own face.
+
+217
+00:37:58.280 --> 00:38:05.689
+Arun S M: Um. So this particular community group is especially uh large, and
+
+218
+00:38:05.760 --> 00:38:20.849
+Arun S M: once they let's say, get gained that experience, they will carry that forward to for those um uh people from their reach. And this has been a success story for for at least other groups. And
+
+219
+00:38:21.760 --> 00:38:28.609
+Arun S M: I I mean, if there are open opportunities for us to propose some things, and like engage in any way
+
+220
+00:38:28.690 --> 00:38:30.600
+Arun S M: happy to do that. Um,
+
+221
+00:38:31.040 --> 00:38:32.040
+Arun S M: that's all.
+
+222
+00:38:38.710 --> 00:38:44.229
+Tracy Kuhrt: Um! So i'm not quite sure that i'm understanding what you're suggesting. Um,
+
+223
+00:38:44.610 --> 00:38:53.489
+Arun S M: so i'll, I'll probably put it in a much other that way. Right? So um engaging university students, especially when they are
+
+224
+00:38:53.550 --> 00:39:08.559
+Arun S M: towards their towards end of their courses, or people who are looking out for a real word experience for people who are looking out for open source contributions, and they are highly motivated. They are the um, like the developers uh group who are,
+
+225
+00:39:08.720 --> 00:39:19.459
+Arun S M: or willing to learn on their own. Now the investment from our side would be in terms of making sure we have right materials available for them, right um trainings available,
+
+226
+00:39:19.520 --> 00:39:30.459
+Arun S M: and this may also require, for instance, Hyper Ledger foundation to be engaged with certain universities and and prepare course materials if needed, probably engage in and creating workshops.
+
+227
+00:39:31.050 --> 00:39:32.089
+Arun S M: Um,
+
+228
+00:39:32.820 --> 00:39:37.129
+Arun S M: right? So um! This is what I was trying to
+
+229
+00:39:37.210 --> 00:39:38.439
+Arun S M: out towards
+
+230
+00:39:38.500 --> 00:39:41.319
+Arun S M: engaging universities, to
+
+231
+00:39:41.570 --> 00:39:43.140
+Arun S M: really beneficial
+
+232
+00:39:43.510 --> 00:39:47.329
+Arun S M: for a community growth perspective, and also in terms of adoption.
+
+233
+00:39:50.300 --> 00:39:59.089
+Tracy Kuhrt: Okay, i'm gonna let a heart comment. I I think there's already some things that are ongoing. But i'll i'll see if heart mentions those or not.
+
+234
+00:39:59.170 --> 00:40:02.080
+Hart Montgomery: Oh, absolutely
+
+235
+00:40:02.120 --> 00:40:20.079
+Hart Montgomery: so. Yeah. So ruin. We definitely have university uh student engagement as a goal. Um, you know, there's only so much we can do. Obviously, like putting together a a full university course is difficult, particularly, you know, like a real
+
+236
+00:40:20.620 --> 00:40:30.829
+Hart Montgomery: uh thing we have been. We have been working on this, though, and if you have suggestions we'd love to hear from you.
+
+237
+00:40:31.130 --> 00:40:36.350
+Hart Montgomery: So you know, just just reach out. If you think
+
+238
+00:40:36.370 --> 00:40:38.440
+Hart Montgomery: that there's something we can do,
+
+239
+00:40:38.460 --> 00:40:42.409
+Hart Montgomery: you know, in the same vague we are going to try to,
+
+240
+00:40:43.300 --> 00:40:50.890
+Hart Montgomery: I I guess revamp isn't the right word. But we're going to try to, You know, Update the mentorship program as well
+
+241
+00:40:50.920 --> 00:40:54.479
+Hart Montgomery: to help
+
+242
+00:40:54.940 --> 00:41:00.090
+Hart Montgomery: handle more university students and more university interns as Well, the
+
+243
+00:41:00.190 --> 00:41:01.339
+um.
+
+244
+00:41:01.570 --> 00:41:10.299
+Hart Montgomery: So yeah, we'd love to hear from you on. If you don't mind writing this up in some kind of
+
+245
+00:41:11.190 --> 00:41:15.799
+Hart Montgomery: email or something, and then just mailing to us. That would be fantastic,
+
+246
+00:41:16.010 --> 00:41:20.400
+Hart Montgomery: because we're always looking for feedback and opportunities on this kind of thing.
+
+247
+00:41:26.010 --> 00:41:41.219
+Tracy Kuhrt: One thing that I uh know was happening is some work with more in State University Um, for some of the kind of conversations about what it is that we're doing in Hyper Ledger, and That was the one example that I was going to bring up.
+
+248
+00:41:41.260 --> 00:41:53.899
+Hart Montgomery: Um! I don't know if you had a comment on that sorry Tracy. Our Contact person at Morgan State left. So that's currently on hold. But that is definitely something we are trying to continue.
+
+249
+00:41:54.900 --> 00:41:55.750
+Okay,
+
+250
+00:41:56.060 --> 00:41:58.419
+Tracy Kuhrt: Thanks for, uh.
+
+251
+00:41:59.720 --> 00:42:06.210
+Kamlesh Nagware: So I think they've seen her like what I really is mentioning and saying, I think I can relate it because
+
+252
+00:42:06.600 --> 00:42:10.280
+Kamlesh Nagware: I can also keep in the universities in India.
+
+253
+00:42:10.400 --> 00:42:13.289
+Kamlesh Nagware: Is it because it is a even partner. But
+
+254
+00:42:13.690 --> 00:42:21.229
+Kamlesh Nagware: uh, everybody, everybody understand. The public blockchain is uh ecosystem, like Polygon and other is to. But when,
+
+255
+00:42:26.020 --> 00:42:28.180
+Kamlesh Nagware: even like it's still uh
+
+256
+00:42:28.230 --> 00:42:40.169
+Kamlesh Nagware: the education and awareness is missing. So maybe for that one like what I own is also saying like how we can create and uh talk about the hybrid ecosystem in uh.
+
+257
+00:42:40.580 --> 00:42:50.989
+Kamlesh Nagware: So i'm going to develop the ecosystem going to be events. So because, like all this public blockchain communities out there and talking about and building some type of ecosystem, but in hyper it restrict you
+
+258
+00:42:51.440 --> 00:42:58.909
+Kamlesh Nagware: uh It's a hyperlinking system goes to the different event, but in the different aspect, and i'm talking about the ipad as well.
+
+259
+00:42:59.010 --> 00:43:13.359
+Kamlesh Nagware: Hybrid ecosystem, and uh, how you build a business perspective, but involving the developer ecosystem part, I think, could be focused in not just universities, but in general, you know, to the developer ecosystem
+
+260
+00:43:16.570 --> 00:43:19.279
+Tracy Kuhrt: alright, it's Cambridge, Bobby.
+
+261
+00:43:19.980 --> 00:43:27.939
+Bobbi Muscara: Hi, everybody. Um, yeah. I just wanted to supply that in the learning materials. Working group in the New Year is working with David to um
+
+262
+00:43:27.960 --> 00:43:30.450
+Bobbi Muscara: change up in onboarding
+
+263
+00:43:30.590 --> 00:43:49.709
+Bobbi Muscara: site or onboarding mechanism, so that when people do inquire. There are the there is the information that they're requesting really easy for them to find, and then possibly um. We were talking in the group about running classes based on um just what Hyper ledger does um
+
+264
+00:43:49.720 --> 00:43:54.999
+Bobbi Muscara: during our meetings like monthly, so that people who are interested will get the information.
+
+265
+00:43:58.220 --> 00:43:59.750
+Tracy Kuhrt: That sounds great, Bobby.
+
+266
+00:44:02.360 --> 00:44:04.640
+Tracy Kuhrt: Any other comments on this topic
+
+267
+00:44:13.450 --> 00:44:19.160
+Tracy Kuhrt: alright, uh any other topics, then, that we should talk about before we close out today's meeting.
+
+268
+00:44:20.910 --> 00:44:21.790
+Tracy Kuhrt: What
+
+269
+00:44:22.320 --> 00:44:25.390
+Hart Montgomery: awesome, I will briefly say that the
+
+270
+00:44:25.430 --> 00:44:36.080
+Hart Montgomery: you know, just in in this same vein of soliciting feedback we are looking to put together our events strategy for next year.
+
+271
+00:44:36.170 --> 00:44:50.849
+Hart Montgomery: Uh so if you all fake that, you know there's an event that might not be on our radar that we should attend or have a presence at, or try to speak at, or do something. Uh please, please reach out and let us know.
+
+272
+00:44:54.880 --> 00:44:58.160
+Tracy Kuhrt: Alright, Thank you.
+
+273
+00:45:01.270 --> 00:45:03.439
+Tracy Kuhrt: Any other topics,
+
+274
+00:45:11.250 --> 00:45:20.359
+Tracy Kuhrt: all right. Sounds like there's none. Uh. So with that we will close out today's meeting. Thank you all for your participation, and we will see you again soon.
+
+275
+00:45:22.020 --> 00:45:24.370
+Jim Zhang: Thanks are protein. See you guys.
+

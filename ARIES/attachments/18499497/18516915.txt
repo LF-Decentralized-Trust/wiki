@@ -1,0 +1,10 @@
+08:04:26	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-10-26+Aries+Working+Group+Call
+08:18:53	 From  Colton Wolkins : The painful part is when the unit tests stop working and you have to figure out the spirit of the commits you're cherry picking, as well as the differences in the diverged branches
+08:31:15	 From  Colton Wolkins : Would it be a good idea if the problem-report indicated whether or not it was a warning or an error, as well as a type of problem (ERR-CRED-SCHEME-INVALID type of codes rather along with the strings)?
+08:39:40	 From  Colton Wolkins : Add me to that list as well, Sam?
+08:44:25	 From  Colton Wolkins : As my dad says, there are 3 hard problems in programming. Naming things and off by one errors.
+08:44:56	 From  Sam Curren (TelegramSam) : As my dad says, there are _2_ hard problems in programming. Naming things and off by one errors.
+08:45:52	 From  Colton Wolkins : Ah, thanks for correcting my off by one error 😅
+08:54:56	 From  Colton Wolkins : #hacktoberfest #helpwanted issue?
+08:55:16	 From  Colton Wolkins : Fair enough
+08:58:32	 From  James Ebert : AFJ does support the status type of FAIL in acks, but it doesn’t appear to be being used anywhere, so it should be pretty simple to remove. I’ve created an issue for that: https://github.com/hyperledger/aries-framework-javascript/issues/1074

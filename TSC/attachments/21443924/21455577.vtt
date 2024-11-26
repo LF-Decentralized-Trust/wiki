@@ -1,0 +1,1586 @@
+WEBVTT
+
+1
+00:00:08.940 --> 00:00:28.560
+Tracy Kuhrt: All right, welcome to the February 20 a sequel as you are probably all aware and there are two things that you must abide by on this call the first one is the antitrust policy notice that is displayed currently on the screen and the second one is our code of conduct.
+
+2
+00:00:28.560 --> 00:00:29.610
+Tracy Kuhrt: Which is linked.
+
+3
+00:00:29.670 --> 00:00:33.090
+Tracy Kuhrt: In the agenda basically says don't be a jerk.
+
+4
+00:00:35.190 --> 00:00:43.920
+Tracy Kuhrt: I do see that we have some guests on the call today so welcome to every one who has joined you're all welcome to participate in this call.
+
+5
+00:00:45.270 --> 00:00:48.690
+Tracy Kuhrt: So we will jump straight to our announcements.
+
+6
+00:00:49.800 --> 00:01:09.660
+Tracy Kuhrt: So the first announcement is one that we see every week here the Dev weekly developer newsletter goes out Friday, and if you are interested in including anything in that newsletter that goes out to hundreds of developers, please leave a comment on the wiki page that is linked the agenda.
+
+7
+00:01:11.010 --> 00:01:17.160
+Tracy Kuhrt: The second thing we've seen for the last couple weeks it's a call for mentors and projects for the.
+
+8
+00:01:19.380 --> 00:01:37.860
+Tracy Kuhrt: mentorship program So if you have a particular project proposal that you would like to have considered please add that, before March night and the next one that we have a Jim Thank you so much for creating the issue that we had talked about in our last meeting.
+
+9
+00:01:39.300 --> 00:01:52.470
+Tracy Kuhrt: for capturing kind of the discussion that we've been having on the project, health and the project reports so if you haven't had a chance to review that issue, yet Please go ahead and do that add any additional thoughts or comments that you might have.
+
+10
+00:01:53.550 --> 00:02:12.390
+Tracy Kuhrt: Jim would like to try and do this, mostly offline so that we don't have to get together and meetings, but obviously if that's not going to work, we will have to get a task force together to to sync up on how we move forward with the project reports and reporting on project health.
+
+11
+00:02:14.370 --> 00:02:16.710
+Tracy Kuhrt: The next announcement here is.
+
+12
+00:02:19.440 --> 00:02:30.780
+Tracy Kuhrt: David sent us out an email on the TC list letting us know that the project and web services document that we had reviewed in past meetings is now currently live and.
+
+13
+00:02:31.650 --> 00:02:39.360
+Tracy Kuhrt: If you are interested in using any of the services, please reach out to David or the contact mail that's listed on the page.
+
+14
+00:02:40.800 --> 00:02:43.980
+Tracy Kuhrt: And then the last announcement that I added just this morning.
+
+15
+00:02:45.270 --> 00:02:46.920
+Tracy Kuhrt: i'm going to let Daniel I talk to you.
+
+16
+00:02:48.210 --> 00:02:59.910
+Daniela Barbosa: Thank you Tracy, I am very pleased to announce that hartman Curry who many of you have worked with for the last six seven years, seven years.
+
+17
+00:03:00.600 --> 00:03:05.460
+Daniela Barbosa: has agreed to become our hyper ledger foundation chief technology officer.
+
+18
+00:03:06.000 --> 00:03:19.950
+Daniela Barbosa: For those of you worked with heart before you know how instrumental and i'll helpful he's been in our Community, and especially on the technical steering committee so i'm very pleased to have the opportunity to announce him yesterday.
+
+19
+00:03:20.550 --> 00:03:31.680
+Daniela Barbosa: He already spoke at an event last yesterday a Dev week, so we wanted to take advantage of that and tell the greater Open Source developer community that the hyper ledger Foundation has new.
+
+20
+00:03:32.070 --> 00:03:43.440
+Daniela Barbosa: leadership from a technical perspective so heart i'll let you go ahead and say a few words and kind of maybe share with the rest of the tasc I know you've spoken to many of them a little bit about.
+
+21
+00:03:44.220 --> 00:03:53.430
+Daniela Barbosa: What you would like to do and, more importantly, what the next steps are and, as of today, you're still Fujitsu employee and participating as a Fujitsu.
+
+22
+00:03:54.480 --> 00:04:07.380
+Daniela Barbosa: Employee and contributor so over to you heart and, once again, a big welcome to heart, I am delighted beyond belief that hard has joined our Linux foundation staff and look forward to great things from him.
+
+23
+00:04:08.100 --> 00:04:24.750
+Hart Montgomery: awesome well, thank you to Danielle first for the very kind words i've enjoyed you know, working with you and and really I think a lot of people on this call over the years and i'm excited to have the opportunity to do that more in the future and to help move hyper ledger forward.
+
+24
+00:04:25.770 --> 00:04:46.680
+Hart Montgomery: So, as such, I will be officially resigning from the tasc after this week, because I cannot be on staff and on the tasc at the same time, I will also be turning over my leadership positions in various projects, and we have.
+
+25
+00:04:48.720 --> 00:04:52.740
+Hart Montgomery: We have already planted those so i'm optimistic that those will go smoothly.
+
+26
+00:04:54.510 --> 00:05:02.490
+Hart Montgomery: And yes, so be officially starting next week and i'm looking forward to contributing in a new role and Thank you everyone.
+
+27
+00:05:06.180 --> 00:05:14.220
+Tracy Kuhrt: All right, thanks, Daniel I think heart congratulations heart on becoming the first cto for hyper ledger foundation.
+
+28
+00:05:15.450 --> 00:05:20.520
+Tracy Kuhrt: We look forward to working with you and seeing how we can improve as we move forward.
+
+29
+00:05:22.470 --> 00:05:31.590
+Tracy Kuhrt: All right, any other announcements that anybody has before we move on in the agenda, yes, there you go.
+
+30
+00:05:31.920 --> 00:05:42.240
+Daniela Barbosa: I just want to reiterate the call for mentorship program and really ask everybody on the tlc and others that are here today to please reach out to.
+
+31
+00:05:42.990 --> 00:05:51.060
+Daniela Barbosa: Others in your project communities and ask them to take a look at the mentorship program it is really a great opportunity to get.
+
+32
+00:05:51.510 --> 00:05:58.350
+Daniela Barbosa: A new contributors and developers into our Community, but be things that you want to get done within your projects or your labs.
+
+33
+00:05:58.890 --> 00:06:12.660
+Daniela Barbosa: So please, if you haven't yet take the time, please reach out to any of us on staff, if you want to talk about what what does it mean what does it mean to be a mentor because it's really important for us to get some great contributors, as part of that process.
+
+34
+00:06:15.780 --> 00:06:15.960
+Daniela Barbosa: Thank.
+
+35
+00:06:16.740 --> 00:06:17.850
+Tracy Kuhrt: You Thank you.
+
+36
+00:06:18.390 --> 00:06:18.810
+baby.
+
+37
+00:06:20.610 --> 00:06:33.450
+Bobbi Muscara: hi um I just have a question, there seems to be when I was talking about the mentorship program and the call for Community projects, a little overlap on both of those is there a differentiation between the two.
+
+38
+00:06:38.340 --> 00:06:40.470
+Daniela Barbosa: Bobby are you talking about the hyper ledger challenge.
+
+39
+00:06:40.980 --> 00:06:52.800
+Bobbi Muscara: yeah the challenge, I mean it's kind of along the same lines is you know, during your time to mentor people, so I was like wondering if there was something different about them, that you know you can talk.
+
+40
+00:06:53.370 --> 00:06:59.820
+Daniela Barbosa: To their difference there is something you know what's unfortunate is the timing, because I think the timing of it, of one thing.
+
+41
+00:07:00.210 --> 00:07:08.640
+Daniela Barbosa: right before the other is been the most complete confusing and i'll let David boswell speak to that, but the hyper ledger challenge is a Community lead.
+
+42
+00:07:10.560 --> 00:07:18.300
+Daniela Barbosa: event, it is not hyper ledger foundation sponsored event, it is the Community has gotten together, and this was.
+
+43
+00:07:19.080 --> 00:07:35.130
+Daniela Barbosa: Through the leadership of the hyper ledger India regional chapter and the hyper ledger social impact sig and I know some of the other leaders in our Community, have been working for that challenge, so that challenge is a complete it Community developed.
+
+44
+00:07:38.430 --> 00:07:56.190
+Daniela Barbosa: event and initiative and we think it's fantastic it's really driven a lot of interest, so thank you to those on the phone here that have done that the hyper ledger mentorship program is something that happens every year it is funded, so these in mentees do get a.
+
+45
+00:07:59.160 --> 00:08:08.940
+Daniela Barbosa: stipend I guess a you know, an internship fee of up to $6,000 and Bobby I know that you participated last year, and you had some of the mentees and your mentor.
+
+46
+00:08:09.450 --> 00:08:19.290
+Daniela Barbosa: And so that it's a really different project it's yeah and David, I know that you've been addressing this with the Community the same question so i'll let you add anything that you need to add.
+
+47
+00:08:20.430 --> 00:08:27.510
+David Boswell: Let me just to build on what you said, I mean they are similar them, there are some differences as well, I mean, I think, broadly speaking.
+
+48
+00:08:27.900 --> 00:08:35.730
+David Boswell: i'm really excited to see that there's more opportunities to mentor people I mean, I think the annual mentorship program that hyper ledger runs is great.
+
+49
+00:08:36.300 --> 00:08:46.080
+David Boswell: But I think a best practice and open source is to do mentorship you know that's how you share knowledge that's how you bring new people in, you have the people who are in the Community.
+
+50
+00:08:46.590 --> 00:08:56.730
+David Boswell: who have the expertise and then they hand it off to people so i'm really excited to see additional mentoring opportunities happen as Daniela said that the timing might have been a little bit different.
+
+51
+00:08:57.780 --> 00:09:07.590
+David Boswell: But i'm really excited to see additional mentoring opportunities, and you know I would personally like to see even more mentoring opportunities throughout the year so for everybody who stepped up and done mentoring.
+
+52
+00:09:08.220 --> 00:09:15.030
+David Boswell: You know, thank you and, and you know, I think, maybe there's a way that we can make these you know more complimentary with each other, but.
+
+53
+00:09:16.290 --> 00:09:22.560
+David Boswell: You know i'm glad that the people in the Community who are organizing the challenge are stepping up and doing that, and thank you for providing.
+
+54
+00:09:22.980 --> 00:09:25.950
+David Boswell: Another opportunity to help bring people into the Community.
+
+55
+00:09:26.430 --> 00:09:39.510
+David Boswell: And for anybody who is interested in mentoring, you know I would really encouraging current you to look at both opportunities and then maybe we as a tlc can talk about what additional mentoring opportunities we could you know pursue you know later in the year as well.
+
+56
+00:09:40.470 --> 00:09:49.320
+Bobbi Muscara: Now that's great, thank you for the clarification so um maybe the Community challenge projects could wind up in the mentorship Program.
+
+57
+00:09:50.490 --> 00:09:55.470
+David Boswell: yeah absolutely I think there's probably a way that we can make these complimentary and have one feed into the other of us.
+
+58
+00:09:55.770 --> 00:10:02.730
+David Boswell: You know, say hey i'm interested in being a mentor for the challenge, maybe we should email you and let you know about the other mentorship opportunities and vice versa.
+
+59
+00:10:04.110 --> 00:10:04.710
+Bobbi Muscara: Right, thank you.
+
+60
+00:10:05.040 --> 00:10:07.560
+Daniela Barbosa: yeah Bobby that's a great idea just you know.
+
+61
+00:10:09.510 --> 00:10:13.590
+Daniela Barbosa: volunteers who want to be mentors to be able to understand that one could feed into the other.
+
+62
+00:10:17.310 --> 00:10:17.700
+Tracy Kuhrt: All right.
+
+63
+00:10:19.050 --> 00:10:22.500
+Tracy Kuhrt: Are there any other announcements anybody has that they'd like to make.
+
+64
+00:10:27.120 --> 00:10:30.210
+Tracy Kuhrt: Alright, so see no hands see nobody coming off mute.
+
+65
+00:10:31.200 --> 00:10:42.630
+Tracy Kuhrt: So we did get three quarterly reports in this week the areas in the report that came in, as well as the aroma report.
+
+66
+00:10:43.770 --> 00:11:00.120
+Tracy Kuhrt: I did not see any specific questions that were not addressed in the comments on those particular reports but want to give the opportunity here for anybody who has any questions or comments on those reports to offer those now.
+
+67
+00:11:06.210 --> 00:11:12.120
+Ry Jones: And I see that we have quite a few representatives from a robot on the call so.
+
+68
+00:11:13.410 --> 00:11:16.680
+Ry Jones: Sarah or if you had anything you wanted to say.
+
+69
+00:11:18.330 --> 00:11:24.780
+Sara (Iroha): hi no not exactly we just came to just in case, if there are any questions about any clarifications needed also.
+
+70
+00:11:25.950 --> 00:11:37.710
+Sara (Iroha): I think, on the call is there a new project manager for hyper ledger opportunity I probably he met him on a previous call but, just in case I think it's important to.
+
+71
+00:11:38.580 --> 00:11:52.350
+Sara (Iroha): I don't know, maybe it's important to say hi so yeah that's one of the biggest changes, I think, but yeah if there are no questions from your side, or something we were here, just in case there are any questions to present the report and.
+
+72
+00:11:57.780 --> 00:11:59.370
+Tracy Kuhrt: We really appreciate you.
+
+73
+00:11:59.880 --> 00:12:03.720
+Tracy Kuhrt: Joining these calls after you submit the reports in case there are any questions so.
+
+74
+00:12:05.670 --> 00:12:14.400
+Tracy Kuhrt: Today doesn't look like we do have any questions for you feel free to stay on the call, though in in contribute to these other discussions as as you see fit.
+
+75
+00:12:16.740 --> 00:12:21.060
+Tracy Kuhrt: All right, with that and Dimitri welcome to the robot.
+
+76
+00:12:21.120 --> 00:12:21.450
+To.
+
+77
+00:12:23.040 --> 00:12:25.590
+Tracy Kuhrt: Her happy to have you as a contributor as well.
+
+78
+00:12:26.280 --> 00:12:26.850
+Thank you guys.
+
+79
+00:12:29.310 --> 00:12:39.150
+Tracy Kuhrt: Okay, so let's move into our discussion topics The first one is a topic that a rune brought to us, I think I will let me introduce this topic and.
+
+80
+00:12:40.230 --> 00:12:41.490
+Tracy Kuhrt: You know, start the discussion.
+
+81
+00:12:45.150 --> 00:12:46.800
+Aruna S M: Thanks Tracy so everyone.
+
+82
+00:12:47.610 --> 00:12:49.890
+Aruna S M: A quick introduction of what this issue is i'm.
+
+83
+00:12:50.100 --> 00:12:53.040
+Aruna S M: not exactly sure rather a discussion point.
+
+84
+00:12:54.060 --> 00:13:02.070
+Aruna S M: So when we were having a discussion with Alfonso for one of the Community event and elephants are suggested that.
+
+85
+00:13:03.180 --> 00:13:12.450
+Aruna S M: A few folks from cnc F reached out to him and asking how can they get involved with hyper ledger and they have the cloud expertise, they have knowledge on.
+
+86
+00:13:13.050 --> 00:13:20.580
+Aruna S M: Some other things that may be beneficial and they did not have a starting point for them at on getting involved with hyper ledger itself.
+
+87
+00:13:22.170 --> 00:13:26.850
+Aruna S M: So I wanted to understand in more depth and that's when our friends have connected with me to.
+
+88
+00:13:28.170 --> 00:13:36.600
+Aruna S M: Are all who is all on this call, as well, and he will be speaking more about the collaboration opportunities that he has a proposal for.
+
+89
+00:13:37.620 --> 00:13:40.230
+Aruna S M: So i'll hand it over to roles from.
+
+90
+00:13:41.400 --> 00:13:42.750
+Aruna S M: is based in California.
+
+91
+00:13:46.110 --> 00:13:48.510
+Raul Flamenco: Good morning, everyone can you hear me OK.
+
+92
+00:13:50.730 --> 00:13:51.300
+Aruna S M: Yes, sir.
+
+93
+00:13:52.050 --> 00:13:57.720
+Raul Flamenco: Excellent well, thank you for the introduction to kind introduction.
+
+94
+00:13:59.070 --> 00:14:10.950
+Raul Flamenco: My name is Noah flamenco i'm The co organizer of cloud Edison said Oh, this is a Community and El Salvador Central America, up to now, the Community has grown to approximate.
+
+95
+00:14:13.230 --> 00:14:36.270
+Raul Flamenco: I would say to 280 participants this came as a result of an idea to to do a first communities community, this is a an event that happens in communities in which we can share knowledge about the different projects at cnc F as.
+
+96
+00:14:37.320 --> 00:14:47.040
+Raul Flamenco: may know, the project of cnc F I started to Cooper next, but since then those projects are more up to, probably at.
+
+97
+00:14:47.580 --> 00:15:04.230
+Raul Flamenco: And so, for us it was an opportunity to open doors for more talent for Latin America, one of the things that we noticed is that i'm glad that this morning the conversation also happen around mentor ships that's one of the main themes our me constantly alone so.
+
+98
+00:15:05.250 --> 00:15:12.030
+Raul Flamenco: he's going to be presenting tonight at the other cloud making sense of all, I would like a meetup.
+
+99
+00:15:13.110 --> 00:15:13.890
+Raul Flamenco: In chair.
+
+100
+00:15:14.910 --> 00:15:22.440
+Raul Flamenco: The intent is to share more information about hyper ledger and for cnc F to share more about our community as well.
+
+101
+00:15:23.220 --> 00:15:34.560
+Raul Flamenco: But the main reason why I reached out to Alonso is because I know that he was a mentor for the hyper ledger project, and so, and he happened to be made so.
+
+102
+00:15:35.370 --> 00:15:55.470
+Raul Flamenco: Unlike another observation was that this project and very visible, so we can tell, for example, with the mentors are with the mentees are what the projects, what are the requirements that's a good thing, but overall, perhaps I haven't looked very deep, but I have.
+
+103
+00:15:56.490 --> 00:16:06.780
+Raul Flamenco: quite extensively and couldn't find any individual that have completed this budget from Latin America, and the reason why I think I thought that was important, is because, if we have one.
+
+104
+00:16:07.560 --> 00:16:23.070
+Raul Flamenco: We can invite him on her to talk to the Community and make it easier for the rest of the Members to see the possibility of securing one of those mentorship why because another thing that we notice is that those individuals to complete a mentorship.
+
+105
+00:16:24.180 --> 00:16:33.630
+Raul Flamenco: Successfully immediately can secure job, a full time job and those jobs can out available anywhere in the world, so the The idea is that, instead of these.
+
+106
+00:16:34.110 --> 00:16:41.970
+Raul Flamenco: Young people, which is probably a bigger structure that these countries have a walk anywhere from San Salvador to the United States.
+
+107
+00:16:42.390 --> 00:16:53.130
+Raul Flamenco: thankless job like I did instead of doing that they can do this job from from our sour, so we are working, we try to understand as much as possible about the other projects, so we can open doors for.
+
+108
+00:16:53.730 --> 00:17:14.520
+Raul Flamenco: For these individuals, one of the things that we are encouraging them as well, is to participate on cucumber cucumber happens once a year and North America, and once a year and you're the next one, he doesn't finance yeah he made, and so we encouraging those students to apply for.
+
+109
+00:17:15.600 --> 00:17:28.590
+Raul Flamenco: scholarships to travel to to Valencia last year in October, we have one student from El Salvador, who attended coupon in Los Angeles, and so he is one of the co organizers.
+
+110
+00:17:29.160 --> 00:17:39.930
+Raul Flamenco: For for the Community as well, so any conversations with alonzo with that possibly you know thinking about doing a Cuban 80s Community I joined me.
+
+111
+00:17:41.010 --> 00:17:47.310
+Raul Flamenco: But again, that is a process just the conversation right now that needs to be developed, perhaps you would.
+
+112
+00:17:48.450 --> 00:17:54.060
+Raul Flamenco: improve tonight during the art presentation and so we're looking forward to that Thank you.
+
+113
+00:17:59.760 --> 00:18:00.240
+Tracy Kuhrt: Daniel.
+
+114
+00:18:01.980 --> 00:18:10.860
+Daniela Barbosa: role, thank you for coming and speaking with us that's fantastic and it's so great to see Alfonso and you connect and really expand and we do.
+
+115
+00:18:11.220 --> 00:18:20.400
+Daniela Barbosa: Some other collaborations across other projects, I know the Linux foundation Open Source summit virtual in Latin America is coming and we're going to be participating and are asking.
+
+116
+00:18:21.840 --> 00:18:31.350
+Daniela Barbosa: Our Latin America community to present at that as well, or, to put in their CFP for that as well, so we'd love to work with you, David I don't know if you have.
+
+117
+00:18:31.860 --> 00:18:42.630
+Daniela Barbosa: touched base on with Alfonso this but David and I will reach out to you roll if if that's okay and and work with Alfonso in yourself to see how we can assist.
+
+118
+00:18:44.460 --> 00:18:44.910
+Raul Flamenco: Thank you.
+
+119
+00:18:48.990 --> 00:18:50.700
+Tracy Kuhrt: Great any other.
+
+120
+00:18:51.330 --> 00:18:53.310
+Tracy Kuhrt: Questions or comments.
+
+121
+00:18:53.760 --> 00:19:00.600
+Tracy Kuhrt: were all around you know ways in which we might make hyper ledger stronger across the globe.
+
+122
+00:19:02.250 --> 00:19:02.610
+Tracy Kuhrt: A room.
+
+123
+00:19:04.320 --> 00:19:15.840
+Aruna S M: So I guess we're all probably short sold himself on on this call, but when I had a call with him last week he actually proposed many other ideas as well, so one of the ideas were.
+
+124
+00:19:16.410 --> 00:19:23.640
+Aruna S M: The expertise that cnc F Community brings in and some of the projects that we have in hyper ledger around tooling.
+
+125
+00:19:24.360 --> 00:19:34.440
+Aruna S M: which could highly beneficial and benefit from those expertise that the same safe communities can bring in, but the question, however, he had was how do we.
+
+126
+00:19:35.160 --> 00:19:44.070
+Aruna S M: train them, how do we bring them up to speed, so that they can be contributors to these these projects and Raul also suggested, maybe told that.
+
+127
+00:19:44.970 --> 00:19:57.360
+Aruna S M: They are highly enthusiastic in learning and getting involved with hyper ledger especially blockchain ecosystem and trust hyper ledger to be a one such unreal our ecosystem, which they should get involved.
+
+128
+00:19:58.440 --> 00:20:11.460
+Aruna S M: And we can look for ways of building Community around projects such as bevel cielo and any other tooling projects that we have right, including caliper.
+
+129
+00:20:12.180 --> 00:20:19.560
+Aruna S M: I guess that's a great opportunity if if we can connect maintenance of those projects are probably plan around some activities around that.
+
+130
+00:20:22.710 --> 00:20:25.350
+Tracy Kuhrt: yeah I completely agree room, I think this is a.
+
+131
+00:20:25.980 --> 00:20:40.170
+Tracy Kuhrt: Call right that maybe it wasn't strong enough, but I pick a call to all of the maintainer of the different projects that if you're interested in getting more contributors, this might be a way to do that I.
+
+132
+00:20:40.650 --> 00:20:58.470
+Tracy Kuhrt: Working with the Latin American Community working with rahul and afonso to make that happen right that there's a desire for learning there's a desire for mentorship there's a desire to get people aware of the projects within hyper ledger.
+
+133
+00:21:01.530 --> 00:21:14.640
+Tracy Kuhrt: Right Daniel you still have your hand up I don't know that was just a holdover or Thank you um any other comments or questions that we would like to the actual while he's on the call with us.
+
+134
+00:21:22.680 --> 00:21:29.760
+Tracy Kuhrt: Alright, seeing, then I will again thank role for his time for coming to speak to us, I.
+
+135
+00:21:30.570 --> 00:21:43.770
+Tracy Kuhrt: I hope that this starts to get the call out to a number of different folks to really start to engage more and i'm hoping that there's a lot more conversation is going to happen after this particular call.
+
+136
+00:21:45.930 --> 00:21:46.680
+Raul Flamenco: Thank you Tracy.
+
+137
+00:21:47.580 --> 00:21:53.820
+Tracy Kuhrt: Alright, so with that then let's transition to our next discussion topic.
+
+138
+00:21:55.020 --> 00:22:04.350
+Tracy Kuhrt: So grace has been leading a task force, and specifically on what is the right direction for our chat system.
+
+139
+00:22:04.800 --> 00:22:18.510
+Tracy Kuhrt: i'm going to hand this over to grace even I didn't tell her, I was going to do that, but hopefully she knew that this was coming handed off degrees, to have a conversation around the proposal that she has put forth to the gst.
+
+140
+00:22:20.100 --> 00:22:21.540
+Grace Hartley: cool yes, I was expecting this.
+
+141
+00:22:23.340 --> 00:22:34.290
+Grace Hartley: Thanks receipt no yeah no thanks for I can share my screen if that's helpful i'll drop the link in the chat I did share this in the TC email last week so happy to.
+
+142
+00:22:36.900 --> 00:22:40.710
+Grace Hartley: You know I hope folks have had a chance to review, but maybe i'll just give like.
+
+143
+00:22:41.610 --> 00:22:48.750
+Grace Hartley: A three to five minute spiel of kind of the process that we went through and who we talked to, and the proposal at hand and then i'll.
+
+144
+00:22:49.830 --> 00:22:54.930
+Grace Hartley: Then, obviously open up to questions and all that, so let me share my screen, just in case.
+
+145
+00:22:56.070 --> 00:22:59.040
+Grace Hartley: So i'm sure you guys are many of you remember.
+
+146
+00:23:00.120 --> 00:23:12.090
+Grace Hartley: A few months ago we were originally supposed to transition hyper ledger from rocket chat to element or matrix chat channel that didn't pan out for various reasons.
+
+147
+00:23:12.810 --> 00:23:19.590
+Grace Hartley: So in that kind of decision or we decided that it might make sense to kind of do a broader evaluation of the chat channel.
+
+148
+00:23:19.980 --> 00:23:32.790
+Grace Hartley: system understand what hyper ledger is communities use the chat channel services for who uses it what uses it whether the strengths weaknesses and all that, so there was a group of tasks were set up as as Tracy mentioned.
+
+149
+00:23:33.540 --> 00:23:38.790
+Grace Hartley: With participants across several of the different projects, including many of you here, so thank you for your time.
+
+150
+00:23:40.320 --> 00:23:45.450
+Grace Hartley: And we can do that together and wanting to understand what are the challenges, what are we think you know.
+
+151
+00:23:46.110 --> 00:23:52.410
+Grace Hartley: What what does hyper ledger need kind of for this next phase for communication, so you can see here in the.
+
+152
+00:23:53.010 --> 00:23:57.660
+Grace Hartley: The task force page if you all were interested, you can see kind of our notes on the left side.
+
+153
+00:23:58.050 --> 00:24:04.530
+Grace Hartley: From our meetings, you can see our interview questions and the different responses from all the different groups, we talked to if you're curious.
+
+154
+00:24:05.280 --> 00:24:16.320
+Grace Hartley: So after that process we've run over the last couple months and gathering feedback we are recommending that hybrid your transition to discord and we put together this proposal in front of you.
+
+155
+00:24:17.730 --> 00:24:24.960
+Grace Hartley: So I think you know one thing that we realized, you know we wanted to ask the question, is it really worth moving at all.
+
+156
+00:24:25.620 --> 00:24:31.650
+Grace Hartley: And you know is rocket chat working just fine for everybody and we're trying to solve their problem that isn't there.
+
+157
+00:24:32.130 --> 00:24:46.950
+Grace Hartley: And I think you know the group would agree that we definitely saw several like significant challenges that the Community Members have had with rocket chat generally, particularly with onboarding user experience so using a you know lf ID to join.
+
+158
+00:24:48.330 --> 00:24:52.350
+Grace Hartley: Having many challenges else be outdated or used.
+
+159
+00:24:53.700 --> 00:25:02.190
+Grace Hartley: It is costly platform all those challenges were kind of identified and we decided that it made sense to to pretend to recommend discord.
+
+160
+00:25:03.600 --> 00:25:13.410
+Grace Hartley: Like discord You might ask, so one we got feedback from the group that in the Community members it's easy to use, so the onboarding is much more seamless and then rocket chat.
+
+161
+00:25:14.790 --> 00:25:22.770
+Grace Hartley: To there's some familiar to some familiarity already across the Community lots of people are to use it, so that was promising as well that you know they want to feel hot.
+
+162
+00:25:23.160 --> 00:25:33.750
+Grace Hartley: A steep learning curve for the communities and then third is cheaper than rocket chat I did link here, you know, there is a feature comparison if you're so inclined to look.
+
+163
+00:25:35.580 --> 00:25:43.590
+Grace Hartley: As a part of the task force, we also you know realize it's not just a recommendation, but how do we make this an easy process or how would you recommend the tlc.
+
+164
+00:25:46.770 --> 00:25:56.550
+Grace Hartley: I guess approve, you know the migration, because you know it's not just saying here's new chat channel go but lets you know, make sure we're being very conscientious and moving everyone.
+
+165
+00:25:58.320 --> 00:26:07.650
+Grace Hartley: You know I guess high communication manner so here's our recommendations on the migration, and you know what communication should be sent, and potential timelines.
+
+166
+00:26:09.630 --> 00:26:12.150
+Grace Hartley: We also recommend you know some channel cleanup which.
+
+167
+00:26:13.260 --> 00:26:18.270
+Grace Hartley: And how we would kind of take the opportunity to recommend different channel organizations and naming.
+
+168
+00:26:19.710 --> 00:26:28.260
+Grace Hartley: Including you know how we would recommend each of them be consistent so every time you're looking for a new channel or or you're familiar with one project, but you might not know the other one.
+
+169
+00:26:28.860 --> 00:26:32.940
+Grace Hartley: or might not know you know where to find the other one will be easy to find because you know.
+
+170
+00:26:33.510 --> 00:26:38.550
+Grace Hartley: i'm familiar with basic contributors, if I want to find the contributors fabric, I just looked up fabric contributors, for example.
+
+171
+00:26:39.090 --> 00:26:48.120
+Grace Hartley: So just kind of some general cleanup here on how we can better manage the chat system around the chat channel expectations, you know we did have a conversation, as a group.
+
+172
+00:26:49.140 --> 00:26:49.890
+Grace Hartley: Around.
+
+173
+00:26:51.240 --> 00:27:10.200
+Grace Hartley: You know, maybe we should have multiple chat chat channels or how should we, you know best serve our Community, and we think that it made the most sense to have one chat channel be the home and recommended place for for the Community broadly so that's just kind of written out here.
+
+174
+00:27:11.550 --> 00:27:14.010
+Grace Hartley: We also you know recommended that the tlc.
+
+175
+00:27:16.500 --> 00:27:22.950
+Grace Hartley: helps kind of oversee the the migration path so we're able to understand you know how it's gone ask questions.
+
+176
+00:27:23.460 --> 00:27:32.850
+Grace Hartley: Of the projects of how the migration has gone just to make sure we're keeping a pulse of you know we're not losing Community members through that process and then at the bottom here just kind of a.
+
+177
+00:27:34.200 --> 00:27:35.790
+Grace Hartley: faq so you know.
+
+178
+00:27:39.420 --> 00:27:42.120
+Grace Hartley: That we thought might be helpful as well, so I think that's.
+
+179
+00:27:43.590 --> 00:27:51.060
+Grace Hartley: I think that's all maybe i'll pause and say does anyone from the task force want to speak up or add anything that I haven't mentioned here.
+
+180
+00:27:59.130 --> 00:28:06.240
+Grace Hartley: Okay, so yeah so then if if no other additions right at miss anything important maybe we'll take questions or feedback.
+
+181
+00:28:11.310 --> 00:28:11.640
+Tracy Kuhrt: You.
+
+182
+00:28:13.860 --> 00:28:18.240
+Peter Somogyvari: Should sorry it's not a question I just reached a mute button in time.
+
+183
+00:28:19.710 --> 00:28:26.910
+Peter Somogyvari: So I wanted to get this little extra information that was important to me about discord net it does support.
+
+184
+00:28:28.170 --> 00:28:36.420
+Peter Somogyvari: Linking specific messages externally, as in my http links that you can post elsewhere, such as on github.
+
+185
+00:28:37.950 --> 00:28:44.220
+Peter Somogyvari: And this for me was very important, so I figured out additionally I like this is what other things.
+
+186
+00:28:46.500 --> 00:28:46.920
+Peter Somogyvari: Thank you.
+
+187
+00:28:48.030 --> 00:28:48.870
+Tracy Kuhrt: Alright, thanks, Peter.
+
+188
+00:28:49.710 --> 00:28:54.420
+Tracy Kuhrt: So any discussion from the tsp members, he.
+
+189
+00:28:55.560 --> 00:29:00.720
+Tracy Kuhrt: concerns with the proposal any sort of things that we should think about.
+
+190
+00:29:01.770 --> 00:29:05.040
+Tracy Kuhrt: You know, this is the expectation here, I think, is that.
+
+191
+00:29:06.960 --> 00:29:20.910
+Tracy Kuhrt: You know the TC it's going to end up very on this proposal, to see if it's something that we would like to do or not, so I think this is our time to discuss before we get to the process of only yay or nay Jim.
+
+192
+00:29:22.560 --> 00:29:38.910
+Jim Zhang: yeah no question for me just want to thank the grace and the task forces for getting this and Rye for sending things up, at least from the fireflies communities point of view we've been using extensively for discussions and notify very smooth experience.
+
+193
+00:29:42.990 --> 00:29:43.440
+let's jump.
+
+194
+00:29:49.680 --> 00:29:56.520
+Tracy Kuhrt: i'm finding it really hard to believe that there's no sort of discussion or commentary that people want to have or no.
+
+195
+00:29:57.270 --> 00:30:06.810
+Arnaud J Le Hors (IBM): yeah are you expecting to have some kind of trial period I mean honestly i've never used this code, I have no idea what this is going to be like.
+
+196
+00:30:09.330 --> 00:30:11.460
+Arnaud J Le Hors (IBM): I know my son was a teenager uses.
+
+197
+00:30:12.840 --> 00:30:15.660
+Arnaud J Le Hors (IBM): that's the extent of how much I know about it.
+
+198
+00:30:17.730 --> 00:30:34.170
+Tracy Kuhrt: yeah I know there has been a test server set up that a few of the folks on the task force have been using Jim just mentioned they've been transitioning their stuff over on the firefly side to have discussions to see how it's working.
+
+199
+00:30:35.880 --> 00:30:45.570
+Tracy Kuhrt: So I don't know that in the plan we had any sort of trial period specifically focused on this grief thoughts on that.
+
+200
+00:30:48.720 --> 00:30:48.990
+Grace Hartley: yeah.
+
+201
+00:30:49.170 --> 00:30:58.320
+Grace Hartley: We actually mentioned this in the task force meeting, and we have the same question and we kind of decided that we because we've been got ongoing the.
+
+202
+00:31:00.480 --> 00:31:13.560
+Grace Hartley: kind of pilot phase over the last few months, with different projects have seen it out, you know the space being worked on, you know cactus and firefly have been using it kind of doesn't need that as as appropriate enough, you know pilot to make sure it works for us.
+
+203
+00:31:14.670 --> 00:31:18.180
+Grace Hartley: yeah I think they know you're going to pick up so.
+
+204
+00:31:18.900 --> 00:31:23.910
+Danno Ferrin: yeah the basic TIM did kind of a little quick pilot, and you know, he said, oh, we need to wait until there is a.
+
+205
+00:31:23.940 --> 00:31:32.760
+Danno Ferrin: form of thing before we get back to it, and all the maintainer Czar like where do we go back when can we cut back so there's a lot of support at least invasive and part of that stems from the main that part of a soup.
+
+206
+00:31:33.210 --> 00:31:46.800
+Danno Ferrin: haven't meaning interact with the research discord most of the theory of main that a theory of type II teams and projects have all moved the discord for the most part and it's a lot better user experience than rocket chat.
+
+207
+00:31:47.970 --> 00:31:55.320
+Danno Ferrin: it's you know there's a i've never had it actually logged me out and never had it miss messages on the phone, there was a PR that went out.
+
+208
+00:31:55.680 --> 00:32:08.550
+Danno Ferrin: That because I didn't see that my phone, I was unable to review it and it got forgotten about so there's you know and there's a lot more active development going on a discord that there is the rocket chat servers and rocket chat clients, so I think we just get into the whole issue of.
+
+209
+00:32:10.380 --> 00:32:13.440
+Danno Ferrin: The winners win more, and you know there's exponential.
+
+210
+00:32:13.860 --> 00:32:19.800
+Danno Ferrin: You know that the power of the network is greater, the more people you get you know the whole is greater than some parts by the network effect mom.
+
+211
+00:32:20.070 --> 00:32:28.140
+Danno Ferrin: So I think that's a lot of that benefit, we would read by going to discord as a lot of the stability and ease of use, we just get secondarily because.
+
+212
+00:32:28.560 --> 00:32:37.950
+Danno Ferrin: Of the larger discord Community versus rocket chat which is quickly becoming an also ran in the in the ephemeral chat race it's as quickly consolidating is what I see going on.
+
+213
+00:32:40.110 --> 00:32:51.300
+Arnaud J Le Hors (IBM): I mean my concern honestly, you know it's, not even for me personally, I actually believe that i'm fairly flexible for this kind of stuff I just am used to make do, of whatever but.
+
+214
+00:32:52.080 --> 00:33:02.670
+Arnaud J Le Hors (IBM): We we've been through this before, where we said oh let's switch to you know element and then people say, oh no, no, I don't like it, and so my concern is you know.
+
+215
+00:33:03.150 --> 00:33:12.870
+Arnaud J Le Hors (IBM): I would like to make sure we're not going to end up with it well there's one project who doesn't like it, and then we end up with yet another situation where some people and.
+
+216
+00:33:13.260 --> 00:33:23.160
+Arnaud J Le Hors (IBM): Say hey this sucks we should move to this other new stuff that's much better right and and so that's My only concern here is, you know.
+
+217
+00:33:23.790 --> 00:33:30.360
+Arnaud J Le Hors (IBM): Are we can feed them that just because they are, and you know I don't mean to disregard the the.
+
+218
+00:33:30.900 --> 00:33:45.390
+Arnaud J Le Hors (IBM): Report from the the people were on the task force very willing to take your word for it, but you know we are basically being asked to decide for the whole Community, and I don't know that you know I can do that.
+
+219
+00:33:46.680 --> 00:33:51.900
+Arnaud J Le Hors (IBM): With the the convenience that yeah everybody's going to like it that's all.
+
+220
+00:33:51.930 --> 00:33:52.770
+Arnaud J Le Hors (IBM): Those comments are.
+
+221
+00:33:53.640 --> 00:33:58.890
+Danno Ferrin: The common element was it wasn't gonna be able to scale and the resources that were put on the scale it had gotten taken off.
+
+222
+00:33:59.370 --> 00:34:14.040
+Danno Ferrin: So it wasn't that one project or one team said no, I don't like element is that element couldn't handle the level of LM was going to put on it so that's one thing discord does have solved and solving the issue that we were having with our transition directly.
+
+223
+00:34:16.230 --> 00:34:16.530
+Tracy Kuhrt: Jim.
+
+224
+00:34:18.300 --> 00:34:29.190
+Jim Zhang: yeah I just want to stress the fact that we've had really good experience we are our team was very reluctant to use rocket chat because it was.
+
+225
+00:34:29.610 --> 00:34:47.580
+Jim Zhang: It was a very bad experience because we're used to using slack which, as you guys know is very smooth but using discord, we can say it offers equal by comparable experience as a commercial product with with with slack.
+
+226
+00:34:49.080 --> 00:34:57.690
+Jim Zhang: So I think to to our nose point as far as the user experience girl is probably the best out there.
+
+227
+00:34:58.170 --> 00:35:15.000
+Jim Zhang: And then it's obviously very easy for a new project like firefly to pick up this Bingo so the concern with migration I think teams like fabric, which has a very significant falling back in a rocket chat.
+
+228
+00:35:16.260 --> 00:35:24.300
+Jim Zhang: Probably should should weighing on on the cost of migration, which you know, obviously firefighting wouldn't wouldn't have a problem for.
+
+229
+00:35:27.060 --> 00:35:28.470
+Tracy Kuhrt: Thanks Jim right.
+
+230
+00:35:29.340 --> 00:35:39.420
+Ry Jones: Sure, I just wanted to bring up two things one Daniel already touched on the reason matrix didn't work out was because of a change of priorities at that lf.
+
+231
+00:35:40.560 --> 00:35:45.000
+Ry Jones: And I, I know I say this, all the time, but we already have multiple.
+
+232
+00:35:46.500 --> 00:35:55.440
+Ry Jones: chat platforms, we already have a Rojas on telegram and all of our Chinese community is on wechat.
+
+233
+00:35:56.610 --> 00:36:02.250
+Ry Jones: So we we already have that that issue before us, so you know.
+
+234
+00:36:03.600 --> 00:36:05.160
+Ry Jones: Anyway, that's all I got.
+
+235
+00:36:05.610 --> 00:36:09.360
+Arnaud J Le Hors (IBM): But, so let me ask a follow up question, then, if I may interject I mean.
+
+236
+00:36:09.780 --> 00:36:14.940
+Arnaud J Le Hors (IBM): Is the expectation that those groups will be able to use this code and be happy to.
+
+237
+00:36:17.100 --> 00:36:24.960
+Ry Jones: I hope that I hope, so I hope it's good enough that we can pull some of that traffic over but.
+
+238
+00:36:25.980 --> 00:36:31.860
+Ry Jones: I think you know with wechat that's going to be a very long and difficult road.
+
+239
+00:36:33.840 --> 00:36:41.160
+Arnaud J Le Hors (IBM): Okay, but at least be interesting to know if they would be willing to let go of telegram.
+
+240
+00:36:43.680 --> 00:36:44.070
+Arnaud J Le Hors (IBM): anyway.
+
+241
+00:36:45.480 --> 00:36:55.080
+David Boswell: And that's certainly something we'll need to do, I mean, I think, as grace was saying it's not like we just say yes, this is the proposal we're done and then that's the end of it there's kind of a.
+
+242
+00:36:55.470 --> 00:37:02.460
+David Boswell: process that will go on after we make a decision, I think, to make sure that people are encouraged and helped to move over.
+
+243
+00:37:03.720 --> 00:37:13.470
+Tracy Kuhrt: All right, i'm gonna i'm gonna break in here guys and say, if you do have a comment to make, please raise your hand because we do have a Q already have people who are looking to make comments on this topic.
+
+244
+00:37:14.670 --> 00:37:15.450
+Tracy Kuhrt: So.
+
+245
+00:37:17.310 --> 00:37:27.420
+Tracy Kuhrt: You know, obviously we do have the arrowhead team on the call, they can also raise their hand and make comments on this as well, but i'm ready to call her has had his hand up for quite some time.
+
+246
+00:37:28.110 --> 00:37:31.620
+Hart Montgomery: awesome Thank you Tracy so I just want to point out that anecdotally.
+
+247
+00:37:33.390 --> 00:37:41.400
+Hart Montgomery: David Peter and I gave a talk at developer week yesterday and we were explicitly asked if there was a discord Community for cactus.
+
+248
+00:37:42.180 --> 00:37:51.660
+Hart Montgomery: So people who aren't familiar with hyper ledger but are sort of interested in the block chain space, you know are familiar with this court, they have discord.
+
+249
+00:37:52.170 --> 00:38:07.020
+Hart Montgomery: And they're asking if we have discord communities, I think we all laughed on stage when we are at least the virtual stage and we got this question because it was so relevant to what we've been talking about.
+
+250
+00:38:08.100 --> 00:38:18.510
+Hart Montgomery: So I think that just sort of galvanized my opinion a little bit on this that I think this is a great thing to do, because people outside of hyper ledger expect it.
+
+251
+00:38:21.540 --> 00:38:21.870
+Tracy Kuhrt: Thanks.
+
+252
+00:38:22.890 --> 00:38:23.130
+Tracy Kuhrt: hey.
+
+253
+00:38:25.260 --> 00:38:34.650
+Dave Enyeart: Jim asked about projects like fabric that have a long history on rocket chat and i've I can't talk to everybody, of course, in the fabric world, but I have talked to a few people and.
+
+254
+00:38:35.070 --> 00:38:51.270
+Dave Enyeart: I think we'd be very happy to make the switch actually even with you know, having to pull over legacy users from rocket chat one of the other problems, besides just the technology is you know the, the number of channels that we've had we've created way too many in the early days.
+
+255
+00:38:52.530 --> 00:38:58.500
+Dave Enyeart: And I think that new structure that's proposed here is very good in terms of having one general channel.
+
+256
+00:38:59.130 --> 00:39:08.310
+Dave Enyeart: One for contributors and one for announcements I think that's going to make things a lot easier, so at least myself another maintainer i've talked to from fabric would be very happy with us.
+
+257
+00:39:10.530 --> 00:39:11.580
+Tracy Kuhrt: Today, Jim.
+
+258
+00:39:12.360 --> 00:39:24.270
+Jim Zhang: yeah thanks Tracy I just want to clarify one thing, because the question of the telegram came up my understanding is as far as what hyper ledger is paying for and making available to Members.
+
+259
+00:39:24.780 --> 00:39:44.370
+Jim Zhang: We chat sorry rocket chat was the only thing right and we're switching to discord so if others are still wanting to do other platforms I don't know if that's a that's a problem we should worry about as part of the the consideration for the for the migration.
+
+260
+00:39:46.260 --> 00:39:55.650
+Tracy Kuhrt: yeah I would just add on for for our number six and he doesn't have to jump in here, but I think that the concern if I heard correctly from on how is more around.
+
+261
+00:39:57.330 --> 00:40:10.200
+Tracy Kuhrt: This idea of are we going to fracture the Community even more right, so we already have a fractured community as far as chat is concerned, are we going to fracture and even more people are not willing to move over to discord.
+
+262
+00:40:11.340 --> 00:40:13.560
+Tracy Kuhrt: As the platform Peter.
+
+263
+00:40:17.460 --> 00:40:23.190
+Peter Somogyvari: Thank you Tracy just a quick point extra on what or no said, which is.
+
+264
+00:40:24.330 --> 00:40:35.910
+Peter Somogyvari: All it, how do we know if people will be willing to migrate from their existing other chat platforms and I fought about the same thing, but then eventually arrived solution that.
+
+265
+00:40:37.200 --> 00:40:38.490
+Peter Somogyvari: We don't but.
+
+266
+00:40:39.660 --> 00:40:53.040
+Peter Somogyvari: I am very confident personally, let me have a much better chance convincing them to migrate over to just code and we had a chat just because of the because of all the reasons that everybody else has mentioned already.
+
+267
+00:40:55.770 --> 00:40:56.310
+Thanks Peter.
+
+268
+00:40:59.220 --> 00:41:01.440
+Sara (Iroha): hi so yeah we use.
+
+269
+00:41:02.880 --> 00:41:13.500
+Sara (Iroha): We use bridge to bridge rocket chat with telegram and get her, so I think that at this point rockin chat is the least used chat.
+
+270
+00:41:13.920 --> 00:41:26.010
+Sara (Iroha): I think so, and I understand why I, personally, I every it took me like a couple of weeks to understand how to log in with lf ID that you need to log in and then just close this.
+
+271
+00:41:26.700 --> 00:41:37.770
+Sara (Iroha): Second window, and only then you will be redirected so it was a little bit tricky and yeah overall it's like it's a little bit difficult and I read that it might not be the best idea and.
+
+272
+00:41:38.280 --> 00:41:51.630
+Sara (Iroha): yeah, but the question is i'm looking at different options for breaching this court with other other chats have you researched the options to bridge the chance together somehow maybe.
+
+273
+00:41:55.380 --> 00:41:58.410
+Tracy Kuhrt: As far as I know, Sarah that is not the case.
+
+274
+00:41:59.430 --> 00:42:05.790
+Tracy Kuhrt: I know we have two hands up already, but I don't know if any of the other Task Force Members have done any research on bridges.
+
+275
+00:42:10.080 --> 00:42:10.410
+Sara (Iroha): don't.
+
+276
+00:42:10.620 --> 00:42:12.540
+Grace Hartley: Just sorry go ahead.
+
+277
+00:42:13.560 --> 00:42:15.960
+Sara (Iroha): Sorry yeah it's just seems like there are some bridges.
+
+278
+00:42:16.800 --> 00:42:22.680
+Sara (Iroha): On discord is very popular so it might be easier to find options for this part as well.
+
+279
+00:42:23.970 --> 00:42:27.390
+Sara (Iroha): But if we will it be okay, if not everyone is on this for.
+
+280
+00:42:31.800 --> 00:42:35.310
+Tracy Kuhrt: Sure we're gonna jump in i'm sorry oh.
+
+281
+00:42:35.640 --> 00:42:36.270
+Grace Hartley: Sorry guys.
+
+282
+00:42:38.880 --> 00:42:50.610
+Grace Hartley: We didn't do too much research i'll drop in the chat it looks like there is a bridging option documentation between discord and and telegram This is just my Google search really quickly, but the goal and.
+
+283
+00:42:52.260 --> 00:42:53.430
+Grace Hartley: The goal is to have.
+
+284
+00:42:55.440 --> 00:42:59.130
+Grace Hartley: All of the projects and the hyper ledger Community operate on one chat channel.
+
+285
+00:42:59.640 --> 00:43:11.220
+Grace Hartley: i'm sure we can we'd love to talk to the robot team and kind of work through what that means for you all, specifically, but I think the goal is definitely just just 111 channel but.
+
+286
+00:43:12.090 --> 00:43:23.160
+Grace Hartley: and happy to kind of talk through you know discord with you all in and see if it meets your needs, but there is like just to be clear, it looks like doing a Google search, you can have a bridge.
+
+287
+00:43:24.510 --> 00:43:25.860
+Grace Hartley: But so enough to validate that.
+
+288
+00:43:26.850 --> 00:43:27.960
+Sara (Iroha): Not a things.
+
+289
+00:43:29.610 --> 00:43:30.330
+Tracy Kuhrt: Right or no.
+
+290
+00:43:31.800 --> 00:43:40.350
+Arnaud J Le Hors (IBM): So I think grace kind of answered indirectly my question, but I want to make a tea, I mean the expectation is that rocket chat will be sunset.
+
+291
+00:43:43.890 --> 00:43:44.700
+Tracy Kuhrt: station yes.
+
+292
+00:43:44.880 --> 00:43:45.390
+Right.
+
+293
+00:43:47.130 --> 00:43:53.340
+Arnaud J Le Hors (IBM): So is there, like a timeframe, we would i'm sorry if you mentioned this, I may have missed it but.
+
+294
+00:43:56.700 --> 00:44:00.750
+Grace Hartley: I believe we have it in the puzzle sorry i'm answering the questions I hope that's okay Tracy top.
+
+295
+00:44:01.710 --> 00:44:02.040
+Grace Hartley: my head.
+
+296
+00:44:03.480 --> 00:44:03.720
+Grace Hartley: But.
+
+297
+00:44:04.830 --> 00:44:05.190
+Grace Hartley: So.
+
+298
+00:44:06.780 --> 00:44:23.250
+Grace Hartley: So what we do is we have kind of a 30 6090 day review process for the task force to go through the migration, I believe we give i'm just looking at the plan we have a one month transition timeline is what we propose now of like here's when the original communication goes out we send.
+
+299
+00:44:24.450 --> 00:44:29.010
+Grace Hartley: We include the communications of the migration in discord rocket chat.
+
+300
+00:44:29.640 --> 00:44:41.010
+Grace Hartley: mailing list you know all the other kind of the website all those sort of things, but the plan is for it to be a one month transition I think we're open to feedback on that, though, if if people think it should be longer.
+
+301
+00:44:44.310 --> 00:44:54.120
+Arnaud J Le Hors (IBM): Because usually good to have kind of an overlap, just to tell people who go to the old sister right hey don't come here anymore go over there.
+
+302
+00:44:55.950 --> 00:45:02.640
+Grace Hartley: yeah exactly yeah so that's what that transition would be so it would be starting to say go to discord go to discord here's the new.
+
+303
+00:45:02.640 --> 00:45:05.310
+Grace Hartley: trend going over all going here yeah exactly yep.
+
+304
+00:45:06.240 --> 00:45:22.440
+Arnaud J Le Hors (IBM): But so okay i'm happy with that, but you know we don't want to end up with what was just talked about earlier, where we would have added discord and then we still get stuck with rocket chat because some projects and know.
+
+305
+00:45:26.790 --> 00:45:30.210
+Ry Jones: If I might that there are other external forces.
+
+306
+00:45:31.980 --> 00:45:32.760
+Ry Jones: That are.
+
+307
+00:45:34.050 --> 00:45:42.420
+Ry Jones: The lf spends a lot of money and effort to keep rocket chat running rocket chat is the last service that's on the previous.
+
+308
+00:45:44.550 --> 00:45:45.450
+Ry Jones: off and stack.
+
+309
+00:45:46.590 --> 00:45:55.590
+Ry Jones: So there's a lot of internal pressure to and rocket chat does not support the new author and stack that all the other every other property, the Ls runs does.
+
+310
+00:45:57.240 --> 00:46:01.110
+Ry Jones: So there is pressure to move off of rocket chat.
+
+311
+00:46:02.160 --> 00:46:04.950
+Ry Jones: For you know external reasons as well and.
+
+312
+00:46:06.060 --> 00:46:09.600
+Ry Jones: there's there's more to that as well, there are a lot of bugs.
+
+313
+00:46:10.890 --> 00:46:18.630
+Ry Jones: A lot of long standing bugs that have not been fixed in rocket chat and we don't have the developer bandwidth to go fix so there's.
+
+314
+00:46:21.210 --> 00:46:26.760
+Ry Jones: we're highly incentivized to move off of rocket we the Linux foundation are highly incentivized to move off of rocket chat.
+
+315
+00:46:27.630 --> 00:46:30.540
+Arnaud J Le Hors (IBM): sounds good, and I haven't heard anybody say no, I love.
+
+316
+00:46:31.560 --> 00:46:43.890
+Arnaud J Le Hors (IBM): To stay on it so maybe this is irrelevant that this, this is a non issue, but I just want to make sure this was part of the plan that we would indeed pull the plug on rocket chat so thank you.
+
+317
+00:46:45.570 --> 00:46:51.450
+Tracy Kuhrt: yeah I know it's probably worthwhile worthwhile to mention that at least here in the plan right that that is the case.
+
+318
+00:46:52.530 --> 00:47:03.390
+Tracy Kuhrt: I think that you know, obviously, was an assumption that all of the task force Members had but didn't necessarily include it as a statement specifically but definitely should be included.
+
+319
+00:47:04.950 --> 00:47:05.910
+Tracy Kuhrt: A room.
+
+320
+00:47:07.410 --> 00:47:16.830
+Aruna S M: So, I guess, we can divide that into two sets of user right those who regularly come and visit these channels So these are contributors and.
+
+321
+00:47:17.220 --> 00:47:22.050
+Aruna S M: willing to be maintained our it's kind of people and those who are just looking for help on these projects.
+
+322
+00:47:22.620 --> 00:47:37.800
+Aruna S M: And since we are going to retire i'm assuming that we are going to cite chat not hyper ledger.org and redirect that to discard directly when we start migration and those people who still have bookmark the old next ongoing to rocket chart.
+
+323
+00:47:39.270 --> 00:47:45.570
+Aruna S M: We make a look, for I mean we need a plan for them, I guess, one month period should still be good for them.
+
+324
+00:47:49.590 --> 00:47:53.970
+Aruna S M: I mean is that a good understanding that I have, or is it different from.
+
+325
+00:47:55.680 --> 00:48:03.180
+Aruna S M: I know I was part of the task force, but this is something that I did not find a fine answer for in this proposal.
+
+326
+00:48:04.620 --> 00:48:05.280
+Tracy Kuhrt: So.
+
+327
+00:48:05.550 --> 00:48:17.250
+Tracy Kuhrt: grace, I think the proposal says that we will add messages to the different chat channels on rocket chat to let them know that the system is being migrated over to discord.
+
+328
+00:48:18.270 --> 00:48:21.060
+Tracy Kuhrt: Right there's an faq here that says that.
+
+329
+00:48:22.080 --> 00:48:24.360
+Tracy Kuhrt: We can sort of redirect.
+
+330
+00:48:25.530 --> 00:48:36.510
+Tracy Kuhrt: The chat that hyper ledger.org to discord server so I assume Those are the two kind of things that will be doing in order to make sure that people find the chat system.
+
+331
+00:48:37.770 --> 00:48:40.410
+Ry Jones: yeah, so there are.
+
+332
+00:48:41.700 --> 00:48:52.650
+Ry Jones: I have so number one rocket chat goes read only and is still available for searching for some period of time, a few months, or whatever.
+
+333
+00:48:53.880 --> 00:49:04.140
+Ry Jones: But on the front page when you when you get there you'll get a pop up saying hey just because it was a movie you know, have a link I just put a link in the dsc channel to the invite the self serve invite for discord.
+
+334
+00:49:04.980 --> 00:49:17.760
+Ry Jones: And then later once rocket chat has actually turned off completely we would just do like an engine X, you know redirect over to the to that URL so people could join or something of that nature.
+
+335
+00:49:27.030 --> 00:49:36.000
+Kamlesh Nagware: So i'm planning to take a backup of marketing because mostly community, the further rocket chat reverse communication chance to.
+
+336
+00:49:37.410 --> 00:49:50.670
+Kamlesh Nagware: Any kind of solution or some problem there, so if you move to the new discord Channel and the people who are looking to all the messages for solving their problem so.
+
+337
+00:49:50.850 --> 00:49:53.850
+Kamlesh Nagware: Maybe, like to make it available for read only or maybe.
+
+338
+00:49:54.990 --> 00:50:05.160
+Kamlesh Nagware: After a few times, a few months, we can take complete back and put somewhere so it's always available to the Community something can be done, like that thing.
+
+339
+00:50:06.330 --> 00:50:08.910
+Ry Jones: So I did this when we transition to slack.
+
+340
+00:50:10.140 --> 00:50:12.870
+Ry Jones: I put a slack archive up on github.
+
+341
+00:50:14.130 --> 00:50:17.580
+Ry Jones: My plan is to do something similar with rocket chat.
+
+342
+00:50:19.800 --> 00:50:27.120
+Ry Jones: I just really questioned the value of it because chat is way more ephemeral it's not like a mailing list where.
+
+343
+00:50:28.290 --> 00:50:40.110
+Ry Jones: it's just way more ephemeral I question the value of getting the archive out, but I do plan on getting an archive and rendered as html in some way so that it continues to be available.
+
+344
+00:50:41.070 --> 00:50:50.550
+Kamlesh Nagware: I think some value because some people refer to the old old shetler how the on the columns or what was the different links and different concepts.
+
+345
+00:50:56.070 --> 00:50:56.400
+Kamlesh Nagware: alright.
+
+346
+00:50:56.640 --> 00:51:03.870
+Tracy Kuhrt: Thanks panache um any other questions or comments as we're approaching the top of the hour.
+
+347
+00:51:11.010 --> 00:51:19.950
+Tracy Kuhrt: Any thoughts on whether or not this is something we want to vote on today, or whether or not we've I need to bit more time before we get to the vote.
+
+348
+00:51:26.010 --> 00:51:28.440
+Arnaud J Le Hors (IBM): Over I think we've heard more positive.
+
+349
+00:51:29.730 --> 00:51:36.120
+Arnaud J Le Hors (IBM): You know comments in support of this, so I think we should thank the task force and go ahead.
+
+350
+00:51:37.410 --> 00:51:38.520
+Arnaud J Le Hors (IBM): Whether we're coming recommendation.
+
+351
+00:51:41.970 --> 00:51:49.230
+Tracy Kuhrt: So we can think the past for sure for sure I do believe that our know has maybe just mentioned that we.
+
+352
+00:51:50.340 --> 00:51:52.290
+Tracy Kuhrt: vote on the proposal your.
+
+353
+00:51:53.400 --> 00:51:53.820
+Hart Montgomery: Second.
+
+354
+00:51:56.310 --> 00:51:58.680
+Tracy Kuhrt: Alright, so we have a second um.
+
+355
+00:52:00.030 --> 00:52:02.100
+Tracy Kuhrt: So let's go ahead and vote then.
+
+356
+00:52:03.780 --> 00:52:05.310
+Tracy Kuhrt: Brian you want to run us through a vote.
+
+357
+00:52:05.400 --> 00:52:05.790
+yeah.
+
+358
+00:52:06.840 --> 00:52:07.350
+Sure thing.
+
+359
+00:52:09.300 --> 00:52:10.020
+Ry Jones: David in New York.
+
+360
+00:52:10.830 --> 00:52:12.120
+Ry Jones: Yes, grace.
+
+361
+00:52:13.260 --> 00:52:13.650
+Grace Hartley: Yes.
+
+362
+00:52:13.980 --> 00:52:15.420
+Hart Montgomery: heart yes.
+
+363
+00:52:15.480 --> 00:52:17.130
+Jim Zhang: Jim yes.
+
+364
+00:52:20.580 --> 00:52:21.150
+Kamlesh Nagware: Yes.
+
+365
+00:52:22.140 --> 00:52:22.590
+Nathan.
+
+366
+00:52:25.260 --> 00:52:25.770
+Nathan George: Yes.
+
+367
+00:52:25.980 --> 00:52:26.430
+Peter.
+
+368
+00:52:27.480 --> 00:52:28.170
+Peter Somogyvari: Yes.
+
+369
+00:52:28.260 --> 00:52:28.710
+Tracy.
+
+370
+00:52:29.730 --> 00:52:30.240
+Tracy Kuhrt: Yes.
+
+371
+00:52:30.450 --> 00:52:30.870
+Troy.
+
+372
+00:52:32.730 --> 00:52:33.420
+Troy Ronda: Okay, yes.
+
+373
+00:52:34.170 --> 00:52:34.740
+Angelo.
+
+374
+00:52:35.790 --> 00:52:36.300
+Angelo De Caro: Yes.
+
+375
+00:52:36.420 --> 00:52:38.130
+Arnaud J Le Hors (IBM): or no yes.
+
+376
+00:52:39.540 --> 00:52:40.050
+Artem Barger: Yes.
+
+377
+00:52:41.370 --> 00:52:41.850
+Aruna S M: Yes.
+
+378
+00:52:41.970 --> 00:52:42.360
+Bobby.
+
+379
+00:52:43.380 --> 00:52:43.950
+Bobbi Muscara: Yes.
+
+380
+00:52:45.510 --> 00:52:46.200
+Danno Ferrin: Yes.
+
+381
+00:52:47.880 --> 00:52:50.550
+Ry Jones: is fairly enthusiastic Okay, the motion passes.
+
+382
+00:52:52.080 --> 00:53:00.870
+Tracy Kuhrt: Alright, thanks everyone for that all right, I think you really confuse people by starting in the middle of the instead of at the beginning of the end but.
+
+383
+00:53:01.230 --> 00:53:03.900
+Tracy Kuhrt: yeah keep us all awake i've.
+
+384
+00:53:03.990 --> 00:53:10.530
+Ry Jones: i've considered randomly picking them but I didn't know if I could keep it in my head who i'd actually chosen so.
+
+385
+00:53:12.600 --> 00:53:29.850
+Tracy Kuhrt: Alright, so thank you everyone for the discussion, thank you to the task force for the amount of time that you put into this i'm looking forward to the progress of us moving towards discord and, for me, being able to remove a messaging system from all of my devices, so thank you for that.
+
+386
+00:53:31.320 --> 00:53:34.260
+Tracy Kuhrt: Any other last comments or.
+
+387
+00:53:35.940 --> 00:53:39.510
+Tracy Kuhrt: Anything else that people would like to bring up before we close the call.
+
+388
+00:53:42.270 --> 00:53:52.950
+Aruna S M: Quick reminder for tomorrow's Task Force, we have security process Task Force and I would encourage all of you to join in, and we have a couple of interesting topics to be discussed.
+
+389
+00:53:54.270 --> 00:53:55.500
+Aruna S M: So please do join in.
+
+390
+00:53:58.350 --> 00:54:01.350
+Tracy Kuhrt: For that reminder of the Security Task Force any other.
+
+391
+00:54:02.670 --> 00:54:03.930
+Tracy Kuhrt: Closing item.
+
+392
+00:54:09.810 --> 00:54:31.020
+Tracy Kuhrt: Alright, so with that I am going to say thank you for your service on the tasc we are looking forward to working with you very closely in your new role as the cto, and that is my closing comments for this go around thanks all for joining, and we will talk to you in next week.
+
+393
+00:54:32.010 --> 00:54:32.670
+Hart Montgomery: Thanks Tracy.
+
+394
+00:54:33.630 --> 00:54:34.170
+Dave Enyeart: Thank you bye.
+
+395
+00:54:34.890 --> 00:54:35.160
+Bobbi Muscara: bye.
+
+396
+00:54:35.670 --> 00:54:36.330
+Thanks Tracy.
+

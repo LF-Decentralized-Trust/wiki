@@ -1,0 +1,7 @@
+08:05:19	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2023-03-01+Aries+Working+Group+Call
+08:12:54	 From  Daniel Bluhm : Brief follow up on Issue Credential protocol short-circuiting: my understanding is that the resolution was that it's fine for credential formats that don't require prior steps to begin with the issue message. Is this a change that should be reflected in the Aries RFC for Issue Credential? (I assume so but) if so, is anyone on deck to make those updates?
+08:33:10	 From  Lance Byrd : Stephen jogged my brain (i'm stupidly multitasking), delegation doesn't make sense in this context and did:keri:lite doesn't support rotation so no way it supports delegation…
+08:43:12	 From  James Ebert : I also grabbed an AFJ example for did:peer2 in addition to Daniel’s example
+08:52:26	 From  Steve McCown : I got into a bad call zone, but I'll check the Aries channel for comments on uniffi shortly
+08:53:02	 From  Stephen Curran : I have to leave a bit early. Great meeting — good progress!
+08:53:28	 From  Steve McCown : Yes

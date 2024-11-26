@@ -1,0 +1,17 @@
+00:12:55	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2023-05-17+Aries+Working+Group+Call
+00:12:56	Timo Glastra:	No video allowed?
+00:15:17	Timo Glastra:	There's too much conferences 🙂
+00:15:27	Stephen Curran:	I’d prefer to allow video. Is it big when only the speaker is live?
+00:15:59	James Ebert:	Reacted to "I’d prefer to allow ..." with ➕
+00:16:30	Dr. Andre Kudra:	Reacted to "I’d prefer to allow ..." with ➕
+00:16:36	Dr. Andre Kudra:	Would be pro Video as well.
+00:17:06	Ry Jones:	Video enabled
+00:17:50	Timo Glastra:	I'll ask in our the team as well if someone would be able to assist
+00:20:22	Stephen Curran:	Thanks
+00:21:20	Dr. Andre Kudra:	Reacted to "There's too much con..." with 😇
+00:35:20	Helen Garneau:	https://openwallet.foundation/wp-content/uploads/sites/11/2023/02/OpenWallet-Foundation-Overview.pdf
+00:36:43	Stephen Curran:	Timo - idea for unqualified to peer DID 3 — canonicalize unqualified DIDDoc to peer DID 2, and then to peer DID 3.  That should work…
+00:42:22	Timo Glastra:	Interesting idea Stephen, If we have the did:peer:2 did we could directly move to did:peer:3. Seems trivial to support did:peer:3, but not sure if numalgo 3 is going to solve the lack of implementations we have for numalgo 1 (in the end it's making a hash on a JSON object, which isn't too different from method 3). If we have a consistent did:peer:2 did, we could also transform that in a did:peer:1 did instead
+00:47:08	Dr. Andre Kudra:	You are probably aware of this website of LF:https://www.linuxfoundation.org/projects/digital-trust
+00:52:32	Ry Jones:	Linux Foundation Public Health
+00:59:11	Timo Glastra:	An interop profile?

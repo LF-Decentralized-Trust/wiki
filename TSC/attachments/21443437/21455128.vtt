@@ -1,0 +1,818 @@
+WEBVTT
+
+1
+00:00:00.719 --> 00:00:01.110
+Hyperledger Community: There we go.
+
+2
+00:00:04.770 --> 00:00:09.210
+Tracy Kuhrt: All right, welcome to the November 18 technical steering committee call.
+
+3
+00:00:11.730 --> 00:00:20.220
+Tracy Kuhrt: just start with obviously the antitrust policy notice that everybody on this call, has seen many, many times since we don't have any guests.
+
+4
+00:00:21.750 --> 00:00:29.700
+Tracy Kuhrt: Just know that you should comply without, as well as the code of conduct that is linked to from the agenda.
+
+5
+00:00:30.780 --> 00:00:44.490
+Tracy Kuhrt: So it started with the announcements, as always, the definitely weekly newsletter that goes out each Friday, so if you have anything that you'd like to add to that please consider doing that today and.
+
+6
+00:00:45.690 --> 00:01:03.570
+Tracy Kuhrt: get it into the, the next step weekly newsletter also as a reminder, we won't be meeting next week, due to the US thanksgiving holidays so we've canceled next week's meeting and then yeah anybody else have any announcements that they would like to make.
+
+7
+00:01:11.070 --> 00:01:23.070
+Tracy Kuhrt: resounding Simon says that nobody else has any announcements they'd like to make alright, so we do have the three reports that have been on the agenda for a few weeks now.
+
+8
+00:01:23.640 --> 00:01:33.180
+Tracy Kuhrt: I haven't seen anything new at it to any of those reports, other than maybe just some discussions that have been kind of back and forth with the.
+
+9
+00:01:34.440 --> 00:01:46.080
+Tracy Kuhrt: With the submitters so I don't think there's any outstanding questions, but I do want to give people the opportunity that if there is any outstanding questions that they'd like to ask, they bring it up now.
+
+10
+00:01:54.960 --> 00:02:00.240
+Tracy Kuhrt: Alright again resounding silences that everybody's happy we'll let those three fall off.
+
+11
+00:02:01.950 --> 00:02:08.490
+Tracy Kuhrt: Next week we will identify has reached out already to silence on the.
+
+12
+00:02:08.700 --> 00:02:26.040
+Tracy Kuhrt: borough report, so we will hopefully expect to see that, too, we do have expected in the next meeting that we have, we should have hopefully for new reports for the grid transact cello and coke coming up.
+
+13
+00:02:27.480 --> 00:02:28.110
+Tracy Kuhrt: So.
+
+14
+00:02:29.580 --> 00:02:31.710
+Tracy Kuhrt: let's move on to the discussion.
+
+15
+00:02:32.880 --> 00:02:41.250
+Tracy Kuhrt: So the first item that I have on the list here is the security process proposal that right has put out.
+
+16
+00:02:42.420 --> 00:02:53.250
+Tracy Kuhrt: There has been some discussion on that, but like to open the floor to have further discussion on this particular proposal.
+
+17
+00:02:57.150 --> 00:02:57.540
+Tracy Kuhrt: Oh no.
+
+18
+00:02:58.980 --> 00:03:11.910
+Arnaud J Le Hors (IBM): Yes, thank you, so I mean, admittedly, I should have started this before I put a comment earlier today but, given the time difference, you know I don't think anybody really had much chance to look at it, but.
+
+19
+00:03:12.630 --> 00:03:20.130
+Arnaud J Le Hors (IBM): I mean essentially I, on the proposal itself, I think this is going the right direction, the question I had.
+
+20
+00:03:20.730 --> 00:03:30.720
+Arnaud J Le Hors (IBM): more to do with the current documentation, we have so right scroll down I put a link where you can you can have it there, too, but.
+
+21
+00:03:31.410 --> 00:03:41.820
+Arnaud J Le Hors (IBM): In particular, you know, so we have it, and from that point of view, I think you know we we can give ourselves some kudos on the fact that it's not like we've never done anything.
+
+22
+00:03:42.150 --> 00:03:43.680
+Arnaud J Le Hors (IBM): In this regard, and so we.
+
+23
+00:03:43.680 --> 00:04:03.540
+Arnaud J Le Hors (IBM): actually have documentation with you know with regard to what how we handled security issues and and even a fairly detailed process on how to respond respond to two winner really reports, but so the proposal doesn't say anything about you know.
+
+24
+00:04:04.590 --> 00:04:17.550
+Arnaud J Le Hors (IBM): The current documentation, basically, the main change seems to be a we update the security empty file in all the repositories and um I think we also need to.
+
+25
+00:04:18.750 --> 00:04:27.630
+Arnaud J Le Hors (IBM): Look at the defect response page, so I didn't do a thorough review of it, but I looked at it, to some degree.
+
+26
+00:04:27.960 --> 00:04:33.840
+Arnaud J Le Hors (IBM): And there are certain things that I noticed that you know where there's like do trip and see differences.
+
+27
+00:04:34.170 --> 00:04:44.640
+Arnaud J Le Hors (IBM): Between what's being recommended now and what we have and just to name a few that I spotted going through kind of side by side or after rereading the guide.
+
+28
+00:04:45.510 --> 00:04:59.730
+Arnaud J Le Hors (IBM): And how they suggest to do this, for instance, they say, you should early on, negotiate with the reporter on an embargo period because some may not want to even respect any embargo.
+
+29
+00:05:00.390 --> 00:05:14.310
+Arnaud J Le Hors (IBM): Some will be more tolerant and negotiate with you agree on, you know, giving you some time to try to address the problem before they make it public, and then there are things like when we when we.
+
+30
+00:05:15.720 --> 00:05:17.310
+Arnaud J Le Hors (IBM): create a CV.
+
+31
+00:05:19.080 --> 00:05:30.450
+Arnaud J Le Hors (IBM): The recommendation is to offer the reporter to be named deserve that they can they can be involved in the process, creating the CD and be given credit if they choose to.
+
+32
+00:05:31.050 --> 00:05:49.140
+Arnaud J Le Hors (IBM): And so I think these are like you know small details that i've seen in passing that I think could we could definitely you know get more lineman to because I think alignment on because I don't think that you know, there is any reason not to follow their commanded way basically so.
+
+33
+00:05:51.270 --> 00:05:52.680
+Tracy Kuhrt: Thanks rob.
+
+34
+00:05:52.710 --> 00:05:54.990
+Tracy Kuhrt: So you had your hand up did you want a commenter.
+
+35
+00:05:55.290 --> 00:06:17.580
+Hyperledger Community: Sure, I did make if you look at the history of the page I did make a couple edits to remove some of the stuff that was juror specific but I agree the rewriting of this page and it's implied it's not stated, I think this needs to be rewritten and but that's up that's all I say.
+
+36
+00:06:18.930 --> 00:06:19.260
+Tracy Kuhrt: Try.
+
+37
+00:06:20.100 --> 00:06:20.400
+No.
+
+38
+00:06:22.380 --> 00:06:32.100
+Danno Ferrin: So, to give some more weeks, the need to rewrite some of this let's say hypothetically a maintainer find a bug that was shipped, and that is.
+
+39
+00:06:32.730 --> 00:06:45.090
+Danno Ferrin: worthy of a CD he boner ability it doesn't really fit well into this process it's all focused on an external bug report doesn't answer key questions such as who do they have a duty to disclose it to before it goes public.
+
+40
+00:06:46.680 --> 00:06:54.750
+Danno Ferrin: You know what sort of oversight if you're going to make this would be needed, or is there no oversight if it's found within the maintainer is it kept in the 1800s and fixed.
+
+41
+00:06:55.200 --> 00:07:04.380
+Danno Ferrin: And I think that's actually a weakness that you know if you find something that you feel it's worthy of the of the designation of a security bug.
+
+42
+00:07:05.310 --> 00:07:10.890
+Danno Ferrin: Reading through this you could in theory keep it entirely internal and never telling you want to just fix it and hope it goes away.
+
+43
+00:07:11.280 --> 00:07:14.520
+Danno Ferrin: And I don't think that's a good thing, I think there should be some speaking about.
+
+44
+00:07:15.000 --> 00:07:22.110
+Danno Ferrin: You know what what level is relevant now you know flip below a certain level yeah it's de minimis it doesn't matter just just fix it.
+
+45
+00:07:22.500 --> 00:07:28.650
+Danno Ferrin: But above a certain level, I think there needs to be some level of oversight and what is that well it's probably going to be a fairly high level.
+
+46
+00:07:29.490 --> 00:07:39.570
+Danno Ferrin: You know, not just you know something that you know you could, with the right no compound options, you could break something that's not worth it, but if it's only like the results of chain splits it's definitely worthy.
+
+47
+00:07:40.170 --> 00:07:43.320
+Danno Ferrin: So I think that's Those are some things as we were right that's me to keep in mind.
+
+48
+00:07:47.490 --> 00:07:47.910
+Tracy Kuhrt: Nathan.
+
+49
+00:07:49.110 --> 00:07:55.320
+Nathan George: I think that updating this is a really great idea um it also helps protect the Community in case.
+
+50
+00:07:56.070 --> 00:08:06.180
+Nathan George: One of the partners in the ecosystem doesn't want something disclosed who wants to delay something being disclosed having a favorite and policy, let us follow the policy and keep away from any controversy.
+
+51
+00:08:07.020 --> 00:08:14.640
+Nathan George: Especially where you know, like the antitrust policy says we are a collection of competitors that are doing different things um I would also like to ask.
+
+52
+00:08:15.300 --> 00:08:25.500
+Nathan George: Anyone from fabric has hacker one been working out for you, I mean some of the other projects you've done some hacker one and hadn't really gotten a lot of valuable response, I mean we got a lot of like.
+
+53
+00:08:26.430 --> 00:08:35.520
+Nathan George: Things logged about you know, on a public domain website, we checked your DNS settings and you know stuff like that not we never really saw much substantive response on him.
+
+54
+00:08:39.060 --> 00:08:39.270
+Nathan George: yeah.
+
+55
+00:08:39.510 --> 00:08:41.790
+Tracy Kuhrt: And I had that same question on.
+
+56
+00:08:42.900 --> 00:08:48.660
+Tracy Kuhrt: hacker one I think right had responded in the notes that.
+
+57
+00:08:50.850 --> 00:08:57.510
+Tracy Kuhrt: There has been some input from everyone, but maybe not not very detailed as far as.
+
+58
+00:08:58.770 --> 00:09:05.790
+Tracy Kuhrt: what's out there, so that was a concern that I had as well surrounding that.
+
+59
+00:09:06.900 --> 00:09:09.030
+Tracy Kuhrt: Proposal number two if you will.
+
+60
+00:09:11.280 --> 00:09:11.640
+Tracy Kuhrt: Dave.
+
+61
+00:09:13.470 --> 00:09:23.400
+Dave Enyeart: yeah so we've had probably that's a decent number of hacker one reports, most of them have been pretty minor things like people trying to take over the read the Doc site things like that.
+
+62
+00:09:24.930 --> 00:09:29.220
+Dave Enyeart: So I think it's mostly people trying to cherry pick and find bounties easily.
+
+63
+00:09:30.420 --> 00:09:38.850
+Dave Enyeart: We haven't had anything to substantial reported, most of us have been through minor things that we didn't think we needed to do CVs for, but I think the process itself has worked out pretty well.
+
+64
+00:09:48.270 --> 00:09:51.420
+Tracy Kuhrt: Other other comments or thoughts.
+
+65
+00:09:51.930 --> 00:09:53.550
+Tracy Kuhrt: On on what's been.
+
+66
+00:09:54.030 --> 00:09:55.350
+Tracy Kuhrt: proposed by Ryan.
+
+67
+00:10:01.170 --> 00:10:16.200
+Tracy Kuhrt: If not, I feel like maybe where we're at is that we might need to put together a task force for some of these items for this, you know specifics around what it is that we're trying to accomplish with this.
+
+68
+00:10:17.760 --> 00:10:24.630
+Tracy Kuhrt: You know I think more than any it boils down to what are we doing with the existing.
+
+69
+00:10:25.650 --> 00:10:28.860
+Tracy Kuhrt: hacker one, what are we doing with the existing.
+
+70
+00:10:30.630 --> 00:10:47.730
+Tracy Kuhrt: kind of wiki pages that we have what what is the the right process, and so, while I think all the proposals are good at a high level, and maybe it's a question of how do we get to the specifics in the detail behind it.
+
+71
+00:10:55.350 --> 00:11:13.080
+Hyperledger Community: I agree, and I just want to show this, as this is a recent report for three days ago that came in to illustrate david's point, but this is this is actually a really good example of a valid report that.
+
+72
+00:11:14.100 --> 00:11:15.390
+Hyperledger Community: In the end, has no value.
+
+73
+00:11:16.530 --> 00:11:24.210
+Hyperledger Community: I mean it's valid what they're saying, but there's no change in fabric that's needed to to mitigate this so.
+
+74
+00:11:25.500 --> 00:11:32.100
+Hyperledger Community: And if anyone on the tlc wants to be added to the hacker one program as an observer, I will invite you just let me know.
+
+75
+00:11:38.130 --> 00:11:42.120
+Tracy Kuhrt: All right, do we have any volunteers to run a task force.
+
+76
+00:12:06.810 --> 00:12:08.730
+Aruna S M: um I can have a view on this.
+
+77
+00:12:12.750 --> 00:12:13.140
+Tracy Kuhrt: Okay.
+
+78
+00:12:15.270 --> 00:12:18.900
+Tracy Kuhrt: anybody else interested in participating on the task force.
+
+79
+00:12:20.190 --> 00:12:22.770
+Tracy Kuhrt: Is a room know I guess and.
+
+80
+00:12:23.820 --> 00:12:36.810
+Tracy Kuhrt: get something set up to to run through and walk through the specifics, are there any any kind of comments or thoughts that people would like to add as a task force kicks off on this.
+
+81
+00:12:38.040 --> 00:12:41.220
+Tracy Kuhrt: There any concerns with the direction that this is headed.
+
+82
+00:12:42.660 --> 00:12:49.020
+Tracy Kuhrt: Anything that you know people would like to make sure that the task force really takes a look deeper into.
+
+83
+00:12:56.850 --> 00:13:03.870
+Arnaud J Le Hors (IBM): So i'll be happy to participate Task Force don't I don't know if I is not said anything.
+
+84
+00:13:05.040 --> 00:13:19.440
+Arnaud J Le Hors (IBM): Because he's you know he thinks he has his stuff he doesn't need to volunteer, but I think you'd be really good to have rial this because he has probably the most you know bang around them how things have been going so far.
+
+85
+00:13:22.230 --> 00:13:26.370
+Hyperledger Community: i'll be there, I figured that was that was implied but.
+
+86
+00:13:28.980 --> 00:13:34.110
+Hyperledger Community: there's there's a ton that's that's not captured here.
+
+87
+00:13:35.160 --> 00:13:46.230
+Hyperledger Community: that these are issues that have been kicking around the tlc for a long time, like we have, I think, two or three projects that have people on the security mailing list.
+
+88
+00:13:48.240 --> 00:13:59.700
+Hyperledger Community: I think that number is far too low, right now, we have a valid what appears to me to be a valid report of an issue in a project from hacker one.
+
+89
+00:14:01.650 --> 00:14:09.390
+Hyperledger Community: hacker one only covers fabric, but i'm not going to just delete the response i've been trying to get someone from that project to engage on hacker one.
+
+90
+00:14:10.230 --> 00:14:21.840
+Hyperledger Community: And I can't I can't get any response, and then we have another issue on the same project that was filed by a member of the Community directly via email that I forwarded to the security list.
+
+91
+00:14:22.650 --> 00:14:37.140
+Hyperledger Community: and trying to get people to engage is like pulling teeth by policy that's probably easier, honestly, so I think that is missing is like what does the tlc want in terms of membership of the security.
+
+92
+00:14:38.490 --> 00:14:50.550
+Hyperledger Community: Security team and what does the tlc expect, I mean our outline on hacker one says we will respond within 72 hours or something I think we've missed every one of those deadlines so Nathan.
+
+93
+00:14:52.080 --> 00:15:00.180
+Nathan George: I think that all sounds like well within the remit of what needs to be addressed, I think refreshing the security mailing list membership.
+
+94
+00:15:00.630 --> 00:15:05.070
+Nathan George: is probably something we have to do much more frequently than we have and.
+
+95
+00:15:05.820 --> 00:15:17.490
+Nathan George: i'm not sure if there's a way we can measure some of our response times it feels like we have a few different places where we tell people response times are important on responding to issues on responding to emails and other things.
+
+96
+00:15:18.780 --> 00:15:25.290
+Nathan George: i'm not sure the current lf analytics lets us measure that sort of a thing, but that that's something that we might be able to.
+
+97
+00:15:27.990 --> 00:15:32.340
+Nathan George: Help us know when we need to trigger you know, adding or changing membership on some of these.
+
+98
+00:15:34.260 --> 00:15:34.830
+Nathan George: committees.
+
+99
+00:15:40.170 --> 00:15:50.490
+Arnaud J Le Hors (IBM): yeah, so I think in terms of you know engagement from the projects we've got to be able to say, look at least for projects that have graduated.
+
+100
+00:15:50.880 --> 00:16:04.290
+Arnaud J Le Hors (IBM): You must have one of your maintainer is on this list on point you know ready to respond if this concerned your project, I mean if we can't enforce that we might as well go play something else.
+
+101
+00:16:05.820 --> 00:16:12.900
+Arnaud J Le Hors (IBM): I mean, I know the tsp doesn't have much power in practice, but this seems to be and for those who are not quite.
+
+102
+00:16:13.380 --> 00:16:28.620
+Arnaud J Le Hors (IBM): Up to date of this and maybe i'm being more sensitive immediately because i'm not engaging in a peer project to the hyper ledger Linux foundation, called the open ssl, which is where this guy 910 prom and.
+
+103
+00:16:29.040 --> 00:16:45.390
+Arnaud J Le Hors (IBM): But the issue of you know, security and vulnerabilities regarding open source is becoming a major topic of discussion in the industry and around the world governments are taking a very serious look at this so we've got to do our part.
+
+104
+00:16:50.940 --> 00:16:52.620
+Tracy Kuhrt: yeah definitely I think you know.
+
+105
+00:16:54.030 --> 00:17:10.320
+Tracy Kuhrt: As Nathan mentioned having this be a remix of the task force makes some sense right as far as, how do we ensure that we're going to get projects involved in and how do we ensure that we're going to get the response times for the security issues.
+
+106
+00:17:12.390 --> 00:17:21.450
+Tracy Kuhrt: I think all of those sorts of things fall into kind of the the revamp of the security processes that we have in place for for hyper ledger.
+
+107
+00:17:28.440 --> 00:17:37.290
+Tracy Kuhrt: Alright, so you brought this up, this is just fyi for us as far as the all time minimum time to respond in time to triage that sort of thing.
+
+108
+00:17:37.620 --> 00:17:39.870
+Hyperledger Community: Right just the question was like.
+
+109
+00:17:41.190 --> 00:17:45.750
+Hyperledger Community: We don't have, how do we get these statistics we can get some of them from hacker one.
+
+110
+00:17:48.120 --> 00:17:56.880
+Hyperledger Community: We could get them out of jira but it's not easily available and, beyond that, I think we have to.
+
+111
+00:17:58.470 --> 00:18:01.410
+Hyperledger Community: we'd have to manually make some csv s.
+
+112
+00:18:03.840 --> 00:18:04.920
+Hyperledger Community: will publish.
+
+113
+00:18:07.290 --> 00:18:09.300
+Kamlesh Nagware: This hey Kevin the port.
+
+114
+00:18:10.410 --> 00:18:13.770
+Kamlesh Nagware: St to any hyper ledger project will cover all liability projects.
+
+115
+00:18:15.600 --> 00:18:32.580
+Hyperledger Community: This covers all submissions to the hyper ledger program the only funded projects are fabric, IBM it's been a long time, IBM directed funds to hacker one for this program through hyper ledger so hyper ledger has funded this or.
+
+116
+00:18:32.910 --> 00:18:33.750
+Hyperledger Community: This Program.
+
+117
+00:18:34.920 --> 00:18:36.510
+Hyperledger Community: We get reports from everything.
+
+118
+00:18:36.540 --> 00:18:36.900
+Kamlesh Nagware: We get.
+
+119
+00:18:36.930 --> 00:18:39.330
+Hyperledger Community: We get reports for every Linux foundation project.
+
+120
+00:18:40.470 --> 00:18:41.520
+Kamlesh Nagware: So what.
+
+121
+00:18:41.700 --> 00:18:47.010
+Kamlesh Nagware: Was he had a high end so they have anybody in the truth or it got all the project right.
+
+122
+00:18:48.930 --> 00:18:53.640
+Hyperledger Community: This covers all submissions the only ones that we pay out on our fabric.
+
+123
+00:18:55.980 --> 00:19:03.930
+Kamlesh Nagware: Oh OK OK OK, and I know this is publicly available or is a you need some credentials to view these reports.
+
+124
+00:19:05.820 --> 00:19:11.520
+Hyperledger Community: For this report it's not yet publicly available, I guess, we could export the PDF and make that available.
+
+125
+00:19:13.530 --> 00:19:24.600
+Hyperledger Community: i'll see what I can do in order to make this I don't want to do is publish stuff that's in progress so give me an hour or so and i'll get a version of this either on the wiki or on github one way or the other.
+
+126
+00:19:27.420 --> 00:19:31.440
+Hyperledger Community: Okay, and I don't know if this URL.
+
+127
+00:19:32.940 --> 00:19:41.820
+Hyperledger Community: Is publicly available I don't know if you have to be authenticated to see that or, if you have to I don't I don't know, but I will make it available i'll make the data available anyway.
+
+128
+00:19:45.270 --> 00:19:45.630
+Kamlesh Nagware: yeah.
+
+129
+00:19:47.040 --> 00:19:47.430
+Kamlesh Nagware: Thank you.
+
+130
+00:19:54.930 --> 00:19:55.350
+Tracy Kuhrt: alright.
+
+131
+00:19:56.640 --> 00:20:00.120
+Tracy Kuhrt: Any further discussion on this before we move on to the next topic.
+
+132
+00:20:09.750 --> 00:20:28.320
+Tracy Kuhrt: Alright, so I reacted the inclusive meaning proposal to this, I wasn't sure whether or not the DCI was that the day after we last talked and what the update or status of that was so I did include it for us to get.
+
+133
+00:20:29.460 --> 00:20:38.250
+Tracy Kuhrt: More information to see see the outcome and see where we're at with this particular one so grace if you wouldn't mind.
+
+134
+00:20:39.720 --> 00:20:41.580
+Tracy Kuhrt: just giving us an update on this.
+
+135
+00:20:46.650 --> 00:20:51.780
+Tracy Kuhrt: grace English is going to be call them, so this might be looking for her me button.
+
+136
+00:20:59.700 --> 00:21:05.760
+Tracy Kuhrt: She might be able to kill off you Peter we're at the call, but he he working for Paul.
+
+137
+00:21:12.780 --> 00:21:14.070
+Daniela Barbosa: I was not at the last one.
+
+138
+00:21:19.530 --> 00:21:22.830
+Peter Somogyvari: Last DCI to a group called.
+
+139
+00:21:23.640 --> 00:21:31.260
+Tracy Kuhrt: Okay, did you guys make a progress on this particular proposal from the discussion that we had in the last year or.
+
+140
+00:21:33.270 --> 00:21:33.840
+Peter Somogyvari: Not.
+
+141
+00:21:35.430 --> 00:21:41.730
+Peter Somogyvari: We were talking about forming task forces within the DCI work group.
+
+142
+00:21:42.870 --> 00:21:46.890
+Peter Somogyvari: But we haven't yet gotten to the proposal itself.
+
+143
+00:21:47.910 --> 00:21:50.460
+Peter Somogyvari: The only the announcement that.
+
+144
+00:21:51.510 --> 00:21:53.730
+Peter Somogyvari: I had an update is.
+
+145
+00:21:55.080 --> 00:21:55.590
+Peter Somogyvari: That.
+
+146
+00:21:57.150 --> 00:21:58.620
+Peter Somogyvari: same one that I gave.
+
+147
+00:21:59.760 --> 00:22:02.730
+Peter Somogyvari: A couple weeks ago, maybe that I have finished.
+
+148
+00:22:03.990 --> 00:22:04.830
+Peter Somogyvari: The.
+
+149
+00:22:06.630 --> 00:22:13.500
+Peter Somogyvari: guide for the DC island to sort of there's now a step by step screen cast to deal where.
+
+150
+00:22:14.520 --> 00:22:15.180
+Peter Somogyvari: People can.
+
+151
+00:22:16.290 --> 00:22:19.380
+Peter Somogyvari: configure it on their project and pretty much just a few clicks.
+
+152
+00:22:21.030 --> 00:22:25.530
+Peter Somogyvari: So we will include all in dad in the proposal as well.
+
+153
+00:22:27.060 --> 00:22:28.920
+Peter Somogyvari: And that that was my update.
+
+154
+00:22:33.030 --> 00:22:40.740
+Tracy Kuhrt: So it sounds like we haven't moved in from the discussion that we had last week on this particular item.
+
+155
+00:22:42.180 --> 00:22:48.030
+Tracy Kuhrt: So if that's the case I guess that was the end of the agenda was it not.
+
+156
+00:22:49.830 --> 00:22:54.030
+Tracy Kuhrt: So there anything else that anybody would like to talk about or cover.
+
+157
+00:23:01.890 --> 00:23:02.670
+Arnaud J Le Hors (IBM): So.
+
+158
+00:23:03.750 --> 00:23:14.370
+Arnaud J Le Hors (IBM): At the risk of sounding a bit obsessed with security, no, I just wanted to raise attention to another to another project that's.
+
+159
+00:23:15.180 --> 00:23:30.090
+Arnaud J Le Hors (IBM): being led by the OSS have and it's called scorecard and they basically are working on developing a tool that allows that provides a way to scan.
+
+160
+00:23:30.780 --> 00:23:42.120
+Arnaud J Le Hors (IBM): repositories and with a whole bunch of different Yuri sticks, they are trying to assess the level of fun, I mean the risk is you know.
+
+161
+00:23:42.900 --> 00:23:59.070
+Arnaud J Le Hors (IBM): For vulnerabilities into a repo and it's an interesting tool that is very much in the works, but I encourage people to have a look and try it out against their repo.
+
+162
+00:23:59.820 --> 00:24:08.880
+Arnaud J Le Hors (IBM): I started doing that and actually found the bug completely unrelated, but it was interesting Nevertheless, we are the weather Shell script that a.
+
+163
+00:24:09.390 --> 00:24:20.820
+Arnaud J Le Hors (IBM): syntax error in it and and that the program found out but it's not really designed for this it just it just you know showed up in the report and.
+
+164
+00:24:21.480 --> 00:24:33.180
+Arnaud J Le Hors (IBM): In any case, I think this is the kind of tool that we will be called to use more and more to again improve the security overall of open source projects.
+
+165
+00:24:33.690 --> 00:24:44.400
+Arnaud J Le Hors (IBM): And so I encourage people to have a look score score calm it's a small program there are different, it comes in different forms.
+
+166
+00:24:45.060 --> 00:24:54.060
+Arnaud J Le Hors (IBM): This go projects go Lang so you can just grab the source code and compile it but, so there are different binaries available it comes to the.
+
+167
+00:24:54.540 --> 00:25:07.830
+Arnaud J Le Hors (IBM): docker container and it's a pretty simple setup just basically you can run it locally in a machine just give it the URL of the github repo and it will just spit out.
+
+168
+00:25:08.670 --> 00:25:26.520
+Arnaud J Le Hors (IBM): A report fairly quickly and it's again, you know it's by no means perfect nobody claims that the days, but they are working on trying to improve it over time and it's better than nothing, and they felt like well we've got to start somewhere so let's do it.
+
+169
+00:25:29.100 --> 00:25:29.460
+Arnaud J Le Hors (IBM): So.
+
+170
+00:25:30.600 --> 00:25:32.160
+Tracy Kuhrt: All right, maybe.
+
+171
+00:25:35.250 --> 00:25:38.190
+Tracy Kuhrt: Maybe add a link to the TC chat on that particular.
+
+172
+00:25:38.250 --> 00:25:38.700
+sure.
+
+173
+00:25:39.870 --> 00:25:42.000
+Tracy Kuhrt: tool, so that people can take a look at it.
+
+174
+00:25:42.030 --> 00:25:44.940
+Arnaud J Le Hors (IBM): yeah yeah absolutely happy to do that.
+
+175
+00:25:45.510 --> 00:25:47.940
+Tracy Kuhrt: Alright, thanks, and then was that was.
+
+176
+00:25:50.790 --> 00:25:52.230
+Artem Barger: yeah I was just curious.
+
+177
+00:25:53.280 --> 00:25:58.830
+Artem Barger: Which language does this to support so it's only for is it only for the Golan so it could be.
+
+178
+00:25:58.950 --> 00:26:21.540
+Arnaud J Le Hors (IBM): Think, no, no, no, so they are trying to cover as many languages as possible, it does things like Python and Java c++, and again I mean it's very much a work in progress, so they are hiding as we speak, right more and more suited for all sorts of things.
+
+179
+00:26:25.980 --> 00:26:29.580
+Arnaud J Le Hors (IBM): Put the put the link to the project in the chat.
+
+180
+00:26:30.630 --> 00:26:34.560
+Arnaud J Le Hors (IBM): And you can start looking at it and get a sense of what it does.
+
+181
+00:26:36.450 --> 00:26:53.220
+Arnaud J Le Hors (IBM): And it gives a score that's interesting it's not just black no or you know yay or nay it actually tries to give a score with regard to different tips types of tests that they ran, and so it gives your level of.
+
+182
+00:26:54.600 --> 00:26:58.500
+Arnaud J Le Hors (IBM): Confidence with regard to how good or bad, you are doing.
+
+183
+00:26:59.550 --> 00:27:16.080
+Arnaud J Le Hors (IBM): And I i'll be honest and transparent when I ran it against the fabric project, it gives us a score of less than five over 10 it was four point, something which okay hope we can improve because that doesn't look too good.
+
+184
+00:27:21.990 --> 00:27:22.590
+Tracy Kuhrt: Thanks.
+
+185
+00:27:24.240 --> 00:27:33.900
+Tracy Kuhrt: yeah and one thing that I thought about was the not related to security, but just an update on the task force for the chat.
+
+186
+00:27:35.100 --> 00:27:39.180
+Tracy Kuhrt: We did have our first meeting yesterday it was quite.
+
+187
+00:27:39.960 --> 00:27:42.390
+Tracy Kuhrt: Quite a good meeting, where we talked about kind of.
+
+188
+00:27:42.930 --> 00:27:52.470
+Tracy Kuhrt: requirements that people have for chat system, we talked about things that we think are currently missing from our chat system, we talked about things that are good with our chat system.
+
+189
+00:27:53.220 --> 00:28:05.520
+Tracy Kuhrt: So I encourage anyone who has some thoughts on you know things they like about what we currently have things they don't like about what we currently have with rocket chat that let the task force know.
+
+190
+00:28:06.180 --> 00:28:15.750
+Tracy Kuhrt: There is a wiki page that has been created to start to capture that information, but you know if there's if there's the opportunity that you have to.
+
+191
+00:28:16.230 --> 00:28:22.320
+Tracy Kuhrt: To be to discuss this with other people in the Community and and get their feedback as well.
+
+192
+00:28:23.040 --> 00:28:31.620
+Tracy Kuhrt: Please do that, I think that the task force is going to try and come to some of the project meetings and have a conversation with with people around.
+
+193
+00:28:32.070 --> 00:28:41.010
+Tracy Kuhrt: What it is that they they like what it is they don't like so thanks for bringing the the wiki page up this is the wiki page that.
+
+194
+00:28:41.820 --> 00:28:50.820
+Tracy Kuhrt: Is kind of the start of the discussion we really focused in on question zero but really a question nine with the requirements.
+
+195
+00:28:51.720 --> 00:29:12.390
+Tracy Kuhrt: That we think should exist and kind of who the audiences are for the different sorts of people who come to to the chat so again, if you have any thoughts or would like to add to this this task force we're meeting again two weeks from yesterday so two weeks from.
+
+196
+00:29:14.100 --> 00:29:25.860
+Tracy Kuhrt: Wednesday, which I don't know what the date is sometime in December, I believe, so feel free to check that out, I think the invite went out to the tasc may we were so there should be a.
+
+197
+00:29:28.860 --> 00:29:32.640
+Tracy Kuhrt: link that you can come to and join that particular task force.
+
+198
+00:29:36.660 --> 00:29:40.080
+Tracy Kuhrt: Anything else that you would like to bring up or discuss.
+
+199
+00:29:41.520 --> 00:29:42.630
+Tracy Kuhrt: Before I let you have some.
+
+200
+00:29:51.780 --> 00:29:53.310
+Tracy Kuhrt: very quiet group today.
+
+201
+00:29:55.830 --> 00:30:11.220
+Tracy Kuhrt: I if there are no other comments, then I will let you go for those in the US enjoy the holiday next week and for everyone, we will see you in two weeks.
+
+202
+00:30:14.010 --> 00:30:14.400
+Hyperledger Community: Thank you.
+
+203
+00:30:15.090 --> 00:30:16.500
+Arnaud J Le Hors (IBM): sounds good, thank you.
+
+204
+00:30:17.790 --> 00:30:18.120
+Dave Enyeart: bye.
+

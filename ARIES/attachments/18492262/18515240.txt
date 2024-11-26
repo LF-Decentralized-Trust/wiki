@@ -1,0 +1,47 @@
+13:05:53	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/pages/viewpage.action?pageId=51611862
+13:15:30	 From  Troy Ronda : Yeh - want to see alignment with WACI PeX.
+13:15:35	 From  Troy Ronda : Cool stuff.
+13:24:25	 From  Troy Ronda : Timo - were you good with this too?
+13:25:13	 From  Troy Ronda : Any changes you are thinking about?
+13:25:14	 From  Timo Glastra : I missed the updates from George. Will review during/directly after this call
+13:26:01	 From  Daniel Hardman : Hi, folks. This is Daniel just signing on late...
+13:26:09	 From  Troy Ronda : I think merge and then we can do some updates on it this week if needed?
+13:26:36	 From  Troy Ronda : Hi Daniel
+13:26:37	 From  Troy Ronda : :)
+13:26:56	 From  Troy Ronda : I think it would be a good idea to have a notice.
+13:27:02	 From  Troy Ronda : One week sounds good.
+13:27:07	 From  Nathan George : we
+13:27:23	 From  Nathan George : ‘Re overdue for another spec reconciliation discussion
+13:27:36	 From  Timo Glastra : @Troy That's okay with me
+13:29:23	 From  Troy Ronda : https://github.com/hyperledger/aries-rfcs/pull/660
+13:29:35	 From  Troy Ronda : Should be labelled AIP2 ^^^
+13:34:04	 From  Troy Ronda : You encode with varint
+13:35:47	 From  Troy Ronda : https://w3c-ccg.github.io/did-method-key/#ed25519-x25519
+13:36:00	 From  Troy Ronda : did:key:z6LSeu9HkTHSfLLeUs2nnzUSNedgDUevfNQgQjQC23ZCit6F
+did:key:z6LStiZsmxiK4odS4Sb6JmdRFuJ6e1SYP157gtiCyJKfrYha
+did:key:z6LSoMdmJz2Djah2P4L9taDmtqeJ6wwd2HhKZvNToBmvaczQ
+13:37:14	 From  Troy Ronda : https://github.com/w3c-ccg/did-method-key/issues/29#issuecomment-786028270
+13:37:40	 From  Troy Ronda : https://github.com/w3c-ccg/did-method-key/issues/29#issue-815983527
+13:37:42	 From  Daniel Hardman : Merge!
+13:38:12	 From  Troy Ronda : 0xed is a special case
+13:42:06	 From  Troy Ronda : Fixed https://github.com/hyperledger/aries-rfcs/pull/660/files
+13:44:03	 From  Troy Ronda : Would it make sense to Merge and then open a PR?
+13:47:30	 From  Troy Ronda : Do we have an open issues?
+13:53:00	 From  Troy Ronda : We still have a pending kid /skid discussion right?
+13:53:20	 From  baha : #631 but it’s not ready with 1PU draft4 change
+13:54:28	 From  Troy Ronda : Examples seem like clarifications to me.
+13:54:54	 From  Troy Ronda : I assume we can add examples even after AIP2 goes out.
+13:55:31	 From  baha : yes
+13:55:40	 From  Troy Ronda : It’s currently written as key id yes
+13:55:50	 From  Troy Ronda : Using a DID URI as the key id.
+14:16:34	 From  Troy Ronda : Note: the context URL for BBS got changed.
+14:16:58	 From  Troy Ronda : It’s now https://w3id.org/security/suites/bls12381-2020/v1
+14:17:16	 From  Troy Ronda : (Saw it in the example while you were scrolling)
+14:17:41	 From  Troy Ronda : Can we fix AIP2 if something is missing?
+14:18:11	 From  Troy Ronda : Would be great to be aligned as much as we can.
+14:19:19	 From  Troy Ronda : So now we need to wait for AIP 3? :(
+14:20:03	 From  Troy Ronda : So next week we start on the AIP 3 discussion lol.
+14:22:15	 From  Troy Ronda : Yeh. Maybe 587 + another RFC.
+14:23:48	 From  Troy Ronda : Yup. Something more broad.
+14:25:46	 From  Troy Ronda : One discussion we should still get into is dealing with the redirect flows.
+14:25:49	 From  Daniel Hardman : Sorry about the noise; I think I’ve been unmuted a couple times as people came to the door. (I’m moving this week. Chaos…) Didn’t mean to disturb our call.

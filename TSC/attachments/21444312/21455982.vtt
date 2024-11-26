@@ -1,0 +1,762 @@
+WEBVTT
+
+1
+00:00:12.059 --> 00:00:18.810
+Tracy Kuhrt: Welcome everyone to the April 14 hyper ledger technical steering committee call, as you are all aware.
+
+2
+00:00:19.380 --> 00:00:30.210
+Tracy Kuhrt: Two things we must abide by on this call the first is the antitrust policy notice that is currently displayed on the screen and the second is our code of conduct, which is linked in the agenda.
+
+3
+00:00:31.290 --> 00:00:40.950
+Tracy Kuhrt: So standard announcements that we have the first one to get weekly developer newsletter goes out each Friday, if you have anything that you would like to see added to that.
+
+4
+00:00:41.460 --> 00:00:59.700
+Tracy Kuhrt: Please add a comment on the wiki page and then the second announcement is that the hyper ledger global forum is still accepting CFP until April 29th so just about two weeks away now, and if you have anything that you would like to.
+
+5
+00:01:02.100 --> 00:01:14.040
+Tracy Kuhrt: Talk about at the hyper ledger call before and Please submit your CFP and then also, I believe, a heart is still correct at the program committee volunteers still open for people to volunteer.
+
+6
+00:01:15.330 --> 00:01:29.040
+Hart Montgomery: Absolutely Tracy if you're interested, please feel free to reach out and we are also still reaching out to people, we have a number of people who have already said yes, so thank you very much, if that's if you're one of those people.
+
+7
+00:01:30.180 --> 00:01:33.510
+Hart Montgomery: And if not we'd love to hear from you so thanks a lot.
+
+8
+00:01:34.860 --> 00:01:35.610
+Tracy Kuhrt: All right, great.
+
+9
+00:01:36.000 --> 00:01:38.250
+Tracy Kuhrt: Any other announcements if anybody would like to make.
+
+10
+00:01:41.010 --> 00:01:43.590
+Ry Jones: I think Daniela has a minor announcement.
+
+11
+00:01:46.920 --> 00:01:47.520
+Ry Jones: she's muted.
+
+12
+00:01:49.080 --> 00:01:49.830
+Daniela Barbosa: Which is that.
+
+13
+00:01:50.700 --> 00:01:52.230
+Ry Jones: The forum for our.
+
+14
+00:01:53.280 --> 00:01:54.120
+Ry Jones: event in Dublin.
+
+15
+00:01:54.480 --> 00:02:10.410
+Daniela Barbosa: Oh, oh okay yeah, so we will be having our hyper ledger evening event at the Guinness storehouse, which is the premier place for for activities in Dublin so cheers to us all and we'll see you there.
+
+16
+00:02:15.420 --> 00:02:16.170
+Tracy Kuhrt: Thanks Daniela.
+
+17
+00:02:16.740 --> 00:02:19.620
+Tracy Kuhrt: Any other announcements that anybody would like to thank.
+
+18
+00:02:26.520 --> 00:02:30.810
+Tracy Kuhrt: Okay, see no hands and nobody coming off mute I take that as a no.
+
+19
+00:02:31.830 --> 00:02:50.700
+Tracy Kuhrt: So we got in the hyper ledger cactus quarterly report that is due, today, I know that some of you have already had a chance to look at it, if you haven't yet had a chance to look at, please do so, I think the there was one question that I asked in Peter took care of that, so I think.
+
+20
+00:02:51.780 --> 00:02:54.000
+Tracy Kuhrt: Unless anybody has any questions right now.
+
+21
+00:02:56.580 --> 00:03:01.380
+Tracy Kuhrt: that's probably it for the reports, but does anybody have any questions on the cactus report.
+
+22
+00:03:09.870 --> 00:03:21.270
+Tracy Kuhrt: Okay, so no questions there so Dave did, let us know that he'd be putting the fabric report together, so we should be seeing that one coming shortly as well, so as you're.
+
+23
+00:03:22.260 --> 00:03:28.650
+Tracy Kuhrt: Thinking about reviewing the cactus one if you haven't already please also take a look and see if the fabric, one is available.
+
+24
+00:03:30.870 --> 00:03:35.940
+Tracy Kuhrt: So we don't have any quarterly reports that are due next week, the next one that's do is hyper ledger sawtooth.
+
+25
+00:03:36.570 --> 00:03:49.860
+Tracy Kuhrt: And as far as I know we don't have any specific tlc business to discuss, but if, so please speak up now, we can talk about anything that people would like to talk to you see business wise.
+
+26
+00:03:58.830 --> 00:04:00.090
+Tracy Kuhrt: Okay, so.
+
+27
+00:04:01.230 --> 00:04:11.130
+Tracy Kuhrt: Then I guess I know it's up to you to take us through the work that you've done for us already on the TC responsibilities.
+
+28
+00:04:12.570 --> 00:04:13.770
+Arnaud J Le Hors (IBM): Right, thank you.
+
+29
+00:04:15.330 --> 00:04:21.000
+Arnaud J Le Hors (IBM): kitty well today ship is can override do you want to click on the link you had in front of you.
+
+30
+00:04:21.750 --> 00:04:23.820
+Ry Jones: sure I will I didn't know if you're going to like.
+
+31
+00:04:24.090 --> 00:04:27.990
+Arnaud J Le Hors (IBM): Speak doesn't really matter to either either way works.
+
+32
+00:04:31.440 --> 00:04:37.530
+Arnaud J Le Hors (IBM): So I mean for everybody, you can just click on the files changed and there's only one so.
+
+33
+00:04:38.970 --> 00:04:41.520
+Arnaud J Le Hors (IBM): So, as you know, this is about.
+
+34
+00:04:43.110 --> 00:04:50.760
+Arnaud J Le Hors (IBM): adding a page that disk that describes the responsibility of Jesse members and so.
+
+35
+00:04:51.510 --> 00:04:57.390
+Arnaud J Le Hors (IBM): I figured we didn't really need a task force because I don't know that there is much discussion needed.
+
+36
+00:04:57.780 --> 00:05:11.280
+Arnaud J Le Hors (IBM): I figured the most effective way forward was to actually put the PR together, and so this PR is the one we're seeing now and it basically adds one page to the.
+
+37
+00:05:11.730 --> 00:05:23.490
+Arnaud J Le Hors (IBM): To the tasc space, which would be rendered on the tlc website and I this page basically starts listing the.
+
+38
+00:05:24.000 --> 00:05:30.120
+Arnaud J Le Hors (IBM): The role of the tasc that comes from the Charter so that's something that we have to accept.
+
+39
+00:05:30.630 --> 00:05:39.810
+Arnaud J Le Hors (IBM): If we disagreed with any of this, we would have to go back to the Governing Board to revise the Charter but I don't think any of this is controversial.
+
+40
+00:05:40.200 --> 00:05:49.440
+Arnaud J Le Hors (IBM): At least his name, nobody has ever raised in the objections to this, so instead you know I think the more interesting part is the next sections.
+
+41
+00:05:49.800 --> 00:06:09.090
+Arnaud J Le Hors (IBM): which you know, is something that is not listed in the Charter, but that, based on my experience with now many years as a tlc members and then, as well as Chair I figured it would be good to least several things that I think are expected of us and.
+
+42
+00:06:10.440 --> 00:06:18.900
+Arnaud J Le Hors (IBM): And so I I got feedback from Tracy that I incorporated so, can you scroll down a little bit.
+
+43
+00:06:20.160 --> 00:06:29.820
+Arnaud J Le Hors (IBM): yeah So this is the most important part right, so we can look quickly to see Members like a it's pretty straightforward, you have to spit in tlc meetings.
+
+44
+00:06:30.960 --> 00:06:33.870
+Arnaud J Le Hors (IBM): review the tlc project updates which we just did.
+
+45
+00:06:35.160 --> 00:06:49.800
+Arnaud J Le Hors (IBM): bring up and help resolve any issues related to the need of the Community and participate in an option on your chair the task forces, set up by the tlc that's the kind of stuff we do and.
+
+46
+00:06:50.910 --> 00:06:59.550
+Arnaud J Le Hors (IBM): Then one project meeting a month, so you know you see because somebody said, do we really want to have this in there and I think it was a road but.
+
+47
+00:07:00.210 --> 00:07:10.890
+Arnaud J Le Hors (IBM): It doesn't matter the I felt like yes, I mean this is a decision we've made we said we would do this and I figured well, we should just list that.
+
+48
+00:07:11.730 --> 00:07:23.040
+Arnaud J Le Hors (IBM): And you know we're not the police not tracking what people are actually doing it doesn't really that's not the point I think the point is really to set the expectation.
+
+49
+00:07:24.060 --> 00:07:31.470
+Arnaud J Le Hors (IBM): So that, in particular when we do the tsa election every year, you know people can have a look, we can point to this and say.
+
+50
+00:07:31.740 --> 00:07:51.090
+Arnaud J Le Hors (IBM): hey you want to nominate yourself of the nominate and you've been nominated by somebody to run on the tsa election, this is what the same tales and then I described the tasc chair role, which you know there's this kind of funny story, I mean it was funny for me.
+
+51
+00:07:52.290 --> 00:08:11.970
+Arnaud J Le Hors (IBM): Tracy didn't think it was so funny but you know after she got elected I had a chat with her and I started listing all the things that just brains, you know it was kind of a brain dump all the things that I was doing as chair and they were a lot of things that she.
+
+52
+00:08:13.320 --> 00:08:18.210
+Arnaud J Le Hors (IBM): kind of laughed and say oh gee nobody knew about all of these things before.
+
+53
+00:08:20.010 --> 00:08:30.300
+Arnaud J Le Hors (IBM): and thankfully I don't think she would not have written, for that matter, but I think it's, it is true that you know some of these things, not necessarily completely obvious.
+
+54
+00:08:30.600 --> 00:08:36.090
+Arnaud J Le Hors (IBM): And again, I think it's good to set an expectation, so that if people are interested in running for chair.
+
+55
+00:08:36.930 --> 00:08:45.690
+Arnaud J Le Hors (IBM): They should know what it entails and there's The thing that of course everybody knows about you know the running those tlc to calls typically.
+
+56
+00:08:45.990 --> 00:08:55.020
+Arnaud J Le Hors (IBM): But you know you may also have realized that tlc always gives an update at the global forum, as well as the Member summit, you may be aware that.
+
+57
+00:08:55.440 --> 00:09:08.670
+Arnaud J Le Hors (IBM): That tasc chair is also the Governing Board, which, as a few meetings and during those meetings we are invited us chair to give an update on what's going on in the tasc so to be clear, you can ever.
+
+58
+00:09:09.420 --> 00:09:24.270
+Arnaud J Le Hors (IBM): I used to have only one slide and you can have a couple of slides but you're like 1015 minutes to give an update on what's going on and then there's also the last bullet, which I think was the most surprising, the the two to.
+
+59
+00:09:26.070 --> 00:09:40.770
+Arnaud J Le Hors (IBM): Tracy is you know, the fact that we are also in contact with the staff who you know will reach out to the chair when they have inquiries from external parties, it can be the press, it can be some analysis to want to know.
+
+60
+00:09:41.580 --> 00:09:55.200
+Arnaud J Le Hors (IBM): bit more on the technical side what's going on and typically this can be a collaboration between the staff and the Chair as to how to respond to these inquiries, but this is, you know something that.
+
+61
+00:09:56.070 --> 00:10:10.080
+Arnaud J Le Hors (IBM): chairs, you know do, and so, then we added a section, and I think Tracy for bringing that one up i'd forgotten, but we added the small section on the vice chair she's the vice chair.
+
+62
+00:10:10.500 --> 00:10:19.920
+Arnaud J Le Hors (IBM): explaining what the when the primary responsibilities are which you, as you know, is to run the test meeting and the Chair is not available.
+
+63
+00:10:20.370 --> 00:10:27.930
+Arnaud J Le Hors (IBM): but also to help, so I think this is something Tracy you put in place, I didn't really do that, I think, but.
+
+64
+00:10:28.860 --> 00:10:38.700
+Arnaud J Le Hors (IBM): reaching out to projects when they miss submitting to see quality project updates when they're missing, but so this is kind of you know.
+
+65
+00:10:39.240 --> 00:10:53.580
+Arnaud J Le Hors (IBM): I, I hope, none of this is a is controversial now, is there any questions about this, because then there's a couple of questions that came up in the comments that I think we should discuss especially one.
+
+66
+00:10:57.630 --> 00:11:04.920
+Arnaud J Le Hors (IBM): So I don't see anybody raising their hands or anything so I assume this is non controversial I would expect that to be honest, but.
+
+67
+00:11:06.120 --> 00:11:15.600
+Arnaud J Le Hors (IBM): So now, if we go back right to the to the page the chorus conversation page, we can look at the comments.
+
+68
+00:11:16.950 --> 00:11:23.190
+Arnaud J Le Hors (IBM): So there was this issue about you know attending meetings a room saying, do we really need this.
+
+69
+00:11:25.110 --> 00:11:31.440
+Arnaud J Le Hors (IBM): So you guys can decide, you know if you disagree with it the status quo and cnet and.
+
+70
+00:11:32.640 --> 00:11:40.110
+Arnaud J Le Hors (IBM): A room does not further responded and, if you want to do that now room, are you okay with keeping it go ahead.
+
+71
+00:11:42.840 --> 00:11:52.350
+Aruna S M: Oh, I mean I intentionally did not respond because I did not know what else to respond i'm fine with the explanation, so far, probably should have just said okay.
+
+72
+00:11:54.570 --> 00:11:57.780
+Arnaud J Le Hors (IBM): that's fine, we can call that result and.
+
+73
+00:11:58.200 --> 00:11:59.820
+Arnaud J Le Hors (IBM): And then the the other one.
+
+74
+00:12:00.210 --> 00:12:17.970
+Arnaud J Le Hors (IBM): Is a rune suggested we add something about the responsibility for Chelsea members to act as two words or ambassador for the hyper ledger foundation, I actually think it's it's a good idea, this is definitely something I have been doing.
+
+75
+00:12:19.710 --> 00:12:26.640
+Arnaud J Le Hors (IBM): And not just when I was a chair, I mean, in general I you know I bought spinning many conferences.
+
+76
+00:12:26.910 --> 00:12:37.170
+Arnaud J Le Hors (IBM): And I were talking about hyper ledger I often talk about I played your fabric next but I always give an introduction about hyper ledger where I explain a bit, but the different projects and so on.
+
+77
+00:12:37.650 --> 00:12:43.350
+Arnaud J Le Hors (IBM): And i've been involved in the European blockchain forum for instance and.
+
+78
+00:12:43.890 --> 00:12:51.780
+Arnaud J Le Hors (IBM): i'm a member of the expert group there, and you know, one of the things that i've been doing there for several years now.
+
+79
+00:12:52.080 --> 00:13:02.460
+Arnaud J Le Hors (IBM): he's talking about what we do an iPad ager to make sure that they are aware and they don't reinvent the world or you know that they they know about this what's what we are doing here.
+
+80
+00:13:03.270 --> 00:13:14.940
+Arnaud J Le Hors (IBM): And so I think it's quite appropriate to bring that up, but at the same time, this I realized this is not, this is something everybody feels like they they want to sign up for so.
+
+81
+00:13:16.290 --> 00:13:27.240
+Arnaud J Le Hors (IBM): I didn't really want to just add it because, for me, it was not as obvious as the rest and I said we should discuss this, and so, in my opinion, we are free, are we are basically.
+
+82
+00:13:27.960 --> 00:13:42.330
+Arnaud J Le Hors (IBM): three options is one we say we don't add this at all the other is we add it as a most this is what's expected or it's like you know, an optional kind of activity that people made.
+
+83
+00:13:44.970 --> 00:13:46.680
+Arnaud J Le Hors (IBM): So right, you have your hand up.
+
+84
+00:13:47.130 --> 00:13:47.970
+Ry Jones: Sure, I.
+
+85
+00:13:49.290 --> 00:14:02.610
+Ry Jones: I the page is on responsibilities and personally I would feel uncomfortable you know telling people that it's your responsibility to be out there front and Center because, as you know that some people are are not comfortable doing that.
+
+86
+00:14:03.960 --> 00:14:19.410
+Ry Jones: But I think I raised my hand before you offered the third option, which I think would be the way to do it as not a responsibility, but I would phrase it more as an opportunity.
+
+87
+00:14:20.970 --> 00:14:29.550
+Ry Jones: For people who want to you know get out there and and talk in public and that's how I would go.
+
+88
+00:14:30.750 --> 00:14:31.200
+Ry Jones: Tracy.
+
+89
+00:14:33.420 --> 00:14:42.030
+Tracy Kuhrt: yeah so I I don't I think there are many ways that you can act as an ambassador or steward and I don't think it has to involve.
+
+90
+00:14:42.540 --> 00:14:53.400
+Tracy Kuhrt: Speaking in front of an audience of hundreds right, I think it could be answering a question on the chat channels, if you know the answer to it, I think it could be.
+
+91
+00:14:54.750 --> 00:15:06.060
+Tracy Kuhrt: You know, helping somebody get involved in contributing to the project that you're participating in or the working group or the task force right just being welcoming to people in the Community is.
+
+92
+00:15:06.420 --> 00:15:24.660
+Tracy Kuhrt: acting as an ambassador or steward for hyper ledger right, and so I just want to make sure that we don't conflate the two of speaking at conferences with being an ambassador, and I, I think that being an ambassador Stewart is definitely um you know something that I would.
+
+93
+00:15:24.870 --> 00:15:25.920
+Tracy Kuhrt: have them adding.
+
+94
+00:15:28.980 --> 00:15:32.250
+Arnaud J Le Hors (IBM): But, so what you're saying is if we added, we have to.
+
+95
+00:15:32.910 --> 00:15:36.990
+Arnaud J Le Hors (IBM): Be careful I mean to kind of specify what they sent out.
+
+96
+00:15:37.590 --> 00:15:39.480
+Tracy Kuhrt: yeah yeah yeah well.
+
+97
+00:15:40.620 --> 00:15:46.170
+Tracy Kuhrt: I think you could, I think you could add it as being an ambassador steward of the hyper ledger foundation.
+
+98
+00:15:47.190 --> 00:15:55.020
+Tracy Kuhrt: and provide examples of ways that you might do that, instead of saying this is the only way that you can act as an investor sure yeah.
+
+99
+00:15:55.980 --> 00:15:58.230
+Arnaud J Le Hors (IBM): I meant yes okay sounds good.
+
+100
+00:15:59.250 --> 00:16:00.150
+Arnaud J Le Hors (IBM): Nathan.
+
+101
+00:16:02.160 --> 00:16:12.060
+Nathan George: Well, and I think it's we're not trying to be prescriptive what someone has to do with this statement so much as setting expectations, and I think it is a good thing to tell potential.
+
+102
+00:16:12.090 --> 00:16:20.340
+Nathan George: tasc members David or Sean might reach out to you and say hey there's a panel at this conference, are you interested or Can you help with this webinar.
+
+103
+00:16:21.270 --> 00:16:32.520
+Nathan George: And I think most of the maintainer who would run for the tasc kind of already expect that because they've seen tasc Members do those sorts of things or they've participated in that that kind of thing themselves it's just it's a good thing to have on the list.
+
+104
+00:16:35.310 --> 00:16:48.990
+Arnaud J Le Hors (IBM): Alright, so I hear, for now, that people express themselves in to be in favor of hiding something and being careful about you know how we weren't what this entails, but.
+
+105
+00:16:50.370 --> 00:16:52.530
+Arnaud J Le Hors (IBM): Any other opinions or hot.
+
+106
+00:16:54.330 --> 00:17:01.140
+Hart Montgomery: yeah I agree, I mean I think it's not unreasonable to ask tlc members to sort of pitch in and help out with.
+
+107
+00:17:01.650 --> 00:17:03.480
+Hart Montgomery: You know, some things but certainly.
+
+108
+00:17:04.170 --> 00:17:13.650
+Hart Montgomery: How that occurs should be open to them, you know Ryan, others are absolutely right that not everybody wants to go in front of you know.
+
+109
+00:17:14.970 --> 00:17:22.620
+Hart Montgomery: Huge numbers of people at conferences or things like that, but there are lots of other ways to be a Community steward as Tracy pointed out so.
+
+110
+00:17:23.730 --> 00:17:25.890
+Hart Montgomery: I really liked how Tracy put it.
+
+111
+00:17:28.080 --> 00:17:36.600
+Ry Jones: did want to point out, and I wanted to make sure that it was public before I did this is the the lf mantra right humble helpful helpful.
+
+112
+00:17:39.450 --> 00:17:42.180
+Ry Jones: And that is something that.
+
+113
+00:17:43.650 --> 00:17:52.920
+Ry Jones: I think encapsulates a lot of what Tracy said about answering the questions you know if you can, if you can answer or redirect someone.
+
+114
+00:17:54.840 --> 00:18:00.030
+Ry Jones: You know that's that's perfect so anyway, I just wanted to share that.
+
+115
+00:18:10.680 --> 00:18:11.490
+Arnaud J Le Hors (IBM): opinions.
+
+116
+00:18:15.240 --> 00:18:16.980
+Arnaud J Le Hors (IBM): If not, I think you know.
+
+117
+00:18:18.750 --> 00:18:23.550
+Arnaud J Le Hors (IBM): This is the only thing left that'd be great if you scroll down I think that's it so.
+
+118
+00:18:25.470 --> 00:18:37.830
+Arnaud J Le Hors (IBM): If we're in agreement, well then there's a question of the table of contents and how where it fits in the page, but I don't think a biggie is worth our time discussing here kamlish good.
+
+119
+00:18:41.730 --> 00:18:42.030
+Kamlesh Nagware: So.
+
+120
+00:18:43.860 --> 00:19:02.490
+Kamlesh Nagware: This is regarding the point of four and five like communicating with a external industry organization concerning data technical methods and especially our point five appointing representative to work with other open source of each candle communities So what is this one.
+
+121
+00:19:07.080 --> 00:19:19.410
+Kamlesh Nagware: Like what other law, the likes of or like hmm foundation is one of the open, so it could be that are like well, maybe I typically blockchains all is a different.
+
+122
+00:19:19.800 --> 00:19:24.210
+Arnaud J Le Hors (IBM): move back up right please I think it's part of our rooms.
+
+123
+00:19:26.220 --> 00:19:28.830
+Arnaud J Le Hors (IBM): comment right is that what you mean them lunch.
+
+124
+00:19:29.100 --> 00:19:34.650
+Kamlesh Nagware: And as a data Point number four and five in the tsa responded is in the page.
+
+125
+00:19:36.240 --> 00:19:40.440
+Arnaud J Le Hors (IBM): Okay yeah yeah yeah you mean at the beginning of the page.
+
+126
+00:19:40.500 --> 00:19:45.480
+Kamlesh Nagware: Like yeah if you really look at the file change and then open the file yeah yeah.
+
+127
+00:19:46.470 --> 00:19:50.550
+Arnaud J Le Hors (IBM): Good point, so this is the part that's from the Charter.
+
+128
+00:19:51.510 --> 00:19:51.810
+Kamlesh Nagware: yeah.
+
+129
+00:19:51.840 --> 00:19:53.340
+Kamlesh Nagware: Like was 45.
+
+130
+00:19:57.930 --> 00:19:59.700
+Arnaud J Le Hors (IBM): Okay, so what is your question now.
+
+131
+00:20:00.210 --> 00:20:01.740
+Kamlesh Nagware: My medicine is like.
+
+132
+00:20:02.790 --> 00:20:20.760
+Kamlesh Nagware: Appointing representative to work with open source and extended Community so if if someone is part of this kind of committee committees today, they need to convey this message or or an update to the hyper ledger or what is all about.
+
+133
+00:20:22.740 --> 00:20:29.460
+Arnaud J Le Hors (IBM): So my understanding on this is we haven't done that we have never that I know of, I think I would.
+
+134
+00:20:30.810 --> 00:20:34.830
+Arnaud J Le Hors (IBM): But I don't think we've ever formerly appointed any representative.
+
+135
+00:20:35.280 --> 00:20:37.230
+Arnaud J Le Hors (IBM): to work in other organizations.
+
+136
+00:20:37.350 --> 00:20:42.060
+Kamlesh Nagware: Like like I still wasn't because currently this ieee blocking initiatives.
+
+137
+00:20:43.080 --> 00:20:55.410
+Kamlesh Nagware: You know upon upon me is the Co chair for their some initiatives and sustainability and block chain and even I am I am kind of conducting the hyperlink box up there, so I just want to be.
+
+138
+00:20:57.090 --> 00:20:59.340
+Kamlesh Nagware: Sure, like whether this is right on this is not.
+
+139
+00:21:01.560 --> 00:21:09.180
+Kamlesh Nagware: Because I don't live in is all open source community and kind of, but they are not focusing any is basically locking is getting lucky.
+
+140
+00:21:10.830 --> 00:21:23.940
+Arnaud J Le Hors (IBM): yeah so my understanding of this and again this comes from the Charter right, so my understanding and others may have a different point of view, but it is always the I mean i'm also involved with no other organizations right quite a few.
+
+141
+00:21:24.960 --> 00:21:28.980
+Arnaud J Le Hors (IBM): And, and so clearly you're entitled to do this.
+
+142
+00:21:29.130 --> 00:21:37.770
+Arnaud J Le Hors (IBM): And again when you're in those organizations, you can act as a steward for the hyper ledger foundation.
+
+143
+00:21:38.190 --> 00:21:56.220
+Arnaud J Le Hors (IBM): Not only because you're a member of the tlc but just because you're involved do you can talk about what's going on, for instance, a an open ssl if i'm given feedback on you know the the visionary vulnerability disclosure guidelines, when we start looking into it and so.
+
+144
+00:21:57.330 --> 00:22:09.180
+Arnaud J Le Hors (IBM): I think that's totally fine, I think this point is provided, because there may be situations where we actually want to a point for more representative where.
+
+145
+00:22:09.630 --> 00:22:19.170
+Arnaud J Le Hors (IBM): say there is the activities that somewhere else, and as a community we say you know what we should have some somebody representing us there.
+
+146
+00:22:21.360 --> 00:22:31.860
+Arnaud J Le Hors (IBM): that's my that's my take on this, but again I mean we've never really done that, and so I don't think the situation as arise so.
+
+147
+00:22:35.100 --> 00:22:48.480
+Hart Montgomery: yeah That was my take on that to our notes my sort of scenarios imagine that, like you know the EA is doing, like an interrupt committee slash working group right.
+
+148
+00:22:49.260 --> 00:23:00.330
+Hart Montgomery: And you know hyper ledger is officially, a member of the day, and we should have someone following it so we say okay Peter go join this committee as the hyper ledger representative.
+
+149
+00:23:01.980 --> 00:23:08.250
+Hart Montgomery: So so that's what I sort of imagined this provision working as and we really haven't ever used it.
+
+150
+00:23:09.600 --> 00:23:11.190
+Hart Montgomery: But there's no reason we couldn't.
+
+151
+00:23:17.070 --> 00:23:18.690
+Hart Montgomery: See how theatre.
+
+152
+00:23:21.000 --> 00:23:31.140
+Daniela Barbosa: In that situation that's actually not allowed if it's a formal organization, it has to be staff members now if those staff members are also.
+
+153
+00:23:31.680 --> 00:23:46.830
+Daniela Barbosa: employees of companies that are members of those other organizations, then, then that they still can't be official members or representatives of hyper ledger and that's just due to most of those organizations bylaws.
+
+154
+00:23:49.770 --> 00:23:50.100
+Daniela Barbosa: Just.
+
+155
+00:23:50.400 --> 00:23:51.240
+Arnaud J Le Hors (IBM): Of course, I mean.
+
+156
+00:23:53.520 --> 00:23:59.670
+Daniela Barbosa: We do not yeah we do not by joining hyper ledger foundation by joining the EA or anything else does not.
+
+157
+00:24:00.150 --> 00:24:08.070
+Daniela Barbosa: provide the ability for anyone in our Community to or Members to be been members of staff just that's a little caveat.
+
+158
+00:24:08.130 --> 00:24:08.610
+Arnaud J Le Hors (IBM): Good point.
+
+159
+00:24:08.670 --> 00:24:15.210
+Arnaud J Le Hors (IBM): yeah that's a good point I mean, of course, this is assuming that you can the.
+
+160
+00:24:16.920 --> 00:24:17.970
+Arnaud J Le Hors (IBM): Other organization.
+
+161
+00:24:20.040 --> 00:24:22.740
+Daniela Barbosa: We should collaborate, we should certainly collaborate.
+
+162
+00:24:22.830 --> 00:24:24.060
+Arnaud J Le Hors (IBM): Okay month so.
+
+163
+00:24:24.150 --> 00:24:27.900
+Arnaud J Le Hors (IBM): Alright, so thanks for bringing that up I hope this clarifies it.
+
+164
+00:24:28.320 --> 00:24:39.630
+Arnaud J Le Hors (IBM): thing this is interesting is we're never really talked too much about this is a good opportunity to do so and kind of little said everybody's expectation as to what our Charter says.
+
+165
+00:24:40.230 --> 00:25:05.460
+Arnaud J Le Hors (IBM): But, so what I meant to say next was if we have general agreement, then what I suggest is I will update the I will update the PR accordingly and then I would really invite everybody to have a look at it and and syndicate please on the PR as you improve.
+
+166
+00:25:07.950 --> 00:25:12.120
+Arnaud J Le Hors (IBM): Enough approvals, then we can just merge it and read up.
+
+167
+00:25:13.980 --> 00:25:19.020
+Arnaud J Le Hors (IBM): Of course this is like everything else will be updated, later on, if we find.
+
+168
+00:25:24.960 --> 00:25:26.430
+Arnaud J Le Hors (IBM): it's a master or.
+
+169
+00:25:29.190 --> 00:25:30.090
+Arnaud J Le Hors (IBM): Does that sound good.
+
+170
+00:25:32.940 --> 00:25:34.290
+Arnaud J Le Hors (IBM): or any any.
+
+171
+00:25:34.770 --> 00:25:36.450
+Arnaud J Le Hors (IBM): questions or concerns with this.
+
+172
+00:25:36.510 --> 00:25:40.050
+Arnaud J Le Hors (IBM): No okay so Tracy that's it, I think.
+
+173
+00:25:40.800 --> 00:25:41.160
+Okay.
+
+174
+00:25:42.690 --> 00:25:52.470
+Tracy Kuhrt: So thanks for taking us through that um so as you can see, we are only half past the hour, maybe at the top of the hour, depending on where you're located.
+
+175
+00:25:53.880 --> 00:26:14.580
+Tracy Kuhrt: And we have made it through the agenda, I will say that there are things from previous task forces that have been done on the weekend, and if you haven't commented on those yet, and you would like to do that, please do so specifically.
+
+176
+00:26:15.630 --> 00:26:26.550
+Tracy Kuhrt: The project families Task Force has some updates to materials and some commentary, so please have a look and participate there.
+
+177
+00:26:27.150 --> 00:26:41.370
+Tracy Kuhrt: Before we have the next call to go through that which, at this point, I think, is two weeks away, next week, the plan is to go through the project health dashboards Task Force and.
+
+178
+00:26:42.240 --> 00:26:56.250
+Tracy Kuhrt: Have a look at what's there right in the comments there's some commentary down there at the bottom from Jim as far as his action item and what he was proposing so if there's comments there that you guys would like to.
+
+179
+00:26:58.230 --> 00:27:13.680
+Tracy Kuhrt: You know, provide some some input on some of the tagging it's there The other thing that is been done on this particular task force is the website personas wiki page that's underneath there has some.
+
+180
+00:27:14.610 --> 00:27:19.290
+Tracy Kuhrt: Just some thoughts about different sorts of personas that will be visiting the hyper ledger website.
+
+181
+00:27:19.980 --> 00:27:27.660
+Tracy Kuhrt: That you know may or may not exist if there's other ones that you think makes us please add to that page as well.
+
+182
+00:27:28.140 --> 00:27:39.870
+Tracy Kuhrt: As we go through so i'm just reminding people that just because we're doing this in the TC meeting doesn't mean that we shouldn't be doing things offline as well and yeah if there's.
+
+183
+00:27:41.400 --> 00:27:44.370
+Tracy Kuhrt: Anything else anybody would like to discuss today now's the time.
+
+184
+00:27:54.600 --> 00:27:58.080
+Tracy Kuhrt: How do we think the task forces are working out in the tsp meeting.
+
+185
+00:28:04.620 --> 00:28:07.080
+Arnaud J Le Hors (IBM): Good use of the call actually.
+
+186
+00:28:09.810 --> 00:28:11.400
+Arnaud J Le Hors (IBM): i'm pretty happy with the way it's going.
+
+187
+00:28:13.980 --> 00:28:15.780
+Tracy Kuhrt: saw three at least three thank them to.
+
+188
+00:28:16.020 --> 00:28:16.560
+Tracy Kuhrt: Do one.
+
+189
+00:28:17.700 --> 00:28:18.330
+Tracy Kuhrt: So.
+
+190
+00:28:19.440 --> 00:28:27.870
+Tracy Kuhrt: All right, well if nobody else has anything else you'd like to add i'm going to close out today, then, so thank you all for attending and we will talk again next week.
+

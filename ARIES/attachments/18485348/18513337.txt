@@ -1,0 +1,7 @@
+00:32:57	Sam Curren (TelegramSam):	agenda: https://wiki.hyperledger.org/pages/viewpage.action?pageId=29035452
+00:56:45	Richard Esplin:	Do you have to know in advance that you need the Out-of-Band protocol? If I try to connect to a DID where I already have a connection, how does the Connection Invitation turn into an Out-of-Band invitation?
+00:58:25	Sam Curren (TelegramSam):	There would be no Connection Invitation in this model. All invitations are OutOfBand invitations.
+00:59:16	Richard Esplin:	So we would deprecate the Connection Invitation protocol and always use Out-of-Band?
+00:59:53	Richard Esplin:	So the evolution would be DID Exchange -> Connection Invitation -> Out of Band Invatiton ?
+01:00:19	Richard Esplin:	(I think I got two of those backwards)
+01:00:35	Sam Curren (TelegramSam):	OutOfBand Invitation, and can jump either into the connections protocol or the didexchange. (or future...)

@@ -1,0 +1,40 @@
+00:01:46	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2021-11-23+Aries+Summit+Session
+00:05:37	Akiff Manji:	The link on the Wiki goes to a different room
+00:06:15	Akiff Manji:	https://wiki.hyperledger.org/display/ARIES/Aries+Mobile+Summit
+00:06:22	Akiff Manji:	The link there
+00:06:23	Mike Ebert:	The one on this page was good: https://wiki.hyperledger.org/display/ARIES/2021-11-23+Aries+Summit+Session
+00:07:46	Akiff Manji:	Oh whoops I was looking at the actual Mobile Summit meeting link
+00:07:52	Akiff Manji:	Not the WG link
+00:11:24	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2021-11-23+Aries+Summit+Session
+00:30:02	Mike Ebert:	Same thing with mobile devices that are issued by the organization--there could be hundreds of devices.
+00:33:34	Mike Ebert:	Log centralization
+00:34:14	Mike Ebert:	(there are auditing requirements for mobile verifications)
+00:45:42	Mike Ebert:	Thanks for spending a few minutes thinking about that
+00:47:43	Clecio Varjao:	I am having mic issues … how do you inform the user that information is being persistent?
+00:48:03	Mike Ebert:	Good thought--what will be stored?
+00:49:47	Mike Ebert:	Presentation definitions are also going to be nice for knowing about the verification process in advance
+00:51:20	Clecio Varjao:	I had to register or a zoom account
+00:51:47	Sam Curren (TelegramSam):	apologies
+00:53:20	Sebastian Bickerle [lissi@Main Incubator GmbH]:	Someone already mentioned NFC?
+00:55:16	James Ebert:	https://github.com/decentralized-identity/didcomm-bluetooth/blob/main/spec.md
+01:06:54	Darrell O'Donnell:	https://docs.google.com/presentation/d/1skHbfJqXaX8er8iUzisNWWnFCMp7bv2ZjKmsq4GXyeA/edit#slide=id.gf81ff01b32_0_4
+01:09:20	Stephen Curran:	Machine Readable Governance Framework Aries RFC — https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0430-machine-readable-governance-frameworks
+01:10:40	Mike Ebert:	Here's the best I've got so far: https://hackmd.io/@mikekebert/HyjBmusEF#/
+01:16:18	Darrell O'Donnell:	https://www.continuumloop.com/trust-registries-webinar/
+01:21:27	Troy Ronda:	Also look at protocol section - particularly WACI
+01:21:55	Troy Ronda:	I think some of those interfaces are not related to DIDComm, but rather lower layer (like key management and credential management).
+01:22:11	Darrell O'Donnell:	+1 Troy - there is a need to separate some concerns
+01:22:43	Troy Ronda:	also fyi - WACI issuance protocol PR: https://github.com/w3c-ccg/universal-wallet-interop-spec/pull/102
+01:23:15	Troy Ronda:	Noting the similarity to the Aries Issue/Present protocol.
+01:23:51	Darrell O'Donnell:	I find WACI PEx and Aries quite similar too.
+01:29:25	Mike Ebert:	I also have to leave (for a bit), I will be back in about 15 minutes
+01:29:57	Darrell O'Donnell:	gotta roll - keep being awesome folks
+01:34:11	Clecio Varjao:	or the mediator provides it
+01:34:35	James Ebert:	+1 ^
+01:37:17	Antonio Mateus de Sousa:	We can use a combination of these solutions instead using only one
+01:48:14	Antonio Mateus de Sousa:	or use biometrics
+01:54:18	Clecio Varjao:	I was thinking a relationship (DID) with another wallet would allow that sync
+01:58:58	James Ebert:	Thanks for the indy clarifications
+02:00:11	Clecio Varjao:	I need to run to my next meeting
+02:00:25	Clecio Varjao:	Thanks everyone!
+02:00:44	Mike Ebert:	I'm not even a mobile guy and this was pretty cool, thanks everyone

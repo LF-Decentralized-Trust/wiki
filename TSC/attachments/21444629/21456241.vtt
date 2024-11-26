@@ -1,0 +1,1526 @@
+WEBVTT
+
+1
+00:00:09.960 --> 00:00:16.049
+Tracy Kuhrt: Alright, welcome everybody to the may 26 hyper ledger technical steering committee meeting.
+
+2
+00:00:17.130 --> 00:00:30.930
+Tracy Kuhrt: As you are all aware, do things to abide by the first is the antitrust policy notice that is currently displayed on the screen and the second is our code of conduct, which is linked in the agenda.
+
+3
+00:00:32.610 --> 00:00:36.420
+Tracy Kuhrt: was again, all you said last week be excellent to each other or something like that.
+
+4
+00:00:38.310 --> 00:00:50.460
+Tracy Kuhrt: So with that let's get to the announcements, so the first announcement is the one that we see every week that that weekly developer newsletter goes out each Friday if you'd like to have something.
+
+5
+00:00:50.910 --> 00:01:00.870
+Tracy Kuhrt: Included in that newsletter please consider leaving a comment on the wiki page that is linked in the agenda, and your message will get out to.
+
+6
+00:01:01.380 --> 00:01:12.420
+Tracy Kuhrt: Hundreds of hyper ledger developers, the second announcement David had let us know on the I think the tasc chat that the architecture working group has been archived.
+
+7
+00:01:13.020 --> 00:01:32.700
+Tracy Kuhrt: There was an email that went out to the architecture working group mailing list, and the only responses that were received for a plus one to archive the architecture working group so that working group has been archived and want to make sure that everybody saw that as an announcement.
+
+8
+00:01:33.750 --> 00:01:43.740
+Tracy Kuhrt: And if there were any comments we could discuss that here, but I doubt there's probably any comments, but if there are please raise your hand and we can talk about that.
+
+9
+00:01:46.590 --> 00:01:52.350
+Tracy Kuhrt: And then my standard question here any other announcements if anybody has to make.
+
+10
+00:01:55.080 --> 00:01:55.470
+Tracy Kuhrt: A room.
+
+11
+00:01:56.910 --> 00:02:02.850
+Arun S M: History see this is probably a request to all the nasty words so you may be receiving multiple requests from people.
+
+12
+00:02:03.480 --> 00:02:14.190
+Arun S M: who are participating in hyper ledger challenge, so I saw so far 11 teams have submitted their solutions, all of them could be raising a request to push them into hyper ledger lumps.
+
+13
+00:02:16.350 --> 00:02:17.220
+Tracy Kuhrt: Alright, thanks, sir.
+
+14
+00:02:17.370 --> 00:02:20.640
+Tracy Kuhrt: i've seen two lab requests come in this week.
+
+15
+00:02:22.410 --> 00:02:31.470
+Tracy Kuhrt: And then one was one this morning, so I haven't had a chance to review that will get to, and I think just in general I think there's actually three open PRS right now.
+
+16
+00:02:31.920 --> 00:02:41.520
+Tracy Kuhrt: One that's waiting on a response back from the submitter as far as licensing and i'm The co sign offs the the other one.
+
+17
+00:02:42.960 --> 00:02:52.740
+Tracy Kuhrt: There were some D co sign offs just in the PR itself and then like I said, the third one that came in this morning at least my morning I saw it here so.
+
+18
+00:02:54.480 --> 00:02:56.580
+Tracy Kuhrt: i'll get to redo that one today and.
+
+19
+00:02:58.110 --> 00:03:00.810
+Tracy Kuhrt: Make sure that the other lab students are taking a look at those as well.
+
+20
+00:03:02.550 --> 00:03:03.960
+Tracy Kuhrt: Any other announcements.
+
+21
+00:03:10.800 --> 00:03:28.530
+Tracy Kuhrt: Okay, so, with no other announcements we do have three project reports, the one that came in last week hyper ledger bevel and then the grid in transact reports that came in this week, when I looked at them this morning.
+
+22
+00:03:29.610 --> 00:03:43.080
+Tracy Kuhrt: About 15 minutes ago, or so I noticed that we probably not even half of us have reviewed them yet so if you haven't had a chance to review them, please do so and.
+
+23
+00:03:44.040 --> 00:03:54.720
+Tracy Kuhrt: I didn't see anything that was outstanding with those but if there's any questions on any of those now is the time to bring them up.
+
+24
+00:03:58.740 --> 00:04:03.960
+Arnaud J Le Hors @ IBM ("Arno"): So I don't have a question, but I noticed the grid projects raised an issue for.
+
+25
+00:04:03.960 --> 00:04:04.350
+us.
+
+26
+00:04:07.470 --> 00:04:16.320
+Arnaud J Le Hors @ IBM ("Arno"): which was that they felt like the grid the grid the top level domain website is not easy to find.
+
+27
+00:04:19.140 --> 00:04:32.820
+Tracy Kuhrt: yeah oh no that was on the last one last quarter as well, even I know you had reached out to the grid folks on that, but obviously.
+
+28
+00:04:33.330 --> 00:04:43.650
+Tracy Kuhrt: I didn't see your response, combat but I don't know if you had any offline conversations with them on making it easier to find the grid that hyper ledger.org from.
+
+29
+00:04:44.730 --> 00:04:47.160
+Tracy Kuhrt: Project page for hyper ledger great.
+
+30
+00:04:48.480 --> 00:04:58.500
+David Boswell: I shared that feedback with the designer who is working on the designs and I know that's on the agenda later, so we can touch on that when we're looking at the designs, but hopefully the new mockups will make that.
+
+31
+00:04:59.100 --> 00:05:13.650
+David Boswell: somewhat easier if not a lot more easier so, but we can discuss that when we're looking at the mockups is it is it easier, in fact, to find resources like that for projects, but I did pass that feedback to the designer and she incorporated that into her mockups.
+
+32
+00:05:14.700 --> 00:05:24.570
+Arnaud J Le Hors @ IBM ("Arno"): So, David could use put that in a comment in response to the report, so that they know we have that knowledge there, you know that they raised this issue.
+
+33
+00:05:25.200 --> 00:05:27.780
+David Boswell: Sure, if I remember correctly, I may have referenced it.
+
+34
+00:05:27.780 --> 00:05:31.080
+David Boswell: On the agenda, but they are repeating the same as if.
+
+35
+00:05:31.110 --> 00:05:32.610
+Arnaud J Le Hors @ IBM ("Arno"): Nothing has been done so.
+
+36
+00:05:33.870 --> 00:05:36.360
+Arnaud J Le Hors @ IBM ("Arno"): I just want to be responsive because we.
+
+37
+00:05:36.390 --> 00:05:44.400
+Arnaud J Le Hors @ IBM ("Arno"): You know this is part of the process, and one of the reason we put this report together is to give project and opportunity to raise issues to the tasc and.
+
+38
+00:05:44.940 --> 00:05:58.410
+Arnaud J Le Hors @ IBM ("Arno"): That makes it the fact that they risk really you know repeated the exact same statement makes it look like Oh, they don't know we are actually you know heard them and then doing something so that's just what i'm trying to.
+
+39
+00:05:58.860 --> 00:06:07.020
+David Boswell: To address a good point and you're right they might not have been watching our discussions here but i'll point to those mockups thanks.
+
+40
+00:06:07.320 --> 00:06:25.860
+Tracy Kuhrt: And and David I don't know is there, something that we can do before those mockups are are done to add that, to the project page, or is it that we want to wait till the mockups we agree on the mockups to ensure that all changes to the website are made at once.
+
+41
+00:06:28.590 --> 00:06:30.480
+David Boswell: Sorry i've got some barking dog in the background.
+
+42
+00:06:32.250 --> 00:06:36.750
+David Boswell: sooner, but I think we're almost at the point where we can put our market place.
+
+43
+00:06:37.980 --> 00:06:44.760
+David Boswell: let's discuss when we get to the mockups about what do we need to do something shorter or move forward with what we got and the designs.
+
+44
+00:06:45.420 --> 00:06:55.740
+Tracy Kuhrt: Okay sounds good and barking dogs, I think it wouldn't be a tsp meeting if we didn't have a barking dog somewhere in here, so I think we're we're good with that David.
+
+45
+00:06:57.000 --> 00:07:01.140
+Tracy Kuhrt: um any other comments on the the quarterly reports at this point.
+
+46
+00:07:06.360 --> 00:07:08.550
+Tracy Kuhrt: Thank you for reminding me of that comment.
+
+47
+00:07:10.560 --> 00:07:20.850
+Tracy Kuhrt: Okay um so for upcoming reports we have the cello report that's due next week and then the quote report is also due next week I did send an email out.
+
+48
+00:07:21.660 --> 00:07:39.360
+Tracy Kuhrt: To David fooling about whether or not we wanted to maintain that in a dorm and things are moving towards end of life so we'll we'll hopefully get a response back at some point to that email, so we know what what the status, there is of quilt.
+
+49
+00:07:42.390 --> 00:07:53.580
+Tracy Kuhrt: All right, and then the discussion item that I have for this week is a last week after I listened to the recording for the TC meeting and took a look at the security.
+
+50
+00:07:55.230 --> 00:08:05.730
+Tracy Kuhrt: Page that a rune had put together, I suggested that a rune put together a PR to propose some of their security related mandates for graduation to.
+
+51
+00:08:06.810 --> 00:08:20.340
+Tracy Kuhrt: Our life cycle and he did so, and so I wanted to see if we could just discuss these changes, see what we think of them there should be a security section that was edit here.
+
+52
+00:08:21.960 --> 00:08:34.650
+Tracy Kuhrt: That didn't exist before as a requirement to exit incubation so with that I think i'll just see if there's in discussion that anybody has related to this.
+
+53
+00:08:38.130 --> 00:08:42.630
+Tracy Kuhrt: Any objections to what you're reading as I give you a chance to read.
+
+54
+00:09:03.330 --> 00:09:04.590
+Tracy Kuhrt: Go ahead, Jim I came up.
+
+55
+00:09:06.330 --> 00:09:15.270
+Jim Zhang: yeah I was just about to raise my hand, would it be clear what the Foundation wise security discussions were.
+
+56
+00:09:16.350 --> 00:09:17.670
+Jim Zhang: Those will be happening.
+
+57
+00:09:20.340 --> 00:09:21.900
+Jim Zhang: Or is that not decided yet.
+
+58
+00:09:29.850 --> 00:09:32.280
+Hart Montgomery: hey yeah thanks Jim that's a great question.
+
+59
+00:09:34.110 --> 00:09:47.550
+Hart Montgomery: We haven't I guess formally flesh that out, yet the big thing with this is that you know, we do have a security list to address points right when when sort of security issues come in.
+
+60
+00:09:48.690 --> 00:09:58.080
+Hart Montgomery: Through our disclosure processes, and right now we don't have all of our projects with people on these lists so it's hard to.
+
+61
+00:09:59.640 --> 00:10:04.980
+Hart Montgomery: get people to respond and deal with these security issues which could be urgent.
+
+62
+00:10:06.060 --> 00:10:17.820
+Hart Montgomery: We also have a lot of people like most projects we have one person that are on the list, so if that person is on vacation or something which has happened before then it also doesn't get addressed quickly.
+
+63
+00:10:18.960 --> 00:10:20.160
+But you know.
+
+64
+00:10:22.230 --> 00:10:27.810
+Hart Montgomery: If you have feedback on how this could be efficiently done we'd love to hear.
+
+65
+00:10:31.800 --> 00:10:37.530
+Jim Zhang: god's gotcha um, I guess, since this announced this is sort of the.
+
+66
+00:10:39.270 --> 00:10:42.600
+Jim Zhang: Top line description of the.
+
+67
+00:10:43.860 --> 00:10:51.210
+Jim Zhang: Of the responsibilities, maybe just add a little details on this bullet and that should be fine.
+
+68
+00:10:52.770 --> 00:10:56.340
+Jim Zhang: include some verbiage about the.
+
+69
+00:10:57.450 --> 00:10:58.530
+Jim Zhang: The security list.
+
+70
+00:10:59.820 --> 00:11:05.310
+Jim Zhang: i'll try to come up with some wording, and I assume this is in in the PR.
+
+71
+00:11:07.470 --> 00:11:13.920
+Tracy Kuhrt: yeah definitely if you want to comment on the PR with some suggested warning or changes that'd be great.
+
+72
+00:11:14.730 --> 00:11:18.570
+Jim Zhang: yeah we'll do with the background hard just provide I should be able to add something.
+
+73
+00:11:19.170 --> 00:11:19.380
+Okay.
+
+74
+00:11:20.610 --> 00:11:25.530
+Tracy Kuhrt: Any other thoughts or comments on just adding the security section here.
+
+75
+00:11:29.340 --> 00:11:29.550
+A.
+
+76
+00:11:31.890 --> 00:11:32.400
+Ry Jones: Little.
+
+77
+00:11:35.880 --> 00:11:39.360
+Ry Jones: The second point address depend about in it.
+
+78
+00:11:41.520 --> 00:11:49.290
+Ry Jones: Probably don't tie it to depend about because I would say address automatic alerts or something of that nature.
+
+79
+00:11:52.410 --> 00:11:57.870
+Ry Jones: Because depend about is only one of the tools that that do this.
+
+80
+00:12:00.240 --> 00:12:03.780
+Ry Jones: i'll try to come up with a better wording or wording that.
+
+81
+00:12:04.800 --> 00:12:05.910
+Ry Jones: I think is good.
+
+82
+00:12:07.350 --> 00:12:07.680
+Tracy Kuhrt: and
+
+83
+00:12:08.130 --> 00:12:08.790
+Furthermore.
+
+84
+00:12:10.890 --> 00:12:11.670
+Tracy Kuhrt: Go ahead right.
+
+85
+00:12:12.180 --> 00:12:13.140
+Ry Jones: We have to change that.
+
+86
+00:12:15.510 --> 00:12:16.710
+Ry Jones: is no longer the ci.
+
+87
+00:12:16.800 --> 00:12:20.280
+Ry Jones: And are no has feelings about that probably so i've done.
+
+88
+00:12:21.120 --> 00:12:33.930
+Tracy Kuhrt: Okay, well, that is not part of this PR, but we can definitely create another PR for whatever the correct verbiage is for now, the badge badging that might exist or that exists part.
+
+89
+00:12:34.890 --> 00:12:39.810
+Hart Montgomery: i'll just say yeah Thank you I The intention was never to make that strictly defend about.
+
+90
+00:12:40.980 --> 00:12:42.750
+Hart Montgomery: So we should change that automatic.
+
+91
+00:12:45.540 --> 00:12:45.900
+Tracy Kuhrt: or no.
+
+92
+00:12:46.470 --> 00:12:48.870
+Arnaud J Le Hors @ IBM ("Arno"): I think you could still put something like.
+
+93
+00:12:48.930 --> 00:12:52.200
+Arnaud J Le Hors @ IBM ("Arno"): Such as from deep end about to make it.
+
+94
+00:12:53.970 --> 00:13:03.900
+Arnaud J Le Hors @ IBM ("Arno"): more specific and still keep it to open as rice ingest which I think is a good thing we've seen in other cases like you know Chad systems and whatnot.
+
+95
+00:13:04.290 --> 00:13:10.410
+Arnaud J Le Hors @ IBM ("Arno"): it's proven not to be too tied to a single solution because they tend to change over time.
+
+96
+00:13:10.860 --> 00:13:28.350
+Arnaud J Le Hors @ IBM ("Arno"): So I I completely support rise motion but I think we could still name dependent, but does one of the things that you know as an example of the things we're talking about so it kind of you know, makes it very clear for people, those kind of things we're talking about.
+
+97
+00:13:29.460 --> 00:13:36.480
+Arnaud J Le Hors @ IBM ("Arno"): And otherwise on the CIA, the CIA has been renamed though it's part of openness of the open this isn't much.
+
+98
+00:13:40.530 --> 00:13:42.450
+Tracy Kuhrt: All right, um so.
+
+99
+00:13:42.750 --> 00:13:47.550
+Tracy Kuhrt: I know what you open a separate PR to address this yeah batch thing.
+
+100
+00:13:50.820 --> 00:13:52.710
+Arnaud J Le Hors @ IBM ("Arno"): i'm happy to do that Sir.
+
+101
+00:13:54.120 --> 00:13:54.540
+Tracy Kuhrt: Thank you.
+
+102
+00:13:55.020 --> 00:13:55.770
+um.
+
+103
+00:13:57.600 --> 00:13:59.700
+Tracy Kuhrt: Any other comments on the security section.
+
+104
+00:14:10.500 --> 00:14:21.300
+Tracy Kuhrt: Alright, so I didn't wear any objections, I think the security section being added to the integration exit criteria is generally support it by the TC.
+
+105
+00:14:21.840 --> 00:14:32.640
+Tracy Kuhrt: And Jim right you'll make a few suggested modifications to the PR hopefully we can get everybody to then review that those changes on.
+
+106
+00:14:33.180 --> 00:14:45.810
+Tracy Kuhrt: github and provide any additional sort of comments or feedback that you have the link there in the agenda, I will also put that in the tsp chat if I didn't already.
+
+107
+00:14:50.490 --> 00:14:55.590
+Tracy Kuhrt: So the next thing then is the project families website revamp.
+
+108
+00:14:57.060 --> 00:15:07.950
+Tracy Kuhrt: we've got the straw man proposal also gave it has provided us with a few mockups different proposals for the proposed project page, as well as.
+
+109
+00:15:08.640 --> 00:15:21.660
+Tracy Kuhrt: A proposal for project specific pages so David I don't know if you want to drive us through these two different proposals, and you know get us to discuss.
+
+110
+00:15:23.160 --> 00:15:28.620
+David Boswell: yeah i'm happy to do that i'm not sharing my screen So whoever is doesn't mind pulling up the first mock up.
+
+111
+00:15:33.060 --> 00:15:34.230
+Ry Jones: Do you want to share your screen.
+
+112
+00:15:34.920 --> 00:15:37.440
+David Boswell: No i'd rather i'm on my phone i'm Probably not.
+
+113
+00:15:37.590 --> 00:15:39.960
+Ry Jones: Right so is this proposal, one.
+
+114
+00:15:42.780 --> 00:15:45.720
+David Boswell: yeah just just the first mock up on the page yep.
+
+115
+00:15:47.700 --> 00:15:54.030
+David Boswell: So for some background we've shared these before, and so this incorporates feedback we've had from discussions here, as well as the.
+
+116
+00:15:54.360 --> 00:16:10.620
+David Boswell: Discussions that we've had internally lf recently had an all hands, we got together his staff and kind of review these as well, so this reflects updates to the mockups again base from feedback from the thc discussions, the task force discussions and then the staff discussions.
+
+117
+00:16:12.870 --> 00:16:16.470
+David Boswell: If you could make this a little bit bigger yeah the big change.
+
+118
+00:16:17.280 --> 00:16:26.550
+David Boswell: To the big change on this one, this is the main projects page again I think we've seen this before, so I won't necessarily go through everything that's different from the current projects page.
+
+119
+00:16:26.880 --> 00:16:34.740
+David Boswell: On the website, but I will flag what's changed in this mock up from the earlier mockups the main feedback on this one that we got from the marketing lead.
+
+120
+00:16:35.100 --> 00:16:46.680
+David Boswell: The hyper later marketing lead is that people don't spend a lot of time on the pages on the website, you know they mostly scan through things so he said, if you can make it as tight as possible what you want to feature.
+
+121
+00:16:47.340 --> 00:17:00.450
+David Boswell: On this page that would it be better better So if you remember the earlier version this mockup we had divided things into the lifecycle buckets that we had six graduated top projects up top that had more of a.
+
+122
+00:17:01.470 --> 00:17:12.420
+David Boswell: You know primary display on the page and then further down below on the page, we had the incubator and projects that had you know, a smaller secondary display.
+
+123
+00:17:13.290 --> 00:17:15.300
+David Boswell: But, again based on his feedback we.
+
+124
+00:17:15.750 --> 00:17:27.180
+David Boswell: tried out in this mock up not going with the six graduated projects but trying what we're now calling featured projects and the details again, this is just a mock up the content is all placeholder but the idea was.
+
+125
+00:17:27.510 --> 00:17:32.520
+David Boswell: We could select perhaps for projects instead of six and really feature those and that could.
+
+126
+00:17:33.210 --> 00:17:42.480
+David Boswell: You know that could evolve and change over time you that this would be more of a marketing criteria versus more of a life cycle criteria, but you know what are the, what are the projects we want to feature.
+
+127
+00:17:42.750 --> 00:17:49.140
+David Boswell: All projects would still be on the page, but some would be in this featured section, and then the rest would be at the bottom, so if you scroll down.
+
+128
+00:17:49.620 --> 00:17:54.690
+David Boswell: You can see what the the kind of the secondary display would be and so.
+
+129
+00:17:55.230 --> 00:18:03.450
+David Boswell: The all the projects are on the page all the projects have an opportunity to put the description so everybody can read through I think again, this is a huge.
+
+130
+00:18:03.870 --> 00:18:13.020
+David Boswell: benefit over the current landscape, where you don't actually even see the descriptions on the projects you just see the icons you have to click in individually to get all the descriptions so.
+
+131
+00:18:14.070 --> 00:18:15.720
+David Boswell: that's the big change on this one.
+
+132
+00:18:16.740 --> 00:18:28.500
+David Boswell: Again it's still the same format about having a primary section and a secondary section it's just what the mock up has changed in terms of what we've put in that featured primary section.
+
+133
+00:18:29.820 --> 00:18:40.920
+Tracy Kuhrt: And then, David, I think the other change looks like that you made, based on the last time when we looked at this is before you just had the icons and you didn't have the names for the project.
+
+134
+00:18:41.880 --> 00:18:42.090
+Right.
+
+135
+00:18:43.770 --> 00:18:51.840
+Tracy Kuhrt: And then, secondly I don't think you have the descriptions down below I think Kim had asked for both of those, and so it looks like those have been incorporated, since the last time we looked at things.
+
+136
+00:18:52.110 --> 00:18:55.980
+David Boswell: Like you know yeah this is gone through a number of iterations I can't remember the last time exactly where.
+
+137
+00:18:57.990 --> 00:19:02.250
+David Boswell: There wasn't earlier one where just the logos which was not I don't think enough.
+
+138
+00:19:03.420 --> 00:19:09.780
+David Boswell: See right so every project has a description now, and this goes back to the grid feedback right if you don't mind scrolling back up.
+
+139
+00:19:12.360 --> 00:19:13.620
+David Boswell: You can see on.
+
+140
+00:19:15.360 --> 00:19:22.890
+David Boswell: Each of these descriptions there's a learn more that would go to the project page, but then there's also this resources link or drop down where, if you click on that you can.
+
+141
+00:19:23.250 --> 00:19:27.990
+David Boswell: click directly into a set of resources that the mock up doesn't show it, but you can imagine.
+
+142
+00:19:28.380 --> 00:19:32.820
+David Boswell: If I clicked on resources that maybe would point to the repo is point to the dogs he could point to.
+
+143
+00:19:33.210 --> 00:19:45.630
+David Boswell: You know, whatever you think would be relevant for the project, you know tutorials So hopefully I could address grid some great feedback about it's you know those sorts of resource links are not prominent on the website.
+
+144
+00:19:47.250 --> 00:19:47.850
+Tracy Kuhrt: and David.
+
+145
+00:19:48.870 --> 00:19:55.980
+Tracy Kuhrt: When you click on, that is, it is it a separate page it goes through just a drop down with like a list of.
+
+146
+00:19:57.060 --> 00:19:57.930
+David Boswell: A drop down.
+
+147
+00:20:01.890 --> 00:20:12.000
+David Boswell: And that could be a next step, we could ask the designer to start coding these on the section on the site where they're not public, yet, but we could all kind of interact with it and see how how that dynamic would work.
+
+148
+00:20:16.830 --> 00:20:34.200
+David Boswell: Any comments questions on the page again, I think, maybe the big thing to flag is the you know, having the the primary section be featured based on what the marketing, you know lead suggest we focus on versus having to be some sort of lifecycle.
+
+149
+00:20:36.390 --> 00:20:36.840
+David Boswell: bucket.
+
+150
+00:20:39.000 --> 00:20:46.200
+Tracy Kuhrt: yeah I think that's the question I have gave it just to make sure that we're clear you're not asking the thc to provide.
+
+151
+00:20:47.280 --> 00:20:55.830
+Tracy Kuhrt: The items that are the featured you're suggesting that somebody in hyper ledger foundation stuff would be developing that Is that correct.
+
+152
+00:20:56.940 --> 00:21:06.480
+David Boswell: Well, we can set up a process where the marketing lead comes to the tasc maybe on some sort of basis and talks about, we have a discussion about that i'm not saying that he couldn't have input, but the.
+
+153
+00:21:07.110 --> 00:21:14.790
+David Boswell: The feedback from the marketing the lead was just how do we narrow that down and so that implies, you know, having some sort of selection process.
+
+154
+00:21:17.400 --> 00:21:17.700
+Tracy Kuhrt: yeah.
+
+155
+00:21:22.800 --> 00:21:23.820
+Peter Somogyvari: I like it.
+
+156
+00:21:24.960 --> 00:21:29.280
+Peter Somogyvari: and giving it'll be great if it puts in place, the sooner the better.
+
+157
+00:21:30.990 --> 00:21:31.170
+Peter Somogyvari: that's.
+
+158
+00:21:32.490 --> 00:21:33.270
+Tracy Kuhrt: Right, thank you.
+
+159
+00:21:36.000 --> 00:21:44.880
+Hart Montgomery: i'll just emphasize david's point, this is inherently a marketing thing, and now that we have you know Ben on who's a professional marketer he has.
+
+160
+00:21:45.840 --> 00:22:03.390
+Hart Montgomery: emphasized that we have made some decisions from a technical perspective and not a marketing perspective about marketing that we're suboptimal and we're really great to to have him wait those out because it seems like he's doing a really good job of of improving our marketing.
+
+161
+00:22:04.620 --> 00:22:05.250
+Hart Montgomery: But.
+
+162
+00:22:06.330 --> 00:22:19.560
+Hart Montgomery: To reiterate, both your point Tracy and david's point this you know this really isn't a tasc matter and, that being said, if you want to get involved they're appropriate avenues with marketing.
+
+163
+00:22:21.360 --> 00:22:21.780
+Hart Montgomery: So.
+
+164
+00:22:23.010 --> 00:22:34.650
+Tracy Kuhrt: yeah thanks heart, I think that's what I wanted to try and drive to write is um I know in your right up that you had done originally around this kind of topic.
+
+165
+00:22:35.730 --> 00:22:44.100
+Tracy Kuhrt: used to just have it probably wasn't the TC spot to come up with this list of things that would be featured or whatever we want to call it.
+
+166
+00:22:45.360 --> 00:22:54.750
+Tracy Kuhrt: And so I wanted to just verify that that I was hearing correctly right that it was truly marketing it wasn't gonna be something that the kfc had to to.
+
+167
+00:22:57.000 --> 00:22:59.070
+Tracy Kuhrt: Say like here's her for.
+
+168
+00:23:00.450 --> 00:23:03.270
+Tracy Kuhrt: We just randomly pick them out of 12 or whatever right.
+
+169
+00:23:04.440 --> 00:23:06.960
+Tracy Kuhrt: So i'm really glad to hear that part.
+
+170
+00:23:07.740 --> 00:23:17.430
+Hart Montgomery: yeah and I will just say like they have the numbers, they have the analytics they know what's going to get us the most clicks in the most eyeballs and that's what they're running with.
+
+171
+00:23:20.010 --> 00:23:20.280
+Okay.
+
+172
+00:23:22.830 --> 00:23:25.380
+Tracy Kuhrt: Any other comments in this particular proposal.
+
+173
+00:23:26.550 --> 00:23:37.320
+Tracy Kuhrt: That, I know, David has a second one that has also been suggested, so we need to review that one as well, but if there's any other comments and this time.
+
+174
+00:23:43.620 --> 00:23:55.200
+David Boswell: Is this through yeah there's three mockups that we can review that project page That was the only version of that project page, but there were two versions of what we're seeing on the screen now so something.
+
+175
+00:23:55.560 --> 00:24:01.020
+David Boswell: that's new on the site, and it was referenced on that page before that we saw.
+
+176
+00:24:01.500 --> 00:24:08.430
+David Boswell: there's some text that says something to the effect of Oh, are you not sure which project is right for you check out our getting started guide, so it.
+
+177
+00:24:08.760 --> 00:24:17.520
+David Boswell: is trying to just give people a little bit more support with trying to understand you know we're presenting a lot of information to people, you know you know here's.
+
+178
+00:24:17.760 --> 00:24:26.730
+David Boswell: 14 projects and one of these may be right for you, but go figure it out yourself right I think that's kind of our current approach like click into all these things there's a bunch of links that you can digest and.
+
+179
+00:24:27.150 --> 00:24:31.290
+David Boswell: After you've gone through a bunch of these links then you'll know what's right for you and you know, I think.
+
+180
+00:24:31.890 --> 00:24:38.910
+David Boswell: that's probably not the necessarily the best approach like, how do we perhaps package up some of that information in one place, so people don't have to.
+
+181
+00:24:39.240 --> 00:24:48.060
+David Boswell: click into the wiki click into the repo click into this click into that and kind of pull all that stuff together, so this is a proposal for a new page on the site.
+
+182
+00:24:48.630 --> 00:24:53.430
+David Boswell: The earlier page was a update to an existing page this mock up would be for a new page.
+
+183
+00:24:53.910 --> 00:25:07.800
+David Boswell: Again, where we collect some of this information that's already out in the Community, but it's pulled together and packaged in a way, where it's easy for people to digest so this would be the getting started guide the proposal is to have a series of different.
+
+184
+00:25:09.570 --> 00:25:17.100
+David Boswell: factors that we're letting people evaluate by and this mockup only really shows, one of them, but you can see, at the top there's a set of tabs so there's this page within.
+
+185
+00:25:17.430 --> 00:25:22.410
+David Boswell: include a series of different things again, we can only see one This is where maybe if we start coding it.
+
+186
+00:25:22.950 --> 00:25:30.030
+David Boswell: That would be a good next step, like code it on a place on the website where we can interact with it, so we can see get a better sense of what this page would look like, but.
+
+187
+00:25:30.570 --> 00:25:37.350
+David Boswell: Again, the idea is a series of tabs you can click into each one of them in in that tab you would then be able to get.
+
+188
+00:25:38.460 --> 00:25:43.590
+David Boswell: You know, a comparison of how different factors, you know apply across the different projects.
+
+189
+00:25:45.240 --> 00:25:46.620
+David Boswell: And again, with the goal of.
+
+190
+00:25:47.520 --> 00:25:58.470
+David Boswell: Pulling information that is the Community but it's probably spread across half a dozen different websites that would require somebody a significant amount of time to pull together themselves, what are we pull it together.
+
+191
+00:25:58.860 --> 00:26:02.880
+David Boswell: And then provide it in a way, where we can allow people to digest it so.
+
+192
+00:26:03.990 --> 00:26:09.990
+David Boswell: I had shared an earlier version this mock up on the call I didn't think the format in the design was necessarily.
+
+193
+00:26:10.770 --> 00:26:24.030
+David Boswell: The best way to allow people to scan it, so I asked the designer to create a second one kind of a second option think based on discussion at all hands, we all felt this design was stronger, so we just.
+
+194
+00:26:25.200 --> 00:26:35.100
+David Boswell: I I unless there's you know feedback from people saying this design doesn't seem to really work, you know, this would be my recommendation let's code this and let's see what it looks like.
+
+195
+00:26:35.610 --> 00:26:43.680
+David Boswell: In action, but this would be again a new page that we're calling, we can change what we're calling it but currently thinking of calling it like the getting started.
+
+196
+00:26:46.860 --> 00:26:49.470
+Tracy Kuhrt: and David the that.
+
+197
+00:26:53.220 --> 00:26:58.560
+Tracy Kuhrt: So why am I not able to the buttons at the side get started analytics.
+
+198
+00:26:59.880 --> 00:27:00.750
+Tracy Kuhrt: What do they do.
+
+199
+00:27:02.790 --> 00:27:04.380
+Tracy Kuhrt: What they intended to represent.
+
+200
+00:27:06.390 --> 00:27:07.890
+David Boswell: So he's talking about the different.
+
+201
+00:27:08.910 --> 00:27:09.180
+David Boswell: way.
+
+202
+00:27:09.900 --> 00:27:13.380
+Tracy Kuhrt: Like a linear hyper ledger basically where it says get started and it's been.
+
+203
+00:27:13.710 --> 00:27:15.300
+Tracy Kuhrt: analytics What are those.
+
+204
+00:27:15.420 --> 00:27:17.520
+Tracy Kuhrt: Things do I.
+
+205
+00:27:17.550 --> 00:27:19.020
+David Boswell: take it to the.
+
+206
+00:27:19.050 --> 00:27:21.630
+David Boswell: Project page for that specific projects.
+
+207
+00:27:22.980 --> 00:27:35.790
+David Boswell: If that's not clear, I guess, we could change the label on the button and then the analytics would could go into the fx to allow people to you know, look at some stuff you know relevant statistics for that project.
+
+208
+00:27:41.940 --> 00:27:45.780
+Tracy Kuhrt: Who do we think the audience for this sort of page is.
+
+209
+00:27:47.340 --> 00:27:51.060
+David Boswell: Well, this goes into the persona or for the website so i'm and I think you could.
+
+210
+00:27:52.110 --> 00:27:58.950
+David Boswell: Arguably talk about how I think a developer could come in here and get a different set of information than for perhaps like a business analyst.
+
+211
+00:27:59.130 --> 00:28:04.950
+David Boswell: You know, for example, I think that's where the tab content up top comes from there's some content up there that might be.
+
+212
+00:28:05.430 --> 00:28:11.190
+David Boswell: is more relevant for that technical developer audience like what languages, for example, or what consensus mechanism.
+
+213
+00:28:11.580 --> 00:28:24.120
+David Boswell: I think there could be some other stuff that's more relevant for a different persona you know, like if we have some content on here about you know what are the different industries, for example, or use cases where these you know different projects are being used so.
+
+214
+00:28:25.290 --> 00:28:30.600
+David Boswell: In theory, I see different personas will come to this page and get different content out of it.
+
+215
+00:28:31.440 --> 00:28:44.730
+Tracy Kuhrt: And yeah I think that's where i'm driving towards this, I think, maybe analytics might be interesting for developers, but I don't think analytics would be interesting for somebody who's looking for industry use cases right I think it's some of the use case.
+
+216
+00:28:44.820 --> 00:28:46.050
+Tracy Kuhrt: sort of write ups that.
+
+217
+00:28:46.050 --> 00:29:04.530
+Tracy Kuhrt: have been done would be more useful sort of link, if you will, and I will see you we think this is specific to this page right these get started and analytics or or two i'm sorry to this tab on this page and different tabs will have different buttons there.
+
+218
+00:29:04.530 --> 00:29:04.860
+or.
+
+219
+00:29:06.420 --> 00:29:15.960
+David Boswell: Okay yeah so maybe we yeah that's a good idea I hadn't thought about that, so a tab we can put the personas at a tab level, this is a developer tab so that's.
+
+220
+00:29:16.410 --> 00:29:28.890
+David Boswell: surface more technical stuff, this is a analysts tab yes, Sir, and this is again where maybe having a coded so we can click on the tab would be helpful, because then we can say this tab maybe you should have this link.
+
+221
+00:29:34.110 --> 00:29:44.790
+Jim Zhang: yeah so I guess, first of all, I assume, this is going to be in addition to the to the top level page for a sort of next level drill down.
+
+222
+00:29:45.690 --> 00:29:53.820
+Jim Zhang: Absolutely Okay, I guess what i'm kind of struggling with this, because i'm.
+
+223
+00:29:55.440 --> 00:29:57.330
+Jim Zhang: If i'm a developer and.
+
+224
+00:29:58.620 --> 00:30:11.370
+Jim Zhang: So this the intent of this page is sort of present a decision tree for me to pick which the LTE I should adopt um I don't think that's that's practical because.
+
+225
+00:30:13.980 --> 00:30:20.670
+Jim Zhang: There are so many there are so many dimensions that leads to should I use best or fabric or Euro haha.
+
+226
+00:30:23.280 --> 00:30:25.740
+Jim Zhang: It just doesn't work this way.
+
+227
+00:30:26.820 --> 00:30:29.310
+Jim Zhang: Trying to decide which one I should use and.
+
+228
+00:30:30.720 --> 00:30:32.040
+Jim Zhang: Also.
+
+229
+00:30:33.720 --> 00:30:38.430
+Jim Zhang: I think people who who landed on this page usually already have some idea.
+
+230
+00:30:39.540 --> 00:30:44.880
+Jim Zhang: Right um i'm going to be using best Sue or i'm going to be using fabric.
+
+231
+00:30:45.990 --> 00:30:56.100
+Jim Zhang: I just don't know if if if that was the intention and if it's intended to be a decision tree I just don't know if that's that's.
+
+232
+00:30:57.120 --> 00:30:58.140
+Jim Zhang: that's warranted.
+
+233
+00:30:59.940 --> 00:31:12.390
+Jim Zhang: If we really want to help people sort of compare the differences between them, I think we need something much more elaborate you know some sort of blog or.
+
+234
+00:31:14.280 --> 00:31:16.920
+Jim Zhang: a deeper level comparison amanda.
+
+235
+00:31:18.330 --> 00:31:38.310
+Jim Zhang: You know what's what's the differences, for example, just just randomly earhart right they they they spell out of time on the client side, making sure you know, the that the mobile applications can be easily developed using their SDK that's what they spend a lot of time on.
+
+236
+00:31:40.290 --> 00:31:45.720
+Jim Zhang: it's just not very easy to present in the in the tabular way.
+
+237
+00:31:49.260 --> 00:32:00.960
+David Boswell: I hear what you're saying and that goes to maybe where different tabs have a different sort of him, for you know interface, maybe this more table based lab does make sense for some things but I hear you maybe there's a different tab where.
+
+238
+00:32:02.550 --> 00:32:07.140
+David Boswell: that's not the interface, and again, maybe that's something that can can can can get explored, if we can.
+
+239
+00:32:07.680 --> 00:32:21.660
+David Boswell: put this on the website so we can interact with it, but I hear you but yes just step back a little bit, that is the goal, I mean we consistently hear from people we show them the landscape, you know and they're like Okay, I see there's a lot going on here, but like.
+
+240
+00:32:23.640 --> 00:32:28.620
+David Boswell: What what should I do next right and I feel like right now, at least on the website.
+
+241
+00:32:29.430 --> 00:32:37.410
+David Boswell: That burden is entirely placed on that person to click into every single one explore all this information kind of correlate it.
+
+242
+00:32:37.890 --> 00:32:47.670
+David Boswell: pull it all together themselves, and that would involve like i've counted, I mean it would be dozens and dozens of links for somebody to absorb that crosses literally four or five.
+
+243
+00:32:48.210 --> 00:32:55.410
+David Boswell: or six different you know web properties there's the website there's the wiki there's github repos there's read the docs.
+
+244
+00:32:55.860 --> 00:33:02.460
+David Boswell: pages like it's and we hear from people, that is just overwhelming, so the the High Level goal is how do we pull information.
+
+245
+00:33:02.880 --> 00:33:18.540
+David Boswell: that's already in the community into one place so when somebody comes to us and says, I see you have a lot of stuff here, I think this is something we want to explore, but like, how do we evaluate it like we have a place to point them instead of right now again.
+
+246
+00:33:19.590 --> 00:33:27.090
+David Boswell: I don't know if this has been your experience with the landscape, but the landscape just forces you to pull it all together yourself by clicking into.
+
+247
+00:33:28.800 --> 00:33:31.740
+David Boswell: 20 3040 more links which is just too much.
+
+248
+00:33:34.710 --> 00:33:35.010
+Tracy Kuhrt: I know.
+
+249
+00:33:36.450 --> 00:33:47.310
+Arnaud J Le Hors @ IBM ("Arno"): So first another question, I mean this is just a mock up there's no such thing running somewhere, I can play with right, you cannot click on this tab like languages, the team, which is what i've been wanting to do.
+
+250
+00:33:48.600 --> 00:33:51.840
+David Boswell: Not yeah, but that was what I was hoping to get to from this conversation, are we.
+
+251
+00:33:51.840 --> 00:33:55.080
+David Boswell: comfortable enough of these mockups where we can say to this.
+
+252
+00:33:55.080 --> 00:33:56.520
+Arnaud J Le Hors @ IBM ("Arno"): idea for yeah.
+
+253
+00:33:56.640 --> 00:34:10.710
+Arnaud J Le Hors @ IBM ("Arno"): I get it, so I so so thanks and, and so I actually think you know, this is very interesting piece of information, I think, to address teams comment, which I understand that I would agree with them that you know.
+
+254
+00:34:11.190 --> 00:34:24.330
+Arnaud J Le Hors @ IBM ("Arno"): Choosing the you know, a specific platform probably goes beyond what can become a in that in that kind of documentation, I think this needs to be presented as documenting.
+
+255
+00:34:24.660 --> 00:34:32.640
+Arnaud J Le Hors @ IBM ("Arno"): You know, a set of you know, a whole set of characteristics and maybe we can have a disclaimer at the top say you know.
+
+256
+00:34:33.390 --> 00:34:42.150
+Arnaud J Le Hors @ IBM ("Arno"): If you're in this to to you know to to make I mean this can only go so far and only addresses a few dimensions.
+
+257
+00:34:42.420 --> 00:34:57.540
+Arnaud J Le Hors @ IBM ("Arno"): and actually choosing the proper platform for your solution or for you for your use case rather you know may is beyond what we can possibly communicate through this kind of like adding some disclaimer that would.
+
+258
+00:34:58.200 --> 00:35:08.730
+Arnaud J Le Hors @ IBM ("Arno"): address some of jim's concern that people might be misled to believe all this is all I need, otherwise I wanted to also say, is a lower level kind of common but.
+
+259
+00:35:09.330 --> 00:35:15.750
+Arnaud J Le Hors @ IBM ("Arno"): I wonder, I mean the language base, I understand what you mean that's the actual language it's implemented it.
+
+260
+00:35:16.530 --> 00:35:28.350
+Arnaud J Le Hors @ IBM ("Arno"): I maybe we need a better word than base, and I think most people i'm not sure they care so much about this, the most important this you know what languages are supported for the.
+
+261
+00:35:28.800 --> 00:35:39.120
+Arnaud J Le Hors @ IBM ("Arno"): Smart contracts and for the SDK is that people are going to actually implement it gets because that's when you know contributors will care about the language.
+
+262
+00:35:41.280 --> 00:35:53.940
+Arnaud J Le Hors @ IBM ("Arno"): The language, people will care when they are contributing to to the platform, but that's actually a small number of people right for the most part they are people want to use it as an application developer.
+
+263
+00:35:54.390 --> 00:36:02.430
+Arnaud J Le Hors @ IBM ("Arno"): And that's the important aspect, and I know that you know a lot of those platforms support different languages that's what we need to expose first.
+
+264
+00:36:07.050 --> 00:36:17.880
+David Boswell: And I hear you and you're right, I mean maybe some of the things that are just you know stubbed out in the MMA mockup won't end up being what we display because that's not really the right content, and this is where you know.
+
+265
+00:36:18.480 --> 00:36:24.210
+David Boswell: The details of what should be in here, you know we do really want your feedback.
+
+266
+00:36:25.950 --> 00:36:26.430
+David Boswell: So if.
+
+267
+00:36:26.910 --> 00:36:29.010
+Arnaud J Le Hors @ IBM ("Arno"): I like it, otherwise I think is a good.
+
+268
+00:36:29.040 --> 00:36:29.610
+Arnaud J Le Hors @ IBM ("Arno"): thing to.
+
+269
+00:36:30.720 --> 00:36:42.120
+David Boswell: So, and I didn't mean to cut you off, I was gonna I was just going to summarize it sounds like, at least for this page everything i've heard so far says we kind of need to see this in action before we can have a better opinion about about it.
+
+270
+00:36:45.840 --> 00:36:55.770
+Arnaud J Le Hors @ IBM ("Arno"): that's not quite what I meant, I mean Personally, I think I think this is valuable and I would encourage sending the resources to develop it further.
+
+271
+00:36:56.100 --> 00:37:06.210
+Arnaud J Le Hors @ IBM ("Arno"): I think we may have to discuss some of the details and we may need some kind of disclaimer that you know addresses James concern but otherwise i'm all for it.
+
+272
+00:37:06.570 --> 00:37:24.300
+Arnaud J Le Hors @ IBM ("Arno"): I think it's it should be presented as something that's documenting facts different characteristics and again with the disclaimer say this cannot possibly be fully comprehensive, but what people need to take into account when it comes to choosing the platform for their use case.
+
+273
+00:37:26.730 --> 00:37:38.490
+Tracy Kuhrt: Right thanks um I just had language bases contributor language and language SDK is application developer language right heart.
+
+274
+00:37:40.560 --> 00:37:51.720
+Hart Montgomery: Thanks yeah and Jim to address your point like I don't think we really wanted this to be a full like getting started guide you know, obviously, if you're going to pick a system to use.
+
+275
+00:37:52.230 --> 00:38:02.460
+Hart Montgomery: you're going to want to look, you know at more than a table you're probably going to want to try out the systems that everything we sort of thought this was a getting started to getting started.
+
+276
+00:38:03.630 --> 00:38:09.630
+Hart Montgomery: for lack of a better term, and we really just wanted to help people find information about projects.
+
+277
+00:38:09.990 --> 00:38:22.920
+Hart Montgomery: So one of the unfortunate things is that all of the projects so store and put their sort of core information and it a little bit different places, so if you are trying to look for you know all of this stuff.
+
+278
+00:38:24.030 --> 00:38:40.410
+Hart Montgomery: It can be a little bit tricky because there's not like you know, a standardized place for every project, where you can necessarily find all of this, so one of the big utilities is just finding the basic information, and we think that you know, this is very useful for that problem.
+
+279
+00:38:44.670 --> 00:38:45.030
+Tracy Kuhrt: alright.
+
+280
+00:38:46.470 --> 00:38:57.540
+Arun S M: hey thanks Tracy so a couple of a couple of comments first first one is on creating multiple tabs I think having too many tabs or options would kill the purpose to make it simple.
+
+281
+00:38:58.020 --> 00:39:06.330
+Arun S M: Then ideas should be to provide all the information, whatever is necessary for somebody who's coming in in more simpler form than to create.
+
+282
+00:39:06.900 --> 00:39:15.450
+Arun S M: Multiple options for them to iterate through if the decision tree that they need to make to reach where they have to reach is longer, I think that will.
+
+283
+00:39:16.530 --> 00:39:26.640
+Arun S M: not be pleasant experience for somebody who's new so if we are considering, for instance, the language and is supported SDK so they could probably part be part of.
+
+284
+00:39:27.450 --> 00:39:32.610
+Arun S M: Another subsection when they are interested in a specific project, but at a higher level.
+
+285
+00:39:33.150 --> 00:39:46.620
+Arun S M: If they are coming in, probably this kind of information should not be there, so instead of creating hierarchy at the top level, it should go inside each project that he here is more information about this project, since you are interested in it and.
+
+286
+00:39:47.700 --> 00:40:00.090
+Arun S M: The other reason or the second comment associated with that close and I thought that now at the ledger avoided comparing two projects or comparing any project within hyper ledger.
+
+287
+00:40:00.810 --> 00:40:10.140
+Arun S M: The goal was always to provide the fact floors about each project to the user and it doesn't compare on different marriage different basis points right.
+
+288
+00:40:12.240 --> 00:40:23.700
+Arun S M: So some of this could be fact sheet for instance language is is probably a fact sheet, but if we go deeper into feature set, and it may become a comparison across projects.
+
+289
+00:40:29.820 --> 00:40:31.290
+Arun S M: that's all for myself, thank you.
+
+290
+00:40:34.530 --> 00:40:35.700
+Tracy Kuhrt: Through Bobby.
+
+291
+00:40:37.200 --> 00:40:48.990
+Bobbi Muscara: yeah I just want to jump on with a rune said from the new commerce perspective, this is invaluable like I intend to put this right on the homepage of the learning materials working group, because when you get a lot of kids from college coming in looking to get involved.
+
+292
+00:40:49.320 --> 00:40:56.940
+Bobbi Muscara: They have one thing in their pocket and that's a language and if they can connect it to a blockchain I think that's fabulous so thank you for doing this.
+
+293
+00:41:00.450 --> 00:41:04.110
+Tracy Kuhrt: Right thanks Bobby any other comments on this.
+
+294
+00:41:05.700 --> 00:41:06.210
+Tracy Kuhrt: Like to.
+
+295
+00:41:07.560 --> 00:41:10.140
+David Boswell: know just say thanks for the feedback and I hear around I mean.
+
+296
+00:41:10.530 --> 00:41:21.330
+David Boswell: The goal is to make this less overwhelming for people, so if the page itself is overwhelming that's not solving the problem, so yeah we still need to keep it simple so if the tabbed interface, or if there are too many tabs that is good to be back.
+
+297
+00:41:22.200 --> 00:41:34.290
+David Boswell: And I hear you about the comparisons, I mean again I feel like this is just correlating and packaging factual information that's already out there and not you know, adding any additional you know subjective information that would be a comparison so.
+
+298
+00:41:36.270 --> 00:41:42.750
+David Boswell: But good feedback and we do have one other mock up if we want to spend, just like I don't know Tracy if there's other stuff you need to get to the.
+
+299
+00:41:42.930 --> 00:41:44.340
+Tracy Kuhrt: agenda, but there was one other one.
+
+300
+00:41:45.840 --> 00:41:49.470
+Tracy Kuhrt: yeah just before we jump to that last one did a great.
+
+301
+00:41:51.720 --> 00:41:53.220
+Tracy Kuhrt: opportunity to comment.
+
+302
+00:41:54.360 --> 00:41:59.160
+Jim Zhang: Oh yeah just want to clarify that i'm all for trying this this.
+
+303
+00:42:00.780 --> 00:42:01.710
+Jim Zhang: This format.
+
+304
+00:42:02.790 --> 00:42:12.690
+Jim Zhang: As long as it's not meant to be a decision tree, so I I i'd be more than happy to to help out with the categories and the content.
+
+305
+00:42:14.580 --> 00:42:15.390
+David Boswell: that's great thanks.
+
+306
+00:42:18.420 --> 00:42:25.080
+Tracy Kuhrt: Okay yeah let's let's move on to the last page that you got for the project specific page.
+
+307
+00:42:37.650 --> 00:42:52.290
+David Boswell: So, this would be, as you say, the mock up for the projects, I given project specific page, this is the mock up looking specifically fabric, but this would apply to you know every page or excuse me, every project on the website has a page dedicated to it.
+
+308
+00:42:54.060 --> 00:42:56.790
+David Boswell: So again, unlike the getting started page, which would be.
+
+309
+00:42:57.720 --> 00:43:08.910
+David Boswell: This would be redesigning 15 page and so there's two things on here again we've reviewed this before i'll just go through it quickly, but the two things on here that are different from the current project pages.
+
+310
+00:43:09.330 --> 00:43:18.780
+David Boswell: Are kind of a persona based approach to bucketing some of the link, so you can see that that black horizontal bar right now has developers users business analysts, that of.
+
+311
+00:43:19.200 --> 00:43:23.700
+David Boswell: Throwing a bunch of links of people and letting them figure out which one may be relevant for them to.
+
+312
+00:43:24.240 --> 00:43:32.850
+David Boswell: help you know direct people and putting these in these different categories which the current project pages don't do it just here's here's a set of links and you can kind of pick which one.
+
+313
+00:43:35.250 --> 00:43:41.310
+David Boswell: And then on the right, you can see there's a sidebar we did have a discussion in the past about what would go in the sidebar but the idea.
+
+314
+00:43:41.700 --> 00:43:46.800
+David Boswell: Being that many of our projects linked to each other, but you don't get a sense from that right now.
+
+315
+00:43:47.520 --> 00:43:55.620
+David Boswell: On the website, if you were in the fabric page or any of the pages really you wouldn't know that you know other projects were linked to it, so what we wanted to do.
+
+316
+00:43:56.010 --> 00:44:03.930
+David Boswell: In this mockup was have the ability to cross connections again and we've taught, you know I think we've talked about this.
+
+317
+00:44:04.320 --> 00:44:10.800
+David Boswell: path, but the main thing that we've done and the design, based on feedback to the tasc is removed.
+
+318
+00:44:11.250 --> 00:44:20.460
+David Boswell: The idea of linking to labs in the sidebar before that section had said related project and labs now that mock up just says related projects so.
+
+319
+00:44:20.820 --> 00:44:28.590
+David Boswell: If I remember the conversation correctly, we had had that discussion about what we linked to labs or not we decided not to so I had that removed and the mock up, and I think.
+
+320
+00:44:29.640 --> 00:44:37.140
+David Boswell: The the feedback would be then if we have a lab that is worth linking to because it is you know something that we want to promote.
+
+321
+00:44:37.350 --> 00:44:45.150
+David Boswell: From the marketing standpoint and maybe we need to be encouraging that lab to think about becoming a project so, then we could then link to it from that way so.
+
+322
+00:44:45.810 --> 00:44:53.550
+David Boswell: There isn't much changed on this one, but I didn't want to loop and let people know that we asked the designer to kind of make that lunch.
+
+323
+00:45:02.460 --> 00:45:05.790
+Tracy Kuhrt: Alright, thanks, David three comments on the space.
+
+324
+00:45:07.860 --> 00:45:08.880
+Tracy Kuhrt: I personally like it.
+
+325
+00:45:11.400 --> 00:45:17.010
+Tracy Kuhrt: I think it was separating in the personas I think that helps a lot and I know we're supposed to go.
+
+326
+00:45:23.880 --> 00:45:24.270
+Ry Jones: or no.
+
+327
+00:45:28.620 --> 00:45:29.160
+Arnaud J Le Hors @ IBM ("Arno"): i'm sorry.
+
+328
+00:45:29.880 --> 00:45:30.360
+yeah.
+
+329
+00:45:32.130 --> 00:45:33.870
+Arnaud J Le Hors @ IBM ("Arno"): Sorry, I apologize.
+
+330
+00:45:37.980 --> 00:45:38.730
+Tracy Kuhrt: You had any comments.
+
+331
+00:45:39.210 --> 00:45:40.620
+Arnaud J Le Hors @ IBM ("Arno"): No, no, no, no, just.
+
+332
+00:45:47.460 --> 00:45:50.640
+Tracy Kuhrt: Alright sounds like nobody has any comments on this one, David, I think.
+
+333
+00:45:51.840 --> 00:45:54.510
+Tracy Kuhrt: People are waiting for it to be done.
+
+334
+00:45:55.980 --> 00:46:04.290
+Arnaud J Le Hors @ IBM ("Arno"): I actually had one which is unfortunately explorer is out of the picture, but I think we can ignore this for the sake of the exercise that that.
+
+335
+00:46:06.210 --> 00:46:08.010
+David Boswell: That was just placeholder content yeah.
+
+336
+00:46:08.100 --> 00:46:08.880
+Arnaud J Le Hors @ IBM ("Arno"): yeah I just.
+
+337
+00:46:09.720 --> 00:46:14.010
+Arnaud J Le Hors @ IBM ("Arno"): that's what i'm teasing you read it, but it's kind of amusing in some way.
+
+338
+00:46:14.580 --> 00:46:22.950
+David Boswell: It does bring up a good point, though, we have to decide what projects actually do get featured on the sidebar which other project pages, so that is something that you know the tasc.
+
+339
+00:46:23.430 --> 00:46:32.220
+David Boswell: When we start building the design on the website, the TMC can look through and say hey you know this project should probably be linked to versus that project so that I mean we will need to sort that out.
+
+340
+00:46:33.510 --> 00:46:42.000
+Tracy Kuhrt: So so David I know we already have written that down it probably needs to be updated to reflect projects that we may have recently end of life.
+
+341
+00:46:43.470 --> 00:46:48.990
+Tracy Kuhrt: So i'll make sure that that gets updated it's it's also under this task force that we've.
+
+342
+00:46:51.570 --> 00:46:51.960
+Tracy Kuhrt: hurt.
+
+343
+00:46:52.500 --> 00:46:57.570
+Hart Montgomery: So, David i'm going to push back against that a little bit and suggest that marketing should possibly have the most impact.
+
+344
+00:46:58.710 --> 00:47:03.900
+Hart Montgomery: This obviously we don't want them to make technically incorrect links.
+
+345
+00:47:04.980 --> 00:47:09.180
+Hart Montgomery: But we may want them to actually pick the projects to go on the sidebar.
+
+346
+00:47:11.250 --> 00:47:20.580
+David Boswell: I think that's a good point but yeah I think you're right absolutely you know I wouldn't want to put the burden entirely on marketing because they wouldn't even necessarily know what their options were right, I mean.
+
+347
+00:47:24.030 --> 00:47:28.260
+David Boswell: yeah I don't think then that's really knows that X project X is related to project wire and.
+
+348
+00:47:28.920 --> 00:47:31.860
+Hart Montgomery: I think Ben knows more than you're getting credit for.
+
+349
+00:47:33.360 --> 00:47:38.940
+Hart Montgomery: But yeah we can we will obviously you know the technical community can obviously provide input.
+
+350
+00:47:39.540 --> 00:47:42.690
+David Boswell: yeah yeah I think yeah exactly input is a good way.
+
+351
+00:47:43.710 --> 00:47:45.600
+David Boswell: To have your discussion about like that's where.
+
+352
+00:47:49.560 --> 00:47:51.210
+Tracy Kuhrt: Our comments on this.
+
+353
+00:47:51.390 --> 00:47:51.840
+person.
+
+354
+00:48:00.240 --> 00:48:01.710
+Tracy Kuhrt: So it looks like no.
+
+355
+00:48:03.510 --> 00:48:04.500
+Tracy Kuhrt: I think the.
+
+356
+00:48:04.560 --> 00:48:21.030
+Tracy Kuhrt: Just to kind of summarize on where we're at with the project families website revamp we did have a conversation on Tuesday, a few of us were able to get together and have a conversation we.
+
+357
+00:48:23.550 --> 00:48:28.800
+Tracy Kuhrt: Maybe it can I share my screen here quickly right that wouldn't make it easier.
+
+358
+00:48:30.150 --> 00:48:31.200
+Tracy Kuhrt: Share screen.
+
+359
+00:48:33.480 --> 00:48:36.540
+Tracy Kuhrt: And this is doing.
+
+360
+00:48:38.250 --> 00:48:43.410
+Tracy Kuhrt: Alright, so, hopefully, you can see a wiki page that says tasks to be completed.
+
+361
+00:48:48.750 --> 00:48:50.160
+Tracy Kuhrt: Great assume that yes.
+
+362
+00:48:50.430 --> 00:48:50.940
+Tracy Kuhrt: Yes.
+
+363
+00:48:51.450 --> 00:48:55.440
+Tracy Kuhrt: Thank you, I can't see anything anymore zoom has taken over my homework.
+
+364
+00:48:55.770 --> 00:49:07.620
+Tracy Kuhrt: i'm so the tasks to be completed determine how we will group projects on the hyper ledger ledger website, we do have candidates functional grouping proposal that we put together.
+
+365
+00:49:08.490 --> 00:49:19.980
+Tracy Kuhrt: We in a meeting on Tuesday discussed this criteria for projects to meet and obtain priority for hyper ledger foundation marketing, as you heard today, in the discussion we're.
+
+366
+00:49:20.820 --> 00:49:25.080
+Tracy Kuhrt: going to leave that to marketing to this task is kind of not attached for us anymore.
+
+367
+00:49:26.040 --> 00:49:36.750
+Tracy Kuhrt: So I think we're fairly close to being finished with this task force, based on the discussion that we had today we've got website project pages related to the project sections.
+
+368
+00:49:37.470 --> 00:49:49.710
+Tracy Kuhrt: The website main groupings and then this criteria thing like I said, is something that we just discussed and decided that it's not really in the purview of this task force but it's in the purview of.
+
+369
+00:49:51.540 --> 00:50:00.450
+Tracy Kuhrt: The marketing folks, so I think just wanted to kind of wrap up on where we're at specifically with this task force.
+
+370
+00:50:03.300 --> 00:50:05.460
+Tracy Kuhrt: comments or questions on that.
+
+371
+00:50:12.180 --> 00:50:17.910
+Tracy Kuhrt: Okay, any other business that we should cover before we post, the meeting today.
+
+372
+00:50:21.120 --> 00:50:28.320
+David Boswell: i'll just say thanks again for all the feedback over this conversation and previous conversations been iteration so thank you for kind of working through it.
+
+373
+00:50:29.310 --> 00:50:38.130
+David Boswell: and taking a look at a few different times but i'll get my next step will be to get these with the designer onto the website and some sort of a draft form so everybody can play with it so.
+
+374
+00:50:38.550 --> 00:50:43.920
+David Boswell: When those are ready, look for some links and we'll we'll have another round of discussions before anything goes, live.
+
+375
+00:50:45.930 --> 00:50:46.740
+Tracy Kuhrt: All right, that's great.
+
+376
+00:50:46.860 --> 00:50:47.760
+Tracy Kuhrt: Thank you, David.
+
+377
+00:50:48.420 --> 00:50:54.480
+Tracy Kuhrt: We will look forward to seeing something we can actually click on and play with and provide additional feedback and thoughts on.
+
+378
+00:50:55.830 --> 00:50:59.310
+Tracy Kuhrt: Anything else anybody would like to cover before we close.
+
+379
+00:51:05.820 --> 00:51:21.660
+Tracy Kuhrt: yeah okay well, thank you all for attending today and we will be meeting again next week, Jim I think you are up for Task Force discussion for project health this week is the task force that's next on the agenda yep.
+
+380
+00:51:21.840 --> 00:51:22.380
+Jim Zhang: sounds good.
+
+381
+00:51:23.070 --> 00:51:30.570
+Tracy Kuhrt: Okay well have a great week and for those of you in the US have a great long weekend and we will see you next week.
+

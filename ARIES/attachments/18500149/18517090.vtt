@@ -1,0 +1,1646 @@
+WEBVTT
+
+1
+00:00:37.880 --> 00:00:42.499
+Lance Byrd: I can. How are you? Very good. How are you doing good?
+
+2
+00:00:42.930 --> 00:00:50.809
+Hakan: Let's see if I can take host here. Can I give you a host. No, i'm not host,
+
+3
+00:00:50.850 --> 00:00:53.050
+Lance Byrd: and I also guessed right.
+
+4
+00:00:53.380 --> 00:00:57.069
+Lance Byrd: Let's see here,
+
+5
+00:01:07.050 --> 00:01:08.699
+Lance Byrd: Alex, how are you?
+
+6
+00:01:08.740 --> 00:01:09.589
+Lance Byrd: Huh?
+
+7
+00:01:09.850 --> 00:01:12.520
+Lance Byrd: Good.
+
+8
+00:01:12.920 --> 00:01:20.510
+Alex: Good. I'm. Still trying to figure out the did come back Native library. Maybe we can try to do some building today. Hey, guys!
+
+9
+00:01:20.900 --> 00:01:22.490
+Hakan: Hi! Oh,
+
+10
+00:01:22.650 --> 00:01:25.830
+Judith Högerl: hey, Judas!
+
+11
+00:01:28.830 --> 00:01:30.259
+Lance Byrd: Hmm.
+
+12
+00:01:30.470 --> 00:01:33.830
+Lance Byrd: Usually I can
+
+13
+00:01:34.500 --> 00:01:43.889
+Lance Byrd: go to a participants click on my own name and take Oh, here we go claim host. They've just changed it a little bit. That's all
+
+14
+00:01:46.940 --> 00:01:50.679
+Lance Byrd: sweet, I think I am. I'm host now
+
+15
+00:01:52.180 --> 00:01:54.669
+Lance Byrd: unlimited power. Okay,
+
+16
+00:01:54.880 --> 00:01:59.120
+Lance Byrd: um. And it looks like we're already recording. So that's great, too.
+
+17
+00:01:59.500 --> 00:02:00.730
+Lance Byrd: Hey? Rhoda?
+
+18
+00:02:08.259 --> 00:02:10.050
+Lance Byrd: Okay,
+
+19
+00:02:10.960 --> 00:02:18.619
+Lance Byrd: Judith, do you? Uh? So last uh meeting we had hack on, and Alex and Rhoda and myself. Do you want to? Uh,
+
+20
+00:02:18.740 --> 00:02:21.860
+Judith Högerl: introduce yourself, and maybe let us.
+
+21
+00:02:21.880 --> 00:02:36.369
+Judith Högerl: Um, yeah, I'm writing my master thesis in the area of software and identity and the ideas to implement it can be two for Acupay And I can. It's actually my supervisor.
+
+22
+00:02:36.380 --> 00:02:45.240
+Lance Byrd: Yeah, Great to have you? Are you on um discord with us? Just okay and um
+
+23
+00:02:46.440 --> 00:02:48.250
+let me
+
+24
+00:02:48.530 --> 00:02:51.559
+Lance Byrd: do. I know your discord handle?
+
+25
+00:02:53.440 --> 00:03:00.349
+Lance Byrd: Do you know what it is? Maybe I've seen you on there, or have you posted there? Okay, Yeah, no worries
+
+26
+00:03:00.590 --> 00:03:04.350
+Lance Byrd: no worries, Baron. How are you?
+
+27
+00:03:08.410 --> 00:03:09.709
+Lance Byrd: I called him out.
+
+28
+00:03:09.840 --> 00:03:12.290
+Lance Byrd: No worries. Maybe he's not ready,
+
+29
+00:03:12.930 --> 00:03:18.129
+Judith Högerl: or he just muted there, maybe trying. Okay, No worries.
+
+30
+00:03:18.220 --> 00:03:19.620
+Lance Byrd: Take your time.
+
+31
+00:03:21.190 --> 00:03:22.330
+Lance Byrd: Cool.
+
+32
+00:03:22.640 --> 00:03:28.429
+Lance Byrd: Okay, and let's see. I'll bring up our page as well for today
+
+33
+00:03:28.460 --> 00:03:34.439
+Lance Byrd: and hold on. Let me publish it so I can post the link to you guys.
+
+34
+00:03:35.700 --> 00:03:38.910
+Lance Byrd: Okay, that
+
+35
+00:03:41.330 --> 00:03:48.090
+Lance Byrd: that's our link for today, and I can share my screen.
+
+36
+00:03:49.860 --> 00:03:51.280
+Lance Byrd: Sure
+
+37
+00:03:54.810 --> 00:03:56.250
+uh on.
+
+38
+00:03:58.830 --> 00:04:00.220
+Lance Byrd: Okay,
+
+39
+00:04:00.890 --> 00:04:07.670
+Lance Byrd: don't Judge uh all. My tabs probably should have closed those before this. But that's all right.
+
+40
+00:04:07.850 --> 00:04:16.029
+Lance Byrd: Okay. So feel uh so welcome to the area State Com. V. Two working group uh for November twenty eighth, the two thousand and twenty-two
+
+41
+00:04:16.040 --> 00:04:32.439
+Lance Byrd: happy to See everybody here. Um, we are now on zoom. So you guys have made it here. I guess i'll double check. Make sure no one's asking because we met on Google meet last time, just because I didn't know if they were going to get everything set up. But they did. Aries is great great community.
+
+42
+00:04:32.450 --> 00:04:38.220
+Lance Byrd: Please feel free to add yourself to the attendees list for today, if you like.
+
+43
+00:04:38.320 --> 00:04:56.539
+Lance Byrd: Um, we just have to remember the uh antitrust policy for Hyper Ledger. Um also the code of conduct for Hyper Ledger, which maybe I don't have a link to. But um! You should be able to find it on confluence um, and maybe i'll link to it on our future meetings.
+
+44
+00:04:56.850 --> 00:05:02.730
+Lance Byrd: And essentially, yeah, this group. Um, This is our second meeting.
+
+45
+00:05:02.980 --> 00:05:30.360
+Lance Byrd: I think our second meeting, maybe third uh and uh, our goal is to um see, did convey to adoption within Aries uh accelerating um. So for some that is a a focus on did come V. One transitioning to did Company two, and then for others. That is just adding a didcom uh implementation to their Aries agent, or let's say, a mediator or
+
+46
+00:05:30.370 --> 00:05:31.530
+Lance Byrd: um,
+
+47
+00:05:31.620 --> 00:05:39.160
+Lance Byrd: Yeah, some component within the area's ecosystem. So we think, if did come V. Two can be successful here.
+
+48
+00:05:39.170 --> 00:06:03.869
+Lance Byrd: Uh, then, you know it can be successful out outside of here. Uh, you know, roots Id which I'm associated with, for instance, has customers outside of Aries That, uh are are very interested in did come be, too. Uh, but then they're also very aware of ares, and they want to interrupt with Aries agents uh So if we can all get did comfy to going uh within the area's ecosystem. Then we we think adoption outside will
+
+49
+00:06:04.480 --> 00:06:21.789
+Lance Byrd: will be rapid and uh well satisfying for us. So let's go through any uh well welcomes. Uh. So Judith introduced herself. That's great. Um, Baron. Most of us already know. If he
+
+50
+00:06:21.800 --> 00:06:40.380
+Berend Sliedrecht: wants to say anything, go for it, Baron, but no pressure. Uh Oh, yeah, it works awesome. Um. So I'm: i'm a business I mainly work on uh Aj as a maintainer, and I've also been working on my own to go through a library in pure typescripts.
+
+51
+00:06:40.510 --> 00:06:46.730
+Berend Sliedrecht: Uh: So that's also basically why I joined. Because I thought maybe there were some questions or something uh that I can help with.
+
+52
+00:06:47.480 --> 00:06:59.439
+Hakan: Yeah, that's great. Where are you joining from? By the way, parents, from which company which uh continents?
+
+53
+00:07:02.880 --> 00:07:18.910
+Lance Byrd: Yeah, very good. Uh, yeah, Baron right? He has his implementation that he's been building up uh in typescript, I think. Alex. Uh from roots. Ids also looking at that. Um, but you can correct me if i'm wrong, Alex. And then
+
+54
+00:07:18.920 --> 00:07:26.870
+Alex: yeah, I am. And I do. I have a couple of questions actually, like I was trying to implement it on our wallet and some of the imports with the native libraries We're failing.
+
+55
+00:07:27.040 --> 00:07:27.880
+Alex: Uh:
+
+56
+00:07:28.020 --> 00:07:36.019
+Alex: so. Yeah, but yeah, I've been playing around with your library as well as the the sick. But um react native
+
+57
+00:07:36.110 --> 00:07:37.340
+Alex: in the past, like
+
+58
+00:07:37.360 --> 00:07:40.159
+Alex: week. Pretty much. So yeah, thank you for coming.
+
+59
+00:07:42.590 --> 00:07:51.710
+Lance Byrd: Yeah, that's super exciting. Uh: so Yeah, we'll cover that for sure today. Let me put that on our discussion topics. Uh:
+
+60
+00:07:52.060 --> 00:07:54.610
+Lance Byrd: yeah, uh typescript
+
+61
+00:07:55.210 --> 00:07:57.630
+Lance Byrd: Uh: implementation.
+
+62
+00:07:57.890 --> 00:08:00.580
+Lance Byrd: Talk about that. Um:
+
+63
+00:08:00.830 --> 00:08:03.290
+Lance Byrd: Okay? And I also see snow on the
+
+64
+00:08:03.420 --> 00:08:20.649
+Lance Byrd: on the call. If if you want to say anything snore, you know, go for it. Um! He he's. If I can do a quick introduction just from my point of view, Him and Alex did a bunch of work on the Jff challenge leading up to Iw. Which we all just attended, or a bunch of us just attended.
+
+65
+00:08:20.660 --> 00:08:35.500
+Lance Byrd: Uh. That was really cool, and I've gotten to sit in some of the meetings with uh with them, and just see uh them working through some of the interop issues for for did company, too. And uh, that's been really useful. Um,
+
+66
+00:08:35.510 --> 00:08:45.729
+Lance Byrd: just watching, you know, separate teams, basically all the collaboration that they have to do. Yeah, I admittedly, it's more than maybe um.
+
+67
+00:08:45.740 --> 00:08:56.030
+Lance Byrd: We'd like, you know, a team to have to do. But, uh, you know what these are, the growing pains of this, And And so in a lot of ways their efforts. Um have been. Uh,
+
+68
+00:08:57.180 --> 00:09:01.749
+Lance Byrd: have driven the the creation of this group and this meeting,
+
+69
+00:09:01.790 --> 00:09:17.649
+Lance Byrd: so that we can kind of capture some of these elements to help people to um be able to navigate the did Company to implementations and some of the pain points. And you know, finding the quickest path basically. So that's good stuff. You want to say anything, Schnor.
+
+70
+00:09:19.180 --> 00:09:23.939
+Snorre Edwin: I think you covered most of it. Uh But yeah, i'm from
+
+71
+00:09:24.160 --> 00:09:33.619
+Snorre Edwin: uh, we're using good comedy to self-made uh. So we had to adopt secret library for primarily
+
+72
+00:09:33.680 --> 00:09:38.549
+Snorre Edwin: encryption decryption. Um: And um, yeah,
+
+73
+00:09:38.650 --> 00:09:43.390
+Snorre Edwin: that's where we at. So I just wanted to jump in and see what's going on over here.
+
+74
+00:09:44.680 --> 00:09:58.730
+Lance Byrd: Yeah, that's that's great. I'm just trying to pull up our um. The spreadsheet that I've been doing. That's a a bit of a didcom uh yeah aries Sitcom V: Two support. Yeah, go ahead.
+
+75
+00:09:58.740 --> 00:10:09.759
+Hakan: It's been quick. Quick Question. Um, You are not using an Aries framework, but you are using Didcom. If I understood you correctly. And your software um solution.
+
+76
+00:10:09.970 --> 00:10:26.219
+Hakan: That's true. Okay, cool. No, that's That's also super interesting. So yeah, uh it's gonna be an interesting conversation to see how we can connect these two words because this was one of the topics that we were talking about last week. Um! Due to the fact that uh ares
+
+77
+00:10:26.230 --> 00:10:40.599
+Hakan: as a Uh framework is all using uh connections as a concept. And um, there came to question or like, uh, yeah, a question mark basically how how we can make sure that uh,
+
+78
+00:10:40.610 --> 00:10:52.519
+Hakan: we can create like Aries. Uh sorry it did convey to uh communication relationship whatever you want to call it, with an Aries agent and a uh non aerial space software.
+
+79
+00:10:53.420 --> 00:11:00.770
+Snorre Edwin: Oh, yeah, also we that's we. We're not done with the jff yet, but that's where we do. See,
+
+80
+00:11:01.160 --> 00:11:03.949
+Snorre Edwin: we had to break off very early.
+
+81
+00:11:04.290 --> 00:11:06.180
+Snorre Edwin: Um!
+
+82
+00:11:06.320 --> 00:11:18.349
+Snorre Edwin: Because the three people who did not use Aries um, or the the people who did the right use areas, did not. We're not comfortable enough in trying to adjust what's needed to be adjusted to meet
+
+83
+00:11:19.090 --> 00:11:26.019
+Snorre Edwin: meet each other. So the we have to kind of separate each other between two groups. Um:
+
+84
+00:11:26.850 --> 00:11:30.369
+Snorre Edwin: So yeah, it's a It's a tricky one,
+
+85
+00:11:32.700 --> 00:11:33.599
+Hakan: you know.
+
+86
+00:11:34.620 --> 00:11:38.149
+Lance Byrd: Yeah. Great. So um uh
+
+87
+00:11:38.520 --> 00:11:54.379
+Lance Byrd: to to just kind of show how i'm trying to uh connect some of these dots. Uh if I go to the references section here. Um, I put the jff did come v two notes uh in here. And uh, if I bring those up
+
+88
+00:11:54.960 --> 00:12:00.200
+Lance Byrd: hopefully, you guys are okay with me, sharing this uh with the group.
+
+89
+00:12:00.340 --> 00:12:11.620
+Lance Byrd: Um, It is just really interesting uh to kind of walk through the kind of questions Uh and um
+
+90
+00:12:12.500 --> 00:12:20.160
+Lance Byrd: uh the information that's been uh captured here in terms of uh, what parts of Didcom
+
+91
+00:12:20.240 --> 00:12:28.839
+Lance Byrd: uh are important, you know. Where? Where, uh, do we find conflicts or or uh difficulty? Um,
+
+92
+00:12:29.280 --> 00:12:33.250
+Lance Byrd: things like that? So I thought this document was really uh helpful.
+
+93
+00:12:33.440 --> 00:12:45.659
+Lance Byrd: Um, I guess I should be so recording hosting links to these things. Let me do. Let me do my job. Uh, let's see here
+
+94
+00:12:45.970 --> 00:13:01.390
+Lance Byrd: Now my interface is changed because i'm sharing. And so then I go back to the Chat Yo Here we go. So this is the survey uh document which has a link to the Jf. Ah, in the references Section
+
+95
+00:13:02.490 --> 00:13:21.810
+Lance Byrd: Um. And And yeah. So the point is, uh, okay, I I I I capture this as a reference that we can look at. Uh, there's tab for crypto uh for some of the crypto that we've seen uh supported within the Dcom um uh implementations. Obviously, crypto is something that uh
+
+96
+00:13:21.820 --> 00:13:31.199
+Lance Byrd: well, it can be. It can be a an issue also uh capturing the the different protocols. I haven't put much in here yet. Um. But
+
+97
+00:13:31.220 --> 00:13:39.939
+Lance Byrd: point being, you know, on Dcom Org, you can go see a bunch of the protocols for did com v two um
+
+98
+00:13:40.020 --> 00:13:52.159
+Lance Byrd: Aries agent test harness. I'd like to talk about a bit today. Um, if we have time uh That's something that I've been going through and uh looking at in terms of being able to demonstrate support
+
+99
+00:13:52.170 --> 00:14:02.179
+Lance Byrd: uh across the agents. Um, yeah, we have did methods on here. Uh, obviously, if you don't, if your agent, for instance, Doesn't
+
+100
+00:14:02.290 --> 00:14:11.989
+Lance Byrd: support did peer. Well, you know, if if someone's expecting to make a a did peer uh connection with you, and that's going to be an issue. So uh
+
+101
+00:14:12.760 --> 00:14:29.729
+Lance Byrd: uh this. This survey, if we'll call it that is super young right? So it could change in any way i'll. I'll appreciate any uh suggestions. I would say, maybe this tab is one of the most important right now. Uh which is the implementations Tab. Obviously Sickb
+
+102
+00:14:29.910 --> 00:14:57.400
+Lance Byrd: has uh uh donated a a bunch of open source implementations. And so some of the I guess more success that we've seen between uh agents is when they use the same implementation of of Didcom right. So if they both are using Sika uh, maybe it's a little easier. Uh And so yeah, that's obviously intuitive. But the goal is for you know, implementations uh, and maybe at some point have like a test harness that
+
+103
+00:14:57.410 --> 00:15:11.690
+Lance Byrd: allows implementations to connect and and figure out. Uh, if how they interrupt with with the other implementation. So I listed uh Baron's um sitcom type script uh here uh with animal
+
+104
+00:15:11.700 --> 00:15:31.059
+Lance Byrd: uh, and he had posted that to get. So we we have that Github Link, now um and then occupy has its internal uh work that that hack on and uh Judith have been doing. Uh, and it looked to me that that's uh related to as far. And um
+
+105
+00:15:31.220 --> 00:15:34.950
+Lance Byrd: Yeah. So I've I've linked to that as well. So
+
+106
+00:15:36.430 --> 00:15:38.060
+Lance Byrd: any
+
+107
+00:15:44.460 --> 00:15:48.220
+Rodolfo Miranda: implementations I'm finding for them
+
+108
+00:15:54.830 --> 00:15:58.419
+Lance Byrd: not put it on there yet. Let's put it
+
+109
+00:15:59.650 --> 00:16:01.380
+Lance Byrd: here.
+
+110
+00:16:02.290 --> 00:16:05.639
+Lance Byrd: Uh, let me change this to
+
+111
+00:16:07.170 --> 00:16:08.330
+Lance Byrd: yeah
+
+112
+00:16:10.800 --> 00:16:12.320
+Lance Byrd: uh
+
+113
+00:16:12.470 --> 00:16:15.560
+Lance Byrd: Oh, look over and document.
+
+114
+00:16:15.650 --> 00:16:18.930
+Lance Byrd: Oh, document,
+
+115
+00:16:19.520 --> 00:16:22.680
+Lance Byrd: it can be too simple.
+
+116
+00:16:23.250 --> 00:16:27.220
+Lance Byrd: Uh! And then maybe this is a good time to talk about the type script.
+
+117
+00:16:27.500 --> 00:16:30.019
+Lance Byrd: Uh, we'll call it the animal
+
+118
+00:16:30.280 --> 00:16:47.530
+Berend Sliedrecht: Barron. Do you want it to be the animal typescript temple or the parent? Uh: input it's in your repository. Right?
+
+119
+00:16:49.120 --> 00:16:50.310
+Lance Byrd: Okay,
+
+120
+00:16:50.850 --> 00:16:56.529
+Lance Byrd: yeah, uh, maybe Alex is a good time to ask some of the questions that you have for that
+
+121
+00:17:01.060 --> 00:17:07.450
+Alex: for the implementation, like the from of the animal.
+
+122
+00:17:07.530 --> 00:17:14.329
+Lance Byrd: Yeah, Yeah. Well, Baron's Uh: yeah, he's he works for animal, but he's doing the work under his own repository. So
+
+123
+00:17:16.079 --> 00:17:32.450
+Lance Byrd: uh yeah, I mean, uh i'm. I'm trying to reproduce the error right now, so give me a second because it's like a dependency issue on our end. So no, let's let's do updates on the uh since we have Judith and Hacken. Let's uh do some status updates uh
+
+124
+00:17:32.870 --> 00:17:36.610
+Lance Byrd: uh for the occupy work.
+
+125
+00:17:38.080 --> 00:17:39.230
+Uh:
+
+126
+00:17:40.240 --> 00:17:55.160
+Judith Högerl: okay, you guys want to give us any updates on uh what you're doing and what you're doing, and from the implementation side,
+
+127
+00:17:55.170 --> 00:18:02.949
+Judith Högerl: and was basically changing, or like making a new folder B: three for the message structure of B, two of that can be two
+
+128
+00:18:03.000 --> 00:18:04.599
+Judith Högerl: in a
+
+129
+00:18:04.640 --> 00:18:15.329
+Judith Högerl: So what now has not been done yet is actually to adapt uh the encryption, because right now it's not sure where it gets the information from which type of encryption should be used.
+
+130
+00:18:15.340 --> 00:18:29.230
+Judith Högerl: And that's also connected to the problem of um how the connection should be implemented. Because if you know from the beginning which connection is implemented, or if it's, for example, if we also should update the version of of out of band protocol for that convey to.
+
+131
+00:18:29.240 --> 00:18:48.770
+Judith Högerl: Then it would be known that okay, we're using that can be two now and then. We can also that the encryption to that can be two, and then use, like the message director they can be to. So what has been done so far is just adopting the Ma structure, or like enabling the message structure for it can be to. But yeah, missing is encryption, and
+
+132
+00:18:49.140 --> 00:18:53.179
+Judith Högerl: probably it's already implemented in the
+
+133
+00:18:53.440 --> 00:19:09.790
+Judith Högerl: this encryption. So it just has to be used at some point. So it's just to some point. It has to say, Okay, pack the the envelope in this encryption type, but the necessary information must come from somewhere, and this is probably would be the easiest way to have a connection, for it can be to.
+
+134
+00:19:09.890 --> 00:19:15.829
+Judith Högerl: And then, knowing from like which type of encryption should be used for the further comp and communication.
+
+135
+00:19:18.680 --> 00:19:23.579
+Lance Byrd: Yeah, we talked a bit about the uh kind of connection. Uh,
+
+136
+00:19:24.090 --> 00:19:35.750
+Lance Byrd: yeah, it. Ha, ha, ha! Can From last week. Yeah, we were talking about like a A. V one connection to uh. Is there anything come of that, you know over the last week
+
+137
+00:19:35.760 --> 00:20:01.919
+Hakan: I did make a bit of progress there, and I I can at a couple of things. So first I I shared the pull request right now on the Ch. And the chat, so you can uh put it here officially as well if you want um. One area that I was looking into was basically to understand, like, uh, Okay. So we have the connection connections. Ids connection protocols. Uh: we have did exchange, we have out of band. And it actually occurred to me
+
+138
+00:20:01.930 --> 00:20:05.299
+Hakan: that's uh, all these problems that
+
+139
+00:20:05.650 --> 00:20:13.600
+Hakan: occur to me basically what the connection has been actually talked about in the areas in top of the profile two,
+
+140
+00:20:13.820 --> 00:20:32.210
+Hakan: and in a way that we are actually facing out of the connection Protocol. So it's not a part of the I a ip, two uh, instead of that, we are using two protocols, one of them being the Did Exchange protocol. So if we know the um
+
+141
+00:20:33.160 --> 00:20:43.479
+Hakan: public did, if there is, as public did, the data Exchange protocol helps to just establish a connection between uh two parties. And um,
+
+142
+00:20:43.490 --> 00:20:58.680
+Hakan: if it's supposed to be like a broadcast kinda uh information again, where uh the public that is not known. In that case uh, the inviteer basically can post a out of band message using the out of Band Protocol two point zero.
+
+143
+00:20:59.860 --> 00:21:19.060
+Hakan: And the way it seems like to me is that uh, in order to, so we will continue using the Uh Eo connection. Id as as a concept, because it's been used in uh every uh framework that I've taken a look into. I assume it's the same in the Javascript framework,
+
+144
+00:21:19.070 --> 00:21:24.109
+Hakan: so that that is using them uh python is using them. Go is using them.
+
+145
+00:21:25.530 --> 00:21:27.790
+Hakan: And um,
+
+146
+00:21:28.290 --> 00:21:42.269
+Hakan: what's what we did exchange is already there as well and out of pen is already there as well. So I think what we will just need is to fix the message structures and create additional endpoints either to the existing Um, yeah,
+
+147
+00:21:42.600 --> 00:21:52.410
+Hakan: Api uh cluster, so to speak, or create like the two point, all versions of them. But um, yeah, I think this is more about the question.
+
+148
+00:21:52.800 --> 00:22:01.570
+Hakan: Uh, maybe to the Aka Pug group as well, because it's really more in the internal area for uh, how how python implementation should happen.
+
+149
+00:22:03.400 --> 00:22:08.579
+Hakan: But yeah, I mean, if if this was also like a question for you guys like, I think it's Um,
+
+150
+00:22:09.230 --> 00:22:16.209
+Hakan: yeah, it's. It's it's been already thought about. What are my next
+
+151
+00:22:16.450 --> 00:22:25.189
+Hakan: points, or like not problems with the say uh, uh uh questions that that actually occurred to me is, basically I think we will need a new interoperability profile
+
+152
+00:22:25.210 --> 00:22:41.509
+Hakan: uh for Aries. So we have a Ip one which was about Indie, a Ip two point. Oh, which was in the direction of this Con. V two. But it's not completely right, and so I think we will need another interoperability Profile uh revolving around the did convey to,
+
+153
+00:22:42.530 --> 00:22:45.739
+Hakan: which is missing right now. It's not there.
+
+154
+00:22:55.320 --> 00:23:07.059
+Hakan: Yeah, Yeah, that that stuff. But it is out of hyper ledger. I think it's it's not a part of the hyper ledger. It is the essential identity foundation,
+
+155
+00:23:07.100 --> 00:23:20.000
+Hakan: no problem. But, uh, we, we might still need an into a probability profile uh for Aries basically to, so that we can actually get along with the areas. Implementations. First of all, using did come V two uh,
+
+156
+00:23:20.070 --> 00:23:24.180
+Hakan: but also include things that will help us to be able to, uh,
+
+157
+00:23:24.200 --> 00:23:33.740
+Hakan: uh create relationship with the software that are using this company to, but not using Aries framework like what uh admin was implementing.
+
+158
+00:23:34.410 --> 00:23:44.089
+Snorre Edwin: And so basically the first issue you're going to stumble upon is potentially message protocols.
+
+159
+00:23:44.150 --> 00:23:47.460
+Snorre Edwin: I can share a link here which is open.
+
+160
+00:23:48.510 --> 00:23:54.639
+Snorre Edwin: Uh we had a lot of our discussions on this little a repo right here
+
+161
+00:23:54.770 --> 00:23:58.360
+Snorre Edwin: uh we're supposed to now
+
+162
+00:23:58.510 --> 00:24:00.359
+Snorre Edwin: where we started with
+
+163
+00:24:00.400 --> 00:24:10.409
+Snorre Edwin: trying first and foremost, trying to figure out what are the messages going back and forth? Um, Because the only way we now see it that
+
+164
+00:24:11.210 --> 00:24:19.960
+Snorre Edwin: this uh yeah software will talk to each other is that you basically have a way to tackle
+
+165
+00:24:20.460 --> 00:24:32.920
+Snorre Edwin: multiple different messages. Uh: So you see, how is your flow? You can look at that last the first one there um the the uh I mean. Then uh how Number seven or number two. Sorry
+
+166
+00:24:33.630 --> 00:24:37.089
+Lance Byrd: I got you.
+
+167
+00:24:37.620 --> 00:24:47.990
+Snorre Edwin: So you see that we had an flow that was almost similar to what Wacky has proposed. Uh, but also Brian and everyone else. If you scroll further down
+
+168
+00:24:48.810 --> 00:24:50.990
+Snorre Edwin: uh have the vacuum
+
+169
+00:24:51.110 --> 00:24:57.030
+Snorre Edwin: uh flow message. And if we what we figure out is that since uh,
+
+170
+00:24:57.210 --> 00:25:03.970
+Snorre Edwin: various people came in and was not able to change up their messages, we had basically had to land on
+
+171
+00:25:04.240 --> 00:25:13.319
+Snorre Edwin: what profile they use. Uh, and we decided to then split the groups into a group that can support this mess.
+
+172
+00:25:13.500 --> 00:25:14.670
+Snorre Edwin: Does it flow.
+
+173
+00:25:14.830 --> 00:25:17.740
+Snorre Edwin: Um. And then
+
+174
+00:25:18.100 --> 00:25:21.790
+Snorre Edwin: that's where the first four happened. Basically
+
+175
+00:25:24.570 --> 00:25:25.520
+Snorre Edwin: Uh-huh.
+
+176
+00:25:26.020 --> 00:25:44.620
+Snorre Edwin: Uh. So the question is, then, what is issues of credential in did come into our areas like this is, it happens quite fast before um. You see that things are not starting to collaborate unless um both software. Supports both
+
+177
+00:25:44.630 --> 00:25:47.540
+Hakan: mess expected message structures.
+
+178
+00:25:48.730 --> 00:25:49.570
+Hakan: Yup!
+
+179
+00:25:54.350 --> 00:26:09.089
+Snorre Edwin: Um! So what what we want people to do? They want them to say, Hey, implement all these messages? They mean the same. Or uh, do we need to find? Basically Say, hey, guys, a really good profile is the wacky one?
+
+180
+00:26:09.100 --> 00:26:17.220
+Snorre Edwin: Uh, because the next step of this journey was okay. Now, we need to deliberate in detail What's inside? East met each message?
+
+181
+00:26:17.250 --> 00:26:31.469
+Snorre Edwin: Then we saw this All that. Hey, Brian suggestions He had too much. Uh do we want to use presentation exchange. That was like the first hinder. Uh, because then you need to do that. Uh, and if you don't, but
+
+182
+00:26:31.590 --> 00:26:36.610
+Snorre Edwin: you can basically probably uh identify what's
+
+183
+00:26:36.910 --> 00:26:49.249
+Snorre Edwin: what this particular protocol will use of uh their attributes inside of it like will I use uh presentation exchange message, or what will I use doesn't matter. But
+
+184
+00:26:49.260 --> 00:27:00.940
+Snorre Edwin: I think that there are. These Protocols are the first hindered that has to be clarified um to be making trouble, and that's probably where it did come up, or it comes in. But yeah,
+
+185
+00:27:00.950 --> 00:27:16.100
+Hakan: just quick question uh aren't, the uh message structures of the messages which which messages are to be, since uh specified in the Uh Protocols themselves, like issue credential or present proof protocol, for instance.
+
+186
+00:27:16.610 --> 00:27:35.730
+Snorre Edwin: Uh um good question, maybe. Uh, but uh, if it is, then Wacky is not necessary. I mean, I believe Wacky also specifies a lot what's inside of It's: Messages: Oh, yeah, this this is connected to so. Um:
+
+187
+00:27:45.520 --> 00:27:58.679
+Hakan: So yeah, that that that was because I I think the messages that are supposed to be supported are uh written here. Well, I think three of them are required, and one of them is the optional to one that is, uh for negotiating.
+
+188
+00:27:59.630 --> 00:28:01.040
+Rodolfo Miranda: Um:
+
+189
+00:28:02.220 --> 00:28:06.129
+Hakan: Yeah, Then then the question comes against It's been like is this?
+
+190
+00:28:07.300 --> 00:28:10.530
+Hakan: Yeah, it it would it still be be a problem
+
+191
+00:28:10.550 --> 00:28:15.429
+Hakan: uh in terms of what needs to be implemented if it's like already in the spec insight.
+
+192
+00:28:17.020 --> 00:28:20.619
+Snorre Edwin: Uh no, not really. But then it just um!
+
+193
+00:28:21.550 --> 00:28:25.249
+Snorre Edwin: And then it comes down to how
+
+194
+00:28:25.960 --> 00:28:42.439
+Snorre Edwin: willing is everyone wanting to implement all different versions and the different actions that's gonna happen when a certain message comes in. And if you're able to pack it, that inside some simple uh libraries that's basically consume some
+
+195
+00:28:42.710 --> 00:28:47.940
+Snorre Edwin: action helpers. Then you have an abstracted that, at least for the next developer in line.
+
+196
+00:28:49.980 --> 00:28:52.230
+Snorre Edwin: Um, But yeah, um,
+
+197
+00:28:52.380 --> 00:28:55.489
+Snorre Edwin: not sure how to solve it. It's just It's quite
+
+198
+00:28:56.080 --> 00:28:58.519
+Snorre Edwin: big when we started to discuss.
+
+199
+00:28:59.350 --> 00:29:06.580
+Snorre Edwin: Uh, first of all, you just need to decide on what profile to use that it might be easier.
+
+200
+00:29:06.840 --> 00:29:14.450
+Snorre Edwin: Uh, but we kind of. We crashed there at the first meeting, so we had to fork two groups.
+
+201
+00:29:17.830 --> 00:29:18.810
+Hakan: Okay,
+
+202
+00:29:20.770 --> 00:29:21.840
+Hakan: interesting.
+
+203
+00:29:24.640 --> 00:29:34.490
+Rodolfo Miranda: I I think that that the um what it takes, or or if your credential version three and doesn't through person please, it's a nice target, so we we can
+
+204
+00:29:34.840 --> 00:29:42.140
+Rodolfo Miranda: all align to that right, and that that would be a a nice call, because it's kind of similar to version two.
+
+205
+00:29:42.270 --> 00:29:55.809
+Rodolfo Miranda: It's just translating the the it's actually the same right, the same flow on the the the on the format of the messages. The the only difference how how you put everything inside the body right?
+
+206
+00:29:56.020 --> 00:29:56.900
+Hakan: Mhm
+
+207
+00:30:02.390 --> 00:30:17.139
+Hakan: So maybe as a next work. Item, I could maybe make you that. So take a look into which protocols are needs necessary for the did convey to profile, because we, we we will need to create a new internal profile.
+
+208
+00:30:17.280 --> 00:30:28.120
+Hakan: I I I don't see any other way around, like whether call it vaki profile or not. It doesn't matter, we will need to specify the protocols. That, uh ares is supposed to support basically
+
+209
+00:30:50.770 --> 00:31:09.830
+Rodolfo Miranda: uh thinking of having like a nation that that would be like, hey? Regular trust being protocol. But to check for the trusting is working and provide. Uh well that all the envelopes and encryption is working. So trusting should be one of those portal that have to be on the on the profile.
+
+210
+00:31:09.840 --> 00:31:16.390
+Rodolfo Miranda: Um, What it takes for me is it's just the they call Yeah, the men the the initial.
+
+211
+00:31:19.330 --> 00:31:20.290
+Yeah.
+
+212
+00:31:22.210 --> 00:31:26.980
+Lance Byrd: So uh excuse my ignorance just a little bit. Um.
+
+213
+00:31:27.140 --> 00:31:45.620
+Lance Byrd: But I feel like this is important to cover. So the in the did come uh current did come back. We have these defined profiles. Uh? And so Hawkins basically, saying, Well, the probably occupy is up to this. Possibly this point
+
+214
+00:31:45.630 --> 00:32:06.039
+Lance Byrd: with didcom uh aip to uh envelope, Rfc: five hundred and eighty-seven. It probably has both of these right? Yeah. But we're still using Rfc. Nineteen, mostly, so that that would be the productive state. So there are several Rfcs tied to these profiles,
+
+215
+00:32:06.050 --> 00:32:14.359
+Lance Byrd: but i'm Fuzzy on what it will mean for this profile to be supported.
+
+216
+00:32:14.370 --> 00:32:43.920
+Lance Byrd: Yeah, let's can we discuss that a little bit as a group? Uh I I get to play the guy who just uh is super fuzzy on this. Maybe you guys are sharper on it, but if I can get it, then then I think you know the documentation will be better, because i'll I'll try to, uh, you know, dumb it down for for people like me who I understand that that we we need these. Uh we we supposedly interoperability will occur. Uh, if um someone
+
+217
+00:32:43.930 --> 00:32:47.679
+Lance Byrd: implements this particular profile, I just
+
+218
+00:32:47.830 --> 00:32:52.210
+Lance Byrd: i'm not clear on what What does that mean? For for as here?
+
+219
+00:32:52.220 --> 00:33:12.060
+Hakan: Exactly. So this is why I was suggesting that you come up with the profile. But, uh, is the very, very uh yeah, basic of it like that would cover what you did was implementing, uh in the past couple of months with the message structure of issue credentials and proof v. Three protocols, those what belong to. For example, this profile,
+
+220
+00:33:12.090 --> 00:33:23.609
+Hakan: basic messaging two point. So that would belong to this profile. Um: yeah. But for the rest, I would need to take a look into this as well as in my I I don't know them by memory, but
+
+221
+00:33:23.790 --> 00:33:43.140
+Hakan: th this is what we're trying to issue right like. So when we're using the discovery to profile, we're gonna use certain protocols that we can interact with each other. And then we the profile defines uh which protocols. We align with? Basically and uh, yeah, twelve of them would be issue, credential and present for v. Three protocols.
+
+222
+00:33:46.510 --> 00:33:49.220
+Lance Byrd: Okay, to how? Um,
+
+223
+00:33:49.300 --> 00:33:52.849
+Lance Byrd: Not even sure exactly what to ask here.
+
+224
+00:33:53.320 --> 00:33:59.020
+Rodolfo Miranda: Yeah. But I think the the profile that is written in the spec It can be true, it just.
+
+225
+00:34:10.250 --> 00:34:12.560
+Rodolfo Miranda: But we should cover an eighties
+
+226
+00:34:12.770 --> 00:34:20.279
+Rodolfo Miranda: a Ip, whatever that they can be, too. But so same, you support this.
+
+227
+00:34:26.239 --> 00:34:28.359
+Lance Byrd: Okay,
+
+228
+00:34:28.440 --> 00:34:41.309
+Lance Byrd: Do we think it Would that literally be aip three, then, or do, or people familiar with kind of how this is growing as a
+
+229
+00:34:42.699 --> 00:34:48.259
+Lance Byrd: as a scheme. Do we know if there is an aip three already in the works that possibly lists,
+
+230
+00:34:48.340 --> 00:34:55.570
+Hakan: not to my knowledge. We do not have it yet, But I think this is gonna be a a task for us as well.
+
+231
+00:34:56.520 --> 00:34:57.580
+Lance Byrd: Okay,
+
+232
+00:35:00.800 --> 00:35:09.089
+Rodolfo Miranda: maybe we can raise the topic to the end. It is called Okay, when I have like profile for did it come beat you
+
+233
+00:35:09.620 --> 00:35:10.790
+Lance Byrd: right?
+
+234
+00:35:11.370 --> 00:35:12.500
+Lance Byrd: Okay,
+
+235
+00:35:12.730 --> 00:35:13.660
+Lance Byrd: All right?
+
+236
+00:35:16.720 --> 00:35:18.109
+Fair enough.
+
+237
+00:35:21.600 --> 00:35:25.109
+Lance Byrd: Uh let's see. Raise uh,
+
+238
+00:35:34.880 --> 00:35:35.910
+Lance Byrd: okay,
+
+239
+00:35:39.890 --> 00:35:44.840
+Lance Byrd: Good. Is there anything else we want to say on that? Or
+
+240
+00:35:46.000 --> 00:35:59.040
+Lance Byrd: I? I just feel so uneasy with it. But you know i'll I'll catch up over time hopefully. Uh, and I guess Yeah, there's just we there's work that we need to do to make this more concrete.
+
+241
+00:36:00.560 --> 00:36:07.209
+Lance Byrd: I I I sense that the Wackypex conversation that we just had
+
+242
+00:36:07.430 --> 00:36:14.389
+Lance Byrd: I mean this. I feel like It's getting the heart at the heart of what this group is meant to do,
+
+243
+00:36:14.430 --> 00:36:24.800
+Lance Byrd: which is to help everyone to know the path of least resistance, for for these interrupts so um,
+
+244
+00:36:28.080 --> 00:36:33.399
+Lance Byrd: hey, i'm! We have. We have this guidebook. Um.
+
+245
+00:36:36.300 --> 00:36:48.949
+Lance Byrd: This guidebook is really what we want to uh improve. So like the spreadsheet that I showed, even though it's focused on like Aries in or out of the the real hope is that this
+
+246
+00:36:49.150 --> 00:36:50.819
+Lance Byrd: uh um!
+
+247
+00:36:51.490 --> 00:37:07.229
+Lance Byrd: This will lead to a a guidebook that just makes it much easier for a bunch of uh, you know, did come V. Two uh implementers like for the Jf. Challenge that they can just come through and read through this, and literally um
+
+248
+00:37:08.380 --> 00:37:10.000
+Lance Byrd: um
+
+249
+00:37:13.350 --> 00:37:18.449
+Lance Byrd: not have to go through all those pain points that that they experienced. Um.
+
+250
+00:37:19.870 --> 00:37:23.040
+Lance Byrd: So yeah, I I guess. Uh,
+
+251
+00:37:24.530 --> 00:37:27.149
+Lance Byrd: I think I
+
+252
+00:37:27.950 --> 00:37:31.019
+Lance Byrd: obviously these discussions uh
+
+253
+00:37:31.180 --> 00:37:37.589
+Lance Byrd: revolving around this profile, and what the Aries interrupt profile, I think I think,
+
+254
+00:37:38.270 --> 00:37:44.209
+Lance Byrd: will be the key. So sorry. Sorry, i'm stumbling through that and processing. But, uh,
+
+255
+00:37:45.340 --> 00:38:02.789
+Lance Byrd: I am just not as grounded on the implementations as most of you are. Yeah. So maybe one information. I will also meet with the Steven Korean tomorrow for the areas cloud Asian Python, uh user group
+
+256
+00:38:02.930 --> 00:38:09.229
+Hakan: meeting. And at that point I can also ask if there are any profiles that have been
+
+257
+00:38:09.640 --> 00:38:16.470
+Hakan: in the conceptualization for the Uh did compute. So basically, if there's anything I would update this page. Basically
+
+258
+00:38:17.180 --> 00:38:23.640
+Lance Byrd: Yeah, uh, yeah, that sounds good. Yeah, we definitely want to
+
+259
+00:38:24.390 --> 00:38:36.840
+Lance Byrd: kind of spread awareness through all these things. I'm: sure, Steven, this is one of those things where we're partly trying to catch up on where everybody is in their mental model, because obviously, Stevens
+
+260
+00:38:36.850 --> 00:38:48.939
+Lance Byrd: spent quite a bit of time thinking about these kinds of things. But a lot of times. What happens is there's a lot of thought, a lot of talk, uh, and then. But now, you know, you guys are doing the
+
+261
+00:38:49.440 --> 00:38:58.699
+Lance Byrd: the real important work which is doing the implementations and actually trying to make connections across each other or make did come communications across each other. So
+
+262
+00:38:59.190 --> 00:39:01.270
+Lance Byrd: we're just yeah, Let's
+
+263
+00:39:01.310 --> 00:39:19.079
+Lance Byrd: continue to try to tie this together. I don't know how that will necessarily affect the the spreadsheet, and you know, hopefully improve it. But, uh, yeah, I I will also try to attend this meeting. I've I've been in at least some of the acupug uh meetings. So
+
+264
+00:39:20.170 --> 00:39:21.109
+Lance Byrd: good.
+
+265
+00:39:22.960 --> 00:39:25.599
+Lance Byrd: Okay, Um,
+
+266
+00:39:26.540 --> 00:39:31.710
+Lance Byrd: Alex. How are you doing on. Uh? Do we have anything else that we wanted to say about the occupy?
+
+267
+00:39:32.370 --> 00:39:34.389
+Lance Byrd: They come v two stuff.
+
+268
+00:39:42.090 --> 00:39:50.660
+Lance Byrd: Um there, maybe, Baron, if you want to give us just a little update of you know kind of where you're at what your kind of short-term goals are.
+
+269
+00:39:51.750 --> 00:39:55.760
+Berend Sliedrecht: Uh, yeah, yeah, sure. Um. So
+
+270
+00:39:55.920 --> 00:40:14.489
+Berend Sliedrecht: Yeah, I've been trying to create my own. This company to library based on the sixp one uh, but with some small changes. Um. So the idea is is that it would be impure typescripts uh, without a secrets that's resolver or crypto provider.
+
+271
+00:40:14.820 --> 00:40:26.399
+Berend Sliedrecht: So the Sigma Library uh ships its own crypto, uh, which is fine, but it does mean that you have to have a different implementation for your native and for the web and for another environment.
+
+272
+00:40:26.680 --> 00:40:28.940
+Berend Sliedrecht: So I chose to.
+
+273
+00:40:36.200 --> 00:40:37.589
+Berend Sliedrecht: Um
+
+274
+00:40:38.480 --> 00:40:46.270
+Berend Sliedrecht: right now. It is really in a state where I don't even export anything from the the main index. So it doesn't do anything yet. Um!
+
+275
+00:40:46.820 --> 00:41:02.980
+Berend Sliedrecht: But I've been trying to when, when where I have the time to. Basically, very, you know, if we recreate the dipcom, Rest library from sick by like down to the variable names. So everything is basically the same. Um,
+
+276
+00:41:03.520 --> 00:41:06.770
+Berend Sliedrecht: once that is done. So once, you know.
+
+277
+00:41:08.660 --> 00:41:27.780
+Berend Sliedrecht: Yeah, the the the it from Rest library. Um: so once that is done. Uh, when I have a matching interface, then I will see where. Uh, I think they did something wrong, and I will try to resolve that. Um. And the idea is is that
+
+278
+00:41:27.800 --> 00:41:42.759
+Berend Sliedrecht: um, Because there, of course, with touch script, you have so so many different environments. That's uh yeah, you can implement your own crypto for every specific environment. So with web you can probably use roughly like crypto, although i'm not sure if the
+
+279
+00:41:47.950 --> 00:41:49.290
+Berend Sliedrecht: um
+
+280
+00:41:50.910 --> 00:41:56.140
+Berend Sliedrecht: I I will also probably provide some uh example
+
+281
+00:41:56.220 --> 00:42:02.419
+Berend Sliedrecht: uh crypto uh packages. So you have one for note, and you have one for, uh
+
+282
+00:42:03.020 --> 00:42:07.239
+Berend Sliedrecht: uh, the browser and one for uh react native uh. But
+
+283
+00:42:07.350 --> 00:42:13.330
+Berend Sliedrecht: the first version will probably ship without anything like that. So you have to ship you you, or bring as yourself,
+
+284
+00:42:13.440 --> 00:42:18.389
+Berend Sliedrecht: which can be difficult, but it does mean that the library will work in any platform.
+
+285
+00:42:18.630 --> 00:42:19.609
+Berend Sliedrecht: Uh
+
+286
+00:42:20.410 --> 00:42:21.390
+Berend Sliedrecht: I.
+
+287
+00:42:22.160 --> 00:42:26.120
+Berend Sliedrecht: So you you raise your hand. This you you have a question or
+
+288
+00:42:26.160 --> 00:42:33.889
+Snorre Edwin: yeah. Um. So I would just warn you of kind of copying their variables
+
+289
+00:42:34.390 --> 00:42:36.090
+down to the
+
+290
+00:42:36.420 --> 00:42:44.699
+Snorre Edwin: to exact what they're doing, because i'll erase this issue where a lot of their variables and data structure is not really following.
+
+291
+00:42:45.240 --> 00:42:54.589
+Berend Sliedrecht: Yeah, Yeah, I've picked that up as well. I I thought, my the document looks very different than theirs. Um.
+
+292
+00:42:54.720 --> 00:42:55.810
+Berend Sliedrecht: And
+
+293
+00:42:56.050 --> 00:43:02.830
+Berend Sliedrecht: I think if you use a the document where everything is just its own key and doesn't reference, the
+
+294
+00:43:03.000 --> 00:43:06.589
+Berend Sliedrecht: uh the verification methods. Then it doesn't work.
+
+295
+00:43:07.840 --> 00:43:20.569
+Snorre Edwin: Yeah. So I had to write my own like it's called It's mapper, and for and transparent to kind of make sure the data I get from my standard type see to their and
+
+296
+00:43:20.710 --> 00:43:28.240
+Snorre Edwin: it basically doesn't match the like. The variables are different than from the the actual did
+
+297
+00:43:28.440 --> 00:43:34.389
+Snorre Edwin: dock variables. So I think it's a a flaw that shouldn't be there.
+
+298
+00:43:34.560 --> 00:43:48.660
+Berend Sliedrecht: Yeah, Yeah, Like most of the I think the documents I I actually implemented myself, because I also noticed that there were a couple of things weird um with it, and that would not be interoperable. Uh, but it's exactly stuff like that that's
+
+299
+00:43:48.670 --> 00:43:58.680
+Berend Sliedrecht: uh. Once, like the libraries, I completely cope with copied typescript, and I will go through stuff like that and and change all those implementations. Um.
+
+300
+00:43:58.770 --> 00:44:02.879
+Berend Sliedrecht: And now I can see if I can create also a Pr. For the
+
+301
+00:44:02.940 --> 00:44:04.880
+Berend Sliedrecht: the library from Sickb,
+
+302
+00:44:05.470 --> 00:44:10.430
+Berend Sliedrecht: because I still almost all my structuring code from them. So I can give something back, I guess.
+
+303
+00:44:12.450 --> 00:44:13.350
+Snorre Edwin: Yeah,
+
+304
+00:44:14.870 --> 00:44:34.449
+Lance Byrd: yeah, that's great. So this is kind of that classic situation where, if we use something as an initial reference implementation. It's going to improve your work, Baron, but it's also going to improve their work. And then I've you know pretty much everybody's referencing this uh sick bus stuff uh, because
+
+305
+00:44:34.880 --> 00:44:42.830
+Lance Byrd: they were one of the first uh to market. And you know they've shown shown some some good momentum. So
+
+306
+00:44:43.500 --> 00:44:45.670
+Lance Byrd: yeah, this is uh
+
+307
+00:44:45.830 --> 00:44:50.209
+Lance Byrd: it's encouraging, Uh, you know. Bottom line, I think. Um,
+
+308
+00:44:52.780 --> 00:44:59.710
+Lance Byrd: uh, Have they been fairly responsive in the past? We've seen them being very responsive, So i'm hoping they're
+
+309
+00:45:01.530 --> 00:45:05.190
+Snorre Edwin: um that to me they respond to only one issue.
+
+310
+00:45:05.250 --> 00:45:08.319
+Snorre Edwin: And then they stopped, and that's about nineteen days ago.
+
+311
+00:45:08.700 --> 00:45:17.440
+Snorre Edwin: Okay, um. So I I the last like throughout the development I have raised a lot of issues, and Brian has been
+
+312
+00:45:18.110 --> 00:45:27.309
+Snorre Edwin: uh helping to populate some of those because these experience the same stuff. Um. So I don't know if it's stopped or not.
+
+313
+00:45:27.730 --> 00:45:30.789
+Snorre Edwin: Um, but they have not responded from
+
+314
+00:45:31.240 --> 00:45:33.060
+Snorre Edwin: ninety-one and up.
+
+315
+00:45:34.690 --> 00:45:41.769
+Snorre Edwin: Um so yeah, I I paying the Daniel Hartman, but he's out of the company. So he's not.
+
+316
+00:45:42.270 --> 00:45:43.200
+Snorre Edwin: Yeah,
+
+317
+00:45:43.450 --> 00:45:46.990
+Snorre Edwin: It's not been day since they responded to an issue.
+
+318
+00:45:47.040 --> 00:45:48.089
+Lance Byrd: Okay,
+
+319
+00:45:48.130 --> 00:45:56.839
+Lance Byrd: Yeah, Generally we have definitely Daniel Hartman's moved on. Uh, generally we see activity from Victor and from Artem.
+
+320
+00:46:04.920 --> 00:46:08.949
+Lance Byrd: Any other contacts, maybe, that we have with the sick. But folks,
+
+321
+00:46:10.520 --> 00:46:18.049
+Berend Sliedrecht: I I don't think that Daniel Hartman moves on. I think you switched companies, but I think he's still quite involved with uh with that con.
+
+322
+00:46:18.630 --> 00:46:29.459
+Snorre Edwin: But I've seen him, and he says, I have no no, say no leverage to pull them to do.
+
+323
+00:46:30.010 --> 00:46:30.890
+Berend Sliedrecht: Yeah,
+
+324
+00:46:33.190 --> 00:46:41.019
+Lance Byrd: yeah, for sure that uh Daniel's been super active uh in in the did come spec and and working group and things like that. So
+
+325
+00:46:43.350 --> 00:46:50.689
+Lance Byrd: all right, Yeah. Good. Uh, Alex, Do you have your questions? Yeah.
+
+326
+00:46:50.840 --> 00:47:00.649
+Alexandru Andrei: Yeah. I mentioned to him privately. But the the problem was that I mean, I'm. Maybe we can solve the library. But, like you said that there are no function that are exportable. So whatever I try to do for anything,
+
+327
+00:47:00.690 --> 00:47:04.470
+Alexandru Andrei: it's saying that we cannot find any.
+
+328
+00:47:04.640 --> 00:47:09.149
+Alexandru Andrei: Yeah, there's like nothing to getting exported like. There's really inputs and all that stuff. So
+
+329
+00:47:09.400 --> 00:47:10.979
+those that would be
+
+330
+00:47:13.470 --> 00:47:14.490
+Lance Byrd: okay.
+
+331
+00:47:15.250 --> 00:47:18.390
+Lance Byrd: So that sounds like, yeah, mostly just uh
+
+332
+00:47:18.510 --> 00:47:27.979
+Lance Byrd: you guys will go back and forth that only uh help validate forbearance. Uh, you know, an external user and then parents um helping
+
+333
+00:47:28.280 --> 00:47:39.359
+Lance Byrd: to uh and and snores help me sick. But to. And I saw Brian as well. Yeah, post a bunch of um issues. So yeah, hopefully, it's like the library improves
+
+334
+00:47:39.700 --> 00:47:49.430
+Lance Byrd: and we'll we'll keep uh barron. Is this? Is it good? Uh now for us to be uh working with you, or uh,
+
+335
+00:47:50.070 --> 00:47:53.410
+Lance Byrd: is it too early? What? What? What's your preference?
+
+336
+00:47:53.490 --> 00:48:15.410
+Lance Byrd: Um. What do you mean with working with me. But using the library or yeah, yeah, using the library, I mean, you. You put it out there, uh which we really appreciate. Uh and yeah, I know that you're uh, you know, actively developing on it. Uh, I just didn't know how useful it is yet for us to be trying to use it and giving you feedback and things like that.
+
+337
+00:48:15.920 --> 00:48:35.509
+Berend Sliedrecht: Um: Yeah. So right now, it it would be completely useless to to use it. Um, But I think once. Once I have something, some functions exposed. Uh, i'll create a message in the discourse for the this configur group and saying that it's ready to be experimented with um.
+
+338
+00:48:35.640 --> 00:48:53.029
+Berend Sliedrecht: But yeah, it's it's It's It's still very, very uh every a lot of to do um and small things. Uh, but yeah, it's it's It's getting there, I think, like a a a month or something like some weekends Programming uh should be enough for some first uh uses.
+
+339
+00:48:53.100 --> 00:48:55.069
+Lance Byrd: Okay, yeah, fair enough.
+
+340
+00:48:56.970 --> 00:48:58.040
+Lance Byrd: Good.
+
+341
+00:48:59.210 --> 00:49:01.870
+Lance Byrd: Um, Okay.
+
+342
+00:49:02.050 --> 00:49:15.289
+Lance Byrd: Anything else that we want to uh discuss? Um, I'm happy to bring up the Aries agent test harness uh stuff. But I you know. I want to make sure that uh, if you guys as uh
+
+343
+00:49:15.480 --> 00:49:18.920
+Lance Byrd: implementers and and active users,
+
+344
+00:49:19.120 --> 00:49:21.589
+Lance Byrd: if you have something you want to discuss, let's do it.
+
+345
+00:49:25.660 --> 00:49:31.360
+Snorre Edwin: I think Edwin's hand is raised. Uh, I'm. Not sure if it's old one or last as almost.
+
+346
+00:49:31.980 --> 00:49:36.559
+Snorre Edwin: Yeah, a stale hand bring my hand one day.
+
+347
+00:49:36.930 --> 00:49:38.220
+Lance Byrd: Yeah. Good.
+
+348
+00:49:38.470 --> 00:49:51.879
+Hakan: Yeah. So regarding the test, sinus, I think we will know more once we know which protocols will be used like It's it's a bit um hard to think about the test times before we think about it to interpret the profile.
+
+349
+00:49:52.440 --> 00:50:07.620
+Lance Byrd: Yeah. So I I guess all I wanted to bring up is that. Uh, I went. I'm going through the Aries agent test harness. Uh, and looking at what tests currently exist for dead comfy, too, and they have a tag
+
+350
+00:50:07.630 --> 00:50:26.209
+Lance Byrd: um for for tests that are did come V. Two related uh, and they have some scenarios built up for like out of band uh version. Two, and things like that. Um! What I what I haven't been able to do is find an agent. Um that is,
+
+351
+00:50:26.220 --> 00:50:47.400
+Lance Byrd: uh able to process those scenarios those did comfy to related scenarios. So i'm fairly new to the areas agent tests. But I guess my first question out to them basically is, how do I uh find the agents that are uh already supporting this. You know this particular scenario or this particular test.
+
+352
+00:50:47.460 --> 00:51:06.090
+Lance Byrd: Um, maybe that's obvious for people who, uh, you know, have have done it before. But uh, the best that I can see is okay. I configure the uh. You know the current test that I run. I pick an agent, let's say, occupy uh, and then I specify that that specific test which I did. I ran it. It didn't work
+
+353
+00:51:06.100 --> 00:51:18.210
+Lance Byrd: uh, and I don't know. Maybe I'm, there's uh multiple versions of occupy that I can specify. Uh, And then, for instance, we had talked about the uh Aries uh go
+
+354
+00:51:18.220 --> 00:51:27.790
+Lance Byrd: uh framework as well, and so I was interested to see if that uh, if those tests would pass, i'm not sure. I was able to get even the agent to
+
+355
+00:51:27.820 --> 00:51:29.149
+Lance Byrd: to run.
+
+356
+00:51:29.380 --> 00:51:36.649
+Lance Byrd: But um, yeah, I guess this is. This is my uh initial exploration into it. Any thoughts on
+
+357
+00:51:37.150 --> 00:51:42.250
+Lance Byrd: the test ours? Does anybody use the area's agent tests, for they come V: two stuff.
+
+358
+00:51:48.190 --> 00:51:57.919
+Lance Byrd: Yeah, yeah, yeah, Fair enough. So so i'll, i'll continue to um dive in there. Uh, and uh, I guess i'll
+
+359
+00:51:57.980 --> 00:52:16.269
+Lance Byrd: just, you know. Continue to report back. Basically. Um, yeah, I mean, I could tell you guys uh you know what tests are out there, but it's fairly easy to tell. Uh. You can just search the repository for uh, the added company to tag uh to get a flavor. But um,
+
+360
+00:52:16.280 --> 00:52:18.779
+Lance Byrd: Yeah, eventually, maybe
+
+361
+00:52:18.820 --> 00:52:20.470
+Lance Byrd: I Okay. So
+
+362
+00:52:20.660 --> 00:52:35.199
+Lance Byrd: part of the reason that this is important is for us uh as a community to be able to quickly like plug in an implementation uh, and be able to uh, possibly uh, you know, make a determination of how well you interrupt. But um
+
+363
+00:52:35.570 --> 00:52:39.799
+Lance Byrd: uh, also did come the three
+
+364
+00:52:39.860 --> 00:52:56.930
+Lance Byrd: that that uh I I've heard from Daniel Harman and and others that one of the goals is to make that a like ietf uh spec. So like uh. It's more rigor than than what it went through for for diff.
+
+365
+00:52:56.940 --> 00:53:02.130
+Lance Byrd: And as part of that you need to have a a test harness um that
+
+366
+00:53:02.560 --> 00:53:16.790
+Lance Byrd: um people can plug into. So maybe the areas agent test harness is to um is a is a higher level. Maybe there needs to be like a more specific thing for did comfy, too. But I think it's a great place to start
+
+367
+00:53:16.800 --> 00:53:35.210
+Lance Byrd: um, obviously, because even talking about the the profiles uh the aip one. And yeah aip two profile variations uh those have tags within the areas agent test harness. Uh, And so you can get kind of a score of how well you're doing uh
+
+368
+00:53:35.220 --> 00:53:53.370
+Lance Byrd: in that. So I think I think that dovetails well with um our our new mission, which is to kind of go out to the different user groups and talk about the did come V to profile, and what that means for the next um or variations of Ares agent uh Aries interrupt profiles
+
+369
+00:53:53.990 --> 00:53:57.010
+Rodolfo Miranda: last one. One question: How do you
+
+370
+00:53:57.020 --> 00:54:26.819
+Lance Byrd: tell Aka to run us? We did come to you. Is it a flag? Something that you can tell. Now you use. You should use it to me to try this connection with didn't. Don't meet you, but it's not no so um all well, at least as as best as I know. All All that I can do is um. I can specify what agent in the Area's agent test hars that I want, and so I can specify the different roles as well. But I generally just say, you know, minus D, which basically just says default.
+
+371
+00:54:26.920 --> 00:54:55.960
+Lance Byrd: So all the roles are going to be run by that particular agent. And so, if I specify, occupy, I know that whatever um scenarios that I specify uh to run like I don't run the entire, you know. Stack of of of of tests, I, you know, select some tests that i'm interested in, uh such as the uh out of band, or I can specify all the did come V two uh tests. So if I say, you know, run all the roles uh as occupy, and,
+
+372
+00:54:55.970 --> 00:55:00.960
+Lance Byrd: you know, run this uh run all tests that have the Didcom v two tag
+
+373
+00:55:00.970 --> 00:55:30.960
+Lance Byrd: uh it just spins up the occupy agents, and then it tries to run those scenarios with those agents right in each of their their roles. So uh and so that's not telling. Occupy, like hey occupy. This is A did come uh V two test. It's just telling the test harness to run. Only the Didcom V two related tests. So um! It's possible actually, that maybe uh Hacken and and Judith would know.
+
+374
+00:55:30.970 --> 00:55:32.539
+Lance Byrd: You know better than
+
+375
+00:55:32.600 --> 00:55:42.110
+Lance Byrd: then me uh oh, sorry. We We only have five minutes left. But uh, yeah, it's possible that they know. Maybe there's some configuration that I can do that uh
+
+376
+00:55:42.620 --> 00:55:50.120
+Lance Byrd: that. That that would help there. But um, yeah, right now, i'm just seeing that those tests are failing. And um
+
+377
+00:55:50.800 --> 00:55:52.970
+Lance Byrd: yeah, does that answer your question, Roto?
+
+378
+00:55:54.410 --> 00:56:11.779
+Rodolfo Miranda: We should work, or we work in the future? We didn't come being one and didn't come to meet you
+
+379
+00:56:11.790 --> 00:56:19.989
+Lance Byrd: as they're implementing this stuff. There's code that's saying, Oh, this is A. Did come V two message, So i'm going to start processing it as such.
+
+380
+00:56:20.700 --> 00:56:38.359
+Hakan: Yeah, exactly. So both of them will be supported like it's called V. One and V two, and there's the difference is going to be in the connection uh entry within the internal database to uh either uh communicate with the uh other corresponding Asian with it. Con. V. One or this can be to.
+
+381
+00:56:38.370 --> 00:56:52.870
+Hakan: And regarding the um, Yeah. And this has not been implemented yet on Akupi. So the only outbound communication that is happening is like through the old discount. V. One envelope, Rfc: zero nineteen, I think, was called
+
+382
+00:56:53.170 --> 00:57:09.850
+Hakan: um. However, it will change, depending on the basically connection tech uh that that feel it will support like multiple uh didcom encryption envelopes V: one for basically a Ip: One point oh,
+
+383
+00:57:09.860 --> 00:57:15.630
+Hakan: two point zero. And uh, yeah, it's going to be to encryption envelope for
+
+384
+00:57:16.010 --> 00:57:19.040
+Hakan: the other into a profile that is not defined yet,
+
+385
+00:57:20.150 --> 00:57:33.389
+Hakan: and the endpoints uh is the same. I think they will be all there like you should credential V. One is there, for example, issue credential V. Two and issue credential V. Three, for example, all endpoints will be visible on the uh
+
+386
+00:57:33.890 --> 00:57:36.019
+Hakan: on the back end basically on the Api.
+
+387
+00:57:40.100 --> 00:57:44.110
+Hakan: So there is no start parameter. What you say start what
+
+388
+00:57:44.610 --> 00:57:55.980
+Hakan: I I guess it would be possible to say, like I have a flag of like start. Akapi did come V. Two where you only see the endpoints related to this con v two, but um,
+
+389
+00:57:56.010 --> 00:58:11.799
+Hakan: in a general sense I I It's not a necessity, but it would be an additional addition. Basically But uh, we have to make things a bit, maybe simpler for people who wants to use the Akapi only with this call V two, and just don't even see what happened in the V One work. Basically
+
+390
+00:58:21.530 --> 00:58:23.080
+Lance Byrd: Yeah, fair enough,
+
+391
+00:58:23.940 --> 00:58:43.130
+Lance Byrd: we have uh, just maybe two minutes left. Uh, because i'll need to jump into another meeting any any final things. What can we do. Uh also, you know, just to make this time more useful, I mean, certainly, I think if we're reaching out to the other user groups and talking about the did come V. Two
+
+392
+00:58:43.140 --> 00:58:46.929
+Lance Byrd: profile, and how that will map into aip.
+
+393
+00:58:47.290 --> 00:59:05.589
+Hakan: I think that'll be super helpful uh what else? So yeah, I think This is what I would like to work on with um, at least to come up with a uh draft of what could be a part of the interpret, but the profile for it could be, too, and we can talk about it maybe next uh meeting
+
+394
+00:59:06.150 --> 00:59:13.910
+Hakan: to see whether we are missing anything or um, but just like plausible or yeah, just to have a a starting point. Basically,
+
+395
+00:59:14.840 --> 00:59:15.910
+Lance Byrd: Okay,
+
+396
+00:59:16.080 --> 00:59:19.170
+Hakan: yeah, I think it would be useful to talk about in a group,
+
+397
+00:59:20.860 --> 00:59:27.399
+Lance Byrd: anything else that we will want to done or or update for by next week.
+
+398
+00:59:27.810 --> 00:59:30.399
+Lance Byrd: I think that's a good That's a good goal to have.
+
+399
+00:59:31.450 --> 00:59:45.000
+Lance Byrd: Uh, I I I will also be wanting to update you all in terms of the areas agent test harness. Um, yeah, just as I discover more, maybe i'll just learn that. Yeah, there's just uh no support for that. And maybe
+
+400
+00:59:45.840 --> 01:00:00.589
+Lance Byrd: I guess the big thing for me right now is to learn how to discover quickly which um tests are supported by each agent like I I have seen the interop page. Uh, I don't know if everybody's seen this, but we have the Ares Interoperability information page
+
+401
+01:00:00.600 --> 01:00:06.909
+Lance Byrd: that gives kind of scores uh, and and even scores between agents. Um.
+
+402
+01:00:08.260 --> 01:00:24.649
+Lance Byrd: But yeah, I don't see any of it. Did comfy to stuff listed, and maybe s in some way they are tagged so that they are not run as part of of this, or maybe i'm just missing it. But anyways, i'll, i'll. I'll have more information as we go. Anything else.
+
+403
+01:00:29.540 --> 01:00:43.509
+Lance Byrd: Okay, Yeah. Great group today. Good to see everybody. Thanks for uh all the work that you're doing uh and feel free to post anything in the Ares Did comedy to uh Channel. I think the more activity we can get going in there the better.
+
+404
+01:00:43.520 --> 01:00:52.489
+Lance Byrd: Um, That helps new people also to to have a handle on things. And uh, yeah, i'll probably see some of you at the diff uh, did come meeting. That's later today.
+
+405
+01:00:52.780 --> 01:01:02.889
+Snorre Edwin: Quick question is, Do you guys have your own challenge somewhere? Is it possible to bridge it between the Didcom discord group, or what's
+
+406
+01:01:04.740 --> 01:01:11.069
+Lance Byrd: you're talking about? The different one? Yeah, I mean it's certain. Certainly, being active in there is good, too. Um,
+
+407
+01:01:11.280 --> 01:01:15.949
+Lance Byrd: we had kind of discussed. If this should be a a a separate group.
+
+408
+01:01:15.960 --> 01:01:34.309
+Lance Byrd: Um, I think if you have like more General did come uh v two stuff. I I do think it's best to jump in the diff one. But uh, if there's things related to Aries specifically, uh then maybe maybe jumping into the the Hyper Ledger foundation channel is is maybe better.
+
+409
+01:01:34.370 --> 01:01:37.399
+Lance Byrd: Yeah, yeah, thank you. All.
+
+410
+01:01:38.150 --> 01:01:40.750
+Lance Byrd: Yeah, uh, yes,
+
+411
+01:01:41.730 --> 01:01:43.199
+Hakan: Gotta go bye, bye,
+

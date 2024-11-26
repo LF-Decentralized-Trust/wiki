@@ -1,0 +1,486 @@
+WEBVTT
+
+1
+00:01:43.170 --> 00:01:45.900
+Peter Somogyvari: Can you hear me?
+
+2
+00:01:47.500 --> 00:01:48.870
+izuru: Yes. Hello.
+
+3
+00:01:52.950 --> 00:01:54.239
+Ramakrishna V: Yeah, I can. Do you.
+
+4
+00:01:54.390 --> 00:01:55.050
+Ramakrishna V: Okay.
+
+5
+00:01:55.240 --> 00:01:56.519
+Peter Somogyvari: Can't hear you
+
+6
+00:01:59.120 --> 00:02:00.940
+Peter Somogyvari: say something now, please.
+
+7
+00:02:02.060 --> 00:02:06.759
+izuru:  Hello! Don't mind, Peter.
+
+8
+00:02:07.570 --> 00:02:08.670
+Peter Somogyvari: Oh, no.
+
+9
+00:02:10.479 --> 00:02:12.819
+Peter Somogyvari: alright! Give me 1 s. It's a new laptop.
+
+10
+00:02:12.900 --> 00:02:15.400
+Peter Somogyvari: and it just doesn't.
+
+11
+00:02:17.220 --> 00:02:23.599
+izuru:  so you have all the you
+
+12
+00:02:36.120 --> 00:02:38.910
+Peter Somogyvari: that's good that you can hear me. That's
+
+13
+00:02:42.450 --> 00:02:44.680
+Peter Somogyvari: That's good. I just
+
+14
+00:02:52.700 --> 00:02:59.470
+Peter Somogyvari: okay. All right. Let me rejoin, because I know I know you can hear me, but I cannot hear you properly back in a second.
+
+15
+00:03:52.670 --> 00:03:54.979
+Peter Somogyvari: Okay, could you say something now?
+
+16
+00:03:56.920 --> 00:03:58.630
+izuru: Yeah.
+
+17
+00:03:58.780 --> 00:04:02.370
+Peter Somogyvari: yes. Okay. Finally, it works. Sorry. Very sorry about that.
+
+18
+00:04:03.260 --> 00:04:07.060
+Peter Somogyvari:  I have
+
+19
+00:04:08.360 --> 00:04:11.389
+Peter Somogyvari: not had the time to create
+
+20
+00:04:13.200 --> 00:04:16.279
+Peter Somogyvari:  document
+
+21
+00:04:17.060 --> 00:04:19.980
+Peter Somogyvari: to try to document it. Just give me 1 s.
+
+22
+00:04:22.470 --> 00:04:25.709
+Peter Somogyvari: We're gonna reuse last week's
+
+23
+00:04:29.200 --> 00:04:32.480
+Peter Somogyvari: and I'll just share the screen.
+
+24
+00:05:08.310 --> 00:05:09.370
+Peter Somogyvari: Okay.
+
+25
+00:05:13.410 --> 00:05:21.050
+Peter Somogyvari: Hello and welcome everyone to the Hyper Ledger cacti. Maintainer's Reading Police abide by the
+
+26
+00:05:21.110 --> 00:05:35.080
+Peter Somogyvari: And teachers policy that I'm showing on the screen and also the Hyper electric code of conduct which you can find link to in every agenda document that we have.
+
+27
+00:05:37.290 --> 00:05:43.359
+Peter Somogyvari: And with that said, my topic of discussion is
+
+28
+00:05:44.510 --> 00:05:52.709
+Peter Somogyvari: full requests. I have one that is a little more important than my other pool requests.
+
+29
+00:05:54.100 --> 00:05:55.530
+Peter Somogyvari: It's
+
+30
+00:05:57.070 --> 00:05:59.480
+Peter Somogyvari: your an upgrade from
+
+31
+00:06:01.820 --> 00:06:03.840
+Peter Somogyvari: version one.
+
+32
+00:06:04.950 --> 00:06:12.440
+Peter Somogyvari: That's a mistake supposed to be yeah. So from from version one to version 3.
+
+33
+00:06:13.250 --> 00:06:22.709
+Peter Somogyvari: And there was a bunch of small things that I had to be done, namely, about 18. If you read this long document and
+
+34
+00:06:23.190 --> 00:06:27.750
+Peter Somogyvari: know what they are. They are not really source code changes except for
+
+35
+00:06:27.950 --> 00:06:35.249
+Peter Somogyvari: some like, literally a few lines of code. I had to change just because I was fighting the compiler. That also had to be upgraded.
+
+36
+00:06:36.350 --> 00:06:39.479
+Peter Somogyvari: but other than that, the diff is really just
+
+37
+00:06:40.800 --> 00:06:49.090
+Peter Somogyvari: configuring the winter, and then  this can load
+
+38
+00:06:49.280 --> 00:06:50.879
+Peter Somogyvari: that I can show you.
+
+39
+00:06:51.440 --> 00:06:58.799
+Peter Somogyvari: It's just a upgrading of dependencies and adding a bunch of dependencies that we're missing.
+
+40
+00:06:59.800 --> 00:07:13.100
+Peter Somogyvari: And the big thing. 2 big things that I like about this pool. Because fly, I think it's important, is one. It speeds up the Ci because it has
+
+41
+00:07:13.730 --> 00:07:16.809
+Peter Somogyvari: better caching for their own dependencies.
+
+42
+00:07:17.950 --> 00:07:22.009
+Peter Somogyvari: and also it skips a bunch of
+
+43
+00:07:22.020 --> 00:07:25.100
+Peter Somogyvari: unnecessary debug
+
+44
+00:07:25.310 --> 00:07:28.779
+Peter Somogyvari: tasks in the actual Ci script.
+
+45
+00:07:29.830 --> 00:07:34.940
+Peter Somogyvari: So, for example, freeing up the disk space in the Github runners.
+
+46
+00:07:35.970 --> 00:07:46.700
+Peter Somogyvari: So this takes about a couple of minutes to execute, but we don't always need it. So I turned it off by default, and now every single Ci job that we have benefits from it.
+
+47
+00:07:48.230 --> 00:07:58.350
+Peter Somogyvari: And there's a few more little optimizations like this that makes it so that the Ci script runs on average
+
+48
+00:07:59.190 --> 00:08:02.830
+Peter Somogyvari: 5 min faster, and
+
+49
+00:08:02.990 --> 00:08:09.500
+Peter Somogyvari: the 5 min adds up a lot because it runs like 40 or 50 times for every pull request.
+
+50
+00:08:10.750 --> 00:08:21.550
+Peter Somogyvari: So that's one thing, that one thing is the performance. And the other thing is that video on free, we can disable the wasting
+
+51
+00:08:22.610 --> 00:08:35.020
+Peter Somogyvari: in a way that it actually works because they have problems with you on version one. But with you on free. I was able to say. Where is it?
+
+52
+00:08:35.780 --> 00:08:41.610
+Peter Somogyvari: Somewhere in the configuration, I was able to say that you don't want hoisting.
+
+53
+00:08:41.809 --> 00:08:43.880
+Peter Somogyvari: Oh, in the or an Rc.
+
+54
+00:08:45.200 --> 00:08:50.839
+Peter Somogyvari: yeah, so, and hoisting limits workspaces. What this does is
+
+55
+00:08:51.760 --> 00:08:52.610
+Peter Somogyvari: that
+
+56
+00:08:53.650 --> 00:09:03.979
+Peter Somogyvari: it does not hoist by default. So all the dependencies for all the packages have to be provided from the node modules of the package itself.
+
+57
+00:09:05.170 --> 00:09:18.169
+Peter Somogyvari: And this led to me, having to update most of the package Jason files because we had these bugs in most of the packages where we were using dependencies that
+
+58
+00:09:18.710 --> 00:09:30.179
+Peter Somogyvari: we were not declaring. But we didn't realize it, because the node module resolution would always work anyway, just because it climbed back up to the root node modules.
+
+59
+00:09:30.520 --> 00:09:37.330
+Peter Somogyvari: and so as long as at least one other package declared a dependency, all of them could use it.
+
+60
+00:09:37.650 --> 00:09:41.679
+Peter Somogyvari: And that was that was not good.
+
+61
+00:09:41.820 --> 00:09:48.859
+Peter Somogyvari: because then in production, when you actually try to work with the package, it just fails to install because it's missing
+
+62
+00:09:49.210 --> 00:09:53.770
+Peter Somogyvari: or not installs, it fails to run because it's missing runtime dependencies.
+
+63
+00:09:55.100 --> 00:10:01.299
+Peter Somogyvari: so that that is an immediate and very strong benefit from
+
+64
+00:10:01.800 --> 00:10:09.890
+Peter Somogyvari: from this port request, which is that every single dependency that I've added was discovered because of this change.
+
+65
+00:10:12.340 --> 00:10:16.010
+Peter Somogyvari: yeah. So that's that's the gist of it.
+
+66
+00:10:17.120 --> 00:10:22.549
+Peter Somogyvari: And I just wanted to highlight all this because I'm hoping to
+
+67
+00:10:23.290 --> 00:10:34.829
+Peter Somogyvari: get this review as soon as possible, because the downside of such a big pull request that touches everything is that it pretty much immediately starts
+
+68
+00:10:35.220 --> 00:10:40.499
+Peter Somogyvari: getting merge conflicts from everywhere. As soon as some other pull request gets moved in.
+
+69
+00:10:42.260 --> 00:10:43.320
+Peter Somogyvari: And
+
+70
+00:10:44.720 --> 00:10:52.120
+Peter Somogyvari: yeah, yeah, that's it. So that's all I had from my side for this poor request. Just a little heads up for everyone to please
+
+71
+00:10:52.570 --> 00:10:54.799
+Peter Somogyvari: try and review it if you have the time.
+
+72
+00:10:58.310 --> 00:11:00.250
+Ramakrishna V: Yeah, thanks. And
+
+73
+00:11:08.500 --> 00:11:10.040
+Peter Somogyvari: okay, thank you.
+
+74
+00:11:14.700 --> 00:11:21.730
+Peter Somogyvari: Oh, and one more thing, I'm also working on a script that can generate a
+
+75
+00:11:22.740 --> 00:11:39.690
+Peter Somogyvari: software bill of materials that gives us a list of all the node dependencies that the project uses and and their version numbers and their license is in a Csv file.
+
+76
+00:11:40.310 --> 00:11:52.059
+Peter Somogyvari: It doesn't support the hashes yet. But but I'm working on it, and I've I've made some progress today. So I'm hoping that that pull request will also be very soon.
+
+77
+00:11:55.920 --> 00:11:58.110
+Peter Somogyvari: and then that's it. This will I?
+
+78
+00:12:01.850 --> 00:12:10.510
+Ramakrishna V:  And the software is there a standard format? I remember it's for the discussion of this in the one of the Toc meetings
+
+79
+00:12:13.890 --> 00:12:16.399
+Peter Somogyvari: the as bomb discussion.
+
+80
+00:12:16.580 --> 00:12:17.290
+Ramakrishna V: Yeah.
+
+81
+00:12:18.710 --> 00:12:26.460
+Peter Somogyvari: the last thing I remember is that I was asking if anyone had any good tooling that actually works. Okay? And
+
+82
+00:12:26.550 --> 00:12:34.640
+Peter Somogyvari: and there, there wasn't any from anyone. And what I'm doing is also kind of hacky, because
+
+83
+00:12:35.030 --> 00:12:38.720
+Peter Somogyvari: I found this package cold.
+
+84
+00:12:38.810 --> 00:12:42.840
+Peter Somogyvari: What is it called sorry 1 s license report.
+
+85
+00:12:43.720 --> 00:12:51.390
+Peter Somogyvari: So the name of the packages license report and you can run it for a single package, Jason.
+
+86
+00:12:52.600 --> 00:13:03.870
+Peter Somogyvari: But then it doesn't do recursive dependency resolution as in. If you if you pointed at.
+
+87
+00:13:03.900 --> 00:13:08.610
+Peter Somogyvari: then it just picks the one for the first package. Jason finds
+
+88
+00:13:09.150 --> 00:13:13.289
+Peter Somogyvari: Parses the package, Jason, and that says, All right. These are your dependencies.
+
+89
+00:13:14.040 --> 00:13:23.310
+Peter Somogyvari: but it doesn't check the dependencies, dependencies, as in the transitive dependencies, and it does not go into the mono repo, either.
+
+90
+00:13:23.660 --> 00:13:27.130
+Peter Somogyvari: But I got around all of this by
+
+91
+00:13:28.310 --> 00:13:41.579
+Peter Somogyvari: Writing my own script. which does a glove pattern find of every package, Jason everywhere. which comes up to 12,000 package, Jason.
+
+92
+00:13:42.590 --> 00:13:43.850
+Peter Somogyvari: and then
+
+93
+00:13:45.570 --> 00:13:48.760
+Peter Somogyvari: and then after that
+
+94
+00:13:49.540 --> 00:13:57.870
+Peter Somogyvari: I just tell the tool 12,000 times. Hey, go look at this package, Jason, tell me the dependencies
+
+95
+00:13:58.450 --> 00:14:12.069
+Peter Somogyvari: and dump it into a Csv file. And then I picked that up and I append it to the to a bigger Cs, we, father? I'm collecting all of your responses for all 12,000
+
+96
+00:14:12.150 --> 00:14:14.520
+Peter Somogyvari: package Jason files. And so
+
+97
+00:14:15.300 --> 00:14:22.609
+Peter Somogyvari: that's the script as it is right now, and it takes about 4 h to run on my laptop, so it's
+
+98
+00:14:23.140 --> 00:14:34.720
+Peter Somogyvari: as far from perfect. But at least I'm getting somewhere, because at the end of it I have this try enormous Csv file that I can query in excel if I want to.
+
+99
+00:14:35.090 --> 00:14:44.189
+Peter Somogyvari: I can ask questions like, Hey, give me every single instance of this particular dependency with that particular version.
+
+100
+00:14:44.590 --> 00:14:49.700
+Peter Somogyvari: And then I can also tell exactly which package Jason's or depending on it.
+
+101
+00:14:51.800 --> 00:14:56.109
+Ramakrishna V: That's good thanks of the
+
+102
+00:14:59.170 --> 00:15:00.350
+Peter Somogyvari: no problem.
+
+103
+00:15:18.150 --> 00:15:19.200
+Peter Somogyvari: Okay.
+
+104
+00:15:19.550 --> 00:15:23.740
+Peter Somogyvari: If if no one else is anything, then we can cut it short.
+
+105
+00:15:24.630 --> 00:15:27.979
+Ramakrishna V: Yeah, I just sorry I
+
+106
+00:15:28.230 --> 00:15:45.730
+Ramakrishna V: I've been super engaged in other stuff. I have this conference next week. So I still haven't finished the documentation, and realistically probably it'll I can only get it done like next week like, finish it next week.
+
+107
+00:15:46.480 --> 00:15:50.310
+Ramakrishna V: so yeah, that's that's my update on that.
+
+108
+00:15:51.590 --> 00:15:56.649
+Peter Somogyvari: Yeah, no worries. I appreciate that you're doing some work on it. That's great in my eyes.
+
+109
+00:15:57.280 --> 00:16:02.599
+Peter Somogyvari: And yeah, conferences are tough, especially if you have to fly to the other side of the world for it.
+
+110
+00:16:03.530 --> 00:16:05.290
+Peter Somogyvari: So I understand.
+
+111
+00:16:06.860 --> 00:16:09.560
+Ramakrishna V: looking forward to the break
+
+112
+00:16:09.790 --> 00:16:15.319
+Ramakrishna V: break of change of management. So anyway, I'll I'll see you next week. Then
+
+113
+00:16:16.450 --> 00:16:17.200
+Peter Somogyvari: yeah.
+
+114
+00:16:18.300 --> 00:16:19.749
+Peter Somogyvari: sounds like a plan.
+
+115
+00:16:21.310 --> 00:16:23.990
+Peter Somogyvari: Israel. Did you have anything?
+
+116
+00:16:24.170 --> 00:16:32.130
+izuru: nothing from me this week. I just approve your progress. 1414 something.
+
+117
+00:16:33.840 --> 00:16:35.649
+Peter Somogyvari: Oh, yeah, thank you very much.
+
+118
+00:16:37.400 --> 00:16:39.620
+Peter Somogyvari: Okay, then,
+
+119
+00:16:39.650 --> 00:16:42.280
+Peter Somogyvari: I'll talk to you next time. Thanks for joining.
+
+120
+00:16:43.040 --> 00:16:44.070
+Ramakrishna V: Thank you.
+
+121
+00:16:44.470 --> 00:16:47.230
+Peter Somogyvari: Bye, bye, bye, bye.
+

@@ -1,0 +1,1790 @@
+WEBVTT
+
+1
+00:05:34.310 --> 00:05:35.350
+Patrik Stas: Hi! Book down.
+
+2
+00:05:40.200 --> 00:05:41.010
+Bogdan Mircea: hey, Ben!
+
+3
+00:05:42.830 --> 00:05:47.360
+Patrik Stas: Alright, so let's get into it, I think.
+
+4
+00:05:47.390 --> 00:05:55.470
+Patrik Stas: Let's see if anybody joins. If yes, it's fine, if they're not. That's also fine. I'll start by sharing my screen.
+
+5
+00:05:57.960 --> 00:06:05.879
+Patrik Stas: It's probably not necessary, but i'll still do it as a as a policy of hyper Ledger is
+
+6
+00:06:06.810 --> 00:06:13.139
+Patrik Stas: requesting to show the entire press policy notice at the beginning of the call.
+
+7
+00:06:13.190 --> 00:06:20.539
+Patrik Stas: So just in case it somebody else would connect during the meeting. This might be. This might start to apply.
+
+8
+00:06:20.880 --> 00:06:29.020
+Patrik Stas: In the meantime you're welcome bogged down, or anyone who tuned into this call later on to
+
+9
+00:06:30.580 --> 00:06:32.020
+Patrik Stas: to
+
+10
+00:06:32.190 --> 00:06:36.960
+Patrik Stas: January 26, 2,023 or 6 community call.
+
+11
+00:06:38.520 --> 00:06:53.890
+Patrik Stas: and I think we can. We can just get started now. So yeah, for the starter I would just like to introduce our new contributor in a Bogdan who also joined this call. I'll walk down.
+
+12
+00:06:56.150 --> 00:06:57.330
+Bogdan Mircea: Hello, hello.
+
+13
+00:06:57.750 --> 00:07:00.300
+and
+
+14
+00:07:01.760 --> 00:07:13.840
+Patrik Stas: yeah, Bogdan, as us may. Maybe you can Just you know, share a few words about yourself as a connected to the call for the first time.
+
+15
+00:07:15.850 --> 00:07:17.950
+Bogdan Mircea: Okay, sure.
+
+16
+00:07:18.160 --> 00:07:19.610
+Bogdan Mircea: Yeah. So
+
+17
+00:07:20.690 --> 00:07:30.530
+Bogdan Mircea: I guess i'm going to talk about the the technical side of things. I guess so. I recently joined Upsa. I've been a rest Developer
+
+18
+00:07:30.580 --> 00:07:34.269
+Bogdan Mircea: 2 s at least arrest for out here and something now.
+
+19
+00:07:34.600 --> 00:07:39.730
+Bogdan Mircea: prior to that. I've been working as a back-end developer, mostly in python.
+
+20
+00:07:40.850 --> 00:07:42.300
+Bogdan Mircea: And
+
+21
+00:07:42.400 --> 00:07:51.150
+Bogdan Mircea: yeah, i'm i'm really excited on working on this thing. It's actually technically pretty cool, and i'm glad to be here and be able to contribute
+
+22
+00:07:51.560 --> 00:07:52.810
+Bogdan Mircea: looking forward to
+
+23
+00:07:53.490 --> 00:07:56.130
+Bogdan Mircea: you know, hearing and discussing with.
+
+24
+00:07:56.660 --> 00:07:57.889
+Bogdan Mircea: So I mean
+
+25
+00:07:57.950 --> 00:08:01.180
+Bogdan Mircea: right now with you, Patrick, because you're here. But
+
+26
+00:08:01.700 --> 00:08:06.309
+Bogdan Mircea: down the line with anyone else who might join, or during the future calls, and so on.
+
+27
+00:08:06.330 --> 00:08:07.060
+Patrik Stas: Hmm.
+
+28
+00:08:07.160 --> 00:08:17.960
+Patrik Stas: Yeah, thank you very much. So let's let's get into it. So we have a few few other items on agenda. This time it's a fairly short.
+
+29
+00:08:18.790 --> 00:08:26.700
+Patrik Stas: so as usual, we'll start with just like a short overview of recent work which has been done
+
+30
+00:08:26.890 --> 00:08:38.120
+Patrik Stas: since the last call 2 weeks ago, as the previous school was skipped. So since then that was, I think, only 2 sort of significant dish
+
+31
+00:08:38.190 --> 00:08:46.169
+Patrik Stas: or not worthy Pr. Is merged. One of them was addressing the
+
+32
+00:08:46.540 --> 00:08:53.049
+Patrik Stas: how. The the the approach we take for dealing with Vdr tools.
+
+33
+00:08:54.590 --> 00:08:57.609
+This issue has been probably already closed.
+
+34
+00:08:57.900 --> 00:09:04.719
+Patrik Stas: But let me just find it first. Oh, yeah, that was originally this proposal to move Vdr. Tools, for
+
+35
+00:09:04.970 --> 00:09:07.120
+Patrik Stas: under a is the.
+
+36
+00:09:07.890 --> 00:09:14.210
+Patrik Stas: and maybe I can actually talk a little bit about this.
+
+37
+00:09:15.430 --> 00:09:34.969
+Patrik Stas: Given the fact that you book them are on this call now, and I can. And for anybody else this can be like also a useful background. So just a little bit background about like worldly Vdr tools is, and what is the thing we we we did here
+
+38
+00:09:34.980 --> 00:09:42.760
+Patrik Stas: so up until recently we've been we we had in our dependencies
+
+39
+00:09:44.070 --> 00:09:45.759
+Patrik Stas: like
+
+40
+00:09:45.840 --> 00:09:50.140
+Patrik Stas: get-based rust dependency on
+
+41
+00:09:50.340 --> 00:09:54.970
+Patrik Stas: fork of following repository by ever in.
+
+42
+00:09:55.210 --> 00:10:01.100
+Patrik Stas: We just called Vdr tools. This was basically
+
+43
+00:10:01.670 --> 00:10:05.110
+Patrik Stas: a fork of what previously
+
+44
+00:10:05.320 --> 00:10:09.889
+Patrik Stas: has been known as Hyper ledger in the SDK,
+
+45
+00:10:10.100 --> 00:10:22.010
+Patrik Stas: which contained L, which Content live in the and few other smaller libraries. In fact, even Levy Cx is V. 6 was originally part of this library.
+
+46
+00:10:23.510 --> 00:10:25.040
+Patrik Stas: and then
+
+47
+00:10:25.300 --> 00:10:34.110
+Patrik Stas: a basically as as a community moved on from in the SDK to like the smaller modular
+
+48
+00:10:35.160 --> 00:10:41.609
+Patrik Stas: modular components extracted out by British Columbia government's team
+
+49
+00:10:43.750 --> 00:10:51.720
+Patrik Stas: evername has, I guess, as I based on their own needs, they this decided to further develop
+
+50
+00:10:51.770 --> 00:10:59.960
+Patrik Stas: the the library in their own fork. So they started this new Github repo. They kind of rebranded in the SDK
+
+51
+00:11:00.000 --> 00:11:09.000
+Patrik Stas: Ak. Or lib de into Vdr tools instead, and starts to work on it under the evername flag.
+
+52
+00:11:09.490 --> 00:11:15.280
+Patrik Stas: And what happened after that is that we had basically as a Aries D. 6,
+
+53
+00:11:15.720 --> 00:11:17.909
+Patrik Stas: a project. We had our
+
+54
+00:11:18.480 --> 00:11:21.970
+Patrik Stas: additional our own needs as to
+
+55
+00:11:22.160 --> 00:11:35.079
+Patrik Stas: how this should further develop, and there was not much traction happening on this repository. So we then started forking it into like our own fork, and
+
+56
+00:11:35.100 --> 00:11:43.199
+Patrik Stas: just added a bunch of improvements on top of that. But and so we we did basically in this recent
+
+57
+00:11:44.800 --> 00:11:47.020
+Patrik Stas: issue, which is being created here.
+
+58
+00:11:47.090 --> 00:11:51.919
+Patrik Stas: and the and it's the pull request link to it
+
+59
+00:11:52.280 --> 00:11:57.629
+Patrik Stas: is that we have moved basically embedded
+
+60
+00:11:57.670 --> 00:12:11.749
+Patrik Stas: the entire or like the subset of the repository which we depended on our fork into the the main repulsory code base. So now we have live Vdr. Tools here.
+
+61
+00:12:12.010 --> 00:12:15.739
+Patrik Stas: We then further stripped down the code.
+
+62
+00:12:16.340 --> 00:12:18.950
+Patrik Stas: There was lots of unnecessary stuff.
+
+63
+00:12:19.430 --> 00:12:26.790
+Patrik Stas: So now it's here, and it's just easier to kinda look around and main
+
+64
+00:12:27.400 --> 00:12:34.619
+Patrik Stas: to explore the code or see how how things are that relate to each other, and also
+
+65
+00:12:37.030 --> 00:12:39.880
+Patrik Stas: also just the govern sort of
+
+66
+00:12:40.030 --> 00:12:57.149
+Patrik Stas: share, the same governing process for any changes in levydr tools as we have for the Ares. Vcx. Because levy they are tools is essentially at this at this point of time, still kind of foundation of as Vcx.
+
+67
+00:12:57.210 --> 00:13:02.879
+Patrik Stas: And so, when we do some changes, it's not gonna be happening in some.
+
+68
+00:13:03.480 --> 00:13:18.339
+Patrik Stas: you know, Gitl Fork, which some of the team members maintains, but it'll be just happening here, and we can properly, properly review it and and see what was really being changed.
+
+69
+00:13:18.650 --> 00:13:30.640
+Patrik Stas: So so that's a main sort of argument. As for why we did this, and also it enables us to iterate faster we. As I, As I mentioned, we stood down like bunch of
+
+70
+00:13:31.060 --> 00:13:35.529
+Patrik Stas: code from here, and so I think we can actually
+
+71
+00:13:35.600 --> 00:13:37.740
+Patrik Stas: do some further iterations
+
+72
+00:13:37.910 --> 00:13:39.780
+Patrik Stas: in that sense.
+
+73
+00:13:40.820 --> 00:13:46.870
+So that's that's this item. Here we have embedded Vdr. Tools into repo.
+
+74
+00:13:47.000 --> 00:13:54.199
+Patrik Stas: and then moving on to the next item was no just drier addition.
+
+75
+00:13:54.400 --> 00:14:10.939
+Patrik Stas: the new feature to add support for the non mini mode mediated connections, so it's not possible to work with every connections without necessarily dealing with the agency.
+
+76
+00:14:11.110 --> 00:14:12.630
+Patrik Stas: provided the
+
+77
+00:14:12.660 --> 00:14:14.840
+Patrik Stas: Maybe it's your agent
+
+78
+00:14:15.470 --> 00:14:19.799
+you can. You can instead handle the meditation all the messages yourself.
+
+79
+00:14:21.170 --> 00:14:31.110
+Patrik Stas: and now moving on to the like next section. So for the things we have in progress, maybe i'll start just a short shared word about the second item.
+
+80
+00:14:33.060 --> 00:14:37.280
+Patrik Stas: which is a poc. By George.
+
+81
+00:14:37.570 --> 00:14:39.509
+Patrik Stas: from unnamed labs.
+
+82
+00:14:39.540 --> 00:14:50.020
+Patrik Stas: working on like proof of concept. For how UN, if I Library, can be integrated with a Vcx. So this is kind of like
+
+83
+00:14:50.070 --> 00:14:54.499
+Patrik Stas: more modern approach is for how to
+
+84
+00:14:55.180 --> 00:14:59.319
+Patrik Stas: how to provide F. 5 for essentially any languages
+
+85
+00:14:59.690 --> 00:15:06.860
+Patrik Stas: from from Ross as opposed to the way we currently do it in.
+
+86
+00:15:06.910 --> 00:15:11.550
+Patrik Stas: I don't know the technical details about this, so we'll have
+
+87
+00:15:11.830 --> 00:15:12.870
+Patrik Stas: oh.
+
+88
+00:15:12.970 --> 00:15:19.209
+Patrik Stas: probably George on a call next week, according to what he mentioned on discord.
+
+89
+00:15:19.830 --> 00:15:35.020
+Patrik Stas: and he will talk a little bit about this. Give us some like technical, technical intro into the approach they can, and how it all works, and how you need the fireworks. So sh sh! Sh sharing is caring sharing knowledge.
+
+90
+00:15:37.310 --> 00:15:44.070
+Patrik Stas: Yeah. So again, anyone any any users of, believe me, 6. I would just like to point out that
+
+91
+00:15:44.540 --> 00:15:46.459
+this this can be
+
+92
+00:15:46.500 --> 00:15:50.750
+Patrik Stas: a useful and in a long run.
+
+93
+00:15:52.500 --> 00:16:06.619
+Patrik Stas: Libby Sig is not meant to be like the first-class citizen of the of the Hyper Ledger, a Vcx project. It's really just the areas Dcx create and all the other things are on top of that. It's like additions. But
+
+94
+00:16:06.630 --> 00:16:23.729
+Patrik Stas: I we we cannot guarantee that, like long, long term support of obliviousx, although I think 2,023 should be Still, fine as as we in up some, we our self have a interest on on still basically building on top of it.
+
+95
+00:16:24.300 --> 00:16:33.080
+Patrik Stas: but just throwing the throwing in alder it to be aware of this sort of the up ups, ups, ups, ups.
+
+96
+00:16:33.320 --> 00:16:41.960
+Patrik Stas: But yeah, if anyone's willing to kind of take on the Libby 6 afterwards, that that's cool, of course, and there'll be very much welcome.
+
+97
+00:16:42.100 --> 00:16:50.439
+Patrik Stas: And now, yeah, i'll just let's move to the like. The interesting. I think the main highlight of this call we just
+
+98
+00:16:52.290 --> 00:16:53.529
+Patrik Stas: and other Peels.
+
+99
+00:16:54.080 --> 00:16:57.510
+Patrik Stas: another poc from Bogdan
+
+100
+00:16:57.830 --> 00:16:59.000
+Patrik Stas: on the call.
+
+101
+00:16:59.360 --> 00:17:05.030
+Patrik Stas: and this is essentially well. We have also issue for
+
+102
+00:17:05.730 --> 00:17:09.919
+Patrik Stas: for this Pr. With more information
+
+103
+00:17:10.290 --> 00:17:11.950
+Patrik Stas: that will be this one.
+
+104
+00:17:13.589 --> 00:17:15.609
+Patrik Stas: So there's
+
+105
+00:17:16.069 --> 00:17:20.160
+Patrik Stas: So there's a detailed description of.
+
+106
+00:17:20.329 --> 00:17:22.710
+Patrik Stas: for this is income passing
+
+107
+00:17:24.640 --> 00:17:38.059
+Patrik Stas: in my view just before I bog down I get it. Take Take the my take in my again, and dwell into like a more details. In in my view, it's like
+
+108
+00:17:39.160 --> 00:17:41.699
+Patrik Stas: I see like a proposal for
+
+109
+00:17:42.220 --> 00:17:51.030
+Patrik Stas: or like candidates, or almost like a candidate for, like a next generation sort of Api.
+
+110
+00:17:51.350 --> 00:17:55.069
+How we could deal with State machines.
+
+111
+00:17:55.290 --> 00:18:01.349
+and just how how the Api exposed to other rust rates should look like.
+
+112
+00:18:01.660 --> 00:18:19.749
+Patrik Stas: and and this is also opportunity to just kind of like fix any sort of technical depth. Is this this work here done by Bogdan is kind of starting from stretch just sideways, mostly sideways from existing code. As you can see, there's no
+
+113
+00:18:19.850 --> 00:18:25.729
+Patrik Stas: no code removed, only edit basically new new alternative approach.
+
+114
+00:18:26.020 --> 00:18:33.250
+Patrik Stas: So, having said that i'll, i'll leave a word to to book them to just kind of
+
+115
+00:18:33.980 --> 00:18:36.539
+Patrik Stas: take us through it.
+
+116
+00:18:36.740 --> 00:18:38.250
+Patrik Stas: It's a high level.
+
+117
+00:18:38.580 --> 00:18:40.919
+Patrik Stas: So i'll stop sharing now, and
+
+118
+00:18:41.000 --> 00:18:43.579
+Patrik Stas: the floor is yours. We'll go
+
+119
+00:18:46.220 --> 00:18:48.699
+Bogdan Mircea: that in just 1 s. So
+
+120
+00:18:49.570 --> 00:18:52.270
+Bogdan Mircea: here.
+
+121
+00:18:52.980 --> 00:18:56.840
+Okay.
+
+122
+00:19:06.570 --> 00:19:07.160
+okay.
+
+123
+00:19:08.930 --> 00:19:10.420
+okay.
+
+124
+00:19:12.580 --> 00:19:14.650
+Bogdan Mircea: let me know when you can actually see something.
+
+125
+00:19:14.690 --> 00:19:17.000
+Patrik Stas: Yeah, I see it's all good.
+
+126
+00:19:18.020 --> 00:19:19.550
+Bogdan Mircea: Okay, so
+
+127
+00:19:21.440 --> 00:19:25.740
+Bogdan Mircea: like you like you pointed out. So I mean, I was a bit
+
+128
+00:19:26.010 --> 00:19:27.370
+Bogdan Mircea: like, ultimately.
+
+129
+00:19:28.220 --> 00:19:33.500
+Bogdan Mircea: as I am working on this I would obviously like to see it being used.
+
+130
+00:19:33.960 --> 00:19:35.210
+Bogdan Mircea: But
+
+131
+00:19:35.640 --> 00:19:37.859
+Bogdan Mircea: since we discussed about this
+
+132
+00:19:37.910 --> 00:19:39.730
+Bogdan Mircea: had the opportunity to discuss this.
+
+133
+00:19:39.910 --> 00:19:41.780
+Bogdan Mircea: sometimes
+
+134
+00:19:41.880 --> 00:19:45.159
+Bogdan Mircea: there isn't be a lot of stuff depending on the current good, and
+
+135
+00:19:46.550 --> 00:19:57.279
+Bogdan Mircea: it would probably be a good idea not to touch it. But maybe in the event that this would be, you know, like an an approved approach.
+
+136
+00:19:57.400 --> 00:20:01.900
+Bogdan Mircea: maybe slowly, transition to this and the potato code. Is
+
+137
+00:20:02.000 --> 00:20:02.910
+Bogdan Mircea: it forward?
+
+138
+00:20:03.070 --> 00:20:08.000
+Bogdan Mircea: And the general idea behind this
+
+139
+00:20:08.130 --> 00:20:09.310
+Bogdan Mircea: is
+
+140
+00:20:09.550 --> 00:20:11.450
+Bogdan Mircea: pretty much the fact that
+
+141
+00:20:11.620 --> 00:20:14.870
+Bogdan Mircea: right now, if you have a look at
+
+142
+00:20:17.090 --> 00:20:20.179
+Bogdan Mircea: the actual code, you will see a lot of
+
+143
+00:20:21.710 --> 00:20:28.810
+Bogdan Mircea: basically the the entire connection with all its possible states is a composition of enams and stuff.
+
+144
+00:20:29.150 --> 00:20:32.330
+Bogdan Mircea: and you have to constantly verify
+
+145
+00:20:32.960 --> 00:20:45.869
+Bogdan Mircea: what state you're in, and what you should be able to be doing. And if you're not supposed to do something in a certain state, you throw out an error and stuff like that. And there's a lot of basically a lot of conditions happening.
+
+146
+00:20:47.790 --> 00:20:49.819
+Bogdan Mircea: you know, because of that.
+
+147
+00:20:50.340 --> 00:20:51.370
+Bogdan Mircea: And
+
+148
+00:20:51.480 --> 00:21:01.109
+Bogdan Mircea: there is a pattern that we can actually use. It's somewhat more, a very specific thing, I believe Haskell can also do stuff like this.
+
+149
+00:21:01.210 --> 00:21:08.140
+Bogdan Mircea: but it's something called a type state pattern, and it's very, very cool for state machines and rust.
+
+150
+00:21:08.350 --> 00:21:16.470
+Bogdan Mircea: It essentially relies on sort of like embedding the State in
+
+151
+00:21:16.630 --> 00:21:19.020
+Bogdan Mircea: the actual types that you're using.
+
+152
+00:21:19.080 --> 00:21:20.990
+Bogdan Mircea: and this can be done in multiple ways.
+
+153
+00:21:22.660 --> 00:21:32.519
+Bogdan Mircea: but essentially like 1. One interesting idea or one, let's say common idea is to have generics in place.
+
+154
+00:21:32.730 --> 00:21:39.540
+Bogdan Mircea: so that you can actually take advantage of was generic in the organization and implement.
+
+155
+00:21:39.560 --> 00:21:46.080
+Bogdan Mircea: Let's say methods for a collection of types based on on their generic parameters.
+
+156
+00:21:46.250 --> 00:21:47.599
+Bogdan Mircea: So essentially
+
+157
+00:21:49.900 --> 00:21:53.289
+Bogdan Mircea: in a, maybe I can actually pull up my
+
+158
+00:21:55.110 --> 00:21:56.960
+Bogdan Mircea: my actual code
+
+159
+00:21:57.230 --> 00:21:59.370
+Bogdan Mircea: to represent the
+
+160
+00:21:59.430 --> 00:22:01.550
+Bogdan Mircea: for to illustrate the current approach.
+
+161
+00:22:02.400 --> 00:22:04.050
+Bogdan Mircea: So here
+
+162
+00:22:05.880 --> 00:22:16.109
+Bogdan Mircea: we basically have the parent connection, which is the let's say, developer or end user exposed to type. And then this depends on this enam.
+
+163
+00:22:16.140 --> 00:22:17.190
+Bogdan Mircea: which
+
+164
+00:22:17.230 --> 00:22:19.430
+Bogdan Mircea: then goes down to some
+
+165
+00:22:19.580 --> 00:22:21.949
+Bogdan Mircea: state machines.
+
+166
+00:22:22.480 --> 00:22:26.330
+Bogdan Mircea: and there's one for the invider, and there's one for the invite D, and so on.
+
+167
+00:22:26.780 --> 00:22:31.030
+Bogdan Mircea: And basically throughout the code here you constantly have to check
+
+168
+00:22:31.110 --> 00:22:31.970
+Bogdan Mircea: what
+
+169
+00:22:32.150 --> 00:22:32.790
+Bogdan Mircea: what
+
+170
+00:22:33.050 --> 00:22:36.709
+Bogdan Mircea: variant of the in and this is, and take some action
+
+171
+00:22:36.740 --> 00:22:38.750
+Bogdan Mircea: or not. Take some action.
+
+172
+00:22:39.040 --> 00:22:42.710
+Bogdan Mircea: and then this happens at the other layer 2,
+
+173
+00:22:43.640 --> 00:22:46.249
+Bogdan Mircea: and it just keeps going like this.
+
+174
+00:22:48.410 --> 00:22:49.930
+Bogdan Mircea: In contrast.
+
+175
+00:22:50.940 --> 00:22:54.560
+Bogdan Mircea: The idea here is that basically all these methods and all the
+
+176
+00:22:54.610 --> 00:23:01.879
+Bogdan Mircea: let's say functionalities of the type is available to absolutely any state, whereas in a type state pattern
+
+177
+00:23:03.760 --> 00:23:06.199
+Bogdan Mircea: you essentially restrict, and you can
+
+178
+00:23:06.380 --> 00:23:13.649
+Bogdan Mircea: code be restricted to compile time, the capabilities of the connection based on its state.
+
+179
+00:23:13.770 --> 00:23:15.970
+Bogdan Mircea: So, for instance, maybe a
+
+180
+00:23:17.000 --> 00:23:20.859
+Bogdan Mircea: a proper example would be looking at the natural implementation.
+
+181
+00:23:20.970 --> 00:23:24.210
+Bogdan Mircea: So let's say, in the invited state
+
+182
+00:23:24.770 --> 00:23:26.550
+Bogdan Mircea: of an invited connection.
+
+183
+00:23:27.020 --> 00:23:29.640
+Bogdan Mircea: you want to be able to handle the request.
+
+184
+00:23:29.770 --> 00:23:32.010
+Bogdan Mircea: Now, this method is
+
+185
+00:23:32.300 --> 00:23:44.840
+Bogdan Mircea: basically restricted at compile time, to only be available for this particular type. You cannot call it in a different, in a different state in a different ion in the invitee connection. You simply cannot do that because it's not
+
+186
+00:23:44.870 --> 00:23:46.160
+Bogdan Mircea: program. It's not
+
+187
+00:23:46.500 --> 00:23:47.400
+Bogdan Mircea: okay.
+
+188
+00:23:48.860 --> 00:23:59.920
+Bogdan Mircea: And besides, the maybe obvious benefits of this in the sense that you can transition from one state to another with a guarantee that you cannot miss things up
+
+189
+00:24:00.520 --> 00:24:03.869
+Bogdan Mircea: another advantage, and I honestly see it as a big thing
+
+190
+00:24:04.070 --> 00:24:10.319
+Bogdan Mircea: is the fact that you can now also reliably use the stuff in this particular state.
+
+191
+00:24:10.450 --> 00:24:12.710
+Bogdan Mircea: So, for instance.
+
+192
+00:24:12.750 --> 00:24:15.580
+Bogdan Mircea: not necessarily sure. This is the perfect example. But
+
+193
+00:24:17.310 --> 00:24:22.069
+Bogdan Mircea: the requested state will store a request. Right? So we have this here
+
+194
+00:24:22.380 --> 00:24:23.240
+Bogdan Mircea: now.
+
+195
+00:24:23.870 --> 00:24:31.110
+Bogdan Mircea: In the more in the holistic approach, the the current approach with the enums and all that
+
+196
+00:24:31.210 --> 00:24:35.290
+Bogdan Mircea: you constantly have to check. Do you have a request there? Can you use it?
+
+197
+00:24:35.600 --> 00:24:38.370
+Bogdan Mircea: And so on; Whereas here, when you are in the
+
+198
+00:24:38.410 --> 00:24:45.780
+Bogdan Mircea: invite their connection, which is just an alias for a connection with an inviter, a generic parameter in the requested state.
+
+199
+00:24:46.070 --> 00:24:50.920
+Bogdan Mircea: You know for sure that you're going to have a request in your state.
+
+200
+00:24:51.430 --> 00:24:52.830
+Bogdan Mircea: and you can
+
+201
+00:24:53.070 --> 00:24:56.210
+Bogdan Mircea: take it full advantage of that without having to check.
+
+202
+00:24:56.540 --> 00:25:00.730
+Bogdan Mircea: and it implies or coding some sort of conditions
+
+203
+00:25:01.450 --> 00:25:03.479
+Bogdan Mircea: and and and stuff like that.
+
+204
+00:25:05.070 --> 00:25:07.270
+Bogdan Mircea: And this is really powerful for
+
+205
+00:25:08.330 --> 00:25:13.679
+Bogdan Mircea: for really a great number of applications, and it's common it's a pretty common pattern and rust.
+
+206
+00:25:15.620 --> 00:25:23.520
+Bogdan Mircea: Yeah. So this is pretty much the overall idea. Now, this is still in sort of like an infant stage. I've
+
+207
+00:25:23.930 --> 00:25:28.900
+Bogdan Mircea: pretty much. I've done a lot of effort to curate the actual methods, and they look a lot better now.
+
+208
+00:25:29.120 --> 00:25:32.280
+Bogdan Mircea: Also factored out some cloning and stuff.
+
+209
+00:25:33.830 --> 00:25:38.020
+Bogdan Mircea: It's not yet completely usable. I'm. Still working some things out.
+
+210
+00:25:39.900 --> 00:25:45.000
+Bogdan Mircea: But this that's pretty much regarding the the advantages of this approach so
+
+211
+00:25:45.520 --> 00:25:55.339
+Bogdan Mircea: compiles compile time, guarantees that we cannot mess things up, and then you don't have to deal with as many errors, because there cannot be erased
+
+212
+00:25:55.400 --> 00:25:57.890
+Bogdan Mircea: simply because you cannot call certain methods
+
+213
+00:25:59.960 --> 00:26:06.960
+Bogdan Mircea: the the the guarantee of the state in your current dive is also something really important. So again, the less conditionals.
+
+214
+00:26:07.170 --> 00:26:08.380
+Bogdan Mircea: And
+
+215
+00:26:09.000 --> 00:26:16.870
+Bogdan Mircea: yeah, this would overall increase performance simply because you don't have to go through all the matches and the variance, and so on.
+
+216
+00:26:17.280 --> 00:26:27.539
+Bogdan Mircea: Let's also talk about the disadvantage of this. It's pretty much just one. But I guess the ramifications are
+
+217
+00:26:28.690 --> 00:26:30.179
+Bogdan Mircea: can can be a couple.
+
+218
+00:26:30.250 --> 00:26:31.300
+Bogdan Mircea: So
+
+219
+00:26:31.510 --> 00:26:33.300
+Bogdan Mircea: because you have different
+
+220
+00:26:33.450 --> 00:26:37.670
+Bogdan Mircea: states encoded in the type, you essentially have different types.
+
+221
+00:26:37.730 --> 00:26:38.810
+Bogdan Mircea: So
+
+222
+00:26:40.200 --> 00:26:42.390
+Bogdan Mircea: just because this uses a generic.
+
+223
+00:26:42.720 --> 00:26:48.110
+Bogdan Mircea: it's mainly useful for implementing common stuff like this where you want to implement
+
+224
+00:26:48.170 --> 00:26:55.600
+Bogdan Mircea: methods for absolutely all the States. As long as you rely on the common stuff, you can do that, and these methods will be available for all the States.
+
+225
+00:26:55.760 --> 00:26:59.829
+Bogdan Mircea: But in the end they are different types. So this will not be
+
+226
+00:26:59.990 --> 00:27:07.069
+Bogdan Mircea: the same type as this. And what this also means and rest is that paddling we're storing them
+
+227
+00:27:07.240 --> 00:27:10.210
+Bogdan Mircea: in. Let's say, a container like a vector or stuff like that
+
+228
+00:27:11.690 --> 00:27:13.740
+Bogdan Mircea: is not necessarily.
+
+229
+00:27:13.790 --> 00:27:18.139
+Bogdan Mircea: I don't want to say impossible. There are ways to do it, but it's not straightforward anymore.
+
+230
+00:27:20.380 --> 00:27:21.590
+Bogdan Mircea: But then
+
+231
+00:27:23.620 --> 00:27:31.340
+Bogdan Mircea: this this would pretty pretty much be the disadvantage, and the implications are like, I said, storing them in memory. You have to
+
+232
+00:27:31.690 --> 00:27:35.840
+Bogdan Mircea: either use some sort of trade object, or
+
+233
+00:27:36.410 --> 00:27:40.470
+Bogdan Mircea: as a user, If you want, you can implement your own enum over these.
+
+234
+00:27:42.300 --> 00:27:50.389
+Bogdan Mircea: or simply like, instead of storing all of these in a single vector you can have multiple vectors for each possible state.
+
+235
+00:27:51.680 --> 00:27:54.700
+Bogdan Mircea: So you pretty much have to work around this stuff a bit.
+
+236
+00:27:54.940 --> 00:27:59.169
+Bogdan Mircea: so it's. It kind of makes things a little more verbose.
+
+237
+00:28:01.570 --> 00:28:07.689
+Bogdan Mircea: But that's pretty much the let's say the downside of having all those guarantees and the performance increase.
+
+238
+00:28:09.910 --> 00:28:11.490
+Bogdan Mircea: Yeah, so
+
+239
+00:28:11.620 --> 00:28:14.979
+Bogdan Mircea: I guess that would be pretty much the the overall story
+
+240
+00:28:16.510 --> 00:28:19.489
+Bogdan Mircea: I am currently working on
+
+241
+00:28:19.640 --> 00:28:32.469
+Bogdan Mircea: like handling serialization and thiserialization in a more organic fashion essentially serializing. This is fairly easy. As long as the generic brand there is important materialize. You can do that. You can store it, and that's not a problem.
+
+242
+00:28:32.490 --> 00:28:34.549
+Bogdan Mircea: because you start from a concrete type.
+
+243
+00:28:34.600 --> 00:28:37.239
+Bogdan Mircea: and you will ultimately get the stream.
+
+244
+00:28:37.840 --> 00:28:39.550
+The
+
+245
+00:28:40.240 --> 00:28:47.969
+Bogdan Mircea: more convoluted processes when you want to d serial, deserialize a string into a connection, because you sort of have to know
+
+246
+00:28:48.210 --> 00:28:48.790
+Bogdan Mircea: the
+
+247
+00:28:49.400 --> 00:29:02.590
+Bogdan Mircea: and type of the connection like the actual state, and whether it's an invited or an invite. And my idea regarding dealing with that is pretty much having a helper.
+
+248
+00:29:02.890 --> 00:29:04.510
+Bogdan Mircea: a helper type
+
+249
+00:29:05.500 --> 00:29:08.349
+Bogdan Mircea: that you can serialize into
+
+250
+00:29:08.440 --> 00:29:14.160
+Bogdan Mircea: like, and it as an intermediate type, and then store this as a string. And then this relies into this type.
+
+251
+00:29:14.600 --> 00:29:17.770
+Bogdan Mircea: And then basically just process this
+
+252
+00:29:17.900 --> 00:29:19.840
+Bogdan Mircea: to essentially
+
+253
+00:29:20.520 --> 00:29:24.560
+Bogdan Mircea: identify the end type of your connection.
+
+254
+00:29:27.200 --> 00:29:39.250
+Bogdan Mircea: These things are not yet public. So maybe the attributes would have to be public here, although No, actually no, you don't need them to. I implemented this from stuff. Okay, so essentially what you would want to do in this case, You.
+
+255
+00:29:39.950 --> 00:29:44.039
+Bogdan Mircea: If you have a connection like this, you will want to look at the state
+
+256
+00:29:44.180 --> 00:29:58.340
+Bogdan Mircea: which and place this regard to naming. I just didn't have a better idea right now. But if you you want to look at the state, is this: the term is the actual type, and you want to know whether it's an invite or an Id. And then there are. These are other enams that actually contain the
+
+257
+00:29:59.030 --> 00:30:04.600
+Bogdan Mircea: the dedicated state. So, as you branch through the matches, you will end up with.
+
+258
+00:30:05.030 --> 00:30:08.070
+Bogdan Mircea: let's say, a connection for an invite there in
+
+259
+00:30:08.480 --> 00:30:09.990
+Bogdan Mircea: a requested state.
+
+260
+00:30:11.130 --> 00:30:12.070
+Bogdan Mircea: Now
+
+261
+00:30:12.600 --> 00:30:18.749
+Bogdan Mircea: again, because these would be different types. You cannot just return them.
+
+262
+00:30:18.980 --> 00:30:27.579
+Bogdan Mircea: you know blindly. You either have to again have some sort of structure where you store these organically, but
+
+263
+00:30:27.840 --> 00:30:35.189
+Bogdan Mircea: you can also simply send these to other parts of your code where they should be processed. And when you think about it.
+
+264
+00:30:35.280 --> 00:30:41.749
+Bogdan Mircea: It kind of sounds a bit counterintuitive, especially when I don't for people that maybe
+
+265
+00:30:44.190 --> 00:30:49.819
+Bogdan Mircea: I don't didn't really deal with a lot of painful stuff in rust before.
+
+266
+00:30:49.980 --> 00:30:54.840
+Bogdan Mircea: But these actually this this thing actually has certain advantages.
+
+267
+00:30:55.080 --> 00:30:56.990
+Bogdan Mircea: because in the end.
+
+268
+00:30:57.380 --> 00:30:58.740
+Bogdan Mircea: even when you take
+
+269
+00:30:58.970 --> 00:31:00.759
+Bogdan Mircea: this connection here.
+
+270
+00:31:00.900 --> 00:31:03.519
+Bogdan Mircea: like you just deserialized this from a stream.
+
+271
+00:31:04.290 --> 00:31:09.509
+Bogdan Mircea: You still have no idea what what this is, and what state is in, and what you should be doing with it.
+
+272
+00:31:09.540 --> 00:31:17.339
+Bogdan Mircea: So you pretty much Have 2 options. You either branch through the the Enums and see the actual state, and then take an action
+
+273
+00:31:17.700 --> 00:31:28.270
+Bogdan Mircea: and continue, for from there, or I guess you could possibly also just like, take the process from from scratch. I don't know if that's even a good idea and
+
+274
+00:31:28.370 --> 00:31:34.089
+Bogdan Mircea: see where it fails and stuff. But anyway, the the point is that you still have to
+
+275
+00:31:34.110 --> 00:31:37.820
+Bogdan Mircea: sort of detect what state this will be in
+
+276
+00:31:39.490 --> 00:31:54.270
+Patrik Stas: It's it's a i'll just. I'll just jump in here for a second. Yeah, it it is like, actually good point, because like it, it basically with the approach you are proposing here, you need to as a developer. You need to know
+
+277
+00:31:54.690 --> 00:32:04.759
+Patrik Stas: at the point of this aerialization like you need to decide what you're gonna be serialize into which state and you have to make the assumption. But actually, in fact.
+
+278
+00:32:04.820 --> 00:32:14.469
+Patrik Stas: in practice. And from what I've seen in the world, actually, I always make the assumption like, yeah, and I don't have to specify it explicitly. But
+
+279
+00:32:14.490 --> 00:32:17.839
+Patrik Stas: if I receive, let's say a connection request message.
+
+280
+00:32:18.000 --> 00:32:25.730
+Patrik Stas: I automatically assume that. Oh, okay, this means that i'm expecting a message, and i'm
+
+281
+00:32:26.120 --> 00:32:34.129
+Bogdan Mircea: but it but it's not necessarily true. Yeah. So again, this it's it. It is a bit more verbose. I can't argue with that.
+
+282
+00:32:34.390 --> 00:32:42.460
+Bogdan Mircea: But rust tends to be like that. And again, this has the advantage of maybe also separating the
+
+283
+00:32:42.660 --> 00:32:47.009
+Bogdan Mircea: like the processing parts of your code, so that you can
+
+284
+00:32:47.140 --> 00:33:06.009
+Bogdan Mircea: know exactly what's gonna happen with something and where where? Exactly in the Co. It happens so like you said, you get, you just realize a connection here. You get a connection request, and you might imply that. Okay, then, this is in the proper state to handle that. But there is no guarantee that it will be.
+
+285
+00:33:06.060 --> 00:33:07.150
+Bogdan Mircea: And
+
+286
+00:33:07.320 --> 00:33:08.600
+Bogdan Mircea: then you.
+
+287
+00:33:08.810 --> 00:33:16.229
+Bogdan Mircea: you try to use a connection request. You get an error, and then you gotta keep handling that you again. Still, don't know what what state that's in?
+
+288
+00:33:16.370 --> 00:33:30.849
+Bogdan Mircea: Basically, with with this approach just fail. Fail early, right? Because instead of failing in like, you have to know, it's not an failure. You're not even allowed to fail Doesn't make it. You can get a connection request.
+
+289
+00:33:31.800 --> 00:33:38.199
+Patrik Stas: Yeah, I know. I guess it depends from like how.
+
+290
+00:33:38.380 --> 00:33:45.680
+Patrik Stas: what kind of logic you wrap around with that that state pattern with. But assuming that
+
+291
+00:33:45.790 --> 00:33:49.310
+Patrik Stas: you know I store something in this drink, and then
+
+292
+00:33:50.150 --> 00:33:55.979
+Patrik Stas: a connection in string, and then I you know, I receive, let's say, a
+
+293
+00:33:56.130 --> 00:33:57.830
+Patrik Stas: a connection request
+
+294
+00:33:58.150 --> 00:34:08.870
+Patrik Stas: now in a code. If I I know you have like some this smart kind of pattern you are showing now, and also yesterday to me.
+
+295
+00:34:09.150 --> 00:34:29.879
+Patrik Stas: But if you just like, try to like force, you know, just make that. Make this statement in a code like I want to be. Serialize this into connection, and then you specify the particular. You know you actually supply the generic parameter. It's like on to the serialize this into request, state, invite.
+
+296
+00:34:30.420 --> 00:34:47.509
+Patrik Stas: invite her. This realization will fail. Yeah, it will. We will pay on serialization. So essentially, just like fail earlier, like you would fail otherwise, because otherwise you would successfully be serialized. But then you would fail on like process request or something like that.
+
+297
+00:34:49.139 --> 00:34:50.350
+Bogdan Mircea: Yeah. So
+
+298
+00:34:50.500 --> 00:34:51.069
+okay.
+
+299
+00:34:51.420 --> 00:34:55.320
+Bogdan Mircea: I I guess that's that's really good point.
+
+300
+00:34:55.699 --> 00:34:58.920
+Bogdan Mircea: And it's occurred to me after we
+
+301
+00:34:58.970 --> 00:35:01.600
+Bogdan Mircea: we had our chat yesterday that
+
+302
+00:35:02.230 --> 00:35:14.700
+Bogdan Mircea: it does make things proposed, but it's not necessarily wrong. It just forces you to take some actions that you probably should have taken anyway, and it makes you scatter against the
+
+303
+00:35:14.850 --> 00:35:28.000
+Bogdan Mircea: the logic of your code a bit a bit more again increasing verbosity, because you will have to treat the individual States as their own types. So you kind of have to have what's a dedicated logic for them.
+
+304
+00:35:29.230 --> 00:35:33.950
+Bogdan Mircea: But you would want to do that where you would need to do that, anyway.
+
+305
+00:35:35.070 --> 00:35:38.660
+Bogdan Mircea: Maybe just having a common type would allow you to
+
+306
+00:35:38.970 --> 00:35:41.440
+Bogdan Mircea: right. The I don't know just
+
+307
+00:35:41.490 --> 00:35:46.949
+Bogdan Mircea: a couple of functions, but maybe you can also emit some stuff.
+
+308
+00:35:47.370 --> 00:35:48.939
+Bogdan Mircea: Just not
+
+309
+00:35:49.250 --> 00:35:53.050
+Bogdan Mircea: not think about it at that time, like like this case with.
+
+310
+00:35:53.510 --> 00:35:58.989
+Bogdan Mircea: you know, the the incorrectly serialization, or just the unexpected type.
+
+311
+00:36:01.390 --> 00:36:04.990
+Bogdan Mircea: whereas this would force you to basically handle
+
+312
+00:36:05.380 --> 00:36:19.710
+Bogdan Mircea: everything that you want to handle as well. Because, let's say, I also thought about this. So consider that you would only want to. You're been in building a small agent, maybe, for an embedded device, and you only want to.
+
+313
+00:36:19.860 --> 00:36:23.180
+Bogdan Mircea: You won't. You only want that agent to act as
+
+314
+00:36:25.750 --> 00:36:28.669
+Bogdan Mircea: as an invite. Let's say so.
+
+315
+00:36:28.810 --> 00:36:48.489
+Bogdan Mircea: Then you only have to deal with the states of the Invite D, the code for the invite. There is basically just going to be that code, and the compiler will eliminate it. And you basically only have to treat the States that you're interested in like going to step further. You can also assume that
+
+316
+00:36:48.500 --> 00:36:50.480
+Bogdan Mircea: in a small emitted device
+
+317
+00:36:50.690 --> 00:36:53.740
+Bogdan Mircea: you will only want to store a complete connection.
+
+318
+00:36:53.820 --> 00:36:59.070
+Bogdan Mircea: And let's say you start up a connection. You you know you get an invitation and visual, an Id
+
+319
+00:36:59.750 --> 00:37:03.930
+Bogdan Mircea: you go through through the political, and
+
+320
+00:37:04.020 --> 00:37:09.969
+Bogdan Mircea: when once you get to the end, that's when you want to store it. I know, somewhere in some persistent storage.
+
+321
+00:37:10.440 --> 00:37:14.880
+Bogdan Mircea: So again, when you retrieve it, you know that you're expecting a
+
+322
+00:37:15.030 --> 00:37:28.150
+Bogdan Mircea: complete connection. There's no other possible state, because there's that's what you want to Slowly, if you try to disrealize it to something else that you never fail. So you know something went wrong, or if I don't you never store anything, you can fry me
+
+323
+00:37:28.160 --> 00:37:39.830
+Bogdan Mircea: like the connection protocol, and so on. But essentially it segregates all this logic so that you also simply have to deal with what you're interested in. And when you're interested in
+
+324
+00:37:40.620 --> 00:37:41.299
+Okay.
+
+325
+00:37:43.750 --> 00:37:57.959
+Patrik Stas: Yeah, yeah, it's it's good point. And I have actually few few like additional nodes myself here as you are speaking, so I just I just told as a as a like a value preposition. I guess I realized that
+
+326
+00:37:58.080 --> 00:38:03.160
+Patrik Stas: probably lots of unit tests, you know. Lots of stuff we have now
+
+327
+00:38:03.260 --> 00:38:06.889
+Patrik Stas: as a unit test for the State machines
+
+328
+00:38:08.620 --> 00:38:19.859
+Patrik Stas: are for transitioning to an invalid state. Yeah, they could be actually like pretty useless going forward, because the compound would certainly actually go. And yeah.
+
+329
+00:38:20.070 --> 00:38:24.229
+Patrik Stas: well, they are only
+
+330
+00:38:24.320 --> 00:38:25.509
+Patrik Stas: sorry.
+
+331
+00:38:26.390 --> 00:38:42.759
+Bogdan Mircea: The test would only be compiled when you actually do like, run the tests. But yeah, I mean, yeah, I was. I was wondering about the value of those test, you know, but and I and I for a moment I feel like they become useless, because the compile time pretty much
+
+332
+00:38:42.770 --> 00:38:52.849
+Patrik Stas: it will assure the things which that are testing currently. But then I realize that we are making changes here on like a sort of like up.
+
+333
+00:38:54.100 --> 00:38:58.569
+Patrik Stas: Let me think. Yeah, I think kind of like upper level, because
+
+334
+00:38:59.060 --> 00:39:02.939
+Patrik Stas: we're still going to have the state machines
+
+335
+00:39:04.500 --> 00:39:12.899
+Patrik Stas: as we have. We have them today. Wait, do we now now to review the diagram? I I draw in your Pr.
+
+336
+00:39:14.300 --> 00:39:16.169
+Patrik Stas: And let me see.
+
+337
+00:39:16.580 --> 00:39:27.330
+Bogdan Mircea: No, yeah, no, I guess I guess we're still gonna have it. I'm not sure about like the media connection is definitely gonna stay. I'm not sure about that. That other connection.
+
+338
+00:39:27.710 --> 00:39:31.599
+Bogdan Mircea: As far as I know it's quite recent.
+
+339
+00:39:32.120 --> 00:39:45.640
+Bogdan Mircea: so I don't know if we can just deprecate this in favor of the live state machines. But what i'm referring to is is if you click into the Sm connection and on structure
+
+340
+00:39:46.200 --> 00:40:04.239
+Patrik Stas: you have a yeah. And basically here there's a bunch of unit tests, you know, and these are unit. Those are often like. Sometimes they are checking like, if you are in a complete state like you shouldn't be able to process.
+
+341
+00:40:04.370 --> 00:40:14.329
+Patrik Stas: And so, basically, with the changes you do this test become useless? Because I mean we will not. It just won't be possible anymore, right to make that error.
+
+342
+00:40:14.530 --> 00:40:19.799
+Bogdan Mircea: hey? Exactly. Because there's no like no coded path for that to happen. So
+
+343
+00:40:20.280 --> 00:40:22.580
+Bogdan Mircea: that's that's pretty much the beauty of it.
+
+344
+00:40:22.830 --> 00:40:25.809
+Patrik Stas: Yeah, yeah, it's it's it's it's cool.
+
+345
+00:40:26.160 --> 00:40:36.449
+Patrik Stas: And then yeah, I would. I You know I guess the more I think about think about it. It it does seem just like kind of more conceptually correct, like
+
+346
+00:40:37.400 --> 00:40:42.589
+Patrik Stas: by using harnessing the like compiled guarantees, and just
+
+347
+00:40:43.230 --> 00:40:44.779
+Patrik Stas: make it
+
+348
+00:40:45.340 --> 00:40:54.749
+Patrik Stas: kind of like, basically provide a more information and compile time. And then, if you actually, if if you would actually want kind of
+
+349
+00:40:55.750 --> 00:41:01.640
+Patrik Stas: if I if somebody would want to like really preserve kind of the old Api.
+
+350
+00:41:02.200 --> 00:41:14.449
+Patrik Stas: which you know, was exposed before. Essentially, I think it would be possible to build like one more layer of connection, some sort of, you know, whatever collection, wrapper, or whatever what we called around it.
+
+351
+00:41:14.460 --> 00:41:28.660
+Patrik Stas: which would have all of the methods. And it was just kind of wrap around this. All these, like States and State machine, these realizations and just kind of provide the same Api we currently provide in the connection handle, I think.
+
+352
+00:41:29.160 --> 00:41:32.070
+Bogdan Mircea: Yeah, it will definitely be possible.
+
+353
+00:41:32.350 --> 00:41:33.660
+Bogdan Mircea: I mean.
+
+354
+00:41:34.590 --> 00:41:39.999
+Bogdan Mircea: I it's not really the the goal of this, like Ideally.
+
+355
+00:41:40.080 --> 00:41:46.029
+Bogdan Mircea: you would want to depend on on the type staying machine, because otherwise you
+
+356
+00:41:46.060 --> 00:41:48.980
+Bogdan Mircea: basically used to approach it, it will still be beneficial.
+
+357
+00:41:49.150 --> 00:41:54.219
+Bogdan Mircea: Don't get me wrong. So maybe for people that don't want to switch to that. Maybe not.
+
+358
+00:41:54.360 --> 00:41:59.009
+Patrik Stas: I. I think that that's kind of
+
+359
+00:42:00.620 --> 00:42:07.150
+Patrik Stas: possibly something will that I I guess I I don't like.
+
+360
+00:42:07.200 --> 00:42:11.919
+Patrik Stas: get ahead of myself. I thought that it's something that will probably end up
+
+361
+00:42:12.240 --> 00:42:19.409
+Patrik Stas: happening in Libby Cx. But I know you are already working on it, and probably have a better approach, so
+
+362
+00:42:19.440 --> 00:42:31.230
+Bogdan Mircea: i'll just. I'll just wait with myself on on on the i'm still working on that I didn't get to to finish it. I I would like to finish it for the call, but
+
+363
+00:42:31.620 --> 00:42:44.700
+Patrik Stas: it's probably gonna take me some more time. But maybe we can. We can talk about that next week, I guess I don't know sure, sure. And so. And and the last point I have in my note here is
+
+364
+00:42:45.400 --> 00:42:52.699
+Patrik Stas: I just, I guess, the open and question kind of for ourselves. And the community
+
+365
+00:42:52.990 --> 00:43:02.459
+Patrik Stas: is basically what, if you know, we go it forward with this. And as as time proceeds, more, more and more in favor. Actually.
+
+366
+00:43:04.020 --> 00:43:06.480
+Patrik Stas: I was just wondering how
+
+367
+00:43:07.150 --> 00:43:11.420
+Patrik Stas: how would we kind of go about it in
+
+368
+00:43:12.200 --> 00:43:16.289
+Patrik Stas: in terms of like I said, 2 options basically like
+
+369
+00:43:17.630 --> 00:43:19.689
+Patrik Stas: that we could write
+
+370
+00:43:22.560 --> 00:43:23.220
+we.
+
+371
+00:43:23.370 --> 00:43:32.590
+Patrik Stas: It's definitely a good approach to like start writing like a sideways, as like new implementation as a new feature. Just new code additions.
+
+372
+00:43:32.630 --> 00:43:34.919
+Patrik Stas: and then have these 2 implementations.
+
+373
+00:43:34.990 --> 00:43:43.799
+Patrik Stas: But then I was thinking, like, you know, if we're going to keep the implementations like basically of the same thing, one legacy and one the new one.
+
+374
+00:43:43.980 --> 00:43:54.729
+Patrik Stas: It's gonna all it's gonna consume like our, you know, maintenance, energy, and capacity unnecessarily. So it will be ideal if we can
+
+375
+00:43:54.750 --> 00:44:05.740
+Patrik Stas: really just get rid of the legacy code as soon as possible, as as this is ready. And so I guess, for that to happen. Really, we would have to
+
+376
+00:44:05.970 --> 00:44:07.419
+Patrik Stas: just make sure that
+
+377
+00:44:07.480 --> 00:44:20.550
+Patrik Stas: essentially, as far as the serialization, the serialization can be like preserved. Then there's no reason why the new implementation couldn't be used in the vcx instead of the old one. And so.
+
+378
+00:44:20.960 --> 00:44:24.879
+Patrik Stas: once we have them in place, and we are sure it is backwards compatible.
+
+379
+00:44:24.950 --> 00:44:26.869
+Patrik Stas: Then we can literally just
+
+380
+00:44:27.450 --> 00:44:37.450
+Patrik Stas: purge all the old code, and just just maintain the new new implementation. And then, I guess, like in a in a second step we could actually
+
+381
+00:44:37.810 --> 00:44:46.550
+Patrik Stas: like a complete separate issue. We could make a breaking changes to the serialization.
+
+382
+00:44:46.670 --> 00:45:04.680
+Patrik Stas: and just make it much more probably simpler and natural. Because now, when we, when we gonna do this process of retrofitting the serialization format, I think it's gonna be it's it's gonna end up like really like it's gonna be ugly code, but as just necessarily evil to
+
+383
+00:45:04.690 --> 00:45:09.790
+Patrik Stas: avoid having to maintain 2 implementations simultaneously.
+
+384
+00:45:11.210 --> 00:45:11.930
+Patrik Stas: Yeah.
+
+385
+00:45:13.340 --> 00:45:20.490
+Bogdan Mircea: and none of you actually mentioned it. I I also wanted to maybe illustrate another point of this.
+
+386
+00:45:20.720 --> 00:45:21.819
+Bogdan Mircea: Hmm.
+
+387
+00:45:22.080 --> 00:45:37.589
+Bogdan Mircea: It has something to do with the fact that this is a State the type state pattern, and it takes advantage of these generics, but I guess it. It also has to do with the fact that it's sort of a refactor. So there's a lot of things that you know I could go through and through and
+
+388
+00:45:37.680 --> 00:45:41.590
+Bogdan Mircea: have a second look at, maybe stuff that nobody will bet for for some time.
+
+389
+00:45:41.830 --> 00:45:45.980
+Bogdan Mircea: But yeah, I wanted to to basically showcase that.
+
+390
+00:45:46.110 --> 00:45:53.070
+Bogdan Mircea: So let's say, just considering the State machine. So this has like 235 lines. The southern one has
+
+391
+00:45:53.270 --> 00:45:56.020
+Bogdan Mircea: 286, let's say 700,
+
+392
+00:45:56.330 --> 00:45:58.110
+Bogdan Mircea: and if you take the
+
+393
+00:45:59.340 --> 00:46:05.730
+Bogdan Mircea: the controller or the handler, sorry as well, you end up with over a 1,000 lines. And
+
+394
+00:46:06.170 --> 00:46:13.640
+Patrik Stas: if you look at this, this is plus cause the unnecessary unnecessary test code. Basically
+
+395
+00:46:14.200 --> 00:46:32.869
+Bogdan Mircea: Well, yes, yeah, You could consider that as well. That's also code to maintain. But so this is less than 200. This was 110, let's, say 300, and then this is another 200 or so. So this basically reduces in in half the States are not that much different? Maybe they're even less code as well.
+
+396
+00:46:33.050 --> 00:46:40.310
+Bogdan Mircea: There is obviously a different approach, and there are some other stuff. And also you could maybe count the like the serialization stuff.
+
+397
+00:46:40.590 --> 00:46:43.419
+Bogdan Mircea: That would also be something. But essentially
+
+398
+00:46:43.450 --> 00:46:45.609
+Bogdan Mircea: I mean to me this looks
+
+399
+00:46:45.770 --> 00:46:47.699
+Bogdan Mircea: maybe I mean that's definitely an
+
+400
+00:46:48.980 --> 00:46:53.610
+Bogdan Mircea: I guess a subjective opinion because I wrote it. But to me it looks a bit more
+
+401
+00:46:53.810 --> 00:46:57.069
+Bogdan Mircea: clean and maintainable and easy to just go through.
+
+402
+00:46:57.110 --> 00:46:58.049
+Bogdan Mircea: I guess.
+
+403
+00:46:58.680 --> 00:47:06.289
+Patrik Stas: No, I agree. I agree. I mean, objectively, as you pointed out, shorter, it's the methods are further there. There is less code.
+
+404
+00:47:06.420 --> 00:47:07.690
+Patrik Stas: It looks simpler.
+
+405
+00:47:07.910 --> 00:47:11.990
+Patrik Stas: So I I agree. I think it's objectively. Simpler.
+
+406
+00:47:12.540 --> 00:47:18.079
+Bogdan Mircea: Yeah, and it's easier. And you track like it's easier to go through, even just, you know.
+
+407
+00:47:19.580 --> 00:47:28.679
+Bogdan Mircea: Like just having to look at it. You can see the return type. Okay, you're going to get the responded State. What is this going to do? And then you can just go through that.
+
+408
+00:47:29.770 --> 00:47:30.359
+Yeah.
+
+409
+00:47:30.400 --> 00:47:34.049
+Patrik Stas: Yeah, that's that's cool. I'm: I'm: getting excited about this
+
+410
+00:47:34.080 --> 00:47:35.170
+Patrik Stas: very cool.
+
+411
+00:47:36.060 --> 00:47:36.689
+Okay.
+
+412
+00:47:37.630 --> 00:47:45.420
+Patrik Stas: Okay. So I guess I guess we can close it with this. Thank you for yeah, Thank you for presentation.
+
+413
+00:47:45.800 --> 00:47:48.220
+Patrik Stas: I was.
+
+414
+00:47:48.680 --> 00:47:51.539
+Bogdan Mircea: I really wish that maybe I would trust
+
+415
+00:47:51.590 --> 00:47:57.179
+Bogdan Mircea: would be more control for it. But this was already a a good amount of work.
+
+416
+00:47:57.330 --> 00:48:01.370
+Bogdan Mircea: I'm gonna keep them working on it. So maybe next week I can actually, you know, have a little
+
+417
+00:48:01.560 --> 00:48:07.550
+Bogdan Mircea: like a proper poc, maybe an an example of a pedestal to, and some stuff that was actually.
+
+418
+00:48:08.290 --> 00:48:08.939
+oh.
+
+419
+00:48:09.300 --> 00:48:11.080
+Bogdan Mircea: straight in the
+
+420
+00:48:11.570 --> 00:48:22.489
+Bogdan Mircea: more presentable fashion, the actual benefits, and maybe even that you know the downside of different types, and how you can work around that for how I would work around that.
+
+421
+00:48:22.630 --> 00:48:23.729
+Bogdan Mircea: But yeah.
+
+422
+00:48:29.130 --> 00:48:38.250
+Patrik Stas: yeah, let's see. Also, i'll be I'll be curious about the thoughts from George. He he had. You know i'm curiously like significant
+
+423
+00:48:38.430 --> 00:48:41.950
+Patrik Stas: my contribution to the library as well.
+
+424
+00:48:41.970 --> 00:48:48.059
+Patrik Stas: So i'll be i'll be bringing him if they can, if they can take a look as well and see what he is thinking.
+
+425
+00:48:48.750 --> 00:48:52.770
+Patrik Stas: Yeah, but let's move from from this now.
+
+426
+00:48:53.600 --> 00:49:02.040
+Patrik Stas: and there's one more point here is for upcoming work. Honestly, i'm not sure right now, I think, for the like. Next week we'll be pretty much
+
+427
+00:49:02.250 --> 00:49:03.649
+Patrik Stas: busy
+
+428
+00:49:03.690 --> 00:49:11.410
+Patrik Stas: with the the state pattern refactoring and discussions around it, and how to kind of integrate it
+
+429
+00:49:11.940 --> 00:49:19.570
+Patrik Stas: and basically start using it as soon as possible. So we don't have to do like, yeah maintain 2 implementations in parallel.
+
+430
+00:49:19.860 --> 00:49:23.659
+Patrik Stas: So I think they will kind of keep us busy.
+
+431
+00:49:24.170 --> 00:49:28.449
+Patrik Stas: Possibly we might actually like drop in some further
+
+432
+00:49:28.800 --> 00:49:38.870
+Patrik Stas: contributions from upset, I guess, depending on our capacity, but they will see. I think we don't want to commit to any extra items right now. Yet
+
+433
+00:49:39.260 --> 00:49:47.410
+Patrik Stas: if anything, there's like kind of backlog here for anyone looking to pick something up.
+
+434
+00:49:47.760 --> 00:49:54.500
+Patrik Stas: I think. One thing we ran into now. Book done in the in the Pr. I. I dropped there a common was the
+
+435
+00:49:54.950 --> 00:49:55.729
+Patrik Stas: a
+
+436
+00:50:02.370 --> 00:50:10.199
+Patrik Stas: the video is over, and I thought it was here, and I don't see it.
+
+437
+00:50:10.490 --> 00:50:15.180
+Patrik Stas: So i'm sure there is an issue for it. I've seen it.
+
+438
+00:50:15.560 --> 00:50:16.240
+Yeah.
+
+439
+00:50:16.990 --> 00:50:21.689
+Patrik Stas: So maybe that could be actually like pretty useful to make the code even pret. There.
+
+440
+00:50:22.920 --> 00:50:25.220
+Patrik Stas: we'll see.
+
+441
+00:50:26.220 --> 00:50:31.139
+Patrik Stas: Well, and I guess this state machine thing
+
+442
+00:50:31.260 --> 00:50:34.939
+Bogdan Mircea: It would be definitely a useful component.
+
+443
+00:50:35.400 --> 00:50:36.859
+Patrik Stas: Yeah. Yeah.
+
+444
+00:50:40.680 --> 00:50:52.930
+Patrik Stas: Well, I guess, Having said all this, and going through our agenda, I think we can conclude that this is a pretty cool meeting and a nice nice presentation from your cell book. Done.
+
+445
+00:50:53.010 --> 00:50:59.630
+Patrik Stas: Thank you very much. Thanks for anyone tuning in, and we'll connect here again
+
+446
+00:50:59.790 --> 00:51:04.420
+Patrik Stas: in the week, same time always Thursday, 9 a. M. Atc.
+
+447
+00:51:04.890 --> 00:51:09.299
+Patrik Stas: Oh, thank you, bookdown and thank you. Everyone cheers you.
+

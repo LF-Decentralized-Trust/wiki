@@ -1,0 +1,111 @@
+1. [Technical Oversight Committee](index.html)
+2. [Technical Oversight Committee Home](Technical-Oversight-Committee-Home_21430274.html)
+3. [TOC Elections](TOC-Elections_21448771.html)
+4. [Email Templates](Email-Templates_21451617.html)
+
+# Technical Oversight Committee : Announce the Winners
+
+Created by David Huseby, last modified on Oct 12, 2020
+
+From: [election@lists.hyperledger.org](mailto:election@lists.hyperledger.org)  
+Sender: [bbehlendorf@linuxfoundation.org](mailto:bbehlendorf@linuxfoundation.org)  
+Reply-To: [election@lists.hyperledger.org](mailto:election@lists.hyperledger.org)  
+To: [tsc@lists.hyperledger.org](mailto:tsc@lists.hyperledger.org)  
+Subject: Winners of the 2020 Hyperledger TSC Election
+
+I am pleased to announce that the following candidates for the Hyperledger Technical Steering Committee have been selected by community members to serve for the 2020-2021 TSC term; in alphabetical order:
+
+- Page:
+  
+  [Angelo De Caro 2020](/wiki/spaces/TSC/pages/21440142/Angelo+De+Caro+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Arnaud J Le Hors 2020](/wiki/spaces/TSC/pages/21451762/Arnaud+J+Le+Hors+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Arun S M 2020](/wiki/spaces/TSC/pages/21430522/Arun+S+M+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Baohua Yang 2020](/wiki/spaces/TSC/pages/21430540/Baohua+Yang+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Bobbi Muscara 2020](/wiki/spaces/TSC/pages/21440233/Bobbi+Muscara+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Danno Ferrin 2020](/wiki/spaces/TSC/pages/21451784/Danno+Ferrin+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Dave Enyeart 2020](/wiki/spaces/TSC/pages/21451777/Dave+Enyeart+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Gari Singh 2020](/wiki/spaces/TSC/pages/21451782/Gari+Singh+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Grace Hartley 2020](/wiki/spaces/TSC/pages/21451797/Grace+Hartley+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Hart Montgomery 2020](/wiki/spaces/TSC/pages/21451786/Hart+Montgomery+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [María Teresa Nieto 2020](/wiki/spaces/TSC/pages/21451906/Mar+a+Teresa+Nieto+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Mark Wagner 2020](/wiki/spaces/TSC/pages/21451903/Mark+Wagner+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Nathan George 2020](/wiki/spaces/TSC/pages/21451856/Nathan+George+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Tracy Kuhrt 2020](/wiki/spaces/TSC/pages/21440124/Tracy+Kuhrt+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+- Page:
+  
+  [Troy Ronda 2020](/wiki/spaces/TSC/pages/21451884/Troy+Ronda+2020) (Technical Oversight Committee)
+  
+  - [tsc-2020-2021](/wiki/label/tsc-2020-2021)
+
+We have prepared [a wiki page with information for new and returning TSC members](https://lf-hyperledger.atlassian.net/wiki/display/TSC/A+Welcome+to+New+TSC+Members). It is important that everybody look at the page and follow the instructions to ensure that everybody has access to all of the resources necessary to participate fully in the TSC committee. Congratulations to everybody who ran and everybody who was elected. It pleases all of us to see how committed we all are to ensuring good governance of our projects and community.
+
+We are not done yet! Over the next week the newly elected TSC members must nominate and elect a TSC chair; the second place person will be the vice-chair. Here is the timeline and instructions for that process:
+
+- 12 Oct 2020 - 13 Oct 2020 newly elected TSC members interested in running for chair nominate themselves by emailing [election@lists.hyperledger.org](mailto:election@lists.hyperledger.org)
+- 14 Oct 2020 nominees are contacted to confirm their nomination and how they would like their name to appear on the ballot
+- 15 Oct 2020 - 17 Oct 2020 newly elected TSC members will cast their ballots for TSC chair.
+- 17 Oct 2020 election ends at 11:59 PM (PDT, GMT-7)
+- 19 Oct 2020 the newly elected TSC chair and vice-chair is announced to the TSC mailing list.
+
+Again, I'd like to congratulate everyone who participated in this election and especially to those that ran and have been elected.
+
+Thank you,  
+Brian Behlendorf
+
+Document generated by Confluence on Nov 26, 2024 11:23
+
+[Atlassian](http://www.atlassian.com/)

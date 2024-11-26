@@ -1,0 +1,977 @@
+WEBVTT
+
+00:01:08.000 --> 00:01:16.000
+Alright, I'm gonna go ahead and kick Us off, I'm gonna start the recording
+
+00:01:16.000 --> 00:01:33.000
+Welcome to everybody, to the December, Eighth, Hyper Ledger, Technical Oversight Committee call as everyone who's on this call is aware, 2 things that we must Abide by the first is the Antitrust Policy, notice that It's currently displayed on the Screen, and the
+
+00:01:33.000 --> 00:01:39.000
+second, is our code of conduct, which is linked in the agenda
+
+00:01:39.000 --> 00:01:47.000
+Alright, so for our agenda today, we have the standard announcement the Dev Weekly Developer Newsletter, Goes Out, Each Friday.
+
+00:01:47.000 --> 00:01:51.000
+If you would like to include anything in that newsletter.
+
+00:01:51.000 --> 00:01:57.000
+Please leave a comments. for consideration at the link that is in the Agenda.
+
+00:01:57.000 --> 00:02:16.000
+As far as Meetings for the holidays. I thought we should probably cancel the 20 s, the 20 ninth, and the fifth to make sure that everybody who is on holiday I can enjoy those holidays and not have to worry about the technical oversight, Committee, call I'm
+
+00:02:16.000 --> 00:02:20.000
+not sure whether we'll have content for next week, and we'll decide that next week as to whether or not.
+
+00:02:20.000 --> 00:02:21.000
+We have one next week, but definitely for the the Holidays.
+
+00:02:21.000 --> 00:02:28.000
+That I'd like to make sure that we cancel those meetings
+
+00:02:28.000 --> 00:02:40.000
+Any other. Announcements that anybody on the Call has
+
+00:02:40.000 --> 00:02:41.000
+A Route
+
+00:02:41.000 --> 00:02:51.000
+This, So this is regarding Hyperlature. Blockchain Explorer, Project, which was recently deprecated or enough lifecycle, I guess and
+
+00:02:51.000 --> 00:02:58.000
+There has been interest in multiple among multiple community members, so it's going to be
+
+00:02:58.000 --> 00:03:06.000
+Like people are looking into adding certain features to that project, and seeing further improving the Project and bringing it back to live.
+
+00:03:06.000 --> 00:03:16.000
+So there is going to be a discussion tomorrow 8 am eastern time
+
+00:03:16.000 --> 00:03:28.000
+And the calendar link is where exactly for people who might be interested in joining that
+
+00:03:28.000 --> 00:03:29.000
+Okay.
+
+00:03:29.000 --> 00:03:31.000
+Right. I need to work with David and getting it up on the calendar link alright
+
+00:03:31.000 --> 00:03:49.000
+Okay, and then, yeah, I think, if I understand correctly, that the code base has been moved to the Labs area, so it's currently a lab in that project and if that would like to come back to be a top level project at some point in the future.
+
+00:03:49.000 --> 00:03:54.000
+It will have to go through the project proposal process
+
+00:03:54.000 --> 00:03:56.000
+Great.
+
+00:03:56.000 --> 00:03:57.000
+Okay. Great.
+
+00:03:57.000 --> 00:04:04.000
+So if you know of anybody else who is interested in the project, please bring them to the call tomorrow
+
+00:04:04.000 --> 00:04:18.000
+Alright Thanks Ron any other announcements that anybody would like to make
+
+00:04:18.000 --> 00:04:30.000
+Alright, I don't see any hands nobody coming off mute so I'll pick that as they know as far as quarterly reports we did have the cello report come in this week.
+
+00:04:30.000 --> 00:04:53.000
+Did not see any comments on that. I'm just opening it out, just to make sure that nothing new has come in overnight, that I may have this no it looks like the only comment here is from from David Boswell about social media post and marketing for the one
+
+00:04:53.000 --> 00:05:00.000
+Dot release that's coming out. Looks like we still do have a number of Poc members that have yet to review the document.
+
+00:05:00.000 --> 00:05:19.000
+So we'll you know. Look to see if there's anything that comes out there, any questions though that anybody does have from that particular project report that you know project report
+
+00:05:19.000 --> 00:05:25.000
+Hey? Tracy, I I did have a question on the documentation for the lack thereof was the same comment from their last report.
+
+00:05:25.000 --> 00:05:34.000
+I still didn't see much update in that in that area.
+
+00:05:34.000 --> 00:05:38.000
+So I just putting another commenting.
+
+00:05:38.000 --> 00:05:39.000
+Okay, and it's that the there needs to be more documentation, for the cello project.
+
+00:05:39.000 --> 00:05:48.000
+Do you think before the the one that releases what you're asking for
+
+00:05:48.000 --> 00:05:54.000
+Yeah, yeah, what? What thing there is completely lacking. If I'm a newcomer trying to pick up shallow.
+
+00:05:54.000 --> 00:05:57.000
+I just can't figure out anything
+
+00:05:57.000 --> 00:06:08.000
+Okay.
+
+00:06:08.000 --> 00:06:20.000
+Probably have you in the Learning Materials Working Group has anybody been working with the Cello folks on any sort of documentation, or anything there has that come up or not
+
+00:06:20.000 --> 00:06:34.000
+No it hasn't. But David and I had a meeting this week about how We're going to change learning materials.
+
+00:06:34.000 --> 00:06:35.000
+Okay.
+
+00:06:35.000 --> 00:06:36.000
+Working Group to help support that more with Task force and one of them will be that documentation test
+
+00:06:36.000 --> 00:06:37.000
+Alright, Thanks Bobby, didn't need to put you on the Spot.
+
+00:06:37.000 --> 00:06:40.000
+No works.
+
+00:06:40.000 --> 00:06:41.000
+There, but I I know you that help some other, projects in the past, and I didn't. Know this one was one that had come up or not
+
+00:06:41.000 --> 00:06:59.000
+Yeah, but that documentation working group was gonna say, all those efforts to make it simple and work together with us to help them.
+
+00:06:59.000 --> 00:07:13.000
+Okay, and Jim, when we get there, this might be a A best practice that we want to add to the checklist, as we are thinking about documentation
+
+00:07:13.000 --> 00:07:18.000
+Yeah, it it was kind of my my my subtle way to say, they need to really drastically improve documentation, to things.
+
+00:07:18.000 --> 00:07:25.000
+Fair one dot, one dot, 0
+
+00:07:25.000 --> 00:07:26.000
+Yeah, okay.
+
+00:07:26.000 --> 00:07:27.000
+Attain the documentation they need to get newcomers onboarding easily
+
+00:07:27.000 --> 00:07:32.000
+I'll recap folks this week and set something up to get started
+
+00:07:32.000 --> 00:07:36.000
+Yeah, I appreciate it, Bobby.
+
+00:07:36.000 --> 00:07:39.000
+That's great thanks, Polly.
+
+00:07:39.000 --> 00:07:48.000
+Alright any other comments about cello at this point.
+
+00:07:48.000 --> 00:07:53.000
+Alright. I will note that the Firefly also did come in or this week.
+
+00:07:53.000 --> 00:07:59.000
+So I did include the link there on the Agenda will definitely include it next time.
+
+00:07:59.000 --> 00:08:05.000
+As well, but just have yi, that one did come in if you haven't had a chance to look at it.
+
+00:08:05.000 --> 00:08:09.000
+Yet, please do so.
+
+00:08:09.000 --> 00:08:18.000
+And I guess I can ask the question. because it does look like a good number of people have already taken a look at the are there any comments or questions.
+
+00:08:18.000 --> 00:08:31.000
+About the Firefly report at this point
+
+00:08:31.000 --> 00:08:53.000
+Alright resounding, now so so So last week we had talked about a couple of things one we had talked about the Different Task Forces and closing those out one of the Items. That came up when we were talking about the Project Health task Force was potentially creating a Checklist where we would Move some
+
+00:08:53.000 --> 00:09:16.000
+of the questions that we have in the project reports to Zoom Sort of Spreadsheet and maybe try to include some of the Project Health type things into this particular sort of Checklist of yes, no do, we have these things, that are included I started this with the list of the things.
+
+00:09:16.000 --> 00:09:20.000
+that we have done in the past, in the past year right we've created the common repository Structure.
+
+00:09:20.000 --> 00:09:24.000
+We've created the Maintainer, Guidelines, and we've approved the inclusive Naming proposal.
+
+00:09:24.000 --> 00:09:36.000
+And so I basically included all of the items, from the there, whether or not they were muster, should
+
+00:09:36.000 --> 00:09:40.000
+They are included here for most of these, I specified, whether they were required or recommend it but not all of them.
+
+00:09:40.000 --> 00:09:46.000
+Maybe I need to go back and do that for the ones.
+
+00:09:46.000 --> 00:10:05.000
+I missed there, but you know these these items none of them should surprise us as we have approved these things in the past, but I did want to have a discussion and see if there were other things that we should be adding to this List I'm happy to you know take those
+
+00:10:05.000 --> 00:10:25.000
+Notes, and and start to add them here, directly, in the document
+
+00:10:25.000 --> 00:10:43.000
+Any thoughts, things that we should add to this list
+
+00:10:43.000 --> 00:10:44.000
+Alright Thanks Dave.
+
+00:10:44.000 --> 00:10:47.000
+I don't have things to add, but I'll just say I like it a a all in one location is very convenient.
+
+00:10:47.000 --> 00:10:55.000
+And I wish this had existed previously, so looks like it's pretty inclusive of the things we already have.
+
+00:10:55.000 --> 00:11:00.000
+I can't think of anything new, but I think this would be a good thing going forward and we'll add to it.
+
+00:11:00.000 --> 00:11:03.000
+As we think of things.
+
+00:11:03.000 --> 00:11:11.000
+Yeah, and Dave and Others, the what I was thinking here is that we would probably create a separate tab for each of the projects.
+
+00:11:11.000 --> 00:11:31.000
+That would be a copy of this template, right and as we as in when we add things to the Template, we would also add them to the individual project tabs so that again, one place to go to to see me you know do our projects, support the best practices, if so where
+
+00:11:31.000 --> 00:11:38.000
+Can. You find that so that it's it's also somewhat of a appendix, or an index.
+
+00:11:38.000 --> 00:11:40.000
+I guess it's the right way to say that right.
+
+00:11:40.000 --> 00:11:57.000
+That that basically allows people to quickly find the information. So that if they're interested in say, becoming a maintainer of one of the projects, they can go find out what how what does that take and how do I how do I become a maintainer what are the steps I have to go through so yeah, I think
+
+00:11:57.000 --> 00:12:03.000
+That's kind of the idea here, Peter
+
+00:12:03.000 --> 00:12:17.000
+Quick suggestion, and I'm have to make a change to this will be, okay, if I move the the Choir Slash Optional information into its own column.
+
+00:12:17.000 --> 00:12:20.000
+So that's filterable by
+
+00:12:20.000 --> 00:12:23.000
+Sure, yeah, we could definitely, do that
+
+00:12:23.000 --> 00:12:28.000
+Okay, and then once, I do, that I'll have a few ideas for optional stuff.
+
+00:12:28.000 --> 00:12:32.000
+But nothing to add on the Required, from
+
+00:12:32.000 --> 00:12:38.000
+Okay.
+
+00:12:38.000 --> 00:12:40.000
+Come, lush.
+
+00:12:40.000 --> 00:12:53.000
+So I think maybe information about the Lts Releases could be edited and other things like he even Capable of Open source, Project I have seen.
+
+00:12:53.000 --> 00:12:59.000
+So yeah, and I'm sorry about the information, about the okay, no.
+
+00:12:59.000 --> 00:13:11.000
+The Project implementation like those Real time on the Production Implementation of the Webinar Open Source Project
+
+00:13:11.000 --> 00:13:14.000
+So do you have a list of production uses
+
+00:13:14.000 --> 00:13:25.000
+Well, yeah, yeah, yeah, so, so like, for example, suppose if you see, any for example, if you go to any open source, projects they mentioned about like, who are using this particular.
+
+00:13:25.000 --> 00:13:28.000
+Project
+
+00:13:28.000 --> 00:13:30.000
+Wouldn't be good
+
+00:13:30.000 --> 00:13:43.000
+Yep, okay, shawn, if you scroll down I am editing as we speak so yeah, at the bottom I added this question, do you have a list of production uses, to the the
+
+00:13:43.000 --> 00:13:56.000
+Document accomplish. I also added your Lts release piece as well on line 25,
+
+00:13:56.000 --> 00:13:59.000
+Alright, are, you
+
+00:13:59.000 --> 00:14:00.000
+Yes, hi I'm in what's been said before.
+
+00:14:00.000 --> 00:14:21.000
+This would be great to have for sure. it feels like I wish you could open some of this automatically, but my question really is, how do you deal with the fact that many projects if not all have multiple rows.
+
+00:14:21.000 --> 00:14:22.000
+And
+
+00:14:22.000 --> 00:14:24.000
+Are we going to just focus on the main one or
+
+00:14:24.000 --> 00:14:42.000
+Good question. Or no. I have that same question in my head, and I don't know a good answer to that I really appreciate thoughts here, right I I mean in my mind there's 2 ways that comes to my mind of how we can deal.
+
+00:14:42.000 --> 00:14:50.000
+With this, one, is that we have a separate tab for each repo I think this is gonna make this a very long spreadsheet.
+
+00:14:50.000 --> 00:14:56.000
+And that that may be too overwhelming for people, maybe I have a third, way.
+
+00:14:56.000 --> 00:15:06.000
+We could create a separate one for each project, and then have repo, specific questions and project specific questions. Right?
+
+00:15:06.000 --> 00:15:12.000
+We could the the third option, which was my original second option, was we do it pur.
+
+00:15:12.000 --> 00:15:18.000
+Project and in the location column. We have multiple locations, one for each repo.
+
+00:15:18.000 --> 00:15:21.000
+So, yeah, I think, those are the 3 that come to mind.
+
+00:15:21.000 --> 00:15:27.000
+But I'm like would love to hear your thoughts on what you think is best, and
+
+00:15:27.000 --> 00:15:32.000
+If there's a fourth, or fifth option that might be better
+
+00:15:32.000 --> 00:15:36.000
+Yeah, I mean, I, I you know I don't claim to have the right answer, either.
+
+00:15:36.000 --> 00:15:53.000
+That's why I'm it crossed my mind.
+
+00:15:53.000 --> 00:15:54.000
+Yeah
+
+00:15:54.000 --> 00:16:00.000
+I think you know practically speaking at least as a first step, focusing on the main repository seems like you're reasonable thing to do I think otherwise it's getting good, very quickly over and we're all I think it's better to have less information that that we can keep
+
+00:16:00.000 --> 00:16:07.000
+You know, I create keep it up to date than trying to look encompass everything.
+
+00:16:07.000 --> 00:16:16.000
+And then you know it's going to become obsolete before you know. And then it defeats, the whole purpose
+
+00:16:16.000 --> 00:16:17.000
+Yeah, makes sense.
+
+00:16:17.000 --> 00:16:21.000
+Meet, not in how people use this and they're aware.
+
+00:16:21.000 --> 00:16:23.000
+And maybe maybe there's something that needs to be done at the Project.
+
+00:16:23.000 --> 00:16:34.000
+There also that you know, awesome. I see that's I'm taking out love.
+
+00:16:34.000 --> 00:16:37.000
+So I have no choice, if I'm wearing it.
+
+00:16:37.000 --> 00:16:45.000
+But you know, I wonder if it's up to the project to point, to the other repos, and that provide additional information.
+
+00:16:45.000 --> 00:16:51.000
+Yeah, to some degree, you can figure this out, by just the main usually, you can find that out.
+
+00:16:51.000 --> 00:16:58.000
+Maybe more can be done. There. We go at the product, level
+
+00:16:58.000 --> 00:17:02.000
+Yeah, and and I don't know because you've said that.
+
+00:17:02.000 --> 00:17:15.000
+I guess a fourth option that has just now come to mind is what if we required this in the read me for each of the Repos.
+
+00:17:15.000 --> 00:17:32.000
+Or a pointer, to this from the reading We're, basically the Information Existed as an index to the Project, so that people knew where to find things within that Particular Repo.
+
+00:17:32.000 --> 00:17:36.000
+Okay a room.
+
+00:17:36.000 --> 00:17:37.000
+Thanks. Tracy. So I was looking through this list and thanks for aggregating anyone, please.
+
+00:17:37.000 --> 00:18:01.000
+And I like it to pain one place now that I say this last, so thinking of some of the bigger projects are some of the projects that have wider schools it it could be as simple as for instance let's say fabric examples for instance, a repository that may get contributions, from multiple folks in each
+
+00:18:01.000 --> 00:18:08.000
+interested in some aspect of it, some few folks interested in on the let's say, bringing up of a Testament.
+
+00:18:08.000 --> 00:18:12.000
+Whereas few of them could be interested in writing samples on the Chain. Code.
+
+00:18:12.000 --> 00:18:19.000
+Different languages, oh, having, I know, like probably team, is doing good job, right?
+
+00:18:19.000 --> 00:18:27.000
+Maybe we can recommend another file called something like owners, which the chromium like defined.
+
+00:18:27.000 --> 00:18:32.000
+Earlier, which allows us to define a folder level ownership, right?
+
+00:18:32.000 --> 00:18:55.000
+We can say that there can be reviewers, and reviewers can who specializes on that particular field, or that either it could be that part of Oh I'm in that folder of a Project or in that part of a project and then approve or is only when they approve it, goes into the main base
+
+00:18:55.000 --> 00:19:00.000
+Yep and that would be another spell would be recommended.
+
+00:19:00.000 --> 00:19:01.000
+I think right
+
+00:19:01.000 --> 00:19:05.000
+Right. It's not a mandate. I recommend it
+
+00:19:05.000 --> 00:19:10.000
+Yeah, okay.
+
+00:19:10.000 --> 00:19:13.000
+Come lush.
+
+00:19:13.000 --> 00:19:22.000
+So I think like, not just point. Right there are multiple projections of projects, maybe we can also have having a list of sub projects.
+
+00:19:22.000 --> 00:19:32.000
+So it will be easily identifiable to the people like with prosecuted to visit particular reports
+
+00:19:32.000 --> 00:19:52.000
+So for example, the family having a multiple subpoena, could be included in the a in the repository
+
+00:19:52.000 --> 00:19:55.000
+Okay, Nathan.
+
+00:19:55.000 --> 00:20:03.000
+On this sheet. It seems like it's important for us to to see to call out that most of these are required on a peripo basis.
+
+00:20:03.000 --> 00:20:06.000
+Even if you try to save energy, you still have to have something.
+
+00:20:06.000 --> 00:20:25.000
+There, for either a legal compliance reason, or because, if it's not, there you're probably not doing the Activity in indicates like doing the Testing, or Implementing the Conventions, and so you know one of the Hopes, is that as we get our Vintage, Linting Tool, kept up
+
+00:20:25.000 --> 00:20:40.000
+To speed is it. It's very easy for us to to run this against the repositories, and get a picture overall where the project is that because there there is going to be a constant struggle to keep some of these things up to date and one of the things that's important when project decides to make lots
+
+00:20:40.000 --> 00:20:46.000
+of sub repositories, is that they understand upfront what they're signing up for
+
+00:20:46.000 --> 00:20:51.000
+Because I think one of the things that happens is often the sub project is kind of a matter of maintainer convenience.
+
+00:20:51.000 --> 00:20:56.000
+Or it's a matter of you know it. It's just more easier to use the pro the programming language tools.
+
+00:20:56.000 --> 00:20:58.000
+If I don't have to worry about more than one programming language in the same repo, and they don't realize all of these things.
+
+00:20:58.000 --> 00:21:14.000
+End up duplicated, as a result.
+
+00:21:14.000 --> 00:21:20.000
+I agree, I'm not sure. what specific change.
+
+00:21:20.000 --> 00:21:25.000
+If any we need to make to this to reflect that you can
+
+00:21:25.000 --> 00:21:47.000
+I just wondered if in Required and recommended. If there's something we can call out about whether they can link or whether they have to duplicate the Content couple of these we could probably just link from one to the other and I know we've had that together, at nauseum and the repository, Structure, and the
+
+00:21:47.000 --> 00:21:56.000
+Yeah, completely, understood, I think, if I remember correctly, and we'd have to open it.
+
+00:21:56.000 --> 00:21:59.000
+But I think in the let me see if I can.
+
+00:21:59.000 --> 00:22:10.000
+Open it here, and just take a look at it. I think, in the Maintainer's Guidelines. we have
+
+00:22:10.000 --> 00:22:15.000
+Was it the Maintainer's got like no. It was a common repository structure, and the Common Repository structure.
+
+00:22:15.000 --> 00:22:20.000
+We do have, hey? Comment. I remember about these files must contain specific comments.
+
+00:22:20.000 --> 00:22:34.000
+Specific content. so I think the license, the code of conduct, and the security or the 3, that we list as must requires a specific con, content,
+
+00:22:34.000 --> 00:22:35.000
+Is that is that what we should be marking, then is those 3.
+
+00:22:35.000 --> 00:22:39.000
+maintainer guidelines. So it may be that just the Content that's in that links document is enough
+
+00:22:39.000 --> 00:22:40.000
+As these require specific content, and then the other files are the variable content ones.
+
+00:22:40.000 --> 00:22:41.000
+Yeah, I just wanted to where are we saying for you, file required, we we could put a note in this, in this list, it's just it's really nice as a maintainer to have something like this spreadsheet.
+
+00:22:41.000 --> 00:23:07.000
+Where, I can just go. Just go through and make sure each thing is is ready to go.
+
+00:23:07.000 --> 00:23:14.000
+Yeah, yeah, it is the
+
+00:23:14.000 --> 00:23:19.000
+Security. I just said
+
+00:23:19.000 --> 00:23:30.000
+My brain obviously is not awake. Yet this, my security, license and kind of contact that are the ones that are special,
+
+00:23:30.000 --> 00:23:39.000
+Maybe maybe the reason that my brain is not able to keep those in my head is because okay, security and license, where it's the code of Product.
+
+00:23:39.000 --> 00:23:43.000
+Here, we go, so these 3 are the ones that are special, if you will I'm, just gonna mark them highlight them in some way.
+
+00:23:43.000 --> 00:23:51.000
+So we remember that we need to do some special with these
+
+00:23:51.000 --> 00:24:02.000
+Okay, thank you, Nathan, for that. I will make sure to do that
+
+00:24:02.000 --> 00:24:20.000
+Any other comments, anything else. We should add. Jim, I feel like what I want to add around documentation is something like, do you have to tutorials, I use to reflect, kind.
+
+00:24:20.000 --> 00:24:34.000
+Of the comment you made above the Cello one. Are there other sorts of documents that people think is extremely important to make sure that that exist for our projects
+
+00:24:34.000 --> 00:24:35.000
+Yeah, I'm kind of torn a little bit. Here.
+
+00:24:35.000 --> 00:24:42.000
+I I feel like a a active project will naturally have good documents.
+
+00:24:42.000 --> 00:24:46.000
+Because that's only way to get the community to be able to pick it up, and use it.
+
+00:24:46.000 --> 00:25:01.000
+If it does, if a project is lacking basic documentation, it's a sign that nobody cares about
+
+00:25:01.000 --> 00:25:05.000
+So that's that's kind of what's in my head.
+
+00:25:05.000 --> 00:25:11.000
+So maybe we can say best practices is having good documentation.
+
+00:25:11.000 --> 00:25:12.000
+But Really, if you don't have, that, how can you be
+
+00:25:12.000 --> 00:25:20.000
+Effective Project
+
+00:25:20.000 --> 00:25:26.000
+Yeah, so I added, okay, I obviously, have no idea how these sheets,
+
+00:25:26.000 --> 00:25:35.000
+I added, do you have documentation as one right? It's very possible that some of our projects that are an incubation haven't gotten to their documentation.
+
+00:25:35.000 --> 00:25:44.000
+Yet and so that will end up being a no and then I added the second question of Tutorials on use,
+
+00:25:44.000 --> 00:25:51.000
+I I want to. I want to avoid the use of the word good.
+
+00:25:51.000 --> 00:25:56.000
+Because it's very subjective. What good means, and I'd like to be more specific.
+
+00:25:56.000 --> 00:26:05.000
+If we could, if if there's other things that we think are necessary in the documentation, that would make it good in our mind, right what what does that really mean?
+
+00:26:05.000 --> 00:26:14.000
+To us.
+
+00:26:14.000 --> 00:26:17.000
+So alright.
+
+00:26:17.000 --> 00:26:21.000
+Yeah, maybe I'm overlooking it
+
+00:26:21.000 --> 00:26:26.000
+But I feel like as a developer when I first time seed any of the code basis.
+
+00:26:26.000 --> 00:26:35.000
+Unlike. Unless I know that code based I may be interested in knowing how to peel it locally, how to set up my test environment.
+
+00:26:35.000 --> 00:26:40.000
+So I know there is a testing code point which is put as recommended.
+
+00:26:40.000 --> 00:26:52.000
+I'm I'm just not sure if it considers the Build and test if that's what it meant to be
+
+00:26:52.000 --> 00:26:55.000
+Is that not in Israel number nineteenth.
+
+00:26:55.000 --> 00:27:03.000
+Yeah, no, that is truly testing, code, so I added, lines, 31 and 32.
+
+00:27:03.000 --> 00:27:09.000
+Here do you have build instructions, probably in your documentation.
+
+00:27:09.000 --> 00:27:21.000
+And then the second one, do you have documentation to help, a contributor, understand the code, Base. I think that's what you're asking for is it a room.
+
+00:27:21.000 --> 00:27:40.000
+Sure maybe not the code, Base, at least the build instructions, if possible, because there could be let's say some of the some of the Projects would be using make file, some of them, could be using Arrest Base is once and they could have multiple Flags, in there and as a First Time, Contributor, I may
+
+00:27:40.000 --> 00:27:58.000
+understand how the Programming Language works. But I may not be able to comprehend the the multiple options which are provided in in those files, unless I know about the Project right so maybe there should be an option, so if you are a development, if you are building and if you are contributing and
+
+00:27:58.000 --> 00:28:02.000
+here, is how you can build locally. It allows you us to gain.
+
+00:28:02.000 --> 00:28:08.000
+Confidence that you have tested, and it gives you confidence that you are able to build it
+
+00:28:08.000 --> 00:28:14.000
+Yep, okay, poppy
+
+00:28:14.000 --> 00:28:31.000
+So with the documentation Task Force Our Goal and Hopefully We'll be finished by the end of the year, is to get some recommendations for projects and incubation to take their Github Repositories and put them through these Templates and have user Docs, and again, I Completely agree with Everyone
+
+00:28:31.000 --> 00:28:33.000
+Who said that the documentation is direct reflect on how the project is loved.
+
+00:28:33.000 --> 00:28:44.000
+So, depending on how much work went into describing steps in the Github is is as good as your documentation.
+
+00:28:44.000 --> 00:29:03.000
+When you say the only thing that that I have a question on is when you say you are more talking about how to tutorials I'm not sure how you could get the community all to do that in a uniform way, unless you supply a template, that each project has to do for
+
+00:29:03.000 --> 00:29:08.000
+That specific reason
+
+00:29:08.000 --> 00:29:14.000
+Yeah, I, I think the tutorials are going to be very dependent on the project at hand.
+
+00:29:14.000 --> 00:29:16.000
+Right I think it's important to have those tutorials.
+
+00:29:16.000 --> 00:29:31.000
+But I don't think it's necessary to reflect what type of tutorials if you will
+
+00:29:31.000 --> 00:29:58.000
+Okay, other thoughts.
+
+00:29:58.000 --> 00:29:59.000
+Alright.
+
+00:29:59.000 --> 00:30:03.000
+Yeah, I know I'm not supposed to use the chat here.
+
+00:30:03.000 --> 00:30:07.000
+But I I could I just wanted to paste, a link.
+
+00:30:07.000 --> 00:30:13.000
+So this is some kind of documentation that I was talking about personally.
+
+00:30:13.000 --> 00:30:32.000
+This benefited me. When I mean long back. When I started contributing to this project
+
+00:30:32.000 --> 00:30:41.000
+Okay.
+
+00:30:41.000 --> 00:30:46.000
+Any other.
+
+00:30:46.000 --> 00:31:11.000
+Thoughts, anything else we should add to this
+
+00:31:11.000 --> 00:31:21.000
+Peter the the column you requested the required recommended is this kind of the idea that you had there
+
+00:31:21.000 --> 00:31:24.000
+Yeah, that, works.
+
+00:31:24.000 --> 00:31:30.000
+That works you had something else in mind
+
+00:31:30.000 --> 00:31:37.000
+My first idea would be slightly different. But this is perfect, it it serves the purpose.
+
+00:31:37.000 --> 00:31:43.000
+It's it makes the data structural just the same way.
+
+00:31:43.000 --> 00:31:44.000
+Okay.
+
+00:31:44.000 --> 00:31:48.000
+So it wasn't it wasn't a jab.
+
+00:31:48.000 --> 00:31:56.000
+Great to be there.
+
+00:31:56.000 --> 00:31:58.000
+Alright, so I'll clean this up a bit.
+
+00:31:58.000 --> 00:32:06.000
+I think you know some of these other things that we had that are more jet as recorded recommend it.
+
+00:32:06.000 --> 00:32:16.000
+I'll check the Whatever we Documented. When we document it say the Maintenance Guidelines are the Common Repository Structure, and make sure that they have whether or not is it required.
+
+00:32:16.000 --> 00:32:31.000
+Or recommended some of these new things that we just added I'm I'm guessing these are all recommended practices since we just kind of added them, they weren't things that we thought were necessarily required.
+
+00:32:31.000 --> 00:32:35.000
+But happy to to be told that you think something should be required.
+
+00:32:35.000 --> 00:32:51.000
+If if it should be.
+
+00:32:51.000 --> 00:33:09.000
+Okay. So for the moment, I'll make them all, recommend it and then if for some reason at some point in the future, we decide that they should be required, we can have that discussion
+
+00:33:09.000 --> 00:33:17.000
+Any other thoughts on this, before we close this topic.
+
+00:33:17.000 --> 00:33:22.000
+Just I think it's a great idea. Generic thumbs up plus one
+
+00:33:22.000 --> 00:33:23.000
+Alright, Nice, Peter
+
+00:33:23.000 --> 00:33:24.000
+So maybe you said it before life is it so what's the plan?
+
+00:33:24.000 --> 00:33:34.000
+Now I mean what's how do you go at feeling out all these data
+
+00:33:34.000 --> 00:33:47.000
+Yeah, so Oh, no. I thought I could maybe potentially take a for stab at this, by going through for the different projects, and Marking, whether or not they exist and where I found them.
+
+00:33:47.000 --> 00:33:58.000
+And then anything that's left blank turn that over to the the Projects to allow them to update it or change it as the case may be.
+
+00:33:58.000 --> 00:34:03.000
+If, if I got it wrong for some reason,
+
+00:34:03.000 --> 00:34:07.000
+Does it sound like a an appropriate next step?
+
+00:34:07.000 --> 00:34:12.000
+Well, if you're willing to do the work. I don't think it would, as you, know, Jack, but I think it's a bit unfair.
+
+00:34:12.000 --> 00:34:15.000
+I don't know why you would have to carry the load here.
+
+00:34:15.000 --> 00:34:20.000
+We have people from different projects even within the Tsc. Alone.
+
+00:34:20.000 --> 00:34:36.000
+I think it should be spread around. So that at least, one per product. One person. Per project will want to use to do it. For their own project, and then there may be some that for which we don't have anybody maybe we can pick up the slack but
+
+00:34:36.000 --> 00:34:45.000
+Yeah, either. That would that would work or we could just say for the Next quarter reports, please fill out the initial Spreadsheet as well.
+
+00:34:45.000 --> 00:34:51.000
+Oh, that's an interesting idea.
+
+00:34:51.000 --> 00:34:53.000
+I'm happy to do either way. If somebody wants to volunteer to fill it out.
+
+00:34:53.000 --> 00:35:01.000
+Now, that's great I'm not going to force anybody to do that.
+
+00:35:01.000 --> 00:35:17.000
+But I I do think, yeah, definitely I want in the Next Quarterly Report. If it hasn't been filled out or it's partially filled out for the the projects to complete that
+
+00:35:17.000 --> 00:35:20.000
+Hey! See. I'll volunteer to do to do fabrics first.
+
+00:35:20.000 --> 00:35:21.000
+Alright Thanks Dave.
+
+00:35:21.000 --> 00:35:28.000
+First here, yeah, so we have a precedent
+
+00:35:28.000 --> 00:35:30.000
+Alright, I'm gonna i'm gonna change that link.
+
+00:35:30.000 --> 00:35:34.000
+That I have right. Now it's comment. Only I'm gonna change it.
+
+00:35:34.000 --> 00:35:47.000
+To editor, so that anybody can go ahead and edit the the document going forward
+
+00:35:47.000 --> 00:36:01.000
+So Tracy will have this as ongoing or just one time Capture
+
+00:36:01.000 --> 00:36:07.000
+It's the Zooming some Project may not have auto checked.
+
+00:36:07.000 --> 00:36:12.000
+Do we want them to progress. So eventually, they have all of them checked
+
+00:36:12.000 --> 00:36:18.000
+I I think that would be ideal, Jim, right is that we do get to a place where they are all checked.
+
+00:36:18.000 --> 00:36:30.000
+I think it the the more that people and Projects let's say the the more that projects have checked these I think the the more advanced they are
+
+00:36:30.000 --> 00:36:36.000
+I think there's you know, pretty a question of and this was not something that did.
+
+00:36:36.000 --> 00:36:42.000
+But maybe we also want to look at the incubator, incubation exit, criteria, and see.
+
+00:36:42.000 --> 00:36:47.000
+If there's any other things here that might be good questions to include
+
+00:36:47.000 --> 00:36:51.000
+That would also tell us where the projects are currently being incubated, whether or not.
+
+00:36:51.000 --> 00:36:59.000
+It's is getting close to to being something that they would request to go active
+
+00:36:59.000 --> 00:37:08.000
+So yeah, I don't think this is a one time, thing I think you know the the problem that we have is that once people fill it out they think they're done.
+
+00:37:08.000 --> 00:37:12.000
+But things change in the projects. Right new repos are added,
+
+00:37:12.000 --> 00:37:20.000
+You know, people, you know they may do things differently in the code, right.
+
+00:37:20.000 --> 00:37:25.000
+They. They may have changed some stuff some of these will definitely feel like they're static.
+
+00:37:25.000 --> 00:37:29.000
+But I think there is the the need for us to you know.
+
+00:37:29.000 --> 00:37:33.000
+Look at this ever so often and make sure that things are up to date
+
+00:37:33.000 --> 00:38:03.000
+Yeah, that's, how I'm thinking about it as well, so given that it's probably a good idea just to tie this up with the Quarterly report either Expend is, the section, where we do the the the yes, and no.
+
+00:38:05.000 --> 00:38:06.000
+Yeah
+
+00:38:06.000 --> 00:38:07.000
+Checklist, or link link to this from that section and We probably will clarify.
+
+00:38:07.000 --> 00:38:13.000
+What does require mean? what does not doing the require intel?
+
+00:38:13.000 --> 00:38:22.000
+Okay, but that just prevent me from graduating or there's other other consequences
+
+00:38:22.000 --> 00:38:32.000
+I yeah, I think, so 2 things, Jim, one on the Project reports.
+
+00:38:32.000 --> 00:38:33.000
+Yeah
+
+00:38:33.000 --> 00:38:50.000
+What I thought I'd do is replace the current section that we have that asked the yes, no questions and just replace it with a pointer to this document, so that people can check their project to make sure that it's up to date, right and then relate it to whether or
+
+00:38:50.000 --> 00:39:03.000
+Not a project has not completed or required step. I think that is the time at which we become a bit noisy with with them, as the Tlc, and we we say, when are you gonna do this I know I've seen that a lot.
+
+00:39:03.000 --> 00:39:12.000
+In the project reports, in the past, right where where it's been the case that hey?
+
+00:39:12.000 --> 00:39:30.000
+A particular project hasn't completed something maybe in the inclusive language statement or something, and and usually a question comes out right in that Project report, when in going to do it or why haven't you done this and I think that's still the appropriate type of steps for Us
+
+00:39:30.000 --> 00:39:44.000
+To be taking
+
+00:39:44.000 --> 00:39:45.000
+Alright,
+
+00:39:45.000 --> 00:39:48.000
+Yeah, cool. Sounds, good.
+
+00:39:48.000 --> 00:39:49.000
+Any other volunteers for anybody who would like to volunteer for any other projects.
+
+00:39:49.000 --> 00:40:00.000
+Yeah, I'll I'll do the far flat one
+
+00:40:00.000 --> 00:40:22.000
+Okay, thanks. Joe.
+
+00:40:22.000 --> 00:40:28.000
+Alright any other Volunteers? Anybody want to take on any of the other Projects
+
+00:40:28.000 --> 00:40:32.000
+I could be captive and Babel
+
+00:40:32.000 --> 00:40:37.000
+Alright and Bubble, okay
+
+00:40:37.000 --> 00:40:42.000
+Thanks. Peter.
+
+00:40:42.000 --> 00:40:51.000
+Anyone else.
+
+00:40:51.000 --> 00:41:03.000
+No, okay. Great, so the dot, the the link is now editable, so if you do open it again, you should be able to see that you can edit it I have nothing else on the agenda for today.
+
+00:41:03.000 --> 00:41:14.000
+Does anybody else have anything they would like to bring up
+
+00:41:14.000 --> 00:41:15.000
+Yes, a tab.
+
+00:41:15.000 --> 00:41:18.000
+In terms of logistics. What was the idea to create a tab for each project, or a column a tab
+
+00:41:18.000 --> 00:41:19.000
+Okay.
+
+00:41:19.000 --> 00:41:32.000
+Which is just basically a copy of the template
+
+00:41:32.000 --> 00:41:41.000
+Alright any other topics for discussion today.
+
+00:41:41.000 --> 00:41:49.000
+No. Okay. Well, then, I appreciate that
+
+00:41:49.000 --> 00:41:54.000
+I maybe just one comment before I let you guys go. I know you guys are all excited ready, hit that late.
+
+00:41:54.000 --> 00:42:16.000
+But the the the Tsc I think we said this last time, the Poc election is currently in the hand of the Governing Board so We're Expecting results Back from that in a week, probably early, next week, I think is is the Timeline for that so we will let people.
+
+00:42:16.000 --> 00:42:24.000
+Know, once those results are final, as far as the the new, tlc that's coming in one of the things I was thinking.
+
+00:42:24.000 --> 00:42:37.000
+We might do for a toc call next week is if we do have the results potentially, we'll get some of the new joiners to come in and we could potentially have a discussion on you know a transition.
+
+00:42:37.000 --> 00:42:58.000
+Type, discussion, where the people who are leaving the the Toc would you know, provide some thoughts and insights into things that they've done, and I would like to you, see maybe being continued in the next year, and then maybe some, input from the new tlc members as far as what it, is that
+
+00:42:58.000 --> 00:43:01.000
+They'd like to accomplish in the next year.
+
+00:43:01.000 --> 00:43:07.000
+So I'll look for when when the final results actually come in.
+
+00:43:07.000 --> 00:43:08.000
+If it shows up in time or not. But that's that's kind of the Current Thinking and kind of What's happening with the Tlc election
+
+00:43:08.000 --> 00:43:20.000
+That's
+
+00:43:20.000 --> 00:43:21.000
+Alright so that's all I have. Jim, you did come off.
+
+00:43:21.000 --> 00:43:22.000
+And did you have a question?
+
+00:43:22.000 --> 00:43:29.000
+No, I was ready to say, thanks to Chase
+
+00:43:29.000 --> 00:43:30.000
+Alright great Yeah, so that's it. I will let you guys actually hit the leave button.
+
+00:43:30.000 --> 00:43:34.000
+Now that thanks again for your thoughts on your discussion today.
+
+00:43:34.000 --> 00:43:42.000
+Thanks.Thank you.
+

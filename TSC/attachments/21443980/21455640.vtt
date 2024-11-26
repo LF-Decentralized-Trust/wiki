@@ -1,0 +1,1542 @@
+WEBVTT
+
+1
+00:00:18.720 --> 00:00:23.130
+Tracy Kuhrt: So welcome everyone to the February 17 PSC call.
+
+2
+00:00:25.080 --> 00:00:37.890
+Tracy Kuhrt: As you all are aware, we have to abide by the NHS policy notice, which is currently displayed on the screen and, of course, the code of conduct, which is linked in the agenda.
+
+3
+00:00:38.820 --> 00:00:48.630
+Tracy Kuhrt: don't be a jerk and yeah so as far as announcements these announcements are announcements that we've had on the list before.
+
+4
+00:00:49.230 --> 00:01:01.500
+Tracy Kuhrt: The Dev weekly developer newsletter goes out each Friday, if you have something you'd like to include please click on the link in the agenda and leave a comment in that wiki page.
+
+5
+00:01:02.700 --> 00:01:11.370
+Tracy Kuhrt: The second thing is that we still have the call for mentors and projects going on for the 2022 mentorship program So if you have.
+
+6
+00:01:11.910 --> 00:01:27.090
+Tracy Kuhrt: Anything that you'd like to have considered for inclusion in that program Please submit a project proposal, the timeline is linked here in the agenda, as well as well as guidelines for the actual project proposals.
+
+7
+00:01:28.590 --> 00:01:32.730
+Tracy Kuhrt: So with that are there any other announcements that anybody on the call would like to make.
+
+8
+00:01:42.750 --> 00:01:49.740
+Tracy Kuhrt: Okay, no so we did actually end up getting the bevel report come in, when I had.
+
+9
+00:01:50.520 --> 00:02:04.200
+Tracy Kuhrt: Put the agenda together, it was still in draft form and there was no contents, but I did notice this morning that there was finally contents there, so I have included the link here just this morning, so i'm sure, a number of us haven't looked at it yet.
+
+10
+00:02:05.490 --> 00:02:14.040
+Tracy Kuhrt: Please take the time to review that i'll leave it on the agenda for next week for us to provide any additional thoughts or feedback.
+
+11
+00:02:14.430 --> 00:02:25.350
+Tracy Kuhrt: I did not see any specific thoughts or feedback on the quarterly report as of this morning, but if there's anything that anybody would like to bring up now is your time.
+
+12
+00:02:33.810 --> 00:02:36.630
+Tracy Kuhrt: Okay, no hands, nobody coming off mute.
+
+13
+00:02:37.680 --> 00:02:51.240
+Tracy Kuhrt: So let's go ahead and move on to the discussion topics, so the DCI working group has put together a proposal I think they're ready to talk about it, at least, based on the chats that we had.
+
+14
+00:02:54.060 --> 00:03:10.140
+Tracy Kuhrt: In rocket chat a couple weeks back where they look like they were ready to have this on the agenda so Peter or grace i'm not sure which one of you would like to talk about the proposal and what we'd like to do with this proposal, moving forward.
+
+15
+00:03:16.290 --> 00:03:17.730
+Grace Hartley: Peter feel free to jump in.
+
+16
+00:03:19.500 --> 00:03:22.860
+Grace Hartley: i'm trying to remember the last time we talked to the tsp about this.
+
+17
+00:03:24.090 --> 00:03:34.230
+Grace Hartley: But essentially the DC working group basically came up with a proposal on inclusive may mean we had a few recommendations that we were hoping the gic to enact.
+
+18
+00:03:35.280 --> 00:03:36.090
+Grace Hartley: First, is just.
+
+19
+00:03:38.250 --> 00:03:42.390
+Grace Hartley: Recommendation one is all hype Roger projects and labs just update their.
+
+20
+00:03:43.170 --> 00:03:54.930
+Grace Hartley: contributor documentation to have a statement referencing encouraging inclusive language and we provided the suggestion there below the second is changing.
+
+21
+00:03:55.890 --> 00:04:14.460
+Grace Hartley: Making a couple of specific language changes to their projects specifically master to mean slave replica is backwards to denial is waitlist your hours and then third one, is using the DCI one tool to help implement some of these changes which i'll let Peter speak to in a moment.
+
+22
+00:04:16.020 --> 00:04:21.060
+Grace Hartley: And then the fourth one which is probably not relevant, at this point, now that i'm thinking about is.
+
+23
+00:04:22.140 --> 00:04:25.860
+Grace Hartley: If there was the project budget proposal went through which it has not.
+
+24
+00:04:27.300 --> 00:04:31.980
+Grace Hartley: We would include that as well, but um be so, and then the request, just to.
+
+25
+00:04:33.660 --> 00:04:40.590
+Grace Hartley: From the last time if i'm remembering correctly was you know just having an idea around how we would implement this.
+
+26
+00:04:41.760 --> 00:04:47.190
+Grace Hartley: Across the projects, so we have a few ideas below if you don't mind scrolling down on more.
+
+27
+00:04:50.460 --> 00:04:54.810
+Grace Hartley: So one is conducting a maintain or onboarding session.
+
+28
+00:04:56.130 --> 00:05:12.540
+Grace Hartley: to train them on the best practices around the language, the second is of course sharon's proposal in several forums, the third is adding to the quarterly report template the question of implemented these inclusive language changes listed below.
+
+29
+00:05:14.130 --> 00:05:20.940
+Grace Hartley: And then same thing, adding to the quarterly report tempo Have you had an inclusive language statement to your projects documentation.
+
+30
+00:05:24.060 --> 00:05:32.880
+Grace Hartley: I think that's in Peters you want to just speak to I think the DC I went to the last time we spoke with them wasn't fully ready and it's it's now for ready is that Is that correct.
+
+31
+00:05:34.260 --> 00:05:35.040
+Peter Somogyvari: yeah.
+
+32
+00:05:37.110 --> 00:05:39.930
+Peter Somogyvari: Food during the day silent and i'll just say that.
+
+33
+00:05:41.280 --> 00:05:49.950
+Peter Somogyvari: it's also just recommendation, you could use an order to it doesn't really matter as long as the job done and.
+
+34
+00:05:51.660 --> 00:05:58.830
+Peter Somogyvari: The other thing I wanted to mention is that if you do go with the sea island then you're not alone in the sense that.
+
+35
+00:06:00.450 --> 00:06:04.650
+Peter Somogyvari: He formed a task force within the DCI burger.
+
+36
+00:06:05.670 --> 00:06:11.280
+Peter Somogyvari: And I volunteered to be on a task force to do main two things one is.
+
+37
+00:06:12.690 --> 00:06:15.570
+Peter Somogyvari: track adoption and also.
+
+38
+00:06:16.800 --> 00:06:21.480
+Peter Somogyvari: Specifically volunteer to answer questions and try to help people out if they.
+
+39
+00:06:22.800 --> 00:06:27.390
+Peter Somogyvari: did decide to use the tool but they're having trouble than.
+
+40
+00:06:28.500 --> 00:06:35.940
+Peter Somogyvari: I wanted to make sure it is known that I wanted some time to specifically help those projects out myself.
+
+41
+00:06:44.970 --> 00:06:45.330
+Peter Somogyvari: alright.
+
+42
+00:06:45.510 --> 00:06:54.660
+Tracy Kuhrt: Thanks Peter and grace for reminding us of the recommendation for coming back to us with the.
+
+43
+00:06:57.810 --> 00:07:07.290
+Tracy Kuhrt: The implementation proposal steps that we'd asked for in our last meeting so Are there any comments or questions.
+
+44
+00:07:08.610 --> 00:07:10.710
+Tracy Kuhrt: Before I jump in with a comment.
+
+45
+00:07:17.190 --> 00:07:30.060
+Tracy Kuhrt: Alright, so I think my comment is around the DCI lint tool I think if i'm not mistaken, the intention is to make that optional to use it.
+
+46
+00:07:31.080 --> 00:07:40.560
+Tracy Kuhrt: It sounds like that is the case, based on the conversation here i'm not quite sure that I see that that's an optional.
+
+47
+00:07:43.650 --> 00:07:46.260
+Tracy Kuhrt: In the in the actual recommendations.
+
+48
+00:07:49.020 --> 00:08:01.680
+Tracy Kuhrt: Maybe i'm miss reading it, but it's just that's the one concern that I think most people have is they don't want to be forced to use specific tools to accomplish their task.
+
+49
+00:08:07.980 --> 00:08:23.490
+Peter Somogyvari: I would say the way we talked about it, maybe it's not phrase perfectly that way in the proposal, but in our discussion in the group but it say that everyone's welcome to use whatever they have.
+
+50
+00:08:26.520 --> 00:08:29.370
+Peter Somogyvari: That would be my opinion and how I remember.
+
+51
+00:08:33.720 --> 00:08:34.050
+Tracy Kuhrt: Okay.
+
+52
+00:08:34.650 --> 00:08:36.270
+Tracy Kuhrt: So yeah I.
+
+53
+00:08:37.770 --> 00:08:40.710
+Tracy Kuhrt: mean all the recommendations we recommend.
+
+54
+00:08:44.460 --> 00:08:53.220
+Tracy Kuhrt: That you know something happens and I just know that that is, it seems like a strong phrasing right, given that we want to.
+
+55
+00:08:54.720 --> 00:09:00.000
+Tracy Kuhrt: allow them to do whatever is right for their specific repository.
+
+56
+00:09:01.380 --> 00:09:13.710
+Tracy Kuhrt: Now, Peter remind me vpn tool, I think, if I remember correctly, you had put together some instructions on how to put together github action surrounding that is that right.
+
+57
+00:09:15.900 --> 00:09:19.770
+Peter Somogyvari: Yes, that was the last piece of the puzzle that took the longest.
+
+58
+00:09:20.850 --> 00:09:25.680
+Peter Somogyvari: That now it is linked to within the proposal document itself is all.
+
+59
+00:09:27.510 --> 00:09:28.650
+Peter Somogyvari: readily accessible.
+
+60
+00:09:29.640 --> 00:09:29.910
+Okay.
+
+61
+00:09:36.300 --> 00:09:39.420
+Tracy Kuhrt: Any other comments or concerns with this.
+
+62
+00:09:39.480 --> 00:09:42.630
+Tracy Kuhrt: proposal that has been put forth by the DC I work.
+
+63
+00:09:46.140 --> 00:09:47.730
+Ry Jones: I just have a question.
+
+64
+00:09:49.260 --> 00:10:01.440
+Ry Jones: Has this tool been run broadly against hyper ledger and how far off are we as a whole from being compliant with recommendations.
+
+65
+00:10:06.660 --> 00:10:17.130
+Peter Somogyvari: We have not read against all the projects, it has been running on cactus for several months now.
+
+66
+00:10:18.270 --> 00:10:18.450
+Peter Somogyvari: It.
+
+67
+00:10:20.370 --> 00:10:32.880
+Peter Somogyvari: took some time in the beginning to fix the mornings, but it's been chugging along ever since then, so I will say that at least based on that it appears to be stable.
+
+68
+00:10:33.900 --> 00:10:36.750
+Peter Somogyvari: I do not have any numbers about.
+
+69
+00:10:38.070 --> 00:10:41.160
+Peter Somogyvari: How many projects would have how many.
+
+70
+00:10:43.020 --> 00:10:46.620
+Peter Somogyvari: Errors would take errors or linton warnings that we.
+
+71
+00:10:47.670 --> 00:10:49.710
+Peter Somogyvari: instituted on all projects.
+
+72
+00:10:51.840 --> 00:10:53.040
+Ry Jones: Okay, that was just a.
+
+73
+00:10:54.270 --> 00:10:59.220
+Ry Jones: casual interest if the data doesn't exist that's totally fine.
+
+74
+00:11:03.930 --> 00:11:08.610
+Peter Somogyvari: If that helps with the decision I would also be okay with.
+
+75
+00:11:09.810 --> 00:11:14.760
+Peter Somogyvari: scripting it so that it doesn't include the project so there's We already have a lot of tools that.
+
+76
+00:11:16.740 --> 00:11:22.590
+Peter Somogyvari: That you showed me right, so that could be done, as well as the TC numbers thing that that helps.
+
+77
+00:11:25.200 --> 00:11:27.660
+Ry Jones: I think it might be.
+
+78
+00:11:29.070 --> 00:11:37.290
+Ry Jones: more productive to file a request on the Community fx Dev.
+
+79
+00:11:39.570 --> 00:11:48.300
+Ry Jones: To have those types of statistics reported directly in ill effects, so that you know the projects don't have to do anything, the report does exist.
+
+80
+00:11:49.410 --> 00:11:56.520
+Ry Jones: But I would not gate any decision to the tasc makes on either of those that was just my idol interest not.
+
+81
+00:11:57.840 --> 00:11:58.470
+Ry Jones: anything more.
+
+82
+00:12:04.410 --> 00:12:04.740
+Tracy Kuhrt: Oh.
+
+83
+00:12:04.980 --> 00:12:10.590
+Arnaud J Le Hors (IBM): yeah yeah I think right is probably a right there, I would agree with them, I mean.
+
+84
+00:12:11.550 --> 00:12:23.280
+Arnaud J Le Hors (IBM): You know it doesn't mean we're going to get into policing every project and stop beating on the head, but you know the easiest we make it easier, we make it the better right.
+
+85
+00:12:24.060 --> 00:12:36.840
+Arnaud J Le Hors (IBM): So if we just do that as a background task and have that information available, and we can point out, maybe the project will be that much closer to following.
+
+86
+00:12:41.640 --> 00:12:49.050
+Tracy Kuhrt: And is that something that we think needs to be done before we approve this particular proposal or.
+
+87
+00:12:50.100 --> 00:12:51.390
+Tracy Kuhrt: Is that we're suggesting no.
+
+88
+00:12:51.750 --> 00:13:04.110
+Arnaud J Le Hors (IBM): No, no, no, I think it's really more a matter of how we implement it and you know, I think, having it done for the projects is probably.
+
+89
+00:13:04.950 --> 00:13:21.690
+Arnaud J Le Hors (IBM): What will lead to the best outcome in a short time, I mean we've seen with other things like you know the common repository structure it takes a long time to get the project to get their act together, so I think he's just remaking, the better.
+
+90
+00:13:22.890 --> 00:13:23.130
+Tracy Kuhrt: yeah.
+
+91
+00:13:26.220 --> 00:13:28.860
+Tracy Kuhrt: um any other comments on the proposal.
+
+92
+00:13:41.700 --> 00:13:47.400
+Tracy Kuhrt: Did anybody have any concerns before I asked for emotion, but the server.
+
+93
+00:13:51.660 --> 00:13:56.340
+Arnaud J Le Hors (IBM): So I was actually going to say does anybody see any downside, you know.
+
+94
+00:13:56.400 --> 00:13:57.540
+Arnaud J Le Hors (IBM): Thank you very much.
+
+95
+00:13:58.830 --> 00:14:16.260
+Arnaud J Le Hors (IBM): I don't that's why i'm bringing it up, obviously I think it's it's it's you know can only help, and we should just do it, it doesn't cost much it's not that a huge burden on anybody, and it makes the world that have been a better place so i'm all for it.
+
+96
+00:14:18.930 --> 00:14:22.980
+Hart Montgomery: So, to be clear, the proposal is just to implement these four bullet points.
+
+97
+00:14:30.090 --> 00:14:31.950
+Tracy Kuhrt: I believe that's the case yes.
+
+98
+00:14:34.290 --> 00:14:35.460
+Hart Montgomery: Perfect thanks Tracy.
+
+99
+00:14:40.050 --> 00:14:47.340
+Aruna S M: sort of necessary traits and since we're talking about policing and I mean How far do we as a.
+
+100
+00:14:48.240 --> 00:15:04.020
+Aruna S M: Technical steering committee take responsibility for what's happening within the project so sure we can propose this to every project and then say hey go ahead and let's hear out a proposal here is a proposal that came in from it's it's follows these DCI working group.
+
+101
+00:15:05.070 --> 00:15:06.780
+Aruna S M: Recommendations of a word.
+
+102
+00:15:07.800 --> 00:15:15.000
+Aruna S M: Do you think we should also put up in our governance document saying that we do our best.
+
+103
+00:15:16.080 --> 00:15:33.300
+Aruna S M: To avoid certain cases and then here is the proposal that we have put up and if you see any issues, please do reach out to us and we will be happy to work through with them you think we need to put up a note, or something like that in our governance document.
+
+104
+00:15:38.940 --> 00:15:39.720
+Tracy Kuhrt: um.
+
+105
+00:15:40.740 --> 00:15:49.560
+Tracy Kuhrt: So I guess The thing is, is our code of conduct kind of covers a lot of this already.
+
+106
+00:15:50.940 --> 00:15:54.240
+Tracy Kuhrt: I mean it doesn't specifically call out diversity.
+
+107
+00:15:55.260 --> 00:16:11.190
+Tracy Kuhrt: In the Code of Conduct per se, but it does talk about never discriminating on the basis of personal characteristics or group membership, the harassing never harassing communicating constructively right, so I think there's already.
+
+108
+00:16:12.840 --> 00:16:30.870
+Tracy Kuhrt: Good sort of governance documentation around this already based on what we already have, I think this is more towards let's bring this not only into our meetings but let's bring it into our code in our.
+
+109
+00:16:32.820 --> 00:16:35.070
+Tracy Kuhrt: into our repositories as we.
+
+110
+00:16:36.390 --> 00:16:51.090
+Tracy Kuhrt: help to try to bring in new contributors as well right to to show that you know we're not in some way, shape or form using terms in our code that will go against the code of conduct that we do have.
+
+111
+00:17:04.050 --> 00:17:09.090
+Tracy Kuhrt: All right, any any concerns or shall we.
+
+112
+00:17:10.470 --> 00:17:12.900
+Tracy Kuhrt: see if we can have emotion, to bring this to a vote.
+
+113
+00:17:18.420 --> 00:17:18.870
+Tracy Kuhrt: angel.
+
+114
+00:17:20.490 --> 00:17:20.820
+Angelo De Caro: yeah.
+
+115
+00:17:22.740 --> 00:17:23.400
+Angelo De Caro: Sorry, everyone.
+
+116
+00:17:24.720 --> 00:17:26.910
+Angelo De Caro: Joining very late very late today.
+
+117
+00:17:28.230 --> 00:17:37.020
+Angelo De Caro: I was this something that task and also last time in the point is that the English is not the, the only language spoken on Planet Earth.
+
+118
+00:17:38.430 --> 00:17:47.790
+Angelo De Caro: i'm wondering if inclusion means also that we should suggest recommend that the documentation is is translated in Chinese in Spanish.
+
+119
+00:17:48.300 --> 00:17:55.650
+Angelo De Caro: In in many as many languages as as possible, because to me that also seems very necessary.
+
+120
+00:17:56.370 --> 00:18:04.230
+Angelo De Caro: To to expand the Community so because not everyone is is fluent in English or might not even understand.
+
+121
+00:18:04.590 --> 00:18:13.110
+Angelo De Caro: i'm not a, for example on a native speaker so I might not understand an episode I don't understand all the different all the subtleties.
+
+122
+00:18:13.680 --> 00:18:30.570
+Angelo De Caro: Am I might understand them in Italian because that's my mother's phone, but I would I would suggest definitely to a more translations and more languages so that everybody can feel more comfortable with the language that is the mother tongue, for that first.
+
+123
+00:18:31.890 --> 00:18:33.420
+Angelo De Caro: majestic just my two cents.
+
+124
+00:18:34.350 --> 00:18:39.030
+Tracy Kuhrt: yeah thanks Angela I do remember you bringing this up last time that we talked about this as well.
+
+125
+00:18:40.380 --> 00:18:52.230
+Tracy Kuhrt: Anything I in it obviously brought up some some things because we seem to have lots of hands going up right now, so thank you for bringing up something that's going to start this discussion up Nathan.
+
+126
+00:18:53.070 --> 00:19:03.210
+Nathan George: Oh, I just wanted to echo the sentiment that it's a great thought and I like the idea that be encouraged the translations and and, hopefully, we have some some.
+
+127
+00:19:04.440 --> 00:19:12.840
+Nathan George: organization or facility to try to make that easy for the projects to do, but as the primary volunteer driven organization, the question is just who right.
+
+128
+00:19:13.620 --> 00:19:22.260
+Nathan George: Where when we have a dictionary of terms like what we have in this in this proposal it's fairly easy to say you should have looked at the dictionary pick your terms, based on things that we've learned.
+
+129
+00:19:23.010 --> 00:19:33.420
+Nathan George: that's a fairly easy recommendation it's not a big it's not we're not asking for a lot of work that the team is not capable of, but when we say you've got to translate your documentation to Chinese that.
+
+130
+00:19:33.930 --> 00:19:44.100
+Nathan George: Frankly, a lot of the teams, they wouldn't know where to start and they'd be happy to help or facilitate someone doing so, but they don't really have any gauge or measure to be able to just the quality of any of that work.
+
+131
+00:19:44.880 --> 00:19:45.750
+Tracy Kuhrt: Right right.
+
+132
+00:19:49.590 --> 00:19:54.870
+Hart Montgomery: yeah, so I think this is an excellent point I know this is something that is being looked at.
+
+133
+00:19:56.100 --> 00:20:01.170
+Hart Montgomery: By the staff in terms of what what is possible and what we should do for translation.
+
+134
+00:20:02.220 --> 00:20:17.550
+Hart Montgomery: So this is definitely an issue, and when we want to dress but to ECHO nathan's point these sort of criteria here are very easy to implement, whereas translation, you know, requires a huge amount of work.
+
+135
+00:20:24.750 --> 00:20:27.480
+Jim Zhang: yeah thanks Tracy I definitely agree.
+
+136
+00:20:29.070 --> 00:20:43.860
+Jim Zhang: If from from the English speaking world, this is, I think the concern is more concentrated in the English speaking world you know, I was there, everybody should have the background.
+
+137
+00:20:45.420 --> 00:20:51.900
+Jim Zhang: And, to me it seems to be the right way to proceed if we leave this to the.
+
+138
+00:20:53.010 --> 00:20:59.670
+Jim Zhang: To the community leaders in different cultures and different countries, to see if this is enough of a concern.
+
+139
+00:21:00.120 --> 00:21:11.820
+Jim Zhang: To their audience and then they will have seen how this is done for the English content, then there's a new good precedent for how this is taken care of and then they can bring forward.
+
+140
+00:21:13.140 --> 00:21:17.310
+Jim Zhang: corresponding measures to to content in their language.
+
+141
+00:21:18.750 --> 00:21:23.280
+Jim Zhang: Basically, in summary, we should leave it as English only for now.
+
+142
+00:21:27.780 --> 00:21:28.320
+Jim Zhang: Okay.
+
+143
+00:21:28.350 --> 00:21:29.520
+Tracy Kuhrt: yeah I think.
+
+144
+00:21:30.570 --> 00:21:43.800
+Tracy Kuhrt: Just just to be clear and Angela you can correct me if I get this wrong my understanding Angela was not that you wanted this particular these particular recommendations translated so much as you want it.
+
+145
+00:21:45.870 --> 00:21:52.530
+Tracy Kuhrt: You want it more diversity in the documentation that we currently have across the different projects.
+
+146
+00:21:53.880 --> 00:21:56.280
+Tracy Kuhrt: Now, if I got that wrong, please let me know Angelo.
+
+147
+00:21:57.960 --> 00:21:58.500
+Tracy Kuhrt: David.
+
+148
+00:22:03.480 --> 00:22:04.050
+David Boswell: i'm.
+
+149
+00:22:04.890 --> 00:22:05.760
+still done what.
+
+150
+00:22:06.780 --> 00:22:09.930
+David Boswell: saying I absolutely agree, you know we are on a planet where people speak all sorts of.
+
+151
+00:22:12.810 --> 00:22:18.150
+David Boswell: English is only a small percentage of the people in the world, we want to connect with so.
+
+152
+00:22:18.840 --> 00:22:27.240
+David Boswell: I think it is separate from this particular proposal, but just you know, offering if there is a project that's interested in translation, you know we haven't formalized exactly what.
+
+153
+00:22:27.630 --> 00:22:33.840
+David Boswell: That looks like as like a project service, for example, but we are here to help so just reach out if you're interested in translations.
+
+154
+00:22:36.720 --> 00:22:37.200
+Tracy Kuhrt: Angelo.
+
+155
+00:22:38.400 --> 00:22:44.580
+Angelo De Caro: Maybe they'll ask me, I must say that it's more a moose if I intervene and decide, in this case is that.
+
+156
+00:22:45.090 --> 00:22:59.040
+Angelo De Caro: I press I don't really understand this moment or concert culture that the in the US seems to be very, very strong and that scares me a little bit type depression, if someone doesn't follow this do we do we cancel this project or.
+
+157
+00:22:59.370 --> 00:23:14.940
+Angelo De Caro: I hope we don't do anything like this we don't go and say, if you don't follow this Rule you are cancelled or we try to do to make your life very hard, or something like this, or what I want to say let's try to see the best in the people and.
+
+158
+00:23:16.830 --> 00:23:19.590
+Angelo De Caro: I will, I will say that this should be the encouragement not.
+
+159
+00:23:20.310 --> 00:23:31.680
+Angelo De Caro: And I don't want to read this document there's something like we are ready to cancel you if you don't follow the rules that would scare me very, very much but maybe this is just my personal.
+
+160
+00:23:32.190 --> 00:23:45.690
+Angelo De Caro: psychological aspect and otherwise i'm very positive in being inclusive and try to make people feel better and be able to express their best that's again, I guess, this is what we all want from from our Community.
+
+161
+00:23:47.280 --> 00:23:51.510
+Tracy Kuhrt: yeah definitely enjoyed it I don't think we're in any way, shape or form saying.
+
+162
+00:23:51.660 --> 00:23:58.110
+Tracy Kuhrt: You know we're going to cancel Ray we've never we've never canceled a project based on the fact that they didn't.
+
+163
+00:23:59.280 --> 00:24:04.590
+Tracy Kuhrt: You know, follow the common repository structure, I would strongly encourage them that that's probably what they should do.
+
+164
+00:24:05.640 --> 00:24:17.790
+Tracy Kuhrt: To to work well with the Community and to ensure that people know where they can go look for things like how do they contribute to, or who are the main haters or Whatever the case may be so.
+
+165
+00:24:18.690 --> 00:24:36.030
+Tracy Kuhrt: Yes, I would agree that you know we we we want to encourage us because you know we want people to feel welcome in our larger community, and we want people to feel like they belong here and that they can participate and and not have to worry about.
+
+166
+00:24:37.710 --> 00:24:51.900
+Tracy Kuhrt: You know who they are in, they can bring their full selves to the Community, so I think that's more the lines of what we're trying to accomplish here is it's just really you know, making this feel like a place where you belong.
+
+167
+00:24:59.490 --> 00:25:08.850
+Tracy Kuhrt: All right, any other concerns I haven't really heard any major concerns over the implementation proposal here that's in front of us.
+
+168
+00:25:15.870 --> 00:25:19.230
+Tracy Kuhrt: Alright, would anybody, like to make a motion to vote on this.
+
+169
+00:25:22.770 --> 00:25:23.310
+Peter Somogyvari: I will.
+
+170
+00:25:25.710 --> 00:25:26.850
+Tracy Kuhrt: All right, thanks, Peter.
+
+171
+00:25:27.240 --> 00:25:28.050
+Do we have a second.
+
+172
+00:25:31.980 --> 00:25:32.190
+Tracy Kuhrt: Thanks.
+
+173
+00:25:34.530 --> 00:25:36.720
+Tracy Kuhrt: um yeah so.
+
+174
+00:25:39.000 --> 00:25:45.840
+Tracy Kuhrt: i'm not sure if we need to do a roll call vote here does anybody think that we need to do a roll call vote here.
+
+175
+00:25:49.530 --> 00:25:52.470
+Tracy Kuhrt: Alright, so let's let's start with this does anybody.
+
+176
+00:25:54.750 --> 00:25:56.460
+Tracy Kuhrt: opposed the proposal at hand.
+
+177
+00:26:03.630 --> 00:26:07.050
+Tracy Kuhrt: Anybody want to abstain from voting on the proposal.
+
+178
+00:26:11.490 --> 00:26:18.150
+Tracy Kuhrt: Alright, so i'm going to assume, but I should say I anyway, that you agree with this proposal, we will.
+
+179
+00:26:19.260 --> 00:26:22.890
+Tracy Kuhrt: put these things in place to implement this proposal, please say Aye.
+
+180
+00:26:24.420 --> 00:26:24.960
+Danno Ferrin: Aye.
+
+181
+00:26:25.980 --> 00:26:26.370
+Bobbi Muscara: hi.
+
+182
+00:26:26.880 --> 00:26:28.140
+Troy Ronda: hi hi.
+
+183
+00:26:29.670 --> 00:26:30.120
+Troy Ronda: hi.
+
+184
+00:26:32.190 --> 00:26:36.270
+Tracy Kuhrt: All right, I for me as well to this this proposal passes.
+
+185
+00:26:37.620 --> 00:26:46.140
+Tracy Kuhrt: With whoever it is that we have on the call and metro we have everybody on the call or not, but it does pass with the right number of folks here so.
+
+186
+00:26:48.150 --> 00:27:01.470
+Tracy Kuhrt: The next item on the list here is an update on the workshops that the areas in the communities had so i'm Sean I think you added this is this yours to cover.
+
+187
+00:27:01.830 --> 00:27:02.880
+Sean Bohan: Yes, thanks Tracy.
+
+188
+00:27:04.590 --> 00:27:05.640
+Ry Jones: You want to give him.
+
+189
+00:27:08.580 --> 00:27:09.900
+Sean Bohan: yeah I can share my screen, if you want.
+
+190
+00:27:22.470 --> 00:27:24.390
+Sean Bohan: Okay, everybody can see the screen.
+
+191
+00:27:25.470 --> 00:27:32.130
+Sean Bohan: This is a quick update for the tasc on some of the work the Community architecture team has been doing around workshops this year.
+
+192
+00:27:34.470 --> 00:27:36.930
+Sean Bohan: Basically, our goals with this.
+
+193
+00:27:38.220 --> 00:27:46.950
+Sean Bohan: The committee architecture team supports the projects, but also part of our role is to bring in new contributors and get them introduced to projects and get them hands on.
+
+194
+00:27:48.060 --> 00:27:53.940
+Sean Bohan: We our goal with these workshops is to test the concept, the content and the partnership model.
+
+195
+00:27:54.390 --> 00:28:05.790
+Sean Bohan: We wanted to find best practices for future workshops, we do want to introduce new contributors to hyper ledger and while that should be the primary goal selfishly we want to test the concept and make sure this thing works and how we want to change it.
+
+196
+00:28:06.510 --> 00:28:15.330
+Sean Bohan: We want to educate new contributors on the technical details of areas in indy and grow that pipeline of contributors to areas and indie and then optimize the concept for other projects.
+
+197
+00:28:16.620 --> 00:28:22.560
+Sean Bohan: My end state goal would be all the projects form a nice orderly line in the hallway we can get them their own workshop.
+
+198
+00:28:23.760 --> 00:28:25.530
+Sean Bohan: The format of these workshops.
+
+199
+00:28:26.640 --> 00:28:37.890
+Sean Bohan: Were for our zoom workshops with breaks at the top of every hour there was a wiki page setup prerequisites office hours and handouts provided for each one we also did an after action email.
+
+200
+00:28:38.850 --> 00:28:42.870
+Sean Bohan: which included links to the slides links to the video, if you want to watch it again.
+
+201
+00:28:43.710 --> 00:28:51.540
+Sean Bohan: And in the case of areas in indy links to find your first ticket with areas and indeed with the different sub projects we want to encourage folks.
+
+202
+00:28:51.930 --> 00:28:58.830
+Sean Bohan: who attended not just hey I went to a cool thing for four hours, but also we want to get them involved like create lots of little on ramps for them.
+
+203
+00:28:59.610 --> 00:29:06.840
+Sean Bohan: The chat was handled over rocket chat zoom and YouTube streaming we'll talk about that a little bit in a second.
+
+204
+00:29:07.740 --> 00:29:17.340
+Sean Bohan: Just overall the informative well presented and include interactions with the audience these both workshops were put on by indie CEO who are members of the hyper ledger foundation.
+
+205
+00:29:18.360 --> 00:29:21.000
+Sean Bohan: And they are active contributors to both areas and indeed.
+
+206
+00:29:22.020 --> 00:29:26.820
+Sean Bohan: The training was developer focused, but it contained a lot of business content, particularly upfront.
+
+207
+00:29:27.990 --> 00:29:36.240
+Sean Bohan: identity is hard, this is a common joke, and they did it Community but also we want to make sure that there's a ground again why we're doing this and why this work exists.
+
+208
+00:29:38.400 --> 00:29:42.660
+Sean Bohan: We need to have that context, any questions before I jump to the next slide.
+
+209
+00:29:44.730 --> 00:29:45.120
+Sean Bohan: Okay.
+
+210
+00:29:46.230 --> 00:29:57.810
+Sean Bohan: So overall results, the area's workshop occurred on January 20 we had 299 registrants we had 170 whitelisted we have 130 813 attendees.
+
+211
+00:29:58.290 --> 00:30:11.040
+Sean Bohan: Of that we had 615 live stream views, so the live stream views are 615 since the event happens so the day we probably had 25 people on YouTube live streaming watching, along with the folks who are on zoom.
+
+212
+00:30:12.660 --> 00:30:23.700
+Sean Bohan: The area's event generated 30 likes plus nine YouTube subscriptions to the hyper ledger channel on YouTube we had over 1000 wiki page views and 100 plus rocket chat joins in the days leading up to the event.
+
+213
+00:30:24.750 --> 00:30:33.540
+Sean Bohan: we'll talk a little bit about our takeaways in the second regarding that data but attribution is hard, particularly within the Linux foundation so we're working on ways to make this.
+
+214
+00:30:34.050 --> 00:30:39.630
+Sean Bohan: A more compelling story, and you see to the right areas chat channel history, this is data pulled from.
+
+215
+00:30:40.170 --> 00:30:51.630
+Sean Bohan: fx you know, the message volume went up specifically on that day with folks asking questions people joined lf ID they joined the rocket chat for areas to ask questions, while the event was happening, which was great.
+
+216
+00:30:52.560 --> 00:31:09.720
+Sean Bohan: indie which occurred on February 3 we had 377 registrants no waitlist, and the reason why we had a waitlist for areas and no waitlist for indie again we are testing the concept we wanted to keep the number of attendees manageable at 299 Reza registrations.
+
+217
+00:31:11.760 --> 00:31:21.390
+Sean Bohan: It felt like that was the right number when we got done with the area's event we sat down with in DC and we agreed just open up the the registration list let everyone join if they'd like.
+
+218
+00:31:21.960 --> 00:31:31.800
+Sean Bohan: We had 110 attendees 336 livestream views 25 likes for YouTube subscriptions 710 wiki page views and 70 plus rocket chat joints.
+
+219
+00:31:33.570 --> 00:31:44.070
+Sean Bohan: We did notice from the data and you look again to the right of the table the Channel, obviously, the message volume went up through the roof of that day of people asking questions about what was happening in the workshop.
+
+220
+00:31:45.180 --> 00:31:50.490
+Sean Bohan: There was overlap between the two events obviously so 87 indie registrants we're also registered for the areas workshop.
+
+221
+00:31:51.180 --> 00:31:59.040
+Sean Bohan: We are unable to tell you how many people have those 87 actually showed up, but we know from a registration perspective was there.
+
+222
+00:31:59.610 --> 00:32:09.480
+Sean Bohan: And the attendees we had great representation from independent developers multiple academic institutions Tata consulting services Accenture Bosch Siemens and Deutsche Telekom all showed up.
+
+223
+00:32:10.230 --> 00:32:16.650
+Sean Bohan: So it was a great group of folks asking great questions any questions on this slide before I jump.
+
+224
+00:32:18.570 --> 00:32:21.720
+Sean Bohan: cool next slide please oh wait i'm doing slide sorry.
+
+225
+00:32:23.130 --> 00:32:31.080
+Sean Bohan: Early feedback, thank you all for this extraordinary workshop i'm not going to read these but we had some great feedback from the hyper ledger Latin America regional chapter.
+
+226
+00:32:31.410 --> 00:32:37.110
+Sean Bohan: And that started a conversation with Community architecture and and the end co partners about what other languages, they could give this training in.
+
+227
+00:32:38.040 --> 00:32:54.090
+Sean Bohan: Siemens was was in attendance, they left a great comment, we are patiently checking github to see if I use actually doesn't commit for contributing to areas we're looking forward to that and a couple of Nice comments on the future of indie and the training.
+
+228
+00:32:55.890 --> 00:33:03.180
+Sean Bohan: Overall takeaways attributes that Linux Linux foundation is hard so someone registers for the events.
+
+229
+00:33:04.680 --> 00:33:17.400
+Sean Bohan: Do they join lf ID to get into rocket chat do they leave their comments in the zoom chat or in YouTube we are working with the maintainer to ID if there are workshop participants who become contributors, this is more of a.
+
+230
+00:33:18.450 --> 00:33:25.470
+Sean Bohan: Soft awareness thing like hey if you see somebody remember from the the event and they become contributes let's ask folks how did you find the end, how did you find areas.
+
+231
+00:33:26.040 --> 00:33:35.670
+Sean Bohan: We are doing a short five question after workshop survey going to the registrants this is part of the follow up email, which includes links to know the github and the wiki and find your first ticket.
+
+232
+00:33:36.840 --> 00:33:50.130
+Sean Bohan: I am in conversations with fit to see if we can identify registrants who then joined rocket chat I don't need to see lf ID i'm sorry fit I don't need to see the lf ids i'm asking.
+
+233
+00:33:51.330 --> 00:33:59.490
+Sean Bohan: It to just take a look at this list of email registrants that we have and tell me how many folks joined within you know, a week before or since the events.
+
+234
+00:34:00.660 --> 00:34:05.850
+Sean Bohan: We know larger groups of attendees are possible, the reason we originally kept the first event to 100 was wanting to be manageable.
+
+235
+00:34:06.570 --> 00:34:20.190
+Sean Bohan: Having someone in chat answering questions is critical to how these events, work and Sam current in the case of both areas and the India event was was available in rocket chat and was great knocking down questions, but we also saw.
+
+236
+00:34:21.480 --> 00:34:29.070
+Sean Bohan: Just Indian areas Community Members who were not at the event just pick it up questions and pointing folks to the right place, which is really great to see.
+
+237
+00:34:30.000 --> 00:34:36.420
+Sean Bohan: These were tests, we did very little marketing upfront to attract you know the couple of hundred people who attend to these events.
+
+238
+00:34:36.780 --> 00:34:44.760
+Sean Bohan: And DC to use some of their channels, I think we mentioned it on linkedin a couple of times, maybe once or twice on Twitter, again, we want to we're testing this out.
+
+239
+00:34:45.450 --> 00:34:52.020
+Sean Bohan: For forming format first and then we can really you know work on the marketing of how do we get more folks to attend and more folks to interested in this.
+
+240
+00:34:53.880 --> 00:35:00.480
+Sean Bohan: One thing I would note and i'm going to leave the link in zoom chat in a second when I get off the screen.
+
+241
+00:35:01.050 --> 00:35:09.240
+Sean Bohan: Sam curran did a Community engagement section at the start of the indie at the end of areas and, at the start of the indie workshop.
+
+242
+00:35:09.600 --> 00:35:20.220
+Sean Bohan: It was fantastic it really set the table for why not just why you're here to learn something but here's how open source works here's how your contribution, helps build this, we need your help.
+
+243
+00:35:20.640 --> 00:35:34.290
+Sean Bohan: And, and also talking about like the culture of hyper ledger and Linux foundation, the culture of open source after the areas event I requested from in DC of that they put sam's presentation at the start, and I think it was great, and it was really well received.
+
+244
+00:35:35.640 --> 00:35:48.810
+Sean Bohan: I mentioned before the fit event registration comparison our next workshop is happening in March, build your own nfc with hyper ledger fabric, this is for the historically black colleges and universities, this is a program that david's been spearheading.
+
+245
+00:35:50.070 --> 00:35:55.440
+Sean Bohan: we're really looking forward to this we're working with chain yard on the nfc with hyper ledger fabric workshop.
+
+246
+00:35:56.520 --> 00:36:09.150
+Sean Bohan: And we believe that after the first two, that this is a tactic, we want to continue to test optimize and as a joke before I would like to see all the projects for mortally line in the hallway so we can get them their own workshop any questions on this slide.
+
+247
+00:36:13.590 --> 00:36:13.890
+Sean Bohan: Okay.
+
+248
+00:36:13.950 --> 00:36:22.860
+Tracy Kuhrt: Now you're not gonna read it sure um I don't know that it's specifically question on this slide per se, but it seems like.
+
+249
+00:36:24.000 --> 00:36:44.640
+Tracy Kuhrt: These workshops were held, because the staff worked with maybe a member company or a company in the Community, who was interested in helping out to participate in and bring these workshops out to the larger audiences is like.
+
+250
+00:36:45.780 --> 00:36:57.270
+Tracy Kuhrt: i'm sure there's a lot of interest in hosting additional workshops what's the right way to do that, or to get involved or did you know volunteers, step up, whatever the right term is you want to use.
+
+251
+00:36:57.990 --> 00:37:12.840
+Tracy Kuhrt: But you know how to how to other projects say like hey this looks like it was a useful endeavor and i'd like to you know spend some time to put together a workshop with the Linux foundation and move forward from there.
+
+252
+00:37:13.200 --> 00:37:13.590
+So.
+
+253
+00:37:15.120 --> 00:37:17.820
+Sean Bohan: yeah i'll give a quick answer i'll let David way and.
+
+254
+00:37:20.070 --> 00:37:34.260
+Sean Bohan: We are working right now on meeting with the project on on a meeting with the maintainer is on a project by project basis to talk about ways that they can help grow their contributor base, and this is going to be depending on the project, one of the tactics that we put forward.
+
+255
+00:37:35.730 --> 00:37:44.640
+Sean Bohan: A smaller project may not be ready for this, so they may not have the components ready to go, whereas area areas in indy and fabric are ready.
+
+256
+00:37:44.970 --> 00:37:57.630
+Sean Bohan: And so we're going to be customized in that presentation to the projects but um but yeah we're we're going to be directly engaging the maintenance of the projects to talk about the effects of this, but also other things they can do David you had your hand raised.
+
+257
+00:37:59.160 --> 00:38:10.920
+David Boswell: yeah I was just going to give a little bit of history of where these came from both the Indian areas, one that we just wrapped up in the fabric one that's coming up, you know it really started with just a conversation with people involved in the project about what do you need.
+
+258
+00:38:11.490 --> 00:38:18.630
+David Boswell: And then you know we developed this on top of the you know, on top of the answers to the question so that would just be what I would encourage.
+
+259
+00:38:19.380 --> 00:38:26.850
+David Boswell: Anybody from any project or any lab to be thinking about you know what do you need, and then you can reach out to us and we can have a conversation in the case of Indian areas.
+
+260
+00:38:27.420 --> 00:38:33.900
+David Boswell: You know, we talked to Steve and we talked to a number of different containers, in particular, Stephen can was kind of the point person and.
+
+261
+00:38:34.440 --> 00:38:42.600
+David Boswell: You know the answer came down to we need more users, we need more contributors, so we you know and they had identified, you know onboarding as.
+
+262
+00:38:43.200 --> 00:38:51.270
+David Boswell: You know, a current roadblock and current barriers so you know, this is where the the genesis of these workshops came from similar to.
+
+263
+00:38:51.810 --> 00:39:05.730
+David Boswell: You know, as Sean said, the next fabric, a workshop is aimed at trying to help hbc use a debate we went to them and reached out and they said hey we're really interested in fabric, for example, we want to teach it in our classes, but.
+
+264
+00:39:06.240 --> 00:39:11.730
+David Boswell: to heart, and you know it's too much of a barrier right now for us to do that, what can you do to help us make it easier so.
+
+265
+00:39:13.290 --> 00:39:18.420
+David Boswell: You know if you're interested in tapping into the idea of a workshop or the idea of anything on project services.
+
+266
+00:39:19.140 --> 00:39:25.650
+David Boswell: Just thinking about what do you need, and you know that could be the starting point of a conversation, you know that to tie it back to you know what.
+
+267
+00:39:26.040 --> 00:39:33.180
+David Boswell: Angela was saying earlier, you know, maybe you don't necessarily Sara Lee need maybe your needs are different from India or areas, maybe you need translators.
+
+268
+00:39:33.180 --> 00:39:33.810
+Tracy Kuhrt: Instead of.
+
+269
+00:39:34.230 --> 00:39:42.030
+David Boswell: You know, users, for example, but you know we can you know work with you and put something together, you know that that does fit your needs.
+
+270
+00:39:43.470 --> 00:39:47.340
+David Boswell: And thank you to shawn for putting all that together and me and my big takeaway was that.
+
+271
+00:39:47.880 --> 00:39:55.830
+David Boswell: The demand for any any information about hyper ledger is strong as Shannon said we did very little marketing and filled up very quickly.
+
+272
+00:39:56.190 --> 00:40:05.850
+David Boswell: You know people want this want to learn about what hyper ledger is doing so, if you want to get out there, you know people want to hear what you have to say about your project.
+
+273
+00:40:07.620 --> 00:40:20.550
+David Boswell: And so it was just very encouraging that it was so easy to get people to just you know, step up and say hey i'm really interested in this even I was thinking who's gonna you know are people going to sit through you know four hours of content, and I mean yeah they did.
+
+274
+00:40:22.410 --> 00:40:28.140
+Sean Bohan: And one of the things that we noticed it wasn't just four hours of presentation is probably an hour and a half.
+
+275
+00:40:28.530 --> 00:40:37.560
+Sean Bohan: A presentation that a lot of hands on and then, all credit and kudos to the indie seo team who put together a really great event, one of the one of the bits of feedback we got.
+
+276
+00:40:39.090 --> 00:40:47.040
+Sean Bohan: You know, we asked everyone to go into rocket chat to leave their questions and comments they did office hours which really weren't really well attended.
+
+277
+00:40:47.310 --> 00:40:50.280
+Sean Bohan: And then you know the day of the event, people were asking questions that would have been.
+
+278
+00:40:50.850 --> 00:41:02.490
+Sean Bohan: You know, taking care of an office hours we're working on how do we really make sure office hours are fun front and Center as far as something you should do you want to participate, maybe four hours is too long, maybe we can break it out into two hour chunks.
+
+279
+00:41:03.990 --> 00:41:18.870
+Sean Bohan: It was kind of tough having you know zoom chat rocket chat and people leaving comments on the stream on YouTube but, even so, like we were copying pasting questions from YouTube into rocket chat getting answers bringing them back so folks were engaged, it was a really.
+
+280
+00:41:20.130 --> 00:41:21.210
+Sean Bohan: It was it was really good to see.
+
+281
+00:41:24.150 --> 00:41:33.510
+Sean Bohan: And I left a link in chat if you'd like to see Sam current it's roughly like a seven to 10 minute presentation on contribution and why you should be a part of this it's pretty good if you want to see it.
+
+282
+00:41:41.190 --> 00:41:57.420
+Aruna S M: And you will put the vision, so I asked on discord channel, so I like this idea of what Sam, this is it possible for us to ask some or maybe an office will go and prepare a template it paragraph that any other project can make use of and most of their calls.
+
+283
+00:42:05.460 --> 00:42:07.050
+Sean Bohan: i'm sorry room I got.
+
+284
+00:42:07.200 --> 00:42:09.840
+Sean Bohan: Some weird static on my line, could you ask that question again.
+
+285
+00:42:13.440 --> 00:42:14.310
+Aruna S M: i'm sorry let.
+
+286
+00:42:16.890 --> 00:42:18.990
+Aruna S M: me switch my Microsoft so, is it better now.
+
+287
+00:42:19.740 --> 00:42:20.190
+Sean Bohan: Much better.
+
+288
+00:42:21.030 --> 00:42:23.790
+Aruna S M: Okay, so I was hanging out I like the idea of what Sam did.
+
+289
+00:42:23.940 --> 00:42:34.980
+Aruna S M: And it would be nice if we can ask them to create a template at paragraph that we can share across with every other project, and we can ask them to presenters or maybe start with this in their meetings.
+
+290
+00:42:35.760 --> 00:42:42.720
+Aruna S M: And in their workshops in future, eventually, or maybe even if we out the recording we can do that as well.
+
+291
+00:42:43.410 --> 00:42:50.370
+Sean Bohan: yeah I mean if folks on the tsu want to take a look at it, I think you'll really like it it's specific to Indian areas, obviously, because.
+
+292
+00:42:50.760 --> 00:43:00.480
+Sean Bohan: within it, Sam goes over a little high level of like you know there's areas there's ursa there's indie here's the diff here's what's going on the w three see there's like a minute have sort of an ecosystem view.
+
+293
+00:43:00.990 --> 00:43:14.310
+Sean Bohan: But um yeah I don't see why we couldn't ask Sam to do a wise contribution important and share that with everyone might my goal in the takeaways and and the best practices document were writing up is for any workshop.
+
+294
+00:43:15.510 --> 00:43:25.620
+Sean Bohan: You know phase is going to do this we're attracting new people who, maybe, maybe know basie but they don't know hyper ledger they've never contribute to open source before we did have folks who are new to open source which was great.
+
+295
+00:43:26.430 --> 00:43:31.740
+Sean Bohan: This is the kind of thing that somebody in that project should present like why you want to be here, why you want to contribute.
+
+296
+00:43:32.790 --> 00:43:42.300
+Sean Bohan: I would love you know, Sam Sam does a great job and maybe we make him like a template we give to other projects and just inserted in there, but uh yeah definitely it's something that we want to do.
+
+297
+00:43:48.540 --> 00:43:52.620
+Tracy Kuhrt: Alright, thanks Sean for presenting that to us, I think it.
+
+298
+00:43:53.910 --> 00:44:05.400
+Tracy Kuhrt: will be really good to get some of the other projects doing workshops as well, so i'm looking forward to seeing those come through and being able to share them with my network, which I know I gave for.
+
+299
+00:44:06.660 --> 00:44:12.690
+Tracy Kuhrt: Both were both of the workshops, as well as the upcoming one so hoping everybody else has done that as well.
+
+300
+00:44:14.700 --> 00:44:28.260
+Tracy Kuhrt: Alright, so we do have one more topic of discussion on our list in the agenda, it is around just a follow up on discord I know i'm seeing some chats or any in discord.
+
+301
+00:44:29.130 --> 00:44:46.350
+Tracy Kuhrt: Related to not seeing a TC channel in rocket chat anymore, and those sorts of things, but what did you I guess hand it over to Ryan, for the moment, so that he can talk about kind of where we're at with discord and.
+
+302
+00:44:47.370 --> 00:44:53.940
+Tracy Kuhrt: And what what he's seeing, which I think is you know at least what i'm seeing is that there's a lot of engagement going on right now and discord.
+
+303
+00:44:56.970 --> 00:44:57.540
+Ry Jones: Thank you Tracy.
+
+304
+00:44:59.400 --> 00:45:02.370
+Ry Jones: i'm definitely seeing a lot more engagement on discord.
+
+305
+00:45:04.020 --> 00:45:10.320
+Ry Jones: One thing that I have tried to do in this handover or this transition is to.
+
+306
+00:45:11.460 --> 00:45:25.410
+Ry Jones: delegate the the ability to do things to the edge, which means the maintainer is of, say, the areas group there is channel there is project sorry have control over the channels, I have asked.
+
+307
+00:45:26.550 --> 00:45:31.470
+Ry Jones: In follow up emails that when people create channels, a they add a.
+
+308
+00:45:32.640 --> 00:45:33.600
+Ry Jones: They add a description.
+
+309
+00:45:34.890 --> 00:45:44.850
+Ry Jones: And it also makes our lives easier Sean right now is the one that is handling most of the adding people to groups, but if you.
+
+310
+00:45:46.410 --> 00:45:51.750
+Ry Jones: Go and take a look at the total his profile he doesn't have a link to get hub, but if you look at.
+
+311
+00:45:53.310 --> 00:45:57.810
+Ry Jones: My profile I do well, I thought I had a link to github available here.
+
+312
+00:45:59.760 --> 00:46:00.420
+Ry Jones: weird.
+
+313
+00:46:04.440 --> 00:46:06.030
+Ry Jones: It makes it easier to verify.
+
+314
+00:46:08.220 --> 00:46:21.000
+Ry Jones: There we go, so, if you look at someone's profile, you can see that they actually went through and linked their github account to that and it makes it much easier for us to give you the appropriate permissions.
+
+315
+00:46:22.410 --> 00:46:25.980
+Ry Jones: I do have a process for archiving and exporting the channels.
+
+316
+00:46:29.640 --> 00:46:35.310
+Ry Jones: i'm interested in any and all feedback What could we be doing better.
+
+317
+00:46:39.030 --> 00:46:39.750
+Ry Jones: Any questions.
+
+318
+00:46:47.310 --> 00:46:52.560
+Tracy Kuhrt: yeah I mean, I think that you know at least what i've seen since we.
+
+319
+00:46:53.940 --> 00:46:56.190
+Tracy Kuhrt: Officially, voted on this last week.
+
+320
+00:46:57.390 --> 00:47:12.390
+Tracy Kuhrt: Is that, for one, the number of people who join the discord server over the weekend was huge right and the numbers of people who were online or and or offline.
+
+321
+00:47:14.670 --> 00:47:19.080
+Tracy Kuhrt: was a lot more than it had been the Friday before right.
+
+322
+00:47:20.220 --> 00:47:23.490
+Tracy Kuhrt: So you know I think there's a lot of good things that are happening there.
+
+323
+00:47:25.050 --> 00:47:35.610
+Tracy Kuhrt: I also see a lot of conversations happening in places where I didn't see conversations happening before and rocket chat with the project, so I think that's a really big thing that's happening.
+
+324
+00:47:36.750 --> 00:47:39.720
+Tracy Kuhrt: I think, obviously there's there's some things that just.
+
+325
+00:47:40.830 --> 00:47:56.280
+Tracy Kuhrt: With it being new or learning and and maybe some things that we, we need to help people understand how they might go about doing stuff, but I think that's all part of the learning process so that's what i've seen Sean.
+
+326
+00:47:57.630 --> 00:48:14.670
+Sean Bohan: Oh yeah just a quick note i'm reaching out to the project meditators I did on the maintainer chat channel, but like overall just individually, the areas team put out a great sort of start here on the Aries channel which they then pinned to the top of the Channel.
+
+327
+00:48:16.410 --> 00:48:20.130
+Sean Bohan: What we want to do as a new person joins this discord.
+
+328
+00:48:21.450 --> 00:48:33.870
+Sean Bohan: We want to be able to say as a welcome message like hey check out the pinned you know message at the top and the case of Aries once again they lay out like here's where you know our github is and here's where a wiki is and here's where you find your first ticket for these projects.
+
+329
+00:48:35.250 --> 00:48:46.590
+Sean Bohan: it's not a directive like every project must do this, but if I think in the case of basically they point to the docks which is great like there's there's something when you show up in the main channel that says like hey check this out and so that's something we're gonna.
+
+330
+00:48:47.790 --> 00:49:02.070
+Sean Bohan: i'm going to reach out to folks and see if they can they can do so that, when we do this welcome message which we haven't written yet because we're still moving things along we're able to give new folks like at least a pointer to the trailhead to find out where they want to go.
+
+331
+00:49:04.770 --> 00:49:11.310
+Ry Jones: yeah so this, this is the current welcome message that you get it is very.
+
+332
+00:49:12.840 --> 00:49:13.290
+Ry Jones: vanilla.
+
+333
+00:49:15.060 --> 00:49:17.430
+Ry Jones: So i'm totally open to.
+
+334
+00:49:19.050 --> 00:49:25.500
+Ry Jones: You know, whatever edits anyone thinks would make this a little more informative please let us know.
+
+335
+00:49:36.090 --> 00:49:48.870
+Tracy Kuhrt: Alright, any any comments ED I mean, I see a lot of questions on the score itself but anything that people are wondering about or thinking about.
+
+336
+00:49:50.550 --> 00:49:56.310
+Tracy Kuhrt: Our no, thank you for sharing the changing your name your nickname on the server.
+
+337
+00:49:57.810 --> 00:49:58.680
+Tracy Kuhrt: You haven't seen that.
+
+338
+00:49:59.910 --> 00:50:01.020
+Tracy Kuhrt: highly recommend it.
+
+339
+00:50:09.450 --> 00:50:12.240
+Tracy Kuhrt: We were very a very quiet group today.
+
+340
+00:50:14.040 --> 00:50:16.710
+Ry Jones: We were talking before the meeting started about.
+
+341
+00:50:18.150 --> 00:50:20.430
+Ry Jones: adding additional roles for.
+
+342
+00:50:21.870 --> 00:50:22.890
+Ry Jones: adding additional roles.
+
+343
+00:50:24.270 --> 00:50:25.680
+Ry Jones: This is all work in progress.
+
+344
+00:50:26.730 --> 00:50:31.500
+Ry Jones: So if you feel there's something that you should be able to do that, you can't.
+
+345
+00:50:33.240 --> 00:50:36.030
+Ry Jones: Just please jump in the in the.
+
+346
+00:50:37.110 --> 00:50:43.830
+Ry Jones: Staff category and ask away I want us to succeed yeah.
+
+347
+00:50:45.930 --> 00:50:48.120
+Ry Jones: I will try to figure it out, I will try to help.
+
+348
+00:50:52.500 --> 00:51:13.260
+Arnaud J Le Hors (IBM): yeah so maybe you can help me understand or confirm what I think i've understood now is that you know, so this code, there is a free tier that we all get to use initially, and then you can individually register and have some added features such as setting your actual name.
+
+349
+00:51:14.490 --> 00:51:33.480
+Arnaud J Le Hors (IBM): And then the server that you connect to can also have its own added features which you guys have paid for for hyper ledger and it allows us to do things like adding your your your actual name but that's because you guys have added the feature is that right.
+
+350
+00:51:35.100 --> 00:51:36.510
+Ry Jones: I think that is right.
+
+351
+00:51:37.710 --> 00:51:47.160
+Arnaud J Le Hors (IBM): yeah is those booster things that I think we're benefiting and so that means that's why the interface is now always very you know.
+
+352
+00:51:47.520 --> 00:52:01.440
+Arnaud J Le Hors (IBM): In today's because, depending on whether this is setting that service specific or whether its global based on your account and things that are not appearing, the same way, and so it took me a while to figure this out so.
+
+353
+00:52:03.120 --> 00:52:07.470
+Ry Jones: yeah and I have enabled to pay for.
+
+354
+00:52:08.610 --> 00:52:24.450
+Ry Jones: If if you want to take a moderator action to you'd have to have a enabled on your account, and I was working with Sean over on so Lang and we could not figure out why he couldn't do a thing they should have been able to do, and it was because he didn't have to FA enabled.
+
+355
+00:52:26.130 --> 00:52:29.160
+Ry Jones: So there are a lot of little ui.
+
+356
+00:52:31.050 --> 00:52:32.670
+Ry Jones: discoveries to be made, I think.
+
+357
+00:52:38.940 --> 00:52:40.830
+Arnaud J Le Hors (IBM): Of course, they said, these are right.
+
+358
+00:52:46.290 --> 00:53:00.720
+Arnaud J Le Hors (IBM): It looks pretty good so far, I have to say, but of course as Tracy were saying you know, every new to new tool comes with its own little things that have to learn know hardaway so it's not different.
+
+359
+00:53:05.640 --> 00:53:06.630
+Tracy Kuhrt: hey either.
+
+360
+00:53:06.720 --> 00:53:10.590
+Tracy Kuhrt: Either comments on the discord migration.
+
+361
+00:53:17.460 --> 00:53:21.510
+Aruna S M: I guess, I still have some concerns with I don't know if it is discord or.
+
+362
+00:53:22.650 --> 00:53:28.380
+Aruna S M: Something else but i'm still unable to access it right with my work laptop.
+
+363
+00:53:29.160 --> 00:53:31.530
+Aruna S M: So let me share my screen and.
+
+364
+00:53:31.650 --> 00:53:33.990
+Arnaud J Le Hors (IBM): Do use the Web client or the APP.
+
+365
+00:53:35.280 --> 00:53:45.150
+Aruna S M: So APP also doesn't work, and it is hangs out that I whenever I start the APP it tries to update and that's that's all it ends up in infinite loop.
+
+366
+00:53:45.630 --> 00:53:47.340
+Arnaud J Le Hors (IBM): keeps increasing system on your.
+
+367
+00:53:49.710 --> 00:53:50.160
+Aruna S M: MAC.
+
+368
+00:53:51.720 --> 00:53:52.170
+Aruna S M: This is.
+
+369
+00:53:52.710 --> 00:54:04.860
+Aruna S M: Here, that is it's literally law, and even if I disconnect from my vpn looks like company has applied some policy on my browser that couldn't, allow me to see our access the site.
+
+370
+00:54:14.640 --> 00:54:17.940
+Aruna S M: I don't know if it is just me or others also faced as a show.
+
+371
+00:54:20.580 --> 00:54:21.810
+Tracy Kuhrt: i've not had any issues.
+
+372
+00:54:25.500 --> 00:54:33.720
+Tracy Kuhrt: Based on that message it looks like walmart may have actually disabled, the access to that domain in general.
+
+373
+00:54:35.370 --> 00:54:43.500
+Tracy Kuhrt: So maybe something you need to work with your it folks to get access to specifically with some sort of security exception.
+
+374
+00:54:48.240 --> 00:54:48.720
+Aruna S M: charge.
+
+375
+00:54:55.350 --> 00:55:00.600
+Aruna S M: Hope it doesn't happen, I mean it doesn't occur with others for first time coming in.
+
+376
+00:55:01.980 --> 00:55:03.150
+Tracy Kuhrt: I agree, I agree.
+
+377
+00:55:06.870 --> 00:55:15.330
+Tracy Kuhrt: I think we, you know we did some testing, obviously with the people who had joined before it became official and we did not see this issue.
+
+378
+00:55:16.830 --> 00:55:22.620
+Tracy Kuhrt: So I guess the assumption was that it was an issue, but maybe.
+
+379
+00:55:24.240 --> 00:55:25.680
+Tracy Kuhrt: Maybe that was a bad assumption here.
+
+380
+00:55:33.810 --> 00:55:40.590
+Tracy Kuhrt: Alright, well, hopefully, everybody gets the opportunity to join discord if they haven't already.
+
+381
+00:55:42.240 --> 00:55:54.240
+Tracy Kuhrt: See currently six TEAM members, I think there were 70 SPC Members on at some point today during our call So hopefully the rest of us can get over there and have the conversations happen.
+
+382
+00:55:58.020 --> 00:56:06.960
+Tracy Kuhrt: With that I think i'm going to close the meeting for today, and thank you all for for joining and participating, we will see you again next week.
+
+383
+00:56:09.420 --> 00:56:09.690
+Angelo De Caro: bye.
+
+384
+00:56:11.280 --> 00:56:11.850
+Sean Bohan: Everybody.
+
+385
+00:56:12.000 --> 00:56:12.810
+Hart Montgomery: Thanks Tracy.
+

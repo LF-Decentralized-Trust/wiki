@@ -1,0 +1,8 @@
+00:25:43	Emiliano Suñé:	https://github.com/hyperledger/aries-endorser-service/issues/32
+00:36:12	Colton Wolkins:	If there's a manual process, but we are auto accepting/rejecting based upon roles, then what's the point of manual and an API?
+00:36:22	Colton Wolkins:	roles = rules*
+00:37:13	Colton Wolkins:	Preconfiguring an allow/deny list seems more like an automatic workflow than a manual workflow
+00:48:50	Colton Wolkins:	My question was more of a rebuttel to what Stephen was saying in regards to manual vs automatic
+00:52:09	Wade Barnes:	What about a link to the intended schema, for verifiction?
+00:54:50	Colton Wolkins:	🤔 Maybe an explicit allow list, with the default allow list being '*' for things like revocation registry?
+01:00:15	Warren Gallagher:	Can you share the presentation Stephen?

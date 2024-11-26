@@ -1,0 +1,9 @@
+00:42:27	Tomislav Markovski:	https://github.com/hyperledger/aries-framework-dotnet/blob/3bd6b9c8e01c8999caeb4163cb09034bcde36949/src/Hyperledger.Aries/Utils/CredentialUtils.cs#L55
+00:42:34	Tomislav Markovski:	Correct link
+01:06:14	Kyle Den Hartog:	abstaining
+01:15:21	Troy Ronda:	I think it is important to have topics route coordination in the community so the various open projects can use each other’s components (interoperate).
+01:22:28	Jakub Koci:	I’ve implemented small part of it in aries-framework-javascript. This is calling the create route in mediator https://github.com/hyperledger/aries-framework-javascript/blob/master/src/lib/handlers/InvitationHandler.ts
+01:26:32	Troy Ronda:	cool :). aries-framework-go also has an implementation. Posted links in the meeting agenda.
+01:35:46	Troy Ronda:	RFC 94 and RFC 211
+01:35:52	Jakub Koci:	Thanks
+01:36:08	Troy Ronda:	This is the question I mentioned: https://github.com/hyperledger/aries-framework-go/issues/965

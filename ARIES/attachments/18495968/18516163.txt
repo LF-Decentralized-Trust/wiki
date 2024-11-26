@@ -1,0 +1,16 @@
+08:05:54	 From  Sam Curren (TelegramSam) : https://wiki.hyperledger.org/display/ARIES/2022-03-30+Aries+Working+Group+Call
+08:24:10	 From  Timo Glastra : I think we can do the same for a generic JWS right? I.e. it doesn't have to be a JWT perse
+08:31:31	 From  Kyle Robinson : If I understand this correctly, the business conversation would be something like:Request: Tell me what DID I should issue a credential toDisclosure: Use DID xxx and here is my signature for that DID
+08:31:44	 From  Thomas Diesler : Is there a use case, where an issuer would not want to have proof of ownership of a DID that is going into an issued credential?
+08:32:31	 From  Timo Glastra : If the issuer has already issued a credential to a certain did, you don't have to do the did ownership dance anymore
+08:34:48	 From  Stephen Curran : I think there is — in the wallet security use case, you are proving that you still control the key — that you are on the same device, since the private key cannot be exported.
+08:35:38	 From  Stephen Curran : Not that I’m saying that is a hands down good use for exactly what Cam is saying — it’s correctable.
+08:35:52	 From  Stephen Curran : Corrletable.
+08:36:11	 From  Stephen Curran : I don’t know how to spell “correlatable"
+08:36:40	 From  James Ebert : I also want to voice that I’m in favor of the attachment—as that is based off of existing code which would require less lift to implement/use.
+08:40:07	 From  Cam Parra | kiva.org : Stephen I think ZKPs could be brought in to what you
+08:40:16	 From  Cam Parra | kiva.org : you’re saying
+08:42:12	 From  Timo Glastra : Thanks for working this out Sam!
+08:49:52	 From  Stephen Curran : Got to step away.  This is the last PR to look at.
+08:59:16	 From  Timo Glastra : Can you expect all messages in a protocol to contain a pthid?
+08:59:26	 From  Timo Glastra : I thought only the first one needed it

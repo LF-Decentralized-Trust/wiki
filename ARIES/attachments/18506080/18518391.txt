@@ -1,0 +1,1966 @@
+WEBVTT
+
+1
+00:02:27.090 --> 00:02:28.580
+Timo Glastra: Good afternoon. And from
+
+2
+00:02:32.210 --> 00:02:33.880
+Charles Lanahan: afternoon or morning.
+
+3
+00:02:36.140 --> 00:02:42.700
+Timo Glastra: yeah, morning or evening, or whatever where you are located, where we are
+
+4
+00:03:13.160 --> 00:03:15.609
+Charles Lanahan: is that is the area's framework.
+
+5
+00:03:15.800 --> 00:03:20.720
+Charles Lanahan: setting up an agent initiating credentials. Is that done by indigo? Or is that someone else?
+
+6
+00:03:22.790 --> 00:03:24.570
+Charles Lanahan: The thing that's happening next week?
+
+7
+00:03:26.790 --> 00:03:28.670
+Timo Glastra: You mean the the workshop.
+
+8
+00:03:28.710 --> 00:03:29.800
+Charles Lanahan: Yeah, yeah.
+
+9
+00:03:30.120 --> 00:03:40.710
+Timo Glastra: it's done by Ariel Kareem and Baron. So 2 from us with animal, and then aerial.
+
+10
+00:03:40.840 --> 00:03:42.050
+Timo Glastra: also, it does it?
+
+11
+00:03:43.350 --> 00:03:44.330
+Charles Lanahan: Oh, cool.
+
+12
+00:03:46.940 --> 00:03:53.980
+Timo Glastra: Yeah, I certainly won't be able to attend. because I'm on vacation next week. but I think.
+
+13
+00:03:54.040 --> 00:03:59.420
+Timo Glastra: yeah, with parents, cream and area. All their work should be in good hands.
+
+14
+00:04:03.190 --> 00:04:12.740
+Timo Glastra:  all right. I think we can get started.
+
+15
+00:04:13.870 --> 00:04:16.919
+Timo Glastra: this meeting recording it is
+
+16
+00:04:17.220 --> 00:04:21.680
+Timo Glastra:  all right. So.
+
+17
+00:04:21.890 --> 00:04:26.459
+Timo Glastra: But I've run to the aristocratic group call of July
+
+18
+00:04:26.580 --> 00:04:36.869
+Timo Glastra: 6, yeah. And I need to RAM you to bite. But I, which go to concert and any trust policy. Like to add yourself to the tennis list. Feel free
+
+19
+00:04:36.930 --> 00:04:39.290
+Timo Glastra: to do so.
+
+20
+00:04:39.700 --> 00:04:41.699
+Timo Glastra: I posted a link in the chat.
+
+21
+00:04:42.160 --> 00:04:47.080
+Timo Glastra:  Anyone new here that would like to introduce himself.
+
+22
+00:04:55.060 --> 00:04:58.029
+Timo Glastra: It works nice, I think. yeah.
+
+23
+00:04:58.710 --> 00:04:59.560
+Timo Glastra: okay.
+
+24
+00:05:00.120 --> 00:05:21.670
+Timo Glastra:  So for today, I don't have a lot on the agenda. so we can see if there's issues or Pr or things people would like to discuss. And otherwise we can keep it short today. I think it's also moreification period. And yeah, it's been less
+
+25
+00:05:21.750 --> 00:05:28.130
+Timo Glastra: going on at last week. But I know I saw some work on the did comfy 2 stuff, and Ariel has
+
+26
+00:05:28.140 --> 00:05:35.470
+Timo Glastra: left a lot of comments on issues and stuff. So maybe we can cover some of those.
+
+27
+00:05:36.670 --> 00:05:40.429
+Timo Glastra: are there any status Updates? What's the by with the call this week.
+
+28
+00:05:47.440 --> 00:05:50.020
+Clecio Varjao: yes.
+
+29
+00:05:53.850 --> 00:06:00.280
+Clecio Varjao: we didn't have a lot of new things, but a couple of things that I will mention is
+
+30
+00:06:00.810 --> 00:06:14.779
+Clecio Varjao: we're making some changes to the scanning flow, and there's some conversations around go codes. and I don't know if there's a potential opportunity for some of those go codes. Logic move to Aj.
+
+31
+00:06:16.050 --> 00:06:24.159
+Clecio Varjao: we are introducing the Id or the new concept of a femoral connections or A.
+
+32
+00:06:24.250 --> 00:06:34.800
+Clecio Varjao: It gets deleted when a transaction or operation is completed. the main driving force for that is the
+
+33
+00:06:35.010 --> 00:06:42.140
+Clecio Varjao: here code density make. That is smaller. when you when we're using connectionless for request.
+
+34
+00:06:43.960 --> 00:06:55.740
+Clecio Varjao:  and I also to the areas community called. There was some code about some talk about the
+
+35
+00:06:56.850 --> 00:07:01.320
+Clecio Varjao: here, did upgrade to the did come.
+
+36
+00:07:02.580 --> 00:07:10.890
+Clecio Varjao: You did 52 of it 3 I've added an issue to Aires Framework Transcript. I feel like the
+
+37
+00:07:11.100 --> 00:07:22.870
+Clecio Varjao: they wanted the framework to to implement those upgrades, and that about a kind of a a month framework timeframe. But they were asking, What is the timeframe possible?
+
+38
+00:07:24.660 --> 00:07:31.779
+Ariel Gentile: And we say, one on mo a month. We were not sure. But but yeah, I think it's
+
+39
+00:07:32.850 --> 00:07:41.009
+Ariel Gentile: if I'm not wrong, it's it should not be so complicated to add it this to if she right him. What do you? What do you think?
+
+40
+00:07:42.240 --> 00:07:48.849
+Clecio Varjao: I yeah, I just created that you should there. So don't forget. But yeah, there's not a lot of details. So, but
+
+41
+00:07:48.890 --> 00:07:51.890
+Clecio Varjao: who understands more than me, please update
+
+42
+00:07:54.030 --> 00:07:59.250
+Timo Glastra: cool. yeah, is, is, is anyone willing to pick this up in the coming months.
+
+43
+00:08:00.600 --> 00:08:06.800
+Ariel Gentile: Yeah, maybe maybe I can. I can do it. But I I I will have to study a little bit how it works. Huh?
+
+44
+00:08:07.540 --> 00:08:09.030
+Timo Glastra: Yeah. The way, yeah.
+
+45
+00:08:10.240 --> 00:08:12.760
+Timo Glastra: I can help you
+
+46
+00:08:13.270 --> 00:08:19.560
+Timo Glastra: with the implementation or like, guide you. if you have questions cool. Okay?
+
+47
+00:08:22.750 --> 00:08:27.060
+Timo Glastra:  yeah. And
+
+48
+00:08:27.150 --> 00:08:36.740
+Timo Glastra: for the a thermal connection like, make your code smaller if you considered using shortened urls.
+
+49
+00:08:37.600 --> 00:08:42.699
+Clecio Varjao: yes, we do not want to use. Certainly. URL service for
+
+50
+00:08:43.150 --> 00:08:56.999
+Clecio Varjao: There is a possibility of some privacy concerns around it. Whatever service is using now, I have the ability of track. again Ips, and know what is happening.
+
+51
+00:08:57.250 --> 00:09:06.989
+Clecio Varjao: So the shortening URL was, we decided not to pursue that side. And you'd be another piece of infrastructure that would need to be maintained and supported.
+
+52
+00:09:09.330 --> 00:09:12.649
+Timo Glastra: Yeah, okay, yeah. No. I think.
+
+53
+00:09:12.970 --> 00:09:14.390
+Timo Glastra: because
+
+54
+00:09:14.620 --> 00:09:26.809
+Timo Glastra: E, when you like, you connect to the Http endpoint of the issue, or or like the invite, or anyway, so fetching a document
+
+55
+00:09:26.880 --> 00:09:29.919
+Timo Glastra: from their surface, I would say, doesn't
+
+56
+00:09:30.290 --> 00:09:43.850
+Timo Glastra: make tracking more possible, because you already are connecting to their servers and and domain for creating the tick-com connection. and we've in
+
+57
+00:09:43.890 --> 00:10:07.300
+Timo Glastra: cases just integrated it directly into the agent. So the agent receives the the connection request it also handles the it handles the like to your URL shortener, I think. in a lot of cases you probably want to separate it. But I think for easy deployment.
+
+58
+00:10:07.400 --> 00:10:10.639
+Timo Glastra: yeah, I think that has worked for us also. Quite well.
+
+59
+00:10:11.800 --> 00:10:15.489
+Clecio Varjao: Sorry I don't understand the suggestion, then.
+
+60
+00:10:15.710 --> 00:10:19.920
+Clecio Varjao: So you're saying agent is in charge of the Us. Sharpening
+
+61
+00:10:20.530 --> 00:10:22.710
+Clecio Varjao: the sure verifier.
+
+62
+00:10:23.010 --> 00:10:25.839
+Timo Glastra: Well, no, the the creator of the invitation.
+
+63
+00:10:28.400 --> 00:10:39.579
+Clecio Varjao: Okay, so this is a mobile wallet. So they don't have a HP server. So we need to stand up like a mediator service something on the side.
+
+64
+00:10:40.700 --> 00:10:48.149
+Timo Glastra: Okay, yeah. So if you have a mediator there is a
+
+65
+00:10:48.530 --> 00:10:55.019
+Timo Glastra: and ours our C. I wrote specifically for this, and this is how I did it when I wanted to create
+
+66
+00:10:55.220 --> 00:11:02.429
+Timo Glastra: invitations on the device that we're shortened. is.
+
+67
+00:11:03.670 --> 00:11:05.059
+Timo Glastra: is it in here?
+
+68
+00:11:12.970 --> 00:11:32.049
+Ariel Gentile:  I can't find it. If you, if you are talking about the Urls shorten or protocol did come become website.
+
+69
+00:11:32.320 --> 00:11:33.810
+Timo Glastra: Yeah. Okay.
+
+70
+00:11:35.560 --> 00:11:37.429
+Timo Glastra: Short, then.
+
+71
+00:11:39.940 --> 00:11:42.690
+Timo Glastra: here, yeah. So
+
+72
+00:11:43.330 --> 00:11:46.659
+Timo Glastra: this is a
+
+73
+00:11:47.520 --> 00:12:16.839
+Timo Glastra: our, where you can use another agent to shorten it for you. and in our case we used it with a mediator. So the mediator you need to contact mediator any way to register the key. But you also request mediator to shorten the URL for you, and then you get back like our shortened URL, which the mediator
+
+74
+00:12:16.900 --> 00:12:23.090
+Timo Glastra: then holds for you, and there's like a requested for the 2 s. Does
+
+75
+00:12:23.140 --> 00:12:33.109
+Timo Glastra: this does add some like tracking possibilities. but you are already sending the the key to
+
+76
+00:12:33.340 --> 00:13:00.929
+Timo Glastra:  to the the mediator, and when the other device wants to send a message to your device. It has to connect with their device to the mediator, anyway. So yeah. Still, all the connections between the surfers are already made, because the the the the auto device is already connecting to your devices. Mediator. So having that, having it resolved a
+
+77
+00:13:00.960 --> 00:13:08.110
+Timo Glastra: another object from it, I think. Doesn't in introduce too much new things. but yeah, maybe something to consider.
+
+78
+00:13:08.430 --> 00:13:10.069
+Clecio Varjao: Okay, I'll look into that one.
+
+79
+00:13:11.440 --> 00:13:12.100
+Okay.
+
+80
+00:13:12.320 --> 00:13:13.289
+Timo Glastra: I don't care.
+
+81
+00:13:13.800 --> 00:13:15.300
+Thank you.
+
+82
+00:13:25.970 --> 00:13:29.240
+Timo Glastra:  all right.
+
+83
+00:13:29.510 --> 00:13:35.010
+Timo Glastra: then. agenda. Does anyone have anything specific for the agenda they would like to discuss?
+
+84
+00:13:46.960 --> 00:13:51.089
+Ariel Gentile: No, I think I think it it would be nice to to review
+
+85
+00:13:51.790 --> 00:13:58.790
+Ariel Gentile: so many issues and and Pr just to. because that there are some, some peers that that are
+
+86
+00:13:59.020 --> 00:14:00.349
+Ariel Gentile: open for
+
+87
+00:14:00.360 --> 00:14:09.989
+Ariel Gentile: a long time like, for instance, it one of for for revocation. So maybe we can. We can try to move forward or or or discard some of them. I I don't know.
+
+88
+00:14:11.330 --> 00:14:14.109
+Timo Glastra: Sure.
+
+89
+00:14:14.930 --> 00:14:21.279
+Timo Glastra: I think we can start with some ones that are really open. Really long.
+
+90
+00:14:23.320 --> 00:14:33.869
+Timo Glastra: this. Pr, yeah. February 9. Already to add concurrency config for process messages concurrently. I think the changes were quite
+
+91
+00:14:34.390 --> 00:14:37.520
+Timo Glastra: simple.
+
+92
+00:14:38.050 --> 00:14:44.279
+Timo Glastra: yeah. Instead of like waiting for the previous message to be processed we
+
+93
+00:14:44.560 --> 00:14:49.750
+Timo Glastra:  we allow them to be processed
+
+94
+00:14:50.910 --> 00:14:58.749
+Timo Glastra:  concurrently. If you add this config parameter? it seems.
+
+95
+00:14:58.980 --> 00:15:00.130
+Timo Glastra: I think.
+
+96
+00:15:04.970 --> 00:15:05.730
+Timo Glastra: Yeah.
+
+97
+00:15:06.950 --> 00:15:11.759
+Timo Glastra: Do we think this should be merged. Or I'm a bit out of like what
+
+98
+00:15:12.510 --> 00:15:14.930
+Timo Glastra: it was specifically about.
+
+99
+00:15:16.630 --> 00:15:23.740
+Ariel Gentile: Yeah, I maybe we we will. We will need to to re review it
+
+100
+00:15:23.990 --> 00:15:27.389
+Ariel Gentile: just to see what what's missing there.
+
+101
+00:15:28.480 --> 00:15:30.020
+Timo Glastra: Yeah, okay.
+
+102
+00:15:30.080 --> 00:15:32.250
+Timo Glastra: anyone want to take that down.
+
+103
+00:15:43.120 --> 00:15:47.010
+Ariel Gentile: But okay, I will. I will. I will. I will do a review.
+
+104
+00:15:47.440 --> 00:15:52.980
+Timo Glastra: Yeah, I can. It can else do it. Otherwise you don't have to pick pick them up all of them.
+
+105
+00:15:53.620 --> 00:15:56.129
+Timo Glastra: Okay, I'll take it. You can take the next one.
+
+106
+00:15:58.740 --> 00:16:01.590
+Timo Glastra:  okay.
+
+107
+00:16:01.890 --> 00:16:09.189
+Timo Glastra: out of pen. Proof proposal. good attention, I think.
+
+108
+00:16:14.270 --> 00:16:18.320
+Timo Glastra: yeah. I think we also need to look into
+
+109
+00:16:19.020 --> 00:16:22.090
+Timo Glastra: it again and see exactly
+
+110
+00:16:22.970 --> 00:16:26.879
+Timo Glastra: what the concerns were with this. pr.
+
+111
+00:16:28.460 --> 00:16:44.860
+Timo Glastra: yeah, okay, I think the the problem is that we look without connection it which in some cases we shouldn't do which I think can be to issues. If I send you a message with for specific threat. Id. I can
+
+112
+00:16:44.930 --> 00:16:50.900
+Timo Glastra: like hijack a exchange, I think. so yeah, I think
+
+113
+00:16:52.030 --> 00:17:06.829
+Timo Glastra:  wanted to keep this on hold until we have, like, properly integrated connection this with out of pen, which we've never done so maybe we can merge this with with some small tweaks. I think.
+
+114
+00:17:08.240 --> 00:17:09.140
+Ariel Gentile: All right.
+
+115
+00:17:11.290 --> 00:17:16.540
+Timo Glastra:  let me see, do.
+
+116
+00:17:17.640 --> 00:17:23.910
+Timo Glastra: I can also pick this one of them, I think. I I left last comment on both of these, I know.
+
+117
+00:17:24.329 --> 00:17:25.190
+Okay.
+
+118
+00:17:36.940 --> 00:17:37.730
+Timo Glastra: alright.
+
+120
+00:17:46.830 --> 00:17:57.119
+Timo Glastra: yeah, this is, I think, on hold, because the presentation exchange work is on hold. we have been integrating with it. but there were
+
+121
+00:17:57.300 --> 00:18:04.700
+Timo Glastra: issues in the Pax library that really prevent this from being integrated. so
+
+122
+00:18:05.040 --> 00:18:15.320
+Timo Glastra: I think once, those are to rest. I think they're currently being worked on in the in the presentation stage library. we can integrate it. And then we can
+
+123
+00:18:15.410 --> 00:18:16.550
+Timo Glastra: also
+
+124
+00:18:16.640 --> 00:18:27.460
+Timo Glastra: integrate this. yeah. So I think we can keep it open for a while now. So we don't lose the the
+
+125
+00:18:27.690 --> 00:18:33.239
+Timo Glastra: thing. yeah, we don't lose the I think it would be a good test to add.
+
+126
+00:18:33.640 --> 00:18:34.410
+okay.
+
+127
+00:18:39.570 --> 00:18:43.160
+Timo Glastra:  this one.
+
+128
+00:18:44.470 --> 00:18:50.150
+Timo Glastra:  yeah. Lot of good changes in here.
+
+129
+00:18:52.210 --> 00:18:56.760
+Timo Glastra: I think we need to updated to integrate with
+
+130
+00:18:57.670 --> 00:19:01.810
+Timo Glastra: some of the latest runner updates.
+
+131
+00:19:02.620 --> 00:19:08.180
+Timo Glastra:  and
+
+132
+00:19:12.510 --> 00:19:21.020
+Timo Glastra: yeah, So yeah, I, I'm not sure if anchor is still going to pick this up. So maybe yeah, we need to
+
+133
+00:19:21.480 --> 00:19:22.920
+Timo Glastra: take it over
+
+134
+00:19:22.970 --> 00:19:33.450
+Timo Glastra: and get it merged, because I think there are a lot of good things in here like things that we are gonna break soon. If we don't merge this and it updates it to all the latest versions.
+
+135
+00:19:33.950 --> 00:19:41.209
+Ariel Gentile: yeah, if we, if we can add, commits there, I maybe I can. I can pick them up, pick them up. And
+
+136
+00:19:42.460 --> 00:19:45.029
+Ariel Gentile: and just
+
+137
+00:19:46.280 --> 00:19:49.619
+Timo Glastra: okay, yeah, that I think, can we?
+
+138
+00:19:51.280 --> 00:20:02.889
+Timo Glastra:  it's from checked. You can push to organization things. So you would need to for their their. Pr, yeah. Okay.
+
+139
+00:20:05.050 --> 00:20:08.370
+Ariel Gentile: Okay.
+
+140
+00:20:08.410 --> 00:20:11.750
+Ariel Gentile: Asking uncle to to.
+
+141
+00:20:13.020 --> 00:20:15.340
+Timo Glastra: yeah. Okay.
+
+143
+00:20:47.660 --> 00:20:48.480
+Timo Glastra: Okay.
+
+144
+00:20:49.030 --> 00:20:49.760
+okay.
+
+145
+00:20:52.550 --> 00:21:00.229
+Timo Glastra:  This one is open. I just never finished it. I don't. Yeah. I
+
+146
+00:21:01.240 --> 00:21:19.969
+Timo Glastra: wanted to add a role to the credential to improve records, because it's sometimes very hard to determine which role belongs to a record, especially if they're in state, Dom, or like whatever state But I just didn't finish it. So something I'll have to pick up at some point.
+
+147
+00:21:20.960 --> 00:21:26.310
+Timo Glastra:  this one.
+
+148
+00:21:31.310 --> 00:21:33.410
+Timo Glastra: yeah. So
+
+149
+00:21:33.530 --> 00:21:49.199
+Timo Glastra: using a mill to use invitation multiple times, so I already connect received email to use invitation, and I want to use it again. the change being made here is to
+
+150
+00:21:49.730 --> 00:22:03.359
+Timo Glastra: remove the check if we have already connected to this id and that allows it to just like create another out of band directed for the Id.
+
+151
+00:22:03.940 --> 00:22:08.760
+Timo Glastra: My concern with this approach was that. as I
+
+152
+00:22:08.970 --> 00:22:11.680
+Timo Glastra: understand it, that
+
+153
+00:22:12.260 --> 00:22:31.569
+Timo Glastra: ids need to be like message ids need to be unique within the context of an agent. and this breaks that model. because we basically have multiple out ofence records with the same id, then which can get tricky So
+
+154
+00:22:31.760 --> 00:22:36.419
+Timo Glastra:  I think if we want to reuse the same
+
+155
+00:22:37.130 --> 00:22:52.729
+Timo Glastra: invitation multiple times, we need to think about it like, okay, what's the the impact of that or the implications. yeah, I know. Are you that done? Some research into this the last time? Right? Or yes, I think the the only.
+
+156
+00:22:53.140 --> 00:22:57.090
+Ariel Gentile: the only issue would be on the
+
+157
+00:22:57.120 --> 00:23:03.700
+Ariel Gentile: the mediation. a recipient or not module.
+
+158
+00:23:04.220 --> 00:23:07.929
+Ariel Gentile: because if you have this
+
+159
+00:23:08.070 --> 00:23:11.720
+Ariel Gentile: an invite, or something like that.
+
+160
+00:23:12.590 --> 00:23:15.870
+Ariel Gentile: it it will. It will try to to
+
+161
+00:23:16.460 --> 00:23:21.280
+Ariel Gentile: to find a single connection from that invitation. So
+
+162
+00:23:21.830 --> 00:23:24.969
+Ariel Gentile: it would break, as you as you say.
+
+163
+00:23:25.880 --> 00:23:29.029
+Ariel Gentile: But if we change the logic there.
+
+164
+00:23:29.680 --> 00:23:33.549
+Ariel Gentile: we should not have any any particular issue, I mean.
+
+165
+00:23:34.850 --> 00:23:38.820
+Ariel Gentile: according to what they understood. Nothing from this
+
+166
+00:23:39.090 --> 00:23:42.880
+Ariel Gentile: from the spec are, is preventing to have
+
+167
+00:23:43.350 --> 00:23:46.710
+Ariel Gentile: to to connections
+
+168
+00:23:46.930 --> 00:23:51.229
+Ariel Gentile: may or start bootstrap it from the same invitation.
+
+169
+00:23:52.230 --> 00:23:53.759
+Ariel Gentile: So technically.
+
+170
+00:23:54.050 --> 00:23:59.210
+Ariel Gentile: it's not incorrect to to to remove this check
+
+171
+00:24:00.080 --> 00:24:08.189
+Ariel Gentile:  and also sometimes what something that that happens to me sometimes in in in our app. Is that
+
+172
+00:24:08.860 --> 00:24:12.330
+Ariel Gentile: us kind of a your code with an invitation.
+
+173
+00:24:12.370 --> 00:24:14.770
+Ariel Gentile: And if you are not connected
+
+174
+00:24:15.120 --> 00:24:22.820
+Ariel Gentile: to Internet or or you have a a problem. then you will have a an error, and and
+
+175
+00:24:22.940 --> 00:24:32.950
+Ariel Gentile: and if you will, if you are going to scand the same clear again. You. You have to make sure that delete the the out of the record that has been created for that.
+
+176
+00:24:33.200 --> 00:24:36.660
+Ariel Gentile: because otherwise the framework will reject the
+
+177
+00:24:36.920 --> 00:24:40.910
+Ariel Gentile: we will not allow you to to to to
+
+178
+00:24:40.970 --> 00:24:48.940
+Ariel Gentile: Mit Ctl and receive again this invitation, I mean with with the same correct code. So you you will need to ask the other party to create a new quick, your code 250,
+
+179
+00:24:49.260 --> 00:24:53.899
+Ariel Gentile: and sometimes it's it's something that is not so. I know it.
+
+180
+00:24:54.960 --> 00:24:56.400
+Ariel Gentile: It will need.
+
+181
+00:24:58.110 --> 00:25:02.760
+Ariel Gentile: If you don't manually delete the out of the record. You will have
+
+182
+00:25:03.820 --> 00:25:07.430
+Ariel Gentile: several records that they are not use it, but
+
+183
+00:25:08.230 --> 00:25:10.639
+Ariel Gentile: I don't know. I think
+
+184
+00:25:10.870 --> 00:25:11.940
+Ariel Gentile: it should.
+
+185
+00:25:12.740 --> 00:25:17.399
+Ariel Gentile: It's not. It's not bad to have this, this, this change in the in the frame
+
+186
+00:25:18.340 --> 00:25:19.410
+there.
+
+187
+00:25:20.160 --> 00:25:28.810
+Ariel Gentile: But, as I said, we will need to also modify the initialization of the mediation model because
+
+188
+00:25:29.230 --> 00:25:31.029
+Ariel Gentile: it will fail
+
+189
+00:25:31.270 --> 00:25:34.150
+Ariel Gentile: if we have. and
+
+190
+00:25:35.560 --> 00:25:40.779
+Ariel Gentile: if have more than one invitation cliche, one wants to say something.
+
+191
+00:25:41.540 --> 00:25:44.909
+Clecio Varjao: I have a question over something that you say that
+
+192
+00:25:46.170 --> 00:25:51.660
+Clecio Varjao: when you delete a connection they'd have been records to remain so. They're separate.
+
+193
+00:25:54.280 --> 00:25:56.590
+Ariel Gentile: I? I think so. Yes.
+
+194
+00:26:00.250 --> 00:26:04.889
+Clecio Varjao: okay. So we just probably to make some changes in by phone. Then
+
+195
+00:26:05.340 --> 00:26:16.530
+Clecio Varjao: so deleting a contact is it recommended to delete both the connection and the out of band record should be fully removed.
+
+196
+00:26:20.560 --> 00:26:26.120
+Timo Glastra:  it depends on as a holder.
+
+197
+00:26:26.150 --> 00:26:31.030
+Timo Glastra: probably. Yes.  because
+
+198
+00:26:31.830 --> 00:26:59.169
+Timo Glastra:  the you as a holder? Probably. Yes, because there's always a single connection tight to an out of pend record, but as like a or like a if you are the creator of a mil to use invitation, for example, you can have one out ofence record with thousands of connections. and it could be that you remove one connection, but you don't want to remove all the other
+
+199
+00:26:59.170 --> 00:27:19.809
+Timo Glastra: connections or the out of pen invitation, like new people can still connect to it. so in that case, no, but in in in like the case of like, I created the single use invitation, or I received a single use, invitation, or like received an invitation, then it makes sense to also removed out of ventric.
+
+200
+00:27:22.260 --> 00:27:23.100
+Clecio Varjao: Okay.
+
+201
+00:27:24.590 --> 00:27:30.789
+Clecio Varjao: is there anything on the as a flag, or when the leading a connection, or those are 2 separate steps.
+
+202
+00:27:32.680 --> 00:27:36.930
+Timo Glastra: separate steps, because you can also.
+
+203
+00:27:36.980 --> 00:27:42.680
+Timo Glastra: I have I can receive. I've been
+
+204
+00:27:43.320 --> 00:27:49.009
+Timo Glastra: invitations and reuse connections. So there could actually be like
+
+205
+00:27:49.070 --> 00:27:51.610
+Timo Glastra: a lot of out of bench records
+
+206
+00:27:51.660 --> 00:27:52.810
+Timo Glastra: also
+
+207
+00:27:52.980 --> 00:28:04.249
+Timo Glastra: connected to a connection itself. so we could add some logic to remove Associated connection records. But it yeah, it gets a bit complicated, I think.
+
+208
+00:28:06.330 --> 00:28:12.300
+Clecio Varjao: Okay, I I just think we probably need to clean that up again from we'll buy a hold. Their point of view.
+
+209
+00:28:12.350 --> 00:28:15.580
+Clecio Varjao: the user experiences, they think they are deleting the contact.
+
+210
+00:28:15.670 --> 00:28:23.160
+Clecio Varjao: So therefore everything should be gone. And it sounds like this. I would have been record this thing around
+
+211
+00:28:23.480 --> 00:28:26.000
+Clecio Varjao: left over somehow.
+
+212
+00:28:26.340 --> 00:28:27.130
+Clecio Varjao: Okay.
+
+213
+00:28:27.790 --> 00:28:35.499
+Timo Glastra: yeah. I mean, there is something to say to just remove the out of bench record directly after you've created the connection because you don't need it anymore.
+
+214
+00:28:35.560 --> 00:28:40.479
+Timo Glastra: so maybe that's also something we should advertise more.
+
+215
+00:28:41.750 --> 00:28:49.530
+Clecio Varjao: All right. So upon completing the connection the out of and record can be privileged as well. There's no need to keep them around
+
+216
+00:28:50.050 --> 00:28:51.749
+Clecio Varjao: unless does it.
+
+217
+00:28:51.850 --> 00:28:57.379
+Clecio Varjao: If there is a if there is any. If there is a mode to use connection or
+
+218
+00:28:57.540 --> 00:29:05.239
+Clecio Varjao: not the out of band that call for a reuse connection. Do you need that original out of an invitation.
+
+219
+00:29:06.520 --> 00:29:21.529
+Timo Glastra: No, only only if you create a mil to use invitation, the mil to use invitation will become invalid if you delete the out of Pennsylvania, because basically, the outfit's record is the mill to use invitation.
+
+220
+00:29:21.830 --> 00:29:28.580
+Clecio Varjao: Yeah, if you're the one creating the invitation, you have to get it. But if you don't, you' the invitation, then it's relevant.
+
+221
+00:29:29.110 --> 00:29:30.749
+Timo Glastra: Yeah, then it can be removed.
+
+222
+00:29:30.990 --> 00:29:32.340
+Clecio Varjao: Okay, thank you.
+
+223
+00:29:33.130 --> 00:29:33.990
+Timo Glastra: Yeah.
+
+224
+00:29:34.210 --> 00:29:39.560
+Clecio Varjao: Which brings your question. Do you know if there is any plan for a Fj to maybe create a
+
+225
+00:29:40.000 --> 00:29:43.259
+Clecio Varjao: Api docs. Yes.
+
+226
+00:29:43.440 --> 00:29:46.999
+Clecio Varjao: in addition to the guides that already exist which are pretty good.
+
+227
+00:29:48.650 --> 00:29:52.699
+Timo Glastra: Yeah, yeah, it's on the plan. But like, not something
+
+228
+00:29:52.760 --> 00:29:53.780
+Timo Glastra: we have.
+
+229
+00:29:53.870 --> 00:30:00.750
+Timo Glastra: I had spent time on or like, I'm not sure if we have time to spend that in the near future, I think.
+
+230
+00:30:01.090 --> 00:30:02.330
+Clecio Varjao: Okay, thank you.
+
+231
+00:30:04.570 --> 00:30:13.649
+Ariel Gentile: Sorry. Are you hijacked as a a little bit?
+
+232
+00:30:14.430 --> 00:30:17.499
+Ariel Gentile: We can. We can.
+
+233
+00:30:18.600 --> 00:30:25.989
+Ariel Gentile: It would be good to to remove this check, but also but we will need to make sure that that the
+
+234
+00:30:26.160 --> 00:30:30.049
+Ariel Gentile: the mediation module is so it's probably updated.
+
+235
+00:31:05.040 --> 00:31:06.930
+Timo Glastra: if if
+
+236
+00:31:06.980 --> 00:31:16.549
+Timo Glastra:  Patrick. I can't pick it up. Can you address this? or
+
+237
+00:31:16.650 --> 00:31:19.080
+Ariel Gentile: yeah, no problem it it it should be
+
+238
+00:31:19.720 --> 00:31:21.250
+a quick, actually
+
+239
+00:31:25.470 --> 00:31:26.200
+Timo Glastra: cool.
+
+240
+00:31:28.420 --> 00:31:29.510
+Timo Glastra: Sounds good.
+
+241
+00:31:32.550 --> 00:31:36.010
+Timo Glastra:   this one?
+
+242
+00:31:38.270 --> 00:31:40.320
+Ariel Gentile: Yeah, I think
+
+243
+00:31:41.240 --> 00:31:42.400
+Timo Glastra: big. Pr.
+
+244
+00:31:42.590 --> 00:31:47.830
+Ariel Gentile: yes. And I, I added this most or all of the
+
+245
+00:31:48.240 --> 00:31:51.660
+Ariel Gentile: the feed of you you gave
+
+246
+00:31:52.250 --> 00:31:53.809
+Ariel Gentile: in may I think
+
+247
+00:31:55.570 --> 00:32:00.429
+Ariel Gentile: There are still some questions.
+
+248
+00:32:00.900 --> 00:32:01.900
+Ariel Gentile: I think.
+
+249
+00:32:02.810 --> 00:32:05.679
+Ariel Gentile: but
+
+250
+00:32:06.220 --> 00:32:10.230
+Ariel Gentile: it will be nice if you can, if you can look at them.
+
+251
+00:32:12.020 --> 00:32:12.970
+Ariel Gentile: And
+
+252
+00:32:13.340 --> 00:32:23.329
+Ariel Gentile: because I think you. You started doing a review when we were at the the the dice in in 3 weeks. But you you didn't finish it.
+
+253
+00:32:23.950 --> 00:32:24.790
+Ariel Gentile: I think.
+
+254
+00:32:25.130 --> 00:32:30.210
+Timo Glastra: Yeah. So I I think I I finished it. So I think,
+
+255
+00:32:31.940 --> 00:32:37.699
+Ariel Gentile: okay. So if it, if if you consider it finished, maybe I can. I can do those
+
+256
+00:32:37.810 --> 00:32:40.160
+Ariel Gentile: the small modifications. And
+
+257
+00:32:40.940 --> 00:32:53.649
+Ariel Gentile: yeah, we can probably continue like that. I mean it. We will be using only this manual way of of or external way of handling
+
+258
+00:32:53.770 --> 00:33:01.530
+Ariel Gentile: a the indexes on that stuff. And maybe in a future we can
+
+259
+00:33:01.620 --> 00:33:06.239
+Ariel Gentile: incorporate some automatic stuff in the in the framework if if needed.
+
+260
+00:33:16.660 --> 00:33:26.150
+Timo Glastra:  okay? And does it introduce any breaking chases? Besides, to the interface of the
+
+261
+00:33:27.380 --> 00:33:32.659
+Ariel Gentile: no? No, the the only issue is that if you have
+
+262
+00:33:32.740 --> 00:33:34.260
+Ariel Gentile: if you have a
+
+263
+00:33:34.650 --> 00:33:53.169
+Ariel Gentile: a ratio 3 and an increase in the implementation, you will have to update it, because now you are required to to also support these methods or include the method methods for revocation.
+
+264
+00:33:53.770 --> 00:33:54.970
+Timo Glastra: Yeah.
+
+265
+00:33:56.410 --> 00:33:58.309
+Ariel Gentile: which was something that was
+
+266
+00:33:58.760 --> 00:33:59.550
+there
+
+267
+00:33:59.710 --> 00:34:00.600
+Ariel Gentile: before.
+
+268
+00:34:03.140 --> 00:34:04.490
+Timo Glastra: I think we
+
+269
+00:34:07.330 --> 00:34:17.460
+Timo Glastra:  may that experimental right? So that it can have breaking changes
+
+270
+00:34:21.360 --> 00:34:28.639
+Timo Glastra:  you see, is there? I made a Pr for that right?
+
+271
+00:34:29.659 --> 00:34:42.220
+Timo Glastra: Or it's probably this one.  so it's the Democrats for us module.
+
+272
+00:34:45.260 --> 00:34:46.610
+Timo Glastra: I'll scar
+
+273
+00:34:47.620 --> 00:34:50.610
+Timo Glastra: Pbs checks.
+
+274
+00:34:53.630 --> 00:34:57.029
+Timo Glastra: They were to see credentials
+
+275
+00:35:01.030 --> 00:35:02.010
+Timo Glastra: 10 min
+
+276
+00:35:02.360 --> 00:35:10.320
+Timo Glastra: so I did it at once to implementing your own Red Street, I think. or maybe on the
+
+277
+00:35:11.970 --> 00:35:15.270
+Timo Glastra:  updating guides.
+
+278
+00:35:20.640 --> 00:35:22.490
+Timo Glastra: Okay? So I added it here.
+
+279
+00:35:24.210 --> 00:35:25.160
+Ariel Gentile: Yeah.
+
+280
+00:35:25.770 --> 00:35:28.120
+Timo Glastra: So I'm not sure. I'm so so
+
+281
+00:35:29.480 --> 00:35:30.470
+Timo Glastra: at it.
+
+282
+00:35:30.840 --> 00:35:33.849
+Ariel Gentile: okay, okay, okay, so that's fine.
+
+283
+00:35:34.450 --> 00:35:35.150
+Timo Glastra: Yeah.
+
+284
+00:35:36.460 --> 00:35:37.720
+Timo Glastra: cool. Okay.
+
+286
+00:36:17.960 --> 00:36:18.710
+Timo Glastra: cool.
+
+287
+00:36:28.370 --> 00:36:42.499
+Timo Glastra:  This one is a book I fixed to make document load of work in node. 18 but the ci now feels so
+
+288
+00:36:44.060 --> 00:36:47.000
+Timo Glastra: something I have to look into.
+
+289
+00:37:01.880 --> 00:37:02.840
+Timo Glastra: Okay.
+
+290
+00:37:03.770 --> 00:37:12.380
+Timo Glastra:  this one is. accept it and ready to merge.
+
+291
+00:37:12.990 --> 00:37:13.950
+Timo Glastra: So
+
+292
+00:37:17.680 --> 00:37:24.070
+Timo Glastra: I think it's just a simple fix to take the the role property into account. And then that request.
+
+293
+00:37:27.820 --> 00:37:30.289
+Timo Glastra: And we actually got something merch today.
+
+294
+00:37:31.340 --> 00:37:36.250
+Timo Glastra:  parents.
+
+295
+00:37:37.500 --> 00:37:40.920
+Timo Glastra: this pr experience still here.
+
+296
+00:37:41.340 --> 00:37:50.890
+Ariel Gentile: Oh, he he left as as soon as we started with the Pr review. So so maybe he's only waiting to that.
+
+297
+00:37:51.320 --> 00:37:55.170
+Timo Glastra: Yeah, all right. So
+
+298
+00:37:56.290 --> 00:37:59.440
+Timo Glastra: we have actually incorporated these changes
+
+299
+00:37:59.750 --> 00:38:03.730
+Timo Glastra: from this pr in a
+
+300
+00:38:04.060 --> 00:38:21.839
+Timo Glastra: in the ball that we built ourselves. But there is like it's dependent on a  pr, that is in here. that we're also using. And I think.
+
+301
+00:38:24.180 --> 00:38:25.370
+Timo Glastra: yeah, so
+
+302
+00:38:26.250 --> 00:38:34.310
+Timo Glastra: we need to wait for this to be fully work. So I can look into this again and and try to get this
+
+303
+00:38:34.350 --> 00:38:35.430
+Timo Glastra: marched.
+
+304
+00:38:58.480 --> 00:38:59.370
+Timo Glastra: Okay.
+
+305
+00:39:02.540 --> 00:39:03.720
+Timo Glastra: then
+
+306
+00:39:03.960 --> 00:39:06.119
+Timo Glastra: this one
+
+307
+00:39:06.230 --> 00:39:07.090
+Timo Glastra: and
+
+308
+00:39:07.780 --> 00:39:16.369
+Timo Glastra: Arthur is on the call today. Let me see. So they split up the demo into 2 cases. Yeah, cool.
+
+309
+00:39:16.980 --> 00:39:20.160
+Timo Glastra: the main. And did comfy, too. I think.
+
+310
+00:39:20.170 --> 00:39:26.870
+Timo Glastra: Yeah, we took a really long time to refute this. Pr I left a comment.
+
+311
+00:39:35.490 --> 00:39:48.180
+Timo Glastra: yeah. So I left a comment. that I think it would be easier, maybe, if we can keep the same demo and then have  
+
+312
+00:39:49.330 --> 00:39:59.389
+Timo Glastra: yeah, it just adds like different features to it. So I did. Confi. One did conf me, too, so that you don't have to run completely different demos for different cases.
+
+313
+00:39:59.990 --> 00:40:06.380
+Timo Glastra: yeah. Well. what do people think of it that it now for our to be if any comments on this pr or
+
+314
+00:40:10.230 --> 00:40:13.580
+Artem Ivanov: actually Hello, everyone
+
+315
+00:40:13.580 --> 00:40:41.489
+Artem Ivanov: If they replied the intention was was speaking to them in the parts. It's like there are some models which are optional. for for example, in you voted in as far as it, and you cannot just integrate both with single Dama And in order to demonstrate this capability, we need to create separate demos and similar folders.
+
+316
+00:40:41.490 --> 00:40:53.530
+Artem Ivanov: And this is why I decided to split the get common one. And it's going to be 2 also in the independent Demos. So in future we can create you them as easily
+
+317
+00:41:00.840 --> 00:41:03.239
+Timo Glastra: cool. Yeah,
+
+318
+00:41:04.870 --> 00:41:28.350
+Timo Glastra: I think. I'm I'm fine in general with splitting it up. I think it's just a like if we can prevent by maybe adding like, just if you add a feature that's only available in in some demo, we say like this is not supported within the sk or or something. I just It's always hard to decide to think where to split Demos. because if you're
+
+319
+00:41:28.350 --> 00:41:50.049
+Timo Glastra: are, you gonna do it on dip conversions, or are you gonna do it? Then, on credential formats or exchange layers they call for open id, and then, you get a lot of different demos that yeah, maybe hard to do. But yeah, I think I'm fine with it. If I don't know if anyone else is comments on this.
+
+320
+00:41:53.960 --> 00:41:58.919
+Ariel Gentile: Yeah, I think I think it's I need the approach.
+
+321
+00:41:59.390 --> 00:42:03.019
+Ariel Gentile: I suppose, by Artemis. This is okay.
+
+322
+00:42:03.790 --> 00:42:13.660
+Ariel Gentile: My only concern about which is not related to our team's work is actually because if I don't know if you have seen that
+
+323
+00:42:13.940 --> 00:42:17.770
+Ariel Gentile: I have reviewed the problems on the D on the day more
+
+324
+00:42:18.420 --> 00:42:22.139
+Ariel Gentile: in general. and it seemed
+
+325
+00:42:23.530 --> 00:42:26.820
+Ariel Gentile: the demo as it is right now. It's not
+
+326
+00:42:26.880 --> 00:42:31.140
+Ariel Gentile: working fine. and
+
+327
+00:42:31.490 --> 00:42:38.319
+Ariel Gentile: I think it's related to the problem that we have on the performance for.
+
+328
+00:42:39.450 --> 00:42:44.969
+Ariel Gentile: because you will need to patch the Ref Nappy in order to make it work properly.
+
+329
+00:42:47.170 --> 00:42:48.910
+Ariel Gentile: Yeah. So
+
+330
+00:42:50.850 --> 00:43:00.249
+Ariel Gentile: because I I I I try to run the demo following the steps. We. we say in the read me.
+
+331
+00:43:01.310 --> 00:43:08.659
+Ariel Gentile: and if we I mean, if we do, the the the rip of clone and the young install, and that stuff.
+
+332
+00:43:09.310 --> 00:43:12.270
+Ariel Gentile: It will not patch the
+
+333
+00:43:12.460 --> 00:43:17.570
+Ariel Gentile: because this is something, something that is working only on Ci automatically.
+
+334
+00:43:18.070 --> 00:43:22.210
+Ariel Gentile: So it will work very slowly.
+
+335
+00:43:22.310 --> 00:43:25.190
+Ariel Gentile: And what
+
+336
+00:43:25.330 --> 00:43:33.080
+Ariel Gentile: you will have this, this problem of of time out on, and what has been reported some time ago with a
+
+337
+00:43:33.620 --> 00:43:34.980
+Ariel Gentile: this, you guys.
+
+338
+00:43:36.720 --> 00:43:42.930
+Ariel Gentile: one of your suggesting, I think, was to move the demo to another rapport.
+
+339
+00:43:44.710 --> 00:43:50.540
+Ariel Gentile: So maybe maybe if we are having more and more
+
+340
+00:43:50.600 --> 00:44:00.039
+Ariel Gentile:  yeah. subsets of of of testing or of Demos. Maybe we can do something
+
+341
+00:44:01.070 --> 00:44:08.110
+Ariel Gentile: specific or or a specific repo for for Demos, and to show with different flows. And
+
+342
+00:44:08.300 --> 00:44:10.010
+Ariel Gentile: I'll let
+
+343
+00:44:10.510 --> 00:44:14.780
+Ariel Gentile: on what? Maybe we can do something like that in a future.
+
+344
+00:44:16.250 --> 00:44:24.430
+Timo Glastra: Yeah, I think having a separate demo repo for the demo. Or maybe some example flows, and that kind of stuff. I think that
+
+345
+00:44:25.340 --> 00:44:44.340
+Timo Glastra: I think that's good. because then it we can really simplify the whole setup. You also have to do for the demo. I don't have to need to have all the complex dependencies, and and the issues we have here. and then we can just make the demo repository. Note 18, only.
+
+346
+00:44:44.390 --> 00:44:49.449
+Timo Glastra:  And I think, yeah, that would probably fix a lot of these issues.
+
+347
+00:44:50.190 --> 00:44:55.930
+Ariel Gentile: And now, so maybe I I I imagine that some people will will start
+
+348
+00:44:56.690 --> 00:44:59.409
+Ariel Gentile: from the day most to set up their projects.
+
+349
+00:45:00.580 --> 00:45:07.850
+Ariel Gentile: and if we are, we are already using this. they will not have
+
+350
+00:45:08.240 --> 00:45:17.150
+Ariel Gentile: these issues, because, you know, I know we we we mentioned this in the on the documentation and and and the guides, but usually
+
+351
+00:45:17.780 --> 00:45:27.929
+Ariel Gentile: well, you know, we are usually people try to to test the code and and we'll and we'll only read the documentation if
+
+352
+00:45:28.010 --> 00:45:29.410
+Ariel Gentile: they have a problem.
+
+353
+00:45:30.250 --> 00:45:36.629
+Ariel Gentile: So if we can, if we can prevent them to have the problem, it will be better. I think.
+
+354
+00:45:37.810 --> 00:45:39.930
+Timo Glastra: yeah. that makes sense.
+
+355
+00:45:40.400 --> 00:45:47.830
+Timo Glastra:  okay, anyone object to extracting the demo from this repo.
+
+356
+00:45:50.070 --> 00:45:57.679
+Clecio Varjao: I don't necessarily object. I just want to make it comment that you might also add complexity to maintain
+
+357
+00:45:57.770 --> 00:46:04.600
+Clecio Varjao: the table. because, as the the code, the Api or a new version evolves, now.
+
+358
+00:46:05.000 --> 00:46:11.149
+Clecio Varjao: there's an extra effort to keep that demo updated, and it might be a red the case that it's ready.
+
+359
+00:46:11.230 --> 00:46:15.729
+Clecio Varjao: out of date for that reason. But again, just wanted to
+
+360
+00:46:16.320 --> 00:46:27.210
+Clecio Varjao: raise the risk that the demo becomes kind of after taught. and it will just quickly become abandoned where we check with other projects, kind of what happens.
+
+361
+00:46:28.130 --> 00:46:53.869
+Clecio Varjao: So it depends how much you want to keep it in line with the code, and and if someone is trying, maybe the main branch for Afj maybe has latest features, and they want to demo that one. Now they have to go back to another repository. How do we keep those demo in sick with the features that are available in the May or in the features that were available in the in a previous release. That's going to be a little bit the challenge.
+
+362
+00:46:55.890 --> 00:46:56.550
+Yeah.
+
+363
+00:46:56.780 --> 00:46:59.909
+Timo Glastra: fair fair comment.
+
+364
+00:47:00.480 --> 00:47:03.470
+Charles Lanahan: it's kind of already like that. I mean.
+
+365
+00:47:03.800 --> 00:47:06.989
+Charles Lanahan: I don't think the demo is working for the past 4 months
+
+366
+00:47:07.660 --> 00:47:11.649
+Charles Lanahan: it. It probably should hook into the Cic or capital to date, because
+
+367
+00:47:12.080 --> 00:47:15.740
+Charles Lanahan: because certainly when I came to the project, the first thing I did was, look at the demo
+
+368
+00:47:15.810 --> 00:47:19.410
+Charles Lanahan: to try to, you know, get an idea of how to kind of do stuff. And and
+
+369
+00:47:19.950 --> 00:47:25.449
+Charles Lanahan: there, there, I just got a different mistake every time. So it was fixed. So it was a little frustrating.
+
+370
+00:47:26.480 --> 00:47:31.049
+Charles Lanahan: Putting in another, you know, makes it a little harder to to.
+
+371
+00:47:32.150 --> 00:47:33.950
+Clecio Varjao: Yeah. So it it may be.
+
+372
+00:47:34.190 --> 00:47:45.870
+Clecio Varjao: I mean, what's missing is that demo, as you mentioned that that demo has to be C, I, CD and tested as part of the build flow. That's another test that it needs to be passed.
+
+373
+00:47:46.720 --> 00:47:51.689
+Ariel Gentile: Yeah. But but but do you think that we can
+
+374
+00:47:52.180 --> 00:47:59.680
+Ariel Gentile: run the the ref Nappy patch if we put it into the the resolutions of this package that Jason
+
+375
+00:48:00.500 --> 00:48:01.530
+Ariel Gentile: or
+
+376
+00:48:02.410 --> 00:48:04.599
+Ariel Gentile: I mean they need it.
+
+377
+00:48:06.320 --> 00:48:13.360
+Timo Glastra: We could maybe by. like, the problem is that in
+
+378
+00:48:13.970 --> 00:48:39.350
+Timo Glastra: I think there's a few problems. we could add it as a dependency, and not with like the resolution. The problem, then, is that the package is published to only work with. Note 18. So if you try to, then run your on install in the whole repo in in in Node 16, it will give, I think, an error, or, like your note engine is not compatible with this package, and then it can install it.
+
+379
+00:48:39.370 --> 00:48:49.700
+Timo Glastra: If you were to bypass that issue we could, I think, do it manually in the demo with a resolution
+
+380
+00:48:50.240 --> 00:48:55.210
+Timo Glastra:  field or something, or we could just like
+
+381
+00:48:55.320 --> 00:48:57.039
+Timo Glastra: check that. If you're
+
+382
+00:48:57.200 --> 00:49:03.119
+Timo Glastra: not in Note 18, we to an hour either way, like and we
+
+383
+00:49:03.160 --> 00:49:16.719
+Timo Glastra: create an alias for the Ref. May not be packet, so it it always used like the your patch version. I think that that should be possible. But we it would require some work and changes to the fact just and how we set things up.
+
+384
+00:49:25.170 --> 00:49:29.740
+Timo Glastra:  yeah, I do think.
+
+385
+00:49:30.770 --> 00:49:48.280
+Timo Glastra: there are some things to consider here. Maybe some potential benefits with extracting. It is that We currently now have to keep it up to date with every every change in
+
+386
+00:49:48.990 --> 00:50:14.710
+Timo Glastra: the repository, which is good. But if we don't do it, it's it's there's a lot more potential to break it. Well, if you extract it it can never be broken, basically. because you always use a version of a and the only thing it can is that it becomes outdated. But I'm not sure what's worse, and outdated or broken, Demo.
+
+387
+00:50:20.930 --> 00:50:24.850
+Charles Lanahan: but broken, broken, is worse, I I think in my opinion.
+
+388
+00:50:25.020 --> 00:50:41.270
+Charles Lanahan: outdated is like, Oh, we don't do that anymore when you ask a question, but broken is like, What did I do wrong, as as especially as a beginner coming in  It's hard to tell whether the error is like mine. it doesn't demo or or if it's the demo itself. It's that's hearing out.
+
+389
+00:50:43.210 --> 00:50:47.710
+Ariel Gentile: Yeah, yeah, it's like, it's like they they did the right right. It's like.
+
+390
+00:50:47.950 --> 00:50:57.179
+Ariel Gentile: if we wanted to to have to to keep the the deduction in the same repo, because we want to make sure that it is always up to date. But it's
+
+391
+00:50:57.660 --> 00:51:00.069
+Ariel Gentile: it is not necessarily true.
+
+392
+00:51:00.560 --> 00:51:06.570
+Ariel Gentile: because we are not running the demo on the C Icd step. So
+
+393
+00:51:07.040 --> 00:51:10.410
+Ariel Gentile: it happens, what is happening right now.
+
+394
+00:51:10.600 --> 00:51:15.029
+Ariel Gentile: even if it's there, it's it's broken. So. Yeah.
+
+395
+00:51:15.760 --> 00:51:22.229
+Ariel Gentile: but I by, I totally understand what, what, what, what cliche says. It's it's true that we will need to to
+
+396
+00:51:22.630 --> 00:51:26.779
+Ariel Gentile: to keep an eye on on on other people as well. So yeah.
+
+397
+00:51:26.870 --> 00:51:29.250
+Ariel Gentile: it will be a little bit more of
+
+398
+00:51:29.610 --> 00:51:30.630
+Ariel Gentile: work. But
+
+399
+00:51:31.790 --> 00:51:33.820
+Ariel Gentile: I I think
+
+400
+00:51:35.620 --> 00:51:38.879
+Timo Glastra: I mean I I know when when we make like a new
+
+401
+00:51:39.150 --> 00:51:47.929
+Timo Glastra: big release. Also, I need to update the dogs at migration guides to the documentation website. So I think updating the Demo.
+
+402
+00:51:48.170 --> 00:52:00.270
+Timo Glastra: It's probably not that much work. and then we would have at least a stable demo that doesn't break with every commit, because I think running it in Ci is quite
+
+403
+00:52:00.340 --> 00:52:09.020
+Timo Glastra: complex because it's a cli tool. So then we would have to write text for a cli and interact the cli
+
+404
+00:52:09.360 --> 00:52:16.450
+Timo Glastra: kind of interface which I'm not sure is worth the complexity.
+
+405
+00:52:26.910 --> 00:52:28.490
+Charles Lanahan: Yeah, that makes sense.
+
+406
+00:52:35.030 --> 00:52:37.060
+Timo Glastra: okay? So
+
+407
+00:52:37.540 --> 00:52:43.970
+Timo Glastra: yeah, I would then propose to to yeah, extract it and that we
+
+408
+00:52:44.290 --> 00:52:53.539
+Timo Glastra: update it for like, because it shouldn't even break between like 2 or 4, 1 0 for 2. So it should only break whenever
+
+409
+00:52:53.550 --> 00:53:03.509
+Timo Glastra:  whenever a a breaking change release is made, which is like not often
+
+410
+00:53:03.730 --> 00:53:05.020
+Timo Glastra: currently
+
+411
+00:53:11.260 --> 00:53:19.709
+Timo Glastra:  let me see this. This can now be
+
+412
+00:53:23.480 --> 00:53:26.219
+Timo Glastra: some. Just a comment,
+
+413
+00:53:26.980 --> 00:53:27.780
+Timo Glastra: okay.
+
+414
+00:53:27.960 --> 00:53:30.650
+Timo Glastra:  then
+
+415
+00:54:09.080 --> 00:54:10.740
+Timo Glastra: cool anyone that
+
+416
+00:54:10.990 --> 00:54:12.970
+Timo Glastra: would like to pick up this issue.
+
+417
+00:54:31.480 --> 00:54:34.630
+Timo Glastra: Okay? And for now at
+
+418
+00:54:37.030 --> 00:54:43.640
+Timo Glastra: this one here and then someone can pick it up when we have the time.
+
+419
+00:54:44.090 --> 00:54:50.679
+Timo Glastra:  let me see any Pr. We
+
+420
+00:54:51.210 --> 00:54:53.879
+Timo Glastra: haven't discussed yet.
+
+421
+00:54:54.320 --> 00:55:00.530
+Timo Glastra:  we discussed this one.
+
+422
+00:55:00.920 --> 00:55:01.600
+Timo Glastra: Oh.
+
+423
+00:55:01.770 --> 00:55:05.970
+Timo Glastra: but we didn't finish this one. but I think.
+
+424
+00:55:16.980 --> 00:55:20.170
+Timo Glastra:  okay.
+
+425
+00:55:21.090 --> 00:55:22.600
+Timo Glastra: then I think,
+
+426
+00:55:23.910 --> 00:55:25.219
+Timo Glastra: we can
+
+427
+00:55:26.150 --> 00:55:28.020
+Timo Glastra: get this merged.
+
+428
+00:55:31.160 --> 00:55:34.230
+Timo Glastra: can you resolve the conflicts
+
+429
+00:55:34.380 --> 00:55:35.130
+Artem Ivanov: cool.
+
+430
+00:55:37.330 --> 00:55:38.149
+Timo Glastra: Thank you.
+
+431
+00:55:39.850 --> 00:55:55.519
+Timo Glastra: no, not this one, this one.  are any comments on this one? Do we need to discuss anything about this? Pr.
+
+432
+00:55:55.590 --> 00:55:58.040
+Ariel Gentile: yeah, it was I.
+
+433
+00:55:58.540 --> 00:56:06.350
+Ariel Gentile: I I did a. A. A branch to others. This this, what? What we discussed last week?
+
+434
+00:56:07.550 --> 00:56:13.679
+Ariel Gentile:  maybe we you you can open open their these, the link
+
+435
+00:56:13.790 --> 00:56:15.240
+Ariel Gentile: you will see the changes.
+
+436
+00:56:20.750 --> 00:56:21.610
+Ariel Gentile: So
+
+437
+00:56:22.530 --> 00:56:26.149
+Ariel Gentile: what I don't like about this approach is that
+
+438
+00:56:26.380 --> 00:56:27.460
+Ariel Gentile: we are
+
+439
+00:56:29.430 --> 00:56:35.180
+Ariel Gentile: I mean the the the code is quite a straightforward 3 and 2. I mean, it's
+
+440
+00:56:35.470 --> 00:56:39.219
+Ariel Gentile: just a few lines of cover. But what I don't like is that
+
+441
+00:56:39.430 --> 00:56:42.770
+Ariel Gentile: we are. We are.
+
+442
+00:56:43.000 --> 00:56:48.930
+Ariel Gentile: We are having you on great Api. and it's config
+
+443
+00:56:49.860 --> 00:56:53.530
+Ariel Gentile: as a dependency of the services.
+
+444
+00:56:55.400 --> 00:56:56.740
+Ariel Gentile: So
+
+445
+00:56:58.510 --> 00:57:04.460
+Ariel Gentile: it's not something that I mean, it's not something natural, I will say right.
+
+446
+00:57:05.750 --> 00:57:09.200
+Ariel Gentile: and also the
+
+447
+00:57:11.390 --> 00:57:12.300
+Ariel Gentile: I
+
+448
+00:57:12.660 --> 00:57:25.429
+Ariel Gentile: I think that it's it would be more straightforward to if if we can have this this auto create link, secret configuration
+
+449
+00:57:25.620 --> 00:57:31.590
+Ariel Gentile: as a configuration of the of an ongrade erase or
+
+450
+00:57:32.480 --> 00:57:33.880
+Ariel Gentile: in the SDK
+
+451
+00:57:35.370 --> 00:57:36.650
+Ariel Gentile: directly.
+
+452
+00:57:37.090 --> 00:57:43.030
+Ariel Gentile: so in that in that way we will not be dependent on the on the
+
+453
+00:57:43.250 --> 00:57:44.240
+Ariel Gentile: module.
+
+454
+00:57:44.570 --> 00:57:48.900
+Ariel Gentile: but only on our own configuration.
+
+455
+00:57:57.270 --> 00:58:04.570
+Ariel Gentile: because we we are using a I I config parameter from anon credits from another module.
+
+456
+00:58:06.330 --> 00:58:14.939
+Ariel Gentile: So if if an ongraduate is, say something, and we we are, it's up to us to to implement it or not.
+
+457
+00:58:15.010 --> 00:58:24.249
+Ariel Gentile: No, no one will force us to to do what they config. They didn't do the I don't. Chris. Module conflict size, I mean
+
+458
+00:58:24.350 --> 00:58:28.999
+Ariel Gentile: we. If we, if we create another implementation of an on credits.
+
+459
+00:58:29.580 --> 00:58:31.999
+Ariel Gentile: I don't know. I don't. Great
+
+460
+00:58:33.020 --> 00:58:35.659
+Ariel Gentile: anything. I see. C. I don't know.
+
+461
+00:58:35.950 --> 00:58:39.130
+Ariel Gentile: and we we create a an another module.
+
+462
+00:58:39.330 --> 00:58:44.470
+Ariel Gentile: and we are not following this
+
+463
+00:58:45.310 --> 00:58:49.990
+Ariel Gentile: this secret parameter. Nobody will know about that.
+
+464
+00:58:51.810 --> 00:58:53.679
+Ariel Gentile: So I don't know.
+
+465
+00:58:55.060 --> 00:58:56.650
+Timo Glastra: Yeah, I think
+
+466
+00:58:57.310 --> 00:58:57.990
+Timo Glastra: it
+
+467
+00:58:58.830 --> 00:59:04.900
+Timo Glastra: from a user perspective. I would say it makes more sense to it in the autocrats. module.
+
+468
+00:59:14.530 --> 00:59:16.969
+Timo Glastra: Do you also think that? Or
+
+469
+00:59:18.380 --> 00:59:28.760
+Ariel Gentile: I for me it it will be the same, because we will need to to instance both an oncress module and an oncress Eros module.
+
+470
+00:59:29.710 --> 00:59:36.129
+Ariel Gentile: So, using the configuration in one or another, it will something that will we be always
+
+471
+00:59:36.940 --> 00:59:41.159
+Ariel Gentile: it will be on this, on the same constructor in in in the end.
+
+472
+00:59:43.200 --> 00:59:44.900
+Timo Glastra: Yeah. yeah.
+
+473
+00:59:45.380 --> 00:59:53.099
+Timo Glastra: I think the default failure is true. So probably most people won't have to deal with this config option ever
+
+474
+00:59:58.940 --> 01:00:03.060
+Timo Glastra: anyone has an opinion on this. I I see we're over time. So
+
+475
+01:00:04.360 --> 01:00:09.540
+Timo Glastra: anyone has like from objection or like agreement for either of the 2.
+
+476
+01:00:14.840 --> 01:00:21.560
+Clecio Varjao: Yeah, I it again to we. I've identified this. This is really, I don't think we are
+
+477
+01:00:21.890 --> 01:00:28.039
+Clecio Varjao: where they need this to go. It's just a matter of should be work out of the box.
+
+478
+01:00:30.070 --> 01:00:36.639
+Clecio Varjao: But if you have any orientation guidance, yeah, please. provide us a comment. And I can talk to Jason about it.
+
+479
+01:00:56.930 --> 01:00:59.390
+Timo Glastra: Okay. I think, yeah.
+
+480
+01:01:00.000 --> 01:01:08.390
+Timo Glastra: both are fine for me. So I think your approach is is is good to me as well.
+
+481
+01:01:08.720 --> 01:01:21.839
+Timo Glastra:  okay. Let's well, yeah, we're out of time. I think we almost got to all of the Pr's except for
+
+482
+01:01:25.120 --> 01:01:31.639
+Ariel Gentile: yeah, the the in in memory recreation. It. It's a very simple one. It's okay.
+
+483
+01:01:31.800 --> 01:01:35.609
+Ariel Gentile: It's just to to to fix the issue that
+
+484
+01:01:35.690 --> 01:01:38.539
+Ariel Gentile: Charles, Found some time ago
+
+485
+01:01:38.790 --> 01:01:41.810
+Ariel Gentile: that we cannot use the in in memory
+
+486
+01:01:41.890 --> 01:01:43.709
+Ariel Gentile: wallet for Ascar.
+
+487
+01:01:45.110 --> 01:01:50.119
+Timo Glastra: Okay, I'll take a look at it and review it.
+
+488
+01:01:50.300 --> 01:01:51.080
+Ariel Gentile: Okay.
+
+489
+01:01:51.990 --> 01:01:52.700
+Timo Glastra: perfect.
+
+490
+01:01:53.500 --> 01:01:58.010
+Timo Glastra: All right. Thanks. Everyone for joining today. And
+
+491
+01:01:58.270 --> 01:02:16.059
+Timo Glastra: I'll see you or or I'm at a vacation next week. So yeah, I'll post in discord. Maybe somebody else will take over. But I think we'll just cancel for next week, because there's like less going on these these weeks either way. So then we can just skip the the meeting for a week.
+
+492
+01:02:16.440 --> 01:02:17.540
+Ariel Gentile: All right.
+
+493
+01:02:18.530 --> 01:02:20.399
+Timo Glastra: Alright. thanks to Ron.
+
+494
+01:02:20.540 --> 01:02:23.300
+Timo Glastra: You'll see later, right.
+

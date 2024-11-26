@@ -1,0 +1,1910 @@
+WEBVTT
+
+1
+00:07:26.670 --> 00:07:28.619
+Timo Glastra: Good afternoon, everyone.
+
+2
+00:07:32.370 --> 00:07:33.360
+Kalin Canov: Good afternoon
+
+3
+00:07:35.380 --> 00:07:36.280
+Charles Lanahan: definitely.
+
+4
+00:07:38.270 --> 00:07:41.050
+Jorge Flores: I'm on. Good day tomorrow.
+
+5
+00:07:41.530 --> 00:07:42.490
+Timo Glastra: Hi, there!
+
+6
+00:07:45.270 --> 00:07:49.729
+Timo Glastra:  So let me share a link again.
+
+7
+00:07:52.390 --> 00:07:55.770
+Timo Glastra: Let's wait one more minutes and we can get started.
+
+8
+00:08:22.330 --> 00:08:23.320
+Timo Glastra: All right.
+
+9
+00:08:23.660 --> 00:08:31.690
+Timo Glastra: Let's get started. look, I've run today, or something with Javascript working recall of June fifteenth.
+
+10
+00:08:31.870 --> 00:08:52.900
+Timo Glastra: I need to remember you to buy but a high pledge of conduct and the anti-trust policy. and if you would like to add yourself to the tennis list for free to do so. I've shared the meeting links in the chat. is anyone new here today that would like to introduce themselves or share what they're working on.
+
+11
+00:08:54.680 --> 00:08:57.749
+Kalin Canov: Well, maybe me. I can start
+
+12
+00:08:58.470 --> 00:09:08.849
+Kalin Canov: I've been once, I think, on on that meeting, but was kind of a like a year ago or so. My name is Colin.
+
+13
+00:09:08.860 --> 00:09:12.460
+Kalin Canov: and we are from the Rain Company.
+
+14
+00:09:12.950 --> 00:09:21.740
+Kalin Canov: So we're working on an interesting project related to you. I mean, related to exchanging data and information through a did call message.
+
+15
+00:09:21.790 --> 00:09:26.949
+And one of the reason why I here just to check, maybe later on, there is a Q. And a session
+
+16
+00:09:27.260 --> 00:09:39.700
+Kalin Canov: in regards to Didcom version 2. I think there is a branch there and just wanted to see if someone is working. If company is, there is someone assign it. If there is a definite tasks.
+
+17
+00:09:40.430 --> 00:09:46.150
+Kalin Canov: and if there is a to find a task which are kind of a clear, maybe we can
+
+18
+00:09:46.350 --> 00:09:51.960
+Kalin Canov: to share some of our great developers, to to help and finalize that
+
+19
+00:09:52.510 --> 00:09:54.410
+Kalin Canov: not part of the framework.
+
+20
+00:09:56.160 --> 00:10:07.299
+Timo Glastra: Yeah, cool. Good here and welcome. I think I added it for the agenda for today. if Artem is here to give an update, but we can definitely discuss it. Yeah.
+
+21
+00:10:07.520 --> 00:10:08.320
+Timo Glastra: cool.
+
+22
+00:10:08.670 --> 00:10:09.700
+Kalin Canov: Very good.
+
+23
+00:10:10.100 --> 00:10:11.610
+Kalin Canov: Who knows?
+
+24
+00:10:13.450 --> 00:10:21.760
+Jorge Flores: Everyone. I'm Laura here, float us I'm here with a couple of my team members first time on this call.
+
+25
+00:10:21.900 --> 00:10:26.010
+Jorge Flores: we've been long time followers of the Ariz community
+
+26
+00:10:26.240 --> 00:10:34.760
+Jorge Flores: consumers of of the work. that this great community has been contributing we are
+
+27
+00:10:34.780 --> 00:10:43.829
+Jorge Flores: part of that, we're a social impact startup who are in the process of building technology for underserved communities.
+
+28
+00:10:43.900 --> 00:10:46.559
+Jorge Flores: and our first used case is
+
+29
+00:10:46.850 --> 00:10:49.909
+Jorge Flores: for a farm worker.
+
+30
+00:10:49.990 --> 00:10:51.669
+Jorge Flores: Mobile wallet
+
+31
+00:10:51.990 --> 00:10:55.769
+Jorge Flores: actually built on top of Aries.
+
+32
+00:10:56.330 --> 00:10:59.480
+And we're hoping for an opportunity to present today
+
+33
+00:10:59.500 --> 00:11:03.049
+Jorge Flores: a demo of a low code wallet engine
+
+34
+00:11:03.160 --> 00:11:08.909
+Jorge Flores: that is built on top of this great community. The Ares framework. Javascript.
+
+35
+00:11:09.070 --> 00:11:41.779
+Timo Glastra:  cool. Yeah. definitely want to have that demo. So I think we can edit to the to the to the end of the agenda. we do really. want to discuss some wallet Api stuff today, because we've, I think, already postponed it for like 6 6 weeks but if there's still time left, and otherwise we can put it first thing on next week's call. If that's okay.
+
+36
+00:11:41.780 --> 00:11:44.899
+Ariel Gentile: if we can do this demo before, because
+
+37
+00:11:44.990 --> 00:11:51.700
+Ariel Gentile: I know that for her case is very hard to to. I think this meeting is 6 Am. They are so
+
+38
+00:11:52.090 --> 00:12:00.299
+Ariel Gentile: I prefer to to just and be sure that that he will be able to do this stuff, because
+
+39
+00:12:00.430 --> 00:12:01.130
+you know.
+
+40
+00:12:01.350 --> 00:12:04.430
+Timo Glastra: okay.
+
+41
+00:12:06.340 --> 00:12:20.850
+Timo Glastra: yeah, no. Cool. Then don't worry it it. The Api will be very, very quick as well. So don't worry about it. Yeah, yeah, no. I just want I didn't want to push you forward again. But if you're okay with it and
+
+42
+00:12:21.500 --> 00:12:26.340
+Timo Glastra: cool anyone else that would like to introduce themselves.
+
+43
+00:12:26.640 --> 00:12:28.150
+Zdravko Iliev: Okay, everyone.
+
+44
+00:12:28.160 --> 00:12:36.280
+Zdravko Iliev: I'm Colleen is my teammate, and he already explains about the our project.
+
+45
+00:12:37.850 --> 00:12:51.719
+Timo Glastra: Cool, good to have here. They also together with us. We have, Bobby, I think you a couple of times you exchange some messages back and forth with Bobby. He's also, I mean from our team, together with Alex saloon in. So
+
+46
+00:12:52.460 --> 00:12:55.379
+Kalin Canov: I think you might already, I mean, at least virtually.
+
+47
+00:12:55.400 --> 00:12:59.669
+And if I'm not mistaken, last week you met in in jury
+
+48
+00:12:59.770 --> 00:13:03.470
+Kalin Canov: our. C,
+
+49
+00:13:03.520 --> 00:13:13.779
+Timo Glastra: yeah, the discussion. I'm I'm did comfy, too. And yeah, he said, your team will join this week's call So
+
+50
+00:13:15.920 --> 00:13:22.450
+Timo Glastra: cool. well, I see Yaku based on the call. Also again today, welcome, Yaku.
+
+51
+00:13:22.500 --> 00:13:24.230
+Timo Glastra: Long time. No see?
+
+52
+00:13:24.530 --> 00:13:30.210
+Timo Glastra:  yeah. Hi, hi, guys, bye, guys for a long time. So yeah.
+
+53
+00:13:30.300 --> 00:13:34.410
+Jakub Koci: today, just just watching from like, only but
+
+54
+00:13:34.470 --> 00:13:36.109
+Jakub Koci: great to be here again.
+
+55
+00:13:36.280 --> 00:13:37.690
+Timo Glastra: Yeah, cool.
+
+56
+00:13:39.260 --> 00:14:00.209
+Timo Glastra:  Okay. So on the agenda for today. we have a demo from our hey? I want to do a quick update on 0 for 0 release, just like we have released it. What state is What's next steps? and we have to wallet Api discussion.
+
+57
+00:14:00.670 --> 00:14:20.989
+Timo Glastra: we have a discomfort to discussion. If our item is here today, and otherwise like, let's see what blocks left, and how can we get it merged? And then there was some stuff on the Revocation Pr. From Ariel and and other open issues, Pr, and and and that kind of stuff, any any important things we need to add to the agenda
+
+58
+00:14:21.030 --> 00:14:28.020
+Timo Glastra: Otherwise we can also add them to the future topics, or for next week. But yeah, please shout if you if you want something discussed.
+
+59
+00:14:38.090 --> 00:14:41.159
+Timo Glastra: all right, then
+
+60
+00:14:41.320 --> 00:14:44.839
+Timo Glastra: or hey, can you? Do you want to share your screen?
+
+61
+00:14:45.250 --> 00:14:56.279
+Jorge Flores: Yeah. So we'll just do. Briefly. I'll just introduce kind of the the project, and just have a couple of slides, and then I'll hand it over to Acker, who actually be presenting the demo
+
+62
+00:14:57.590 --> 00:14:58.620
+Timo Glastra: perfect.
+
+63
+00:15:12.010 --> 00:15:18.159
+Jorge Flores: Okay? So to begin just to get some context what we're doing is
+
+64
+00:15:18.250 --> 00:15:23.229
+Jorge Flores: we, we're building an Ares digital trust ecosystem
+
+65
+00:15:23.290 --> 00:15:32.870
+Jorge Flores: to facilitate phone work or serving organizations to transact digitally in a secure and privacy for certain matter.
+
+66
+00:15:32.880 --> 00:15:43.389
+Jorge Flores: historically, here in the Us. by the way, we're we're based on the United States. I'm in Southern California, and our current is in South Africa.
+
+67
+00:15:43.580 --> 00:15:49.330
+Jorge Flores:  Historically, the farmers are excluded from us labor laws.
+
+68
+00:15:49.580 --> 00:15:53.169
+Jorge Flores: and you know their essential workforce
+
+69
+00:15:53.200 --> 00:15:55.030
+the back of our food supply chain.
+
+70
+00:15:55.180 --> 00:16:06.939
+Jorge Flores: And so we're open that with technology that we're building will allow farm workers to be able to trust trust technology, learn to trust technology
+
+71
+00:16:07.440 --> 00:16:18.479
+Jorge Flores: and be able to. Do. You know, transact digitally? this is an example. These are screenshots of a of an app that we've developed on top of. it's a react native app.
+
+72
+00:16:18.810 --> 00:16:31.149
+Jorge Flores: and the idea that for the for the app is to serve as a single channel from a farm worker perspective, a wallet holder can
+
+73
+00:16:31.270 --> 00:16:36.599
+Jorge Flores: build a digital identity profile that makes it easier for them to access services
+
+74
+00:16:37.730 --> 00:16:42.150
+Jorge Flores: So this, this this app we call that Spanish for get ready
+
+75
+00:16:42.290 --> 00:16:58.549
+Jorge Flores:  prepare yourself, and that's in the context of a farmer or large, comprehensive farm worker immigration reform that we're expecting from from our government to give farm workers a past to
+
+76
+00:16:58.550 --> 00:17:15.109
+Jorge Flores: legal residency or citizenship. And so the idea is that here's an app where you can collect your information, build your identity profile, and then have the means to in Aries enabled ecosystem Gdc, credential exchange, etc., to be able to transact
+
+77
+00:17:15.619 --> 00:17:20.630
+Jorge Flores: And so we have one service that's live in the in the app. and that is allevi
+
+78
+00:17:20.869 --> 00:17:26.050
+Jorge Flores: the pandemic relief. It's a program.
+
+79
+00:17:26.109 --> 00:17:37.699
+Jorge Flores: funded. By the by, the you you United States Department of Agriculture. So our client the United the United Phone Workers Foundation
+
+80
+00:17:37.720 --> 00:17:41.179
+Jorge Flores: and a Sixist organizations were recipient of the current
+
+81
+00:17:41.230 --> 00:17:50.799
+Jorge Flores: from the Usda of almost a hundred 1 million dollars to distribute in direct pandemic assistance to eligible farm workers in the form of $600 payments.
+
+82
+00:17:52.580 --> 00:17:58.589
+Jorge Flores:  so that's kind of been on a show we we're at
+
+83
+00:17:58.850 --> 00:18:01.040
+And now I'll pass it over to
+
+84
+00:18:01.130 --> 00:18:03.949
+Jorge Flores: to present
+
+85
+00:18:04.290 --> 00:18:13.519
+Jorge Flores: the framework that we we develop on top of Aries. Js, that really serves as the wallet engine for the app.
+
+86
+00:18:13.620 --> 00:18:21.480
+Jorge Flores: And the idea is that this we're building on top of a low code platform. And the idea is that we could take this wet wallet engine
+
+87
+00:18:21.590 --> 00:18:33.170
+Jorge Flores: and allow other communities, other developers to build similar apps for their respective constituents. So I'll just that's over to. Okay.
+
+88
+00:18:34.610 --> 00:18:40.950
+Ockert van Schalkwyk: Hello, everybody. I'm okay. Also from into that. And I'll show you some of our progress.
+
+89
+00:18:45.590 --> 00:18:47.279
+Ockert van Schalkwyk: Just a second.
+
+90
+00:18:50.060 --> 00:18:51.559
+Ockert van Schalkwyk: And you see my screen.
+
+91
+00:18:52.540 --> 00:18:53.380
+Timo Glastra: Yeah.
+
+92
+00:18:56.180 --> 00:18:57.510
+Ockert van Schalkwyk: Okay.
+
+93
+00:18:57.840 --> 00:19:06.420
+Ockert van Schalkwyk:  On the left hand side we have the BC wallet demo. And on the right hand side is the
+
+94
+00:19:06.880 --> 00:19:10.710
+Ockert van Schalkwyk: progress, using every chase in our platform. Index.
+
+95
+00:19:10.820 --> 00:19:14.890
+Ockert van Schalkwyk: No, just fire up. The agent whoops
+
+96
+00:20:02.420 --> 00:20:04.050
+Ockert van Schalkwyk: just a second.
+
+97
+00:20:08.790 --> 00:20:10.180
+Ockert van Schalkwyk: Go ahead again.
+
+98
+00:20:28.040 --> 00:20:29.810
+Ockert van Schalkwyk: It would not.
+
+99
+00:21:15.210 --> 00:21:21.110
+Ockert van Schalkwyk: Okay. So our agents initialized and we can get started with the BC. Demo.
+
+100
+00:21:32.410 --> 00:21:37.079
+Ockert van Schalkwyk: and we're not gonna use this wallet. We can use. Our own agent
+
+101
+00:21:38.340 --> 00:21:40.170
+Ockert van Schalkwyk: established the connection.
+
+102
+00:21:48.790 --> 00:21:59.450
+Ockert van Schalkwyk: and there's a connection established. We from base PC, college. And there's a credential claim student. First.
+
+103
+00:22:00.040 --> 00:22:01.409
+all right.
+
+104
+00:22:16.120 --> 00:22:19.470
+Ockert van Schalkwyk: Okay, and then we can go move on with the next of the
+
+105
+00:22:20.830 --> 00:22:21.670
+Ockert van Schalkwyk: and
+
+106
+00:22:22.230 --> 00:22:25.719
+where you can get a discount like an online store.
+
+107
+00:22:26.290 --> 00:22:31.220
+Ockert van Schalkwyk: And we have this. the connection is established with, we see college.
+
+108
+00:22:31.400 --> 00:22:37.600
+Ockert van Schalkwyk: and we have, the single credential student card. And with that
+
+109
+00:22:38.000 --> 00:22:39.220
+Ockert van Schalkwyk: credential
+
+110
+00:22:39.660 --> 00:22:41.599
+and the connection to.
+
+111
+00:22:41.690 --> 00:22:48.700
+Ockert van Schalkwyk: we're going to establish a cool connection to cool, close online. And we can student card.
+
+112
+00:23:01.260 --> 00:23:03.580
+Ockert van Schalkwyk: And now cool, close online.
+
+113
+00:23:03.600 --> 00:23:06.399
+wants us to present our student card.
+
+114
+00:23:25.220 --> 00:23:29.989
+Ockert van Schalkwyk: And the next one we want to book a study room. I need our student code again.
+
+115
+00:24:04.080 --> 00:24:10.750
+Ockert van Schalkwyk: And that concludes the demonstration for this. We can also demonstrate.
+
+116
+00:24:12.680 --> 00:24:15.100
+Ockert van Schalkwyk: that.
+
+117
+00:24:15.590 --> 00:24:20.180
+Ockert van Schalkwyk: So on the left hand side, I have another phone that I'm mirroring.
+
+118
+00:24:20.430 --> 00:24:21.870
+We can
+
+119
+00:24:24.170 --> 00:24:25.949
+just second
+
+120
+00:24:37.040 --> 00:24:39.369
+Ockert van Schalkwyk: start the agent this side.
+
+121
+00:25:02.840 --> 00:25:04.910
+Ockert van Schalkwyk: we can produce the invite.
+
+122
+00:25:08.020 --> 00:25:10.130
+Ockert van Schalkwyk: scan it with the other phone.
+
+123
+00:25:14.720 --> 00:25:20.649
+Ockert van Schalkwyk: So now are established in the 2 license.
+
+124
+00:25:20.720 --> 00:25:23.239
+Ockert van Schalkwyk: and we can use that call messaging.
+
+125
+00:25:24.550 --> 00:25:30.330
+Ockert van Schalkwyk:  you know, basic checks.
+
+126
+00:25:41.640 --> 00:25:43.490
+That's what we have to demonstrate.
+
+127
+00:25:51.950 --> 00:25:52.730
+Timo Glastra: Cool.
+
+128
+00:25:54.110 --> 00:25:55.500
+Timo Glastra: I
+
+129
+00:25:56.130 --> 00:26:05.449
+Timo Glastra: I would be curious. Could you tell a bit more on the like? The the mending part of it and the the the low code stuff?
+
+130
+00:26:06.450 --> 00:26:09.599
+Ockert van Schalkwyk: Okay, yes, that's also relevant.
+
+131
+00:26:09.750 --> 00:26:14.410
+I'll show you a bit more about the tool. Can you see the screen?
+
+132
+00:26:16.630 --> 00:26:23.910
+Ockert van Schalkwyk: so this is the ide. It's a very graphical kind of way of programming.
+
+133
+00:26:24.260 --> 00:26:30.549
+Ockert van Schalkwyk: You have a database designer. You can set up your tables entities, as they call it.
+
+134
+00:26:31.070 --> 00:26:34.910
+in Mendix you have a a
+
+135
+00:26:35.940 --> 00:26:52.250
+Ockert van Schalkwyk: where you can design your flows and flows, can execute in a client or on the server. The survey executes in Java and in the client in Javascript, the Javascript and the Javascript run their browser all in in react native.
+
+136
+00:26:52.530 --> 00:26:59.660
+Ockert van Schalkwyk: and you can extend the stock actions with custom actions. For example, this one
+
+137
+00:27:00.060 --> 00:27:01.589
+it's
+
+138
+00:27:04.250 --> 00:27:07.610
+Ockert van Schalkwyk: deleting the connection by Id.
+
+139
+00:27:07.810 --> 00:27:13.450
+Ockert van Schalkwyk: and then you can create your own custom actions. And we're using
+
+140
+00:27:15.150 --> 00:27:18.189
+Ockert van Schalkwyk: Aries. I have J
+
+141
+00:27:20.250 --> 00:27:26.339
+Ockert van Schalkwyk: connections, and for the manage also as a graphical page designer.
+
+142
+00:27:26.350 --> 00:27:31.030
+Ockert van Schalkwyk: So you, you can also very easily design
+
+143
+00:27:31.740 --> 00:27:36.340
+Ockert van Schalkwyk: pages, buttons inputs, and things of this nature.
+
+144
+00:27:37.660 --> 00:27:43.530
+Ockert van Schalkwyk: And we took the most of the library and
+
+145
+00:27:43.950 --> 00:27:45.770
+created custom
+
+146
+00:27:46.090 --> 00:27:47.500
+Ockert van Schalkwyk: actions.
+
+147
+00:27:47.960 --> 00:27:51.129
+Ockert van Schalkwyk: for most of the Api functions.
+
+148
+00:27:57.660 --> 00:28:01.689
+Ockert van Schalkwyk: and that's a bit more about the Mendics tool tool that we're using.
+
+149
+00:28:05.730 --> 00:28:11.810
+Jorge Flores: I just add a little more little more color to to. To Mendix
+
+150
+00:28:12.210 --> 00:28:13.720
+Jorge Flores: Mendix is a
+
+151
+00:28:14.060 --> 00:28:20.940
+Jorge Flores: local platform, their their leader in in in that particular space is a low code application platform.
+
+152
+00:28:21.160 --> 00:28:23.090
+Jorge Flores: if you look up
+
+153
+00:28:23.320 --> 00:28:25.979
+Jorge Flores: if you go to mendix.com
+
+154
+00:28:26.570 --> 00:28:29.869
+Jorge Flores: Their their leader is in the Gartner Magic Quadrant.
+
+155
+00:28:30.000 --> 00:28:31.970
+Jorge Flores: mendix.
+
+156
+00:28:32.000 --> 00:28:34.559
+Jorge Flores: both
+
+157
+00:28:34.960 --> 00:28:41.060
+Jorge Flores: a thriving developer community of 300,000 across the across the globe.
+
+158
+00:28:41.310 --> 00:29:03.520
+Jorge Flores: And so it's, it's pretty active communities. There's a there's a public marketplace where you find functionality that's published by other developers. Some of some of it is for pay a lot of it is open source. And that's you know, part of the valid proposition for us as a
+
+159
+00:29:03.630 --> 00:29:10.119
+Jorge Flores: technology provider serving working with nonprofit organizations.
+
+160
+00:29:10.400 --> 00:29:13.179
+Jorge Flores: It really is a great tool for us to be able to build
+
+161
+00:29:13.280 --> 00:29:18.530
+Jorge Flores: high quality security first applications
+
+162
+00:29:19.180 --> 00:29:20.250
+and
+
+163
+00:29:20.760 --> 00:29:28.050
+Jorge Flores: and and do it in a way where you know we you don't need an army. you can. You can get to market very quickly
+
+164
+00:29:28.180 --> 00:29:36.279
+Jorge Flores: with with this platform. And so it's it's been great for us. and we hope to be able to contribute some of the work that we've done
+
+165
+00:29:36.410 --> 00:29:39.429
+Jorge Flores:  to, to to open source it
+
+166
+00:29:39.610 --> 00:29:53.969
+Jorge Flores: like this this wallet engine that that I could just download. The idea is that any Mendix developer can import that areas SDK module into their app project and immediately start to be able to leverage
+
+167
+00:29:54.020 --> 00:29:56.749
+Jorge Flores: that functionality, to
+
+168
+00:29:56.880 --> 00:30:00.300
+Jorge Flores: to continue to build the, you know, on your ecosystems.
+
+169
+00:30:04.150 --> 00:30:06.839
+Timo Glastra: Cool. That's that's really cool to hear
+
+170
+00:30:10.340 --> 00:30:11.040
+Jorge Flores: awesome
+
+171
+00:30:11.430 --> 00:30:15.349
+Timo Glastra: any questions from from people
+
+172
+00:30:26.710 --> 00:30:39.229
+Timo Glastra: cool. I think there was a a question in the chat on what to build on Reag, native. I I think you answered it. anything. It's it's built on like it is built on reactive right with the menux platform.
+
+173
+00:30:39.660 --> 00:30:40.940
+Jorge Flores: That's correct. Yeah.
+
+174
+00:30:41.210 --> 00:30:52.009
+Jorge Flores: So the way it works is, you build your apps in in the studio, the the designer. And then, there's a build there's a build capability
+
+175
+00:30:52.030 --> 00:31:07.599
+Jorge Flores: that kind of where it allows you to. Also, in a in a graphical builder, a ui that takes a native template that's been customized by Mendics to be able to inject their dependencies into into a react native framework.
+
+176
+00:31:07.630 --> 00:31:11.219
+Jorge Flores: And so so all of the dependencies that you introduce
+
+177
+00:31:11.370 --> 00:31:20.500
+Jorge Flores: have to be compiled into that native template. And then you you you have the ability to to build your apps, but it it's pretty active. Yes.
+
+178
+00:31:22.000 --> 00:31:26.690
+Ockert van Schalkwyk: and then also with it as a service side component which could
+
+179
+00:31:26.740 --> 00:31:28.970
+Ockert van Schalkwyk: easily integrate with
+
+180
+00:31:29.030 --> 00:31:31.740
+Ockert van Schalkwyk: a Fj
+
+181
+00:31:32.530 --> 00:31:33.830
+Ockert van Schalkwyk: by using race.
+
+182
+00:31:34.780 --> 00:31:36.670
+Timo Glastra: Yeah, yeah, exactly.
+
+183
+00:31:38.980 --> 00:31:39.790
+Timo Glastra: Oh.
+
+184
+00:31:42.160 --> 00:31:49.750
+Ariel Gentile: and you're you're now on the 0 3 release, or or have you up upgrade to the 0 4 of I of sh
+
+185
+00:31:53.520 --> 00:31:56.869
+Jorge Flores:  I I think that the
+
+186
+00:31:57.350 --> 00:31:58.560
+Jorge Flores: the
+
+187
+00:31:59.500 --> 00:32:06.539
+Jorge Flores: Oh, I'm I'm sorry it's it's a versioning actually, it's a good question for Acker like, what what version of the
+
+188
+00:32:06.780 --> 00:32:10.990
+Jorge Flores: A Aries? Js, did did you? Did you present today?
+
+189
+00:32:13.710 --> 00:32:16.310
+Ockert van Schalkwyk: 0 point 3.3?
+
+190
+00:32:16.900 --> 00:32:17.570
+Okay.
+
+191
+00:32:18.820 --> 00:32:19.620
+Timo Glastra: yeah.
+
+192
+00:32:21.790 --> 00:32:23.210
+Jorge Flores: One of the things
+
+193
+00:32:23.520 --> 00:32:28.620
+Jorge Flores: we, we've been kind of working on. We introduce.
+
+194
+00:32:28.830 --> 00:32:32.179
+Jorge Flores:  the concept of
+
+195
+00:32:32.640 --> 00:32:42.069
+Jorge Flores: contributing this this package to you basically want to open source it. And we've been following the conversation around the open wallet foundation.
+
+196
+00:32:42.400 --> 00:32:43.560
+Jorge Flores: and
+
+197
+00:32:43.820 --> 00:32:50.799
+Jorge Flores: we we had been preparing to present this as as kind of a project for that open wallet foundation.
+
+198
+00:32:50.820 --> 00:32:56.860
+Jorge Flores: But, You can follow this conversation with the airs community, and you know it, just
+
+199
+00:32:57.100 --> 00:33:00.000
+Jorge Flores: trying to see how that plays out.
+
+200
+00:33:00.360 --> 00:33:07.439
+Jorge Flores: we we wanted to the opportunity to present this work to the Aries community. Just so you guys are aware that
+
+201
+00:33:07.900 --> 00:33:12.670
+Jorge Flores: there, there are folks out there that are actually building on top of your great work.
+
+202
+00:33:12.900 --> 00:33:15.030
+Jorge Flores: And hopefully.
+
+203
+00:33:15.050 --> 00:33:19.570
+Jorge Flores: if if we if we move forward with the open while foundation
+
+204
+00:33:19.600 --> 00:33:23.740
+Jorge Flores: that that's you know, we just we wanted to make sure that that wasn't going to be
+
+205
+00:33:23.810 --> 00:33:36.500
+Jorge Flores: a A of friction with with the community. But I think that based on yesterday's I think that the collaboration there, or the interesting collaborating is, is there? So
+
+206
+00:33:37.170 --> 00:33:37.910
+Jorge Flores: okay.
+
+207
+00:33:38.560 --> 00:33:54.239
+Timo Glastra: yeah, yeah, I think we we can go into the discussion of oh, yeah. Owf, and I rise maybe a bit later, if you have some more time yeah, but cool, I think. either one is fine, I think. yeah.
+
+208
+00:33:54.730 --> 00:33:57.380
+Timo Glastra:  over to.
+
+209
+00:33:58.730 --> 00:34:10.080
+Alberto Leon: Yep. Hello! nice to meet you, Barry. Nice to meet you. This is my first time joining this meeting. Just a quick question for you, for me.
+
+210
+00:34:10.310 --> 00:34:17.459
+Alberto Leon: Is there any way? Or have you considered a solution to build on top of existing apps?
+
+211
+00:34:17.489 --> 00:34:22.709
+Alberto Leon: So let's say, ha! I have an in native Ios, or need of android.
+
+212
+00:34:22.850 --> 00:34:33.920
+Alberto Leon: Is there a way I can integrate a wallet? SDK functionality. So I can do like, for example, send proof requests offer credential
+
+213
+00:34:34.080 --> 00:34:58.020
+Alberto Leon: Is there anything like that? that you've thought of? Or maybe not even just record it. But for everyone else. If there's anything similar to that, because I think the community has like bipol right? Which is in react native project that you can go from 0. But what if there's a used case or business use case where someone wants to get credentials on an existing app?
+
+214
+00:34:58.760 --> 00:35:09.439
+Jorge Flores: Yeah. So that's that's pretty much what we've done an. And I think if you can show him the the Npm, they'll come out so that you can take your existing react native
+
+215
+00:35:09.770 --> 00:35:20.800
+Jorge Flores: a solution, and just add the the Aries Js dependencies. I think you just have to add the every's framework, the core, and the in the
+
+216
+00:35:21.010 --> 00:35:30.449
+Alberto Leon: right. But what if I have a let's say an objective see app, or a swift app like a native?
+
+217
+00:35:31.210 --> 00:35:32.000
+Jorge Flores: I see
+
+218
+00:35:32.420 --> 00:35:37.620
+Jorge Flores: I I I'm not a entirely familiar with some of the other.
+
+219
+00:35:38.610 --> 00:35:43.489
+Jorge Flores: Aries project, but I I believe I see I keep seeing an airy stammer in
+
+220
+00:35:43.620 --> 00:35:51.450
+Jorge Flores: working group example, but I don't know. I think maybe someone else from the community can answer that. So
+
+221
+00:35:53.470 --> 00:35:58.720
+Timo Glastra: Warren is your Do you want to answer that question, or do you have a separate question?
+
+222
+00:35:59.980 --> 00:36:08.629
+Warren Gallagher: I have a partial answer to that question, I think. one is that I believe that the Xamarin
+
+223
+00:36:08.970 --> 00:36:18.270
+Warren Gallagher: base is not being actively pursued. I may be mistaken about that. I'm not really plugged into that. but that's my impression.
+
+224
+00:36:18.550 --> 00:36:23.079
+Warren Gallagher: But there was also a project presented
+
+225
+00:36:23.090 --> 00:36:33.610
+Warren Gallagher: in one of the areas meetings. I think I may have been at a pug which was a swift implementation that has been offered up
+
+226
+00:36:34.060 --> 00:36:39.669
+Warren Gallagher: to the community. so it's not based on a Fj, it's a completely new.
+
+227
+00:36:39.710 --> 00:36:47.130
+Warren Gallagher: I think it may be model on a but it's a completely new implementation based on on swift
+
+228
+00:36:47.480 --> 00:36:51.140
+Warren Gallagher: And for the Android side, I don't really know.
+
+229
+00:36:53.360 --> 00:37:09.989
+Timo Glastra: Yeah, yeah, I think I filed the the swift framework which is making good progress. yeah, I think native apps is complex still. and we've seen a lot of times also and
+
+230
+00:37:09.990 --> 00:37:33.380
+Timo Glastra: every time. When also our clients ask it. It. It's like, we mainly answer what it's like, yeah, it's just not something. We really add an issue with ourselves, because we mostly either build new apps or integrated in reg native applications. you can run like Reg native and add that to a like a native project, and let the
+
+231
+00:37:33.380 --> 00:37:41.090
+Timo Glastra: the the framework be handled by that. But I think that adds a lot of complexity. So in that case.
+
+232
+00:37:41.090 --> 00:37:50.050
+Timo Glastra: yeah. Other languages. Maybe, since this error frame swift sort of like a an implementation in rust which allows you to call it from
+
+233
+00:37:50.110 --> 00:38:06.500
+Timo Glastra: both. I think. ios and android, I think. Then other solutions. yeah, you would need to look at other solutions or come up with a complex thing. I think that is one of the limitations of
+
+234
+00:38:06.580 --> 00:38:12.439
+Timo Glastra: having this framework implemented in in Javascript compared to something like for us.
+
+235
+00:38:13.030 --> 00:38:26.510
+Alberto Leon: No, that's that's that's totally fair. And I think there's a good answers. we actually dug deep into this. Yes, and areas go is another option. We have rappers that build libraries for it.
+
+236
+00:38:26.560 --> 00:38:33.260
+Alberto Leon: but it doesn't seem active in the channels anymore. I know. Trust Black has something called bullet SDK,
+
+237
+00:38:33.400 --> 00:38:37.549
+Alberto Leon: which the big contributors to the areas go framework
+
+238
+00:38:37.840 --> 00:38:51.360
+Alberto Leon: and yes, like you mentioned the rest. And then there's swift but none of them seem to be like truly mature enough to to consider it as an SDK native implementation.
+
+239
+00:38:51.560 --> 00:38:56.909
+Alberto Leon: But yes no. I appreciate the answer. thank you for it. Thank you.
+
+240
+00:38:58.260 --> 00:39:07.039
+Timo Glastra: Yeah, yeah, no, it's it's it's a it's a tough a a, a tough thing. And I think it's something to consider as always, the question like.
+
+241
+00:39:07.140 --> 00:39:17.520
+Timo Glastra: do we want one implementation and and reuse that. I think if you have very complex stuff,
+
+242
+00:39:17.610 --> 00:39:31.409
+Timo Glastra: You probably want to do that like browser engines. You don't want to re-implement that for different platforms. But I think like a lot of libraries are okay. But so I think it's it's a bit of a trade off like. There's a lot of
+
+243
+00:39:31.590 --> 00:39:58.019
+Timo Glastra: complexity involved in in exposing things to separate languages. So I think that was also one of the goals of this framework? at least for us, is that like with a lot of these things? If you wanted to change something, you had to go like 3 layers deep in some very low level. Worst code. and and this, yeah, allows a lot more flexibility by having the logic implemented in Javascript. But yeah.
+
+244
+00:39:58.250 --> 00:39:59.850
+Timo Glastra: okay.
+
+245
+00:40:00.370 --> 00:40:06.730
+Jorge Flores: yeah, I I just wanted to add that I'd like to. I don't know if you you consider this or where you are in your stage. But
+
+246
+00:40:06.740 --> 00:40:20.500
+Jorge Flores: there's also the so the option of you know, finding a a hosted solution right, and then integrate your your native app through through Apis and rest. Api calls. That's actually how we started.
+
+247
+00:40:20.660 --> 00:40:34.640
+Jorge Flores: you know that that that that gave us the opportunity to figure out our, our, our framework to to for our development, but also learn Aries and learn. They're based protocols in the process. And now you know
+
+248
+00:40:34.770 --> 00:40:42.060
+Jorge Flores: now, because because of that learning experience. Now then, we're able to dig deeper into the into the weeds and actually try to get
+
+249
+00:40:42.090 --> 00:40:44.519
+Jorge Flores: this. This much had directly embedded.
+
+250
+00:40:44.670 --> 00:40:47.319
+Jorge Flores: But I just want to throw that out there for you.
+
+251
+00:40:48.650 --> 00:41:00.749
+Alberto Leon: Interesting Can you point me to how? How? How much yours does anybody know? What's the best place to go for those Api endpoints, or how those
+
+252
+00:41:00.820 --> 00:41:05.989
+Alberto Leon: are managed within the hyper ledger community. Is there a specific repo for that?
+
+253
+00:41:08.470 --> 00:41:31.389
+Timo Glastra: so it depends a bit on like whether you want to use an open source implementation, and then you can can use something like ours, cloud Agent Python, or you can use ours and javascript, but you would have to like. Add your Api endpoints yourself like we don't. There is an a arrest extension, but it. It's
+
+254
+00:41:31.410 --> 00:41:33.440
+Timo Glastra: It's still
+
+255
+00:41:33.710 --> 00:41:56.999
+Timo Glastra: from 2 versus all. So it hasn't been updated. that much. So that's not the best. And there's also like paid cloud services that you could leverage for this, for example, trinsic, is is one where they provide just Api endpoints where you can just have cloud wallets manage for you.
+
+256
+00:41:58.140 --> 00:42:09.960
+Alberto Leon: Okay? Alright, no. Thanks. just one last question. maybe either for any. Maybe a go to the closest currently in the development process. We're trying to do different things.
+
+257
+00:42:10.010 --> 00:42:13.549
+Alberto Leon: One of those things is actually creating a web view
+
+258
+00:42:13.750 --> 00:42:22.670
+Alberto Leon: in the native app right here with you, and that connects to some sort of Javascript. Right?
+
+259
+00:42:22.730 --> 00:42:26.780
+Alberto Leon: So we're also. And then that Javascript will have a
+
+260
+00:42:26.870 --> 00:42:42.190
+Alberto Leon: but that would be taking like a remote wallet. In a sense, I guess so. have you guys got through that path before? Has anybody tried any comments before I dig deep into this. Poc, I'm trying to build.
+
+261
+00:42:42.390 --> 00:42:47.949
+Alberto Leon: what do you think? Does that? Does that make me some of the concepts of this side?
+
+262
+00:42:49.910 --> 00:42:52.120
+Timo Glastra: so
+
+263
+00:42:52.150 --> 00:43:01.160
+Timo Glastra:  are you talking about running a web view and running A of J in that web view, or through a remote
+
+264
+00:43:02.120 --> 00:43:07.869
+Timo Glastra: yeah, something like that. Technically, it looks like a lot like an Api now, and I think of it.
+
+265
+00:43:08.000 --> 00:43:21.370
+Timo Glastra: it it you would have to implement, like the current dependencies we have for ours from the Javascript, the native stuff that handle storage and crypto and and all that, the heavy stuff that
+
+266
+00:43:21.370 --> 00:43:44.779
+Timo Glastra: it's only available for react native and notes. Yes, so if you were to do it in in the browser, you can run the framework to core in the browser, but you would need to provide your own bindings for crypto signing and verification and storage. And so those aren't implemented by default. So it's a an interesting path to explore. I would like to have like default browser
+
+267
+00:43:44.780 --> 00:43:54.929
+Timo Glastra: a packages available, but we don't have those yet, so there would be more work in full of them, for example, running it in a react native environment.
+
+268
+00:43:55.710 --> 00:43:59.189
+Alberto Leon: Okay, no good answer. Thank you, too.
+
+269
+00:43:59.370 --> 00:44:11.499
+Warren Gallagher: There is one. There is one other thing to look at, and I I've only looked at it very fleetingly, so I can't speak to it authoritatively.
+
+270
+00:44:11.670 --> 00:44:17.379
+Warren Gallagher: But there's another framework in typescript from Veramo
+
+271
+00:44:17.810 --> 00:44:28.200
+Warren Gallagher: and Veramo does have at least some support for Ares protocols. And my understanding is that it's attempting to
+
+272
+00:44:28.310 --> 00:44:34.540
+Warren Gallagher: run in, react native and in node and in browser
+
+273
+00:44:34.770 --> 00:44:57.010
+Warren Gallagher:  and how they're doing that I don't know, and how well it works. I don't know like there's a lot of I don't know is here. but It. It's another approach that does at least have some areas protocol support. And it seems to be that part of it seems to be growing. But I would expect that making it work in the browser, as Timo said, will be a challenge because of the
+
+274
+00:44:57.020 --> 00:45:01.500
+Warren Gallagher: if you want to use the existing rest, libraries and stuff for all the crypto. Then.
+
+275
+00:45:01.710 --> 00:45:05.780
+Warren Gallagher: you're you're kinda in storage. You're kind of sunk.
+
+276
+00:45:06.900 --> 00:45:17.829
+Timo Glastra: yeah, I think. for them was a is a great option also. I think they, I've been actually being more focused on their with 3 C credentials and and so
+
+277
+00:45:17.830 --> 00:45:41.060
+Timo Glastra: there has been work recently to support did come feed 2, and also have to issue credential and percent proof protocols. But you can use it with democrats, credentials. they mostly use like web crypto Apis, which allows them to run it easily in the browser. But, for example, like some some Apis, like Anocrets.
+
+278
+00:45:41.100 --> 00:46:04.590
+Timo Glastra: we can easily run that in the browser. There has been some more going on to get it working and compile to wasn't and I think we can do that also with other dependencies, but that is more of like a ongoing thing. So, depending on what your needs are, I think from it could be a great way if you want to integrate it.
+
+279
+00:46:04.620 --> 00:46:07.530
+Timo Glastra: Yeah, in a in a browser environment.
+
+280
+00:46:08.910 --> 00:46:11.820
+Alberto Leon: Alright, thank you. Thank you all.
+
+281
+00:46:12.490 --> 00:46:16.749
+Ariel Gentile: But I remember that you have a you have a
+
+282
+00:46:17.400 --> 00:46:23.599
+Ariel Gentile: a them or or or someone going pro work on the
+
+283
+00:46:23.680 --> 00:46:24.810
+Ariel Gentile: some
+
+284
+00:46:25.420 --> 00:46:27.609
+Ariel Gentile: browser wallet or something like that. Right?
+
+285
+00:46:28.700 --> 00:46:54.709
+Timo Glastra: Yeah. So I've I've started so many on it. I don't know. Yeah, multiple times on like integrating a of J in the browser. But mostly to the did come part. I've I've worked on that, and like in in memory storage. But not really the the Democrats part the. But Baron has done work on, on, on, on that, and someone else also.
+
+286
+00:46:57.260 --> 00:47:00.549
+Timo Glastra: So it should be possible. It's just I think it's not
+
+287
+00:47:01.550 --> 00:47:09.419
+Timo Glastra: really used yet. People haven't used to framework a lot yet for browser environments. yet. Yeah.
+
+288
+00:47:11.530 --> 00:47:12.290
+Okay.
+
+289
+00:47:14.370 --> 00:47:24.539
+Ariel Gentile: okay, so But I'm sorry for that. But for for for an unknown credits. What's preventing us to
+
+290
+00:47:25.210 --> 00:47:27.320
+Ariel Gentile: to compare it to?
+
+291
+00:47:28.860 --> 00:47:46.739
+Timo Glastra: So it has been compiled to, wasn't, and it runs in the browser, and for the holder side of things. It actually works pretty well, I think. it was. It was someone else that that worked on on that and they got it compiled
+
+292
+00:47:46.740 --> 00:48:01.219
+Timo Glastra: to wasn't, and so hold the side works relatively well, it goes wrong if you do the other like issue or side, because, the crypto libraries that the browser has or it uses like
+
+293
+00:48:01.290 --> 00:48:13.620
+Timo Glastra: something with the Ssl library which makes it like. If you want to generate a credential definition with a few attributes. It takes a few minutes to to generate it. But I think for the holder side it was actually pretty doable.
+
+294
+00:48:15.940 --> 00:48:41.800
+Timo Glastra: yeah, but so it it is possible. But it's not something like it. It was a proof of concept to get it like we would need to have another library that handles on credits and then exposed to bosom files and have a build process for it. So I think the the the missing piece here would be having it like released as a package and being yeah, installable from Npm.
+
+295
+00:48:43.620 --> 00:48:47.199
+Ariel Gentile: okay, how about that? But anyway, if if we can manage to
+
+296
+00:48:47.440 --> 00:48:50.730
+Ariel Gentile: to run it at the at least on the holder side, it will be a
+
+297
+00:48:50.790 --> 00:48:57.499
+Ariel Gentile: I'm pretty good advanced right? Because that would mean that probably we will. We will not
+
+298
+00:48:58.240 --> 00:49:09.439
+Ariel Gentile: force people to install a native application. I mean, it can run on a mobile browser. So for some cases, it will be very, very interesting.
+
+299
+00:49:10.630 --> 00:49:16.529
+Timo Glastra: Yeah, yeah, I we've been looking at like, wasn't
+
+300
+00:49:16.690 --> 00:49:27.330
+Timo Glastra: more. Also, because you have like for a lot of environment you have wasn't micro one times which makes it possible to run was them from
+
+301
+00:49:27.330 --> 00:49:50.869
+Timo Glastra: ios android browsers. Node Js react native. And so it would be a really nice way if you can just compile anything to wasn't, then you can run it literally on any platform. without much hassle. So yeah, I think generally, Wilson is a an interesting thing to explore also for other environments than the browser.
+
+302
+00:49:56.130 --> 00:50:00.280
+Timo Glastra:  cool or do you want to
+
+303
+00:50:00.630 --> 00:50:03.869
+Timo Glastra: do your wallet presentation for last 15 min.
+
+304
+00:50:05.120 --> 00:50:07.069
+Ariel Gentile: Okay, okay, let me see.
+
+305
+00:50:07.260 --> 00:50:14.519
+Ariel Gentile: actually, I have to some, some slides. But actually, it's more, more, more like a a discussion or more questions than
+
+306
+00:50:14.640 --> 00:50:20.730
+Ariel Gentile: answer so and see what happened.  Another one.
+
+307
+00:50:42.430 --> 00:50:43.479
+Ariel Gentile: I think I cannot.
+
+308
+00:50:46.060 --> 00:50:47.860
+Ariel Gentile: I can actually my screen off.
+
+309
+00:50:52.810 --> 00:50:54.050
+Timo Glastra: You can't, or
+
+310
+00:50:55.450 --> 00:50:57.820
+Ariel Gentile: I will try the
+
+311
+00:50:57.940 --> 00:51:00.559
+you know, if you can see something anything.
+
+312
+00:51:00.800 --> 00:51:03.900
+Ariel Gentile: I have to allow
+
+313
+00:51:05.060 --> 00:51:08.200
+Zoom to the it. 35.
+
+314
+00:51:09.010 --> 00:51:10.580
+Ariel Gentile: I think I will need to
+
+315
+00:51:11.110 --> 00:51:12.310
+Ariel Gentile: re-enter the
+
+316
+00:51:13.220 --> 00:51:15.849
+Timo Glastra: to rejoin the the meeting.
+
+317
+00:51:17.170 --> 00:51:23.119
+Kalin Canov: So do you think, guys, we'll have some time to discuss the other points of the agenda like did come, and they
+
+318
+00:51:23.530 --> 00:51:29.539
+Kalin Canov: the new version of the Aj. because there is a 13 more minutes
+
+319
+00:51:30.160 --> 00:51:45.039
+Timo Glastra: yeah. So we'll do the all discussion. And if we have time we'll move on to the to the other topics, and otherwise we'll have to postpone them to to next week. If that's okay.
+
+320
+00:51:57.640 --> 00:51:58.900
+Ariel Gentile: Okay, that's
+
+321
+00:51:59.650 --> 00:52:01.869
+Ariel Gentile: can you see the my screen? Now?
+
+322
+00:52:04.000 --> 00:52:04.700
+Nope.
+
+323
+00:52:05.100 --> 00:52:07.850
+Timo Glastra: yeah. we can.
+
+324
+00:52:09.180 --> 00:52:11.190
+Ariel Gentile: Okay, so I will.
+
+325
+00:52:14.410 --> 00:52:17.630
+Ariel Gentile: Some discussion about the Api. so
+
+326
+00:52:18.820 --> 00:52:21.159
+Ariel Gentile: or that, you know.
+
+327
+00:52:21.680 --> 00:52:23.869
+Ariel Gentile: as most part of the framework
+
+328
+00:52:24.320 --> 00:52:30.170
+Ariel Gentile:  the wallet, the word model is widely inspired on what?
+
+329
+00:52:30.690 --> 00:52:32.460
+Ariel Gentile: On? What came from
+
+330
+00:52:32.690 --> 00:52:43.409
+Ariel Gentile: from the in the SDK. They they we loved in the SDK. So What we will not like to to discuss today is a bit.
+
+331
+00:52:43.670 --> 00:52:46.090
+Ariel Gentile: How can how can
+
+332
+00:52:47.210 --> 00:52:48.920
+Ariel Gentile: we
+
+333
+00:52:50.230 --> 00:52:54.910
+Ariel Gentile: change a little bit the the way it it works, in order to
+
+334
+00:52:55.290 --> 00:53:00.259
+Ariel Gentile: be able to more easily use different wallet types
+
+335
+00:53:01.220 --> 00:53:03.130
+Ariel Gentile: and also to make it
+
+336
+00:53:03.170 --> 00:53:04.569
+Ariel Gentile: easier to
+
+337
+00:53:05.310 --> 00:53:06.700
+Ariel Gentile: to to
+
+338
+00:53:07.510 --> 00:53:17.100
+Ariel Gentile: handle different wallets and and and and and and and and and delete, and I mean, do the administrative stuff with with wallets, and also
+
+339
+00:53:17.400 --> 00:53:21.380
+Ariel Gentile: to handle the indeed.
+
+340
+00:53:22.080 --> 00:53:25.919
+Ariel Gentile: the data that we have in the one like the keys, for instance.
+
+341
+00:53:26.970 --> 00:53:27.910
+Ariel Gentile: So
+
+342
+00:53:29.160 --> 00:53:30.940
+Ariel Gentile: at the moment.
+
+343
+00:53:31.460 --> 00:53:34.079
+Ariel Gentile: as you may know the
+
+344
+00:53:34.850 --> 00:53:40.690
+Ariel Gentile: the agent, I I an agent. We have a right needs a 2 step to work like
+
+345
+00:53:40.990 --> 00:53:44.710
+Ariel Gentile: the construction. and they initialization instead.
+
+346
+00:53:45.700 --> 00:53:51.369
+Ariel Gentile: us. Some modules on the project, on the framework
+
+347
+00:53:51.490 --> 00:53:55.460
+Ariel Gentile: depend on the on the wallet, because they need
+
+348
+00:53:55.490 --> 00:53:56.660
+Ariel Gentile: probably to
+
+349
+00:53:56.700 --> 00:53:59.970
+Ariel Gentile: fetch some records or do some stuff
+
+350
+00:54:00.150 --> 00:54:02.590
+Ariel Gentile: with them. and
+
+351
+00:54:02.770 --> 00:54:06.649
+Ariel Gentile: they need to to have a a wallet. Right? So
+
+352
+00:54:06.990 --> 00:54:12.760
+Ariel Gentile: we can, for for the moment we can specify the valid configuration right on the constructor.
+
+353
+00:54:13.420 --> 00:54:14.230
+Ariel Gentile: or
+
+354
+00:54:14.430 --> 00:54:23.449
+Ariel Gentile: we can do it somewhere in the middle, and then call the the the the initialize for for the agent in Cisco.
+
+355
+00:54:25.850 --> 00:54:27.140
+Ariel Gentile: and
+
+356
+00:54:27.180 --> 00:54:31.870
+Ariel Gentile: something that we we were discussing some month ago with, I I guess with team, or was that
+
+357
+00:54:32.220 --> 00:54:35.660
+Ariel Gentile: maybe we can. we can.
+
+358
+00:54:35.850 --> 00:54:40.200
+Ariel Gentile:  remove this quality configuration from the
+
+359
+00:54:40.240 --> 00:54:46.689
+Ariel Gentile: what if from the agent in it configuration and delegate that to the
+
+360
+00:54:47.700 --> 00:54:50.760
+Ariel Gentile: module that it's actually providing the wallet.
+
+361
+00:54:51.550 --> 00:54:56.009
+Ariel Gentile: This is something that would be useful, because
+
+362
+00:54:57.050 --> 00:55:04.640
+Ariel Gentile: it's it's hard to define a generic wallet configuration. a project, because
+
+363
+00:55:04.930 --> 00:55:16.000
+Ariel Gentile: usually it's true that they everywhere it has an an id, and probably a password, or something like that. But there are also some of the other configuration stuff like.
+
+364
+00:55:16.020 --> 00:55:23.590
+Ariel Gentile: In this case, we have the deviation method. That is not exactly the same. For instance, here in the in Ascar and in the
+
+365
+00:55:24.210 --> 00:55:28.260
+Ariel Gentile: and also this search configuration. In this case we are, we are.
+
+366
+00:55:28.360 --> 00:55:36.299
+Ariel Gentile: and using these parameters to specify if we are going to use sqlite or or postgres database. But
+
+367
+00:55:36.460 --> 00:55:37.969
+Ariel Gentile: it's likely that
+
+368
+00:55:38.620 --> 00:55:40.929
+Ariel Gentile: other what it types.
+
+369
+00:55:40.940 --> 00:55:45.060
+Ariel Gentile: because, you know, Ascar is also based somehow in Indie. So
+
+370
+00:55:45.150 --> 00:55:51.980
+Ariel Gentile: they are more or less similar. But if you are going to use different modules for for for what it management, it's likely that they are.
+
+371
+00:55:52.050 --> 00:55:57.639
+Ariel Gentile: This will not work exactly, and it will be hard to define at the core level
+
+372
+00:55:58.300 --> 00:56:02.120
+Ariel Gentile: and technical critical layer all the the
+
+373
+00:56:03.180 --> 00:56:07.270
+Ariel Gentile: the constants and and types to to be able to
+
+374
+00:56:07.860 --> 00:56:11.669
+Ariel Gentile: be useful for for every kind of of of
+
+375
+00:56:12.860 --> 00:56:14.889
+Ariel Gentile: so and then
+
+376
+00:56:15.290 --> 00:56:16.439
+Ariel Gentile: now we have.
+
+377
+00:56:16.570 --> 00:56:21.969
+Ariel Gentile: I have list here here how our what and module Api looks like. So
+
+378
+00:56:22.410 --> 00:56:23.350
+Ariel Gentile: we have.
+
+379
+00:56:23.870 --> 00:56:29.660
+Ariel Gentile:  all these methods like initialize, create Kate and open
+
+380
+00:56:29.810 --> 00:56:34.439
+Ariel Gentile: open. We can do it.
+
+381
+00:56:36.230 --> 00:56:40.230
+Ariel Gentile: It's for the important. And also, we have those this
+
+382
+00:56:40.660 --> 00:56:43.100
+Ariel Gentile: methods to create key and generate notes.
+
+383
+00:56:44.720 --> 00:56:49.050
+Ariel Gentile:  we can see that here we have.
+
+384
+00:56:49.580 --> 00:56:53.929
+Ariel Gentile: We have lots of methods, and and probably
+
+385
+00:56:54.640 --> 00:57:03.240
+Ariel Gentile: and some of them are related to the they call it administration, and some of them for they will it. The operation, like this one for create a key or or generate unknowns.
+
+386
+00:57:05.200 --> 00:57:14.469
+Ariel Gentile: and they I don't know if if the users of the brain, or have have noticed that recently, since the 0 3 0, we have this agent context.
+
+387
+00:57:14.570 --> 00:57:17.340
+Ariel Gentile:  I in context
+
+388
+00:57:19.140 --> 00:57:20.020
+Ariel Gentile: concept
+
+389
+00:57:20.720 --> 00:57:22.170
+Ariel Gentile: where we can
+
+390
+00:57:22.670 --> 00:57:24.660
+Ariel Gentile: access the wallet
+
+391
+00:57:26.170 --> 00:57:29.160
+Ariel Gentile: of the of the the the.
+
+392
+00:57:29.370 --> 00:57:34.039
+Ariel Gentile: So it's hard to to tell what the difference between using
+
+393
+00:57:34.150 --> 00:57:35.460
+Ariel Gentile: the
+
+394
+00:57:35.890 --> 00:57:41.829
+Ariel Gentile: the wallet from here or the let's say the the agent wallet.
+
+395
+00:57:42.870 --> 00:57:52.009
+Ariel Gentile: Exactly so it it can be some somehow confusing. So maybe we can. We can just try to
+
+396
+00:57:52.060 --> 00:57:53.300
+Ariel Gentile: separate
+
+397
+00:57:53.420 --> 00:58:03.730
+Ariel Gentile: the wallet Api from the wallet interface. I mean the the, the actual wallet that is open. By the by this context.
+
+398
+00:58:04.510 --> 00:58:11.609
+Ariel Gentile: so in such a way that for the world, Api, we will only use those methods related to the, to the administrations
+
+399
+00:58:11.740 --> 00:58:15.050
+Ariel Gentile: of any kind of a of wallet like
+
+400
+00:58:15.260 --> 00:58:22.919
+Ariel Gentile: a agent. A what a creation, Deletion and a rotate key, export and import
+
+401
+00:58:23.490 --> 00:58:27.670
+Ariel Gentile:  and leave all the operative methods
+
+402
+00:58:28.080 --> 00:58:37.000
+Ariel Gentile: for the what it instance like create keys, and the while signing and verifying, and all that stuff
+
+403
+00:58:37.540 --> 00:58:38.929
+Ariel Gentile: at the moment.
+
+404
+00:58:39.190 --> 00:58:44.670
+Ariel Gentile: If you look at the at the wallet. Api call. I will see if they can.
+
+405
+00:58:45.090 --> 00:58:46.569
+Ariel Gentile: I can show you.
+
+406
+00:58:49.480 --> 00:58:52.090
+Ariel Gentile: If you. If you look at the Api.
+
+407
+00:58:54.600 --> 00:58:58.409
+Ariel Gentile: we'll see that we are almost everywhere calling the
+
+408
+00:58:58.470 --> 00:59:03.799
+Ariel Gentile: the wallet object to do everything. It's most more like an an exposed than
+
+409
+00:59:04.790 --> 00:59:07.519
+Ariel Gentile: than than other things. So
+
+410
+00:59:08.330 --> 00:59:15.010
+Ariel Gentile: what we can probably do is to to create what it service. I will.
+
+411
+00:59:15.150 --> 00:59:16.430
+Yeah.
+
+412
+00:59:17.480 --> 00:59:24.310
+Ariel Gentile: I want a service that will be provided by the by the module that is providing the the it itself.
+
+413
+00:59:25.300 --> 00:59:33.040
+Ariel Gentile: So that's what it service will be, the the one giving us the methods to
+
+414
+00:59:33.080 --> 00:59:36.480
+Ariel Gentile: import and and and that stuff.
+
+415
+00:59:37.000 --> 00:59:41.729
+Ariel Gentile: This is a here I left that question, do we really need a well-ed, an Api on the core?
+
+416
+00:59:42.350 --> 00:59:46.450
+Ariel Gentile: Maybe we can delete everything to the.
+
+417
+00:59:47.170 --> 00:59:50.510
+Ariel Gentile: to the Ascar module or the
+
+418
+00:59:52.710 --> 00:59:56.760
+Ariel Gentile: so. But anyway, I will. I I left some some of the
+
+419
+00:59:56.840 --> 00:59:58.300
+Ariel Gentile: how, how
+
+420
+00:59:58.690 --> 01:00:01.300
+Ariel Gentile: the word Api can be simplified, so
+
+421
+01:00:01.650 --> 01:00:07.970
+Ariel Gentile: we can have here the this method method for for what it creation are opening. Actually.
+
+422
+01:00:08.300 --> 01:00:15.780
+Ariel Gentile: I don't see a reason of having to have a great and open, because we can probably put the put that here in the in the options.
+
+423
+01:00:16.960 --> 01:00:20.259
+Ariel Gentile: and also for
+
+424
+01:00:21.210 --> 01:00:24.289
+Ariel Gentile: for what? It's fine to to find a wallet
+
+425
+01:00:24.690 --> 01:00:29.100
+Ariel Gentile:  to delete wallets.
+
+426
+01:00:29.510 --> 01:00:31.149
+Ariel Gentile: to export and import
+
+427
+01:00:31.800 --> 01:00:33.750
+Ariel Gentile: without being
+
+428
+01:00:34.000 --> 01:00:37.600
+Ariel Gentile: the wallet that we have open right now. Right?
+
+429
+01:00:39.270 --> 01:00:41.709
+Ariel Gentile: Well, I know I'm
+
+430
+01:00:42.160 --> 01:00:45.740
+Ariel Gentile: so, so I will go for faster
+
+431
+01:00:45.890 --> 01:00:51.729
+Ariel Gentile: and for the for the wallet interface. Currently, we have all these methods.
+
+432
+01:00:52.620 --> 01:01:00.040
+Ariel Gentile: We have methods for what administration we have method for export and import. Actually, this is pretty weird, because we.
+
+433
+01:01:01.650 --> 01:01:13.150
+Ariel Gentile: this method that does not do not work with an open wallet, you will need to close the wallet and export it, or or or import it. So
+
+434
+01:01:14.060 --> 01:01:16.719
+Ariel Gentile: for me, it doesn't make any sense to have
+
+435
+01:01:16.910 --> 01:01:30.730
+Ariel Gentile: a wallet object that it's actually more than that has some method that actually are more like static methods because they are not actually related to. To. To this particular instance.
+
+436
+01:01:32.040 --> 01:01:37.800
+Ariel Gentile: We have these methods for for for a key management, and and
+
+437
+01:01:37.850 --> 01:01:41.930
+Ariel Gentile: you seem like this thing in Beta or verifying.
+
+438
+01:01:42.200 --> 01:01:49.230
+Ariel Gentile: And also we have this this method for for message packing and unpacking of did come message in this case.
+
+439
+01:01:49.870 --> 01:01:54.849
+Ariel Gentile: So well, here's more or less what we have. See I have.
+
+440
+01:01:56.240 --> 01:02:01.960
+Ariel Gentile: and then what can I propose is to
+
+441
+01:02:03.310 --> 01:02:08.449
+Ariel Gentile: well remove all that that is regretted, ready to the any station from
+
+442
+01:02:08.900 --> 01:02:10.600
+Ariel Gentile: from this class.
+
+443
+01:02:11.370 --> 01:02:13.810
+Ariel Gentile: and the probably
+
+444
+01:02:13.930 --> 01:02:20.459
+Ariel Gentile: add add a few meters for for key management, like finding an elite keys, which is something that is missing here right now
+
+445
+01:02:21.440 --> 01:02:26.800
+Ariel Gentile: and for the message packing, and I I know that it's difficult to separate
+
+446
+01:02:27.240 --> 01:02:30.300
+Ariel Gentile: the packing from the wallet
+
+447
+01:02:30.870 --> 01:02:33.139
+Ariel Gentile: module itself, but probably we can
+
+448
+01:02:33.480 --> 01:02:41.610
+Ariel Gentile: call another object, or something to, to, to not make the the
+
+449
+01:02:42.100 --> 01:02:43.130
+Ariel Gentile: the
+
+450
+01:02:43.550 --> 01:02:50.190
+Ariel Gentile: very heavy like it's in the. In the case of the I have seen in the case of the did come with you, Branch, that
+
+451
+01:02:50.300 --> 01:02:53.380
+Ariel Gentile: it's about 1,000 lines, or something like that, because
+
+452
+01:02:53.440 --> 01:02:55.390
+Ariel Gentile: Arden had to
+
+453
+01:02:55.520 --> 01:02:56.720
+Ariel Gentile: to to add
+
+454
+01:02:57.090 --> 01:03:00.730
+Ariel Gentile: all the logic for for this con. V. One and v. 2, and
+
+455
+01:03:01.020 --> 01:03:06.110
+Ariel Gentile: and all that stuff so more or less like that. we have
+
+456
+01:03:06.280 --> 01:03:11.380
+Ariel Gentile: methods for opening and closing and deleting the the current.
+
+457
+01:03:12.310 --> 01:03:13.780
+Ariel Gentile: The Vc instance
+
+458
+01:03:13.910 --> 01:03:17.580
+Ariel Gentile: to create 500 keys to sign on verified data.
+
+459
+01:03:17.930 --> 01:03:18.860
+This is
+
+460
+01:03:19.700 --> 01:03:35.830
+Ariel Gentile: the methods for for Dcom, and also some genetic method to generate, generate the nuns and and keys with options. I mean the what kind of case we want to generate, and and and so on. But I have 1 min. So if you you want to come in team or someone.
+
+461
+01:03:40.250 --> 01:04:09.520
+Timo Glastra: yeah, I don't think we have a lot of time to to go into detail. I think a lot of stuff you said makes sense. So maybe if you can share the the link to the slides. Then we can put them in a meeting notes, and then I can leave some comments, and if people would like to to share the thoughts on the wallet. Api they can do it on the documents, and then maybe next week we can, we can discuss the those topics.
+
+462
+01:04:09.740 --> 01:04:15.380
+Ariel Gentile: Okay, okay, I I will. I will do that. And also maybe I will have a discussion on the Github.
+
+463
+01:04:15.900 --> 01:04:19.279
+Ariel Gentile: Yeah, maybe we can. We can come in there as well.
+
+464
+01:04:19.540 --> 01:04:32.210
+Timo Glastra: Yeah, perfect. yeah, thanks for this presentation. This, this, this, this could just make sense. sorry that we didn't get to the discomfort to topic.
+
+465
+01:04:32.970 --> 01:04:53.749
+Timo Glastra: I'm going to add it to the agenda for next week. First thing, so that we make sure that we get to it. and also a bit on the 0 for your stuff. Then we make that the 2 main topics, and I'll also ask Art to to to join and share some things on on discomfort, too.
+
+466
+01:04:53.760 --> 01:04:59.359
+Timo Glastra: we will try to join in next week, because at the very same time we have a workshop
+
+467
+01:04:59.820 --> 01:05:01.360
+Kalin Canov: in Brownsville.
+
+468
+01:05:01.630 --> 01:05:18.079
+Kalin Canov: and at the very same time, but at least we'll try some some of us to join. That stuff was important to be there, Bobby, and learning as well, we'll see how to arrange. I mean, the only thing is to see how it's what's the status, and if there is some some way, if we can help.
+
+469
+01:05:18.600 --> 01:05:20.380
+Kalin Canov: That's probably.
+
+470
+01:05:21.040 --> 01:05:23.039
+Kalin Canov: you know, may speed up the things
+
+471
+01:05:23.080 --> 01:05:37.589
+Kalin Canov: we have some quite interesting projects I want to share. Yet what exactly is, as I said, is sending data through a Dcom. but also want to try it with combination with the rest, framework, golank
+
+472
+01:05:38.210 --> 01:05:40.230
+Kalin Canov: and mediator. So it's
+
+473
+01:05:40.290 --> 01:05:52.790
+Kalin Canov: you'll see it, I mean, that's why we won't have that. We did that with the first 1 one, the conversion one. But we want to have it in the 2. Because areas framework go. It's only unfortunate. It's it's using on. Did conversion to
+
+474
+01:05:53.760 --> 01:05:58.020
+Timo Glastra: that makes sense. Okay? Yeah, no. We'll make sure to this because of next week.
+
+475
+01:05:58.210 --> 01:05:59.120
+Kalin Canov: Okay.
+
+476
+01:05:59.650 --> 01:06:02.779
+Timo Glastra: good. Thanks, everyone, and see you next week.
+
+477
+01:06:03.050 --> 01:06:07.659
+Kalin Canov: Thank you. Thanks. Goodbye, bye, bye, for now.
+

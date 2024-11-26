@@ -1,0 +1,14 @@
+00:53:22	Drummond Reed:	+1 to reviewing the charter at the Connectathon
+01:10:51	Robert Mitwicki:	does it mean that backchannel are optional?
+01:11:24	Robert Mitwicki:	thx
+01:14:20	Robert Mitwicki:	why not doing black box testing with standard communication protocols starting with discovery which features are available and then have a script which goes through all features testing if they are following spec? without having any back channel to be implemented by agent dev.
+01:15:10	Stephen Curran:	Because you want both (all) sides of the test to play all roles.
+01:15:13	Sam Curren (TelegramSam):	Robert, full testing requires testing actions initiated by the agent under test. Without a way to signal to the agent to begin a certain process, automation of testing is not possible.
+01:15:30	Daniel Hardman:	@Robert: that doesn’t allow you to reset state. You can’t control the start conditions in the agent’s KMS.
+01:18:23	Robert Mitwicki:	why not have a feature which allow to trigger those stuff? which can be enable for testing phase. 
+01:19:17	Sam Curren (TelegramSam):	a feature called a backchannel? there is no requirement that the backchannel is available outside of a testing environment.
+01:24:31	Robert Mitwicki:	I am trying to understand the point why I have to build mine own backchannel if I am testing standard features which should follow official specs. if backchannel is a feature and can communicate on low level directly with core libs and other features it should no be limited by any rest api. right?
+01:25:19	Sam Curren (TelegramSam):	the REST API is only _one_ way to build a backchannel. Another is the messages defined in the testing RFC.
+01:26:00	Sam Curren (TelegramSam):	And yes, as core libraries gain support for a testing backchannel, the matching test framework backchannel can be used.
+01:26:15	Sam Curren (TelegramSam):	As of right now, there is no core library support.
+01:27:15	Robert Mitwicki:	👍

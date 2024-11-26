@@ -1,0 +1,1122 @@
+WEBVTT
+
+1
+00:00:07.570 --> 00:00:13.649
+Tracy Kuhrt: Oh, welcome everyone to the October thirteenth. Technical Oversight Committee call
+
+2
+00:00:13.770 --> 00:00:23.269
+Tracy Kuhrt: uh, as you are all aware, a couple of things that we must divide by the first is the antitrust policy. Notice that it's currently displayed on screen,
+
+3
+00:00:24.200 --> 00:00:27.890
+Tracy Kuhrt: and the second is our code of conduct. Um,
+
+4
+00:00:28.590 --> 00:00:32.010
+Tracy Kuhrt: which is like specifically in the agenda.
+
+5
+00:00:32.060 --> 00:00:48.919
+Tracy Kuhrt: So as far as announcements go today. Uh, we have the standard announcement, The Hyper Ledger, that we think develop our newsletter goes out each Friday, if you have anything that you'd like to be included in that. So you leave a comment on the Wiki page, since link in the agenda
+
+6
+00:00:49.300 --> 00:01:05.149
+Tracy Kuhrt: uh the second announcement that we may have already noticed some changes happening. But, uh, the charter changes have been approved. Uh, and we are now the Technical Oversight committee, not the technical starting thing. So uh,
+
+7
+00:01:05.160 --> 00:01:13.770
+Tracy Kuhrt: I have the charter linked here in the agenda. If you want to see the specific changes uh that were included. There were a few other changes besides that.
+
+8
+00:01:13.830 --> 00:01:15.009
+Tracy Kuhrt: Um.
+
+9
+00:01:15.030 --> 00:01:17.440
+Tracy Kuhrt: Besides that, we know that happened
+
+10
+00:01:19.300 --> 00:01:22.199
+Tracy Kuhrt: any other announcements that anybody has.
+
+11
+00:01:31.630 --> 00:01:32.539
+Tracy Kuhrt: Okay,
+
+12
+00:01:32.730 --> 00:01:52.079
+Tracy Kuhrt: uh. So if there's no other announcements. Uh, we do have uh the outstanding report. I did send a reminder on the discord Channel um about a week ago, and we're still waiting on that. I also included links to the
+
+13
+00:01:52.090 --> 00:02:09.440
+Tracy Kuhrt: Uh reports that had basically Hadn't had a a whole lot of reviews that had happened. I did notice that, but most of these have been almost completely reviewed by everybody. But if you still are outstanding, please do have a look at those particular reports.
+
+14
+00:02:09.449 --> 00:02:28.949
+Tracy Kuhrt: Um! The only one that I saw that had any sort of question was a question that I had on the Firefly one related to the organizational diversity of the maintainers. Um! I have not yet seen an answer to that, so I don't know that we have anybody here from Firefly today.
+
+15
+00:02:31.720 --> 00:02:46.309
+Tracy Kuhrt: I don't see anybody on the participant list from Firefly, so we'll we'll wait to get get that answered on the report. But Tracy, I thought the report actually says that it's uh all the Maintainer is off from Kaleido.
+
+16
+00:02:46.540 --> 00:02:51.300
+Tracy Kuhrt: Did you say that? Um. I wonder if that changed after that?
+
+17
+00:02:54.780 --> 00:03:02.439
+Tracy Kuhrt: Uh, okay, yes, it does say that. Uh. So I guess the question is answered. Um,
+
+18
+00:03:02.900 --> 00:03:12.809
+Tracy Kuhrt: we will uh assume that I didn't miss it, or maybe I did visit, and uh either way it's there now, so. Thanks for that.
+
+19
+00:03:13.390 --> 00:03:26.490
+Arnaud J Le Hors ("Arno"): No, but I saw your question, and then I thought, Oh, but I think it's answered, and I had the same thought. Maybe they changed. It didn't say in response to your comment. But so it's there, anyway.
+
+20
+00:03:32.070 --> 00:03:35.820
+Tracy Kuhrt: Any other questions that anybody has
+
+21
+00:03:37.210 --> 00:03:38.600
+Tracy Kuhrt: on the reports,
+
+22
+00:03:40.710 --> 00:03:45.499
+Tracy Kuhrt: and then i'm sorry you come off mute, but I we couldn't hear you if you were speaking.
+
+23
+00:03:46.040 --> 00:03:47.720
+Danno Ferrin: Um! Can you hear me now?
+
+24
+00:03:48.060 --> 00:03:49.640
+Tracy Kuhrt: Now? You're very faint.
+
+25
+00:03:49.870 --> 00:03:55.149
+Danno Ferrin: I saw Jim's day here at the pond, and I think he said he had a flight.
+
+26
+00:03:55.680 --> 00:03:57.620
+Danno Ferrin: So I think that's why Firefly is not on the call.
+
+27
+00:03:58.490 --> 00:04:02.730
+Tracy Kuhrt: Okay, yeah. I did see Jim's uh regret since
+
+28
+00:04:02.750 --> 00:04:06.230
+Tracy Kuhrt: uh, somewhere. I think it may have been discord. So thanks for that man.
+
+29
+00:04:07.940 --> 00:04:10.820
+Tracy Kuhrt: Okay, Any other questions on the the reports.
+
+30
+00:04:17.890 --> 00:04:31.809
+Tracy Kuhrt: Okay. Uh. So if there's no other questions on the report, we do have the fabric in the cactus reports that are doing today. Uh. So we'll look forward to seeing those show up, and uh, all the including those on the
+
+31
+00:04:32.230 --> 00:04:34.030
+Tracy Kuhrt: on the agenda for next week.
+
+32
+00:04:35.520 --> 00:04:44.290
+Tracy Kuhrt: So the only thing that I have for topics today is the Toc election, for that is upcoming. Um,
+
+33
+00:04:45.130 --> 00:04:50.870
+Tracy Kuhrt: before we before we get there. Are there any other topics that anybody would like to add to the Agenda.
+
+34
+00:04:59.600 --> 00:05:17.469
+Tracy Kuhrt: Okay. So let's take a look at the the poc election for two thousand and twenty-two uh I did copy in the the chartered here uh into this document uh the composition. Uh, as we probably recall, though there'll be six uh
+
+35
+00:05:17.480 --> 00:05:34.920
+Tracy Kuhrt: individuals that will be elected by the Maintainer of the projects, and then five appointees that will be appointed by the governing board uh to make up the eleven toc numbers for next uh for the next term.
+
+36
+00:05:35.550 --> 00:05:36.900
+Tracy Kuhrt: Uh. So
+
+37
+00:05:37.230 --> 00:05:56.200
+Tracy Kuhrt: that's a directly from the Charter as it stands today. Um! So I have put together this document along with the help of Brian, me and uh, just exactly what this process and timeline is going to look like. So if we look at the nomination process and timeline
+
+38
+00:05:56.210 --> 00:06:14.940
+Tracy Kuhrt: uh i'm hoping that we can start this process next week uh, and have people nominate themselves uh through the end of October uh to run for the the poc. I'm. Hoping this timeline works is kind of quick turnaround, but I i'm hoping we can merit that
+
+39
+00:06:14.950 --> 00:06:26.879
+Tracy Kuhrt: um as far as what it what is required. We need to gather the github. Id for the active Maintainer and the active contributors. I have done some changes to our
+
+40
+00:06:26.890 --> 00:06:45.959
+Tracy Kuhrt: what was once called our voters uh check site. It's now an eligibility check site that will allow you to see if you're eligible to run, or and or eligible to vote uh in the upcoming poc election. Uh, we have some standard templates that are
+
+41
+00:06:45.970 --> 00:07:04.179
+Tracy Kuhrt: um that need to be updated to it like the twenty twenty-two dates, and uh we need to send out communication to people to let them know that the poc nomination is happening. Um! And then uh reminder sort of communication to ensure that people
+
+42
+00:07:04.190 --> 00:07:23.289
+Tracy Kuhrt: are um aware that the timeline is ending uh, and then the nominations would close, and the day Pacific um to get the list of nominees. So any questions on her this nomination process uh or any concerns with what you see.
+
+43
+00:07:23.300 --> 00:07:24.309
+Tracy Kuhrt: We're written here.
+
+44
+00:07:26.240 --> 00:07:36.669
+Arnaud J Le Hors ("Arno"): So I have a question. That second thing there, I thought I thought part of the plan was to avoid having to do this, so i'm a bit surprised that it's there
+
+45
+00:07:36.710 --> 00:07:40.240
+Arnaud J Le Hors ("Arno"): building this list of active contributors.
+
+46
+00:07:40.620 --> 00:07:48.090
+Tracy Kuhrt: Yeah. So if we go back up to the charter. Um! We'll see that the
+
+47
+00:07:49.290 --> 00:08:07.889
+Tracy Kuhrt: uh I think it's for dot a dot. I It says that individuals who are active within within the scope of the Hyper Ledger Foundation, and who have nominated themselves for the Tsd. Um. So I guess the the challenge was, How do we determine who's active?
+
+48
+00:08:07.900 --> 00:08:13.550
+Tracy Kuhrt: And uh, the that was that the active people are the people who have contributed.
+
+49
+00:08:14.450 --> 00:08:26.240
+Tracy Kuhrt: But I agree. I don't know. I think, that's always been a a concern. But uh, yeah, we do still need to figure out if people who nominate themselves should be uh dominating themselves.
+
+50
+00:08:26.830 --> 00:08:38.509
+Arnaud J Le Hors ("Arno"): So wait. Let me make sure. I understand this article for the active contributor is to do what it's those who are eligible to run for the talk. Right?
+
+51
+00:08:38.559 --> 00:08:49.320
+Tracy Kuhrt: Yeah. So for the A to I Uh. It says that individuals who are active within the scope of the hyper lighter foundation, and who have nominated themselves to the Tsc. Right?
+
+52
+00:08:49.610 --> 00:08:52.729
+Arnaud J Le Hors ("Arno"): So I think this is the what we need to be clear. It's like
+
+53
+00:08:53.040 --> 00:08:58.780
+Arnaud J Le Hors ("Arno"): active contributors can run and maintainers can vote.
+
+54
+00:09:01.080 --> 00:09:04.060
+Arnaud J Le Hors ("Arno"): But so I Yeah,
+
+55
+00:09:04.340 --> 00:09:22.129
+Arnaud J Le Hors ("Arno"): I would. I was wondering. I mean, if you know, this stuff should really go through the process of building this list of active contributor, which may be very time consuming as opposed to just check that the people get dominated or qualified,
+
+56
+00:09:24.380 --> 00:09:41.980
+Arnaud J Le Hors ("Arno"): and it may sound like it's the same. But I don't think it is the same, because you Don't need to, you know. Go out of your way to figure out the whole list of possible active contributors rather than just checking specific individuals whether they are they qualify or not?
+
+57
+00:09:41.990 --> 00:10:01.560
+Arnaud J Le Hors ("Arno"): But it's a detail in implementation. But you know again, I I thought one of the motivations of the change was to try to simplify the process, and i'm afraid that this is the worst part that was from the previous process. If we carry it over,
+
+58
+00:10:01.570 --> 00:10:04.809
+Arnaud J Le Hors ("Arno"): we we've kind of missed the both somewhere there.
+
+59
+00:10:04.990 --> 00:10:08.830
+Arnaud J Le Hors ("Arno"): But I see Daniel as his end up, so i'll shut up,
+
+60
+00:10:11.210 --> 00:10:19.139
+Danno Ferrin: so I kind of agree that um we shouldn't get it contributors. If it would be gathered to maintain it. It would be a fairly easy thing for the Maintainer list
+
+61
+00:10:19.270 --> 00:10:24.039
+Danno Ferrin: any project, but I think we could flip it kind of our seeing. If you nominate yourself,
+
+62
+00:10:24.270 --> 00:10:28.709
+Danno Ferrin: you serve on the
+
+63
+00:10:30.220 --> 00:10:34.459
+Danno Ferrin: a question There, please describe your contribution to the Hyper Ledger, or
+
+64
+00:10:36.320 --> 00:10:38.560
+Danno Ferrin: provide the proof as part of their self-
+
+65
+00:10:42.220 --> 00:10:43.290
+Tracy Kuhrt: yeah
+
+66
+00:10:50.120 --> 00:10:54.370
+Hyperledger Community: to a hypothetical community. Um, can I share my screen?
+
+67
+00:10:54.760 --> 00:10:55.850
+Sean Bohan (Hyperledger): Sure.
+
+68
+00:10:59.620 --> 00:11:09.170
+Hyperledger Community: So I have this uh day zero where I've been running scripts that uh download the github uh
+
+69
+00:11:09.770 --> 00:11:13.329
+Hyperledger Community: event logs every day back to two thousand and sixteen,
+
+70
+00:11:13.450 --> 00:11:16.389
+Hyperledger Community: and then I have scripts in here that are running to
+
+71
+00:11:16.480 --> 00:11:18.220
+Hyperledger Community: uh extract
+
+72
+00:11:18.270 --> 00:11:22.189
+Hyperledger Community: uh the people that have done anything.
+
+73
+00:11:22.760 --> 00:11:24.980
+Hyperledger Community: Um! So
+
+74
+00:11:25.150 --> 00:11:28.360
+Hyperledger Community: that's fairly already automated.
+
+75
+00:11:28.400 --> 00:11:33.980
+Hyperledger Community: I agree with the rewarding that was proposed, you know. Uh, I also have
+
+76
+00:11:34.360 --> 00:11:40.399
+Hyperledger Community: this uh maintainer list uh that gathers all the Maintainer files
+
+77
+00:11:41.820 --> 00:11:47.139
+Hyperledger Community: well today, and then I have a list of the maintainers from those
+
+78
+00:11:47.190 --> 00:11:53.169
+Hyperledger Community: um. So those lists already exist, the list of maintainers already exist.
+
+79
+00:11:53.540 --> 00:11:54.740
+Hyperledger Community: Um.
+
+80
+00:11:55.760 --> 00:11:58.730
+Hyperledger Community: And I I also have a uh,
+
+81
+00:11:59.110 --> 00:12:00.880
+Hyperledger Community: yeah. I have
+
+82
+00:12:01.090 --> 00:12:05.520
+Hyperledger Community: sixty something open bugs against Repos that Don't have a maintainer's file.
+
+83
+00:12:06.230 --> 00:12:09.070
+Hyperledger Community: So it's uh, you know
+
+84
+00:12:10.370 --> 00:12:18.250
+Hyperledger Community: the For the most part it's completely automated. Um, But I would like that warning change to to uh
+
+85
+00:12:18.310 --> 00:12:19.519
+Hyperledger Community: make that happen.
+
+86
+00:12:23.000 --> 00:12:34.229
+Tracy Kuhrt: Okay. So uh, the recommendation is that in the nominee email we change it to say, Um, please include your contributions to
+
+87
+00:12:35.090 --> 00:12:37.739
+Tracy Kuhrt: the Hyper Ledger foundation in the past year.
+
+88
+00:12:47.500 --> 00:12:55.830
+Arnaud J Le Hors ("Arno"): Yeah, maybe we probably can hint that maybe it's simply providing your github uh, you know, Id with the
+
+89
+00:12:55.970 --> 00:12:58.820
+Arnaud J Le Hors ("Arno"): activity is good enough
+
+90
+00:12:59.650 --> 00:13:06.010
+Arnaud J Le Hors ("Arno"): for most people. I think that will do it, and then the edge cases in a it may require a bit more. But
+
+91
+00:13:08.360 --> 00:13:14.229
+Hyperledger Community: so David and I uh discuss this earlier. Um
+
+92
+00:13:14.850 --> 00:13:26.199
+Hyperledger Community: The previous election we had, I think, uh twenty two nominations. We had maybe another half dozen people that requested uh to run that had no activity.
+
+93
+00:13:26.570 --> 00:13:30.270
+Hyperledger Community: Um, so it's fairly easy to
+
+94
+00:13:30.580 --> 00:13:38.850
+Hyperledger Community: to get that. What I don't want to do is because a contributor is defined as people who do stuff in the Wiki and and stuff like that.
+
+95
+00:13:39.410 --> 00:13:44.269
+Hyperledger Community: Um, it isn't like it was before where we had to check a million emails.
+
+96
+00:13:44.290 --> 00:13:45.410
+Hyperledger Community: Um:
+
+97
+00:13:47.110 --> 00:13:49.380
+Hyperledger Community: So yeah, let's
+
+98
+00:13:50.360 --> 00:13:55.050
+Hyperledger Community: change that Toc nominee wording. And uh,
+
+99
+00:13:55.760 --> 00:13:58.559
+Hyperledger Community: I I think that's going to be much, much easier.
+
+100
+00:13:59.470 --> 00:14:08.489
+Tracy Kuhrt: Okay, I just uh update it uh this page. Eventually I don't come through to you. But if you wouldn't mind refreshing um
+
+101
+00:14:10.710 --> 00:14:28.450
+Tracy Kuhrt: yeah, scroll down uh. So I added the contributions that I have had to the Hyper ledger foundation. It kind of goes off the page here on the email itself. Um, but it basically says, uh, the yeah, the contribution I don't know why it's not um showing quite right. But anyway,
+
+102
+00:14:28.460 --> 00:14:46.710
+Tracy Kuhrt: uh contributions that I've had to The hybrid foundation in the past year is dot dot dot uh let them fill it in right. Um. So this is, I mean, we don't want to have people go through a whole archaeological uh task, either. They only need one thing that qualifies right.
+
+103
+00:14:47.470 --> 00:14:52.620
+Tracy Kuhrt: Okay, Do we want to include a checklist? I mean
+
+104
+00:14:52.630 --> 00:15:09.090
+Arnaud J Le Hors ("Arno"): that's why i'm trying to. I I don't want to mislead people into saying they they need to go back for the whole year and look at all the things they've done and compile all of this. This is not what we're asking for either. So we need to be careful the way we phrase the question.
+
+105
+00:15:09.100 --> 00:15:25.110
+Arnaud J Le Hors ("Arno"): They just need to provide some evidence that they qualify. And it could just be, you know it is my github idea, and you can go look at the All the Pr. And see A in. You know that I've done something along those lines, and
+
+106
+00:15:26.100 --> 00:15:41.380
+Arnaud J Le Hors ("Arno"): if I I mean, I suspect that there are many cases where we already know the answer, and it's just. They may be cases where rice is. I've never heard of that person. Who are they? What are they doing? And they may look a bit beyond that. But
+
+107
+00:15:42.290 --> 00:15:43.350
+Arnaud J Le Hors ("Arno"): so
+
+108
+00:15:46.260 --> 00:15:51.349
+Hyperledger Community: um so, for the the script emits
+
+109
+00:15:51.430 --> 00:15:52.760
+Hyperledger Community: this stuff,
+
+110
+00:15:53.720 --> 00:15:57.930
+Hyperledger Community: and this this is for the Maintainer is not the the people who do things.
+
+111
+00:15:58.140 --> 00:16:02.289
+Hyperledger Community: But I, you know, on a per repo basis. I can look in here and see
+
+112
+00:16:03.120 --> 00:16:04.810
+Hyperledger Community: what did somebody do?
+
+113
+00:16:05.280 --> 00:16:08.860
+Hyperledger Community: So the the check website is going to look at
+
+114
+00:16:09.120 --> 00:16:12.170
+Hyperledger Community: at this this list of people that have done something
+
+115
+00:16:12.750 --> 00:16:20.159
+Hyperledger Community: uh I haven't written the script yet to automatically update this to um.
+
+116
+00:16:20.680 --> 00:16:23.049
+Hyperledger Community: So when I when I did this by hand.
+
+117
+00:16:23.170 --> 00:16:24.260
+Hyperledger Community: Um!
+
+118
+00:16:24.640 --> 00:16:26.410
+Hyperledger Community: The uh!
+
+119
+00:16:27.360 --> 00:16:35.669
+Hyperledger Community: The number of people that had done a qualifying activity this year to to run were around one thousand nine hundred
+
+120
+00:16:36.620 --> 00:16:37.730
+Hyperledger Community: um.
+
+121
+00:16:38.240 --> 00:16:41.200
+Hyperledger Community: So I think that's going to get almost everybody
+
+122
+00:16:41.250 --> 00:16:44.590
+Hyperledger Community: uh. So what I will do
+
+123
+00:16:45.720 --> 00:16:46.830
+Hyperledger Community: soon
+
+124
+00:16:47.000 --> 00:16:50.609
+Hyperledger Community: is get that list into the voter website
+
+125
+00:16:51.300 --> 00:16:53.140
+Hyperledger Community: uh so people can check.
+
+126
+00:16:54.320 --> 00:16:58.249
+Hyperledger Community: I I said, voter the the
+
+127
+00:16:58.570 --> 00:17:00.709
+Hyperledger Community: uh check my status website,
+
+128
+00:17:01.520 --> 00:17:06.879
+Hyperledger Community: and that'll be something that gets updated once a day by get of actions or whatever.
+
+129
+00:17:07.349 --> 00:17:10.799
+Hyperledger Community: And then it would be the further edge case would be,
+
+130
+00:17:11.460 --> 00:17:15.240
+Hyperledger Community: you know, if they don't have a github Id they haven't done anything
+
+131
+00:17:15.930 --> 00:17:21.110
+Hyperledger Community: that's where it's going to be. We'll have to go look in the wiki, or something of that nature.
+
+132
+00:17:29.560 --> 00:17:30.740
+Tracy Kuhrt: Um,
+
+133
+00:17:31.180 --> 00:17:37.389
+Tracy Kuhrt: okay, uh. So the other thing here uh i'm making one last change
+
+134
+00:17:40.780 --> 00:17:43.920
+Tracy Kuhrt: uh to this page. But uh,
+
+135
+00:17:43.990 --> 00:18:00.790
+Tracy Kuhrt: if you wouldn't mind refreshing again, Shawn Sorry about that. Um. So I included kind of the please check all that. Apply um of what it is that you've done uh. That would qualify you to run for the the Tfc. Election. Um, it's.
+
+136
+00:18:00.930 --> 00:18:05.939
+Tracy Kuhrt: I don't know if it's a complete list, but I did it with the other, and they please provide details. So
+
+137
+00:18:06.340 --> 00:18:16.169
+Tracy Kuhrt: maybe this will address the concerns I know of not having to say there's a hundred thousand minutes that I've done.
+
+138
+00:18:16.280 --> 00:18:17.450
+Arnaud J Le Hors ("Arno"): No,
+
+139
+00:18:25.360 --> 00:18:31.340
+Tracy Kuhrt: okay. Any other comments in on the nomination process or the timeline here.
+
+140
+00:18:40.720 --> 00:18:48.660
+Tracy Kuhrt: Okay, uh. So then for the election process uh the voting period for the six uh
+
+141
+00:18:48.750 --> 00:18:54.919
+Tracy Kuhrt: Ts Poc. Members are uh from November first, through November thirtieth
+
+142
+00:18:55.130 --> 00:19:13.520
+Tracy Kuhrt: um. So we will obviously announce the slave candidates. We're going to use a new new tool this year uh called Helios voting uh It's a tool that has you been used by other Linux foundation projects. Uh it uses your github Id
+
+143
+00:19:13.530 --> 00:19:18.470
+Tracy Kuhrt: in order to allow for voting. And since all of the voters must be
+
+144
+00:19:18.590 --> 00:19:32.790
+Tracy Kuhrt: active maintainers Um, that shouldn't be a problem for people. Um. And then uh, the email will be sent out to those eligible voters on how they will cast their ballots.
+
+145
+00:19:32.840 --> 00:19:52.100
+Tracy Kuhrt: The ballots will be cast um The election will close at eleven. Fifty-nine pm Us. Pacific time on November thirtieth I believe this tool sends out um reminders. So there's no sort of reminder email that has to be manually done. Um! It's automated through the tool,
+
+146
+00:19:52.110 --> 00:20:02.929
+Tracy Kuhrt: and then that vote will determine that the six elected Toc members uh whose whose names will be removed from the appointment. Boat
+
+147
+00:20:03.150 --> 00:20:06.539
+Tracy Kuhrt: questions are kind of the election, timely and process.
+
+148
+00:20:16.130 --> 00:20:32.419
+Arnaud J Le Hors ("Arno"): So Tracy, I don't have a question. I have a comment or good observation I wanted to share with everybody. Uh, this is the first time we have this kind of setup where there's a number of seats that actually get selected, and the others are pointed by the board.
+
+149
+00:20:32.610 --> 00:20:48.130
+Arnaud J Le Hors ("Arno"): I, you know I just want to say. Obviously I cannot speak on behalf of the board, and I cannot predict how they will actually do it. But I can share from my experience in another foundation where there is a similar setup,
+
+150
+00:20:48.210 --> 00:20:57.739
+Arnaud J Le Hors ("Arno"): the way they do it. Unless there is a need to do any different, they will basically continue down the list of the election results,
+
+151
+00:20:57.860 --> 00:21:17.259
+Arnaud J Le Hors ("Arno"): and as long as they're happy with what the mix that this gives them. They will just do that. They are not going to bother going for other people running another election or any of this. They will pick the people from, you know. Well being run running in the election, anyway,
+
+152
+00:21:17.400 --> 00:21:25.669
+Arnaud J Le Hors ("Arno"): because that's kind of like by default. If that gives us the right mix they are hoping for That makes it very easy for them to do
+
+153
+00:21:26.720 --> 00:21:27.820
+Arnaud J Le Hors ("Arno"): so.
+
+154
+00:21:29.810 --> 00:21:34.009
+Tracy Kuhrt: Okay, that's extremely interesting. Um. So
+
+155
+00:21:35.070 --> 00:21:38.540
+Tracy Kuhrt: I guess One of the things that I was
+
+156
+00:21:38.630 --> 00:21:41.989
+Tracy Kuhrt: uh thinking about your Arnold is that
+
+157
+00:21:42.450 --> 00:21:45.969
+Tracy Kuhrt: I don't know that
+
+158
+00:21:46.000 --> 00:22:01.020
+Tracy Kuhrt: we should be distinguishing and letting people know whether they that load it in, or appoint it if you will. Um, So I wasn't expecting to share the results uh, except internally within the Hyper Ledger staff.
+
+159
+00:22:01.150 --> 00:22:12.810
+Tracy Kuhrt: Uh the actual results of the vote. But if I hear what you're suggesting, you're suggesting that that those remote results would also be shared with the governing board members, so that they could
+
+160
+00:22:12.820 --> 00:22:30.799
+Tracy Kuhrt: um determine whether or not they want to to choose the next five, or choose some other.
+
+161
+00:22:30.810 --> 00:22:36.789
+Arnaud J Le Hors ("Arno"): They they, in the case of open Ss. They announced the people had been elected,
+
+162
+00:22:36.800 --> 00:22:54.740
+Arnaud J Le Hors ("Arno"): and then they say, Okay, there is. I forget It's Three more seats or four more seeds will be the appointed by the Board and the Board say, Okay, this is the people. But I actually I don't know, maybe public to be honest, but I know for a fact that you know they just took the next people on the list,
+
+163
+00:22:57.630 --> 00:23:16.829
+Arnaud J Le Hors ("Arno"): and they were happy with the mix that they gave them. So they were like, Okay, that satisfies us anybody. They had to vote quickly within the board to say, Yeah, happy with that good. And they announced the next. You know, people had been appointed by the Board as being also members
+
+164
+00:23:16.840 --> 00:23:22.570
+Arnaud J Le Hors ("Arno"): of the attack, and that's it. So I a again, I mean, you know
+
+165
+00:23:23.240 --> 00:23:27.580
+Arnaud J Le Hors ("Arno"): they may, it may go differently here, but
+
+166
+00:23:27.750 --> 00:23:34.240
+Arnaud J Le Hors ("Arno"): based on my experience, the A left staff will tend to say, Hey, this is how we do it elsewhere.
+
+167
+00:23:34.520 --> 00:23:37.709
+Arnaud J Le Hors ("Arno"): You might want to consider doing it that way, too.
+
+168
+00:23:37.730 --> 00:23:41.570
+Arnaud J Le Hors ("Arno"): And again, I mean, they will exercise their right to
+
+169
+00:23:41.670 --> 00:23:59.580
+Arnaud J Le Hors ("Arno"): all variety. The results, if they feel like this, is not giving them the right mix, which is the whole point of having this this feature right? They say. No, it's just using this too many people from the same project. The same company We're better off going down further into the least of,
+
+170
+00:23:59.590 --> 00:24:03.560
+Arnaud J Le Hors ("Arno"): but most likely they won't, You know
+
+171
+00:24:04.430 --> 00:24:23.000
+Arnaud J Le Hors ("Arno"): they they They will stop from there, at least right because they know these are people who have nominated themselves and are willing to do the job to stop with, which is easier than going to fish for other people and say, Hey, you didn't run for the election. But really we'd like you to be on this
+
+172
+00:24:23.010 --> 00:24:26.919
+Arnaud J Le Hors ("Arno"): on this talk so that there is diversity uh
+
+173
+00:24:27.440 --> 00:24:39.510
+Arnaud J Le Hors ("Arno"): it's not again. I mean they. They may very well do it, but you know it seems pretty clear to me that they will try to find the easy way first to fill those seats.
+
+174
+00:24:39.890 --> 00:24:56.620
+Tracy Kuhrt: Yeah, we we specifically. I made sure that the based on our conversations previously that the Charter specifically says that the governing board has to choose from the nominees um that they cannot go outside of the the list of
+
+175
+00:24:56.640 --> 00:25:04.730
+Tracy Kuhrt: uh because of the whole like you didn't sign up. Uh maybe you didn't want to do the job. And now you're being forced to do a job that you didn't really
+
+176
+00:25:05.830 --> 00:25:21.510
+Tracy Kuhrt: um, but I I do think it's an interesting sort of uh perspective on now, and I think um. We have a Government board meeting on Monday, and I think i'll bring that up. I don't think uh Daniel on this call, but uh
+
+177
+00:25:21.520 --> 00:25:29.169
+Tracy Kuhrt: um try to talk to Daniela before the call, just to let him know that i'll bring up kind of this election process. Um,
+
+178
+00:25:29.190 --> 00:25:41.629
+Tracy Kuhrt: so that there can be some discussion about what the governing board wants to do whether or not they want the the results from the vote, or whether they want to start with the list of nominees minus the the
+
+179
+00:25:41.800 --> 00:25:44.940
+Tracy Kuhrt: uh six elected Tsc. Numbers
+
+180
+00:25:46.280 --> 00:25:47.470
+Arnaud J Le Hors ("Arno"): sounds good.
+
+181
+00:25:47.930 --> 00:25:53.040
+Tracy Kuhrt: Okay. Other other comments or questions on the election process itself.
+
+182
+00:26:00.110 --> 00:26:16.579
+Tracy Kuhrt: Okay. So then, uh, with the appointment process, this may change based on that conversation with the company boy, but the the intent was to take the Tsc. Nominee. These exclude the six elected poc members and have the governing board vote um
+
+183
+00:26:16.690 --> 00:26:31.970
+Tracy Kuhrt: for a period of about a week. Um! Which was what was suggested by Min uh, we had. I had this much longer, but she suggested just a a short period for the governing board. Um, so we'll,
+
+184
+00:26:32.530 --> 00:26:51.070
+Tracy Kuhrt: I guess, uh the intent was to use opa boat um, which is what we've used in the past for the to use the elections. It's what the governing board uses for any sort of elections that they have. Um. The process really is to send out an email and a reminder email and to have the election close on the night.
+
+185
+00:26:51.140 --> 00:27:08.509
+Tracy Kuhrt: Um, The ninth is a Friday. So I did um say that on the twelfth an email would be sent to the Ts. Coc mailing list announcing the newly elected and appointed members Um, and then that group of people would elect the uh,
+
+186
+00:27:08.520 --> 00:27:25.339
+Tracy Kuhrt: the new toc chair and vice chair. Now I gave a a long period for that. I don't know that it's going to take um that long. Uh, but this is obviously the holiday period, and so there are vacations and things that I expect people to be on. And so I want to make sure
+
+187
+00:27:25.350 --> 00:27:38.930
+Tracy Kuhrt: that we gave time on the front end and the back end of those holidays to um, ensure that everybody had a chance to express their desire for the to Oc. Chair and vice chair,
+
+188
+00:27:38.940 --> 00:27:53.459
+Tracy Kuhrt: and that, as far as the the election goes, it'll be very similar to what we've done in the past, where, uh, there's an election for the chair, and then the person who gets the second highest votes would get the Vice chair
+
+189
+00:27:57.280 --> 00:28:02.050
+Tracy Kuhrt: Questions on the appointment process, or that share vice, chair, election,
+
+190
+00:28:09.650 --> 00:28:12.810
+Tracy Kuhrt: quite group today.
+
+191
+00:28:13.140 --> 00:28:21.880
+David Enyeart: Either that mean think they're good or uh things are so bad that that you don't want to comment. Um,
+
+192
+00:28:23.810 --> 00:28:37.289
+Victor Gridnevsky: if I may. A little question. Okay, Okay. So I had some small contribution to, and I was actively supporting uh with all the questions people had.
+
+193
+00:28:38.390 --> 00:28:42.409
+Victor Gridnevsky: So, even with that am I allowed to participate?
+
+194
+00:28:42.910 --> 00:28:51.389
+Tracy Kuhrt: You are definitely allowed to nominate yourself. Um. Given the conversation that you had uh, as far as
+
+195
+00:28:51.500 --> 00:29:00.109
+Tracy Kuhrt: uh the voting process. I guess the question is, Victor or you missed it as a maintainer in the maintainer's files in the roots.
+
+196
+00:29:00.850 --> 00:29:01.829
+Aleksandr Petrosyan: He is
+
+197
+00:29:02.230 --> 00:29:07.489
+Tracy Kuhrt: okay. Uh. So if you are listed as a maintainer that you would be allowed to vote,
+
+198
+00:29:07.720 --> 00:29:13.810
+Tracy Kuhrt: assuming that you had active um contributions uh which it sounds like. You have
+
+199
+00:29:14.290 --> 00:29:15.420
+Victor Gridnevsky: okay,
+
+200
+00:29:19.720 --> 00:29:23.410
+Tracy Kuhrt: Other questions or comments on the election,
+
+201
+00:29:24.010 --> 00:29:28.670
+Tracy Kuhrt: and they don't have to be on this page. It's like to be very similar to what Victor just have.
+
+202
+00:29:29.270 --> 00:29:33.640
+Aleksandr Petrosyan: I have one who is eligible to vote.
+
+203
+00:29:33.680 --> 00:29:35.450
+Aleksandr Petrosyan: And uh,
+
+204
+00:29:36.860 --> 00:29:44.340
+Aleksandr Petrosyan: basically um, what happens if people decide not to do it? Um! Is there a a quorum that needs to be reached?
+
+205
+00:29:45.420 --> 00:29:53.519
+Tracy Kuhrt: Okay, uh. So it's on. If you in mind going back up to the top where we have the charter. Uh. So for the a dot
+
+206
+00:29:54.840 --> 00:30:09.470
+Tracy Kuhrt: reading to um elections will be administered and oversee by the Tsc. All maintainers for similar technical role in the case of supported projects which we don't have any currently supported projects. Um. So
+
+207
+00:30:09.480 --> 00:30:20.709
+Tracy Kuhrt: uh, all maintainers of any technical project who have been active in the past year will elect six individuals. So if you've been an active maintainer in the last year,
+
+208
+00:30:20.740 --> 00:30:38.380
+Tracy Kuhrt: then you will be eligible to vote. Uh you are not required to vote. But you are eligible to vote as we've never had any sort of form for people to vote, and we still don't have any sort of Forum for people to vote
+
+209
+00:30:40.880 --> 00:30:43.229
+Aleksandr Petrosyan: Excellent! Thank you.
+
+210
+00:30:46.680 --> 00:30:49.339
+Tracy Kuhrt: Other questions comments
+
+211
+00:30:55.480 --> 00:30:59.779
+Tracy Kuhrt: uh Peter, so I uh
+
+212
+00:31:00.660 --> 00:31:01.980
+Peter Somogyvari: no problem
+
+213
+00:31:02.220 --> 00:31:10.659
+Peter Somogyvari: uh from me. It's just a quick thumbs up. I think this is a good idea, and i'm happy that you're working on it. And i'll be curious to see how it goes.
+
+214
+00:31:12.440 --> 00:31:14.050
+Tracy Kuhrt: Alright, Thanks, Peter.
+
+215
+00:31:26.850 --> 00:31:31.110
+Tracy Kuhrt: Okay. Uh. So that was the end of the official agenda.
+
+216
+00:31:31.230 --> 00:31:35.939
+Tracy Kuhrt: Is there anything else that anybody would like to cover?
+
+217
+00:31:42.950 --> 00:31:43.950
+Tracy Kuhrt: All right?
+
+218
+00:31:45.920 --> 00:32:03.730
+Arun S M: Yes, so this is related to this security task force. Um, I know I missed the previous call, but I not caught me up. Um! It's that I mean this week. And then he updated the discussions that he had with heart, and then he also brought in some of the interesting conversations from Open, as you said,
+
+219
+00:32:08.990 --> 00:32:11.080
+Arun S M: Um, and
+
+220
+00:32:11.140 --> 00:32:20.260
+Arun S M: there will be few explorations going on in the coming days from by by the task force which we will come up with
+
+221
+00:32:20.510 --> 00:32:21.410
+Arun S M: um
+
+222
+00:32:21.660 --> 00:32:23.290
+Arun S M: as proposals here.
+
+223
+00:32:24.260 --> 00:32:31.100
+Arun S M: There is one pending action. Item that Um, it is overdue, for now I know I promised it soon after that
+
+224
+00:32:31.410 --> 00:32:35.099
+Arun S M: the Global Forum event. But I could not do it.
+
+225
+00:32:35.240 --> 00:32:36.950
+Arun S M: That is related to
+
+226
+00:32:37.630 --> 00:32:39.790
+Arun S M: um. How do we
+
+227
+00:32:41.330 --> 00:32:47.599
+Arun S M: and the the the security process itself? Right? The reviewing? How can somebody come and report? And
+
+228
+00:32:47.790 --> 00:32:50.570
+Arun S M: what are the actions to be taken by each team.
+
+229
+00:32:50.880 --> 00:32:59.209
+Arun S M: It's again listed under open Ss. Um. We had one deep conversations on that when I think few weeks ago,
+
+230
+00:33:00.090 --> 00:33:07.389
+Arun S M: and the heart that suggested that we should probably incorporate the ones that are non-controversial.
+
+231
+00:33:18.590 --> 00:33:23.979
+Arun S M: Okay, just an update on what's happening, And I do request everyone to please participate
+
+232
+00:33:24.080 --> 00:33:25.780
+Arun S M: and the task force.
+
+233
+00:33:27.890 --> 00:33:30.080
+Tracy Kuhrt: Alright, Thanks so much for the update.
+
+234
+00:33:31.860 --> 00:33:34.950
+Tracy Kuhrt: Anything else that anybody would like to cover.
+
+235
+00:33:42.060 --> 00:33:59.099
+Tracy Kuhrt: So um! Before I let you go, I know you guys all wanted to get out of here. But um! Before I do let you go, one of the things that I wanted to bring up was our backlog items uh that we do have uh still open. One is on the security process which is being
+
+236
+00:33:59.110 --> 00:34:04.570
+Tracy Kuhrt: uh handled via the security task force, but the other one is Um
+
+237
+00:34:05.620 --> 00:34:06.970
+Tracy Kuhrt: is
+
+238
+00:34:07.320 --> 00:34:13.179
+Tracy Kuhrt: related to the projects who have not submitted their Tsc. Quarterly project updates um
+
+239
+00:34:13.340 --> 00:34:29.129
+Tracy Kuhrt: and moving them to a dormant state after a Tsc. Discussion and possible votes. I do know that there were a number of comments on this um back when it was originally open. Um, we haven't made any sort of
+
+240
+00:34:29.230 --> 00:34:33.889
+Tracy Kuhrt: further progress on what we want to do specifically with this
+
+241
+00:34:33.909 --> 00:34:51.610
+Tracy Kuhrt: um with this particular issue, whether or not we want to implement this, whether or not we want to close it, and then maybe we could have a quick discussion on any thoughts that people might have on this particular backlog item uh, i'd really like to see if we could address it
+
+242
+00:34:51.830 --> 00:34:54.669
+Tracy Kuhrt: before the end of this term,
+
+243
+00:34:55.440 --> 00:34:59.900
+Tracy Kuhrt: one way or the other, be it close it, or take action on it.
+
+244
+00:35:01.090 --> 00:35:10.990
+Tracy Kuhrt: So uh, just as a a reminder, the idea was to uh for those who had not uh put in their quarterly project updates.
+
+245
+00:35:11.080 --> 00:35:18.969
+Tracy Kuhrt: Um. Do you have the Ts vice chair reach out to the projects when they miss submitting the the project updates um
+
+246
+00:35:19.230 --> 00:35:22.439
+Tracy Kuhrt: via either um
+
+247
+00:35:22.550 --> 00:35:41.469
+Tracy Kuhrt: reaching out to the last emitter of the project quarterly update, reaching out via the project mailing list and reaching out via the project's official chat channel, uh, and then we're unable to reach someone for an entire quarter, we would have a discretion within the technical oversight Committee to ten minutes
+
+248
+00:35:41.480 --> 00:35:45.310
+Tracy Kuhrt: uh we should vote on moving the project to a dormant state.
+
+249
+00:35:45.810 --> 00:35:56.660
+Tracy Kuhrt: Uh, so I I know this came up when we had some projects. Who hadn't submitted their I think it was borough Actually, when they had each minute they report for probably about
+
+250
+00:35:56.680 --> 00:36:11.310
+Tracy Kuhrt: um a half a year. And so this was something that I created as a potential action that we could take, and I want to see if we want to. Uh, you know, implement this, or if we think this is not needed
+
+251
+00:36:14.500 --> 00:36:15.850
+Tracy Kuhrt: any thoughts
+
+252
+00:36:16.160 --> 00:36:17.180
+Tracy Kuhrt: All right
+
+253
+00:36:18.250 --> 00:36:26.160
+Arun S M: right. I think I kind of remembered this discussion with it. It got diverted to another discussion as well where
+
+254
+00:36:26.460 --> 00:36:45.850
+Arun S M: um people started asking, Should we even make this decision, because project teams could be busy on doing some things. And then there was other kind of discussion that went into asking if report is what we expect from each of the project every quarter. Then what what is it that we expect from each of that report? Can we extract that
+
+255
+00:36:46.390 --> 00:36:51.219
+Arun S M: for the time being, and then ask project teams to update when they when they can.
+
+256
+00:36:51.420 --> 00:37:05.219
+Arun S M: But then um! The other thinking that I also have is we will be reaching out to project maintenance, and if they are not submitting quarterly report, or at least they should be responding back to the question that uh
+
+257
+00:37:05.290 --> 00:37:07.109
+Arun S M: members would ask them;
+
+258
+00:37:07.230 --> 00:37:10.919
+Arun S M: and if they are not even responding to the questions, then it's E.
+
+259
+00:37:11.200 --> 00:37:14.790
+Arun S M: It's equal to that project is not responding to any
+
+260
+00:37:14.850 --> 00:37:30.679
+Arun S M: concerns with their project. Right? So if they're not responding to uh, the t will say itself, How can they respond? So we can imagine, like, what kind of response structure would they have for new contributors? For somebody who is new to the project?
+
+261
+00:37:35.690 --> 00:37:41.820
+Arun S M: Project has not responded to any of the questions itself. That definitely is a concern.
+
+262
+00:37:44.000 --> 00:37:55.600
+Tracy Kuhrt: Yes, completely agree that it's a big concern. Uh, we want people to be able to get responses from the project. Uh, if they have issues or they're looking to make contributions.
+
+263
+00:37:55.810 --> 00:37:56.790
+Tracy Kuhrt: I know.
+
+264
+00:37:57.580 --> 00:38:05.060
+Arnaud J Le Hors ("Arno"): Yeah, I mean I My My gut reaction is, we don't need to add anything, because this is
+
+265
+00:38:05.100 --> 00:38:22.910
+Arnaud J Le Hors ("Arno"): this is why we have this quarterly reports, and it was to you know it. Make sure that you know projects are still going on, and uh, you know, have a hard bit, so to speak, and so it seems to me that this is a natural, you know,
+
+266
+00:38:22.920 --> 00:38:41.569
+Arnaud J Le Hors ("Arno"): possible outcome of the project, not responding, not feeling out the quarterly reports, and I don't know that we need to add a special rules stating that. But I I I was trying in the back to go to the website, I would Uh,
+
+267
+00:38:44.010 --> 00:38:53.949
+Arnaud J Le Hors ("Arno"): it depends on whether we specify the way we specify how you enter. Doleman states basically exclude the talk doing this,
+
+268
+00:38:53.980 --> 00:39:23.010
+Arnaud J Le Hors ("Arno"): then we would have to change it. To say, Oh, one of the possibilities is, the talk has not heard from the project, such as you know, not receiving any quarterly reports, and therefore the talk might decide to move the project to dormant. But I think in a sense, we've seen this actually happen already without that rule. Right that we we we've seen in the cases of the existing projects we had like a borough, and where
+
+269
+00:39:23.160 --> 00:39:38.510
+Arnaud J Le Hors ("Arno"): we knew, you know, every time they had to like, you know. Like. Ask them repeatedly, Hey, where's your report? Where your report? And then eventually they themselves at the That's okay. Forget it. We can't keep doing this. So
+
+270
+00:39:39.360 --> 00:39:52.799
+Arnaud J Le Hors ("Arno"): I yeah I my my you know. Again, I I think I don't feel like this is necessary in general. I think we shouldn't just keep adding more rules for the sick of it. And this is strictly needed.
+
+271
+00:39:53.680 --> 00:40:12.589
+Tracy Kuhrt: Okay, and I know it. Project and or the dominant state. When the normal functions are suspended, or so down for a period of time, the Tfc. Decides to move the project to or from the domain, State upon request or just not, say who requests that? Uh it just says upon request.
+
+272
+00:40:12.600 --> 00:40:31.960
+Tracy Kuhrt: Um! So I think you know, if the Tsc. Is requesting it, then the Tsc. Um obviously can make that determination as to whether or not it makes sense to go to the German State. So um sounds like we want to close this issue. Any anybody want to see this issue may open and that we do
+
+273
+00:40:31.990 --> 00:40:33.120
+Tracy Kuhrt: that it.
+
+274
+00:40:44.050 --> 00:41:00.090
+Tracy Kuhrt: Okay. Um, Then we will close this issue, since somebody uh wanted to take action
+
+275
+00:41:01.020 --> 00:41:04.349
+Tracy Kuhrt: works for me. I will do that. I know. Um.
+
+276
+00:41:05.010 --> 00:41:06.069
+Tracy Kuhrt: Thank you.
+
+277
+00:41:06.140 --> 00:41:09.860
+Tracy Kuhrt: Any other items to discuss today.
+
+278
+00:41:17.870 --> 00:41:37.839
+Tracy Kuhrt: Well, we will then close out the meeting and thank you all for attending hopefully. Next week we will be talking about the A non Prince project Uh, uh, Steven is attempting to get that ready for us. Uh, we also do have uh the prune lab that would like to present to us at some point.
+
+279
+00:41:37.850 --> 00:41:56.880
+Tracy Kuhrt: Um, i'll decide whether or not that's next week depending on whether Stevens ready for us uh next week or not. I don't want to do both of them at the same time. So um, we do have both of those on the backlog of agenda items for upcoming meetings. So with that I will close today's meeting, and I wish you all a good week.
+
+280
+00:41:58.510 --> 00:42:00.209
+Angelo De Caro: Thank you.
+

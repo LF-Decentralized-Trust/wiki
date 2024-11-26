@@ -1,0 +1,27 @@
+07:03:59	 From  Adam Lambert : https://wiki.hyperledger.org/pages/viewpage.action?pageId=41583284
+07:04:00	 From  Stephen Curran : https://wiki.hyperledger.org/pages/resumedraft.action?draftId=41583285&draftShareId=b3f4671f-86cf-41f6-a77d-69ccf44335df&
+07:07:04	 From  Alex Jonsson : https://zoom.us/my/hyperledger.community.3?pwd=UE90WHhEaHRqOGEyMkV3cldKa2d2dz09
+07:08:51	 From  Jim Mason : I see the Aries B call zoom url on the wiki needs to be corrected
+07:08:58	 From  Jim Mason : https://wiki.hyperledger.org/display/ARIES/Aries+Working+Group
+07:11:46	 From  Sam Curren (TelegramSam) : +1 for yaml config!
+07:33:03	 From  Jim Mason : makes sense the verifier use case sets the revocation currency requirement
+07:35:48	 From  Rouven Heck : +q re. assumption / goals: chain specific/agnostic?
+07:39:26	 From  Jim Mason : is there a thought to a design later on that can scale better?
+07:40:00	 From  Martin Riedel : q+
+07:47:51	 From  Martin Riedel : q+ Are the design differences of Tail 1.0 vs Rev 2.0 solely explained by ECC Accumulator vs RSA Accumulator?
+07:51:47	 From  Martin Riedel : I answer that myself and Mike can object: I think aspect that we don’t need a tails file is related to the prime generator and NOT to the accumulator type. The batching possibility and the easier update IS related to the properties of the RSA accumulator.
+07:54:01	 From  Brent Zundel : I agree about the merkle tree model having better data handling characteristics
+07:54:33	 From  Michael Lodder : Martin, Batching works for both ECC and RSA
+07:54:35	 From  Brent Zundel : and the interface can match with the W3C revocation bit array
+07:54:43	 From  Michael Lodder : prime number is just an element
+07:58:36	 From  Martin Riedel : Mike, for the Merkle Tree-based Proof data what size (depth or # elements) is that based on. (e.g. 1s proof generation), or is it independent of size?
+07:59:16	 From  Michael Lodder : If its just the revoked ranges, proof generation and proof size depends on the depth of th etree
+08:00:26	 From  Oliver Terbu : Couldn’t there be just an abstract interface for revoke(x), isRevoked(x), so you won’t have any limitations?
+08:00:45	 From  Oliver Terbu : (Sure, the actual interface might look different)
+08:02:34	 From  Rouven Heck : can collecting data + proofing run in parallel?
+08:02:41	 From  Michael Lodder : yep
+08:04:24	 From  Troy Ronda : I like simplifying what the ledger has to do and trying to work with the other efforts like the compressed bit array.
+08:05:29	 From  Troy Ronda : Ideally we can just use DIDs from the ledger.
+08:05:31	 From  Martin Riedel : unrevoked ranges are only anonymous if my range is >1, correct (depends a little on HOW much is revoked), but I lose anonyminity if my neighbors are revoked, correct?
+08:07:46	 From  Rouven Heck : Thanks!
+08:07:50	 From  Artur Philipp : Thanks a lot!

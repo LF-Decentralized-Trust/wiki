@@ -1,0 +1,1542 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.870
+Sean Bohan (Hyperledger): Tracy router.
+
+2
+00:00:03.810 --> 00:00:13.320
+Tracy Kuhrt: I think Sean and I think i'll go ahead and get us started so welcome everybody to the August 11 hyper ledger technical steering committee call.
+
+3
+00:00:13.860 --> 00:00:22.980
+Tracy Kuhrt: As you are all were two things that we must abide by on this call the first is the antitrust policy notice that is currently.
+
+4
+00:00:23.580 --> 00:00:42.360
+Tracy Kuhrt: being displayed on the screen and the second is our code of conduct which is magenta for announcements today we have the standard definitely developer newsletter that goes out each Friday, if you have something to include in that newsletter please leave a comment for.
+
+5
+00:00:43.860 --> 00:00:48.930
+Tracy Kuhrt: Consideration on that wiki page that asleep in our agenda if there.
+
+6
+00:00:50.040 --> 00:00:53.610
+Tracy Kuhrt: I guess is there any other announcements that anybody would like to make.
+
+7
+00:01:04.260 --> 00:01:07.080
+Tracy Kuhrt: Right, I will take that as a Bobby.
+
+8
+00:01:08.910 --> 00:01:17.760
+Bobbi Muscara: I just wanted to remind people that the survey is still in the chat from last week, if you didn't get a chance to take it it's only two minutes in the documentation effort would appreciate it.
+
+9
+00:01:19.500 --> 00:01:21.990
+Tracy Kuhrt: Alright, thanks Bobby any other announcements.
+
+10
+00:01:27.120 --> 00:01:34.230
+Tracy Kuhrt: Alright, so we do have two quarterly reports that came in last week hyper ledger hyper ledger end.
+
+11
+00:01:36.090 --> 00:01:51.510
+Tracy Kuhrt: I know I saw the areas one has I think about three people who had a chance to review that I haven't taken a look at the indy one but i'm sure it's probably about the same So if you haven't had an opportunity to take a look at those please do.
+
+12
+00:01:53.160 --> 00:01:56.670
+Tracy Kuhrt: There are some really good stuff happening in both of those projects.
+
+13
+00:01:59.100 --> 00:02:03.150
+Tracy Kuhrt: Any questions on those two reports for those who have had a chance to look at it.
+
+14
+00:02:12.660 --> 00:02:21.900
+Tracy Kuhrt: Alright, we do have the URL have one that is due today so hopefully we'll see that one coming in, and then the bevel, one that is due next week.
+
+15
+00:02:23.220 --> 00:02:41.940
+Tracy Kuhrt: So we'll be looking forward to seeing those as far as discussion items I don't know of any specific kfc discussion items that we have today, but if anybody has anything now is the time to bring it up, so that we can talk through that before we move to the task force discussion.
+
+16
+00:02:52.830 --> 00:02:57.570
+Tracy Kuhrt: Okay, so then Oh, I think it is overdue for the task force discussion.
+
+17
+00:03:00.960 --> 00:03:03.660
+Danno Ferrin: All right, um let me get my screen ready.
+
+18
+00:03:07.470 --> 00:03:19.530
+Danno Ferrin: So a few weeks ago we went over the recommendations take one I spent most time sharing details of it and we didn't get much of an opportunity to get this story feedback from.
+
+19
+00:03:21.270 --> 00:03:29.850
+Danno Ferrin: A lot of the people who are on the call or may have seen it for the first time, so I first i'd like to open the floor if there's anybody has any comments on it.
+
+20
+00:03:30.300 --> 00:03:38.010
+Danno Ferrin: And then, if there is no general comments we can talk about review the labs projects and review, you know.
+
+21
+00:03:38.880 --> 00:03:49.290
+Danno Ferrin: If there's any other scoping limitations, we want to put on on the themes and other than that I don't think there's a whole lot more to do with this project with this task force does um.
+
+22
+00:03:50.100 --> 00:04:04.260
+Danno Ferrin: You know, is our goal is to identify areas identify the lattice projects and other sources, and those are the main tasks so we're basically there and so open the floor any general comments about.
+
+23
+00:04:05.910 --> 00:04:07.890
+Danno Ferrin: The findings that were presented a few weeks ago.
+
+24
+00:04:16.980 --> 00:04:18.270
+Danno Ferrin: know that and.
+
+25
+00:04:19.530 --> 00:04:20.640
+Danno Ferrin: If I might discord.
+
+26
+00:04:22.530 --> 00:04:33.870
+Danno Ferrin: There is one question from room to the task force consider any projects in the Member States, maybe have examples demonstrating interrupted identity solutions work together the titan virtual world to the real world um.
+
+27
+00:04:34.920 --> 00:04:40.920
+Danno Ferrin: Anyone have comments on on that questions from the room, or just really want to speak to it.
+
+28
+00:04:45.090 --> 00:04:46.170
+Arun S M: Sure, so.
+
+29
+00:04:47.820 --> 00:04:50.190
+Arun S M: This came up as one of the equation so.
+
+30
+00:04:51.450 --> 00:04:59.700
+Arun S M: Two weeks ago, it probably last last week on a weekend I got a chance to attend a blockchain event in Bangalore it was called where.
+
+31
+00:05:00.330 --> 00:05:10.980
+Arun S M: I could meet some of the people, it was a different meeting for me different kind of setup where it was more from a public blockchain ecosystem, not from enterprise world.
+
+32
+00:05:12.270 --> 00:05:20.070
+Arun S M: But I had some familiar faces there in the event wears many of them were talking about this particular topic so.
+
+33
+00:05:21.510 --> 00:05:40.740
+Arun S M: I introduced myself, and then I say that i'm working within the political system, but then the very first question that pops up is how relevant or hyper ledger move towards in the Web space when everybody moves towards let's say metaverse or in that kind of an area right so.
+
+34
+00:05:41.910 --> 00:05:42.300
+Arun S M: I think.
+
+35
+00:05:43.440 --> 00:05:48.780
+Arun S M: There is two ways I could have responded that one way is to just answer be technical.
+
+36
+00:05:49.710 --> 00:06:00.180
+Arun S M: object to the question or other way could be okay let's understand what's happening there, so I tend towards that approach, where I try to understand what's happening there and understand what's.
+
+37
+00:06:00.720 --> 00:06:07.290
+Arun S M: what's been what's that ecosystem moving towards so most of the problem statement that they brought up.
+
+38
+00:06:08.310 --> 00:06:10.500
+Arun S M: are already solved it's not like a problem that.
+
+39
+00:06:11.970 --> 00:06:20.460
+Arun S M: that's not sold and under any of the project under hyper ledger it's just that there is no such example and unless we have people who can.
+
+40
+00:06:21.030 --> 00:06:32.070
+Arun S M: think the same way it's very hard to communicate these things out and that's when I mean when you posted that question It reminded me of of this discussion and I had to.
+
+41
+00:06:33.360 --> 00:06:37.260
+Arun S M: write it down right so that's the background of why this came up.
+
+42
+00:06:38.430 --> 00:06:39.600
+Arun S M: And it came up.
+
+43
+00:06:40.920 --> 00:06:42.060
+Danno Ferrin: yeah because when.
+
+44
+00:06:42.300 --> 00:06:42.900
+Arun S M: I look at the.
+
+45
+00:06:43.020 --> 00:06:44.580
+Danno Ferrin: The the metaverse will stuff.
+
+46
+00:06:45.720 --> 00:06:52.740
+Danno Ferrin: I tend to agree that a lot of the technology is there to support it, you know we just did the 3D rendering libraries are probably out of scope of hyper ledger.
+
+47
+00:06:53.280 --> 00:07:04.890
+Danno Ferrin: But the tools to lead an nfc to the system should be you know something that can be done with with it with hyper ledger tools and should be library to be there to support um.
+
+48
+00:07:06.060 --> 00:07:15.630
+Danno Ferrin: I mean a DEMO live DEMO application that yeah that's something that I didn't initially think about that we may or may not want to do this doesn't like something like a.
+
+49
+00:07:16.470 --> 00:07:25.200
+Danno Ferrin: project level might want to put their DEMO together but it's a tough call, especially when you're talking about something like the metaverse thing where it's all.
+
+50
+00:07:26.670 --> 00:07:29.430
+Danno Ferrin: aggregates have multiple projects now an aggregate DEMO.
+
+51
+00:07:30.480 --> 00:07:31.110
+Danno Ferrin: kamalesh.
+
+52
+00:07:32.700 --> 00:07:38.970
+Kamlesh Nagware: So a 2.26 months back, I met when company was building a.
+
+53
+00:07:40.080 --> 00:07:53.460
+Kamlesh Nagware: metaverse platform on hyper ledger fabric, so, so I think there are such projects are going on, but like elements and they didn't know what kind of people are talking about sharing in the Community, what they are we dealing with the hyper ledger.
+
+54
+00:07:54.630 --> 00:07:55.380
+Kamlesh Nagware: and other things like.
+
+55
+00:07:57.300 --> 00:08:07.680
+Kamlesh Nagware: Last last week Julian Gordon the BP SF s week like this person came to India and Julian and I met with the Polygon Vice President so.
+
+56
+00:08:08.340 --> 00:08:17.100
+Kamlesh Nagware: And they are going to swan interest to be kind of collaborate with hyper ledger or like how they can maybe create the plugins for the cactus humanized same.
+
+57
+00:08:17.490 --> 00:08:27.510
+Kamlesh Nagware: same thing I mentioned in the this wiki page like up, so how we can involve the other communities or whether creates some collaboration or.
+
+58
+00:08:29.430 --> 00:08:34.170
+Kamlesh Nagware: Maybe also talk the language of like how the people are talking about the Web three in the public locked in a space.
+
+59
+00:08:38.250 --> 00:08:38.760
+Kamlesh Nagware: So I think.
+
+60
+00:08:41.100 --> 00:08:41.340
+Kamlesh Nagware: yeah.
+
+61
+00:08:46.260 --> 00:08:56.460
+Kamlesh Nagware: And I didn't add a story recently like when like some if someone is building on the token ization so always the if, like, for example, if the technology person consulting them so.
+
+62
+00:08:56.940 --> 00:09:08.910
+Kamlesh Nagware: it's very hard to convince someone to create a token token nomics on a hyper ledger best projects instead of on the any public blockchain so like recently, one of the customer.
+
+63
+00:09:09.570 --> 00:09:19.890
+Kamlesh Nagware: is building some kind of agriculture economics to initiative platform kind of thing like line of kind of farmland organized and then, what are the crops his farm.
+
+64
+00:09:20.520 --> 00:09:28.080
+Kamlesh Nagware: produce on the on the farm is attached to that token so this kind of thing on the he's considering to use the hyper ledger fabric.
+
+65
+00:09:28.500 --> 00:09:36.900
+Kamlesh Nagware: But now suppose when we are consulting those kind of customer So if you don't have such kind of his stories or some kind of like, for example, like wallet, for example, like.
+
+66
+00:09:38.010 --> 00:09:47.010
+Kamlesh Nagware: In the library or any kind of hyper ledger project, we need to create the custom wallet is to have like a public blockchain provide the kind of consolidated water like Meta mask so.
+
+67
+00:09:47.880 --> 00:09:54.420
+Kamlesh Nagware: In what projects can gaps in the particular hybrids community, we should have kind of such kind of project which kind of.
+
+68
+00:09:55.980 --> 00:10:00.600
+Kamlesh Nagware: simplify the implementation execution of the blockchain projects.
+
+69
+00:10:04.200 --> 00:10:04.620
+Danno Ferrin: Okay.
+
+70
+00:10:10.440 --> 00:10:23.580
+Danno Ferrin: yeah that I think yeah it's those are good points it's hard to distill that into a project that we need, but I think those are all some high level things we need to think about as we, as we produce our projects and get the demos out.
+
+71
+00:10:24.720 --> 00:10:25.080
+Danno Ferrin: Okay.
+
+72
+00:10:27.930 --> 00:10:30.720
+Danno Ferrin: anyone else have anything they want to share on this before we move on to.
+
+73
+00:10:31.740 --> 00:10:33.750
+Danno Ferrin: Reviewing the last projects.
+
+74
+00:10:56.460 --> 00:10:57.720
+Danno Ferrin: So if you go to the labs.
+
+75
+00:10:59.880 --> 00:11:03.900
+Danno Ferrin: labs websites let's go back down to the last section we initially identified.
+
+76
+00:11:05.460 --> 00:11:18.720
+Danno Ferrin: So laying perrin business presentation Ryan there's a couple of fabric, things are probably going to get absorbed in the fabric did anyone else have any favorite labs projects that they think should be on this list that we should consider approaching and discussing with them.
+
+77
+00:11:24.570 --> 00:11:27.900
+Kamlesh Nagware: I think February of traits sorry I didn't raise my hand.
+
+78
+00:11:29.040 --> 00:11:29.580
+Danno Ferrin: Go ahead.
+
+79
+00:11:30.090 --> 00:11:30.990
+Kamlesh Nagware: yeah so.
+
+80
+00:11:32.040 --> 00:11:33.870
+Kamlesh Nagware: February operator or.
+
+81
+00:11:35.040 --> 00:11:36.660
+Kamlesh Nagware: He live operator I think is a good.
+
+82
+00:11:38.160 --> 00:11:45.390
+Kamlesh Nagware: To be considered, I think it is already mentioned here, so I think they did to operate, I think the one hmm operator, there are other fabric operated.
+
+83
+00:11:46.470 --> 00:11:47.880
+Kamlesh Nagware: Did it two different lips.
+
+84
+00:11:58.650 --> 00:12:01.230
+Danno Ferrin: Very operator fabric operations that's.
+
+85
+00:12:09.390 --> 00:12:09.840
+Danno Ferrin: Okay.
+
+86
+00:12:14.130 --> 00:12:20.280
+Dave Enyeart: Yes, so I can speak to these two, so what we're trying to do with these in the fabric ecosystem and see if we can get traction.
+
+87
+00:12:20.670 --> 00:12:28.440
+Dave Enyeart: Like like he said there's two fabric operators in the labs and then there's also a bunch of other fabric deployment solutions for Cooper nettie.
+
+88
+00:12:28.980 --> 00:12:34.200
+Dave Enyeart: we're trying to see if one of these gets traction that's kind of the operator that most of the Community uses.
+
+89
+00:12:34.620 --> 00:12:45.150
+Dave Enyeart: And if so, these would probably get absorbed into the fabric as guys as fabric sub projects like Dan mentioned so we're trying to gauge the interest of.
+
+90
+00:12:45.690 --> 00:12:56.310
+Dave Enyeart: Seeing if we can coalesce the ecosystem into you know, one of these operators, along with the operations console and we'll be talking about this, also in the global forum.
+
+91
+00:13:06.870 --> 00:13:07.590
+Danno Ferrin: i'm.
+
+92
+00:13:13.560 --> 00:13:18.840
+Danno Ferrin: going from the top here how about so like does anyone use your right let's do transfers Tracy.
+
+93
+00:13:21.270 --> 00:13:35.550
+Tracy Kuhrt: yeah sorry, so I did I think after our last call went through and did some kind of ranking based on like number PR done the participants.
+
+94
+00:13:36.780 --> 00:13:48.930
+Tracy Kuhrt: Number of releases that sort of thing I think the the other one that jumped to the top that isn't listed yet is the blockchain carbon accounting.
+
+95
+00:13:50.010 --> 00:13:51.060
+Tracy Kuhrt: Which is.
+
+96
+00:13:54.150 --> 00:14:12.150
+Tracy Kuhrt: Close close to the top 10 and most of these categories it definitely is in the pure account and the participant count and then it's just outside the top 10 for the release count so that's another one that we might want to think about as we go through and.
+
+97
+00:14:13.440 --> 00:14:15.600
+Tracy Kuhrt: you're talking about the different labs that are out there.
+
+98
+00:14:16.890 --> 00:14:17.310
+Danno Ferrin: Okay.
+
+99
+00:14:26.970 --> 00:14:30.360
+Danno Ferrin: They don't have maintainer so first thing they need to do is get a.
+
+100
+00:14:32.610 --> 00:14:33.450
+Danno Ferrin: Rosary me.
+
+101
+00:14:34.920 --> 00:14:35.910
+Danno Ferrin: That was to me tinners.
+
+102
+00:14:37.950 --> 00:14:43.410
+Ry Jones: If you check your the bugs I filed over 100 issues on github repos.
+
+103
+00:14:44.460 --> 00:14:47.190
+Ry Jones: For know maintainer file so like right there at the top.
+
+104
+00:14:48.270 --> 00:14:49.380
+Ry Jones: So it's very common.
+
+105
+00:14:50.280 --> 00:14:50.640
+Danno Ferrin: Okay, I.
+
+106
+00:14:52.410 --> 00:14:58.230
+Danno Ferrin: think the labs will have the same level and that's part of the process of bringing a lab insulin incubation is to get them up to standards.
+
+107
+00:15:01.560 --> 00:15:07.860
+Danno Ferrin: Okay kamlish is this about the carbon, or should we spend some time on the carbon before we go to your question.
+
+108
+00:15:08.490 --> 00:15:17.760
+Kamlesh Nagware: Yes, I didn't discover accounting lab is a really good because i'm initially contributor a user of the slave and in the last two years, is being.
+
+109
+00:15:18.450 --> 00:15:32.940
+Kamlesh Nagware: Significantly, and like how the right project is for supply chain, it could be the parent accounting or to creation and and besting aggregate users, the all the different block chains like fabric is they're like they're like there is a.
+
+110
+00:15:35.880 --> 00:15:43.980
+Kamlesh Nagware: base who and currently we are mentoring some projects some projects and enter in mentor the projects that they were in characters integration to here so.
+
+111
+00:15:44.190 --> 00:15:48.060
+Danno Ferrin: Okay, this is a nice example it deploys on both change at least.
+
+112
+00:15:48.360 --> 00:15:48.960
+Kamlesh Nagware: yeah right.
+
+113
+00:15:49.020 --> 00:15:51.540
+Danno Ferrin: um that's that's really good example.
+
+114
+00:15:52.170 --> 00:16:00.390
+Kamlesh Nagware: And, and even the various multiple blocks and not just the like one data, there is a correlation there is a minute, there is a.
+
+115
+00:16:02.250 --> 00:16:06.600
+Kamlesh Nagware: other kind of public blockchain says, all the supported and debit right.
+
+116
+00:16:07.710 --> 00:16:08.130
+Danno Ferrin: Okay.
+
+117
+00:16:09.060 --> 00:16:17.490
+Kamlesh Nagware: So this one thing and also talking about to this fabric tokenistic is also another level, which could be a sub sub project in a fabric, I believe.
+
+118
+00:16:19.410 --> 00:16:20.100
+Kamlesh Nagware: tokenistic a.
+
+119
+00:16:47.070 --> 00:16:50.250
+Danno Ferrin: Containers magic numbers done.
+
+120
+00:16:52.170 --> 00:16:54.990
+Danno Ferrin: Two three organizations that's good.
+
+121
+00:16:59.550 --> 00:17:00.210
+Danno Ferrin: No.
+
+122
+00:17:00.510 --> 00:17:03.450
+Angelo De Caro: No right so IBM it's all IBM.
+
+123
+00:17:03.930 --> 00:17:05.220
+Danno Ferrin: it's all IBM okay.
+
+124
+00:17:08.100 --> 00:17:10.770
+Danno Ferrin: Still it's more than three warm bodies, maintaining it.
+
+125
+00:17:10.800 --> 00:17:11.430
+Angelo De Caro: Which is.
+
+126
+00:17:12.030 --> 00:17:13.380
+Danno Ferrin: The critical standard for.
+
+127
+00:17:14.580 --> 00:17:15.480
+Danno Ferrin: For incubation.
+
+128
+00:17:17.580 --> 00:17:20.160
+Danno Ferrin: And so, whenever I see like.
+
+129
+00:17:21.870 --> 00:17:28.410
+Danno Ferrin: A fabric only project, the critical question here is um is there a reason why it shouldn't just be absorbed by fabric.
+
+130
+00:17:29.520 --> 00:17:33.450
+Danno Ferrin: I guess that'd be my first question, and it doesn't have to be you know it could be independent of fabric, but.
+
+131
+00:17:35.580 --> 00:17:43.830
+Danno Ferrin: Is there a reason this shouldn't be maintained as part of fabric and that might be, you know part of the the rationale for why it's it's a separate top level project.
+
+132
+00:17:48.960 --> 00:18:00.120
+Dave Enyeart: i'll let Angela speak more, but my my first comment would be, unlike the what we just talked about fabric operator and fabric operations console those are definitely tied to fabric and would likely come under.
+
+133
+00:18:00.510 --> 00:18:10.470
+Dave Enyeart: Is fabric sub projects at some point the token SDK it can work with other block chains and so that might be a reason not to do that, yet, but all it Angela speak to that more.
+
+134
+00:18:12.570 --> 00:18:21.270
+Angelo De Caro: yeah indeed so he started as a something for fabric, but now, for example, we integrate already with the Ryan with hyper ledger Ryan, which is a centralized.
+
+135
+00:18:22.560 --> 00:18:30.810
+Angelo De Caro: centralized the blockchain system, which is another lab but, by the way, we can that can be very interesting and technically, we can.
+
+136
+00:18:31.410 --> 00:18:42.120
+Angelo De Caro: We can interface other block chains as well, so yet was born as a fabric thing but definitely can he can deliver zero knowledge tokens article to move to block chains.
+
+137
+00:18:44.550 --> 00:18:50.790
+Angelo De Caro: And, for instance, we already use a decent multiple CBC experimentation with with central banks.
+
+138
+00:18:51.630 --> 00:18:58.890
+Danno Ferrin: UK so that's I mean that's the sort of rationale i'm looking for there's a reason that it's above the protocol layer and that works is right that's awesome.
+
+139
+00:19:00.390 --> 00:19:01.980
+Danno Ferrin: um cool.
+
+140
+00:19:07.890 --> 00:19:18.300
+Danno Ferrin: um so let's go back to the top of the list and go through some of these and see if anyone's had a chance to get familiar with it so les has anyone done much looked at selling much work with it familiar with it at all.
+
+141
+00:19:25.740 --> 00:19:26.040
+Danno Ferrin: Jim.
+
+142
+00:19:26.220 --> 00:19:32.820
+Jim Zhang: hey Kim yeah I haven't used that hands on, but I think it's interesting project.
+
+143
+00:19:33.900 --> 00:19:37.290
+Jim Zhang: Thank you why some is a new new programming model.
+
+144
+00:19:38.790 --> 00:19:48.300
+Jim Zhang: Sub share uses it for customized run times it's pretty pretty pretty useful to have that as a project in general.
+
+145
+00:19:49.350 --> 00:19:49.800
+Danno Ferrin: Okay.
+
+146
+00:19:50.850 --> 00:19:51.900
+Danno Ferrin: So you.
+
+147
+00:19:52.890 --> 00:19:53.940
+Danno Ferrin: Jim sees it.
+
+148
+00:19:57.270 --> 00:20:04.320
+Danno Ferrin: Because one of the things I think some of these projects is time to start getting them to move up and to get feedback like this, I think, would help, some of them.
+
+149
+00:20:04.920 --> 00:20:12.960
+Danno Ferrin: You know, go through the process, because as a blurred and peace examples going through the incubation process can be it's very easy or very hard.
+
+150
+00:20:14.280 --> 00:20:18.990
+Danno Ferrin: So positive feedback to this would help for some of these projects i'm Tracy I think you have your hand up.
+
+151
+00:20:20.490 --> 00:20:34.380
+Tracy Kuhrt: yeah, so I think I brought this up last time that we talked is a project that would be useful, and in that time I had reached out to Sean and asked him to put together a project proposal which he did.
+
+152
+00:20:35.490 --> 00:20:46.860
+Tracy Kuhrt: But he's a little shy of submitting it without kind of some feedback from the kfc as far as whether or not it looks like something that he.
+
+153
+00:20:48.810 --> 00:21:00.360
+Tracy Kuhrt: You know that that would be useful to bring in as a top level project, I think you know he had potentially a poor experience, the last time he attempted to bring this as.
+
+154
+00:21:01.110 --> 00:21:09.930
+Tracy Kuhrt: an incubation project in the past, and so I think it's you know any sort of feedback or thoughts that we can give on this particular lab.
+
+155
+00:21:10.620 --> 00:21:21.090
+Tracy Kuhrt: becoming a project would probably be a useful sort of thing I do think that it has gone through a lot of changes since the last time that Sean brought it to incubation.
+
+156
+00:21:22.710 --> 00:21:32.370
+Tracy Kuhrt: You know, I think that there's you can see, like just a number of conversations that are happening in the sowing discord channel um you know it's one of the.
+
+157
+00:21:33.450 --> 00:21:46.920
+Tracy Kuhrt: As I go through and kind of take a look at different channels it's one of the more busy right channels that exist out there, I do think that there is, you know the increase of kind of.
+
+158
+00:21:48.510 --> 00:22:01.800
+Tracy Kuhrt: People who are working on it, people who are using it, I see that you know from the proposal, there was a lot of really interesting thoughts about bringing different languages are different.
+
+159
+00:22:03.210 --> 00:22:18.960
+Tracy Kuhrt: Even using it for different sorts of projects right, and so I to me I seems like it is definitely worthwhile to bring this board and so anything that would give you to help encourage Sean in that regard I think would be great.
+
+160
+00:22:22.800 --> 00:22:24.150
+Danno Ferrin: I realized from that that there's a.
+
+161
+00:22:25.260 --> 00:22:29.370
+Danno Ferrin: I was looking to see where the slot into that I think would fit into applications for libraries.
+
+162
+00:22:34.650 --> 00:22:40.770
+Danno Ferrin: know the top level or underneath it but i'm going to put it under application support in libraries.
+
+163
+00:22:45.300 --> 00:22:46.290
+Danno Ferrin: cool kamlish.
+
+164
+00:22:47.670 --> 00:22:58.260
+Kamlesh Nagware: So I not use the soul and, but I think when we see that this roadmap and he's a bit, is it, it will attract the solidity developers from the public blockchain community.
+
+165
+00:22:58.800 --> 00:23:07.320
+Kamlesh Nagware: And it's online has a roadmap to support the other hyper ledger projects like like maybe like in the or maybe start to the fabric in the future, then.
+
+166
+00:23:08.130 --> 00:23:17.460
+Kamlesh Nagware: It could have to get the other assorted developer in the ecosystem, so I think I support to be this product is a manual project in the future.
+
+167
+00:23:18.930 --> 00:23:27.630
+Danno Ferrin: Okay quit a project have to support a hyper ledger on the lt for to be included, is that a question we should be asking them or.
+
+168
+00:23:28.170 --> 00:23:28.950
+No, I just think.
+
+169
+00:23:30.150 --> 00:23:37.050
+Kamlesh Nagware: I think it's not necessary, so suppose I prefer, but at least, I suppose, is the weather kind of soul, following the celebrity compiler.
+
+170
+00:23:37.410 --> 00:23:51.810
+Kamlesh Nagware: which could be used by any other projects outside the ecosystem is also the Internet, but it's only, but I think if we feel the game and will be addressed the developer side there, maybe solve the issues in the currently solidarity language.
+
+171
+00:23:53.460 --> 00:23:53.850
+Danno Ferrin: Okay.
+
+172
+00:23:56.520 --> 00:23:57.450
+Okay, that makes sense.
+
+173
+00:23:58.860 --> 00:23:59.880
+Danno Ferrin: Peter he raised your hand.
+
+174
+00:24:03.120 --> 00:24:21.000
+Peter Somogyvari: Yes, I just wanted to express support for it, so I am a fan of the technology stack that uses specifically a lowly and russ and i'm also a big proponent of web assembly in general and also building other technologies on top of it.
+
+175
+00:24:22.350 --> 00:24:26.310
+Peter Somogyvari: So yeah I definitely support it.
+
+176
+00:24:40.470 --> 00:24:43.050
+Danno Ferrin: i'm Jim your hand came back up.
+
+177
+00:24:44.460 --> 00:24:45.660
+Jim Zhang: yeah so.
+
+178
+00:24:46.890 --> 00:25:01.740
+Jim Zhang: I was thinking about this project I it intrigues me the level of interest what where we are with now the adoption interest from enterprise side, I feel like this is a genuine contribution.
+
+179
+00:25:03.000 --> 00:25:06.780
+Jim Zhang: To hyper ledger from a a natively born.
+
+180
+00:25:08.700 --> 00:25:18.600
+Jim Zhang: project in the Web space space and you are certainly more adopted they're alive in the enterprise at the moment.
+
+181
+00:25:23.370 --> 00:25:23.790
+Jim Zhang: wasn't.
+
+182
+00:25:24.510 --> 00:25:25.260
+Danno Ferrin: wasn't okay.
+
+183
+00:25:27.480 --> 00:25:38.880
+Jim Zhang: um until question whether a project top level project should support at least one dlc I don't feel like that should be a requirement, a lot of the things may be.
+
+184
+00:25:41.130 --> 00:25:43.530
+Jim Zhang: A project is already adopted.
+
+185
+00:25:45.450 --> 00:25:52.530
+Jim Zhang: In web three in general but hasn't been by any of the lts in hyper ledger but that's a point in time thing.
+
+186
+00:25:53.190 --> 00:26:05.190
+Jim Zhang: I feel, like you, was a might be one of these, I remember best to me than the 10th attempt to support that walked away from it, I think, maybe out of performance issues.
+
+187
+00:26:05.910 --> 00:26:16.800
+Jim Zhang: But still, there are certainly interest, but the moment none of that the lts our interest in having a support for you, for wasn't but that may change in the future.
+
+188
+00:26:18.420 --> 00:26:18.840
+Danno Ferrin: Okay.
+
+189
+00:26:19.080 --> 00:26:24.630
+Danno Ferrin: So, to get some context on the basic he was and there's there's two variants of wasn't as we discussed that for theory of.
+
+190
+00:26:25.920 --> 00:26:37.650
+Danno Ferrin: General was him and he was them and there's issues with the gas calculations and making sure that it's edm compatible they're trying to do some changes, he was an early prototype showed that interpreting.
+
+191
+00:26:39.180 --> 00:26:47.610
+Danno Ferrin: interpreting the vm was actually faster than what they had built for he was, which was a layer above the walls and they're doing some very specific things to it, such as.
+
+192
+00:26:48.060 --> 00:26:56.700
+Danno Ferrin: compiling a vm to was them and the guest calculations and was really the 256 bit math doing it in wasn't that really got them.
+
+193
+00:26:58.230 --> 00:27:00.540
+Danno Ferrin: And those are you know that's why.
+
+194
+00:27:02.070 --> 00:27:08.610
+Danno Ferrin: barium specifically went away, but if you do things you make smarter choices about what you're doing in your language, such as allowing.
+
+195
+00:27:09.150 --> 00:27:15.150
+Danno Ferrin: i'm made of register with multiplication rather than referring to, and if it does it's bit performance goes up significantly.
+
+196
+00:27:15.690 --> 00:27:23.760
+Danno Ferrin: And if your blockchain doesn't have the gas calculation regime it's a lot easier to handle, so I think you know we shouldn't be with the failures of.
+
+197
+00:27:24.210 --> 00:27:32.130
+Danno Ferrin: Of he was them to reflect necessarily i'm wasn't because what the theory was doing was was very, very specialized and impose some very.
+
+198
+00:27:32.730 --> 00:27:41.730
+Danno Ferrin: very severe constraints on what was most capable of for that so yeah basically did dabble in the theater Community dabbling based and ever implemented it and.
+
+199
+00:27:42.510 --> 00:27:53.160
+Danno Ferrin: it's generally speaking not happening in the theater Community right now but wasn't in general, like substrate and cosmos it's very strong and that that particular sub ecosystem.
+
+200
+00:27:57.030 --> 00:28:02.040
+Danno Ferrin: cool anything else anybody wants to see i'm selling or should we move on to parent.
+
+201
+00:28:07.500 --> 00:28:07.950
+Danno Ferrin: Angelo.
+
+202
+00:28:09.120 --> 00:28:10.830
+Angelo De Caro: yeah then it's always this.
+
+203
+00:28:11.940 --> 00:28:16.230
+Angelo De Caro: This aspect that bothers me troubles me that's.
+
+204
+00:28:17.640 --> 00:28:20.160
+Angelo De Caro: Why one in the for enterprise applications.
+
+205
+00:28:22.560 --> 00:28:31.740
+Angelo De Caro: You usually desired privacy so privacy sponsor and and also performance is a concern, so you usually tend to not have.
+
+206
+00:28:32.250 --> 00:28:39.750
+Angelo De Caro: or two is less possible execution on on chain, and if you have if you execute anything on chain it's.
+
+207
+00:28:40.710 --> 00:28:50.790
+Angelo De Caro: Usually for verification of zero knowledge proofs so I understand that for the do the public blockchain when nothing is everything is public you don't you are not concerned about privacy.
+
+208
+00:28:51.270 --> 00:29:02.940
+Angelo De Caro: This is a project that might be very, very been is absolutely interesting that, but for the enterprise application was the benefit i'm not completely sure, maybe.
+
+209
+00:29:03.450 --> 00:29:04.410
+Angelo De Caro: i'm just assuming that.
+
+210
+00:29:05.730 --> 00:29:10.740
+Angelo De Caro: Enterprise application are not using a lot of competition.
+
+211
+00:29:11.730 --> 00:29:24.180
+Danno Ferrin: If you're talking about stuff like big secrecy action yeah that the secrecy is basically required, but I think there's a lot of public uses we're doing everything in public could be seen as a as a valuable item heart.
+
+212
+00:29:26.700 --> 00:29:30.780
+Hart Montgomery: yeah I was just going to agree, I think there's a lot of enterprise interest in.
+
+213
+00:29:32.040 --> 00:29:38.730
+Hart Montgomery: You know, using the public blockchain for certain things and I totally agree with Angelo that things that need to.
+
+214
+00:29:40.230 --> 00:29:48.870
+Hart Montgomery: things that need to have privacy properties are very, very difficult to do on the public blockchain often require some of the solutions that.
+
+215
+00:29:50.130 --> 00:29:51.330
+Hart Montgomery: Angelo just described.
+
+216
+00:29:52.620 --> 00:29:59.280
+Hart Montgomery: You know, but we are you know, seeing enterprises use public blockchain stuff.
+
+217
+00:30:00.900 --> 00:30:07.140
+Hart Montgomery: And you know whether you agree with that or not, you know this is sort of a case of the customer being right.
+
+218
+00:30:08.160 --> 00:30:08.880
+Hart Montgomery: At least I think.
+
+219
+00:30:10.230 --> 00:30:14.100
+Angelo De Caro: Oh, that sounds like a five they won't do that that's that's something fun.
+
+220
+00:30:15.570 --> 00:30:21.210
+Danno Ferrin: Because one solution, I think we touched on it last week, when we were finishing this of the H1.
+
+221
+00:30:22.470 --> 00:30:31.410
+Danno Ferrin: would be to us, and this is something i've seen in the past few weeks i'm trolling around ecosystem is the use of roll ups to get your privacy.
+
+222
+00:30:32.550 --> 00:30:39.300
+Danno Ferrin: You know it's basically had to your zero knowledge proofs except instead of zero knowledge proof, you would have an off chain roll up on those are called.
+
+223
+00:30:40.650 --> 00:30:46.080
+Danno Ferrin: When variance called plasma, which is a variant of the old lightning network but there's also.
+
+224
+00:30:47.220 --> 00:30:52.680
+Danno Ferrin: You know layer to proofs where the data availability is not kept on the main chain but on private people.
+
+225
+00:30:54.240 --> 00:30:55.980
+Danno Ferrin: Between the people who only care about it.
+
+226
+00:31:05.070 --> 00:31:08.160
+Danno Ferrin: So go ahead and put that because there's i've heard you know solutions that that beat around.
+
+227
+00:31:09.060 --> 00:31:12.330
+Danno Ferrin: The Bush on that to get kind of around it, but I think this needs to be called out that I think.
+
+228
+00:31:12.900 --> 00:31:20.040
+Danno Ferrin: A rollup solution would be an excellent project that hyper ledger when we should probably solicit, for I don't have any specific ones in mind.
+
+229
+00:31:20.700 --> 00:31:31.050
+Danno Ferrin: um the other ones I know are very specific, but you know there's also layer one block chains that are enshrining their role of solution into it, so I think this is valuable.
+
+230
+00:31:31.830 --> 00:31:40.320
+Danno Ferrin: To make a sub ledger that that acreage another ledger as it is use case that we should consider that you know might be one.
+
+231
+00:31:41.610 --> 00:31:43.800
+Danno Ferrin: To keep an eye out for her.
+
+232
+00:31:44.340 --> 00:31:52.650
+Hart Montgomery: yeah I agree with that, I think, has UK roll up project would be amazing and I have been actively agitating people to try to build one.
+
+233
+00:31:54.270 --> 00:31:57.840
+Hart Montgomery: I don't think it's worked, but you know we'll see in the future.
+
+234
+00:32:00.870 --> 00:32:01.260
+Danno Ferrin: Okay.
+
+235
+00:32:03.210 --> 00:32:03.960
+Danno Ferrin: i'm Jim.
+
+236
+00:32:05.010 --> 00:32:14.880
+Jim Zhang: That you is represented on hyper ledger but they be working on nightfall which is interesting rolled up it's optimistic rolled up, but with a payload.
+
+237
+00:32:15.510 --> 00:32:27.180
+Jim Zhang: i'm just feel like it it from its illini age if it's fitting the hyper ledger space, but don't know if anybody has made a and attempt to work with them.
+
+238
+00:32:28.650 --> 00:32:35.940
+Danno Ferrin: that's what I particularly always have a look at I was I know they were disappointed when you're young didn't adopt the bls belfry compiles and I tried to get.
+
+239
+00:32:36.990 --> 00:32:44.820
+Danno Ferrin: Some information from them as to what specific set of these curves they needed that the Japan def con never got Ahold of them there was so much going on.
+
+240
+00:32:45.210 --> 00:32:56.040
+Danno Ferrin: But I agree, they they have some amazing demos, and some amazing stories and just the one I saw the other day on carbon county it was all ethereum so that that really interested me.
+
+241
+00:32:57.420 --> 00:32:58.020
+Danno Ferrin: um.
+
+242
+00:32:59.100 --> 00:33:00.660
+Danno Ferrin: I think, is that all you had it Jim.
+
+243
+00:33:02.550 --> 00:33:03.690
+Danno Ferrin: The Angelo.
+
+244
+00:33:04.530 --> 00:33:17.400
+Angelo De Caro: I was wondering, can we invite companies to to join the hyper ledger because, for example in this space of the roll ups, there is start where who is doing, really, really beautiful words and with very.
+
+245
+00:33:18.600 --> 00:33:29.430
+Angelo De Caro: with very good theoretical background and they have also a language called Cairo for for privacy, preserving computation that to me seems very.
+
+246
+00:33:30.000 --> 00:33:43.950
+Angelo De Caro: very relevant more than other options to To be honest, even though this works, mostly in the in the account models so they can also with limits and they will not, they will be a bit problematic for CBC but definitely stuck what is doing a lot of good work.
+
+247
+00:33:46.170 --> 00:33:46.950
+Danno Ferrin: yeah I mean.
+
+248
+00:33:47.190 --> 00:33:49.440
+Danno Ferrin: that's how consensus and basic came on board.
+
+249
+00:33:49.560 --> 00:33:50.220
+Danno Ferrin: To be honest.
+
+250
+00:33:51.660 --> 00:33:52.080
+Danno Ferrin: heart.
+
+251
+00:33:52.620 --> 00:34:00.210
+Hart Montgomery: yeah I was gonna say, if you have if you know people are projects that you think would make good members or projects like absolutely.
+
+252
+00:34:00.840 --> 00:34:10.320
+Hart Montgomery: You know, please introduce them, please you know socialize with them, you know i'm happy to talk to them, I think most of the staff are happy to talk to them so yeah.
+
+253
+00:34:10.920 --> 00:34:29.610
+Hart Montgomery: Like you know, please, please talk to people, you know, remember that you know hyper ledger is about open development, so you know projects that makes sense, are are things that you know companies are willing to open up to outside development and have a truly.
+
+254
+00:34:30.660 --> 00:34:41.730
+Hart Montgomery: Open development process but yes, you know, please you have socialize it and talk to people and, if you think something is appropriate, you know tell them and ask them.
+
+255
+00:34:46.770 --> 00:34:47.070
+Danno Ferrin: cool.
+
+256
+00:34:49.620 --> 00:34:50.190
+Danno Ferrin: Chemistry cameras.
+
+257
+00:34:50.790 --> 00:34:58.590
+Kamlesh Nagware: yeah so in this jk Rowling recently the Polygon from India actually made they have another technology Open Source so maybe.
+
+258
+00:35:00.690 --> 00:35:07.710
+Kamlesh Nagware: collaboration with them or ask them to like come under the Apache to license because there is no limit the Open Source etc.
+
+259
+00:35:39.120 --> 00:35:45.150
+Danno Ferrin: Alright, so you get those thoughts there's Yes, some suggestions for our members to join on board okay.
+
+260
+00:35:47.220 --> 00:35:48.390
+Danno Ferrin: Angela your hands packet.
+
+261
+00:35:50.100 --> 00:35:58.170
+Angelo De Caro: hey yes just for our for our for clarification so DJ loves the it's not that they're private they're not private, so the.
+
+262
+00:35:58.710 --> 00:36:08.460
+Angelo De Caro: Student they're using zero knowledge proofs to to compress essentially operations but they're not private they will reveal what's happening so they will reveal the content of the account and so on, so forth, so.
+
+263
+00:36:08.880 --> 00:36:24.840
+Angelo De Caro: A actually the one that are that are private are called the square roll up, then you can just just for clarification that DNA doesn't mean necessarily unfortunately in the notation doesn't mean no with private DK square sorry DK Square.
+
+264
+00:36:31.710 --> 00:36:33.690
+Jim Zhang: To clarify enjoy mean.
+
+265
+00:36:34.980 --> 00:36:45.870
+Jim Zhang: Privacy in that whoever is conducting the transactions is still reviewed by the the payload the content of translate to the skill private right.
+
+266
+00:36:46.950 --> 00:36:49.350
+Angelo De Caro: No, not even the content or transaction is proud.
+
+267
+00:36:50.250 --> 00:37:02.100
+Angelo De Caro: So sorry for the decade or law if you take a decade or not, but they are just everything is public it's only the aggregation that is prove the so that the this entity this this mediator aggregated all.
+
+268
+00:37:02.610 --> 00:37:10.920
+Angelo De Caro: The transactions in an inappropriate way so it's more it's this kind of you actually don't need for this you don't need actually the zero knowledge proof.
+
+269
+00:37:11.280 --> 00:37:23.130
+Angelo De Caro: If you really want to hide those are the content that transaction polluted water then it's much more complex the the operation and usually it's called DK squared roll ups, so you apply to times gk.
+
+270
+00:37:24.900 --> 00:37:38.220
+Angelo De Caro: But unfortunate it's unfortunate the terminology, because what if you talk about data knowledge, you are implicitly saying that they it's also private but for what I read the literature it's not the case with simple zero law.
+
+271
+00:37:48.960 --> 00:37:53.700
+Jim Zhang: will be worth a different time for discussions, my understanding is the entity.
+
+272
+00:37:54.840 --> 00:38:10.680
+Jim Zhang: That conducts the roll ups are not protected unless you apply any some anonymity like Tom Lee, for example, but the content itself should be, it should be part of it, but this is probably not the right forum to discuss this.
+
+273
+00:38:12.210 --> 00:38:12.540
+Danno Ferrin: yep.
+
+274
+00:38:13.470 --> 00:38:21.660
+Danno Ferrin: I think there should probably be a table on one of our discussion days of the hyper ledger global forum on on roll ups I don't know who's got that part of the program committee together.
+
+275
+00:38:22.920 --> 00:38:30.480
+Danno Ferrin: In past years they've had lunch area they some days they set up specific tables for specific topics, so I think this would be an excellent one.
+
+276
+00:38:34.680 --> 00:38:35.100
+Danno Ferrin: Okay.
+
+277
+00:38:39.630 --> 00:38:56.250
+Danno Ferrin: So kind of taking a segue to non labs projects that might not be on the labs list that would feel on project teams before we go back to the labs, are there any other non non any other project ideas that people think that would be good for hyper ledger that we don't have in labs right.
+
+278
+00:38:57.990 --> 00:38:59.070
+Danno Ferrin: Which is to civically.
+
+279
+00:39:00.360 --> 00:39:01.050
+Danno Ferrin: solicit for.
+
+280
+00:39:02.880 --> 00:39:05.850
+Danno Ferrin: We have the themes that fit into the themes, but if there's any specific.
+
+281
+00:39:07.740 --> 00:39:11.430
+Danno Ferrin: From a theme that we are in more needed than anyone else.
+
+282
+00:39:14.130 --> 00:39:14.430
+Danno Ferrin: Okay.
+
+283
+00:39:16.800 --> 00:39:18.780
+Danno Ferrin: So I think we were at parent.
+
+284
+00:39:20.130 --> 00:39:21.150
+Danno Ferrin: i'm pronouncing that right.
+
+285
+00:39:24.450 --> 00:39:25.920
+Danno Ferrin: It was really this is Angela.
+
+286
+00:39:26.520 --> 00:39:41.340
+Angelo De Caro: I none other than wanted to to mention another project that I think comes from consensus it's I think it would be a nice extension tools, because it's a general purpose zero knowledge proof system it's called the grenache.
+
+287
+00:39:42.360 --> 00:39:48.750
+Angelo De Caro: it's a very, very powerful library grenache gn a R K.
+
+288
+00:39:50.190 --> 00:39:51.150
+Danno Ferrin: after dinner.
+
+289
+00:39:51.270 --> 00:40:05.760
+Angelo De Caro: yeah yeah it's a very poor apart from consensus, I think it's very, very powerful library for the general purpose zero knowledge proof system so that I think it would be very complimentary to to Sir very, very good library.
+
+290
+00:40:07.350 --> 00:40:07.740
+Danno Ferrin: Okay.
+
+291
+00:40:13.620 --> 00:40:16.230
+Danno Ferrin: Great grace grace is here grace here's that grace of Allah.
+
+292
+00:40:17.550 --> 00:40:20.880
+Danno Ferrin: talked with that see if that's appropriate so we don't have to go too far to ask.
+
+293
+00:40:24.690 --> 00:40:25.560
+Danno Ferrin: Anything else.
+
+294
+00:40:31.740 --> 00:40:32.100
+Danno Ferrin: cool.
+
+295
+00:40:35.640 --> 00:40:37.710
+Danno Ferrin: So anyone familiar with parents.
+
+296
+00:40:51.630 --> 00:40:53.730
+Danno Ferrin: looks like most of the project right now.
+
+297
+00:40:56.910 --> 00:40:57.960
+Danno Ferrin: The occasional third.
+
+298
+00:41:04.110 --> 00:41:04.440
+Danno Ferrin: yeah.
+
+299
+00:41:09.090 --> 00:41:17.400
+Hart Montgomery: yeah so Peruvian is like a recursive lightning network if that makes sense that's probably the fastest way to describe it.
+
+300
+00:41:18.480 --> 00:41:18.870
+Danno Ferrin: Okay.
+
+301
+00:41:27.960 --> 00:41:33.480
+Danno Ferrin: way to do secure channels and use the blockchain approve it, but you don't keep it on changing like keep it between the two partners.
+
+302
+00:41:35.820 --> 00:41:36.600
+Danno Ferrin: That make sense.
+
+303
+00:41:37.830 --> 00:41:43.050
+Hart Montgomery: Well, the idea is that you know sort of if you can bootstrap on the trust of other people.
+
+304
+00:41:47.970 --> 00:41:52.320
+Hart Montgomery: it's very nice concept has like a formal academic paper and everything.
+
+305
+00:41:55.620 --> 00:41:56.400
+Danno Ferrin: It is interesting.
+
+306
+00:42:02.610 --> 00:42:03.000
+Danno Ferrin: Okay.
+
+307
+00:42:12.090 --> 00:42:13.110
+Danno Ferrin: It does have.
+
+308
+00:42:16.380 --> 00:42:20.160
+Danno Ferrin: semi regular yeah that's pretty regular can do it for the number of people there.
+
+309
+00:42:28.350 --> 00:42:36.150
+Danno Ferrin: But it's interesting to note on except for heart on the on the tasc is terribly familiar with it wonder if we should ask them to do presentations to see if that would.
+
+310
+00:42:37.680 --> 00:42:38.940
+Danno Ferrin: Be me that's one option, you could do.
+
+311
+00:42:42.810 --> 00:42:43.260
+Danno Ferrin: Angela.
+
+312
+00:42:43.650 --> 00:42:54.870
+Angelo De Caro: yeah i'm i'm also familiar, I spoke, also with the I read the paper, the literature, but also, I spoke with the with the with the guys behind her own and also suggesting recommending them to.
+
+313
+00:42:55.320 --> 00:43:07.500
+Angelo De Caro: To push more for becoming a project that I also find very interesting I like I like it a lot lot the concept of a virtual china's yeah very nice if they can get also an implementation and fabric that will be super cool.
+
+314
+00:43:08.640 --> 00:43:09.060
+Danno Ferrin: Okay.
+
+315
+00:43:11.070 --> 00:43:13.200
+Danno Ferrin: So I think probably the best thing, there is, we need to get a.
+
+316
+00:43:13.890 --> 00:43:15.240
+Danno Ferrin: parent one write this down.
+
+317
+00:43:16.320 --> 00:43:18.930
+Danno Ferrin: have to do a presentation, so we can get more familiar with it.
+
+318
+00:43:20.220 --> 00:43:22.770
+Danno Ferrin: That might be a product need to.
+
+319
+00:43:22.860 --> 00:43:23.610
+Angelo De Caro: decide to become.
+
+320
+00:43:24.450 --> 00:43:25.650
+Danno Ferrin: A company project.
+
+321
+00:43:36.300 --> 00:43:37.200
+Danno Ferrin: hey this is pregnant.
+
+322
+00:43:40.200 --> 00:43:40.770
+Tracy Kuhrt: Again, oh.
+
+323
+00:43:41.400 --> 00:43:54.420
+Tracy Kuhrt: Yes, just quickly, I can reach out on the I think they have a discord channel I can reach out on to see if they would like to set up some time with the dnc to schedule presentation.
+
+324
+00:43:55.440 --> 00:43:58.800
+Danno Ferrin: Okay, I was writing it down, but if you're going to take the action on them definitely.
+
+325
+00:43:59.310 --> 00:44:00.300
+Tracy Kuhrt: Sure okay great.
+
+326
+00:44:03.240 --> 00:44:03.540
+Danno Ferrin: cool.
+
+327
+00:44:05.340 --> 00:44:08.130
+Danno Ferrin: shredding in my notepad instead of on the screen so that's why I didn't see anything.
+
+328
+00:44:12.720 --> 00:44:13.770
+Danno Ferrin: Areas cloud agent.
+
+329
+00:44:33.090 --> 00:44:37.200
+Danno Ferrin: Anyone worked with business partner agent that's not named heart.
+
+330
+00:44:45.870 --> 00:45:00.660
+Tracy Kuhrt: So I haven't worked with it, per se, but I do think it has some interesting ideas around it, I think they're you know, is this idea around organizational type wallet.
+
+331
+00:45:01.860 --> 00:45:12.540
+Tracy Kuhrt: And how we deal with you know credentials that are issued to wallets or from wallets i'm sorry to organizations or from organizations.
+
+332
+00:45:13.680 --> 00:45:21.390
+Tracy Kuhrt: I will say that I also I don't know if it was in the chat I think it was in the discord chat.
+
+333
+00:45:22.950 --> 00:45:25.650
+Tracy Kuhrt: The British Columbia government also has a.
+
+334
+00:45:27.510 --> 00:45:40.530
+Tracy Kuhrt: source page called traction which I believe they're thinking about taking and bringing two areas, and I think it is similar to business partner agent, and I would love to see those two communities work together.
+
+335
+00:45:42.090 --> 00:45:49.380
+Tracy Kuhrt: My My guess is that at some point, this might be something that comes into Aries as a.
+
+336
+00:45:50.580 --> 00:45:59.490
+Tracy Kuhrt: You know kind of Sub project, if you will, I think Aries is made up of many different types of projects, and so I think this can be something that.
+
+337
+00:46:00.000 --> 00:46:10.890
+Tracy Kuhrt: We look at from that perspective, but I think it really requires the connection between the communities that are working on the same sort of thing.
+
+338
+00:46:14.880 --> 00:46:15.210
+Tracy Kuhrt: Okay.
+
+339
+00:46:19.200 --> 00:46:27.060
+Danno Ferrin: And I think I think we're reaching diminishing returns, but let's just finish off or ryan's anyone finished so anyone worked with Ryan would they be.
+
+340
+00:46:27.780 --> 00:46:36.780
+Danno Ferrin: A good candidate to get to propose to either presenting the CSC or proposal project, because I think that that also leads to another question is.
+
+341
+00:46:37.950 --> 00:46:52.170
+Danno Ferrin: How often should we ask the labs to say hey you've done cool stuff do you want to share it publicly, so I think that could be a good step to encourage them to continue growing to show what they've built and get encouragement feedback from CSC members or other projects.
+
+342
+00:46:55.140 --> 00:46:55.680
+Danno Ferrin: So.
+
+343
+00:46:57.570 --> 00:46:58.680
+Danno Ferrin: Anyone worked with Ryan.
+
+344
+00:47:05.010 --> 00:47:05.400
+Danno Ferrin: Okay.
+
+345
+00:47:07.980 --> 00:47:15.180
+David Boswell: Thinking of sharing the word publicly orion did do a meetup recently I can share I can get the recording of that and drop it in the.
+
+346
+00:47:15.750 --> 00:47:26.130
+David Boswell: thc channel, but I mean there is, I mean there is interest from labs and presenting some of their work so i've reached out to some of the past and Ryan was one who has raised their hand and say i'll share what we're doing.
+
+347
+00:47:33.150 --> 00:47:33.720
+Danno Ferrin: Angela.
+
+348
+00:47:35.640 --> 00:47:45.810
+Angelo De Caro: yeah just to say that, obviously, I worked with Ryan it's very simple the nice thing is very simple to set up, there is a very competitive other block chains super fast super fall.
+
+349
+00:48:13.470 --> 00:48:14.040
+Danno Ferrin: kamlish.
+
+350
+00:48:16.410 --> 00:48:28.830
+Kamlesh Nagware: about the audience, I think there are many such use cases where we don't need the decentralized and but the distributed nature is required, I think order is filling that gap so, especially in the government sector.
+
+351
+00:48:30.300 --> 00:48:43.770
+Kamlesh Nagware: So, actually, I had a call with some time back with the Korean mentor or a mentor and contributed and how what would be the good use of project for the use cases in the space Linda where we need.
+
+352
+00:48:46.680 --> 00:48:48.450
+Kamlesh Nagware: We do need the decentralization technically.
+
+353
+00:48:50.790 --> 00:48:51.180
+Danno Ferrin: Okay.
+
+354
+00:49:14.460 --> 00:49:16.470
+Danno Ferrin: All right, um so.
+
+355
+00:49:18.450 --> 00:49:25.050
+Danno Ferrin: With 10 minutes left, I guess the asking here is um, are there any things you need to revise before we.
+
+356
+00:49:26.910 --> 00:49:34.200
+Danno Ferrin: push a final publish on the projects that themes or any labs or along last projects we want to solicit.
+
+357
+00:49:35.490 --> 00:49:45.000
+Danno Ferrin: Any do you think the task force, I guess, this is request does anyone think that there is more for the task force to do, or can we call it a completion Is there more work that needs to be done.
+
+358
+00:49:56.250 --> 00:49:56.820
+Danno Ferrin: Okay.
+
+359
+00:49:58.200 --> 00:49:58.680
+Danno Ferrin: Angela.
+
+360
+00:49:59.100 --> 00:50:02.370
+Angelo De Caro: and could it make sense to I don't know I final.
+
+361
+00:50:03.390 --> 00:50:10.920
+Angelo De Caro: Feedback now that there is bigger the hyper ledger group of former to take the chance there to to ask the Community about feedbacks and.
+
+362
+00:50:12.330 --> 00:50:13.620
+Angelo De Caro: that's an excellent place to do it.
+
+363
+00:50:13.740 --> 00:50:14.190
+yeah.
+
+364
+00:50:15.210 --> 00:50:19.200
+Danno Ferrin: and get feedback on recommendations project.
+
+365
+00:50:20.040 --> 00:50:24.780
+Angelo De Caro: i'll just get the they would like to see or something that they found useful or something that we miss as well.
+
+366
+00:50:25.710 --> 00:50:28.800
+Danno Ferrin: Okay, so i'll take that as the next step of this task force to.
+
+367
+00:50:29.430 --> 00:50:38.130
+Danno Ferrin: You know, make it available for hyper ledger foreign people and then depending upon the feedback we get there, possibly putting putting button then get up and putting a lid on it.
+
+368
+00:50:41.010 --> 00:50:49.260
+Ry Jones: And I don't think we need to wait for the form itself that I think that outreach could happen like today, or this week.
+
+369
+00:50:50.310 --> 00:50:51.600
+Danno Ferrin: yeah um.
+
+370
+00:50:54.150 --> 00:51:01.050
+Danno Ferrin: So what would that be all Members email would that be the message and discord what would what would that look like right.
+
+371
+00:51:03.120 --> 00:51:10.560
+Ry Jones: i'll have to huddle I feel like that would be an email, but we might be bombarding people with too many emails it might get another email.
+
+372
+00:51:11.760 --> 00:51:17.760
+Ry Jones: Let me huddle with David and Karen and see what the best way forward is.
+
+373
+00:51:18.780 --> 00:51:20.160
+Danno Ferrin: I wonder if we should we should um.
+
+374
+00:51:22.560 --> 00:51:34.620
+Danno Ferrin: yeah, I think, is that I just the dilemma, because I think email maybe better because not everyone's on discord and discourse tend to be project skewed rather than participants who don't have a project that think it might be a gap that they're not in.
+
+375
+00:51:35.790 --> 00:51:37.110
+Danno Ferrin: um yeah.
+
+376
+00:51:37.530 --> 00:51:38.880
+Ry Jones: We do have a discord.
+
+377
+00:51:40.500 --> 00:51:51.870
+Ry Jones: channel or group for people that have signed up for global forum but there aren't that many people there, because I haven't taken the task to make sure that every single person who signed up has the right tag.
+
+378
+00:51:52.950 --> 00:51:53.250
+Danno Ferrin: yeah.
+
+379
+00:51:54.540 --> 00:51:54.960
+Danno Ferrin: yeah.
+
+380
+00:52:00.420 --> 00:52:11.070
+Danno Ferrin: All right, so get get back to me on what what you think you actually might be on that I could draft email I don't think I have access to send on those lists, which is probably good thing you want to control that.
+
+381
+00:52:12.120 --> 00:52:12.510
+Danno Ferrin: cool.
+
+382
+00:52:18.450 --> 00:52:21.210
+Danno Ferrin: Well, if there's no other discussion items.
+
+383
+00:52:22.410 --> 00:52:23.580
+Danno Ferrin: give people seven minutes back.
+
+384
+00:52:26.490 --> 00:52:26.910
+Ry Jones: Thank you.
+
+385
+00:52:28.440 --> 00:52:28.710
+Dave Enyeart: bye bye.
+

@@ -1,0 +1,1318 @@
+WEBVTT
+
+1
+00:00:02.730 --> 00:00:25.750
+Sam Curren (TelegramSam): Welcome folks to the fourteenth of June, 2,023 area's working group call. We are glad you're here. We have some good stuff today. It will not be entirely about the open wall foundation for the first time in a little bit. and that will be good. This is a Hyper Ledger call, and so the Ssrs policy of the code of connect to in effect, links are here in the in the agenda.
+
+2
+00:00:26.300 --> 00:00:27.559
+Sam Curren (TelegramSam): the agenda lake.
+
+3
+00:00:28.410 --> 00:00:35.879
+Sam Curren (TelegramSam): I will add to the chat again. You are welcome to
+
+4
+00:00:36.120 --> 00:01:00.389
+Sam Curren (TelegramSam):  Make any changes that you would like that are useful for the group to the agenda. That would be awesome, and if you would, the I I promised I wouldn't forever ask you to do this, but today is probably maybe one of the last days. To to actually get. Make sure we get everyone's name in the attendees list. That will help us to to manage for the open Wallet foundation stuff.
+
+5
+00:01:00.630 --> 00:01:04.829
+Sam Curren (TelegramSam): So if you would add yourself to that list, that would be fantastic.
+
+6
+00:01:05.940 --> 00:01:12.719
+Sam Curren (TelegramSam):  And is there anyone new to our group that would like to introduce themselves.
+
+7
+00:01:20.680 --> 00:01:39.540
+Sam Curren (TelegramSam): All right. announcements. We have the dice, Europe, and I was I left this on there to remind myself. It's also down below. These 2 things are are are both done. I was wondering if we could, if anyone was present at either of these, either dice Europe or the that participated in the did hack.
+
+8
+00:01:39.590 --> 00:01:42.560
+That could give us a little bit of a report on
+
+9
+00:01:43.120 --> 00:01:44.230
+Sam Curren (TelegramSam): how it went.
+
+10
+00:01:54.550 --> 00:01:58.030
+Sam Curren (TelegramSam): Anyone attend either of these events or participate them in any way.
+
+11
+00:02:06.690 --> 00:02:08.870
+Sam Curren (TelegramSam): Bummer, I
+
+12
+00:02:08.919 --> 00:02:17.670
+Sam Curren (TelegramSam): might bring this up next week, just because I know we have folks that were there that are that must not be here today, and so I might bring that up again.
+
+13
+00:02:18.810 --> 00:02:24.990
+Sam Curren (TelegramSam):  Is there anything on the announcements list that should be, but isn't
+
+14
+00:02:33.100 --> 00:02:38.880
+Sam Curren (TelegramSam): in the northern hemisphere. We are heading full on into summer mode, and so that's
+
+15
+00:02:39.120 --> 00:02:43.269
+Sam Curren (TelegramSam): the spring conference season is mostly wound down. I do believe.
+
+16
+00:02:45.630 --> 00:02:53.130
+Sam Curren (TelegramSam): okay, any. Any projects want to share a really status or a work update for what's going on.
+
+17
+00:03:03.690 --> 00:03:06.909
+Sam Curren (TelegramSam): Cool, grateful for all the work that is done, and there's a lot of it.
+
+18
+00:03:07.030 --> 00:03:32.880
+Sam Curren (TelegramSam): for those new to the group. There's Most of the detailed conversations happen in specific groups to the code bases, whether it be afgh, or by fold, or acupy or other those other those are their efforts. And so I? there, there's a lot that goes on there. This is just kind of the the central call there. okay, we won't get a report out on dice Europe.
+
+19
+00:03:32.940 --> 00:03:44.000
+Sam Curren (TelegramSam):  So here's what I have on the agenda today. we there is a proposed agreement that I have written, and that's what the link is here.
+
+20
+00:03:44.000 --> 00:04:13.820
+Sam Curren (TelegramSam): that we can discuss. We can also discuss what other adjustments we want to make. to Aries as it sits and that there was some discussion of things that maybe we should do anyway, even if we that it did not happen alongside a a move to owf and then, Alex, has some stuff for marketing here. I would like to briefly talk about the did peer on call if I did migration update. This was a topic just before we got involved in the in the open Wall foundation discussions.
+
+21
+00:04:13.820 --> 00:04:34.749
+Sam Curren (TelegramSam): I'd like to revive, rev revive, and then we if we have time, we've got to some open discussion for anyone to bring a topic up this is a just a reminder for next week. next week we are. we want to talk about mediators. in broadly. So any any mediator efforts that exist projects that happen, etc.
+
+22
+00:04:35.370 --> 00:04:50.609
+Sam Curren (TelegramSam): There's this was suggested by Stephen. on the on the acupy call yesterday. I believe it was, and so, and this was a great topic, and so that this will come up and we'll talk about all things mediators next week.
+
+23
+00:04:50.880 --> 00:04:55.440
+Sam Curren (TelegramSam): Any adjustments to the agenda before we want to to dive in.
+
+24
+00:05:04.780 --> 00:05:06.600
+Sam Curren (TelegramSam): Oh, good! See, monsieur.
+
+25
+00:05:07.690 --> 00:05:09.910
+Sam Curren (TelegramSam): okay,
+
+26
+00:05:10.130 --> 00:05:14.909
+Sam Curren (TelegramSam): So with that, let me open up this.
+
+27
+00:05:15.420 --> 00:05:32.990
+Sam Curren (TelegramSam): I wrote this and and and then received a little bit of feedback from some folks. that I kind of passed through to make sure my my grammar was good, and and things were happening. and so this is a this is a statement that I wrote after our discussions last week.
+
+28
+00:05:33.860 --> 00:05:34.980
+Sam Curren (TelegramSam): and
+
+29
+00:05:35.250 --> 00:05:54.909
+Sam Curren (TelegramSam): and and this is a proposal I'm bringing before the group. that we in some way And this is something that we I we need to discuss what the scope of this is In some way we we release or otherwise publish this. It could happen alongside the open wall foundation, in which case we'll need to
+
+30
+00:05:54.910 --> 00:06:06.829
+Sam Curren (TelegramSam): If if this group is good, we can take it to the, to the open all foundation and and see if they want to join to publish something along these lines. Or it could be just something that we publish directly as a group
+
+31
+00:06:07.490 --> 00:06:28.029
+Sam Curren (TelegramSam): that that kind of makes our makes our intentions clear. So this is the. This is the statement here. You've got the link in the agenda, and I've got it here on screen. And so what I'm looking for today, I'm proposing that we publish this and that in in some manner like, I'm talking. And we can talk about the details here in a second
+
+32
+00:06:28.030 --> 00:06:50.369
+Sam Curren (TelegramSam): and I am proposing that this, at least on the short term and in the broad scale, settles the open wallet question, which is, how does the Ares work relate to the open wall foundation? you know, and or will there will there be a move of all of the areas code over to the Open Well Foundation. We've had lots of discussion over the past couple of weeks, and those recordings are available in the agendas.
+
+33
+00:06:50.420 --> 00:07:16.749
+Sam Curren (TelegramSam):  talking about various aspects of that. There's been some really excellent suggestions and observations shared and and some of those remain actionable under this, in the sense that that things that ares should focus on, or or whatever can happen. And I suspect that Alex, in his marketing. notes. Later. we've recognized the the the marketing problem
+
+34
+00:07:16.750 --> 00:07:25.129
+Sam Curren (TelegramSam): of a misperception of what areas actually is. that that we can also work on, so none of that is is excluded in any way by this.
+
+35
+00:07:25.130 --> 00:07:35.410
+Sam Curren (TelegramSam):  my goal was to Some of these statements are going to feel a little obvious. But I they may not be obvious to some of the folks that read this.
+
+36
+00:07:35.880 --> 00:08:03.129
+Sam Curren (TelegramSam): that may not realize that the that the, you know, compatible licenses and sort of common organization structure, etc. already allow for a a large degree of of collaboration and and working together, and that we should do that. But But not everyone is going to recognize that. What this gives to us is it is it recognizes kind of the the the values and the shared goals, etc.,
+
+37
+00:08:03.780 --> 00:08:24.169
+Sam Curren (TelegramSam): and and also the possibility for collaboration on a variety of things. Should it be new libraries, or or there's interest in some bit of code that happens to be in a code base that that wants to be. You know that folks want to. you know, extract and promote as an independent library, for example, would would be fully
+
+38
+00:08:24.580 --> 00:08:29.319
+Sam Curren (TelegramSam): you know, fully within the the intent of this.
+
+39
+00:08:30.020 --> 00:08:51.120
+Sam Curren (TelegramSam): It does mention specifically that Chris sharing of information between organizations would be useful. So, for example, it would be great to have sort of a general high level report on, on, on progress within the open wall foundation within this area's call, and a general report out on progress when the within the Aries community into open wall foundation calls
+
+40
+00:08:51.120 --> 00:09:03.739
+Sam Curren (TelegramSam): and that that level of awareness can can then prompt the the other sorts of collaboration items that we want to work on. And so that's kind of the the new action that this is that. This is This calls for
+
+41
+00:09:03.740 --> 00:09:22.699
+Sam Curren (TelegramSam): that I think would be really useful. and and we can seek to make that happen. this doesn't necessarily preclude anything in the future from happening either. But it changes the nature, I think, of the discussion of all of Aries to rather how In more specific ways, the collaboration between areas and the open wall foundation would occur.
+
+42
+00:09:23.150 --> 00:09:30.619
+Sam Curren (TelegramSam): So with all of that talking that I've done, I'm looking for questions, comments, feedback.
+
+43
+00:09:31.050 --> 00:09:36.510
+Sam Curren (TelegramSam): any of those things that would be useful for for the group to talk about.
+
+44
+00:09:38.930 --> 00:09:46.319
+Warren Gallagher:  Sam, can I just ask a question, I guess, which is less about the text of this, and I think what it
+
+45
+00:09:46.470 --> 00:09:48.429
+Warren Gallagher: perhaps it doesn't say
+
+46
+00:09:48.950 --> 00:09:50.760
+Warren Gallagher: is that
+
+47
+00:09:50.820 --> 00:09:55.660
+Warren Gallagher: your position? If I'm interpreting correctly, is that
+
+48
+00:09:56.190 --> 00:10:04.050
+Warren Gallagher: at this point in time. Anyways, you see no reason for Aries to depart Hyper Ledger and join open wallet foundation.
+
+49
+00:10:04.580 --> 00:10:31.340
+Sam Curren (TelegramSam): but instead recognize the value of collaboration. And this would be the form that that would take. Is that a fair statement, or am I misrepresenting something? Nope, I believe that's a fair statement. we we've had some comments about not just the the the difficulty, but the the amount of effort required to actually move stuff between organizations, and that the open law foundation being a little bit young. is not quite in the position that would be ready to receive
+
+50
+00:10:31.800 --> 00:10:34.439
+John Jordan: these things anyway.
+
+51
+00:10:34.620 --> 00:10:44.879
+Sam Curren (TelegramSam): And so that that helps that that that kind of gets it so I believe you have recognized what I had intended to say, or
+
+52
+00:10:45.810 --> 00:10:50.560
+Sam Curren (TelegramSam): maybe directly, perhaps. But yes, I I believe that your same was entirely fair.
+
+53
+00:10:50.950 --> 00:10:51.889
+Warren Gallagher: Okay, thank you.
+
+54
+00:10:57.900 --> 00:11:01.550
+Rodolfo Miranda: When I capture that on the document, maybe more clearly.
+
+55
+00:11:04.560 --> 00:11:07.610
+Sam Curren (TelegramSam):  that's a good question.
+
+56
+00:11:09.440 --> 00:11:13.839
+Rodolfo Miranda: I well, I had
+
+57
+00:11:13.850 --> 00:11:19.409
+Rodolfo Miranda: my goal in writing. This was to come up with something that that I thought we might be able to agree on as a group here
+
+58
+00:11:19.690 --> 00:11:37.170
+Sam Curren (TelegramSam): that also gives some benefit to the open wall foundation. I can imagine I'm I'm I'm not involved in in leadership there, but I imagine that there are folks asking the you know the proverbial like, Well, how's this really to the Aries project? And this would this could give them a
+
+59
+00:11:37.940 --> 00:11:38.950
+Sam Curren (TelegramSam): a
+
+60
+00:11:39.140 --> 00:11:47.070
+Sam Curren (TelegramSam): something to lean on that kind of answers that question, but in a positive way, I
+
+61
+00:11:47.110 --> 00:12:11.049
+Sam Curren (TelegramSam): didn't explicitly say it, because I wanted to highlight the the sort of possibilities for future collaboration rather than than that that statement, including a negative saying, we will not be moving code bases, because that's not quite true. if there are efforts within areas that the Maintainer want to to move a library or an aspect of it. There's nothing inappropriate about that. And that would not
+
+62
+00:12:11.050 --> 00:12:24.650
+Sam Curren (TelegramSam): technically be true. According to the we would not move code bases statement. And so I didn't say the no, it's out right explicitly, because I wanted to focus on sort of the future collaboration aspects of that.
+
+63
+00:12:25.300 --> 00:12:28.209
+Sam Curren (TelegramSam): anyway, that's kind of what was in my head. Warren.
+
+64
+00:12:29.690 --> 00:12:40.380
+Warren Gallagher: yeah, I I think it's I don't think it needs to be in this document, but I would suggest that perhaps if this hasn't already happened, that there is kind of some.
+
+65
+00:12:40.740 --> 00:12:45.110
+Warren Gallagher: A community agreement that.
+
+66
+00:12:45.150 --> 00:12:53.370
+Warren Gallagher: That is, in fact, what the community wants that to remain where it is, and perhaps that consensus has already been reached
+
+67
+00:12:53.620 --> 00:13:07.449
+Warren Gallagher:  and and which is, which is fine. I I just was unaware that a decision had been taken, or perhaps that no decision meant that it's just status quo
+
+68
+00:13:07.700 --> 00:13:15.949
+Warren Gallagher: But I don't think that needs to go in this document. I think this captures, you know in general what it is that a collaboration would mean as opposed to
+
+69
+00:13:16.050 --> 00:13:20.429
+Warren Gallagher: why, we're choosing to collaborate rather than something else. So
+
+70
+00:13:20.720 --> 00:13:36.520
+Sam Curren (TelegramSam): so, to be clear, there's been no formal agreement reached by the community. it's a hard to do so without a proposal. So this is my pro. This is in in some form my proposal of of that action that we take
+
+71
+00:13:36.780 --> 00:13:44.220
+Sam Curren (TelegramSam): And so in this. So the call is great for discussion here. It's also important. There's a a lot of participants that don't
+
+72
+00:13:44.320 --> 00:14:10.889
+Sam Curren (TelegramSam): make the regular meetings for time zone inconvenience issues. The world is inconveniently round, as I say, And so, in addition to our discussion here, we need to allow community members the opportunity to voice support or or objections to To this my intent was to post this as an issue. and then circulate that link to allow people to to voice their opinions
+
+73
+00:14:10.890 --> 00:14:20.489
+Sam Curren (TelegramSam): separately. And so there would be no action taken until everyone has had a chance to do so. And I I I think a week
+
+74
+00:14:20.490 --> 00:14:31.640
+Sam Curren (TelegramSam): is necessary to to make that happen? if we we circulate noises about about then then by next week's meeting folks can have taken a look at the proposed thing and sort of
+
+75
+00:14:31.640 --> 00:14:52.509
+Sam Curren (TelegramSam): said yes or no there, so so no, nothing has been taken. This is a proposal. is is kind of my suggestion of of of of one of the actions that we can take as a as part of this. certainly other actions can occur. And and we can talk about that. That's let it on the agenda like, what do we want to do? In addition to to this
+
+76
+00:14:52.510 --> 00:14:53.629
+Sam Curren (TelegramSam): post statement?
+
+77
+00:14:54.330 --> 00:14:58.920
+John Jordan: Oh, good John. Sorry.
+
+78
+00:14:59.200 --> 00:15:00.370
+I think.
+
+79
+00:15:01.100 --> 00:15:04.640
+John Jordan: What this but where I think what we're trying to also
+
+80
+00:15:04.880 --> 00:15:17.020
+John Jordan: say is that there's Probably there's a little bit too high a degree of uncertainty about what. moving with me in terms of the like, you mentioned the
+
+81
+00:15:17.170 --> 00:15:28.380
+John Jordan: the organization's level of maturity to support the level of activity that we have in Aries. and we're concerned about maintaining our momentum. So
+
+82
+00:15:28.480 --> 00:15:29.660
+John Jordan: it's kind of
+
+83
+00:15:29.750 --> 00:15:35.579
+John Jordan: this is a first step. But there could be other steps. There will be other steps on definitely
+
+84
+00:15:37.020 --> 00:15:52.309
+Sam Curren (TelegramSam): for sure. And there's also other possibilities as the open all foundation matures, etc., that are also possible. but one of the the hopes that I have in taking this step is that it changes the nature of the conversation from
+
+85
+00:15:52.630 --> 00:15:55.460
+Sam Curren (TelegramSam): the the entire area's scope
+
+86
+00:15:55.520 --> 00:16:08.639
+Sam Curren (TelegramSam): to May, but to maybe more focuses on like steps of collaboration that could be taken in the future. And and so there's there's lots of possibilities in the future. And I and I was trying to focus on that
+
+87
+00:16:08.870 --> 00:16:17.150
+Sam Curren (TelegramSam): this, but but still to some degree answer, the is all of Aries going to move immediately
+
+88
+00:16:17.700 --> 00:16:22.629
+Sam Curren (TelegramSam): in response to this, which in in the answer there is a bit of an implied no.
+
+89
+00:16:22.790 --> 00:16:37.479
+Sam Curren (TelegramSam): and we could make that explicit somehow, either, as a as a group or something else. and that would that would require more or less that we kind of write up a proposal and then and then vote as a community on that, and that would be helpful. the the
+
+90
+00:16:38.120 --> 00:16:40.630
+Sam Curren (TelegramSam): yeah. Alex.
+
+91
+00:16:41.100 --> 00:16:42.019
+your hands up.
+
+92
+00:16:42.620 --> 00:16:43.790
+Alex Metcalf: Thanks. So
+
+93
+00:16:44.390 --> 00:16:46.730
+Alex Metcalf: a side, though.
+
+94
+00:16:47.530 --> 00:16:55.770
+Alex Metcalf: if I don't know the use of this of this, this collaboration agreement, this statement? But if it was there to be shared
+
+95
+00:16:56.110 --> 00:17:05.960
+Alex Metcalf: on the site what we used for general consumption by who that we have members, or whatever. There's an opportunity, maybe, to bring in some more materials to
+
+96
+00:17:07.130 --> 00:17:22.059
+Alex Metcalf: sells an ugly word. But sell Aries, and the benefits so depending on what the purpose, the statements, and where it might be used, it could be an opportunity to have more on that basis to promote what we're doing and why? It's a great solution, no matter what the future of areas is in relation to what we have.
+
+97
+00:17:22.270 --> 00:17:29.829
+Sam Curren (TelegramSam): I think there could be the the intent of this with it would be published somehow. There's kind of 2 basic options. One is that we publish this as the Aries community.
+
+98
+00:17:29.870 --> 00:17:52.820
+Sam Curren (TelegramSam): and then and then, of course, the folks can can find, and of course, in in in reference it. However, they'd like the other option is that we approach the open wall foundation with this, and see if they want to make some sort of a joint statement. And in in the joint statement arena. Then then there would be a little bit less of an opportunity to directly promote Aries but certainly in the self publishing option. That is something that we could do.
+
+99
+00:17:53.760 --> 00:17:58.630
+Alex Metcalf: really, yeah, and just to hire the opportunity. So I'm I'm happy to contribute to the new wording.
+
+100
+00:17:58.770 --> 00:18:03.780
+Alex Metcalf: And should it go. I just think, you know, there's a wide range of maybe our first
+
+101
+00:18:03.810 --> 00:18:13.560
+Alex Metcalf: and like a notable chance to get in front of a number of new audiences and a more clearly defined areas to them in the way to like the high level ways you want to talk about it so
+
+102
+00:18:13.600 --> 00:18:16.770
+Alex Metcalf: just to realize opportunities. Let me know. Thank you.
+
+103
+00:18:17.450 --> 00:18:19.220
+Sam Curren (TelegramSam): Awesome. Steve, your hands up.
+
+104
+00:18:20.830 --> 00:18:22.279
+Steve McCown: Yeah.
+
+105
+00:18:22.670 --> 00:18:29.160
+Steve McCown: I think this is. This is great. It does a couple of things. It establishes
+
+106
+00:18:29.310 --> 00:18:36.010
+Steve McCown: mutual interest, mutual respect between the project organizations. Well.
+
+107
+00:18:36.440 --> 00:18:46.789
+Steve McCown: kind of while still maintaining independence. And I think that's awesome. I think that's the happy medium I I think we've been looking for.
+
+108
+00:18:47.150 --> 00:19:01.079
+Steve McCown: That reminded me of about 2 years ago, just over 2 years ago. Trust over IP and Sovereign signed an agreement to strengthen collaboration, and they released a a joint. Pr.
+
+109
+00:19:01.430 --> 00:19:11.930
+Steve McCown: I'm gonna post that link in the chat. Maybe that will help with how we formulate whatever statement comes out of this.
+
+110
+00:19:12.060 --> 00:19:21.299
+Steve McCown: and yeah, organizations do that all the time. And I and I think that's awesome that that we can do that here.
+
+111
+00:19:22.690 --> 00:19:24.869
+Sam Curren (TelegramSam): That link would be super useful.
+
+112
+00:19:24.960 --> 00:19:38.940
+Sam Curren (TelegramSam): Steve, that would be provide some nice historical context. I am not a Pr. Writer of collaborating organizations. And so this was a bit of an effort for me to kind of come up with something that I thought would work.
+
+113
+00:19:38.950 --> 00:20:08.289
+Sam Curren (TelegramSam): I'm also open to suggestions on modifications we could make to this. it is in comment mode, which means anyone can sort of add a comment to call something out. Or and I believe that allows for suggestions to within Google docs, so that you can see the individual suggestions and how to integrate within the document. So so that that's also open here. I I intended this not as necessarily a final document, but but kind of a formal proposal to to talk about in some of those touch discussions can be what we want to change about this document in particular.
+
+114
+00:20:09.070 --> 00:20:12.990
+Sam Curren (TelegramSam):  so cool.
+
+115
+00:20:15.480 --> 00:20:21.750
+Sam Curren (TelegramSam): excellent for that that link. I'm gonna open it just so that I have it in my browser tab here. And there's that statement.
+
+116
+00:20:22.410 --> 00:20:28.379
+Steve McCown: yeah, I see organizations do things like this all the time, and it
+
+117
+00:20:28.400 --> 00:20:38.199
+Steve McCown: serves to raise awareness of of both organizations while they work on whatever it is they're going to work on together. So right?
+
+118
+00:20:39.610 --> 00:20:41.000
+Sam Curren (TelegramSam): yes.
+
+119
+00:20:41.540 --> 00:20:47.459
+Sam Curren (TelegramSam): Other thoughts. I'm particularly interested in hearing from people that don't like this.
+
+120
+00:20:56.070 --> 00:21:06.959
+Alex Metcalf: The only other, thought I, that is that reading it fresh. is, if it's a statement of a collaboration like the start of an endeavor, I feel that it gets a little bit lost until the end.
+
+121
+00:21:07.090 --> 00:21:21.790
+Alex Metcalf: So if there's something specific about this collaboration that adds something or that, just a statement of like, here's how we can generally collaborate. It's just the opening where the headlines suggest. There was like an announcement of some kind, and then I had to go and walk towards the end of it. So that was just a fresh take on it.
+
+122
+00:21:21.960 --> 00:21:43.339
+Sam Curren (TelegramSam): So you're seeing just my newness at kind of doing this. What what I think would be great is is what Steve was kind of linking to. as an example. there's a a collaborative statement in this case. This is only half of it, because we need to work with the open law foundation to represent. they're interested here as well. Before we do that, I would want to
+
+123
+00:21:43.340 --> 00:21:59.400
+Sam Curren (TelegramSam): the the approval of this group to go ahead and do so. so to to to to move forward in that way. And I imagine this will get touched a lot and and added to in in that process, so that this, this highlight, this headline here, doesn't really represent
+
+124
+00:21:59.400 --> 00:22:05.110
+Sam Curren (TelegramSam): exactly the collaboration agreement. This is really a statement about this collaboration possibilities
+
+125
+00:22:05.270 --> 00:22:20.599
+Sam Curren (TelegramSam): made by the areas community not really made by both communities. because we haven't involved them yet. And so there's there's kind of 2 outcomes that we could pursue here one is. Yes, it's good. Let's publish it. But maybe fix the headline, the the other
+
+126
+00:22:21.060 --> 00:22:46.670
+Sam Curren (TelegramSam): outcome is, yes, we like this. but we would like it to be made in in collaboration with the open well foundation, which I agree would be stronger. and so we I we could, starting now, wish, or you know, given sufficient time for the the not present community in this meeting to to voice their opinion, to to then engage with the open wall foundation. in a in a joint, a statement like that
+
+127
+00:22:47.250 --> 00:22:50.629
+Alex Metcalf: for them. Well, I'm very happy to offer my my
+
+128
+00:22:50.720 --> 00:22:54.130
+Alex Metcalf: time on on this as well as design, so let me know some.
+
+129
+00:22:54.170 --> 00:22:56.710
+Sam Curren (TelegramSam): I appreciate that, Alex. I am.
+
+130
+00:22:57.010 --> 00:22:59.980
+Sam Curren (TelegramSam): I'm over my skis, as it were.
+
+131
+00:23:00.120 --> 00:23:09.200
+Sam Curren (TelegramSam): Okay, that's that's so. I I know that you were, you know, soliciting.
+
+132
+00:23:09.360 --> 00:23:22.690
+Warren Gallagher: if if any you know negative feedback at this point. But I really don't have any so. But I would like to add some I guess some positive stuff. I think the general intention of this is is good.
+
+133
+00:23:22.950 --> 00:23:32.859
+Warren Gallagher: I think it opens up a call marketing opportunity that could be provide benefit to each side. I think, in the drafting of this.
+
+134
+00:23:33.210 --> 00:23:52.680
+Warren Gallagher: I think that the content should contain a little bit about what Aries is about, and what open wallet foundation is about and how they fit so, and it doesn't need to be detailed. But things like, you know, open wallet foundation focusing on wallets that you know, serve a number of purposes, including digital currencies and blah blah blah
+
+135
+00:23:52.720 --> 00:24:05.829
+Warren Gallagher: and Aries, with its, you know, history and doing identity and verifiable credentials. as being part of what you know, and being so, stuff that allows the to see how they fit together.
+
+136
+00:24:06.400 --> 00:24:16.849
+Warren Gallagher: and why a collaboration would be beneficial and then I think that can be, of course, sharpened in word Smith, in conjunction with the open wall foundation as well.
+
+137
+00:24:16.980 --> 00:24:22.680
+Warren Gallagher: And I, I would be surprised if they wouldn't want to publish a statement.
+
+138
+00:24:22.790 --> 00:24:24.919
+Warren Gallagher: like this. A collaboration agreement.
+
+139
+00:24:25.590 --> 00:24:31.629
+Warren Gallagher: and press releases could be made by both foundations. you know. So
+
+140
+00:24:31.930 --> 00:24:37.720
+Warren Gallagher: in general, I like the idea, and I think just a little bit more fit between how it comes together
+
+141
+00:24:38.010 --> 00:24:48.530
+Warren Gallagher: and why? so on the actual document, I think, going back to the issue of you know. Why publish this? In the first place?
+
+142
+00:24:48.840 --> 00:24:55.570
+Warren Gallagher: I think the framing of this to the community to solicit feedback
+
+143
+00:24:55.800 --> 00:25:02.940
+Warren Gallagher: that the framing of it has to say, Okay, we've been. There's been some discussion going on about joining the Open Wallet foundation
+
+144
+00:25:03.030 --> 00:25:11.840
+Warren Gallagher: at this time. you know my PIN, or the opinions of X. Y. And Z. Are that perhaps that's not appropriate at this time could be in the future.
+
+145
+00:25:11.950 --> 00:25:26.810
+Warren Gallagher: And here is a way for us to do something positive that can benefit us both in the meantime, and who knows where it'll go but a way of setting up the framing of this. So people know why they're looking at this in the first place, and that would allow, for.
+
+146
+00:25:27.050 --> 00:25:35.330
+Warren Gallagher: you know discussion A on the overall premise, and then B on the the the collaboration agreement itself that people agree with the premise.
+
+147
+00:25:36.980 --> 00:25:44.279
+Alex Metcalf: Yeah, I think there's some good points that, Sam. Let's let's catch up because I can. I can bring some some, some assistance to this.
+
+148
+00:25:44.390 --> 00:25:54.749
+Sam Curren (TelegramSam): I I think we could. I think my first point of action would be to approach the open wall foundation and see if they're interested in publishing a joint statement, and then and then, if they are, for, you know, producing a draft under there that that would work
+
+149
+00:25:55.420 --> 00:26:01.279
+Sam Curren (TelegramSam): like. And you know, collaboratively, that would work. And we could address a lot of those issues at the same time.
+
+150
+00:26:02.740 --> 00:26:12.360
+John Jordan: Yeah. And you can use the Linux Foundation Digital trust initiative as one of the framing points.
+
+151
+00:26:13.060 --> 00:26:22.979
+John Jordan: I. I do mention that in here we're both part of the digital trust initiative that is small, but could be larger. One of the things that I have wrestled with
+
+152
+00:26:23.120 --> 00:26:29.009
+Sam Curren (TelegramSam): is that in the the the Cross Project collaboration stuff?
+
+153
+00:26:29.140 --> 00:26:33.709
+Sam Curren (TelegramSam): What would happen if something that had that that currently bears the Ares brand
+
+154
+00:26:33.780 --> 00:26:46.219
+Sam Curren (TelegramSam): wants to sort of move that direct effort over to the open wall. The foundation there's a lot of I don't know. And and maybe, Tim, this is why you're raising your hand. There's a lot of I don't know. one of the options there
+
+155
+00:26:46.450 --> 00:26:51.979
+Sam Curren (TelegramSam): is to figure out how we can link the Ares brand to the digital trust initiative
+
+156
+00:26:52.180 --> 00:27:20.369
+Sam Curren (TelegramSam): such that just that, that wouldn't be a choice you'd have to make. It's not like, well, the area's brand has been decided to not move, and so you can't My goal is to enable the the people doing the work on these projects to to do them in the manner and in the way that makes the most sense for the effort and not have something like that be something that is a problem, or holds back, or or or something to that effect. So
+
+157
+00:27:20.590 --> 00:27:30.939
+Sam Curren (TelegramSam): I, the digital trust initiative, may have a larger role there in that and that it could help to collaborate between those 2 things.
+
+158
+00:27:31.010 --> 00:27:53.560
+Sam Curren (TelegramSam): and that's this really, that is one of the unresolved thoughts that I've had. I would need to understand more from from the Linux Foundation how that might work as part of the digital trust initiative. And what's actually there right now, it's a little bit more nascent in the sense that it's a grouping of projects. but that's something that could be possible. teamo. Your hands up.
+
+159
+00:27:55.200 --> 00:27:58.230
+Timo Glastra: yeah, I think I'm
+
+160
+00:27:58.290 --> 00:28:01.460
+Timo Glastra: not sure yet if I'm fully supportive of this
+
+161
+00:28:02.020 --> 00:28:11.730
+Timo Glastra: current collaboration. But I'm having a hard time, I think, to articulate. Why, precisely yet, but I think
+
+162
+00:28:11.930 --> 00:28:13.620
+Timo Glastra: I do
+
+163
+00:28:13.750 --> 00:28:34.510
+Timo Glastra: keep feeding more and more for having a and it's agent housed under an organization that is not focused on blockchain for enterprises. which hyper Ledger is, and I think in the end the end goal of what open wallet foundation
+
+164
+00:28:34.600 --> 00:28:53.300
+Timo Glastra: mission is aligns more with the project itself. So I'm not sure I I agree with that. We shouldn't make like decisions too fast. but yeah, I think that's that's my point where I'm still
+
+165
+00:28:53.390 --> 00:29:00.079
+Timo Glastra: interested in looking from like, it's moving the project completely. yeah.
+
+166
+00:29:01.310 --> 00:29:19.600
+Sam Curren (TelegramSam): Timo, you have been one of the contributors of one of the largest selections of writing on this which I really appreciate. and if anyone hasn't seemed, I don't have a link candy, but maybe someone can dig that up over on the Aries repo Timo wrote a really excellent summary of his thoughts on on everything. That was fantastic.
+
+167
+00:29:19.850 --> 00:29:34.930
+Sam Curren (TelegramSam): So a couple of thoughts about that one is that this does give us a little bit of time, while at least in the large scale. answering initially the thing. But this doesn't prevent future movements or anything else.
+
+168
+00:29:35.720 --> 00:29:51.619
+Sam Curren (TelegramSam): I I sort of felt like in our discussions as a community. We sort of, weren't we? We'd reached the point where we weren't saying anything new. And so it felt like we needed some sort of a step taken rather than just, no resolution in order to make it happen.
+
+169
+00:29:51.990 --> 00:30:21.830
+Sam Curren (TelegramSam): I believe that this would allow a of course, under separate consideration of the the the maintainers of a particular code base would allow for the discussion and and possible movement of of one of those. the goal would be to project the right message, meaning, we're doing this to like, advance and make better the project. and and that's certainly still a possibility. Under this the the logistics of saying, Yes, we're going to move. Everything
+
+170
+00:30:22.050 --> 00:30:48.840
+Sam Curren (TelegramSam): is actually really, really messy and as but pointed out by others, and but as as that decision does maybe seem appropriate in the future that can certainly happen. I, this doesn't really prevent anything from happening at all, but just gives a little bit of a soft step. in recognition between the organizations that I believe what actually makes some of those further conversations easier. So
+
+171
+00:30:49.100 --> 00:31:05.779
+Sam Curren (TelegramSam): My intention of this was not to say No, we won't, and that's why it wasn't included. because I don't believe that that's necessarily the right answer. I believe that answering this and a little more granular level is perhaps more appropriate. for for our purposes. There, does that make sense, Timo?
+
+172
+00:31:06.130 --> 00:31:27.159
+Timo Glastra: Yeah, no, I I I agree on that part. and and list. This questions isn't going to move anything forward. and I think I agree we aren't ready as a community to to make such a decision, such a big decision. I just, I think I want they want to reflect on what I currently see as a good
+
+173
+00:31:27.330 --> 00:31:30.870
+Timo Glastra: possible and goal. but I agree with like
+
+174
+00:31:30.880 --> 00:31:32.729
+Timo Glastra: taking a slower step first.
+
+175
+00:31:33.930 --> 00:31:37.029
+Sam Curren (TelegramSam): Yes, and I
+
+176
+00:31:38.070 --> 00:31:50.750
+Sam Curren (TelegramSam): There, there are some really cool, I think opportunities. Cross-org marketing, for example, could could we could substantially benefit from and that they did also does not necessarily preclude any, any future action there. So
+
+177
+00:31:51.990 --> 00:31:58.250
+Sam Curren (TelegramSam): okay, I I I, anyone else, have any comments that they they like to make specifically about this.
+
+178
+00:32:03.720 --> 00:32:16.850
+Sam Curren (TelegramSam): Okay, so in the spirit of gathering a vote here. What I'd like to do is is I'll make a specific statement and then ask folks to use the zoom reactions feature
+
+179
+00:32:16.980 --> 00:32:19.720
+Sam Curren (TelegramSam):  to
+
+180
+00:32:19.730 --> 00:32:32.650
+Sam Curren (TelegramSam):  to voice their opinion. and that way we can sort of gather what's you know and record what what happened here?
+
+181
+00:32:32.750 --> 00:32:48.029
+Sam Curren (TelegramSam): so the first statement that I think we'd like to make the most desirable, I think outcome is a cross statement between the open wall foundation and the in the Hyper ledger areas. Project And so The proposal here, I think, is is that
+
+182
+00:32:48.060 --> 00:32:49.610
+Sam Curren (TelegramSam): We
+
+183
+00:32:50.070 --> 00:33:01.290
+Sam Curren (TelegramSam): approach the open wall foundation with this as a starting statement, and engage with them to to craft a joint statement, and this will is sure to see modifications in that process.
+
+184
+00:33:01.580 --> 00:33:15.519
+Sam Curren (TelegramSam): and that draft could be, of course, presented back to us as well as the open wall foundation for ratification. and so, if you are supportive of approaching the open wall foundation in seeking a cross collaboration agreement, why don't we use the thumbs up?
+
+185
+00:33:16.460 --> 00:33:29.679
+Sam Curren (TelegramSam): for a yes, that you are supportive of approaching the open wall foundation for seeking an agreement and just for completeness. Let's use the the No red X
+
+186
+00:33:29.760 --> 00:33:31.080
+Sam Curren (TelegramSam): as a
+
+187
+00:33:32.010 --> 00:33:35.600
+Sam Curren (TelegramSam): as an indication that you are not supportive of that. Does that work?
+
+188
+00:33:40.340 --> 00:33:42.430
+Sam Curren (TelegramSam): Okay, I have
+
+189
+00:33:43.670 --> 00:33:48.390
+Sam Curren (TelegramSam): a thumbs up. Oh, you know what? I wonder how long these are going to persist, but it's keep going.
+
+190
+00:33:49.600 --> 00:33:51.000
+John Jordan: Okay.
+
+191
+00:33:51.430 --> 00:33:58.450
+Sam Curren (TelegramSam): I'll I'll count that, John. You're welcome to do that verbally. We're glad you're here.
+
+192
+00:33:59.210 --> 00:34:01.569
+Sam Curren (TelegramSam): those are disappearing.
+
+193
+00:34:03.560 --> 00:34:05.249
+John Jordan: plus one in the chat
+
+194
+00:34:07.680 --> 00:34:10.159
+Rodolfo Miranda: that they are to count they now.
+
+195
+00:34:10.330 --> 00:34:23.309
+Sam Curren (TelegramSam): Oh, that's annoying. So it's Timo, Timo said. Yes, and it isn't going away So to revise my previous thing if you will use the yes checkmark instead of or the no, then that will be good.
+
+196
+00:34:23.570 --> 00:34:28.389
+Sam Curren (TelegramSam): I think that may not disappear. We'll see what happens here. I'm up to 14
+
+197
+00:34:29.050 --> 00:34:30.620
+Sam Curren (TelegramSam): 16
+
+198
+00:34:30.800 --> 00:34:39.119
+Sam Curren (TelegramSam):  Oh, raising hands could work. But let's see these. These don't appear to be going away, which is really so. Timo is the first one that I saw, and it hasn't gone away yet.
+
+199
+00:34:39.880 --> 00:34:43.370
+John Jordan: I'll change my thumbs up to a checks. And
+
+200
+00:34:43.489 --> 00:35:01.559
+Sam Curren (TelegramSam): yeah, from my perspective. The check does not go away until you tell it to go away like that. Excellent. Okay, we are near unanimous here. for with for that. I I'm supportive of this So that gives us like 20
+
+201
+00:35:02.030 --> 00:35:05.439
+Sam Curren (TelegramSam): one out of our like.
+
+202
+00:35:05.450 --> 00:35:24.750
+Sam Curren (TelegramSam): yeah. Anyway, I think it's sufficient enough to be nearly unanimous, and no one's voting no which is the other thing. So let me record that  
+
+203
+00:35:32.360 --> 00:35:34.380
+Rodolfo Miranda: out of 24.
+
+204
+00:35:34.640 --> 00:35:35.550
+Sam Curren (TelegramSam): Yeah.
+
+205
+00:35:40.660 --> 00:35:49.420
+Alex Metcalf: okay, I think that's good. And Alex, you volunteered to be involved there. I would really appreciate that. yeah. So
+
+206
+00:35:49.840 --> 00:36:12.480
+Sam Curren (TelegramSam): yeah. So very cool. And I can hit clear all feedback as the host. Okay? So so that's the action. Let's take because that would be a stronger statement than just Aries individually posting that, anyway. we'll go ahead and do that. Since there's no approval on that, let's go ahead and take that to them this week. We could do that immediately, and then we have a hopefully a week. I don't know how long that's gonna take.
+
+207
+00:36:12.860 --> 00:36:20.380
+Sam Curren (TelegramSam): but a week or 2. is what I imagine, and then we'll be able to come back and and have something that we, as a community, can ratify.
+
+208
+00:36:22.120 --> 00:36:27.990
+Sam Curren (TelegramSam): So excellent. Okay. any further on that before we move on with our discussion.
+
+209
+00:36:31.020 --> 00:36:38.749
+Sam Curren (TelegramSam): I appreciate everyone's patience with my attempts to find a resolution here. grateful for your feedback.
+
+210
+00:36:42.230 --> 00:36:43.430
+Sam Curren (TelegramSam): All right.
+
+211
+00:36:43.830 --> 00:36:55.260
+Sam Curren (TelegramSam): Okay, next on the agenda, then. Oh, we haven't discussed what adjustments we want to make to Aries as is. But but given the the sort of proposal that we've floated in the discussion. Why don't we
+
+212
+00:36:55.720 --> 00:37:17.180
+Sam Curren (TelegramSam): table that for now? And we're gonna hear from Alex about marketing, and then we can come back to We can come back to that in a future discussion. because there are certainly things we could do. For example, it's been proposed that like did come protocol definitions and no longer get written inside of Aries in other things. And so those discussions we could have
+
+213
+00:37:17.180 --> 00:37:29.250
+Sam Curren (TelegramSam): as we could do that independently of any of any code base move. anyway. And so we should have those conversations to to see what kind of things we want to update about Ares.
+
+214
+00:37:29.510 --> 00:37:44.580
+Sam Curren (TelegramSam): in the meantime, and that could be more clarified to statements of purpose, etc. that we haven't updated in a really long time and like since the beginning, I believe so. So that would be useful. So let me let me let me table this, and then we'll bring it back.
+
+215
+00:37:45.040 --> 00:37:47.550
+Sam Curren (TelegramSam): either
+
+216
+00:37:47.710 --> 00:37:59.889
+Sam Curren (TelegramSam): looking at the time, probably not this week, but but but next week or the week after that and so that we can, we can raise those issues because we want to make sure that the organization is reflecting the needs of the people in it.
+
+217
+00:38:00.370 --> 00:38:02.669
+Sam Curren (TelegramSam): is that okay? Anyone object?
+
+218
+00:38:06.190 --> 00:38:09.449
+Sam Curren (TelegramSam): Okay, Alex, I will turn this over to you.
+
+219
+00:38:10.680 --> 00:38:15.339
+Alex Metcalf: Thanks, Sam. all right. So I just need 5 min here.
+
+220
+00:38:16.190 --> 00:38:23.449
+Alex Metcalf: So I've been working behalf of PC. Gov. John asked me to come in and
+
+221
+00:38:23.630 --> 00:38:26.659
+Alex Metcalf: and didn't get to somebody before it just help improve
+
+222
+00:38:26.810 --> 00:38:41.670
+Alex Metcalf: some of the materials that really promote Aries and and talk about the great work that's being done, because the the short but I'm sure you're probably aware is that this fantastic tech but not being communicated well, necessarily, and some of the materials that people might find coming to it fresh.
+
+223
+00:38:42.170 --> 00:38:50.960
+Alex Metcalf: And so I mean tasked with improving that situation. And what I do today is show you a document with some core
+
+224
+00:38:51.370 --> 00:38:53.049
+Alex Metcalf: talking points and
+
+225
+00:38:53.100 --> 00:39:00.600
+Alex Metcalf: collision talking points and benefits of areas. And there's a few things going into it and asks 2 things of you one is
+
+226
+00:39:00.730 --> 00:39:12.029
+Alex Metcalf: any comments and suggestions for improving it. And number 2 is, if you wish to be involved in the future possible discussions, such as going a bit more into the strengths and weaknesses of these threats of areas and
+
+227
+00:39:12.170 --> 00:39:19.720
+Alex Metcalf: other positioning stuff, I'd welcome you and put that way. So let me show you share the document first, which is also available through the
+
+228
+00:39:20.020 --> 00:39:21.569
+Alex Metcalf: the meeting notes as well.
+
+229
+00:39:26.820 --> 00:39:48.249
+Alex Metcalf: All right. I know you haven't seen it full, so I won't go through it in detail now. But to survive the the documents linked in the notes. And this this what I've got first of all, I'm here from fishing, through previous meeting discussion, especially around the owf and defining areas and talking to a few people in the community and looking at what things, what's there in the existing way?
+
+230
+00:39:48.310 --> 00:39:51.680
+Alex Metcalf: a general summary of
+
+231
+00:39:51.760 --> 00:40:01.350
+Alex Metcalf: what makes Harry's areas. And what makes it so? What it's key benefits are, and then broken down a bit more like a like part. Benefits. thought features.
+
+232
+00:40:01.400 --> 00:40:04.120
+Alex Metcalf: Excuse me in these 4 sections below.
+
+233
+00:40:05.050 --> 00:40:06.130
+Alex Metcalf: and
+
+234
+00:40:06.320 --> 00:40:14.559
+Alex Metcalf: the idea is, if I need to jump around a little bit, the idea is to use this in places like this. I'll show you the Aries if you said you are right now in Google.
+
+235
+00:40:14.600 --> 00:40:22.069
+Alex Metcalf: The top result, probably for you, is this page on the high pledges site which has this
+
+236
+00:40:22.290 --> 00:40:30.340
+Alex Metcalf: partly data is not quite correct. It's not just blockchain with any more. For example, things like that. And it's quite short and goes the original announcement.
+
+237
+00:40:31.030 --> 00:40:37.830
+Alex Metcalf: And this is one of the several touch points where we need to update things so that a better presence on the high pleasure website
+
+238
+00:40:38.120 --> 00:40:44.539
+Alex Metcalf: to update the Wiki landing page. The Aries landing page in Github is another one.
+
+239
+00:40:44.780 --> 00:40:47.229
+Alex Metcalf: and there's probably more that you can plug in the direction of.
+
+240
+00:40:47.250 --> 00:40:57.009
+Alex Metcalf: So the idea of these materials is that we have one core version of the key things you want to say. and we then re purpose those to fit in these other places as well.
+
+241
+00:40:57.730 --> 00:41:00.269
+Alex Metcalf: So still being built, scroll down to me here.
+
+242
+00:41:00.650 --> 00:41:09.710
+Alex Metcalf: there's going to be wait. Just so that ares website page it sure the summary that goes in there, and rather than go to the original announcement, some kind of learn more
+
+243
+00:41:09.780 --> 00:41:12.869
+Alex Metcalf: page content, perhaps a blog post of some kind.
+
+244
+00:41:13.410 --> 00:41:27.270
+Alex Metcalf: I'm speaking to. What? Emailed Emily at Hyper Ledger about that? I think, as a new site design coming out soon and to fit with that as well. And to me there'll be another version down here for the wiki proposed Content so
+
+245
+00:41:27.440 --> 00:41:41.990
+Alex Metcalf: to wrap up my little segment here. If you could please read through this. I welcome a few time appropriate comments now, but every bit of feedback is welcome from minor things to a complete disagree with this? Or, Yeah, you've missed this key benefit, or don't say that
+
+246
+00:41:42.230 --> 00:41:44.819
+Alex Metcalf: any feedback of that like that is really welcome.
+
+247
+00:41:45.050 --> 00:41:53.930
+Alex Metcalf: you can do it in the document. You've also got my email on the meeting notes at the top, and if you wish to be involved in more wholesome discussions.
+
+248
+00:41:54.100 --> 00:42:10.629
+Alex Metcalf: we talked with a bit more like a of a structured marketing activity. Helen, that a great one for Dcom on Monday. which is excellent, and I wasn't sure if I get away with fishing on previous meeting notes, and not need to do that. But I might do that if I got enough
+
+249
+00:42:10.640 --> 00:42:20.159
+Alex Metcalf: contention as to what we're describing areas that's here. So basically have a look at this, let me know, and they may be more involved and welcome any comments you have right now as well.
+
+250
+00:42:28.400 --> 00:42:36.860
+Warren Gallagher: so, Alex, I have a couple of comments. I really like the what you what you've put together. Thanks for thanks for doing this.
+
+251
+00:42:37.380 --> 00:42:40.339
+I think that one of the things that I would
+
+252
+00:42:40.700 --> 00:42:48.389
+Warren Gallagher: I would like to see come out of this, which is not in here, but may not be what the rest of the community wants
+
+253
+00:42:48.950 --> 00:42:50.710
+Warren Gallagher: is
+
+254
+00:42:51.360 --> 00:43:02.549
+Warren Gallagher:  less focus on some of the features which I know are the core provenance of the origination of Aries, but aren't necessarily
+
+255
+00:43:02.790 --> 00:43:05.030
+Warren Gallagher:  the
+
+256
+00:43:05.140 --> 00:43:11.600
+Warren Gallagher: the potential direction and some of what's happening now. So you mentioned, you know, a couple of credential formats.
+
+257
+00:43:11.680 --> 00:43:26.590
+Warren Gallagher: But there's no mention of supporting other protocols. And you mentioned 0 knowledge proofs. And there's other things that we do that don't do that. And so I'm personally looking for something like, I look at the Ares toolkit as a potential
+
+258
+00:43:26.660 --> 00:43:36.699
+Warren Gallagher: Swiss army knife for solving a wealth of these problems, using different technologies for different problem domains.
+
+259
+00:43:37.070 --> 00:43:43.539
+Warren Gallagher: And this is still very much rooted in Aries origination legacy.
+
+260
+00:43:43.980 --> 00:43:53.340
+Warren Gallagher: And that's okay with me as long as everybody else agrees that that's what they want it to be. But for me, I'd like it to. I'd like it to be positioned more broadly.
+
+261
+00:43:54.600 --> 00:43:58.909
+John Jordan: That's our we we need to do that for sure.
+
+262
+00:43:59.110 --> 00:44:06.540
+John Jordan: It's John like that. You know that it that that this software is providing you with
+
+263
+00:44:07.020 --> 00:44:12.120
+John Jordan: with the, as far as we know the maximum possible number of options
+
+264
+00:44:12.480 --> 00:44:24.369
+John Jordan: that you can deploy, depending on your. you know, depending on your solution needs. So it's not forcing you to choose a protocol or a tip method, or a
+
+265
+00:44:24.550 --> 00:44:29.309
+John Jordan: format, or whatever it's not there you can build it, and that it in.
+
+266
+00:44:31.010 --> 00:44:38.360
+Alex Metcalf: Yeah, that's really great feedback. And that's the kind of position step which I find really fascinating. There's what it is and isn't.
+
+267
+00:44:38.580 --> 00:44:47.330
+Alex Metcalf: and there's what it used to be, but isn't anymore. And then there's also what it could do. But also we don't wish to necessarily promote ready strongly. So
+
+268
+00:44:47.350 --> 00:44:52.340
+Alex Metcalf:  And I'm coming fresh hash to this. You guys are the experts here.
+
+269
+00:44:52.380 --> 00:44:58.059
+Alex Metcalf: So, for example, it is possible, I understand, to use to not use Dcom.
+
+270
+00:44:58.140 --> 00:45:08.089
+Alex Metcalf: and that may be desirable in some situations. However, using. Dcom has a number of advantages, and maybe don't want to say promote that flexibility so strongly because it brings a number of other things to the table.
+
+271
+00:45:08.330 --> 00:45:24.490
+Alex Metcalf: So I think those kind of discussions as to how we position this. I try to include some of that flexibility up here. in in the here and the future proof. But if you need to make that clear and stronger then, now is the chance. Because I think these key
+
+272
+00:45:24.820 --> 00:45:33.169
+Alex Metcalf: like I said, what. Now this is how it stands up against the competition. What people are asking about right now, that's what I really want to know to shape these core messages before they start being
+
+273
+00:45:33.230 --> 00:45:38.610
+Alex Metcalf: repurposed out to all the touch points. So yes, thank you for that. I think the thoughts are really, really welcome.
+
+274
+00:45:44.020 --> 00:45:51.050
+Alex Metcalf: and that mailing to me now, like I said, my email is there. And if you want a bad time to digest, but I'm working on this actively day by day right now.
+
+275
+00:45:51.130 --> 00:45:56.369
+Alex Metcalf: And so any other thoughts on how we need to better position it even beyond this.
+
+276
+00:45:56.520 --> 00:46:02.199
+Alex Metcalf: are really welcome. But we really welcome in in the next few days ideally so. I can bring that to the table.
+
+277
+00:46:03.240 --> 00:46:16.030
+Sam Curren (TelegramSam):  Alexis is great, and I agree with the previous conversation. The other thing that is kind of mentioned here, but not really explicitly, is the use of standards defined elsewhere?
+
+278
+00:46:16.440 --> 00:46:20.219
+Sam Curren (TelegramSam):  and that includes
+
+279
+00:46:20.400 --> 00:46:22.709
+Sam Curren (TelegramSam): you know, like
+
+280
+00:46:23.450 --> 00:46:37.999
+Sam Curren (TelegramSam): presentation exchange stuff from the diff, for example, and it even did convey, too, is from the diff a. A and things like that. And so the it's not really stated that we don't here, but it's also not really stated that like
+
+281
+00:46:38.030 --> 00:46:51.099
+Sam Curren (TelegramSam): that is And so I think. But this whole effort, I think is just fantastic. I think that trying to clarify this and everything else is, is a good exercise for us as a community to actually put words to what we think. This is
+
+282
+00:46:51.100 --> 00:47:10.209
+Alex Metcalf: in in a way that that that gives us a little bit more of a cohesive stated goal, and also communicates more easily to to everyone else. Just take a look at it. So really good. Yeah, that's really useful feedback. And that was the intent to have something on paper, at least, that we say, Okay, is this it? And so really welcome all those type of pains? Thank you. So
+
+283
+00:47:11.890 --> 00:47:13.090
+Sam Curren (TelegramSam): we've got a hand up.
+
+284
+00:47:13.250 --> 00:47:22.310
+Subhasis Ojha: I'm I'm sorry I'm totally gonna put you your name if I try. So no problem, Sam, this is a Sbashi with Northern block but those who don't know me.
+
+285
+00:47:22.500 --> 00:47:26.619
+Subhasis Ojha: Alex. The question I have is.
+
+286
+00:47:27.280 --> 00:47:41.940
+Subhasis Ojha: who is this documented document intended for? Is it for a technical person? Is it for a person who is just deciding on it. A technology, is it for a decision maker?
+
+287
+00:47:42.090 --> 00:47:53.530
+Subhasis Ojha: Things like that? I like to get a little bit more clarity, because from my perspective. One of the most important things which I don't see mentioned here
+
+288
+00:47:53.590 --> 00:47:56.140
+Subhasis Ojha: is the maturity of the technology
+
+289
+00:47:56.800 --> 00:48:01.169
+Subhasis Ojha: and the amount of effort and investment.
+
+290
+00:48:01.200 --> 00:48:05.749
+Subhasis Ojha: and and where it's being used, and all of that not been mentioned.
+
+291
+00:48:05.950 --> 00:48:13.039
+Subhasis Ojha: So if it's targeted for a decision maker, that's a very important piece that needs to be there.
+
+292
+00:48:14.860 --> 00:48:25.020
+Alex Metcalf: Thank you. That's that's great feedback the intended target is is is fairly broad with these, with if you match like a a stronger middle stab at
+
+293
+00:48:25.180 --> 00:48:40.279
+Alex Metcalf: people coming in at a pretty, a technical decision, making level, or perhaps developers coming to this fresh want to know what how the position is in their minds. It's like a starting point. I think there's enough detail down in the tech as we want to get that teeth into it. But there's very little up.
+
+294
+00:48:40.410 --> 00:48:53.209
+Alex Metcalf: You could extract things from this and take them up when you're making that presentation up to management. To make a case, for we need to explore this further will get some time or or money, whatever it may be. So yes, to the maturity.
+
+295
+00:48:53.260 --> 00:49:04.960
+Alex Metcalf: use cases. If there are people that are prominently using areas that are that I've said that publicly that we can start name dropping a few samples in here, or have a separate collection
+
+296
+00:49:04.980 --> 00:49:11.709
+Alex Metcalf: of places where we can give some gravitas to what we're doing. Then please let me know.
+
+297
+00:49:11.990 --> 00:49:18.010
+Alex Metcalf: Yes, that that feedback from my I I mentioned the maturity as well of the tech.
+
+298
+00:49:18.150 --> 00:49:28.959
+Subhasis Ojha: My my suggestion for your consideration would be to have 2 separate documents, one which is technically focused and one which is focus for a decision maker.
+
+299
+00:49:29.340 --> 00:49:40.560
+Subhasis Ojha: And and so you have 2 separate talking, maybe 2 sections.  this to me. This document should first go to a decision maker.
+
+300
+00:49:40.940 --> 00:49:46.199
+Subhasis Ojha: and then they appreciated, they they buy into it.
+
+301
+00:49:46.280 --> 00:49:58.090
+Subhasis Ojha: Then they hand over the technical thing to a technical person to say, Okay. you know this, this is mature. This is great. If if you are doing marketing, it's a sales tool. If I understand it correctly.
+
+302
+00:49:58.280 --> 00:50:04.019
+Subhasis Ojha: right? We're trying to convey to the world that look. This technology has a lot of good stuff in it.
+
+303
+00:50:04.490 --> 00:50:15.629
+Subhasis Ojha:  it. It can go both ways. It can be read by a technical. What person who takes it to a decision maker. It can be read by a decision maker and goes down to a technical person.
+
+304
+00:50:15.720 --> 00:50:26.730
+Subhasis Ojha: So anyway, that's the I I just feel that that is may missing. And we are writing another technical document and not targeting decision makers.
+
+305
+00:50:27.890 --> 00:50:38.029
+Alex Metcalf: Okay? Well, thanks for the feedback. And yeah, there's a way to extract out some of the things that make it what it is that can be less technical. I'm very open to that discussion.
+
+306
+00:50:38.870 --> 00:50:53.899
+Sam Curren (TelegramSam): I I also. That's excellent feedback. and I think we've got the good start on this here. But of course, mentioning sort of the scale and deployment, you know the success of it is is absolutely necessary here. One of the dividing lines between them. The decision maker and the technical
+
+307
+00:50:54.150 --> 00:51:21.620
+Sam Curren (TelegramSam): might be the jump to the wiki a a decision maker might be a little less inclined to jump to the wiki where a technical person might, and and that might be a nice natural division to place the the technical side of things over on the wiki. It's also a little bit more edible. which means that which means we could keep it updated without having to go through like official website content processes. and and that could be a nice division line between the
+
+308
+00:51:21.950 --> 00:51:23.790
+Sam Curren (TelegramSam): the those 2 purposes
+
+309
+00:51:24.570 --> 00:51:38.130
+Alex Metcalf: it. That's super, because it accounts to keep this as the more technical that I think it's good point some, and then bring up a, as it's about to say, like a higher level version of some of the broader talking points that reassure it. And that's why welcome
+
+310
+00:51:38.220 --> 00:51:40.929
+Alex Metcalf: the communities experience.
+
+311
+00:51:41.010 --> 00:51:54.200
+Alex Metcalf: So having be in there with those people, making those kind of decisions, what? What are the concerns right now? What are they looking for? Is it future proofing and flexibility, is it? Well, does it support W. 3 C. Like one of the people saying
+
+312
+00:51:54.280 --> 00:52:00.210
+Alex Metcalf: that we can answer those off, and and maybe have, like a separate version of this, which is like any more like a one pager.
+
+313
+00:52:00.400 --> 00:52:02.250
+Alex Metcalf: like a lot of data sheet.
+
+314
+00:52:02.420 --> 00:52:06.409
+Alex Metcalf: so like a summary thing that can be repurposed by people trying to make the argument.
+
+315
+00:52:08.290 --> 00:52:09.090
+Sam Curren (TelegramSam): Yeah.
+
+316
+00:52:10.670 --> 00:52:11.920
+Sam Curren (TelegramSam): that's fantastic.
+
+317
+00:52:12.690 --> 00:52:16.200
+Alex Metcalf: Okay, thanks. Yeah. My emails there. So please, please reach out.
+
+318
+00:52:18.130 --> 00:52:35.890
+Sam Curren (TelegramSam): Excellent. Thank you, Alex for for this work, and and and helping in this way. your the in that. This link is also shared in the meeting notes and we'll get to the other stuff later. But I that we have It just says just in as a 1 min
+
+319
+00:52:35.890 --> 00:52:48.690
+Sam Curren (TelegramSam): they did peer namago 3 As we discussed it, has been actually merged into that spec which is really useful. there are some other updates to that spec that I think might be helpful to make the independent of that update
+
+320
+00:52:48.690 --> 00:52:53.559
+Sam Curren (TelegramSam): And so there's work there. And also the migration, Doc.
+
+321
+00:52:54.070 --> 00:53:05.470
+Sam Curren (TelegramSam): I don't know if you've had a chance. It's been busy with conferences and things. I don't know if you've had a chance to to take a look at it at a at a dock that might describe the conversion of an unqualified did to a to appear to.
+
+322
+00:53:06.390 --> 00:53:31.390
+Sam Curren (TelegramSam): no. Sorry this I forgot about doing this all right. It's not like you. So like, we haven't been to conferences and stuff all over the place, so no no problem But I I I feel a fair amount of urgency on that in the sense that this needs to happen before a i. P. 3, and it needs to be something that we wrap up as a community as soon as possible. So I I think that if you, if you are able to spend some time there. That would be.
+
+323
+00:53:31.460 --> 00:53:33.509
+Sam Curren (TelegramSam): we'd be. We'd be grateful.
+
+324
+00:53:33.880 --> 00:53:53.719
+Sam Curren (TelegramSam):  excellent! And it doesn't have to be done anything you've got, I think, and will give us a discussion point to to to be able to further that. So thank you, Timo, for that and next week we will. We could touch on some of these other topics as well. but the main topic next week will be mediators and potentially some owf
+
+325
+00:53:53.720 --> 00:54:06.460
+Sam Curren (TelegramSam): resolution. If we are able to turn that around that fast with the open wall foundation as that so excellent! And thank you all for coming. Appreciate you being here, and I hope your week is a great one.
+
+326
+00:54:07.020 --> 00:54:08.429
+Sam Curren (TelegramSam): Great discussion today.
+
+327
+00:54:08.730 --> 00:54:10.070
+Alex Metcalf: Thanks, Sam. Thanks everyone.
+
+328
+00:54:11.020 --> 00:54:12.100
+John Jordan: Thank you.
+
+329
+00:54:12.230 --> 00:54:13.050
+Thanks.
+

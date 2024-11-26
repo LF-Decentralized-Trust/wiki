@@ -1,0 +1,894 @@
+WEBVTT
+
+1
+00:01:12.810 --> 00:01:21.060
+Nathan George: hello, I can report to the areas call just wrapped up, but also the reminders that I w is going on right now, so I don't know what our attendance will be like.
+
+2
+00:01:22.590 --> 00:01:23.160
+Nathan George: anything.
+
+3
+00:01:23.280 --> 00:01:28.950
+Camilo Parra: um yeah i'm just I think heart, said that he would be here and so as Mike.
+
+4
+00:04:59.340 --> 00:04:59.790
+Michael Lodder: Hello.
+
+5
+00:05:02.250 --> 00:05:02.850
+Nathan George: Hello.
+
+6
+00:05:04.680 --> 00:05:05.220
+Michael Lodder: hey there.
+
+7
+00:05:07.230 --> 00:05:12.360
+Nathan George: I think everyone's just kind of waiting to see if we get any more stragglers show up.
+
+8
+00:05:15.600 --> 00:05:16.890
+Nathan George: we're hoping heart joins right.
+
+9
+00:05:17.190 --> 00:05:19.800
+Michael Lodder: He won't he's an idea w SOS brand.
+
+10
+00:05:23.130 --> 00:05:26.610
+Camilo Parra: yeah I thought hard, said that he was going to join today either way.
+
+11
+00:05:27.420 --> 00:05:31.680
+Michael Lodder: Oh well, i'm not quite done yet.
+
+12
+00:05:33.330 --> 00:05:38.490
+Michael Lodder: But this proof is incredibly huge.
+
+13
+00:05:40.710 --> 00:05:41.400
+Nathan George: Ah.
+
+14
+00:05:43.560 --> 00:05:51.420
+Michael Lodder: I mean it's it's a nightmare so i'm I can maybe we should discuss the ramifications of this.
+
+15
+00:05:55.590 --> 00:06:09.330
+Camilo Parra: yeah that'd be good so Nathan um so with me and Mike kind of discussed offline this but um yeah the the size of this proof would mean that it wouldn't be able to fit into a normal credit def.
+
+16
+00:06:11.640 --> 00:06:13.470
+Michael Lodder: Let me, let me show you what I mean.
+
+17
+00:06:15.210 --> 00:06:24.870
+Michael Lodder: i'll try i'll try to just skip them like too much of the math but just know how many how many it is so after doing a deep dive of this.
+
+18
+00:06:25.230 --> 00:06:34.110
+Michael Lodder: So there are two possible proofs one, is where the rsc modulus is secret, the other is where it is known, so initially I went down this path.
+
+19
+00:06:34.920 --> 00:06:46.110
+Michael Lodder: And this parts, the same in both this part some similar to both but then this is what's different between the two Okay, when you go look at this paper.
+
+20
+00:06:47.250 --> 00:06:49.140
+Michael Lodder: And I confirmed it with heart.
+
+21
+00:06:51.300 --> 00:07:05.760
+Michael Lodder: The security guarantees are actually really crappy like really, really bad so it's not even worth doing it doesn't save you anything either, so the simpler protocol is actually this one.
+
+22
+00:07:07.140 --> 00:07:10.440
+Michael Lodder: But here's here's where the proof gets nasty okay.
+
+23
+00:07:11.880 --> 00:07:19.860
+Michael Lodder: In order to check that your RSA modules and, in our case, which is 2048 bits or two kilobits right.
+
+24
+00:07:21.450 --> 00:07:41.190
+Michael Lodder: You have to generate and operate in something bigger than that which is this prime order queue so the smallest that I could go was three kilobits for this, which means every operation that you see down below is going to be in MOD Q.
+
+25
+00:07:42.540 --> 00:07:47.580
+Michael Lodder: So, or three kilobits Okay, so if you come down here.
+
+26
+00:07:49.050 --> 00:07:55.680
+Michael Lodder: here's one of them there's 12345.
+
+27
+00:07:56.850 --> 00:08:28.140
+Michael Lodder: And then each of these represents ashore proof of that same size, so now we're up to 56789 and then it says, you have to do this so here's 10 1112 1314 1516 Okay, and then a sharper for each of these so that's 818 1920 2122 2320 420-526-2728 and then you have to run this.
+
+28
+00:08:29.580 --> 00:08:37.260
+Michael Lodder: TEE times so in our case, since 48 That means that you have to run this 112 times.
+
+29
+00:08:38.520 --> 00:08:47.790
+Michael Lodder: times for okay so we're up to about 30 right here, right 30 times three kilobits now this four times.
+
+30
+00:08:48.900 --> 00:08:51.060
+Michael Lodder: So look what look at the size of this proof.
+
+31
+00:08:53.790 --> 00:08:54.600
+Michael Lodder: Here we go again.
+
+32
+00:08:56.700 --> 00:08:59.580
+Michael Lodder: This which is 248.
+
+33
+00:09:00.180 --> 00:09:03.840
+Nathan George: To 50, such as the short are talking about a couple bag.
+
+34
+00:09:05.040 --> 00:09:08.070
+Michael Lodder: it's its massive so you have 30 times.
+
+35
+00:09:09.360 --> 00:09:28.470
+Michael Lodder: 384 which is 11 kilobytes and then this are so you have to pick 112 of these other 112 of these hundred and 12 of these which yields hundred and 12 and Z Q, which is 380 412 of these.
+
+36
+00:09:29.370 --> 00:09:30.600
+Nathan George: All of those right yeah.
+
+37
+00:09:31.080 --> 00:09:31.650
+Nathan George: Well, this is.
+
+38
+00:09:31.890 --> 00:09:32.490
+Michael Lodder: All this.
+
+39
+00:09:34.170 --> 00:09:43.260
+Nathan George: If it only has to be done once with a trusted authority probably not that big of deal if you have to do it every time a credential is issued, it starts to be a lot.
+
+40
+00:09:44.460 --> 00:09:57.000
+Michael Lodder: No, I wouldn't say you have to do it every time a credential is issued, I would say, every time you, you are each time you like what's a way to describe it like you certify an issuer right.
+
+41
+00:09:58.050 --> 00:10:03.960
+Michael Lodder: So maybe it's just the first time you get a credential from this public key.
+
+42
+00:10:06.270 --> 00:10:15.390
+Camilo Parra: yeah and I think I don't think that would be a problem, I think it like we found out a sovereign was that people will rarely right pred depths to the ledger.
+
+43
+00:10:16.920 --> 00:10:38.730
+Michael Lodder: yeah well i'm just telling you the size of this thing right before even running this four times i'm already up 12 kilobytes and now i've got to do this so 112 times to 56 times two that's 58 kilobytes plus the 12 I already had so now you're up to 80 kilobytes.
+
+44
+00:10:40.890 --> 00:10:58.590
+Michael Lodder: And now you've got to do 112 of these that's 384 times 112 that's another 43 kilobytes so now you're up to 112 kilobytes or 120 23 and then all this stuff.
+
+45
+00:10:59.730 --> 00:11:09.360
+Michael Lodder: So times to whoops so three four times to 24 year up to 86 plus 86 so I mean you're.
+
+46
+00:11:10.920 --> 00:11:17.790
+Michael Lodder: By the time you're done you're at half a megabyte for this whole thing which is way too big to put on the ledger.
+
+47
+00:11:20.280 --> 00:11:22.170
+Michael Lodder: Did you have to do this, four times.
+
+48
+00:11:30.960 --> 00:11:31.650
+Michael Lodder: So.
+
+49
+00:11:31.800 --> 00:11:32.670
+Michael Lodder: Actually yeah.
+
+50
+00:11:32.730 --> 00:11:38.760
+Michael Lodder: So you're up you're up to 100 you're up to five about half a megabyte for this proof.
+
+51
+00:11:40.560 --> 00:11:43.110
+Michael Lodder: So it's quite nasty.
+
+52
+00:11:44.880 --> 00:11:50.820
+Michael Lodder: And I know sovereign that's bigger than the indie transaction limit.
+
+53
+00:11:52.290 --> 00:11:57.930
+Michael Lodder: So the only way that you would store this on the ledger in my mind is to hash the proof.
+
+54
+00:11:59.040 --> 00:12:04.650
+Michael Lodder: and have an address for it off chain like I pfs or something like that.
+
+55
+00:12:08.190 --> 00:12:17.160
+Michael Lodder: So if you did it when you started off chain and I pfs, then you only have to store the hash on chain much because then the hash also functions as the address, and you have to do a double lookup.
+
+56
+00:12:20.160 --> 00:12:20.520
+Michael Lodder: So.
+
+57
+00:12:22.170 --> 00:12:38.940
+Michael Lodder: that's where it's at, but it is nasty the other one doesn't save you much in is actually has weaker security and then, if we up the cl signatures to be 128 bit versus 112 bit you're almost to a megabyte in size.
+
+58
+00:12:40.050 --> 00:12:44.970
+Michael Lodder: In fact, you are over a megabyte in size, because remember that Q has to be bigger than the other one.
+
+59
+00:12:46.140 --> 00:12:51.450
+Nathan George: Well, the megabyte itself doesn't concern me so much as how often do we have to transmit sick right right.
+
+60
+00:12:53.040 --> 00:12:54.210
+Michael Lodder: Well yeah.
+
+61
+00:12:56.310 --> 00:13:02.580
+Michael Lodder: My, mind you just do it whenever your youth, this is a brand new public key that you've never seen before.
+
+62
+00:13:06.840 --> 00:13:18.000
+Camilo Parra: yeah and i'm not too concerned about how it will be implemented, I think, like the way will be implemented, would be like like Mike said, like something like a tail server or.
+
+63
+00:13:18.390 --> 00:13:20.190
+Camilo Parra: You know you'd call this, whatever your.
+
+64
+00:13:21.120 --> 00:13:22.260
+Camilo Parra: I guess your.
+
+65
+00:13:23.280 --> 00:13:27.330
+Camilo Parra: security check server whatever you want to call it, and.
+
+66
+00:13:29.130 --> 00:13:30.780
+Camilo Parra: yeah just be a new.
+
+67
+00:13:32.040 --> 00:13:35.400
+Camilo Parra: A new thing that would accompany the indie ledger.
+
+68
+00:13:37.170 --> 00:13:44.310
+Camilo Parra: And it wouldn't be that big of a you know wouldn't be costly to anybody because it just be a few Meg.
+
+69
+00:13:44.640 --> 00:13:45.270
+Nathan George: Well, I played it.
+
+70
+00:13:48.000 --> 00:13:48.720
+Camilo Parra: yeah go ahead and ethan.
+
+71
+00:13:50.340 --> 00:14:06.810
+Nathan George: there's a few different aspects to talk about this with one is OK mechanically, how do we capture and distribute the bites right there that's where I think, can you just directly jumps to the second is what the perception danger of making it seem like the setup process is very expensive.
+
+72
+00:14:08.400 --> 00:14:08.700
+Nathan George: Then.
+
+73
+00:14:08.760 --> 00:14:18.870
+Nathan George: The third, the third one is is this check sufficient is there, another alternative check, we should be investigating and I think for the earth to call the third discussions, the one that's the most interesting.
+
+74
+00:14:20.370 --> 00:14:29.280
+Nathan George: In terms of being able to capture the data, whether it's big or small, I think the rest of the community's gonna say go give me what I need to make the proof and then we'll decide how often and where to store it.
+
+75
+00:14:32.160 --> 00:14:51.960
+Camilo Parra: Right and will, I think that there isn't a a simpler solution for cl signatures, I think the question is, do we want to can do you want to move forward with with recommending cl signatures and supporting sealed signatures if it's going to bring you know all this extra baggage with it.
+
+76
+00:14:57.360 --> 00:15:04.560
+Nathan George: Well, I think all of us are of the opinion that, if we can get to the kp predicate proof some other way, we were happy to move.
+
+77
+00:15:05.130 --> 00:15:14.430
+Nathan George: forward that that progress is progress right, so I don't I don't think that's that's I don't have any rebuttal for that, nor do I think we need to have are both for that.
+
+78
+00:15:15.180 --> 00:15:21.150
+Nathan George: The question I was trying to ask Mike Is there something else we should be investigating before we move forward with just kind of you know.
+
+79
+00:15:22.410 --> 00:15:23.910
+Nathan George: Putting a bandaid on it and.
+
+80
+00:15:25.470 --> 00:15:26.700
+Nathan George: And figuring out what's next.
+
+81
+00:15:30.330 --> 00:15:30.900
+Michael Lodder: well.
+
+82
+00:15:36.840 --> 00:15:38.670
+Michael Lodder: I haven't given that much thought.
+
+83
+00:15:39.780 --> 00:15:41.970
+Michael Lodder: Because this proof stuff is quite old.
+
+84
+00:15:49.650 --> 00:15:54.900
+Michael Lodder: I mean, maybe there's some maybe we could reduce some of the proof stuff like.
+
+85
+00:15:56.790 --> 00:16:06.840
+Michael Lodder: You could do a square free proof, which is substantially smaller and some of the other proofs to maybe just enhance the security without doing this whole thing.
+
+86
+00:16:11.850 --> 00:16:15.060
+Michael Lodder: I mean there's there's like four different things you could do.
+
+87
+00:16:16.170 --> 00:16:20.790
+Michael Lodder: I mean, this is probably why young Commission the first place just to just abandon to this.
+
+88
+00:16:21.840 --> 00:16:23.040
+Michael Lodder: Proof all together right.
+
+89
+00:16:25.800 --> 00:16:26.640
+Michael Lodder: That makes sense.
+
+90
+00:16:29.820 --> 00:16:29.970
+Michael Lodder: I.
+
+91
+00:16:30.870 --> 00:16:34.260
+Michael Lodder: mean it just depends what's the risk we're willing to take here.
+
+92
+00:16:34.410 --> 00:16:42.960
+Nathan George: So I remember conversations about whether we these checks were worthwhile or not occurring really early on, because probably.
+
+93
+00:16:44.400 --> 00:16:50.790
+Nathan George: Oh gosh That was a long time ago, but I don't remember what the conclusions of those discussions, where.
+
+94
+00:16:51.840 --> 00:16:53.520
+Nathan George: If someone is here.
+
+95
+00:16:54.630 --> 00:17:03.900
+Nathan George: If someone has a direct line to heart, we might want to ask heart to go bother Jason because Jason is there a w two and a Jason might remember more.
+
+96
+00:17:06.270 --> 00:17:14.940
+Michael Lodder: Well, so there's like two other proofs that I think we could add that they're pretty decent one is called square free.
+
+97
+00:17:17.490 --> 00:17:20.430
+Michael Lodder: What that means is it proves that the.
+
+98
+00:17:25.980 --> 00:17:30.240
+Michael Lodder: what's the best way to describe this is a hard time this morning it's too early.
+
+99
+00:17:32.790 --> 00:17:41.550
+Michael Lodder: it's basically saying that, like the the two prime numbers are not equal to each other, so it doesn't produce a squared number a squared product.
+
+100
+00:17:42.960 --> 00:17:54.750
+Michael Lodder: So that's one thing and then the other is what's called a destroyer prime product, which means they have no odd common factors.
+
+101
+00:17:57.150 --> 00:17:57.810
+Michael Lodder: So.
+
+102
+00:17:59.940 --> 00:18:10.350
+Michael Lodder: that's so that kind of like I said Those are two relatively small proofs that you could add to it that maybe enhance that does enhance maybe the.
+
+103
+00:18:12.690 --> 00:18:13.860
+Michael Lodder: The guarantees.
+
+104
+00:18:16.320 --> 00:18:24.390
+Michael Lodder: But i'm not entirely sure well The thing is, in the original ID mix paper this proof is completely left out right.
+
+105
+00:18:26.190 --> 00:18:26.670
+Camilo Parra: Right.
+
+106
+00:18:27.810 --> 00:18:36.330
+Michael Lodder: Probably intentionally for this very reason, the other two that you that are problematic is it was called the prime power product.
+
+107
+00:18:37.110 --> 00:18:53.040
+Michael Lodder: This is, and this is the one that doesn't give you very much, security that when the heart and I investigated right you basically have to prove that the modulus can't be divided by any prime factors.
+
+108
+00:18:54.840 --> 00:19:03.180
+Michael Lodder: So that's that's the other one, and then the other one is that the set of the two PRIMES that make up the modulus.
+
+109
+00:19:05.310 --> 00:19:16.530
+Michael Lodder: it's another huge proof and it proves that they are distinct and they're not can grow into certain factors which makes them safe they're not small so.
+
+110
+00:19:20.940 --> 00:19:34.170
+Camilo Parra: Right I just don't see how they are would be I guess like I haven't looked to the proofs that you're mentioning but I don't see like how it would be easy, how it could be done, you know, safer and you an easier way.
+
+111
+00:19:36.210 --> 00:19:38.790
+Michael Lodder: I I don't know like.
+
+112
+00:19:39.510 --> 00:19:45.930
+Michael Lodder: When i've done threshold signing algorithms where they use pyre encryption, where we have the similar.
+
+113
+00:19:46.320 --> 00:19:49.350
+Michael Lodder: problem here, where you have to do a product of two PRIMES right.
+
+114
+00:19:51.510 --> 00:19:54.780
+Michael Lodder: They the only proof that they do is proof of square free.
+
+115
+00:19:55.950 --> 00:19:58.230
+Michael Lodder: that's literally, the only profile ever see them do.
+
+116
+00:20:01.740 --> 00:20:05.370
+Michael Lodder: which basically means the two PRIMES are not equal to each other.
+
+117
+00:20:06.570 --> 00:20:10.980
+Michael Lodder: Among and they're big enough that's pretty much all day guarantee with that point.
+
+118
+00:20:15.360 --> 00:20:17.280
+Michael Lodder: i'm trying to remember how big that one is.
+
+119
+00:20:19.410 --> 00:20:27.030
+Camilo Parra: yeah and that and that one doesn't it doesn't solve the problem of what of what these a of this vulnerability is reporting because they're saying.
+
+120
+00:20:27.870 --> 00:20:48.270
+Camilo Parra: You know I can get away with a pseudo or like a pseudo or unsafe prime I guess or an unsafe prime and it's not going to be one of them, you know could pass off, but the other one couldn't and so you I guess you could fake you can fake that you know that that wouldn't.
+
+121
+00:20:49.320 --> 00:20:52.920
+Camilo Parra: Your the square free proof wouldn't wouldn't be able to capture that.
+
+122
+00:20:54.180 --> 00:21:01.020
+Michael Lodder: Well, what the square pre proof does is it proves that the parameters were created honestly right.
+
+123
+00:21:01.590 --> 00:21:02.070
+Camilo Parra: mm hmm.
+
+124
+00:21:05.610 --> 00:21:16.650
+Michael Lodder: So it's still fairly large, but then, like you, all i'm saying is you could just replace the I wonder if you could just replace it with that instead.
+
+125
+00:21:20.490 --> 00:21:23.970
+Camilo Parra: And I can do the research on that, like that that's not a problem.
+
+126
+00:21:26.220 --> 00:21:29.520
+Michael Lodder: Let me know your time is limited Mike so so.
+
+127
+00:21:30.090 --> 00:21:32.280
+Camilo Parra: So we could do the we could do the.
+
+128
+00:21:32.310 --> 00:21:39.930
+Michael Lodder: Whole here's the paper that has that has that proof like i've already i've already implemented this not for sale signatures, but for other stuff.
+
+129
+00:21:41.550 --> 00:21:46.890
+Michael Lodder: Those are the two papers have the proof of square free and the guarantees that they provide i'm wondering if that would be good enough.
+
+130
+00:21:48.300 --> 00:21:55.140
+Michael Lodder: Art will probably disagree and say well depends on what guarantees you want, you know, this is where he's going to say, if you want to.
+
+131
+00:21:55.230 --> 00:21:59.220
+Michael Lodder: guarantee everything, then you should do this massive proof.
+
+132
+00:21:59.760 --> 00:22:10.800
+Michael Lodder: But if you are acceptable if it's acceptable to not be quite a secure, maybe we do the current sorry proof of correctness setup plus the square free proof and call it good.
+
+133
+00:22:16.380 --> 00:22:18.450
+Camilo Parra: yeah I don't know what do you think Nathan.
+
+134
+00:22:23.700 --> 00:22:24.120
+Nathan George: well.
+
+135
+00:22:25.680 --> 00:22:37.290
+Nathan George: part of what we're after is a rebuttal to the security paper and we understand the the security vulnerability is very limited in scope and i'm Okay, if the fix is limited in scope.
+
+136
+00:22:38.460 --> 00:22:45.150
+Nathan George: Now it feels like the right due diligence, to see if one of these other techniques works in a way that's a little bit better.
+
+137
+00:22:46.410 --> 00:22:57.420
+Nathan George: But you know I don't really have the wherewithal to evaluate, you know how much time it's worth to do that investigation versus to just implement the thing is already in the literature and say, if you want to use it.
+
+138
+00:22:59.280 --> 00:23:06.420
+Nathan George: It feels like a bit of a sloppy fix to just implement this really large group if we know that there's a better option.
+
+139
+00:23:07.020 --> 00:23:17.370
+Nathan George: But I know i'm not hearing a lot of confidence that we know that there's a better option just that there's probably a few things we should check on Mike is that that fair I don't want to sign you up for work, as was part of what i'm trying to say here.
+
+140
+00:23:17.730 --> 00:23:19.290
+Michael Lodder: That that's accurate yes.
+
+141
+00:23:23.610 --> 00:23:33.960
+Nathan George: So Mike what I don't think anyone else could really say what we should do I think it's kind of a deal, well, I would go with your recommendation here.
+
+142
+00:23:35.100 --> 00:23:43.170
+Michael Lodder: My yeah my recommendation is can we, is it like is the Community okay with going well, can we get.
+
+143
+00:23:45.270 --> 00:23:54.330
+Michael Lodder: better guarantees than what we have now, but not quite as good as the full blown one but close enough right such that the risk is more mitigated.
+
+144
+00:23:55.350 --> 00:23:57.210
+Michael Lodder: By doing one of these other techniques.
+
+145
+00:23:57.600 --> 00:24:03.660
+Nathan George: It feels to me like the answer that question is yes, and because we're really just trying to catch the malicious cheater.
+
+146
+00:24:05.040 --> 00:24:13.710
+Nathan George: If you can cheat in a way that's more obscure than what that proof would catch my guess is that the proof that cheating is too expensive practical, but again.
+
+147
+00:24:14.280 --> 00:24:24.060
+Nathan George: It unless we had a dialogue with the vulnerability writer, where we say here's our check, can you try it again, to see if it breaks i'm not sure how how how how strong my confidence is there.
+
+148
+00:24:24.750 --> 00:24:29.850
+Nathan George: anytime you presented proof of P Q there's a lot of risk of revealing more than you expect right.
+
+149
+00:24:32.700 --> 00:24:43.020
+Michael Lodder: kind of yeah the other here's the other thought is to just keep going with what we have and and say here's the proof of step correctness that goes on the ledger.
+
+150
+00:24:44.340 --> 00:24:45.480
+Michael Lodder: This other proof.
+
+151
+00:24:46.890 --> 00:24:51.960
+Michael Lodder: You should ask you could ask it from the issuer at any time, but they don't have to publish it.
+
+152
+00:24:53.040 --> 00:24:55.050
+Michael Lodder: So it's kind of like a sanity check.
+
+153
+00:24:58.200 --> 00:24:59.190
+Michael Lodder: Does that make sense.
+
+154
+00:25:02.340 --> 00:25:09.270
+Michael Lodder: Like you just petitioned the issuer to say you have to give me this proof before i'll even accept the credential from you at all.
+
+155
+00:25:11.160 --> 00:25:14.430
+Michael Lodder: Because you know what the modulus is so Therefore, you can check it.
+
+156
+00:25:21.210 --> 00:25:27.000
+Camilo Parra: Well, we don't need to know the module is right for the proof that the proof that you're implementing right now.
+
+157
+00:25:27.360 --> 00:25:34.410
+Nathan George: yeah but the idea here is by putting evidence of the proof that is too large for the ledger in the credential definition, then.
+
+158
+00:25:35.310 --> 00:25:44.940
+Nathan George: verify can say oh yeah, this is the same credential definition, I saw before i've already looked at that evidence, I agree with it right it's kind of like a it's a route hash kind of a thing.
+
+159
+00:25:47.160 --> 00:25:48.750
+Nathan George: I know that's an abusive determined.
+
+160
+00:25:50.250 --> 00:25:55.950
+Nathan George: But I like the idea that, even if the proofs too big, we could still put something in but let the.
+
+161
+00:25:57.270 --> 00:26:00.780
+Nathan George: folder on the verify or no Yes, this is the same evidence i've seen before.
+
+162
+00:26:12.150 --> 00:26:12.990
+Michael Lodder: cuz I mean.
+
+163
+00:26:14.280 --> 00:26:17.880
+Michael Lodder: My guess is the other guy that recommended this he's gonna you know.
+
+164
+00:26:19.080 --> 00:26:21.270
+Michael Lodder: This proof in my mind is not practical.
+
+165
+00:26:23.070 --> 00:26:23.460
+Michael Lodder: Right.
+
+166
+00:26:24.570 --> 00:26:30.660
+Michael Lodder: We encounter this a lot from the theoreticians they say oh just do this and then you go that's not practical right.
+
+167
+00:26:31.680 --> 00:26:33.630
+Michael Lodder: You know, come up with something that is practical.
+
+168
+00:26:35.700 --> 00:26:36.210
+Michael Lodder: So.
+
+169
+00:26:37.380 --> 00:26:40.470
+Michael Lodder: In my mind if there's a way that the you would just.
+
+170
+00:26:41.490 --> 00:26:51.720
+Michael Lodder: not do this proof, but you do something sufficient or you have them do the proof, but it doesn't go on the ledger but you could ask them for it at any time might be a better idea.
+
+171
+00:26:53.370 --> 00:26:54.600
+Michael Lodder: i'm open to suggestions.
+
+172
+00:26:56.820 --> 00:27:10.980
+Camilo Parra: I guess My biggest concern here is is that while there couldn't be better solutions we don't have the time to find better solutions like we're pretty constrained on the top, I guess, like.
+
+173
+00:27:11.400 --> 00:27:14.340
+Michael Lodder: The best solution is to not use cl signatures at all.
+
+174
+00:27:14.700 --> 00:27:17.010
+Camilo Parra: Right right right right right yeah I agree with that.
+
+175
+00:27:17.640 --> 00:27:19.440
+Michael Lodder: Not in the cards yet so.
+
+176
+00:27:19.680 --> 00:27:27.120
+Camilo Parra: yeah so so there's there's a couple trains that are moving that I can't stop and that's why I suggested this proof.
+
+177
+00:27:27.720 --> 00:27:45.510
+Camilo Parra: Was that I can't stop I can't stop this being presented at or this one or be ability being revealed at hyper ledger global forum and I can't stop the non credit working group from.
+
+178
+00:27:47.040 --> 00:27:47.370
+Camilo Parra: From.
+
+179
+00:27:48.390 --> 00:28:05.880
+Camilo Parra: You know standardizing a non creds that that will be discredited soon after by this by this by this vulnerability, so that those are those are the two time constraints, both of those trains are going faster than I thought they would be and so that's I agree there could be a better solution.
+
+180
+00:28:07.230 --> 00:28:16.230
+Camilo Parra: it's it's I would hope yeah this is, I like i've read this proof like hundreds of times now and it's huge like it's.
+
+181
+00:28:16.710 --> 00:28:28.860
+Camilo Parra: it's obviously archaic, but I don't see like a easier quicker solution like are an easier to implement and quicker solutions that are to implement that than this right now that's that those are my concerns.
+
+182
+00:28:33.420 --> 00:28:39.330
+Michael Lodder: mean the only other solution, I can think of was this one, when I looked around was this one from.
+
+183
+00:28:58.230 --> 00:29:11.880
+Michael Lodder: Because basically this proof says P, and then are the same size and they're distinct that's what this proof is I think it's smaller they do site, the commit this very this very paper from 99.
+
+184
+00:29:12.480 --> 00:29:12.750
+Camilo Parra: You know.
+
+185
+00:29:13.230 --> 00:29:16.410
+Michael Lodder: A guy recommended that's quite gnarly.
+
+186
+00:29:17.760 --> 00:29:18.450
+Michael Lodder: So.
+
+187
+00:29:21.840 --> 00:29:22.440
+Michael Lodder: anyway.
+
+188
+00:29:28.230 --> 00:29:29.070
+Michael Lodder: His his.
+
+189
+00:29:29.280 --> 00:29:34.560
+Michael Lodder: His proof is substantially smaller but i'm not quite sure if it accomplishes the same thing, yet.
+
+190
+00:29:36.240 --> 00:29:40.020
+Michael Lodder: Having just kind of briefly glanced at it and giving it a brief read.
+
+191
+00:29:41.160 --> 00:29:41.550
+Camilo Parra: mm hmm.
+
+192
+00:29:44.130 --> 00:29:49.050
+Michael Lodder: I mean the output of the proof is, you know that P amp Q, are the same size and they are distinct.
+
+193
+00:29:52.140 --> 00:29:52.530
+Michael Lodder: yeah.
+
+194
+00:29:56.100 --> 00:30:08.310
+Camilo Parra: yeah basically the requirements is even if I we can even if we can one of the PRIMES like it would it would be caught in this in this proof, you know.
+
+195
+00:30:12.000 --> 00:30:12.420
+Michael Lodder: yeah.
+
+196
+00:30:13.380 --> 00:30:24.150
+Camilo Parra: And that's that's basically the requirement I I think like what we're looking for is being able to run whatever code these the people at.
+
+197
+00:30:25.380 --> 00:30:31.620
+Camilo Parra: irma have and like them, not being able to to.
+
+198
+00:30:32.820 --> 00:30:39.480
+Camilo Parra: to correlate me one in the credit Aaron and the credential presentations I guess.
+
+199
+00:30:42.240 --> 00:30:42.750
+Michael Lodder: yeah.
+
+200
+00:30:52.440 --> 00:31:03.030
+Camilo Parra: I guess next steps for me would be or for the group and not you don't dig any of this work on Mike I can look papers and.
+
+201
+00:31:04.590 --> 00:31:17.310
+Camilo Parra: and start talking to heart and and asked him if If those are you know if any of these solutions would guarantee you know get bring the guarantees that we want to fix an ursa.
+
+202
+00:31:19.110 --> 00:31:20.370
+Michael Lodder: yeah I mean.
+
+203
+00:31:21.600 --> 00:31:25.320
+Michael Lodder: Just between the three of us wait, this is being recorded right.
+
+204
+00:31:26.100 --> 00:31:27.480
+Camilo Parra: yeah I don't know how to turn that off.
+
+205
+00:31:28.230 --> 00:31:30.360
+Michael Lodder: Oh well, maybe I won't say it then.
+
+206
+00:31:33.060 --> 00:31:36.750
+Michael Lodder: But we can hop on a separate call, if you want to discuss it where it's not recorded.
+
+207
+00:31:39.300 --> 00:31:40.470
+Camilo Parra: Nathan, what do you think.
+
+208
+00:31:43.350 --> 00:31:49.650
+Nathan George: um well as long as it's not something that's IP encumbered i'm happy to have an offline.
+
+209
+00:31:51.630 --> 00:32:08.970
+Nathan George: Not obviously the call today is mostly about the security related issues, so I don't know you can you need to do something to to put the recording in a different category there's nothing on supporting that I think too much trouble as long as papers, already been made public, but particular.
+
+210
+00:32:09.780 --> 00:32:15.060
+Michael Lodder: papers, the approach that i'm going to talk about all the papers or public there's.
+
+211
+00:32:15.120 --> 00:32:29.100
+Camilo Parra: yeah and now and then in this and the vulnerability is it, we can talk about it there's no we we've discussed already that it's something that is so, like it's not it would there wouldn't be any.
+
+212
+00:32:30.390 --> 00:32:32.190
+Camilo Parra: threat if someone found out about it.
+
+213
+00:32:32.760 --> 00:32:40.620
+Nathan George: Like well immediately my vote here is, I think we know, the next step is we've got to investigate a couple more techniques and.
+
+214
+00:32:41.100 --> 00:32:57.480
+Nathan George: It sounds like we all want to go off and work on that, so I think with that we probably ought to call this particular discussion over yes Mike and Kim you have any objection to that approach and Mike are you okay to come back with the next round of what you think about to happen here.
+
+215
+00:32:57.810 --> 00:32:58.950
+Michael Lodder: Sure yeah.
+
+216
+00:33:00.030 --> 00:33:04.620
+Nathan George: Okay, with that I think so i'm gonna fail off the call and.
+
+217
+00:33:05.790 --> 00:33:06.690
+Nathan George: we'll talk to you about soon.
+
+218
+00:33:07.740 --> 00:33:08.160
+Camilo Parra: All right.
+
+219
+00:33:08.490 --> 00:33:11.550
+Michael Lodder: You can I can give you a zoom meeting, if you want to hop on the BAT.
+
+220
+00:33:12.210 --> 00:33:13.020
+Camilo Parra: yeah I can do that.
+
+221
+00:33:13.500 --> 00:33:21.240
+Camilo Parra: yeah thanks everybody or going to just call this this it for today, but thanks and then y'all wait for that link.
+
+222
+00:33:21.780 --> 00:33:22.920
+Michael Lodder: Jay all right.
+
+223
+00:33:23.220 --> 00:33:24.060
+Camilo Parra: All right, bye bye.
+

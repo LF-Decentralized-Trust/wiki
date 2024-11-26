@@ -1,0 +1,2094 @@
+WEBVTT
+
+1
+00:47:19.990 --> 00:47:21.309
+Hyperledger Community: Hey, Victor! Good morning!
+
+2
+00:47:23.610 --> 00:47:24.940
+Victor Gridnevsky: Good morning.
+
+3
+00:47:25.010 --> 00:47:28.290
+Hyperledger Community: It's it. The recordings for Zoom.
+
+4
+00:47:29.540 --> 00:47:31.209
+Tracy Kuhrt: Alright. Thank you.
+
+5
+00:47:31.960 --> 00:47:48.669
+Tracy Kuhrt: Alright. Welcome everybody to the first meeting of the Tsc. In January 2023, the January twelfth meeting. As you are probably all aware, the meetings that we have within the Hyper Ledger foundation
+
+6
+00:47:48.930 --> 00:47:56.260
+Tracy Kuhrt: I must abide by 2 things. The first is the antitrust policy. Notice that is currently displayed on screen.
+
+7
+00:47:56.830 --> 00:47:58.410
+Tracy Kuhrt: So there are
+
+8
+00:47:58.530 --> 00:48:03.479
+Tracy Kuhrt: potential competitors in this meeting. Make sure that you're not doing anything that would
+
+9
+00:48:05.480 --> 00:48:07.040
+Tracy Kuhrt: impact the
+
+10
+00:48:07.160 --> 00:48:12.459
+Tracy Kuhrt: your and a trust and competition sort of laws that exist.
+
+11
+00:48:12.510 --> 00:48:16.910
+Tracy Kuhrt: And the second thing that we must abide by is the code of conduct
+
+12
+00:48:17.520 --> 00:48:19.790
+Tracy Kuhrt: which is linked in our agenda.
+
+13
+00:48:19.930 --> 00:48:30.940
+Tracy Kuhrt: Basically, all are welcome here. Be respectful of the other people and their ideas and opinions and their thoughts, and we'll have some really good meetings this
+
+14
+00:48:30.960 --> 00:48:32.279
+this term.
+
+15
+00:48:32.460 --> 00:48:45.230
+Tracy Kuhrt: So with that, I think we have the agenda of 2 announcements. The first announcement is a standard announcement that you will hear every week that the Dev Weekly Developer Newsletter goes out each Friday.
+
+16
+00:48:45.380 --> 00:48:49.650
+Tracy Kuhrt: If there is something that you would like to include in that newsletter.
+
+17
+00:48:49.720 --> 00:48:57.120
+Tracy Kuhrt: Please leave a comment on the link there for the Wiki page that is in the agenda.
+
+18
+00:48:57.290 --> 00:49:00.219
+Tracy Kuhrt: and it will go out on Friday.
+
+19
+00:49:00.570 --> 00:49:15.170
+Tracy Kuhrt: And then the the second thing that I include it as an announcement is just. Obviously this is the first meeting of our new Toc, and so I want it to link in our Tsc. Responsibilities, so that everybody had a chance to
+
+20
+00:49:15.200 --> 00:49:17.709
+Tracy Kuhrt: review what our responsibilities are
+
+21
+00:49:17.730 --> 00:49:27.400
+Tracy Kuhrt: in that document. There is a list of obviously what's included in the Charter, and what it says that the Tsc. Is responsible for.
+
+22
+00:49:27.440 --> 00:49:32.350
+Tracy Kuhrt: There are also some a specific highlights for Toc members, as far as
+
+23
+00:49:32.460 --> 00:49:36.639
+Tracy Kuhrt: specific things that you must do, including
+
+24
+00:49:37.960 --> 00:49:44.550
+Tracy Kuhrt: participating in these meetings and reviewing project updates and other sorts of things that might be
+
+25
+00:49:46.690 --> 00:49:56.840
+Tracy Kuhrt: useful for you to review, as as you become a member, so I do want to take an opportunity here to to welcome all of the new members to the
+
+26
+00:49:57.020 --> 00:50:02.320
+Tracy Kuhrt: really appreciate the the fact that you ran this year in that
+
+27
+00:50:02.640 --> 00:50:08.119
+Tracy Kuhrt: you are elected so congratulations to everybody who was elected to the the
+
+28
+00:50:09.510 --> 00:50:13.329
+Tracy Kuhrt: any other announcements that anybody has or would like to make
+
+29
+00:50:22.880 --> 00:50:23.540
+Tracy Kuhrt: all right.
+
+30
+00:50:23.750 --> 00:50:32.450
+Tracy Kuhrt: So don't see the hands coming up. That is probably something I should mention is just. We do use the raise hand feature during these meetings to make sure that
+
+31
+00:50:32.640 --> 00:50:34.710
+Tracy Kuhrt: people have the opportunity to speak
+
+32
+00:50:34.770 --> 00:50:36.100
+Tracy Kuhrt: and be heard.
+
+33
+00:50:36.240 --> 00:50:39.029
+Tracy Kuhrt: and that there are no sort of
+
+34
+00:50:39.460 --> 00:50:45.229
+Tracy Kuhrt: people just jumping in, so please do use the right hand feature as we continue through the meeting.
+
+35
+00:50:46.580 --> 00:50:53.839
+Tracy Kuhrt: All right. With that we don't have any. Well, I guess we do a room, your hand coming up
+
+36
+00:50:55.900 --> 00:51:04.039
+Arun S M: right, and it's just like to tell all the new welcome to welcome new members. And then I know we have certain rules
+
+37
+00:51:04.230 --> 00:51:08.490
+Arun S M: on like raising hands and then talking through. But please don't be
+
+38
+00:51:08.640 --> 00:51:15.009
+Arun S M: imposed by like what you know, and what you don't know, feel free to is up your opinions and voices.
+
+39
+00:51:15.180 --> 00:51:19.399
+Arun S M: We're happy to help you through the journey through the integration.
+
+40
+00:51:19.550 --> 00:51:20.210
+That's it.
+
+41
+00:51:21.880 --> 00:51:23.480
+Tracy Kuhrt: All right. Thanks. For
+
+42
+00:51:24.150 --> 00:51:25.209
+Tracy Kuhrt: Yeah, Marcus.
+
+43
+00:51:25.880 --> 00:51:34.859
+Marcus Brandenburger: Yeah. Hi. Everyone. This is Marcus speaking? I mean. I want to quickly say hello to all of you. I mean I haven't had the chance yet to speak to all of us.
+
+44
+00:51:34.920 --> 00:51:45.879
+Marcus Brandenburger: So. My proposal for this meeting would also be a very brief round of introduction for everyone who is here on the to see and new
+
+45
+00:51:46.160 --> 00:51:47.020
+Marcus Brandenburger: the board.
+
+46
+00:51:50.390 --> 00:51:54.120
+Tracy Kuhrt: Sure, we could do that. I had thought about doing that, and
+
+47
+00:51:54.170 --> 00:52:02.849
+Tracy Kuhrt: didn't know if people wanted to to take the time to do that. But we can definitely do a round of introductions for for everybody on the call.
+
+48
+00:52:02.900 --> 00:52:11.799
+Tracy Kuhrt: So I guess that's since whoever is sharing the scroll down to the list. Let's do this in the order in which it's listening here.
+
+49
+00:52:11.880 --> 00:52:15.129
+Tracy Kuhrt: So, Arnold, you want to say hello and give a short introduction.
+
+50
+00:52:15.780 --> 00:52:22.989
+Arnaud J Le Hors ("Arno"): Yes, hi, everybody. Well, i'm one of the dinosaurs of Hyper Ledger. I've been involved in this since the very beginning.
+
+51
+00:52:23.160 --> 00:52:31.069
+Arnaud J Le Hors ("Arno"): and it's still around. I'm part of the open technology group at Ibm, and I tried to help make this effort successful.
+
+52
+00:52:33.360 --> 00:52:34.860
+Tracy Kuhrt: I don't know a room.
+
+53
+00:52:37.780 --> 00:52:41.030
+Arun S M: hey, Allen.
+
+54
+00:52:41.470 --> 00:52:42.600
+Arun S M: so
+
+55
+00:52:43.200 --> 00:52:44.259
+i'm
+
+56
+00:52:44.470 --> 00:52:47.419
+Arun S M: i'm excited to be again in the
+
+57
+00:52:47.800 --> 00:52:48.870
+so
+
+58
+00:52:48.980 --> 00:52:55.770
+Arun S M: it this has been quite a journey, and there are not.
+
+59
+00:52:56.270 --> 00:52:57.260
+Arun S M: I'll see you.
+
+60
+00:52:57.280 --> 00:53:08.520
+Arun S M: It's. It's exciting to see the next one years, and especially with different things that we have been planning in different kind of meetings that have been meeting too involved in the last couple of weeks.
+
+61
+00:53:08.960 --> 00:53:11.390
+Arun S M: Yeah, Looking forward to working with you.
+
+62
+00:53:13.300 --> 00:53:15.300
+Tracy Kuhrt: Alright, excellent Bobby.
+
+63
+00:53:16.470 --> 00:53:29.790
+Bobbi Muscara: Hi, everybody! I am glad to be back on the to see. I come from the education side of things, so I am focused on on boarding people spreading
+
+64
+00:53:29.800 --> 00:53:40.150
+Bobbi Muscara: great materials through the community. So it's accessible to everybody, and i'm looking forward to another year of this great
+
+65
+00:53:40.610 --> 00:53:42.100
+Bobbi Muscara: endeavor. Thanks.
+
+66
+00:53:43.300 --> 00:53:44.919
+Tracy Kuhrt: alright. Thanks, Bobby.
+
+67
+00:53:45.640 --> 00:53:53.820
+David Enyeart: Hello, I guess i'm getting close to dinosaur status as well as or no. I've been a long time maintainer of hyper ledger fabric.
+
+68
+00:53:53.860 --> 00:54:00.059
+David Enyeart: and then, after a couple of years of that became kind of the release manager and point person for a lot of things on fabric.
+
+69
+00:54:00.810 --> 00:54:03.730
+David Enyeart: So i'm looking forward to another year. Here.
+
+70
+00:54:05.420 --> 00:54:06.889
+Tracy Kuhrt: Alright. Marcus.
+
+71
+00:54:07.370 --> 00:54:21.000
+Marcus Brandenburger: Yeah. So this is Marcus again. So i'm a rich and research staff member at Ibm Research in Zurich My day to day life. I'm contributing to a couple of labs, and also
+
+72
+00:54:21.320 --> 00:54:32.850
+Marcus Brandenburger: in particular, the the fabric Token, SDK the fabric smart client, but I'm. Also running the fabric project, which is a part of fabric, apparently.
+
+73
+00:54:32.910 --> 00:54:44.699
+Marcus Brandenburger: Yeah, i'm super glad to help this year our community with all my expertise, which I've gathered in my time with hyperlature. I think that's
+
+74
+00:54:44.750 --> 00:54:47.579
+Marcus Brandenburger: i'm in since 2,008.
+
+75
+00:54:48.060 --> 00:54:56.679
+Marcus Brandenburger: I'm not wrong. And yes, I would really contribute back by I mean helping you guys and the community here in this committee.
+
+76
+00:54:57.510 --> 00:54:58.160
+Thanks.
+
+77
+00:54:59.500 --> 00:55:00.510
+Tracy Kuhrt: Welcome, Marcus.
+
+78
+00:55:00.810 --> 00:55:01.490
+Tracy Kuhrt: Yeah.
+
+79
+00:55:04.360 --> 00:55:07.770
+Stephen Curran: Hello, Steve Current. I'm: from
+
+80
+00:55:07.870 --> 00:55:17.050
+Stephen Curran: the digital identity side of of Hyper Ledger Indie started with, or join dairy's or
+
+81
+00:55:17.110 --> 00:55:26.169
+Stephen Curran: help to initiate areas, I mean, and then a non cred as well. So that's primarily focused. I'm trying to help out a bit where I can in in as well.
+
+82
+00:55:26.300 --> 00:55:31.470
+Stephen Curran: and looking forward to learning about the other hyper ledger projects which I've
+
+83
+00:55:31.520 --> 00:55:34.459
+Stephen Curran: not dabbled in too much, and so, looking forward to that.
+
+84
+00:55:34.930 --> 00:55:36.469
+Stephen Curran: and glad to be here.
+
+85
+00:55:38.060 --> 00:55:39.560
+Tracy Kuhrt: Alright I can see
+
+86
+00:55:39.710 --> 00:55:40.430
+Tracy Kuhrt: Kimo
+
+87
+00:55:42.270 --> 00:55:47.859
+Timo Glastra: Hi, Timo definitely not a dinosaur
+
+88
+00:55:48.240 --> 00:56:02.479
+Timo Glastra: quite new, but a few years within high pleasure, and also mostly in full with the identity project. So Hyper Ledger, Indie Hyper Ledger a. And now recently, also, the new Ipad License project.
+
+89
+00:56:03.070 --> 00:56:11.509
+Timo Glastra: Yeah, excited to also learn about other projects. Because, yeah as well, Steven said, not not too familiar with the other project.
+
+90
+00:56:13.770 --> 00:56:15.970
+Tracy Kuhrt: Welcome to you both. And Rama.
+
+91
+00:56:17.760 --> 00:56:25.860
+Ramakrishna V: Hi, I'm: Rama, Another one of the Ibm is I work for Ibm Research, India. I'm. A senior researcher.
+
+92
+00:56:25.990 --> 00:56:41.109
+Ramakrishna V: I'm not a dinosaur, either, but I I've been long around long enough to remember when I apologize, was called open blockchain. So I've been around recently the past 3, 4 years. I've been interested in everything to the interoperability.
+
+93
+00:56:41.120 --> 00:56:51.100
+Ramakrishna V: I believe maintenance of the Viva project, which recently, as you all know, been rolled into the cacti project, has a mojo with cactus.
+
+94
+00:56:51.110 --> 00:57:06.929
+Ramakrishna V: so I am the goal of interoperability, though we envisioned it as a connection between different distributed ledgers. You can also think about it as a way to create an integrated
+
+95
+00:57:06.940 --> 00:57:26.100
+Ramakrishna V: or or more of an integration between the different hyperbolic projects. So I've been looking at the different apple as a project, and I think there's a lot of scope for us to get the different projects to be compatible with each other, and so that when somebody looks at the Hyperlanger project suite they can, they can
+
+96
+00:57:26.280 --> 00:57:44.500
+Ramakrishna V: take whatever they want, be it disability, ledger, middleware, tool, and everything. And it it's some. It's a one place it's a one stop shop for all for the entire browsing. So that's something that really drives me, and I hope to make some inroads into that this year.
+
+97
+00:57:46.630 --> 00:57:48.040
+Tracy Kuhrt: Alright, thanks, Rama.
+
+98
+00:57:48.310 --> 00:57:58.049
+Tracy Kuhrt: and I guess I should do an introduction to myself as well. So i'm Tracey Kurt. I work for expensure, going on almost 4 years now at etcetera.
+
+99
+00:57:58.260 --> 00:58:08.710
+Tracy Kuhrt: and I got my start in the hyper ledger space as well. When I, the ledger fabric, was the open blockchain platform. So back in 2,015
+
+100
+00:58:08.910 --> 00:58:11.819
+Tracy Kuhrt: kind of timeframe is when I started my blockchain journey.
+
+101
+00:58:11.950 --> 00:58:21.790
+Tracy Kuhrt: I obviously spent this in a while a number of you know, as the Hyper Ledger to architect at some point in my past, and
+
+102
+00:58:21.840 --> 00:58:27.790
+Tracy Kuhrt: currently the a hyper Ledger lab Stewart, as well as the chair of the
+
+103
+00:58:27.830 --> 00:58:33.680
+Tracy Kuhrt: for Hyper Ledger, so welcome everybody who is new to the call.
+
+104
+00:58:34.200 --> 00:58:41.379
+Tracy Kuhrt: I do notice that I think we have a few community members on the call today as well as staff members.
+
+105
+00:58:42.530 --> 00:58:50.709
+Tracy Kuhrt: so I didn't know if anybody else wanted to take an opportunity to introduce themselves while we're doing the introductions. Feel free to
+
+106
+00:58:51.500 --> 00:58:52.799
+Tracy Kuhrt: do that now.
+
+107
+00:58:59.770 --> 00:59:00.459
+Tracy Kuhrt: Victor.
+
+108
+00:59:01.120 --> 00:59:02.100
+Victor Gridnevsky: Sure.
+
+109
+00:59:02.530 --> 00:59:06.629
+Victor Gridnevsky: So i'm victor, i'm helping mostly with
+
+110
+00:59:06.880 --> 00:59:08.660
+Victor Gridnevsky: I'm from
+
+111
+00:59:08.870 --> 00:59:14.900
+generally, I'm. Addressing the documentation and technical support side. But sometimes i'm digging in the code.
+
+112
+00:59:15.690 --> 00:59:17.459
+Victor Gridnevsky: Yeah, actually quite a lot.
+
+113
+00:59:17.840 --> 00:59:21.429
+Victor Gridnevsky: So any questions you guys
+
+114
+00:59:21.600 --> 00:59:24.870
+Victor Gridnevsky: something that I can help with.
+
+115
+00:59:25.070 --> 00:59:33.780
+Victor Gridnevsky: And also, if you have a questions regarding the or the site, I will be attending, or some meetings, and try to help as well.
+
+116
+00:59:36.000 --> 00:59:38.670
+Tracy Kuhrt: Alright, Well welcome back to
+
+117
+00:59:39.660 --> 00:59:45.479
+Tracy Kuhrt: anybody else like to take the opportunity to introduce themselves before we move on with the agenda.
+
+118
+00:59:55.120 --> 00:59:57.810
+Tracy Kuhrt: All right. Well, you are completely happy to
+
+119
+00:59:57.840 --> 01:00:01.429
+Tracy Kuhrt: look here, participate, feel free to
+
+120
+01:00:01.480 --> 01:00:08.779
+Tracy Kuhrt: at any point. Jump in, raise your hand, and add your thoughts in in your
+
+121
+01:00:09.670 --> 01:00:15.740
+Tracy Kuhrt: opinions to the meeting, so we're completely open to anybody who wants to to participate.
+
+122
+01:00:17.260 --> 01:00:25.990
+Tracy Kuhrt: All right. So then, I guess, for quarterly reports, we do have the report that is still outstanding from December.
+
+123
+01:00:26.080 --> 01:00:29.199
+Tracy Kuhrt: I know that there's been some
+
+124
+01:00:30.210 --> 01:00:37.839
+Tracy Kuhrt: meetings that have attempted to be held in the community, but it's it's maybe not a good time for the the people who are participating there.
+
+125
+01:00:37.940 --> 01:00:40.459
+Tracy Kuhrt: So we we do want to try and
+
+126
+01:00:40.560 --> 01:00:48.779
+Tracy Kuhrt: figure out how to get that group really kicked off here in the New Year and see if we can get them to do some updates as far as what's happening there.
+
+127
+01:00:49.100 --> 01:00:49.930
+Tracy Kuhrt: Steve.
+
+128
+01:00:51.100 --> 01:00:53.959
+Victor Gridnevsky: Sure, I will try to address this.
+
+129
+01:00:54.450 --> 01:00:56.189
+Stephen Curran: I I did a report
+
+130
+01:00:56.850 --> 01:01:01.189
+Stephen Curran: late in 2022. Was that not the Q. 4, or was that the Q. 3?
+
+131
+01:01:01.560 --> 01:01:04.649
+Tracy Kuhrt: That that was the Q. 3.
+
+132
+01:01:04.680 --> 01:01:16.820
+Tracy Kuhrt: Yeah, it was. It was interesting, right? Because when you did that I think it was shortly before the came up on the calendar. And so it was kind of like. Do we ask for the Q. 4 one? Do we not ask for the
+
+133
+01:01:16.840 --> 01:01:23.870
+Tracy Kuhrt: So I've I've left it on here because we we weren't quite sure what to do with that. But yeah, if you want to.
+
+134
+01:01:23.890 --> 01:01:28.229
+Tracy Kuhrt: if you and maybe Victor went to work on that together, that would be great.
+
+135
+01:01:28.770 --> 01:01:30.200
+Victor Gridnevsky: Okay.
+
+136
+01:01:32.950 --> 01:01:46.759
+Tracy Kuhrt: all right, and then we do have 2 reports that are due today. I could see, Dave. You had requested the link for reports to show up in the right spot so hopefully we'll get the fabric, and I guess
+
+137
+01:01:46.830 --> 01:01:53.820
+Tracy Kuhrt: I need to be better about changing that to cacti. I that you'd say, have a larger tech day. Those reports are due
+
+138
+01:01:53.910 --> 01:01:56.250
+Tracy Kuhrt: today, so we'll hopefully see those and
+
+139
+01:01:56.270 --> 01:01:59.590
+Tracy Kuhrt: get those to be reviewed for next week.
+
+140
+01:02:02.110 --> 01:02:03.879
+Ry Jones: alright, and so then
+
+141
+01:02:04.400 --> 01:02:06.320
+Ry Jones: hasn't changed yet.
+
+142
+01:02:07.830 --> 01:02:09.790
+Ry Jones: The the name for Cactus Hasn't
+
+143
+01:02:10.660 --> 01:02:13.450
+Ry Jones: changed yet. We're still waiting on the code. Merge.
+
+144
+01:02:14.030 --> 01:02:14.669
+Tracy Kuhrt: Okay.
+
+145
+01:02:14.790 --> 01:02:15.439
+Tracy Kuhrt: Alright.
+
+146
+01:02:16.550 --> 01:02:28.459
+Ramakrishna V: yeah, yeah, just just wanted to. I got that point. So we have a. I I guess we were the kind of the blockers there because we were waiting for some outstanding Pr: to be completed.
+
+147
+01:02:28.920 --> 01:02:37.090
+Ramakrishna V: It's it's basically done. I'm going to message Rye and get some time from him as soon as I can try to get this done
+
+148
+01:02:37.120 --> 01:02:41.939
+Ramakrishna V: sometimes the middle of next week. So yeah, but yeah, you can. From now on we can
+
+149
+01:02:42.040 --> 01:02:55.549
+Ramakrishna V: probably submit reports for cacti. In fact, the update that was, we submitted earlier today, or I think it was yesterday that contains updates on both cactus, and we were so. It was meant to be a
+
+150
+01:02:56.520 --> 01:02:57.089
+Tracy Kuhrt: great
+
+151
+01:02:57.400 --> 01:02:58.579
+Tracy Kuhrt: thanks for that.
+
+152
+01:03:00.950 --> 01:03:08.810
+Tracy Kuhrt: Alright, so the main. The main topic for today is really to discuss goals for our 2023 to.
+
+153
+01:03:08.890 --> 01:03:16.259
+Tracy Kuhrt: So this is really an open discussion to try to figure out what people are interested in. Obviously we have a set of
+
+154
+01:03:16.490 --> 01:03:31.640
+Tracy Kuhrt: both new members, as well as returning members to the the Toc, and so like to spend some time just thinking about some of the things that we would like to work on. I see if there is potentially any sort of task forces that we might want to kick off.
+
+155
+01:03:31.660 --> 01:03:38.330
+Tracy Kuhrt: Besides the continuing continuation of the Security task force as it's ongoing.
+
+156
+01:03:38.390 --> 01:03:40.769
+So those are, I think, really the
+
+157
+01:03:42.110 --> 01:03:46.170
+Tracy Kuhrt: sorts of conversations that I want to have and see what people are thinking.
+
+158
+01:03:57.980 --> 01:04:02.119
+Tracy Kuhrt: It's going to be the first person to raise their hand and
+
+159
+01:04:02.240 --> 01:04:06.800
+Tracy Kuhrt: talk about what it is they'd like to see the Tfc. Accomplished this year.
+
+160
+01:04:09.120 --> 01:04:10.050
+Tracy Kuhrt: Yeah, Victor.
+
+161
+01:04:12.000 --> 01:04:17.830
+Victor Gridnevsky: So, hopefully, we can get also going ahead this here
+
+162
+01:04:17.870 --> 01:04:30.720
+Victor Gridnevsky: and hopefully, it's in more major state when it's in, because the some security issues to fix, and
+
+163
+01:04:30.940 --> 01:04:32.509
+Victor Gridnevsky: well maybe some
+
+164
+01:04:32.940 --> 01:04:38.969
+Victor Gridnevsky: good quality stuff. So because it kind of stopped at some point. Well.
+
+165
+01:04:39.780 --> 01:04:42.110
+Victor Gridnevsky: on several occasions.
+
+166
+01:04:42.750 --> 01:04:46.909
+Victor Gridnevsky: I guess that's it for me, but I feel like it's quite important.
+
+167
+01:04:49.310 --> 01:04:50.740
+Tracy Kuhrt: Alright. Thanks, Victor
+
+168
+01:04:50.820 --> 01:04:51.529
+Tracy Kuhrt: Rama.
+
+169
+01:04:52.800 --> 01:05:12.289
+Ramakrishna V: Yeah. So just following on what I said earlier, I. I do want to try and get to like talk to the different different project maintainers to figure out how they can be compatible with each other. That's that is, you know, different projects are on niches now. They can
+
+170
+01:05:12.300 --> 01:05:17.920
+Ramakrishna V: depend on a different project for to solve a particular purpose. For example.
+
+171
+01:05:17.940 --> 01:05:25.919
+Ramakrishna V: Firefly as a middleware for a multi blockchain. Application can depend on something like
+
+172
+01:05:25.990 --> 01:05:44.170
+Ramakrishna V: cacti for underlying and probability protocols. We can have c cacti depending on or so for all of its security mechanism needs, and so on. So what I think I see, and I don't know how closely the different project maintainers are working together, or they're even aware of
+
+173
+01:05:44.180 --> 01:06:02.029
+Ramakrishna V: what the others probably are doing. But there may be a lot of reuniting of these going on because the different projects. So I want to make sure that we try to eliminate redundancy as much as possible, and try to have particular projects. Be the repositories that other policies can depend on, like our software as the canonical
+
+174
+01:06:02.040 --> 01:06:09.100
+Ramakrishna V: repository for security mechanism. So this is sort of I have some great thoughts on this. Hopefully, i'll press these out as a year by.
+
+175
+01:06:11.620 --> 01:06:12.649
+Tracy Kuhrt: Thank you
+
+176
+01:06:13.020 --> 01:06:13.770
+Tracy Kuhrt: or no.
+
+177
+01:06:14.790 --> 01:06:19.049
+Arnaud J Le Hors ("Arno"): Yes, so I mean to the risk of something like a
+
+178
+01:06:19.130 --> 01:06:21.120
+Arnaud J Le Hors ("Arno"): I can make her to the.
+
+179
+01:06:21.350 --> 01:06:25.170
+Arnaud J Le Hors ("Arno"): to, to the past members of the to.
+
+180
+01:06:25.660 --> 01:06:32.900
+Arnaud J Le Hors ("Arno"): but also in keeping with what they are touched on, you know, and for those who don't know I, you know
+
+181
+01:06:33.040 --> 01:06:46.139
+Arnaud J Le Hors ("Arno"): I spend most of my time now focusing on open Ssf. Which is a sister project to high the nature within the Linux foundation, and which, you know, focuses on
+
+182
+01:06:46.280 --> 01:06:50.839
+Arnaud J Le Hors ("Arno"): securing the open source software supply chain.
+
+183
+01:06:50.940 --> 01:07:09.539
+Arnaud J Le Hors ("Arno"): And so we started looking into this last year. We didn't really get to with it was hoping for, which is, and I hope we can do that this year is for the to see to really shepherd, you know, establishing policies with regard to how
+
+184
+01:07:09.550 --> 01:07:24.050
+Arnaud J Le Hors ("Arno"): we deal with the security of open of the the software. We're developing in the Hyper Ledger across the different projects. I think we do need to improve a security posture, as we call it now, and
+
+185
+01:07:24.260 --> 01:07:28.770
+Arnaud J Le Hors ("Arno"): I'm very hoping that we can succeed in this this year.
+
+186
+01:07:31.540 --> 01:07:37.329
+Tracy Kuhrt: Yeah, thanks for that. I don't know. I think that's a a really important topic for us to to talk through this year.
+
+187
+01:07:37.480 --> 01:07:44.770
+Tracy Kuhrt: I do know that in the Governing Board meeting that we had in December that was a topic that came up as well.
+
+188
+01:07:44.800 --> 01:07:52.610
+Tracy Kuhrt: It's it's making sure that we're putting together the the best practices for security across our projects. And so I think it's
+
+189
+01:07:52.690 --> 01:08:12.440
+Tracy Kuhrt: definitely going to be a topic of conversation that we need to continue and to to really focus on that task force that exists to to really come out with, what are these best practices? And how can we consistently apply those practices across the different Hyper ledger projects? So
+
+190
+01:08:12.450 --> 01:08:14.640
+thank you for bringing that one up
+
+191
+01:08:14.780 --> 01:08:18.790
+Tracy Kuhrt: as a topic, because it is, it is top of mind. Okay, for a lot of people
+
+192
+01:08:20.390 --> 01:08:21.160
+Tracy Kuhrt: a room.
+
+193
+01:08:23.200 --> 01:08:25.000
+Arun S M: right? So
+
+194
+01:08:25.569 --> 01:08:30.210
+Arun S M: one of the things that does help. Priority is in terms of
+
+195
+01:08:30.319 --> 01:08:33.610
+Arun S M: like speeding up the adoption or improving the adoption
+
+196
+01:08:33.660 --> 01:08:38.620
+Arun S M: so specially. It's some of the challenges that we have. We we have been facing is in terms of
+
+197
+01:08:38.760 --> 01:08:42.479
+Arun S M: lack of tolling, support itself again when it comes to
+
+198
+01:08:42.560 --> 01:08:49.920
+Arun S M: the speed of an option. So when we talk about blockchain related our blockchain, the multi-party system applications.
+
+199
+01:08:50.250 --> 01:08:56.940
+Arun S M: The value, I is understood, like it's no more question. Of people asking
+
+200
+01:08:57.050 --> 01:09:04.810
+Arun S M: value adds for our use case or is this going to all our business problem statements? The question rather now nowadays that we are facing is
+
+201
+01:09:05.160 --> 01:09:22.050
+Arun S M: okay. Let's say we adopt this. So what's the benefit, we would be the only person adopting it. So the the Foster adoption would require us to develop additional building around it, so which means we need to foster projects that would
+
+202
+01:09:22.350 --> 01:09:31.200
+Arun S M: bring in additional capability. For instance, it could be as it it could really like. For instance, it could be
+
+203
+01:09:31.290 --> 01:09:38.279
+Arun S M: even the simple, validation or verification frame of the formal validation of smart contracts. There is no standard way of how do we do that?
+
+204
+01:09:38.510 --> 01:09:43.049
+Arun S M: Or it could be no way of having unified tools for deployment.
+
+205
+01:09:43.080 --> 01:09:45.220
+Arun S M: or it could be in available
+
+206
+01:09:45.810 --> 01:09:47.580
+Arun S M: having the
+
+207
+01:09:47.990 --> 01:09:48.559
+Oh.
+
+208
+01:09:48.729 --> 01:09:49.389
+Arun S M: oh.
+
+209
+01:09:49.779 --> 01:09:54.359
+Arun S M: inter of support which the calendar for captive team is putting into.
+
+210
+01:09:54.610 --> 01:10:00.570
+Arun S M: and then having frameworks like pay room route, being brought into mainstream as as a mainstream Microsoft project.
+
+211
+01:10:00.920 --> 01:10:01.900
+Arun S M: so
+
+212
+01:10:02.360 --> 01:10:06.120
+Arun S M: that my priorities for the year would follow this. Now
+
+213
+01:10:07.220 --> 01:10:09.939
+Arun S M: see what we can do through the year.
+
+214
+01:10:10.360 --> 01:10:11.630
+Arun S M: Now I'm on my side.
+
+215
+01:10:14.540 --> 01:10:15.919
+Tracy Kuhrt: Alright, Thank you.
+
+216
+01:10:17.030 --> 01:10:17.750
+Tracy Kuhrt: Stephen.
+
+217
+01:10:20.660 --> 01:10:22.980
+Stephen Curran: Yeah, I think i'm there.
+
+218
+01:10:23.160 --> 01:10:26.879
+Stephen Curran: play off a little of what was said earlier
+
+219
+01:10:27.260 --> 01:10:35.169
+Stephen Curran: reference and things we found with Andy, which is really try to come up with a
+
+220
+01:10:36.550 --> 01:10:47.730
+Stephen Curran: best practices and guidance, and help whatever we can do for projects to be able to have automated pipelines that produce artifacts that that
+
+221
+01:10:48.010 --> 01:10:53.489
+Stephen Curran: make it dead simple for somebody to make a contribution and actually have it come out the other end.
+
+222
+01:10:53.590 --> 01:10:59.349
+Stephen Curran: Indie just went through a really long and painful exercise to
+
+223
+01:10:59.360 --> 01:11:20.389
+Stephen Curran: update its pipeline, so that when you make a co change it actually can be produce can produce an output versus it. Doesn't have that? I asked that the other day or recently, somebody put in just like a dependency update. We need to update this dependency to this and the act of actually producing an artifact from that is painful. And so
+
+224
+01:11:20.690 --> 01:11:22.459
+Stephen Curran: it it is a
+
+225
+01:11:22.790 --> 01:11:29.779
+Stephen Curran: difficult thing that i'm hoping that across the projects we can come up with good practices and
+
+226
+01:11:29.800 --> 01:11:34.260
+borrow learnings, and so on, to make it easier to
+
+227
+01:11:34.830 --> 01:11:51.829
+Stephen Curran: it it to have each project able to produce those in a in a in a fully automated way. It's a lot of work I know that. So it's not easy, but but I certainly encourage it. We're getting better at the various projects i'm involved with. But it's hard.
+
+228
+01:11:54.620 --> 01:11:55.689
+Tracy Kuhrt: Alright, Thank you.
+
+229
+01:11:56.140 --> 01:11:56.820
+Tracy Kuhrt: Marcus.
+
+230
+01:11:57.780 --> 01:12:27.519
+Marcus Brandenburger: Yeah. So I wanted to add something to what a note suggested, recording the security, back processing and conducting. There is an order also to share it with different communities under the Linux foundation. But I was also thinking that not only the security best touches, but also our processes. We have established with the hyperlature and other vehicles, like the concept of the maps which does not exist for many other open source communities.
+
+231
+01:12:27.730 --> 01:12:45.459
+Marcus Brandenburger: This is something really valuable, I I believe, was to be out of here, or maybe not even develop. But definitely we have that here in place, and could be could be shared with other project as well. But, on the other hand, I I also believe that there are other concepts used
+
+232
+01:12:45.520 --> 01:13:02.299
+Marcus Brandenburger: and and different projects which we should maybe also try to adopt, and I think I mean, I I believe the role of that, you see is here. Then I mean to basically see what are the needs and understand what are the needs of our community.
+
+233
+01:13:02.330 --> 01:13:03.410
+And
+
+234
+01:13:03.460 --> 01:13:08.509
+Marcus Brandenburger: what are my, what processes I may be broken? What what do you?
+
+235
+01:13:09.000 --> 01:13:10.989
+Marcus Brandenburger: What does not work so well
+
+236
+01:13:11.070 --> 01:13:16.570
+Marcus Brandenburger: for us? Are there any other concepts which we can basically borrow from
+
+237
+01:13:17.470 --> 01:13:22.680
+Marcus Brandenburger: that? That's what I wanted to add to on those suggestions.
+
+238
+01:13:23.050 --> 01:13:28.040
+Marcus Brandenburger: And so what I also believe should be
+
+239
+01:13:28.270 --> 01:13:35.260
+Marcus Brandenburger: a goal of that you see this year is to, I mean, try to help the community to streamline
+
+240
+01:13:35.390 --> 01:13:53.290
+Marcus Brandenburger: the ease of use of our different projects, because I'm: i'm saying that because I remember from the last happened that our global form many people were I mean users of of our projects were saying, oh, they are so difficult to use, I mean.
+
+241
+01:13:53.430 --> 01:14:00.469
+Marcus Brandenburger: Then they explained how to difficult is to set up a test network for a hypothetical fabric, for instance, right.
+
+242
+01:14:00.570 --> 01:14:07.929
+Marcus Brandenburger: And then there were some talks, and they said, Well, I mean it's so easy to set it up just just to exist in this, and then you're done.
+
+243
+01:14:08.120 --> 01:14:09.429
+Marcus Brandenburger: But if you
+
+244
+01:14:09.580 --> 01:14:10.700
+look
+
+245
+01:14:10.720 --> 01:14:20.799
+Marcus Brandenburger: more closely, then maybe you notice that sometimes it works so nicely and easy, because the sacrifice security to some extent.
+
+246
+01:14:20.990 --> 01:14:33.540
+Marcus Brandenburger: and I think there that, you see, should should try to. I mean to to to help. I mean that we are. We are not losing the nice security benefits. We get through this to build ledger technologies
+
+247
+01:14:35.530 --> 01:14:38.750
+by just i'm making it easier to use.
+
+248
+01:14:38.850 --> 01:14:41.700
+Marcus Brandenburger: because I I guess I mean it must be
+
+249
+01:14:42.080 --> 01:14:44.760
+Marcus Brandenburger: not so easy to set up a distributed system right
+
+250
+01:14:46.440 --> 01:14:49.070
+Marcus Brandenburger: that I wanted to you to to bring here on the table.
+
+251
+01:14:52.870 --> 01:14:55.589
+Tracy Kuhrt: Alright, thanks, Marcus. Promo.
+
+252
+01:14:57.540 --> 01:15:05.659
+Ramakrishna V: Yeah, thanks. I I I I want to ask a question, have passed the 2 Cs or Ts is considered
+
+253
+01:15:05.800 --> 01:15:09.550
+Ramakrishna V: providing some kind of a permanent test that for people to spin up
+
+254
+01:15:09.860 --> 01:15:11.370
+Ramakrishna V: different
+
+255
+01:15:11.780 --> 01:15:17.540
+Ramakrishna V: networks and and apply different tools like drawn from the Hyper ledger. Projects
+
+256
+01:15:18.760 --> 01:15:24.090
+Ramakrishna V: like this relates to what I think Marcus is saying is, people find it hard to
+
+257
+01:15:24.490 --> 01:15:26.809
+Ramakrishna V: like. Set up the network sometimes.
+
+258
+01:15:28.610 --> 01:15:33.220
+Tracy Kuhrt: Yeah, I think there has been discussions of test beds and
+
+259
+01:15:33.410 --> 01:15:39.470
+Tracy Kuhrt: test infrastructure. I I think it boils down to cost. And how do we cover those costs?
+
+260
+01:15:39.750 --> 01:15:43.119
+Tracy Kuhrt: Is what it really comes down to? So
+
+261
+01:15:43.460 --> 01:15:46.069
+I think that's been the the biggest challenge.
+
+262
+01:15:46.450 --> 01:15:48.230
+Tracy Kuhrt: and anybody who has
+
+263
+01:15:48.540 --> 01:15:54.039
+Tracy Kuhrt: knowledge otherwise, or or knowledge. Specifically, you know, we would like to add to that place to
+
+264
+01:15:57.210 --> 01:16:00.550
+Ry Jones: sure that's something that we've
+
+265
+01:16:01.110 --> 01:16:04.160
+Ry Jones: talked about basically since Daisy row.
+
+266
+01:16:04.190 --> 01:16:06.600
+Ry Jones: setting up test nuts.
+
+267
+01:16:06.810 --> 01:16:08.699
+Ry Jones: and it does come down to cost
+
+268
+01:16:10.440 --> 01:16:12.429
+Ry Jones: and expectation of support.
+
+269
+01:16:12.860 --> 01:16:17.150
+Ry Jones: One of the big things that we ran into
+
+270
+01:16:17.190 --> 01:16:25.810
+Ry Jones: following the workshop that we did last year was there was a test network that was set up for the workshop, and we continued to get questions about.
+
+271
+01:16:26.140 --> 01:16:28.920
+Ry Jones: Where did the stuff that I did during the workshop. Go.
+
+272
+01:16:29.740 --> 01:16:34.809
+Ry Jones: and we, you know the the people who ran that testnet only ran out for like 3 days.
+
+273
+01:16:36.320 --> 01:16:40.569
+Ry Jones: So there's some expectation, saying that would need to happen with the community about
+
+274
+01:16:40.730 --> 01:16:43.690
+Ry Jones: the test net is a test net, and it will go away
+
+275
+01:16:46.230 --> 01:16:51.180
+Ry Jones: so it it. It's a little more complex than just spin some stuff up and let people test.
+
+276
+01:16:52.290 --> 01:16:53.519
+Yeah, I think that
+
+277
+01:16:55.750 --> 01:16:57.750
+Tracy Kuhrt: alright, to know.
+
+278
+01:16:59.920 --> 01:17:09.539
+Timo Glastra: Yeah, I I actually had a small comments about like Stevens thing, on like pipelines, and making sure
+
+279
+01:17:09.550 --> 01:17:23.329
+Timo Glastra: we have relevant artifacts. Is that, like, for example, for the library, it's by coins that a colleague of mine made a cool request for that a few months ago.
+
+280
+01:17:23.340 --> 01:17:32.580
+Timo Glastra: But it hasn't been looked at March, and I think that's maybe also a problem. I think, especially, for example, with the Ursa project that Isn't very actively maintained that
+
+281
+01:17:32.960 --> 01:17:35.969
+Timo Glastra: there's maybe not always ownership. Then over who?
+
+282
+01:17:36.040 --> 01:17:37.240
+Yeah
+
+283
+01:17:37.410 --> 01:17:39.420
+Timo Glastra: reviews those pull requests?
+
+284
+01:17:43.920 --> 01:17:45.370
+Tracy Kuhrt: Alright, thanks, Kimo.
+
+285
+01:17:45.540 --> 01:17:46.190
+Tracy Kuhrt: Okay.
+
+286
+01:17:47.950 --> 01:18:04.349
+David Enyeart: Yeah. My kind of follows on some of the other ones around good practices. We heard about like security best practices and and Ci pipeline good practices. But I think it'd be nice to pull that together into an overall project good practices or best practices.
+
+287
+01:18:04.480 --> 01:18:11.320
+David Enyeart: We have, like the checklist that we did last year, which is, I think, a good start. But I think we can go further than that and say.
+
+288
+01:18:11.570 --> 01:18:23.410
+David Enyeart: these are the different things you need to think about for a project, and maybe they link to a deep dive like a deep link to a deep dive on security, good practices and ci good practices.
+
+289
+01:18:23.420 --> 01:18:39.389
+David Enyeart: But overall I think there's a lot of considerations for managing a project that people need to consider, and if you're bringing a new project in, or or you're a new maintainer. You probably don't know a lot about a lot of those things, so you know, even like there's a lot of Github settings. It's hard to know which ones are recommended.
+
+290
+01:18:39.400 --> 01:18:56.180
+David Enyeart: We've had conversation in the past week about Zen Hub versus Github projects for managing backlogs of issues things like that. So there's just a whole host of things I think it'd be good to have like a one stop shop kind of umbrella location that we can then link off to for these different aspects.
+
+291
+01:18:59.330 --> 01:19:00.639
+Tracy Kuhrt: Thanks, Dave.
+
+292
+01:19:05.170 --> 01:19:13.529
+Tracy Kuhrt: Alright so i'm not seeing any hands at the moment. So i'm just going to kind of go through the list that I've heard so far to see if it
+
+293
+01:19:13.770 --> 01:19:15.679
+Tracy Kuhrt: sparks any other ideas.
+
+294
+01:19:15.920 --> 01:19:22.600
+Tracy Kuhrt: Really, I think Project Health came up a couple of times related to Ersa. And how do we improve the project? How
+
+295
+01:19:22.950 --> 01:19:32.039
+Tracy Kuhrt: the compatibility across projects and eliminating redundancy is? It is another item. Security came out multiple times
+
+296
+01:19:32.240 --> 01:19:36.220
+increasing adoption via I mean tooling and validation.
+
+297
+01:19:36.440 --> 01:19:43.349
+Tracy Kuhrt: Best practices came up in different context. We just heard from from Dave about, You know. Maybe it's
+
+298
+01:19:43.510 --> 01:19:45.510
+Tracy Kuhrt: project best practices
+
+299
+01:19:45.570 --> 01:19:50.570
+Tracy Kuhrt: that includes best practices for security, for automated pipelines for
+
+300
+01:19:50.620 --> 01:19:55.989
+Tracy Kuhrt: project management. For how we configure github that sort of thing.
+
+301
+01:19:56.090 --> 01:19:58.499
+Tracy Kuhrt: I heard that
+
+302
+01:19:58.520 --> 01:19:59.450
+Tracy Kuhrt: there's
+
+303
+01:19:59.690 --> 01:20:08.589
+Tracy Kuhrt: some processes that we might want to either bring to other communities or bring other communities processes into hyper ledger.
+
+304
+01:20:09.010 --> 01:20:13.350
+Tracy Kuhrt: really understanding what other projects do and what we might want to adopt. From there
+
+305
+01:20:13.690 --> 01:20:17.200
+Tracy Kuhrt: there is the streamlining, the
+
+306
+01:20:18.160 --> 01:20:26.530
+Tracy Kuhrt: the ease of use, right? So I think that goes hand in hand with some of the adoption piece, but really streamlining it
+
+307
+01:20:26.560 --> 01:20:29.499
+Tracy Kuhrt: and making sure that it's easy to
+
+308
+01:20:29.610 --> 01:20:31.269
+Tracy Kuhrt: start up, maybe a
+
+309
+01:20:31.750 --> 01:20:34.240
+Tracy Kuhrt: a different blockchain network and
+
+310
+01:20:34.260 --> 01:20:42.290
+Tracy Kuhrt: still ensure that we're taking into account things like security. And and how would we run this in a a healthy way?
+
+311
+01:20:42.430 --> 01:20:48.729
+Tracy Kuhrt: So I think those are the the topics that I've captured? I think there's another one which a lot of the
+
+312
+01:20:48.970 --> 01:20:56.370
+Tracy Kuhrt: returning Tosc members are going to hate me for bringing up. But it is something that the covering board had a discussion about
+
+313
+01:20:56.530 --> 01:21:02.909
+Tracy Kuhrt: which is really related to the status or the health of projects. And how do we
+
+314
+01:21:03.040 --> 01:21:09.839
+Tracy Kuhrt: ensure that projects are remaining healthy, either through some sort of badging process, or through some sort of
+
+315
+01:21:10.000 --> 01:21:15.029
+Tracy Kuhrt: listing of what it requires for projects that have graduated.
+
+316
+01:21:16.090 --> 01:21:23.820
+Tracy Kuhrt: You know, right now our project life cycle is a Ford only life cycle, and and there's been discussions about whether that life cycle
+
+317
+01:21:24.140 --> 01:21:30.480
+Tracy Kuhrt: process needs to change your needs to be enhanced in any way, shape or form. I think we've had this discussion
+
+318
+01:21:30.640 --> 01:21:39.089
+Tracy Kuhrt: at least once for the past 3 years, if not longer. But I do think it is something that we do need to see if we can come to
+
+319
+01:21:39.220 --> 01:21:44.250
+Tracy Kuhrt: some sort of resolution about how do we? How do we go about handling that?
+
+320
+01:21:45.630 --> 01:21:52.339
+Tracy Kuhrt: So that's what I've captured so far there are a few toc numbers that we haven't heard from. Yet I would love to
+
+321
+01:21:52.460 --> 01:21:56.410
+Tracy Kuhrt: to hear from those Tsc. Members who haven't had a chance to speak yet.
+
+322
+01:21:56.600 --> 01:22:05.760
+Tracy Kuhrt: and anybody else who that list kind of jog some other things in their mind about what it is that they'd like to see us accomplish in
+
+323
+01:22:05.800 --> 01:22:07.019
+Tracy Kuhrt: 23.
+
+324
+01:22:20.070 --> 01:22:20.780
+Tracy Kuhrt: Jim.
+
+325
+01:22:21.910 --> 01:22:30.850
+Jim Zhang: Yeah, thanks. Tracy. Sorry for being late. I guess Just the general thought around Enabling the
+
+326
+01:22:31.010 --> 01:22:36.310
+Jim Zhang: Hyper Ledger based project on public chains.
+
+327
+01:22:36.380 --> 01:22:46.479
+Jim Zhang: I guess, depending on the the specific project. Some are naturally have a need to support that versus others.
+
+328
+01:22:46.560 --> 01:22:58.149
+Jim Zhang: This is especially the the the it projects that you don't necessarily have that goal. But a lot of projects are by design cross chain.
+
+329
+01:22:58.470 --> 01:23:03.100
+Jim Zhang: cactus bevel, far fly.
+
+330
+01:23:03.670 --> 01:23:13.490
+Jim Zhang: I I just feel like a a Aries or the other Democrats; the other, the did related projects.
+
+331
+01:23:13.570 --> 01:23:22.379
+Jim Zhang: So many of our customers are looking at stacks that enable them to
+
+332
+01:23:22.460 --> 01:23:29.439
+Jim Zhang: to do solutions within a permission setting in consortiums.
+
+333
+01:23:29.510 --> 01:23:34.560
+Jim Zhang: but they also want to enable and engage a wider
+
+334
+01:23:34.860 --> 01:23:39.270
+Jim Zhang: set of participants. And you know public chains become a natural
+
+335
+01:23:39.330 --> 01:23:44.250
+Jim Zhang: place to do that. And there there's more than one occasion where
+
+336
+01:23:44.260 --> 01:23:59.750
+Jim Zhang: the Hyper Ledger stack would have been the perfect choice. Except for that, you can't use it on public chains, and they would have to, you know, go with a lesser, less mature stack as a result.
+
+337
+01:23:59.760 --> 01:24:14.999
+Jim Zhang: So I I don't know what what are the specific concrete things we could do to encourage that. But I would say, you know, from our messaging from our marketing we can. We can.
+
+338
+01:24:15.130 --> 01:24:17.579
+Jim Zhang: We can do more to encourage this.
+
+339
+01:24:21.140 --> 01:24:22.420
+Tracy Kuhrt: Alright, thanks, Jim
+
+340
+01:24:22.780 --> 01:24:23.510
+Tracy Kuhrt: Bobby.
+
+341
+01:24:25.140 --> 01:24:53.510
+Bobbi Muscara: Yeah. I was in a meeting with the learning Materials working group which now has new leadership with David Boswell, and we were discussing how the new reorganization of that will help the community, and one of the things we were discussing is kind of the documentation standards and the standards for people coming into the community. How do they find the resources? So that's something that definitely. I'll be working with the learning materials, working group moving forward with David to try to figure out
+
+342
+01:24:53.520 --> 01:25:00.049
+Bobbi Muscara: how to support the community once they get into the community. The resources with the resources we have available.
+
+343
+01:25:03.230 --> 01:25:04.480
+Tracy Kuhrt: Alright great
+
+344
+01:25:04.990 --> 01:25:06.049
+Tracy Kuhrt: thanks. Probably
+
+345
+01:25:09.430 --> 01:25:11.879
+Tracy Kuhrt: any other thoughts that people have
+
+346
+01:25:12.030 --> 01:25:15.960
+Tracy Kuhrt: specific goals that they have for the 2,023.
+
+347
+01:25:28.360 --> 01:25:38.229
+Victor Gridnevsky: Yes, i'd like to know if the time was slightly shifted, because I was surprised. I haven't seen previous meetings for a couple of times. And
+
+348
+01:25:38.320 --> 01:25:41.409
+Victor Gridnevsky: was it shifted for an hour after.
+
+349
+01:25:41.670 --> 01:25:43.110
+Victor Gridnevsky: or something like that.
+
+350
+01:25:43.380 --> 01:25:45.820
+Victor Gridnevsky: and it's the time and calendar will
+
+351
+01:25:46.910 --> 01:25:48.650
+Victor Gridnevsky: the right time currently.
+
+352
+01:25:50.650 --> 01:25:58.610
+Tracy Kuhrt: Yeah, Victor. So we we haven't met for probably 3, maybe potentially 4 weeks
+
+353
+01:25:58.950 --> 01:26:09.910
+Tracy Kuhrt: holidays. The holiday schedules for most people were a little, I think, shifted some early holidays. Some took later holidays, and so we wanted to make sure that we didn't.
+
+354
+01:26:10.000 --> 01:26:15.189
+Tracy Kuhrt: That's with everybody's time off, and and make sure that there there wasn't any sort of
+
+355
+01:26:15.360 --> 01:26:31.669
+Tracy Kuhrt: issues there, and I think we actually canceled the one right before the holidays as well, because we didn't have any specific topics to to discuss during that one. So it yeah. It has probably been a month since the the Tc. Has met, and so no time changes just related to the holidays.
+
+356
+01:26:31.810 --> 01:26:33.230
+Victor Gridnevsky: Okay, thank you very much.
+
+357
+01:26:33.800 --> 01:26:34.820
+Tracy Kuhrt: Yep.
+
+358
+01:26:39.880 --> 01:26:41.829
+Tracy Kuhrt: All right. Other Other
+
+359
+01:26:41.910 --> 01:26:45.829
+Tracy Kuhrt: thoughts on on goals for the 2023 term.
+
+360
+01:26:48.760 --> 01:26:53.280
+Tracy Kuhrt: I think we have a a really good list. I do think that there is a potential to
+
+361
+01:26:53.310 --> 01:26:56.400
+Tracy Kuhrt: kick off some task forces from these
+
+362
+01:26:56.450 --> 01:27:05.680
+Tracy Kuhrt: from this list. So what my plan is to basically take the chicken and scratch they had here and and put them into the the agenda.
+
+363
+01:27:05.700 --> 01:27:08.970
+Tracy Kuhrt: the meeting notes so that everybody can see kind of what they are
+
+364
+01:27:09.030 --> 01:27:16.169
+Tracy Kuhrt: and maybe think about. You know, some potential task forces that we could kick off for the the 2023 time
+
+365
+01:27:16.250 --> 01:27:19.890
+Tracy Kuhrt: that we can make sure that we're continuing to have discussions
+
+366
+01:27:19.950 --> 01:27:27.180
+Tracy Kuhrt: really sounds like. There's some some things around different sorts of best practices that we might want to put together
+
+367
+01:27:27.250 --> 01:27:29.670
+Tracy Kuhrt: task forces around.
+
+368
+01:27:29.750 --> 01:27:36.200
+Tracy Kuhrt: you know. Maybe some thoughts around the the different sort of ways in which we might ease the
+
+369
+01:27:36.470 --> 01:27:44.180
+Tracy Kuhrt: adoption of the different projects that we have. There could be something around that. But yeah, happy to have any other thoughts
+
+370
+01:27:44.490 --> 01:27:46.149
+Tracy Kuhrt: that people might have
+
+371
+01:27:46.400 --> 01:27:48.000
+Tracy Kuhrt: to include in that list.
+
+372
+01:28:02.730 --> 01:28:09.079
+Tracy Kuhrt: I think we did have everybody from the the Trc. Who had an opportunity to to speak so. That's really good.
+
+373
+01:28:09.480 --> 01:28:11.790
+Tracy Kuhrt: Thank you for the participation. Now.
+
+374
+01:28:13.070 --> 01:28:29.499
+Tracy Kuhrt: Okay. So I think with that, just I want to cover what else is left on this page. Just so we can have a make sure that everybody is aware of what's happening here. So the Hlf Operator Project proposal has come in.
+
+375
+01:28:29.570 --> 01:28:37.179
+Tracy Kuhrt: There has been some discussions that have been ongoing with the the bevel community about putting sort of the
+
+376
+01:28:37.200 --> 01:28:41.900
+Tracy Kuhrt: A. Jf. Operator into bubble as a fabric operator.
+
+377
+01:28:43.550 --> 01:28:52.699
+Tracy Kuhrt: The those conversations are continuing. So we're leaving the project project proposal open until there's been some sort of formal resolution on that.
+
+378
+01:28:52.890 --> 01:28:58.629
+Tracy Kuhrt: But that's the expectation at this point is that that project is going to.
+
+379
+01:28:58.710 --> 01:29:02.080
+Tracy Kuhrt: or that proposal is really going to become part of bevel.
+
+380
+01:29:02.270 --> 01:29:11.069
+Tracy Kuhrt: So we'll we'll continue to keep an eye on that, and see how those Conversations progress to to make sure that we don't have to do anything specific there.
+
+381
+01:29:11.670 --> 01:29:12.670
+Jim.
+
+382
+01:29:13.540 --> 01:29:30.020
+Jim Zhang: Yeah, just a quick comment on this. Yeah, definitely bevel. But but I thought there's also another labs. You should be about Ibm on the same basically same functionality, right? A operator for for fabric.
+
+383
+01:29:30.070 --> 01:29:31.780
+Ramakrishna V: You mean this, I have a smartphone.
+
+384
+01:29:32.910 --> 01:29:39.419
+Jim Zhang: Yeah, I assume that that team is also involved in the discussions.
+
+385
+01:29:40.160 --> 01:29:50.229
+David Enyeart: Yeah, Jim is right. There's also a fabric dash operator lab. That's out there. So those that and the hlf operator are kind of meeting similar objectives.
+
+386
+01:29:53.540 --> 01:29:56.090
+Tracy Kuhrt: Yeah, I think I think that
+
+387
+01:29:56.750 --> 01:30:03.310
+Tracy Kuhrt: there's potentially even third or fourth. It's sort of operator out there related to fabric
+
+388
+01:30:03.390 --> 01:30:08.950
+Tracy Kuhrt: that I think it it would be really good to have these communities coming together under
+
+389
+01:30:09.000 --> 01:30:14.090
+Tracy Kuhrt: kind of a single group right to to really make sure that the operator is going to meet
+
+390
+01:30:14.490 --> 01:30:17.030
+Tracy Kuhrt: whatever the needs are for the different
+
+391
+01:30:17.270 --> 01:30:26.429
+Tracy Kuhrt: uses of the operator. And I would really like to see those conversations happen within the bevel community, and making sure that the
+
+392
+01:30:26.480 --> 01:30:31.100
+Tracy Kuhrt: the right things are done moving forward. So that's, I think
+
+393
+01:30:31.300 --> 01:30:33.860
+Tracy Kuhrt: you know, definitely a a known
+
+394
+01:30:34.000 --> 01:30:35.240
+Tracy Kuhrt: So
+
+395
+01:30:35.690 --> 01:30:53.210
+Tracy Kuhrt: space that there is a lot of interested right is really deploying. Fabric is is big, and I think there's a lot of different ways in which people have a process. And so I do think devil is is the right community to to make that happen, and to to make sure that all the voices are heard
+
+396
+01:30:53.360 --> 01:30:57.820
+Tracy Kuhrt: so would definitely encourage anybody who.
+
+397
+01:30:57.890 --> 01:31:06.070
+Tracy Kuhrt: either as on this call or knows the right people to to get involved in those conversations to to reach out to the bubble community to make sure that those
+
+398
+01:31:06.280 --> 01:31:09.769
+Tracy Kuhrt: those conversations are are had
+
+399
+01:31:10.170 --> 01:31:16.189
+David Enyeart: right. So Tracy, would you expect Bevel to do some kind of assessment across these various operators and choosing
+
+400
+01:31:16.420 --> 01:31:18.769
+David Enyeart: which ones to more closely partner with.
+
+401
+01:31:19.270 --> 01:31:27.420
+Tracy Kuhrt: Yeah, there has definitely been a conversation about that, Dave, about making sure that there's you know, understanding of what's out there.
+
+402
+01:31:27.530 --> 01:31:32.859
+Tracy Kuhrt: and and really looking at the the space as a whole, so I,
+
+403
+01:31:33.080 --> 01:31:35.040
+Tracy Kuhrt: you know, would definitely encourage
+
+404
+01:31:35.090 --> 01:31:44.419
+Tracy Kuhrt: right, Dave, if you're the right person, or or you know the right people to to maybe have a conversation with the Double Maintainer to make sure that you know the
+
+405
+01:31:44.880 --> 01:31:55.359
+Tracy Kuhrt: the needs and and desires of that fabric operator, Lab and anybody else who has an operator. That they they think is, you know, the the right one to bring into this that
+
+406
+01:31:55.460 --> 01:32:03.390
+Tracy Kuhrt: have those conversations, and make sure that you know all of the different, I think requirements right on that by whatever it is that they.
+
+407
+01:32:03.530 --> 01:32:05.720
+Tracy Kuhrt: the bevel operators bring in, because
+
+408
+01:32:05.810 --> 01:32:12.229
+Tracy Kuhrt: the other piece of this right is that with bevel I think the the idea is that.
+
+409
+01:32:12.640 --> 01:32:17.399
+Tracy Kuhrt: as you are probably all aware, right, it deploys multiple blockchain frameworks, and so
+
+410
+01:32:17.470 --> 01:32:22.739
+Tracy Kuhrt: want to make sure that, as we think about operators, we're thinking about them
+
+411
+01:32:22.930 --> 01:32:40.070
+Tracy Kuhrt: one for the individual blockchain platforms, but also across the board. What should an operator look like for the different sorts of blockchain framework? So you know that's I. I do. You know I had a conversation this morning with Sonac was one of the bevel maintainers.
+
+412
+01:32:40.170 --> 01:32:48.949
+Tracy Kuhrt: and we did talk about right like what is the right thing for us to be doing. And how do we lay out kind of the design pattern for what these operators are?
+
+413
+01:32:49.030 --> 01:32:54.060
+Tracy Kuhrt: So, yeah, definitely, that's the right space, I think, to be having the conversations.
+
+414
+01:32:54.080 --> 01:32:56.830
+Tracy Kuhrt: Dave, please, if you.
+
+415
+01:32:57.180 --> 01:32:58.819
+Tracy Kuhrt: if you are that person that's
+
+416
+01:32:58.860 --> 01:33:01.750
+Tracy Kuhrt: that you connected with, so that if there's somebody else we should
+
+417
+01:33:01.870 --> 01:33:07.349
+Tracy Kuhrt: connect is related to the fabric operator. Let us know. We can make sure that those conversations are being had.
+
+418
+01:33:07.540 --> 01:33:08.599
+David Enyeart: Okay, thanks.
+
+419
+01:33:12.720 --> 01:33:17.469
+Tracy Kuhrt: And I know you had your hand up there. You're definitely been involved in those conversations as well. So.
+
+420
+01:33:20.020 --> 01:33:28.450
+Arun S M: hey? I wanted to. You. You covered all the points that I wanted to say, yeah, they will, as such as you know, has been.
+
+421
+01:33:28.770 --> 01:33:34.940
+Arun S M: I'm. Looking into the next phase of the the release, like now that it is mature.
+
+422
+01:33:35.210 --> 01:33:39.999
+Arun S M: not being, I think some of will be better person, but i'll try to summarize, I think.
+
+423
+01:33:40.020 --> 01:33:43.010
+Arun S M: as you said, the future version of level
+
+424
+01:33:43.200 --> 01:33:53.750
+Arun S M: we are planning to have flexibility in how people choose to deploy some of these components. So there is right now there is support for help, operator
+
+425
+01:33:53.960 --> 01:33:57.519
+Arun S M: and future there's going to be project-specific operators, such as
+
+426
+01:33:57.780 --> 01:34:04.860
+Arun S M: fabric operator out to each. And if you can unify that, and then consider one of those operator as
+
+427
+01:34:04.920 --> 01:34:09.869
+Arun S M: and in the project specific operator. It would also be placed alongside.
+
+428
+01:34:10.030 --> 01:34:17.690
+Arun S M: So the no choice of deploying to from an from the user perspective they would be able to choose. Either they need
+
+429
+01:34:18.000 --> 01:34:22.960
+Arun S M: this project operate. They want to go with and help them operate a concept itself.
+
+430
+01:34:24.130 --> 01:34:31.970
+Arun S M: So that is definitely a good place to be in. But I still feel like there is possibility for us to collaborate across.
+
+431
+01:34:32.030 --> 01:34:34.770
+considering maintainers from
+
+432
+01:34:34.980 --> 01:34:37.669
+Arun S M: semi-corporated, and it's it's operated
+
+433
+01:34:37.800 --> 01:34:44.209
+Arun S M: and then bringing them along that they will operate, and so I will project maintainers on all on one call
+
+434
+01:34:44.460 --> 01:34:46.029
+Arun S M: and discussing it for that.
+
+435
+01:34:51.100 --> 01:34:51.929
+Tracy Kuhrt: Not
+
+436
+01:34:52.300 --> 01:35:06.660
+Tracy Kuhrt: so, then, the other items that we have our backlog items. So these come directly from our Github issues backing. We have the update, the security process. We did take off the security task force for that.
+
+437
+01:35:06.730 --> 01:35:12.919
+Tracy Kuhrt: So we're continuing to leave this open until the security task force comes back with.
+
+438
+01:35:13.140 --> 01:35:20.199
+Tracy Kuhrt: You know the best practices that we need to make sure that we're consistently implementing across the different hyper ledger projects.
+
+439
+01:35:20.380 --> 01:35:29.920
+Tracy Kuhrt: So that is an ongoing item, this other one that's on here, which is just been open 2 days ago. If I ride.
+
+440
+01:35:29.970 --> 01:35:33.739
+Tracy Kuhrt: As to request to move project reports to Github.
+
+441
+01:35:33.900 --> 01:35:40.200
+there's some discussion that's been happening on the the issue itself. But I think that is
+
+442
+01:35:40.420 --> 01:35:44.440
+Tracy Kuhrt: definitely a topic that we should discuss as the Toc.
+
+443
+01:35:45.800 --> 01:35:50.170
+Tracy Kuhrt: So right, I don't know if you want to give like an overview of what you're thinking here.
+
+444
+01:35:50.190 --> 01:35:57.600
+Tracy Kuhrt: and then that people comment on the issue throughout the week, and then we can talk about this further, maybe next week.
+
+445
+01:35:58.140 --> 01:36:02.870
+Ry Jones: Sure, what I would like to do if you can open that.
+
+446
+01:36:10.580 --> 01:36:21.220
+Ry Jones: So what I would like to do is currently the quarterly reports are in the Wiki, and there are some good things, and there are some downsides with that.
+
+447
+01:36:21.290 --> 01:36:23.349
+Ry Jones: The reason that I would like to do that
+
+448
+01:36:23.450 --> 01:36:26.029
+Ry Jones: is, if you scroll down a little bit.
+
+449
+01:36:26.280 --> 01:36:31.559
+Ry Jones: is, it's much easier to get a
+
+450
+01:36:31.940 --> 01:36:35.830
+Ry Jones: a a history of the voting and the comments, and, you know.
+
+451
+01:36:36.360 --> 01:36:38.139
+recorded form.
+
+452
+01:36:38.860 --> 01:36:41.879
+Ry Jones: you know, currently in the Wiki. It's
+
+453
+01:36:42.150 --> 01:36:45.209
+it's in the Wiki, but it's a little bit difficult to get to
+
+454
+01:36:46.510 --> 01:36:47.640
+Ry Jones: to find out
+
+455
+01:36:47.900 --> 01:36:50.019
+who did what and who said, what?
+
+456
+01:36:50.650 --> 01:36:54.169
+Ry Jones: And my idea here is that
+
+457
+01:36:54.910 --> 01:36:55.969
+Ry Jones: the
+
+458
+01:36:56.390 --> 01:37:02.640
+Ry Jones: the, the the votes. I'm sorry not to votes as people read it. As Toc. Members read it.
+
+459
+01:37:02.820 --> 01:37:09.289
+Ry Jones: they would market as approved. And then, once there's some number of people who have
+
+460
+01:37:09.740 --> 01:37:14.830
+Ry Jones: approved it. It would be it would be merged, and the conversation would be captured in the
+
+461
+01:37:15.000 --> 01:37:16.769
+Ry Jones: get history over here.
+
+462
+01:37:18.940 --> 01:37:22.330
+Ry Jones: You know. Part of this is my
+
+463
+01:37:22.600 --> 01:37:24.240
+Ry Jones: there. I don't know when
+
+464
+01:37:24.660 --> 01:37:30.620
+Ry Jones: there's going to be a change to how confluence there is a change that how confluence is licensed period.
+
+465
+01:37:30.750 --> 01:37:32.560
+Ry Jones: Yeah, I've seen it has changed that
+
+466
+01:37:32.740 --> 01:37:39.819
+Ry Jones: I don't know what the Linux foundation plan is around that how we're going to handle that turbulence coming in the future.
+
+467
+01:37:41.350 --> 01:37:43.060
+Ry Jones: and I don't want to deal with it again.
+
+468
+01:37:43.850 --> 01:37:48.100
+Ry Jones: There are some. It's really kind of
+
+469
+01:37:48.280 --> 01:37:49.179
+Ry Jones: parable
+
+470
+01:37:49.450 --> 01:37:52.450
+Ry Jones: how the Github Macros work in confluence.
+
+471
+01:37:52.730 --> 01:37:59.410
+Ry Jones: and every once in a while it breaks, and then I have to go on a journey of discovery to find out what exactly broke.
+
+472
+01:38:00.400 --> 01:38:12.369
+Ry Jones: So my assumption is that get a Macros and a like that are on a get. A project would have less chance of breaking, and I would like to remove that journey of discovery from myself.
+
+473
+01:38:13.320 --> 01:38:17.119
+Ry Jones: and then we would end up as
+
+474
+01:38:17.340 --> 01:38:21.510
+Ry Jones: a room pointed out. If you can click on the link for the governance rendered site.
+
+475
+01:38:23.560 --> 01:38:24.660
+Ry Jones: the
+
+476
+01:38:25.190 --> 01:38:27.970
+Ry Jones: we would end up over here with a a tab
+
+477
+01:38:28.180 --> 01:38:30.479
+Ry Jones: that would have the
+
+478
+01:38:30.800 --> 01:38:33.729
+Ry Jones: like the technical charter.
+
+479
+01:38:33.840 --> 01:38:39.479
+Ry Jones: We would end up with a a tab under there that would have the project reports going back in history.
+
+480
+01:38:39.950 --> 01:38:45.479
+Ry Jones: And if you look, if you switch over to the to see if you go to like to
+
+481
+01:38:45.880 --> 01:38:46.670
+Ry Jones: Org.
+
+482
+01:38:53.920 --> 01:38:58.119
+Ry Jones: So if you go to you know any any of these
+
+483
+01:38:58.600 --> 01:39:01.810
+Ry Jones: like the the members, the Toc members.
+
+484
+01:39:03.840 --> 01:39:12.930
+Ry Jones: This is a page that shows, you know the history. We would have something like this that would have like here the you know Q. 1 23 reports, or whatever.
+
+485
+01:39:13.350 --> 01:39:20.569
+Ry Jones: and it would show the history of what they are, and it would be easier to find. I believe it would have higher Google rank.
+
+486
+01:39:20.850 --> 01:39:21.809
+Ry Jones: I see
+
+487
+01:39:22.070 --> 01:39:23.560
+Ry Jones: Steven has his hand up.
+
+488
+01:39:27.910 --> 01:39:42.249
+Stephen Curran: Yeah, One thing sort of independent of what your proposal is, but but along the same veins of things we could, as a as a toc sort of have a goal of is generated.
+
+489
+01:39:42.260 --> 01:39:59.929
+Stephen Curran: generated sites off of mark down. I see the benefit of what you're proposing is this becomes an actual website, as opposed to part of confluence, and and so give us the ability to present the data in better ways.
+
+490
+01:40:01.350 --> 01:40:11.139
+Stephen Curran: I want to spin off of of this this particular used case to encourage the the to figure out how we can help
+
+491
+01:40:11.710 --> 01:40:14.499
+projects move past.
+
+492
+01:40:14.860 --> 01:40:29.469
+Stephen Curran: Read me.md. Files that are sitting in a Github repo versus a generated static website or a static generated website that that is a much friendlier, more welcoming, and easier to understand
+
+493
+01:40:29.510 --> 01:40:46.850
+Stephen Curran: version of the same information. So I think this is a general, a general issue, which is, how do we take the information and make it more accessible to You know new people, to contributors to maintainers, to the particular audience for the particular thing you're talking about.
+
+494
+01:40:46.860 --> 01:40:50.339
+Stephen Curran: So in in what rise talking about.
+
+495
+01:40:50.880 --> 01:40:52.150
+Stephen Curran: you can
+
+496
+01:40:52.640 --> 01:41:02.999
+Stephen Curran: find a way to find all of the projects and drill down to find the quarterly reports, or you could take an individual project. Sorry you can take
+
+497
+01:41:03.070 --> 01:41:07.890
+Stephen Curran: the Toc view, which is, I want to see all the quarterly reports for all the projects.
+
+498
+01:41:07.970 --> 01:41:23.119
+Stephen Curran: and present a view that way, but also present a view that is Here's the you know Hyper Ledger Aries project. And here is the history of the of the report. So you have much more control over how the information gets displayed. I think it's a good practice
+
+499
+01:41:23.320 --> 01:41:35.179
+Stephen Curran: in general, but it's hard to do, or at least it's not easy to do, and and I think all the teams are going through figuring out how to do it, and what's the best practices, and so on. So I think the poc could help there
+
+500
+01:41:35.900 --> 01:41:45.750
+Ry Jones: agreed. We have a mark down material, docs that we pay for. That's excellent. That I would like to get more projects Using
+
+501
+01:41:46.090 --> 01:41:52.579
+Ry Jones: currently base is really the only one using. I would also like to get all the projects off of, read the docs
+
+502
+01:41:53.010 --> 01:41:59.469
+Ry Jones: and start using Github pages to publish their documentation, and much like this to
+
+503
+01:41:59.660 --> 01:42:03.300
+Ry Jones: you know. That's that's a get up, Page.
+
+504
+01:42:03.660 --> 01:42:06.579
+Ry Jones: I would like to get, you know
+
+505
+01:42:07.280 --> 01:42:12.789
+Ry Jones: everybody off of these bespoke platforms into one place.
+
+506
+01:42:13.670 --> 01:42:17.650
+Ry Jones: and that one place is is Github right now.
+
+507
+01:42:17.950 --> 01:42:23.300
+Ry Jones: So that's a longer term goal. But i'm glad that you brought it up because it would be much easier
+
+508
+01:42:24.780 --> 01:42:27.120
+Ry Jones: if everybody was on Github
+
+509
+01:42:30.820 --> 01:42:31.650
+Ry Jones: Steven.
+
+510
+01:42:32.210 --> 01:42:36.200
+Stephen Curran: Yeah. So example of that. Just so, you know, is we just went through
+
+511
+01:42:36.430 --> 01:42:43.429
+Stephen Curran: a assessment of. Should we use make Docs material, or should we use docus, or which one
+
+512
+01:42:43.440 --> 01:43:00.320
+Stephen Curran: you know, and and it would be really nice not to have every project have to evaluate that figure out how to do it figured out how it applies to them, but actually have a way to to just say, oh, you do this, this and this, and now you have generated docs, and now
+
+513
+01:43:00.330 --> 01:43:04.230
+Stephen Curran: it's much more about the content and less about how you present it.
+
+514
+01:43:05.620 --> 01:43:06.469
+Ry Jones: Agreed.
+
+515
+01:43:06.700 --> 01:43:09.960
+Tracy Kuhrt: Yeah, yeah, i'm. Just maybe
+
+516
+01:43:10.130 --> 01:43:21.370
+Tracy Kuhrt: for a moment. That's okay. Playing on there for a moment. I do know that some of the the work that Bobby and the documentation task force was doing last year related to some of this.
+
+517
+01:43:21.500 --> 01:43:27.310
+Tracy Kuhrt: but I I would. It sounds like maybe there's some continuation of that happening this year.
+
+518
+01:43:27.490 --> 01:43:31.009
+Tracy Kuhrt: But oh, no, I think you're gonna have the last word.
+
+519
+01:43:31.550 --> 01:43:47.629
+Arnaud J Le Hors ("Arno"): Yeah, and i'll be quick. I I just wanted to follow up, because, as people may see on the screen, I had actually asked right to explain a little bit more give a bit more background. I think this discussion highlights the fact that I think you know the proposal. I I
+
+520
+01:43:47.640 --> 01:44:05.689
+Arnaud J Le Hors ("Arno"): i'm not against it. I think it's like a little bit of you know details as to what it would actually mean, what? How we would use this. So I you know, I think this needs to be played out properly, so that we can have a full proposal put before the talk.
+
+521
+01:44:07.450 --> 01:44:09.069
+Tracy Kuhrt: All right.
+
+522
+01:44:10.600 --> 01:44:23.310
+Tracy Kuhrt: Thanks. I know. So yeah, let's let's continue the conversation on that Github issue, and we will bring it up again next week. If we have something that's more formal that we can propose to to vote on.
+
+523
+01:44:23.400 --> 01:44:29.810
+Tracy Kuhrt: But yeah, thanks. Everybody for your contributions today, and and we will talk again next week.
+

@@ -1,0 +1,1442 @@
+WEBVTT
+
+1
+00:04:06.880 --> 00:04:08.720
+Timo Glastra: Good afternoon, everyone.
+
+2
+00:04:12.930 --> 00:04:13.849
+Kalin Canov: Hello there!
+
+3
+00:04:15.710 --> 00:04:16.769
+Karim Stekelenburg: Hello! Hello!
+
+4
+00:04:26.920 --> 00:04:31.639
+Fabrice Rochette: Do I see if a breeze in the call? That's the first time.
+
+5
+00:04:32.000 --> 00:04:39.839
+Fabrice Rochette: Hi! Gary! How are you. I'm good. How are you? I was connected last week I wasn't there last week.
+
+6
+00:05:20.660 --> 00:05:24.439
+Timo Glastra: All right, let's get started. Sorry I wasn't
+
+7
+00:05:24.470 --> 00:05:30.180
+Timo Glastra: very well. The parents came out of another meeting not to to this one.
+
+8
+00:05:31.380 --> 00:05:34.380
+Timo Glastra: so let me see.
+
+9
+00:05:34.690 --> 00:05:40.390
+Timo Glastra:  Well, I've run to the with Jaska Working group. Call
+
+10
+00:05:40.480 --> 00:05:41.860
+Timo Glastra: June 20
+
+11
+00:05:42.570 --> 00:05:45.080
+Timo Glastra: second
+
+12
+00:05:45.180 --> 00:05:50.190
+Timo Glastra: I need to remember you to abide by the Hyper Ledger code of conduct and the Antitrist policies.
+
+13
+00:05:50.210 --> 00:05:56.759
+Timo Glastra: if you would like to add yourself to the so people know you you were here.
+
+14
+00:05:56.810 --> 00:05:58.960
+Timo Glastra: feel free to do so.
+
+15
+00:05:59.130 --> 00:06:08.009
+Timo Glastra:  with that covert. Is there anyone here that's new today and would like to introduce themselves to share what they're working on.
+
+16
+00:06:14.290 --> 00:06:15.230
+Yes.
+
+17
+00:06:19.830 --> 00:06:23.840
+Timo Glastra: cool. Think I like nice most of you here today.
+
+18
+00:06:24.110 --> 00:06:27.650
+Timo Glastra:  And
+
+19
+00:06:28.730 --> 00:06:35.569
+Timo Glastra: quickly, some status updates. Did we have a by phone call this week?
+
+20
+00:06:36.680 --> 00:06:38.820
+Timo Glastra: Anyone that knows or attended?
+
+21
+00:06:41.320 --> 00:06:45.889
+Warren Gallagher: Yes, I was there. Although I was late, I didn't catch all of it.
+
+22
+00:06:46.190 --> 00:06:52.560
+Warren Gallagher: it looks like they're on the home stretch of integrating Afj for
+
+23
+00:06:52.690 --> 00:06:56.450
+Warren Gallagher: point 0 or 0 4 0
+
+24
+00:06:56.730 --> 00:07:01.770
+Warren Gallagher: there's just a few little remaining things. I think of a code review and some merge
+
+25
+00:07:02.400 --> 00:07:15.150
+Warren Gallagher: collisions to clean up. But they're getting very close to that. and that's going to when that once that's done, that's going to trigger a whole bunch of other activities around looking at moving to the latest
+
+26
+00:07:15.310 --> 00:07:20.519
+Warren Gallagher: react native and you know, updating a whole bunch of dependencies and the like.
+
+27
+00:07:21.370 --> 00:07:25.679
+Warren Gallagher: so that was, I think, a fair amount
+
+28
+00:07:26.000 --> 00:07:28.419
+Warren Gallagher: of the of the discussion
+
+29
+00:07:29.680 --> 00:07:44.010
+Warren Gallagher: was around that there's also been. they're starting to publish their first Npm packages and started off with Oca. it's in an alpha at the moment, but they're using that when to learn
+
+30
+00:07:44.600 --> 00:07:50.839
+Warren Gallagher: and before moving on to publishing other parts of the A project in Npm.
+
+31
+00:07:54.120 --> 00:07:54.990
+Timo Glastra: okay.
+
+32
+00:07:57.790 --> 00:08:05.629
+Timo Glastra: cool. Yeah. I think the the Pr for Fj. 0 for 0, as we know before a long time. but I think there
+
+33
+00:08:05.710 --> 00:08:10.690
+Timo Glastra: now, finally, it's now finally ready to to get merged So
+
+34
+00:08:11.100 --> 00:08:11.860
+Timo Glastra: a good thing.
+
+35
+00:08:12.430 --> 00:08:22.290
+Timo Glastra:  this week. That's good hierarchy. But I saw that, Jason. It's some of the last merits conflicts
+
+36
+00:08:22.620 --> 00:08:23.490
+Timo Glastra: nice
+
+37
+00:08:26.250 --> 00:08:31.450
+Timo Glastra:  Aristotle.
+
+38
+00:08:32.110 --> 00:08:47.630
+Timo Glastra: I can give a quick update. There was a discussion. there were a few discussions. one mediators. And how do you do? A scalable mediation.
+
+39
+00:08:47.680 --> 00:08:49.830
+Timo Glastra: this show
+
+40
+00:08:50.410 --> 00:08:52.560
+Timo Glastra: announced A,
+
+41
+00:08:53.130 --> 00:09:10.180
+Timo Glastra: so quick I think it's called, which is like a way that you can put in front of your mediator that can keep web. So it's open and and like it's agnostic of the agents running behind it. So you can have like that separated and that makes the the agents
+
+42
+00:09:10.230 --> 00:09:17.350
+Timo Glastra: mediator itself a lot more scalable. Don't know if there's any wrong from the in this. Your team on the call today.
+
+43
+00:09:21.400 --> 00:09:22.929
+Kim Ebert: Good recruiting, you know
+
+44
+00:09:23.320 --> 00:09:24.110
+Timo Glastra: I
+
+45
+00:09:25.930 --> 00:09:29.239
+Timo Glastra: any thing I missed, or you would like to add.
+
+46
+00:09:30.350 --> 00:09:43.229
+Kim Ebert: no, I mean, it's just a way to manage web sockets, and make it a connection list a process between the sockets and the service and the back end
+
+47
+00:09:43.260 --> 00:09:51.199
+Kim Ebert: So that way, you don't have to maintain an open web socket, and you have a good way to send messages through the web sockets.
+
+48
+00:09:51.380 --> 00:10:03.009
+Kim Ebert:  from the mediator. this allows the cluster environment not have to pass messages back and forth between the different
+
+49
+00:10:03.270 --> 00:10:06.959
+Kim Ebert: services on the back end. So, for example.
+
+50
+00:10:07.070 --> 00:10:16.949
+Kim Ebert: I know a lot of people are trying to figure out. Well, how do I make sure that the website the message makes it to the right node? That's holding a open web socket connection.
+
+51
+00:10:18.620 --> 00:10:23.050
+Kim Ebert: So that's the main problem that socket
+
+52
+00:10:24.090 --> 00:10:26.290
+Kim Ebert: docket sock was trying to solve.
+
+53
+00:10:28.420 --> 00:10:40.400
+Timo Glastra: Cool. Okay, nice. Yeah. And So you have tested with Eric Schmidt that you can fight, and right as a mediator to be quite doable. So right to to integrate this with an Afgh mediator.
+
+54
+00:10:40.730 --> 00:10:50.050
+Kim Ebert: No, we actually tested this with our our cloud scale mediator. which is a separate mediation based on
+
+55
+00:10:50.090 --> 00:10:57.359
+Kim Ebert:  right now, Amazon lambda, but is open to other other platforms.
+
+56
+00:10:58.600 --> 00:11:08.249
+Kim Ebert: okay. But we, we know the occupy community has been talking about needing to solve the same problem. So we we brought this out an open source to for everyone.
+
+57
+00:11:09.650 --> 00:11:11.070
+Timo Glastra: Cool. Okay.
+
+58
+00:11:14.730 --> 00:11:21.030
+Timo Glastra:  Well, in addition. there was a
+
+59
+00:11:21.830 --> 00:11:38.150
+Timo Glastra: I think that to go for most of the meeting, I, for I'm probably forgetting something that was discussed. There was a very short discussion about the open wall foundation stuff again. maybe we can get into that later a bit. And it's just something out that I'm getting here.
+
+60
+00:11:47.330 --> 00:11:52.459
+Timo Glastra: I think. No, I think most of it plans into the media and stuff. Yeah.
+
+61
+00:11:53.380 --> 00:12:18.349
+Timo Glastra:  cool. Then. for the agenda today. we have to. Did go through to discussion Artemis here today. Who can give an update on like What's the current status of the did? Confi 2 branch? what's like limitations of the current implementation? I think, also, like what? What? Where? The limitations when?
+
+62
+00:12:18.430 --> 00:12:30.519
+Timo Glastra: The work stopped in in November? And like are there anything like what's still blocking to get it merged? And when can we use it?
+
+63
+00:12:30.850 --> 00:12:43.069
+Timo Glastra: And I think then we can start out. We can have a short question, maybe on the open wallets foundation this question, and maybe we can continue on the
+
+64
+00:12:43.780 --> 00:13:01.660
+Timo Glastra: on the wall of Api discussion. I don't see Ariel here today. But he created the discussion. And I think we yeah And at the meeting last week with him, having given a presentation but not really. yeah. next steps.
+
+65
+00:13:01.770 --> 00:13:09.790
+Timo Glastra: if time permits, we can also get into the documentation and getting started being continued,
+
+66
+00:13:09.980 --> 00:13:21.719
+Timo Glastra:  yeah. And otherwise we'll put that to the top of next week's agenda. any things people are missing, or would like to get addressed or discussed this week, or in a future meeting.
+
+67
+00:13:22.200 --> 00:13:43.670
+Karim Stekelenburg: Well, one thing, a real, just joined. So that's good. I don't know if we can do that this week, or if it's part of the Open World Foundation. But you and I had a discussion about recently about some ideas on. Not that. I guess it's not modular. I think the framework, because we've already done that, but like splitting it up into
+
+68
+00:13:43.740 --> 00:14:00.330
+Karim Stekelenburg: for the standalone libraries. and maybe we can touch touch on that. I I ask Baron to give a presentation on that in the next few weeks. So I think we could have that like, I have a dedicated presentation call to to it.
+
+69
+00:14:01.540 --> 00:14:02.820
+Timo Glastra: but yeah, good point
+
+70
+00:14:07.270 --> 00:14:14.829
+Timo Glastra: cool. Okay, then let's get started art. And do you want to share your screen? Or how do you want to to do this.
+
+71
+00:14:15.800 --> 00:14:20.730
+Artem Ivanov: yes, I would like I prepared several slides.
+
+72
+00:14:20.890 --> 00:14:22.590
+but I understand.
+
+73
+00:14:24.340 --> 00:14:40.180
+Artem Ivanov: How are you, everyone? when in a certain somebody doesn't know I work for this are. And I do today. I'd like to cover the current status. So give me 2 branch support, and it is from work. Jans script
+
+74
+00:14:40.290 --> 00:15:07.710
+Artem Ivanov: The initially work was done in last year in November by but it was put on hold and and didn't finish at the time. Now we is this our volunteers to complete it? analyze and get it finally supported there. we get some work which are going to cover during this presentation. here is
+
+75
+00:15:07.960 --> 00:15:09.220
+Artem Ivanov: agenda
+
+76
+00:15:09.680 --> 00:15:36.029
+Artem Ivanov: first of all, break really short over you. What's the key difference? So it can be 2. Comparing the first 2 option next time till what was done. I in November. And was this after that cover concerns and issues about the current implementation. and what's wrong. And after what next steps?
+
+77
+00:15:36.560 --> 00:16:05.739
+Artem Ivanov:  okay. certification of this here. I'm going to share this presentation attached to the making afterwards, the key requirements and characteristics of, for as a protocol, res your same as what it can be one, it's it's it's done to be secure prior to the centralized and transport agnostic. And the E difference is that it's designed to be rotable
+
+78
+00:16:05.740 --> 00:16:15.680
+Artem Ivanov: what it means it means that each message shows a protocol should include everything needed to interact with another part here.
+
+79
+00:16:15.680 --> 00:16:29.760
+Artem Ivanov: So you don't need any kind of a explicit can trick protocol like it was before when part is established, connection and exchange messages using. So they exchanged in advance.
+
+80
+00:16:29.780 --> 00:16:50.440
+Artem Ivanov: now, I guess same like for emails. if I can know the the id of another one it can easily prepare the message for him and pocket and send it is all for all the required information based on the give the id
+
+81
+00:16:50.830 --> 00:16:54.380
+Artem Ivanov: and send it directly and interact
+
+82
+00:16:55.210 --> 00:16:58.380
+Artem Ivanov:  what's done
+
+83
+00:16:58.560 --> 00:17:20.639
+Artem Ivanov: first change this is scripta. Just so on but envelope used for that covid to default from the first 2 options there are, another set of cryptographic methods which I used under the code as a general format is the same but different operations.
+
+84
+00:17:20.670 --> 00:17:28.800
+Artem Ivanov: and we initial implementation was done using Cika Didcom Library.
+
+85
+00:17:28.920 --> 00:17:33.389
+Artem Ivanov: But in fact, it didn't good
+
+86
+00:17:33.750 --> 00:17:48.610
+Artem Ivanov: suit for Aj architecture. It requires implementations of the interface and making some methods of the word public and it was decided to change.
+
+87
+00:17:48.720 --> 00:18:13.900
+Artem Ivanov: I can park methods to use ascar directly, as it's currently it's a plugin optional what it's storage which can be used and it provides all necessary grip them. So we implemented back and park functions, and now they support Both the options get can be one and v 2 for
+
+88
+00:18:13.900 --> 00:18:28.669
+Artem Ivanov: in. Give it do not provide crypt methods required and for now it's not supported it. It cannot be used with it.
+
+89
+00:18:29.060 --> 00:18:36.930
+Artem Ivanov: I believe it can be done in future. But for now we postponed it, and skipped
+
+90
+00:18:37.320 --> 00:18:43.400
+Artem Ivanov: so area as as as car is the only option for the moment.
+
+91
+00:18:44.130 --> 00:18:57.410
+Artem Ivanov: next messages we define it. call man, agent, message, interface, which you find set of common methods. How
+
+92
+00:18:57.430 --> 00:19:06.319
+Artem Ivanov: based Sergeant Message should look like. And this interface used across the core package to reuse
+
+93
+00:19:06.450 --> 00:19:32.169
+Artem Ivanov:  common logic. there are implementations for Dedicon, v. One and v. 2, which defines the general structure of the messages, and they, if you are going to implement the some specific protocol you should the extent messages from the protocol and and reuse as a first version or secondary option for it. Call message implementation
+
+94
+00:19:33.410 --> 00:19:38.999
+Artem Ivanov: it's currently inside of call message to your
+
+95
+00:19:39.040 --> 00:19:57.150
+Artem Ivanov:  almost the the almost no changes there functions handle both the options everything is hidden inside those as car awarded. I'm talking about it. It returns
+
+96
+00:19:57.240 --> 00:20:07.310
+Artem Ivanov: as a gorgeon or fun pop message. So the next step we can determine 9 which we option of the message is used
+
+97
+00:20:07.550 --> 00:20:17.530
+Artem Ivanov: for center. currently, there are 2 options for methods for send messaging The reason for it is
+
+98
+00:20:18.370 --> 00:20:32.730
+Artem Ivanov: as I mentioned before, for there is no concept of the connection. And this is key a reason why we had to create 2 versions for sending message function.
+
+99
+00:20:32.970 --> 00:20:36.960
+Artem Ivanov: I will touch this topic once again later.
+
+100
+00:20:37.030 --> 00:20:44.879
+Artem Ivanov:  the the the key thing to understand right now is that there is a send the 2
+
+101
+00:20:45.120 --> 00:20:55.069
+Artem Ivanov: which version of the function which doesn't depend on the connection. Object it takes it resource all necessary information from
+
+102
+00:20:55.100 --> 00:21:15.530
+Artem Ivanov: using from and to fields of the message at resource. Did documents of send them and recipient. It finds keys which can be used this common key type, and in those that is all resolved, the service which is support but by both parties.
+
+103
+00:21:15.620 --> 00:21:17.640
+Artem Ivanov: and send it directly
+
+104
+00:21:18.020 --> 00:21:43.340
+Artem Ivanov: for the to go from. The functionality is smaller, it's limited. Comparing the first 2 options. There is no support for sessions, for message, queue for priority. It can be done as the next steps for now we just wanted to demonstrate that the messages can be sent and receive A, and we can exchange a messages
+
+105
+00:21:44.880 --> 00:22:07.279
+Artem Ivanov: Protocols. For the moment. There are options for 2 protocols out of band really basic option just creating an invitation message which can be transferred to another party. And another party can accept out of them invitation and create the state connection, state object
+
+106
+00:22:07.510 --> 00:22:28.330
+Artem Ivanov: and the another protocol is trust, pink it was a basic one, as a just to messages ping, and in response party which accepted out of that invitation can send ping message to the invite
+
+107
+00:22:28.330 --> 00:22:42.390
+Artem Ivanov: invite her up on on receival trust, pink process it. And if response is requested, send the response back using
+
+108
+00:22:43.040 --> 00:22:58.569
+Artem Ivanov:  the implementation approach is the erez agmoni, the same as for supporting multiple versions, for it can be one protocol, for example, for Asians of the presentation we have 2 versions, 202
+
+109
+00:22:58.590 --> 00:23:25.650
+Artem Ivanov: there are folders with protocols which, the option defined as a set of messages connected to protocols he their services, and so on. So here we use the same approach. And for trusting. there are 2 folders, we one and we 2, and each of them reflects get call messaging in what?
+
+110
+00:23:25.650 --> 00:23:32.800
+Artem Ivanov: it may be a problem. I will touch this topic again later.
+
+111
+00:23:33.190 --> 00:23:37.710
+Artem Ivanov:  moving next the
+
+112
+00:23:37.920 --> 00:23:52.160
+Artem Ivanov: yeah, I how to identify which we ocean to use. Or I did call me one or 2. When we create invitations, there is a parameter to define in the ocean explicitly.
+
+113
+00:23:52.200 --> 00:24:11.729
+Artem Ivanov: when in viti assets invitation that he creates connection, state, object and inside of connection, there is a protocol field which was before. and we said, we key
+
+114
+00:24:11.730 --> 00:24:33.199
+Artem Ivanov: idea of protocol did you exchange with to? In fact, there is no such protocol we just use it used it as a constant to identify that this connection object refers to it. Going with 2. And next one, we send that trust pink message using this connection.
+
+115
+00:24:33.200 --> 00:24:44.360
+Artem Ivanov: we know that we need to prepare Github with to press ping message and use corresponding to encryption and functions
+
+116
+00:24:44.720 --> 00:24:57.569
+Artem Ivanov: and about the ids we use the for both parties to when service is embedded directly into the Id.
+
+117
+00:24:59.170 --> 00:25:06.629
+Artem Ivanov: there, there's a ability to use another options, but this one is the most the the same list, I believe.
+
+118
+00:25:07.680 --> 00:25:13.370
+Artem Ivanov: this is why we chose this one. we also
+
+119
+00:25:13.600 --> 00:25:16.430
+Artem Ivanov: created them.
+
+120
+00:25:16.530 --> 00:25:30.090
+Artem Ivanov:  in the branch. You can find it in the independent folder. In this demo you can create out of event invitation, it is, can accept it.
+
+121
+00:25:30.280 --> 00:25:36.030
+Artem Ivanov: next Alice can send pink message, and for your
+
+122
+00:25:36.090 --> 00:25:39.600
+Artem Ivanov: then process it and reply, if it's requested
+
+123
+00:25:39.800 --> 00:25:58.360
+Artem Ivanov:  the important thing here is that, there is only one direction of communication right now. only a is can send the messages to failure on the fiber side. Currently, we don't create connections. That object
+
+124
+00:25:58.370 --> 00:26:02.909
+Artem Ivanov: I would like to discuss it next
+
+125
+00:26:03.200 --> 00:26:09.300
+Artem Ivanov: how we should act here. so currently, right now.
+
+126
+00:26:10.320 --> 00:26:11.180
+Artem Ivanov: this
+
+127
+00:26:12.200 --> 00:26:28.170
+Artem Ivanov: concerns about the implementation as I mentioned, the the first one is connection the doesn't depend on connection. And parties interact just using the Ids, so should we
+
+128
+00:26:28.370 --> 00:26:29.490
+Artem Ivanov: current
+
+129
+00:26:30.410 --> 00:26:37.089
+Artem Ivanov: implementation. Strong depends on the connection. State objects and the
+
+130
+00:26:37.260 --> 00:26:56.410
+Artem Ivanov: all Protocols requires connection to be established and advanced. and if there is no connection you cannot send messages about for get going to. There is no such requirement you can start any protocol just with the id of another party.
+
+131
+00:26:56.820 --> 00:26:58.830
+Artem Ivanov: so I can.
+
+132
+00:26:58.860 --> 00:27:21.159
+Artem Ivanov: I mean, it looks like we do not need the such object anymore. But if you want to use as much of we can, we can common functionality and avoid the application we need to somehow create freaky or synthetic connection objects.
+
+133
+00:27:21.380 --> 00:27:26.860
+Artem Ivanov: And this is a first question to answer for
+
+134
+00:27:27.570 --> 00:27:32.910
+Artem Ivanov: about how how to properly to do it.
+
+135
+00:27:33.430 --> 00:27:42.399
+Artem Ivanov: The second point is strong from the connected to the connection info. As I mentioned, there are 2 versions
+
+136
+00:27:42.480 --> 00:27:44.169
+Artem Ivanov: of them
+
+137
+00:27:44.440 --> 00:28:02.349
+Artem Ivanov: message function functions. And we did convey to functionality is limited. Comparing to v, one we need to try to unify this your somehow. provide a single method kindly in both cases.
+
+138
+00:28:02.450 --> 00:28:20.650
+Artem Ivanov:  and once we get a common function once you get this single function as a set of features, for both Protocols will be the same. It will be easy to maintain and extend
+
+139
+00:28:21.230 --> 00:28:50.470
+Artem Ivanov: then. Protocols. Adoption, specification for now provides some examples of protocols. How they can be done in this can be tool. But we once that defines much more protocols. for example, it's going to doesn't explain how issues and presentation protocols should change, how they should look like
+
+140
+00:28:51.500 --> 00:29:06.730
+Artem Ivanov: and as I mentioned, for now we only adopt it out of end in trust. Pink.  regarding the implementation and as a consumer on how to properly organize the code. In fact.
+
+141
+00:29:06.830 --> 00:29:25.869
+Artem Ivanov: we have 2, yours and so on. It's going to be one protocol like for you, so we can not just create on my folder. So I get to. It will be confusing and if I have to forget what it's gone, one and we 2 for it to come to. we need to deal here
+
+142
+00:29:26.380 --> 00:29:28.139
+Artem Ivanov: some other way.
+
+143
+00:29:28.700 --> 00:29:34.330
+Artem Ivanov: and better approach probably. we should.
+
+144
+00:29:34.940 --> 00:29:48.010
+Artem Ivanov: We can concede the conversions of the messages back and forth, and just use some identifier of each option is actually we need to use in the end.
+
+145
+00:29:50.680 --> 00:29:55.639
+Artem Ivanov:  as I mentioned
+
+146
+00:29:55.750 --> 00:30:01.239
+Artem Ivanov: only a
+
+147
+00:30:01.400 --> 00:30:07.960
+Artem Ivanov: to the specification I did to requires resolving the of the I did the documents.
+
+148
+00:30:08.170 --> 00:30:10.640
+Artem Ivanov: and because
+
+149
+00:30:11.300 --> 00:30:22.830
+Artem Ivanov: we need to get keys some of that enveloped also contains a key references, and we need need to resolve the documents from the key references
+
+150
+00:30:22.890 --> 00:30:33.200
+Artem Ivanov: and the current interface of the do not accept. Give the resolver. we cannot inject it there.
+
+151
+00:30:33.290 --> 00:30:36.509
+And you to this. we had to
+
+152
+00:30:36.520 --> 00:30:50.620
+Artem Ivanov: resolve all necessary good documents one where at top we currently do it inside of the core package. So we in fact, we already parse
+
+153
+00:30:50.620 --> 00:31:08.139
+Artem Ivanov: and analyze some fields to prepare you documents as parameters, and we pass them into Button Park functions. This is not a good solution, but it allow us to support
+
+154
+00:31:08.900 --> 00:31:14.580
+Artem Ivanov: different good methods if we only
+
+155
+00:31:14.620 --> 00:31:39.509
+Artem Ivanov: limits to use. give you, for instance. So get key we can resolve all this information right from the the id identifier. But if you want to use some other methods like it. So for it, web the URL doesn't contain real T, and we need to resolve the you don't recommend first.
+
+156
+00:31:40.350 --> 00:31:44.950
+Artem Ivanov: So you know the the for about
+
+157
+00:31:44.970 --> 00:31:48.740
+Artem Ivanov: to support all possible good methods
+
+158
+00:31:48.790 --> 00:31:57.969
+Artem Ivanov: the implementation of the to is a little bit spread that between violet and the core package.
+
+159
+00:31:58.220 --> 00:32:01.200
+Artem Ivanov: we need to think how to. But that
+
+160
+00:32:06.040 --> 00:32:18.269
+Artem Ivanov: and the last concern he is about. Did this creation? You know, all out of service. There is a one more function to create a period id
+
+161
+00:32:18.470 --> 00:32:29.930
+Artem Ivanov: method. It can be a duplication of existing logic. I didn't check it just left from the November We need to try to use
+
+162
+00:32:30.080 --> 00:32:36.960
+Artem Ivanov: our existing methods from get register as far as I am, but quite a new model.
+
+163
+00:32:37.660 --> 00:32:42.260
+Artem Ivanov: I just want nothing to take into account.
+
+164
+00:32:42.950 --> 00:32:45.429
+Artem Ivanov: what next?
+
+165
+00:32:45.720 --> 00:33:04.129
+Artem Ivanov: A part of the concerns which we need to resolve. As for this questions, and provide the the best solution for them. we also need to support media mediator as the initial work of was already done in November.
+
+166
+00:33:04.130 --> 00:33:28.130
+Artem Ivanov: this branch. This mode request is currently closed and the outdated the right ones of conflicts. we need to octalize it as well in scope of this. will request, we added, mediator coordination protocol, and the message pick up for the call versions. So
+
+167
+00:33:28.190 --> 00:33:39.890
+Artem Ivanov: right now, Getcom can be used only with zoom when in point past this parameter, so it can be used by mobile applications only by services
+
+168
+00:33:40.020 --> 00:33:49.170
+Artem Ivanov: and once once we get implemented support mobile mobile apps. Also, you will be able to use this.
+
+169
+00:33:49.780 --> 00:33:51.020
+Artem Ivanov: He chung
+
+170
+00:33:51.350 --> 00:33:55.170
+Artem Ivanov:  the results.
+
+171
+00:33:55.220 --> 00:34:05.370
+Artem Ivanov: concept about the integration between parties on what protocols supported by each of them, and how to
+
+172
+00:34:05.450 --> 00:34:09.159
+to the
+
+173
+00:34:09.330 --> 00:34:14.240
+Artem Ivanov: to send myself. Another party can understand it. And the reply.
+
+174
+00:34:15.179 --> 00:34:24.469
+Artem Ivanov: we need to adopt more protocols issues in presentation as the most commonly used most powerful
+
+175
+00:34:25.000 --> 00:34:28.230
+Artem Ivanov: and the
+
+176
+00:34:28.620 --> 00:34:55.839
+Artem Ivanov: well, it's not only just one of the envelope, but just on that signature and the playing text messages for for instance, just some web science message can be used when we transfer the very first message out of that invitation, for example, to kind of to prove that that I'm a an of of the G. Id. Which is reflected in the invitation.
+
+177
+00:34:56.030 --> 00:34:59.129
+Artem Ivanov: So we can extend our
+
+178
+00:34:59.160 --> 00:35:03.879
+Artem Ivanov: for that implementation to provide Josh's methods as well.
+
+179
+00:35:05.370 --> 00:35:16.579
+Artem Ivanov: and the plane message also can be sent back and forth. In some cases I don't know. for now examples cannot provide them. But there is such option.
+
+180
+00:35:18.320 --> 00:35:29.259
+Artem Ivanov: I think that's it that I prepared. I'd like to go a little bit back to concerns, and we can discuss each item step by step.
+
+181
+00:35:32.740 --> 00:35:40.499
+Timo Glastra: Cool. Thanks a lot for this presentation. This is really helpful. And yeah, brings us all on the same page where we are.
+
+182
+00:35:40.940 --> 00:35:47.870
+Timo Glastra: does anyone have questions. I have some, but I would just like to hear from others. Maybe if they have questions or notes on on this presentation.
+
+183
+00:35:48.590 --> 00:35:49.700
+Kalin Canov: Hey.
+
+184
+00:35:49.870 --> 00:35:59.839
+Kalin Canov: Colin colleen is here coming from vain. I don't know if you can hear me well, because I'm on a on a workshop in a moment, and the connection is on very good. Hopefully. You can hear me. Well.
+
+185
+00:35:59.980 --> 00:36:20.770
+Kalin Canov: yeah, dropping quite, quite often. I can. You have mentioned that the next thing that you it needs to happen is to have a mitiate correct. So that way once the mediator is there, the mobile applications can can also use that that protocol right.
+
+186
+00:36:20.810 --> 00:36:27.479
+Kalin Canov: But I was thinking, I I think, in the Arizona Framework Golank
+
+187
+00:36:27.520 --> 00:36:34.710
+Kalin Canov: they have an option to play as a mediator. Do you think that can be used also to play the rows and mediator, so the mobile phones
+
+188
+00:36:34.850 --> 00:36:35.800
+can
+
+189
+00:36:36.960 --> 00:36:39.789
+Kalin Canov: connect to that mediator even it's on. Go along
+
+190
+00:36:40.290 --> 00:36:55.109
+Artem Ivanov: What I meant is not only to have mitigate or deploy it, some where we need to, instead of Aj employment protocols required for to communicate with the mediator being able to talk.
+
+191
+00:36:56.170 --> 00:37:05.860
+Kalin Canov: and how far you think it's it's that. Do you think it's a lot of work, or something that can come. you know, in the next month, or
+
+192
+00:37:06.560 --> 00:37:16.200
+Artem Ivanov: I think it, I can come quite soon Before working on this, you would like to
+
+193
+00:37:17.080 --> 00:37:30.290
+Artem Ivanov: to resolve concerns which I mentioned before. as I mentioned most of the work regarding the Mediator support is already was already done in November.
+
+194
+00:37:30.490 --> 00:37:53.720
+Artem Ivanov: and we need to transfer it it just there are a lot of conflicts, and we need to refresh it. And then, apart apart from the it is from, go go as you mentioned. there should be. Seek us bitcoin with to media that are available as well.
+
+195
+00:37:54.240 --> 00:37:57.150
+Kalin Canov: Yeah, I think team of Senator in the chat already.
+
+196
+00:37:57.640 --> 00:38:10.209
+Artem Ivanov: okay, yeah. This one this is a very basic implementation. It not fits for production needs, but for tasting and for them, it's It's good enough.
+
+197
+00:38:10.420 --> 00:38:22.030
+Artem Ivanov: It supports, only it's only 2, not just to notion. And I it's in that nest dress and it uses.
+
+198
+00:38:22.770 --> 00:38:23.750
+I see.
+
+199
+00:38:24.260 --> 00:38:25.980
+Kalin Canov: Okay, I'm good. Thank you.
+
+200
+00:38:35.690 --> 00:38:39.400
+Timo Glastra:  yeah, I think one thing
+
+201
+00:38:39.550 --> 00:38:44.359
+Timo Glastra: I'm interested in is is this few. But I think
+
+202
+00:38:44.560 --> 00:38:53.620
+Timo Glastra: it's like. How do we deal with connections, and did come feed to. I think you also added it to here? and like.
+
+203
+00:38:54.350 --> 00:39:14.010
+Timo Glastra: yeah. But what is the Do people still like, do you still create a connection? But don't we use like an did exchange protocol? So we just like a connection, is nothing more than having a record where I store, might it? And the other parties did. And that is enough to have a connection or
+
+204
+00:39:14.010 --> 00:39:35.949
+Timo Glastra: do we also want to support basically just sending a message to a date and not having a connection. And I think this can have quite some impact on the our sector. For example, if I would now want to send a crunch to offer. I can do that to a connection id only, or I do connectionless well connectionless
+
+205
+00:39:36.140 --> 00:39:47.360
+Timo Glastra:   in that conflict one is a bit different. I would say, then the like, the connection this and did comfort to So I think, yeah, maybe.
+
+206
+00:39:47.980 --> 00:40:09.370
+Timo Glastra: Yeah, what do we think about like, should we require you always to create a connection? So if you want to exchange information with it, did, you can just create a connection record and only 2 fields. Basically, it has to contain our our date. And there it. And then, when we want to send messages. Then we have all information.
+
+207
+00:40:09.420 --> 00:40:15.229
+Timo Glastra: or do we want to allow for yeah connection? This
+
+208
+00:40:15.640 --> 00:40:18.950
+Timo Glastra: exchanges as well where we only
+
+209
+00:40:19.090 --> 00:40:22.869
+Timo Glastra: use the to to send messages. yeah.
+
+210
+00:40:22.950 --> 00:40:26.010
+Timo Glastra: to know if people have.
+
+211
+00:40:26.790 --> 00:40:45.960
+Artem Ivanov: I think we should create the record because it's In any case, it's a useful, for for instance, on the Mobile would like to get the list of contacts which I know. And I can send messages so we can create an instant record, just these 2, and they use it.
+
+212
+00:40:46.020 --> 00:40:57.860
+Artem Ivanov: and it will be simpler to reuse a logic, or it can be one. And we 2, and the it quite still quite useful from the user experience point of view.
+
+213
+00:40:59.940 --> 00:41:14.719
+Artem Ivanov: And therefore it's for it to be one. If we look at the out of bands or the calls. There is also option when party, when there is no hand shake, and by you just create great instant.
+
+214
+00:41:14.920 --> 00:41:16.100
+Artem Ivanov: Hello, correct!
+
+215
+00:41:16.180 --> 00:41:19.019
+Artem Ivanov: And it's quite similar to what we have now.
+
+216
+00:41:22.900 --> 00:41:26.080
+Berend Sliedrecht: I think there will be the benefits to
+
+217
+00:41:26.680 --> 00:41:31.389
+Berend Sliedrecht: to just send the message to it did, without having an associated record to it.
+
+218
+00:41:31.600 --> 00:41:45.779
+Berend Sliedrecht:  Just mainly freeze of you, as if you don't want a a context, necessarily with the other party.  and if the Api is just like, if if the rack it's just there, it's an hour dip.
+
+219
+00:41:46.070 --> 00:42:00.769
+Berend Sliedrecht: and I think it will be fairly nice to, instead of supplying a connection that you could also just supply this and that takes care of it.  some of the direct use case you might have, but it seems useful to me, and especially if
+
+220
+00:42:00.970 --> 00:42:08.260
+Berend Sliedrecht: but on the line, logic is exactly the same except for retreating the connection record. Then why not?
+
+221
+00:42:09.000 --> 00:42:20.519
+Timo Glastra: Yeah. Okay. yeah, I think it makes sense. It's just not probably the easiest answer in this case, because it requires like a very big change to how we handle
+
+222
+00:42:20.870 --> 00:42:24.569
+Timo Glastra: sending and receiving messages in a of but maybe
+
+223
+00:42:24.650 --> 00:42:36.110
+Timo Glastra: we could more like instead of having a connection. Id everywhere. we have something like a recipient, and then what you call the Api. The recipient can either
+
+224
+00:42:36.360 --> 00:42:49.549
+Timo Glastra: like take a connection Id, or it can take a recipient that you can optionally, then provide a sender date if you want to. say like, I want to use this. This did for sending the message.
+
+225
+00:42:49.900 --> 00:43:00.520
+Timo Glastra: We do have to look good then. for example. Now we have a credential exchange record which you have a connection id in and
+
+226
+00:43:00.600 --> 00:43:28.099
+Timo Glastra:  If you don't use a connection. Id, you can do connectionless, and then you have the outbound record that is associated with it. But if we now also support, like direct sending. And then we would need to have, like another type of way to store or interact with. And then we would need to store both what's our D, and what's there a bit they're using? So
+
+227
+00:43:28.360 --> 00:43:37.510
+Timo Glastra: I'm thinking how we could have a good abstraction in Fj that makes all these kinds of flow possible. Warren.
+
+228
+00:43:39.180 --> 00:43:49.620
+Warren Gallagher: Yeah, if I'm not sure how this would work. But I wonder if we're conflating a contact with a connection.
+
+229
+00:43:49.990 --> 00:43:58.499
+Warren Gallagher: And and perhaps they should be different. Things like, perhaps a connection doesn't have to be revealed as a contact.
+
+230
+00:43:58.810 --> 00:44:06.280
+Warren Gallagher: And so maybe you can have the same underlying abstraction, and then an indication of whether it should be saved as a contact or not.
+
+231
+00:44:07.200 --> 00:44:18.850
+Warren Gallagher: and then that that might make the whole abstraction easier to deal with in terms. Maybe not if you were starting from scratch, but in terms of, you know, trying to bend the existing architecture to support this.
+
+232
+00:44:21.810 --> 00:44:26.089
+Timo Glastra: Yeah, I think that makes sense, maybe. Yeah. Or.
+
+233
+00:44:26.250 --> 00:44:27.389
+Ariel Gentile: yeah. Yeah.
+
+234
+00:44:27.420 --> 00:44:33.970
+Ariel Gentile: Warren, you, you mean that? Probably if we even if we are sending a message to a did directly.
+
+235
+00:44:34.180 --> 00:44:36.989
+Ariel Gentile: We can still create
+
+236
+00:44:37.350 --> 00:44:38.970
+Ariel Gentile: a connection record
+
+237
+00:44:39.120 --> 00:44:41.090
+Ariel Gentile: for that exchange, because
+
+238
+00:44:41.320 --> 00:44:48.589
+Ariel Gentile: actually, I think it, it makes sense, because every connection will have a hour, the hour it and they did right? So
+
+239
+00:44:49.010 --> 00:44:59.330
+Ariel Gentile: yeah, I I think it's a. It's a good solution. Maybe we can use the the the concept, or at least internally, the concept of connection for for both.
+
+240
+00:44:59.350 --> 00:45:00.499
+for both cases.
+
+241
+00:45:03.000 --> 00:45:26.469
+Timo Glastra: Yeah, I think it may be able to allow us to reuse the connection. Abstraction we already have, and then we could keep the Api very similar. But that you then have different type of connections, and a connection doesn't always mean you have to show it as a contact, but it's more like an cryptographic relation that you have between 2 2 bits, I think.
+
+242
+00:45:27.620 --> 00:45:34.019
+Timo Glastra:  yeah, I think it. Yeah. It isn't the connection just to did barrier in in this case, I think.
+
+243
+00:45:34.060 --> 00:45:36.190
+Timo Glastra: for, like the older
+
+244
+00:45:36.230 --> 00:45:55.120
+Timo Glastra:  in the beginning, like a connection was it was also, yeah, basically, it's just fair, because it doesn't provide any trust. Basically, so yeah, it's basically a bit there. So then we could say, connection is still the foundation of most of the exchanges. But
+
+245
+00:45:55.220 --> 00:45:57.620
+Timo Glastra: You can have like
+
+246
+00:45:57.720 --> 00:46:09.860
+Timo Glastra: a thermal connections. In that case, and connection is not the same as like really having a contact for a long term relationship. It's just a cryptographic connection.
+
+247
+00:46:10.390 --> 00:46:13.059
+Timo Glastra: do you think that that would work also.
+
+248
+00:46:14.070 --> 00:46:22.330
+Berend Sliedrecht: yeah, yeah, I think so, I think, introducing, just yeah. If you have a connection record, then you introduce ephemeral through calls.
+
+249
+00:46:22.500 --> 00:46:34.370
+Berend Sliedrecht: And that would basically be a contact or a connection, something along those lines. would be good. I think, just. For like from the Api, if you could just supplied it, and then under it it will create a connection record.
+
+250
+00:46:34.550 --> 00:46:39.479
+Berend Sliedrecht:  that would be like a shortlist collection records or something
+
+251
+00:46:39.570 --> 00:46:43.560
+Berend Sliedrecht: that will be quite, quite nice. and a bit less.
+
+252
+00:46:44.760 --> 00:46:52.619
+Berend Sliedrecht: Yeah, that you have to retrieve the connection. Id first, if you already have the bits, just the nicer. Api, I think.
+
+253
+00:46:57.300 --> 00:46:59.429
+Timo Glastra: okay,
+
+254
+00:47:01.870 --> 00:47:04.730
+Timo Glastra: yeah, I think that makes sense.
+
+255
+00:47:05.170 --> 00:47:09.080
+Timo Glastra: I think that would also make probably
+
+256
+00:47:09.440 --> 00:47:10.110
+Timo Glastra: it.
+
+257
+00:47:10.300 --> 00:47:20.160
+Timo Glastra: for now the easiest approach, because then we wouldn't have to change that much like we can have the same way to handle sessions.
+
+258
+00:47:20.210 --> 00:47:23.210
+Timo Glastra: Queues everything.
+
+259
+00:47:23.770 --> 00:47:38.230
+Timo Glastra:  Let me see, there was a comments from Alex. you can still see if a message from a date you have never seen, though. Right? Yes, that's correct. So what do we do. In that case.
+
+260
+00:47:38.690 --> 00:47:42.580
+Timo Glastra: we could create a connection
+
+261
+00:47:42.650 --> 00:48:12.410
+Timo Glastra: with only The auto parties did. But yeah, I'm not sure how we should happen. Let's say you receive a credential offer from a bit. you don't have a connection with How how will we handle that? Do we create a connection record on the flight. or what's yeah. I mean that that requires. If we don't create a connection market on the fly, it it requires custom budget in the protocol implementation? I think so.
+
+262
+00:48:12.810 --> 00:48:14.660
+Timo Glastra: yeah, that's a good question.
+
+263
+00:48:15.120 --> 00:48:18.670
+Berend Sliedrecht: I I think that if we decide on something that would be
+
+264
+00:48:18.890 --> 00:48:21.849
+Berend Sliedrecht: a configuration option.
+
+265
+00:48:21.880 --> 00:48:33.389
+Berend Sliedrecht: because mainly, I think if you have someone state and you can. I have send them some big amount of of messages to I don't know to to feed those them, or whatever
+
+266
+00:48:33.590 --> 00:48:41.340
+Berend Sliedrecht: you would probably drill them if you don't have the connection. If you are. it's a big party, or maybe it's a small party.
+
+267
+00:48:41.540 --> 00:48:45.089
+Berend Sliedrecht: But yeah, if you receive something from
+
+268
+00:48:45.100 --> 00:49:01.069
+Berend Sliedrecht: if and if you don't want to receive. and you ran the message from other people. I can imagine that you would also just want to ignore them.  that kind of that kind of sounds like an application layer decision.
+
+269
+00:49:02.160 --> 00:49:09.410
+Berend Sliedrecht: That's why I'm in configuration, so you can configure as an app in a to what would happen with the messages.
+
+270
+00:49:11.850 --> 00:49:14.759
+Warren Gallagher: Right? I guess what I'm I'm wondering is.
+
+271
+00:49:14.960 --> 00:49:21.970
+Warren Gallagher: are you thinking about a configuration that would be global or a configuration that would could be more granular.
+
+272
+00:49:22.020 --> 00:49:25.690
+Warren Gallagher: Because you you may want to allow traffic from
+
+273
+00:49:25.870 --> 00:49:27.560
+Warren Gallagher: like
+
+274
+00:49:27.810 --> 00:49:38.160
+Warren Gallagher: basically ask the user whether they want to accept something in some cases. But they also may want to create a block. for instance, on certain, did so. They don't get bothered about it.
+
+275
+00:49:38.820 --> 00:49:47.220
+Warren Gallagher: And I don't know that that Afgh would be able to make that kind of decision on its own. It would need to be like, run at Runtime.
+
+276
+00:49:50.640 --> 00:49:53.939
+Berend Sliedrecht: Yeah, I I think that that that could also work.
+
+277
+00:49:54.130 --> 00:50:09.400
+Warren Gallagher:  no, so I don't know whether it like a connection like under the hood. I suppose a a dynamic connection could be created, or you know, the Whatever notification gets sent to the application layer
+
+278
+00:50:09.490 --> 00:50:23.690
+Warren Gallagher: could provide a context that needs to be passed back, and if that context is provided and passed back, then you can establish the connection at that time or discard it, if you know there's no action taken or like.
+
+279
+00:50:23.890 --> 00:50:29.529
+Warren Gallagher: So you don't end up with junk in your connection list for things that the user doesn't want to deal with at all.
+
+280
+00:50:32.180 --> 00:50:37.730
+Berend Sliedrecht: Yeah, yeah, I I not 100% sure on the exact implementation.
+
+281
+00:50:38.040 --> 00:50:47.450
+Berend Sliedrecht: I I think what you interest proposal sounds sounds good to me. It's just as long as it is something that should be done by the user. And I think if
+
+282
+00:50:47.480 --> 00:50:50.809
+Berend Sliedrecht: that basically just set the save J, we can really make that decision.
+
+283
+00:50:50.940 --> 00:50:55.580
+Berend Sliedrecht: so I don't think we should deal with it, since
+
+284
+00:50:55.610 --> 00:50:56.750
+Berend Sliedrecht: in a way like that
+
+285
+00:50:57.430 --> 00:51:04.080
+Warren Gallagher: I I think there's probably also a happy medium. Now that I think about it, which is, perhaps you know you
+
+286
+00:51:04.570 --> 00:51:10.810
+Warren Gallagher: depending on the application, the application might say, Okay, this is the default behavior I want. Afj, just take care of it.
+
+287
+00:51:11.140 --> 00:51:16.640
+Warren Gallagher: And the default behavior might be, you know. Send me everything, or.
+
+288
+00:51:16.820 --> 00:51:19.980
+Warren Gallagher: you know, send me nothing if it's unsolicited.
+
+289
+00:51:20.510 --> 00:51:39.099
+Warren Gallagher:  And then they have the ability to do the filtering themselves. So maybe maybe there's a happy medium where there's some kind of configuration that would allow for some default behavior that would be valuable for some use cases. But the flexibility to let the application make it behave the way they want.
+
+290
+00:51:41.500 --> 00:51:43.430
+Timo Glastra: Yeah, I think.
+
+291
+00:51:43.450 --> 00:51:59.879
+Timo Glastra: yeah, I think, having a simple default with a way to customize whether it's a an interface, you have to implement or call back where where you can basically implement your spam filter as as Alex, I think that that makes sense. yeah, I think what I
+
+292
+00:52:00.130 --> 00:52:08.299
+Timo Glastra: would really like to have in a solution is that it is something we can handle generically. And now that something that has to be
+
+293
+00:52:08.380 --> 00:52:09.599
+Timo Glastra: cars a
+
+294
+00:52:09.730 --> 00:52:24.629
+Timo Glastra: handled by the protocol implementation so that the issue a credential protocol doesn't have to account for. Maybe maybe there's a connection. Maybe not. Maybe it's from a date. Maybe it's a bit conf like that. It's because then the the the waste becomes like
+
+295
+00:52:24.990 --> 00:52:29.719
+Timo Glastra: exponentially complex for each protocol to implement. But, for example, having a
+
+296
+00:52:29.740 --> 00:52:48.020
+Timo Glastra: dynamic connection, which is first marked as like like been verified or like an handled, or we have a a call bank interface, where you can dynamically verify incoming messages and say, like, All right, I want to accept this message that will create like a an
+
+297
+00:52:48.030 --> 00:52:50.499
+Timo Glastra: dynamic connection.
+
+298
+00:52:50.940 --> 00:52:53.530
+Timo Glastra: I think that's yeah. Interesting
+
+299
+00:52:54.570 --> 00:52:58.039
+Timo Glastra: approaches to explore.
+
+300
+00:53:01.500 --> 00:53:13.500
+Timo Glastra:  What do you mean, Alex? With the other? Non? Fj, just need to support connections to interact with it.
+
+301
+00:53:28.440 --> 00:53:31.690
+Timo Glastra: Not sure if you can solve. But
+
+302
+00:53:38.370 --> 00:53:46.019
+Warren Gallagher: I think keeps probably agreeing with you that you don't want this in the protocol layer for the individual protocols. If I read this correctly.
+
+303
+00:53:46.710 --> 00:53:47.430
+Timo Glastra: Okay.
+
+304
+00:53:48.290 --> 00:53:51.580
+Warren Gallagher: I, I may be misinterpreting, but that's my
+
+305
+00:53:53.580 --> 00:53:58.880
+Timo Glastra: so. And I think that I think that's a good thought that the Protocols probably shouldn't have to be aware of this.
+
+306
+00:54:00.330 --> 00:54:05.220
+Timo Glastra: It's an internal implementation detail as to whether
+
+307
+00:54:05.350 --> 00:54:17.310
+Warren Gallagher: you know an unsolicited request becomes a connection or not. and whether that connection ultimately is revealed as a contact or not, those are kind of application, level decisions and not
+
+308
+00:54:18.090 --> 00:54:21.380
+Warren Gallagher: not protocol or network-based decisions. I would think.
+
+309
+00:54:24.680 --> 00:54:29.460
+Timo Glastra: yeah, okay, I think, that makes sense. yeah.
+
+310
+00:54:30.870 --> 00:54:39.400
+Timo Glastra: cool. I think in a lot of cases like when you use peer to beer dates. Then like there there is like
+
+311
+00:54:40.150 --> 00:54:47.260
+Timo Glastra: you wouldn't just randomly receive messages. So maybe we should look at, and what
+
+312
+00:54:47.640 --> 00:55:00.379
+Timo Glastra: what would be a good first iteration that we can have without making it too complex, like, I think there's been a lot of work in it. It's complete to branch, and there's some stuff missing, but I do think it would be good to have it
+
+313
+00:55:00.400 --> 00:55:06.690
+Timo Glastra: get it ready to merge. Then we can iterate on it.  so
+
+314
+00:55:07.310 --> 00:55:30.209
+Timo Glastra:  art. And do you think like it's something like this where we create dynamic connections? why do we have to the way to like have a dynamic? Maybe we can, for now keep it with the simple default. Pay for like you allow, or this allow. do you think that that would be something we could implement quite easily into the difficult fee to branch?
+
+315
+00:55:31.000 --> 00:55:32.830
+Artem Ivanov: I believe he has.
+
+316
+00:55:36.050 --> 00:55:36.740
+Timo Glastra: Okay.
+
+317
+00:55:37.160 --> 00:55:45.539
+Timo Glastra:  cool Are there any other things, then, that we would be
+
+318
+00:55:45.840 --> 00:56:07.939
+Timo Glastra:  that would need to be addressed? like, I think mediation is a nice thing to have, but also something we can add. in a follow up iteration. I think if we have, like a first thing, march with just out of band and trust being, then it becomes easy to add other wants to do people see any other parts
+
+319
+00:56:08.040 --> 00:56:11.540
+Timo Glastra: out. Yeah, that need to be addressed, or or things to note here.
+
+320
+00:56:22.950 --> 00:56:29.860
+Warren Gallagher: I guess I just have a question. I'm not sure where the specification work is at at the moment on the
+
+321
+00:56:29.870 --> 00:56:35.700
+Warren Gallagher: protocols layered on top of Didcom, v. 2. I'm getting the impression from some of this discussion that
+
+322
+00:56:35.740 --> 00:56:39.769
+Warren Gallagher: that work has either not been done yet or is incomplete.
+
+323
+00:56:40.370 --> 00:56:48.810
+Warren Gallagher: Can you fill me in on what the state of of that is, and or whether, like part of this work, has to be actually defining the new
+
+324
+00:56:48.920 --> 00:56:53.639
+Warren Gallagher: or redefining, if necessary, the new protocols to fit into did come V. To.
+
+325
+00:56:54.710 --> 00:57:17.059
+Timo Glastra: I think there has been fork done. So, for example, if you want to the mediation, there is a mediate coordination fee to which basically the did come feed to adaptation after the if you want. So not really a lot of change in functionality, but optimized for using it with, did Conf me, too. And there's some other protocols. So, for example, or is it the
+
+326
+00:57:17.120 --> 00:57:41.439
+Timo Glastra: if you grand toll free. Fe. 3 has been defined, which works with did come feed, too. So there is some work being done, but not too much yet, I would say, So we're probably gonna run into some issues. And as you can see, it's like there's not a lot of activity on here.
+
+327
+00:57:41.520 --> 00:57:58.550
+Timo Glastra: I think there has been Borg also on a Eric's intro profile feed 3, which is based on tick-com fee to and then supports. If you could end 2 and percent proof feed 3, which are did come feed to so
+
+328
+00:57:58.550 --> 00:58:14.580
+Timo Glastra: and I think the the requirements for difficult fee to intro profile would be a lot less, because a lot of it is already incorporated into discomfort to itself. So there is a foundation we can build on. But
+
+329
+00:58:14.600 --> 00:58:16.629
+Timo Glastra: it's yeah. I would say.
+
+330
+00:58:16.810 --> 00:58:19.810
+Timo Glastra: newer territory.
+
+331
+00:58:19.960 --> 00:58:22.900
+Timo Glastra: yeah. So that answer your question.
+
+332
+00:58:23.050 --> 00:58:24.419
+Warren Gallagher: Yes, it does. Thank you.
+
+333
+00:58:26.640 --> 00:58:28.540
+Timo Glastra: Cool.
+
+334
+00:58:28.950 --> 00:58:31.410
+Timo Glastra: Then,
+
+335
+00:58:31.970 --> 00:58:42.199
+Timo Glastra: Artem, do you have time in the coming weeks or so to to to work on these final tasks? I know that for Ryan
+
+336
+00:58:42.750 --> 00:58:48.550
+Timo Glastra: was interested also in the the did come to to work. I don't know if
+
+337
+00:58:51.580 --> 00:58:52.569
+Timo Glastra: I think
+
+338
+00:58:53.910 --> 00:58:56.180
+Timo Glastra: he left the call.
+
+339
+00:58:56.620 --> 00:59:04.180
+Timo Glastra:  yeah. Oh, well, so I'll ask them next week. But yeah, do, you have work time to work on this or.
+
+340
+00:59:05.700 --> 00:59:19.599
+Artem Ivanov: I try to find, a little bit time which is quite, quite busy for the moment. and then, if I it will be able to change to applies this change quickly.
+
+341
+00:59:19.730 --> 00:59:29.219
+Artem Ivanov: or if I have some problems, and I understand that it take longer time, I will notify you and inform.
+
+342
+00:59:29.800 --> 00:59:49.350
+Timo Glastra: okay, yeah, no, that's a that's a that's a good answer. okay, thank you. And I think, yeah, we at least, I think it was good discussion, and we have some consensus on, how? How do we want the Api and integrate it with the connections? so then we at least know what's still left and needs to be done.
+
+343
+00:59:50.260 --> 00:59:56.349
+Timo Glastra: cool. Thank you for this presentation. Could you? attach it to the the meeting notes?
+
+344
+00:59:56.650 --> 01:00:03.699
+Artem Ivanov: yeah. Touch. But for some reason shows unknown attachment. I'll try to do it once again.
+
+345
+01:00:04.060 --> 01:00:09.520
+Timo Glastra: I think, yeah, it it It's I think if I do it like this, I can.
+
+346
+01:00:10.450 --> 01:00:15.459
+Artem Ivanov: I? Yeah. So I I can download this and attachment. That's that's perfect. Okay.
+
+347
+01:00:15.810 --> 01:00:16.900
+Timo Glastra: thank you.
+
+348
+01:00:17.260 --> 01:00:33.790
+Timo Glastra:  So we're out of time. Basically. I wanted to still discuss the open wallets foundation. Maybe I can also put it in the discourse, and we can pick it up next week. But I was curious to hear like
+
+349
+01:00:33.850 --> 01:00:38.000
+Timo Glastra:  what the
+
+350
+01:00:38.020 --> 01:00:49.930
+Timo Glastra: we have forward to discuss it here a bit. But whether the Fj community would be interested in like a potential move of the project. to the open wallets. Foundation.
+
+351
+01:00:50.100 --> 01:01:08.539
+Timo Glastra: er like. From the Era's discussions there came out of like We're not ready to move currently to owf, also because it's very early states but that we are looking at more collaboration and maybe moving projects over gradually. so
+
+352
+01:01:08.560 --> 01:01:12.920
+Timo Glastra: nothing is final yet. But I was thinking, like,
+
+353
+01:01:13.650 --> 01:01:30.860
+Timo Glastra: yeah, I'm quite interested in it. So I was thinking, we as there are some Javascript community could be like one of those first projects that move over. Try to see how it goes, whether everything goes well. Then other projects could be moved on moved over as well later on.
+
+354
+01:01:31.020 --> 01:01:35.140
+Timo Glastra: so yeah, something to this. consider, I'll bring it up
+
+355
+01:01:35.170 --> 01:01:41.130
+Timo Glastra: immort until next week, so we can have a discussion. But yeah, think of that. yeah.
+
+356
+01:01:41.910 --> 01:01:42.950
+Timo Glastra: for next week.
+
+357
+01:01:43.180 --> 01:01:55.350
+Timo Glastra:  okay. So then, we yeah, we didn't have time for the all these questions. We'll touch on those all next week. thanks all. And
+
+358
+01:01:55.600 --> 01:01:56.529
+Timo Glastra: see you soon.
+
+359
+01:01:57.350 --> 01:01:59.000
+Alexander Shenshin: Thanks. Goodbye.
+
+360
+01:01:59.010 --> 01:02:00.310
+Artem Ivanov: Thank you. Bye.
+

@@ -1,0 +1,274 @@
+WEBVTT
+
+1
+00:02:24.420 --> 00:02:32.420
+Patrik Stas: I'll hold there. It seems like, today it's gonna be again a sort of podcastage format, so i'll just go over
+
+2
+00:02:32.680 --> 00:02:38.530
+Patrik Stas: the stuff which in which been happening the last week, and what the race
+
+3
+00:02:39.400 --> 00:02:41.330
+Patrik Stas: plan for the next one.
+
+4
+00:02:41.710 --> 00:02:43.809
+Patrik Stas: So let me share my screen
+
+5
+00:02:46.010 --> 00:03:01.189
+Patrik Stas: all right. so there is no further discussion to do as we currently don't have a participants online. So i'll just go through, and the the gender points
+
+6
+00:03:02.440 --> 00:03:14.280
+Patrik Stas: so first the for the recent work we have done we have, we had a bunch of releases over the last week to kind of clearly separate some of the important work.
+
+7
+00:03:14.380 --> 00:03:22.559
+Patrik Stas: so we first release 0 48, which basically covers contains
+
+8
+00:03:22.610 --> 00:03:26.459
+Patrik Stas: pr which has been already covered at the previous week.
+
+9
+00:03:27.020 --> 00:03:33.709
+Patrik Stas: mostly. then, after the end, those really is 0 49, but due to
+
+10
+00:03:33.720 --> 00:03:51.359
+Patrik Stas: Ci issues and like various silly obstructions happening. Those subsequent release 0, 49 one which should be considered sort of the proper full and proper one. so
+
+11
+00:03:51.370 --> 00:03:59.170
+Patrik Stas: this contain, added, Ios leg legacy. I was rapper
+
+12
+00:03:59.340 --> 00:04:04.260
+Patrik Stas: release job which is really seeing the
+
+13
+00:04:04.460 --> 00:04:14.029
+Patrik Stas: ios rapper in the previous form before the refactoring which has been done by pool and merge the previous week.
+
+14
+00:04:14.440 --> 00:04:20.789
+Patrik Stas: so sort of to enable is on migration for whoever
+
+15
+00:04:20.820 --> 00:04:24.369
+Patrik Stas: haven't yet updated the
+
+16
+00:04:24.460 --> 00:04:26.910
+Patrik Stas: synced up with the record changes
+
+17
+00:04:27.280 --> 00:04:30.289
+Patrik Stas: next up.
+
+18
+00:04:30.310 --> 00:04:36.900
+Patrik Stas: That was a small fix regarding reading and
+
+19
+00:04:38.480 --> 00:04:42.470
+Patrik Stas: from the in the ledger is the routing keys.
+
+20
+00:04:42.610 --> 00:04:44.870
+Patrik Stas: Field is completely omitted.
+
+21
+00:04:45.260 --> 00:04:47.289
+Patrik Stas: on the ledger
+
+22
+00:04:48.230 --> 00:04:56.160
+Patrik Stas: and lastly and most importantly, I think, oh, 0, 50 nice round number release.
+
+23
+00:04:56.580 --> 00:05:02.509
+Patrik Stas: which notably contain this huge Pr from George.
+
+24
+00:05:02.840 --> 00:05:04.810
+Patrik Stas: 6, 0,
+
+25
+00:05:05.060 --> 00:05:06.860
+Patrik Stas: 6, 4, 8
+
+26
+00:05:07.070 --> 00:05:17.699
+Patrik Stas: we just modularizing the S architecture and enable opting into either using Vdr tools as a sort of
+
+27
+00:05:17.970 --> 00:05:33.210
+Patrik Stas: sort of the engine under the hood for dealing with the ledger credentials and wallet, or, alternatively, the new approach up by opting into in Dvdr and in the credentials
+
+28
+00:05:33.340 --> 00:05:38.549
+Patrik Stas: instead of you know, vv. Our tools or in the SDK
+
+29
+00:05:39.890 --> 00:05:43.550
+Patrik Stas: so this is. This was a huge Pr
+
+30
+00:05:45.430 --> 00:05:56.430
+Patrik Stas: George has added the nice diagram of the update. Basically how the architecture will be for and how it looks now.
+
+31
+00:05:56.560 --> 00:06:04.339
+Patrik Stas: we have also covered this in the previous call. So I'm. I'm not gonna repeat it again. But it's here
+
+32
+00:06:04.480 --> 00:06:09.229
+Patrik Stas: for whoever is interested in details of what has been changed
+
+33
+00:06:10.070 --> 00:06:16.889
+Patrik Stas: what is missing yet? in this piece is support for us. Car what?
+
+34
+00:06:17.530 --> 00:06:19.889
+Patrik Stas: And that's something that
+
+35
+00:06:20.090 --> 00:06:22.369
+Patrik Stas: I've put
+
+36
+00:06:22.870 --> 00:06:26.119
+Patrik Stas: into in progress.
+
+37
+00:06:26.590 --> 00:06:29.220
+Patrik Stas: in progress
+
+38
+00:06:29.590 --> 00:06:34.460
+Patrik Stas: part of the agenda. Well, I should fix it, though, because
+
+39
+00:06:34.610 --> 00:06:43.409
+Patrik Stas: it's hardly in the review, yet it's as I know the affords on. These are only starting. So
+
+40
+00:06:45.420 --> 00:06:47.380
+Patrik Stas: i'll just slightly find this.
+
+41
+00:06:49.890 --> 00:07:00.329
+Patrik Stas: Yeah. So we have a George Your phone initiative to implement Aries as car support
+
+42
+00:07:01.030 --> 00:07:15.799
+Patrik Stas: what's also missing Here is the support for using these new libraries. when calling functions in the role of sure or approved verifier. So that's still something. I will have to work on.
+
+43
+00:07:19.850 --> 00:07:26.600
+Patrik Stas: And then yeah, we have we have one more task in progress. Right now.
+
+44
+00:07:27.330 --> 00:07:31.970
+Patrik Stas: as a who's created this new issue to support did key
+
+45
+00:07:32.040 --> 00:07:40.970
+Patrik Stas: a res of C 300 sixty- which basically it's as a support for processing messages which
+
+46
+00:07:42.420 --> 00:07:48.760
+Patrik Stas: instead of reading, instead of expecting this, as they say, naked keys
+
+47
+00:07:48.930 --> 00:07:55.810
+Patrik Stas: to be in, you know, and included in the in the whatever they are. His message is
+
+48
+00:07:55.860 --> 00:08:12.400
+Patrik Stas: is that format them accordingly to the Did key specification, which basically pre fixing them with some metadata. So it's easier to tell what sort of key we're dealing with.
+
+49
+00:08:15.830 --> 00:08:21.960
+Patrik Stas: Yeah, and that's pretty much it Today's call is gonna be short.
+
+50
+00:08:23.850 --> 00:08:28.809
+Patrik Stas: There's a upcoming work pieces we've discussed last week.
+
+51
+00:08:30.130 --> 00:08:33.070
+Patrik Stas: and these are yet to be addressed.
+
+52
+00:08:33.830 --> 00:08:46.049
+Patrik Stas: I think I think from up this point of view. I think this would be one of the top priorities now to remove a public agent structure, which
+
+53
+00:08:47.950 --> 00:08:50.460
+Patrik Stas: as we found out
+
+54
+00:08:51.190 --> 00:08:52.470
+Patrik Stas: in
+
+55
+00:08:53.170 --> 00:09:01.989
+Patrik Stas: at this issue right here. Nobody. Nobody minds to have have removed, so that will be gone soon.
+
+56
+00:09:05.940 --> 00:09:10.880
+Patrik Stas: yeah. And then secondly, I think we'll be focusing on
+
+57
+00:09:11.120 --> 00:09:23.969
+Patrik Stas: eliminating, mediated connection in test so trying to liberate the code based from from coupling it with the
+
+58
+00:09:25.000 --> 00:09:40.100
+Patrik Stas: and then surely the other points as well. But yeah, we need a main power, and and it's also time to be spend on this. So yeah, let's let's focus on the stuff we do in progress. And hopefully, something from these items
+
+59
+00:09:40.330 --> 00:09:42.279
+Patrik Stas: we'll get started as well
+
+60
+00:09:42.660 --> 00:09:48.009
+Patrik Stas: that being said I see that
+
+61
+00:09:48.120 --> 00:09:53.540
+Patrik Stas: nobody has entered since the call started, which is fine.
+
+62
+00:09:53.590 --> 00:09:54.990
+Patrik Stas: So
+
+63
+00:09:56.410 --> 00:09:58.820
+Patrik Stas: oh, i'll
+
+64
+00:09:58.850 --> 00:10:02.059
+Patrik Stas: I guess They also mark the end of the
+
+65
+00:10:02.080 --> 00:10:07.320
+Patrik Stas: this podcast form call and now
+
+66
+00:10:09.700 --> 00:10:11.440
+Patrik Stas: yeah, I'll
+
+67
+00:10:11.560 --> 00:10:12.310
+okay.
+
+68
+00:10:12.480 --> 00:10:23.090
+Patrik Stas: I'll tune hopefully with the more participation next week again. So until then cheers everybody who's been listening and thank you.
+

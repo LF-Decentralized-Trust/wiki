@@ -1,0 +1,50 @@
+00:07:39	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=24774622
+00:12:33	Kyle Den Hartog:	When do you want me to bring it up? I think we should add 0066 to the encryption envelope
+00:39:33	Paul Knowles:	Comment to put on the radar of the DID experts …
+00:39:40	Paul Knowles:	“It would be great if we could come up with a stable identifier that can be used for any use case involving immutable data points. A popular idea that has been touched upon on a number of occasions is the concept of using a *DRI* (Decentralized Resource Identifier) which is basically a similar concept to URL but content based. DRI could become a standard for how you link data points which are immutable. In other words, it wouldn't matter whether we're dealing with a Sovrin schema or an IPFS schema as 'dri://sov/schema/112354' and 'dri://ipfs/112354' would point to the same content. In this way, no matter where the object is housed, you can be 100% sure that we're referencing the same object. This is a similar concept to a _magnet link_. A DRI would make the whole process very simple. [ Ref. for _magnet link_: https://en.wikipedia.org/wiki/Magnet_URI_scheme ]. Thoughts and feedback welcome.”
+00:41:33	Ajay Jadhav:	Can you please share the URL to this presentation ?
+00:42:39	Sam Curren (TelegramSam):	https://docs.google.com/presentation/d/1dN-jlpZcdcI0B5NSuFSNdQBlUTdHQBUJ_xyxHDJTnIs/edit?usp=sharing
+00:43:31	Ajay Jadhav:	Thanks
+00:45:09	Troy Ronda:	Identity Agents and Mediators
+00:47:12	Paul Knowles:	Common standards for Key Management Service
+00:47:17	Troy Ronda:	Yes. Layers 2 and 3.
+00:47:30	Troy Ronda:	Go framework used this description: From these building blocks, implementors can build agents, mediators and other DIDComm features in a manner that is agnostic to a particular DID network or governance framework.
+00:49:06	Troy Ronda:	(https://github.com/hyperledger/aries-framework-go)
+00:50:57	Troy Ronda:	Portable is potentially a larger topic when combined with digital hubs.
+00:52:37	Troy Ronda:	For some key protection, there may be limits to portability too.
+00:54:28	Troy Ronda:	There is also likely differences in portability objectives between personal and enterprise agents.
+00:55:33	Steve Magennis:	E.g., CSV is exportable and importable, but not necessarily lossless in terms of functionality
+00:56:30	Drummond Reed:	I wouldn’t even call FB a “standard”
+00:56:39	Michael Lodder:	@drummun haha
+00:56:50	Drummond Reed:	+1 to having an RFC defining the requirement for portability
+01:01:50	Troy Ronda:	A minor nuance on code is that we also produce release libraries and controller projects can also end up with docker (or similar images)
+01:02:15	Stephen Curran:	+1 to Troy's comment
+01:05:05	Drummond Reed:	A “standard” and a “specification” are two different things. We SHOULD be creating specifications in addition to design documents.
+01:06:59	brent:	Some people are upset that we're calling anything an RFC
+01:07:32	Darrell ODonnell:	@Brent - perhaps “spec” is a better term.
+01:08:37	Darrell ODonnell:	Spec vs design document - I can’t hold a partner/vendor to “comply with a design document” as measuring that is almost impossible. “Do you meet specifications 001, 007 (had to), and 008?” should be unambiguous.
+01:10:09	Cam Parra:	We’re diving too deep into semantics again
+01:10:20	Darrell ODonnell:	+1
+01:12:05	Cam Parra:	Lets move this conversation from how do we architect things to how do we work on things
+01:12:08	Cam Parra:	+1 to richard
+01:18:37	Troy Ronda:	We are designing aries-framework-go to have plugin points.
+01:18:44	Troy Ronda:	without reliance on rust.
+01:19:04	Troy Ronda:	You can plugin c-callable libs if desired by the implementation.
+01:21:11	Troy Ronda:	(By implementation, I mean the end-developer who is building a particular agent or application). It’s their choice.
+01:25:57	Richard Esplin:	I agree with Sam's analysis, and I agree we should be deliberate about the decision we make instead of falling into a pattern by accident.
+01:27:38	Troy Ronda:	We are also attempting to design the plugin points along the lines in slide 10 so that we can have compatibility with other implementations of these components. It’s just not our default to have dependencies on external libraries.
+01:28:03	Darrell ODonnell:	@Troy - +1 to starting with the plugin design points.
+01:30:46	Cam Parra:	I am designing the interface for the parts of KMS aka KAMS (since it’s mine implementation *sass intensifies)  anyone who would like to help me please let me know and we can work on the API together
+01:30:56	Cam Parra:	My own *
+01:31:59	Drummond Reed:	+1 to Robert’s points
+01:32:14	Ken Ebert:	I agree with Robert
+01:32:18	Kyle Den Hartog:	+1
+01:33:02	Richard Esplin:	There will always be alterantive implementations of Aries code bases. But should they be in Hyperledger and using the Aries trademark?
+01:33:11	Troy Ronda:	BTW: one of the opportunities we got from a pure go implementation was the ability to target a WASM output (as an experiment).
+01:33:31	Kyle Den Hartog:	Is Aries a trademark?
+01:33:46	Richard Esplin:	It should be. I thought all the Hyperledger projects where trademarked.
+01:33:57	Richard Esplin:	I could be wrong about that. But it doesn't change the analysis.
+01:34:05	Kyle Den Hartog:	Are we supposed to go through an approval process to use it?
+01:34:14	Paul Knowles:	Novartis are actually using Aries RFCs to build their Architecture Handbook. On that note, I guess they are looking at RFCs as specs.
+01:34:20	Troy Ronda:	I think it is very important to have modular libraries that can be loaded into plugin points.
+01:34:38	Troy Ronda:	Not a single C library.

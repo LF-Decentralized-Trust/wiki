@@ -1,0 +1,30 @@
+00:06:21	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=16321260
+00:08:28	Matt Raffel:	Sam, can you add me as an attendee:  Matt Raffel email:mattr@kiva.org
+00:08:54	Oliver Terbu:	Pls also add me
+00:09:00	Oliver Terbu:	oliver.terbu@consensys.net
+00:15:01	Kyle Den Hartog:	AWESOME!
+00:22:26	Mike Richardson:	@StephenCurran when is that meeting you mentioned? Is there a link somewhere?
+00:24:00	Alan Krassowski:	Join us for: aries-cloudagent-python: Architectural Deep Dive - Tuesday July 23, 8AM Pacific - https://zoom.us/j/491220480
+00:24:28	Robert Mitwicki:	@StephenCurran why semnatic versioning is not in use? https://semver.org/ is there just different way of versioning up to 1.0 or overall there is different flow? 
+00:24:57	Stephen Curran:	Join us for: aries-cloudagent-python: Architectural Deep Dive - Tuesday July 23, 8AM Pacific - https://zoom.us/j/491220480
+00:25:14	Mike Richardson:	thanks!
+00:25:35	Stephen Curran:	We are using semvar.  We're at 0.2.0 and the progression will be 0.6.0, 0.8.0 and 1.0.0
+00:27:10	Robert Mitwicki:	great, I think I got it wrong. Thanks for clarification. 
+00:34:28	jonnycrunch:	q+
+00:42:07	Sam Smith:	I just filed an issue with a simple approach to this problem.  https://github.com/hyperledger/aries-rfcs/issues/131
+00:49:28	Steve McCown:	Can the signature be optional?
+01:05:35	Sam Smith:	I think the comment that we don't want multi-factor but want the protocol and crypto to provide it is problematic. When your system is based on self-asserted attributes and self-asserted identifiers and controlling signatures the root of trust is inherently untrustworthy. A verifiable credential adds no additional trust unless that credential itself was created with multi-factor authentication. So it can't be turtles (ie self asserted credentials) all the way down. Otherwise one is just piling on self-assertions with no additional security.
+01:07:00	Sam Smith:	So a trustworthy credential might require a biometric in person etc as another factor.  The trust of an institution is based on some history of behavior outside of the protocol.
+01:07:34	Sam Smith:	But should the multi-factor occur at the invitation layer or the credential layer is a valid question
+01:09:06	Sam Smith:	I think a signature can be optional. It just makes the recipient more vulnerable to spam and DDOS attacks.
+01:09:41	moushmi.banerjee:	recipientKeys will be unresolvable unless the recipient knows what type of the key it is. So some identifier for the keyType needs to be included.
+01:10:09	Sam Smith:	But it adds complexity. Does the recepient have to respond with why it dropped the invite or may it silently drop it without a signature when the recipient requires a signature
+01:10:17	Robert Mitwicki:	https://github.com/multiformats/multicodec
+01:11:18	Daniel Hardman:	Sam: the DID exchange protocol isn’t trying to achieve trust. It’s trying to do the analog of Diffie-Hellman negotiation in a TLS session.
+01:12:04	Kyle Den Hartog:	https://github.com/hyperledger/aries-rfcs/tree/master/features/0066-non-repudiable-cryptographic-envelope#connect-protocol-example
+01:16:26	Steve McCown:	@sam:  I don’t disagree.  My thought was just whether the multi-factor trust elements should be a mandatory or optional part of the invitation protocol.  Since they rely on a 3rd party endorsement, it seems like they should be optional.  There are benefits to both, though.
+01:19:10	jonnycrunch:	here is the list of multicodecs.  #72 is ed25519 pub key https://github.com/multiformats/multicodec/blob/master/table.csv
+01:24:07	Oliver Terbu:	are there now 2 regular hl Aries calls per week? if so, have both the same focus?
+01:24:29	Sam Smith:	+1  @telegramsam
+01:33:13	Matt Raffel:	Sorry guys….I have to drop for another mtg
+01:36:36	Stephen Curran:	+1 to Daniel's comment about options

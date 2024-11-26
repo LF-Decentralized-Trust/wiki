@@ -1,0 +1,31 @@
+00:06:55	Kyle Den Hartog:	Sam did my demo of the signature stuff get removed from the agenda?
+00:08:07	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2019-06-12+Aries+Working+Group+Call
+00:09:10	Andrew Hughes:	@Sam - can you please add me - don’t want to set up a userid…
+00:12:43	Andrew Hughes:	Michael Richardson - would you mind muting? hearing typing drops
+00:33:09	Michael Richardson:	sorry...done
+00:47:54	Steve Magennis:	thank you
+00:51:30	Andrew Hughes:	Thanks for letting me hog the call today - I’ll post more contact information and links in the meeting notes for the call. If you’d like to talk about implementation ideas, we are eager to hear them - email is best.
+01:09:47	Tobias Looker:	Thanks!
+01:12:59	Robert Mitwicki:	seems that part of the Stephan's talk is encrypted ;)
+01:13:14	George Aristy:	ha! yep
+01:13:15	Tobias Looker:	Ha yeah I am getting that too!
+01:13:18	Tomislav Markovski:	I thought that was only me
+01:13:37	Drummond:	It’s a special feature of Aries calls. Dogfooding!!
+01:31:45	Drummond:	I like aries-python-agent
+01:36:08	Drummond:	So calling it Aries-python-agent covers that nicely
+01:36:37	moushmi.banerjee:	Its not clear what is the split between Aries and Indy.
+01:36:38	Steve McCown:	Is it the intent to provide “Aries Agent” for all code bases?  Otherwise, many will need to jump to the SDK layer, anyway…
+01:37:03	moushmi.banerjee:	Is Aries the client side frameworks including agents and wallets?
+01:37:20	Daniel Hardman:	yes
+01:37:33	Drummond:	I think the idea is to have multiple language implementations of an Aries agent.
+01:38:23	moushmi.banerjee:	Makes sense
+01:38:33	Drummond:	which is why naming them by language makes sense, e.g., Aries-rust-agent, aries-nodejs-agent, etc
+01:38:36	moushmi.banerjee:	Aries might still need some SDK’s for agents and wallets
+01:38:43	Drummond:	yes
+01:38:57	Drummond:	Gotta drop for another call
+01:41:47	Nader Helmy:	This meta-level discussion should really be captured somewhere
+01:41:57	Nader Helmy:	The outcomes, anyway
+01:42:04	Kyle Den Hartog:	It’s my intent to make it into an RFC
+01:42:24	Nader Helmy:	+1 thanks Kyle
+01:43:10	Nader Helmy:	especially what’s a framework vs what’s a protocol vs what is a component and how Aries relates to all that
+01:45:21	Robert Mitwicki:	isn't Aries is skeleton to which people can pull any plugins and components which they need?

@@ -1,0 +1,1586 @@
+WEBVTT
+
+1
+00:00:22.170 --> 00:00:34.350
+Tracy Kuhrt: Alright, welcome everybody to the February 3 hyper ledger tlc call and, as you are probably all aware, there are two things that you must abide by on this call.
+
+2
+00:00:34.770 --> 00:00:45.900
+Tracy Kuhrt: The first one is the antitrust policy notice, which is currently displayed on the screen and the second one is our code of conduct, which is linked in the agenda.
+
+3
+00:00:48.150 --> 00:00:49.200
+Tracy Kuhrt: Just don't be a jerk.
+
+4
+00:00:50.250 --> 00:01:03.000
+Tracy Kuhrt: And everybody is welcome here and able to participate so welcome to our guests that she on the call who are not tasc numbers, you are also welcome to participate and provide your thoughts and feedback as well.
+
+5
+00:01:04.500 --> 00:01:10.500
+Tracy Kuhrt: So we have two announcements or two official announcements, maybe some other announcements will come out of this but.
+
+6
+00:01:10.860 --> 00:01:18.330
+Tracy Kuhrt: The first one is one that we see every week, the Dev weekly developer newsletter goes out each Friday, if you have anything.
+
+7
+00:01:18.840 --> 00:01:27.210
+Tracy Kuhrt: Related to your project you're saying you're working group anything that's going on in the Community, that you think would be of interest to our hyper ledger developers.
+
+8
+00:01:27.660 --> 00:01:42.210
+Tracy Kuhrt: Please consider clicking on that link there and adding a comment on the wiki page to be included in that newsletter the second one last week men talked about the 2020 few mentorship Program.
+
+9
+00:01:44.730 --> 00:01:55.650
+Tracy Kuhrt: The call for mentors and projects has been initiated as of February 1 I think it was so if you have a project proposal that you would like to consider having.
+
+10
+00:01:56.700 --> 00:02:11.430
+Tracy Kuhrt: brought to the tasc for consideration Please submit a project proposal there is a timeline information that's available for you to take a look at, as well as different guidelines for you, for submitting the proposal.
+
+11
+00:02:12.630 --> 00:02:29.820
+Tracy Kuhrt: really great program obviously been very successful in the past year, so please consider doing that I have seen a few chats going on in our chats with different projects, considering already what sort of projects they'd like to bring forth so that's really good news.
+
+12
+00:02:30.960 --> 00:02:39.600
+Tracy Kuhrt: So those are the official announcements i'd like to see if there's anybody on the call, who has an announcement that they would like to make to the TC.
+
+13
+00:02:48.390 --> 00:02:57.120
+Tracy Kuhrt: Alright, see no hands see nobody coming off mute I will take that as a no, we do have quarterly reports that have been submitted.
+
+14
+00:02:57.750 --> 00:03:05.190
+Tracy Kuhrt: The explorer report has been submitted from last year Q4 so please have a look at that I.
+
+15
+00:03:06.090 --> 00:03:12.690
+Tracy Kuhrt: saw this morning, I think there were only five people who have had a chance to look at that, so far, so please go ahead and take a look at that.
+
+16
+00:03:13.530 --> 00:03:26.430
+Tracy Kuhrt: The sawtooth report came in last week, but it came in, I think, on Wednesday, so I left it on the the list for this week in case any sort of questions came up and, but I just have.
+
+17
+00:03:27.570 --> 00:03:31.770
+Tracy Kuhrt: to know whether or not anybody has any questions about explorer or sawtooth.
+
+18
+00:03:32.970 --> 00:03:36.600
+Tracy Kuhrt: any sort of discussion, we would like to have related to those reports.
+
+19
+00:03:46.620 --> 00:04:06.810
+Tracy Kuhrt: right again see no hands see nobody come off mute i'm going to take it as no I will note for those of you who have not looked at the explorer report, yet they did mention that they are struggling with project help and are looking for more people to come in and contribute to that project.
+
+20
+00:04:08.730 --> 00:04:09.390
+Tracy Kuhrt: and
+
+21
+00:04:10.530 --> 00:04:14.880
+Tracy Kuhrt: I saw David, I think you had commented about ways that they might.
+
+22
+00:04:16.110 --> 00:04:21.690
+Tracy Kuhrt: work with you to to get more contributors involved so much appreciated there for that call out.
+
+23
+00:04:25.410 --> 00:04:26.190
+Tracy Kuhrt: yeah then yeah.
+
+24
+00:04:26.820 --> 00:04:42.570
+Daniela Barbosa: hey just wanted to let everyone know, yes, this is a project, we have reached out to the original contributing company, who had said that they would like to assist as well, so we'll be putting a plan together to bring that back to the explore project.
+
+25
+00:04:43.350 --> 00:04:43.920
+Tracy Kuhrt: Okay, good.
+
+26
+00:04:45.960 --> 00:04:46.080
+Daniela Barbosa: Thank.
+
+27
+00:04:46.200 --> 00:04:46.590
+You.
+
+28
+00:04:48.960 --> 00:04:49.470
+Tracy Kuhrt: All right.
+
+29
+00:04:51.480 --> 00:05:09.240
+Tracy Kuhrt: So yeah other than that we have areas in indy that we're looking to get project reports from we're also looking next week for the roja report to come in, I get include borough on the list, even though it's darn it, I think you know some of our discussion here today.
+
+30
+00:05:11.130 --> 00:05:14.730
+Tracy Kuhrt: around what we will do with donut projects is it may be.
+
+31
+00:05:16.860 --> 00:05:25.980
+Tracy Kuhrt: Interesting conversation and, but I do think it's worthwhile to for us to remember that these projects still are on the.
+
+32
+00:05:27.150 --> 00:05:30.810
+Tracy Kuhrt: calendar for providing PSC project updates.
+
+33
+00:05:33.870 --> 00:05:43.320
+Tracy Kuhrt: Alright, so let's get into the meat of the meeting and let's talk about first the project lifecycle discussion there's two items here that I want to talk about.
+
+34
+00:05:45.210 --> 00:05:56.550
+Tracy Kuhrt: That, I think right you brought up to us, which I think are good discussions have as tasc so let's start with the deprecate it versus end of life for avalon.
+
+35
+00:05:58.320 --> 00:06:05.310
+Tracy Kuhrt: I think if you look at our project life cycle, you will see that deprecate it projects are projects that.
+
+36
+00:06:08.160 --> 00:06:08.790
+Tracy Kuhrt: Are.
+
+37
+00:06:09.990 --> 00:06:19.470
+Tracy Kuhrt: expecting to have people maintaining that for at least another six months and, as we all know, avalon has.
+
+38
+00:06:21.720 --> 00:06:39.690
+Tracy Kuhrt: stopped supporting that I think, maybe, almost a year ago, so I think that the question here is, should we have sent everyone directly to end of life, instead of putting it through the deprecate it stage first and then waiting, six months before we end the.
+
+39
+00:06:40.860 --> 00:06:41.370
+Tracy Kuhrt: DEMO.
+
+40
+00:06:43.950 --> 00:06:54.510
+Danno Ferrin: So one of my questions is where to get it was stuck working on over a year ago, because the q2 and q1 hyper ledger have lunch reports, the first words on project health Babylon is healthy.
+
+41
+00:06:54.990 --> 00:07:08.670
+Danno Ferrin: I mean, why should we not believe meditators and they submit a report like that and q2 submitted in June, so the earliest that things could have not been functional, I would say is June, because they may have claimed it was healthy.
+
+42
+00:07:09.750 --> 00:07:18.570
+Danno Ferrin: So you know to operate as if they've been non functional since March, you know we don't have eyes in there to say otherwise it's based off of.
+
+43
+00:07:18.930 --> 00:07:26.610
+Danno Ferrin: intel's pulling out that the other non Intel contributors are saying we're gonna make a go for it, and then they decided in the end, not to go to conference computing sorry uh but.
+
+44
+00:07:30.120 --> 00:07:31.260
+Tracy Kuhrt: yeah it's a.
+
+45
+00:07:31.530 --> 00:07:32.550
+Tracy Kuhrt: it's a good.
+
+46
+00:07:34.200 --> 00:07:40.110
+Tracy Kuhrt: question about the help I guess one right.
+
+47
+00:07:41.160 --> 00:07:55.170
+Tracy Kuhrt: If we look at kind of the statistics, I guess they've had three contributors in the past year when active contributor, in the last month as of February 1.
+
+48
+00:07:55.830 --> 00:08:05.580
+Tracy Kuhrt: i'm sorry the last six months, so refers, so I think that's maybe where the the year is coming from it's just a small number of commits that have been happening.
+
+49
+00:08:06.720 --> 00:08:11.550
+Tracy Kuhrt: But yes you're exactly right if the project is telling us they're all good.
+
+50
+00:08:12.600 --> 00:08:15.270
+Tracy Kuhrt: We cannot do anything to help them or to.
+
+51
+00:08:16.590 --> 00:08:23.400
+Tracy Kuhrt: expect that those are different, and I think that's maybe part of our second discussion means to to really talk about how do we get.
+
+52
+00:08:24.990 --> 00:08:30.540
+Tracy Kuhrt: analytics information that will help us understand the state of projects, other than the project reports.
+
+53
+00:08:34.830 --> 00:08:35.340
+Ry Jones: When I.
+
+54
+00:08:36.480 --> 00:08:42.180
+Ry Jones: said this earlier, I will admit that I was looking primarily at.
+
+55
+00:08:43.320 --> 00:08:50.430
+Ry Jones: commit history and PR comments stuff like that activity in github.
+
+56
+00:08:51.660 --> 00:08:59.520
+Ry Jones: I did not look at the quarterly reports, so my assertion around the end of activity could very well be.
+
+57
+00:09:00.630 --> 00:09:01.050
+Ry Jones: wrong.
+
+58
+00:09:02.130 --> 00:09:04.020
+Ry Jones: Perhaps they were active in some other forum.
+
+59
+00:09:15.000 --> 00:09:24.480
+Tracy Kuhrt: Other thoughts on this particular topic we okay with having a project that's in deprecating State that is not getting any support whatsoever.
+
+60
+00:09:36.270 --> 00:09:36.660
+Tracy Kuhrt: part.
+
+61
+00:09:38.430 --> 00:09:44.430
+Hart Montgomery: I mean Tracy I totally agree with you that by the definition avalanche be end of life and not deprecate it.
+
+62
+00:09:48.690 --> 00:09:55.200
+Tracy Kuhrt: yeah I mean I think that's the key here right is just looking at what we've written in the past for a project lifecycle.
+
+63
+00:09:58.110 --> 00:10:08.580
+Tracy Kuhrt: And I think the other piece of this is that, according to the the graph at the top, we can go directly from incubation to end of life.
+
+64
+00:10:13.320 --> 00:10:17.220
+Tracy Kuhrt: there's there's nothing that says, we have to go through a duplicated phase first.
+
+65
+00:10:23.370 --> 00:10:25.170
+Tracy Kuhrt: Any other thoughts on this.
+
+66
+00:10:30.120 --> 00:10:30.330
+Arnaud J Le Hors (IBM): So.
+
+67
+00:10:30.360 --> 00:10:31.260
+Anybody.
+
+68
+00:10:32.370 --> 00:10:34.770
+Tracy Kuhrt: who's against moving is the end of life.
+
+69
+00:10:36.630 --> 00:10:37.620
+Tracy Kuhrt: Oh no I saw you came up.
+
+70
+00:10:38.430 --> 00:10:41.250
+Arnaud J Le Hors (IBM): yeah so i'm not against it, I just you know.
+
+71
+00:10:43.650 --> 00:10:51.330
+Arnaud J Le Hors (IBM): In some ways, I feel like you're in it there's not much harm in keeping it where it is now for a bit longer but.
+
+72
+00:10:51.930 --> 00:11:07.170
+Arnaud J Le Hors (IBM): You know, if anything, it, you know it provides an opportunity for anybody else to come back and say Oh, I want to resurrect it, but I think the likelihood in practice is very low, so i'm fine either.
+
+73
+00:11:10.500 --> 00:11:10.830
+Tracy Kuhrt: anything.
+
+74
+00:11:11.970 --> 00:11:21.480
+Nathan George: I would just point out that this is a case where it's more important to be patient, that is to be correct i'm just like arno said there's no harm in it being where it is now.
+
+75
+00:11:22.650 --> 00:11:25.830
+Nathan George: If we feel like we need to move it I don't think there's any harm in that either.
+
+76
+00:11:27.630 --> 00:11:32.160
+Nathan George: I, but I also don't think we have to be in a hurry to do it necessarily as long as we don't forget to do it.
+
+77
+00:11:35.490 --> 00:11:36.090
+Nathan George: yeah definitely.
+
+78
+00:11:36.240 --> 00:11:39.210
+Tracy Kuhrt: I mean it's been a reminder, on your calendar for six months from now.
+
+79
+00:11:42.570 --> 00:11:53.820
+Arnaud J Le Hors (IBM): I suppose what one reason to move it would be if we were in a situation where there are people actually using it, and they have problems they raise issues and nobody is there to respond to any of this right.
+
+80
+00:11:54.270 --> 00:12:10.110
+Arnaud J Le Hors (IBM): Then it becomes really a problem and, and you know we are better off signaling to the Community don't expect any maintenance and that I think you have to go to end of life for that, but you know.
+
+81
+00:12:11.220 --> 00:12:16.350
+Arnaud J Le Hors (IBM): Otherwise it doesn't seem to be the case, right now, so either way.
+
+82
+00:12:17.400 --> 00:12:33.270
+Tracy Kuhrt: yeah I did just open up the github issues, the last issue that was reported was on November 16 2021 and the one prior to that July 22 2021 and there's 42 issues total that are open.
+
+83
+00:12:34.590 --> 00:12:47.940
+Tracy Kuhrt: There are actually 22 pull requests that are also open the last one being from October 29 of 2021 and number of pull requests from before then.
+
+84
+00:12:49.590 --> 00:13:00.360
+Tracy Kuhrt: So you know I, I guess, there are people still looking at this as, at least as of November, if they're opening issues against it, but you know.
+
+85
+00:13:01.440 --> 00:13:05.400
+Tracy Kuhrt: I don't know that it's like an issue every day or something like that, but.
+
+86
+00:13:05.550 --> 00:13:06.900
+Arnaud J Le Hors (IBM): yeah no, but I think it's.
+
+87
+00:13:07.650 --> 00:13:16.470
+Arnaud J Le Hors (IBM): i'm glad you actually thought about looking into it, because that actually is, you know puts us in that situation that I will I will be worried about.
+
+88
+00:13:16.830 --> 00:13:20.280
+Arnaud J Le Hors (IBM): Where people expect more than they should.
+
+89
+00:13:21.600 --> 00:13:27.660
+Arnaud J Le Hors (IBM): Because we actually know nobody's going to deal with those beyond and then issues so.
+
+90
+00:13:27.660 --> 00:13:35.220
+Arnaud J Le Hors (IBM): Then we're better off moving it sooner, rather than better so that the Community knows, they can't expect anything to happen.
+
+91
+00:13:36.510 --> 00:13:40.890
+Tracy Kuhrt: Right i'm Dan Oh, I think you were first as far as raising him.
+
+92
+00:13:42.360 --> 00:13:52.770
+Danno Ferrin: The guilt that existed kind of release if it's being maintained, right now, I mean maintained by the Community implies that there's a critical bug fix that someone could patch it and push it out, if it was critical.
+
+93
+00:13:57.270 --> 00:13:57.630
+Tracy Kuhrt: Right.
+
+94
+00:13:58.860 --> 00:14:03.210
+Ry Jones: That the what you just touched on was.
+
+95
+00:14:04.230 --> 00:14:18.030
+Ry Jones: My whole interest that the whole reason that this this you know came to me to the, we need to deal with this was that there were a bunch of issues that were opened and addressed.
+
+96
+00:14:19.740 --> 00:14:34.740
+Ry Jones: intel's are the the previous maintain errs were pretty clear that they're not going to do anything about it, they don't have the time or the focus on that project, there were a bunch of PRS that hadn't been you know looked at at all.
+
+97
+00:14:36.000 --> 00:14:42.540
+Ry Jones: And it just it feels like a dead end for contributions, so I just the signaling of.
+
+98
+00:14:43.680 --> 00:14:50.400
+Ry Jones: You know hey here's The thing that you might be able to use when, in fact, you know the the development effort is moved on to the CCC.
+
+99
+00:14:51.480 --> 00:14:56.580
+Ry Jones: I just think it's it's it's poor form, but that was.
+
+100
+00:14:57.690 --> 00:15:02.220
+Ry Jones: That was my primary interested, it was not having a dead end of contributors.
+
+101
+00:15:07.740 --> 00:15:08.100
+Tracy Kuhrt: Right.
+
+102
+00:15:10.080 --> 00:15:22.950
+Aruna S M: Sure, so I probably wanted to just read, I mean read through the replicated states right, so we are claiming that project, even though it's deprecate it we still have support from the Community.
+
+103
+00:15:23.520 --> 00:15:31.200
+Aruna S M: For at least six months from them and it looks support could be in I guess we haven't defined what the support should be.
+
+104
+00:15:32.730 --> 00:15:34.380
+Aruna S M: But if we are not getting that.
+
+105
+00:15:36.540 --> 00:15:40.290
+Aruna S M: Then i'm in favor of moving away from the applicator.
+
+106
+00:15:44.250 --> 00:15:53.400
+Arnaud J Le Hors (IBM): yeah and, if I may add to this, I mean the the composer project right went through this phase, but we had people still committed to.
+
+107
+00:15:53.910 --> 00:16:04.140
+Arnaud J Le Hors (IBM): You know, dealing with this kind of PR issues and they say we're not going to make any further development on expecting movement, but you know we're here still.
+
+108
+00:16:04.680 --> 00:16:09.060
+Arnaud J Le Hors (IBM): And so, that is a different situation here if we really have people.
+
+109
+00:16:09.870 --> 00:16:27.240
+Arnaud J Le Hors (IBM): You know, nobody is going to respond to any of those, then I think we were doing a desert disservice to the Community by keeping it in this current stage prostate so that, as now convinced me that the right thing is to actually move it to end of life ASAP.
+
+110
+00:16:28.950 --> 00:16:35.280
+Tracy Kuhrt: yeah and I think that's what day I was calling out specifically thinking when I brought this up.
+
+111
+00:16:35.670 --> 00:16:46.380
+Tracy Kuhrt: Reading through the deprecate it, it does say at deprecating project will be maintained for a six month period by its Community after which it will be removed from any subsequent formal releases.
+
+112
+00:16:47.970 --> 00:16:59.070
+Tracy Kuhrt: So I think that's the to me that's the key right, then it will be maintained for six months, and I know that it's not going to be for six months at this point, based on the discussions that we've had.
+
+113
+00:17:02.160 --> 00:17:02.610
+So.
+
+114
+00:17:07.800 --> 00:17:15.750
+Tracy Kuhrt: Okay um so i'll ask again now, after this discussion does anybody have a problem if we move this to end of life.
+
+115
+00:17:22.110 --> 00:17:22.590
+Tracy Kuhrt: He came off.
+
+116
+00:17:23.280 --> 00:17:24.630
+Hart Montgomery: versus gonna make emotion.
+
+117
+00:17:25.200 --> 00:17:26.190
+Arnaud J Le Hors (IBM): Okay yeah.
+
+118
+00:17:26.940 --> 00:17:27.390
+Tracy Kuhrt: We got one.
+
+119
+00:17:29.790 --> 00:17:31.410
+Tracy Kuhrt: Second i'm.
+
+120
+00:17:32.910 --> 00:17:36.750
+Tracy Kuhrt: Right, do you just want to run us through a gain any vote.
+
+121
+00:17:37.410 --> 00:17:42.960
+Ry Jones: For saying I will i'll pick by the length of your name in unit.
+
+122
+00:17:44.040 --> 00:17:52.560
+Ry Jones: Troy sure sorry the motion is to move the avalon project to end of life correct.
+
+123
+00:17:53.160 --> 00:17:53.580
+Okay.
+
+124
+00:17:54.660 --> 00:17:55.740
+Ry Jones: Troy, how do you vote.
+
+125
+00:17:56.220 --> 00:17:57.630
+Ry Jones: Yes, Tracy.
+
+126
+00:17:58.530 --> 00:17:59.580
+Ry Jones: Yes, Peter.
+
+127
+00:18:00.810 --> 00:18:01.320
+Peter Somogyvari: Yes.
+
+128
+00:18:01.440 --> 00:18:01.920
+Nathan.
+
+129
+00:18:03.960 --> 00:18:04.410
+Nathan George: Yes.
+
+130
+00:18:05.910 --> 00:18:06.480
+Kamlesh Nagware: Yes.
+
+131
+00:18:07.710 --> 00:18:09.060
+Ry Jones: Jim is not here heart.
+
+132
+00:18:11.430 --> 00:18:11.940
+Ry Jones: grace.
+
+133
+00:18:13.110 --> 00:18:13.470
+Grace Hartley: Yes.
+
+134
+00:18:13.770 --> 00:18:15.150
+Arnaud J Le Hors (IBM): David yes.
+
+135
+00:18:16.830 --> 00:18:17.280
+Danno Ferrin: Yes.
+
+136
+00:18:17.370 --> 00:18:19.080
+Bobbi Muscara: Bobby yes.
+
+137
+00:18:20.760 --> 00:18:21.210
+Aruna S M: Yes.
+
+138
+00:18:21.870 --> 00:18:23.850
+Ry Jones: Artem is not here, or no.
+
+139
+00:18:24.480 --> 00:18:26.430
+Ry Jones: Yes, Angela.
+
+140
+00:18:26.970 --> 00:18:30.630
+Ry Jones: Yes, well, the motion passes.
+
+141
+00:18:32.250 --> 00:18:38.700
+Tracy Kuhrt: Thanks everyone for that I didn't know we were actually going to have a decision on that, but i'm glad that we did.
+
+142
+00:18:40.260 --> 00:18:42.660
+Tracy Kuhrt: So a real question.
+
+143
+00:18:43.920 --> 00:18:57.210
+Aruna S M: Right, I still want to keep one question open, that we should have identify the project to enter into dormant and probably that's an area to focus on in project reports because there is also a discussion that.
+
+144
+00:18:58.950 --> 00:19:04.170
+Aruna S M: that's currently happening by between dano and heart on the chat channel is built on the same topic.
+
+145
+00:19:06.420 --> 00:19:09.030
+Tracy Kuhrt: Okay, I haven't been paying attention to the chat channel.
+
+146
+00:19:19.410 --> 00:19:21.330
+Tracy Kuhrt: yeah I do think that this question of.
+
+147
+00:19:21.360 --> 00:19:25.680
+Tracy Kuhrt: Government state and what do we do with projects, who are not reporting.
+
+148
+00:19:27.540 --> 00:19:30.180
+Tracy Kuhrt: It still it's still an open issue in our backlog.
+
+149
+00:19:31.440 --> 00:19:35.100
+Tracy Kuhrt: I think you know we hadn't necessarily come to any sort of decision or.
+
+150
+00:19:36.630 --> 00:19:38.010
+Tracy Kuhrt: direction on that.
+
+151
+00:19:39.180 --> 00:19:47.850
+Tracy Kuhrt: Other than to maybe take a step back for a moment and and think some more about it before we made any radical decisions.
+
+152
+00:19:49.620 --> 00:20:00.330
+Tracy Kuhrt: Pay patients, I guess, as Nathan says this is kind of the direction that we were going to take where the time being, but I do think it's an important sort of discussion for us to have.
+
+153
+00:20:03.120 --> 00:20:13.830
+Tracy Kuhrt: As long as you know, and I guess the that follows on to this question of the second question that I have related to the project life cycle that Ryan brought to us.
+
+154
+00:20:14.400 --> 00:20:27.000
+Tracy Kuhrt: Which is once a project moves to dormant how long, should it stay there before we consider moving it to deprecate slash in the life type state.
+
+155
+00:20:31.410 --> 00:20:40.860
+Tracy Kuhrt: Because I think that the challenge that we have right now, and one of the reasons that I did leave bro on the upcoming reports, even though it's dormant is that.
+
+156
+00:20:41.520 --> 00:20:51.390
+Tracy Kuhrt: If it project truly is dormant and nobody's looking at it it's hard to know what we should do with it, do we ever plan on coming out of that dormant stage or.
+
+157
+00:20:52.590 --> 00:21:00.660
+Tracy Kuhrt: Is it really that the project kind of went to an end of life state and is using dormant as a way of getting around the end of life state.
+
+158
+00:21:01.320 --> 00:21:10.680
+Tracy Kuhrt: Not necessarily on purpose, but because it seemed to make sense at the time, and then it just never comes back around to to have a further discussion so heart.
+
+159
+00:21:13.170 --> 00:21:30.330
+Hart Montgomery: Thanks Tracy, so I think the ideal way to use dormant state is to say something like Okay, you know we're shutting down this project, we know many of you, you know we know there are a lot of external dependencies on this project right.
+
+160
+00:21:31.350 --> 00:21:39.540
+Hart Montgomery: You know now's the time to switch to find something to switch to right either like take the parts of the code, you need to incorporate them into your project.
+
+161
+00:21:39.960 --> 00:21:51.480
+Hart Montgomery: Or to move to a different project right, so I don't know that we want to define the the amount of time, a project should be in the dormant state, because in sort of the like right way that this plays out.
+
+162
+00:21:54.330 --> 00:22:03.270
+Hart Montgomery: It the dormant state is is dependent on sort of how long the maintainer of the project in the dormant state are willing to push critical fixes.
+
+163
+00:22:03.930 --> 00:22:17.790
+Hart Montgomery: And how long it takes people that are dependent on the dormant project to to move and eliminate dependencies on the dormant project, one of the nice things we have about avalon is that there don't appear to be a lot of.
+
+164
+00:22:19.530 --> 00:22:23.970
+Hart Montgomery: systems at least production systems or high value things that depend on avalon.
+
+165
+00:22:25.290 --> 00:22:32.040
+Hart Montgomery: So it's not a huge deal if production stops, but if if sort of.
+
+166
+00:22:33.840 --> 00:22:41.370
+Hart Montgomery: If work stopped on you know some of the more popular projects in hyper ledger I think it would be a much more tricky conversation.
+
+167
+00:22:42.960 --> 00:22:44.100
+Hart Montgomery: I hope that made sense.
+
+168
+00:22:45.150 --> 00:22:46.560
+Tracy Kuhrt: yeah and just a.
+
+169
+00:22:48.180 --> 00:22:51.240
+Tracy Kuhrt: phone call and you just to comment on that quickly.
+
+170
+00:22:52.770 --> 00:22:57.780
+Tracy Kuhrt: One of the one of the projects, we have two projects internal state right now, one is quilt in one is bro.
+
+171
+00:22:59.220 --> 00:23:16.740
+Tracy Kuhrt: If you look at the the project reports that the TC quarterly reports, but the project reports that right has provided for us, you can see that there has been zero kits in the last six months, and only one in the last year, and so you know at what point.
+
+172
+00:23:17.790 --> 00:23:30.900
+Tracy Kuhrt: Do we say like quilt maintenance, even though you went away, how do you come back to us and tell us what's going on right there's there's no way to revisit that I don't think at this point, you know.
+
+173
+00:23:32.820 --> 00:23:39.270
+Danno Ferrin: So i've got a difference between the dormant state in the dedicated state is that dormant is kind of reversible deprecation.
+
+174
+00:23:39.720 --> 00:23:46.320
+Danno Ferrin: And it's you know the project saying we may come back and, by the way, maintain there's wanted if someone wants to take it over.
+
+175
+00:23:46.740 --> 00:23:52.980
+Danno Ferrin: Please take it over that would be an option, but when I see deprecate it, you know I see, this is a project that will be coming back and it's not.
+
+176
+00:23:53.280 --> 00:24:00.960
+Danno Ferrin: You know it's not just you know suggested that you find things to get off it's like practically requirement, you need to get off because it's going to end and.
+
+177
+00:24:01.440 --> 00:24:14.160
+Danno Ferrin: So i've you know the deprecate, it is a one way in Norman is a two way if you know they can fix their governance or if it's a commitment issue if they can get gather the time that they need to to commit to it properly.
+
+178
+00:24:14.670 --> 00:24:21.870
+Danno Ferrin: Or if someone else wants to come in and provide assistance so that's what I see these two guys that's the two things run through my mind.
+
+179
+00:24:22.200 --> 00:24:30.180
+Danno Ferrin: As far as the way it's set up so that may figure into our decision on when we move it to deprecate AOL for the dorm and it's like nobody's stepping up.
+
+180
+00:24:30.930 --> 00:24:37.890
+Danno Ferrin: After you know, rather than a fixed period if we could you know, at some point, but they do need to get out of dormant they can't stay there perpetually.
+
+181
+00:24:40.890 --> 00:24:41.130
+Danno Ferrin: Right.
+
+182
+00:24:45.060 --> 00:24:50.040
+Nathan George: I think it's important for us to emphasize that it's not healthy for them to stay in perpetually.
+
+183
+00:24:50.460 --> 00:24:57.930
+Nathan George: If they insisted that it was the right place for them to be and they're still active active enough to respond to our questions about them still being.
+
+184
+00:24:58.650 --> 00:25:08.850
+Nathan George: In dormant in a way that's helpful to them, I don't know that we actually have an abuse problem there be so long as they're still active enough that dormant is true.
+
+185
+00:25:09.960 --> 00:25:21.540
+Nathan George: And then it's a review step for us to make sure, as the tlc that you know we're helping them either leave dormant or or come to that conclusion that they need to finally let go of.
+
+186
+00:25:22.530 --> 00:25:26.220
+Nathan George: A lot of these states are self fulfilling prophecies and some ways, meaning.
+
+187
+00:25:26.520 --> 00:25:37.680
+Nathan George: You know if they're dormant people who might contribute over my help come and say Oh, but this is dharma did i'm not really prepared to take on the whole project i'm going to move on and it creates critical mass elsewhere.
+
+188
+00:25:38.310 --> 00:25:47.910
+Nathan George: And part of what we want, with the truth in these states is the critical mass can stay at hyper ledger in one way or another, to help our overall development of our mission so.
+
+189
+00:25:48.990 --> 00:25:56.310
+Nathan George: If being dormant helps them to do that, that I think we would rather keep a project dormant that just you know dismiss the maintainer swishes.
+
+190
+00:25:57.450 --> 00:26:09.180
+Nathan George: So I think it, we need to be careful we don't make the states so rigid that we we are shoving the maintainer is along to say you've got to be here you've got to be there.
+
+191
+00:26:09.930 --> 00:26:19.890
+Nathan George: I think we, we always wanted this project status to be a tool to help the maintainer to get the things that they need most and.
+
+192
+00:26:21.780 --> 00:26:32.910
+Nathan George: If borough stays dormant for much longer, what they need most is probably watch for dorman and that's a conversation will want to have with them as we bring up the status and in our regular cadence.
+
+193
+00:26:34.920 --> 00:26:39.570
+Tracy Kuhrt: yeah I think that we don't necessarily have that regular cadence.
+
+194
+00:26:40.140 --> 00:26:51.900
+Tracy Kuhrt: Because I don't think we made it clear for the projects in bro and during the during the state what the responsibilities actually are, and I think that's My biggest concern at this point or do.
+
+195
+00:26:54.750 --> 00:27:13.410
+Arnaud J Le Hors (IBM): So I just wanted to share, I mean I actually attended the euro Community call it was part of you know, fulfilling my duty as a Member that I need to check on other projects, so I did it before the end of the mouth yeah.
+
+196
+00:27:14.460 --> 00:27:26.550
+Arnaud J Le Hors (IBM): You can you can tap me on the back, no bad so The thing is, it was actually interesting because they were talking about the fact that they are actually using borough.
+
+197
+00:27:26.970 --> 00:27:35.250
+Arnaud J Le Hors (IBM): And they were not aware that borough as actually moved out of you know incubation state into dormant so I informed them on that.
+
+198
+00:27:35.640 --> 00:27:47.730
+Arnaud J Le Hors (IBM): And I said, you probably need to figure out what that means for you and I imagine one possibilities for them to say okay we're going to take over the pod that we use right.
+
+199
+00:27:49.260 --> 00:27:54.990
+Arnaud J Le Hors (IBM): And so I don't know what that means exactly in terms of the question at hand, but I wanted to share this because.
+
+200
+00:27:55.530 --> 00:28:14.820
+Arnaud J Le Hors (IBM): This is not something that we have faced before where there is a project that moving out of you know, active status, so to speak, and and they are actually dependencies so it's going to impact all the projects in this case, you know he wrote uses it.
+
+201
+00:28:15.960 --> 00:28:19.200
+Arnaud J Le Hors (IBM): And they were shocked, they were like oh thanks for telling us.
+
+202
+00:28:23.370 --> 00:28:24.150
+Tracy Kuhrt: yeah that's.
+
+203
+00:28:25.500 --> 00:28:42.870
+Tracy Kuhrt: that's interesting right, because I think that goes the opposite way to which is the people in other people know that I was using perl right like I didn't know that burrow into doing it, but if people know that I was using perl until you said that, I know I didn't know that.
+
+204
+00:28:45.150 --> 00:28:45.690
+Arnaud J Le Hors (IBM): either.
+
+205
+00:28:48.870 --> 00:28:57.540
+Tracy Kuhrt: dependencies Maybe other that we, we are not aware of that, we probably should be aware of, as we, as we go through, and think about this.
+
+206
+00:29:00.330 --> 00:29:00.990
+Tracy Kuhrt: So.
+
+207
+00:29:01.680 --> 00:29:13.560
+Arnaud J Le Hors (IBM): And, in passing, just to highlight it shows the fact that I didn't know you didn't know I you know it shows the value of actually you know, having a look at what's going on in these other projects, just like we had decided.
+
+208
+00:29:14.850 --> 00:29:17.670
+Tracy Kuhrt: Yes, gold star, for I don't know anyone.
+
+209
+00:29:23.490 --> 00:29:24.000
+Arnaud J Le Hors (IBM): I thought it was.
+
+210
+00:29:24.150 --> 00:29:24.930
+interesting.
+
+211
+00:29:26.790 --> 00:29:35.820
+Tracy Kuhrt: You know your hand is still up I don't know if that's because you have something you're it just hasn't gone down yet Okay, thank you say, for you know your hand is still up.
+
+212
+00:29:41.220 --> 00:29:57.630
+Tracy Kuhrt: So yeah I agree, I think the key here right is how do we, how do we stay involved with the projects that have gone dormant to ensure that we understand what State actually makes sense for them.
+
+213
+00:29:59.280 --> 00:30:01.890
+Tracy Kuhrt: And I don't think we've run across this yet.
+
+214
+00:30:02.910 --> 00:30:17.610
+Tracy Kuhrt: I think we had built as a project update that was it came do I think we ended up removing it from the agenda, because we were like well it's done it we probably won't expect an update from them, so we removed it.
+
+215
+00:30:18.120 --> 00:30:25.500
+Tracy Kuhrt: I guess, my question is, should we have done that, or should we have tried to reach out to the folks to see kind of what their state is.
+
+216
+00:30:26.910 --> 00:30:39.450
+Tracy Kuhrt: and, obviously, this question is going to come up for borough I think obviously just let us know about that so maybe it's not as critical with bro at this point, they have that follow up conversation of hey are you still in dormant or.
+
+217
+00:30:40.680 --> 00:30:51.750
+Tracy Kuhrt: doesn't make sense to think about a different state but i'd like to make sure that we we are having those follow up conversations with the the maintainer of the projects that are in.
+
+218
+00:30:53.250 --> 00:30:53.730
+Tracy Kuhrt: Peter.
+
+219
+00:30:55.980 --> 00:30:56.790
+Peter Somogyvari: What if we.
+
+220
+00:30:58.860 --> 00:31:09.000
+Peter Somogyvari: decided on one member of the tasc being a liaison and supplies happens, it will be always say or see but someone could volunteer.
+
+221
+00:31:09.900 --> 00:31:21.060
+Peter Somogyvari: And then, when something like this comes up on a project start struggle and then be with assign somebody to to have an open communication Channel with them.
+
+222
+00:31:21.840 --> 00:31:35.310
+Peter Somogyvari: So that they are in the know, as it happens, and then you're not just sort of trying to piece together a picture, based on the quarterly reports themselves and then what's the last command That was the last issue.
+
+223
+00:31:38.520 --> 00:31:47.220
+Peter Somogyvari: Because, ultimately, if Sorry, I think it makes a huge difference of what they say and what they believe.
+
+224
+00:31:48.300 --> 00:31:57.270
+Peter Somogyvari: This huge difference because maybe there hasn't been a commit for six months, but if they say yeah we were out for six months, but now they're back full swing.
+
+225
+00:31:58.230 --> 00:32:07.020
+Peter Somogyvari: that's very different from them saying yeah we're out for six months and honestly, we feel like this is how it's going to be from now on.
+
+226
+00:32:11.550 --> 00:32:12.150
+Peter Somogyvari: yeah I like.
+
+227
+00:32:12.240 --> 00:32:27.840
+Tracy Kuhrt: I like the idea Peter have you know, do we want to start the song student projects that seem like they're struggling projects that have gone into domain, which would like the question of should we be assigning a liaison for the explorer group.
+
+228
+00:32:29.340 --> 00:32:41.160
+Tracy Kuhrt: You know, to work with, obviously, the staff with doing a lot of work already around that but also with the folks who are currently listed as mediators of the explorer project.
+
+229
+00:32:42.690 --> 00:32:43.140
+Tracy Kuhrt: heart.
+
+230
+00:32:44.790 --> 00:32:45.480
+Hart Montgomery: Thanks Tracy.
+
+231
+00:32:46.650 --> 00:32:55.770
+Hart Montgomery: I also don't know that we need to you know it may not be the case that sort of going to through dormant maybe default.
+
+232
+00:32:56.910 --> 00:33:12.120
+Hart Montgomery: My view on this is sort of the dormant is the route for projects that sort of want to have a planned or graceful obsolescence and if you know the maintainer is just sort of disappear, we can just go ahead and move the project to end of life.
+
+233
+00:33:15.600 --> 00:33:20.760
+Hart Montgomery: Because that's more indicative of the fact that the project isn't going to be supported at all.
+
+234
+00:33:25.740 --> 00:33:28.500
+Tracy Kuhrt: yeah I just decided I maybe you when you said that.
+
+235
+00:33:29.130 --> 00:33:34.650
+Tracy Kuhrt: It would be good to read what dormant state was when we decided to introduce the state.
+
+236
+00:33:36.480 --> 00:33:43.020
+Tracy Kuhrt: So projects and adored state or ones in which normal functions are suspended or slow down for a period of time.
+
+237
+00:33:44.610 --> 00:33:54.630
+Tracy Kuhrt: etc will make a decision whether project removed to or from donut state, upon request, if Darren projects become reactivated they will re enter information, even if they.
+
+238
+00:33:55.350 --> 00:34:07.560
+Tracy Kuhrt: turn it from the graduate see we don't really say what happens when they're not going to be reactivated right or what that period of time is that we expect them.
+
+239
+00:34:08.580 --> 00:34:16.380
+Tracy Kuhrt: To be slowed down or suspended, and I think you know, maybe that's that was bad on us to not be very clear about that.
+
+240
+00:34:17.520 --> 00:34:33.180
+Tracy Kuhrt: But I do think, now that we have the examples, maybe it's time for us to revisit kind of what what that period of time is that we expect the three dormant so that we can then make better decisions about what to do with these projects right.
+
+241
+00:34:34.830 --> 00:34:52.680
+Tracy Kuhrt: So yeah, I think, maybe there's more that we can do around this particular State, as well as having discussions with both the borough and the quote folks to see kind of what their expectations are for the dormant state.
+
+242
+00:34:56.400 --> 00:35:08.100
+Arnaud J Le Hors (IBM): So, if I may, the I don't think we should have like a hard limit saying you know after six months if a project in Dortmund state we move them.
+
+243
+00:35:08.580 --> 00:35:14.580
+Arnaud J Le Hors (IBM): to duplicate it, though end of life, what we could say is as a kind of.
+
+244
+00:35:15.150 --> 00:35:20.880
+Arnaud J Le Hors (IBM): You know, we could have a policy that says, you know after six months we will have.
+
+245
+00:35:21.120 --> 00:35:31.560
+Arnaud J Le Hors (IBM): We will check on the status and that would imply to me that we are coming somebody at least, you know as a communication with the maintainer of the project say hey.
+
+246
+00:35:31.920 --> 00:35:38.970
+Arnaud J Le Hors (IBM): what's the status should we still keep that in dominance they do you still think you will come back or should we move it.
+
+247
+00:35:39.360 --> 00:35:50.070
+Arnaud J Le Hors (IBM): And then, in the case where nobody answers well that's an answer in and of itself, we can make a decision based on that, but if you know we I think there is some.
+
+248
+00:35:50.640 --> 00:35:58.830
+Arnaud J Le Hors (IBM): There is some value in keeping it flexible because we might have somebody was very specific thing where they say hey for the next three months.
+
+249
+00:35:59.130 --> 00:36:11.550
+Arnaud J Le Hors (IBM): We are building on something else, I will be back for sure, and we should allow that and, and so I think you know I wouldn't favor having a hard limit in built into this.
+
+250
+00:36:12.000 --> 00:36:25.050
+Arnaud J Le Hors (IBM): I do think we should have a policy that says, after some time you know some amount of months we we make the point of reaching out to the maintainer and check on the status.
+
+251
+00:36:26.670 --> 00:36:36.660
+Tracy Kuhrt: yeah I agree, and I think everybody, at least from what i've heard is probably an agreement with that as well, I didn't hear anybody say like I know we should be shutting down right now right.
+
+252
+00:36:37.980 --> 00:36:45.210
+Tracy Kuhrt: I do think, though, that, as a next step for this discussion, it probably is important for us to reach out to the.
+
+253
+00:36:47.040 --> 00:37:00.660
+Tracy Kuhrt: folks and find out kind of where they're at just make sure they're they're still you know good with donors that they expected to still come back and spend some time on this, or what the right next steps are for them.
+
+254
+00:37:05.070 --> 00:37:06.030
+Tracy Kuhrt: Okay, any other.
+
+255
+00:37:06.180 --> 00:37:07.500
+Tracy Kuhrt: thoughts on this topic.
+
+256
+00:37:08.670 --> 00:37:10.050
+Tracy Kuhrt: I think you know.
+
+257
+00:37:11.970 --> 00:37:14.460
+Tracy Kuhrt: I can take the action item to reject the quilt.
+
+258
+00:37:15.600 --> 00:37:17.880
+Tracy Kuhrt: In find out what's going on.
+
+259
+00:37:18.960 --> 00:37:21.300
+Tracy Kuhrt: With their project and, hopefully, report back.
+
+260
+00:37:27.000 --> 00:37:28.920
+Tracy Kuhrt: Alright, see no.
+
+261
+00:37:30.060 --> 00:37:43.110
+Tracy Kuhrt: hands, I will move us on to the next section which are these project reports that i'd like to thank Ryan, for taking the time to provide a github action.
+
+262
+00:37:45.060 --> 00:37:51.120
+Tracy Kuhrt: To run the hyper ledger Community management tools project reports.
+
+263
+00:37:52.710 --> 00:37:53.130
+Tracy Kuhrt: code.
+
+264
+00:37:54.960 --> 00:37:58.890
+Tracy Kuhrt: So yeah definitely let's take a look at these these project reports right.
+
+265
+00:38:00.960 --> 00:38:01.560
+Tracy Kuhrt: and
+
+266
+00:38:03.270 --> 00:38:11.700
+Tracy Kuhrt: I think that the question that I have really is, do we find the information in this these sorts of reports useful.
+
+267
+00:38:12.840 --> 00:38:20.190
+Tracy Kuhrt: Do we want to run these on a regular basis, so that we can have additional information.
+
+268
+00:38:22.290 --> 00:38:29.730
+Tracy Kuhrt: In addition to the quarterly reports that the projects are providing to us or.
+
+269
+00:38:30.930 --> 00:38:35.880
+Tracy Kuhrt: You know, are these something that we don't think are really that useful for us.
+
+270
+00:38:41.040 --> 00:38:42.030
+Tracy Kuhrt: Still building right.
+
+271
+00:38:42.510 --> 00:38:51.930
+Ry Jones: yeah I know I have a copy of it on my machine i'm just trying to find where exactly I dropped the thing.
+
+272
+00:38:56.190 --> 00:38:58.230
+Tracy Kuhrt: While you're looking for that Jim you're handed up.
+
+273
+00:38:59.190 --> 00:39:01.590
+Jim Zhang: yeah thanks Tracy i'm.
+
+274
+00:39:02.820 --> 00:39:12.570
+Jim Zhang: just trying to understand the the reports they are based on the insights dimensions Is that correct just making that static.
+
+275
+00:39:14.280 --> 00:39:29.970
+Tracy Kuhrt: So not really um so what they are, they use the github API to provide to pull information specifically from github about the contributions that have been made.
+
+276
+00:39:30.990 --> 00:39:38.820
+Tracy Kuhrt: To a particular project in this case the the one that's been shown is your earnings report looking at.
+
+277
+00:39:39.810 --> 00:39:57.360
+Tracy Kuhrt: A number of different sorts of things around the project such as the total contributors for the life of the project, the contributors that have existed for the past year, the number of active contributors which are contributors who made at least one country should, in the past six months.
+
+278
+00:39:58.380 --> 00:40:13.020
+Tracy Kuhrt: How many obviously like it's 259 minus in one I hope is 178 those are the inactive future dinners the new contributors are contributors who made their first contribution in the past month.
+
+279
+00:40:14.370 --> 00:40:23.310
+Tracy Kuhrt: So, in the case of areas, there was one new contributor this past month repeat contributors people have had more than one contribution.
+
+280
+00:40:23.880 --> 00:40:36.600
+Tracy Kuhrt: For the life of the project core contributors are those who have contributed 80% of the code um so there's actually 28 core contributors are 10% of the total contributors who.
+
+281
+00:40:37.620 --> 00:40:53.460
+Tracy Kuhrt: have contributed the 80% of the code regular contributors are those who contributed 95% of the go, obviously, those are the core contributors plus submit initial folks and you've got the casual contributors.
+
+282
+00:40:55.530 --> 00:40:58.560
+Tracy Kuhrt: which I don't know what the footnote says, but.
+
+283
+00:40:59.610 --> 00:41:01.080
+Tracy Kuhrt: Those are people who.
+
+284
+00:41:04.380 --> 00:41:11.820
+Tracy Kuhrt: Number six the regular contributors contribute 95 i'm sorry casual contributors, must be the 5% the other 5%.
+
+285
+00:41:13.350 --> 00:41:24.180
+Tracy Kuhrt: And then just some some information that takes those numbers and divided them apart, to try and figure out, you know what the retention rate of contributors in the level of engagement it's been.
+
+286
+00:41:25.260 --> 00:41:35.730
+Tracy Kuhrt: You know how many people have done repeat contributions and then just the specific details behind each of those kind of numbers that summary so.
+
+287
+00:41:36.630 --> 00:41:46.800
+Tracy Kuhrt: You know, if you look at this for Aries Aries looks pretty healthy right they've got 81 active contributors in the last six months they're still getting new contributors, they have.
+
+288
+00:41:48.180 --> 00:41:57.240
+Tracy Kuhrt: You know, not out of all of our contributors only 10% of core contributors, it seems pretty good, because that means there's like.
+
+289
+00:41:58.500 --> 00:42:08.760
+Tracy Kuhrt: Maybe it would be helpful if it was a higher number I don't know, but I think you know the question here is how useful that we think this is to help us understand kind of the health of the project vs.
+
+290
+00:42:09.570 --> 00:42:16.350
+Tracy Kuhrt: If you were to look at say the quote one, it says the contributors in the past year was three and they.
+
+291
+00:42:18.480 --> 00:42:26.730
+Tracy Kuhrt: Nobody That was the That was the avalon one so Cohen says contributors in the past year one active contributors in the last six months zero.
+
+292
+00:42:27.180 --> 00:42:45.750
+Tracy Kuhrt: Right that's I think the this sort of thing that we're looking at here is just to try and figure out with numbers kind of the health of the project, we think the project reports are leading us astray, but the maintainer Czar providing us that sort of thing.
+
+293
+00:42:47.430 --> 00:42:48.090
+Tracy Kuhrt: That helped you.
+
+294
+00:42:48.900 --> 00:42:59.490
+Jim Zhang: yeah that helps a lot thanks Tracy I think this is a very useful dimension in terms of the contributors, whether they're growing maintaining or dropping.
+
+295
+00:42:59.910 --> 00:43:10.470
+Jim Zhang: For a project that's sort of had has been established, so we know you know, are they maintaining their their actors, but.
+
+296
+00:43:11.100 --> 00:43:21.990
+Jim Zhang: For new projects that are still trying to grow their contributors, I think this can be quite misleading, so I wonder where I i'm thinking, a new project is.
+
+297
+00:43:22.320 --> 00:43:45.330
+Jim Zhang: very actively in committee, but not necessarily in growing the contributors, because you know it's it's still the core contributors that can understand architecture it's hard for for new people to to jump in just yet, so I wonder if we can also do PR and commit based that I think.
+
+298
+00:43:46.410 --> 00:43:48.780
+Jim Zhang: better reflect new projects.
+
+299
+00:43:51.390 --> 00:44:00.210
+Ry Jones: I have all the projects, I have, I have all the projects reports now the current ones which which one do you want me to bring up.
+
+300
+00:44:01.830 --> 00:44:11.220
+Jim Zhang: I wonder if we look at, for example, bevel or firefly the two newest ones we may see.
+
+301
+00:44:14.100 --> 00:44:15.930
+Jim Zhang: yeah so.
+
+302
+00:44:17.430 --> 00:44:20.280
+Jim Zhang: I think what this says is.
+
+303
+00:44:24.240 --> 00:44:28.860
+Jim Zhang: New contributors, and so I don't know how to interpret this but.
+
+304
+00:44:30.270 --> 00:44:39.210
+Jim Zhang: It doesn't reflect that there are 100 commits going on every week, you know stuff like that how active the project is.
+
+305
+00:44:41.640 --> 00:44:45.270
+Jim Zhang: Even though the number of contributors is not growing necessarily.
+
+306
+00:44:48.660 --> 00:44:57.270
+Tracy Kuhrt: Yes, I think, Jim any sort of github api's that are available could be included in this report.
+
+307
+00:44:57.540 --> 00:44:58.980
+Tracy Kuhrt: As far yeah yeah we.
+
+308
+00:45:01.680 --> 00:45:09.870
+Tracy Kuhrt: PR or issues or things like that right, like, I think we can definitely include those it's not it's not a major issue.
+
+309
+00:45:11.430 --> 00:45:16.830
+Tracy Kuhrt: This is this code that generating these reports is open source it's a it's part of the labs.
+
+310
+00:45:18.030 --> 00:45:23.610
+Tracy Kuhrt: So if we decide that you know there's anything that we want to add, we can definitely add to that.
+
+311
+00:45:25.020 --> 00:45:25.530
+Jim Zhang: that'd be great.
+
+312
+00:45:28.860 --> 00:45:38.940
+Tracy Kuhrt: Any other thoughts on these project reports do we find them useful, are they something that we'd like to you know see scheduled on a monthly basis, so we can take a look at them.
+
+313
+00:45:39.660 --> 00:45:50.910
+Tracy Kuhrt: offline not necessarily in the PC call but definitely offline just to see what's going on with projects and see if there's anything that is stepping out or jumping out is hurt.
+
+314
+00:45:51.930 --> 00:45:59.220
+Hart Montgomery: Be Tracy so I know the the cnc F has like a really nice sort of like update summary template.
+
+315
+00:46:00.510 --> 00:46:06.750
+Hart Montgomery: which has a lot of Nice contributor statistics i'm not sure that monthly is the right time period to look at things.
+
+316
+00:46:07.020 --> 00:46:08.190
+Just because.
+
+317
+00:46:09.690 --> 00:46:30.510
+Hart Montgomery: there's so much flux flux just based on the month of the year, like i'm sure you know, December contributions are going to be much, much, much lower than other months or things like that, so it might be hard to read you know just a monthly data if that makes sense.
+
+318
+00:46:31.890 --> 00:46:36.780
+Tracy Kuhrt: yeah yep we can consider doesn't make sense to run them on a quarterly basis to get.
+
+319
+00:46:38.850 --> 00:46:40.890
+Tracy Kuhrt: The information or even run them.
+
+320
+00:46:42.060 --> 00:46:50.010
+Tracy Kuhrt: right before the project update is due to us, you know these are all sorts of things that we could discuss Angela.
+
+321
+00:46:52.500 --> 00:47:05.010
+Angelo De Caro: Thank you Tracy I think in the same line no heart said woody woody impossible to have a plot of the evolution of the projects over time, instead of having a snapshot of the single month.
+
+322
+00:47:05.310 --> 00:47:15.120
+Angelo De Caro: Because that will tell us about trends so it's growing overall you know we don't look at the peaks we just look at the trends which what we care about is.
+
+323
+00:47:17.970 --> 00:47:24.330
+Tracy Kuhrt: yep and I think you know the yeah insights tells us some of that, I think.
+
+324
+00:47:26.220 --> 00:47:29.910
+Tracy Kuhrt: Maybe we can pull you know some of this information into.
+
+325
+00:47:31.350 --> 00:47:33.300
+Tracy Kuhrt: Our project updates as well.
+
+326
+00:47:34.740 --> 00:47:35.160
+Tracy Kuhrt: Peter.
+
+327
+00:47:37.920 --> 00:47:49.350
+Peter Somogyvari: I also think it's a good idea, as long as it's definitely fully automated so that no one has to prepare this report regularly by hand and then the second part of what I wanted to say is that.
+
+328
+00:47:50.430 --> 00:48:06.180
+Peter Somogyvari: They could have additional metrics and they're not sure, yet which ones, but they could call with metrics that would serve as early indicators of dormancy and i'm not saying that we should the.
+
+329
+00:48:07.410 --> 00:48:17.610
+Peter Somogyvari: Projects in the one and see based on the metrics i'm just saying that this could also feed into that liaison appointment idea that I had.
+
+330
+00:48:18.150 --> 00:48:33.810
+Peter Somogyvari: If we see that the numbers are going down or have gone down like we could catch that and this project has been no commits for the past three months, we need to point in this on and send them over to the project and talk to them about what's happening.
+
+331
+00:48:35.970 --> 00:48:42.360
+Tracy Kuhrt: yeah definitely agree 100% I made it don't want to have to do this.
+
+332
+00:48:43.890 --> 00:48:53.670
+Tracy Kuhrt: as well, so I think that's you know some of the challenge that we have with the insights right now is that it is a manual process for somebody to go find the lake and.
+
+333
+00:48:55.290 --> 00:49:12.600
+Tracy Kuhrt: You know, even if we were to try and copy this stuff from insights it's still manual process to copy, so I definitely want to go with the, how can we automate what it is and yeah if there are specific trends that people know about that will lend itself to.
+
+334
+00:49:14.010 --> 00:49:27.300
+Tracy Kuhrt: hey something is starting to shift with this project and maybe we need to take a closer look, I think those are things that yeah let's bring up and let's try and get them out here, so we can take a look, oh no.
+
+335
+00:49:30.780 --> 00:49:40.830
+Arnaud J Le Hors (IBM): yeah, I just wanted to have a word of caution there, I mean I we don't want to go down the route of reinventing insights either right, I mean i'm sure.
+
+336
+00:49:41.820 --> 00:49:45.720
+Arnaud J Le Hors (IBM): Greed the train would be nice a graphic to show it would be nice.
+
+337
+00:49:45.990 --> 00:49:58.980
+Arnaud J Le Hors (IBM): But you know it's a slippery slope before you know everybody's going to say Oh, I would like this dimension, you know and what about this and that, and then we are basically reinventing insights as be careful not to go too far.
+
+338
+00:49:59.820 --> 00:50:15.360
+Tracy Kuhrt: yeah yeah I agree, I know we don't want to recreate the wheel, there are so many tools out there right now provide you with graphs and charts of the way then what's the Open Source stuff work, I think it was awesome I shared.
+
+339
+00:50:16.530 --> 00:50:21.990
+Tracy Kuhrt: In a new tool that I hadn't seen before What was it last week a couple weeks ago so.
+
+340
+00:50:23.160 --> 00:50:25.500
+Tracy Kuhrt: 100% agree on Bobby.
+
+341
+00:50:28.290 --> 00:50:35.610
+Bobbi Muscara: Yes, thank you Tracy, I just wanted to point out that the learning materials working group captures this information for each one of the projects and tools.
+
+342
+00:50:36.450 --> 00:50:51.360
+Bobbi Muscara: Every time the quarterly report comes out I just put a link in the chat and for an example for firefly but under resources in learning materials working group, all this information is captured by us so just to let you know it's there.
+
+343
+00:50:54.870 --> 00:50:55.200
+Tracy Kuhrt: But.
+
+344
+00:50:57.210 --> 00:50:58.800
+Ry Jones: I wanted to.
+
+345
+00:51:00.630 --> 00:51:17.040
+Ry Jones: give everyone that's not aware of the context, some some context here, this is a tool that you know Tracy wrote like I don't know 10 years ago and we didn't have insights at that time yeah this this this predates.
+
+346
+00:51:19.200 --> 00:51:20.220
+Ry Jones: A lot of the tools.
+
+347
+00:51:21.660 --> 00:51:23.550
+Ry Jones: So you know it's a.
+
+348
+00:51:24.660 --> 00:51:25.560
+Ry Jones: pull request.
+
+349
+00:51:26.610 --> 00:51:32.520
+Ry Jones: would be great, but I also agree, we shouldn't try to reinvent insights so.
+
+350
+00:51:34.260 --> 00:51:41.370
+Tracy Kuhrt: yeah yeah definitely not 10 years ago, but I mean you know I can't tell you how long ago it was.
+
+351
+00:51:42.840 --> 00:51:46.650
+Tracy Kuhrt: it's been a while it was when I was part of the hyper ledger staff.
+
+352
+00:51:48.000 --> 00:51:54.300
+Tracy Kuhrt: trying to figure out kind of understanding our projects and that sort of thing it just never, never took off.
+
+353
+00:51:55.980 --> 00:52:03.210
+Tracy Kuhrt: We I think we were trying to create insights at that point, it felt like Brian wanted to to really understand things so.
+
+354
+00:52:05.520 --> 00:52:06.000
+Tracy Kuhrt: yeah.
+
+355
+00:52:07.200 --> 00:52:14.760
+Tracy Kuhrt: Anyway, I I think this is something that you know if we find it useful great if we don't find it useful that's my view.
+
+356
+00:52:16.500 --> 00:52:20.310
+Tracy Kuhrt: You know it's out there, we can use it if we if we decide that that's what we want to do.
+
+357
+00:52:22.860 --> 00:52:26.730
+Tracy Kuhrt: Okay, so I know we only have four minutes left.
+
+358
+00:52:28.740 --> 00:52:37.830
+Tracy Kuhrt: You know, we can continue kind of trying to figure out if there's specific metrics that might make sense to to help us understand projects and where they're at.
+
+359
+00:52:38.850 --> 00:52:39.270
+Tracy Kuhrt: I.
+
+360
+00:52:42.570 --> 00:52:44.760
+Tracy Kuhrt: think that I saw.
+
+361
+00:52:46.740 --> 00:52:51.750
+Tracy Kuhrt: yeah it looks like rahul and stopped in i'm sorry about that room for not catching your chat on that sooner.
+
+362
+00:52:52.830 --> 00:53:06.990
+Tracy Kuhrt: We can definitely have roll come maybe at the next TC call and have a conversation about kind of the challenges that he's seeing with working with other other projects other communities in Linux foundation.
+
+363
+00:53:09.930 --> 00:53:18.240
+Tracy Kuhrt: yeah okay thanks a room um any any other comments or thoughts before we close out the meeting for today.
+
+364
+00:53:23.910 --> 00:53:24.930
+Grace Hartley: Tracy this grace.
+
+365
+00:53:25.590 --> 00:53:26.070
+grace.
+
+366
+00:53:27.330 --> 00:53:31.470
+Grace Hartley: Just uh I wanted to give a quick update on the discord proposal.
+
+367
+00:53:31.620 --> 00:53:32.550
+is now a good time.
+
+368
+00:53:33.780 --> 00:53:34.020
+Tracy Kuhrt: yeah.
+
+369
+00:53:34.830 --> 00:53:43.380
+Grace Hartley: cool okay i'm just for everyone's awareness i'm going to send a note out to the TC email, the task force for the Community chat.
+
+370
+00:53:44.790 --> 00:53:51.240
+Grace Hartley: Group has put together proposal for this group review so just wanted to give everyone a heads up that's going to be sent out.
+
+371
+00:53:52.290 --> 00:53:58.380
+Grace Hartley: Today, and then hopefully we can have a conversation at next week's tasc meeting so just look look out for it in your email.
+
+372
+00:54:00.870 --> 00:54:05.190
+Tracy Kuhrt: Great race will definitely include the end of last week gym.
+
+373
+00:54:06.360 --> 00:54:18.150
+Jim Zhang: yeah thanks Tracy just quick question what would be the best place to like create a issue to track to track all the stuff that we've been talking about for the for the data.
+
+374
+00:54:20.100 --> 00:54:20.670
+Jim Zhang: So.
+
+375
+00:54:21.450 --> 00:54:21.900
+Tracy Kuhrt: yeah we can.
+
+376
+00:54:24.660 --> 00:54:28.650
+Tracy Kuhrt: yeah we can probably edit to the TC repo as an issue.
+
+377
+00:54:29.040 --> 00:54:29.340
+Jim Zhang: and
+
+378
+00:54:29.760 --> 00:54:30.840
+Tracy Kuhrt: They started to capture that.
+
+379
+00:54:31.770 --> 00:54:33.390
+Tracy Kuhrt: Jim Jim did you want to.
+
+380
+00:54:34.650 --> 00:54:42.690
+Tracy Kuhrt: Speaking of task forces, did you would think it was useful to have a task force to to try and figure this out as a separate sort of group.
+
+381
+00:54:43.440 --> 00:54:57.600
+Jim Zhang: yeah I feel like there are a few fewer clear direction, so we can go into directly so maybe we can self organize and see if a task force specific task forces is needed, maybe we consult with a.
+
+382
+00:54:58.200 --> 00:55:06.960
+Jim Zhang: github issue and see if we can organize their i'm happy to to help help you guys, you know talking with.
+
+383
+00:55:07.980 --> 00:55:18.060
+Jim Zhang: The inside team to see if they can do the enhancement, we asked for something that came to mind as well, is doing exports to images.
+
+384
+00:55:19.320 --> 00:55:35.760
+Jim Zhang: Through api's so things can be a more automated automated so stuff like that I think we can we can put into the issue then track there at the moment I don't know if we need a task force right now.
+
+385
+00:55:37.500 --> 00:55:38.940
+Tracy Kuhrt: let's start with the issue and.
+
+386
+00:55:40.290 --> 00:55:43.200
+Tracy Kuhrt: We can make sure that people are adding comments to that.
+
+387
+00:55:43.350 --> 00:55:44.850
+Tracy Kuhrt: yeah personally out to it.
+
+388
+00:55:45.570 --> 00:55:52.980
+Jim Zhang: yeah if it's not working out maybe we can we need to have meetings and get people to go to meetings with as a task force.
+
+389
+00:55:55.020 --> 00:55:56.700
+Jim Zhang: Okay, thanks.
+
+390
+00:55:56.760 --> 00:55:59.280
+Tracy Kuhrt: Alright, so with that i'm going to.
+
+391
+00:55:59.310 --> 00:56:11.100
+Tracy Kuhrt: Close the meeting for this week, thank you all for the discussion I think there's a lot of good things that are coming out, and I think we just have to follow up on some of these things and take them over the finish line.
+
+392
+00:56:13.530 --> 00:56:14.160
+Tracy Kuhrt: Thanks all.
+
+393
+00:56:14.790 --> 00:56:16.470
+Arnaud J Le Hors (IBM): goodbye, thank you.
+
+394
+00:56:17.070 --> 00:56:17.700
+Hart Montgomery: Thanks everybody.
+
+395
+00:56:18.060 --> 00:56:19.200
+Jim Zhang: You guys.
+
+396
+00:56:20.130 --> 00:56:20.640
+You bye.
+

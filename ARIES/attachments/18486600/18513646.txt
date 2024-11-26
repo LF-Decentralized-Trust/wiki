@@ -1,0 +1,22 @@
+00:02:25	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/pages/viewpage.action?pageId=31199948
+00:18:32	jonathan holt:	q+
+00:20:54	Ajay Jadhav:	Sure @Nathan,
+We can catch up in the next bi-weekly JS meeting..
+00:49:38	Daniel Hardman:	Here’s the slide show I was sharing, in case it’s interesting: https://docs.google.com/presentation/d/17hk6QqLW5M9E4TBPZwXIUBu9eEinMNXReceyZTF4LpA/edit
+00:49:47	Nathan George:	Daniel++
+00:51:34	Nathan George:	I still hope that if our protocols are really well defined than we can ignore most dependent states, and codependent states can be even more niche so that we can mostly ignore them (doesn’t mean we don’t need them, just hoping the need is very rare)
+00:53:26	Daniel Hardman:	I agree with Nathan’s comment.
+01:04:00	Dev Bharel:	Handshake protocols?
+01:04:57	George Aristy:	+1
+01:05:19	Drummond Reed:	NO MORE SHAKING HANDS!!! VERBOTEN!! :-)
+01:05:54	Nathan George:	So long as it isn’t an “over complicated secret handshake”, “appropriately social distanced introduction” protocol
+01:06:29	Andrew Whitehead:	Handshake is clear enough, but setup is shorter, and short is good for QR codes
+01:07:25	George Aristy:	https://github.com/hyperledger/aries-rfcs/issues/470
+01:08:54	Darrell ODonnell:	URL Shorteners are wildly different system to system.
+01:10:23	Nathan George:	If your QR code takes more than 1920x1080 pixels to display, you might have trouble…
+01:10:50	Nathan George:	We also don’t want to create privacy tracking problems.  You are better off using follow up messages, rather than bloating the introduction
+01:11:20	Nathan George:	The within the same server part is important
+01:18:14	Darrell ODonnell:	So this-is-the-same as thisisthesame and this_is_the_same - by convention?
+01:18:41	Darrell ODonnell:	I can see people jumping out of windows after learning why they spent a week trying to get something figured out.
+01:18:42	Nathan George:	How about APL? ;). I don’t like case normalization or _ - camel normalization.  Utf-8 string match is easier
+01:28:11	Drummond Reed:	I have one more possible topic too

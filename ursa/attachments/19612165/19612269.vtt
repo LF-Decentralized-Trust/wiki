@@ -1,0 +1,298 @@
+WEBVTT
+
+1
+00:00:33.560 --> 00:00:34.969
+Nathan George: Oh, hello.
+
+2
+00:00:37.940 --> 00:00:39.110
+Bhaskar Ram: hey! Hello!
+
+3
+00:00:42.930 --> 00:01:02.550
+Nathan George: Welcome to the we usually wait a couple of minutes to see who else is is on their way. I don't know if we have a current call leader right now. But Brent is here, so at least there are some community members here to talk to. So if you have any ideas on what you'd like to talk about now, it's the time to kind of think about them. so we can see what topics we have to discuss.
+
+4
+00:01:03.780 --> 00:01:04.750
+Bhaskar Ram: Okay.
+
+5
+00:01:46.250 --> 00:01:48.550
+Bhaskar Ram: Hey, Nathan? Hey, George?
+
+6
+00:01:53.420 --> 00:01:54.220
+Bhaskar Ram: Hello!
+
+7
+00:02:12.030 --> 00:02:13.040
+Nathan George: Hello! Hello!
+
+8
+00:02:14.000 --> 00:02:17.749
+Nathan George: Well, it looks like it's probably just the 3 of us for today.
+
+9
+00:02:20.560 --> 00:02:28.629
+Nathan George: We actually don't have a pre prepared agenda for the call today, as far as I know, i'm looking on discord. Now, just to make sure that that's actually the case.
+
+10
+00:02:28.940 --> 00:02:32.330
+Nathan George: if you are on hyper ledger discord.
+
+11
+00:02:32.350 --> 00:02:43.560
+Nathan George: there is an Ursa channel there on hyper ledger discord that we can use to discuss anything related to the code base and what's going on in the project, or in some cases, what's not going on in the project.
+
+12
+00:02:45.090 --> 00:02:45.990
+Bhaskar Ram: Okay.
+
+13
+00:02:47.590 --> 00:02:49.060
+Bhaskar Ram: I'm: actually
+
+14
+00:02:49.310 --> 00:02:51.040
+Bhaskar Ram: working on
+
+15
+00:02:51.090 --> 00:02:51.930
+Bhaskar Ram: cactus.
+
+16
+00:02:53.320 --> 00:02:54.360
+Nathan George: Excellent!
+
+17
+00:02:56.320 --> 00:02:58.909
+Bhaskar Ram: Just learning about the all the projects. Now.
+
+18
+00:03:04.500 --> 00:03:15.540
+Nathan George: well, with Ersa is a shared cryptography library that was intended originally to be used very heavily in both saw tooth and in
+
+19
+00:03:15.580 --> 00:03:34.600
+Nathan George: hyper ledger. Indie it's a Since then some of the the constructs inside it have grown to be able to support other systems as well, though I don't know how well it was adopted in Saw Tooth code base. It's very extensively used by the hyper ledger Indie community to build both hyper ledger indie, and later Hyper ledger aries
+
+20
+00:03:34.610 --> 00:03:39.930
+Nathan George: and also we hope is a continued component of the new Hyper ledger, non-cret initiatives.
+
+21
+00:03:40.990 --> 00:03:46.380
+Nathan George: And so there's a lot of anonymous credentials implementation inside of ersa. There's also a lot
+
+22
+00:03:46.400 --> 00:03:52.209
+Nathan George: primitives for signing and encryption and decryption that are useful for various blockchain applications.
+
+23
+00:03:52.240 --> 00:03:58.360
+Nathan George: it has suffered recently from the lack of a lot of active contribution.
+
+24
+00:03:58.820 --> 00:04:04.520
+Nathan George: largely because, most of the code that's being actually used in other projects is fairly stable, and
+
+25
+00:04:04.570 --> 00:04:08.079
+Nathan George: the contributors to those projects have been focused on other areas
+
+26
+00:04:08.180 --> 00:04:09.260
+Nathan George: their tech stack.
+
+27
+00:04:09.380 --> 00:04:16.500
+Nathan George: So one of the things we've been looking for is more contributors to help update the rust packaging code organization, the unit testing
+
+28
+00:04:17.079 --> 00:04:36.079
+Nathan George: and then get into what the next future enhancements are that the community would like to see so this call has been actually rather poorly attended. The last 3 or 4 times that it's occurred since cam needed to step down the company i'm with keep it. Microphones Used to be very heavily involved in
+
+29
+00:04:36.190 --> 00:04:37.170
+Nathan George: global
+
+30
+00:04:37.260 --> 00:04:46.679
+Nathan George: national Id cards and development of Id cards that could be used for financial inclusion around the world. And since my company has stepped away from a direct Content
+
+31
+00:04:46.700 --> 00:04:52.490
+Nathan George: Hyper ledger, there's been a lot of contribution from Kam and myself in particular.
+
+32
+00:04:52.510 --> 00:05:08.979
+Nathan George: and a couple of other contributors had similar situations come up. So we're happy to have everyone who's here on the call here today. and the the time is essentially Q. A. to talk about whatever we would like to talk about, so I I turn it over to you.
+
+33
+00:05:09.400 --> 00:05:12.160
+Nathan George: Oh, Brent, is it? Is it? Pascar?
+
+34
+00:05:12.620 --> 00:05:13.640
+Bhaskar Ram: Yeah.
+
+35
+00:05:17.270 --> 00:05:18.040
+Bhaskar Ram: Hello.
+
+36
+00:05:20.760 --> 00:05:21.750
+Bhaskar Ram: Hey, George!
+
+37
+00:05:22.770 --> 00:05:26.579
+Nathan George: Oh, my! My last name is George. I usually go by Nathan.
+
+38
+00:05:27.900 --> 00:05:33.600
+Bhaskar Ram: Yeah, I actually contributed to some security issues and cactus on fabric
+
+39
+00:05:33.980 --> 00:05:34.680
+Bhaskar Ram: that way.
+
+40
+00:05:37.280 --> 00:05:38.220
+Nathan George: Excellent!
+
+41
+00:05:38.910 --> 00:05:42.940
+Bhaskar Ram: I would like to interested in researching on also
+
+42
+00:05:46.260 --> 00:05:51.659
+Nathan George: the folks on Ursa tend to come from a lot of different companies. We haven't had a
+
+43
+00:05:51.730 --> 00:06:09.209
+Nathan George: one unified corporate effort on Ursa for a while. We tend to have more kind of freelance developers. In the past this meeting has been a really good source of advice around cryptography and the design of crypto systems. It's one of the things we've always used. The the zoom call for and then
+
+44
+00:06:09.250 --> 00:06:22.859
+Nathan George: Most of the coding effort has happened on Github through Github issues. in terms of the coordination and there's been a lot of full request review on the various 4 requests that have happened. The the team that has been working on Hero Ha
+
+45
+00:06:22.920 --> 00:06:27.169
+Nathan George: has recently tried to get more involved with ersa and has been
+
+46
+00:06:27.190 --> 00:06:31.109
+Nathan George: we're hoping putting themselves in a position to take over as primary maintainer.
+
+47
+00:06:31.820 --> 00:06:34.529
+Bhaskar Ram: Yeah, I would like to also contribute to the
+
+48
+00:06:35.710 --> 00:06:39.350
+Bhaskar Ram: Yeah. Yeah, I'm: a freelance developer at.
+
+49
+00:06:42.540 --> 00:06:44.569
+Nathan George: So do you work with
+
+50
+00:06:46.130 --> 00:06:51.909
+Nathan George: Which teams have you been working with on cactus
+
+51
+00:06:52.170 --> 00:06:54.280
+Bhaskar Ram: like security?
+
+52
+00:06:55.290 --> 00:06:56.180
+Nathan George: Excellent.
+
+53
+00:06:56.660 --> 00:06:57.230
+Yeah.
+
+54
+00:07:01.400 --> 00:07:03.159
+Bhaskar Ram: We can continue this meeting.
+
+55
+00:07:06.180 --> 00:07:11.149
+Nathan George: Well, do you have any particular questions in particular about Ursa, or what you would like to do to
+
+56
+00:07:12.370 --> 00:07:16.999
+Bhaskar Ram: Oh, no, nothing. I will check it out. Letter from Docs, or something like
+
+57
+00:07:20.020 --> 00:07:29.889
+Nathan George: the the Docs folder has some description of what's going on there's actually a current issue in it's kind of a master ticket for what we call operation oso
+
+58
+00:07:29.930 --> 00:07:39.309
+Nathan George: that has a bunch of smaller refactoring tasks in it. So if you're looking for an easy way to kind of get a full request in and get a kind of a tour of the code base. That's probably where I would start.
+
+59
+00:07:40.320 --> 00:07:42.190
+Bhaskar Ram: Yeah, that seems to be good
+
+60
+00:07:44.400 --> 00:07:48.079
+Nathan George: branch. Do you have anything else to add or anything you'd like to talk about today.
+
+61
+00:07:48.670 --> 00:07:49.670
+Bhaskar Ram: No, nothing.
+
+62
+00:07:50.840 --> 00:07:52.760
+Brent Zundel: I don't have anything either.
+
+63
+00:07:53.770 --> 00:07:58.280
+Nathan George: Well, then, I guess this is going to be a really short meeting.
+
+64
+00:07:58.720 --> 00:07:59.849
+Brent Zundel: Those are my favorite.
+
+65
+00:08:04.730 --> 00:08:06.559
+Brent Zundel: all right. I'll see everybody in January.
+
+66
+00:08:07.280 --> 00:08:12.540
+Nathan George: Excellent! We'll. We'll see everybody at the next call, which, like Brent said should be in January, will likely
+
+67
+00:08:12.740 --> 00:08:22.430
+Nathan George: have canceled the the calls during the holiday season, and if that call doesn't get officially canceled, at least in this recording we can say on the record that it's unofficially canceled at the very least.
+
+68
+00:08:24.350 --> 00:08:25.350
+Nathan George: Thank you.
+
+69
+00:08:25.820 --> 00:08:27.370
+Bhaskar Ram: Thank you, Brandon. Not on.
+
+70
+00:08:30.530 --> 00:08:31.760
+Bhaskar Ram: thank you. Guys. Bye.
+
+71
+00:08:32.620 --> 00:08:33.310
+Nathan George: bye, bye.
+
+72
+00:08:34.120 --> 00:08:34.740
+Bhaskar Ram: all right.
+
+73
+00:08:34.880 --> 00:08:35.580
+Bhaskar Ram: Good morning.
+
+74
+00:08:36.150 --> 00:08:37.010
+Bhaskar Ram: I mean.
+

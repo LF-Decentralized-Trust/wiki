@@ -1,0 +1,125 @@
+1. [Hyperledger AnonCreds](index.html)
+2. [Hyperledger AnonCreds](Hyperledger-AnonCreds_20283406.html)
+3. [AnonCreds Working Group](AnonCreds-Working-Group_20291468.html)
+4. [Meetings: AnonCreds Working Group](20291486.html)
+
+# Hyperledger AnonCreds : 2024-01-08 AnonCreds Working Group Meeting
+
+Created by Stephen Curran, last modified on Jan 08, 2024
+
+## Summary
+
+- AnonCreds Roadmap – topic introduction
+- Aries Issue Credential and Present Proof attachment formats
+- Open Discussion
+
+## Time: 7:00 Pacific / 16:00 Central Europe Call Link: [https://zoom.us/j/97954159540?pwd=WWk3WmQ3MVh1SXBYZGVreGl0QllGdz09](https://zoom.us/j/97954159540?pwd=WWk3WmQ3MVh1SXBYZGVreGl0QllGdz09)
+
+## Recording:
+
+## Notices:
+
+This specification creating group operates under the Linux Foundation [Community Specification License v1.0](https://github.com/hyperledger/anoncreds-spec/blob/main/1._Community_Specification_License-v1.md).
+
+cifi![](https://wiki.hyperledger.org/download/attachments/29034696/Antitrustnotice.png?version=1&modificationDate=1581695654000&api=v2)
+
+![](https://wiki.hyperledger.org/download/attachments/2392771/welcome.png?version=2&modificationDate=1572450107000&api=v2)
+
+Hyperledger is committed to creating a safe and welcoming
+
+community for all. For more information
+
+please visit the [Hyperledger Code of Conduct](https://lf-hyperledger.atlassian.net/wiki/spaces/HYP/pages/19595281/Hyperledger+Code+of+Conduct).
+
+## Meeting Attendees
+
+[Stephen Curran](https://lf-hyperledger.atlassian.net/wiki/people/557058:d676f135-ecd6-465b-b7eb-f87976bf4569?ref=confluence) (BC Gov / Cloud Compass Computing Inc.) &lt;swcurran@cloudcompass.ca&gt;
+
+[Steve McCown](https://lf-hyperledger.atlassian.net/wiki/people/712020:6a16994f-5370-4543-a732-609646e7e665?ref=confluence) (Anonyome Labs) &lt;smccown@anonyome.com&gt;
+
+## Related Specifications and Repositories:
+
+- AnonCreds v1.0:
+  
+  - The v1.0 specification is published here: [https://hyperledger.github.io/anoncreds-spec/](https://hyperledger.github.io/anoncreds-spec/)
+  - The Working Group uses this GitHub repository to manage the specification: [https://github.com/hyperledger/anoncreds-spec](https://github.com/hyperledger/anoncreds-spec)
+  - The AnonCreds Methods Registry: [https://hyperledger.github.io/anoncreds-methods-registry](https://hyperledger.github.io/anoncreds-methods-registry)
+  - The v1.0 implementation in Rust is here: [https://github.com/hyperledger/anoncreds-rs](https://github.com/hyperledger/anoncreds-rs)
+  - The v1.0 implementation is dependent on this Rust CL Signatures implementation: [https://github.com/hyperledger/anoncreds-clsignatures-rs](https://github.com/hyperledger/anoncreds-spec-v2)
+- AnonCreds v2.0
+  
+  - The initial framework for the v2.0 specification repository is here: [https://github.com/hyperledger/anoncreds-spec-v2](https://github.com/hyperledger/anoncreds-spec-v2)
+  - The v2.0 implementation in Rust is here: [https://github.com/hyperledger/anoncreds-v2-rs](https://github.com/hyperledger/anoncreds-v2-rs)
+  - Underlying AnonCreds v2.0 are cryptographic libraries in Hyperledger Labs Agora
+
+## Meeting Preliminaries:
+
+- Welcome and Introductions
+- Announcements:
+- Any updates to the Agenda?
+
+## Agenda
+
+Open Issues
+
+- AnonCreds Roadmap 2024
+  
+  - Hyperledger TOC Requirement for projects to submit an [Annual Report](https://toc.hyperledger.org/governing-documents/project-annual-review.html)
+  - Currently working on the report
+  - Looking to have a discussion about the Roadmap at next Monday's meeting
+  - Possible List:
+    
+    - AnonCreds W3C VC Format
+    - Finalized v1.0 Spec.
+    - AnonCreds v2.0
+      
+      - Combine with other efforts around Data Integrity Proofs and BBS+ Signatures.
+      - Combine ZKP/non-ZKP Revocation implementation (ALLOSAUR and StatusList2021)
+      - W3C VC Format
+      - Hyperledger Labs Agora
+      - Draft Specification v2.0
+      - Experiment with Post Quantum PS Signatures
+- Aries Issue Credential / Present Proof Attachments
+  
+  - Current: [Indy](https://github.com/hyperledger/aries-rfcs/tree/main/features/0592-indy-attachments), [JSON-LD](https://github.com/hyperledger/aries-rfcs/tree/main/features/0593-json-ld-cred-attach) - which do we use, or should we define another that (also) handles JWTs?
+  - HackMD: [https://hackmd.io/JEIOxf\_ETnaX33kTIu7YJw?view](https://hackmd.io/JEIOxf_ETnaX33kTIu7YJw?view)
+  - Test Vectors Repo (!!): [https://github.com/TimoGlastra/anoncreds-w3c-test-vectors](https://github.com/TimoGlastra/anoncreds-w3c-test-vectors)
+  - Outcome still to be defined.  Leading proposals:
+    
+    - Issue either:
+      
+      - With RFC 0592/0771 and add handling for an extra an proof type, or
+      - With the new attachment format being proposed by Timo
+    - Present either:
+      
+      - With RFC 0592/0771 for AnonCreds presentations and RFC 0510 (DIF Presentation Exchange) for JSON-LD presentations, or
+      - With RFC 0510 for both AnonCreds and JSON-LD presentations
+        
+        - Extending the 0510 handling for generating/verifying AnonCreds presentations by automating the finding of AnonCreds source VCs for a presentation from DIF PE data, and creating a DIF PE Submission.
+          
+          - Challenge: I think (to be confirmed), an AnonCreds presentation requires including an AnonCreds-format presentation request. Can that be produced?  Should it be, since the verifier already has it...
+      - *NOTE*: If an AnonCreds VC is to also have a non-AnonCreds DataIntegrityProof that also has holder binding, the AnonCreds VC **MUST** have an "id" field explicitly added, and hold a DID.  We can document that.
+- Chat:
+
+## Future Calls
+
+## To Dos:
+
+## Action items
+
+- Links to be referenced in the spec and used where needed:
+  
+  - From Will Abramson : [https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.186.5994&amp;rep=rep1&amp;type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.186.5994&rep=rep1&type=pdf)
+  - From Will Abramson : [https://github.com/hyperledger/indy-hipe/blob/c761c583b1e01c1e9d3ceda2b03b35336fdc8cc1/text/anoncreds-protocol/README.md](https://github.com/hyperledger/indy-hipe/blob/c761c583b1e01c1e9d3ceda2b03b35336fdc8cc1/text/anoncreds-protocol/README.md)
+
+## W3C AnonCreds + AFJ Demo
+
+- Aries Framework JavaScript repo: [https://github.com/DSRCorporation/aries-framework-javascript/tree/w3c-demo-poc](https://github.com/DSRCorporation/aries-framework-javascript/tree/w3c-demo-poc)
+- Anoncreds-RS library, Anoncreds-NodeJs, and Anoncreds-Shared are built from the branch: [https://github.com/DSRCorporation/anoncreds-rs/tree/anoncreds-wc3-wrappers](https://github.com/DSRCorporation/anoncreds-rs/tree/anoncreds-wc3-wrappers)
+  
+  - Use main implementation (not included, dropping of `mapping`  and `encoding`  changes)
+- Update AFJ `@hyperledger/anoncreds-nodejs`  and \`@hyperledger/anoncreds-shared\` dependencies to use locally built packages
+
+Document generated by Confluence on Nov 26, 2024 11:26
+
+[Atlassian](http://www.atlassian.com/)

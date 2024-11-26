@@ -1,0 +1,1482 @@
+WEBVTT
+
+1
+00:01:53.310 --> 00:01:54.060
+Nathan George: Hello.
+
+2
+00:02:00.240 --> 00:02:00.930
+Jim St. Clair: hi everybody.
+
+3
+00:02:10.320 --> 00:02:12.150
+Cam Parra | kiva.org: hey i'm glad if anyone has questions.
+
+4
+00:02:12.270 --> 00:02:13.440
+Cam Parra | kiva.org: Even if it's in the beginning.
+
+5
+00:02:14.610 --> 00:02:20.490
+Nathan George: we're not showing Muhammad as having joined the audio so Muhammad if you could I don't know if you can hear us or not.
+
+6
+00:02:23.220 --> 00:02:25.410
+Nathan George: Maybe we should post something like that on chat instead.
+
+7
+00:02:55.980 --> 00:03:04.890
+Cam Parra | kiva.org: i'm just giving people a couple of minutes to join her to trickle in I know that the areas call kind of went over it's time so.
+
+8
+00:03:08.370 --> 00:03:09.210
+Cam Parra | kiva.org: Just letting that.
+
+9
+00:03:12.180 --> 00:03:15.660
+Cam Parra | kiva.org: Giving those are those folks a chance to jump on the call.
+
+10
+00:03:16.410 --> 00:03:27.870
+Nathan George: But for those who are not on that call hall a bastion proposed to some device finding stuff thats related to to ease and a few other things that have been very interesting to this.
+
+11
+00:03:28.320 --> 00:03:41.250
+Nathan George: subset of community in the past, so if you're not if you're not on the discord server yet you might want to make sure you're on there and check out some of the things he posted in the various channels around device Monday.
+
+12
+00:03:45.180 --> 00:03:51.180
+Jim St. Clair: yeah I haven't gotten to this board, yet I don't know if anybody else has this problem, and I know it's not really a Ram memory.
+
+13
+00:03:56.850 --> 00:03:57.330
+Muhammad Muhasin: Oh no.
+
+14
+00:04:02.550 --> 00:04:11.100
+Nathan George: I have not paid much attention to how much memory discord is using I do know that the mobile APP for discord is much better than the mobile APP from rocket chat.
+
+15
+00:04:17.400 --> 00:04:19.620
+Jim St. Clair: yeah that's cool I have not run the mobile APP.
+
+16
+00:04:40.020 --> 00:04:41.430
+Cam Parra | kiva.org: Alright, it looks like.
+
+17
+00:04:44.910 --> 00:04:48.330
+Cam Parra | kiva.org: It looks like it's been five minutes, so I think we can get started.
+
+18
+00:04:51.150 --> 00:04:54.510
+Cam Parra | kiva.org: yeah so this might be, I was, I think.
+
+19
+00:04:55.530 --> 00:04:56.370
+Cam Parra | kiva.org: We have.
+
+20
+00:04:57.420 --> 00:05:06.600
+Cam Parra | kiva.org: Everyone here has been on this call before or if you haven't if you'd like to introduce yourself, please go ahead and unmute yourself and introduce yourself.
+
+21
+00:05:18.150 --> 00:05:26.250
+Cam Parra | kiva.org: Alright cool well yeah everyone, welcome to the ursa bi weekly meeting, my name is cam parra.
+
+22
+00:05:27.270 --> 00:05:45.660
+Cam Parra | kiva.org: I am an engineer@kiva.org and i'm going to be leading this meeting today and yeah we just have some items to go over so just remember that this is a hyper ledger meeting and and trust policy is enforced.
+
+23
+00:05:46.860 --> 00:05:47.340
+Cam Parra | kiva.org: here.
+
+24
+00:05:49.440 --> 00:05:54.870
+Cam Parra | kiva.org: And we'll begin with announcements I don't think we have any particular ursa announcements.
+
+25
+00:05:56.430 --> 00:06:00.390
+Cam Parra | kiva.org: Unless anyone else has an announcement in here that they would like to.
+
+26
+00:06:02.310 --> 00:06:03.150
+Cam Parra | kiva.org: like to announce.
+
+27
+00:06:12.210 --> 00:06:34.710
+Cam Parra | kiva.org: Alright cool no announcements then alright so we'll go to our current pull requests and we are still pending on the are wants yes select a pull request I have spoken to Mike he doesn't have the time currently to fix what the main trainers are asking for here.
+
+28
+00:06:36.150 --> 00:06:36.960
+Cam Parra | kiva.org: So what.
+
+29
+00:06:38.160 --> 00:06:55.110
+Cam Parra | kiva.org: We propose is that I help out Mike to write some of those tests, I haven't been able to get to that yet, but it is, in my queue of things to do and yeah that's the only part that we have left for this are once yes.
+
+30
+00:06:56.760 --> 00:06:57.600
+Cam Parra | kiva.org: pull request.
+
+31
+00:06:58.770 --> 00:07:03.810
+Cam Parra | kiva.org: And yeah I think everyone here is familiar more at this pull request is about just.
+
+32
+00:07:06.570 --> 00:07:12.570
+Cam Parra | kiva.org: A way to build Z kp circuits and cool stuff there.
+
+33
+00:07:15.240 --> 00:07:24.480
+Cam Parra | kiva.org: yeah we should we should eventually change this up to have better examples, and not just to be a command line interface, but that will go.
+
+34
+00:07:26.040 --> 00:07:27.060
+Cam Parra | kiva.org: That will come with time.
+
+35
+00:07:28.080 --> 00:07:35.280
+Nathan George: And, is this the kind of thing that someone else could jump in and help you with, or is this kind of thing the summary is we're still waiting.
+
+36
+00:07:36.120 --> 00:07:40.230
+Cam Parra | kiva.org: No, this is something that anyone could jump in and make these tests.
+
+37
+00:07:42.300 --> 00:07:47.850
+Nathan George: And what would be the benefits to ursa or the benefits of the person who did these tests So what did they get they don't have now.
+
+38
+00:07:50.790 --> 00:07:57.600
+Cam Parra | kiva.org: Well, if you are wanting to build our quickly set up a as a tip circuit, or you have any.
+
+39
+00:07:59.100 --> 00:08:10.380
+Cam Parra | kiva.org: yeah you want to work with GPS easily then using this are ones, yes language would would make it easier and you would benefit from from that by getting this pull request and.
+
+40
+00:08:12.300 --> 00:08:18.930
+Nathan George: So that that's the best sales pitch we have for the recording hopefully someone will will come up and say there's something they might want to do to help.
+
+41
+00:08:20.700 --> 00:08:22.560
+Cam Parra | kiva.org: yep um.
+
+42
+00:08:23.700 --> 00:08:24.630
+Cam Parra | kiva.org: So yeah so.
+
+43
+00:08:26.070 --> 00:08:40.440
+Cam Parra | kiva.org: yeah this is this is something that that might not seem like it's that big of a deal but yeah a lot of people who come to these meetings, want to just start working with GPS that's like their first.
+
+44
+00:08:41.700 --> 00:08:45.600
+Cam Parra | kiva.org: that's like their first question that they have in mind, and so this would be this would really help them out.
+
+45
+00:08:49.080 --> 00:08:49.500
+Cam Parra | kiva.org: cool.
+
+46
+00:08:50.730 --> 00:08:52.500
+Cam Parra | kiva.org: So we'll move on from that.
+
+47
+00:08:53.640 --> 00:08:57.510
+Cam Parra | kiva.org: yeah so today, I wanted to just go over operation also.
+
+48
+00:08:59.940 --> 00:09:13.860
+Cam Parra | kiva.org: I think everyone in here has also heard about that, but I was trying let's see I was trying to get a little bit more of the Aries crowd in this in this call, because it's important to them as well as everyone on the call.
+
+49
+00:09:15.450 --> 00:09:33.150
+Cam Parra | kiva.org: But um yeah so let's just go over operation also, and this is something that was proposed a long time ago and a little bit of history ursa code base is that there's a code base was made to unify the.
+
+50
+00:09:34.440 --> 00:09:37.920
+Cam Parra | kiva.org: hyper ledger products to use the same.
+
+51
+00:09:39.300 --> 00:09:50.070
+Cam Parra | kiva.org: crypto primitives or crypto solutions in their in their repos so that people wouldn't be rolling their own crypto, and so this was created.
+
+52
+00:09:51.120 --> 00:10:04.020
+Cam Parra | kiva.org: A lot of indie a lot of the indie crypto was brought in, and a lot of stuff was rewritten, but it was all done at a pace that was pretty fast, because we needed a solution for Aries and for indie.
+
+53
+00:10:05.730 --> 00:10:24.180
+Cam Parra | kiva.org: And for other for other repos to start using a a crypto library that had been looked over by crypto experts, and so the way the code was written it was it it you could see a lot of patterns being reused and a lot of.
+
+54
+00:10:26.130 --> 00:10:35.580
+Cam Parra | kiva.org: You know overcomplicated code that makes it unfriendly to a lot of newcomers and yeah overall it's just.
+
+55
+00:10:36.750 --> 00:10:57.810
+Cam Parra | kiva.org: A huge library, that you have to that you can't pick stuff apart from so so there's just a lot of things that do benefit did have a lot of benefits but there but it's not easy to use or implement and we'd like to change that so that you know people are not.
+
+56
+00:11:00.420 --> 00:11:18.930
+Cam Parra | kiva.org: You know, getting frustrated and then you know decided just to go with solutions that even have not been had a proper security check or haven't been verified by cryptographers or crypto engineers and so yeah.
+
+57
+00:11:19.560 --> 00:11:26.220
+Nathan George: Just just to add a little bit of the history here from from being on the security list early on, it hyper ledger and kind of where.
+
+58
+00:11:26.700 --> 00:11:33.750
+Nathan George: ursa came from this isn't a theoretical concern, we had a bunch of projects and labs that had rolled their own.
+
+59
+00:11:34.230 --> 00:11:49.560
+Nathan George: pieces of implementation and many cases they didn't consider it rolling their own crypto but they had enough uniquely combined components that it created a unique protocol or a combination of cryptography that turned out to have some funny problems are not be safe in one way or another.
+
+60
+00:11:50.760 --> 00:11:56.130
+Nathan George: And it was the kind of thing that it just had a few more eyes on when it was put together would have been fine.
+
+61
+00:11:56.910 --> 00:12:05.880
+Nathan George: But they were all operating pretty much in isolation from one another, so the thought was by bringing the folks who are working on these parts of the system together underneath ursa.
+
+62
+00:12:06.810 --> 00:12:15.540
+Nathan George: and getting more eyes on them we would catch those issues earlier on, and but they would be able to find implementations that were already in existence that were better audited.
+
+63
+00:12:16.710 --> 00:12:22.500
+Nathan George: from both the academic standpoint, in terms of the cryptography that they were building on but also with the implementation side so.
+
+64
+00:12:23.250 --> 00:12:27.990
+Nathan George: It was the idea of calling the code together, so we have this reusable library was.
+
+65
+00:12:28.620 --> 00:12:36.390
+Nathan George: With both to get to an implementation that you could just pick up and use that had an ease of use that was easier than going off and trying to roll your own.
+
+66
+00:12:36.780 --> 00:12:50.490
+Nathan George: But also, this kind of bring people together so they would talk about what it is they were trying to get out of it and find and converge on safer implementations more quickly, and I know heart will have more he could add to that as it as we need to.
+
+67
+00:12:51.660 --> 00:12:54.900
+Hart Montgomery: I think you guys are doing a great job of explaining the story.
+
+68
+00:12:55.080 --> 00:12:58.140
+Hart Montgomery: And why we have her set and why we need herself.
+
+69
+00:12:59.280 --> 00:13:15.810
+Hart Montgomery: So I don't have too much to add it was just a realization of the fact that early on in hyper ledger we had you know a lot of need for new cryptographic code and not a lot of people who are you know able to review it.
+
+70
+00:13:17.460 --> 00:13:21.210
+Hart Montgomery: So you guys did a great job of summarizing everything already so thanks.
+
+71
+00:13:24.390 --> 00:13:33.660
+Cam Parra | kiva.org: cool things are anything so yeah So if you so yeah if you've been paying attention, then you clearly can tell that there's.
+
+72
+00:13:34.170 --> 00:13:49.560
+Cam Parra | kiva.org: Some arm, while all intentions were good we we wanted to get something out there and sometimes that's just part of the development process, you have to get something out there, and you make some mistakes or you make things.
+
+73
+00:13:50.880 --> 00:13:54.810
+Cam Parra | kiva.org: The way you know it, and so that's what happened to ursa oh go ahead.
+
+74
+00:13:57.060 --> 00:14:03.870
+Hart Montgomery: I should also say that this is, you know organizational rather than a matter of security.
+
+75
+00:14:04.440 --> 00:14:09.480
+Hart Montgomery: Right, as some people in this group may know there's a security audit finishing up.
+
+76
+00:14:10.680 --> 00:14:16.350
+Hart Montgomery: For certain parts of ursa that will we expect to have a generally positive.
+
+77
+00:14:18.330 --> 00:14:30.180
+Hart Montgomery: outcome, and if anyone in this group wants to be more closely involved in that please feel free to reach out cam and Nathan you've already been volunteered.
+
+78
+00:14:32.340 --> 00:14:34.830
+Hart Montgomery: But anybody else that's interested, please feel free to reach out.
+
+79
+00:14:38.850 --> 00:14:39.270
+Hart Montgomery: yep.
+
+80
+00:14:39.990 --> 00:14:51.720
+Cam Parra | kiva.org: Things are yeah so again urine we're not where where the the code is the code, it might be difficult, but that doesn't mean it's not useful more secure so.
+
+81
+00:14:53.520 --> 00:15:06.900
+Cam Parra | kiva.org: But one thing that we have seen is that a lot of developers are that the mission that we set out to do was to for set to be that crypto or that crypto library that would unify a lot of.
+
+82
+00:15:07.260 --> 00:15:24.840
+Cam Parra | kiva.org: A lot of groups, but with a difficult of the difficulty of implementing the code you've seen we've recently seen splintering of those of the group some groups again and what we want to accomplish with operation also is to make.
+
+83
+00:15:25.890 --> 00:15:37.110
+Cam Parra | kiva.org: This or to fix this problem, so if you don't know operation also is simply the refactoring of the ursa code base.
+
+84
+00:15:40.620 --> 00:16:01.020
+Cam Parra | kiva.org: Well there's a lot of reasons of why the refactoring is really important, but again, that ease of use and the ability to drive newer newer developers into into ursa is a big deal to us, because we want the ursa project to continue to do what it set out to do have.
+
+85
+00:16:03.120 --> 00:16:13.440
+Cam Parra | kiva.org: of being that library that can be dependent on for all the hyper ledger projects and external projects that are looking for solid crypto solutions.
+
+86
+00:16:14.760 --> 00:16:20.400
+Cam Parra | kiva.org: let's see so yeah so there's a lot of things we want you know this will bring in.
+
+87
+00:16:21.570 --> 00:16:28.560
+Cam Parra | kiva.org: Common crypto primitives and reusable data types into into ursa.
+
+88
+00:16:30.180 --> 00:16:42.120
+Cam Parra | kiva.org: you'll See also with the with this refactoring you'll see a increase of security, because when ursa was written, it was not that long ago, but it was long enough.
+
+89
+00:16:43.320 --> 00:17:01.380
+Cam Parra | kiva.org: Time long enough that rust has improved and and security and its implementation so some of the some some of the way a the the code is written will be written in a safer way because those the the rust has those abilities now.
+
+90
+00:17:04.320 --> 00:17:07.530
+Cam Parra | kiva.org: yeah and just this will make it so that.
+
+91
+00:17:08.640 --> 00:17:12.000
+Cam Parra | kiva.org: ursa components are chopped up into individual.
+
+92
+00:17:13.020 --> 00:17:20.970
+Cam Parra | kiva.org: into individual creates an individual yeah so there's gonna be drill crates will be able to be implemented into other crypto solutions.
+
+93
+00:17:21.930 --> 00:17:33.570
+Cam Parra | kiva.org: Not just ours are or implementation and that's really cool that'll make it so that, if even if someone else's depends on it, we can they can easily just pull down a single create.
+
+94
+00:17:34.020 --> 00:17:47.040
+Cam Parra | kiva.org: Or if they have an idea, it will just make this it will just make it they'll give the ability to for our normal engineer or someone with a little bit of knowledge about crypto to get really creative and try out.
+
+95
+00:17:49.080 --> 00:17:51.270
+Cam Parra | kiva.org: Solid you know solid solid crypto solutions.
+
+96
+00:17:53.850 --> 00:18:04.830
+Cam Parra | kiva.org: yeah and a big thing that that will also come from this is that it will allow people to add their own solutions into ursa and stay in ursa so that.
+
+97
+00:18:05.340 --> 00:18:17.580
+Cam Parra | kiva.org: We can maintain this code, so that we don't have to we don't have 50 different implementations scattered everywhere, and we have to you know maintain all of those 50 solutions.
+
+98
+00:18:19.980 --> 00:18:22.230
+Cam Parra | kiva.org: um so how is this going to go on.
+
+99
+00:18:24.120 --> 00:18:36.510
+Cam Parra | kiva.org: And if anyone has questions I know i'm probably preaching to the choir here but um yeah if anyone has any questions or we should do this differently, please go ahead and raise your hand, and let me know.
+
+100
+00:18:37.650 --> 00:18:48.210
+Cam Parra | kiva.org: i'm open to all solutions here, this is just something that I personally am going to be doing in my in some of my work time and some of my spare time and I just feel like the.
+
+101
+00:18:48.660 --> 00:18:57.150
+Cam Parra | kiva.org: The Community could really benefit from it um but yeah so go if you have any concerns questions, please pause me and and let me know.
+
+102
+00:18:59.610 --> 00:19:14.970
+Cam Parra | kiva.org: cool so yeah, so this is, I should have hyperlink this but, if we go to this link you'll see that this is the issue that was created by Mike lauder, who is the creator of operation also and.
+
+103
+00:19:15.510 --> 00:19:23.580
+Cam Parra | kiva.org: One of the one of the main contributors to the code base and he he was the one who who thought of this refactoring at first.
+
+104
+00:19:24.150 --> 00:19:35.940
+Cam Parra | kiva.org: But yeah so how this this refactoring will go, is that we will create that will split apart, or so in a way that it won't currently the code base is not affected by.
+
+105
+00:19:36.990 --> 00:19:55.140
+Cam Parra | kiva.org: By this splitting up the the core or I mean the the legacy code will still be there until we reach a certain point in in the refactoring where we say you know we the the legacy code is no longer needed and we can get rid of.
+
+106
+00:19:56.460 --> 00:20:16.050
+Cam Parra | kiva.org: Of this of this CRATE so how it will do it is we will we'll split apart, or so, which was already done by Mike and thanks for Mike for doing that he's not here but i'll think for you guys when I when I get in contact with them, hopefully he'll be at our next meeting, but um.
+
+107
+00:20:17.670 --> 00:20:26.130
+Cam Parra | kiva.org: yeah but so so everything has been split up, we have ursa core as being.
+
+108
+00:20:27.660 --> 00:20:41.400
+Cam Parra | kiva.org: Probably the main repo which will will be its own CRATE and all of these ursa underscore directories here will be their own CRATE and will be able to be implemented on their own.
+
+109
+00:20:43.530 --> 00:20:54.540
+Cam Parra | kiva.org: yeah so so that's already done that's how the organization of the refactoring will be done to the first step that we see here in operation also is to.
+
+110
+00:20:55.620 --> 00:21:18.750
+Cam Parra | kiva.org: Do the core components and if we take a look at the core components will see that, basically, what it is, is is refactoring the tools that Mike used and other developers who contributed to Ursula used to write the to write the legacy code or what will be the legacy code.
+
+111
+00:21:19.830 --> 00:21:29.940
+Cam Parra | kiva.org: and make those tools better and easier to implement in in the refactoring so one of the biggest things is that.
+
+112
+00:21:31.860 --> 00:21:39.930
+Cam Parra | kiva.org: That, for example, we had this key gen option, with which was a generic, which is a generic.
+
+113
+00:21:40.950 --> 00:21:45.870
+Cam Parra | kiva.org: Macro that was written in raw in in this in our sign rust.
+
+114
+00:21:46.980 --> 00:21:53.820
+Cam Parra | kiva.org: That was very that wasn't the most modular or the most.
+
+115
+00:21:55.770 --> 00:22:04.800
+Cam Parra | kiva.org: yeah I guess it didn't have much inheritance to it, it just kind of did things for you and you didn't get to choose, of how your solutions would be implemented.
+
+116
+00:22:06.240 --> 00:22:11.160
+Cam Parra | kiva.org: which can be kind of detrimental to certain key types and certain.
+
+117
+00:22:12.900 --> 00:22:24.780
+Cam Parra | kiva.org: Just implementations of a in a inertia and so so yeah so that's what we're setting out to do in this.
+
+118
+00:22:26.100 --> 00:22:37.890
+Cam Parra | kiva.org: In this first step to creating the core projects is just we're going to simplify things, make it reusable and make it so that when people who are using, for example.
+
+119
+00:22:38.520 --> 00:23:00.960
+Cam Parra | kiva.org: A certainty type like bls and they have certain a certain way or there's a better way to handle bls than you know any other type of of key, then they can implement it on on the bls key and not apply it to everything all other keys so yeah, so this is, this is the first step here.
+
+120
+00:23:03.180 --> 00:23:24.330
+Cam Parra | kiva.org: And then, once this is complete we'll go ahead and use all those classes and all the those structures to create the signatures key agreements encryption secret sharing and all these other things that that can be done after we have reflected that the core the core components of versa.
+
+121
+00:23:27.540 --> 00:23:30.450
+Cam Parra | kiva.org: yeah any questions that's a lot of stuff that I just went over.
+
+122
+00:23:41.220 --> 00:23:48.900
+Nathan George: So if you're trying to figure out how you can help with the code here what's the right thing to do next, and there's a list there's a ticket.
+
+123
+00:23:50.640 --> 00:23:51.930
+Nathan George: You know.
+
+124
+00:23:52.950 --> 00:23:55.920
+Nathan George: Can you step us through a couple of things we should go poking at.
+
+125
+00:23:59.760 --> 00:24:02.520
+Cam Parra | kiva.org: yeah for sure um so.
+
+126
+00:24:04.200 --> 00:24:09.330
+Cam Parra | kiva.org: um so yeah So if you so if you want to see you what i'm working on, you can go to.
+
+127
+00:24:10.590 --> 00:24:12.570
+Cam Parra | kiva.org: You can go to my fork.
+
+128
+00:24:15.540 --> 00:24:25.560
+Cam Parra | kiva.org: And this is just my name backwards and that's my github username and if you go into my ursa core branch.
+
+129
+00:24:26.790 --> 00:24:44.340
+Cam Parra | kiva.org: And I haven't updated this, but if you go to ursa core and, if you want to look at what i'm doing you can go and look at some of this stuff and see how I am implementing.
+
+130
+00:24:45.780 --> 00:24:59.550
+Cam Parra | kiva.org: These new trades and how i'm working on that on those on those tests, I i'll update this probably this week, so if you want to jump in on to my into my fork and just look at what i'm working on.
+
+131
+00:25:00.390 --> 00:25:09.270
+Cam Parra | kiva.org: that's just some of the work that's going on, but also, if you want to go into these issues, then.
+
+132
+00:25:10.020 --> 00:25:22.290
+Cam Parra | kiva.org: You can feel free to message me, and you have you have any questions or concerns, and if you want to start get started on working on something just let me know and we can partner up and and you know and and add.
+
+133
+00:25:23.820 --> 00:25:25.980
+Cam Parra | kiva.org: Whatever you want to contribute.
+
+134
+00:25:36.030 --> 00:25:40.920
+Cam Parra | kiva.org: cool yeah so uh basically we need volunteers here.
+
+135
+00:25:42.630 --> 00:25:49.080
+Cam Parra | kiva.org: This is open to anyone who wants to just use their rascals I know a lot of developers.
+
+136
+00:25:51.660 --> 00:26:01.800
+Cam Parra | kiva.org: that are in the Community don't get are no rust but don't get to use it all the time and sometimes as developers just want to kind of you know stretch our wings and.
+
+137
+00:26:03.150 --> 00:26:11.340
+Cam Parra | kiva.org: and be able to practice some language that we enjoy, so this is perfect for anyone that's doing that let's see.
+
+138
+00:26:16.620 --> 00:26:34.500
+Cam Parra | kiva.org: yeah Jim so so that that's correct, so this will be so this will be easier to implement into devices, since it will be smaller So if you need core core components, you know smaller chunks of ursa you will be able to you, we will be able to have that.
+
+139
+00:26:36.810 --> 00:26:41.460
+Jim St. Clair: Great perfect thanks very much i'm sorry to throw the rhythm off for your present presenting there but.
+
+140
+00:26:42.180 --> 00:26:50.490
+Jim St. Clair: yeah, so I am part of a sovereign group SSI and iot and we're starting to move into playing around with raspberry pi's is a test bed.
+
+141
+00:26:51.660 --> 00:26:58.200
+Jim St. Clair: And then i'm also starting some conversations with some device manufacturers and vmware and a few others.
+
+142
+00:26:58.560 --> 00:27:12.600
+Jim St. Clair: And the SSI and iot group it's got a couple folks and I apologize for forgetting the names, because I think of them a couple of them might be with our work and and there are so workgroup four areas work group who have been doing work on 42 rust as well.
+
+143
+00:27:13.920 --> 00:27:16.950
+Jim St. Clair: So maybe comparison notes there I can grab your email camp.
+
+144
+00:27:17.610 --> 00:27:26.190
+Cam Parra | kiva.org: yeah go ahead yeah and it's it's right uh right there um but yeah this will be great for iot I think go ahead.
+
+145
+00:27:27.840 --> 00:27:30.210
+Hart Montgomery: Sorry, I was just gonna say I unfortunately have to.
+
+146
+00:27:30.210 --> 00:27:31.710
+Hart Montgomery: drop at 830.
+
+147
+00:27:33.780 --> 00:27:46.080
+Hart Montgomery: For mandatory meeting, but thank you for organizing cam this is fantastic and if anyone here has any like cryptography questions where you need someone who can you know dig into the math.
+
+148
+00:27:47.520 --> 00:27:50.610
+Hart Montgomery: Please, please feel free to reach out to me, and let me know.
+
+149
+00:27:51.840 --> 00:27:58.410
+Hart Montgomery: I have explicitly gotten permission that I can spend time on this when necessary and appropriate.
+
+150
+00:27:59.730 --> 00:28:03.420
+Hart Montgomery: So so make sure to to ask if you have questions.
+
+151
+00:28:04.500 --> 00:28:22.230
+Cam Parra | kiva.org: yeah before you leave her um one question to those who are here for the part of the cryptography part is do you have any papers that you would like to discuss in two weeks or any you know any crypto that you want to discuss into.
+
+152
+00:28:22.350 --> 00:28:30.810
+Hart Montgomery: that's a great question but maybe the thing to do is for other people to pick an area or a topic, and then I can pick a paper.
+
+153
+00:28:32.580 --> 00:28:33.120
+Cam Parra | kiva.org: yeah.
+
+154
+00:28:34.080 --> 00:28:41.850
+Hart Montgomery: So you guys can discuss that now or later on the mailing list and i'm always happy to recommend papers.
+
+155
+00:28:42.960 --> 00:28:45.990
+Hart Montgomery: So there you know I just don't know like what.
+
+156
+00:28:47.220 --> 00:28:52.950
+Hart Montgomery: You know you guys have a better pulse on sort of what people are interested in at the market level.
+
+157
+00:28:55.500 --> 00:29:01.410
+Nathan George: i'll propose something right now the areas were group just prior to us just just talking about back to restore.
+
+158
+00:29:01.800 --> 00:29:02.340
+Hart Montgomery: about what.
+
+159
+00:29:03.090 --> 00:29:06.510
+Nathan George: They a lot of questions about how you can securely backup and restore.
+
+160
+00:29:07.980 --> 00:29:08.670
+Nathan George: secrets.
+
+161
+00:29:10.170 --> 00:29:13.050
+Hart Montgomery: Okay, so like what kind of.
+
+162
+00:29:16.320 --> 00:29:31.470
+Hart Montgomery: What this see this can go to a lot of different directions right, we could discuss like threshold sizing backups we could discuss like secure storage in the cloud is there any particular aspect that.
+
+163
+00:29:31.920 --> 00:29:38.430
+Nathan George: I think all of those would be fair game effects surveying some of those topics, along with how backup restore functions as a key rotation.
+
+164
+00:29:40.080 --> 00:29:45.150
+Nathan George: It could be very interesting to those to that group and pull this more in our direction.
+
+165
+00:29:48.180 --> 00:29:54.150
+Hart Montgomery: Okay yeah i'll probably reach out to you with some more questions about the specifics behind that.
+
+166
+00:29:57.180 --> 00:30:04.980
+Hart Montgomery: But yeah i'm i'm happy to do this and I will definitely recommend some stuff for for next week or two weeks.
+
+167
+00:30:09.930 --> 00:30:10.560
+Cam Parra | kiva.org: cool thanks.
+
+168
+00:30:10.980 --> 00:30:14.760
+Hart Montgomery: And I do have to drop now so but thank you so much for organizing camp.
+
+169
+00:30:14.970 --> 00:30:15.930
+Cam Parra | kiva.org: And no worries.
+
+170
+00:30:16.650 --> 00:30:17.460
+Hart Montgomery: i'll be in touch.
+
+171
+00:30:17.880 --> 00:30:20.010
+Hart Montgomery: And everyone else, please feel free to reach out as well.
+
+172
+00:30:20.310 --> 00:30:20.790
+Hart Montgomery: Thank you.
+
+173
+00:30:22.500 --> 00:30:30.360
+Cam Parra | kiva.org: Thanks her um yeah So if you if you guys don't know who are his heart is the new.
+
+174
+00:30:31.980 --> 00:30:33.300
+Cam Parra | kiva.org: I believe cto.
+
+175
+00:30:35.250 --> 00:30:47.730
+Cam Parra | kiva.org: At hyper ledger he is a cryptographer and has helped us out a lot if you ever have any crypto questions he's the guy to go to and not bitcoin.
+
+176
+00:30:48.300 --> 00:31:00.390
+Cam Parra | kiva.org: or any of the other cryptocurrencies but he's a cryptographer so he's a mathematician So if you have any questions on the math he's probably the guy to go to a lot of us are just implementing others and.
+
+177
+00:31:01.410 --> 00:31:04.800
+Cam Parra | kiva.org: know some of the math but can't explain it, as well as he, as he can.
+
+178
+00:31:06.570 --> 00:31:08.790
+Cam Parra | kiva.org: yeah so feel free to reach out the heart.
+
+179
+00:31:09.930 --> 00:31:13.980
+Cam Parra | kiva.org: But we'll get back to that topic of of what we want to discuss next.
+
+180
+00:31:16.200 --> 00:31:35.160
+Cam Parra | kiva.org: yep so cool So if you have any if you have any if you need any if you have any volunteers, or if you are a volunteer please feel free to reach out to me on my email and again you don't need a crypto degree to be in on this call, or to participate in ursa.
+
+181
+00:31:36.570 --> 00:31:44.160
+Cam Parra | kiva.org: And you might if any of you might might might freak out by this and say Oh, you know well that's scary using a crypto library.
+
+182
+00:31:44.550 --> 00:31:57.420
+Cam Parra | kiva.org: And that's not true, we have about 10 people who are have crypto backgrounds reviewing your code or making sure that what goes into the code base is properly reviewed, as well as.
+
+183
+00:31:59.430 --> 00:32:01.650
+Cam Parra | kiva.org: As well as various other.
+
+184
+00:32:03.990 --> 00:32:07.800
+Cam Parra | kiva.org: Institutions doing security reviews on the code base so.
+
+185
+00:32:08.820 --> 00:32:10.980
+Cam Parra | kiva.org: don't be afraid well the.
+
+186
+00:32:11.130 --> 00:32:13.470
+Cam Parra | kiva.org: The the code process.
+
+187
+00:32:13.500 --> 00:32:14.850
+Muhammad Muhasin: is pretty solid here.
+
+188
+00:32:14.850 --> 00:32:18.660
+Cam Parra | kiva.org: That we have worked on this from since day one.
+
+189
+00:32:19.740 --> 00:32:21.030
+Nathan George: came oh yeah thanks Bobby.
+
+190
+00:32:22.560 --> 00:32:23.400
+Cam Parra | kiva.org: i'm.
+
+191
+00:32:23.520 --> 00:32:25.260
+Cam Parra | kiva.org: sweet so.
+
+192
+00:32:27.570 --> 00:32:29.730
+Cam Parra | kiva.org: that's my call to all of you.
+
+193
+00:32:31.110 --> 00:32:31.710
+Cam Parra | kiva.org: um.
+
+194
+00:32:33.420 --> 00:32:36.690
+Cam Parra | kiva.org: I guess we don't have.
+
+195
+00:32:38.490 --> 00:32:55.710
+Cam Parra | kiva.org: The areas folks to do this open discussion time of what we want to see change in ursa I can move this over to next in two weeks to try to write to try to get more people from areas and other projects in here to discuss this.
+
+196
+00:32:57.630 --> 00:33:11.100
+Cam Parra | kiva.org: I guess as a as a small group, since a lot of us have the same things in mind, you know we probably would agree here so i'd like to have a little bit more of a diverse group in order to discuss this.
+
+197
+00:33:13.830 --> 00:33:15.300
+Cam Parra | kiva.org: But yeah let's see we have.
+
+198
+00:33:22.140 --> 00:33:26.250
+Cam Parra | kiva.org: Everyone oh yeah I can I can share this I can share this link.
+
+199
+00:33:28.860 --> 00:33:32.580
+Nathan George: Will you will you will you be putting these slides in the meeting notes of wiki.
+
+200
+00:33:33.030 --> 00:33:49.530
+Cam Parra | kiva.org: Yes, i'll be I don't I haven't poked around too much on how to do the wiki so that's why I didn't prepare a wiki there there yet, but I will poke around a little bit in that today and add these notes and i'll i'll be posting those notes, also in the.
+
+201
+00:33:50.550 --> 00:34:05.460
+Cam Parra | kiva.org: In the discord channel, I am very active there, so, if any, if you have any questions, please go ahead and and join that and let's make that are so channel just that main source of communication, but I can drop this link real quick right here.
+
+202
+00:34:08.310 --> 00:34:16.500
+Nathan George: So basically the idea here is, we have as much time as much time as 20 minutes or 25 minutes as little time as.
+
+203
+00:34:16.980 --> 00:34:27.000
+Nathan George: As we can just call it to talk about what it what what we might want to have happen either two weeks or what we want to see out ursa or what we think we could contribute to us over the course next little while.
+
+204
+00:34:29.250 --> 00:34:43.980
+Cam Parra | kiva.org: um yeah so so yeah so we have an open open discussion on on what what we want to do here on what will you'd like to see out of the out of this meeting and yeah if you have any topics that you want to discuss everything is open here.
+
+205
+00:34:45.360 --> 00:34:54.450
+Cam Parra | kiva.org: It doesn't have to be an intimidating call like if you just want to know more about zero knowledge proofs you know if you want to discuss bb bb s plus.
+
+206
+00:34:54.990 --> 00:35:07.800
+Cam Parra | kiva.org: If you want to know, like hey I have no idea what you know cryptographic keys, are we can go as basic as that or we can even go back to what is cryptography like anything is open here.
+
+207
+00:35:10.140 --> 00:35:15.210
+Nathan George: Okay, so we're just the open discussion time anybody can ask whatever they want so who wants to talk about something.
+
+208
+00:35:33.990 --> 00:35:46.860
+Aruna S M: Since we are open discussion period right, I wanted to bring up this topic so I present i'm not sure how many of you are already know about this, there is a hyper ledger security process Task Force going on.
+
+209
+00:35:47.970 --> 00:35:50.640
+Aruna S M: And recently in these discussions.
+
+210
+00:35:50.730 --> 00:35:53.760
+Aruna S M: Like the task force there have been multiple conversations and.
+
+211
+00:35:54.030 --> 00:36:11.040
+Aruna S M: Security being one of the topic that has to be looked at across the layers now there are plans to create multiple work streams within the task force, each of which will focus on one area and we target to address concerns and proceed to the next one right.
+
+212
+00:36:12.150 --> 00:36:17.820
+Aruna S M: So it could be interesting to the Community over here if you identify.
+
+213
+00:36:23.310 --> 00:36:23.880
+Aruna S M: site.
+
+214
+00:36:25.350 --> 00:36:37.080
+Aruna S M: So if you if you identify an area that you think we need to look at in terms of security processes from the cryptography standpoint, I think our cell community.
+
+215
+00:36:37.710 --> 00:36:49.680
+Aruna S M: is really big value add for it for us and as part of that tribe, so I would also encourage you to join the task force meetings, if possible, and any inputs from from this community is highly value.
+
+216
+00:36:50.700 --> 00:36:52.080
+Aruna S M: So we are looking into.
+
+217
+00:36:53.100 --> 00:36:56.700
+Aruna S M: Security, being a cross domain and cross.
+
+218
+00:36:58.230 --> 00:37:01.080
+Aruna S M: stack concern techniques to be addressed.
+
+219
+00:37:02.880 --> 00:37:10.140
+Nathan George: Or what would you say, are the action items, or like in the past, the Security Committee was really more kind of a.
+
+220
+00:37:11.190 --> 00:37:19.320
+Nathan George: response to issues that come in the door, it sounds like you're you're building kind of sort of work streams What would you say, are the work streams I.
+
+221
+00:37:22.920 --> 00:37:34.500
+Aruna S M: Right, I guess, know the task force itself for set up, initially, as you know, from the tsa things like there were a few concerns related or maybe it needed revisit and.
+
+222
+00:37:35.010 --> 00:37:54.510
+Aruna S M: really look into what we follow currently right the process that we follow but it turns out that during this discussions, there are multiple areas like we can focus on, for instance, we can look into the software distribution aspect and the build out of recycled, making sure the the.
+
+223
+00:37:56.790 --> 00:37:57.570
+Aruna S M: We have.
+
+224
+00:37:58.650 --> 00:38:02.730
+Aruna S M: What we call it as a way to prove that this build is.
+
+225
+00:38:03.180 --> 00:38:03.960
+Aruna S M: a valid one.
+
+226
+00:38:04.320 --> 00:38:10.650
+Aruna S M: Like we did under this this this this particular distribution is a valid one probably signing those binaries right so.
+
+227
+00:38:11.580 --> 00:38:19.380
+Aruna S M: We started with those kind of discussions, and then we started discussing on hey How do we make sure when a security concern is raised.
+
+228
+00:38:19.860 --> 00:38:26.940
+Aruna S M: Be score it and how do we escalate such scoring, for instance, if somebody is course if if an issue scores high we.
+
+229
+00:38:27.570 --> 00:38:34.800
+Aruna S M: need to have a mechanism that it gets fixed and then, how do we communicate it to the rest of the Community over the period of time.
+
+230
+00:38:35.730 --> 00:38:45.450
+Aruna S M: And then we started discussing around and when we looked into the current scoring islands for CBS CBS there were no points that were relating to a blockchain technology.
+
+231
+00:38:46.620 --> 00:38:53.700
+Aruna S M: They were very generic in nature, by the scoring for block chain itself could demand additional elements in it.
+
+232
+00:38:54.750 --> 00:38:57.600
+Aruna S M: Well, and when that topic was being discussed, sorry go ahead.
+
+233
+00:38:58.830 --> 00:39:00.330
+Nathan George: that's that's interesting.
+
+234
+00:39:02.490 --> 00:39:20.400
+Aruna S M: Right, so when we started discussing on those terms in this in the task force meetings it the scope kept expanding and we realized that it's time for us to break the task force into multiple work streams then considering it at a larger scope.
+
+235
+00:39:21.840 --> 00:39:22.080
+Aruna S M: and
+
+236
+00:39:23.790 --> 00:39:38.100
+Aruna S M: You know that that's that's where we currently stand, and that's where my request is towards the Community if you if you can join in and your input on I live at you know cryptography using cryptography.
+
+237
+00:39:39.180 --> 00:39:45.690
+Aruna S M: Especially in blockchain technology if we can come up with certain recommendations.
+
+238
+00:39:47.310 --> 00:39:49.830
+Aruna S M: or even a way to evaluate or validate.
+
+239
+00:39:51.600 --> 00:39:55.770
+Aruna S M: Have a way to prove the claims right so let's say some of the projects, they say.
+
+240
+00:39:56.790 --> 00:40:00.030
+Aruna S M: They make certain claims in the documentation, or they make certain.
+
+241
+00:40:01.650 --> 00:40:18.810
+Aruna S M: assumptions, how do we prove those so I feel, these are the areas where our community can can join in and give inputs, but again it's just my thoughts, but i'm very sure are so communities makes much more than and like i'm being very abstract you.
+
+242
+00:40:20.640 --> 00:40:29.940
+Nathan George: know in fact with any of these types of groups, they tend to expand to include all possible exploration and one of the challenges is trying to corral everyone.
+
+243
+00:40:29.940 --> 00:40:34.110
+Nathan George: into the smaller scope of work that will actually make a difference in the.
+
+244
+00:40:34.110 --> 00:40:43.620
+Nathan George: short term and so, hopefully, one of the things we have that can continue to happen is overlap between the ursa group and the Security Task forces that ursa is.
+
+245
+00:40:44.190 --> 00:40:59.190
+Nathan George: And was designed coming out of the folks who are working on security to help make it so cryptography at hyper ledger stayed safe and was stayed reliable in a way that helped our Community expand, so you know, hopefully, that that overlap continues to be something that's helpful to you.
+
+246
+00:41:01.260 --> 00:41:01.860
+Cam Parra | kiva.org: yeah and I think.
+
+247
+00:41:02.220 --> 00:41:06.510
+Cam Parra | kiva.org: I think we share the same concerns at least I think for me and for.
+
+248
+00:41:06.510 --> 00:41:10.710
+Cam Parra | kiva.org: Other members of this group, a lot of us are handed the security.
+
+249
+00:41:11.730 --> 00:41:27.930
+Cam Parra | kiva.org: The security aspects of our projects like we're the ones reporting security concerns to to hyper ledger, so I think we have various opinions of how that process should should go.
+
+250
+00:41:29.190 --> 00:41:39.870
+Cam Parra | kiva.org: If needed, and I think we were last time we were reporting stuff was from one of our code audits and the process just wasn't very clear and I think that's why that.
+
+251
+00:41:41.070 --> 00:41:51.300
+Cam Parra | kiva.org: Well, I think, from a long time, like just the security process hasn't been clear and so that it sounds like that's why they they're making this task force.
+
+252
+00:41:51.630 --> 00:41:57.510
+Nathan George: Well that's not surprised right because they've used to be handled a lot of that stuff as full time staff for hyper ledger for a while.
+
+253
+00:41:57.810 --> 00:42:07.080
+Nathan George: And he was able to put a lot of stuff in place that has since gone a little bit stale just because Community members have moved on and done gone on to do other things, and so a ruse work to.
+
+254
+00:42:07.770 --> 00:42:20.970
+Nathan George: reorganize all that and get everybody back to the same page is really important there i'm Brent and Adam we haven't heard much from you have a holiday, you have anything you want to talk about or anything you want to say you know come up you just throw it in.
+
+255
+00:42:22.500 --> 00:42:24.780
+Brent Zundel: I do want to say i'm thrilled about operation also.
+
+256
+00:42:25.200 --> 00:42:27.330
+Brent Zundel: You know, having lift off apparently.
+
+257
+00:42:28.620 --> 00:42:35.880
+Brent Zundel: I was thrilled when it was first suggested by Mike and you know, have been hammering against.
+
+258
+00:42:38.430 --> 00:42:43.080
+Brent Zundel: The available resources trying to actually be able to contribute still hammering.
+
+259
+00:42:44.610 --> 00:42:44.850
+Brent Zundel: But.
+
+260
+00:42:46.110 --> 00:42:46.950
+Brent Zundel: yeah love to see you.
+
+261
+00:42:49.320 --> 00:42:58.500
+Cam Parra | kiva.org: yeah it's exciting I I don't know how much I still have to see, I have a lot of things going on in my personal and my and my work time right now, but I have to see.
+
+262
+00:42:59.070 --> 00:43:06.960
+Cam Parra | kiva.org: What i'm what we can do, but even hyper ledger wants to or heart mentioned a hyper ledger wanting to throw interns.
+
+263
+00:43:07.560 --> 00:43:15.630
+Cam Parra | kiva.org: And hyper ledger interns into this project, so it could be, it could be something that gets a lot of momentum i'm hoping that it gets a lot of momentum, but.
+
+264
+00:43:15.960 --> 00:43:38.700
+Cam Parra | kiva.org: If if anyone wants to mentor if anyone wants to go into this project and mentor a Internet hyper ledger that's available, we can discuss on how that process goes and and yeah and writing it and you're doing a write up on on on just project or an operation also and requesting an intern.
+
+265
+00:43:39.270 --> 00:43:44.130
+Nathan George: Well, plus is the joy and frustration of photographs traits so come on it doesn't want to try to do that.
+
+266
+00:43:45.450 --> 00:43:54.570
+Cam Parra | kiva.org: And it's also if you have worked with Mike and you look up to him as a crypto engineer you you, you will be able to learn some of his.
+
+267
+00:43:55.380 --> 00:44:10.680
+Cam Parra | kiva.org: ways of thinking, because it's very clear in the code once you start once you start reading it so pretty cool um but yeah i'm excited about it as well, I hope that I hope to get a I hope to get ursa core.
+
+268
+00:44:12.870 --> 00:44:29.160
+Cam Parra | kiva.org: Running I can't commit to any timeline but, but I hope that that's something that this this year will bring us is just at least or sick or and getting some people hyped about it and contribute contributing to the other components of versa.
+
+269
+00:44:33.900 --> 00:44:38.130
+Cam Parra | kiva.org: What about Adam do you have any topics that you'd like to discuss, I know that you.
+
+270
+00:44:38.130 --> 00:44:52.050
+Cam Parra | kiva.org: haven't been in the speeding attend before, but if you have any any topics, you want to talk about if you have any if you have any suggestions of what we should do next you're welcome to share that with us.
+
+271
+00:44:52.500 --> 00:45:00.090
+Adam Burdett: yeah, of course, thanks for hosting cam, this is a great meeting um have you guys had discussions on how this.
+
+272
+00:45:01.260 --> 00:45:05.940
+Adam Burdett: might affect the areas as car project.
+
+273
+00:45:10.740 --> 00:45:13.860
+Cam Parra | kiva.org: What do you mean on what what what what would be affected.
+
+274
+00:45:16.380 --> 00:45:22.590
+Nathan George: I can take it to things off the top of my head one was asked her use some code out of ursa early on.
+
+275
+00:45:23.010 --> 00:45:35.250
+Nathan George: And refactor it and use it in a little bit of a different way, I think my understanding is most that duplication has since been consolidated back down into ursa cam is that is that true that they've been able to get back on the line.
+
+276
+00:45:36.300 --> 00:45:41.940
+Cam Parra | kiva.org: um no that was Aries Aries Aries is Aries and Aries.
+
+277
+00:45:42.120 --> 00:45:45.570
+Nathan George: It was the area's asked our library REX that's thing or we're talking about right now.
+
+278
+00:45:45.840 --> 00:45:47.610
+Cam Parra | kiva.org: yeah but but.
+
+279
+00:45:48.810 --> 00:45:54.300
+Cam Parra | kiva.org: We were concerned, you know we're concerned about a bunch of people who were implementing bbs plus.
+
+280
+00:45:55.980 --> 00:46:04.530
+Cam Parra | kiva.org: Just copying and pasting bbs plus Code into different repos that's been confirmed that it's not true for.
+
+281
+00:46:05.790 --> 00:46:08.460
+Cam Parra | kiva.org: occupy and.
+
+282
+00:46:09.510 --> 00:46:11.850
+Cam Parra | kiva.org: I believe yeah the the main.
+
+283
+00:46:14.220 --> 00:46:23.610
+Cam Parra | kiva.org: Though I shouldn't say the main but like.net and javascript areas javascript but I can't confirm that for asked card from the last time I saw it.
+
+284
+00:46:23.970 --> 00:46:34.140
+Cam Parra | kiva.org: It was still using a copy and paste code from from bbs plus I don't I haven't asked about that, but I can ask if if that's a concern.
+
+285
+00:46:34.860 --> 00:46:44.940
+Cam Parra | kiva.org: And I yeah I don't I don't want to be insensitive to anybody and I don't want to be accusatory of asking that so I.
+
+286
+00:46:45.510 --> 00:46:57.660
+Cam Parra | kiva.org: I don't want to push that too far, but um but yeah that's something that we can talk about then maybe we can bring in some of the some of the implementations there and and see what what we can do to help them to.
+
+287
+00:46:58.200 --> 00:47:01.890
+Nathan George: So, so we see Andrew, we should not tell him that cams out for his blood.
+
+288
+00:47:02.250 --> 00:47:02.610
+yep.
+
+289
+00:47:04.470 --> 00:47:08.040
+Adam Burdett: yeah I was gonna say we're among friends there's yeah.
+
+290
+00:47:09.750 --> 00:47:11.580
+Adam Burdett: No worries I.
+
+291
+00:47:13.320 --> 00:47:26.580
+Adam Burdett: i'm not deep in the code on ursa or asked are currently I was hoping that, as far was consuming more features of versa, and I think the refactored you would.
+
+292
+00:47:27.150 --> 00:47:44.820
+Adam Burdett: Talk that we've talked about is the great direction for all the repos and yeah I was just curious if if ups, is a downstream is started to see the action items you're pointing out, but.
+
+293
+00:47:46.170 --> 00:47:49.080
+Adam Burdett: um yeah really interested interesting.
+
+294
+00:47:51.030 --> 00:48:02.250
+Cam Parra | kiva.org: yeah well we'll have to work with that we, we want to bring everybody back to the fold of ursa because, just because of the value that it has we don't want anyone to recreate.
+
+295
+00:48:03.600 --> 00:48:08.850
+Cam Parra | kiva.org: Especially something like bbs plus where it's, something that would be.
+
+296
+00:48:09.780 --> 00:48:17.340
+Cam Parra | kiva.org: Well, so you have to realize I guess the the history of bbs plus and realize that a lot of this code is coming from the same person.
+
+297
+00:48:17.850 --> 00:48:31.080
+Cam Parra | kiva.org: And the same if the if that same person makes an update and ursa and it doesn't trickle down to ask our or anyone else, then you know that could bring in big security vulnerabilities.
+
+298
+00:48:32.250 --> 00:48:51.150
+Cam Parra | kiva.org: So yeah so just if we can avoid that at all costs to it'll be good I yeah I I, I wonder if there's more projects that like asked card, but if but yeah I guess asked her success would be if we had this project also succeed as well, because we have those crypto.
+
+299
+00:48:52.200 --> 00:48:59.100
+Cam Parra | kiva.org: We have those core crypto components available for them to use and not feel frustrated that they.
+
+300
+00:49:00.120 --> 00:49:04.890
+Cam Parra | kiva.org: have to basically rip whole sections of ursa in order to get one thing to work for them.
+
+301
+00:49:06.000 --> 00:49:06.360
+Nathan George: um.
+
+302
+00:49:07.620 --> 00:49:25.830
+Nathan George: Has anyone talk to her looked at the sequel interface issues, I know that we've had that conversation maybe every prompt six six months or 12 months or so around you know, whereas go added terms being consumed see callable library have there been any breakthroughs for improvements there.
+
+303
+00:49:27.360 --> 00:49:43.380
+Cam Parra | kiva.org: No, but that's interesting because also Aries go does not consumer Sir, and it also because of that and also has rewritten, a lot of this bbs plus and a lot of its own cryptography.
+
+304
+00:49:51.420 --> 00:49:59.310
+Cam Parra | kiva.org: But I don't have a clue I haven't looked into, integral and to see if it can consume see call will rot libraries last time.
+
+305
+00:50:00.510 --> 00:50:11.790
+Cam Parra | kiva.org: I talked about that, with people about why it had an herbicide and implemented to go, they just said that they did their own thing but it wasn't about the sega libraries.
+
+306
+00:50:46.200 --> 00:50:58.710
+Cam Parra | kiva.org: cool well um does anyone have any other questions or concerns or does that answer your question Nathan that doesn't really answer your question, but I don't have any other comments I don't know if anyone else has any other comments on that.
+
+307
+00:51:01.170 --> 00:51:06.390
+Jim St. Clair: I had a new issue or excuse me, I had a new question if we're trending topics.
+
+308
+00:51:08.820 --> 00:51:09.780
+Cam Parra | kiva.org: Are you okay with that anything.
+
+309
+00:51:12.300 --> 00:51:16.050
+Nathan George: Oh i'm just trying to bring up topics to get other people to talk so Jim by all means.
+
+310
+00:51:16.470 --> 00:51:26.790
+Jim St. Clair: haha thanks buddy hey I, and I apologize if you've covered this previously, this was the first ursa meeting I can make, but for those who who didn't see it.
+
+311
+00:51:29.880 --> 00:51:34.560
+Jim St. Clair: A neo john had a report that he Commission from a.
+
+312
+00:51:35.700 --> 00:51:38.490
+Jim St. Clair: Security consultancy with regards to.
+
+313
+00:51:40.380 --> 00:51:50.670
+Jim St. Clair: crypto and cma with the vc crypto specifically and the report was we put the report online on his linkedin page.
+
+314
+00:51:51.330 --> 00:51:58.740
+Jim St. Clair: I can download it share it if you haven't seen it, but it includes a number of recommendations, while he's not explicit about it.
+
+315
+00:51:59.370 --> 00:52:10.530
+Jim St. Clair: I understand neil's interests in having the vc crypto framework align with more of a physical compliant phipps 140 dash to.
+
+316
+00:52:11.430 --> 00:52:19.410
+Jim St. Clair: sort of framework, and there are a number of recommendations which he's going to turn over to this ECG to see whether they bothered to do them or not.
+
+317
+00:52:19.650 --> 00:52:28.530
+Jim St. Clair: But I wasn't sure if there are crypto dependencies between the BC framework and ursa enough to bring this up for consideration, and if there were i'd be happy to share the Info.
+
+318
+00:52:29.610 --> 00:52:34.380
+Nathan George: it'd be cool to see the report, so I think we should definitely get the link into the notes the very least.
+
+319
+00:52:34.830 --> 00:52:35.220
+Okay.
+
+320
+00:52:37.680 --> 00:52:48.060
+Nathan George: I still want to have kind of a fisticuffs over how identifiers were bound in the core vc spec and i'm curious to see what their security, out of this did with that part of the audit.
+
+321
+00:52:49.260 --> 00:53:00.360
+Jim St. Clair: Well, and i'm starting to get into a number of initiatives, where these things may be specifically customized or we work through the issues or fork it or whatever to get into.
+
+322
+00:53:01.650 --> 00:53:11.790
+Jim St. Clair: Physical compliant framework because i'm having more serious conversations in a federal identity management work group around decentralized identity and Indian areas, and I think with work like.
+
+323
+00:53:12.180 --> 00:53:22.680
+Jim St. Clair: PC tf and the identity wallets and stuff like that, the more we can approve, you know physical federal compliance side configurations for the indie Aries specie stack.
+
+324
+00:53:23.580 --> 00:53:33.420
+Jim St. Clair: And the to IP stack Overall, the better we are and i've been kind of waving my arms around about this for about 18 months, but of course haven't had something substantive to start looking at, and I think we're getting there.
+
+325
+00:53:34.050 --> 00:53:44.700
+Nathan George: Well, and professionally kiva where we've been doing federal ID card implementations around the world, so we're very interested in that So if you have something you want to gang up on be happy to help.
+
+326
+00:53:45.180 --> 00:53:46.020
+Jim St. Clair: yeah sounds good.
+
+327
+00:53:47.880 --> 00:53:54.900
+Jim St. Clair: yeah i'll probably email it back out to the list will take me a few minutes to dig it up on linkedin and i'm not on the discord but but i'll send it out that way.
+
+328
+00:53:54.900 --> 00:53:55.500
+Jim St. Clair: If that helps.
+
+329
+00:53:59.010 --> 00:54:00.060
+Cam Parra | kiva.org: works Jim Thank you.
+
+330
+00:54:02.220 --> 00:54:03.000
+Cam Parra | kiva.org: um.
+
+331
+00:54:04.020 --> 00:54:09.570
+Cam Parra | kiva.org: yeah uh I was hoping Brent would answer some of the phipps compliance stuff but.
+
+332
+00:54:10.620 --> 00:54:11.730
+Cam Parra | kiva.org: He had to drop.
+
+333
+00:54:13.950 --> 00:54:14.730
+Cam Parra | kiva.org: um.
+
+334
+00:54:14.850 --> 00:54:23.010
+Jim St. Clair: that's okay Kim because, as I recall, it was about six or seven months ago, or something I was on, and I know that Brett was on and Nathan was on and we had a good.
+
+335
+00:54:23.400 --> 00:54:38.010
+Jim St. Clair: 45 minute discussion about the challenges of fits but, but I did think that since there were discrete recommendations that came out of this report on the vc specification, there may be, you know implications down to earth and it wasn't even.
+
+336
+00:54:39.060 --> 00:54:48.540
+Jim St. Clair: Specific so much is just certain refinements to the shot 256 and a few other things you know upgrade changing things to as a few others, that that would be you know a good idea.
+
+337
+00:54:52.800 --> 00:54:56.280
+Cam Parra | kiva.org: Well yeah I look forward to that link.
+
+338
+00:54:57.750 --> 00:55:00.810
+Cam Parra | kiva.org: And that this is something that yeah we can always discuss and bring up.
+
+339
+00:55:03.600 --> 00:55:06.540
+Cam Parra | kiva.org: yeah just for upcoming meetings.
+
+340
+00:55:08.010 --> 00:55:14.130
+Cam Parra | kiva.org: I will let all of you know, when we're going to discuss the security audit that I believe.
+
+341
+00:55:15.960 --> 00:55:24.090
+Cam Parra | kiva.org: Let me get the name for for you the security audits being done in the Community for ursa and.
+
+342
+00:55:28.680 --> 00:55:35.460
+Cam Parra | kiva.org: let's see I guess it's ID lab that's doing this, the they're doing this.
+
+343
+00:55:36.930 --> 00:55:45.930
+Cam Parra | kiva.org: code audit and security audit so yeah we'll have to, I am going to be digging into those well I don't have the results.
+
+344
+00:55:46.620 --> 00:55:56.280
+Cam Parra | kiva.org: That hasn't been shared with me but i'm going to be contacting those who have the results and seeing, if I can, if we can discuss them soon, and I think that will be interesting to all of you.
+
+345
+00:55:57.870 --> 00:56:11.010
+Cam Parra | kiva.org: So it may not be next in the next few weeks, but it may be within this month, so we'll just stick around la i'll put it up in the Arizona announcements if that's something that that gets updated.
+
+346
+00:56:12.930 --> 00:56:13.590
+Cam Parra | kiva.org: For next time.
+
+347
+00:56:14.640 --> 00:56:15.450
+Cam Parra | kiva.org: So.
+
+348
+00:56:16.620 --> 00:56:18.150
+Cam Parra | kiva.org: I think we.
+
+349
+00:56:19.950 --> 00:56:21.510
+Cam Parra | kiva.org: I think Nathan chose a topic.
+
+350
+00:56:22.590 --> 00:56:24.390
+Cam Parra | kiva.org: And we're going to talk about.
+
+351
+00:56:26.250 --> 00:56:30.300
+Cam Parra | kiva.org: yeah wallet backups and have some of hearts.
+
+352
+00:56:31.410 --> 00:56:37.290
+Cam Parra | kiva.org: input into this and, hopefully, a paper a crypto paper that we can all discuss and that should be good.
+
+353
+00:56:40.710 --> 00:56:44.520
+Cam Parra | kiva.org: Any last comments, I think we had were up yeah we're about time.
+
+354
+00:56:45.540 --> 00:56:46.500
+Cam Parra | kiva.org: thanks again everyone.
+
+355
+00:56:47.070 --> 00:56:49.260
+Jim St. Clair: bear with me 60 more seconds and.
+
+356
+00:56:50.880 --> 00:56:54.540
+Jim St. Clair: yeah i'm getting the five can I upload files on this on the zoom.
+
+357
+00:56:55.680 --> 00:56:59.880
+Nathan George: I don't know that it prevents it I usually we just sent a clicking links, though.
+
+358
+00:57:00.540 --> 00:57:06.360
+Jim St. Clair: yeah I don't have a link I had to download it directly out of his linkedin post so yeah i'll just email it out on the wizard.
+
+359
+00:57:06.690 --> 00:57:09.300
+Cam Parra | kiva.org: You know, you can you can drop documents, though.
+
+360
+00:57:10.500 --> 00:57:13.320
+Nathan George: yeah one of us will stick around and make sure it's downloaded before we make.
+
+361
+00:57:23.760 --> 00:57:36.990
+Nathan George: I should say before we're done cam, thank you for taking on running this call you know there's a lot of different places, we have to collaborate and it's good to see this one still still staying alive and active with with everyone who's come to contribute so thanks everybody.
+
+362
+00:57:38.730 --> 00:57:44.610
+Cam Parra | kiva.org: yeah thanks everybody let your friends know that this is going to be a cool call from now on.
+
+363
+00:57:45.600 --> 00:57:52.140
+Cam Parra | kiva.org: It was always a cool call but we're going to make it so that everyone can understand what what what's being said and the.
+
+364
+00:57:52.710 --> 00:58:10.380
+Cam Parra | kiva.org: We don't rush topics, or that we don't assume prior knowledge so it's gonna be fun it's going to be definitely if it's if it's not if it it's going to involve your work, but also, I hope that it, you know builds your knowledge, a little bit more about some crypto topics and.
+
+365
+00:58:12.120 --> 00:58:16.380
+Cam Parra | kiva.org: that's okay Jim yeah go ahead and send it to the email and i'll take a look at it.
+
+366
+00:58:17.700 --> 00:58:18.240
+Jim St. Clair: For me, thanks.
+
+367
+00:58:19.890 --> 00:58:20.940
+Cam Parra | kiva.org: Alright well thanks everybody.
+
+368
+00:58:21.630 --> 00:58:22.770
+Cam Parra | kiva.org: we'll See you in two weeks.
+
+369
+00:58:24.450 --> 00:58:24.810
+Nathan George: bye bye.
+
+370
+00:58:25.470 --> 00:58:25.800
+See ya.
+

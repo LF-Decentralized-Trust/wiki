@@ -1,0 +1,16 @@
+08:19:25	 From Artem Ivanov : I prepared my env and ready to show the demo of the Verifier capability
+08:24:01	 From Clecio Varjao : https://github.com/hyperledger/aries-mediator-service/issues
+08:47:59	 From Tim Bloomfield : Load test for mediator with multi-use invitation fix: 600 users on a single instance. Will get the report shared on the discord mediator channel.
+08:48:29	 From James Ebert : Reacted to "Load test for mediat..." with 🔥
+08:51:44	 From Kyle Robinson : I REALLY like the proof requests inline with the chat!! Awesome!
+08:52:05	 From Mostafa Gamal : Great work
+08:54:19	 From Kyle Robinson : Artem - what does the result look like when the credential does not meet the predicate requirements?
+08:58:50	 From James Ebert : Replying to "Artem - what does th..."
+
+I would expect that the holder would not be able to present a proof—and likely wouldn’t send anything to the verifier either.
+08:59:58	 From Kyle Robinson : Replying to "Artem - what does th..."
+
+Right - I guess it would be the same if the holder delcines to present
+09:00:03	 From Kyle Robinson : Replying to "Artem - what does th..."
+
+*declines

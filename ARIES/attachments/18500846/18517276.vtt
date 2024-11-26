@@ -1,0 +1,2030 @@
+WEBVTT
+
+1
+00:01:09.920 --> 00:01:10.789
+George Mulhearn: Hello.
+
+2
+00:01:55.820 --> 00:01:56.830
+Patrik Stas: Hi, George!
+
+3
+00:01:59.650 --> 00:02:00.479
+George Mulhearn: Hey!
+
+4
+00:02:00.510 --> 00:02:01.350
+George Mulhearn: How are you?
+
+5
+00:02:12.600 --> 00:02:14.240
+George Mulhearn: Hello! Can you hear me?
+
+6
+00:02:19.420 --> 00:02:25.429
+Patrik Stas: Excuse me for just a minute or 2 before we get started? I just want to prepare a few more things.
+
+7
+00:02:26.210 --> 00:02:27.340
+George Mulhearn: Okay, now it is.
+
+8
+00:04:40.880 --> 00:04:47.659
+Patrik Stas: Hey, is there Sorry, George, Can you hear me? I just realized I had the probably my speakers off.
+
+9
+00:04:47.760 --> 00:04:50.930
+Patrik Stas: Okay, and I didn't hear you. She said something.
+
+10
+00:04:51.270 --> 00:05:00.359
+Patrik Stas: yeah, that was probably the issue, can you?
+
+11
+00:05:00.810 --> 00:05:10.610
+Patrik Stas: I was just adding few more things. Few more points to the agenda last last minute. But I think we can get started now.
+
+12
+00:05:11.070 --> 00:05:11.800
+George Mulhearn: You
+
+13
+00:05:12.010 --> 00:05:13.720
+Patrik Stas: Okay,
+
+14
+00:05:15.570 --> 00:05:16.680
+Patrik Stas: So
+
+15
+00:05:17.370 --> 00:05:19.040
+Patrik Stas: let me share this screen
+
+16
+00:05:20.730 --> 00:05:22.410
+Patrik Stas: so as usual.
+
+17
+00:05:22.430 --> 00:05:23.660
+Patrik Stas: i'll.
+
+18
+00:05:26.550 --> 00:05:29.900
+Patrik Stas: I'll leave this antitrust policy open for a bit
+
+19
+00:05:30.020 --> 00:05:34.370
+Patrik Stas: and visible in the meantime.
+
+20
+00:05:35.530 --> 00:05:48.350
+Patrik Stas: yeah, I would like to welcome you, George, and anybody who's tuning in the recording to he's going to call on first first time in 23
+
+21
+00:05:48.370 --> 00:05:50.489
+Patrik Stas: on January 5,
+
+22
+00:05:50.740 --> 00:05:52.100
+Patrik Stas: 23
+
+23
+00:05:52.340 --> 00:05:55.770
+Patrik Stas: yeah, and today there is a
+
+24
+00:05:55.980 --> 00:06:00.939
+Patrik Stas: bit more interesting at the agenda than usual. As a as I would like to
+
+25
+00:06:01.440 --> 00:06:09.379
+Patrik Stas: not only go through like the last week day to day. Operation they today work and prs
+
+26
+00:06:09.610 --> 00:06:19.829
+Patrik Stas: but also kind of review the 2,023, and think about what might be important going forward in 2023.
+
+27
+00:06:22.140 --> 00:06:28.759
+Patrik Stas: So yeah, let's let's get right into it. So i'll start with the the the usual usual
+
+28
+00:06:29.200 --> 00:06:41.280
+Patrik Stas: agenda. it should be fairly quick, and then move into the interesting part. So so. As for the recent work done, we have removed, and the
+
+29
+00:06:41.360 --> 00:06:43.689
+Patrik Stas: public agent
+
+30
+00:06:44.040 --> 00:06:54.569
+Patrik Stas: a portion of the code base, resulting in nice decrease of 1,000 lines, always always happy to Cprs like this, where we are reducing complexity.
+
+31
+00:06:55.370 --> 00:07:05.329
+Patrik Stas: So this public agent, abstraction. There was something was pretty much as used for the institutional issue, or very far a use case one
+
+32
+00:07:07.030 --> 00:07:15.450
+Patrik Stas: so probably not. No, nobody really touched anybody who's using V. 6 on the device.
+
+33
+00:07:15.740 --> 00:07:19.909
+Patrik Stas: and those this small small pole here.
+
+34
+00:07:22.020 --> 00:07:24.490
+Patrik Stas: Well, it's already closed, I guess.
+
+35
+00:07:25.850 --> 00:07:33.380
+Patrik Stas: and I was this short P. Before doing this work, where apparently nobody is really using it. Also, somebody really was using this.
+
+36
+00:07:33.580 --> 00:07:41.949
+Patrik Stas: So this is gone now. there was some minor refactoring prs which are probably not worth the going into into detail.
+
+37
+00:07:42.280 --> 00:07:46.610
+Patrik Stas: and then as for what's going right now?
+
+38
+00:07:47.080 --> 00:07:56.589
+Patrik Stas: we are working still working on the completing not Pr. As base bindings for the no jazz brepper
+
+39
+00:07:56.860 --> 00:08:04.390
+Patrik Stas: this is also before Pr. In a sense of removing 7,000 lines and adding 2,000
+
+40
+00:08:04.560 --> 00:08:09.559
+Patrik Stas: in instead. so it's nice reduction of complexity for sure.
+
+41
+00:08:09.860 --> 00:08:16.750
+Patrik Stas: the the node breaker is much simpler now. it's much faster. It runs with an old 18.
+
+42
+00:08:18.430 --> 00:08:26.020
+Patrik Stas: It seems to be more stable in Ci. The only piece of work we are now missing. Here is publishing the
+
+43
+00:08:26.900 --> 00:08:28.060
+Patrik Stas: the
+
+44
+00:08:28.510 --> 00:08:31.280
+Patrik Stas: and the wrapper to
+
+45
+00:08:31.710 --> 00:08:37.939
+Patrik Stas: and to the Npmgs, which is a bit more trickier now as we are building
+
+46
+00:08:38.640 --> 00:08:40.280
+Patrik Stas: because we are building now.
+
+47
+00:08:41.409 --> 00:08:47.989
+Patrik Stas: note Modules binary file, which we need to distribute along with the repair itself.
+
+48
+00:08:48.250 --> 00:08:56.310
+Patrik Stas: The along with the javascript files, and that's that's something noble to us. we haven't done before, so we'll have to
+
+49
+00:08:56.470 --> 00:09:05.749
+Patrik Stas: figure out how to publish it correctly and help publish it for the multiple or different architectures. But it'll be definitely nice
+
+50
+00:09:06.330 --> 00:09:18.350
+Patrik Stas: also leading to Nice like usability improvement, where basically, when you want to use the Vcx vcx with from Nodejs.
+
+51
+00:09:18.360 --> 00:09:29.029
+Patrik Stas: you'll no longer need to first compile the rough binary yourself, and then put it into like a system path, and then run the wrapper
+
+52
+00:09:29.080 --> 00:09:31.790
+Patrik Stas: instead. You will just put that
+
+53
+00:09:32.060 --> 00:09:33.240
+Patrik Stas: put the
+
+54
+00:09:33.790 --> 00:09:36.189
+Patrik Stas: A is. This is your dependency.
+
+55
+00:09:36.390 --> 00:09:45.940
+Patrik Stas: in your note project, and it should download. You know everything I need it, including all the pre compiles for architecture.
+
+56
+00:09:48.660 --> 00:09:53.129
+Patrik Stas: yeah, so that's that. then
+
+57
+00:09:53.300 --> 00:09:56.260
+Patrik Stas: we started
+
+58
+00:09:56.500 --> 00:10:01.530
+Patrik Stas: expand and expanding support for new mediated connections
+
+59
+00:10:01.710 --> 00:10:04.940
+Patrik Stas: into
+
+60
+00:10:05.830 --> 00:10:09.859
+Patrik Stas: basically to expose it on the fi layers.
+
+61
+00:10:10.150 --> 00:10:13.229
+Patrik Stas: there's 2 prs regarding that.
+
+62
+00:10:13.340 --> 00:10:20.600
+Patrik Stas: and then lastly the the Pr. Which is currently in draft from from George
+
+63
+00:10:24.410 --> 00:10:26.859
+Well installed. Quit, I guess.
+
+64
+00:10:29.070 --> 00:10:42.219
+Patrik Stas: yeah, the the Pr. we just adding, which is using critics for verify. But since it's since it's so draft, and and you are here. George!
+
+65
+00:10:42.360 --> 00:10:45.310
+Patrik Stas: what? What's needed in this Pr. To.
+
+66
+00:10:45.430 --> 00:10:49.829
+Patrik Stas: you know? Turn it into a Pr. From the draft state. Is there?
+
+67
+00:10:50.090 --> 00:10:59.040
+Patrik Stas: Is there? Is there stuff missing? I see it's pretty sure, but i'm not really sure how much work is there to do? The very far with the critics.
+
+68
+00:10:59.540 --> 00:11:15.629
+George Mulhearn: yeah, there there wasn't too much work. There was only really one verify a method which needed to be filled in which was just verify a verify proof. and it it, it seems to be working.
+
+69
+00:11:15.870 --> 00:11:21.900
+George Mulhearn: have some tests failing because they're not throwing the correct errors.
+
+70
+00:11:22.130 --> 00:11:25.830
+George Mulhearn: The tests are expecting like a Libindi error code.
+
+71
+00:11:25.970 --> 00:11:28.860
+George Mulhearn: So now i'm
+
+72
+00:11:29.500 --> 00:11:34.349
+George Mulhearn: trying to figure out the best way to go about fixing that
+
+73
+00:11:34.510 --> 00:11:51.490
+George Mulhearn: because I think the right move would be to move away from relying on living the error codes. And yeah for sure for sure, Probably some sort of my custom, maybe customly define error. And then in the in, the in, the in the implementation of the verifier
+
+74
+00:11:51.500 --> 00:11:58.679
+Patrik Stas: sort of map, that in the error, to whatever a custom a is V: 6 error we need to have or something like that.
+
+75
+00:11:58.970 --> 00:12:03.390
+George Mulhearn: Yeah, yeah, exactly. Yeah, I I started doing that. and yeah, I just need
+
+76
+00:12:04.170 --> 00:12:12.619
+George Mulhearn: bit of time to finish that off when I get a chance. but yeah, doing that error stuff will put us in a good place for
+
+77
+00:12:12.770 --> 00:12:21.789
+George Mulhearn: doing the next set of what is the issue of Api is because there'll be a lot more errors there.
+
+78
+00:12:21.860 --> 00:12:23.839
+George Mulhearn: and more. It has to do with it.
+
+79
+00:12:24.810 --> 00:12:27.390
+Patrik Stas: I see I see awesome sounds great.
+
+80
+00:12:28.530 --> 00:12:34.090
+Patrik Stas: Okay? And now, yeah, now, this is this is for the week, I guess, and
+
+81
+00:12:34.570 --> 00:12:39.619
+Patrik Stas: going into the interesting stuff. I said, 2,022 review
+
+82
+00:12:41.230 --> 00:12:43.400
+Patrik Stas: and the and the current state.
+
+83
+00:12:43.710 --> 00:12:51.990
+Patrik Stas: So yeah, I I think 22 is like really like significant move forward
+
+84
+00:12:52.350 --> 00:12:54.100
+Patrik Stas: in in
+
+85
+00:12:54.150 --> 00:12:56.810
+Patrik Stas: many different terms.
+
+86
+00:12:57.480 --> 00:13:04.619
+Patrik Stas: And maybe i'll jump a little bit here. But actually, I will start with this this this piece here this point here
+
+87
+00:13:05.060 --> 00:13:07.329
+Patrik Stas: as the increase coming to focus
+
+88
+00:13:07.400 --> 00:13:15.340
+Patrik Stas: basically like starting for like late summer this year. we started
+
+89
+00:13:15.390 --> 00:13:22.189
+Patrik Stas: put more focus on like getting more coming, the direction and become more community friendly.
+
+90
+00:13:22.460 --> 00:13:24.899
+Patrik Stas: so.
+
+91
+00:13:25.020 --> 00:13:32.740
+Patrik Stas: But we've increased our like discord, activity, and responsibility, and started doing these community calls.
+
+92
+00:13:32.960 --> 00:13:36.170
+Patrik Stas: and I think it's turned great. because
+
+93
+00:13:36.770 --> 00:13:44.820
+Patrik Stas: we we we we saw a number of contributors in the Q. 3. Q. 4
+
+94
+00:13:44.860 --> 00:13:47.080
+Patrik Stas: I guess more.
+
+95
+00:13:47.140 --> 00:13:56.000
+Patrik Stas: It was. most notably, I would say, you yourself, George, is is, you can with a really awesome and huge pr
+
+96
+00:13:56.030 --> 00:13:59.680
+Patrik Stas: contribution with the credits integration.
+
+97
+00:14:00.120 --> 00:14:04.770
+Patrik Stas: but also just recently we saw on discord.
+
+98
+00:14:05.290 --> 00:14:11.490
+Patrik Stas: added open. Yeah, we we saw a interest from Dinos to implement
+
+99
+00:14:11.900 --> 00:14:16.640
+Patrik Stas: flutter for.
+
+100
+00:14:17.320 --> 00:14:26.810
+Patrik Stas: So that's that's that's awesome. How easy, even. he says that he's even planning to open source that and contributed later.
+
+101
+00:14:28.240 --> 00:14:33.959
+Patrik Stas: yeah, there was also a number of other other contributors,
+
+102
+00:14:34.230 --> 00:14:39.560
+Patrik Stas: namely, credits to bonfire, and G I. G. 3 P. And t
+
+103
+00:14:39.840 --> 00:14:41.200
+Patrik Stas: call rps
+
+104
+00:14:41.800 --> 00:14:44.970
+Patrik Stas: also
+
+105
+00:14:47.660 --> 00:14:50.020
+Patrik Stas: and then I guess.
+
+106
+00:14:50.540 --> 00:14:55.840
+Patrik Stas: yeah. So so this this this is important driver for.
+
+107
+00:14:56.130 --> 00:14:57.030
+Patrik Stas: for
+
+108
+00:14:57.230 --> 00:15:01.689
+Patrik Stas: I will say, no, actually few few achievements this year.
+
+109
+00:15:04.750 --> 00:15:13.379
+George Mulhearn: yeah, I think I think it's definitely more welcoming now. Vcx, because, you know, we started looking at in Q. 3
+
+110
+00:15:13.650 --> 00:15:19.869
+George Mulhearn: of last year, and it was a little mysterious, because there wasn't too many messages and discord, and
+
+111
+00:15:20.410 --> 00:15:25.680
+George Mulhearn: it's hard to get a glance of what's happening. But there's a lot more interaction now, and it's really good.
+
+112
+00:15:25.850 --> 00:15:33.830
+Patrik Stas: Oh, yeah, that that's really that's awesome to here. I didn't know that you've been around for so long. Actually.
+
+113
+00:15:36.550 --> 00:15:54.090
+Patrik Stas: yeah, okay, then, then moving on to more technical technical parts. those definitely progress in modularization and decoupling. So we started splitting out the the individual crates. So now we have a ddo trade
+
+114
+00:15:54.370 --> 00:16:14.249
+Patrik Stas: messages create, and there's efforts to for the split. Other other bigger crates which for now are like divided into modules. So, for example, recently, Levy cx. Has been, has been split into Api, c. And api vcx.
+
+115
+00:16:14.410 --> 00:16:22.859
+Patrik Stas: whereas so they are. Comp. And the at the the Api is completely unaware of the upper layer, Api, c.
+
+116
+00:16:23.340 --> 00:16:27.489
+Patrik Stas: And it's also possible to compile the Vcx.
+
+117
+00:16:29.030 --> 00:16:38.379
+Patrik Stas: We we dialed the Api see itself, simply excluding it by configuring the rest Cargo features.
+
+118
+00:16:38.670 --> 00:16:55.379
+Patrik Stas: and then also importantly. And this has been paying for for a long time. We are trying to get rid of the V. 6 Agency Mediator dependency, and just kind of make it optional you know, for at least for now.
+
+119
+00:16:57.530 --> 00:17:04.620
+Patrik Stas: as although it's it's a pretty useful for the mobile use case, and I think people are using it
+
+120
+00:17:04.740 --> 00:17:07.640
+Patrik Stas: at the same time.
+
+121
+00:17:08.170 --> 00:17:17.520
+Patrik Stas: it's. It just makes it much harder for anyone to try out there. Easy 6 right now, as you are kind of
+
+122
+00:17:17.900 --> 00:17:23.150
+Patrik Stas: It's just this extra dependency extra service you need to have running somewhere.
+
+123
+00:17:23.460 --> 00:17:26.640
+Patrik Stas: And yeah, that's just like extra barriers. So
+
+124
+00:17:27.500 --> 00:17:45.300
+Patrik Stas: we'd like to make this optional Also V 6. The mediator itself is not really useful in case you are trying to build. If you're or very far with a is Vcx. So this just kind of adding really extra complexity for such a use case
+
+125
+00:17:45.350 --> 00:17:55.349
+Patrik Stas: and hands, the work we are currently doing with, adding support for the non mediated connection protocol.
+
+126
+00:17:57.290 --> 00:18:10.279
+Patrik Stas: and even with the nominated connection. Protocol. You should always still be able to, you know, use the mediation, perhaps aside yourself. But, we don't want to bake it into the Area's Vcx. Itself. Too much
+
+127
+00:18:10.380 --> 00:18:17.900
+Patrik Stas: so might be useful optional dependency. But we don't want to force this particular medie to implementation.
+
+128
+00:18:21.870 --> 00:18:22.880
+Patrik Stas: yeah.
+
+129
+00:18:25.610 --> 00:18:28.620
+Patrik Stas: Then for moving to the next point.
+
+130
+00:18:29.300 --> 00:18:44.309
+Patrik Stas: I just kind of generic, but lots of lots of energy has been spent on the refactoring and simplifications. I don't have any sort of numbers or metric for this right now.
+
+131
+00:18:45.310 --> 00:18:47.260
+Patrik Stas: But
+
+132
+00:18:48.060 --> 00:18:49.430
+Patrik Stas: yeah, that was
+
+133
+00:18:49.920 --> 00:18:52.050
+Patrik Stas: those
+
+134
+00:18:52.960 --> 00:19:07.079
+Patrik Stas: along with the testing improvements, I think it's just it's just we. We've been trying hard to make it easier to to read the code and to modify it. This is actually like
+
+135
+00:19:07.570 --> 00:19:15.750
+Patrik Stas: tides, a lot to the increased community focus. We're in past what we still been paying like old old technical that
+
+136
+00:19:15.830 --> 00:19:19.330
+Patrik Stas: it would be difficult to actually on board new contributors.
+
+137
+00:19:19.850 --> 00:19:22.729
+Patrik Stas: But now, with the kinda
+
+138
+00:19:23.310 --> 00:19:32.969
+Patrik Stas: codes clean up, and technical depth payoffs it's it's. It's really easier, and it makes sense to start
+
+139
+00:19:33.060 --> 00:19:36.839
+Patrik Stas: start building community, or it's easier to
+
+140
+00:19:36.860 --> 00:19:39.360
+Patrik Stas: good new people on on tools going on
+
+141
+00:19:40.130 --> 00:19:55.560
+Patrik Stas: and then the last 2 points was a ith integration. there was a work done by mainly made us now a colleague of my to to
+
+142
+00:19:55.990 --> 00:19:59.710
+Patrik Stas: increase the the ith coverage.
+
+143
+00:19:59.850 --> 00:20:02.069
+Patrik Stas: so we have,
+
+144
+00:20:02.610 --> 00:20:04.030
+Patrik Stas: we have
+
+145
+00:20:04.100 --> 00:20:15.110
+Patrik Stas: regular integration in interoperability tests now with a of J. And occupy which is it's just nice combo, because
+
+146
+00:20:15.470 --> 00:20:28.290
+Patrik Stas: many people are using occupy for that for sure. On the other hand, I think many people will also be using Fj. For the mobile use case, so I I find those like a 2 main
+
+147
+00:20:28.320 --> 00:20:32.390
+Patrik Stas: main pairs to test against. But
+
+148
+00:20:32.510 --> 00:20:38.060
+Patrik Stas: yeah, going forward, there's still space for improvements for that, enabling more
+
+149
+00:20:38.080 --> 00:20:40.280
+Patrik Stas: more coverage
+
+150
+00:20:41.990 --> 00:20:43.690
+Patrik Stas: in the in the short term
+
+151
+00:20:59.310 --> 00:21:04.420
+Patrik Stas: of December last month of the last year great progress on the
+
+152
+00:21:04.660 --> 00:21:07.730
+Patrik Stas: No just proper implementation.
+
+153
+00:21:07.790 --> 00:21:21.960
+Patrik Stas: as I already mentioned in the weekly Progress. we we started using different fi approach, which works like multiple magnitude faster. We know the 18, then the old one
+
+154
+00:21:24.290 --> 00:21:29.360
+Patrik Stas: And I just also much more maintainable. And say, for all the good stuff
+
+155
+00:21:32.460 --> 00:21:34.990
+Patrik Stas: at that being set
+
+156
+00:21:35.320 --> 00:21:46.540
+Patrik Stas: I would I would want to encourage. Yeah, and anyone who was like using as V. 6 for a mobile use case to
+
+157
+00:21:48.380 --> 00:21:49.780
+Patrik Stas: to
+
+158
+00:21:50.340 --> 00:21:53.370
+Patrik Stas: either like, try.
+
+159
+00:21:53.680 --> 00:22:07.339
+Patrik Stas: try, contribute, you know. Try explore different approaches for different approaches than what we do currently with the Java and aisles Ver as I believe there's there's better ways now.
+
+160
+00:22:09.190 --> 00:22:28.180
+Patrik Stas: and we are solved in the upsa. we are not planning to contribute too much into the Java and Aisles proper anymore. So the fun looking for like contributors in this area. So even in this, in this sense, it's it's great to to hear that
+
+161
+00:22:28.400 --> 00:22:42.119
+Patrik Stas: dinesh! Is is thinking of contributing new new, more the flock to wiper. So kind of a new approach giving giving new options how to consume the library from the mobile.
+
+162
+00:22:43.610 --> 00:22:52.939
+Patrik Stas: But yeah, I think there's probably more modern approaches at this point than the way we currently do with the ios and job of
+
+163
+00:22:55.620 --> 00:22:58.290
+Patrik Stas: I don't have any specific tips. But
+
+164
+00:22:58.630 --> 00:23:02.519
+Patrik Stas: I believe that there's similar like, with no jazz rapper.
+
+165
+00:23:02.540 --> 00:23:06.060
+Patrik Stas: I think there's probably better approaches now.
+
+166
+00:23:11.870 --> 00:23:15.220
+Patrik Stas: perhaps. perhaps. George.
+
+167
+00:23:15.270 --> 00:23:27.680
+Patrik Stas: you have. You have more knowledge on how to like do at the if I like modern Ffi integration mobile with mobile right? Because you've been mentioning the
+
+168
+00:23:28.010 --> 00:23:30.149
+Patrik Stas: the the Ffi Library.
+
+169
+00:23:33.240 --> 00:23:38.649
+George Mulhearn: yeah, I think I think unify Rs is the main one
+
+170
+00:23:39.120 --> 00:23:41.300
+George Mulhearn: I kind of believe in is
+
+171
+00:23:41.660 --> 00:23:44.500
+George Mulhearn: being one of the best at the moment.
+
+172
+00:23:46.480 --> 00:23:57.320
+Patrik Stas: And and when you are like building like with Unifi, you are building just directly on a. Is Vcx. I presume you are not attaching Live Vcx.
+
+173
+00:23:57.410 --> 00:23:58.880
+Patrik Stas: Part of the code base.
+
+174
+00:23:59.600 --> 00:24:19.640
+Patrik Stas: Yeah. Nothing to do with Live Vcx: yeah. So I guess. Then there's there's multiple ways somebody might choose to build on. Build some. You you need fi on to on top of Api vcx portion of Lady 6, or perhaps even just directly on
+
+175
+00:24:19.650 --> 00:24:20.960
+Patrik Stas: there is Vcx
+
+176
+00:24:21.780 --> 00:24:25.339
+Patrik Stas: which might be actually better option.
+
+177
+00:24:26.140 --> 00:24:33.120
+George Mulhearn: yeah, it's it's a good question about what would be the better option? Just because I I think unify, has
+
+178
+00:24:33.440 --> 00:24:38.100
+George Mulhearn: so many great features like being able to automatically generate.
+
+179
+00:24:38.210 --> 00:24:42.259
+George Mulhearn: you know, full struck types in swift and cotton.
+
+180
+00:24:43.910 --> 00:24:49.740
+George Mulhearn: and things like that. You don't need to use handlers or things like that. You can just
+
+181
+00:24:49.850 --> 00:24:50.660
+George Mulhearn: upset
+
+182
+00:24:52.350 --> 00:24:54.190
+George Mulhearn: what's the cool features like that?
+
+183
+00:24:55.370 --> 00:25:00.929
+Patrik Stas: This this might be interesting. I guess discussion point for
+
+184
+00:25:01.030 --> 00:25:03.629
+Patrik Stas: maybe something to to
+
+185
+00:25:03.860 --> 00:25:09.549
+Patrik Stas: just make sure he's aware of before he come in to the father. Wherever with certain approach
+
+186
+00:25:09.850 --> 00:25:16.929
+Patrik Stas: as a I know we we in in in like no Js. The the no jazz wrapper we have
+
+187
+00:25:18.630 --> 00:25:22.890
+Patrik Stas: It's been kind of built on top of handle, so it's hard to run away from me. Now
+
+188
+00:25:23.090 --> 00:25:24.870
+Patrik Stas: we don't like huge
+
+189
+00:25:25.420 --> 00:25:28.509
+Patrik Stas: huge reward of the thing.
+
+190
+00:25:28.600 --> 00:25:30.219
+Patrik Stas: but yeah.
+
+191
+00:25:30.320 --> 00:25:38.010
+Patrik Stas: maybe, since since this is UN, if I can, can actually generate structs and stuff like this
+
+192
+00:25:38.460 --> 00:25:41.150
+Patrik Stas: might be better to actually start this
+
+193
+00:25:42.350 --> 00:25:44.319
+Patrik Stas: on a. Is V. 6 itself.
+
+194
+00:25:44.420 --> 00:25:46.050
+Patrik Stas: without the that
+
+195
+00:25:46.670 --> 00:25:50.769
+Patrik Stas: being being and forced to work with the handles. But
+
+196
+00:25:50.920 --> 00:25:56.269
+Patrik Stas: yeah, what's the next? Take on this, or if if he sees advantage
+
+197
+00:25:56.680 --> 00:25:59.499
+Patrik Stas: going with the in his case.
+
+198
+00:26:00.760 --> 00:26:03.520
+George Mulhearn: Yeah, I i'm not. I'm not too familiar with
+
+199
+00:26:03.630 --> 00:26:06.370
+George Mulhearn: flutter to be honest.
+
+200
+00:26:07.580 --> 00:26:09.770
+George Mulhearn: or what tools exist there.
+
+201
+00:26:11.020 --> 00:26:19.569
+George Mulhearn: yeah. Another great part of unif is the the error handling, and how errors get past, you know, through the layer.
+
+202
+00:26:22.100 --> 00:26:23.370
+George Mulhearn: yeah, it's pretty cool.
+
+203
+00:26:24.890 --> 00:26:27.130
+Patrik Stas: Nice, nice.
+
+204
+00:26:28.330 --> 00:26:36.089
+Patrik Stas: yeah. I would be definitely curious to to see that you need fine. Do you think you'd be like you? You You briefly
+
+205
+00:26:36.150 --> 00:26:38.969
+Patrik Stas: touch touched on it before that?
+
+206
+00:26:39.430 --> 00:26:49.459
+Patrik Stas: Do you think you'd be able to contribute some like short demo example, like for the actual approach. You know. How does it look like? If you build.
+
+207
+00:26:50.120 --> 00:26:51.689
+Patrik Stas: you need 5
+
+208
+00:26:51.880 --> 00:26:56.579
+Patrik Stas: kind of if you you know layer on top of a
+
+209
+00:26:57.360 --> 00:27:01.309
+George Mulhearn: yeah, yeah, sure, I could try a a proof of concept demo
+
+210
+00:27:01.340 --> 00:27:06.359
+Patrik Stas: branch. There will be interesting, maybe, for other people to, you know.
+
+211
+00:27:06.860 --> 00:27:10.629
+Patrik Stas: to to to get in just for inspiration, I guess.
+
+212
+00:27:11.200 --> 00:27:18.080
+Patrik Stas: But yeah, it's it's if you have resources and time, and if you can do it, it'll be great. That
+
+213
+00:27:19.920 --> 00:27:32.620
+Patrik Stas: that's I. I'll I'll leave it at that. You know it's it's up to you, but it'll be for sure. Appreciate it now, looking into ahead in 2,023 outlook. so
+
+214
+00:27:33.140 --> 00:27:44.139
+Patrik Stas: it should be in the the 2,003, I believe, should be in the team of fortification, and just further modularizing and decoupling stuff across the board.
+
+215
+00:27:45.510 --> 00:27:49.200
+Patrik Stas: and my suggestion here in this issue.
+
+216
+00:27:49.260 --> 00:27:53.209
+Patrik Stas: also to kind of start this
+
+217
+00:27:55.290 --> 00:27:57.390
+Patrik Stas: start this
+
+218
+00:27:58.850 --> 00:28:00.460
+Patrik Stas: gratification.
+
+219
+00:28:00.680 --> 00:28:02.110
+Patrik Stas: with
+
+220
+00:28:02.220 --> 00:28:21.689
+Patrik Stas: Who? The message is great just by starting publishing it on a crates. I/O, and I believe this should like drive, drive us to improve the documentation for the create, and also to think more about the Apis like which basis of the create should be actually public.
+
+221
+00:28:21.700 --> 00:28:23.940
+Patrik Stas: and which should be private.
+
+222
+00:28:24.070 --> 00:28:29.970
+Patrik Stas: which so far I think we are. We we haven't put so much
+
+223
+00:28:30.040 --> 00:28:32.660
+Patrik Stas: energy effort into this.
+
+224
+00:28:32.740 --> 00:28:40.819
+Patrik Stas: And many things are public just because it's convenient. But perhaps not. Everything should be really published out of the freight.
+
+225
+00:28:41.150 --> 00:28:50.460
+Patrik Stas: And so yeah, I think this this will kind of drive us to to think about. These things bit harder and do things better at the higher quality.
+
+226
+00:28:51.000 --> 00:28:55.200
+Patrik Stas: and the idea is to start with the messages to kind of learn the
+
+227
+00:28:55.780 --> 00:28:59.950
+Patrik Stas: to explore the boilerplate, how to actually publish
+
+228
+00:29:00.190 --> 00:29:17.709
+Patrik Stas: the how to actually publish it from the from the Ci, and how to approach the versioning. Should the messages and the other creates be kind of kept at the same version? Or shall we just start versioning everything separately, you know. Questions like that. Things like that.
+
+229
+00:29:20.820 --> 00:29:27.230
+Patrik Stas: And I think, yeah, this can be applied. And further to the other
+
+230
+00:29:27.880 --> 00:29:32.539
+Patrik Stas: crates and modules in the in the current code base as well.
+
+231
+00:29:34.550 --> 00:29:36.130
+Patrik Stas: I already closed it.
+
+232
+00:29:36.960 --> 00:29:45.690
+Patrik Stas: we we can do the same thing, for like they do, they do create and video resolver create. Once we implement that
+
+233
+00:29:45.800 --> 00:30:03.990
+Patrik Stas: or the Protocols grades. And I I imagine this could be like, separate, you know, really kind of individual, well documented, creates on a crates I all people could use and build upon, and and perhaps, you know, contribute into these crates without necessarily
+
+234
+00:30:04.780 --> 00:30:09.290
+Patrik Stas: dealing with working with as V. 6 itself.
+
+235
+00:30:09.360 --> 00:30:16.480
+Patrik Stas: The the main a is V. 6, but perhaps we can. We can gain more traction. These, like lower level
+
+236
+00:30:16.520 --> 00:30:24.669
+Patrik Stas: components which could be shared by other projects which wants to deal with the Aries in in the rest as well.
+
+237
+00:30:26.350 --> 00:30:29.520
+so trying to find, like a discount.
+
+238
+00:30:30.150 --> 00:30:32.300
+Patrik Stas: shared the denominator
+
+239
+00:30:32.370 --> 00:30:36.520
+Patrik Stas: for for different projects.
+
+240
+00:30:36.620 --> 00:30:41.410
+Patrik Stas: which which you might not be necessarily Irish. Vcx projects.
+
+241
+00:30:42.810 --> 00:30:57.490
+Patrik Stas: then, the next point here. with I was thinking about this, which I find important, although we just like currently one issue on our repo who is implementing video resolver.
+
+242
+00:30:59.350 --> 00:31:05.259
+Patrik Stas: and just just generally drive the code base more about Ddos as they are.
+
+243
+00:31:05.730 --> 00:31:11.379
+Patrik Stas: This I I believe they should be kind of first class citizen in the cold base. And
+
+244
+00:31:11.810 --> 00:31:14.689
+Patrik Stas: And yeah, I mean it's it's shared
+
+245
+00:31:15.040 --> 00:31:24.429
+Patrik Stas: kind of data structure across the ledgers. So if you want to be ledger agnostic, which going forward long term, we definitely want to be.
+
+246
+00:31:25.080 --> 00:31:31.489
+Patrik Stas: Then we should definitely think more in terms of the Id documents.
+
+247
+00:31:32.790 --> 00:31:40.510
+Patrik Stas: and this is a yeah issue which is briefly describing some issues and things we should think about, and
+
+248
+00:31:41.260 --> 00:31:52.569
+Patrik Stas: probably can get started with a bit soft in the methods soon, I suppose, During the 2,023. There they did in the met that
+
+249
+00:31:52.690 --> 00:31:56.790
+Patrik Stas: be supported by in the ledgers.
+
+250
+00:31:57.070 --> 00:31:58.580
+Patrik Stas: And
+
+251
+00:31:59.130 --> 00:32:07.340
+Patrik Stas: and also I believe vdr tools itself, not no video tools in the Vdr itself.
+
+252
+00:32:07.390 --> 00:32:11.729
+Patrik Stas: so we can. We can perhaps implement this as well. And then
+
+253
+00:32:13.670 --> 00:32:21.300
+Patrik Stas: as a sort of experimental feature, we could perhaps try to harness the the Uni resolver
+
+254
+00:32:21.560 --> 00:32:24.250
+Patrik Stas: as a way of
+
+255
+00:32:24.480 --> 00:32:30.190
+Patrik Stas: resolving videos all those. Obviously, this is relying on the third party
+
+256
+00:32:30.350 --> 00:32:33.029
+Patrik Stas: for the resolution which is not ideal.
+
+257
+00:32:33.120 --> 00:32:33.970
+Patrik Stas: and
+
+258
+00:32:34.010 --> 00:32:44.490
+Patrik Stas: it just nicer when when the users can resolve the deals like natively and so sovereign manner without a trusted party.
+
+259
+00:32:45.650 --> 00:32:58.400
+Patrik Stas: but yeah, the nice nice thing about this obviously would be. Then suddenly we could resolve like videos videos across the board, across all the ledgers. Bit criterion, you know,
+
+260
+00:32:58.580 --> 00:33:04.059
+Patrik Stas: all, all of those tens of different did matters which exist today
+
+261
+00:33:04.390 --> 00:33:08.650
+Patrik Stas: not only like your but yeah, just just pretty much everything
+
+262
+00:33:14.100 --> 00:33:26.410
+Patrik Stas: moving to the next point, I think also important achievement, for the 2,023 would be finishing the migration to to credit libraries.
+
+263
+00:33:26.450 --> 00:33:27.749
+Patrik Stas: I think we have like.
+
+264
+00:33:28.670 --> 00:33:36.960
+Patrik Stas: I mean that we are definitely like in Midway, or perhaps perhaps by midway to accomplish this.
+
+265
+00:33:37.240 --> 00:33:43.859
+Patrik Stas: as we have the holder and the we are part pretty much done.
+
+266
+00:33:43.880 --> 00:33:45.059
+Patrik Stas: But
+
+267
+00:33:45.930 --> 00:33:50.739
+Patrik Stas: Well, actually, even the verifier seems to be quite quite easy.
+
+268
+00:33:50.810 --> 00:33:51.760
+Patrik Stas: And
+
+269
+00:33:52.050 --> 00:33:56.229
+Patrik Stas: now it's a matter of finishing off the word with the issuer.
+
+270
+00:33:56.520 --> 00:34:01.180
+Patrik Stas: which might be more challenging in terms of implementation. But then also the
+
+271
+00:34:01.660 --> 00:34:05.020
+Patrik Stas: the migration from the old
+
+272
+00:34:07.620 --> 00:34:11.260
+Patrik Stas: from the old Vdr. Tools
+
+273
+00:34:11.500 --> 00:34:14.090
+Patrik Stas: to the credits libraries
+
+274
+00:34:15.440 --> 00:34:18.009
+Patrik Stas: not sure what this is, gonna
+
+275
+00:34:18.130 --> 00:34:20.610
+Patrik Stas: what what it's gonna take. But
+
+276
+00:34:21.739 --> 00:34:27.660
+Patrik Stas: definitely it's important for us to enable the issue who started
+
+277
+00:34:27.739 --> 00:34:28.979
+Patrik Stas: on the
+
+278
+00:34:29.310 --> 00:34:30.709
+Patrik Stas: Vv. Our tools
+
+279
+00:34:30.920 --> 00:34:36.439
+Patrik Stas: should continue operations with critics credit libraries, and
+
+280
+00:34:36.900 --> 00:34:42.680
+Patrik Stas: I don't know. I guess it depends how things are being stored in the wallet, and things like that.
+
+281
+00:34:43.449 --> 00:34:55.710
+Patrik Stas: I'm. Not really sure exactly what this challenges are, but the the the the data structures in the wall, it should somehow stay intact. So switching to the credits, libraries should
+
+282
+00:34:56.210 --> 00:34:59.090
+Patrik Stas: should be somehow possible for the yours.
+
+283
+00:35:01.820 --> 00:35:05.490
+Patrik Stas: Then yeah, Well, once we are, I guess. Once we are done with this.
+
+284
+00:35:07.560 --> 00:35:08.520
+Patrik Stas: we can.
+
+285
+00:35:08.680 --> 00:35:14.310
+Patrik Stas: we can focus. We can continue focusing on the areas as car support
+
+286
+00:35:14.680 --> 00:35:20.369
+Patrik Stas: which is now challenging because of some conflicting dependencies between the critics
+
+287
+00:35:20.390 --> 00:35:24.660
+Patrik Stas: and in the media and the Vdr Tools Library
+
+288
+00:35:26.710 --> 00:35:30.969
+Patrik Stas: So we will. We'll see how I guess how this goes, and then we'll
+
+289
+00:35:32.080 --> 00:35:35.020
+Patrik Stas: we'll continue looking at
+
+290
+00:35:35.170 --> 00:35:41.010
+Patrik Stas: what it takes to to move on to Aries as car wallet
+
+291
+00:35:43.310 --> 00:35:52.180
+Patrik Stas: so actually, maybe I can edit here. I think it's good important point, and it should deserve it. It deserves to be on the list.
+
+292
+00:35:52.550 --> 00:35:54.830
+Patrik Stas: I guess I think
+
+293
+00:35:55.700 --> 00:35:58.679
+Patrik Stas: I think support
+
+294
+00:35:59.380 --> 00:36:01.180
+Patrik Stas: and it's for
+
+295
+00:36:01.620 --> 00:36:05.209
+Patrik Stas: for Aries as well. That's
+
+296
+00:36:05.720 --> 00:36:07.490
+Patrik Stas: and I guess
+
+297
+00:36:09.890 --> 00:36:15.169
+Patrik Stas: Products library libraries on the issue of boss
+
+298
+00:36:15.610 --> 00:36:17.009
+Patrik Stas: very far.
+
+299
+00:36:18.120 --> 00:36:22.850
+Patrik Stas: and while it there should be some enable enable migration
+
+300
+00:36:23.560 --> 00:36:25.770
+Patrik Stas: of Vdr to
+
+301
+00:36:25.890 --> 00:36:28.060
+Patrik Stas: you, sure
+
+302
+00:36:28.490 --> 00:36:32.120
+Patrik Stas: to become a critics issue.
+
+303
+00:36:33.650 --> 00:36:35.790
+Patrik Stas: I'll save it like this.
+
+304
+00:36:40.500 --> 00:36:49.749
+Patrik Stas: yeah. Then then there's again a bit a generic point here for 23. But just generally you want to improve the code quality getting
+
+305
+00:36:49.800 --> 00:36:59.090
+Patrik Stas: there's still space for improvements in terms of like utilizing, you know, being more trade focused
+
+306
+00:36:59.290 --> 00:37:03.959
+Patrik Stas: do more typing. There's okay. There's number of
+
+307
+00:37:04.470 --> 00:37:05.299
+Patrik Stas: the
+
+308
+00:37:05.920 --> 00:37:17.409
+Patrik Stas: cases across the board in the code base where we're passing strings where actually we could, whereas we know it's particular type of string. For example.
+
+309
+00:37:17.690 --> 00:37:23.820
+Patrik Stas: at the Id there's places in the code base we are passing the Id as a string. But
+
+310
+00:37:25.270 --> 00:37:41.649
+Patrik Stas: It will be just much safer to work with the the code base if we had some sort of type for the did itself, whether it's just like alias, or it's actually something more in the end, which can, like cereals, serialize the
+
+311
+00:37:43.930 --> 00:37:45.160
+Patrik Stas: stuff like that.
+
+312
+00:37:45.200 --> 00:37:49.440
+Patrik Stas: And and this could be applied for not only the Ids, but also like
+
+313
+00:37:49.630 --> 00:37:53.649
+Patrik Stas: keys, public keys and
+
+314
+00:37:53.710 --> 00:37:55.890
+Patrik Stas: perhaps Urls
+
+315
+00:37:56.660 --> 00:37:57.979
+Patrik Stas: might be more.
+
+316
+00:37:58.470 --> 00:38:05.659
+Patrik Stas: And then and then, lastly, also. Importantly, I would like to speed up the test execution.
+
+317
+00:38:05.750 --> 00:38:10.230
+Patrik Stas: just like a recently, I think a month or 2 ago I was mentioning
+
+318
+00:38:10.320 --> 00:38:15.270
+Patrik Stas: the improvement, like multi
+
+319
+00:38:15.290 --> 00:38:20.579
+Patrik Stas: like magnitude, order of magnitude, improvement in
+
+320
+00:38:20.740 --> 00:38:39.110
+Patrik Stas: in execution of some particular test, where we, where we removed the Mediator Agency, and and instead started using sort of in memory channels instead for that, for the communication between 2 parties in the test
+
+321
+00:38:39.150 --> 00:38:42.720
+Patrik Stas: which which led to a really huge
+
+322
+00:38:43.880 --> 00:38:46.100
+Patrik Stas: test execution, improvement.
+
+323
+00:38:46.630 --> 00:38:58.030
+Patrik Stas: and it would like to, you know, driving. Continue driving this for further on the more test, and just make the integration test really as fast as possible.
+
+324
+00:39:02.080 --> 00:39:10.430
+Patrik Stas: and it's kind of like closed loop, I guess you know. Then the more we improve on the code quality and the test execution
+
+325
+00:39:10.780 --> 00:39:18.800
+Patrik Stas: the easier it's going to be it's gonna work on the next point right here the common thing engagement.
+
+326
+00:39:18.970 --> 00:39:25.020
+Patrik Stas: if the if that if the code is better, easier to read safer, easier to contribute
+
+327
+00:39:25.310 --> 00:39:34.010
+Patrik Stas: it. It tests easier and faster. It's also easier to gain more traction with the potential contributors.
+
+328
+00:39:34.020 --> 00:39:45.459
+Patrik Stas: as it's easier for them to to get started, and and that's something I will still like us to to improve. There's definitely gaps in the documentation right. Now.
+
+329
+00:39:46.660 --> 00:39:49.420
+Patrik Stas: it's just how to get started.
+
+330
+00:39:49.700 --> 00:39:55.860
+Patrik Stas: And but also more in terms of more technical documentation. Is
+
+331
+00:39:56.080 --> 00:39:59.860
+Patrik Stas: as there's not really any like
+
+332
+00:40:00.570 --> 00:40:15.419
+Patrik Stas: Ward. Word documentation on the area's Dcx level. There's a document all the documentation on the live B cx layer, which, however, might be even per
+
+333
+00:40:15.850 --> 00:40:18.959
+Patrik Stas: outdated and in some cases.
+
+334
+00:40:19.570 --> 00:40:33.889
+Patrik Stas: but yeah, I would like to just mainly focus on the aeries Vcx As a crate and as a as as an and it's individual sub modules and sub-
+
+335
+00:40:33.930 --> 00:40:46.820
+Patrik Stas: and focus on getting that as a core core piece of the whole project getting getting to the best possible shape with a nice documentation.
+
+336
+00:40:47.130 --> 00:41:00.349
+Patrik Stas: and making it easy easier for people to get started. So these also ties to to the agency. We are the the Mediator Agency. We are removing now as a
+
+337
+00:41:00.590 --> 00:41:04.829
+Patrik Stas: because right now you it just it's it's being
+
+338
+00:41:05.000 --> 00:41:07.489
+Patrik Stas: an extra barrier to get started.
+
+339
+00:41:07.810 --> 00:41:11.650
+Patrik Stas: so we would just like to have some
+
+340
+00:41:11.740 --> 00:41:20.560
+Patrik Stas: really simple, ideally some simple example built on top of Eric's Dcx code somewhere on the main rhythmic page, where
+
+341
+00:41:20.640 --> 00:41:22.240
+Patrik Stas: you would see like
+
+342
+00:41:22.990 --> 00:41:24.129
+Patrik Stas: how to
+
+343
+00:41:24.320 --> 00:41:26.990
+Patrik Stas: how to do something you know how to send.
+
+344
+00:41:27.170 --> 00:41:42.630
+Patrik Stas: let's say a did come message over over using ours, Vcx. Or maybe issue credential or something like that, just like really short, concise demonstration of ours. V. 6 Api. Which will be able to run
+
+345
+00:41:43.650 --> 00:41:46.770
+locally without much obstructions
+
+346
+00:41:47.170 --> 00:41:49.600
+Patrik Stas: and much pre requirements.
+
+347
+00:41:50.320 --> 00:42:00.529
+Patrik Stas: I think this has like improved a lot in 2,022 actually where we're originally.
+
+348
+00:42:00.550 --> 00:42:02.740
+Patrik Stas: you had to
+
+349
+00:42:02.990 --> 00:42:05.120
+Patrik Stas: bills.
+
+350
+00:42:05.300 --> 00:42:09.330
+Patrik Stas: Vdr: tools slightly bindi first.
+
+351
+00:42:09.550 --> 00:42:15.240
+Patrik Stas: and set it up into your like system path. And then you had to build
+
+352
+00:42:15.280 --> 00:42:34.830
+Patrik Stas: the live Vcx, and and it just had this kind of indirect dependency. It's runtime dependency, and this has been removed that the like towards the end of 2,022, where right now we can run cargo, build in Ariz, Vcx, and then just build all the dependencies.
+
+353
+00:42:34.900 --> 00:42:47.879
+Patrik Stas: so it's it's simply batteries included, and you don't really have to go ahead and and pre build Vvr tools manually, or something like that. But yeah, there's still ways to, I think.
+
+354
+00:42:47.980 --> 00:42:50.579
+Patrik Stas: Make Make it easier for people
+
+355
+00:42:50.610 --> 00:42:55.279
+Patrik Stas: to get started. And yeah, I guess this is related.
+
+356
+00:42:55.460 --> 00:42:59.869
+Patrik Stas: It'll be. It'll be great to see more
+
+357
+00:43:00.020 --> 00:43:02.229
+Patrik Stas: project examples.
+
+358
+00:43:02.750 --> 00:43:08.840
+Patrik Stas: whether it's like as a 5 repairs or agents, or
+
+359
+00:43:08.940 --> 00:43:13.090
+Patrik Stas: it's pretty much anything, and I guess at this point we have.
+
+360
+00:43:13.670 --> 00:43:17.199
+Patrik Stas: Well, we we could say that we have a few of them right now.
+
+361
+00:43:17.420 --> 00:43:23.530
+Patrik Stas: I mean counting Lib. Dcx is one of the craze being built of a a. Is V. 6, that's one.
+
+362
+00:43:23.570 --> 00:43:26.780
+Patrik Stas: But then, for further, we have.
+
+363
+00:43:26.910 --> 00:43:29.530
+Patrik Stas: and now we have rust agent.
+
+364
+00:43:29.670 --> 00:43:31.109
+Patrik Stas: we just
+
+365
+00:43:31.240 --> 00:43:36.320
+Patrik Stas: build directly on top of a
+
+366
+00:43:36.640 --> 00:43:39.060
+Patrik Stas: Then we also have
+
+367
+00:43:39.560 --> 00:43:48.119
+Patrik Stas: right now, just as a pull request. But we have a further iteration. On on top of that we have a cli
+
+368
+00:43:48.290 --> 00:43:50.060
+Patrik Stas: program.
+
+369
+00:43:50.380 --> 00:44:03.139
+Patrik Stas: a build on. These Ares v. 6 Rust agent, which which lets you to to perform basic operations from Cli using a
+
+370
+00:44:04.900 --> 00:44:07.450
+Patrik Stas: and then you know,
+
+371
+00:44:08.240 --> 00:44:13.010
+Patrik Stas: this flatter wrapper from from
+
+372
+00:44:13.060 --> 00:44:18.129
+Patrik Stas: or perhaps if you, George contribute some unifi
+
+373
+00:44:18.150 --> 00:44:27.880
+Patrik Stas: example that would be awesome or actually just like, I would love to see any kind of projects built of what build on areas Vc. Eggs.
+
+374
+00:44:28.000 --> 00:44:37.779
+Patrik Stas: Perhaps that kind of like side project I have personally in mind. Are we building my theater with which is now
+
+375
+00:44:38.180 --> 00:44:42.620
+Patrik Stas: again, thanks to the dec decoupling from the
+
+376
+00:44:42.910 --> 00:44:47.109
+Patrik Stas: the Pcx Agency Mediator. Now it's possible because
+
+377
+00:44:47.370 --> 00:44:51.489
+Patrik Stas: you can use you can use as connections
+
+378
+00:44:52.200 --> 00:45:01.149
+Patrik Stas: without mediation, which, in fact enables you to build a mediator on top of.
+
+379
+00:45:01.210 --> 00:45:06.979
+Patrik Stas: So that's it's kind of a project which would be cool to see as Ross is super fast and
+
+380
+00:45:07.020 --> 00:45:15.500
+Patrik Stas: and and and mid mediator is kind of like a middle middle middleware type of project, and I feel like a rust is really
+
+381
+00:45:15.630 --> 00:45:19.569
+Patrik Stas: a good candidate for for this kind of implementation.
+
+382
+00:45:23.140 --> 00:45:28.290
+Patrik Stas: yeah, and then and then finishing off this list.
+
+383
+00:45:28.780 --> 00:45:39.650
+Patrik Stas: obviously will be nice to I had a new protocol support, I think, namely, and and most importantly, the did exchange protocol
+
+384
+00:45:41.370 --> 00:45:45.049
+Patrik Stas: probably a a probably update support for the
+
+385
+00:45:45.710 --> 00:45:57.650
+Patrik Stas: the new versions need newer versions of the issuance and verification proved verification protocols, which should be fairly low. Hanging fruit, I imagine.
+
+386
+00:45:57.710 --> 00:46:00.450
+Patrik Stas: Nevertheless, it's still some work which is.
+
+387
+00:46:00.470 --> 00:46:02.189
+Patrik Stas: I have to be done.
+
+388
+00:46:02.400 --> 00:46:03.490
+Patrik Stas: And
+
+389
+00:46:03.890 --> 00:46:09.080
+Patrik Stas: so yeah, that's something to look out for. 2,023. Hopefully, we'll get that done.
+
+390
+00:46:09.210 --> 00:46:11.270
+Patrik Stas: and then
+
+391
+00:46:11.520 --> 00:46:24.130
+Patrik Stas: I think it will be also great to to dig into the discom 2 point of exploration. Although this might be a bit more disruptive work, I assume
+
+392
+00:46:24.870 --> 00:46:29.860
+Patrik Stas: I Haven't explored it to 2 point on the match yet.
+
+393
+00:46:29.960 --> 00:46:44.390
+Patrik Stas: But there's I know that there's number of differences, and i'm not sure exactly what what impacts Won't. What impact this is going to have on the is V. 6 code base. But I don't think it should be significant, because
+
+394
+00:46:44.520 --> 00:46:46.369
+Patrik Stas: did come is really just a
+
+395
+00:46:47.030 --> 00:46:48.970
+Patrik Stas: the Communication exchange.
+
+396
+00:46:49.140 --> 00:47:07.350
+Patrik Stas: and it does it. It shouldn't really impact the other areas protocols which work over did call so, whether it's whether it's, Ehr or presentation protocol, they are pretty much agnostic as to what kind of channel has been used to
+
+397
+00:47:07.390 --> 00:47:08.990
+Patrik Stas: exchanging messages.
+
+398
+00:47:09.210 --> 00:47:10.919
+Patrik Stas: so
+
+399
+00:47:11.230 --> 00:47:13.539
+Patrik Stas: possibly this gonna have, like
+
+400
+00:47:13.680 --> 00:47:19.100
+Patrik Stas: disrupt the connection, or did exchange type of protocols
+
+401
+00:47:19.150 --> 00:47:21.570
+Patrik Stas: somewhat. I'm not sure.
+
+402
+00:47:21.930 --> 00:47:26.530
+Patrik Stas: but I think even if we i'm not sure if we gonna
+
+403
+00:47:26.790 --> 00:47:37.270
+Patrik Stas: fully Blumen did come to point out this year. But it'll be, and definitely nice to at least get a clear picture on what to expect from it, and
+
+404
+00:47:37.700 --> 00:47:47.380
+Patrik Stas: what's what it's gonna look like. Once we start implanting it just to kind of get that better vision of yeah, what? What? What is gonna bring
+
+405
+00:47:51.530 --> 00:47:59.500
+George Mulhearn: So I was gonna say, yeah, I think I I think, occupy have some maybe all of did come v 2
+
+406
+00:47:59.540 --> 00:48:06.720
+George Mulhearn: implemented in that code base. I'm not sure if they use it. But there's definitely those files set up to
+
+407
+00:48:06.880 --> 00:48:12.019
+George Mulhearn: you know. Pack and unpack. V. 2 messages using ascar.
+
+408
+00:48:12.240 --> 00:48:16.289
+George Mulhearn: I'm not too sure if it's possible to do it
+
+409
+00:48:16.650 --> 00:48:18.869
+George Mulhearn: using live Indie
+
+410
+00:48:19.400 --> 00:48:22.770
+George Mulhearn: just because Libby and the only has the pack and on pack
+
+411
+00:48:22.950 --> 00:48:35.989
+Patrik Stas: methods, you know. Yeah, yeah, right? And also I think there's there's like there's other differences other than encryption, I think, like you actually specify transports
+
+412
+00:48:36.030 --> 00:48:50.639
+Patrik Stas: in those messages you are sending directly, so as I, as as far as I heard, basically did come to point out, kind of eliminates the need for the for the connection and the Exchange protocol
+
+413
+00:48:50.720 --> 00:49:04.350
+Patrik Stas: to some degree. I'm not sure. I'm not really sure. Maybe i'm not sure if i'm correct here. But that's full. I remember there's this nice website, I think, where which is describes the differences.
+
+414
+00:49:04.470 --> 00:49:06.219
+Patrik Stas: did come
+
+415
+00:49:06.450 --> 00:49:07.599
+Patrik Stas: me too.
+
+416
+00:49:08.770 --> 00:49:12.029
+Patrik Stas: this is this guidebook, I guess.
+
+417
+00:49:21.530 --> 00:49:26.809
+Patrik Stas: Well, I know why it's so slow. No, this is not exactly what I was looking for.
+
+418
+00:49:28.520 --> 00:49:31.230
+Patrik Stas: yeah, no, no, it was different. What?
+
+419
+00:49:31.430 --> 00:49:38.590
+Patrik Stas: What's new or something like that? What's new in that come to? So this. This describes it but nicely, and there's
+
+420
+00:49:38.650 --> 00:49:57.530
+Patrik Stas: few main points here. But I guess let's not get into technicalities here too deeply. We can maybe. yeah, set up some meeting, some, some some of the weekly calls to kind of look through it that directly, in like a kind of workshopy, collaborative way, and just
+
+421
+00:49:57.980 --> 00:49:59.720
+Patrik Stas: i'll learn together about
+
+422
+00:49:59.810 --> 00:50:01.749
+Patrik Stas: how to implement it. Come to.
+
+423
+00:50:01.970 --> 00:50:06.180
+Patrik Stas: into an into how to integrate it into in the
+
+424
+00:50:08.680 --> 00:50:15.330
+Patrik Stas: yeah, i'm not sure. What did I what I meant with this last point? Maybe I used to
+
+425
+00:50:15.680 --> 00:50:18.059
+Patrik Stas: right something more, and then I didn't
+
+426
+00:50:18.170 --> 00:50:18.979
+Patrik Stas: so.
+
+427
+00:50:19.150 --> 00:50:22.749
+Patrik Stas: I think i'll just delete this off. I think it's an error.
+
+428
+00:50:24.010 --> 00:50:28.209
+Patrik Stas: And yeah, that brings us to the end of the list.
+
+429
+00:50:32.550 --> 00:50:34.730
+Patrik Stas: So yeah, that's
+
+430
+00:50:34.760 --> 00:50:36.309
+Patrik Stas: that's it. So we have
+
+431
+00:50:36.710 --> 00:50:43.539
+Patrik Stas: also work to do in 2,003, and it's really exciting to see more people coming on board, which
+
+432
+00:50:43.720 --> 00:50:53.129
+Patrik Stas: makes me more confident about the all this stuff actually getting done as opposed to a big portion of
+
+433
+00:50:53.730 --> 00:51:09.620
+Patrik Stas: like pre 2,000 to 2,022 and pre 2,022 we we didn't have such a come into focus. And there was less people always the less people coming in and and contributing
+
+434
+00:51:10.030 --> 00:51:10.970
+Patrik Stas: So
+
+435
+00:51:11.220 --> 00:51:14.470
+Patrik Stas: yeah, it's, it's it's exciting to see
+
+436
+00:51:15.000 --> 00:51:17.540
+Patrik Stas: new people joining in and
+
+437
+00:51:17.750 --> 00:51:20.229
+Patrik Stas: having really nice contributions.
+
+438
+00:51:22.280 --> 00:51:24.779
+George Mulhearn: It's a great list. It's very exciting.
+
+439
+00:51:25.120 --> 00:51:26.510
+George Mulhearn: Thanks for putting it together.
+
+440
+00:51:26.670 --> 00:51:28.149
+Patrik Stas: Yeah, yeah, awesome.
+
+441
+00:51:28.780 --> 00:51:33.640
+Patrik Stas: I don't know. Do you have anything, any, any any thoughts, or
+
+442
+00:51:34.560 --> 00:51:41.349
+Patrik Stas: whether it's on 20, maybe 2023 kind of plan or anything else you would like to see
+
+443
+00:51:48.040 --> 00:51:50.870
+George Mulhearn: I think I think we covered it all really.
+
+444
+00:51:51.590 --> 00:51:52.350
+George Mulhearn: I think.
+
+445
+00:51:53.040 --> 00:51:55.089
+George Mulhearn: Personally, the protocol stuff.
+
+446
+00:51:55.620 --> 00:51:58.529
+George Mulhearn: I think, will be pretty exciting. and also
+
+447
+00:51:58.950 --> 00:52:02.439
+George Mulhearn: turning Aries Vcx into its iron crate.
+
+448
+00:52:02.690 --> 00:52:06.300
+George Mulhearn: that that can be published.
+
+449
+00:52:06.580 --> 00:52:08.129
+George Mulhearn: you know, To create tire
+
+450
+00:52:08.220 --> 00:52:12.639
+George Mulhearn: will be a a cool journey, I think.
+
+451
+00:52:13.000 --> 00:52:13.799
+Patrik Stas: Hmm.
+
+452
+00:52:14.230 --> 00:52:16.740
+George Mulhearn: Yeah. Just because, you know, they'll be
+
+453
+00:52:17.270 --> 00:52:25.369
+George Mulhearn: a few hurdles, I think, like, I I think, to get things published on crates. I you can't have any get dependencies and things like that.
+
+454
+00:52:27.860 --> 00:52:30.149
+George Mulhearn: So then, you know, we might have to
+
+455
+00:52:30.390 --> 00:52:35.860
+George Mulhearn: publish the fork of video tools on creates I as well, or something like that. And
+
+456
+00:52:35.980 --> 00:52:38.189
+George Mulhearn: Yeah. Oh, okay, I see
+
+457
+00:52:38.560 --> 00:52:42.820
+Patrik Stas: right right then. We are using now those good dependencies a bit.
+
+458
+00:52:45.830 --> 00:52:52.600
+Patrik Stas: Yeah, I guess we'll. We'll have to cross some cross, some gaps, some.
+
+459
+00:52:53.340 --> 00:52:54.680
+Patrik Stas: But
+
+460
+00:52:54.750 --> 00:53:07.260
+Patrik Stas: I think if we start actually, we'd like those lower lever like, I guess, publishing as a create might be a bit challenging in in in exactly these terms as you describe. But
+
+461
+00:53:07.370 --> 00:53:14.400
+Patrik Stas: then, if we start with like those smaller crates, and those sub sub-crates
+
+462
+00:53:14.610 --> 00:53:20.030
+Patrik Stas: might be actually easier than because they themselves have very few dependencies Like when you think
+
+463
+00:53:20.110 --> 00:53:21.310
+Patrik Stas: about the
+
+464
+00:53:21.510 --> 00:53:24.229
+Patrik Stas: the the messages, or did Chrome Cr. Or
+
+465
+00:53:24.260 --> 00:53:25.870
+Patrik Stas: perhaps in the
+
+466
+00:53:26.120 --> 00:53:27.410
+Patrik Stas: for the calls
+
+467
+00:53:27.470 --> 00:53:31.680
+Patrik Stas: great. Once we extract it, those should be fairly simple ones.
+
+468
+00:53:31.890 --> 00:53:32.729
+Patrik Stas: so
+
+469
+00:53:33.490 --> 00:53:34.529
+Patrik Stas: so
+
+470
+00:53:35.350 --> 00:53:42.269
+Patrik Stas: I guess maybe not not so difficult there. But they're not. Once, once they move up the stack, then
+
+471
+00:53:42.580 --> 00:53:54.680
+Patrik Stas: maybe we'll we'll get a few more challenges, but in the end I guess you know I I I guess it's still just driving it. It might be challenges, but it's really just driving us
+
+472
+00:53:54.920 --> 00:53:57.290
+Patrik Stas: to the that right. Directions, I mean
+
+473
+00:53:58.420 --> 00:54:09.080
+Patrik Stas: project sounds definitely Sounds more sounds to be more mature if it doesn't have get the dependencies right? If it actually depends on the other trades which are
+
+474
+00:54:09.110 --> 00:54:10.589
+Patrik Stas: properly published.
+
+475
+00:54:11.040 --> 00:54:13.489
+George Mulhearn: So yeah, exactly, yeah.
+
+476
+00:54:13.860 --> 00:54:17.459
+Patrik Stas: yeah, just it's remove removing the
+
+477
+00:54:18.170 --> 00:54:22.770
+removing, drive us to remove the cold smells and
+
+478
+00:54:23.010 --> 00:54:24.189
+Patrik Stas: and
+
+479
+00:54:25.740 --> 00:54:27.469
+Patrik Stas: improve the recommendation.
+
+480
+00:54:27.640 --> 00:54:33.640
+Patrik Stas: The Apis. I think it's gonna be it's gonna have a nice second order effects
+
+481
+00:54:34.450 --> 00:54:37.020
+Patrik Stas: the the publishing itself
+
+482
+00:54:38.820 --> 00:54:49.410
+Patrik Stas: any I would be, I would be really excited, I guess, for 2,023 if if we publish some of these crates like not Aries Vcx. But let's say Aries messages.
+
+483
+00:54:49.640 --> 00:54:57.679
+Patrik Stas: and it will be exciting to see someone else building different projects, maybe different, every implementation whatever.
+
+484
+00:54:58.100 --> 00:55:08.030
+Patrik Stas: but actually somebody utilizing those, you know, sub crates for themselves and and and having contributors who are interested in.
+
+485
+00:55:08.320 --> 00:55:11.610
+Patrik Stas: I don't know did come, or did resolver create?
+
+486
+00:55:11.730 --> 00:55:15.300
+Patrik Stas: But not necessarily Aries dcx great, and then
+
+487
+00:55:15.400 --> 00:55:21.009
+Patrik Stas: start start working on those the the shared pieces together.
+
+488
+00:55:22.330 --> 00:55:24.300
+Patrik Stas: That will be really cool to see.
+
+489
+00:55:31.700 --> 00:55:37.779
+Patrik Stas: All right. yeah, we we spend almost 1 h going through this list.
+
+490
+00:55:39.700 --> 00:55:42.899
+Patrik Stas: so it's it's pretty much, and
+
+491
+00:55:44.130 --> 00:55:45.970
+Patrik Stas: and time to wrap it up.
+
+492
+00:55:46.130 --> 00:55:52.499
+Patrik Stas: I guess that being said, yeah, this is the first time we are speaking, George, this year, Isn't it?
+
+493
+00:55:53.580 --> 00:55:57.799
+George Mulhearn: Yeah, a New year.
+
+494
+00:56:02.340 --> 00:56:08.830
+Patrik Stas: Yeah. I also also have been here to yeah, anyone who who who tune in today.
+
+495
+00:56:10.230 --> 00:56:11.979
+Patrik Stas: again
+
+496
+00:56:12.460 --> 00:56:16.880
+Patrik Stas: anybody who is listening. we are very much
+
+497
+00:56:16.950 --> 00:56:22.459
+Patrik Stas: we are very much happy for anyone to to join the meetings
+
+498
+00:56:22.530 --> 00:56:32.690
+Patrik Stas: feel free to go ahead and modify the agenda. If you would like to attend the next meeting on 12. You can just
+
+499
+00:56:32.960 --> 00:56:36.170
+Patrik Stas: come into this week, Page and
+
+500
+00:56:36.310 --> 00:56:39.399
+Patrik Stas: and i'll add points you would like to discuss here.
+
+501
+00:56:39.790 --> 00:56:49.490
+Patrik Stas: Yeah. So feel free to join. Thanks for listening. Thank you, George, for being partner. My partner here discussing the the library outlook
+
+502
+00:56:49.690 --> 00:56:58.369
+Patrik Stas: and the reviewing it's it's much easier to to talk when when there's somebody somebody to talk to. Actually.
+
+503
+00:56:58.540 --> 00:57:01.950
+Patrik Stas: So. Yeah, thank you very much for your time.
+
+504
+00:57:02.000 --> 00:57:04.830
+Patrik Stas: it's almost weekend, so enjoy a weekend, and
+
+505
+00:57:04.970 --> 00:57:08.040
+Patrik Stas: and i'll be here next week again.
+
+506
+00:57:09.420 --> 00:57:13.110
+Patrik Stas: No worries cheers, thank you. Curious, Thank you.
+
+507
+00:57:13.840 --> 00:57:14.629
+You.
+

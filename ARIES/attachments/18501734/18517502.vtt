@@ -1,0 +1,1738 @@
+WEBVTT
+
+1
+00:02:42.920 --> 00:02:44.580
+Patrik Stas: Well, hello to
+
+2
+00:02:44.810 --> 00:02:51.830
+Patrik Stas: another. Every Vcx call it's 2,000 to 9, 3 s February.
+
+3
+00:02:52.250 --> 00:02:58.870
+Patrik Stas: and we have a book done on call. My colleague from Upset
+
+4
+00:03:00.460 --> 00:03:08.629
+Patrik Stas: this week calls, Can we? Probably fairly short, as there's not much things to cover. Not many
+
+5
+00:03:08.730 --> 00:03:13.330
+Patrik Stas: news coming up since the previous call. So
+
+6
+00:03:13.810 --> 00:03:18.050
+Patrik Stas: let me just get right into it.
+
+7
+00:03:20.260 --> 00:03:30.670
+Patrik Stas: I guess we can just skip over the first step. This for the recent work done. Point is there haven't been any
+
+8
+00:03:30.900 --> 00:03:37.710
+Patrik Stas: Pr. Is merged since the last week, and then moving on to the work in progress. We have a
+
+9
+00:03:38.190 --> 00:03:41.310
+2 significant items going on right now.
+
+10
+00:03:41.390 --> 00:03:49.180
+Patrik Stas: One is from George on a new labs working on the prototype, for
+
+11
+00:03:49.200 --> 00:03:53.579
+Patrik Stas: you need Ffi is a new approach for the
+
+12
+00:03:53.670 --> 00:03:58.690
+Patrik Stas: the exposing fi api's
+
+13
+00:03:58.720 --> 00:04:06.730
+Patrik Stas: from Aries on top of Aries Vcx. Charges, and being available to
+
+14
+00:04:06.870 --> 00:04:12.749
+Patrik Stas: to join us. This meeting, which is fine so, and this is still in progress, so
+
+15
+00:04:14.350 --> 00:04:19.130
+Patrik Stas: we will. We'll finish that off whenever that's ready.
+
+16
+00:04:20.130 --> 00:04:27.090
+Patrik Stas: and then moving on to the State pattern refactoring which we covered extensively. Last week
+
+17
+00:04:27.850 --> 00:04:31.530
+there has been more discussions going on
+
+18
+00:04:31.560 --> 00:04:36.060
+Patrik Stas: which are definitely worth going through and reading them.
+
+19
+00:04:37.710 --> 00:04:45.000
+Patrik Stas: Thanks a lot to to George for for a valuable comments, and sharing his opinion on this as well.
+
+20
+00:04:45.430 --> 00:04:57.329
+Patrik Stas: But I think at this point we are settled basically that this is something we want to go forward with. And yeah, bogged down, working
+
+21
+00:04:58.040 --> 00:05:02.729
+Patrik Stas: throughout the past week, completing this.
+
+22
+00:05:05.410 --> 00:05:11.710
+Patrik Stas: just running to some minor hiccups at the moment. But I think nothing which can be
+
+23
+00:05:11.910 --> 00:05:20.840
+Patrik Stas: figured out. But then maybe you want to share the small update on the on the story, on the on the Pr.
+
+24
+00:05:30.060 --> 00:05:34.390
+Patrik Stas: I think. Well, you're not muted, but I can't hear you
+
+25
+00:05:45.810 --> 00:05:52.380
+Patrik Stas: still done here anyways, even though I see that you unmuted your cell
+
+26
+00:05:55.790 --> 00:05:57.200
+Patrik Stas: and
+
+27
+00:05:58.250 --> 00:06:02.750
+Patrik Stas: and booked on and dropped off. I think he run into some
+
+28
+00:06:03.400 --> 00:06:08.630
+Patrik Stas: technically shoes there. So let's let's see if he
+
+29
+00:06:08.860 --> 00:06:10.700
+Patrik Stas: comes back, and
+
+30
+00:06:11.490 --> 00:06:14.960
+Patrik Stas: if we can get some sort of update from him.
+
+31
+00:06:21.930 --> 00:06:25.920
+Patrik Stas: Yeah, I see that you reconnected and
+
+32
+00:06:26.010 --> 00:06:27.540
+Patrik Stas: rejoins.
+
+33
+00:06:28.160 --> 00:06:35.559
+Patrik Stas: I don't know if this by any things issue on my computer. But I
+
+34
+00:06:36.100 --> 00:06:39.120
+Bogdan Mircea: Okay, yeah, My: My.
+
+35
+00:06:40.530 --> 00:06:42.069
+Bogdan Mircea: yeah. So
+
+36
+00:06:42.580 --> 00:06:54.019
+Bogdan Mircea: essentially, this is almost done right now. The at least the implementation part is done. We're just going through this right now, just to make sure that everything stays.
+
+37
+00:06:54.170 --> 00:06:56.040
+Bogdan Mircea: Everything keeps working.
+
+38
+00:06:58.110 --> 00:07:04.290
+Bogdan Mircea: Yeah and overall it shouldn't be too difficult for people to transition to this
+
+39
+00:07:04.800 --> 00:07:09.550
+Bogdan Mircea: I mean stuff like it. By and previously working things
+
+40
+00:07:09.730 --> 00:07:11.620
+Bogdan Mircea: will
+
+41
+00:07:11.790 --> 00:07:17.399
+Bogdan Mircea: will remain working. So I went into Lebesiax and the
+
+42
+00:07:18.010 --> 00:07:23.160
+Bogdan Mircea: example, age and implementation, and that we have to modify it accordingly.
+
+43
+00:07:23.430 --> 00:07:27.339
+Bogdan Mircea: and basically use the type state pattern connection instead.
+
+44
+00:07:29.200 --> 00:07:41.169
+Bogdan Mircea: The the big difference about this is that right now, you would essentially so in these 2 examples, just to keep things nice and easy and simple.
+
+45
+00:07:41.410 --> 00:07:45.449
+Bogdan Mircea: because you have different types for different states of the connection
+
+46
+00:07:46.900 --> 00:07:47.570
+Bogdan Mircea: we
+
+47
+00:07:47.700 --> 00:07:51.400
+Bogdan Mircea: expose this generic connection type which can
+
+48
+00:07:51.630 --> 00:07:58.599
+Bogdan Mircea: it might fold any State. But you cannot progress the throughout the Protocol. With that you have to convert to a certain.
+
+49
+00:07:58.690 --> 00:08:00.340
+Bogdan Mircea: a certain state.
+
+50
+00:08:00.620 --> 00:08:02.710
+Bogdan Mircea: and then take it from there.
+
+51
+00:08:02.900 --> 00:08:15.870
+Bogdan Mircea: And now that's not necessarily a problem, because at certain steps of protocol you know exactly what state you must be in like we discussed last week. If you get a connection request you would at least expect maybe not.
+
+52
+00:08:16.110 --> 00:08:23.109
+Bogdan Mircea: You don't know for sure what connection you're going to have. But you expect that the connection should be in a requested state. So if that conversion fails.
+
+53
+00:08:23.360 --> 00:08:25.469
+Bogdan Mircea: then there's this little.
+
+54
+00:08:25.490 --> 00:08:28.510
+Bogdan Mircea: You were trying to basically do an an invalid operation.
+
+55
+00:08:28.550 --> 00:08:31.110
+Bogdan Mircea: But it it's not going to go any further from there.
+
+56
+00:08:33.450 --> 00:08:38.290
+Bogdan Mircea: Yeah. And then this also allows you. It exposes a thin state
+
+57
+00:08:38.480 --> 00:08:50.160
+Bogdan Mircea: type which you can just match on to. I don't know if you do serialize connections from a database, let's say, and you want to store them individually, you can. You could have a hash map for actually each type of these connections like each
+
+58
+00:08:50.250 --> 00:08:51.130
+Bogdan Mircea: state
+
+59
+00:08:51.470 --> 00:08:54.010
+Bogdan Mircea: you can. You can do that
+
+60
+00:08:54.040 --> 00:08:56.729
+Bogdan Mircea: as well, because you can determine it at the time
+
+61
+00:08:56.880 --> 00:09:01.460
+Bogdan Mircea: based on that. Then state what other state you're expecting to get out of the genetic.
+
+62
+00:09:02.480 --> 00:09:07.609
+Bogdan Mircea: So, yeah, essentially, it's just a matter of converting back and forth, back and forth
+
+63
+00:09:08.820 --> 00:09:13.850
+Bogdan Mircea: to that generic connection type. If you want to go that way, that route
+
+64
+00:09:15.320 --> 00:09:19.919
+Bogdan Mircea: which makes it. Let's say more backwards compatible. We're more
+
+65
+00:09:20.930 --> 00:09:25.700
+Bogdan Mircea: friendly to users that we're using the the previous implementation.
+
+66
+00:09:25.990 --> 00:09:35.470
+Bogdan Mircea: But, like, I said, you can also go ahead and just store each individual type of a connection, or you can have a mix of both saying that you want to store the complete connections in one place
+
+67
+00:09:35.560 --> 00:09:40.679
+Bogdan Mircea: and the the rest of the connections, regardless of this thing. You want to store them separately.
+
+68
+00:09:40.980 --> 00:09:43.589
+Bogdan Mircea: You can pretty much go any any way you want.
+
+69
+00:09:45.300 --> 00:09:55.919
+Bogdan Mircea: And yeah, essentially, the benefits are likely to last last week, just enforcing the protocol of compile time, and also having access to the State and and its inner things
+
+70
+00:09:56.020 --> 00:09:57.430
+Bogdan Mircea: in a more
+
+71
+00:09:57.940 --> 00:09:59.149
+Bogdan Mircea: a deterministic.
+
+72
+00:09:59.290 --> 00:10:02.530
+Bogdan Mircea: because you're expecting strict and stuff to be a certain.
+
+73
+00:10:04.030 --> 00:10:05.759
+Bogdan Mircea: That's that's pretty much it
+
+74
+00:10:05.920 --> 00:10:11.690
+Patrik Stas: right? Right? And yeah, at this point, I see. Basically
+
+75
+00:10:11.940 --> 00:10:20.899
+Patrik Stas: I guess it's Also, this is already a replacing the old connection code with the new code, right? Because I see, yeah, yeah, I did remove the old.
+
+76
+00:10:22.850 --> 00:10:24.750
+Bogdan Mircea: replaced the
+
+77
+00:10:24.950 --> 00:10:27.130
+Bogdan Mircea: like. Its usage and the
+
+78
+00:10:27.160 --> 00:10:30.800
+Bogdan Mircea: in in the
+
+79
+00:10:30.940 --> 00:10:33.009
+Bogdan Mircea: with the new connection type.
+
+80
+00:10:33.600 --> 00:10:36.930
+Bogdan Mircea: And yeah, that's why you see the the deletions there.
+
+81
+00:10:37.310 --> 00:10:38.210
+Patrik Stas: Hmm.
+
+82
+00:10:38.410 --> 00:10:40.220
+Patrik Stas: And
+
+83
+00:10:46.920 --> 00:10:56.710
+Patrik Stas: right. So basically, yeah, this is, I guess, important to know, for anybody listening to this are interested. Is that basically this
+
+84
+00:10:56.890 --> 00:10:58.210
+Patrik Stas: doesn't
+
+85
+00:10:58.310 --> 00:10:59.060
+Patrik Stas: like.
+
+86
+00:10:59.390 --> 00:11:06.479
+Patrik Stas: since since we are making changes on the non-negative connection which is being added recently.
+
+87
+00:11:06.620 --> 00:11:24.199
+Patrik Stas: there's not really impact, probably, for anyone as this has been just other recently, and we are making a sense like breaking change on the the non mediated connection serialization, format. But assuming that this hasn't been yet adopted in like past.
+
+88
+00:11:24.210 --> 00:11:30.330
+Patrik Stas: What was it 2 weeks since we added it? They shouldn't have any like material impact for anyone.
+
+89
+00:11:31.130 --> 00:11:38.440
+Patrik Stas: And basically, we yeah, basically, we are kind of starting from it's. It's really like Nice that we happen to do this.
+
+90
+00:11:39.270 --> 00:11:44.610
+Patrik Stas: this huge sort of refactor
+
+91
+00:11:44.620 --> 00:12:05.709
+Patrik Stas: new approach just now just after we added the new non-mated connections. State machine, as we can, starts create from scratch in terms of the serialization format which hasn't been like the previous one previously. I was saw lots of like nesting, and
+
+92
+00:12:05.720 --> 00:12:06.740
+Patrik Stas: we just
+
+93
+00:12:07.200 --> 00:12:11.459
+Patrik Stas: sort of awkward to work with 1 1 1
+
+94
+00:12:11.710 --> 00:12:30.330
+Patrik Stas: when when you look at the Jason. But here we are, starting kind of from scratch. I just wonder now at the spot, if there is by any chance like any sort of serialization, the serialization test, which, if I look at, I would see the actual current
+
+95
+00:12:30.470 --> 00:12:31.930
+Patrik Stas: serialization.
+
+96
+00:12:32.790 --> 00:12:35.089
+Bogdan Mircea: There's not any just yet.
+
+97
+00:12:35.140 --> 00:12:36.390
+Patrik Stas: Okay.
+
+98
+00:12:36.800 --> 00:12:40.279
+Bogdan Mircea: Yeah, that's that's also on the list, basically
+
+99
+00:12:40.390 --> 00:12:44.199
+Bogdan Mircea: the the serialization. And this realization pretty much
+
+100
+00:12:44.220 --> 00:12:49.839
+Bogdan Mircea: fairly straightforward. The only reason I I would really like to go through some.
+
+101
+00:12:50.080 --> 00:12:53.399
+Bogdan Mircea: you know, having some actual tests for it, just because
+
+102
+00:12:55.040 --> 00:12:56.930
+Bogdan Mircea: to basically
+
+103
+00:12:57.820 --> 00:13:12.719
+Bogdan Mircea: it'll keep everything in check. And to basically facilitate the visualization of serialization. There are different types implemented for each of those processes. So the deserialization happens by. If you have a certain connection.
+
+104
+00:13:12.890 --> 00:13:14.300
+concrete, state
+
+105
+00:13:14.590 --> 00:13:20.120
+Bogdan Mircea: you, it's for it first gets converted to a generic connection, and then that that's what actually gets.
+
+106
+00:13:20.720 --> 00:13:27.889
+Bogdan Mircea: Actually. Yeah, that's what actually gets the serialized. Or rather, you start from a string. You turn it into a better. And then you
+
+107
+00:13:28.290 --> 00:13:33.779
+Patrik Stas: sorry. Maybe this is actually, you know, this is like interesting kind of part of the code.
+
+108
+00:13:33.890 --> 00:13:51.720
+Patrik Stas: Interesting work you've done there. So and i'm not like having a chance to like. Take a look in a detail, so maybe we can actually take this to support kind of opportunity, and we can just a guy me through it, you know as a person who is not so yet familiar with the actual
+
+109
+00:13:51.870 --> 00:13:52.990
+Patrik Stas: code
+
+110
+00:13:53.590 --> 00:13:56.829
+Patrik Stas: in terms of the serialization.
+
+111
+00:13:56.910 --> 00:14:12.390
+Patrik Stas: So I guess, like, yeah, you started with the we have like. So we have the specific, like concrete types, right? So that I can. I can take a look at, I guess.
+
+112
+00:14:12.400 --> 00:14:19.539
+Patrik Stas: Oh, this is handlers right? Right? Yes, protocols. And yeah, let's take, for example.
+
+113
+00:14:19.710 --> 00:14:21.500
+Bogdan Mircea: the generic one.
+
+114
+00:14:21.670 --> 00:14:40.839
+Bogdan Mircea: So yeah. But these are just the the States. So what you might want to look at. These are States right. These are States common states. You might want to have a look at the models in generic. That's where the connection is, for there's a short description there about what it really is about, and
+
+115
+00:14:41.160 --> 00:14:43.250
+Bogdan Mircea: like what what purpose it serves
+
+116
+00:14:43.490 --> 00:14:53.190
+Bogdan Mircea: so essentially like we like. We discussed the Protocol is enforced now from file time through different states, through rust type system.
+
+117
+00:14:53.380 --> 00:15:01.140
+Bogdan Mircea: But there are often a lot of times where you want to just store everything together or have a common way to represent the connection. And that's what a generic connection is for
+
+118
+00:15:02.360 --> 00:15:04.110
+Bogdan Mircea: now, because this again
+
+119
+00:15:04.210 --> 00:15:09.860
+Patrik Stas: the jury connection that's that's sort of by looking at it. It's sort of like the
+
+120
+00:15:10.000 --> 00:15:12.600
+Patrik Stas: old handler, right because
+
+121
+00:15:12.980 --> 00:15:16.420
+Patrik Stas: it doesn't
+
+122
+00:15:17.700 --> 00:15:34.990
+Patrik Stas: it doesn't Yes, or the the state sort of it can. I can go through it. Id while being unaware in what state we are. Exactly. Right. Yeah, yeah, it has. It has certain methods that my account can be so that you, Don't, necessarily have to know the
+
+123
+00:15:35.250 --> 00:15:37.330
+Bogdan Mircea: exact state of the connection.
+
+124
+00:15:37.450 --> 00:15:39.499
+mostly like
+
+125
+00:15:40.160 --> 00:15:43.900
+Bogdan Mircea: That's not necessarily the main reason I implemented.
+
+126
+00:15:43.950 --> 00:15:48.220
+Bogdan Mircea: This was was mainly for this realization, but through the use of
+
+127
+00:15:48.400 --> 00:15:53.200
+Bogdan Mircea: where it's using the Ffi and all that stuff, I figure that this might actually come in handy.
+
+128
+00:15:53.510 --> 00:15:54.580
+Bogdan Mircea: So
+
+129
+00:15:55.010 --> 00:16:00.880
+Bogdan Mircea: So yeah, this can represent any connection, but you cannot use it to actually advance throughout the protocol.
+
+130
+00:16:01.020 --> 00:16:02.040
+Bogdan Mircea: So
+
+131
+00:16:02.690 --> 00:16:07.450
+Bogdan Mircea: essentially you convert their implementations from
+
+132
+00:16:07.500 --> 00:16:11.079
+Bogdan Mircea: a generic connection into a concrete state
+
+133
+00:16:11.150 --> 00:16:16.039
+Bogdan Mircea: which will succeed if the genetic connection is in the right state or fail if it's not.
+
+134
+00:16:16.140 --> 00:16:23.629
+Patrik Stas: and so in front of implementations. This this conversion. When when you convert generic connection to concrete state.
+
+135
+00:16:25.360 --> 00:16:28.470
+Patrik Stas: where can I sort of find that
+
+136
+00:16:28.490 --> 00:16:30.969
+Bogdan Mircea: you can have a look in conversions
+
+137
+00:16:31.190 --> 00:16:40.459
+Bogdan Mircea: just a file about, and there's no engineering module. Yeah, You know what I'm: I'm going to actually open this up in My, Id i'll be there. I'll stop sharing for a moment
+
+138
+00:16:41.020 --> 00:16:42.260
+Patrik Stas: and
+
+139
+00:16:43.210 --> 00:16:45.260
+Patrik Stas: check out your branch
+
+140
+00:17:16.160 --> 00:17:17.240
+Right?
+
+141
+00:17:21.040 --> 00:17:25.589
+Patrik Stas: Am I sharing my screen?
+
+142
+00:17:26.010 --> 00:17:29.780
+Patrik Stas: Yeah. Yeah. Good. All right.
+
+143
+00:17:40.370 --> 00:17:41.030
+Patrik Stas: Yeah.
+
+144
+00:17:41.300 --> 00:17:42.970
+Okay.
+
+145
+00:17:43.640 --> 00:17:47.009
+Patrik Stas: So is the Cx. And we can have a look.
+
+146
+00:17:49.600 --> 00:17:50.770
+it's!
+
+147
+00:17:52.560 --> 00:17:57.350
+Patrik Stas: Oh, and that's that's that's not what we are looking for
+
+148
+00:17:57.690 --> 00:18:08.840
+Patrik Stas: connection. And there we go. So generic that's what we've seen. The generic connection and the conversions you are frame. Yeah, there are some.
+
+149
+00:18:08.970 --> 00:18:14.640
+Bogdan Mircea: There are some Macros here to basically these things up, because it's a lot of boy locally.
+
+150
+00:18:14.900 --> 00:18:18.820
+Bogdan Mircea: But essentially it's just it's from a concrete connection.
+
+151
+00:18:18.850 --> 00:18:24.109
+Bogdan Mircea: You can definitely convert that into a generic connection, because a generic connection can hold in a state.
+
+152
+00:18:24.270 --> 00:18:32.660
+Bogdan Mircea: So they are from implementations for that. And then the the other way around from a generic connection to a certain state. There are tried from implementations.
+
+153
+00:18:32.980 --> 00:18:39.780
+Patrik Stas: Right? Right? And you had to like basically implement these like for each of the
+
+154
+00:18:40.480 --> 00:18:42.990
+Patrik Stas: yeah, each of the in creates time, right?
+
+155
+00:18:43.040 --> 00:18:48.760
+Patrik Stas: Right? And then do you have it in like in pair, so that will be like the from concrete to that.
+
+156
+00:18:49.410 --> 00:18:55.119
+Patrik Stas: So when you here you write 2 bags that actually probably refers to the.
+
+157
+00:18:55.310 --> 00:18:57.839
+Bogdan Mircea: to the
+
+158
+00:18:58.000 --> 00:18:59.590
+Bogdan Mircea: I'm going to go ahead and
+
+159
+00:18:59.680 --> 00:19:07.569
+Bogdan Mircea: yeah modify that. Yeah, Initially, I named it vague connection, but that was kind of weird. So I thought that maybe generic connection would be a better name.
+
+160
+00:19:09.770 --> 00:19:22.190
+Bogdan Mircea: So yeah, that's essentially what's what's happening. And the entire machinery just works through these things. Now, the actual implementation is really referred to like. First, the State is converted
+
+161
+00:19:22.420 --> 00:19:28.459
+Bogdan Mircea: from a complete state or generic state, and then there are some trade bounds and stuff like that.
+
+162
+00:19:30.970 --> 00:19:42.689
+Bogdan Mircea: But essentially, yeah. So when you, when you want to deserialize a string into a country type, you can just write that directly, like, be serialized
+
+163
+00:19:42.730 --> 00:19:45.509
+Bogdan Mircea: and provide the the concrete type.
+
+164
+00:19:45.700 --> 00:19:47.620
+Bogdan Mircea: and it's going to try to do that.
+
+165
+00:19:47.700 --> 00:19:56.100
+Bogdan Mircea: And so I I I guess we can have a look at it in the Vcx. I suppose. There. Yeah, I actually wanted to suggest that, too.
+
+166
+00:19:56.160 --> 00:19:59.239
+Bogdan Mircea: Yeah. So if you go there on their handle and connection.
+
+167
+00:20:00.990 --> 00:20:10.369
+Bogdan Mircea: these are for other stuff. You want to look at the bottom of the file to the 2 string and from string.
+
+168
+00:20:10.850 --> 00:20:12.730
+Oh, yeah, there we go.
+
+169
+00:20:13.060 --> 00:20:14.510
+Bogdan Mircea: right. So
+
+170
+00:20:15.800 --> 00:20:24.019
+Bogdan Mircea: when you, when it see, realizes it now the the connections here are stored as generics as generic connections. So it's not that big of a deal.
+
+171
+00:20:24.180 --> 00:20:28.229
+Bogdan Mircea: but essentially, if you had a concrete type.
+
+172
+00:20:29.120 --> 00:20:32.060
+Bogdan Mircea: you can see, realize that as well, just fine.
+
+173
+00:20:32.260 --> 00:20:45.360
+Bogdan Mircea: And the serialization would happen through a different type which is not exposed to users. But it's basically a mirror of the generic connection just that it takes references. And the reason for that is because this way
+
+174
+00:20:45.500 --> 00:20:49.159
+Bogdan Mircea: serializing something takes a reference to the type. So
+
+175
+00:20:49.560 --> 00:20:54.110
+Bogdan Mircea: we convert this reference to a concrete connection into
+
+176
+00:20:54.200 --> 00:20:55.740
+Bogdan Mircea: that particular type
+
+177
+00:20:56.060 --> 00:21:01.809
+Bogdan Mircea: for people. They want to look throughout the code. It's a serializable connection or something like that.
+
+178
+00:21:02.010 --> 00:21:06.060
+and it's essentially just a mirror of this. But it takes references.
+
+179
+00:21:06.880 --> 00:21:13.700
+Bogdan Mircea: Yeah. So that we don't clone stuff around, and then this gets serialized, and it shouldn't match the
+
+180
+00:21:14.100 --> 00:21:15.340
+Bogdan Mircea: the generic connection.
+
+181
+00:21:15.450 --> 00:21:28.119
+Patrik Stas: and then at least realize. So let me have a look where, how and where is this kind of used? So this is this is the file itself, and apparently to call from what Rs.
+
+182
+00:21:28.530 --> 00:21:40.229
+Bogdan Mircea: That would be the generic. These are these are these are some. This is only in the in the test. So these are some from implementations. For when we run tests, basically
+
+183
+00:21:40.310 --> 00:21:45.910
+Bogdan Mircea: some compile time checks that the the States where the State that the types are
+
+184
+00:21:46.310 --> 00:21:49.130
+Bogdan Mircea: sort of identical in terms of fields and types.
+
+185
+00:21:49.410 --> 00:21:55.480
+Bogdan Mircea: Because if you scroll a bit out, you're going to see that this is in in a test module. Oh, yeah, right?
+
+186
+00:21:56.030 --> 00:21:59.349
+Bogdan Mircea: So this is only going to compile it when you're running test.
+
+187
+00:22:01.500 --> 00:22:04.620
+Bogdan Mircea: Yeah. But I think that right a bit right
+
+188
+00:22:04.690 --> 00:22:11.410
+Bogdan Mircea: just above that. Actually, we're still in generic in the serial. But serializable file.
+
+189
+00:22:17.240 --> 00:22:23.199
+Bogdan Mircea: Yeah. So I think at the bottom of the file there's a serialized implementation
+
+190
+00:22:23.460 --> 00:22:24.840
+Bogdan Mircea: for connection.
+
+191
+00:22:25.660 --> 00:22:26.470
+Bogdan Mircea: Yes.
+
+192
+00:22:26.670 --> 00:22:28.000
+Bogdan Mircea: So that's
+
+193
+00:22:28.040 --> 00:22:31.460
+Bogdan Mircea: basically instead of deriving serialized for connection.
+
+194
+00:22:31.640 --> 00:22:35.470
+Bogdan Mircea: we just implemented manually here by first converting
+
+195
+00:22:35.630 --> 00:22:36.500
+Bogdan Mircea: the
+
+196
+00:22:36.570 --> 00:22:37.990
+Bogdan Mircea: self-reference
+
+197
+00:22:38.050 --> 00:22:41.529
+Bogdan Mircea: into a serializable connection and then serialize that instead
+
+198
+00:22:43.220 --> 00:22:45.199
+Bogdan Mircea: an easier way. We're
+
+199
+00:22:45.320 --> 00:22:48.270
+Bogdan Mircea: yeah. A simpler way to achieve this would have been to just
+
+200
+00:22:50.050 --> 00:22:52.190
+Bogdan Mircea: convert the the
+
+201
+00:22:52.380 --> 00:22:58.619
+Bogdan Mircea: the the concrete connection to a generic connection, and then serialize that. But the difference is that
+
+202
+00:22:58.840 --> 00:23:08.480
+Bogdan Mircea: since serialize takes a reference, you would have to clone the reference to get the known to type, and then convert the type to the generic connection.
+
+203
+00:23:08.960 --> 00:23:13.140
+Bogdan Mircea: So this is more efficient because we no longer have the phone like that.
+
+204
+00:23:17.530 --> 00:23:29.289
+Bogdan Mircea: and that's in terms of serialization. So serialized sterilization can happen like this from a concrete type, and can obviously happen from the generic connection as well. That's just through.
+
+205
+00:23:30.350 --> 00:23:33.210
+Bogdan Mircea: Just to certainly certainly derive
+
+206
+00:23:33.350 --> 00:23:34.230
+Bogdan Mircea: a micro
+
+207
+00:23:36.470 --> 00:23:38.970
+Bogdan Mircea: the visualization
+
+208
+00:23:40.800 --> 00:23:47.740
+Bogdan Mircea: well like for a generic connection again, it's just so. They derive. So that's fairly fairly straightforward.
+
+209
+00:23:47.880 --> 00:23:52.039
+Bogdan Mircea: But when you want to visualize through a complete type. If you
+
+210
+00:23:52.340 --> 00:24:01.370
+Bogdan Mircea: expect a certain type like, let's say you never store your connection strings in memory, you just retrieve them from the database, and you expect a certain type of a certain point.
+
+211
+00:24:01.530 --> 00:24:03.130
+Bogdan Mircea: Let me receive a request.
+
+212
+00:24:03.160 --> 00:24:15.230
+Bogdan Mircea: So you retrieve the string from the database, and you want to disrealize to a connection, invite or request it, or something like that. You can directly do that, because again, through certainty, some certainty attributes
+
+213
+00:24:15.310 --> 00:24:20.180
+Bogdan Mircea: it will basically first be serialized into a generic connection.
+
+214
+00:24:20.270 --> 00:24:23.960
+Bogdan Mircea: and then convert through the try from implementation
+
+215
+00:24:23.990 --> 00:24:25.959
+Bogdan Mircea: the generic connection into the concrete.
+
+216
+00:24:26.150 --> 00:24:27.190
+Bogdan Mircea: Oh, sorry!
+
+217
+00:24:27.510 --> 00:24:29.210
+Bogdan Mircea: So that can happen directly.
+
+218
+00:24:29.320 --> 00:24:35.050
+Bogdan Mircea: or if you're unaware of the type that you expect, you can just deserialize to a generic connection
+
+219
+00:24:35.120 --> 00:24:37.289
+Bogdan Mircea: and match on the State and
+
+220
+00:24:37.500 --> 00:24:39.510
+Bogdan Mircea: handle that. However, you want
+
+221
+00:24:41.060 --> 00:24:42.240
+Patrik Stas: right?
+
+222
+00:24:42.530 --> 00:24:47.569
+Patrik Stas: Yeah. So in this case, for example, here we are, just this realizing apparently to
+
+223
+00:24:47.920 --> 00:24:53.030
+Patrik Stas: you do a generic connection, and that's even stored in the the memory
+
+224
+00:24:53.510 --> 00:24:54.360
+Bogdan Mircea: right
+
+225
+00:24:54.500 --> 00:24:56.120
+Bogdan Mircea: and
+
+226
+00:24:56.540 --> 00:25:01.349
+Bogdan Mircea: exactly, and in the other exposed functions, like when you're processing request.
+
+227
+00:25:01.850 --> 00:25:08.869
+Patrik Stas: I don't know if you can scroll up a bit. So process response, For example.
+
+228
+00:25:09.080 --> 00:25:18.490
+Bogdan Mircea: Yeah, sure, that works any of them doesn't really matter. So, as you see, we basically get a connection, we call them connection from from cash.
+
+229
+00:25:18.700 --> 00:25:21.429
+Bogdan Mircea: We just get the wallet. And then
+
+230
+00:25:21.580 --> 00:25:24.239
+Bogdan Mircea: this realized that proposed to get the request type
+
+231
+00:25:24.290 --> 00:25:29.950
+Patrik Stas: in in here we are the world connection. So this would be.
+
+232
+00:25:30.350 --> 00:25:42.100
+Patrik Stas: this will be yeah, right? So this is specific type, and it's being converted, generate connection we store but here, which is correctly a returned it sort of typed connection, right
+
+233
+00:25:42.140 --> 00:25:45.380
+Bogdan Mircea: right? And it's all done through type and Ferris, because
+
+234
+00:25:45.410 --> 00:25:54.040
+Bogdan Mircea: later down the line we call, let con and say con handle request. So that method is only available to a specific type
+
+235
+00:25:54.160 --> 00:25:56.729
+Bogdan Mircea: yeah of like a certain connection state.
+
+236
+00:25:56.780 --> 00:25:59.560
+Bogdan Mircea: So through interference it knows that if you pull this
+
+237
+00:25:59.630 --> 00:26:05.180
+Bogdan Mircea: method, then you will have that type, so it knows that get close connection, will expect that type
+
+238
+00:26:05.400 --> 00:26:07.800
+Bogdan Mircea: which is connection. Invite her invited
+
+239
+00:26:07.970 --> 00:26:09.130
+Bogdan Mircea: that. So
+
+240
+00:26:09.210 --> 00:26:10.979
+Bogdan Mircea: that's pretty much it. And then
+
+241
+00:26:11.550 --> 00:26:13.400
+Bogdan Mircea: inserting it back. Here
+
+242
+00:26:13.430 --> 00:26:17.730
+Bogdan Mircea: happens transparently, and then the connection gets converted in that
+
+243
+00:26:17.860 --> 00:26:19.780
+Bogdan Mircea: insert connection function.
+
+244
+00:26:20.160 --> 00:26:25.020
+Bogdan Mircea: But, for instance, in E add connection function, we convert
+
+245
+00:26:26.340 --> 00:26:29.400
+Bogdan Mircea: directly, like before insertion. If you scroll up a bit.
+
+246
+00:26:31.270 --> 00:26:33.359
+Bogdan Mircea: let's see an example of that.
+
+247
+00:26:33.630 --> 00:26:36.870
+Bogdan Mircea: maybe in the constructors the invitation. Now.
+
+248
+00:26:37.580 --> 00:26:39.080
+Bogdan Mircea: these are generic
+
+249
+00:26:39.900 --> 00:26:41.160
+Bogdan Mircea: functions.
+
+250
+00:26:43.420 --> 00:26:44.820
+Bogdan Mircea: Yeah. So
+
+251
+00:26:44.920 --> 00:26:52.059
+Bogdan Mircea: here and create, invite T. When we add a connection, the difference being that here we don't have a candle, we generate one. Instead.
+
+252
+00:26:52.250 --> 00:26:53.820
+we first
+
+253
+00:26:54.180 --> 00:27:01.860
+Bogdan Mircea: call into on the connection. So we say Con into so we can convert the con on the last line of AD.
+
+254
+00:27:01.980 --> 00:27:10.020
+Bogdan Mircea: Right? Yeah. So we call Con that into. So we convert the concrete state to concrete that to the generic connection, which is what and function.
+
+255
+00:27:10.070 --> 00:27:10.790
+Since.
+
+256
+00:27:11.980 --> 00:27:13.649
+Patrik Stas: Hmm, right? Right?
+
+257
+00:27:14.010 --> 00:27:16.360
+Patrik Stas: Yeah, it it looks
+
+258
+00:27:16.510 --> 00:27:29.349
+Patrik Stas: like it definitely is, is more complex, and I think this is the opportunity for people to like, learn, and for myself as well from these.
+
+259
+00:27:29.370 --> 00:27:33.510
+Patrik Stas: But in after all, it looks pretty nice, and so it's
+
+260
+00:27:33.740 --> 00:27:38.760
+Patrik Stas: the the Api is pretty user friendly, if not friend, probably friendlier than before.
+
+261
+00:27:38.910 --> 00:27:41.629
+Patrik Stas: So yeah, it's it's pretty cool. And
+
+262
+00:27:42.720 --> 00:27:45.380
+Bogdan Mircea: yeah there, Aren't: that many different parts.
+
+263
+00:27:45.630 --> 00:27:52.409
+Bogdan Mircea: Yeah, apart from just handling this like this State this this type thing, and converting back and forth.
+
+264
+00:27:52.610 --> 00:27:58.439
+Bogdan Mircea: It's not that different? But this is only because we store the connections in that generic
+
+265
+00:27:59.190 --> 00:28:03.670
+Bogdan Mircea: type, the generic connection type. There's nothing really preventing you from having
+
+266
+00:28:04.360 --> 00:28:05.549
+Bogdan Mircea: like they're they're a
+
+267
+00:28:05.600 --> 00:28:13.310
+Bogdan Mircea: I believe, in total 10 different states they could possibly have. So there are 5 each, and then you are either an inviter or an invite. So that's the rule of 10.
+
+268
+00:28:13.520 --> 00:28:19.039
+Bogdan Mircea: Yeah, You could literally have 10 hash maps for each State, and maybe a set to just
+
+269
+00:28:19.230 --> 00:28:22.640
+Bogdan Mircea: make sure you don't have a conflicting ids
+
+270
+00:28:22.900 --> 00:28:31.600
+Bogdan Mircea: or handles and just storage state, and it's like each connection type in its own individual map. Then we can look them up like that. So that would
+
+271
+00:28:31.640 --> 00:28:32.590
+Bogdan Mircea: even
+
+272
+00:28:32.920 --> 00:28:38.530
+Bogdan Mircea: make it not like that would make you not even have to worry about this conversion and taking
+
+273
+00:28:38.750 --> 00:28:40.919
+Bogdan Mircea: a generic electron and what not.
+
+274
+00:28:41.000 --> 00:28:43.700
+Bogdan Mircea: maybe only when we did serialize and stuff like that, but
+
+275
+00:28:43.750 --> 00:28:49.840
+Bogdan Mircea: then you would match on the State and put the connection in its proper cache. Now
+
+276
+00:28:49.960 --> 00:28:50.670
+let's see.
+
+277
+00:28:51.020 --> 00:28:54.219
+Bogdan Mircea: But just for the for the purpose of
+
+278
+00:28:54.250 --> 00:28:57.910
+Bogdan Mircea: F. And not changing this too much.
+
+279
+00:28:58.240 --> 00:29:04.360
+Bogdan Mircea: I I just said it would be easier to to work with it like that. But again, there's nothing prevent you from going a bit.
+
+280
+00:29:04.520 --> 00:29:05.190
+Bogdan Mircea: But the
+
+281
+00:29:05.490 --> 00:29:08.299
+Bogdan Mircea: you know being a bit extra going the external
+
+282
+00:29:08.440 --> 00:29:27.559
+Patrik Stas: right? Yeah, I I agree. I I think it's a good approach taken, and yeah, going like forward, I I guess, from from what I know you, you run into some like testing issues with no jazz. But but I think that wouldn't be something significant. I mean, it seems like it's just some sort of implement
+
+283
+00:29:27.570 --> 00:29:29.969
+Patrik Stas: with the new codes.
+
+284
+00:29:30.130 --> 00:29:31.559
+Patrik Stas: But
+
+285
+00:29:32.240 --> 00:29:40.690
+Bogdan Mircea: yeah, it's probably just because of my understanding of the environment. I guess i'm digging through it trying to figure out what's the issue.
+
+286
+00:29:42.000 --> 00:29:48.000
+Bogdan Mircea: But yeah, I don't think it doesn't seem like it's too big of a deal. It seems like one of these really, really small things that you just.
+
+287
+00:29:49.100 --> 00:29:49.749
+Bogdan Mircea: I don't.
+
+288
+00:29:50.710 --> 00:29:52.859
+Bogdan Mircea: You just don't don't see?
+
+289
+00:29:53.320 --> 00:29:57.499
+Patrik Stas: Yeah, yeah. And there's been going forward.
+
+290
+00:29:59.700 --> 00:30:06.800
+Patrik Stas: Maybe we can. Actually, you you are mentioning before some of the work you like to
+
+291
+00:30:07.050 --> 00:30:12.000
+get into before you start, like applying to the
+
+292
+00:30:13.040 --> 00:30:27.149
+Patrik Stas: the approach you've taken with connection to the other State machines we have. But there's something something else you would like to dig into right, so maybe we can. I can like actually put into
+
+293
+00:30:27.540 --> 00:30:30.550
+Patrik Stas: the main mentioned in the meeting nodes.
+
+294
+00:30:30.870 --> 00:30:32.420
+Patrik Stas: So
+
+295
+00:30:32.700 --> 00:30:39.549
+Patrik Stas: yeah, maybe you can just briefly describe those those items you would like to enhance.
+
+296
+00:30:41.200 --> 00:30:46.930
+Bogdan Mircea: So I guess the the next thing like by while working on this, I I saw that there.
+
+297
+00:30:47.380 --> 00:30:52.300
+Bogdan Mircea: There is a lot of cloning going around, and a lot of
+
+298
+00:30:53.030 --> 00:30:56.389
+Bogdan Mircea: I mean. The compiler probably optimizes some things
+
+299
+00:30:56.430 --> 00:30:57.630
+Bogdan Mircea: as well, but
+
+300
+00:30:57.680 --> 00:31:00.640
+Bogdan Mircea: I think we can. We can push things a bit
+
+301
+00:31:00.960 --> 00:31:03.210
+Bogdan Mircea: a bit more by taking
+
+302
+00:31:03.400 --> 00:31:07.829
+Bogdan Mircea: making use of references more in terms of messages, and
+
+303
+00:31:07.990 --> 00:31:13.559
+Bogdan Mircea: I know exposed fields and stuff like that. So essentially my
+
+304
+00:31:13.600 --> 00:31:21.660
+Bogdan Mircea: like my idea going forward after this is all done and merged to be to go through the messages. And maybe the bit thought grade 2,
+
+305
+00:31:21.930 --> 00:31:23.780
+Bogdan Mircea: basically
+
+306
+00:31:23.930 --> 00:31:27.469
+Bogdan Mircea: We factor it a bit, not structurally, but rather
+
+307
+00:31:27.530 --> 00:31:32.149
+Bogdan Mircea: to try and expose as many references as possible
+
+308
+00:31:33.990 --> 00:31:35.979
+Bogdan Mircea: in the in the idea of
+
+309
+00:31:37.440 --> 00:31:41.330
+Bogdan Mircea: like right. Now, these a lot of these
+
+310
+00:31:41.350 --> 00:31:43.280
+Bogdan Mircea: methods that are exposed
+
+311
+00:31:43.380 --> 00:31:45.550
+Bogdan Mircea: just clone inherently clone
+
+312
+00:31:45.620 --> 00:31:47.030
+Bogdan Mircea: or implicitly quote.
+
+313
+00:31:47.260 --> 00:31:57.049
+Bogdan Mircea: and that's not necessarily a a good idea or even a good design, simply because in R you can get away with references, and especially when you
+
+314
+00:31:57.140 --> 00:32:06.900
+Bogdan Mircea: one a sense stuff like when you, when you just want to send stuff down the wire or put it in the file or stuff like that. You can print it to standard output.
+
+315
+00:32:07.150 --> 00:32:11.780
+Bogdan Mircea: You can get away with just read access of the data. So you don't necessarily need it. Don't type.
+
+316
+00:32:13.510 --> 00:32:14.590
+Bogdan Mircea: And
+
+317
+00:32:15.890 --> 00:32:17.670
+Bogdan Mircea: yeah, essentially.
+
+318
+00:32:17.720 --> 00:32:26.230
+Bogdan Mircea: even in in scenarios where, let's say, I know someone that uses just the message is great, would need some own string, and we just expose a
+
+319
+00:32:26.260 --> 00:32:27.620
+Bogdan Mircea: a string slice.
+
+320
+00:32:27.910 --> 00:32:29.620
+Bogdan Mircea: They can clone it themselves
+
+321
+00:32:30.730 --> 00:32:39.030
+Bogdan Mircea: because they might need that in. I don't know 3 out of 10 cases, but in the other 7 they can get away with a reference, and
+
+322
+00:32:39.360 --> 00:32:42.389
+Bogdan Mircea: it's going to be much, much better if we just expose that.
+
+323
+00:32:42.640 --> 00:32:46.880
+Bogdan Mircea: so that we don't. We limit all these clonings and the memory footprint.
+
+324
+00:32:47.910 --> 00:32:52.529
+Bogdan Mircea: And yeah, that's that's pretty much the plan just trying to expose this.
+
+325
+00:32:52.690 --> 00:32:56.049
+Bogdan Mircea: you know, in a in a more memory-friendly. But
+
+326
+00:32:56.180 --> 00:33:02.040
+Bogdan Mircea: and I've also seen that there are some macros implemented for some common behavior
+
+327
+00:33:02.190 --> 00:33:08.119
+Bogdan Mircea: which are really nice. But I think we could also get away with some trades implemented for that.
+
+328
+00:33:08.700 --> 00:33:20.000
+Bogdan Mircea: and the reason for that is that now I didn't go through all of them, and in that much that. But, for instance, there's this macro where there are 2 of them like thread-like optional and thread-like.
+
+329
+00:33:20.120 --> 00:33:22.349
+Bogdan Mircea: which implements some
+
+330
+00:33:22.400 --> 00:33:28.819
+Bogdan Mircea: expose some, some things from an inner thread, from a message or request in response to stuff like that
+
+331
+00:33:28.930 --> 00:33:32.959
+Bogdan Mircea: which essentially have a thread field like a thread to type.
+
+332
+00:33:33.650 --> 00:33:34.630
+Bogdan Mircea: And
+
+333
+00:33:35.080 --> 00:33:40.339
+Bogdan Mircea: besides the fact that all of these flown, and we probably can get away with not doing that.
+
+334
+00:33:41.650 --> 00:33:43.379
+Bogdan Mircea: there is also the
+
+335
+00:33:43.400 --> 00:33:47.119
+Bogdan Mircea: the idea of implementing a trait which we can
+
+336
+00:33:47.390 --> 00:33:50.260
+Bogdan Mircea: we could use in a more
+
+337
+00:33:51.130 --> 00:33:56.309
+Bogdan Mircea: ergonomic fashion, so we could have some default methods on the trait
+
+338
+00:33:56.710 --> 00:33:59.639
+Bogdan Mircea: that just process a thread
+
+339
+00:34:00.000 --> 00:34:07.419
+Bogdan Mircea: I don't know just They get the thread object, and they they return some field of the thread or a thread by from some they tend to feel good.
+
+340
+00:34:07.540 --> 00:34:15.589
+Bogdan Mircea: and then the non default methods on the trade. So things that you would implement when you implement a trade on on a certain type
+
+341
+00:34:15.780 --> 00:34:17.169
+would just be
+
+342
+00:34:17.270 --> 00:34:19.730
+Bogdan Mircea: getting the the the thread run for us.
+
+343
+00:34:20.179 --> 00:34:23.369
+Bogdan Mircea: and this would essentially make
+
+344
+00:34:23.760 --> 00:34:26.830
+Bogdan Mircea: it would end up. Being a some, a bit of a less code
+
+345
+00:34:27.420 --> 00:34:29.109
+Bogdan Mircea: would be some less code, because
+
+346
+00:34:30.320 --> 00:34:33.739
+Bogdan Mircea: we would have only to implement these access or methods
+
+347
+00:34:33.830 --> 00:34:36.740
+Bogdan Mircea: from the trade and the rest. But just work by itself.
+
+348
+00:34:38.050 --> 00:34:43.510
+Bogdan Mircea: It's it's pretty much like if you see if you're familiar with the iterate their trade and in rust
+
+349
+00:34:45.020 --> 00:34:52.020
+Bogdan Mircea: to to make something to make a type and iterator. You only have to implement the next method. And then, once you do that, there, there's this
+
+350
+00:34:52.360 --> 00:34:58.309
+Bogdan Mircea: long list of things that you can do with the trait, because they all work based on that access or
+
+351
+00:34:58.490 --> 00:35:00.270
+Bogdan Mircea: not. Sure, if that's the proper term. But
+
+352
+00:35:00.400 --> 00:35:03.539
+Bogdan Mircea: yeah, based on that, on that method that you.
+
+353
+00:35:03.660 --> 00:35:05.180
+Bogdan Mircea: You have to implement.
+
+354
+00:35:05.860 --> 00:35:11.129
+Bogdan Mircea: Now, nothing is preventing you from overriding different things if you really want to.
+
+355
+00:35:12.460 --> 00:35:13.359
+Bogdan Mircea: But
+
+356
+00:35:13.390 --> 00:35:18.479
+Bogdan Mircea: if you can just use the default behavior, and I guess that most of the time you do.
+
+357
+00:35:18.670 --> 00:35:21.240
+Bogdan Mircea: You just implement that and get away with it.
+
+358
+00:35:22.180 --> 00:35:23.560
+Bogdan Mircea: and you have an iterator.
+
+359
+00:35:23.820 --> 00:35:26.120
+Bogdan Mircea: So yeah, it's it's again.
+
+360
+00:35:26.140 --> 00:35:27.520
+Bogdan Mircea: I mean, there's also like
+
+361
+00:35:27.620 --> 00:35:35.899
+Bogdan Mircea: I'm not sure if this would be used or not. They're also stuff like having a common phrase. I mean you could even do some trade bounds.
+
+362
+00:35:36.350 --> 00:35:40.140
+Bogdan Mircea: We're trade objects again, not sure if this would be
+
+363
+00:35:40.440 --> 00:35:42.169
+Bogdan Mircea: necessarily helpful.
+
+364
+00:35:44.270 --> 00:35:48.129
+Bogdan Mircea: But the the overall idea is simply having the
+
+365
+00:35:49.890 --> 00:35:52.470
+Bogdan Mircea: yeah, the common behavior defined as a trait
+
+366
+00:35:52.790 --> 00:35:53.629
+and
+
+367
+00:35:53.650 --> 00:35:55.660
+Bogdan Mircea: taking some of that.
+
+368
+00:35:55.880 --> 00:35:59.360
+Patrik Stas: And I guess so like this. This.
+
+369
+00:35:59.510 --> 00:36:10.040
+Patrik Stas: The these 2 items you mentioned is a reducing cloning replacement of the macros. That's something you as I understand that something you run into in
+
+370
+00:36:10.500 --> 00:36:29.340
+Patrik Stas: throughout the working you found. This is like a need for like, for the improvement of the pattern itself. Right so now, after we do these 2 items, then we can move on to applying the the, the, the
+
+371
+00:36:29.350 --> 00:36:32.340
+Patrik Stas: the state pattern for the other State machines we have.
+
+372
+00:36:32.820 --> 00:36:35.720
+Bogdan Mircea: Yeah. So essentially, I think that
+
+373
+00:36:36.040 --> 00:36:39.990
+Bogdan Mircea: after after the the messages into the top rates are
+
+374
+00:36:40.310 --> 00:36:41.540
+Bogdan Mircea: it cleared out a bit.
+
+375
+00:36:43.220 --> 00:36:44.379
+basically
+
+376
+00:36:44.780 --> 00:36:50.909
+Bogdan Mircea: we're going to go through the connection again just to see what take advantage of the enhancements we have that we did.
+
+377
+00:36:53.090 --> 00:36:57.510
+Bogdan Mircea: And then yeah, basically move to to other State machines.
+
+378
+00:36:57.620 --> 00:37:00.979
+Bogdan Mircea: And, as I said, the the whole point of this would be that.
+
+379
+00:37:01.780 --> 00:37:04.869
+Bogdan Mircea: for instance, in the connection, I basically
+
+380
+00:37:05.220 --> 00:37:09.700
+Bogdan Mircea: did some work around to take advantage of some references sometimes when I could.
+
+381
+00:37:11.150 --> 00:37:18.990
+Bogdan Mircea: and it's not necessarily a good idea, because if I, if I were to move to other State machines. Now, then, I probably end up doing the same thing.
+
+382
+00:37:19.120 --> 00:37:21.580
+Bogdan Mircea: and it would be better to just.
+
+383
+00:37:21.870 --> 00:37:22.500
+Bogdan Mircea: you know.
+
+384
+00:37:22.550 --> 00:37:36.199
+Patrik Stas: treat the like 3. The illness, not the symptoms. Let's say, yeah, like, do the first thing like all the way. And then you can read the same pattern properly on everywhere else. Right?
+
+385
+00:37:36.400 --> 00:37:43.910
+Bogdan Mircea: Yeah, but it's not necessarily about the pattern itself. It's more about just the the overall usage of of memory.
+
+386
+00:37:44.080 --> 00:37:45.299
+Bogdan Mircea: And
+
+387
+00:37:46.290 --> 00:37:48.060
+Bogdan Mircea: like this. This would have
+
+388
+00:37:48.310 --> 00:37:52.129
+Bogdan Mircea: being a good idea, even if we didn't implement the state pattern.
+
+389
+00:37:52.380 --> 00:37:59.589
+Bogdan Mircea: the type, the type thing. Yeah, I mean, like pattern like, not necessarily. I didn't refer to the the State pattern itself, just like
+
+390
+00:37:59.660 --> 00:38:14.529
+Patrik Stas: like the overall. You know, the whatever the new pattern, the new sort of refactor version of that State machine is like we. We can do it, you know, proper properly with with, without any sort of workarounds which we can
+
+391
+00:38:14.780 --> 00:38:21.919
+Patrik Stas: get rid of you by by doing this further enhancements.
+
+392
+00:38:22.040 --> 00:38:27.590
+Patrik Stas: and then we don't have to like worry down the road. How we have to like further
+
+393
+00:38:27.630 --> 00:38:30.429
+Patrik Stas: refact right across the base or something
+
+394
+00:38:30.710 --> 00:38:36.749
+Bogdan Mircea: right? And and essentially the idea is that all these, like changing the the
+
+395
+00:38:37.190 --> 00:38:42.980
+Bogdan Mircea: the the design, use, or the pattern used in these State machines, kind of implies
+
+396
+00:38:43.050 --> 00:38:44.890
+Bogdan Mircea: somewhat of a refactor.
+
+397
+00:38:44.950 --> 00:38:47.300
+Bogdan Mircea: simply because
+
+398
+00:38:47.660 --> 00:38:51.219
+Bogdan Mircea: some things change like I said so. For instance, if you.
+
+399
+00:38:51.420 --> 00:38:59.849
+Bogdan Mircea: if you're expecting like in the previous implementation, you would want to get a a dead dog, for instance, but you don't know for sure whether the State
+
+400
+00:38:59.930 --> 00:39:03.660
+Bogdan Mircea: and the type would represent would be capable of representing all the States.
+
+401
+00:39:03.810 --> 00:39:07.549
+Bogdan Mircea: You wouldn't know for sure whether you have a dead dog in there or not.
+
+402
+00:39:07.630 --> 00:39:15.530
+Bogdan Mircea: and it's similar to what you get on the general connection. You get an option with the top reference, because we cannot not you. There is a a deduct in the State.
+
+403
+00:39:16.920 --> 00:39:19.319
+Bogdan Mircea: but when you work on a concrete state.
+
+404
+00:39:19.900 --> 00:39:20.930
+Bogdan Mircea: you know
+
+405
+00:39:21.140 --> 00:39:23.229
+Bogdan Mircea: whether you have a dead dog or not.
+
+406
+00:39:23.330 --> 00:39:30.389
+Bogdan Mircea: So some the methods. The method for getting a dead doc is only exposed for states that actually do have a digital.
+
+407
+00:39:30.630 --> 00:39:40.260
+Bogdan Mircea: and this makes some things much easier, because if previously, you would have to get the the dog, and it will get an option or a result, and they would have to
+
+408
+00:39:41.450 --> 00:39:43.990
+Bogdan Mircea: handle the air somehow or the not.
+
+409
+00:39:44.380 --> 00:39:47.620
+Bogdan Mircea: Now you don't, because if you can call
+
+410
+00:39:47.740 --> 00:39:51.549
+Bogdan Mircea: the the the method, you know you have a good job there.
+
+411
+00:39:53.090 --> 00:39:54.989
+Bogdan Mircea: and that's that's pretty much the
+
+412
+00:39:55.120 --> 00:40:00.729
+Bogdan Mircea: the idea. So it kind of implies some some sort of refactoring here and there.
+
+413
+00:40:00.920 --> 00:40:06.299
+Bogdan Mircea: and makes some things much easier. Simple because you don't have to deal with all these errors.
+
+414
+00:40:06.420 --> 00:40:09.279
+Bogdan Mircea: So yeah, having to do this.
+
+415
+00:40:09.580 --> 00:40:10.649
+Bogdan Mircea: then
+
+416
+00:40:10.780 --> 00:40:14.180
+Bogdan Mircea: I noticed all these optimizations that we can make in terms of
+
+417
+00:40:14.360 --> 00:40:16.769
+Bogdan Mircea: passing fields around and getting data.
+
+418
+00:40:18.620 --> 00:40:27.750
+Bogdan Mircea: And and yeah, I guess it would be a good opportunity to, as I said, Just go and work on that first, so that then we can propagate it much easier
+
+419
+00:40:27.910 --> 00:40:33.470
+Bogdan Mircea: to the other. The effort levels, and where these crates are being used in their into these here
+
+420
+00:40:33.690 --> 00:40:34.950
+Patrik Stas: right right?
+
+421
+00:40:35.880 --> 00:40:52.520
+Patrik Stas: All right, I guess. Like this is sufficient sort of already. Load like a pre projected load for what's what you would like to get done. I think this is gonna take some time, so
+
+422
+00:40:53.750 --> 00:41:02.039
+Patrik Stas: discover having send that to covering all this. Is there anything else you would like to mention, because before we.
+
+423
+00:41:02.430 --> 00:41:05.650
+Patrik Stas: before we wrap up our meeting.
+
+424
+00:41:07.880 --> 00:41:10.449
+Bogdan Mircea: No, I guess I guess that would be it
+
+425
+00:41:10.660 --> 00:41:13.239
+Bogdan Mircea: for for anybody tuning it later. Or
+
+426
+00:41:14.760 --> 00:41:20.930
+Bogdan Mircea: yeah, just just listening to to the recording this one or the the previous meeting the previous week's One.
+
+427
+00:41:22.260 --> 00:41:29.660
+Bogdan Mircea: Yeah, feel free to maybe leave some comments or notes on the issue, or the Pr. If it's not merged by then.
+
+428
+00:41:29.780 --> 00:41:34.860
+Bogdan Mircea: And if you see some some improvement ideas, I guess
+
+429
+00:41:35.340 --> 00:41:36.660
+Bogdan Mircea: we are more than open.
+
+430
+00:41:36.740 --> 00:41:37.359
+Right?
+
+431
+00:41:38.280 --> 00:41:49.719
+Patrik Stas: Yeah. Awesome, awesome. Thank you so much. We're done for New Year. And and having doing this, this guy drew on the call. So yeah.
+
+432
+00:41:49.920 --> 00:42:00.129
+Patrik Stas: I think we good good here, and i'll and i'll I'll see you. And here you talk to a next week.
+
+433
+00:42:00.160 --> 00:42:00.950
+Patrik Stas: Truth.
+
+434
+00:42:01.340 --> 00:42:03.090
+Bogdan Mircea: Yep, take care, bye.
+

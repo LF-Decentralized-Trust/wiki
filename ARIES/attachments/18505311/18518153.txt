@@ -1,0 +1,1574 @@
+WEBVTT
+
+1
+00:00:01.910 --> 00:00:06.850
+Stephen Curran: Right welcome to the May thirtieth Ares Cottage about Asian python
+
+2
+00:00:07.230 --> 00:00:17.270
+Stephen Curran: user group meeting acupug. couple of things on the on the agenda. We're going to talk about it on cred's in Akupi and a a brief update from
+
+3
+00:00:17.330 --> 00:00:28.720
+Stephen Curran: I want to go through a few occupy Prs and see if we can do some. Let's Let's play. Can we merge this? See if we can get some of those off the off the list
+
+4
+00:00:28.790 --> 00:00:33.319
+Stephen Curran: and get the merged or push back for other things.
+
+5
+00:00:33.400 --> 00:00:44.519
+Stephen Curran: As there's time I want to do a I got a little presentation on converting from unqualified periods to did pier 3. And so I would like to push on that
+
+6
+00:00:44.670 --> 00:00:51.989
+Stephen Curran: We are recording the call, so I'll post after, perhaps with excerpts.
+
+7
+00:00:52.550 --> 00:00:57.189
+Stephen Curran: grabbed for specific topics. We'll see how how that's needed.
+
+8
+00:00:57.480 --> 00:01:11.630
+Stephen Curran: a reminder. This is a hyper Ledger Linux Foundation meeting the Linux Foundation and trust policy which is in front of you on the screen is in effect, as is the Hyper ledger code of conduct. Be good to one another.
+
+9
+00:01:12.360 --> 00:01:27.560
+Stephen Curran:  if there are any, is there? If there is anyone new to the community, to the meeting and wants to introduce themselves and talk about what they're doing now would be the time as well. If you have any announcements
+
+10
+00:01:27.710 --> 00:01:32.060
+Stephen Curran: or want to suggest agenda items, please do so.
+
+11
+00:01:33.970 --> 00:01:37.059
+Stephen Curran: Grab the mic weighed barns
+
+12
+00:01:38.160 --> 00:01:45.570
+Wade Barnes: an announcement. so Hyper Ledger? they want to do a
+
+13
+00:01:45.890 --> 00:01:48.700
+contributor and Maintainer outreach
+
+14
+00:01:48.870 --> 00:01:53.039
+Wade Barnes: for Indian areas similar to what they do for the fabric teams.
+
+15
+00:01:53.260 --> 00:02:01.720
+Wade Barnes: So if anybody is interested, if you could contact Shawn Bohan, I'll put his email address in the chat.
+
+16
+00:02:05.040 --> 00:02:06.309
+Stephen Curran: What does that mean?
+
+17
+00:02:07.390 --> 00:02:14.179
+Wade Barnes: Don't really know what it means. I I think I I think they want to just get some more.
+
+18
+00:02:15.330 --> 00:02:22.659
+it's more excitement around the the projects and various things, and get feedback from the contributors and maintainers on
+
+19
+00:02:22.720 --> 00:02:26.800
+Wade Barnes: how the projects going and what they'd like to see change.
+
+20
+00:02:27.470 --> 00:02:29.629
+Stephen Curran: There is a
+
+21
+00:02:30.150 --> 00:02:35.269
+Stephen Curran: coming out of the open source Summit in Vancouver. There's 2 surveys that I've noted.
+
+22
+00:02:35.640 --> 00:02:48.100
+Stephen Curran:  one on on Linux Foundation and open source in general, the state of open source. that's at the Linux Foundation level. And then there's also a hyper ledger survey
+
+23
+00:02:48.440 --> 00:02:50.180
+Stephen Curran: that
+
+24
+00:02:50.430 --> 00:02:56.479
+Stephen Curran: was sent out. that they're looking for understanding of
+
+25
+00:02:56.520 --> 00:03:01.010
+Stephen Curran: what Hyper Ledger is, and and and and how it's perceived.
+
+26
+00:03:01.170 --> 00:03:06.019
+Stephen Curran: So That might be one of the things that's that they're looking at
+
+27
+00:03:07.980 --> 00:03:09.830
+Stephen Curran: anyone else. Want to
+
+28
+00:03:10.300 --> 00:03:12.079
+Stephen Curran: grab the my right now.
+
+29
+00:03:16.000 --> 00:03:17.100
+Stephen Curran: All right.
+
+30
+00:03:18.420 --> 00:03:32.739
+Stephen Curran: A reminder that the acupy.org documentation site is up. There'll be more evolution on that. I've been away for a while, but I want to get back to adjusting some of that, so I'll spend some of my time
+
+31
+00:03:32.750 --> 00:03:41.139
+Stephen Curran: in the near future doing that, and would glad to introduce anyone else to what it takes. Basically, it is a
+
+32
+00:03:41.350 --> 00:04:01.039
+Stephen Curran:  it grabs all of the Md files, organizes them and publishes them as a website. so if you're looking to use, see what's in it. you know, a mark down file in the acapug repo. It's it's a whole lot friendly, or a place to go rather than github
+
+33
+00:04:01.580 --> 00:04:24.779
+Stephen Curran: to try to navigate through the folders and find the repo, the the the readmes, and things like that. It's a much easier way to go. So encourage that to get used. we have, and a non-credit's workshop tomorrow, May thirty-first. The link to register is here. So Rudolpho, Miranda, Miranda,
+
+34
+00:04:25.240 --> 00:04:28.189
+Stephen Curran: Patrick St. Louis and myself are going to be presenting that
+
+35
+00:04:28.540 --> 00:04:40.230
+Stephen Curran: and we're gonna be playing with an on credits. hands on, but also going through some a lot of the background. And and what's coming with an on credits.
+
+36
+00:04:40.430 --> 00:04:42.719
+Stephen Curran: So we invite anyone to that.
+
+37
+00:04:43.640 --> 00:04:51.580
+Stephen Curran: With that I will turn over to Daniel to talk about
+
+38
+00:04:51.720 --> 00:04:57.969
+Stephen Curran: how how things are proceeding with an on cred, and it's good because I've got a dog now telling me he wants to go outside, so I need to
+
+39
+00:04:58.150 --> 00:05:00.620
+Stephen Curran: deal with that so over to you?
+
+40
+00:05:00.730 --> 00:05:02.600
+Stephen Curran: Do you want screen, Daniel?
+
+41
+00:05:02.760 --> 00:05:19.810
+Daniel Bluhm: I will be pretty quick I've linked to the document that I'll I'll be talking through, and there's just a few bullet points so it'll it'll be pretty quick. so I'll I'll not screen share this time around. But yeah, let's see. So as a brief update.
+
+42
+00:05:19.980 --> 00:05:21.770
+Daniel Bluhm: so
+
+43
+00:05:22.360 --> 00:05:30.539
+Daniel Bluhm: I've got a dock linked from the agenda you can go through. I've got links to a few things that are are relevant to our progress here.
+
+44
+00:05:30.810 --> 00:05:48.210
+Daniel Bluhm: but we've gone through and done a number of things lately. we've updated the non-creds. Rs build we're using. So we're now using ones that are actually being published from the non-critz Rs library, which was an early challenge that we had with the project where there was a lack of support. There. we've now gotten over that problem.
+
+45
+00:05:48.260 --> 00:06:05.700
+Daniel Bluhm: we've gone through and updated the tails file handling. We are now using the hash of the details. File as the file name that gets uploaded to a tail server. And then there were some associated changes to the in detailed survey implementation that we made to support that
+
+46
+00:06:05.800 --> 00:06:15.849
+Daniel Bluhm:  we've currently left the original functionality that that's retained within our changes. there's a newly introduced and non-credit sales server
+
+47
+00:06:16.180 --> 00:06:28.570
+Daniel Bluhm: components within that that uses the new behavior. We haven't added the intelligence switching between the 2 based on a configuration or anything like that yet. So that'll
+
+48
+00:06:28.700 --> 00:06:40.630
+Daniel Bluhm: need to be further refined, I think. But we've gotten the sales file upload resolving the circular dependency that we're experiencing previously. so that's all in place and working well
+
+49
+00:06:40.680 --> 00:06:41.840
+at this point
+
+50
+00:06:41.880 --> 00:06:45.800
+Daniel Bluhm: we have basic checks on the tails file that gets uploaded just to make sure that
+
+51
+00:06:46.000 --> 00:06:54.350
+Daniel Bluhm: you know basically matches the hash But we're also investigating whether we can do any deeper validation on the
+
+52
+00:06:59.210 --> 00:07:02.939
+Daniel Bluhm: getting some feedback from you, Steven, I think, on the mic.
+
+53
+00:07:04.940 --> 00:07:06.739
+Daniel Bluhm: okay. And then.
+
+54
+00:07:06.960 --> 00:07:33.580
+Daniel Bluhm: further on, here we've got So our Mvp. For the revocation. We're we're nearly complete with that process. So when I say, Mvp, just getting the absolute basic steps down, we haven't gone through the automated flows just yet. but just getting the basics of being able to do all the setup for the non-credit objects. I've left that step off, I realize, but we can do issuance and presentation all the way through.
+
+55
+00:07:33.580 --> 00:07:41.930
+Daniel Bluhm: without revoking the credential. Because we're actually, that's what we're working on currently is the publishing of revocation updates.
+
+56
+00:07:41.970 --> 00:07:42.760
+Daniel Bluhm: So
+
+57
+00:07:43.150 --> 00:08:09.249
+Daniel Bluhm: that's our our focus for this week is is finishing that off as well as getting into the automated setup of revocation registries. and just in general, further, clean up of the implementation so far, and in a lot of cases, the existing implementation of revocation, just to get things where we need them to be. and we're also planning to start taking into updating tests and stuff as well. So
+
+58
+00:08:09.890 --> 00:08:21.729
+Daniel Bluhm: yeah. And then below that. I've got some links to our our current Pr, that we haven't updated that branch in a little bit since we've been working on a different branch which I also have linked there.
+
+59
+00:08:21.930 --> 00:08:22.890
+Stephen Curran: Good.
+
+60
+00:08:24.130 --> 00:08:26.459
+Stephen Curran: Thank you. Any questions from anyone
+
+61
+00:08:30.590 --> 00:08:31.480
+Stephen Curran: awesome.
+
+62
+00:08:32.520 --> 00:08:35.500
+Stephen Curran: Can't wait to have that available
+
+63
+00:08:35.630 --> 00:08:36.500
+Daniel Bluhm: in the
+
+64
+00:08:36.840 --> 00:08:39.849
+Stephen Curran: can't wait to be done with it.
+
+65
+00:08:40.049 --> 00:08:42.690
+Stephen Curran: Excellent. Okay, thank you.
+
+66
+00:08:46.490 --> 00:08:48.780
+Stephen Curran: All right.
+
+67
+00:08:50.550 --> 00:09:06.719
+Stephen Curran: I did. want to mention this. I left this. We're not going to have an update. we are continuing to make progress in the use of redis with acupy with the occupy based mediator. So those things are proceeding, and that's a good thing.
+
+68
+00:09:06.930 --> 00:09:17.539
+but I did get a message from the team at BC. Gov. They wanted to remind people don't ever use info logging in production.
+
+69
+00:09:17.760 --> 00:09:20.699
+Stephen Curran: You want to minimize the logging necessary.
+
+70
+00:09:20.870 --> 00:09:34.199
+Stephen Curran: fun story. We've got that He activated a dev instance of of occupy with logging and mediator and did a bit of load testing and
+
+71
+00:09:34.370 --> 00:09:43.730
+Stephen Curran: with info set it absolutely blew out a a logging system on our on our open shift, and we got calls from the
+
+72
+00:09:44.780 --> 00:09:50.120
+Stephen Curran: calls from the platform of operators to say, What do you do? And your your
+
+73
+00:09:50.440 --> 00:09:52.779
+Stephen Curran: sucking up this space? So
+
+74
+00:09:52.900 --> 00:09:58.699
+Wade Barnes: it was something like several 1 million
+
+75
+00:09:59.350 --> 00:10:03.330
+Wade Barnes: several 1 million logs per hour that they were.
+
+76
+00:10:03.580 --> 00:10:09.790
+Wade Barnes: they were looking at getting, and it was like it was just blowing up the elastic search database.
+
+77
+00:10:11.280 --> 00:10:15.200
+Stephen Curran: So make absolutely sure you are not using
+
+78
+00:10:15.590 --> 00:10:31.459
+Stephen Curran: logging in production or any sort of system like that, and be aware that, especially from what I hear especially ask, are, the logging is extremely high, and it probably should be adjusted and maybe will be adjusted. to change a lot of the info logging to be debug logging
+
+79
+00:10:31.750 --> 00:10:35.250
+Stephen Curran: to make that less likely to happen. But anyway.
+
+80
+00:10:35.900 --> 00:10:44.650
+Stephen Curran: worthy of a all caps reminder. Okay, can we merge this? I want to jump into a.
+
+81
+00:10:45.800 --> 00:10:50.450
+Stephen Curran: and see if we can get some feedback going on this.
+
+82
+00:10:51.230 --> 00:10:57.490
+Stephen Curran: this one came up today. So we want to drop python 360. Anyone
+
+83
+00:10:57.690 --> 00:11:00.420
+Stephen Curran: shocked, upset by that
+
+84
+00:11:03.590 --> 00:11:12.119
+Stephen Curran: with a comment on that idea. We've used 3 3, 6 since since the beginning, and never really changed it.
+
+85
+00:11:12.620 --> 00:11:16.890
+Stephen Curran: long overdue for that. Okay? So.
+
+86
+00:11:17.430 --> 00:11:26.430
+Stephen Curran: Daniel, you've you've created this You've just reported just before the meeting that some of the integration tests. are not working.
+
+87
+00:11:26.640 --> 00:11:31.840
+Stephen Curran: actually there. That's the second time. I think it's been cancelled after 360 min.
+
+88
+00:11:32.060 --> 00:11:38.089
+Daniel Bluhm: Yeah, there's a something's timing out on the the integration test right now. So I I need to take a look at
+
+89
+00:11:38.230 --> 00:11:46.059
+Daniel Bluhm: how the image changes I made are are impacting that I I suspect it might be just some quiet failures on on the container or something like that.
+
+90
+00:11:46.140 --> 00:12:04.210
+Daniel Bluhm: Okay, But yeah, I I only noticed that this morning, so I haven't had a chance to look too much at it yet. I I did also comment here. I've got a number of things going on at the moment. So if you happen to have some time and are feeling really motivated to look at this, contributions are welcome. So yeah.
+
+91
+00:12:04.530 --> 00:12:05.410
+Stephen Curran: Jason.
+
+92
+00:12:08.370 --> 00:12:11.670
+Jason Sherman: does this include changing all the demos.
+
+93
+00:12:13.500 --> 00:12:16.809
+Jason Sherman: the demo, a lot of the demo images are 3, 6,
+
+94
+00:12:17.080 --> 00:12:42.270
+Daniel Bluhm: right? so the integration tests are actually using the demo images. And and when I, the initial changes that I made, actually, I failed to include the demo images, and then that promptly caused the the integration test to fail. So this has adjusted that but it seems to be imperfectly adjusted at this point. So but yeah, those those images should be, okay, yeah, just just curious. Because I was just having some issues with the
+
+95
+00:12:42.270 --> 00:12:48.679
+Jason Sherman: trying to put in newer libraries into the demo images and what not. So just curious about that. So
+
+96
+00:12:51.630 --> 00:13:05.589
+Stephen Curran:  I I will see if There's someone on our team that could take a look at that. I'm thinking. CSIRO, maybe you could take a look at that. Given you, we're looking at integration tests relatively recently.
+
+97
+00:13:05.680 --> 00:13:09.440
+Stephen Curran: maybe that's one. You could have a quick look at and see if you can help out. Daniel.
+
+98
+00:13:10.750 --> 00:13:13.860
+Jason Syrotuck: Yeah, I will. I can take a quick look at that suite.
+
+99
+00:13:14.090 --> 00:13:16.420
+Stephen Curran: Okay, good. Good.
+
+100
+00:13:16.550 --> 00:13:25.539
+Stephen Curran: And then any anything we can do to push this forward that would be useful, I think. getting this done sooner than later would be a good thing
+
+101
+00:13:27.460 --> 00:13:47.750
+Daniel Bluhm: agreed on that. Now I'll also call out that after we get this particular peer emerged, I think it will make sense to go through and do it. A number of updates on dependencies as well. we're we're kind of behind. Several of our our dependencies have been updated to drop python 3 6 ports. We're actually on older versions of those to keep that. So
+
+102
+00:13:47.890 --> 00:13:48.680
+Stephen Curran: okay.
+
+103
+00:13:49.560 --> 00:13:54.989
+Stephen Curran: thanks. Thanks for that reminder. I'm going to quickly write myself a note.
+
+104
+00:13:56.470 --> 00:13:59.849
+Stephen Curran: I want to get a an issue in on that.
+
+105
+00:14:08.710 --> 00:14:10.880
+Stephen Curran: Okay? Good.
+
+106
+00:14:11.810 --> 00:14:22.180
+Stephen Curran: This one, I think, should be ready to go. did a little looking at it yesterday. Basically, what this does is. we have a script
+
+107
+00:14:22.640 --> 00:14:23.900
+Stephen Curran: that
+
+108
+00:14:24.110 --> 00:14:27.719
+Stephen Curran: is available to update the open Api
+
+109
+00:14:28.150 --> 00:14:34.239
+Stephen Curran: to the latest the latest version. This adds,
+
+110
+00:14:34.710 --> 00:14:42.790
+Stephen Curran: I believe what it's doing is both generating a swagger, a open Api 2 and 3.0
+
+111
+00:14:42.870 --> 00:14:49.770
+and just adds the latest version of the generator from an older version. So, speaking of dependencies that we're old
+
+112
+00:14:50.110 --> 00:15:13.790
+Stephen Curran: I've looked at this, compared it. I think we're ready to go and approved it. Does anyone have any bots? Anyone particular that's used the open Api generator stuff? I just that's the only reason I was holding back on this was, I don't actually use it. so is anyone using it and and have any comments on this or concerns about merging this.
+
+113
+00:15:19.570 --> 00:15:28.279
+Stephen Curran: We also had a bit of a conversation here, and I'll probably put these things in about. We're getting way. Too many warnings and error messages from it
+
+114
+00:15:28.570 --> 00:15:29.470
+the
+
+115
+00:15:29.660 --> 00:15:35.979
+Stephen Curran: it works to use it. But It would be good to get this cleaned up. So
+
+116
+00:15:37.450 --> 00:15:53.019
+Stephen Curran:  Marit. Maritz had a number of comments in there about what to do about that. So I'm I'm hoping to get that into an issue and and get that looked at. So we get some approval on or get some movement on that
+
+117
+00:15:53.340 --> 00:15:59.589
+I'm gonna go ahead and merge this. This will probably the last merge on the call, because now we'll have to
+
+118
+00:15:59.800 --> 00:16:06.559
+Stephen Curran: update all of the Pr's that we look at next. But anyway, we've got that one merge, so we at least merge one
+
+119
+00:16:07.330 --> 00:16:16.059
+Stephen Curran:  Sherman comments on this one. I did notice that we had a integration test failure
+
+120
+00:16:17.210 --> 00:16:23.490
+Jason Sherman: on this.
+
+121
+00:16:25.010 --> 00:16:37.989
+Jason Sherman: Yeah, I'll take a look at that. That was, basically it was. It was all on the demo side, nothing in occupy. And that's that's why I was asking about the demo images, because, as
+
+122
+00:16:38.080 --> 00:16:47.369
+Jason Sherman: the library that was having the issue. I was trying to put in the the newest version of the library that they said they fixed the bug and and
+
+123
+00:16:47.540 --> 00:17:03.619
+Jason Sherman: couldn't easily do it. So I kind of fudged it, but it turned out that it didn't actually fix the bug in the spot. We had it regardless. But that's why my question was about the getting updated. So but I'll take a look at why, that test is failing.
+
+124
+00:17:03.690 --> 00:17:10.950
+Stephen Curran: Okay, you might want to wait till after we sort out the three-six and maybe look at this after the yeah. Good point.
+
+125
+00:17:13.109 --> 00:17:23.690
+Stephen Curran: Okay, I think this one's ready to go. It's been approved by several. I don't think team most here. But, Daniel, any comments on that. I know. You looked at it.
+
+126
+00:17:24.030 --> 00:17:27.589
+Daniel Bluhm: no, yeah, this one looked good. So I'm happy with it.
+
+127
+00:17:28.020 --> 00:17:31.109
+Stephen Curran: All right, I'll update the branch and get this merged.
+
+128
+00:17:33.060 --> 00:17:40.970
+Stephen Curran:  so this is a
+
+129
+00:17:40.990 --> 00:17:44.269
+Stephen Curran: thinking about base wall at a non. Yeah, okay.
+
+130
+00:17:45.370 --> 00:17:47.590
+we had a few issues like that.
+
+131
+00:17:50.800 --> 00:17:54.840
+Stephen Curran: this is a bigger one.
+
+132
+00:17:56.730 --> 00:18:04.599
+Stephen Curran: comments on this one. This is from Darco. To add, 2, 5, 5, 1, 9, signature 2020 support.
+
+133
+00:18:06.000 --> 00:18:10.450
+Stephen Curran: this one is dependent on the 3 60,
+
+134
+00:18:10.520 --> 00:18:18.800
+Stephen Curran: so or 3.6, so we'll probably follow up with that. Any anyone with knowledge on this one and want to comment.
+
+135
+00:18:21.920 --> 00:18:32.329
+Stephen Curran: Andrew, I asked you to take a look at it if you could. given the nature of this type of change in your knowledge on signature, suite, so on.
+
+136
+00:18:32.950 --> 00:18:43.469
+Stephen Curran: so it'd be good if you could take a look at it as well, but, as I say, I think we'll wait till the 3 60 and get our 3.6 completion, and then get darko to
+
+137
+00:18:43.620 --> 00:18:51.220
+Stephen Curran:  adjust the items based on using post.
+
+138
+00:18:51.330 --> 00:18:52.929
+Python. 3, 6.
+
+139
+00:18:55.710 --> 00:18:56.610
+Stephen Curran: Okay.
+
+140
+00:18:59.850 --> 00:19:05.360
+Stephen Curran: Daniel, you talked. You're ready to have this one done
+
+141
+00:19:05.380 --> 00:19:08.569
+Stephen Curran: interesting problem.
+
+142
+00:19:09.720 --> 00:19:21.650
+Stephen Curran: good catch on it. I think this looks easy and and ready to go comments. And our people fine with it anyone else? Take a look at it.
+
+143
+00:19:25.030 --> 00:19:26.679
+Stephen Curran: That's the change.
+
+144
+00:19:28.510 --> 00:19:37.239
+Daniel Bluhm: Yeah, to to summarize. there is cache inconsistencies between replicas during that exchange that caused
+
+145
+00:19:37.260 --> 00:19:39.489
+Daniel Bluhm: errors and other protocols.
+
+146
+00:19:39.810 --> 00:19:47.950
+Daniel Bluhm: to summarize some of the comments that I made in the description. since the connection target for
+
+147
+00:19:48.150 --> 00:19:58.080
+Daniel Bluhm: a connection changes throughout the did exchange protocol, anyways. there was actually some code that existed prior to my changes. That was just immediately clearing the cache on every connection record save
+
+148
+00:19:58.180 --> 00:20:06.980
+Daniel Bluhm: which would have occurred at each step of the did exchange protocol anyways, so rather than just having cache be storage. And then
+
+149
+00:20:07.030 --> 00:20:17.009
+Daniel Bluhm: the improperly cleared later on on a different replica, and and failing to be cleared on on the replica that was originally answering the the request.
+
+150
+00:20:17.220 --> 00:20:19.320
+Daniel Bluhm: I just adjusted it. So
+
+151
+00:20:19.960 --> 00:20:23.890
+Daniel Bluhm: caching of connection targets only occurs on completion of the did exchange.
+
+152
+00:20:24.080 --> 00:20:34.380
+Daniel Bluhm: so this kind of sidestep some of the issues that I I think we've experienced in other situations as well. I haven't tested any of those other scenarios, so I I don't know for sure.
+
+153
+00:20:34.560 --> 00:20:35.629
+Stephen Curran: but it makes sense.
+
+154
+00:20:35.830 --> 00:20:37.270
+Daniel Bluhm: Yeah. So it it?
+
+155
+00:20:38.200 --> 00:20:48.410
+Daniel Bluhm: This kind of maybe hints a little bit at like, how do we actually want to treat the cash going forward? Do we want it to be a shared state thing, or do we want it to be a a local state
+
+156
+00:20:48.470 --> 00:21:00.619
+Daniel Bluhm: thing only, and only for you know, ephemeral values, or whatever. Yeah. This goes further in the direction of supporting local only as opposed to a shared state mechanism.
+
+157
+00:21:01.000 --> 00:21:03.740
+Stephen Curran: And and what we really want is.
+
+158
+00:21:04.440 --> 00:21:18.389
+Stephen Curran: I think, one option we want to have available, and this has been done with with. Redis is, have a a reddit shared cash cross. and I and Dco Daniel, your team is put together. A
+
+159
+00:21:18.900 --> 00:21:23.779
+Stephen Curran: an instance of using red. As for this type of thing, I believe? Correct.
+
+160
+00:21:23.860 --> 00:21:25.100
+Stephen Curran: Yeah. So that
+
+161
+00:21:25.650 --> 00:21:41.040
+Daniel Bluhm: these changes are partially motivated. We were working with Sikh, but and they were wanting to avoid having to introduce the shared cash mechanism if they could. and it. This was the only problem that they were experiencing in that. in that setup. So yeah.
+
+162
+00:21:41.360 --> 00:21:42.800
+Stephen Curran: cool. Okay.
+
+163
+00:21:43.450 --> 00:21:55.309
+Stephen Curran:  any developers anywhere? Have a I'm gonna I'm going to approve it. If anyone else has any concerns with it.
+
+164
+00:21:57.150 --> 00:22:07.700
+Stephen Curran: take a look. I won't merge it yet. We can't merge it yet till it gets updated, anyway. And so, Daniel, if you could update it from the the main branch and then gets re-tested.
+
+165
+00:22:09.300 --> 00:22:10.020
+Daniel Bluhm: Good.
+
+166
+00:22:17.160 --> 00:22:23.500
+Stephen Curran: All right. maybe I'll do one or 2 more. Let's see.
+
+167
+00:22:27.070 --> 00:22:32.300
+Stephen Curran: Yeah, again, this one looks pretty straightforward.
+
+168
+00:22:34.870 --> 00:22:36.720
+Stephen Curran: update the branch
+
+169
+00:22:39.450 --> 00:22:51.600
+Stephen Curran: and a pro and run. I just wanted a developer to take a look. So this is just a a tweet to how how the end rock endpoint gets extracted and used.
+
+170
+00:22:51.890 --> 00:22:55.040
+Stephen Curran: So a couple of tweaks to a a shell script.
+
+171
+00:22:55.640 --> 00:23:06.949
+Stephen Curran: so I assume this is fine. I did. I didn't have a chance to actually run it, so I was hoping that's why I put your name on it. Take a look at running it. but I think it should be fine, so
+
+172
+00:23:07.880 --> 00:23:11.250
+Stephen Curran: likely that will get
+
+173
+00:23:11.600 --> 00:23:18.240
+Jason Syrotuck: move forward. Yeah. I was going to spot check that this morning. But yeah, I don't see any concerns with the changes that are me to.
+
+174
+00:23:18.650 --> 00:23:19.410
+Stephen Curran: Good.
+
+175
+00:23:20.920 --> 00:23:22.029
+Stephen Curran: Thank you.
+
+176
+00:23:25.090 --> 00:23:30.059
+Stephen Curran: this is a depend upon change.
+
+177
+00:23:31.130 --> 00:23:31.960
+Stephen Curran: I'm
+
+178
+00:23:34.060 --> 00:23:35.660
+Stephen Curran: imagine.
+
+179
+00:23:36.110 --> 00:23:43.110
+Stephen Curran: Oh, this is in in the area you've got. Sherman looks like in the playground.
+
+180
+00:23:44.900 --> 00:23:47.730
+Stephen Curran: so probably get you to take a look at that.
+
+181
+00:23:52.870 --> 00:24:00.839
+Stephen Curran: or, or, you know, just merge it with a as you see fit, depending on how much you think it needs review.
+
+182
+00:24:01.240 --> 00:24:06.580
+Jason Sherman: Yeah, just a bump in the requirements. thing.
+
+183
+00:24:07.320 --> 00:24:15.690
+Stephen Curran: but I I can't do merging.
+
+184
+00:24:15.870 --> 00:24:18.319
+Stephen Curran: Maybe I'll take a look. Yeah.
+
+185
+00:24:18.370 --> 00:24:30.919
+Stephen Curran: you can put an approval on it, and then I can proxy your knowledge. Yeah, sounds good. You can communicate your approval.
+
+186
+00:24:31.200 --> 00:24:43.689
+Stephen Curran: All right. this is a a big change that Sherman, you did. for adding updating from an efk to an elk stack.
+
+187
+00:24:43.770 --> 00:24:48.529
+Stephen Curran: I think this is pretty clean, and I've run through it once, and it works great.
+
+188
+00:24:48.750 --> 00:24:56.729
+Stephen Curran: I I think this is ready to go, I would suspect. Do you have any reason to think it's not ready, Jason? Or
+
+189
+00:24:57.470 --> 00:25:27.129
+Jason Sherman: no, I mean I I I was using it a lot so to do. You know all the number testing with the redis and the mediator, etc., etc. And then all that debugging with the trace log stuff. so it worked for me. yeah, it's basically just an update. The Efk, one was so far out of date that this kind of updated and being a little bit more flexible to you, integrate into Run Demo and and all those situations. So
+
+190
+00:25:27.220 --> 00:25:41.879
+Jason Sherman: Someone else was able to follow the instructions and get to work. That's good. That certainly doesn't having it. There doesn't have any impact negative impact on any other chunks of code. There's no like hard dependency on it or anything. So
+
+191
+00:25:41.900 --> 00:25:43.449
+Jason Sherman: right, it's not a tool.
+
+192
+00:25:44.670 --> 00:25:45.410
+Stephen Curran: Cool.
+
+193
+00:25:47.090 --> 00:25:50.869
+Stephen Curran: All right. I'll get that one reviewed, as they say. I've run through it
+
+194
+00:25:50.900 --> 00:25:59.570
+Stephen Curran: on my own machine, and it worked great. So happy to get that one push forward. This one
+
+195
+00:25:59.810 --> 00:26:08.220
+Stephen Curran: T-mo has looked through it had some back and forth. looks like this is close to resolved
+
+196
+00:26:15.470 --> 00:26:19.370
+Stephen Curran: so we're lucky for an Update
+
+197
+00:26:19.520 --> 00:26:20.820
+Stephen Curran: to base.
+
+198
+00:26:25.590 --> 00:26:28.490
+Stephen Curran: I don't know if Sasha is on the call.
+
+199
+00:26:29.530 --> 00:26:41.880
+Stephen Curran: but if not, this is likely to get merge pretty soon. Looks like Daniel. You've you've been happy with that teamo is more or less happy with it, had some conversations. So we'll we'll see about that and then get it merged.
+
+200
+00:26:42.130 --> 00:26:53.919
+Daniel Bluhm: Yeah, I I think there might be some minor adjustments here and there, but and I can communicate back to Sasha on the sick. The team. where Sasha is from. Okay. Good. Yep, yep, excellent
+
+201
+00:26:54.110 --> 00:27:15.379
+Stephen Curran: good. Last one I wanted to hit on. This one was shan jot the one you've been working on on settings per per tenant basis as opposed to on the overall occupy instance, do you want to talk a bit about that? And and do you think this one's ready to go and we should get it finalized.
+
+202
+00:27:15.480 --> 00:27:37.900
+Shaanjot Gill: Yeah, it's it's ready to go. So it's basically like, right now, we are able to set up a startup like flags, the startup parameters. But we can't do it for at the sub sub wallet or the tenant level. So basically, this allows like, modifies the endpoints for supported creation and update so that we can specify those start up
+
+203
+00:27:37.960 --> 00:27:42.650
+Shaanjot Gill: settings for at the tenant level. So it that's pretty much it.
+
+204
+00:27:43.270 --> 00:27:47.089
+Stephen Curran: I don't see a single Md file. It's updated.
+
+205
+00:27:49.200 --> 00:27:53.139
+Shaanjot Gill: okay, I I'll I'll I'll work on that.
+
+206
+00:27:53.240 --> 00:27:57.469
+Stephen Curran: yeah, I would say, maybe add it to the multi-tenant one
+
+207
+00:27:58.480 --> 00:28:07.800
+Shaanjot Gill: Md file exists. So I think just adding a section to that. And then, when I highlighted in the change log, I think, between the 2 that will help.
+
+208
+00:28:08.670 --> 00:28:10.979
+Shaanjot Gill: I work on there. So it sounds good.
+
+209
+00:28:11.660 --> 00:28:12.500
+Stephen Curran: Okay.
+
+210
+00:28:12.760 --> 00:28:17.080
+Stephen Curran: I think that takes care of a lot.
+
+211
+00:28:17.620 --> 00:28:20.740
+are there any other ones down here?
+
+212
+00:28:22.200 --> 00:28:31.160
+Stephen Curran: this is an open Api demo. I think I just have to merge that. I think it's just documentation.
+
+213
+00:28:32.250 --> 00:28:36.409
+Stephen Curran: oh, auto! Remove flags for presentation request. Oh.
+
+214
+00:28:37.860 --> 00:28:42.750
+Stephen Curran: Jason! And comments on that! That's been out for a while, and we need to deal with that one.
+
+215
+00:28:44.190 --> 00:28:55.709
+Jason Sherman: Yes, I've got a refresh my brain here on that. It has been a while. yeah. So previously just had the
+
+216
+00:28:56.680 --> 00:29:05.230
+Jason Sherman: We were only saving one exchange the financial exchange. so so these
+
+217
+00:29:05.360 --> 00:29:09.960
+Jason Sherman: basically follows the same pattern. it's
+
+218
+00:29:10.170 --> 00:29:18.379
+Jason Sherman: seems to work out okay with impact. so I think the documentation goes through it pretty well of
+
+219
+00:29:18.540 --> 00:29:20.920
+Jason Sherman: what to do, and
+
+220
+00:29:21.040 --> 00:29:29.789
+Jason Sherman: we've added it. So a change to the financial exchange is that now you can pick which side.
+
+221
+00:29:29.810 --> 00:29:49.449
+Jason Sherman: So when we put in the presentation exchange, there's a configuration for each side of the conversation, and we added that in for the credential exchange as well. So the existing code works. It's just now there's an enhancement to the credential Exchange side as well. So preserve the all your side, or whatever you can do that
+
+222
+00:29:49.720 --> 00:29:54.249
+Stephen Curran:  Shanghai, is this one of the settings that's
+
+223
+00:29:54.830 --> 00:30:03.489
+Stephen Curran: inherited downwards, and should be goes to the tenant level versus the acapug occupy level
+
+224
+00:30:05.890 --> 00:30:08.550
+Shaanjot Gill:  the the auto.
+
+225
+00:30:09.470 --> 00:30:12.040
+Shaanjot Gill: Yeah, I think. So. This is one of them. Yes.
+
+226
+00:30:12.300 --> 00:30:13.090
+Stephen Curran: okay.
+
+227
+00:30:13.340 --> 00:30:22.559
+Stephen Curran: okay, You've got conflicts here, Jason, so you're going to deal with that.
+
+228
+00:30:23.350 --> 00:30:29.289
+Stephen Curran: Okay? that's good. this is one of the issues we're having is
+
+229
+00:30:29.660 --> 00:30:42.300
+Stephen Curran: you know, being consistent as maintainer in in getting these resolved. so that is going to be more of a focus in the next, while we're getting a lot of updates from a lot of different people, and we really need to
+
+230
+00:30:42.720 --> 00:30:45.990
+Stephen Curran: pay more attention to these and get them closed faster.
+
+231
+00:30:46.060 --> 00:31:10.909
+Stephen Curran: so we will be doing this more often in Acupug, and then I'm going to make an effort to try to bring the Maintainer together to make sure we're we're being timely and addressing these and and and working on them. Another note, I'm going to be updating the Maintainer's file. to make sure it's accurate. But if anyone
+
+232
+00:31:11.060 --> 00:31:16.160
+Stephen Curran: W. Wants to be a maintainer and has
+
+233
+00:31:16.210 --> 00:31:24.570
+Stephen Curran: met the qualifications which is at least 5 5 pull requests been merged, and
+
+234
+00:31:24.590 --> 00:31:39.380
+Stephen Curran: a knowledge and interest in being so absolutely welcome to do so. And we'd we'd love to have additional maintainers that that are willing to take the time and willing and able to take the time to
+
+235
+00:31:39.410 --> 00:32:08.250
+Stephen Curran: Stay on top of these pull requests as they come in and make sure they're getting merged in a timely way, and not only that, but feedback is given to the to the contributors. Making them, that's even, you know, just as important as as getting them nailed down. Getting them assessed is is getting feedback to those that are contributing and and making sure that they want to continue to make that contribution and update what they've done to meet the
+
+236
+00:32:08.380 --> 00:32:19.229
+Stephen Curran: the needs. So a pitch for anyone who, you know has a knowledge, but hadn't thought about it of of being an actual maintainer for the for the framework.
+
+237
+00:32:20.010 --> 00:32:20.920
+Stephen Curran: Okay.
+
+238
+00:32:22.290 --> 00:32:34.589
+Stephen Curran: that's that. looks like I am missing a topic in here, which is, I wanted to talk about before we go, and we have a few minutes. of pier 3.
+
+239
+00:32:35.120 --> 00:32:36.460
+Stephen Curran: that's great.
+
+240
+00:32:37.590 --> 00:32:38.470
+Stephen Curran: So
+
+241
+00:32:39.420 --> 00:32:56.360
+Stephen Curran: let me jump to that. basically, I have an overview of transitioning to Period 3. And I wanted to. make sure this is right. And then it's likely that one of the developers on the BC Cup team. CSIRO on the meeting is likely gonna take this next.
+
+242
+00:32:56.380 --> 00:33:03.710
+Stephen Curran: And so I wanted to solicit feedback and and get him some help as he started working on this.
+
+243
+00:33:03.870 --> 00:33:05.980
+So getting qualified.
+
+244
+00:33:06.180 --> 00:33:07.919
+Stephen Curran: so background, we have
+
+245
+00:33:07.970 --> 00:33:10.860
+Stephen Curran: 2 types of unqualified dids.
+
+246
+00:33:10.880 --> 00:33:13.629
+in Indy. That's not right.
+
+247
+00:33:13.880 --> 00:33:30.239
+Stephen Curran: So let me just fix that. I had that on my brain yesterday in Akupi.  2 types of unqualified Ds did sob, did. I? Don't know why that's underlined. But That our public dids on an Indie ledger.
+
+248
+00:33:30.330 --> 00:33:51.120
+Stephen Curran: so again they would not be qualified. And then we have periods. on a didcom messaging relationship between 2 parties. So you know, an issue or a holder might have a establish a connection. They exchange periods. Currently, most of those are unqualified periods.
+
+249
+00:33:51.480 --> 00:34:06.249
+Stephen Curran:  pretty obvious from the context of where they get used. which which type it is. So there's not a need to get a unqualified didn't, and and try to look it up on a ledger when it's a peer did
+
+250
+00:34:06.320 --> 00:34:17.500
+Stephen Curran: So that's not really a big issue. But we want to update all Aries agents to use qualified dids, occupy agent occupy based agents and all other areas. So we want to use qualified dids.
+
+251
+00:34:17.960 --> 00:34:40.070
+Stephen Curran: It's pretty easy for public days. We just pre-pand did solve. I guess I need another colon in there. Once we do that, everything should continue to work we already support did soft so that should work. But unqualified periods are a little trickier. And we've talked about this on the areas working group calls. So some of this is repeat, but I thought it worthwhile to to lay the foundation
+
+252
+00:34:40.130 --> 00:34:58.579
+Stephen Curran:  unqualified did is calculated in the same way as did solve. So select the first 16 Byte of a 256 bit verification key, or the hash of it, I believe. But anyway, the first 16 Byte of that becomes the unqualified did the
+
+253
+00:34:58.580 --> 00:35:15.879
+Stephen Curran: the identifier value. But that is not a standard did method. there's no prefix to use for it did Colon, whatever. So we did talk about in the areas community creating one did peer legacy or something like that.
+
+254
+00:35:16.490 --> 00:35:19.940
+Stephen Curran: but we had another idea.
+
+255
+00:35:20.070 --> 00:35:29.549
+Stephen Curran: So we'll talk about that. how it works during did exchange of using either connections or did exchange
+
+256
+00:35:29.590 --> 00:35:37.439
+Stephen Curran: Each party independently generates during their part of the did exchange generates a key pair
+
+257
+00:35:38.020 --> 00:35:47.589
+Stephen Curran: From that they generate, the namespace did identify, or the stuff after did Colon which is the unqualified part in this case.
+
+258
+00:35:47.950 --> 00:35:53.030
+Stephen Curran: they don't put a prefix on it it. They created
+
+259
+00:35:53.580 --> 00:35:54.380
+Stephen Curran: the
+
+260
+00:35:55.170 --> 00:35:56.399
+Stephen Curran: did, Doc.
+
+261
+00:35:56.440 --> 00:36:04.970
+Stephen Curran: and then they send the other party. The unqualified did. And the did, Doc. So they're sending 2 pieces of data in the various calls.
+
+262
+00:36:05.680 --> 00:36:13.879
+Stephen Curran: second background backgrounded. Wow! I did these quickly and without oversight.
+
+263
+00:36:14.120 --> 00:36:17.120
+Stephen Curran:  did peer
+
+264
+00:36:17.340 --> 00:36:23.570
+Stephen Curran: works by having is is intended for exactly this purpose.
+
+265
+00:36:23.840 --> 00:36:37.989
+Stephen Curran: and it's specified that there there would be different types of did peers, and they would be numbered 0 one and 2 so far, and as of immersed that was done this morning, there is a
+
+266
+00:36:38.150 --> 00:37:00.829
+Stephen Curran: type 3 as well. So there's or overall did. Pier 0 is a is exactly equivalent to the did key protocol, and therefore should probably never be used and did. Key should always be used in its place, since many it is far more prevalent. So did Peer 0, and probably don't ever want to use it.
+
+267
+00:37:01.400 --> 00:37:14.669
+Stephen Curran:  did. Pier. One is similar to one qualified period is but the did identifier. The the namespace identifier is derived from the hash of the did Doc, and not the public key.
+
+268
+00:37:15.300 --> 00:37:19.920
+Stephen Curran: So a different way to to to derive the public key?
+
+269
+00:37:20.130 --> 00:37:39.030
+Stephen Curran:  worse or or a big problem with the appear one is that the canonicalization of the did. Doc is not really defined in the spec Ares framework Javascript, to find a way to do that but it's not really defined in the spec itself, which is not a good thing.
+
+270
+00:37:39.470 --> 00:37:49.240
+Stephen Curran: so that's a second issue, and and has led us to say we probably shouldn't use, did pier one? And so we're leaning away from it.
+
+271
+00:37:49.900 --> 00:37:51.859
+did, pier 2
+
+272
+00:37:51.980 --> 00:38:09.519
+Stephen Curran: the elements of the did Doc. Are extracted from the did dock itself and used to construct the names namespace identifier. So there's a set of rules for how you construct the the the identifier
+
+273
+00:38:09.830 --> 00:38:16.319
+Stephen Curran: following following the 2, the the part of it following the 2 in the in the did
+
+274
+00:38:16.440 --> 00:38:29.499
+Stephen Curran: The result of that is that the dids are very long, and those elements are all visible and all all interactions which is not ideal. It's it's a very long, it adds to every message being sent.
+
+275
+00:38:30.050 --> 00:38:34.640
+Stephen Curran: and in plain text, all of the details of the did, Doc are are shared.
+
+276
+00:38:35.180 --> 00:38:49.430
+Stephen Curran:  But the the difference is, you just need to send a did. You don't need to send it, did Doc? Because the actual did. Dot can be derived from extracting the elements out of the did itself.
+
+277
+00:38:49.660 --> 00:38:50.889
+Stephen Curran: So that's good.
+
+278
+00:38:51.700 --> 00:39:04.189
+Stephen Curran: so did Pierre, is something new. I actually this is a link to the Pr. For it. But the pull request was approved this morning by Daniel. So it's actually now in the specification itself.
+
+279
+00:39:06.130 --> 00:39:15.900
+Stephen Curran: So did Pier 3. The idea of that is to get the benefit of Did pier 2. But eliminate the need to send the folded peer on every message. Basically
+
+280
+00:39:16.300 --> 00:39:22.510
+Stephen Curran:  whoops derive and namespace identifier from did Pier 2
+
+281
+00:39:22.650 --> 00:39:27.590
+Stephen Curran: calculate the shot, 2 56 hash of the did pier 2 did.
+
+282
+00:39:27.620 --> 00:39:36.630
+Stephen Curran: and you now have did pier 3 did Colin peer Colon 3. And then the value of the identifier. That's the
+
+283
+00:39:37.200 --> 00:39:46.570
+Stephen Curran: Just the hash of the actual did pier 2. So after sending a did pier 2 once, we can then
+
+284
+00:39:46.580 --> 00:39:52.569
+Stephen Curran: there after send it the same did Pier 2 every time, or we can send it, did pier 3.
+
+285
+00:39:53.050 --> 00:39:56.030
+Stephen Curran: And if we send, did pier 3 much shorter
+
+286
+00:39:56.700 --> 00:40:04.279
+Stephen Curran: But of course this the recipient needs to understand. Did Pier 3? So that's a a complication in it.
+
+287
+00:40:04.410 --> 00:40:08.249
+Stephen Curran: Any questions or comments so far. Sam, am I getting this right?
+
+288
+00:40:09.030 --> 00:40:22.600
+Stephen Curran: nothing yet. You haven't yet explained the how, you know thing, but I'm guessing you're getting to that. So transitioning from unqualified dids part. One is adding an acupy support, for did pier 2 and 3.
+
+289
+00:40:23.220 --> 00:40:35.920
+Stephen Curran: So right now Shan Jot did a a pile of work to support. Did pier one matching afj I now would suggest that we retarget that work
+
+290
+00:40:35.980 --> 00:40:40.369
+Stephen Curran: to support did pier 2, and did pier 3 and a
+
+291
+00:40:41.620 --> 00:40:47.210
+Stephen Curran: in particular. And first thing it needs to do is support the receipt of both those did methods.
+
+292
+00:40:47.840 --> 00:40:58.329
+Stephen Curran:  so suggesting that we sort of retarget that pr, that's in there for did pier one it's not been merged yet and eliminate.
+
+293
+00:40:58.770 --> 00:41:04.920
+Stephen Curran: replace the did peer. One element of that with support for using did Pier 2.
+
+294
+00:41:05.930 --> 00:41:14.799
+Stephen Curran: And that will enable us to use the transition to using. Did pier 2 and 3 we do that automatically. So
+
+295
+00:41:15.100 --> 00:41:19.840
+Stephen Curran: we if the other party sends one, we can handle it.
+
+296
+00:41:19.860 --> 00:41:29.320
+Stephen Curran: If the other party sends a did pier 2 before we've sent I did over to the other party we should use, did pier 2.
+
+297
+00:41:29.440 --> 00:41:42.000
+Stephen Curran: Otherwise. we have a flag that that we can activate when needed to initiate sending it. That's always the tricky part. When should we send it? And how do we know the other party is using it?
+
+298
+00:41:43.660 --> 00:41:47.170
+Stephen Curran: That comes as a community court and update, although there.
+
+299
+00:41:47.560 --> 00:41:54.490
+Stephen Curran: I'll I'll talk about that in a bit as well. There's another way that we can get partially through it without
+
+300
+00:41:55.010 --> 00:41:58.470
+Stephen Curran: using the flag W without only using the flag.
+
+301
+00:42:01.480 --> 00:42:05.249
+Stephen Curran: Actually, no, I don't think there is any other way. Okay, never mind
+
+302
+00:42:05.380 --> 00:42:13.779
+Stephen Curran: And then and then we need a community cord. They need to update transition unqualified bids to pier 3 across the community.
+
+303
+00:42:14.350 --> 00:42:17.670
+Stephen Curran: Oh, sorry. Part 2,
+
+304
+00:42:18.240 --> 00:42:24.749
+Stephen Curran: The community coordinated update is at this part that we we start to move to. Pierre did 2 and 3.
+
+305
+00:42:25.570 --> 00:42:26.470
+Stephen Curran: Andrew.
+
+306
+00:42:27.730 --> 00:42:35.119
+Andrew Whitehead: yeah, isn't this? Did peer 2 and 3 stuff only a concern when we switch to did come to
+
+307
+00:42:36.040 --> 00:42:43.649
+Andrew Whitehead: for wanting to do something in the old protocol. It's going to be required then. But we should. We should have done this a year ago.
+
+308
+00:42:43.770 --> 00:42:44.450
+Stephen Curran: Yeah.
+
+309
+00:42:44.600 --> 00:42:48.040
+Sam Curren (TelegramSam): so it's not just a concern. It's just a requirement there.
+
+310
+00:42:51.870 --> 00:42:54.099
+Andrew Whitehead: okay.
+
+311
+00:42:54.400 --> 00:42:55.950
+Andrew Whitehead: But
+
+312
+00:42:56.620 --> 00:43:01.629
+Andrew Whitehead: like in the connections and did exchange protocols, we're sending the whole. Did document.
+
+313
+00:43:02.680 --> 00:43:06.980
+Andrew Whitehead: I think we can just send a did string in there.
+
+314
+00:43:09.460 --> 00:43:10.250
+Andrew Whitehead: but
+
+315
+00:43:14.830 --> 00:43:15.740
+Andrew Whitehead: I don't know.
+
+316
+00:43:17.130 --> 00:43:22.619
+Andrew Whitehead: I think we can make it work. but it it seems a bit disruptive to update those 2,
+
+317
+00:43:24.030 --> 00:43:25.930
+Andrew Whitehead: those.
+
+318
+00:43:27.850 --> 00:43:28.670
+Andrew Whitehead: Sorry.
+
+319
+00:43:28.910 --> 00:43:34.129
+Stephen Curran: Sorry you you think, until we go to dip here, did come to. We don't need to do this.
+
+320
+00:43:36.340 --> 00:43:45.310
+Andrew Whitehead: Well. at the moment we are, we're switching to this. Did peer one support, and
+
+321
+00:43:46.650 --> 00:43:55.669
+Andrew Whitehead: did exchange. And I I think we're just targeting compatibility with with. So I guess it depends what they're doing.
+
+322
+00:43:55.710 --> 00:43:58.509
+Andrew Whitehead: They actually pioneered this.
+
+323
+00:43:59.210 --> 00:44:05.269
+Sam Curren (TelegramSam): They've already got mostly written code. it needs to be made a little bit more canonical. And then they've
+
+324
+00:44:05.310 --> 00:44:14.269
+Sam Curren (TelegramSam): They're going to document their approach. for the the transition. So it did peer. It is not canonicalized in the sense that it is
+
+325
+00:44:15.810 --> 00:44:35.480
+Sam Curren (TelegramSam): that it is, reliably created in order every time. And so you have to impose a little bit like it allows you to specify things in various orders, and so that the the the community coordinated update will specify the exact order that you that you use to construct it did peer to when when we're doing this transition. So this is definitely an approach that it's been pioneered by Aj.
+
+326
+00:44:36.250 --> 00:44:37.130
+Andrew Whitehead: okay.
+
+327
+00:44:37.890 --> 00:44:38.580
+Stephen Curran: okay?
+
+328
+00:44:41.400 --> 00:44:48.490
+Stephen Curran:  transitioning unqualified kids to did pier 3, the goal is to convert
+
+329
+00:44:48.610 --> 00:44:52.750
+existing unqualified dids to be? Did pier 3 dids?
+
+330
+00:44:52.960 --> 00:45:05.910
+Stephen Curran: And I, I put a question which is kind of like Andrew was asking, you know, is it useful. Do we need to do this? Or do we just continue to support unqualified did when we get them, and eventually don't send any any more. But anyway.
+
+331
+00:45:06.150 --> 00:45:20.100
+Stephen Curran: if we did want to actually convert them from unqualified to qualified I believe what we can do is we already send a did Doc from acupy, so that would mean both parties have the did dock
+
+332
+00:45:20.470 --> 00:45:32.429
+Stephen Curran: Both parties would then be able to convert that into or to generate from that it did pier 2, because that is very formally defined. Exactly how you would do that.
+
+333
+00:45:32.540 --> 00:45:38.049
+Stephen Curran: And if that's true, then we can just derive it. Did pier 3 from the did pier 2.
+
+334
+00:45:38.330 --> 00:45:40.450
+Stephen Curran: So that's the idea for that.
+
+335
+00:45:40.710 --> 00:45:47.219
+Stephen Curran: And with that we would be able to convert all all unqualified did come here, did's to did. Pier 3.
+
+336
+00:45:48.390 --> 00:45:49.810
+Sam Curren (TelegramSam): I got a question. Stephen.
+
+337
+00:45:49.840 --> 00:45:59.150
+Sam Curren (TelegramSam): yeah. So in my mind, we have 2 options. We can either do the community cord and a coordinated update just to did pier 2.
+
+338
+00:45:59.180 --> 00:46:03.880
+Stephen Curran: Yeah, because that gets us out of the unqualified land that we really need to escape from
+
+339
+00:46:04.020 --> 00:46:20.269
+Sam Curren (TelegramSam): 3 is a nice optimization. I was unsure about whether we should community coordinated, update all the way to did pier 3 for for that, or whether we should stop at a 2 and then allow the existing mechanisms to detect support for 3,
+
+340
+00:46:20.330 --> 00:46:26.809
+Stephen Curran: since we need new code for 2. Anyway, I think we should just assume everyone is going to implement 2 and 3 together.
+
+341
+00:46:28.900 --> 00:46:30.049
+Stephen Curran: That would be my
+
+342
+00:46:30.160 --> 00:46:45.569
+Sam Curren (TelegramSam): my suggestion. This is this is a good conversation for the larger community call. But yeah, yeah, I mean, there's been an open thing in my mind is we don't technically have to go to 3. But do we want to like leverage? The effort, anyway, to make that happen. That was my thought is, we should
+
+343
+00:46:46.470 --> 00:46:56.810
+Stephen Curran: It does mean that we need some sort of within occupy or any framework. Some sort of idea of having a synonym
+
+344
+00:46:57.870 --> 00:47:10.770
+Stephen Curran: for did. So that if a did pier 2 comes in, we find the connection. If it did pier 3 comes in, we find the same connection. So we do have to have this idea that that
+
+345
+00:47:11.110 --> 00:47:15.400
+Stephen Curran: this concept that the dids used in a connection can have synonyms
+
+346
+00:47:15.750 --> 00:47:25.840
+Stephen Curran: and and resolved to the same one when searched for. So that's an interesting side issue that would have to be supported when we have.
+
+347
+00:47:26.010 --> 00:47:36.770
+Stephen Curran: And and but I think it's necessary as well, because if we want to support, you know unqualified dids. And you know they did pier 2 version of that
+
+348
+00:47:36.980 --> 00:47:42.319
+Stephen Curran: again, we've got a support synonym. So I think that's a concept we're going to have to have, anyway.
+
+349
+00:47:45.900 --> 00:47:50.250
+Stephen Curran:  so with that,
+
+350
+00:47:51.150 --> 00:48:01.139
+Stephen Curran: BC, Gov, CSIRO is. Gonna take a look at this, take a look at the existing Pr, and look at what it would take to convert to that. Did pier 2 and 3.
+
+351
+00:48:01.220 --> 00:48:04.340
+Stephen Curran: And again, just for that same comment, Sam of.
+
+352
+00:48:04.730 --> 00:48:07.920
+Stephen Curran: we're going to do 2. Then we might as well do 3.
+
+353
+00:48:07.960 --> 00:48:22.490
+Stephen Curran: This idea of supporting synonym did so that when you get a message in and it's got a did different, it could have different dids pointing to the same connection. be able to support that.
+
+354
+00:48:23.070 --> 00:48:24.130
+Stephen Curran: And then.
+
+355
+00:48:24.270 --> 00:48:39.940
+Stephen Curran: if if my theory, which is still a theory, is that we can actually do a of a canonical conversion of it, unqualified bids to did peer they. I did pair 3.
+
+356
+00:48:41.480 --> 00:48:47.440
+Stephen Curran: So that's the work that we're planning on doing in the short while.
+
+357
+00:48:47.690 --> 00:48:53.999
+Stephen Curran: and then is there. There is still not a community cord in the update. Rfc, out there, Sam.
+
+358
+00:48:54.780 --> 00:49:03.780
+Sam Curren (TelegramSam): I don't believe so. The animal agreed to write that, given their experience with the with the code and the method, they pioneered. So I haven't checked yet. Today
+
+359
+00:49:03.940 --> 00:49:14.209
+Stephen Curran: I'll check on with them. And and it's possibility now that I've got the the vacation in the workshop past me that maybe I could do it right up on that. I don't think it would take long
+
+360
+00:49:16.650 --> 00:49:19.449
+Stephen Curran: comments, questions from anyone.
+
+361
+00:49:23.250 --> 00:49:34.979
+Daniel Bluhm: So a a quick second comment, I don't know how have deep. We need to go on this right now, but just thinking out that for a second I think it did come be one. We tend to rely more heavily on the vertex
+
+362
+00:49:35.290 --> 00:49:45.859
+Daniel Bluhm: of the dids, anyways, so in in supporting making that transition from unqualified did to period 2 and 3
+
+363
+00:49:46.710 --> 00:49:52.229
+Daniel Bluhm: like. When we look up connections, for instance, we're looking them up by the keys that encrypt all the messages that we received.
+
+364
+00:49:52.250 --> 00:50:07.649
+Daniel Bluhm: Okay, so there there might be, I'm sure there's going to be fun stuff to figure out in there still. But maybe that realization helps point us in the right direction. the other comment I had. And maybe this is a bit of a controversial take but
+
+365
+00:50:08.100 --> 00:50:14.789
+Daniel Bluhm:  a. And this could just be my perception as well. I don't know but
+
+366
+00:50:14.910 --> 00:50:31.519
+Daniel Bluhm: I I get the feeling that a lot of our emphasis on backwards. Compatibility within occupy has encouraged the rest of the community to remain in a state where they're using unqualified dates and things like the connection, protocol and stuff. in this process of updating for a dear.
+
+367
+00:50:31.700 --> 00:50:35.180
+Daniel Bluhm: Well, here did 2 and 3,
+
+368
+00:50:35.580 --> 00:50:36.780
+Daniel Bluhm: should we?
+
+369
+00:50:36.860 --> 00:50:44.429
+Stephen Curran: I? I'm wondering if we should be a little bit more willing to break things
+
+370
+00:50:44.520 --> 00:50:47.249
+Daniel Bluhm: and kind of pulling
+
+371
+00:50:47.650 --> 00:51:00.889
+Daniel Bluhm: because of it. Still, to this day we're still very frequently using connections, I think, in the wild today. and that's what I'm using did solve blah blah blah, and you'll create it only one day. And provo
+
+372
+00:51:01.010 --> 00:51:01.930
+Stephen Curran: first.
+
+373
+00:51:02.140 --> 00:51:07.039
+Stephen Curran: you know, message prefix Http did come, I agreed.
+
+374
+00:51:08.540 --> 00:51:14.270
+Stephen Curran: so what I would suggest on that one is
+
+375
+00:51:15.030 --> 00:51:20.359
+Stephen Curran: proposing, you know, once we get to this, this Pr or this community
+
+376
+00:51:20.540 --> 00:51:29.999
+Stephen Curran: like we suggest, okay, what should the breaking change be? We change to 0 9 or 1.0 of acupy what do we
+
+377
+00:51:31.170 --> 00:51:39.530
+Stephen Curran: do for backwards compatibility? Are we willing to accept, but not generate unqualified dids? Was that sufficient?
+
+378
+00:51:41.580 --> 00:51:51.869
+Stephen Curran: Are we requiring that when you upgrade to one or to the next the breaking change that you must convert your existing ones to qualified
+
+379
+00:51:52.050 --> 00:51:53.370
+Stephen Curran: to participate.
+
+380
+00:51:54.130 --> 00:52:04.100
+Stephen Curran: I don't know. We'll have to think about that there's. So there's a there, there's the later phases of the community coordinated update, which are are are weak or or soft by design in the sense that
+
+381
+00:52:04.100 --> 00:52:26.770
+Sam Curren (TelegramSam): removing support for the old is something that is not necessarily co coordinated as a community. but But but everyone is, you know, required to to use the new. Which means that I think that Daniel suggestion can be applied by actually setting at least with an acupy, a deadline for the removing of the old, and that this might be a really good chance
+
+382
+00:52:26.770 --> 00:52:54.629
+Sam Curren (TelegramSam): to do a little bit of clean up there and force folks to to come up to to current. we're we're on a on a relatively quick pace, but if they don't, there's going to be significant problems anyway, and so doing it a little bit early is, I think, a good behavior as a community to avoid more problem. You know, problems that will pile up against the conversion to did comfy to and make that transition even harder.
+
+383
+00:53:02.230 --> 00:53:05.190
+Stephen Curran: Okay. any other comments?
+
+384
+00:53:08.160 --> 00:53:11.950
+Stephen Curran: All right. Well, thanks. Everyone for attending.
+
+385
+00:53:12.640 --> 00:53:16.729
+Stephen Curran: we will be. I will be trying to be
+
+386
+00:53:16.850 --> 00:53:25.139
+Stephen Curran: encouraging the Maintainer to be tracking these Pr that we talked about today. as they
+
+387
+00:53:25.430 --> 00:53:32.480
+Stephen Curran: come up for either re-approval or or just simple, simple merging.
+
+388
+00:53:32.570 --> 00:53:39.639
+Stephen Curran: So please be responsive to that. If if you get assigned to look at a a. A. Pr.
+
+389
+00:53:40.090 --> 00:53:50.240
+Stephen Curran: It would be appreciated if you could, and We'll try to get those done. The next call will probably go through another few of these.
+
+390
+00:53:51.570 --> 00:53:53.480
+Stephen Curran: and we'll see you in a couple of weeks.
+
+391
+00:53:54.680 --> 00:53:55.979
+Stephen Curran: Thanks all for attending.
+
+392
+00:53:57.560 --> 00:53:58.470
+Charles Lanahan: Thanks.
+
+393
+00:53:58.660 --> 00:54:00.299
+Emiliano Suñé: Thank you. Thanks.
+

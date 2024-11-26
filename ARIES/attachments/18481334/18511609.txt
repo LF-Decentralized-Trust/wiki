@@ -1,0 +1,35 @@
+00:04:52	Sam Curren (TelegramSam):	https://wiki.hyperledger.org/display/ARIES/2019-06-05+Aries+Working+Group+Call
+00:06:58	Oliver Terbu:	could you pls share the link to the minutes again?
+00:08:25	Nathan George:	As a developer you call an sdk, where a framework calls you
+00:12:09	Kyle Den Hartog:	https://wiki.hyperledger.org/display/ARIES/2019-06-05+Aries+Working+Group+Call
+00:12:18	Kyle Den Hartog:	This is the doc showing on the screen
+00:12:47	Kyle Den Hartog:	You may need a LF account to login and add your name Oliver. If you want I can add it for you.
+00:15:19	Oliver Terbu:	thx
+00:24:12	Troy Ronda:	So to clarify, are the new aries-sdk-* repos  wrappers (or not) of a rust library?
+00:24:55	Sam Curren (TelegramSam):	Troy: Yes. That rust library will land inside aries-sdk itself.
+00:25:06	Nathan George:	They build on top of the core rust library and basic language wrapper provided “real soon now” by the aries-sdk repo
+00:28:57	Oliver Terbu:	as far as i know, on android that should be possible.
+00:35:40	Drummond Reed:	Nicely presented, Tomislav
+00:36:47	Tomislav Markovski:	Thank you
+00:38:33	Darrell ODonnell:	Agreed - great stuff Tomislav!
+00:41:30	Drummond Reed:	I like it
+00:45:12	Drummond Reed:	Nice
+00:50:25	Kyle Den Hartog:	Gotcha, I hadn’t read that part. That part about adopted messages specifying about a version was what I had in mind.
+00:54:05	Nathan George:	:( the “buy house” protocol for Alice is the “sell house” protocol for Bob
+01:01:42	Darrell ODonnell:	I’ll volunteer to be dissatisfied
+01:02:23	Sam Curren (TelegramSam):	Thanks Darrell
+01:02:30	Darrell ODonnell:	Dissatisfied dictator - I am IN!
+01:02:46	Drummond Reed:	Benevolent dictator, of course :-)
+01:03:01	Steve Magennis:	of course...
+01:04:08	Drummond Reed:	This is killing me, but I must jump to another call. I really wanted to hear the wallet naming discussion. Oh well, I’ll just have to trust the “community”. Be wise, gang :-)
+01:04:31	Troy Ronda:	Another interesting topic is which of the protocol / message families are intended to be more standardized beyond this community (and to show the layering).
+01:04:40	Drummond Reed:	+1
+01:05:09	Drummond Reed:	Planning for protocol evolution—but not overplanning for it—will be important
+01:10:41	Michael Lodder:	https://tools.ietf.org/html/draft-multiformats-multibase-01
+01:11:37	jonnycrunch:	+1 to multiformats
+01:13:14	Steve McCown:	Ditto on the multibase data format
+01:13:42	Nathan George:	+1 please give us homework and things we should read to understand early and ask better questions on the call
+01:17:13	Oliver Terbu:	will do
+01:21:10	Troy Ronda:	“Hello”, “Handshake”?
+01:22:07	Steve McCown:	DID Handshake Protocol?  DID Exchange Protocol?
+01:22:50	Daniel Bluhm:	+1 for DID Exchange

@@ -1,0 +1,23 @@
+15:10:28	 From Timo Glastra : Will mediation still support non-oob invitations?
+15:11:04	 From Timo Glastra : I'm not a fan of exposing these methods on the agent
+15:24:36	 From James Ebert : +1 to Timo’s ideas here
+15:40:27	 From Timo Glastra : Example invitation:
+15:40:28	 From Timo Glastra : {
+    "@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/out-of-band/1.0/invitation",
+    "@id": "b0020b4b-d9bf-4fe4-bfca-93d8cbeac2a2",
+    "services": [
+      {
+        "id": "#inline",
+        "type": "did-communication",
+        "recipientKeys": [
+          "did:key:z6MkrCa8pm2bfJYb1xJSStDNPP4Q6sJ5A4Rf16KxzWzKFu2v"
+        ],
+        "serviceEndpoint": "https://didcomm.agent.community.animo.id"
+      }
+    ],
+    "label": "Animo Community Agent",
+    "handshake_protocols": [
+      "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0"
+    ]
+  }
+15:42:21	 From Timo Glastra : to get verkey from did key `DidKey.fromDid(didKey).publicKeyBase58`

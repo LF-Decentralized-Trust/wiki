@@ -1,0 +1,1238 @@
+WEBVTT
+
+1
+00:00:14.610 --> 00:00:18.510
+Tracy Kuhrt: Welcome to the July 21 hyper ledger technical steering committee call.
+
+2
+00:00:19.620 --> 00:00:27.360
+Tracy Kuhrt: As you're all aware, two things that we must abide by the first is the address policy notice and is currently being displayed on the screen.
+
+3
+00:00:27.930 --> 00:00:39.840
+Tracy Kuhrt: And the second is our code of conduct which is like in the agenda as far as announcements go, we have the standard announcements, the weekly developer newsletter goes out each Friday.
+
+4
+00:00:40.350 --> 00:00:57.360
+Tracy Kuhrt: If you have something that you want to include in that newsletter please leave a comment on the wiki page that's link in the agenda and glad to have ledger developers any other announcements that anybody has or would like to make.
+
+5
+00:01:09.780 --> 00:01:24.720
+Tracy Kuhrt: Okay, no announcements, so as far as quarterly reports we don't have any do this week I did provide a link for you to check any open task for previous reports in case there were any that you haven't had a chance to review yet.
+
+6
+00:01:25.860 --> 00:01:35.730
+Tracy Kuhrt: The hyper ledger transact report is due next Thursday, so we may or may not get that before the meeting next week, but we'll.
+
+7
+00:01:36.450 --> 00:01:48.090
+Tracy Kuhrt: Obviously cover that next week, I did not have any specific tlc business to discuss this week, but please if anybody else has something that we should be discussing now's the time to speak up.
+
+8
+00:01:50.790 --> 00:02:00.390
+Ry Jones: If I just wanted to quickly mention that I wrote a process that checks, a bunch of our Repo for things and I found that there are.
+
+9
+00:02:01.740 --> 00:02:04.920
+Ry Jones: 50 something repos they don't have a maintainer file.
+
+10
+00:02:06.390 --> 00:02:12.750
+Ry Jones: So I plan on reaching out to those projects and asking them to add them, even if it's just a redirect so.
+
+11
+00:02:14.370 --> 00:02:16.500
+Tracy Kuhrt: Okay, great thanks right well.
+
+12
+00:02:17.730 --> 00:02:23.490
+Hart Montgomery: hey Tracy thanks, so we had a brief legal review over charter language.
+
+13
+00:02:25.500 --> 00:02:26.070
+Hart Montgomery: yesterday.
+
+14
+00:02:27.210 --> 00:02:27.930
+Hart Montgomery: While.
+
+15
+00:02:29.370 --> 00:02:37.320
+Hart Montgomery: While the essence of what we wanted to capture in the Charter and the overall plan is fine, it looks like some more of our language is going to have to be modified.
+
+16
+00:02:38.430 --> 00:02:45.660
+Hart Montgomery: So, unfortunately, this is still going to be an ongoing process and we will keep everyone posted on this.
+
+17
+00:02:47.370 --> 00:02:57.210
+Tracy Kuhrt: Okay, thanks, and we did review that just the overall essence of what it is that we wanted to change with the Governing Board on Monday and there were no.
+
+18
+00:02:57.960 --> 00:03:11.160
+Tracy Kuhrt: sort of concerns, so I guess next stage heart is to finish up the legal review and any sort of wording and then take that back to the governing board for their vote is that still correct next steps.
+
+19
+00:03:11.370 --> 00:03:26.730
+Hart Montgomery: that's exactly right, we just need to get everything polished up well apparently our Charter is now on the older side of charters in the Linux foundation, and there has been some desired updates.
+
+20
+00:03:27.960 --> 00:03:35.880
+Hart Montgomery: Again, not changing anything about how things actually work or the essence of the Charter, but just the terms themselves so.
+
+21
+00:03:38.700 --> 00:03:38.940
+Tracy Kuhrt: Great.
+
+22
+00:03:40.170 --> 00:03:44.160
+Tracy Kuhrt: we'll look forward to seeing that when it's ready any other.
+
+23
+00:03:44.220 --> 00:03:48.720
+Tracy Kuhrt: TC discussion items before we move on to the task force discussion.
+
+24
+00:03:55.980 --> 00:04:03.840
+Tracy Kuhrt: Okay i'm not seeing anybody come off mute or any hands so Jim I think it is over to you to talk about the project health Task Force.
+
+25
+00:04:05.490 --> 00:04:09.390
+Jim Zhang: yeah thanks Tracy me share the screen.
+
+26
+00:04:10.620 --> 00:04:11.310
+Jim Zhang: Okay.
+
+27
+00:04:13.050 --> 00:04:15.150
+Jim Zhang: So I I did some.
+
+28
+00:04:18.510 --> 00:04:43.020
+Jim Zhang: For work from the discussions we had in the last call that we talked about this and I I feel like we're at a pretty good place in terms of recognizing the different types of data that needs to be collected to accurately reflect the health of a project and where they will come from.
+
+29
+00:04:44.910 --> 00:04:50.790
+Jim Zhang: I think I feel like the next step is figuring out what we do.
+
+30
+00:04:52.470 --> 00:04:55.920
+Jim Zhang: And what are the things we should look at first.
+
+31
+00:04:56.940 --> 00:05:02.310
+Jim Zhang: To get things to get things going to get data actually collected.
+
+32
+00:05:03.990 --> 00:05:09.300
+Jim Zhang: To that end I categorized the stuff that.
+
+33
+00:05:10.590 --> 00:05:13.620
+Jim Zhang: We listed in this column the supporting data column.
+
+34
+00:05:15.060 --> 00:05:17.250
+Jim Zhang: into it, two different ways.
+
+35
+00:05:18.660 --> 00:05:24.660
+Jim Zhang: One is under this bullet list in three categories, what are the things that are.
+
+36
+00:05:26.100 --> 00:05:34.860
+Jim Zhang: Quote unquote easily collected with API calls because they came from a developer friendly platform like github or discord.
+
+37
+00:05:35.670 --> 00:05:59.970
+Jim Zhang: What are the things that don't really exist and behind any API so we have to manually collect them and the third category is they, they don't necessarily exist anywhere, even in digital form they pretty much existing people's minds, so we have to think about ways to to pull those out.
+
+38
+00:06:01.200 --> 00:06:14.220
+Jim Zhang: Using you know surveys, for example, is just one one measure that I can think of, so we have to ask people for for this kind of information so.
+
+39
+00:06:15.420 --> 00:06:23.340
+Jim Zhang: As you can see it's pretty straightforward the github and discord information can be can be pulled from API calls.
+
+40
+00:06:24.870 --> 00:06:33.060
+Jim Zhang: will talk about separately, who, who we contact, or you know who do we work with to.
+
+41
+00:06:34.170 --> 00:06:35.970
+Jim Zhang: make those API calls happened.
+
+42
+00:06:38.670 --> 00:06:41.730
+Jim Zhang: In the second category, we need.
+
+43
+00:06:42.390 --> 00:06:56.970
+Jim Zhang: people to go to these different places, they may be in documentation section of a project, they may be in wiki pages or meetup.
+
+44
+00:06:58.080 --> 00:07:01.770
+Jim Zhang: in various places and just collect them manually.
+
+45
+00:07:04.500 --> 00:07:11.100
+Jim Zhang: But there is also a third category where we should maybe work with the marketing team.
+
+46
+00:07:12.270 --> 00:07:20.520
+Jim Zhang: To think about can we create can we create surveys or polls to ask people about about face.
+
+47
+00:07:24.180 --> 00:07:32.700
+Jim Zhang: I won't go through each of these bullets individually, but are there any questions or comments or feedback on on this part.
+
+48
+00:07:41.250 --> 00:07:42.810
+Jim Zhang: I guess, especially.
+
+49
+00:07:44.850 --> 00:07:48.000
+Jim Zhang: In the third category, besides surveys.
+
+50
+00:07:50.220 --> 00:08:07.050
+Jim Zhang: Do we think there are other means to collect this type of information, for example, how do we know if a Community a project is actively effectively involving the Community to define a roadmap.
+
+51
+00:08:09.960 --> 00:08:16.950
+Jim Zhang: may just have to ask the participants of that community that are that are not competitors.
+
+52
+00:08:18.120 --> 00:08:26.940
+Jim Zhang: To ask them how do they feel right, how do they feel do they do, they feel they are being included.
+
+53
+00:08:28.200 --> 00:08:29.460
+Jim Zhang: In defining the roadmap.
+
+54
+00:08:31.410 --> 00:08:39.390
+Jim Zhang: I don't think there's any objective data that exists anywhere what tell the story.
+
+55
+00:08:41.490 --> 00:08:47.970
+Jim Zhang: The second bullet about can new ideas be accommodated similar to the first one.
+
+56
+00:08:49.020 --> 00:08:54.210
+Jim Zhang: Basically, are outside voices being respected and.
+
+57
+00:08:56.910 --> 00:09:02.580
+Jim Zhang: that's it's pretty subjective that we may have just actively ask people about.
+
+58
+00:09:05.220 --> 00:09:09.330
+Jim Zhang: So all of these are in this kind of category.
+
+59
+00:09:13.470 --> 00:09:17.100
+Jim Zhang: Creating polls and surveys, is the only.
+
+60
+00:09:20.220 --> 00:09:21.000
+Jim Zhang: way.
+
+61
+00:09:22.320 --> 00:09:26.250
+Jim Zhang: To create this or do we have other other ways to do this.
+
+62
+00:09:27.300 --> 00:09:30.270
+Jim Zhang: Maybe I don't know I don't know if.
+
+63
+00:09:31.710 --> 00:09:34.410
+Jim Zhang: folks have ideas to contribute here.
+
+64
+00:09:36.660 --> 00:09:42.480
+Tracy Kuhrt: So, Jim I I think you used an interesting word when you use the word subjective.
+
+65
+00:09:43.920 --> 00:09:45.870
+Tracy Kuhrt: You know I, I think that.
+
+66
+00:09:46.950 --> 00:09:55.020
+Tracy Kuhrt: The challenge when it comes to measuring project health based on subjective type of.
+
+67
+00:09:56.250 --> 00:10:01.440
+Tracy Kuhrt: Criteria versus objective type of criteria is going to be very challenging.
+
+68
+00:10:03.060 --> 00:10:18.060
+Tracy Kuhrt: Right from the perspective of you may think people respond to you very quickly, I may think that people don't respond to me very quickly for project right and what What is the difference between you and me, in that case or.
+
+69
+00:10:19.140 --> 00:10:28.860
+Tracy Kuhrt: Maybe it's the question that's the problem right it's not the individual I just I think there's a whole lot of challenges that come into play there.
+
+70
+00:10:29.310 --> 00:10:43.110
+Tracy Kuhrt: So I think we need to be careful about criteria that might be considered subjective for measuring project health, although, in some cases, the.
+
+71
+00:10:44.280 --> 00:10:55.380
+Tracy Kuhrt: feeling that somebody gets when they tried to enter any community is so much more important than anything else right do they feel like they're welcome.
+
+72
+00:10:56.130 --> 00:11:05.100
+Tracy Kuhrt: When they join a Community call or they immediately welcome, even if there's somebody who's never been on that call before they got welcome.
+
+73
+00:11:05.430 --> 00:11:17.130
+Tracy Kuhrt: that's going to have a big impact as far as whether or not somebody decides to stay in that Community right or whether or not they decided to go and so.
+
+74
+00:11:19.140 --> 00:11:34.980
+Tracy Kuhrt: it's I think this is the the important part to being a welcoming community is how how how much people feel like they belong to that Community and.
+
+75
+00:11:35.970 --> 00:11:53.130
+Tracy Kuhrt: are welcomed in that Community so I don't know that that's a that leads us anywhere, but I think it's something that we need to really consider with this particular task force of measuring project health versus measuring the.
+
+76
+00:11:55.350 --> 00:11:58.200
+Tracy Kuhrt: The desire for people to stay once they've joined.
+
+77
+00:12:00.360 --> 00:12:05.880
+Jim Zhang: yeah very much agree with with the comment Tracy that.
+
+78
+00:12:06.960 --> 00:12:08.460
+Jim Zhang: This category.
+
+79
+00:12:09.690 --> 00:12:16.320
+Jim Zhang: touches on the more softy side of things, which is still very important.
+
+80
+00:12:17.820 --> 00:12:38.250
+Jim Zhang: It can be expressed in multiple different ways it's very hard to measure with data how welcoming you know the tone of voice the presenters are during the Community calls when people raise a question how are they treated today to welcome respected.
+
+81
+00:12:39.540 --> 00:12:50.070
+Jim Zhang: So I I I chose the word subjective because that's definitely from each individual's point of view is subjective.
+
+82
+00:12:51.270 --> 00:13:05.190
+Jim Zhang: subjective feeling, more than anything else, and I do agree that it's a pretty important part in people's decision should I continue to engage with this project or not.
+
+83
+00:13:06.480 --> 00:13:19.440
+Jim Zhang: because every time I said something it's either neglected or shut down, you know why would I waste my time because i'm not making any any impact.
+
+84
+00:13:20.760 --> 00:13:26.190
+Jim Zhang: versus my first question, you know, led to a.
+
+85
+00:13:27.420 --> 00:13:43.620
+Jim Zhang: Great discussion that that ended up being a feature that lands in the next release that's you know that's a great way to engage people and it's hard to collect data along that along that process to say.
+
+86
+00:13:45.630 --> 00:13:52.110
+Jim Zhang: This is what the the project team is doing right, you have to you have to ask.
+
+87
+00:13:53.430 --> 00:14:08.400
+Jim Zhang: So I think the the third category is probably the most challenging part, but it could also be very straightforward, because we know how to create pose we know how to design the right questions, we just need to decide if if that's.
+
+88
+00:14:09.690 --> 00:14:11.190
+Jim Zhang: Something we want to do.
+
+89
+00:14:15.180 --> 00:14:16.080
+Tracy Kuhrt: He has his hand up.
+
+90
+00:14:18.180 --> 00:14:20.610
+Jim Zhang: Go ahead right Thank you.
+
+91
+00:14:21.090 --> 00:14:30.300
+Arun S M: Gentlemen Tracy so I believe the topic that we're discussing kind of ties back to being responsive and in the Community, so that people feel welcome about it.
+
+92
+00:14:31.710 --> 00:14:41.160
+Arun S M: So very, very similar topic that ties back probably ties to both of these roles right, for instance, how friendly a particular project days and then.
+
+93
+00:14:41.550 --> 00:14:52.950
+Arun S M: What other alternatives to we have, and apart from surveys, so this also came up in our security process Task Force and then Tracy I saw your replies as well i'll try to address them.
+
+94
+00:14:54.480 --> 00:15:02.460
+Arun S M: Was that some of these issues that are reported through these tools that are again linked to hyper ledger foundation right for.
+
+95
+00:15:04.440 --> 00:15:12.180
+Arun S M: Where, for instance, the security issues are reported, we need a mechanism to address them in time if that's not done then.
+
+96
+00:15:13.770 --> 00:15:25.890
+Arun S M: When I say address it should at least be a reply, saying that hate your effort is considered and we are in process of evaluating right so when such an response would matter towards.
+
+97
+00:15:27.660 --> 00:15:40.770
+Arun S M: So these external tools that we currently have I guess that's the security reporting tool that we can consider, for now, but there could be other tools which i'm not aware of could also play a role.
+
+98
+00:15:45.510 --> 00:15:45.900
+Jim Zhang: yeah I.
+
+99
+00:15:46.740 --> 00:15:51.510
+Jim Zhang: agree with that So besides the discussions that happen on.
+
+100
+00:15:53.190 --> 00:16:02.190
+Jim Zhang: hyper ledger properties, you know the Community cars and whatnot those actionable tools should also be considered yeah thanks for that input around.
+
+101
+00:16:07.920 --> 00:16:19.950
+Jim Zhang: cool um if there's no other feedback for now, maybe we can continue the second thing I did was for each of the items I listed them.
+
+102
+00:16:22.410 --> 00:16:30.360
+Jim Zhang: with different color trying to decide what are the things we can start doing in the first face to collect them.
+
+103
+00:16:31.980 --> 00:16:39.570
+Jim Zhang: So green means easy blue means low harder and red means very hard.
+
+104
+00:16:40.920 --> 00:16:44.250
+Jim Zhang: So if we can agree on.
+
+105
+00:16:46.170 --> 00:16:53.520
+Jim Zhang: The list of green items, then we can think about doing them so.
+
+106
+00:16:55.590 --> 00:17:12.660
+Jim Zhang: I guess I don't know what's the best way to run through that maybe just give folks a few minutes to look at this list and see if the coloring makes sense, and we should and then i'd like to.
+
+107
+00:17:14.340 --> 00:17:15.810
+Jim Zhang: start talking about.
+
+108
+00:17:17.670 --> 00:17:22.290
+Jim Zhang: How do we, how do we go about collecting them who do we talk to.
+
+109
+00:17:33.870 --> 00:17:40.170
+Jim Zhang: So folks please maybe take one minute or two just.
+
+110
+00:17:41.700 --> 00:17:48.930
+Jim Zhang: Take a look and see if any jumps out at you that's miss colored and we can talk about those and then we'll move on to.
+
+111
+00:17:50.280 --> 00:17:51.330
+Jim Zhang: To the how part.
+
+112
+00:17:56.310 --> 00:18:02.910
+Tracy Kuhrt: So, Jim under diversity, the first bullet, the number of organizations, contributing to the code base and roadmap.
+
+113
+00:18:04.590 --> 00:18:06.360
+Tracy Kuhrt: Right you send out a link.
+
+114
+00:18:07.500 --> 00:18:11.220
+Tracy Kuhrt: Recently, to a tool that collect some data.
+
+115
+00:18:13.590 --> 00:18:20.100
+Tracy Kuhrt: I forget what the tool is called but I had a look at that and they did have organizational data.
+
+116
+00:18:21.210 --> 00:18:24.330
+Tracy Kuhrt: associated with that and i'm wondering if.
+
+117
+00:18:25.800 --> 00:18:33.450
+Tracy Kuhrt: They can get that information if we could also get that information in some way, shape or form and maybe that's a green instead of a blue.
+
+118
+00:18:36.330 --> 00:18:38.370
+Ry Jones: Are you talking about the ght thing.
+
+119
+00:18:38.850 --> 00:18:43.020
+Tracy Kuhrt: No, no, no, the external tool see if I can find it.
+
+120
+00:18:44.610 --> 00:18:45.510
+Tracy Kuhrt: On discord.
+
+121
+00:18:46.620 --> 00:18:47.100
+Ry Jones: The.
+
+122
+00:18:49.440 --> 00:18:50.790
+Ry Jones: Open something that I oh.
+
+123
+00:18:51.660 --> 00:18:53.040
+Tracy Kuhrt: yeah okay.
+
+124
+00:18:53.880 --> 00:18:54.360
+yeah.
+
+125
+00:18:56.220 --> 00:19:00.870
+Ry Jones: i'll i'll go link and drop it in the tlc chat.
+
+126
+00:19:03.060 --> 00:19:11.340
+Jim Zhang: Is that a tools tells us the organization behind each of the github handles.
+
+127
+00:19:11.820 --> 00:19:14.370
+Tracy Kuhrt: it's oasis insight that I oh.
+
+128
+00:19:15.780 --> 00:19:20.730
+Tracy Kuhrt: it's what it is, I found it right when he said open, I was able to search.
+
+129
+00:19:22.590 --> 00:19:32.010
+Tracy Kuhrt: And you can specify a repository and it gives you a lot of data on on a particular repository.
+
+130
+00:19:42.030 --> 00:19:42.390
+Tracy Kuhrt: link.
+
+131
+00:19:42.660 --> 00:19:44.250
+Ry Jones: yeah I also.
+
+132
+00:19:45.150 --> 00:19:46.140
+Ry Jones: did a thing about.
+
+133
+00:19:47.820 --> 00:19:48.960
+Ry Jones: I added a.
+
+134
+00:19:52.320 --> 00:19:53.790
+Ry Jones: thing for hyper ledger as well.
+
+135
+00:19:59.640 --> 00:20:02.760
+Tracy Kuhrt: Okay, I put a link in the.
+
+136
+00:20:04.470 --> 00:20:18.960
+Tracy Kuhrt: In the discord channel for today's meeting so people would like to take a look at it, I think there's some really interesting information in that you'd found there right and so to be to be something that is as we go forward.
+
+137
+00:20:22.500 --> 00:20:24.240
+Jim Zhang: cool that's that's great.
+
+138
+00:20:30.120 --> 00:20:31.920
+Jim Zhang: thanks for that input Tracy.
+
+139
+00:20:34.740 --> 00:20:35.460
+Jim Zhang: scare folks.
+
+140
+00:20:36.480 --> 00:20:37.530
+Jim Zhang: To run down the list.
+
+141
+00:21:04.950 --> 00:21:05.190
+Jim Zhang: Oh.
+
+142
+00:21:21.690 --> 00:21:34.290
+Ry Jones: I also I created i've posted a link to the hyper ledger collection and I also create a collections for a zoo and fabric and I will post a link to the fabric one as well.
+
+143
+00:22:09.030 --> 00:22:11.100
+Jim Zhang: Okay, so.
+
+144
+00:22:12.240 --> 00:22:18.000
+Jim Zhang: let's talk about how to go about collecting them, the first obvious.
+
+145
+00:22:19.710 --> 00:22:23.160
+Jim Zhang: place is get up api's.
+
+146
+00:22:26.070 --> 00:22:30.720
+Jim Zhang: A lot of us are developers, we know those api's and we know you can make a lot of.
+
+147
+00:22:32.880 --> 00:22:37.740
+Jim Zhang: composite API calls and process data right some simple programs.
+
+148
+00:22:39.900 --> 00:22:41.700
+Jim Zhang: The same for this Court.
+
+149
+00:22:44.040 --> 00:22:49.560
+Jim Zhang: api's I guess the main question is who would be doing this kind of thing.
+
+150
+00:22:55.740 --> 00:23:01.710
+Jim Zhang: I know I can do it, but I know a lot of people on the call can do it, but we don't really.
+
+151
+00:23:03.210 --> 00:23:13.080
+Jim Zhang: have the time or the resources necessary to make this a mission for ourselves, personally I don't know if.
+
+152
+00:23:14.250 --> 00:23:18.720
+Jim Zhang: hyper ledger has the resource for doing this kind of thing i'm i'm completely.
+
+153
+00:23:20.280 --> 00:23:21.750
+Jim Zhang: Asking for your opinions.
+
+154
+00:23:23.640 --> 00:23:26.460
+Ry Jones: If it's something that we can automate then.
+
+155
+00:23:28.530 --> 00:23:31.770
+Ry Jones: preferably by github action than the answer is yes.
+
+156
+00:23:34.680 --> 00:23:36.510
+Ry Jones: If it's something that we can add to.
+
+157
+00:23:37.920 --> 00:23:40.170
+Ry Jones: The effects, the answer is maybe.
+
+158
+00:23:41.700 --> 00:23:43.260
+Jim Zhang: what's the second one.
+
+159
+00:23:45.690 --> 00:23:48.270
+Ry Jones: insights fx insights.
+
+160
+00:23:48.570 --> 00:23:54.150
+Ry Jones: gotcha it's undergoing a lot of change right now I can't even add like new projects.
+
+161
+00:23:56.610 --> 00:24:00.480
+Ry Jones: To it once they get the new version public then.
+
+162
+00:24:01.620 --> 00:24:02.760
+Ry Jones: i'll see what we can get.
+
+163
+00:24:05.910 --> 00:24:06.030
+Oh.
+
+164
+00:24:08.280 --> 00:24:09.720
+Jim Zhang: yeah please.
+
+165
+00:24:10.530 --> 00:24:15.570
+Hart Montgomery: yeah, I just wanted to second right here that in the long run, I think a lot of this stuff is a great.
+
+166
+00:24:16.800 --> 00:24:21.630
+Hart Montgomery: You know it's great suggestion for what else fx should include.
+
+167
+00:24:23.730 --> 00:24:30.150
+Hart Montgomery: So you know if some people from the Community, want to go talk to the fx folks.
+
+168
+00:24:31.230 --> 00:24:49.110
+Hart Montgomery: At some point, I think that'd be a fantastic thing I think they would be interested in hearing from you all, and you know it might be a way to push things that you know we want into you know places that would actually benefit everyone at the Linux foundation.
+
+169
+00:24:50.190 --> 00:25:02.010
+Hart Montgomery: As Ray correctly pointed out these folks are extremely busy, and behind right now, so this is again a longer run thing than a shorter run, but you know it's something we should definitely consider.
+
+170
+00:25:06.660 --> 00:25:07.440
+Jim Zhang: sounds good.
+
+171
+00:25:08.640 --> 00:25:15.330
+Jim Zhang: So if we want to talk to the l ex teammates I guess it will be.
+
+172
+00:25:16.380 --> 00:25:22.110
+Jim Zhang: Just me and Ryan getting a call with them is that as simple as it is that.
+
+173
+00:25:24.630 --> 00:25:25.650
+Ry Jones: yeah.
+
+174
+00:25:28.620 --> 00:25:29.670
+Ry Jones: We can set that up.
+
+175
+00:25:30.630 --> 00:25:31.110
+Okay.
+
+176
+00:25:33.240 --> 00:25:34.200
+Jim Zhang: sounds good.
+
+177
+00:25:36.990 --> 00:25:42.420
+Jim Zhang: So I heard can help actions, this would be.
+
+178
+00:25:43.530 --> 00:25:51.060
+Jim Zhang: Asking each project team to set this up in the repositories or This is something that.
+
+179
+00:25:52.110 --> 00:25:57.180
+Jim Zhang: The hyper ledger team can set up in at the org level.
+
+180
+00:25:58.020 --> 00:26:05.490
+Ry Jones: I would prefer to set it up in probably the no not for every project that's just terrible.
+
+181
+00:26:06.900 --> 00:26:10.530
+Ry Jones: I mean it, it would be code for no reason.
+
+182
+00:26:13.320 --> 00:26:16.950
+Ry Jones: i'll find a repo or make a repo where it can park.
+
+183
+00:26:18.930 --> 00:26:19.470
+Jim Zhang: cool.
+
+184
+00:26:27.240 --> 00:26:27.540
+Jim Zhang: Right.
+
+185
+00:26:28.830 --> 00:26:32.910
+Jim Zhang: And did I hear right you volunteer to.
+
+186
+00:26:33.960 --> 00:26:35.160
+Jim Zhang: To look into this.
+
+187
+00:26:36.990 --> 00:26:40.530
+Jim Zhang: I think we can definitely help you know, whereas in terms of.
+
+188
+00:26:41.790 --> 00:26:48.510
+Jim Zhang: Finding the API finding the right endpoints and that sort of thing, but would you be responsible for.
+
+189
+00:26:49.620 --> 00:26:52.560
+Jim Zhang: looking after this this repo and the content in.
+
+190
+00:26:54.630 --> 00:26:55.050
+Jim Zhang: China.
+
+191
+00:26:55.350 --> 00:26:56.430
+Ry Jones: I can.
+
+192
+00:26:58.380 --> 00:27:04.170
+Ry Jones: buy My preference would be that I don't develop it but.
+
+193
+00:27:06.360 --> 00:27:09.630
+Ry Jones: Let me take a stab at i'm already collecting a bunch of this data in other ways.
+
+194
+00:27:10.350 --> 00:27:12.360
+Jim Zhang: yeah I saw those.
+
+195
+00:27:15.960 --> 00:27:16.830
+Ry Jones: So let's just.
+
+196
+00:27:17.850 --> 00:27:18.570
+Ry Jones: Give me.
+
+197
+00:27:20.220 --> 00:27:22.170
+Ry Jones: But let's just say no firm answer at this point.
+
+198
+00:27:23.370 --> 00:27:23.790
+Ry Jones: I mean.
+
+199
+00:27:26.700 --> 00:27:32.250
+Jim Zhang: yeah we probably can ask for help from the Community as well there's a lot of.
+
+200
+00:27:36.570 --> 00:27:42.210
+Jim Zhang: There should be there should be people who are willing to help in this way.
+
+201
+00:27:46.530 --> 00:28:01.620
+Jim Zhang: Okay cool we should get the repository setup and then at least make one or two endpoint cause to to show how things should be implemented, and then we can we can grow from there.
+
+202
+00:28:02.370 --> 00:28:12.480
+Jim Zhang: I think between you and me, we can at least get something going to show as an example, how things should be done, and then over time back and be built up.
+
+203
+00:28:15.420 --> 00:28:17.070
+Jim Zhang: Does that sound okay to you right.
+
+204
+00:28:20.430 --> 00:28:22.770
+Ry Jones: yep are sounds good.
+
+205
+00:28:24.510 --> 00:28:29.190
+Jim Zhang: So that covers the github api's and discord api's.
+
+206
+00:28:33.240 --> 00:28:38.670
+Jim Zhang: And that is majority of the green items.
+
+207
+00:28:40.680 --> 00:28:41.790
+Jim Zhang: Let me think.
+
+208
+00:28:44.730 --> 00:28:51.690
+Jim Zhang: There are also These are the things that are marked as green but not API driven.
+
+209
+00:28:53.700 --> 00:28:55.470
+Jim Zhang: meetups, for example.
+
+210
+00:28:57.150 --> 00:29:01.890
+Jim Zhang: don't know if the meetup platform has any APIs that we can use to say how many.
+
+211
+00:29:04.890 --> 00:29:18.450
+Jim Zhang: meetups were organized by the hyper ledger once do we, how do we even identify the high pleasure ones I don't think there's a single organization that owns all of the meetup groups.
+
+212
+00:29:19.020 --> 00:29:21.300
+Ry Jones: There is, we have a paid meetup account.
+
+213
+00:29:22.230 --> 00:29:23.130
+David Boswell: yeah their ends.
+
+214
+00:29:23.400 --> 00:29:30.300
+David Boswell: And with their beautiful is pretty nice api's as far as I know, i've looked at it, but we haven't really used them but i've looked into it and they do have pretty extensive.
+
+215
+00:29:31.830 --> 00:29:32.280
+Jim Zhang: Okay.
+
+216
+00:29:32.310 --> 00:29:34.860
+Jim Zhang: that's great news I haven't looked at them at all.
+
+217
+00:29:34.890 --> 00:29:46.260
+Jim Zhang: So that's great news, so all the hyper ledger meetup groups in different locations, they all belong to the the High Level hyper ledger more.
+
+218
+00:29:47.040 --> 00:29:54.780
+David Boswell: yeah I mean there may be one or two that are outside the org that just people set up but that's pretty minor yeah all the ones that we run are on one word.
+
+219
+00:29:56.550 --> 00:29:56.820
+Jim Zhang: Okay.
+
+220
+00:29:57.150 --> 00:29:58.140
+that's great news.
+
+221
+00:30:18.060 --> 00:30:20.460
+Jim Zhang: So we can look into those as well.
+
+222
+00:30:22.950 --> 00:30:27.210
+Jim Zhang: let's see are there other sources in the green.
+
+223
+00:30:29.550 --> 00:30:35.790
+Jim Zhang: So docker docker post as pretty straightforward and docker COM.
+
+224
+00:30:37.980 --> 00:30:39.240
+Jim Zhang: binary downloads.
+
+225
+00:30:40.890 --> 00:30:47.340
+Jim Zhang: don't know if github provides this, but it would be a github API if it's if there is one.
+
+226
+00:30:51.090 --> 00:30:53.040
+Jim Zhang: same for all of this.
+
+227
+00:30:56.520 --> 00:31:05.880
+Jim Zhang: github github Okay, so I think that covers all the green items, so if we move on to the blue ones.
+
+228
+00:31:07.110 --> 00:31:07.200
+Jim Zhang: I.
+
+229
+00:31:09.360 --> 00:31:13.680
+Jim Zhang: think the blue ones are mainly manual manual collection.
+
+230
+00:31:15.300 --> 00:31:18.510
+Jim Zhang: I guess My first question is how do we feel about.
+
+231
+00:31:20.280 --> 00:31:26.400
+Jim Zhang: Asking each project team to self report, or do we want to have a.
+
+232
+00:31:28.890 --> 00:31:35.100
+Jim Zhang: team that the PSC designates that would be doing this for every project.
+
+233
+00:31:42.660 --> 00:32:02.310
+Jim Zhang: Because it's manual collection somebody has to do some busy work to collect that data, we want a decentralized that for all the projects to do that from themselves as you mean everybody will do it diligently and honestly, or do we want a.
+
+234
+00:32:04.140 --> 00:32:07.410
+Jim Zhang: Specific team to be responsible for all projects.
+
+235
+00:32:08.670 --> 00:32:11.370
+Tracy Kuhrt: So, so one thing that i'll say is.
+
+236
+00:32:12.450 --> 00:32:28.170
+Tracy Kuhrt: Part of the reason for creating this task force, if I remember correctly, was the fact that we thought we could automate a lot of the project reports if we start asking a bunch of questions of the project.
+
+237
+00:32:29.580 --> 00:32:33.630
+Tracy Kuhrt: maintain owners to answer in during the project reports are we.
+
+238
+00:32:34.980 --> 00:32:39.390
+Tracy Kuhrt: Doing are we taking a step back right from where we're at today with the project reports.
+
+239
+00:32:39.990 --> 00:32:59.940
+Tracy Kuhrt: yeah so I you know this let's keep in mind that the original intention of this is to three things easier for us one to determine what is helping the project is but to to make it easier for the people who are creating the reports to not have to provide data that is.
+
+240
+00:33:02.250 --> 00:33:07.050
+Tracy Kuhrt: You know, over and beyond, something right Ted to make their project reporting eight here.
+
+241
+00:33:12.030 --> 00:33:12.750
+Jim Zhang: Yes.
+
+242
+00:33:14.250 --> 00:33:21.300
+Jim Zhang: thanks for that reminder Tracy is so um I think it was just just naturally.
+
+243
+00:33:23.070 --> 00:33:28.620
+Jim Zhang: coming out of the discussion that these data sources were.
+
+244
+00:33:30.150 --> 00:33:37.050
+Jim Zhang: listed here that are at least at at the moment not automated level.
+
+245
+00:33:39.930 --> 00:33:52.050
+Jim Zhang: So I guess this changes the question to do we want to just put these aside for now until they become automated of all, we can totally.
+
+246
+00:33:53.130 --> 00:33:54.870
+Jim Zhang: make that decision instead.
+
+247
+00:33:58.680 --> 00:34:04.380
+Jim Zhang: So I based on what Tracy just reminded us, I like to propose that.
+
+248
+00:34:05.460 --> 00:34:12.390
+Jim Zhang: We do not look at collecting those that are not automated.
+
+249
+00:34:17.460 --> 00:34:19.740
+Jim Zhang: there any objections to that.
+
+250
+00:34:22.740 --> 00:34:23.070
+Tracy Kuhrt: Your.
+
+251
+00:34:24.900 --> 00:34:26.250
+Jim Zhang: Objective C.
+
+252
+00:34:26.700 --> 00:34:34.680
+Peter Somogyvari: say that I support that because I think the low hanging fruit will be all the automated ones and and can always iterate on the manual ones later.
+
+253
+00:34:39.540 --> 00:34:41.010
+Jim Zhang: Great thanks Peter.
+
+254
+00:34:59.610 --> 00:35:02.220
+Jim Zhang: Alright, so that solves a big problem.
+
+255
+00:35:03.810 --> 00:35:05.400
+Jim Zhang: For us so.
+
+256
+00:35:06.870 --> 00:35:09.780
+Jim Zhang: We would focus on I think these.
+
+257
+00:35:11.460 --> 00:35:16.080
+Jim Zhang: Three major data sources that are API driven.
+
+258
+00:35:17.190 --> 00:35:38.610
+Jim Zhang: I think 80% or more are between github and discord there's some behind meetup and Ryan, I was look start looking to maybe at least one call or two calls to each of the platforms and create a new.
+
+259
+00:35:40.140 --> 00:35:43.860
+Jim Zhang: repository to show how those should be made.
+
+260
+00:35:45.210 --> 00:35:57.090
+Jim Zhang: Is a bash script or no jess or Python programs right, so people can contribute to that over time and we're all this this footprint.
+
+261
+00:36:00.000 --> 00:36:01.080
+Jim Zhang: Honestly, the.
+
+262
+00:36:02.160 --> 00:36:16.920
+Jim Zhang: The red colored ones are also falling into the same category of not being automated double for now, so I think we should just also leave those behind, but should we consider.
+
+263
+00:36:18.270 --> 00:36:24.150
+Jim Zhang: Still, creating a space for those to be recorded if people would like to contribute to to that.
+
+264
+00:36:26.580 --> 00:36:28.650
+Jim Zhang: For example, I would imagine.
+
+265
+00:36:29.790 --> 00:36:30.870
+Jim Zhang: Research.
+
+266
+00:36:33.060 --> 00:36:34.500
+Jim Zhang: folks would like.
+
+267
+00:36:35.550 --> 00:36:43.500
+Jim Zhang: To say our effort has resulted, a publication of these you know 10 different.
+
+268
+00:36:44.670 --> 00:36:45.630
+Jim Zhang: papers.
+
+269
+00:36:46.800 --> 00:36:54.540
+Jim Zhang: right on the cornell side, for example, where would they so that they would have a place to to report that.
+
+270
+00:36:57.210 --> 00:37:08.850
+Jim Zhang: What would be the right place for that kind of reporting to be done, I think it should be a long running thing so maybe create a page.
+
+271
+00:37:09.870 --> 00:37:12.240
+Jim Zhang: On the tlc side dedicated to that.
+
+272
+00:37:19.230 --> 00:37:20.190
+Jim Zhang: That makes sense.
+
+273
+00:37:32.760 --> 00:37:40.710
+Peter Somogyvari: I think we could allow people to self report these custom metrics that they have, but the real question is.
+
+274
+00:37:41.730 --> 00:37:46.230
+Peter Somogyvari: Then, how do we take that into account if you know if it's there.
+
+275
+00:37:47.790 --> 00:37:48.450
+Peter Somogyvari: Then.
+
+276
+00:37:50.070 --> 00:37:55.080
+Peter Somogyvari: must be then spend time sort of processing it manually as well.
+
+277
+00:37:56.130 --> 00:38:05.640
+Peter Somogyvari: Because I wouldn't mind people just collecting the data so that maybe in the future can be used I wouldn't necessarily want to be then.
+
+278
+00:38:09.270 --> 00:38:22.260
+Peter Somogyvari: obligated to then do myself myself to something with myself that would then end up being yet another manual process, so I don't want I wouldn't want that to leak into.
+
+279
+00:38:23.580 --> 00:38:29.850
+Peter Somogyvari: or grow itself out into more valuable things basically i'm just a huge proponent of automation.
+
+280
+00:38:33.750 --> 00:38:51.240
+Jim Zhang: So I think what you're saying is definitely allow people to report but don't necessarily have to take those into account when evaluating your projects, health, because that will require making those reports.
+
+281
+00:38:52.680 --> 00:38:57.330
+Jim Zhang: accurate and comprehensive, which will generate more manual work.
+
+282
+00:38:59.280 --> 00:39:01.350
+Peter Somogyvari: Yes, sorry to the or.
+
+283
+00:39:01.770 --> 00:39:12.840
+Peter Somogyvari: If they want to call the information out for whatever else reason it's always there and acknowledge its existence, I just don't want to be additional that your chakras.
+
+284
+00:39:16.680 --> 00:39:17.190
+Tracy Kuhrt: Bobby.
+
+285
+00:39:21.000 --> 00:39:36.150
+Bobbi Muscara: hi everybody um I keep some of these metrics on a frameworks and tool page for each project i'll put a link in the chat to the basic one if that helps I continue to do this, so it would be there for.
+
+286
+00:39:37.290 --> 00:39:43.590
+Bobbi Muscara: people to look at and get metrics from i'll put a link in the chat hold on just a second.
+
+287
+00:39:47.850 --> 00:39:49.470
+Bobbi Muscara: Oh, do I have to use discord chat.
+
+288
+00:39:50.700 --> 00:39:52.350
+Jim Zhang: um yeah I guess if you.
+
+289
+00:39:52.440 --> 00:39:54.870
+Bobbi Muscara: Okay, no worries i'll put it in the discord chat.
+
+290
+00:39:54.930 --> 00:39:59.850
+Jim Zhang: yeah if you're if you are their workplace great thanks for being.
+
+291
+00:40:02.040 --> 00:40:04.290
+Jim Zhang: Okay um let's see.
+
+292
+00:40:06.360 --> 00:40:06.900
+Jim Zhang: So I think.
+
+293
+00:40:08.250 --> 00:40:12.000
+Jim Zhang: For me at least it's a pretty good place to end the call.
+
+294
+00:40:13.290 --> 00:40:24.180
+Jim Zhang: I feel like we have some concrete actions to act on and we agreed on the the types of data we'd like to collect with the automation.
+
+295
+00:40:26.670 --> 00:40:33.930
+Jim Zhang: And right and I will take the action and report to folks on the next call.
+
+296
+00:40:35.100 --> 00:40:39.420
+Jim Zhang: Are there any other last minute comments or questions.
+
+297
+00:40:46.290 --> 00:40:49.980
+Jim Zhang: If not, I gave the call back to you Tracy.
+
+298
+00:40:53.220 --> 00:40:54.810
+Tracy Kuhrt: So, as far as I know.
+
+299
+00:40:57.750 --> 00:41:09.660
+Tracy Kuhrt: I haven't seen any sort of items cannot yet for next week's call on, but they do that's fine, we can get them in the agenda, but what I was thinking is that maybe we needed to.
+
+300
+00:41:10.050 --> 00:41:20.970
+Tracy Kuhrt: Use the test for discussion next week for continuing from the security discussion since I know there's been some movement on that, since the last go around.
+
+301
+00:41:21.480 --> 00:41:34.530
+Tracy Kuhrt: And then we'll go back and start over again with Dino on the project gaps and just continue that way with the task force so that's my plan if anybody has any other ideas, open to hearing them.
+
+302
+00:41:36.720 --> 00:41:37.080
+Tracy Kuhrt: Bobby.
+
+303
+00:41:38.220 --> 00:41:54.150
+Bobbi Muscara: I was just wondering if the documentation task force can get on the calendar, the first meeting I think it's the second of August i'm just double check that for the it's the fourth of August to report what we've concluded.
+
+304
+00:41:54.750 --> 00:41:56.130
+Tracy Kuhrt: Yes, sounds good sounds good.
+
+305
+00:41:57.450 --> 00:41:59.580
+Tracy Kuhrt: So so we'll do security next week.
+
+306
+00:41:59.880 --> 00:42:01.470
+Tracy Kuhrt: The gods mutation one the following.
+
+307
+00:42:01.470 --> 00:42:05.850
+Tracy Kuhrt: Week start over again if that sounds good to everybody.
+
+308
+00:42:08.940 --> 00:42:14.400
+Tracy Kuhrt: Alright, so with that we'll close the meeting, and we will talk again next week.
+
+309
+00:42:16.590 --> 00:42:17.640
+Jim Zhang: Thanks Tracy thanks guys.
+
