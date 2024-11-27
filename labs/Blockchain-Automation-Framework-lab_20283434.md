@@ -1,0 +1,77 @@
+1. [Hyperledger Labs](index.html)
+2. [Hyperledger Labs Home](Hyperledger-Labs-Home_20283400.html)
+
+# Hyperledger Labs : Blockchain Automation Framework lab
+
+Created by Ry Jones, last modified on Jun 08, 2022
+
+**[Blockchain Automation Framework](https://www.hyperledger.org/blog/2020/07/14/how-to-quickly-deploy-blockchain-networks-that-can-scale-to-production-with-blockchain-automation-framework-a-hyperledger-lab) (BAF) is a Hyperledger Labs project that is creating an automation framework for rapidly and consistently deploying production-ready DLT platforms.  Learn more in this short 7 minute video.**
+
+ 
+
+# **You are welcome to get involved!**
+
+[Hyperledger](https://www.hyperledger.org/), as part of the  [Linux Foundation](https://www.linuxfoundation.org/), is an open source community and anyone who is interested is welcome to use the code, talk to others in the community and make contributions to this project.
+
+**Some useful links to get you started:**
+
+- [Blockchain Automation Framework GitHub wiki](https://github.com/hyperledger-labs/blockchain-automation-framework/wiki)
+- [Blockchain Automation Framework technical documentation](https://blockchain-automation-framework.readthedocs.io/en/develop/introduction.html)
+- [Blockchain Automation Framework chat channel](https://chat.hyperledger.org/channel/blockchain-automation-framework)
+- [Blockchain Automation Framework Learning map](https://rise.articulate.com/share/vBSqnL6LswQuA_AlDD2OOrJT1nEY4Lba#/)
+
+**Let us make your contribution journey easier.**
+
+## **First become a user - deploy your DLT network using BAF**
+
+Use the following flow to navigate the available resources.
+
+![](plugins/servlet/confluence/placeholder/unknown-macro)
+
+The above pathway would help you to deploy a DLT/Blockchain network on a chosen cloud infrastructure using BAF.
+
+Now that you have used it , you can have a look at a list of  "Good First Issues" and **start contributing**. We will be excited to see you contribute !!!!
+
+# **Good First Issues**
+
+Take a look at the good first issues below or on our [Github issue tracker](https://github.com/hyperledger-labs/blockchain-automation-framework/issues?q=is%3Aopen%20is%3Aissue%20label%3A%22good-first-issue%22%20).  If there is an issue you are interested in, simply comment on it so that a Maintainer can assign you to that task.
+
+# **How to Get Involved**
+
+#### This is an open source project and anyone is welcome to get involved and we will be happy to see you contribute.
+
+1\) Read our [Contribution guide](https://github.com/hyperledger-labs/blockchain-automation-framework/blob/master/CONTRIBUTING.md)
+
+2\) Look through our [Good First Issue](https://github.com/hyperledger-labs/blockchain-automation-framework/issues?q=is%3Aopen%20is%3Aissue%20label%3Agood-first-issue) list below
+
+3\) Choose an issue that you want to pick and comment on it so that a [Maintainer](https://github.com/hyperledger-labs/blockchain-automation-framework/blob/master/MAINTAINERS.md) can assign you to that task
+
+4\) Follow the [Pull Request process](https://github.com/hyperledger-labs/blockchain-automation-framework/blob/master/CONTRIBUTING.md#pull-request-process-) and raise a PR
+
+5\) The code will be reviewed by our [Maintainers](https://github.com/hyperledger-labs/blockchain-automation-framework/blob/master/MAINTAINERS.md) and merged
+
+# **Have any questions?**
+
+If you have any questions about using or contributing to the project, join our chat channel.  Feel free to introduce yourself and ask your questions at:
+
+- [#blockchain-automation-framework](https://chat.hyperledger.org/channel/blockchain-automation-framework)
+
+***New to Hyperledger?**  You'll need a Linux Foundation ID (LFID) to edit our wiki pages and chat on Hyperledger channels.  [**Here's how to get your LFID**](https://www.youtube.com/watch?v=EEc4JRyaAoA) .*
+
+*Do you want to use BAF for clients ? Would you like to collaborate on the roadmap, architecture, automation or documentation to make it better, more useful ?*
+
+*We will be excited to take your interest forward . Follow the [Contact Us](https://lf-hyperledger.atlassian.net/wiki/display/labs/Contact+US) to connect with the current Maintainers of the project.*
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [35617018.png](attachments/20283434/20294221.png) (image/png)  
+![](images/icons/bullet_blue.gif) [image2020-10-6\_15-35-13.png](attachments/20283434/20294238.png) (image/png)  
+![](images/icons/bullet_blue.gif) [image2020-10-6\_15-36-36.png](attachments/20283434/20294239.png) (image/png)  
+![](images/icons/bullet_blue.gif) [image2020-10-6\_15-56-19.png](attachments/20283434/20294241.png) (image/png)  
+![](images/icons/bullet_blue.gif) [BAF pathway](attachments/20283434/20294249) (application/gliffy+json)  
+![](images/icons/bullet_blue.gif) [BAF pathway.png](attachments/20283434/20294250.png) (image/png)  
+![](images/icons/bullet_blue.gif) [unknown-macro.png](attachments/20283434/20294367.png) (image/png)
+
+Document generated by Confluence on Nov 26, 2024 15:07
+
+[Atlassian](http://www.atlassian.com/)

@@ -1,0 +1,119 @@
+1. [Hyperledger India Regional Chapter](index.html)
+2. [LF Decentralized Trust India Regional Chapter Home](LF-Decentralized-Trust-India-Regional-Chapter-Home_19169282.html)
+3. [HIRC - Events](HIRC---Events_19169346.html)
+4. [2024 - Events](2024---Events_19171460.html)
+
+# Hyperledger India Regional Chapter : Planning for Blockchain TechFest 2024
+
+Created by Ravi singh, last modified by A Anasuya Threse Innocent on Oct 24, 2024
+
+Questions
+
+Planning for IBW 2024 event.
+
+- Name: Blockchain TechFest 2024
+- How many days?
+  
+  - What material we have?
+  - Can we think of planning for 2 days?
+    
+    - 1 day hackathon 5 - 6th of Dec \[24 hrs] - 10 am starting?
+    - Event - on 7th, 10.30 am - 6.30 pm
+  - Hackathon?
+    
+    - Day 0
+    - Format: Student and Faculty
+    - Any college for event space? [A Anasuya Threse Innocent](https://lf-hyperledger.atlassian.net/wiki/people/712020:661aa2f0-0e5a-4e8d-b57b-de10204ea99b?ref=confluence)
+  - Student society activities
+    
+    - Excellence award
+      
+      - Questions to colleges
+        
+        - Criterion - No. of activities, types - bootcamp, presentation, hackathon, meeting, photo, videos, clips, posting on LinkedIn
+- Expected date? - 7th December 2024
+- Time-
+  
+  - 10:30 - 6:30 PM
+- Location?
+  
+  - Search for sponsors?
+  - LFDT member could be option.
+    
+    - Accenture, IBM, Infosys, Walmart
+- Inside IBW 2024
+- Participant
+  
+  - LFDT
+  - Web3 community
+- How we do it?
+  
+  - Topics:
+    
+    - Driving total experience with Web3 and GenAI - [Vikram Sharma](https://lf-hyperledger.atlassian.net/wiki/people/712020:af0c3f29-e190-4dc2-9098-9266b1dc0dab?ref=confluence)
+    - LFDT ecosystem - From LFDT India Chapter - [kamlesh nagware](https://lf-hyperledger.atlassian.net/wiki/people/557058:8e1fc425-f938-4b39-ad13-9cd8b0ddde52?ref=confluence)
+    - SSI - [kartikey.dav100](https://lf-hyperledger.atlassian.net/wiki/people/5d5fd1d08de8420ca06d3048?ref=confluence)
+    - Case study - [A Anasuya Threse Innocent](https://lf-hyperledger.atlassian.net/wiki/people/712020:661aa2f0-0e5a-4e8d-b57b-de10204ea99b?ref=confluence)
+  - Speakers
+    
+    - Who all from LFDT leadership
+    - Members organizations
+  - One Track only -
+  - Registration
+    
+    - Platform
+    - No. of people
+  - Sponsors
+    
+    - Venue
+    - Refreshment
+    - Lunch
+    - Networking drink
+    - Goodies
+    - Mementos
+    - Certificate
+  - Booth, Demos possibility at venue.
+  - Judging
+    
+    - Mentors/ developer advocates to be present on venue judging the teams - give scores - during 5th &amp; 6th Dec
+    - Selected teams to present to the jury on 6th post 11 am
+
+Action Items:
+
+01. Posters
+    
+    1. [kartikey.dav100](https://lf-hyperledger.atlassian.net/wiki/people/5d5fd1d08de8420ca06d3048?ref=confluence)
+02. Teaser
+03. WhatsApp group - [A Anasuya Threse Innocent](https://lf-hyperledger.atlassian.net/wiki/people/712020:661aa2f0-0e5a-4e8d-b57b-de10204ea99b?ref=confluence)
+04. LinkedIn Post - [kamlesh nagware](https://lf-hyperledger.atlassian.net/wiki/people/557058:8e1fc425-f938-4b39-ad13-9cd8b0ddde52?ref=confluence)
+05. Hackathon - [A Anasuya Threse Innocent](https://lf-hyperledger.atlassian.net/wiki/people/712020:661aa2f0-0e5a-4e8d-b57b-de10204ea99b?ref=confluence)
+    
+    1. Email to college interested in hosting - [Vikram Sharma](https://lf-hyperledger.atlassian.net/wiki/people/712020:af0c3f29-e190-4dc2-9098-9266b1dc0dab?ref=confluence)
+    2. Proposal
+06. Registration
+    
+    1. [Vikram Sharma](https://lf-hyperledger.atlassian.net/wiki/people/712020:af0c3f29-e190-4dc2-9098-9266b1dc0dab?ref=confluence)
+07. Developer advocates / mentors for the event
+    
+    1. [Navya T](https://lf-hyperledger.atlassian.net/wiki/people/712020:85cc3012-75b5-4f83-af4e-56ceb0760e68?ref=confluence)
+    2. [kartikey.dav100](https://lf-hyperledger.atlassian.net/wiki/people/5d5fd1d08de8420ca06d3048?ref=confluence)
+    3. [Aditya Singh](https://lf-hyperledger.atlassian.net/wiki/people/557058:98f1b638-6c48-4c47-9801-ef016b4d7ee5?ref=confluence)
+    4. [Adhav Pavan](https://lf-hyperledger.atlassian.net/wiki/people/557058:28ae9539-a227-4110-9854-a55245b075da?ref=confluence)
+08. Jury
+    
+    1. [kamlesh nagware](https://lf-hyperledger.atlassian.net/wiki/people/557058:8e1fc425-f938-4b39-ad13-9cd8b0ddde52?ref=confluence)
+    2. [Prasanna Lohar](https://lf-hyperledger.atlassian.net/wiki/people/712020:35530904-3db4-49d4-8b80-2a12ceaac972?ref=confluence)
+    3. [A Anasuya Threse Innocent](https://lf-hyperledger.atlassian.net/wiki/people/712020:661aa2f0-0e5a-4e8d-b57b-de10204ea99b?ref=confluence) - BiniWorld
+    4. @Murthy Citluru -SimpliFy Softech
+    5. Infosys, Walmart, Dhiway, HCLTech, IBM, KPMG,
+09. Cloud
+    
+    1. AWS - [Vikram Sharma](https://lf-hyperledger.atlassian.net/wiki/people/712020:af0c3f29-e190-4dc2-9098-9266b1dc0dab?ref=confluence)
+10. GitHub
+11. Certificate
+    
+    1. Print2Block
+
+Document generated by Confluence on Nov 26, 2024 16:42
+
+[Atlassian](http://www.atlassian.com/)

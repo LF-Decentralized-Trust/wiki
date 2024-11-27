@@ -1,0 +1,83 @@
+1. [Hyperledger Mentorship Program](index.html)
+2. [Hyperledger Mentorship Program](Hyperledger-Mentorship-Program_21954571.html)
+3. [Mentorship Projects](Mentorship-Projects_21954604.html)
+4. [2022 Projects](2022-Projects_21954800.html)
+
+# Hyperledger Mentorship Program : Chaincode-level event monitoring tool for Hyperledger Fabric
+
+Created by Aitor G, last modified by Min Yu on Mar 24, 2022
+
+**Project Title**Chaincode-level event monitoring tool for Hyperledger Fabric**Status**
+
+UNSELECTED
+
+**Difficulty**
+
+MEDIUM
+
+# Description
+
+Monitoring tools are an essential part of the deployment of any software solution. Hyperledger Fabric networks can be monitored using general metrics exported by orderers and peers. However, there is a lack of general-purpose tools which ease monitoring of chaincode-level events in Fabric.
+
+Chaincode-level events are highly dependent on the chaincode specificities. To overcome this, the solution must define an easy-to-use user interface which helps system administrators to configure the different connections to peers, the credentials to use and the event model to listen.
+
+From the point of view of the performance, the solution must ensure the availability of the registered events and the capability to perform rich queries to audit when the events were triggered. For this, the architecture which supports the solution must be scalable and based on open-source frameworks and tools.
+
+# Additional Information
+
+- [Hyperledger Fabric](https://github.com/hyperledger/fabric)
+- [Fabric SDK for NodeJS](https://hyperledger.github.io/fabric-sdk-node/release-2.2/)
+- [Analogous solution for Ethereum](https://www.mdpi.com/1999-4893/14/12/341) developed by our team
+- [Recent project which integrates an event listener](https://github.com/hyperledger-labs/hlf-connector) and which could be extended as part of this program
+
+# Learning Objectives
+
+- Development of a parametrizable and user-friendly monitoring solution
+- Design of a scalable and available architecture to listen events coming from chaincodes
+- Deep understanding of the Hyperledger Fabric model: configuration of a network, credential handling and event listening
+- The mentee will define pipelines for the CI/CD of the solution
+- He/she will work together with a team which uses the best agile practices and open source development tools (e.g., Gitlab and Docker compose)
+- The mentee will be under the direct supervision of experts in the blockchain field with vast experience in the design and development of both research projects using state-of-the-art technology and production-ready solutions
+
+# Expected Outcome
+
+- D1 (M2): Design of an architecture which uses open-source frameworks to listen, persist and query events coming from chaincode deployed in Hyperledger Fabric.
+- D2 (M4): Development of a listener which can be parametrized to define which events to listen to and the credentials to be used in each communication channel.
+- D3 (M5): Basic webapp design and development to configure the solution. The listener module should be parametrizable to listen to any chaincode and peer.
+- D4 (M6): Configuration of a flexible UI with several general-purpose sample views to monitor events using existing tools like OpenSearch Dashboard and Grafana.
+- D5 (M6) Evaluation of the performance of the solution. The mentee should test the concurrency and scalability of the developed solution.
+
+# Relation to Hyperledger
+
+- **Hyperledger Fabric**: this project will create a parametrizable app to listen to chaincode events in a Fabric network.
+
+# Education Level
+
+Undergraduate
+
+# Skills
+
+- NodeJS development. Preferably, but other languages with an official Fabric SDK can be considered, particularly if an existing project is used as a base.
+- Basic frontend development skills: React, Angular or a similar framework and component libraries like Material UI.
+- Version control sytems like Git and ticketing systems.
+- Deployment tools: Docker and docker-compose.
+- Basic understanding on how Hyperledger Fabric works.
+- Working on a team following agile methodologies.
+
+# Future plans
+
+- The main results of this project (D2 and D3) will be open-sourced in [Hyperledger-labs](https://github.com/hyperledger-labs) as a contribution for the community. Depending on the design decisions, the result might be provided either in a monorepo, as an extension of an existing project or separately for each module developed. All the deployment and usage documentation as well as any sample configuration (D4) should be provided in the Github repository too.
+- The assessment results (D5) might be published in a research paper.
+
+# Preferred Hours and Length of Internship
+
+Part-time (20 hours a week for 24 weeks)
+
+# Mentor(s) Names and Contact Info
+
+- Aitor Gómez-Goiri (aitor.gomez@[tecnalia.com](http://tecnalia.com)), Tecnalia
+- Borja Urkizu (borja.urquizu@[tecnalia.com](http://tecnalia.com)), Tecnalia
+
+Document generated by Confluence on Nov 26, 2024 14:55
+
+[Atlassian](http://www.atlassian.com/)

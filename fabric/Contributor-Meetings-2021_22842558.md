@@ -1,0 +1,151 @@
+1. [Hyperledger Fabric](index.html)
+2. [Hyperledger Fabric](Hyperledger-Fabric_22839309.html)
+3. [Contributor Meetings](Contributor-Meetings_22840714.html)
+
+# Hyperledger Fabric : Contributor Meetings 2021
+
+Created by David Enyeart, last modified on Dec 07, 2021
+
+January 6, 2021
+
+- Release update
+- Samples update
+
+January 20, 2021
+
+- [Operations Smart Contract](https://lists.hyperledger.org/g/fabric/message/9464) - Tatsuya Sato
+
+February 3, 2021
+
+- Fabric Gateway - Mark Lewis
+
+February 17, 2021
+
+- ERC-721 sample chaincode - Yuki Kondo
+
+March 3, 2021
+
+- Review of open RFCs
+
+March 17, 2021
+
+- Update default branches to "main"
+
+March 31, 2021
+
+- Fabric Gateway update - Andrew Coleman, Mark Lewis
+
+April 14, 2021
+
+- Orderer ledger pruning/snapshots [RFC](https://github.com/hyperledger/fabric-rfcs/pull/44) - Vitalii Demianets
+
+April 28, 2021
+
+- Security audit readout - Kevin Dick
+
+May 12, 2021
+
+- Documentation workgroup priorities - Chris Gabriel
+
+May 26, 2021
+
+- Cancelled - no agenda items
+
+June 9, 2021
+
+- Cancelled - Global Forum
+
+June 23, 2021
+
+- Development and Roadmap update
+
+July 21, 2021
+
+- Fabric Gateway - simplified endorsement approach for private data collections and state-based endorsement - Andy Coleman
+
+August 4, 2021
+
+- Cancelled
+
+August 18, 2021
+
+- Fabric Gateway Event listening - Mark Lewis
+
+September 1, 2021
+
+- Fabric performance findings - Kamlesh Nagware
+
+September 15, 2021
+
+- Cancelled
+
+September 29, 2021
+
+- Fabric strategic priorities - Dave Enyeart
+
+October 13, 2021
+
+- Kubernetes test network - Josh Kneubuhl
+
+October 27, 2021
+
+- Private data purge [RFC](https://github.com/hyperledger/fabric-rfcs/pull/46) - Manish Sethi
+
+November 10, 2021
+
+- Chaincode-as-a-service builder for Kubernetes - Matthew White
+
+December 8, 2021
+
+- Modular crypto service [RFC](https://github.com/hyperledger/fabric-rfcs/pull/34) - Sam Yuan
+
+Date TBD
+
+- CICD with GitHub Actions - Brett Logan
+
+**CONTRIBUTOR MEETING RECORDINGS**
+
+  File Modified
+
+Labels
+
+- No labels
+- [Edit Labels](# "Edit Labels")
+
+[Preview]() [$itemLabel]($itemRenderedUrl) [$itemLabel]($itemRenderedUrl&isFromPageView=true) [$itemLabel]($itemRenderedUrl&isFromPageView=true)
+
+Text File [20211208\_contributors\_meeting.mp4](attachments/22842558/22843118.mp4 "Download") Replaced video attachment for Atlassian cloud migration
+
+Sep 12, 2024 by [Anton Baranov](/wiki/people/5d276e9fafbc2a0c25112118)
+
+Drag and drop to upload or [browse for files]() ![](images/icons/wait.gif)
+
+Upload file
+
+File description
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [20210106\_contributors\_meeting.mp4](attachments/22842558/22843100.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210120\_contributors\_meeting.mp4](attachments/22842558/22843101.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210203\_contributors\_meeting.mp4](attachments/22842558/22843102.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210217\_contributors\_meeting.mp4](attachments/22842558/22843103.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210303\_contributors\_meeting.mp4](attachments/22842558/22843104.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210317\_contributors\_meeting.mp4](attachments/22842558/22843105.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210331\_contributors\_meeting.mp4](attachments/22842558/22843106.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210414\_contributors\_meeting.mp4](attachments/22842558/22843107.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210428\_contributors\_meeting.mp4](attachments/22842558/22843108.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210512\_contributors\_meeting.mp4](attachments/22842558/22843109.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210623\_contributors\_meeting.mp4](attachments/22842558/22843110.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210721\_contributors\_meeting.mp4](attachments/22842558/22843111.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210818\_contributors\_meeting.mp4](attachments/22842558/22843112.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210901\_contributors\_meeting.mp4](attachments/22842558/22843113.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20210929\_contributors\_meeting.mp4](attachments/22842558/22843114.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20211013\_contributors\_meeting.mp4](attachments/22842558/22843115.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20211027\_contributors\_meeting.mp4](attachments/22842558/22843116.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20211110\_contributors\_meeting.mp4](attachments/22842558/22843117.mp4) (text/plain)  
+![](images/icons/bullet_blue.gif) [20211208\_contributors\_meeting.mp4](attachments/22842558/22843118.mp4) (text/plain)
+
+Document generated by Confluence on Nov 26, 2024 16:21
+
+[Atlassian](http://www.atlassian.com/)

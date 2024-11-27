@@ -1,0 +1,117 @@
+1. [Hyperledger Indy](index.html)
+2. [Hyperledger Indy](Hyperledger-Indy_19464194.html)
+3. [Evernym Contributions](Evernym-Contributions_19464930.html)
+
+# Hyperledger Indy : Evernym Sprint Demos
+
+Created by Richard Esplin, last modified on May 22, 2020
+
+The demos are recorded every 2 weeks and posted to this YouTube playlist in the Evernym channel:  
+[https://www.youtube.com/playlist?list=PLRp0viTDxBWGLdZk0aamtahB9cpJGV7ZF](https://www.youtube.com/playlist?list=PLRp0viTDxBWGLdZk0aamtahB9cpJGV7ZF)
+
+# Project Update on 2020-05-22
+
+- Why Evernym hasn't been posting sprint demo videos lately.
+- Changes to process: using GitHub issues more than Jira, and GitHub Actions more than Jenkins.
+- Added some new contributors to Indy-SDK.
+- Current projects:
+  
+  - Issues seen on the Sovrin Network and a new release of Indy Node.
+  - Revocation 2 / Anoncreds 2
+  - Rich Schemas / W3C Verifiable Credentials
+  - BBS+ signatures
+  - Updating Indy Node to Ubuntu 20.04
+  - Updating Indy Node CI / CD from Jenkins to GitHub Actions
+- Request for more contributors to Indy Node.
+
+# Project Update for Sprint Ev 20.05 (2020-03-26)
+
+- Welcome, project update, and plans (Richard Esplin), 5 min
+- Rich Schema HIPE updates, Alexander Shcherbakov, 5 min
+  
+  - INDY-2337, INDY-2347
+- Rich Schema implementation in indy-node, Alexander Shcherbakov., 3 min
+  
+  - INDY-2338, INDY-2350, INDY-2339, INDY-2340, INDY-2341
+- Rich Schema support in indy-vdr, Andrew Nikitin, 5 min
+  
+  - IS-1505, IS-1506
+- Street Cred interoperability demo, Artem Ivanov, 7 min
+  
+  - IS-1527
+
+# Project Update for Sprint Ev 20.04 (2020-03-12)
+
+- Welcome, project update, and plans (Richard Esplin)
+- Discuss of Rich Schemas work (Alexander Shcherbakov)
+  
+  - [Updated HIPEs for rich schemas and W3C verifiable credentials](https://github.com/hyperledger/indy-hipe/pull/156)
+  - [Updated Aries RFCs for rich schemas and W3C verifiable credentials](https://github.com/hyperledger/aries-rfcs/pull/446)
+- Learning about other ledgers (Richard Esplin)
+- Recap from Hyperledger Global Forum (Richard Esplin)
+  
+  - [Recordings from Hyperledger Global Forum 2020](https://www.youtube.com/watch?v=m-ldedEAdVc&list=PL0MZ85B_96CFY3isYUplorFSenn04WwBt)
+- Release plans and future work for Indy Node and Indy SDK (Richard Esplin and Sergey Minaev)
+- [Indy Contributors calls](Indy-Contributors-Meeting_19464913.html) and [Aries Working Group calls](https://lf-hyperledger.atlassian.net/wiki/spaces/ARIES/pages/18481228/Aries+Working+Group)
+
+# Demo for Sprint EV 20.03 (2020-02-27)
+
+- Welcome, project update, and plans, Richard Esplin, 8 min
+- Evaluation of options for CI / CD, 8 min, Andrew N.
+  
+  - IS-1497
+  - IS-1496
+  - IS-1503
+  - IS-1504
+- Release plans, Sergey Minaev, 5 min
+  
+  - Indy SDK: Test refactor
+    
+    - IS-1480
+    - Note that the February release of Indy SDK was scrubbed due to a bug we found at the last minute. Instead we preparing the March release of Indy SDK.
+  - Indy Node: skip
+
+# Demo for Sprint EV 20.02 (2020-02-13)
+
+- Welcome, project update, and plans, Richard Esplin, 8 min
+- Indy SDK: LibVCX improvements for proof reject, connection redirect, and no mediator, Nikita Khateev, 5 min
+- Indy Node: Tool for troubleshooting ZMQ connectivity, Andrew Nikitin, 5 min
+  
+  - INDY-2330
+  - [Tool to check for ZeroMQ connectivity, including documentation](https://github.com/hyperledger/indy-plenum/tree/master/scripts/test_zmq)
+- Indy Node: Documentation for Troubleshooting, Sergey Khoroshavin, 5 min
+  
+  - INDY-2331
+  - [Document](https://github.com/hyperledger/indy-node/blob/master/docs/source/troubleshooting.md)
+- Indy Node/SDK: Design identification and relationship between Rich Schema objects, Alexander Shcherbakov, 3 min
+  
+  - INDY-2336
+  - [Indy HIPE: What is common in Rich Schema Objects](https://github.com/hyperledger/indy-node/blob/99363f340920f225d82b83d6bb7507c2ed935a40/docs/source/troubleshooting.md)
+  - [Aries RFC: What is common in Rich Schema Objects](https://github.com/hyperledger/aries-rfcs/blob/210794a4cd0ef54671a6bf9e3fd4e14a270317b9/features/0420-rich-schemas-common/README.md)
+
+# Demo for Sprint EV 20.01 (2020-01-30)
+
+- Welcome, project update, and plans, Richard Esplin, 8 min
+  
+  - Team changes, Aries-Framework-Go (Discussion in Aries WG A call)
+  - Rich Schemas
+- Indy Node: Release, Vladimir Shishkin, 3 min
+  
+  - INDY-2325
+- Indy Node: Testing promotion and demotion: system and load testing, Vladimir Shishkin, 4 min
+  
+  - INDY-2326. INDY-2323
+- Indy Node: Testing promotion and demotion: unit, integration and simulation testing, Andrew Nikitin, 4 min
+  
+  - INDY-2326, INDY-2324
+- Indy SDK: Release 1.14.2: Rotation of Pairwise Keys, Anoncreds API improvements, CLI Updates, Artem 3 min
+  
+  - IS-1468, IS-1166, IS-1447, IS-1415
+
+# Evernym Sprint Demos in 2018-2019
+
+This page loads too slow with lots of videos, so older sprint demo videos are on this page: [Evernym Sprint Demos 2018-2019](Evernym-Sprint-Demos-2018-2019_19465277.html)
+
+Document generated by Confluence on Nov 26, 2024 16:49
+
+[Atlassian](http://www.atlassian.com/)

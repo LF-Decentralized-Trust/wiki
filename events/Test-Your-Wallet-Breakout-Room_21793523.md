@@ -1,0 +1,231 @@
+[invalid_url] err=parse "http://Hyperledger Antitrust Policy": invalid character " " in host name url="http://Hyperledger Antitrust Policy" 
+1. [Community Events](index.html)
+2. [Community Events Home](Community-Events-Home_21790731.html)
+3. [Interoperability Event](Interoperability-Event_21793489.html)
+
+# Community Events : Test Your Wallet Breakout Room
+
+Created by Stephen Curran, last modified by Bruno Hivert on Aug 31, 2022
+
+# Aries Interop Event Breakout Room 1
+
+- # [Hyperledger Foundation Code of conduct](https://lf-hyperledger.atlassian.net/wiki/display/HYP/Hyperledger+Code+of+Conduct#:~:text=Treat%20each%20other%20with%20respect,personal%20characteristics%20or%20group%20membership.)
+- # [Hyperledger Antitrust Policy](http://Hyperledger%20Antitrust%20Policy)
+
+### For Room Hosts: Patrick Saint Louis (presenter) Bruno Hivert (scribe)
+
+Reminders: Please record the session
+
+Main URL: [https://demo.aath.idlab.app/](https://demo.aath.idlab.app/)
+
+Note: we are using the bcovrin test network, you can find the URL here: [http://test.bcovrin.vonx.io](http://test.bcovrin.vonx.io)
+
+## Targets:
+
+Note: the wallet always play Bob's role here.
+
+1. RFC 0036
+   
+   ```
+   Scenario: Issue a credential with the Issuer beginning with an offerGiven "2" agents
+| name | role |
+| Acme | issuer |
+| Bob | holder |
+And "Acme" and "Bob" have an existing connection
+When "Acme" offers a credential
+And "Bob" requests the credential
+And "Acme" issues the credential
+And "Bob" acknowledges the credential issue
+Then "Bob" has the credential issued​
+
+   ```
+2. RFC0037
+   
+   ```
+   Scenario Outline: Present Proof where the prover does not propose a presentation of the proof and is acknowledged
+Given "2" agents 
+| name | role | 
+| Faber | verifier | 
+| Bob | prover | 
+And "Faber" and "Bob" have an existing connection
+And "Bob" has an issued credential from <issuer>
+When "Faber" sends a request for proof presentation to "Bob"
+And "Bob" makes the presentation of the proof
+And "Faber" acknowledges the proof
+Then "Bob" has the proof verified
+   ```
+   
+   ```
+   
+   ```
+3. ```
+   RFC0160
+Scenario Outline: establish a connection between two agents
+Given we have "2" agents
+| name | role |
+| Acme | inviter |
+| Bob | invitee |
+When "Acme" generates a connection invitation
+And "Bob" receives the connection invitation
+And "Bob" sends a connection request to "Acme"
+And "Acme" receives the connection request
+And "Acme" sends a connection response to "Bob"
+And "Bob" receives the connection response
+And "Acme" sends <message> to "Bob"
+Then "Acme" and "Bob" have a connection
+
+   ```
+4. ```
+   RFC0183
+Scenario Outline: Credential revoked by Issuer and Holder attempts to prove with a prover that doesn't care if it was revoked
+Given "2" agents
+| name | role |
+| Bob | prover |
+| Faber | verifier |
+And "Faber" and "Bob" have an existing connection
+And "Bob" has an issued credential from <issuer> with <credential_data>
+When <issuer> revokes the credential
+And "Faber" sends a <request_for_proof> presentation to "Bob"
+And "Bob" makes the <presentation> of the proof
+And "Faber" acknowledges the proof
+Then "Bob" has the proof verified
+   ```
+
+# SESSION 1:
+
+\*\*\*ASK TO RECORD SESSION\*\**
+
+Host: Patrick
+
+Scribe: Bruno
+
+## Who participated?
+
+- Name of Participants: Gary de Beer
+  
+- Company:                    One37 Solutions Inc.
+
+## What did you test?
+
+- Targets:
+  
+  1. RFC 0036 OK
+  2. RFC0037 Incomplete (multiple connection issue)
+  3. ```
+     RFC0160 Incomplete
+     ```
+  4. ```
+     RFC0183 Incomplete
+     ```
+
+<!--THE END-->
+
+- Other:
+  
+  - Wallet-to-wallet connection Incomplete
+
+## Successes?
+
+## Issues Identified?
+
+Unable to accept invitation because URL protected by Let's Encrypt https:// certificates (SOLVED)
+
+Problem accepting multiple connections
+
+# SESSION 2:
+
+\*\*\*ASK TO RECORD SESSION\*\**
+
+Host: Patrick
+
+Scribe: Bruno
+
+## Who participated?
+
+- Name of Participants: Lance Byrd
+- Company:  cortana blockchain (but using the Lissi Wallet)
+
+## What did you test?
+
+- Targets:
+  
+  1. RFC 0036 OK
+  2. RFC0037 OK
+  3. ```
+     RFC0160 OK
+     ```
+  4. ```
+     RFC0183 OK
+     ```
+- Other:
+  
+
+## Successes?
+
+# SESSION 3:
+
+\*\*\*ASK TO RECORD SESSION\*\**
+
+Host: Patrick
+
+Scribe: Bruno
+
+## Who participated?
+
+- Name of Participants: Clecio Varjao / Akif Manji
+- Company: BC Gov
+
+## What did you test?
+
+- Targets:
+  
+  1. RFC 0036 OK
+  2. RFC0037 OK
+  3. ```
+     RFC0160 OK
+     ```
+  4. ```
+     RFC0183 OK
+     ```
+- Other:
+  
+
+## Successes?
+
+# SESSION 4:
+
+\*\*\*ASK TO RECORD SESSION\*\**
+
+Host: Patrick
+
+Scribe: Bruno
+
+## Who participated?
+
+- Name of Participants: Philippe Foucault
+- Company: BC Gov
+
+## What did you test?
+
+- Targets:
+  
+  1. RFC 0036 OK
+  2. RFC0037 OK
+  3. ```
+     RFC0160 OK
+     ```
+  4. ```
+     RFC0183 OK
+     ```
+- Other:
+  
+
+## Successes?
+
+## Issues Identified?
+
+Yogi Nadkarni: question about developping a VC platform on ARIES
+
+Document generated by Confluence on Nov 26, 2024 16:18
+
+[Atlassian](http://www.atlassian.com/)

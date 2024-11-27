@@ -1,0 +1,99 @@
+1. [Hyperledger](index.html)
+2. [LF Decentralized Trust](LF-Decentralized-Trust_19595266.html)
+3. [Special Interest Groups](Special-Interest-Groups_19595400.html)
+4. [SIG Process - Launch &amp; Operations](19595382.html)
+5. [SIG Proposals](SIG-Proposals_19595405.html)
+6. [SIG Archived Proposals](SIG-Archived-Proposals_19599815.html)
+
+# Hyperledger : Telecom SIG Proposal
+
+Created by David Boswell, last modified by Saurabh Malviya on Sep 12, 2019
+
+**Note: This proposal has been accepted and the active Telecom SIG group page can be found at: [Hyperledger Telecom SIG](https://lf-hyperledger.atlassian.net/wiki/spaces/TCSIG)**
+
+**Introduction**
+
+The Hyperledger Telecom Special Interest Group is focused on technical and business-level conversations about appropriate use cases for blockchain technology in the Telecom industry.
+
+Telecom industry today has the most complex operations framework, involving many partners, vendors, customers, distributors, network providers. There are a lot of trust issues and transparency challenges due to the involvement of multiple entities, and no clear mechanism to track end-to-end activities of every entity and Blockchain can solve main issues in Telecom. Blockchain is a decentralized and distributed ledger technology, Trustless operability, Immutable and auditable.
+
+**Scope**
+
+The activities of the Telecom-SIG include:
+
+- Identifying related proofs of concepts, current pilot, use cases and functional architecture;
+- Working towards building Telecom Blockchain consortium;
+- Sharing stories of successes, failures, opportunities and challenges;
+- Identifying conferences or other opportunities to connect face to face, as well as submit talks or present as a group at an event.
+
+**Work Products**
+
+The  initial work products will include a set of documents describing Telecom use cases, White Papers, Technical Solutions for blockchain technology. Some of the use cases (but are not limited to) SLA Management, ONAP, OSM,  Multi-Domain Orchestrator, 5G, LF Edge, Network Slicing, IIoT, SDN, NFV etc. This will be an inventory of example use cases which may suggest Telecom applications that are built or could be built using Hyperledger. The Telecom-sig may also host in-person meetings intended to accelerate the Special Interest group's mission.
+
+**Collaborators**
+
+This SIG will collaborate with other Hyperledger groups, Linux Foundation Open Source Networking, the TSC, Linux Foundation staff, and the project maintainers. The Telecom SIG is interested in collaborating with other Hyperledger and non-Hyperledger groups that aim to identify and share blockchain solutions that increase impact in global development.
+
+**Interested Parties**   
+
+\[please add your name below]
+
+The following individuals have already expressed an interest in joining this working group, and we hope they will become contributors over the first year:
+
+- Vipin Rathi, -- [https://www.linkedin.com/in/vipratos/](https://www.linkedin.com/in/vipratos/)
+- Arif Khan, OPNFV Ambassador,
+- Phil  Networking and Orchestration in Linux Foundation,
+- Luigi Iannone,
+- Christopher [Spanton, Christopher.Spanton@t-mobile.com](mailto:luigi.iannone@telecom-paristech.fr)
+- Axel Nennker, [axel.nennker@telekom.de](mailto:axel.nennker@telekom.de), TGB Sovrin Foundation
+- Christian Esteve Rothenberg, University of Campinas,
+- Vinay, NIC, – [https://www.linkedin.com/in/vinay-chaudhary-25369b36/](https://www.linkedin.com/in/vinay-chaudhary-25369b36/)
+- Jean-Pierre Seifert, TU-Berlin
+- Raphael Vicente Rosa from University of Campinas
+  
+- Martin Kurze, Deutsche Telekom
+- Catherine Mulligan,
+- Bilal Saleh, -- [https://www.linkedin.com/in/bilalsaleh/](https://www.linkedin.com/in/bilalsaleh/)
+- Zhongmin Guo,
+- Dr. Michael Merkl, Nokia,
+- George Zhao, Huawei,
+- Trishan de Lanerolle, Linux Foundation
+- Manuel Buil, SUSE,
+- Brian Keating, Intel,
+- Kapil Sood, Intel,
+- Murat Turpçu, Turk Telecom
+- Alla Goldner, Amdocs,
+- Kumar, Amrith, Verizon
+- Pete Koat, Incognito, -- [https://www.linkedin.com/in/petekoat](https://www.linkedin.com/in/petekoat)
+- Fabio Aiello, HPE,
+- Woojune Kim
+- Chengappa M R
+
+<!--THE END-->
+
+- Yaron Kanza AT&amp;T Labs
+- Amandeep Singh IBM
+
+<!--THE END-->
+
+- Mathews Thomas  IBM
+- Janki Vora  IBM
+- Ian Jolliffe, Wind River,
+- Alberto Goncalves
+- Bobbi Muscara Ledger Academy
+- David Perez Caparros, Swisscom,
+- Vipin Bharathan, dlt llc,
+- Noel MacLoughlin
+- Sunay Zelawat Subex [https://www.linkedin.com/in/sunay-zelawat-7b63ab17](https://www.linkedin.com/in/sunay-zelawat-7b63ab17)
+- Jollen Chen, Flowchain
+- Saurabh Malviya, Centurylink
+
+**Proposed Chair**
+
+The following individual has volunteered to serve as the initial Chair for the Special Interest Group: Vipin Rathi.
+
+Usually this is the person who has been most active in encouraging the development of the Special Interest Group.  The Chair will kick off the discussions and work products, as well as, manage the tone and cadence of conversations.
+
+Document generated by Confluence on Nov 26, 2024 16:46
+
+[Atlassian](http://www.atlassian.com/)

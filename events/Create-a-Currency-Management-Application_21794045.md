@@ -1,0 +1,73 @@
+1. [Community Events](index.html)
+2. [Community Events Home](Community-Events-Home_21790731.html)
+3. [Workshops](Workshops_21790888.html)
+
+# Community Events : Create a Currency Management Application
+
+Created by David Boswell, last modified on Oct 12, 2023
+
+### **How to Create a Currency Management Application and Deploy it on a Hyperledger Fabric Network**
+
+**Time:**
+
+- Thursday, October 12 at 9 AM Pacific
+
+**Registration:**
+
+- [Register for the workshop](https://zoom.us/meeting/register/tJAucu6tpjstGdWBjYkepXixkFEBP4637-sk)
+
+**Speakers:**
+
+- [Marcus Brandenburger](https://research.ibm.com/people/marcus-brandenburger), Research Staff Member at IBM Research
+- [Angelo De Caro](https://www.linkedin.com/in/angelo-de-caro-7954625/), Senior Research Scientist at IBM Research
+- [Arne Rutjes](https://www.linkedin.com/in/arnerutjes/), Blockchain Architect at IBM
+
+**Workshop description:**
+
+In this comprehensive guide, we'll walk you through two essential aspects of the Fabric Token-SDK. Firstly, you'll learn how to develop a straightforward token application to manage a currency. You'll grasp the fundamentals of creating tokens, and implementing transaction logic using the Fabric Token-SDK. Once you've mastered the application development, we'll then show you how to effortlessly deploy it in your existing Fabric network, ensuring a seamless integration with your blockchain infrastructure. By the end of this tutorial, you'll be equipped with the skills to expand your blockchain capabilities and unleash the true potential of decentralized currency management.
+
+**Discussion:**
+
+If you have questions about the workshop, join us on the [Hyperledger Discord server](https://chat.hyperledger.org/) in the [#fabric-token-sdk channel](https://discord.com/channels/905194001349627914/945691840110272522).
+
+**Relevant Links:**
+
+[Hyperledger Fabric Token SDK on Github](https://labs.hyperledger.org/labs/fabric-token-sdk.html)
+
+[Hyperledger Fabric on GitHub](https://github.com/hyperledger/fabric)
+
+# Learning Resources
+
+If you'd like to prepare for this workshop by learning more about Central Bank Digital Currency, check out these resources:
+
+- [How Hyperledger Technologies Can Help Build Central Bank Digital Currencies](https://lf-hyperledger.atlassian.net/wiki/display/events/Moving+CBDCs+from+Conception+to+Reality)
+- [Hyperledger in Action: Central Bank Digital Currencies](https://project.linuxfoundation.org/hyperledger-cbdcs)
+- [The National Bank of Cambodia boosts financial inclusion with Hyperledger Iroha](https://www.hyperledger.org/learn/publications/soramitsu-case-study)
+
+# Getting Involved
+
+And if you'd like to get involved with the Hyperledger community, you are welcome to do so.  Everything the project does is open to anyone who is interested.  More details about connecting with the parts of the Hyperledger community that are exploring CBDCs are below.
+
+- [Financial Markets Special Interest Group](https://lf-hyperledger.atlassian.net/wiki/display/CMSIG/Financial+Markets+SIG)
+- [Hyperledger Fabric](https://lf-hyperledger.atlassian.net/wiki/display/fabric/Hyperledger+Fabric)
+- [Hyperledger Iroha](https://lf-hyperledger.atlassian.net/wiki/display/iroha/Hyperledger+Iroha)
+- [Hyperledger Fabric Token SDK lab](https://labs.hyperledger.org/labs/fabric-token-sdk.html)
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [cbdc\_workshop\_april\_2023\_small.png](attachments/21794045/21794046.png) (image/png)  
+![](images/icons/bullet_blue.gif) [cbdc\_workshop\_april\_2023.png](attachments/21794045/21794047.png) (image/png)  
+![](images/icons/bullet_blue.gif) [firefly\_workshop\_march2023.png](attachments/21794045/21794048.png) (image/png)  
+![](images/icons/bullet_blue.gif) [Hyperledger Aries Workshop Nov 10\_Community Engagement.pdf](attachments/21794045/21794049.pdf) (application/pdf)  
+![](images/icons/bullet_blue.gif) [Hyperledger Aries Workshop Nov 10\_Indy Network Tools.pdf](attachments/21794045/21794050.pdf) (application/pdf)  
+![](images/icons/bullet_blue.gif) [Hyperledger Aries Workshop Nov 10\_Aries and ACA-Py.pdf](attachments/21794045/21794051.pdf) (application/pdf)  
+![](images/icons/bullet_blue.gif) [Hyperledger Aries Workshop Nov 10\_Intro to Decentralized Identity.pdf](attachments/21794045/21794052.pdf) (application/pdf)  
+![](images/icons/bullet_blue.gif) [aries\_workshop\_rerun\_nov2022.png](attachments/21794045/21794053.png) (image/png)  
+![](images/icons/bullet_blue.gif) [aries\_workshop\_card\_updated\_small.png](attachments/21794045/21794054.png) (image/png)  
+![](images/icons/bullet_blue.gif) [aries\_workshop\_card\_small.png](attachments/21794045/21794055.png) (image/png)  
+![](images/icons/bullet_blue.gif) [currency\_application\_workshop\_october\_small.png](attachments/21794045/21794057.png) (image/png)  
+![](images/icons/bullet_blue.gif) [currency\_application\_workshop\_october.png](attachments/21794045/21794143.png) (image/png)
+
+Document generated by Confluence on Nov 26, 2024 16:14
+
+[Atlassian](http://www.atlassian.com/)

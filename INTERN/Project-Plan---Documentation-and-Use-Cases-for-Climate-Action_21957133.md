@@ -1,0 +1,145 @@
+1. [Hyperledger Mentorship Program](index.html)
+2. [Hyperledger Mentorship Program](Hyperledger-Mentorship-Program_21954571.html)
+3. [Mentorship Projects](Mentorship-Projects_21954604.html)
+4. [2021 Projects](2021-Projects_21964295.html)
+5. [Documentation and Use Cases for Climate Action](Documentation-and-Use-Cases-for-Climate-Action_21956582.html)
+
+# Hyperledger Mentorship Program : Project Plan - Documentation and Use Cases for Climate Action
+
+Created by Si Chen, last modified by Dounia Marbouh on Nov 18, 2021
+
+## **Abstract**
+
+Interview stakeholders and draft use case for a white paper on how to improve voluntary carbon offsets market transparency with blockchain.
+
+## **Mentor and Mentee**
+
+MentorMentorMenteeMentee
+
+Si Chen
+
+US PST
+
+[sichen@opensourcestrategies.com](mailto:sichen@opensourcestrategies.com)
+
+Sherwood Moore
+
+US PST
+
+[woodymo@gmail.com](mailto:woodymo@gmail.com)
+
+Dounia Marbouh
+
+GST 
+
+[marbdounia@gmail.com](mailto:marbdounia@gmail.com)
+
+Kris Stern
+
+HKT
+
+[kasternhk@gmail.com](mailto:kasternhk@gmail.com)
+
+Communication channel: Email and [Github](https://github.com/hyperledger-labs/blockchain-carbon-accounting/labels/mentorship-use-cases)
+
+## **Deliverables**
+
+- 1 Start white paper with background on voluntary carbon offsets market in the context of the ecosystem mapping, with citations of existing literature.
+- 2 Interviews with stakeholders of the ecosystem
+- 3 Architecture for [voluntary carbon offsets directory](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/19007691/Completed+Research+Voluntary+Carbon+Offsets+Directory+Research) directory based on interviews, ecosystem mapping, and other discoveries
+- 4 Paper covering the [voluntary carbon offsets directory](https://lf-hyperledger.atlassian.net/wiki/spaces/CASIG/pages/19007691/Completed+Research+Voluntary+Carbon+Offsets+Directory+Research)
+
+## **Milestones**
+
+**Eval 1:**
+
+- a Initial draft of white paper including background and ecosystem mapping.
+- b First interviews conducted.
+
+**Eval 2:**
+
+- c Additional stakeholder interviews conducted.
+- d Analysis of offsets market data.
+
+**Eval 3:**
+
+- e.
+- f.
+
+**Eval 4:**
+
+- g.
+- h.
+
+## **Timeline**
+
+WeekTask/PlanStatus**May 24 - May 28**Initial project plan.  Reference materials.Done.**May 31 - June 11**First draft of white paper and interview request template.Done**June 14 - June 25**Finish ecosystem mapping.  Draft list of questions.  Set up online questionnaire.  Begin outreach for interviews.Done **June 28 - July 2**Conduct initial interviews.Done **July 5 - July 9**
+
+Eval 1
+
+**July 12 - July 23**Conduct interviews.Done **July 26 - August 6**Conduct initial interviews.Done **August 9 - August 13**Conduct initial interviews.Done **August 16 - August 27**
+
+Eval 2
+
+**August 30 - Sept 3**Conduct initial interviews.Done **Sept 6 - Sept 17**
+
+- Consolidate results of detailed interviews into spreadsheet of stakeholder interviews - [Dounia Marbouh](https://lf-hyperledger.atlassian.net/wiki/people/712020:812d91db-6e72-4e07-9f70-552f81025669?ref=confluence)
+- Summarize [World Bank Meta Registry video](https://olc.worldbank.org/content/testing-use-blockchain-build-meta-registry-decentralized-climate-markets-0) - [Dounia Marbouh](https://lf-hyperledger.atlassian.net/wiki/people/712020:812d91db-6e72-4e07-9f70-552f81025669?ref=confluence)
+- JCM Mitsubishi Interview - [Kris Stern](https://lf-hyperledger.atlassian.net/wiki/people/712020:b3c9e0e2-abcb-4b85-a992-ccc3b3fd535b?ref=confluence)
+- Notes from Novaa interview - [Woody Moore](https://lf-hyperledger.atlassian.net/wiki/people/70121:310f5eae-a11b-435a-ae52-42b0a796fe0b?ref=confluence)
+- Check on TSVCM participation - [Woody Moore](https://lf-hyperledger.atlassian.net/wiki/people/70121:310f5eae-a11b-435a-ae52-42b0a796fe0b?ref=confluence)
+- Follow up for additional interviews  - [Si Chen](https://lf-hyperledger.atlassian.net/wiki/people/557058:c49c10c4-25bf-4187-b582-b521c3c33223?ref=confluence)
+- Update online questionnaire for market participants - [Dounia Marbouh](https://lf-hyperledger.atlassian.net/wiki/people/712020:812d91db-6e72-4e07-9f70-552f81025669?ref=confluence)
+- Offsetter.io interview - [Dounia Marbouh](https://lf-hyperledger.atlassian.net/wiki/people/712020:812d91db-6e72-4e07-9f70-552f81025669?ref=confluence)
+
+Done **Sept 20 - 24**
+
+Continue stakeholders interviews
+
+Analyze interviews for patterns
+
+Done **Sept 27 - Oct 1**
+
+Finish all stakeholders interviews
+
+Patterns of stakeholders interviews
+
+Eval 3
+
+Done 
+
+**Oct 4 - Oct 15**
+
+Start writing paper
+
+Done **Oct 18 - Oct 29**
+
+Finish final draft of paper before commentary
+
+Done **Nov 1 - Nov 5**
+
+Officially release paper for public commentary 
+
+Send to interviewees for comments, get confirmation they are 
+
+Done **Nov 8 - Nov 12**
+
+Eval 4
+
+Final evaluation and presentation of project 
+
+Submit paper for publication
+
+## **Tasks**
+
+## **Explanation**
+
+Explanation of the project goes here.
+
+## **Methodology**
+
+Methodology followed is here.
+
+Document generated by Confluence on Nov 26, 2024 14:56
+
+[Atlassian](http://www.atlassian.com/)

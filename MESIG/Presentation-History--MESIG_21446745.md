@@ -1,0 +1,63 @@
+1. [Media and Entertainment SIG](index.html)
+2. [Media and Entertainment SIG](Media-and-Entertainment-SIG_21430277.html)
+3. [MESIG - Media and Entertainment](MESIG---Media-and-Entertainment_21446135.html)
+4. [Upcoming Presentations -MESIG](Upcoming-Presentations--MESIG_21446665.html)
+
+# Media and Entertainment SIG : Presentation History -MESIG
+
+Created by Brett, last modified by Randy Givens on Mar 09, 2024
+
+* * *
+
+![](attachments/21446745/21457993.png?effects=border-simple%2Cshadow-kn&height=98)
+
+The MESIG will regularly invite guest speakers to present to the group about work that is happening with blockchain/DLT in the media and entertainment industry.  If you are interested in presenting to this subgroup, please feel free to contact [Brett Russell](https://lf-hyperledger.atlassian.net/wiki/people/712020:5f3e39b1-693f-4a31-b610-3c9ae98ed720?ref=confluence) to discuss and arrange a time.
+
+* * *
+
+### Media &amp; Entertainment Special Interest Group
+
+### **Past Presentations**
+
+**Click Here For All Past Presentations:**  [Hyperledger Media &amp; Entertainment SIG YouTube Play List](https://youtube.com/playlist?list=PL0MZ85B_96CHihKIyz5LaWHTfI3SOQeiE&si=NMYbyOOTNF3gFqT4)
+
+- [A Thoughtful Discussion With Todd Holmes, Professor of Entertainment Media Management at California State University](https://youtu.be/lpq7MofEwzg?si=ZJZMvYor9TxM1Pqi) - November 6, 2023
+- [Web3 Collaborative Storytelling: How Blockchain Will Disrupt IP Ownership in the Entertainment Industry](https://youtu.be/9gKI7q_3Vaw?si=uI4YVGZWQjTnEoO_) - Sept. 12, 2023
+- [How Media &amp; Entertainment Can Build Trust In AI Using Blockchain](https://youtu.be/Jf50i1p6Rvc?si=1djhIJhRYNI27b4e) - August 14, 2023
+- [True Tickets: Creating The Future Of Ticketing](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/True+Tickets+Creating+The+Future+Of+Ticketing) - August 11, 2021 ([Video](https://youtu.be/WNyxB463mQI))
+- [An Introduction to FABLO](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/An+Introduction+to+FABLO) - September 21, 2021 ([Video](https://youtu.be/WNyxB463mQI))
+- [Blockchain Studies in Historically Black Colleges and Universities (HBCUs)](https://lists.hyperledger.org/g/media-entertainment-sig/topic/fireside_chat_tomorrow/85089755?p=%2C%2C%2C20%2C0%2C0%2C0%3A%3Arecentpostdate%2Fsticky%2C%2C%2C20%2C2%2C0%2C85089755) - August 24, 2021 ([Video](https://www.youtube.com/watch?v=Fl9dvl-Fm60))
+- [Introduction to Minifabric](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/An+Introduction+to+Minifabric) – July 27, 2021 ([Video](https://www.youtube.com/watch?v=ggoAZA2hu2k))
+- [Introducing Palm NFT Studio](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/Introducing+Palm+NFT+Studio) – July 14, 2021 ([Video](https://youtu.be/g_XHonG4HeQ))
+- [Building NFT Marketplaces and Blockchain Apps Fast](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/Xooa%3A+Building+NFT+Marketplaces+and+Blockchain+Apps+Fast) - June 29, 2021 ([Video](https://youtu.be/PwPbNDo8b2I))
+- [Cardstack: : Building Blocks for the New Creator Economy](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/Cardstack%3A+Building+Blocks+for+the+New+Creator+Economy) - June 1, 2021 ([Video](https://www.youtube.com/watch?v=iFUGN-wYLdg))
+- [Verizon Full Transparency initiative](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/Verizon+Full+Transparency+Initiative) – April 6, 2021 ([Video](https://www.youtube.com/watch?v=vNd1bFutlTc&t=184s))
+- [Panini NFTs on Hyperledger Sawtooth](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/Panini+NFTs+on+Hyperledger+Sawtooth) – March 23, 2021 ([Video](https://www.youtube.com/watch?v=2uLJNl468ZI))
+
+Please consider sharing these past presentations on your social media. ![](plugins/servlet/confluence/placeholder/unknown-macro)
+
+Don't forget to tag and follow Hyperledger [Twitter](https://twitter.com/Hyperledger/) - [LinkedIn](https://www.linkedin.com/company/hyperledger-project/) - [Facebook](https://www.facebook.com/hyperledger)
+
+**New to Hyperledger?** You'll need a free [Linux Foundation ID (LFID)](https://identity.linuxfoundation.org/) to use most of the community's tools. **[Here's how to get your LFID](https://www.youtube.com/watch?v=EEc4JRyaAoA).**
+
+### Media &amp; Entertainment SIG Subgroups:
+
+- [MESIG - Gaming Subgroup](https://lf-hyperledger.atlassian.net/wiki/display/MESIG/MESIG+-+Gaming+Subgroup)
+
+### Hyperledger Foundation
+
+- [Website](https://www.hyperledger.org/)
+- [Twitter](https://twitter.com/Hyperledger/)
+- [LinkedIn](https://www.linkedin.com/company/hyperledger-project/)
+- [YouTube](https://www.youtube.com/channel/UC7_X0WkMtkWzaVUKF-PRBNQ)
+- [Facebook](https://www.facebook.com/hyperledger)
+- [GitHub](https://github.com/hyperledger)
+- [Wiki](https://lf-hyperledger.atlassian.net)
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [HL\_SIG\_Logo\_MediaEntertainment-405x98.png](attachments/21446745/21457993.png) (image/png)
+
+Document generated by Confluence on Nov 27, 2024 07:36
+
+[Atlassian](http://www.atlassian.com/)

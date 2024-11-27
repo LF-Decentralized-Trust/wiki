@@ -1,0 +1,129 @@
+1. [Hyperledger Mentorship Program](index.html)
+2. [Hyperledger Mentorship Program](Hyperledger-Mentorship-Program_21954571.html)
+3. [Mentorship Projects](Mentorship-Projects_21954604.html)
+4. [2021 Projects](2021-Projects_21964295.html)
+
+# Hyperledger Mentorship Program : Implement two compiler passes for the Solang Solidity Compiler
+
+Created by Sean Young, last modified by Lucas Steuernagel on Nov 20, 2021
+
+**Project Title**Implement two compiler passes for the Solang Solidity Compiler**Status**
+
+COMPLETED
+
+**Difficulty**
+
+  HIGH
+
+# Description
+
+The Solang Solidity Compiler is a new compiler project, which compiles Solidity to wasm or bpf. The compiler does not yet detect if a variable is used before it is assigned, or detecting that a value set is never used. For example:
+
+For example:
+
+```
+contract test {
+  function f(bool condition) public return (int) {
+    int x;
+    int y = 5;
+    if (condition) {
+      x = 102;
+    }
+
+    return x;
+  }
+}
+```
+
+This code has two problems: y is never used, and the value of x might be returned without it being given a value. In compiler theory this is done with [reaching definitions](https://en.wikipedia.org/wiki/Reaching_definition). Solang already has an implementation of reaching definitions for the constant propagation pass, which will have to be generalized. Unused variables should be removed from the generated code.
+
+Secondly, implement a [common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination) pass, which also uses the same reaching definitions implementation, to ensure subexpressions can safely be substituted.
+
+Additional Information
+
+[https://en.wikipedia.org/wiki/Reaching\_definition](https://en.wikipedia.org/wiki/Reaching_definition)
+
+[https://en.wikipedia.org/wiki/Common\_subexpression\_elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
+
+[https://en.wikipedia.org/wiki/Solidity](https://en.wikipedia.org/wiki/Solidity)
+
+[https://github.com/hyperledger-labs/solang](https://github.com/hyperledger-labs/solang)
+
+# Learning Objectives
+
+- First and foremost the mentee will learn how to be a positive collaborator and contributor in an active open source project.
+- Learn how to work within the Hyperledger open source ecosystem and culture.
+- Understand smart contracts and the Solidity language
+- Gain a greater understanding of compiler optimizations and compiler theory
+
+# Expected Outcome
+
+- Solang gives errors when undefined variables are used
+- Solang gives warnings when variables are not used, and removes them from the generated code
+- Solang does a common subexpression elimination pass on the generated code
+- Tests and documentation
+
+# Relation to Hyperledger
+
+This is part of the Solang Hyperledger Labs project. Hyperledger Burrow and Hyperledger Sawtooth can run smart contracts compiled using Solang. So, this tool will help users write smart contracts in Solidity for those projects.
+
+# Education Level
+
+The ideal mentee is a university student or a developer with one or two years of experience with a solid background in Computer Science, especially compiler theory.
+
+# Skills
+
+The following skills are required:
+
+- Working knowledge of rust
+- Understanding of compiler theory; understanding of control flow graphs, code generation from the ast, and compiler optimization
+
+# Future plans
+
+There are other compiler passes which can be done, and the existing passes can be extended.
+
+# Preferred Hours and Length of Internship
+
+This project can be done by a full-time or part-time mentee.
+
+# Mentor(s) Names and Contact Info
+
+Sean Young
+
+[sean@mess.org](mailto:sean@mess.org)
+
+hyperledger chat: seanyoung
+
+twitter/telegram: iamseanyoung
+
+# Mentee
+
+Lucas Steuernagel
+
+Github: [LucasSte](https://github.com/LucasSte)
+
+LinkedIn: [Lucas Steuernagel](https://www.linkedin.com/in/lucasste/)
+
+# Project Results:
+
+## Github Pull Requests
+
+1. [Warnings for unused variables](https://github.com/hyperledger-labs/solang/pull/429)
+2. [Unused variable elimination](https://github.com/hyperledger-labs/solang/pull/448)
+3. [Raise warnings for undefined variables](https://github.com/hyperledger-labs/solang/pull/468)
+4. [Available expressions analysis](https://github.com/hyperledger-labs/solang/pull/503)
+5. [Common subexpression elimination](https://github.com/hyperledger-labs/solang/pull/550)
+
+In addition, there were other pull requests to fix bugs, to raise warnings for events that have never been emitted and to prettify the warnings. The complete list of pull requests is available [here](https://github.com/hyperledger-labs/solang/pulls?q=is%3Apr%20author%3ALucasSte%20is%3Aclosed).
+
+# Final Report
+
+[![](attachments/thumbnails/21956641/21966031)](attachments/21956641/21966031.pdf)
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [Hyperledeger Presentation.pptx.pdf](attachments/21956641/21966031.pdf) (application/pdf)
+
+Document generated by Confluence on Nov 26, 2024 14:57
+
+[Atlassian](http://www.atlassian.com/)

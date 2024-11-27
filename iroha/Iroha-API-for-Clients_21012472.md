@@ -1,0 +1,108 @@
+1. [Hyperledger Iroha](index.html)
+2. [Hyperledger Iroha](Hyperledger-Iroha_20873224.html)
+3. [Iroha 2](Iroha-2_21012047.html)
+4. [Requests for Comments](Requests-for-Comments_21016001.html)
+
+# Hyperledger Iroha : Iroha API for Clients
+
+Created by Nikita Puzankov, last modified on Aug 26, 2020
+
+Status
+
+IN PROGRESS
+
+Stakeholders
+
+[武宮誠](https://lf-hyperledger.atlassian.net/wiki/people/557058:12c320e6-5d17-404f-b20e-bfa5721ae960?ref=confluence) [Egor Ivkov](https://lf-hyperledger.atlassian.net/wiki/people/5dd9631c1cf3c20ef5ff9f0f?ref=confluence) [Yuriy Vinogradov](https://lf-hyperledger.atlassian.net/wiki/people/557058:0b85dbf9-2cc9-4bee-a3a0-2815e5bb51eb?ref=confluence) [Vladislav Markushin](https://lf-hyperledger.atlassian.net/wiki/people/5ecbc0c8eb77320c1f684409?ref=confluence) 
+
+Outcome
+
+Error rendering macro 'jira' : null
+
+Due date
+
+11 Sep 2020
+
+Owner
+
+[Nikita Puzankov](https://lf-hyperledger.atlassian.net/wiki/people/5df113768998970e5b434e0a?ref=confluence) 
+
+## Background
+
+Previous assumptions about Iroha Network and Web API in general were usage of iroha-client with encapsulation of underlying (plain TCP) protocols.  
+New needs from dependent projects require discussion of these assumptions and decision how to work with iroha network.
+
+Iroha Bridge module provides an ability to connect different blockchains together and needs an ability to communicate between both sides via web interface.
+
+Current Iroha approach is a proprietary TCP based protocol encapsulated inside \`iroha\_network\` crate. \`iroha\_client\` crate uses \`iroha\_network\` inside and should be  used itself by other applications including other blockchain solutions like \`Polkadot\`.
+
+It [turns out](https://substrate.dev/docs/en/knowledgebase/runtime/off-chain-workers#fetching-external-data) that \`Substrate's\` off chain workers provides only HTTP (more high level) API for communications with external resources (like Iroha Peer).
+
+Requirements from [Yuriy Vinogradov](https://lf-hyperledger.atlassian.net/wiki/people/557058:0b85dbf9-2cc9-4bee-a3a0-2815e5bb51eb?ref=confluence)
+
+- HTTP compatible Iroha Peer API
+- HTTP client library for Instructions, Queries, Events
+- Rust client library (for Substrate's Off-chain workers)
+- JS Client library
+
+## Problem
+
+Different clients environments have different restrictions - the strictest one is Substrate's Off-chain worker runtime which only supports HTTP 1.
+
+Also DevOps team and Client side developers prefer to use JSON as a client-peer communication format. Some scenarios require to have an ability to combine Instructions API with Events API (send transaction and start consuming updates on it).
+
+## Solution
+
+As a solution we propose this high-level design. HTTP and WebSocket protocols will be used for communication between Clients and Iroha Peers.
+
+Iroha should provide HTTP API.
+
+- Endpoints:
+  
+  - Iroha Special Instructions
+  - Iroha Queries
+  - Iroha Events (under consideration - needed for Substrate)
+- MIME type of the HTTP API will be \`application/json\`
+- Clients build their own functionality or use 3rd party clients to establish HTTP connection, sign and construct transactions
+- [JSON RPC](https://www.jsonrpc.org/) or RESTfull approach should be discussed
+
+Additionally Iroha should provide WebSocket API.
+
+- Endpoints:
+  
+  - Iroha Events
+  - Iroha Special Instructions (under consideration - was requested by client-side developers)
+  - Iroha Queries (under consideration - was requested by client-side developers)
+- [JSON RPC](https://www.jsonrpc.org/) can be used as high level protocol over WebSocket
+
+### Decisions
+
+- Iroha will provide HTTP and WebSocket API for clients
+- JSON format for messages encoding/decoding will be used
+
+### Alternatives
+
+- Stay with TCP and use middle ware for protocol and messages transformations - not user friendly
+- Use HTTP 2.0 - will not work with Substrate
+
+### Concerns
+
+- WebSocket connections should have configuration options to prevent bad performance of Iroha peers under high load
+
+### Assumptions
+
+- Bridge clients will use Substrate's Off-chain Workers with an ability to communicate over HTTP only
+
+### Risks
+
+- Performance regress \`\[8; 5]\`
+
+## Action items
+
+- [Yuriy Vinogradov](https://lf-hyperledger.atlassian.net/wiki/people/557058:0b85dbf9-2cc9-4bee-a3a0-2815e5bb51eb?ref=confluence)[Kamil Salakhiev](https://lf-hyperledger.atlassian.net/wiki/people/557058:07723e0b-a027-4cc4-ad6d-324e41cccb4d?ref=confluence) [武宮誠](https://lf-hyperledger.atlassian.net/wiki/people/557058:12c320e6-5d17-404f-b20e-bfa5721ae960?ref=confluence) review requirements
+- [Yuriy Vinogradov](https://lf-hyperledger.atlassian.net/wiki/people/557058:0b85dbf9-2cc9-4bee-a3a0-2815e5bb51eb?ref=confluence) ask for comments from clients' developers
+- [Nikita Puzankov](https://lf-hyperledger.atlassian.net/wiki/people/5df113768998970e5b434e0a?ref=confluence) design the result of the discussion
+
+Document generated by Confluence on Nov 26, 2024 15:06
+
+[Atlassian](http://www.atlassian.com/)
